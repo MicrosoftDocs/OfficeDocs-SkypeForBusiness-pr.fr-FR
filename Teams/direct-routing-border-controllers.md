@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier que leurs produits fonctionnent avec un routage direct.
-ms.openlocfilehash: 4a39ed6bde0879bb47d1f586d0ffefba06e59ca8
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: e694f82ff7d9ed36cf217d5ebe40fc2be91b442c
+ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417859"
+ms.locfileid: "42544970"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -61,7 +61,7 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (Build 537)     |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Mobilité du ciel en rouge </li> </ul>   |    Oui     |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (Build 537)     |  <ul> <li>[Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Mobilité du ciel en rouge </li> </ul>   |     Oui      |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (Build 216)    |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Mobilité du ciel en rouge </li> </ul>    |     Oui      |   
-| | Séries de Edgemarc |  &#10004; | | 15.6.1 | 
+| | Séries de EdgeMarc |  &#10004; | | 15.6.1 | 
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
@@ -77,5 +77,8 @@ Le tableau suivant répertorie les appareils qui sont vérifiés en matière d�
 |                                                       Fournisseur                                                        |       Product       | Jugé
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [CodesAudio](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+| [»](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Version du logiciel : 8.1.1 (Build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [»](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Version du logiciel : 8.1.1 (Build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+
 
 Pour nous faire part de vos commentaires sur les équipes, par exemple des idées de nouvelles fonctionnalités, voir [UserVoice](https://microsoftteams.uservoice.com) Notez la certification accordée à une version majeure. Cela signifie que le microprogramme avec n’importe quel numéro dans le microprogramme SBC après la version principale est pris en charge.
