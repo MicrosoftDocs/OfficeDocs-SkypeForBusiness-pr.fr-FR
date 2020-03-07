@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
+- ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41636843"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559876"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -36,6 +37,13 @@ Apprenez à configurer votre organisation Office 365 pour utiliser le tableau de
 Le tableau de bord de qualité des appels (bord) vous permet d’obtenir des renseignements sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise online. Cette rubrique décrit la procédure de démarrage de la collecte de données que vous pouvez utiliser pour résoudre les problèmes de qualité d’appel.
 
 Pour l’instant, les fonctionnalités avancées bord et bord sont disponibles pour une utilisation. Advanced bord est disponible à <span>https://cqd.teams.microsoft.com</span>l’adresse. Nouvelle URL sauf si vous êtes connecté à l’aide de vos informations d’identification d’administrateur.
+
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Utiliser Power BI pour analyser des données de bord
+
+Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et enregistrer vos données bord.
+
+Pour en savoir plus, voir [utiliser Power bi pour analyser les données de bord](CQD-Power-BI-query-templates.md) .
+
 
 ## <a name="latest-changes-and-updates"></a>Dernières modifications et mises à jour
 
@@ -355,7 +363,7 @@ Vous pouvez télécharger un exemple de modèle [ici](https://github.com/Microso
 - Le fichier de données n’inclut pas de ligne d’en-tête de tableau. La première ligne du fichier de données est censée être de véritables données, pas d’étiquettes d’en-tête comme « réseau ».
 - Les types de données dans le fichier ne peuvent être que des chaînes, des entiers ou des valeurs booléennes. Pour le type de données Integer, la valeur doit être une valeur numérique. Les valeurs booléennes doivent être égales à 0 ou 1.
 - Si une colonne utilise le type de données chaîne, un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
-- Chaque ligne doit comporter 14 colonnes, chaque colonne doit avoir le type de données approprié, et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant :
+- Il doit y avoir 14 colonnes pour chaque ligne (ou 15 si vous souhaitez ajouter la colonne facultative), chaque colonne doit avoir le type de données approprié, et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant :
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -423,6 +431,33 @@ Dans la liste déroulante des rapports qui se trouvent en haut de l’écran, \(
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Pourquoi bord marque-t-on comme bon dans le cas d’un ou plusieurs participants à la réunion ?
+
+Découvrez les règles utilisées par bord pour la [classification des flux](stream-classification-in-call-quality-dashboard.md).
+ 
+Dans le cas des flux audio, l’un des cinq classifieurs, qui est calculé pour la moyenne en fonction de la longueur de l’appel, peut être un paramètre « Good ». Cela ne signifie pas que les utilisateurs n’ont pas eu d’action ayant contribué à une chute ou un problème audio. 
+
+Pour savoir s’il s’agit d’un problème de réseau, observez le delta entre les valeurs moyennes de la session et les valeurs maximales. Les valeurs maximales sont le maximum détecté et signalé lors de la session.
+ 
+Voici un exemple de procédure à suivre pour résoudre ce problème. Imaginons que vous suiviez une trace réseau lors d’un appel et les 20 premières minutes qu’il n’y a pas de paquets perdus, mais que vous avez un espace de 1,5 secondes de paquets et que vous avez l’habitude de le reste de l’appel. La moyenne est <de 10% (0,1) de perte de paquets même dans une analyse RTP de suivi Wireshark. Quelle a été la perte de paquets maximale ? 1,5 secondes sur une période de 5 secondes seraient de 30% (0,3). A-t-il observé au cours de la période de cinq secondes (peut-être, ou peut-être fractionné au cours de la période d’échantillonnage) ?
+ 
+Si les métriques du réseau s’importent correctement dans les valeurs moyenne et maximale, accédez à d’autres données de télémétrie : 
+- Vérifiez le ratio d’événement d’UC insuffisant pour vérifier si les ressources de l’UC détectées disponibles étaient insuffisantes et ont une mauvaise qualité. 
+- Le périphérique audio est-il en mode half duplex pour éviter les commentaires en raison de micros à proximité des haut-parleurs ? 
+- Vérifiez le coefficient d’événement AEC en mode half duplex. Le périphérique est-il en faute d’introduction ou de problème de micro, en raison d’une chute USB ou d’une station d’accueil USB, s’il est connecté à un concentrateur ou une station d’ancrage :  
+- Vérifiez les ratios d’événement liés aux problèmes liés aux périphériques et aux problèmes de micro. Est-ce que l’appareil proprement dit fonctionne correctement ?  
+- Vérifiez que l’appareil de capture et de rendu ne fonctionne pas.
+
+
+Pour en savoir plus sur les dimensions et les mesures disponibles dans la télémétrie bord, voir [dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
+
+Pour bruit de fond, activez la case à cocher Désactiver le coefficient d’événement pour voir la durée pendant laquelle les participants ont été désactivés.
+ 
+Créez des rapports détaillés dans bord et filtrez sur ID de réunion pour consulter tous les utilisateurs et les flux d’une réunion et ajouter les champs qui vous intéressent. Il est possible qu’un utilisateur signalant ce problème ne soit pas celui qui rencontre le problème. Ils signalent simplement l’utilisateur.
+ 
+La télémétrie ne sera pas nécessairement à l’origine du problème, mais elle peut vous aider à mieux comprendre la façon dont vous pouvez trouver et informer vos décisions. S’agit-il des mises à jour du réseau, du périphérique, du pilote ou du microprogramme, de l’utilisation ou de l’utilisateur ?
+
+
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Pourquoi les données du rapport bord v2 sont-elles différentes de celles du rapport bord v3 ? 
 
 Si vous voyez des différences de données entre bord v2 et v3, assurez-vous que la comparaison ou la validation des données est réalisée sur une « pommes-to-pommes » et un niveau étroit, et non sur un niveau agrégé. Par exemple, si vous filtrez les deux rapports pour les données du client de bureau MSIT de la construction de 30 ', le pourcentage de qualité médiocre doit être identique entre la version v2 et la version v3.
@@ -470,7 +505,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
@@ -481,3 +516,4 @@ Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1
 [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
