@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lisez cet article pour découvrir comment utiliser des appareils analogiques avec le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341794"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558514"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Utilisation de périphériques analogiques avec le routage direct du système téléphonique
 
@@ -39,16 +39,17 @@ Pour configurer l’utilisation de périphériques analogiques avec le routage d
 
 Cet exemple vous guide à travers les étapes suivantes :
 
-1. Connecter l’SBC au routage direct
-2. Créer une utilisation PSTN
-3. Créer un itinéraire vocal et l’associer à l’utilisation de PSTN
-4. Affectation de l’itinéraire vocal à l’utilisation RTC
-5. Activez l’utilisateur en ligne
-6. Affectation de la stratégie d’itinéraire vocale à l’utilisateur
-7. Créer un itinéraire vocal pour un appareil analogique
+1. Connectez l’SBC au routage direct.
+2. Créer une utilisation PSTN ;
+3. Créez un itinéraire et associez-le à l’utilisation de PSTN.
+4. Attribuez l’itinéraire de la voix à l’utilisation RTC.
+5. Activez l’utilisateur en ligne.
+6. Affectez la stratégie d’itinéraire vocale à l’utilisateur.
+7. Créer un itinéraire vocal pour un appareil analogique.
 
 Pour plus d’informations sur la connexion d’un disque ATA à un SBC et sur la configuration de l’SBC, voir le Guide de configuration de votre fabricant SBC :
 - [Documentation de configuration de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Documentation de configuration du ruban](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Étape 1.  Connecter l’SBC au routage direct
 

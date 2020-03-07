@@ -1,7 +1,7 @@
 ---
 title: Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 description: Exemples d’utilisation de PowerShell pour définir des stratégies dans teams pour contrôler les utilisateurs qui peuvent contenir des événements en direct au sein de votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46c3522cc428ec04d830d8bdb02bad56f5dfd437
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a7e9e96bde0112508da200bea741b9938e273a9d
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827112"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558614"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
@@ -140,7 +140,7 @@ Définissez la stratégie globale pour activer les légendes dynamiques et les s
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 
 

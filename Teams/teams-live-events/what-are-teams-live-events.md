@@ -1,7 +1,7 @@
 ---
 title: Que sont les événements en direct Microsoft Teams ?
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008086"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558524"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -89,7 +89,7 @@ Les administrateurs de clients peuvent afficher les données d’analyse en temp
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez au [plan pour les événements en direct teams](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 - [Événements en direct sur Microsoft 365 dans Yammer, Microsoft teams et Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Commencer à utiliser Microsoft teams Live Events](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

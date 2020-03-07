@@ -1,7 +1,7 @@
 ---
 title: Planifier des événements en direct dans Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaa9e00ea3491b66eedbcf8f00e3108b582d7aa9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827122"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558564"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -125,7 +125,7 @@ Vous pouvez utiliser des événements en direct teams dans plusieurs régions da
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [configurer pour les événements en direct teams](set-up-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Configurer les paramètres des événements en direct dans teams](configure-teams-live-events.md)

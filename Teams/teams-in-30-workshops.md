@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417869"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558604"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -50,9 +50,9 @@ ms.locfileid: "42417869"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Commencer à utiliser teams dans 30</h3>
+                        <h3>Commencer à utiliser teams dans 30 (début)</h3>
                         <P>Démarrez vos équipes dans 30 voyages sur le pied de page de droite. Comprenez le programme, qui doit participer, et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
-                        <p>*Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur*</p>
+                        <p><i>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</i></p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "42417869"
                     </div>
                     <div class="cardText">
                         <h3>Préparez vos utilisateurs finaux</h3>
-                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un subordonné de champions et garantir l’acceptation de l’utilisateur en tant que composant principal de votre déploiement d’équipes.</p><p>*Public : adoption et modification des propriétaires*</p>
+                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un subordonné de champions et garantir l’acceptation de l’utilisateur en tant que composant principal de votre déploiement d’équipes.</p><p><i>Public : adoption et modification des propriétaires</i></p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ ms.locfileid: "42417869"
                     </div>
                     <div class="cardText">
                     <h3>Préparer votre environnement-Partie I</h3>
-                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p>*Public : administrateurs informatiques*</p>
+                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p><i>Public : administrateurs informatiques</i></p>
 </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ ms.locfileid: "42417869"
                     </div>
                     <div class="cardText">
                         <h3>Préparer votre environnement-Partie 2</h3>
-                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p>*Public : administrateurs informatiques*</p>
+                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p><i>Public : administrateurs informatiques</i></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ ms.locfileid: "42417869"
                     <div class="cardText">
                     <h3>Optimiser et développer</h3>
                     <p>Concevoir un plan capable d’optimiser les performances du service, d’étendre les fonctionnalités d’équipes et d’intégrer de nouveaux utilisateurs.</p>
-                    <p>*Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur*</p>
+                    <p><i>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</i></p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,10 @@ ms.locfileid: "42417869"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Discussions d’équipes</h3>
-                    <p>Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.</p><p>*Public : administrateurs informatiques*</p>
+                    <h3>Discussions d’équipes</h3>
+                    <p>Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.</p>
+                    <p><strong>Prérequis</strong>: équipes dans 30 ateliers. La craie parle sur ce que vous allez découvrir dans les ateliers que vous trouverez sur cette page.</p>
+                    <p><i>Public : administrateurs informatiques</i></p>
                     </div>
                 </div>
             </div>
