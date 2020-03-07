@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558654"
+ms.locfileid: "42559323"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -75,6 +75,7 @@ Conçu pour les professionnels de l’informatique et les décideurs, les discus
         </a>
     </li>
     <li>
+        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,11 +86,12 @@ Conçu pour les professionnels de l’informatique et les décideurs, les discus
                     </div>
                     <div class="cardText">
                         <h3>Déploiement d’une application teams dans 60 minutes</h3>
-                        <p><font color="red"><i>À venir!</i></font> Développez des équipes à l’aide de modèles d’application pour créer des outils que vous utilisez tous les jours dans Teams, afin que votre travail soit réalisé au sein d’une même interface.</p>
+                        <p>Développez des équipes à l’aide de modèles d’application pour créer des outils que vous utilisez tous les jours dans Teams, afin que votre travail soit réalisé au sein d’une même interface.</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
         <div class="cardSize">
