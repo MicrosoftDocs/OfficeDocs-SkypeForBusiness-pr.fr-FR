@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551011"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559345"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -31,8 +31,10 @@ ms.locfileid: "42551011"
 > - Un ensemble d’articles rédigés pour les enseignants, qui comprend des conseils pratiques pour les étapes [**les plus importantes de l’enseignement dans Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft vous montre comment les enseignants utilisent Teams dans leur vie professionnelle. [**Transformer l’apprentissage avec Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft guide les enseignants dans l’enseignement au sein des classes Teams. [**Elaboration d’un environnement d’apprentissage collaboratif avec des classes Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - Si vous êtes un enseignant, un étudiant ou un parent ou gardien, obtenez des conseils sur [**l’apprentissage et l’apprentissage à distance avec Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Les parents et les tuteurs peuvent également accéder à notre [Page support pour les parents](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) afin d'obtenir de l’aide sur l'apprentissage à distance.
 
-Ne manquez pas le blog du 4 mars 2020, [Comment les établissements scolaires peuvent accélérer les programmes d’apprentissage à distance avec Microsoft Teams](https://aka.ms/teamseduremoteblog).
+Ne manquez pas le blog du 4 mars 2020 intitulé [Comment les établissements scolaires peuvent accélérer les programmes d’apprentissage à distance avec Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
 La formation en ligne peut être aussi personnelle, attrayante et enrichissante socialement qu’une formation en présentiel. Les étudiants et les enseignants peuvent rester en contact et collaborer à l’aide de conversations, et ont l’impression de se rencontrer en personne avec les réunions en direct. Les enseignants peuvent suivre les progrès des élèves dans leur travail quotidien à l'aide des Devoirs. Personne ne doit se sentir à l’écart. De nombreux étudiants qui apprennent en ligne disent qu’ils ont davantage voix au chapitre, et se sentent plus proches de leurs enseignants et de leurs collègues qu’au sein d’une salle de classe. Et, comme dans une salle de classe, les enseignants peuvent utiliser les applications et les fonctions de Teams pour prendre en charge leur fonctionnement optimal.
 
@@ -153,7 +155,11 @@ Les experts informatiques et le personnel de support technique peuvent se famili
 Les ressources supplémentaires de support sont les suivantes :
 
 - [Résoudre les problèmes d’installation et de mise à jour de Microsoft Teams](troubleshoot-installation.md)
-- [Teams pour l’infrastructure de bureau virtualisée (Virtualized Desktop Infrastructure, VDI)](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Soumettre un ticket de support (peut être utilisé par les enseignants et le personnel)](https://aka.ms/edusupport)
+- [Centre d’aide et de support pour les enseignants utilisant Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Centre d’aide pour les étudiants](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
+- [Teams pour l’Infrastructure de bureau virtualisée (VDI)](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Optimiser rapidement le trafic Office 365 pour le personnel à distance](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
 - [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
 - [Ressources de support pour Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
