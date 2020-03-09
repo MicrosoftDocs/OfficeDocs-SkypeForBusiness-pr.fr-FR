@@ -71,6 +71,7 @@
 ### Accès externe (fédération)
 #### [Gérer l’accès externe](manage-external-access.md)
 #### [Conversation Teams native pour les utilisateurs externes](native-chat-for-external-users.md)
+#### [Interopérabilité de Teams et Skype](teams-skype-interop.md)
 
 
 ### Accès invité
@@ -148,7 +149,7 @@
 ### [Didacticiel : Audioconférence dans Teams](Tutorial-Audio-Conferencing.yml)
 ### [Tester ou acheter l’audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Période d’appels sortants complémentaire pour l’audioconférence](complimentary-dial-out-period.md)
-### [Avantage de l’abonnement conférence audio « Appel sortant » / « Appeler Moi à »](audio-conferencing-subscription-dial-out.md)
+### [Avantage de l’abonnement conférence audio « Appel sortant »/« Appeler Moi à »](audio-conferencing-subscription-dial-out.md)
 
 ### [Configurer l’audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -625,6 +626,7 @@
 ## [Teams pour l’éducation](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
 ### [Commencez avec l’apprentissage à distance](remote-learning-edu.md)
+### [Licences Teams pour l’éducation](teams-edu-licensing.md)
 ### [Devoirs dans Teams pour l’éducation](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
 ### [Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)
@@ -635,6 +637,7 @@
 ### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 
 ## [Teams pour le secteur public](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Gérer la version d’essai d’Office 365 G1](g1-trial-license.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC](plan-for-government-gcc.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
 ### [Plan pour Microsoft 365 pour entités publiques - DoD](plan-for-government-dod.md)
@@ -669,11 +672,17 @@
 ### [Configurer l’analyse des appels](set-up-call-analytics.md)
 ### [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 ### [Activation et utilisation du tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
+### Utiliser Power BI pour analyser les données CQD
+#### [Utiliser Power BI pour analyser les données CQD](CQD-Power-BI-query-templates.md)
+#### [Installer le connecteur Power BI pour utiliser les modèles de requête CQD](CQD-Power-BI-connector.md)
+#### [Obtenir les données CQD sur l’utilisation de Teams](CQD-teams-utilization-report.md)
+#### [Utilisation du rapport PSTN CQD](CQD-PSTN-report.md)
 ### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Classification de flux de données dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
 ## [Résoudre les problèmes d’installation et de mise à jour](troubleshoot-installation.md)
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
+## [Forum aux questions : soutenir vos employés en télétravail](FAQ-support-remote-workforce.md)
 ## [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
 ## [Problèmes connus dans Teams](Known-issues.md)
 ## [Ressources de support pour Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -726,6 +735,7 @@
 ##### [Office 365 Entreprise E5 sans Audioconférence](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV, éducation et organisations à but non lucratif](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Gérer la version d’essai Office 365 E1](e1-trial-license.md)
+### [Gérer la version d’essai d’Office 365 G1](g1-trial-license.md)
 ### [Gérer l’offre de version d’évaluation Teams Commercial](iw-trial-teams.md)
 ### [Gérer l’expérience d’exploration de Teams](teams-exploratory.md)
 ### [Mettre à niveau la version gratuite de Teams vers la version avec abonnement Microsoft 365](upgrade-freemium.md)
