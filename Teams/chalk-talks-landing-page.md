@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559323"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574001"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Discussions de craie de Microsoft teams</h1>
 Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. À l’aide d’experts en matière d’expertise, ces ateliers interactifs en ligne vous aideront à utiliser des informations pour améliorer la mise en œuvre de votre équipe et fournir des valeurs supplémentaires aux utilisateurs finaux.<br><br>
-           <strong>Prérequis</strong>: assistez les <a href="https://aka.ms/Teamsin30"target="_blank">équipes dans 30 ateliers en</a> premier.<br><br>
            <i>Cliquez sur un titre d’atelier ci-dessous pour afficher les dates et heures disponibles, et inscrivez-vous dès aujourd’hui !</i>
         <ul class="pivots">
             <li>

@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161745"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574417"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -426,6 +426,23 @@ Les informations de dimensions sont basées en partie sur les données chargées
 | Building Name Pair  | Paire énumérée  | Paire de noms de bâtiment pour le premier et le deuxième point de terminaison.  | &bull;Le nom de bâtiment d’un point de terminaison n’a pas pu être déterminé. Cela peut être dû au fait que le point de terminaison est situé hors du réseau d'entreprise ou accède au réseau depuis un site ne disposant pas de mappage de sous-réseau. <br/> **Exemple de valeur :** Bâtiment principal : bâtiment de succursale |
 | Inside Corp Pair  | Paire énumérée <br/>**Valeurs possibles :** <br/> Intérieur : intérieur <br/> Intérieur : Extérieur <br/> Extérieur : Extérieur | Paire indiquant si les point de terminaison étaient situés à l'intérieur ou à l'extérieur du réseau d'entreprise en fonction du mappage de sous-réseau.   |   |
 | Scenario Pair  | Paire énumérée  | Paire indiquant si les points de terminaison étaient situés à l'intérieur ou à l'extérieur du réseau d'entreprise en fonction du mappage de sous-réseau et des détails de connexion réseau. <br/> **Remarque :** Les paires sont séparées par « -- ». <br/> **Exemple de valeur :** Client-interne-client-interne-wifi  | &bull;Le type de connectivité réseau n’est pas connu pour l’un des points de terminaison ou les deux.  |
+|**PSTN**|||
+|Raison de fin de l’appel RTC (code de réponse SIP)|Ent|Un code de réponse entier à trois chiffres affiche l’état final de l’appel. <br/> Pour en savoir plus sur l’explication SIP, consultez la [liste des codes de réponse SIP](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Par exemple :** 404||
+|Nom de domaine complet du Trunk RTC|String|FQDN est le nom de domaine complet (FQDN) du contrôleur de bordure de session (SBC).<br/>**Par exemple :** sbcgw.contoso.com||
+|Nom de l’opérateur PSTN|String|Société autorisée par les autorités réglementaires à utiliser un système de télécommunications.<br/>**Par exemple :** Colt|Le routage direct ne possède pas de transporteur. Seule une offre d’appels est dotée d’un opérateur.|
+|Type d’appel RTC|String|Cette chaîne combine le type de service et le type d’appel.<br/><br/>Type de service :<br/>plan d’appel > utilisateur<br/>routage de routage de > directe<br/>audioconférence ><br/>UCAP-> application vocale<br/>urgence-> numéro d’urgence<br/><br/>Type d’appel :<br/>Appel entrant en ><br/>Appel sortant ><br/>Out_transfer-> appel sortant est transféré vers la troisième personne<br/>Out_forward-> appel sortant est transmis à la tierce personne<br/>Out_conf-> appel sortant avec un participant RTC ad hoc<br/><br/>**Par exemple :** ByotIn||
+|Type de connectivité PSTN|String|Le type de connectivité PSTN inclut le routage direct, le plan d’appel ou l’audioconférence. Pour le moment, seul le routage direct est disponible dans le tableau de bord de qualité des appels (bord).<br/>**Par exemple :** Routage direct||
+|Expression de code SIP final RTC|String|L’expression de raison correspondant au code de réponse SIP et au code de réponse Microsoft.<br/>**Par exemple :** AU revoir||
+|Raison secondaire de fin d’appel PSTN|Ent|Code de réponse envoyé par le composant Microsoft indiquant des actions spécifiques qui se sont produites.<br/>**Par exemple :** 540000||
+|Type d’événement PSTN|String|Type d’événement qui fournit la télémétrie.<br/>**Par exemple :** Extrémités||
+|Heure des informations d’événement PSTN|Date|Heure au format UTC lors du démarrage d’un appel sortant à partir du réseau Microsoft ou d’un appel entrant atteint le réseau Microsoft.<br/>**Par exemple :** 2020-02-06 20:57:53.1750000||
+|Emplacement du RTC PSTN|String|L’emplacement du processeur multimédia affiche le chemin multimédia en mode non-contournement.<br/>**Par exemple :** CONTACTERNOUS||
+|Première région du pays PSTN|String|Si FirstIsCaller est vrai, la première région du pays RTC est le pays de l’appelant. Si ce n’est pas le cas, le second pays RTC est le pays de l’appelant.<br/>**Par exemple :** Nous||
+|Jitter|Millisecondes|Variante de l’heure d’arrivée des paquets RTP. Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 5,982||
+|Packet Loss Rate|Pourcentage|Pourcentage de flux entre le serveur de médiation et l’SBC ou la passerelle, le cas échéant.
+Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 1,2%||
+|Latence (durée de l’aller-retour)|Millisecondes|Durée de l’aller-retour moyenne par flux de la propagation du réseau.
+Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Notes sur les types/unités de données de dimensions
@@ -580,7 +597,7 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 | Deuxième niveau du signal RxAGC moyen|Plage (décibels) |Niveau de signal moyen reçu par le contrôle de gain automatique pour le deuxième flux audio entrant.| |
 | Premier niveau du bruit moyen de RxAGC|Plage (décibels) |Niveau de bruit moyen reçu par le contrôle de gain automatique pour le premier flux audio entrant.||
 | Deuxième niveau de bruit moyen de RxAGC|Plage (décibels) |Niveau de bruit moyen reçu par le contrôle de gain automatique pour le deuxième flux audio entrant.| |
-| Premier niveau du signal de bouclage du premier rend|Plage (décibels) | Niveau moyen du signal de bouclage du premier intervenant (après application de tous les effets de déchargement de l’appareil).|   Niveau moyen du signal de bouclage du haut-parleur (après application de tout effet de déchargement d’appareil).|
+| Premier niveau du signal de bouclage du premier rend|Plage (décibels) | Niveau moyen du signal de bouclage du premier intervenant (après application de tous les effets de déchargement de l’appareil).|
 | Deuxième niveau du signal de bouclage du deuxième rendu moyenne|Plage (décibels) | Niveau moyen du deuxième signal de bouclage du haut-parleur (après application de tout effet de déchargement d’appareil).|
 |Avg First Audio Send Signal Level |Décibels |Niveau audio moyen d'un signal mono ou du canal gauche d'un signal stéréo envoyé par les premiers points de terminaison. |
 |Avg Second Audio Send Signal Level |Décibels |Niveau audio moyen d'un signal mono ou du canal gauche d'un signal stéréo envoyé par les deuxièmes points de terminaison. |
@@ -617,7 +634,7 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 |Avg Round Trip |Millisecondes |Moyenne de la durée moyenne de l'aller-retour de propagation sur le réseau calculée, comme spécifié par le document RFC3550, en millisecondes pour les flux. |
 |Avg Round Trip Max |Millisecondes |Moyenne de la durée maximale de l'aller-retour de propagation sur le réseau calculée, comme spécifié par le document RFC3550, en millisecondes pour les flux. |
  Utilisation moyenne des paquets|Nombre de paquets|Nombre moyen de Paquets RTP (Real-Time Transport Protocol) envoyés par seconde dans la session.|
-|Avg Network Jitter |Millisecondes | Moyenne de la gigue réseau calculée au-delà de 20 secondes par fenêtres au cours de la session. |
+|Avg Network Jitter |Millisecondes |   Moyenne de la gigue réseau calculée au-delà de 20 secondes par fenêtres au cours de la session. |
 | Gigue moyenne du réseau Max|Millisecondes |Moyenne de la gigue réseau maximale en millisecondes, calculée sur une fenêtre de 20 secondes pendant la session.  ||
 | Gigue réseau moyenne minimum|Millisecondes|Moyenne des valeurs de gigue réseau minimales en millisecondes, qui sont calculées sur plus de 20 secondes par le biais de la session pour les flux.| |
 | Taille moyenne du tampon de gigue|Millisecondes|Taille maximale du tampon de gigue lors de la session.| |
@@ -651,13 +668,32 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 | Deuxième proportion d’événement de problèmes de périphérique moyenne|Pourcentage|Fraction moyenne de l’appel que le deuxième point de terminaison a détecté des problèmes ou des lacunes dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu envoyé ou reçu.|
 | Première proportion d’événement de problèmes liés à l’appareil|Nombre de flux pour lesquels le premier point de terminaison a détecté des problèmes importants dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu multimédia envoyé ou reçu.||
 | Deuxième nombre d’événements de problèmes liés à l’appareil|Nombre de flux pour lesquels le deuxième point de terminaison a détecté des problèmes importants ou des lacunes dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu envoyé ou reçu.||
+| Nombre total de tentatives RTC | Nombre d'appels | Nombre total de tentatives d’appel, y compris les appels réussis et les appels qui n’ont pas abouti dans la période sélectionnée.|
+|Nombre total de connexions RTC | Nombre d'appels | Total des appels réussis dans la plage de temps sélectionnée.|
+|Nombre de tentatives entrantes RTC | Nombre d'appels | Nombre total de tentatives d’appels entrants, y compris les appels réussis et les appels en échec dans la plage de temps sélectionnée.|
+|Nombre de connexions entrantes RTC | Nombre d'appels | Nombre total de connexions entrantes avec succès dans la plage horaire sélectionnée.|
+|Nombre de tentatives RTC sortantes | Nombre d'appels | Nombre total d’appels entrants sortants, y compris les appels réussis et les appels en échec de la période sélectionnée.|
+|Nombre de connexions sortantes RTC | Nombre d’appels | Nombre total de connexions sortantes réussies dans la plage de temps sélectionnée.|
+|Nombre total de minutes RTC | Minutes | Nombre total de minutes | Utilisation du total des minutes dans la plage de temps sélectionnée.|
+|Nombre total de minutes entrantes RTC | Minutes | Nombre total de minutes entrantes pendant la période sélectionnée.|
+|Nombre total de minutes d’appels sortants RTC | Minutes | Utilisation du total des minutes sortantes dans la plage horaire sélectionnée.|
+|Nombre d’utilisateurs RTC actifs | Nombre d’utilisateurs | Nombre d’utilisateurs ayant effectué au moins un appel connecté pendant ce jour.|
+|Durée d’appel moyenne PSTN | Minutes | Durée moyenne de tous les appels connectés pendant la période sélectionnée. En règle générale, un appel RTC 1:1 est de quatre à cinq minutes. Toutefois, cette moyenne peut varier pour chaque société.|
+|Nombre total d’appels simultanés entrants RTC | Nombre d'appels | Nombre maximal d’appels entrants actifs simultanés en une minute.|
+|Nombre total d’appels simultanés RTC du RTC | Nombre d'appels | Nombre maximal d’appels sortants actifs simultanés en une minute.|
+|Latence P50 | Millisecondes | 50% des requêtes doivent être plus rapides qu’une latence donnée.|
+|P50 scintillement | Millisecondes | 50% de la demande doit être plus rapide qu’une instabilité.|
+|P50 taux de perte de paquets | Pourcentage | 50% des requêtes doivent avoir une valeur inférieure au taux de perte de paquets indiqué.|
+|Retard de l’appel sortant RTC| Millisecondes | Le délai qui se produit sur les appels sortants mesuré à partir de la date à laquelle un numéro a été composé jusqu’à ce que l’appelant ou le appelé partie entend sonner.|
+|Retard de l’appel entrant RTC | Millisecondes | Temps ou délai qui se produit à partir de la date à laquelle le numéro a été numéroté jusqu’à ce que l’appelant ou le contact appelle la sonnerie.|
+|Pourcentage de bon NER RTC | Pourcentage | Le NER mesure la capacité d’un réseau à remettre des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.<br/>NER = (appels à la demande + utilisateur occupé + sonner + réponse + borne de rejet de borne)/nombre total d’appels x 100|
 ||||
 
 ## <a name="filters"></a>Filtres
 
 De nombreux valeurs de dimensions et de mesures peuvent également être utilisées comme filtres. Vous pouvez utiliser des filtres dans votre requête pour éliminer les informations de la même façon que vous sélectionnez une dimension ou une mesure pour ajouter ou inclure des informations dans la requête.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 

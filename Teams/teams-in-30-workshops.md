@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558604"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574427"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558604"
                     </div>
                     <div class="cardText">
                     <h3>Discussions d’équipes</h3>
-                    <p>Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.</p>
-                    <p><strong>Prérequis</strong>: équipes dans 30 ateliers. La craie parle sur ce que vous allez découvrir dans les ateliers que vous trouverez sur cette page.</p>
+                    <p>Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. Les discussions présupposent que vous avez terminé le déploiement d’une équipe de base.</p>
+                    <p><strong>Conditions préalables</strong>: équipes dans une assiduité de 30 ateliers ou déjà activées pour les équipes au sein de votre organisation.</p>
                     <p><i>Public : administrateurs informatiques</i></p>
                     </div>
                 </div>

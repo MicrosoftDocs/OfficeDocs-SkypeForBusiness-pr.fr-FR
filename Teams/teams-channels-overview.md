@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834884"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574021"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -73,7 +73,7 @@ Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de
 
 Prenez trois minutes à examiner cette vidéo guide de déplacement pour les propriétaires d’équipe :
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès aux paramètres à l’échelle du système dans le centre d’administration Microsoft Teams. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal par défaut (général) pour les annonces, les discussions et les ressources à l’échelle de l’équipe, qui s’afficheront dans toutes les équipes.
 
