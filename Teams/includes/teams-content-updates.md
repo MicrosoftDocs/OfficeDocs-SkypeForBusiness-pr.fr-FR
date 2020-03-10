@@ -3,6 +3,53 @@
 
 
 
+## <a name="week-of-march-02-2020"></a>Semaine du 02 mars 02, 2020
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 3/3/2020 | [Gérer la version d’évaluation gratuite d’Office 365 E1](/MicrosoftTeams/e1-trial-license) | modifié |
+| 3/3/2020 | [Notes de publication](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
+| 3/3/2020 | [Gérer l’expérience exploratoire de Microsoft Teams](/MicrosoftTeams/teams-exploratory) | modifié |
+| 3/3/2020 | [Gérer le cycle de vie des canaux privés dans Microsoft teams](/MicrosoftTeams/private-channels-life-cycle-management) | modifié |
+| 3/3/2020 | [Formation à Microsoft Teams pour les utilisateurs finaux](/MicrosoftTeams/enduser-training) | modifié |
+| 3/4/2020 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
+| 3/4/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
+| 3/4/2020 | [Prise en charge des travailleurs à distance avec Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modifié |
+| 3/4/2020 | [Discussions de craie de Microsoft teams](/MicrosoftTeams/chalk-talks-landing-page) | modifié |
+| 3/4/2020 | [Configurer un appel d’urgence dynamique](/MicrosoftTeams/configure-dynamic-emergency-calling) | modifié |
+| 3/4/2020 | [Liste des contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 3/4/2020 | [Gestion des numéros de téléphone pour les États-Unis](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modifié |
+| 3/4/2020 | [Gérer le cycle de vie des canaux privés dans Microsoft teams](/MicrosoftTeams/private-channels-life-cycle-management) | modifié |
+| 3/4/2020 | [Guide d’Analyse de la Qualité d’Expérience pour Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modifié |
+| 3/4/2020 | [Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-deploy) | modifié |
+| 3/4/2020 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 3/4/2020 | [Équipes dans 30](/MicrosoftTeams/teams-in-30-workshops) | modifié |
+| 3/5/2020 | [Liste des contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 3/5/2020 | [Gérez l’accès externe (fédération) dans Microsoft Teams](/MicrosoftTeams/manage-external-access) | modifié |
+| 3/5/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
+| 3/5/2020 | [Prise en charge des travailleurs à distance avec Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modifié |
+| 3/5/2020 | [Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](/MicrosoftTeams/using-admin-roles) | modifié |
+| 3/5/2020 | [Outils et téléchargements pour l’adoption](/MicrosoftTeams/adopt-tools-and-downloads) | modifié |
+| 3/5/2020 | [Plan d’adoption par les utilisateurs de Microsoft Teams \|Meilleures pratiques](/MicrosoftTeams/continue-journey) | modifié |
+| 3/5/2020 | [Gérer les balises dans Microsoft teams](/MicrosoftTeams/manage-tags) | modifié |
+| 3/5/2020 | [Outils et ateliers : planifier, fournir et adopter Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | modifié |
+| 3/5/2020 | [Créer vos premières équipes dans Microsoft Teams](/MicrosoftTeams/teams-adoption-your-first-teams) | modifié |
+| 3/6/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
+| 3/6/2020 | [Forum aux questions - soutenir vos employés en télétravail](/MicrosoftTeams/faq-support-remote-workforce) | modifié |
+| 3/6/2020 | [Discussions de craie de Microsoft teams](/MicrosoftTeams/chalk-talks-landing-page) | modifié |
+| 3/6/2020 | [Routage direct-connexion de périphériques analogiques](/MicrosoftTeams/direct-routing-analog-devices) | modifié |
+| 3/6/2020 | [Prise en charge des travailleurs à distance avec Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modifié |
+| 3/6/2020 | [Équipes dans 30](/MicrosoftTeams/teams-in-30-workshops) | modifié |
+| 3/6/2020 | [Téléphones et appareils pour teams](/MicrosoftTeams/teams-ip-phones) | modifié |
+| 3/6/2020 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
+| 3/6/2020 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
+| 3/6/2020 | [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modifié |
+| 3/6/2020 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
+| 3/6/2020 | [Que sont les événements en direct Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modifié |
+| 3/6/2020 | [Activer et utiliser le tableau de bord de qualité des appels](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modifié |
+
+
 ## <a name="week-of-february-17-2020"></a>Semaine du 17 février 2020
 
 
