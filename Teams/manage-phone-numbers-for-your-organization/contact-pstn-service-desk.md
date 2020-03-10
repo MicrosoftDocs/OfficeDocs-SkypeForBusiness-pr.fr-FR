@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de transfert pour votre organisation, il est possible que vous deviez obtenir de l’aide et une assistance technique au niveau de l’assistance téléphonique PSTN.
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341780"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583073"
 ---
 # <a name="pstn-service-desk-contact"></a>Contact de bureau de service PSTN
 
-Si vous avez besoin d’aide pour acheter des numéros de téléphone auprès de Microsoft ou pour porter des numéros de téléphone existants vers Microsoft, envoyez une demande par courrier électronique contenant les informations suivantes :
+Si vous avez besoin d’aide pour vous permettre d’obtenir ou de transférer des numéros, n’hésitez pas à nous le faire savoir. Dans votre demande de support électronique, incluez autant de détails que possible et incluez des détails tels que l’ID de votre organisation (ID de client), les domaines, les types de numéros dont vous avez besoin d’aide, le nombre de nombres souhaités, la personne autorisant le compte et d’autres détails importants. sur votre problème.
 
   - ID de votre organisation (ID de client) ou domaines actifs.
   - Quels types de numéros vous avez besoin d’aide pour (utilisateur/abonné, service/payant ou gratuit).

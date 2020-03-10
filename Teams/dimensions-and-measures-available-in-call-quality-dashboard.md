@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574417"
+ms.locfileid: "42583077"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -439,10 +439,8 @@ Les informations de dimensions sont basées en partie sur les données chargées
 |Emplacement du RTC PSTN|String|L’emplacement du processeur multimédia affiche le chemin multimédia en mode non-contournement.<br/>**Par exemple :** CONTACTERNOUS||
 |Première région du pays PSTN|String|Si FirstIsCaller est vrai, la première région du pays RTC est le pays de l’appelant. Si ce n’est pas le cas, le second pays RTC est le pays de l’appelant.<br/>**Par exemple :** Nous||
 |Jitter|Millisecondes|Variante de l’heure d’arrivée des paquets RTP. Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 5,982||
-|Packet Loss Rate|Pourcentage|Pourcentage de flux entre le serveur de médiation et l’SBC ou la passerelle, le cas échéant.
-Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 1,2%||
-|Latence (durée de l’aller-retour)|Millisecondes|Durée de l’aller-retour moyenne par flux de la propagation du réseau.
-Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 3,49||
+|Packet Loss Rate|Pourcentage|Pourcentage de flux entre le serveur de médiation et l’SBC ou la passerelle, le cas échéant. Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 1,2%||
+|Latence (durée de l’aller-retour)|Millisecondes|Durée de l’aller-retour moyenne par flux de la propagation du réseau. Pour plus d’informations, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) .<br/>**Par exemple :** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Notes sur les types/unités de données de dimensions

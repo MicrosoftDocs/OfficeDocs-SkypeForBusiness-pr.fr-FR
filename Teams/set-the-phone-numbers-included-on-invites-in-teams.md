@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes nécessaires pour créer un numéro de téléphone par défaut permettant aux appelants de participer à une réunion Microsoft Teams. '
-ms.openlocfilehash: b5a43b0987160b87ac4a6e25b10ae6d850612ac1
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 88032829581224b339f47b34c432629019fd3bac
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845235"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583111"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus dans les invitations dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
 
 Les numéros de téléphone inclus dans les invitations aux réunions des utilisateurs activés pour les conférences audio sont définis par le numéro de téléphone payant par défaut et les paramètres de l’utilisateur numéro de téléphone gratuit pour la Conférence par défaut. Chacun d’eux spécifie le numéro payant et le numéro gratuit inclus dans l’invitation à la réunion d’un utilisateur donné. Comme indiqué plus haut, chaque invitation à une réunion contient un numéro payant, un numéro gratuit facultatif et un lien permettant d’ouvrir la liste complète de tous les numéros de téléphone rendez-vous qui peuvent être utilisés pour participer à une réunion donnée.
 
-S’il s’agit d’un nouvel utilisateur, les numéros payants de la Conférence par défaut sont attribués en fonction du pays défini dans le profil 365 Office de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. S’il existe un numéro payant dans le pont de conférence qui correspond au pays de l’utilisateur, ce numéro sera automatiquement attribué en tant que numéro payant par défaut de l’utilisateur. Si ce n’est pas le cas, le numéro défini en tant que numéro payant par défaut du pont de conférence sera affecté en tant que numéro payant par défaut de l’utilisateur.  
+Pour un nouvel utilisateur, les numéros payants de la Conférence par défaut sont attribués en fonction de l’emplacement d’utilisation défini dans le centre d’administration Office 365 de l’utilisateur lorsque l’utilisateur est activé pour le service de conférence audio. S’il existe un numéro payant dans le pont de conférence qui correspond au pays de l’utilisateur, ce numéro sera automatiquement attribué en tant que numéro payant par défaut de l’utilisateur. Si ce n’est pas le cas, le numéro défini en tant que numéro payant par défaut du pont de conférence sera affecté en tant que numéro payant par défaut de l’utilisateur.  
 
 Lorsque l’utilisateur est activé pour le service d’audioconférence, les numéros de téléphone gratuits et payants par défaut de l’utilisateur peuvent être modifiés à tout moment par l’administrateur client.
 

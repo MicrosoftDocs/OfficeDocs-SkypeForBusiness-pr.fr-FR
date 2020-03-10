@@ -16,12 +16,12 @@ f1.keywords:
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030718"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583001"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -152,10 +152,14 @@ La taille d’un enregistrement d'1 heure est de 400 Mo. Assurez-vous de connaî
 
 Les enregistrements de réunion sont considérés comme du contenu appartenant au client. Si le propriétaire de l’enregistrement quitte l’entreprise, l’administrateur peut ouvrir l’URL de la vidéo d’enregistrement dans Microsoft Stream en mode admin. L’administrateur est en mesure de supprimer l’enregistrement, de mettre à jour les métadonnées d’enregistrement ou de modifier les autorisations de la vidéo d’enregistrement. En savoir plus sur les [fonctionnalités d’administration dans Stream](https://docs.microsoft.com/stream/manage-content-permissions).
 
+> [!NOTE]
+> Pour plus d’informations sur la gestion des enregistrements et l’accès utilisateur, voir [gérer les données utilisateur dans Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) et [autorisations et confidentialité dans Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) .
+
+
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformité et découverte électronique pour les enregistrements de réunion
 
 Les enregistrements de la réunion sont stockés dans Microsoft Stream, conforme à la norme Office 365 Tier-C. Pour prendre en charge les demandes de e-Discovery destinées aux administrateurs de la conformité qui sont intéressés par les enregistrements de réunion ou d’appel pour les flux Microsoft, le message enregistrement Completed est disponible dans la fonctionnalité de recherche de contenu de conformité pour Microsoft Teams. Les administrateurs de la conformité peuvent rechercher le mot clé « enregistrement » dans la ligne d’objet de l’élément dans l’aperçu de la recherche de contenu de conformité et découvrir les enregistrements de réunion et d’appel au sein de l’organisation. Pour qu’ils puissent voir tous les enregistrements, il doit être configuré dans Microsoft Stream avec l’accès administrateur. En savoir plus sur [l’attribution des autorisations d’administrateur dans Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
