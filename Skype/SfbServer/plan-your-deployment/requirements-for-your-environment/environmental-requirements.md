@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Résumé : configurez votre configuration non-serveur requise pour Skype entreprise Server 2015. Vous souhaiterez peut-être configurer un grand nombre d’éléments avant de procéder au déploiement, notamment Active Directory, DNS, certs et Fileshares.'
-ms.openlocfilehash: 0d1f2ff87189cd7fd88f37429fb2ebf6805f6810
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42012582"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572802"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Configuration environnementale requise pour Skype entreprise Server 2015
  
@@ -59,7 +59,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
 
 - Windows Server 2019 (vous devez disposer de la mise à jour cumulative 5 de Skype entreprise Server 2015 ou version ultérieure)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -73,7 +73,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
 
 - Windows Server 2019 (vous devez disposer de la mise à jour cumulative 5 de Skype entreprise Server 2015 ou version ultérieure)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -85,7 +85,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
     
 - Windows Server 2003
     
-Est-il possible d’avoir des contrôleurs de domaine en lecture seule dans ces environnements ? Bien sûr, tant qu’il y a également un contrôleur de domaine accessible en écriture.
+Est-il possible d’avoir des contrôleurs de domaine en lecture seule dans ces environnements ? Bien sûr, tant qu’il y a également des contrôleurs de domaine accessibles en écriture disponibles sur le même site que le serveur Skype entreprise.
   
 À présent, il est important de savoir que Skype entreprise Server 2015 ne prend pas en charge les domaines à étiquette unique. Qu’est-ce qu’elles ? Si vous avez un domaine racine nommé contoso. local, cela va être parfait. Si vous disposez d’un domaine racine qui vient d’être nommé local, cela ne fonctionne pas, et n’est pas pris en charge en conséquence. Pour plus d’informations [, consultez cet article de la base de connaissances](https://support.microsoft.com/kb/300684/en-us).
   
@@ -374,4 +374,3 @@ Skype entreprise Server 2015 peut utiliser le même partage de fichiers pour tou
 > [!CAUTION] 
 > Il est important de comprendre que l’utilisation du stockage rattaché au réseau (NAS) comme partage de fichiers n’est pas prise en charge ; vous pouvez donc utiliser l’une des options indiquées ci-dessus. 
   
-

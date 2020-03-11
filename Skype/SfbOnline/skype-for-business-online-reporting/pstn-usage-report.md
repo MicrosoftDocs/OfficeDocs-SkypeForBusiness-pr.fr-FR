@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706049"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582881"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
@@ -71,8 +71,8 @@ Voici une illustration du rapport.
      *    **user_out_forwarding** (l’utilisateur a transféré l’appel vers un numéro PSTN)
 
      **Types d’appels de conférence audio**
-     *    **conf_in** (appel entrant vers le pont de conférence audio) 
-     *    **conf_out** (un appel sortant du pont d’audioconférence pour ajouter un numéro PSTN à la Conférence)
+     *    **conf_in** (appel entrant vers le pont de conférence audio). Pour les enregistrements de ce type d’appel, l’utilisateur spécifié dans la colonne **ID d’utilisateur** correspond à l’organisateur de la réunion.
+     *    **conf_out** (un appel sortant à partir du pont de conférence audio, généralement pour ajouter un numéro PSTN à la Conférence). Pour les enregistrements de ce type d’appel, l’utilisateur spécifié dans la colonne **ID d’utilisateur** correspond à l’organisateur de la réunion.
 
      **Applications de communication unifiée (UCAP)** 
      *    **ucap_in** (un appel RTC entrant vers l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels) 
@@ -94,12 +94,13 @@ Voici une illustration du rapport.
      *    **MCOPSTN6** -forfait d’appels nationaux (forfait d’appels min 240) Remarque : disponibilité limitée
      *    **MCOMEETADD** -audioconférence
      *    **MCOMEETACPEA** -audioconférence à la minute
+     
 > [!NOTE]
 > Pour inclure uniquement les appels payants à la minute qui ne sont pas inclus dans votre abonnement d’appel ou de conférence, filtrez le rapport avec la fonctionnalité « MCOPSTNPP ». Cette opération permet de fournir un élément de tous les appels à la minute.  Pour les conférences audio à la minute, filtrez en fonction de « MCOMEETACPEA » au lieu de « MCOPSTNPP ».  
-***
+
 > [!NOTE]
 > Vous pouvez également voir « aucune donnée » dans certains champs. « Aucune donnée » signifie que le champ n’est pas applicable au type d’appel ou à la fonctionnalité. 
-***
+
 > [!NOTE]
 > Si vous avez un plan d’appels Telstra, vous ne verrez pas les enregistrements des détails des appels dans le rapport d’utilisation PSTN. Veuillez contacter Telstra pour obtenir les exigences de votre rapport. 
 ***
@@ -125,7 +126,7 @@ Voici une illustration du rapport.
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
