@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez les différentes méthodes d’attribution de stratégies aux utilisateurs de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170760"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604291"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribution de stratégies aux utilisateurs de Microsoft teams
 
 > [!NOTE]
-> **Deux des fonctionnalités de Microsoft teams abordées dans cet article, l’attribution de stratégie de [lot](#assign-a-policy-to-a-batch-of-users) et l' [attribution de stratégies aux groupes](#assign-a-policy-to-a-group), sont actuellement en version préliminaire.**
+> **L’une des fonctionnalités de Microsoft teams abordées dans cet article, [affectation de stratégie à groupes](#assign-a-policy-to-a-group), est actuellement en version préliminaire.**
 
 En tant qu’administrateur, vous utilisez des stratégies pour contrôler les fonctionnalités d’équipes disponibles pour les utilisateurs de votre organisation. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie pour n’appeler qu’un seul nom.
 
@@ -64,7 +64,7 @@ Vous trouverez ci-dessous une vue d’ensemble des méthodes permettant d’attr
 |---------|---------|----|
 |[Assigner une stratégie à des utilisateurs individuels](#assign-a-policy-to-individual-users)    | Vous débutez en équipe et vous commencez simplement à attribuer une ou plusieurs stratégies à un petit nombre d’utilisateurs. |Centre d’administration Microsoft teams ou cmdlets PowerShell dans le module PowerShell de Skype entreprise Online
 | [Assigner un package de stratégie](#assign-a-policy-package)   | Vous devez affecter plusieurs stratégies à des ensembles d’utilisateurs spécifiques de votre organisation qui ont des rôles identiques ou similaires. Par exemple, attribuez le package de stratégie éducation (enseignant) aux enseignants de votre établissement scolaire pour leur permettre d’accéder à l’ensemble des conversations, appels et réunions, ainsi que le package d’étude (étudiant d’école secondaire) aux étudiants secondaires pour limiter certaines fonctionnalités, comme appels privés.  |Centre d’administration Microsoft teams ou cmdlets PowerShell dans le module PowerShell teams|
-|[Attribuer une stratégie à un lot d’utilisateurs](#assign-a-policy-to-a-batch-of-users) (en préversion)   | Vous devez attribuer des stratégies à d’importants ensembles d’utilisateurs. Par exemple, vous pouvez attribuer une stratégie à des centaines ou des milliers d’utilisateurs de votre organisation à la fois.  |Cmdlets PowerShell dans le module PowerShell teams|
+|[Attribuer une stratégie à un lot d’utilisateurs](#assign-a-policy-to-a-batch-of-users)   | Vous devez attribuer des stratégies à d’importants ensembles d’utilisateurs. Par exemple, vous pouvez attribuer une stratégie à des centaines ou des milliers d’utilisateurs de votre organisation à la fois.  |Cmdlets PowerShell dans le module PowerShell teams|
 |[Assigner une stratégie à un groupe](#assign-a-policy-to-a-group) (en Preview)   |Vous devez attribuer des stratégies en fonction de l’appartenance d’un utilisateur à un groupe. Par exemple, vous souhaitez attribuer une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité ou d’une unité d’organisation.| Cmdlets PowerShell dans le module PowerShell teams|
 | Assigner un package de stratégie à un lot d’utilisateurs (bientôt disponible) |||
 | Assigner un package de stratégie à un groupe (bientôt disponible)   | ||
@@ -121,8 +121,6 @@ Lorsque vous attribuez un package de stratégie aux utilisateurs, les stratégie
 Pour en savoir plus sur les packages de stratégie, y compris des instructions détaillées sur la manière de les affecter et de les gérer, voir [gérer les packages de stratégie dans teams](manage-policy-packages.md).
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>Attribuer une stratégie à un lot d’utilisateurs
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
  
 Avec une affectation de stratégie de lot, vous pouvez attribuer une stratégie à un grand nombre d’utilisateurs à la fois sans avoir à utiliser de script. Utilisez l' ```New-CsBatchPolicyAssignmentOperationd``` applet de commande pour signaler un lot d’utilisateurs et la stratégie que vous voulez affecter. Les affectations sont traitées en tant qu’opérations en arrière-plan et chaque lot est généré. Vous pouvez ensuite utiliser l' ```Get-CsBatchPolicyAssignmentOperation``` applet de commande pour effectuer le suivi de l’avancement et de l’état des devoirs d’un lot.
 
@@ -133,25 +131,10 @@ Un lot peut contenir jusqu’à 20 000 utilisateurs. Vous pouvez spécifier des 
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer le module Microsoft teams PowerShell et s’y connecter
 
-> [!NOTE]
-> Les applets de contrôle se trouvent dans la version préliminaire du module PowerShell Teams. Suivez ces étapes pour commencer par désinstaller la version disponible en général du module PowerShell Teams (s’il est installé), puis installez la dernière version préliminaire du module à partir de la Galerie de tests PowerShell.
-
-Si ce n’est déjà fait, exécutez la commande suivante pour inscrire la Galerie de tests PowerShell comme source fiable.
+Exécutez la commande suivante pour installer le [module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Vérifiez que vous avez installé la version 1.0.5 ou une version ultérieure.
 
 ```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-Si vous avez installé la version disponible en général du module PowerShell Teams, exécutez la commande suivante pour la désinstaller.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Exécutez la commande suivante pour installer le module Microsoft teams PowerShell le plus récent à partir de la Galerie de tests PowerShell.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
+Install-Module -Name MicrosoftTeams
 ```
 
 Exécutez la commande suivante pour vous connecter à teams et démarrer une session.
@@ -388,6 +371,6 @@ Pour ce faire, vous pouvez utiliser l’applet de commande suivante dans le modu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
