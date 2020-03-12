@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9315c172bc88cb96d5071e4bddf7f2e82a0d9f
-ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586701"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592544"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -32,7 +32,7 @@ ms.locfileid: "42586701"
 > - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft vous montre comment les enseignants utilisent Teams dans leur vie professionnelle. [**Transformer l’apprentissage avec Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft guide les enseignants dans l’enseignement au sein des classes Teams. [**Elaboration d’un environnement d’apprentissage collaboratif avec des classes Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - Si vous êtes un enseignant, un étudiant ou un parent ou gardien, obtenez des conseils sur [**l’apprentissage et l’apprentissage à distance avec Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Les parents et les tuteurs peuvent également accéder à notre [Page support pour les parents](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) afin d'obtenir de l’aide sur l'apprentissage à distance.
+> - Les parents et les tuteurs peuvent également accéder à notre [**Page support pour les parents**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) afin d'obtenir de l’aide sur l'apprentissage à distance.
 
 Ne manquez pas le blog du 4 mars 2020 intitulé [Comment les établissements scolaires peuvent accélérer les programmes d’apprentissage à distance avec Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -104,7 +104,7 @@ Voici un série de configurations de stratégie personnalisées communes qui ser
 
 - Créer des canaux privés configuré sur « désactivé »
 
-**Les employés et enseignants d'école primaire** doivent se voir affecter des stratégies autorisant des fonctionnalités de base pouvant être limitées pour les étudiants. Créez des stratégies qui autorisent la conversation privée et la planification de réunions (paramètres par défaut pour une nouvelle stratégie). [Attribuez ces stratégies à votre personnel enseignant et à vos enseignants par le biais de l'adhésion à un groupe de sécurité](batch-policy-assignment-edu).
+**Les employés et enseignants d'école primaire** doivent se voir affecter des stratégies autorisant des fonctionnalités de base pouvant être limitées pour les étudiants. Créez des stratégies qui autorisent la conversation privée et la planification de réunions (paramètres par défaut pour une nouvelle stratégie). [Assignez ces stratégies en bloc à vos employés et enseignants via l’affectation d’une stratégie par lot](batch-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Utilisation de Teams
 
