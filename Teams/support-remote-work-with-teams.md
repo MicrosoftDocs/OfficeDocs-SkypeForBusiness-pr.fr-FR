@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558634"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574081"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -65,6 +65,8 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
 2. En plus de la [version d’essai d’Office 365 E1](e1-trial-license.md) et de la [Version gratuite de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [l’expérience exploratoire de Teams](teams-exploratory.md) peut également être une option si vous avez besoin de licences Teams gratuites.
 
+1. Si vous travaillez dans l’éducation et que vous voulez configurer les enseignants, les étudiants et les administrateurs sur Teams, utilisez Office 365 A1. Il s’agit de la version gratuite d’Office 365 disponible pour tous les établissements d’enseignement. Inscrivez-vous sur [Obtenir Office 365 gratuitement pour l’ensemble de votre établissement d’enseignement](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
+
 1. Vous assurer que vos employés disposent d'un accès internet approprié et de la bande passante pour Teams. Pour plus d’informations sur la procédure, suivez les recommandations de [Préparer le réseau de votre organisation pour Teams](prepare-network.md).
 
    - Une bande passante restreinte peut avoir une incidence sur la qualité audio des réunions dans Teams. Afin de garantir une expérience de réunion optimale dans des conditions de bande passante faible, encouragez les utilisateurs à limiter la vidéo et à utiliser PSTN pour les appels et les conférences audio. 
@@ -89,6 +91,8 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
     
 3. Lisez notre nouveau contenu sur le travail à distance et partagez-le avec vos utilisateurs :
         
+      - *Nouveau 9 mars 2020*[ : travailler à distance avec Microsoft Teams](https://products.office.com/microsoft-teams/work-remotely)
+
       - Blog Teams (28 février 2020) : [4 astuces pour travailler avec Microsoft Teams depuis chez vous](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Collaborez avec Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -107,16 +111,16 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
    - Modèle d'application pour des[équipes au niveau de l'organisation](create-an-org-wide-team.md) et le [Communicateur de l'entreprise](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator).
     
-   - Envoyez des informations sur les stratégies de sécurité, la santé et le travail à domicile au sein de votre organisation.
+   - Envoyer des informations sur les stratégies de sécurité, la santé et le travail à domicile au sein de votre organisation.
     
-   - Utiliser les [Événements en direct](teams-live-events/what-are-teams-live-events.md) pour la sensibilisation et les réunions à l’échelle de l’entreprise. Pour des réunions comprenant plus de 250 participants, organisez un événement en direct. 
+   - Utiliser les [Événements en direct](teams-live-events/what-are-teams-live-events.md) pour la sensibilisation et les réunions à l’échelle de l’entreprise. Pour des réunions comprenant plus de 250 participants, organisez un événement en direct. Activer les légendes en direct pour les [réunions](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) et les [événements en direct](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Activer les sous-titres dans les événements en direct. Ces fonctionnalités augmentent l’inclusion, la productivité et la compréhension. 
 
 4.  Répartissez le personnel de votre [assistance](troubleshoot-installation.md) pour gérer les questions des utilisateurs.
 
 7. Si vous débutez dans votre rôle d’administrateur Teams, consultez la [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md).
 
 
-1. Veillez à ce que vos utilisateurs disposent des appareils dont ils ont besoin pour être visibles et audibles. Consultez les [appareils certifiés pour Teams](https://aka.ms/TeamsDevices) adaptés aux espaces personnels et partagés.
+1. Veillez à ce que vos utilisateurs disposent des appareils dont ils ont besoin pour être visibles et bien audibles. Consultez les [appareils certifiés pour Teams](https://aka.ms/TeamsDevices) adaptés aux espaces personnels et partagés.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>Problème connu : numérotation de numéros de conférence Skype Entreprise ou Teams en Chine

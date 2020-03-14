@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582881"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637141"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
@@ -56,7 +56,7 @@ Voici une illustration du rapport.
 
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Cette opération montre tous les utilisateurs pour lesquels Skype entreprise est associé et leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
-*    **ID d’appel** est l’ID d’appel d’un appel. Il s’agit d’un identificateur unique de l’appel qui est utilisé lors de l’appel du service de support technique Microsoft.
+*    **ID d’appel** est l’ID d’appel d’un appel. Il s’agit d’un identificateur pour l’appel qui est utilisé lors de l’appel du service de support technique Microsoft.
 *    **ID de l'utilisateur** est le nom de connexion de l'utilisateur.
 *    **Numéro de téléphone** correspond au numéro de téléphone skype entreprise qui a reçu l’appel d’appels entrants ou du numéro numéroté pour les appels sortants.
 *    **Emplacement** de l’utilisateur est le pays ou la région où se trouve l’utilisateur.
@@ -106,7 +106,48 @@ Voici une illustration du rapport.
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel délimité par des VIRGULEs en cliquant ou en appuyant sur le bouton **Exporter vers Excel** . Vous pouvez exporter des données vers un an au maximum à partir de la date actuelle, sauf si la règle de conservation des données est interdite pour 12 mois.<br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
+
+## <a name="exporting-pstn-usage-report"></a>Exportation du rapport d’utilisation RTC
+
+Cliquer ou appuyer sur le bouton **Exporter vers Excel** vous permet de télécharger le rapport d’utilisation PSTN. Vous pouvez exporter des données vers un an au maximum à partir de la date actuelle, sauf si la législation spécifique du pays interdit la conservation des données pour 12 mois.
+
+Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure.
+
+Le processus d’exportation peut durer de quelques secondes à quelques minutes, en fonction de la quantité de données. Lorsque le serveur effectue l’exportation, vous recevez un fichier zip intitulé «**appels. Export. [ ] `identifier`. zip**", avec l’identificateur qui est un ID unique pour l’exportation, qui peut être utilisé pour la résolution des problèmes.
+
+Si vous avez les deux plans d’appel et le routage direct, le fichier exporté risque de contenir des données pour les deux produits. Un fichier de rapport d’utilisation RTC porte le nom de fichier «**RTC. Calls ». ] `UTC date`. csv**. Outre les fichiers RTC et de routage directe, l’archive contient le fichier «**Parameters. JSON**», avec la plage de temps d’exportation sélectionnée et les capacités (le cas échéant).
+
+Le fichier exporté est un fichier de valeurs séparées par des virgules (CSV), conforme à la norme [RFC 4180](https://tools.ietf.org/html/rfc4180) . Le fichier peut être ouvert dans Excel ou tout autre éditeur compatible standard sans qu’il soit nécessaire de transformations.
+
+La première ligne du fichier CSV contient les noms des colonnes.
+
+### <a name="fields-in-the-export"></a>Champs lors de l’exportation
+
+Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans le rapport en ligne. Celles-ci peuvent être utilisées pour résoudre les problèmes et les flux de travail automatisés.
+
+| #  | Nom | [Type de données (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+| :-: | :-: | :-: |:------------------- |
+| 0,4 | UsageId | `uniqueidentifier` | Identificateur d’appel unique |
+| 1 | ID d’appel | `nvarchar(64)` | Identifiant de l’appel. Il n’est pas garanti qu’il soit unique. |
+| deuxième | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
+| 3 | Emplacement de l’utilisateur | `nvarchar(2)` | Code pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| 4 | ObjectId d’argument AAD | `uniqueidentifier` | Appel de l’IDENTIFIant de l’utilisateur dans Azure Active Directory.<br/> Ce type d’informations et d’autres informations sur les utilisateurs seront NULL/vides pour les types d’appels de bot (ucap_in ucap_out) |
+| 5 | UPN | `nvarchar(128)` | UserPrincipalName (nom de connexion) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
+| 6 | Nom complet de l’utilisateur | `nvarchar(128)` | Nom d’affichage de l’utilisateur |
+| 7 | ID de l’appelant | `nvarchar(128)` | Numéro ayant reçu l’appel pour les appels entrants ou le numéro numéroté pour les appels sortants. Format [E. 164](https://en.wikipedia.org/wiki/E.164) |
+| version8 | Type d'appel | `nvarchar(32)` | S’il s’agit d’un appel entrant ou sortant de type RTC et du type d’appel passé par un utilisateur ou une conférence audio. |
+| 09 | Type de numéro | `nvarchar(16)` | Type de numéro de téléphone de l’utilisateur, tel qu’un service de numéro gratuit |
+| 0,10 | National/international | `nvarchar(16)` | La présence de l’appel national (dans un pays ou une région) ou international (à l’extérieur d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur |
+| 27,9 | Destination numérotée | `nvarchar(64)` | Pays ou région composé |
+| midi | Numéro de destination | `nvarchar(32)` | Numéro composé au format [E. 164](https://en.wikipedia.org/wiki/E.164) |
+| n°13 | Heure de début | `datetimeoffset` | Heure de début (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 14 | Heure de fin | `datetimeoffset` | Heure de fin de l’appel (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 0,15 | Secondes de la durée | `int` | Durée de connexion de l’appel |
+| Seiz | Frais de connexion | `numeric(16, 2)` | Prix des frais de connexion |
+| Play | Frais | `numeric(16, 2)` | Montant de l’argent ou frais de l’appel facturé sur votre compte. |
+| 19 | Devise | `nvarchar(3)` | Type de devise utilisé pour le calcul du coût de l’appel ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+| 19,6 | Faculté | `nvarchar(32)` | La licence utilisée pour l’appel |
+
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 

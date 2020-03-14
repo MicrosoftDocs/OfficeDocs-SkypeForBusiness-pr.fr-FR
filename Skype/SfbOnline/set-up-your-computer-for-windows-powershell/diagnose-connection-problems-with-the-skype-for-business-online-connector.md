@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour se connecter à Skype entreprise Online, y compris les erreurs d’importation-module, d’interpréteur de commande et d’autorisation.
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010687"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637131"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
@@ -140,13 +140,13 @@ Chaque administrateur dispose d’au maximum trois connexions à distance simult
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Le nombre maximal d’interpréteurs simultanés pour ce client dans Skype entreprise Online a été dépassé.
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Bien que les administrateurs aient autant de connexions simultanées qu’un client Skype entreprise Online, il est possible qu’il n’y ait pas plus de neuf connexions simultanées. Par exemple, trois administrateurs peuvent chacun avoir trois sessions ouvertes. Si un quatrième administrateur tente d’établir une connexion (entraînant au total 10 connexions simultanées), cette tentative échoue, et le message d’erreur suivant apparaît :
+Bien que les administrateurs aient autant de connexions simultanées qu’un client Skype entreprise Online, il est possible qu’il n’y ait pas plus de vingt connexions simultanées. Par exemple, six administrateurs peuvent chacun avoir trois sessions ouvertes. Si un septième administrateur tente d’ouvrir plus de deux connexions (ce qui génère au total 21 connexions simultanées), cette tentative échoue, et le message d’erreur suivant apparaît :
   
 - **Erreur**: *New-PSSession : [admin.vDomain.com] la connexion à Remote Server Admin.vDomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal d’interpréteurs simultanés pour ce client a été dépassé. Fermez les coques existantes ou augmentez le quota pour ce client. Pour plus d’informations, reportez-vous àhttps://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 [Remote Troubleshoot] (*
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé d’utiliser une session Skype entreprise Online, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à la session. Cela vous permettra d’éviter ce problème.  
  
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Configurer votre ordinateur pour la gestion de Skype entreprise Online à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
