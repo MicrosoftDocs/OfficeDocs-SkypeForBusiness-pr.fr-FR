@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 0786f7dac4339a5cfa83773010aa9a95ee957f51
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574081"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639431"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -91,7 +91,9 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
     
 3. Lisez notre nouveau contenu sur le travail à distance et partagez-le avec vos utilisateurs :
         
-      - *Nouveau 9 mars 2020*[ : travailler à distance avec Microsoft Teams](https://products.office.com/microsoft-teams/work-remotely)
+      - Blog Microsoft (10 mars 2020) : [rester productif en travaillant à distance avec Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
+      
+      - [Travailler à distance avec Teams](https://products.office.com/microsoft-teams/work-remotely)
 
       - Blog Teams (28 février 2020) : [4 astuces pour travailler avec Microsoft Teams depuis chez vous](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
@@ -100,6 +102,8 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
       - [Travailler à distance avec Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
 
       - [9 conseils pour travailler à distance](https://www.microsoft.com/tips/home/working-remotely)
+
+      - [Meilleurs conseils pour travailler en toute sécurité depuis son domicile](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
 
 3.  Invitez votre équipe à [installer](get-clients.md#mobile-clients) et utiliser l'application mobile : [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) ou [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
