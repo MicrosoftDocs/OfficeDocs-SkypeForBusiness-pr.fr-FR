@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilisez Advisor for Teams (préversion) pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836774"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795847"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -165,6 +165,8 @@ Accédez au [Centre d’aide de Forms](https://support.office.com/forms).
 ## <a name="related-topics"></a>Voir aussi
 
 [Comment déployer Teams](How-to-roll-out-teams.md)
+
+[Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 
 [Noms de produits et identificateurs de plans de service pour la gestion des licences](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 
