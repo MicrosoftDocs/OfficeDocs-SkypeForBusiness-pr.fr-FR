@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048595"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706934"
 ---
+# <a name="assess-organizational-change-readiness"></a>Évaluer la préparation au changement de l’organisation
+
 ![Diagramme de route de mise à niveau, mise en évidence de l’étape de préparation de l’utilisateur](media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 
 Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
@@ -33,8 +35,6 @@ Cet article fait partie de l’étape de préparation de votre mise à niveau pa
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>Évaluer la préparation au changement de l’organisation
 
 Une fois que vous avez sécurisé votre équipe de projet et défini votre vision, l’objectif et les objectifs, l’étape suivante du processus de mise à niveau consiste à garantir que votre organisation et vos utilisateurs sont prêts pour les équipes (activité complète en parallèle et garantie de votre compatibilité technique). Pour tirer parti de la valeur des équipes, les utilisateurs doivent réellement les utiliser. Le simple fait d’activer Teams ne garantit pas que vous atteignez votre objectif. Les utilisateurs ont différentes circonstances d’utilisation et différents styles d’apprentissage, et ils s’adaptent à de nouvelles technologies à différentes vitesses. La bonne nouvelle, c’est que la gestion de la modification n’est pas compliquée, mais elle est prioritaire. Les discussions dirigées ci-dessous ont été conçues pour vous aider à comprendre votre niveau d’utilisation pour vous permettre de préparer le niveau d’études approprié pour faciliter et accélérer l’adoption des utilisateurs. Il existe deux façons d’examiner votre base d’utilisateurs :
 
@@ -62,7 +62,7 @@ Utilisez les starters suivants pour effectuer une évaluation de la compatibilit
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ Utilisez les starters suivants pour effectuer une évaluation de la compatibilit
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | Auto-motivé | Joueurs d’équipe | Demandeurs de conservation de mains |

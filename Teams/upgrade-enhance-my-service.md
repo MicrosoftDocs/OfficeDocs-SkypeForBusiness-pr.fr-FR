@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837204"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707004"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>Tirer le meilleur parti de teams après la mise à niveau
+
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Tirer le meilleur parti de teams après la mise à niveau
 
 Cet article fournit une vue d’ensemble de la configuration requise pour profiter au maximum des équipes de fonctionnement après la mise à niveau. En surveillant en continu les fonctionnalités de service Teams, vous pouvez être certain que vous fournissez le plus de valeur à votre organisation.
 

@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863515"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706964"
 ---
+# <a name="operate-your-service"></a>Exploiter votre service
+
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
-
-# <a name="operate-your-service"></a>Exploiter votre service
 
 Cet article fournit une vue d’ensemble de la configuration requise pour le fonctionnement des équipes avec succès après la mise à niveau. En opérant correctement vos services d’équipe, vous pouvez être sûr d’offrir une utilisation fiable et de grande qualité pour votre organisation.
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863485"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706924"
 ---
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Évaluez votre environnement avant de procéder à la mise à niveau vers teams
+
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
 Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
@@ -33,8 +35,6 @@ Cet article fait partie de l’étape de préparation technique de votre mouveme
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Évaluez votre environnement avant de procéder à la mise à niveau vers teams
 
 Cet article fournit une vue d’ensemble de la configuration requise pour évaluer correctement votre environnement actuel pour les équipes d’exploitation. L’évaluation de votre environnement vous permet d’identifier les risques et les exigences qui influenceront votre déploiement global. En identifiant ces éléments à l’aide de la commande, vous pouvez ajuster la planification du succès.
 

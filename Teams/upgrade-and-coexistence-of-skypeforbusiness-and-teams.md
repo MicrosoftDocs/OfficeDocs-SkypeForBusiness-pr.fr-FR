@@ -21,13 +21,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833724"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706604"
 ---
+# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
+
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur l’étape de définition du projet](media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
 Cet article fait partie de l’étape définition du projet de votre parcours de mise à niveau. Avant de continuer, confirmez que vous avez terminé les activités suivantes :
@@ -35,8 +37,6 @@ Cet article fait partie de l’étape définition du projet de votre parcours de
 - [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
-
-# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
 En tant que client Skype entreprise existant, la transition complète vers teams peut prendre un certain temps. Néanmoins, vous pouvez commencer à utiliser teams dès aujourd’hui en permettant à vos utilisateurs d’utiliser teams en même temps que Skype entreprise. Étant donné qu’il existe d’autres fonctionnalités qui se chevauchent entre les deux applications, nous vous conseillons de passer en revue les modes de coexistence et de mise à niveau disponibles pour vous aider à déterminer le chemin approprié pour votre organisation. Par exemple, vous pouvez choisir d’activer toutes les charges de travail sur les deux solutions sans interopérabilité. Vous pouvez également décider de gérer l’utilisation de l’utilisateur, soit en introduisant progressivement les fonctionnalités d’équipe ou en ciblant des groupes d’utilisateurs pour les fonctionnalités sélectionnées, tant que votre organisation n’est pas en mesure de mettre à niveau tout le monde vers Teams. Utilisez le résultat de votre pilote pour vérifier le bon déroulement de la mise à niveau de votre organisation.
 
@@ -102,9 +102,9 @@ Le tableau suivant résume l’interface du mode de travail de l’équipe et du
 | Expertise dans teams | En mode îlot | En mode TeamsOnly |
 |:------------------ | :------------------- | :------------------ |
 | Discussions entrantes et appels reçus dans :|  Teams ou Skype entreprise | Équipes |
-| Appels RTC reçus dans : | Skype Entreprise <br>(L’utilisation de la fonctionnalité RTC dans teams n’est pas prise en charge en mode îlot.)    | Équipes |   
- |Présence  | La présence dans Skype entreprise et équipes est indépendante. Les utilisateurs peuvent voir des États différents pour les mêmes utilisateurs d’îlot, en fonction du client qu’ils utilisent. | La présence est basée uniquement sur l’activité de l’utilisateur dans Teams. Tous les autres utilisateurs, quel que soit le client qu’ils utilisent, voient leur présence. | 
- | Planification de réunions   | Les utilisateurs peuvent planifier des réunions dans teams ou Skype entreprise. Ces deux compléments s’afficheront dans Outlook. |   Les utilisateurs planifient uniquement les réunions dans Teams. Le complément équipes n’est disponible que dans Outlook. | 
+| Appels RTC reçus dans : | Skype Entreprise <br>(L’utilisation de la fonctionnalité RTC dans teams n’est pas prise en charge en mode îlot.)     | Équipes |   
+ |Présence    | La présence dans Skype entreprise et équipes est indépendante. Les utilisateurs peuvent voir des États différents pour les mêmes utilisateurs d’îlot, en fonction du client qu’ils utilisent. | La présence est basée uniquement sur l’activité de l’utilisateur dans Teams. Tous les autres utilisateurs, quel que soit le client qu’ils utilisent, voient leur présence. | 
+ | Planification de réunions    | Les utilisateurs peuvent planifier des réunions dans teams ou Skype entreprise. Ces deux compléments s’afficheront dans Outlook.    |     Les utilisateurs planifient uniquement les réunions dans Teams. Le complément équipes n’est disponible que dans Outlook. | 
 
 Le tableau suivant récapitule les avantages et inconvénients de l’utilisation de la méthode de superposition de capacités pour migrer votre organisation vers Teams.
 

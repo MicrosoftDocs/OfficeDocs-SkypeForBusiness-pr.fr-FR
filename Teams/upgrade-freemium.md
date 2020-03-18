@@ -19,14 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0c86a22449fef5563b531558d45188c74ea8280
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 756f22712bb0d3f71cdeb5936eb53960700ef57b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837164"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706984"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
+# <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
 ======================================================
 
 Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouvez facilement effectuer une mise à niveau vers la version complète en achetant un plan d’abonnement Office 365 pour vos utilisateurs. La version complète fournit des fonctionnalités d’équipes supplémentaires (par exemple, planification, audioconférence, administration améliorée et fonctionnalités de sécurité) que la version gratuite ne fournit pas. Office 365 allie la suite de bureau Microsoft Office que vous connaissez à une version Cloud des services de communication et de collaboration nouvelle génération de Microsoft (y compris Exchange Online, SharePoint Online et Office) pour aider les utilisateurs à rester productifs de quasiment partout via Internet. Lorsque vous mettez à niveau Teams, vos données d’équipe existantes ne seront pas perdues ; les équipes, les canaux, les conversations, les fichiers et les autorisations vous accompagnent. 
@@ -91,7 +91,7 @@ Entrez l’adresse de messagerie que vous utilisez pour vous connecter à Teams,
 
 Après avoir effectué la mise à niveau, reportez-vous à la rubrique mise [en route de Microsoft teams](get-started-with-teams-quick-start.md) pour commencer à utiliser [Microsoft teams](adopt-microsoft-teams-landing-page.md) pour une approche progressive de l’adoption d’équipes au sein de votre organisation.
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 - Pour en savoir plus sur les versions d’équipes et leurs fonctionnalités, voir [comparer les plans des équipes](https://products.office.com/microsoft-teams/free).
 - Pour plus d’informations sur la mise à niveau vers la version complète de Microsoft Teams, voir [mise à niveau de teams gratuit vers teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863445"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706884"
 ---
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>Préparer votre service pour la mise à niveau vers teams
+
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
 Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
@@ -33,8 +35,6 @@ Cet article fait partie de l’étape de préparation technique de votre mouveme
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>Préparer votre service pour la mise à niveau vers teams
 
 Cet article fournit une vue d’ensemble de la configuration requise pour préparer votre organisation à la collaboration et aux services vocaux Cloud avec Teams. En préparant correctement, vous pouvez être sûr de pouvoir fournir ces fonctionnalités à votre organisation.
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836794"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706684"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>Préparer un plan de préparation utilisateur
+
 ![Étapes du parcours de la mise à niveau, mise en surbrillance de l’étape de préparation de l’utilisateur](media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 
 Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
@@ -33,8 +35,6 @@ Cet article fait partie de l’étape de préparation de votre mise à niveau pa
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>Préparer un plan de préparation utilisateur
 
 Un plan de compatibilité utilisateur optimal incorpore la façon dont vous communiquez, Apprenez et prenez en charge vos utilisateurs comme vous le pilote, l’intégration et la mise à niveau de teams. Comme vous l’avez détecté dans la phase d’évaluation de l' [impératif du changement](https://aka.ms/OrgReadiness)de l’organisation, la préparation ne correspond pas à la taille. Pour garantir une receptiveness optimale à la nouvelle technologie, utilisez une combinaison de messages à grande portée (intégration de la messagerie de vision/valeur et des cas d’utilisation universelles) et de la messagerie, de la formation et de la prise en charge adaptées aux personnages et aux cohortes que vous avez définies et également à votre laggards, le cas échéant. Ce plan personnalisé contribue à faciliter l’adoption par les utilisateurs, en permettant aux utilisateurs de plus en plus rapidement en relation avec les équipes, tout en montrant que vous comprenez leurs besoins.
 

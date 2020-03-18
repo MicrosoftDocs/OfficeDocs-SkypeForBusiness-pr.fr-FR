@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833894"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706454"
 ---
+# <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
+
 ![Diagramme de route de mise à niveau, mise en surbrillance du déploiement et de l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
 Cet article fait partie de l’étape de déploiement et d’implémentation de votre cycle de mise à niveau et permet de partager des informations sur l’exécution d’un pilote efficace. Avant de continuer, confirmez que vous avez terminé les activités suivantes :
@@ -35,8 +37,6 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
 Le déploiement de nouvelles technologies permet à votre organisation de réaliser des avantages commerciaux tels que la réduction des coûts, la conformité de la sécurité, la satisfaction des employés et l’efficacité opérationnelle, mais elle peut également affecter la productivité de vos utilisateurs et l’infrastructure de l’organisation. votre réseau). Avant d’activer une nouvelle technologie au sein de votre organisation, effectuez un pilote d’utilisateur formel. Comme vous le feriez avec un petit carreau de couleur sur un mur avant de peindre la totalité de la pièce, vous testez un déploiement de grande envergure sur une plus petite échelle en lançant un pilote pour vérifier la compatibilité technique et des utilisateurs, identifier et limiter les problèmes et garantir la réussite de l’opération. implémentation à l’échelle de l’organisation.
 

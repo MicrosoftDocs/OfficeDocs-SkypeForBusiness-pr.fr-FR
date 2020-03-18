@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837244"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707014"
 ---
+# <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
+
 ![Diagramme de parcours de mise à niveau, mise en surbrillance de l’étape de définition du projet](media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
 Cet article fait partie de la phase de définition de projet de votre mouvement de mise à niveau, d’une activité complète après la création d’une coalition de parrainage et de l’équipe de projet auprès des parties prenantes que vous avez identifiées comme clé du succès de votre projet. Avant de continuer, confirmez que vous avez terminé les activités suivantes :
 
 - [Participants au projet répertoriés](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
 Le temps de définir la vision, l’objectif et la gouvernance de votre projet vous aideront à aligner les parties prenantes sur le projet et à travailler sur le même résultat. Ce problème est particulièrement important dans le fait que l’équipe de préparation technique et l’équipe de préparation des utilisateurs travailleront indépendamment pour rassembler leurs pièces respectives. À la fin de cette section, consultez-la dans l’ensemble de votre projet pour vous assurer que vous êtes sur la bonne voie pour atteindre l’état final escompté. Utilisez les objectifs que vous identifiez ci-dessous pour effectuer des mesures par rapport à vos résultats, et réduisez le cas échéant.
 

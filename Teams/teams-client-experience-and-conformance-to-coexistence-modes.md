@@ -18,17 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94126a5d49c9573751279c645024dcb9d164bd90
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 7e2687f00a2d0ccb02e742d5077e472aa1dc37ed
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863295"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706614"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Expérience client Teams et conformité aux modes coexistence
 
+<a name="about-upgrade-basic"></a>
 
 L’objectif des modes de coexistence Skype entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir une interface simple et prévisible aux utilisateurs finaux lors de la transition de Skype entreprise à Teams.  Dans le cas d’une organisation qui migre vers Teams, le mode **équipes uniquement** représente la destination finale de chaque utilisateur, mais tous les utilisateurs ne doivent pas être disposant **uniquement d’équipes** (ou d’autres modes) en même temps.  Avant d’atteindre le mode TeamsOnly, les organisations peuvent utiliser n’importe quel mode de coexistence Skype entreprise pour garantir une communication prévisible entre les utilisateurs qui sont des **équipes uniquement** et ceux qui ne le sont pas encore. 
 
@@ -86,7 +85,7 @@ Lors de l’utilisation de `Grant-CsTeamsUpgradePolicy` PowerShell, l’applet d
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

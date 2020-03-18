@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550911"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706444"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
+
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
 
 La technologie innove à un rythme inégalé. La mise à jour et l’activation d’un environnement de travail moderne constituent une norme en matière de fonctionnement des organisations. En tant que Microsoft Teams, Microsoft 365 et la vision de la communication intelligente de Microsoft continuent de se dérouler, le fait d’avoir mis en place un plan opérationnel permettra de garantir que votre organisation est configurée pour un succès de longue durée. Un plan opérationnel optimal implique de surveiller votre environnement en fonction de l’état d’intégrité et de la qualité, et de planifier la mise en ligne dans le temps de l’utilisateur.
 

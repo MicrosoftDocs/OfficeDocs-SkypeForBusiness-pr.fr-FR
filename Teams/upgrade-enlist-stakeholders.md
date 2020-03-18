@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837194"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706994"
 ---
+# <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
+
 ![Illustration illustrant l’état des parties prenantes du parcours de mise à niveau](media/upgrade-banner-stakeholders.png "Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project")
 
 Cet article fait partie de l’étape parties prenantes dans le cadre de votre mise à niveau de votre projet.
-
-
-# <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
 À partir de la mise en œuvre des livrables du projet dans le code de responsabilité, vos parties prenantes ont la maîtrise du succès de votre projet. Deux groupes de parties prenantes sont à votre disposition : (1) une _coalition de parrainage_ incluant des dirigeants et des dirigeants de projet qui ont un intérêt et une influence sur le succès du projet, et (2) l' _équipe de projet_, composée des personnes chargées de la gestion des utilisateurs et des tâches, qui effectuent les diverses tâches du plan de projet. Le thread commun entre ces deux groupes est le _responsable de projet_, qui permet de s’assurer que les tâches de projet sont achevées en prévision et signale l’état du projet sur la coalition.
 
