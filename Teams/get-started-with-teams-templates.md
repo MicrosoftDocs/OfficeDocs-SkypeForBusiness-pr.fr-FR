@@ -3,7 +3,6 @@ title: Prise en main des modèles Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837014"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796027"
 ---
 # <a name="get-started-with-teams-templates"></a>Prise en main des modèles Teams
 
@@ -78,10 +77,7 @@ Par défaut, le modèle de base est défini sur **standard** , qui ne contient p
 |Organisme<br>Hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canaux<ul><li>Annonces\*</li><li>Conformément\*</li><li>Privatives de Troie</li><li>Ressources humaines</li></li><li>Pharmaceutiques</li></ul>\*Canal avec favoris automatique|
 |||
 
-> [!NOTE]
-> Dans la prochaine version de Microsoft Teams, nous allons ajouter d’autres types de modèles de base, et revérifier les informations les plus récentes sur les propriétés prises en charge.
-
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Créer une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en Preview)
 - [Nouvelle équipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)

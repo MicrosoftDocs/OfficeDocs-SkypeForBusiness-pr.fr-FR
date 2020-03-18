@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez Power BI pour analyser les données de bord pour Microsoft Teams.
-ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: c69d2ba79044d4d15e21881e5d2a9a2ce4f64feb
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572892"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796007"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser des données bord pour Microsoft teams
 
@@ -40,6 +40,9 @@ Pour pouvoir utiliser ces fichiers PBIX, vous devez [installer le connecteur Pow
 |BORD rapport de synthèse. pbix     |Des visualisations améliorées, une présentation améliorée, une plus grande densité d’information et des dates de roulement. Ces rapports permettent d’identifier plus facilement les valeurs extrêmes. Explorez la qualité des appels à l’aide d’une carte interactive facile à utiliser. 9 nouveaux rapports :</p>-Globalement-qualité<br>– Fiabilité globale<br>-Centre RMC (évaluer mon appel) en général<br>-Qualité de la Conférence<br>-Qualité P2P<br>-Fiabilité des conférences<br>-Fiabilité P2P<br>-Centre d’audioconférence<br>-CENTRE RMC         |
 |<strong>(Nouveau !)</strong> Rapport sur l’utilisation des équipes bord. pbix     | Décrit la façon dont les utilisateurs de votre organisation utilisent des équipes et combien de temps. Pour en savoir plus, voir [utiliser le rapport Power bi bord pour afficher le taux d’utilisation de Microsoft teams](CQD-teams-utilization-report.md).        |
 |Rapport sur les utilisateurs bord (évaluer mon appel). pbix     | Le mode d’affichage des données d’appel vous permet de classer facilement les appels au sein de votre organisation. Référence croisée avec Verbatim pour identifier les opportunités de la formation des utilisateurs finaux.        |
+
+> [!TIP]
+> Une fois que vous avez configuré vos rapports Power BI pour bord données, ajoutez-les comme onglet à un canal. Après avoir sélectionné **+** dans un canal, sélectionnez **Power bi** , puis recherchez votre rapport. N’oubliez pas que seules les personnes disposant d’une licence Power BI et les informations d’identification d’administrateur bord peuvent accéder à ces rapports.
 
 
 ## <a name="related-topics"></a>Sujets associés

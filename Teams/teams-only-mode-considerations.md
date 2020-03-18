@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035458"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795997"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
@@ -49,8 +49,6 @@ Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Te
 
 **Remarques relatives**à l’ensemble du client : nous travaillons à l’activation d’équipes dans les environnements suivants ; Toutefois, pour le moment, les administrateurs ne peuvent pas mettre à niveau les utilisateurs de leur organisation si leur client Skype entreprise est hébergé dans l’un des environnements suivants :
 
- - Communauté gouvernementale secteur public haut
- - Government Community Cloud DoD
  - Office 365 géré par 21Vianet
  - Office 365 Allemagne
  - Le client Skype entreprise est hébergé en Corée du Sud **et** l’organisation nécessite le stockage des données d’équipe en Corée du Sud. Pour l’instant, les organisations possédant des données Skype entreprise stockées en Corée du Sud qui effectuent une mise à niveau vers teams disposeront des données de leurs équipes dans la région du centre de données Asia, et non dans la région du centre de données de Corée du Sud
