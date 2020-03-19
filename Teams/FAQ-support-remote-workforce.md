@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: nichrose
 localization_priority: Priority
 search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869c489fbb5ff30f611b52d3682b090422aece8d
-ms.sourcegitcommit: 5f4bcbd3011aae13db846b4fe3da0b76fff7d05f
+ms.openlocfilehash: e5b6249adc4c5f7af09f0414b07f500058f71747
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42617748"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858739"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Forum aux questions : soutenir vos employés en télétravail
 
