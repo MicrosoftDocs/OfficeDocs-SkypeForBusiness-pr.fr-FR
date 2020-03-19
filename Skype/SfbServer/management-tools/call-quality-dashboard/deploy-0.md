@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Résumé : Découvrez le processus de déploiement du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: d42d735ab5a60ec02ad2e1f4f696908996457c0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5879c4a99eec8471763e0fccc3a4886be660dbb6
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042261"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840158"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Déployer le tableau de bord de qualité des appels pour Skype entreprise Server
  
@@ -274,7 +274,7 @@ Les types de construction sont utilisés pour décrire les différentes définit
 > [!NOTE]
 > Cette étape est facultative, mais recommandée. 
   
-範例
+Exemples
   
 - Siège social
     
@@ -303,7 +303,7 @@ Les types de propriété sont utilisés pour distinguer les biens loués vs.
 > [!NOTE]
 > Cette étape est facultative, mais recommandée. 
   
-範例
+Exemples
   
 - Contoso avec bail non RE&amp;F
     
@@ -337,7 +337,7 @@ Les types de réseau sont utilisés pour décrire différents types de réseaux 
 > [!NOTE]
 > Il est vivement recommandé de définir des noms réseau, mais cela est facultatif. Si vous décidez de ne pas définir de noms réseau, vérifiez que chaque entrée CqdNetwork a un BuildingId de 0. 
   
-範例
+Exemples
   
 - VPN
     
@@ -386,22 +386,23 @@ Les paramètres BuildingKey, BuildingName, BuildingShortName, OwnershipTypeId, B
 L’importation de bâtiments vous donne la possibilité de créer des informations spécifiques (appels médiocres par bâtiment sur WiFi/Wired, etc.). 
   
 > [!NOTE]
-> Cette étape est facultative, mais recommandée. 
+> Cette étape est facultative, mais recommandée.
   
-Importez des sous-réseaux et mappez-les aux bâtiments importés lors de la dernière étape. Si vous décidez de ne pas renseigner NetworkName, assurez-vous que chaque entrée de cette table utilise un NetworkNameID de 0.
+Importez des sous-réseaux et mappez-les aux bâtiments importés lors de la dernière étape. Si vous décidez de ne pas renseigner NetworkName, assurez-vous que chaque entrée de cette table utilise un NetworkNameID de 0. Pour plus d’informations sur la syntaxe et les paramètres SQL du tableau de bord de qualité des appels, voir [Use Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use).
   
  **Exemple de syntaxe SQL**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
+,[NetworkRange]
 ,[NetworkNameID]
 ,[BuildingKey]
 ,[UpdatedDate]
 )
 
 VALUES
- ('172.16.254.0',0,1,'2015-11-11')
+ ('172.16.254.0',32,0,1,'2015-11-11')
 ```
 
 Le réseau et les paramètres UpdatedDate sont obligatoires, les autres paramètres sont facultatifs.

@@ -12,22 +12,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772745"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857993"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
 Un package de stratégie dans Microsoft teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires au sein de votre organisation. Nous avons conçu des packages de stratégie pour simplifier, rationaliser et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs au sein de votre organisation.  
 
 Lorsque vous attribuez un package de stratégie aux utilisateurs, les stratégies du package sont créées et vous pouvez personnaliser les paramètres des stratégies du package en fonction des besoins de votre organisation.
+
+Les packages de stratégie ne sont pas disponibles pour les organisations américaines de la communauté Cloud.
 
 ## <a name="what-is-a-policy-package"></a>Qu’est-ce qu’un package de stratégie ?
 
@@ -107,6 +111,6 @@ Vous pouvez modifier les paramètres d’une stratégie par le biais de la page 
 
 Cela risque de se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées. Réattribuez-le à vos utilisateurs. Le renouvellement de l’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)

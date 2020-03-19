@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160708"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858579"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -303,6 +303,25 @@ Le tableau suivant indique la portée de port des processeurs multimédias :
   > [!NOTE]
   > Microsoft recommande au moins deux ports par appel simultané sur l’SBC.
 
+
+## <a name="media-traffic-media-processors-geography"></a>Trafic multimédia : géographie pour les processeurs multimédias
+
+Le trafic multimédia passe par des composants appelés processeurs multimédias. Les processeurs multimédias sont placés dans les mêmes centres de fichiers que les proxys SIP. Par ailleurs, il existe d’autres processeurs multimédias pour optimiser le flux multimédia. Par exemple, il n’y a pas de composant proxy SIP dès maintenant en Australie (le SIP est transmis via Singapour ou Hong Kong), mais nous avons le processeur média en Australie. La nécessité d’utiliser les processeurs multimédias localement dépend de la latence que nous utilisons en envoyant le trafic longue distance (par exemple, de l’Australie à Singapour ou à Hong Kong). En temps réel, il n’y a pas de réponse à Hong Kong ou à Singapour pour garantir une qualité d’appel optimale pour le trafic SIP en temps réel.
+
+Emplacement des processeurs multimédias :
+
+Emplacements dans lesquels les composants proxy SIP et processeur multimédia sont déployés :
+- Les États-Unis (2 aux centres des États-Unis et aux États-Unis)
+- Europe (les centres de centres d’Amsterdam et de Dublin)
+- Asie des centres de reversions de Singapour et de Hong Kong
+
+Emplacements dans lesquels seuls les processeurs multimédias sont déployés (flux SIP via le centre de média le plus proche indiqué ci-dessus) :
+- Japon (JP East et West)
+- Australie (datacenters au-orientale et West)
+
+
+
+
 ## <a name="media-traffic-codecs"></a>Trafic multimédia : codecs
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Jambe entre le processeur de médias SBC et Cloud ou le client Microsoft Teams.
@@ -333,6 +352,3 @@ Pour plus d’informations sur les éléments SBCs pris en charge, voir [liste d
 ## <a name="see-also"></a>Voir aussi
 
 [Configurer le routage direct](direct-routing-configure.md)
-
-
-

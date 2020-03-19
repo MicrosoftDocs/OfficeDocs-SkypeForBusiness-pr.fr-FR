@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences aux fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236834"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858553"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Attribution de licences Microsoft teams
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | Nom du produit | Référence |
 |--------------|---------------|
 | Audioconférence (abonnement) | MCOMEETADV | 
-| Payez à la minute (payer au fur et à mesure)</br>*Remarque : la configuration et l’activation de crédits de communication sont nécessaires*. | MCOMEETACPEA |
+| Payez à la minute (payer au fur et à mesure)</br>*Remarque : la configuration et l’activation de crédits de communication sont nécessaires*. |    MCOMEETACPEA |
 | Entreprise E1 | STANDARDPACK | 
 | Entreprise E3 | ENTERPRISEPACK |
-| Entreprise E5 (sans Audioconférence) |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| Entreprise E5 (sans Audioconférence) |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | Entreprise E5 (avec audioconférence) | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>Crédits de communication
@@ -186,7 +187,7 @@ Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez l
 
 Jetez un coup d’œil à l’exemple de script permettant d’affecter des licences de conférence audio. Mettez-le à jour avec les informations relatives à l’affectation de licences de crédits de communication.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer des forfaits d'appels](set-up-calling-plans.md)
 </br>
