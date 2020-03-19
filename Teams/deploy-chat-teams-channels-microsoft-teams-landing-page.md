@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285826"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796017"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -42,14 +42,7 @@ Pour commencer, regardez notre courte vidéo sur les conversations, équipes et 
 
 ## <a name="chat-deployment-prerequisites"></a>Conditions préalables pour le déploiement de Chat
 
-Avant de déployer Teams dans votre organisation, prenez le temps de confirmer que votre environnement est prêt pour Teams. Passer en revue les informations suivantes et apportez les modifications nécessaires à votre environnement.
-
-- Pour tirer le meilleur parti de Teams, votre organisation doit avoir déployé [Exchange Online et SharePoint Online](#exchange-and-sharepoint-interoperability), et vous devez avoir un domaine vérifié pour Office 365 (par ex., contoso.com).
-
-- Pour mettre à l'échelle le chat, les équipes et les canaux à travers votre organisation, assurez-vous que tous les sites disposent d'un accès Internet afin de pouvoir se connecter à Office 365. Au minimum, confirmez que les ports courants suivants sont ouverts à internet à partir de tous les emplacements :
-
-    - Ouvrir les ports **TCP** 80 et 443 pour le trafic sortant des clients qui utiliseront Teams.
-    - Ouvrir les ports **UDP** 3478 à 3481 pour le trafic sortant des clients qui utiliseront Teams.
+Avant de déployer Teams dans votre organisation, prenez le temps de confirmer que votre environnement est prêt pour Teams. Consultez la section [Préparer le réseau de votre organisation pour les équipes](prepare-network.md) et apportez les modifications nécessaires à votre environnement.
 
 |Posez-vous la question|Action |
 |------------|-------|
