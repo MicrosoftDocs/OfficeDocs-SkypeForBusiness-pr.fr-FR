@@ -37,6 +37,7 @@
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
+## [Créer des équipes de gestionnaires de contacts](create-manager-directs-teams.md)
 ## [Gérer les équipes et les stratégies de canal](teams-policies.md)
 ## [Étiquettes de confidentialité pour Teams](sensitivity-labels.md)
 ## [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
