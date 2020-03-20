@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 4f44555f520e3789df4927e34e6579b834f75c39
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398172"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858619"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
@@ -53,7 +54,7 @@ Les plans de service qu’un administrateur peut voir dans le cadre de l’expé
 
 ## <a name="whos-eligible"></a>Qui est éligible ?
 
-Aussi longtemps que l’utilisateur dispose d’une adresse de messagerie de domaine Azure Active Directory gérée et qu’aucune licence Teams ne lui est actuellement pas attribuée, il peut bénéficier de cette expérience. Par exemple, un utilisateur disposant d’une licence Office 365 Business (n’incluant pas Teams) est éligible à l’expérience exploratoire Teams.
+Tant que l'utilisateur possède une adresse e-mail de domaine géré AAD et qu'il ne dispose pas ou n'a pas encore reçu de licence Teams, il peut bénéficier de cette expérience. Par exemple, un utilisateur disposant d’une licence Office 365 Business (n’incluant pas Teams) est éligible à l’expérience exploratoire Teams.
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Microsoft 365). Pour plus d’informations, voir [Gérer l’expérience exploratoire Teams](#manage-the-teams-exploratory-experience) plus loin dans cet article. 
 
@@ -78,7 +79,7 @@ Les administrateurs peuvent désactiver la possibilité pour les utilisateurs fi
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Empêcher les utilisateurs d’installer des applications et services à l’essai
 
-Vous pouvez désactiver la possibilité pour un utilisateur d’installer des applications et des services d’essai, empêchant l’utilisateur d’exécuter l’expérience exploratoire Teams.
+Vous pouvez désactiver la possibilité pour un utilisateur d’installer des applications et des services d’essai, ce qui l’empêche d’exécuter l’expérience exploratoire Teams.
 
 1. Dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home), accédez à **Paramètres** > **Paramètres**, sélectionnez **Services**, puis choisissez **Services et applications propriétés de l'utilisateur**.
 

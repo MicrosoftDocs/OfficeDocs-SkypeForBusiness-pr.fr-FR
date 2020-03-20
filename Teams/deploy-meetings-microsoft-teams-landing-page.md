@@ -12,16 +12,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a935041cd0cdcb35a28e315ab48eadf6263273
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 00dab47ce695d542dcd9b7a30a1b289d0a804dea
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826882"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858594"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -46,7 +47,7 @@ Avant d'étendre le déploiement de vos réunions à l'ensemble de votre organis
 
 Pour tirer le meilleur parti de Teams, votre organisation doit avoir déployé Exchange Online et SharePoint Online, et vous devez avoir un domaine vérifié pour O365 comme *contoso.com*.
 
-Pour étendre les réunions à l'échelle de votre organisation, vous devez vous assurer que tous les sites utilisateurs disposent d'un accès Internet pour se connecter aux services Office 365. Au minimum, vous devez vous assurer que les ports courants suivants sont ouverts à internet à partir des emplacements de vos utilisateurs :
+Pour étendre les réunions à l'échelle de votre organisation, vous devez vous assurer que tous les sites utilisateurs disposent d'un accès Internet pour se connecter aux services Office 365. Vous devez vous assurer qu’au minimum, les ports courants suivants soient ouverts à internet à partir des emplacements de vos utilisateurs :
 
 - ports TCP 80 et 443 sortants pour les clients qui utiliseront Teams.
 - ports UDP 3478 à 3481 sortants pour les clients qui utiliseront Teams.
@@ -110,7 +111,7 @@ Pour une expérience optimale de réunion dans Teams, envisagez d’utiliser des
 
 ### <a name="reporting"></a>Rapports
 
-Utilisez les rapports d’activité pour voir la manière dont les utilisateurs de votre organisation utilisent Teams. Par exemple, si certaines utilisateurs n’utilisent pas encore Teams, ils ne savent peut-être pas comment commencer ou comprendre comment ils peuvent utiliser Teams pour être plus productifs et mieux collaborer. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication. 
+Utilisez les rapports d’activité pour voir la manière dont les utilisateurs de votre organisation utilisent Teams. Par exemple, si certains utilisateurs n’utilisent pas encore Teams, c’est peut-être parce qu’ils ne savent pas comment commencer ou comment utiliser Teams pour être plus productifs et mieux collaborer. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication. 
 
 
 | Posez-vous la question | Action |
@@ -196,7 +197,7 @@ Teams offre deux façons de surveiller et de résoudre les problèmes de qualit�
 
 ### <a name="operate-your-meetings-service"></a>Utiliser votre service de réunions
 
-Il est important de comprendre l’état de santé général du service Teams afin de pouvoir signaler de manière proactive à d’autres personnes de votre organisation n’importe quel événement qui affecte le service. Les articles [Utiliser mon service](1-drive-value-operate-my-service.md) fournissent des instructions détaillées concernant les opérations de service.
+Il est important de comprendre l’état de santé général du service Teams afin de pouvoir signaler, de manière proactive, aux autres membres de votre organisation, tout événement qui affecte le service. Les articles [Utiliser mon service](1-drive-value-operate-my-service.md) fournissent des instructions détaillées concernant les opérations de service.
 
 |Posez-vous la question|Action |
 |------------|-------|
