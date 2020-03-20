@@ -1,5 +1,5 @@
 ---
-title: Résoudre les problèmes de connectivité avec le client de Microsoft Teams
+title: Résoudre les problèmes de connectivité avec le client Microsoft Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,28 +18,28 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825352"
 ---
-<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Résoudre les problèmes de connectivité avec le client de Microsoft Teams
+<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Résoudre les problèmes de connectivité avec le client Microsoft Teams
 ==============================================================
 
-La plupart des problèmes détectés avec le client Microsoft teams peuvent être retrouvés dans la connectivité de pare-feu ou de proxy. La vérification de l’ouverture des URL nécessaires, des adresses IP et des ports par le pare-feu ou le serveur proxy permet de réduire les problèmes inutiles. Pour obtenir des informations spécifiques sur les URL et IPs nécessaires à Microsoft Teams, voir l’article [URL et adresse IP d’Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) . Les scénarios suivants nécessitent l’ouverture d’URL et de ports spécifiques dans le pare-feu.
+La plupart des problèmes détectés avec le client Microsoft Teams peuvent être attribués au pare-feu ou à la connectivité du proxy. Vérifier que les URL, les adresses IP et les ports nécessaires sont ouverts dans votre pare-feu ou votre proxy réduit le nombre de dépannages inutiles. Si vous souhaitez en savoir plus sur les URL et les IP requises pour Microsoft Teams, veuillez consulter l'article de support [URL et adresse IP Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Les cas suivants nécessitent l'ouverture d'URL et de ports spécifiques dans le pare-feu.
 
 -   Authentification
 
--   Connectivité du client Microsoft teams
+-   Connectivité du client Microsoft Teams
 
--   Équipe
+-   Collaboration
 
--   Media
+-   Multimédia
 
 -   Services partagés
 
--   Intégration d’une tierce partie
+-   Intégration de tiers
 
--   Interopérabilité entre Skype entreprise
+-   Interopérabilité de Skype Entreprise
 
--   Interopérabilité du client Skype entreprise
+-   Interopérabilité du client Skype Entreprise
