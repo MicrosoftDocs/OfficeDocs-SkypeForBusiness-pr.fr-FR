@@ -1,5 +1,5 @@
 ---
-title: Utilisateurs peuvent passer des appels sortants à ces pays et régions
+title: Les utilisateurs peuvent passer des appels sortants vers ces pays et ces régions
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,74 +23,74 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Cette rubrique contient tous les pays ou régions dans lesquels les utilisateurs peuvent effectuer des appels sortants s’ils ont un plan d’appels.
+description: Cette rubrique contient tous les pays et régions auxquels les utilisateurs peuvent passer des appels sortants s'ils ont un forfait d'appels.
 ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41682511"
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Utilisateurs peuvent passer des appels sortants à ces pays et régions
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Les utilisateurs peuvent passer des appels sortants vers ces pays et ces régions
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Découvrez les pays/régions dans lesquels les utilisateurs peuvent effectuer des appels sortants si l’utilisateur possède la licence de plan d’appel national et international.
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Découvrez dans quels pays et régions, les utilisateurs peuvent effectuer des appels sortants s'ils disposent de la licence de forfait d'appels nationaux et internationaux
 
-|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
+|**A – D**| **E – H**|**I – L**|**M – O**|**P – S**|**T – Z**|
 ---|---|---|---|---|---|
-|Afghanistan|Équateur |Islande |Macau |Pakistan |Taïwan   |
-|Albanie|Égypte |Inde |Macédoine |Les Palaos |Tadjikistan   |
-|Algérie|El Salvador |Indonésie |Malawi |Palestinian Authority |Tanzanie  |
-|Les Samoa américaines|Guinée équatoriale |Iran |Malaisie |Panama | Thaïlande   |
-|Andorre |Érythrée |Iraq |Mali |Paraguay |Togo   |
+|Afghanistan|Équateur |Islande |Macao |Pakistan |Taïwan   |
+|Albanie|Égypte |Inde |Macédoine du Nord |Palaos |Tadjikistan   |
+|Algérie|Salvador |Indonésie |Malawi |Autorité palestinienne |Tanzanie, République unie de  |
+|Samoa américaines|Guinée Équatoriale |Iran |Malaisie |Panama | Thaïlande   |
+|Andorre |Érythrée |Irak |Mali |Paraguay |Togo   |
 |Angola |Estonie |Irlande |Malte |Pérou | Trinité-et-Tobago  |
-|Anguilla |Éthiopie |Israël |Les îles Marshall | Philippines | Turquie |
-|Antigua-et-Barbuda | Faroe Islands |Italie |Martinique |Pologne |Turkménistan |
-|Argentine|Fidji |Jamaïque |Maurice |Portugal |Îles Turques-et-Caïques   |
+|Anguilla |Éthiopie |Israël |Îles Marshall | Philippines | Turquie |
+|Antigua-et-Barbuda | Îles Féroé |Italie |Martinique |Pologne |Turkménistan |
+|Argentine|Fidji |Jamaïque |Maurice |Portugal |Turques-et-Caïques   |
 |Arménie |Finlande |Japon |Mayotte | Porto Rico |Ouganda  |
 |Aruba |France |Jordanie |Mexique |Qatar | Ukraine   |
-|Australie |Guyane française |Kazakhstan |Micronésie |Réunion |Émirats arabes unis  |
-|Autriche |Polynésie française |Kenya |Moldavie |Roumanie |Royaume-Uni (R.-U.) |
-|Azerbaïdjan |Géorgie |Corée du Sud |Monaco | Russie |États-Unis  |
+|Australie |Guyane française |Kazakhstan |Micronésie |La Réunion |Émirats arabes unis (E.A.U)  |
+|Autriche |Polynésie française |Kenya |Moldavie, République de |Roumanie |Royaume-Uni (RU) |
+|Azerbaïdjan |Géorgie |Corée, République de |Monaco | Russie |États-Unis (É.-U.)  |
 |Bahamas |Allemagne |Koweït |Mongolie |Rwanda | Uruguay |
 |Bahreïn |Ghana |Kirghizstan |Monténégro | Saint-Christophe-et-Niévès |Ouzbékistan  |
-|Bangladesh |Gialtar |Laos |Montserrat | Sainte Lucie |Vatican  |
+|Bangladesh |Gialtar |Lao |Montserrat | Sainte-Lucie |État de la Cité du Vatican  |
 |Barbade |Grèce |Lettonie |Maroc |Saint-Vincent-et-les-Grenadines |Venezuela   |
-|Belarus |Groenland |Liban |Mozambique | Saint-Marin |Vietnam  |
-|Belgique |Grenade |Lesotho |Birmanie | Arabie saoudite | Les îles Vierges britanniques |
-|Belize |Guadeloupe |Libye |Namibie |Sénégal | Les îles Vierges américaines  |
-|Bénin |Guam |Liechtenstein |Népal | Serbie | Wallis-et-Futuna  |
-|Les Bermudes |Guatemala |Lituanie |Pays-Bas |Singapour |Yémen |
-|Bhoutan |Guinée |Luxembourg |Les Antilles néerlandaises |Slovaquie |Zambie  |
-|Bolivie |Guyana| |Nouvelle-Calédonie |Slovénie |Zimbabwe |
-|Bosnia and Herzegovina (Bosna i Hercegovina) |Haïti ||Nouvelle-Zélande |Afrique du Sud | 
+|Bélarus |Groenland |Liban |Mozambique | Saint-Marin |Vietnam  |
+|Belgique |Grenade |Lesotho |Myanmar | Arabie Saoudite | Îles Vierges (britanniques) |
+|Belize |Guadeloupe |Libye |Namibie |Sénégal | Îles Vierges (États-Unis)  |
+|Bénin |Guam |Liechtenstein |Népal | Serbie | Îles Wallis et Futuna  |
+|Bermudes |Guatemala |Lituanie |Pays-Bas |Singapour |Yémen |
+|Bhoutan |Guinée |Luxembourg |Antilles Néerlandaises |Slovaquie |Zambie  |
+|Bolivie |Guyane| |Nouvelle-Calédonie |Slovénie |Zimbabwe |
+|Bosnie-Herzégovine |Haïti ||Nouvelle-Zélande |Afrique du Sud | 
 |Botswana |Honduras ||Nicaragua |Soudan du Sud |
 |Brésil |Hong Kong ||Niger |Espagne | 
-|Bunei Darussalam |Hongrie ||Nigeria |Sri Lanka | 
-|Bulgarie |||Îles Mariannes du Nord |St. Pierre et Miquelon |
+|Brunéi Darussalam |Hongrie ||Nigéria |Sri Lanka | 
+|Bulgarie |||Îles Mariannes du Nord |Saint-Pierre-et-Miquelon |
 |Burkina Faso |||Norvège |Soudan |
 |Cambodge |||Oman |Suriname | 
 |Cameroun ||||Swaziland |
 |Canada ||||Suède | 
-|Cap-Vert ||||Suisse |
-|Cayman Islands ||||Syrie |
+|Cabo verde ||||Suisse |
+|Îles Cayman ||||République arabe syrienne |
 |République centrafricaine |
 |Chili |
 |Chine |
 |Colombie |
-|Les Comores |
-|République Démocratique du Congo |
-|République du Congo |
+|Comores |
+|Congo, République démocratique du |
+|Congo, République populaire du |
 |Costa Rica |
-|Côte d'Ivoire |
+|Côte d’Ivoire |
 |Croatie |
 |Chypre |
 |République tchèque |
 |Danemark |
 |Djibouti |
 |Dominique |
-|Dominican Republic (República Dominicana) |
+|République dominicaine |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
