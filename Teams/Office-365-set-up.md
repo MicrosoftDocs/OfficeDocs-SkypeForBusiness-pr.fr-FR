@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Apprenez à activer Microsoft teams pour votre organisation Office 365.
+description: Découvrez comment activer Microsoft Teams pour votre organisation Office 365.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a4772cc676cb9b26ec613488553e96be26d93cfa
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41833344"
@@ -34,7 +34,7 @@ ms.locfileid: "41833344"
 Par défaut, Teams est activé pour toutes les organisations. Si vous utilisiez Teams lors de la période d’évaluation, sa configuration reste identique à celle que vous aviez définie pendant sa période d’évaluation. 
 
 
-En tant qu’administrateur de votre organisation, vous pouvez attribuer des licences utilisateur pour contrôler l’accès individuel aux équipes et vous pouvez autoriser ou bloquer les sources de contenu qui peuvent être utilisées dans Teams. Pour plus d’informations, voir [gérer les paramètres de Microsoft teams pour les](enable-features-office-365.md) [applications dans Microsoft teams](admin-settings.md) . 
+En tant qu’administrateur de l’organisation, vous pouvez attribuer des licences pour contrôler l'accès individuel à Teams. Vous pouvez également choisir les sources de contenu qui peuvent être utilisées dans Teams. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md) ou [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md). 
 
 
  

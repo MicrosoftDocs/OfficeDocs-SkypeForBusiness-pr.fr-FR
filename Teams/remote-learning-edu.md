@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8f6a0d5df609724a4bdd807a3f2f41826cd40c9
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858591"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892344"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -164,4 +164,4 @@ Les ressources supplémentaires de support sont les suivantes :
 - [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
 - [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
 - [Ressources de support pour Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Centre d’aide de Teams](https://support.office.com/teams)
+- [Centre d’aide pour Teams](https://support.office.com/teams)
