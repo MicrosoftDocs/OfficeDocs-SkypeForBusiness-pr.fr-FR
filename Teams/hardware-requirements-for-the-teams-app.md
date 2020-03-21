@@ -1,5 +1,5 @@
 ---
-title: Configuration matérielle requise pour Microsoft teams
+title: Configuration matérielle requise pour Microsoft Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: En savoir plus sur la configuration matérielle requise pour l’installation et l’exécution de Microsoft Teams.
+description: Découvrez la configuration matérielle requise pour installer et exécuter Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,80 +20,80 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 65de6266af5d7b17234cd3b77d867176338d35fa
 ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/28/2020
 ms.locfileid: "42327856"
 ---
-# <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft teams
+# <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
-Toutes les exigences des sections suivantes s’appliquent à l’application de bureau Microsoft teams et à l’application Web Teams.
+Toutes les conditions requises dans les sections suivantes s’appliquent à la fois à l’application de bureau Microsoft Teams et à l’application Web Teams.
 
-## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Configuration matérielle requise pour teams sur un PC Windows
+## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Configuration matérielle requise pour les équipes sur un PC Windows
 
-|**Composant**|**Condition requise**  |
+|**Composant**|**Configuration requise**  |
 |---------|---------|
 |Ordinateur et processeur    | Minimum 1,6 GHz (ou plus) (32 bits ou 64 bits).        |
-|Mémoire     |    2,0 GO DE MÉMOIRE VIVE (RAM)     |
-|Disque dur    | 3,0 Go d’espace disque disponible        |
-|Display    |   résolution d’écran 1024 x 768 |
-|Matériel vidéo |  Minimum de 128 Mo de mémoire graphique
-|Système d’exploitation  |    Windows Server 2012 R2 +, Windows 10 ou Windows 8,1 dans 32 bits et 64-bit. Pour une utilisation optimale, utilisez la version la plus récente de votre système d’exploitation.|
-|Version .NET    |  Nécessite .NET 4,5 CLR ou version ultérieure       |
-|Vidéo    |  Caméra vidéo USB 2,0       |
-|Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
-|Appels et réunions vidéo | <ul><li>Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). </li><li>L’effet de **brouillage facultatif mon arrière-plan** exige un processeur doté d’une prise en charge de la fonction AVX2 (Advanced Vector Extensions 2). Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.</li><li>La participation à une réunion à l’aide d’une détection de proximité dans une salle Microsoft teams nécessite le Bluetooth LE, qui nécessite l’activation de la technologie Bluetooth sur le périphérique client, et pour les clients Windows, le client teams 64 est requis. Elle n’est pas disponible pour les clients d’équipes 32 bits.</li></ul> |
-|Événements en direct Teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou d’une version ultérieure) et d’un codeur matériel. Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge. |
+|Mémoire     |    RAM de 2.0 Go     |
+|Disque dur    | 3,0 Go d’espace disque disponible        |
+|Affichage    |   Résolution d’écran 1024 x 768 |
+|Matériel graphique |  Mémoire graphique de 128 Mo au minimum
+|Système d’exploitation  |    Windows Server 2012 R2 +, Windows 10 ou Windows 8,1 dans 32 bits et 64 bits. Pour une expérience optimale, utilisez la dernière version de votre système d’exploitation.|
+|Version de .NET    |  Requiert .NET 4.5 CLR ou version ultérieure.       |
+|Vidéo    |  Caméra vidéo USB 2.0       |
+|Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    | 
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur 2,0 GHz et 4,0 Go de RAM (ou plus). </li><li>L’effet vidéo facultatif**Brouiller mon arrière-plan** nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2). Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite Bluetooth LE, lequel nécessite l’activation du Bluetooth sur l’appareil client, et pour les clients Windows, le client Teams 64 bits est nécessaire. Ce n’est pas disponible pour les équipes 32 bits.</li></ul> |
+|Événements en direct Teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou plus) et d’un codeur matériel. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge. |
 
-## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour teams sur un Mac
+## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur un Mac
 
-|**Composant**|**Condition requise**  |
+|**Composant**|**Configuration requise**  |
 |---------|---------|
-|Processeur    | Processeur Intel minimum, cœur 2 Duo ou version ultérieure |
-|Mémoire     |   2,0 GO DE MÉMOIRE VIVE (RAM)      |
-|Disque dur    |   1,5 Go d’espace disque disponible      |
-|Display    | 1280 x 800 ou résolution supérieure    |
+|Processeur    | Minimum processeur Intel, Core 2 Duo ou version supérieure |
+|Mémoire     |   RAM de 2.0 Go      |
+|Disque dur    |   1,5 Go d’espace disque disponible      |
+|Affichage    | 1280 x 800 ou résolution supérieure    |
 |Système d’exploitation  |    Mac OS X 10,11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
-|Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
-|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure).  <ul><li>L’effet de **brouillage facultatif mon arrière-plan** nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.</li><li>La participation à une réunion à l’aide de la détection de proximité dans une salle Microsoft teams n’est pas disponible sur Mac OS.</li></ul> |
+|Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
+|Appels vidéo et réunions | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur 2,0 GHz et 4,0 Go de RAM (ou plus).  <ul><li>L’effet vidéo facultatif**Brouiller mon arrière-plan** nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2), pris en charge sur la plupart des appareils Mac 2013 ou ultérieurs. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Mac OS.</li></ul> |
 
-## <a name="hardware-requirements-for-teams-on-linux"></a>Configuration matérielle requise pour teams dans Linux
+## <a name="hardware-requirements-for-teams-on-linux"></a>Configuration matérielle requise pour Teams sur Linux
 
-|**Composant**|**Condition requise**  |
+|**Composant**|**Configuration requise**  |
 |---------|---------|
 |Ordinateur et processeur    | Minimum 1,6 GHz (ou plus) (32 bits ou 64 bits).        |
-|Mémoire     |    2,0 GO DE MÉMOIRE VIVE (RAM)     |
-|Disque dur    | 3,0 Go d’espace disque disponible        |
-|Display    |   résolution d’écran 1024 x 768 |
-|Matériel vidéo |  Minimum de 128 Mo de mémoire graphique
-|Système d’exploitation  | Distribution Linux capable d’installer une DEB ou RPM. |
-|Vidéo    |  Caméra vidéo USB 2,0       |
-|Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
-|Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
-|Appels et réunions vidéo | <ul><li>Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). </li><li>L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.</li><li>La participation à une réunion à l’aide de la détection de proximité dans une salle Microsoft teams n’est pas disponible dans Linux.</li></ul>
-|Distributions Linux prises en charge | Ubuntu 16,04 LTS, 18,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation CentOS 8
+|Mémoire     |    RAM de 2.0 Go     |
+|Disque dur    | 3,0 Go d’espace disque disponible        |
+|Affichage    |   Résolution d’écran 1024 x 768 |
+|Matériel graphique |  Mémoire graphique de 128 Mo au minimum
+|Système d’exploitation  | Distribution Linux capable d’installer les applications DEB ou RPM. |
+|Vidéo    |  Caméra vidéo USB 2.0       |
+|Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    | 
+|Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur 2,0 GHz et 4,0 Go de RAM (ou plus). </li><li>L’effet vidéo facultatif Brouiller mon arrière-plan nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2), pris en charge sur la plupart des appareils Mac 2013 ou ultérieurs. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
+|Distributions Linux prises en charge | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
-## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Configuration matérielle requise pour teams sur les appareils mobiles
+## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Configuration matérielle requise pour Teams sur les appareils mobiles
 
-Vous pouvez utiliser teams sur les plateformes mobiles suivantes :
+Vous pouvez utiliser Teams sur ces plateformes mobiles :
 
 - Android : compatible avec les téléphones et tablettes Android.
 
-  La prise en charge est limitée aux quatre dernières versions d’Android. Lorsqu’une nouvelle version majeure d’Android est publiée, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
+  La prise en charge est limitée aux quatre dernières versions principales d’Android. Lors de la publication d’une nouvelle version majeure d’Android, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
 
-- iOS : compatible avec les iPhone, iPad et iPod effleure.
+- iOS : compatible avec iPhone, iPad et iPod touch.
 
-  La prise en charge est limitée aux deux dernières versions principales d’iOS. Lorsqu’une nouvelle version majeure d’iOS est publiée, la nouvelle version d’iOS et la version précédente sont officiellement prises en charge.
+  La prise en charge est limitée aux deux versions principales d’iOS les plus récentes. Lors de la publication d’une nouvelle version majeure d’iOS, la nouvelle version of iOS et les versions précédentes sont officiellement prises en charge.
 
-Pour une utilisation optimale de Microsoft Teams, utilisez la dernière version d’iOS et Android.
+Pour une expérience optimale de Teams, utilisez la dernière version de votre système d’exploitation iOS et Android.
 
-## <a name="hardware-requirements-for-teams-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour teams dans un environnement VDI (Virtual Desktop Infrastructure)
+## <a name="hardware-requirements-for-teams-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour Teams dans un environnement VDI (Virtual Desktop Infrastructure)
 
-Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) .
+Voir [Teams pour une infrastructure bureau virtualisée(VDI)](teams-for-vdi.md) pour plus d’informations sur la configuration requise pour l’exécution d’équipes dans un environnement virtualisé.
 
-### <a name="related-topics"></a>Rubriques connexes
-- [Obtenir des applications teams](get-clients.md)
-- [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
-- [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)
+### <a name="related-topics"></a>Sujets associés
+- [Obtenir les applications Teams](get-clients.md)
+- [Microsoft Teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Installer l’application Microsoft Teams à l’aide d’un fichier MSI](msi-deployment.md)
 - [Limites et spécifications de Microsoft Teams](limits-specifications-teams.md)

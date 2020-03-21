@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser une affectation de stratégie de lot pour attribuer des stratégies aux utilisateurs de votre établissement d’enseignement en bloc pour les usages de l’établissement scolaire
 f1keywords: ''
-ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691184"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892274"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire
 
@@ -82,20 +82,16 @@ Lorsque vous y êtes invité, connectez-vous à l’aide des informations d’id
 Tout d’abord, exécutez la commande suivante pour identifier votre personnel et vos enseignants par type de licence. Cette option vous indique les références (SKU) utilisées au sein de votre organisation. Vous pouvez ensuite identifier le personnel et les enseignants qui ont affecté une référence pour les enseignants.
 
 ```powershell
-Get-AzureADSubscribedSku
-```
-
-```powershell
-$skus = Get-AzureADSubscribedSku
+Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 Qui renvoie :
 
 ```
-ObjectId                                                                  SkuPartNumber      SkuId
---------                                                                  -------------      -----
-ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+SkuPartNumber      SkuId
+-------------      -----
+M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
 Dans cet exemple, la sortie indique que la licence Université SkuId est « e97c048c-37a4-45FB-ab50-922fbf07a370 ».
@@ -106,7 +102,7 @@ Dans cet exemple, la sortie indique que la licence Université SkuId est « e97
 Ensuite, nous exécutons la commande suivante pour identifier les utilisateurs disposant de cette licence et les rassembler.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
+$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>Assigner une stratégie en bloc
@@ -150,7 +146,7 @@ $faculty.count
 Au lieu de fournir la liste complète des identifiants utilisateur, exécutez la commande suivante pour spécifier le premier 20 000, puis la 20 000 suivante, et ainsi de suite.
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
 Vous pouvez modifier la plage d’ID utilisateur jusqu’à ce que vous accédiez à la liste complète des utilisateurs. Par exemple, entrez ```$faculty[0..19999``` pour le premier lot, utilisez ```$faculty[20000..39999``` pour le second lot, entrez ```$faculty[40000..59999``` pour le troisième lot, et ainsi de suite.

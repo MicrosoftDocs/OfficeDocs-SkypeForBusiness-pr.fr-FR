@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327826"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892204"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -75,17 +75,17 @@ Pour obtenir des instructions complètes sur le déploiement de l’application 
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Procédure de nettoyage et de redéploiement
 
-Si un utilisateur désinstalle Teams de son profil d'utilisateur, le programme d'installation de MSI vérifiera que l'utilisateur a désinstallé l'application Teams et n'installe plus Teams pour ce profil d'utilisateur. Pour redéployer Teams pour cet utilisateur sur un ordinateur particulier où il a été désinstallé, procédez comme suit :
+Si un utilisateur désinstalle teams de son profil utilisateur, le programme d’installation MSI effectue le suivi de la désinstallation de l’application teams par l’utilisateur et n’installe plus teams pour ce profil utilisateur. Pour redéployer Teams pour cet utilisateur sur un ordinateur particulier où il a été désinstallé, procédez comme suit :
 
-1. Désinstallez l’application Teams installée pour chaque profil utilisateur.
-2. Après la désinstallation, supprimez le répertoire de manière récursive dans `%localappdata%\Microsoft\Teams\`.
+1. Désinstaller l’application teams installée pour chaque profil utilisateur.
+2. Après la désinstallation, supprimez le répertoire de `%localappdata%\Microsoft\Teams\`manière récursive.
 3. Redéployez le package MSI sur cet ordinateur particulier.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Empêcher Teams de démarrer automatiquement après l’installation
 
 Le comportement par défaut du MSI est d’installer l’application Teams dès qu’un utilisateur se connecte, puis démarre automatiquement Teams. Si vous ne voulez pas que Teams démarrent automatiquement pour les utilisateurs une fois qu’elle est installée, vous pouvez utiliser une stratégie de groupe pour définir un paramètre de stratégie ou désactiver le lancement automatique pour le programme d’installation MSI.
 
-#### <a name="use-group-policy-recommended"></a>Utiliser la stratégie de groupe (recommandé)
+### <a name="use-group-policy-recommended"></a>Utiliser la stratégie de groupe (recommandé)
 
 Activez le paramètre de stratégie de groupe **Empêcher Microsoft Teams de démarrer automatiquement après l’installation**. Ce paramètre de stratégie est disponible sous Configuration utilisateur\Stratégies\Modèles d’administration\Microsoft Teams. Il s’agit de la méthode recommandée, car vous pouvez activer ou désactiver le paramètre de stratégie en fonction des besoins de votre organisation.
 
@@ -103,16 +103,18 @@ Vous pouvez désactiver le lancement automatique pour le programme d’installat
 Pour la version 32 bits
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 Pour la version 64 bits
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 Lorsqu’un utilisateur se connecte à Windows, Teams est installé avec le MSI et un raccourci vers démarrer Teams est ajouté au bureau de l’utilisateur. Teams ne démarre pas avant que l'utilisateur ne démarre manuellement Teams. Une fois que l’utilisateur a démarré manuellement Teams, Teams démarre automatiquement chaque fois que l’utilisateur ouvre une session.
+
+Notez que ces exemples utilisent également le paramètre **ALLUSERS = 1** . Lorsque vous définissez ce paramètre, le programme d’installation à l’échelle de l’entreprise teams apparaît dans programmes et fonctionnalités dans le panneau de configuration et dans applications & fonctionnalités dans les paramètres Windows de tous les utilisateurs de l’ordinateur. Tous les utilisateurs peuvent alors désinstaller teams s’ils possèdent des informations d’identification d’administrateur sur l’ordinateur.
 
 > [!Note]
 > Si vous exécutez le MSI manuellement, veillez à l’exécuter avec des autorisations élevées. Même si vous l’exécutez en tant qu’administrateur, sans l’exécuter avec des autorisations élevées, le programme d’installation ne peut pas configurer l’option permettant de désactiver le démarrage automatique.
