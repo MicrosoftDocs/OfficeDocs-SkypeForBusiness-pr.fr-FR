@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Informations pour les administrateurs concernant la présence dans Teams.
+description: Informations destinées aux administrateurs sur la présence dans Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,66 +18,66 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7e0d7ef2fa7ae12f660bf6b77ba7c45a8c49ab10
 ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41863195"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
-Les informations de présence font partie du profil d’un utilisateur de Microsoft Teams (et dans l’ensemble d’Office 365), qui indique la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs. Par défaut, tous les membres de votre organisation utilisant teams peuvent voir (presque en temps réel) si d’autres utilisateurs sont disponibles en ligne.
+La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et dans Office 365) et indique aux autres utilisateurs sa disponibilité et son statut actuels. Par défaut, tous les membres qui utilisent Teams dans votre organisation peuvent voir (en temps quasi-réel) si d’autres utilisateurs sont disponibles en ligne.
 
 > [!IMPORTANT]
-> Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution : pour voir la présence dans Outlook (et les autres applications Office), Skype entreprise doit être installé, même si vous exécutez teams en mode **équipes uniquement** . Microsoft est courant du problème et travaille activement au développement d’un correctif.
+> Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution de contournement :pour afficher la présence dans Outlook (et d'autres applications Office), Skype Entreprise doit être installé, même si vous exécutez Teams en mode **Teams uniquement**. Microsoft est sensibilisé à ce problème et travaille activement au développement d’un correctif.
 
 La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
 
-## <a name="presence-states-in-teams"></a>États de présence dans teams
+## <a name="presence-states-in-teams"></a>États de présence dans Teams
 
-Les statuts de présence des utilisateurs disponibles dans teams sont les suivants :
+Les états de présence des utilisateurs disponibles dans Teams sont les suivants :
 
-|Utilisateur configuré|Application configurée|
+|L'utilisateur est configuré|L'application est configurée|
 |:--- |:---|
-| ![Coche verte unie, indiquant présence disponible](media/Presence_Available.png) Disponibles|![Coche verte unie, indiquant présence disponible](media/Presence_Available.png) Disponibles|
-|| ![Ouvrir la coche verte indique qu’il est disponible](media/Presence_Available_OOF.png) Disponible, absent (e) du Bureau |
-|  ![Cercle rouge Uni, indiquant occupé](media/Presence_Busy.png) Très |  ![Cercle rouge Uni, indiquant occupé](media/Presence_Busy.png) Très  |
-|| ![Cercle rouge Uni, indiquant bien occupé lors d’un appel](media/Presence_Busy.png) Lors d’un appel|
-|| ![Cercle rouge Uni, indiquant bien occupé lors d’une réunion](media/Presence_Busy.png) En réunion |
-|| ![Ouvrir un cercle rouge, indique occupé](media/Presence_Busy_OOF.png) En communication, absent (e) du Bureau|
-|  ![Cercle rouge avec une ligne blanche indiquant ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
-|| ![Cercle rouge avec une ligne blanche indiquant une présentation](media/Presence_DND.png) Présente|
-|| ![Cercle rouge avec ligne blanche indiquant le focus](media/Presence_DND.png) Focalis|
-| ![Icône d’horloge jaune, indiquant absent](media/Presence_Away.png) Disparaître| ![Icône d’horloge jaune, indiquant absent](media/Presence_Away.png) Disparaître|
-|| ![Icône d’horloge jaune indiquant](media/Presence_Away.png) l’heure de la dernière *connexion* affichée|
-|![Icône d’horloge jaune, indique absent, revenir en arrière](media/Presence_Away.png) On arrive| |
-|| ![Icône d’horloge jaune, indiquant qu’il n’est pas opérationnel](media/Presence_Away.png)  Sur le Bureau|
-|| ![Cercle gris avec x, indiquant hors ligne](media/Presence_Offline.png) Mise |
-|| ![Ouverture d’un cercle gris, indiquant le statut inconnu](media/Presence_Unknown.png) État inconnu|
-||![Cercle rouge avec ligne diagonale indiquant bloqué](media/Presence_Blocked.png) Bloqué |
-|| ![Cercle violet avec flèche, indiquant qu’il n’est pas du tout le Bureau](media/Presence_OOF.png) Absent (e) du Bureau|
+| ![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|
+|| ![Une coche verte ouverte indique une Absence du bureau](media/Presence_Available_OOF.png) Disponible, Absent du bureau |
+|  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé  |
+|| ![Un cercle rouge plein indique Occupé au téléphone](media/Presence_Busy.png) Au téléphone|
+|| ![Un cercle rouge plein indique Occupé en réunion](media/Presence_Busy.png) En réunion |
+|| ![Un cercle rouge ouvert indique Occupé](media/Presence_Busy_OOF.png) Au téléphone, absent du bureau|
+|  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
+|| ![Un cercle rouge avec une ligne blanche indique En cours de présentation](media/Presence_DND.png) En cours de présentation|
+|| ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Travail individuel en cours|
+| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent|
+|| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
+|![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
+|| ![Une icône d’horloge jaune indique l’absence, congé](media/Presence_Away.png)  Congé|
+|| ![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Hors connexion |
+|| ![Un cercle gris ouvert indique un statut inconnu](media/Presence_Unknown.png) Statut inconnu|
+||![Un cercle rouge ouvert avec une ligne diagonale indique bloqué](media/Presence_Blocked.png) Bloqué |
+|| ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent du bureau|
 |||
  
-Les utilisateurs peuvent définir manuellement leur état de présence actuel sur certaines options, et leur état est reflété par tous les autres utilisateurs. Des informations supplémentaires sur la présence d’un utilisateur sont également mises à jour automatiquement. Les modifications dépendent de l’activité des utilisateurs (disponible, absent (e), des États du calendrier Outlook (dans une réunion) ou des États des applications Teams (en cours de présentation) pour les États en retrait dans la liste. Il y a un délai d’inactivité de 15 minutes, après lequel l’état de présence actuel est remis à absent (e).
+Les utilisateurs peuvent manuellement définir leur état de présence actuel pour certaines options et il se reflète vers tous les autres utilisateurs. D’autres détails sur la présence de l’utilisateur sont également mis à jour automatiquement. Les modifications sont basées sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation) et aux états mis en retrait dans la liste. Il y a un délai d’inactivité de 15 minutes, après lequel l’état de présence actuel est rétabli sur Absent.
 
-Les utilisateurs reçoivent tous les messages de discussion qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsque quelqu’un lui envoie un message, le message de conversation s’affiche dans teams lors de la prochaine connexion de l’utilisateur. Si un utilisateur est dans un État ne pas déranger, il continue à afficher des messages instantanés, mais une bannière de notification s’affiche.
+Les utilisateurs reçoivent tous les messages de conversation qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsqu’une personne envoie un message, celui-ci apparaît dans Teams lorsque l'utilisateur est de nouveau en ligne. Si un utilisateur est dans un état Ne pas déranger, il reçoit les messages de conversation, mais une bannière de notification ne s’affiche pas.
 
-Les utilisateurs reçoivent les appels dans tous les pays, à l’exception des États ne pas déranger, dans lesquels les appels entrants sont remis à leur boîte vocale. Si le destinataire a bloqué l’appelant, l’appel ne sera pas remis et l’appelant verra la présence du destinataire hors connexion.
+Les utilisateurs reçoivent des appels quel que soit l'état de présence, à l’exception des états Ne pas déranger dans lesquels les appels entrants sont transmis à leur messagerie vocale. Si le destinataire a bloqué l’appelant, l'appel n’est pas remis et l’appelant voit la présence du destinataire en Mode hors connexion.
 
-Les utilisateurs peuvent ajouter des personnes à leur liste d’accès prioritaire en accédant à **paramètres** > **confidentialité** dans Teams. Les personnes disposant d’un accès prioritaire peuvent contacter l’utilisateur, même si celui-ci est dans un État ne pas déranger.
+Les utilisateurs peuvent ajouter des utilisateurs à leur liste d’accès prioritaire en accédant à **Paramètres** > **Confidentialité** dans Teams. Les contacts disposant d’un accès prioritaire peuvent contacter l’utilisateur, même lorsque celui-ci est dans un état Ne pas déranger.
 
-## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administration dans teams par rapport à Skype entreprise
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administrateur dans Teams comparé à ceux de Skype Entreprise
 
-Les paramètres d’administration suivants Skype entreprise sont différents dans teams :
+Les paramètres d’administration suivants de Skype Entreprise sont différents de ceux dans Teams :
 
-- Dans Teams, le partage de présence est toujours activé pour les utilisateurs de l’organisation. Les informations sur la confidentialité (dans laquelle vous définissez qui peut voir la présence) ne sont pas disponibles dans Teams.
-- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Microsoft Teams. La liste de contacts (s’il en existe une dans Skype entreprise) est visible sous **discussions > contacts** ou sous **appels > contacts**.
-- Le client ne pas déranger et les fonctionnalités d’innovation sont toujours activées pour les utilisateurs de Microsoft Teams.
-- Calendrier (inclut les informations d’absence du bureau et d’autres informations de calendrier) l’intégration est toujours activée pour les utilisateurs lorsque teams est intégré à Outlook.
-- Le *dernier vu* ou *absent (e* ), car l’indicateur est toujours activé pour les utilisateurs en équipe si l’organisation utilise également Skype entreprise.
+- Le partage de présence est toujours activé dans Teams pour les utilisateurs de l’organisation. La configuration de la confidentialité (dans laquelle vous définissez les personnes pouvant voir la présence) n’est pas disponible dans Teams.
+- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts**.
+- Les fonctionnalités du client Ne sont pas déranger et Autorisé à appeler sont toujours activées pour les utilisateurs Teams.
+- L'intégration du calendrier (comprend les informations d’absence du bureau et d’autres informations de calendrier) est toujours activée pour les utilisateurs lorsque Teams est intégrée à Outlook.
+- L'indicateur *Vu pour la dernière fois* ou *Absent depuis* est toujours activé pour les utilisateurs Teams si l’organisation utilise également Skype Entreprise.
 
 > [!NOTE]
-> La capacité d’un administrateur d’équipes à personnaliser ces paramètres n’est pas actuellement prise en charge.
+> La possibilité pour un administrateur Teams de personnaliser ces paramètres n’est pas prise en charge pour le moment.
 
 ## <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
-Pour plus d’informations sur la façon dont votre organisation utilise également Skype entreprise, voir [coexistence avec Skype entreprise](coexistence-chat-calls-presence.md) .
+Pour plus d’informations sur les fonctions de présence Teams lorsque votre organisation utilise également Skype Entreprise, voir [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md).
