@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113257"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892304"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
 
@@ -32,7 +32,7 @@ Si vous disposez d’un système de file d’attente automatique et d’appels d
 
 Si le standard automatique de votre système téléphonique ou la file d’attente d’appels nécessite un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant :
 
-1. Obtenir un numéro de service
+1. Obtenir un numéro de service.
 2. Procurez-vous une licence de système téléphonique [virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user) gratuit ou une licence de système téléphonique payant à utiliser avec le compte de ressource.
 3. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doit être associé à un compte de ressource.
 4. Attendre une synchronisation Active Directory entre en ligne et en local.
@@ -71,7 +71,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 3. Créez un compte de ressource local en exécutant l' `New-CsHybridApplicationEndpoint` applet de commande pour chaque standard automatique ou file d’attente d’appels du système téléphonique, et attribuez un nom, une adresse SIP et ainsi de suite à chacun d’eux.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
@@ -103,12 +103,12 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-Le compte de ressource aura besoin d’un numéro de téléphone attribué s’il doit être affecté à un standard automatique de niveau supérieur ou une file d’attente d’appels. Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressource, seuls les numéros payants ou gratuits du service peuvent être utilisés.
+   Le compte de ressource aura besoin d’un numéro de téléphone attribué s’il doit être affecté à un standard automatique de niveau supérieur ou une file d’attente d’appels. Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressource, seuls les numéros payants ou gratuits du service peuvent être utilisés.
 
-  Vous pouvez attribuer un numéro hybride de routage direct à votre compte de ressource.  Pour plus d’informations, voir [planifier le routage direct](/MicrosoftTeams/direct-routing-plan) .
+     Vous pouvez attribuer un numéro hybride de routage direct à votre compte de ressource. Pour plus d’informations, reportez-vous à [planifier le routage direct](/MicrosoftTeams/direct-routing-plan).
 
-  > [!NOTE]
-  > Les numéros de service de routage direct affectés aux comptes de ressources pour le standard automatique et les files d’attente d’appels sont pris en charge pour les utilisateurs et les agents Microsoft teams uniquement.
+     > [!NOTE]
+     > Les numéros de service de routage direct affectés aux comptes de ressources pour le standard automatique et les files d’attente d’appels sont pris en charge pour les utilisateurs et les agents Microsoft teams uniquement.
 
 7. Créez le standard automatique du système téléphonique ou la file d’attente d’appels. Consultez l’une des rubriques suivantes :
 
@@ -195,7 +195,7 @@ La migration du service de messagerie unifiée Exchange vers le système télép
 
 [Créer une file d’attente d’appels cloud](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[Qu’est-ce que les standards automatiques Cloud ?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[Un standard Cloud automatique, qu’est-ce que c’est ?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
