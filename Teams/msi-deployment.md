@@ -16,34 +16,37 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892204"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937598"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
+> Pour plus d’informations sur les avantages du client de bureau Windows, voir la session suivante et comment le déployer : [client de bureau Windows teams](https://aka.ms/teams-clients).
 
 Pour utiliser Microsoft Endpoint Configuration Manager, une stratégie de groupe ou tout autre mécanisme de distribution tiers pour un déploiement étendu, Microsoft a fourni des fichiers MSI (32 bits et 64 bits) que les administrateurs peuvent utiliser pour le déploiement en bloc des équipes afin de sélectionner des utilisateurs ou ordinateurs. Les administrateurs peuvent être utilisés ces fichiers pour déployer Teams à distance, afin que les utilisateurs n’aient pas à télécharger l’application Teams. Une fois déployée, l’application Teams se lancera automatiquement pour tous les utilisateurs qui se connectent sur cette machine. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Consultez](#disable-auto-launch-for-the-msi-installer)) Nous vous recommandons de déployer le package sur l’ordinateur pour que tous les nouveaux utilisateurs de celui-ci bénéficient également de ce déploiement.
 
 Voici les liens vers les fichiers MSI :
 
 
-|Entité  |32 bits      |64 bits      |
+|Entité  |32 bits      |64 bits      |
 |---------|---------|---------|
 |Commerciale     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
 |Gouvernement fédéral : GCC     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
 |Gouvernement fédéral : GCC Max.    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |Gouvernement fédéral : DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
+> [!NOTE]
+> Installez la version 64 bits d’équipe sur les systèmes d’exploitation 64 bits. Si vous essayez d’installer la version 64 bits d’équipe sur un système d’exploitation 32 bits, l’installation échoue et vous ne recevez pas de message d’erreur.
+
 Teams peut également être inclus avec un déploiement d'Office 365 ProPlus. Pour plus d’informations, reportez-vous à la rubrique [Déployer Microsoft Teams avec Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Pour en savoir plus sur Microsoft Endpoint Configuration Manager, consultez [Qu’est-ce que Configuration Manager ?](https://docs.microsoft.com/configmgr/core/understand/introduction).
+> Pour en savoir plus sur le gestionnaire de configuration de points de terminaison Microsoft, voir [qu’est-ce que Configuration Manager ?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Procédure de déploiement (recommandé)
 
@@ -100,13 +103,13 @@ Pour plus d’informations, consultez [Utiliser une stratégie de groupe pour em
 
 Vous pouvez désactiver le lancement automatique pour le programme d’installation MSI à l’aide du paramètre **OPTIONS = "noAutoStart = true"** comme suit.  
 
-Pour la version 32 bits
+Pour la version 32 bits :
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-Pour la version 64 bits
+Pour la version 64 bits :
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
