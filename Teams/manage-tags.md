@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à gérer l’utilisation des indicateurs au sein de votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551041"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928447"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft teams
-
-> [!NOTE]
-> Cette fonctionnalité n’est pas encore affichée dans le centre d’administration Microsoft teams ? Ce service est actuellement déployé et n’est peut-être pas encore disponible dans votre organisation. Pour rester au courant des nouvelles fonctionnalités de teams, consultez la [documentation Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 Dans Microsoft Teams, les indicateurs permettent aux utilisateurs de communiquer avec un sous-ensemble de personnes d’une équipe. Les balises peuvent être ajoutées à un ou plusieurs membres de l’équipe pour se connecter facilement au sous-ensemble de personnes approprié. Les propriétaires d’équipe et les membres (si la fonctionnalité est activée pour eux) peuvent ajouter un ou plusieurs indicateurs à une personne. Vous pouvez ensuite utiliser les balises dans @mentions par tout membre de l’équipe dans un billet de canal ou pour démarrer une conversation avec uniquement les personnes auxquelles cette balise est affectée.
 

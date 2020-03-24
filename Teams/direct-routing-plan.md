@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858579"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928437"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -257,7 +257,7 @@ Vous devez utiliser les ports suivants pour les environnements Office 365 dans l
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Défini sur le SBC (pour Office 365 (pour les ports de la norme de DoD pour Office uniquement 5061 et 5062 doit être utilisé).|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Défini sur le SBC (pour Office 365 (au port de DoD de la France uniquement) 5061 doit être utilisé)|
 SIP/TLS|SBC|Proxy SIP|Définie sur l’SBC|5061|
 ||||||
 
