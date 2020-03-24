@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639461"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935227"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
 ## <a name="network-requirements"></a>Conditions de réseau requises
 
-Si vous avez déjà [optimisé votre réseau pour Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), cela signifie que vous êtes prêt pour Microsoft Teams. Dans tous les cas, vérifiez les points suivants avant de commencer le déploiement d’équipes :
+Si vous avez déjà [optimisé votre réseau pour Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), cela signifie que vous êtes prêt pour Microsoft Teams. Dans tous les cas, et en particulier si vous déployez des équipes rapidement en tant que première charge de travail 365 d’Office pour la prise en charge des **travailleurs distants** :
 
 1.  Tous vos emplacements disposent d’un accès à Internet (de sorte qu’ils puissent se connecter à Office 365) ? Au minimum, en plus du trafic Web normal, assurez-vous que vous avez ouvert la commande suivante, pour tous les emplacements, pour les médias dans teams :
 
@@ -75,7 +75,7 @@ Pour une description détaillée de l’optimisation du réseau, y compris des r
 <thead>
 <tr class="header">
 <th><strong>Tâche d’optimisation du réseau</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
