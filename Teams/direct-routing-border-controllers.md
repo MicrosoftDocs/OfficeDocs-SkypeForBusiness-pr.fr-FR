@@ -1,7 +1,7 @@
 ---
 title: Liste des contrôleurs de frontière de session certifiés pour le routage direct
 ms.author: crowe
-ms.reviewer: NMuravlyannikov
+ms.reviewer: FilippSe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier que leurs produits fonctionnent avec un routage direct.
-ms.openlocfilehash: c956fad4e18e4bfb2e97ccbc04ed776a967affc7
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
+ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928417"
+ms.locfileid: "42939618"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -62,15 +62,15 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (Build 537)     |  <ul> <li>[Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Mobilité du ciel en rouge </li> </ul>   |     &#10004;     |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (Build 216)    |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Mobilité du ciel en rouge </li> </ul>    |     &#10004;     |   
 | | Séries de EdgeMarc |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       1,4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Mobilité du ciel en rouge </li>  </ul>   |  &#10004;  |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Mobilité du ciel en rouge </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Mobilité du ciel en rouge </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Mobilité du ciel en rouge </li>  </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Mobilité du ciel en rouge </li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Mobilité du ciel en rouge </li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
-
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [Changer de bouton](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |    
 
 Le tableau suivant répertorie les appareils qui sont vérifiés en matière d’interopérabilité entre le routage direct et les appareils analogiques.
 
