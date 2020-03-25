@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et Lync 2013 à un seul endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: c5ed5e3c73ece6ce6f9a4d3e9b355a1cc77facf3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009287"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928247"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -32,6 +32,7 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour cumulative 3 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
 |Mise à jour cumulative 2 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
 |Mise à jour cumulative 1 du correctif logiciel 1 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
 |Mise à jour cumulative 1 pour Skype entreprise Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2019 |
@@ -75,8 +76,8 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom/lien du package|Date de publication|
 |:--- |:--- |
-|[KIT DE DÉVELOPPEMENT LOGICIEL (SDK) UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mai 2015       |
-|[CLR (Unified Communications Managed API 5,0 Runtime)](https://www.microsoft.com/download/details.aspx?id=47344)     |   Mai 2015      |
+|[KIT DE DÉVELOPPEMENT LOGICIEL (SDK) UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  mai 2015       |
+|[CLR (Unified Communications Managed API 5,0 Runtime)](https://www.microsoft.com/download/details.aspx?id=47344)     |   mai 2015      |
 |[Skype entreprise Server 2015, Pack d’administration](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Juin 2019       |
 |||
 
@@ -101,11 +102,11 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 |Mise à jour cumulative 6 du serveur Lync Server 2013 |[KB 3121213](https://support.microsoft.com/kb/3121213)|Décembre 2015 |
 |Mise à jour cumulative 6 de Lync Server 2013 |[KB 3081739](https://support.microsoft.com/kb/3081739)|Septembre 2015 |
 |Mise à jour cumulative 5 de Lync Server 2013, correctif 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|Juillet 2015 |
-|Mise à jour cumulative 5 de Lync Server 2013, correctif 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|Mai 2015 |
-|Mise à jour cumulative 5 de Lync Server 2013, correctif 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|Février 2015 |
+|Mise à jour cumulative 5 de Lync Server 2013, correctif 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|mai 2015 |
+|Mise à jour cumulative 5 de Lync Server 2013, correctif 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|février 2015 |
 |Correctif 7,1 de la mise à jour cumulative 5 pour Lync Server 2013|[KB 3027553](https://support.microsoft.com/kb/3140582)|Décembre 2014 |
 |Mise à jour cumulative 5 de Lync Server 2013, correctif logiciel 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|Décembre 2014 |
-|Mise à jour cumulative 5 du serveur Lync Server 2013, correctif logiciel 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|Novembre 2014  |
+|Mise à jour cumulative 5 du serveur Lync Server 2013, correctif logiciel 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|novembre 2014  |
 |Mise à jour cumulative 5 du serveur Lync Server 2013, correctif 5|[KB 3003358](https://support.microsoft.com/kb/3003358)|Octobre 2014 |
 | Mise à jour cumulative 5 de Lync Server 2013, correctif 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|Sept 2014 |
 | Mise à jour cumulative 5 de Lync Server 2013 |[KB 2937305](https://support.microsoft.com/kb/2937305)|Août 2014 |
@@ -174,8 +175,8 @@ Nom/lien du package|Date de publication|
 |Mise à jour cumulative de Lync Server 2010 18 Hotfix 1 |[KB 2493736](https://support.microsoft.com/kb/2493736) |Juin 2019|
 |Mise à jour cumulative 18 pour Lync Server 2010|[KB 2493736](https://support.microsoft.com/kb/2493736) |Janvier 2019|
 |Mise à jour cumulative 17 de Lync Server 2010|[KB 3148801](https://support.microsoft.com/kb/3148801) |Avril 2016 |
-|Mise à jour cumulative de Lync Server 2010 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |Mai 2015 |
-|Mise à jour cumulative 15 de Lync Server 2010 |[KB 3030726](https://support.microsoft.com/kb/3030726) |Février 2015|
+|Mise à jour cumulative de Lync Server 2010 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |mai 2015 |
+|Mise à jour cumulative 15 de Lync Server 2010 |[KB 3030726](https://support.microsoft.com/kb/3030726) |février 2015|
 |Mise à jour cumulative 13 pour Lync Server 2010|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|Septembre 2014|
 |Mise à jour cumulative 12 pour Lync Server 2010 |[KB 2957044](https://support.microsoft.com/kb/2957044) |Avril 2014 |
 |Mise à jour cumulative 11 pour Lync Server 2010 |[KB 2909888](https://support.microsoft.com/kb/2909888) |Janvier 2014|
@@ -260,7 +261,7 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[article 824684 de la base de connaissances](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer Skype entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [Mise à niveau vers Skype entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
