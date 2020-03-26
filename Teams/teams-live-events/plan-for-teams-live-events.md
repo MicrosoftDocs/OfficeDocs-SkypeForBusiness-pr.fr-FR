@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements live dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558564"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978416"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -64,13 +64,13 @@ L’utilisateur doit disposer des éléments suivants :
 |**Visibilité des participants**       |**Production Teams**  |**Production appareil ou application externe**  |
 |------------------------------|-----------------|----------------------|
 |Public (utilisateurs anonymes)      |  Oui            |  Non                  |
-|Utilisateurs invités                   |  No<sup>1</sup> |  Non                  |
-|Tous les membres de l’entreprise fédérée |  Non<sup>2</sup> |  Non                  |
+|Utilisateurs invités                   |  Oui            |  Non                  |
+|Tous les membres de l’entreprise fédérée |  Oui<sup>1</sup>|  Non                  |
 |Tous les membres de l’entreprise           |  Oui            |  Oui                 |
 |Des groupes / personnes spécifiques      |  Oui            |  Oui                 |
 
-<sup>1</sup> Peut regarder des événements en direct si l’événement en direct est configuré à l’aide de l’option **À l’échelle de l’organisation**.<br>
-<sup>2</sup> Peut uniquement regarder les événements en direct comme utilisateurs anonymes.
+<sup>1</sup> les participants fédérés peuvent uniquement être invités par le biais de personnes & groupe <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct Teams et Diffusion de réunion Skype
@@ -81,7 +81,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |---------|---------|---------|---------|
 |Taille maximale de l’audience |10 000 participants |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
 |Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
-|Nombre maximal d’événements en direct simultanés par client Office 365 |15  | 15  | 15  |
+|Nombre maximal d’événements en direct simultanés par client Office 365 |0,15  | 15  | 15  |
 |Création d’événement en direct |   Portail de diffusion de réunion Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Engagement d’audience - Yammer |&#x2714; |&#x2714; (expérience intégrée) |&#x2714; (expérience intégrée) |
 |Engagement d’audience - Q&R modérées |&#x2714;  |&#x2714; |&#x2714; |

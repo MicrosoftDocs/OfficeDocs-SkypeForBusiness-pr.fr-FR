@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417849"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978596"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -652,6 +652,7 @@ _Tableau 5 : création d’une structure de fichier_
 | Région             | String    | MSUS                      | Recommandation |
 | InsideCorp         | Bool      | 1                         | Obligatoire    |
 | ExpressRoute       | Bool      | 0,4                         | Obligatoire    |
+| VPN                | Bool      | 0,4                         | Facultatif    |
 
 \*S’il n’est pas requis par bord, les modèles sont configurés pour afficher les noms de bâtiment et de réseau.
 
@@ -701,7 +702,7 @@ Les données de qualité de l’expertise que les clients envoient à Office 365
   _Figure 13 : VPN avec nom de bâtiment_
 
 > [!IMPORTANT]
-> Certaines implémentations de réseau privé virtuel n’indiquent pas précisément les informations de sous-réseau. Si cela se produit dans votre création de rapports, nous vous conseillons de faire en sorte que lorsque vous ajoutez un sous-réseau VPN au fichier de bâtiment, au lieu d’une entrée pour le sous-réseau, ajoutez des entrées distinctes pour chaque adresse dans le sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous disposez de lignes 253, avec une ligne pour chaque adresse de 172.16.18.1/32 à 172.16.18.254/32, inclusive.
+> Certaines implémentations de réseau privé virtuel n’indiquent pas précisément les informations de sous-réseau. Le client VPN est fourni avec un sous-réseau 32 bits.  Comme indiqué dans la section précédente, bord ne peut pas identifier correctement un sous-réseau 32 bits.  Pour identifier avec précision un sous-réseau VPN dans bord, définissez le champ VPN sur 1 dans le fichier de construction.
 
 
 > [!NOTE]

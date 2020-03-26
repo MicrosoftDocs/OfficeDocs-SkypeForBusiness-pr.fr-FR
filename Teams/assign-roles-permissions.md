@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826102"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978456"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -44,13 +44,11 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 | **Modifier le nom ou la description du canal standard** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal standard**         |    Oui     |    Oui<sup>2</sup>|
 |          ***Ajouter un canal privé**          |    Oui     |    Oui<sup>2</sup>|
-| ***Modifier le nom ou la description du canal privé** |    Non     |    N/A|
+| ***Modifier le nom ou la description du canal privé** |    Non     |    N/D|
 |        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
-|           **Ajouter des onglets**            |    Oui     |    Oui<sup>2</sup>|
-|        **Ajouter des connecteurs**         |    Oui     |    Oui<sup>2</sup>|
-|           **Ajouter des bots**            |    Oui     |    Oui<sup>2</sup>|
+|           **Ajouter des applications**            |    Oui     |    Oui<sup>2</sup>|
 
 <sup>1</sup> les propriétaires des équipes peuvent créer des équipes, sauf s’ils sont restreints. [Autorisations pour créer des équipes](#permissions-to-create-teams) ci-dessous.<br>
 <sup>2</sup> un propriétaire peut désactiver ces éléments au niveau de l’équipe, auquel cas les membres ne peuvent pas y accéder.<br>

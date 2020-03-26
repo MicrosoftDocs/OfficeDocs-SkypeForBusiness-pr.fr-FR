@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser une affectation de stratégie de lot pour attribuer des stratégies aux utilisateurs de votre établissement d’enseignement en bloc pour les usages de l’établissement scolaire
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892274"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978516"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire
 
@@ -161,7 +161,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>FAQ
 
-**Je souhaite veiller à ce que tous les utilisateurs qui sont des étudiants, des enseignants et des enseignants obtiennent automatiquement des licences affectées. Comment faire ?**
+**Je souhaite veiller à ce que tous les utilisateurs qui sont des étudiants, des enseignants et des enseignants obtiennent automatiquement des stratégies affectées. Comment faire ?**
 
 L’équipe de produit équipes effectue son travail pour prendre en charge l’attribution de stratégies aux groupes de sécurité. À ce stade, vous serez en mesure de créer des groupes pour vos étudiants et enseignants, puis les politiques appropriées à ces groupes. Notez que les affectations utilisateur explicites (telles que les stratégies que vous avez affectées à l’aide de ce didacticiel) remplaceront les stratégies héritées d’un groupe. Lorsque cette fonctionnalité est prise en charge, nous vous fournirons des instructions supplémentaires sur la façon d’utiliser une affectation de stratégie aux groupes et de mettre à jour vos utilisateurs pour s’assurer qu’ils reçoivent les stratégies de groupe héritées.
 
