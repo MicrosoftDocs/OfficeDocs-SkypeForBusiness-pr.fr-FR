@@ -17,16 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
+ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374321"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42968659"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 Government-déploiements de GCC
 
 Ce guide est destiné aux professionnels de l’informatique qui pilotent des déploiements d’Office 365 aux États-Unis, aux États-Unis, aux États-Unis, tribal ou d’autres entités du gouvernement territorial ou d’autres entités qui gèrent les données soumises aux lois et exigences gouvernementales, lorsque l’utilisation de Microsoft 365 Government-GCC est approprié pour répondre à ces exigences.
+
+> [!IMPORTANT]
+> Microsoft teams est confronté à un énorme pic dans les appels en ligne et les conférences audio/vidéo à l’aide de coronavirus (COVID-19) Pandemic.<br/>
+> 
+>En réponse à une augmentation sans précédent des appels et à des fins de continuité et de disponibilité, Microsoft est en mesure de faire en sorte que les serveurs de contenus audio et vidéo Microsoft teams se chargent de la capacité de traitement de nos centres de données commerciaux et de nos centres de données du secteur public.<br/>
+> 
+>Ces serveurs audio/vidéo résident dans les serveurs de limite d’acforte accréditation Microsoft Azure FedRAMP aux États-Unis et ne stockent aucun contenu de client. Toutefois, ces serveurs traitent l’audio et la vidéo pour les appels et les conférences et sont soumis à la même équipe commerciale pendant cette période intermédiaire.<br/>
+> 
+>Les membres qualifiés et dotés d’une capture d’écran analysent ces serveurs pour un accès potentiel aux données du client en passant en revue les éléments de journal interactifs de ces serveurs. Le personnel qualifié répond à la configuration requise pour l’accès au contenu du client. Pour plus d’informations sur la configuration requise pour le filtrage, voir la [Description du service GCC](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md).<br/>
+> 
+>Nous vous remercions d’avoir pris le temps de nous assurer que nos services restent disponibles et fiables dans ces temps exceptionnels.<br/>
+
 
 > [!NOTE]
 > Si votre organisation a déjà satisfait au service Microsoft 365 Government-obligation d’éligibilité et qu’elle a été acceptée pour le programme, vous pouvez passer directement à l’étape 3. 
@@ -67,7 +79,7 @@ Nous vous conseillons de prendre le temps de vérifier les paramètres de votre 
 
 |    |     |
 |-----------|------------|
-| ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous voulez modifier l’un des paramètres de sécurité du service public Microsoft 365 par défaut et le résoudre pour tout d’abord comprendre l’impact des modifications que vous pourriez apporter.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous voulez modifier l’un des paramètres de sécurité du service public Microsoft 365 par défaut et le résoudre pour tout d’abord comprendre l’impact des modifications que vous pourriez apporter.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Étape 4. Comprenez quelles fonctionnalités sont actuellement indisponibles ou désactivées par défaut. 
 
@@ -75,69 +87,69 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 
 |                             | Fonctionnalité                     | ANTÉRIEURES            |
 |-----------------------------|-----------------------------|----------------|
-| Assiette | Connexion | Disponibles |
-| | Présence | Disponibles |
-| | Présence unifiée (Skype entreprise et équipes unifiées) | Disponibles |
-| Interactive | Actualité | Disponibles |
-|  | Mon activité | Disponibles |
-| Conversation | Conversation | Disponibles |
-| | Fichiers | Disponibles |
-| | Organigramme | Disponibles |
-| | Interactive | Disponibles |
-| | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Disponibles |
-| Équipes | Message du canal | Disponibles |
-| | Fichiers de canal | Disponibles |
+| Assiette | Connexion | Disponible |
+| | Présence | Disponible |
+| | Présence unifiée (Skype entreprise et équipes unifiées) | Disponible |
+| Interactive | Actualité | Disponible |
+|  | Mon activité | Disponible |
+| Conversation | Conversation | Disponible |
+| | Fichiers | Disponible |
+| | Organigramme | Disponible |
+| | Interactive | Disponible |
+| | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Disponible |
+| Équipes | Message du canal | Disponible |
+| | Fichiers de canal | Disponible |
 | | Onglet OneNote | Sur le backlog du secteur public |
 | | Envoyer un canal par courrier électronique | Non disponibles |
-| | Ajouter un membre | Disponibles |
-| | Accès invité | Disponibles |
-| Meetings | Programmer une réunion | Disponibles |
-| | Rejoindre une réunion | Disponibles |
-| | Réunion VoIP | Disponibles |
-| | Partage de Bureau | Disponibles |
-| | Donner et prendre le contrôle dans le partage | Disponibles |
-| | Se connecter à partir d’une salle de conférence | Disponibles |
-| | Jointure anonyme | Disponibles |
-| | Enregistrement Cloud | Disponibles |
-| | Notes de réunion | Disponibles |
-| | Événements en direct | Disponibles |
-| | Réunions fédérées | Disponibles |
-| | Prise en charge de surface Hub | Disponibles |
-| Appels | Contacts | Disponibles |
-| | Des | Disponibles |
-| | Messagerie vocale | Disponibles |
-| | Appel VoIP | Disponibles |
-| | Skype pour les entreprises : appel d’équipes | Disponibles |
-| | Forfaits d'appels | Disponibles |
-| | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Disponibles |
-| | Routage direct du système Microsoft Phone | Disponibles |
-| | Salle d’attente pour les appelants PSTN | Disponibles |
-| | File d’attente d’appels | Disponibles |
-| | Prise en charge du patron et du délégué | Disponibles |
-| | Consultation et transfert sécurisé | Disponibles |
-| | Ne pas déranger la révolution | Disponibles |
-| | Sonnerie distincte | Disponibles |
-| | 1:1, xxx xxxx xxx xxxx xxxx xxx xxxx xxx xxx | Disponibles |
-| | Transférer vers le groupe | Disponibles |
-| | Transférer vers un appel PSTN | Disponibles |
-| | Appels d’urgence-forfaits d’appels | Disponibles |
-| | Prise en charge des téléphones SIP certifiés existants | Disponibles |
-| | HID USB | Disponibles |
-| | eDiscovery pour les appels et les réunions | Disponibles |
-| | Standard automatique de l’Organisation | Disponibles |
-| | Skype grand public-service d’appel d’équipe | Disponibles |
-| Fichiers | Dernier | Disponibles |
-| | Microsoft Teams | Disponibles |
-| Enregistrer | Magasin d’applications | Disponibles |
-| Rechercher | Contenus | Disponibles |
-| | Personnes | Disponibles |
-| | Fichiers | Disponibles |
-| | Commandes de barre oblique | Disponibles |
-| Conformément | Recherche de contenu de conformité | Disponibles |
-| | Rétention | Disponibles |
-| | Recherche dans le journal d’audit | Disponibles |
-| | Conservation légale | Disponibles |
-| | eDiscovery | Disponibles |
+| | Ajouter un membre | Disponible |
+| | Accès invité | Disponible |
+| Meetings | Programmer une réunion | Disponible |
+| | Rejoindre une réunion | Disponible |
+| | Réunion VoIP | Disponible |
+| | Partage de Bureau | Disponible |
+| | Donner et prendre le contrôle dans le partage | Disponible |
+| | Se connecter à partir d’une salle de conférence | Disponible |
+| | Jointure anonyme | Disponible |
+| | Enregistrement Cloud | Disponible |
+| | Notes de réunion | Disponible |
+| | Événements en direct | Disponible |
+| | Réunions fédérées | Disponible |
+| | Prise en charge de surface Hub | Disponible |
+| Appels | Contacts | Disponible |
+| | Des | Disponible |
+| | Messagerie vocale | Disponible |
+| | Appel VoIP | Disponible |
+| | Skype pour les entreprises : appel d’équipes | Disponible |
+| | Forfaits d’appel | Disponible |
+| | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Disponible |
+| | Routage direct du système Microsoft Phone | Disponible |
+| | Salle d’attente pour les appelants PSTN | Disponible |
+| | File d’attente d’appels | Disponible |
+| | Prise en charge du patron et du délégué | Disponible |
+| | Consultation et transfert sécurisé | Disponible |
+| | Ne pas déranger la révolution | Disponible |
+| | Sonnerie distincte | Disponible |
+| | 1:1, xxx xxxx xxx xxxx xxxx xxx xxxx xxx xxx | Disponible |
+| | Transférer vers le groupe | Disponible |
+| | Transférer vers un appel PSTN | Disponible |
+| | Appels d’urgence-forfaits d’appels | Disponible |
+| | Prise en charge des téléphones SIP certifiés existants | Disponible |
+| | HID USB | Disponible |
+| | eDiscovery pour les appels et les réunions | Disponible |
+| | Standard automatique de l’Organisation | Disponible |
+| | Skype grand public-service d’appel d’équipe | Disponible |
+| Fichiers | Dernier | Disponible |
+| | Microsoft Teams | Disponible |
+| Boutique d’applications | Magasin d’applications | Disponible |
+| Rechercher | Contenus | Disponible |
+| | Personnes | Disponible |
+| | Fichiers | Disponible |
+| | Commandes de barre oblique | Disponible |
+| Conformément | Recherche de contenu de conformité | Disponible |
+| | Rétention | Disponible |
+| | Recherche dans le journal d’audit | Disponible |
+| | Conservation légale | Disponible |
+| | eDiscovery | Disponible |
 
 > [!Note]
 > Une fois les autres charges de travail entièrement disponibles dans le Cloud de GCC, celles-ci deviennent disponibles dans teams lorsque la totalité du travail d’intégration supplémentaire est effectuée.
@@ -145,7 +157,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 
 |    |     |
 |-----------|------------|
-| ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez si l’ensemble des fonctionnalités d’équipe répond aux besoins de votre organisation.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez si l’ensemble des fonctionnalités d’équipe répond aux besoins de votre organisation.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Étape 5. Plan de gouvernance
 
@@ -153,7 +165,7 @@ Déterminez vos besoins en matière de gouvernance et comment vous pouvez les r�
 
 |    |     |
 |-----------|------------|
-| ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez et documentez vos exigences de gouvernance conformément aux recommandations en [matière de plan de gouvernance dans teams](plan-teams-governance.md).</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez et documentez vos exigences de gouvernance conformément aux recommandations en [matière de plan de gouvernance dans teams](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déploiement d’équipes pour la collaboration
 

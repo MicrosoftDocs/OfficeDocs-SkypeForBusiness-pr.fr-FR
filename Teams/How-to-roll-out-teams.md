@@ -5,7 +5,6 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.date: 1/28/2019
 ms.reviewer: LolaJ
 audience: admin
 description: Rechercher le parcours approprié pour le déploiement de Microsoft Teams dans votre organisation.
@@ -20,17 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd2610b5c536c1e00ae127f83a3e03942f2b6c03
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 48756dc6fdcbe2c289abb08b803b169fdb6cee58
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858539"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928427"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Comment mettre en place Microsoft Teams
 
 ## <a name="start-here"></a>Démarrez ici
-Que vous soyez une petite entreprise ou une multinationale, le point de départ pour le déploiement de Teams est [la Prise en main](get-started-with-teams-quick-start.md). Ce manuel vous guide dans un déploiement de Teams à petite échelle, ce qui peut être suffisant si vous êtes une petite entreprise. Si vous êtes une grande organisation, utilisez [Prise en main](get-started-with-teams-quick-start.md) pour établir un projet pilote avec un petit groupe de premiers utilisateurs afin de pouvoir en savoir plus sur Teams et commencer à planifier votre déploiement à l’échelle de l’organisation. 
+Que vous soyez une petite ou une grande entreprise, la [Prise en main](get-started-with-teams-quick-start.md) est le point de démarrage pour le déploiement de Teams. Ce guide présente le déploiement d’équipes de petite taille, ce qui peut vous être utile si vous êtes dans une petite entreprise, ou si vous déployez Teams rapidement en tant que charge de travail Office 365 initiale pour la prise en charge de **travailleurs à distance**. Si vous êtes une grande organisation, utilisez [Prise en main](get-started-with-teams-quick-start.md) pour établir un projet pilote avec un petit groupe de premiers utilisateurs afin de pouvoir en savoir plus sur Teams et commencer à planifier votre déploiement à l’échelle de l’organisation. 
 
 ## <a name="recommended-path-to-teams"></a>Parcours recommandé pour Teams
 
@@ -55,9 +54,9 @@ Si vous venez vers Teams de Skype Entreprise (en ligne ou en local) ou si vous a
 
 |  |Le profil de votre organisation|Aide  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|J’utilise actuellement Skype Entreprise Online et je suis prêt à passer à Teams. |Accédez à [Mise à niveau vers Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Tout d’abord, pour un déploiement de Teams à grande échelle, vous devez configurer la connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planification de la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](upgrade-start-here.md).    |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|Je n’ai pas Skype Entreprise Server, mais j’ai une solution PSTN en local. Je souhaite mettre en place Teams, mais je souhaite conserver ma solution PSTN en local. |Mettre en place les équipes en suivant le [parcours recommandé](#recommended-path-to-teams) ci-dessus.<br><br>Lisez ensuite la [Planification d’un routage Direct](direct-routing-plan.md) pour en savoir plus sur l’utilisation d’un routage direct du système téléphonique pour connecter votre solution PSTN en local avec Teams.|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|J’utilise actuellement Skype Entreprise Online et je suis prêt à passer à Teams. |Accédez à [Mise à niveau vers Teams](upgrade-start-here.md).        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Tout d’abord, pour un déploiement de Teams à grande échelle, vous devez configurer la connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planification de la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](upgrade-start-here.md).   |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Je n’ai pas Skype Entreprise Server, mais j’ai une solution PSTN en local. Je souhaite mettre en place Teams, mais je souhaite conserver ma solution PSTN en local. |Mettre en place les équipes en suivant le [parcours recommandé](#recommended-path-to-teams) ci-dessus.<br><br>Lisez ensuite la [Planification d’un routage Direct](direct-routing-plan.md) pour en savoir plus sur l’utilisation d’un routage direct du système téléphonique pour connecter votre solution PSTN en local avec Teams.|
 |
 
 
