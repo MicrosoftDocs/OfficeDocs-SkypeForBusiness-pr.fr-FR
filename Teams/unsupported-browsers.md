@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez comment teams prend en charge l’audio et la vidéo dans les navigateurs non pris en charge.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837254"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955713"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Réunions Microsoft teams sur les navigateurs non pris en charge
 
@@ -43,7 +43,8 @@ Les utilisateurs d’Team Web App sur les navigateurs non pris en charge sont so
 - Si l’appel est interrompu, la réunion ne se reconnecte pas automatiquement.
 - Les utilisateurs ne peuvent pas démarrer de réunions.
 
-## <a name="related-topics"></a>Rubriques connexes
+Pour plus d’informations sur la prise en charge du navigateur dans Teams, voir [limites et spécifications pour teams](/microsoftteams/limits-specifications-teams#browsers).
+
+## <a name="related-topics"></a>Sujets associés
 
 - [Participation à une réunion teams sur un navigateur non pris en charge](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Spécifications et limites de Teams](/microsoftteams/limits-specifications-teams#browsers)
