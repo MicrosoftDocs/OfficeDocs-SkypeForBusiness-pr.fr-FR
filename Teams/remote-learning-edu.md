@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 28fe29133384f082dd7b8e51bcff1705906efc94
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892344"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978496"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -79,7 +79,8 @@ Voici un série de configurations de stratégie personnalisées communes qui ser
 
 #### <a name="messaging-policy"></a>Stratégie de messagerie
 
-- Définir l'ensemble sur « désactivé »
+- Supprimer les messages envoyés de la valeur « désactivé »
+- Modifier les messages envoyés de la valeur « désactivé »
 - L’évaluation du contenu Giphy est définie sur « strict »
 - Traduire les messages est configuré sur « activé »
 - Envoyer des messages urgents à l’aide de notifications de priorité défini sur « désactivé »
