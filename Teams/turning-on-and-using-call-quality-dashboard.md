@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559876"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983329"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -94,7 +94,7 @@ BORD version 1 a fourni les fonctionnalités suivantes aux administrateurs 2015 
 
 ## <a name="cqd-near-real-time-nrt-data"></a>BORD de données en temps réel (NRT)
 
-Advanced bord (v3, publiée le 2019 novembre) utilise un flux de données en temps réel. Les enregistrements d’appels sont disponibles sur le portail bord dans un délai de 30 minutes après la fin de l’appel. Les enregistrements d’appels à partir du pipeline NRT sont uniquement disponibles pendant quelques mois avant d’être supprimés du jeu de données. BORDx, XXXXXXXXX, xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx. Les requêtes sur les portails v2 et v3 pour les données de la période d’archivage produisent les mêmes résultats. Les requêtes de données v2 et v3 pour les données NRT et les périodes d’informations d’identification de NRT sont différentes.
+Advanced bord (v3, publiée le 2019 novembre) utilise un flux de données en temps réel. Les enregistrements d’appels sont disponibles sur le portail bord en moyenne dans 30 minutes (par rapport au bord précédent qui est en moyenne de 24 heures). Les enregistrements d’appels à partir du pipeline NRT sont uniquement disponibles pendant quelques mois avant d’être supprimés du jeu de données. BORDx, XXXXXXXXX, xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx. Les requêtes sur les portails v2 et v3 pour les données de la période d’archivage produisent les mêmes résultats. Les requêtes de données v2 et v3 pour les données NRT et les périodes d’informations d’identification de NRT sont différentes.
 
 ### <a name="piieuii-data"></a>Données personnelles/EUII
 

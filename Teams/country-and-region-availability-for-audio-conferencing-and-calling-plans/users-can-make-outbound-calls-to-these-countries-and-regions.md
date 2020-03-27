@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cette rubrique contient tous les pays et régions auxquels les utilisateurs peuvent passer des appels sortants s'ils ont un forfait d'appels.
-ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682511"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982127"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Les utilisateurs peuvent passer des appels sortants vers ces pays et ces régions
 
@@ -53,7 +53,7 @@ ms.locfileid: "41682511"
 |Azerbaïdjan |Géorgie |Corée, République de |Monaco | Russie |États-Unis (É.-U.)  |
 |Bahamas |Allemagne |Koweït |Mongolie |Rwanda | Uruguay |
 |Bahreïn |Ghana |Kirghizstan |Monténégro | Saint-Christophe-et-Niévès |Ouzbékistan  |
-|Bangladesh |Gialtar |Lao |Montserrat | Sainte-Lucie |État de la Cité du Vatican  |
+|Bangladesh |Gibraltar |Lao |Montserrat | Sainte-Lucie |État de la Cité du Vatican  |
 |Barbade |Grèce |Lettonie |Maroc |Saint-Vincent-et-les-Grenadines |Venezuela   |
 |Bélarus |Groenland |Liban |Mozambique | Saint-Marin |Vietnam  |
 |Belgique |Grenade |Lesotho |Myanmar | Arabie Saoudite | Îles Vierges (britanniques) |

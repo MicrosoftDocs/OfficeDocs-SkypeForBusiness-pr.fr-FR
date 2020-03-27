@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour les utilisateurs de Microsoft Teams, afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826992"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982107"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 4. Pour attribuer ou modifier l’emplacement d’urgence associé, sous **emplacement d’urgence**, recherchez et sélectionnez l’emplacement.
 6. Cliquez sur **Enregistrer**.
     > [!NOTE]
-    > En raison de la latence entre Office 365 et Teams, il est possible que les utilisateurs puissent utiliser jusqu’à 24 heures. Si, au bout de 24 heures, le numéro de téléphone n’est pas attribué correctement, [Contactez le service d’assistance PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md). Nous sommes là pour vous aider !
+    > En raison de la latence entre Office 365 et Teams, il est possible que les utilisateurs puissent utiliser jusqu’à 24 heures. Si, au bout de 24 heures, le numéro de téléphone n’est pas attribué correctement, [Contactez le support technique pour les produits professionnels-aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Nous sommes là pour vous aider !
   
 ## <a name="change-a-phone-number-for-a-user"></a>Changer le numéro de téléphone d’un utilisateur
  
@@ -76,7 +76,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 4. Dans le volet d' **édition** , sous **affecté à**, cliquez sur la **Croix (X** ) pour supprimer l’utilisateur.
 5. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
