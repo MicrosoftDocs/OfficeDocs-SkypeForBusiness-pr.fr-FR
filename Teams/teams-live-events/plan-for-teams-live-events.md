@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements live dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978416"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983860"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -81,7 +81,8 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |---------|---------|---------|---------|
 |Taille maximale de l’audience |10 000 participants |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
 |Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
-|Nombre maximal d’événements en direct simultanés par client Office 365 |0,15  | 15  | 15  |
+|Nombre maximal de présentateurs et de producteurs dans un événement en direct |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Nombre maximal d’événements en direct simultanés par client Office 365 |0,15  | 0,15  | 0,15  |
 |Création d’événement en direct |   Portail de diffusion de réunion Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Engagement d’audience - Yammer |&#x2714; |&#x2714; (expérience intégrée) |&#x2714; (expérience intégrée) |
 |Engagement d’audience - Q&R modérées |&#x2714;  |&#x2714; |&#x2714; |
@@ -104,7 +105,9 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |X |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> Les limites définies peuvent être modifiées.
+<sup>1</sup> Les limites définies peuvent être modifiées.<br/>
+<sup>2</sup> vous pouvez avoir jusqu’à 250 de présentateurs et producteurs dans un événement en direct, mais uniquement les 10 derniers qui s’affichent dans la liste.
+
 
 ## <a name="regional-availability"></a>Disponibilité régionale
 Vous pouvez utiliser les événements en direct Teams dans plusieurs régions dans le monde entier. Les informations suivantes montrent la disponibilité pour les membres de l’équipe et des participants de l’événement. 

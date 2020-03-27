@@ -1,5 +1,5 @@
 ---
-title: Administrateurs de ressources Microsoft Teams pour l’éducation
+title: Ressources Microsoft Teams pour les administrateurs dans l’éducation
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285846"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983813"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>Administrateurs de ressources Microsoft Teams pour l’éducation
+<a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs dans l’éducation
 ==============================================
 
-## <a name="adoption-content"></a>Contenu d’adoption
+## <a name="adoption-content"></a>Contenu d'adoption
 
 Faites en sorte que votre établissement scolaire vous inenthousiaste de Microsoft teams grâce à des messages électroniques, des affiches, des documents et d’autres ressources que vous pouvez utiliser dès maintenant. Vous pouvez également joindre des étudiants en ligne et sur le campus grâce au nouveau kit de outils numérique rempli de bannières, de fichiers GIF et de vidéos. Commencez dès aujourd’hui !
 
@@ -36,6 +36,7 @@ Lisez les conditions d’utilisation avant [de](https://github.com/MicrosoftDocs
 
 | |  |
 |---------|---------|
+|[Livret trucs et astuces](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Capture d’écran](media/edu-adoption-get-started.png)    |
 |Affiches- [personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) et [prêtes à l’impression](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Capture d’écran d’un affiche](media/edu-adoption-posters.png)     |[Documents](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Capture d’écran d’un document](media/edu-adoption-handouts.png)|
 |[Pliant](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Capture d’écran d’un prospectus](media/edu-adoption-flyers.png)   |[Annonce de livre](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Capture d’écran d’une annonce de livre](media/edu-adoption-book-adverts.png)         |
 
@@ -60,7 +61,7 @@ N’hésitez pas à consulter les conseils relatifs au [Kit](https://github.com/
 
 - [Plan d’équipes](https://aka.ms/teamsroadmap)
 - Rester informé avec notre [blog de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
-- [Aperçu de Teams PowerShell](teams-powershell-overview.md)
+- [Présentation de Teams PowerShell](teams-powershell-overview.md)
 - [Envoyer une suggestion](https://aka.ms/eduuservoice)
 - [Contacter le support technique](https://aka.ms/o365portal).
 - [Demander à la communauté Teams](https://aka.ms/msteamscommunity)
