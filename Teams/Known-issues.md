@@ -17,12 +17,12 @@ f1.keywords:
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928287"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951509"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -62,11 +62,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible d’ajouter des membres aux équipes lorsque UsersPermissionToReadOtherUsersEnabled est défini sur false  <br/> |Lorsque cette valeur est définie sur false dans AAD, le client ne peut pas ajouter de membres internes ou externes dans Microsoft Teams, et le message d’erreur suivant s’affiche : « Nous n’avons pas pu ajouter le membre. Nous avons rencontré un problème. Réessayez ultérieurement. » Cependant, des membres peuvent être ajoutés directement à des groupes Office 365.    <br/> |Définissez ce paramètre sur true dans AAD.  <br/> |10/04/18  <br/> |
-
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|La gestion des administrateurs des connecteurs à l’échelle du client n’est plus disponible  <br/> |Lorsque l’on tente d’ajouter un connecteur dans le client et la version en ligne, l’erreur suivante s’affiche : Une erreur inattendue s'est produite. Veuillez réessayer. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Désactivez les paramètres avec Teams. Reportez-vous à cet article de l’assistance. https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/17  <br/> |
+|Impossible d’ajouter des membres aux équipes lorsque UsersPermissionToReadOtherUsersEnabled est défini sur false  <br/> |Lorsque cette valeur est définie sur False dans Azure Active Directory, les utilisateurs ne peuvent pas ajouter de membres externes ou internes dans Microsoft Teams, et le message d’erreur suivant s’affiche : « Nous n’avons pas pu ajouter le membre. Désolé... Nous avons rencontré un problème. Veuillez réessayer plus tard. » Toutefois, les membres peuvent être ajoutés directement aux groupes Office 365.    <br/> |Définissez ce paramètre sur true dans AAD.  <br/> |10/04/18  <br/> |
 
 ## <a name="apps"></a>Applications
 
@@ -78,15 +74,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |L’[Accès conditionnel](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » ou « Azure DevOps » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, un navigateur, des restrictions d’adresse IP ou une conformité appareil), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
 
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|Les options de connecteur ne sont pas disponibles pour certaines équipes  <br/> |Lorsque vous cliquez avec le bouton droit sur un canal, l'option Connecteurs ne s'affiche pour aucun membre de l'équipe.  <br/> |Le créateur de l'équipe doit posséder une boîte aux lettres en ligne. Sinon, l'option Connecteur n'est pas disponible. Il s'agit d'un comportement normal.  <br/> |26/06/2017  <br/> |
-
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|L’application « Affectations » reste visible lorsqu’elle est désactivée  <br/> |Lorsque l’application « Affectations » est désactivée dans le centre d’administration, elle reste visible au sein du client Teams pour les utilisateurs disposant d'une licence EDU. Si elle est sélectionnée lorsqu’elle est désactivée, le message d’erreur suivant s’affiche : « Oh ! Une erreur s’est produite... »  <br/> |Aucune solution.  <br/> |29/12/2017  <br/> |
-
-## <a name="audio-conferencing"></a>Audioconférence,
+## <a name="audio-conferencing"></a>Audioconférence
 
 |**Problème**|**Comportement/symptômes**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
