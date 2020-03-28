@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 7edbce168ec3357dbc432f3cb0da30c6310ea9cc
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928407"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982097"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -64,7 +64,13 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
 1. Lisez la [FAQ : prenez en charge votre main d’œuvre distante](FAQ-support-remote-workforce.md), que nous mettons régulièrement à jour.
 
-1. Lisez notre article de blog du 6 mars 2020, intitulé [Comment Microsoft permet à ses employés de travailler à distance avec Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
+1. Découvrez nos récents billets de blog récents :
+   
+   - [Comment Microsoft permet à ses employés de travailler à distance avec Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
+   - [Aider les petites et moyennes entreprises à travailler à distance avec Teams](https://www.microsoft.com/fr-FR/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+
+   - [Les 9 principaux moyens que Microsoft IT utilise pour activer le travail à distance de ses employés](https://www.microsoft.com/fr-FR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
 
 1. Teams pour l’éducation
    - Si vous travaillez dans l’éducation et que vous voulez configurer les enseignants, les étudiants et les administrateurs sur Teams, utilisez Office 365 A1. Il s’agit de la version gratuite d’Office 365 disponible pour tous les établissements d’enseignement. Inscrivez-vous sur [Obtenir Office 365 gratuitement pour l’ensemble de votre établissement d’enseignement](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
@@ -78,6 +84,8 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
    - Une bande passante restreinte peut avoir une incidence sur la qualité audio des réunions dans Teams. Afin de garantir une expérience de réunion optimale dans des conditions de bande passante faible, encouragez les utilisateurs à limiter la vidéo et à utiliser PSTN pour les appels et les conférences audio. 
 
    - Lisez ce blog arrivé en temps opportun (6 mars 2020) : [Comment optimiser rapidement le trafic Office 365 pour les membres du personnel à distance et réduire la charge sur votre infrastructure](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
+
+   - Blog du 26 mars 2020 : [Exécution sur le Réseau virtuel privé (VPN) : comment Microsoft maintient ses employés à distance connectés](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
    - Si vous êtes en Chine, consultez l’article [Optimisation globale des performances du client Office 365 pour les utilisateurs chinois](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
@@ -95,6 +103,13 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
    - Lisez [Comment mettre en place Microsoft Teams](How-to-roll-out-teams.md) pour découvrir comment prendre en main et gérer Teams.
 
+1. La sécurité lorsque tout le monde travaille à partir du domicile
+
+   - [Meilleurs conseils pour travailler en toute sécurité depuis son domicile](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Blog Microsoft Sécurité (26 mars 2020) : [D'autres méthodes pour les professionnels de la sécurité et de l’informatique pour optimiser les contrôles de sécurité modernes dans les scénarios de travail à distance d’aujourd’hui](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [Travaillez à distance, restez sécurisé : recommandations pour les responsables de la sécurité des systèmes d'information (CISO)](https://www.microsoft.com/security/blog/?p=90736)
 
     
 3. Lisez notre nouveau contenu sur le travail à distance et partagez-le avec vos utilisateurs :
@@ -110,8 +125,6 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
       - [Travailler à distance avec Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [9 conseils pour travailler à distance](https://www.microsoft.com/tips/home/working-remotely)
-
-      - [Meilleurs conseils pour travailler en toute sécurité depuis son domicile](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
       - Satya Nadella et Aya Tange, responsable du marketing produit Teams sur [l’utilisation de Teams pour travailler à distance](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (20 mars 2020)
 
