@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836444"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059408"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -44,7 +44,7 @@ Par exemple, imaginons que vous vouliez vérifier que les messages envoyés ne s
 - Les utilisateurs peuvent supprimer des messages envoyés
 - Les utilisateurs peuvent modifier les messages envoyés
 
-Affectez ensuite la stratégie aux utilisateurs.
+Vous pouvez ensuite attribuer la stratégie aux utilisateurs.
 
 > [!NOTE] 
 > Un utilisateur ne peut avoir qu’une stratégie de messagerie à la fois.
@@ -58,8 +58,8 @@ Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez chacun
 Vous pouvez également affecter une stratégie de messagerie à un ou plusieurs utilisateurs comme suit :
 
 1. Accédez > au **Centre d’administration Microsoft teams****.**
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **gérer les utilisateurs**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
+3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
@@ -92,8 +92,10 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Autoriser les aperçus d’URL** Utilisez ce paramètre pour activer ou désactiver l’aperçu d’URL automatique dans les messages.
 - **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels pour Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activez ce paramètre pour permettre aux utilisateurs d’afficher des messages dans le lecteur immersif Microsoft. Le lecteur immersif est un outil d’apprentissage qui offre une interface de lecture plein écran pour améliorer la lisibilité du texte.
-- **Les utilisateurs peuvent envoyer des notifications de <a name="urgent-message">priorité</a> ** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité indiquent aux utilisateurs toutes les 2 minutes pour une période de 20 minutes ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit reçu et agi en temps opportun.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Création de messages audio** -important : les messages audio ne sont pas capturés dans la création de rapports eDiscovery. 
+- **Envoyer des messages urgents à l’aide de notifications de priorité** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité indiquent aux utilisateurs toutes les 2 minutes pour une période de 20 minutes ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit reçu et agi en temps opportun.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Création de messages audio** 
+  > [!Important]
+  > Les messages audio ne sont pas capturés dans la création de rapports eDiscovery. 
     - **Autorisé dans les conversations et les canaux** Cela signifie que les utilisateurs peuvent laisser des messages audio dans les conversations et les canaux.
     - **Accordé uniquement aux conversations** Cela signifie que les utilisateurs peuvent laisser des messages audio dans les discussions, mais pas dans les canaux.
     - **Désactivé** Cela signifie que les utilisateurs ne peuvent pas créer de messages audio dans des conversations ou des canaux.  
@@ -103,5 +105,5 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 [Stratégies de réunion dans teams](meeting-policies-in-teams.md)

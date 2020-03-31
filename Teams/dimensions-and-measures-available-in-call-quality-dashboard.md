@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583077"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059428"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -501,7 +501,7 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 
 |Nom de la mesure |Unités |Description |
 |:--- |:--- |:--- |
-|Total Stream Count |Nombre de flux |Nombre de flux multimédias quelque soit le type de médias. |
+|Total Stream Count |Nombre de flux |Nombre de flux multimédias indépendamment du type de média, y compris les flux de fiabilité et de diagnostic qui peuvent ne pas avoir de type média. |
 | Nombre total de flux de CDR disponibles | Nombre de flux |Nombre de flux multimédias avec des informations de fiabilité et de diagnostic disponibles. Voir [enregistrement des détails des appels (CdR) dans Skype entreprise Server](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Total Media Failed Stream Count |Nombre de flux |Nombre de flux pour lesquels le chemin de médias n'a pas pu être établi ou ne s'est pas terminé correctement. |
 |Total Call Setup Failed Stream Count |Nombre de flux |Nombre de flux pour lesquels le chemin de médias n'a pas pu être établi entre les points de terminaison au début de l'appel. |
@@ -691,7 +691,7 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 
 De nombreux valeurs de dimensions et de mesures peuvent également être utilisées comme filtres. Vous pouvez utiliser des filtres dans votre requête pour éliminer les informations de la même façon que vous sélectionnez une dimension ou une mesure pour ajouter ou inclure des informations dans la requête.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
