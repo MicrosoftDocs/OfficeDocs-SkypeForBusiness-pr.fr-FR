@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41834324"
@@ -31,34 +31,34 @@ ms.locfileid: "41834324"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les abonnements Office 365 suivants permettent aux utilisateurs d’équipe.
+Les abonnements Office 365 suivants activent Teams pour les utilisateurs.
 
-|Plans Petite Entreprise  |Plans Entreprise  |Plans d'éducation  |Plans pour développeurs |
+|Plans Petite Entreprise  |Plans Entreprise  |Plans d'éducation  |Plans pour les développeurs |
 |---------|---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Entreprise E1  |Office 365 Éducation |Développeur pour Office 365     |
-|Office 365 Business Premium     |Office 365 Entreprise E3         |Office 365 Éducation Plus         |      |
-|Microsoft 365 pour les entreprises     |Office 365 Entreprise E4 (retiré)         |Office 365 Éducation E3 (retiré)         |  |
-|     |Office 365 Entreprise E5         |Office 365 Éducation E5  | 
-|     |Office 365 Entreprise F1 |    |     | 
+|Office 365 Business Essentials     |Office 365 Entreprise E1  |Office 365 Éducation |Office 365 Développeur     |
+|Office 365 Business Premium     |Office 365 Entreprise E3         |Office 365 Éducation Plus         |      |
+|Microsoft 365 Entreprise     |Office 365 Entreprise E4 (retiré)         |Office 365 Éducation E3 (retiré)         |  |
+|     |Office 365 Entreprise E5         |Office 365 Éducation E5  | 
+|     |Office 365 Entreprise F1 |    |     | 
 
-Pour plus d’informations sur l’obtention d’équipes, voir [Comment obtenir l’accès à Microsoft teams ?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
-
-> [!NOTE]
-> Teams est également disponible pour les organisations à but non lucratif. Le déploiement de teams sera lancé pour la communauté du Cloud fédéral des États-Unis (GCC) le 17 juillet et sera disponible pour tous les clients éligibles à la fin du 2018 août. Nous nous efforçons de faire de Microsoft teams pour les autres nuages de points de service des États-Unis (GCC High et DoD) bientôt disponible. Pour en savoir plus, consultez le [blog de](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)Microsoft Teams.
+Pour plus d’informations sur l'obtention de Teams, consultez [Comment obtenir l’accès à Microsoft Teams ?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> À compter du 2019 d’août, tous les nouveaux clients Office 365 seront intégrés aux équipes et ne pourront pas accéder à Skype entreprise online. Les clients qui utilisent déjà Skype entreprise Online seront en mesure de continuer à le faire (y compris la mise en service des nouveaux utilisateurs) jusqu’à ce qu’ils soient en mesure de procéder à la transition vers Teams. Pour en savoir plus, reportez-vous à [la rubrique Microsoft teams maintenant le client principal pour les réunions et les appels dans Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> Teams est également disponible pour les organismes à but non lucratif. Le déploiement de Teams pour la communauté du Cloud fédéral des États-Unis (GCC) sera lancé le 17 juillet et sera disponible pour tous les clients éligibles à la fin du mois d'août 2018. Nous nous efforçons de rendre Microsoft Teams prochainement disponible pour les autres nuages du gouvernement fédéral des États-Unis (GCC High et DoD). Pour obtenir plus d’informations, consultez le blog Microsoft Teams [ici](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Si Skype entreprise Online figure dans les applications pour la licence sélectionnée, ne le supprimez pas. S’il est répertorié et est supprimé, la configuration de l’utilisateur d’équipes ne sera pas effectuée. 
+> À partir du mois d'août 2019, les nouveaux clients d’Office 365 seront intégrés à Teams et n’auront pas accès à Skype Entreprise Online. Les clients qui utilisent déjà Skype Entreprise Online pourront continuer à le faire (y compris l’ajout de nouveaux utilisateurs) jusqu’à ce que leur transition vers Teams soit terminée. Pour en savoir plus, voir [Microsoft Teams est maintenant le principal client pour les réunions et les appels dans Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+
+> [!NOTE]
+> Si Skype Entreprise Online est répertorié dans les applications pour la licence sélectionnée, ne la supprimez pas. Si elle est répertoriée, puis supprimée, la configuration de l’utilisateur Teams ne se termine pas avec succès. 
         
-En termes de fonctionnalités de base de teams, il n’y a pas de différence entre les abonnements Office 365. La disponibilité des fonctionnalités de conformité dépend du niveau d'abonnement correct. Pour plus d'informations, consultez la rubrique [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md). Pour obtenir une liste détaillée des fonctionnalités disponibles dans chaque abonnement, consultez la [Description du service plateforme Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
+En ce qui concerne les principales fonctionnalités Teams, il n’existe aucune différence entre les abonnements Office 365. La disponibilité des fonctionnalités de conformité dépend du niveau d’abonnement approprié. Pour plus d'informations, consultez la rubrique [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md). Pour obtenir la liste détaillée des fonctionnalités disponibles dans chaque abonnement, consultez la [Description du service de la plateforme Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Fonctionnalités vocales**sur le Cloud : pour les conférences audio, votre organisation doit acheter et attribuer une licence de conférence rendez-vous à chaque utilisateur qui configure des réunions rendez-vous. Pour les offres d’appels, chaque utilisateur doit avoir un système téléphonique et un plan d’appels nationaux ou internationaux. Pour plus d’informations, reportez-vous à la rubrique [licences de compléments Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+**Fonctionnalités de voix cloud** : pour l’audioconférence, votre organisation doit acheter et attribuer une licence d’audioconférence à chaque utilisateur qui sera chargé de la configuration de l'accès à des réunions. Pour les forfaits d’appels, chaque utilisateur doit disposer d’un système téléphonique, en plus d’un forfait d’appels nationaux ou d'un forfait d'appels nationaux et internationaux. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Tous les plans d'abonnement pris en charge permettent d’accéder au client Web, aux clients de bureau et aux applications mobiles Teams.
+Toutes les offres d’abonnement prises en charge peuvent accéder au client web Teams, aux clients de bureau et aux applications mobiles.
 
 Teams n'est pas disponible en tant que service autonome.
 
 > [!TIP]
-> Pour gérer les licences au niveau utilisateur, voir [gérer l’accès des utilisateurs à Microsoft teams](user-access.md).
+> Pour gérer les licences au niveau utilisateur, consultez [Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md).

@@ -629,6 +629,7 @@
 ### [Commencez avec l’apprentissage à distance](remote-learning-edu.md)
 ### [Affecter des stratégies à des ensembles volumineux d’utilisateurs](batch-policy-assignment-edu.md)
 ### [Licences Teams pour l’éducation](teams-edu-licensing.md)
+### [Aide dans des situations de faible bande passante pour les administrateurs dans l'éducation](edu-remote-low-bandwidth.md)
 ### [Devoirs dans Teams pour l’éducation](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
 ### [Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)
@@ -640,6 +641,7 @@
 ### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 
 ## [Teams pour le secteur public](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Prise en charge des travailleurs à distance (travail à la maison)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Gérer la version d’essai d’Office 365 G1](g1-trial-license.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC](plan-for-government-gcc.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
@@ -651,6 +653,7 @@
 # Sécurité et conformité
 ## [Vue d’ensemble](security-compliance-overview.md)
 ## Sécurité
+### [Guide sur la sécurité](teams-security-guide.md)
 ### [Modèles d’identité et authentification](identify-models-authentication.md)
 ### [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
 ## Conformité
