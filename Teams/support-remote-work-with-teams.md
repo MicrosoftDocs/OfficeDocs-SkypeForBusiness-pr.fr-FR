@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ee5947aee6055a1e69f3d404c7d341c93fd7433
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053597"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062666"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -111,6 +111,13 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
    - Blog Microsoft Sécurité (26 mars 2020) : [D'autres méthodes pour les professionnels de la sécurité et de l’informatique pour optimiser les contrôles de sécurité modernes dans les scénarios de travail à distance d’aujourd’hui](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [Travaillez à distance, restez sécurisé : recommandations pour les responsables de la sécurité des systèmes d'information (CISO)](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [12 tâches principales pour que les équipes de sécurité prennent en charge le télétravail de chez vous](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Optimiser la connectivité d’Office 365 pour les utilisateurs distants à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/fr-FR/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [Security and Teams](teams-security-guide.md) entre dans tous les détails techniques de la sécurité de Teams, dans le cadre des pratiques recommandées et des procédures de sécurité de qualité professionnelle de Microsoft 365.
+
 
     
 3. Lisez notre nouveau contenu sur le travail à distance et partagez-le avec vos utilisateurs :
