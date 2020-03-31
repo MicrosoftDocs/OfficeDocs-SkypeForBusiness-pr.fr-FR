@@ -16,16 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe895fee4f3bc0872d277429289b5d04d6c9161d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837994"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068516"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
 Dans Microsoft Teams, la fonctionnalité **m’appeler** permet aux utilisateurs d’accéder à la partie audio d’une réunion par téléphone. C’est pratique dans les situations où l’utilisation d’un ordinateur pour l’audio peut ne pas être possible. Les utilisateurs reçoivent la partie audio de la réunion par le biais de leur téléphone mobile ou de leur ligne fixe et&mdash;de la partie du contenu de la réunion, par exemple lorsqu'&mdash;un autre participant à la réunion partage son écran ou lit une vidéo par le biais de leur ordinateur.
+
+> [!IMPORTANT]
+> Pendant la durée de l’épidémie de COVID-19, nous recommandons aux utilisateurs de participer à des réunions en cliquant sur le bouton participer à une **réunion** au lieu d’appeler en utilisant les numéros de conférence RTC ou en utilisant l’option **m’appeler au**. Cela permet de garantir une qualité audio optimale lorsque le volume de la réunion est à l’origine du congestion du réseau PSTN.
 
 ## <a name="the-user-experience"></a>L’interface utilisateur
 

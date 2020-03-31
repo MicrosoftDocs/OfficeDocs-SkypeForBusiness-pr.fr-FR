@@ -23,7 +23,7 @@ ms.collection:
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
 ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
 ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/04/2020
 ms.locfileid: "42413301"
@@ -71,8 +71,8 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
     - **URL légale** Si votre organisation a un site web légal auquel vous voulez que les utilisateurs accèdent pour des questions juridiques, entrez l’URL ici.
     - **URL d'aide** Si votre organisation possède un site web d'aide auquel vous voulez que les utilisateurs accèdent lorsqu'ils rencontrent des problèmes, entrez l’URL ici.
     - **Pied de page** Entrer le texte que vous voulez inclure comme pied de page.
-3. Cliquez sur **Aperçu** de l’invitation pour afficher un aperçu de l’invitation à la réunion.
-4. Lorsque vous avez terminé, cliquez sur **Enregistrer**.
+3. Cliquez sur **Aperçu l’invitation** pour afficher un aperçu de votre invitation à une réunion.
+4. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
 5. Patientez une heure pour que les modifications se propagent. Planifiez ensuite une réunion Teams pour visualiser l’invitation à la réunion.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Déterminer la façon dont vous voulez gérer le trafic média en temps réel pour les réunions Teams
@@ -100,7 +100,7 @@ Si vous utilisez la fonctionnalité Qualité de service [(QoS)](qos-in-teams.md)
         >
         > La sélection d’une plage de ports trop réduite entraîne des appels rejetés et une qualité d’appel médiocre. Les recommandations ci-dessous doivent représenter le strict minimum.
 
-Si vous ne savez pas quelles plages de ports utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, lire [Implémenter la Qualité de service (QoS) dans Microsoft Teams](QoS-in-Teams.md). Ce sont les marquages DSCP nécessaires et les plages suggérées de ports médias correspondantes, utilisées par les Teams et ExpressRoute.
+Si vous n’êtes pas certain des plages de ports à utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, lire [Implémenter la Qualité de service (QoS) dans Microsoft Teams](QoS-in-Teams.md). Ce sont les marquages DSCP nécessaires et les plages suggérées de ports médias correspondantes, utilisées par les Teams et ExpressRoute.
 
 _Plages de ports et marquages DSCP_
 
@@ -108,7 +108,7 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | Entre 50 000 et 50 019               |TCP/UDP |46        |Acheminement accéléré (EF)|
 |Vidéo            | 50 020–50 039               |TCP/UDP |34        |Acheminement assuré (AF41)|
-|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |19        |Transfert garanti (AF21)|
+|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18        |Transfert garanti (AF21)|
 | | | | |
 
 \* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.

@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez les différentes méthodes d’attribution de stratégies aux utilisateurs de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978526"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068496"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribution de stratégies aux utilisateurs de Microsoft teams
 
 > [!NOTE]
-> **L’une des fonctionnalités de Microsoft teams abordées dans cet article, [affectation de stratégie à des groupes](#assign-a-policy-to-a-group), n’est actuellement disponible que dans un aperçu limité. Les applets de connexion PowerShell de cette fonctionnalité se trouvent dans le module pre-version PowerShell Teams.**
+> **L’une des fonctionnalités de Microsoft teams abordées dans cet article, [affectation de stratégie à des groupes](#assign-a-policy-to-a-group), n’est actuellement disponible que dans la version préliminaire privée. Les applets de connexion PowerShell de cette fonctionnalité se trouvent dans le module pre-version PowerShell Teams.** Pour en savoir plus sur l’état de publication de cette fonctionnalité, consultez la [documentation Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
 En tant qu’administrateur, vous utilisez des stratégies pour contrôler les fonctionnalités d’équipes disponibles pour les utilisateurs de votre organisation. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie pour n’appeler qu’un seul nom.
 
@@ -63,7 +63,7 @@ Vous trouverez ci-dessous une vue d’ensemble des méthodes permettant d’attr
 |Procédez comme suit…  |Si...  | Utilisation de...
 |---------|---------|----|
 |[Assigner une stratégie à des utilisateurs individuels](#assign-a-policy-to-individual-users)    | Vous débutez en équipe et vous commencez simplement à attribuer une ou plusieurs stratégies à un petit nombre d’utilisateurs. |Centre d’administration Microsoft teams ou cmdlets PowerShell dans le module PowerShell de Skype entreprise Online
-| [Assigner un package de stratégie](#assign-a-policy-package)   | Vous devez affecter plusieurs stratégies à des ensembles d’utilisateurs spécifiques de votre organisation qui ont des rôles identiques ou similaires. Par exemple, attribuez le package de stratégie éducation (enseignant) aux enseignants de votre établissement scolaire pour leur permettre d’accéder à l’ensemble des conversations, appels et réunions, ainsi que le package d’étude (étudiant d’école secondaire) aux étudiants secondaires pour limiter certaines fonctionnalités, comme appels privés.  |Centre d’administration Microsoft teams ou cmdlets PowerShell dans le module PowerShell teams|
+| [Assigner un package de stratégie](#assign-a-policy-package)   | Vous devez affecter plusieurs stratégies à des ensembles d’utilisateurs spécifiques de votre organisation qui ont des rôles identiques ou similaires. Par exemple, attribuez le package de stratégie éducation (enseignant) aux enseignants de votre établissement scolaire pour leur permettre d’accéder à l’ensemble des conversations, appels et réunions, ainsi que le package d’étude (étudiant d’école secondaire) aux étudiants secondaires pour limiter certaines fonctionnalités, telles que les appels privés.  |Centre d’administration Microsoft teams ou cmdlets PowerShell dans le module PowerShell teams|
 |[Attribuer une stratégie à un lot d’utilisateurs](#assign-a-policy-to-a-batch-of-users)   | Vous devez attribuer des stratégies à d’importants ensembles d’utilisateurs. Par exemple, vous pouvez attribuer une stratégie à des centaines ou des milliers d’utilisateurs de votre organisation à la fois.  |Cmdlets PowerShell dans le module PowerShell teams|
 |[Assigner une stratégie à un groupe](#assign-a-policy-to-a-group) (en Preview)   |Vous devez attribuer des stratégies en fonction de l’appartenance d’un utilisateur à un groupe. Par exemple, vous souhaitez attribuer une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité ou d’une unité d’organisation.| Cmdlets PowerShell dans le module PowerShell teams|
 | Assigner un package de stratégie à un lot d’utilisateurs (bientôt disponible) |||
@@ -197,7 +197,7 @@ Pour en savoir plus, consultez la rubrique [Get-CsBatchPolicyAssignmentOperation
 
 ## <a name="assign-a-policy-to-a-group"></a>Assigner une stratégie à un groupe
 
-**Pour l’instant, l’attribution de la stratégie aux groupes est uniquement disponible dans un aperçu limité. Les applets de fonction de cette fonctionnalité se trouvent dans le module pre-version PowerShell Teams.**
+**Pour l’instant, l’attribution de la stratégie aux groupes est uniquement disponible en version préliminaire privée. Les applets de fonction de cette fonctionnalité se trouvent dans le module pre-version PowerShell Teams.**
 
 Attribution de stratégie aux groupes vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une unité d’organisation. L’affectation de stratégie est propagée aux membres du groupe conformément aux règles de priorité. Les membres étant ajoutés ou supprimés d’un groupe, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
@@ -374,6 +374,6 @@ Pour ce faire, vous pouvez utiliser l’applet de commande suivante dans le modu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
