@@ -14,16 +14,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- remotework
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ee261f145f256e82db55aa869623505ff3c3dc3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034069"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053627"
 ---
 # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
@@ -195,13 +196,12 @@ Deux options s’offrent à vous pour contrôler les personnes qui ont atteint l
 
 1. Vous pouvez contrôler les personnes qui joignent vos réunions via les paramètres de la **lobby**.</p>
 
-|Qui peut contourner  |Paramètre de contournement  | Jointures directes| Arrive en salle d’attente|
-|---------|---------|---------|---------|
-|EveryoneInCompany (tout le monde sauf les utilisateurs externes)     |  Oui    |  Dans-client, invités, PSTN Dial-in      | Utilisateurs fédérés, utilisateurs anonymes        |
-|EveryoneInCompany (tout le monde sauf les utilisateurs externes)    |  Non     |  Au sein des clients et des utilisateurs invités       |   Utilisateurs fédérés, utilisateurs anonymes, utilisateurs distants PSTN      |
-|EveryoneInCompany (tout le monde sauf les utilisateurs externes) et les utilisateurs fédérés     |  Oui    | Utilisateurs d’appels entrants client, invité, fédéré et PSTN        | Utilisateurs anonymes        |
-|EveryoneInCompany (tout le monde sauf les utilisateurs externes) et les utilisateurs fédérés     |  Non     |   Utilisateurs du client, invité et fédéré      |  Utilisateurs distants anonymes et PSTN      |
-|Tout le monde     |  Oui    | Les utilisateurs des appels entrants client, invité, fédéré, anonyme et PSTN        | S/O        |
+|Options de paramètre « Qui peut éviter la salle d’attente ? » disponibles sur la page d’options Meeting   |Types d’utilisateurs participant directement à la réunion  |Types d’utilisateurs passant par la salle d’attente   |
+|---------|---------|---------|
+|Membres de mon organisation     |  -Locataire hébergé  </br>-Invité du client         |  -Fédéré</br>  -Anonyme</br>  -Rendez-vous PSTN</br>     |
+|Membres de mon organisation et organisations approuvées      |  -Locataire hébergé</br> -Invité du client</br> -Fédéré</br>        |  -Anonyme</br>  -Rendez-vous PSTN</br>      |
+|Tout le monde      |   -Locataire hébergé</br>  -Invité du client</br>  -Anonyme fédéré</br>  -Rendez-vous PSTN</br>       |         |
+
 
 2. La deuxième méthode consiste à passer par **les réunions structurées** (où les Présentateurs peuvent faire quelque chose à faire, et les participants ont une expérience contrôlée). Une fois que vous avez rejoint une réunion structurée, les présentateurs contrôlent ce que les participants peuvent faire pendant la réunion. </p>
 
@@ -287,8 +287,14 @@ Les organisateurs de la réunion contrôlent si les participants peuvent présen
 
 Il est possible de modifier les options de réunion pendant la réunion. La modification, lors de son enregistrement, a un impact sur la réunion en cours en quelques secondes. Il affecte également les occurrences ultérieures de la réunion.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
+
+[12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
 
 [Centre de gestion de la confidentialité Microsoft](https://microsoft.com/trustcenter)
 
 [Gérer les paramètres de réunion dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+
+[Optimiser la connectivité d’Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+
+- [Implémentation de la segmentation du tunnel par VPN pour Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
