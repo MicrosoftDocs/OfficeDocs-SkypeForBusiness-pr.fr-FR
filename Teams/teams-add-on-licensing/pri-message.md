@@ -19,27 +19,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Apprenez-en davantage sur les notifications de priorité dans les messages Teams.
-ms.openlocfilehash: fd3808997400e84febac66e5f8e22c91009c527d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c6bd6c1381eee82878ce59cc2133ec72b9b9e21c
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826502"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079406"
 ---
 # <a name="messaging-policies-licensing"></a>Gestion des licences des stratégies de messagerie
 
-Jusqu’au 1er avril, 2020, les notifications de priorité illimitées dans Microsoft teams sont disponibles pour tous les utilisateurs. Cette promotion est prolongée jusqu’au 1er avril 2020 à partir de la date de fin d’origine du 31 décembre 2019. Après le 1er avril, les utilisateurs sous licence seront en mesure d’envoyer des notifications de priorité conformément aux conditions de leur abonnement.
+Nous sommes à l’écoute de nos clients dans le monde entier la façon dont le COVID-19 (coronavirus) Pandemic a créé de nouveaux défis dans le cadre de la gestion de mutations drastiques dans leurs opérations quotidiennes.
 
-Comme annoncé en juin 2019, les utilisateurs peuvent marquer un message teams comme urgents lorsqu’ils ont accès à la fonctionnalité de notifications de priorité. Les messages urgents sont envoyés avec des notifications de priorité qui avertissent le destinataire toutes les deux (2) minutes pour une période de 20 minutes ou jusqu’à ce que le destinataire Lise le message. Cette fonctionnalité maximise la probabilité qu’un message soit traité en temps opportun.
+Il est essentiel de pouvoir facilement et rapidement communiquer avec des membres de l’équipe au cours de la période de continuité d’activité et, par mesure de cela, nous étendons l’accès promotionnel aux fonctionnalités de messagerie clés de Microsoft Teams.
 
-Des rapports sur l’utilisation des notifications de priorité sont attribués aux administrateurs informatiques pour prendre en charge les licences utilisateur appropriées. Les utilisateurs peuvent recevoir des messages urgents illimités avec des notifications de priorité, quelle que soit la licence. [En savoir plus sur les notifications de priorité](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams).
+À l’origine en juin 2019, les [notifications de priorité](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) pour les équipes permettent aux utilisateurs d’envoyer en continu des notifications qui se répètent toutes les deux minutes pour un délai de 20 minutes maximum sur l’ensemble des messages marqués comme *urgents*. Dans le cadre de la publication, des notifications de priorité étaient disponibles en promotion pour les utilisateurs d’équipes jusqu’au 1er avril 2020. 
 
-|Sous| |Envoi de 5 messages maximum par utilisateur et par mois| Envoi illimité de messages inclus par utilisateur et par mois|
-|---|---|---|---|
-|Enterprise||Office 365 F1/Microsoft 365 F1<br> Office 365 E1 | Office 365 E3/Microsoft 365 E3 <br>Office 365 E5/Microsoft 365 E5
-|Expliquer ||Office 365 a1/Microsoft 365 a1|Office 365 a3/Microsoft 365 a3<br> Office 365 a5/Microsoft 365 a5
-|SECTEUR       ||Office 365 Business Essentials|Office 365 Business Premium/Microsoft 365 entreprise|
-|||||
+**Pour aider nos clients et communautés dans leurs initiatives de réponse aux crises, nous étendons la promotion des notifications de priorité jusqu’au deuxième semestre de 2020.** L’accès permanent aux notifications de priorité sera disponible pour faciliter les efforts de réponse aux crises et de récupération. Au terme de la période de promotion, les utilisateurs sous licence seront en mesure d’envoyer des notifications de priorité conformément aux conditions de leur abonnement.
+
+Un rapport sur l’utilisation des notifications de priorité est fourni aux administrateurs pour prendre en charge les licences utilisateur appropriées. Les utilisateurs peuvent recevoir des messages urgents illimités avec des notifications de priorité, quelle que soit la licence. [En savoir plus sur les notifications de priorité](../messaging-policies-in-teams.md).
 
 <!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|

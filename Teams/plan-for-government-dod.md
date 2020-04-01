@@ -1,7 +1,7 @@
 ---
 title: 'Se préparer pour Microsoft 365 Secteur public : Déploiements DoD : Microsoft Teams'
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 82c7c8625ca5fcdab7325cf74fcde0c60049da07
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161735"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079446"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan pour les déploiements Microsoft 365 Government-DoD
 
-Ce guide est destiné aux professionnels de l’informatique qui pilotent des déploiements d’Office 365 dans les organisations du secteur public américain ou d’autres entités qui gèrent les données soumises aux lois et exigences gouvernementales, lorsque l’utilisation de Microsoft 365 Government-DoD est appropriée pour Respectez ces exigences.
+Ce guide est destiné aux professionnels de l’informatique qui pilotent des déploiements d’Office 365 dans les organisations du secteur public américain ou d’autres entités qui gèrent les données soumises à des réglementations et exigences gouvernementales, lorsque l’utilisation de Microsoft 365 secteur public-DoD est appropriée pour ces exigences.
 
 > [!NOTE]
 > Si votre organisation a déjà rempli les obligations du ministère Microsoft 365, et appliqué et été acceptée dans le programme, vous pouvez ignorer les étapes 1 et 2, puis passer directement à l’étape 3.
@@ -67,82 +67,14 @@ Nous vous conseillons de prendre le temps de vérifier les paramètres de votre 
 
 |    |     |
 |-----------|------------|
-| ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez si vous avez besoin de modifier les paramètres de sécurité Microsoft 365 Government par défaut, puis de le résoudre pour tout d’abord comprendre l’impact des modifications que vous pourriez apporter.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez si vous avez besoin de modifier les paramètres de sécurité Microsoft 365 Government par défaut, puis de le résoudre pour tout d’abord comprendre l’impact des modifications que vous pourriez apporter.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Étape 4. Découvrir les fonctionnalités d’équipe actuellement disponibles dans Microsoft 365 Government-DoD
 
 Pour répondre aux besoins de nos clients du cloud public, il existe quelques différences entre les équipes dans Microsoft 365 Government-DoD et équipes dans les plans de l’entreprise. Pour savoir quelles fonctionnalités sont disponibles, consultez le tableau suivant.
 
-|                             | Fonctionnalité                     | Norme       |
-|-----------------------------|-----------------------------|----------------|
-| Assiette | Connexion | Disponibles |
-| | Présence | Disponibles |
-| | Présence unifiée (Skype entreprise et équipes unifiées) | Sur le backlog du secteur public |
-| | Client Linux | Sur le backlog du secteur public |
-| Interactive | Actualité | Disponibles |
-|  | Mon activité | Disponibles |
-| Conversation | Conversation | Disponibles |
-| | Fichiers | Disponibles |
-| | Organigramme | Disponibles |
-| | Interactive | Disponibles |
-| | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Sur le backlog du secteur public |
-| Équipes | Message du canal | Disponibles |
-| | Fichiers de canal | Disponibles |
-| | Onglet OneNote | Sur le backlog du secteur public |
-| | Envoyer un canal par courrier électronique | Non disponibles |
-| | Ajouter un membre | Disponibles |
-| | Accès invité | Sur le backlog du secteur public |
-| Meetings | Programmer une réunion | Disponibles |
-| | Rejoindre une réunion | Disponibles |
-| | Réunion VoIP | Disponibles |
-| | Partage de Bureau | Disponibles |
-| | Donner et prendre le contrôle dans le partage | Disponibles |
-| | Se connecter à partir d’une salle de conférence | Disponibles |
-| | Enregistrement Cloud | Sur le backlog du secteur public |
-| | Notes de réunion | Disponibles |
-| | Diffuser des réunions | Sur le backlog du secteur public |
-| | Réunions fédérées intra-Cloud (DoD-DoD) | Disponibles |
-| | Prise en charge de surface Hub | Sur le backlog du secteur public |
-| Appels | Contacts | Disponibles |
-| | Des | Disponibles |
-| | Messagerie vocale | Disponibles |
-| | Appel VoIP | Disponibles |
-| | Skype pour les entreprises : appel d’équipes | Disponibles |
-| | Forfaits d'appels | Non disponible |
-| | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Disponibles |
-| | Routage direct du système Microsoft Phone | Sur le backlog du secteur public |
-| | Salle d’attente pour les appelants PSTN | Sur le backlog du secteur public |
-| | File d’attente d’appels | Sur le backlog du secteur public |
-| | Prise en charge du patron et du délégué | Sur le backlog du secteur public |
-| | Consultation et transfert sécurisé | Sur le backlog du secteur public |
-| | Ne pas déranger la révolution | Sur le backlog du secteur public |
-| | Sonnerie distincte | Sur le backlog du secteur public |
-| | 1:1, xxx xxxx xxx xxxx xxxx xxx xxxx xxx xxx | Sur le backlog du secteur public |
-| | Transférer vers le groupe | Sur le backlog du secteur public |
-| | Transférer vers un appel PSTN | Sur le backlog du secteur public |
-| | Appels d’urgence-forfaits d’appels | Sur le backlog du secteur public |
-| | Prise en charge des téléphones SIP certifiés existants | Sur le backlog du secteur public |
-| | HID USB | Disponibles |
-| | eDiscovery pour les appels et les réunions | Disponibles |
-| | Standard automatique de l’Organisation | Sur le backlog du secteur public |
-| | Skype grand public-service d’appel d’équipe | Non disponibles |
-| Fichiers | Dernier | Disponibles |
-| | Microsoft Teams | Disponibles |
-| Enregistrer | Magasin d’applications | Non disponibles |
-| Rechercher | Contenus | Disponibles |
-| | Personnes | Disponibles |
-| | Fichiers | Disponibles |
-| | Commandes de barre oblique | Disponibles |
-| Conformément | Recherche de contenu de conformité | Disponibles |
-| | Rétention | Disponibles |
-| | Recherche dans le journal d’audit | Disponibles |
-| | Conservation légale | Disponibles |
-| | eDiscovery | Disponibles |
-
-|    |     |
-|-----------|------------|
-| ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez si l’ensemble des fonctionnalités d’équipe répond aux besoins de votre organisation.</li></ul> |
+[Description du service Microsoft teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Étape 5. Plan de gouvernance
 
