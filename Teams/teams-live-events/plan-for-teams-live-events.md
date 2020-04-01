@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements live dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983860"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096819"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -92,7 +92,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Autorise plusieurs présentateurs |&#x2714; (Skype Entreprise) |&#x2714; (Teams) |S/O  |
 |Inviter un présentateur pendant la réunion |&#x2714; (Skype Entreprise) |X |S/O |
 |Présentateur participe sur le Web et Mobile |&#x2714; (Skype Entreprise)  |X |S/O |
-|Présentateurs / Participants fédérés & invités |&#x2714; (Skype Entreprise)  | (prochainement) |S/O |
+|Présentateurs / Participants fédérés & invités |&#x2714; (Skype Entreprise)  | &#x2714; (Teams)  |S/O |
 |Présentateur - accès PSTN |X |&#x2714; (Teams) |S/O |
 |Présenter un écran |X |&#x2714; (Teams) |S/O |
 |Présenter un PowerPoint (partage PPT) |&#x2714; |X (atténué via le partage d’écran) |S/O |

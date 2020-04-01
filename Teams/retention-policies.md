@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033388"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096999"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -82,7 +82,7 @@ Voici quelques considérations et limitations à prendre en compte lorsque vous 
 
 - Teams ne prend pas en charge les paramètres de conservation avancés, comme la possibilité d’appliquer une stratégie au contenu avec des mots clés ou des informations sensibles. Actuellement, les stratégies de conservation dans Teams s’appliquent à tous les contenus de conversation et/ou de canal.
 
-- Teams peut prendre jusqu’à trois jours pour nettoyer les messages arrivés à expiration. Une stratégie de conservation Teams supprimera les messages de discussion et de canal à l'expiration de la période de conservation. Toutefois, le nettoyage et la suppression définitive de ces messages peut prendre jusqu’à trois jours. De plus, les messages de conversation et de canal seront consultables avec les outils eDiscovery entre le moment qui suit l'expiration de la période de conservation et la suppression définitive des messages.
+- Le nettoyage des messages expirés risque de durer jusqu’à sept jours. Une stratégie de conservation Teams supprimera les messages de discussion et de canal à l'expiration de la période de conservation. Toutefois, le nettoyage de ces messages risque de durer jusqu’à 3 jours et de les supprimer définitivement. De plus, les messages de conversation et de canal seront consultables avec les outils eDiscovery entre le moment qui suit l'expiration de la période de conservation et la suppression définitive des messages.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Politiques de conservation multiples et principes de conservation
 

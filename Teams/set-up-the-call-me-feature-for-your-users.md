@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068516"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096849"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
 Dans Microsoft Teams, la fonctionnalité **m’appeler** permet aux utilisateurs d’accéder à la partie audio d’une réunion par téléphone. C’est pratique dans les situations où l’utilisation d’un ordinateur pour l’audio peut ne pas être possible. Les utilisateurs reçoivent la partie audio de la réunion par le biais de leur téléphone mobile ou de leur ligne fixe et&mdash;de la partie du contenu de la réunion, par exemple lorsqu'&mdash;un autre participant à la réunion partage son écran ou lit une vidéo par le biais de leur ordinateur.
 
 > [!IMPORTANT]
-> Pendant la durée de l’épidémie de COVID-19, nous recommandons aux utilisateurs de participer à des réunions en cliquant sur le bouton participer à une **réunion** au lieu d’appeler en utilisant les numéros de conférence RTC ou en utilisant l’option **m’appeler au**. Cela permet de garantir une qualité audio optimale lorsque le volume de la réunion est à l’origine du congestion du réseau PSTN.
+> Pendant la durée de l’épidémie de COVID-19, nous recommandons aux utilisateurs de participer à des réunions en cliquant sur le bouton participer à une **réunion** au lieu d’appeler en utilisant les numéros de conférence RTC ou en utilisant l’option **m’appeler au**</strong>. C’est essentiellement en raison de la congestion dans les infrastructures de téléphonie des pays concernés par COVID-19. En évitant les appels RTC, vous bénéficierez d’une meilleure qualité audio. 
 
 ## <a name="the-user-experience"></a>L’interface utilisateur
 

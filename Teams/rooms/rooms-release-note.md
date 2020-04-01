@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Cet article présente les améliorations cumulatives apportées aux salles de Microsoft Teams.
-ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398192"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096989"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -28,6 +28,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
@@ -60,6 +61,17 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
+### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
+
+Présenté dans cette mise à jour :
+
+- Prise en charge de l’authentification moderne pour Exchange et Skype entreprise
+- La prise en charge des appels d’urgence dynamiques pour Teams (services requis et remis à l’aide du client teams sonne);
+- Possibilité de désactiver le contenu dupliqué en cas de réunion pour afficher les salles en utilisant XML
+- Écran de démarrage de l’application
+- Paramètre de réponse automatique pour améliorer l’environnement de participation à une réunion en fonction de la proximité 
+- Notifications d’ouverture de logiciel source (OSS) dans les paramètres de l’appareil
+
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
 Présenté dans cette mise à jour :
@@ -111,7 +123,7 @@ Présenté dans cette mise à jour :
 - Mise à jour de thème : conserver uniquement l’image d’arrière-plan personnalisée sur le panneau d’affichage de la salle, tout en conservant l’arrière-plan de la console comme une couleur neutre pour garantir le contraste des contrôles d’interface utilisateur de la console
 - Barre universelle pour les contrôles d’appel en réunion pour les appels/réunions d’équipes pour fournir une interface cohérente avec les clients Microsoft teams PC/Web/mobiles<sup>1</sup>
 - Évaluation de la qualité d’appel après appels ou réunions d’équipes<sup>1</sup>
-- Fonction de réception/affichage de tableau blanc collaboratif sur les salles de Microsoft teams de la salle<sup></sup> <sup></sup>
+- Fonction de réception/affichage de tableau blanc collaboratif sur les salles de Microsoft teams de la salle<sup>1</sup> <sup>2</sup>
 - Suppression de la prise en charge des mises à jour de Windows 10 version 1809 en raison de problèmes de compatibilité avec le client Microsoft teams La prise en charge de Windows 10 version 19H1 sera ajoutée dans les versions ultérieures
 
 <sup>1</sup> lancement de service de Microsoft teams avec teams sonne. Cette fonctionnalité peut être disponible avant ou après la mise à jour du client 4.0.105.0
