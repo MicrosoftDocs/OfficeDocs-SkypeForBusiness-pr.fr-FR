@@ -567,8 +567,10 @@
 
 # Microsoft 365 pour les PME
 ## [Qu’est-ce que Microsoft 365 pour les PME ?](business-voice/whats-business-voice.md)
+## [Disponibilité selon les pays et les régions](business-voice/country-region-availability.md)
 ## Ce qu’il faut savoir avant d’acheter
 ### [Comment obtenir Microsoft 365 pour les PME ?](business-voice/what-to-buy.md)
+### [Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft](business-voice/reseller-partner-support.md)
 ### [Vérification de votre connexion Internet](business-voice/get-ready-internet.md)
 ### [Préparation de vos utilisateurs](business-voice/prepare-users.md)
 ## [Exécution de l’Assistant Prise en main](business-voice/use-getting-started-wizard.md)
@@ -603,6 +605,7 @@
 ## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ## [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
+## [RealWear pour Microsoft Teams](flw-realwear.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)

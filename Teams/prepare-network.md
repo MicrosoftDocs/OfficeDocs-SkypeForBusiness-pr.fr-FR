@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43060393"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43109476"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -35,6 +35,7 @@ Si vous avez déjà [optimisé votre réseau pour Office 365](https://docs.micro
     |---------|---------|
     |Ports     |Ports UDP <strong>3478</strong> à <strong>3481</strong>        |
     |[Adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>et <strong>52.120.0.0/14</strong>         |
+
     
 2.  Avez-vous un domaine vérifié pour Office 365 (par exemple, contoso.com) ?
     
