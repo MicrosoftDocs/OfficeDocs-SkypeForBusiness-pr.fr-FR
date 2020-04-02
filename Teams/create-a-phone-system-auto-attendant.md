@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824806"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102083"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -220,7 +220,12 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 > [!IMPORTANT]
 > Notez ce qui suit :
->- Les utilisateurs que vous souhaitez rendre disponibles pour le numérotation par poste doivent avoir une extension dans le cadre de leur numéro de téléphone ou du numéro de téléphone mobile affectées dans le [Centre d’administration 365 Microsoft](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur `+<phonenumber>;ext=<extension>` est `x<extension>`soit ou.
+>- Les utilisateurs que vous souhaitez rendre disponibles pour la numérotation par poste de poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou le centre d’administration Azure Active Directory [Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).
+>    - HomePhone
+>    - Mobile/MobilePhone
+>    - TelephoneNumber/PhoneNumber
+>    - OtherTelephone
+>- Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur `+<phonenumber>;ext=<extension>` est `x<extension>`soit ou.
 >- L’attribution d’une extension dans le centre d’administration teams n’est pas prise en charge pour le moment. Vous devez utiliser la commande PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) ou le centre d’administration Microsoft 365.
 >- Il est possible que les modifications apportées aux attributs AAD et MobilePhone soient jusqu’à 12 heures.
 >- Ne définissez pas d’extension pour le LineUri d’un utilisateur. Cette fonctionnalité n’est pas prise en charge pour le moment.
@@ -273,7 +278,7 @@ Au départ, les heures d’ouverture sont définies pour commencer à 12:00 AM e
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Icône du numéro 6, une légende dans la capture d’écran](media/teamscallout6.png) précédente pour configurer un saut (par exemple, une pause déjeuner, par exemple), sélectionnez **Ajouter une nouvelle heure** pour ce jour de la semaine pour créer une nouvelle ligne de tableau, puis sélectionnez nouvelles heures de début et de fin. Vous pouvez définir plusieurs sauts dans les heures de bureau.
+![Icône du numéro 6, une légende dans la capture d’écran](media/teamscallout6.png) précédente pour configurer un saut (par exemple, une pause déjeuner, par exemple), sélectionnez **Ajouter une nouvelle heure** pour ce jour de la semaine pour créer une ligne de tableau, puis sélectionnez nouvelles heures de début et de fin. Vous pouvez définir plusieurs sauts dans les heures de bureau.
 
 Les options de [flux d’appels](#call-flow) disponibles après les heures sont les mêmes que celles disponibles pendant les heures d’activité. Faire défiler la page d’entrée d’information pour définir les options de flux d’appels après heures.
 
@@ -418,7 +423,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

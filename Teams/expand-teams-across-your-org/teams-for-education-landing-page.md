@@ -15,16 +15,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cdb9d63d6c14c6950f7066f5cb8b6fbd933703b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008136"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100091"
 ---
 # <a name="teams-for-education"></a>Teams pour l’éducation
 
-Grâce aux équipes, aux enseignants et aux enseignants, vous pouvez créer des salles de classe collaboratives, se connecter à des communautés d’apprentissage professionnel et communiquer avec des étudiants et des enseignants. Utilisez les ressources d’administration ici pour vous aider à déployer, arrêter et gérer des équipes dans votre établissement scolaire ou votre établissement scolaire. 
+Grâce aux équipes, aux enseignants et aux enseignants peuvent créer des salles de classe collaboratives, se connecter à des communautés d’apprentissage professionnel et communiquer avec des étudiants et des enseignants. Utilisez les ressources d’administration ici pour vous aider à déployer, arrêter et gérer des équipes dans votre établissement scolaire ou votre établissement scolaire. 
 
 <ul class="panelContent cardsFTitle">
     <li>
