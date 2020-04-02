@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102345"
+ms.locfileid: "43106691"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -121,7 +121,7 @@ Veuillez noter que le connecteur est en version préliminaire, il est peu probab
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>J’essaie d’utiliser la colonne Date en tant que segment de date. Dès que j’effectue une conversion du type de données de cette colonne à une date donnée, j’obtiens le message d’erreur suivant :
 
-  Nous **n’avons pas pu charger les données pour cet élément visuel**: OLE DB ou ODBC : [expression. erreur] nous n’avons pas pu plier l’expression à la source de données. Veuillez essayer une expression plus simple. 
+> Nous **n’avons pas pu charger les données pour cet élément visuel**: OLE DB ou ODBC : [expression. erreur] nous n’avons pas pu plier l’expression à la source de données. Veuillez essayer une expression plus simple. 
 
 Les segments de date ne sont pas pris en charge par Power BI Connector. Pour spécifier une plage de dates, appliquez deux filtres au rapport, en spécifiant une valeur inférieure ou supérieure à.
 
