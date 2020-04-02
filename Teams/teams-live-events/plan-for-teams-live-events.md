@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements live dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096819"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102365"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -87,25 +87,25 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Engagement d’audience - Yammer |&#x2714; |&#x2714; (expérience intégrée) |&#x2714; (expérience intégrée) |
 |Engagement d’audience - Q&R modérées |&#x2714;  |&#x2714; |&#x2714; |
 |Client Producteur sur Windows |&#x2714; (Skype Entreprise) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Client Producteur sur Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Nombre de participants dans l’interface utilisateur producteur |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Client Producteur sur Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Nombre de participants dans l’interface utilisateur producteur |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Autorise plusieurs présentateurs |&#x2714; (Skype Entreprise) |&#x2714; (Teams) |S/O  |
-|Inviter un présentateur pendant la réunion |&#x2714; (Skype Entreprise) |X |S/O |
-|Présentateur participe sur le Web et Mobile |&#x2714; (Skype Entreprise)  |X |S/O |
-|Présentateurs / Participants fédérés & invités |&#x2714; (Skype Entreprise)  | &#x2714; (Teams)  |S/O |
-|Présentateur - accès PSTN |X |&#x2714; (Teams) |S/O |
-|Présenter un écran |X |&#x2714; (Teams) |S/O |
-|Présenter un PowerPoint (partage PPT) |&#x2714; |X (atténué via le partage d’écran) |S/O |
+|Inviter un présentateur pendant la réunion |&#x2714; (Skype Entreprise) |&#x274C; |S/O |
+|Présentateur participe sur le Web et Mobile |&#x2714; (Skype Entreprise)  |&#x274C; |S/O |
+|Présentateurs / Participants fédérés & invités |&#x2714; (Skype Entreprise)  |  &#x2714; (Teams) |S/O |
+|Présentateur - accès PSTN |&#x274C; |&#x2714; (Teams) |S/O |
+|Présenter un écran |&#x274C; |&#x2714; (Teams) |S/O |
+|Présenter un PowerPoint (partage PPT) |&#x2714; |&#x274C; (atténué via le partage d’écran) |S/O |
 |Enregistrement de réunion sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
-|Publier automatiquement l’enregistrement sur Stream |X |X |&#x2714; |
-|Légendes et sous-titres en direct |&#x2714; |&#x2714; |X |
+|Publier automatiquement l’enregistrement sur Stream |&#x274C; |&#x274C; |&#x2714; |
+|Légendes et sous-titres en direct |&#x2714; |&#x2714; |&#x274C; |
 |Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; |&#x2714; |
 |Contrôles DVR de participants (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
 |Support eCDN partenaire |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |X |
-|Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |X |X |
+|Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
+|Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Les limites définies peuvent être modifiées.<br/>
+<sup>1</sup> Les limites définies peuvent être modifiées. Vérifier les [limites et les spécifications pour teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> vous pouvez avoir jusqu’à 250 de présentateurs et producteurs dans un événement en direct, mais uniquement les 10 derniers qui s’affichent dans la liste.
 
 

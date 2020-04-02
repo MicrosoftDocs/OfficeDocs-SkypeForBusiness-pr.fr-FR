@@ -17,12 +17,12 @@ ms.collection:
 description: Exemples d’utilisation de PowerShell pour définir des stratégies dans teams pour contrôler les utilisateurs qui peuvent contenir des événements en direct au sein de votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7e9e96bde0112508da200bea741b9938e273a9d
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cb43e2a7420ef6c121cea93fd4cd8e4cc40ddfb2
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558614"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102355"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
@@ -33,6 +33,9 @@ Vous pouvez utiliser les applets de commande Windows PowerShell suivantes pour d
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 Voici quelques exemples.
+
+> [!NOTE]
+> Pour pouvoir exécuter ces applets de connexion, vous devez être connecté à Skype entreprise Online PowerShell. Pour plus d’informations, reportez-vous à [gérer Skype entreprise Online avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permettre aux utilisateurs de planifier des événements en direct 
 
@@ -140,7 +143,7 @@ Définissez la stratégie globale pour activer les légendes dynamiques et les s
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
-
+- [Présentation de Teams PowerShell](../teams-powershell-overview.md)
 

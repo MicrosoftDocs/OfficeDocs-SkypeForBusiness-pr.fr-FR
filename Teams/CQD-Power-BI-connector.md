@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: c9987d05c5b057adf55791ffb2105d9ddb252722
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559424"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102345"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -111,11 +111,21 @@ Malgré une utilisation de Power BI, toutes les fonctionnalités de Power BI ne 
 
 3.  **Visuels personnalisés :** Même si le connecteur bord fonctionne avec une gamme de visuels personnalisés, nous ne sommes pas en mesure de garantir la compatibilité avec les éléments visuels personnalisés. De nombreux visuels personnalisés font appel à l’utilisation de colonnes calculées ou de données importées, ni ou qui sont prises en charge par les connecteurs DirectQuery.
 
-4.  **Référencement des données mises en cache :** Pour le moment, Power BI ne prend pas en charge le référencement des données mises en cache à partir d’un connecteur DirectQuery. Toute tentative de référencer les résultats d’une requête générera une nouvelle requête.
+4.  **Référencement des données mises en cache :** Pour le moment, Power BI ne prend pas en charge le référencement des données mises en cache à partir d’un connecteur DirectQuery. Toute tentative de référencer les résultats d’une requête générera une nouvelle requête. 
 
 5.  **Filtrage de données relatif –** Est pris en charge dans le connecteur bord, mais uniquement avec les dimensions *heure de début* et *heure de fin* . Même si la dimension de *Date* peut être le choix évident pour le filtrage relatif aux dates relatives, la *Date* n’est pas stockée en tant qu’objet date et par conséquent ne prend pas en charge le filtrage relatif de la date sur Power bi.
 
 Veuillez noter que le connecteur est en version préliminaire, il est peu probable que ces limitations soient modifiées avec la version finale du connecteur. La plupart de ces problèmes sont des restrictions à la conception de connecteurs DirectQuery dans Power BI ou à la conception du modèle de données bord.
+
+## <a name="troubleshooting"></a>Résolution des problèmes
+
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>J’essaie d’utiliser la colonne Date en tant que segment de date. Dès que j’effectue une conversion du type de données de cette colonne à une date donnée, j’obtiens le message d’erreur suivant :
+
+  Nous **n’avons pas pu charger les données pour cet élément visuel**: OLE DB ou ODBC : [expression. erreur] nous n’avons pas pu plier l’expression à la source de données. Veuillez essayer une expression plus simple. 
+
+Les segments de date ne sont pas pris en charge par Power BI Connector. Pour spécifier une plage de dates, appliquez deux filtres au rapport, en spécifiant une valeur inférieure ou supérieure à.
+
+Par ailleurs, si les dates que vous souhaitez afficher sont récentes, appliquez un filtre de dates relatives pour afficher uniquement les données relatives aux N derniers jours/semaines/mois.
 
 ## <a name="error-codes"></a>Codes d’erreur
 
@@ -139,6 +149,6 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette zone, contact
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)

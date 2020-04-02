@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827394"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102315"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -47,6 +47,7 @@ Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,9 +92,10 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 |\<IsTeamsDefaultClient> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. |
 |\<BluetoothAdvertisementEnabled> |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut. |
 |\<DualScreenMode\>  |&#x2777; booléenne  |Première &#x2776;  |Si la valeur est true, le mode à deux écrans est activé. Dans le cas contraire, l’appareil utilise le mode écran unique. |
-|\<SendLogs\> |Conteneur |Première &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |&#x2778; de chaîne  || Définit une adresse de messagerie facultative dans laquelle les journaux peuvent être envoyés lorsque la fenêtre « envoyer des commentaires » s’affiche. |
-|\<SendLogsAndFeedback\> |&#x2777; booléenne  ||  Si ce paramètre est vrai, les journaux sont envoyés à l'administrateur. Si ce paramètre est faux, seuls les commentaires sont envoyés à l'administrateur (pas les journaux).  |
+| \<DuplicateIngestDefault\> |&#x2777; booléenne  |Première &#x2776; |Si la valeur est true, le contenu s’affiche sur les deux écrans en mode à deux écrans, lors de l’absence de la réunion. | 
+|\<SendLogs\> |Conteneur |Première &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |&#x2778; de chaîne  | | Définit une adresse de messagerie facultative dans laquelle les journaux peuvent être envoyés lorsque la fenêtre « envoyer des commentaires » s’affiche. |
+|\<SendLogsAndFeedback\> |&#x2777; booléenne  | |  Si ce paramètre est vrai, les journaux sont envoyés à l'administrateur. Si ce paramètre est faux, seuls les commentaires sont envoyés à l'administrateur (pas les journaux).  |
 | \<Appareils\>  |Conteneur |Première &#x2776;  | Les noms des appareils audio connectés dans les éléments enfants sont les mêmes valeurs que celles qui sont répertoriées dans l'application du gestionnaire de périphériques. La configuration peut contenir un appareil qui n'existe pas actuellement sur le système, tel qu'un périphérique audio/vidéo qui n'est pas connecté à la console actuellement. La configuration sera conservée pour l'appareil respectif.  |
 |\<MicrophoneForCommunication\> |&#x2778; de chaîne  ||Définit le microphone utilisé comme périphérique d’enregistrement dans une conférence. |
 |\<SpeakerForCommunication\> |&#x2778; de chaîne  ||Périphérique qui sera utilisé comme haut-parleur pour la conférence. Ce paramètre permet de définir le périphérique de haut-parleur utilisé dans un appel. |
@@ -107,7 +109,7 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 |\<CustomThemeColor\> |Conteneur ||Conteneur pour les \<valeurs\>RedComponent \<,\>GreenComponent et \<BlueComponent\> . Ces valeurs sont requises pour un thème personnalisé. |
 |\<RedComponent\> |Octet (0-255) ||Représente le composant de la couleur rouge. |
 |\<GreenComponent\> |Octet (0-255) ||Représente le composant de la couleur verte. |
-|\<BlueComponent\> |Octet (0-255) ||Représente le composant de la couleur bleue. |
+|\<BlueComponent\> |Octet (0-255) ||Représente le composant de la couleur bleue. | 
 | | | |
 
 &#x2776; tous les éléments de premier niveau sont facultatifs. Si un élément du premier niveau est omis, tous ses paramètres enfants restent inchangés sur l';appareil.
