@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Comment se connecter à Microsoft Teams à l’aide de l’authentification moderne. Explique comment ignorer automatiquement l’ajout du nom d’utilisateur UPN lorsque les utilisateurs se connectent.
+description: Comment se connecter à Microsoft Teams à l’aide de l’authentification moderne. Explique comment ignorer automatiquement le nom d’utilisateur UPN lorsque les utilisateurs se connectent à l’aide d’un paramètre qui indique à Windows d’ignorer le nom d’utilisateur principal.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: f86568f92f2b758ae48062c84b330461743ef178
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978366"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116640"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
@@ -40,14 +40,14 @@ L’authentification moderne est un processus qui permet à Teams de s’informe
 
 - Si les utilisateurs sont connectés à un ordinateur joint à un domaine, lorsqu’ils démarrent Teams, ils peuvent être invités à effectuer une étape d’authentification supplémentaire, selon que votre organisation a choisi d’utiliser l’authentification multi-facteur ou si son ordinateur nécessite déjà l’authentification multi-facteur pour se connecter. Si l’ordinateur requiert déjà l’authentification multi-facteur, lorsqu’il ouvre Teams, l’application démarre automatiquement.
 
-- Si les utilisateurs sont connectés à un ordinateur joint à un domaine et que vous ne souhaitez pas que leur nom d’utilisateur soit déjà rempli sur l’écran de connexion à Teams, les administrateurs peuvent définir le registre Windows suivant pour désactiver le pré-remplissage du nom d’utilisateur (UPN) :
+- Si les utilisateurs sont connectés à un ordinateur joint à un domaine et que vous **ne souhaitez pas que leur nom d’utilisateur soit déjà rempli sur l’écran de connexion à Teams**, les administrateurs peuvent définir le registre Windows suivant pour désactiver le pré-remplissage du nom d’utilisateur (UPN) :
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > Le nom d’utilisateur doit être renseigné pour les noms d’utilisateur qui se terminent par « .local » ou « .corp » est activé par défaut, alors vous n’avez pas besoin de définir une clé de registre pour les désactiver. 
+    > Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver. 
 
 
 ### <a name="mac-users"></a>Utilisateurs Mac 
