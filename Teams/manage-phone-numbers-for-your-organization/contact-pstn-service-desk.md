@@ -23,19 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de transfert pour votre organisation, il est possible que vous deviez obtenir de l’aide et une assistance technique au niveau de l’assistance téléphonique PSTN.
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583073"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116700"
 ---
 # <a name="pstn-service-desk-contact"></a>Contact de bureau de service PSTN
 
-Si vous avez besoin d’aide pour vous permettre d’obtenir ou de transférer des numéros, n’hésitez pas à nous le faire savoir. Dans votre demande de support électronique, incluez autant de détails que possible et incluez des détails tels que l’ID de votre organisation (ID de client), les domaines, les types de numéros dont vous avez besoin d’aide, le nombre de nombres souhaités, la personne autorisant le compte et d’autres détails importants. sur votre problème.
+Si vous avez besoin d’aide pour vous permettre d’obtenir ou de transférer des numéros, n’hésitez pas à nous le faire savoir. Dans votre demande de support électronique, incluez autant de détails que possible et incluez des détails tels que l’ID de votre organisation (ID de client), les domaines, les types de numéros dont vous avez besoin d’aide, le nombre de numéros souhaités, la personne autorisant le compte ainsi que d’autres détails importants sur votre problème.
 
   - ID de votre organisation (ID de client) ou domaines actifs.
   - Quels types de numéros vous avez besoin d’aide pour (utilisateur/abonné, service/payant ou gratuit).
+    - Incluez le ou les indicatifs/Country/Region à partir desquels vous souhaitez des numéros de téléphone.
   - Nombre de numéros requis (s’il s’agit d’une acquisition numérique).
   - Autorisation de personne sur le compte et autres détails importants en fonction de votre demande.
 

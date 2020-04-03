@@ -19,24 +19,32 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053410"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117422"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
 > [!IMPORTANT]
-> En tant que client d’Office 365, vous êtes propriétaire et contrôle de vos données. Microsoft n’utilise pas vos données pour aucune autre action que le service auquel vous êtes abonné. En tant que fournisseur de services, nous ne analyserons pas vos messages électroniques, vos documents ou vos équipes à des fins publicitaires ou à des fins qui ne sont pas liées au service. Microsoft n’a pas accès au contenu téléchargé. Comme OneDrive entreprise et SharePoint Online, les données de clients restent dans le client. Vous pouvez en savoir plus sur les informations relatives à la confidentialité et à la sécurité du centre de gestion de la [confidentialité de Microsoft](https://microsoft.com/trustcenter). Teams suit les mêmes recommandations et principes que le centre de gestion de la confidentialité Microsoft.
+> Pour plus d’informations sur la façon de garantir **la sécurité de tous les utilisateurs de chez vous lors de l’épidémie de COVID-19**, lisez les articles suivants :
+>  - [12 tâches principales pour que les équipes de sécurité prennent en charge le télétravail de chez vous](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+>  - [Optimiser la connectivité d’Office 365 pour les utilisateurs distants à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - Mise à jour du 2 avril 2020 : Guide sur la [sécurité teams](teams-security-guide.md)
+
 
 Microsoft Teams est conçu sur le cloud d'entreprise à très grande échelle Office 365, fournissant à nos clients les fonctionnalités de sécurité avancée et de conformité qu'ils attendent. Pour plus d’informations sur la planification de la sécurité dans O365, veuillez consulter notre contenu O365. [Le plan de la sécurité O365 est l'](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) endroit idéal pour commencer. Pour plus d’informations sur la planification de la conformité dans O365, vous pouvez commencer avec [l’article planifier pour la sécurité et la conformité](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) .
 
-Cet article fournit des informations supplémentaires sur la sécurité et la conformité spécifiques aux équipes. Nous vous conseillons de passer en revue ces vidéos sur la sécurité et la conformité de Microsoft.
+
+Cet article fournit des informations supplémentaires sur la sécurité et la conformité spécifiques aux équipes. Ne manquez pas cette vidéo sur la sécurité et la conformité :
 
 - [Microsoft teams Essentials : sécurité et conformité](https://youtu.be/91lHNKVVvQ4) (12:42 min)
 - [Contrôles Microsoft teams pour la sécurité et la conformité](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
+
+> [!IMPORTANT]
+> En tant que client d’Office 365, vous êtes propriétaire et contrôle de vos données. Microsoft n’utilise pas vos données pour aucune autre action que le service auquel vous êtes abonné. En tant que fournisseur de services, nous ne analyserons pas vos messages électroniques, vos documents ou vos équipes à des fins publicitaires ou à des fins qui ne sont pas liées au service. Microsoft n’a pas accès au contenu téléchargé. Comme OneDrive entreprise et SharePoint Online, les données de clients restent dans le client. Vous pouvez en savoir plus sur les informations relatives à la confidentialité et à la sécurité du centre de gestion de la [confidentialité de Microsoft](https://microsoft.com/trustcenter). Teams suit les mêmes recommandations et principes que le centre de gestion de la confidentialité Microsoft.
 
 ## <a name="security"></a>Sécurité
 
@@ -71,11 +79,11 @@ L’application de bureau Microsoft teams prend en charge AppLocker.  Pour plus 
 
 ## <a name="compliance"></a>Conformément
 
-Teams dispose d’une large gamme d’informations pour vous aider à utiliser les zones de conformité, y compris la conformité de la communication pour les canaux, les conversations et les pièces jointes, les stratégies de rétention, la protection contre la perte de données (DLP), le eDiscovery et la conservation juridique pour les canaux, les conversations et les fichiers la recherche et la gestion des applications mobiles avec Microsoft Intune. Nous avons mis à votre disposition des informations sur ces rubriques ci-dessous, et vous pouvez accéder au [Centre de conformité microsoft 365](https://compliance.microsoft.com) ou au [centre de sécurité & conformité Office 365](https://protection.microsoft.com) pour gérer ces paramètres.
+Teams dispose d’une large gamme d’informations pour vous aider à utiliser les zones de conformité, y compris la conformité des communications pour les canaux, les conversations et les pièces jointes, les stratégies de rétention, la recherche de perte de données (DLP), la découverte électronique et la gestion des applications mobiles avec Microsoft Intune. Nous avons mis à votre disposition des informations sur ces rubriques ci-dessous, et vous pouvez accéder au [Centre de conformité microsoft 365](https://compliance.microsoft.com) ou au [centre de sécurité & conformité Office 365](https://protection.microsoft.com) pour gérer ces paramètres.
 
 ### <a name="communication-compliance"></a>Conformité des communications
 
-La conformité de la communication dans Microsoft 365 vous permet d’ajouter des utilisateurs à des stratégies dans le cadre qui peuvent être configurées de manière à examiner les communications de Microsoft teams pour le langage injurieux, les informations sensibles et les informations relatives aux normes internes et réglementaires. . Les communications de conversation et les pièces jointes associées dans les canaux d’équipe publique et privée, les discussions individuelles et les pièces jointes peuvent être analysées pour réduire les risques de communication au sein de votre organisation. Pour plus d’informations sur la configuration des stratégies permettant de détecter, de capturer et de prendre des mesures pour les communications d’équipes inappropriées, voir [conformité de la communication dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
+La conformité de la communication dans Microsoft 365 vous permet d’ajouter des utilisateurs à des stratégies dans le cadre qui peuvent être configurées de manière à examiner les communications de Microsoft teams pour le langage injurieux, les informations sensibles et les informations relatives aux normes internes et réglementaires. Les communications de conversation et les pièces jointes associées dans les canaux d’équipe publique et privée, les discussions individuelles et les pièces jointes peuvent être analysées pour réduire les risques de communication au sein de votre organisation. Pour plus d’informations sur la configuration des stratégies permettant de détecter, de capturer et de prendre des mesures pour les communications d’équipes inappropriées, voir [conformité de la communication dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
 ### <a name="retention-policies"></a>Stratégies de rétention
 
@@ -172,7 +180,7 @@ Teams est conforme à la norme de niveau D. Cela inclut les normes suivantes : 
 
 Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Microsoft 365 sécurité](https://docs.microsoft.com/microsoft-365/security/)
 Microsoft[365 conformité](https://docs.microsoft.com/microsoft-365/compliance/)

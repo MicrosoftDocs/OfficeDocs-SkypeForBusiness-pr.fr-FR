@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327846"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117432"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -37,6 +37,7 @@ Le complément Réunion Teams est installé automatiquement pour les utilisateur
 ![Capture d'écran du complément réunion Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Il existe d’autres éléments à prendre en considération si votre organisation exécute des équipes et Skype entreprise. Dans certains cas, le complément teams n’est pas disponible dans Outlook. Pour plus d’informations, consultez la rubrique [mise à niveau de Skype entreprise vers teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 > - Les autorisations utilisateur pour exécuter le fichier Regsvr32.exe constituent une condition minimale requise pour que le complément réunion Teams soit installé sur l’ordinateur.
 > - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 > - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément réunion Teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
@@ -73,7 +74,7 @@ Pour plus d’informations, consultez l’article[Planifier des réunions avec F
 
 ## <a name="authentication-requirements"></a>Exigences d'authentification
 
-Le complément Réunion Teams requiert de se connecter à Teams en utilisant l'authentification moderne. Si les utilisateurs n'utilisent pas cette méthode pour se connecter, ils pourront continuer à utiliser le client Teams mais ne pourront pas planifier de réunions en ligne Teams à l'aide du complément Outlook. Vous pouvez résoudre ce problème de l'une des manières suivantes :
+Le complément Réunion Teams requiert de se connecter à Teams en utilisant l'authentification moderne. Si les utilisateurs ne sont pas en mesure de se connecter, ils pourront toujours utiliser le client Teams, mais ils ne seront pas en mesure de planifier des réunions teams en ligne à l’aide du complément Outlook. Vous pouvez résoudre ce problème de l'une des manières suivantes :
 
 - Si l'authentification moderne n'est pas configurée pour votre organisation, vous devez la configurer.
 - Si l'authentification moderne est configurée, mais qu'ils l'ont annulée dans la boîte de dialogue, vous devez demander aux utilisateurs de se connecter à nouveau en utilisant l'authentification multifacteur.
@@ -120,7 +121,7 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 - Assurez-vous que toutes les mises à jour disponibles pour le client de bureau Outlook aient été appliquées.
 - Redémarrez le client de bureau Teams.
 - Déconnectez-vous, puis reconnectez-vous pour le client de bureau Teams.
-- Fermez le client Outlook pour ordinateur de bureau. (Veillez à ce qu' Outlook ne soit pas exécuté en mode d’administration.)
+- Fermez le client Outlook pour ordinateur de bureau. (Assurez-vous qu’Outlook n’est pas exécuté en mode administrateur.)
 - Vérifiez que le nom du compte utilisateur connecté ne contienne pas d’espaces. (Il s’agit d’un problème connu qui sera corrigé dans une prochaine mise à jour.)
 - Vérifiez que l’authentification unique de Yammer ne soit pas activée.
 
