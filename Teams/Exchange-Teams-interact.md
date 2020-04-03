@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285746"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131142"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -32,11 +32,11 @@ Pour profiter pleinement de Teams, Exchange Online, SharePoint Online et la cr
 
 Les boîtes aux lettres Exchange des utilisateurs peuvent être hébergées en ligne ou sur site. Toutefois, certaines fonctionnalités nécessitent un déploiement hybride qui est en place avec votre client Office 365.
 
-Les utilisateurs hébergés sur Exchange Online ou Exchange dédié vNext peuvent utiliser toutes les fonctionnalités d’Teams. Ils peuvent créer et rejoindre des équipes et des canaux, créer et afficher des réunions, appeler et discuter, modifier des images de profil utilisateur, et ajouter et configurer des connecteurs, des onglets et des robots.
+Les utilisateurs hébergés sur Exchange Online ou Exchange dédié vNext peuvent utiliser toutes les fonctionnalités d’Teams. Ils peuvent créer et rejoindre des équipes et des canaux, créer et afficher des réunions, appeler et discuter, modifier des images de profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et ajouter et configurer des connecteurs, des onglets et des robots.
 
 Les utilisateurs hébergés sur Exchange Online dédié (hérité) doivent être synchronisés avec Azure Active Directory sur Office 365. Ils peuvent créer et rejoindre des équipes et des canaux, ajouter et configurer des onglets et des robots, et utiliser les fonctionnalités de conversation et d’appel. Toutefois, ils ne peuvent pas modifier les images de profil, gérer les réunions, accéder aux contacts Outlook ou gérer les connecteurs.
 
-Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent également modifier l’image de profil utilisateur et gérer les réunions, en fournissant Exchange Server 2016 (mise à jour cumulative 3) ou une version ultérieure.
+Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent également modifier l’image du profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et gérer les réunions, en fournissant Exchange Server 2016 (mise à jour cumulative 3) ou version ultérieure, s’exécute en local.
 
 Le tableau suivant fournit une référence rapide utile à la disponibilité des fonctionnalités en fonction de l’environnement Exchange.
 
@@ -45,10 +45,10 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 
 | La boîte aux lettres de l'utilisateur est hébergée dans : | eDiscovery| Conservation&nbsp;légale | Rétention| Gestion des équipes et des canaux |Créer et afficher des réunions dans Microsoft teams| Modifier une image de profil utilisateur | Historique des appels | Gérer les contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui |Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui |
-|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui |Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui|
+|**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui |
+|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui|
 |**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>, 3</sup>|Oui <sup>, 4|Oui|Non|Non|Oui|Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
-|**Exchange sur site** (synchronisation avec Azure ad requise)|Oui <sup>2</sup>| Oui <sup>, 3</sup> |Oui <sup>, 4|Oui|Oui (Exchange 2016 CU3 +)|Oui (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
+|**Exchange sur site** (synchronisation avec Azure ad requise)|Oui <sup>2</sup>| Oui <sup>, 3</sup> |Oui <sup>, 4|Oui|Oui (Exchange 2016 CU3 +)|Oui<sup>8</sup> (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
 
 <sup>1</sup> Exchange 2016 CU3 et supérieur pris en charge.  
 
@@ -63,6 +63,8 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 <sup>6</sup> si l’un des propriétaires d’une équipe peut ajouter des connecteurs, tous les autres membres de cette équipe pourront y parvenir, même si leurs boîtes aux lettres sont hébergées sur site.
 
 <sup>7</sup> uniquement les contacts dans le dossier contacts par défaut. L’accès à d’autres dossiers ou sous-dossiers de contacts n’est pas pris en charge.
+
+<sup>huit</sup> équipes respectent le paramètre de [stratégie de boîte aux lettres Outlook sur le Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur image de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer l’image de mon profil. Par exemple, si un utilisateur charge une image de profil approuvée par le service informatique de votre organisation ou son service de ressources humaines, aucune action n’est requise. Toutefois, si un utilisateur charge une image inappropriée, modifiez-la en fonction des stratégies internes de votre organisation.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft teams
 
