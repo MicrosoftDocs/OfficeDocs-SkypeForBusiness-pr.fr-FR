@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053627"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113207"
 ---
 # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
@@ -143,7 +143,7 @@ Ce tableau résume les protocoles utilisés par les équipes.
 
 #### <a name="media-encryption"></a>Chiffrement multimédia
 
-Le trafic multimédia est chiffré à l'aide du protocole SRTP (Secure Real-time Transport Protocol), un profil du protocole RTP (Real-Time Transport Protocol) qui offre confidentialité, authentification et protection contre les attaques sur le trafic RTP. SRTP utilise une clé de session produite à l’aide d’un générateur de nombres aléatoires sécurisé et échangée en utilisant le canal TLS de signalisation.
+Le trafic multimédia est chiffré à l'aide du protocole SRTP (Secure Real-time Transport Protocol), un profil du protocole RTP (Real-Time Transport Protocol) qui offre confidentialité, authentification et protection contre les attaques sur le trafic RTP. SRTP utilise une clé de session produite à l’aide d’un générateur de nombres aléatoires sécurisé et échangée en utilisant le canal TLS de signalisation. Le trafic multimédia du client au client est négocié via un signal de connexion du client au serveur, mais il est chiffré à l’aide de SRTP lors d’une relation directe du client au client.
 
 Teams utilise un jeton basé sur les informations d’identification pour sécuriser l’accès aux relais multimédias à la main. Les relais de contenu échangent le jeton via un canal sécurisé TLS.
 
@@ -297,4 +297,4 @@ Il est possible de modifier les options de réunion pendant la réunion. La modi
 
 [Optimiser la connectivité d’Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
 
-- [Implémentation de la segmentation du tunnel par VPN pour Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
+- [Implémentation d'un tunnel VPN partagé pour Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
