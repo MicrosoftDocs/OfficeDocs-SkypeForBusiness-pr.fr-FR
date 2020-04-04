@@ -604,8 +604,6 @@
 # Conseils pour les industries et le secteur public
 ## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
-## [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
-## [RealWear pour Microsoft Teams](flw-realwear.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -639,6 +637,12 @@
 ### [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](plan-teams-governance-edu.md)
 ### [Installer l’intégration de Moodle](install-moodle-integration.md)
 ### [Référence SKU pour l’éducation](sku-reference-edu.md)
+
+## Teams pour les employés de terrain
+### [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
+### [Déploiement par script pour les employés terrain](flw-scripted-deployment.md)
+### [RealWear pour Microsoft Teams](flw-realwear.md)
+### [Créer une application de portail intranet Teams à partir d’un site ou d’une page SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams pour les organismes de vente au détail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
