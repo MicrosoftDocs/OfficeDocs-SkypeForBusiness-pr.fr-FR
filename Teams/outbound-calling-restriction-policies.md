@@ -1,5 +1,5 @@
 ---
-title: Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
+title: Restrictions des appels sortants-audioconférence & appels RTC
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836884"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137904"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -58,13 +59,13 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Cliquez sur **Enregistrer**. 
 
-![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
+![Icône affichant le logo Skype Entreprise](media/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1.  Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, sélectionnez**utilisateurs**de l' **audioconférence** > , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1.    Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, sélectionnez**utilisateurs**de l' **audioconférence** > , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2.  Dans le volet Action, cliquez sur **Modifier**.
+2.    Dans le volet Action, cliquez sur **Modifier**.
 
-3.  Sous **Restrictions de numérotation des réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant souhaitée.
+3.    Sous **Restrictions de numérotation des réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant souhaitée.
 
     ![Les restrictions aux options de numérotation](media/restrictions-to-dial-outs.png)
 
@@ -77,7 +78,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
+Vous pouvez utiliser l’applet de cmdlet Get-CSOnlineDialOutPolicy pour afficher les stratégies d’appel sortant et les affecter aux utilisateurs à l’aide de l’applet de passe Grant-CSDialOutPolicy. (Veuillez noter que la cmdlet Grant ne contient pas le mot « Online » en tant que cmdlet Get.) 
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 

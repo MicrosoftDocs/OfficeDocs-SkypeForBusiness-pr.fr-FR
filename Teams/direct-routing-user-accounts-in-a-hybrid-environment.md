@@ -1,5 +1,5 @@
 ---
-title: Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
+title: Comptes d’utilisateurs dans un environnement hybride avec RTC
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: En savoir plus sur les différentes combinaisons de création d’utilisateur et les combinaisons prises en charge ou non prises en charge.
-ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837284"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141077"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
@@ -58,7 +59,7 @@ Un environnement hybride Skype entreprise avec connectivité PSTN offre une soup
 
 |**Objet utilisateur créé dans**  |**Fournisseur de services Skype entreprise de l’utilisateur**|**Client de l’utilisateur**|**Option voix**|**Prise en charge**|
 | ------------ | --------- | --------- | --------- | -------- |
-|ANNONCE locale| En local |Skype Entreprise   | Voix Entreprise   |Oui|
+|ANNONCE locale| En local |Skype Entreprise   | Voix Entreprise   |Oui|
 |ANNONCE locale|Online| Skype Entreprise  | Connectivité vocale hybride   |Oui |
 |ANNONCE locale|Online |Microsoft Teams |Routage direct  |Oui |
 |**Combinaisons non prises en charge**    | |         |         |      |

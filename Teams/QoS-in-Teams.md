@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Préparez le réseau de votre organisation à la qualité de service (QoS) dans Microsoft Teams.
+description: Découvrez comment préparer le réseau de votre organisation en matière de qualité de service (QoS) dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834734"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138034"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
 Cet article va vous aider à préparer le réseau de votre organisation à la qualité de service (QoS) dans Microsoft Teams. Si vous prenez en charge un groupe de nombreux utilisateurs et qu’ils rencontrent des problèmes mentionnés ci-dessous, vous devez probablement implémenter QoS. Une petite entreprise avec peu d’utilisateurs peut ne pas avoir besoin de la qualité de service (QoS), mais même celle-ci peut être utile.
 
-La qualité de service (QoS) est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour « couper ligne » devant le trafic moins sensible (comme le téléchargement d’une nouvelle application, où une seconde supplémentaire à télécharger n’est pas très importante). La fonction QoS identifie et marque tous les paquets en flux temps réel (à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, plus d’informations sur celles-ci sont disponibles), ce qui permet à votre réseau de transmettre des flux vocaux, vidéo et de partage d’écran. partie dédiée de la bande passante réseau.
+La qualité de service (QoS) est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour « couper ligne » devant le trafic moins sensible (comme le téléchargement d’une nouvelle application, où une seconde supplémentaire à télécharger n’est pas très importante). La fonction QoS identifie et marque tous les paquets en flux temps réel (à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, plus d’informations sur celles-ci sont disponibles), ce qui permet à votre réseau de transmettre des flux vocaux, vidéo et de partage d’écran une portion dédiée de la bande passante réseau
 
 Sans la qualité de service (QoS), vous risquez de rencontrer les problèmes de qualité suivants dans les fonctionnalités audio et vidéo :
 
@@ -67,7 +68,7 @@ Pour garantir la qualité de service (QoS), les appareils réseau doivent dispos
 
 Lorsque le trafic réseau entre dans un routeur, le trafic est placé dans une file d’attente. Si aucune stratégie de QoS n’est configurée, il n’y a qu’une seule file d’attente, et toutes les données sont traitées comme étant de type First-in, premier niveau avec la même priorité. Cela signifie que le trafic vocal (qui est très sensible aux retards) peut rester bloqué derrière le trafic pour lequel un délai de quelques millisecondes supplémentaires ne serait pas un problème.
 
-Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l’aide de l’une des nombreuses fonctionnalités de gestion de la congestion (par exemple, la mise en file d’attente de priorités de Cisco et la mise en file d’attente équitable de [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)), ainsi que des fonctionnalités de prévention de la congestion (par exemple, WRED de détection de niveau aléatoire [](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
+Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l’aide de l’une des nombreuses fonctionnalités de gestion de la congestion (par exemple, la mise en file d’attente de priorités de Cisco et la mise en file d’attente équitable de [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)), ainsi que des fonctionnalités de prévention de la congestion (par exemple, WRED de détection de niveau aléatoire [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
 
 _Figure 2. Exemples de files d’attente QoS_
 
@@ -202,7 +203,7 @@ Dans cet exemple, la valeur DSCP est définie sur 46. C’est correct, car le po
 
 Répétez la procédure de vérification pour chaque charge de travail marquée par l’objet de stratégie de groupe.
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 [Vidéo : planification du réseau](https://aka.ms/teams-networking)
 

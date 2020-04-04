@@ -16,13 +16,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: ''
-ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
-ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
+description: Découvrez comment utiliser l’Assistant de Portage pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370413"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137864"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transfert de numéros de téléphone dans Microsoft teams
 
@@ -91,7 +92,7 @@ Lorsque nous aurons reçu votre demande de transfert, vous recevez un courrier �
 
 Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à >**ordres de port** **vocal** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

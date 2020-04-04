@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams
+title: Gérer les stratégies de routage d’appel d’urgence
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’acheminement des appels d’urgence dans Microsoft Teams.
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836504"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141117"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams
 
@@ -39,7 +40,7 @@ Si vous avez affecté une stratégie d’acheminement des appels d’urgence à 
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’urgence** **vocale** > , puis cliquez sur l’onglet stratégies de **routage des appels** .
 2. Cliquez sur **Ajouter**.
-3. Entrez le nom et la description de la stratégie.
+3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 4. Pour activer des services d’urgence avancés, activez l' **avancée services d’urgence**. Lorsque les services d’urgence améliorés sont activés, teams récupère les informations de stratégie et d’emplacement du service et inclut ces informations dans le cadre de l’appel d’urgence.
 5. Définissez un ou plusieurs numéros d’urgence. Pour cela, sous **numéros d’urgence**, procédez comme suit :
     1. **Chaîne de numérotation d’urgence**: entrez la chaîne de numérotation d’urgence. Cette chaîne de numérotation indique qu’un appel est un appel d’urgence.
@@ -75,7 +76,7 @@ Voir [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershe
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft teams
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis cliquez sur l’utilisateur.
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
 2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
 3. Sous **stratégie d’acheminement des appels d’urgence**, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
 
@@ -84,8 +85,8 @@ Pour attribuer une stratégie d’équipe personnalisée à plusieurs utilisateu
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’urgence** **vocale** > , puis cliquez sur l’onglet stratégies de **routage des appels** .
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **gérer les utilisateurs**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
+3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
@@ -128,7 +129,7 @@ Cet exemple montre comment assigner une stratégie appelée politique de routage
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les stratégies d’appel d’urgence dans teams](manage-emergency-calling-policies.md)
-- [Aperçu de Teams PowerShell](teams-powershell-overview.md)
+- [Présentation de Teams PowerShell](teams-powershell-overview.md)

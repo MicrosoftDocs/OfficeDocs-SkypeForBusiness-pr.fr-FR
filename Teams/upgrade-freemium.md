@@ -1,5 +1,5 @@
 ---
-title: Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
+title: Mise à niveau gratuite de Microsoft teams vers l’abonnement Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,21 +15,22 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756f22712bb0d3f71cdeb5936eb53960700ef57b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706984"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139643"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
 ======================================================
 
-Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouvez facilement effectuer une mise à niveau vers la version complète en achetant un plan d’abonnement Office 365 pour vos utilisateurs. La version complète fournit des fonctionnalités d’équipes supplémentaires (par exemple, planification, audioconférence, administration améliorée et fonctionnalités de sécurité) que la version gratuite ne fournit pas. Office 365 allie la suite de bureau Microsoft Office que vous connaissez à une version Cloud des services de communication et de collaboration nouvelle génération de Microsoft (y compris Exchange Online, SharePoint Online et Office) pour aider les utilisateurs à rester productifs de quasiment partout via Internet. Lorsque vous mettez à niveau Teams, vos données d’équipe existantes ne seront pas perdues ; les équipes, les canaux, les conversations, les fichiers et les autorisations vous accompagnent. 
+Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouvez facilement effectuer une mise à niveau vers la version complète en achetant un plan d’abonnement Office 365 pour vos utilisateurs. La version complète fournit des fonctionnalités d’équipes supplémentaires (par exemple, planification, audioconférence, administration améliorée et fonctionnalités de sécurité) que la version gratuite ne fournit pas. Office 365 combine la suite de bureau Microsoft Office que vous connaissez dans le Cloud des services de communication et de collaboration nouvelle génération de Microsoft, y compris Exchange Online, SharePoint Online et Office, pour permettre aux utilisateurs de se rendre plus productif de n’importe où sur Internet. Lorsque vous mettez à niveau Teams, vos données d’équipe existantes ne seront pas perdues ; les équipes, les canaux, les conversations, les fichiers et les autorisations vous accompagnent. 
 
 > [!NOTE]
 > Si vous disposez déjà d’un abonnement Office 365, vous pouvez prétendre à la version d’évaluation d’Teams (avec votre identité d’entreprise), et non à la version gratuite. La version d’évaluation de teams fournit la version complète de teams pour une durée limitée. Pour plus d’informations, reportez-vous à [la rubrique gérer l’offre d’évaluation Cloud Cloud de Microsoft teams](iw-trial-teams.md).

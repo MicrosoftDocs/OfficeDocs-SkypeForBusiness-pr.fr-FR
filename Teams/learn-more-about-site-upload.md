@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment télécharger un fichier texte qui contient une liste d’emplacements physiques et de sous-réseaux associés à utiliser comme étiquettes de rapport pour les rapports de tableau de bord d’analyse des appels et de qualité d’appel.
+description: Découvrez comment ajouter et mettre à jour des étiquettes de création de rapports en chargeant un fichier texte qui contient la liste des emplacements physiques et des sous-réseaux associés.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836574"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137114"
 ---
 <a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 ============================
@@ -51,13 +52,13 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 
 |Réseau|Nom du réseau|Plage de réseaux|Nom du bâtiment|Type de propriété|Type de bâtiment|Créer un type de bureau|Ville|Code postal|Pays|État|Région|Dans l’entreprise|Itinéraire rapide|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir [format de fichier de données client et structure du fichier de données](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)

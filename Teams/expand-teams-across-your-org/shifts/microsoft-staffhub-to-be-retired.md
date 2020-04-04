@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: Trouvez des réponses aux questions fréquemment posées sur le retrait de Microsoft StaffHub et la transition vers l’application Shifts dans Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008156"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141177"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
@@ -148,7 +149,7 @@ Nous vous encourageons à consulter vos listes d’équipe existantes sur StaffH
 
 Le planning de l’utilisateur est déplacé vers les décalages, mais il n’est pas membre de l’équipe ou d’un groupe Office 365.
 
-Pour les comptes inactifs qui ne sont pas associés à un compte d’utilisateur Azure AD, un responsable peut s’assurer que l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Office 365 valide dans la page des membres de l’équipe StaffHub de sorte que l’utilisateur soit lié au compte Azure AD approprié dans le Organisation IR.
+Pour les comptes inactifs qui ne sont pas associés à un compte d’utilisateur Azure AD, un responsable peut s’assurer que l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Office 365 valide dans la page des membres de l’équipe StaffHub de sorte que l’utilisateur soit lié au compte Azure AD approprié au sein de son organisation.
 
 Une autre option consiste à ce que les administrateurs exécutent les applets de commande **Add-StaffHubMember** et **Remove-StaffHubUser** pour supprimer un compte non approvisionné d’une équipe StaffHub et le rajouter à l’équipe avec leur nom d’utilisateur principal.
 

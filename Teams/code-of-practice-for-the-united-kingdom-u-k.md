@@ -1,5 +1,5 @@
 ---
-title: 'Forfaits d’appels dans Office 365 : Code de conduite pour le Royaume-Uni (U.K.)'
+title: Code de pratique pour le Royaume-Uni -Offres d’appels d’Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Découvrez le code de pratique pour les forfaits d’appels RTC pour Skype entreprise, notamment pour obtenir de l’aide et comment faire des réclamations et résoudre les conflits.
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824942"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139043"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Office 365 : Code de conduite pour le Royaume-Uni (U.K.)
 
@@ -65,7 +66,7 @@ Le plan d’appels d’Office 365 repose sur votre connexion haut débit. Si cel
 
 Skype Entreprise fournit un accès aux services d'appels d'urgence publics du 999/112 pour les clients situés en Angleterre, au Pays de Galles, en Écosse et en Irlande du Nord. Toutefois, les appels d’urgence vers 999 ou 112 fonctionnent différemment avec les services de plan d’appel d’Office 365 que sur les services téléphoniques traditionnels. Les clients sont obligés de notifier chaque utilisateur des services de plan d’appel d’Office 365 de ces différences.
 
-Les différences sont les suivantes : (i) Skype entreprise ne connaît peut-être pas l’emplacement réel d’un appelant, ce qui pourrait entraîner l’expédition des services d’urgence au mauvais endroit ; (II) quand un utilisateur de Skype entreprise compose un appel d’urgence, il est possible qu’un opérateur lui demande de fournir son emplacement actuel pour faciliter le routage de l’appel d’urgence et l’expédition des services d’urgence ; (III) si l’appareil de l’utilisateur n’a pas d’alimentation, rencontre une panne de courant ou, pour une raison quelconque, ne peut pas accéder à Internet, l’utilisateur ne peut pas passer d’appel d’urgence via les services de plan d’appel d’Office 365 ; vous pouvez également utiliser les services de plan d’appel d’Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne doivent pas appeler 999 ou 112 hors Angleterre, pays de Galles et Irlande du Nord, car l’appel ne sera probablement pas dirigé vers le service d’urgence approprié.
+Les différences sont les suivantes : (i) Skype entreprise ne connaît peut-être pas l’emplacement réel d’un appelant, ce qui pourrait entraîner l’expédition des services d’urgence au mauvais endroit ; (II) quand un utilisateur de Skype entreprise compose un appel d’urgence, il est possible qu’un opérateur lui demande de fournir son emplacement actuel pour faciliter le routage de l’appel d’urgence et l’expédition des services d’urgence ; (III) si l’appareil de l’utilisateur n’a pas d’alimentation, rencontre une panne de courant ou, pour une raison quelconque, ne peut pas accéder à Internet, l’utilisateur ne peut pas passer d’appel d’urgence via les services de plan d’appel d’Office 365 ; vous pouvez également utiliser les services de plan d’appel d’Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne doivent pas appeler 999 ou 112 d’Angleterre, de Galles, d’Écosse ou d’Irlande du Nord, car l’appel ne sera probablement pas dirigé vers le service d’urgence approprié.
 
 Il est important que chaque client enregistre l'emplacement de vos utilisateurs et maintienne cette information à jour afin qu'elle puisse être communiquée aux services d'urgence. Vous pouvez modifier les informations d'emplacement en ligne via le portail de l'administrateur de Skype Entreprise.
 
@@ -150,4 +151,3 @@ Les tarifs des Services de traduction nationaux, des Numéros personnels et des 
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

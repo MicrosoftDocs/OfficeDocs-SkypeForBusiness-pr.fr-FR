@@ -1,5 +1,5 @@
 ---
-title: Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
+title: Dimensions et mesures-tableau de bord de qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom:
+- Reporting
+- seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059428"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137334"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 

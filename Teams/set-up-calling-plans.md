@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: Pour les offres d’appels d’Office 365, Découvrez comment acheter et configurer des licences, obtenir des numéros de téléphone, ajouter et affecter des emplacements et des numéros de téléphone d’urgence aux utilisateurs et communiquer à vos utilisateurs leurs nouveaux numéros de téléphone.
-ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Familiarisez-vous avec les offres d’appels, y compris les plans d’affichage disponibles dans votre région, l’achat & l’attribution de licences, l’obtention de numéros de téléphone et l’ajout d’adresses de secours & emplacements.
+ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838044"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140877"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -51,17 +52,17 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 - **Utiliser le centre d’administration Teams.** Pour certains pays ou régions, vous pouvez obtenir des numéros pour vos utilisateurs à l’aide du centre d’administration Teams, reportez-vous à la rubrique [obtention de numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md).
     
-- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel vers Office 365. Pour plus d’informations, reportez-vous à la section [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de service ou de votre téléphone actuel vers Office 365. Pour plus d’informations, reportez-vous à la section [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
-- **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration teams ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration teams ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Étape 4 : ajouter les adresses de secours et les emplacements d’urgence pour votre organisation
-<a name="bkmk_add_addresses"></a> Une adresse de secours doit être associée à un numéro de téléphone. Une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel. 
+<a name="bkmk_add_addresses"> </a> Une adresse de secours doit être associée à un numéro de téléphone. Une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel. 
 
 Pour plus d’informations sur les appels d’urgence et la gestion des adresses d’urgence, reportez-vous à la rubrique [gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) et [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md).
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Étape 5 : affecter une adresse de secours et un numéro de téléphone à un utilisateur
-<a name="bkmk_add_addresses"></a> Lorsque vous configurez des forfaits d’appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur.  Pour plus d’informations, reportez-vous à la section [affectation ou modification d’une adresse de secours](assign-change-emergency-location-user.md).
+<a name="bkmk_add_addresses"> </a> Lorsque vous configurez des forfaits d’appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur.  Pour plus d’informations, reportez-vous à la section [affectation ou modification d’une adresse de secours](assign-change-emergency-location-user.md).
 
 
 > [!TIP]

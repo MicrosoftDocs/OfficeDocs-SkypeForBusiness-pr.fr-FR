@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Pour connaître le nombre de minutes consommées au cours du mois en cours au sein de votre organisation, voir utiliser le rapport sur les pools RTC de Microsoft teams dans le centre d’administration Microsoft Teams.
+description: Utilisation du rapport pools de minutes RTC de Microsoft teams dans le centre d’administration Microsoft teams pour afficher les minutes consommées au sein de votre organisation pendant le mois en cours.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827322"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140665"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Rapport de pools de minutes RTC de Microsoft teams
 

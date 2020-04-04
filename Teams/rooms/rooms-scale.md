@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827922"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141017"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -88,7 +90,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 ### <a name="validate-and-upgrade-configuration-manager"></a>Valider et mettre à niveau le gestionnaire de configuration
 
-1.  Dans la console Configuration Manager, accédez à **** \> **mises à jour d’administration et service de maintenance**.
+1.  Dans la console Configuration Manager, accédez à **Administration** \> **mises à jour d’administration et service de maintenance**.
 
 2.  Recherchez les mises à jour installées et applicables qui n’ont pas encore été installées.
 
@@ -98,7 +100,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 ### <a name="configure-distribution-points-to-support-pxe-and-multicast"></a>Configurer les points de distribution pour la prise en charge de PXE et de la multidiffusion
 
-1.  Dans la console Configuration Manager, accédez à **** \> **points de distribution**d’administration.
+1.  Dans la console Configuration Manager, accédez à **Administration** \> **points de distribution**d’administration.
 
 2.  Sélectionnez le serveur de point de distribution qui servira le déploiement de Microsoft Teams, puis sélectionnez **Propriétés**.
 
@@ -521,7 +523,7 @@ Les salles de Microsoft teams sont prises en charge pour surface Pro et surface 
 
 10. Sélectionnez **Fermer**.
 
-11. Accédez à **** \> **pilotes**de \> **systèmes d’exploitation** des bibliothèques de logiciels, sélectionnez ** \> créer un dossier**, puis entrez le nom du dossier qui correspond au modèle surface Pro pour lequel vous venez d’importer les pilotes.
+11. Accédez à **Software Library** \> **pilotes**de \> **systèmes d’exploitation** des bibliothèques de logiciels, sélectionnez ** \> créer un dossier**, puis entrez le nom du dossier qui correspond au modèle surface Pro pour lequel vous venez d’importer les pilotes.
 
 12. Déplacez tous les pilotes importés dans le dossier nouvellement créé pour faciliter la navigation et l’utilisation.
 
@@ -593,7 +595,7 @@ Tous les packages doivent être distribués aux serveurs auxquels le rôle de po
 
 ## <a name="configuration-manager-task-sequences"></a>Séquences de tâches de Configuration Manager
 
-Les séquences de tâches à l’aide de Configuration Manager vous permettent d’automatiser la procédure de déploiement d’une image de système d’exploitation sur un ordinateur de destination. Pour déployer une unité de salle Microsoft teams de manière automatisée, vous devez créer une séquence de tâches qui fait référence à l’image de démarrage utilisée pour démarrer l’ordinateur de destination Microsoft Teams, l’image du système d’exploitation Windows 10 entreprise que vous voulez installer, et les autres autres contenus supplémentaires, tels que d’autres applications ou mises à jour logicielles.
+Les séquences de tâches à l’aide de Configuration Manager vous permettent d’automatiser la procédure de déploiement d’une image de système d’exploitation sur un ordinateur de destination. Pour déployer une unité de salle Microsoft teams de manière automatisée, vous devez créer une séquence de tâches qui fait référence à l’image de démarrage utilisée pour démarrer l’ordinateur de destination Microsoft Teams, l’image du système d’exploitation Windows 10 entreprise que vous voulez installer, ainsi que les autres contenus supplémentaires, tels que d’autres applications ou mises à jour logicielles.
 
 ### <a name="import-the-sample-task-sequence"></a>Importer la séquence de tâches d’exemple
 
@@ -656,7 +658,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
    11. **Copier les fichiers de configuration de SRS v2**: cette étape copie les fichiers d’installation et de configuration requis du kit de déploiement de Microsoft teams sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
        -   Vérifiez que le **package d’application SRS pour le service SRS** et la **désactivation de la redirection de système de fichiers 64 bits** sont sélectionnés.
 
-   12. **Installation-SRSv2-OS-mises à jour**: cette étape déploie toutes les mises à jour de système d’exploitation obligatoires requises avec le déploiement de Microsoft Teams. Procédez comme suit :
+   12. **Installation-SRSv2-OS-mises à jour**: cette étape déploie toutes les mises à jour de système d’exploitation obligatoires requises avec le déploiement de Microsoft Teams. Procédez comme suit :
        -   Cochez [la case configurer une console de salle Microsoft teams](console.md) pour afficher les mises à jour nécessaires.
        -   Vérifiez que le **package de mise à jour de SRS v2 –** y compris toutes les mises à jour requises.
        -   Vérifiez que le **package SRS v2 – mises à jour du système d’exploitation** est sélectionné.

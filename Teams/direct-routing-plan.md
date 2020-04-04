@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955723"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140283"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -264,7 +265,7 @@ SIP/TLS|SBC|Proxy SIP|Définie sur l’SBC|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Mécanisme de basculement pour la signalisation SIP
 
-L’SBC crée une requête DNS pour résoudre sip.pstnhub.microsoft.com. Le centre de donnees principal est sélectionné en fonction de l’emplacement de l’SBC et des métriques de performances du centre de donnees. Si le centre de noms principal rencontre un problème, l’SBC essaiera le sip2.pstnhub.microsoft.com, qui est résolu vers le second centre de noms attribué et, dans le cas où les centres de noms de deux régions ne sont pas disponibles, le SBC tente de se servir du dernier nom de domaine complet ( sip3.pstnhub.microsoft.com), qui fournit l’adresse IP du datacenter tertiaire.
+L’SBC crée une requête DNS pour résoudre sip.pstnhub.microsoft.com. Le centre de donnees principal est sélectionné en fonction de l’emplacement de l’SBC et des métriques de performances du centre de donnees. Si le centre de donnes principal rencontre un problème, le SBC essaiera le sip2.pstnhub.microsoft.com, qui se résout au deuxième centre de noms attribué et, dans le cas rares, que les centres de noms dans deux régions ne sont pas disponibles, l’SBC tente de relancer le nom de domaine complet (sip3.pstnhub.microsoft.com), qui fournit l’adresse IP du troisième Datacenter.
 
 Le tableau ci-dessous résume les relations entre les centres de donneaux principal, secondaire et tertiaire :
 

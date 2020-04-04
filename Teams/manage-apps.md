@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229914"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136844"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
@@ -79,13 +79,17 @@ Utilisez les paramètres d’application à l’échelle de l’Organisation pou
     
 2. Sous **applications tierces**, désactivez ou activez ces paramètres pour contrôler l’accès aux applications tierces :
 
-    - **Autoriser les applications tierces dans teams**: ce contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, les utilisateurs ne pourront pas installer ou utiliser d’applications tierces. Pour les applications que vous avez autorisées, l’état indique As **allowed mais Disabled**de l’organisation.
-    
+    - **Autoriser les applications tierces dans teams**: ce contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, les utilisateurs ne pourront pas installer ou utiliser d’applications tierces. Pour les applications que vous avez autorisées, l’état indique As **allowed mais Disabled**de l’organisation.              
+
+        > [!NOTE]
+        > Dans Microsoft 365 Government-déploiement de Microsoft Teams, le paramètre **autoriser les applications tierces dans teams** est désactivé par défaut.
+
+        Lorsque **l’option autoriser les applications tierces dans teams** est désactivée, les [webhook sortants](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) sont désactivés, ce qui signifie que les utilisateurs ne peuvent pas les créer. Lorsque ce paramètre est activé, l’option de raccordements Web sortants est activée pour tous les utilisateurs, qu’il soit activé ou désactivé dans la stratégie d’autorisation de l’utilisateur.
     - **Autorisez toutes les nouvelles applications tierces publiées dans le Windows Store par défaut**: ce contrôle si les nouvelles applications tierces publiées dans le Windows Store sont automatiquement disponibles dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
 3. Sous **applications personnalisées**, désactivez ou activez l’option **autoriser les interactions avec les applications personnalisées**. Ce paramètre détermine si les utilisateurs peuvent interagir avec les applications personnalisées. Pour plus d’informations, consultez [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
 4. Cliquez sur **Enregistrer** pour appliquer les paramètres de l’application à l’échelle de l’organisation.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

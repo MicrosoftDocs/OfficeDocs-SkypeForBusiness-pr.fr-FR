@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: Outre la licence par utilisateur pour les conférences audio standard, les organisations qui utilisent le programme de licence en volume Microsoft peuvent également choisir une proposée à la minute pour activer les fonctionnalités de conférence audio de leur organisation.
-ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: En savoir plus sur l’option de paiement à la minute pour activer les fonctionnalités de l’audioconférence pour les organisations qui utilisent le programme de licence en volume Microsoft.
+ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826282"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139163"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -59,7 +60,7 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
 
 ## <a name="why-is-it-best-for-you"></a>Pourquoi c’est-il préférable pour vous ?
 
-- Les paiements par minute ne seront facturés à la minute de chaque appel entrant ou sortant passé par chaque participant lors d’une réunion planifiée (des tarifs varient pour les appels payants ou gratuits et par destination) au lieu d’utiliser l’application Skype entreprise ou teams dans un appareil mobile. appareil ou PC.
+- Les paiements à la minute ne seront facturés à la minute de chaque participant entrant ou sortant placé par chaque participant lors d’une réunion planifiée (des tarifs varient pour les appels payants ou gratuits et par destination) au lieu d’utiliser l’application Skype entreprise ou teams dans un appareil mobile ou un PC.
 
 - Capacité à gérer les coûts, car les administrateurs peuvent contrôler les types de numérotation (internationale et nationale) qui peuvent être effectués à partir des réunions d’un organisateur. Afficher [les stratégies de restriction des appels sortants pour les conférences audio et les appels RTC des utilisateurs](/microsoftteams/outbound-calling-restriction-policies)
 
@@ -75,13 +76,13 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
 
  **Vous recherchez les prix ?** Découvrez [Comment consulter les prix et acheter des licences de complément](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou l’une des options suivantes :
   
-- [Tarifs pour les conférences audio](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Tarifs de l’Audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Tarifs pour le système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Tarification pour Système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
     
 - [Tarifs de forfaits d'appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
   
 [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
+title: Recommandations en matière d’organisation des équipes
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795757"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136874"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 ======================================================
@@ -40,7 +41,7 @@ Lorsque vous déployez Teams pour la première fois, nous vous recommandons de c
 
 ## <a name="create-channels-to-focus-discussions"></a>Créez des canaux pour orienter les discussions
 
-Après la création de votre équipe, il est recommandé de commencer à réfléchir aux différents projets et types de conversations que vous devez prendre en charge. Créez des canaux initiaux pour que les membres sachent où collaborer et trouver les conversations existantes. Utilisez des noms de canaux descriptifs pour permettre aux membres d’identifier facilement l’emplacement de chaque conversation. Ajoutez des outils (par exemple, OneNote, Power BI ou Planner) sous forme d’onglets à un canal, pour que les membres disposent de tout ce dont ils ont besoin, directement dans le canal. Vous pouvez également ajouter à un canal, sous forme d'onglet, une page web couramment utilisée. 
+Une fois que vous avez créé votre équipe, il est judicieux de commencer à réfléchir aux différents projets et types de conversations que vous devez prendre en charge. Créez des canaux initiaux pour que les membres sachent où collaborer et trouver les conversations existantes. Utilisez des noms de canaux descriptifs pour permettre aux membres d’identifier facilement l’emplacement de chaque conversation. Ajoutez des outils (par exemple, OneNote, Power BI ou Planner) sous forme d’onglets à un canal, pour que les membres disposent de tout ce dont ils ont besoin, directement dans le canal. Vous pouvez également ajouter à un canal, sous forme d'onglet, une page web couramment utilisée. 
 
 En savoir plus sur le [travail en équipe](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) avec ces conseils rapides pour les utilisateurs finaux. 
 

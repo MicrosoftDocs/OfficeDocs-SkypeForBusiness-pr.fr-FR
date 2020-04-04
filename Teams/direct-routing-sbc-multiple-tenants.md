@@ -1,5 +1,5 @@
 ---
-title: Configurer un contrôleur de frontière de session pour plusieurs clients
+title: Configurer le contrôleur de bordure de session-plusieurs clients
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160728"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141087"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -118,8 +119,8 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Ajouter un domaine de base au client et le vérifier
 
-1.  Dans le centre d’administration Microsoft 365, accédez à **configuration** > des**domaines** > **Ajouter un domaine**.
-2.  Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *Customers.adatum.biz*.
+1.    Dans le centre d’administration Microsoft 365, accédez à **configuration** > des**domaines** > **Ajouter un domaine**.
+2.    Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *Customers.adatum.biz*.
 
     ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
 
@@ -128,8 +129,8 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
     ![Capture d’écran montrant la confirmation d’un nom de domaine vérifié](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  Cliquez sur **suivant**, puis, dans la page **mettre à jour les paramètres DNS** , sélectionnez **Ajouter les enregistrements DNS moi-même** , puis cliquez sur **suivant**.
-6.  Sur la page suivante, effacez toutes les valeurs (sauf si vous souhaitez utiliser le nom de domaine pour Exchange, SharePoint ou teams/Skype entreprise), cliquez sur **suivant**, puis sur **Terminer**. Assurez-vous que votre nouveau domaine est dans l’État configuration terminée.
+5.    Cliquez sur **suivant**, puis, dans la page **mettre à jour les paramètres DNS** , sélectionnez **Ajouter les enregistrements DNS moi-même** , puis cliquez sur **suivant**.
+6.    Sur la page suivante, effacez toutes les valeurs (sauf si vous souhaitez utiliser le nom de domaine pour Exchange, SharePoint ou teams/Skype entreprise), cliquez sur **suivant**, puis sur **Terminer**. Assurez-vous que votre nouveau domaine est dans l’État configuration terminée.
 
     ![Capture d’écran montrant les domaines dont l’état d’installation est terminé](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -218,22 +219,22 @@ Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes 
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
 
 Deux nouvelles entités ont été introduites :
--   Un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
--   Trunk dérivé, qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir du Trunk du transporteur. Il dérive de tous ses paramètres de configuration du Trunk de l’opérateur. Le Trunk dérivé ne doit pas nécessairement être créé dans PowerShell et l’association avec le Trunk de transporteur est basée sur le nom de domaine complet (voir les détails ci-dessous).
+-    Trunk dérivé, qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir du Trunk du transporteur. Il dérive de tous ses paramètres de configuration du Trunk de l’opérateur. Le Trunk dérivé ne doit pas nécessairement être créé dans PowerShell et l’association avec le Trunk de transporteur est basée sur le nom de domaine complet (voir les détails ci-dessous).
 
 **Exemple de logique de mise en service et d’exemple**
 
--   Les opérateurs doivent uniquement configurer et gérer un seul Trunk (opérateur Trunk dans le domaine de l’opérateur), à l’aide de la commande Set-CSOnlinePSTNGateway. Dans l’exemple ci-dessus, il s’agit de adatum.biz.
--   Dans le client client, l’opérateur doit uniquement ajouter le nom de domaine complet du Trunk dérivé aux stratégies de routage vocal des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway pour un Trunk.
--    Le Trunk dérivé, tel que le nom l’indique, hérite de tous les paramètres de configuration de l’opérateur Trunk. Donnés
--   Customers.adatum.biz : le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
--   Sbc1.customers.adatum.biz : Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
+-    Les opérateurs doivent uniquement configurer et gérer un seul Trunk (opérateur Trunk dans le domaine de l’opérateur), à l’aide de la commande Set-CSOnlinePSTNGateway. Dans l’exemple ci-dessus, il s’agit de adatum.biz.
+-    Dans le client client, l’opérateur doit uniquement ajouter le nom de domaine complet du Trunk dérivé aux stratégies de routage vocal des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway pour un Trunk.
+-     Le Trunk dérivé, tel que le nom l’indique, hérite de tous les paramètres de configuration de l’opérateur Trunk. Donnés
+-    Customers.adatum.biz : le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
+-    Sbc1.customers.adatum.biz : Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
 -   L’opérateur doit configurer l’enregistrement DNS pour la résolution de nom de domaine complet du Trunk dérivé sur l’adresse IP de l’SBC.
 
--   Les modifications apportées sur un Trunk de transporteur (sur le locataire du transporteur) s’appliquent automatiquement aux troncages dérivés. Par exemple, les opérateurs peuvent modifier un port SIP sur le Trunk du transporteur, et cette modification s’applique à tous les Trunks dérivés. La nouvelle logique de configuration des Trunks simplifie la gestion, car vous n’avez pas besoin d’accéder à chaque client et de changer le paramètre sur chaque Trunk.
--   Les options ne sont envoyées qu’au nom de domaine complet du Trunk du transporteur. L’état d’intégrité du Trunk de transporteur est appliqué à toutes les Trunks dérivées et est utilisé pour les décisions de routage. En savoir plus sur les [options de routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
--   Le porteur peut décharger le Trunk du porteur, et tous les Trunks dérivés seront également drainés. 
+-    Les modifications apportées sur un Trunk de transporteur (sur le locataire du transporteur) s’appliquent automatiquement aux troncages dérivés. Par exemple, les opérateurs peuvent modifier un port SIP sur le Trunk du transporteur, et cette modification s’applique à tous les Trunks dérivés. La nouvelle logique de configuration des Trunks simplifie la gestion, car vous n’avez pas besoin d’accéder à chaque client et de changer le paramètre sur chaque Trunk.
+-    Les options ne sont envoyées qu’au nom de domaine complet du Trunk du transporteur. L’état d’intégrité du Trunk de transporteur est appliqué à toutes les Trunks dérivées et est utilisé pour les décisions de routage. En savoir plus sur les [options de routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-    Le porteur peut décharger le Trunk du porteur, et tous les Trunks dérivés seront également drainés. 
  
 
 **Migration du modèle précédent vers le Trunk de l’opérateur**

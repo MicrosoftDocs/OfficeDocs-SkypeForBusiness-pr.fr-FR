@@ -1,5 +1,5 @@
 ---
-title: Outils et ateliers - Planifier, fournir et adopter Microsoft Teams
+title: Outils & séminaires-plan, fourniture & adopter teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +14,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ac7c61675c04d6d184a3b7fe14b4088f43bd2ef
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 82c1369d724d372e9539f79be7aea10cea706751
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42840108"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137524"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Outils et ateliers : planifier, fournir et adopter Microsoft Teams
 

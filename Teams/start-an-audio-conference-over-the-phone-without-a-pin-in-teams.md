@@ -1,5 +1,5 @@
 ---
-title: Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams
+title: Démarrer une conférence audio par téléphone sans code confidentiel dans teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Découvrez comment empêcher ou autoriser ou empêcher les appelants anonymes à participer à une réunion depuis le Centre d’administration de Teams. '
-ms.openlocfilehash: 87588bc8edfcc4d50b5589339f92f56829ec38ef
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e6e3244a3b2135023d80b9b0df925cc5293244f6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837914"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140827"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams
 

@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 3d035506a15dd4f3f7e5628c8f67f86699cf8085
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: En savoir plus sur la numérotation des numéros gratuits en Turquie, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+ms.openlocfilehash: 0d69feb1b5a4496fef479260ebaa0f96febac6a3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693699"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139723"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>Restrictions de numérotation gratuit en Turquie
 
 [Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
 
 
-|**Détails**|**Description**|
+|**Details**|**Description**|
 |:-----|:-----|
 |Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> |00 800 XXXX XXXXX  <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41693699"
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

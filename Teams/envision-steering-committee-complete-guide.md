@@ -1,5 +1,5 @@
 ---
-title: Comité directeur pour le déploiement de la fonctionnalité vocale dans le cloud de Microsoft Teams
+title: Comité d’orientation pour le déploiement de la voix Cloud
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862985"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136784"
 ---
 # <a name="steering-committee"></a>Comité de direction
 
@@ -30,7 +31,7 @@ Le Comité de direction est un groupe directeur d’acteurs clés et de chefs de
 
 Chaque projet nécessite une vision et une Charte de niveau convenu. Pour fournir les résultats souhaités du projet, la vision doit être clairement définie et surveillée. C’est la responsabilité du Comité de direction : de prendre des décisions, de conseiller, de soumettre un contrôle stratégique, de faire de la part des partisans de l’Organisation des initiatives du projet et, si nécessaire, de supprimer les bloqueurs.
 
-Il est important de réfléchir à la formation de votre organisation. Le Comité doit veiller à ce que le projet soit conforme aux objectifs de l’entreprise que vous avez définis pour la modification de la conduite au sein de l’organisation, à des réunions périodiques pour discuter de l’impulsion actuelle du projet et à éliminer les obstacles rencontrés lors de la déplacement.
+Il est important de réfléchir à la formation de votre organisation. Le Comité doit veiller à ce que le projet soit conforme aux objectifs de l’entreprise que vous avez définis pour la modification de la conduite au sein de l’organisation, à des réunions périodiques pour discuter de l’impulsion actuelle du projet et à éliminer les obstacles rencontrés lors du voyage.
 
 Le Comité devrait définir son Charte pour inclure certains objectifs clés :
 

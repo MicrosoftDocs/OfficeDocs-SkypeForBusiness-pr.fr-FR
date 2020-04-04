@@ -1,5 +1,5 @@
 ---
-title: Modèles d’identité et authentification dans Microsoft Teams
+title: Modèles d’identité et authentification
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022285"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139293"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
@@ -38,7 +39,7 @@ Microsoft Teams prend en charge tous les modèles d'identité disponibles avec 
 <a name="configurations"></a>Configurations
 --------------
 
-En fonction des décisions de votre organisation concernant l'implémentation et l'utilisation du modèle d'identité, la configuration requise peut varier. Consultez le tableau des configurations requises ci-après pour vous assurer que votre déploiement respecte ces conditions. Si vous avez déjà déployé Office 365 et implémenté la méthode d'identité et d'authentification, vous pouvez ignorer ces étapes.
+En fonction des décisions de votre organisation relatives au modèle d’identité à implémenter et à utiliser, les exigences en matière d’implémentation peuvent varier. Référez-vous au tableau exigences ci-dessous pour vous assurer que votre déploiement répond aux conditions préalables suivantes. Si vous avez déjà déployé Office 365 et que vous avez déjà implémenté la méthode d’identité et d’authentification, vous pouvez ignorer ces étapes.
 
 
 |Modèle d'identité |Liste de contrôle du déploiement  |Informations complémentaires  |

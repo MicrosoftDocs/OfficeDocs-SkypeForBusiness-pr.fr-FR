@@ -1,5 +1,5 @@
 ---
-title: Élaborer une stratégie de gestion des modifications pour Microsoft Teams
+title: Créer une stratégie de gestion des modifications
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne.
+description: Créez une stratégie de gestion des modifications pour Microsoft teams en identifiant les principales parties prenantes, les résultats de l’entreprise, les mesures de réussite et la gestion de votre campagne.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824972"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137914"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -63,7 +64,7 @@ La première règle d'une adoption réussie consiste à créer une équipe dynam
 |![Icône Propriétaires de service.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Les **propriétaires de service** sont chargés de s'assurer que les employés utilisent le service et en tirent parti. Il est important de désigner des propriétaires de service dans votre organisation pour assurer la réalisation des objectifs définis pour Office 365.         |
 |![Icône Champions.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtenir l'appui de chaque utilisateur dans une organisation représente un véritable défi. Les **champions** peuvent contribuer à la réussite de ce défi et jouer un rôle important dans l'adoption d'Office 365. Ils disposent de connaissances, sont déterminés à approfondir leurs compétences et sont disposés à offrir un encadrement et une assistance. Ils aident à faire d'Office 365 une réalité dans leur service ou équipe.         |
 
-Nous recommandons d'organiser des réunions périodiques des intervenants pour les tenir informés de l'avancement de votre programme. La formation d'un conseil de collaboration permettant d'échanger et de débattre peut être un outil utile basé sur la culture de votre entreprise.
+Nous vous conseillons de mettre à jour les présentes parties prenantes pour suivre l’avancement de votre programme. Le lancement d’un « Conseil de collaboration » permettant de prendre en charge les commentaires et les discussions peut être un outil utile en fonction de la culture de votre entreprise.
 
 
 

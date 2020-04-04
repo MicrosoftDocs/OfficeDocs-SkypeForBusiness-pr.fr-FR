@@ -1,5 +1,5 @@
 ---
-title: Ajouter le domaine SMTP de Microsoft Teams comme domaine de l’expéditeur accepté dans Exchange Online
+title: Ajouter le domaine SMTP teams en tant que domaine expéditeur autorisé dans Exchange Online
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Apprenez à ajouter le domaine SMTP Microsoft teams en tant que domaine d’expéditeur autorisé dans Exchange Online pour envoyer des notifications aux membres de l’équipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3455c56ab3d51b83d2d5bc27d41824b6fe16ae9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc35a4797cf5b5fde001090e386f9c172c5b9458
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834764"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137264"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Ajouter le domaine SMTP de Microsoft Teams comme domaine de l’expéditeur accepté dans Exchange Online 
 =============================================================================

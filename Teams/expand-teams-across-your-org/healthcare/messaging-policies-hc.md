@@ -1,5 +1,5 @@
 ---
-title: Démarrage avec la messagerie sécurisée pour les organismes de santé
+title: Messagerie sécurisée pour les organisations de santé
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec la messagerie sécurisée pour les organismes de santé
-ms.openlocfilehash: cd200900f70abf9f9e1d6cef049f46139dcff022
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079466"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136984"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
 Les stratégies de messagerie permettent de contrôler les fonctionnalités de messagerie et de messagerie de canal qui sont disponibles pour les utilisateurs de Microsoft Teams, et qui font partie du déploiement global de la messagerie sécurisée pour les établissements de santé tels que les hôpitaux, les cliniques ou les bureaux de médecins, pour lesquels un message est pris en compte et qui sont traités en temps opportun, car il est essentiel de lire les
 
-Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Les utilisateurs de votre organisation obtiennent automatiquement la stratégie globale sauf si vous créez et attribuez une stratégie personnalisée. Une fois que vous avez créé une stratégie personnalisée, attribuez-lui un ou des groupes d’utilisateurs de votre organisation. Par exemple, vous pouvez choisir d’autoriser uniquement certains rôles de poste pour utiliser ces fonctions (par exemple, les médecins et les infirmières uniquement) et d’autres travailleurs (comme le JANITORIAL ou le personnel de cuisine) pour obtenir un ensemble de fonctionnalités plus limité. Déterminez pour vous-même les besoins de votre organisation, et voici une suggestion.
+Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Une fois que vous avez créé une stratégie personnalisée, attribuez-lui un ou des groupes d’utilisateurs de votre organisation. Par exemple, vous pouvez choisir d’autoriser uniquement certains rôles de poste pour utiliser ces fonctions (par exemple, les médecins et les infirmières uniquement) et d’autres travailleurs (comme le JANITORIAL ou le personnel de cuisine) pour obtenir un ensemble de fonctionnalités plus limité. Déterminez pour vous-même les besoins de votre organisation, et voici une suggestion.
 
 Vous pouvez facilement gérer les stratégies dans le [Centre d’administration Microsoft teams](https://admin.teams.microsoft.com) en vous connectant avec les informations d’identification d’administrateur et en choisissant **stratégies de messagerie** dans le volet de navigation gauche.
 

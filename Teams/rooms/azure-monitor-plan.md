@@ -14,18 +14,19 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: Cet article aborde les considérations relatives à la planification de l’utilisation de l’outil de contrôle Azure pour gérer les appareils de salle Microsoft teams dans votre implémentation Skype entreprise ou Teams.
-ms.openlocfilehash: 4fdf5d80b88a973cf1a1132775c7b0cc85e5cc18
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 16a962d7414407cf5f2f5734b7a2f39a56f7d281
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826112"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137604"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planifier la gestion des salles de Microsoft teams avec Azure Monitor
  
  Cet article aborde les considérations en matière de planification de l’utilisation de l’outil de suivi Azure pour administrer les appareils de salle Microsoft teams dans votre implémentation Microsoft teams ou Skype entreprise.
   
-[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) est une collection de services de gestion conçus dans le Cloud à partir du début. Au lieu de déployer et de gérer des ressources locales, les composants de moniteur Azure sont entièrement hébergés dans Azure. La configuration est minime et vous pouvez être opérationnel en quelques minutes. Le fonctionnement de certaines tâches de personnalisation a pour but de vous aider à gérer les systèmes de conférences de Microsoft Teams, en fournissant des notifications en temps réel de l’intégrité du système ou des défauts pour les systèmes de salle individuels et peut évoluer vers la gestion des milliers de Microsoft teams Salles de conférence.
+[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) est une collection de services de gestion conçus dans le Cloud à partir du début. Au lieu de déployer et de gérer des ressources locales, les composants de moniteur Azure sont entièrement hébergés dans Azure. La configuration est minime et vous pouvez être opérationnel en quelques minutes. Le fonctionnement de certaines tâches de personnalisation a pour but de vous aider à gérer les systèmes de conférences de Microsoft Teams, en fournissant des notifications en temps réel de l’intégrité du système ou des défauts pour les systèmes de salle individuels et peut évoluer vers la gestion des milliers d’ateliers de conférence Microsoft Teams.
   
 Cet article présente la configuration requise, la conception et l’architecture ainsi que les meilleures pratiques en matière de mise en œuvre de la gestion d’Azure Monitor des appareils de conférence Microsoft Teams, ainsi que des liens vers des Articles détaillés sur la mise en œuvre de l’analyseur Azure pour les salles Microsoft teams et des informations de référence critiques pour la surveillance en continu des salles de réunion Microsoft 
   

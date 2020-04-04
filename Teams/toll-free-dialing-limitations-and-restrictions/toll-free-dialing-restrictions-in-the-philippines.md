@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 8f22dd254a17d690a03822ceca2dbda583441d04
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: En savoir plus sur la numérotation des numéros gratuits aux Philippines, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+ms.openlocfilehash: 4d38c75a002733fda1874a7aba3a5a1d08a85ba0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680751"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139753"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Restrictions de numérotation gratuit aux Philippines
 
 [Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
 
 
-|**Détails**|**Description**|
+|**Details**|**Description**|
 |:-----|:-----|
 |Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> |1 800 XXXX XXXX  <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41680751"
 |Disponibilité de réseau mobile  <br/> |Partiel mais à tarif surtaxé. Voir les commentaires.  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Disponible via les réseaux Sun Cellular et Smart Mobile.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Découvrez les étapes nécessaires à la configuration des événements en direct dans Teams, y compris la préparation de votre réseau, l’attribution de licences, l’utilisation de stratégies pour activer les fonctionnalités d’événement en direct et la planification pour les utilisateurs et la configuration d’un fournisseur de distribution tiers.
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: Configurez des événements en direct dans Teams, y compris la configuration de votre réseau, l’attribution de licences, l’activation de fonctionnalités d’événement en direct et de solutions de distribution vidéo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558574"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140563"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -82,8 +82,8 @@ Vous pouvez également affecter une stratégie d’événements en direct à un 
 ![Icône affichant le logo Microsoft teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
 1. Accédez à **réunions** > **Live Events**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **gérer les utilisateurs**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
+3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
  
@@ -114,7 +114,7 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 - **RAMP OmniCache** fournit une distribution réseau nouvelle génération et garantit une remise transparente du contenu vidéo sur les réseaux WAN généraux, permettant aux producteurs d’événements d’optimiser la bande passante du réseau et de prendre en charge les diffusions d’événement en direct et la diffusion à la demande. La prise en charge de RAMP OmniCache pour les événements en direct produits dans teams sera bientôt prise en charge. [Apprenez-en davantage](http://www.ramp.com). 
  
 > [!NOTE] 
-> Votre solution SDN ou eCDN sélectionnée est soumise aux **conditions générales de service et à la politique de confidentialité du prestataire**tiers, qui régit l’utilisation de la solution du fournisseur. Votre utilisation de la solution du fournisseur ne sera pas soumise aux termes du contrat de licence en volume Microsoft ou des services en ligne. Si vous n’êtes pas d’accord avec les **conditions du fournisseur**tiers, n’activez pas la solution dans Teams. 
+> Votre solution SDN ou eCDN sélectionnée est soumise aux **conditions générales de service et à la politique de confidentialité du prestataire**tiers, qui régissent votre utilisation de la solution du fournisseur. Votre utilisation de la solution du fournisseur ne sera pas soumise aux termes du contrat de licence en volume Microsoft ou des services en ligne. Si vous n’êtes pas d’accord avec les **conditions du fournisseur**tiers, n’activez pas la solution dans Teams. 
 
 Après avoir configuré la solution SDN ou eCDN, vous pouvez configurer le fournisseur pour les événements en direct dans Teams. 
 
@@ -124,5 +124,4 @@ Accédez à [configurer les paramètres des événements en direct dans teams](c
 ### <a name="related-topics"></a>Sujets associés
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
-- [Configurer les paramètres des événements en direct dans teams](configure-teams-live-events.md)
-
+- [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md)

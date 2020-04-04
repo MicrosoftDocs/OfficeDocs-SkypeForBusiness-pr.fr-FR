@@ -1,5 +1,5 @@
 ---
-title: Présentation de la sécurité et de la conformité dans Microsoft Teams
+title: Présentation de la sécurité et de la conformité
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117422"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139093"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -143,6 +144,10 @@ Pour obtenir d’autres informations spécifiques aux équipes sur la configurat
 ### <a name="auditing-and-reporting"></a>Audit et rapports
 
 La recherche dans le journal d’audit s’ouvre directement dans le centre de sécurité & de conformité Office 365 et vous permet de définir des alertes, ainsi que de signaler des événements d’audit, en autorisant l’exportation des jeux d’événements spécifiques ou génériques de charge de travail pour l’utilisation d’administration au sein d’une timeline d’audit illimité. Vous pouvez configurer des alertes pour toutes les données du journal d’audit au sein du centre de & sécurité et de la conformité Office 365, et filtrer et exporter ces données pour une analyse plus approfondie. Reportez-vous à la rubrique [Rechercher dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour en savoir plus sur la réalisation d’un journal d’audit pour O365. Pour en savoir plus sur la recherche d’événements Microsoft teams dans le centre de & sécurité et conformité Office 365, nous avons également la [fonction d’audit dans teams](audit-log-events.md) .
+
+## <a name="privacy"></a>Confidentialité
+
+Chez Microsoft, la protection de vos données est notre priorité la plus élevée. Pour en savoir plus sur notre politique de confidentialité, lisez la [déclaration de confidentialité de Microsoft](https://www.microsoft.com/trust-center/privacy).
 
 ## <a name="information-protection-architecture"></a>Architecture de protection des informations
 

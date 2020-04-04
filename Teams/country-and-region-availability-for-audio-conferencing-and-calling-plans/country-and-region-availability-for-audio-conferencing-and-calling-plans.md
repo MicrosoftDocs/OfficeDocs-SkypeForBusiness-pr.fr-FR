@@ -1,5 +1,5 @@
 ---
-title: Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
+title: Disponibilité du pays/de la région-audioconférence-audioconférence, plans d’appel
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,13 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: Vous pouvez sélectionner un pays ou une région pour voir si l'audioconférence, le système téléphonique, les forfaits d'appel, les crédits de communications et si les numéros de téléphone gratuits et payants sont disponibles.
-ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: En savoir plus sur les appels audio et vidéo, les plans d’appel, les crédits de communications et les numéros de téléphone gratuits et payants disponibles dans un pays ou une région.
+ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682521"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141057"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 

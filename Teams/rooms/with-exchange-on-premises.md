@@ -10,17 +10,19 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838184"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141007"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 

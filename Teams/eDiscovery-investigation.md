@@ -1,5 +1,5 @@
 ---
-title: Mener une recherche eDiscovery de contenu dans Microsoft Teams
+title: Conduire une étude eDiscovery du contenu
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,13 @@ f1.keywords:
 description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer une découverte électronique, comme lorsque vous avez besoin de transmettre toutes les informations stockées électroniquement à des fins juridiques.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 315ec351450224dc8d5b98dc0d974b64573bc0ab
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 955fbf6ba937ca0fc11270cb58c12a0349d46330
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033268"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136684"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -95,6 +96,6 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
 
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche eDiscovery.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

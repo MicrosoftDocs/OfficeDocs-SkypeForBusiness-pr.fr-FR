@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: En savoir plus sur la numérotation des numéros gratuits dans un pays ou une région, y compris disponibilité, connexion filaire/fixe et disponibilité du réseau mobile et restrictions.
+ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836904"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140553"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant l’appel de numéros verts
 
@@ -43,7 +44,7 @@ Si vous êtes prêt, sélectionnez un pays ou une région :
 > - [Bélarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Belgique](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
-> - [Bosnia and Herzegovina (Bosna i Hercegovina)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
+> - [Bosnie-Herzégovine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [Brésil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [Brunei](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Bulgarie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)

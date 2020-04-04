@@ -1,5 +1,5 @@
 ---
-title: Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
+title: Recommandations en matière de méthodes de commentaires des utilisateurs
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826202"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136884"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 ===========================================================
@@ -38,4 +39,4 @@ Les méthodes de demande de commentaires axées sur la communauté requièrent l
 <a name="showcases"></a>Démonstration
 ---------
 
-À mesure que vous poursuivez votre progression, vous trouverez des démonstrations dans votre environnement d'employés dont la créativité avec Microsoft Teams vous surprendra agréablement. Nous vous recommandons de les partager avec le plus grand nombre. Cela motivera les autres utilisateurs à innover, éduquera ceux qui commencent tout juste à adopter le produit et récompensera ceux qui ont pris le temps de réfléchir au meilleur moyen d'utiliser Microsoft Teams dans leur environnement. Définir un objectif mesurable pour identifier un ensemble de démonstrations par trimestre peut s'avérer utile pour conserver votre lancée vers l'adoption.
+À mesure que vous continuez dans le cadre de cette étape, vous allez découvrir des présentation dans votre propre environnement d’employés dont Microsoft teams se étonne et vous enchanta. Nous vous recommandons de partager ces Showcase à grande échelle. Ainsi, vous encouragez les utilisateurs à s’innover, à éduquer les utilisateurs qui se trouvent dans la courbe d’adoption et à récompenser les personnes ayant pris le temps de réfléchir à la meilleure utilisation de Microsoft teams dans leur environnement. La définition d’un objectif mesurable d’identification d’un nombre défini de Showcase chaque trimestre est utile pour la conservation de votre dynamisme d’adoption.

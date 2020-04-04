@@ -1,5 +1,5 @@
 ---
-title: Évaluer votre environnement pour les charges de travail des fonctionnalités vocales de Microsoft Teams dans le cloud
+title: Évaluez votre environnement pour les charges de travail vocales sur le Cloud
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825072"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137984"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -42,7 +43,7 @@ Vous devez incorporer ces informations dans le registre de risques.
 
 ## <a name="current-environment"></a>Environnement actuel
 
-Dans le cadre de votre découverte environnementale, incluez toutes les informations relatives à l’utilisation de l’utilisateur final, par exemple, l’évaluation de la compatibilité des PC et des appareils mobiles pour la prise en charge de l’audioconférence et du système téléphonique pour les appels de plan d’utilisation pour les entreprises. configuration logicielle requise.
+Dans le cadre de votre découverte environnementale, incluez toutes les informations relatives à l’utilisation de l’utilisateur final, par exemple, l’évaluation de la compatibilité des PC et des appareils mobiles pour la prise en charge de l’audioconférence et du système téléphonique en fonction de la configuration logicielle requise pour les entreprises.
 
 La découverte environnementale peut également vous indiquer si vous avez besoin de [transférer des numéros de téléphone vers Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 Le fait de savoir que cela aidera votre organisation à ajuster son plan de projet en conséquence et à préparer les informations nécessaires au transfert de numéro. Vous pouvez utiliser la [découverte environnementale pour le lancement de Microsoft teams](environmental-discovery-for-microsoft-teams-rollout.md) pour effectuer une découverte environnementale.
@@ -114,16 +115,16 @@ La première étape de préparation du réseau consiste à s’assurer que votre
 
 De nombreux réseaux ont été conçus pour utiliser une topologie de hub et parlée. Dans cette topologie, le trafic Internet traverse généralement le WAN jusqu'à un centre de données central avant qu'il n'émerge (sorties) vers Internet. Souvent, cela est fait pour centraliser les dispositifs de sécurité du réseau dans le but de réduire les coûts globaux.
 
-Relayer le trafic sur le WAN augmente la latence et a un impact négatif sur la qualité et l'expérience utilisateur. Comme Microsoft Teams fonctionne sur le vaste réseau mondial de Microsoft, il existe souvent un emplacement réseau de pairage à proximité de l'utilisateur. Un utilisateur obtiendra probablement de meilleures performances en sortant d'un point Internet local près de son emplacement et sur notre réseau à voix optimisée dès que possible. Pour certaines charges de travail, les requêtes DNS sont utilisées pour envoyer du trafic vers le serveur frontal le plus proche. Dans de tels cas, il est important que lors de l'utilisation d'un point d'évacuation local, il soit couplé avec la résolution DNS locale.
+Relayer le trafic sur le WAN augmente la latence et a un impact négatif sur la qualité et l'expérience utilisateur. Étant donné que Microsoft teams s’exécute sur le grand réseau mondial de Microsoft, il y a souvent un emplacement d’homologation réseau proche de l’utilisateur. Un utilisateur obtiendra probablement de meilleures performances en sortant d'un point Internet local près de son emplacement et sur notre réseau à voix optimisée dès que possible. Pour certaines charges de travail, les requêtes DNS sont utilisées pour envoyer du trafic vers le serveur frontal le plus proche. Dans ces cas, il est important que lors de l’utilisation d’un point de sortie local, il soit associé à la résolution DNS locale.
 
-L'optimisation du chemin d'accès au réseau mondial de Microsoft améliorera les performances et, en fin de compte, offrira la meilleure expérience aux utilisateurs. Pour plus de détails, voir l'article du blog [Obtenir la meilleure connectivité et les meilleures performances dans Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+L’optimisation du chemin réseau du réseau global de Microsoft permet d’améliorer les performances et de garantir une meilleure utilisation pour les utilisateurs. Pour plus de détails, voir l'article du blog [Obtenir la meilleure connectivité et les meilleures performances dans Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 ### <a name="vpn"></a>VPN
 
 Les VPN fournissent un service de valeur à de nombreuses organisations. Malheureusement, il n’est généralement pas conçu ou configuré pour prendre en charge les contenus multimédias en temps réel. Certains VPN peuvent également ne pas prendre en charge UDP. Les réseaux privés virtuels introduisent également une couche supplémentaire de chiffrement au-dessus du trafic multimédia déjà crypté. Par ailleurs, la connectivité au service teams peut ne pas être efficace en raison du trafic d’épinglage par le biais d’un appareil VPN.
 Par ailleurs, elles ne sont pas nécessairement conçues à partir d’un point de vue de la capacité pour s’adapter aux efforts prévus qui seront nécessaires aux équipes.
 
-La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. C’est communément connu sous le nom de *VPN de tunneling scindé*. Le tunneling fractionné signifie que le trafic destiné à Office 365 ne traverse pas le VPN, mais qu’il accède directement à Office 365. Ce changement aura un impact positif sur la qualité, mais aussi l'avantage secondaire de réduire la charge des dispositifs VPN et du réseau de l'organisation.
+La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. C’est communément connu sous le nom de *VPN de tunneling scindé*. Le tunneling fractionné signifie que le trafic destiné à Office 365 ne traverse pas le VPN, mais qu’il accède directement à Office 365. Ce changement aura un impact positif sur la qualité, mais fournit également l’avantage secondaire de réduire la charge des appareils VPN et du réseau de l’organisation.
 
 Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour les détails de configuration.
 
@@ -155,7 +156,7 @@ L’ouverture de ces ports est essentielle pour un déploiement d’équipes fia
 Si votre organisation nécessite que vous spécifiiez les plages d’adresses IP et les domaines exacts auxquels ces ports doivent être ouverts, vous pouvez limiter les plages d’adresses IP cibles et les domaines pour ces ports. Pour obtenir la liste des ports, protocoles et plages d’adresses IP exacts, voir [URL et plages d’adresses IP Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 Si vous choisissez de limiter les plages d’adresses IP et les domaines cibles, vous devez veiller à ce que la liste des ports et des plages soit à jour, car elles peuvent changer. Vous pouvez vous abonner à [ce flux RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) pour être mis à jour lorsque des modifications se produisent. Il est également recommandé de tester si tous les ports sont ouverts en exécutant l' [outil d’évaluation du réseau Skype entreprise](https://www.microsoft.com/download/details.aspx?id=53885) régulièrement. Vous pouvez en savoir plus sur les fonctionnalités de cet outil dans la section suivante.
 
-Dans le cas d’un serveur proxy déployé, nous vous recommandons de ne pas utiliser le serveur proxy pour tous les services Teams. Bien que l’utilisation d’un proxy puisse fonctionner, il est très probable que la qualité soit réduite en raison de l’utilisation forcée du protocole TCP au lieu du protocole UDP. Pour plus d’informations sur les serveurs proxy et la contournement, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+Dans le cas d’un serveur proxy déployé, nous vous recommandons de ne pas utiliser le serveur proxy pour tous les services Teams. Bien que l’utilisation d’un proxy puisse fonctionner, il est très probable que la qualité soit réduite en raison d’un contenu multimédia forcé d’utiliser le protocole TCP au lieu du protocole UDP. Pour plus d’informations sur les serveurs proxy et la contournement, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 

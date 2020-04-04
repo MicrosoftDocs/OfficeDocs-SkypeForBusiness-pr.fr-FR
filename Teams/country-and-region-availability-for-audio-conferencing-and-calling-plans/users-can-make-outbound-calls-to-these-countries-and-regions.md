@@ -1,5 +1,5 @@
 ---
-title: Les utilisateurs peuvent passer des appels sortants vers ces pays et ces régions
+title: Passer des appels sortants vers les pays/régions suivants
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,14 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- seo-marvel-mar2020
 description: Cette rubrique contient tous les pays et régions auxquels les utilisateurs peuvent passer des appels sortants s'ils ont un forfait d'appels.
-ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982127"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141047"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Les utilisateurs peuvent passer des appels sortants vers ces pays et ces régions
 

@@ -1,5 +1,5 @@
 ---
-title: Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
+title: Ajout, modification et suppression d’emplacements d’urgence
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
-ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ec834592e6978c2e2b63810ea25eb7e837513dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695827"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141267"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -40,7 +41,7 @@ Pour plus d’informations sur la façon d’obtenir un plan d’appels et son c
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
-   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre qu’il est nécessaire d’activer un numéro de téléphone dans Office 365, l’adresse définie à l’emplacement d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre au numéro de téléphone. indicatif régional.
+   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre qu’il est nécessaire d’activer un numéro de téléphone dans Office 365, mais que l’adresse définie au lieu d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre à l’indicatif de la région du numéro de téléphone.
 5. Si l’adresse est introuvable et que vous voulez modifier manuellement l’adresse, activez la case à cobesoin **modifier le formulaire d’adresse manuellement si vous ne trouvez pas l’adresse**.
 6. Cliquez sur **Enregistrer**.
     
@@ -59,7 +60,7 @@ Pour plus d’informations sur la façon d’obtenir un plan d’appels et son c
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **emplacements** > d'**urgence**.
 2. Dans la liste, sélectionnez l’emplacement que vous voulez supprimer, puis cliquez sur **supprimer** .
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 -[Quels sont les emplacements d’urgence, les lieux et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)

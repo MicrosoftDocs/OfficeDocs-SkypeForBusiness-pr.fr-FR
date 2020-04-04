@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Apprenez-en davantage sur la spécification de l’interface DSTU2 dans Teams, notamment la configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153816"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136954"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
@@ -175,7 +176,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/condition ? patient =<patient-ID>&_count = 10
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "condition", "ID" : "<-ID de ressource-ID>", "code" : {"Coding" : [{"System"http://snomed.info/sct: "", "code" : "386033004", "Display" : "« syst" », "Display" : "2018-09-17", "dateRecorded", "" : "", "gravité" em " :"http://snomed.info/sct"," code " :" 24484000 "," Display " :" sévère "}]}}})}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "condition", "ID" : "<-ID>", "code" : {"Coding" : [{"System" : "http://snomed.info/sct", "code" : "386033004", "Display" : "neuropathie (dommage nerveux)"}]}, "dateRecorded" : "2018-09-17", "gravité" : {"codage" : [{"système" : "http://snomed.info/sct", "code" : "24484000", "Display" : "sévère"}]}}})}
 
 * * *
 
@@ -204,7 +205,7 @@ L’objectif est de pouvoir récupérer le dernier emplacement connu du patient.
 
     Demande : obtenez <fhir-Server>/Encounter ? patient =<patient-ID>&_sort :d Échap = date&_count = 1
     
-    Réponse : {"ResourceType" : "bundle", "type" : "searchset", "total" : 1, "entrée" : [{"Resource" : "" ResourceType "=", "'ID" : "<-ID>", "identificateur" : [{"use" : "Official", "value" : ""<id>}], "Status" : "incomplet", "type" : [{"code" : [{"Display" : "rendez-vous"}],}], "patient" : "09/17/2018 1:00:00" = "patient/<patient-ID>              "location" : {"Display" : "Clinic-ENT"}})}
+    Réponse : {"ResourceType" : "bundle", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"ResourceType" : "rencontre", "identifiant" : "<-ID>", "identificateur" : [{"utiliser" : "officiel", "valeur" Status<id>" :" incomplet "," type " : [{" Coding " : [{" Display " :" rendez-vous "}],})," patient " : {" Réf "<>"}, "période" : {"début" : "09/17/2018 1:00:00 PM"}; "lieu" : [{"lieu" : {"Display" : "Clinic-ent"}})}
 
 * * *
 
@@ -236,7 +237,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/AllergyIntolerance ? patient =<patient-ID>
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"Resource" : "" resourceType " :" AllergyIntolerance "," ID " :" <> d’ID de ressource "," recordedDate " :" 2018-09-17T07:00:00.000 Z "," substance " : {" texte " :" Cashew écrous "}," État " :" confirmé "," réaction " : [{" substance " : {" texte " :" Cashew d’extraction allergique sur " : [{" texte " :" réaction anaphylactic "}]}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entry" : "AllergyIntolerance", "ID" : "<-ID>", "recordedDate" : "" 2018-09-17T07:00:00.000 Z "," substance " : {" texte " :" Cashew écrous "}," statut " :" confirmé "," réaction " : [{" substance " : {" texte " :" Cashew d’écrou d’écrou allergique "}," manifeste " : [{" texte " :" anaphylactic réaction "}]}]}}]}
 
 * * *
 

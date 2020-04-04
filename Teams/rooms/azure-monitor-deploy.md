@@ -1,6 +1,5 @@
 ---
 title: Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit le déploiement de la gestion des appareils Microsoft teams salles de manière intégrée et complète grâce à l’utilisation de moniteur Azure.
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417539"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137644"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Déploiement :::no-loc text="Microsoft Teams Rooms"::: de la gestion avec:::no-loc text="Azure Monitor":::
 
@@ -416,7 +415,7 @@ Lors de la génération d’une alerte, vous recevez un courrier électronique q
 ! [Exemple :::no-loc text="Azure Monitor"::: de message d’alerte] (.. /media/Deploy-Azure-Monitor-6.png "message :::no-loc text="Azure Monitor"::: d’alerte")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Configurer tous les appareils pour:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a> Une fois les tableaux de bord et les alertes configurés, vous pouvez configurer :::no-loc text="Microsoft Monitoring"::: et configurer l' :::no-loc text="Microsoft Teams Rooms"::: agent sur tous les appareils pour terminer le déploiement de votre analyse.
+<a name="configure_all_devices"> </a> Une fois les tableaux de bord et les alertes configurés, vous pouvez configurer :::no-loc text="Microsoft Monitoring"::: et configurer l' :::no-loc text="Microsoft Teams Rooms"::: agent sur tous les appareils pour terminer le déploiement de votre analyse.
 
 Même si vous pouvez installer et configurer :::no-loc text="Microsoft Monitoring"::: l’agent manuellement sur chaque appareil, nous vous conseillons vivement d’utiliser les outils et méthodes de déploiement de logiciels existants.
 

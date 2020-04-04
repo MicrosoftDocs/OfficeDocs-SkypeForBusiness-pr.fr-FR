@@ -1,5 +1,5 @@
 ---
-title: Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
+title: Découvrir comment configurer les appareils photo de contenu-Microsoft teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: Utilisez une caméra de contenu dans une salle de Microsoft Teams, qui interagit avec un logiciel de traitement d’image pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824532"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137624"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -86,7 +87,7 @@ Pour plus d’informations, consultez la rubrique Marketplace Microsoft teams Ma
 
 Une fois la caméra installée dans la salle, configurez-la sur la console Microsoft teams salles de cette salle :
 
-1. Sélectionnez **** ![l’icône](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)paramètres des paramètres, connectez-vous en tant qu’administrateur, puis sélectionnez Paramètres de l' **appareil**.
+1. Sélectionnez **Settings** ![l’icône](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)paramètres des paramètres, connectez-vous en tant qu’administrateur, puis sélectionnez Paramètres de l' **appareil**.
 2. Dans la section **valeurs par défaut de l’appareil photo** , sélectionnez l’appareil photo de contenu et assurez-vous que l’option **améliorations du contenu** est sélectionnée.
 3. Facultatif Si la caméra a été installée à l’envers, car la caméra a été montée à partir du plafond, activez l’option **faire pivoter l’appareil photo 180 °** .
 4. Sélectionnez **enregistrer et quitter**.

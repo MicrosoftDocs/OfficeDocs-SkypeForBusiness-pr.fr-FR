@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Apprenez-en davantage sur la spécification de l’interface STU3 dans Teams, notamment la configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147697"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141197"
 ---
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
 
@@ -221,7 +222,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/AllergyIntolerance ? patient =<patient-ID>
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "AllergyIntolerance", "ID" : "<-ID de ressource-ID>", "clinicalStatus" : "actif", "verificationStatus" : "", "" : {"," code " :" N0000175503 "http://rxnav.nlm.nih.gov/REST/Ndfrt," "," code " :" "," "," code " ibacterial "}," assertedDate " :" 2018-01-01T00:00:00-07:00 "," réaction " : [{" de manifeste " : [{" code " : [{" System " :"http://snomed.info/sct"," code " :" 271807003 "," Display " :" Skin rash ",}]," Text " :" Skin rash "}})}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType", "AllergyIntolerance", "ID" : "<-ID>", "clinicalStatus" : "actif", "verificationStatus" : "confirmé", "code" : {"http://rxnav.nlm.nih.gov/REST/Ndfrtcode" : "", "code" : "N0000175503", "Display" : "sulfonamide antibactérienne",}], "texte" : "sulfonamide antibactérienne"}, "assertedDate" : "2018-01-01T00:00:00-07:00", "réaction" : [{"se manifester" : [{"codage" : [{"système" : "http://snomed.info/sct", "code" : "271807003", "Display" : "Skin rash",}), "Text" : "Skin rash"}]
 
 * * *
 

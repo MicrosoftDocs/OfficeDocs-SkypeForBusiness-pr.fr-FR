@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver les annonces d'entrée et de sortie des réunions dans Microsoft Teams
+title: Activer ou désactiver les annonces d’entrée et de sortie des réunions dans Microsoft teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Découvrez comment activer et désactiver les annonces d’entrée et de sortie dans une réunion Microsoft Teams. '
-ms.openlocfilehash: 8deb53145c95f9a370e894083de8e998b50fa9ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 558146853c7365a1eac9fdd2497326781889cf09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832604"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139683"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activer ou désactiver les annonces d'entrée et de sortie des réunions dans Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Effectuer une mise à niveau vers teams à partir d’un déploiement local de Skype entreprise-Microsoft teams
+title: Mise à niveau de Skype Entreprise local vers Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Remarques concernant la mise à niveau vers teams à partir d’un déploiement local de Skype entreprise.
+description: Déploiement et mise en œuvre de votre mise à niveau vers teams via Skype entreprise Server ou déploiement local de Microsoft Lync.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706674"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139623"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Mise à niveau de Skype entreprise local vers teams
 
@@ -43,7 +45,7 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 Si vous avez déployé Skype entreprise Server ou Microsoft Lync local et que votre organisation souhaite procéder à la mise à niveau vers Teams, suivez les recommandations de cet article. Vous devez configurer une connectivité hybride avec votre client Office 365 et définir les exigences de coexistence si vous migrez vos utilisateurs vers équipes par phases. 
 
 > [!IMPORTANT]
-> Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.
+> Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Étape 1 : configurer la connectivité hybride 
 

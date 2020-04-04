@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: f218dbd5c1c5593530efe266b85c8337960971e2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: En savoir plus sur la numérotation des numéros gratuits au Mexique, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+ms.openlocfilehash: ab4540cb2c311ca0e869e60f1a638f4d0517c06b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682391"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140323"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>Restrictions de numérotation gratuit au Mexique
 
 [Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
 
 
-|**Détails**|**Description**|
+|**Details**|**Description**|
 |:-----|:-----|
 |Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> | 001 800 XXX XXXX <br/>  01 800 XXX XXXX <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41682391"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |L'accès n'est pas garanti via les roamers internationaux.  <br/> Pour le format de numéro 001-800 : Pour l'accès fixe - Telmex. Pour l'accès mobile - Telcel uniquement. Le temps d'accès est facturé. Aucun frais supplémentaire si le client final est doté de Telmex comme fournisseur local et longue distance.  <br/> Pour le format de numéro 01-800 : Le temps d'accès mobile est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Afficher, modifier et réinitialiser l'ID de conférence attribué à un utilisateur dans Microsoft Teams
+title: Affichage, modification et réinitialisation de l’ID de conférence d’un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez comment attribuer un ID de conférence dans Microsoft Teams et quels sont les paramètres d’ID de conférence obligatoires. '
-ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Découvrez comment attribuer un ID de conférence à un utilisateur dans Microsoft teams et quels sont les paramètres d’ID de conférence.
+ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838134"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140937"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Afficher et réinitialiser l'ID de conférence attribué à un utilisateur dans Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Numéros de téléphone pour l’audioconférence dans Microsoft Teams
+title: Numéros de téléphone pour l’audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- seo-marvel-mar2020
 description: Cette section présente les pays et régions qui ont des numéros de conférence rendez-vous et explique comment ils sont attribués automatiquement.
-ms.openlocfilehash: e7a9d67bfb843e65721ebbd18b03b48aca8a24f0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836874"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137854"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
@@ -60,7 +61,7 @@ Des numéros de téléphone d’audioconférence partagés sont attribués autom
 Pour voir une liste des pays/régions qui ont des numéros de téléphone automatiquement affectés aux organisations, voir [Disponibilité par pays et par région de l'Audioconférence et des Plans d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Vous pouvez trouver l’emplacement du pays ou de la région de votre organisation en vous connectant au **Centre d’administration 365 Microsoft** et en regardant sous profil de l' **organisation**. 
+> Vous trouverez l'emplacement du pays ou de la région de votre organisation en vous connectant au **Centre d'administration Microsoft 365** et en regardant sous **Profil de l’organisation**. 
   
 > [!CAUTION]
 > En raison de la disponibilité limitée des numéros gratuits au Venezuela, en Indonésie et aux Émirats Arabes Unis, les organisations situées dans ces pays/régions ne se verront pas attribuer automatiquement un numéro gratuit d’audioconférence. Des numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 

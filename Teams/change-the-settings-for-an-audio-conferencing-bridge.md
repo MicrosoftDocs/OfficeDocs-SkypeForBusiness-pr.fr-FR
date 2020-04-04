@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: 'Découvrez les étapes dont vous avez besoin pour modifier les paramètres d’un pont de conférence qui est utilisé pour inviter les appelants et rassembler des noms et des codes confidentiels pour les organisateurs de la réunion lorsque ces derniers n’utilisent pas les applications Skype entreprise ou Microsoft Teams. '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Modifiez les paramètres du pont de conférence audio, y compris les notifications d’entrée et de sortie, les noms de téléphone ou les numéros de téléphone, les tonalités et les appels d’invites pour enregistrer leur nom.
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825112"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139083"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
@@ -42,7 +43,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
 1. Dans le volet de navigation de gauche, accédez à **conférences** > **conférences.** 
 
@@ -67,7 +68,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 6. Cliquez sur **Enregistrer**. 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Icône illustrant le logo Skype entreprise](media/sfb-logo-30x30.png)  Utilisation du centre d'administration Skype Entreprise
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Icône illustrant le logo Skype entreprise](media/sfb-logo-30x30.png)  Utilisation du centre d'administration Skype Entreprise
 
  **Configurer l’interface de réunion lorsque les appelants rejoignent une réunion**
     
@@ -133,7 +134,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

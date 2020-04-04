@@ -1,5 +1,5 @@
 ---
-title: Planifier les appels d’urgence, les adresses d’urgence, le routage des appels d’urgence, les appels d’urgence dynamiques
+title: Planifier et gérer les appels d’urgence
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161687"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141027"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -91,7 +92,7 @@ Les appels d’urgence dynamiques pour les plans d’appel Microsoft offrent la 
 
 Pour l’instant, seules les utilisateurs de plan d’appels aux États-Unis peuvent tirer parti d’emplacements dynamiques pour le routage des appels d’urgence comme suit :
 
-- Si un client teams pour une offre d’appels vers les États-Unis acquiert de manière dynamique une adresse d’urgence aux États-Unis, cette adresse est utilisée pour le routage d’urgence au lieu de l’adresse enregistrée, et l’appel est automatiquement acheminé vers le PSAPI dans le zone de réservation de l’adresse.
+- Si un client teams pour une offre d’appels vers les États-Unis acquiert dynamiquement une adresse d’urgence à l’intérieur des États-Unis, cette adresse est utilisée pour le routage d’urgence au lieu de l’adresse enregistrée, et l’appel est automatiquement acheminé vers le PSAPI dans la zone de service de l’adresse.
 
 - Si un client teams pour un membre d’un plan d’appels aux États-Unis n’achète pas dynamiquement une adresse d’urgence aux États-Unis, l’adresse d’urgence enregistrée est utilisée pour vous permettre d’effectuer un écran et de diriger l’appel. Toutefois, l’appel s’affiche pour déterminer si une adresse mise à jour est requise avant de connecter l’appelant au PSAPI approprié.
 
@@ -179,7 +180,7 @@ Pour plus d’informations, reportez-vous à la rubrique [contrôle de bordure d
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>Applications d’identification d’emplacement d’urgence (ELIN)
 
-Les contrôleurs de frontière de session (SBCs) peuvent inclure des applications d’identification d’emplacement d’urgence (ELIN). Si une application SBC ELIN est intégrée à un déploiement de routage direct, vous devez configurer les adresses d’urgence et les numéros de téléphone associés dans l’application ELIN, puis télécharger les enregistrements ELIN dans la base de données d’appel d’urgence du RTC correspondant .  Les emplacements d’urgence des équipes avec un identificateur ELIN doivent correspondre à ceux de l’application ELIN.
+Les contrôleurs de frontière de session (SBCs) peuvent inclure des applications d’identification d’emplacement d’urgence (ELIN). Si une application SBC ELIN est intégrée à un déploiement de routage direct, vous devez configurer les adresses d’urgence et les numéros de téléphone associés dans l’application ELIN, puis télécharger les enregistrements ELIN dans la base de données d’appel d’urgence du RTC correspondant.  Les emplacements d’urgence des équipes avec un identificateur ELIN doivent correspondre à ceux de l’application ELIN.
 
 Lorsqu’un appel d’urgence avec un emplacement acquis dynamiquement est routé vers l’SBC appropriée, l’application ELIN :
 
@@ -210,7 +211,7 @@ Un TeamsEmergencyCallingPolicy peut être accordé à un compte d’utilisateur 
 Au cours d’un appel d’urgence, un support technique est retenu dans le cadre de l’appel et l’utilisateur du support technique est contrôlé en fonction du TeamsEmergencyCallingPolicy. Une discussion de groupe est lancée pour chaque membre du support technique et l’emplacement de l’appelant d’urgence est partagé par le biais d’une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du support technique peut également être appelé dans le cadre de la Conférence.
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)

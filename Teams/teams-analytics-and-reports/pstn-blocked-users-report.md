@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Découvrez comment utiliser le rapport sur les utilisateurs bloqués RTC dans le centre d’administration de Microsoft teams pour obtenir une vue d’ensemble des utilisateurs de teams de votre organisation qui ne peuvent pas passer d’appels RTC.
+description: Utilisez le rapport RTC blocage des utilisateurs dans le centre d’administration de Microsoft teams pour obtenir une vue d’ensemble des utilisateurs d’équipes de votre organisation qui ne peuvent pas passer d’appels RTC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ef4dfbab2b32b088c8e2f8b38b55c15a66eb32
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827342"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140685"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Rapport sur les utilisateurs bloqués RTC de Microsoft teams
 

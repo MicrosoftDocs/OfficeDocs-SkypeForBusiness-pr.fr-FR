@@ -1,5 +1,5 @@
 ---
-title: Mettre à niveau le déploiement hybride de Skype entreprise vers Microsoft teams | PUBLIC
+title: Mettre à niveau le déploiement hybride de Skype entreprise vers teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706694"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136974"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mise à niveau d’un déploiement hybride Skype entreprise vers teams
 
@@ -39,7 +41,7 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 - [A mené une pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-Suivez les recommandations de cet article si vous avez déployé Skype entreprise ou Microsoft Lync en local et l’avez configuré dans un déploiement hybride avec votre client Office 365 et que votre organisation souhaite effectuer une mise à niveau vers des équipes de manière sélective, à l’aide de plusieurs modes de coexistence, ou tout. Pour chaque mise à niveau, vous devez déplacer vos utilisateurs vers Skype entreprise Online (s’ils ne sont pas encore hébergés en ligne), puis leur affecter le mode de coexistence et de mise à niveau appropriés.
+Suivez les recommandations de cet article si vous avez déployé Skype entreprise ou Microsoft Lync en local et l’avez configuré dans un déploiement hybride avec votre client Office 365 et que votre organisation souhaite effectuer une mise à niveau vers des équipes de manière sélective, à l’aide de plusieurs modes de coexistence, ou tout-en-un. Pour chaque mise à niveau, vous devez déplacer vos utilisateurs vers Skype entreprise Online (s’ils ne sont pas encore hébergés en ligne), puis leur affecter le mode de coexistence et de mise à niveau appropriés.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -57,6 +59,6 @@ Après avoir déplacé vos utilisateurs vers Skype entreprise Online, vous pouve
 
 ## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau du système téléphonique et des équipes
 
-Si vous migrez votre déploiement hybride Skype entreprise vers votre système téléphonique avec des plans d’appels, Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN), et en supposant que vous avez terminé le transfert du numéro de téléphone, la mise à niveau de vos utilisateurs vers Teams va automatiquement migrer les appels RTC entrants vers Teams.
+Si vous migrez votre déploiement hybride Skype entreprise vers votre système téléphonique avec des plans d’appels et que Microsoft sera votre fournisseur de réseaux téléphoniques commutés (RTC), et en supposant que vous avez terminé le transfert du numéro de téléphone, la mise à niveau de vos utilisateurs vers teams transmettra automatiquement les appels RTC entrants vers Teams.
 
-Si les offres d’appels ne sont pas disponibles ou si vous envisagez d’utiliser votre fournisseur de connectivité RTC, vous devez migrer votre déploiement voix entreprise, ou un déploiement vocal hybride qui utilise votre déploiement local existant ou édition Cloud Connector, pour Routage direct du système Microsoft Phone. Pour mettre à niveau vos utilisateurs vers Teams, reportez-vous à la rubrique [Considérations supplémentaires sur le routage direct du système téléphonique](2-envision-make-my-service-decisions-direct-routing.md).
+Si les offres d’appels ne sont pas disponibles ou si vous envisagez d’utiliser votre fournisseur de connectivité RTC, vous devez migrer votre déploiement voix entreprise (ou un déploiement VoIP hybride qui utilise votre déploiement local ou édition Cloud Connector) vers le routage direct du système Microsoft Phone. Pour mettre à niveau vos utilisateurs vers Teams, reportez-vous à la rubrique [Considérations supplémentaires sur le routage direct du système téléphonique](2-envision-make-my-service-decisions-direct-routing.md).

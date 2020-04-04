@@ -1,5 +1,5 @@
 ---
-title: Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
+title: Essayez ou achetez une audioconférence dans Office 365 pour teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,17 +21,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837614"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139693"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
 
-Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion. Microsoft teams inclut la fonction de conférence rendez-vous pour cette situation. Les utilisateurs peuvent appeler les réunions Microsoft teams à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft teams sur un appareil mobile ou un PC.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft teams inclut la fonction de conférence rendez-vous pour cette situation. Les utilisateurs peuvent appeler les réunions Microsoft teams à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft teams sur un appareil mobile ou un PC.
 
 Il vous suffit de configurer l’audioconférence pour les personnes qui envisagent de planifier ou d’animer des réunions. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
@@ -95,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Permettre aux équipes au sein de votre organisation](office-365-set-up.md)
 

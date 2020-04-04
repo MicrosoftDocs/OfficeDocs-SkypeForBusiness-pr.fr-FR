@@ -1,5 +1,5 @@
 ---
-title: Configurer la licence de téléphone de partie commune pour Microsoft Teams
+title: Configuration de la licence de téléphone commune
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
+- seo-marvel-mar2020
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089727"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140867"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -65,7 +66,7 @@ La licence de téléphone commune prend en charge les éléments suivants :
 |Skype Entreprise |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
 |Systèmes téléphoniques |    &#x2714; |
-|Audioconférence, |       &#x2718; &sup1 ;  |
+|Audioconférence |       &#x2718; &sup1 ;  |
 |Microsoft Intune |        &#x2718; &sup2 ; |
 |Disponibilité dans le monde entier |    &#x2714; |
 |Disponibilité du canal |    AE, EAS, CSP, GCC, EES, Web direct  |
@@ -104,7 +105,7 @@ Utilisez le centre d’administration teams pour attribuer un numéro à l’uti
 
 1. Dans le centre d’administration Teams, sélectionnez**numéros de téléphone** **vocaux** > .
 
-3.  Sélectionnez un numéro dans la liste des numéros de téléphone et cliquez sur **Attribuer**.
+3.    Sélectionnez un numéro dans la liste des numéros de téléphone et cliquez sur **Attribuer**.
 
 4. Dans la page **assigner** , dans la zone utilisateur vocal, tapez le nom de l’utilisateur qui utilisera le téléphone, puis sélectionnez l’utilisateur dans la liste déroulante **Sélectionner un utilisateur vocal** .
 

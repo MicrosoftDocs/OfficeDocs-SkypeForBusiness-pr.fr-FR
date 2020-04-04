@@ -1,5 +1,5 @@
 ---
-title: Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
+title: Affichage de la liste des utilisateurs activés pour les conférences audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Découvrez comment afficher la liste des utilisateurs dans votre organisation pour lesquels la conférence rendez-vous est activée dans Microsoft Teams. '
-ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4f4608eb7d7465e40dbec2590505b0997ccbef2c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838144"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140947"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 

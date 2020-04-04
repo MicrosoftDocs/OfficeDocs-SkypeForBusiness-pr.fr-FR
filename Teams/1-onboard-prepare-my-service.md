@@ -1,5 +1,5 @@
 ---
-title: Préparer le déploiement du service vocal cloud de Microsoft Teams
+title: Préparer le déploiement du service vocal Cloud
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862824"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137994"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -80,7 +81,7 @@ Après avoir effectué ces listes de vérification, vous aurez bien ajouté les 
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>Test des charges de travail vocales Cloud dans teams
 
-Une fois que vous avez défini et documenté les plans de réussite et de mise en œuvre technique de votre équipe dans le centre d’administration, l’étape suivante consiste à confirmer que votre organisation a effectué la configuration souhaitée. les attentes et les exigences sont satisfaites par le biais des fonctionnalités, des fonctionnalités et de la facilité d’utilisation. Avant de déployer un déploiement pilote ou final dans votre environnement de production, vous devez effectuer cette étape de validation.
+Une fois que vous avez défini et documenté les plans de réussite et de mise en œuvre technique de votre équipe dans le centre d’administration, l’étape suivante consiste à confirmer que les attentes et exigences de votre organisation sont satisfaites par le biais des fonctionnalités, des fonctionnalités et de la facilité d’utilisation. Avant de déployer un déploiement pilote ou final dans votre environnement de production, vous devez effectuer cette étape de validation.
 
 Vous pouvez utiliser le plan de réussite pour les entreprises que vous avez défini lors de la phase enVision afin de baser la détermination des activités, des attentes, des cas de test des fonctionnalités et des fonctionnalités ainsi que de l’étendue globale de la phase de test.
 

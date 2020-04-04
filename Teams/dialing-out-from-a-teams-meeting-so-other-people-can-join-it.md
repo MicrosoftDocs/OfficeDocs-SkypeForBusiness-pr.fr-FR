@@ -1,5 +1,5 @@
 ---
-title: Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
+title: Appel sortant pour permettre à d’autres personnes de participer à une réunion
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
-ms.openlocfilehash: f0c8ca62c5e985ecae4bc5a0f373a95b0d1ce69e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fbba74f7d8cd25da4a96237dfc551463681eef20
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826972"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137364"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
@@ -44,7 +45,7 @@ Lorsque vous appelez une personne, nous vous conseillons de le faire en utilisan
 
 Pour cela, procédez comme suit :
 
- **Étape 1 :** Dans la réunion, utilisez le **** ![bouton](media/add-people-button.png) ajouter des personnes de l’option Ajouter des personnes pour appeler un numéro de téléphone.
+ **Étape 1 :** Dans la réunion, utilisez le **Add people** ![bouton](media/add-people-button.png) ajouter des personnes de l’option Ajouter des personnes pour appeler un numéro de téléphone.
  **Étape 2 :** Entrez le numéro de téléphone complet, y compris l’indicatif du pays/de la région dans la zone **inviter une personne ou composer un numéro** .
   
 ![Capture d’écran de la zone inviter une personne ou composer un numéro](media/invite-someone-box.png)

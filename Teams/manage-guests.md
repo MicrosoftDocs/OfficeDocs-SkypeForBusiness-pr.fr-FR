@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
+description: Apprenez-en davantage sur la création de vos premières équipes et canaux, les premiers adoptateurs, surveiller l’utilisation et les commentaires, et obtenir des ressources pour planifier le déploiement à l’échelle de l’organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834774"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139243"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Il est possible que vous deviez attendre 24 heures pour que vos modifications soient prises en compte. 
+> Il est possible que les modifications ne prennent effet qu'après 24 heures. 
 
 **Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans tous les abonnements Office 365 Business Premium, Office 365 entreprise, Office 365 Business Essentials et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
 
@@ -70,7 +71,7 @@ Pour les paramètres d’accès invité dans Azure Active Directory, il faut 2-2
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 Pour plus d’informations sur l’utilisation de PowerShell pour gérer l’accès invité, voir [Utiliser PowerShell pour contrôler l’accès invité à une équipe](guest-access-powershell.md).
 

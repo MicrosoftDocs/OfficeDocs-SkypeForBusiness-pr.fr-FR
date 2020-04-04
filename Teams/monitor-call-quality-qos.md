@@ -1,5 +1,5 @@
 ---
-title: Implémenter QoS et contrôler l’analyse des appels dans Microsoft Teams
+title: Mettre en œuvre QoS et surveiller les analyses des appels
 author: dstrome
 ms.author: dstrome
 manager: Serdars
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20b12a867c6ed248fb00bad2d3fb5e9074c2c25
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138055"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140053"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Mettre en œuvre QoS et surveiller la qualité d’appel dans Microsoft teams
 
@@ -29,9 +30,9 @@ ms.locfileid: "42138055"
 
 À mesure que les utilisateurs commenceront à utiliser teams pour passer des appels et participer à des réunions, il est possible que la voix d’un appelant soit déconcertée ou détourée de l’appel ou de la réunion. La vidéo partagée risque de se figer ou de s’embloquer complètement. Ce problème est dû aux paquets IP qui représentent le trafic audio et vidéo, qui rencontrent une congestion du réseau et qui arrivent en entrée ou pas du tout. Il existe différentes façons d’identifier ces problèmes quand ils sont en surface et empêchent leur retour, c’est-à-dire la qualité de service (QoS).
 
-La **qualité de service (QoS)** est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour « couper ligne » devant le trafic moins sensible (par exemple, le téléchargement d’une nouvelle application, où le téléchargement d’un fichier supplémentaire ne constitue pas une solution importante). La fonction QoS identifie et marque tous les paquets en flux temps réel à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, qui permet de faire en sorte que votre réseau transmette les flux vocaux, vidéo et d’écran à leurs propres parties dédiées de bande passante réseau.
+La **qualité de service (QoS)** est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour « couper ligne » devant le trafic moins sensible (par exemple, le téléchargement d’une nouvelle application, où le téléchargement d’un fichier supplémentaire ne constitue pas une solution importante). La fonction QoS identifie et marque tous les paquets en flux temps réel à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, qui permet de faire en sorte que votre réseau transmette les flux vocaux, vidéo et d’écran à partir de leur propre partie dédiée de la bande passante réseau.
 
- Pour le moment, nous vous conseillons de dire qu’il s’agit d’envoyer une lettre par courrier électronique : Si vous nous adressez des tarifs très avantageux et si vous envoyez un message prioritaire par le biais de cette offre, c’est encore plus rapide et si vous envoyez un message prioritaire. , il est là dans un délai de deux jours. Bien sûr, les réseaux s’exécutent plus rapidement que le courrier, mais ils s’exécutent quand même la vitesse est essentielle pour certaines applications et n’est donc pas essentielle pour les autres. Ce sujet est par essence détaillée et difficile à comprendre, mais il a une grande différence quant à l’utilisation de l’utilisateur, c’est pourquoi il est utile de consacrer du temps et de l’énergie. Pour plus d’informations, voir [implémenter la qualité de service (QoS) dans Microsoft teams](QoS-in-Teams.md) .
+ Pour le moment, nous vous envoyons simplement qu’il s’agit d’envoyer une lettre par courrier électronique : Si vous nous adressez des tarifs très avantageux et qu’il est suffisant, si vous leur envoyez une première classe, il y a beaucoup plus de temps et si vous envoyez un message prioritaire, il y est affiché dans un délai de deux jours. Bien sûr, les réseaux s’exécutent plus rapidement que le courrier, mais ils s’exécutent quand même la vitesse est essentielle pour certaines applications et n’est donc pas essentielle pour les autres. Ce sujet est par essence détaillée et difficile à comprendre, mais il a une grande différence quant à l’utilisation de l’utilisateur, c’est pourquoi il est utile de consacrer du temps et de l’énergie. Pour plus d’informations, voir [implémenter la qualité de service (QoS) dans Microsoft teams](QoS-in-Teams.md) .
 
 Idéalement, vous pouvez implémenter la qualité de service (QoS) sur votre réseau interne lorsque vous configurez Teams, mais si vous n’êtes pas suffisamment petit, cela peut être facultatif. Ainsi, le trafic audio et vidéo en retard est prioritaire par rapport à d’autres trafics. Pour ce faire, vous devez utiliser cette priorité sur tous les [appareils clients](QoS-in-Teams-clients.md), dans le [Centre d’administration de Microsoft teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings), ainsi que sur les commutateurs et les routeurs de votre réseau.
 

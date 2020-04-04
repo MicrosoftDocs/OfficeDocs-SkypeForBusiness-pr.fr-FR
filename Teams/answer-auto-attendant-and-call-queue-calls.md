@@ -1,5 +1,5 @@
 ---
-title: Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
+title: Répondre aux appels de la file d’attente automatique et des appels
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825312"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137434"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -34,7 +35,7 @@ Les utilisateurs teams peuvent recevoir des appels et y répondre à partir de s
 
 Les standards automatiques du Cloud fournissent une série d’invites vocales ou un fichier audio que les appelants entendent à la place d’un opérateur humain au sein d’une organisation. Un standard automatique permet aux utilisateurs de parcourir le système de menu, de passer des appels ou de rechercher des utilisateurs en utilisant un clavier téléphonique (DTMF) ou effectuer des entrées vocales à l'aide de la reconnaissance vocale.
 
-Les files d’attente d’appels Cloud incluent des messages d’accueil qui sont utilisés lorsque quelqu’un vous appelle pour appeler un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui rejoignent les appels sont écouter de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation.
+Les files d’attente d’appels Cloud incluent des messages d’accueil qui sont utilisés lorsque quelqu’un vous appelle pour appeler un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui appellent écoutent de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Gestion d’un appel de standard automatique ou de file d’attente d’appels
 
@@ -53,19 +54,19 @@ Lorsque le standard automatique ou la file d’attente d’appels est reçu, l�
 
 La prise en charge des appels de standard automatique et de file d’attente d’appels est disponible dans les clients suivants :
 
--   Client Microsoft Teams (versions 32 et 64 bits)
--   Client Microsoft teams Mac
--   Application Microsoft teams pour iPhone
--   Application Android Microsoft teams
+-    Client Microsoft Teams (versions 32 et 64 bits)
+-    Client Microsoft teams Mac
+-    Application Microsoft teams pour iPhone
+-    Application Android Microsoft teams
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurer le standard automatique et la prise en charge de la file d’attente des appels pour Microsoft teams
 
 Pour recevoir des appels de standard automatique et de file d’attente d’appels sur Microsoft Teams, vous devez configurer votre stratégie d’interopérabilité et votre stratégie de mise à niveau. Passez en revue la [migration et l’interopérabilité des organisations qui utilisent des équipes dans Skype entreprise](migration-interop-guidance-for-teams-with-skype.md). Si vous n’avez pas configuré le standard automatique et/ou la file d’attente d’appels, puis souhaitez le faire, voir [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md) et [créer une file d’attente d’appels Cloud](create-a-phone-system-call-queue.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
--   [Qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
--   [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
--   [Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
--   [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
+-    [Qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
+-    [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
+-    [Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
+-    [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
 

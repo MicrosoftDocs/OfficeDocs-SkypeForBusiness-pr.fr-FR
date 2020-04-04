@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Découvrez comment obtenir de nouveaux numéros de téléphone, de port ou de transfert de nouveaux numéros de téléphone pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels (également appelées numéros de service) pour Teams.
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: Découvrez comment obtenir de nouveaux numéros de téléphone et porter ou transférer des numéros existants pour les conférences audio, les standards automatiques et les files d’attente d’appels (numéros de service) pour les équipes.
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170720"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136714"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtention de numéros de téléphone de service
 
@@ -38,7 +39,7 @@ Il existe trois façons d’obtenir des numéros de service :
   
 - **Utiliser le centre d’administration Microsoft Teams.** Pour certains pays et régions, vous pouvez obtenir des numéros de service à l’aide du centre d’administration Microsoft Teams. Voir [obtenir de nouveaux numéros de service](#get-new-service-numbers).
 
-- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel. Pour plus d’informations sur la façon de procéder, voir [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) ou [gérer des numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel. Consultez le [Transfert des numéros de téléphone vers Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) ou [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization) pour plus d’informations pour vous aider à effectuer ces opérations.  
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Microsoft Teams, ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Si tel est le cas, vous devez télécharger un formulaire et le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization).
   
@@ -79,7 +80,7 @@ Dans le volet de navigation de gauche, accédez à**numéros de téléphone** **
 
 Une fois que vous avez obtenu vos numéros de service, attribuez chaque numéro à un pont de conférence audio. Voir [modifier les numéros payants ou les numéros gratuits de votre pont de conférence audio](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
@@ -89,4 +90,4 @@ Une fois que vous avez obtenu vos numéros de service, attribuez chaque numéro 
 
 [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

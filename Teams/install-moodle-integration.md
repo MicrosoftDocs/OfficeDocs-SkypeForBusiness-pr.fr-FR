@@ -15,14 +15,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045126"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137134"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation de l’intégration de Moodle à Microsoft teams
 
@@ -40,7 +41,7 @@ Pour aider les administrateurs informatiques à configurer facilement cette int�
 
 Pour en savoir plus sur les fonctionnalités fournies par cette intégration, cliquez [ici](https://education.microsoft.com/courses-and-resources/resources/microsoft-teams-moodle).
 
-## <a name="prerequisites"></a>Conditions requises
+## <a name="prerequisites"></a>Conditions préalables
 
 Pour installer et configurer cette application, vous avez besoin des éléments suivants :
 
@@ -84,7 +85,7 @@ Ensuite, vous devez enregistrer Moodle en tant qu’application dans votre Azure
     * Téléchargez et extrayez le `Moodle-AzureAD-Powershell.zip` fichier.
     * Ouvrez le dossier extrait.
     * Cliquez avec le bouton droit `Moodle-AzureAD-Script.ps1` sur le fichier, puis sélectionnez **Propriétés**.
-    * Dans la **** boîte de dialogue Propriétés, sous l’onglet général `Unblock` , activez la case à cocher en regard de l’attribut **sécurité** en bas.
+    * Dans la **General** boîte de dialogue Propriétés, sous l’onglet général `Unblock` , activez la case à cocher en regard de l’attribut **sécurité** en bas.
     * Cliquez sur **OK**.
     * Copiez le chemin d’accès du répertoire du dossier extrait.
 1. Ensuite, vous allez exécuter PowerShell en tant qu’administrateur :

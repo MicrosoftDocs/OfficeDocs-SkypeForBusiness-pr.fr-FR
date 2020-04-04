@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978596"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137694"
 ---
-# <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
+# <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 Ce guide concerne la phase de la valeur de l’unité pour Microsoft teams et Skype entreprise online. Vous pouvez [Télécharger la version Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de ce guide.
@@ -800,7 +802,7 @@ Pour plus d’informations sur cet outil, voir [ce billet de blog](https://aka.m
 
 #### <a name="network-planner"></a>Planificateur de réseau
 
-Le planificateur de réseaux détermine et organise vos exigences réseau pour le déploiement de votre voix Cloud en quelques étapes simples. En fournissant les informations de mise en réseau de votre organisation et l’utilisation de la voix dans le Cloud, vous pouvez obtenir le calcul approximatif des exigences réseau pour le déploiement de votre voix Cloud, gérer et exporter ces détails pour la création de rapports et afficher des domaines pour des recherches supplémentaires. et étapes suivantes.
+Le planificateur de réseaux détermine et organise vos exigences réseau pour le déploiement de votre voix Cloud en quelques étapes simples. En fournissant les informations de mise en réseau de votre organisation et l’utilisation de la voix dans le Cloud, vous pouvez obtenir le calcul approximatif des exigences réseau pour le déploiement de votre voix Cloud, gérer et exporter ces détails pour la création de rapports, et afficher des zones pour une étude plus poussée et suivre les étapes suivantes.
 
 Même si le planificateur de réseaux n’automatise pas entièrement le processus de mappage de bâtiment, une fois que les informations réseau sont entrées dans le planificateur réseau, il peut être exporté vers un fichier de construction prêt pour le chargement.
 

@@ -1,5 +1,5 @@
 ---
-title: Formation à Microsoft Teams pour les administrateurs
+title: Ressources de formation pour les administrateurs-Microsoft teams
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -16,17 +16,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937608"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136524"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Mise en route des formations destinées aux administrateurs de Microsoft teams
 
 
 Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner aux autres personnes ou exécuter les ateliers. Recherchez souvent ici pour de nouveau contenu. 
@@ -105,7 +106,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Appels d’urgence dynamiques | [Vidéo](https://aka.ms/teams-dec) |  [Support de présentation](https://aka.ms/teams-dec-deck) |
 | Événements en direct | [Vidéo](https://aka.ms/teams-live-events-session) | [Support de présentation](https://aka.ms/teams-live-events-deck) |
 | Présentation du système de téléphone | [Vidéo](https://aka.ms/teams-phone-system) | [Support de présentation](https://aka.ms/teams-phone-system-deck) |
-| Routage direct | [Vidéo 1 : planification du routage direct dans teams](https://aka.ms/teams-dr-plan)<br>[Vidéo 2 : configuration et gestion du routage direct dans teams](https://aka.ms/teams-dr-config)<br>Vidéo 3 : migration vers le routage direct dans teams : bientôt <strong> <font color="#4B53BC">disponible</font></strong>  | [Support de présentation](https://aka.ms/teams-direct-routing-deck) |
+| Routage direct | [Vidéo 1 : planification du routage direct dans teams](https://aka.ms/teams-dr-plan)<br>[Vidéo 2 : configuration et gestion du routage direct dans teams](https://aka.ms/teams-dr-config)<br>[Vidéo 3 : migration vers le routage direct dans teams](https://aka.ms/teams-dr-migrate)  | [Support de présentation](https://aka.ms/teams-direct-routing-deck) |
 | Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1: Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) </br>[Vidéo 2: Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3: Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4: Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin) | [Support de présentation](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guides de démarrage rapide</h2>

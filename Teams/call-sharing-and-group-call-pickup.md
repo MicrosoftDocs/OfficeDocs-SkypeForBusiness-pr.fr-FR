@@ -1,5 +1,5 @@
 ---
-title: Partage d’appel et prise d’appel de groupe dans Microsoft Teams
+title: Partage d’appel et prise d’appel de groupe
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: Les appels de partage et de groupe permettent aux utilisateurs de partager des appels entrants avec des collègues, de sorte que les appels puissent être capturés quand l’utilisateur n’est pas disponible.
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824552"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141287"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
 Les fonctionnalités de partage d’appel et de cueillette de groupe de Microsoft teams permettent aux utilisateurs de partager leurs appels entrants avec leurs collègues pour permettre aux collègues de répondre aux appels qui se produisent alors que l’utilisateur n’est pas disponible.
 
-Le prélèvement d’appels de groupe est moins gênant pour les destinataires que les autres formes de partage d’appel (par exemple, le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer la façon dont ils veulent être avertis d’un appel partagé entrant (via une notification audio et visuelle, visuel uniquement) ou une bannière dans l’application Teams) et choisir d’y répondre.
+Le regroupement des appels de groupe est moins gênant pour les destinataires que les autres formes de partage d’appel (par exemple, le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer le mode de notification d’un appel partagé entrant (par le biais d’une notification audio et visuelle, d’un élément visuel uniquement ou d’une bannière dans l’application Teams), et ils peuvent
 
 Pour partager les appels, un utilisateur crée un groupe d’appels et ajoute les utilisateurs avec lesquels vous souhaitez partager leurs appels. Ils choisissent alors un paramètre de sonnerie ou de transfert simultané. Pour [en savoir plus, voir transfert d’appel et sonnerie simultanée dans teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
 
@@ -58,6 +59,6 @@ Important : lorsque les administrateurs désactivent les groupes d’appels pou
 
 Un locataire peut contenir un maximum de groupes d’appels 32 768. Chaque groupe d’appels peut comporter un maximum de 25 utilisateurs. 
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 [Transfert d’appel et sonnerie simultanée dans teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

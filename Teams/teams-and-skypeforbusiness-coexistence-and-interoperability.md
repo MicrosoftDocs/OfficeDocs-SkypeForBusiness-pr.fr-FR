@@ -1,5 +1,5 @@
 ---
-title: Microsoft teams | Mise à niveau, mode insulaire, stratégie d’interopérabilité, uniquement
+title: Interopérabilité entre Skype entreprise et Microsoft teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706654"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140675"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
@@ -34,7 +34,7 @@ Cet article fait partie de la phase de définition du projet de votre parcours d
 - [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
 
-Si votre organisation utilise Skype entreprise dès aujourd’hui et que vous commencez à utiliser teams avec Skype entreprise, ou que vous commencez à effectuer la mise à niveau vers Teams, il est important de comprendre la façon dont les deux applications coexistent, quand et comment elles interagissent et comment gérer migration des utilisateurs jusqu’à la mise à niveau éventuelle de Skype entreprise vers équipes.
+Si votre organisation utilise Skype entreprise dès aujourd’hui et que vous commencez à utiliser teams avec Skype entreprise, ou que vous commencez à effectuer la mise à niveau vers Teams, il est important de comprendre la manière dont les deux applications coexistent, quand et comment elles interagissent, et comment gérer la migration des utilisateurs dans le cadre de la mise à niveau de Skype entreprise vers Teams.
 
 > [!Tip]
 > Regardez la session suivante pour en savoir plus sur la [coexistence et l’interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop).
@@ -70,13 +70,13 @@ Pour éviter d’avoir une connaissance confuse ou régressé, les communication
 
 Dans ce mode de coexistence, les utilisateurs restent dans Skype entreprise (et non dans Teams) pour les fonctionnalités de conversation, de réunion et d’appel, et ils n’utilisent pas teams pour les équipes et les canaux. Ce mode est disponible aujourd’hui ; Toutefois, dans l’implémentation actuelle, les équipes et les canaux ne sont pas automatiquement désactivés pour l’utilisateur. Pour cela, vous pouvez utiliser la stratégie d’autorisations d’application pour masquer les équipes et les canaux.
 
-Ce mode peut être utilisé avant le démarrage d’un déploiement géré d’équipes pour empêcher les utilisateurs de commencer à utiliser teams à l’avance, ou pour activer la participation authentifiée dans les réunions d’équipes pour les utilisateurs Skype entreprise, à condition que les utilisateurs soient licence pour Teams.
+Ce mode peut être utilisé avant le démarrage d’un déploiement géré d’équipes afin d’empêcher les utilisateurs de commencer à utiliser teams en avance ou à activer la participation authentifiée dans les réunions d’équipes pour les utilisateurs de Skype entreprise, à condition que les utilisateurs soient sous licence d’équipes.
 
 ### <a name="teams-only"></a>Équipes uniquement
 
 
 > [!IMPORTANT]
-> Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution : pour voir la présence dans Outlook (et les autres applications Office), Skype entreprise doit être installé, même si vous exécutez teams en mode **équipes uniquement** . Microsoft est courant du problème et travaille activement au développement d’un correctif.
+> Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution de contournement :pour afficher la présence dans Outlook (et d'autres applications Office), Skype Entreprise doit être installé, même si vous exécutez Teams en mode **Teams uniquement**. Microsoft est sensibilisé à ce problème et travaille activement au développement d’un correctif.
 
 
 Un utilisateur de **teams** (également appelé utilisateur *mis à niveau* ) a accès à toutes les fonctionnalités dans Teams. Ils peuvent conserver le client Skype entreprise pour pouvoir participer à des réunions dans Skype entreprise qui ont été organisées par des utilisateurs qui ne sont pas mis à niveau ou des parties externes. Un utilisateur mis à niveau peut continuer à communiquer avec d’autres utilisateurs de l’organisation qui utilisent encore Skype entreprise à l’aide des fonctionnalités d’interopérabilité entre teams et Skype entreprise (à condition que les utilisateurs de Skype entreprise ne sont pas en mode d' **îlot** ). Toutefois, un utilisateur mis à niveau ne peut pas lancer une conversation, un appel ou une réunion Skype entreprise.
@@ -95,7 +95,7 @@ Les organisations dont le point de départ est Skype entreprise Server sur site 
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype entreprise avec la collaboration et les réunions d’équipes, également appelées réunions en premier
 
-Utilisez ce mode de coexistence pour accélérer la disponibilité des fonctionnalités de réunion teams au sein de votre organisation, en plus de ses fonctionnalités de collaboration, qui permettent à vos utilisateurs de profiter de la meilleure qualité d’utilisation des réunions d’équipes-qualité exceptionnelle. fonctionnalités novatrices telles que la transcription et la traduction ou le brouillage en arrière-plan, et une meilleure interface utilisateur pour toutes les plateformes, y compris les appareils mobiles et les navigateurs.
+Utilisez ce mode de coexistence pour accélérer la disponibilité des fonctionnalités de réunion teams au sein de votre organisation, en plus de ses fonctionnalités de collaboration, permettant à vos utilisateurs de profiter de l’utilisation de la fonction de réunion de qualité d’équipe supérieure (qualité de la transcription et de la traduction ou de l’arrière-plan) et d’une meilleure utilisation de toutes les plates-formes, y compris
 
 Outre l’utilisation d’équipes pour les équipes et les canaux, les utilisateurs utilisent teams pour planifier et diriger leurs réunions. Les appels et les discussions privés restent sur Skype entreprise. Avantages de teams et de Skype entreprise d’une gamme de fonctions « combinées », telles que le rapprochement de présence, la conservation automatique de la conservation et l’affichage de périphériques HID sur les deux applications. Notez qu’il est possible de masquer les équipes et les canaux, si vous le souhaitez, à l’aide de la stratégie d’autorisations des applications.
 
@@ -166,7 +166,7 @@ La réorganisation de l’interopérabilité se compose en complétant les fonct
 
 Lorsque la réaffectation d’interopérabilité est déclenchée par l’utilisateur Teams, une réunion teams est créée. Lorsque l’utilisateur Skype entreprise le déclenche, une réunion Skype entreprise est créée. Dans les deux cas, la réunion créée est une réunion **Conférence maintenant** qui n’apparaît pas dans le calendrier de l’utilisateur.
  
-L’autre personne reçoit le lien de participation à la réunion par le biais de conversations et de jointures Interop en cliquant sur ce lien. Si l’utilisateur de Skype entreprise dispose d’un compte d’équipe et est invité par l’utilisateur de teams, il rejoint la réunion qui est authentifiée. Dans le cas contraire, il sera joint en tant que participant anonyme. À l’inverse, les utilisateurs de teams disposent presque toujours d’un compte Skype entreprise et d’un client Skype entreprise qu’ils peuvent utiliser pour participer à une réunion Skype entreprise en tant que participant authentifié, mais ils peuvent également rejoindre un participant anonyme (par exemple, utiliser Skype). Application réunion.
+L’autre personne reçoit le lien de participation à la réunion par le biais de conversations et de jointures Interop en cliquant sur ce lien. Si l’utilisateur de Skype entreprise dispose d’un compte d’équipe et est invité par l’utilisateur de teams, il rejoint la réunion qui est authentifiée. Dans le cas contraire, il sera joint en tant que participant anonyme. À l’inverse, les utilisateurs de teams disposent presque toujours d’un compte Skype entreprise et d’un client Skype entreprise qu’ils peuvent utiliser pour participer à une réunion Skype entreprise en tant que participant authentifié, mais ils peuvent également se joindre en tant que participant anonyme, par exemple l’application réunion Skype.
 
 Une fois que les parties ont rejoint la réunion, elles peuvent diriger toutes les activités prises en charge dans les réunions, telles que le partage de bureau ou de contenu, le partage de fichiers ou le transfert, l’ajout d’autres participants, etc.
 

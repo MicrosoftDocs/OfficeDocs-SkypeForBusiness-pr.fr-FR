@@ -1,5 +1,5 @@
 ---
-title: Utiliser Microsoft teams pour les groupes Office 365 existants
+title: Amélioration des groupes Office 365 existants
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832914"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136864"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Utiliser Microsoft teams pour les groupes Office 365 existants
 =======================================================
@@ -44,7 +45,7 @@ Vous pouvez également ajouter des groupes de sécurité à extension messagerie
 
 Il existe deux types de paramètres de confidentialité avec les groupes Office 365, **publics et privés**. Les deux types de groupes peuvent être activés pour Teams, ce qui peut s’avérer très léger lorsqu’il s’agit de libre-service.
 
--   Les utilisateurs peuvent rechercher des groupes publics et les rejoindre sans approbation du propriétaire d'équipe.
+-   Les utilisateurs peuvent rechercher des groupes publics et rejoindre eux-mêmes sans avoir besoin de l’approbation du propriétaire de l’équipe.
 
 -   Les groupes privés ne peuvent pas faire l'objet d'une recherche et les utilisateurs peuvent uniquement les rejoindre si le propriétaire d'équipe les ajoutent en tant que membres.
 

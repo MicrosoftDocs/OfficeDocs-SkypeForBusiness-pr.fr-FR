@@ -1,5 +1,5 @@
 ---
-title: Gérer l’application Shifts pour votre organisation dans Microsoft Teams
+title: Gestion de l’application Shifts pour votre organisation
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161857"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141187"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams
 
@@ -74,7 +75,7 @@ Pour afficher la stratégie FirstlineWorker, dans le volet de navigation de gauc
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Affecter la stratégie FirstlineWorker à des utilisateurs individuels
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis cliquez sur l’utilisateur.
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
 2. En regard de **stratégies affectées**, choisissez **modifier**.
 3. Sous **stratégie de configuration des applications teams**, sélectionnez **FirstlineWorker**, puis cliquez sur **Enregistrer**.
 
@@ -101,5 +102,5 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 - [Aide sur les équipes pour les travailleurs terrain](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

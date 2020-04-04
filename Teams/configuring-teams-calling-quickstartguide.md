@@ -1,5 +1,5 @@
 ---
-title: Guide de démarrage rapide - Configuration des forfaits d'appels dans Microsoft Teams
+title: Guide de démarrage rapide-configuration de forfaits d’appels
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825362"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137774"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -64,7 +65,7 @@ Pour vous assurer que les appels VOIP et PSTN entrants restent toujours dans le 
 
 **NOTES**
  - Les téléphones IP Skype entreprise recevront des appels, même s’ils sont en mode TeamsOnly.  
- - Les utilisateurs qui ont été configurés avec un système téléphonique et des offres d’appels d’offres pour une utilisation avec Skype entreprise Online (par exemple, une valeur de OnlineVoiceRoutingPolicy), l’onglet appels est activé dans teams et peuvent passer des appels RTC Équipes sans qu’ils aient à effectuer d’action administrative.
+ - Les utilisateurs qui ont été configurés avec un système téléphonique et des offres d’appels d’offres pour une utilisation avec Skype entreprise Online (par exemple, une valeur de OnlineVoiceRoutingPolicy), l’onglet appels est activé dans Teams, et peuvent passer des appels RTC distants à partir d’équipes sans qu’ils aient à effectuer d’action administrative.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour qu’ils reçoivent tous les appels VOIP et PSTN entrants dans teams
