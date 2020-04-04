@@ -1,5 +1,5 @@
 ---
-title: 'Restrictions de numérotation gratuit en Chine- Sud (plage(10 800 140 XXXX) '
+title: Restrictions de numérotation sans frais en Chine-sud
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,35 +22,36 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: f9343dbbbb0db35df1e20e22de8d2149bebf351d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: En savoir plus sur la numérotation des numéros gratuits en Chine au sud, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707990"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140453"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a><span data-ttu-id="3645e-105">Restrictions de numérotation gratuit en Chine- Sud (plage(10 800 140 XXXX) </span><span class="sxs-lookup"><span data-stu-id="3645e-105">Toll-free dialing restrictions in China - South (10 800 140 XXXX range)</span></span>
+# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a><span data-ttu-id="c4f8c-103">Restrictions de numérotation gratuit en Chine- Sud (plage(10 800 140 XXXX) </span><span class="sxs-lookup"><span data-stu-id="c4f8c-103">Toll-free dialing restrictions in China - South (10 800 140 XXXX range)</span></span>
 
-<span data-ttu-id="3645e-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="3645e-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="c4f8c-104">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="c4f8c-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="3645e-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="3645e-107">**Details**</span></span>|<span data-ttu-id="3645e-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="3645e-108">**Description**</span></span>|
+|<span data-ttu-id="c4f8c-105">**Details**</span><span class="sxs-lookup"><span data-stu-id="c4f8c-105">**Details**</span></span>|<span data-ttu-id="c4f8c-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="c4f8c-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3645e-109">Est-ce que l’appel gratuit est disponible ?</span><span class="sxs-lookup"><span data-stu-id="3645e-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3645e-110">Oui</span><span class="sxs-lookup"><span data-stu-id="3645e-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="3645e-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="3645e-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="3645e-112">10 800 140 XXXX</span><span class="sxs-lookup"><span data-stu-id="3645e-112">10 800 140 XXXX</span></span> <br/> |
-|<span data-ttu-id="3645e-113">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="3645e-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3645e-114">CN</span><span class="sxs-lookup"><span data-stu-id="3645e-114">CN</span></span>  <br/> |
-|<span data-ttu-id="3645e-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="3645e-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3645e-116">Sud de la Chine/Réseau China Telecom uniquement</span><span class="sxs-lookup"><span data-stu-id="3645e-116">South China / China Telecom network only</span></span>  <br/> |
-|<span data-ttu-id="3645e-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="3645e-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3645e-118">Nord de la Chine</span><span class="sxs-lookup"><span data-stu-id="3645e-118">North China</span></span>  <br/> |
-|<span data-ttu-id="3645e-119">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="3645e-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3645e-120">Via China Telecom uniquement</span><span class="sxs-lookup"><span data-stu-id="3645e-120">From China Telecom only</span></span>  <br/> |
-|<span data-ttu-id="3645e-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="3645e-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3645e-122">Partiel.</span><span class="sxs-lookup"><span data-stu-id="3645e-122">Partial.</span></span> <span data-ttu-id="3645e-123">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="3645e-123">See comments.</span></span>  <br/> |
-|<span data-ttu-id="3645e-124">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="3645e-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3645e-125">Inaccessible à partir d'une cabine téléphonique</span><span class="sxs-lookup"><span data-stu-id="3645e-125">Not accessible from a payphone.</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-107">Est-ce que l’appel gratuit est disponible ?</span><span class="sxs-lookup"><span data-stu-id="c4f8c-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c4f8c-108">Oui</span><span class="sxs-lookup"><span data-stu-id="c4f8c-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-109">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="c4f8c-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="c4f8c-110">10 800 140 XXXX</span><span class="sxs-lookup"><span data-stu-id="c4f8c-110">10 800 140 XXXX</span></span> <br/> |
+|<span data-ttu-id="c4f8c-111">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="c4f8c-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c4f8c-112">CN</span><span class="sxs-lookup"><span data-stu-id="c4f8c-112">CN</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-113">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="c4f8c-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c4f8c-114">Sud de la Chine/Réseau China Telecom uniquement</span><span class="sxs-lookup"><span data-stu-id="c4f8c-114">South China / China Telecom network only</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-115">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="c4f8c-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c4f8c-116">Nord de la Chine</span><span class="sxs-lookup"><span data-stu-id="c4f8c-116">North China</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-117">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="c4f8c-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c4f8c-118">Via China Telecom uniquement</span><span class="sxs-lookup"><span data-stu-id="c4f8c-118">From China Telecom only</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-119">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="c4f8c-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="c4f8c-120">Partiel.</span><span class="sxs-lookup"><span data-stu-id="c4f8c-120">Partial.</span></span> <span data-ttu-id="c4f8c-121">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="c4f8c-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="c4f8c-122">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="c4f8c-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c4f8c-123">Inaccessible à partir d'une cabine téléphonique</span><span class="sxs-lookup"><span data-stu-id="c4f8c-123">Not accessible from a payphone.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="3645e-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="3645e-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c4f8c-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c4f8c-124">Related topics</span></span>
 
-[<span data-ttu-id="3645e-127">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="3645e-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="c4f8c-125">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="c4f8c-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="3645e-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3645e-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="c4f8c-126">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c4f8c-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
