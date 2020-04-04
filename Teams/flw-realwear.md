@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Démonstration ITAdmin du client RealWear pour Microsoft Teams.
+description: Une démonstration ITAdmin de Microsoft Teams pour le client RealWear.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95d3ead9c85fc58fdc55cd321e55b0ff9ca76853
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: ee23b25f377770457c597e09d2e570a23e7e90da
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102388"
+ms.locfileid: "43113197"
 ---
-# <a name="realwear-for-microsoft-teams"></a>RealWear pour Microsoft Teams
+# <a name="microsoft-teams-for-realwear"></a>Microsoft Teams pour RealWear
 
 > [!NOTE]
 > Ceci est une préversion ou une fonctionnalité d'une publication anticipée.
@@ -56,3 +56,7 @@ Les appareils RealWear peuvent être gérés à l’aide du mode Administrateur 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>Fournisseurs d’EMM tiers (EMMs)
 
 Pour obtenir des instructions sur les EMM tiers, voir [Fournisseurs d’EMM pris en charge](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+
+## <a name="end-user-content"></a>Contenu de l’utilisateur final
+
+Pour en savoir plus sur ce point de vue de l’utilisateur final, veuillez consulter [Utilisation de Microsoft Teams pour RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
