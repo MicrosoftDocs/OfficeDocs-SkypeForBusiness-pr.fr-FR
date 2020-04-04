@@ -1,5 +1,5 @@
 ---
-title: Gérer l’offre d’essai du cloud commercial Microsoft Teams
+title: Gérer l’offre d’évaluation Cloud commercial
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836594"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137154"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -70,7 +71,7 @@ Les utilisateurs éligibles peuvent s’inscrire à l’offre d’essai en se co
 
 Tous les essais au sein de votre organisation partagent les mêmes dates de début et de fin, c'est-à-dire la date à laquelle le premier utilisateur s'est inscrit à l'essai. Par exemple, si l'utilisateur A commence la première évaluation le 2 janvier 2019 et que l'utilisateur B commence une évaluation le 3 juin 2019, l’évaluation expirera le 25 janvier 2020 pour les deux évaluations.
 
-## <a name="manage-the-trial"></a>Gérer l’essai
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>Gérer l’essai
 
 La version d’évaluation de Teams est destinée aux utilisateurs finaux individuels et vous ne pouvez pas lancer l’offre d’évaluation de Teams pour le compte d’employés de l’utilisateur final.
 

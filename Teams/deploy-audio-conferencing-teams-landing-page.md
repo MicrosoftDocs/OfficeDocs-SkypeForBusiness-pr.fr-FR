@@ -1,5 +1,5 @@
 ---
-title: Audioconférence dans Microsoft Teams
+title: Configurer les paramètres de conférence audio-Microsoft Teams
 ms.reviewer: ''
 description: Utilisez ces ressources de déploiement pour vous aider à mettre en place des conférence audio dans le cadre de la charge de travail de réunions dans Microsoft Teams.
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826742"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137324"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Audioconférence dans Microsoft Teams
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Découvrir comment déployer la conférence audio dans Microsoft Teams
 
 Une conférence audio permet de participer à une réunion d’équipes à partir d’un téléphone standard en appelant simplement le numéro de téléphone de la réunion. Vérifiez que vous avez revu le [Déploiement des réunions](deploy-meetings-microsoft-teams-landing-page.md) dans le cadre du déploiement des conférences audio dans votre organisation.
 
