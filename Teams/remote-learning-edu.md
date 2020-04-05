@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87918e83aae6f56a3956336603decd41817cdd2a
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100081"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131222"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -58,6 +58,9 @@ Teams s’appuie sur les fonctionnalités de Microsoft 365 pour authentifier le
 
 Microsoft Teams est inclus dans Office 365 A1, qui est gratuit pour les établissements scolaires. Pour savoir comment déployer Office 365 et démarrer la totalité de votre école sur Teams, consultez [cette page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Pour obtenir de l’aide, vous pouvez déposer un ticket [ici](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) et pour les formations sur Teams, rendez-vous dans le Microsoft Store près de chez vous, pour parler à un spécialiste.
 
+> [!NOTE]
+> Veuillez consulter les [Conseils mis à jour pour le déploiement de M365 EDU pendant COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) pour obtenir notre récentes informations sur les déploiements de EDU.
+
 ## <a name="easily-set-up-teams"></a>Configurer facilement Teams
 
 Voici les deux opérations à effectuer pour être opérationnel sur Teams :
@@ -75,6 +78,9 @@ Les clients de l’enseignement supérieur sont favorisés lorsque tout le monde
 **Le personnel de l’enseignement supérieur, les enseignants et les étudiants** bénéficient des fonctionnalités incluses par défaut dans les stratégies (générales). Certains paramètres de stratégie supplémentaires peuvent être activés pour ajouter des fonctionnalités à Teams, notamment [l’activation des fonctionnalités de traduction dans la stratégie de messagerie](messaging-policies-in-teams.md#messaging-policy-settings) et [la transcription automatique des réunions](meeting-policies-in-teams.md#allow-transcription) dans la stratégie de réunion.
 
 Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiants de l’enseignement primaire et secondaire**. Les stratégies définissent des limites relatives à ce que les étudiants peuvent faire. La population étudiante représente souvent le plus grand nombre d’utilisateurs et reçoit, le plus souvent, les paramètres les plus restrictifs. Il est donc recommandé d’apporter des modifications à la stratégie étudiant et de la configurer sur « Général » (à l’échelle de l’organisation par défaut).
+
+> [!IMPORTANT]
+> Pour les stratégies de réunion attribuées à tous les utilisateurs, nous vous recommandons de définir le paramètre « Administrateurs automatiquement » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Voici un série de configurations de stratégie personnalisées communes qui seraient attribuées aux étudiants du primaire et du secondaire pour limiter les communications non modérées entre étudiants :
 
@@ -140,6 +146,12 @@ Si vous souhaitez en savoir plus sur l’utilisation de Teams dans le secteur de
 
 > [!NOTE]
 > Certaines fonctionnalités clés de Teams ne sont pas spécifiques à l’éducation. Vous trouverez des conseils et des astuces pour les principales fonctionnalités Teams sur : [Apprentissage et aide pour Microsoft Teams](https://support.office.com/teams).
+
+### <a name="prevent-users-from-changing-their-profile-photo"></a>Empêcher les utilisateurs de modifier leur nom d'affichage
+
+Teams respecte le paramètre de [Stratégie de boîte aux lettres Outlook sur le web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **SetPhotoEnabled** est désactivé, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur photo de profil. Pour empêcher les étudiants ou le personnel de modifier ou supprimer leur photo de profil, désactivez ce paramètre dans la stratégie de boîte aux lettres Outlook sur le web on the web qui leur est affecté.
+
+Par exemple, si un étudiant télécharge une photo de profil approuvée par le service informatique ou le service des ressources humaines de votre établissement, aucune action n’est requise. Toutefois, si un étudiant télécharge une image inappropriée, changez l’image conformément aux stratégies internes de votre établissement scolaire.  
 
 ## <a name="adoption-content"></a>Contenu d'adoption
 
