@@ -1,5 +1,5 @@
 ---
-title: Planifier la gestion du cycle de vie dans Teams - Microsoft Teams
+title: Planifier la gestion du cycle de vie
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,18 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 783ae4f1c293a51b5f9838d4ffa3039731c0c867
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837354"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137824"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
 Teams fournit un ensemble complet d’outils pour implémenter les processus de gestion du cycle de vie de la collaboration de votre organisation. Cet article expose aux spécialistes des technologies de l’information les éléments à prendre en compte pour déterminer leurs besoins en matière de gestion du cycle de vie, ainsi que les outils à utiliser pour y répondre. 
 
-La planification du cycle de vie est importante, car cela signifie que vous établissez un plan pour accomplir vos tâches efficacement. La plupart des projets s’articulent autour d’un début, d’un milieu et d'une fin. Les équipes également, mais elles peuvent être constituées et utilisées de tellement de façons différentes qu’il n’est pas toujours évident de savoir à quelle étape de leur cycle de vie elles sont. Avoir un plan de gestion du cycle de vie vous permettra de suivre les projets de votre organisation au fur et à mesure qu’elles passent par ces étapes.
+La planification du cycle de vie est importante, car cela signifie que vous établissez un plan pour accomplir vos tâches efficacement. La plupart des projets s’articulent autour d’un début, d’un milieu et d'une fin. Teams également, mais elle peut être constituée et utilisée de manière tellement différente qu’il n’est pas toujours facile de savoir à quelle étape de son cycle de vie elle correspond. Avoir un plan de gestion du cycle de vie vous permettra de suivre les projets de votre organisation au fur et à mesure qu’elle franchi ces étapes.
 
 > [!Tip]
 > Regardez la session suivante pour en savoir plus sur le cycle de vie dans Microsoft Teams : [Gouvernance, gestion et cycle de vie dans Microsoft Teams](https://aka.ms/teams-governance)
@@ -59,7 +60,7 @@ Les types d’utilisateurs de l’équipe déterminent le niveau de contrôle do
 -   Le _créateur de l’équipe_ dispose d’autorisations pour créer un groupe ou une équipe dans le répertoire. L’administrateur peut restreindre ce type d’utilisateurs à un sous-ensemble d’administrateurs ou utilisateurs. Pour plus d'informations, reportez-vous à l’article [Gérer qui peut créer des groupes Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
 -   Un _propriétaire de l’équipe_ gère l’appartenance et les paramètres de l’équipe. Une équipe peut comporter jusqu’à 100 propriétaires.
 -   Un _membre de l'équipe_ est un membre de votre organisation qui participe à une équipe.
--   Un _invité_ est un utilisateur externe à votre organisation. N’importe quelle personne ayant une adresse de messagerie peut être invitée si votre organisation a activé l’[accès invité](guest-access.md).
+-   Un _invité_ est un utilisateur qui est externe à votre organisation. N’importe quelle personne ayant une adresse de messagerie peut être invitée si votre organisation a activé l’[accès invité](guest-access.md).
 
 > [!Note]
 > Vous trouverez des informations supplémentaires sur les fonctionnalités de propriétaire d’équipe et de membre d’équipe dans l’article [Attribuer le rôle et les autorisations dans Microsoft Teams](assign-roles-permissions.md).
@@ -196,7 +197,7 @@ Si un flux commence à s’installer dans une routine, envisagez de :
 
 Lorsque le travail d'une équipe est arrivé à son terme, il est important de prendre officiellement acte qu'il est terminé. Cela donnera aux membres de l’équipe un sentiment de bouclage et empêchera également l’accès à des informations obsolètes et périmées. Vous pouvez utiliser l’équipe elle-même pour effectuer les rituels de clôture comme les analyses rétrospectives et les rapports de synthèse.
 
-Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont en fait supprimées avec une « suppression réversible », que le service informatique peut annuler pendant 21 jours au maximum (30 jours pour les groupes Office 365). La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 21 jours après la suppression.
+Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont en fait supprimées avec une « suppression réversible », que le service informatique peut annuler pendant 21 jours au maximum (30 jours pour les Groupes Office 365). La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 21 jours après la suppression.
 
 Vous pouvez aussi utiliser des stratégies d’expiration et de conservation en plus des fonctionnalités d’archivage pour réduire l’exposition aux équipes qui ne sont plus actives ou aux propriétaires qui ont quitté l'organisation.
 
