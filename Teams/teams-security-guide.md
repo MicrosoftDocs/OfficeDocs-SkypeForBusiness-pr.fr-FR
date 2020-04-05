@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
-ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
+ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113207"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131212"
 ---
-# <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
+> [!IMPORTANT]
+> Le modèle de service Teams est susceptible d’être modifié pour améliorer l’expérience des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception.
+
+ # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
 Microsoft Teams, dans le cadre du service Microsoft 365 (M365), respecte toutes les pratiques recommandées en matière de sécurité et des procédures telles que la sécurité de niveau de service, notamment les contrôles client de défense approfondie au sein du service, le renforcement de la sécurité et le fonctionnement optimal. techniques. Pour plus d’informations, voir le [centre de gestion de la confidentialité de Microsoft](https://microsoft.com/trustcenter).
 
@@ -149,7 +152,7 @@ Teams utilise un jeton basé sur les informations d’identification pour sécur
 
 #### <a name="fips"></a>FIPS
 
-Teams utilise des algorithmes qui sont conformes aux normes FIPS (Federal Information Processing Standard) pour les échanges de clés de chiffrement.
+Teams utilise des algorithmes qui sont conformes aux normes FIPS (Federal Information Processing Standard) pour les échanges de clés de chiffrement. Pour plus d’informations sur l’implémentation de la norme FIPS, consultez la [Publication 140-2 du Federal Information Processing Standard (FIPS)](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
 
 ### <a name="user-and-client-authentication"></a>Authentification utilisateur et client
 
@@ -289,12 +292,12 @@ Il est possible de modifier les options de réunion pendant la réunion. La modi
 
 ## <a name="related-topics"></a>Voir aussi
 
-[12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+[12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Centre de gestion de la confidentialité Microsoft](https://microsoft.com/trustcenter)
 
 [Gérer les paramètres de réunion dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimiser la connectivité d’Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+[Optimiser la connectivité d’Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implémentation d'un tunnel VPN partagé pour Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
+- [Implémentation de la segmentation du tunnel par VPN pour Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
