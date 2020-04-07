@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 f1.keywords:
 - NOCSH
 localization_priority: Priority
-description: Découvrez les outils mis à la disposition d’un administrateur pour ajouter de nouveaux utilisateurs invités à une organisation, notamment la version de bureau et les clients Web Microsoft teams ainsi que le portail de collaboration inter-entreprise d’Azure Active Directory.
+description: Les administrateurs peuvent apprendre à ajouter de nouveaux utilisateurs invités à une organisation dans le bureau et les clients Web Microsoft Teams ainsi que le portail de collaboration inter-entreprise d’Azure Active Directory.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b25dc9c5b870b038b95f5df5821581f8c2fae79
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 60538383021028d043cb47197dd41ee89f8a4d37
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826942"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139363"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================

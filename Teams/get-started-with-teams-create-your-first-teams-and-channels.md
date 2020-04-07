@@ -1,5 +1,5 @@
 ---
-title: Créer vos premiers canaux et équipes dans Microsoft Teams
+title: Créer vos premières équipes et premiers canaux
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d84d4afaabdcfd5f8b548eb938d5aa9757d4c038
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796037"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136794"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer vos premiers canaux et équipes dans Microsoft Teams
 
@@ -33,10 +34,10 @@ En procédant à la configuration et en utilisant votre première série d’éq
 
 Pour plus d’informations, voir [Vue d’ensemble des équipes et canaux dans Teams](teams-channels-overview.md) et [Meilleures pratiques pour organiser des équipes dans Teams](best-practices-organizing.md).
 
- Nous vous conseillons de commencer avec une équipe « Découvrir Teams » où les premiers utilisateurs peuvent s’entraîner, posez des questions et découvrir les fonctionnalités de Teams. Cette équipe peut se révéler très importante pour la réussite de Teams lorsque vous commencez à effectuer des essais. 
+ Nous vous conseillons de commencer avec une équipe « Découvrir Teams » où les premiers utilisateurs peuvent s’entraîner, poser des questions et découvrir les fonctionnalités de Teams. Cette équipe peut se révéler très importante pour la réussite de Teams lorsque vous commencez à effectuer des essais. 
 
 ### <a name="get-to-know-teams-team"></a>Équipe « Découvrir Teams »
-Votre équipe de projet peut utiliser l’équipe « Découvrir Teams » pour s’assurer que les clients Teams sont bien définis, s’entraîner à avoir des conversations initiales et explorer les possibilités offertes par Teams. Il existe peut-être déjà un groupe de personnes dans votre organisation qui apprécient d’accéder en avant-première aux nouvelles fonctionnalités. Cela peut être une de leurs équipes initiales lorsque vous les ajoutez à Teams, et ils vous aideront à rassembler des commentaires initiaux.
+Votre équipe de projet peut utiliser l’équipe « Découvrir Teams » pour s’assurer que les clients Teams sont bien définis, tenir des conversations initiales et explorer les possibilités offertes par Teams. Il existe peut-être déjà un groupe de personnes dans votre organisation qui apprécient d’accéder en avant-première aux nouvelles fonctionnalités. Cela peut être une de leurs équipes initiales lorsque vous les ajoutez à Teams, et ils vous aideront à rassembler des commentaires initiaux.
 
 Voici une structure suggérée pour l’équipe.
 
