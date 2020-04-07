@@ -16,6 +16,7 @@
 ### [Avec Exchange Online (hybride)](with-exchange-online.md)
 ### [Avec Exchange en local (hybride)](with-exchange-on-premises.md)
 ### [Configurer une console](console.md)
+### [Configurer l’authentification](rooms-authentication.md)
 ### [À l’aide du gestionnaire de configuration de point de terminaison Microsoft](rooms-scale.md)
 ### [Gestion avec Azure Monitor](azure-monitor-deploy.md)
 ### [Migrer SRS v1 ou LRS](lrs-migration.md)
