@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -19,17 +18,17 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38960039c34c8fae0838b07ebea5b9581b63c297
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205408"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153290"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Planification de la mise à niveau Teams</h1>
-           <p>En tant que client Skype Entreprise, nous voulons nous assurer que vous disposez de ce dont vous avez besoin au fur et à mesure que vous naviguez Teams. Rejoignez-nous pour une série d’ateliers de planification de mise à niveau en direct et interactifs, dans lesquels nous allons partager des conseils, des meilleures pratiques et des ressources conçues pour vous aider à planifier et implémenter la mise à niveau vers Teams. Pour une expérience optimale, commencez par <strong>planifier votre session de mise à niveau</strong> ci-dessous.
+           <p>En tant que client Skype Entreprise, nous voulons nous assurer que vous disposez de ce dont vous avez besoin au fur et à mesure que vous naviguez Teams. Rejoignez-nous pour une série d’ateliers de planification de mise à niveau en direct et interactifs, dans lesquels nous allons partager des conseils, des meilleures pratiques et des ressources conçues pour vous aider à planifier et implémenter la mise à niveau vers Teams. Pour une expérience optimale, commencez par <strong>planifier votre session de mise à niveau</strong> ci-dessous. Pour consulter ces ateliers à votre rythme, visitez <a href="https://aka.ms/UpgradeOnDemand"target="_blank">effectuer la mise à niveau vers Microsoft teams</a> sur YouTube.
             <p>Vous débutez avec Teams? Apprenez-en davantage <a href="https://docs.microsoft.com/microsoftteams/teams-overview">ici</a>.
         <ul class="pivots">
             <li>
