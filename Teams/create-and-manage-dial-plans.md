@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment créer et gérer les plans de numérotation des appels RTC et comment les gérer.
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826922"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160078"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -61,11 +61,11 @@ Une fois que vous avez planifié les plans de numérotation pour votre organisat
 
 ### <a name="add-users-to-a-dial-plan"></a>Ajouter des utilisateurs à un plan de numérotation
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au**plan de numérotation** **vocale** > .
-2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation.
-3. Sélectionnez **gérer les utilisateurs**.
-4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **appliquer**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
+2. Pour sélectionner l’utilisateur, cliquez sur son nom d’affichage.
+3. Sélectionnez l’onglet **stratégies** .
+4. Cliquez sur **modifier** à droite des stratégies attribuées.
+5. Dans le menu déroulant **plan de numérotation** , sélectionnez le plan de numérotation que vous souhaitez attribuer à l’utilisateur, puis cliquez sur **appliquer**.
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
   
@@ -240,7 +240,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
@@ -248,4 +248,4 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 - [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 - [Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-- [Aperçu de Teams PowerShell](teams-powershell-overview.md)
+- [Présentation de Teams PowerShell](teams-powershell-overview.md)

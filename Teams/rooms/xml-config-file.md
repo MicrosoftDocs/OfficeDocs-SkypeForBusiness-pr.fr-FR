@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé et la création d’un fichier de paramètres maître.
-ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140987"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160068"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -44,6 +44,7 @@ Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -91,6 +92,7 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 | \<ConfigureDomain\>  |&#x2778; de chaîne  ||Vous pouvez répertorier plusieurs domaines, séparés par des virgules. |
 |\<TeamsMeetingsEnabled\> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/> Le fichier XML est considéré de façon incorrecte\> si\<les\> deux \<SkypeMeetingsEnabled et TeamsMeetingsEnabled sont désactivés, mais il est acceptable d’activer les deux paramètres en même temps. |
 |\<IsTeamsDefaultClient> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. |
+|\<ModernAuthEnabled> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/>S’il est défini sur true, l’application Microsoft teams pièces utilise uniquement l’authentification moderne pour se connecter aux ressources et ne revient pas à l’authentification de base.|
 |\<BluetoothAdvertisementEnabled> |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut. |
 |\<DualScreenMode\>  |&#x2777; booléenne  |Première &#x2776;  |Si la valeur est true, le mode à deux écrans est activé. Dans le cas contraire, l’appareil utilise le mode écran unique. |
 | \<DuplicateIngestDefault\> |&#x2777; booléenne  |Première &#x2776; |Si la valeur est true, le contenu s’affiche sur les deux écrans en mode à deux écrans, lors de l’absence de la réunion. | 

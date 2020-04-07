@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Résumé : les professionnels de l’informatique doivent consulter les conditions requises en matière de prise en charge de Skype entreprise Web App et de l’application réunions Skype lors de la planification de Skype entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013447"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157637"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier les clients des réunions (application Web et application de réunion)
  
@@ -65,7 +65,7 @@ Pour utiliser Skype entreprise Web App, un utilisateur doit disposer de l’une 
    
 &#x2776; le plug-in de navigateur Skype entreprise Web App nécessite un plug-in de partage spécifique pour utiliser la voix, la vidéo, le partage et l’affichage en continu du partage d’écran et d’autres fonctionnalités. Un participant à la réunion peut installer le plug-in de partage lorsqu’il rejoint la réunion ou lorsqu’il lance l’une de ces fonctionnalités. Sur Windows 8 et Windows 8,1, le plug-in de partage ne peut être installé que si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le bureau. Ces fonctionnalités ne sont pas disponibles avec les versions non-Bureau d’Internet Explorer 10 et 11. Notez que Firefox et Safari version 12,0 et versions ultérieures ne sont plus pris en charge.
   
-&#x2777; sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo, l’affichage des applications, le partage d’application, l’affichage de l’ordinateur de bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in lorsque vous y êtes invité. Notez que Mac OS X version 10,7 n’est plus pris en charge.
+&#x2777; sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo, l’affichage des applications, le partage d’application, l’affichage de l’ordinateur de bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in lorsque vous y êtes invité. Notez que Mac OS X version 10,7 n’est plus pris en charge.  Notez également que l’application Web ne sera pas installée sur OS X 10,15 ou version ultérieure.  Nous vous recommandons d’utiliser la dernière version de Skype entreprise pour Mac qui prend en charge les scénarios de participation anonyme.
   
 &#x2778; l’accès à l’application Web à partir de chrome sur Windows lancera un petit programme qui charge l’application Web dans un cadre Internet Explorer incorporé. Ce programme nécessite l’installation d’une des versions d’Internet Explorer prises en charge pour le chargement correct de l’application Web.
   
