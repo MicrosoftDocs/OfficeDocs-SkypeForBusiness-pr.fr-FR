@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 9c56078a6d016967e518746e3567373404d1c486
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157872"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170582"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -40,6 +40,7 @@ Avant d’effectuer les étapes décrites dans les articles suivants, Microsoft 
 - [Documentation relative au déploiement d’Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Documentation sur le déploiement des communications du ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [Documentation sur le déploiement de TE-Systems (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Documentation sur le déploiement de switch](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 Pour obtenir la liste complète des commandes SBCs prises en charge, consultez la [liste des contrôleurs de bordure de session certifiés pour le routage direct](direct-routing-border-controllers.md).
 

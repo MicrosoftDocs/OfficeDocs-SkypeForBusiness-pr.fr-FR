@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136844"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170552"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
@@ -68,6 +68,9 @@ Dans la page **gérer les applications** , vous pouvez autoriser ou bloquer des 
 Pour autoriser ou bloquer une application, sélectionnez-la, puis cliquez sur **autoriser** ou **bloquer**. Lorsque vous bloquez une application, toutes les interactions avec cette application sont désactivées et l’application n’apparaît pas dans teams pour les utilisateurs de votre organisation.
 
 Lorsque vous bloquez ou autorisez une application dans la page **gérer les applications** , cette application est bloquée ou autorisée pour tous les utilisateurs de votre organisation.  Lorsque vous bloquez ou autorisez une application dans une stratégie d’autorisation d’application Teams, elle est bloquée ou autorisée pour les utilisateurs qui ont attribué cette stratégie. Pour qu’un utilisateur puisse installer une application et interagir avec celle-ci, vous devez autoriser l’application au niveau de l’organisation sur la page **gérer les applications** et dans la stratégie d’autorisation d’application qui est affectée à l’utilisateur.
+
+ > [!NOTE]
+ > Pour désinstaller une application, cliquez avec le bouton droit sur l’application, puis cliquez sur **désinstaller** ou utilisez le menu **autres applications** du côté gauche. 
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres d’application à l’échelle de l’Organisation
 

@@ -3,7 +3,6 @@ title: Mise à niveau gratuite de Microsoft teams vers l’abonnement Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -20,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139643"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170522"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
 ======================================================
@@ -39,7 +38,7 @@ Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouve
 
 Teams gratuit est conçu pour les petites et moyennes entreprises et offre les fonctionnalités suivantes :
 
-- 300 maximum d’utilisateurs
+- 500 000 maximum d’utilisateurs
 - Messages de conversation et de recherche illimités
 - Accès invité
 - Intégration à des applications et des services, notamment les versions en ligne de Word, Excel, PowerPoint et OneNote
