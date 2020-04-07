@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825866"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157758"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -26,15 +26,15 @@ Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous 
   
 Microsoft teams est la solution de conférence la plus récente de Microsoft conçue pour transformer votre salle de réunion en une expérience riche et collaborative. Les utilisateurs apprécieront l’interface familière de Microsoft teams ou Skype entreprise et les administrateurs informatiques apprécieront une application de réunion Skype facilement déployée et gérée dans Windows 10. Les salles de Microsoft teams sont conçues pour exploiter les équipements existants tels que les écrans LCD pour faciliter l’installation de Microsoft teams ou de Skype entreprise dans votre salle de réunion.
   
-Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion [](azure-monitor-deploy.md)des [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la gestion de [Microsoft teams pour](azure-monitor-deploy.md)Microsoft teams Vous pouvez également [gérer les paramètres de la console de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md), qui inclut l’application d’un thème d’affichage personnalisé. 
+Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion [Manage Microsoft Teams Rooms devices with Azure Monitor](azure-monitor-deploy.md)des [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la gestion de [Microsoft teams pour](azure-monitor-deploy.md)Microsoft teams Vous pouvez également [gérer les paramètres de la console de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md), qui inclut l’application d’un thème d’affichage personnalisé. 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Collecte de journaux sur les salles de Microsoft teams
 <a name="Logs"> </a>
 
-Pour recueillir les journaux, vous devez appeler le script de collection de journaux qui est fourni avec l’application Microsoft Teams. En mode admin, démarrez une invite de commandes avec élévation de privilèges et émettez la commande suivante :
+Pour recueillir les journaux, vous devez appeler le script de collection de journaux qui est fourni avec l’application Microsoft Teams. En mode admin, démarrez une invite PowerShell avec élévation de privilèges, puis émettez la commande suivante :
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 Les journaux seront en sortie sous forme de fichier ZIP dans c:\rigel.
@@ -84,7 +84,7 @@ Cette section décrit les paramètres système dont dépend le fonctionnement de
 Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
 
 > [!NOTE]
-> Lorsque l’appareil de salle Microsoft teams est compatible avec la version suivante du système d’exploitation Windows 10, l’appareil est automatiquement mis à jour vers la version suivante par le biais de Windows Update. La mise à niveau vers la nouvelle version de Windows 10, ou via l’activation de la stratégie de groupe Windows Update pour les entreprises (WUFB) de Microsoft Teams ne peut pas être mise à niveau vers une version ultérieure de Windows 10 Les mises à jour de fonctionnalités sont reçues par le biais d’un objet de stratégie de groupe. Un appareil doté de ces stratégies de groupe activé est connu pour rencontrer des problèmes liés à la mise à jour de Windows 10 du système d’exploitation par l’application Microsoft Teams.
+> Lorsque l’appareil de salle Microsoft teams est compatible avec la version suivante du système d’exploitation Windows 10, l’appareil est automatiquement mis à jour vers la version suivante par le biais de Windows Update. La mise à niveau vers la nouvelle version de Windows 10, ou via l’activation de la stratégie de groupe Windows Update pour les entreprises (WUFB) de Microsoft Teams, ne peut pas être mise à niveau vers une version ultérieure de Windows 10 ou par le biais d’un objet de stratégie de groupe. Un appareil doté de ces stratégies de groupe activé est connu pour rencontrer des problèmes liés à la mise à jour de Windows 10 du système d’exploitation par l’application Microsoft Teams.
 
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>

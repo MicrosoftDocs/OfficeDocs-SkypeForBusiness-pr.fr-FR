@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans une salle de Microsoft Teams, qui interagit avec un logiciel de traitement d’image pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137624"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157807"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -102,6 +102,4 @@ Vous pouvez également ajuster ces paramètres à distance à l’aide d’un [f
 
 [Configuration requise pour Microsoft teams](requirements.md)
 
-> [!NOTE]
-> Certains appareils Microsoft teams salle disposant de consoles Microsoft surface Pro (par exemple, Logitech Smartdock et Crestron SR) ne prennent pas encore en charge la caméra de contenu. La prise en charge de ces appareils sera ajoutée plus tard dans CY2019. 
->
+

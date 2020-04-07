@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Cet article présente les améliorations cumulatives apportées aux salles de Microsoft Teams.
-ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096989"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157766"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -71,6 +71,7 @@ Présenté dans cette mise à jour :
 - Écran de démarrage de l’application
 - Paramètre de réponse automatique pour améliorer l’environnement de participation à une réunion en fonction de la proximité 
 - Notifications d’ouverture de logiciel source (OSS) dans les paramètres de l’appareil
+- Correctif pour la connectivité PSOM lorsque TLS 1,0 et TLS 1,1 sont désactivés dans Skype entreprise Server 2015/2019.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 

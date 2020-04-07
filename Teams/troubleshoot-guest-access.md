@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0c0f65f7026e6c083d9230551d689f0dd19d6b0d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: b8ef4fb03de0172403556334e43359402ccce113
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837634"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157737"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résolution des problèmes liés à l’accès invité dans Microsoft Teams
 ======================================================
@@ -41,7 +41,10 @@ ms.locfileid: "41837634"
 
 L’accès invité dans Teams utilise Azure Active Directory (Azure AD) Business to Business (B2B) et son modèle de licence. L'accès invité est fourni avec tous les abonnements Office 365 Business Premium, Office 365 Entreprise et Office 365 Education. Aucune licence Office 365 supplémentaire n'est requise.
 
-Si vous voyez des erreurs liées aux licences, assurez-vous de lire le [Guide d'attribution de licences pour Azure Active Directory B2B Collaboration](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) pour déterminer si les critères de licences répondent à vos besoins pour l’accès invité au sein de votre organisation.
+> [!NOTE]
+> Pour pouvoir se connecter et utiliser les équipes en tant qu’invités sur un autre client (ressource), les équipes doivent être activées sur le client d’origine d’un invité.
+
+Si vous rencontrez des erreurs de gestion des licences, veillez à lire les [recommandations d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) pour la gestion des licences en fonction de vos besoins en matière d’accès invité au sein de votre organisation.
 
 
 - Les licences invité sont décomptées du nombre existant au sein de l’organisation qui invite. Tenez-en compte au moment de calculer le nombre de licences dont vous avez besoin.
