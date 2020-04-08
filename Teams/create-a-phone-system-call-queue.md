@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: fc958aa1713a7cda12a054b3a029bfc1786b0955
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
+ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897247"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43184254"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -49,11 +49,9 @@ Tous les appels dans la file d’attente sont envoyés aux agents par le biais d
 - Avec le routage en série, le premier appel dans la file d’attente sonne tous les agents d’appel un par un.
 - Avec la répétition alternée, le routage des appels entrants est équilibré de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente.
 
-    > [!NOTE]
-    > Les téléopérateurs qui sont **hors ligne**, ont défini leur présence sur **ne pas déranger** ou ont désactivé la file d’attente des appels ne recevront aucun appel.
+Vous pouvez définir des options de traitement des appels, telles que l’option d’activation/désactivation de l’agent, le routage basé sur la présence, le temps d’attente des appels et les options de délai d’attente avec les méthodes ci-dessus.
 
-- Une seule notification d’appel entrant (pour l’appel en tête de file) sera envoyée aux téléopérateurs à la fois.
-- Lorsqu’un téléopérateur accepte l’appel, le prochain appel entrant dans la file d’attente sonnera pour les autres téléopérateurs.
+Une seule notification d’appel entrant (pour l’appel en tête de file) sera envoyée aux téléopérateurs à la fois. Lorsqu’un téléopérateur accepte l’appel, le prochain appel entrant dans la file d’attente sonnera pour les autres téléopérateurs.
 
 > [!NOTE]
 > Cet article s’applique à Microsoft teams et à Skype entreprise online.
@@ -164,7 +162,7 @@ capture d’écran précédente**musique en attente** , vous pouvez utiliser la 
 
 ### <a name="select-the-call-answering-options"></a>Sélectionner les options de répondeur automatique
 
-![Capture d’écran des options de répondeur automatique](media/5d249515-d532-4af2-90da-011404028b89.png) 
+![Capture d’écran des options de répondeur automatique](media/teams-cq-call-answering-options.png)
 
 ![Dans la capture d’écran du numéro 1, fait référence à une](media/teamscallout1.png)
 légende dans la capture d’écran suivante :**opérateurs et groupes** pour ajouter directement des agents, sans les ajouter à un groupe, cliquez sur **Ajouter des utilisateurs**. Placez les agents individuels dans l’ordre dans lequel vous souhaitez qu’ils reçoivent l’appel. Vous pouvez ajouter jusqu’à 20 agents individuels (pour ajouter plus de 20, les placer dans un groupe).
@@ -177,9 +175,9 @@ Vous pouvez sélectionner jusqu’à 200 opérateurs d’appel qui appartiennent
 - Groupe de sécurité
 - Liste de distribution
 
-Les agents d’appel sélectionnés doivent être : 
+Les agents d’appel sélectionnés doivent être l’un des éléments suivants :
 
-- Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée 
+- Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée
 - Utilisateurs en ligne avec un plan d’appels
 - Utilisateurs de Skype entreprise sur site
 
@@ -197,9 +195,17 @@ Les agents d’appel sélectionnés doivent être :
 
 - Le routage de l' **attendant** entraîne le premier appel dans la file d’attente pour sonner tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 - **Routage en série** les appels entrants sonnent chacun d’eux, du début de la liste des agents d’appel. Les agents ne peuvent pas être commandés dans la liste des agents d’appel. Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
-  > [!NOTE]
-  > Avec le routage en série, pour les agents qui sont **hors ligne** ou qui ont défini leur présence sur **ne pas déranger**, l’appel est routé vers ces utilisateurs et ne parvient pas à se connecter à l’utilisateur indisponible, le routage vers l’agent suivant dans la liste des agents. Ce n’est pas le cas si l’agent **a désactivé** la réception des appels à partir de la file d’attente d’appels. Pour réduire l’intervalle de temps pendant lequel les appels sont acheminés vers l’agent suivant en ligne, le temps des alertes d’agent peut être réduit.
 - **Tourniquet de tourniquet** qui achemine les appels entrants de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente. Cela pourrait être souhaitable dans un environnement de ventes entrantes pour garantir l’égalité des chances entre tous les agents d’appel.
+
+![D’après le numéro 3, fait référence à une légende dans la](media/teamscallout3.png)
+**capture d'** écran précédente le routage de présence basée sur la présence utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**.
+
+Vous pouvez activer le routage des appels en fonction de la présence avec n’importe quelle méthode de routage.
+
+Si un agent ne peut plus passer d’appel, il n’est pas inclus dans la liste routage des appels, quelle que soit la valeur de son statut de disponibilité.
+
+> [!CAUTION]
+> Les agents qui utilisent le client Skype entreprise ne sont pas inclus dans la liste routage des appels lorsque le routage en fonction de la présence est activé, même en fonction de leur statut de disponibilité. Les agents qui ne figurent pas dans la liste routage des appels ne reçoivent pas les appels. Si vous avez des agents qui utilisent Skype entreprise, n’activez pas le routage des appels basée sur la présence.
 
 ### <a name="select-an-agent-opt-out-option"></a>Sélectionner une option d’annulation d’agent
 
@@ -315,7 +321,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
   - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
