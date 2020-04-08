@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: 6666482c45cb8d97567ffb9a5c8b8a3f3bcc5636
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836276"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190881"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -81,7 +81,7 @@ Un standard automatique ou une file d’attente d’appels de niveau supérieur 
 
 2. Obtenez une licence d’utilisateur virtuel de système téléphonique ou une licence de système téléphonique classique.
 
-   Pour obtenir la licence de l’utilisateur virtuel, à partir du centre d’administration 365 de **** > Microsoft, accédez à la section**abonnements au composant additionnel**  > **services d’achat**de facturation et faites défiler jusqu’à la fin de l’appel de la licence « système téléphonique-utilisateur virtuel ». Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
+   Pour obtenir la licence de l’utilisateur virtuel, à partir du centre d’administration 365 de **Billing** > Microsoft, accédez à la section**abonnements au composant additionnel**  > **services d’achat**de facturation et faites défiler jusqu’à la fin de l’appel de la licence « système téléphonique-utilisateur virtuel ». Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
 3. Créer un compte de ressource. Voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell)
 4. Attribution d’un système téléphonique- [licence d’utilisateur virtuel](teams-add-on-licensing/virtual-user.md) ou de système téléphonique au compte de ressources. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 5. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
@@ -161,7 +161,7 @@ Selon que votre compte de ressources se trouve en ligne ou sur Skype entreprise 
 
 - Les exemples de cmdlets PowerShell suivants illustrent la création d’un compte de ressource hébergé en ligne à l’aide [de New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
 
-- Pour les comptes de ressources hébergés sur Skype entreprise Server 2019 qui peuvent être utilisés avec les files d’attente d’appels Cloud et les standards automatiques Cloud, voir [configurer des files d’attente d’appels](/skypeforbusiness/hybrid/configure-call-queue.md) Cloud ou [configurer les standards automatiques du Cloud](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Les implémentations hybrides (numéros d’hébergement sur le routage direct) sont configurées à l’aide de l’applet de nouvelle applet de [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) sur un serveur Skype entreprise Server 2019 local.
+- Pour les comptes de ressources hébergés sur Skype entreprise Server 2019 qui peuvent être utilisés avec les files d’attente d’appels Cloud et les standards automatiques Cloud, voir [planifier des files d’attente d’appels Cloud](/SkypeforBusiness/hybrid/plan-call-queue) ou [planifier des standards automatiques Cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Les implémentations hybrides (numéros d’hébergement sur le routage direct) sont configurées à l’aide de l’applet de nouvelle applet de [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) sur un serveur Skype entreprise Server 2019 local.
 
 L’ID d’application que vous devez utiliser lors de la création des instances d’application est le suivant :
 

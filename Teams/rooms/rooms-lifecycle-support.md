@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article décrit la prise en charge du cycle de vie des salles Microsoft Teams.
-ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117522"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190829"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Prise en charge de la version de l’application Microsoft teams
  
@@ -59,7 +59,7 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 | 1709 |2018-01-18 |Non pris en charge                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Non pris en charge                         |&#x2014; |&#x2014; |
 
-&#x2781; la version 10 1809 de Windows n’est pas recommandée en raison de problèmes de compatibilité détectés dans l’application Microsoft teams salles. Ce problème particulier entraîne le démarrage de l’application Microsoft teams rooms après un redémarrage nocturne. Ce problème a été résolu dans la version 10 1903 de Windows.  
+&#x2780; Windows 10 version 1809 est déconseillé en raison de problèmes de compatibilité détectés dans l’application Microsoft Teams. Ce problème particulier entraîne le démarrage de l’application Microsoft teams rooms après le redémarrage nocturne. Ce problème a été résolu dans la version 1903 de Windows 10.  
 
 Lorsque vous utilisez une version prise en charge de Windows 10, vous obtiendrez toujours les dernières mises à jour de l’application pour l’application Microsoft teams salles.  
 

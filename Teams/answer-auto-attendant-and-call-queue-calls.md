@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137434"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190864"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
 
-Les utilisateurs teams peuvent recevoir des appels et y répondre à partir de standards automatiques Cloud et de files d’attente d’appels directement depuis leur client Teams. Pour les utilisateurs d’équipes, la fonction standard automatique est désormais disponible en général et la fonctionnalité de la file d’attente d’appels est disponible en aperçu. 
+Les utilisateurs teams peuvent recevoir des appels et y répondre à partir de standards automatiques Cloud et de files d’attente d’appels directement depuis leur client Teams.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>Présentation des standards automatiques et des files d’attente d’appels
 

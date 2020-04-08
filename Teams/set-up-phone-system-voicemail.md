@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: 51e03417d3bdbd09b631fa2bd07b6009bf54693e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5f975eac51cf3787ac5a1dde9b76b80b0912478d
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838004"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190840"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -60,6 +60,9 @@ Vous trouverez ci-après des informations sur la configuration de la messagerie 
 5. Les messages vocaux sont remis à la boîte aux lettres Exchange des utilisateurs via le protocole SMTP routé via Exchange Online Protection. Pour permettre la remise des messages, assurez-vous que les connecteurs Exchange sont correctement configurés entre les serveurs Exchange et Exchange Online Protection. [Utiliser des connecteurs pour configurer le flux de messagerie](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
 
 6. Pour activer les fonctionnalités de boîte vocale telles que la personnalisation des messages d’accueil et les messages vocaux visuels dans les clients Skype entreprise, il est nécessaire de se connecter à partir d’Office 365 vers la boîte aux lettres Exchange Server via les services Web Exchange. Pour activer cette connectivité, vous devez configurer le nouveau protocole d’authentification OAuth Exchange décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), ou exécuter l’Assistant Exchange hybride à partir d’Exchange 2013 CU5 ou version ultérieure. Par ailleurs, vous devez configurer l’intégration et le protocole OAuth entre Skype entreprise Online et Exchange Server décrits dans [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+
+> [!NOTE]
+> Lorsqu’un délégué répond à un appel de la part d’un déléguer, les notifications ne sont pas disponibles dans la boîte vocale Cloud. Les utilisateurs peuvent recevoir des notifications d’appels manqués.
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 
@@ -126,11 +129,10 @@ Nous disposons d’informations et d’Articles de formation pour aider vos util
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Planifier la migration pour Skype Entreprise Server et Exchange Server](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-
 

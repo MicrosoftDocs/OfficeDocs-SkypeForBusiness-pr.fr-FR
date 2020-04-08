@@ -25,27 +25,28 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 description: Découvrez comment obtenir et gérer les numéros de téléphone de Microsoft teams pour votre organisation.
-ms.openlocfilehash: 44d488cfe21410783691c69a8779470d6dd71781
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39f6b143f65b2e3aee8d9aa78a06ae280cafea8c
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825692"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191315"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
-Il existe trois façons d’obtenir les numéros d'utilisateur et service (payants et gratuits) pour votre organisation.
-- Obtenez des numéros dans le centre d’administration Microsoft Teams.
-- Transférez-nous, par exemple par « portage », vos numéros existants.
-- Utilisez un formulaire de demande pour les nouveaux numéros qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.
+Il existe quatre méthodes pour obtenir les numéros de téléphone des utilisateurs (abonnés) et de service (payant et gratuit) pour votre organisation :
+- [La réception de nouveaux numéros de téléphone d’utilisateur dans le centre d’administration Microsoft teams](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users).
+- [La réception de nouveaux numéros de téléphone de service dans le centre d’administration Microsoft teams](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers).
+- [Transférez _Port_ ou transférez vos numéros de téléphone existants avec nous](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
+- Utilisez un formulaire de demande pour les nouveaux numéros de téléphone qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.
 
 > [!IMPORTANT]
-> En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, vous ne pouvez pas obtenir de nouveaux numéros de téléphone à l’aide du centre d’administration Microsoft Teams. Vous devez télécharger et remplir un formulaire. Pour les nouveaux numéros de téléphone en Australie, voir [Services de téléphonie Telstra](https://aka.ms/TelstraVoicePlan).
+> En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, vous ne pouvez pas obtenir de nouveaux numéros de téléphone à l’aide du centre d’administration Microsoft Teams. Vous devez télécharger et remplir un formulaire. Pour les nouveaux numéros de téléphone de l’Australie, voir : [**services vocaux Telstra**](https://aka.ms/TelstraVoicePlan).
 
 ***
 Si vous connaissez le type de formulaire que vous recherchez, utilisez la liste déroulante pour sélectionner le pays ou la région où vous souhaitez obtenir des numéros.
 
-**Sélectionnez votre pays ou votre région pour rechercher les formulaires téléchargeables dont vous avez besoin**
+**Sélectionnez votre pays ou votre région pour rechercher les formulaires LOA PDF à télécharger dont vous aurez besoin.**
 > [!div class="op_single_selector"]
 > - [Australie](phone-number-management-for-australia.md)
 > - [Belgique](phone-number-management-for-belgium.md)
@@ -57,44 +58,43 @@ Si vous connaissez le type de formulaire que vous recherchez, utilisez la liste 
 > - [Pays-Bas](phone-number-management-for-the-netherlands.md)
 > - [Espagne](phone-number-management-for-spain.md)
 > - [Royaume-Uni](phone-number-management-for-the-u-k.md)
-> - [U.S. (Porto Rico)](phone-number-management-for-the-u-s.md)
+> - [U.S. & Porto Rico](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Voici un peu plus d’informations sur les formulaires de demande de numéro
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Formulaires de demande de nouveaux numéros de téléphone
 
-Chacun de ces pays ou régions dispose d’instructions différentes, de différents types de numéros (géographiques/non géographiques et de service (payant/gratuit) et de règles/règlements pour obtenir des numéros de téléphone afin de pouvoir les utiliser dans Teams.
+Chaque pays ou région comporte des instructions différentes, différents types de numéros de téléphone (géographiques/non géographiques et services (payants/payants)) et des règles de réception des numéros de téléphone pour pouvoir les utiliser dans Microsoft Teams.
 
-Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir de nouveaux numéros d’utilisateur ou de service (gratuits ou payants) à l’aide du centre d’administration de Microsoft Teams, ou vous devrez peut-être des numéros de téléphone spécifiques ou des indicatifs régionaux.
+Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir de nouveaux numéros de téléphone d’utilisateur ou de service (payant ou gratuit) à l’aide du centre d’administration de Microsoft teams ou vous aurez besoin de numéros de téléphone _spécifiques_ (demandes de entraînant) ou de codes de zone _spécifiques_ .
 
-Si tel est le cas, vous devez télécharger le formulaire PDF approprié (par pays/région et le type de numéro) et le renvoyer. Notre service d’assistance sera là pour vous en informer et vous communiquera sur la progression ou la commande.
+Si tel est le cas, vous devrez télécharger le formulaire de LOA PDF approprié (par pays ou région, et le type de numéro de téléphone) et nous le renvoyer. Notre service d’assistance sera là et commencera à traiter votre demande.
 
-### <a name="letters-of-authorization-loas-for-transferring-numbers"></a>Lettres de l’autorisation (LA) pour le transfert de numéros
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Lettres d’autorisation (LOAs) pour transférer/transférer les numéros de téléphone existants d’un autre fournisseur de services vers Microsoft teams
 
-Si vous devez transférer des numéros de téléphone, vous devez télécharger une **Lettre d’autorisation (LA)**, qui nous donne l’autorisation de demander, en votre nom, le transfert de numéro(s) existant(s) à partir d’un autre fournisseur de services en cas de litige. Utilisez une lettre d’autorisation, si vous avez :
-- Des numéros d’utilisateur chez un autre prestataire.
-- Des numéros de service (payants) de ponts de conférence audio, de standards automatiques ou de files d’attente d’appel.
-- Des numéros de service (gratuits).
-- Vous avez plus de 999 numéros de téléphone utilisateur que vous avez besoin d’obtenir dans le centre d’administration de Microsoft teams à l’aide de l’Assistant utiliser le portage de numéros locaux.
+Si vous avez besoin de transférer/transférer vos numéros de téléphone existants, vous devrez télécharger, remplir et nous faire parvenir une lettre d’autorisation (LOA), ce qui donne l’autorisation de demander et transférer, en votre nom, les numéros existants d’un autre fournisseur de services dans Microsoft Teams.
 
-## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a>Si vous avez besoin d’aide et ne savez pas comment faire...
+Envoyez-nous un **Loa** si vous disposez actuellement de l’un des opérateurs suivants :
+- Les numéros d’utilisateurs (abonnés);
+- Numéros de service (payant) pour les ponts de conférences audio, les standards automatiques ou les files d’attente d’appels.
+- Des numéros de téléphone gratuits ;
+- Vous avez plus de 999 numéros de téléphone utilisateur que vous devez transférer/transférer, mais ne pouvez pas accéder au centre d’administration Microsoft teams à l’aide de l’Assistant de transfert de numéros local.
 
-Si vous avez encore besoin d’aide, faites-nous savoir comment nous pouvons vous aider. Dans votre demande d’aide, mentionnez des détails tels que votre ID d’organisation, vos domaines, les types de numéros pour lesquels vous avez besoin d'assistance, le nombre de numéros que vous souhaitez obtenir, l'administrateur du compte et les détails importants concernant votre problème.
-- Pour obtenir de l'assistance pour des numéros de téléphone au sein des États-Unis, [envoyez votre demande ici](mailto:ptn@microsoft.com).
-- Pour obtenir de l’aide sur les numéros de téléphone en Europe, [Envoyez votre demande](mailto:ptneu@microsoft.com).
-- Pour obtenir de l’aide sur les numéros de téléphone en Asie, [Envoyez votre demande](mailto:ptnapac@microsoft.com).
+Une fois que vous avez terminé **et signé** Loa, veuillez [contacter notre service d’assistance RTC](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) pour nous permettre de vous aider.
 
-#### <a name="additional-resources"></a>Ressources supplémentaires
+## <a name="still-need-assistance"></a>Vous avez encore besoin d’aide ?
 
-- Pour savoir si des forfaits d’appels sont disponibles dans votre pays ou région, voir [disponibilité des pays et de la région pour les conférences audio et les offres d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) .
-- Pour vous aider à choisir le type de numéro de téléphone dont vous avez besoin, consultez les [différents types de numéros de téléphone utilisés pour les offres d’appels](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- Pour plus d’informations sur l’obtention de numéros de téléphone d'utilisateurs dans le centre d’administration, lisez [Obtenir des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
-- Pour obtenir de l’aide pour la configuration des numéros de téléphone pour votre organisation, [Contactez le service d’assistance PSTN](contact-pstn-service-desk.md).
-  
+[Veuillez contacter notre service d’assistance RTC](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) et nous vous aiderons dès que possible.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- Pour savoir _si_ les plans d’appel sont disponibles dans votre pays ou région, voir [disponibilité des pays et de la région pour les offres d’appels audio et de services d’audioconférence](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) .
+- Pour vous aider à choisir le type de numéro de téléphone correct, consultez les [différents types de numéros de téléphone utilisés pour les offres d’appels](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Pour obtenir de l’aide pour la configuration des numéros de téléphone pour votre organisation, voir : [contacter le support technique pour les produits professionnels-aide](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)de l’administrateur.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Conditions générales d’utilisation des appels d’urgence](../emergency-calling-terms-and-conditions.md)
 
-[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
+[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

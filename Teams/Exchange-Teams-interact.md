@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131142"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191241"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -36,7 +36,7 @@ Les utilisateurs hébergés sur Exchange Online ou Exchange dédié vNext peuven
 
 Les utilisateurs hébergés sur Exchange Online dédié (hérité) doivent être synchronisés avec Azure Active Directory sur Office 365. Ils peuvent créer et rejoindre des équipes et des canaux, ajouter et configurer des onglets et des robots, et utiliser les fonctionnalités de conversation et d’appel. Toutefois, ils ne peuvent pas modifier les images de profil, gérer les réunions, accéder aux contacts Outlook ou gérer les connecteurs.
 
-Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent également modifier l’image du profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et gérer les réunions, en fournissant Exchange Server 2016 (mise à jour cumulative 3) ou version ultérieure, s’exécute en local.
+Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent également modifier l’image du profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et gérer les réunions, en fournissant Exchange Server 2016 (mise à jour cumulative 3) ou version ultérieure, s’exécute sur site avec OAuth configuré (de préférence via l’Assistant Configuration hybride).
 
 Le tableau suivant fournit une référence rapide utile à la disponibilité des fonctionnalités en fonction de l’environnement Exchange.
 
@@ -48,7 +48,7 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 |**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui |
 |**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui|
 |**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>, 3</sup>|Oui <sup>, 4|Oui|Non|Non|Oui|Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
-|**Exchange sur site** (synchronisation avec Azure ad requise)|Oui <sup>2</sup>| Oui <sup>, 3</sup> |Oui <sup>, 4|Oui|Oui (Exchange 2016 CU3 +)|Oui<sup>8</sup> (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
+|**Exchange sur site** (synchronisation avec Azure ad & configuration OAuth requise)|Oui <sup>2</sup>| Oui <sup>, 3</sup> |Oui <sup>, 4|Oui|Oui (Exchange 2016 CU3 +)|Oui<sup>8</sup> (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
 
 <sup>1</sup> Exchange 2016 CU3 et supérieur pris en charge.  
 
