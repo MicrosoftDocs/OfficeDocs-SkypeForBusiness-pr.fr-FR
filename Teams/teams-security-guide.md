@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131212"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174966"
 ---
 > [!IMPORTANT]
 > Le modèle de service Teams est susceptible d’être modifié pour améliorer l’expérience des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception.
@@ -63,7 +63,7 @@ Teams atténue ces attaques en exécutant la protection réseau Azure DDOS et en
 
 Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. Cette attaque est également appelée reniflage (« sniffing ») ou surveillance (« snooping »). Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données.
 
-Teams utilise MTLS (mutual TLS) pour les communications serveur au sein d’O365 et TLS des clients au service, rendant cette attaque très difficile à réaliser, voire impossible, dans le délai pendant lequel une conversation donnée pourrait être attaquée. Le protocole TLS authentifie toutes les parties et chiffre le trafic. Ceci n’empêche pas les attaques par écoute, mais l’intrus ne peut pas lire le trafic à moins que le chiffrement ne soit rompu. Ajouter des sections/lignes OAuth.
+Teams utilise MTLS (mutual TLS) pour les communications serveur au sein d’O365 et TLS des clients au service, rendant cette attaque très difficile à réaliser, voire impossible, dans le délai pendant lequel une conversation donnée pourrait être attaquée. Le protocole TLS authentifie toutes les parties et chiffre le trafic. Ceci n’empêche pas les attaques par écoute, mais l’intrus ne peut pas lire le trafic à moins que le chiffrement ne soit rompu.
 
 Le protocole TURN est utilisé pour les médias en temps réel. Le protocole TURN n’impose pas de chiffrement du trafic et les informations qu’il envoie sont protégées par l’intégrité des messages. Bien qu’il soit ouvert à l’écoute électronique, les informations qu’il envoie (autrement dit les adresses IP et le port) peuvent être extraites directement en regardant simplement les adresses source et de destination des paquets. Le service Teams s’assure que les données sont valides par la vérification de l’intégrité du message en utilisant la clé dérivée de quelques éléments comprenant un mot de passe TURN, qui n'est jamais envoyé en clair. SRTP est utilisé pour le trafic multimédia et est également chiffré.
 
@@ -124,7 +124,10 @@ TLS permet aux utilisateurs, via leur logiciel client, d’authentifier les serv
 
 Les connexions de serveur à serveur reposent sur le protocole TLS (MTLS) mutuel pour l’authentification mutuelle. Sur une connexion MTLS, le serveur à l’origine d’un message et le serveur le recevant échangent des certificats à partir d’une autorité de certification mutuellement approuvée. Les certificats prouvent l’identité d’un serveur à un autre. Cette procédure est suivie dans le service Teams.
 
-Les protocoles TLS et MTLS évitent les attaques par écoute clandestine et les attaques d’homme intercepteurs. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. TLS et la spécification Teams des serveurs approuvés limitent partiellement le risque d’une attaque d’intercepteur sur la couche de l’application en utilisant un chiffrement de bout en bout coordonné à l’aide du chiffrement de clé publique entre les deux points de terminaison ; un attaquant devrait disposer d’un certificat valide et approuvé avec la clé privée correspondante et émise au nom du service sur lequel le client communique pour déchiffrer la communication.
+Les protocoles TLS et MTLS évitent les attaques par écoute clandestine et les attaques d’homme intercepteurs. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. La spécification des serveurs approuvés de TLS et de Teams atténue les risques d’attaque de l’intercepteur sur la couche d’application en utilisant le chiffrement qui est coordonné à l’aide du chiffrement à clé publique entre les deux points de terminaison. Un attaquant doit avoir un certificat valide et approuvé avec la clé privée correspondante et émis au nom du service vers lequel le client communique pour déchiffrer la communication.
+
+> [!NOTE]
+> Les données Teams sont chiffrées pendant le transit et au repos. Microsoft utilise les technologies standard du secteur telles que TLS et SRTP pour chiffrer toutes les données en transit entre les appareils des utilisateurs et les centres de données Microsoft, ainsi qu’entre les centres de données Microsoft. Elles comprennent les messages, fichiers, réunions et d’autres contenus. Les données de l’entreprise sont également chiffrées au repos dans les centres de données de Microsoft, ce qui permet aux organisations de déchiffrer du contenu le cas échéant, dans le but de respecter leurs obligations en matière de sécurité et de conformité, telles que eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Chiffrement pour Teams
 

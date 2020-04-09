@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11c3844540288bc94da445e4f13ed90b9a524f46
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053647"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190852"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -31,8 +31,12 @@ Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vo
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-*Nouveautés en novembre 2019*: vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams, y compris les réunions et conférences. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer les réunions et conférences dans Teams.
+Pour en savoir plus sur l’expérience des réunions pour vos utilisateurs, consultez[Réunions et appels](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
+
+*Nouveautés d’avril 2020* : les organisateurs de réunion peuvent mettre fin à une réunion pour tous les participants à la réunion Teams en cliquant sur **Mettre fin à la réunion** dans les contrôles de réunion au sein de la réunion.  
+
+*Nouveautés en novembre 2019*: vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams, y compris les réunions et conférences. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer les réunions et conférences dans Teams.
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Décisions liées au déploiement de réunions et de conférences
 
