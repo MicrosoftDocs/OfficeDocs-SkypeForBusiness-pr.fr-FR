@@ -16,16 +16,18 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157777"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170512"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
 Votre organisation souhaite-t-elle commencer à utiliser Microsoft Teams pour prendre en charge vos utilisateurs travaillant à distance ou à partir de leur domicile ? Utilisez les conseils décrits dans cet article pour devenir rapidement opérationnel.
+
+Si vous avez une petite entreprise ou moyenne entreprise, ne manquez pas [Permettez à votre petite entreprise d’utiliser des à distance](https://aka.ms/remote-business).
 
 ## <a name="it-admin-guidance"></a>Conseils pour les administrateurs informatiques
 
