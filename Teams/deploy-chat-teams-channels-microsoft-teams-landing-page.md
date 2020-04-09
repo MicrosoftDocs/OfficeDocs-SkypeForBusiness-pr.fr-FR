@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796017"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170592"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -97,6 +97,10 @@ L’accès externe (appelé auparavant « fédération ») permet à vos utilisa
 ### <a name="guest-access"></a>Accès invité
 
 L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est désactivé par défaut. Pour plus d’informations, voir [Accès invité dans Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+
+> [!NOTE]
+> Pour plus d’informations sur l’accès externe et l’accès hôte, consultez ici [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)
+
 
 |Posez-vous la question|Action |
 |------------|-------|
