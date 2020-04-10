@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184254"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213652"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -204,7 +204,7 @@ Vous pouvez activer le routage des appels en fonction de la présence avec n’i
 
 Si un agent ne peut plus passer d’appel, il n’est pas inclus dans la liste routage des appels, quelle que soit la valeur de son statut de disponibilité.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Les agents qui utilisent le client Skype entreprise ne sont pas inclus dans la liste routage des appels lorsque le routage en fonction de la présence est activé, même en fonction de leur statut de disponibilité. Les agents qui ne figurent pas dans la liste routage des appels ne reçoivent pas les appels. Si vous avez des agents qui utilisent Skype entreprise, n’activez pas le routage des appels basée sur la présence.
 
 ### <a name="select-an-agent-opt-out-option"></a>Sélectionner une option d’annulation d’agent

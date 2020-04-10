@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à gérer l’utilisation des indicateurs au sein de votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951549"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209486"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft teams
 
 Dans Microsoft Teams, les indicateurs permettent aux utilisateurs de communiquer avec un sous-ensemble de personnes d’une équipe. Les balises peuvent être ajoutées à un ou plusieurs membres de l’équipe pour se connecter facilement au sous-ensemble de personnes approprié. Les propriétaires d’équipe et les membres (si la fonctionnalité est activée pour eux) peuvent ajouter un ou plusieurs indicateurs à une personne. Vous pouvez ensuite utiliser les balises dans @mentions par tout membre de l’équipe dans un billet de canal ou pour démarrer une conversation avec uniquement les personnes auxquelles cette balise est affectée.
 
 > [!NOTE]
-> Les balises ne sont pas encore prises en charge dans les canaux privés. Les balises ne sont pas encore disponibles dans les organisations du secteur public américain de la communauté américaine (GCC), des États-Unis ou du ministère de la défense des États-Unis. 
+> Les balises ne sont pas encore prises en charge dans les canaux privés. Les balises ne sont pas encore disponibles dans les organisations du secteur public américain de la communauté américaine (GCC), des États-Unis ou du ministère de la défense des États-Unis.
 
 ## <a name="how-tags-work"></a>Fonctionnement des indicateurs
 
@@ -37,7 +37,7 @@ Vous pouvez ajouter un indicateur à une personne d’une équipe spécifique. D
 - Un responsable du Windows Store veut publier une annonce dans un canal et en informer tous les caissiers.
 - Un responsable de produit de groupe veut avertir tous les responsables de produits dans un canal.
 - Un administrateur de l’hôpital veut envoyer un message à tous les Radiologists dans un canal.
-- Un responsable marketing veut commencer une discussion de groupe avec tous les concepteurs. 
+- Un responsable marketing veut commencer une discussion de groupe avec tous les concepteurs.
 
 Pour en savoir plus, voir [utilisation de balises dans teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
@@ -46,6 +46,8 @@ Pour en savoir plus, voir [utilisation de balises dans teams](https://support.of
 En tant qu’administrateur, vous pouvez contrôler qui peut ajouter des balises et comment les balises sont utilisées au sein de votre organisation dans le centre d’administration Microsoft Teams.
 
 ![Capture d’écran des paramètres de marquage dans le centre d’administration Microsoft teams](media/manage-tags-admin-settings.png)
+
+Une équipe peut avoir jusqu’à 100 indicateurs, jusqu’à 100 membres de l’équipe peuvent être attribuées à une balise et 25 balises peuvent être affectées à un utilisateur unique. 
 
 ### <a name="set-who-can-add-tags"></a>Définir qui peut ajouter des indicateurs
 
