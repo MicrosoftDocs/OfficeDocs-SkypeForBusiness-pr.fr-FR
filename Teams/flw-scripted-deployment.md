@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122918"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207063"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de terrain
 
@@ -37,6 +37,9 @@ Dans cette procédure pas à pas, vous apprendrez à :
 - Créer des stratégies de messagerie, de configuration d’application et d’autorisation d’application d’équipes appropriées.
 - Appliquer ces stratégies à grande échelle à des utilisateurs.
 - Affecter un grand nombre d’utilisateurs à une équipe désignée.
+
+> [!NOTE]
+> Si vous avez passé en revue ces informations et si vous avez besoin d’aide ou si vous avez des questions, vous pouvez [**cliquez ici**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u) pour contacter le support pour les gants blancs.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
