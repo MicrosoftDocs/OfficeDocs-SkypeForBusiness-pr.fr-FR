@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106691"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227548"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -75,7 +75,8 @@ Une fois l’installation terminée, vous devez voir les noms de plusieurs centa
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector4.png)
 
-**Remarque importante :** Le tableau de bord de qualité des appels nécessite une mesure pour s’exécuter sur n’importe quelle requête. L’échec de l’ajout d’une mesure à une requête entraînera l’échec de la requête.
+    > [!IMPORTANT] 
+    > Le tableau de bord de qualité des appels nécessite une mesure pour s’exécuter sur n’importe quelle requête. L’échec de l’ajout d’une mesure à une requête entraînera l’échec de la requête.
 
 3.  Sélectionnez ensuite les dimensions sur lesquelles vous voulez filtrer et faites-les glisser vers les *filtres de ce champ visuel* dans le volet de *filtres* . Le bord Power BI Connector prend actuellement en charge les *filtres de base* (sélectionnez des valeurs dans une liste de valeurs de dimension possibles), le *filtrage avancé* (spécifier manuellement des valeurs et des opérandes pour le filtrage, similaire à l’option avancée bord) et le *filtrage de date relatif* (disponible uniquement pour les dimensions heure de *fin* et *heure de début* ). Le filtrage en fonction de *Top N* n’est pas pris en charge par bord.
 
@@ -83,7 +84,8 @@ Une fois l’installation terminée, vous devez voir les noms de plusieurs centa
 
 4.  Enfin, sélectionnez l’onglet *mise en forme* dans le volet de *visualisations* pour appliquer un style et une mise en forme à votre requête.
 
-**Remarque :** Les requêtes bord requièrent au moins une mesure pour pouvoir s’exécuter. Si votre requête ne se charge pas, assurez-vous d’avoir inclus une mesure dans la requête.
+    > [!NOTE]
+    > Les requêtes bord requièrent au moins une mesure pour pouvoir s’exécuter. Si votre requête ne se charge pas, assurez-vous d’avoir inclus une mesure dans la requête.
 
 ## <a name="creating-a-drillthrough-report"></a>Création d’un rapport d’extraction
 
@@ -100,6 +102,10 @@ L' [extraction dans Power bi](https://docs.microsoft.com/power-bi/desktop-drillt
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector7.png)
 
 Contrairement à bord avancée, Power BI prend en charge l’extraction non séquentielle. Tant qu’une requête inclut la dimension nécessaire, elle peut procéder à une extraction vers une autre page.
+
+### <a name="best-practice"></a>Meilleure pratique
+
+Les requêtes de connecteur de qualité d’appel doivent être conçues avec la fonctionnalité d’extraction à l’esprit. Au lieu d’essayer de charger toutes les données en une seule fois, puis de les découper à l’aide de filtres, commencez par des requêtes plus larges et à faible taux de cardinalité. Par exemple, lorsque vous tentez de diagnostiquer quels sous-réseaux contribuent à la plupart des problèmes de qualité, nous vous conseillons d’identifier ces régions et pays qui contribuent au problème, puis d’explorer les sous-réseaux dans cette région ou ce pays. Les modèles de connecteur de qualité d’appel ont été conçus de cette manière pour servir d’exemple.
 
 ## <a name="limitations"></a>Conditions
 

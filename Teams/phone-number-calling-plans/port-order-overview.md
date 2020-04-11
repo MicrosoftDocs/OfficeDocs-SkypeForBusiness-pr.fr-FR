@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble de vos demandes de transfert et du transfert de vos numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827942"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227538"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -35,7 +35,9 @@ Passez en revue les informations fournies dans cet article pour vous familiarise
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>Quels pays ou régions prennent en charge le transfert de numéro ?
 
-Vous pouvez transférer ou transférer des numéros de téléphone dans tous les pays ou régions pris en charge, mais le mode de soumission d’une demande de transfert dépend du pays ou de la région dont proviennent les numéros de téléphone. Pour obtenir la liste des pays et régions qui prennent en charge le transfert de numéros, voir [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Vous pouvez transférer ou transférer des numéros de téléphone dans tous les pays ou régions pris en charge, mais le mode de soumission d’une demande de transfert dépend du pays ou de la région dont proviennent les numéros de téléphone. Pour obtenir la liste des pays et régions qui prennent en charge le transfert de numéros, voir [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+
+Pour l’instant, [l’Assistant Portage](transfer-phone-numbers-to-teams.md) dans le centre d’administration Microsoft teams prend en charge l’affichage des numéros de téléphone pour le Royaume-Uni, les États-Unis et le Canada. Pour obtenir des numéros de téléphone pour d’autres pays ou régions, vous pouvez [demander manuellement une demande de](manually-submit-port-order.md)transfert.
   
 ## <a name="what-numbers-can-be-transferred"></a>Quels sont les numéros qui peuvent être transférés ?
 
@@ -161,7 +163,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à apporter des modifications au compte doit demander au transporteur actuel de lui permettre de lever le blocage. Ce processus peut prendre de une à trois semaines en fonction du transporteur.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

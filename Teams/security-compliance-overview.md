@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207003"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227408"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -66,7 +66,11 @@ La façon dont le contenu affecté est géré après la détection correspond au
 
 ### <a name="safe-links"></a>Liens approuvés
 
-Pour le moment, les liens sécurisés ATP ne sont pas disponibles dans Microsoft Teams, ils sont désormais disponibles dans la version préliminaire publique du programme d’adoption de la technologie (TAP) et, si la date de publication de la disponibilité générale n’est pas définie, nous mettrons à jour cet article lorsque le délai sera écoulé. Pour plus d’informations sur les liens en sécurité d’Office 365, consultez les [liens de sécurité office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
+Pour l’instant, les liens sécurisés de protection contre les menaces avancées (ATP) ne sont pas disponibles dans Microsoft Teams, ils sont désormais disponibles dans la version [préliminaire publique](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) du programme d’adoption de la technologie (TAP) et, si la date de publication de la disponibilité générale n’est pas définie, nous mettrons à jour cet article lorsque le délai sera atteint. Pour plus d’informations sur les liens en sécurité d’Office 365, consultez les [liens de sécurité office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). Les liens de sécurité ATP sont disponibles à la fois pour les plans [1 et 2 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
+
+### <a name="safe-attachments"></a>Pièces jointes approuvées
+
+Les pièces jointes fiables sont une fonctionnalité conçue pour améliorer la sécurité des utilisateurs en recherchant et en détectant des pièces jointes malveillantes. Les administrateurs généraux ou de sécurité créent des [stratégies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) de gestion de ces pièces jointes malveillantes présumées pour les empêcher d’être envoyées aux utilisateurs, de cliquer et de traiter. La protection sécurisée des pièces jointes est disponible sur SharePoint Online, OneDrive entreprise et Microsoft Teams, et à la fois dans Office 365 [Advanced Threat Protection Plan 1 et 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) disposent de cette fonctionnalité. Pour en savoir plus sur les pièces jointes sûres et la façon dont elles peuvent vous aider à protéger [votre organisation.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Fonctionnement des stratégies d’accès conditionnel pour les équipes
 
@@ -191,7 +195,7 @@ Teams est conforme à la norme de niveau D. Cela inclut les normes suivantes : 
 
 Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Microsoft 365 sécurité](https://docs.microsoft.com/microsoft-365/security/)
 Microsoft[365 conformité](https://docs.microsoft.com/microsoft-365/compliance/)
