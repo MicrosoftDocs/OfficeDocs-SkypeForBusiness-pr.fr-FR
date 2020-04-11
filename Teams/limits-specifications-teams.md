@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962083"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209446"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -121,8 +121,6 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Périodique sans heure de fin     |Heure de début + 60 jours         |60 jours         |
 |Périodique avec heure de fin     |Heure de fin de la dernière occurrence + 60 jours         |60 jours         |
 
-
-
 ## <a name="teams-live-events"></a>Événements en direct Teams
 
 |Fonctionnalité     | Limite maximale |
@@ -156,6 +154,15 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 Les canaux sont protégés par des dossiers au sein de la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets des fichiers au sein des canaux partagent les limites de stockage de l’équipe à laquelle ils appartiennent.
 
 Pour plus d’informations, voir [Limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="tags"></a>Balises
+
+|Fonctionnalité  |Limite maximale  |
+|---------|---------|
+|Nombre de balises par équipe    | 100        |
+|Nombre de balises par défaut suggérées par équipe    | 25        |
+|Nombre de membres de l’équipe attribués à un indicateur    |100         |
+|Nombre de mots clés attribués à un utilisateur    |25         |
 
 ## <a name="contacts"></a>Contacts
 

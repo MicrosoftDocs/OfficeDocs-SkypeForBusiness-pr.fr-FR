@@ -19,15 +19,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: 32cbbbc87e6447c3bc49b97b772e2aea4849550f
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174966"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209496"
 ---
 > [!IMPORTANT]
-> Le modèle de service Teams est susceptible d’être modifié pour améliorer l’expérience des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception.
+> Le modèle de service Teams est susceptible d’être modifié pour améliorer l’expérience des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception. 
+<p>
 
  # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
@@ -77,7 +78,7 @@ TLS authentifie toutes les parties et chiffre tout le trafic. L’utilisation de
 
 Une attaque de l’intercepteur se produit lorsqu’une personne malveillante redirige les communications entre deux utilisateurs via son propre ordinateur, à l’insu des deux participants. L’intrus peut surveiller et lire le trafic avant de l’acheminer vers le destinataire concerné. Chacun des utilisateurs envoie et reçoit du trafic vers/de l’intrus, alors qu’il pense communiquer avec l’utilisateur concerné uniquement. Cela peut se produire si une personne malveillante modifie les services de domaine Active Directory pour ajouter son serveur en tant que serveur approuvé, ou si elle modifie DNS (Domain Name System) pour faire en sorte que les clients se connectent au serveur via l’ordinateur de l’intrus à l’origine de l’attaque.
 
-Une attaque de l’intercepteur peut également se produire avec le trafic multimédia entre deux clients, sauf que dans Teams, les flux audio, vidéo et de partage d’applications point à point sont chiffrés avec SRTP à l’aide de clés cryptographiques négociées entre les homologues utilisant le protocole SIP (Session Initiation Protocol) sur TLS.
+Les attaques d’homme-intermédiaire sur le trafic multimédia entre deux points de terminaison qui participent dans l’audio, la vidéo et le partage d’applications dans Teams sont évitées en utilisant SRTP pour chiffrer le flux de données multimédia. Les clés cryptographiques sont négociées entre les deux points de terminaison sur un protocole de signalisation propriétaire (Team Calling Protocol) qui utilise TLS 1,2 et AES-256 (en mode GCM) canal UDP/TCP chiffré.
 
 ### <a name="rtp-replay-attack"></a>Attaque par relecture RTP
 
