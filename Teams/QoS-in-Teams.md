@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138034"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237887"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -78,7 +78,7 @@ Une simple analogie est que la qualité de service (QoS) crée des « couloirs 
 
 ## <a name="select-a-qos-implementation-method"></a>Sélectionner une méthode d’implémentation de QoS
 
-Vous pouvez implémenter QoS par le biais du balisage basée sur le port, à l’aide des listes de contrôle d’accès (ACL) sur les routeurs de votre réseau. Le balisage basé sur les ports est la méthode la plus fiable, car elle fonctionne dans les environnements Windows et Mac mixte et est la plus simple à implémenter. Les clients mobiles ne fournissent aucun mécanisme de marquage du trafic à l’aide de valeurs DSCP, de sorte qu’ils nécessitent cette méthode.  
+Vous pouvez implémenter QoS par le biais du balisage basée sur le port, à l’aide des listes de contrôle d’accès (ACL) sur les routeurs de votre réseau. Le balisage basé sur les ports est la méthode la plus fiable, car elle fonctionne dans les environnements Windows, Mac et Linux et est la plus simple à implémenter. Les clients mobiles ne fournissent aucun mécanisme de marquage du trafic à l’aide de valeurs DSCP, de sorte qu’ils nécessitent cette méthode.  
 
 À l’aide de cette méthode, le routeur de votre réseau examine un paquet entrant et, si le paquet est reçu à l’aide d’un certain port ou d’une plage de ports, il l’identifie en tant que type de média, et le place dans la file d’attente pour ce type, en ajoutant une marque [DSCP](https://tools.ietf.org/html/rfc2474) prédéfinie à l’en-tête de paquets IP, de manière à ce
 

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174916"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237937"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 ======================================================
@@ -31,7 +31,10 @@ Teams est composé de groupes de personnes qui travaillent ensemble vers un obje
 
 Avant de créer une équipe, pensez à l'objectif, au projet ou à l'élément de travail, ainsi qu'à ceux qui peuvent y contribuer en collaboration au sein de votre organisation. Après leur identification, ajoutez ces personnes/groupes à une équipe pour initier la collaboration. L’appartenance pouvant changer au fil du temps, il est recommandé de désigner plusieurs propriétaires au sein de chaque équipe. Pour plus d'informations, consultez la [Gestion des équipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-La [playlist vidéo](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) de Microsoft teams fournit des informations supplémentaires sur la création et la gestion d’équipes.
+
+Consultez cette courte vidéo pour découvrir quelques exemples pour structurer les équipes dans votre organisation ou des équipes à objectif unique :
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>Ajouter des équipes de manière progressive
 

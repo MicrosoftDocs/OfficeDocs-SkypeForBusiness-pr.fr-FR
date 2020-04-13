@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227408"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237897"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -193,7 +193,7 @@ Si vous avez besoin de voir la région qui abrite les données pour votre client
 
 Teams est conforme à la norme de niveau D. Cela inclut les normes suivantes : [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 et SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)et des [clauses de modèle européen (CMUE)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Dans l’infrastructure de conformité Microsoft, Microsoft classifie les applications et services Office 365 en quatre catégories. Chaque catégorie est définie par des engagements de conformité spécifiques qui doivent être satisfaits pour un service Office 365 ou un service Microsoft associé qui doit être répertorié dans cette catégorie.
 
-Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams prend également en charge la conformité à la Cloud Security Alliance.
+Les services dans les catégories de conformité C et D qui présentent des engagements de conformité de l’industrie sont activés par défaut. Les services dans les catégories A et B disposent de contrôles permettant d’activer ou de désactiver ces services pour une organisation entière. Vous trouverez plus d’informations sur les [normes de conformité](security-compliance-overview.md#compliance-standards). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
 ## <a name="related-topics"></a>Voir aussi
 

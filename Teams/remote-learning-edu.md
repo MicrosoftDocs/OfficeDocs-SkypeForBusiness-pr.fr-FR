@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: a6b89b9c5645c89be54507cf33657a720e27d4b5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174956"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227508"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
 > [!NOTE]
 > Cet article est une ressource très utile pour configurer votre établissement scolaire pour l’apprentissage à distance. Si vous êtes enseignant, directeur d’un établissement scolaire ou un professionnel de l’informatique, ces ressources peuvent vous être utiles :
 >
+> - Tirez parti de l’ensemble de votre établissement scolaire ou Université vers le haut et le plus rapidement opérationnels avec les [**Prise en main d’un seul récepteur de radiomessagerie**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Téléchargez [**Démarrer avec Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) : un guide pour les professionnels de l’informatique présentant des pratiques utiles pour la sécurité et la gestion des modifications.
 > - Un ensemble d’articles rédigés pour les éducateurs, qui comprend des conseils pratiques pour les étapes [**les plus importantes de l’enseignement dans Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft vous montre comment les éducateurs utilisent Teams dans leur vie professionnelle. [**Transformer l’apprentissage avec Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
@@ -72,6 +73,8 @@ Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils
 
 Les clients de l’enseignement supérieur sont favorisés lorsque tout le monde, y compris les étudiants, peut créer des équipes pour des cours, des recherches, des projets de groupe et des groupes d’étude. Les établissements d’enseignement primaire et secondaire peuvent limiter la création Teams par les étudiants pour s’assurer que toutes les communications entre étudiants se déroulent trouvent dans un forum comprenant un adulte. Dans ce cas, la création de groupe Office 365 et Teams peut être limitée à tous les enseignants et membres du personnel.
 
+Pour un parcours guidé sur la création d’équipes, voir : [Créer une équipe de classe dans Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurer des expériences utilisateur à l’aide de stratégies
 
 [Les stratégies Teams](teams-policies.md) offrent la possibilité de contrôler les options disponibles pour des utilisateurs ou groupes d’utilisateurs précis. Les stratégies peuvent être appliquées pour définir qui peut être autorisé à utiliser la conversation privée, l’appel privé, la planification de réunions, les types de contenus pouvant être partagés, etc.
@@ -81,7 +84,7 @@ Les clients de l’enseignement supérieur sont favorisés lorsque tout le monde
 Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiants de l’enseignement primaire et secondaire**. Les stratégies définissent des limites relatives à ce que les étudiants peuvent faire. La population étudiante représente souvent le plus grand nombre d’utilisateurs et reçoit, le plus souvent, les paramètres les plus restrictifs. Il est donc recommandé d’apporter des modifications à la stratégie étudiant et de la configurer sur « Général » (à l’échelle de l’organisation par défaut).
 
 > [!IMPORTANT]
-> Pour les stratégies de réunion attribuées à tous les utilisateurs, nous vous recommandons de définir le paramètre « Administrateurs automatiquement » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
+> Pour les stratégies de réunion attribuées aux utilisateurs, nous vous recommandons de définir le paramètre « Admettre automatiquement les personnes » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Voici un série de configurations de stratégie personnalisées communes qui seraient attribuées aux étudiants du primaire et du secondaire pour limiter les communications non modérées entre étudiants :
 
@@ -101,6 +104,10 @@ Voici un série de configurations de stratégie personnalisées communes qui ser
 - Autoriser la planification de réunions configurée sur « désactivé »
 - Autoriser la planification de réunions privées définie sur « désactivé »
 - Autoriser Réunion maintenant configuré sur « désactivé »
+- Facultatif : autoriser la vidéo sur IP paramétrée sur « activé »
+
+> [!NOTE]
+> Les enseignants peuvent ainsi voir les vidéos des étudiants en temps réel.
 
 #### <a name="live-events-policy"></a>Stratégie d’événements en direct
 
@@ -137,6 +144,8 @@ Les [équipes de type personnel](https://support.office.com/article/create-a-sta
 
 Les [réunions Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) prennent en charge jusqu’à 250 participants simultanément avec la possibilité d’avoir du son, de la vidéo, un [partage de contenu](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), des tableaux blancs et des notes partagées. Les réunions peuvent être planifiées au sein du client Teams pour une [réunion dans un espace privé ou dans un canal d’équipe](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), afin que tous les membres de l’équipe soient informés. Les réunions peuvent être enregistrées et sauvegardées pour être consultées par la suite. Ces enregistrements peuvent également être [transcrits afin de rechercher facilement dans le contenu](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308) abordé. Vous pouvez utiliser un ordinateur portable ou un téléphone mobile avec webcam, un microphone et un haut-parleur pour les réunions. Vous pouvez optimiser la qualité audio/vidéo à l'aide des [appareils Microsoft Teams optimisés](https://products.office.com/microsoft-teams/across-devices/devices).
 
+Dans Teams, les organisateurs de réunions peuvent mettre fin à une réunion pour tous les participants. Avec cette fonctionnalité, les enseignants peuvent s’assurer que les étudiants ne restent pas au même niveau de réunion une fois qu’une classe est terminée.
+
 ### <a name="districtuniversity-events-or-updates"></a>Événements ou mises à jour de départements/d'universités
 
 Certains enseignements nécessitent des audiences plus grandes et des fonctionnalités de production supplémentaires. Ces réunions ont souvent des présentateurs, des producteurs définis ainsi que des discussions modérées (questions et réponses). Teams prend en charge ces sessions à l’aide des [événements en direct Microsoft Teams](teams-live-events/what-are-teams-live-events.md). Les événements en direct peuvent être utilisés dans certains cas, comme les mises à jour à l’échelle du département ou de l’université, les discours des dirigeants, les enseignements destinés à des classes ou des groupes d’étudiants importants, ou pour accroître votre communauté. En savoir plus sur l'organisation de sessions en direct sur : [concevoir et planifier un événement en direct](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [créer un évènement en direct](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [assister à un événement en direct](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac) et [animer une séance de Q&R](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
@@ -147,6 +156,8 @@ Si vous souhaitez en savoir plus sur l’utilisation de Teams dans le secteur de
 
 > [!NOTE]
 > Certaines fonctionnalités clés de Teams ne sont pas spécifiques à l’éducation. Vous trouverez des conseils et des astuces pour les principales fonctionnalités Teams sur : [Apprentissage et aide pour Microsoft Teams](https://support.office.com/teams).
+
+Si vous voulez en savoir plus sur la façon de protéger vos étudiants durant les réunions, vous pouvez consulter [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>Empêcher les utilisateurs de modifier leur nom d'affichage
 
