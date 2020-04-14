@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574001"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240594"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ Conçu pour les professionnels de l’informatique et les décideurs, les discus
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ Conçu pour les professionnels de l’informatique et les décideurs, les discus
                     </div>
                     <div class="cardText">
                         <h3>Activation d’équipes pour l’engagement de terrain Worker</h3>
-                        <p><font color="red"><i>À venir!</i></font> Êtes-vous prêt à commencer à activer des espaces de travail numériques pour votre terrain ? Ensemble, nous allons examiner les meilleures pratiques en matière de démarrage d’un pilote pour améliorer la communication, l’engagement des employés et la productivité opérationnelle.</p>
+                        <p>Êtes-vous prêt à commencer à activer des espaces de travail numériques pour votre terrain ? Ensemble, nous allons examiner les meilleures pratiques en matière de démarrage d’un pilote pour améliorer la communication, l’engagement des employés et la productivité opérationnelle.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ Conçu pour les professionnels de l’informatique et les décideurs, les discus
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Découvrir les nouveautés dans teams</h3>
-                        <p><font color="red"><i>À venir!</i></font>  Avez-vous déjà attendu une fonctionnalité à publier dans teams ? Interagissez avec les experts en équipe dès que nous vous guiderons dans les dernières versions de fonctionnalités au cours du mois précédent, ainsi que les meilleures pratiques pour les implémenter.</p>
+                        <h3>Des expériences qualité AV</h3>
+                        <p>Avez-vous besoin de veiller à ce que les utilisateurs disposent d’expériences optimales pour les réunions et les fonctionnalités vocales dans teams ? Au cours de cette session, nous allons aborder les outils, la création de rapports et des meilleures&mdash;pratiques pour gérer la qualité du service à partir de la définition d’une stratégie proactive visant à résoudre les problèmes courants au fur et à mesure de leur apparition.</p>
                     </div>
                 </div>
             </div>
