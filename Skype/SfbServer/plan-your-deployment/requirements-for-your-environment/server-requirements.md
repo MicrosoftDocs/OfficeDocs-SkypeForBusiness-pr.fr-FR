@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : Préparez vos serveurs Skype entreprise Server 2015 avec cette rubrique. Matériel, système d’exploitation, bases de données, logiciel, toutes les exigences système et les recommandations sont ici pour vous aider à réussir l’installation et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572792"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237947"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Configuration requise pour le serveur pour Skype entreprise Server 2015
  
@@ -51,7 +51,7 @@ Matériel recommandé pour les serveurs frontaux, les serveurs principaux, les s
 |:-----|:-----|
 |UC  <br/> |biprocesseur de 64 bits, hex-Core, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles Skype entreprise Server 2015.  <br/> |
 |Mémoire  <br/> |32 gigaoctets (Go).  <br/> |
-|Disque  <br/> |ENTRE  <br/> • 8 disques durs 10000 tr/min avec au moins 72 Go d’espace disque disponible (deux des disques utilisant RAID 1 et 6 avec RAID 10).  <br/> OU  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires sur des disques durs mécaniques de 8 10000 tr/min.  <br/> |
+|Disque  <br/> |ENTRE  <br/> • 8 disques durs 10000 tr/min avec au moins 72 Go d’espace disque disponible (deux des disques utilisant RAID 1 et 6 avec RAID 10).  <br/> OR  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires sur des disques durs mécaniques de 8 10000 tr/min.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou supérieur (2 cartes réseau peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations double ou multi-résidents ne sont **pas** prises en charge pour les serveurs frontaux, les serveurs principaux, les serveurs Standard Edition Server et les serveurs de conversation permanente. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et sont utilisés pour surveiller et gérer le matériel de serveur, vous pouvez disposer de systèmes de gestion hors bande, comme DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-hébergement et est pris en charge.  <br/> |
    
 Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonomes, les serveurs d’interopérabilité vidéo et les directeurs :
@@ -60,7 +60,7 @@ Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonom
 |:-----|:-----|
 |UC  <br/> |Double processeur 64 bits, quadruple cœur, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles Skype entreprise Server 2015.  <br/> |
 |Mémoire  <br/> |16 gigaoctets.  <br/> |
-|Disque  <br/> |ENTRE  <br/> • au moins 4 disques durs 10000 RPM avec au moins 72 Go d’espace disque disponible (les disques doivent être dans une configuration 2x RAID 1).  <br/> OU  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires sur des disques durs mécaniques de 4 10000 tr/min.  <br/> |
+|Disque  <br/> |ENTRE  <br/> • au moins 4 disques durs 10000 RPM avec au moins 72 Go d’espace disque disponible (les disques doivent être dans une configuration 2x RAID 1).  <br/> OR  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires sur des disques durs mécaniques de 4 10000 tr/min.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou supérieur (2 cartes réseau peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations Dual ou multi-hébergement ne sont **pas** prises en charge pour les serveurs et les directeurs d’interopérabilité vidéo. <br/> Les serveurs Edge nécessitent deux interfaces réseau qui sont des cartes réseau à deux ports, 1 Gbits/s ou supérieur (ou deux cartes réseau couplées, pour un total de quatre, chaque paire étant associée à une seule adresse MAC et une seule adresse IP, pour un total de deux paires).  <br/> Sur les serveurs de médiation autonomes, l’installation de cartes d’interface réseau (NIC) supplémentaires pour permettre la configuration d’une adresse IP RTC spécifique est prise en charge.  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Systèmes d’exploitation pour Skype entreprise Server 2015
@@ -74,7 +74,10 @@ Une fois le matériel en place, vous devez installer les systèmes d’exploitat
 |Système d’exploitation Windows Server 2012 R2 Datacenter avec toutes les mises à jour requises installées.  <br/> |Windows Server 2012 R2 Standard OS avec toutes les mises à jour requises installées.  <br/> |
 |Windows Server 2012 Datacenter OS avec toutes les mises à jour requises installées.  <br/> |Windows Server 2012 standard OS avec toutes les mises à jour requises installées.  <br/> |
    
-S’il ne figure pas sur cette liste, il ne fonctionnera pas correctement, veuillez ne pas le tester pour les nouvelles installations de Skype entreprise Server 2015. Notez que la mise à niveau sur place du système d’exploitation n’est pas prise en charge avec Lync Server 2013.  Vous devez déployer un pool distinct et migrer les utilisateurs vers le nouveau pool avec un système d’exploitation différent.
+S’il ne figure pas sur cette liste, il ne fonctionnera pas correctement, veuillez ne pas le tester pour les nouvelles installations de Skype entreprise Server 2015.
+
+> [!NOTE]
+> La mise à niveau sur place du système d’exploitation n’est pas prise en charge avec Lync Server 2013. Vous devez déployer un pool distinct et migrer les utilisateurs vers le nouveau pool avec un système d’exploitation différent. Tous les serveurs d’un pool doivent avoir la même version de système d’exploitation.
   
 > [!NOTE]
 > Vous avez peut-être remarqué que Windows Server 2008 R2 ne figure pas sur cette liste. En effet, nous vous recommandons d’utiliser Windows Server 2012 R2 pour tous les nouveaux serveurs pour SFB. Vous devez utiliser Windows Server 2008 R2 uniquement lorsque vous disposez de serveurs existants où Lync Server 2013 est déjà installé, et que vous avez l’intention d’effectuer une mise à niveau sur place. Windows Server 2008 R2 a atteint la fin du cycle de vie de support standard le 1/13/2015 et atteindra la fin de son cycle de vie sur 1/14/2020.
@@ -268,6 +271,6 @@ Mise en file d’attente des messages, qui est également appelée MSMQ. Il s’
   
  **Dernière idée :**
   
-N’installez pas de logiciel client Microsoft Internet Security and Acceleration (ISA) Server ou tout autre logiciel de fournisseur de services en couche (LSP) Winsock (tous les logiciels d’inspection de réseau antivirus ou de pare-feu tiers seraient inclus ici) sur tous vos serveurs frontaux ou serveurs de médiation autonomes. De mauvaises performances de trafic multimédia ont été constatées lorsque ce logiciel est installé.
+N’installez pas de logiciel client Microsoft Internet Security and Acceleration (ISA) Server ou tout autre logiciel de fournisseur de services en couche (LSP) Winsock (tous les logiciels d’inspection de réseau antivirus ou de pare-feu tiers seraient inclus ici) sur l’un des serveurs frontaux ou des serveurs de médiation autonomes. De mauvaises performances de trafic multimédia ont été constatées lorsque ce logiciel est installé.
   
 
