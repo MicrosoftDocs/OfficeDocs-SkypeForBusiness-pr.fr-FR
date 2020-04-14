@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637201"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240634"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>Rechercher des URL SharePoint pour tous les canaux privés d’une équipe
 
-Que vous souhaitiez exécuter une découverte électronique ou un blocage légal sur des fichiers dans un canal privé ou avoir besoin d’une application métier qui place des fichiers dans des canaux privés spécifiques, vous avez besoin d’un moyen d’interroger les collections de sites SharePoint uniques créées pour chaque canal privé.
+Que vous souhaitiez exécuter une découverte électronique ou un blocage légal sur des fichiers dans un canal privé ou concevoir une application métier qui place des fichiers dans des canaux privés spécifiques, vous avez besoin d’un moyen d’interroger les collections de sites SharePoint uniques créées pour chaque canal privé.
 
 En tant qu’administrateur, vous pouvez utiliser les commandes de l’API PowerShell ou de Graph pour interroger ces URL.
 
@@ -271,7 +271,7 @@ Vous pouvez essayer ces commandes via l' [Explorateur de graphiques](https://dev
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Installer le dernier module PowerShell teams à partir de la Galerie de tests PowerShell
 
-La dernière version publique disponible du module teams PowerShell (actuellement [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) ne prend pas en charge la gestion des canaux privés. Procédez comme suit pour installer la dernière version du module PowerShell teams avec prise en charge de canal privé (actuellement 1.0.18) à partir de la Galerie de tests PowerShell.
+La dernière version publique disponible du module teams PowerShell (actuellement [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) ne prend pas en charge la gestion des canaux privés. Procédez comme suit pour installer la dernière version du module PowerShell teams avec prise en charge de canal privé (actuellement 1.0.21) à partir de la Galerie de tests PowerShell.
 
 > [!NOTE]
 > N’installez pas le module PowerShell teams à partir de la Galerie de tests PowerShell côte à côte avec une version du module dans la Galerie PowerShell publique. Procédez comme suit pour désinstaller d’abord le module PowerShell teams dans la Galerie PowerShell public, puis installez la dernière version du module à partir de la Galerie de tests PowerShell.
@@ -323,8 +323,8 @@ Si vous avez déjà installé le module teams PowerShell à partir de la Galerie
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Aperçu de Teams PowerShell](teams-powershell-overview.md)
-- [Utiliser l’API Microsoft Graph pour travailler avec des équipes](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Présentation de Teams PowerShell](teams-powershell-overview.md)
+- [Utiliser l’API Microsoft Graph pour travailler avec Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [Canaux de liste](https://docs.microsoft.com/graph/api/channel-list)
     - [Créer un canal](https://docs.microsoft.com/graph/api/channel-post)
     - [Ajouter un membre au canal](https://docs.microsoft.com/graph/api/conversationmember-add)

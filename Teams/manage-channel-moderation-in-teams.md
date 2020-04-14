@@ -18,18 +18,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer des canaux de modération dans Microsoft Teams, y compris comment ajouter des membres à une équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136804"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240614"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft teams
 
-Dans Microsoft Teams, les propriétaires d’équipe peuvent activer le modération d’un canal pour contrôler qui peut démarrer de nouvelles publications et répondre à des publications dans ce canal.
+Dans Microsoft Teams, les propriétaires d’équipe peuvent activer le modération d’un canal standard pour contrôler les utilisateurs qui peuvent lancer de nouvelles publications et répondre aux publications dans ce canal.
 
 Les propriétaires d’équipe peuvent également ajouter des membres à une équipe comme modérateurs. Il est possible que le propriétaire d’une équipe ne dispose pas de l’expertise du domaine au niveau du canal pour prendre en charge le modérateur du canal. En permettant aux membres d’équipe spécifiques de modérer un canal, la responsabilité de la gestion du contenu et du contexte au sein d’un canal est partagée entre les propriétaires d’équipe et les modérateurs de canaux. Par exemple, un propriétaire d’équipe peut ajouter des propriétaires d’entreprise ou des propriétaires de contenu en tant que modérateurs, ce qui leur permet de contrôler le partage d’information dans ce canal.
+
+> [!NOTE]
+> Actuellement, le modération de canal est disponible pour les canaux standard. Il n’est pas disponible pour les canaux privés.
 
 ## <a name="what-can-a-channel-moderator-do"></a>Que peut faire un modérateur de canal ?
 
