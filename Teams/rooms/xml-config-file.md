@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé et la création d’un fichier de paramètres maître.
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160068"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510763"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -39,12 +39,12 @@ Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -83,16 +83,16 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 |\<SkypeSettings\> |Conteneur de tous les éléments. ||Obligatoire. |
 | \<AutoScreenShare\>  |&#x2777; booléenne  |Première &#x2776;  |   Si ce paramètre est vrai, le partage d'écran automatique est activé.  |
 |\<HideMeetingName\> |&#x2777; booléenne  |Première &#x2776;  |Si ce paramètre est vrai, les noms de réunion sont masqués. |
-|\<UserAccount\> |Conteneur |Première &#x2776;  |Conteneur des paramètres d'identification. L’adresse de connexion, l’adresse Exchange ou l’adresse de messagerie sont généralement les mêmes, par<span></span>exemple RanierConf @contoso. com. |
+|\<UserAccount\> |Conteneur |Première &#x2776;  |Conteneur des paramètres d'identification. L’adresse de connexion, l’adresse Exchange ou l’adresse de messagerie sont généralement les mêmes, par exemple<span></span>RanierConf @contoso. com. |
 |\<SkypeMeetingsEnabled\>  |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut. |
-|\<SkypeSignInAddress\> |&#x2778; de chaîne  ||Le nom de connexion pour le compte marketing ou teams de la console. |
-|\<ExchangeAddress\> |&#x2778; de chaîne  ||Nom de connexion au compte d'appareil Exchange de la console. Si ExchangeAddress est omis, le SkypeSignInAddress ne sera pas réutilisé automatiquement. |
+|\<SkypeSignInAddress\> |&#x2778; de chaîne  ||Nom de connexion du compte marketing ou teams de la console. |
+|\<ExchangeAddress\> |&#x2778; de chaîne  ||Nom de connexion du compte de l’appareil Exchange de la console. Si ExchangeAddress est omis, le SkypeSignInAddress ne sera pas réutilisé automatiquement. |
+|\<ModernAuthEnabled> |&#x2777; booléenne  |  |Désactivé par défaut. <br/> <br/>S’il est défini sur true, l’application Microsoft teams pièces utilise uniquement l’authentification moderne pour se connecter aux ressources et ne revient pas à l’authentification de base.|
 |\<DomainUsername\> |&#x2778; de chaîne  ||Nom de domaine et d'utilisateur de la console, par exemple Seattle\RanierConf. |
 |\<Son\> |Chaîne 3  ||  Le paramètre du mot de passe est le même mot de passe que celui utilisé pour la connexion au compte d'appareil Skype Entreprise.   |
 | \<ConfigureDomain\>  |&#x2778; de chaîne  ||Vous pouvez répertorier plusieurs domaines, séparés par des virgules. |
 |\<TeamsMeetingsEnabled\> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/> Le fichier XML est considéré de façon incorrecte\> si\<les\> deux \<SkypeMeetingsEnabled et TeamsMeetingsEnabled sont désactivés, mais il est acceptable d’activer les deux paramètres en même temps. |
 |\<IsTeamsDefaultClient> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. |
-|\<ModernAuthEnabled> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/>S’il est défini sur true, l’application Microsoft teams pièces utilise uniquement l’authentification moderne pour se connecter aux ressources et ne revient pas à l’authentification de base.|
 |\<BluetoothAdvertisementEnabled> |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut. |
 |\<DualScreenMode\>  |&#x2777; booléenne  |Première &#x2776;  |Si la valeur est true, le mode à deux écrans est activé. Dans le cas contraire, l’appareil utilise le mode écran unique. |
 | \<DuplicateIngestDefault\> |&#x2777; booléenne  |Première &#x2776; |Si la valeur est true, le contenu s’affiche sur les deux écrans en mode à deux écrans, lors de l’absence de la réunion. | 
