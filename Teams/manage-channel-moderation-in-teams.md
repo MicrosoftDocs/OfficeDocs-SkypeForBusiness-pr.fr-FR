@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer des canaux de modération dans Microsoft Teams, y compris comment ajouter des membres à une équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 77622bd2920ce0453d6ccbdbeb55696fc2925271
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240614"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505601"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft teams
 
@@ -32,7 +32,7 @@ Dans Microsoft Teams, les propriétaires d’équipe peuvent activer le modérat
 Les propriétaires d’équipe peuvent également ajouter des membres à une équipe comme modérateurs. Il est possible que le propriétaire d’une équipe ne dispose pas de l’expertise du domaine au niveau du canal pour prendre en charge le modérateur du canal. En permettant aux membres d’équipe spécifiques de modérer un canal, la responsabilité de la gestion du contenu et du contexte au sein d’un canal est partagée entre les propriétaires d’équipe et les modérateurs de canaux. Par exemple, un propriétaire d’équipe peut ajouter des propriétaires d’entreprise ou des propriétaires de contenu en tant que modérateurs, ce qui leur permet de contrôler le partage d’information dans ce canal.
 
 > [!NOTE]
-> Actuellement, le modération de canal est disponible pour les canaux standard. Il n’est pas disponible pour les canaux privés.
+> Le modération de canal est disponible pour les canaux standard. Ce n’est pas disponible pour les canaux généraux ou privés.
 
 ## <a name="what-can-a-channel-moderator-do"></a>Que peut faire un modérateur de canal ?
 
@@ -54,7 +54,7 @@ Dans ce scénario, le propriétaire de l’équipe ajoute des leads de marketing
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Utiliser un canal pour les discussions de classe dans teams éducation
 
-Dans teams pour l’éducation, un enseignant souhaite utiliser un canal pour engager des discussions ciblées sur des sujets spécifiques de la classe.
+Dans teams éducation, un enseignant souhaite utiliser un canal pour engager des discussions ciblées sur des sujets spécifiques de la classe.
 
 Dans ce scénario, l’enseignant permet aux assistants d’enseignement de modérer le canal. Les assistants d’enseignement peuvent ensuite créer de nouvelles publications pour lancer une discussion avec des étudiants et en créer de nouveaux.
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046497"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505641"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -43,6 +43,12 @@ L’interopérabilité de la vidéo Cloud est destiné aux clients qui remplisse
 - Vous souhaitez conserver la valeur de leur investissement dans ses appareils de salle de réunion actuels et périphériques vidéo personnels lors de la migration vers une solution Microsoft teams Native
 
 Même si la technologie Cloud Video Interop fournit une solution de grande qualité, nous encourageons nos clients à consulter les solutions de réunion natives de nos équipes, telles que les systèmes de salle de réunion, pour le long terme. 
+
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 secteur public et services tiers
+
+Office 365 offre la possibilité d’intégrer des applications tierces dans les sites SharePoint Online, Skype entreprise, équipes, applications Office incluses dans Office 365 ProPlus (par exemple, Word, Excel, PowerPoint et Outlook) et Outlook Web App. Par ailleurs, Office 365 prend en charge l’intégration avec des fournisseurs de services tiers. Ces services et applications tiers peuvent impliquer le stockage, la transmission et le traitement des données client de votre organisation sur des systèmes tiers situés en dehors de l’infrastructure 365 d’Office et ne sont donc pas soumis aux engagements en matière de conformité et de protection des données d’Office 365. **Nous vous recommandons de consulter les déclarations de confidentialité et de conformité fournies par les tiers lors de l’évaluation de l’utilisation appropriée de ces services pour votre organisation.**
+
+
 
 ### <a name="partners-certified-for-microsoft-teams"></a>Partenaires certifiés pour Microsoft teams
 
@@ -87,7 +93,7 @@ Pendant la phase de mise en service, vous attribuerez des licences aux utilisate
 
 ### <a name="schedule"></a>Horaire
 
-Une fois qu’un utilisateur est activé pour l’interopérabilité Cloud Video, toute réunion planifiée à l’aide du complément réunion teams pour Outlook ou du client teams disposera des informations supplémentaires appropriées automatiquement ajoutées à la réunion teams pour que la vidéo Cloud Les appareils compatibles avec l’interopérabilité peuvent participer à ces réunions.
+Lorsqu’un utilisateur est activé pour l’interopérabilité de la vidéo Cloud, toute réunion planifiée à l’aide du complément réunion teams pour Outlook ou du client teams disposera des informations supplémentaires appropriées automatiquement ajoutées à la réunion Teams, afin que les appareils compatibles avec la vidéo Cloud puissent participer à ces réunions.
 
 ### <a name="join"></a>Rejoindre
 

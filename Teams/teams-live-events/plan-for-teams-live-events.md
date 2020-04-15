@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements live dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102365"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505621"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -55,6 +55,7 @@ L’utilisateur doit disposer des éléments suivants :
 - Partage d’écran activé pour les réunions Teams (*paramètre TeamsMeetingPolicy--ScreenSharingMode = EntireScreen*).
 - Planification des événements en direct dans Teams activée (*paramètre TeamsMeetingPolicy-AllowBroadcastScheduling = True*).
 - Autorisations pour créer des événements live dans Stream (pour production sur une application ou appareil externe).
+- Le mode de coexistence configuré pour être en mesure de planifier des réunions d’équipes (*îlots, réunions, premier ou équipes uniquement*).
 
 > [!IMPORTANT]
 > Les utilisateurs anonymes non authentifiés ne peuvent pas être invités en tant que producteurs ou présentateurs dans les événements live Teams. 
@@ -70,8 +71,6 @@ L’utilisateur doit disposer des éléments suivants :
 |Des groupes / personnes spécifiques      |  Oui            |  Oui                 |
 
 <sup>1</sup> les participants fédérés peuvent uniquement être invités par le biais de personnes & groupe <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct Teams et Diffusion de réunion Skype
 
@@ -132,4 +131,3 @@ Accédez à[Configurer les événements en direct Teams](set-up-for-teams-live-e
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md)
-

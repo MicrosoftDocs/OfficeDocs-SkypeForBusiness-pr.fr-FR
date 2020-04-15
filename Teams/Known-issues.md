@@ -17,12 +17,12 @@ f1.keywords:
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096619"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505531"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -295,13 +295,6 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Numéro de téléphone bloqué|Numéro de téléphone bloqué : la suppression du compte de la ressource avant de supprimer le numéro de téléphone bloque le numéro de téléphone.|Contactez le service clientèle Microsoft pour libérer le numéro de téléphone.|18/05/2018|
-
-## <a name="presence"></a>Présence
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|La présence dans Outlook et d'autres applications Office ne s'affiche pas après qu'un utilisateur a été déplacé en mode **Teams uniquement**. <br/> |Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams.  <br/> |Pour voir la présence dans Outlook (et les autres applications Office), Skype Entreprise doit être installé, même si vous exécutez Teams en mode **Teams uniquement**. Microsoft est courant du problème et travaille activement au développement d’un correctif.  <br/> |9/2019  <br/> |
-
-
 
 ## <a name="provisioning"></a>Mise en service
 

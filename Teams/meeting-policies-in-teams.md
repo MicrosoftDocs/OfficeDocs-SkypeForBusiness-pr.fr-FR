@@ -22,17 +22,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836474"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505631"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
 ::: zone target="docs"
-Les stratégies de réunion sont utilisées pour contrôler les fonctionnalités qui sont disponibles pour les réunions planifiées par les utilisateurs de votre organisation. Lorsque vous créez une stratégie et apportez les modifications souhaitées, vous pouvez attribuer des utilisateurs à la stratégie. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en utilisant [PowerShell](teams-powershell-overview.md).
+Stratégies de réunion: elles sont utilisées pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par des utilisateurs au sein de votre organisation. Après avoir créé une stratégie et effectué vos modifications, vous pouvez affecter des utilisateurs à la stratégie. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en utilisant [PowerShell](teams-powershell-overview.md).
 
 Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur l’interface de réunion pour les utilisateurs avant le début d’une réunion, pendant une réunion ou après une réunion.
 
@@ -44,39 +44,39 @@ Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur 
 
 Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent la stratégie de réunion globale. Vous pouvez y apporter des modifications ou créer une ou plusieurs stratégies personnalisées et leur affecter des utilisateurs. Les utilisateurs bénéficieront de la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui disposeront de ces paramètres.
 
-## <a name="change-or-create-a-meeting-policy"></a>Modification ou création d’une stratégie de réunion
+## <a name="change-or-create-a-meeting-policy"></a>Modifier ou créer une stratégie de réunion
 
-Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams >**politiques**des **réunions** > . Sélectionnez une stratégie dans la liste ou cliquez sur **Ajouter**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
+Pour modifier ou créer une stratégie de réunion, accédez au Centre d’administration Microsoft Teams > **Réunions** > **Stratégies de réunion**. Sélectionnez une stratégie dans la liste ou cliquez sur **Ajouter**. Si vous créez une stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir de caractères spéciaux et ne doit pas dépasser 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
 
-Par exemple, imaginons que vous disposiez d’un certain nombre d’utilisateurs et que vous voulez limiter la bande passante nécessaire à la réunion. Vous pouvez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
+Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vous voulez limiter la quantité de bande passante requise par la réunion. Vous devez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
 
-Sous **Audio & vidéo**:
-- Désactiver l’enregistrement dans le Cloud.
-- Désactivez l’option autoriser la vidéo IP.
+Sous ** Audio & vidéo** :
+- Désactivez l’option Autoriser l’enregistrement Cloud.
+- Désactivez Autoriser la vidéo IP.
 
-Sous **partage de contenu**:
+Sous **Partage de contenu** :
 - Désactiver le mode de partage d’écran.
-- Désactivez l’option autoriser le tableau blanc.
-- Désactivez autoriser les notes partagées.
+- Désactivez  Autoriser le tableau blanc.
+- Désactivez Autoriser les notes partagées.
 
-Affectez ensuite la stratégie aux utilisateurs.
+Vous pouvez ensuite attribuer la stratégie aux utilisateurs.
 
 > [!NOTE]
 > Un utilisateur ne peut être associé qu’à une seule stratégie de réunion à la fois.
 
-## <a name="assign-a-meeting-policy-to-users"></a>Attribuer une stratégie de réunion aux utilisateurs
+## <a name="assign-a-meeting-policy-to-users"></a>Affecter une stratégie de réunion aux utilisateurs
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis cliquez sur l’utilisateur.
-2. Sélectionnez l’utilisateur en cliquant à gauche du nom de l’utilisateur, puis sur **modifier les paramètres**.
-3. Sous **stratégie de réunion**, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **appliquer**.
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
+3. Sous **Stratégie de réunion**, sélectionnez la stratégie que vous souhaitez attribuer, et puis cliquez sur **Appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois, consultez l’article [Modifier en masse les paramètres utilisateur Teams](edit-user-settings-in-bulk.md).
 
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à** > **stratégies de réunion**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **gérer les utilisateurs**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
+3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
@@ -351,7 +351,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 
 ![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
 
- Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient. **(bientôt disponible)**
+ Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
   
 |Définition de la valeur  |Comportement de jointure |
 |---------|---------|
@@ -397,6 +397,6 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la con
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Stratégies de messagerie dans teams](messaging-policies-in-teams.md)

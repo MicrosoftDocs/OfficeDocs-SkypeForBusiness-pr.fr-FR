@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43159291"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43508622"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -225,7 +225,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 >    - Mobile/MobilePhone
 >    - TelephoneNumber/PhoneNumber
 >    - OtherTelephone
->- Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur `+<phonenumber>;ext=<extension>` est `x<extension>`soit ou.
+>- Le format requis pour entrer l’extension dans le champ numéro de téléphone de l' `+<phonenumber>;ext=<extension>` utilisateur `x<extension>`est soit ou.
 >- L’attribution d’une extension dans le centre d’administration teams n’est pas prise en charge pour le moment. Vous devez utiliser la commande PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) ou le centre d’administration Microsoft 365.
 >- Il est possible que les modifications apportées aux attributs AAD et MobilePhone soient jusqu’à 12 heures.
 >- Ne définissez pas d’extension pour le LineUri d’un utilisateur. Cette fonctionnalité n’est pas prise en charge pour le moment.
