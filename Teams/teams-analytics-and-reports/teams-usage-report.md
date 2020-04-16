@@ -16,12 +16,12 @@ ms.collection:
 description: Découvrez comment utiliser le rapport utilisation Teams dans le centre d’administration de Microsoft Teams pour obtenir une vue d’ensemble de l’activité des équipes dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 260b9e23219b6812427fb84fbed5ceb820c2201c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 0252478a1ca41962ecdc424f97c85025b6b7dda9
+ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170562"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528419"
 ---
 # <a name="microsoft-teams-usage-report"></a>Rapport d’utilisation de Microsoft Teams
 
@@ -38,11 +38,11 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 
 |Légende |Description  |
 |--------|-------------|
-|**1**   |Le rapport d’activité Teams permet d’observer des tendances sur les 7 ou 28 derniers jours. |
+|**1**   |Le rapport activité d’utilisation des équipes peut être consulté pour les tendances au cours des 7, 28 ou 90 derniers jours. |
 |**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. |
 |**3**   |<ul><li>L’axe X représente la plage de dates sélectionnée pour ce rapport.</li> <li> L’axe Y indique le nombre d’éléments ou activités actif(ve)s.</li> </ul>Pointez sur le point représentant un élément ou une activité à une date donnée pour voir le nombre d’instances de cet élément ou activité à cette date.|
 |**4**   |Vous pouvez filtrer ce qui est affiché dans le tableau en cliquant sur un élément dans la légende. Par exemple, cliquez sur **nombre total d’utilisateurs actifs**, **équipes & canaux actifs**, **canaux actifs**ou **messages** pour afficher uniquement les informations relatives à chacun d’eux. La modification de cette sélection ne modifie pas les informations du tableau lui-même. |
-|**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Nom** de l’équipe correspond au nom d’affichage de l’équipe. Vous pouvez cliquer sur le nom de l’équipe pour accéder à la page des paramètres de l’équipe dans le centre d’administration Microsoft Teams. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> <li>**Canaux actifs** correspond au nombre de canaux disposant d’au moins un utilisateur actif pendant la période spécifiée.</li> <li>**Publications** est le nombre de tous les messages de publication dans les canaux pendant la période spécifiée.</li> <li>**Messages de réponse** correspond au numéro de tous les messages de réponse dans les canaux pendant la période spécifiée.</li> <li>**Réunions organisées** est le nombre de toutes les réunions planifiées organisées par un utilisateur. Chaque instance d’une réunion périodique est calculée en une seule réunion.</li><li>**Messages urgents** indique le nombre de messages urgents pendant la période spécifiée.</li> </li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur est affiché en tant que « -- » dans la table. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Nom** de l’équipe correspond au nom d’affichage de l’équipe. Vous pouvez cliquer sur le nom de l’équipe pour accéder à la page des paramètres de l’équipe dans le centre d’administration Microsoft Teams. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> <li>**Canaux actifs** correspond au nombre de canaux disposant d’au moins un utilisateur actif pendant la période spécifiée.</li> <li>**Publications** est le nombre de tous les messages de publication dans les canaux pendant la période spécifiée.</li> <li>**Messages de réponse** correspond au numéro de tous les messages de réponse dans les canaux pendant la période spécifiée.</li> <li>**Réunions organisées** est le nombre de toutes les réunions planifiées organisées par un utilisateur. Chaque instance d’une réunion périodique est calculée en une seule réunion.</li><li>**Messages urgents** indique le nombre de messages urgents pendant la période spécifiée.</li><li>**Réactions** est le nombre de réponses aux messages pendant la période spécifiée.</li><li>**Mentions** est le nombre de toutes les mentions utilisées dans les messages pendant la période spécifiée.</li><li>**Messages de canal** indique le nombre de messages uniques que les utilisateurs d’une équipe a publié dans une conversation d’équipe pendant la période spécifiée.</li> </li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur est affiché en tant que « -- » dans la table. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 |**7**   |Vous pouvez exporter le rapport dans un fichier CSV pour une analyse hors connexion. Cliquez sur **Exporter vers Excel**, puis sous l’onglet **téléchargements** , cliquez sur **Télécharger** pour télécharger le rapport dès qu’il est prêt.<br><br>![Capture d’écran de l’onglet téléchargements montrant les rapports exportés à télécharger](../media/teams-reports-export-to-csv.png)|
 
