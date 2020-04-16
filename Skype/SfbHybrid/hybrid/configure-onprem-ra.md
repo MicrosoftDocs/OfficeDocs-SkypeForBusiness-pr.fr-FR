@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892304"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510783"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
 
 Les implémentations hybrides de Skype entreprise Server 2019 utilisent uniquement les services Cloud fournis par le système téléphonique pour la messagerie unifiée et ne s’intègrent pas à Exchange Online. Dans Skype entreprise Server 2019, vous pouvez désormais utiliser les files d’attente d’appels Cloud et les standards automatiques décrits dans la section relative à la prise en charge du [système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Pour utiliser un standard automatique de système téléphonique ou une file d’attente d’appels avec Skype entreprise Server 2019, vous devez créer des comptes de ressources qui agissent en tant que points de terminaison d’application et peuvent recevoir des numéros de téléphone, puis utiliser le centre d’administration teams Online pour configurer la file d’attente d’appels ou standard automatique. Ce compte de ressource peut être hébergé en ligne (consultez la rubrique [Manage Resource Accounts in Microsoft teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressource hébergés en ligne) ou sur site comme décrit dans cet article. En règle générale, vous disposez de plusieurs nœuds de file d’attente ou de standard automatique de système téléphonique, chacun d’entre eux étant mappé sur un compte de ressource qui peut être hébergé en ligne ou dans Skype entreprise Server 2019.
+Pour utiliser un standard automatique de système téléphonique ou une file d’attente d’appels avec Skype entreprise Server 2019, vous devez créer des comptes de ressources qui agissent en tant que points de terminaison d’application et peuvent recevoir des numéros de téléphone, puis utiliser le centre d’administration teams Online pour configurer la file d’attente ou le standard automatique. Ce compte de ressource peut être hébergé en ligne (consultez la rubrique [Manage Resource Accounts in Microsoft teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressource hébergés en ligne) ou sur site comme décrit dans cet article. En règle générale, vous disposez de plusieurs nœuds de file d’attente ou de standard automatique de système téléphonique, chacun d’entre eux étant mappé sur un compte de ressource qui peut être hébergé en ligne ou dans Skype entreprise Server 2019.
 
-Si vous disposez d’un système de file d’attente automatique et d’appels de messagerie unifiée Exchange existant, avant de passer à Exchange Server 2019 ou Exchange Online, vous devez enregistrer manuellement les détails comme décrit ci-dessous, puis implémenter un système entièrement nouveau à l’aide du centre d’administration Teams. .
+Si vous disposez d’un système de file d’attente et d’un standard automatique de messagerie unifiée Exchange, avant de passer à Exchange Server 2019 ou Exchange Online, vous devez enregistrer manuellement les détails, comme décrit ci-dessous, puis implémenter un système entièrement nouveau à l’aide du centre d’administration Teams.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -105,7 +105,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
    Le compte de ressource aura besoin d’un numéro de téléphone attribué s’il doit être affecté à un standard automatique de niveau supérieur ou une file d’attente d’appels. Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressource, seuls les numéros payants ou gratuits du service peuvent être utilisés.
 
-     Vous pouvez attribuer un numéro hybride de routage direct à votre compte de ressource. Pour plus d’informations, reportez-vous à [planifier le routage direct](/MicrosoftTeams/direct-routing-plan).
+     Vous pouvez affecter un routage direct ou un numéro hybride à votre compte de ressource. Pour plus d’informations, voir [planifier le routage direct](/MicrosoftTeams/direct-routing-plan) et [planifier les standards automatiques Cloud](plan-cloud-auto-attendant.md).
 
      > [!NOTE]
      > Les numéros de service de routage direct affectés aux comptes de ressources pour le standard automatique et les files d’attente d’appels sont pris en charge pour les utilisateurs et les agents Microsoft teams uniquement.

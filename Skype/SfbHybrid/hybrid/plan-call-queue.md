@@ -1,7 +1,7 @@
 ---
 title: Planifier une file d’attente d’appels sur le Cloud
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019.
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735224"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510793"
 ---
 # <a name="plan-cloud-call-queues"></a>Planifier les files d’attente des appels Cloud
 
@@ -31,7 +31,7 @@ En outre, les files d’attente d’appels Cloud peuvent fournir les éléments 
 Chaque file d’attente est affectée à un **compte de ressource** (voir [Configure Resource Accounts](configure-onprem-ra.md)) sur votre système Skype entreprise Server 2019 qui sera lié directement à une file d’attente d’appels dans le centre d’administration Microsoft Teams. Pour plus d’informations sur les files d’attente d’appels et sur les options et les fonctionnalités disponibles pour les files d’attente d’appels, voir [Create a Cloud Call queue](/MicrosoftTeams/create-a-phone-system-call-queue) .
 
 > [!NOTE]
-> Vous pouvez attribuer plusieurs numéros de téléphone à une file d’attente d’appels, mais ils doivent être des numéros de service Microsoft ou des numéros hybrides.
+> Vous pouvez affecter plusieurs numéros de téléphone à une file d’attente d’appels, mais il doit s’agir de numéros de service Microsoft, de numéros de routage directs ou de numéros hybrides.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -61,12 +61,12 @@ Lorsque vous disposez d’une structure solide qui répond à vos besoins et d�
 
 [Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Un standard Cloud automatique, qu’est-ce que c’est ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Configurer un standard automatique Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+[Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
 [Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](plan-hybrid-connectivity.md)
 
 [Configurer la connectivité hybride entre Skype Entreprise Server et Office 365](configure-hybrid-connectivity.md).
 
-[Gérer les comptes de ressources dans Microsoft teams](/MicrosoftTeams/manage-resource-accounts)
+[Gérer les comptes de ressources dans Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019
-ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150475"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510803"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques Cloud
 
@@ -25,10 +25,10 @@ Le standard automatique utilisé avec la messagerie unifiée Exchange (Exchange 
 
 Cela signifie, par essence, que vous disposez d’une implémentation hybride de Skype entreprise Server 2019 si vous souhaitez utiliser des fonctionnalités de messagerie unifiée comme les standards automatiques. Pour plus d’informations [, voir Configurer la connectivité hybride entre Skype entreprise Server et Office 365](configure-hybrid-connectivity.md) .
 
-Un standard automatique est un service Cloud qui accepte les appels des clients et émet des messages d’accueil, fournit des options de menu et interagit avec les appelants à l’aide de la voix ou de la numérotation pour acheminer les appels vers la destination appropriée. Chaque standard automatique est affecté à un **compte de ressource** (reportez-vous à la rubrique[Configure Resource Accounts](configure-onprem-ra.md)) sur votre système Skype entreprise Server 2019 qui sera directement lié à un standard automatique dans le centre d’administration Microsoft Teams. Voir [qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) pour plus d’informations sur les standards automatiques et sur les options et les fonctionnalités disponibles pour les standards automatiques.
+Un standard automatique est un service Cloud qui accepte les appels et les messages d’accueil, fournit des options de menu et interagit avec des appelants en utilisant la fonctionnalité vocale ou le pavé de numérotation pour acheminer les appels vers la destination appropriée. Chaque standard automatique est affecté à un *compte de ressource* (reportez-vous à la rubrique [Configure Resource Accounts](configure-onprem-ra.md)) sur votre système Skype entreprise Server 2019 qui sera directement lié à un standard automatique dans le centre d’administration Microsoft Teams. Voir [qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) pour plus d’informations sur les standards automatiques et sur les options et les fonctionnalités disponibles pour les standards automatiques.
 
 > [!NOTE]
-> Vous pouvez affecter plusieurs numéros de service Microsoft ou des numéros hybrides à un standard automatique.
+> Vous pouvez affecter plusieurs numéros de service Microsoft, des numéros de routage direct ou des numéros hybrides à un standard automatique.
 
 Un appel entrant vers un standard automatique Cloud peut prendre plusieurs chemins, comme illustré ci-dessous :
 
@@ -38,7 +38,7 @@ Un appel entrant vers un standard automatique Cloud peut prendre plusieurs chemi
 2. Via un [contrôleur de frontière de session](/MicrosoftTeams/direct-routing-border-controllers.md) et un [routage direct](/MicrosoftTeams/direct-routing-plan.md)
 3. Via un numéro hébergé en ligne dans Office 365.
 
-Voir également :
+Consulter également :
 
 - [Configurer un standard automatique dans le cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Réponse et routage automatique d’appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
@@ -58,7 +58,7 @@ Outre la configuration requise ci-dessus, les conditions suivantes doivent être
    Pour plus d’informations, voir [planifier une connectivité hybride entre Skype entreprise Server et office 365](plan-hybrid-connectivity.md) et [configurer la connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
 
 - Si vous attribuez un numéro de téléphone à votre standard automatique, vous aurez besoin d’une licence [Office 365 entreprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
-- Créez un [compte de ressource](/MicrosoftTeams/manage-resource-accounts.md) en ligne ou un [compte de ressource](configure-onprem-ra.md)local pour chaque standard automatique et attribuez les numéros de téléphone et les licences. 
+- Créez un [compte de ressource](/MicrosoftTeams/manage-resource-accounts.md) en ligne ou un [compte de ressource](configure-onprem-ra.md) local pour chaque standard automatique et attribuez les numéros de téléphone et les licences. 
 
 ## <a name="migration-and-interoperability"></a>Migration et interopérabilité
 
@@ -108,7 +108,7 @@ Lorsque vous disposez d’une structure solide qui répond à vos besoins et d�
 
 [Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Un standard Cloud automatique, qu’est-ce que c’est ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Configurer un standard automatique dans le cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 
