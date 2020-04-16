@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
 ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/14/2020
 ms.locfileid: "43505621"
@@ -55,7 +55,7 @@ L’utilisateur doit disposer des éléments suivants :
 - Partage d’écran activé pour les réunions Teams (*paramètre TeamsMeetingPolicy--ScreenSharingMode = EntireScreen*).
 - Planification des événements en direct dans Teams activée (*paramètre TeamsMeetingPolicy-AllowBroadcastScheduling = True*).
 - Autorisations pour créer des événements live dans Stream (pour production sur une application ou appareil externe).
-- Le mode de coexistence configuré pour être en mesure de planifier des réunions d’équipes (*îlots, réunions, premier ou équipes uniquement*).
+- Le mode de coexistence est configuré pour planifier les réunions Teams(*îles, réunions en premier, ou Teams uniquement*).
 
 > [!IMPORTANT]
 > Les utilisateurs anonymes non authentifiés ne peuvent pas être invités en tant que producteurs ou présentateurs dans les événements live Teams. 
@@ -66,11 +66,11 @@ L’utilisateur doit disposer des éléments suivants :
 |------------------------------|-----------------|----------------------|
 |Public (utilisateurs anonymes)      |  Oui            |  Non                  |
 |Utilisateurs invités                   |  Oui            |  Non                  |
-|Tous les membres de l’entreprise fédérée |  Oui<sup>1</sup>|  Non                  |
+|Tous les membres de l’entreprise fédérée |  Oui <sup>1</sup>|  Non                  |
 |Tous les membres de l’entreprise           |  Oui            |  Oui                 |
 |Des groupes / personnes spécifiques      |  Oui            |  Oui                 |
 
-<sup>1</sup> les participants fédérés peuvent uniquement être invités par le biais de personnes & groupe <br>
+<sup>1</sup> Les participants fédérés peuvent uniquement être invités via des contacts et groupe <br>
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct Teams et Diffusion de réunion Skype
 
@@ -80,8 +80,8 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |---------|---------|---------|---------|
 |Taille maximale de l’audience |10 000 participants |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
 |Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
-|Nombre maximal de présentateurs et de producteurs dans un événement en direct |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Nombre maximal d’événements en direct simultanés par client Office 365 |0,15  | 0,15  | 0,15  |
+|Nombre maximal de présentateurs et de producteurs en temps réel |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Nombre maximal d’événements en direct simultanés par client Office 365 |15  | 15  | 15  |
 |Création d’événement en direct |   Portail de diffusion de réunion Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Engagement d’audience - Yammer |&#x2714; |&#x2714; (expérience intégrée) |&#x2714; (expérience intégrée) |
 |Engagement d’audience - Q&R modérées |&#x2714;  |&#x2714; |&#x2714; |
@@ -104,8 +104,8 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Les limites définies peuvent être modifiées. Vérifier les [limites et les spécifications pour teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> vous pouvez avoir jusqu’à 250 de présentateurs et producteurs dans un événement en direct, mais uniquement les 10 derniers qui s’affichent dans la liste.
+<sup>1</sup> Les limites définies peuvent être modifiées. Consultez [Spécifications et limites de Microsoft Teams](../limits-specifications-teams.md).<br/>
+<sup>2</sup> vous pouvez avoir jusqu’à 250 présentateurs et producteurs dans un événement en direct, mais seules les 10 dernières qui en ont fait mention dans la liste.
 
 
 ## <a name="regional-availability"></a>Disponibilité régionale
