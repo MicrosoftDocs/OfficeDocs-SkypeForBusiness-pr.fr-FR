@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510693"
+ms.locfileid: "43521540"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -43,12 +43,12 @@ Le contenu de toutes les équipes n’est pas eDiscoverable. Le tableau suivant 
 | Horodatage indiquant qu’un message a été lu par chaque utilisateur | Non | |
 | Enregistrements audio | Non | |
 | Messages de canal privé | Non | |
-| Emoji, fichiers GIF, autocollants | Non | |
+| Emoji, fichiers GIF, autocollants | Oui | |
 | Extraits de code | Non | |
 | Liens de discussion | Non | |
 | Réactions (j’aime, coeurs, etc.) | Non | |
 | Messages modifiés | Oui | Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont conservées. |
-| Images incorporées | Non | |
+| Images incorporées | Oui | |
 | Contenu | Non | |
 | Objet | Non | |
 | Offres | Oui | Le contenu mentionné peut être recherché. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été placé entre guillemets. |

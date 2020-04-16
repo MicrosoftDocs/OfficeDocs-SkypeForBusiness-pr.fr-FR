@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892294"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521610"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -135,7 +135,7 @@ Pour en savoir plus sur teams et Office 365 ProPlus, voir [Comment exclure des �
     - [version 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [version 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    La version minimum de l’application de bureau teams requise est la version 1.2.00.31357. (La conservation RTC n’est pas prise en charge dans les versions antérieures.)
+    La version minimum de l’application de bureau teams requise est la version 1.3.00.4461. (La conservation RTC n’est pas prise en charge dans les versions antérieures.)
 
 2. Installez le MSI sur la machine virtuelle VDI en exécutant l’une des commandes suivantes :
 
@@ -246,21 +246,21 @@ Vous pouvez définir des stratégies en utilisant le centre d’administration M
 Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réunion AllOff aux utilisateurs, procédez comme suit :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
-2. Sélectionnez l’utilisateur en cliquant à gauche du nom de l’utilisateur, puis sur **modifier les paramètres**.
-3. Procédez comme suit :
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
+3. Procédez comme suit :
     1.  Sous **stratégie d’appel**, cliquez sur **DisallowCalling**.
     2.  Sous **stratégie de réunion**, cliquez sur **AllOff**.
 4. Cliquez sur **Appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois, consultez l’article [Modifier en masse les paramètres utilisateur Teams](edit-user-settings-in-bulk.md).
 
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
     - Accédez à **Voice** > **stratégies d’appel**vocal, puis cliquez sur **DisallowCalling**.
     - Accédez à **Meetings** > **stratégies de réunion**, puis cliquez sur **AllOff**.
-3. Sélectionnez **gérer les utilisateurs**.
-4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
@@ -283,7 +283,7 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migration des équipes sur l’infrastructure VDI avec les discussions et la collaboration vers Citrix avec les appels et les réunions
 
-Si vous disposez d’une implémentation de teams sur VDI avec les fonctionnalités de conversation et de collaboration dans lesquelles vous avez défini des stratégies de niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion et que vous effectuez une migration vers Citrix avec l’optimisation AV, vous devez définir des stratégies pour activer les appels et fonctionnalités de réunion pour les équipes des utilisateurs de VDI.
+Si vous disposez d’une implémentation de teams sur VDI avec les fonctionnalités de conversation et de collaboration dans lesquelles vous avez défini des stratégies de niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion et que vous effectuez une migration vers Citrix avec l’optimisation AV, vous devez définir des stratégies pour activer les fonctionnalités d’appel et de réunion pour ces équipes sur les utilisateurs VDI.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Définir des stratégies pour activer les fonctionnalités d’appel et de réunion
 
@@ -298,21 +298,21 @@ Politiques d' [**appel**](teams-calling-policy.md): les stratégies d’appel en
 Pour affecter la stratégie d’appel AllowCalling et la stratégie de réunion inconforme aux utilisateurs, procédez comme suit :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
-2. Sélectionnez l’utilisateur en cliquant à gauche du nom de l’utilisateur, puis sur **modifier les paramètres**.
-3. Procédez comme suit :
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
+3. Procédez comme suit :
     1.  Sous **stratégie d’appel**, cliquez sur **AllowCalling**.
     2.  Sous **stratégie de réunion**, **cliquez sur**inverser.
 4. Cliquez sur **Appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois, consultez l’article [Modifier en masse les paramètres utilisateur Teams](edit-user-settings-in-bulk.md).
 
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
     - Accédez à **Voice** > **stratégies d’appel**vocal, puis cliquez sur **AllowCalling**.
     - Accédez à **Meetings** > stratégies de réunion, **puis cliquez sur****intentn**.
-3. Sélectionnez **gérer les utilisateurs**.
-4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
@@ -366,7 +366,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
