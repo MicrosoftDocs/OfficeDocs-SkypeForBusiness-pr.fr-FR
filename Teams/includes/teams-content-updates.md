@@ -3,36 +3,6 @@
 
 
 
-## <a name="week-of-march-09-2020"></a>Semaine du 09 mars, 2020
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 3/10/2020 | [Enregistrement de réunion cloud Teams](/MicrosoftTeams/cloud-recording) | modifié |
-| 3/10/2020 | [Pratiques de collecte de données](/MicrosoftTeams/data-collection-practices) | modifié |
-| 3/10/2020 | [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
-| 3/10/2020 | [Contacter le service d’assistance RTC](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modifié |
-| 3/10/2020 | [Quel est le statut de vos demandes de transfert ?](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | modifié |
-| 3/10/2020 | [Définir les numéros de téléphone inclus sur les invitations dans Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams). | modifié |
-| 3/10/2020 | [Formation dispensée par un instructeur et des vidéos pour les administrateurs de Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modifié |
-| 3/10/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
-| 3/10/2020 | [Gérer vos périphériques dans Microsoft Teams](/MicrosoftTeams/device-management) | modifié |
-| 3/11/2020 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
-| 3/11/2020 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
-| 3/11/2020 | [Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
-| 3/11/2020 | [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](/MicrosoftTeams/assign-policies) | modifié |
-| 3/11/2020 | [Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](/MicrosoftTeams/batch-policy-assignment-edu) | modifié |
-| 3/12/2020 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
-| 3/12/2020 | [Forum aux questions - soutenir vos employés en télétravail](/MicrosoftTeams/faq-support-remote-workforce) | modifié |
-| 3/13/2020 | [Disponibilité en Inde](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | modifié |
-| 3/13/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
-| 3/13/2020 | [Gérer le cycle de vie des canaux privés dans Microsoft teams](/MicrosoftTeams/private-channels-life-cycle-management) | modifié |
-| 3/13/2020 | [Rapport utilisation RTC de Microsoft teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modifié |
-| 3/13/2020 | [Formation dispensée par un instructeur et des vidéos pour les administrateurs de Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modifié |
-| 3/13/2020 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
-| 3/13/2020 | [Prise en charge des travailleurs à distance avec Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modifié |
-
-
 ## <a name="week-of-march-16-2020"></a>Semaine du 16 mars 2020
 
 
@@ -350,7 +320,7 @@
 | 4/3/2020 | [Interopérabilité entre Skype entreprise et Microsoft teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modifié |
 | 4/3/2020 | [Gérer les stratégies et paramètres d’application personnalisés](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
 | 4/3/2020 | [Utiliser PowerShell pour définir les stratégies d’événements dynamiques](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modifié |
-| 4/3/2020 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
+| 4/3/2020 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Modifié le |
 | 4/3/2020 | [Limitations et restrictions concernant la composition de numéros verts](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | modifié |
 | 4/3/2020 | [Restrictions de numérotation gratuit en Argentine](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | modifié |
 | 4/3/2020 | [Restrictions de numérotation sans frais en Australie](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia) | modifié |
@@ -453,3 +423,43 @@
 | 4/10/2020 | [Mise en service de Microsoft Teams à grande échelle pour les employés de terrain](/MicrosoftTeams/flw-scripted-deployment) | modifié |
 | 4/10/2020 | [Qu’est-ce qu’une demande de transfert ?](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | modifié |
 | 4/10/2020 | [Transfert de numéros de téléphone dans Microsoft teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modifié |
+
+
+## <a name="week-of-april-13-2020"></a>Semaine du 13 avril 2020
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 4/14/2020 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
+| 4/14/2020 | [Interopérabilité de la vidéo cloud de Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modifié |
+| 4/14/2020 | [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
+| 4/14/2020 | [Configurer et gérer la modération de canal](/MicrosoftTeams/manage-channel-moderation-in-teams) | modifié |
+| 4/14/2020 | [Gérer les stratégies de réunion](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
+| 4/14/2020 | [Authentification dans les salles de Microsoft teams](/MicrosoftTeams/rooms/rooms-authentication) | modifié |
+| 4/14/2020 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
+| 4/14/2020 | [Ressources de formation pour les administrateurs-Microsoft teams](/MicrosoftTeams/itadmin-readiness) | modifié |
+| 4/14/2020 | [Adopter Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Modifié le |
+| 4/14/2020 | Formation à Microsoft Teams pour les utilisateurs finaux | supprimé |
+| 4/14/2020 | [Migrer de Slack vers Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modifié |
+| 4/14/2020 | [Prise en charge des travailleurs à distance avec Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modifié |
+| 4/14/2020 | [Faire connaître et implémenter une formation](/MicrosoftTeams/teams-adoption-drive-awareness) | modifié |
+| 4/14/2020 | [Formation pour les administrateurs Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modifié |
+| 4/14/2020 | [Conduire une étude eDiscovery du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
+| 4/14/2020 | [Présence des utilisateurs dans Teams](/MicrosoftTeams/presence-admins) | modifié |
+| 4/14/2020 | [Gestion à distance des paramètres d’appareil de salle Microsoft teams](/MicrosoftTeams/rooms/xml-config-file) | modifié |
+| 4/15/2020 | [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](/MicrosoftTeams/assign-policies) | modifié |
+| 4/15/2020 | [Configuration requise pour Microsoft teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 4/15/2020 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 4/15/2020 | [Conduire une étude eDiscovery du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
+| 4/15/2020 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
+| 4/15/2020 | [Rapport d’utilisation de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modifié |
+| 4/15/2020 | [Rapport d’activité des utilisateurs de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modifié |
+| 4/15/2020 | Préparer votre réseau pour Microsoft Teams\| Configuration requise pour le pare-feu de port | supprimé |
+| 4/16/2020 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
+| 4/16/2020 | [Optimisation des éléments multimédias locaux du routage direct](/MicrosoftTeams/direct-routing-media-optimization-configure) | modifié |
+| 4/17/2020 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
+| 4/17/2020 | Liste de contrôle d’intégration-configurer le réseau-Microsoft teams | supprimé |
+| 4/17/2020 | [Envoyer manuellement une demande de transfert](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | modifié |
+| 4/17/2020 | [Exemple de script PowerShell-créer & affecter une stratégie de messagerie](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | modifié |
+| 4/17/2020 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
+| 4/17/2020 | [Politique de confidentialité de Microsoft Teams](/MicrosoftTeams/teams-privacy) | modifié |
