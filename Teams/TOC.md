@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# Sécurité et conformité
+# Sécurité, confidentialité et conformité
 ## [Vue d’ensemble](security-compliance-overview.md)
-## [Emplacement des données dans Teams](location-of-data-in-teams.md)
-## Sécurité
+## Sécurité et confidentialité
 ### [Guide sur la sécurité](teams-security-guide.md)
 ### [Modèles d’identité et authentification](identify-models-authentication.md)
 ### [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
 ### [Liens fiables dans Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Confidentialité et Microsoft Teams](teams-privacy.md)
+### [Emplacement des données dans Teams](location-of-data-in-teams.md)
 ## Conformité
 ### [Obstacles aux informations](information-barriers-in-teams.md)
 ### [Stratégies de rétention](retention-policies.md)
@@ -728,7 +729,6 @@
 ### [Recommandations concernant le pilote matériel encodeur et décodeur](hardware-decoders-and-encoders.md)
 ### [Installer Teams avec MSI](msi-deployment.md)
 ### [Activer Teams dans votre organisation](Office-365-set-up.md)
-### [Fichiers et dossiers Teams à exclure de l’analyse antivirus](teams-files-folders-antivirus-perf.md)
 ### [Utilisation de la mémoire par Microsoft Teams](teams-memory-usage-perf.md)
 ### [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams pour une infrastructure bureau virtualisée(VDI)](teams-for-vdi.md)

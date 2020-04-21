@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 18ad8a2808b12eb05e51d781cb422c65ad14e7ad
+ms.sourcegitcommit: edca9c1310b22a7b15ee1e3d00b4064cf647aa1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191241"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43580672"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -30,16 +30,18 @@ ms.locfileid: "43191241"
 
 Pour profiter pleinement de Teams, Exchange Online, SharePoint Online et la création de groupes Office 365 doivent être activés pour chaque utilisateur.
 
-Les boîtes aux lettres Exchange des utilisateurs peuvent être hébergées en ligne ou sur site. Toutefois, certaines fonctionnalités nécessitent un déploiement hybride qui est en place avec votre client Office 365.
+Les boîtes aux lettres Exchange des utilisateurs peuvent être hébergées en ligne ou sur site. L’intégration à Exchange local nécessite un déploiement hybride Exchange. Pour plus d’informations sur la configuration d’un déploiement hybride, voir [déploiements hybrides Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
 
 Les utilisateurs hébergés sur Exchange Online ou Exchange dédié vNext peuvent utiliser toutes les fonctionnalités d’Teams. Ils peuvent créer et rejoindre des équipes et des canaux, créer et afficher des réunions, appeler et discuter, modifier des images de profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et ajouter et configurer des connecteurs, des onglets et des robots.
 
 Les utilisateurs hébergés sur Exchange Online dédié (hérité) doivent être synchronisés avec Azure Active Directory sur Office 365. Ils peuvent créer et rejoindre des équipes et des canaux, ajouter et configurer des onglets et des robots, et utiliser les fonctionnalités de conversation et d’appel. Toutefois, ils ne peuvent pas modifier les images de profil, gérer les réunions, accéder aux contacts Outlook ou gérer les connecteurs.
 
-Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent également modifier l’image du profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et gérer les réunions, en fournissant Exchange Server 2016 (mise à jour cumulative 3) ou version ultérieure, s’exécute sur site avec OAuth configuré (de préférence via l’Assistant Configuration hybride).
+Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus. en outre, il peut également modifier l’image de profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et gérer les réunions, en fournissant un serveur Exchange Server 2016 (mise à jour cumulative 3) ou version ultérieure, s’exécute sur site avec OAuth configuré (de préférence par le biais de l’Assistant Configuration hybride Exchange), comme décrit dans la rubrique [configurer l’authentification OAuth](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) Pour activer la délégation de calendrier pour ces utilisateurs, vous devez effectuer les étapes 2-3 comme décrit dans la rubrique [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). ces étapes permettent à l’application de planifier des équipes les autorisations requises pour vérifier les autorisations de délégué.   
 
 Le tableau suivant fournit une référence rapide utile à la disponibilité des fonctionnalités en fonction de l’environnement Exchange.
 
+> [!NOTE]
+> L’intégration de fonctionnalités entre Exchange et teams nécessite un déploiement hybride Exchange. Ce paramètre est en plus des exigences relatives à la version qui sont indiquées dans certaines fonctionnalités du tableau suivant.
 
 **Actions prises en charge :**
 
@@ -76,7 +78,7 @@ Microsoft teams fonctionne avec plusieurs services 365 Office pour offrir aux ut
 
 - La création de groupe Office 365 doit être activée pour permettre aux utilisateurs de créer des équipes dans Microsoft Teams.
 
-- Pour permettre à Microsoft teams de fonctionner avec Exchange en local, vous devez configurer le nouveau protocole d’authentification OAuth Exchange comme décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- Pour permettre à Microsoft teams de fonctionner avec Exchange en local, vous devez configurer le nouveau protocole d’authentification OAuth Exchange, de préférence en exécutant l’Assistant Exchange hybride, comme décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Pour permettre aux utilisateurs disposant d’une boîte aux lettres Exchange locale de planifier des réunions d’équipes au nom d’un autre utilisateur, vous devez suivre les étapes 2-3 comme décrit dans la rubrique [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 > [!NOTE]
 >Dans le cas d’une intégration Exchange locale ou Teams, la licence requise doit être attribuée à l’utilisateur synchronisé de AAD.
