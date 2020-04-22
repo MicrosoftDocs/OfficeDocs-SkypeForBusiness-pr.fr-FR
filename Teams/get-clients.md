@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327836"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749492"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -45,6 +45,9 @@ Le client de bureau Microsoft Teams est une application autonome et est égaleme
 Les clients de bureau fournissent la prise en charge de communications en temps réel (audio, vidéo, et partage de contenu) pour les réunions d'équipe, les appels de groupes et les appels en tête-à-tête.
 
 Les clients de bureau peuvent être téléchargés et installés par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s'ils disposent des autorisations locales appropriées (les droits d'administration ne sont pas requis pour installer le client Teams sur un PC, mais le sont pour un Mac).
+
+> [!NOTE]
+> Pour plus d’informations sur l’installation des équipes sur un Chromebook, voir [installer et exécuter Microsoft Office sur un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 Les administrateurs informatiques peuvent utiliser la méthode de leur choix pour distribuer les fichiers d'installation sur les ordinateurs de leur organisation. Certains exemples incluent Microsoft Endpoint Configuration Manager (Windows) ou JAMF Pro (macOS). Pour obtenir le package MSI de distribution Windows, voir [installer Microsoft Teams à l’aide de MSI](msi-deployment.md).  
 
@@ -75,6 +78,8 @@ Lorsque les utilisateurs lancent un appel à l'aide du client Microsoft Teams l
 > [!NOTE]
 > La configuration de pare-feu Windows sera modifiée même si l'invite est ignorée en sélectionnant Annuler. Deux règles de trafic entrant pour teams.exe seront créées avec une action de blocage pour les protocoles TCP et UDP.
 
+Si vous voulez empêcher les équipes d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs effectuent leur premier appel à partir d’une équipe, utilisez l' [exemple de script PowerShell-trafic entrant](#sample-powershell-script---inbound-firewall-rule) ci-dessous. 
+
 ### <a name="mac"></a>Mac
 
 Les utilisateurs de Mac peuvent installer Teams à l’aide d’un fichier d’installation PKG pour ordinateurs macOS. L’accès administrateur est requis pour installer le client Mac. Le client macOS est installé dans le dossier /Applications.
@@ -103,7 +108,7 @@ Les administrateurs informatiques peuvent utiliser le déploiement géré de Tea
 ### <a name="linux"></a>Linux
 
 Les utilisateurs peuvent installer des packages Linux natifs au format `.deb` et `.rpm`.
-L’installation du package DEB ou RPM permet d’installer automatiquement le référentiel du package.
+L’installation du package de DEB ou RPM entraîne automatiquement l’installation du référentiel de package.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ Aucune option n'est actuellement disponible pour les administrateurs informatiqu
 
 ![Capture d'écran des paramètres Notifications.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>Exemple de Script PowerShell
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Exemple de script PowerShell-règle de pare-feu entrant
 
 Cet exemple de script qui doit s’exécuter sur des ordinateurs clients dans le contexte d’un compte d’administrateur élevé, crée une nouvelle règle de pare-feu entrant pour chaque dossier utilisateur trouvé dans c:\users. Lorsque Teams détecte cette règle, il permet d’empêcher l’application Teams d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs passent leur premier appel à partir de Teams. 
 

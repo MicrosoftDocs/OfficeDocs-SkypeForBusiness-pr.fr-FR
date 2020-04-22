@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237897"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749441"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -118,9 +118,9 @@ Pour plus d’informations sur la façon d’effectuer la découverte électroni
 
 Nous avons un article spécifique à teams pour plus d’informations, EDiscovery concernant les [discussions invité-à-invité](eDiscovery-investigation.md).
 
-Les clients peuvent tirer parti d’une découverte électronique inaltérable ou [Advanced eDiscovery] selon leurs [besoins](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery). Le tableau suivant présente les différences entre les deux options :
+Les clients peuvent utiliser eDiscovery ou [Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) selon leurs besoins. Le tableau suivant présente les différences entre les deux options :
 
-| |eDiscovery en place  |eDiscovery avancée  |
+| |eDiscovery  |eDiscovery avancée  |
 |---------|---------|---------|
 |Gestion des cas     |X        |X         |
 |Contrôle d'accès  |X         |X         |

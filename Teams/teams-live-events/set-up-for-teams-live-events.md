@@ -18,43 +18,48 @@ description: Configurez des événements en direct dans Teams, y compris la conf
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140563"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749801"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
 Pour configurer des événements en direct, vous devez suivre plusieurs étapes.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Étape 1 : configurer votre réseau pour les événements en direct dans Teams
+
 Les événements en direct créés dans Teams nécessitent que vous [prépariez le réseau de votre organisation pour Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Étape 2 : obtenir et attribuer des licences
-Assurez-vous que vous disposez des affectations de licence appropriées pour définir [qui peut créer et planifier des événements en direct](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) et [qui peut visionner des événements en direct](plan-for-teams-live-events.md#who-can-watch-live-events).
+
+Assurez-vous que vous disposez des affectations de licence appropriées pour définir [qui peut créer et planifier des événements en direct](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events) et [qui peut visionner des événements en direct](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Etape 3 : configurer des stratégies d’événements en direct
+
 Les stratégies d’événements en direct sont utilisées pour contrôler qui dans votre organisation peut organiser des événements en direct et les fonctionnalités disponibles pour les événements qu’ils créent. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies d’événements en direct personnalisées. Une fois que vous avez créé une stratégie personnalisée, attribuez-la à un utilisateur ou à des groupes d’utilisateurs au sein de votre organisation.
 
 > [!NOTE]
-> Les utilisateurs de votre organisation recevront automatiquement la stratégie par défaut, sauf si vous créez et leur attribuez une stratégie personnalisée. Par défaut, dans la stratégie globale, la planification des événements en direct est activée pour les utilisateurs de Teams ; les sous-titres en direct et les sous-titres (transcription) sont désactivés ; tous les membres de l’organisation peuvent participer aux événements en direct et le paramètre d’enregistrement est défini sur toujours enregistrer. 
+> Les utilisateurs de votre organisation recevront automatiquement la stratégie par défaut, sauf si vous créez et leur attribuez une stratégie personnalisée. Par défaut, dans la stratégie globale, la planification des événements en direct est activée pour les utilisateurs de Teams ; les sous-titres en direct et les sous-titres (transcription) sont désactivés ; tous les membres de l’organisation peuvent participer aux événements en direct et le paramètre d’enregistrement est défini sur toujours enregistrer.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Créer ou modifier une stratégie d’événements en direct
+
 <a name="bkcreatepolicy"> </a>
 
 **![Icône affichant le logo Microsoft Teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams**
 
-1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Stratégies d’événements en direct**. 
+1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Stratégies d’événements en direct**.
 2. Effectuez l’une des opérations suivantes :
-- Si vous voulez modifier la stratégie par défaut existante, sélectionnez **Globale (par défaut à l’échelle de l’organisation)**. 
-- Si vous voulez créer une stratégie personnalisée, sélectionnez **Nouvelle stratégie**. 
-- Si vous voulez modifier une stratégie personnalisée, sélectionnez-la, puis choisissez **Modifier**. 
+
+- Si vous voulez modifier la stratégie par défaut existante, sélectionnez **Globale (par défaut à l’échelle de l’organisation)**.
+- Si vous voulez créer une stratégie personnalisée, sélectionnez **Nouvelle stratégie**.
+- Si vous voulez modifier une stratégie personnalisée, sélectionnez-la, puis choisissez **Modifier**.
 
     Voici les paramètres que vous pouvez modifier en fonction des besoins de votre organisation.
 
-    ![Capture d’écran des paramètres de stratégie des événements en direct](../media/teams-live-events-policies.png "Capture d’écran des paramètres de stratégie d’événements en direct dans le centre d’administration de Microsoft Teams.") 
+    ![Capture d’écran des paramètres de stratégie des événements en direct](../media/teams-live-events-policies.png "Capture d’écran des paramètres de stratégie d’événements en direct dans le centre d’administration de Microsoft Teams.")
 
 |Paramètres  |Description  |
 |---------|---------|

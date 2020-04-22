@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137694"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749861"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-Ce guide concerne la phase de la valeur de l’unité pour Microsoft teams et Skype entreprise online. Vous pouvez [Télécharger la version Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de ce guide.
+Ce guide concerne la phase de la valeur de l’unité pour Microsoft teams et Skype entreprise online. 
 
 ## <a name="introduction"></a>Introduction
 
@@ -478,15 +478,15 @@ Vous pouvez accéder à bord de l’une des trois manières suivantes :
 
 -   Accédez au **Centre d’administration Microsoft teams** et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
 
-![Capture d’écran du tableau de bord de qualité des appels sélectionné.](media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
+    ![Capture d’écran du tableau de bord de qualité des appels sélectionné.](media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
 
-_Figure 7 : accès à bord par le biais du centre d’administration Microsoft teams_
+    _Figure 7 : accès à bord par le biais du centre d’administration Microsoft teams_
 
 -   Accédez à l’ancien > **Outils**du **Centre d’administration Skype entreprise**et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
 
-![Capture d’écran de bord sélectionnée dans le volet principal.](media/qerguide-image-legacyui.png "Outils est sélectionné dans le volet de navigation gauche, et le lien vers bord est sélectionné dans le volet principal.")
+    ![Capture d’écran de bord sélectionnée dans le volet principal.](media/qerguide-image-legacyui.png "Outils est sélectionné dans le volet de navigation gauche, et le lien vers bord est sélectionné dans le volet principal.")
 
-_Figure 8 : accès à bord par le biais du centre d’administration Skype entreprise_
+    _Figure 8 : accès à bord par le biais du centre d’administration Skype entreprise_
 
 
 ### <a name="getting-started"></a>Prise en main
@@ -634,7 +634,7 @@ Le format du fichier de données que vous chargez doit respecter les exigences s
 
 -   Pour chaque colonne, si le type de données est String, les données peuvent être vides (tout en étant tout de même séparées par un délimiteur approprié, c’est-à-dire un caractère de tabulation ou une virgule). Cela affecte simplement le champ à une valeur de chaîne vide.
 
--   Chaque ligne doit comporter 14 colonnes. Chaque colonne doit avoir le type de données indiqué dans le tableau suivant, et les colonnes doivent être dans l’ordre indiqué dans le tableau.
+-   Il doit y avoir 14 colonnes pour chaque ligne (ou 15 si vous souhaitez ajouter la colonne facultatif VPN). Chaque colonne doit avoir le type de données indiqué dans le tableau suivant, et les colonnes doivent être dans l’ordre indiqué dans le tableau.
 
 _Tableau 5 : création d’une structure de fichier_
 
