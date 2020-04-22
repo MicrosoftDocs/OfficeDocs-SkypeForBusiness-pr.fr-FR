@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez les détails d’analyse des appels sur les appareils, les réseaux et la connectivité pour résoudre les problèmes liés aux utilisateurs de Microsoft Teams, ainsi que les réunions et les appels Skype entreprise.
-ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836764"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749561"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 
@@ -68,7 +68,7 @@ Pour plus d’informations sur les autorisations, voir les informations de l’a
   
 4. Sélectionnez l’utilisateur dans la liste.
 
-5. Sélectionnez **historique des appels**, puis sélectionnez l’appel ou la réunion que vous voulez résoudre.
+5. Sélectionnez **historique des appels**, puis sélectionnez l’appel ou la réunion que vous voulez résoudre.  Un maximum de 500 enregistrements seront renvoyés.
     
     ![Capture d’écran de la page historique des appels d’un utilisateur.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
@@ -88,7 +88,7 @@ Le tableau suivant répertorie les problèmes liés à la qualité des sessions 
 |Appel médiocre du réseau audio  <br/> |Session  <br/> |Des problèmes liés à la qualité du réseau (par exemple, perte de paquets, gigue, dégradation NMOS, RTT ou rapport masqué) ont été détectés. Pour plus d’informations sur les conditions utilisées pour classifier les appels médiocres, reportez-vous à ce [billet de blog Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |L’appareil ne fonctionne pas  <br/> |Device  <br/> | Un appareil ne fonctionne pas correctement. Taux de fonctionnement de l’appareil hors fonctionnement : <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)

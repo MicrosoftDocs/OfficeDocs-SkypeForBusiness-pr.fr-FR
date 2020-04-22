@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment configurer Skype entreprise pour utiliser une autre langue pour le message d’accueil de la boîte vocale par défaut de votre organisation.
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139133"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752341"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -49,9 +49,9 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à l’aide de votre compte d'[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [administrateur général Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l’adresse. 
+1. Connectez-vous à l’aide de votre compte d' [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [administrateur général Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l’adresse. 
     
-2. Dans le centre d’administration Microsoft 365, sélectionnez **paramètres** > de l'**organisation**. 
+2. Dans le centre d’administration Microsoft 365, sélectionnez**paramètres** > des **paramètres** > de l'**organisation**. 
     
      ![Capture d’écran montrant la sélection des paramètres, puis le profil de l’organisation.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
