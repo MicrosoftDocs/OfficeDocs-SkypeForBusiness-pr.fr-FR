@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment définir et utiliser des étiquettes de sensibilité dans Microsoft Teams.
-ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888733"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779761"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité de Microsoft teams
 
@@ -38,12 +38,12 @@ En revanche, les étiquettes de sensibilité et leurs politiques sont automatiqu
 
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Créer, gérer et publier des étiquettes de confidentialité pour teams
 
-Pour plus d’informations sur l’activation, la création et la publication d’étiquettes de sensibilité pour les équipes, voir [utiliser des étiquettes de sensibilité avec Microsoft Teams, les groupes Office 365 et les sites SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Pour plus d’informations sur l’activation, la création et la publication d’étiquettes de sensibilité pour les équipes, voir [utiliser des étiquettes de sensibilité avec Microsoft Teams, les groupes microsoft 365 et les sites SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >La création, la mise à jour et la suppression d’étiquettes de sensibilité nécessitent un séquençage rigoureux avec des étiquettes de publication aux utilisateurs. Tout écart dans la séquence peut entraîner des erreurs de création d’équipe persistantes pour tous les utilisateurs. Par conséquent, il est essentiel de procéder comme suit pour <a href="#createpublishlabels">créer et publier des étiquettes</a>, <a href="#modifydeletelabels">modifier et supprimer des étiquettes publiées</a>et <a href="#manageerrors">gérer les erreurs de création d’équipe</a>.
 
-**Créer et publier des étiquettes** <a name="createpublishlabels"></a>
+**Créer et publier des étiquettes** <a name="createpublishlabels"> </a>
 
 Lors de la création et de la publication d’une étiquette dans le centre de sécurité & conformité, il peut s’écouler jusqu’à 24 heures avant que l’étiquette s’affiche dans l’interface de création d’équipes. Procédez comme suit pour publier l’étiquette de tous les utilisateurs du client :
 1. Créez l’étiquette et publiez-la pour quelques comptes d’utilisateurs sélectionnés dans le client.
@@ -51,7 +51,7 @@ Lors de la création et de la publication d’une étiquette dans le centre de s
 3. Après 24 heures, essayez de créer une équipe avec l’étiquette à l’aide de l’un des comptes d’utilisateurs qui ont accès à l’étiquette.
 4. Si l’équipe a été créée à l’étape 3, continuez et publiez l’étiquette pour les utilisateurs restants dans le client.
 
-**Modification et suppression d’étiquettes publiées** <a name="modifydeletelabels"></a>
+**Modification et suppression d’étiquettes publiées** <a name="modifydeletelabels"> </a>
 
 La suppression ou la modification de l’étiquette alors qu’elle est associée aux stratégies de confidentialité peut entraîner des échecs de création d’équipe sur le client. Par conséquent, avant de supprimer ou de modifier une étiquette, vous devez d’abord dissocier l’étiquette de ses stratégies associées. Procédez comme suit  
 pour supprimer ou modifier une étiquette :
@@ -60,7 +60,7 @@ pour supprimer ou modifier une étiquette :
 3. Après 48 heures, lancez l’interface de création d’équipe et assurez-vous que l’étiquette n’est plus visible pour les utilisateurs du client.
 4. Vous pouvez maintenant supprimer ou modifier l’étiquette en toute sécurité.
 
-**Gérer les erreurs** <a name="manageerrors"></a> de création d’équipe
+**Gérer les erreurs** <a name="manageerrors"> </a> de création d’équipe
 
 Si la création d’une équipe commence à échouer à tout moment pendant la préversion publique, deux options s’offrent à vous :
  - Assurez-vous que les étiquettes de sensibilité ne sont pas obligatoires pour les utilisateurs lors de la création d’une équipe.

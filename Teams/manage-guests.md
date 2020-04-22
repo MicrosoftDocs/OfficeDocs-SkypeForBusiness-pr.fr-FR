@@ -17,12 +17,12 @@ description: Apprenez-en davantage sur la création de vos premières équipes e
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139243"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777839"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139243"
 > [!IMPORTANT]
 > Il est possible que les modifications ne prennent effet qu'après 24 heures. 
 
-**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans tous les abonnements Office 365 Business Premium, Office 365 entreprise, Office 365 Business Essentials et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
+**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans l’ensemble des abonnements Microsoft 365 entreprise, Office 365 entreprise, Microsoft 365 entreprise basique et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
 
 L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur l’activation de l’accès invité, voir Activation ou désactivation de l' [accès invité aux équipes](set-up-guests.md)ou utilisation de la liste de vérification de l' [accès invité](guest-access-checklist.md) pour vous guider dans la procédure d’installation.
 
@@ -64,7 +64,7 @@ Les avis sur l’accès sont disponibles avec l’édition Premium d’Azure AD,
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Temps d’attente pour que les paramètres d’accès invités soient appliqués
 
-Pour les paramètres d’accès invité dans Azure Active Directory, il faut 2-24 heures pour que les modifications prennent effet au sein de votre organisation Office 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
+Pour les paramètres d’accès invité dans Azure Active Directory, il faut 2-24 heures pour que les modifications prennent effet dans votre 365 ou Office 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité

@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208320"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ Le tableau suivant répertorie les étapes nécessaires à la préparation de vo
 <tr class="even">
 <td></td>
 <td><p>Ajouter votre domaine et vérifier la propriété</p></td>
-<td><p>Votre domaine est parfois également appelé votre <em>domaine personnel</em>. Vous devez ajouter votre domaine à votre client Office 365, puis suivre les étapes pour valider le domaine avec Office 365. Cela permet de confirmer que vous êtes le propriétaire du domaine.</p>
-<p>Pour ajouter votre domaine à votre client Office 365, suivez les étapes décrites dans la rubrique <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">ajouter votre domaine à office 365</a>.</p>
+<td><p>Votre domaine est parfois également appelé votre <em>domaine personnel</em>. Vous devez ajouter votre domaine à votre organisation Office 365, puis suivre les étapes de validation du domaine avec Office 365. Cela permet de confirmer que vous êtes le propriétaire du domaine.</p>
+<p>Pour ajouter votre domaine à votre organisation Office 365, suivez les étapes décrites dans la rubrique <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">ajouter votre domaine à office 365</a>.</p>
 <p>Effectuez toutes les étapes de chaque section de la rubrique, y compris &quot;modifier les enregistrements DNS pour vos services Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">

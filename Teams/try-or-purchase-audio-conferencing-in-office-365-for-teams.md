@@ -1,5 +1,5 @@
 ---
-title: Essayez ou achetez une audioconférence dans Office 365 pour teams
+title: Essayez ou achetez une audioconférence dans Microsoft 365 pour teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139693"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780163"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayez ou achetez une audioconférence dans Microsoft 365 pour Microsoft teams
 
 Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft teams inclut la fonction de conférence rendez-vous pour cette situation. Les utilisateurs peuvent appeler les réunions Microsoft teams à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft teams sur un appareil mobile ou un PC.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: En savoir plus sur les différentes combinaisons de création d’utilisateur et les combinaisons prises en charge ou non prises en charge.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141077"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779993"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141077"
 Cet article s’applique aux environnements dans lesquels vous disposez de tous les éléments suivants : 
  
 - Skype entreprise Server ou Lync Server 2013 
-- Un client Office 365 
+- Une organisation Office 365 
 - Connectivité hybride configurée entre le serveur Skype entreprise et Skype entreprise Online ou le client Microsoft teams 
 - Utilisateurs autorisés à passer et à recevoir des appels de réseau téléphonique commuté (PSTN) vers et depuis le client
 

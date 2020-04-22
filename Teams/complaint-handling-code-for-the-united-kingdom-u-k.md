@@ -1,5 +1,5 @@
 ---
-title: Code de traitement des réclamations pour le Royaume-Uni -Offres d’appels d’Office 365
+title: Code de traitement des réclamations pour le Royaume-Uni -Forfaits d’appels Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Faire une réclamation pour les services d’appel Skype entreprise (appel RTC au Royaume-Uni), des chronologies pour répondre et de la résolution des litiges pour les plaintes non résolues.
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137284"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780273"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Office 365 Code de traitement de plainte pour le Royaume-Uni (U.K.)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Microsoft 365-code de traitement des réclamations pour le Royaume-Uni
 
-Ce code s’applique aux clients de petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel d’Office 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce code s’applique aux clients petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel Microsoft 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 
 ## <a name="how-to-make-a-complaint"></a>Comment porter réclamation
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lisez cette rubrique pour examiner les considérations relatives à la planification de l’implémentation de la déviation du trafic multimédia avec la version 2,0 et ultérieure de Cloud Connector. Pour plus d’informations sur le déploiement de la déviation du trafic multimédia, voir deploy Media Bypass in Cloud Connector Edition.
-ms.openlocfilehash: 47b8d9e5d0b69b95c48f89591d75d53591b7426c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010307"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778780"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans Cloud Connector Edition
  
@@ -37,7 +37,7 @@ La déviation du trafic multimédia peut améliorer la qualité de la voix en di
 
 Bien que la signalisation prenne le même chemin avec ou sans déviation du trafic multimédia, le flux multimédia diffère. Les diagrammes suivants indiquent les médias et les voies de signalisation dans des topologies avec et sans déviation du trafic multimédia. 
   
-Par exemple, dans la topologie suivante, qui n’utilise pas le contournement de média, un client Skype entreprise passe un appel RTC à un numéro externe, la signalisation SIP vers Office 365 et Office 365 dirige le trafic de signalisation en fonction de la voix de l’utilisateur final renvoi. Pour les utilisateurs de Cloud Connector, la stratégie de voix dirige le trafic de signalisation vers le serveur Edge de Cloud Connector, qui achemine ensuite le trafic de signalisation vers un contrôleur SBC (session Border Controller) ou une passerelle via le serveur de médiation Cloud Connector. Le flux multimédia s’achemine du client Skype entreprise vers le serveur de médiation Cloud Connector, puis vers le SBC ou la passerelle, comme illustré dans le diagramme suivant :
+Par exemple, dans la topologie suivante, qui n’utilise pas le contournement de média, un client Skype entreprise passe un appel RTC à un numéro externe, la signalisation SIP vers Office 365 et Office 365 dirige le trafic de signalisation en fonction de la stratégie de voix de l’utilisateur final. Pour les utilisateurs de Cloud Connector, la stratégie de voix dirige le trafic de signalisation vers le serveur Edge de Cloud Connector, qui achemine ensuite le trafic de signalisation vers un contrôleur SBC (session Border Controller) ou une passerelle via le serveur de médiation Cloud Connector. Le flux multimédia s’achemine du client Skype entreprise vers le serveur de médiation Cloud Connector, puis vers le SBC ou la passerelle, comme illustré dans le diagramme suivant :
   
 **Médias et voies de signalisation sans déviation du trafic multimédia**
 
@@ -75,14 +75,14 @@ Si un client se trouve à l’extérieur du réseau d’entreprise à l’aide d
   
 ## <a name="supported-clients-for-media-bypass"></a>Clients pris en charge pour la déviation du trafic multimédia
 
-Avec la première publication de la déviation du trafic multimédia, le seul client pris en charge est le client Windows Skype entreprise 2016 qui fait partie d’Office 365 ProPlus, version 16.0.7870.2020 ou supérieure. Les clients peuvent utiliser n’importe quel canal : actuel, différé ou première publication différée. 
+Avec la première publication de la déviation du trafic multimédia, le seul client pris en charge est le client Windows Skype entreprise 2016 qui fait partie des applications Microsoft 365 pour Enterprise, version 16.0.7870.2020 ou ultérieure. Les clients peuvent utiliser n’importe quel canal : actuel, différé ou première publication différée. 
   
 > [!NOTE]
 > Si vous utilisez une solution VPN client en combinaison avec le client Skype entreprise, la déviation du trafic multimédia n’est prise en charge qu’avec une configuration de tunneling VPN. 
   
-Pour plus d’informations sur les canaux de publication, voir [vue d’ensemble des canaux de mise à jour pour Office 365 ProPlus](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
+Pour plus d’informations sur les canaux de publication, voir [vue d’ensemble des canaux de mise à jour pour les applications Microsoft 365 pour les entreprises](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Pour la version actuelle des clients dans différents canaux, consultez la rubrique [Release information for Updates to Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
+Pour la version actuelle des clients dans différents canaux, consultez la rubrique [Release information for Updates to Microsoft 365 Apps for Enterprise](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Considérations relatives à la capacité de Cloud Connector avec contournement de média
 
@@ -107,7 +107,7 @@ Par exemple, dans le diagramme ci-dessous, les utilisateurs européens doivent �
 ![Capacité de Cloud Connector](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> Si un utilisateur de Zurich se déplace vers le Bureau de Seattle et que vous souhaitez utiliser le réseau interne pour transmettre le trafic multimédia entre l’utilisateur itinérant et les passerelles en Europe (au lieu de passer sur Internet), vous devez vous assurer que les bureaux de Seattle et d’Amsterdam Office où les contrôleurs SBC ou les passerelles européens sont qualifiés d’une bonne connexion. 
+> Si un utilisateur de Zurich se déplace vers le Bureau de Seattle et que vous souhaitez utiliser le réseau interne pour transmettre le trafic multimédia entre l’utilisateur itinérant et les passerelles en Europe (au lieu de passer sur Internet), vous devez vous assurer que le Bureau de Seattle et le Bureau d’Amsterdam où les contrôleurs SBC ou les passerelles européens sont qualifiés. 
   
 ## <a name="codecs-used-in-media-bypass"></a>Codecs utilisés dans la déviation du trafic multimédia
 

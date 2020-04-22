@@ -1,5 +1,5 @@
 ---
-title: Set-CcCredential
+title: Set-applet cccredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
-description: 'L’applet de commande Set-CcCredential définit les informations du déploiement de la version Cloud Connector de Skype Entreprise.  '
-ms.openlocfilehash: b7620a6d76415e4e2a49ea9bd628d1e1cba7f4ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel.
+ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824208"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780673"
 ---
-# <a name="set-cccredential"></a>Set-CcCredential
+# <a name="set-cccredential"></a>Set-applet cccredential
  
-L’applet de commande Set-CcCredential définit les informations du déploiement de la version Cloud Connector de Skype Entreprise.   
+L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel. 
   
-Avec le Cloud Connector version 2,0 et les versions ultérieures, cette applet de contrôle peut également définir les informations de compte de l’administrateur de l’ordinateur virtuel et de l’administrateur du domaine.
+Avec la version 2,0 de Cloud Connector et les versions ultérieures, cette applet de commande peut également définir les informations de compte pour l’administrateur de l’ordinateur virtuel et pour l’administrateur de domaine.
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -33,9 +33,9 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant spécifie le nom et le mot de passe du compte de l’administrateur de client :
+L’exemple suivant spécifie le nom de compte et le mot de passe de l’administrateur client :
   
 ```powershell
 Set-CcCredential -AccountType "TenantAdmin"
@@ -44,21 +44,21 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Set-CcCredential définit le nom et le mot de passe du compte de l’administrateur de client. Pour les versions antérieures à 2,0, cet administrateur doit être un administrateur général Office 365. Le Cloud Connector utilise ce compte pour obtenir les informations de configuration, définir les paramètres de configuration et mettre à jour l’état de l’appareil sur la configuration du client Office 365. Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser cette applet de cmdlet pour mettre à jour les mots de passe des comptes VmAdmin et DomainAdmin.
+L’applet de commande Set-applet cccredential définit le nom de compte et le mot de passe de l’administrateur client. Pour les versions antérieures à 2,0, cet administrateur doit être un administrateur général. Cloud Connector utilise ce compte pour obtenir des informations de configuration, définir les paramètres de configuration et mettre à jour l’état de l’équipement vers la configuration de l’organisation Office 365. Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser cette applet de commande pour mettre à jour les mots de passe des comptes VmAdmin et DomainAdmin.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Obligatoire <br/> |System.String  <br/> | La valeur du paramètre doit être « TenantAdmin », « VmAdmin » ou « DomainAdmin ». <br/> |
+| AccountType <br/> | Requis <br/> |System.String  <br/> | La valeur du paramètre doit être « TenantAdmin », « VmAdmin » ou « DomainAdmin ». <br/> |
    
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Set-CcCredential n’accepte pas l’entrée redirigée.
+Aucun. L’applet de commande Set-applet cccredential n’accepte pas les entrées redirigées.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun
@@ -66,6 +66,6 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Get-CcCredential](get-cccredential.md)
+[Get-applet cccredential](get-cccredential.md)
   
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de478ddf104f36fc208f2773c26c772b2cc0addd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195337"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Avant de rendre l’application Lync Windows Store accessible aux utilisateurs, 
 
 ## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Activation de l’authentification multifacteur pour l’application Lync Windows Store
 
-Mises à jour cumulatives pour Lync Server 2013 : le 2013 juin ajoute la prise en charge de l’authentification multifacteur pour les clients de l’application Windows Store de Lync. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs externes lorsqu’ils se connectent à des réunions Lync. Pour activer l’authentification multifacteur, vous devez déployer le serveur de fédération AD FS (Active Directory Federation Service) et activer l’authentification passive dans Lync Server 2013. Une fois les services ADFS configurés, les utilisateurs externes qui tentent de participer à des réunions Lync sont présentés avec une page Web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que toutes les autres méthodes d’authentification que vous avez configurées. .
+Mises à jour cumulatives pour Lync Server 2013 : le 2013 juin ajoute la prise en charge de l’authentification multifacteur pour les clients de l’application Windows Store de Lync. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs externes lorsqu’ils se connectent à des réunions Lync. Pour activer l’authentification multifacteur, vous devez déployer le serveur de fédération AD FS (Active Directory Federation Service) et activer l’authentification passive dans Lync Server 2013. Une fois les services ADFS configurés, les utilisateurs externes qui tentent de participer à des réunions Lync sont présentés avec une page Web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que les autres méthodes d’authentification que vous avez configurées.
 
 <div class=" ">
 
@@ -138,7 +138,7 @@ Si votre topologie se compose de Lync Server 2010 avec le serveur Edge Office Co
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>L’application Lync du Windows Store ne peut pas se connecter en raison d’un échec de validation de nom de certificat
 
-Un problème de connexion peut se produire pour les utilisateurs d’Office 365 qui n’exécutent pas la dernière version de l’application Lync du Windows Store. Ce problème se produit généralement lorsque vous utilisez plusieurs domaines (par exemple, lorsque l’URI SIP est **usera@domainZ.com** mais que le serveur Edge est **SIP.domainX.com**). Pour résoudre le problème, les utilisateurs doivent installer la dernière version de l’application Lync du Windows Store, qui nécessite également Windows 8,1.
+Un problème de connexion peut se produire pour les utilisateurs de Microsoft 365 ou Office 365 qui n’exécutent pas la dernière version de l’application Lync du Windows Store. Ce problème se produit généralement lorsque vous utilisez plusieurs domaines (par exemple, lorsque l’URI SIP est **usera@domainZ.com** mais que le serveur Edge est **SIP.domainX.com**). Pour résoudre le problème, les utilisateurs doivent installer la dernière version de l’application Lync du Windows Store, qui nécessite également Windows 8,1.
 
 </div>
 

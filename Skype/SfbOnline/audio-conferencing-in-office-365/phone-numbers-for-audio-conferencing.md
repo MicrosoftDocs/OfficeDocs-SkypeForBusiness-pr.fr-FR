@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986509"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777439"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online
 
@@ -49,22 +49,22 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Les autres numéros de connexion sont affichés en cliquant sur le lien **Rechercher un numéro local** dans l'invitation à la réunion.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Numéros de téléphone d’accès définis sur un pont de conférence audio
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Numéros de téléphone d'accès configurés sur un pont de conférence rendez-vous audio
 
 There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
   
  Les **numéros de téléphone dédiés** sont les numéros disponibles uniquement pour les utilisateurs au sein de votre organisation. Vous pouvez modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
   
- Les **numéros de téléphone partagés** sont des numéros qui peuvent être partagés avec d'autres organisations Office 365. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
+ Les **numéros de téléphone partagés** sont les numéros de téléphone que vous pouvez partager avec d’autres 365 ou Office 365s. Vous ne pouvez pas modifier la langue utilisée lorsque quelqu’un appelle l’un de ces numéros.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Numéros de téléphone de l’audioconférence assignés automatiquement
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Affectation automatique de numéros de téléphone de conférence audio
 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> Vous pouvez trouver l’emplacement du pays ou de la région de votre organisation en vous connectant au centre d’administration 365 Microsoft et en regardant sous profil de l' **organisation**. 
+> Vous trouverez l'emplacement du pays ou de la région de votre organisation en vous connectant au Centre d'administration Microsoft 365 et en regardant sous **Profil de l’organisation**. 
   
 > [!CAUTION]
 > En raison d’une disponibilité limitée des numéros de téléphone payants au Venezuela, en Indonésie, au Viêt Nam et aux Émirats Arabes Unis (Émirats Arabes Unis), les organisations de ces pays/régions ne disposent pas d’un numéro de téléphone payant. Les numéros sans frais de ces emplacements sont disponibles en fonction de l’inventaire disponible. 
@@ -87,6 +87,6 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

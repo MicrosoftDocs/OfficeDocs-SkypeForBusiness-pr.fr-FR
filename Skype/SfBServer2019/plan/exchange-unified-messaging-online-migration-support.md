@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417619"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780773"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration de messagerie unifiée Exchange Online
 
@@ -82,7 +82,7 @@ Microsoft a identifié divers déploiements de clients qui utilisent des fonctio
     Pour plus d’informations sur la migration de vos utilisateurs, consultez le centre de notification de l’administrateur. Les notifications sont envoyées au moins 30 jours avant la période de migration. 
 
     > [!Note]
-    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et souhaitez reporter votre migration pour une raison stratégique, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas reporter votre migration au-delà de la date de déclassement, du 28 février 2020. Pour les clients qui peuvent avoir des questions supplémentaires, contactez votre équipe de compte ou le support Microsoft. Les clients qui utilisent déjà Office 365 peuvent soumettre un cas de support via le portail d’administration d’Office 365. 
+    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et souhaitez reporter votre migration pour une raison stratégique, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas reporter votre migration au-delà de la date de déclassement, du 28 février 2020. Pour les clients qui peuvent avoir des questions supplémentaires, contactez votre équipe de compte ou le support Microsoft. Les clients qui utilisent déjà Office 365 peuvent soumettre un cas de support via le centre d’administration Microsoft 365. 
 
 6. **Envisager d’opter pour une migration planifiée**
 
@@ -104,9 +104,9 @@ Microsoft a identifié divers déploiements de clients qui utilisent des fonctio
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instructions de migration du standard automatique
 
-Les administrateurs clients Office 365 sont tenus de recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique de Microsoft Cloud et d’y faire passer leurs numéros de téléphone locaux avant le 28 février 2020, ce qui est le cas lorsque le service UMO Exchange sera capitaux. Il s’agit de la règle recommandée pour réussir la migration et le test de nouveaux standards automatiques Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique de messagerie unifiée Exchange pour les scripts de migration de standard](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatique de Cloud afin de simplifier la migration en bloc des standards automatiques.
+Les administrateurs d’organisation Office 365 sont tenus de recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Cloud de Microsoft et d’y faire passer leurs numéros de téléphone locaux avant le 28 février 2020, ce qui est le cas lorsque le service UMO Exchange est retiré. Il s’agit de la règle recommandée pour réussir la migration et le test de nouveaux standards automatiques Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique de messagerie unifiée Exchange pour les scripts de migration de standard](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatique de Cloud afin de simplifier la migration en bloc des standards automatiques.
 
-### <a name="setup"></a>Configuration
+### <a name="setup"></a>Installation
 
 Nous vous conseillons vivement de commencer la configuration de vos nouveaux standards automatiques dès le début pour éviter les problèmes de dernière minute et pour vous familiariser avec les fonctionnalités et l’expérience du service de standard automatique Cloud. Pour les standards automatiques qui nécessitent une ou plusieurs fonctionnalités d’intervalle, vous pouvez créer et tester les standards automatiques lorsque les fonctionnalités d’espace sont disponibles pour préparer le déploiement. Pour plus d’informations sur les fonctionnalités des intervalles, voir l' [annexe](#appendix).
 
@@ -162,13 +162,13 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités de l’appelant  | Détection de silence   |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : l’administrateur peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme protégée | v | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la durée limite d’enregistrement  |     | v | v    |
-| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | S/O    | v    |
+| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | N/A    | v    |
 | Media | Client-fonctionnalités d’administration | Modifier le nombre d’échecs d’entrée | CVM : préprogrammé préprogrammé sur 3 | N | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la langue par défaut |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la transcription |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | S/O    | v    |
+| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | N/A    | v    |
 | Media | Client-fonctionnalités d’administration | Masquage de transcription|  | v | N    |
 | Media | Client-fonctionnalités d’administration | Stratégie de messagerie vocale    |   | v | v    |
 | Media | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | v    |

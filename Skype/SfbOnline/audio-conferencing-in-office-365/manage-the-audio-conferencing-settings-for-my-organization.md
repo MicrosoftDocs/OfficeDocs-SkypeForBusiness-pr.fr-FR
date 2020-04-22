@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Pour plus d’informations, reportez-vous à la rubrique Skype entreprise Online : affectation d’une licence de conférence rendez-vous et d’un ID de conférence à un utilisateur et aux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986519"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777979"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -43,7 +43,7 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 
  **Pour attribuer une licence à un utilisateur**
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Dans le volet de navigation de gauche du **Centre d’administration, accédez à** > utilisateurs**actifs**, puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
 
@@ -59,9 +59,9 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Activer ou désactiver les messages électroniques envoyés aux utilisateurs de l’audioconférence
 
-![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
+![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise** et dans le volet de navigation de gauche, cliquez sur **audioconférence**.
 
@@ -110,7 +110,7 @@ Afficher [les courriers électroniques envoyés automatiquement aux utilisateurs
 
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialisation de l'ID de conférence
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -128,7 +128,7 @@ Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateu
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise** et dans le volet de navigation de gauche, cliquez sur **audioconférence**.
 
@@ -142,7 +142,7 @@ Voir [Réinitialiser le code confidentiel de l’audioconférence](reset-the-aud
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un courrier électronique à un utilisateur avec ses informations de conférence audio
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise** et dans le volet de navigation de gauche, cliquez sur **audioconférence**.
 
@@ -157,7 +157,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Attribution de numéros de téléphone aux invitations
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -175,7 +175,7 @@ Reportez-vous [à la rubrique définition des numéros de téléphone inclus dan
 **Définir l’accès à la réunion lorsque les appelants rejoignent une réunion**
 
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -195,7 +195,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
   
  **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -209,7 +209,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
   
  **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise** et dans le volet de navigation de gauche, cliquez sur **audioconférence**.
 
@@ -226,7 +226,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Afficher et définir les langues principales (par défaut) et secondaires (de remplacement) sur un pont de conférence audio
 
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -240,7 +240,7 @@ Reportez-vous à la rubrique [Définir les langues du standard automatique pour 
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Afficher les numéros d’accès pour les conférences audio
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -258,7 +258,7 @@ Voir [la liste des numéros de conférence audio](see-a-list-of-audio-conferenci
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>Affichage de la liste des utilisateurs activés
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
@@ -331,7 +331,7 @@ Voici les paramètres au niveau de l’Organisation :
 
     Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user.md)
 

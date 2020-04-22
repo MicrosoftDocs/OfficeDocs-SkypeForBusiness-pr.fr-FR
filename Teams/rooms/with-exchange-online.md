@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Exchange Online.
-ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572882"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780553"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Déploiement de salles de Microsoft teams avec Exchange Online
 
@@ -101,7 +101,7 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
      ``` -->
 
 2. Le compte d’utilisateur doit avoir une licence Office 365 valide pour garantir le fonctionnement d’Exchange et de Skype entreprise Server. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’utilisateur ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous devez créer le devoir à l’étape suivante.
-3. Utilisez ensuite`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> pour récupérer la liste des références SKU disponibles pour votre client Office 365.
+3. Utilisez ensuite`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> pour récupérer la liste des références SKU disponibles pour votre organisation Office 365.
 4. Une fois que vous avez répertorié les références (SKU), vous pouvez ajouter une licence à l’aide du`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> applet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -159,10 +159,10 @@ Pour la validation, vous devriez être en mesure d’utiliser n’importe quel c
 
 [Configurer des comptes pour les salles de Microsoft teams](rooms-configure-accounts.md)
 
-[Plan pour les salles de Microsoft teams](rooms-plan.md)
+[Planifier les Salles Microsoft Teams](rooms-plan.md)
   
-[Déploiement de salles de Microsoft teams](rooms-deploy.md)
+[Déployer les Salles Microsoft Teams](rooms-deploy.md)
   
-[Configurer une console de salle Microsoft teams](console.md)
+[Configurer une console des salles Microsoft Teams](console.md)
   
-[Gérer Microsoft Teams Rooms](rooms-manage.md)
+[Gérer les Salles Microsoft Teams](rooms-manage.md)

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141177"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780633"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
@@ -97,7 +97,7 @@ Le changement est disponible dans les langues suivantes : chinois (simplifié),
 
 #### <a name="where-is-shifts-data-stored"></a>Où les données sont-elles stockées ?
 
-Les données de décalage sont stockées dans Azure dans les centres de données en Amérique du Nord et en Europe de l’Ouest. Le contenu SharePoint exploite les groupes Office 365 et utilise le même stockage et la même prise en charge.
+Les données de décalage sont stockées dans Azure dans les centres de données en Amérique du Nord et en Europe de l’Ouest. Le contenu SharePoint exploite les groupes Microsoft 365 et utilise le même stockage et le même support.
 
 Pour plus d’informations, voir [emplacement des données de décalage](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
@@ -131,9 +131,9 @@ Teams prend en charge la coexistence avec Skype entreprise. Pour plus d’inform
 
 Oui, tous les responsables et membres d’une équipe qui utilisent des équipes et des équipes doivent disposer d’un compte Office 365 (Azure AD) et disposer d’une licence valide.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>Dans StaffHub, j’aurais pu ajouter un préfixe spécial à tous les groupes Office 365 qui ont été créés par StaffHub Teams. Est-ce que je peux faire la même chose dans teams ?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>Dans StaffHub, j’aurais pu ajouter un préfixe spécial à tous les groupes Microsoft 365 créés par StaffHub Teams. Est-ce que je peux faire la même chose dans teams ?
 
-Vous ne disposez pas de la même fonctionnalité lorsque vous passez de StaffHub à Teams. Si vous devez appliquer la cohérence de nom à tous vos groupes 365 Office, vous pouvez utiliser la [stratégie d’attribution de noms de groupes office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+Vous ne disposez pas de la même fonctionnalité lorsque vous passez de StaffHub à Teams. Si vous devez appliquer la cohérence de nom à tous vos groupes Microsoft 365, vous pouvez utiliser la [stratégie d’attribution de noms de groupes microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Les noms d’équipe seront-ils les mêmes dans teams ?
 
@@ -149,7 +149,7 @@ Nous vous encourageons à consulter vos listes d’équipe existantes sur StaffH
 
 Le planning de l’utilisateur est déplacé vers les décalages, mais il n’est pas membre de l’équipe ou d’un groupe Office 365.
 
-Pour les comptes inactifs qui ne sont pas associés à un compte d’utilisateur Azure AD, un responsable peut s’assurer que l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Office 365 valide dans la page des membres de l’équipe StaffHub de sorte que l’utilisateur soit lié au compte Azure AD approprié au sein de son organisation.
+Pour les comptes inactifs qui ne sont pas associés à un compte d’utilisateur Azure AD, un responsable peut s’assurer que l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Microsoft 365 ou Office 365 valide dans la page des membres de l’équipe StaffHub de manière à ce que l’utilisateur soit lié au compte Azure AD approprié au sein de son organisation.
 
 Une autre option consiste à ce que les administrateurs exécutent les applets de commande **Add-StaffHubMember** et **Remove-StaffHubUser** pour supprimer un compte non approvisionné d’une équipe StaffHub et le rajouter à l’équipe avec leur nom d’utilisateur principal.
 

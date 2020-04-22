@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505641"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779640"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -46,7 +46,7 @@ Même si la technologie Cloud Video Interop fournit une solution de grande quali
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 secteur public et services tiers
 
-Office 365 offre la possibilité d’intégrer des applications tierces dans les sites SharePoint Online, Skype entreprise, équipes, applications Office incluses dans Office 365 ProPlus (par exemple, Word, Excel, PowerPoint et Outlook) et Outlook Web App. Par ailleurs, Office 365 prend en charge l’intégration avec des fournisseurs de services tiers. Ces services et applications tiers peuvent impliquer le stockage, la transmission et le traitement des données client de votre organisation sur des systèmes tiers situés en dehors de l’infrastructure 365 d’Office et ne sont donc pas soumis aux engagements en matière de conformité et de protection des données d’Office 365. **Nous vous recommandons de consulter les déclarations de confidentialité et de conformité fournies par les tiers lors de l’évaluation de l’utilisation appropriée de ces services pour votre organisation.**
+Office 365 offre la possibilité d’intégrer des applications tierces dans les sites SharePoint Online, Skype entreprise, équipes et applications Office incluses dans les applications Microsoft 365 pour les entreprises (par exemple, Word, Excel, PowerPoint et Outlook) et Outlook Web App. Par ailleurs, Office 365 prend en charge l’intégration avec des fournisseurs de services tiers. Ces services et applications tiers peuvent impliquer le stockage, la transmission et le traitement des données client de votre organisation sur des systèmes tiers situés en dehors de l’infrastructure 365 d’Office et ne sont donc pas soumis aux engagements en matière de conformité et de protection des données d’Office 365. **Nous vous recommandons de consulter les déclarations de confidentialité et de conformité fournies par les tiers lors de l’évaluation de l’utilisation appropriée de ces services pour votre organisation.**
 
 
 

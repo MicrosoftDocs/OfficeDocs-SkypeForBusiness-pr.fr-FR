@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: ed520dd5292cf67d67255457f1555ba04c87be1e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706329"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777159"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Résolution des problèmes liés à Skype Entreprise Online
 
@@ -75,7 +75,7 @@ La plupart des problèmes rencontrés par les utilisateurs de Skype Entreprise O
 ## <a name="still-need-help-contact-support"></a>Vous avez encore besoin d'aide ? Contactez le support technique.
 <a name="BK_SupportBridge_1"> </a>
 
-En tant qu'administrateur pour Office 365 pour les entreprises, vous pouvez contacter gratuitement nos agents de support qualifiés pour les questions relatives à l'avant-vente, à la gestion des comptes ou à la facturation, et pour obtenir de l'aide pour résoudre les problèmes techniques. Vous pouvez également [contacter le support](https://go.microsoft.com/fwlink/p/?LinkID=518322) pour le compte des utilisateurs d'Office 365 dans votre organisation.
+En tant qu’administrateur d’Office 365 pour les entreprises, vous bénéficiez d’un accès gratuit à nos agents de support technique pour la prise en charge des versions antérieures à la vente, des comptes et de la facturation, ainsi que de l’aide à la résolution des problèmes techniques. Vous pouvez également [contacter le support technique](https://go.microsoft.com/fwlink/p/?LinkID=518322) de la part de Microsoft 365 et des utilisateurs d’Office 365 au sein de votre organisation.
 
 - [Obtenir de l'aide dans les forums de la Communauté Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
@@ -84,7 +84,7 @@ En tant qu'administrateur pour Office 365 pour les entreprises, vous pouvez cont
 > [!NOTE]
 > Si vous utilisez Office 365 géré par 21Vianet en Chine, veuillez [contacter l'équipe de support de 21Vianet](https://go.microsoft.com/fwlink/p/?linkid=847978).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

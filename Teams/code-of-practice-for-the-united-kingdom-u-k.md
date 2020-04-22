@@ -1,5 +1,5 @@
 ---
-title: Code de pratique pour le Royaume-Uni -Offres d’appels d’Office 365
+title: Code de pratique pour le Royaume-Uni -Forfaits d’appels Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Découvrez le code de pratique pour les forfaits d’appels RTC pour Skype entreprise, notamment pour obtenir de l’aide et comment faire des réclamations et résoudre les conflits.
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139043"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779630"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Office 365 : Code de conduite pour le Royaume-Uni (U.K.)
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Microsoft 365-code de pratique pour le Royaume-Uni
 
 Ce code s’applique aux clients de petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel d’Office 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 

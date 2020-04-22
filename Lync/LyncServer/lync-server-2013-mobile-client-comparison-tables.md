@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217490"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ Les tableaux suivants comparent les fonctionnalités entre les clients mobiles L
 
   - Archivage et conformité
 
-Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype entreprise Online et de Microsoft Office 365, sauf indication contraire dans les notes de bas de page du tableau.
+Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype entreprise Online et Microsoft 365 ou Office 365, sauf indication contraire dans les notes de bas de page du tableau.
 
 <div>
 
@@ -412,7 +412,7 @@ Sur iPhone et iPad, Lync se déconnecte automatiquement si l’utilisateur n’a
 </table>
 
 
-1 non disponible pour les utilisateurs de Skype entreprise Online et/ou Office 365.
+1 non disponible pour les utilisateurs de Skype entreprise Online et/ou de Microsoft 365 ou Office 365.
 
 </div>
 
@@ -757,11 +757,11 @@ Sur iPhone et iPad, Lync se déconnecte automatiquement si l’utilisateur n’a
 </table>
 
 
-1 pour les utilisateurs d’Office 365, cette fonctionnalité est disponible uniquement pour les réunions activées par le fournisseur de services d’audioconférence (ACP).
+1 pour les utilisateurs de Microsoft 365 ou Office 365, cette fonctionnalité est disponible uniquement pour les réunions activées par le fournisseur de services d’audioconférence (ACP).
 
-2 non disponible pour les utilisateurs d’Office 365.
+2 non disponible pour les utilisateurs de Microsoft 365 ou Office 365.
 
-3 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité est disponible auprès de fournisseurs de services d’audioconférence tiers.
+3 pour Skype entreprise Online et/ou Microsoft 365 ou Office 365 utilisateur, cette fonctionnalité est disponible auprès de fournisseurs de services d’audioconférence tiers.
 
 la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affichée à partir de Lync mobile 2013. Les annotations effectuées sur les clients de bureau Lync 2013 ne sont pas affichables sur les appareils mobiles.
 
@@ -894,11 +894,11 @@ la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affi
 
 1 les utilisateurs de Lync Server 2013, Skype entreprise Online et Office 365 peuvent appeler d’autres utilisateurs Lync et des utilisateurs Skype en cliquant sur l’icône. Les utilisateurs de Lync Server 2013 peuvent également placer des appels RTC en cliquant sur l’icône.
 
-2 pour les utilisateurs de Lync Server 2013 locaux, sur les appareils Windows Phone, iPhone et iPad, l’utilisateur clique sur l’icône d’appel dans la carte de visite et accepte le rappel depuis Lync Server 2013. Pour les utilisateurs d’Office 365, sur les appareils Windows Phone, iPhone et iPad, lorsque l’utilisateur clique sur le bouton appeler, une boîte de dialogue s’ouvre pour demander à l’utilisateur de confirmer qu’il souhaite appeler le numéro.
+2 pour les utilisateurs de Lync Server 2013 locaux, sur les appareils Windows Phone, iPhone et iPad, l’utilisateur clique sur l’icône d’appel dans la carte de visite et accepte le rappel depuis Lync Server 2013. Pour les utilisateurs de Microsoft 365 ou Office 365, sur les appareils Windows Phone, iPhone et iPad, lorsque l’utilisateur clique sur le bouton appeler, une boîte de dialogue s’ouvre demandant à l’utilisateur de confirmer qu’il souhaite appeler le numéro.
 
-3 non disponible pour les utilisateurs de Skype entreprise Online et/ou d’Office 365.
+3 non disponible pour les utilisateurs de Skype entreprise Online et/ou de Microsoft 365 ou Office 365.
 
-4 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité est prise en charge par les partenaires Microsoft.
+4 pour Skype entreprise Online et/ou Microsoft 365 ou Office 365 utilisateur, cette fonctionnalité est prise en charge par les partenaires Microsoft.
 
 </div>
 

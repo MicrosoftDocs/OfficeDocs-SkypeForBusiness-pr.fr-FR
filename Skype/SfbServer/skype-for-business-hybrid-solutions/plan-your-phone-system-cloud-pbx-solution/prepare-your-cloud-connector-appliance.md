@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Découvrez comment préparer votre appareil Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique dans Office 365 (Cloud PBX).
-ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983839"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779240"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appliance Cloud Connector
 
@@ -171,7 +171,7 @@ Lors de la mise à jour du fichier. ini, tenez compte des éléments suivants :
 
 - **SiteName :** La valeur par défaut est **site1**. Vous devez le mettre à jour avant de déployer Cloud Connector, car lorsque vous exécutez **Register-applet ccappliance** pour inscrire une appliance sur un site existant ou nouveau, l’applet de commande utilise **SiteName** pour déterminer le site à enregistrer.
 
-     Si vous souhaitez enregistrer l’appliance sur un nouveau site, la valeur **SiteName** doit être unique et différente des sites existants. Si vous souhaitez enregistrer l’appliance sur un site existant, la valeur **SiteName** dans le fichier. ini doit correspondre au nom défini dans la configuration de votre client Office 365. Si vous copiez un fichier de configuration d’un site à un autre, veillez à mettre à jour la valeur de **SiteName** pour chaque site en conséquence.
+     Si vous souhaitez enregistrer l’appliance sur un nouveau site, la valeur **SiteName** doit être unique et différente des sites existants. Si vous souhaitez enregistrer l’appliance sur un site existant, la valeur **SiteName** dans le fichier. ini doit correspondre au nom défini dans la configuration de votre organisation Office 365. Si vous copiez un fichier de configuration d’un site à un autre, veillez à mettre à jour la valeur de **SiteName** pour chaque site en conséquence.
 
 - **ServerName :** Le nom du serveur ne doit pas contenir le nom de domaine et doit être limité à 15 caractères.
 
@@ -305,11 +305,11 @@ Le compte CceService est créé lors du déploiement de Skype entreprise, versio
 
 3. Définissez sa valeur sur **activé**.
 
-## <a name="set-up-your-office-365-tenant"></a>Configuration de votre client Office 365
+## <a name="set-up-your-office-365-organization"></a>Configuration de votre organisation Office 365
 
-Un client Office 365 avec Skype entreprise Online et le système téléphonique dans Office 365 est requis. Assurez-vous que votre client est configuré et configuré avant d’utiliser Cloud Connector.
+Une organisation Office 365 avec Skype entreprise Online et le système téléphonique dans Office 365 est requise. Assurez-vous que votre client est configuré et configuré avant d’utiliser Cloud Connector.
 
-Certaines étapes de configuration d’Office 365 requièrent l’utilisation de PowerShell à distance client (TRPS) pour configurer votre client Office 365. **Il doit être installé sur le serveur hôte.** Vous pouvez télécharger le module Skype entreprise Online pour PowerShell à partir de l’un des modules suivants : [Skype entreprise Online et Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
+Certaines étapes de configuration d’Office 365 requièrent l’utilisation de PowerShell à distance client (TRPS) pour configurer votre organisation Office 365. **Il doit être installé sur le serveur hôte.** Vous pouvez télécharger le module Skype entreprise Online pour PowerShell à partir de l’un des modules suivants : [Skype entreprise Online et Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Créez un compte d’administrateur Skype entreprise dédié pour la gestion en ligne de Cloud Connector, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé par l’appliance pour ajouter ou supprimer des appliances, activer ou désactiver la mise à jour automatique du système d’exploitation, activer ou désactiver la mise à jour binaire automatique. Définissez le mot de passe de ce compte de sorte qu’il n’expire jamais afin que vous n’ayez pas besoin de le modifier à chaque fois qu’il arrive à expiration.
 

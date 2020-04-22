@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 Business standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de modules complémentaires, les fonctionnalités et comment souscrire à des forfaits pour Office 365 Business Premium. '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'En savoir plus sur les licences de complément, les fonctionnalités et l’achat pour les offres Microsoft 365 Business standard. '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706109"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777409"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business standard
 
-Si vous possédez [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Skype Entreprise pour passer des appels aux autres personnes de votre entreprise qui font partie de votre abonnement. Par exemple, si 10 personnes travaillent dans votre entreprise, vous pouvez vous appeler et vous envoyer des messages instantanés avec Skype Entreprise.
+Si vous avez [Microsoft 365 Business standard](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Skype entreprise pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez vous appeler et vous envoyer des messages instantanés dans Skype entreprise.
 
  **Deux options s'offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
 

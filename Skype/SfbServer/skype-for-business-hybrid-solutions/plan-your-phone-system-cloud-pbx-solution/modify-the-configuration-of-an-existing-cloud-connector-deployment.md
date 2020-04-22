@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’une version de Skype entreprise et du déploiement de la version ultérieure de Skype entreprise.
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018005"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779380"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d’un déploiement Cloud Connector existant
  
@@ -109,7 +109,7 @@ S’il y a plusieurs Appliances dans le site, vous devrez suivre ces étapes, mo
 
 Pour modifier la configuration de plusieurs sites dans un déploiement, suivez les étapes d’un seul site, mettant à jour un site à la fois.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Modifier la configuration de votre client Office 365 pour activer les mises à jour automatiques
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Modifier la configuration de votre organisation Office 365 pour activer les mises à jour automatiques
 <a name="BKMK_MultipleSites"> </a>
 
 Pour activer les mises à jour automatiques du système d’exploitation et les mises à jour automatiques bits, vous devez utiliser le compte d’administrateur client Skype entreprise pour la gestion en ligne et utiliser l’environnement PowerShell distant client comme suit.
@@ -161,7 +161,7 @@ Si vous avez désactivé les mises à jour automatiques du système d’exploita
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d’identification d’administrateur client dédié
 <a name="BKMK_MultipleSites"> </a>
 
-Les modifications administratives apportées au client Office 365 pour Cloud Connector sont effectuées à partir d’un compte disposant des autorisations nécessaires. Dans les versions de Cloud Connector antérieures à 2,0, ce compte est un compte d’administrateur client global dédié. Dans le Cloud Connector versions 2,0 et versions ultérieures, ce compte peut être un compte Office 365 avec des droits d’administrateur de Skype entreprise.
+Les modifications administratives dans l’organisation Office 365 pour Cloud Connector sont effectuées à partir d’un compte disposant des autorisations nécessaires. Dans les versions de Cloud Connector antérieures à 2,0, ce compte est un compte d’administrateur client global dédié. Dans le Cloud Connector versions 2,0 et versions ultérieures, ce compte peut être un compte Office 365 avec des droits d’administrateur de Skype entreprise.
   
 Si les informations d’identification de votre compte d’administrateur changent dans Office 365, vous devez également mettre à jour les informations d’identification mises en cache localement dans Cloud Connector en exécutant la commande PowerShell d’administration suivante sur chaque appliance Cloud Connector que vous avez déployée :
   

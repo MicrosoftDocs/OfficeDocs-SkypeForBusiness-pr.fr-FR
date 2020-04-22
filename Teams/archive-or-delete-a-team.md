@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826402"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780713"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 ===========================================
@@ -98,7 +98,7 @@ Par défaut, un groupe Office 365 supprimé est conservé pendant 30 jours. Cett
     Connect-AzureAD
     ```
     Lorsque vous y êtes invité, connectez-vous à l’aide de votre compte d’administrateur et de votre mot de passe.  
-2. Exécutez la commande suivante pour afficher la liste de tous les groupes Office 365 supprimés de façon réversible qui se trouvent encore dans la période de rétention de 30 jours. Utilisez le paramètre **-All $True** si vous avez un grand nombre de groupes.
+2. Exécutez la commande suivante pour afficher la liste de tous les groupes Microsoft 365 supprimés par logiciel qui sont toujours dans la période de rétention de 30 jours. Utilisez le paramètre **-All $True** si vous avez un grand nombre de groupes.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

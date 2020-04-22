@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888723"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779811"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurer le système téléphonique au sein de votre organisation
 
@@ -81,7 +81,7 @@ En plus d’obtenir des numéros de téléphone pour vos utilisateurs à partir 
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Obtention de nouveaux numéros de service dans le centre d’administration teams
 
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au **Centre d’administration teams**.
 
@@ -105,12 +105,12 @@ Si vous avez suivi les étapes ci-dessus, vous avez déjà acheté et affecté d
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Étape 6 : Si vous souhaitez configurer la conférence Audio
 
-Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion. Microsoft teams inclut la fonction de conférence audio uniquement pour cette situation. Les personnes peuvent appeler des réunions teams à l’aide d’un téléphone, au lieu d’utiliser l’application teams sur un appareil mobile ou un PC.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft teams inclut la fonction de conférence audio uniquement pour cette situation. Les personnes peuvent appeler des réunions teams à l’aide d’un téléphone, au lieu d’utiliser l’application teams sur un appareil mobile ou un PC.
 Pour plus d’informations sur la configuration de l’audioconférence, voir [configurer l’audioconférence pour teams](set-up-audio-conferencing-in-teams.md).
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Étape 7 : Si vous souhaitez configurer une file d’attente d’appels Cloud
 
-Les files d’attente d’appels Cloud incluent des messages d’accueil qui sont utilisés lorsque quelqu’un vous appelle pour appeler un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui rejoignent les appels sont écouter de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation.
+Les files d’attente d’appels Cloud incluent des messages d’accueil qui sont utilisés lorsque quelqu’un vous appelle pour appeler un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui appellent écoutent de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation.
 
 Pour plus d’informations sur les files d’attente d’appels, voir [créer une file d’attente des appels Cloud](create-a-phone-system-call-queue.md).
 
@@ -140,14 +140,14 @@ Si vous souhaitez utiliser des numéros sans frais avec Microsoft Teams, vous de
 Si vous ne configurez pas la facturation et attribuez une licence de **crédit** à vos utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel ou de votre plan de visioconférence dans votre pays/région), les utilisateurs ne seront pas en mesure de passer des appels ou des appels sortants à partir des réunions de conférence audio. Pour plus d’informations, y compris les montants de financement recommandés, voir [qu’est-ce que les crédits de communication ?](what-are-communications-credits.md) et [configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).
   
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](getting-service-phone-numbers.md)
 
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
   
  

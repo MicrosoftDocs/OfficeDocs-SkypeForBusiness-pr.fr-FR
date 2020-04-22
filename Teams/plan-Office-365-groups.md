@@ -1,5 +1,5 @@
 ---
-title: Planifier les groupes Office 365 lors de la création d'équipes
+title: Planifier les groupes Microsoft 365 lors de la création d’équipes
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Apprenez-en davantage sur la planification des groupes Office 365 dans Teams, y compris les différences entre les groupes & conversations d’équipes et la façon dont teams respecte la politique de nommage des groupes.
+description: Apprenez-en davantage sur la planification des groupes Microsoft 365 dans Teams, y compris les différences entre les groupes & conversations d’équipes et la façon dont teams respecte la politique de nommage des groupes.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,39 +19,39 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 5e06422d38cc2a0b1fc0b925c6b3b3c12f47d67a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: c76cc679529e72c450f9c598bb49d0575a4a693b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137574"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778169"
 ---
-<a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
+<a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Microsoft 365 lors de la création d’équipes dans Microsoft teams
 ==========================================================
 
-Lors de votre prise de décision sur la création de groupes Office 365 ou d'équipes, tenez compte de l'objectif de la création de l'équipe, des membres qui pourront y accéder et des résultats à obtenir. Soyez particulièrement attentif au nombre de canaux que vous créez, car les membres peuvent se retrouver rapidement dépassés par des informations dispersées dans un nombre excessif de canaux.
+Lorsque vous envisagez d’utiliser les groupes Microsoft 365 ou que vous créez des équipes, considérez l’utilisation de l’équipe, qui doit avoir accès et quel est l’objectif de l’équipe. Soyez vigilant en particulier sur le nombre de canaux que vous créez, car les personnes peuvent facilement devenir saturées en fonction du contenu de la page.
 
-Deux scénarios peuvent être débattus concernant la planification de groupes Office 365 et leur impact sur Microsoft Teams ou inversement :
+Il existe deux scénarios qui nécessitent une présentation de la planification de groupes Microsoft 365 et leurs répercussions sur (ou par) de Microsoft teams :
 
--   Tout d’abord, dans la mesure où les clients peuvent avoir des investissements en groupes, vous prenez actuellement en charge les groupes publics et privés de moins de 5000 membres. Comme mentionné précédemment, vous souhaitez gérer l’appartenance des personnes à une équipe à l’aide du client teams plutôt que de la console Web d’administration d’Office 365. Dans le cas de ce scénario, si des personnes sont utilisées pour les conversations thématiques dans les groupes Office 365, il est judicieux de noter qu’une conversation de groupe est essentiellement une messagerie et non une conversation dans un canal d’équipe. Informez vos interlocuteurs de cette différence et Suggérez-leur d’adopter le format de messages de chat plus flexible dans Teams, ou d’envoyer le groupe à l’aide d’Outlook ou OWA.
+-   Tout d’abord, dans la mesure où les clients peuvent avoir des investissements en groupes, vous prenez actuellement en charge les groupes publics et privés de moins de 5000 membres. Comme mentionné précédemment, vous souhaitez gérer l’appartenance des personnes à une équipe à l’aide du client teams plutôt que de la console Web d’administration d’Office 365. Étant donné que ce scénario est utilisé pour les conversations thématiques dans les groupes Microsoft 365, il est intéressant de noter qu’une conversation de groupe est essentiellement un message électronique et non une conversation dans un canal d’équipe. Informez vos interlocuteurs de cette différence et Suggérez-leur d’adopter le format de messages de chat plus flexible dans Teams, ou d’envoyer le groupe à l’aide d’Outlook ou OWA.
 
--   Deuxièmement, pour les clients qui n’ont pas de groupes existants définis dans Office 365, vous pouvez les créer à l’aide du portail d’administration Office 365, du Web teams ou des clients de bureau. Comme mentionné précédemment, gérez tout l’appartenance à un groupe Office 365 à l’aide du client Teams. Dans la mesure où l’appartenance à une équipe définit également l’appartenance aux groupes Office 365, vous devez préparer les utilisateurs à ce changement.
+-   Deuxièmement, pour les clients qui n’ont pas de groupes existants définis dans Office 365, vous pouvez les créer à l’aide du centre d’administration Microsoft 365, du Web teams ou des clients de bureau. Comme mentionné précédemment, gérez tout l’appartenance à un groupe Office 365 à l’aide du client Teams. Dans la mesure où l’appartenance à une équipe définit également l’appartenance aux groupes Microsoft 365, vous devez préparer les utilisateurs à ce changement.
  
 
 
-## <a name="teams-respects-office-365-groups-naming-policy-in-private-preview"></a>Teams respecte la stratégie de noms de groupes Office 365 (dans la version préliminaire limitée)
+## <a name="teams-respects-microsoft-365-groups-naming-policy-in-private-preview"></a>Teams respecte la politique de nommage des groupes Microsoft 365 (en version privée)
 
-Toute stratégie de noms de groupes d'Office 365 Groups définie par votre administrateur sera appliquée dans Teams lorsque les utilisateurs créent ou modifient un nom d'équipe. Cela inclut les éléments tels que les préfixes ou les suffixes obligatoires et l'exclusion de mots interdits.
+Toutes les stratégies de nom de groupe Microsoft 365 qui ont été définies par votre administrateur seront appliquées dans teams lorsque les utilisateurs créent et modifient des noms d’équipe. Cela inclut les éléments tels que les préfixes ou les suffixes obligatoires et l'exclusion de mots interdits.
 
 > [!NOTE]
-> Cette fonctionnalité est disponible dans la version préliminaire limitée, ce qui signifie que si vous ne faites pas partie de cette préversion, Teams ne respecte pas encore la stratégie de noms de groupes Office 365.
+> Cette fonctionnalité est en préversion privée, ce qui signifie que si vous ne faites pas partie de cette version d’évaluation, teams n’est pas encore conforme à cette stratégie d’appellation des groupes Microsoft 365.
 
-Pour plus d'informations, consultez la rubrique [Stratégie de nom de groupes Office 365 dans Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+Pour en savoir plus, voir [stratégie d’appellation des groupes Microsoft 365 dans teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
-Les articles suivants sont l’endroit idéal pour trouver le contenu de préparation et d’adoption de vos groupes Office 365 :
+Les articles suivants sont l’endroit idéal pour trouver le contenu de préparation et adoption pour vos groupes Microsoft 365 :
 
 -   [Tirer le meilleur avec groupes Office 365 dans Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [Ajouter des membres à des groupes Office 365 ou en supprimer à l’aide du centre d’administration Microsoft 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Ajouter des membres à des groupes Microsoft 365 ou en supprimer à l’aide du centre d’administration Microsoft 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [Restaurer un groupe Office 365 supprimé](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

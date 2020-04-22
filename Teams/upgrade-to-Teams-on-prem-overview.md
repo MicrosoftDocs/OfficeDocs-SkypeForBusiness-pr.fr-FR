@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157892"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779801"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype entreprise vers &mdash; teams pour les administrateurs informatiques
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Lorsqu’un utilisateur est déplacé vers le mode TeamsOnly, par défaut, les réunions Skype entreprise existantes qu’il a organisées seront converties en équipes. Vous pouvez éventuellement désactiver le comportement par défaut lors de l’attribution du mode TeamsOnly à un utilisateur. Lorsque vous déplacez des utilisateurs d’un environnement local, les réunions doivent être déplacées vers le Cloud pour fonctionner avec le compte d’utilisateur en ligne, mais si vous ne spécifiez pas-MoveToTeams, les réunions seront déplacées en tant que réunions Skype entreprise, et non converties en équipes. 
 
-Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de la réunion n’est déclenchée pour aucun utilisateur. Si vous souhaitez affecter le mode TeamsOnly au niveau du client et migrer des réunions, vous pouvez utiliser PowerShell pour obtenir la liste des utilisateurs dans le client (par exemple, en utilisant Get-CsOnlineUser avec les filtres requis), puis en boucle sur chacun de ces utilisateurs pour déclencher la réunion. migration à l’aide de Start-CsExMeetingMigration. Pour plus d’informations, consultez [utilisation du service de migration de réunion (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de la réunion n’est déclenchée pour aucun utilisateur. Si vous souhaitez affecter le mode TeamsOnly au niveau du client et migrer des réunions, vous pouvez utiliser PowerShell pour obtenir la liste des utilisateurs dans le client (par exemple, en utilisant Get-CsOnlineUser avec les filtres requis), puis en boucle sur chacun de ces utilisateurs pour déclencher la migration de réunion à l’aide de Start-CsExMeetingMigration. Pour plus d’informations, consultez [utilisation du service de migration de réunion (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Autres considérations concernant les organisations avec Skype entreprise Server en local
@@ -221,7 +221,7 @@ Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de l
 - Si vous souhaitez afficher les notifications dans le client Skype entreprise pour les utilisateurs locaux, vous devez utiliser TeamsUpgradePolicy dans l’ensemble d’outils local. Seul le paramètre NotifySfbUsers est pertinent pour les utilisateurs locaux.  Les utilisateurs sur site reçoivent leur mode provenant des instances en ligne d’TeamsUpgradePolicy. Voir les remarques dans [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Tout nouveau client créé après le 3 septembre 2019 est créé en tant que client TeamsOnly sans permettre aux administrateurs d’effectuer une mise à niveau vers une version antérieure. Les organisations disposant de Skype entreprise Server sur site qui n’avaient pas encore bénéficié d’un abonnement Office 365 avant le 3 septembre, 2019 doivent contacter le support technique de Microsoft pour faire en sorte qu’ils soient mis à niveau vers la version antérieure, dès qu’ils acquièrent un abonnement avec Office 365. 
+> Tout nouveau client créé après le 3 septembre 2019 est créé en tant que client TeamsOnly, sauf si l’organisation a déjà un déploiement local de Skype entreprise Server. Microsoft utilise des enregistrements DNS pour identifier les organisations serveur Skype entreprise locales. Si votre organisation possède un serveur Skype entreprise local sans aucune entrée DNS publique, vous devrez appeler le support Microsoft pour que votre nouveau client soit mis à niveau. 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>Procéder à la mise à niveau de votre organisation
@@ -286,7 +286,7 @@ Si certains utilisateurs de votre organisation utilisent activement teams en mod
 
 1. Recherchez les utilisateurs actifs dans teams en procédant comme suit :
 
-   1. Dans le portail d’administration Office 365, dans le volet de navigation gauche, accédez à rapports, puis utilisation. 
+   1. Dans le centre d’administration Microsoft 365, dans la barre de navigation gauche, accédez à rapports, puis sur utilisation. 
    2. Dans la liste déroulante « Sélectionner un rapport », cliquez sur Microsoft Teams, puis sur activité de l’utilisateur. Cela permet de fournir une table exportable d’utilisateurs qui ont été actifs dans Teams. 
    3. Cliquez sur Exporter, ouvrir Excel et filtre pour afficher uniquement les utilisateurs actifs dans Teams.
 
@@ -335,7 +335,7 @@ Si la fonctionnalité d’appel RTC est impliquée, il existe quatre scénarios 
 
 - *Un utilisateur de Skype entreprise sur site avec voix entreprise, qui va basculer vers une connectivité RTC sur site*.  La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et le coordination du déplacement avec la migration de celui-ci pour le routage directe. 
 
-- *Un utilisateur de Skype entreprise sur site avec voix entreprise*, qui sera déplacé vers en ligne et utilisant un forfait d’appel Microsoft.  La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et la coordination de la migration à l’aide de l’un des numéros de téléphone de l’utilisateur vers un forfait d’appel Microsoft ou un nouveau numéro d’abonné de régions disponibles.
+- *Un utilisateur de Skype entreprise sur site avec voix entreprise*, qui sera déplacé vers en ligne et utilisant un forfait d’appel Microsoft.  La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et la coordination de la migration à l’aide de l’un des numéros de téléphone de l’utilisateur vers un forfait d’appel Microsoft ou B), en attribuant un nouveau numéro d’abonné à partir des régions disponibles.
 
 Cet article fournit une vue d’ensemble de haut niveau. Pour plus d’informations, reportez-vous à la section routage et [appels](calling-plan-landing-page.md) [directs du système téléphonique](direct-routing-landing-page.md) . Par ailleurs, Notez que l’utilisation d’un système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
 
@@ -469,7 +469,7 @@ Lors de l’organisation de réunions, le type de réunion qui est planifié est
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    Toutes les réunions planifiées dans Teams. Le complément Skype entreprise n’est pas disponible dans Outlook. | 
 | SfbWithTeamsCollab, SfbOnly   | Toutes les réunions planifiées dans Skype entreprise. Le complément teams n’est pas disponible dans Outlook. | 
-| Archipels |     Vous pouvez planifier des réunions dans Skype entreprise ou Teams. Les deux compléments sont disponibles dans Outlook. | 
+| Île |     Vous pouvez planifier des réunions dans Skype entreprise ou Teams. Les deux compléments sont disponibles dans Outlook. | 
 
 
 ### <a name="interoperability"></a>Interopérabilité

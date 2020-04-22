@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Cet article décrit les préparations d’infrastructure pour le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: e39624f7b90dbb25424c98f60e6b90e2a883e212
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825865"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779771"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -110,7 +110,7 @@ Pour utiliser cette application, vous devez être en mesure de vous connecter au
 |Objectif|Source ou informations d’identification|Port source|Destination|CDN|ExpressRoute pour Office 365|Adresse IP de destination|Port de destination|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentification et identité  <br/> |Voir [identité et authentification dans Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Portail et services partagés  <br/> |Voir [portail et services partagés Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|Portail et services partagés  <br/> |Voir [Centre d’administration Microsoft 365 et services partagés](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |Signalisation SIP  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Conférence web avec connexions PSOM (Persistent Shared Object Model)  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Téléchargements HTTPS  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -162,12 +162,12 @@ Comme n’importe quel appareil Windows, le nom de l’ordinateur peut être ren
 
 [Planifier les salles de Microsoft teams](rooms-plan.md)
 
-[Configuration requise pour Microsoft teams](requirements.md)
+[Spécifications des salles Microsoft Teams](requirements.md)
   
-[Déploiement de salles de Microsoft teams](rooms-deploy.md)
+[Déployer les Salles Microsoft Teams](rooms-deploy.md)
   
-[Configurer une console de salle Microsoft teams](console.md)
+[Configurer une console des salles Microsoft Teams](console.md)
   
-[Gérer Microsoft Teams Rooms](rooms-manage.md)
+[Gérer les Salles Microsoft Teams](rooms-manage.md)
 
 [Conditions préalables pour le Microsoft Store pour les entreprises et l’éducation](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit d’Office 365.
+description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341622"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778890"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -41,11 +41,11 @@ Le journal d’audit peut vous aider à vérifier des activités spécifiques da
 > [!NOTE]
 > Les événements d’audit provenant de canaux privés sont également enregistrés tels qu’ils sont destinés aux canaux des équipes et des canaux standard.
 
-Pour la liste complète des activités qui sont vérifiées dans Office 365, consultez la rubrique [Effectuer des recherches dans le journal d'audit dans le Centre de sécurité et de conformité d'Office 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Pour afficher la liste complète des activités auditées dans Microsoft 365, consultez la rubrique [effectuer une recherche dans le journal d’audit dans le centre de conformité microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 ## <a name="turn-on-auditing-in-teams"></a>Activer l’audit dans Teams
 
-Pour pouvoir voir les données d’audit, vous devez d’abord activer l’audit dans le [Centre de sécurité & conformité](https://protection.office.com). Pour obtenir de l’aide sur la fonctionnalité d’audit, consultez la rubrique [Activer ou désactiver la recherche du journal d’audit d’Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Pour pouvoir voir les données d’audit, vous devez d’abord activer l’audit dans le [Centre de sécurité & conformité](https://protection.office.com). Pour obtenir de l’aide sur l’activation de l’audit, voir [activer ou désactiver la recherche dans le journal d’audit](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Les données d'audit sont disponibles uniquement à partir du point d'activation de la fonctionnalité d'audit.
@@ -65,7 +65,7 @@ Dans le cas d’un scénario d’entreprise, l’ajout d’utilisateurs externes
 
 ![Capture d’écran d’une liste d’événements déclenchés par des suppressions massiques](media/TeamsExternalUserAddPolicy.png)
 
-La capture d’écran de cette stratégie pour contrôler l’ajout d’utilisateurs externes vous permet d’attribuer un nom à la stratégie, de définir la gravité en fonction des besoins de votre entreprise, de la définir comme (dans ce cas) sur une activité unique, puis de définir les paramètres qui surveilleront spécifiquement l’ajout. d’utilisateurs non internes et limiter cette activité à Microsoft Teams.
+La capture d’écran de cette stratégie pour contrôler l’ajout d’utilisateurs externes vous permet d’attribuer un nom à la stratégie, de définir la gravité en fonction des besoins de votre entreprise, de la définir comme (dans ce cas) sur une activité unique, puis de définir les paramètres qui surveilleront spécifiquement l’ajout d’utilisateurs non internes et limiter cette activité à Microsoft Teams.
 
 Les résultats de cette stratégie pourront alors être affichés dans le journal des activités :
 

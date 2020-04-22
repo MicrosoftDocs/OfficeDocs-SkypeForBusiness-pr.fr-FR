@@ -15,12 +15,12 @@ description: Suivez ces instructions pour déployer Microsoft teams en tant que 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79607004c8f750ceed0325733c8c52a4873e9cdc
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982154"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780373"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Commencez par déployer Microsoft teams
 
@@ -37,7 +37,7 @@ Si vous avez déjà déployé d’autres services et équipes Office 365, il s�
 
 Pour commencer à utiliser votre premier déploiement de Microsoft Teams, vous devez effectuer une réunion au minimum. La liste suivante indique les éléments à mettre en place pour votre organisation afin que les équipes puissent être activées :
 
-1.  Un client Office 365 configuré avec votre nom de domaine
+1.  Une organisation 365 Office configurée avec votre nom de domaine
 
 2.  Une solution de synchronisation Azure Active Directory (AAD Connect) ou d’identité Cloud similaire, avec tous les attributs requis synchronisés avec votre client  
     Pour comprendre les attributs synchronisés avec la synchronisation AAD, voir [synchronisation d’Azure ad Connect : attributs synchronisés avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -104,7 +104,7 @@ Ce point de départ part du principe que votre organisation n’utilise pas Skyp
 </tr>
 <tr class="even">
 <td>Discussions/communications externes dans teams</td>
-<td><p>Communication externe (cliente intra-365) et communications externes possibles dans teams</p>
+<td><p>Internal (organisation 365 d’intra-Office) et communications externes possibles depuis teams</p>
 <p><em>Remarque : les entrées DNS doivent être configurées pour l’accès externe. Les enregistrements DNS de Skype entreprise sont nécessaires même si vous n’avez pas Skype entreprise local ou dans Office 365 pour autoriser la Fédération avec Lync et les environnements Skype entreprise.<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Enregistrements Domain Name System externes pour Office 365</a></em></p></td>
 </tr>
@@ -264,11 +264,11 @@ Par ailleurs, en tant qu’entreprises dans le monde de la gestion de la situati
 
   - [Diffuser des réunions et des événements en ligne](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
-  - [Aider les petites et moyennes entreprises à travailler à distance avec teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+  - [Aider les petites et moyennes entreprises à travailler à distance avec Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
   - [Transformation numérique des événements en direct : les observations de Bob Bejan de la Frontline](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
-  - [Les 9 principales façons dont Microsoft a activé le fonctionnement à distance de ses employés](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+  - [Les 9 principaux moyens que Microsoft IT utilise pour activer le travail à distance de ses employés](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
   - [Travaillez à distance, restez sécurisé ; conseils pour CISOs](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
@@ -278,7 +278,7 @@ Par ailleurs, en tant qu’entreprises dans le monde de la gestion de la situati
 
 ## <a name="support-services-reference"></a>Support technique services
 
-Teams repose sur les groupes Exchange Online, SharePoint Online, OneDrive entreprise et Office 365 pour offrir à vos utilisateurs une connaissance entièrement intégrée d’Office 365. Comme indiqué plus haut, teams fonctionne sans le déploiement complet de ces services, avec des fonctionnalités limitées. Pour en savoir plus sur les équipes et ses conditions préalables, consultez la [page Bienvenue dans teams](teams-overview.md).
+Teams repose sur les groupes Exchange Online, SharePoint Online, OneDrive entreprise et Microsoft 365 pour offrir à vos utilisateurs une connaissance entièrement intégrée d’Office 365. Comme indiqué plus haut, teams fonctionne sans le déploiement complet de ces services, avec des fonctionnalités limitées. Pour en savoir plus sur les équipes et ses conditions préalables, consultez la [page Bienvenue dans teams](teams-overview.md).
 
 Pour des détails spécifiques sur chacun des services indiqués ci-dessus, suivez les liens ci-dessous :
 
@@ -289,10 +289,10 @@ Pour des détails spécifiques sur chacun des services indiqués ci-dessus, suiv
 
   - SharePoint est utilisé pour le partage de fichiers dans les canaux, tandis que/OneDrive entreprise est utilisé pour le partage de fichiers dans 1:1 ou la discussion de groupe. Pour en savoir plus, voir [comment SharePoint Online et OneDrive entreprise interagissent avec Microsoft teams](sharepoint-onedrive-interact.md).
 
-  - Les [groupes Office 365](office-365-groups.md) sont utilisés pour la création et la gestion d’équipes et de canaux.
+  - Les [groupes Microsoft 365](office-365-groups.md) sont utilisés pour la création et la gestion d’équipes et de canaux.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Illustrations architecture IT Microsoft Teams et solutions téléphonie](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

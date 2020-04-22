@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139623"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780153"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Mise à niveau de Skype entreprise local vers teams
 
@@ -42,7 +42,7 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 -   [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [A mené une pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-Si vous avez déployé Skype entreprise Server ou Microsoft Lync local et que votre organisation souhaite procéder à la mise à niveau vers Teams, suivez les recommandations de cet article. Vous devez configurer une connectivité hybride avec votre client Office 365 et définir les exigences de coexistence si vous migrez vos utilisateurs vers équipes par phases. 
+Si vous avez déployé Skype entreprise Server ou Microsoft Lync local et que votre organisation souhaite procéder à la mise à niveau vers Teams, suivez les recommandations de cet article. Vous devez configurer une connectivité hybride avec votre organisation Office 365 et définir les exigences de coexistence si vous migrez vos utilisateurs vers les équipes par phases. 
 
 > [!IMPORTANT]
 > Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.

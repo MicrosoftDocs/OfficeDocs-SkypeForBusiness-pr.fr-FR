@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836534"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780263"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Emplacement des données dans Microsoft Teams
 
-Les données dans Teams résident dans la région géographique associée à votre client Office 365. Actuellement, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, l’Afrique du Sud, la Corée du Sud, la Suisse (qui comprend le Liechtenstein), les Émirats Arabes Unis, le Royaume-Uni, le continent, l’Asie et la région EMEA. 
+Les données en équipe résident dans la zone géographique associée à votre organisation 365 Office. Actuellement, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, l’Afrique du Sud, la Corée du Sud, la Suisse (qui comprend le Liechtenstein), les Émirats Arabes Unis, le Royaume-Uni, le continent, l’Asie et la région EMEA. 
 
 > [!IMPORTANT]
 > Teams propose actuellement une résidence de données en Australie, au Canada, en France, en Allemagne, en Inde, au Japon, aux Émirats Arabes Unis, au Royaume-Uni, en Corée du Sud, en Afrique du Sud et en Suisse (qui inclut le Liechtenstein) uniquement pour les nouveaux clients.
@@ -47,7 +47,7 @@ Pour consulter des informations détaillées, voir la [session d’enflamme dans
 
 ### <a name="core-teams-customer-data"></a>Données client principales teams
 
-Si votre client est approvisionné en Australie, au Canada, en Allemagne, en France, en Allemagne, en Allemagne, en Allemagne, en Allemagne, en Afrique du Sud, en Corée du Sud, en Suisse (au Liechtenstein), aux Émirats Arabes Unis, au Royaume-Uni et aux États-Unis, Microsoft stores les données client suivantes dans Rest uniquement dans cet emplacement :
+Si votre client est approvisionné en Australie, au Canada, en Europe, en Allemagne, en Allemagne, en Allemagne, en Allemagne, en Allemagne, en Afrique du Sud, en Corée du Sud, en Suisse (au Liechtenstein), aux Émirats Arabes Unis, au Royaume-Uni et aux États-Unis, Microsoft stocke les données client suivantes dans Rest uniquement dans cet emplacement :
 
 - Discussions d’équipe, équipes et conversations de canal, images, messages vocaux et contacts
 - Le contenu du site SharePoint Online et les fichiers stockés dans ce site

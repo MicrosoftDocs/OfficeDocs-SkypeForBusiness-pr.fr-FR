@@ -1,5 +1,5 @@
 ---
-title: Forfaits d’appel dans Office 365
+title: Forfaits d’appels pour Microsoft 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825252"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779943"
 ---
-# <a name="calling-plans-for-office-365"></a>Forfaits d’appel dans Office 365
+# <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
 Les appels vers d’autres utilisateurs de Skype entreprise et Microsoft teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones ordinaires et que vous ne disposez pas encore d’un fournisseur de services pour passer des appels vocaux, vous devez acheter un plan d’appel. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md).
   
@@ -45,14 +45,14 @@ Voici les options disponibles :
 Les minutes mensuelles disponibles pour chaque organisation et chaque pays/région est indiquée [ici](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le > **** Centre d' **administration Microsoft 365**et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le **Centre d’administration Microsoft 365**.   
+> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le > **Active users** Centre d' **administration Microsoft 365**et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le **Centre d’administration Microsoft 365**.   
 ![Capture d’écran de l’emplacement de la licence de l’utilisateur](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Pour obtenir des informations détaillées sur les limites et les conditions d’utilisation, voir [période de numérotation complète](complimentary-dial-out-period.md)de l’audioconférence.
   
 ## <a name="how-to-buy-a-calling-plan"></a>Comment acheter un forfait d’appels
 
-1. <strong>Vous devez d’abord acheter une</strong> licence du composant additionnel du système téléphonique * *<strong>. Pour ce faire, [Connectez-vous au centre d’administration 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et sélectionnez * * facturation</strong> > **** > **des abonnements** > à des services de complément achat**immédiat**.
+1. <strong>Vous devez d’abord acheter une</strong> licence du composant additionnel du système téléphonique * *<strong>. Pour ce faire, [Connectez-vous au centre d’administration 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et sélectionnez * * facturation</strong> > **Purchase services** > **des abonnements** > à des services de complément achat**immédiat**.
     
     ![Capture d’écran montrant l’option d’achat d’une offre d’appels vocaux.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
@@ -75,9 +75,9 @@ Ensuite, affectez les licences de compléments entreprise E5 ou du **système t�
 
 - [Tarifs de forfaits d'appels](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [Tarifs pour le système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Tarification pour Système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [Tarifs pour les conférences audio](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Tarifs de l’Audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>Pour plus d'informations
 
@@ -90,11 +90,11 @@ Voici d’autres articles sur la configuration de vos plans d’appel :
 - [Voici les avantages du système téléphonique dans Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configuration de la messagerie vocale Cloud-Aide pour l'administrateur](set-up-phone-system-voicemail.md)
+- [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Résumé : Découvrez le nouveau Skype entreprise et les étapes que vous pouvez suivre pour préparer votre environnement et vos utilisateurs à la mise à jour, que vous utilisiez Skype entreprise Online, Skype entreprise Server 2019, Skype entreprise Server 2015, Lync Server 2013 ou Lync Server 2010.'
-ms.openlocfilehash: c54465b2f2c6cb7fb8d131b52de27c3f64d0bcc2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1fecbdb5a4ec0a19e464a57ee128d2d00ad501f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028005"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777749"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planification de l’expérience client Skype entreprise 2015 pour vos utilisateurs
  
@@ -44,7 +44,7 @@ Le 12 mai, 2015 il y aura une autre mise à jour mensuelle d’Office incluant l
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>Quelle expérience client souhaitez-vous pour vos utilisateurs ?
 <a name="clientexperience"> </a>
 
-Avec le nouveau client Skype entreprise, vous pouvez contrôler l’expérience client que vos utilisateurs peuvent obtenir, Lync ou Skype entreprise. L’expérience client par défaut varie selon que vous utilisez Lync ou Skype entreprise en local ou en ligne. Si vous utilisez Skype entreprise Online (Lync Online) aujourd’hui avec Office 365 ProPlus, Office 365 Business Premium ou Office 2013, l’expérience client Skype entreprise mise à jour (inspirée par l’apparence de Skype) sera l’expérience utilisateur par défaut. Si vous utilisez Lync Server en local dès aujourd’hui, l’expérience client Lync sera la valeur par défaut.
+Avec le nouveau client Skype entreprise, vous pouvez contrôler l’expérience client que vos utilisateurs peuvent obtenir, Lync ou Skype entreprise. L’expérience client par défaut varie selon que vous utilisez Lync ou Skype entreprise en local ou en ligne. Si vous utilisez Skype entreprise Online (Lync Online) aujourd’hui avec les applications Microsoft 365 pour entreprise, Microsoft 365 Business standard ou Office 2013, l’expérience client Skype entreprise mise à jour (inspirée par l’apparence de Skype) sera l’expérience utilisateur par défaut. Si vous utilisez Lync Server en local dès aujourd’hui, l’expérience client Lync sera la valeur par défaut.
   
 Vous pouvez configurer l’expérience client que vos utilisateurs peuvent obtenir en utilisant des stratégies client. Une stratégie client est un ensemble de paramètres de configuration qui sont appliqués aux utilisateurs lorsqu’ils se connectent à Lync ou Skype entreprise.
   
@@ -67,7 +67,7 @@ Ces modifications doivent être apportées avant que la mise à jour du client s
   
 |**Déploiement**|**Expérience client Skype entreprise**|**Expérience client Lync**|
 |:-----|:-----|:-----|
-|Skype Entreprise Online  <br/> |Il n’existe pas d’autres étapes que le déploiement de la version cliente 4711,1002 (avril 2015) ou une version ultérieure.  <br/> |[Utilisation de l’expérience client Lync avec Skype entreprise Online](user-experience.md#LyncwithSfBO) <br/> |
+|Skype Entreprise Online  <br/> |Il n’existe pas d’autres étapes que le déploiement de la version cliente 4711,1002 (avril 2015) ou une version ultérieure.  <br/> |[Utilisation de l’expérience client Lync avec Skype entreprise Online](user-experience.md#LyncwithSfBO) <br/> |
 |Skype Entreprise Server 2015  <br/> |Il n’existe pas d’autres étapes que le déploiement de la version cliente 4711,1002 (avril 2015) ou une version ultérieure.  <br/> |[Utilisation de l’expérience client Lync avec Skype entreprise Server en local](user-experience.md#LyncwithSfBServer) <br/> |
 |Lync Server 2013 et Lync Server 2010  <br/> |[Utilisation de l’expérience client Skype avec Lync Server 2013 ou Lync Server 2010 en local](user-experience.md#SkypewithLynconprem) <br/> |[Utilisation de l’expérience client Lync avec Lync Server 2013 ou Lync Server 2010 en local](user-experience.md#LyncwithLynconprem) <br/> |
    

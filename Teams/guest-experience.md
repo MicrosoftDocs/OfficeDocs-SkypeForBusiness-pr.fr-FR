@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160568"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776929"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -51,7 +51,7 @@ Le tableau suivant compare les fonctionnalités d’équipes disponibles pour le
 |Créer des réunions ou des échéanciers d’accès  <br/> |&#x2713;||
 |Accès au stockage OneDrive entreprise  <br/> |&#x2713;||
 |Créer des stratégies d'accès invité qui s'appliquent à l'ensemble du client et aux équipes/canaux  <br/> |&#x2713;||
-|Inviter un utilisateur en dehors du domaine du client Office 365 <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |&#x2713;||
+|Inviter un utilisateur en dehors du domaine de l’organisation 365 Office <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |&#x2713;||
 |Créer une équipe  <br/> |&#x2713;||
 |Rechercher et rejoindre une équipe publique  <br/> |&#x2713;||
 |Afficher l'organigramme  <br/> |&#x2713;||

@@ -1,5 +1,5 @@
 ---
-title: Mise en service des comptes Skype Room System dans Office 365
+title: Mise en service des comptes Skype Room System dans Microsoft 365 et Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Consultez cette rubrique pour en savoir plus sur la mise en service des comptes Skype Room System dans Office 365.
-ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Consultez cette rubrique pour en savoir plus sur la mise en service des comptes Skype Room System dans Microsoft 365 ou Office 365.
+ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037724"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779710"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Mise en service des comptes Skype Room System dans Office 365
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Mise en service des comptes Skype Room System dans Microsoft 365 et Office 365
  
 Consultez cette rubrique pour en savoir plus sur la mise en service des comptes Skype Room System dans Office 365.
   
-La section suivante traite de la mise en service des comptes Skype Room System pour un client Office 365.
+La section suivante traite de la mise en service des comptes Skype Room System pour une organisation Office 365.
   
-## <a name="office-365-prerequisites"></a>Conditions préalables pour Office 365
+## <a name="microsoft-365-and-office-365-prerequisites"></a>Conditions préalables pour Microsoft 365 et Office 365
 
 Votre client en ligne doit remplir les conditions suivantes :
   
-- Le plan Office 365 doit inclure Skype entreprise Online plan 2 ou Office 365 E1, E3 ou E5. <br/>Pour plus d’informations sur les offres Skype entreprise Online, voir la [Description du service Skype entreprise Online](https://technet.microsoft.com/library/jj822172.aspx).
+- Le plan Microsoft 365 ou Office 365 doit inclure Skype entreprise Online plan 2 ou Office 365 E1, E3 ou E5. <br/>Pour plus d’informations sur les offres Skype entreprise Online, voir la [Description du service Skype entreprise Online](https://technet.microsoft.com/library/jj822172.aspx).
     
 - La fonctionnalité de conférence de Skype entreprise doit être activée pour votre client.
     
@@ -99,7 +99,7 @@ Après avoir attribué une licence pour Skype entreprise Online, vous serez en m
   
 ## <a name="skype-for-business-online-provisioning"></a>Mise en service de Skype entreprise Online
 
-Une fois qu’un compte de boîte aux lettres de salle de ressources a été créé et activé comme indiqué précédemment, et que vous disposez d’une licence pour le compte de Skype entreprise Online, le compte sera synchronisé entre la forêt Exchange Online et la forêt Skype entreprise Online à l’aide du Forêt Windows Azure Active Directory. Les étapes suivantes sont nécessaires pour mettre en service le compte Skype Room System dans le pool Skype entreprise online. Ces étapes sont les mêmes pour un compte de boîte aux lettres de ressource existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’elles sont activées dans Exchange Online, ces deux comptes sont synchronisés avec Skype entreprise Online de la même manière :
+Après avoir créé et activé un compte de boîte aux lettres de salle des ressources, comme indiqué précédemment, et que vous disposez d’une licence pour le compte pour Skype entreprise Online, le compte sera synchronisé entre la forêt Exchange Online et la forêt Skype entreprise Online à l’aide de la forêt Windows Azure Active Directory. Les étapes suivantes sont nécessaires pour mettre en service le compte Skype Room System dans le pool Skype entreprise online. Ces étapes sont les mêmes pour un compte de boîte aux lettres de ressource existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’elles sont activées dans Exchange Online, ces deux comptes sont synchronisés avec Skype entreprise Online de la même manière :
   
 1. Créez une session PowerShell distante. Notez que vous devrez télécharger le module du connecteur Skype entreprise Online et l’Assistant de connexion Microsoft Online Services et vous assurer que votre ordinateur est configuré. Pour plus d’informations, reportez-vous à [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     

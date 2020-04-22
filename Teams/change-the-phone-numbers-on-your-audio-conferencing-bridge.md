@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes nécessaires à l’affectation d’un nouveau numéro de téléphone de service à votre pont de conférence pour développer la couverture de vos utilisateurs.
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139073"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780353"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
@@ -69,7 +69,7 @@ Seul le numéro payant du service peut être défini comme numéro par défaut d
 
 Le numéro de téléphone par défaut d’un utilisateur est celui qui est inclus dans les invitations à la réunion lors de la planification d’une réunion. Pour plus d’informations sur la façon dont les numéros de téléphone defaul sont attribués pour les nouveaux utilisateurs, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans les invitations de Microsoft teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [définition des numéros de téléphone des invitations dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez aux**centres** > d’administration du centre > d' **administration 365 Microsoft****teams &** > **les utilisateurs**de l'**audioconférence** > Skype**hérités** > , puis sélectionnez les utilisateurs dans la liste.
 
@@ -133,7 +133,7 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Étape 3 : annulation de l’affectation de l’ancien numéro de téléphone du pont de conférence audio
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez aux**centres** > d’administration du centre > d' **administration 365 Microsoft****teams &** > les**numéros de téléphone****vocaux** > du**portail** > hérité de Skype.
 
@@ -169,7 +169,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
+2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
 
 >
   ```PowerShell

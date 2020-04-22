@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836186"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780203"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
@@ -45,7 +45,7 @@ Votre organisation peut nécessiter l’implémentation de contrôles stricts su
 > [!TIP]
 > Le tableau suivant vous permet de capturer les exigences de votre organisation.
 
-|Faculté |Détails |Azure AD Premium <br> licence requise |Décision |
+|Fonctionnalité |Détails |Azure AD Premium <br> licence requise |Décision |
 |---------|---------|---------|---------|
 |Stratégie d’affectation de noms d’équipe | Utilisez des mots bloqués personnalisés en fonction du suffixe. |Envoyé |DÉFINIR |
 |Classification d’équipe |Affectez des catégories à Teams. |Envoyé |DÉFINIR |
@@ -57,7 +57,7 @@ Votre organisation peut nécessiter l’implémentation de contrôles stricts su
 > Pour vous aider à planifier, [en savoir plus sur la définition de ces stratégies et sur les licences requises](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Le fait de limiter la création de groupes et d’équipes peut ralentir la productivité de vos utilisateurs, car de nombreux services 365 requièrent la création de groupes pour que le service fonctionne. Pour plus d’informations, accédez à et développez [Pourquoi contrôler les personnes qui créent des groupes Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Le fait de limiter la création de groupes et d’équipes peut ralentir la productivité de vos utilisateurs, car de nombreux services 365 requièrent la création de groupes pour que le service fonctionne. Pour plus d’informations, accédez à et développez [Pourquoi contrôler les personnes qui créent des groupes Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Informations supplémentaires
@@ -66,14 +66,14 @@ Après avoir déterminé vos exigences, vous pouvez les implémenter à l’aide
 
 - [Applets de contrôle Azure Active Directory pour la configuration des paramètres de groupe](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
-- [Appliquez une stratégie d’appellation pour les groupes Office 365 dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Appliquez une stratégie d’appellation pour les groupes Microsoft 365 dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
 
-- [Stratégie d’attribution de noms de groupes Office 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Stratégie d’attribution de noms de groupes Microsoft 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiration de groupe et d’équipe, rétention et archivage
 
-Votre organisation a peut-être besoin d’exigences supplémentaires pour définir des stratégies d’expiration, de rétention et d’archivage des données des équipes et des équipes (messages de canal et fichiers de canal). Vous pouvez configurer des stratégies d’expiration de groupe pour gérer automatiquement le cycle de vie des stratégies de groupe et de rétention afin de conserver ou de supprimer les informations nécessaires, et vous pouvez archiver les équipes (leur affecter le mode lecture seule) pour conserver une vue ponctuelle d’une équipe qui est plus actif.
+Votre organisation a peut-être besoin d’exigences supplémentaires pour définir des stratégies d’expiration, de rétention et d’archivage des données des équipes et des équipes (messages de canal et fichiers de canal). Vous pouvez configurer des stratégies d’expiration de groupe pour gérer automatiquement le cycle de vie des stratégies de groupe et de rétention afin de conserver ou de supprimer les informations nécessaires, et vous pouvez archiver les équipes (leur affecter le mode lecture seule) pour conserver une vue ponctuelle d’une équipe qui n’est plus active.
 
 |           |            |
 |-----------|------------|
@@ -83,9 +83,9 @@ Votre organisation a peut-être besoin d’exigences supplémentaires pour défi
 > [!TIP]
 > Le tableau suivant vous permet de capturer les exigences de votre organisation.
 
-|Faculté |Détails |Licence Azure AD Premium requise |Décision |
+|Fonctionnalité |Détails |Licence Azure AD Premium requise |Décision |
 |---------|---------|---------|---------|
-|Stratégie d’expiration |Pour gérer le cycle de vie des groupes Office 365, définissez une stratégie d’expiration. |Envoyé |DÉFINIR|
+|Stratégie d’expiration |Pour gérer le cycle de vie des groupes Microsoft 365, définissez une stratégie d’expiration. |Envoyé |DÉFINIR|
 |Stratégie de rétention |Conserver ou supprimer des données pour une période spécifique en définissant des stratégies de rétention pour les équipes dans le centre de sécurité & conformité. **Remarque**: l’utilisation de cette fonctionnalité nécessite une licence d’Office 365 entreprise E3 ou une version ultérieure. |Non |DÉFINIR |
 |Archiver et restaurer |Archivez une équipe lorsque celle-ci n’est plus active mais que vous souhaitez la conserver pour référence ou pour la réactiver ultérieurement. |Non |DÉFINIR |
 
@@ -96,7 +96,7 @@ Votre organisation a peut-être besoin d’exigences supplémentaires pour défi
 
 Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir :
 
-- [Configurer l’expiration des groupes Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurer l’expiration des groupes Microsoft 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
 - [Configurez les stratégies de rétention teams](retention-policies.md).
 
@@ -105,7 +105,7 @@ Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, v
 
 ## <a name="teams-feature-management"></a>Gestion des fonctionnalités de teams
 
-Un autre aspect important de la gouvernance et de la gestion de la durée de vie des équipes est la possibilité de contrôler les fonctionnalités auxquelles vos utilisateurs auront accès. Vous pouvez gérer les fonctionnalités de messagerie, de réunion et d’appel, au niveau du client ou de l’utilisateur d’Office 365. 
+Un autre aspect important de la gouvernance et de la gestion de la durée de vie des équipes est la possibilité de contrôler les fonctionnalités auxquelles vos utilisateurs auront accès. Vous pouvez gérer les fonctionnalités de messagerie, de réunion et d’appel, au niveau de l’organisation ou de l’utilisateur d’Office 365. 
 
 
 |         |         |

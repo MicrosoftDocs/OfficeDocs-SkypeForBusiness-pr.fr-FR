@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Apprenez-en davantage sur l’utilisation de la recherche de contenu dans Microsoft teams pour interroger les informations de Microsoft teams à partir d’Exchange, SharePoint Online, OneDrive entreprise et OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137744"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776449"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 =====================================
@@ -92,4 +92,4 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [cas de découverte électronique dans le centre de sécurité & conformité Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [cas de découverte électronique dans le centre de conformité Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

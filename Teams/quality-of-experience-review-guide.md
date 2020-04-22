@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749861"
+ms.locfileid: "43780583"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité 
 
@@ -70,16 +70,16 @@ Le tableau suivant vous montre les différents rôles possibles dans bord :
 
 |  |Afficher les rapports  |Afficher les champs de EUII  |Créer des rapports  |Télécharger les données de bâtiment  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Administrateur général d’Office 365     |Oui          |Oui          |Oui          |Oui          |
+|Administrateur général     |Oui          |Oui          |Oui          |Oui          |
 |Administrateur du service Teams     |Oui          |Oui          |Oui          |Oui          |
 |Administrateur des communications Teams     |Oui          |Oui          |Oui          |Oui          |
 |Ingénieur du support technique pour les communications Teams     |Oui          |Oui          |Oui         |Non         |
 |Spécialiste du support des communications teams     |Oui         |Non         |Oui         |Non         |
 |Administrateur Skype entreprise     |Oui          |Oui          |Oui          |Oui          |
 |Lecteur global Azure AD |Oui          |Oui          |Oui         |Non         |
-|Office 365-rapports sur le lecteur<sup>1</sup>     |Oui         |Non         |Oui         |Non         |
+|Microsoft 365 rapports lecteur<sup>1</sup>     |Oui         |Non         |Oui         |Non         |
 
-<sup>1</sup> en plus de lire des rapports bord, le lecteur de rapports d' 365 Office peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration et les rapports du [Pack de contenu adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> en plus de lire des rapports bord, le lecteur de rapports 365 Microsoft peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration et les rapports du [Pack de contenu adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > Si vous ne voyez pas EUII (informations d’identification de l’utilisateur final) et que vous disposez de l’un des rôles qui vous permettent d’accéder à ces informations, gardez à l’esprit que bord ne conserve EUII pendant 30 jours. Les éléments datant de plus de 30 jours sont supprimés.
@@ -598,7 +598,7 @@ Ce guide inclut [deux modèles bord](https://aka.ms/qertemplates). Ces modèles 
 2. S’authentifier à l’aide de vos informations d’identification d’administration Office 365.
 
    > [!NOTE]
-   > Vous devez avoir le rôle d’administrateur général Office 365, d’administrateur Skype entreprise ou de signalement de lecteurs pour accéder à bord. 
+   > Pour accéder à bord, vous devez avoir le rôle d’administrateur général, d’administrateur Skype entreprise ou de lecteurs de rapport. 
 
 3. Sélectionnez le menu **rapports de synthèse** en haut de la page, puis sélectionnez **rapports détaillés**.
 
@@ -1189,7 +1189,7 @@ Il est également important de prendre en considération et de s’assurer que l
 Pour plus d’informations sur Skype entreprise, consultez les liens ci-dessous :
 
 -   [Informations de publication des mises à jour d’Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Historique des mises à jour pour Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Historique des mises à jour pour les applications Microsoft 365 pour les entreprises](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Téléchargements et mises à jour de Skype Entreprise](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Appareils

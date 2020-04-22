@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978456"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778930"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -44,7 +44,7 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 | **Modifier le nom ou la description du canal standard** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal standard**         |    Oui     |    Oui<sup>2</sup>|
 |          ***Ajouter un canal privé**          |    Oui     |    Oui<sup>2</sup>|
-| ***Modifier le nom ou la description du canal privé** |    Non     |    N/D|
+| ***Modifier le nom ou la description du canal privé** |    Non     |    N/A|
 |        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
@@ -75,10 +75,10 @@ Pour attribuer un rôle d’utilisateur, dans équipes, sélectionnez le nom de 
 
 ## <a name="permissions-to-create-teams"></a>Autorisations de créations d'équipes
 
-Par défaut, tous les utilisateurs avec une boîte aux lettres dans Exchange Online disposent des autorisations pour créer des groupes Office 365 et par conséquent une équipe dans Microsoft Teams. Vous pouvez avoir un contrôle plus étroit et limiter la création d’équipes et par conséquent la création de nouveaux groupes Office 365 en déléguant la gestion des droits et la création de groupes à un ensemble d’utilisateurs. Pour plus d'informations, reportez-vous à l’article[Gérer qui peut créer des Groupes Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Par défaut, tous les utilisateurs disposant d’une boîte aux lettres dans Exchange Online disposent des autorisations nécessaires pour créer des groupes Microsoft 365 et par conséquent une équipe dans Microsoft Teams. Vous pouvez disposer d’un contrôle plus étroit et limiter la création de nouvelles équipes et, par conséquent, la création de nouveaux groupes Microsoft 365 en déléguant aux utilisateurs un ensemble d’utilisateurs. Pour obtenir des instructions, voir [gérer les utilisateurs autorisés à créer des groupes Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||
 |---------|---------|---------|
 | ![Icône représentant un point de décision](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Point de décision         |Les utilisateurs Microsoft Teams pourront-ils créer des équipes (recommandé) ?         |
-| ![Icône représentant les étapes suivantes](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Étapes suivantes         |Modifiez les autorisations par défaut des utilisateurs autorisés à créer des groupes Office 365 si vous devez limiter les autorisations de création d'équipes.         |
+| ![Icône représentant les étapes suivantes](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Étapes suivantes         |Modification des autorisations par défaut pour les personnes autorisées à créer des groupes Microsoft 365 si vous avez besoin de limiter les utilisateurs pouvant créer des équipes         |

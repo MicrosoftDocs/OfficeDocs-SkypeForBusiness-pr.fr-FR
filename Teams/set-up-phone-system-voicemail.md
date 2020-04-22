@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227498"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779730"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -71,7 +71,7 @@ Vous trouverez ci-après des informations sur la configuration de la messagerie 
 
 La transcription de la messagerie vocale est activée par défaut et le masquage de la transcription est désactivé par défaut pour toutes les organisations et les utilisateurs ; toutefois, vous pouvez les contrôler à l’aide des applets de commande [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) et [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 
-Les messages vocaux reçus par les utilisateurs de votre organisation sont transcrits dans la région où votre client Office 365 est hébergé. La région où votre client est hébergé n’est peut-être pas la même région où se trouve l’utilisateur qui reçoit le message de la boîte vocale. Pour afficher la région où votre client est hébergé, accédez à la page de profil de l' [organisation](https://go.microsoft.com/fwlink/p/?linkid=2067339) , puis cliquez sur **afficher les détails** en regard de emplacement des **données**.
+Les messages vocaux reçus par les utilisateurs de votre organisation sont transcrits dans la région où votre organisation Office 365 est hébergée. La région où votre client est hébergé n’est peut-être pas la même région où se trouve l’utilisateur qui reçoit le message de la boîte vocale. Pour afficher la région où votre client est hébergé, accédez à la page de profil de l' [organisation](https://go.microsoft.com/fwlink/p/?linkid=2067339) , puis cliquez sur **afficher les détails** en regard de emplacement des **données**.
 
 > [!IMPORTANT]
 > Vous ne pouvez pas créer une nouvelle instance de stratégie pour le masquage de la transcription et de la transcription à l’aide de l’applet **de nouvelle cmdlet New-CsOnlineVoiceMailPolicy** et vous ne pouvez pas supprimer une instance de stratégie existante à l’aide de l’applet de passe **Remove-CsOnlineVoiceMailPolicy** .

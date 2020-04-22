@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706994"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780593"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
@@ -61,7 +61,7 @@ Vous pouvez également créer un Comité de direction. Des projets de grande env
 | Directeur de la téléphonie | Fournit des informations de conception et de mise en œuvre de la téléphonie |
 | Propriétaire du service/champion de qualité | Est propriétaire du fonctionnement des équipes, y compris la qualité de l’interface utilisateur ; |
 | Prospect pour ordinateur de bureau et appareils | Fournit des entrées aux clients, appareils et applications de bureau. |
-| Administrateur informatique/client | Garantir la disponibilité du réseau et les configurations du portail Office 365 |
+| Administrateur informatique/client | Vérifie que la disponibilité du réseau et les configurations du centre d’administration 365 Microsoft sont en place |
 | Responsable du support | Gère la préparation de votre support technique |
 | Responsable de la gestion des modifications | Supervise le programme d’adoption et de gestion des modifications de l’utilisateur |
 | Prospect marketing | Conception et mise en œuvre de campagnes de communication |

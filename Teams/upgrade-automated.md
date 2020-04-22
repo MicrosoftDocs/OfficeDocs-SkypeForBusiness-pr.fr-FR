@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836166"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780653"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Mises à niveau automatisées de Skype entreprise Online vers Microsoft teams
 
@@ -35,7 +35,7 @@ Une mise à niveau réussie de Skype entreprise vers Microsoft teams nécessite 
 
 Les clients Skype entreprise Online éligibles pour les mises à niveau automatisées d’équipes recevront une série de notifications de mise à niveau débutant 30 jours avant la date de mise à niveau prévue. Ces notifications sont transmises en tant que *plan pour les modifications apportées* au centre de messages d’administration, de mise à niveau des messages électroniques vers les utilisateurs finaux dans les indicateurs d’administration globale et dans l’application.
 
-Ces notifications indiquent la date planifiée de la mise à niveau automatisée, qui sera liée aux ressources de mise à niveau et à la formation pour faciliter l’adoption et l’utilisation des équipes, et permettra aux clients de différer leur mise à niveau automatique d’un délai de 30 jours supplémentaire dans événement qu’il n’est pas prêt à effectuer la mise à niveau en fonction de la date prévue.
+Ces notifications indiquent la date planifiée de la mise à niveau automatisée, qui sera liée aux ressources de mise à niveau et à la formation pour favoriser l’adoption et l’utilisation des équipes, et permettra aux clients de différer leur mise à niveau automatique d’un délai de 30 jours supplémentaire dans le cas où ils ne sont pas prêts à effectuer la mise à niveau à partir de la date prévue
 
 ## <a name="the-automated-upgrade-experience"></a>L’interface de mise à niveau automatique
 
@@ -56,7 +56,7 @@ Au terme de la mise à niveau automatisée, le **mode de coexistence** est défi
 
 Le succès de transitions entre Skype entreprise Online et Microsoft teams nécessite une planification technique et une compatibilité utilisateur pour garantir que votre organisation est prête à tirer parti des fonctionnalités et des performances accrues de teams. Néanmoins, lors de la planification de votre mise à niveau, il est possible que votre organisation ne soit pas encore prête à effectuer une mise à niveau vers Microsoft teams pour le moment.
 
-Si vous recevez une notification relative à la mise à niveau automatique planifiée vers teams et que vous voulez différer vers une date ultérieure, l’administrateur global d’Office 365 peut se connecter au portail d’administration teams et cliquer sur le bouton de *Report* . Cette opération va entraîner la mise à jour automatique de 30 jours. Lorsque vous actualisez le portail d’administration teams après un report, une notification incluant votre nouvelle date de mise à jour automatique s’affiche.
+Si vous recevez une notification relative à la mise à niveau automatique planifiée vers teams et que vous voulez différer vers une date ultérieure, l’administrateur global peut se connecter au portail d’administration teams et cliquer sur le bouton de *Report* . Cette opération va entraîner la mise à jour automatique de 30 jours. Lorsque vous actualisez le portail d’administration teams après un report, une notification incluant votre nouvelle date de mise à jour automatique s’affiche.
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>Demandes de mise à niveau vers Skype entreprise
 

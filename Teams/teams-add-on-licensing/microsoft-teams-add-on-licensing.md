@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez les licences de module complémentaire, les fonctionnalités que vous obtenez avec chaque licence, comment les acheter pour votre produit et comment les utiliser avec votre opérateur actuel.
-ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93d3ea0637063a2422871ba82e037c8f01e36299
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140817"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780513"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licences de module complémentaire Microsoft Teams
 
@@ -65,8 +65,8 @@ Vous avez besoin d’aborder toutes ces options de module complémentaire avec q
 
 Les options de licence de module complémentaire à votre disposition dépendent de votre forfait Office 365. Consultez les rubriques suivantes pour plus d’informations, de fonctionnalités et d’options spécifiques à votre forfait.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
-- [Office 365 ProPlus](office-365-premium-pro-plus.md)
+- [Microsoft 365 Business standard](office-365-business-premium.md)
+- [Applications 365 Microsoft pour les entreprises](office-365-premium-pro-plus.md)
 - [Office 365 Entreprise E1 ou E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Entreprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Entreprise E5 sans Audioconférence](office-365-enterprise-e5-without-audio-conferencing.md)

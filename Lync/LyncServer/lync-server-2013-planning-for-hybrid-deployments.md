@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f9572df29681d6b2ee754fe51702fcc8f0b0163
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184287"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780323"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Vous devez tenir compte des exigences suivantes pour les utilisateurs et l’inf
 
 Les éléments suivants doivent être configurés dans votre environnement afin d’implémenter et de déployer un déploiement hybride.
 
-  - Un client Microsoft Office 365 avec Skype entreprise Online activé. Notez que vous ne pouvez utiliser qu’un seul client pour une configuration hybride avec votre déploiement local.
+  - Une organisation Microsoft Office 365 avec Skype entreprise Online activé. Notez que vous ne pouvez utiliser qu’un seul client pour une configuration hybride avec votre déploiement local.
 
   - Un seul déploiement local (infrastructure) de Skype entreprise Server ou de Lync Server déployé dans une topologie prise en charge. Consultez la rubrique Configuration requise pour la topologie.
     
@@ -159,7 +159,7 @@ La liste des domaines autorisés inclut des domaines dont le nom de domaine comp
 
 Les conditions requises suivantes doivent être remplies pour pouvoir configurer un déploiement hybride :
 
-  - La correspondance de domaine doit être configurée de la même façon pour votre déploiement local et votre client Office 365. Si la découverte des partenaires est activée sur le déploiement local, la Fédération ouverte doit être configurée pour votre client en ligne. Si la découverte de partenaire n’est pas activée, alors la Fédération fermée doit être configurée pour votre client en ligne.
+  - La correspondance de domaine doit être configurée de la même façon pour votre déploiement local et votre organisation Office 365. Si la découverte des partenaires est activée sur le déploiement local, la Fédération ouverte doit être configurée pour votre client en ligne. Si la découverte de partenaire n’est pas activée, alors la Fédération fermée doit être configurée pour votre client en ligne.
 
   - La liste des domaines bloqués dans le déploiement local doit correspondre exactement à la liste des domaines bloqués pour votre client en ligne.
 
@@ -293,7 +293,7 @@ En plus des ports requis pour la communication interne de Lync Server 2013, vous
 
 Dans un déploiement hybride Lync Server 2013, tout utilisateur que vous souhaitez héberger dans Lync Online doit d’abord être créé dans le déploiement local, afin que le compte d’utilisateur soit créé dans les services de domaine Active Directory. Vous pouvez ensuite déplacer l’utilisateur vers Skype entreprise Online, ce qui déplace la liste des contacts de l’utilisateur.
 
-Lorsque vous synchronisez des comptes d’utilisateurs entre vos déploiements Lync Online et Lync Online avec les services ADFS et la synchronisation d’annuaire, vous devez synchroniser les comptes AD de tous les utilisateurs Lync de votre organisation entre vos déploiements Lync sur site et en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et les utilisateurs en ligne de votre organisation peut ne pas fonctionner comme prévu.
+Lorsque vous synchronisez des comptes d’utilisateurs entre vos déploiements Lync Online et Lync Online avec AD FS et DirSync, vous devez synchroniser les comptes AD de tous les utilisateurs Lync de votre organisation entre vos déploiements Lync sur site et en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et les utilisateurs en ligne de votre organisation peut ne pas fonctionner comme prévu.
 
 <div>
 

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096999"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779781"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -29,7 +29,7 @@ Les stratégies de conservation vous permettent de gérer plus efficacement les 
 
 Par défaut, les données relatives aux conversations, au canal et aux fichiers Teams sont conservées définitivement. En tant qu'administrateur, vous pouvez configurer des stratégies de conservation Teams pour les messages de conversation et de canal et décider, de manière proactive, de conserver les données, de les supprimer ou de les conserver durant une période donnée, puis de les supprimer.
 
-Vous créez et gérez les stratégies de conservation pour Teams et les autres charges de travail dans le [Centre de sécurité et conformité Office 365](https://protection.office.com/) ou à l’aide des cmdlets PowerShell du centre de sécurité et conformité. Vous pouvez appliquer une stratégie de conservation Teams à l’ensemble de votre organisation ou à des utilisateurs et des équipes spécifiques.
+Pour créer et gérer des stratégies de rétention, vous pouvez créer et gérer des stratégies de rétention dans le [Centre de conformité Microsoft 365](https://protection.office.com/) ou utiliser les cmdlets PowerShell du centre de sécurité & conformité. Vous pouvez appliquer une stratégie de conservation Teams à l’ensemble de votre organisation ou à des utilisateurs et des équipes spécifiques.
 
 > [!NOTE]
 > Nous ne prenons pas encore en charge la configuration de la conservation des messages de canal privé. La conservation des fichiers partagés dans des canaux privés est prise en charge.
@@ -123,7 +123,7 @@ Pour créer une stratégie de conservation pour les conversations et les message
         ![Capture d'écran des messages de canal Teams et des options de conversations Teams sur la page Choisir des emplacements](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Les conversations et les messages de canal Teams ne sont pas affectés par les stratégies de conservation appliquées aux boîtes aux lettres d’utilisateur ou de groupe dans les emplacements **E-mail Exchange** ou les **groupes Office 365**. Même si les conversations et les messages de canal Teams sont stockés dans Exchange, ils sont uniquement affectés par une stratégie de conservation appliquée à l’emplacement Teams.
+      > Les discussions d’équipe et les messages de canal ne sont pas affectés par les stratégies de rétention appliquées aux boîtes aux lettres d’utilisateur ou de groupe dans les emplacements de **messagerie Exchange** ou de **groupes Microsoft 365** . Même si les conversations et les messages de canal Teams sont stockés dans Exchange, ils sont uniquement affectés par une stratégie de conservation appliquée à l’emplacement Teams.
 
 6. Vérifiez vos paramètres, et lorsque vous êtes prêt, sélectionnez **créer cette stratégie**.
 
@@ -160,7 +160,7 @@ Pour créer et gérer des stratégies de rétention d’équipes à l’aide d' 
 
 Les problèmes suivants sont rencontrés pour les stratégies de conservation dans Teams et font l'objet d'un suivi et d'une enquête.
 
-- Sous **Choisir les équipes** dans la ligne d’emplacement **Messages de canal Teams**, vous pouvez voir les groupes Office 365 qui ne font pas partie de Teams. Ce problème sera corrigé à l'avenir.
+- Sous **choisir des équipes** dans la ligne d’emplacement des **messages de canal teams** , vous pouvez voir les groupes Microsoft 365 qui ne sont pas également équipes. Ce problème sera corrigé à l'avenir.
 
 - Sous **Sélectionnez les utilisateurs** dans la ligne d’emplacement **Conversations Teams**, vous pouvez voir les invités et les utilisateurs qui n’utilisent pas la boîte aux lettres. Les stratégies de conservation ne sont pas censées être définies pour les invités et nous travaillons afin de les supprimer de la liste.
 

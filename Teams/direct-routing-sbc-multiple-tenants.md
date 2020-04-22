@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141087"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779570"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -80,7 +80,7 @@ Les sous-domaines **doivent** correspondre au nom de domaine complet (FQDN) du T
 
 Lorsqu’un appel arrive sur l’interface de routage directe d’Office 365, l’interface utilise l’en-tête de contact pour trouver le client à l’endroit où l’utilisateur doit être recherché. Le routage direct n’utilise pas la recherche de numéros de téléphone dans l’invitation, car certains clients peuvent avoir des numéros qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de domaine complet dans l’en-tête de contact est requis pour identifier le client exact pour trouver le numéro de téléphone de l’utilisateur.
 
-*Pour plus d’informations sur la création de noms de domaine dans les clients Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Pour plus d’informations sur la création de noms de domaine dans les organisations Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Le diagramme suivant récapitule les exigences relatives aux domaines de base, sous-domaines et en-tête de contact.
 
@@ -138,7 +138,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins une licence E1, E3 ou E5 et en attribuant une adresse SIP à la partie FQDN de l’adresse SIP correspondant au domaine de base créé. 
 
-*Pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Pour plus d’informations sur l’ajout d’utilisateurs dans les organisations Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Par exemple : test@customers.adatum.biz
 
@@ -200,7 +200,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en assignant une adresse SIP avec la partie FQDN de l’adresse SIP correspondant au sous-domaine créé dans le client client.
 
-*Pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Pour plus d’informations sur l’ajout d’utilisateurs dans les organisations Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Par exemple : test@sbc1.customers.adatum.biz
 

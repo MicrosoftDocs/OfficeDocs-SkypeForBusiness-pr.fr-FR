@@ -1,5 +1,5 @@
 ---
-title: Déployer des Salles Microsoft Teams avec Office 365 ProPlus
+title: Déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft teams avec Office 365.
-ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365.
+ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888753"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780543"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer des Salles Microsoft Teams avec Office 365 ProPlus
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365
 
 Pour plus d’informations sur le déploiement de salles de Microsoft teams avec Office 365, vous pouvez consulter la rubrique Microsoft teams ou Skype entreprise et Exchange en ligne.
 
@@ -144,7 +144,7 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. Le compte d’appareil doit avoir une licence Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références (SKU) disponibles pour votre client 365 Office, procédez comme suit :
+6. Le compte d’appareil doit avoir une licence Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles pour votre organisation Office 365 comme suit :
 
   ``` Powershell
   Get-MsolAccountSku
@@ -257,12 +257,12 @@ Pour la validation, vous devriez être en mesure d’utiliser n’importe quel c
 
 [Configurer des comptes pour les salles de Microsoft teams](rooms-configure-accounts.md)
 
-[Plan pour les salles de Microsoft teams](rooms-plan.md)
+[Planifier les Salles Microsoft Teams](rooms-plan.md)
 
-[Déploiement de salles de Microsoft teams](rooms-deploy.md)
+[Déployer les Salles Microsoft Teams](rooms-deploy.md)
 
-[Configurer une console de salle Microsoft teams](console.md)
+[Configurer une console des salles Microsoft Teams](console.md)
 
-[Gérer Microsoft Teams Rooms](rooms-manage.md)
+[Gérer les Salles Microsoft Teams](rooms-manage.md)
 
 [Gestion des licences Microsoft teams](rooms-licensing.md)

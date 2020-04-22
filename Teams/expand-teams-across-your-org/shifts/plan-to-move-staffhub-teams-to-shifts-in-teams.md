@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139583"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780613"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planifier le déplacement de vos équipes StaffHub vers les équipes de Microsoft teams
 
@@ -40,7 +40,7 @@ Servez-vous de la chronologie en guise d’instructions pour planifier votre pas
 |---------|---------|---------|
 |1    |Préparer et identifier les parties prenantes         |         |
 |deuxième     |Passez en revue la documentation sur le passage de StaffHub aux équipes et aux équipes dans l’intégration         |[StaffHub à déretraiter](microsoft-staffhub-to-be-retired.md)<br><br>[Déplacez vos équipes StaffHub vers des équipes dans teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Prise en main de Teams](../../get-started-with-teams-quick-start.md)         |
-|3    |Activer les groupes Office 365 pour votre organisation        |[Groupes et équipes Office 365](../../Office-365-groups.md)      |
+|3    |Activer les groupes Microsoft 365 pour votre organisation        |[Groupes et équipes Microsoft 365](../../Office-365-groups.md)      |
 |4    |Vérifiez que les conditions préalables sont remplies         |[Vérifier que les conditions préalables sont remplies](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Attribution de licences teams aux utilisateurs de StaffHub au sein de votre organisation|[Assigner des licences Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gérer l’accès des utilisateurs à Microsoft Teams](../../user-access.md)      |
 |6    |Installer le module PowerShell Microsoft StaffHub        |[Installer le module PowerShell Microsoft StaffHub](install-the-staffhub-powershell-module.md)        |

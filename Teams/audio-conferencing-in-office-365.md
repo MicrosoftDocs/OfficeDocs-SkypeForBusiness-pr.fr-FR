@@ -1,5 +1,5 @@
 ---
-title: Audioconférence dans Office 365
+title: Audioconférence dans Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: En savoir plus sur l’audioconférence dans Office 365, y compris le coût, la disponibilité et les numéros de téléphone dédiés.
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139013"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780413"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Audioconférence dans Office 365
+# <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence dans Microsoft 365
 L’audioconférence dans Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.
 
 ## <a name="what-is-audio-conferencing"></a>Qu-est-ce que l’audioconférence ?
@@ -68,7 +68,7 @@ Deux types de numéros de téléphone de conférence audio peuvent être affect�
   
  Les **numéros de téléphone dédiés** sont les numéros disponibles uniquement pour les utilisateurs au sein de votre organisation. Vous pouvez modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros. Vous devez obtenir un numéro de téléphone service pour ces éléments.
   
- Les **numéros de téléphone partagés** sont des numéros qui peuvent être partagés avec d'autres organisations Office 365. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
+ Les **numéros de téléphone partagés** sont les numéros de téléphone que vous pouvez partager avec d’autres 365 ou Office 365s. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
   
 Bien que le numéro de conférence audio par défaut assigné à un organisateur soit inclus uniquement dans l'invitation à la réunion, un appelant peut utiliser n'importe quel numéro de téléphone affecté à votre pont de conférence pour participer à une réunion. La liste des numéros de téléphone qui peuvent être utilisés pour participer à une réunion est disponible en cliquant sur le lien **Trouver un numéro national** figurant sur chaque invitation à la réunion.
 

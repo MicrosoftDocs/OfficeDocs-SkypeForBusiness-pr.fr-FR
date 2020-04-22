@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837814"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780483"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
@@ -36,7 +36,7 @@ Les activités suivantes interviendront en même temps, et elles peuvent impliqu
 
 Pour en savoir plus, voir [plan de gouvernance dans équipes](plan-teams-governance.md) et planification de la [gestion du cycle de vie dans teams](plan-teams-lifecycle.md).
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Icône représentant un point de décision](media/teams-adoption-decision-icon.png)Relatives
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Icône représentant un point de décision](media/teams-adoption-decision-icon.png)Relatives
 
 Prendre les décisions suivantes (à ce stade, ces décisions s’appliquent uniquement à la phase 2) :
 
@@ -62,7 +62,7 @@ L’interface de réunion teams est haute qualité, prend en charge les discussi
 
 ### <a name="decision-6--data-security"></a>Décision 6 : sécurité des données
 
-En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance dans teams](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base a été définie pour les données d’équipe dans votre organisation Office 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car les droits d’administrateur d’Office 365 sont requis pour terminer ce travail.
+En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance en équipe](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base a été définie pour les données d’équipe dans Microsoft 365 ou Office 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car les droits d’administrateur d’Office 365 sont requis pour terminer ce travail.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Décision 7 : durée de votre expérience
 

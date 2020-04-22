@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 Business standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Office 365 Business Premium. '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Microsoft 365 Business standard. '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826562"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780503"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business standard
 
-Si vous avez [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
+Si vous avez [microsoft 365 Business standard](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
 
 
 **Pour passer et recevoir des appels de personnes extérieures à votre entreprise, vous disposez des options**suivantes :
@@ -54,21 +54,21 @@ Si vous avez [Office 365 Business Premium](https://products.office.com/en/busine
 
  **Pour obtenir une audioconférence :**
 
-1. Connectez-vous au centre d’administration Microsoft 365.
+1. Connectez-vous au Centre d’administration Microsoft 365.
 
-2. Accédez aux **** > **abonnements de complément** > **services d’achat**de facturation.
+2. Accédez aux **Billing** > **abonnements de complément** > **services d’achat**de facturation.
 
    Les prix et l’option d’achat de l’audioconférence apparaissent.
 
 **Pour obtenir des crédits de communication**
 
-1. Connectez-vous au centre d’administration Microsoft 365.
+1. Connectez-vous au Centre d’administration Microsoft 365.
 
-2. Accédez aux **** > **abonnements de complément** > **services d’achat**de facturation.
+2. Accédez aux **Billing** > **abonnements de complément** > **services d’achat**de facturation.
 
    Vous aurez la possibilité d’acheter des crédits de communication.
 
-3. Pour ajouter des fonds aux crédits de communication, **** > voir**crédits de communication****abonnements** > .
+3. Pour ajouter des fonds aux crédits de communication, **Billing** > voir**crédits de communication****abonnements** > .
 
     Vous pouvez ajouter des fonds et activer et désactiver la recharge automatique. Pour plus d’informations, reportez-vous à [Ajouter des fonds et gérer les crédits de communication](../add-funds-and-manage-communications-credits.md) . 
 
@@ -79,7 +79,7 @@ Si vous avez [Office 365 Business Premium](https://products.office.com/en/busine
 
 2. Accédez au centre d’administration 365 Microsoft.
 
-3. Accédez aux **** > **abonnements de complément** > **services d’achat**de facturation.
+3. Accédez aux **Billing** > **abonnements de complément** > **services d’achat**de facturation.
 
     Les prix du système téléphonique et l’option d’achat s’afficheront.
 

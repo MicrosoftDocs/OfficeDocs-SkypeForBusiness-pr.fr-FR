@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139313"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778740"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Découverte environnementale pour le lancement de Microsoft teams
 ===================================================
@@ -36,7 +36,7 @@ Vous effectuez une découverte détaillée de votre environnement pour mieux com
 
 L’exemple de questionnaire ci-dessous vous présente un ensemble de questions qui vous permettent de vérifier que votre organisation est prête pour le bon déploiement de la fonction d’audioconférence et du système téléphonique grâce aux fonctionnalités d’appel d’équipes.
 
-Toutes les questions liées à votre infrastructure de collaboration existante 365 et au client, au réseau, aux points de terminaison, aux points de terminaison, aux opérations et à l’adoption et à la disponibilité font partie du questionnaire de découverte environnementale.
+Toutes les questions relatives à votre infrastructure de collaboration existante et à votre organisation 365, à la mise en réseau, aux points de terminaison, aux opérations et à l’adoption et à la disponibilité font partie du questionnaire de découverte environnementale.
 
 Ce questionnaire est divisé en plusieurs sections pour vérifier la préparation de votre organisation à votre déploiement d’équipes dans plusieurs domaines importants. Collaborer avec votre équipe de projet pour fournir les informations demandées autant de détails que possible pour faciliter vos activités de planification.
 
@@ -67,16 +67,16 @@ Capturez des informations détaillées sur les principales parties prenantes de 
 > | Responsable de l’équipe vidéo | | | |
 > | Prospectus unitaires d’entreprise | | | |
 
-<a name="office-365-tenant-details"></a>Détails du client Office 365
+<a name="office-365-organization-details"></a>Détails de l’organisation Office 365
 ---
 
-Nous vous recommandons vivement d’avoir un client Office 365 actif lorsque vous travaillez avec ce questionnaire. Si vous n’avez pas encore activé ou configuré un client Office 365, voir [planifier votre installation d’office 365 pour les entreprises](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+Nous vous recommandons vivement d’avoir une organisation Office 365 active lorsque vous travaillez avec ce questionnaire. Si vous n’avez pas encore activé ou configuré une organisation Office 365, voir [planifier votre installation d’office 365 pour les entreprises](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Utilisez le tableau suivant pour capturer des informations sur le client Office 365.
+Utilisez le tableau suivant pour recueillir des informations sur l’organisation Office 365.
 
 > | Question | Réponse | Commentaires |
 > |---|---|---|
-> | Notez le client Office 365 de production <br>nom et ID dans la colonne réponse <br/>Si vous avez plusieurs clients <br>associée à votre organisation, <br>Notez tous les ID. | Nom du client : <br/>ID de locataire :| |
+> | Notez l’organisation Office 365 de production <br>nom et ID dans la colonne réponse <br/>Si vous avez plusieurs clients <br>associée à votre organisation, <br>Notez tous les ID. | Nom du client : <br/>ID de locataire :| |
 > | Dans quelles régions les clients sont-ils déployés ?| | |
 > | Ces clients sont-ils Office 365 ou <br>Spéciale? | <input type="checkbox">Mutualisée<br/> <input type="checkbox">Spéciale | |
 > | Quels sont les produits Microsoft Online utilisés actuellement ? <br/>Notez le nombre d’utilisateurs activés pour chacun d’eux. <br>service dans la colonne commentaires. | <input type="checkbox">Microsoft teams <br/> <input type="checkbox">Skype entreprise <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive entreprise <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Ailleurs| |
@@ -85,7 +85,7 @@ Utilisez le tableau suivant pour capturer des informations sur le client Office 
 > | Que utilisez-vous pour le répertoire <br>synchronisation actuelle |<input type="checkbox">Aucune synchronisation (Cloud uniquement) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Connexion <br/> <input type="checkbox">Autre (à spécifier dans la <br>&nbsp;&nbsp; &nbsp;| |
 > | L’identité fédérée est-elle déployée actuellement ? <br/>(Active Directory Federation Services ou <br>tierce partie) | <input type="checkbox">Positive <br/> <input type="checkbox">Aucun | |
 > | Si vous utilisez une identité fédérée, qu’est-ce que le <br>infrastructure de Fédération ? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Fédération tierce <br>&nbsp;&nbsp; &nbsp;passerelle <br>&nbsp;&nbsp; (Notez les détails &nbsp;dans la <br>&nbsp;&nbsp; &nbsp; | |
-> | Si vous conservez actuellement un 365 Office actif <br>locataire est le domaine SMTP/SIP de votre <br>utilisateurs ciblés associés au client ? | <input type="checkbox">Non applicable : aucun bureau 365 <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Non, SMTP/SIP de l’utilisateur <br>&nbsp;&nbsp; le domaine n’est &nbsp;pas associé <br>&nbsp;&nbsp; &nbsp;clients dans <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Oui, le protocole SMTP/SIP de l’utilisateur <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; | |
+> | Si vous conservez actuellement un 365 Office actif <br>locataire est le domaine SMTP/SIP de votre <br>utilisateurs ciblés associés au client ? | <input type="checkbox">Non applicable : aucun bureau 365 <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Non, SMTP/SIP de l’utilisateur <br>&nbsp;&nbsp; le domaine n’est &nbsp;pas associé <br>&nbsp;&nbsp; &nbsp;clients dans <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Oui, le protocole SMTP/SIP de l’utilisateur <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; | |
 > | Les utilisateurs UPN correspondent-ils à leur adresse SMTP principale ? | <input type="checkbox">Positive <br/> <input type="checkbox">Aucun <br/> <input type="checkbox">Manière incohérente | |
 
 <a name="existing-collaboration-platform-summary"></a>Résumé de la plateforme de collaboration existante
@@ -115,7 +115,7 @@ Le cas échéant, capturez les détails du déploiement de votre équipe à l’
 > | Question | Réponse | Commentaires |
 > |---|---|---|
 > | Pour quels types d’utilisateurs Teams est-il activé ? | <input type="checkbox">Tous les utilisateurs de l’Organisation <br/> <input type="checkbox">Utilisateurs/groupes d’utilisateurs spécifiques <br>&nbsp;&nbsp; (À spécifier dans la colonne &nbsp;commentaires) ||
-> | Quelles sont les fonctionnalités et les modalités des équipes utilisées ? | <input type="checkbox">Conversations basées sur les canaux <br/> <input type="checkbox">Conversation privée <br/> <input type="checkbox">Accès invité <br/> <input type="checkbox">Réunions de canal <br/> <input type="checkbox">Réunions privées <br/> <input type="checkbox">Appels privés <br/> <input type="checkbox">Meetup de canal ad hoc <br/> <input type="checkbox">Vidéos dans les réunions <br/> <input type="checkbox">Partage d’écran dans les réunions <br/> <input type="checkbox">Audioconférence <br/><input type="checkbox">Applications (applications)<br> &nbsp;&nbsp; &nbsp; Onglets <input type="checkbox"><br>&nbsp;&nbsp; Robots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Connecteurs &nbsp; <input type="checkbox"><br><input type="checkbox">Intégration de stockage cloud personnalisé <br>&nbsp;&nbsp; (Box, Dropbox, ShareFile, Google &nbsp; Drive) <br/> <input type="checkbox">Intégration de la messagerie électronique au canal <br/> <input type="checkbox">Autre (à spécifier dans la colonne commentaires.) | |
+> | Quelles sont les fonctionnalités et les modalités des équipes utilisées ? | <input type="checkbox">Conversations basées sur les canaux <br/> <input type="checkbox">Conversation privée <br/> <input type="checkbox">Accès invité <br/> <input type="checkbox">Réunions de canal <br/> <input type="checkbox">Réunions privées <br/> <input type="checkbox">Appels privés <br/> <input type="checkbox">Meetup de canal ad hoc <br/> <input type="checkbox">Vidéos dans les réunions <br/> <input type="checkbox">Partage d’écran dans les réunions <br/> <input type="checkbox">Audioconférence <br/><input type="checkbox">Applications (applications)<br> &nbsp;&nbsp; &nbsp; Onglets <input type="checkbox"><br>&nbsp;&nbsp; Robots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Connecteurs &nbsp; <input type="checkbox"><br><input type="checkbox">Intégration de stockage cloud personnalisé <br>&nbsp;&nbsp; (Dropbox, Box, ShareFile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">Intégration de la messagerie électronique au canal <br/> <input type="checkbox">Autre (à spécifier dans la colonne commentaires.) | |
 > | Quelles applications avez-vous déployées dans teams ? | | |
 > | Avez-vous spécifiquement bloqué des fonctionnalités de Teams ? <br/>Si oui, notez les détails dans la colonne commentaires. | <input type="checkbox">Positive <br/> <input type="checkbox">Aucun ||
 > | Quels sont les clients Teams utilisés ? | <input type="checkbox">Sites <br/> <input type="checkbox">Windows <br/> <input type="checkbox">MacOS <br/> <input type="checkbox">* <br/>  <input type="checkbox">Sorties <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

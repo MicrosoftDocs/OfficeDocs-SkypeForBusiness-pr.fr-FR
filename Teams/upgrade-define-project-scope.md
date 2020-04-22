@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139663"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780603"
 ---
 # <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
@@ -93,7 +93,7 @@ Le tableau suivant montre des exemples de OKRs et KSIs pour les phases initiales
 |---|---|---|---|---|
 | **Réseau et qualité** | Pourcentage d’appels audio médiocres doit être minimal | [Tableau de bord de qualité des appels (bord)](https://aka.ms/sof-cqd) | \<3% d’appels médiocres avec teams | Hebdomadaire, puis mensuellement |
 | **Utilisation et sensibilisation** | L’expérience de discussion, de réunions et d’appels est égale ou supérieure à celle de Skype entreprise | Enquête | 80% d’accord ou d’accord renforcé | Semaine via pilote, après le lancement |
-| **Utilisation et adoption** | Les utilisateurs utilisent activement la solution | Rapports ou bord Office 365 | 90% de participation d’utilisateurs pilotes, mieux que la solution actuelle | Hebdomadaire, puis mensuellement |
+| **Utilisation et adoption** | Les utilisateurs utilisent activement la solution | Rapports ou bord Microsoft 365 | 90% de participation d’utilisateurs pilotes, mieux que la solution actuelle | Hebdomadaire, puis mensuellement |
 | **Utilisation et formation** | J’avais des ressources d’aide et de formation appropriées pour utiliser correctement teams | Enquête post-pilote | 80% d’accord ou d’accord renforcé | Post-pilote, post-lancement |
 | **Satisfaction des utilisateurs** | Je recommande à d’autres équipes | [Score du promoteur net (NPS)](http://www.npscalculator.com/en) par le biais de l’enquête post-pilote | NPS \> 0 | Post-pilote, post-lancement |
 | **Pilote pour les entreprises** | Réduction des coûts | Comptes payables | \$X millions de dépenses de coûts dans des solutions tierces | Six mois, une année, puis cinq ans après le lancement |

@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
-ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8460d845302fbca2ab10e5c43f9feda8af45a321
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706669"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777589"
 ---
 # <a name="call-flow-using-expressroute"></a>Flux d'appels avec ExpressRoute
 
 Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
 
-Si vous déployez Skype entreprise Online dans le cadre d’Office 365, de Skype entreprise Server hybride ou de Skype entreprise version Cloud Connector, vous devrez comprendre la communication entre le client et les serveurs Skype entreprise et le flux d’appels. vous pouvez planifier, déployer, utiliser et dépanner efficacement vos services Skype entreprise online.
+Si vous déployez Skype entreprise Online dans le cadre d’Office 365, de Skype entreprise Server hybride ou de Skype entreprise version Cloud Connector, vous devez comprendre la communication entre le client et les serveurs Skype entreprise et le flux d’appels pour pouvoir planifier, déployer, utiliser et dépanner efficacement vos services Skype entreprise online.
 
 ## <a name="call-flow-overview"></a>Présentation du flux d'appels
 
-Ce document décrit les segments réseau qui peuvent transporter des données pour ces flux d’appels et vous permet de comprendre le trafic local de votre réseau par rapport au trafic qui transitera via Internet ou par le biais de ExpressRoute. Le fait de savoir quel est le trafic qui utilise ExpressRoute vous aidera à évaluer les avantages que votre entreprise recevra en utilisant ExpressRoute, ainsi que les instructions de déploiement d’ExpressRoute pour valider et dépanner votre déploiement une fois que vous avez décidé pour utiliser ExpressRoute.
+Ce document décrit les segments réseau qui peuvent transporter des données pour ces flux d’appels et vous permet de comprendre le trafic local de votre réseau par rapport au trafic qui transitera via Internet ou par le biais de ExpressRoute. Le fait de savoir quel est le trafic qui utilise ExpressRoute vous aidera à évaluer les avantages que votre entreprise recevra en utilisant ExpressRoute, ainsi que les instructions de déploiement d’ExpressRoute pour valider et dépanner votre déploiement une fois que vous avez décidé d’utiliser ExpressRoute.
 
 Les flux d'appels décrits ici peuvent être influencés par différents facteurs dont vous avez la maîtrise, tels que les règles de pare-feu, la configuration NAT, les proxys et la configuration du routeur. Ce document suppose que les paramètres recommandés ont été appliqués. Ces paramètres recommandés sont décrits dans les sections suivantes :
 
@@ -103,7 +103,7 @@ Pour en savoir plus sur les informations sur le chemin multimédia choisi, voir 
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>Flux d'appels Skype Entreprise avec ExpressRoute
 
-À présent que vous connaissez les quatre segments du réseau et certains principes directeurs généraux pour les flux d’appels Skype entreprise, vous pouvez utiliser ces informations pour vous aider à comprendre le trafic Skype entreprise qui traverse une ExpressRoute segment réseau.
+À présent que vous connaissez les quatre segments du réseau et certains principes directeurs généraux pour les flux d’appels Skype entreprise, vous pouvez utiliser ces informations pour vous aider à comprendre quel trafic Skype entreprise va traverser un segment réseau ExpressRoute.
 
 En règle générale, le trafic réseau traverse la connexion ExpressRoute si l'un des points de terminaison se trouve dans votre réseau et si l'autre point de terminaison se trouve dans le centre de données Office 365. Ce trafic comprend le trafic de signalisation entre le client et le serveur, le trafic de médias utilisé lors des téléconférences, ou les appels d'égal à égal qui utilisent un serveur Edge en ligne.
 
@@ -116,7 +116,7 @@ Afin de vous aider à mettre en application les principes généraux des flux d'
 > [!NOTE]
 > Un sous-ensemble de trafic utilisé par Skype entreprise n’est pas routable sur ExpressRoute et prend toujours en charge une voie Internet. Reportez-vous aux [URL et plages d’adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) pour déterminer les URL qui peuvent être affectées.
 
-### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>Appels d’égal à égal pour les utilisateurs d’Office 365 au sein du réseau du client
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>Appel d’égal à égal pour les utilisateurs de Microsoft 365 ou d’Office 365 à l’intérieur du réseau du client
 <a name="bk_Figure2"> </a>
 
 Pour les appels d'égal à égal, le trafic de médias emprunte toujours la route la plus directe pour parvenir à destination. Toutefois, le trafic de signalisation est acheminé jusqu'au centre de données Office 365 dans lequel l'utilisateur en ligne est domicilié. Étant donné que les deux utilisateurs se trouvent sur le même WAN et que rien n'empêche les clients de communiquer directement, les médias sont acheminés directement entre les deux clients. Le trafic de signalisation, pour les deux utilisateurs, traverse la connexion ExpressRoute destinée au centre de données de chaque organisation. Pour afficher le flux d'appels dans ce scénario, reportez-vous au document suivant.
@@ -128,7 +128,7 @@ Pour les appels d'égal à égal, le trafic de médias emprunte toujours la rout
 ### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne
 <a name="bk_Figure3"> </a>
 
-Dans l’exemple d’égal à égal, le trafic multimédia effectue toujours l’itinéraire le plus direct vers sa destination. Néanmoins, dans le cas d’une conférence en ligne, la destination se trouve dans le Cloud Office 365. Cela signifie que le trafic multimédia de tous les utilisateurs qui rejoignent la Conférence à partir de votre réseau traverse la connexion ExpressRoute et que le trafic de signalisation navigue vers le Cloud Office 365. Le graphique ci-dessous vous montre que le média et le signalement traversent la connexion ExpressRoute d’un utilisateur au sein de votre réseau, et qu’il traverse directement Internet pour les utilisateurs qui sont connectés à Internet à partir de l’extérieur de votre réseau (par exemple, à partir d’un café). magasin ou hôtel.
+Dans l’exemple d’égal à égal, le trafic multimédia effectue toujours l’itinéraire le plus direct vers sa destination. Néanmoins, dans le cas d’une conférence en ligne, la destination se trouve dans le Cloud Office 365. Cela signifie que le trafic multimédia de tous les utilisateurs qui rejoignent la Conférence à partir de votre réseau traverse la connexion ExpressRoute et que le trafic de signalisation navigue vers le Cloud Office 365. Le graphique ci-dessous vous montre que le contenu multimédia et le signalement traversent la connexion ExpressRoute d’un utilisateur au sein de votre réseau, et qu’il traverse directement Internet pour les utilisateurs qui se connectent à Internet à l’extérieur de votre réseau, par exemple dans un café ou un hôtel.
 
 N’oubliez pas que l’organisateur d’une conférence est défini par l’organisateur de la réunion et non par les participants. Cela signifie que si la réunion a été planifiée par un client sur site, le trafic de média ne sera pas acheminé vers le Cloud Office 365 sur ExpressRoute, mais serait plutôt acheminé sur Internet vers le centre de donne local de l’organisateur de la réunion.
 
@@ -138,7 +138,7 @@ La destination des médias pour une conférence en ligne sera un centre de donn�
 
 - Si un utilisateur rejoint la réunion depuis une région ou un pays différent de la région ou du pays de l'organisation de la société, soit parce que la société est une multinationale, soit parce que l'utilisateur est en déplacement
 
-Pour plus d’informations sur l’utilisation de ExpressRoute dans le cas présent, c’est qu’avec le module complémentaire ExpressRoute Premium, les données qui suivent le chemin ExpressRoute passe automatiquement du réseau principal de Microsoft, quelle que soit la région géographique de l’organisateur de la réunion. Centre de l’organisation.
+Pour plus d’informations sur l’utilisation de ExpressRoute dans le cas présent, vous pouvez utiliser le module complémentaire ExpressRoute Premium, qui suit le chemin ExpressRoute passe automatiquement dans l’environnement principal de Microsoft, quelle que soit la région géographique de l’organisateur du centre de données de l’organisation de la réunion.
 
  **Flux d'appels d'un utilisateur en ligne pour une réunion en ligne**
 
@@ -197,7 +197,7 @@ Les scénarios d’utilisation de Skype entreprise Online impliquent des utilisa
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Cas d'utilisation** <br/> |**Points de terminaison** <br/> |**Chemin de signalisation** <br/> |**Chemin de médias** <br/> |**Exemple de flux** <br/> |**Remarques** <br/> |
-|Appel d'égal à égal  <br/> |Deux clients, tous les deux sur votre réseau.  <br/> |ExpressRoute  <br/> |local  <br/> |[Appels d’égal à égal pour les utilisateurs d’Office 365 au sein du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|Appel d'égal à égal  <br/> |Deux clients, tous les deux sur votre réseau.  <br/> |ExpressRoute  <br/> |local  <br/> |[Appel d’égal à égal pour les utilisateurs de Microsoft 365 ou d’Office 365 à l’intérieur du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Appel d'égal à égal  <br/> |Deux clients, un sur votre réseau (interne) et l’autre client sur Internet (externe).  <br/> |Utilisateur interne : ExpressRoute  <br/> Utilisateur externe : Internet  <br/> |Utilisateur interne : ExpressRoute  <br/> Utilisateur externe : Internet vers serveur Edge Office 365.  <br/> |[Appels d’égal à égal pour les utilisateurs d’Office 365 au sein du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Suppose que le pare-feu bloque les connexions directes entre les clients, qui nécessitent un serveur Edge en ligne. Le trafic d’un utilisateur interne à un serveur Edge en ligne suit le chemin similaire à celui du serveur de conférence pour la conférence téléphonique.  <br/> |
 |Appel d'égal à égal vers un utilisateur dans une organisation fédérée  <br/> |Deux clients, un sur votre réseau (interne) et un utilisateur en ligne sur le réseau de l'organisation fédérée (fédéré).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> |Suppose qu'un pare-feu bloque les connexions directes entre les clients, serveur Edge en ligne requis. Le trafic provenant de l'utilisateur interne à destination du serveur Edge en ligne suit un chemin similaire à celui d'un serveur de conférence pour une téléconférence.  <br/> |
 |Rejoindre une téléconférence organisée par un utilisateur sur le réseau du client  <br/> |Client sur votre réseau et serveur de conférence dans le cloud Office 365.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -216,7 +216,7 @@ Les flux d’appels hybrides s’appliquent lorsque vous disposez d’un déploi
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Cas d'utilisation** <br/> |**Points de terminaison** <br/> |**Chemin de signalisation** <br/> |**Chemin de médias** <br/> |**Exemple de flux** <br/> |**Remarques** <br/> |
-|Appel d'égal à égal  <br/> |Deux clients, tous les deux sur le réseau du client et domiciliés sur site.  <br/> |Local  <br/> |local  <br/> |[Appels d’égal à égal pour les utilisateurs d’Office 365 au sein du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Étant donné que les utilisateurs sont domiciliés sur site, le trafic de signalisation est acheminé vers le centre de données sur site et non vers le cloud Office 365.  <br/> |
+|Appel d'égal à égal  <br/> |Deux clients, tous les deux sur le réseau du client et domiciliés sur site.  <br/> |Local  <br/> |local  <br/> |[Appel d’égal à égal pour les utilisateurs de Microsoft 365 ou d’Office 365 à l’intérieur du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Étant donné que les utilisateurs sont domiciliés sur site, le trafic de signalisation est acheminé vers le centre de données sur site et non vers le cloud Office 365.  <br/> |
 |Appel d'égal à égal  <br/> |Deux clients, se connectant tous les deux depuis le réseau du client. L'un d'entre eux est domicilié en ligne, l'autre est domicilié sur site.  <br/> |Utilisateur en ligne : ExpressRoute  <br/> Utilisateur sur site : local  <br/> |local  <br/> |[Appels d’égal à égal pour les utilisateurs d’Office 365 au sein du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Seul l'utilisateur domicilié en ligne envoie le trafic de signalisation au cloud Office 365.  <br/> |
 |Appel d'égal à égal vers un utilisateur dans une organisation fédérée  <br/> |Deux clients, un utilisateur sur site sur le réseau du client (interne) et un utilisateur en ligne sur le réseau de la société fédérée (fédéré).  <br/> |Utilisateur interne : local  <br/> Utilisateur fédéré : ExpressRoute  <br/> |Internet ou ExpressRoute (selon si un serveur Edge en ligne ou sur site est utilisé)  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) et faisant partie du [serveur Edge sur site avec conférences hébergées sur Office 365](call-flow-using-expressroute.md#bk_Figure5) (pour le trafic de médias). <br/> |Suppose qu’un pare-feu bloque les connexions directes entre les clients et qui nécessitent un serveur Edge en ligne. L’utilisation de la fonction de négociation de glace vous permet d’assurer la connectivité en ligne (par l’utilisateur en ligne) et aux serveurs de périphérie sur site.  <br/> |
 |Rejoindre une conférence organisée par un utilisateur sur le réseau du client (conférence organisée par un utilisateur en ligne).  <br/> |Client sur site sur votre réseau et serveur de conférence dans le cloud Office 365.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> |Les ressources serveur pour la conférence téléphonique sont définies par l’organisateur de la réunion. Dans le cas présent, il a été planifié par un utilisateur en ligne, de sorte que les ressources se trouvent dans le Cloud Office 365.  <br/> |
@@ -232,7 +232,7 @@ Les utilisateurs qui se connectent à la version Cloud Connector sont tous domic
 |Appel RTC  <br/> |Utilisateur en ligne sur votre réseau utilisant la version Cloud Connector.  <br/> |local  <br/> |local  <br/> |[Appel RTC utilisant Skype Entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Appel RTC  <br/> |Utilisateur en ligne sur Internet utilisant la version Cloud Connector.  <br/> |Internet  <br/> |Internet  <br/> |Combinaison de [serveur Edge sur site avec conférences hébergées sur Office 365 et d'](call-flow-using-expressroute.md#bk_Figure5) [appel RTC utilisant Skype entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Les utilisateurs sur Internet se connecteront via le serveur Edge inclus dans Cloud Connector, et Cloud Connector se connectera au réseau RTC.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 

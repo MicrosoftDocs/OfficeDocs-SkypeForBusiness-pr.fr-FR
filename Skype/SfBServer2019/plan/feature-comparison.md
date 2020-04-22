@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : les administrateurs de Skype entreprise Server 2019 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge sur les clients.'
-ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d56744e9c383e018c5954422d4e1b6be4035b32
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129487"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779430"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités des clients de bureau pour Skype entreprise Server 2019
 
@@ -72,7 +72,7 @@ Ce tableau couvre les fonctionnalités liées à la gestion des contacts de mess
 | Effectuer des recherches dans le carnet d’adresses de l’entreprise                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Rechercher des contacts Microsoft Outlook                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Gérer des groupes de contacts                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| Développer les groupes de distribution et les groupes Office 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
+| Développer les groupes de distribution et les groupes Microsoft 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Rechercher des groupes Response Group  <br/> (non disponible dans Skype entreprise Online)                | &#x2714;                                      |                           | &#x2714;         |
 | Afficher le groupe de contacts le plus récent                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | Afficher le groupe de conversation actuel                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f490a50ade6c10d37a478729c46a5545970afb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5106d4e27921d9407b2663410cc0872892479ebb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184597"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Les paramètres utilisateur sont déplacés avec le compte d’utilisateur. Cert
 
 Avant de commencer à déplacer des utilisateurs vers Lync Online, vous souhaiterez peut-être déplacer quelques utilisateurs pilotes afin de vérifier que votre environnement est correctement configuré. Vous pouvez ensuite vérifier que les fonctionnalités et services de Lync fonctionnent comme prévu avant de tenter de déplacer des utilisateurs supplémentaires.
 
-Pour déplacer un utilisateur local vers votre client Lync Online, exécutez les applets de commande suivantes dans Lync Server Management Shell à l’aide des informations d’identification d’administrateur de votre client Microsoft Office 365. Remplacez « username@contoso.com » par les informations de l’utilisateur que vous souhaitez déplacer.
+Pour déplacer un utilisateur local vers votre client Lync Online, exécutez les applets de commande suivantes dans Lync Server Management Shell à l’aide des informations d’identification d’administrateur de votre organisation Microsoft Office 365. Remplacez « username@contoso.com » par les informations de l’utilisateur que vous souhaitez déplacer.
 
    ```PowerShell
     $creds=Get-Credential
@@ -65,11 +65,11 @@ Pour déplacer un utilisateur local vers votre client Lync Online, exécutez les
 
 Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format\<suivant :\>https://de nom de domaine complet du pool/HostedMigration/hostedmigrationService.svc.
 
-Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online correspondant à votre compte client Office 365.
+Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online correspondant à votre compte d’organisation Office 365.
 
-**Pour déterminer l’URL du service de migration hébergée pour votre client Office 365**
+**Pour déterminer l’URL du service de migration hébergée pour votre organisation Office 365**
 
-1.  Connectez-vous à votre client Office 365 en tant qu’administrateur.
+1.  Connectez-vous à votre organisation Office 365 en tant qu’administrateur.
 
 2.  Ouvrez le **Centre d’administration Lync**.
 

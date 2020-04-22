@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795997"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776819"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
-Si vous êtes un administrateur sur votre client 365 Office, vous verrez désormais l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Cette fonctionnalité vous permet de mettre à niveau des utilisateurs individuels ou tout le client.  
+Si vous êtes un administrateur de votre organisation Office 365, vous verrez désormais l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Cette fonctionnalité vous permet de mettre à niveau des utilisateurs individuels ou tout le client.  
 
 La mise à niveau vers le mode équipes uniquement offre aux utilisateurs les avantages complets de Microsoft Teams, le Hub pour le travail en équipe dans Office 365, par le biais d’une seule et même interface client. De plus, les utilisateurs en mode équipes uniquement recevront tous les appels et les discussions dans Teams, que l’expéditeur utilise ou non Skype entreprise ou équipes, et qu’il bénéficie d’une prise en charge de l’interopérabilité et de la Fédération.
 

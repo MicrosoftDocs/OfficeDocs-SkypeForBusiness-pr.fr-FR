@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : les administrateurs de Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge sur les clients.'
-ms.openlocfilehash: 36583ab342daa68f87cffb8600fa54c1ce74d089
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013497"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777799"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités des clients de bureau pour Skype entreprise Server 2015
 
@@ -77,7 +77,7 @@ Ce tableau couvre les fonctionnalités liées à la gestion des contacts de mess
 |Effectuer des recherches dans le carnet d’adresses de l’entreprise |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Rechercher des contacts Microsoft Outlook |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Gérer des groupes de contacts |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|Développer les groupes de distribution et les groupes Office 365 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|Développer les groupes de distribution et les groupes Microsoft 365 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |Rechercher des groupes Response Group  <br/> (non disponible dans Skype entreprise Online) |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Afficher le groupe de contacts le plus récent |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Afficher le groupe de conversation actuel |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||

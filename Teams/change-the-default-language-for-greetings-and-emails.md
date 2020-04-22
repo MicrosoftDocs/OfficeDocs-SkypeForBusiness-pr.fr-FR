@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment configurer Skype entreprise pour utiliser une autre langue pour le message d’accueil de la boîte vocale par défaut de votre organisation.
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752341"
+ms.locfileid: "43780363"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
-Si vous êtes un [administrateur général d'Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), vous pouvez configurer Skype Entreprise pour que l'application lise le message d'accueil de sa messagerie vocale dans une autre langue. Le message d'accueil système par défaut ressemble à celui-ci : « Veuillez laisser un message pour John Smith. Enregistrez votre message après le signal sonore. À la fin de l'enregistrement, raccrochez ou appuyez sur la touche dièse pour plus d'options. » 
+Si vous êtes un [administrateur général](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), vous pouvez configurer Skype entreprise pour lire son message d’accueil par défaut dans une autre langue. Le message d'accueil système par défaut ressemble à celui-ci : « Veuillez laisser un message pour John Smith. Enregistrez votre message après le signal sonore. À la fin de l'enregistrement, raccrochez ou appuyez sur la touche dièse pour plus d'options. » 
   
  **Tout d'abord, lisez cette information importante :**
   
@@ -49,7 +49,7 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à l’aide de votre compte d' [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [administrateur général Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l’adresse. 
+1. Connectez-vous à l’aide de votre [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)compte d' [administrateur général](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l’adresse. 
     
 2. Dans le centre d’administration Microsoft 365, sélectionnez**paramètres** > des **paramètres** > de l'**organisation**. 
     

@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocoles de routage directe
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888563"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780683"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct-protocole SIP
 
@@ -30,7 +30,7 @@ Cet article décrit comment le routage direct implémente le protocole SIP (Sess
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>Traitement de la demande entrante : recherche du client et de l’utilisateur
 
-Lors d’un appel entrant, le proxy SIP doit rechercher le client auquel est destiné l’appel et Rechercher l’utilisateur spécifique au sein de ce client. L’administrateur client peut configurer des numéros qui ne sont pas des nombres, par exemple + 1001, dans plusieurs clients. Par conséquent, il est important de rechercher le client spécifique sur lequel effectuer la recherche de numéro, car les numéros qui ne sont pas les mêmes peuvent être identiques dans plusieurs clients Office 365.  
+Lors d’un appel entrant, le proxy SIP doit rechercher le client auquel est destiné l’appel et Rechercher l’utilisateur spécifique au sein de ce client. L’administrateur client peut configurer des numéros qui ne sont pas des nombres, par exemple + 1001, dans plusieurs clients. Par conséquent, il est important de rechercher le client spécifique sur lequel effectuer la recherche de numéro, car les numéros qui ne sont pas les mêmes peuvent être identiques dans plusieurs organisations Office 365.  
 
 Cette section décrit la façon dont le proxy SIP trouve le locataire et l’utilisateur et effectue l’authentification de l’SBC sur la connexion entrante.
 
@@ -56,11 +56,11 @@ Lors de la réception de l’invitation, le proxy SIP effectue les étapes suiva
 
 2. Essayez de rechercher un client à l’aide du nom complet complet figurant dans l’en-tête contact.  
 
-   Vérifiez si le nom de domaine complet de l’en-tête de contact (sbc1.adatum.biz) est enregistré en tant que nom DNS dans n’importe quel client Office 365. Le cas échéant, la liste de choix de l’utilisateur est exécutée dans le client qui dispose du nom de domaine complet SBC inscrit comme nom de domaine. S’il est introuvable, l’étape 3 s’applique.   
+   Vérifiez si le nom de domaine complet de l’en-tête de contact (sbc1.adatum.biz) est enregistré en tant que nom DNS dans une organisation Office 365. Le cas échéant, la liste de choix de l’utilisateur est exécutée dans le client qui dispose du nom de domaine complet SBC inscrit comme nom de domaine. S’il est introuvable, l’étape 3 s’applique.   
 
 3. L’étape 3 s’applique uniquement en cas d’échec de l’étape 2. 
 
-   Supprimez la partie hôte du nom de domaine complet (FQDN) figurant dans l’en-tête de contact (FQDN : sbc12.adatum.biz, après avoir supprimé la partie hôte : adatum.biz), puis vérifiez que ce nom est enregistré en tant que nom DNS dans n’importe quel client Office 365. Le cas échéant, la recherche utilisateur est effectuée dans ce client. Si ce n’est pas le cas, l’appel échoue.
+   Supprimez la partie hôte du nom de domaine complet (FQDN) figurant dans l’en-tête de contact (FQDN : sbc12.adatum.biz, après avoir supprimé la partie hôte : adatum.biz), puis vérifiez que ce nom est enregistré en tant que nom DNS dans une organisation Office 365. Le cas échéant, la recherche utilisateur est effectuée dans ce client. Si ce n’est pas le cas, l’appel échoue.
 
 4. En utilisant le numéro de téléphone présenté dans la requête-URI, effectuez la recherche de numéro inverse dans le client trouvé à l’étape 2 ou 3. Associez le numéro de téléphone présenté à un URI SIP utilisateur dans le client indiqué à l’étape précédente.
 

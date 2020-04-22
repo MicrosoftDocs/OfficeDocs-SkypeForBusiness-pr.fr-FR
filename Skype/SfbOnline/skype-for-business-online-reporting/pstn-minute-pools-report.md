@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport de pools de minutes RTC Skype entreprise pour connaître le nombre de minutes consommées lors du mois en cours au sein de votre organisation.
-ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692429"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776249"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
@@ -42,12 +42,12 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Comment obtenir le rapport de pools de minutes RTC Skype entreprise
 
-![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
+![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-- Accédez au centre d’administration > **centres** > d’administration Skype entreprise- > **rapports** > ******du centre d’administration Skype entreprise**.
+- Accédez au centre d’administration > **centres** > d’administration Skype entreprise- > **rapports** > **PSTN minute pools****du centre d’administration Skype entreprise**.
     
 > [!NOTE]
-> En fonction de l’abonnement Office 365 que vous avez, vous ne verrez peut-être pas les mêmes détails. 
+> En fonction de l’abonnement Microsoft 365 ou Office 365, vous ne verrez peut-être pas les mêmes détails. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpréter le rapport de pools de minutes RTC Skype entreprise
 
@@ -93,7 +93,7 @@ Voici une illustration du rapport.
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Découvrez comment sélectionner les langues du standard automatique d’audioconférence pour un numéro d’audioconférence dans Skype Entreprise Online.
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680381"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776799"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 
@@ -45,7 +45,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du standard automatique des conférences
 
-Vous devez être un [administrateur global d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [administrateur Skype Entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer cette étape.
+Pour effectuer cette étape, vous devez être un [administrateur général](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [administrateur de Skype entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
     
 1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à l' **ancien portail**. Dans le portail hérité, sélectionnez **audioconférence**, puis cliquez sur **pont Microsoft**.
     
@@ -72,6 +72,6 @@ Pour automatiser cette étape, vous pouvez utiliser les applets de action [Set-c
   
 Pour plus d’informations, reportez-vous à la rubrique [utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038) .
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

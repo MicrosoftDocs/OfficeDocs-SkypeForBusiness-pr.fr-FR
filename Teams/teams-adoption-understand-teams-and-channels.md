@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837724"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779590"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
 Les concepts d’équipes et de canaux sont fondamentaux pour une implémentation saine et productive de Microsoft Teams. 
 
-- Une équipe est un ensemble de personnes, de contenu et d’outils qui collaborent pour produire des résultats commerciaux pour votre entreprise. Les équipes sont centrées autour de groupes Office 365, et les modifications apportées à l’appartenance à un groupe Office 365 sont synchronisées avec l’équipe. 
+- Une équipe est un ensemble de personnes, de contenu et d’outils qui collaborent pour produire des résultats commerciaux pour votre entreprise. Les équipes sont créées dans les groupes Microsoft 365 et les modifications apportées à la synchronisation des appartenances aux groupes Office 365 à l’équipe. 
 
 - Les canaux sont les espaces de collaboration au sein desquels les tâches réelles sont effectuées. 
 
-Pour en savoir plus sur les équipes et les canaux, veuillez consulter la [vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md). Pour recevoir des instructions complètes sur l’adoption de Teams, veuillez consulter le [Guide d’adoption de Teams](https://aka.ms/teamstoolkit). Pour en savoir plus sur Teams et les groupes Office 365, veuillez consulter les pages [Groupes Office 365 et Microsoft Teams](office-365-groups.md) et [En savoir plus sur les groupes Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Pour en savoir plus sur les équipes et les canaux, veuillez consulter la [vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md). Pour recevoir des instructions complètes sur l’adoption de Teams, veuillez consulter le [Guide d’adoption de Teams](https://aka.ms/teamstoolkit). Pour en savoir plus sur les groupes équipes et Microsoft 365, voir [groupes microsoft 365 et Microsoft teams](office-365-groups.md) et [en savoir plus sur les groupes Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |

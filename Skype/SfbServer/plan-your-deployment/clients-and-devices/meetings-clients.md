@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Résumé : les professionnels de l’informatique doivent consulter les conditions requises en matière de prise en charge de Skype entreprise Web App et de l’application réunions Skype lors de la planification de Skype entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157637"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777789"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier les clients des réunions (application Web et application de réunion)
  
@@ -70,7 +70,7 @@ Pour utiliser Skype entreprise Web App, un utilisateur doit disposer de l’une 
 &#x2778; l’accès à l’application Web à partir de chrome sur Windows lancera un petit programme qui charge l’application Web dans un cadre Internet Explorer incorporé. Ce programme nécessite l’installation d’une des versions d’Internet Explorer prises en charge pour le chargement correct de l’application Web.
   
 > [!NOTE]
-> Les utilisateurs d’Office 365 peuvent utiliser Internet Explorer 10 ou version ultérieure avec Skype entreprise. 
+> Les utilisateurs de Microsoft 365 et Office 365 peuvent utiliser Internet Explorer 10 ou version ultérieure avec Skype entreprise. 
   
 ### <a name="skype-meetings-app"></a>Application Réunions Skype
 

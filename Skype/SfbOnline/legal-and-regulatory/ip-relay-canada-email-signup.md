@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Comment soupir un compte IP Relay pour le Canada.
-ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693109"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778750"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Relais IP au Canada - inscription
 
@@ -33,8 +33,8 @@ Pour obtenir un compte IP Relay configuré pour le Canada, complétez les inform
 |||
 |:-----|:-----|
 |Prénom & nom :||
-|Nom de domaine du client Office 365 : <br/>(Par exemple : Contoso.com)||
-|Numéro de téléphone de l’utilisateur Office 365 : <br/>Exemple : + 1 XXX XXX XXXX) ||
+|Microsoft 365 ou le nom de domaine de l’organisation Office 365 : <br/>(Par exemple : Contoso.com)||
+|Numéro de téléphone de l’utilisateur Microsoft 365 ou Office 365 : <br/>Exemple : + 1 XXX XXX XXXX) ||
 |Mot de passe (entre 8 et 16 caractères) : ||
 |Adresse physique la plus probable <br/>au moment d’une urgence :||
 |Nom & numéro de rue :||
@@ -43,7 +43,7 @@ Pour obtenir un compte IP Relay configuré pour le Canada, complétez les inform
 |Province/état :||
 |Code postal :||
 |Numéro de téléphone :||
-|Adresse de messagerie d’Office 365 :||
+|Adresse de messagerie Microsoft 365 ou Office 365 :||
 |||
 
 > [!NOTE]

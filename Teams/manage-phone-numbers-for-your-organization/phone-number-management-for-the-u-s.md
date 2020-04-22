@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Ce tableau permet de trouver des informations sur la gestion des numéros de téléphone aux États-Unis (y compris Porto Rico) pour Microsoft Teams.
-ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: af8d93eabd8c4b033918ab7bce7e4c1fc9ab6d3d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417629"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778390"
 ---
 # <a name="phone-number-management-for-the-us"></a>Gestion des numéros de téléphone pour les États-Unis
 
@@ -40,7 +40,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Obtenez de nouveaux numéros de téléphone de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams. <br/> |Pour les numéros de service situés à l’intérieur des États-Unis, [Téléchargez ce formulaire](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), remplissez-le et [envoyez-](mailto:gcstnmsd@microsoft.com)le.
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation (LOA) pour les États-Unis (numéros d’utilisateur et de service) (v. 3.2) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>[Courrier d'autorisation (LOA) pour les États-Unis (numéros gratuits) (v.3.2) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**Remarque :** si vous essayez d'obtenir plus de 999 numéros de téléphone d'abonné ou d'utilisateur, vous devez remplir un Courrier d'autorisation (LOA) et nous l'envoyer. Pour plus d’informations, consultez la rubrique [transfert de numéros de téléphone dans teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) .          <br/>  <br/>   Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) votre code confidentiel et la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. Pour configurer un code confidentiel, cliquez [ici](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
-|Transférez les numéros d’une organisation Office 365 à une autre.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, cliquez [ici](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
+|Transférez les numéros d’un compte Microsoft 365 ou Office 365 vers un autre.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, cliquez [ici](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |||
    
 ## <a name="related-topics"></a>Rubriques connexes 

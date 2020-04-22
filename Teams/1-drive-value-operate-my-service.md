@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2d5c5f919e03cd1e2935e4027e38b33a23a9540b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826982"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779220"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -37,7 +37,7 @@ La gestion des services est un vaste sujet qui couvre les opérations quotidienn
 
 La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez peut-être déjà implémenté des processus et des tâches associés à des services existants. Cela dit, vous pouvez probablement augmenter votre processus actuel lorsque vous planifiez la gestion de service dès aujourd’hui pour prendre en charge les équipes à l’avenir.
 
-La gestion des services englobe toutes les activités et processus impliqués dans la gestion des équipes de bout en bout. Comme indiqué plus haut, certains composants de la gestion des services, l’infrastructure qui est le service 365 d’Office lui-même, sont responsables par Microsoft, alors que vous, le client, êtes responsable de vos utilisateurs pour gérer les différents aspects des équipes, le réseau ainsi que les points de terminaison que vous fournissez.
+La gestion des services englobe toutes les activités et processus impliqués dans la gestion des équipes de bout en bout. Comme indiqué plus haut, certains composants de la gestion des services, l’infrastructure qui est le service 365 d’Office lui-même, sont responsables par Microsoft, alors que le client, est responsable de la gestion des différents aspects des équipes, du réseau et des points de terminaison que vous fournissez.
 
 Les tâches et les activités de ce guide sont regroupées en huit catégories, comme illustré dans le schéma suivant. Chacune de ces catégories sera développée sur les sections suivantes.
 
@@ -112,7 +112,7 @@ Les sections suivantes décrivent les outils que vous pouvez utiliser pour surve
 
 | Outil de surveillance                       | Avantages                                            | Quand utiliser                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Portail Office 365                     | Disponible sur n’importe quel appareil doté d’un navigateur pris en charge. | À utiliser quand vous n’avez pas besoin de notifications en temps réel.                                          |
+| Centre d’administration Microsoft 365                     | Disponible sur n’importe quel appareil doté d’un navigateur pris en charge. | À utiliser quand vous n’avez pas besoin de notifications en temps réel.                                          |
 | Application d’administration Office 365                  | Fournit des notifications de transmission sur votre appareil mobile.  | À utiliser quand vous avez besoin d’être informé des incidents de service lors de vos opérations de passage.                  |
 | Centre de systèmes Microsoft               | Intégration à Microsoft System Center.           | À utiliser lorsque vous avez besoin d’une prise en charge des fonctionnalités d’analyse avancée et des notifications.                       |
 | API de communication de service Office 365 | Accès par programmation à l’état du service Office 365.   | À utiliser lorsque vous avez besoin d’une intégration avec un outil de surveillance tiers ou si vous voulez créer votre propre solution. |
@@ -120,9 +120,9 @@ Les sections suivantes décrivent les outils que vous pouvez utiliser pour surve
 > [!NOTE]
 > Seules les personnes disposant du rôle administrateur **général** ou **administrateur de services** peuvent afficher l’état du service.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Surveiller avec le portail Office 365
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Surveillance avec le centre d’administration Microsoft 365
 
-Le [portail Office 365](https://portal.office.com/) fournit un [tableau de bord d’État du service](https://portal.office.com/adminportal/home#/servicehealth) , qui vous permet d’afficher l’état actuel du service teams en plus des services dépendants.
+Le [Centre d’administration 365 Microsoft](https://portal.office.com/) fournit un [tableau de bord d’État du service](https://portal.office.com/adminportal/home#/servicehealth) qui vous permet d’afficher l’état actuel du service d’équipes en plus des services dépendants.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Surveillance avec l’application mobile
 
@@ -145,7 +145,7 @@ Vous pouvez surveiller l’état du service et les changements à venir en tiran
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive               | Description                                                                                                                                                                                                               | Cadence   | Équipe affectée |
+| Activité               | Description                                                                                                                                                                                                               | Cadence   | Équipe affectée |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Surveiller l’état du service | Surveiller de manière proactive le fonctionnement du service Microsoft Teams, (et les services dépendants) à l’aide des outils disponibles. Les services dépendants sont les suivants : Exchange Online, SharePoint Online, OneDrive entreprise, Azure Active Directory. | Temps réel |               |
 | Notification d’incident  | Informer les parties prenantes internes des événements affectant le service Teams. Les parties prenantes internes peuvent inclure des utilisateurs, du support technique et des gestionnaires d’incident.                                                                          | Selon vos besoins |               |
@@ -218,7 +218,7 @@ Pour plus d’informations sur la planification de la gestion des modifications 
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive               | Description                                                                                                                                                                                                                | Cadence   | Équipe affectée |
+| Activité               | Description                                                                                                                                                                                                                | Cadence   | Équipe affectée |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Surveiller le changement     | Surveiller les prochains changements apportés au service Microsoft Teams.                                                                                                                                                                   | Jour     |               |
 | Planification des modifications    | Évaluez et planifiez de nouvelles fonctionnalités, notamment des plans de communication, des campagnes de sensibilisation et une formation.                                                                                                     | Selon vos besoins |               |
@@ -273,7 +273,7 @@ Tout d’abord, identifiez s’il s’agit d’une adoption ou d’un problème 
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive                         | Description                                                                                                                      | Cadence   | Équipe affectée |
+| Activité                         | Description                                                                                                                      | Cadence   | Équipe affectée |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Mesurer l’utilisation (phase d’activation) | Mesurez et évaluez l’utilisation des équipes à mesure que les sites continuent à être intégrés lors de la phase d’activation. Résoudre les problèmes d’utilisation d’adresse selon les besoins. | Toutes les semaines    |               |
 | Mesurer l’utilisation                    | Mesurez et évaluez l’utilisation des équipes lors de la phase de valeur de l’unité (une fois le déploiement terminé). Résoudre les problèmes d’utilisation d’adresse selon les besoins. | Bihebdomadaire  |               |
@@ -326,7 +326,7 @@ Pour fournir des enquêtes NPS à votre organisation, vous pouvez tirer parti de
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/au besoin
 
-| Interactive              | Description                                                                                                                                                                         | Cadence   | Équipe affectée |
+| Activité              | Description                                                                                                                                                                         | Cadence   | Équipe affectée |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Évaluer l’sentiment des utilisateurs | Capturez et évaluez le sentiment des utilisateurs en utilisant des enquêtes ou des entretiens ou via un canal de commentaires dans teams ou Yammer.                                                                 | Selon vos besoins |               |
 | Mettre à jour les plans d’adoption | Modification de votre organisation sur la base des commentaires des utilisateurs ; Il peut s’agir de modifications apportées à vos plans de communication, programmes de formation ou la manière dont vous pouvez fournir l’assistance à vos utilisateurs. | Selon vos besoins |               |
@@ -351,7 +351,7 @@ Pour garantir l’état de votre réseau, plusieurs activités d’opérations d
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive                                                       | Description                                                                                                                                                                                                                                                                                                                                                                 | Cadence                | Équipe affectée |
+| Activité                                                       | Description                                                                                                                                                                                                                                                                                                                                                                 | Cadence                | Équipe affectée |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
 | Surveiller les adresses IP et IPs Office 365                                | Surveiller les modifications apportées aux [URL et plages d’adresses IP d’Office 365](https://aka.ms/o365ips) à l’aide du [flux RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) fourni et lancer une demande de modification aux groupes de réseaux applicables.                                                                                                                                | Jour                  |               |
 | Mise à jour du réseau en fonction des modifications apportées aux URL et adresses IP dans Office 365 | Effectuez des mises à jour des composants réseau applicables (pare-feu, serveurs proxy, VPN, pare-feu côté client, etc.) pour répercuter les modifications apportées aux [URL et plages d’adresses IP d’Office 365](https://aka.ms/o365ips).                                                                                                                                                              | Selon vos besoins              |               |
@@ -385,7 +385,7 @@ Nous vous conseillons vivement de le nommer rapidement. Après avoir été dési
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive                               | Description                                                                                                                                                                                                                                                                                                 | Cadence                             | Équipe affectée |
+| Activité                               | Description                                                                                                                                                                                                                                                                                                 | Cadence                             | Équipe affectée |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|---------------|
 | Nommer et former un ou des champions de la qualité | Désignation et formation d’un spécialiste qualité.                                                                                                                                                                                                                                                                   | Selon vos besoins                           |               |
 | Effectuer des révisions de qualité d’expérimentation (QERs)     | Effectuer un QER pour identifier les tendances en matière de qualité et de fiabilité, revoir par rapport aux cibles définies et signaler les principales parties prenantes au sein de l’organisation.                                                                                                                            | Par mois (hebdomadaire lors des déploiements) |               |
@@ -444,7 +444,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive                 | Description                                                                                                                                                                                                                                                                                                                                                                     | Cadence   | Équipe affectée |
+| Activité                 | Description                                                                                                                                                                                                                                                                                                                                                                     | Cadence   | Équipe affectée |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Exigences relatives aux points de terminaison    | Assurez-vous que le point de terminaison teams continue de respecter toutes les configurations logicielles requises pour les équipes répertoriées dans la liste [obtenir des clients pour Microsoft teams](get-clients.md).                                                                                                                                                                                       | Mois   |               |
 | Pare-feu des points de terminaison       | Conservez les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations contenues dans les [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips). Votre fournisseur tiers disposera d’instructions spécifiques pour vous permettre de gérer les exclusions. Abonnez-vous au [flux RSS](https://support.office.com/o365ip/rss) pour être informé automatiquement des modifications. | Selon vos besoins |               |
@@ -532,11 +532,11 @@ Il peut arriver parfois qu’un numéro ne puisse pas être approvisionné dans 
 
 ### <a name="team-creation-optional"></a>Création d’équipe (facultatif)
 
-Par défaut, tous les utilisateurs disposant d’une boîte aux lettres dans Exchange Online disposent des autorisations nécessaires pour créer des groupes Office 365 et, par conséquent, une équipe Microsoft Teams. Si vous souhaitez disposer d’un contrôle plus étroit et [limiter la création de nouvelles équipes](assign-roles-permissions.md#permissions-to-create-teams) (et donc la création de nouveaux groupes Office 365), vous pouvez déléguer les droits de création et de gestion de groupes à un ensemble d’administrateurs. Si votre organisation veut poursuivre cette option, consultez la procédure décrite dans cet article pour permettre aux utilisateurs d’effectuer des demandes traitées par une équipe affectée.
+Par défaut, tous les utilisateurs disposant d’une boîte aux lettres dans Exchange Online disposent des autorisations de création de groupes Microsoft 365 et, par conséquent, d’une équipe dans Microsoft Teams. Si vous souhaitez disposer d’un contrôle plus étroit et [limiter la création de nouvelles équipes](assign-roles-permissions.md#permissions-to-create-teams) (et donc la création de nouveaux groupes Microsoft 365), vous pouvez déléguer les droits de création et de gestion de groupes à un ensemble d’administrateurs. Si votre organisation veut poursuivre cette option, consultez la procédure décrite dans cet article pour permettre aux utilisateurs d’effectuer des demandes traitées par une équipe affectée.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
-| Interactive                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Équipe affectée |
+| Activité                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Équipe affectée |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Administration des services      | Administration des paramètres d’équipes à l’échelle du client.                                                                                                                                                                                                                                                                                                                                                                           | Selon vos besoins |               |
 | Administration des utilisateurs         | Administration des paramètres utilisateur et des licences dans Teams.                                                                                                                                                                                                                                                                                                                                                           | Selon vos besoins |               |

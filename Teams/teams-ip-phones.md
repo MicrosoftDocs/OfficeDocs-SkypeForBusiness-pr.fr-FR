@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Téléphone de bureau IP et de conférence certifiés pour Microsoft teams
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728943"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779973"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -70,9 +70,9 @@ Pour plus d’informations sur les fonctionnalités prises en charge par ces app
 
 Pour déterminer la version du microprogramme [sur un appareil mobile](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) , voir recherche de la version du microprogramme sur votre appareil mobile.
 
-Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement Office 365](/MicrosoftTeams/Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
+Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement microsoft 365 ou Office 365](/MicrosoftTeams/Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
-Pour plus d’informations sur l’obtention d’équipes, voir [Comment obtenir l’accès à Microsoft teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Pour plus d’informations sur l'obtention de Teams, consultez [Comment obtenir l’accès à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 * * *
 

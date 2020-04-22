@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140283"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780693"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -71,11 +71,11 @@ Les exigences d’infrastructure pour les domaines SBCs et de connectivité rés
 |:--- |:--- |
 |Contrôleur de bordure de session (SBC)|SBC pris en charge. Pour plus d’informations, voir [SBCS prises en charge](#supported-session-border-controllers-sbcs).|
 |Lignes de téléphonie connectées à l’SBC|Un ou plusieurs Trunks de téléphonie connectés à l’SBC. À la fin, l’SBC se connecte au système Microsoft Phone via le routage direct. Les SBC peuvent également se connecter à des entités de téléphonie tierces, telles que des PBX, des adaptateurs de téléphonie analogique, etc. Toute option de connectivité PSTN qui est connectée à l’SBC fonctionne. (Pour la configuration des Trunks RTC auprès de l’SBC, veuillez consulter les fournisseurs ou les fournisseurs de lignes SBC.)|
-|Client Office 365|Un client Office 365 que vous utilisez pour utiliser les utilisateurs de Microsoft Teams, ainsi que la configuration et la connexion au SBC.|
+|Organisation Office 365|Une organisation Office 365 que vous utilisez pour les utilisateurs de Microsoft Teams, ainsi que la configuration et la connexion au SBC.|
 |Bureau d’enregistrement de noms d’utilisateur|L’utilisateur doit être hébergé dans Office 365.<br/>Si votre entreprise possède un environnement Skype entreprise ou Lync local avec une connectivité hybride à Office 365, vous ne pouvez pas activer la voix dans teams pour un utilisateur hébergé sur site.<br/><br/>Pour vérifier le Bureau d’enregistrement d’un utilisateur, utilisez l’applet de commande PowerShell Skype entreprise Online suivante :<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>La sortie de l’applet de cmdlet doit afficher les éléments suivants :<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domaines|Un ou plusieurs domaines ajoutés à vos clients Office 365.<br/><br/>Notez que vous ne pouvez pas utiliser le domaine \*par défaut,. onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les clients 365 Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domaines|Un ou plusieurs domaines ajoutés à vos organisations Office 365.<br/><br/>Notez que vous ne pouvez pas utiliser le domaine \*par défaut,. onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les organisations 365 d’Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Adresse IP publique de l’SBC|Une adresse IP publique qui peut être utilisée pour se connecter à l’SBC. En fonction du type de SBC, l’SBC peut utiliser la traduction d’adresses réseau (NAT).|
-|Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits dans votre client Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
+|Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits dans votre organisation Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
 |Entrée DNS publique pour l’SBC |Une entrée DNS publique qui mappe le nom de domaine complet du SBC à l’adresse IP publique. |
 |Certificat de confiance public pour l’SBC |Certificat de l’SBC à utiliser pour toutes les communications avec le routage direct. Pour plus d’informations, voir [certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc).|
 |Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`-Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP : FQDN](#sip-signaling-fqdns).|
@@ -191,7 +191,7 @@ Microsoft travaille actuellement à l’ajout d’autorités de certification ba
 ## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets 
 
 Le routage direct est fourni dans les environnements Office 365 suivants :
-- Office 365
+- Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
@@ -252,7 +252,7 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
 Vous devez utiliser les ports suivants pour les environnements Office 365 dans lesquels le routage direct est disponible :
-- Office 365
+- Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD

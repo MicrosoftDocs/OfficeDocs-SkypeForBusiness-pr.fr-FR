@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863305"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780183"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
-Microsoft teams prend en charge les équipes associées aux groupes Office 365 à l’aide de l' *appartenance dynamique*. L’appartenance au groupe dynamique permet de définir l’appartenance d’une équipe à une ou plusieurs règles qui recherchent certains attributs d’utilisateur dans Azure Active Directory (Azure AD). Les utilisateurs sont ajoutés ou supprimés automatiquement aux équipes appropriées en tant qu’attributs utilisateur, mais ils rejoignent et quittent le client.
+Microsoft teams prend en charge les équipes associées aux groupes Microsoft 365 en utilisant l' *appartenance dynamique*. L’appartenance au groupe dynamique permet de définir l’appartenance d’une équipe à une ou plusieurs règles qui recherchent certains attributs d’utilisateur dans Azure Active Directory (Azure AD). Les utilisateurs sont ajoutés ou supprimés automatiquement aux équipes appropriées en tant qu’attributs utilisateur, mais ils rejoignent et quittent le client.
 
 L’appartenance dynamique vous permet de configurer des équipes pour certaines cohortes d’utilisateurs au sein de votre organisation. Les scénarios possibles sont les suivants :
 - Un hôpital peut créer des équipes distinctes pour les infirmières, les médecins et les chirurgiens en communication de diffusion. Cela est particulièrement important si l’hôpital repose sur des employés temporaires.
@@ -48,7 +48,7 @@ Lorsque vous êtes connecté en tant qu’administrateur client, suivez les inst
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Créer une équipe à l’aide de votre groupe O365
 
-Autorisez désormais le temps nécessaire au changement d’appartenance pour que les modifications soient prises en compte, puis créez une nouvelle équipe comme décrit dans [améliorer les groupes Office 365 existants avec Microsoft teams](enhance-office-365-groups.md).
+Autorisez désormais le temps nécessaire au changement d’appartenance pour que les modifications soient prises en compte, puis créez une nouvelle équipe comme décrit dans [améliorer les groupes microsoft 365 existants avec Microsoft teams](enhance-office-365-groups.md).
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Appliquer une appartenance dynamique à une équipe existante
 

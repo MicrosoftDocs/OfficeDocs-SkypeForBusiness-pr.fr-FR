@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer le système téléphonique dans Office 365 Voice services pour vos utilisateurs de Skype entreprise.
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050196"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780723"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Activer les utilisateurs pour voix entreprise Online et le système téléphonique dans Office 365 la messagerie vocale
  
 Découvrez comment activer le système téléphonique dans Office 365 Voice services pour vos utilisateurs de Skype entreprise.
   
-La dernière étape du déploiement du système téléphonique dans Office 365 avec une connectivité RTC locale consiste à activer vos utilisateurs pour le système téléphonique dans Office 365 et la messagerie vocale. Pour activer ces fonctionnalités, vous devez être un utilisateur disposant du rôle d’administrateur général Office 365 et exécuter PowerShell à distance. Vous devez suivre les étapes décrites dans cette rubrique pour tous les comptes d’utilisateur pour lesquels la fonctionnalité voix entreprise n’est pas encore activée pour Skype entreprise online.
+La dernière étape du déploiement du système téléphonique dans Office 365 avec une connectivité RTC locale consiste à activer vos utilisateurs pour le système téléphonique dans Office 365 et la messagerie vocale. Pour activer ces fonctionnalités, vous devez être un utilisateur doté du rôle d’administrateur général et être en mesure d’exécuter PowerShell à distance. Vous devez suivre les étapes décrites dans cette rubrique pour tous les comptes d’utilisateur pour lesquels la fonctionnalité voix entreprise n’est pas encore activée pour Skype entreprise online.
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Activer le système téléphonique dans Office 365 Voice services
 

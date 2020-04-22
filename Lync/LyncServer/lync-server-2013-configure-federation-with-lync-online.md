@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 957a0f338d0669d0c99570b541d6ddb4753c1145
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197747"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Suivez les étapes de cette section pour configurer l’interopérabilité entre
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Configuration de votre service Edge local pour la Fédération avec Skype entreprise Online
 
-La fédération permet aux utilisateurs de votre déploiement local de communiquer avec les utilisateurs d’Office 365 de votre organisation. Pour configurer la Fédération, exécutez les applets de commande suivantes :
+La Fédération permet aux utilisateurs de votre déploiement local de communiquer avec les utilisateurs de Microsoft 365 ou Office 365 au sein de votre organisation. Pour configurer la Fédération, exécutez les applets de commande suivantes :
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -63,7 +63,7 @@ La fédération permet aux utilisateurs de votre déploiement local de communiqu
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Configuration de votre client Skype entreprise Online pour un espace d’adressage SIP partagé
 
-Une adresse SIP (Session Initiation Protocol) est un identificateur unique pour chaque utilisateur d’un réseau, semblable à un numéro de téléphone ou à une adresse de messagerie. Avant d’essayer de déplacer les utilisateurs de Lync en local vers Skype entreprise Online, vous devez configurer votre client Office 365 pour partager l’espace d’adressage SIP (Session Initiation Protocol) partagé avec votre déploiement local. Si ce n’est pas configuré, le message d’erreur suivant peut s’afficher :
+Une adresse SIP (Session Initiation Protocol) est un identificateur unique pour chaque utilisateur d’un réseau, semblable à un numéro de téléphone ou à une adresse de messagerie. Avant d’essayer de déplacer des utilisateurs de Lync en local vers Skype entreprise Online, vous devez configurer votre organisation Office 365 pour partager l’espace d’adressage SIP (Session Initiation Protocol) partagé avec votre déploiement local. Si ce n’est pas configuré, le message d’erreur suivant peut s’afficher :
 
 Move-CsUser : erreur HostedMigration : erreur = (510), Description = (le client de cet utilisateur n’est pas activé pour l’espace d’adressage SIP partagé.)
 
