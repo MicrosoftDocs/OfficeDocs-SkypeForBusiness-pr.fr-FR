@@ -16,12 +16,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1366edcd482e37f12c0218acfe25d378fc86709a
-  ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
+  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "37924815"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43778510"
 items:
 - durationInMinutes: 1
   content: >
@@ -116,7 +116,7 @@ items:
 
     - **Appels d’offres ou routage direct pour se connecter au RTC.**
 
-    Les options de connexion des équipes au RTC sont un peu différentes de celles de Skype entreprise Online : les plans d’appel (auparavant appelés PBX Cloud avec connectivité RTC) existent pour les deux, l’option de connexion de votre système PBX existant ou du réseau SIP à teams est appelée " Routage directe».
+    Les options de connexion des équipes au RTC sont un peu différentes de celles de Skype entreprise Online : bien que les plans d’appel (auparavant appelés PBX Cloud avec connectivité RTC) existent, l’option de connexion de votre système PBX existant ou de votre passerelle SIP à teams est appelée « routage directe ».
 
     La documentation détaillée sur le routage direct est disponible ici : [routage direct du système téléphonique](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
@@ -208,7 +208,7 @@ items:
     ### <a name="requirements"></a>Conditions requises
 
 
-    -   Un client Office 365 avec les licences appropriées pour activer le système téléphonique avec forfaits d'appels
+    -   Une organisation Office 365 avec les licences appropriées pour activer le système téléphonique avec les offres d’appels
 
         -   Nous vous recommandons vivement d'utiliser un client de test dédié.
 
