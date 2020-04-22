@@ -1,5 +1,5 @@
 ---
-title: Configuration requise pour Microsoft teams
+title: Spécifications des salles Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,98 +13,98 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
+description: Cet article résume la configuration requise pour la prise en charge des salles Microsoft Teams.
 ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
 ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/15/2020
 ms.locfileid: "43521600"
 ---
-# <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
+# <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
-Les salles de Microsoft teams sont mises à niveau en fonction de la taille et de l’utilisation de votre grande variété de périphériques audio et vidéo certifiés. En sélectionnant le périphérique et la console à droite, combinés avec des micros, des haut-parleurs, des appareils photo et des écrans adaptés à l’espace, vous pouvez déployer des salles de Microsoft teams dans des espaces de n’importe quelle taille, à partir de très petits Huddle dans des salles de conférence et des salles de réunion très vastes.  Le jeu complet de tous les périphériques audio et vidéo certifiés disponibles qui peuvent être utilisés pour configurer votre salle est disponible dans la [Galerie de périphériques](https://products.office.com/microsoft-teams/across-devices).
+Les salles Microsoft Teams s’adaptent à différentes tailles de pièces en utilisant une grande variété de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant l’appareil et la console appropriés, ainsi que les micros, haut-parleurs, appareils photo et affichages appropriés, vous pouvez déployer les salles Microsoft Teams dans des espaces de toute taille, à partir de Huddle et de salles de conférence de grande taille.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
 
-Cet article décrit la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles de Microsoft Teams.
+Cet article résume la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles Microsoft Teams.
 
-Votre déploiement implique la création d’un compte comme décrit dans la rubrique [déploiement de salles de Microsoft teams](rooms-deploy.md) et configuration de consoles de réunion, comme décrit dans [la rubrique Configurer une console Microsoft teams](console.md).
+Votre déploiement nécessite la création d’un compte comme décrit dans [Déployer les salles Microsoft Teams](rooms-deploy.md) et configurer les consoles de réunion, comme décrit dans [Configurer une console des salles Microsoft Teams](console.md).
 
-Vous pouvez également consulter les rubriques suivantes :
+Voir aussi :
 
 - [Licences de complément Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Options de licence basées sur votre plan : salles de Microsoft teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Options de licence en fonction de votre offre : Salles Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Les salles de Microsoft teams se connectent à Microsoft Teams, à Skype entreprise Server 2019, à Skype entreprise Server 2015 ou à Skype entreprise Online et pourront participer à des réunions hébergées par l’un de ces services.
+> Les salles Microsoft Teams se connectent à Microsoft Teams, Skype Entreprise Server 2019, Skype Entreprise Server 2015 ou Skype Entreprise Online, et peuvent participer à des réunions hébergées par l’un de ces services.
 >
-> Les plates-formes précédentes comme Lync Server 2013 ne sont pas prises en charge par Microsoft teams salles. Les salles de Microsoft Teams ne sont pas prises en charge dans Office 365 géré par 21Vianet ou dans les environnements GCC-High ou DoD.
+> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Les salles Microsoft Teams ne sont pas prises en charge dans Office 365 géré par 21Vianet, ou dans les environnements GCC-High ou DoD.
 >
-> Si vous disposez d’un serveur Exchange locaux, Microsoft teams salles nécessite l’utilisation de Exchange Server 2013 SP1 ou version ultérieure.
+> Si vous avez un serveur Exchange local, les salles Microsoft Teams nécessitent l’utilisation d’Exchange Server 2013 SP1 ou d’une version ultérieure.
 
-## <a name="hardware-requirements"></a>Configuration matérielle requise
-Un déploiement de matériel inclut une sélection d’un système de salle Microsoft Teams, associé à des périphériques audio et vidéo certifiés, ainsi qu’une solution de câblage permettant d’intégrer ces périphériques ensemble.  Ces options sont décrites dans cet article.
+## <a name="hardware-requirements"></a>Configuration matérielle minimale requise
+Un déploiement de matériel inclut une sélection d’un système de salle Microsoft Teams, combiné avec des périphériques audio et vidéo certifiés, ainsi qu'une solution de câblage permettant d'intégrer ces dispositifs entre eux.  Ces options sont décrites ici.
 
-**Systèmes de salle Microsoft teams pris en charge**
+**Systèmes de salle Microsoft Teams pris en charge**
 
-Tous les appareils et ensembles de pièces Microsoft teams actuels sont disponibles dans l’ensemble de [produits systèmes de salle](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
+Tous les appareils et offres groupées actuels de salle Microsoft Teams sont disponibles dans la [Vitrine de produits des systèmes de salle de réunion](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
-  |Console|Processeur|RAM|Disque|
+  |Console|Processeur|Mémoire RAM|Disque|
   |:-----|:-----|:-----|:-----|
-  |[UC Crestron Flex-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 Go |128 GO |
-  |[Crestron Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 Go |128 GO |
-  |[UC Crestron Flex-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 Go |128 GO |
-  |[UC Crestron Flex-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Principaux i7|8 Go |128 GO |
-  [UC Crestron Flex-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Principaux i7|8 Go |128 GO|
-  |[UC Crestron Flex-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Principaux i7|8 Go|128 GO|
-  |[HP Elite Slice pour salles de réunion G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 Go |128 GO |
-  |[Périphérique audio G2 G2 compatible avec les salles de Microsoft teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 Go |128 GO |
-  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 Go |128 GO |
-  |[Logitech appuyé](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 GO |
-  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 GO|
-  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 GO |
-  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 GO |
-  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 Go|128 GO|
+  |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 Go |128 Go |
+  |[Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 Go |128 Go |
+  |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 Go |128 Go |
+  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/fr-FR/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 Go |128 Go |
+  [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Go |128 Go|
+  |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
+  |[HP Elite Slice pour salles de réunion G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 Go |128 Go |
+  |[Élément audio HP Elite G2 prêt avec les Salles Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 Go |128 Go |
+  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 Go |128 Go |
+  |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 Go |
+  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
+  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
+  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 Go|128 Go|
   ||||||
 
 > [!NOTE]
-> - Les processeurs Core M3 ne sont pas pris en charge.
-> - Vous avez besoin d’un lecteur USB de 32 Go ou supérieur configuré comme support amorçable d’installation Windows pour Windows 10 entreprise.
+> - Les processeurs Core M3 ne sont pas pris en charge.
+> - Vous avez besoin d’un lecteur USB de 32 Go ou plus, configuré comme support d’installation Windows 10 amorçable pour Windows 10 Entreprise.
 
-**Tablettes surface Pro prises en charge pour les systèmes de type ancrage**
+**Tablettes Surface Pro prises en charge pour les systèmes de style d’amarrage**
 
-  |Tablette|Processeur|RAM|Disque|
+  |Tablet|Processeur|Mémoire RAM|Disque|
   |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| Core i5 |16 Go ou 8 Go |128 Go ou plus |
-  |Surface Pro </br>(5e génération) |Core i5 |8 Go ou 4 Go |128 Go ou plus |
-  |Surface Pro 4 |Core i5 |8 Go ou 4 Go |128 Go ou plus |
+  |Surface Pro 6| Core i5 |16 Go ou 8 Go |128 Go ou plus |
+  |Surface Pro </br>(5e génération) |Core i5 |8 Go ou 4 Go |128 Go ou plus |
+  |Surface Pro 4 |Core i5 |8 Go ou 4 Go |128 Go ou plus |
 
-- Les appareils surface Pro nécessitent une des options de station d’accueil suivantes pour sécuriser une tablette dans la table salle de réunion.
+- Les appareils surface Pro nécessitent l’une des options de station d’accueil suivantes pour sécuriser une tablette dans la table de salle de réunion.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
   - [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Versions de micrologiciel certifiées pour les périphériques USB audio et vidéo
+### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Versions de microprogramme certifiées pour les périphériques audio et vidéo USB
 
-Ces appareils sont disponibles dans le [système de salle Showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) et [https://office.com/teamsdevices](https://office.com/teamsdevices).
+Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour le système de salle de bains](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) et [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
-|Périphérique de salle Microsoft teams|Version du microprogramme certifié | Caméra prenant en charge l’utilisation de l’appareil photo|
+|Périphériques des Salles Microsoft Teams|Version du micrologiciel certifiée | L'appareil photo prend en charge le contenu de l'utilisation de l'appareil photo|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
-|[Logitech brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
+|[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   |  8.0.914   | &#x2714; |
-|[Logitech bénéficient](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Vidéo : 1.0.156  |
+|[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |Audio : 1.0.172 <br/> Vidéo : 1.0.156  |
 |[Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
 |[Logitech Group](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   |  1.1.219   |
 |[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
-|[Caméra de cube d’oeil poly-Eagle](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
+|[Appareil-photo Poly Eagle Eye Cube](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   |  1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
-|[Polycom trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
+|[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
 |[Sennheiser SP30](https://en-us.sennheiser.com/sp-30)   |2.1.52  |
@@ -114,69 +114,69 @@ Ces appareils sont disponibles dans le [système de salle Showcase](https://prod
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC 1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
-|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 matrice de tableau](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
-|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 avec Intellimix plafond](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
-|[Biamp Tesira AVB VT4 fixe audio](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micro TeamConnect plafond 2 Sennheiser](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP : 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> EX-UBT : 3.12.0.15 |
-|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink +</br> Sennheiser TCC2 microphone + </br> Bose EdgeMax EM180 haut-parleurs](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP : 2,290  </br> P2600A : 1,160  </br> TCC2:1.4.2  |  |
+|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/fr-FR/products/mixers/p300)+</br></br> [Micro de table Shure MXA 310 ](https://www.shure.com/fr-FR/products/microphones/mxa310) | 4.1 |
+|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/fr-FR/products/mixers/p300) + </br></br> [Shure MXA 910 avec micro de matrice de plafond Intellimix](https://www.shure.com/fr-FR/products/microphones/mxa910) | 4.1|
+|[Biamp Tesira premier plan AVB VT4 DSP audio fixe](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Microphone Sennheiser TeamConnect Ceiling 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[Bose ControlSpace EX-440C DSP + </br>Amplificateur Bose P2600A AmpLink +</br> Microphone Sennheiser TCC2 Ceiling + </br> Haut-parleur Bose EdgeMax EM180 Ceiling](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
 
-&Dagger;Les clients peuvent choisir l’interface Dante ou le commutateur réseau recommandée par biamp/Sennheiser pour ce bundle.
+&Dagger; Les clients peuvent choisir l’interface Dante ou le commutateur réseau recommandé par biamp/Sennheiser pour cette offre groupée.
 
 #### <a name="usb-extenders"></a>Extensions USB
 
-- Les ports USB sur les stations d’accueil de tablette sont compatibles USB 3.0. Vous pouvez utiliser une extension USB 2. x, mais cela vous permet de limiter les vitesses USB 2. x à l’extrémité extrême. Les unités Extender ne sont pas recommandées pour les périphériques USB 3,0.
+- Les ports USB sur les stations d’accueil de tablettes sont compatibles USB 3.0. Vous pouvez utiliser une extension USB 2.x, mais cela vous limite aux vitesses USB 2.x à l'extrémité. Les extensions ne sont pas recommandées pour les périphériques USB 3.0.
 - Une extension doit répondre aux spécifications USB 2.0 ou plus récentes.
-  - Les stations d’accueil de tablette prennent en charge au moins deux phases d’extension de concentrateur USB externe. Si vous connectez plus de deux concentrateurs USB en série, contactez le fabricant de votre Dock pour vérifier qu’il prend en charge la connexion de série.
+  - Les stations d’accueil de tablette prennent en charge au moins deux phases d’extension de concentrateur USB externe. Si vous connectez plus de deux concentrateurs USB en série, contactez le fabricant de la station d’accueil pour confirmer qu’il prend en charge la connexion en série.
   - Connexion GbE dans la salle. Câble Ethernet de longueur adéquate
-  - Jusqu’à 2 1080-p est affiché avec les connexions HDMI. Câbles HDMI de la longueur appropriée.
+  - Jusqu’à deux écrans 1080 pixels avec connexions HDMI. Câbles HDMI de la longueur appropriée.
 
 > [!NOTE]
 > Un téléviseur utilisé comme écran à l’avant de la salle doit prendre en charge/permettre la fonctionnalité CEC (Consumer Electronics Control ) HDMI afin de pouvoir basculer automatiquement sur une source vidéo active depuis le mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs.
 >
-> Les salles de Microsoft teams n’utilisent pas de clavier. Si nécessaire, l’administrateur doit utiliser le clavier visuel. Un clavier ou une souris USB sera requis lors de la création d’images de l’appareil Microsoft Teams.
+> Les salles Microsoft Teams n’utilisent pas de clavier. Si nécessaire, l’administrateur doit utiliser le clavier visuel. Un clavier ou une souris USB sera nécessaire lors de la création de l’image de l’appareil des salles Microsoft Teams.
 
-Le tableau suivant fournit des recommandations pour les périphériques en fonction de la taille de la salle :
+Les tableaux suivants fournissent des recommandations pour les périphériques basés sur la taille de la salle :
 
-**Périphériques audio certifiés Microsoft teams**
+**Périphériques audio certifiés des salles Microsoft Teams**
 
-|Type de salle|Nombre de personnes|Distance maximum recommandée du microphone au haut-parleur|Appareil par taille de salle maximum|Commentaires|
+|Type de salle|Nombre de personnes|Distance maximale recommandée entre le microphone et le haut-parleur|Appareil par taille de salle maximum|Commentaires|
 |:-----|:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'   |2 – 4  |1,5 m  |Logitech Connect  |Les périphériques Logitech Connect incluent une caméra qui doit être positionnée au premier plan de la salle (et non au centre de tableaux) pour capturer les participants de la réunion locale. |
-|**Petite** <br/> 16' x 16'  |4 à 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |Le volume de lecture peut être limité pour les salles de grande taille.  |
-|**Moyenne** <br/> 18' x 20'  |6 – 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. <br/> En règle générale, il est possible de faire en sorte qu’il soit possible de disposer de microphones de satellites. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
-|**Grande** <br/> 15' x 32'  |12-16  |3 m <br/> Cette distance s’applique également à la surface couverte par chaque micro-satellite connecté.  |Logitech Group + microphones satellitaires <br/> Polycom Trio+ microphones satellitaires <br/> Polycom CX5100 + microphones satellitaires <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + microphones satellitaires  |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite. <br/> CX5100 inclut une caméra 360 de niveau intégré pour que l’appareil puisse être placé au centre de la table. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
+|**Focus** <br/> 10' x 9'   |2 à 4  |1,5 m  |Logitech Connect  |Les appareils Logitech Connect comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. |
+|**Small** <br/> 16' x 16'  |4 à 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |Le volume de lecture peut être limité pour des salles plus grandes.  |
+|**Moyen** <br/> 18' x 20'  |6 à 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
+|**Large** <br/> 15' x 32'  |12 à 16  |3 m <br/> Cette distance s’applique également à la zone couverte par chaque microphone satellitaire connecté.  |Logitech Group + microphones satellitaires <br/> Polycom Trio+ microphones satellitaires <br/> Polycom CX5100 + microphones satellitaires <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + microphones satellitaires  |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite. <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table. <br/> Le SP 220 MS doit être utilisé dans la configuration en cascade.  |
 
-**Périphériques vidéo certifiés Microsoft teams**
+**Périphériques vidéo certifiés des salles Microsoft Teams**
 
 |Type de salle|Nombre de personnes|Appareil par taille de salle maximale|Commentaires|
 |:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  |2 – 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
-|**Petite** <br/> 16' x 16'  |4 à 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro est souvent livré avec Logitech Group  |
-|**Moyenne** <br/> 18' x 20'  |6 – 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**Grande** <br/> 15' x 32'  |12-16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**Focus** <br/> 10' x 9'  |2 à 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
+|**Small** <br/> 16' x 16'  |4 à 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro est souvent livré avec Logitech Group  |
+|**Moyen** <br/> 18' x 20'  |6 à 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**Large** <br/> 15' x 32'  |12 à 16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
 
  > [!NOTE]
  > La résolution de l'écran à l’avant de la salle doit être définie pour ne pas être supérieure à 1920 x 1080 pixels.
 
-## <a name="required-software-downloads"></a>Téléchargements de logiciels requis
+## <a name="required-software-downloads"></a>Téléchargement des logiciels requis
 
-Pour créer votre propre image de salles de Microsoft Teams, suivez les instructions de la procédure de [configuration d’une console de salle Microsoft teams](console.md). Ces instructions vous guident dans le téléchargement de tous les logiciels nécessaires à l’installation.
+Pour créer votre propre image de salles Microsoft Teams, suivez les instructions dans [Configurer une console de salle Microsoft Teams](console.md). Ces instructions vous guident tout au long du processus de téléchargement de tous les logiciels nécessaires à l’installation.
 
 > [!NOTE]
-> Des professionnels de l'informatique devront accéder aux fichiers ISO Windows 10 Entreprise via leur contrat de licences en volume.
+> Les professionnels de l’informatique ont besoin d’accéder aux fichiers ISO Windows 10 Entreprise à l’aide de leur contrat de licence en volume.
 
-[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105) est un téléchargement facultatif que vous pouvez utiliser pour approvisionner des comptes de salle Microsoft Teams.
+[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105) est un téléchargement facultatif que vous pouvez utiliser pour configurer les comptes des salles Microsoft Teams.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Parcourez toutes les offres](https://products.office.com/microsoft-teams/across-devices/devices)
+[Parcourir toutes les offres](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Plan pour les salles de Microsoft teams](rooms-plan.md)
+[Planifier les Salles Microsoft Teams](rooms-plan.md)
 
-[Déploiement de salles de Microsoft teams](rooms-deploy.md)
+[Déployer les Salles Microsoft Teams](rooms-deploy.md)
 
-[Configurer une console de salle Microsoft teams](console.md)
+[Configurer une console des salles Microsoft Teams](console.md)
 
-[Gérer Microsoft Teams Rooms](rooms-manage.md)
+[Gérer les Salles Microsoft Teams](rooms-manage.md)
 
-[Licences de module complémentaire Skype Entreprise](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
+[Licences de complément Skype Entreprise](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
