@@ -17,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions pour la configuration d’Azure AD Connect dans un environnement hybride.
-ms.openlocfilehash: 7ae6fb7d3df6d955437a51224637264033bfa662
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 75e269cfa36a97249c9078cfc37cfc493ebcc502
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982989"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780113"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Configurer Azure AD Connect pour Teams et Skype Entreprise
  
-Les organisations qui ont une version locale de Skype entreprise Server (ou Lync Server) et qui envisagent d’utiliser teams ou Skype entreprise Online doivent configurer Azure AD Connect pour synchroniser leur répertoire local avec Office 365, comme décrit dans cet sous.  Cela inclut les organisations qui se déplacent directement de Skype entreprise en local vers Teams. En particulier les organisations disposant de Skype Entreprise en local doivent s’assurer que les attributs msRTCSIP appropriés sont synchronisés avec Azure AD. 
+Les organisations qui ont une version locale de Skype entreprise Server (ou Lync Server) et qui envisagent d’utiliser teams ou Skype entreprise Online doivent configurer Azure AD Connect pour synchroniser leur répertoire local avec Office 365, comme décrit dans ce document.  Cela inclut les organisations qui se déplacent directement de Skype entreprise en local vers Teams. En particulier les organisations disposant de Skype Entreprise en local doivent s’assurer que les attributs msRTCSIP appropriés sont synchronisés avec Azure AD. 
 
 > [!NOTE]
 > Les utilisateurs de Teams existants qui ont également Skype Entreprise en local doivent déplacer leur compte local Skype Entreprise vers le Cloud afin de pouvoir bénéficier de toutes les fonctionnalités, telles que la possibilité d’interagir avec les utilisateurs de Skype Entreprise et de communiquer avec les utilisateurs des organisations fédérées. Même si l’utilisateur n’utilise que Teams, ce compte Skype Entreprise en ligne est requis par l’infrastructure pour offrir des fonctionnalités supplémentaires.  Pour que cette migration soit effectuée, vous devez vous assurer qu’Azure AD Connect est correctement configuré de sorte que vous puissiez activer hybride.
@@ -45,7 +45,7 @@ Qu’il s’agisse d’une forêt Active Directory locale ou de plusieurs forêt
 
 2. Plusieurs forêts, dont une seule héberge Skype Entreprise Server, ainsi qu’une ou plusieurs autres forêts contenant les identités des utilisateurs faisant autorité (les forêts de comptes). 
 
-3. Plusieurs déploiements de Skype Entreprise Server dans plusieurs forêts. Si certaines conditions sont remplies, les organisations peuvent consolider ces déploiements multiples en un seul client Office 365.
+3. Plusieurs déploiements de Skype Entreprise Server dans plusieurs forêts. Sous réserve que certaines exigences soient satisfaites, les organisations peuvent consolider ces déploiements multiples en une seule organisation Office 365.
 
 ### <a name="single-forest"></a>Forêt unique 
 
@@ -66,7 +66,7 @@ Ce scénario est souvent appelé topologie de forêt de ressources. Les identit�
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Plusieurs déploiements de Skype Entreprise Server dans plusieurs forêts 
 
-Dans ce scénario, il existe plusieurs forêts, chacune contenant Skype Entreprise Server, et un seul client Office 365.  Chaque forêt contenant Skype entreprise Server peut être synchronisée dans Azure AD pour ce client à l’aide d’AAD Connect. Au mieux, une seule forêt peut être configurée pour Skype Entreprise hybride à un moment donné. Avant d’activer l’environnement hybride dans une forêt, tous les domaines SIP de toutes les autres forêts doivent être désactivés à l’aide de [Disable-csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain). Pour plus d’informations sur la consolidation d’un environnement de ce type dans Office 365, voir [Cloud consolidation for teams and Skype for Business](cloud-consolidation.md).
+Dans ce scénario, il existe plusieurs forêts, chacune contenant Skype entreprise Server, et une seule organisation Office 365.  Chaque forêt contenant Skype entreprise Server peut être synchronisée dans Azure AD pour ce client à l’aide d’AAD Connect. Au mieux, une seule forêt peut être configurée pour Skype Entreprise hybride à un moment donné. Avant d’activer l’environnement hybride dans une forêt, tous les domaines SIP de toutes les autres forêts doivent être désactivés à l’aide de [Disable-csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain). Pour plus d’informations sur la consolidation d’un environnement de ce type dans Office 365, voir [Cloud consolidation for teams and Skype for Business](cloud-consolidation.md).
 
 ## <a name="general-requirements"></a>Conditions requises générales 
 
@@ -74,7 +74,7 @@ Les services teams et Skype entreprise Online requièrent que les attributs Acti
 
  Si les identités des utilisateurs existent dans plusieurs forêts, Azure AD Connect doit effectuer la fusion. Lorsque vous suivez ces instructions, Azure AD Connect synchronise automatiquement les attributs corrects, à condition que vous ne modifiez pas les connecteurs ou les règles de synchronisation dans Azure AD Connect. 
   
-Si vous ne procédez pas à une synchronisation à partir de toutes les forêts contenant des identités d’utilisateur et le déploiement de Skype entreprise Server, vous devez toujours vous assurer que les attributs Identity et Skype for Business appropriés sont correctement renseignés dans Azure AD pour tout utilisateur qui utilise teams ou Skype pour les entreprises (en local ou en ligne), ce qui nécessitera probablement une synchronisation d’annuaires locale supplémentaire. Pour plus d’informations, reportez-vous à la rubrique [Azure ad Connect Sync : attributs synchronisés avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
+Si vous ne procédez pas à une synchronisation à partir de toutes les forêts contenant des identités d’utilisateur et le déploiement de Skype entreprise Server, vous devez toujours vous assurer que les attributs Identity et Skype for Business appropriés sont correctement renseignés dans Azure AD pour tout utilisateur qui utilise teams ou Skype entreprise (en local ou en ligne), ce qui nécessite vraisemblablement une synchronisation d’annuaires locale Pour plus d’informations, reportez-vous à la rubrique [Azure ad Connect Sync : attributs synchronisés avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
 
 Dans ces scénarios, il incombe au client de s’assurer de la bonne configuration pour remplir les attributs dans Azure AD. Gardez les éléments suivants à l’esprit : 
 

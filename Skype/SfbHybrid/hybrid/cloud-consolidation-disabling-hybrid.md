@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées sur la désactivation de l’environnement hybride dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726974"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780143"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Désactiver le mode hybride pour terminer la migration vers le cloud
 
@@ -34,7 +34,7 @@ Après avoir déplacé tous les utilisateurs de l’environnement local vers le 
 
 1. Mettre à jour les enregistrements DNS pour qu'ils pointent vers Office 365.
 
-2. Désactiver le domaine divisé dans le client Office 365.
+2. Désactivez le domaine fractionné dans l’organisation Office 365.
 
 3. Désactivez la fonctionnalité en local pour communiquer avec Office 365.
 
@@ -56,7 +56,7 @@ Le DNS externe de l’Organisation pour l’organisation locale doit être mis �
     |CNAME| satisfaction|   3600|   webdir. online. Lync. <span>com|
     |CNAME| Dialin  |3600|  webdir. online. Lync. <span>com|
 
-2.  *Désactivez l’espace d’adressage SIP partagé dans le client Office 365.*
+2.  *Désactivez l’espace d’adressage SIP partagé dans l’organisation Office 365.*
 La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShell de Skype entreprise online.
 
     ```PowerShell

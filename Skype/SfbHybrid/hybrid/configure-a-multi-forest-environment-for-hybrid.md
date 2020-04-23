@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Les sections suivantes fournissent des instructions sur la configuration d’un environnement possédant plusieurs forêts dans un modèle de forêt de ressources/utilisateur afin de fournir des fonctionnalités Skype entreprise dans un scénario hybride.
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983039"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780123"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
  
@@ -52,7 +52,7 @@ Dans une topologie de forêt de ressources, les forêts de ressources hébergean
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser les comptes dans la forêt hébergeant Skype entreprise
 
-Lorsque Skype entreprise Server est déployé dans une forêt (une forêt de ressources), mais fournit des fonctionnalités aux utilisateurs dans une ou plusieurs autres forêts (forêts de comptes), les utilisateurs des autres forêts doivent être représentés en tant qu’objets utilisateur désactivés dans la forêt où Skype Business Server est déployé. Un produit de gestion des identités, tel que Microsoft Identity Manager, doit être déployé et configuré pour mettre en service et synchroniser les utilisateurs des forêts de comptes dans la forêt où Skype entreprise Server est déployé. Les utilisateurs doivent être synchronisés avec la forêt hébergeant Skype entreprise Server en tant qu’objets utilisateur désactivés. Les utilisateurs ne peuvent pas être synchronisés en tant qu’objets contact Active Directory, car Azure Active Directory Connect ne synchronise pas correctement les contacts dans Azure AD pour une utilisation avec Skype.
+Lorsque Skype entreprise Server est déployé dans une forêt (une forêt de ressources), mais fournit des fonctionnalités aux utilisateurs dans une ou plusieurs autres forêts (forêts de comptes), les utilisateurs des autres forêts doivent être représentés comme des objets utilisateur désactivés dans la forêt où Skype entreprise Server est déployé. Un produit de gestion des identités, tel que Microsoft Identity Manager, doit être déployé et configuré pour mettre en service et synchroniser les utilisateurs des forêts de comptes dans la forêt où Skype entreprise Server est déployé. Les utilisateurs doivent être synchronisés avec la forêt hébergeant Skype entreprise Server en tant qu’objets utilisateur désactivés. Les utilisateurs ne peuvent pas être synchronisés en tant qu’objets contact Active Directory, car Azure Active Directory Connect ne synchronise pas correctement les contacts dans Azure AD pour une utilisation avec Skype.
   
 Quelle que soit la configuration à forêts multiples, la forêt qui héberge Skype entreprise Server peut également fournir des fonctionnalités pour les utilisateurs activés qui existent dans la même forêt.
   
@@ -61,7 +61,7 @@ Pour obtenir une synchronisation d’identité correcte, les attributs suivants 
 |**Forêts d’utilisateurs**|**Forêts de ressources**|
 |:-----|:-----|
 |attribut de lien de compte choisi  <br/> |attribut de lien de compte choisi  <br/> |
-|messagerie  <br/> |messagerie  <br/> |
+|mail  <br/> |mail  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
@@ -73,9 +73,9 @@ Ne synchronisez pas les UPN entre les forêts. Nous avons trouvé pendant les te
     
 - Si le nom d’utilisateur unique (UPN) unique de chaque forêt d’utilisateurs a été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l’authentification AD FS échoue. La règle de correspondance trouve l’UPN sur l’objet dans la forêt de ressources, qui a été désactivée et qui n’a pas pu être utilisée pour l’authentification. 
     
-## <a name="create-an-office-365-tenant"></a>Créer un client Office 365
+## <a name="create-an-office-365-organization"></a>Créer une organisation Office 365
 
-Vous devrez ensuite approvisionner un client Office 365 pour l’utiliser avec votre déploiement. Pour plus d’informations, consultez [la rubrique abonnements, licences, comptes et clients pour les offres Cloud de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Vous devrez ensuite approvisionner une organisation Office 365 pour l’utiliser avec votre déploiement. Pour plus d’informations, consultez [la rubrique abonnements, licences, comptes et clients pour les offres Cloud de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurer les services ADFS (Active Directory Federation Services)
 

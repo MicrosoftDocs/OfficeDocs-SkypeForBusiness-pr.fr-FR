@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776929"
+ms.locfileid: "43785867"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -34,6 +34,11 @@ Lorsqu’un invité est invité à rejoindre une équipe, il reçoit un message 
 Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Comme le montre la capture d’écran d’un exemple d’équipe, une bannière indique « cette équipe a des invités » et une étiquette **(invité)** apparaît en regard du nom de chaque invité.
     
 ![Capture d’écran illustrant des notifications de bannière aux utilisateurs invités](media/guest-experience-image2.png "La capture d’écran montre une partie du canal marketing de Northwind Traders, avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le mot « GUEST » à côté de leur nom.")
+
+Regardez ces vidéos sur l’interface de l’invité dans teams :
+- [Rejoindre une équipe en tant qu’invité](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Rejoindre une réunion en équipe avec des invités](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparaison entre le membre d’équipe et les fonctionnalités d’invité
 

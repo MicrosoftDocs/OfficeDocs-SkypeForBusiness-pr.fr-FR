@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780693"
+ms.locfileid: "43785937"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -299,8 +299,8 @@ Le tableau suivant indique la portée de port des processeurs multimédias :
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processeur de média|SBC|49152 – 53247|Définie sur l’SBC|
-|UDP/SRTP|SBC|Processeur de média|Définie sur l’SBC|49152 – 53247|
+|UDP/SRTP|Processeur de média|SBC|3478-3481 et 49152-53247|Définie sur l’SBC|
+|UDP/SRTP|SBC|Processeur de média|Définie sur l’SBC|3478-3481 et 49152-53247|
 
   > [!NOTE]
   > Microsoft recommande au moins deux ports par appel simultané sur l’SBC.
