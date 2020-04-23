@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype entreprise Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, dans lesquelles vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinies qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: 76fa8fd1ae18f4108d9c4f52bca73d86ea07aafd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf98dbdd7e59bea5f818bf803ba993be569c59b7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983969"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776309"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d'accès externe personnalisées
 
@@ -67,7 +67,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d' 2016
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
+2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
@@ -111,7 +111,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

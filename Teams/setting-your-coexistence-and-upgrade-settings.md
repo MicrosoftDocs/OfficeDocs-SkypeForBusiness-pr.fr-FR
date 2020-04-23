@@ -17,21 +17,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0eee70dd27647e59a742f4155ba292b54684eaa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a8cf8b0400ae924924d73394be0ca4deabcdeb9e
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837974"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579610"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Lorsque vous effectuez une mise à niveau de vos utilisateurs Skype entreprise de manière à utiliser Teams, plusieurs options s’offrent à vous pour faciliter le processus de gestion des utilisateurs. Vous avez la possibilité de définir les paramètres de coexistence et de mise à niveau de tous les utilisateurs de votre organisation en une seule fois, ou de modifier les paramètres d’un seul ou d’un ensemble d’utilisateurs de votre organisation. Notez que les versions plus anciennes de clients Skype entreprise ne respectent pas ces paramètres. Pour plus d’informations sur les versions de client Skype entreprise, consultez la [page téléchargements et mises à jour Skype entreprise](https://docs.microsoft.com/skypeforbusiness/software-updates). 
 
-Vous pouvez vous familiariser avec les différents types de modes disponibles en lisant la rubrique comprendre le fonctionnement de [Microsoft Teams, ainsi que la coexistence et l’interopérabilité de Skype](teams-and-skypeforbusiness-coexistence-and-interoperability.md) entreprise [avec Skype entreprise](coexistence-chat-calls-presence.md).  
+Vous pouvez vous familiariser avec les modes disponibles en lisant la rubrique comprendre les modes de [coexistence et d’interopérabilité de Microsoft Teams,](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ainsi que l’interopérabilité ou la [coexistence de Skype entreprise](coexistence-chat-calls-presence.md).  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -43,13 +41,14 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 
 1. Dans le [Centre d’administration de Microsoft teams](https://admin.teams.microsoft.com/), dans le volet de navigation de gauche, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation. 
 
-2. En haut de la page **mise à niveau de teams** , apportez les modifications suivantes, le cas échéant.
+2. En haut de la page **mise à niveau de teams** , modifiez les options suivantes comme vous le souhaitez.
     - Définissez le mode de **coexistence** .
         - **Îles** -utilisez ce paramètre si vous souhaitez que les utilisateurs puissent utiliser simultanément Skype entreprise et Teams.
         - **Skype entreprise uniquement** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Skype entreprise.
         - **Skype entreprise avec collaboration en équipe** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent Skype entreprise, en plus de l’utilisation d’équipes pour la collaboration de groupe (canaux).
         - **Skype entreprise avec collaboration et réunions en équipe** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent Skype entreprise, en plus de l’utilisation d’équipes pour la collaboration de groupe (canaux) et les réunions Teams.
-        - **Équipes uniquement** (en version préliminaire pour certaines organisations)-Utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que, même avec ce paramètre, les utilisateurs peuvent quand même participer à des réunions hébergées dans Skype entreprise.
+        - **Équipes uniquement** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que, même avec ce paramètre, les utilisateurs peuvent quand même participer à des réunions hébergées dans Skype entreprise.
+        
     - Définissez **des utilisateurs Skype entreprise que teams est disponible pour la mise à niveau**. Si vous activez cette option, les utilisateurs de Skype entreprise pourront bientôt procéder à la mise à niveau vers l’application Teams.
     - Définissez l' **application préférée pour permettre aux utilisateurs de participer à des réunions Skype entreprise**. Ce paramètre détermine quelle application est utilisée pour participer aux réunions Skype entreprise et est honorée indépendamment de la valeur du mode de coexistence.
       - **Application réunions Skype**
@@ -73,7 +72,9 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 4. Si vous sélectionnez n’importe quel **mode de coexistence** autre que l’option **utiliser les paramètres**à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype entreprise d’un utilisateur qui est bientôt mise à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en activant l’option **informer l’utilisateur de Skype entreprise** .
 5. Cliquez sur **Enregistrer** une fois que vous avez effectué vos modifications.
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
+[Mise à niveau de Skype entreprise vers équipes : pour les administrateurs informatiques](upgrade-to-teams-on-prem-overview.md)
+
 [Planifier le voyage](upgrade-plan-journey.md)
 
 [Comprendre le parcours de coexistence et de mise à niveau de Skype entreprise et équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

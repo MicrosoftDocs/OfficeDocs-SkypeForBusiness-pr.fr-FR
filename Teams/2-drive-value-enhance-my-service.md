@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825092"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779190"
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
 
 Cet article fournit une vue d’ensemble des exigences relatives à l’utilisation des services vocaux Cloud pour votre organisation. En surveillant en continu les fonctionnalités des services vocaux Cloud, vous vous assurez de disposer de la valeur la plus importante pour votre organisation.
 
 ## <a name="enhance-my-service-overview"></a>Présentation de mon service
-Dès lors que vous avez déployé une audioconférence ou un système téléphonique doté de plans d’appel vers votre organisation et que vous utilisez le service de qualité et de fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez des opportunités de améliorer vos services. Il s’agit d’une partie de la planification d’amélioration continue des services, qui est une norme moderne pour la gestion du service Cloud. 
+Dès lors que vous avez déployé une audioconférence ou un système téléphonique avec des plans d’appels vers votre organisation et que vous faites appel au service avec la qualité et la fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez la possibilité d’améliorer vos services. Il s’agit d’une partie de la planification d’amélioration continue des services, qui est une norme moderne pour la gestion du service Cloud. 
 
-Un excellent moyen de veiller à tirer le meilleur parti de vos services consiste à surveiller les [formations publiques d’équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) pour de nouvelles fonctionnalités qui peuvent être utiles pour votre organisation. Si vous avez accès au portail d’administration Office 365, vous recevez des mises à jour régulières de nouvelles fonctionnalités et de la modification de votre centre de messages. 
+Un excellent moyen de veiller à tirer le meilleur parti de vos services consiste à surveiller les [formations publiques d’équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) pour de nouvelles fonctionnalités qui peuvent être utiles pour votre organisation. Si vous avez accès au centre d’administration Microsoft 365, vous recevez des mises à jour régulières de nouvelles fonctionnalités dans notre centre de messages. 
 
 Par ailleurs, dans la mesure où les organisations grandissent et changent, vous devez prendre le temps de revoir et de mettre à jour les cas d’utilisation de votre entreprise à intervalles réguliers pour vous assurer que le service est configuré conformément aux besoins actuels de votre organisation.  Assurez-vous que vous êtes en voie de commentaires concrets de la part de vos utilisateurs et de vos champions en établissant des canaux de commentaires au sein de votre organisation. Il peut s’agir de conversations informelles, de réunions ordinaires ou d’un canal d’équipe ou d’une communauté Yammer. 
 

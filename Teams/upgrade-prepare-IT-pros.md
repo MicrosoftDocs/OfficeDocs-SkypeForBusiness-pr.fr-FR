@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706894"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776732"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre équipe informatique pour Microsoft teams
 
@@ -36,7 +36,7 @@ Cet article fait partie de l’étape de préparation technique de votre mouveme
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Vos administrateurs de clients d’Office 365, les prospectus techniques et l’assistance technique sont responsables pour une interface utilisateur de grande qualité. Cela implique de vérifier que votre réseau est prêt pour la prise en charge des équipes, de configurer teams pour vos utilisateurs et de pouvoir résoudre efficacement les problèmes qui peuvent survenir.
+Les administrateurs de votre organisation Office 365, les prospectus techniques et l’assistance technique sont responsables pour une interface utilisateur de grande qualité. Cela implique de vérifier que votre réseau est prêt pour la prise en charge des équipes, de configurer teams pour vos utilisateurs et de pouvoir résoudre efficacement les problèmes qui peuvent survenir.
 
 Partagez les ressources suivantes avec les membres du personnel informatique et confirmez qu’ils sont prêts à prendre en charge les utilisateurs avant de commencer la mise à niveau vers teams :
 

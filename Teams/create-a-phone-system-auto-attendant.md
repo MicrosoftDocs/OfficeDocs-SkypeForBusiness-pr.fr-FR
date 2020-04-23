@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508622"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788947"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -333,7 +333,7 @@ Dans cette page, vous pouvez définir qui est répertorié dans votre annuaire e
 
 Si vous sélectionnez **tous les utilisateurs en ligne**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
-**Groupes d’utilisateurs personnalisés** Cette option vous permet de rechercher et de sélectionner un groupe Office 365, une liste de distribution ou un groupe de sécurité déjà créé au sein de votre organisation. Les utilisateurs sont ajoutés à l’annuaire s’ils se trouvent dans le groupe Office 365 sélectionné, une liste de distribution ou un groupe de sécurité, et qu’il s’agit des **utilisateurs en ligne disposant d’une licence de système téléphonique** ou hébergé sur site via Skype entreprise Server. Vous pouvez ajouter plusieurs groupes Office 365, des listes de distribution et des groupes de sécurité à l’annuaire.
+**Groupes d’utilisateurs personnalisés** Cette option vous permet de rechercher et de sélectionner un groupe Office 365, une liste de distribution ou un groupe de sécurité déjà créé au sein de votre organisation. Les utilisateurs sont ajoutés à l’annuaire s’ils se trouvent dans le groupe Office 365 sélectionné, une liste de distribution ou un groupe de sécurité, et qu’il s’agit des **utilisateurs en ligne disposant d’une licence de système téléphonique** ou hébergé sur site via Skype entreprise Server. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité à l’annuaire.
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation q
 
 Si vous sélectionnez **aucun**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
-**Groupe d’utilisateurs personnalisés** Vous pouvez rechercher un groupe Office 365, une liste de distribution ou un groupe de sécurité créé au sein de votre organisation. Les utilisateurs de ce groupe sont exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes 365 Office, des listes de distribution et des groupes de sécurité.
+**Groupe d’utilisateurs personnalisés** Vous pouvez rechercher un groupe Office 365, une liste de distribution ou un groupe de sécurité créé au sein de votre organisation. Les utilisateurs de ce groupe sont exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité.
 
 
 Si vous spécifiez les paramètres par défaut lorsque la numérotation par nom est activée, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.

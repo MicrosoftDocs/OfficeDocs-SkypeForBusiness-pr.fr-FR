@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’utilisation RTC de Microsoft teams dans le centre d’administration de Microsoft teams pour avoir une vue d’ensemble de l’utilisation des fonctionnalités d’appel et de l’audioconférence au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637191"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778250"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Rapport utilisation RTC de Microsoft teams
 
@@ -124,7 +124,7 @@ La première ligne du fichier CSV contient les noms des colonnes. Toutes les dat
 | Seiz | Frais de connexion | `numeric(16, 2)` | Prix des frais de connexion |
 | Play | Frais | `numeric(16, 2)` | Montant de l’argent ou frais de l’appel facturé sur votre compte. |
 | 19 | Devise | `nvarchar(3)` | Type de devise utilisé pour le calcul du coût de l’appel ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19,6 | Faculté | `nvarchar(32)` | La licence utilisée pour l’appel |
+| 19,6 | Fonctionnalité | `nvarchar(32)` | La licence utilisée pour l’appel |
 
 ### <a name="exported-direct-routing-usage-report"></a>Rapport d’utilisation du routage direct exporté
 
@@ -134,7 +134,7 @@ Vous pouvez exporter les données jusqu’à cinq mois (150 jours) à partir de 
 | :-: | :-: | :-: |:------------------- |
 | 0,4 | Corrélation | `uniqueidentifier` | Identificateur d’appel unique |
 | 1 | Adresse SIP | `nvarchar(128)` | Adresse de l’utilisateur ou du robot ayant passé ou reçu l’appel.<br/>Notez qu’il s’agit réellement de UserPrincipalName (UPN, nom de connexion) dans Azure Active Directory, qui est généralement la même que l’adresse SIP |
-| deuxième | Nom d’affichage | `nvarchar(128)` | Le nom d’un utilisateur ou d’un bot appelant (par exemple, une file d’attente d’appels ou un standard automatique) tel que défini dans le portail Office 365 |
+| deuxième | Nom d’affichage | `nvarchar(128)` | Le nom d’un utilisateur ou d’un bot appelant (par exemple, une file d’attente d’appels ou un standard automatique) défini dans le centre d’administration Microsoft 365 |
 | 3 | Pays de l’utilisateur | `nvarchar(2)` | Code pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Heure d’invitation | `datetimeoffset` | Lorsque l’invitation initiale envoie un appel sortant à partir d’un utilisateur teams ou d’un appel de robot vers l’SBC, ou est reçu sur entrant en équipe ou à l’appel bot par le composant proxy SIP du routage direct à partir de l’SBC |
 | 5 | Heure de début | `datetimeoffset` | Temps pendant lequel le proxy SIP a reçu la réponse finale (message SIP "200 OK") de l’SBC sur sortant (Team/bot vers un utilisateur RTC), ou après l’envoi de l’invitation au tronçon suivant du serveur principal d’équipes sur l’appel entrant (utilisateur RTC à une équipe/bot).<br/>Pour les appels en échec et en sans réponse, il peut s’agir d’un temps d’invitation ou d’échec. |

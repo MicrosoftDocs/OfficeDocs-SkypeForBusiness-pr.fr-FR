@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment créer et gérer les plans de numérotation des appels RTC et comment les gérer.
-ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160078"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778260"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
 Une fois que vous avez planifié les plans de numérotation pour votre organisation et que vous avez défini toutes les règles de normalisation qui doivent être créées pour le routage des appels, vous pouvez créer les plans de numérotation. Vous pouvez utiliser le centre d’administration Microsoft teams ou Windows PowerShell pour créer et gérer les plans de numérotation.  
 
-## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Créer un plan de numérotation
 
@@ -87,7 +87,7 @@ Pour en savoir plus, voir [se connecter à tous les services Office 365 dans une
   
 1. Cliquez sur **Démarrer** > **Windows PowerShell**.
     
-2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
+2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.

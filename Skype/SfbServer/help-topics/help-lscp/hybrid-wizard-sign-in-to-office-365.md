@@ -1,5 +1,5 @@
 ---
-title: Assistant hybride connexion à Office 365
+title: Assistant hybride connexion à Microsoft 365 ou Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: L’Assistant gestion hybride de Skype entreprise Server vous permet de configurer votre environnement pour une utilisation hybride avec Skype entreprise online.
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Utilisez l’Assistant de gestion hybride Skype entreprise Server pour vous aider à configurer votre environnement pour une utilisation hybride avec Skype entreprise online.
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822717"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780433"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>Assistant hybride : connexion à Office 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Assistant hybride : se connecter à Microsoft 365 ou Office 365
 
-L’Assistant gestion hybride de Skype entreprise Server vous permet de configurer votre environnement pour une utilisation hybride avec Skype entreprise online.
+Utilisez l’Assistant de gestion hybride Skype entreprise Server pour vous aider à configurer votre environnement pour une utilisation hybride avec Skype entreprise online.
 
-## <a name="sign-in-to-office-365"></a>Connexion à Office 365
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Se connecter à Microsoft 365 ou Office 365
 
-Entrez le nom d’utilisateur et le mot de passe de votre locataire Office 365 pour vous connecter au déploiement local avec votre locataire Office 365. Vous devrez utiliser le compte administrateur créé pour le domaine onmicrosoft lorsque vous vous êtes enregistré sur Office 365, par exemple, admin@contoso.onmicrosoft.com.
+Entrez le nom d’utilisateur et le mot de passe de votre organisation Microsoft 365 ou Office 365 pour vous connecter et connecter votre déploiement sur site à votre organisation Microsoft 365 ou Office 365. Vous devez utiliser le compte d’administrateur qui a été créé pour le domaine onmicrosoft lorsque vous vous êtes inscrit à Microsoft 365 ou Office 365, par exemple, admin@contoso.onmicrosoft.com.
 
-Pour plus d’informations sur la configuration de votre environnement hybride, reportez-vous à la rubrique [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+Pour plus d’informations sur la configuration de votre environnement pour une utilisation hybride, consultez la rubrique [vue d’ensemble des déploiements hybrides](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
 

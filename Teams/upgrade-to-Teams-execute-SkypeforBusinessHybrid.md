@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ea18a755ccca9b3608cd1fddbf616a969b89140c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136974"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779831"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mise à niveau d’un déploiement hybride Skype entreprise vers teams
 
@@ -41,7 +41,7 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 - [A mené une pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-Suivez les recommandations de cet article si vous avez déployé Skype entreprise ou Microsoft Lync en local et l’avez configuré dans un déploiement hybride avec votre client Office 365 et que votre organisation souhaite effectuer une mise à niveau vers des équipes de manière sélective, à l’aide de plusieurs modes de coexistence, ou tout-en-un. Pour chaque mise à niveau, vous devez déplacer vos utilisateurs vers Skype entreprise Online (s’ils ne sont pas encore hébergés en ligne), puis leur affecter le mode de coexistence et de mise à niveau appropriés.
+Suivez les recommandations de cet article si vous avez déployé Skype entreprise ou Microsoft Lync en local et l’avez configuré dans un déploiement hybride avec votre organisation Office 365 et que votre organisation souhaite effectuer une mise à niveau vers des équipes de manière sélective, à l’aide de plusieurs modes de coexistence, ou tout-en-un. Pour chaque mise à niveau, vous devez déplacer vos utilisateurs vers Skype entreprise Online (s’ils ne sont pas encore hébergés en ligne), puis leur affecter le mode de coexistence et de mise à niveau appropriés.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

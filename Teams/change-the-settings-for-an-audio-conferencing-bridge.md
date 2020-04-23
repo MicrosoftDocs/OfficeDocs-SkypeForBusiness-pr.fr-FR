@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Modifiez les paramètres du pont de conférence audio, y compris les notifications d’entrée et de sortie, les noms de téléphone ou les numéros de téléphone, les tonalités et les appels d’invites pour enregistrer leur nom.
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139083"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780343"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
@@ -43,7 +43,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
 1. Dans le volet de navigation de gauche, accédez à **conférences** > **conférences.** 
 
@@ -90,7 +90,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
     
 **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
   
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
     
 2. Accédez au >  **Centre d’administration Microsoft 365****Skype entreprise**.
     
@@ -103,7 +103,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
   
 **Indiquez si vous souhaitez envoyer un courrier électronique à vos utilisateurs.**
   
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
     
 2. Accédez au >  **Centre d’administration Microsoft 365****Skype entreprise**.
     

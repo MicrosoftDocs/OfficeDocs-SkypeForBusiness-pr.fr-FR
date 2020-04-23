@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706864"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776719"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Prérequis et dépendances environnementales pour les équipes
 
@@ -38,7 +38,7 @@ Cet article fait partie de l’étape de préparation technique de votre mouveme
 
 Teams combine plusieurs services 365 Office et dépend par conséquent de l’implémentation et de l’utilisation appropriées de ces services. Ces services incluent, sans s’y limiter, SharePoint Online, Exchange Online et OneDrive entreprise.
 
-Même si certains services ne sont pas requis, nous vous conseillons vivement de les implémenter. Si vous choisissez de ne pas implémenter certains services, cela a un impact sur les fonctionnalités que teams peut fournir à votre organisation. Par exemple, si vous n’avez pas besoin d’implémenter SharePoint Online, Teams ne dépend pas de SharePoint Online pour certaines fonctionnalités, telles que le partage de fichiers dans les conversations de groupe, de sorte qu’il n’est pas nécessaire d’implémenter ce service pour réduire les fonctionnalités proposées via le sous.
+Même si certains services ne sont pas requis, nous vous conseillons vivement de les implémenter. Si vous choisissez de ne pas implémenter certains services, cela a un impact sur les fonctionnalités que teams peut fournir à votre organisation. Par exemple, si vous n’avez pas besoin d’implémenter SharePoint Online, Teams ne dépend pas de SharePoint Online pour certaines fonctionnalités, telles que le partage de fichiers dans les conversations de groupe, de sorte qu’il n’est pas nécessaire d’implémenter ce service pour réduire les fonctionnalités proposées par le client.
 
 Pour en savoir plus sur les conditions préalables et la façon dont les équipes interagissent avec d’autres technologies, voir les articles suivants :
 
@@ -52,7 +52,7 @@ Pour en savoir plus sur les conditions préalables et la façon dont les équipe
 
 - Si votre organisation ne dispose pas de SharePoint Online, voir [comprendre comment SharePoint Online et OneDrive entreprise interagissent avec Microsoft teams](SharePoint-OneDrive-interact.md).
 
-- Découvrez comment [interagissent avec les groupes Office 365 et Microsoft teams](Office-365-groups.md).
+- Découvrez comment [interagissent avec les groupes microsoft 365 et Microsoft teams](Office-365-groups.md).
 
 - Si votre organisation est une institution éducative et que vous utilisez un système d’information sur les étudiants, vous devez [déployer School Data Sync](https://docs.microsoft.com/schooldatasync) avant de déployer Microsoft Teams.
 

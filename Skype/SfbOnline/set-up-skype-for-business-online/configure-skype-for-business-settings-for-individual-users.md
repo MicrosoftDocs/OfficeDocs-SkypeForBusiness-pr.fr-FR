@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010887"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776319"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels
 
@@ -45,9 +45,9 @@ Pour autoriser (ou bloquer) toutes les personnes de votre entreprise à communiq
 
 Vous devez disposer des [autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer ces étapes.
 
-![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
+![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
   
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
     
 2. Sélectionnez **Centres dʼadministration** > **Skype Entreprise**.
     
@@ -91,7 +91,7 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [configurer v
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Modifier les paramètres de l’audioconférence pour un utilisateur
 <a name="__toc314837483"> </a>
 
-1. Sélectionnez **utilisateurs**, sélectionnez l’utilisateur dont vous souhaitez modifier les paramètres de conférence rendez-vous, **** ![puis sélectionnez](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)modifier la modification.
+1. Sélectionnez **utilisateurs**, sélectionnez l’utilisateur dont vous souhaitez modifier les paramètres de conférence rendez-vous, **Edit** ![puis sélectionnez](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)modifier la modification.
     
 2. Sélectionnez **audioconférence**, sélectionnez votre fournisseur de services d’audioconférence, tapez ou modifiez les informations demandées, puis cliquez sur **Enregistrer**.
     
@@ -108,7 +108,7 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Reportez-vous [à 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>Rubriques connexes 
+## <a name="related-topics"></a>Voir aussi 
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 

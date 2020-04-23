@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: b08f747c6a26d0401095e5aa004b972e0428b830
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 43ecac8faedf5f98ce2634db85321eb363c19f20
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137054"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579067"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
@@ -52,6 +52,7 @@ Le tableau suivant identifie les sections de l’interface d’équipe qui ont �
 |Intégration de courrier électronique     |Liste des expéditeurs autorisés         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Améliorations         |
 |Stockage cloud personnalisé     |Boite         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
 |Stockage cloud personnalisé     |Échange        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Stockage cloud personnalisé     |Egnyte         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
 |Stockage cloud personnalisé     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
 |Stockage cloud personnalisé     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
 |Paramètres par utilisateur/type de licence     |Activation ou désactivation de Microsoft teams pour tous les utilisateurs          |Déconseillé<sup>1</sup>        |         |

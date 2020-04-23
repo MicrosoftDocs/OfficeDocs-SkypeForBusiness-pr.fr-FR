@@ -23,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42983329"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788948"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
-Apprenez à configurer votre organisation Office 365 pour utiliser le tableau de bord de qualité des appels pour surveiller la qualité des appels.
+Apprenez à configurer votre 365 ou Office 365 pour utiliser le tableau de bord de qualité des appels pour surveiller la qualité des appels.
   
 Le tableau de bord de qualité des appels (bord) vous permet d’obtenir des renseignements sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise online. Cette rubrique décrit la procédure de démarrage de la collecte de données que vous pouvez utiliser pour résoudre les problèmes de qualité d’appel.
 
@@ -149,11 +149,11 @@ Vous pouvez ajouter plusieurs dates à partir de l’onglet emplacement, par exe
 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activer les rapports de synthèse sur le tableau de bord de qualité d’appel Microsoft (bord)
 
-Pour pouvoir commencer à utiliser bord, vous devez l’activer pour votre organisation Office 365 comme suit :
+Pour pouvoir commencer à utiliser bord, vous devez l’activer pour votre application Microsoft 365 ou Office 365 en procédant comme suit :
 
 ![Icône montrant le logo](media/teams-logo-30x30.png) de Microsoft teams **à l’aide du centre d’administration Microsoft teams**
 
-1. Pour ouvrir le centre d’administration, connectez-vous à votre organisation 365 à l’aide du compte d’administrateur du service Microsoft Teams, puis sélectionnez la vignette **administrateur** .
+1. Pour ouvrir le centre d’administration, connectez-vous à votre compte Microsoft 365 ou Office 365 à l’aide du compte d’administrateur du service Microsoft Teams, puis sélectionnez la vignette **administrateur** .
 2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Microsoft teams** pour ouvrir le centre d’administration Microsoft Teams.
 3. Dans le centre d’administration de Microsoft Teams, sélectionnez **tableau de bord de qualité des appels** dans le volet gauche.
 4. Dans la page qui s' \(ouvre<span><span/>\), cliquez sur **se connecter** , puis entrez les informations de votre compte d’administrateur général ou d’administrateur du service Microsoft Teams.
@@ -166,7 +166,7 @@ Après vous être connecté, une fois activé, le bord commence la collecte et l
 
 ![Icône du logo](media/sfb-logo-30x30.png) Skype entreprise **avec le portail hérité Skype entreprise**
 
-1. Connectez-vous à votre organisation Office 365 à l’aide d’un compte d’administrateur, puis sélectionnez la vignette **administrateur** pour ouvrir le centre d’administration.
+1. Connectez-vous à votre compte Microsoft 365 ou Office 365 à l’aide d’un compte d’administrateur, puis sélectionnez la vignette **administrateur** pour ouvrir le centre d’administration.
 2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Microsoft teams** pour ouvrir le centre d’administration Microsoft Teams.
 3. Dans le centre d’administration de Microsoft Teams, sélectionnez **portail hérité** dans le volet gauche, sélectionnez **Outils**, puis cliquez sur **tableau de bord de qualité des appels de Skype entreprise Online**.
 
@@ -466,7 +466,7 @@ Le nombre total de BORDs v2 et bord v3 est différent dans la mesure où bord v3
 
 Si le scénario d’utilisation inclut les appels Skype entreprise Server 2019, les données de bord v3 incluent les appels Skype bot (standard automatique, CVI, l’interface de bureau virtuel), les événements en direct et les appels RTC. BORD v2 n’utilise pas ces données. (Bord V3 nécessite Skype entreprise Server 2019 avec le Cloud Data Connector configuré.)
 
-Par exemple, si vous voyez des flux audio 200 000 avec 5000 échecs dans un rapport de synthèse bord v2, il n’était pas rare de voir les flux audio 300 000 avec les échecs de la fonction 5500 (la différence peut être due à Skype entreprise Server 2019 appels, appels CVI, appels RTC , et ainsi de suite) dans un rapport de synthèse bord v3.
+Par exemple, si vous voyez des flux audio 200 000 avec 5000 échecs dans un rapport de synthèse bord v2, il n’était pas rare de voir les flux audio 300 000 avec les échecs de la fonction 5500 (la différence peut être due à Skype entreprise Server 2019 appels, appels CVI, appels RTC, etc.) dans un rapport de synthèse bord v3.
 
 Pour éliminer toute ambiguïté de différences inattendues, observez plus d’une répartition des données globales. Filtrez les données à l’aide d’un ou de plusieurs des paramètres suivants :
 
@@ -496,7 +496,7 @@ Lorsque vous comparez des données pour ces deux services :
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Pourquoi ne puis-je pas voir EUII dans bord ?
 
 Ces rôles d’administrateur peuvent accéder à bord, mais ils ne peuvent pas afficher EUII (informations d’identification de l’utilisateur final) :
-- Lecteur de rapports Office 365
+- Lecteur de rapports Microsoft 365
 - Spécialiste du support des communications teams
 
 Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [rôles d’attribution de EUII-lecture des rôles pour accéder à bord](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
@@ -505,7 +505,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

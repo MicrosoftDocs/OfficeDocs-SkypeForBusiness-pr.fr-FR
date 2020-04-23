@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
-ms.openlocfilehash: 7983ae72cd3b06a21fd4947883a3043d2506b92e
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d557fcb747ce2a5713bcfb20a56c748dbdb31d79
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887963"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776429"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
@@ -69,7 +69,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
+    2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
         > [!NOTE]
         > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
@@ -121,7 +121,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

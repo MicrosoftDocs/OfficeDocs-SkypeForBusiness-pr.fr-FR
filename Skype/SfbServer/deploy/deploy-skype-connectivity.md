@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment connecter Skype entreprise Server à Skype client. Également appelée connectivité Skype.'
-ms.openlocfilehash: be53acc531d0abb789ae4e622a24dc313483cac6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030447"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780063"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déploiement de la connectivité Skype dans Skype entreprise Server
 
@@ -65,7 +65,7 @@ Le tableau suivant décrit la prise en charge de la recherche dans l’annuaire 
 > Si un client dispose de plusieurs sites dans son déploiement local, et s’il a déployé un seul serveur/pool de serveurs Edge Skype entreprise, le trafic de recherche à partir de tous les sites passe par le serveur Edge disponible unique. L’administrateur doit s’assurer que les pools de tous les sites peuvent accéder au pool/serveur Edge de Skype entreprise Server déployé. 
   
 > [!NOTE]
-> Le service de graphique Skype limite les demandes de recherche à partir de n’importe quel client local ou Office 365 si le taux de demande dépasse 15 demandes/seconde. 
+> Le service de graphique Skype limite les demandes de recherche à partir de n’importe quel client local ou Microsoft 365 ou Office 365 si le taux de demandes dépasse 15 demandes/seconde. 
   
 > [!NOTE]
 > Pour les clients locaux d’entreprise de grande taille, les domaines doivent être la liste d’autorisation du service de recherche Skype afin d’autoriser des taux de demande plus élevés. 
@@ -75,9 +75,9 @@ Le tableau suivant décrit la prise en charge de la recherche dans l’annuaire 
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Déploiement de la connectivité Skype pour Skype entreprise Online dans Office 365
 
-La connectivité Skype est également une fonctionnalité de Skype entreprise Online, qui fait partie d’Office 365. Vous pouvez activer la fonctionnalité de connectivité Skype à partir du centre d’administration Skype entreprise dans le portail Office 365.
+La connectivité Skype est également une fonctionnalité de Skype entreprise Online, qui fait partie d’Office 365. Vous pouvez activer la fonctionnalité de connectivité Skype à partir du centre d’administration Skype entreprise dans le centre d’administration 365 de Microsoft.
   
-Pour Office 365 Midmarket Business, Office 365 Enterprise, Office 365 éducation et Office 365 pour le gouvernement : Connectez-vous au portail Office 365 et accédez au centre d’administration Skype entreprise. Accédez à communications externes. Sous fournisseurs de services de messagerie instantanée publics, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à la connectivité Skype, vous pouvez modifier les paramètres de communications externes des utilisateurs individuels.
+Pour Office 365 moyenne entreprise, Office 365 entreprise, Office 365 éducation et Office 365 pour le gouvernement : Connectez-vous au centre d’administration de Microsoft 365 et accédez au centre d’administration Skype entreprise. Accédez à communications externes. Sous fournisseurs de services de messagerie instantanée publics, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à la connectivité Skype, vous pouvez modifier les paramètres de communications externes des utilisateurs individuels.
   
 Pour Office 365 petite entreprise Premium : Connectez-vous à Office 365 et accédez à paramètres \> \> du service d’administration messagerie instantanée, réunions et conférences. Activer les communications externes. Le commutateur communications externes active la connectivité Skype et les communications avec d’autres organisations qui utilisent Skype entreprise.
   
@@ -93,7 +93,7 @@ Pour plus d’informations sur l’administration de Skype entreprise Online, vo
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Déploiement de la connectivité Skype pour Skype entreprise Server
 
-Skype entreprise Server utilise l’architecture d’accès à la Fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet à vos utilisateurs de Skype entreprise Server d’ajouter Skype. Les clients Skype peuvent également ajouter des utilisateurs Skype entreprise à leur liste de contacts. En fonction des stratégies définies de manière administrative dans Skype entreprise Server, les utilisateurs pourront communiquer à l’aide de la messagerie instantanée, consulter leur présence et lancer des appels audio et vidéo. La connectivité Skype est également une fonctionnalité de Skype entreprise Online, qui peut être activée pour les clients Skype entreprise Online à partir du centre d’administration Skype entreprise dans le portail Office 365.
+Skype entreprise Server utilise l’architecture d’accès à la Fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet à vos utilisateurs de Skype entreprise Server d’ajouter Skype. Les clients Skype peuvent également ajouter des utilisateurs Skype entreprise à leur liste de contacts. En fonction des stratégies définies de manière administrative dans Skype entreprise Server, les utilisateurs pourront communiquer à l’aide de la messagerie instantanée, consulter leur présence et lancer des appels audio et vidéo. La connectivité Skype est également une fonctionnalité de Skype entreprise Online, qui peut être activée pour les clients Skype entreprise Online à partir du centre d’administration Skype entreprise dans le centre d’administration Microsoft 365.
   
 > [!NOTE]
 > Si Skype entreprise Server est déjà configuré pour se connecter à Windows Messenger à l’aide de la connectivité PIC (public Instant Messaging Connectivity), votre déploiement est déjà configuré pour la connectivité Skype. La seule modification que vous souhaiterez peut-être envisager est de renommer votre entrée Messenger PIC existante comme Skype. 
@@ -109,7 +109,7 @@ La communication entre tout déploiement Skype entreprise local et les utilisate
   
 Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’il héberge. Des conseils sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit être résolu par une requête SRV DNS en un nom de domaine complet de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
 
-|**Noms de domaine complets valides**|**Comment**|
+|**Noms de domaine complets valides**|**Commentaire**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |Dans chaque cas, le nom de domaine complet exact doit figurer dans le SN ou le SAN du certificat externe installé sur le serveur Edge.   |
@@ -212,7 +212,7 @@ La configuration de la connectivité Skype peut également être réalisée à l
      > Le fournisseur public doit être supprimé et ajouté à nouveau si des modifications sont apportées. Aucune modification sur place n’est autorisée. 
   
      > [!NOTE]
-     > Ajouté dans Lync Server 2013 CU5 &amp; client Lync dans Office 2013 SP1, le NameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorent la situation dans laquelle les utilisateurs de Lync ajoutent des contacts Skype nécessaires pour « décorer » des domaines non-Microsoft afin de les identifier et de les acheminer vers Skype (format de : User (contoso. com) @msn. com). Ces nouveaux paramètres autorisent la mise en forme automatique de l’adresse entrée de l’utilisateur dans la boîte de dialogue « Ajouter un contact Skype » avec le NameDecorationRoutingDomain (qui doit être défini sur msn.com) s’il ne contient pas les domaines dans le NameDecorationExcludedDomainList ( Nous pouvons actuellement prendre en charge msn.com, live.com, Hotmail.com, outlook.com). 
+     > Ajouté dans Lync Server 2013 CU5 &amp; client Lync dans Office 2013 SP1, le NameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorent la situation dans laquelle les utilisateurs de Lync ajoutent des contacts Skype nécessaires pour « décorer » des domaines non-Microsoft afin de les identifier et de les acheminer vers Skype (format de : User (contoso. com) @msn. com). Ces nouveaux paramètres autorisent la mise en forme automatique de l’adresse entrée de l’utilisateur dans la boîte de dialogue « Ajouter un contact Skype » avec le NameDecorationRoutingDomain (qui doit être défini sur msn.com) s’il ne contient pas les domaines dans le NameDecorationExcludedDomainList (nous pouvons actuellement prendre en charge msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. À partir d’un client Skype entreprise, les utilisateurs peuvent désormais Rechercher et ajouter un utilisateur Skype.
     
@@ -221,7 +221,7 @@ La configuration de la connectivité Skype peut également être réalisée à l
 Le tableau suivant décrit l’état de l’interopérabilité entre la dernière version de Skype Consumer et la dernière version de Skype entreprise.
   
 
-|**Clients Skype**|**Ajouter des contacts, de la messagerie instantanée, de la présence, de l’audio et de la vidéo**|**Comment**|
+|**Clients Skype**|**Ajouter des contacts, de la messagerie instantanée, de la présence, de l’audio et de la vidéo**|**Commentaire**|
 |:-----|:-----|:-----|
 |Bureau Skype Windows  <br/> |7,6 ou supérieur, Windows XP et versions ultérieures  <br/> |**Nouveauté**: prise en charge ajoutée pour le client Skype Windows exécuté sur Windows XP et Windows Vista **(nécessite la dernière version 7,26 ou supérieure du client)** <br/> |
 |Skype mobile-téléphone Android et tablette  <br/> |6,19 ou version ultérieure, exécutant le système d’exploitation Android version 4.0.3 ou supérieure  <br/> |Les périphériques à faible spécification ne prennent pas en charge les appels vidéo  <br/> |

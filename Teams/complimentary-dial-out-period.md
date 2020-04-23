@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Apprenez-en davantage sur la période de numérotation complète pour le plan d’appel d’Office 365 et l’audioconférence Office 365 dans Microsoft Teams.
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137294"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779791"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -48,7 +48,7 @@ Pour les clients adoptant notre service de conférence audio d’Office 365, Mic
 
 Par ailleurs, il y a une limite de 900 minutes au cours de la période de numérotation gratuite, comme suit :
 
-Les utilisateurs disposant d’un emplacement d’utilisation des licences (il s’agit de l’emplacement de l’utilisateur défini dans la zone gestion des licences du portail d’administration d’Office 365) dans n’importe quel pays peut appeler n’importe quelle zone 44 dans un pays ou une région. Chaque utilisateur reçoit une 900 minutes par utilisateur et par mois vers n’importe quel pays ou région dans lequel il est regroupé au niveau du client. Par exemple, un client a acheté des licences d’abonnement à des services d’audioconférence 115 et possède 10 utilisateurs, 100 utilisateurs au Royaume-Uni et 5 utilisateurs en Inde, tous dotés de licences d’abonnement de conférence audio attribuées à leurs utilisateurs.
+Les utilisateurs disposant d’un emplacement d’utilisation des licences (il s’agit de l’emplacement de l’utilisateur défini dans la zone gestion des licences du centre d’administration 365 Microsoft) dans n’importe quel pays est en mesure de passer des appels sortants d’une conférence vers n’importe 44 quel pays ou région. Chaque utilisateur reçoit une 900 minutes par utilisateur et par mois vers n’importe quel pays ou région dans lequel il est regroupé au niveau du client. Par exemple, un client a acheté des licences d’abonnement à des services d’audioconférence 115 et possède 10 utilisateurs, 100 utilisateurs au Royaume-Uni et 5 utilisateurs en Inde, tous dotés de licences d’abonnement de conférence audio attribuées à leurs utilisateurs.
 
 > [!NOTE]
 > La taille du pool est basée sur des licences attribuées et non sur des licences achetées.

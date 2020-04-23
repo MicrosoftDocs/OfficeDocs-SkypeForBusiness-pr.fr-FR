@@ -15,12 +15,12 @@ f1.keywords:
 description: Découvrez les mises à jour du client de bureau Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832614"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776829"
 ---
 # <a name="teams-update-process"></a>Processus de mise à jour des équipes
 
@@ -36,11 +36,11 @@ Les utilisateurs doivent être connectés pour pouvoir télécharger les mises �
 
 À compter du 31 juillet, 2019, les mises à jour du client teams utilisent une bande passante réseau nettement inférieure lors de la mise à jour. Cette option est activée par défaut et ne nécessite aucune action de la part des administrateurs ou des utilisateurs.
 
-## <a name="what-about-updates-to-office-365-proplus"></a>À propos des mises à jour d’Office 365 ProPlus
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Que se passe-t-il des mises à jour apportées aux applications Microsoft 365 pour les entreprises ?
 
-Teams est installé par défaut avec les nouvelles installations d’Office 365 ProPlus, comme décrit dans la rubrique [déploiement de Microsoft teams avec Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
+Teams est installé par défaut avec de nouvelles installations des applications Microsoft 365 pour les entreprises, comme décrit dans la rubrique [déploiement de Microsoft teams avec les applications microsoft 365 pour les entreprises](https://docs.microsoft.com/DeployOffice/teams-install). 
 
-Teams suit son propre processus de mise à jour, tel que décrit ci-dessus, mais pas le processus de mise à jour des autres applications Office, telles que Word et Excel. Pour en savoir plus, voir [Présentation des canaux de mise à jour d’Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+Teams suit son propre processus de mise à jour, tel que décrit ci-dessus, mais pas le processus de mise à jour des autres applications Office, telles que Word et Excel. Pour en savoir plus, voir [Présentation des canaux de mise à jour pour les applications Microsoft 365 pour les entreprises](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>À propos des mises à jour apportées aux équipes sur VDI
 
@@ -56,7 +56,7 @@ En tant que service en ligne moderne, le client teams se met à jour automatique
 
 Pour vous aider à identifier le moment où les clients de bureau sont obsolètes, une alerte dans l’application s’affiche si la version actuelle de l’utilisateur est située entre 1 et 3 mois et si une nouvelle version est disponible. Ce message in-app encourage les utilisateurs à effectuer une mise à jour vers la version la plus récente d’teams ou, si nécessaire, à communiquer à leur administrateur informatique. Les utilisateurs des clients de bureau teams de plus de trois mois voient s’afficher une page de blocage qui vous permet d’accéder aux options de mise à jour, de communiquer à leur administrateur ou de continuer à utiliser teams sur le Web.
 
-Les versions de client de bureau âgées de plus de trois mois lors de la première installation et/ou de la première série d’équipes disposent d’une période de grâce de 28 jours avant d’appliquer les informations de maintenance mentionnées ci-dessus. Pendant cette période, le processus de mise à jour automatique met à jour le client Teams. Si ce n’est pas le cas, les utilisateurs verront une alerte dans l’application afin de leur permettre de procéder manuellement à la mise à jour de la version la plus récente d’une équipe ou, le cas échéant, à leur administrateur. Cela inclut les utilisateurs qui utilisent le client de bureau teams dans le cadre de l’offre Office 365 ProPlus.
+Les versions de client de bureau âgées de plus de trois mois lors de la première installation et/ou de la première série d’équipes disposent d’une période de grâce de 28 jours avant d’appliquer les informations de maintenance mentionnées ci-dessus. Pendant cette période, le processus de mise à jour automatique met à jour le client Teams. Si ce n’est pas le cas, les utilisateurs verront une alerte dans l’application afin de leur permettre de procéder manuellement à la mise à jour de la version la plus récente d’une équipe ou, le cas échéant, à leur administrateur. Cela inclut les utilisateurs qui utilisent le client de bureau teams dans le cadre de l’ensemble d’applications 365 Microsoft pour les entreprises.
 
 Pour le moment, les clients de bureau teams sur les clouds gouvernementaux ont une exception à ce contrat de service.
 

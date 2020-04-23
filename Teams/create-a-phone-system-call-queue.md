@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43213652"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788945"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -186,7 +186,7 @@ Les agents d’appel sélectionnés doivent être l’un des éléments suivants
 
  Pour activer un agent pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Utilisateurs disposant d’une licence de **système téléphonique** ou d’une offre d’appels ajoutée à un groupe Office 365 ; Liste de distribution à extension messagerie ; ou un groupe de sécurité. Lorsque vous ajoutez un agent dans une liste de distribution ou un groupe de sécurité en tant qu’agent de file d’attente d’appels, le premier appel peut durer jusqu’à trois heures. Une liste de distribution ou un groupe de sécurité nouvellement créé peut nécessiter jusqu’à 48 heures de disponibilité pour une utilisation avec des files d’attente d’appels. Les nouveaux groupes Office 365 sont disponibles presque immédiatement.
+- Utilisateurs disposant d’une licence de **système téléphonique** ou d’une offre d’appels ajoutée à un groupe Office 365 ; Liste de distribution à extension messagerie ; ou un groupe de sécurité. Lorsque vous ajoutez un agent dans une liste de distribution ou un groupe de sécurité en tant qu’agent de file d’attente d’appels, le premier appel peut durer jusqu’à trois heures. Une liste de distribution ou un groupe de sécurité nouvellement créé peut nécessiter jusqu’à 48 heures de disponibilité pour une utilisation avec des files d’attente d’appels. Les nouveaux groupes Microsoft 365 récemment créés sont disponibles presque immédiatement.
 
 - Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
 

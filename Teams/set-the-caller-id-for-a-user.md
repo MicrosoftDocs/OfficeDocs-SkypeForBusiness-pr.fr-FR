@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur l’ID de l’appelant par défaut d’Office 365 (le numéro de téléphone affecté à l’utilisateur), également connu sous le nom d’ID de ligne d’appel. Vous pouvez modifier ou bloquer l’ID d’appelant d’un utilisateur.
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140907"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780523"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
 Le système téléphonique dans Office 365 fournit un ID d’appelant par défaut qui est le numéro de téléphone attribué. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation de l’identification de l’appelant au sein de votre organisation, voir utilisation [de l’ID d’appelant au sein de votre organisation](how-can-caller-id-be-used-in-your-organization.md).
@@ -79,7 +79,7 @@ Pour en savoir plus sur ces paramètres et leur utilisation, cliquez [Comment ut
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
+2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
    > [!NOTE]
    > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.

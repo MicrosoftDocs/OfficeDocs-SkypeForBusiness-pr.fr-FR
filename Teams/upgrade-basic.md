@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c359f1d078448af33a8871ebcbe0f5cb73c1b15
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836156"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778330"
 ---
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
 <a name="about-upgrade-basic"></a>
 
-Conçu pour des organisations plus petites ou celles utilisant Skype entreprise Online pour la messagerie instantanée (discussion) et les réunions uniquement, la liste de contrôle de mise à niveau de base est un plan d’action accéléré incluant les activités principales et recommandées et les ressources associées à l’implémentation d’une transition réussie de Skype entreprise vers Teams.
+Conçu pour des organisations plus petites ou celles utilisant Skype entreprise Online pour la messagerie instantanée (discussion) et les réunions uniquement, la liste de contrôle de mise à niveau de base est un plan d’action accéléré incluant les activités principales et recommandées et les ressources associées pour mettre en place le passage de Skype entreprise à Teams.
 
 Ces dix étapes simples permettent de tout ce dont vous avez besoin pour effectuer une mise à niveau réussie. Celles-ci sont conçues pour être achevées dans environ 30 à 45 jours, mais vous devez ajuster les dates d’achèvement des tâches en fonction du planning de mise à niveau de votre organisation.
 
@@ -114,7 +114,7 @@ Les utilisateurs en profondeur sur Skype entreprise peuvent avoir besoin de plus
 Le rendez-vous d’un avis suffisant pour vos utilisateurs lui permettra d’avoir le temps de se familiariser avec les équipes, sans affecter le niveau de productivité, ce qui donne une expérience utilisateur plus positive. Envoyez une communication pour leur dire ce qui est en train de changer, la raison de la modification et la manière dont ils peuvent s’en préparer.
 
 > [!Note]
-> Le cas échéant, vous pouvez activer teams pour vos utilisateurs via le portail d’administration Office 365.
+> Le cas échéant, vous pouvez activer teams pour vos utilisateurs à l’aide du centre d’administration Microsoft 365.
 
 **Ressources**
 

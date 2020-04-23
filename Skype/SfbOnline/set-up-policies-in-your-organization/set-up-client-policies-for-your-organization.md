@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Les stratégies de client permettent d'identifier les fonctionnalités de Skype Entreprise Online mises à la disposition des utilisateurs. Par exemple, vous pouvez octroyer à certains utilisateurs le droit de transférer des fichiers tout en refusant ce droit à d'autres utilisateurs.
-ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 43b51b800b3107410c64bd2605b5a6a7622fe65a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887903"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776289"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Configurer les stratégies client pour votre organisation
 
@@ -55,7 +55,7 @@ Vous pouvez configurer les paramètres de stratégie de client lors de la créat
     
     1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
         
-    2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
+    2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
         > [!NOTE]
         > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
@@ -148,7 +148,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de de
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

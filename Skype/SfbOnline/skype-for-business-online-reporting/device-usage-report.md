@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation des appareils Skype entreprise pour afficher les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles, sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions. Pour plus d’informations, consultez les rapports d’activité dans le centre d’administration.
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Le tableau de bord des rapports Microsoft 365 montre la vue d’ensemble des activités sur les produits Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation des appareils Skype entreprise pour afficher les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles, sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions. Pour plus d’informations, consultez les rapports d’activité dans le centre d’administration.
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769397"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776299"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
@@ -40,13 +40,13 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Comment obtenir le rapport d’utilisation des appareils Skype entreprise
 
-1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
+1. Accédez au centre d’administration > **Reports** > **l’utilisation**des rapports.
     
 2. Dans la page **utilisation** , cliquez sur utilisation de l' **appareil Skype entreprise** dans la **liste Sélectionner un rapport** sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **utilisation de périphériques Skype entreprise** dans la liste **activité Skype entreprise** .
     
      ![Widget de rapport d’utilisation de périphériques Skype entreprise](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    En fonction de l'abonnement Office 365 que vous avez souscrit, tous les rapports sur les produits et les activités présentés dans cet article ne seront peut-être pas disponibles.
+    En fonction de l’abonnement Microsoft 365 ou Office 365, vous ne verrez peut-être pas tous les rapports sur les produits et les activités présentés dans cet article.
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>Interpréter le rapport d’utilisation des appareils Skype entreprise
 
@@ -109,7 +109,7 @@ Si les stratégies de votre organisation vous empêchent d’afficher des rappor
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
