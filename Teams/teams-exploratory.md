@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892314"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749791"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
@@ -156,8 +156,8 @@ Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsof
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Combien de temps dure l’expérience d’exploration de Teams ?
 
-L’expérience exploratoire Microsoft Teams est disponible sans frais supplémentaires jusqu'à la prochaine date anniversaire ou le renouvellement de votre contrat d’entreprise survenant à compter du mois de janvier 2021. À ce stade, les utilisateurs finaux ayant une licence d’expérience exploratoire Microsoft doivent migrer vers une licence payante incluant Teams. Toutes les licences d’expérience exploratoire Microsoft commencées après cette période resteront valables sans frais supplémentaires jusqu’à la prochaine date anniversaire ou cycle de renouvellement. 
+L’expérience Microsoft Teams Exploratory est disponible sans frais supplémentaires jusqu’à la prochaine **date anniversaire** ou au prochain **renouvellement** de votre contrat d’entreprise survenant à compter du mois de janvier 2021. À ce stade, les utilisateurs finaux ayant une licence d’expérience exploratoire Microsoft doivent migrer vers une licence payante incluant Teams. Toutes les licences d’expérience exploratoire Microsoft commencées après cette période resteront valables sans frais supplémentaires jusqu’au prochain cycle **anniversaire** ou de **renouvellement**. 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>Que se passe-t-il si un utilisateur final débute l’expérience exploratoire Microsoft Teams juste avant la date anniversaire ou de renouvellement ?
 
-Les licences d’expérience exploratoire Microsoft Teams initiées dans le délai de 90 jours de la date anniversaire ou de renouvellement de votre contrat d’entreprise n'auront pas à migrer vers une licence payante avant le cycle anniversaire ou de renouvellement suivant. 
+Les licences de l’expérience Microsoft Teams Exploratory initiées dans le délai de 90 jours de la **date anniversaire** ou du **renouvellement** de votre contrat d’entreprise n’auront pas à migrer vers une licence payante avant le prochain cycle anniversaire ou de renouvellement. 
