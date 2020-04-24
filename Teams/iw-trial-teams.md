@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Les utilisateurs d’Office 365 qui ne disposent pas d’une licence Microsoft Teams peuvent commencer une période d’essai d’un an de Microsoft Teams.
+description: Les utilisateurs de Microsoft 365 ou Office 365 qui ne disposent pas d’une licence Microsoft Teams peuvent commencer une période d’essai d’un an de Microsoft Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137154"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778350"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
 
-L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation.
+L’essai du cloud commercial Microsoft Teams offre aux utilisateurs de Microsoft 365 ou Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation.
 
 > [!IMPORTANT]
 > L’essai du cloud commercial Microsoft Teams est remplacée par Microsoft Teams exploratoire à partir du 2020 janvier. Pour en savoir plus sur cette nouvelle offre, consultez [Gérer la licence exploratoire Teams](teams-exploratory.md).
@@ -55,7 +55,7 @@ La période d’essai accorde un abonnement d’essai d’un an à l’ensemble 
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Microsoft 365). Pour plus d’informations, voir [Gérer l’essai](#manage-the-trial) plus loin dans cet article. 
 
-Les utilisateurs qui n’ont pas de licence Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Office 365 Entreprise (n’incluant pas Teams) est éligible à l’essai.
+Les utilisateurs qui n’ont pas de licence Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Applications Microsoft 365 pour les entreprises (n’incluant pas Teams) est éligible à l’essai.
 
 ## <a name="who-is-not-eligible"></a>Qui n’est pas éligible
 
