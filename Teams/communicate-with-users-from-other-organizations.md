@@ -17,12 +17,12 @@ description: Découvrez comment communiquer avec des utilisateurs d’autres org
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824922"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785927"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams
 ======================================================
@@ -73,6 +73,7 @@ Si vous êtes prêt à activer l’accès invité au sein de votre organisation,
 | Un utilisateur individuel peut être bloqué | Non | Oui |
 | les @mentions sont prises en charge | Oui <sup>4</sup> | Oui |
 | Passer des appels privés | Oui | Oui |
+| Afficher le numéro de téléphone des participants à la réunion rendez-vous | Non | Oui |
 | Autoriser la vidéo sur IP | Oui | Oui |
 | Mode de partage d’écran | Oui <sup>4</sup> | Oui |
 | Autoriser la conférence maintenant | Non | Oui |
