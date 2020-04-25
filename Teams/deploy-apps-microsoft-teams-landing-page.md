@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229899"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776619"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
@@ -62,11 +62,11 @@ Les utilisateurs approuvent les applications. Elles sont gérées par l’admini
 
 ### <a name="bots-for-private-chats-and-channels"></a>Robots pour des conversations et des canaux privés
 
-Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services cloud tels que la gestion des tâches, la planification et les sondages dans une conversation Teams. Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation de robots est autorisée dans un client Office 365.
+Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services cloud tels que la gestion des tâches, la planification et les sondages dans une conversation Teams. Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation des robots est autorisée dans une organisation Office 365.
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Est-ce que je souhaite permettre l’utilisation de robots personnalisées dans mon client Office 365 ?|Pour plus d’informations sur l’ajout de robots, voir [Ajouter des robots pour conversations et canaux privés dans Microsoft Teams](add-bots.md). Pour plus d’informations sur l’activation ou la désactivation des robots personnalisés, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
+|Est-ce que je souhaite autoriser les robots personnalisés dans mon organisation Office 365 ?|Pour plus d’informations sur l’ajout de robots, voir [Ajouter des robots pour conversations et canaux privés dans Microsoft Teams](add-bots.md). Pour plus d’informations sur l’activation ou la désactivation des robots personnalisés, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Onglets intégrés et personnalisés
@@ -75,7 +75,7 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Est-ce que je souhaite permettre l’utilisation d’onglets personnalisés dans mon client Office 365 ?|Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](built-in-custom-tabs.md).|
+|Est-ce que je souhaite autoriser les onglets personnalisés dans mon organisation Office 365 ?|Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](built-in-custom-tabs.md).|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Connecteurs Office 365 et personnalisés

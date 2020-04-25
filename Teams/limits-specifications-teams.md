@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749591"
+ms.locfileid: "43785877"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -39,7 +39,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre d’équipes à l’échelle de l’organisation autorisées dans un client | 5     |
 |Nombre de membres dans une[équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 5 000       |
 |Nombre d’équipes qu’un administrateur général peut créer        |  500 000   |
-|Nombre d’équipes que peut avoir un client Office 365    | 500,000&sup2;     |
+|Nombre d’équipes qu’une organisation Office 365 peut avoir    | 500,000&sup2;     |
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
 |Nombre de canaux privés par équipe    |30|
 |Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
@@ -63,6 +63,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 |Fonctionnalité  | Limite maximale  |
 |---------|---------|
 |Nombre de personnes dans une conversation privée<sup>1</sup>  | 100    |
+|Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Nombre de pièces jointes<sup>2</sup>  |10     |
 |Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
 
@@ -109,6 +110,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
 |Nombre de personnes dans une réunion  | 250    |
+|Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
 
@@ -128,7 +130,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |------------|---------------|
 |Taille de l’audience | 10 000 participants |
 |Durée de l’événement | 4 heures |
-|Événements en direct simultanés dans un client Office 365 | 15 |
+|Événements live simultanés dans une organisation Office 365 | 15 |
 
 Pour plus d’informations sur les événements en direct et pour voir une comparaison entre les événements en direct Teams et la diffusion de réunion Skype, accédez à [événements en direct Teams et diffusion de réunion Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
@@ -146,7 +148,7 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 
 Étant donné que Teams s’exécute sur un serveur principal SharePoint Online pour le partage de fichiers, les limitations SharePoint s’appliquent à la section Fichiers dans une équipe. Voici les limites de stockage applicables pour SharePoint Online.
 
-|Fonctionnalité                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
+|Fonctionnalité                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Stockage                 |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée   |1 To par organisation, plus 10 Go par licence achetée |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation           |
 |Espace de stockage pour fichiers Teams |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |
