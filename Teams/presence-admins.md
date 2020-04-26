@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ab24c6ee27f3e99a30a18af82f0a26196a049528
 ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/15/2020
 ms.locfileid: "43510773"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
-Les informations de présence font partie du profil d’un utilisateur de Microsoft Teams (et dans l’ensemble d’Office 365), qui indique la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs. Par défaut, tous les membres qui utilisent Teams dans votre organisation peuvent voir (en temps quasi-réel) si d’autres utilisateurs sont disponibles en ligne.
+La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et dans Office 365) et elle indique aux autres utilisateurs sa disponibilité et son statut actuels. Par défaut, tous les membres qui utilisent Teams dans votre organisation peuvent voir (en temps quasi-réel) si d’autres utilisateurs sont disponibles en ligne.
 
 La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
 
@@ -52,15 +52,15 @@ La présence de Teams dans Outlook est prise en charge dans l’application de b
 || ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent du bureau|
 |||
 
-Les statuts de présence configurés par l’application dépendent de l’activité des utilisateurs (disponible, absent), des États du calendrier Outlook (dans une réunion) ou des États des applications Teams (en cours de présentation).
+Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation).
 
-Votre statut de présence actuel passe à absent (e) lorsque vous verrouillez votre ordinateur ou lorsque le mode veille est entré. Sur les appareils mobiles, votre statut de présence passe à absent (e) lorsque l’application teams est en arrière-plan.
+Votre état de présence actuel passe à Absent lorsque vous verrouillez votre ordinateur ou lorsqu’il entre en mode d’inactivité ou de veille. Sur les appareils mobiles, le statut de présence passe à Absent lorsque l’application Teams est en arrière-plan.
 
-Les utilisateurs reçoivent tous les messages de conversation qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsqu’une personne envoie un message, celui-ci apparaît dans Teams lorsque l'utilisateur est de nouveau en ligne. Si un utilisateur est en mode ne pas déranger, il continue à recevoir des messages de la conversation, mais les notifications de bannière n’apparaissent pas.
+Les utilisateurs reçoivent tous les messages de conversation qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsqu’une personne envoie un message, celui-ci apparaît dans Teams lorsque l'utilisateur est de nouveau en ligne. Si un utilisateur est défini sur Ne pas déranger, il reçoit les messages de conversation, mais les notifications de bannière ne s’affichent pas.
 
-Les utilisateurs reçoivent les appels dans tous les pays, à l’exception de ne pas déranger, dans lesquels les appels entrants sont dirigés vers la boîte vocale. Si le destinataire a bloqué l’appelant, l'appel n’est pas remis et l’appelant voit la présence du destinataire en Mode hors connexion.
+Les utilisateurs reçoivent des appels quel que soit l'état de présence, à l’exception de l’état Ne pas déranger dans lequel les appels entrants sont redirigés vers la messagerie vocale. Si le destinataire a bloqué l’appelant, l'appel n’est pas remis et l’appelant voit la présence du destinataire en Mode hors connexion.
 
-Les utilisateurs peuvent ajouter des utilisateurs à leur liste d’accès prioritaire en accédant à **Paramètres** > **Confidentialité** dans Teams. Les personnes disposant d’un accès prioritaire peuvent contacter l’utilisateur, même si celui-ci est en ne pas déranger.
+Les utilisateurs peuvent ajouter des utilisateurs à leur liste d’accès prioritaire en accédant à **Paramètres** > **Confidentialité** dans Teams. Les contacts disposant d’un accès prioritaire peuvent contacter l’utilisateur, même lorsque celui-ci est défini sur Ne pas déranger.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administrateur dans Teams comparé à ceux de Skype Entreprise
 
