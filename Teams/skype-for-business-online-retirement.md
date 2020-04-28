@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: En savoir plus sur la mise hors service de Skype entreprise online.
+description: En savoir plus sur le plan de retraite de Skype entreprise Online et la façon dont Microsoft est d’aider les clients à migrer vers Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029395"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905536"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 

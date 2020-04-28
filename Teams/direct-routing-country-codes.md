@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lisez cet article pour rechercher des codes de pays de chemin d’accès multimédia pour le routage direct.
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Lisez cet article pour rechercher des codes de pays de chemin d’accès multimédia pour le routage direct et sélectionner la trajectoire de média optimale.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836094"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904806"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Itinéraires directs du pays
 
@@ -45,7 +46,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Îles Alanes   | AX100 |
 | Albanie         | & |
 | Algérie         | DZ |
-| Les Samoa américaines  | PLUS |
+| Samoa américaines  | PLUS |
 | Andorre         | AD |
 | Angola          | AO |
 | Anguilla        | Aï |
@@ -61,15 +62,15 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Bahreïn         | STATU |
 | Bangladesh      | Ray |
 | Barbade        | CONSTRUCTION |
-| Belarus         | BY |
+| Bélarus         | BY |
 | Belgique         | BE |
 | Belize          | BZ |
 | Bénin           | BJ |
-| Les Bermudes         | BM |
+| Bermudes         | BM |
 | Bhoutan          | BT |
 | Bolivie         | OÎTE |
 | Bonaire         | BQ |
-| Bosnia and Herzegovina (Bosna i Hercegovina) | BA |
+| Bosnie-Herzégovine | BA |
 | Botswana        | POIDS |
 | Île Bouvet   | BV |
 | Brésil          | BR |
@@ -83,7 +84,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Cambodge        | KH |
 | Cameroun        | CM |
 | Canada          | CA |
-| Cayman Islands  | KY |
+| Îles Cayman  | KY |
 | République centrafricaine | FC |
 | Tchad            | ÉQUIPEMENTS |
 | Chili           | CL |
@@ -91,7 +92,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Christmas (île) | CX |
 | Cocos-Keeling (îles) | CP |
 | Colombie        | CO |
-| Les Comores         | ACCUEILLANT |
+| Comores         | ACCUEILLANT |
 | Congo           | CG |
 | Congo (RDC)     | CD |
 | Îles Cook    | CK |
@@ -105,17 +106,17 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Danemark         | DK |
 | Djibouti        | LECTEUR |
 | Dominique        | GD |
-| Dominican Republic (República Dominicana) | ÊTES |
+| République dominicaine | ÊTES |
 | Équateur         | EC |
 | Égypte           | EG |
-| El Salvador     | POURCENTAGE |
-| Guinée équatoriale | GQ |
+| Salvador     | POURCENTAGE |
+| Guinée Équatoriale | GQ |
 | Érythrée         | QU’er |
 | Estonie         | EE |
 | Eswatini        | SZ |
 | Éthiopie        | COMPTABILITÉ |
 | Malouines (îles) | ÉTRANGÈRE |
-| Faroe Islands   | DE |
+| Îles Féroé   | DE |
 | Fidji            | FJ |
 | Finlande         | FI |
 | France          | FR |
@@ -137,17 +138,17 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Guernesey        | GG |
 | Guinée          | NC |
 | Guinée-Bissau   | Université |
-| Guyana          | GY |
+| Guyane          | GY |
 | Haïti           | Salut |
 | Heard et McDonald (îles) | HM |
 | Honduras        | HN |
-| Hong Kong R.A.S.   | HK |
+| Hong Kong (R.A.S)   | HK |
 | Hongrie         | HU |
 | Islande         | ASSOCIÉ |
 | Inde           | COMPLÉMENTAIRE |
 | Indonésie       | ID |
 | Iran            | RÉCEPTEUR |
-| Iraq            | MODULES |
+| Irak            | MODULES |
 | Irlande         | IE |
 | Île de Man     | MI |
 | Israël          | IL |
@@ -180,7 +181,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Maldives        | VM |
 | Mali            | ML |
 | Malte           | COMPLÉMENTAIRE |
-| Les îles Marshall | MH |
+| Îles Marshall | MH |
 | Martinique      | MQ |
 | Mauritanie      | Monsieur |
 | Maurice       | MU |
@@ -194,7 +195,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Montserrat      | SM |
 | Maroc         | TÉLÉPHONIQUE |
 | Mozambique      | MZ |
-| Birmanie         | HAUTEUR |
+| Myanmar         | HAUTEUR |
 | Namibie         | S.O. |
 | Nauru           | NR |
 | Népal           | VERROU |
@@ -203,7 +204,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Nouvelle-Zélande     | EXAMINER |
 | Nicaragua       | NICKEL |
 | Niger           | NÉ |
-| Nigeria         | GN |
+| Nigéria         | GN |
 | Niue            | NU |
 | Île Norfolk  | G |
 | Corée du Nord     | KP |
@@ -212,8 +213,8 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Norvège          | AUCUN |
 | Oman            | OM |
 | Pakistan        | PRIMAIRE |
-| Les Palaos           | P |
-| Palestinian Authority | RECOURIR |
+| Palaos           | P |
+| Autorité palestinienne | RECOURIR |
 | Panama          | PA |
 | Papouasie-Nouvelle-Guinée | PRÉC |
 | Paraguay        | PY |
@@ -224,21 +225,21 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Portugal        | PT |
 | Porto Rico     | PR |
 | Qatar           | QA |
-| Réunion         | INSCRIRE |
+| La Réunion         | INSCRIRE |
 | Roumanie         | RO |
 | Russie          | Arabie |
 | Rwanda          | INSÉRÉ |
 | Saba            | REMPLACÉ |
 | Saint-Barthelemy | BL |
 | Saint-Christophe-et-Niévès | KN |
-| Sainte Lucie     | EUROS |
+| Sainte-Lucie     | EUROS |
 | Saint-Martin    | MF |
 | Saint-Pierre-et-Miquelon | 18H |
 | Saint-Vincent-et-les-Grenadines | VC |
 | Hiver           | NOMBRES |
 | Saint-Marin      | SM |
 | Sao Tomé-et-principe | ÈRE |
-| Arabie saoudite    | SA |
+| Arabie Saoudite    | SA |
 | Sénégal         | SN |
 | Serbie          | RS |
 | Seychelles      | GAMME |

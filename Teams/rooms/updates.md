@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: Gestion des mises à jour Windows pour les salles de Microsoft teams
-ms.openlocfilehash: 2fc96118b70ff7c15e7bde02fdcd048c07581ad3
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: L’administrateur peut en savoir plus sur la gestion des mises à jour Windows et des mises à jour de fonctionnalités Windows pour les salles de Microsoft Teams.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e52c1fdf3bb35be6869320aa57e6f5aff5fd0773
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827912"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905306"
 ---
 # <a name="manage-windows-updates"></a>Gérer les mises à jour Windows
 

@@ -16,12 +16,13 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’utilisation RTC de Microsoft teams dans le centre d’administration de Microsoft teams pour avoir une vue d’ensemble de l’utilisation des fonctionnalités d’appel et de l’audioconférence au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778250"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904299"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Rapport utilisation RTC de Microsoft teams
 
@@ -29,7 +30,7 @@ Le rapport utilisation RTC de Microsoft teams dans le centre d’administration 
 
 L’onglet **forfaits** d’appels affiche des informations telles que le nombre de minutes passées par les utilisateurs dans les appels RTC entrants et sortants et le coût de ces appels. L’onglet **routage direct** affiche des informations telles que l’adresse SIP et les heures de début et de fin de l’appel. Les informations contenues dans ce rapport vous permettent de vous familiariser avec l’utilisation RTC au sein de votre organisation et vous aident à examiner, planifier et prendre des décisions commerciales.
 
-## <a name="view-the-report"></a>Afficher le rapport
+## <a name="view-the-pstn-usage-report"></a>Afficher le rapport d’utilisation PSTN
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez **rapport d’utilisation PSTN**.
 2. Sous **plage de dates**, sélectionnez une plage de 7 ou 28 jours prédéfinie, ou définissez une plage personnalisée, puis sélectionnez **exécuter un rapport**.
@@ -79,10 +80,10 @@ Ces champs peuvent provenir du ou des SBC du client. Il existe trois formats que
 
 L’ID de corrélation partagée existe uniquement dans le fichier Excel exporté que vous téléchargez et indique que deux appels ou plus sont liés. Ce qui suit décrit les différents scénarios, et en présence d’ID de corrélation partagés.
 
-1.  Utilisateur RTC 1 sur un point de terminaison PSTN appelé teams 1 sur le client Teams, type d’appel Dr_In, ID de corrélation 57f28917-42k5-4c0c-9433-79734873f2ac, aucun ID de corrélation partagée.
-2.  Utilisateur teams 1 sur le client teams appelé utilisateur RTC 1 sur un point de terminaison PSTN, type d’appel Dr_Out 2c12b8ca-62eb-4c48-B68D-e451f518ff4, aucun ID de corrélation partagée.
-3.  Utilisateur RTC 1 sur un point de terminaison PSTN appelé utilisateur d’équipe 2 sur le client Teams, type d’appel Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, ID de corrélation partagée f45e9a25-9f94-46e7-a457-84f5940efde9.
-4.  Appel existant 3 avec ID de corrélation « f45e9a25-9f94-46e7-a457-84f5940efde9 ». Utilisateur RTC 1 en communication avec l’utilisateur teams 2. Utilisateur teams 2 a transféré (aveugle ou consultative) un appel vers teams ou un utilisateur RTC, type d’appel Dr_Out_User_Transfer 45a1da7c-9E97-481a-8a05-3fe19a9a77e0, ID de corrélation partagée f45e9a25-9f94-46e7-a457-84f5940efde9.
+1.    Utilisateur RTC 1 sur un point de terminaison PSTN appelé teams 1 sur le client Teams, type d’appel Dr_In, ID de corrélation 57f28917-42k5-4c0c-9433-79734873f2ac, aucun ID de corrélation partagée.
+2.    Utilisateur teams 1 sur le client teams appelé utilisateur RTC 1 sur un point de terminaison PSTN, type d’appel Dr_Out 2c12b8ca-62eb-4c48-B68D-e451f518ff4, aucun ID de corrélation partagée.
+3.    Utilisateur RTC 1 sur un point de terminaison PSTN appelé utilisateur d’équipe 2 sur le client Teams, type d’appel Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, ID de corrélation partagée f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.    Appel existant 3 avec ID de corrélation « f45e9a25-9f94-46e7-a457-84f5940efde9 ». Utilisateur RTC 1 en communication avec l’utilisateur teams 2. Utilisateur teams 2 a transféré (aveugle ou consultative) un appel vers teams ou un utilisateur RTC, type d’appel Dr_Out_User_Transfer 45a1da7c-9E97-481a-8a05-3fe19a9a77e0, ID de corrélation partagée f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## <a name="exporting-the-reports"></a>Exportation des rapports
 Cliquez sur **Exporter vers Excel**, puis sous l’onglet **téléchargements** , cliquez sur **Télécharger** pour télécharger le rapport dès qu’il est prêt. Le processus d’exportation peut durer de quelques secondes à quelques minutes, en fonction de la quantité de données.
@@ -107,7 +108,7 @@ La première ligne du fichier CSV contient les noms des colonnes. Toutes les dat
 | :-: | :-: | :-: |:------------------- |
 | 0,4 | UsageId | `uniqueidentifier` | Identificateur d’appel unique |
 | 1 | ID d’appel | `nvarchar(64)` | Identifiant de l’appel. Il n’est pas garanti qu’il soit unique. |
-| deuxième | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
+| 2 | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
 | 3 | Emplacement de l’utilisateur | `nvarchar(2)` | Code pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | ObjectId d’argument AAD | `uniqueidentifier` | Appel de l’IDENTIFIant de l’utilisateur dans Azure Active Directory.<br/> Ce type d’informations et d’autres informations sur les utilisateurs seront NULL/vides pour les types d’appels de bot (ucap_in ucap_out) |
 | 5 | UPN | `nvarchar(128)` | UserPrincipalName (nom de connexion) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
@@ -134,7 +135,7 @@ Vous pouvez exporter les données jusqu’à cinq mois (150 jours) à partir de 
 | :-: | :-: | :-: |:------------------- |
 | 0,4 | Corrélation | `uniqueidentifier` | Identificateur d’appel unique |
 | 1 | Adresse SIP | `nvarchar(128)` | Adresse de l’utilisateur ou du robot ayant passé ou reçu l’appel.<br/>Notez qu’il s’agit réellement de UserPrincipalName (UPN, nom de connexion) dans Azure Active Directory, qui est généralement la même que l’adresse SIP |
-| deuxième | Nom d’affichage | `nvarchar(128)` | Le nom d’un utilisateur ou d’un bot appelant (par exemple, une file d’attente d’appels ou un standard automatique) défini dans le centre d’administration Microsoft 365 |
+| 2 | Nom d’affichage | `nvarchar(128)` | Le nom d’un utilisateur ou d’un bot appelant (par exemple, une file d’attente d’appels ou un standard automatique) défini dans le centre d’administration Microsoft 365 |
 | 3 | Pays de l’utilisateur | `nvarchar(2)` | Code pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Heure d’invitation | `datetimeoffset` | Lorsque l’invitation initiale envoie un appel sortant à partir d’un utilisateur teams ou d’un appel de robot vers l’SBC, ou est reçu sur entrant en équipe ou à l’appel bot par le composant proxy SIP du routage direct à partir de l’SBC |
 | 5 | Heure de début | `datetimeoffset` | Temps pendant lequel le proxy SIP a reçu la réponse finale (message SIP "200 OK") de l’SBC sur sortant (Team/bot vers un utilisateur RTC), ou après l’envoi de l’invitation au tronçon suivant du serveur principal d’équipes sur l’appel entrant (utilisateur RTC à une équipe/bot).<br/>Pour les appels en échec et en sans réponse, il peut s’agir d’un temps d’invitation ou d’échec. |

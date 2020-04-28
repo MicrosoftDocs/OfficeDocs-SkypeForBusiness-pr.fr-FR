@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: Utiliser le parc d’appels et la récupération pour mettre un appel en attente dans le service équipes du Cloud.
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: En savoir plus sur l’utilisation du parc d’appels et la récupération pour mettre un appel en attente dans le service équipes du Cloud.
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824592"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905036"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -49,7 +50,7 @@ Pour parcer et récupérer des appels, l’utilisateur doit être un utilisateur
 
 Le parc et la récupération des appels sont actuellement pris en charge par les clients et appareils suivants. (Pris en charge en mode équipes uniquement, avec ou sans connectivité PSTN.)
 
-| Faculté | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams | Téléphone IP Skype entreprise |
+| Fonctionnalité | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams | Téléphone IP Skype entreprise |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Parc d’un appel | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
 | Extraire un appel parqué | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
@@ -65,7 +66,7 @@ Pour plus d’informations sur l’utilisation de la fonctionnalité de parc et 
 
 Pour activer une stratégie de parc d’appels, procédez comme suit :
 
-1. Accédez**** > **** au > Centre d' **administration Microsoft teams**.
+1. Accédez**Voice** > **Call park policies**au > Centre d' **administration Microsoft teams**.
 2. Sélectionnez **nouvelle stratégie**.
 3. Attribuez un nom à la stratégie, puis basculez **autoriser le parc d’appels** sur **activé**.
 4. Sélectionnez **Save (enregistrer**).
@@ -74,11 +75,11 @@ Pour activer une stratégie de parc d’appels, procédez comme suit :
 
 Pour attribuer une stratégie de parc d’appels à un ou plusieurs utilisateurs, procédez comme suit :
 
-1. Accédez**** > **** au > Centre d' **administration Microsoft teams**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **gérer les utilisateurs**.
-4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+1. Accédez**Voice** > **Call park policies**au > Centre d' **administration Microsoft teams**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **Enregistrer**.
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurer le parc d’appels et récupérer avec PowerShell
 
@@ -104,6 +105,6 @@ Si un utilisateur tente de récupérer un appel et échoue, vérifiez les points
 - Mode île : le parc d’appels et la récupération ne sont pas disponibles en mode îlot d’équipe.
 - L’appel a déjà été récupéré ou arrêté.
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 [Parcez un appel dans teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).

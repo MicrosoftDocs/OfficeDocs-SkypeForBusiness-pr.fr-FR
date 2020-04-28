@@ -2,7 +2,8 @@
 title: Réunions dans Microsoft Teams
 metadata:
   title: Réunions dans Microsoft Teams
-  description: Un didacticiel interactif vous guide dans la fonctionnalité de réunions dans Microsoft Teams.
+  description: Servez-vous de ce didacticiel interactif pour découvrir les types, les étapes de planification et la création de rapports pour des réunions dans Microsoft Teams.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: cbf9b344b9bded2ca98741a743b84a6b7481f95d
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 57fcdcb5fa4fc20f50e1c25e9797128dbcd7fdb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778500"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902379"
 items:
 - durationInMinutes: 1
   content: >

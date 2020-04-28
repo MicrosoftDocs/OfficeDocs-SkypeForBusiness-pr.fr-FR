@@ -16,19 +16,19 @@ MS.collection:
 description: Utilisation du rapport pools de minutes RTC de Microsoft teams dans le centre d’administration Microsoft teams pour afficher les minutes consommées au sein de votre organisation pendant le mois en cours.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140665"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904896"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Rapport de pools de minutes RTC de Microsoft teams
 
 Le rapport pools de minutes RTC dans le centre d’administration Microsoft teams vous donne une vue d’ensemble de la fonction de conférence et d’appel audio au sein de votre organisation en vous montrant le nombre de minutes consommées pendant le mois en cours. Vous pouvez voir une répartition des activités, y compris la licence utilisée pour les appels, les minutes totales disponibles, les minutes utilisées et l’utilisation des licences par emplacement.
 
-## <a name="view-the-report"></a>Afficher le rapport
+## <a name="view-the-pstn-minute-pools-report"></a>Afficher le rapport de pools de minutes RTC
 
 Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l' **onglet Afficher les rapports** , sous **rapport**, sélectionnez **pools de minutes RTC**, puis cliquez sur exécuter un **rapport**.
 

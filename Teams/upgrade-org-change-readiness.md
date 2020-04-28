@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Assurez-vous que votre organisation et vos utilisateurs sont prêts pour Microsoft teams
+description: Découvrez comment déterminer la volonté de votre organisation de migrer correctement vers l’environnement Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706934"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904439"
 ---
 # <a name="assess-organizational-change-readiness"></a>Évaluer la préparation au changement de l’organisation
 
@@ -53,7 +55,7 @@ Une fois que vous avez sécurisé votre équipe de projet et défini votre visio
 
 En évaluant la préparation de votre organisation, vous pouvez déterminer le degré de réactivité (ou non) de vos utilisateurs pour leur permettre de changer la façon dont ils travaillent et d’adopter une nouvelle technologie. Le fait de comprendre la manière dont les utilisateurs réagissent pour modifier les capacités de votre organisation à répondre aux attentes de manière proactive, à ajuster votre plan de déploiement pour obtenir une utilisation optimale et à identifier les utilisateurs qui peuvent vous aider à faciliter le changement avec leurs homologues.
 
-### <a name="activity"></a>Interactive
+### <a name="activity"></a>Activité
 
 Utilisez les starters suivants pour effectuer une évaluation de la compatibilité organisationnelle et documentez la culture de votre organisation lorsque celle-ci est en modification. Ces informations peuvent vous aider à déterminer le niveau de sensibilisation et de formation que vous devrez peut-être mettre en œuvre pour votre projet. Ne vous inquiétez pas des numéros exacts. Cet exercice représente une compréhension générale de votre culture organisationnelle. Si vous avez besoin d’aide pour commencer, évaluez simplement un déploiement passé. Cela peut vous aider à anticiper la façon dont les utilisateurs peuvent réagir aux modifications et vous aider à répondre de manière proactive aux réactions attendues.
 

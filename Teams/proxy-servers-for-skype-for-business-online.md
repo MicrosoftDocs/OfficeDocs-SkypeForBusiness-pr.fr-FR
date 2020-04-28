@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec teams ou Skype entreprise.
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec Microsoft teams ou Skype entreprise.
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863185"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905676"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online et Teams
 
@@ -55,7 +56,7 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Principes de connectivité réseau d’Office 365](https://aka.ms/pnc)
 

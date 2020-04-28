@@ -1,6 +1,6 @@
 ---
 title: Teams pour les organismes de vente au détail
-description: Utilisez ces ressources pour gérer teams pour votre organisation commerciale.
+description: En savoir plus sur les ressources d’administration disponibles pour gérer et tirer le meilleur parti des équipes destinées aux magasins et au personnel.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,12 +16,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d350812598737215521db8e675fb884336c7ee37
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d1db862ce796ab64b96df0c36de6931cc6fe0a5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008106"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905686"
 ---
 # <a name="teams-for-retail"></a>Teams pour les organismes de vente au détail
 

@@ -20,26 +20,27 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: 193d84970d5c425143de75d212ad57ac4532aa1c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-apr2020
+description: En savoir plus sur les licences disponibles pour les différents types d’appels et de fonctionnalités de réunion dans Microsoft Teams.
+ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693809"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905386"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Solutions de gestion des licences pour les appareils de communication partagés
 
-Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les appels de la salle de réunion (par exemple, Microsoft teams services et Microsoft surface Hub).
+Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les appels de la salle de réunion (par exemple, Microsoft teams services, Microsoft surface Hub et des barres de collaboartion pour Microsoft Teams).
 
 ||Référence SKU de salle de réunion |  
 |:--- |:---: |
 |Skype Entreprise |&#x2714;|
 |Microsoft Teams|  &#x2714;|
 |Système téléphonique|  &#x2714;|
-|Audioconférence,|&#x2714; &sup1 ;|
+|Audioconférence|&#x2714; &sup1 ;|
 |Microsoft Intune|&#x2714;|  
 |Disponibilité dans le monde entier | &#x2714; &sup2 ;|
 |Disponibilité du canal | AE, EAS, CSP, <br/>Web direct |

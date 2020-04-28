@@ -16,18 +16,19 @@ ms.collection:
 description: Découvrez comment utiliser le rapport d’utilisation de Microsoft teams dans le centre d’administration de Microsoft teams pour savoir comment les utilisateurs de votre organisation se connectent à Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16abf763579a542583f3aafa30252c1423759641
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827352"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904916"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
 Le rapport utilisation des appareils teams dans le centre d’administration Microsoft teams vous fournit des informations sur la façon dont les utilisateurs se connectent à Teams. Vous pouvez utiliser le rapport pour afficher les appareils utilisés au sein de votre organisation, y compris le nombre d’équipes de leur appareil mobile lorsque vous êtes en déplacement.  
 
-## <a name="view-the-report"></a>Afficher le rapport
+## <a name="view-the-device-usage-report"></a>Afficher le rapport d’utilisation de l’appareil
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez **utilisation des appareils teams**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.

@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: Un utilisateur peut définir explicitement un autre utilisateur comme délégué dans son message d’État.
-ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Découvrez comment un utilisateur présentant un statut absent ou ne pas déranger peut définir explicitement un autre utilisateur comme délégué dans son message d’État.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153806"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904736"
 ---
 # <a name="message-delegation"></a>Délégation de messages
 
@@ -47,7 +48,7 @@ Les administrateurs doivent savoir que les comportements de la délégation et d
 |Mode de coexistence | Comportement attendu|
 |---|---|
 |TeamsOnly |Les utilisateurs peuvent définir une note uniquement dans Teams. <br> La note équipes de l’utilisateur est visible dans équipes & marketing. |
-|Archipels | Remarque définie par l’utilisateur dans équipes uniquement visible dans Teams. <br> Note définie par l’utilisateur dans marketing visible uniquement dans marketing |
+|Île | Remarque définie par l’utilisateur dans équipes uniquement visible dans Teams. <br> Note définie par l’utilisateur dans marketing visible uniquement dans marketing |
 |Modes marketing * | Les utilisateurs peuvent définir une note uniquement à partir de marketing. <br> La note marketing de l’utilisateur est visible dans marketing & Teams.  |
 |||
 
@@ -63,6 +64,6 @@ Skype entreprise ne prend pas en charge les délais d’expiration des notes.
 
 La migration de notes de Skype entreprise vers teams n’est pas prise en charge lorsque l’utilisateur a procédé à la mise à niveau vers le mode TeamsOnly.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Coexistence avec Skype Entreprise](../../coexistence-chat-calls-presence.md)

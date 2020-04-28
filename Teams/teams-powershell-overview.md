@@ -12,15 +12,16 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
+description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams, y compris le mode de structuration des applets de commande PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052521"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903039"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell teams
 

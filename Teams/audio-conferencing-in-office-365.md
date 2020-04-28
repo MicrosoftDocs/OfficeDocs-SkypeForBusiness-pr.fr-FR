@@ -22,14 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-- seo-marvel-mar2020
-description: En savoir plus sur l’audioconférence dans Office 365, y compris le coût, la disponibilité et les numéros de téléphone dédiés.
-ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Découvrez comment l’audioconférence dans Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
+ms.openlocfilehash: 9ceb233ccca58abe89c13fb3c9f9cf08580f389c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780413"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905056"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence dans Microsoft 365
 L’audioconférence dans Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.

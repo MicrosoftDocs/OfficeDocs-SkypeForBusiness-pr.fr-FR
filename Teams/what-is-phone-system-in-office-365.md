@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: En savoir plus sur ce que votre système téléphonique peut faire pour vous.
-ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Dans cet article, vous allez découvrir la technologie du système téléphonique dans Microsoft Office 365.
+ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836654"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905126"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
 
@@ -68,7 +69,7 @@ Le système téléphonique peut être connecté au RTC de l’une des deux mani�
 
 Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md). Si vous êtes prêt à commencer, reportez-vous à [la rubrique Configuration de système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Fonctionnalités du système téléphonique](here-s-what-you-get-with-phone-system.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

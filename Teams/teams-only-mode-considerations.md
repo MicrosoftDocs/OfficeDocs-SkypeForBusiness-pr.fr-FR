@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Préparer la mise à niveau vers le mode Microsoft teams uniquement
+description: L’administrateur peut en savoir plus sur la préparation du mode de mise à niveau du mode Microsoft teams uniquement dans le centre d’administration Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,17 +16,18 @@ f1.keywords:
 ms.custom:
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776819"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903059"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
@@ -37,7 +38,7 @@ La mise à niveau vers le mode équipes uniquement offre aux utilisateurs les av
 Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Teams, il existe des considérations qui peuvent influer sur la chronologie de la mise à niveau de votre organisation et son utilisation. Par exemple, si vous avez la possibilité de procéder à la mise à niveau, cela signifie que votre organisation est prête pour cette modification. Pour bénéficier de la meilleure expérience utilisateur, vérifiez que Teams répond à vos besoins en matière de collaboration et de communication, assurez-vous que votre réseau est prêt à prendre en charge Teams et implémentez votre plan de préparation des utilisateurs avant de les mettre à niveau vers Teams. 
 
 > [!IMPORTANT]
-> Si vous commencez à commencer votre planification de mise à niveau, veillez à passer en revue les ressources de mise à niveau et de planification complètes. [Commencez ici](upgrade-start-here.md). 
+> Si vous commencez à commencer votre planification de mise à niveau, n’hésitez pas à consulter notre guide de [mise à niveau de Microsoft teams](upgrade-start-here.md) . 
 
 **Considérations de coexistence**: les organisations qui utilisent déjà Skype entreprise Online et/ou Skype entreprise Server peuvent proposer des équipes au rythme qui répondent à leurs besoins. Les organisations peuvent déployer de façon incrémentielle des équipes auprès d’un ensemble d’utilisateurs souhaité, et les utilisateurs qui utilisent teams peuvent communiquer avec des utilisateurs de Skype entreprise, et inversement. Pour gérer cette situation, les administrateurs utilisent les modes de coexistence, qui définissent l’utilisation du client de l’utilisateur final, le comportement de routage des conversations et des appels entrants, ainsi que la planification de nouvelles réunions dans teams ou Skype entreprise. Les utilisateurs peuvent se fédérer avec des utilisateurs d’autres organisations si l’utilisateur est mis à niveau vers **équipes uniquement**; Toutefois, la meilleure utilisation est fournie lorsque les deux utilisateurs utilisent Teams. Les utilisateurs qui sont mis à niveau vers les équipes peuvent toujours participer à des réunions Skype entreprise. 
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Préparez le personnel informatique au sein de votre organisation pour le déploiement et la prise en charge de Microsoft Teams.
+description: Découvrez comment préparer le personnel informatique au sein de votre organisation pour le déploiement et la prise en charge de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,14 +16,15 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de62e9e8c55af81b68188d3f5b8ad63975bb9058
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776732"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905256"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre équipe informatique pour Microsoft teams
 

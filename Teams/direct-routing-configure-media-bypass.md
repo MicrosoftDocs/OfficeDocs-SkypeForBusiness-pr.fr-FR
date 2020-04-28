@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Pour plus d’informations sur la configuration du contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Découvrez comment configurer la dérivation multimédia avec le routage direct du système téléphonique en basculant tous les utilisateurs en même temps ou en implémentant une approche progressive (recommandée).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837604"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904836"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
@@ -29,11 +30,11 @@ Avant de configurer la dérivation de médias avec le routage direct, assurez-vo
 
 Pour activer le contournement du contenu multimédia, les conditions suivantes doivent être remplies :
 
-1.  Assurez-vous que le fournisseur de votre contrôleur de bordure de session (SBC) prend en charge la méthode de contournement du contenu multimédia et fournit des instructions sur la configuration du contournement sur la SBC. Reportez-vous à la page de certification pour en savoir plus sur les éléments SBCs, qui prennent en charge la contournement du support technique et des instructions.
+1.    Assurez-vous que le fournisseur de votre contrôleur de bordure de session (SBC) prend en charge la méthode de contournement du contenu multimédia et fournit des instructions sur la configuration du contournement sur la SBC. Reportez-vous à la page de certification pour en savoir plus sur les éléments SBCs, qui prennent en charge la contournement du support technique et des instructions.
 
-2.  Vous devez activer la dérivation multimédia sur le Trunk en utilisant la commande suivante : **Set-CSOnlinePSTNGateway-identity <sbc_FQDN>-MediaBypass $true**.
+2.    Vous devez activer la dérivation multimédia sur le Trunk en utilisant la commande suivante : **Set-CSOnlinePSTNGateway-identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Vérifiez que les ports requis sont ouverts. 
+3.    Vérifiez que les ports requis sont ouverts. 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrer entre des Trunks non ignorés et des Trunks compatibles avec bypass
@@ -59,7 +60,7 @@ Pour obtenir la liste des contrôleurs de frontière de session (SBCs) certifié
 
 
 
-## <a name="see-also"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Envisager une dérivation de média avec le routage direct](direct-routing-plan-media-bypass.md)
 

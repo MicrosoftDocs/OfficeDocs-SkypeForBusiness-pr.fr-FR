@@ -8,23 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Configurer les paramètres d’administration de Microsoft teams pour surface Hub.
+description: Découvrez comment installer et configurer l’application teams surface Hub de sorte que teams soit l’application par défaut pour les appels et les réunions.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Devices
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836934"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905646"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================
@@ -64,7 +65,7 @@ Les packages sont disponibles sur cette [page de téléchargement](https://1drv.
 |---------|---------|
 |0,4     | Application préférée Skype sur l’écran d’accueil, réunions teams disponibles        |
 |1     | Application par défaut teams dans l’écran d’accueil, réunions Skype disponibles        |
-|deuxième     | Application Skype pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible)        |
+|2     | Application Skype pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible)        |
  
 1. Associez la clé USB à l’appareil surface Hub. 
 2. Ouvrez l’application **paramètres** sur un appareil surface Hub. 
@@ -81,13 +82,13 @@ Les packages sont disponibles sur cette [page de téléchargement](https://1drv.
 
 Procédez comme suit pour configurer la stratégie d’application pour les appels et les réunions par défaut via Intune. Consultez également le blog, [déploiement de l’application Microsoft teams pour surface Hub à l’aide de Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
-|Paramètre   |Valeur    |Description    |
+|Paramètres   |Valeur    |Description    |
 |----------|---------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
 |Type de données | entier (0-2)   |0-application préférée de Skype sur l’écran d’accueil, réunions teams disponibles<br>1-l’application préférée d’équipes sur l’écran d’accueil, réunions Skype disponibles<br>2-application exclusive pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible) |
 |Opérations| Obtenir, définir        |
 
-|Paramètre   |Valeur    |
+|Paramètres   |Valeur    |
 |----------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
 |Type de données | Définissez chaîne-donnez une chaîne à l’ID de package d’application teams en tant que **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe. Teams** |

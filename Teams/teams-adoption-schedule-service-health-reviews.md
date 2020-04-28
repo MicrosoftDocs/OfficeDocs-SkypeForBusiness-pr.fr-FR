@@ -10,21 +10,22 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser la fonctionnalité de création de rapports sur l’état du service au sein de votre équipe.
+description: Découvrez comment utiliser les avis sur l’état du service dans votre adoption d’équipes pour partager des informations sur l’utilisation, le niveau d’intégrité, les plans de projet et d’autres mises à jour.
 f1.keywords:
 - CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930bed20da33fa49ae322af69f7756597e11f1fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837734"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905076"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
 

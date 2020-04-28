@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: La technologie Cloud Video Interop permet à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
+description: Utiliser le Cloud Video Interop comme solution intermédiaire pour permettre à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779640"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905876"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -89,7 +91,7 @@ Le partenaire que vous avez choisi pour votre déploiement CVI vous fournira un 
 
 ### <a name="provision"></a>Octroi  
 
-Pendant la phase de mise en service, vous attribuerez des licences aux utilisateurs appropriés conformément au Guide de configuration du partenaire. Vous devrez également suivre le processus de consentement d’Azure pour proposer au partenaire l’accès à votre environnement d’équipes. Pour plus d’informations sur le processus de consentement d’Azure, consultez la page suivante :https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+Pendant la phase de mise en service, vous attribuerez des licences aux utilisateurs appropriés conformément au Guide de configuration du partenaire. Vous devrez également suivre le processus de consentement d’Azure pour proposer au partenaire l’accès à votre environnement d’équipes. Pour plus d’informations sur le processus de consentement d’Azure, voir [autorisations et consentement dans le point de terminaison de la plateforme d’identité Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) .
 
 ### <a name="schedule"></a>Horaire
 

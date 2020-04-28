@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Configurer un appel d’urgence dynamique
+description: Apprenez à configurer les plans d’appel Microsoft et les appels d’urgence dynamiques du système téléphonique pour le routage direct.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417589"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905886"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -96,7 +97,7 @@ Pour plus d’informations sur la configuration des adresses d’urgence, report
 
 Les paramètres réseau sont utilisés pour déterminer l’emplacement d’un client teams et pour obtenir dynamiquement les politiques d’appel d’urgence et un emplacement d’urgence. Vous pouvez configurer les paramètres réseau en fonction de la manière dont votre organisation veut fonctionner.
 
-Les paramètres réseau incluent des sites qui incluent une collection de sous-réseaux--ces derniers sont utilisés exclusivement pour l’attribution de stratégies dynamiques aux utilisateurs.  Par exemple, il est possible d’attribuer une stratégie TeamsEmergencyCalling et une stratégie de TeamsEmergencyCallRouting au « site de Redmond » de telle sorte que tous les utilisateurs qui passent de la maison ou d’un autre emplacement Microsoft soient configurés avec des numéros d’urgence, le routage et l’assistance sécurité. spécifiques de Redmond.  
+Les paramètres réseau incluent des sites qui incluent une collection de sous-réseaux--ces derniers sont utilisés exclusivement pour l’attribution de stratégies dynamiques aux utilisateurs.  Par exemple, il est possible d’attribuer une stratégie TeamsEmergencyCalling et une stratégie de TeamsEmergencyCallRouting au « site de Redmond » de telle sorte que tous les utilisateurs qui se trouvent dans la zone Accueil ou un autre emplacement Microsoft soient configurés avec des numéros d’urgence, le routage et le Bureau de sécurité en fonction de Redmond.  
 
 >[!Note]
 >Les sous-réseaux peuvent également être définis dans LIS et peuvent être associés à un emplacement d’urgence.  

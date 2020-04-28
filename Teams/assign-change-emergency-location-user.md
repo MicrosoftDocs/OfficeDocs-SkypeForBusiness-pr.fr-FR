@@ -16,14 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Découvrez comment affecter ou modifier un emplacement d’urgence pour les utilisateurs de votre organisation.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Dans cet article, vous allez découvrir comment affecter ou modifier un emplacement d’urgence pour les utilisateurs de votre organisation.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cd0fa9ed5fca430b5c49934adb66f3c61deb4bbd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137104"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904856"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Affecter ou modifier un emplacement d’urgence pour un utilisateur
 
@@ -42,7 +42,7 @@ Pour plus d’informations sur la façon d’obtenir des forfaits d’appels dan
 
 4. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Que sont les emplacements, les lieux et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)

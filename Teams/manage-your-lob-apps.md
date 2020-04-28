@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment emporter vos applications teams personnalisées du développement au déploiement.
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229934"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904946"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Gérer vos applications métier dans Microsoft teams
 
@@ -126,6 +126,20 @@ Par défaut, pour que les utilisateurs puissent trouver cette application, ils d
 Pour mettre à jour une application, les développeurs doivent continuer à suivre les [étapes 1](#step-1-develop-and-test) et [2](#step-2-validate-in-production).
 
 Vous pouvez mettre à jour l’application via le catalogue d’applications du client. Pour ce faire, dans le centre d’administration de Microsoft Teams, accédez à **teams** > **Manage**apps. Dans la liste des applications, cliquez sur le nom de l’application, puis sur **mettre à jour**. Le fait de procéder au remplacement de l’application existante dans le catalogue d’applications du client et à l’ensemble des stratégies d’autorisation et de configuration de l’application reste en vigueur pour l’application mise à jour.
+
+### <a name="end-user-update-experience"></a>Mise à jour des utilisateurs finaux
+
+Dans la plupart des cas, une fois que vous avez effectué une mise à jour de l’application, la nouvelle version s’affiche automatiquement pour les utilisateurs finaux. Il y a toutefois des mises à jour du <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">manifeste Microsoft teams</a> qui nécessitent l’acceptation de l’utilisateur :
+
+* un bot a été ajouté ou supprimé
+* modification de la propriété « botId » d’une bot existante
+* modification de la propriété « isNotificationOnly » d’une bot existante
+* la propriété « supportsFiles » du bot a changé
+* ajout ou suppression d’une extension de messagerie
+* un nouveau connecteur a été ajouté.
+* un nouvel onglet statique a été ajouté.
+* un nouvel onglet configurable a été ajouté.
+* Propriétés dans « webApplicationInfo » modifiées
 
 ## <a name="related-apps"></a>Applications associées
 

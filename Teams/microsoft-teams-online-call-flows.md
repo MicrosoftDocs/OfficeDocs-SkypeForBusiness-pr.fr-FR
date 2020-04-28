@@ -16,13 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Décrit la façon dont teams utilise les flux d’Office 365 dans différentes topologies.
-ms.openlocfilehash: 409af0b815c87e6d8285c3cb9a1bd8a5d61fa98b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Découvrez comment teams utilise les flux d’Office 365 dans les différentes topologies, ainsi que les flux d’équipe uniques utilisés pour la communication de médias pair à pair.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dd0a5155766ee86bdf03219cdfcbb50cc220177d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832824"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904986"
 ---
 # <a name="microsoft-teams-call-flows"></a>Carrousel Microsoft Teams
 
@@ -39,7 +40,7 @@ Cet article décrit comment teams utilise les flux d’appels d’Office 365 dan
 
 Cet article aborde les informations suivantes :
 
-- L' **arrière-plan**. Fournit des informations d’arrière-plan telles que des réseaux que le flux d’Office 365 transmet, des types de trafic, des recommandations en matière de connectivité du réseau du client aux points de terminaison du service Office 365, l’interopérabilité avec les composants tiers et les principes utilisés. par teams pour sélectionner les flux multimédias.
+- L' **arrière-plan**. Fournit des informations d’arrière-plan telles que des réseaux que les flux d’Office 365 peuvent traverser, des types de trafic, des recommandations en matière de connectivité du réseau du client aux points de terminaison du service Office 365, l’interopérabilité avec les composants tiers et des principes qui sont utilisés par les équipes pour sélectionner les flux multimédias.
 
 - **Flux d’appels dans différentes topologies**. Illustre l’utilisation des flux d’appels dans différentes topologies. Pour chaque topologie, la section énumère tous les flux pris en charge et illustre la façon dont ces flux sont utilisés dans plusieurs cas d’utilisation. Pour chaque cas d’utilisation, il décrit la séquence et la sélection de flux à l’aide d’un diagramme de flux.
 
@@ -55,7 +56,7 @@ En règle générale, un réseau de clients est doté de plusieurs périmètres 
 
 **Internet**. Il s’agit du segment réseau qui fait partie de votre réseau global qui sera utilisé par les utilisateurs qui se connectent à Office 365 depuis l’extérieur du réseau du client. Il est également utilisé par du trafic du réseau du client vers Office 365.
 
-**Visité ou réseau privé invité**. Il s’agit du segment réseau hors du réseau de votre client, mais pas sur Internet, que vos utilisateurs et leurs invités peuvent consulter (par exemple, un réseau privé privé ou un réseau privé d’entreprise) qui ne déploie pas Teams, où les utilisateurs et leurs clients interagissent avec les services Teams.
+**Visité ou réseau privé invité**. Il s’agit du segment réseau extérieur à votre réseau d’entreprise, mais pas du public Internet, que vos utilisateurs et leurs invités peuvent consulter (par exemple, un réseau privé privé ou un réseau privé d’entreprise, qui ne déploie pas Teams, où les utilisateurs et leurs clients qui interagissent avec les services teams peuvent résider).
 
 > [!NOTE]
 > La connectivité à Office 365 s’applique également à ces réseaux.
@@ -66,7 +67,7 @@ En règle générale, un réseau de clients est doté de plusieurs périmètres 
 
 ### <a name="types-of-traffic"></a>Types de trafic
 
-**Média en temps réel**. Données encapsulées en temps réel (RTP) qui prennent en charge les charges de travail de partage d’écran, audio et vidéo. En règle générale, le trafic multimédia est sensible à la latence, de telle sorte que vous souhaitez que ce trafic prenne le plus en chemin direct possible et qu’il utilise le protocole UDP et TCP en tant que protocole de couche de transport, qui est le meilleur transport pour le média en temps réel interactif du point de vue de la qualité . (Notez qu’en dernier recours, les médias peuvent utiliser TCP/IP et être mis en tunnel dans le protocole HTTP, mais cela n’est pas recommandé en raison de mauvaises implications de qualité.) Le flux RTP est sécurisé à l’aide de SRTP, dont seule la charge utile est chiffrée.
+**Média en temps réel**. Données encapsulées en temps réel (RTP) qui prennent en charge les charges de travail de partage d’écran, audio et vidéo. En règle générale, le trafic multimédia est sensible à la latence, de telle sorte que vous souhaitez que ce trafic prenne le plus en chemin direct possible et qu’il utilise le protocole UDP et TCP en tant que protocole de couche de transport, qui est le meilleur transport pour le média en temps réel interactif du point de vue qualité. (Notez qu’en dernier recours, les médias peuvent utiliser TCP/IP et être mis en tunnel dans le protocole HTTP, mais cela n’est pas recommandé en raison de mauvaises implications de qualité.) Le flux RTP est sécurisé à l’aide de SRTP, dont seule la charge utile est chiffrée.
 
 **Signalisation**. Lien de communication entre le client et le serveur ou d’autres clients qui sont utilisés pour contrôler les activités (par exemple, quand un appel est lancé) et livrer des messages instantanés. La plupart du trafic de signalisation utilise les interfaces REST basées sur HTTPs, mais dans certains scénarios (par exemple, connexion entre Office 365 et contrôleur de bordure de session), elle utilise le protocole SIP. Il est important de comprendre que ce trafic est beaucoup plus sensible à la latence, mais qu’il peut entraîner des délais d’expiration de service ou des délais d’expiration de l’appel si la latence entre les points de terminaison est supérieure à plusieurs secondes.
 
@@ -338,7 +339,7 @@ Notez que :
 
 Cette topologie inclut les équipes avec le routage direct du système téléphonique.
 
-Le routage direct vous permet d’utiliser un fournisseur de services RTC (réseau téléphonique commuté) tiers pris en charge par le jumelage d’un 365 appareil matériel de contrôleur de bordure de session (SBC) sur site, puis de connecter le Trunk de téléphonie à Cet appareil.
+Le routage direct vous permet d’utiliser un fournisseur de services de réseau téléphonique commuté (PSTN) tiers en appariant un appareil matériel de contrôleur de bordure de session (SBC) sur site qui est pris en charge par le biais d’un périphérique de contrôleur de domaine (SBC) pour Office 365, puis en connectant le Trunk de téléphonie à cet appareil.
 
 Pour prendre en charge ce scénario, le client doit déployer un SBC certifié pour le routage direct auprès de l’un des partenaires certifiés de Microsoft. Le SBC doit être configuré conformément aux recommandations du fournisseur et être routable à partir d’Office 365 pour le trafic UDP direct. Le contenu multimédia risque d’être acheminé directement à partir d’équipes et/ou du client Skype entreprise vers l’SBC (contournement de la passerelle Teams) ou de traverser la passerelle Teams. La connectivité avec le SBC, lorsque le Trunk est configuré pour ignorer la passerelle Teams, est basée sur la glace, où SBC prend en charge ICE-Lite, tandis que le point de terminaison teams/Skype entreprise prend en charge la gestion des contenus multimédias.
 

@@ -7,25 +7,25 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Etenduez votre projet de mise à niveau en affinant votre vision et vos buts.
+description: Exposez votre projet de mise à niveau en affinant votre vision et vos buts pour vous assurer que les parties prenantes de Project sont alignées et que vous travaillez en même bout.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780603"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904479"
 ---
 # <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 

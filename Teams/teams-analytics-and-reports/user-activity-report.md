@@ -16,18 +16,19 @@ ms.collection:
 description: Découvrez comment utiliser le rapport activité de l’utilisateur sur teams dans le centre d’administration de Microsoft teams pour voir comment les utilisateurs de votre organisation utilisent Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528429"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903869"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Rapport d’activité des utilisateurs de Microsoft Teams
 
 Le rapport activité de l’utilisateur sur teams vous permet de mieux comprendre les types d’activités que les utilisateurs de votre organisation effectuent dans Teams. Par exemple, vous pouvez voir le nombre d’utilisateurs qui communiquent par le biais d’appels 1:1, le nombre d’utilisateurs qui communiquent par le biais de messages de canal, et le nombre d’utilisateurs qui entreprennent des messages de conversation privée.
 
-## <a name="view-the-report"></a>Afficher le rapport
+## <a name="view-the-user-activity-report"></a>Afficher le rapport d’activité de l’utilisateur
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez activité de l' **utilisateur sur teams**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.

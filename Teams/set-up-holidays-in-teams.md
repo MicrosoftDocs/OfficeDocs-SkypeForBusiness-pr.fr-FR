@@ -16,14 +16,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.holidays.overview
-description: Apprenez à configurer les jours fériés dans Microsoft teams et à les connecter à votre standard automatique.
-ms.openlocfilehash: dc156b2c2ae0a71ae7cdb1282676f47c7ba648bc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
+- seo-marvel-apr2020
+description: Apprenez à configurer les jours fériés dans Microsoft teams et à les connecter à votre standard automatique à l’aide de la fonctionnalité jours fériés.
+ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838014"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905576"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
@@ -86,6 +88,6 @@ Pour plus d’informations sur les standards automatiques, voir [que sont les st
     Pour rediriger l’appel, sélectionnez **Rediriger**l’appel, puis sélectionnez la personne qui recevra l’appel Redirigé dans la liste déroulante ou recherchez la personne par son nom d’affichage.
 8. Sélectionnez **Save (enregistrer**).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Que sont les standards automatiques Cloud](what-are-phone-system-auto-attendants.md)?

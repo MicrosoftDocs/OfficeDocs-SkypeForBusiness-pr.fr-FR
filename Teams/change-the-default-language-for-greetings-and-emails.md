@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment configurer Skype entreprise pour utiliser une autre langue pour le message d’accueil de la boîte vocale par défaut de votre organisation.
-ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780363"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904329"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -38,14 +38,14 @@ Si vous êtes un [administrateur général](https://support.office.com/article/d
   
 - **Les langues disponibles sont déterminées par l'emplacement de votre organisation**. Par exemple, si votre organisation est située aux États-Unis, vous pouvez configurer la langue par défaut sur l'anglais ou l'espagnol. Si votre organisation est située au Canada, vous avez le choix entre l'anglais et le français. Pour obtenir la liste des langues prises en charge, consultez la rubrique [Langues pour les messages et les messages d'accueil de la messagerie vocale de Skype Entreprise](languages-for-voicemail-greetings-and-messages.md).
     
-- **Vous ne pouvez pas modifier la langue pour une seule personne de l'organisation.** Vous pouvez uniquement modifier la langue du message d'accueil pour l'ensemble des utilisateurs de votre organisation.
+- **Modification de la langue pour les messages d’accueil de la boîte vocale et des messages vocaux des utilisateurs individuels.** Vous pouvez modifier la Lanaguage préférée pour les utilisateurs qui changera la langue du message d’accueil et des messages vocaux envoyés à leur boîte aux lettres Outlook. Pour obtenir des instructions, voir [comment définir les paramètres de langue et de région pourhttps://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)Office 365] (. 
     
     > [!NOTE]
-    > Les utilisateurs peuvent modifier leur propre langue du message d'accueil par le biais de leurs paramètres après s'être connectés. 
+    > Les utilisateurs peuvent modifier leur propre langue de salutation par le biais de leurs paramètres après s’être connecté en suivant les instructions décrites dans [la section modifier la langue d’affichage et le fuseau horaire dans Microsoft 365 pour les entreprises](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
 - **Vous voulez enregistrer un message d'accueil personnel ?** Reportez-vous à la rubrique [Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Pour Microsoft teams : les utilisateurs peuvent modifier les paramètres de la boîte vocale dans les [paramètres du client de bureau teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Voulez-vous modifier la langue de l’invite de la boîte vocale ?** Pour Skype entreprise- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et sélectionnez une nouvelle langue sous la section langue de l' **invite**. Pour Microsoft teams : les utilisateurs peuvent modifier les paramètres de la boîte vocale dans les [paramètres du client de bureau teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Voulez-vous modifier la langue de l’invite de la boîte vocale ?** Pour Skype entreprise- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et sélectionnez une nouvelle langue sous la section langue de l' **invite**. Pour Microsoft teams : les utilisateurs peuvent modifier leur message d’accueil de la boîte vocale dans les [paramètres du client de bureau teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 

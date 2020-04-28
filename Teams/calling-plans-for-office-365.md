@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779943"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905016"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
@@ -42,7 +43,7 @@ Voici les options disponibles :
     
 - **Forfait d’appels nationaux et internationaux**: les utilisateurs sous licence peuvent appeler des numéros situés dans le pays ou la région où leur licence Office 365 est affectée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans les [pays/régions 196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Les minutes mensuelles disponibles pour chaque organisation et chaque pays/région est indiquée [ici](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Pour en savoir plus sur les minutes mensuelles disponibles pour chaque organisation dans chaque pays ou région, consultez la rubrique [disponibilité du pays et](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) de la région.
   
 > [!IMPORTANT]
 > Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le > **Active users** Centre d' **administration Microsoft 365**et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le **Centre d’administration Microsoft 365**.   

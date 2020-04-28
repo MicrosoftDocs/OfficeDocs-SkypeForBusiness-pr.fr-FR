@@ -16,18 +16,19 @@ ms.collection:
 description: Découvrez comment utiliser le rapport d’utilisation du centre d’administration Microsoft teams dans le centre d’administration Microsoft teams pour avoir une vue d’ensemble des activités d’événements en direct au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827242"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904289"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Rapport sur l’utilisation des événements Microsoft teams Live
 
 Le rapport utilisation des événements en direct dans le centre d’administration Microsoft teams vous montre la vue d’ensemble des activités liées aux événements en direct au sein de votre organisation. Vous pouvez afficher les informations d’utilisation, telles que l’état de l’événement, l’heure de début, les affichages et le type de production pour chaque événement. Vous pouvez découvrir les tendances d’utilisation et savoir qui dans votre organisation planifie, présente et génère des événements en direct.
 
-## <a name="view-the-report"></a>Afficher le rapport
+## <a name="view-the-live-event-usage-report"></a>Afficher le rapport d’utilisation des événements en direct
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez utilisation des **événements en direct teams**.
 2. Sous **plage de dates**, sélectionnez une plage prédéfinie ou définissez une plage personnalisée. Vous pouvez définir une plage pour afficher les données jusqu’à une année, six mois avant et après la date du jour.

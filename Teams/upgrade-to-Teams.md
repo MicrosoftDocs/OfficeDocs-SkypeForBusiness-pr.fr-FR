@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Choisissez votre chemin de mise à niveau vers Microsoft teams en fonction du déploiement actuel de Skype entreprise
+description: Déterminez le chemin optimal de mise à niveau de Microsoft teams en fonction de votre déploiement Skype entreprise actuel.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1a7602139eda3eba3f1d2919312055773110fc6
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 030081b4fbf633e808e1c340f7b88b8224c13700
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706874"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905186"
 ---
 # <a name="overview"></a>Vue d’ensemble
 

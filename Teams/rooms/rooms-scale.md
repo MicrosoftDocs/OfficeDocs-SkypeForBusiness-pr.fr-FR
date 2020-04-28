@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: Consultez cette rubrique pour en savoir plus sur le déploiement de salles de Microsoft teams à des déploiements à grande échelle.
+description: Apprenez-en davantage sur le déploiement de salles de Microsoft teams à grande échelle à l’aide du gestionnaire de configuration de points de terminaison Microsoft.
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141017"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905316"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -728,7 +728,7 @@ Une fois que vous avez terminé les séquences de tâches Microsoft Endpoint Man
 
     5.  Sélectionnez **configuration de démarrage**.
 
-    6.  Effectuez l’une des actions suivantes :
+    6.  Effectuez l’une des opérations suivantes :
 
         -   Sélectionnez **démarrage PXE**et faites-le glisser vers le haut de la liste. Vous pouvez également effectuer un balayage vers la gauche sur la carte réseau pour démarrer l’appareil immédiatement. Cela n’affecte pas l’ordre de démarrage.
         -   Sélectionnez le lecteur flash USB qui contient le média de démarrage.

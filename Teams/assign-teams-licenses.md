@@ -14,15 +14,16 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: Découvrez comment attribuer des licences aux fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
+description: Apprenez-en davantage sur l’attribution de licences aux fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 55d85aae6540c6b5888be848ad08d686bd0da2b1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858553"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905066"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Attribution de licences Microsoft teams
 

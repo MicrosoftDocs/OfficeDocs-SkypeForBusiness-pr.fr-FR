@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Utilisez cette liste de vérification pour configurer l’accès invité dans Microsoft Teams.
+description: En savoir plus sur l’activation et la configuration de l’accès invité dans Microsoft teams en tant qu’administrateur général ou Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776949"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902579"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Liste de contrôle de l’accès invité Microsoft Teams
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776949"
 Utilisez cette liste de vérification pour activer et configurer l’accès invité dans Microsoft Teams. Pour apporter ces modifications, vous devez être un administrateur général ou un administrateur Teams.
 
 > [!IMPORTANT]
-> Il est possible que les modifications ne prennent effet qu'après 24 heures. 
+> Il est possible que vous deviez patienter quelques heures avant que les modifications soient prises en compte. 
 
 Regardez cette courte vidéo (5:31 minutes) pour découvrir comment activer l’accès invité dans Microsoft 365, y compris les équipes.
 

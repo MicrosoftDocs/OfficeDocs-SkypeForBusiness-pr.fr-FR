@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Prise en main de Teams pour les organismes de santé
-ms.openlocfilehash: 15e10a69174787d104a990f8b71a6e8ef4f8be04
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Découvrez les fonctionnalités de soins de santé qui incluent la coordination des soins, la messagerie sécurisée, l’intégration de Telehealth, l’intégration DMI et l’intégration du système de travail terrain.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147687"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905736"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 

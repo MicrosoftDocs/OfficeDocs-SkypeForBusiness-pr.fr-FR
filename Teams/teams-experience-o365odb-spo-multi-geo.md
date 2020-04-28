@@ -7,22 +7,23 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: Apprenez-en davantage sur l’utilisation des équipes dans Microsoft 365 ou Office 365 OneDrive et SharePoint Online avec une location multi-géographiques.
+description: Dans cet article, vous allez découvrir comment utiliser teams dans une location Microsoft 365 ou Office 365 OneDrive et SharePoint Online multi-géo-géo.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - SPO_Content
+ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534155d49cda89291e5d8bdfb8da9b8caf0efb5f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4e754177de6f08476c9160254f2334f6f3ac18d3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780393"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903139"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Accès aux équipes dans une 365 ou Office 365 OneDrive et SharePoint Online avec une location autonome multigéo
 ===========================================

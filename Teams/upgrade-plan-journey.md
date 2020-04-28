@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Planifiez la mise à niveau en effectuant d’abord les parties prenantes, puis en relevant le projet.
+description: Pour plus d’informations sur la planification de votre mise à niveau, vous devez d’abord la planifier, puis la portée du projet.
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cd3a6b420ab33cfc6f18b839d544572cfc9753
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: c6a5ec2857baf0c602a060397ad853a1339916a3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706914"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904399"
 ---
 # <a name="plan-for-your-upgrade"></a>Planifier la mise à niveau
 

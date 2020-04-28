@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: Cet article décrit les préparations d’infrastructure pour le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Apprenez-en davantage sur la préparation de votre infrastructure pour le déploiement de Microsoft Teams, afin de pouvoir tirer parti de toutes les fonctionnalités.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779771"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905346"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -158,7 +159,7 @@ Comme n’importe quel appareil Windows, le nom de l’ordinateur peut être ren
   
  Si vous souhaitez renommer l’ordinateur après l’avoir rejointe à un domaine, utilisez la commande PowerShell d’ordinateur renommé suivie du nouveau nom de l’ordinateur.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Planifier les salles de Microsoft teams](rooms-plan.md)
 

@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: L’apparence des lignes partagées permet à l’utilisateur de choisir un délégué pour répondre à des appels ou gérer son nom.
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: En savoir plus sur l’envoi de courriers électroniques à vos utilisateurs à l’aide de leurs informations de conférence audio dans Microsoft Teams.
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837964"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905546"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -56,7 +57,7 @@ L’administrateur client peut également configurer des relations de délégati
 
 L’apparence des lignes partagées est actuellement prise en charge par les applications et appareils suivants.
 
-| Faculté | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams |
+| Fonctionnalité | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | Configurer la délégation | Oui  | Oui  | Oui | Non | Non |
 | Recevoir des appels au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui |
@@ -73,6 +74,6 @@ Les responsables peuvent ajouter jusqu’à 25 délégués et des délégués pe
  
 Si le délégué et la personne qui ne se trouvent pas dans le même emplacement géographique, c’est le fournisseur RTC qu’il est autorisé à afficher l’identification de l’appelant à partir d’un autre emplacement géographique pour un appel délégué (au nom de). 
  
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 [Partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

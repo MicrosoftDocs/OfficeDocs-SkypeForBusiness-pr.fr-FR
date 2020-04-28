@@ -8,9 +8,11 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: Conseils pour la poursuite du voyage entre Skype entreprise et Microsoft teams
+description: Découvrez comment utiliser teams pour surveiller l’état du réseau, faire en sorte que les utilisateurs soient en train d’effectuer une nouvelle fonctionnalité et préparer de nouvelles fonctionnalités.
 localization_priority: Normal
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706444"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904089"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
 

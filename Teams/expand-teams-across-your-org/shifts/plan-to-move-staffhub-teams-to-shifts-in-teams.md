@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenez des conseils pour migrer vos équipes StaffHub vers des équipes dans Microsoft Teams.
+description: Utilisez cette chronologie pour aider le passage de votre organisation de StaffHub teams dans Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +18,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780613"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905716"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planifier le déplacement de vos équipes StaffHub vers les équipes de Microsoft teams
 
@@ -39,7 +39,7 @@ Servez-vous de la chronologie en guise d’instructions pour planifier votre pas
 |Étape |Aide  |Ressources |
 |---------|---------|---------|
 |1    |Préparer et identifier les parties prenantes         |         |
-|deuxième     |Passez en revue la documentation sur le passage de StaffHub aux équipes et aux équipes dans l’intégration         |[StaffHub à déretraiter](microsoft-staffhub-to-be-retired.md)<br><br>[Déplacez vos équipes StaffHub vers des équipes dans teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Prise en main de Teams](../../get-started-with-teams-quick-start.md)         |
+|2     |Passez en revue la documentation sur le passage de StaffHub aux équipes et aux équipes dans l’intégration         |[StaffHub à déretraiter](microsoft-staffhub-to-be-retired.md)<br><br>[Déplacez vos équipes StaffHub vers des équipes dans teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Prise en main de Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |Activer les groupes Microsoft 365 pour votre organisation        |[Groupes et équipes Microsoft 365](../../Office-365-groups.md)      |
 |4    |Vérifiez que les conditions préalables sont remplies         |[Vérifier que les conditions préalables sont remplies](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Attribution de licences teams aux utilisateurs de StaffHub au sein de votre organisation|[Assigner des licences Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gérer l’accès des utilisateurs à Microsoft Teams](../../user-access.md)      |
@@ -58,7 +58,7 @@ Servez-vous de la chronologie en guise d’instructions pour planifier votre pas
 |Étape |Aide |Ressources  |
 |---------|---------|---------|
 |1  |Identifier une équipe pilote et déplacer une équipe          |[Déplacer une équipe StaffHub](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)          |
-|deuxième    |Valider l’équipe pilote et identifier les problèmes de déplacement. Mettez à jour la documentation de formation selon vos besoins.         |         |
+|2    |Valider l’équipe pilote et identifier les problèmes de déplacement. Mettez à jour la documentation de formation selon vos besoins.         |         |
 |3     |Identifiez les équipes pilotes supplémentaires et déplacez-les cinq vers 10 équipes         |[Déplacer vos équipes StaffHub](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |4     |Identifier les équipes StaffHub restantes et les déplacer dans une approche progressive         |[Déplacer vos équipes StaffHub](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |5     |Continuer à fournir une assistance technique pour les équipes et équipes         |         |

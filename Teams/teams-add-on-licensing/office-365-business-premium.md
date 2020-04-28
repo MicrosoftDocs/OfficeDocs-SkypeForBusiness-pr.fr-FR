@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business standard '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Microsoft 365 Business standard. '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Apprenez-en davantage sur les licences de complément, leurs fonctionnalités et l’achat de ces licences pour les offres Microsoft 365 Business standard.
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780503"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904609"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business standard
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
 Si vous avez [microsoft 365 Business standard](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
 

@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Comment activer et gérer l’enregistrement de la réunion dans Microsoft Teams.
+description: Conseils pratiques pour le déploiement de fonctionnalités vocales Cloud dans teams pour enregistrer les réunions d’équipes et les appels de groupe pour capturer les activités audio, vidéo et de partage d’écran.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780333"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905496"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -30,7 +31,7 @@ En relation avec la [Réunion Teams de qui enregistre la documentation de l’ut
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Conditions préalables pour l’enregistrement de réunion cloud Teams
 
-Microsoft Stream doit être activé pour que les réunions d’un utilisateur Teams soient enregistrées pour le locataire. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui lance l’enregistrement :
+Pour que les réunions d’un utilisateur d’équipes puissent être enregistrées, Microsoft Stream doit être activé pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui lance l’enregistrement :
 
 - L’utilisateur a Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium ou Business Essentials
 - L’utilisateur doit disposer d’une licence Microsoft Stream <sup>1</sup> 
