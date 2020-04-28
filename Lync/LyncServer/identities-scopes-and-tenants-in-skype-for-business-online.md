@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180291"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ Vous pouvez également avoir deux utilisateurs : Ken Myer et Pilar Ackerman. La
 
 Comme vous pouvez le constater, Ken Myer est autorisé à communiquer avec des fournisseurs de messagerie instantanée publics. Cela est dû au fait que les paramètres de la stratégie par utilisateur qui lui sont attribués remplacent les paramètres dans la stratégie globale. Pilar Ackerman ne peut pas communiquer avec des fournisseurs de messagerie instantanée publics. Cela est dû au fait qu’elle est gérée par la stratégie globale et que la stratégie globale interdit ces communications.
 
-Les stratégies par utilisateur doivent être créées pour vous par la prise en charge d’Office 365. Une fois les stratégies créées, vous pouvez les affecter à des utilisateurs à l’aide de la cmdlet **Grant-CS** appropriée (par exemple, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Les stratégies par utilisateur sont faciles à identifier car l’identité de la stratégie commence toujours par le **préfixe**de balise. Par exemple :
+Les stratégies par utilisateur doivent être créées pour vous par le support Microsoft. Une fois les stratégies créées, vous pouvez les affecter à des utilisateurs à l’aide de la cmdlet **Grant-CS** appropriée (par exemple, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Les stratégies par utilisateur sont faciles à identifier car l’identité de la stratégie commence toujours par le **préfixe**de balise. Par exemple :
 
     Identity : tag:AllowPublicIMCommunication
 
