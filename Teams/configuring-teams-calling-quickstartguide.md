@@ -11,20 +11,20 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guide de mise en route pour la configuration des offres d’appel dans Microsoft Teams.
+description: Guide de mise en route pour configurer les offres d’appel dans Microsoft Teams, de sorte que vous puissiez faire en sorte qu’un ensemble d’utilisateurs soit opérationnel.
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137774"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902879"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================

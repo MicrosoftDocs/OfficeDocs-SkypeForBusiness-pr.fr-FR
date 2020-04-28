@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser les modèles teams pour créer des structures d’équipe conçues pour les besoins des détaillants.
+description: Découvrez comment utiliser les modèles teams pour créer des structures d’équipe conçues pour les revendeurs en fournissant des paramètres prédéfinis, des canaux et des applications préinstallées.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892364"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904659"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Prise en main des modèles Teams de vente au détail 
 
@@ -43,7 +44,7 @@ Le modèle Windows Store est idéal pour créer une équipe et représenter une 
 
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Revendeur <br>Boutique d’applications | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canaux <ul><li>Transfert de décalage\*</li><li>LMS\*</li></ul>\*Canaux favoris automatiquement<br><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur publique</li></ul> <br>Autorisations des membres <ul><li>Création/mise à jour/suppression de canaux impossible </li><li>Impossible d’ajouter/supprimer des applications </li><li>Impossible de créer/mettre à jour/supprimer des onglets</li><li>Création/mise à jour/suppression de connecteurs impossible</li><ul>|
+| Revendeur <br>Magasin | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canaux <ul><li>Transfert de décalage\*</li><li>LMS\*</li></ul>\*Canaux favoris automatiquement<br><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur publique</li></ul> <br>Autorisations des membres <ul><li>Création/mise à jour/suppression de canaux impossible </li><li>Impossible d’ajouter/supprimer des applications </li><li>Impossible de créer/mettre à jour/supprimer des onglets</li><li>Création/mise à jour/suppression de connecteurs impossible</li><ul>|
 ||||
 
 Méthodes conseillées pour personnaliser le modèle Windows Store pour votre organisation :
@@ -58,12 +59,12 @@ Le modèle de collaboration responsable est l’un des modèles d’équipe pour
 
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Revendeur <br>Boutique d’applications | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canaux <ul><li>Opérations\*</li><li>LMS\*</li></ul>\*Canaux favoris automatiquement<br><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> <br>Autorisations des membres <ul><li>Création/mise à jour/suppression de canaux </li><li>Ajout/suppression d’applications </li><li>Peut créer/mettre à jour/supprimer des onglets</li><li>Création/mise à jour/suppression de connecteurs possibles</li><ul>|
+| Revendeur <br>Magasin | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canaux <ul><li>Opérations\*</li><li>LMS\*</li></ul>\*Canaux favoris automatiquement<br><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> <br>Autorisations des membres <ul><li>Création/mise à jour/suppression de canaux </li><li>Ajout/suppression d’applications </li><li>Peut créer/mettre à jour/supprimer des onglets</li><li>Création/mise à jour/suppression de connecteurs possibles</li><ul>|
 ||||
 
 Méthodes conseillées pour personnaliser le modèle de collaboration responsable de votre organisation :
 
-- Si votre organisation a des sites Web internes (par exemple, un site SharePoint) qui sont appropriés pour les responsables, envisagez de les épingler en tant qu’onglets dans un canal d’équipe approprié (voir la documentation [ici](get-started-with-teams-templates.md) pour obtenir des instructions).
+- Si votre organisation a des sites Web internes (par exemple, un site SharePoint) qui sont appropriés pour les responsables, envisagez de les épingler en tant qu’onglets dans un canal d’équipe approprié. Pour obtenir des instructions, consultez la [documentation du modèle Microsoft teams](get-started-with-teams-templates.md) .
 
 ## <a name="how-to-use-first-party-templates"></a>Utilisation de modèles de première partie
 

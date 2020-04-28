@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes nécessaires à l’affectation d’un nouveau numéro de téléphone de service à votre pont de conférence pour développer la couverture de vos utilisateurs.
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780353"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898149"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
@@ -67,7 +67,7 @@ Seul le numéro payant du service peut être défini comme numéro par défaut d
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Étape 3 : modifier les numéros de téléphone par défaut inclus dans les invitations aux réunions (facultatif)
 
-Le numéro de téléphone par défaut d’un utilisateur est celui qui est inclus dans les invitations à la réunion lors de la planification d’une réunion. Pour plus d’informations sur la façon dont les numéros de téléphone defaul sont attribués pour les nouveaux utilisateurs, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans les invitations de Microsoft teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [définition des numéros de téléphone des invitations dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Le numéro de téléphone par défaut d’un utilisateur est celui qui est inclus dans les invitations à la réunion lors de la planification d’une réunion. Pour plus d’informations sur l’affectation des numéros de téléphone par défaut pour les nouveaux utilisateurs, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans les invitations de Microsoft teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [définition des numéros de téléphone des invitations dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
@@ -83,7 +83,7 @@ Une fois les changements enregistrés, les nouveaux numéros de téléphone par 
 
 Pour les deux étapes suivantes, vous devrez démarrer Windows PowerShell.
   
-Si vous avez mis à jour les numéros de téléphone par défaut inlcuded dans les invitations aux réunions pour tout ou partie de vos utilisateurs, vous pouvez également mettre à jour les invitations aux réunions déjà envoyées aux utilisateurs de votre organisation avant de modifier leurs numéros de téléphone par défaut à l’aide du service de migration des réunions. Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Si vous avez mis à jour les numéros de téléphone par défaut inclus dans les invitations aux réunions pour tout ou partie de vos utilisateurs, vous pouvez également mettre à jour les invitations aux réunions déjà envoyées aux utilisateurs de votre organisation avant de modifier leurs numéros de téléphone par défaut à l’aide du service de migration des réunions. Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Exécutez le service de migration de réunion (MMS) pour les utilisateurs qui ont modifié leurs numéros de téléphone par défaut à l’étape 2. Pour cela, exécutez la commande suivante :
 
@@ -139,7 +139,7 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
 
 3. Si le numéro de téléphone est un numéro gratuit, sélectionnez le numéro de téléphone dans la liste, puis, dans le volet action, cliquez sur **Annuler l’affectation**. Si le numéro de téléphone est un numéro payant, contactez le [support technique Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) pour obtenir le numéro de téléphone non affecté.
 
-4. Si le numéro de téléphone est un numéro payant-fre, cliquez sur **Oui** dans la fenêtre de confirmation.
+4. Si le numéro de téléphone est un numéro gratuit, cliquez sur **Oui** dans la fenêtre de confirmation.
 
    > [!IMPORTANT]
    > Après l’affectation d’un numéro de téléphone à un pont de conférence audio, le numéro de téléphone ne sera plus disponible pour les utilisateurs qui peuvent rejoindre une réunion nouvelle ou existante.
@@ -223,9 +223,9 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les appl
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-**Le bouton Annuler l’affectation est grisé**
+**Le bouton Annuler l’affectation n’est pas disponible**
 
-Vous voulez annuler l’affectation d’un numéro, mais le bouton est grisé et, si ce n’est pas le cas dans hoovering, vous êtes redirigé vers contacter le support technique avec le message suivant : _«les numéros par défaut ou les numéros partagés peuvent ́t pas être attribués par le pont. Pour retirer des numéros payants, veuillez contacter le service clientèle._
+Vous voulez annuler l’affectation d’un numéro, mais le bouton n’est pas disponible et, si vous pointez dessus, vous êtes redirigé vers contacter le support technique avec le message suivant : _«les numéros par défaut ou les numéros partagés peuvent ́t pas être attribués à partir du pont. Pour retirer des numéros payants, veuillez contacter le service clientèle._
 
 Pour obtenir des informations supplémentaires sur le ou les ponts, exécutez la commande PowerShell suivante :
 ```PowerShell
@@ -255,5 +255,5 @@ Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicit�
 
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)

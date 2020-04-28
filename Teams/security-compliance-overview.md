@@ -17,15 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4e3f26f286fa3f8418df93d6498b8c754c857785
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777499"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901719"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -195,7 +195,7 @@ Teams est conforme à la norme de niveau D. Cela inclut les normes suivantes : 
 
 Les services dans les catégories de conformité C et D qui présentent des engagements de conformité de l’industrie sont activés par défaut. Les services dans les catégories A et B disposent de contrôles permettant d’activer ou de désactiver ces services pour une organisation entière. Vous trouverez plus d’informations sur les [normes de conformité](security-compliance-overview.md#compliance-standards). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Microsoft 365 sécurité](https://docs.microsoft.com/microsoft-365/security/)
 Microsoft[365 conformité](https://docs.microsoft.com/microsoft-365/compliance/)

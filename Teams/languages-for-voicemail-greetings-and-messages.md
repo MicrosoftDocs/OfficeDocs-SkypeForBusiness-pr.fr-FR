@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. '
-ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Découvrez les langues que vous pouvez définir dans Skype entreprise pour les messages système par défaut et le message d’accueil de la boîte vocale.
+ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836584"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904519"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -39,13 +40,13 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |**Langue** <br/> |**Pays/région** <br/> |**Code langue** <br/> |**Disponible pour qu'un utilisateur la voie dans un courrier électronique ?** <br/> |**Disponible lorsque l'utilisateur appelle ?** <br/> |**Transcription disponible ?** <br/> |
 |Arabe <br/> |Égypte  <br/> |AR-EG  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui   <br/> |Oui  <br/> |Oui  <br/> |
+|Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Chinois (Hong Kong R.A.S.)  <br/> |Chine  <br/> |zh-hk  <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> | Oui <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> |
 |Chinois (traditionnel)  <br/> |Taïwan  <br/> |zh-hant  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Croate<br/> |Croatie  <br/> |HR-HR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Tchèque <br/> |République tchèque  <br/> |CS-CZ  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Néerlandais  <br/> |Pays-Bas  <br/> |nl-NL  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Tchèque <br/> |République tchèque  <br/> |CS-CZ  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Néerlandais  <br/> |Pays-Bas  <br/> |nl-NL  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Anglais  <br/> |Australie  <br/> |en-AU  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
 |Anglais  <br/> |Canada  <br/> |en-CA  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
 |Anglais  <br/> |Inde  <br/> |en-IN  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
@@ -57,7 +58,7 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |Allemand  <br/> |Allemagne  <br/> |de-DE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Grec <br/> |Grèce  <br/> |El-GR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Hongrois <br/> |Hongrie  <br/> |HU-HU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Indonésien <br/> |Indonésie  <br/> |ID-ID  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Indonésien <br/> |Indonésie  <br/> |ID-ID  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Italien  <br/> |Italie  <br/> |it-IT  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Japonais  <br/> |Japon  <br/> |ja-JP  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Coréen  <br/> |Coréen  <br/> |ko-KR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |

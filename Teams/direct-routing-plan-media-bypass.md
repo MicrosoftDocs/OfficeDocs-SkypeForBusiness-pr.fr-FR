@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: Découvrez comment planifier la dérivation multimédia avec le routage direct du système téléphonique, qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265639"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901839"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -78,7 +79,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 La description suivante décrit le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC. 
 
-Par exemple, supposons que l’utilisateur est externe et que l’administrateur client a décidé de ne pas ouvrir l’adresse IP publique de l’SBC auprès de tout le monde sur Internet, mais uniquement dans Microsoft Cloud. Les composants internes du trafic peuvent être acheminés par le biais des relais de transport Teams. Il s’agit de la configuration recommandée pour les utilisateurs en dehors du réseau d’entreprise. Dans ce cas, tenez compte des points suivants :
+Par exemple, supposons que l’utilisateur est externe et que l’administrateur client a décidé de ne pas ouvrir l’adresse IP publique de l’SBC auprès de tout le monde sur Internet, mais uniquement dans Microsoft Cloud. Les composants internes du trafic peuvent être acheminés par le biais des relais de transport Teams. Il s’agit de la configuration recommandée pour les utilisateurs en dehors du réseau d’entreprise. Vous devez tenir compte des éléments suivants :
 
 - Des relais de transport d’équipes sont utilisés.
 
@@ -163,7 +164,7 @@ Assurez-vous que votre SBC a accès aux processeurs multimédias et aux plages d
 Pour la signalisation SIP, les exigences en matière de nom de domaine complet et de pare-feu sont les mêmes que pour les cas sans contournement. 
 
 Le routage direct est fourni dans les environnements Office 365 suivants :
-- Office 365
+- Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD en savoir plus sur les [environnements d’administration des États-Unis et d’office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) tels que GCC, GCC High et DoD.
@@ -224,7 +225,7 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
 La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible :
-- Office 365
+- Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
@@ -319,7 +320,7 @@ UDP/SRTP | Processeur de média | SBC | 49 152 – 53 247    | Définie sur l’
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurer des Trunks séparés pour le contournement du contenu multimédia et l’exclusion de médias non multimédias  
 
-Si vous effectuez une migration vers une dérivation multimédia à partir d’une dérivation non multimédia et que vous voulez vérifier la fonctionnalité avant de migrer toute utilisation en dérivation de média, vous pouvez créer une stratégie de routage en ligne distincte et séparée pour diriger vers le Trunk de contournement du média et l’affecter à des éléments spécifiques. ont. 
+Si vous effectuez une migration vers une dérivation multimédia à partir d’une dérivation non multimédia et que vous voulez confirmer la fonctionnalité avant de migrer toute utilisation en dérivation du support multimédia, vous pouvez créer une stratégie de routage et une stratégie d’acheminement en ligne distinctes pour diriger vers le Trunk de contournement du média et l’affecter à des utilisateurs spécifiques. 
 
 Étapes de configuration de haut niveau :
 

@@ -1,5 +1,5 @@
 ---
-title: Configurer une console de salle Microsoft teams
+title: Configurer une console des salles Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Cet article décrit comment configurer et configurer la console de Microsoft Teams, ainsi que ses périphériques.
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826092"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905446"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console de salle Microsoft teams
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console des salles Microsoft Teams
 
 Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
   
@@ -101,7 +101,7 @@ Une fois le système arrêté, il est sûr de supprimer le disque de configurati
 
 ### <a name="selecting-a-language"></a>Sélectionner une langue 
 
-Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage. ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en français, mais ce service est disponible en anglais).
+Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage. ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en anglais).
   
 > [!NOTE]
 > Les instructions suivantes ne fonctionnent pas pour les consoles créées à l’aide de la mise à jour du créateur Windows. Les systèmes traditionnels/inactifs qui n’ont pas été configurés à l’aide de médias avec le nouveau système de mise en service ne seront pas en mesure d’utiliser ces instructions, mais qui ne font pas partie du problème initial qui nécessite cette intervention manuelle (édition anniversaire).
@@ -260,10 +260,10 @@ Utilisez la liste de vérification suivante tout en effectuant une vérification
 ## <a name="see-also"></a>Voir aussi
 <a name="Checklist"> </a>
 
-[Plan pour les salles de Microsoft teams](rooms-plan.md)
+[Planifier les Salles Microsoft Teams](rooms-plan.md)
   
-[Déploiement de salles de Microsoft teams](rooms-deploy.md)
+[Déployer les Salles Microsoft Teams](rooms-deploy.md)
   
-[Configurer une console de salle Microsoft teams](console.md)
+[Configurer une console des salles Microsoft Teams](console.md)
   
-[Gérer Microsoft Teams Rooms](rooms-manage.md)
+[Gérer les Salles Microsoft Teams](rooms-manage.md)

@@ -19,13 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-apr2020
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Canada pour Microsoft Teams.
-ms.openlocfilehash: 9b24413ae7e1534e1a39cc76cc943341221e82cc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1ebeb077f17c47ed91509538ab5a66d1a2c19620
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779821"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905836"
 ---
 # <a name="phone-number-management-for-canada"></a>Gestion des numéros de téléphone pour le Canada
 
@@ -51,6 +52,5 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
 [Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
 
 

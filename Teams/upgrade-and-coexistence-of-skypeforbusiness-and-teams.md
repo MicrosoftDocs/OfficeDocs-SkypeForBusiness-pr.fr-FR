@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706604"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902269"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
@@ -41,7 +41,7 @@ Cet article fait partie de l’étape définition du projet de votre parcours de
 En tant que client Skype entreprise existant, la transition complète vers teams peut prendre un certain temps. Néanmoins, vous pouvez commencer à utiliser teams dès aujourd’hui en permettant à vos utilisateurs d’utiliser teams en même temps que Skype entreprise. Étant donné qu’il existe d’autres fonctionnalités qui se chevauchent entre les deux applications, nous vous conseillons de passer en revue les modes de coexistence et de mise à niveau disponibles pour vous aider à déterminer le chemin approprié pour votre organisation. Par exemple, vous pouvez choisir d’activer toutes les charges de travail sur les deux solutions sans interopérabilité. Vous pouvez également décider de gérer l’utilisation de l’utilisateur, soit en introduisant progressivement les fonctionnalités d’équipe ou en ciblant des groupes d’utilisateurs pour les fonctionnalités sélectionnées, tant que votre organisation n’est pas en mesure de mettre à niveau tout le monde vers Teams. Utilisez le résultat de votre pilote pour vérifier le bon déroulement de la mise à niveau de votre organisation.
 
 > [!IMPORTANT]
-> Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui.
+> Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui.
 
 Cet article présente les différents modes qui vous permettent de gérer les modalités de gestion des modalités de Skype entreprise et équipes disponibles pour les utilisateurs. Comme pour n’importe quel déploiement, nous vous encourageons vivement à [piloter votre plan prévu](pilot-essentials.md) avec un groupe d’utilisateurs sélectionné avant de mettre à niveau votre organisation vers Teams. N’oubliez pas que l’introduction d’une nouvelle technologie peut être perturbatrice pour les utilisateurs. Prenez le temps d’évaluer la compatibilité des utilisateurs et d’implémenter un plan de communication et de formation avant d’implémenter les modes décrits dans les présentes.
 
@@ -156,7 +156,7 @@ Le tableau suivant récapitule les avantages et inconvénients de l’utilisatio
 | Spécialistes     |       Argument |
 | :------------------ | :---------------- |
 | Routage prévisible pour l’utilisateur final. Tous les appels et messages instantanés dans Skype entreprise ou équipes (mais pas les deux), en fonction de la sélection de l’administrateur.|Les conversations d’interopérabilité ne prennent pas en charge le texte enrichi, le partage de fichiers et le partage d’écran. Pour cela, vous pouvez tirer parti de la fonctionnalité Conférence maintenant pour lancer une réunion. |
-|Peut réduire la confusion des utilisateurs finaux, car une fonctionnalité donnée est disponible uniquement dans un client. | Les utilisateurs ne peuvent pas accéder aux équipes pour les activités courantes effectuées dans Skype entreprise, telles que les discussions et les appels avant la mise à niveau vers TeamsOnly.|
+|Peut réduire la confusion des utilisateurs finaux, car une fonctionnalité donnée est disponible uniquement dans un client. | Les utilisateurs n’ont pas accès à teams pour les activités courantes effectuées dans Skype entreprise, telles que les discussions et les appels avant la mise à niveau vers TeamsOnly.|
 |L’administrateur a renforcé le contrôle sur l’ensemble des fonctionnalités disponibles pour les utilisateurs lors de la transition de Skype entreprise à Teams. | |
 | Permet à une organisation d’utiliser des équipes pour les réunions, même si elle n’est pas encore prête pour le passage entièrement au mode TeamsOnly.||
 |Le statut de présence d’un utilisateur donné affiché par les autres est le même quel que soit le client qu’il utilise.||

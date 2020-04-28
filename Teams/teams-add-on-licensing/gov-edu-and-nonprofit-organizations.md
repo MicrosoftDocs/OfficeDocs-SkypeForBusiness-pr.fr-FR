@@ -1,5 +1,5 @@
 ---
-title: Organisations GOV, EDU et à but non lucratif
+title: GOV, l’éducation et les organisations à but non lucratif
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,21 +18,22 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de modules complémentaires et les fonctionnalités des forfaits pour les organisations gouvernementales, éducatives et à but non lucratif. '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: En savoir plus sur les licences et les fonctionnalités des compléments pour les plans de l’organisation gouvernementale, éducation et à but non lucratif.
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795967"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904539"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>Organisations GOV, EDU et à but non lucratif
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV, l’éducation et les organisations à but non lucratif
 
 La plupart des fonctionnalités d’équipe sont disponibles pour les organisations du secteur public, de l’éducation et des associations. Pour plus d’informations, consultez le tableau suivant.
 
 |**Fonctionnalité teams**|**Disponible pour l’GOV (GCC)**|**Disponible pour GOV (non-GCC)**|**Disponible pour EDU**|**Disponible pour les organisations à but non lucratif**|
 |:-----|:-----|:-----|:-----|:-----|
-|Audioconférence,  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Audioconférence  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Système téléphonique Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Forfait d’appels Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
    
@@ -51,4 +52,4 @@ En réponse à une augmentation du nombre de personnes qui travaillent à distan
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Office 365 pour les associations](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 pour les associations à but non lucratif](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

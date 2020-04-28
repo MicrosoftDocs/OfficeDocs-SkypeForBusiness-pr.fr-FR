@@ -24,13 +24,14 @@ ms.custom:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
-description: Découvrez comment obtenir et gérer les numéros de téléphone de Microsoft teams pour votre organisation.
-ms.openlocfilehash: 39f6b143f65b2e3aee8d9aa78a06ae280cafea8c
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: Découvrez comment obtenir et gérer les numéros de téléphone des utilisateurs (abonnés) et des services de Microsoft teams pour votre organisation.
+ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191315"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905846"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
@@ -93,7 +94,7 @@ Une fois que vous avez terminé **et signé** Loa, veuillez [contacter notre ser
 - Pour vous aider à choisir le type de numéro de téléphone correct, consultez les [différents types de numéros de téléphone utilisés pour les offres d’appels](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Pour obtenir de l’aide pour la configuration des numéros de téléphone pour votre organisation, voir : [contacter le support technique pour les produits professionnels-aide](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)de l’administrateur.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Conditions générales d’utilisation des appels d’urgence](../emergency-calling-terms-and-conditions.md)
 

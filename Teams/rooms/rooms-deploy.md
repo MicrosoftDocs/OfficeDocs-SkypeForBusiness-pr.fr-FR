@@ -1,5 +1,5 @@
 ---
-title: Déploiement de salles de Microsoft teams
+title: Déployer les Salles Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams, y compris les phases de déploiement.
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863345"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905406"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -138,7 +138,7 @@ Lors de la planification du déploiement des salles de Microsoft Teams, vous ave
 | Déploiement de plus de 50 équipements de salles de Microsoft Teams, déploiement de périphériques auprès de plusieurs fournisseurs ou demandant des agents spécifiques à une organisation dans le cadre du déploiement. | Utilisez une plateforme de build et de distribution de logiciels basée sur une séquence de tâches, telle que [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de mettre en place une convention d’affectation de noms pour les déploiements Microsoft teams comme nécessitant une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la*salle* de*site*-(MTR-lon-Curie). 
+**Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de développer une convention d’affectation de noms pour les déploiements de Microsoft Teams, ce qui permet au personnel de support de retrouver facilement les salles de Microsoft teams pour lesquelles il y a eu une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la*salle* de*site*-(MTR-lon-Curie). 
 
 Dans le cadre du déploiement, vous devez également prendre en considération votre stratégie de gestion et de configuration des [comptes locaux](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) créés par le programme d’installation de l’application Microsoft Teams.
 
@@ -171,7 +171,7 @@ _Exemple de tableau de déploiement_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Configuration de l’application et de l’appareil périphériques de Microsoft teams 
 
-Après le déploiement physique de chaque système de salle Microsoft teams et les périphériques pris en charge connectés, vous devez configurer l’application Microsoft teams pièces pour affecter le compte de ressources de Microsoft teams et le mot de passe créés précédemment. pour permettre au système de Microsoft teams de se connecter à Microsoft teams ou à Skype entreprise et Exchange. Il est essentiel de tirer parti des périphériques audio et vidéo USB certifiés liés à un autre emplacement dans le document. Ce n’est pas le cas, cela peut entraîner un comportement imprévisible. 
+Après le déploiement physique de chaque système de salle Microsoft teams et les périphériques pris en charge connectés, vous devez configurer l’application Microsoft teams pièces pour qu’elle affecte le compte de ressources et le mot de passe Microsoft teams de Microsoft Teams, ainsi que le mot de passe créé précédemment, pour permettre au système Microsoft teams de se connecter à Microsoft teams ou à Skype entreprise et Exchange Il est essentiel de tirer parti des périphériques audio et vidéo USB certifiés liés à un autre emplacement dans le document. Ce n’est pas le cas, cela peut entraîner un comportement imprévisible. 
 
 Vous pouvez configurer manuellement chaque système de salle Microsoft Teams. Par ailleurs, vous pouvez utiliser un fichier de configuration XML au format central de Microsoft teams pour gérer les paramètres de l’application et utiliser un script d’objet de stratégie de groupe pour réappliquer la configuration de votre choix, chaque fois que le système de Microsoft Teams. 
 

@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: En savoir plus sur les licences de compléments, les fonctionnalités et l’achat pour les applications 365 Microsoft pour les entreprises.
-ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Apprenez-en davantage sur les licences de complément, leurs fonctionnalités spécifiques et l’achat de ces licences pour les applications Microsoft 365 pour les entreprises.
+ms.openlocfilehash: b8183276354c41a9f75336b0e4a4e371cc8e55df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779933"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904696"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Applications 365 Microsoft pour les entreprises
 

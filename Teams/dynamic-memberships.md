@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: En savoir plus sur l’appartenance aux équipes dynamiques basée sur AAD.
+description: Découvrez comment Microsoft teams prend en charge les équipes associées aux groupes Office 365 à l’aide de l’appartenance dynamique.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780183"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905796"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
@@ -40,7 +41,7 @@ Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour reflét
 > - Les règles peuvent définir qui est membre d’une équipe, sans qui est le propriétaire de l’équipe.
 > - Voir [limites et spécifications de Microsoft teams](limits-specifications-teams.md) pour les limites actuelles relatives aux tailles d’équipes et de canaux.
 > - Les propriétaires ne seront pas en mesure d’ajouter ou de supprimer des utilisateurs en tant que membres de l’équipe, car ils sont définis par des règles de groupe dynamique.
-> - Les membres ne seront pas en mesure de laisser des équipes sauvegardées par des groupes dynamiques.
+> -    Les membres ne seront pas en mesure de laisser des équipes sauvegardées par des groupes dynamiques.
 
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Création et gestion d’un groupe Office 365 avec appartenance dynamique

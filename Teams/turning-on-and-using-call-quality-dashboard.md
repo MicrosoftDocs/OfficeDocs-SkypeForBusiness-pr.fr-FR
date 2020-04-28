@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Apprenez-en davantage sur l’activation et l’utilisation du tableau de bord de qualité des appels et obtenez des rapports de synthèse sur la qualité des appels.
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788948"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914032"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -409,11 +410,11 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 Si vous avez créé des rapports ou téléchargé des fichiers de données client (mappage) sur bord pour Skype entreprisehttps://cqd.lync.com) (et que vous voulez les migrer vers bordhttps://cqd.teams.microsoft.com)pour Teams (, procédez comme suit :
 
-1.  Accédez à [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) l’ensemble de rapports que vous souhaitez exporter, puis recherchez-le. 
-2.  Placez le pointeur de la souris sur le rapport et, sur le « ... » , sélectionnez **exporter l’arborescence du rapport**. Enregistrez le fichier d’exportation.
-3.  Accédez à [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) l’emplacement où vous souhaitez importer les rapports, puis recherchez-le.
-4.  Dans les liens de gauche, cliquez sur **Importer** , puis sélectionnez le fichier exporté. 
-5.  Après l’importation des rapports, le message suivant s’affiche : «l’importation du rapport a réussi. Le nouveau rapport a été ajouté à la fin de l’ensemble de rapports.» 
+1.    Accédez à [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) l’ensemble de rapports que vous souhaitez exporter, puis recherchez-le. 
+2.    Placez le pointeur de la souris sur le rapport et, sur le « ... » , sélectionnez **exporter l’arborescence du rapport**. Enregistrez le fichier d’exportation.
+3.    Accédez à [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) l’emplacement où vous souhaitez importer les rapports, puis recherchez-le.
+4.    Dans les liens de gauche, cliquez sur **Importer** , puis sélectionnez le fichier exporté. 
+5.    Après l’importation des rapports, le message suivant s’affiche : «l’importation du rapport a réussi. Le nouveau rapport a été ajouté à la fin de l’ensemble de rapports.» 
 
 
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
@@ -505,7 +506,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

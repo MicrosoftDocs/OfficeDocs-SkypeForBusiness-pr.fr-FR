@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: Découvrez comment configurer une organisation Exchange hybride à utiliser avec Microsoft Teams.
+description: Apprenez à configurer une organisation Exchange hybride à utiliser avec Microsoft teams pour garantir la synchronisation des appartenances aux groupes.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 23773ac842b93067dbf3204d81e2a3ad1708a3af
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ee558c8c8bfa6c5bd66e001d31ed76a8061df3f4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778690"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902959"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Configurer une organisation Exchange hybride à utiliser avec Microsoft Teams
 ======================================================================

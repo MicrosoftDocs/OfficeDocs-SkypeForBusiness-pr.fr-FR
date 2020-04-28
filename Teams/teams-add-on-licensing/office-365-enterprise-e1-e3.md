@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat pour les offres Office 365 entreprise E1 et E3. '
-ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Apprenez-en davantage sur les licences de complément, leurs fonctionnalités et l’achat pour les offres Office 365 entreprise E1 et E3.
+ms.openlocfilehash: 7038342d704dc6af92dbdc9eaff0c7a6211926e1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780493"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904716"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Entreprise E1 et E3
 
