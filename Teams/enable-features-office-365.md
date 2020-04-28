@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e72d17fb146e27696306e34660150e47bb98bcd5
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: e2ec2956b3fc448f4408cefd7e7bf323898cc7d2
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579560"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898099"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -75,7 +75,7 @@ Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-m
 
 Ici, vous pouvez activer ou désactiver les options de partage de fichiers et de stockage de fichiers dans le cloud.
 
-Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent Dropbox, Box, ShareFile, Google Drive et [Egnyte](https://helpdesk.egnyte.com/hc/requests/new). Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
+Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent Dropbox, Box, ShareFile, Google Drive et [Egnyte](https://www.egnyte.com). Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
 
 #### <a name="organization"></a>Organisation
 
