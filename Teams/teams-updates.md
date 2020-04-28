@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Affichez la liste des articles d’équipe mis à jour.
+description: Cette rubrique répertorie les rubriques d’aide de Microsoft teams qui ont été mises à jour récemment, y compris les liens vers les rubriques mises à jour.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,15 +17,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c4923143bf835da930a0193618db9c600c45d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d8c037be9b1aa55d97e39fc5821d6a4ad87ffaf
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836924"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905629"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="e2deb-103">Mises à jour de contenu de Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="e2deb-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="3bd86-103">Mises à jour de contenu de Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="3bd86-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="e2deb-104">Cette rubrique répertorie les rubriques Microsoft teams qui ont été modifiées récemment.</span><span class="sxs-lookup"><span data-stu-id="e2deb-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="3bd86-104">Cette rubrique répertorie les rubriques Microsoft teams qui ont été modifiées récemment.</span><span class="sxs-lookup"><span data-stu-id="3bd86-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

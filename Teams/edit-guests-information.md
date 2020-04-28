@@ -13,19 +13,21 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez comment un administrateur peut modifier les informations des utilisateurs invités dans le portail Azure Active Directory.
+description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations relatives aux utilisateurs invités dans le portail Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d59e991212391ea9cdac194ef3687da9095f0679
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: 038312f2dc63778111bd58ae93bfc5afab56750c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833774"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904049"
 ---
-<a name="edit-guest-user-information"></a><span data-ttu-id="60af7-103">Modifier les informations d'un utilisateur invité</span><span class="sxs-lookup"><span data-stu-id="60af7-103">Edit guest user information</span></span>
+<a name="edit-guest-user-information"></a><span data-ttu-id="06007-103">Modifier les informations d'un utilisateur invité</span><span class="sxs-lookup"><span data-stu-id="06007-103">Edit guest user information</span></span>
 ===========================
 
-<span data-ttu-id="60af7-104">Pour modifier les comptes des invités (le nom d'affichage ou la photo de profil par exemple), accédez à votre portail Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="60af7-104">To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal.</span></span> <span data-ttu-id="60af7-105">Pour plus d'informations, reportez-vous à la rubrique [Comprendre l'identité Office 365 et Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span><span class="sxs-lookup"><span data-stu-id="60af7-105">For more information, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span></span>
+<span data-ttu-id="06007-104">Pour modifier les comptes des invités (le nom d'affichage ou la photo de profil par exemple), accédez à votre portail Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="06007-104">To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal.</span></span> <span data-ttu-id="06007-105">Pour plus d'informations, reportez-vous à la rubrique [Comprendre l'identité Office 365 et Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span><span class="sxs-lookup"><span data-stu-id="06007-105">For more information, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span></span>
 
-<span data-ttu-id="60af7-106">Pour l’instant, vous ne pouvez pas modifier les informations invité à partir du centre d’administration Microsoft Teams, du centre d’administration Microsoft 365 ou du centre d’administration Exchange.</span><span class="sxs-lookup"><span data-stu-id="60af7-106">Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.</span></span>
+<span data-ttu-id="06007-106">Pour l’instant, vous ne pouvez pas modifier les informations invité à partir du centre d’administration Microsoft Teams, du centre d’administration Microsoft 365 ou du centre d’administration Exchange.</span><span class="sxs-lookup"><span data-stu-id="06007-106">Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.</span></span>

@@ -2,7 +2,7 @@
 title: Scénario d’utilisation du planificateur de réseaux-exemple
 metadata:
   title: Scénario d’utilisation du planificateur de réseaux-exemple
-  description: Découvrez comment utiliser le planificateur de réseaux pour configurer un plan du réseau et générer un rapport.
+  description: Cet exemple de scénario vous montre comment utiliser l’outil Network Planner pour créer des sites et des personnages et exécuter des rapports.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,12 +15,13 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41863535"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904509"
 items:
 - durationInMinutes: 2
   content: "\nL’outil Network Planner est disponible dans le centre d’administration Teams. Elle vous aide à déterminer les besoins en matière de réseau pour votre organisation. Cet exemple de scénario montre comment vous pouvez utiliser l’outil pour créer des sites, des personnages et des rapports pour une entreprise appelée contoso. \n\n## <a name=\"before-you-begin\"></a>Avant de commencer\n\nNous partons du principe que vous vous connaissez déjà dans le centre d’administration teams et que vous êtes familiarisé avec ce que vous devez faire pour préparer votre réseau pour Teams. S’il s’agit du premier article que vous avez vu dans le planificateur de réseaux, nous vous recommandons de commencer par consulter les articles suivants.\n\n- [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)\n- [Utiliser le planificateur de réseaux pour Microsoft teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Présentation du réseau contoso\n\nContoso dispose de trois emplacements :\n\n- **Siège social de Seattle :** Il s’agit de l’emplacement principal de contoso. Il dispose de 1000 employés et 25 sont uniquement disponibles pour les appels. Le site est connecté à Internet et il existe une connexion téléphonique locale (RTC). Contoso dispose d’un routage direct configuré pour pouvoir utiliser la connexion téléphonique locale avec Teams. \n- **Kirkland Office :** Ce siège social est doté de 400 employés et 10 uniquement. Le site utilise sa connexion au siège social pour le trafic sur Internet et sur le téléphone (RTC). Ce bureau est connecté au siège social de Seattle via une connexion WAN.\n- **Bureau de Denver :** Ce bureau possède 250 employés et 50. Le site dispose de sa propre connexion Internet locale sans connexion téléphonique directe (RTC).\n\nC’est parti !\n"

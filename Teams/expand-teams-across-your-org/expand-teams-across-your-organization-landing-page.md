@@ -1,6 +1,6 @@
 ---
 title: Développer Microsoft Teams au sein de votre organisation
-description: En savoir plus sur les ressources de Microsoft Teams, y compris les équipes pour les équipes, les équipes pour la santé, les équipes pour l’éducation, les équipes pour les particuliers et les équipes pour le gouvernement.
+description: Apprenez-en davantage sur les ressources disponibles pour création sur le déploiement d’équipes standard pour vous aider à tirer le meilleur parti d’équipes pour des types d’organisations spécifiques.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 91a584f7dea5ae9c6ea23f8c4ee30b5eadf3dc20
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136935"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904369"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Développer Microsoft Teams au sein de votre organisation
 
