@@ -4,7 +4,7 @@ summary: Apprenez à déployer et à gérer Teams, et à préparer vos utilisate
 brand: teams
 metadata:
   title: Documentation d’administration de Microsoft teams
-  description: Apprenez à déployer et à gérer Teams, et à préparer vos utilisateurs pour teams
+  description: En savoir plus sur la documentation d’administration de Microsoft Teams, notamment sur le déploiement et la gestion d’équipes, et la préparation des utilisateurs pour Teams.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -12,12 +12,13 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
-  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "43117532"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43905476"
 highlightedContent:
   items:
   - title: Réponse COVID-19-prise en charge des travailleurs distants utilisant teams

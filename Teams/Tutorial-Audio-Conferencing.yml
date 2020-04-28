@@ -1,8 +1,9 @@
 ### YamlMime:Tutorial
 title: 'Didacticiel : audioconférence-Microsoft teams'
 metadata:
-  title: 'Didacticiel : commencer à utiliser l’audioconférence dans Microsoft teams'
-  description: Le didacticiel interactif vous guide dans l’audioconférence de Microsoft Teams.
+  title: Audioconférence dans Microsoft Teams
+  description: Servez-vous de ce didacticiel interactif pour découvrir la configuration requise, les étapes de planification et la création de rapports pour l’audioconférence dans Microsoft Teams.
+  ms.custom: seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,13 +20,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.custom: seo-marvel-mar2020
-  ms.openlocfilehash: b0a89ea28a8a54036dab6b2b97874182d5c2252b
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43780293"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904549"
 items:
 - durationInMinutes: 1
   content: >
