@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780583"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918723"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité 
 
@@ -61,28 +61,6 @@ Ce guide est destiné à être utilisé par les parties prenantes des partenaire
 
 Ce guide est également destiné à être utilisé par le ou les champions qualité désignés. Pour plus d’informations, reportez-vous à [la section rôle d’expert qualité](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## <a name="assign-roles-for-accessing-cqd"></a>Affecter des rôles pour accéder à bord
-
-Avant d’utiliser ce guide, assurez-vous que vous disposez des [rôles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de client appropriés pour pouvoir accéder à bord.
-
-Le tableau suivant vous montre les différents rôles possibles dans bord :
-
-
-|  |Afficher les rapports  |Afficher les champs de EUII  |Créer des rapports  |Télécharger les données de bâtiment  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|Administrateur général     |Oui          |Oui          |Oui          |Oui          |
-|Administrateur du service Teams     |Oui          |Oui          |Oui          |Oui          |
-|Administrateur des communications Teams     |Oui          |Oui          |Oui          |Oui          |
-|Ingénieur du support technique pour les communications Teams     |Oui          |Oui          |Oui         |Non         |
-|Spécialiste du support des communications teams     |Oui         |Non         |Oui         |Non         |
-|Administrateur Skype entreprise     |Oui          |Oui          |Oui          |Oui          |
-|Lecteur global Azure AD |Oui          |Oui          |Oui         |Non         |
-|Microsoft 365 rapports lecteur<sup>1</sup>     |Oui         |Non         |Oui         |Non         |
-
-<sup>1</sup> en plus de lire des rapports bord, le lecteur de rapports 365 Microsoft peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration et les rapports du [Pack de contenu adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
-
-> [!NOTE]
-> Si vous ne voyez pas EUII (informations d’identification de l’utilisateur final) et que vous disposez de l’un des rôles qui vous permettent d’accéder à ces informations, gardez à l’esprit que bord ne conserve EUII pendant 30 jours. Les éléments datant de plus de 30 jours sont supprimés.
 
 ## <a name="what-is-quality"></a>Qu’est-ce que la qualité ?
 

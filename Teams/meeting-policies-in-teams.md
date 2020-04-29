@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: d06dbe4d2a6e7750abba5352becc15be1daf8ce6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 689b22a98c986ca73ae3926785f75dcb6c6a9e74
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904429"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918703"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -44,7 +44,7 @@ Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur 
 |Par organisateur et par utilisateur     |Lorsque vous implémentez une combinaison d’une stratégie par utilisateur et par utilisateur, certaines fonctionnalités sont limitées pour les participants à la réunion en fonction de leur politique et de la stratégie de l’organisateur. Par exemple, **l’autorisation de l’enregistrement Cloud** est une stratégie par utilisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants à démarrer et arrêter un enregistrement.
 
 Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent la stratégie de réunion globale. Vous pouvez y apporter des modifications ou créer une ou plusieurs stratégies personnalisées et leur affecter des utilisateurs. Les utilisateurs bénéficieront de la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui disposeront de ces paramètres.
-
+-Remarque-le bouton Détails de la réunion sera disponibles si un utilisateur a activé les licences AUDIOCONFERENCE ou si l’utilisateur est autorisé à audioconferencing, si ce n’est pas le cas, les détails de la réunion ne seront pas disponibles
 ## <a name="change-or-create-a-meeting-policy"></a>Modifier ou créer une stratégie de réunion
 
 Pour modifier ou créer une stratégie de réunion, accédez au Centre d’administration Microsoft Teams > **Réunions** > **Stratégies de réunion**. Sélectionnez une stratégie dans la liste ou cliquez sur **Ajouter**. Si vous créez une stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir de caractères spéciaux et ne doit pas dépasser 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
@@ -139,7 +139,7 @@ Remarque : Si vous désactivez l’option **autoriser la planification de réun
 - [Autoriser la transcription](#allow-transcription)
 - [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
 - [Autoriser la vidéo sur IP](#allow-ip-video)
-- [Taux d’échantillonnage du support (Ko)](#media-bit-rate-kbs)
+- [Taux d’échantillonnage du média (KPS)](#media-bit-rate-kps)
 
 ### <a name="allow-transcription"></a>Autoriser la transcription
 
@@ -188,9 +188,9 @@ Dans les réunions hébergées par Amanda, personne ne peut activer la vidéo, q
 
 Si Daniela appelle Amanda avec la vidéo, Amanda peut répondre à l’appel avec l’audio uniquement.  Lorsque l’appel est connecté, Amanda peut voir la vidéo de Daniela, mais ne peut pas activer la vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l’appel avec de la vidéo et de l’audio. Lorsque l’appel est connecté, Daniela peut activer ou désactiver sa vidéo, selon les besoins.
 
-### <a name="media-bit-rate-kbs"></a>Taux d’échantillonnage du support (Ko)
+### <a name="media-bit-rate-kps"></a>Taux d’échantillonnage du média (KPS)
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine le taux de bits média pour les transmissions du partage d’application audio, vidéo et vidéo dans les appels et les réunions de l’utilisateur. Il est appliqué à la traversée de l’appel ou de la réunion, en liaison descendante et en liaison descendante multimédia. Ce paramètre vous permet de contrôler plus précisément la bande passante de votre organisation. En fonction des scénarios de réunions requis par les utilisateurs, nous recommandons une bande passante suffisante pour une qualité optimale. La valeur minimale est 30 kbps et la valeur maximale dépend du scénario de la réunion. Pour en savoir plus sur la bande passante minimum recommandée pour des réunions, des appels et des événements en direct de bonne qualité dans Teams, voir [besoins en bande passante](prepare-network.md#bandwidth-requirements).
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine le taux de bits média pour les transmissions du partage d’application audio, vidéo et vidéo dans les appels et les réunions de l’utilisateur. Il est appliqué à la traversée de l’appel ou de la réunion, en liaison descendante et en liaison descendante multimédia. Ce paramètre vous permet de contrôler plus précisément la bande passante de votre organisation. En fonction des scénarios de réunions requis par les utilisateurs, nous recommandons une bande passante suffisante pour une qualité optimale. La valeur minimale est 30 KPS et la valeur maximale dépend du scénario de la réunion. Pour en savoir plus sur la bande passante minimum recommandée pour des réunions, des appels et des événements en direct de bonne qualité dans Teams, voir [besoins en bande passante](prepare-network.md#bandwidth-requirements).
 
 S’il n’y a pas assez de bande passante pour une réunion, un message s’affiche indiquant une mauvaise qualité du réseau.
 

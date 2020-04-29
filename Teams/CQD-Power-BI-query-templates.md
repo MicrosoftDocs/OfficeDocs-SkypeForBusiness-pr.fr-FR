@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez Power BI pour analyser les données de bord pour Microsoft Teams.
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170502"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918673"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser des données bord pour Microsoft teams
 
@@ -29,7 +29,7 @@ Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi p
 
 Pour les rapports bord dans Microsoft Teams, si vous préférez utiliser Power BI pour interroger et créer des rapports sur vos données, téléchargez nos modèles Power BI bord. Lorsque vous ouvrez les modèles dans Power BI, vous êtes invité à vous connecter à l’aide de vos informations d’identification d’administrateur bord. Vous pouvez personnaliser ces modèles de requête et les distribuer à toutes les personnes de votre organisation disposant d’une licence Power BI et d’autorisations d’administrateur bord.
 
-Pour pouvoir utiliser ces fichiers PBIX, vous devez [installer le connecteur Power bi pour Microsoft bord](CQD-Power-BI-connector.md) à l’aide du fichier *MicrosoftCallQuality. pqx* inclus dans le [Téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Pour pouvoir utiliser ces fichiers PBIT, vous devez [installer le connecteur Power bi pour Microsoft bord](CQD-Power-BI-connector.md) à l’aide du fichier *MicrosoftCallQuality. pqx* inclus dans le [Téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 |  |  |
@@ -43,10 +43,10 @@ Pour pouvoir utiliser ces fichiers PBIX, vous devez [installer le connecteur Pow
 |Rapport sur les utilisateurs bord (évaluer mon appel). PBiT     | Le mode d’affichage des données d’appel vous permet de classer facilement les appels au sein de votre organisation. Référence croisée avec Verbatim pour identifier les opportunités de la formation des utilisateurs finaux.        |
 
 > [!TIP]
-> Une fois que vous avez configuré vos rapports Power BI pour bord données, ajoutez-les comme onglet à un canal. Après avoir sélectionné **+** dans un canal, sélectionnez **Power bi** , puis recherchez votre rapport. N’oubliez pas que seules les personnes disposant d’une licence Power BI et les informations d’identification d’administrateur bord peuvent accéder à ces rapports.
+> Une fois que vous avez configuré vos rapports Power BI pour bord données, ajoutez-les comme onglet à un canal. Après avoir sélectionné **+** dans un canal, sélectionnez **Power bi** , puis recherchez votre rapport. Pour en savoir plus, voir [incorporer un rapport avec l’onglet Power bi pour teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). N’oubliez pas que seules les personnes disposant d’une licence Power BI et les informations d’identification d’administrateur bord peuvent accéder à ces rapports.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

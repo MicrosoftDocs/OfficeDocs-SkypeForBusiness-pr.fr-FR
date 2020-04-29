@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation multimédia avec le routage direct du système téléphonique, qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901839"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918693"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -254,7 +254,8 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Définie sur l’SBC |
 | UDP/SRTP | SBC | Client | Définie sur l’SBC | 50 000 – 50 019  |
 
 
-Remarque : Si vous disposez d’un appareil réseau qui traduit les ports sources du client, assurez-vous que les ports traduits sont ouverts entre l’équipement réseau et l’SBC. 
+> [!NOTE]
+> Si vous disposez d’un appareil réseau qui traduit les ports sources du client, assurez-vous que les ports traduits sont ouverts entre l’équipement réseau et l’SBC. 
 
 ### <a name="requirements-for-using-transport-relays"></a>Configuration requise pour l’utilisation des relais de transport
 
@@ -262,7 +263,7 @@ Les relais de transport sont dans la même plage que les processeurs de médias 
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
--52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
+- 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
 
 ## <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
 
@@ -282,11 +283,12 @@ UDP/SRTP | Relais de transport | SBC | 50 000-59 999    | Définie sur l’SBC |
 | UDP/SRTP | SBC | Relais de transport | Définie sur l’SBC | 50 000 – 59 999, 3478, 3479     |
 
 
-Remarque : Microsoft recommande au moins deux ports par appel simultané sur l’SBC. Microsoft étant doté de deux versions de relais de transport, les informations suivantes sont nécessaires :
-
-- v4, qui peut uniquement utiliser la plage de ports 50 000 à 59 999
-
-- V6, qui est compatible avec les ports 3478, 3479
+> [!NOTE]
+> Microsoft recommande au moins deux ports par appel simultané sur l’SBC. Microsoft étant doté de deux versions de relais de transport, les informations suivantes sont nécessaires :
+> 
+> - v4, qui peut uniquement utiliser la plage de ports 50 000 à 59 999
+> 
+> - V6, qui est compatible avec les ports 3478, 3479
 
 Pour le moment, le contournement de média ne prend en charge que la version v4 de relais de transport. La prise en charge de la version V6 sera bientôt prise en charge. 
 
@@ -301,7 +303,7 @@ La plage d’adresses IP du trafic multimédia est
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
--52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
+- 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
 
 ## <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
 
@@ -315,8 +317,8 @@ Le tableau suivant indique la portée de port des processeurs multimédias (appl
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Processeur de média | SBC | 49 152 – 53 247    | Définie sur l’SBC |
-| UDP/SRTP | SBC | Processeur de média | Définie sur l’SBC | 49 152 – 53 247     |
+UDP/SRTP | Processeur de média | SBC | 3478, 3479 et 49 152 – 53 247    | Définie sur l’SBC |
+| UDP/SRTP | SBC | Processeur de média | Définie sur l’SBC | 3478, 3479 et 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurer des Trunks séparés pour le contournement du contenu multimédia et l’exclusion de médias non multimédias  
 

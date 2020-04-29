@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients pour les partenaires Microsoft et/ou les opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901849"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918713"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -119,8 +119,8 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Ajouter un domaine de base au client et le vérifier
 
-1.    Dans le centre d’administration Microsoft 365, accédez à **configuration** > des**domaines** > **Ajouter un domaine**.
-2.    Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *Customers.adatum.biz*.
+1. Dans le centre d’administration Microsoft 365, accédez à **configuration** > des**domaines** > **Ajouter un domaine**.
+2. Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *Customers.adatum.biz*.
 
     ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
 
@@ -129,8 +129,8 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
     ![Capture d’écran montrant la confirmation d’un nom de domaine vérifié](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    Cliquez sur **suivant**, puis, dans la page **mettre à jour les paramètres DNS** , sélectionnez **Ajouter les enregistrements DNS moi-même** , puis cliquez sur **suivant**.
-6.    Sur la page suivante, effacez toutes les valeurs (sauf si vous souhaitez utiliser le nom de domaine pour Exchange, SharePoint ou teams/Skype entreprise), cliquez sur **suivant**, puis sur **Terminer**. Assurez-vous que votre nouveau domaine est dans l’État configuration terminée.
+5. Cliquez sur **suivant**, puis, dans la page **mettre à jour les paramètres DNS** , sélectionnez **Ajouter les enregistrements DNS moi-même** , puis cliquez sur **suivant**.
+6. Sur la page suivante, effacez toutes les valeurs (sauf si vous souhaitez utiliser le nom de domaine pour Exchange, SharePoint ou teams/Skype entreprise), cliquez sur **suivant**, puis sur **Terminer**. Assurez-vous que votre nouveau domaine est dans l’État configuration terminée.
 
     ![Capture d’écran montrant les domaines dont l’état d’installation est terminé](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -227,7 +227,7 @@ Deux nouvelles entités ont été introduites :
 
 -    Les opérateurs doivent uniquement configurer et gérer un seul Trunk (opérateur Trunk dans le domaine de l’opérateur), à l’aide de la commande Set-CSOnlinePSTNGateway. Dans l’exemple ci-dessus, il s’agit de adatum.biz.
 -    Dans le client client, l’opérateur doit uniquement ajouter le nom de domaine complet du Trunk dérivé aux stratégies de routage vocal des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway pour un Trunk.
--     Le Trunk dérivé, tel que le nom l’indique, hérite de tous les paramètres de configuration de l’opérateur Trunk. Donnés
+-    Le Trunk dérivé, tel que le nom l’indique, hérite de tous les paramètres de configuration de l’opérateur Trunk. Donnés
 -    Customers.adatum.biz : le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
 -    Sbc1.customers.adatum.biz : Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
 -   L’opérateur doit configurer l’enregistrement DNS pour la résolution de nom de domaine complet du Trunk dérivé sur l’adresse IP de l’SBC.

@@ -1,7 +1,7 @@
 ---
 title: Conduire une étude eDiscovery du contenu
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521540"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918582"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -40,17 +40,15 @@ Le contenu de toutes les équipes n’est pas eDiscoverable. Le tableau suivant 
 |:--- | --- |:--- |
 | Messages de discussion teams | Oui | Les messages instantanés de conversations sur lesquels les utilisateurs invités sont les seuls participants à une conversation 1:1 ou 1 : N ne sont pas eDiscoverable. |
 | Enregistrements audio | Non | |
-| Horodatage indiquant qu’un message a été lu par chaque utilisateur | Non | |
-| Enregistrements audio | Non | |
 | Messages de canal privé | Non | |
 | Emoji, fichiers GIF, autocollants | Oui | |
 | Extraits de code | Non | |
-| Liens de discussion | Non | |
+| Liens de discussion | Oui | |
 | Réactions (j’aime, coeurs, etc.) | Non | |
 | Messages modifiés | Oui | Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont conservées. |
 | Images incorporées | Oui | |
-| Contenu | Non | |
-| Objet | Non | |
+| Contenu | Oui | |
+| Objet | Oui | |
 | Offres | Oui | Le contenu mentionné peut être recherché. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été placé entre guillemets. |
 | Nom du canal | Non | |
 
@@ -162,7 +160,7 @@ Un ensemble de avis de conversation fournit une vue thématique et intuitive des
 
 Les fonctionnalités telles que la biffure sont disponibles dans les deux types de révisions.
 
-Pour plus d’informations sur les ensembles de révision, voir [revoir les conversations dans Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+Pour plus d’informations sur les ensembles de révision, voir [revoir des conversations dans Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Options de collection
 
@@ -215,7 +213,7 @@ Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur 
 > [!NOTE]
 > L’exportation peut prendre un certain temps. Pour effectuer le suivi de l’état du processus d’exportation, quittez l’onglet **révision** , puis cliquez sur l’onglet **exportations** .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [eDiscovery dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

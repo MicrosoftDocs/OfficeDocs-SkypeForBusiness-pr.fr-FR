@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur l’activation et l’utilisation du tableau de bord de qualité des appels et obtenez des rapports de synthèse sur la qualité des appels.
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914032"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918845"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -38,6 +38,30 @@ Apprenez à configurer votre 365 ou Office 365 pour utiliser le tableau de bord 
 Le tableau de bord de qualité des appels (bord) vous permet d’obtenir des renseignements sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise online. Cette rubrique décrit la procédure de démarrage de la collecte de données que vous pouvez utiliser pour résoudre les problèmes de qualité d’appel.
 
 Pour l’instant, les fonctionnalités avancées bord et bord sont disponibles pour une utilisation. Advanced bord est disponible à <span>https://cqd.teams.microsoft.com</span>l’adresse. Nouvelle URL sauf si vous êtes connecté à l’aide de vos informations d’identification d’administrateur.
+
+## <a name="assign-roles-for-accessing-cqd"></a>Affecter des rôles pour accéder à bord
+
+Attribuez des [rôles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) pour accéder à bord aux personnes qui ont besoin de les utiliser. 
+
+Le tableau suivant vous montre les différents rôles possibles dans bord :
+
+
+|  |Afficher les rapports  |Afficher les champs de EUII  |Créer des rapports  |Télécharger les données de bâtiment  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Administrateur général     |Oui          |Oui          |Oui          |Oui          |
+|Administrateur du service Teams     |Oui          |Oui          |Oui          |Oui          |
+|Administrateur des communications Teams     |Oui          |Oui          |Oui          |Oui          |
+|Ingénieur du support technique pour les communications Teams     |Oui          |Oui          |Oui         |Non         |
+|Spécialiste du support des communications teams     |Oui         |Non         |Oui         |Non         |
+|Administrateur Skype entreprise     |Oui          |Oui          |Oui          |Oui          |
+|Lecteur global Azure AD |Oui          |Oui          |Oui         |Non         |
+|Microsoft 365 rapports lecteur<sup>1</sup>     |Oui         |Non         |Oui         |Non         |
+
+<sup>1</sup> en plus de lire des rapports bord, le lecteur de rapports 365 Microsoft peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration et les rapports du [Pack de contenu adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> Si vous ne voyez pas EUII (informations d’identification de l’utilisateur final) et que vous disposez de l’un des rôles qui vous permettent d’accéder à ces informations, gardez à l’esprit que bord ne conserve EUII pendant 30 jours. Les éléments datant de plus de 30 jours sont supprimés.
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Utiliser Power BI pour analyser des données de bord
 
@@ -500,7 +524,7 @@ Ces rôles d’administrateur peuvent accéder à bord, mais ils ne peuvent pas 
 - Lecteur de rapports Microsoft 365
 - Spécialiste du support des communications teams
 
-Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [rôles d’attribution de EUII-lecture des rôles pour accéder à bord](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [rôles d’attribution de EUII-lecture des rôles pour accéder à bord](#assign-roles-for-accessing-cqd).
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Pourquoi des informations Skype entreprise s’afficheront dans bord lorsque j’ai filtré uniquement pour les équipes ?
 
