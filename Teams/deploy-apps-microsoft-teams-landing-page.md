@@ -1,7 +1,7 @@
 ---
 title: Applications, robots et connecteurs dans Microsoft Teams
 ms.reviewer: ''
-description: Utilisez ces ressources de déploiement pour vous aider à déployer des applications dans Microsoft Teams.
+description: Apprenez-en plus sur les applications, les robots et les connecteurs, ainsi que sur la manière de choisir les éléments à déployer dans Microsoft Teams sur la base du profil de votre organisation et des besoins de votre entreprise.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776619"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901949"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
@@ -93,7 +94,7 @@ Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et 
 
 ### <a name="activity-reports"></a>Rapports d’activité
 
-Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateurs de votre organisation utilisent Teams. Par exemple, si certains utilisateurs n’utilisent pas encore Teams, ils ne savent peut-être pas comment commencer ou comprendre comment ils peuvent utiliser Teams pour être plus productifs et mieux collaborer. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication. Pour afficher les rapports d’activité, vous devez être un administrateur général dans Office 365, un administrateur de service Teams ou un administrateur Skype Entreprise.
+Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateurs de votre organisation utilisent Teams. Par exemple, si certains utilisateurs n’utilisent pas encore Teams, c’est peut-être parce qu’ils ne savent pas comment commencer ou comment utiliser Teams pour être plus productifs et mieux collaborer. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication. Pour afficher les rapports d’activité, vous devez être un administrateur général dans Office 365, un administrateur de service Teams ou un administrateur Skype Entreprise.
 
 | Posez-vous la question | Action |
 |--------------|--------|

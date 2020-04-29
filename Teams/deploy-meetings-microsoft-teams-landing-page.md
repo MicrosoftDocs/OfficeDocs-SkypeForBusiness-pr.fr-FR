@@ -1,7 +1,7 @@
 ---
 title: Réunions et conférences dans Microsoft Teams
 ms.reviewer: ''
-description: Utilisez ces ressources de déploiement pour vous aider à mettre en place des réunions dans Microsoft Teams.
+description: Utilisez ces ressources de déploiement pour vous aider à mettre en place des réunions et des conférences audio dans Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a9cd648d3daf9651c2fc3ff4cec70525c9af24df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190852"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901899"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096879"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898129"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Utilisation de l’Assistant Mise en route pour configurer Business Voice
 
@@ -49,7 +49,7 @@ Vous avez terminé, si vous ne voulez rien personnaliser pour le moment. Vous po
 
 <table>
     <tr>
-        <td>Si vous souhaitez modifier l’adresse d’urgence, cliquez sur <b>Modifier</b>, et entrez ensuite une nouvelle adresse. L’adresse que vous fournissez est validée afin de vérifier qu’elle est légitime et correctement mise en forme pour les services d’intervention d’urgence. Cette adresse est ensuite attribuée aux utilisateurs auxquels vous affectez un numéro à l’étape suivante. Si vos employés sont répartis dans plusieurs lieux, voir <a href="./customize-business-voice.md">Personnaliser la conception de Business Voice</a> pour ajouter et attribuer d’autres adresses d’urgence une fois la préparation de l’assistant Mise en route effectuée.</td> 
+        <td>Si vous souhaitez modifier l’adresse d’urgence, cliquez sur <b>Modifier</b>, et entrez ensuite une nouvelle adresse. L’adresse que vous fournissez est validée afin de vérifier qu’elle est légitime et correctement mise en forme pour les services d’intervention d’urgence. Cette adresse est ensuite attribuée aux utilisateurs auxquels vous affectez un numéro à l’étape suivante. Si vos employés sont répartis dans plusieurs lieux, voir <a href="./customize-business-voice.md">Personnaliser la conception de Business Voice</a> pour ajouter et attribuer d’autres adresses d’urgence une fois la préparation de l’assistant Mise en route effectuée.</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Pour plus d'informations, voir [Que sont les emplacements, les adresses et le ro
 
 <table>
     <tr>
-        <td>Outre le nouveau numéro de téléphone local, vous pouvez acheter un numéro gratuit ou de porter un numéro existant vers Microsoft 365. Pour configurer un numéro gratuit, vous devez acheter un forfait d’appels. Pour porter un ou plusieurs numéros vers Microsoft 365, accédez au <a href="https://admin.teams.microsoft.com">Centre d’administration Teams</a> une fois l’Assistant terminé.
+        <td>Outre le nouveau numéro de téléphone local, vous pouvez acheter un numéro gratuit ou de porter un numéro existant vers Microsoft 365. Pour configurer un numéro gratuit, vous devez acheter des crédits de communication. Pour porter un ou plusieurs numéros vers Microsoft 365, accédez au <a href="https://admin.teams.microsoft.com">Centre d’administration Teams</a> une fois l’Assistant terminé.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

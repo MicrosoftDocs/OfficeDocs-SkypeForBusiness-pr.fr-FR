@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780563"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898159"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -76,6 +76,9 @@ Les clients de l’enseignement supérieur sont favorisés lorsque tout le monde
 Pour un parcours guidé sur la création d’équipes, voir : [Créer une équipe de classe dans Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurer des expériences utilisateur à l’aide de stratégies
+
+> [!IMPORTANT]
+> Si vous avez besoin d’en savoir plus sur la façon de protéger vos étudiants durant les réunions, vous pouvez consulter [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 [Les stratégies Teams](teams-policies.md) offrent la possibilité de contrôler les options disponibles pour des utilisateurs ou groupes d’utilisateurs précis. Les stratégies peuvent être appliquées pour définir qui peut être autorisé à utiliser la conversation privée, l’appel privé, la planification de réunions, les types de contenus pouvant être partagés, etc.
 
@@ -156,8 +159,6 @@ Si vous souhaitez en savoir plus sur l’utilisation de Teams dans le secteur de
 
 > [!NOTE]
 > Certaines fonctionnalités clés de Teams ne sont pas spécifiques à l’éducation. Vous trouverez des conseils et des astuces pour les principales fonctionnalités Teams sur : [Apprentissage et aide pour Microsoft Teams](https://support.office.com/teams).
-
-Si vous voulez en savoir plus sur la façon de protéger vos étudiants durant les réunions, vous pouvez consulter [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>Empêcher les utilisateurs de modifier leur nom d'affichage
 

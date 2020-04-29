@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Comment se connecter à Microsoft Teams à l’aide de l’authentification moderne. Explique comment ignorer automatiquement le nom d’utilisateur UPN lorsque les utilisateurs se connectent à l’aide d’un paramètre qui indique à Windows d’ignorer le nom d’utilisateur principal.
+description: Découvrez comment fonctionne l’authentification moderne, comment changer de compte et comment résoudre les problèmes liés à l’authentification moderne.
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,13 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61b1cb79b7c4e2989d823af2c6617337291cf6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138893"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903729"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================

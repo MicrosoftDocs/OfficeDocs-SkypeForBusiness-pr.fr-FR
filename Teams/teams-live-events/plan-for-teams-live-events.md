@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Découvrez les facteurs à prendre en compte avant de configurer des événements live dans Microsoft Teams.
+description: Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779963"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903079"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -98,7 +99,8 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Présentateur participe sur le Web et Mobile |&#x2714; (Skype Entreprise)  |&#x274C; |S/O |
 |Accès externe (fédération) et présentateurs/participants invités |&#x2714; (Skype Entreprise)  |  &#x2714; (Teams) |S/O |
 |Présentateur - accès PSTN |&#x274C; |&#x2714; (Teams) |S/O |
-|Présenter un écran |&#x274C; |&#x2714; (Teams) |S/O |
+|Présenter un écran |&#x274C; |&#x2714; (Teams) |N/A |
+|Partage du système audio sous Windows (disponible uniquement lors du partage d’écran)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Présenter un PowerPoint (partage PPT) |&#x2714; |&#x274C; (atténué via le partage d’écran) |S/O |
 |Enregistrement de réunion sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
 |Publier automatiquement l’enregistrement sur Stream |&#x274C; |&#x274C; |&#x2714; |

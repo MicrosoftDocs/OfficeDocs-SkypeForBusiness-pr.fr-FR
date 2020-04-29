@@ -8,21 +8,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: Intégrez les premiers utilisateurs à la première série d’équipes et de canaux que vous avez créés dans Microsoft Teams.
+description: Découvrez comment intégrer les utilisateurs débutants dans la première série d’équipes et de canaux que vous avez créés dans Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fff82f709c215b4a276258a7a57e1790956d0e70
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 75df0cb2212aa4efd826865ce1fe403b6d366342
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888623"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904639"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
 

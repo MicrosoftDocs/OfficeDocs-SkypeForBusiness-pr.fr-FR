@@ -19,18 +19,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 30599b73447e9b5ab9873c6cd48372d997def5d1
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749781"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898119"
 ---
 > [!IMPORTANT]
 > Le modèle de service Teams est susceptible d’être modifié pour améliorer l’expérience des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception.
 <p>
 
- # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
+# <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
 Microsoft Teams, dans le cadre du service Microsoft 365 (M365), respecte toutes les pratiques recommandées en matière de sécurité et des procédures telles que la sécurité de niveau de service, notamment les contrôles client de défense approfondie au sein du service, le renforcement de la sécurité et le fonctionnement optimal. techniques. Pour plus d’informations, voir le [centre de gestion de la confidentialité de Microsoft](https://microsoft.com/trustcenter).
 
@@ -209,7 +209,6 @@ Deux options s’offrent à vous pour contrôler les personnes qui ont atteint l
 |Membres de mon organisation et organisations approuvées      |  -Locataire hébergé</br> -Invité du client</br> -Fédéré</br>        |  -Anonyme</br>  -Rendez-vous PSTN</br>      |
 |Tout le monde      |   -Locataire hébergé</br>  -Invité du client</br>  -Anonyme fédéré</br>  -Rendez-vous PSTN</br>       |         |
 
-
 2. La deuxième méthode consiste à passer par **les réunions structurées** (où les Présentateurs peuvent faire quelque chose à faire, et les participants ont une expérience contrôlée). Une fois que vous avez rejoint une réunion structurée, les présentateurs contrôlent ce que les participants peuvent faire pendant la réunion. </p>
 
 |Actions  |Présentateurs  |Participants  |
@@ -227,7 +226,7 @@ Deux options s’offrent à vous pour contrôler les personnes qui ont atteint l
 
 Teams offre aux utilisateurs d’entreprise la possibilité de créer et de participer à des réunions en temps réel. Les utilisateurs d’entreprise peuvent également inviter des utilisateurs externes ne possédant pas de compte AAD/Office 365 à participer à ces réunions. Les utilisateurs qui sont employés par des partenaires externes avec une identité sécurisée et authentifiée peuvent également participer à des réunions et, s’ils sont promus, ils peuvent agir en tant que présentateurs. Les utilisateurs anonymes ne peuvent pas créer ou participer à une réunion en tant que présentateur, mais ils peuvent être promus au présentateur une fois qu’ils ont rejoint la réunion.
 
-Pour que les utilisateurs anonymes puissent participer aux réunions Teams, le paramètre réunions des participants dans le centre d’administration teams doit être activé.  
+Pour que les utilisateurs anonymes puissent participer aux réunions Teams, le paramètre réunions des participants dans le centre d’administration teams doit être activé.
 
 > [!NOTE]
 > Le terme *utilisateurs anonymes* indique que les utilisateurs qui ne sont pas authentifiés auprès du locataire des organisations. Dans ce contexte, tous les utilisateurs externes sont considérés comme anonymes. Les utilisateurs authentifiés incluent les utilisateurs clients et les utilisateurs invités du locataire.
@@ -238,6 +237,9 @@ Permettre aux utilisateurs externes de participer à des réunions Teams peut ê
 - Les types de participants vous permettent de limiter l’accès à des réunions spécifiques.
 - La planification de réunions est réservée aux utilisateurs qui ont un compte AAD et une licence Teams.
 - Les utilisateurs anonymes, qui ne sont pas authentifiés, ont besoin de participer à une conférence rendez-vous en utilisant un numéro de conférence. Si le paramètre « toujours autoriser les appelants à contourner le lobby » est *activé*, il doit également patienter jusqu’à ce qu’un présentateur ou utilisateur authentifié se connecte à la réunion.
+
+> [!CAUTION]
+> Si vous ne souhaitez pas que les utilisateurs anonymes (usagers que vous n'invitez pas explicitement) participent à une réunion, vous devez vous assurer que **Les utilisateurs anonymes peuvent participer à une réunion** sont définis sur **Désactivée** pour la section réunion des **Participants**.
 
 Il est également possible pour un organisateur de configurer les paramètres de façon à ce que les appelants entrants soient la première personne participant à une réunion. Ce paramètre est configuré dans les paramètres de conférence audio pour les utilisateurs et s’applique à toutes les réunions planifiées par l’utilisateur.
 
@@ -269,6 +271,9 @@ Les participants à la réunion sont également classés par localisation et inf
 De nombreuses réunions impliquent des utilisateurs externes. Ces mêmes clients veulent également être rassurés en ce qui concerne l’identité des utilisateurs externes avant de permettre à ces utilisateurs de participer à une réunion. La section suivante décrit comment les équipes limitent l’accès aux types d’utilisateurs qui ont été explicitement autorisés et nécessite que tous les types d’utilisateur présentent les* informations d’identification* lors de la saisie d’une réunion.
 
 ### <a name="participant-admittance"></a>Admission des participant
+
+> [!CAUTION]
+> Si vous ne souhaitez pas que les utilisateurs anonymes (usagers que vous n'invitez pas explicitement) participent à une réunion, vous devez vous assurer que **Les utilisateurs anonymes peuvent participer à une réunion** sont définis sur **Désactivée** pour la section réunion des **Participants**.
 
 Dans Teams, les utilisateurs anonymes peuvent être transférés vers une zone d’attente appelée salle d’attente. Les présentateurs peuvent ensuite *admettre *ces utilisateurs à la réunion ou les *rejeter*. Lorsque ces utilisateurs sont transférés vers la salle d’attente, le présentateur et les participants reçoivent une notification et les utilisateurs anonymes doivent patienter jusqu’à ce qu’ils soient acceptés ou rejetés, ou que leur connexion arrive à expiration.
 
