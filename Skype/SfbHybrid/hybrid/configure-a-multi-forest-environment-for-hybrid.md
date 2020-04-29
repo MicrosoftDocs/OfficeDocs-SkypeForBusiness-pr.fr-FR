@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Les sections suivantes fournissent des instructions sur la configuration d’un environnement possédant plusieurs forêts dans un modèle de forêt de ressources/utilisateur afin de fournir des fonctionnalités Skype entreprise dans un scénario hybride.
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780123"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918683"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
  
@@ -65,7 +65,7 @@ Pour obtenir une synchronisation d’identité correcte, les attributs suivants 
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-L' [attribut de lien de compte choisi](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous avez un autre attribut non modifiable que vous préférez utiliser, vous pouvez le faire ; Assurez-vous simplement de modifier la règle de revendications AD FS et sélectionnez l’attribut pendant la configuration de AAD Connect.
+L' [attribut de lien de compte choisi](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) sera utilisé comme ancre source. Si vous avez un autre attribut non modifiable que vous préférez utiliser, vous pouvez le faire ; Assurez-vous simplement de modifier la règle de revendications AD FS et sélectionnez l’attribut pendant la configuration de AAD Connect.
   
 Ne synchronisez pas les UPN entre les forêts. Nous avons trouvé pendant les tests que nous avions besoin d’utiliser un UPN unique pour chaque forêt d’utilisateurs, car vous ne pouvez pas utiliser le même nom d’utilisateur principal dans plusieurs forêts. Par conséquent, nous avons présenté deux possibilités pour synchroniser l’UPN ou non pour la synchronisation. 
   
@@ -121,14 +121,16 @@ La connexion AAD doit être installée à l’aide des valeurs par défaut, à l
     
 3. Identifier les utilisateurs dans les répertoires locaux : sélectionnez **User Identities EXISTS dans plusieurs répertoires**, puis sélectionnez les attributs **objectSID** et **msExchangeMasterAccountSID.** .
     
-4. Identifier les utilisateurs dans Azure AD : ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu [sélection d’un attribut ancre source approprié](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur principal- **userPrincipalName**.
+4. Identifier les utilisateurs dans Azure AD : ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu [sélection d’un attribut ancre source approprié](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), nom d’utilisateur principal- **userPrincipalName**.
     
 5.  Fonctionnalités facultatives : Déterminez si vous avez déployé Exchange hybride.
     
     > [!NOTE]
     >  Si vous avez uniquement Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAMe. Pour corriger cela, vous devez définir l’URL de découverte automatique Exchange en exécutant l’applet de commande suivante à partir de Skype entreprise Server Management Shell :
-  
-    Set-applet csoauthconfiguration-ExchangeAutoDiscoverURL https://<span>Autodiscover-s.Outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  Batterie de serveurs AD FS : sélectionnez **utiliser une batterie de serveurs Windows Server 2012 R2 AD FS existante** et entrez le nom du serveur AD FS.
     
@@ -142,4 +144,3 @@ Suivez les meilleures pratiques en matière de configuration de Skype entreprise
 
 Si nécessaire, suivez les meilleures pratiques en matière de configuration d’Exchange hybride. Pour plus d’informations, consultez la rubrique [déploiements hybrides Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
-

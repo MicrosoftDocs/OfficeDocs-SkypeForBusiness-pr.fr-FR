@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776269"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918512"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
@@ -32,7 +32,7 @@ La nouvelle zone **rapports** du centre d’administration Skype entreprise vous
   
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d’informations sur les rapports disponibles.
   
-Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation des appels au sein de votre organisation. Ces informations sont très utiles lorsque vous effectuez des recherches, planifiez et organisez d’autres décisions d’entreprise pour votre organisation et que vous configurez des [crédits de communication](/microsoftteams/what-are-communications-credits)
+Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation des appels au sein de votre organisation. Ces informations sont très utiles lorsque vous effectuez des recherches, planifiez et organisez d’autres décisions professionnelles pour votre organisation et que vous configurez des [crédits de communication](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
@@ -77,8 +77,9 @@ Voici une illustration du rapport.
      **Applications de communication unifiée (UCAP)** 
      *    **ucap_in** (un appel RTC entrant vers l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels) 
      *    **ucap_out** (appel RTC sortant depuis l’application de communications unifiées, comme standard automatique ou file d’attente d’appels)
-     *    **Remarque :** Les appels transférés vers un utilisateur à partir de l’application de communications unifiées, tels qu’un standard automatique ou une file d’attente d’appels, n’apparaissent pas dans le rapport d’utilisation RTC, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le centre d’administration de Skype entreprise, sous « outils > analyse des appels Skype entreprise » et rechercher en fonction du nom d’utilisateur ou de l’adresse SIP en corrélation avec l’appel par date/heure et/ou CLID d’origine (ID de ligne d’appel). 
-*     
+         > [!NOTE]
+         > Les appels transférés vers un utilisateur à partir de l’application de communications unifiées, tels qu’un standard automatique ou une file d’attente d’appels, n’apparaissent pas dans le rapport d’utilisation RTC, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le centre d’administration de Skype entreprise, sous « outils > analyse des appels Skype entreprise » et rechercher en fonction du nom d’utilisateur ou de l’adresse SIP en corrélation avec l’appel par date/heure et/ou CLID d’origine (ID de ligne d’appel). 
+
      **National/international** vous indique si l’appel qui a été placé était considéré comme national (dans un pays ou une région) ou international (à l’extérieur d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
 *    **Composé composé** est le nom de la destination du pays/de la région qui est numérotée comme France, Allemagne ou les États-Unis. 
 *    **Type de numéro** est le type de numéro de téléphone qui provient du numéro de téléphone d’un utilisateur, d’un service ou d’un numéro sans frais.  
@@ -125,28 +126,29 @@ La première ligne du fichier CSV contient les noms des colonnes.
 
 Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans le rapport en ligne. Celles-ci peuvent être utilisées pour résoudre les problèmes et les flux de travail automatisés.
 
-| #  | Nom | [Type de données (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
-| :-: | :-: | :-: |:------------------- |
-| 0,4 | UsageId | `uniqueidentifier` | Identificateur d’appel unique |
-| 1 | ID d’appel | `nvarchar(64)` | Identifiant de l’appel. Il n’est pas garanti qu’il soit unique. |
-| deuxième | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
-| 3 | Emplacement de l’utilisateur | `nvarchar(2)` | Code pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | ObjectId d’argument AAD | `uniqueidentifier` | Appel de l’IDENTIFIant de l’utilisateur dans Azure Active Directory.<br/> Ce type d’informations et d’autres informations sur les utilisateurs seront NULL/vides pour les types d’appels de bot (ucap_in ucap_out) |
-| 5 | UPN | `nvarchar(128)` | UserPrincipalName (nom de connexion) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
-| 6 | Nom complet de l’utilisateur | `nvarchar(128)` | Nom d’affichage de l’utilisateur |
-| 7 | ID de l’appelant | `nvarchar(128)` | Numéro ayant reçu l’appel pour les appels entrants ou le numéro numéroté pour les appels sortants. Format [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| version8 | Type d'appel | `nvarchar(32)` | S’il s’agit d’un appel entrant ou sortant de type RTC et du type d’appel passé par un utilisateur ou une conférence audio. |
-| 09 | Type de numéro | `nvarchar(16)` | Type de numéro de téléphone de l’utilisateur, tel qu’un service de numéro gratuit |
-| 0,10 | National/international | `nvarchar(16)` | La présence de l’appel national (dans un pays ou une région) ou international (à l’extérieur d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur |
-| 27,9 | Destination numérotée | `nvarchar(64)` | Pays ou région composé |
-| midi | Numéro de destination | `nvarchar(32)` | Numéro composé au format [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| n°13 | Heure de début | `datetimeoffset` | Heure de début (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 14 | Heure de fin | `datetimeoffset` | Heure de fin de l’appel (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 0,15 | Secondes de la durée | `int` | Durée de connexion de l’appel |
-| Seiz | Frais de connexion | `numeric(16, 2)` | Prix des frais de connexion |
-| Play | Frais | `numeric(16, 2)` | Montant de l’argent ou frais de l’appel facturé sur votre compte. |
-| 19 | Devise | `nvarchar(3)` | Type de devise utilisé pour le calcul du coût de l’appel ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19,6 | Fonctionnalité | `nvarchar(32)` | La licence utilisée pour l’appel |
+> [!div class="has-no-wrap"]  
+> | #  | Nom | [Type de données (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | :-: | :-: | :-: |:------------------- |
+> | 0,4 | UsageId | `uniqueidentifier` | Identificateur d’appel unique |
+> | 1 | ID d’appel | `nvarchar(64)` | Identifiant de l’appel. Il n’est pas garanti qu’il soit unique. |
+> | 2 | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
+> | 3 | Emplacement de l’utilisateur | `nvarchar(2)` | Code pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | ObjectId d’argument AAD | `uniqueidentifier` | Appel de l’IDENTIFIant de l’utilisateur dans Azure Active Directory.<br/> Ce type d’informations et d’autres informations sur les utilisateurs seront NULL/vides pour les types d’appels de bot (ucap_in ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (nom de connexion) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
+> | 6 | Nom complet de l’utilisateur | `nvarchar(128)` | Nom d’affichage de l’utilisateur |
+> | 7 | ID de l’appelant | `nvarchar(128)` | Numéro ayant reçu l’appel pour les appels entrants ou le numéro numéroté pour les appels sortants. Format [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | version8 | Type d'appel | `nvarchar(32)` | S’il s’agit d’un appel entrant ou sortant de type RTC et du type d’appel passé par un utilisateur ou une conférence audio. |
+> | 09 | Type de numéro | `nvarchar(16)` | Type de numéro de téléphone de l’utilisateur, tel qu’un service de numéro gratuit |
+> | 0,10 | National/international | `nvarchar(16)` | La présence de l’appel national (dans un pays ou une région) ou international (à l’extérieur d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur |
+> | 27,9 | Destination numérotée | `nvarchar(64)` | Pays ou région composé |
+> | midi | Numéro de destination | `nvarchar(32)` | Numéro composé au format [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | n°13 | Heure de début | `datetimeoffset` | Heure de début (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 14 | Heure de fin | `datetimeoffset` | Heure de fin de l’appel (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 0,15 | Secondes de la durée | `int` | Durée de connexion de l’appel |
+> | Seiz | Frais de connexion | `numeric(16, 2)` | Prix des frais de connexion |
+> | Play | Frais | `numeric(16, 2)` | Montant de l’argent ou frais de l’appel facturé sur votre compte. |
+> | 19 | Devise | `nvarchar(3)` | Type de devise utilisé pour le calcul du coût de l’appel ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 19,6 | Fonctionnalité | `nvarchar(32)` | La licence utilisée pour l’appel |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
@@ -167,7 +169,7 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
