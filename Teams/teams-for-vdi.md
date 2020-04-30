@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903119"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940671"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -345,6 +345,7 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
 - La résolution du flux vidéo entrant et sortant est limitée à la résolution 720p. Il s’agit d’une limitation WebRTC.
 - Un seul flux vidéo à partir d’un appareil photo ou d’un flux de partage d’écran entrant est pris en charge. Lorsque le partage d’écran est reçu, le partage d’écran qui s’affiche à la place de la vidéo du présentateur dominant est affiché.
 - Partage d’écran sortant :
+    - Le partage d’écran à partir de la conversation n’est pas pris en charge.
     - Le partage d’applications n’est pas pris en charge.
 - Donnez le contrôle et prenez le contrôle :  
     - Non pris en charge lors d’une session de partage d’écran ou d’application.
@@ -360,7 +361,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

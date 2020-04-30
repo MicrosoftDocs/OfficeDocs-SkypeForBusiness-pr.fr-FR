@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506845"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940711"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -77,7 +77,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
    - [Les 9 principaux moyens que Microsoft IT utilise pour activer le travail à distance de ses employés](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Teams pour l’éducation
+1. Teams pour l’éducation 
    - Si vous travaillez dans l’éducation et que vous voulez configurer les enseignants, les étudiants et les administrateurs sur Teams, utilisez Office 365 A1. Il s’agit de la version gratuite d’Office 365 disponible pour tous les établissements d’enseignement. Inscrivez-vous sur [Obtenir Office 365 gratuitement pour l’ensemble de votre établissement d’enseignement](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
    - Ne manquez pas [Prise en main des équipes pour les](remote-learning-edu.md)à distance.

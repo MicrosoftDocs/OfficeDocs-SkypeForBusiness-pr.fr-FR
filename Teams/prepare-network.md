@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43143786"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43945580"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -37,6 +37,16 @@ Si vous avez déjà [optimisé votre réseau pour Office 365](https://docs.micro
     |---------|---------|
     |Ports     |Ports UDP <strong>3478</strong> à <strong>3481</strong>        |
     |[Adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>et <strong>52.120.0.0/14</strong>         |
+
+> [!IMPORTANT]
+> Si vous avez besoin de fédérer avec Skype entreprise, en local ou en ligne, vous devrez configurer des enregistrements DNS supplémentaires.
+>
+>|Enregistrements CNAMe/nom d’hôte  |TTL  |Pointe vers l’adresse ou la valeur  |
+>|---------|---------|---------|
+>|SIP     |    3600     |    sipdir.online.lync.com     |
+>|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+>
+
 
     
 2.  Avez-vous un domaine vérifié pour Office 365 (par exemple, contoso.com) ?

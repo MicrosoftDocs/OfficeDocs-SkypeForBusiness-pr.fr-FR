@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 414ca42153ab336500aa7b2e9de42dd9fe7f2708
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902119"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940691"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Groupes Microsoft 365 et Microsoft teams
 =====================================
@@ -55,4 +55,4 @@ Lorsque vous créez une équipe, sur le système principal, vous créez un group
 
 Les fonctionnalités de groupe et les fonctionnalités de vos utilisateurs dépendent de l’emplacement d’appartenance au groupe. Par exemple, si vous supprimez un membre d’une équipe, il est également supprimé du groupe Office 365. La suppression du groupe entraîne la suppression immédiate de l’équipe et des canaux du client Teams. Si vous supprimez un membre d’un groupe à l’aide du centre d’administration Microsoft 365, il n’aura plus accès aux autres aspects de la collaboration tels que la bibliothèque de documents SharePoint Online, le groupe Yammer ou le partage OneNote. Toutefois, ils pourront toujours accéder à la fonctionnalité de conversation de l’équipe pendant environ deux heures.
 
-Pour gérer les membres d’une équipe, vous pouvez ajouter et supprimer des membres du client teams pour vous assurer que le contrôle d’accès en cascade approprié aux autres applications Cloud dépendantes est appliqué. Par ailleurs, vous éviterez une connaissance disconcertée qui laissait des personnes disposant de l’impression d’avoir accès aux ressources qu’elles utilisent (jusqu’à ce que le cycle de synchronisation suivant ajoute ou révoque l’accès à un composant particulier du service). Si vous ajoutez ou supprimez des membres d’équipe en dehors du client Teams (à l’aide du centre d’administration Microsoft 365, d’Azure AD ou d’Exchange Online PowerShell), les modifications peuvent prendre jusqu’à deux heures pour que les modifications soient répercutées dans Teams.
+Pour gérer les membres d’une équipe, vous pouvez ajouter et supprimer des membres du client teams pour vous assurer que le contrôle d’accès en cascade approprié aux autres applications Cloud dépendantes est appliqué. Par ailleurs, vous éviterez une connaissance disconcertée qui laissait des personnes disposant de l’impression d’avoir accès aux ressources qu’elles utilisent (jusqu’à ce que le cycle de synchronisation suivant ajoute ou révoque l’accès à un composant particulier du service). Si vous ajoutez ou supprimez des membres d’une équipe en dehors du client Teams (à l’aide du centre d’administration Microsoft 365, d’Azure AD ou d’Exchange Online PowerShell), il est possible que les modifications soient répercutées dans Teams.

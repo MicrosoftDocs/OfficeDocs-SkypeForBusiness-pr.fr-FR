@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170483"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940781"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
@@ -59,7 +59,7 @@ Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365
 
 - Si vos utilisateurs débutent avec les réunions Teams, partagez avec eux la formation [Gérer les réunions](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4). Consultez notre cours en ligne animé par un instructeur s’intitulant [Diriger des réunions de façon efficace avec Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings).
 
-- Pour en savoir plus sur la gestion des options de réunion, voir [Modifier les paramètres de vos participants pour une réunion Teams](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+- Pour en savoir plus sur la gestion des options de réunion, voir [Modifier les paramètres de vos participants pour une réunion Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
 - N’oubliez pas de [gérer les appareils de vos utilisateurs](device-management.md) : téléphones, casques, appareils photo. Pour obtenir les informations les plus récentes et à jour sur les appareils certifiés Teams, accédez aux [Appareils Teams](https://office.com/teamsdevices).
 

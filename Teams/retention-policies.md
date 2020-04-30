@@ -1,8 +1,8 @@
 ---
 title: Stratégies de conservation dans Microsoft Teams
 author: LanaChin
-ms.author: v-lanac
-manager: serdars
+ms.author: anwara
+manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -17,18 +17,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905466"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940771"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
 Les stratégies de conservation vous permettent de gérer plus efficacement les informations au sein de votre organisation. Utilisez les stratégies de conservation pour conserver les données requises pour se conformer aux stratégies internes, aux réglementations sectorielles ou aux besoins juridiques de votre organisation, et pour supprimer les données considérées comme un passif, que vous n’avez plus besoin de conserver ou qui n’ont pas de valeur juridique ou commerciale.
 
-Par défaut, les données relatives aux conversations, au canal et aux fichiers Teams sont conservées définitivement. En tant qu'administrateur, vous pouvez configurer des stratégies de conservation Teams pour les messages de conversation et de canal et décider, de manière proactive, de conserver les données, de les supprimer ou de les conserver durant une période donnée, puis de les supprimer.
+Par défaut, les données de chat, de canal et de fichiers de teams sont conservées définitivement, sauf s’il y a des tentatives de suppression du contenu via des stratégies de rétention, des suppressions de l’utilisateur, des suppressions d’administrateur, etc. En tant qu’administrateur, vous pouvez configurer des stratégies de rétention aux équipes pour les conversations et les messages de canal, et décider de manière proactive s’il convient de conserver les données, de les supprimer ou de les conserver pendant une période spécifique, puis de les supprimer.
 
 Pour créer et gérer des stratégies de rétention, vous pouvez créer et gérer des stratégies de rétention dans le [Centre de conformité Microsoft 365](https://protection.office.com/) ou utiliser les cmdlets PowerShell du centre de sécurité & conformité. Vous pouvez appliquer une stratégie de conservation Teams à l’ensemble de votre organisation ou à des utilisateurs et des équipes spécifiques.
 

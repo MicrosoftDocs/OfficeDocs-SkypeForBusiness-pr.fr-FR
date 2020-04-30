@@ -20,12 +20,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 389262df9117e07eefa1c78d6fd255bfc437fdad
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903109"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940651"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -49,10 +49,11 @@ Les téléphones suivants sont certifiés pour Microsoft teams :
 |AudioCodes C448HD (mode capuchon uniquement) | C450HD_TEAMS_0.225 | 2019 mars|
 |Crestron M100|2.3875.00068|2018 décembre|
 |UC Crestron Flex-P100-T & UC-P110-T  | 58.15.91.6 |2019 janvier|
-|Poly-trio 8500/8800 (mode partagé uniquement)| 5.9.0.10869|2019 juin|
+|Affichage ThinkSmart Lenovo|CD-18781Y. 200410.067|2020 avril|
 |Poly CCX400 | 1.0.0.0200 | 2020 janvier|
 |Poly CCX600 | 5.9.12.1111| 2020 janvier|
 |Poly CCX500 | 5.9.12.1111| 2019 décembre|
+|Poly-trio 8500/8800 (mode partagé uniquement)| 5.9.0.10869|2019 juin|
 |Yealink MP56| 122.15.0.6| 2020 mars|
 |Yealink VP59 | 91.15.0.16 |2019 juin|
 |Yealink T55 | 58.15.0.36 |2019|

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903349"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940611"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -53,7 +53,7 @@ Une licence utilisateur d’équipes peut être désactivée à tout moment. Lor
 ## <a name="manage-via-powershell"></a>Gérer via PowerShell
 
 > [!IMPORTANT]
-> Le nouveau-MsolLicenseOptions activera tous les services précédemment désactivés, sauf s’ils sont explicitement identifiés dans votre script personnalisé. Par exemple, si vous souhaitez laisser Exchange & Sway désactivé lors de la désactivation d’équipes, vous devez l’inclure dans le script ou Exchange & Sway sera activé pour les utilisateurs que vous avez identifiés. Pour utiliser une interface utilisateur pour gérer cette fonctionnalité, voir [outil de création de rapports et de gestion des licences Office 365-attribuer des licences en bloc](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) pour plus d’informations.
+> Le nouveau-MsolLicenseOptions activera tous les services précédemment désactivés, sauf s’ils sont explicitement identifiés dans votre script personnalisé. Par exemple, si vous souhaitez laisser Exchange & Sway désactivé lors de la désactivation d’équipes, vous devez l’inclure dans le script ou Exchange & Sway sera activé pour les utilisateurs que vous avez identifiés.
 
 L’activation et la désactivation de Teams comme licence de charge de travail via PowerShell sont effectuées comme pour n'importe quelle charge de travail. Le nom du plan de service est TEAMS1 pour Microsoft Teams. Pour GCC, le nom du plan de service est TEAMS_GOV. Dans le cas d’un nom de plan de service, le nom du plan de service est TEAMS_GCCHIGH. Pour DoD, le nom du plan de service est TEAMS_DOD (voir [désactiver l’accès aux services avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) pour plus d’informations).
 

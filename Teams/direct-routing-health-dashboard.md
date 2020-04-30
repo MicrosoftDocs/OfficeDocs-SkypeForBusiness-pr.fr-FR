@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment utiliser le tableau de bord d’état d’intégrité pour contrôler la connexion entre votre contrôleur de bordure de session et le routage direct.
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051800"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940741"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Tableau de bord d’État pour le routage direct
 
@@ -55,7 +55,7 @@ Le tableau de bord de santé fournit les informations suivantes relatives à l�
 
    La formule utilisée pour calculer NER est la suivante :
 
-   NER = appels à la demande + utilisateur occupé + sonne sans réponse + borne de rejet de borne x 100
+   NER = 100 x (appels en réponse + utilisateur occupé + sonne sans réponse + appel de rejet de terminaux)/Total appels
 
  
 - **Durée d’appel moyenne** : les informations relatives à la durée d’appel moyenne vous permettent de surveiller la qualité des appels. La durée moyenne d’un appel RTC 1:1 est de quatre à cinq minutes.  Toutefois, pour chaque société, cette moyenne peut varier.  Microsoft recommande d’établir un planning de référence pour la durée d’appel moyenne de votre entreprise. Si ce paramètre est largement inférieur au planning de référence, il est possible que vos utilisateurs rencontrent des problèmes de qualité d’appel ou de fiabilité et qu’ils raccrochent plus tôt que d’habitude. Si vous commencez à afficher une durée d’appel très basse moyenne, par exemple 15 secondes, les appelants peuvent se bloquer, car votre service ne fonctionne pas correctement. 
