@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918582"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950889"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -38,9 +38,9 @@ Le contenu de toutes les équipes n’est pas eDiscoverable. Le tableau suivant 
 
 | Type de contenu | eDiscoverable | Remarques |
 |:--- | --- |:--- |
-| Messages de discussion teams | Oui | Les messages instantanés de conversations sur lesquels les utilisateurs invités sont les seuls participants à une conversation 1:1 ou 1 : N ne sont pas eDiscoverable. |
+| Messages de discussion teams | Oui |  |
 | Enregistrements audio | Non | |
-| Messages de canal privé | Non | |
+| Messages de canal privé | Oui | |
 | Emoji, fichiers GIF, autocollants | Oui | |
 | Extraits de code | Non | |
 | Liens de discussion | Oui | |

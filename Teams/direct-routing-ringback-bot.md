@@ -11,16 +11,17 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment utiliser le robot de rappel pour le routage direct afin d’éviter les silences inattendus qui peuvent se produire lors de la mise en place d’un appel.
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9ee3f227faa736d7fdda3ebedc755c8ac5049d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1db113a610c153f821a0d92187744e6ca34e3ce3
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834994"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951189"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>Configurer le robot de rappel pour le routage direct
 
@@ -41,6 +42,6 @@ Pour activer le robot de rappel, définissez le paramètre **GenerateRingingWhil
 
 Pour désactiver le bot de rappel, définissez le paramètre **GenerateRingingWhileLocatingUser** sur **$false**. 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Aperçu de Teams PowerShell](teams-powershell-overview.md)
+- [Présentation de Teams PowerShell](teams-powershell-overview.md)

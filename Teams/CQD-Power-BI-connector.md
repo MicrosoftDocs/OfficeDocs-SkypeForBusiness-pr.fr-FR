@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227548"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952443"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -153,8 +153,12 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette zone, contact
 
 **<sup>2</sup>** les informations d’identification que vous utilisez pour bord *n’ont pas* besoin d’être identiques aux informations d’identification utilisées pour la connexion à l’application de bureau Power bi.
 
+## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quand le connecteur Power BI sera-t-il mis à jour à partir du statut « bêta » ?
 
-## <a name="related-topics"></a>Voir aussi
+Malgré la balise bêta, le connecteur de qualité d’appel pour Power BI est la version de connecteur, officiellement sécurisée par l’équipe Power BI pour refléter cela. Le processus de certification permettant de supprimer cette balise bêta est un processus complet et nécessite un engagement de l’équipe Power BI pour fournir également une assistance directe au connecteur. En raison de contraintes de temps, l’équipe Power BI ne peut actuellement pas fournir le support technique et la certification plus large, mais elle reste préoccupée à attester de la sécurité, de l’authenticité et des fonctionnalités générales du connecteur de qualité d’appel Microsoft.
+
+## <a name="related-topics"></a>Sujets associés
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)
