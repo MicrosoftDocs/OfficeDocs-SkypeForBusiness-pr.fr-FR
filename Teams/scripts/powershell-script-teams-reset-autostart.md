@@ -11,26 +11,27 @@ description: Utilisez ce script PowerShell pour réinitialiser le paramètre de 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16d0c9270cfa387c10d1c3e4b05ac5bb1d5f3f0a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780533"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951039"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="59a2f-103">Exemple de script PowerShell-réinitialiser le paramètre de démarrage automatique dans teams</span><span class="sxs-lookup"><span data-stu-id="59a2f-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="fd1aa-103">Exemple de script PowerShell-réinitialiser le paramètre de démarrage automatique dans teams</span><span class="sxs-lookup"><span data-stu-id="fd1aa-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
 
-<span data-ttu-id="59a2f-104">Utilisez ce script pour réinitialiser le paramètre de démarrage automatique équipes pour chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="59a2f-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="59a2f-105">Cela inclut les valeurs définies par l’utilisateur ou l’application Teams.</span><span class="sxs-lookup"><span data-stu-id="59a2f-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="59a2f-106">Par défaut, les équipes démarrent automatiquement lorsqu’un utilisateur se connecte à son ordinateur une fois qu’il est installé.</span><span class="sxs-lookup"><span data-stu-id="59a2f-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
+<span data-ttu-id="fd1aa-104">Utilisez ce script pour réinitialiser le paramètre de démarrage automatique équipes pour chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fd1aa-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="fd1aa-105">Cela inclut les valeurs définies par l’utilisateur ou l’application Teams.</span><span class="sxs-lookup"><span data-stu-id="fd1aa-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="fd1aa-106">Par défaut, les équipes démarrent automatiquement lorsqu’un utilisateur se connecte à son ordinateur une fois qu’il est installé.</span><span class="sxs-lookup"><span data-stu-id="fd1aa-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
 
-<span data-ttu-id="59a2f-107">Si vous avez déjà déployé des équipes et souhaitez définir le [paramètre empêcher Microsoft teams de démarrer automatiquement après l’installation](../msi-deployment.md#use-group-policy-recommended) de la stratégie de groupe pour désactiver le démarrage automatique d’équipes, vous devez commencer par définir le paramètre de stratégie de groupe sur la valeur souhaitée, puis exécuter ce script.</span><span class="sxs-lookup"><span data-stu-id="59a2f-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
+<span data-ttu-id="fd1aa-107">Si vous avez déjà déployé des équipes et souhaitez définir le [paramètre empêcher Microsoft teams de démarrer automatiquement après l’installation](../msi-deployment.md#use-group-policy-recommended) de la stratégie de groupe pour désactiver le démarrage automatique d’équipes, vous devez commencer par définir le paramètre de stratégie de groupe sur la valeur souhaitée, puis exécuter ce script.</span><span class="sxs-lookup"><span data-stu-id="fd1aa-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
 
-<span data-ttu-id="59a2f-108">Après le démarrage d’teams pour un utilisateur, les paramètres de démarrage automatique ne peuvent pas être désactivés à l’aide d’une stratégie de groupe.</span><span class="sxs-lookup"><span data-stu-id="59a2f-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
+<span data-ttu-id="fd1aa-108">Après le démarrage d’teams pour un utilisateur, les paramètres de démarrage automatique ne peuvent pas être désactivés à l’aide d’une stratégie de groupe.</span><span class="sxs-lookup"><span data-stu-id="fd1aa-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
 
-## <a name="sample-script"></a><span data-ttu-id="59a2f-109">Exemple de script</span><span class="sxs-lookup"><span data-stu-id="59a2f-109">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="fd1aa-109">Exemple de script</span><span class="sxs-lookup"><span data-stu-id="fd1aa-109">Sample script</span></span>
 
 ````powershell
 <#
@@ -146,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="59a2f-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="59a2f-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fd1aa-110">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="fd1aa-110">Related topics</span></span>
 
-- [<span data-ttu-id="59a2f-111">Installer Teams avec MSI</span><span class="sxs-lookup"><span data-stu-id="59a2f-111">Install Teams using MSI</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="59a2f-112">Déploiement d’équipes avec les applications Microsoft 365 pour les entreprises</span><span class="sxs-lookup"><span data-stu-id="59a2f-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="fd1aa-111">Installer Teams avec MSI</span><span class="sxs-lookup"><span data-stu-id="fd1aa-111">Install Teams using MSI</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="fd1aa-112">Déploiement d’équipes avec les applications Microsoft 365 pour les entreprises</span><span class="sxs-lookup"><span data-stu-id="fd1aa-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
