@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905336"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997215"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -346,7 +346,7 @@ Présenté dans cette mise à jour :
 
 [Prise en charge des versions de succursales actuelles de Microsoft teams](rooms-lifecycle-support.md)
 
-[Problèmes connus de Microsoft teams](known-issues.md)
+[Prendre en charge les équipes au sein de votre organisation](known-issues.md)
 
 [Planifier les Salles Microsoft Teams](rooms-plan.md)
 

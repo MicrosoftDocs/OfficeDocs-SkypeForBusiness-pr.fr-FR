@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240634"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997245"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
@@ -51,7 +51,7 @@ PATCH /teams/<team_id>
 
 En tant qu’administrateur, vous pouvez définir des stratégies en utilisant le centre d’administration Microsoft teams ou PowerShell pour contrôler les utilisateurs de votre organisation qui sont autorisés à créer des canaux privés.
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
 
 Les stratégies d’équipe permettent de définir quels utilisateurs de votre organisation peuvent créer des canaux privés. Pour en savoir plus, voir [gérer les stratégies d’équipes dans teams](teams-policies.md).
 
@@ -68,7 +68,7 @@ En tant qu’administrateur, vous pouvez utiliser l’API PowerShell ou Graph po
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>Utilisation de l’API Graph
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>Rechercher des URL SharePoint pour tous les canaux privés d’une équipe
 
-Que vous souhaitiez exécuter une découverte électronique ou un blocage légal sur des fichiers dans un canal privé ou concevoir une application métier qui place des fichiers dans des canaux privés spécifiques, vous avez besoin d’un moyen d’interroger les collections de sites SharePoint uniques créées pour chaque canal privé.
+Que vous souhaitiez effectuer une découverte électronique ou un blocage légal pour des fichiers dans un canal privé ou pour créer une application personnalisée qui place des fichiers dans des canaux privés spécifiques, vous pouvez utiliser une requête pour les collections de sites SharePoint uniques créées pour chaque canal privé.
 
 En tant qu’administrateur, vous pouvez utiliser les commandes de l’API PowerShell ou de Graph pour interroger ces URL.
 
@@ -106,7 +106,7 @@ En tant qu’administrateur, vous pouvez utiliser les commandes de l’API Power
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -236,7 +236,7 @@ Vous pouvez essayer ces commandes via l' [Explorateur de graphiques](https://dev
           ]
     }
     ```    
-2.  Procédez comme suit pour promouvoir le membre auprès d’un propriétaire &lt;,&gt;où &lt;group_id&gt;, channel_id &lt;et&gt; ID sont renvoyés à partir de l’appel précédent. Notez que &lt;l'&gt; ID &lt;et&gt; l’identifiant de l’utilisateur renvoyés par l’appel précédent ne sont pas identiques et ne sont pas interchangeables. Assurez-vous &lt;d'&gt;utiliser ID.
+2.     Procédez comme suit pour promouvoir le membre auprès d’un propriétaire &lt;,&gt;où &lt;group_id&gt;, channel_id &lt;et&gt; ID sont renvoyés à partir de l’appel précédent. Notez que &lt;l'&gt; ID &lt;et&gt; l’identifiant de l’utilisateur renvoyés par l’appel précédent ne sont pas identiques et ne sont pas interchangeables. Assurez-vous &lt;d'&gt;utiliser ID.
 
     **Demande**
 

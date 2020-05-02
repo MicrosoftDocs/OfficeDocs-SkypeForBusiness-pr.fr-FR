@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940671"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997165"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -353,7 +353,7 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
 - Lorsque le partage d’écran est configuré dans une configuration à plusieurs moniteurs, seul le moniteur principal est partagé.
 - La mise à l’échelle PPP élevée sur CWA n’est pas prise en charge.
 
-Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastructure VDI, voir [problèmes connus de teams](Known-issues.md).
+Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de support au sein de votre organisation](Known-issues.md).
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -361,7 +361,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

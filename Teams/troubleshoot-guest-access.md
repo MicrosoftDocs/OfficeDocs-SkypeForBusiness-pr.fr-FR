@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 52d3922bc68e942ad1cd58e40861fa8820ee6614
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 72c6db7bdc6ff8b765afdf38bfe910552b45cbf2
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778400"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997255"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résolution des problèmes liés à l’accès invité dans Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ ms.locfileid: "43778400"
 > Il est possible que les modifications ne prennent effet qu'après 24 heures. 
 
 
+- Pour savoir si le problème persiste, consultez l' [équipe de support au sein de votre organisation](Known-issues.md).
 - Pour rechercher les problèmes de prise en charge actuels avec l’accès invité dans Teams, voir [Résolution des problèmes liés à Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
-- Pour vérifier que votre problème est connu, consultez les [Problèmes connus pour Microsoft Teams](Known-issues.md).
 - Les invités sont des utilisateurs extérieurs à votre organisation. Si une personne se trouve à l'intérieur de votre organisation (y compris vos employés et les fournisseurs et agents sur site), elle ne peut pas être ajoutée en tant qu'invité. La même chose s'applique pour les affiliés.
 - Vous trouverez des informations sur les fonctionnalités d'accès invité à venir, nouvelles ou mises à jour, dans la [Feuille de route de Teams](https://aka.ms/teamsroadmap).
 - Indiquez-nous ce que vous souhaitez dans [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si vos invités remarquent des erreurs de licence
 
-L’accès invité dans Teams utilise Azure Active Directory (Azure AD) Business to Business (B2B) et son modèle de licence. L’accès invité est inclus dans l’ensemble des abonnements Microsoft 365 Business standard, Office 365 entreprise et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise.
+L’accès invité dans Teams utilise Azure Active Directory (Azure AD) Business to Business (B2B) et son modèle de licence. L’accès invité est inclus dans tous les abonnements Microsoft 365 Business Standard, Office 365 Enterprise et Office 365 Éducation. Aucune licence Office 365 supplémentaire n'est requise.
 
 > [!NOTE]
 > Pour pouvoir se connecter et utiliser les équipes en tant qu’invités sur un autre client (ressource), les équipes doivent être activées sur le client d’origine d’un invité.

@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170552"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006040"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
@@ -53,13 +53,13 @@ Pour afficher les informations que vous souhaitez inclure dans le tableau, cliqu
 
 ## <a name="upload-a-new-app"></a>Télécharger une nouvelle application
 
-Vous pouvez utiliser votre catalogue d’applications pour tester et distribuer des applications métier qui sont spécifiquement conçues pour votre organisation. Un package d’application teams est créé à l’aide de [teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Lorsque vous disposez du package d’application, vous pouvez l’ajouter à votre catalogue d’applications. Même si tous les utilisateurs de votre organisation peuvent afficher le catalogue d’applications, seuls les administrateurs généraux et les administrateurs des services teams peuvent les publier et les gérer.
+Vous pouvez utiliser votre catalogue d’applications pour tester et distribuer des applications personnalisées qui sont spécifiquement conçues pour votre organisation. Un package d’application teams est créé à l’aide de [teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Lorsque vous disposez du package d’application, vous pouvez l’ajouter à votre catalogue d’applications. Même si tous les utilisateurs de votre organisation peuvent afficher le catalogue d’applications, seuls les administrateurs généraux et les administrateurs des services teams peuvent les publier et les gérer.
 
 Pour télécharger une nouvelle application personnalisée dans le catalogue d’applications de votre client, cliquez sur **Télécharger une nouvelle application** pour télécharger votre package d’application au format. zip. Lorsque l’application n’est pas mise en surbrillance, vous devez effectuer une recherche dans le catalogue de votre application pour la trouver.
 
 Pour mettre à jour une application après son téléchargement, dans la liste des applications sur la page **gérer les applications** , cliquez sur le nom de l’application, puis cliquez sur **mettre à jour**. Cela a pour effet de remplacer l’application existante dans votre catalogue d’applications et toutes les stratégies d’autorisations et les stratégies de configuration des applications qui ont été appliquées pour l’application mise à jour.
 
-Pour en savoir plus, voir [gérer vos applications métier dans teams](manage-your-lob-apps.md).
+Pour en savoir plus, voir [gérer vos applications personnalisées dans teams](manage-your-custom-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Autoriser et bloquer des applications
 
@@ -93,6 +93,6 @@ Utilisez les paramètres d’application à l’échelle de l’Organisation pou
 3. Sous **applications personnalisées**, désactivez ou activez l’option **autoriser les interactions avec les applications personnalisées**. Ce paramètre détermine si les utilisateurs peuvent interagir avec les applications personnalisées. Pour plus d’informations, consultez [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
 4. Cliquez sur **Enregistrer** pour appliquer les paramètres de l’application à l’échelle de l’organisation.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

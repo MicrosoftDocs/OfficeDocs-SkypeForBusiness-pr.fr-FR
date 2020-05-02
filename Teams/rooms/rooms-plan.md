@@ -1,5 +1,5 @@
 ---
-title: Plan pour les salles de Microsoft teams
+title: Planifier les Salles Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Cet article décrit les considérations relatives à la planification pour le déploiement de Microsoft Teams, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 1d5236c522a0f3da6f2c2686e34db9d665a93d15
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825892"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997305"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier les salles de Microsoft teams
 
@@ -65,9 +65,9 @@ Vous pouvez déployer des salles de Microsoft teams avec Microsoft Teams, Skype 
 
 Utilisez l’approche décrite ci-dessous pour vous guider dans votre déploiement et pour personnaliser les exemples de sorties proposés dans ces articles en fonction de votre organisation.
 
-Commencez par comprendre les salles de conférence dont vous avez besoin et comment vous conformer ce qui vous convient le mieux, puis parcourez la sélection et la mise en œuvre de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et adoption des utilisateurs et développement d’opérations et de procédures de maintenance.
+Commencez par comprendre les salles de conférence dont vous avez besoin et en vous apportant ce qui vous convient le mieux, puis parcourez la sélection et la mise en œuvre de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des changements et de l’adoption des utilisateurs, et le développement d’opérations et de procédures de maintenance.
 
-![Commencez par comprendre ce dont vous avez besoin et votre vision qui vous convient, puis passez en revue la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et de l’adoption des utilisateurs, et le développement procédures et opérations de maintenance.](../media/room-systems-image2.png "Commencez par comprendre ce dont vous avez besoin et votre vision qui vous convient, puis passez en revue la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et de l’adoption des utilisateurs, et le développement procédures et opérations de maintenance.")
+![Commencez par comprendre ce que vous avez et votre vision qui fonctionne le mieux pour vous, puis parcourez la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des changements et de l’adoption des utilisateurs, et le développement d’opérations et de procédures de maintenance.](../media/room-systems-image2.png "Commencez par comprendre ce que vous avez et votre vision qui fonctionne le mieux pour vous, puis parcourez la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des changements et de l’adoption des utilisateurs, et le développement d’opérations et de procédures de maintenance.")
 
 Vous devrez peut-être coordonner ces activités entre plusieurs équipes. Nous vous proposons une vue d’ensemble des principales activités que vous devez aborder, ainsi que des suggestions pour les équipes qui participent en général au déploiement et à la gestion des systèmes de salle de conférence, pour vous aider à déterminer les personnes avec lesquelles vous avez besoin de travailler.
 
@@ -87,7 +87,7 @@ Vous devrez peut-être coordonner ces activités entre plusieurs équipes. Nous 
 
 ## <a name="room-inventory-and-capability-planning"></a>Inventaire de la salle et planification des capacités
 
-La première étape consiste à inventorier la réunion existante de votre organisation et les salles de conférence pour comprendre son environnement, sa taille, sa disposition et son objectif ainsi que les fonctionnalités que vous voulez que chaque salle de votre choix dispose à l’avenir, par exemple plus riche les fonctionnalités de collaboration seront activées dans la salle. 
+La première étape consiste à inventorier la réunion existante de votre organisation et les salles de conférence pour comprendre son environnement, sa taille, sa disposition et son objectif, et pour identifier les fonctionnalités qui doivent être activées dans le cadre de chaque salle, par exemple pour savoir quelles fonctionnalités de collaboration plus complètes seront activées dans la salle. 
 
 Une fois que vous avez créé un inventaire de l’équipement et des capacités dans chaque salle existante, vous devez disposer de la configuration requise pour le flux de la salle dans la planification de votre appareil pour créer une solution de conférence complète. Les modalités (audio, vidéo) nécessaires pour chaque pièce, en plus de la taille et de l’objectif de la salle, jouent un rôle important dans le choix de la solution la plus appropriée pour chaque pièce. 
 
@@ -150,7 +150,7 @@ Votre organisation doit exécuter les tâches de surveillance, d’administratio
 
 De nombreuses organisations disposent d’une équipe ou d’un partenaire AV qui gère leurs salles et périphériques de conférence. Cette équipe doit être chargée de l’acceptation des personnes qui géreront les périphériques de la salle de Microsoft teams pour contrôler les performances et déployer les mises à jour logicielles et les correctifs logiciels. 
 
-Envisagez la file d’attente du support technique pour laquelle vous dirigez les appels liés à Microsoft teams rooms֪, puis fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre l’utilisation des salles de Microsoft teams et les principales étapes de résolution des problèmes. Voici un bon point de départ pour cette FAQ : l’aide de l' [utilisateur](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et la [liste des problèmes connus](known-issues.md).
+Envisagez la file d’attente du support technique pour laquelle vous dirigez les appels liés à Microsoft teams rooms֪, puis fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre l’utilisation des salles de Microsoft teams et les principales étapes de résolution des problèmes. Le point de départ pour cette FAQ est l' [aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) de l’utilisateur et de la [prise en charge des équipes au sein de votre organisation](known-issues.md).
 
 |    |     |
 |-----------|------------|

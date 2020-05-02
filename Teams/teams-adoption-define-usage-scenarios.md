@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905866"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997265"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Définir des scénarios d’utilisation de Microsoft Teams
 
@@ -70,6 +70,6 @@ Après avoir parlé à une ou plusieurs parties prenantes de l’entreprise, vou
 ![Illustration illustrant un impact sur un scénario ou une difficulté](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Nous nous efforçons toujours d’en savoir plus sur l’utilisation des équipes par nos clients. Partager votre #TeamsStories avec nous dans le cadre de notre [Forum de discussion sur l’adoption]. Incluez le mot-dièse **#TeamsStories** dans votre billet. Le mode de fonctionnement des équipes au sein de votre organisation est toujours intéressé.
+> Nous nous efforçons toujours d’en savoir plus sur l’utilisation des équipes par nos clients. Partagez votre #TeamsStories avec nous dans notre [Forum de discussion](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)sur l’adoption du pilotage. Incluez le mot-dièse **#TeamsStories** dans votre billet. Le mode de fonctionnement des équipes au sein de votre organisation est toujours intéressé.
 
 ![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : les [premières adoptées et le rassemblement des commentaires](teams-adoption-onboard-early-adopters.md).
