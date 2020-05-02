@@ -276,14 +276,6 @@
 #### [Utilisation des appareils analogiques avec le routage direct](direct-routing-analog-devices.md)
 
 
-### [Migrer vers un routage direct](direct-routing-migrating.md)
-
-### Contrôler et dépanner le routage direct
-#### [Vue d’ensemble](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
-### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Routage géodépendant
 #### [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
 #### [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
@@ -297,12 +289,14 @@
 #### [Planifier l’optimisation des médias locaux](direct-routing-media-optimization.md)
 #### [Configurer l’optimisation des médias locaux](direct-routing-media-optimization-configure.md)
 
-### Contrôler et dépanner le routage direct
-#### [Vue d’ensemble](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migrer vers un routage direct](direct-routing-migrating.md)
+
+### Contrôler et dépanner le routage direct
+#### [Vue d’ensemble](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
+
 
 ### Référence technique pour le routage direct
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
