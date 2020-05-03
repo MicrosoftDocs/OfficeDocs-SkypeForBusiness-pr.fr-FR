@@ -7,6 +7,7 @@
 ### [Configuration requise](requirements.md)
 ### [Gestion des licences en ligne](rooms-licensing.md)
 ### [Planifier la gestion avec Azure Monitor](azure-monitor-plan.md)
+### [Planifier la gestion avec les salles de réunion gérées](managed-meeting-rooms.md)
 
 ## Déployer
 ### [Vue d’ensemble du déploiement](rooms-deploy.md)
