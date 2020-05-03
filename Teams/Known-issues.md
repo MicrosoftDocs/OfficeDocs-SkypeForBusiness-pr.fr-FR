@@ -1,5 +1,5 @@
 ---
-title: Problèmes connus pour Microsoft Teams
+title: Support pour Microsoft Teams au sein de votre organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,27 +9,35 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Utilisez cette liste de problèmes connus de l’application client Microsoft Teams et de l’expérience d’administration pour résoudre les problèmes au sein de votre organisation.
+description: Utilisez ces ressources pour le support de Microsoft Teams au sein de votre organisation, que vous soyez administrateur de Teams ou ingénieur du support technique.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902299"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997005"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
+# <a name="support-microsoft-teams-in-your-organization"></a>Support pour Microsoft Teams au sein de votre organisation
 
-Cet article répertorie les problèmes connus concernant Microsoft Teams, par fonctionnalité spécifique.
+Si vous recherchez les problèmes connus de Teams, vous êtes au bon endroit. Utilisez les ressources de cet article pour assurer le support de Teams au sein de votre organisation. 
 
-## <a name="common-issues-and-resolutions"></a>Résolutions et problèmes courants
+Commencez par examiner la liste des [problèmes courants et leurs résolutions](#common-issues-and-resolutions) plus bas dans cet article.
+
+Ensuite, si vous ne trouvez pas ce dont vous avez besoin, accédez à [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) et recherchez votre problème dans la table des matières ou dans la boîte de dialogue **Filtrer par titre**. 
+:::image type="content" source="media/known-issues1.png" alt-text="Capture d’écran de la table des matières et de la zone de filtre dans la page Résolution des problèmes de Teams":::
+
+Si vous êtes toujours bloqué, contactez le [Support Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+
+
+## <a name="common-issues-and-resolutions"></a>Problèmes courants et leurs résolutions
 
 > [!NOTE]
 > Si vous avez besoin d’aide pour déployer Teams afin de prendre en charge les travailleurs à distance (WFH) en raison du COVID-19, consultez la section [Prise en charge des travailleurs à distance avec Teams](support-remote-work-with-teams.md). De plus, vous pouvez avoir droit à une aide au déploiement dans le cadre du programme Microsoft 365 FastTrack. Visitez le [Centre FastTrack](https://www.microsoft.com/fasttrack) pour envoyer une demande.
@@ -55,4 +63,9 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |---------|---------|
 |Le message « Un élément est manquant ! » s'affiche chez vos clients.   |Veillez à [Activer Microsoft Teams pour votre école](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). Chez les clients EDU, Teams n’est pas activé par défaut ; vous devrez l’activer au préalable. <br><br>Ensuite, reportez-vous à la section [Enseignement et apprentissage à distance avec Office 365 Éducation](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4) pour découvrir les derniers conseils sur la configuration de votre établissement scolaire, la planification des leçons, les réunions virtuelles et le partage de contenu avec des étudiants.<br><br>Enfin, n’hésitez pas à consulter les vidéos de formation pour les administrateurs informatiques Microsoft Teams, les decks et bien plus encore sur [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md).        |
 
-Pour plus d’informations sur la résolution des problèmes liés à Microsoft Teams, consultez[Résolution des problèmes Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams).
+
+## <a name="related-topics"></a>Voir aussi
+
+[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Ressources de support pour Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
