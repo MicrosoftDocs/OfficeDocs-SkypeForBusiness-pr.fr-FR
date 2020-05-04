@@ -59,7 +59,7 @@
 ### [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 ### [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser Microsoft 365 ou Office 365 et des connecteurs personnalisés](Office-365-custom-connectors.md)
-### [Gérer vos applications métier](manage-your-lob-apps.md)
+### [Gérer vos applications personnalisées](manage-your-custom-apps.md)
 ### [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
@@ -676,6 +676,7 @@
 
 <!-- ============================================================ -->
 # Surveillance, maintenance et résolution des problèmes
+## [Support de Teams au sein de votre organisation](Known-issues.md).
 ## [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
 ### [Guide d’examen de l’expérience de qualité](quality-of-experience-review-guide.md)
 ### [Configurer la qualité de service dans Teams](QoS-in-Teams.md)
@@ -696,7 +697,6 @@
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 ## [Forum aux questions : soutenir vos employés en télétravail](FAQ-support-remote-workforce.md)
 ## [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
-## [Problèmes connus dans Teams](Known-issues.md)
 ## [Ressources de support pour Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
