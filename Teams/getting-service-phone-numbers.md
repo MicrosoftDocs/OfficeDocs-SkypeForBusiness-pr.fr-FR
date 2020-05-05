@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment obtenir de nouveaux numéros de téléphone et porter ou transférer des numéros existants pour les conférences audio, les standards automatiques et les files d’attente d’appels (numéros de service) pour les équipes.
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136714"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021986"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtention de numéros de téléphone de service
 
@@ -51,7 +51,7 @@ Il existe trois façons d’obtenir des numéros de service :
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **Ajouter**.
-2. Entrez un nom pour la commande et, si vous le souhaitez, ajoutez une description.
+2. Entrez un nom pour la commande et ajoutez une description.
 3. Sur la page emplacement et quantité, procédez comme suit :
     1. Dans **pays ou région**, sélectionnez un pays ou une région.
     1. Sous **type de nombre**, sélectionnez le type de service souhaité.
@@ -80,7 +80,7 @@ Dans le volet de navigation de gauche, accédez à**numéros de téléphone** **
 
 Une fois que vous avez obtenu vos numéros de service, attribuez chaque numéro à un pont de conférence audio. Voir [modifier les numéros payants ou les numéros gratuits de votre pont de conférence audio](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

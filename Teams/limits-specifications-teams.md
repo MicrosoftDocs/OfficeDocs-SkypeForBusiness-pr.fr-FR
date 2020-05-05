@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904029"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950969"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -134,6 +134,16 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Événements live simultanés dans une organisation Office 365 | 15 |
 
 Pour plus d’informations sur les événements en direct et pour voir une comparaison entre les événements en direct Teams et la diffusion de réunion Skype, accédez à [événements en direct Teams et diffusion de réunion Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+> [!IMPORTANT]
+> **Augmentation de la limite d’événements en direct Microsoft 365**
+> 
+> Dans le but de permettre aux clients de répondre à l’évolution rapide des besoins de communication, la limite par défaut des évènements en direct Microsoft 365, hébergés dans Teams, sera temporairement relevée jusqu’au 1er juillet 2020. Les relèvements ci-après sont en cours de déploiement à fin avril 2020 :
+> - Nombre limite de participants : les événements prendre en charge jusqu’à 20 000 participants.
+> - Événements simultanés : 50 événements à la fois peuvent être hébergés chez un client
+> - Longueur d’événement : la durée d’événement passe à 16 heures par diffusion
+
+
 
 ## <a name="presence-in-outlook"></a>Présence dans Outlook
 

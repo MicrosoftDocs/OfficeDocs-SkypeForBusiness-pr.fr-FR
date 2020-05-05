@@ -1,4 +1,4 @@
-Teams prend en charge les navigateurs suivants, avec quelques exceptions signalées pour les appels et les réunions.
+Teams prend en charge les navigateurs suivants, avec quelques exceptions signalées pour les appels et les réunions. Ce tableau s’applique aux systèmes d’exploitation fonctionnant sur des ordinateurs de bureau. 
 
 
 |Navigateur  |Appels :audio, vidéo et partage  |Réunions : audio, vidéo et partage<sup>1</sup> <sup>2</sup>  |
@@ -15,4 +15,6 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 <sup>2</sup> Brouiller mon arrière-plan n’est pas disponible lorsque vous exécutez Teams dans un navigateur. Cette fonctionnalité est uniquement disponible dans le client de bureau Teams.
 
 > [!NOTE]
-> Tant qu’un système d’exploitation peut exécuter le navigateur pris en charge, Teams est également pris en charge. Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
+> Tant qu’un système d’exploitation peut exécuter le navigateur pris en charge, Teams est également pris en charge sur des ordinateurs de bureau.. Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
+>
+> En ce qui concerne les systèmes d’exploitation mobiles, nous vous recommandons d’exécuter l’application Teams, disponible dans les magasins Android et iOS. L’exécution de Teams dans un système d’exploitation mobile est prise en charge, mais de nombreuses fonctionnalités ne sont pas disponibles.

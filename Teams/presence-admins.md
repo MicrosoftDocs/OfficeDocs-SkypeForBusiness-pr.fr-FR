@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Découvrez les statuts de présence dans Teams, ainsi que les paramètres d’administration de la fonctionnalité de présence.
+description: Découvrez les États de présence dans Teams, ainsi qu les paramètres administratifs de la fonctionnalité Présence.
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6432bac9dbbfe65cf3e139ecae00b02cd5ae8651
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43905766"
