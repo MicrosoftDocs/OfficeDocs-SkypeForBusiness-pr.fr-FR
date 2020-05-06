@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940711"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042421"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -33,7 +33,7 @@ Si vous avez une petite entreprise ou moyenne entreprise, ne manquez pas [Permet
 
 - Vérifiez que tous les utilisateurs ont accès à Teams, en utilisant l’**[Offre d’essai Office 365 E1](e1-trial-license.md) gratuite pendant 6 mois ** ou la **[version Freemium de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Si vous avez besoin d’aide, contactez l’équipe des comptes Microsoft ou votre partenaire.
 
--  Si vous avez déjà un abonnement qui inclut Teams, **[activer le pour tout le monde](assign-teams-licenses.md)**.
+-  Si vous avez déjà un abonnement qui inclut Teams, **[activer le pour tout le monde](user-access.md)**.
     
 - Découvrez comment faire en sorte que votre organisation commence avec **[des réunions et des événements en direct dans Teams](quick-start-meetings-live-events.md)**. 
 

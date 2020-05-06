@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940691"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041931"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Groupes Microsoft 365 et Microsoft teams
 =====================================
@@ -56,3 +56,11 @@ Lorsque vous créez une équipe, sur le système principal, vous créez un group
 Les fonctionnalités de groupe et les fonctionnalités de vos utilisateurs dépendent de l’emplacement d’appartenance au groupe. Par exemple, si vous supprimez un membre d’une équipe, il est également supprimé du groupe Office 365. La suppression du groupe entraîne la suppression immédiate de l’équipe et des canaux du client Teams. Si vous supprimez un membre d’un groupe à l’aide du centre d’administration Microsoft 365, il n’aura plus accès aux autres aspects de la collaboration tels que la bibliothèque de documents SharePoint Online, le groupe Yammer ou le partage OneNote. Toutefois, ils pourront toujours accéder à la fonctionnalité de conversation de l’équipe pendant environ deux heures.
 
 Pour gérer les membres d’une équipe, vous pouvez ajouter et supprimer des membres du client teams pour vous assurer que le contrôle d’accès en cascade approprié aux autres applications Cloud dépendantes est appliqué. Par ailleurs, vous éviterez une connaissance disconcertée qui laissait des personnes disposant de l’impression d’avoir accès aux ressources qu’elles utilisent (jusqu’à ce que le cycle de synchronisation suivant ajoute ou révoque l’accès à un composant particulier du service). Si vous ajoutez ou supprimez des membres d’une équipe en dehors du client Teams (à l’aide du centre d’administration Microsoft 365, d’Azure AD ou d’Exchange Online PowerShell), il est possible que les modifications soient répercutées dans Teams.
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>Possibilité d’ajouter un groupe en tant que participant lors de la planification de réunions
+----------------------------------------------------------
+
+À compter du 2020, vous pouvez désormais inviter un groupe à une réunion planifiée, en présentant les limitations suivantes :
+1. Tous les groupes et équipes Microsoft 365 créés à partir de groupes Microsoft 365 existants pourront être recherchés et pourront être ajoutés à la réunion. Toutefois, les membres recevront l’invitation à la réunion en fonction de leur abonnement au groupe.
+2. Les équipes créées de zéro avant le 2018 pourront peut-être effectuer une recherche dans la mesure où les membres ne recevront pas l’invitation à la réunion en raison de leur abonnement par défaut, qui n’est pas la réponse.» Vous pouvez le modifier à partir d’Outlook en modifiant les paramètres du groupe.
+3. Les équipes créées à partir de zéro après le 2018 peuvent être recherchées et masquées à l’aide de la propriété « HiddenFromAddressListsEnabled ». Il s’agit d’un paramètre contrôlé par l’administrateur qui peut être modifié par l’administrateur.

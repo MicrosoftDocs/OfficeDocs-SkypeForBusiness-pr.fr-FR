@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : les administrateurs de Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge sur les clients.'
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777799"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041951"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités des clients de bureau pour Skype entreprise Server 2015
 
@@ -188,7 +188,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Collecte d'appel de groupe  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Routage basé sur un emplacement  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Gérer un groupe Response Group/un groupe d’appel d’équipe |&#x2714;||&#x2714;|||||||
-
+|Répondre à l’appel de standard automatique |&#x2714;||&#x2714;|||||||
  &#x2776; cette fonctionnalité n’est pas disponible dans Skype entreprise online.
   
 ## <a name="external-users-support"></a>Prise en charge des utilisateurs externes

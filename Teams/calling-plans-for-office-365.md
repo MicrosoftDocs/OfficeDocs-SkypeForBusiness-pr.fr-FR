@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905016"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041731"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
@@ -58,19 +58,19 @@ Pour obtenir des informations détaillées sur les limites et les conditions d�
     ![Capture d’écran montrant l’option d’achat d’une offre d’appels vocaux.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > En fonction de votre plan, il est possible que vous deviez acheter des modules complémentaires avant de pouvoir acheter des licences de système téléphonique. Pour en savoir plus, voir « options de licence en fonction de votre plan » dans la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > En fonction de votre plan, il est possible que vous deviez acheter des modules complémentaires avant de pouvoir acheter des licences de système téléphonique. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Une fois que vous avez acheté des licences de système téléphonique, vous pouvez acheter l’offre d’appels en vous connectant au **Centre d’administration 365**, puis en cliquant sur**abonnements de complément****services** > de **facturation** > , puis sur **acheter maintenant**. Les plans d’appel apparaissent là.
     
     ![Capture d’écran montrant les options du plan d’appels vocaux.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-En fonction des besoins de votre organisation, vous pouvez acheter et attribuer différentes offres d’appels à différents utilisateurs. Après avoir sélectionné le plan d’appel dont vous avez besoin, procédez à l’extraction. Vous attribuez un plan à chaque utilisateur dans le centre d’administration Microsoft 365. Pour savoir comment procéder, voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
+En fonction des besoins de votre organisation, vous pouvez acheter et attribuer différentes offres d’appels à différents utilisateurs. Après avoir sélectionné le plan d’appel dont vous avez besoin, procédez à l’extraction. Vous attribuez un plan à chaque utilisateur dans le centre d’administration Microsoft 365. Pour savoir comment procéder, voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Avez-vous un fournisseur de services proposant une connectivité RTC sur site aux utilisateurs hybrides ?
 
 Si tel est le cas, vous n’avez pas besoin d’acheter un plan d’appel. Office 365 entreprise E5 inclut le module complémentaire **système téléphonique** , de sorte que vous pouvez procéder à l’extraction.
   
-Ensuite, affectez les licences de compléments entreprise E5 ou du **système téléphonique** aux utilisateurs du centre d’administration 365 Microsoft. Pour savoir comment procéder, voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
+Ensuite, affectez les licences de compléments entreprise E5 ou du **système téléphonique** aux utilisateurs du centre d’administration 365 Microsoft. Pour savoir comment procéder, voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## <a name="pricing-information"></a>Informations de tarification
 
@@ -91,7 +91,7 @@ Voici d’autres articles sur la configuration de vos plans d’appel :
 - [Voici les avantages du système téléphonique dans Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

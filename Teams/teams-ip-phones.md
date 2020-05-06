@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: fddb09ee2da24629cce7c942847d5a2ae445d7a1
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951209"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041832"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -73,7 +73,7 @@ Pour plus d’informations sur les fonctionnalités prises en charge par ces app
 
 Pour déterminer la version du microprogramme [sur un appareil mobile](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) , voir recherche de la version du microprogramme sur votre appareil mobile.
 
-Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement microsoft 365 ou Office 365](/MicrosoftTeams/Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
+Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement microsoft 365 ou Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
 Pour plus d’informations sur l'obtention de Teams, consultez [Comment obtenir l’accès à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

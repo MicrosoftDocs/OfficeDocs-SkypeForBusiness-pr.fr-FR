@@ -20,14 +20,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: En savoir plus sur l’affectation d’une licence de système téléphonique à un compte de ressources au sein de votre organisation.
-ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904786"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042411"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Système téléphonique Microsoft 365-licence utilisateur virtuel 
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Système téléphonique Microsoft 365-licence utilisateur virtuel
 
 Les organisations disposant d’une licence de système téléphonique peuvent attribuer un système téléphonique Microsoft 365 gratuit-licence utilisateur virtuel ou une licence utilisateur de système téléphonique payant aux comptes de ressources. Un plan d’appels n’est pas obligatoire. Tous les standards automatiques ou files d’attente d’appels nécessitent un compte de ressources associé. Les comptes de ressources qui requièrent un numéro de téléphone doivent disposer d’un système téléphonique Microsoft 365 gratuit-licence d’utilisateur virtuel ou d’une licence utilisateur de système téléphonique payant avant qu’un numéro de téléphone puisse être appliqué au compte de ressources.
 
@@ -41,7 +41,7 @@ Les organisations disposant d’une licence de système téléphonique peuvent a
 Votre organisation est allouée par le système téléphonique Microsoft 365 : les licences utilisateur virtuelles en fonction de la taille globale. Toute organisation qui dispose d’au moins une licence, y compris système téléphonique ou doté d’un système téléphonique, a 25 licences utilisateur virtuelles disponibles sans frais. Lorsque vous ajoutez 10 licences utilisateur de système téléphonique au sein de votre organisation, un système téléphonique Microsoft 365 supplémentaire est disponible pour les utilisateurs virtuels.
 
 > [!NOTE]
-> Le système téléphonique est une licence de complément disponible avec Office 365 E1 et E3. Le système téléphonique est également inclus dans le cadre des licences Office 365 E5 et Microsoft 365 Business Voice.
+> Le système téléphonique est une licence de complément disponible avec Microsoft 365 et Office 365 E1 et E3. Le système téléphonique est également fourni dans le cadre de Microsoft 365 E5, Office 365 E5 et des licences Microsoft 365 Business Voice.
 
 Si votre organisation utilise la version gratuite du système téléphonique Microsoft 365, les licences utilisateur virtuelles permettant de créer des nœuds de files d’attente ou de file d’attente d’appels, vous pouvez toujours utiliser les licences du système téléphonique payant avec un compte de ressources. La plupart des organisations disposeront de licences utilisateur virtuelles suffisantes en fonction de l’offre de mise à l’échelle. 
 

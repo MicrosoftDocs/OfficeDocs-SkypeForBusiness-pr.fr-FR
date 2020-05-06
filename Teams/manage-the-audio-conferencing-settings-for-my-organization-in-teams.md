@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141157"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042481"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -39,7 +39,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
 ## <a name="assign-an-audio-conferencing-license"></a>Attribuer une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences par le biais de Teams. Vous devez utiliser le centre d’administration Microsoft 365. Reportez-vous à la rubrique [Attribuer des licences Skype Entreprise et Microsoft Teams](assign-teams-licenses.md) 
+> Vous ne pouvez pas attribuer de licences par le biais de Teams. Vous devez utiliser le centre d’administration Microsoft 365. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). 
   
  **Pour attribuer une licence à un utilisateur**
   

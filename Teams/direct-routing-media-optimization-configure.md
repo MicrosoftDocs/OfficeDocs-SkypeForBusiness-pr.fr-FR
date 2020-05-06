@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurer l’optimisation locale des médias pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a69a46d7620628c7afffb706354c0f6e7868f3d
-ms.sourcegitcommit: 3dd6499416e9fbdcb48187c6322bd607290502ce
+ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541591"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047853"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation locale des médias pour le routage direct
 
@@ -71,9 +71,6 @@ L’optimisation des éléments multimédias locaux est prise en charge par les 
 |            |  SBC 5400         | 8,2  |
 |            |  SBC 7000         | 8,2  |
 |            |  SBC SWe          | 8,2  |
-| [Ruban SBC du ruban](https://support.sonus.net/display/UXDOC81/Microsoft+Teams+Direct+Routing+-+On+Premises+Deployment)  |  SBC 1000         | 8.1.1, Build 527 |
-|            |  SBC 2000         | 8.1.1, Build 527 |
-|            |  SBC SWe Lite     | 8.1.0, Build 222 |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |
@@ -269,7 +266,7 @@ Le diagramme suivant illustre l’échelle SIP pour un appel entrant avec le mod
 
 | Veille |    Utilisateur |  Site |  Direction de l’appel
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  S/O | Sortant |
+AlwaysBypass |  Externe |  N/A | Sortant |
 
 
 Le diagramme suivant illustre l’échelle SIP pour un appel sortant avec le mode AlwaysBypass et l’utilisateur est externe :
@@ -288,7 +285,7 @@ Le tableau suivant montre les en-têtes X-MS envoyés par le service de routage 
 
 | Veille | Utilisateur | Site |  Direction de l’appel |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  S/O |   Entrant |
+AlwaysBypass |  Externe |  N/A |   Entrant |
 
 Dans le cas d’un appel entrant, l’appel SBC connecté au routage direct doit envoyer une nouvelle invitation (par défaut, les candidats de média local sont toujours proposés) si l’emplacement de l’utilisateur est externe.  Le X-MediaPath est calculé en fonction de record-route et de l’utilisateur SBC spécifié.
 

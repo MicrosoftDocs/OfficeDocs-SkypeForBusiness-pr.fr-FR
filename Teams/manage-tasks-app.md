@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940929"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042491"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application tâches pour votre organisation dans Microsoft teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940929"
 
 ## <a name="overview-of-tasks"></a>Vue d’ensemble des tâches
 
-L’application tâches offre une interface de gestion des tâches cohésive à Microsoft Teams, intégrant les tâches personnelles grâce aux tâches d’équipe et aux tâches effectuées par le planificateur au même endroit. Les utilisateurs peuvent accéder aux tâches en tant qu’application sur le côté gauche d’une équipe et en tant qu’onglet dans un canal au sein d’équipes individuelles. Les **listes personnelles** et les **listes d’équipes** dans les tâches permettent aux utilisateurs d’afficher et de gérer toutes les tâches personnelles et d’équipe, et de hiérarchiser leur travail. Le complément tâches est disponible dans les applications de bureau, Web et mobiles Teams. 
+L’application tâches offre une interface de gestion des tâches cohésive à Microsoft Teams, intégrant les tâches personnelles gérées par [Microsoft aux](https://todo.microsoft.com/tasks/) tâches d’équipe et aux tâches d’équipe gérées par le planificateur au même endroit. Les utilisateurs peuvent accéder aux tâches en tant qu’application sur le côté gauche d’une équipe et en tant qu’onglet dans un canal au sein d’équipes individuelles. Les **listes personnelles** et les **listes d’équipes** dans les tâches permettent aux utilisateurs d’afficher et de gérer toutes les tâches personnelles et d’équipe, et de hiérarchiser leur travail. Le complément tâches est disponible dans les applications de bureau, Web et mobiles Teams. 
 
 > [!NOTE]
 > À mesure que nous déployons l’expérience de tâches sur les clients teams de bureau, le nom de l’application s’affichera initialement en tant que **planificateur** aux utilisateurs. Le nom sera alors provisoirement modifié **en tâches par Planner et à faire**, et par la suite, il sera renommé **tâches**. Pour les clients mobiles Teams, le nom de l’application s’affichera toujours en tant que **tâches**. La disponibilité de l’expérience mobile peut prendre un peu de temps après la disponibilité de l’expérience de bureau.

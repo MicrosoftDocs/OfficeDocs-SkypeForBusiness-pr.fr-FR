@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Familiarisez-vous avec les offres d’appels, y compris les plans d’affichage disponibles dans votre région, l’achat & l’attribution de licences, l’obtention de numéros de téléphone et l’ajout d’adresses de secours & emplacements.
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140877"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042401"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -45,7 +45,7 @@ Si les offres d’appels ne sont pas disponibles dans votre pays ou région, env
     > [!TIP]
     > Les licences de **système téléphonique** et les forfaits d’appels dans Office 365, de sorte que vous pouvez voir l’option d’achat d’offres d’appel, vous devez d’abord disposer de licences de **système téléphonique** .
   
-2. Tout d’abord, affectez les licences, puis affectez un plan d’appels aux personnes de votre organisation. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
+2. Tout d’abord, affectez les licences, puis affectez un plan d’appels aux personnes de votre organisation. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Étape 3 : obtenir des numéros de téléphone
 Il existe trois façons d’obtenir de nouveaux numéros utilisateur :

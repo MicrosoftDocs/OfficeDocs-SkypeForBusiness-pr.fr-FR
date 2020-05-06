@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: En savoir plus sur l’option de paiement à la minute pour activer les fonctionnalités de l’audioconférence pour les organisations qui utilisent le programme de licence en volume Microsoft.
-ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139163"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041721"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -74,7 +74,7 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
   
 ## <a name="want-to-find-out-more-about-pricing"></a>Vous voulez en savoir plus sur les tarifs ?
 
- **Vous recherchez les prix ?** Découvrez [Comment consulter les prix et acheter des licences de complément](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou l’une des options suivantes :
+ **Vous recherchez les prix ?** Voir les rubriques suivantes :
   
 - [Tarifs de l’Audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
@@ -82,7 +82,7 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
     
 - [Tarifs de forfaits d'appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
   
 [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

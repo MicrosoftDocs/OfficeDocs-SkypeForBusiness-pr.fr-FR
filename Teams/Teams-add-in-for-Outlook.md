@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749571"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042211"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -124,12 +124,12 @@ Procédez comme suit pour résoudre les problèmes liés au complément réunion
 
 Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour installer Outlook, essayez de suivre ces étapes de dépannage.
 
+- Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
 - Vérifiez que l’utilisateur dispose d’une stratégie de mise à niveau équipes permettant de planifier des réunions dans Teams. Pour plus d’informations, consultez la rubrique [mise à niveau de Skype entreprise vers teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Vérifiez que l’utilisateur dispose d’une stratégie de réunion teams qui autorise le complément Outlook. Pour plus d’informations, voir [gérer les stratégies de réunion dans teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Assurez-vous que l’utilisateur a installé le client de bureau Teams. Le complément de la réunion ne sera pas installé uniquement lors de l’utilisation du client Web Teams.
-- Assurez-vous que l’utilisateur est autorisé à exécuter Regsvr32. exe.
+- Assurez-vous que l’utilisateur est autorisé à exécuter Regsvr32. exe.  Pour plus d’informations, consultezhttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Vérifiez que toutes les mises à jour disponibles pour le client de bureau Outlook ont été appliquées.
-- Vérifiez que le nom du compte utilisateur connecté ne contienne pas d’espaces. (Il s’agit d’un problème connu qui sera corrigé dans une prochaine mise à jour.)
 - Procédez comme suit :
   - Redémarrez le client de bureau Teams.
   - Déconnectez-vous, puis reconnectez-vous pour le client de bureau Teams.

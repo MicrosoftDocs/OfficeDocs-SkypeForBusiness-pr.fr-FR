@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur l’activation et l’utilisation du tableau de bord de qualité des appels et obtenez des rapports de synthèse sur la qualité des appels.
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918845"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047388"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -482,6 +482,8 @@ Créez des rapports détaillés dans bord et filtrez sur ID de réunion pour con
  
 La télémétrie ne sera pas nécessairement à l’origine du problème, mais elle peut vous aider à mieux comprendre la façon dont vous pouvez trouver et informer vos décisions. S’agit-il des mises à jour du réseau, du périphérique, du pilote ou du microprogramme, de l’utilisation ou de l’utilisateur ?
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Pourquoi est-ce que je vois une différence de 0,2% dans les valeurs d’appel et de nombre d’utilisateurs sur les mesures et comment obtenir des volumes plus précis ? 
+Pour calculer le nombre d’appels et les mesures de nombre d’utilisateurs, une opération NB.si distincte est effectuée par rapport aux identificateurs d’appel ou d’utilisateur du jeu de données. Dans de grands ensembles de données, il y a une erreur de plus de 0,2% d’inherient avec le opeartion NB.si distinct. Pour obtenir le volume le plus précis, vous devez vous fier aux mesures de nombre de flux, car elles ne dépendent pas de cette opération NB.si distincte. Le filtrage permettant de réduire le volume de données risque de réduire l’erreur, mais il est possible que vous n’elimnate pas cette source d’erreur dans les nombre d’appels et d’utilisateurs distincts. Reportez-vous aux [sections Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md) pour lesquels des mesures sont affectées.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Pourquoi les données du rapport bord v2 sont-elles différentes de celles du rapport bord v3 ? 
 
@@ -530,7 +532,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

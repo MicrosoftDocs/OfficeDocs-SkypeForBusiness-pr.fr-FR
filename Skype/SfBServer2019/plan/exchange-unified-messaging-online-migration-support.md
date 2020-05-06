@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780773"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042831"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration de messagerie unifiée Exchange Online
 
@@ -135,6 +135,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités de service | Découverte électronique et conservation  | Pour la sécurité et la conformité  | v | v    |
 | Media | Fonctionnalités de service | Prise en charge des règles Exchange | Pour la sécurité et la conformité  | v | v    |
 | Media | Fonctionnalités utilisateur | Accès commuté RTC  | Accès abonné  | N | v    |
+| Media | Fonctionnalités utilisateur | Délégué  | message d’appel manqué  | N | v    |
 | Media | Fonctionnalités utilisateur | RTC Outlook Voice Access   | Accès abonné  | N | v    |
 | Media | Fonctionnalités utilisateur | Appels entrants à l’aide d’un point de terminaison authentifié | Appel du service de messagerie vocale pour écouter les messages vocaux et modifier les paramètres de messagerie vocale| v | v    |
 | Media | Fonctionnalités utilisateur | Paramètre utilisateur permettant de désactiver la messagerie vocale   |  | v | v    |

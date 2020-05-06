@@ -15,12 +15,12 @@ description: Suivez ces instructions pour déployer Microsoft teams en tant que 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780373"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041711"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Commencez par déployer Microsoft teams
 
@@ -43,7 +43,7 @@ Pour commencer à utiliser votre premier déploiement de Microsoft Teams, vous d
     Pour comprendre les attributs synchronisés avec la synchronisation AAD, voir [synchronisation d’Azure ad Connect : attributs synchronisés avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Licences utilisateur appropriées affectées aux équipes  
-    Pour comprendre la gestion des licences d’équipes, voir gestion [des licences Office 365 pour Microsoft teams](office-365-licensing.md)
+    Pour comprendre les licences d’équipe, voir [Description du service Microsoft teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Réseau de l’organisation préparé pour teams  
     Pour mieux comprendre la préparation du réseau, voir [préparer le réseau de votre organisation pour teams](prepare-network.md).
@@ -54,7 +54,7 @@ Pour commencer à utiliser votre premier déploiement de Microsoft Teams, vous d
 > Les clients créés après le 1er septembre 2019 sont configurés en mode équipes uniquement.
 > 
 > [!IMPORTANT]
-> Si vous avez déployé Skype entreprise Server et que votre client a été approvisionné après le 1er septembre 2019, contactez le support premier pour activer les fonctionnalités de coexistence pour Teams. Assurez-vous que votre « stratégie de mise à niveau de l’organisation » est définie sur « mode insulaire » <span class="underline">avant</span> d’affecter des licences teams à un utilisateur.
+> Si vous avez déployé Skype entreprise Server et que votre client a été approvisionné après le 1er septembre 2019, contactez le support technique pour activer les fonctionnalités de coexistence pour Teams. Assurez-vous que votre « stratégie de mise à niveau de l’organisation » est définie sur « mode insulaire » <span class="underline">avant</span> d’affecter des licences teams à un utilisateur.
 
 ## <a name="migration-starting-points"></a>Points de départ de la migration
 
@@ -233,7 +233,7 @@ Pour en savoir plus <a href="https://docs.microsoft.com/microsoftteams/admin-set
 
 1.  Répondez aux conditions préalables décrites dans la section début here ci-dessus.
 
-2.  Changer de locataire en mode îlots (pour les clients approvisionnés après 9/1/2019, contactez le support premier pour apporter cette modification)  
+2.  Changer de locataire en mode îlots (pour les clients approvisionnés après 9/1/2019, veuillez contacter le support technique pour apporter cette modification)  
     [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  Configurer votre client conformément aux politiques de votre entreprise  
@@ -292,7 +292,7 @@ Pour des détails spécifiques sur chacun des services indiqués ci-dessus, suiv
   - Les [groupes Microsoft 365](office-365-groups.md) sont utilisés pour la création et la gestion d’équipes et de canaux.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Illustrations architecture IT Microsoft Teams et solutions téléphonie](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

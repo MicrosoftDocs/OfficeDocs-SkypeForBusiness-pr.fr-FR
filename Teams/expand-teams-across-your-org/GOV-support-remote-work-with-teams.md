@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de l’organisation du service public grâce à Microsoft Teams, en particulier lorsqu’ils travaillent à domicile en réponse à l’épidémie de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079386"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042381"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Prise en charge des employés du secteur public travaillant à distance avec Microsoft Teams
 
@@ -33,7 +33,7 @@ Découvrez comment préparer Teams dans votre organisation :
 
   - Vérifiez que tous les utilisateurs ont accès à Teams, en utilisant l’**[Offre d’essai Office 365 G1](../g1-trial-license.md) gratuite pendant 6 mois ** Si vous avez besoin d’aide, contactez l’équipe des comptes Microsoft ou votre partenaire.
 
-  - Si vous avez déjà un abonnement, vérifiez que **[Teams est activé](../assign-teams-licenses.md)** pour tout le monde.
+  - Si vous avez déjà un abonnement, vérifiez que **[Teams est activé](../user-access.md)** pour tout le monde.
 
   - Pour un déploiement rapide, consultez le [**PowerPoint sur l’implémentation de Teams**](https://aka.ms/TeamsGovFastPath) pour déployer Teams au sein de votre organisation.
 
