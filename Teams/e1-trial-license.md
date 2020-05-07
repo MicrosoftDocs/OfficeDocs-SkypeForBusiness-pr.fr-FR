@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978486"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042391"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gérer la version d’évaluation d’Office 365 E1
 ==============================
@@ -59,7 +59,7 @@ Une fois que vous avez utilisé votre code promotionnel d’évaluation E1, vou
 
 ## <a name="manage-the-e1-trial"></a>Gérer l’évaluation E1
 
-Une fois activée la version d’évaluation Office 365 E1, activez la licence pour les utilisations qui en ont besoin. Pour plus d'informations, lire la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Une fois activée la version d’évaluation Office 365 E1, activez la licence pour les utilisations qui en ont besoin. Pour plus d'informations, lire la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md).
 
 
 Une fois que vous avez activé la version d’évaluation E1 pour les utilisateurs qui en ont besoin, vous devez gérer ces utilisateurs de la même manière que les utilisateurs disposant d’une licence payante. Pour plus d’informations, voir [Gérer les paramètres de Teams pour votre organisation](enable-features-office-365.md).
@@ -76,7 +76,7 @@ Pour migrer les utilisateurs de l'évaluation E1 vers une version payante :
 
 3. Affectez la licence nouvellement achetée.
 
-Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsoft Teams](Office-365-licensing.md).
+Pour plus d’informations, voir [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Si la licence d'essai E1se termine et qu'un utilisateur n’est pas immédiatement mis à jour vers un abonnement incluant Teams, les données des utilisateurs ne sont pas supprimées. L’utilisateur existe toujours dans Azure Active Directory et toutes les données au sein de Teams sont disponibles. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour activer la fonctionnalité Teams de nouveau, tout le contenu existera encore. 
@@ -90,7 +90,7 @@ Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsof
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 
 [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
 
