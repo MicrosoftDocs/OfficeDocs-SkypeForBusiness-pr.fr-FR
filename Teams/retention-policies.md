@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940771"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042441"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -55,7 +55,7 @@ Avec les stratégies de conservation pour Teams, vous pouvez :
 
 Les utilisateurs peuvent continuer à travailler avec les données soumises à une stratégie de conservation car celles-ci sont conservées dans leur emplacement d’origine. Si un utilisateur modifie ou supprime les données soumises à la stratégie, une copie est enregistrée dans un emplacement sécurisé et est conservée tant que la stratégie est en vigueur.
 
-La licence minimale requise pour les stratégies de conservation est Office 365 E3. Si vous souhaitez en savoir plus sur les licences Teams, consultez l’article [Licence Office 365 pour Teams](Office-365-licensing.md).
+La licence minimale requise pour les stratégies de conservation est Office 365 E3. Pour en savoir plus sur les licences, consultez la rubrique [Description du service Microsoft teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-work"></a>Fonctionnement des stratégies de conservation Teams
 

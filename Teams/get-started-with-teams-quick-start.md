@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136774"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042801"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -55,7 +55,7 @@ Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que
 - [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
     - Cela inclut la configuration de votre domaine Office 365, SharePoint Online, Exchange Online et OneDrive Entreprise.
 
-- Obtenez des licences Teams pour tout le monde. Consultez les articles [Plans de Teams](https://products.office.com/microsoft-teams/free) et [Délivrance de licence Office 365 pour Teams](office-365-licensing.md). 
+- Obtenez des licences Teams pour tout le monde. Voir [Offres Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) et [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 - [En savoir plus sur les avantages de l’installation de clients de bureau, web et mobiles](get-clients.md)
 
@@ -65,7 +65,7 @@ Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que
    - [Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> Si votre organisation utilise Skype Entreprise Server en local (ou Serveur Lync), vous devez [configurer Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Office 365. 
+   > Si votre organisation utilise Skype Entreprise Server en local (ou Serveur Lync), vous devez [configurer Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Office 365. 
 
 
 ## <a name="next-steps"></a>Étapes suivantes

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858719"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042811"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gérez la version d’évaluation d’Office 365 G1 pour le gouvernement américain 
 ==============================
@@ -55,7 +55,7 @@ Une fois que vous avez utilisé votre code promotionnel d’évaluation G1, vou
 
 ## <a name="manage-the-g1-trial"></a>Gérer la version d'évaluation G1
 
-Une fois activée la version d’évaluation Office 365 G1, activez la licence pour les utilisations qui en ont besoin. Pour en savoir plus sur ce processus, lire la rubrique  [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Une fois activée la version d’évaluation Office 365 G1, activez la licence pour les utilisations qui en ont besoin. Pour en savoir plus sur ce processus, lire la rubrique  [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md).
 
 Une fois que vous avez activé la version d’évaluation G1 pour les utilisateurs qui en ont besoin, vous devez gérer ces utilisateurs de la même manière que ceux disposant d’une licence payante. Pour plus d’informations, consultez  [Gérer les paramètres de Teams pour votre organisation](enable-features-office-365.md).
 
@@ -82,7 +82,6 @@ Pour plus d’informations, consultez [Teams pour le gouvernement](expand-teams-
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 
 [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
-

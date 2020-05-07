@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749821"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064479"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -184,12 +184,16 @@ Les clients mobiles teams pourront voir les applications principales de teams, t
 
 Les utilisateurs peuvent modifier l’ordre de leurs applications épinglées sur les ordinateurs de bureau et mobiles teams si l’option **autoriser l’épinglage** de l’utilisateur est activée. Les utilisateurs ne peuvent pas modifier l’ordre de leurs applications attachées sur les clients Web Teams.
 
+#### <a name="does-user-pinning-take-precedence"></a>L’épinglage de l’utilisateur est-il prioritaire ?
+
+Si la stratégie de configuration de l’application affectée à l’utilisateur est modifiée pour bloquer le verrouillage de l’application utilisateur, teams supprime toutes les applications épinglées à la barre de l’application. Si la stratégie est alors modifiée de façon à autoriser le verrouillage de l’application utilisateur, les utilisateurs doivent réépingler leurs applications épinglées précédemment.
+
 ### <a name="custom-teams-apps"></a>Applications personnalisées d’équipes
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mon organisation a créé une application teams personnalisée et l’a publiée, soit dans AppSource, soit dans le catalogue d’applications du client, mais l’icône d’application ne s’affiche pas comme prévu lorsque l’application est épinglée à la barre de l’application dans Teams. Comment résoudre ce problème ?
 
 Veillez à suivre les recommandations relatives au logo avant de procéder à la soumission de l’application. Pour en savoir plus, voir [liste de contrôle pour la soumission du tableau de bord du vendeur](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Sujets associés
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940701"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139208"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -106,10 +106,11 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 - [Autoriser le complément Outlook](#allow-the-outlook-add-in)
 - [Autoriser la planification des réunions de canal](#allow-channel-meeting-scheduling)
 - [Autoriser la planification de réunions privées](#allow-scheduling-private-meetings)
+- [Autoriser la Conférence maintenant dans les réunions privées](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>Autoriser la Conférence maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal. La valeur par défaut est « True ».
 
 ![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ Si vous désactivez cette fonctionnalité, les utilisateurs ne sont pas en mesur
 
 ### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions de canal
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à costar, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il démarrera une réunion dans un canal d’équipe et l’option **Ajouter un canal** est désactivée pour les utilisateurs dans Teams.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à costar, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il démarrera une réunion dans un canal d’équipe et l’option **Ajouter un canal** est désactivée pour les utilisateurs dans Teams. La valeur par défaut est « True ».
 
 ![Capture d’écran montrant l’option planifier une réunion dans teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée sur un canal d’une équipe.
 
-Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams.
+Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams. La valeur par défaut est « True ».
+
+### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
+
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  La valeur par défaut est « True ».
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Permettre aux utilisateurs anonymes de démarrer une réunion](#let-anonymous-people-start-a-meeting)
 - [Admettre automatiquement des personnes](#automatically-admit-people)
 - [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby)
-- [Autoriser la Conférence maintenant dans les réunions privées](#allow-meet-now-in-private-meetings)
 - [Activer les légendes dynamiques](#enable-live-captions)
 - [Autoriser la discussion dans les réunions](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Voici le comportement de participation des personnes qui se connectent par tél�
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
 |   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
-
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc. 
 
 ### <a name="enable-live-captions"></a>Activer les légendes dynamiques
 
@@ -401,6 +402,6 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la con
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Stratégies de messagerie dans teams](messaging-policies-in-teams.md)

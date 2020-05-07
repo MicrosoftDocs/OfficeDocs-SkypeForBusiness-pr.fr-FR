@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment emporter vos applications teams personnalisées du développement au déploiement.
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006053"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064529"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Gérer vos applications personnalisées dans Microsoft teams
 
@@ -131,15 +131,19 @@ Vous pouvez mettre à jour l’application via le catalogue d’applications du 
 
 Dans la plupart des cas, une fois que vous avez effectué une mise à jour de l’application, la nouvelle version s’affiche automatiquement pour les utilisateurs finaux. Il y a toutefois des mises à jour du <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">manifeste Microsoft teams</a> qui nécessitent l’acceptation de l’utilisateur :
 
-* un bot a été ajouté ou supprimé
-* modification de la propriété « botId » d’une bot existante
-* modification de la propriété « isNotificationOnly » d’une bot existante
-* la propriété « supportsFiles » du bot a changé
-* ajout ou suppression d’une extension de messagerie
-* un nouveau connecteur a été ajouté.
-* un nouvel onglet statique a été ajouté.
-* un nouvel onglet configurable a été ajouté.
+* Un bot a été ajouté ou supprimé
+* Modification de la propriété « botId » d’une bot existante
+* Modification de la propriété « isNotificationOnly » d’une bot existante
+* La propriété « supportsFiles » du bot a changé
+* Ajout ou suppression d’une extension de messagerie
+* Un nouveau connecteur a été ajouté.
+* Un nouvel onglet statique a été ajouté.
+* Un nouvel onglet configurable a été ajouté.
 * Propriétés dans « webApplicationInfo » modifiées
+
+![Capture d’écran de la liste des applications, avec les applications pour lesquelles une nouvelle version est disponible](media/manage-your-custom-apps-update1.png)
+
+![Capture d’écran de l’option de mise à niveau pour une application](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>Applications associées
 

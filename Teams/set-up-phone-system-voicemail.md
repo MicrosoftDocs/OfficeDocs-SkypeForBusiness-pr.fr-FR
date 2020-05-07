@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779730"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042931"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -41,7 +41,7 @@ Pour les utilisateurs de Skype entreprise Online et des offres d’appels, la bo
   
 1. Si la fonctionnalité du système téléphonique n’est pas incluse dans votre plan, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Vous devrez également acheter une licence Exchange Online. Voir [licences de modules complémentaires Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [affecter des licences Microsoft teams](assign-teams-licenses.md)et les licences Exchange Online aux personnes de votre entreprise. Ceci fait, elles sont en mesure de recevoir des messages vocaux.
+2. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)et les licences Exchange Online aux personnes de votre entreprise. Ceci fait, elles sont en mesure de recevoir des messages vocaux.
     
 3. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
 
@@ -51,7 +51,7 @@ Vous trouverez ci-après des informations sur la configuration de la messagerie 
   
 1. Si la fonctionnalité du système téléphonique n’est pas incluse dans votre plan, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Vous devez également acheter une licence Exchange Online. Voir [licences de modules complémentaires Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [affecter des licences Microsoft teams](assign-teams-licenses.md)et les licences Exchange Online aux personnes de votre entreprise.
+2. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)et les licences Exchange Online aux personnes de votre entreprise.
     
 3. Suivez les instructions correspondant à la solution d’appels RTC sur site déployée pour vos utilisateurs. Pour la version Cloud Connector, suivez les instructions de la section configurer **les services vocaux et de messagerie vocale du système téléphonique du système** de [configuration Skype entreprise Cloud Connector Edition](https://technet.microsoft.com/library/mt605228.aspx). Pour [la](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)fonction d’appel RTC de Skype entreprise Server, procédez comme suit. Pour le routage direct Teams, suivez la section **configurer le numéro de téléphone et activer l’audio** et la boîte vocale d’entreprise de [configurer le routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 
@@ -135,7 +135,7 @@ Nous disposons d’informations et d’Articles de formation pour aider vos util
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)

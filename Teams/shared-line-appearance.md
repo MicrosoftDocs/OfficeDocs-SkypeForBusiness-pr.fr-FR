@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: En savoir plus sur l’envoi de courriers électroniques à vos utilisateurs à l’aide de leurs informations de conférence audio dans Microsoft Teams.
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905546"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042581"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -40,7 +40,7 @@ L’apparence des lignes partagées fait partie de la fonctionnalité de délég
 
 Un utilisateur doit être doté d’un système téléphonique avec connectivité PSTN (licence de plan d’appel ou OnlineVoiceRoutingPolicy de routage directe) pour être délégué ou configuré délégation et permettre à d’autres personnes de passer ou de recevoir des appels en son nom.
 
-Les responsables et délégués doivent disposer d’un système téléphonique avec connectivité PSTN (licence de plan d’appel ou OnlineVoiceRoutingPolicy de routage directe). L’interface de ligne partagée fait partie de la délégation et est incluse dans le système téléphonique. Pour plus d’informations sur le modèle de gestion des licences, voir gestion [des licences Office 365 pour Microsoft teams](office-365-licensing.md).
+Les responsables et délégués doivent disposer d’un système téléphonique avec connectivité PSTN (licence de plan d’appel ou OnlineVoiceRoutingPolicy de routage directe). L’interface de ligne partagée fait partie de la délégation et est incluse dans le système téléphonique. Pour plus d’informations sur le modèle de gestion des licences, voir [Description du service Microsoft teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et de l’apparence des lignes partagées
 

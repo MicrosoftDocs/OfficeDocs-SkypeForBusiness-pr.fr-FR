@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 5358e169c66764cc3343feeb78365fbe47cab452
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940781"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042471"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Les contacts qui organisent, planifient et hébergent des réunions ou des évé
 > <sup>2</sup>  L’appel sortant de réunion vers la fonctionnalité [**M’appeler** au numéro](set-up-the-call-me-feature-for-your-users.md) exige des organisateurs qu’ils disposent de E5 ou d’une [licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Un [plan de numérotation](what-are-dial-plans.md) peut également être nécessaire. 
 
 
-Si vous souhaitez en savoir plus sur les licences, consultez l’article [Licence Office 365 pour Teams](Office-365-licensing.md). 
+Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 

@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903079"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042851"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -119,14 +119,21 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 Vous pouvez utiliser les événements en direct Teams dans plusieurs régions dans le monde entier. Les informations suivantes montrent la disponibilité pour les membres de l’équipe et des participants de l’événement.
 
 > [!IMPORTANT]
-> La région de l’événement est sélectionnée automatiquement en fonction de l’organisateur et de Microsoft 365 ou Office 365.
+> La région de l’événement est sélectionnée automatiquement en fonction de l’organisateur et de l’emplacement du locataire Microsoft 365.
 
-**Disponible dans ces régions**
+**Disponible dans ces centres de données régionaux**
 
 - Amériques
-- Europe/Afrique
 - Asie-Pacifique
-- Emplacement des données pour le Canada, l’Inde, l’Australie, le Japon et le Royaume-Uni
+- Europe/Afrique
+
+**Emplacement des données pour ces pays**
+
+- Australie
+- Canada
+- Inde
+- Japon
+- Royaume-Uni
 
 **Exclusions et points à prendre en compte**
 

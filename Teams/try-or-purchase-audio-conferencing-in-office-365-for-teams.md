@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780163"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041771"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayez ou achetez une audioconférence dans Microsoft 365 pour Microsoft teams
 
@@ -54,7 +54,7 @@ Pour effectuer ces étapes, vous devez être administrateur [général ou admini
 
 3. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que vous avez achetées aux collègues qui vont planifier ou animer des réunions.
 
-4. Si vous avez acheté des licences additionnelles d’audioconférence et des licences de crédits de communication, attribuez-les aussi. Pour obtenir des instructions, consultez [attribuer des licences Microsoft teams](assign-teams-licenses.md).
+4. Si vous avez acheté des licences additionnelles d’audioconférence et des licences de crédits de communication, attribuez-les aussi. Pour obtenir des instructions, consultez [attribuer des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Pour acheter et affecter des licences d’audioconférence facturée à la minute :
 
@@ -96,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Permettre aux équipes au sein de votre organisation](office-365-set-up.md)
 

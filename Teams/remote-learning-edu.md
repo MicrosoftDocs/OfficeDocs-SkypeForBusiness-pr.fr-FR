@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: a7fcdb92005b5094a4e54ecf95d30b227fee1ae8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898159"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042461"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -78,7 +78,7 @@ Pour un parcours guidé sur la création d’équipes, voir : [Créer une équi
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurer des expériences utilisateur à l’aide de stratégies
 
 > [!IMPORTANT]
-> Si vous avez besoin d’en savoir plus sur la façon de protéger vos étudiants durant les réunions, vous pouvez consulter [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
+> Si vous avez besoin d’en savoir plus sur la façon de protéger vos étudiants durant les réunions, vous pouvez consulter [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Si vous voulez approfondir nos recommandations en matière de stratégie d’administration de la stratégie de l’administrateur, vous devez accéder aux [Stratégies Teams et aux packages de stratégie pour l’éducation](policy-packages-edu.md).
 
 [Les stratégies Teams](teams-policies.md) offrent la possibilité de contrôler les options disponibles pour des utilisateurs ou groupes d’utilisateurs précis. Les stratégies peuvent être appliquées pour définir qui peut être autorisé à utiliser la conversation privée, l’appel privé, la planification de réunions, les types de contenus pouvant être partagés, etc.
 
