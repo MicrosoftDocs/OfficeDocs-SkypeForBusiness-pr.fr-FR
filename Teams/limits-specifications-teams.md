@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047763"
+ms.locfileid: "44064419"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -131,7 +131,9 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |------------|---------------|
 |Taille de l’audience | 10 000 participants |
 |Durée de l’événement | 4 heures |
-|Événements live simultanés dans une organisation Office 365 | 15 |
+|Événements en direct simultanés exécutés dans une organisation Office 365 <sup>1</sup> | 15 |
+
+<sup>1</sup> vous pouvez planifier autant d’événements en direct que vous le souhaitez, mais vous ne pouvez exécuter que 15 à la fois. Dès que le producteur rejoint un événement en direct, celui-ci est considéré comme étant en cours d’exécution. Le producteur qui tente de participer au seizième événement en direct reçoit une erreur.
 
 Pour plus d’informations sur les événements en direct et pour voir une comparaison entre les événements en direct Teams et la diffusion de réunion Skype, accédez à [événements en direct Teams et diffusion de réunion Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
