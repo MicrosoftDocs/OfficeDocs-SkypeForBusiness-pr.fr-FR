@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : les administrateurs de Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge sur les clients.'
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041951"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158921"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités des clients de bureau pour Skype entreprise Server 2015
 
@@ -165,7 +165,7 @@ Pour plus d’informations, consultez la [Description du service Skype entrepris
 Ce tableau couvre les fonctionnalités liées à la prise en charge des services vocaux.
   
 > [!NOTE]
-> Les fonctionnalités de Skype entreprise voix (téléphonie) sont limitées à certains plans d’abonnement Skype entreprise online. > pour plus d’informations, consultez la [Description du service Skype entreprise Online](https://technet.microsoft.com/library/jj822172.aspx).
+> Les fonctionnalités de Skype entreprise voix (téléphonie) sont limitées à certains plans d’abonnement Skype entreprise online. Pour plus d’informations, consultez la [Description du service Skype entreprise Online](https://technet.microsoft.com/library/jj822172.aspx).
   
 | Fonctionnalité/capacité | Client Skype entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | Application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Routage basé sur un emplacement  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Gérer un groupe Response Group/un groupe d’appel d’équipe |&#x2714;||&#x2714;|||||||
 |Répondre à l’appel de standard automatique |&#x2714;||&#x2714;|||||||
- &#x2776; cette fonctionnalité n’est pas disponible dans Skype entreprise online.
+
+&#x2776; cette fonctionnalité n’est pas disponible dans Skype entreprise online.
   
 ## <a name="external-users-support"></a>Prise en charge des utilisateurs externes
 

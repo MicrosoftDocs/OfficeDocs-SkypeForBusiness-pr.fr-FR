@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Découvrez ce dont vous avez besoin et comment les organisateurs de réunion peuvent appeler d’autres personnes avec Skype Entreprise.
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982819"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164283"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appel sortant d’une réunion Skype entreprise pour permettre à d’autres personnes de participer à celle-ci
 
@@ -39,7 +39,7 @@ As the meeting organizer, you can dial out using the Skype for Business app to l
     
 - En tant qu’organisateur de la réunion, vous avez été activé pour la conférence audio.
 
-Pour ajouter d’autres participants par le biais d’un appel sortant aux réunions de votre organisation, il est nécessaire de disposer d’au moins un utilisateur authentifié de la même organisation que l’organisateur (votre organisation) pour pouvoir ajouter d’autres participants à la réunion. par numéro de téléphone. 
+Pour ajouter d’autres participants par le biais d’un appel sortant à la réunion de votre organisation, il est nécessaire de disposer d’au moins un utilisateur authentifié de la même organisation que l’organisateur (votre organisation) pour pouvoir ajouter d’autres participants par numéro de téléphone. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,10 +58,10 @@ La mise en conférence n'est disponible que vers certains pays ou certaines rég
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio ?
 
-[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licences de complément Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

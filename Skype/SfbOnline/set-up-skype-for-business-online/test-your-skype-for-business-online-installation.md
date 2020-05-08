@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692819"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164293"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -32,7 +32,7 @@ Gagnez du temps, évitez d'appeler le support technique et augmentez la satisfac
 
 Voici ce dont vous aurez besoin :
 
-- Au moins trois comptes Office 365 (le vôtre et au moins deux autres).
+- Au moins trois comptes 365 Microsoft ou Office 365 (le vôtre et au moins deux autres).
 
 - Un ordinateur pour chaque compte test. Configurez-les à l'image d'un ordinateur standard au sein de votre organisation.
 
@@ -51,7 +51,7 @@ Voici ce dont vous aurez besoin :
 ## <a name="set-up-test-accounts"></a>Configurer des comptes test
 <a name="__toc328126910"> </a>
 
-1. Accédez à **administrateurs** > **Office 365** > **utilisateurs et groupes**, puis sélectionnez Ajouter![ajouter](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) et entrez les informations requises.
+1. Accédez à **administrateur** > **Microsoft 365** ou**utilisateurs et groupes**![ **Office 365** > , puis sélectionnez Ajouter Ajouter](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) et entrez les informations requises.
 
 2. Lorsque vous parvenez à l'étape 4 (messagerie électronique), entrez votre propre adresse de messagerie. Vous obtenez alors un enregistrement du nom et du mot de passe du nouvel utilisateur.
 
@@ -62,7 +62,7 @@ Voici ce dont vous aurez besoin :
 
 Sur chaque ordinateur test :
 
-1. Accédez à la page d'accueil Office 365 et connectez-vous à l'aide des informations d'identification de l'un de vos comptes test.
+1. Accédez à la page d’accueil de Microsoft 365 ou Office 365, puis connectez-vous à l’aide des informations d’identification de l’un de vos comptes test.
 
 2. Accédez à **Paramètres**![Paramètres : mettre à jour votre profil, installer le logiciel et le connecter au cloud](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), puis cliquez sur **Installer le logiciel et le connecter au cloud**.
 
@@ -114,7 +114,7 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Envoyer un message instantané dans Skype Entreprise](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |La fenêtre de conversation Skype Entreprise s'affiche. Tapez du texte, et la personne que vous avez contactée vous enverra une réponse..  <br/> |
 |[Envoyer un message instantané dans Skype Entreprise](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |La fenêtre de conversation Skype Entreprise s'affiche. Tapez du texte, et toutes les personnes qui participent à la conversation vous enverront une réponse.  <br/> |
 |[Rechercher un contact par son prénom ou son nom](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Les résultats de la recherche apparaissent dès que vous commencez à taper.  <br/> |
-|[FAQ sur Lync pour Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Le contact que vous avez ajouté apparaît dans le groupe de contacts que vous avez choisi.  <br/> |
+|[Forum aux questions sur Lync pour Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Le contact que vous avez ajouté apparaît dans le groupe de contacts que vous avez choisi.  <br/> |
 |[Modification de votre statut de présence dans Skype Entreprise (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Votre nouveau statut de présence est pris en compte dans la liste des contacts des autres personnes.  <br/> |
 |[Utiliser la carte de visite](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |La carte de visite d'une personne apparaît à côté de son nom.  <br/> |
 
@@ -137,7 +137,7 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Présentation de diapositives PowerPoint dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Votre présentation PowerPoint est affichée sur l'ordinateur de tous les utilisateurs dans la fenêtre de partage de réunion Skype Entreprise.  <br/> |
 |[Transfert d'un fichier dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Une fois la pièce jointe téléchargée, tous les participants à la réunion peuvent l'afficher et la télécharger.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7802217872d1f466fa1d855435f84e2ecc468830
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693079"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164343"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
-Connectez-vous à Office 365 par le biais d'une connexion réseau dédiée utilisant Azure ExpressRoute pour Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau de qualité professionnelle vers Office 365 et Skype Entreprise Online dont la fiabilité et la prévisibilité des performances sont garanties par un contrat de niveau de service.
+Connectez-vous à Microsoft 365 ou Office 365 via une connexion réseau dédiée à l’aide d’Azure ExpressRoute pour Microsoft 365 ou d’Office 365 et de Skype entreprise online. Votre connexion dédiée à vos applications Skype entreprise vous permet d’obtenir des performances optimales et prévisibles ainsi que des informations de confidentialité en plus de l’Internet public. Vous pouvez désormais acheter une connexion réseau plus performante pour Microsoft 365 ou Office 365 et Skype entreprise Online, qui ajoute une prévisibilité, une fiabilité et une fiabilité de niveau professionnel.
   
 > [!NOTE]
 > Une nouvelle version de l’outil de calcul de bande passante est disponible : [Skype entreprise, calculatrice de bande passante](https://go.microsoft.com/fwlink/?LinkId=715766). Toutefois, les instructions figurant dans ce document utilisent le calculateur de bande passante Lync 2010 et 2013. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype Entreprise Online et ExpressRoute
 
-En utilisant un partenaire ExpressRoute de Microsoft, vous pouvez connecter un grand nombre d'applications Office 365, dont Skype Entreprise Online, dans le cloud sur une connexion dédiée. En revanche, les fonctions de communication voix et vidéo en temps réel de Skype Entreprise ont besoin de services de réseau configurés spécifiquement de manière à prendre en charge les charges de travail Office 365 en temps réel. Cela comprend un réseau disposant de suffisamment de bande passante pour exécuter le volume de trafic nécessaire et prendre en charge la qualité de service (QoS) afin d'offrir à vos utilisateurs une expérience de qualité professionnelle.
+En travaillant avec un partenaire ExpressRoute de Microsoft, vous pouvez connecter une variété de logiciels Microsoft 365 et Office 365, notamment Skype entreprise Online dans le Cloud sur une connexion dédiée. Toutefois, les fonctionnalités de communication audio et vidéo en temps réel pour Skype entreprise nécessitent des services réseau qui sont spécifiquement configurés pour prendre en charge ces charges de travail Microsoft 365 ou Office 365 en temps réel. Cela comprend un réseau disposant de suffisamment de bande passante pour exécuter le volume de trafic nécessaire et prendre en charge la qualité de service (QoS) afin d'offrir à vos utilisateurs une expérience de qualité professionnelle.
   
 Ce document est conçu pour vous aider, en tant qu'administrateurs et concepteurs de réseaux, à comprendre les défis spécifiques nécessaires à la prise en charge de communications en temps réel, ainsi que les outils fournis par Microsoft pour la conception d'un réseau prenant en charge ces exigences, et vous guider lors de la procédure de conception à l'aide d'une étude de cas. 
   
@@ -71,7 +71,7 @@ Dewy Law LLC est une entreprise relativement jeune, dont les avocats et les autr
 |Associés  <br/> |300  <br/> |100  <br/> |CX3-20  <br/> |0,10  <br/> |
 |Assistants juridiques  <br/> |400  <br/> |125  <br/> |trente  <br/> |0,15  <br/> |
 |Cadres administratifs  <br/> |100  <br/> |35  <br/> |6  <br/> |3  <br/> |
-|Informatique et administration générale  <br/> |100  <br/> |1,25  <br/> |3  <br/> |deuxième  <br/> |
+|Informatique et administration générale  <br/> |100  <br/> |1,25  <br/> |3  <br/> |2  <br/> |
 |Total par site  <br/> |1 070  <br/> |345  <br/> |70  <br/> |36  <br/> |
 |Total par catégorie de site  <br/> |1 070  <br/> |1 035  <br/> |1 680  <br/> |1 800  <br/> |
    
@@ -92,7 +92,7 @@ Pour fournir des services en temps réel d'une qualité élevée et constante à
     
 Maintenant que vous avez abordé les concepts de base, pour fournir des services vocaux de qualité d'entreprise à Dewey Law LLC, nous recommandons d'utiliser le service IP MPLS (Multi-Protocol Label Switching) d'un partenaire de service réseau qui se connectera au service Azure ExpressRoute. MPLS fournit un service IP avec des garanties de performance en termes de retard, de gigue et de perte de paquets. Toutefois, si MPLS n'est pas disponible, il est possible d'utiliser la carte Ethernet connectée à l'un de nos partenaires d'échange de données ExpressRoute.
   
-Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devrez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu'il comprend les données que vous avez saisies dans l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) et les options disponibles et recommandées pour les différentes applications de charge de travail en temps réel Office 365.
+Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu’ils comprennent les données entrées dans les applications de [calcul de bande passante Lync 2010 et 2013](https://go.microsoft.com/fwlink/?LinkID=690282) ainsi que les options disponibles et sont recommandées pour les différentes applications de charge de travail en temps réel Microsoft 365 et Office 365.
   
 Il existe deux options pour l'association des données d'applications Skype Entreprise aux classes MPLS de service appropriées :
   
@@ -122,7 +122,7 @@ De ce fait, l'association des priorités QoS Layer 3 et Layer 2 doit également 
 
 Après la mise en place des prérequis et des mécanismes réseau QoS pour la prise en charge d'ExpressRoute, l'étape suivante consiste à passer commande des services d'accès réseau ExpressRoute. Lors de la commande de services d'accès ExpressRoute pour Dewey Law LLC à partir du partenaire fournisseur de services réseau Microsoft, vous devrez indiquer deux éléments :
   
-- La quantité totale de bande passante nécessaire à la connexion de chaque site à ExpressRoute et Office 365.
+- La quantité totale de bande passante nécessaire à la connexion de chaque site à ExpressRoute et à Microsoft 365 ou Office 365.
     
 - La bande passante totale requise pour chaque classe de service nécessaire à la prise en charge des applications Skype Entreprise utilisées par Dewey Law LLC. La bande passante de classe de service nécessaire dépend du volume de trafic attendu pour chaque application Skype Entreprise, comme la voix, la vidéo, la messagerie instantanée, la présence et le partage d'écran.
     
@@ -150,15 +150,15 @@ Pour Dewey Law LLC, nous avons défini trois rôles : « Cadre/Partenaire », «
   
  **Personnages et profils d'utilisation (colonnes A à P de la feuille de travail « Persona »)**
   
-|**Personnage**|**Messagerie instantanée/Présence**|**Sessions P2P audio**|**Sessions P2P vidéo**|**Conférences audio**|**Conférences vidéo**|**Partage de Bureau**|**Audioconférence,**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Lync 2013 Contenu audio stéréo**|**Lync 2013 Qualité vidéo**|**Lync 2013 Fenêtre Comportement des utilisateurs pour les sessions P2P vidéo**|**Lync 2013 Utilisation des vues multiples**|
+|**Personnage**|**Messagerie instantanée/Présence**|**Sessions P2P audio**|**Sessions P2P vidéo**|**Conférences audio**|**Conférences vidéo**|**Partage de Bureau**|**Audioconférence**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Lync 2013 Contenu audio stéréo**|**Lync 2013 Qualité vidéo**|**Lync 2013 Fenêtre Comportement des utilisateurs pour les sessions P2P vidéo**|**Lync 2013 Utilisation des vues multiples**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Cadre/ Partenaire  <br/> |Haut  <br/> |Moyen  <br/> |Bas  <br/> |Moyenne  <br/> |Moyenne  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Optimal  <br/> |Classique  <br/> |Classique  <br/> |
+|Cadre/ Partenaire  <br/> |Élevée  <br/> |Moyen  <br/> |Bas  <br/> |Moyenne  <br/> |Moyenne  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Optimal  <br/> |Classique  <br/> |Classique  <br/> |
 |Associé/ Assistant juridique  <br/> |Élevée  <br/> |Moyen  <br/> |Bas  <br/> |Moyen  <br/> |Haut  <br/> |Élevée  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
 |Administrateurs informatiques  <br/> |Haut  <br/> |Moyen  <br/> |Aucun  <br/> |Bas  <br/> |Aucun  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
    
 Vous devrez saisir les informations dans le tableau **Répartition des utilisateurs par emplacements et postes** ci-dessus dans la feuille de calcul « Sites » de l'outil de calcul de bande passante Lync 2010 et Lync 2013. Comme le nombre d'utilisateurs est identique dans les bureaux régionaux, les utilisateurs sont affectés au même site, auquel trois instances sont associées. La même approche s'applique aux grandes et aux petites succursales comptant respectivement 24 et 50 utilisateurs par site.
   
-Après avoir spécifié les paramètres pour chaque rôle, vous devez entrer le nombre d'utilisateurs ayant ce rôle sur chaque site dans la feuille de calcul « Sites ». Le nombre total des utilisateurs de tous les sites est mis à jour automatiquement. Comme l'emplacement Office 365 ne comporte pas d'utilisateurs, ils doivent tous figurer sur les lignes « Branches » (« Succursales ») de la feuille de calcul. L'outil de calcul de bande passante Lync 2010 et Lync 2013 remplit ensuite les colonnes « Best Effort Class », « Data Traffic Class » et « Real-time traffic class » de la table « WAN BW per QoS traffic class ». Le tableau ci-dessous comporte ces données.
+Après avoir spécifié les paramètres pour chaque rôle, vous devez entrer le nombre d'utilisateurs ayant ce rôle sur chaque site dans la feuille de calcul « Sites ». Le nombre total des utilisateurs de tous les sites est mis à jour automatiquement. Dans la mesure où il n’y a pas d’utilisateurs au niveau de l’emplacement Microsoft 365 ou Office 365, ils doivent tous être entrés dans les lignes’branches’de la feuille de calcul. L'outil de calcul de bande passante Lync 2010 et Lync 2013 remplit ensuite les colonnes « Best Effort Class », « Data Traffic Class » et « Real-time traffic class » de la table « WAN BW per QoS traffic class ». Le tableau ci-dessous comporte ces données.
   
 > [!TIP]
 >  La feuille de calcul complète comprend également le nombre maximal de sessions simultanées pour chaque application, mais nous avons supprimé ces colonnes pour gagner de la place.
@@ -211,7 +211,7 @@ Nous pouvons calculer la bande passante totale qui traversera le réseau WAN et 
    
 Cela signifie que le trafic de Skype Entreprise Online traversant l'itinéraire express sera de 114 Mbits/s environ, de sorte que Dewey devra souscrire au moins à l'abonnement à 200 Mbits/s pour ExpressRoute. Plusieurs circuits ExpressRoute peuvent être achetés à différents emplacements P2P ExpressRoute. Cela pourrait être recommandé si les sites de Dewey se trouvent dans des régions géographiques différentes ou pour fournir une résilience au cas où la connexion au circuit d'ExpressRoute échouerait. Si vous acquérez des circuits ExpressRoute dans plusieurs régions Azure, le complément premium d'ExpressRoute sera nécessaire à la réception d'une connectivité globale sur ExpressRoute.
   
-Maintenant que vous disposez de la quantité totale de bande passante nécessaire et des valeurs de bande passante de catégorie de service, vous pouvez passer vos commandes auprès du ou des fournisseurs de services réseau sélectionnés. N'oubliez pas d'inclure les estimations de trafic des autres applications et services. Nous proposons un guide de planification réseau pour d'autres services d'Office 365, dont des calculateurs de bande passante pour Exchange et OneDrive. L'abonnement de bande passante auprès du fournisseur de services réseau sera plus élevé, car le trafic intersite devra y être rajouté. Le calculateur de bande passante Lync 2010 et Lync 2013 ne fournit qu'une estimation du trafic prévu. Il est donc recommandé de confirmer la capacité du réseau à prendre en charge ce volume de trafic en effectuant un test de contrainte. 
+Maintenant que vous disposez de la quantité totale de bande passante requise et de numéros de bande passante de classe de service (CoS), vous pouvez placer vos commandes auprès du ou des fournisseurs de services réseau sélectionnés. N’oubliez pas d’inclure des estimations de trafic pour d’autres applications et services. Nous proposons des recommandations en matière de planification réseau pour les autres services Microsoft 365 et Office 365, notamment les calculatrices de bande passante pour Exchange et OneDrive. Le niveau de bande passante pour un fournisseur de services réseau sera plus élevé, car le trafic intra-site devra être rajouté. Le calculateur de bande passante Lync 2010 et 2013 fournit uniquement une estimation du trafic attendu ; c’est pourquoi il est recommandé de confirmer la capacité du réseau à prendre en charge le volume de trafic conduisant à un test de stress. 
   
 > [!TIP]
 > Il est vivement recommandé d'effectuer un test de contrainte lors de l'évaluation préliminaire du réseau. 
@@ -224,7 +224,7 @@ Un test de contrainte permet de s'assurer que le réseau peut prendre en charge 
 
 Le service ExpressRoute de Microsoft fournit une connexion dédiée au cloud Azure, mais les services de communication de charge de travail en temps réel Office 365 auront besoin de services réseau avec une bande passante suffisante pour prendre en charge le volume de trafic et la qualité de service afin d'offrir à vos utilisateurs une expérience de qualité professionnelle. Une connexion compatible avec la qualité de service doit être configurée de bout en bout (PC, commutateurs et routeurs réseau connectés au cloud), car toute partie du chemin ne prenant pas en charge la qualité de service risquerait de dégrader la qualité de tout l'appel.
   
-L'objectif de cette section est de vous aider à comprendre les défis liés à la prise en charge du trafic en temps réel dans un réseau IP, ainsi que la configuration et la prise en charge d'un déploiement ExpressRoute de la charge de travail en temps réel Office 365 à l'aide d'un fournisseur ExpressRoute Exchange ou d'un partenaire fournisseur de services réseau de Microsoft.
+L’objectif de cette section est de vous aider à comprendre les défis liés à la prise en charge du trafic en temps réel au sein d’un réseau IP et à la configuration et à la prise en charge d’un déploiement ExpressRoute de Microsoft 365 ou d’Office 365 en temps réel au moyen d’un fournisseur de services ExpressRoute de Microsoft ou d’un fournisseur de services réseau.
   
 La qualité de service est acceptée à partir de vos réseaux exclusivement sur des circuits de réseau ExpressRoute et est utilisée au sein du réseau Microsoft pour le trafic Skype Entreprise. Aujourd'hui, des parties de certaines connexions sortantes de Microsoft ont des valeurs DSCP manquantes pour Skype Entreprise. Jusqu'à ce que le trafic sortant soit entièrement marqué avec des valeurs DSCP, nous vous encourageons à suivre les directives pour ajouter des marquages QoS au trafic à votre limite du réseau comme décrit dans la section **Mise en œuvre de la qualité de service en utilisant la Liste de contrôle d'accès au réseau (ACL)** de cet article.
   
@@ -234,7 +234,7 @@ L'exécution de services voix et vidéo de qualité professionnelle impose des e
   
 Conscients de l'impact de la perte de paquets voix, les concepteurs disposaient de deux approches pour améliorer les performances voix et vidéo sur IP :
   
-- L'augmentation de la résilience du codage/décodage voix en cas de perte de paquets. Cela peut être effectué soit en utilisant la correction des erreurs de transfert (FEC) pour modifier un pourcentage d'erreurs rencontrées, qui est une fonctionnalité des communications en temps réel d'Office, soit en concevant des systèmes de décodage voix, qui tentent de masquer l'effet des paquets perdus, caractéristique des codecs Microsoft. 
+- L'augmentation de la résilience du codage/décodage voix en cas de perte de paquets. Pour ce faire, vous pouvez utiliser la fonctionnalité de transfert automatique (FEC) pour corriger un pourcentage des erreurs rencontrées qui est une fonctionnalité détectée dans Microsoft 365 ou le transport 365 en temps réel, ou en concevant des systèmes de décodage de la voix qui essaient de masquer l’effet des paquets perdus qui est une caractéristique des codecs Microsoft. 
     
 - Sélectionnez des services de transport qui utilisent les mécanismes de QoS pour garantir les performances du réseau en matière de retard, de perte de paquets, de gigue et de variation de délai entre les paquets.
     
@@ -323,10 +323,10 @@ La norme IEEE 802.1p utilise un point de code de priorité (PCP) 3 bits pour ide
 |:-----|:-----|:-----|:-----|
 |7  <br/> |7  <br/> |NC  <br/> |Contrôle du réseau  <br/> |
 |6  <br/> |6  <br/> |IC  <br/> |Contrôle inter réseau  <br/> |
-|5  <br/> |5  <br/> |VO  <br/> |Audio  <br/> |
+|5  <br/> |5  <br/> |VO  <br/> |Voix  <br/> |
 |4  <br/> |4  <br/> |VI  <br/> |Vidéo  <br/> |
 |3  <br/> |3  <br/> |CA  <br/> |Applications critiques  <br/> |
-|2  <br/> |deuxième  <br/> |EE  <br/> |Excellent effort  <br/> |
+|2  <br/> |2  <br/> |EE  <br/> |Excellent effort  <br/> |
 |0,4  <br/> |1  <br/> |BE  <br/> |Meilleur effort  <br/> |
 |1  <br/> |0,4  <br/> |BK  <br/> |Arrière-plan  <br/> |
    
@@ -365,7 +365,7 @@ L'association recommandée en Layer 3 aux priorités en Layer 2 est représenté
 |Valeur DSCP - 34  <br/> |
 |Signalisation d'appel  <br/> |Comportement par saut (PHB) - sélecteur de classe (CS) 3  <br/> |3  <br/> |2 (AC_VI)  <br/> |
 |Valeur DSCP - 24  <br/> |
-|Données de faible latence  <br/> |Comportement par saut (PHB) - Acheminement assuré (AF) 21  <br/> |deuxième  <br/> |3 (AC_BE)  <br/> |
+|Données de faible latence  <br/> |Comportement par saut (PHB) - Acheminement assuré (AF) 21  <br/> |2  <br/> |3 (AC_BE)  <br/> |
 |Valeur DSCP -18  <br/> |
 |Données haut débit  <br/> |Comportement par saut (PHB) - Acheminement assuré (AF) 11  <br/> |1  <br/> |3 (AC_BE)  <br/> |
 |Valeur DSCP - 10  <br/> |
@@ -392,7 +392,7 @@ Lorsqu'un paquet est envoyé dans le réseau MPLS, le routeur de périphérie du
   
 Non seulement MPLS simplifie le processus de transfert, mais il indique également au système de gestion réseau les connexions qui sont établies sur chaque lien du réseau. En contrôlant la façon dont le trafic est acheminé sur le réseau, l'opérateur peut garantir la qualité de service fournie par chaque chemin. Par conséquent, contrairement aux performances de meilleur effort des réseaux IP traditionnels ou de base, les opérateurs MPLS fournissent un service IP aux performances prévisibles. Le mode de fonctionnement du LSP rend MPLS plus sûr que les services Internet traditionnels. Par conséquent, avec le service IP de base, nous espérons que le réseau soit suffisamment performant pour fournir des prestations voix, des techniques d'utilisation de bonne qualité, comme FEC, ainsi qu'un codage voix plus résilient. Avec MPLS, ces performances sont garanties.
   
-Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devrez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu'il comprend les résultats de l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) et les options recommandées pour les différentes applications de charge de travail en temps réel Office 365.
+Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu’ils comprennent les sorties de l' [outil de calcul de bande passante Lync 2010 et 2013](https://go.microsoft.com/fwlink/?LinkID=690282) , ainsi que les options recommandées pour les applications de charges de travail Microsoft 365 ou Office 365 en temps réel.
   
 ## <a name="conclusion"></a>Conclusion
 
@@ -402,7 +402,7 @@ La fourniture constante de services voix et vidéo en temps réel de qualité pr
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 

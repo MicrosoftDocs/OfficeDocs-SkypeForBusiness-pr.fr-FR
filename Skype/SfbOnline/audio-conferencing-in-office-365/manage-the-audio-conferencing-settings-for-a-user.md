@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'En tant qu’administrateur Office 365, vous pouvez modifier les paramètres de l’audioconférence Skype Entreprise Online — tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres de conférence rendez-vous de Skype entreprise Online, tels que le fournisseur, le numéro payant ou le numéro gratuit par défaut, l’ID de conférence ou le code confidentiel, pour un utilisateur individuel au sein de votre organisation. '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777989"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164133"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gestion des paramètres de conférence audio d’un utilisateur dans Skype entreprise Online
 
 > [!Note]
 > Pour gérer les paramètres d’utilisateur dans Microsoft Teams, voir [gérer les paramètres d’audioconférence pour un utilisateur de Microsoft teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres de l’audioconférence, tels que le fournisseur, le numéro payant ou le numéro gratuit par défaut, l’ID de conférence ou le code confidentiel, pour un utilisateur individuel de votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir [gérer les paramètres d’audioconférence pour ma société](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.

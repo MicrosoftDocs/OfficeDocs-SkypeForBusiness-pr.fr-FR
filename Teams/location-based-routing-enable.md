@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905776"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158991"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -38,7 +38,45 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 - Configurations des passerelles
 - Politiques d’appel
 
-## <a name="enable-location-based-routing-for-users"></a>Activer le routage basé sur l’emplacement pour les utilisateurs
+Vous pouvez utiliser le [Centre d’administration Microsoft Team](#using-the-microsoft-teams-admin-center) ou [PowerShel](#using-powershell)l pour activer le routage basé sur l’emplacement.
+
+## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+
+### <a name="enable-location-based-routing-for-users"></a>Activer le routage basé sur l’emplacement pour les utilisateurs
+
+1. Créez une stratégie de routage de la voix et attribuez des utilisations PSTN à la stratégie. Lorsque vous attribuez des utilisations RTC à une stratégie, effectuez l’une des opérations suivantes :
+
+    - Utilisez les utilisations RTC associées aux itinéraires vocaux qui utilisent une passerelle PSTN locale au site.
+    - Utilisez les utilisations RTC associées aux itinéraires vocaux qui utilisent une passerelle RTC située dans une région où les restrictions de routage basées sur les emplacements ne sont pas nécessaires.
+2. Affectez la stratégie de routage vocale aux utilisateurs qui requièrent l’application de restrictions de routage.
+
+Pour en savoir plus sur la création de stratégies de routage de messagerie et leur attribution aux utilisateurs, voir [gérer les stratégies de routage de messagerie vocale dans Microsoft teams](manage-voice-routing-policies.md).
+
+### <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage par emplacement pour les sites réseau
+
+Activez le routage selon l’emplacement pour vos sites qui doivent appliquer des restrictions de routage. Pour ce faire, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements** > **réseau**, sélectionnez un site réseau, cliquez sur **modifier**, puis activez **routage selon l’emplacement**.  
+
+Pour en savoir plus, voir [gérer la topologie de votre réseau](manage-your-network-topology.md).
+
+### <a name="enable-location-based-routing-for-gateways"></a>Activer le routage basé sur l’emplacement pour les passerelles
+
+Activez le routage par emplacement vers des passerelles qui acheminent les appels vers les passerelles RTC qui routent les appels vers le RTC et associez le site réseau où se trouve la passerelle. 
+
+1. Dans le volet de navigation de gauche, sélectionnez**routage direct**de la **voix** > , puis cliquez sur l’onglet **SBCS** .
+2. Sélectionnez l’SBC, puis cliquez sur **modifier**. 
+3. Sous **routage d’emplacement et optimisation des éléments multimédias**, activez **activer le routage selon**la localisation.
+4. Spécifiez l’ID du site de la passerelle, puis définissez le mode de contournement.
+5. Cliquez sur **Enregistrer**.
+
+### <a name="enable-location-based-routing-for-calling-policies"></a>Activer le routage par emplacement pour les stratégies d’appel
+
+Pour appliquer le routage basé sur l’emplacement pour des utilisateurs spécifiques, configurez la stratégie d’appel de l’utilisateur afin d’éviter le contournement du numéro RTC. Pour cela, activez le paramètre **empêcher le contournement du numéro** dans la stratégie d’appel.
+
+Pour en savoir plus, voir [stratégies d’appel dans teams](teams-calling-policy.md).
+
+## <a name="using-powershell"></a>Utiliser PowerShell
+
+### <a name="enable-location-based-routing-for-users"></a>Activer le routage basé sur l’emplacement pour les utilisateurs
 
 1. Utilisez l’applet de commande [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) pour définir les utilisations PSTN. Pour les utilisations multiples, séparez chaque utilisation par une virgule.
 
@@ -76,7 +114,8 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage par emplacement pour les sites réseau
+### <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage par emplacement pour les sites réseau
+
 1.  Utilisez l’applet de connexion [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer le routage par emplacement et associer des stratégies de routage de messagerie à vos sites réseau qui doivent appliquer des restrictions de routage.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -96,7 +135,8 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
     |EnableLocationBasedRouting    |Vrai    |Vrai    |
     |Sous-réseaux     |Sous-réseau 1 (Delhi)     |Sous-réseau 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>Activer le routage basé sur l’emplacement pour les passerelles
+### <a name="enable-location-based-routing-for-gateways"></a>Activer le routage basé sur l’emplacement pour les passerelles
+
 1. Utilisez l’applet de nouvelle applet de [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) pour créer une configuration de passerelle pour chaque passerelle ou site réseau. 
 
     ```PowerShell
@@ -148,7 +188,7 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
     |PstnGateway : passerelle 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
     |PstnGateway : passerelle 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>Activer le routage par emplacement pour les stratégies d’appel
+### <a name="enable-location-based-routing-for-calling-policies"></a>Activer le routage par emplacement pour les stratégies d’appel
 
 Pour appliquer le routage de géolocalisation pour des utilisateurs spécifiques, configurez la politique vocale des utilisateurs afin d’éviter le contournement des appels PTSN. 
 
@@ -163,6 +203,6 @@ Dans cet exemple, nous empêcherons le contournement du numéro de téléphone P
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)

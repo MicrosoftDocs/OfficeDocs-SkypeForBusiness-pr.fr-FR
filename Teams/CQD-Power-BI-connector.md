@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042591"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158981"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -28,6 +28,7 @@ Pour pouvoir utiliser les modèles de requête Power BI pour bord (fichiers PBIX
 
 Lire [Utilisez Power bi pour analyser les données de bord pour les équipes](CQD-Power-BI-query-templates.md) et en savoir plus sur ces modèles.
 
+Vérifiez que vous avez le [rôle d’accès bord](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) approprié pour accéder aux rapports Power bi. 
 
 ## <a name="installation"></a>Installation
 
@@ -169,6 +170,6 @@ La limite de 10 000 ligne est en fait spécifiée à la fin de l’API, et elle 
 
 Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est préférable de restructurer vos rapports conformément aux meilleures pratiques en matière de connecteurs. Les modèles que nous avons inclus sont conçus pour illustrer ces bonnes pratiques. Dans la mesure du possible, commencez par examiner vos indicateurs de performance clés à l’aide de dimensions plus grandes et de cardinalité, telles que le mois, l’année, la date, la région, le pays, etc. À partir de là, vous pouvez effectuer des recherches dans les dimensions de plus en plus élevées. Les rapports d’assistance technique et de localisation sont des exemples de bon déroulement du flux de travail exploration.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)

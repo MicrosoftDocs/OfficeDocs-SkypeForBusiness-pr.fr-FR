@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenez une liste des problèmes connus liés à l’utilisation de Microsoft comme fournisseur de conférences rendez-vous, ainsi que des solutions de contournement. '
-ms.openlocfilehash: 6c462fea8a6ff1ebdae25a09ef8471d82559f3eb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fba5bfff687121c7b1b64c0e51233ccb576497e2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695769"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164518"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problèmes connus et dépannage à propos de l'audioconférence
 
@@ -34,7 +34,7 @@ ms.locfileid: "41695769"
   
 ## <a name="troubleshooting-and-known-issues"></a>Dépannage et problèmes connus
 
-Les audioconférences qui utilisent Microsoft comme fournisseur d'audioconférence présentent des problèmes actuels qui font l'objet d'un suivi et d'une enquête active, et qui pourraient être résolus lorsque la fonctionnalité sera mise à jour dans les versions futures d'Office 365.
+Les conférences audio qui utilisent Microsoft comme fournisseur de services d’audioconférence rencontrent actuellement des problèmes qui font l’objet d’un suivi et d’une étude approfondie, et qui seront éventuellement résolus lorsque la fonctionnalité sera mise à jour dans les prochaines versions de Microsoft 365.
   
 Pour le moment, utilisez la documentation comme référence lorsque vous résolvez des problèmes potentiels liés à la configuration et à l’utilisation de Skype entreprise dans votre organisation.
 
@@ -46,6 +46,6 @@ Pour le moment, utilisez la documentation comme référence lorsque vous résolv
 |Lorsqu’un utilisateur appelle un pont de conférence une fois que la réunion a été verrouillée par un utilisateur de Skype entreprise, il n’y a pas de notification dans l’application Skype entreprise indiquant que l’utilisateur se trouve dans la salle d’attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
 |Un utilisateur Skype entreprise Server (locaux) A attribué la licence d’audioconférence avant le 1er mars 2019, il est possible que les coordonnées de connexion apparaissent dans les invitations aux réunions.  <br/> |La mise en service des utilisateurs de Skype entreprise Server pour les conférences audio d’équipes n’était pas prise en charge jusqu’à cette date. Ce service est désormais pris en charge et est un composant des [réunions d’abord](https://docs.microsoft.com/microsoftteams/meetings-first). L’utilisateur doit avoir une licence Teams.  <br/> |Le pipeline de mise en service doit être réactivé. Supprimez la licence d’audioconférence de l’utilisateur, attendez quelques heures, puis réattribuez la licence.  <br/> |1/3/2019  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

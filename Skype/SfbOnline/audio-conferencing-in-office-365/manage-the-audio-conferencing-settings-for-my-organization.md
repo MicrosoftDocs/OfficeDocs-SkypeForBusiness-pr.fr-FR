@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Pour plus d’informations, reportez-vous à la rubrique Skype entreprise Online : affectation d’une licence de conférence rendez-vous et d’un ID de conférence à un utilisateur et aux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777979"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164143"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -88,7 +88,7 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Changer les informations de contact de l’expéditeur dans les messages électroniques envoyés aux utilisateurs
 
-Modification des coordonnées de l'expéditeur dans les messages électroniques envoyés aux utilisateurs[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
+Vous pouvez modifier le message électronique qui est envoyé automatiquement à vos utilisateurs, dont l’adresse de messagerie réelle et le nom d’affichage des informations de contact de l’expéditeur. Par défaut, l’expéditeur du courrier électronique est Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de l’applet [de passe Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) . Pour modifier l’adresse de messagerie qui envoie le message électronique aux utilisateurs, vous devez :
 
 - Entrez l’adresse de messagerie dans le paramètre _à sendemailfromaddress ;_ .
 
@@ -243,10 +243,10 @@ Reportez-vous à la rubrique [Définir les langues du standard automatique pour 
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
 2. Accédez au centre d’administration > **Skype entreprise**.
-
+ 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-   - Affichez les numéros de téléphone définis par Office 365 pour être utilisés pour les conférences audio.
+   - Affichez les numéros de téléphone définis par Microsoft 365 ou Office 365 à utiliser pour les conférences audio.
 
    - Vous pouvez afficher les numéros de téléphone définis par Office 365 pour être utilisés avec la fonction de conférence rendez-vous.
 
@@ -315,11 +315,11 @@ Voici les paramètres au niveau de l’Organisation :
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- Windows PowerShell consiste à gérer les utilisateurs et à identifier les utilisateurs autorisés ou interdits. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
 
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Raisons pour lesquelles vous avez besoin d’utiliser Microsoft 365 ou Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration uniquement, par exemple pour modifier les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes :
 

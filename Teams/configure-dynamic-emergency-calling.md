@@ -17,12 +17,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905886"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164553"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -135,7 +135,7 @@ Notez qu’il est possible que certaines modifications apportées aux paramètre
 
 ## <a name="configure-location-information-service"></a>Configurer le service d’information d’emplacement
 
-Un client d’équipes obtient les adresses d’urgence à partir des emplacements associés à différents identificateurs de réseau. Les sous-réseaux et les points d’accès sans fil sont pris en charge. (La prise en charge du commutateur/port Ethernet est en attente.)
+Un client d’équipes obtient les adresses d’urgence à partir des emplacements associés à différents identificateurs de réseau. Les sous-réseaux et les points d’accès sans fil sont pris en charge. S’il existe plusieurs emplacements, le WAP est prioritaire sur le sous-réseau. (La prise en charge du commutateur/port Ethernet est en attente.)
 
 Pour qu’un client obtienne un emplacement, vous devez renseigner le service d’information d’emplacement (LIS) avec les identificateurs de réseau et les emplacements d’urgence en utilisant les applets de commande suivantes :  
 
@@ -203,7 +203,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - **Le routage direct des clients aux États-Unis** doit coordonné avec leur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Sujets associés
+ ## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
