@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilisez Advisor pour Teams (préversion) pour faciliter la planification et l’exécution du déploiement de Microsoft Teams.
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042911"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139197"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -65,6 +65,12 @@ Pendant la période de préversion publique d’Advisor pour Teams, nous proposo
     - Plan du Planificateur, y compris les tâches d’adoption
     - Enquête utilisateur Forms
     - Bot Advisor for Teams
+1. Mise à niveau de Skype Entreprise
+    - Évaluation du client
+    - Plan du Planificateur, y compris les tâches d’adoption
+    - Enquête utilisateur Forms
+    - Bot Advisor for Teams
+    - Conçu pour les clients qui utilisent actuellement Skype Entreprise Online ou des environnements locaux Skype Entreprise, le plan de mise à niveau Skype Entreprise vous aide à éliminer vos activités de mise à niveau. Tirant parti d’un cadre de réussite éprouvé pour l’implémentation des modifications, le plan vous guide tout au long du processus étape par étape, que vous débutiez avec Teams, que vous utilisiez déjà Teams parallèles à Skype Entreprise, ou que vous soyez prêt à procéder à la mise à niveau. Le plan vous permet également de vous connecter à [conseils et pratiques recommandées en ligne](https://aka.ms/SkypeToTeams), [biens téléchargeables](https://aka.ms/UpgradeSuccessKit), [live 1 : nombreux ateliers de planification](https://aka.ms/UpgradeWorkshops)et des ressources supplémentaires pour vous aider.
 
 Nous vous recommandons de commencer par le plan Conversations, équipes, canaux et applications. Une fois que vous avez déployé cette charge de travail, revenez à Advisor for Teams et cliquez sur **Ajouter un canal** pour enchaîner sur la charge de travail suivante.
 
@@ -108,6 +114,9 @@ Outre les [Tests d’évaluation pour toutes les charges de travail](#assessment
 |Licences d’audioconférences    |Si vous disposez d’un abonnement en cours avec des licences d’audioconférence. Il s’agit d’une condition préalable si vous déployez des ponts d’audioconférence. Interroge Microsoft Graph pour déterminer si vous disposez de licences d’audioconférence (avec au moins une licence disponible pour l’attribution). Pour plus d’informations, consultez [Licences de composants additionnels Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Licences Stream     |Si vous disposez d’un abonnement actif avec des licences Microsoft Stream. Il s’agit d’une condition préalable si vous voulez activer Enregistrement de la réunion. Interroger Microsoft Graph pour déterminer si vous avez des licences Microsoft Stream (avec au moins une licence disponible à attribuer). Pour plus d’informations sur Stream et son activation, consultez [Enregistrement de réunions Teams sur le cloud](cloud-recording.md).
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>Évaluations pour la mise à niveau de Skype Entreprise
+Outre les [Test d’évaluation pour toutes les charges de travail](#assessment-tests-for-all-workloads), la mise à niveau de Skype Entreprise inclut également des évaluations utilisées dans les réunions et le plan de conférence.
+
 ### <a name="advisor-for-teams-bot"></a>Bot Advisor for Teams
 
 Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor affiche le message suivant sur le canal général :
@@ -148,6 +157,9 @@ Oui. Une fois que votre équipe déploiement a été créée par Advisor for Tea
 ### <a name="can-i-modify-the-forms-survey"></a>Puis-je modifier l’enquête Forms ?
 Oui, après création de votre équipe déploiement par Advisor for Teams, vous pouvez modifier l’enquête Forms selon vos besoins.
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>Y a-t-il des différences entre les conseillers pour Teams au sein de CCG ?
+Oui, les formulaires d’enquête utilisateur sont créés, mais ne sont pas épinglés dans des canaux de plan, car l’application formulaires Teams n’est pas disponible au sein de GCC actuellement.
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Quelles informations Advisor for Teams recueille-t-il sur mon organisation ?
 Advisor for Teams vous demande l’autorisation de recueillir des données autres que des informations d’identification d’utilisateur final. Les informations recueillies se présentent sous forme de données de télémétrie qui permettent à Microsoft de déterminer la contribution d’Advisor for Teams au succès de ses clients ainsi que les points susceptibles d’être améliorés. Ces mêmes données servent à identifier les possibilités pour Microsoft de collaborer de manière proactive avec votre organisation pour faciliter le déploiement.
 
@@ -170,4 +182,4 @@ Accédez au [Centre d’aide de Forms](https://support.office.com/forms).
 [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 
 [Noms de produits et identificateurs de plans de service pour la gestion des licences](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)
