@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Résumé: En savoir plus sur la logique de services de productivité dans Microsoft 365, fonctionnant avec Microsoft Teams. Découvrez également les solutions de téléphonie pour Teams. '
-ms.openlocfilehash: cba2d4fd524db9db4fe6d6d0ad6bb227a00fbd82
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 6518762250e2cd6fadc2bc2b6eb284a4af31edc4
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341751"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064499"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Illustrations architecture IT Microsoft Teams et solutions téléphonie
 
@@ -52,3 +52,5 @@ Pour plus d’informations, voir l’article pour ce poster : [Solutions de té
 ## <a name="see-also"></a>Voir aussi
 
 [Ressources relatives à l’architecture informatique du cloud Microsoft](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+
+[Téléchargez Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion)

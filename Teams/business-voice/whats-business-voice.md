@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez une vue d’ensemble de Microsoft 365 Business Voice et de quelle façon cette solution peut aider les PME à mieux communiquer.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780793"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170675"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Qu’est-ce que Microsoft 365 Business Voice ?
 
@@ -32,15 +32,19 @@ Business Voice vous permet de faire tout cela en regroupant l’ensemble des fon
 
 Business Voice est la solution qui répondra à vos besoins si votre organisation ne compte pas plus de 300 personnes et que vous avez les abonnements Microsoft 365 suivants :
 
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 Business
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Premium
+- Applications Microsoft pour les PME 
+- Applications Microsoft pour les grandes entreprises
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft et Office 365 Entreprise E1, E3 et E5
+- Microsoft 365 et Office 365 Éducation A1, A3 ou A5
+- Microsoft 365 et Office 365 Secteur Public G1, G3 ou G5 (GCC uniquement)
+- Microsoft 365 Business pour les associations
+- Microsoft 365 Business pour les associations standard
+- Microsoft 365 et Office 365 E1, E3 ou E5 pour les associations
 
 Business Voice est disponible dans plus de 70 pays et régions. Si vous pouvez configurer Business Voice par vous-même, transférez des numéros de téléphone à Microsoft 365 et gérez vos numéros de téléphone dans Microsoft 365, selon le pays ou la région dans lequel se trouve votre client Microsoft 365. Pour plus d’informations, consultez [disponibilité des pays et régions pour les](country-region-availability.md)vocaux professionnels.
 

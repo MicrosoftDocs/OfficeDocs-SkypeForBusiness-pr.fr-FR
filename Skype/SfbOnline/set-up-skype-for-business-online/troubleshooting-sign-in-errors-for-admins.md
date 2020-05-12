@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
-ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777149"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164323"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 
@@ -128,7 +128,7 @@ Si votre organisation possède un domaine personnalisé, cette procédure peut r
 
   - **Valeur/destination** : sipdir.online.Lync.com
 
-Pour plus d’informations, voir l’article 2566790 de la Base de connaissances Microsoft intitulé : [Résolution des problèmes de configuration DNS de Skype Entreprise Online dans Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
+Pour plus d’informations, voir l’article 2566790 de la Base de connaissances Microsoft intitulé : [Résolution des problèmes de configuration DNS de Skype Entreprise Online dans Microsoft 365 ou Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 
 ### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Installer un certificat SSL tiers sur votre serveur ADFS
 <a name="verify-upn-and"> </a>
