@@ -12,12 +12,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 538f2163fe983e8ab886964e379b0c54c9de6dd8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186177"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42186177"
 
 _**Dernière modification de la rubrique :** 2016-05-25_
 
-Avec les déploiements hybrides Lync, certains de vos utilisateurs Lync peuvent être sur site et d’autres utilisateurs dans Lync Online, tous deux partageant le même domaine. Cela peut faciliter la fourniture de services Lync aux utilisateurs de votre organisation dans différents emplacements géographiques ou utilisateurs qui se connectent à distance. Vous pouvez également tirer parti des configurations hybrides Lync comme chemin de migration vers Office 365.
+Avec les déploiements hybrides Lync, certains de vos utilisateurs Lync peuvent être sur site et d’autres utilisateurs dans Lync Online, tous deux partageant le même domaine. Cela peut faciliter la fourniture de services Lync aux utilisateurs de votre organisation dans différents emplacements géographiques ou utilisateurs qui se connectent à distance. Vous pouvez également tirer parti des configurations hybrides Lync en tant que chemin de migration vers Microsoft 365.
 
 Cette section décrit les configurations hybrides de Lync Server 2013.
 

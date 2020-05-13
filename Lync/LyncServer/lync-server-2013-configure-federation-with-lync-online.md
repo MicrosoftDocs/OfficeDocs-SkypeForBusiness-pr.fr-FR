@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779560"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ La Fédération permet aux utilisateurs de votre déploiement local de communiqu
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Configuration de votre client Skype entreprise Online pour un espace d’adressage SIP partagé
 
-Une adresse SIP (Session Initiation Protocol) est un identificateur unique pour chaque utilisateur d’un réseau, semblable à un numéro de téléphone ou à une adresse de messagerie. Avant d’essayer de déplacer des utilisateurs de Lync en local vers Skype entreprise Online, vous devez configurer votre organisation Office 365 pour partager l’espace d’adressage SIP (Session Initiation Protocol) partagé avec votre déploiement local. Si ce n’est pas configuré, le message d’erreur suivant peut s’afficher :
+Une adresse SIP (Session Initiation Protocol) est un identificateur unique pour chaque utilisateur d’un réseau, semblable à un numéro de téléphone ou à une adresse de messagerie. Avant d’essayer de déplacer les utilisateurs de Lync en local vers Skype entreprise Online, vous devez configurer votre organisation Microsoft 365 ou Office 365 pour partager l’espace d’adressage SIP (Session Initiation Protocol) partagé avec votre déploiement local. Si ce n’est pas configuré, le message d’erreur suivant peut s’afficher :
 
 Move-CsUser : erreur HostedMigration : erreur = (510), Description = (le client de cet utilisateur n’est pas activé pour l’espace d’adressage SIP partagé.)
 
@@ -71,7 +71,7 @@ Pour configurer un espace d’adressage SIP partagé, établissez une session Po
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-Pour établir une session PowerShell distante avec Skype entreprise Online, vous devez tout d’abord installer le module Skype entreprise Online pour Windows PowerShell, que vous pouvez obtenir ici [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911):.
+Pour établir une session PowerShell distante avec Skype entreprise Online, vous devez tout d’abord installer le module Skype entreprise Online pour Windows PowerShell, que vous pouvez obtenir ici : [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) .
 
 Après avoir installé le module, vous pouvez établir une session distante avec les applets de commande suivantes :
 
@@ -116,4 +116,3 @@ Pour plus d’informations sur l’utilisation du module Skype entreprise Online
 </div>
 
 </div>
-

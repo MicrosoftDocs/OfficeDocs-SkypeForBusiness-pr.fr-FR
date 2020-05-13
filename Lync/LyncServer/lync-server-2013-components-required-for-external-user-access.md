@@ -12,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca81e26e6a4b634b7b1f861ddfb0e0aedebca23f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204686"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,13 +64,13 @@ La plupart des composants Edge sont déployés dans un réseau de périmètre. L
 
 Les serveurs Edge envoient et reçoivent le trafic réseau pour les services offerts par les utilisateurs externes par le déploiement interne. Il exécute les services suivants :
 
-  - **Service Edge d’accès**   le service Edge d’accès fournit un point de connexion unique et approuvé pour le trafic SIP (Session Initiation Protocol) entrant et sortant.
+  - Service Edge d' **accès**     Le service Edge d’accès fournit un point de connexion approuvé unique pour le trafic SIP (Session Initiation Protocol) entrant et sortant.
 
-  - **Service Edge de conférence Web**   le service Edge de conférence Web permet aux utilisateurs externes de rejoindre des réunions hébergées sur votre déploiement interne de Lync Server 2013.
+  - Service Edge de **conférence Web**     Le service Edge de conférence Web permet aux utilisateurs externes de participer à des réunions hébergées sur votre déploiement interne de Lync Server 2013.
 
-  - **Service Edge a/v**   le service Edge a/v rend l’audio, la vidéo, le partage d’application et le transfert de fichiers accessibles aux utilisateurs externes. Vos utilisateurs peuvent ajouter de l’audio et de la vidéo à des réunions qui incluent des participants externes et ils peuvent communiquer à l’aide de l’audio et/ou de la vidéo directement avec un utilisateur externe dans les sessions de point à point. Le service Edge A/V fournit également une prise en charge pour le partage du Bureau et le transfert de fichiers.
+  - Service Edge A **/V**     Le service Edge A/V rend l’audio, la vidéo, le partage d’application et le transfert de fichiers accessibles aux utilisateurs externes. Vos utilisateurs peuvent ajouter de l’audio et de la vidéo à des réunions qui incluent des participants externes et ils peuvent communiquer à l’aide de l’audio et/ou de la vidéo directement avec un utilisateur externe dans les sessions de point à point. Le service Edge A/V fournit également une prise en charge pour le partage du Bureau et le transfert de fichiers.
 
-  - **Service proxy XMPP**   le service proxy XMPP accepte et envoie les messages XMPP (extensible Messaging and Presence Protocol) vers et depuis les partenaires fédérés XMPP configurés.
+  - **Service**     proxy XMPP Le service proxy XMPP accepte et envoie les messages XMPP (extensible Messaging and Presence Protocol) vers et depuis les partenaires fédérés XMPP configurés.
 
 Les utilisateurs externes autorisés peuvent accéder aux serveurs Edge afin de se connecter à votre déploiement interne de Lync Server 2013, mais les serveurs Edge ne permettent pas d’autres accès au réseau interne.
 
@@ -106,7 +106,7 @@ Le proxy inverse est requis pour les actions suivantes :
 
   - permettre aux appareils mobiles de découvrir automatiquement les serveurs frontaux qui proposent des services de mobilité ;
 
-  - permettre d’envoyer des notifications push aux appareils mobiles depuis les services de notification push Office 365 ou Apple.
+  - Pour activer les notifications de transmission vers les appareils mobiles à partir de Microsoft 365, Office 365 ou Apple
 
 Pour plus d’informations sur les proxys inverses et sur les exigences auxquelles doivent répondre les proxys inverses, voir les détails relatifs à la [Configuration requise pour le proxy inverse dans Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
@@ -114,7 +114,7 @@ Pour plus d’informations sur les proxys inverses et sur les exigences auxquell
 
 
 > [!NOTE]  
-> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) à votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN dans votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, la vidéoconférence) peut être compromis. Vous devez envisager de permettre au trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « activation de médias <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour contourner un tunnel VPN », à l’adresse.
+> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) à votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN dans votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, la vidéoconférence) peut être compromis. Vous devez envisager de permettre au trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « activation de médias Lync pour contourner un tunnel VPN », à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> .
 
 
 
@@ -132,7 +132,7 @@ Vous pouvez déployer votre topologie de périmètre avec un seul pare-feu exter
 
 <div>
 
-## <a name="director"></a>48000b
+## <a name="director"></a>Directeur
 
 Un directeur est un rôle serveur distinct et facultatif dans Lync Server 2013 qui n’utilise pas de compte d’utilisateur personnel, ou fournit des services de présence ou de conférence. Il sert de serveur de tronçon suivant interne vers lequel un serveur Edge achemine le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifie les demandes entrantes et les redirige vers le serveur ou le pool d’accueil de l’utilisateur. En préauthentifiant le directeur, vous pouvez supprimer des demandes de comptes d’utilisateurs qui ne sont pas répertoriés dans le déploiement.
 

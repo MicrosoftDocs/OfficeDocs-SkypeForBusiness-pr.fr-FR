@@ -12,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc30881da768d8dad9f952df37bdf1accdf091b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192017"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ Lorsque vous choisissez une topologie, vous pouvez utiliser l’une des options 
 
 Le tableau suivant récapitule les fonctionnalités disponibles avec les topologies Microsoft Lync Server 2013 prises en charge. Le titre des colonnes indique la fonctionnalité disponible pour une option de configuration Edge donnée. Par exemple, vous pouvez voir que l’option Serveur Edge mise à l’échelle (charge DNS équilibrée) prend en charge la haute disponibilité, peut utiliser des adresses IP privées non routables (avec NAT) ou des adresses IP publiques routables affectées aux interfaces externes du serveur Edge et permet de réduire les coûts, car elle ne nécessite pas de programme d’équilibrage de la charge matérielle.
 
-Les scénarios de basculement de serveur Edge pris en charge avec l’équilibrage de charge DNS sont des sessions de point à point entre Lync et Lync, des sessions de conférence Lync, des sessions Lync à PSTN et Office 365. Les scénarios de basculement de serveur Edge qui ne bénéficient pas de l’équilibrage de charge DNS sont des basculements pour la messagerie unifiée Exchange de l’utilisateur distant (avant Exchange 2010 SP1), la connectivité de messagerie instantanée publique et la Fédération avec des serveurs exécutant les communications Office Serveurs.
+Les scénarios de basculement de serveur Edge pris en charge avec l’équilibrage de charge DNS sont des sessions de point à point entre Lync et Lync, des sessions de conférence Lync, des sessions Lync à PSTN, Office 365 et Microsoft 365. Les scénarios de basculement de serveur Edge qui ne bénéficient pas de l’équilibrage de charge DNS sont des basculements pour la messagerie unifiée Exchange de l’utilisateur distant (avant Exchange 2010 SP1), la connectivité de messagerie instantanée publique et la Fédération avec des serveurs exécutant Office Communications Server.
 
 ### <a name="summary-of-edge-server-topology-options"></a>Récapitulatif des options de topologie de serveur Edge
 
@@ -153,7 +153,7 @@ L’utilisation de la technologie NAT pour toutes les interfaces externes Edge e
 
   - Lync Server 2013 serveur Edge consolidé mis à l’ampleur (charge DNS équilibrée) nécessite trois adresses IP publiques pour chaque serveur Edge dans un pool de serveurs Edge.
 
-  - Lync Server 2013 serveur Edge consolidé mis à l’ampleur (avec charge matérielle équilibrée) nécessite trois adresses IP publiques pour les adresses IP virtuelles du programme d’équilibrage de charge (une exigence de temps qui n’est pas incrémentée au fur et à mesure que des serveurs Edge sont ajoutés au pool) plus trois adresses IP publiques par Serveur Edge dans un pool.
+  - Lync Server 2013 serveur Edge consolidé mis à l’ampleur (avec charge matérielle équilibrée) nécessite trois adresses IP publiques pour les adresses IP virtuelles du programme d’équilibrage de la charge (une exigence unique qui n’est pas incrémentée au fur et à mesure que des serveurs Edge sont ajoutés au pool), ainsi que trois adresses IP publiques par serveur Edge dans un pool.
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>Exigences d’adresses IP pour la topologie Edge consolidée (adresse IP par rôle)
 
@@ -172,23 +172,23 @@ L’utilisation de la technologie NAT pour toutes les interfaces externes Edge e
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>n°2</p></td>
-<td><p>6 </p></td>
+<td><p>2 </p></td>
+<td><p>6 </p></td>
 <td><p>3 (1 par adresse IP virtuelle) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>9 </p></td>
+<td><p>3 </p></td>
+<td><p>9 </p></td>
 <td><p>3 (1 par adresse IP virtuelle) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3 (1 par adresse IP virtuelle) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>disque</p></td>
-<td><p>15 </p></td>
+<td><p>5 </p></td>
+<td><p>15 </p></td>
 <td><p>3 (1 par adresse IP virtuelle) + 15</p></td>
 </tr>
 </tbody>
@@ -212,22 +212,22 @@ L’utilisation de la technologie NAT pour toutes les interfaces externes Edge e
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>n°2</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1 (1 par adresse IP virtuelle) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 <td><p>1 (1 par adresse IP virtuelle) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1 (1 par adresse IP virtuelle) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>disque</p></td>
 <td><p>1 (1 par adresse IP virtuelle) + 5</p></td>
 </tr>
@@ -271,7 +271,7 @@ Les principaux points devant orienter la sélection de la topologie sont la haut
 
 
 > [!IMPORTANT]
-> L’utilisation de l’équilibrage de charge DNS est recommandée si vous vous fédérer avec des entreprises utilisant Lync Server 2010 et Microsoft Office 365. Sachez qu’il existe un impact significatif sur les performances si la plupart de vos partenaires fédérés utilisent Office Communications Server 2007 ou Office Communications Server 2007 R2.
+> L’utilisation de l’équilibrage de charge DNS est recommandée si vous vous fédérer avec des entreprises utilisant Lync Server 2010 et Office 365 ou Microsoft 365. Sachez qu’il existe un impact significatif sur les performances si la plupart de vos partenaires fédérés utilisent Office Communications Server 2007 ou Office Communications Server 2007 R2.
 
 
 

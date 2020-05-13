@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780003"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Pour plus d’informations sur les plans d’abonnement Skype entreprise Online, voir la description du service Skype <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>entreprise Online disponible à l’adresse.</P>
+> <P>Pour plus d’informations sur les plans d’abonnement Skype entreprise Online, voir la description du service Skype entreprise Online disponible à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A> .</P>
 > <LI>
-> <P>Lync Server 2013 prend en charge les clients précédemment publiés suivants : Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients, consultez la version Lync 2010 des tableaux de comparaison <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>des clients sur la page.</P>
+> <P>Lync Server 2013 prend en charge les clients précédemment publiés suivants : Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients, consultez la version Lync 2010 des tableaux de comparaison des clients sur la page <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> .</P>
 > <LI>
 > <P>Le client Lync 2013 prend en charge les fonctionnalités audio et vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Pour plus d’informations sur les fonctionnalités Lync 2013 dans un environnement VDI, consultez <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">la rubrique technologies de virtualisation prises en charge et limitations connues dans Lync Server 2013</A>.</P></LI></UL>
 
@@ -451,10 +451,9 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, le standard Lync 2010 n’est pas pris en charge.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
-2 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, cette fonctionnalité n’est pas disponible.
-
+2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité n’est pas disponible.
 </div>
 
 <span id="IMSupport"></span>
@@ -668,11 +667,11 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, le standard Lync 2010 n’est pas pris en charge.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
 2 Lync Server 2013 sur site et SharePoint 2013 sur site sont requis pour la recherche de compétences.
 
-3 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, la conversation permanente n’est pas disponible.
+3 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, la conversation permanente n’est pas disponible.
 
 </div>
 
@@ -692,7 +691,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 > <LI>
 > <P>Dans les sessions Lync à Lync, un utilisateur de Skype entreprise Online plan 1 peut participer au partage de bureau et au partage d’applications s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.</P>
 > <LI>
-> <P>Pour plus d’informations, reportez-vous à la <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>rubrique Description du service Skype entreprise Online disponible sur.</P></LI></UL>
+> <P>Pour plus d’informations, reportez-vous à la rubrique Description du service Skype entreprise Online disponible sur <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .</P></LI></UL>
 
 
 
@@ -988,7 +987,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;d’un responsable</p></td>
+<td><p>Q &amp; d’un responsable</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1117,11 +1116,11 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, le standard Lync 2010 n’est pas pris en charge.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
 2 les participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype entreprise sur Mac, de Lync pour Mac 2011 ou de Communicator pour Mac 2011. Les utilisateurs Mac peuvent contrôler les bureaux partagés par les utilisateurs de Windows.
 
-3 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, cette fonctionnalité requiert un fournisseur de services d’audioconférence.
+3 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité requiert un fournisseur de services d’audioconférence.
 
 4 le client Lync pour Mac 2011 ne peut pas afficher les présentations PowerPoint de Microsoft Office 2013 lorsqu’elles ont été partagées dans une conférence par le client Lync Web App 2013.
 
@@ -1137,7 +1136,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 
 
 > [!NOTE]  
-> Les fonctionnalités de voix de Lync sont limitées à certains plans d’abonnement Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique « fonctionnalités de voix de Lync » <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>dans la description du service Skype entreprise Online à l’adresse.
+> Les fonctionnalités de voix de Lync sont limitées à certains plans d’abonnement Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique « fonctionnalités de voix de Lync » dans la description du service Skype entreprise Online à l’adresse <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .
 
 
 
@@ -1419,11 +1418,11 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, le standard Lync 2010 n’est pas pris en charge.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
-2 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, cette fonctionnalité est disponible uniquement pour les appels PC vers PC.
+2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité est disponible uniquement pour les appels PC vers PC.
 
-3 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, cette fonctionnalité n’est pas disponible.
+3 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité n’est pas disponible.
 
 </div>
 
@@ -1507,9 +1506,9 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, le standard Lync 2010 n’est pas pris en charge.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
-2 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, cette fonctionnalité n’est pas disponible.
+2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité n’est pas disponible.
 
 </div>
 
@@ -1596,9 +1595,9 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, l’enregistrement n’est pas disponible dans certains plans autonomes Skype entreprise online. L’enregistrement nécessite des droits client Lync 2013 complets. Pour plus d’informations, reportez-vous à la [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)rubrique Description du service Skype entreprise Online disponible sur.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, l’enregistrement n’est pas disponible dans certains plans autonomes Skype entreprise online. L’enregistrement nécessite des droits client Lync 2013 complets. Pour plus d’informations, reportez-vous à la rubrique Description du service Skype entreprise Online disponible sur [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430) .
 
-2 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, l’enregistrement des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible.
+2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, l’enregistrement des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible.
 
 </div>
 
@@ -1701,11 +1700,11 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, le standard Lync 2010 n’est pas pris en charge.
+1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
-2 pour les utilisateurs de Skype entreprise Online et/ou Microsoft 365 ou Office 365, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut conservation inaltérable de la boîte aux lettres Exchange de l’utilisateur.
+2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut conservation inaltérable de la boîte aux lettres Exchange de l’utilisateur.
 
-3 pour Skype entreprise Online et/ou Microsoft 365 ou Office 365, l’archivage des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible.
+3 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, l’archivage des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible.
 
 </div>
 
@@ -1772,4 +1771,3 @@ Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affecte
 </div>
 
 </div>
-

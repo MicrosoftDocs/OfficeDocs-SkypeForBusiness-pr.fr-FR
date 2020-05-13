@@ -12,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1e31e9fd0de6135dd1fd3f552d0d692f1bf7543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184007"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Les serveurs Edge peuvent être configurés pour permettre à vos utilisateurs i
 
   - Audioconférence, vidéoconférence ou les deux
 
-Dans certains cas, la communication, par exemple la messagerie instantanée et la présence entre un contact Microsoft Lync Server 2013 et un contact XMPP (extensible Messaging and Presence Protocol), est de pair à pair-uniquement en prenant en charge vous et le contact sur le serveur fédéré. associé. Dans d’autres cas, tels qu’un Lync Server, Lync Server 2010 à la Fédération Lync Server 2013, plusieurs participants peuvent être invités à participer à la conversation.
+Dans certains cas, la communication, par exemple, la messagerie instantanée et la présence entre un contact Microsoft Lync Server 2013 et un contact XMPP (extensible Messaging and Presence Protocol), est à l’égal à homologue : ne prenez en charge que vous et le contact du partenaire fédéré. Dans d’autres cas, tels qu’un Lync Server, Lync Server 2010 à la Fédération Lync Server 2013, plusieurs participants peuvent être invités à participer à la conversation.
 
 <div>
 
@@ -97,19 +97,19 @@ L’activation de la Fédération entre Microsoft Lync Server 2013, Lync Server 
         
 
         > [!NOTE]
-        > Pour les <STRONG>nouveaux domaines fédérés SIP</STRONG>, vous devez fournir le <STRONG>nom de domaine (ou FQDN)</STRONG> pour Microsoft Lync Online, Microsoft Office 365. Pour Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server, vous devez également fournir un <STRONG>service Edge d’accès (FQDN)</STRONG> .
+        > Pour les <STRONG>nouveaux domaines fédérés SIP</STRONG>, vous devez fournir le <STRONG>nom de domaine (ou FQDN)</STRONG> pour Microsoft Lync Online et microsoft 365 ou Office 365. Pour Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server, vous devez également fournir un <STRONG>service Edge d’accès (FQDN)</STRONG> .
 
         
         </div>
     
       - <span></span>  
-        Pour la Fédération des partenaires découverts, où les partenaires peuvent découvrir votre serveur Edge, vous créez un enregistrement SRV dans \_votre DNS externe-sipfederationtls. \_TCP.contoso.com – qui pointe vers le port 5061 et l’enregistrement d’hôte (A) de votre serveur Edge
+        Pour la Fédération des partenaires découverts, où les partenaires peuvent découvrir votre serveur Edge, vous créez un enregistrement SRV dans votre DNS externe- \_ sipfederationtls. \_ tcp.contoso.com – qui pointe vers le port 5061 et l’enregistrement d’hôte (A) de votre serveur Edge
         
         <div>
         
 
         > [!IMPORTANT]
-        > Si vous prenez en charge les clients mobiles Microsoft Lync sur Windows Phone ou Apple iPhone, iPad ou d’autres appareils Apple et que vous utilisez le service de notification par transmission ou de notification, vous devez planifier _sipfederationtls. _tcp. &lt;Enregistrements SRV&gt; de domaine SIP pour chaque domaine SIP que vous avez des clients mobiles Lync. Android et Nokia Symbian Lync mobile n’utilisent pas la notification de transmission et ne sont pas soumis à cette exigence.
+        > Si vous prenez en charge les clients mobiles Microsoft Lync sur Windows Phone ou Apple iPhone, iPad ou d’autres appareils Apple et que vous utilisez le service de notification par transmission ou de notification, vous devez planifier _sipfederationtls. _tcp. &lt;&gt;Enregistrements SRV de domaine SIP pour chaque domaine SIP que vous avez des clients mobiles Lync. Android et Nokia Symbian Lync mobile n’utilisent pas la notification de transmission et ne sont pas soumis à cette exigence.
 
         
         </div>

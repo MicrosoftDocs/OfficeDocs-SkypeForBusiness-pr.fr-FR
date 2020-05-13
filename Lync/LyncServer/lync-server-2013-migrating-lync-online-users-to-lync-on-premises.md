@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780743"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**Dernière modification de la rubrique :** 2015-11-13_
     
       - Installez l’outil de synchronisation Azure Active Directory. Pour plus d'informations, reportez-vous à l'article <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Pour permettre à vos utilisateurs d’utiliser l’authentification unique pour Lync Online, installez les services ADFS ( <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Active Directory Federation Services).
+      - Pour permettre à vos utilisateurs d’utiliser l’authentification unique pour Lync Online, installez les services ADFS (Active Directory Federation Services) <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> .
     
       - Sur votre déploiement local, dans Lync Server Management Shell, tapez les applets de commande suivantes pour créer le fournisseur d’hébergement pour Lync Online :
         
@@ -117,9 +117,9 @@ _**Dernière modification de la rubrique :** 2015-11-13_
     
       - Mettez à jour l’enregistrement **Lyncdiscover.contoso.com** A de sorte qu’il pointe vers le nom de domaine complet du serveur proxy inverse local.
     
-      - Mettez à jour le ***\_SIP\_ *. **enregistrement SRV TLS.contoso.com à convertir en adresse IP publique ou adresse IP virtuelle du service Edge d’accès de Lync sur site.
+      - Mettez à jour le *** \_ SIP *. \_ **enregistrement SRV TLS.contoso.com à convertir en adresse IP publique ou adresse IP virtuelle du service Edge d’accès de Lync sur site.
     
-      - Mettre à jour les ***\_sipfederationtls\_ *. **enregistrement SRV TCP.contoso.com à convertir en adresse IP publique ou adresse IP virtuelle du service Edge d’accès de Lync sur site.
+      - Mettre à jour les *** \_ sipfederationtls *. \_ **enregistrement SRV TCP.contoso.com à convertir en adresse IP publique ou adresse IP virtuelle du service Edge d’accès de Lync sur site.
     
       - Si votre organisation utilise le DNS fractionné (parfois appelé « DNS split-brain »), assurez-vous que les utilisateurs résolvent les noms par le biais de la zone DNS interne sont dirigés vers le pool frontal.
 
@@ -141,15 +141,15 @@ _**Dernière modification de la rubrique :** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant : *https://de nom de domaine complet\<\>du pool/HostedMigration/hostedmigrationService.svc*.
+    Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant : *https://de nom de \< domaine complet du pool \> /HostedMigration/hostedmigrationService.svc*.
     
-    Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online correspondant à votre compte d’organisation Office 365.
+    Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online pour votre compte d’organisation Microsoft 365 ou Office 365.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>Pour déterminer l’URL du service de migration hébergée pour votre organisation Office 365
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>Pour déterminer l’URL du service de migration hébergée pour votre Organizaton
     
-    1.  Connectez-vous à votre organisation Office 365 en tant qu’administrateur.
+    1.  Connectez-vous à votre organisation Microsoft 365 ou Office 365 en tant qu’administrateur.
     
     2.  Ouvrez le **Centre d’administration Lync**.
     
@@ -173,7 +173,7 @@ _**Dernière modification de la rubrique :** 2015-11-13_
     
 
     > [!NOTE]  
-    > La taille maximale par défaut pour les fichiers journaux des transactions de la base de données rtcxds est de 16 Go. Cela n’est peut-être pas assez grand si vous déplacez un grand nombre d’utilisateurs à la fois, en particulier si vous avez activé la mise en miroir. Pour contourner ce risque, vous pouvez augmenter la taille du fichier ou sauvegarder les fichiers journaux régulièrement. Pour plus d’informations, <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>reportez-vous à.
+    > La taille maximale par défaut pour les fichiers journaux des transactions de la base de données rtcxds est de 16 Go. Cela n’est peut-être pas assez grand si vous déplacez un grand nombre d’utilisateurs à la fois, en particulier si vous avez activé la mise en miroir. Pour contourner ce risque, vous pouvez augmenter la taille du fichier ou sauvegarder les fichiers journaux régulièrement. Pour plus d’informations, reportez-vous à <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> .
 
     
     </div>

@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7811c8c55a7c759076382ecf102868cc6c7abf09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c6e156fbae7147b650c7360394cbd0d277b937b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185417"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42185417"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Le service de journalisation centralisée est contrôlé et configuré par les paramètres et les paramètres créés et utilisés par le contrôleur de service de journalisation centralisée (CLSController) pour envoyer des commandes à l’agent de service de journalisation centralisée de l’ordinateur individuel ( CLSAgent). L’agent traite les commandes qui lui sont envoyées et (dans le cas d’une commande Démarrer) utilise la configuration des scénarios, des fournisseurs, de la taille du journal, de la durée du suivi et des indicateurs pour commencer à collecter des journaux de suivi en fonction des informations de configuration fournies.
+Le service de journalisation centralisée est contrôlé et configuré par les paramètres et les paramètres créés et utilisés par le contrôleur de service de journalisation centralisée (CLSController) pour envoyer des commandes à l’agent de service de journalisation centralisée de l’ordinateur individuel (CLSAgent). L’agent traite les commandes qui lui sont envoyées et (dans le cas d’une commande Démarrer) utilise la configuration des scénarios, des fournisseurs, de la taille du journal, de la durée du suivi et des indicateurs pour commencer à collecter des journaux de suivi en fonction des informations de configuration fournies.
 
 <div>
 
@@ -50,8 +50,7 @@ Le service de journalisation centralisée est contrôlé et configuré par les p
 > <LI>
 > <P><STRONG>Applets de commande CsClsSearchTerm :</STRONG> <A href="https://technet.microsoft.com/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> et <A href="https://technet.microsoft.com/library/JJ204911(v=OCS.15)">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>Applets de commande CsClsSecurityGroup :</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A>et <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>Les paramètres définis dans ces cmdlets n’entravent pas ou ne provoquent pas de comportement indésirable, mais ils sont conçus pour être utilisés avec Microsoft Office 365 et ne produisent pas les résultats attendus dans les déploiements locaux. Cela ne signifie pas qu’il n’est pas utilisé pour ces applets de commande dans des déploiements locaux, mais leur utilisation est une rubrique plus avancée qui n’est pas abordée dans cette documentation.
-
+> <P><STRONG>Applets de commande CsClsSecurityGroup :</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A>et <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>Les paramètres définis dans ces cmdlets n’entravent pas ou ne provoquent pas de comportement indésirable, mais ils sont conçus pour être utilisés avec Microsoft 365 et ne produisent pas les résultats attendus dans les déploiements locaux. Cela ne signifie pas qu’il n’est pas utilisé pour ces applets de commande dans des déploiements locaux, mais leur utilisation est une rubrique plus avancée qui n’est pas abordée dans cette documentation.
 
 
 </div>

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780753"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ Ce guide décrit les tâches nécessaires pour configurer votre environnement Ly
 
 <div>
 
-## <a name="prerequisites"></a>Conditions requises
+## <a name="prerequisites"></a>Conditions préalables
 
 Les applications et les utilitaires suivants doivent être installés pour effectuer les tâches de configuration d’un déploiement pour un déploiement hybride. Les programmes d’installation de ces fichiers sont inclus sur le support d’installation fourni pour votre déploiement, ainsi que sur les liens inclus dans la liste suivante.
 
@@ -59,7 +59,7 @@ Les applications et les utilitaires suivants doivent être installés pour effec
 
   - [Installer Windows PowerShell pour l’authentification unique avec AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - L’Assistant de connexion Microsoft Online Services (msoidcli-7.0. msi) est inclus dans le programme d’installation de bureau pour Office 365, qui peut être obtenu à partir de la page de téléchargement liée à partir du centre d’administration Microsoft 365.
+  - L’Assistant de connexion Microsoft Online Services (msoidcli-7.0. msi) est inclus dans la configuration du Bureau de Microsoft 365, qui peut être obtenue à partir de la page de téléchargement liée à partir du centre d’administration Microsoft 365.
 
 </div>
 
@@ -67,7 +67,7 @@ Les applications et les utilitaires suivants doivent être installés pour effec
 
 ## <a name="administrator-credentials"></a>Informations d’identification d’administrateur
 
-Lorsque vous êtes invité à fournir vos informations d’identification d’administrateur, utilisez le nom d’utilisateur et le mot de passe pour le compte d’administrateur de votre organisation Office 365. Vous utiliserez également ces informations d’identification lors de la configuration des services AD FS (Active Directory Federation Services) 2,0, de la synchronisation d’annuaires, de la Fédération et du transfert d’utilisateurs vers Lync Online.
+Lorsque vous êtes invité à fournir vos informations d’identification d’administrateur, utilisez le nom d’utilisateur et le mot de passe du compte d’administrateur pour votre organisation Microsoft 365 ou Office 365. Vous utiliserez également ces informations d’identification lors de la configuration des services AD FS (Active Directory Federation Services) 2,0, de la synchronisation d’annuaires, de la Fédération et du transfert d’utilisateurs vers Lync Online.
 
 </div>
 
@@ -75,7 +75,7 @@ Lorsque vous êtes invité à fournir vos informations d’identification d’ad
 
 ## <a name="connecting-to-lync-online-powershell"></a>Connexion à Lync Online PowerShell
 
-Les administrateurs ont désormais la possibilité d’utiliser Windows PowerShell pour gérer Lync Online et leurs comptes d’utilisateur Lync Online. Pour ce faire, vous devez d’abord télécharger et installer le module Lync Online Connector à partir du centre dehttps://go.microsoft.com/fwlink/?LinkId=294688)téléchargement Microsoft (. Pour plus d’informations sur le téléchargement, l’installation et l’utilisation du module Lync Online Connector et des informations détaillées sur l’utilisation de Windows PowerShell pour gérer Lync Online, voir [Using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Les administrateurs ont désormais la possibilité d’utiliser Windows PowerShell pour gérer Lync Online et leurs comptes d’utilisateur Lync Online. Pour ce faire, vous devez d’abord télécharger et installer le module Lync Online Connector à partir du centre de téléchargement Microsoft ( https://go.microsoft.com/fwlink/?LinkId=294688) . Pour plus d’informations sur le téléchargement, l’installation et l’utilisation du module Lync Online Connector et des informations détaillées sur l’utilisation de Windows PowerShell pour gérer Lync Online, voir [Using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

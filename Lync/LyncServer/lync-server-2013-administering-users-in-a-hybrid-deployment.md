@@ -12,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b09ca3c5a80215c0a2d63a018150361671df6859
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 906018941b00d8ef2cbb5e37aef8d1245ad93f00
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779600"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221438"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "43779600"
 
 _**Dernière modification de la rubrique :** 2014-05-29_
 
-Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utilisateurs migrés vers Lync Online à l’aide des fonctionnalités de gestion des utilisateurs disponibles dans le portail en ligne de Microsoft Office 365. Vous devez vous connecter à l’aide de votre compte d’administrateur client pour effectuer des tâches d’administration.
+Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utilisateurs migrés vers Lync Online à l’aide des fonctionnalités de gestion des utilisateurs disponibles dans le centre d’administration 365 de Microsoft. Vous devez vous connecter à l’aide de votre compte d’administrateur client pour effectuer des tâches d’administration.
 
 <div>
 
@@ -65,11 +65,11 @@ Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utili
 
 Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant :
 
-Nom\<de domaine\>complet du pool https:///HostedMigration/hostedmigrationService.svc. Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online correspondant à votre compte d’organisation Office 365.
+\<Nom de domaine complet du Pool https:// \> /HostedMigration/hostedmigrationService.svc. Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online pour votre compte d’organisation Microsoft 365 ou Office 365.
 
-**Pour déterminer l’URL du service de migration hébergée pour votre organisation Office 365**
+**Pour déterminer l’URL du service de migration hébergée pour votre organisation Microsoft 365 ou Office 365**
 
-1.  Connectez-vous à votre organisation Office 365 en tant qu’administrateur.
+1.  Connectez-vous à votre organisation en tant qu’administrateur.
 
 2.  Ouvrez le **Centre d’administration Lync**.
 

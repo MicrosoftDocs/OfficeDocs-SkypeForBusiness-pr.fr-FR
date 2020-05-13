@@ -12,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b326f7ee869b060a423696817c21d7cb763bb0a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193177"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Le service de journalisation centralisée est configuré pour définir ce que le
     
 
     > [!TIP]
-    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration qui sont renvoyés par <CODE>-Identity</CODE> la définition et une étendue, telle que « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez rediriger la sortie vers une autre cmdlet Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site "Redmond", tapez :<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration qui sont renvoyés par la définition <CODE>-Identity</CODE> et une étendue, telle que « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez rediriger la sortie vers une autre cmdlet Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site "Redmond", tapez :<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
@@ -85,7 +85,7 @@ Le service de journalisation centralisée est configuré pour définir ce que le
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Termes de recherche définis pour la configuration. Office 365, pas les déploiements locaux.</p></td>
+    <td><p>Termes de recherche définis pour la configuration. Office 365 ou Microsoft 365, pas les déploiements locaux.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>SecurityGroups</strong></p></td>
@@ -137,7 +137,7 @@ Le service de journalisation centralisée est configuré pour définir ce que le
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>Version minimale de CLSAgent autorisée à s’exécuter. Cet élément est destiné à Office 365.</p></td>
+    <td><p>Version minimale de CLSAgent autorisée à s’exécuter. Cet élément est destiné à Office 365 ou Microsoft 365.</p></td>
     </tr>
     </tbody>
     </table>

@@ -12,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b8718d5f3dda34b97b4c3e96c2fe9531d6658b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216780"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +51,9 @@ Lync Server 2013, serveur de conversation permanente vous permet de participer �
 
   - accroître la dissémination des connaissances et des informations importantes.
 
-Lync Server 2013, le serveur de conversation permanente n’est pas disponible dans Microsoft Office 365. Pour le moment, il n’est disponible que pour les clients Lync 2013 locaux.
+Lync Server 2013, le serveur de conversation permanente n’est pas disponible dans Microsoft 365 ou Office 365. Pour le moment, il n’est disponible que pour les clients Lync 2013 locaux.
 
-Dans Lync 2013, la fonctionnalité de conversation permanente est intégrée au client Lync 2013. Par conséquent, les utilisateurs ont accès à la messagerie instantanée/présence, audio/vidéo, à la Conférence et à la conversation permanente dans le client Lync 2013. Pour plus d’informations sur le client Lync 2013, <https://go.microsoft.com/fwlink/p/?linkid=270877>voir.
+Dans Lync 2013, la fonctionnalité de conversation permanente est intégrée au client Lync 2013. Par conséquent, les utilisateurs ont accès à la messagerie instantanée/présence, audio/vidéo, à la Conférence et à la conversation permanente dans le client Lync 2013. Pour plus d’informations sur le client Lync 2013, voir <https://go.microsoft.com/fwlink/p/?linkid=270877> .
 
 Cette rubrique décrit les modifications apportées aux fonctionnalités entre la nouvelle version de Lync Server 2013, le serveur de conversation permanente et la version précédente (Microsoft Lync Server 2010, Group chat), notamment :
 
@@ -67,9 +67,9 @@ Cette rubrique décrit les modifications apportées aux fonctionnalités entre l
 
 Pour plus d’informations sur la dernière version du serveur de conversation permanente, consultez les rubriques suivantes :
 
-  - Aide de la conversation permanente <https://go.microsoft.com/fwlink/p/?linkid=270945> , à partir de laquelle fournit une liste détaillée des fonctionnalités de conversation permanente, de leur fonctionnement et de leur utilisation lors de l’exécution du serveur de conversation permanente.
+  - Aide de la conversation permanente, à partir <https://go.microsoft.com/fwlink/p/?linkid=270945> de laquelle fournit une liste détaillée des fonctionnalités de conversation permanente, de leur fonctionnement et de leur utilisation lors de l’exécution du serveur de conversation permanente.
 
-  - [Planification du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification, [Deploying persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) dans la documentation de déploiement, [migration de Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat to Lync Server 2013, persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) dans la documentation de migration et [Managing Lync Server 2013, persistent Server](managing-lync-server-2013-persistent-chat-server.md) dans la documentation des opérations, qui fournissent toutes des instructions pour configurer Serveur de conversation permanente.
+  - [Planification du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification, [Deploying persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) dans la documentation de déploiement, [migration de Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat to Lync Server 2013, persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) dans la documentation de migration et [Managing Lync Server 2013, persistent Server](managing-lync-server-2013-persistent-chat-server.md) dans la documentation des opérations, qui fournissent toutes des instructions sur la configuration du serveur de conversation permanente.
 
   - Le fichier. msi de la documentation du serveur de conversation permanente (fichier Windows Installer) permet aux utilisateurs d’accéder à une documentation hors ligne complète sur le serveur de conversation permanente.
 
@@ -103,13 +103,13 @@ De plus, pour prendre en charge le téléchargement de fichiers et le téléchar
 
 
 > [!IMPORTANT]  
-> Le rôle <STRONG>PersistentChatService</STRONG> peut s’exécuter sur le même serveur qu’un serveur frontal&nbsp;Lync Server 2013 uniquement si ce dernier est un serveur frontal Standard Edition&nbsp;. Le rôle <STRONG>PersistentChatService</STRONG> ne peut pas s’exécuter indépendamment d’un&nbsp;serveur frontal Lync Server 2013. Elle peut être installée uniquement dans le cadre d’un déploiement de Lync Server 2013.
+> Le rôle <STRONG>PersistentChatService</STRONG> peut s’exécuter sur le même serveur qu’un serveur frontal Lync Server 2013 &nbsp; uniquement si ce dernier est un serveur frontal Standard Edition &nbsp; . Le rôle <STRONG>PersistentChatService</STRONG> ne peut pas s’exécuter indépendamment d’un &nbsp; serveur frontal Lync Server 2013. Elle peut être installée uniquement dans le cadre d’un déploiement de Lync Server 2013.
 
 
 
 </div>
 
-Dans le serveur de conversation permanente, le service de recherche a été supprimé. Dans Lync Server 2010, Group chat, le service de recherche s’est exécuté sur chaque serveur frontal de serveur de conversation de groupe et a effectué le routage vers l’un des serveurs de canal. Lync Server 2013 repose sur le routage à l’aide des objets contact, où chaque pool de serveur de conversation permanente est représenté par un objet contact qui est utilisé par les serveurs frontaux Lync Server pour identifier et acheminer les demandes vers un pool de serveurs de conversation permanente approprié et pour un des ordinateurs exécutant le serveur de conversation permanente dans le pool.
+Dans le serveur de conversation permanente, le service de recherche a été supprimé. Dans Lync Server 2010, Group chat, le service de recherche s’est exécuté sur chaque serveur frontal de serveur de conversation de groupe et a effectué le routage vers l’un des serveurs de canal. Lync Server 2013 repose sur le routage à l’aide des objets contact, où chaque pool de serveur de conversation permanente est représenté par un objet contact qui est utilisé par les serveurs frontaux Lync Server pour identifier et acheminer les demandes vers un pool de serveurs de conversation permanente approprié, et vers l’un des ordinateurs exécutant le serveur de conversation permanente dans le pool.
 
 Dans Lync Server 2013, il existe des modifications de service de conformité :
 
@@ -139,7 +139,7 @@ Dans Lync Server 2013, il existe des améliorations en matière de haute disponi
 
   - Améliorations de la haute disponibilité : la mise en miroir SQL Server est utilisée pour fournir une haute disponibilité pour la base de données de contenu du serveur de conversation permanente et la base de données de conformité de conversation permanente dans un centre de données (sur site).
 
-  - Améliorations de la récupération d’urgence : le serveur de conversation permanente prend en charge une architecture de pool étirée qui permet à un seul pool de serveurs de conversation permanente d’être étiré entre deux sites (c’est-à-dire un pool logique unique dans la topologie, avec des serveurs du pool physiquement Situé sur deux sites). La copie des journaux de transaction SQL Server est utilisée pour la récupération d’urgence intersite.
+  - Améliorations de la récupération d’urgence : le serveur de conversation permanente prend en charge une architecture de pool étirée qui permet à un seul pool de serveurs de conversation permanente d’être étiré entre deux sites (c’est-à-dire un pool logique unique dans la topologie, avec des serveurs du pool physiquement situés sur deux sites). La copie des journaux de transaction SQL Server est utilisée pour la récupération d’urgence intersite.
 
 Pour plus d’informations sur la haute disponibilité et la récupération d’urgence, reportez-vous à la rubrique [configuration du serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) dans la documentation de déploiement.
 
@@ -165,7 +165,7 @@ Lync Server 2013 a facilité l’administration et la gestion du serveur de conv
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>Quelles sont les différences en ce qui concerne les rôles d’utilisateur des versions précédentes du serveur de conversation de groupe ?
 
-Lync Server 2010, Group chat disposait d’un rôle d’administrateur d’utilisateur, d’un rôle d’administrateur de salle de conversation et d’un rôle d’administrateur Lync Server pouvant gérer des compléments. le serveur de conversation permanente fournit simplement un rôle d’administrateur de conversation permanente (similaire à d’autres Lync Les rôles de contrôle d’accès basé sur un rôle serveur (RBAC). Toute personne qui est membre de ce rôle RBAC peut gérer les salles de conversation, les compléments et les catégories (et ainsi obtenir l’accès des utilisateurs pour ces catégories), ainsi que la configuration du pool de serveurs de conversation permanente.
+Lync Server 2010, Group chat disposait d’un rôle d’administrateur d’utilisateurs, d’un rôle d’administrateur de salle de conversation et d’un rôle d’administrateur Lync Server pouvant gérer des compléments. le serveur de conversation permanente fournit simplement un rôle d’administrateur de conversation permanente (semblable aux autres rôles de contrôle d’accès basé sur un rôle de Lync Server). Toute personne qui est membre de ce rôle RBAC peut gérer les salles de conversation, les compléments et les catégories (et ainsi obtenir l’accès des utilisateurs pour ces catégories), ainsi que la configuration du pool de serveurs de conversation permanente.
 
 </div>
 
@@ -234,4 +234,3 @@ La journalisation du serveur de conversation permanente et de System Center Oper
 </div>
 
 </div>
-

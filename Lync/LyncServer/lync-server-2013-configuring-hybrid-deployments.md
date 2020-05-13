@@ -12,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9719b4a894ebd0f6cfb0e457eb557062861352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa4e4250288a31cab708d7c3eb11087b00c5d6a9
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206370"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Cette section décrit les étapes nécessaires à la configuration de déploieme
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - Si vous disposez d’un déploiement Lync local et que vous souhaitez déplacer certains utilisateurs vers le Cloud pour utiliser Lync Online dans Office 365, reportez-vous à la rubrique [Configuring an on-premises Deployment for Hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
+  - Si vous disposez d’un déploiement Lync local et que vous souhaitez déplacer certains utilisateurs vers le Cloud pour utiliser Lync Online dans Microsoft 365 ou Office 365, reportez-vous à la rubrique [Configuring an on-premises Deployment for Hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
 
   - Si des utilisateurs sont activés pour Lync dans Lync Online, mais qui n’ont pas été activés dans un déploiement local, reportez-vous à la rubrique [déplacement d’utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
 

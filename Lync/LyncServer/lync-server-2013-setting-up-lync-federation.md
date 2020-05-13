@@ -12,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cea596f571064a3b72ecbb3b0c2b56c2179aa315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182040"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +99,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
     <tbody>
     <tr class="odd">
     <td><p>Domaine partenaire découvert</p></td>
-    <td><p>Configurez un enregistrement SRV au format _sipfederationtls. _tcp. &lt;nom&gt;de domaine externe où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte offrant ce service</strong> est défini en tant que SIP. &lt;nom de domaine&gt; externe : nom de domaine complet de votre service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer DNS pour la prise en charge du serveur Edge dans Lync Server 2013</a> .</p></td>
+    <td><p>Configurez un enregistrement SRV au format _sipfederationtls. _tcp. &lt; nom de domaine externe &gt; où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte offrant ce service</strong> est défini en tant que SIP. &lt;nom de domaine externe &gt; : nom de domaine complet de votre service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer DNS pour la prise en charge du serveur Edge dans Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013</a></p></li>
@@ -108,7 +108,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
     </tr>
     <tr class="even">
     <td><p>Domaine partenaire autorisé</p></td>
-    <td><p>Configurez un enregistrement SRV au format _sipfederationtls. _tcp. &lt;nom&gt;de domaine externe où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte offrant ce service</strong> est défini en tant que SIP. &lt;nom de domaine&gt; externe : nom de domaine complet de votre service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer DNS pour la prise en charge du serveur Edge dans Lync Server 2013</a> .</p></td>
+    <td><p>Configurez un enregistrement SRV au format _sipfederationtls. _tcp. &lt; nom de domaine externe &gt; où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte offrant ce service</strong> est défini en tant que SIP. &lt;nom de domaine externe &gt; : nom de domaine complet de votre service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer DNS pour la prise en charge du serveur Edge dans Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>
     </ul></td>
@@ -132,7 +132,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification de fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Créer ou modifier des fournisseurs fédérés SIP hébergés Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Ce type de fédération définit les services et les fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Ils sont généralement utilisés pour configurer des fournisseurs de messagerie instantanée comme Windows Live Messenger, Yahoo! et AOL, ainsi que pour héberger des fournisseurs tels que Lync Online et Office 365</p>
+    <td><p>Ce type de fédération définit les services et les fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Ils sont généralement utilisés pour configurer des fournisseurs de messagerie instantanée comme Windows Live Messenger, Yahoo! et AOL, ainsi que pour héberger des fournisseurs tels que Lync Online et Microsoft 365</p>
     <div>
 
     > [!IMPORTANT]  

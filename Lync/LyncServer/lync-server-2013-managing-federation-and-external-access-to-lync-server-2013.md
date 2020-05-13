@@ -12,12 +12,12 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 897cf5afee93363d1931b8c2ff3822a90ae29024
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 155ee98a7386368d90fd549d920cdfe77c05cb6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185747"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ La première étape du processus de définition de la prise en charge des utilis
 
 Après avoir installé et configuré votre déploiement interne de Lync Server 2013, les utilisateurs internes au sein de votre organisation peuvent collaborer avec d’autres utilisateurs internes disposant de comptes SIP dans vos services de domaine Active Directory (AD DS). La collaboration peut prendre la forme d’envoi et réception de messages instantanés et de mise à jour du statut de présence ainsi que la participation à des conférences (ou réunions). Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs internes de Lync Server. Les utilisateurs externes peuvent être des utilisateurs distants de votre déploiement, des utilisateurs fédérés (y compris les utilisateurs pris en charge des fournisseurs de services de messagerie instantanée publics), une fédération XMPP ou bien des participants anonymes à des conférences.
 
-Si votre déploiement comprenait l’installation d’un serveur Edge Lync Server 2013 ou d’un pool Edge, l’étendue des types de communication possibles est grandement étendue avec un certain nombre d’options pour l’accès des utilisateurs externes, la communication avec les membres d’autres domaines fédérés SIP, Les fournisseurs fédérés SIP et les utilisateurs fédérés XMPP. Après avoir configuré le serveur Edge ou le pool de serveurs Edge, vous permettez aux types d’accès des utilisateurs externes que vous souhaitez fournir et vous configurez les stratégies pour contrôler l’accès externe. Dans Lync Server 2013, vous activez et configurez les stratégies et l’accès des utilisateurs externes à l’aide du panneau de configuration Lync Server, de Lync Server Management Shell ou des deux, en fonction des besoins de la tâche. Pour plus d’informations sur ces outils de gestion, reportez-vous aux [Outils d’administration de Lync server 2013](lync-server-2013-lync-server-administrative-tools.md) dans la documentation des opérations, [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) dans la documentation des opérations et [installer les outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation des opérations.
+Si votre déploiement comprenait l’installation d’un serveur Edge Lync Server 2013 ou d’un pool de serveurs Edge, l’étendue des types de communication possibles est largement étendue avec un certain nombre d’options pour l’accès des utilisateurs externes, la communication avec les membres d’autres domaines fédérés SIP, les fournisseurs fédérés SIP et les utilisateurs fédérés XMPP. Après avoir configuré le serveur Edge ou le pool de serveurs Edge, vous permettez aux types d’accès des utilisateurs externes que vous souhaitez fournir et vous configurez les stratégies pour contrôler l’accès externe. Dans Lync Server 2013, vous activez et configurez les stratégies et l’accès des utilisateurs externes à l’aide du panneau de configuration Lync Server, de Lync Server Management Shell ou des deux, en fonction des besoins de la tâche. Pour plus d’informations sur ces outils de gestion, reportez-vous aux [Outils d’administration de Lync server 2013](lync-server-2013-lync-server-administrative-tools.md) dans la documentation des opérations, [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) dans la documentation des opérations et [installer les outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation des opérations.
 
 <div>
 
@@ -55,11 +55,11 @@ Si votre déploiement comprenait l’installation d’un serveur Edge Lync Serve
 
 Par défaut, aucune stratégie n’est configurée pour prendre en charge l’accès des utilisateurs externes, notamment l’accès des utilisateurs distants et des utilisateurs fédérés, même si vous avez déjà activé la prise en charge de l’accès des utilisateurs externes dans votre organisation. Pour contrôler l’accès des utilisateurs externes, vous devez configurer au moins une stratégie, qui spécifie le type d’accès des utilisateurs externes pris en charge. Cela inclut les stratégies d’accès externe suivantes :
 
-  - **Stratégie globale la**   stratégie globale est créée lorsque vous déployez vos serveurs Edge. Par défaut, aucune option d’accès utilisateur externe n’est activée dans la stratégie globale. Pour prendre en charge l’accès des utilisateurs externes au niveau global, vous configurez la stratégie globale pour prendre en charge un ou plusieurs types d’options d’accès des utilisateurs externes. La stratégie globale s’applique à tous les utilisateurs de votre organisation, mais les stratégies de site et les stratégies utilisateur remplacent la stratégie globale. Si vous supprimez la stratégie globale, vous ne la supprimez pas. Au lieu de cela, vous devez rétablir le paramètre par défaut.
+  - **Stratégie globale**   la stratégie globale est créée lorsque vous déployez vos serveurs Edge. Par défaut, aucune option d’accès utilisateur externe n’est activée dans la stratégie globale. Pour prendre en charge l’accès utilisateur externe au niveau global, vous devez configurer la stratégie globale pour prendre en charge un ou plusieurs types d’options d’accès utilisateur externe. La stratégie globale s’applique à tous les utilisateurs de votre organisation, mais les stratégies de site et les stratégies d’utilisateur remplacent la stratégie globale. Si vous supprimez la stratégie globale, vous ne la supprimez pas. Au lieu de cela, vous la réinitialisez au paramètre par défaut.
 
-  - **Stratégie de site**   vous pouvez créer et configurer une ou plusieurs stratégies de site pour limiter la prise en charge de l’accès des utilisateurs externes à des sites spécifiques. La configuration de la stratégie du site supplante la stratégie globale, uniquement pour le site pour lequel elle est définie. Par exemple, si vous activez l’accès des utilisateurs distants dans la stratégie globale, vous pouvez spécifier une stratégie de site qui désactive l’accès sur un site donné. Par défaut, une stratégie de site s’applique à tous les utilisateurs de ce site, mais vous pouvez affecter une stratégie d’utilisateur qui supplante la configuration de la stratégie de site.
+  - **Stratégie de site**   Vous pouvez créer et configurer une ou plusieurs stratégies de site pour limiter la prise en charge de l’accès des utilisateurs externes à des sites spécifiques. La configuration de la stratégie du site supplante la stratégie globale, uniquement pour le site pour lequel elle est définie. Par exemple, si vous activez l’accès des utilisateurs distants dans la stratégie globale, vous pouvez spécifier une stratégie de site qui désactive l’accès sur un site donné. Par défaut, une stratégie de site s’applique à tous les utilisateurs de ce site, mais vous pouvez affecter une stratégie d’utilisateur qui supplante la configuration de la stratégie de site.
 
-  - **Stratégie utilisateur vous**   pouvez créer et configurer une ou plusieurs stratégies utilisateur pour limiter la prise en charge de l’accès des utilisateurs distants à des utilisateurs spécifiques. La stratégie utilisateur supplante les stratégies globale et de site, uniquement pour les utilisateurs auxquels elle est affectée. Par exemple, si vous activez l’accès des utilisateurs distants dans les stratégies globale et de site, vous pouvez définir une stratégie utilisateur qui désactive l’accès des utilisateurs distants et l’affecter à des utilisateurs spécifiques. Si vous créez une stratégie d’utilisateur, vous devez l’appliquer à un ou plusieurs utilisateurs avant qu’elle n’entre en vigueur.
+  - **Stratégie d’utilisateur**   Vous pouvez créer et configurer une ou plusieurs stratégies utilisateur pour limiter la prise en charge de l’accès des utilisateurs distants à des utilisateurs spécifiques. La stratégie utilisateur supplante les stratégies globale et de site, uniquement pour les utilisateurs auxquels elle est affectée. Par exemple, si vous activez l’accès des utilisateurs distants dans les stratégies globale et de site, vous pouvez définir une stratégie utilisateur qui désactive l’accès des utilisateurs distants et l’affecter à des utilisateurs spécifiques. Si vous créez une stratégie utilisateur, vous devez l’appliquer à un ou plusieurs utilisateurs pour qu’elle prenne effet.
 
 Pour déterminer les paramètres de configuration et les stratégies à créer ou modifier, reportez-vous aux points de décision suivants :
 
@@ -87,7 +87,7 @@ Configurez les paramètres comme indiqué dans la rubrique [activation ou désac
 
 Configurez les paramètres comme indiqué dans la rubrique [activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés dans Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
 
-**Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui permettent la communication avec des fournisseurs publics, tels que Windows Live Messenger, AOL\!et Yahoo ?**
+**Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui permettent la communication avec des fournisseurs publics, tels que Windows Live Messenger, AOL et Yahoo \! ?**
 
 Configurez les paramètres comme indiqué dans les rubriques [configure Policies to Control public user Access dans Lync server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[Enable or Disable Federation and Public IM Connectivity in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md), et [créez ou modifiez des fournisseurs fédérés SIP publics dans Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
 
@@ -107,7 +107,7 @@ Configurez les paramètres comme indiqué dans les rubriques [configure Policies
 
 </div>
 
-**Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui sont des fournisseurs hébergés exécutant Microsoft Office 365, Microsoft Lync Online et Microsoft Lync Online 2010 ?**
+**Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui sont des fournisseurs hébergés exécutant Microsoft 365, Microsoft Lync Online et Microsoft Lync Online 2010 ?**
 
 Configurez les paramètres comme indiqué dans les rubriques [création ou modification de fournisseurs fédérés SIP publics dans Lync server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) et [création ou modification des fournisseurs fédérés sip hébergés Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06d32aa0cf2248c80b8f98d80e8c796818b89a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186017"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Les organisations disposant d’un déploiement local de Lync Server doivent rem
 
 
 > [!NOTE]  
-> Pour Lync Server 2010, exécutez la mise à jour cumulative pour Lync Server 2010 : février 2012 (disponible à l’adresse <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2670352</A>) ou version ultérieure sur tous les serveurs. Pour permettre aux utilisateurs de participer à des réunions, exécutez la mise à jour cumulative pour Lync Server 2010 : octobre 2012 (disponible à l’adresse <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2737915</A>) sur les serveurs.
+> Pour Lync Server 2010, exécutez la mise à jour cumulative pour Lync Server 2010 : février 2012 (disponible à l’adresse <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2670352</A>) ou version ultérieure sur tous les serveurs. Pour permettre aux utilisateurs de participer à des réunions, exécutez la mise à jour cumulative pour Lync Server 2010 : octobre 2012 (disponible à l’adresse <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2737915</A>) sur les serveurs.
 
 
 
@@ -61,7 +61,7 @@ Les organisations disposant d’un déploiement local de Lync Server doivent rem
 
   - Sur les clients, installez Windows 8,1 et la dernière version de Lync Windows Store App pour résoudre un problème de connexion qui se produit généralement lorsque vous utilisez plusieurs domaines (par exemple, lorsque l’URI SIP est **usera@domainZ.com** mais que le serveur Edge est **SIP.domainX.com**).
 
-Si votre organisation s’abonne à Lync Online ou Office 365 et que vous utilisez votre propre nom de domaine, vous devez suivre quelques étapes supplémentaires pour configurer votre réseau pour la découverte automatique des serveurs Lync. Les exigences de configuration réseau sont les mêmes pour les applications Lync Windows Store et Lync sur les appareils mobiles. Suivez les instructions « configurer votre réseau » dans l’article wiki Office 365 « configurer des appareils Lync mobile » disponible à l’adresse [https://go.microsoft.com/fwlink/?LinkId=271822](https://go.microsoft.com/fwlink/?linkid=271822).
+Si votre organisation s’abonne à Lync Online ou Microsoft 365 et que vous utilisez votre propre nom de domaine, vous devez suivre quelques étapes supplémentaires pour configurer votre réseau pour la découverte automatique des serveurs Lync. Les exigences de configuration réseau sont les mêmes pour les applications Lync Windows Store et Lync sur les appareils mobiles.
 
 <div>
 
@@ -82,4 +82,3 @@ Si votre organisation s’abonne à Lync Online ou Office 365 et que vous utilis
 </div>
 
 </div>
-

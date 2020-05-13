@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780243"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ Les tableaux suivants comparent les fonctionnalités entre les clients mobiles L
 
   - Audio et vidéo Lync à Lync
 
-  - Vidéoconférence
+  - Conférence
 
   - Téléphonie
 
@@ -412,8 +412,7 @@ Sur iPhone et iPad, Lync se déconnecte automatiquement si l’utilisateur n’a
 </table>
 
 
-1 non disponible pour les utilisateurs de Skype entreprise Online et/ou de Microsoft 365 ou Office 365.
-
+1 non disponible pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365.
 </div>
 
 <div>
@@ -757,11 +756,11 @@ Sur iPhone et iPad, Lync se déconnecte automatiquement si l’utilisateur n’a
 </table>
 
 
-1 pour les utilisateurs de Microsoft 365 ou Office 365, cette fonctionnalité est disponible uniquement pour les réunions activées par le fournisseur de services d’audioconférence (ACP).
+1 pour les utilisateurs d’Office 365 et Microsoft 365, cette fonctionnalité est disponible uniquement pour les réunions activées par le fournisseur de services d’audioconférence (ACP).
 
 2 non disponible pour les utilisateurs de Microsoft 365 ou Office 365.
 
-3 pour Skype entreprise Online et/ou Microsoft 365 ou Office 365 utilisateur, cette fonctionnalité est disponible auprès de fournisseurs de services d’audioconférence tiers.
+3 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité est disponible auprès de fournisseurs de services d’audioconférence tiers.
 
 la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affichée à partir de Lync mobile 2013. Les annotations effectuées sur les clients de bureau Lync 2013 ne sont pas affichables sur les appareils mobiles.
 
@@ -892,13 +891,13 @@ la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affi
 </table>
 
 
-1 les utilisateurs de Lync Server 2013, Skype entreprise Online et Office 365 peuvent appeler d’autres utilisateurs Lync et des utilisateurs Skype en cliquant sur l’icône. Les utilisateurs de Lync Server 2013 peuvent également placer des appels RTC en cliquant sur l’icône.
+1 les utilisateurs de Lync Server 2013, Skype entreprise Online et Microsoft 365 ou Office 365 peuvent appeler d’autres utilisateurs Lync et des utilisateurs Skype en cliquant sur l’icône. Les utilisateurs de Lync Server 2013 peuvent également placer des appels RTC en cliquant sur l’icône.
 
 2 pour les utilisateurs de Lync Server 2013 locaux, sur les appareils Windows Phone, iPhone et iPad, l’utilisateur clique sur l’icône d’appel dans la carte de visite et accepte le rappel depuis Lync Server 2013. Pour les utilisateurs de Microsoft 365 ou Office 365, sur les appareils Windows Phone, iPhone et iPad, lorsque l’utilisateur clique sur le bouton appeler, une boîte de dialogue s’ouvre demandant à l’utilisateur de confirmer qu’il souhaite appeler le numéro.
 
-3 non disponible pour les utilisateurs de Skype entreprise Online et/ou de Microsoft 365 ou Office 365.
+3 non disponible pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365
 
-4 pour Skype entreprise Online et/ou Microsoft 365 ou Office 365 utilisateur, cette fonctionnalité est prise en charge par les partenaires Microsoft.
+4 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité est prise en charge par les partenaires Microsoft.
 
 </div>
 
@@ -973,7 +972,7 @@ la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affi
 
 1 par défaut, la relation de confidentialité des contacts externes est attribuée aux utilisateurs fédérés. Pour pouvoir joindre un contact fédéré sur son téléphone mobile en appelant son numéro professionnel publié, le contact fédéré doit vous affecter manuellement la relation de confidentialité des collègues.
 
-2 non disponible pour les utilisateurs d’Office 365.
+2 non disponible pour les utilisateurs de Microsoft 365 ou Office 365.
 
 </div>
 
@@ -1080,4 +1079,3 @@ la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affi
 </div>
 
 </div>
-

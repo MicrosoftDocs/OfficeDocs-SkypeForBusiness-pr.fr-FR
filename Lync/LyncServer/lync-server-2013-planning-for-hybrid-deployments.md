@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780323"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Vous devez tenir compte des exigences suivantes pour les utilisateurs et l’inf
 
 Les éléments suivants doivent être configurés dans votre environnement afin d’implémenter et de déployer un déploiement hybride.
 
-  - Une organisation Microsoft Office 365 avec Skype entreprise Online activé. Notez que vous ne pouvez utiliser qu’un seul client pour une configuration hybride avec votre déploiement local.
+  - Une organisation Microsoft 365 ou Office 365 avec Skype entreprise Online activé. Notez que vous ne pouvez utiliser qu’un seul client pour une configuration hybride avec votre déploiement local.
 
   - Un seul déploiement local (infrastructure) de Skype entreprise Server ou de Lync Server déployé dans une topologie prise en charge. Consultez la rubrique Configuration requise pour la topologie.
     
@@ -53,7 +53,7 @@ Les éléments suivants doivent être configurés dans votre environnement afin 
 
   - Outils d’administration de Skype entreprise Server 2015. Si vous utilisez Lync Server 2013 ou Lync Server 2010, vous pouvez utiliser les outils d’administration Lync Server 2013.
 
-  - Pour prendre en charge l’authentification unique avec Office 365 afin que les utilisateurs puissent utiliser les mêmes informations d’identification de connexion pour se connecter à Office comme ils le font sur site, vous pouvez utiliser les fonctionnalités de synchronisation de mot de passe d’Azure Active Directory (AAD) Connect. Vous pouvez également utiliser les services ADFS (Active Directory Federation Services) pour l’authentification unique avec Office 365.
+  - Pour prendre en charge l’authentification unique avec Microsoft 365 ou Office 365 de sorte que les utilisateurs puissent utiliser les mêmes informations d’identification de connexion pour se connecter à Office comme ils le font sur site, vous pouvez utiliser les fonctionnalités de synchronisation de mot de passe d’Azure Active Directory (AAD) Connect. Vous pouvez également utiliser les services ADFS (Active Directory Federation Services) pour l’authentification unique avec Microsoft 365 ou Office 365.
     
     Pour plus d'informations, voir [Intégration de vos identités locales avec Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
@@ -159,7 +159,7 @@ La liste des domaines autorisés inclut des domaines dont le nom de domaine comp
 
 Les conditions requises suivantes doivent être remplies pour pouvoir configurer un déploiement hybride :
 
-  - La correspondance de domaine doit être configurée de la même façon pour votre déploiement local et votre organisation Office 365. Si la découverte des partenaires est activée sur le déploiement local, la Fédération ouverte doit être configurée pour votre client en ligne. Si la découverte de partenaire n’est pas activée, alors la Fédération fermée doit être configurée pour votre client en ligne.
+  - La correspondance de domaine doit être configurée de la même façon pour votre déploiement local et votre organisation Microsoft 365 ou Office 365. Si la découverte des partenaires est activée sur le déploiement local, la Fédération ouverte doit être configurée pour votre client en ligne. Si la découverte de partenaire n’est pas activée, alors la Fédération fermée doit être configurée pour votre client en ligne.
 
   - La liste des domaines bloqués dans le déploiement local doit correspondre exactement à la liste des domaines bloqués pour votre client en ligne.
 
@@ -191,7 +191,7 @@ En outre, vous devez vous assurer que la résolution DNS décrite dans le tablea
 <td><p>Enregistrement DNS requis</p></td>
 </tr>
 <tr class="even">
-<td><p>Enregistrement DNS SRV pour _sipfederationtls. _tcp. &lt;sipdomain.com&gt; pour tous les domaines SIP pris en charge résolus pour accéder à l’adresse IP externe du serveur Edge (s)</p></td>
+<td><p>Enregistrement DNS SRV pour _sipfederationtls. _tcp. &lt; sipdomain.com &gt; pour tous les domaines SIP pris en charge résolus pour accéder à l’adresse IP externe du serveur Edge (s)</p></td>
 <td><p>Serveur (s) Edge</p></td>
 <td><p>Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit indiquer où acheminer le trafic fédéré pour le domaine SIP qui est réparti entre local et en ligne.</p></td>
 </tr>
@@ -214,7 +214,7 @@ En fonction de la configuration de DNS dans votre organisation, il se peut que v
 
 Les ordinateurs de votre réseau doivent être en mesure d’effectuer des recherches DNS Internet standard. Si ces ordinateurs peuvent accéder à des sites Internet standard, votre réseau répond à cette exigence.
 
-En fonction de l’emplacement de votre centre de données Microsoft Online Services, vous devez également configurer vos périphériques de pare-feu réseau pour qu’ils acceptent les connexions basées sur des noms de \*domaine génériques (par exemple, tout le trafic provenant de. Outlook.com). Si les pare-feu de votre organisation ne prennent pas en charge les configurations de nom génériques, vous devrez déterminer manuellement les plages d’adresses IP que vous voulez autoriser et les ports spécifiés.
+En fonction de l’emplacement de votre centre de données Microsoft Online Services, vous devez également configurer vos périphériques de pare-feu réseau pour qu’ils acceptent les connexions basées sur des noms de domaine génériques (par exemple, tout le trafic provenant de \* . Outlook.com). Si les pare-feu de votre organisation ne prennent pas en charge les configurations de nom génériques, vous devrez déterminer manuellement les plages d’adresses IP que vous voulez autoriser et les ports spécifiés.
 
 Reportez-vous à la rubrique d’aide [URL et plages d’adresses IP Office 365](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
@@ -299,7 +299,7 @@ Lorsque vous synchronisez des comptes d’utilisateurs entre vos déploiements L
 
 
 > [!IMPORTANT]  
-> Si l’utilisateur est créé à l’aide du portail en ligne pour Office 365, le compte d’utilisateur n’est pas synchronisé avec Active Directory local et l’utilisateur n’existe pas dans l’environnement Active Directory local. Si vous avez déjà créé des utilisateurs dans Lync Online et que vous souhaitez configurer un environnement hybride avec un serveur Lync Server local, consultez la rubrique <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
+> Si l’utilisateur est créé à l’aide du portail en ligne pour le centre d’administration Microsoft 365, le compte d’utilisateur n’est pas synchronisé avec Active Directory local et l’utilisateur n’existe pas dans l’environnement Active Directory local. Si vous avez déjà créé des utilisateurs dans Lync Online et que vous souhaitez configurer un environnement hybride avec un serveur Lync Server local, consultez la rubrique <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
 
 
 
@@ -307,11 +307,11 @@ Lorsque vous synchronisez des comptes d’utilisateurs entre vos déploiements L
 
 Vous devez également tenir compte des problèmes liés aux utilisateurs suivants lors de la planification d’un déploiement hybride.
 
-  - **Contacts**   de l’utilisateur la limite de contacts pour les utilisateurs de Lync Online est de 250. Tous les contacts au-delà de ce numéro seront supprimés de la liste des contacts de l’utilisateur lors du déplacement du compte vers Lync Online.
+  - Contacts de l' **utilisateur**     Le nombre limite de contacts pour les utilisateurs Lync Online est de 250. Tous les contacts au-delà de ce numéro seront supprimés de la liste des contacts de l’utilisateur lors du déplacement du compte vers Lync Online.
 
-  - **Messagerie instantanée et présence**   les listes de contacts, les groupes et les listes de contrôle d’accès des utilisateurs sont migrés avec le compte d’utilisateur.
+  - **Messagerie instantanée et présence**     Les listes de contacts de l’utilisateur, les groupes et les listes de contrôle d’accès (ACL) sont migrés avec le compte d’utilisateur.
 
-  - **Données de conférence, contenu de réunion et réunions**   planifiées ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions après la migration de leurs comptes vers Lync Online.
+  - **Données de conférence, contenu de réunion et réunions**     planifiées Ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions après la migration de leurs comptes vers Lync Online.
 
 </div>
 
@@ -321,11 +321,11 @@ Vous devez également tenir compte des problèmes liés aux utilisateurs suivant
 
   - Dans un environnement hybride Lync Server 2013, les utilisateurs peuvent être activés pour la messagerie instantanée, la voix et les réunions en local ou en ligne, mais pas les deux en même temps.
 
-  - **Client Lync certains**     utilisateurs peuvent exiger une nouvelle version du client lorsqu’ils sont déplacés vers Lync Online. Pour Office Communications Server 2007 R2, les utilisateurs doivent être déplacés vers un pool Lync Server 2013 avant la migration vers Lync Online.
+  - **Client Lync**     Certains utilisateurs peuvent exiger une nouvelle version du client lorsqu’ils sont déplacés vers Lync Online. Pour Office Communications Server 2007 R2, les utilisateurs doivent être déplacés vers un pool Lync Server 2013 avant la migration vers Lync Online.
     
     Pour plus d’informations sur la prise en charge des clients, voir [clients pour Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) et [clients Lync pris en charge et les configurations des ports réseau](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Les stratégies locales et de configuration (non utilisateur)**   en ligne et locales nécessitent une configuration distincte. Vous ne pouvez pas définir des stratégies globales qui s’appliquent aux deux.
+  - **Configuration et stratégies locales (non utilisateur)**     Les stratégies en ligne et locales nécessitent une configuration distincte. Vous ne pouvez pas définir des stratégies globales qui s’appliquent aux deux.
 
 </div>
 
@@ -338,4 +338,3 @@ Vous devez également tenir compte des problèmes liés aux utilisateurs suivant
 </div>
 
 </div>
-

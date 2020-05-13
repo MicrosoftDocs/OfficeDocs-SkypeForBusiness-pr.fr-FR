@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194977"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194977"
 
 _**Dernière modification de la rubrique :** 2014-03-14_
 
-**Résumé :** ces diagrammes fournissent des représentations visuelles de solutions recommandées pour Lync 2013.
+**Résumé :**   Ces diagrammes fournissent des représentations visuelles de solutions recommandées pour Lync 2013.
 
 Ces ressources sont disponibles au format Visio (. VSD) (Visio 2010 ou Visio 2013) et le format PDF. Pour plus d’informations sur l’impression des documents, voir conseils pour l’impression des affiches.
 
@@ -136,7 +136,7 @@ Ces affiches détaillent un domaine technique spécifique et sont destinées à 
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Zoomer sur l’affiche avec Zoom.it de Microsoft</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">Version PDF</a> (recommandé pour les appareils mobiles ou les tablettes)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Version Visio</a> (recommandé pour les utilisateurs de Visio)</p></td>
-<td><p>Cette affiche décrit les options de plateforme disponibles pour Lync 2013 aux BDM et architectes les clients peuvent choisir entre Lync Online et Office 365, hybride Lync, Lync Server local et Lync hébergé. L’affiche inclut les détails de chaque option d’architecture, y compris les scénarios idéaux pour chacune, les exigences de licence et les responsabilités des professionnels de l’informatique.</p>
+<td><p>Cette affiche décrit les options de plateforme disponibles pour Lync 2013 aux BDM et architectes les clients peuvent choisir entre Lync Online et Microsoft 365, hybride Lync, Lync Server local et Lync hébergé. L’affiche inclut les détails de chaque option d’architecture, y compris les scénarios idéaux pour chacune, les exigences de licence et les responsabilités des professionnels de l’informatique.</p>
 <p>Taille : 34-x-44 cm</p>
 <p>Cette affiche a été créée à l’aide de Visio 2013. Aucune modification n’est nécessaire pour un environnement spécifique.</p></td>
 </tr>
