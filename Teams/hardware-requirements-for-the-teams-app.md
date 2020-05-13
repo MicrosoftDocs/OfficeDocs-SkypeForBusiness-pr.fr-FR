@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4eb43e79a7ad45596876a3fc932ad405271b0dda
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 2a73db43512906dee2258b97484d69fb8fc1b8ef
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918502"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210590"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -43,7 +43,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Version de .NET    |  Requiert .NET 4.5 CLR ou version ultérieure.       |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    | 
-|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur 2,0 GHz et 4,0 Go de RAM (ou plus). </li><li>L’effet vidéo facultatif**Brouiller mon arrière-plan** nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2). Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite Bluetooth LE, lequel nécessite l’activation du Bluetooth sur l’appareil client, et pour les clients Windows, le client Teams 64 bits est nécessaire. Ce n’est pas disponible pour les équipes 32 bits.</li></ul> |
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur monocœur et de 4,0 Go de RAM (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure). </li><li>L’effet vidéo facultatif**Brouiller mon arrière-plan** nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2). Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite Bluetooth LE, lequel nécessite l’activation du Bluetooth sur l’appareil client, et pour les clients Windows, le client Teams 64 bits est nécessaire. Ce n’est pas disponible pour les équipes 32 bits.</li></ul> |
 |Événements en direct Teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou plus) et d’un codeur matériel. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur un Mac
@@ -57,7 +57,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Système d’exploitation  |    Mac OS X 10,11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur 2,0 GHz et 4,0 Go de RAM (ou plus).  <ul><li>L’effet vidéo facultatif**Brouiller mon arrière-plan** nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2), pris en charge sur la plupart des appareils Mac 2013 ou ultérieurs. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Mac OS.</li></ul> |
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur monocœur et de 4,0 Go de RAM (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure). </li><li>L’effet vidéo facultatif**Brouiller mon arrière-plan** nécessite un processeur avec la prise en charge de AVX2 (Advanced Vector Extensions 2), pris en charge sur la plupart des appareils Mac 2013 ou ultérieurs. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Mac OS.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Configuration matérielle requise pour Teams sur Linux
 
@@ -72,7 +72,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    | 
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur 2,0 GHz et 4,0 Go de RAM (ou plus). </li><li>Les effets vidéo en arrière-plan requièrent un processeur doté d’une prise en charge de 2013 la version 2 de AVX2 Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur monocœur et de 4,0 Go de RAM (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure).  </li><li>Les effets vidéo en arrière-plan requièrent un processeur doté d’une prise en charge de 2013 la version 2 de AVX2 Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
 |Distributions Linux prises en charge | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Configuration matérielle requise pour Teams sur les appareils mobiles
