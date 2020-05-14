@@ -11,13 +11,13 @@
 
 ## [Détails sur les solutions téléphoniques Microsoft Telephony](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [Planifier le système téléphonique avec une connectivité PSTN en local](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [Planifier un système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [Activation des utilisateurs pour le système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 #### [Activation des utilisateurs pour le déploiement local de Voix Entreprise](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [Affectation d’une stratégie de routage des communications vocales](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [Activation des utilisateurs pour la version en ligne de Voix Entreprise et le Système téléphonique dans la messagerie vocale Office 365](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [Activer la messagerie vocale pour les utilisateurs de la messagerie vocale Enterprise Online et du système téléphonique](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [Planification pour Skype Entreprise Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
