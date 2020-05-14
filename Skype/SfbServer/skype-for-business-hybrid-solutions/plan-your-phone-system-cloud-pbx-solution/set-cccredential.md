@@ -1,5 +1,5 @@
 ---
-title: Set-applet cccredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,59 +13,59 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780673"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221568"
 ---
-# <a name="set-cccredential"></a><span data-ttu-id="eb707-103">Set-applet cccredential</span><span class="sxs-lookup"><span data-stu-id="eb707-103">Set-CcCredential</span></span>
+# <a name="set-cccredential"></a><span data-ttu-id="b0514-103">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="b0514-103">Set-CcCredential</span></span>
  
-<span data-ttu-id="eb707-104">L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel.</span><span class="sxs-lookup"><span data-stu-id="eb707-104">The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
+<span data-ttu-id="b0514-104">L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel.</span><span class="sxs-lookup"><span data-stu-id="b0514-104">The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
   
-<span data-ttu-id="eb707-105">Avec la version 2,0 de Cloud Connector et les versions ultérieures, cette applet de commande peut également définir les informations de compte pour l’administrateur de l’ordinateur virtuel et pour l’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="eb707-105">With Cloud Connector version 2.0 and later, this cmdlet can also set the account information for the virtual machine administrator and for the domain administrator.</span></span>
+<span data-ttu-id="b0514-105">Avec la version 2,0 de Cloud Connector et les versions ultérieures, cette applet de commande peut également définir les informations de compte pour l’administrateur de l’ordinateur virtuel et pour l’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="b0514-105">With Cloud Connector version 2.0 and later, this cmdlet can also set the account information for the virtual machine administrator and for the domain administrator.</span></span>
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
-## <a name="examples"></a><span data-ttu-id="eb707-106">Exemples</span><span class="sxs-lookup"><span data-stu-id="eb707-106">Examples</span></span>
-<span data-ttu-id="eb707-107"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="eb707-107"><a name="Examples"> </a></span></span>
+## <a name="examples"></a><span data-ttu-id="b0514-106">Exemples</span><span class="sxs-lookup"><span data-stu-id="b0514-106">Examples</span></span>
+<span data-ttu-id="b0514-107"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="b0514-107"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="eb707-108">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="eb707-108">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="b0514-108">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="b0514-108">Example 1</span></span>
 
-<span data-ttu-id="eb707-109">L’exemple suivant spécifie le nom de compte et le mot de passe de l’administrateur client :</span><span class="sxs-lookup"><span data-stu-id="eb707-109">The following example specifies the account name and password for the tenant administrator:</span></span>
+<span data-ttu-id="b0514-109">L’exemple suivant spécifie le nom de compte et le mot de passe de l’administrateur client :</span><span class="sxs-lookup"><span data-stu-id="b0514-109">The following example specifies the account name and password for the tenant administrator:</span></span>
   
 ```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="eb707-110">Description détaillée</span><span class="sxs-lookup"><span data-stu-id="eb707-110">Detailed Description</span></span>
-<span data-ttu-id="eb707-111"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="eb707-111"><a name="DetailedDescription"> </a></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="b0514-110">Description détaillée</span><span class="sxs-lookup"><span data-stu-id="b0514-110">Detailed Description</span></span>
+<span data-ttu-id="b0514-111"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="b0514-111"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="eb707-112">L’applet de commande Set-applet cccredential définit le nom de compte et le mot de passe de l’administrateur client.</span><span class="sxs-lookup"><span data-stu-id="eb707-112">The Set-CcCredential cmdlet sets the account name and password for the tenant administrator.</span></span> <span data-ttu-id="eb707-113">Pour les versions antérieures à 2,0, cet administrateur doit être un administrateur général.</span><span class="sxs-lookup"><span data-stu-id="eb707-113">For releases prior to 2.0, this administrator must be a Global Administrator.</span></span> <span data-ttu-id="eb707-114">Cloud Connector utilise ce compte pour obtenir des informations de configuration, définir les paramètres de configuration et mettre à jour l’état de l’équipement vers la configuration de l’organisation Office 365.</span><span class="sxs-lookup"><span data-stu-id="eb707-114">Cloud Connector uses this account to get configuration information, set configuration parameters, and update appliance status to the Office 365 organization configuration.</span></span> <span data-ttu-id="eb707-115">Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser cette applet de commande pour mettre à jour les mots de passe des comptes VmAdmin et DomainAdmin.</span><span class="sxs-lookup"><span data-stu-id="eb707-115">With release 2.0 and later, you can also use this cmdlet to update the passwords for the VmAdmin and DomainAdmin accounts.</span></span>
+<span data-ttu-id="b0514-112">L’applet de commande Set-applet cccredential définit le nom de compte et le mot de passe de l’administrateur client.</span><span class="sxs-lookup"><span data-stu-id="b0514-112">The Set-CcCredential cmdlet sets the account name and password for the tenant administrator.</span></span> <span data-ttu-id="b0514-113">Pour les versions antérieures à 2,0, cet administrateur doit être un administrateur général.</span><span class="sxs-lookup"><span data-stu-id="b0514-113">For releases prior to 2.0, this administrator must be a Global Administrator.</span></span> <span data-ttu-id="b0514-114">Cloud Connector utilise ce compte pour obtenir des informations de configuration, définir les paramètres de configuration et mettre à jour l’état de l’équipement vers la configuration de l’organisation Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="b0514-114">Cloud Connector uses this account to get configuration information, set configuration parameters, and update appliance status to the Microsoft 365 or Office 365 organization configuration.</span></span> <span data-ttu-id="b0514-115">Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser cette applet de commande pour mettre à jour les mots de passe des comptes VmAdmin et DomainAdmin.</span><span class="sxs-lookup"><span data-stu-id="b0514-115">With release 2.0 and later, you can also use this cmdlet to update the passwords for the VmAdmin and DomainAdmin accounts.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="eb707-116">Paramètres</span><span class="sxs-lookup"><span data-stu-id="eb707-116">Parameters</span></span>
-<span data-ttu-id="eb707-117"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="eb707-117"><a name="DetailedDescription"> </a></span></span>
+## <a name="parameters"></a><span data-ttu-id="b0514-116">Paramètres</span><span class="sxs-lookup"><span data-stu-id="b0514-116">Parameters</span></span>
+<span data-ttu-id="b0514-117"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="b0514-117"><a name="DetailedDescription"> </a></span></span>
 
-|<span data-ttu-id="eb707-118">**Paramètre**</span><span class="sxs-lookup"><span data-stu-id="eb707-118">**Parameter**</span></span>|<span data-ttu-id="eb707-119">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="eb707-119">**Required**</span></span>|<span data-ttu-id="eb707-120">**Type**</span><span class="sxs-lookup"><span data-stu-id="eb707-120">**Type**</span></span>|<span data-ttu-id="eb707-121">**Description**</span><span class="sxs-lookup"><span data-stu-id="eb707-121">**Description**</span></span>|
+|<span data-ttu-id="b0514-118">**Paramètre**</span><span class="sxs-lookup"><span data-stu-id="b0514-118">**Parameter**</span></span>|<span data-ttu-id="b0514-119">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="b0514-119">**Required**</span></span>|<span data-ttu-id="b0514-120">**Type**</span><span class="sxs-lookup"><span data-stu-id="b0514-120">**Type**</span></span>|<span data-ttu-id="b0514-121">**Description**</span><span class="sxs-lookup"><span data-stu-id="b0514-121">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="eb707-122">AccountType</span><span class="sxs-lookup"><span data-stu-id="eb707-122">AccountType</span></span> <br/> | <span data-ttu-id="eb707-123">Requis</span><span class="sxs-lookup"><span data-stu-id="eb707-123">Required</span></span> <br/> |<span data-ttu-id="eb707-124">System.String</span><span class="sxs-lookup"><span data-stu-id="eb707-124">System.String</span></span>  <br/> | <span data-ttu-id="eb707-125">La valeur du paramètre doit être « TenantAdmin », « VmAdmin » ou « DomainAdmin ».</span><span class="sxs-lookup"><span data-stu-id="eb707-125">Parameter value must be "TenantAdmin", "VmAdmin", or "DomainAdmin".</span></span> <br/> |
+| <span data-ttu-id="b0514-122">AccountType</span><span class="sxs-lookup"><span data-stu-id="b0514-122">AccountType</span></span> <br/> | <span data-ttu-id="b0514-123">Requis</span><span class="sxs-lookup"><span data-stu-id="b0514-123">Required</span></span> <br/> |<span data-ttu-id="b0514-124">System.String</span><span class="sxs-lookup"><span data-stu-id="b0514-124">System.String</span></span>  <br/> | <span data-ttu-id="b0514-125">La valeur du paramètre doit être « TenantAdmin », « VmAdmin » ou « DomainAdmin ».</span><span class="sxs-lookup"><span data-stu-id="b0514-125">Parameter value must be "TenantAdmin", "VmAdmin", or "DomainAdmin".</span></span> <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="eb707-126">Types d’entrée</span><span class="sxs-lookup"><span data-stu-id="eb707-126">Input Types</span></span>
-<span data-ttu-id="eb707-127"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="eb707-127"><a name="InputTypes"> </a></span></span>
+## <a name="input-types"></a><span data-ttu-id="b0514-126">Types d’entrée</span><span class="sxs-lookup"><span data-stu-id="b0514-126">Input Types</span></span>
+<span data-ttu-id="b0514-127"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="b0514-127"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="eb707-128">Aucun.</span><span class="sxs-lookup"><span data-stu-id="eb707-128">None.</span></span> <span data-ttu-id="eb707-129">L’applet de commande Set-applet cccredential n’accepte pas les entrées redirigées.</span><span class="sxs-lookup"><span data-stu-id="eb707-129">The Set-CcCredential cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="b0514-128">Aucun.</span><span class="sxs-lookup"><span data-stu-id="b0514-128">None.</span></span> <span data-ttu-id="b0514-129">L’applet de commande Set-applet cccredential n’accepte pas les entrées redirigées.</span><span class="sxs-lookup"><span data-stu-id="b0514-129">The Set-CcCredential cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="eb707-130">Types de retour</span><span class="sxs-lookup"><span data-stu-id="eb707-130">Return Types</span></span>
-<span data-ttu-id="eb707-131"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="eb707-131"><a name="ReturnTypes"> </a></span></span>
+## <a name="return-types"></a><span data-ttu-id="b0514-130">Types de retour</span><span class="sxs-lookup"><span data-stu-id="b0514-130">Return Types</span></span>
+<span data-ttu-id="b0514-131"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="b0514-131"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="eb707-132">Aucun</span><span class="sxs-lookup"><span data-stu-id="eb707-132">None</span></span>
+<span data-ttu-id="b0514-132">Aucun</span><span class="sxs-lookup"><span data-stu-id="b0514-132">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="eb707-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="eb707-133">See also</span></span>
-<span data-ttu-id="eb707-134"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="eb707-134"><a name="ReturnTypes"> </a></span></span>
+## <a name="see-also"></a><span data-ttu-id="b0514-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b0514-133">See also</span></span>
+<span data-ttu-id="b0514-134"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="b0514-134"><a name="ReturnTypes"> </a></span></span>
 
-[<span data-ttu-id="eb707-135">Get-applet cccredential</span><span class="sxs-lookup"><span data-stu-id="eb707-135">Get-CcCredential</span></span>](get-cccredential.md)
+[<span data-ttu-id="b0514-135">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="b0514-135">Get-CcCredential</span></span>](get-cccredential.md)
   
 
