@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Examinez les considérations relatives à l’utilisation des ports avant d’implémenter Skype entreprise Server.'
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025785"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220384"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Configuration requise pour les ports et les protocoles pour les serveurs
  
@@ -34,7 +34,7 @@ Bien que cela puisse paraître un peu décourageante, l’important travail de p
   
 Vous pouvez également trouver les informations contenues dans ces tableaux sous forme de diagramme en examinant l’affiche relative aux charges de travail de protocole liées à l’article [diagrammes techniques de Skype entreprise Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Si vous implémentez Skype entreprise Online (O365), reportez-vous à la rubrique [URL et plages d’adresses IP Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Les environnements hybrides devront faire référence à cette rubrique et planifier également une [connectivité hybride](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> - Si vous implémentez Skype entreprise Online (Microsoft 365 ou Office 365), reportez-vous à la rubrique [URL et plages d’adresses IP microsoft 365 et office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Les environnements hybrides devront faire référence à cette rubrique et planifier également une [connectivité hybride](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Vous pouvez utiliser des pare-feu matériels ou logiciels, nous n’avons pas besoin de modèles ou de versions spécifiques. Quels sont les éléments qui concernent les ports autorisés, de sorte que le pare-feu ne nuit pas au fonctionnement de Skype entreprise Server.
   
 ## <a name="port-and-protocol-details"></a>Détails des ports et protocoles
@@ -107,7 +107,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Serveur frontal de conversation permanente  |Service de transfert de fichiers de conversation permanente  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> Certains scénarios de contrôle d’appel distant requièrent une connexion TCP entre le serveur frontal ou le directeur et le PBX. Bien que Skype entreprise Server n’utilise plus le port TCP 5060, pendant le déploiement du contrôle d’appel distant, vous créez une configuration de serveur approuvé, qui associe le nom de domaine complet du serveur de ligne RCC au port TCP que le serveur frontal ou directeur utilisera pour se connecter à Système PBX. Pour plus d’informations, reportez-vous à l’applet de commande **CsTrustedApplicationComputer** dans la documentation de Skype entreprise Server Management Shell.
+> Certains scénarios de contrôle d’appel distant requièrent une connexion TCP entre le serveur frontal ou le directeur et le PBX. Bien que Skype entreprise Server n’utilise plus le port TCP 5060, pendant le déploiement du contrôle d’appel distant, vous créez une configuration de serveur approuvé, qui associe le nom de domaine complet du serveur de ligne RCC au port TCP que le serveur frontal ou directeur utilisera pour se connecter au système PBX. Pour plus d’informations, reportez-vous à l’applet de commande **CsTrustedApplicationComputer** dans la documentation de Skype entreprise Server Management Shell.
   
 Pour les pools utilisant uniquement l’équilibrage de la charge matérielle (et non pas l’équilibrage de charge DNS), le tableau suivant indique les ports qui doivent ouvrir les programmes d’équilibrage de la charge matérielle.
   
@@ -186,7 +186,7 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |Serveur Edge A/V, ports internes/entrants  |N'importe lequel  |Serveur Edge A/V - interne  |UDP et TCP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |
 |Serveur Edge A/V, ports externes/entrants  |N'importe lequel  |Serveur Edge A/V - externe  |UDP et TCP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |
-|Serveur Edge A/V, ports internes/sortants  |Serveur Edge A/V - interne  |N'importe lequel  |TCP &amp; UDP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |
+|Serveur Edge A/V, ports internes/sortants  |Serveur Edge A/V - interne  |N'importe lequel  |&amp;TCP UDP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |
 |Serveur Edge A/V, ports externes/sortants  |Serveur Edge A/V - externe  |N'importe lequel  |UDP et TCP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |
 |Serveur de médiation, ports entrants  |N'importe lequel  |Élaboration  <br/> Serveur (s)  |UDP et TCP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |
 |Serveur de médiation, ports sortants  |Élaboration  <br/> Serveur (s)  |N'importe lequel  |UDP et TCP  |N'importe lequel  |N'importe lequel  |Ne pas authentifier  |

@@ -1,5 +1,5 @@
 ---
-title: Mise en service de comptes Exchange et Skype dans Skype Room System
+title: Mise en service des comptes Exchange et Skype d’un système de salle Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,38 +12,38 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: Consultez ces rubriques pour découvrir comment mettre en service des comptes Exchange et Skype pour Skype Room System.
-ms.openlocfilehash: 685909d8a698e6520798d017156514a371c883f1
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Consultez ces rubriques pour découvrir comment mettre en service des comptes Exchange et Skype pour Skype Room System.
+ms.openlocfilehash: be43e732a97dc81fdd2e3a6bdb355afaff4db37d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768467"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220914"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Mise en service de comptes Exchange et Skype dans Skype Room System
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Mise en service des comptes Exchange et Skype d’un système de salle Skype
  
-Consultez ces rubriques pour découvrir comment mettre en service des comptes Exchange et Skype pour Skype Room System. 
+Consultez ces rubriques pour découvrir comment mettre en service des comptes Exchange et Skype pour Skype Room System. 
 
 > [!NOTE]
-> Microsoft teams Room est un produit différent présentant différentes dépendances et procédures de déploiement. Pour plus d’informations sur les salles de Microsoft Teams, voir la [vue d’ensemble du déploiement](room-systems-v2.md)de Microsoft Teams.
+> Les salles Microsoft teams sont un autre produit avec des dépendances et des procédures de déploiement différentes. Pour plus d’informations sur les salles de Microsoft Teams, consultez la rubrique [Présentation du déploiement](room-systems-v2.md)de salles de Microsoft Teams.
   
 > [!NOTE]
-> La mise en service des comptes système de salle Skype dépend du type de topologie dont dispose votre organisation. Pour en savoir plus sur les topologies Active Directory, consultez [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> La mise en service des comptes Skype Room System dépend du type de topologie de votre organisation. Pour en savoir plus sur les topologies Active Directory, reportez-vous à [Environmental Requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Approvisionnement de Skype Room System échange &amp; de comptes Skype entreprise
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Mise en service des &amp; comptes Exchange Skype entreprise dans Skype Room System
 
-Les rubriques suivantes décrivent comment mettre en service et gérer des comptes Exchange et Skype Entreprise dans Skype Room System pour les éléments suivants :
+Les rubriques suivantes décrivent comment mettre en service et gérer les comptes Exchange et Skype entreprise de Skype Room System pour :
   
-- Déploiements locaux d’une forêt unique
+- Déploiements locaux sur une seule forêt
     
-- Déploiements locaux de plusieurs forêts
+- Déploiements locaux sur plusieurs forêts
     
-- Office 365
+- Microsoft 365 ou Office 365
     
 - Déploiements hybrides
     
-- Partenaires fédérés de Skype Room System et Skype Entreprise
+- Partenaires fédérés Skype Room System et Skype entreprise
     
-- Gestion des comptes Skype Room System
+- Gestion des comptes Skype Room System
     
 

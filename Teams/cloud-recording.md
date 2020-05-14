@@ -16,12 +16,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905496"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224227"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -40,11 +40,12 @@ Pour que les réunions d’un utilisateur d’équipes puissent être enregistr�
 - L’utilisateur doit disposer de l’espace de stockage suffisant dans Microsoft Stream pour sauvegarder les enregistrements
 - L’utilisateur a le paramètre TeamsMeetingPolicy-AllowCloudRecording défini sur true
 - L’utilisateur ne doit pas être un utilisateur anonyme, invité ou fédéré de la réunion
+- Pour activer la transcription de la réunion d’un utilisateur, la stratégie de réunion teams à laquelle il est attribué doit être définie sur true.
 
-> [!NOTE]
-> De plus, pour permettre à la personne qui a initié l’enregistrement de choisir de transcrire automatiquement l’enregistrement, le paramètre TeamsMeetingPolicy-AllowTranscription de l’utilisateur doit être défini sur true
+<sup>1</sup> l’utilisateur doit être titulaire d’une licence pour télécharger et télécharger des réunions dans/à partir de Microsoft Stream, mais il n’est pas nécessaire d’enregistrer une réunion. Si vous souhaitez empêcher un utilisateur d’enregistrer une réunion Microsoft Teams, vous devez accorder une TeamsMeetingPolicy dont AllowCloudRecording a la valeur $False.
 
-<sup>1</sup>utilisateur doit être titulaire d’une licence pour charger ou télécharger les réunions vers ou à partir de Microsoft Stream, mais il n’a pas besoin de la licence pour enregistrer une réunion. Si vous souhaitez empêcher un utilisateur d’enregistrer une réunion Microsoft Teams, vous devez accorder une TeamsMeetingPolicy dont AllowCloudRecording a la valeur $False.
+> [!IMPORTANT] 
+> Les utilisateurs n’ont pas besoin d’une licence Microsoft Stream attribuée si vous souhaitez que les utilisateurs puissent uniquement enregistrer et télécharger les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream mais sont stockés dans Azure Media Services (AMS) avec une limite de 30 jours avant d’être supprimés. Il n’y a pas de problème à ce stade qu’un administrateur peut contrôler ou gérer, y compris la possibilité de le supprimer.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurer l’Enregistrement de réunion cloud Teams pour les utilisateurs de votre organisation
 
@@ -54,7 +55,7 @@ Cette section vous explique comment configurer et planifier l'enregistrement des
 
 Microsoft Stream est disponible dans le cadre des abonnements Microsoft 365 et Office 365 admissibles ou en tant que service autonome.  Pour plus d’informations, consultez la [Vue d’ensemble des licences Stream](https://docs.microsoft.com/stream/license-overview).  Microsoft Stream est désormais inclus dans Microsoft 365 entreprise, Microsoft 365 Business standard et Microsoft 365 entreprise Basic.
 
-En savoir plus sur la façon dont vous pouvez [affecter des licences aux utilisateurs dans Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) afin que les utilisateurs puissent accéder à Microsoft Stream. Assurez-vous que Microsoft Stream n’est pas bloqué pour les utilisateurs, comme défini dans [cet article](https://docs.microsoft.com/stream/disable-user-organization).
+En savoir plus sur la façon dont vous pouvez [affecter des licences aux utilisateurs dans Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) afin que les utilisateurs puissent accéder à Microsoft Stream. Assurez-vous que le flux Microsoft n’est pas bloqué pour les utilisateurs, tel qu’il est défini dans la fenêtre [inscription de bloc pour Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>S’assurer que les utilisateurs ont des autorisations de téléchargement de vidéo dans Microsoft Stream
 
@@ -132,7 +133,7 @@ Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utili
 
 ### <a name="planning-for-storage"></a>Planification pour stockage
 
-La taille d’un enregistrement de 1 heure est de 400 Mo. Assurez-vous que vous comprenez la capacité requise pour les fichiers enregistrés et disposez d’un espace de stockage suffisant disponible dans Microsoft Stream.  Consultez [cet article](https://docs.microsoft.com/stream/license-overview) pour comprendre le stockage de base inclus dans l’abonnement et comment acheter de l’espace de stockage supplémentaire.
+La taille d’un enregistrement de 1 heure est de 400 Mo. Assurez-vous que vous comprenez la capacité requise pour les fichiers enregistrés et disposez d’un espace de stockage suffisant disponible dans Microsoft Stream.  Consultez la [rubrique vue d’ensemble des licences Microsoft Stream](https://docs.microsoft.com/stream/license-overview) pour connaître le stockage de base inclus dans l’abonnement et l’achat d’un espace de stockage supplémentaire.
 
 ## <a name="manage-meeting-recordings"></a>Gérer les enregistrements de réunions
 
@@ -140,7 +141,6 @@ Les enregistrements de réunion sont considérés comme du contenu appartenant a
 
 > [!NOTE]
 > Pour plus d’informations sur la gestion des enregistrements et l’accès utilisateur, consultez [Gérer les données utilisateur dans Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) et [Autorisations et confidentialité dans Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions).
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformité et eDiscovery pour les enregistrements de réunions
 

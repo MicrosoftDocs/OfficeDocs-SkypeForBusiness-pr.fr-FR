@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Décrit les solutions de téléphonie Microsoft.
-ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048625"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221324"
 ---
 # <a name="microsoft-telephony-solutions"></a>Solutions de téléphonie Microsoft
 
@@ -40,13 +40,13 @@ Vous devez utiliser cet article avec le diagramme technique associé, qui fourni
 
 ## <a name="private-branch-exchange-pbx-options"></a>Options de PBX (Private Branch Exchange)
 
-### <a name="phone-system-office-365"></a>Système téléphonique (Office 365)
+### <a name="phone-system-microsoft-365-or-office-365"></a>Système téléphonique (Microsoft 365 ou Office 365)
   
-Le système téléphonique est la technologie de Microsoft qui permet d’activer les fonctionnalités de contrôle d’appel et de PBX (Private Branch Exchange) dans le nuage Office 365 avec Microsoft teams et/ou Skype entreprise online. 
+Le système téléphonique est la technologie de Microsoft qui permet d’activer les fonctionnalités de contrôle d’appel et de PBX (Private Branch Exchange) dans le nuage Microsoft 365 ou Office 365 avec Microsoft teams et/ou Skype entreprise online. 
 
-Le système téléphonique fonctionne avec les clients teams ou Skype entreprise Online et les appareils certifiés. Le système téléphonique vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités livré directement par Office 365 et intégré étroitement à l’expérience de productivité dans le Cloud de l’entreprise. Pour connecter un système téléphonique au réseau téléphonique commuté (RTC), vous pouvez choisir Microsoft Call plan ou votre propre opérateur téléphonique.
+Le système téléphonique fonctionne avec les clients teams ou Skype entreprise Online et les appareils certifiés. Le système téléphonique vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités livré directement par Microsoft 365 ou Office 365 et intégré étroitement à l’expérience de productivité dans le Cloud de l’entreprise. Pour connecter un système téléphonique au réseau téléphonique commuté (RTC), vous pouvez choisir Microsoft Call plan ou votre propre opérateur téléphonique.
 
-Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
+Pour plus d’informations, consultez la rubrique [qu’est-ce que le système téléphonique dans Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Voix entreprise (Skype entreprise Server)
 
@@ -58,18 +58,18 @@ Pour plus d’informations, reportez-vous à la rubrique [plan for Enterprise Vo
 
 Vous pouvez choisir de vous connecter au réseau téléphonique commuté (PSTN) en procédant comme suit :
 
-- Utilisation du plan d’appel Microsoft dans Office 365 
+- Utilisation de Microsoft Call plan dans Microsoft 365 ou Office 365 
 - Connexion de votre propre opérateur de téléphonie
 
-### <a name="calling-plan-office-365"></a>Plan d’appel (Office 365)
+### <a name="calling-plan-microsoft-365-or-office-365"></a>Plan d’appel (Microsoft 365 ou Office 365)
 
-Cette option connecte le système téléphonique Office 365 de Microsoft au réseau téléphonique commuté (PSTN) pour permettre des appels vers des téléphones fixes et des téléphones mobiles dans le monde entier. Avec le forfait d’appels, Microsoft est votre opérateur RTC.
+Cette option connecte le système téléphonique Microsoft 365 ou Office 365 au réseau téléphonique commuté (PSTN) pour permettre les appels vers les téléphones fixes et mobiles dans le monde entier. Avec le forfait d’appels, Microsoft est votre opérateur RTC.
 
-Pour plus d’informations, consultez la rubrique [forfaits d’appels pour Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
+Pour plus d’informations, consultez la rubrique [forfaits d’appels pour Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
-### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>Connexion de votre propre opérateur de téléphonie (Office 365 et Skype entreprise en local)
+### <a name="connect-your-own-telephony-carrier-microsoft-365-or-office-365-and-skype-for-business-on-premises"></a>Connexion de votre propre opérateur de téléphonie (Microsoft 365 ou Office 365 et Skype entreprise en local)
 
-Cette option connecte un système téléphonique dans Office 365 ou Enterprise Voice System dans Skype entreprise en local à votre réseau téléphonique. Cette option nécessite un contrôleur SBC (session Border Controller) pris en charge. Dans certains cas, cette option peut nécessiter des logiciels Microsoft supplémentaires déployés sur site.
+Cette option connecte le système téléphonique de Microsoft 365 ou Office 365 ou Enterprise Voice dans Skype entreprise en local à votre réseau téléphonique. Cette option nécessite un contrôleur SBC (session Border Controller) pris en charge. Dans certains cas, cette option peut nécessiter des logiciels Microsoft supplémentaires déployés sur site.
 
 ## <a name="which-solution-is-right-for-your-organization"></a>Quelle solution convient à votre organisation ?
 
@@ -115,12 +115,12 @@ Le système téléphonique avec forfait d’appels est une option tout en nuage 
 
 
 - Système Microsoft Phone avec des forfaits d’appels nationaux ou internationaux permettant d’appeler des téléphones dans le monde entier (en fonction du niveau de service sous licence). 
-- Étant donné que le plan d’appel RTC fonctionne en dehors d’Office 365, cette option ne nécessite pas de déploiement ou de maintenance de tout déploiement sur site.
+- Étant donné que le plan d’appel RTC fonctionne à partir de Microsoft 365 ou Office 365, cette option ne nécessite pas de déploiement ou de maintenance de tout déploiement local.
 - Les clients peuvent connecter un contrôleur SBC pris en charge via le routage direct pour l’interopérabilité avec un PBX tiers, des appareils analogiques et d’autres équipements de téléphonie tiers pris en charge par l’SBC.
 
 | Conditions requises en matière d’infrastructure                   | Obligatoire ?|
 | :----------------------------------------------------| ---------:|
-| Nécessite une connexion sans interruption à Office 365 | Oui |
+| Nécessite une connexion sans interruption à Microsoft 365 ou Office 365 | Oui |
 | Disponible dans le monde entier *                            | Non  |
 | Nécessite le déploiement et la maintenance d’un contrôleur SBC (session Border Controller) pris en charge | Non |
 | Nécessite un contrat avec un opérateur tiers      | Non   |
@@ -137,7 +137,7 @@ Si vous répondez oui aux questions suivantes, il s’agit de la solution la plu
 - Vous ne souhaitez pas gérer les contrôleurs de frontière de session.
 - Teams et/ou Skype entreprise Online offre toutes les fonctionnalités requises par votre organisation.
 
-Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) et les [forfaits d’appels pour Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
+Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans microsoft 365 et office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) et les [forfaits d’appels pour Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>Système téléphonique avec propre opérateur via le routage direct
 
@@ -152,7 +152,7 @@ Cette option fournit un système Microsoft Phone dans le Cloud avec pratiquement
 
 | Conditions requises en matière d’infrastructure                   | Obligatoire ?|
 | :----------------------------------------------------| ---------:|
-| Nécessite une connexion sans interruption à Office 365 | Oui |
+| Nécessite une connexion sans interruption à Microsoft 365 ou Office 365 | Oui |
 | Disponible dans le monde entier                            | Oui  |
 | Nécessite le déploiement et la maintenance d’un contrôleur SBC (session Border Controller) pris en charge | Oui |
 | Nécessite un contrat avec un opérateur tiers *      | Oui   |
@@ -168,7 +168,7 @@ Si vous répondez oui aux questions suivantes, il s’agit de la solution la plu
 - Vous devez interopérer avec des PBX tiers et/ou des appareils de communication, des appareils analogiques.
 - Teams dispose de toutes les fonctionnalités requises par votre organisation.
 
-Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) et [planifiez le routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
+Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans Microsoft 365 et Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) et [planifiez le routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Système téléphonique avec propre opérateur via Skype entreprise Server ou Cloud Connector Edition
@@ -184,7 +184,7 @@ Cette option permet au système Microsoft Phone dans le Cloud de se connecter à
 
 | Conditions requises en matière d’infrastructure                   | Obligatoire ?|
 | :----------------------------------------------------| ---------:|
-| Nécessite une connexion sans interruption à Office 365 | Oui |
+| Nécessite une connexion sans interruption à Microsoft 365 ou Office 365 | Oui |
 | Disponible dans le monde entier                            | Oui  |
 | Nécessite le déploiement et la maintenance d’un contrôleur SBC (session Border Controller) pris en charge | Oui |
 | Nécessite un contrat avec un opérateur tiers      | Oui   |
@@ -198,7 +198,7 @@ Si vous répondez oui aux questions suivantes, il s’agit de la solution la plu
 - Le plan d’appel RTC n’est pas disponible dans votre région.
 - Vous devez conserver votre opérateur RTC actuel.
 
-Pour plus d’informations, voir [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)et [plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
+Pour plus d’informations, consultez la rubrique [What is Phone System in Microsoft 365 and Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)et [plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
 Recommandation : lorsque les conditions de l’entreprise changent (par exemple, vous n’avez plus besoin de conserver votre opérateur RTC), envisagez de passer à Microsoft teams à l’aide des options 1 ou 2 pour :
 - Réduire les coûts de maintenance
@@ -217,7 +217,7 @@ Cette option fournit une voix entreprise sur site avec la connectivité à un r�
 
 | Conditions requises en matière d’infrastructure                   | Obligatoire ?|
 | :----------------------------------------------------| ---------:|
-| Nécessite une connexion sans interruption à Office 365 | Non |
+| Nécessite une connexion sans interruption à Microsoft 365 ou Office 365 | Non |
 | Disponible dans le monde entier                            | Oui  |
 | Nécessite le déploiement et la maintenance d’un contrôleur SBC (session Border Controller) pris en charge | Oui |
 | Nécessite un contrat avec un opérateur tiers      | Oui   |
@@ -228,15 +228,3 @@ Pour plus d’informations, reportez-vous à la rubrique [plan for Enterprise Vo
 Recommandation : lorsque les conditions de l’entreprise changent (par exemple, vous n’avez plus besoin de conserver votre opérateur RTC), envisagez de passer à Microsoft teams à l’aide des options 1 ou 2 pour :
 - Réduire les coûts de maintenance
 - Avoir accès aux dernières fonctionnalités publiées par Microsoft
-
-
-
-
-
-
-
-
-
-
-
-  

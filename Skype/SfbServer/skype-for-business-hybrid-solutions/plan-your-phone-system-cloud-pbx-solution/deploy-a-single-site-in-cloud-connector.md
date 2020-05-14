@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Découvrez comment déployer un seul site RTC dans la version Cloud Connector.
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779350"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220534"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Déployer un seul site dans Cloud Connector
  
@@ -55,7 +55,7 @@ Vous pouvez étendre un site Cloud Connector existant pour prendre en charge la 
   
 1. Suivez les étapes de préparation de votre appliance Cloud Connector comme décrit dans [prepare the Cloud Connector Appliance](prepare-your-cloud-connector-appliance.md). Certaines étapes sont requises uniquement pour la première appliance de votre déploiement. Vérifiez que l’annuaire de sites existe et qu’il est correctement configuré pour la prise en charge de la haute disponibilité.
     
-2. Exécutez l’applet de commande suivante uniquement sur le serveur hôte nouvellement ajouté afin de mettre à jour les informations de topologie dans la configuration de votre organisation Office 365. Si vous souhaitez ajouter plusieurs Appliances en même temps, exécutez l’applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
+2. Exécutez l’applet de commande suivante uniquement sur le serveur hôte nouvellement ajouté afin de mettre à jour les informations de topologie dans la configuration de votre organisation Microsoft 365 ou Office 365. Si vous souhaitez ajouter plusieurs Appliances en même temps, exécutez l’applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Vous pouvez étendre un site Cloud Connector existant pour prendre en charge la 
 
 Si vous souhaitez supprimer une appliance d’un site existant :
   
-1. Exécutez l’applet de commande suivante uniquement sur les serveurs hôtes que vous souhaitez supprimer du site afin de mettre à jour les informations de topologie dans la configuration de votre organisation Office 365.
+1. Exécutez l’applet de commande suivante uniquement sur les serveurs hôtes que vous souhaitez supprimer du site afin de mettre à jour les informations de topologie dans la configuration de votre organisation Microsoft 365 ou Office 365.
     
    ```powershell
    Unregister-CcAppliance

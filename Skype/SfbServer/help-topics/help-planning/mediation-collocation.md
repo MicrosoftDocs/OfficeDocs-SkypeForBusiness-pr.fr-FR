@@ -17,10 +17,10 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'Par défaut, le serveur de médiation est colocalisé avec le serveur frontal. Le serveur de médiation peut également être déployé dans un pool autonome pour des raisons de performances, ou si vous déployez la jonction SIP, auquel cas le pool autonome est fortement recommandé. La colocalisation dans Skype entreprise Server fonctionne de la même manière que dans Lync Server 2013. Pour plus de détails, consultez les rubriques suivantes :'
 ms.openlocfilehash: 944b1778e02b297af61544ae500f347b61afefc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
+ms.lasthandoff: 05/13/2020
 ms.locfileid: "42034034"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Colocalisation de médiation (outil de planification)

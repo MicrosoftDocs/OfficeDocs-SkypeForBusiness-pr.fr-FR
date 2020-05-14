@@ -1,5 +1,5 @@
 ---
-title: Affectation d’une stratégie de routage des communications vocales
+title: Affecter une stratégie de routage des communications vocales
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,38 +18,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Résumé : cette rubrique vous explique comment affecter une stratégie vocale aux utilisateurs de l’utilisation d’un système téléphonique dans Office 365 avec une connectivité PSTN locale.'
-ms.openlocfilehash: 0e9a39fba8d1db7b70f0422e71223d49917716ac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : consultez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs utilisant un système téléphonique avec une connectivité RTC locale.'
+ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803994"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221858"
 ---
-# <a name="assign-a-voice-routing-policy"></a>Affectation d’une stratégie de routage des communications vocales
+# <a name="assign-a-voice-routing-policy"></a>Affecter une stratégie de routage des communications vocales
  
-**Résumé :** Pour plus d’informations sur l’affectation d’une stratégie vocale aux utilisateurs de l’utilisation d’un système téléphonique dans Office 365 avec une connectivité PSTN locale, lisez cette rubrique. 
+**Résumé :** Lisez cette rubrique pour découvrir comment attribuer une stratégie de voix pour les utilisateurs utilisant un système téléphonique avec une connectivité RTC locale. 
   
-Une fois qu’un utilisateur est connecté à Skype entreprise Online et utilise le système téléphonique dans Office 365 avec la connectivité PSTN locale, deux politiques vocales y sont appliquées. Il s’agit d’une stratégie de routage téléphonique locale que vous allez attribuer en local. Ce paramètre peut être défini sur le niveau global ou spécifique de l’utilisateur et définit les enregistrements d’utilisation RTC associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
+Une fois qu’un utilisateur est sur Skype entreprise Online et qu’il utilise un système téléphonique avec une connectivité RTC locale, deux stratégies de voix s’appliquent à celles-ci. L’une est une stratégie de routage des communications vocales locale que vous allez attribuer sur site. Cette stratégie peut être globale ou spécifique à l’utilisateur et définit les enregistrements d’utilisation PSTN associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
   
-L’autre stratégie vocale définit les fonctionnalités d’appel qui sont disponibles pour l’utilisateur ; Cette politique vocale est définie par Microsoft et est identique pour tous les systèmes téléphoniques dans Office 365 avec les utilisateurs de connectivité RTC sur site. Ce service est automatiquement attribué au système téléphonique des utilisateurs d’Office 365.
+Les autres stratégies de voix définissent les fonctionnalités d’appel disponibles pour l’utilisateur ; Cette stratégie de voix est définie par Microsoft et est identique pour tous les systèmes téléphoniques avec des utilisateurs de connectivité RTC locale. Il est automatiquement attribué aux utilisateurs du système téléphonique.
   
-||**Utilisateur du déploiement local**|**Système téléphonique dans Office 365 avec un utilisateur de connectivité RTC sur site**|
+||**Utilisateur sur site**|**Système téléphonique avec utilisateur de connectivité RTC sur site**|
 |:-----|:-----|:-----|
-|Fonctionnalités d’appel définies dans  <br/> |Stratégie de voix  <br/> |Politique vocale prédéfinie, attribuée automatiquement lorsque l’utilisateur est titulaire d’une licence pour un système téléphonique dans Office 365.  <br/> |
-|Enregistrements d’utilisation RTC associés à  <br/> |Stratégie vocale  <br/> |Stratégie de routage des communications vocales, affectée alors que l’utilisateur est encore hébergé en local.  <br/> |
+|Fonctionnalités d’appel définies dans  <br/> |Stratégie de la voix  <br/> |Stratégie de voix prédéfinie, attribuée automatiquement lorsque l’utilisateur dispose d’une licence pour le système téléphonique.  <br/> |
+|Enregistrements d’utilisation RTC associés à  <br/> |Stratégie de la voix  <br/> |Stratégie de routage des communications vocales, affectée pendant que l’utilisateur est toujours hébergé en local.  <br/> |
    
-Pour effectuer les étapes suivantes à l’aide de votre déploiement local, l’utilisateur est toujours hébergé dans le déploiement local.
+Vous effectuez les étapes suivantes à l’aide de votre déploiement local, tandis que l’utilisateur est toujours hébergé dans le déploiement local.
   
-## <a name="using-a-global-voice-routing-policy"></a>Utilisation d’une stratégie globale de routage des communications vocales
+## <a name="using-a-global-voice-routing-policy"></a>Utilisation d’une stratégie de routage des communications vocales globale
 
-Avant d’utiliser une politique générale de routage de la voix pour votre système téléphonique dans Office 365 avec les utilisateurs de connectivité PSTN locale, vous devez ajouter des enregistrements d’utilisation RTC à la stratégie.
+Avant d’utiliser une stratégie globale de routage des communications vocales pour votre système téléphonique avec des utilisateurs de connectivité RTC sur site, vous devez ajouter des enregistrements d’utilisation PSTN à la stratégie.
   
-### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>Pour affecter des enregistrements d’utilisation RTC à la stratégie globale de routage des communications vocales
+### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>Pour affecter des enregistrements d’utilisation PSTN à la stratégie globale de routage des communications vocales
 
-1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise 2015**, puis sur **Skype entreprise Server Management Shell**.
     
 3. Ajoutez les enregistrements d’utilisation RTC à la stratégie :
     
@@ -67,9 +67,9 @@ Avant d’utiliser une politique générale de routage de la voix pour votre sys
 
 ### <a name="to-create-a-new-voice-routing-policy"></a>Pour créer une stratégie de routage des communications vocales
 
-1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
+1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise 2015**, puis sur **Skype entreprise Server Management Shell**.
     
 3. Créez une stratégie de routage des communications vocales :
     
@@ -83,19 +83,19 @@ Avant d’utiliser une politique générale de routage de la voix pour votre sys
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
-Cet exemple crée une stratégie de routage des communications vocales appelée « HybridVoice », à laquelle sont associées deux utilisations RTC.
+Cet exemple crée une stratégie de routage des communications vocales appelée HybridVoice, qui a deux utilisations RTC associées.
   
 ## <a name="assigning-a-voice-routing-policy"></a>Affectation d’une stratégie de routage des communications vocales
 
-Que vous utilisiez la stratégie globale de routage des communications vocales ou des stratégies spécifiques aux utilisateurs, procédez comme suit pour affecter cette stratégie à un utilisateur.
+Quelle que soit l’utilisation de la stratégie globale de routage des communications vocales ou de l’utilisateur, procédez comme suit pour affecter la stratégie à un utilisateur.
   
 ### <a name="to-assign-the-voice-routing-policy"></a>Pour affecter la stratégie de routage des communications vocales
 
-1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise 2015**, puis sur **Skype entreprise Server Management Shell**.
     
-3. Affectez une stratégie de voix existante à un utilisateur :
+3. Affecter une stratégie de voix existante à un utilisateur :
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
@@ -107,8 +107,8 @@ Que vous utilisiez la stratégie globale de routage des communications vocales o
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 
-Dans cet exemple, l’utilisateur Bob Kelly est affecté à la stratégie de voix « HybridVoice » créée précédemment.
+Dans cet exemple, l’utilisateur portant le nom d’affichage Bob Kelly est affecté à la stratégie de voix précédemment créée avec le nom HybridVoice.
   
-Pour plus d’informations sur les stratégies de routage de messagerie vocale, consultez [la rubrique créer ou modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Skype entreprise 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [nouveau-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)et [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Pour plus d’informations sur les stratégies de routage des communications vocales, voir [Create or Modify a Voice Policy and configure PSTN usage Records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)et [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
   
 

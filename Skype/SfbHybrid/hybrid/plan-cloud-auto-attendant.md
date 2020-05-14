@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510803"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221294"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques Cloud
 
 Le standard automatique utilisé avec la messagerie unifiée Exchange (Exchange Server 2013 ou Exchange Server 2016) n’est plus disponible dans Exchange Server 2019 ou Exchange Online. Si votre implémentation de Skype entreprise Server 2019 s’intègre à l’une de ces versions d’Exchange, vous devez utiliser les fonctionnalités vocales Cloud en ligne associées au système téléphonique. Reportez-vous à la rubrique [plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) pour plus d’informations sur le transfert des services de messagerie unifiée Exchange hébergés sur exchange Server 2013 et 2016 vers le Cloud.
 
-Cela signifie, par essence, que vous disposez d’une implémentation hybride de Skype entreprise Server 2019 si vous souhaitez utiliser des fonctionnalités de messagerie unifiée comme les standards automatiques. Pour plus d’informations [, voir Configurer la connectivité hybride entre Skype entreprise Server et Office 365](configure-hybrid-connectivity.md) .
+Cela signifie, par essence, que vous disposez d’une implémentation hybride de Skype entreprise Server 2019 si vous souhaitez utiliser des fonctionnalités de messagerie unifiée comme les standards automatiques. Pour plus d’informations, reportez-vous à la rubrique [configurer une connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md) .
 
 Un standard automatique est un service Cloud qui accepte les appels et les messages d’accueil, fournit des options de menu et interagit avec des appelants en utilisant la fonctionnalité vocale ou le pavé de numérotation pour acheminer les appels vers la destination appropriée. Chaque standard automatique est affecté à un *compte de ressource* (reportez-vous à la rubrique [Configure Resource Accounts](configure-onprem-ra.md)) sur votre système Skype entreprise Server 2019 qui sera directement lié à un standard automatique dans le centre d’administration Microsoft Teams. Voir [qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) pour plus d’informations sur les standards automatiques et sur les options et les fonctionnalités disponibles pour les standards automatiques.
 
@@ -36,9 +36,9 @@ Un appel entrant vers un standard automatique Cloud peut prendre plusieurs chemi
 
 1. Via Skype entreprise Server 2019
 2. Via un [contrôleur de frontière de session](/MicrosoftTeams/direct-routing-border-controllers.md) et un [routage direct](/MicrosoftTeams/direct-routing-plan.md)
-3. Via un numéro hébergé en ligne dans Office 365.
+3. Via un numéro hébergé en ligne dans Microsoft 365 ou Office 365.
 
-Consulter également :
+Voir également :
 
 - [Configurer un standard automatique dans le cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Réponse et routage automatique d’appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
@@ -55,7 +55,7 @@ Outre la configuration requise ci-dessus, les conditions suivantes doivent être
 
 - Connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer le standard automatique Cloud pour vos utilisateurs sur site, vous devez vous assurer que la connectivité hybride est configurée entre votre environnement local et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
 
-   Pour plus d’informations, voir [planifier une connectivité hybride entre Skype entreprise Server et office 365](plan-hybrid-connectivity.md) et [configurer la connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
+   Pour plus d’informations, reportez-vous à la rubrique [plan Hybrid Connectivity between Skype for Business Server et microsoft 365 ou office 365](plan-hybrid-connectivity.md) et configuration de la [connectivité hybride entre Skype entreprise server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md).
 
 - Si vous attribuez un numéro de téléphone à votre standard automatique, vous aurez besoin d’une licence [Office 365 entreprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
 - Créez un [compte de ressource](/MicrosoftTeams/manage-resource-accounts.md) en ligne ou un [compte de ressource](configure-onprem-ra.md) local pour chaque standard automatique et attribuez les numéros de téléphone et les licences. 
@@ -114,8 +114,8 @@ Lorsque vous disposez d’une structure solide qui répond à vos besoins et d�
 
 Messagerie unifiée Exchange : [répondre et acheminer automatiquement les appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](plan-hybrid-connectivity.md)
+[Planification de la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](plan-hybrid-connectivity.md)
 
-[Configurer la connectivité hybride entre Skype Entreprise Server et Office 365](configure-hybrid-connectivity.md).
+[Configuration de la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742 : les appels à l’accès abonné ou au standard automatique échouent avec l’erreur Fast Busy et « 500 Server Internal » après avoir déplacé les objets contact vers Skype entreprise Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

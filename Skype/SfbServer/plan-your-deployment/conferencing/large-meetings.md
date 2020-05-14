@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques pour la mise en œuvre et la gestion de grandes réunions dans Skype entreprise Server.'
-ms.openlocfilehash: 18b0f036e49996564aa68735300f4e677ce5b1cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780233"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221254"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande taille dans Skype entreprise Server
  
@@ -26,10 +26,10 @@ ms.locfileid: "43780233"
 La taille des réunions que Skype entreprise Server peut prendre en charge dépend du fait que la Conférence est hébergée sur un pool partagé ou dédié : depuis 250 participants d’un pool partagé vers 1000 participants sur un pool dédié. 
   
 > [!NOTE]
-> Cette rubrique est axée sur les meilleures pratiques pour les grandes réunions prises en charge par Skype entreprise Server. Si votre organisation requiert des capacités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de la diffusion de réunion Skype, un nouveau service en ligne qui fait partie d’Office 365. 
+> Cette rubrique est axée sur les meilleures pratiques pour les grandes réunions prises en charge par Skype entreprise Server. Si votre organisation requiert des capacités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de la diffusion de réunion Skype, un nouveau service en ligne qui fait partie de Microsoft 365 et Office 365. 
 
 > [!NOTE]
-> La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à un grand public en ligne, jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype nécessite que Skype entreprise Server soit déjà configuré dans une installation hybride avec une organisation Office de production 365. Tous les utilisateurs doivent disposer d’un client en ligne établi en tant que composant requis. Si vous souhaitez déployer une solution hybride pouvant tirer parti de la diffusion de réunion Skype, consultez la rubrique [qu’est-ce qu’une diffusion de réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et [configurez votre déploiement local pour la diffusion de réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
+> La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à un grand public en ligne, jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype nécessite que Skype entreprise Server soit déjà configuré dans une configuration hybride avec une organisation Microsoft 365 ou Office 365 de production. Tous les utilisateurs doivent disposer d’un client en ligne établi en tant que composant requis. Si vous souhaitez déployer une solution hybride pouvant tirer parti de la diffusion de réunion Skype, consultez la rubrique [qu’est-ce qu’une diffusion de réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et [configurez votre déploiement local pour la diffusion de réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Les grandes réunions ont généralement les caractéristiques suivantes :
   

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir comment créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: a8023ddf27b28fc64cd76b38127f43d4509a702d
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041761"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224267"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -76,13 +76,13 @@ Un standard automatique ou une file d’attente d’appels de niveau supérieur 
 
 1. Transférez ou obtenez un numéro de service gratuit ou payant. Le numéro ne peut pas être attribué à un autre service vocal ou à un autre compte de ressources.
 
-   Avant d’affecter un numéro de téléphone à un compte de ressources, vous devez obtenir ou porter vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu les numéros de téléphone de service gratuits ou payants, ils s’affichent dans les**numéros de téléphone****vocaux** > du centre > d' **administration Microsoft teams**et le **type de numéro** est répertorié en tant que **service-** gratuit. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou pour transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+   Avant d’affecter un numéro de téléphone à un compte de ressources, vous devez obtenir ou porter vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu les numéros de téléphone de service gratuits ou payants, ils s’affichent dans les numéros de téléphone vocaux du **Centre d’administration Microsoft teams**  >  **Voice**  >  **Phone numbers**et le **type de numéro** est répertorié en tant que **service-** gratuit. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou pour transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
    Si vous affectez un numéro de téléphone à un compte de ressources, vous pouvez désormais utiliser la licence utilisateur virtuel du système téléphonique sans frais. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation, et vous permet de créer des capacités de mise en file d’attente et de standard automatique.
 
 2. Obtenez une licence d’utilisateur virtuel de système téléphonique ou une licence de système téléphonique classique.
 
-   Pour obtenir la licence de l’utilisateur virtuel, à partir du centre d’administration 365 de **Billing** > Microsoft, accédez à la section**abonnements au composant additionnel**  > **services d’achat**de facturation et faites défiler jusqu’à la fin de l’appel de la licence « système téléphonique-utilisateur virtuel ». Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
+   Pour obtenir la licence de l’utilisateur virtuel, à partir du centre d’administration 365 de **Billing**Microsoft, accédez à  >  la section abonnements au composant additionnel**services d’achat**de facturation  >  **Add-on subscriptions** et faites défiler jusqu’à la fin de l’appel de la licence « système téléphonique-utilisateur virtuel ». Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
 3. Créer un compte de ressource. Pour plus d’affichage, voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell).
 4. Attribution d’un système téléphonique- [licence d’utilisateur virtuel](teams-add-on-licensing/virtual-user.md) ou de système téléphonique au compte de ressources. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 5. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
@@ -106,7 +106,7 @@ Un standard automatique ou une file d’attente d’appels imbriqués nécessite
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Créer un compte de ressources dans le centre d’administration Microsoft teams
 
-Après avoir acheté une licence de système téléphonique, le centre d’administration Microsoft teams vous permet d’accéder aux**comptes de ressources**de **paramètres** > à l’échelle de l’organisation.
+Après avoir acheté une licence de système téléphonique, le centre d’administration Microsoft teams vous permet d’accéder aux comptes de ressources de paramètres à l’échelle de l' **organisation**  >  **Resource accounts**.
 
 ![Capture d’écran de la page comptes de ressources](media/r-a-master.png)
 
@@ -120,7 +120,7 @@ Ensuite, appliquez une licence au compte de ressources dans le centre d’admini
 
 ### <a name="edit-resource-account"></a>Modifier le compte de ressources 
 
-![Icône du numéro 2, qui référence une légende dans la capture d'](media/teamscallout2.png) écran précédente, vous pouvez modifier le **nom d’affichage** du compte de ressources et le type de compte de **ressources** à l’aide de l’option **modifier** . Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Icône du numéro 2, qui référence une légende dans la capture d’écran précédente, ](media/teamscallout2.png) vous pouvez modifier le **nom d’affichage** du compte de ressources et le type de compte de **ressources** à l’aide de l’option **modifier** . Lorsque vous avez fin, cliquez sur **Enregistrer** .
 
 ![Capture d’écran de l’option modifier le compte de ressources](media/r-a-edit.png)
 
@@ -128,7 +128,7 @@ Ensuite, appliquez une licence au compte de ressources dans le centre d’admini
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Attribution/désaffectation des numéros de téléphone et services
 
-![Icône du numéro 3, qui référence une légende dans la capture d'](media/teamscallout3.png) écran précédente une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour attribuer un numéro de service au compte de ressource, définir le type de numéro de téléphone ou affecter le compte de ressource à un standard automatique ou une file d’attente d’appels existante. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si vous n’avez pas encore créé la file d’attente d’appels ou le standard automatique que vous allez associer au compte de ressources, laissez ce champ vide. Vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Icône du numéro 3, qui référence une légende dans la capture d’écran précédente ](media/teamscallout3.png) une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour attribuer un numéro de service au compte de ressource, définir le type de numéro de téléphone ou affecter le compte de ressource à un standard automatique ou une file d’attente d’appels existante. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si vous n’avez pas encore créé la file d’attente d’appels ou le standard automatique que vous allez associer au compte de ressources, laissez ce champ vide. Vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .
 
 Les options disponibles pour le **type de numéro de téléphone** sont les suivantes :
 
@@ -202,7 +202,7 @@ L’ID d’application que vous devez utiliser lors de la création des instance
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gérer les paramètres de compte de ressources dans le centre d’administration Microsoft teams
 
-Pour gérer les paramètres de compte de ressources dans le centre d’administration de Microsoft Teams, accédez à**comptes de ressources**de **paramètres** > à l’échelle de l’organisation, sélectionnez le compte de ressources dont vous avez besoin pour modifier les paramètres, puis cliquez sur le bouton **modifier** . dans l’écran **modifier le compte de ressources** , vous pouvez modifier les paramètres suivants :
+Pour gérer les paramètres de compte de ressources dans le centre d’administration de Microsoft Teams, accédez à comptes de ressources de paramètres à l’échelle de l' **organisation**  >  **Resource accounts**, sélectionnez le compte de ressources dont vous avez besoin pour modifier les paramètres, puis cliquez sur le bouton **modifier** . dans l’écran **modifier le compte de ressources** , vous pouvez modifier les paramètres suivants :
 
 - **Nom d’affichage** du compte
 - File d’attente d’appels ou standard automatique qui utilise le compte
@@ -267,5 +267,7 @@ Pour les implémentations dans teams ou Skype entreprise Online :
 [Nouveau-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [Nouveau-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Nouveau-CsOnlineApplicationInstanceAssociation](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
 
 [Système téléphonique-licence utilisateur virtuel](teams-add-on-licensing/virtual-user.md)

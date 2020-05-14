@@ -1,5 +1,5 @@
 ---
-title: Activer les utilisateurs pour voix entreprise Online et le système téléphonique dans Office 365 la messagerie vocale
+title: Activer les utilisateurs pour voix entreprise Online et messagerie vocale du système téléphonique
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Découvrez comment activer le système téléphonique dans Office 365 Voice services pour vos utilisateurs de Skype entreprise.
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Découvrez comment activer les services vocaux de téléphonie pour vos utilisateurs de Skype entreprise.
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780723"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221104"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Activer les utilisateurs pour voix entreprise Online et le système téléphonique dans Office 365 la messagerie vocale
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Activer les utilisateurs pour voix entreprise Online et messagerie vocale du système téléphonique
  
-Découvrez comment activer le système téléphonique dans Office 365 Voice services pour vos utilisateurs de Skype entreprise.
+Découvrez comment activer les services vocaux de téléphonie pour vos utilisateurs de Skype entreprise.
   
-La dernière étape du déploiement du système téléphonique dans Office 365 avec une connectivité RTC locale consiste à activer vos utilisateurs pour le système téléphonique dans Office 365 et la messagerie vocale. Pour activer ces fonctionnalités, vous devez être un utilisateur doté du rôle d’administrateur général et être en mesure d’exécuter PowerShell à distance. Vous devez suivre les étapes décrites dans cette rubrique pour tous les comptes d’utilisateur pour lesquels la fonctionnalité voix entreprise n’est pas encore activée pour Skype entreprise online.
+La dernière étape du déploiement d’un système téléphonique avec une connectivité RTC sur site consiste à activer vos utilisateurs pour le système téléphonique et la messagerie vocale. Pour activer ces fonctionnalités, vous devez être un utilisateur doté du rôle d’administrateur général et être en mesure d’exécuter PowerShell à distance. Vous devez suivre les étapes décrites dans cette rubrique pour tous les comptes d’utilisateur pour lesquels la fonctionnalité voix entreprise n’est pas encore activée pour Skype entreprise online.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Activer le système téléphonique dans Office 365 Voice services
+## <a name="enable-phone-system-voice-services"></a>Activer les services vocaux de système téléphonique
 
-Pour activer un utilisateur pour le système téléphonique dans Office 365 Voice and Voice, vous devez effectuer certaines opérations initiales, comme vérifier si le connecteur Skype entreprise Online est déployé sur vos serveurs et activer la messagerie vocale hébergée pour vos utilisateurs.
+Pour activer un utilisateur pour la voix et la messagerie vocale du système téléphonique, vous devez effectuer certaines opérations initiales, comme vérifier si le connecteur Skype entreprise Online est déployé sur vos serveurs et activer la messagerie vocale hébergée pour vos utilisateurs.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Pour activer les utilisateurs pour le système téléphonique dans Office 365 voix et messagerie vocale
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Pour activer les utilisateurs pour la voix et la messagerie vocale du système téléphonique
 
 1. Avant de commencer, vérifiez que le connecteur Skype entreprise Online (module Windows PowerShell) est déployé sur vos serveurs frontaux. Si ce n’est pas le cas, vous pouvez le télécharger à partir [du centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=39366). Vous trouverez plus d’informations sur l’utilisation de ce module dans [la rubrique Configuration de votre ordinateur pour la gestion de Skype entreprise Online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
@@ -87,9 +87,9 @@ Pour activer un utilisateur pour le système téléphonique dans Office 365 Voic
     > [!NOTE]
     > Vous pouvez également spécifier un utilisateur par son adresse SIP, nom d’utilisateur principal (UPN), nom de domaine et nom d’utilisateur (domaine\nom_utilisateur), et le nom d’affichage dans Active Directory (« Bob Kelly »). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Mettre à jour l’URI de ligne et le plan de numérotation pour les utilisateurs activés pour le système téléphonique dans Office 365
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Mettre à jour l’URI de ligne et le plan de numérotation pour les utilisateurs activés pour le système téléphonique
 
-Cette section décrit comment mettre à jour l’URI de ligne et le plan de numérotation pour les utilisateurs activés pour le système téléphonique dans Office 365. 
+Cette section décrit comment mettre à jour l’URI de ligne et le plan de numérotation pour les utilisateurs activés pour le système téléphonique. 
   
 ### <a name="to-update-the-line-uri"></a>Pour mettre à jour l’URI de ligne
 
@@ -141,12 +141,12 @@ Vous pouvez attribuer des plans de numérotation par utilisateur avec Windows Po
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Mettre à jour les stratégies de routage des communications vocales à l’aide des applets de commande locales Windows PowerShell
 
-Cette section décrit comment mettre à jour les stratégies de routage des communications vocales pour les utilisateurs activés pour le système téléphonique dans Office 365.
+Cette section décrit comment mettre à jour les stratégies de routage des communications vocales pour les utilisateurs activés pour le système téléphonique.
   
-Système téléphonique dans Office 365 les utilisateurs doivent disposer d’une stratégie de routage des communications vocales pour que les appels soient acheminés correctement. Il en est de même pour les utilisateurs de voix entreprise sur site qui nécessitent une stratégie de voix qui leur est attribuée pour permettre l’acheminement des appels. La stratégie de routage des communications vocales doit contenir des utilisations PSTN qui définissent les appels et itinéraires autorisés pour le système téléphonique dans les utilisateurs d’Office 365. Vous pouvez copier ces utilisations RTC à partir des stratégies de voix existantes vers les nouvelles stratégies de routage des communications vocales. Pour plus d’informations, consultez la rubrique [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Les utilisateurs du système téléphonique doivent disposer d’une stratégie de routage des communications vocales pour que les appels soient acheminés correctement. Il en est de même pour les utilisateurs de voix entreprise sur site qui nécessitent une stratégie de voix qui leur est attribuée pour permettre l’acheminement des appels. La stratégie de routage des communications vocales doit contenir des utilisations PSTN qui définissent les appels et itinéraires autorisés pour les utilisateurs du système téléphonique. Vous pouvez copier ces utilisations RTC à partir des stratégies de voix existantes vers les nouvelles stratégies de routage des communications vocales. Pour plus d’informations, consultez la rubrique [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Tous les systèmes téléphoniques dans Office 365 les utilisateurs se voient affecter la même stratégie de voix en ligne nommée BusinessVoice qui définit les fonctionnalités d’appel autorisées ; par exemple, autoriser les sonneries simultanées. 
+> Tous les utilisateurs du système téléphonique sont affectés à la même stratégie de voix en ligne nommée BusinessVoice qui définit les fonctionnalités d’appel autorisées ; par exemple, autoriser les sonneries simultanées. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Pour affecter une stratégie de routage des communications vocales par utilisateur à un seul utilisateur
 

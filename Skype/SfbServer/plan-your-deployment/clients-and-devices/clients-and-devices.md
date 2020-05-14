@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : passez en revue les clients et les applications pris en charge pour Skype entreprise.'
-ms.openlocfilehash: 71960fe7f450bbf4073c80d584e1eb1b0eb259d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bcb6cfdaa0797e46ebc01f551a46600577d4dc27
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013487"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220554"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier les clients et les appareils
 
@@ -36,7 +36,7 @@ Skype entreprise Server prend en charge plusieurs types de clients, y compris le
 
 ### <a name="skype-for-business-2019"></a>Skype entreprise (2019)
 
-Skype entreprise (2019) est le client complet recommandé pour Skype entreprise Server 2015 et 2019. Pour obtenir une description des nouvelles fonctionnalités [, voir suivre les dernières mises à jour dans Skype entreprise](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) . La prise en charge des fonctionnalités client est détaillée dans la [comparaison des fonctionnalités client de bureau pour Skype entreprise](desktop-feature-comparison.md), et la documentation de l’utilisateur se trouve dans l' [aide de Skype entreprise](https://support.office.com/Skype-for-business). Ce client est inclus lorsqu’un utilisateur installe Office 365.
+Skype entreprise (2019) est le client complet recommandé pour Skype entreprise Server 2015 et 2019. Pour obtenir une description des nouvelles fonctionnalités [, voir suivre les dernières mises à jour dans Skype entreprise](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) . La prise en charge des fonctionnalités client est détaillée dans la [comparaison des fonctionnalités client de bureau pour Skype entreprise](desktop-feature-comparison.md), et la documentation de l’utilisateur se trouve dans l' [aide de Skype entreprise](https://support.office.com/Skype-for-business). Ce client est inclus lorsqu’un utilisateur installe Microsoft 365 ou Office 365.
 
 Un client de base gratuit prenant en charge moins de fonctionnalités est également disponible. Les deux versions sont disponibles en téléchargement sur [le page Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3). Les différences entre les clients complets et de base sont décrites dans la section [limitations des clients de base](desktop-feature-comparison.md#Full-Basic) .
 
@@ -78,9 +78,9 @@ Si Skype entreprise n’est pas installé sur l’ordinateur de l’utilisateur 
 
 Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaines organisations où les problèmes de sécurité et de conformité sont particulièrement sensibles. Utilisation de Skype entreprise avec l’audio et la vidéo complets sur une connexion telle que nécessite des charges élevées de traitement audio et vidéo sur le client hébergé sur un bureau virtuel. Un logiciel de plug-in VDI supplémentaire est disponible et décharge ce traitement sur l’ordinateur local de l’utilisateur final et réduit la charge sur le bureau virtuel. Pour plus d’informations sur l’utilisation de ces plugins, reportez-vous à la rubrique [plan for Skype for Business in VDI Environments](vdi-environments.md) .
 
-### <a name="microsoft-teams-rooms"></a>Salles de Microsoft teams
+### <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 
-Les salles de Microsoft teams sont la dernière solution de conférence de Microsoft qui utilise une interface familière et est facile à déployer et à gérer, en tirant parti de l’équipement existant comme les écrans LCD pour faciliter l’installation. Les salles de Microsoft teams utilisent une application UWP spécialement exécutée sur une surface Pro 4 ou surface Pro en mode de console (une fois déployée l’application UWP est la seule application qui s’exécutera sur l’appareil) et elle nécessite son propre compte d’appareil sur votre implémentation. Le logiciel est mis à jour via Windows Store et Windows Update. Pour https://aka.ms/MTRDocs plus d’informations sur l’utilisation de ces consoles de salle dans votre déploiement, reportez-vous à. 
+Les salles de Microsoft teams sont la dernière solution de conférence de Microsoft qui utilise une interface familière et est facile à déployer et à gérer, en tirant parti de l’équipement existant comme les écrans LCD pour faciliter l’installation. Les salles de Microsoft teams utilisent une application UWP spécialement exécutée sur une surface Pro 4 ou surface Pro en mode de console (une fois déployée l’application UWP est la seule application qui s’exécutera sur l’appareil) et elle nécessite son propre compte d’appareil sur votre implémentation. Le logiciel est mis à jour via Windows Store et Windows Update. https://aka.ms/MTRDocsPour plus d’informations sur l’utilisation de ces consoles de salle dans votre déploiement, reportez-vous à. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype entreprise sur surface Hub
 
@@ -91,7 +91,7 @@ Microsoft surface Hub est un périphérique de productivité tout-en-un destiné
 
 Si votre organisation a acheté les licences appropriées, choisissez le client complet, sinon choisissez le client de base.
 
-Vos utilisateurs peuvent installer le client eux-mêmes à partir de [Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3). Le client est également installé lorsque les utilisateurs installent Office 365 sur Windows. Si certains de vos utilisateurs disposent de Mac, ces utilisateurs disposeront d’un ensemble de fonctionnalités différent, comme décrit dans les sections précédentes.
+Vos utilisateurs peuvent installer le client eux-mêmes à partir de [Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3). Le client est également installé lorsque les utilisateurs installent Microsoft 365 ou Office 365 sur Windows. Si certains de vos utilisateurs disposent de Mac, ces utilisateurs disposeront d’un ensemble de fonctionnalités différent, comme décrit dans les sections précédentes.
 
 Certaines fonctionnalités disponibles avec Skype entreprise Server 2015 ne sont pas disponibles dans Skype entreprise Online ou Skype entreprise Server 2019, reportez-vous à la rubrique [limitations en ligne ou aux comptes d’utilisateur hybrides pour 2015](desktop-feature-comparison.md#Online-Hybrid) ou les [limitations de compte d’utilisateur hybride pour 2019](desktop-feature-comparison.md#Online-Hybrid) pour des informations spécifiques. Les administrateurs de Skype entreprise Online voudront peut-être consulter [Description du service Skype entreprise Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) pour plus d’informations sur les différents plans disponibles.
 

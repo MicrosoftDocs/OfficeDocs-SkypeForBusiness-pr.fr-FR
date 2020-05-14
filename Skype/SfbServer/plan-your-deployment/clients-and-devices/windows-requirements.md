@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Résumé : passez en revue les exigences de prise en charge du client Windows lors de la planification de Skype entreprise Server.'
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928237"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219824"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Configuration requise pour le client Windows et prise en charge logicielle
  
 **Résumé :** Passez en revue les exigences de prise en charge du client Windows lors de la planification de Skype entreprise Server.
   
-Cette section récapitule les logiciels requis pour prendre en charge les clients Windows Skype entreprise.  Ces clients sont installés lors de l’installation d’Office 365 et sont également disponibles à [l’adresse Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
+Cette section récapitule les logiciels requis pour prendre en charge les clients Windows Skype entreprise. Ces clients sont installés lors de l’installation de Microsoft 365 ou Office 365, et sont également disponibles à [l’adresse Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
   
 > [!NOTE]
 > Le complément de réunion en ligne pour Skype entreprise, qui prend en charge la gestion des réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Skype entreprise. 
@@ -45,7 +45,7 @@ Cette section récapitule les logiciels requis pour prendre en charge les client
    
 ## <a name="hardware"></a>Matériel
 
-Reportez-vous à la [Configuration système requise](https://products.office.com/office-system-requirements) pour Office 365 pour le matériel requis pour exécuter le client Skype entreprise.
+Reportez-vous à la [Configuration requise](https://products.office.com/office-system-requirements) de Microsoft 365 et Office System pour le matériel requis pour exécuter le client Skype entreprise.
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Application de réunions Skype et Skype entreprise Web App 
 
@@ -81,4 +81,4 @@ Voici les conditions préalables de Skype entreprise pour Windows Phone.
 
 [Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Configuration système requise pour Office 365](https://products.office.com/office-system-requirements)
+[Configuration requise pour Microsoft 365 et Office System](https://products.office.com/office-system-requirements)

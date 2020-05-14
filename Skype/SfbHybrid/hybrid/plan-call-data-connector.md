@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation des outils de télémétrie Skype entreprise Online pour surveiller une implémentation locale dans un scénario hybride.
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779660"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221314"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
@@ -60,12 +60,12 @@ Les conditions suivantes supposent que vous avez déjà déployé Skype entrepri
 
 - Activez la connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que la connectivité hybride est configurée entre votre environnement local et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
 
-   Pour plus d’informations, voir [planifier une connectivité hybride entre Skype entreprise Server et office 365](plan-hybrid-connectivity.md) et [configurer la connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
+   Pour plus d’informations, reportez-vous à la rubrique [plan Hybrid Connectivity between Skype for Business Server et microsoft 365 ou office 365](plan-hybrid-connectivity.md) et configuration de la [connectivité hybride entre Skype entreprise server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md).
 
-- Authentifiez-vous auprès de votre organisation Office 365 et assurez-vous que les rôles suivants sont activés :
+- Authentifiez-vous auprès de votre organisation Microsoft 365 ou Office 365 et assurez-vous que les rôles suivants sont activés :
 
   - Administrateur de Skype entreprise Server
-  - Administrateur général
+  - Administrateur général Microsoft 365 ou Office 365
 
 - Si vous ne l’avez pas déjà fait, activez le tableau de bord qualité des appels comme décrit dans [activation et utilisation du tableau de bord de la qualité des appels pour Microsoft teams et Skype entreprise Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

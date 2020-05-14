@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez quels téléphones fonctionnent avec Skype Entreprise à partir de Polycom, HP et Mitel, ainsi que les licences requises. '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784761"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220434"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
-> Skype entreprise sera progressivement remplacé par Microsoft teams comme méthode de communication principale dans Office 365.  Pour plus d’informations, voir [une nouvelle vision des communications intelligentes dans Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
+> Skype entreprise sera progressivement remplacé par Microsoft teams comme méthode de communication principale dans Microsoft 365 et Office 365.  Pour plus d’informations, voir [une nouvelle vision des communications intelligentes dans Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
 >
 >Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, voir les [appareils Microsoft teams pour les communications intelligentes](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Téléphones pris en charge
   
-Microsoft s’associe et collabore étroitement avec Polycom, Yealink et AudioCodes afin de développer et de certifier une vaste gamme d’appareils via le programme PIP pour le système téléphonique dans Office 365 et Skype entreprise Server.
+Microsoft s’associe et collabore étroitement avec Polycom, Yealink et AudioCodes afin de développer et de certifier une large gamme d’appareils via le programme PIP pour le système téléphonique.
   
 Lorsque vous passez un nouveau numéro de téléphone pour Skype entreprise, il est important d’acheter des téléphones dont l' *ID de produit est approprié*. Ces ID de produit garantissent que les téléphones que vous recevez disposent de la version qualifiée de Skype entreprise Online déjà installée.
   
@@ -64,7 +64,7 @@ Pour plus d’informations sur les téléphones AudioCodes, reportez-vous à la 
   
 ## <a name="supported-firmware"></a>Microprogramme pris en charge
 
-Il s’agit de la version logicielle minimale requise pour les téléphones pris en charge pour fonctionner avec le système téléphonique dans Office 365 :
+Il s’agit de la version de logiciel minimale requise pour le fonctionnement des téléphones pris en charge par le système téléphonique :
   
 ||||
 |:-----|:-----|:-----|
@@ -120,12 +120,12 @@ Pour en savoir plus sur les fonctionnalités et fonctions complètes de votre ap
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 Pour obtenir des instructions de configuration détaillées, consultez la page [Déploiement de téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

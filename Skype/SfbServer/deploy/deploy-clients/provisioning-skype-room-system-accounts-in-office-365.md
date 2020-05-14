@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Consultez cette rubrique pour en savoir plus sur la mise en service des comptes Skype Room System dans Microsoft 365 ou Office 365.
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779710"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221848"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Mise en service des comptes Skype Room System dans Microsoft 365 et Office 365
  
-Consultez cette rubrique pour en savoir plus sur la mise en service des comptes Skype Room System dans Office 365.
+Consultez cette rubrique pour en savoir plus sur la mise en service des comptes Skype Room System dans Microsoft 365 ou Office 365.
   
-La section suivante traite de la mise en service des comptes Skype Room System pour une organisation Office 365.
+La section suivante traite de la mise en service des comptes Skype Room System.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Conditions préalables pour Microsoft 365 et Office 365
 
@@ -41,7 +41,7 @@ Votre client en ligne doit remplir les conditions suivantes :
     
   - Accès PowerShell à distance Skype entreprise Online
     
-  - Module Windows Azure Active Directory pour Windows PowerShell pour accéder à l’accès à l’annuaire Office 365
+  - Module Windows Azure Active Directory pour Windows PowerShell pour accéder à l’accès à l’annuaire Microsoft 365 ou Office 365
     
 Pour le compte Skype Room, la licence suivante est requise :
   
@@ -55,9 +55,9 @@ Pour le compte Skype Room, la licence suivante est requise :
     
 ## <a name="provisioning-overview"></a>Vue d’ensemble de la mise en service
 
-Le diagramme suivant fournit une vue d’ensemble du flux de mise en service du compte Skype Room System dans Office 365.
+Le diagramme suivant fournit une vue d’ensemble du flux de mise en service du compte Skype Room System.
   
-![Étapes de mise en service de Skype Room System pour O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Étapes de mise en service de Skype Room System](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identifier une nouvelle salle de conférence
 
@@ -93,7 +93,7 @@ Après avoir créé la boîte aux lettres, vous pouvez utiliser la cmdlet Set-Ca
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Affectation d’une licence Skype entreprise Online
 
-À présent, vous pouvez attribuer une licence Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3) à l’aide du portail d’administration Office 365, comme décrit dans la rubrique [attribuer ou supprimer des licences pour office 365 pour les entreprises](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou dans les [licences de module complémentaire Skype entreprise](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+À présent, vous pouvez attribuer une licence Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3) à l’aide du portail d’administration Microsoft 365, comme décrit dans la rubrique relative à l' [attribution ou la suppression de licences pour Microsoft 365 pour les entreprises](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou dans les [licences de module complémentaire Skype entreprise](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 Après avoir attribué une licence pour Skype entreprise Online, vous serez en mesure de vous connecter et de confirmer que le compte est actif à l’aide de n’importe quel client Skype entreprise.
   
@@ -126,7 +126,7 @@ Après avoir créé et activé un compte de boîte aux lettres de salle des ress
 
 ## <a name="password-expiration"></a>Expiration du mot de passe
 
-Dans Office 365, la stratégie d’expiration de mot de passe par défaut pour tous vos comptes d’utilisateur est de 90 jours, sauf si vous configurez une stratégie d’expiration de mot de passe différente. Pour les comptes Skype Room System, vous pouvez sélectionner le paramètre le mot de passe n’expire jamais en suivant les étapes ci-dessous.
+Dans Microsoft 365 ou Office 365, la stratégie d’expiration de mot de passe par défaut pour tous vos comptes d’utilisateur est de 90 jours, sauf si vous configurez une stratégie d’expiration de mot de passe différente. Pour les comptes Skype Room System, vous pouvez sélectionner le paramètre le mot de passe n’expire jamais en suivant les étapes ci-dessous.
   
 1. Créez une session Windows Azure Active Directory à l’aide de vos informations d’identification d’administrateur général de client.
     

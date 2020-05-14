@@ -1,5 +1,5 @@
 ---
-title: Set-applet cccredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780673"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221568"
 ---
-# <a name="set-cccredential"></a>Set-applet cccredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 L’applet de commande Set-applet cccredential définit les informations d’identification du déploiement de Skype entreprise version Cloud Connector actuel. 
   
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Set-applet cccredential définit le nom de compte et le mot de passe de l’administrateur client. Pour les versions antérieures à 2,0, cet administrateur doit être un administrateur général. Cloud Connector utilise ce compte pour obtenir des informations de configuration, définir les paramètres de configuration et mettre à jour l’état de l’équipement vers la configuration de l’organisation Office 365. Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser cette applet de commande pour mettre à jour les mots de passe des comptes VmAdmin et DomainAdmin.
+L’applet de commande Set-applet cccredential définit le nom de compte et le mot de passe de l’administrateur client. Pour les versions antérieures à 2,0, cet administrateur doit être un administrateur général. Cloud Connector utilise ce compte pour obtenir des informations de configuration, définir les paramètres de configuration et mettre à jour l’état de l’équipement vers la configuration de l’organisation Microsoft 365 ou Office 365. Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser cette applet de commande pour mettre à jour les mots de passe des comptes VmAdmin et DomainAdmin.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
@@ -66,6 +66,6 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Get-applet cccredential](get-cccredential.md)
+[Get-CcCredential](get-cccredential.md)
   
 

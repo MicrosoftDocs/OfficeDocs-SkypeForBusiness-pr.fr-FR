@@ -21,30 +21,30 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cet article explique comment réaliser cette consolidation pour les organisations avec des déploiements locaux de Skype entreprise (ou Lync) qui cherchent à déplacer leur charge de travail de communications unifiées vers teams et/ou Skype entreprise online.
-ms.openlocfilehash: 859a6f3809a653334f7ac43b591d9a067833e3d5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d2733ffacf8b56a5cfe4217553f533950eb82e36
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780133"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221488"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Regroupement dans le cloud pour Teams et Skype Entreprise
 
-De nombreuses entreprises de grande taille ont plusieurs forêts AD locales et, dans certains cas, les clients ont plusieurs déploiements d’Exchange et/ou de Skype Entreprise Server (ou Lync Server). De plus, même les organisations disposant d’une seule forêt locale pourraient se retrouver dans une situation similaire via une fusion ou une acquisition d’entreprises. À mesure que ces clients se déplacent vers le nuage, ils veulent consolider les différentes instances d’une charge de travail locale donnée dans le nuage dans une seule organisation Office 365. Cet article explique comment réaliser cette consolidation pour les organisations avec plusieurs déploiements locaux de Skype entreprise (ou Lync) qui souhaitent déplacer leur charge de travail de communications unifiées vers le Cloud Microsoft, par exemple, Microsoft teams et/ou Skype entreprise online.
+De nombreuses entreprises de grande taille ont plusieurs forêts AD locales et, dans certains cas, les clients ont plusieurs déploiements d’Exchange et/ou de Skype Entreprise Server (ou Lync Server). De plus, même les organisations disposant d’une seule forêt locale pourraient se retrouver dans une situation similaire via une fusion ou une acquisition d’entreprises. À mesure que ces clients se déplacent vers le nuage, ils veulent consolider les différentes instances d’une charge de travail locale donnée dans le nuage en une seule organisation Microsoft 365 ou Office 365. Cet article explique comment réaliser cette consolidation pour les organisations avec plusieurs déploiements locaux de Skype entreprise (ou Lync) qui souhaitent déplacer leur charge de travail de communications unifiées vers le Cloud Microsoft, par exemple, Microsoft teams et/ou Skype entreprise online.
 
-Historiquement, les recommandations ont été apportées aux clients dans cette situation afin de consolider d’abord les déploiements locaux, puis de passer au cloud. Bien que cette option soit toujours disponible, cet article décrit une solution basée sur de nouvelles fonctionnalités qui permet aux organisations avec plusieurs déploiements Skype entreprise de migrer un déploiement à la fois dans une seule organisation Office 365, sans effectuer de consolidation locale. Notez que même avec cette nouvelle fonctionnalité, Skype entreprise Online et Microsoft Teams ne prennent pas en charge plusieurs forêts Skype entreprise/Lync en mode hybride avec une seule organisation Office 365. 
+Historiquement, les recommandations ont été apportées aux clients dans cette situation afin de consolider d’abord les déploiements locaux, puis de passer au cloud. Bien que cette option soit toujours disponible, cet article décrit une solution basée sur de nouvelles fonctionnalités qui permet aux organisations avec plusieurs déploiements Skype entreprise de migrer un déploiement à la fois dans une organisation Microsoft 365 ou Office 365 unique, sans effectuer de consolidation locale. Notez que même avec cette nouvelle fonctionnalité, Skype entreprise Online et Microsoft Teams ne prennent pas en charge plusieurs forêts Skype entreprise/Lync en mode hybride avec une seule organisation Microsoft 365 ou Office 365. 
 
 > [!Important]
 > Avant d’utiliser ce guide pour la configuration, veillez à examiner et à comprendre les [limites](#limitations), car elles peuvent affecter votre organisation.
 
 ## <a name="overview-of-cloud-consolidation"></a>Vue d’ensemble de la consolidation dans le cloud
 
-La consolidation de tous les utilisateurs de l’organisation locale dans le Cloud dans une seule organisation Office 365 peut être réalisée pour n’importe quelle organisation avec plusieurs déploiements Skype entreprise, à condition que les exigences clés suivantes soient respectées :
+La consolidation de tous les utilisateurs de l’organisation locale dans le Cloud dans une organisation Microsoft 365 ou Office 365 unique peut être réalisée pour n’importe quelle organisation avec plusieurs déploiements Skype entreprise, à condition que les exigences clés suivantes soient respectées :
 
-- Il doit y avoir au plus une organisation Office 365 concernée. La consolidation dans des scénarios avec plus d’une organisation Office 365 n’est pas prise en charge.
-- À un moment donné, une seule forêt Skype Entreprise locale peut être en mode hybride (espace d’adressage SIP partagé). Toutes les autres forêts Skype Entreprise locales doivent rester locales (et être mutuellement fédérées entre elles). Notez que ces autres organisations locales *peuvent* effectuer une synchronisation avec AAD si vous le souhaitez avec de [nouvelles fonctionnalités pour désactiver les domaines SIP en ligne](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps) disponibles à partir du 2018 décembre.
+- Il doit y avoir au plus une organisation Microsoft 365 ou Office 365 concernée. La consolidation dans des scénarios avec plusieurs organisations n’est pas prise en charge.
+- À un moment donné, une seule forêt Skype Entreprise locale peut être en mode hybride (espace d’adressage SIP partagé). Toutes les autres forêts Skype Entreprise locales doivent rester locales (et être mutuellement fédérées entre elles). Notez que ces autres organisations locales *peuvent* effectuer une synchronisation avec AAD si vous le souhaitez avec de [nouvelles fonctionnalités pour désactiver les domaines SIP en ligne](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) disponibles à partir du 2018 décembre.
 
-Les clients avec des déploiements de Skype entreprise dans plusieurs forêts doivent totalement migrer tous les utilisateurs d’une forêt unique hybride Skype entreprise de manière individuelle vers l’organisation Office 365 à l’aide de la fonctionnalité d’espace d’adressage SIP partagé, puis désactiver l’environnement hybride avec ce déploiement sur site, avant de passer à la migration du déploiement Skype entreprise suivant. Avant la migration vers le cloud, les utilisateurs locaux restent dans un état fédéré avec les utilisateurs qui ne sont pas représentés dans le même annuaire local de l’utilisateur.  
+Les clients avec des déploiements de Skype entreprise dans plusieurs forêts doivent totalement migrer tous les utilisateurs d’une forêt unique hybride Skype entreprise individuellement vers l’organisation Microsoft 365 ou Office 365 à l’aide de la fonctionnalité d’espace d’adressage SIP partagé, puis désactiver hybride avec ce déploiement sur site, avant de passer à la migration du déploiement Skype entreprise suivant. Avant la migration vers le cloud, les utilisateurs locaux restent dans un état fédéré avec les utilisateurs qui ne sont pas représentés dans le même annuaire local de l’utilisateur.  
 
 ## <a name="canonical-example-of-cloud-consolidation"></a>Exemple de consolidation de Cloud canonique
 
@@ -53,35 +53,35 @@ Imaginez une organisation disposant de deux déploiements distincts sur site de 
 
 |Détails de l’état d’origine |Détails de l’état souhaité |
 |---------|---------|
-|<ul><li>2 déploiements indépendants de Skype entreprise sur site dans des forêts AD distinctes<li>1 la forêt est en partie hybride avec Skype entreprise Online <li> Les développées sont fédérés les uns avec les autres <li>Les utilisateurs ne sont pas synchronisés entre ces forêts<li> L’organisation peut avoir une organisation Office 365 et être en synchronisation avec Azure AD</ul>|<ul> <li>1 Organisation Office 365<li>Aucun déploiement local n’étant plus disponible, il n’y a pas de sites hybrides restants.<li>Tous les utilisateurs de l’organisation locale sont hébergés dans Skype entreprise Online et peuvent éventuellement être des utilisateurs de teams uniquement <li>Aucune empreinte locale de Skype entreprise Anywhere <li>Les utilisateurs ont toujours une authentification locale</ul> |
+|<ul><li>2 déploiements indépendants de Skype entreprise sur site dans des forêts AD distinctes<li>1 la forêt est en partie hybride avec Skype entreprise Online <li> Les développées sont fédérés les uns avec les autres <li>Les utilisateurs ne sont pas synchronisés entre ces forêts<li> L’organisation peut avoir une organisation Microsoft 365 ou Office 365 et synchroniser son annuaire avec Azure AD</ul>|<ul> <li>1 organisation Microsoft 365 ou Office 365<li>Aucun déploiement local n’étant plus disponible, il n’y a pas de sites hybrides restants.<li>Tous les utilisateurs de l’organisation locale sont hébergés dans Skype entreprise Online et peuvent éventuellement être des utilisateurs de teams uniquement <li>Aucune empreinte locale de Skype entreprise Anywhere <li>Les utilisateurs ont toujours une authentification locale</ul> |
 
 ![Consolidation de deux déploiements locaux fédérés distincts](../media/cloudconsolidationfig1.png)  
 
 Les étapes de base pour obtenir de l’état d’origine vers l’état final souhaité sont indiquées ci-dessous.  Notez que certaines organisations peuvent trouver que leur point de départ se situe au milieu de ces étapes. Voir [les autres points de départ](#other-starting-points), plus loin dans cet article. Enfin, dans certains cas, l’ordre peut être ajusté en fonction des besoins. Les [contraintes et limitations de clés](#limitations) sont décrites plus loin.
 
-1.  Obtenir une organisation Office 365 si elle n’existe pas encore.
-2.  Assurez-vous que tous les domaines SIP pertinents dans les déploiements locaux sont vérifiés pour les domaines Office 365.
-3.  Sélectionnez un déploiement Skype entreprise hybride avec Office 365. Dans cet exemple, nous allons utiliser OriginalCompany. <span>com.
-4.  [Activez la connexion AAD pour la forêt](configure-azure-ad-connect.md) qui va devenir hybride (OriginalCompany.<span> com). 
+1.  Obtenir une organisation Microsoft 365 ou Office 365 si elle n’existe pas encore.
+2.  Assurez-vous que tous les domaines SIP pertinents dans les déploiements locaux sont vérifiés pour les domaines Microsoft 365 ou Office 365.
+3.  Sélectionnez un déploiement Skype entreprise hybride avec Microsoft 365 ou Office 365. Dans cet exemple, nous allons utiliser OriginalCompany. <span> com.
+4.  [Activez la connexion AAD pour la forêt](configure-azure-ad-connect.md) qui va devenir hybride (OriginalCompany. <span> com). 
 5.  Si vous allez introduire teams dans votre organisation, définissez la stratégie à l’échelle du client pour [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy) sur SfBWithTeamsCollab ou l’un des autres modes SfB (SfBOnly ou SfBWithTeamsCollabAndMeetings). Ceci est essentiel pour garantir le routage des appels et des conversations des utilisateurs qui se déplacent vers teams uniquement aux utilisateurs qui restent sur site.
-6.  À ce stade, il est recommandé (mais pas encore requis jusqu’à l’étape 11) d' [activer la connexion AAD pour l’autre forêt](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span> com). En supposant que la connexion AAD est activée dans les deux forêts, l’organisation org ressemble à la **[figure A](#figure-a)**, qui peut être un point de départ commun pour certains développées. 
-7.  Pour tous les domaines SIP hébergés par d’autres déploiements sur site (dans ce cas,<span> AcquiredCompany. com), [désactivez ces domaines SIP dans Skype entreprise Online](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) à l’aide `Disable-CsOnlineSipDomain` de PowerShell. (Il s’agit d’une nouvelle fonctionnalité de décembre 2018.)
-8.  [Configurez Skype entreprise hybride](configure-federation-with-skype-for-business-online.md) pour OriginalCompany. <span>com (un déploiement qui a encore activé les domaines SIP en ligne).
-9.  Dans le déploiement hybride (OriginalCompany.<span> com), commencez par [déplacer les utilisateurs de Skype entreprise sur site vers le Cloud](move-users-between-on-premises-and-cloud.md) (uniquement teams ou non) afin que ce compte soit hébergé dans Skype entreprise online. À présent, l’organisation ressemble à la **[figure B](#figure-b)**. Les principales modifications apportées à la figure A sont les suivantes :
+6.  À ce stade, il est recommandé (mais pas encore requis jusqu’à l’étape 11) d' [activer la connexion AAD pour l’autre forêt](cloud-consolidation-aad-connect.md) (AcquiredCompany. <span> com). En supposant que la connexion AAD est activée dans les deux forêts, l’organisation org ressemble à la **[figure A](#figure-a)**, qui peut être un point de départ commun pour certains développées. 
+7.  Pour tous les domaines SIP hébergés par d’autres déploiements sur site (dans ce cas, AcquiredCompany. <span> com), [désactivez ces domaines SIP dans Skype entreprise Online](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) à l’aide `Disable-CsOnlineSipDomain` de PowerShell. (Il s’agit d’une nouvelle fonctionnalité de décembre 2018.)
+8.  [Configurez Skype entreprise hybride](configure-federation-with-skype-for-business-online.md) pour OriginalCompany. <span> com (un déploiement qui a encore activé les domaines SIP en ligne).
+9.  Dans le déploiement hybride (OriginalCompany. <span> com), commencez par [déplacer les utilisateurs de Skype entreprise sur site vers le Cloud](move-users-between-on-premises-and-cloud.md) (uniquement teams ou non) afin que ce compte soit hébergé dans Skype entreprise online. À présent, l’organisation ressemble à la **[figure B](#figure-b)**. Les principales modifications apportées à la figure A sont les suivantes :
     - Les utilisateurs des annuaires locaux se trouvent désormais dans AAD.
-    - AcquiredCompany. <span>com est un domaine SIP en ligne désactivé.
+    - AcquiredCompany. <span> com est un domaine SIP en ligne désactivé.
     - Certains utilisateurs ont été déplacés en ligne vers Skype entreprise Online ou Teams. (Voir l’utilisateur violet A.)
-10. Une fois que tous les utilisateurs sont déplacés vers le Cloud, [désactivez hybride avec le déploiement local de Skype entreprise](cloud-consolidation-disabling-hybrid.md) pour OriginalCompany. <span>com à partir d’Office 365 :  
-    - Désactivez le domaine fractionné dans l’organisation Office 365.
-    - Désactivez la possibilité de communiquer avec Office 365 dans OriginalCompany. <span>com en local.
-    - Mettez à jour les enregistrements DNS pour OriginalCompany. <span>com pour pointer vers Office 365.
-11. Si ce n’est pas déjà fait, [activez AAD Connect pour la prochaine forêt](cloud-consolidation-aad-connect.md) qui va devenir hybride<span> (AcquiredCompany. com). À ce stade, l’organisation ressemble à la **[figure C](#figure-c)**. Il peut s’agir d’un autre point de départ commun pour certaines organisations. 
-12. Dans PowerShell, [activez les domaines SIP pour le prochain déploiement local](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) qui sera basé sur hybride, AcquiredCompany. <span>com. Cette opération est réalisée `Enable-CsOnlineSipDomain`à l’aide de, qui est une nouvelle fonctionnalité disponible depuis décembre 2018.
-13. Si vous utilisez la Fédération fermée, vous devez ajouter tous les domaines SIP (sauf *. microsoftonline.com) du client en ligne pur en tant que domaines autorisés dans le **même** Office 365. Notez que l’opération peut prendre un certain temps avant que la modification ne prenne effet et qu’il n’y a aucun dommage à ce stade tôt, donc nous vous suggérons de le faire bien avant de passer à l’étape 14.
+10. Une fois que tous les utilisateurs sont déplacés vers le Cloud, [désactivez hybride avec le déploiement local de Skype entreprise](cloud-consolidation-disabling-hybrid.md) pour OriginalCompany. <span> com à partir d’Office 365 :  
+    - Désactivez le domaine fractionné dans l’organisation Microsoft 365 ou Office 365.
+    - Désactivez la possibilité de communiquer avec Microsoft 365 ou Office 365 dans OriginalCompany. <span> com en local.
+    - Mettez à jour les enregistrements DNS pour OriginalCompany. <span> com pour pointer vers Microsoft 365 ou Office 365.
+11. Si ce n’est pas déjà fait, [activez AAD Connect pour la prochaine forêt](cloud-consolidation-aad-connect.md) qui va devenir hybride (AcquiredCompany. <span> com). À ce stade, l’organisation ressemble à la **[figure C](#figure-c)**. Il peut s’agir d’un autre point de départ commun pour certaines organisations. 
+12. Dans PowerShell, [activez les domaines SIP pour le prochain déploiement local](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain) qui sera basé sur hybride, AcquiredCompany. <span> com. Cette opération est réalisée à l’aide `Enable-CsOnlineSipDomain` de, qui est une nouvelle fonctionnalité disponible depuis décembre 2018.
+13. Si vous utilisez la Fédération fermée, vous devez ajouter tous les domaines SIP ( \* à l’exception de. microsoftonline.com) du client en ligne pur en tant que domaines autorisés dans le **même** Microsoft 365 ou Office 365. Notez que l’opération peut prendre un certain temps avant que la modification ne prenne effet et qu’il n’y a aucun dommage à ce stade tôt, donc nous vous suggérons de le faire bien avant de passer à l’étape 14.
 14. Mettez à jour l’environnement local pour qu’il accepte tous les domaines SIP du client en ligne, afin qu’ils correspondent.
-    - [Mettez à jour le San dans tous les certificats de périphérie](cloud-consolidation-edge-certificates.md) de sorte qu’ils aient la même valeur qu’auparavant, ainsi que les valeurs de tous les domaines SIP en ligne existants (sauf *. microsoftonline.com), dans ce cas, SIP. OriginalCompany. <span>com.
-    - Assurez-vous que OriginalCompany. <span>com est un [domaine autorisé](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain) dans le déploiement local, AcquiredCompany. Ajoutez des domaines autorisés.
-15. [Activer Skype entreprise hybride](configure-federation-with-skype-for-business-online.md) entre AcquiredCompany local. <span>com et le Cloud.
+    - [Mettez à jour le San dans tous les certificats de périphérie](cloud-consolidation-edge-certificates.md) de sorte qu’ils aient la même valeur qu’auparavant, ainsi que les valeurs de tous les domaines SIP en ligne existants (sauf *. microsoftonline.com), dans ce cas, SIP. OriginalCompany. <span> com.
+    - Assurez-vous que OriginalCompany. <span> com est un [domaine autorisé](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain) dans le déploiement local, AcquiredCompany. Ajoutez des domaines autorisés.
+15. [Activer Skype entreprise hybride](configure-federation-with-skype-for-business-online.md) entre AcquiredCompany local. <span> com et le Cloud.
 16. Selon vos besoins, [migrez les utilisateurs de l’organisation locale vers le Cloud](move-users-between-on-premises-and-cloud.md). Vous pouvez migrer les utilisateurs directement vers le mode [TeamsOnly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) ou les migrer d’abord vers Skype entreprise online. Dans cet État, l’organisation ressemble à la **[figure D](#figure-d)**.
 17. Une fois tous les utilisateurs migrés, [désactivez hybride avec l’environnement local](cloud-consolidation-disabling-hybrid.md) pour *faire de l’organisation un nuage pur*.
 
@@ -97,31 +97,31 @@ Les diagrammes ci-dessous illustrent la configuration à différents points clé
 
 ##### <a name="figure-b"></a>Figure B :
 
-- AcquiredCompany. <span>com est un domaine SIP en ligne [désactivé](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) . Tous les utilisateurs sont en local. S’ils utilisent Teams, ils n’ont pas de Fédération ou d’interopérabilité. Lors de cette étape, Microsoft recommande d’utiliser teams uniquement pour les canaux.
+- AcquiredCompany. <span> com est un domaine SIP en ligne [désactivé](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) . Tous les utilisateurs sont en local. S’ils utilisent Teams, ils n’ont pas de Fédération ou d’interopérabilité. Lors de cette étape, Microsoft recommande d’utiliser teams uniquement pour les canaux.
 - Skype entreprise hybride a été activé pour l’une des organisations locales.
 - Certains utilisateurs de l’organisation hybride ont été déplacés vers le Cloud (utilisateur A comme indiqué par l’ombrage violet). Ces utilisateurs peuvent être des utilisateurs de Skype entreprise Online ou des utilisateurs de teams uniquement avec une prise en charge complète de l’interopérabilité et de la Fédération.<br><br>
     ![Diagramme de la figure B](../media/cloudconsolidationfigb.png)
 
 ##### <a name="figure-c"></a>Figure C :
 
-- Tous les utilisateurs de OriginalCompany. <span>com sont désormais dans le Cloud (hébergé dans Skype entreprise Online). Il est recommandé de n’utiliser que des équipes.
-- Configuration hybride Skype entreprise avec le OriginalCompany. <span>le déploiement com a été désactivé. Le déploiement local a disparu.
-- Si AcquiredCompany. <span>com n’a pas encore été synchronisé avec AAD, pour continuer à partir de là, il doit être synchronisé maintenant. Mais il n’est pas encore hybride (espace d’adressage SIP partagé) et jusqu’à ce que l’organisation soit prête à passer à la version hybride, le domaine SIP en ligne de l’organisation locale pure (AcquiredCompany.com) doit rester désactivé, de sorte que les utilisateurs de teams en ligne puissent communiquer avec les utilisateurs locaux.<br><br>
+- Tous les utilisateurs de OriginalCompany. <span> com sont désormais dans le Cloud (hébergé dans Skype entreprise Online). Il est recommandé de n’utiliser que des équipes.
+- Configuration hybride Skype entreprise avec le OriginalCompany. <span> le déploiement com a été désactivé. Le déploiement local a disparu.
+- Si AcquiredCompany. <span> com n’a pas encore été synchronisé avec AAD, pour continuer à partir de là, il doit être synchronisé maintenant. Mais il n’est pas encore hybride (espace d’adressage SIP partagé) et jusqu’à ce que l’organisation soit prête à passer à la version hybride, le domaine SIP en ligne de l’organisation locale pure (AcquiredCompany.com) doit rester désactivé, de sorte que les utilisateurs de teams en ligne puissent communiquer avec les utilisateurs locaux.<br><br>
     ![Diagramme de la figure C](../media/cloudconsolidationfigc.png)
 
 ##### <a name="figure-d"></a>Figure D :
 
-- AcquiredCompany. <span>com est désormais activé en tant que domaine SIP en ligne.
-- La version locale est mise à jour pour accepter OriginalCompany. <span>com. (Le domaine autorisé et les certificats de périphérie sont mis à jour).
-- L’espace d’adressage SIP partagé est activé entre AcquiredCompany. <span>organisation com et Office 365.
+- AcquiredCompany. <span> com est désormais activé en tant que domaine SIP en ligne.
+- La version locale est mise à jour pour accepter OriginalCompany. <span> com. (Le domaine autorisé et les certificats de périphérie sont mis à jour).
+- L’espace d’adressage SIP partagé est activé entre AcquiredCompany. <span> Organisation com et Microsoft 365 ou Office 365.
 - Certains utilisateurs de l’organisation hybride ont peut-être été déplacés vers le Cloud, comme l’utilisateur D ci-dessous (indiqué par un ombrage violet).<br><br>
     ![Diagramme de la figure D](../media/cloudconsolidationfigd.png)
 
 ## <a name="other-starting-points"></a>Autres points de départ
 
-Les étapes indiquées dans l’exemple canonique ci-dessus supposent que l’organisation commence par deux déploiements fédérés sur site sans présence d’Office 365. Toutefois, certaines organisations peuvent avoir une empreinte Office 365 existante et il peut y avoir des points d’entrée différents dans la séquence ci-dessus. Il existe quatre configurations typiques :
+Les étapes de l’exemple canonique ci-dessus supposent que l’organisation commence par deux déploiements fédérés sur site sans la présence de Microsoft ou d’Office 365. Toutefois, certaines organisations peuvent avoir une empreinte Microsoft 365 ou Office 365 existante et il peut y avoir des points d’entrée différents dans la séquence ci-dessus. Il existe quatre configurations typiques :
 
-- Plusieurs organisations fédérées locales sans organisation Office 365. Dans ce cas, commencez à l’étape 1.
+- Plusieurs organisations fédérées locales sans organisation Microsoft 365 ou Office 365. Dans ce cas, commencez à l’étape 1.
 - Plusieurs organisations fédérées sur site qui synchronisent déjà plusieurs forêts Skype entreprise en un seul client Azure AD. Une telle organisation ressemble à l’organisation hypothétique de la figure A, qui a terminé les étapes 1-6 et doit commencer à l’étape 7.
 - Une organisation hybride qui se fédérer avec 1 ou plusieurs organisations locales pures, aucune n’étant synchronisée avec AAD. Une telle organisation ressemblerait à l’organisation hypothétique de la **figure E**, comme indiqué ci-dessous.
     - Cette organisation est similaire à la figure B, qui a terminé les étapes 1-9, à l’exception des suivantes :
@@ -136,14 +136,14 @@ Les étapes indiquées dans l’exemple canonique ci-dessus supposent que l’or
 
 ## <a name="limitations"></a>Limites
 
-- Il doit y avoir au plus une organisation Office 365 concernée. La consolidation dans des scénarios avec plus d’une organisation Office 365 n’est pas prise en charge.
-- Une seule forêt Skype entreprise locale peut être en mode hybride (espace d’adressage SIP partagé) à la fois. Toutes les autres forêts Skype entreprise locales doivent rester exclusivement en local et être fédérées les unes avec les autres et l’organisation Office 365.
+- Il doit y avoir au plus une organisation Microsoft 365 ou Office 365 concernée. La consolidation dans des scénarios avec plusieurs organisations n’est pas prise en charge.
+- Une seule forêt Skype entreprise locale peut être en mode hybride (espace d’adressage SIP partagé) à la fois. Toutes les autres forêts Skype entreprise locales doivent rester entièrement locales et être fédérées les unes avec les autres et l’organisation Microsoft 365 ou Office 365.
 - Avant d’être migrés vers le Cloud, il existe une expérience asymétrique pour les utilisateurs dans ce déploiement, car tous les utilisateurs de la version en ligne ne sont pas représentés localement :
     - L’expérience peut être additionnée comme suit :
         - Tout utilisateur hébergé en ligne interagit avec les utilisateurs locaux dans l’environnement hybride comme s’il s’agissait d’un utilisateur hybride.
         - Les utilisateurs locaux dans le déploiement hybride interagissent avec les utilisateurs en ligne représentés dans leur annuaire local comme s’ils étaient hybrides. 
         - Les utilisateurs locaux dans le déploiement hybride interagissent avec les utilisateurs en ligne qui ne sont pas représentés dans une annonce locale comme fédéré.
-    - Dans la **[figure D](#figure-d)** ci-dessus, l’utilisateur E est en local dans AcquiredCompany. <span>com.  L’utilisateur E interagit avec l’utilisateur D (hébergé en ligne) à l’aide de l’expérience hybride standard, mais l’utilisateur E dispose d’une expérience fédérée avec les utilisateurs A, B et C, car ils ne sont pas représentés dans le répertoire local. Toutefois, les utilisateurs A, B et C interagissent avec l’utilisateur E comme si l’utilisateur était en environnement hybride.
+    - Dans la **[figure D](#figure-d)** ci-dessus, l’utilisateur E est en local dans AcquiredCompany. <span> com.  L’utilisateur E interagit avec l’utilisateur D (hébergé en ligne) à l’aide de l’expérience hybride standard, mais l’utilisateur E dispose d’une expérience fédérée avec les utilisateurs A, B et C, car ils ne sont pas représentés dans le répertoire local. Toutefois, les utilisateurs A, B et C interagissent avec l’utilisateur E comme si l’utilisateur était en environnement hybride.
     - Implications de l’interaction hybride par rapport à la Fédération :
         - La présence n’est pas automatiquement abonnée aux utilisateurs fédérés, sauf si l’utilisateur est marqué comme contact.
         - Le transfert d’appel ne fonctionne pas entre les domaines fédérés.

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment soumission manuelle d’une demande de transfert.
-ms.openlocfilehash: db47bd98b165607be778000538756b8821340488
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827972"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224217"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
@@ -31,35 +31,35 @@ Dans certains pays et certaines régions, il est possible que vous deviez envoye
 
 Suivez les étapes décrites dans cet article pour créer et valider manuellement une demande de transfert si votre pays ou région n’est pas répertorié dans l' [Assistant de Portage dans le centre d’administration Microsoft teams](transfer-phone-numbers-to-teams.md).
 
-## <a name="manually-submit-a-port-order-request"></a>Envoi manuel d’une demande de transfert
+## <a name="manually-submit-a-new-port-order-request"></a>Envoi manuel d’une demande de transfert
 
-Pour envoyer manuellement une demande de transfert, vous pouvez créer une demande de service dans le centre d’administration 365 Microsoft ou en envoyant votre formulaire de courrier électronique (LOA) RTC directement au bureau de service PSTN pour votre région.
+Vous pouvez envoyer manuellement une nouvelle demande de transfert en créant une demande de service en envoyant votre formulaire de lettre d’autorisation (LOA) directement au bureau de service PSTN pour votre région ou dans le centre d’administration 365 Microsoft.
+
+### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>Envoyer votre lettre d’autorisation directement au bureau de service PSTN
+
+Téléchargez le [Loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour votre pays ou région, remplissez le formulaire, puis envoyez-le à votre [Bureau de service PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) pour votre région :
+
+- Aux États-Unis et au Canada, [Envoyez votre demande](mailto:ptn@microsoft.com).
+- En Europe, [Envoyez votre demande](mailto:ptneu@microsoft.com).
+- Dans Asia, [Envoyez votre demande](mailto:ptnapac@microsoft.com).
 
 ### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>Envoi d’une demande de service dans le centre d’administration 365 Microsoft
 
-1. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **prise en charge** > de**nouvelle demande de service**.  Si vous ne voyez pas la **prise en charge** , ajoutez-la en accédant à **personnaliser la navigation** dans la barre de navigation gauche, puis activez la case à cocher **support** .
+1. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **prise en charge**de  >  **nouvelle demande de service**.  Si vous ne voyez pas la **prise en charge** , ajoutez-la en accédant à **personnaliser la navigation** dans la barre de navigation gauche, puis activez la case à cocher **support** .
 2. Dans le volet **avez-vous besoin d’aide ?** , sélectionnez **contacter le support technique**.
 3. Dans le volet **contacter le support technique** , procédez comme suit :
 
     1. Entrez un titre (par exemple, demande d’ordre de transfert) et la description de votre demande, confirmez votre numéro de téléphone et votre adresse de messagerie, puis sélectionnez votre mode de contact préféré.
-    2. Sous **pièces jointes**, cliquez sur **Ajouter un fichier**, puis chargez votre [Loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers)terminée.
+    2. Sous **pièces jointes**, cliquez sur **Ajouter un fichier**, puis chargez votre [Loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)terminée.
     3. Cliquez sur **me contacter**.
-
-### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>Envoyer votre lettre d’autorisation directement au bureau de service PSTN
-
-Téléchargez le [Loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) pour votre pays ou région, remplissez le formulaire, puis envoyez-le à votre [Bureau de service PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) pour votre région :
-
-- Aux États-Unis, [Envoyez votre demande](mailto:ptn@microsoft.com).
-- En Europe, [Envoyez votre demande](mailto:ptneu@microsoft.com).
-- Dans Asia, [Envoyez votre demande](mailto:ptnapac@microsoft.com).
-  
+    
 ## <a name="what-else-should-you-know-about-number-porting"></a>Que faut-il savoir d'autre à propos du transfert de numéro ?
 
 - Pour utiliser des plans d’appel, vous devez acheter et attribuer des licences à vos utilisateurs. Voir [licences de module complémentaire équipes](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Voir [affecter, modifier ou supprimer le numéro de téléphone d’un utilisateur](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -3,7 +3,7 @@ title: Utilisation du rapport de routage direct RTC bord
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: siunies
+ms.reviewer: siunies, fan.fan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,19 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez le rapport de routage direct RTC bord pour surveiller et résoudre les problèmes de la fonction d’appel RTC dans Microsoft Teams.
-ms.openlocfilehash: 32d91d56e51c5706c3e460029312f3b6bb6948c3
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559421"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221748"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Utilisation du rapport de routage direct RTC bord
 
 Nouveauté du 2020 mars, nous avons ajouté un rapport de routage direct RTC bord aux [modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
-Le rapport de routage direct RTC de bord aide les clients à comprendre les modèles d’utilisation et la qualité de leurs services RTC surveiller les informations relatives à votre SBC, au service de téléphonie, aux paramètres réseau et aux détails sur le taux d’efficacité du réseau et à l’utilisation de la fonction service. Ces informations peuvent vous aider à identifier les problèmes, notamment le motif des appels interrompus. Par exemple, vous serez en mesure de déterminer le nombre de chutes d’appels en fonction de la raison pour laquelle vous en avez le volume.
+Le rapport de routage direct RTC de bord (bord RTC direct Routing. PBiT) vous aide à comprendre les modèles d’utilisation et la qualité de vos services RTC. Utilisez ce rapport pour contrôler l’utilisation du service, les informations relatives à votre contrôleur de bordure de session (SBC), au service de téléphonie, aux paramètres réseau et aux détails du rapport d’efficacité réseau. Ces informations peuvent vous aider à identifier les problèmes, notamment le motif des appels interrompus. Par exemple, vous pouvez voir le nombre de chutes de volume ou le nombre d’appels qui sont affectés et la raison pour laquelle vous vous trouvez.
+
 
 Le rapport de routage direct RTC de bord comporte quatre sections :
 
@@ -39,6 +40,24 @@ Le rapport de routage direct RTC de bord comporte quatre sections :
 
   - [Paramètres réseau](#network-parameters)
 
+## <a name="highlights"></a>Annonces
+
+1. Analyser par type d’appel, SBC, appelant et pays de l’appelé
+
+   Le rapport de routage direct RTC de bord agrège les métriques de fiabilité et d’utilisation de tous les éléments SBCs de votre client pour les derniers 7, 30 ou 180 (6 mois). Vous pouvez analyser les données par type d’appel, SBC, appelant et pays de l’appelant. Si vous êtes intéressé par un SBC ou un pays particulier, vous serez en mesure d’identifier les changements dans les tendances au cours de la période sélectionnée.
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Capture d’écran de filtres disponibles dans le rapport de routage direct RTC bord":::
+   
+2. Suivi des tendances
+
+    L’analyse des tendances est essentielle lorsque l’on tente de comprendre l’utilisation et la fiabilité des services. Les tendances horaires permettent de mieux cerner les performances journalières, ce qui permet d’identifier les incidents en temps réel. Les tendances journalières vous permettent d’afficher l’état de votre service sur une perspective à long terme. Il est important de pouvoir passer d’un mode à l’autre en bénéficiant d’une granularité appropriée aux données. Le rapport de routage direct RTC bord fournit une vue d’ensemble des tendances de 6 mois, des tendances journalières de 7 et 30 jours et des tendances horaires pour vous permettre d’analyser les performances à chaque niveau.
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Capture d’écran de graphes de tendances dans bord rapport de routage direct RTC":::
+
+3. Extraire vers le niveau de SBC ou d’utilisateur
+
+   Nous avons créé dans le cadre de la fonctionnalité d’exploration sur de nombreuses catégories de données dans bord, qui vous permettent de mieux comprendre la distribution de l’utilisation et de la fiabilité au niveau du SBC ou de l’utilisateur. Grâce à l’extraction, vous pouvez rapidement poinpoint des problèmes et comprendre un impact réel sur l’utilisateur. Les fonctionnalités du rapport de routage direct RTC de bord analysent les détails relatifs au service et aux métriques du rapport d’efficacité réseau. Cliquez sur le point de données qui vous intéresse pour extraire des détails au niveau utilisateur ou SBC.
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Capture d’écran illustrant la fonctionnalité d’exploration sur un point de données":::
+
+
 ## <a name="pstn-overview"></a>Présentation RTC
 
 Le rapport de routage direct RTC bord fournit les informations suivantes relatives à l’intégrité globale du service au cours des derniers jours 180.
@@ -49,7 +68,7 @@ Par exemple, si vous êtes intéressé par l’utilisation globale et l’intég
 | **Appel hors** | **Description**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1            | Vous pouvez utiliser les filtres en haut pour descendre dans la direction et sélectionner ByotIn en tant que type d’appel, abc.bca.contoso.com en tant que contrôleur de tableau de bord, et vers les États-Unis comme pays interne. |
-| deuxième            | Tendance d’utilisation pour les 180 derniers jours. Le rapport sur les détails d’utilisation est sur la page des détails du service.                                                                     |
+| 2            | Tendance d’utilisation pour les 180 derniers jours. Le rapport sur les détails d’utilisation est sur la page des détails du service.                                                                     |
 | 3            | Envoyez un message de délai de numérotation, de latence, de gigue et de tendance de perte de paquets pour les 180 derniers jours. Vous trouverez le rapport détaillé sur la page Paramètres du réseau.                           |
 | 4            | Tendance pour les appels simultanés et les utilisateurs actifs du jour au cours des 180 derniers jours. Ce graphique peut vous aider à comprendre le volume maximal du service.                            |
 | 5            | Raison de la qualité de service affectée par le top des appels pour les 180 derniers jours. Pour plus d’informations sur l’état du service, consultez la page NER (Network effective ratio).                    |

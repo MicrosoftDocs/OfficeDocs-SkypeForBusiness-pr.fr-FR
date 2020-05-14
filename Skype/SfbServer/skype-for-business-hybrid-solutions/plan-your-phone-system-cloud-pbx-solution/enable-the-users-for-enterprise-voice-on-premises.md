@@ -1,5 +1,5 @@
 ---
-title: Permettre aux utilisateurs d’utiliser la voix entreprise en local
+title: Activer les utilisateurs pour voix entreprise sur site
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,43 +18,43 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: Pour qu’un utilisateur utilise le système téléphonique dans Office 365 (PBX Cloud), vous devez d’abord l’activer pour voix entreprise et lui attribuer un numéro de téléphone. Pour ce faire, vous devez utiliser votre déploiement local alors que l’utilisateur est toujours hébergé dans le déploiement local.
-ms.openlocfilehash: 4409de1965fbcca641dde69d70c734d1bcd3a8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour qu’un utilisateur utilise le système téléphonique (PBX Cloud), vous devez d’abord l’activer pour voix entreprise et lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local pendant que l’utilisateur est toujours hébergé dans le déploiement local.
+ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802294"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221698"
 ---
-# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Permettre aux utilisateurs d’utiliser la voix entreprise en local
+# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Activer les utilisateurs pour voix entreprise sur site
  
-Pour qu’un utilisateur utilise le système téléphonique dans Office 365 (PBX Cloud), vous devez d’abord l’activer pour voix entreprise et lui attribuer un numéro de téléphone. Pour ce faire, vous devez utiliser votre déploiement local alors que l’utilisateur est toujours hébergé dans le déploiement local.
+Pour qu’un utilisateur utilise le système téléphonique (PBX Cloud), vous devez d’abord l’activer pour voix entreprise et lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local pendant que l’utilisateur est toujours hébergé dans le déploiement local.
   
-### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Pour permettre à un utilisateur d’utiliser la voix entreprise sur site et d’affecter un numéro de téléphone
+### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Pour activer un utilisateur pour voix entreprise sur site et attribuer un numéro de téléphone
 
-1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Utilisez le menu Démarrer ou le raccourci bureau pour ouvrir le Panneau de configuration de Skype Entreprise Server.
+2. Utilisez le menu Démarrer ou le raccourci Bureau pour ouvrir le panneau de configuration de Skype entreprise Server.
     
-    Vous pouvez également ouvrir une fenêtre de navigateur, puis saisir l’URL de l’administrateur pour ouvrir le Panneau de configuration de Skype Entreprise Server
+    Vous pouvez également ouvrir une fenêtre de navigateur, puis entrer l’URL de l’administrateur pour ouvrir le panneau de configuration de Skype entreprise Server.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM (Security Accounts Manager), de l’adresse SIP (Session Initiation Protocol) ou de l’URI de ligne du compte d’utilisateur à activer, puis cliquez sur **Rechercher**.
+4. Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), de l’adresse SIP ou de l’URI (Uniform Resource Identifier) de ligne du compte d’utilisateur que vous souhaitez activer, puis cliquez sur **Rechercher**.
     
-5. Dans le tableau, cliquez sur le compte d’utilisateur Skype entreprise Online que vous voulez activer pour voix entreprise.
+5. Dans le tableau, cliquez sur le compte d’utilisateur Skype entreprise Online que vous souhaitez activer pour voix entreprise.
     
-6. Dans le menu **Modifier**, cliquez sur **Afficher les détails**.
+6. Dans le menu **Edition** , cliquez sur **afficher les détails**.
     
-7. Sous **Téléphonie**, cliquez sur **Voix Entreprise**.
+7. Sous **téléphonie**, cliquez sur **voix entreprise**.
     
-8. Cliquez sur l’**URI de ligne**, puis saisissez un numéro de téléphone normalisé unique (par exemple, tél :+14255550200). Ensuite, cliquez sur **Valider**.
+8. Cliquez sur **URI de ligne**, puis tapez un numéro de téléphone normalisé unique (par exemple, tel : + 14255550200). Ensuite, cliquez sur **valider**.
     
-## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Remarques spéciales lors de l’activation de la voix entreprise locale dans les utilisateurs
+## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Considérations particulières lors de l’activation des utilisateurs pour voix entreprise sur site
 
-Dans certains cas, vous devrez peut-être modifier la façon d’activer les utilisateurs pour Voix Entreprise de sorte qu’ils puissent passer et recevoir des appels de manière appropriée. Si votre déploiement comporte des utilisateurs qui répondent aux conditions suivantes, suivez les étapes décrites dans la procédure d’activation de l’utilisateur pour voix entreprise.
+Dans certains cas, vous devrez peut-être modifier la façon dont vous activez les utilisateurs pour voix entreprise afin de vous assurer qu’ils peuvent passer et recevoir des appels. Si des utilisateurs de votre déploiement remplissent les conditions suivantes, effectuez les étapes requises pour activer l’utilisateur pour voix entreprise.
   
-- Si un utilisateur est créé dans votre annonce locale et qu’elle est synchronisée avec Skype entreprise Online sans être activée pour Skype entreprise ou pour voix entreprise et que vous n’avez pas de jeu LineURI, exécutez les applets de commande suivantes pour chaque utilisateur concerné, en remplaçant \< \> les valeurs par les valeurs réelles pour votre environnement :
+- Si un utilisateur est créé dans votre AD sur site, puis synchronisé avec Skype entreprise Online sans être activé pour Skype entreprise ou pour voix entreprise et n’ont pas de jeu LineURI, exécutez les applets de commande suivantes pour chaque utilisateur affecté, en remplaçant les valeurs par les \< \> valeurs réelles de votre environnement :
     
   ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
@@ -64,13 +64,13 @@ Dans certains cas, vous devrez peut-être modifier la façon d’activer les uti
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Si un utilisateur est déjà activé pour Skype entreprise en local, mais qu’il n’a pas été activé pour voix entreprise ou qu’il n’a pas été affecté à une LineURI avant d’être déplacé dans Skype entreprise Online, exécutez l’applet de commande suivante pour chaque utilisateur :
+- Si un utilisateur est déjà activé pour Skype entreprise en local, mais n’a pas été activé pour voix entreprise ou s’il a été affecté à un LineURI avant d’être déplacé vers Skype entreprise Online, exécutez l’applet de commande suivante pour chaque utilisateur :
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Si un utilisateur est déjà activé dans Skype entreprise sur site, mais n’est pas activé pour voix entreprise, même s’il a déjà reçu une LineURI, exécutez l’applet de commande suivante pour chaque utilisateur concerné :
+- Si un utilisateur est déjà activé dans Skype entreprise en local, mais n’est pas activé pour voix entreprise, même si un LineURI a déjà été affecté, exécutez l’applet de commande suivante pour chaque utilisateur concerné :
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true

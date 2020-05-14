@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019.
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510793"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221304"
 ---
 # <a name="plan-cloud-call-queues"></a>Planifier les files d’attente des appels Cloud
 
@@ -43,7 +43,7 @@ En plus de la configuration requise ci-dessus, les conditions suivantes doivent 
 
 - Connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer les files d’attente d’appels dans le Cloud pour vos utilisateurs locaux, vous devez vous assurer que la connectivité hybride est configurée entre vos environnements locaux et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
 
-   Pour plus d’informations, voir [planifier une connectivité hybride entre Skype entreprise Server et office 365](plan-hybrid-connectivity.md) et [configurer la connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
+   Pour plus d’informations, reportez-vous à la rubrique [plan Hybrid Connectivity between Skype for Business Server et microsoft 365 ou office 365](plan-hybrid-connectivity.md) et configuration de la [connectivité hybride entre Skype entreprise server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md).
 
 - Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence utilisateur virtuelle du système téléphonique économique. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation et vous permet de créer des fonctionnalités de standard automatique et de file d’attente d’appel.
 
@@ -65,8 +65,8 @@ Lorsque vous disposez d’une structure solide qui répond à vos besoins et d�
 
 [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](plan-hybrid-connectivity.md)
+[Planification de la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](plan-hybrid-connectivity.md)
 
-[Configurer la connectivité hybride entre Skype Entreprise Server et Office 365](configure-hybrid-connectivity.md).
+[Configuration de la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md)
 
 [Gérer les comptes de ressources dans Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

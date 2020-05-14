@@ -20,16 +20,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769247"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220694"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 
-Lorsque vous configurez des forfaits d'appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chaque utilisateur.
+Lorsque vous configurez des plans d’appel, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs.
   
 La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement. Il est possible qu’une adresse de secours partiellement correcte (par exemple, le nom de la ville, par exemple) puisse rester valide. Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié. Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.
 

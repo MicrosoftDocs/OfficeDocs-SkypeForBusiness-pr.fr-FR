@@ -1,5 +1,5 @@
 ---
-title: Tester les paramètres de configuration du Trunk SIP dans Skype entreprise Server
+title: Tester les paramètres de configuration de jonction SIP dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services. '
-ms.openlocfilehash: 911947b33f0e609b4dd532ec5cc2c3d56a08618c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
+ms.openlocfilehash: bed342de3f602499f16b9f27ee0726f10d2c867e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816934"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "42048187"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Tester les paramètres de configuration du Trunk SIP dans Skype entreprise Server
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Tester les paramètres de configuration de jonction SIP dans Skype entreprise Server
 
-Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services. Ces paramètres spécifient, par exemple :
+Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 
-- si la déviation du trafic multimédia doit être activée sur les jonctions ;
-- Les conditions dans lesquelles les paquets de contrôle de transport en temps réel (RTCP) sont envoyés.
-- Le chiffrement SRTP (Secure Real-Time Protocol) est requis sur chaque Trunk.
+- L’activation ou non du contournement de média sur les jonctions.
+- Les conditions d’envoi des paquets RTCP (Real-time Transport Control Protocol).
+- L’application ou non du chiffrement SRTP (Secure Real-Time Protocol) sur chaque jonction.
 
-Lorsque vous installez Skype entreprise Server, une collection globale de paramètres de configuration SIP Trunk est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Les administrateurs peuvent également utiliser l’applet de [contrôle test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) pour vérifier qu’un Trunk peut convertir un nombre comme composé par un utilisateur sur un numéro qui peut être géré par la passerelle.
+Lorsque vous installez Skype entreprise Server, une collection globale de paramètres de configuration de jonction SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Les administrateurs peuvent également utiliser l’applet de commande [test-applet cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) pour vérifier qu’une jonction peut convertir un numéro composé par un utilisateur en un nombre pouvant être géré par la passerelle.
 
 Les paramètres de configuration de jonction peuvent uniquement être testés à l’aide de Windows PowerShell et de l’applet de commande Test-CsTrunkConfiguration. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. 
 
-**Pour tester les paramètres de configuration des jonctions SIP**
+**Pour tester les paramètres de configuration de jonction SIP**
 
-Cette commande vérifie que les paramètres de configuration de jonction pour le site Redmond peuvent convertir correctement le numéro composé 4255551212.
+Cette commande vérifie que les paramètres de configuration de jonction pour le site Redmond peuvent convertir de façon correcte le numéro composé 4255551212.
 
 ```PowerShell
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"

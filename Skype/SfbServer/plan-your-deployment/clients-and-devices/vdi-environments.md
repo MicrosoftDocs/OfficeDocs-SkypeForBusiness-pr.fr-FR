@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Cette rubrique traite des considérations relatives à la planification de l’utilisation de Skype entreprise lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027995"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219524"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planifier Skype entreprise dans les environnements VDI
  
@@ -43,7 +43,7 @@ Trois solutions sont disponibles pour le composant de plug-in VDI, proposé par 
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Pack d’optimisation en temps réel Citrix HDX
 <a name="Citrix_RT"> </a>
 
-Le plug-in de l’environnement VDI de Citrix (fonctionnalité de XenApp et XenDesktop) est compatible avec Lync 2013 et Skype entreprise 2015 et 2016 (les clients complets utilisent les clients Click pour exécuter le programme d’installation ou des programmes d’installation MSI publiés après les clients de janvier 2017) installés sur un ordinateur virtuel poste. Son fonctionnement global repose sur le plug-in Microsoft Lync VDI, mais fonctionne sur un large éventail de systèmes d’exploitation clients, notamment Windows 10, Macintosh et Linux.
+Le plug-in de l’environnement VDI de Citrix (fonctionnalité de XenApp et XenDesktop) est compatible avec Lync 2013 et Skype entreprise 2015 et 2016 (les clients complets utilisent les clients Click pour exécuter le programme d’installation ou les programmes d’installation MSI publiés après les clients de janvier 2017) installés sur un bureau virtuel. Son fonctionnement global repose sur le plug-in Microsoft Lync VDI, mais fonctionne sur un large éventail de systèmes d’exploitation clients, notamment Windows 10, Macintosh et Linux.
   
 Vous trouverez une liste complète des fonctionnalités et des technologies prises en charge sur le site Web de Citrix en [proposant les utilisateurs de Microsoft Skype entreprise aux utilisateurs de XenApp et XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
@@ -62,7 +62,7 @@ La solution d’environnement VDI de VMWare est compatible avec les clients comp
   
 Vous trouverez une description complète des fonctionnalités et des technologies prises en charge sur le site Web VMWare à l’adresse suivante :
   
-- [Nouveautés de VMware horizon 7,4 &amp; horizon client 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [Nouveautés de VMware horizon 7,4 &amp; horizon Client 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [Pack de virtualisation horizon pour Skype entreprise](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,10 +161,10 @@ Il n’existe pas de prise en charge pour les fonctionnalités suivantes :
     
 - Sonneries personnalisées et fonctionnalités d’attente musicale.
     
-Le plug-in Lync VDI n’est pas pris en charge dans un environnement Office 365.
+Le plug-in Lync VDI n’est pas pris en charge dans les environnements Microsoft 365 ou Office 365.
   
 > [!NOTE]
-> Le pack d’optimisation en temps réel Citrix prend en charge Office 365. Pour les environnements virtuels Citrix, consultez la documentation de [Présentation technique](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) de Citrix pour obtenir la liste des fonctionnalités et des versions prises en charge.
+> Le pack d’optimisation en temps réel Citrix prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels Citrix, consultez la documentation de [Présentation technique](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) de Citrix pour obtenir la liste des fonctionnalités et des versions prises en charge.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Citrix_RT"> </a>

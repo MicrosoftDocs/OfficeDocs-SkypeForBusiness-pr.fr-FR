@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
-description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: aa84186013deab98143113197dc080406dcec798
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: La validation d’adresse est une partie importante de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
+ms.openlocfilehash: fbe6102069147d4de71d090f4820b53c392ac00e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769147"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220684"
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation de numéro a-t-elle échoué ?
-La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé en raison de la validation de l’adresse, vous devrez créer une demande de service. La procédure dépend de la taille de votre organisation.
+La validation d’adresse est une partie importante de la configuration des forfaits d’appels. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé en raison de la validation de l’adresse, vous devrez créer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
 1. Dans le centre d’administration, sélectionnez **vous avez besoin d’aide**?
@@ -41,9 +41,9 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations comprenant plus de 150 personnes, créez une demande de service pour valider une adresse d'urgence
 
-1. Connectez-vous à Office 365 en tant qu'administrateur à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous 365 365 à votre compte professionnel ou scolaire à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge** > une**nouvelle demande de service**.
+2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge**une  >  **nouvelle demande de service**.
     
 3. Sous **Demandes de service**, cliquez sur **Ajouter**.
     
@@ -68,7 +68,7 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
       - Pays ou région
     
      > [!IMPORTANT]
-     > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
+     > **Indiquez le pays ou la région où nous proposons des offres d’appel auxquelles vous essayez de valider une adresse d’urgence lorsque vous affectez un numéro de téléphone.**
   
       - Code postal
     

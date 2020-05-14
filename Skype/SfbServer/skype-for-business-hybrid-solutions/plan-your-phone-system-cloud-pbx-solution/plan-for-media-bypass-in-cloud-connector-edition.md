@@ -1,5 +1,5 @@
 ---
-title: Planification de la déviation du trafic multimédia dans Cloud Connector Edition
+title: Planifier le contournement de média dans Cloud Connector Edition
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lisez cette rubrique pour examiner les considérations relatives à la planification de l’implémentation de la déviation du trafic multimédia avec la version 2,0 et ultérieure de Cloud Connector. Pour plus d’informations sur le déploiement de la déviation du trafic multimédia, voir deploy Media Bypass in Cloud Connector Edition.
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778780"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220254"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans Cloud Connector Edition
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planifier le contournement de média dans Cloud Connector Edition
  
 Lisez cette rubrique pour examiner les considérations relatives à la planification de l’implémentation de la déviation du trafic multimédia avec la version 2,0 et ultérieure de Cloud Connector. Pour plus d’informations sur le déploiement de la déviation du trafic multimédia, voir [Deploy Media Bypass in Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md).
   
@@ -37,7 +37,7 @@ La déviation du trafic multimédia peut améliorer la qualité de la voix en di
 
 Bien que la signalisation prenne le même chemin avec ou sans déviation du trafic multimédia, le flux multimédia diffère. Les diagrammes suivants indiquent les médias et les voies de signalisation dans des topologies avec et sans déviation du trafic multimédia. 
   
-Par exemple, dans la topologie suivante, qui n’utilise pas le contournement de média, un client Skype entreprise passe un appel RTC à un numéro externe, la signalisation SIP vers Office 365 et Office 365 dirige le trafic de signalisation en fonction de la stratégie de voix de l’utilisateur final. Pour les utilisateurs de Cloud Connector, la stratégie de voix dirige le trafic de signalisation vers le serveur Edge de Cloud Connector, qui achemine ensuite le trafic de signalisation vers un contrôleur SBC (session Border Controller) ou une passerelle via le serveur de médiation Cloud Connector. Le flux multimédia s’achemine du client Skype entreprise vers le serveur de médiation Cloud Connector, puis vers le SBC ou la passerelle, comme illustré dans le diagramme suivant :
+Par exemple, dans la topologie suivante, qui n’utilise pas le contournement de média, un client Skype entreprise passe un appel RTC à un numéro externe, la signalisation SIP vers Microsoft 365 ou Office 365, qui dirige le trafic de signalisation en fonction de la stratégie de voix de l’utilisateur final. Pour les utilisateurs de Cloud Connector, la stratégie de voix dirige le trafic de signalisation vers le serveur Edge de Cloud Connector, qui achemine ensuite le trafic de signalisation vers un contrôleur SBC (session Border Controller) ou une passerelle via le serveur de médiation Cloud Connector. Le flux multimédia s’achemine du client Skype entreprise vers le serveur de médiation Cloud Connector, puis vers le SBC ou la passerelle, comme illustré dans le diagramme suivant :
   
 **Médias et voies de signalisation sans déviation du trafic multimédia**
 
@@ -59,7 +59,7 @@ La déviation du trafic multimédia est également utile lorsque vous souhaitez 
 
 ![Exemple multisite de Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. Le trafic SIP passe de l’utilisateur à Zurich à Office 365.
+1. Le trafic SIP passe de l’utilisateur à Zurich à Microsoft 365 ou Office 365.
     
 2. Le trafic est ensuite acheminé vers l’appliance Cloud Connector à Amsterdam, comme spécifié dans la stratégie de routage des communications vocales de l’utilisateur.
     

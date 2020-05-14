@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: La validation d’adresse est une partie importante de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
+ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769137"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220674"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Pourquoi l’activation de numéro est-elle en attente ?
 
-La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **en attente en** raison de la validation de l’adresse, vous devez créer et renvoyer une demande de service. La procédure dépend de la taille de votre organisation.
+La validation d’adresse est une partie importante de la configuration des forfaits d’appels. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **en attente en** raison de la validation de l’adresse, vous devez créer et renvoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
 1. Dans le centre d’administration, sélectionnez **vous avez besoin d’aide**?
@@ -39,12 +39,12 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 3. Si les résultats dans la section **Afficher les solutions** ne vous apportent aucune aide, sélectionnez une des options suivantes :
     - **Laissez-nous vous appeler (recommandé)**  : confirmez votre numéro de contact et appuyez sur **M'appeler**. Le temps d'attente prévu pour un rappel est indiqué dans le volet **Besoin d'aide ?**.
     - **Envoyez-nous un e-mail** : confirmez votre adresse de messagerie et sélectionnez **Envoyer**. Le temps de réponse est indiqué dans le volet **Besoin d'aide ?**.
-
+ 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations comprenant plus de 150 personnes, créez une demande de service pour valider une adresse d'urgence
 
-1. Connectez-vous à Office 365 en tant qu'administrateur à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous 365 365 à votre compte professionnel ou scolaire à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge** > une**nouvelle demande de service**.
+2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge**une  >  **nouvelle demande de service**.
     
 3. Sous **Demandes de service**, cliquez sur **Ajouter**.
     
@@ -69,7 +69,7 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
       - Pays ou région
     
      > [!IMPORTANT]
-     > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
+     > **Indiquez le pays ou la région où nous proposons des offres d’appel auxquelles vous essayez de valider une adresse d’urgence lorsque vous affectez un numéro de téléphone.**
   
       - Code postal
     

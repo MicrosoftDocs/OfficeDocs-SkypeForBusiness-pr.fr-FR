@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers la dernière version ou Skype entreprise Online ou Exchange Online.
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265609"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221264"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planification de la migration de Skype entreprise Server et d’Exchange Server
 
@@ -33,7 +33,7 @@ La messagerie unifiée a été déconseillée dans Exchange 2019. Cela signifie 
 - Messagerie vocale
 - Standard automatique
 
-Si vous avez déployé le rôle de messagerie unifiée dans Exchange 2013 ou le service de messagerie unifiée dans Exchange 2016 et que vous souhaitez effectuer une mise à niveau vers Exchange 2019, vous devrez migrer votre messagerie vocale vers le service de messagerie vocale Microsoft Cloud dans Office 365. Si vous souhaitez migrer votre messagerie vocale vers la messagerie vocale Cloud, jetez un œil à la section [Exchange 2013/exchange 2016 et Skype entreprise 2015 à exchange 2019 et Skype entreprise 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) ci-dessous.
+Si vous avez déployé le rôle de messagerie unifiée dans Exchange 2013 ou le service de messagerie unifiée dans Exchange 2016 et que vous souhaitez effectuer une mise à niveau vers Exchange 2019, vous devrez migrer votre messagerie vocale vers le service de messagerie vocale de Microsoft Cloud dans Microsoft 365 ou Office 365. Si vous souhaitez migrer votre messagerie vocale vers la messagerie vocale Cloud, jetez un œil à la section [Exchange 2013/exchange 2016 et Skype entreprise 2015 à exchange 2019 et Skype entreprise 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) ci-dessous.
 > [!IMPORTANT]
 > Si les utilisateurs de vos serveurs Exchange 2013 ou Exchange 2016 ont des boîtes aux lettres à extension messagerie unifiée, ne les déplacez pas vers Exchange 2019 avant de mettre à niveau vos serveurs Skype entreprise vers Skype entreprise Server 2019 et de leur déplacer les utilisateurs afin d’éviter une panne de messagerie vocale.
 
@@ -55,13 +55,13 @@ Nous prenons en charge les scénarios suivants, qui vous permettront de migrer d
 - Exchange 2013/Exchange 2016 et Skype entreprise Server 2015 vers Exchange 2019 et Skype entreprise Server 2019
 - Skype entreprise Server 2015 vers Skype entreprise Server 2019 avec Exchange 2013/Exchange 2016
 
-Les scénarios suivants nécessitent qu’aucune configuration PBX ou SBC n’existe dans le cadre de votre déploiement actuel et part du principe que la messagerie unifiée est configurée sur vos serveurs Exchange locaux. Chacune de ces solutions suppose également que vous avez décidé de configurer un déploiement hybride entre vos serveurs Skype entreprise locaux et Office 365. Pour plus d’informations sur les déploiements hybrides Skype entreprise, reportez-vous à la rubrique [plan Hybrid Connectivity](plan-hybrid-connectivity.md).
+Les scénarios suivants nécessitent qu’aucune configuration PBX ou SBC n’existe dans le cadre de votre déploiement actuel et part du principe que la messagerie unifiée est configurée sur vos serveurs Exchange locaux. Chacune de ces solutions suppose également que vous avez décidé de configurer un déploiement hybride entre vos serveurs Skype entreprise locaux et Microsoft 365 ou Office 365. Pour plus d’informations sur les déploiements hybrides Skype entreprise, reportez-vous à la rubrique [plan Hybrid Connectivity](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 et Skype entreprise 2015 vers Exchange 2019 et Skype entreprise 2019
 
 Dans ce scénario, vous souhaitez migrer vos serveurs Exchange 2013, Exchange 2016 et Skype entreprise 2015 existants vers Exchange 2019 et Skype entreprise 2019.
 
-Comme mentionné plus haut dans cette rubrique, Exchange 2019 n’inclut plus le service de messagerie unifiée. Cela signifie que, pour toutes les boîtes aux lettres que vous souhaitez déplacer vers Exchange 2019, vous devez utiliser la messagerie vocale Cloud pour remplacer les fonctionnalités fournies par le service de messagerie unifiée. Lorsque vous configurez Skype entreprise Server 2019 et un déploiement hybride entre it et Office 365, la messagerie vocale Cloud remplace ces services de messagerie vocale de messagerie unifiée Exchange.
+Comme mentionné plus haut dans cette rubrique, Exchange 2019 n’inclut plus le service de messagerie unifiée. Cela signifie que, pour toutes les boîtes aux lettres que vous souhaitez déplacer vers Exchange 2019, vous devez utiliser la messagerie vocale Cloud pour remplacer les fonctionnalités fournies par le service de messagerie unifiée. Lorsque vous configurez Skype entreprise Server 2019 et un déploiement hybride entre le service informatique et Microsoft 365 ou Office 365, la messagerie vocale Cloud remplace ces services de messagerie vocale de messagerie unifiée Exchange.
 
 L’ordre dans lequel vous déplacez les utilisateurs vers Exchange 2019 et Skype entreprise Server 2019 est essentiel pour garantir que la fonctionnalité de messagerie vocale reste disponible pour tous les utilisateurs. L’emplacement de traitement de la messagerie vocale est également déterminé par l’emplacement où se trouvent les boîtes aux lettres et les utilisateurs de Skype entreprise et d’Exchange. Consultez le tableau suivant pour déterminer les combinaisons d’Exchange et de Skype entreprise Server prises en charge et la façon dont la messagerie vocale est traitée.
 

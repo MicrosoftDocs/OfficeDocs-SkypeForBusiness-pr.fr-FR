@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158981"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219834"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -34,11 +34,11 @@ Vérifiez que vous avez le [rôle d’accès bord](https://docs.microsoft.com/mi
 
 Pour plus d’informations sur l’installation d’un connecteur personnalisé et sur l’ajustement de la sécurité afin d’activer l’utilisation du connecteur, voir la [documentation relative à Power bi](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). Par souci de simplicité, voici une explication rapide :
 
-1.  Vérifiez si votre ordinateur possède déjà un dossier de * \[connecteurs\]\\de connecteurs\\* personnalisés pour le bureau Power bi. Si ce n’est pas le cas, créez ce dossier. <sup>1</sup>
+1.  Vérifiez si votre ordinateur possède déjà un dossier de * \[ \] \\ connecteurs de \\ connecteurs personnalisés pour le bureau Power bi*   . Si ce n’est pas le cas, créez ce dossier. <sup>1</sup>
 
-2.  Téléchargez le fichier de connecteur (fichier * \*. Mez* ou * \*. pqx* ) et placez-le dans le répertoire de *connecteurs personnalisés* .
+2.  Téléchargez le fichier de connecteur (fichier * \* . Mez* ou * \* . pqx* ) et placez-le dans le répertoire de *connecteurs personnalisés* .
 
-3.  **Si le fichier de connecteur est * \*un fichier. Mez* ,** vous devrez également régler vos paramètres de sécurité comme décrit dans la [documentation de configuration du connecteur personnalisé](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3.  **Si le fichier de connecteur est un fichier * \* . Mez* ,** vous devrez également régler vos paramètres de sécurité comme décrit dans la [documentation de configuration du connecteur personnalisé](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 Si une nouvelle version de ce connecteur Power BI pour Microsoft teams est publiée, remplacez simplement l’ancien fichier de connecteur dans le répertoire de *connecteurs personnalisés* par le nouveau fichier.
 
@@ -150,7 +150,7 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette zone, contact
 
 ## <a name="footnotes"></a>Notes de fin
 
-**<sup>1</sup>** certains processus et applications (par exemple, OneDrive) peuvent entraîner le changement du dossier racine de votre document. Assurez-vous que le répertoire de *connecteurs\\personnalisés de Power bi* est placé à l’intérieur du dossier documents du dossier racine actuel.
+**<sup>1</sup>** certains processus et applications (par exemple, OneDrive) peuvent entraîner le changement du dossier racine de votre document. Assurez-vous que le répertoire de * \\ connecteurs personnalisés de Power bi* est placé à l’intérieur du dossier documents du dossier racine actuel.
 
 **<sup>2</sup>** les informations d’identification que vous utilisez pour bord *n’ont pas* besoin d’être identiques aux informations d’identification utilisées pour la connexion à l’application de bureau Power bi.
 
@@ -160,7 +160,7 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette zone, contact
 
 Malgré la balise bêta, le connecteur de qualité d’appel pour Power BI est la version de connecteur, officiellement sécurisée par l’équipe Power BI pour refléter cela. Le processus de certification permettant de supprimer cette balise bêta est un processus complet et nécessite un engagement de l’équipe Power BI pour fournir également une assistance directe au connecteur. En raison de contraintes de temps, l’équipe Power BI ne peut actuellement pas fournir le support technique et la certification plus large, mais elle reste préoccupée à attester de la sécurité, de l’authenticité et des fonctionnalités générales du connecteur de qualité d’appel Microsoft.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il si lent par rapport à bord avancée dans le navigateur ? Que puis-je faire pour améliorer les performances ?
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il si lent par rapport à bord avancée dans le navigateur ? Que puis-je faire pour améliorer les performances ?
 
 La performance des requêtes pour les différents modèles est en fait identique dans le navigateur et dans le connecteur. La différence intervient dans le nombre de requêtes simultanées exécutées. Dans la mesure où la version dans le navigateur de bord avait des options de visualisation moins bien développées et à forte densité d’information, la plupart de nos rapports étaient limités au chargement de requêtes 2-3 à la fois. En revanche, les modèles de connecteur affichent souvent 20 requêtes simultanées. Si vous souhaitez générer des rapports qui sont aussi réactifs que les plus anciens, essayez de créer des rapports sans utiliser les requêtes 2-3 par onglet.
 
@@ -170,6 +170,8 @@ La limite de 10 000 ligne est en fait spécifiée à la fin de l’API, et elle 
 
 Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est préférable de restructurer vos rapports conformément aux meilleures pratiques en matière de connecteurs. Les modèles que nous avons inclus sont conçus pour illustrer ces bonnes pratiques. Dans la mesure du possible, commencez par examiner vos indicateurs de performance clés à l’aide de dimensions plus grandes et de cardinalité, telles que le mois, l’année, la date, la région, le pays, etc. À partir de là, vous pouvez effectuer des recherches dans les dimensions de plus en plus élevées. Les rapports d’assistance technique et de localisation sont des exemples de bon déroulement du flux de travail exploration.
 
-## <a name="related-topics"></a>Voir aussi
+
+
+## <a name="related-topics"></a>Sujets associés
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)

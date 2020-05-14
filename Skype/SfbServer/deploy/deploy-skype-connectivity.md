@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment connecter Skype entreprise Server à Skype client. Également appelée connectivité Skype.'
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780063"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219744"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déploiement de la connectivité Skype dans Skype entreprise Server
 
@@ -73,13 +73,13 @@ Le tableau suivant décrit la prise en charge de la recherche dans l’annuaire 
 > [!NOTE]
 > Skype entreprise Server limite les demandes entrantes, s’il y a trop de demandes en attente dans la file d’attente. 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Déploiement de la connectivité Skype pour Skype entreprise Online dans Office 365
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Déploiement de la connectivité Skype pour Skype entreprise Online
 
-La connectivité Skype est également une fonctionnalité de Skype entreprise Online, qui fait partie d’Office 365. Vous pouvez activer la fonctionnalité de connectivité Skype à partir du centre d’administration Skype entreprise dans le centre d’administration 365 de Microsoft.
+La connectivité Skype est également une fonctionnalité de Skype entreprise Online, qui fait partie de Microsoft 365 et Office 365. Vous pouvez activer la fonctionnalité de connectivité Skype à partir du centre d’administration Skype entreprise dans le centre d’administration 365 de Microsoft.
   
-Pour Office 365 moyenne entreprise, Office 365 entreprise, Office 365 éducation et Office 365 pour le gouvernement : Connectez-vous au centre d’administration de Microsoft 365 et accédez au centre d’administration Skype entreprise. Accédez à communications externes. Sous fournisseurs de services de messagerie instantanée publics, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à la connectivité Skype, vous pouvez modifier les paramètres de communications externes des utilisateurs individuels.
+Pour Microsoft 365 Midmarket Business, Office 365 Enterprise, Microsoft 365 Education et Office 365 pour le gouvernement : Connectez-vous au centre d’administration de Microsoft 365 et accédez au centre d’administration Skype entreprise. Accédez à communications externes. Sous fournisseurs de services de messagerie instantanée publics, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à la connectivité Skype, vous pouvez modifier les paramètres de communications externes des utilisateurs individuels.
   
-Pour Office 365 petite entreprise Premium : Connectez-vous à Office 365 et accédez à paramètres \> \> du service d’administration messagerie instantanée, réunions et conférences. Activer les communications externes. Le commutateur communications externes active la connectivité Skype et les communications avec d’autres organisations qui utilisent Skype entreprise.
+Pour Office 365 petite entreprise Premium : Connectez-vous à Office 365 et accédez à paramètres du service d’administration \> \> messagerie instantanée, réunions et conférences. Activer les communications externes. Le commutateur communications externes active la connectivité Skype et les communications avec d’autres organisations qui utilisent Skype entreprise.
   
 Pour plus d’informations sur l’administration de Skype entreprise Online, voir :
   
@@ -109,12 +109,12 @@ La communication entre tout déploiement Skype entreprise local et les utilisate
   
 Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’il héberge. Des conseils sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit être résolu par une requête SRV DNS en un nom de domaine complet de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
 
-|**Noms de domaine complets valides**|**Commentaire**|
+|**Noms de domaine complets valides**|**Comment**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |Dans chaque cas, le nom de domaine complet exact doit figurer dans le SN ou le SAN du certificat externe installé sur le serveur Edge.   |
 |access.contoso.com   ||
-|**Noms de domaine complets incorrects**|**Raison**|
+|**Noms de domaine complets incorrects**|**Reason**|
 |sip.contoso-edge.com   |Pas de correspondance de suffixe.  |
 |sip.it.contoso.com   |Pas de correspondance de suffixe de niveau supérieur.   |
 
@@ -221,7 +221,7 @@ La configuration de la connectivité Skype peut également être réalisée à l
 Le tableau suivant décrit l’état de l’interopérabilité entre la dernière version de Skype Consumer et la dernière version de Skype entreprise.
   
 
-|**Clients Skype**|**Ajouter des contacts, de la messagerie instantanée, de la présence, de l’audio et de la vidéo**|**Commentaire**|
+|**Clients Skype**|**Ajouter des contacts, de la messagerie instantanée, de la présence, de l’audio et de la vidéo**|**Comment**|
 |:-----|:-----|:-----|
 |Bureau Skype Windows  <br/> |7,6 ou supérieur, Windows XP et versions ultérieures  <br/> |**Nouveauté**: prise en charge ajoutée pour le client Skype Windows exécuté sur Windows XP et Windows Vista **(nécessite la dernière version 7,26 ou supérieure du client)** <br/> |
 |Skype mobile-téléphone Android et tablette  <br/> |6,19 ou version ultérieure, exécutant le système d’exploitation Android version 4.0.3 ou supérieure  <br/> |Les périphériques à faible spécification ne prennent pas en charge les appels vidéo  <br/> |
@@ -245,6 +245,5 @@ Le tableau suivant décrit l’état de l’interopérabilité entre la dernièr
 |Lync Mac 2011  <br/> |Possibilité d’ajouter (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2010  <br/> |Possibilité d’ajouter (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
+|Lync Attendant  <br/> |N/A  <br/> |S/O  <br/> |
    
-

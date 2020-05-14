@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique Configuring Cloud vocaux.
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210630"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221284"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud pour vos utilisateurs locaux. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique [configurer le service de messagerie vocale Cloud](configure-cloud-voicemail.md).
 
@@ -31,7 +31,7 @@ La messagerie vocale Cloud prend la place de la messagerie unifiée Exchange pou
 
 - Accès à la messagerie vocale dans la boîte aux lettres Exchange de l’utilisateur à l’aide des clients Skype entreprise Online ou Outlook
 
-- Possibilité d’utiliser le portail Web Office 365 pour gérer les options de messagerie vocale
+- Possibilité d’utiliser le centre d’administration Microsoft 365 pour gérer les options de messagerie vocale
 
 - Prise en charge des boîtes aux lettres Exchange sur site ou dans le Cloud
 
@@ -46,7 +46,7 @@ Avec la messagerie vocale Cloud, vos tâches d’administration sont grandement 
 - Il n’est pas nécessaire de configurer le rôle de messagerie unifiée Exchange.
 - Les tâches de configuration de la messagerie vocale Cloud sont plus simples.
 - Les mises à jour de la fonctionnalité de messagerie vocale sont fournies directement dans le Cloud, de sorte que vos utilisateurs ont toujours accès aux fonctionnalités et mises à jour les plus récentes avec une dépendance moindre sur les mises à jour cumulatives (CUs).
-- Vous disposez du même ensemble de contrôles pour les boîtes aux lettres Exchange locales et en ligne. Pour plus d’informations sur ces contrôles, consultez la rubrique [configurer la messagerie vocale du système téléphonique](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- Vous disposez du même ensemble de contrôles pour les boîtes aux lettres Exchange locales et en ligne. Pour plus d’informations sur ces contrôles, consultez la rubrique [configurer la messagerie vocale du système téléphonique](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d).
 
 Le diagramme suivant montre la messagerie vocale dans le Cloud dans un déploiement hybride :
 
@@ -73,7 +73,7 @@ En plus de la configuration requise ci-dessus, les conditions suivantes doivent 
 
 - Connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer la messagerie vocale Cloud pour vos utilisateurs sur site, vous devez vous assurer que la connectivité hybride est configurée entre votre environnement local et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
 
-   Pour plus d’informations, voir [planifier une connectivité hybride entre Skype entreprise Server et office 365](plan-hybrid-connectivity.md) et [configurer la connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
+   Pour plus d’informations, reportez-vous à [plan Hybrid Connectivity between Skype for Business Server et Microsoft 365 ou office 365](plan-hybrid-connectivity.md) et configuration de la [connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
 
 - Les utilisateurs locaux doivent être activés pour voix entreprise et messagerie vocale hébergée dans Skype entreprise Server.
 

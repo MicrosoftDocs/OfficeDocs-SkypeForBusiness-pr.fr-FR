@@ -19,46 +19,46 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
-description: Trouvez des informations sur Skype entreprise, version Cloud Connector, un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC sur site avec le système téléphonique dans Office 365 (Cloud PBX).
-ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Trouvez des informations sur Skype entreprise, version Cloud Connector, un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC locale avec un système téléphonique (PBX Cloud).
+ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779260"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220084"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification de Skype entreprise, version Cloud Connector
 
-Trouvez des informations sur Skype entreprise, version Cloud Connector, un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC sur site avec le système téléphonique dans Office 365 (Cloud PBX).
+Trouvez des informations sur Skype entreprise, version Cloud Connector, un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC locale avec un système téléphonique (PBX Cloud).
 
-La version de Cloud Connector peut être la bonne solution pour votre organisation si vous n’avez pas déjà un déploiement Lync Server ou Skype entreprise Server existant. Si vous recherchez toujours quel système téléphonique dans la solution Office 365 est approprié pour votre entreprise, consultez la rubrique [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+La version de Cloud Connector peut être la bonne solution pour votre organisation si vous n’avez pas déjà un déploiement Lync Server ou Skype entreprise Server existant. Si vous recherchez toujours la solution de système téléphonique la plus adaptée à votre entreprise, consultez la rubrique [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Ce document décrit la configuration requise pour la version Cloud Connector et les topologies prises en charge, et vous aide à planifier le déploiement de la version Cloud Connector. Veillez à lire cette rubrique avant de configurer votre environnement Cloud Connector. Lorsque vous êtes prêt à déployer et configurer la version Cloud Connector, reportez-vous à la rubrique [configure and Manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
-La version 2,1 de Cloud Connector est désormais disponible. Si vous n’avez pas encore effectué la mise à niveau vers 2,1, consultez [la rubrique Upgrade to a New version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). Vous trouverez le fichier d’installation à [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)l’adresse.
+La version 2,1 de Cloud Connector est désormais disponible. Si vous n’avez pas encore effectué la mise à niveau vers 2,1, consultez [la rubrique Upgrade to a New version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). Vous trouverez le fichier d’installation à l’adresse [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) .
 
 > [!NOTE]
 > Microsoft prend en charge la version précédente de Cloud Connector Edition pendant 60 jours après la publication d’une nouvelle version. Microsoft prendra en charge la version 2.0.1 pendant 60 jours après la publication de 2,1 pour vous laisser le temps de mettre à niveau. Toutes les versions antérieures à 2.0.1 ne sont plus prises en charge.
 
-La version Cloud Connector est une offre hybride composée d’un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC sur site avec le système téléphonique dans Office 365. En déployant une topologie Skype entreprise Server minimale dans un environnement virtualisé, les utilisateurs de votre organisation qui sont hébergés dans le Cloud peuvent recevoir des services PBX du Cloud Microsoft, mais la connectivité PSTN est assurée via l’infrastructure vocale locale existante.
+La version Cloud Connector est une offre hybride composée d’un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC locale avec un système téléphonique. En déployant une topologie Skype entreprise Server minimale dans un environnement virtualisé, les utilisateurs de votre organisation qui sont hébergés dans le Cloud peuvent recevoir des services PBX du Cloud Microsoft, mais la connectivité PSTN est assurée via l’infrastructure vocale locale existante.
 
 ![Diagramme de topologie montrant la passerelle PBX Cloud Connecting Cloud PBX à un déploiement local de Skype entreprise.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-Dans la mesure où Cloud Connector vous permet d’intégrer le système téléphonique dans les services Office 365 à votre environnement de téléphonie existant (par exemple, PBX, appareils analogiques et centres d’appels), vous pouvez implémenter une migration progressive de votre solution de téléphonie existante vers le système téléphonique dans Office 365.
+Dans la mesure où Cloud Connector vous permet d’intégrer des services de système téléphonique à votre environnement de téléphonie existant (par exemple, PBX, appareils analogiques et centres d’appels), vous pouvez implémenter une migration progressive de votre solution de téléphonie existante vers le système téléphonique.
 
-Par exemple, supposons que votre entreprise dispose d’un centre d’appels sophistiqué avec une fonctionnalité spécifique que le système téléphonique dans Office 365 ne fournit pas. Vous pouvez choisir de laisser les utilisateurs du centre d’appels avec la solution existante, mais déplacer les autres utilisateurs vers le système téléphonique dans Office 365.
+Par exemple, supposons que votre entreprise dispose d’un centre d’appels sophistiqué avec une fonctionnalité spécifique que le système téléphonique ne fournit pas. Vous pouvez choisir de laisser les utilisateurs du centre d’appels avec la solution existante, mais déplacer les autres utilisateurs vers le système téléphonique.
 
-Cloud Connector fournira le routage entre les utilisateurs hébergés sur site et en ligne, et vous pouvez choisir d’utiliser votre propre fournisseur PSTN avec le système téléphonique dans Office 365.
+Cloud Connector fournira le routage entre les utilisateurs hébergés sur site et en ligne, et vous pouvez choisir d’utiliser votre propre fournisseur PSTN avec le système téléphonique.
 
 Tenez compte des éléments suivants lors de la planification du déploiement de Cloud Connector Edition :
 
-- Pour utiliser Cloud Connector afin de tirer parti des solutions vocales Cloud, vous devez vous inscrire pour une organisation Office 365 qui inclut le système téléphonique dans Office 365. Si vous ne disposez pas encore d’une organisation Office 365, vous pouvez apprendre à vous inscrire ici : [Office 365 pour les entreprises](https://products.office.com/business/office). Notez que vous devez vous inscrire pour obtenir un plan qui inclut Skype entreprise online.
+- Pour utiliser Cloud Connector afin de tirer parti des solutions vocales Cloud, vous devez vous inscrire pour une organisation Microsoft 365 ou Office 365 qui inclut le système téléphonique. Si vous n’avez pas encore d’organisation Microsoft 365 ou Office 365, vous pouvez apprendre à vous inscrire ici : [Microsoft 365 pour les entreprises](https://products.office.com/business/office). Notez que vous devez vous inscrire pour obtenir un plan qui inclut Skype entreprise online.
 
-- Pour enregistrer des appliances Cloud Connector avec le service Skype entreprise Online et pour exécuter différentes cmdlets, Cloud Connector 2,0 et versions ultérieures nécessite un compte Office 365 dédié avec les droits d’administrateur client Skype entreprise. Les versions de Cloud Connector antérieures à 2,0 requièrent un compte Office 365 dédié avec des droits d’administrateur général de client.
+- Pour enregistrer des appliances Cloud Connector avec le service Skype entreprise Online et pour exécuter différentes cmdlets, Cloud Connector 2,0 et versions ultérieures nécessite un compte Microsoft 365 ou Office 365 dédié avec les droits d’administrateur client Skype entreprise. Les versions de Cloud Connector antérieures à 2,0 requièrent un compte Microsoft 365 ou Office 365 dédié avec des droits d’administrateur général client.
 
 - Cloud Connector ne nécessite pas un déploiement complet de Skype entreprise Server.
 
-    Actuellement, Cloud Connector ne peut pas coexister avec les serveurs locaux de Lync ou de Skype entreprise. Si vous souhaitez déplacer des utilisateurs Lync ou Skype entreprise existants vers Office 365 et continuer à fournir une téléphonie locale à vos utilisateurs, envisagez le système téléphonique dans Office 365 avec une connectivité locale à l’aide d’un déploiement Skype entreprise Server existant. Pour plus d’informations, reportez-vous à [la rubrique planification de votre système téléphonique dans office 365 (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md) et [plan Phone system in Office 365 avec une connectivité RTC locale dans Skype entreprise Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Actuellement, Cloud Connector ne peut pas coexister avec les serveurs locaux de Lync ou de Skype entreprise. Si vous souhaitez déplacer des utilisateurs Lync ou Skype entreprise existants vers Microsoft 365 et continuer à fournir une téléphonie locale à vos utilisateurs, envisagez le système téléphonique avec une connectivité locale à l’aide d’un déploiement Skype entreprise Server existant. Pour plus d’informations, reportez-vous à [la rubrique plan Your Phone System (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md) et [plan Phone System with on-premises RTC Connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - Si vous disposiez d’un déploiement Skype entreprise ou Lync Server précédent et que vous avez étendu le schéma, il n’est pas nécessaire de nettoyer le schéma pour le déploiement de Cloud Connector, tant que vous avez supprimé tous les composants Skype entreprise ou Lync Server de votre environnement.
 
@@ -101,7 +101,7 @@ Cette rubrique comprend les sections suivantes :
 ## <a name="cloud-connector-edition-components"></a>Composants de Cloud Connector
 <a name="BKMK_Components"> </a>
 
-Avec la version Cloud Connector, vous déployez un ensemble de machines virtuelles qui contiennent une topologie Skype entreprise Server minimale, constituée d’un composant Edge, d’un composant de médiation et d’un rôle de magasin central de gestion (CMS). Vous allez également installer un contrôleur de domaine, qui est requis pour le fonctionnement interne de Cloud Connector. Ces services sont configurés pour un environnement hybride avec votre organisation Office 365 qui inclut des services Skype entreprise online.
+Avec la version Cloud Connector, vous déployez un ensemble de machines virtuelles qui contiennent une topologie Skype entreprise Server minimale, constituée d’un composant Edge, d’un composant de médiation et d’un rôle de magasin central de gestion (CMS). Vous allez également installer un contrôleur de domaine, qui est requis pour le fonctionnement interne de Cloud Connector. Ces services sont configurés pour un environnement hybride avec votre organisation Microsoft 365 ou Office 365 qui inclut les services Skype entreprise online.
 
 ![Composants de Cloud Connector](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -189,13 +189,13 @@ Le diagramme suivant illustre une seule Appliance Cloud Connector Edition dans u
 
 - À des fins de planification de la capacité, vous devez envisager la possibilité de gérer la charge si un ou plusieurs connecteurs Cloud passent en mode hors connexion, en fonction des calculs suivants :
 
-  - **Cases N + 1.** Pour la plus grande version de Cloud Connector, les cases N + 1\*prennent en charge 500 N appels simultanés avec une disponibilité de 99,8%.
+  - **Cases N + 1.** Pour la plus grande version de Cloud Connector, les cases N + 1 prennent en charge 500 \* N appels simultanés avec une disponibilité de 99,8%.
 
-    Pour la version réduite de Cloud Connector, les cases N + 1 prennent\*en charge 50 N appels simultanés avec une disponibilité de 99,8%.
+    Pour la version réduite de Cloud Connector, les cases N + 1 prennent en charge 50 \* N appels simultanés avec une disponibilité de 99,8%.
 
-  - **Cases N + 2.** Pour la plus grande version de Cloud Connector, les cases N + 2\*prennent en charge 500 N appels simultanés avec une disponibilité de 99,9%.
+  - **Cases N + 2.** Pour la plus grande version de Cloud Connector, les cases N + 2 prennent en charge 500 \* N appels simultanés avec une disponibilité de 99,9%.
 
-    Pour la version réduite de Cloud Connector, les cases N + 2 prennent\*en charge 50 N appels simultanés avec une disponibilité de 99,9%.
+    Pour la version réduite de Cloud Connector, les cases N + 2 prennent en charge 50 \* N appels simultanés avec une disponibilité de 99,9%.
 
 ![Deux connecteurs Cloud dans un site RTC](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
@@ -242,13 +242,13 @@ Avant de déployer la version Cloud Connector, vérifiez que vous disposez des �
 
 - Si un serveur proxy est requis sur l’ordinateur hôte pour la navigation sur Internet, vous devez effectuer les modifications de configuration suivantes :
 
-  - Pour contourner le proxy, spécifiez les paramètres de proxy WinHTTP définis avec votre serveur proxy et une liste de contournement incluant le «192.168.213. \*«réseau utilisé par les services de gestion de Cloud Connector et le sous-réseau de Skype entreprise corpnet tel que défini dans votre fichier CloudConnector. ini. Dans le cas contraire, la connectivité de gestion échoue et empêche le déploiement et la récupération automatique de Cloud Connector. Voici un exemple de commande de configuration WinHTTP : netsh WinHTTP Set proxy "10.10.10.175:8080" Bypass-List = "\*. local ; 1. \*; 172,20. \*; 192.168.218. \*«\<local\>».
+  - Pour contourner le proxy, spécifiez les paramètres de proxy WinHTTP définis avec votre serveur proxy et une liste de contournement incluant le « 192.168.213 \* ». réseau utilisé par les services de gestion de Cloud Connector et le sous-réseau de Skype entreprise corpnet tel que défini dans votre fichier CloudConnector. ini. Dans le cas contraire, la connectivité de gestion échoue et empêche le déploiement et la récupération automatique de Cloud Connector. Voici un exemple de commande de configuration WinHTTP : netsh WinHTTP Set proxy "10.10.10.175:8080" Bypass-List = " \* . local ; 1. \* ; 172,20. \* ; 192.168.218. \* ' \< local \> ».
 
   - Spécifiez les paramètres de proxy par ordinateur et non par utilisateur. Sinon, les téléchargements Cloud Connector échouent. Vous pouvez spécifier les paramètres de proxy par ordinateur à l’aide d’une modification du registre ou du paramètre de stratégie de groupe comme suit :
 
   - **Registre :** Paramètres de la HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet] ProxySettingsPerUser DWORD : 00000000
 
-  - **Stratégie de groupe :** Modèles\>\>d’administration ordinateur composants\> Windows Internet Explorer : paramètres de proxy par ordinateur (plutôt que par utilisateur)
+  - **Stratégie de groupe :** \>Modèles d’administration ordinateur \> composants Windows \> Internet Explorer : paramètres de proxy par ordinateur (plutôt que par utilisateur)
 
 - PBX/jonction ou liaison SBC/passerelle qualifiée (un minimum de deux passerelles est recommandé).
 
@@ -260,12 +260,12 @@ Avant de déployer la version Cloud Connector, vérifiez que vous disposez des �
 
 - Les enregistrements DNS externes, qui sont définis dans le fichier CloudConnector. ini inclus dans le package d’installation :
 
-  - Enregistrement DNS externe pour le service Edge d’accès du composant Edge ; par exemple, AP.\<Domain Name\>. Vous avez besoin d’un enregistrement par site RTC. Cet enregistrement doit contenir les adresses IP de tous les Edges de ce site.
+  - Enregistrement DNS externe pour le service Edge d’accès du composant Edge ; par exemple, AP. \< Nom de domaine \> . Vous avez besoin d’un enregistrement par site RTC. Cet enregistrement doit contenir les adresses IP de tous les Edges de ce site.
 
-- Une organisation Office 365 avec tous les enregistrements DNS et SRV requis créés.
+- Une organisation Microsoft 365 ou Office 365 avec tous les enregistrements DNS et SRV requis créés.
 
     > [!IMPORTANT]
-    > Lorsque vous intégrez votre client à Cloud Connector Edition, l’utilisation du suffixe de domaine par défaut,. onmicrosoft.com, en tant que domaine SIP pour votre organisation, n’est pas prise en charge. > vous ne pouvez pas utiliser SIP. \<Nom\> de domaine en tant que nom de votre interface de proxy d’accès Edge de Cloud Connector car cet enregistrement DNS est utilisé par Office 365.
+    > Lorsque vous intégrez votre client à Cloud Connector Edition, l’utilisation du suffixe de domaine par défaut,. onmicrosoft.com, en tant que domaine SIP pour votre organisation, n’est pas prise en charge. > vous ne pouvez pas utiliser SIP. \< Nom \> de domaine en tant que nom de votre interface de proxy d’accès Edge de Cloud Connector car cet enregistrement DNS est utilisé par Microsoft 365 et Office 365.
 
 - Un certificat pour le serveur Edge externe obtenu auprès d’une autorité de certification publique (CA).
 
@@ -275,7 +275,7 @@ Avant de déployer la version Cloud Connector, vérifiez que vous disposez des �
 
 - Un module client PowerShell distant installé sur l’ordinateur hôte.
 
-- Les informations d’identification de l’administrateur Office 365 Skype entreprise pour exécuter PowerShell à distance.
+- Les informations d’identification de l’administrateur Skype entreprise pour exécuter PowerShell à distance.
 
     > [!IMPORTANT]
     > L’authentification multifacteur ne doit pas être activée pour le compte administrateur.
@@ -374,7 +374,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 Le tableau suivant indique les ports et les plages de ports permettant la communication entre le composant Edge de Cloud Connector et le pare-feu externe. Le tableau suivant présente une recommandation minimale.
 
-Dans ce cas, tout le trafic multimédia vers Internet passe par le serveur Edge en ligne comme suit : point de terminaison utilisateur\>--Online Edge\>--Cloud Connector Edge :
+Dans ce cas, tout le trafic multimédia vers Internet passe par le serveur Edge en ligne comme suit : point de terminaison utilisateur-- \> Online Edge-- \> Cloud Connector Edge :
 
 **Pare-feu externe-configuration minimale**
 
@@ -394,7 +394,7 @@ Dans ce cas, tout le trafic multimédia vers Internet passe par le serveur Edge 
 
 Le tableau suivant indique les ports et les plages de ports permettant la communication entre le composant Edge de Cloud Connector et le pare-feu externe. Ce tableau indique la solution recommandée.
 
-Dans ce cas, tout le trafic multimédia pour le point de terminaison sur Internet peut circuler directement vers le composant Edge de Cloud Connector. Le chemin d’accès aux médias est le point\> de terminaison utilisateur-serveur Edge de Cloud Connector.
+Dans ce cas, tout le trafic multimédia pour le point de terminaison sur Internet peut circuler directement vers le composant Edge de Cloud Connector. Le chemin d’accès aux médias est le point de terminaison utilisateur-serveur \> Edge de Cloud Connector.
 
 > [!NOTE]
 > Cette solution ne fonctionne pas si le point de terminaison de l’utilisateur se trouve derrière un NAT symétrique.
@@ -423,7 +423,7 @@ L’ordinateur hôte doit être en mesure de joindre des ressources externes pou
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |80, 443  <br/> |TCP  <br/> |Liste de révocation de certificats (CRL)  <br/> |
-|Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour de Cloud Connector  <br/> Skype Entreprise Online  <br/> PowerShell d’administration  <br/> Windows Update  <br/> |
+|Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour de Cloud Connector  <br/> Skype Entreprise Online  <br/> PowerShell d’administration  <br/> Windows Update  <br/> |
 
 Si des règles plus restrictives sont requises, reportez-vous aux URL de liste d’adresses autorisées suivantes :
 
@@ -431,20 +431,20 @@ Si des règles plus restrictives sont requises, reportez-vous aux URL de liste d
 
 - Windows Update : [procédure de configuration d’un pare-feu pour les mises à jour logicielles](https://technet.microsoft.com/library/bb693717.aspx)
 
-- Skype entreprise Online PowerShell admin : \*. online.Lync.com
+- Skype entreprise Online PowerShell admin : \* . online.Lync.com
 
     Si vous avez besoin d’une exclusion de proxy pour cette destination, vous devrez l’ajouter à la liste de contournement WinHTTP.
 
-- Mise à jour de Cloud Connector : [https://go.microsoft.com](https://go.microsoft.com)Centre de [Téléchargement](https://aka.ms/CloudConnectorInstaller), et[https://download.microsoft.com](https://download.microsoft.com)
+- Mise à jour de Cloud Connector : [Centre de téléchargement](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) et[https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>Résolution de noms DNS pour le composant Edge
 <a name="BKMB_Ports"> </a>
 
-Le composant Edge doit résoudre les noms externes des services Office 365 et les noms internes des autres composants de Cloud Connector.
+Le composant Edge doit résoudre les noms externes des services Microsoft 365 ou Office 365 et les noms internes des autres composants Cloud Connector.
 
 Chaque composant Edge est un ordinateur multi-hébergé avec des interfaces internes et externes. Cloud Connector déploie des serveurs DNS sur le composant de contrôleur de domaine dans le réseau de périmètre. Vous pouvez pointer le serveur Edge vers le serveur DNS dans le périmètre pour toutes les résolutions de noms, mais vous devez activer le serveur DNS Cloud Connector pour résoudre les noms externes en définissant une zone DNS contenant un ou plusieurs enregistrements A DNS pour les requêtes externes qui font référence à des recherches de noms sur d’autres serveurs DNS publics.
 
-Dans le fichier. ini, si vous définissez le nom de domaine complet pour les passerelles à partir du même espace de domaine que votre domaine SIP, la zone faisant autorité pour ce domaine SIP sera créée sur le serveur DNS dans le périmètre. Si le serveur Edge pointe vers ce serveur DNS pour résoudre les noms, Edge ne résoudra jamais le _sipfederationtls. \<enregistrement\> DNS votre_domaine, qui est requis pour le flux d’appels. Dans ce cas, Microsoft vous recommande de fournir un serveur DNS sur l’interface externe de serveur Edge pour résoudre les recherches de noms Internet, et chaque composant Edge doit utiliser un fichier hôte pour résoudre les autres noms de composants Cloud Connector en adresses IP.
+Dans le fichier. ini, si vous définissez le nom de domaine complet pour les passerelles à partir du même espace de domaine que votre domaine SIP, la zone faisant autorité pour ce domaine SIP sera créée sur le serveur DNS dans le périmètre. Si le serveur Edge pointe vers ce serveur DNS pour résoudre les noms, Edge ne résoudra jamais le _sipfederationtls. \< \>enregistrement DNS votre_domaine, qui est requis pour le flux d’appels. Dans ce cas, Microsoft vous recommande de fournir un serveur DNS sur l’interface externe de serveur Edge pour résoudre les recherches de noms Internet, et chaque composant Edge doit utiliser un fichier hôte pour résoudre les autres noms de composants Cloud Connector en adresses IP.
 
 > [!NOTE]
 > Pour des raisons de sécurité, nous vous recommandons de ne pas faire pointer le serveur DNS Cloud Connector vers les serveurs internes dans le domaine de production pour la résolution de noms.
@@ -479,8 +479,8 @@ Module Pour limiter les numéros d’appels sortants, mettez à jour la valeur L
 |Nom de domaine de l’ordinateur virtuel  <br/> |Nom de domaine pour les composants internes de Cloud Connector. Ce domaine doit être différent du domaine de production. Le nom doit être le même pour toutes les appliances Cloud Connector.  <br/> Nom dans le fichier. ini : « VirtualMachineDomain »  <br/> |le domaine. local est préféré.  <br/> |
 |Nom du contrôleur de domaine Cloud Connector  <br/> |Nom du contrôleur de domaine.  <br/> Nom dans le fichier. ini : « ServerName »  <br/> |Cette valeur doit être inférieure ou égale à 15 caractères. Entrez le nom NetBIOS uniquement.  <br/> |
 |IP/masque de sous-réseau du contrôleur de domaine Cloud Connector  <br/> |Adresse IP du contrôleur de domaine.  <br/> Nom dans le fichier. ini : « IP »  <br/> ||
-|Noms de domaine complets du service O365 Online  <br/> |Doit être la valeur par défaut dans la plupart des cas pour l’instance O365 internationale.  <br/> Nom dans le fichier. ini : « OnlineSipFederationFqdn »  <br/> ||
-|SiteName  <br/> |Nom du site Skype entreprise ; par exemple, Seattle.  <br/> Nom dans le fichier. ini : « SiteName »  <br/> Pour la version 1.4.1 et les versions ultérieures, le nom du site doit être différent pour chaque site et le nom doit correspondre au site PSTN, s’il existe, défini dans Office 365. Notez que les sites RTC seront automatiquement créés lors de l’inscription de la première Appliance dans un site.  <br/> ||
+|FQDN du service Microsoft 365 ou Office 365 Online  <br/> |Doit être la valeur par défaut dans la plupart des cas pour l’instance Microsoft 365 ou Office 365 internationale.  <br/> Nom dans le fichier. ini : « OnlineSipFederationFqdn »  <br/> ||
+|SiteName  <br/> |Nom du site Skype entreprise ; par exemple, Seattle.  <br/> Nom dans le fichier. ini : « SiteName »  <br/> Pour la version 1.4.1 et les versions ultérieures, le nom du site doit être différent pour chaque site et le nom doit correspondre au site PSTN, s’il existe, défini dans Microsoft 365 ou Office 365. Notez que les sites RTC seront automatiquement créés lors de l’inscription de la première Appliance dans un site.  <br/> ||
 |HardwareType  <br/> Version 1.4.1 et versions ultérieures  <br/> |Type de matériel. La valeur par défaut est Normal. Vous pouvez également définir sur minimum.  <br/> ||
 |Country Code  <br/> |Indicatif du pays pour la numérotation.  <br/> Nom dans le fichier. ini : « CountryCode »  <br/> ||
 |Ville  <br/> |Ville (facultatif).  <br/> Nom dans le fichier. ini : « City »  <br/> ||
@@ -511,8 +511,8 @@ Module Pour limiter les numéros d’appels sortants, mettez à jour la valeur L
 |Nom du relais multimédia  <br/> |Nom du serveur Edge vidéo relais audio ; par exemple, m. Un nom de pool externe sera utilisé pour tous les composants Edge d’un pool. Un pool de serveur relais multimédia Edge est requis par site RTC.  <br/> Nom dans le fichier. ini : « ExternalMRFQDNPoolName » sous « parameters for a pool of Edge Servers »  <br/> |Cette valeur doit être inférieure ou égale à 15 caractères. Entrez le nom NetBIOS uniquement.  <br/> |
 |IP externe du serveur Edge du serveur relais multimédia  <br/> |Actuellement, une seule adresse IP est prise en charge, de sorte qu’il s’agit de la même adresse IP que le serveur Edge d’accès, public ou IP mappé (spécifiez les deux adresses si elles sont mappées). Il peut s’agir de l’adresse IP externe du serveur Edge d’accès. Remarque Si le serveur Edge est derrière NAT, vous devez également spécifier la valeur du paramètre Next.  <br/> Nom dans le fichier. ini : « Externalmrip » sous « parameters for a pool of Edge Servers »  <br/> ||
 |Adresse IP externe du serveur Edge relais multimédia (si le serveur Edge est derrière NAT)  <br/> |Si votre serveur Edge est derrière NAT, vous devez également spécifier l’adresse publique du périphérique NAT.  <br/> Nom dans le fichier. ini : « ExternalMRPublicIPs » sous « parameters for a pool of Edge Servers »  <br/> ||
-|Marque et modèle de la passerelle vocale 1  <br/> |Spécifiez la marque et le modèle de la passerelle SBC/voix. Notez que vous pouvez connecter un périphérique ou une jonction SIP à partir de la liste des [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)appareils testés à l’adresse.  <br/> ||
-|Marque et modèle de la passerelle vocale 2 (copiez cette ligne si votre installation comporte plus de 2 passerelles)  <br/> |Spécifiez la marque et le modèle de la passerelle vocale. Notez que vous pouvez connecter un périphérique à partir de la liste des appareils [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)testés à l’adresse.  <br/> ||
+|Marque et modèle de la passerelle vocale 1  <br/> |Spécifiez la marque et le modèle de la passerelle SBC/voix. Notez que vous pouvez connecter un périphérique ou une jonction SIP à partir de la liste des appareils testés à l’adresse [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) .  <br/> ||
+|Marque et modèle de la passerelle vocale 2 (copiez cette ligne si votre installation comporte plus de 2 passerelles)  <br/> |Spécifiez la marque et le modèle de la passerelle vocale. Notez que vous pouvez connecter un périphérique à partir de la liste des appareils testés à l’adresse [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) .  <br/> ||
 |Nom de la passerelle vocale 1  <br/> |Permet de générer le nom de domaine complet de l’ordinateur avec le domaine AD. Obligatoire si TLS est utilisé entre le composant de médiation et la passerelle vocale. Si vous ne prévoyez pas d’utiliser le nom de domaine complet (par exemple, TLS n’est pas requis) ou si la passerelle vocale ne prend pas en charge la connexion à l’aide du nom de domaine complet (IP uniquement), indiquez.  <br/> ||
 |Nom de la passerelle vocale 2 (copiez cette ligne si votre installation comporte plus de 2 passerelles)  <br/> |Permet de générer le nom de domaine complet de l’ordinateur avec le domaine AD. Obligatoire si TLS est utilisé entre le composant de médiation et la passerelle vocale. Si vous ne prévoyez pas d’utiliser le nom de domaine complet (par exemple, TLS n’est pas requis) ou si la passerelle vocale ne prend pas en charge la connexion à l’aide du nom de domaine complet (IP uniquement), indiquez.  <br/> ||
 |Adresse IP de la passerelle vocale 1  <br/> |Adresse IP de la passerelle vocale.  <br/> ||
@@ -530,11 +530,11 @@ Module Pour limiter les numéros d’appels sortants, mettez à jour la valeur L
 |Mot de passe administrateur des ordinateurs virtuels  <br/> Version 1.4.2 uniquement  <br/> |Permet de configurer le réseau de gestion pendant le déploiement.  <br/> Le nom d’utilisateur est administrateur. Vous ne pouvez pas modifier le nom de l’utilisateur.  <br/> ||
 |CABackupFile  <br/> Version 2,0 et versions ultérieures  <br/> |Permet d’enregistrer le service d’autorité de certification à partir du serveur Active Directory vers un fichier lors du déploiement de plusieurs Appliances dans un site Cloud Connector. Veillez à utiliser le même mot de passe pour toutes les appliances sur un même site Cloud Connector afin d’importer le fichier de sauvegarde de l’autorité de certification vers le nouvel équipement ajouté.  <br/> ||
 |CCEService  <br/> Version 2,0 et versions ultérieures  <br/> |Utilisé pour le service de gestion de Cloud Connector ; doit accéder à l’annuaire de sites Cloud Connector. Veillez à utiliser le même mot de passe pour toutes les appliances sur un même site Cloud Connector.  <br/> ||
-|Administrateur client Office 365  <br/> | Le compte est utilisé par Cloud Connector pour mettre à jour et gérer les paramètres de client pour Cloud Connector : <br/>  Version 2,0 et versions ultérieures : informations d’identification pour un compte Office 365 dédié avec des droits d’administrateur de Skype entreprise. <br/>  Versions antérieures à 2,0 : informations d’identification pour un compte Office 365 dédié avec des droits d’administrateur client globaux. <br/> ||
+|Administrateur client Microsoft 365 ou Office 365  <br/> | Le compte est utilisé par Cloud Connector pour mettre à jour et gérer les paramètres de client pour Cloud Connector : <br/>  Version 2,0 et versions ultérieures : informations d’identification pour un compte Microsoft 365 ou Office 365 dédié avec des droits d’administrateur de Skype entreprise. <br/>  Versions antérieures à 2,0 : informations d’identification pour un compte Microsoft 365 ou Office 365 dédié avec des droits d’administrateur client globaux. <br/> ||
 |Activer la prise en charge de REFER  <br/> |Cela déterminera si la prise en charge de SIP REFER est activée ou désactivée sur la configuration de jonction vers votre IP/PBX. La valeur par défaut est True. Si votre passerelle IP/PBX prend en charge le support technique, conservez la valeur true. Si ce n’est pas le cas, cette valeur doit être remplacée par false. Si vous n’êtes pas certain que votre passerelle prend en charge REFER, veuillez consulter la rubrique [IP-PBX et passerelles qualifiés](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
 |EnableFastFailoverTimer  <br/> Version 2,0 et versions ultérieures  <br/> |Avec la valeur par défaut « true », si la passerelle ne répond pas aux appels sortants dans un délai de 10 secondes, ils seront routés vers la passerelle disponible suivante ; s’il n’y a pas de jonctions supplémentaires, l’appel sera automatiquement abandonné.  <br/> Toutefois, dans une organisation dont les réseaux et les réponses de passerelle sont lents, ou lorsque le processus d’établissement des appels prend plus de 10 secondes, cela peut entraîner l’abandon inutile des appels.  <br/> Lorsque vous effectuez des appels vers certains pays, par exemple l’Émirats Arabes Unis ou l’Afghanistan, le processus de mise en place de l’appel peut prendre plus de 10 secondes. Vous devrez modifier la valeur sur false si vous rencontrez des problèmes similaires. N’oubliez pas de modifier le paramètre correspondant sur l’SBC ou la passerelle connecté.  <br/> La valeur peut être true ou false. La valeur par défaut est True.  <br/> ||
 |ForwardCallHistory  <br/> Version 2,0 et versions ultérieures  <br/> | Ce paramètre est utilisé pour activer les en-têtes SIP utilisés pour signaler l’appelant initial dans les scénarios de sonnerie simultanée, de transfert d’appel et de transfert d’appel. Si le paramètre est défini sur true, deux en-têtes SIP sont activés : <br/>  Historique-informations <br/>  Référencé par <br/>  L’en-tête History-Info est utilisé pour recibler les demandes SIP et « fournir (s) » un mécanisme standard pour capturer les informations d’historique des requêtes afin d’activer un large éventail de services pour les réseaux et les utilisateurs finaux» ([RFC 4244-Section 1,1](http://www.ietf.org/rfc/rfc4244.txt)). Pour les interfaces de jonction Cloud Connector, cela est utilisé dans sonnerie simultanée et les scénarios de transfert d’appel.  <br/>  La valeur peut être true ou false. La valeur par défaut est False. <br/> ||
-|Transférer PAI  <br/> Version 2,0 et versions ultérieures  <br/> |PAI est une extension privée de SIP qui permet aux serveurs SIP d’affirmer l’identité des utilisateurs authentifiés. Pour le fournisseur de jonctions SIP, PAI peut être utilisé à des fins de facturation dans le cas où les en-têtes History-Info et expertisé-by sont absents. Lorsque le transfert P-asserted-Identity est activé dans la configuration, le serveur de médiation transfère les en &amp; -têtes PAI avec des URI de type SIP de Cloud Connector vers la jonction SIP. Le serveur de médiation transfère les en-têtes PAI avec les &amp; numéros E. 164 de l’URI tel uniquement sur la jonction SIP vers Cloud Connector. Le serveur de médiation transfère également tous les en-têtes de confidentialité reçus dans les deux sens. Si la demande SIP envoyée par le serveur de médiation inclut un en-tête de confidentialité du formulaire-« Privacy : ID » en combinaison avec l’en-tête PAI, l’identité affirmée doit rester privée en dehors du domaine d’approbation réseau.  <br/> La valeur peut être true ou false. La valeur par défaut est False.  <br/> ||
+|Transférer PAI  <br/> Version 2,0 et versions ultérieures  <br/> |PAI est une extension privée de SIP qui permet aux serveurs SIP d’affirmer l’identité des utilisateurs authentifiés. Pour le fournisseur de jonctions SIP, PAI peut être utilisé à des fins de facturation dans le cas où les en-têtes History-Info et expertisé-by sont absents. Lorsque le transfert P-asserted-Identity est activé dans la configuration, le serveur de médiation transfère les en-têtes PAI avec des URI de type SIP &amp; de Cloud Connector vers la jonction SIP. Le serveur de médiation transfère les en-têtes PAI avec les &amp; numéros E. 164 de l’URI tel uniquement sur la jonction SIP vers Cloud Connector. Le serveur de médiation transfère également tous les en-têtes de confidentialité reçus dans les deux sens. Si la demande SIP envoyée par le serveur de médiation inclut un en-tête de confidentialité du formulaire-« Privacy : ID » en combinaison avec l’en-tête PAI, l’identité affirmée doit rester privée en dehors du domaine d’approbation réseau.  <br/> La valeur peut être true ou false. La valeur par défaut est False.  <br/> ||
 
 ### <a name="certificate-requirements"></a>Spécifications des certificats
 <a name="BKMK_Certs"> </a>
@@ -550,14 +550,14 @@ Chaque composant Edge nécessite un certificat d’une autorité de certificatio
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
-- **Option 2.** Si vous souhaitez utiliser un seul certificat générique sur tous les serveurs de pool Edge que vous déployez, vous pouvez utiliser une entrée SAN générique \*de. sipdomain.com au lieu du nom du pool de serveurs Edge dans le certificat. Le nom du sujet peut être le nom du pool de serveurs Edge d’accès de l’un des pools de serveurs Edge que vous avez déployés :
+- **Option 2.** Si vous souhaitez utiliser un seul certificat générique sur tous les serveurs de pool Edge que vous déployez, vous pouvez utiliser une entrée SAN générique de \* . sipdomain.com au lieu du nom du pool de serveurs Edge dans le certificat. Le nom du sujet peut être le nom du pool de serveurs Edge d’accès de l’un des pools de serveurs Edge que vous avez déployés :
 
   ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
 > [!NOTE]
-> Vous ne devez pas créer une entrée DNS externe pour SIP. \<sipdomain\>. com, car ce nom appartient au déploiement d’Office 365.
+> Vous ne devez pas créer une entrée DNS externe pour SIP. \< sipdomain \> . com, car ce nom appartient au déploiement de Microsoft 365 ou Office 365.
 
 > [!NOTE]
 > Si vous souhaitez utiliser un certificat unique pour tous les pools de serveurs Edge déployés dans votre organisation et que vous ne pouvez pas utiliser un certificat de caractère générique tel que défini dans l’option 2, vous devez inclure le nom de domaine complet (FQDN) pour tous les pools de serveurs Edge déployés dans le nom de SAN du certificat.
@@ -573,7 +573,7 @@ Vous devrez ajouter sip.sipdomain.com pour chaque domaine SIP et le nom des pool
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- <strong>Option 2.</strong> Si vous souhaitez utiliser un seul certificat générique sur tous les serveurs de pool Edge que vous déployez, vous pouvez utiliser une entrée SAN générique \*de. sipdomain.com au lieu du nom du pool de serveurs Edge dans le certificat. Le nom du sujet peut être le nom du pool de serveurs Edge d’accès de l’un des pools de serveurs Edge que vous avez déployés :
+- <strong>Option 2.</strong> Si vous souhaitez utiliser un seul certificat générique sur tous les serveurs de pool Edge que vous déployez, vous pouvez utiliser une entrée SAN générique de \* . sipdomain.com au lieu du nom du pool de serveurs Edge dans le certificat. Le nom du sujet peut être le nom du pool de serveurs Edge d’accès de l’un des pools de serveurs Edge que vous avez déployés :
 
   ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
@@ -581,7 +581,7 @@ Vous devrez ajouter sip.sipdomain.com pour chaque domaine SIP et le nom des pool
   ```
 
 > [!NOTE]
-> Vous ne devez pas créer une entrée DNS externe pour SIP. \<sipdomain\>. com, car ce nom appartient au déploiement d’Office 365.
+> Vous ne devez pas créer une entrée DNS externe pour SIP. \< sipdomain \> . com, car ce nom appartient au déploiement de Microsoft 365 ou Office 365.
 
 À des fins de déploiement, vous pouvez utiliser le tableau suivant :
 
@@ -708,11 +708,11 @@ Cloud Connector 2,1 et versions ultérieures prend en charge la surveillance de 
 
 Pour plus d'informations, consultez les articles suivants :
 
-- [Solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuration et gestion de Skype entreprise, version Cloud Connector](configure-skype-for-business-cloud-connector-edition.md)
 
-- [Planification de la déviation du trafic multimédia dans Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Planifier le contournement de média dans Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [Déploiement de la déviation du trafic multimédia dans Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md)
 

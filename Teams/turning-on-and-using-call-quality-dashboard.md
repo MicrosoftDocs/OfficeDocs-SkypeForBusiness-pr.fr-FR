@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur l’activation et l’utilisation du tableau de bord de qualité des appels et obtenez des rapports de synthèse sur la qualité des appels.
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047388"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226011"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -37,7 +37,7 @@ Apprenez à configurer votre 365 ou Office 365 pour utiliser le tableau de bord 
   
 Le tableau de bord de qualité des appels (bord) vous permet d’obtenir des renseignements sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise online. Cette rubrique décrit la procédure de démarrage de la collecte de données que vous pouvez utiliser pour résoudre les problèmes de qualité d’appel.
 
-Pour l’instant, les fonctionnalités avancées bord et bord sont disponibles pour une utilisation. Advanced bord est disponible à <span>https://cqd.teams.microsoft.com</span>l’adresse. Nouvelle URL sauf si vous êtes connecté à l’aide de vos informations d’identification d’administrateur.
+Pour l’instant, les fonctionnalités avancées bord et bord sont disponibles pour une utilisation. Advanced bord est disponible à l’adresse <span>https://cqd.teams.microsoft.com</span> . Nouvelle URL sauf si vous êtes connecté à l’aide de vos informations d’identification d’administrateur.
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Affecter des rôles pour accéder à bord
 
@@ -148,9 +148,9 @@ Le paramètre de date URL peut désormais accepter un champ Day. Rapports d’un
 
 |URL| Date de fin de la tendance du jour de roulement|
 |:---|:---|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/2019-02/</span>   |Jour actuel en février 2019|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/2019-02-15/</span>|15 février 2019|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/00/</span>        |Jour actuel|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /2019-02/</span>   |Jour actuel en février 2019|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /2019-02-15/</span>|15 février 2019|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /00/</span>        |Jour actuel|
 |||
 
 Par défaut, le jour du mois actuel est utilisé comme dernier jour de la tendance du jour de roulement.
@@ -176,12 +176,12 @@ Vous pouvez ajouter plusieurs dates à partir de l’onglet emplacement, par exe
 
 Pour pouvoir commencer à utiliser bord, vous devez l’activer pour votre application Microsoft 365 ou Office 365 en procédant comme suit :
 
-![Icône montrant le logo](media/teams-logo-30x30.png) de Microsoft teams **à l’aide du centre d’administration Microsoft teams**
+![Icône montrant le logo de Microsoft teams ](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
 1. Pour ouvrir le centre d’administration, connectez-vous à votre compte Microsoft 365 ou Office 365 à l’aide du compte d’administrateur du service Microsoft Teams, puis sélectionnez la vignette **administrateur** .
 2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Microsoft teams** pour ouvrir le centre d’administration Microsoft Teams.
 3. Dans le centre d’administration de Microsoft Teams, sélectionnez **tableau de bord de qualité des appels** dans le volet gauche.
-4. Dans la page qui s' \(ouvre<span><span/>\), cliquez sur **se connecter** , puis entrez les informations de votre compte d’administrateur général ou d’administrateur du service Microsoft Teams.
+4. Dans la page qui s' \( ouvre <span> <span/> \) , cliquez sur **se connecter** , puis entrez les informations de votre compte d’administrateur général ou d’administrateur du service Microsoft Teams.
 
     ![Capture d’écran : affiche la demande d’informations d’identification](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ Après vous être connecté, une fois activé, le bord commence la collecte et l
 > [!NOTE]
 > Le traitement d’une quantité suffisante de données pour afficher des résultats significatifs dans les rapports risque de nécessiter une ou plusieurs heures.
 
-![Icône du logo](media/sfb-logo-30x30.png) Skype entreprise **avec le portail hérité Skype entreprise**
+![Icône du logo Skype entreprise ](media/sfb-logo-30x30.png) **avec le portail hérité Skype entreprise**
 
 1. Connectez-vous à votre compte Microsoft 365 ou Office 365 à l’aide d’un compte d’administrateur, puis sélectionnez la vignette **administrateur** pour ouvrir le centre d’administration.
 2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Microsoft teams** pour ouvrir le centre d’administration Microsoft Teams.
@@ -212,7 +212,7 @@ BORD-XX XXXXXXX XXXXXXX XXXXXXX XXXXXXX xxxxxxxxx XXXXXXXXX. Les différences en
 |:--- |:--- |:--- |
 |Métrique du partage d’application | Non | Oui |
 |Support des informations sur le bâtiment du client | Oui | Oui  |
-|Support technique des informations de point de terminaison client | Uniquement dans <span>CQD.Teams.Microsoft.com<span/> | Uniquement dans <span>CQD.Teams.Microsoft.com<span/> |
+|Support technique des informations de point de terminaison client | Uniquement dans <span> CQD.Teams.Microsoft.com<span/> | Uniquement dans <span> CQD.Teams.Microsoft.com<span/> |
 |Prise en charge de l’analyse approfondie   | Non   | Oui   |
 |Mesures de fiabilité des médias   | Non   | Oui   |
 |Rapports prêts à l’emploi   | Oui   | Oui    |
@@ -359,7 +359,7 @@ Le tableau de bord des rapports de synthèse de bord inclut une page de **télé
 
    - Un fichier de données doit être un fichier. TSV (valeurs séparées par des tabulations) ou un fichier. csv (valeurs séparées par des virgules). Dans un fichier. csv, les champs qui contiennent une virgule doivent être entourés de guillemets ou être supprimés. Par exemple, si le nom de votre bâtiment est NY, NY, entrez « NY, NY » dans le fichier. csv.
    - Le fichier de données ne doit pas dépasser 50 Mo.
-   - Les fichiers téléchargés sur cqd.teams.microsoft.com ont une limite de lignes développée de 1 million pour garantir une performance rapide des requêtes. Cette limite s’applique également à bord v2 sur<span></span>bord.<span></span>Lync. com.
+   - Les fichiers téléchargés sur cqd.teams.microsoft.com ont une limite de lignes développée de 1 million pour garantir une performance rapide des requêtes. Cette limite s’applique également à bord v2 sur bord <span></span> . Lync <span></span> . com.
    - Pour chaque fichier de données, chaque colonne du fichier doit correspondre à un type de données prédéfini, abordé plus loin dans cette rubrique.
 3. Ensuite, spécifiez une **Date de début** et, éventuellement, **Spécifiez une date de fin**.
 4. Enfin, sélectionnez **Télécharger** pour télécharger le fichier sur le serveur bord.
@@ -432,7 +432,7 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>Migrer des rapports à partir d’une version précédente de bord
 
-Si vous avez créé des rapports ou téléchargé des fichiers de données client (mappage) sur bord pour Skype entreprisehttps://cqd.lync.com) (et que vous voulez les migrer vers bordhttps://cqd.teams.microsoft.com)pour Teams (, procédez comme suit :
+Si vous avez créé des rapports ou téléchargé des fichiers de données client (mappage) sur bord pour Skype entreprise ( https://cqd.lync.com) et que vous voulez les migrer vers bord pour Teams ( https://cqd.teams.microsoft.com) , procédez comme suit :
 
 1.    Accédez à [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) l’ensemble de rapports que vous souhaitez exporter, puis recherchez-le. 
 2.    Placez le pointeur de la souris sur le rapport et, sur le « ... » , sélectionnez **exporter l’arborescence du rapport**. Enregistrez le fichier d’exportation.
@@ -445,7 +445,7 @@ Si vous avez créé des rapports ou téléchargé des fichiers de données clien
 
 Si vous souhaitez créer un rapport spécifique qui porte sur une dimension des données de telle sorte que les rapports détaillés fournis ne le sont pas, créez un rapport personnalisé.
 
-Dans la liste déroulante des rapports qui se trouvent en haut de l’écran, \(dans **l’écran** \) de connexion, sélectionnez **rapports détaillés** **, puis cliquez** sur modifier dans le menu action d’un rapport pour afficher l’éditeur de requête. Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. L’éditeur de requête vous permet de modifier ces requêtes et les options d’affichage du rapport. Lorsque vous ouvrez l’éditeur de requête pour un nouveau rapport, vous voyez une section semblable à celle-ci :
+Dans la liste déroulante des rapports qui se trouvent en haut de l’écran, dans l’écran de connexion \( **Summary Reports** \) , sélectionnez **rapports détaillés** , puis cliquez sur modifier dans le menu action d’un rapport pour afficher l’éditeur de requête. **New** Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. L’éditeur de requête vous permet de modifier ces requêtes et les options d’affichage du rapport. Lorsque vous ouvrez l’éditeur de requête pour un nouveau rapport, vous voyez une section semblable à celle-ci :
 
 ![Modifier de nouveaux rapports](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ Pour calculer le nombre d’appels et les mesures de nombre d’utilisateurs, un
 
 Si vous voyez des différences de données entre bord v2 et v3, assurez-vous que la comparaison ou la validation des données est réalisée sur une « pommes-to-pommes » et un niveau étroit, et non sur un niveau agrégé. Par exemple, si vous filtrez les deux rapports pour les données du client de bureau MSIT de la construction de 30 ', le pourcentage de qualité médiocre doit être identique entre la version v2 et la version v3.
 
-Le nombre total de BORDs v2 et bord v3 est différent dans la mesure où bord v3 a de nouveaux scénarios non présents dans bord v2. Le total cumulé ou le nombre d’agrégats cumulés sans aucun filtre ne devrait être différent.  
+La classification de CQDv2 pour l’échec de CallSetup est INLY envisagée pour la modalité « Audio » uniquement, dans l’CQDv3 cette classification se produit pour chaque modalité (audio, vidéo et partage) et est représentée dans le flux de passe approprié. 
 
-Si le scénario d’utilisation inclut les appels Skype entreprise Server 2019, les données de bord v3 incluent les appels Skype bot (standard automatique, CVI, l’interface de bureau virtuel), les événements en direct et les appels RTC. BORD v2 n’utilise pas ces données. (Bord V3 nécessite Skype entreprise Server 2019 avec le Cloud Data Connector configuré.)
+Pour Teams, le CQDv2 applique les mêmes commentaires aux utilisateurs à toutes les modalités CQDv3 applique une base de commentaires à des fins d’équipe.
+
+BORD v3 comprend 
+1. Appels 2019 de Skype entreprise Server 
+2. Les appels Skype bot tels que le standard automatique, la file d’attente d’appels, le service d’annonce de conférence 
+3. Interface de bureau virtuel,
+4. Conférences vidéo,
+3. Événements en direct pour l’éditeur et les appels du présentateur 
+4. Appels RTC. 
 
 Par exemple, si vous voyez des flux audio 200 000 avec 5000 échecs dans un rapport de synthèse bord v2, il n’était pas rare de voir les flux audio 300 000 avec les échecs de la fonction 5500 (la différence peut être due à Skype entreprise Server 2019 appels, appels CVI, appels RTC, etc.) dans un rapport de synthèse bord v3.
 
@@ -500,6 +508,18 @@ Pour éliminer toute ambiguïté de différences inattendues, observez plus d’
 - User Agent Category Pair
 - Premier produit
 - Deuxième produit
+
+Vous trouverez ci-dessous un exemple d’application de filtres spécifiques pour comparer les données bord v2 et bord v3 :
+
+1. Enregistrement QoE disponible = vrai
+
+2. Ajoutez est le filtre de paires de serveurs avec value : client : client et client : Server. La plupart des clients préfèrent exclure serveur : appels serveur.
+
+3. Ajoutez un filtre pour la catégorie de l’agent utilisateur et filtrez le standard automatique, la file d’attente d’appels, le bot, le système de salle, le MediationServer, le service d’annonce des conférences, l’infrastructure VDI, etc.
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Capture d’écran de l’application de filtres spécifiques dans bord v3":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Capture d’écran de l’application de filtres spécifiques dans bord v2":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>Autres différences attendues entre bord v2 et bord v3
 
@@ -532,7 +552,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

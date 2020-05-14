@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: L’identification de l’appelant peut être contrôlée pour les appels entrants et sortants des utilisateurs du système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836306"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224207"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
@@ -46,7 +46,7 @@ La fonctionnalité d’identification de l’appelant est disponible pour tous l
   
 ## <a name="outbound-caller-id"></a>ID d'appelant sortant
 
-Trois options sont disponibles pour l'ID d'appelant RTC sortant :
+Trois options sont disponibles pour l’identification de l’appelant RTC sortant :
   
 - Le numéro de téléphone affecté à l’utilisateur (option par défaut).
     
@@ -62,11 +62,11 @@ Toutefois, vous ne pouvez pas affecter les types de numéros de téléphone suiv
     
 Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](/microsoftteams/set-the-caller-id-for-a-user).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Contrôle de l'ID d'appelant sortant par l'utilisateur final
+### <a name="end-user-control-of-outbound-caller-id"></a>Contrôle de l’ID d’appelant sortant par l’utilisateur final
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+L’attribut EnableUserOverride permet à un ou plusieurs utilisateurs de changer leur paramètre d’ID d’appelant en **anonyme**. Cela s’applique uniquement lorsqu’une stratégie CallingLineIdentity est configurée avec un paramètre CallingIDSubstitute de LineURI ou de remplacement. La valeur par défaut de EnableUserOverride est false.
   
-Vos utilisateurs finaux peuvent définir leur ID d’appelant sur **anonyme** à l’aide de l’onglet **paramètres** dans le client de bureau Skype entreprise, sélectionner **appelle un utilisateur final** (s’il est activé par l’administrateur), sélectionner **Masquer mon numéro de téléphone et les informations de profil de tous les appels**.
+Vos utilisateurs finaux peuvent définir leur ID d’appelant sur **anonyme** à l’aide de l’onglet **paramètres** dans le client de bureau Skype entreprise, sélectionner **appelle un utilisateur final** (s’il est activé par l’administrateur), puis sélectionner **Masquer mon numéro de téléphone et les informations de profil de tous les appels**. Dans Teams, les utilisateurs peuvent accéder à leur image de profil dans le coin supérieur droit, sélectionner **paramètres**des  >  **appels**, puis sous identification de l' **appelant**, sélectionner **Masquer mon numéro de téléphone et les informations de profil de tous les appels**.
   
 ||||
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ Vos utilisateurs finaux peuvent définir leur ID d’appelant sur **anonyme** à
 |MSI  <br/> |Skype Entreprise  <br/> |Non  <br/> |
 |Mac  <br/> |Skype Entreprise  <br/> |Non  <br/> |
    
-## <a name="inbound-caller-id"></a>ID d'appelant entrant
+## <a name="inbound-caller-id"></a>ID d’appelant entrant
 
 Le système téléphonique affiche l’ID appelé d’un numéro de téléphone externe si le numéro est associé à un utilisateur dans Azure AD. Si ce n’est pas le cas, le nom d’affichage fourni par l’opérateur de télécommunications est affiché s’il est disponible.
 

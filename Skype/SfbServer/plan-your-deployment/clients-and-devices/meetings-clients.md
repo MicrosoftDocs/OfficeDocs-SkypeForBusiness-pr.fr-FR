@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Résumé : les professionnels de l’informatique doivent consulter les conditions requises en matière de prise en charge de Skype entreprise Web App et de l’application réunions Skype lors de la planification de Skype entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777789"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221044"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier les clients des réunions (application Web et application de réunion)
  
@@ -33,14 +33,14 @@ Une fois que vous avez implémenté Skype entreprise Server, les utilisateurs de
 Par la suite, ces utilisateurs peuvent créer des réunions et inviter des utilisateurs à l’extérieur de l’organisation, et ces invités peuvent ne pas avoir de version du client Skype entreprise. Lorsque ces utilisateurs cliquent sur l’URL de l’invitation à la réunion, l’absence de client est détectée et l’invité sans client Skype entreprise est invité à télécharger et à installer un client léger, uniquement pour les réunions uniquement, afin qu’ils puissent participer à la réunion.
   
 > [!NOTE]
-> L’application Skype entreprise Web App et Skype meetings ne sont disponibles que lorsque vous tentez de vous connecter à une réunion sans avoir Skype entreprise. Pour obtenir de l’aide pour ces [https://aka.ms/smahelp](https://aka.ms/smahelp)applications, consultez la page. 
+> L’application Skype entreprise Web App et Skype meetings ne sont disponibles que lorsque vous tentez de vous connecter à une réunion sans avoir Skype entreprise. Pour obtenir de l’aide pour ces applications, consultez la page [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
   
 > [!NOTE]
 > Vous ne pouvez pas pré-installer l’application Skype entreprise Web App ou les réunions Skype, mais les utilisateurs de [tablettes](https://products.office.com/skype-for-business/download-app?tab=tabs-2) et de [téléphones intelligents](https://products.office.com/skype-for-business/download-app?tab=tabs-1) peuvent être en mesure d’installer des clients mobiles peu coûteux qu’ils peuvent utiliser pour participer à des réunions.
   
 Par défaut, le serveur qui héberge la réunion demande à l’utilisateur de télécharger et d’installer Skype entreprise Web App pour participer à la réunion. Skype entreprise Web App est stocké sur le serveur frontal et est envoyé au participant à la réunion. 
   
-Pour Skype entreprise Server, l’application de réunions Skype (sous Windows) et Skype entreprise pour Mac (sur Mac) est disponible sous forme de remplacements pour Skype entreprise Web App à partir de CU5, mais le fait de fournir les applications de remplacement nécessite une configuration supplémentaire décrite dans la rubrique [Enable Skype Meeting app to Replace Skype for Business Web App (optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si l’application de réunions Skype et Skype entreprise pour Mac sont activées, les utilisateurs téléchargeront la dernière version des applications à partir du réseau de distribution de contenu (CDN) Office 365 et non à partir de Skype entreprise Server. Pour Skype entreprise Server 2019, l’utilisation de Skype Meeting App et Skype entreprise pour Mac est la seule option.
+Pour Skype entreprise Server, l’application de réunions Skype (sous Windows) et Skype entreprise pour Mac (sur Mac) est disponible sous forme de remplacements pour Skype entreprise Web App à partir de CU5, mais le fait de fournir les applications de remplacement nécessite une configuration supplémentaire décrite dans la rubrique [Enable Skype Meeting app to Replace Skype for Business Web App (optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si l’application de réunions Skype et Skype entreprise pour Mac sont activées, les utilisateurs téléchargent la dernière version des applications à partir du réseau de distribution de contenu (CDN) de Microsoft 365 ou Office 365, et non à partir de Skype entreprise Server. Pour Skype entreprise Server 2019, l’utilisation de Skype Meeting App et Skype entreprise pour Mac est la seule option.
   
 L’application réunions Skype offre une expérience de navigateur simplifiée pour le téléchargement et l’installation de l’application et la participation à des réunions, y compris une jointure en un clic pour les utilisateurs d’Internet Explorer. L’application réunions Skype offre également de nombreuses améliorations par rapport à Skype entreprise Web App pour la fiabilité et l’expérience de réunion. 
   
@@ -59,7 +59,7 @@ Pour utiliser Skype entreprise Web App, un utilisateur doit disposer de l’une 
 |Windows 10  <br/> |Oui  <br/> |Oui  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Oui &#x2778; <br/> |
 |&#x2776; Windows 8,1 <br/> |N/D  <br/> |Oui  <br/> |N/A  <br/> |N/A  <br/> |N/A <br/> |Oui &#x2778; <br/> |
 |&#x2776; Windows 8 (basé sur Intel) <br/> |N/A  <br/> |N/A  <br/> |Oui  <br/> |N/A <br/> |N/A  <br/> |Oui &#x2778; <br/> |
-|Windows 7 avec SP1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |N/A <br/>|Oui &#x2778; <br/> |
+|Windows 7 avec SP1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |S/O <br/>|Oui &#x2778; <br/> |
 |Windows Server 2008 R2 avec SP1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |N/D <br/>|Oui &#x2778; <br/> |
 |macOS 10,8 et versions ultérieures (Intel) &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Oui  <br/> |Oui <br/> |
    
@@ -130,7 +130,7 @@ Ce tableau compare les fonctionnalités de réunion disponibles pour les utilisa
 |Mener des sondages  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Charger des fichiers à partager avec d’autres personnes  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Planifier une réunion ou une conférence  <br/> |Outlook ou Skype entreprise Web Scheduler  <br/> |Outlook ou Skype entreprise Web Scheduler  <br/> |Web Scheduler Skype entreprise  <br/> |Web Scheduler Skype entreprise  <br/> |Web Scheduler Skype entreprise  <br/> |
-|Q&amp;d’un responsable  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Q &amp; d’un responsable  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Désactivation de la vidéo des participants  <br/> |&#x2714;|||||
 |Désactiver la messagerie instantanée de réunion  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Public muet  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

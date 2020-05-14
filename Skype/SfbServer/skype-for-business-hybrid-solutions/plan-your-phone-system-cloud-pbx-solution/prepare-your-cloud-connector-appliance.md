@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Découvrez comment préparer votre appareil Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique dans Office 365 (Cloud PBX).
-ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Découvrez comment préparer votre appliance Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique (PBX Cloud).
+ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779240"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220064"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appliance Cloud Connector
 
-Découvrez comment préparer votre appareil Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique dans Office 365 (Cloud PBX).
+Découvrez comment préparer votre appliance Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique (PBX Cloud).
 
 Cette section décrit comment obtenir les fichiers d’installation de Skype entreprise version Cloud Connector, installer le logiciel Cloud Connector et préparer votre appliance Cloud Connector pour le déploiement. Une fois que vous avez effectué toutes les étapes de cette section, vous serez prêt à déployer Cloud Connector pour un ou plusieurs sites. Si vous disposez d’un déploiement Cloud Connector existant et que vous n’avez pas encore effectué la mise à niveau vers la version 2,1 de Cloud Connector, consultez [la rubrique Upgrade to a New version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
 
@@ -43,7 +43,7 @@ Cette section décrit comment obtenir les fichiers d’installation de Skype ent
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Télécharger le programme d’installation de Skype entreprise, version Cloud Connector
 
-1. Sur le serveur hôte sur lequel seront exécutées les machines virtuelles Cloud Connector, téléchargez [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)les fichiers d’installation :. 
+1. Sur le serveur hôte sur lequel seront exécutées les machines virtuelles Cloud Connector, téléchargez les fichiers d’installation : [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) . 
 
     > [!IMPORTANT]
     > Le serveur hôte doit pouvoir accéder à Internet lors de l’installation de Cloud Connector car d’autres fichiers sont téléchargés pendant l’installation. 
@@ -136,7 +136,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>Créer des commutateurs virtuels dans le Gestionnaire Hyper-V
 
-1. Ouvrez le**Gestionnaire de commutateur virtuel**du gestionnaire **Hyper-V** > , puis sélectionnez **nouveau gestionnaire de commutateur virtuel**.
+1. Ouvrez le gestionnaire de commutateur virtuel du gestionnaire **Hyper-V**  >  **Virtual Switch Manager**, puis sélectionnez **nouveau gestionnaire de commutateur virtuel**.
 
 2. Créez un commutateur virtuel externe et liez-le à la carte réseau physique qui est connectée à votre domaine réseau interne :
 
@@ -171,7 +171,7 @@ Lors de la mise à jour du fichier. ini, tenez compte des éléments suivants :
 
 - **SiteName :** La valeur par défaut est **site1**. Vous devez le mettre à jour avant de déployer Cloud Connector, car lorsque vous exécutez **Register-applet ccappliance** pour inscrire une appliance sur un site existant ou nouveau, l’applet de commande utilise **SiteName** pour déterminer le site à enregistrer.
 
-     Si vous souhaitez enregistrer l’appliance sur un nouveau site, la valeur **SiteName** doit être unique et différente des sites existants. Si vous souhaitez enregistrer l’appliance sur un site existant, la valeur **SiteName** dans le fichier. ini doit correspondre au nom défini dans la configuration de votre organisation Office 365. Si vous copiez un fichier de configuration d’un site à un autre, veillez à mettre à jour la valeur de **SiteName** pour chaque site en conséquence.
+     Si vous souhaitez enregistrer l’appliance sur un nouveau site, la valeur **SiteName** doit être unique et différente des sites existants. Si vous souhaitez enregistrer l’appliance sur un site existant, la valeur **SiteName** dans le fichier. ini doit correspondre au nom défini dans la configuration de votre organisation Microsoft 365 ou Office 365. Si vous copiez un fichier de configuration d’un site à un autre, veillez à mettre à jour la valeur de **SiteName** pour chaque site en conséquence.
 
 - **ServerName :** Le nom du serveur ne doit pas contenir le nom de domaine et doit être limité à 15 caractères.
 
@@ -305,11 +305,11 @@ Le compte CceService est créé lors du déploiement de Skype entreprise, versio
 
 3. Définissez sa valeur sur **activé**.
 
-## <a name="set-up-your-office-365-organization"></a>Configuration de votre organisation Office 365
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Configurer votre organisation Microsoft 365 ou Office 365
 
-Une organisation Office 365 avec Skype entreprise Online et le système téléphonique dans Office 365 est requise. Assurez-vous que votre client est configuré et configuré avant d’utiliser Cloud Connector.
+Une organisation Microsoft 365 ou Office 365 avec Skype entreprise Online et le système téléphonique est requise. Assurez-vous que votre client est configuré et configuré avant d’utiliser Cloud Connector.
 
-Certaines étapes de configuration d’Office 365 requièrent l’utilisation de PowerShell à distance client (TRPS) pour configurer votre organisation Office 365. **Il doit être installé sur le serveur hôte.** Vous pouvez télécharger le module Skype entreprise Online pour PowerShell à partir de l’un des modules suivants : [Skype entreprise Online et Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
+Certaines étapes de configuration de Microsoft 365 et d’Office 365 requièrent l’utilisation de PowerShell à distance client (TRPS) pour configurer votre organisation Microsoft 365 ou Office 365. **Il doit être installé sur le serveur hôte.** Vous pouvez télécharger le module Skype entreprise Online pour PowerShell à partir de l’un des modules suivants : [Skype entreprise Online et Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Créez un compte d’administrateur Skype entreprise dédié pour la gestion en ligne de Cloud Connector, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé par l’appliance pour ajouter ou supprimer des appliances, activer ou désactiver la mise à jour automatique du système d’exploitation, activer ou désactiver la mise à jour binaire automatique. Définissez le mot de passe de ce compte de sorte qu’il n’expire jamais afin que vous n’ayez pas besoin de le modifier à chaque fois qu’il arrive à expiration.
 

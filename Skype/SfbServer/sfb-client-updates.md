@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des liens vers les dernières informations sur les mises à jour pour les versions perpétuelles de Skype entreprise 2016, Skype entreprise 2015 et les clients Lync 2013
-ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779700"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221878"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières mises à jour pour les versions de Skype entreprise qui utilisent Windows Installer (MSI)
 
@@ -25,14 +25,14 @@ Utilisez les liens de cette page pour obtenir plus d’informations et télécha
 
 > [!NOTE]
 > - Les informations contenues dans cet article s’appliquent uniquement aux versions perpétuelles de Skype entreprise qui utilisent la technologie d’installation Windows Installer (MSI). Par exemple, si vous avez installé une version avec licence en volume de Skype entreprise, telle que Skype entreprise incluse avec Office professionnel plus 2016.
-> - Les informations contenues dans cet article ne s’appliquent pas aux versions Office 365 de Skype entreprise, telles que Skype entreprise incluse avec les applications Microsoft 365 pour les entreprises.
+> - Les informations contenues dans cet article ne s’appliquent pas aux versions Microsoft 365 ou Office 365 de Skype entreprise, telles que Skype entreprise, incluses dans les applications Microsoft 365 pour entreprises.
 > - Pour obtenir les dernières mises à jour du client mobile, accédez au magasin d’applications de votre client mobile (iTunes, Google Play ou Microsoft Store) pour afficher les détails et installer les mises à jour.
 > - Pour savoir quelle version de Skype entreprise vous utilisez, voir quelle est la [version de Skype entreprise dont je dispose ?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Pour plus d’informations sur l’installation des mises à jour d’Office, consultez l’article [Installer les mises à jour d’Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
-La compatibilité de Skype entreprise avec Office 365 et votre environnement local dépend de la configuration système requise pour votre déploiement :
+La compatibilité de Skype entreprise avec Microsoft 365 ou Office 365 et votre environnement local dépend de la configuration système requise pour votre déploiement :
 
-- Office 365 fonctionne avec n’importe quelle version de Skype entreprise qui est prise en charge standard, qui inclut la dernière version de Skype entreprise 2016. Pour les versions précédentes de Skype entreprise, seules les personnes qui bénéficient d’une prise en charge étendue peuvent continuer à fonctionner avec Office 365, bien qu’avec des fonctionnalités réduites. Pour plus d’informations, consultez la rubrique [stratégie de cycle de vie Microsoft](https://support.microsoft.com/lifecycle).
+- Microsoft 365 et Office 365 fonctionnent avec n’importe quelle version de Skype entreprise qui est prise en charge standard, qui inclut la dernière version de Skype entreprise 2016. Pour les versions précédentes de Skype entreprise, seules celles qui disposent d’une prise en charge étendue peuvent continuer à fonctionner avec Microsoft 365 ou Office 365, bien qu’avec des fonctionnalités réduites. Pour plus d’informations, consultez la rubrique [stratégie de cycle de vie Microsoft](https://support.microsoft.com/lifecycle).
 
 - Pour les déploiements locaux de Skype entreprise Server, suivez la configuration système requise pour votre version de Skype entreprise :
 

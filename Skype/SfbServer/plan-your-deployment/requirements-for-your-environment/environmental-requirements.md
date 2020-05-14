@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Résumé : configurez votre configuration non-serveur requise pour Skype entreprise Server 2015. Vous souhaiterez peut-être configurer un grand nombre d’éléments avant de procéder au déploiement, notamment Active Directory, DNS, certs et Fileshares.'
-ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572802"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220874"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Configuration environnementale requise pour Skype entreprise Server 2015
  
@@ -59,7 +59,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
 
 - Windows Server 2019 (vous devez disposer de la mise à jour cumulative 5 de Skype entreprise Server 2015 ou version ultérieure)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -73,7 +73,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
 
 - Windows Server 2019 (vous devez disposer de la mise à jour cumulative 5 de Skype entreprise Server 2015 ou version ultérieure)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -168,11 +168,11 @@ Dans cette topologie, il existe une ou plusieurs forêts d’utilisateurs, et Sk
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Plusieurs forêts dans une topologie de forêt de ressources avec Skype entreprise Online et Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Présente deux forêts Active Directory, une forêt utilisateur et une forêt de ressources. Les deux forêts ont une relation d’approbation. Elles sont synchronisées avec Office 365 à l’aide d’Azure AD Connect. Tous les utilisateurs sont activés pour Skype entreprise via Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Présente deux forêts Active Directory, une forêt utilisateur et une forêt de ressources. Les deux forêts ont une relation d’approbation. Elles sont synchronisées avec Microsoft 365 ou Office 365 à l’aide d’Azure AD Connect. Tous les utilisateurs sont activés pour Skype entreprise via Microsoft 365 ou Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-Dans ce scénario, il y a plusieurs forêts en local, avec une topologie de forêt de ressources. Il existe une relation de confiance totale entre les forêts Active Directory. L’outil Azure Active Directory Connect est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locales et Office 365.
+Dans ce scénario, il y a plusieurs forêts en local, avec une topologie de forêt de ressources. Il existe une relation de confiance totale entre les forêts Active Directory. L’outil Azure Active Directory Connect est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locales et Microsoft 365 ou Office 365.
   
- L’organisation dispose également d’Office 365 et utilise [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) pour synchroniser ses comptes locaux avec Office 365. Les utilisateurs qui sont activés pour Skype entreprise sont activés via Office 365 et Skype entreprise online. Skype entreprise Server n’est pas déployé en local.
+ L’organisation dispose également de Microsoft 365 ou Office 365, et utilise [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) pour synchroniser ses comptes locaux avec Microsoft 365 ou Office 365. Les utilisateurs qui sont activés pour Skype entreprise sont activés via Microsoft 365 ou Office 365 et Skype entreprise online. Skype entreprise Server n’est pas déployé en local.
   
 L’authentification unique est fournie par une batterie de serveurs AD FS (Active Directory Federation Services) située dans la forêt de l’utilisateur.
   
@@ -210,7 +210,7 @@ Il est extrêmement important de se souvenir que tout nom de DNS est identique a
   
 Cela semble logique pour tout ordinateur déjà joint à un domaine, mais si vous avez un serveur Edge qui n’est pas joint à votre domaine, il peut avoir la valeur par défaut Short, sans suffixe de domaine. Assurez-vous que ce n’est pas le cas, dans DNS ou sur le serveur Edge, ou sur tout serveur ou pool Skype entreprise Server 2015.
   
-Et ne sont pas autorisés à utiliser des caractères Unicode ou des traits de soulignement. Les caractères standard (de A à z, a-z, 0-9 et les traits d’Union) sont ceux qui seront pris en charge par les autorités de certification publiques et DNS externes (vous devez affecter des noms de domaine complets au numéro de service (FQDN) du certificat, n’oubliez pas), vous pouvez donc vous faire un grand nombre de grief si vous devez à présent nommer.
+Et ne sont pas autorisés à utiliser des caractères Unicode ou des traits de soulignement. Les caractères standard (qui sont A-Z, a-z, 0-9 et les tirets) sont ceux qui seront pris en charge par les autorités de certification publiques et DNS externes (vous devez affecter des noms de domaine complets au numéro de série dans le certificat, n’oubliez pas), vous pouvez ainsi vous faire un grand nombre de grief si vous avez un nom en tête.
   
 Pour plus d’informations sur les exigences DNS pour la mise en réseau, consultez la section [Networking](../../plan-your-deployment/network-requirements/network-requirements.md) de notre documentation de planification.
   
@@ -248,7 +248,7 @@ La planification du certificat est donc obligatoire. À présent, examinons une 
 - Pour soumettre une demande de certificat web à une Autorité de certification Windows Server 2003, vous devez utiliser un ordinateur exécutant Windows Server 2003 avec SP2 ou Windows XP.
     
 > [!NOTE]
-> Bien que KB922706 offre la prise en charge de la résolution des problèmes liés à l’inscriptions de certificats Web par rapport à une authentification Web des services de certificats Windows Server 2003, il ne permet pas d’utiliser Windows Server 2008, Windows Vista ou Windows 7 pour demander un certificat. à partir d’une autorité de certification Windows Server 2003. 
+> Bien que KB922706 offre une prise en charge pour la résolution des problèmes liés à l’inscriptions de certificats Web par rapport à une authentification Web des services de certificats Windows Server 2003, il n’est pas possible d’utiliser Windows Server 2008, Windows Vista ou Windows 7 pour demander un certificat à une autorité de certification Windows Server 2003. 
   
 > [!NOTE]
 > L’utilisation de l’algorithme de signature RSASSA-PSS n’est pas prise en charge et peut entraîner des erreurs de connexion et de transfert d’appel, entre autres problèmes. 
@@ -270,7 +270,7 @@ Vous aurez également besoin de certificats lorsque Skype entreprise Server 2015
   
 Skype entreprise Server 2015 prend également en charge (sans exiger) des certificats signés à l’aide de la fonction de hachage cryptographique SHA-256. Pour prendre en charge l’accès externe à l’aide de l’algorithme SHA-256, le certificat externe doit être émis par une autorité de certification publique à l’aide de l’algorithme SHA-256.
   
-Pour essayer et conserver des choses simples, nous avons placé les exigences de certificat pour les serveurs Standard Edition, les pools frontaux et d’autres rôles, dans les tableaux suivants, avec la contoso.com fictive utilisée pour les exemples (vous utiliserez probablement des éléments Sinon, pour votre environnement). Il s’agit de tous les certificats de serveur Web standard, avec des clés privées qui ne sont pas exportables. Voici quelques éléments supplémentaires à noter :
+Pour essayer et conserver des choses simples, nous avons placé les exigences de certificat pour les serveurs Standard Edition, les pools frontaux et d’autres rôles, dans les tableaux suivants, avec la contoso.com fictive utilisée pour des exemples (vous utiliserez probablement d’autres éléments pour votre environnement). Il s’agit de tous les certificats de serveur Web standard, avec des clés privées qui ne sont pas exportables. Voici quelques éléments supplémentaires à noter :
   
 - L’utilisation améliorée de la clé (EKU) du serveur est automatiquement configurée lorsque vous utilisez l’Assistant Certificat pour demander des certificats.
     
@@ -283,24 +283,24 @@ Certificats pour les serveurs Standard Edition :
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet (FQDN) du pool et nom de domaine complet du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur les serveurs Standard Edition Server Standard Edition Server, le nom de domaine complet du serveur est le même que le nom de domaine complet du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN =\*. contoso.com  <br/> |Vous ne pouvez pas remplacer le nom de domaine complet Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant que San.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • Répondre aux URL simples par domaine SIP  <br/> OU  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = \* . contoso.com  <br/> |Vous ne pouvez pas remplacer le nom de domaine complet Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant que San.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • Répondre aux URL simples par domaine SIP  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
 Certificats pour les serveurs frontaux dans un pool frontal :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet (FQDN) du pool et nom de domaine complet du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN = EEpool. contoso. com ; SAN = EEpool. contoso. com ; SAN = ee01. contoso. com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (qui n’est pas le même que le nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (qui n’est pas le même que le nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
 Certificats pour le directeur :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |pool directeur  <br/> |Nom de domaine complet (FQDN) du directeur, nom de domaine complet du pool directeur.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour SIP. sipdomain (pour chaque domaine SIP dont vous disposez).  <br/> |pool.contoso.com ; SAN = DIR01. contoso. com  <br/> Si ce pool directeur est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = DIR01. contoso. com ; SAN = DIR01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = DIR01. contoso. com SAN =\*. contoso.com  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • Répondre aux URL simples par domaine SIP  <br/> • URL simple d’accès à distance  <br/> OU  <br/> • Entrée de caractère générique pour les URL simples  <br/> |Le nom de domaine complet du directeur de site Web externe doit être différent du pool frontal ou du serveur frontal.  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN =\*. contoso.com  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = DIR01. contoso. com ; SAN = DIR01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = DIR01. contoso. com SAN = \* . contoso.com  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • Répondre aux URL simples par domaine SIP  <br/> • URL simple d’accès à distance  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |Le nom de domaine complet du directeur de site Web externe doit être différent du pool frontal ou du serveur frontal.  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN = \* . contoso.com  <br/> |
    
 Certificats pour le serveur de médiation autonome :
   
@@ -312,7 +312,7 @@ Certificats pour Survivable Branch Appliance :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP. \<sipdomain\> (vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
+|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP. \< sipdomain \> (vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificats pour votre serveur de conversation permanente
 
@@ -340,22 +340,22 @@ Nous allons répertorier les détails dans chaque tableau ci-dessous.
   
 À présent, il s’agit là d’un peu de planification possible, mais parfois vous avez déployé Skype entreprise Server 2015 sans avoir à déployer la mobilité, et cela se produit lorsque vous avez déjà des certificats dans votre environnement. Leur réémission via une autorité de certification interne est relativement facile, mais avec des certificats publics provenant d’une autorité de certification publique, qui peuvent être un peu plus pricy.
   
-Si c’est ce que vous regardez, et si vous avez un grand nombre de domaines SIP (ce qui rend l’ajout de réseaux SAN plus onéreux), vous pouvez configurer votre proxy inverse de sorte qu’il utilise le protocole HTTP pour la demande de service de découverte automatique initiale, au lieu d’utiliser le protocole HTTPs (paramètre par défaut Configuration). La rubrique Planning for Mobility contient plus d’informations à ce sujet.
+Si c’est ce que vous regardez, et si vous avez un grand nombre de domaines SIP (ce qui rend l’ajout de réseaux SAN plus onéreux), vous pouvez configurer votre proxy inverse de sorte qu’il utilise le protocole HTTP pour la demande de service de découverte automatique initiale, au lieu d’utiliser le protocole HTTPs (configuration par défaut). La rubrique Planning for Mobility contient plus d’informations à ce sujet.
   
 Conditions requises pour les certificats de pool directeur et de pool frontal :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
-|URL du service de découverte automatique interne  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
-|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
+|URL du service de découverte automatique interne  <br/> |SAN = lyncdiscoverinternal. \< sipdomain\>  <br/> |
+|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
    
-Vous pouvez également utiliser SAN =\*. \<sipdomain\>
+Vous pouvez également utiliser SAN = \* . \< sipdomain\>
   
 Conditions requises pour le certificat de proxy inverse (autorité de certification publique) :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
-|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
+|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
    
 Ce SAN doit être affecté au certificat qui est affecté à l’écouteur SSL sur votre proxy inverse.
   
