@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042851"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224237"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -35,14 +35,16 @@ Tout le monde, avec ou sans licence, peut participer à un événement en direct
 
 Les conditions suivantes sont requises pour un utilisateur pour configurer un événement en direct Teams.
 
-Voici les licences qui doivent être attribuées :  
+Voici les licences qui doivent être attribuées pour produire ou présenter une équipe en direct événement :  
 
-- Une licence Office 365 Entreprise E1, E3 ou E5, ou une licence Office 365 A3 ou A5
-- Une licence Microsoft Teams
-- Une licence Microsoft Stream
+- Une licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, ou une licence Office 365 Éducation A3 ou A5.
+- Une licence Microsoft Teams. -est incluse dans les licences ci-dessus. 
+- Une licence Microsoft Stream-est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview). 
 
-> [!IMPORTANT]
-> L’utilisateur créant et planifiant un événement en direct doit avoir une boîte aux lettres Exchange Online.
+  Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Azure Media Services (AMS) avec une limite de 30 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
+
+> [!NOTE]
+> Pour l’instant, il n’existe aucune offre Microsoft 365 pour les petites entreprises pouvant être utilisée pour créer et organiser des événements Teams en direct.
 
 Il est important de comprendre qu’une licence Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cette exigence dépend de la méthode de production utilisée :
 
@@ -81,6 +83,14 @@ L’utilisateur doit disposer des éléments suivants :
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct Teams et Diffusion de réunion Skype
 
 Le tableau suivant souligne les capacités et fonctionnalités essentielles proposées dans les événements en direct et la manière dont elle diffèrent de la Diffusion de réunion Skype.
+
+> [!IMPORTANT]
+> **Augmentation de la limite d’événements en direct Microsoft 365**
+> 
+> Dans le but de permettre aux clients de répondre à l’évolution rapide des besoins de communication, la limite par défaut des évènements en direct Microsoft 365, hébergés dans Teams, sera temporairement relevée jusqu’au 1er juillet 2020. Les relèvements ci-après sont en cours de déploiement à fin avril 2020 :
+> - Nombre limite de participants : les événements prendre en charge jusqu’à 20 000 participants.
+> - Événements simultanés : 50 événements à la fois peuvent être hébergés chez un client
+> - Longueur d’événement : la durée d’événement passe à 16 heures par diffusion
 
 |**Fonctionnalité**   |**Diffusion de réunion Skype** |**Événements générés dans Teams** |**Événements générés dans une application ou un appareil externe** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 
 **Disponible dans ces centres de données régionaux**
 
-- Amériques
+- Amérique du Nord
+- Amérique Centrale
+- Amérique du Sud
 - Asie-Pacifique
 - Europe/Afrique
 
-**Emplacement des données pour ces pays**
-
+**Emplacement des données pour ces pays/régions (pris en charge)**
 - Australie
 - Canada
 - Inde
 - Japon
 - Royaume-Uni
+
+**Ces pays/régions et cloud ne sont pas pris en charge**
+- Allemagne
+- France
+- Norvège
+- Afrique du Sud
+- Corée du Sud
+- Suisse
+- UAE
+- Government Community Cloud (GCC)-H
+- DOD
 
 **Exclusions et points à prendre en compte**
 
