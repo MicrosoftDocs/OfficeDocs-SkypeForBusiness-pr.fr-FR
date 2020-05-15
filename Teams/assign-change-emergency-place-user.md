@@ -18,33 +18,42 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou changer l’emplacement d’un emplacement d’urgence pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8689c6a578beac3a93fa8ef9214d6c33cd2d071a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d5b13cf5d4b4a0cf22077318e3c2c2196840f66e
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904846"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232465"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’un emplacement d’urgence pour un utilisateur
 
 Chaque numéro de téléphone actif doit disposer d’un emplacement d’urgence associé lorsque vous attribuez le numéro de téléphone à un utilisateur. (Vous associez l’adresse lorsque vous recevez un numéro de téléphone dans Office 365 ou lorsque vous transférez un numéro de téléphone.) Lorsque vous associez le numéro à un emplacement d’urgence, vous pouvez également ajouter un emplacement pour fournir un emplacement plus précis au sein d’un emplacement physique. Un lieu peut être le plancher, l’aile de bâtiment ou le numéro de bureau où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour un emplacement d’urgence donné et vous pouvez modifier l’endroit où l’utilisateur se déplace vers un autre bureau ou bâtiment. Par exemple, si l’utilisateur passe de l’étage 34 au sol 35.
   
-Pour plus d’informations sur la façon d’obtenir des forfaits d’appels dans Office 365 et leur coût, voir [licences de complément d’équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour plus d’informations sur la façon d’obtenir des plans d’appel et leur coût, voir [licences de complément d’équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’un emplacement d’urgence pour un utilisateur
+Vous pouvez attribuer ou modifier l’emplacement d’un emplacement d’urgence pour un utilisateur dans le centre d’administration Microsoft teams ou à l’aide de PowerShell.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur**numéros de téléphone** **vocaux** > .
+## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+
+1. Dans le volet de navigation de gauche du centre d’administration de **Voice**Microsoft Teams, cliquez sur  >  **numéros de téléphone**vocaux.
+
 2. Dans la page **numéros de téléphone** , sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur **modifier**.
+
 3. Dans le volet **édition** , sous **emplacement d’urgence**, effectuez l’une des opérations suivantes :
 
-- Pour attribuer un emplacement, recherchez l’emplacement ou l’emplacement, puis sélectionnez l’emplacement dans les résultats de la recherche.
-- Pour modifier l’emplacement qui est déjà attribué à l’utilisateur, cliquez sur **X** pour supprimer l’emplacement et l’emplacement, recherchez et sélectionnez l’emplacement que vous voulez attribuer.
+    - Pour attribuer un emplacement, recherchez l’emplacement ou l’emplacement, puis sélectionnez l’emplacement dans les résultats de la recherche.
+
+    - Pour modifier l’emplacement qui est déjà attribué à l’utilisateur, cliquez sur **X** pour supprimer l’emplacement et l’emplacement, recherchez et sélectionnez l’emplacement que vous voulez attribuer.
 
 4. Cliquez sur **Enregistrer**.
+
+## <a name="using-powershell"></a>Utiliser PowerShell
+
+Voir [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
     
 ## <a name="related-topics"></a>Sujets associés
 
-- [Que sont les emplacements, les lieux et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)

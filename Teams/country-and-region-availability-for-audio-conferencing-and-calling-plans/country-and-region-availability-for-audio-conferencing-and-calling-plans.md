@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: En savoir plus sur les appels audio et vidéo, les plans d’appel, les crédits de communications et les numéros de téléphone gratuits et payants disponibles dans un pays ou une région.
-ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141057"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230192"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -178,14 +178,14 @@ Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes 
 Dans audioconférence, une fonctionnalité intitulée «*M’appeler*» est disponible pour permettre à d’autres personnes de participer à une réunion rendez-vous. Utilisez la liste déroulante ci-dessus pour rechercher le pays/région et voir si cette fonctionnalité est disponible.
 
 > [!CAUTION]
-> La numérotation vers les numéros de téléphone gratuits ou sans frais peut ne pas être possible, car certains numéros gratuits fonctionnent uniquement dans un pays ou une région spécifique d’un pays. Par exemple, si vous composez un numéro gratuit au Brésil à partir des États-Unis, il est possible que l’appel ne soit pas réussi, car l’appel ne provient pas du Brésil ou d’une région spécifique au Brésil. La possibilité de composer des numéros d'appel gratuits varie considérablement en fonction des restrictions du numéro d'appel gratuit composé. Malheureusement, dans Office 365, nous ne pouvons pas contrôler ce comportement. par conséquent, votre expérience peut varier en fonction du numéro gratuit composé et des restrictions du numéro gratuit. 
+> La numérotation vers les numéros de téléphone gratuits ou sans frais peut ne pas être possible, car certains numéros gratuits fonctionnent uniquement dans un pays ou une région spécifique d’un pays. Par exemple, si vous composez un numéro gratuit au Brésil à partir des États-Unis, il est possible que l’appel ne soit pas réussi, car l’appel ne provient pas du Brésil ou d’une région spécifique au Brésil. La possibilité de composer des numéros d'appel gratuits varie considérablement en fonction des restrictions du numéro d'appel gratuit composé. Malheureusement, nous ne pouvons pas contrôler ce comportement et, par conséquent, votre fonctionnement peut varier en fonction du numéro gratuit composé et des restrictions du numéro gratuit. 
   
-Composer un numéro de téléphone à partir d'une réunion vers un autre pays ou une autre région dans le monde qui ne figure pas dans la liste ci-dessous est disponible avec [Crédits de communication Office 365](../what-are-communications-credits.md). Pour ces utilisateurs, vous devrez [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
+Le rendez-vous d’une réunion vers un autre pays ou une autre région dans le monde qui n’est pas répertorié ci-dessous est disponible en utilisant les [crédits de communication](../what-are-communications-credits.md). Pour ces utilisateurs, vous devrez [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
 ### <a name="phone-system"></a>Système téléphonique
 Avec le Système téléphonique, vous pouvez créer des répondeurs automatiques et des files d'attente (avec un numéro d'appel ou un numéro gratuit) pour répondre aux appels entrants de votre organisation. Lorsque vous ajoutez un forfait d'appel pour les utilisateurs, ceux-ci peuvent utiliser Skype Entreprise pour prendre en charge les tâches de base de contrôle des appels, telles que passer et recevoir des appels, transférer des appels et couper et réactiver le son des appels. Les utilisateurs du **Système téléphonique** peuvent cliquer sur un nom dans leur carnet d’adresses pour que Skype Entreprise appelle cette personne. Pour émettre et recevoir des appels, les utilisateurs de **Système téléphonique** peuvent utiliser leur appareil mobile, un casque avec un ordinateur portable ou un PC ou l’un des nombreux téléphones IP compatibles avec Skype Entreprise.
 
-> La disponibilité des numéros de téléphone payant de certains de ces emplacements peut varier à un moment donné, en fonction des niveaux de stock. Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d'Office 365, il est également possible de rechercher et d'acquérir des numéros de téléphone gratuits ou payants pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente d'appels. Il s’agit de numéros de service. Pour obtenir les numéros de téléphone, consultez [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers). Mais pour vos utilisateurs, une fois qu’une offre d’appels leur est attribuée, vous pouvez attribuer un numéro de téléphone à l’utilisateur afin de pouvoir passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [Obtention de numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users). Vous pouvez également voir [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> La disponibilité des numéros de téléphone payant de certains de ces emplacements peut varier à un moment donné, en fonction des niveaux de stock. Outre l’obtention des numéros de téléphone des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service. Pour obtenir les numéros de téléphone, consultez [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers). Mais pour vos utilisateurs, une fois qu’une offre d’appels leur est attribuée, vous pouvez attribuer un numéro de téléphone à l’utilisateur afin de pouvoir passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [Obtention de numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users). Vous pouvez également voir [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Tarification pour Système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -204,7 +204,7 @@ Pour plus d’informations sur les licences, vous pouvez également consulter [L
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Numéros de téléphone gratuits et verts pour les services
 
-Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d'Office 365, il est également possible de rechercher et d'acquérir des numéros de téléphone gratuits ou payants pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente d'appels. Il s’agit de numéros de service.
+Outre l’obtention des numéros de téléphone d’utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service.
   
 La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous pouvez obtenir des numéros de service payants à partir de ces emplacements à l’aide du **Centre d’administration Skype Entreprise**.
   

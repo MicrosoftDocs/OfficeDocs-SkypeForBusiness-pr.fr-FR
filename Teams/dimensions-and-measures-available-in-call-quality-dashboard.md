@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137334"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232585"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -123,7 +123,7 @@ Les informations de dimensions sont basées en partie sur les données chargées
 |**Deployment**| | | |
 | First Tenant Id  | Chaîne  | Identifiant client Office 365 pour le premier point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 -0000-0000 — 000000000000  | <br/>&bull;L’ID de locataire du premier point de terminaison n’a pas pu être déterminé. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
 | Second Tenant Id  | String  | Identifiant client Office 365 pour le deuxième point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000-0000-0000 — 000000000000  |  <br/>&bull;Impossible de déterminer l’ID de locataire pour le deuxième point de terminaison. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
-| First Pool  | String  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au premier point de terminaison. <br/> **Exemple de valeur :** pool1<span></span>.<span></span>Lync. com  | <br/>&bull;Indique que le point de terminaison a été connecté à Microsoft teams ou à Skype entreprise. Ce champ sera rempli uniquement pour les flux utilisant des déploiements Skype entreprise Server sur site. |
+| First Pool  | String  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au premier point de terminaison. <br/> **Exemple de valeur :** pool1 <span></span> . Lync <span></span> . com  | <br/>&bull;Indique que le point de terminaison a été connecté à Microsoft teams ou à Skype entreprise. Ce champ sera rempli uniquement pour les flux utilisant des déploiements Skype entreprise Server sur site. |
 | Second Pool  | String  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au deuxième point de terminaison. <br/> **Exemple de valeur :** <span>pool1.Lync.com</span>   | &bull;Le deuxième point de terminaison n’a pas pu déterminer le pool Skype entreprise online. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
 | Is Federated  | Boolean  | Vrai si les flux étaient entre deux clients fédérés, sinon, faux.   | <br/>&bull;Il n’est pas possible de déterminer s’il s’agissait d’un flux fédéré. <br/>&bull;Certaines données de signalisation n’ont pas été collectées   |
 |Région | String   |  Région où le déploiement a été localisé en fonction de la région de résidence du client. <br/> **Exemple de valeur :** Amérique du Nord | <br/>&bull;Données réseau non communiquées <br/>&bull;Le réseau ne se trouve pas dans le réseau d’entreprise <br/>&bull;Le réseau ne possède pas de région définie dans les données de mappage de sous-réseau. |
@@ -163,8 +163,8 @@ Les informations de dimensions sont basées en partie sur les données chargées
 | Full Month  | Date  | Mois complet de la fin du flux. Les valeurs sont communiquées dans le fuseau horaire UTC. <br/> **Exemple de valeur :** 2017-02-01T00:00:00 | |
 |Heure de début|String  |Heure à laquelle l’appel a commencé.|&bull;Échec de la configuration de l’appel |
 |**UserAgent** | | |
-| First Domain  | String  | Domaine de l’utilisateur du premier point de terminaison. Si le premier point de terminaison est un serveur de conférence, il utilise le domaine de l’organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario.  <br/> **Exemple de valeur :** Contoso<span></span>. com | |
-| Second Domain  | String  | Domaine de l’utilisateur du deuxième point de terminaison. Si le deuxième point de terminaison est un serveur de conférence, il utilise le domaine de l’organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario. <br/> **Exemple de valeur :** Contoso<span></span>. com  | |
+| First Domain  | String  | Domaine de l’utilisateur du premier point de terminaison. Si le premier point de terminaison est un serveur de conférence, il utilise le domaine de l’organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario.  <br/> **Exemple de valeur :** Contoso <span></span> . com | |
+| Second Domain  | String  | Domaine de l’utilisateur du deuxième point de terminaison. Si le deuxième point de terminaison est un serveur de conférence, il utilise le domaine de l’organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario. <br/> **Exemple de valeur :** Contoso <span></span> . com  | |
 | First User Agent Category  | String  | Catégorie de l'agent utilisateur du premier point de terminaison. <br/> **Exemple de valeur :** O | &bull;Un agent utilisateur n’a pas encore de mappage    |
 | Second User Agent Category  | String  | Catégorie de l'agent utilisateur du deuxième point de terminaison. <br/> **Exemple de valeur :** O | &bull;Un agent utilisateur n’a pas encore de mappage    |
 | First User Agent  | String  | Chaîne de l'agent utilisateur du premier point de terminaison. <br/> **Exemple de valeur :** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype entreprise) | &bull;Aucun agent utilisateur signalé par le premier point de terminaison   |
@@ -243,8 +243,8 @@ Les informations de dimensions sont basées en partie sur les données chargées
 | Deuxième canal Wi-Fi  | String  | Canal Wifi utilisé par le deuxième point de terminaison. <br/> **Exemple de valeur :** 10  | <br/>&bull;Le WiFi n’a pas été utilisé <br/>&bull;Le canal n’a pas été communiqué.  |
 | Premier type de radio Wi-Fi  | Chaîne  | Type de radio Wifi utilisé par le premier point de terminaison. HRDSSS est équivalent à 802.11b.<br/> **Exemple de valeur :** AC 802.11  | <br/>&bull;Le WiFi n’a pas été utilisé <br/>&bull;Le type de WiFi n’a pas été communiqué.  |
 | Deuxième type de radio Wi-Fi  | String  | Type de radio Wifi utilisé par le deuxième point de terminaison. HRDSSS est équivalent à 802.11b.<br/> **Exemple de valeur :** AC 802.11  | <br/>&bull;Le WiFi n’a pas été utilisé <br/>&bull;Le type de WiFi n’a pas été communiqué.  |
-| First DNS Suffix  | Chaîne  | Suffixe DNS associé à l'adaptateur réseau communiqué par le premier point de terminaison. Remarque : cette valeur peut être communiquée pour n'importe quel type d'adaptateur réseau. **Exemple de valeur :** Corp<span></span>.<span></span>contoso. com  | <br/>&bull;Cette valeur n’a pas été communiquée par le point de terminaison. <br/>  |
-| Second DNS Suffix  | Chaîne  | Suffixe DNS associé à l'adaptateur réseau communiqué par le deuxième point de terminaison. Remarque : cette valeur peut être communiquée pour n'importe quel type d'adaptateur réseau.<br/> **Exemple de valeur :** Corp<span></span>.<span></span>contoso. com   | <br/>&bull;Cette valeur n’a pas été communiquée par le point de terminaison.  |
+| First DNS Suffix  | Chaîne  | Suffixe DNS associé à l'adaptateur réseau communiqué par le premier point de terminaison. Remarque : cette valeur peut être communiquée pour n'importe quel type d'adaptateur réseau. **Exemple de valeur :** Corp <span></span> . contoso <span></span> . com  | <br/>&bull;Cette valeur n’a pas été communiquée par le point de terminaison. <br/>  |
+| Second DNS Suffix  | Chaîne  | Suffixe DNS associé à l'adaptateur réseau communiqué par le deuxième point de terminaison. Remarque : cette valeur peut être communiquée pour n'importe quel type d'adaptateur réseau.<br/> **Exemple de valeur :** Corp <span></span> . contoso <span></span> . com   | <br/>&bull;Cette valeur n’a pas été communiquée par le point de terminaison.  |
 | Première bande Wi-Fi  | String  | Bande Wifi utilisée par le premier point de terminaison. <br/> **Exemple de valeur :** 5,0 GHz  | <br/>&bull;La valeur n’a pas été analysée par le point de terminaison. <br/>&bull;La valeur n’a pas été communiquée.  |
 | Deuxième bande Wi-Fi  | String  | Bande Wifi utilisée par le deuxième point de terminaison. <br/> **Exemple de valeur :** 5,0 GHz  | <br/>&bull;La valeur n’a pas été analysée par le point de terminaison. <br/>&bull;La valeur n’a pas été communiquée.  |
 | Première force du signal Wi-Fi  | String  | Force du signal WiFi en pourcentage (0-100), communiquée par le premier point de terminaison. <br/> **Exemple de valeur :** 081 : [90-100)  | <br/>&bull;La valeur n’a pas été analysée par le point de terminaison. <br/>&bull;La valeur n’a pas été communiquée.  |
@@ -455,7 +455,7 @@ Les valeurs booléennes sont toujours true ou false. Dans certains cas, true peu
 
 Les dimensions fournies comme plage ou groupe de valeurs sont affichées selon le format suivant :
 
- _\<chaîne\> \<\>de l' - ordre de tri\<\>_
+ _\<chaîne de l’ordre de tri \> \< \>  -  \<\>_
 
 Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en secondes avec la valeur rapportée sous forme de plage de valeurs.
 
@@ -480,7 +480,7 @@ Les chaînes utilisées par bord sont souvent dérivées de fichiers de données
 
 Les dimensions fournies comme paire d'énumération sont affichées selon le format suivant :
 
- _\<valeur d’énumération à partir\> d' \<un point de terminaison : valeur d’énumération de l’autre point de terminaison\>_
+ _\<valeur d’énumération à partir d’un point de terminaison \> : \< valeur d’énumération de l’autre point de terminaison\>_
 
 Le tri des valeurs d'énumération est cohérent, mais ne reflète pas l'ordre du premier ou du deuxième point de terminaison.
 
@@ -499,7 +499,7 @@ Le tableau ci-dessus liste les causes possibles d'une dimension non renseignée.
 
 ## <a name="measurements"></a>Obtenues
 
-Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtres. Le tableau suivant répertorie les mesures actuellement disponibles dans bord, dans l’ordre indiqué dans l’éditeur de requête :
+Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtres. Le tableau suivant répertorie les mesures actuellement disponibles dans bord, affichées dans l’ordre indiqué dans l’éditeur de requête.
 
 |Nom de la mesure |Unités |Description |
 |:--- |:--- |:--- |
@@ -511,7 +511,7 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 |Total Media Succeeded Stream Count |Nombre de flux |Nombre de flux pour lesquels le chemin de médias a été établi et s'est terminé correctement. |
 |Total Call Setup Succeeded Stream Count |nombre de flux |Nombre de flux pour lesquels le chemin de médias a pu être établi entre les points de terminaison au début de l'appel.|
 |Total Call Setup Failure Percentage |Pourcentage |Pourcentage de flux pour lesquels le chemin de médias n'a pas pu être établi entre les points de terminaison au début de l'appel. |
-|Total Call Dropped Failure Percentage |Pourcentage |Pourcentage de flux correctement définis pour lesquels le chemin de médias ne s’est pas terminé correctement. | Nombre total d’appels courts
+|Total Call Dropped Failure Percentage |Pourcentage |Pourcentage de flux correctement définis pour lesquels le chemin de médias ne s’est pas terminé correctement.| 
 |Total Answer Seizure Ratio |Taux |Taux d'appels d'une durée de moins de cinq secondes sur l'ensemble des appels. |
 |Total Short Call Percentage |Pourcentage |Pourcentage du total des appels d’une durée de moins d’une minute. |
 |Total Media Failure Percentage |Pourcentage |Pourcentage de flux pour lesquels le chemin de médias n'a pas pu être établi ou ne s'est pas terminé correctement. |
@@ -521,8 +521,8 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 |Firewall IP Blocked Media Failure Percentage |Pourcentage |Pourcentage de flux qui n’ont pas pu être établis, car l’équipement réseau a empêché l’accès à des serveurs Skype entreprise. Ces erreurs indiquent généralement qu’un proxy, un pare-feu ou un autre périphérique de sécurité réseau n’est pas configuré correctement pour accéder à l’adresse IP et aux ports utilisés par Skype entreprise dans Office 365. |
 | Échec du média en raison d’un autre nombre de flux|Nombre de flux| Nombre de flux pour lesquels le chemin de médias n’a pas pu être établi entre les points de terminaison en raison d’une raison non déterminée ou non classée.| |
 | Pourcentage d’autres échecs de média|Pourcentage| Pourcentage de flux pour lesquels le chemin de médias n’a pas pu être établi entre les points de terminaison en raison d’une raison non déterminée ou non classée. ||
-| Nombre total d’appels de CDR disponibles|Nombre de flux|Nombre total de flux multimédias avec des informations de fiabilité et de diagnostic disponibles.|
-| Nombre total d’appels d’échecs de média|Nombre de flux|Nombre de flux pour lesquels le chemin de médias n’a pas pu être établi entre les points de terminaison.|
+| Nombre total d’appels de CDR disponibles|Nombre de flux|Nombre total de flux multimédias avec des informations de fiabilité et de diagnostic disponibles. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+| Nombre total d’appels d’échecs de média|Nombre de flux|Nombre de flux pour lesquels le chemin de médias n’a pas pu être établi entre les points de terminaison. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
 |Audio Stream Count |Nombre de flux |Nombre de flux audio. |
 |Audio Poor Stream Count |Nombre de flux |Nombre de flux audio classés comme médiocres selon les mesures réseau répertoriées ici : [classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md). |
  |Audio Good Stream Count |Nombre de flux |Nombre de flux audio classés comme bons selon les mesures réseau répertoriées ici : [classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md). |
@@ -543,11 +543,11 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 |Audio Poor Call Stream Count |Nombre de flux |Nombre de flux audio pour lesquels au moins un flux audio de l’appel (la jambe) a été considéré comme médiocre selon les mesures réseau répertoriées ici : [classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md). |
 |Audio Unclassified Call Stream Count |Nombre de flux |Nombre de flux audio pour lesquels les flux audio de l’appel (Leg-Leg) ne pouvaient pas être classés en raison de mesures réseau manquantes. |
 |Pourcentage de niveau d’appels audio médiocre |Pourcentage |Pourcentage de flux audio pour lesquels au moins un flux audio lors de l’appel (la jambe) a été considéré comme médiocre selon les mesures réseau répertoriées ici : [classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md). |
-| Nombre d’appels audio | Numéro |Nombre d’appels impliquant du son.| |
-| Nombre d’appels audio médiocres|Numéro  |Nombre d’appels utilisant un son classé comme médiocre.|
-| Nombre de bons appels audio |Nombre d'appels|Nombre d’appels en fonction du son classé comme bon.|
-| Nombre d’appels audio non classés |Nombre d'appels|Nombre d’appels impliquant du son qui n’ont pas pu être considérés comme bon ou médiocre.|
-| Audio Poor Call Percentage |Pourcentage d’appels|Pourcentage d’appels utilisant un son classé comme médiocre.|
+| Nombre d’appels audio | Numéro |Nombre d’appels impliquant du son. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+| Nombre d’appels audio médiocres|Numéro  |Nombre d’appels utilisant un son classé comme médiocre. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+| Nombre de bons appels audio |Nombre d'appels|Nombre d’appels en fonction du son classé comme bon. Il y a une erreur de 0,2% pour cette mesure. Pour plus d’informations, consultez les remarques ci-dessous.|
+| Nombre d’appels audio non classés |Nombre d'appels|Nombre d’appels impliquant du son qui n’ont pas pu être considérés comme bon ou médiocre. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+| Audio Poor Call Percentage |Pourcentage d’appels|Pourcentage d’appels utilisant un son classé comme médiocre. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
 |AppSharing Stream Count |Nombre de flux |Nombre de flux de partage d’application en fonction du protocole RDP. |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |Nombre de flux |Nombre de flux de partage d’application pour lesquels la mesure du total du pourcentage de vignettes abîmées dépasse le seuil défini ici : [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md). |
 |AppSharing Poor Due To RelativeOneWayAverage Count |Nombre de flux |Nombre de flux de partage d’application pour lesquels la mesure du total du pourcentage de vignettes abîmées dépasse le seuil défini ici : [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md). |
@@ -662,18 +662,18 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 | Deuxième taux moyen de problèmes de micro|Nombre de problèmes|Moyenne du deuxième taux de problèmes du micro (les problèmes de 5 minutes pour le micro de point de terminaison) pour le flux. ||
 | Première proportion de problèmes de haut-parleurs|Nombre de problèmes|Moyenne du premier niveau de problème de haut-parleur (problèmes de 5 minutes pour le haut-parleur de point de terminaison) pour le flux. |
 | Deuxième fréquence moyenne des problèmes de haut-parleur|Nombre de problèmes|Moyenne du deuxième taux de problèmes de haut-parleur (les problèmes de 5 minutes pour le haut-parleur de point de terminaison) pour le flux. |
-| Nombre d’utilisateurs premiers|Numéro | Nombre d’utilisateurs du premier point de terminaison uniques ou distincts.| |
-| Nombre de deuxièmes utilisateurs|Numéro|Nombre d’utilisateurs de points de terminaison uniques ou distincts.|
+| Nombre d’utilisateurs premiers|Numéro | Nombre d’utilisateurs du premier point de terminaison uniques ou distincts. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.| 
+| Nombre de deuxièmes utilisateurs|Numéro|Nombre d’utilisateurs de points de terminaison uniques ou distincts. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
 | Première proportion d’événement de problèmes liés à l’appareil|Pourcentage|Fraction moyenne des appels détectés par le premier point de terminaison ou des espaces dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu multimédia envoyé ou reçu.|
 | Deuxième proportion d’événement de problèmes de périphérique moyenne|Pourcentage|Fraction moyenne de l’appel que le deuxième point de terminaison a détecté des problèmes ou des lacunes dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu envoyé ou reçu.|
 | Première proportion d’événement de problèmes liés à l’appareil|Nombre de flux pour lesquels le premier point de terminaison a détecté des problèmes importants dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu multimédia envoyé ou reçu.||
 | Deuxième nombre d’événements de problèmes liés à l’appareil|Nombre de flux pour lesquels le deuxième point de terminaison a détecté des problèmes importants ou des lacunes dans le contenu multimédia lu ou capturé et ayant entraîné une mauvaise qualité du contenu envoyé ou reçu.||
-| Nombre total de tentatives RTC | Nombre d'appels | Nombre total de tentatives d’appel, y compris les appels réussis et les appels qui n’ont pas abouti dans la période sélectionnée.|
-|Nombre total de connexions RTC | Nombre d'appels | Total des appels réussis dans la plage de temps sélectionnée.|
-|Nombre de tentatives entrantes RTC | Nombre d'appels | Nombre total de tentatives d’appels entrants, y compris les appels réussis et les appels en échec dans la plage de temps sélectionnée.|
-|Nombre de connexions entrantes RTC | Nombre d'appels | Nombre total de connexions entrantes avec succès dans la plage horaire sélectionnée.|
-|Nombre de tentatives RTC sortantes | Nombre d'appels | Nombre total d’appels entrants sortants, y compris les appels réussis et les appels en échec de la période sélectionnée.|
-|Nombre de connexions sortantes RTC | Nombre d’appels | Nombre total de connexions sortantes réussies dans la plage de temps sélectionnée.|
+| Nombre total de tentatives RTC | Nombre d'appels | Nombre total de tentatives d’appel, y compris les appels réussis et les appels qui n’ont pas abouti dans la période sélectionnée. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+|Nombre total de connexions RTC | Nombre d'appels | Total des appels réussis dans la plage de temps sélectionnée. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+|Nombre de tentatives entrantes RTC | Nombre d'appels | Nombre total de tentatives d’appels entrants, y compris les appels réussis et les appels en échec dans la plage de temps sélectionnée. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+|Nombre de connexions entrantes RTC | Nombre d'appels | Nombre total de connexions entrantes avec succès dans la plage horaire sélectionnée. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+|Nombre de tentatives RTC sortantes | Nombre d'appels | Nombre total d’appels entrants sortants, y compris les appels réussis et les appels en échec de la période sélectionnée. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
+|Nombre de connexions sortantes RTC | Nombre d’appels | Nombre total de connexions sortantes réussies dans la plage de temps sélectionnée. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
 |Nombre total de minutes RTC | Minutes | Nombre total de minutes | Utilisation du total des minutes dans la plage de temps sélectionnée.|
 |Nombre total de minutes entrantes RTC | Minutes | Nombre total de minutes entrantes pendant la période sélectionnée.|
 |Nombre total de minutes d’appels sortants RTC | Minutes | Utilisation du total des minutes sortantes dans la plage horaire sélectionnée.|
@@ -686,14 +686,19 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 |P50 taux de perte de paquets | Pourcentage | 50% des requêtes doivent avoir une valeur inférieure au taux de perte de paquets indiqué.|
 |Retard de l’appel sortant RTC| Millisecondes | Le délai qui se produit sur les appels sortants mesuré à partir de la date à laquelle un numéro a été composé jusqu’à ce que l’appelant ou le appelé partie entend sonner.|
 |Retard de l’appel entrant RTC | Millisecondes | Temps ou délai qui se produit à partir de la date à laquelle le numéro a été numéroté jusqu’à ce que l’appelant ou le contact appelle la sonnerie.|
-|Pourcentage de bon NER RTC | Pourcentage | Le NER mesure la capacité d’un réseau à remettre des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.<br/>NER = (appels à la demande + utilisateur occupé + sonner + réponse + borne de rejet de borne)/nombre total d’appels x 100|
+|Pourcentage de bon NER RTC | Pourcentage | Le NER mesure la capacité d’un réseau à remettre des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.<br/>NER = (appels en réponse + utilisateur occupé + sonner + réponse + port de rejet de terminaux)/tentative d’utilisation du total des appels x 100. il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
 ||||
+
+### <a name="notes-on-measurements"></a>Remarques sur les mesures
+
+#### <a name="accuracy-limitations"></a>Limitations de la précision
+Certaines mesures de nombre d’utilisateurs et d’appels s’appuient sur l’exécution d’une opération NB.si distincte sur le jeu de données pour calculer le nombre. Il existe actuellement une erreur de 0,2% inhérente à l’opération NB.si distincte, en fonction du nombre de lignes sur lesquelles l’opération est effectuée. Pour obtenir le volume le plus précis, vous devez utiliser les mesures de nombre de flux, car elles ne dépendent pas de cette opération NB.si distincte. Le filtrage permettant de réduire le volume de données risque de réduire l’erreur, mais n’a pas pu éliminer cette source d’erreur dans les compteurs d’appels et d’utilisateurs distincts. Vous trouverez des informations supplémentaires sur cette limitation dans la [fonction DCount](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction).
 
 ## <a name="filters"></a>Filtres
 
 De nombreux valeurs de dimensions et de mesures peuvent également être utilisées comme filtres. Vous pouvez utiliser des filtres dans votre requête pour éliminer les informations de la même façon que vous sélectionnez une dimension ou une mesure pour ajouter ou inclure des informations dans la requête.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 

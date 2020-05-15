@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Suisse.
-ms.openlocfilehash: a68806337d09dba9fd989df40b409351ecb2928a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour la Suisse.
+ms.openlocfilehash: 2424355a6b370536e5844ac766ca3f0215f4bb1a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852361"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230672"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilité en Suisse
 
@@ -39,7 +39,7 @@ ms.locfileid: "41852361"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Suisse.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour la Suisse.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 

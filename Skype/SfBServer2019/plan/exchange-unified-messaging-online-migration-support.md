@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042831"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232559"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration de messagerie unifiée Exchange Online
 
@@ -82,7 +82,7 @@ Microsoft a identifié divers déploiements de clients qui utilisent des fonctio
     Pour plus d’informations sur la migration de vos utilisateurs, consultez le centre de notification de l’administrateur. Les notifications sont envoyées au moins 30 jours avant la période de migration. 
 
     > [!Note]
-    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et souhaitez reporter votre migration pour une raison stratégique, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas reporter votre migration au-delà de la date de déclassement, du 28 février 2020. Pour les clients qui peuvent avoir des questions supplémentaires, contactez votre équipe de compte ou le support Microsoft. Les clients qui utilisent déjà Office 365 peuvent soumettre un cas de support via le centre d’administration Microsoft 365. 
+    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et souhaitez reporter votre migration pour une raison stratégique, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas reporter votre migration au-delà de la date de déclassement, du 28 février 2020. Pour les clients qui peuvent avoir des questions supplémentaires, contactez votre équipe de compte ou le support Microsoft. Les clients qui utilisent déjà Microsoft 365 ou Office 365 peuvent soumettre un cas de support via le centre d’administration Microsoft 365. 
 
 6. **Envisager d’opter pour une migration planifiée**
 
@@ -104,7 +104,7 @@ Microsoft a identifié divers déploiements de clients qui utilisent des fonctio
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instructions de migration du standard automatique
 
-Les administrateurs d’organisation Office 365 sont tenus de recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Cloud de Microsoft et d’y faire passer leurs numéros de téléphone locaux avant le 28 février 2020, ce qui est le cas lorsque le service UMO Exchange est retiré. Il s’agit de la règle recommandée pour réussir la migration et le test de nouveaux standards automatiques Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique de messagerie unifiée Exchange pour les scripts de migration de standard](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatique de Cloud afin de simplifier la migration en bloc des standards automatiques.
+Les administrateurs de l’organisation Microsoft 365 et Office 365 doivent recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Cloud de Microsoft et faire en sorte que leurs numéros de téléphone locaux soient déclassés avant le 28 février 2020. Il s’agit de la règle recommandée pour réussir la migration et le test de nouveaux standards automatiques Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique de messagerie unifiée Exchange pour les scripts de migration de standard](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatique de Cloud afin de simplifier la migration en bloc des standards automatiques.
 
 ### <a name="setup"></a>Installation
 

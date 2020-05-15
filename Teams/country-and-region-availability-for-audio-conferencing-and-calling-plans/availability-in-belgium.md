@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Belgique.
-ms.openlocfilehash: 5ae173e270c51f0c901a267f2f2d0b5b018c7db1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible en Belgique.
+ms.openlocfilehash: fa5db15e5cc312e070f77724bc384f49621fcbef
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684037"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231203"
 ---
 # <a name="availability-in-belgium"></a>Disponibilité en Belgique
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Belgique.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible en Belgique.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 

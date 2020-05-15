@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Tunisie.
-ms.openlocfilehash: 62c082e8ad89de4691f023663c59c24de1c3890c
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Tunisie.
+ms.openlocfilehash: e3f9c68cd9129f16bf389c536a58fedb7b7e0c40
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852021"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230322"
 ---
 # <a name="availability-in-tunisia"></a>Disponibilité en Tunisie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Tunisie.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Tunisie.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 

@@ -1,5 +1,5 @@
 ---
-title: Script d’authentification du panneau de configuration Skype entreprise Server 2019
+title: Script d’authentification du panneau de configuration de Skype entreprise Server 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Script d’assistance pour configurer l’authentification du panneau de configuration marketing 2019 avec Office 365 par le biais du protocole OAuth.
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Script d’assistance permettant de configurer l’authentification du panneau de configuration SFB 2019 avec Microsoft 365 ou Office 365 via le protocole OAuth.
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887723"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232595"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Script d’authentification du panneau de configuration Skype entreprise Server 2019
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Script d’authentification du panneau de configuration de Skype entreprise Server 2019
 
-Ce script doit être exécuté après l’installation de Skype entreprise Server 2019 cumulative 1, dans le cadre de la configuration du nouveau panneau de configuration. Ce script crée une application Azure AD sur Azure. Cela vous permettra de vous connecter à Office 365 à l’aide de OAuth dans le nouveau panneau de configuration.
+Ce script doit être exécuté après l’installation de la mise à jour cumulative 1 de Skype entreprise Server 2019, dans le cadre de la configuration du nouveau panneau de configuration. Ce script crée une application Azure AD sur Azure. Cela vous aidera à vous connecter à Microsoft 365 ou à Office 365 à l’aide de OAuth dans le nouveau panneau de configuration.
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.

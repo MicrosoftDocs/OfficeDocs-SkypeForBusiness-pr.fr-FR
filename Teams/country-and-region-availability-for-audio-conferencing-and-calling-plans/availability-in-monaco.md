@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles à Monaco.
-ms.openlocfilehash: 18345dfb3ead9643b807851bc1671584cab83cb8
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour Monaco.
+ms.openlocfilehash: 752119e072158f6ff516afa63fc507194c6bc154
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852916"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230382"
 ---
 # <a name="availability-in-monaco"></a>Disponibilité à Monaco
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles à Monaco.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour Monaco.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 

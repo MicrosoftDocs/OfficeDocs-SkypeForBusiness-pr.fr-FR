@@ -24,50 +24,50 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Brésil.
-ms.openlocfilehash: d07ed05218f878ebf80502099fdb4a1b0b0a3913
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Brésil.
+ms.openlocfilehash: 438bc74a418c10a9826d7c391941d2d14b43d23a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853789"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230622"
 ---
 # <a name="availability-in-brazil"></a>Disponibilité au Brésil
 
-[Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
+[Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Brésil.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Brésil.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
-|**Fonctionnalité**|**Détails**|
+|**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Sao Paulo</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 
-|**Fonctionnalité**|**Détails**|
+|**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
-| Standards automatiques <br/> |Disponibles  <br/> |
-|Files d'attente des appels  <br/> |Disponibles  <br/> |
-|Messagerie vocale  <br/> |Disponibles  <br/> |
+| Les standards automatiques <br/> |Disponible  <br/> |
+|Files d'attente des appels  <br/> |Disponible  <br/> |
+|Messagerie vocale  <br/> |Disponible  <br/> |
    
-## <a name="calling-plans"></a>Forfaits d'appels
+## <a name="calling-plans"></a>Forfaits d’appel
 
-|**Fonctionnalité**|**Détails**|
+|**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’utiliser le [routage direct du système téléphonique](../direct-routing-landing-page.md). Avec le routage direct, vous pouvez utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
-|**Fonctionnalité**|**Détails**|
+|**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Rio de Janeiro <li>  Sao Paulo <li>Autres villes [à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
@@ -77,7 +77,7 @@ Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’util
   
 ## <a name="communications-credits"></a>Crédits de communication
 
-|**Fonctionnalité**|**Détails**|
+|**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
@@ -87,8 +87,8 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 #### <a name="other-resources"></a>Autres ressources
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: fbf1f2aafdaf2a05d303548e45f56ab519af9493
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible au Canada.
+ms.openlocfilehash: b2ee63ca498e810d7eebdb80ab6252ce97864401
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695259"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230963"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible au Canada.
 
 ## <a name="audio-conferencing"></a>Audioconférence,
 

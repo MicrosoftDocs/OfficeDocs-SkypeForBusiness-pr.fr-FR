@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez vos serveurs Skype entreprise Server 2019 et votre infrastructure de domaine à l’aide de cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, toutes les exigences système et les recommandations, ainsi que les informations de certificat DNS, de partage de fichiers et d’Active Directory, sont ici pour vous aider à réussir l’installation et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 7e0e8e3480c849fadd32921a5859766133ec1166
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 8bb12fa9f5d0cd0144604f21d311c50f7f63b0f4
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240534"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232375"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019
  
@@ -117,7 +117,7 @@ Certains éléments doivent être installés ou configurés pour n’importe que
   
  **Tous les serveurs :**
   
-|**Logiciels/rôles**|**Details**|
+|**Logiciels/rôles**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous les serveurs Skype entreprise Server nécessitent Windows PowerShell 3,0.  <br/> • Il doit être installé par défaut avec Windows Server 2016.<br/> |
 |Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** installée en tant que fonctionnalité Windows, sous **Gestionnaire de serveur**, sans aucun téléchargement nécessaire. <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous l’archivez, que l’option d' **activation http** est également vérifiée et installée, de la manière suivante : <br/> ![Capture d’écran illustrant l’option d’activation HTTP sous les fonctionnalités .NET Framework 4,5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal ; Cliquez sur OK et continuez. Si vous n’obtenez pas cette fenêtre contextuelle, vous pouvez supposer que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lors de l’installation de Windows Server 2016. Skype entreprise Server requiert Microsoft .NET Framework 4,7 ou 4,8 Cependant, vous auriez probablement besoin de le mettre à jour. Vous trouverez la mise à jour [ici](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
@@ -127,7 +127,7 @@ Certains éléments doivent être installés ou configurés pour n’importe que
    
  **Les serveurs frontaux et le serveur Standard Edition ont également besoin des éléments suivants :**
   
-|**Logiciels/rôles**|**Details**|
+|**Logiciels/rôles**|**Détails**|
 |:-----|:-----|
 |Internet Information Services (IIS)  <br/> |IIS est nécessaire sur tous les serveurs frontaux, ainsi que sur tous les serveurs Standard Edition, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Intégrité et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des requêtes, authentification par mappage de certificat client, authentification Windows  <br/> • Développement d’applications : extensibilité .NET 3,5, extensibilité .NET 4,5, ASP.NET 3,5, ASP.NET 4,5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que lorsque vous installez les services Internet (IIS), vous n’avez pas besoin d’un emplacement pour le sélectionner dans la liste.  <br/> |
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, vous devez installer la fonctionnalité **Media Foundation** dans le **Gestionnaire de serveur**. Vous pouvez commencer votre installation de Skype entreprise Server 2019 sans cela, mais vous serez invité à l’installer, puis à redémarrer le serveur, avant que l’installation de Skype entreprise Server 2019 ne se poursuive. Il est préférable de le faire à l’avance. <br/> |
@@ -268,7 +268,7 @@ Les systèmes d’exploitation de contrôleur de domaine suivants peuvent être 
     
 Le niveau fonctionnel de tout domaine sur lequel vous déployez Skype entreprise Server 2019 et le niveau fonctionnel de la forêt dans lequel vous déployez Skype entreprise Server 2019 doivent être l’un des suivants :
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -357,11 +357,11 @@ Dans cette topologie, il existe une ou plusieurs forêts d’utilisateurs, et Sk
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Plusieurs forêts dans une topologie de forêt de ressources avec Skype entreprise Online et Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Présente deux forêts Active Directory, une forêt utilisateur et une forêt de ressources. Les deux forêts ont une relation d’approbation. Elles sont synchronisées avec Office 365 à l’aide d’Azure AD Connect. Tous les utilisateurs sont activés pour Skype entreprise via Office 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Présente deux forêts Active Directory, une forêt utilisateur et une forêt de ressources. Les deux forêts ont une relation d’approbation. Elles sont synchronisées avec Microsoft 365 à l’aide d’Azure AD Connect. Tous les utilisateurs sont activés pour Skype entreprise via Microsoft 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-Dans ce scénario, il y a plusieurs forêts en local, avec une topologie de forêt de ressources. Il existe une relation de confiance totale entre les forêts Active Directory. L’outil Azure Active Directory Connect est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locales et Office 365.
+Dans ce scénario, il y a plusieurs forêts en local, avec une topologie de forêt de ressources. Il existe une relation de confiance totale entre les forêts Active Directory. L’outil Azure Active Directory Connect est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locales et Microsoft 365 ou Office 365.
   
- L’organisation dispose également d’Office 365 et utilise [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) pour synchroniser ses comptes locaux avec Office 365. Les utilisateurs qui sont activés pour Skype entreprise sont activés via Office 365 et Skype entreprise online. Skype entreprise Server n’est pas déployé en local.
+ L’organisation dispose également de Microsoft 365 ou Office 365, et utilise [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) pour synchroniser ses comptes locaux avec Microsoft 365 ou Office 365. Les utilisateurs qui sont activés pour Skype entreprise sont activés via Microsoft 365 ou Office 365 et Skype entreprise online. Skype entreprise Server n’est pas déployé en local.
   
 L’authentification unique est fournie par une batterie de serveurs AD FS (Active Directory Federation Services) située dans la forêt de l’utilisateur.
   
@@ -464,24 +464,24 @@ Certificats pour les serveurs Standard Edition :
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet (FQDN) du pool et nom de domaine complet du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur les serveurs Standard Edition, le nom de domaine complet du serveur est le même que le nom de domaine complet du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN =\*. contoso.com  <br/> |Vous ne pouvez pas remplacer le nom de domaine complet Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant que San.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • Répondre aux URL simples par domaine SIP  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = \* . contoso.com  <br/> |Vous ne pouvez pas remplacer le nom de domaine complet Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant que San.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • Répondre aux URL simples par domaine SIP  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
 Certificats pour les serveurs frontaux dans un pool frontal :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet (FQDN) du pool et nom de domaine complet du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN = EEpool. contoso. com ; SAN = EEpool. contoso. com ; SAN = ee01. contoso. com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (qui n’est pas le même que le nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (qui n’est pas le même que le nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
 Certificats pour le directeur :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |pool directeur  <br/> |Nom de domaine complet (FQDN) du directeur, nom de domaine complet du pool directeur.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour SIP. sipdomain (pour chaque domaine SIP dont vous disposez).  <br/> |pool.contoso.com ; SAN = DIR01. contoso. com  <br/> Si ce pool directeur est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = DIR01. contoso. com ; SAN = DIR01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = DIR01. contoso. com SAN =\*. contoso.com  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • Répondre aux URL simples par domaine SIP  <br/> • URL simple d’accès à distance  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |Le nom de domaine complet du directeur de site Web externe doit être différent du pool frontal ou du serveur frontal.  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN =\*. contoso.com  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet du pool Skype entreprise  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = DIR01. contoso. com ; SAN = DIR01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = DIR01. contoso. com SAN = \* . contoso.com  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • Répondre aux URL simples par domaine SIP  <br/> • URL simple d’accès à distance  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |Le nom de domaine complet du directeur de site Web externe doit être différent du pool frontal ou du serveur frontal.  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN = \* . contoso.com  <br/> |
    
 Certificats pour le serveur de médiation autonome :
   
@@ -493,7 +493,7 @@ Certificats pour Survivable Branch Appliance (en particulier, Survivable Branch 
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP. \<sipdomain\> (vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
+|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP. \< sipdomain \> (vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-external-user-access-edge"></a>Certificats pour l’accès des utilisateurs externes (Edge)
 
@@ -523,16 +523,16 @@ Conditions requises pour les certificats de pool directeur et de pool frontal :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
-|URL du service de découverte automatique interne  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
-|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
+|URL du service de découverte automatique interne  <br/> |SAN = lyncdiscoverinternal. \< sipdomain\>  <br/> |
+|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
    
-Vous pouvez également utiliser SAN =\*. \<sipdomain\>
+Vous pouvez également utiliser SAN = \* . \< sipdomain\>
   
 Conditions requises pour le certificat de proxy inverse (autorité de certification publique) :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
-|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
+|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
    
 Ce SAN doit être affecté au certificat qui est affecté à l’écouteur SSL sur votre proxy inverse.
   
@@ -554,7 +554,6 @@ Skype entreprise Server 2019 peut utiliser le même partage de fichiers pour tou
 > [!CAUTION]
 > Il est important de comprendre que l’utilisation du stockage rattaché au réseau (NAS) comme partage de fichiers n’est pas prise en charge ; vous pouvez donc utiliser l’une des options indiquées ci-dessus. Cette limitation de prise en charge est causée par la conception variable des périphériques NAS qui doivent fournir une adaptabilité du système de fichiers à l’ordinateur Windows Server qui accède au système de fichiers partagé des appareils.
   
-
 
 
 

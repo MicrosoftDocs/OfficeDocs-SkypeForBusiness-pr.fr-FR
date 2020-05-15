@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Vietnam.
-ms.openlocfilehash: c2201115b903eae39a78c318f1b0e50b21954cd7
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Viêt Nam.
+ms.openlocfilehash: 9f8f946a41c92a1ae3be0cd46023c7d8c87acff8
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852031"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230843"
 ---
 # <a name="availability-in-vietnam"></a>Disponibilité au Vietnam
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Vietnam.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Viêt Nam.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 

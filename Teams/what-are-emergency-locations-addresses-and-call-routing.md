@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141027"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232545"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -90,7 +90,7 @@ Lorsque l’emplacement doit être associé au numéro de téléphone dépend du
 
 Les appels d’urgence dynamiques pour les plans d’appel Microsoft offrent la possibilité de configurer et d’acheminer les appels d’urgence en fonction de l’emplacement actuel du client Teams. La possibilité de procéder au routage automatique vers le point d’accès à la sécurité publique approprié (PSAPI) ou de notifier le personnel de votre support technique dépend du pays d’utilisation de l’utilisateur de teams.  
 
-Pour l’instant, seules les utilisateurs de plan d’appels aux États-Unis peuvent tirer parti d’emplacements dynamiques pour le routage des appels d’urgence comme suit :
+Pour les utilisateurs d’un plan d’appels, l’emplacement dynamique pour le routage des appels d’urgence est uniquement pris en charge aux États-Unis comme suit. (Pour plus d’informations sur les appels d’urgence dynamiques et le routage direct, voir [considérations relatives au routage direct](#considerations-for-direct-routing).
 
 - Si un client teams pour une offre d’appels vers les États-Unis acquiert dynamiquement une adresse d’urgence à l’intérieur des États-Unis, cette adresse est utilisée pour le routage d’urgence au lieu de l’adresse enregistrée, et l’appel est automatiquement acheminé vers le PSAPI dans la zone de service de l’adresse.
 
@@ -211,7 +211,7 @@ Un TeamsEmergencyCallingPolicy peut être accordé à un compte d’utilisateur 
 Au cours d’un appel d’urgence, un support technique est retenu dans le cadre de l’appel et l’utilisateur du support technique est contrôlé en fonction du TeamsEmergencyCallingPolicy. Une discussion de groupe est lancée pour chaque membre du support technique et l’emplacement de l’appelant d’urgence est partagé par le biais d’une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du support technique peut également être appelé dans le cadre de la Conférence.
 
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)

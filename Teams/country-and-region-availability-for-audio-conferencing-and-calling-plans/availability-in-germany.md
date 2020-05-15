@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
-ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
+ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951199"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231163"
 ---
 # <a name="availability-in-germany"></a>Disponibilité en Allemagne
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en France.
-ms.openlocfilehash: 5d9532cfb10e4968866d57ed2b0fece3b04312ab
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour la France.
+ms.openlocfilehash: fff316dfaa0292a5afc1cc02304f09772c211d32
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683897"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230913"
 ---
 # <a name="availability-in-france"></a>Disponibilité en France
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en France.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour la France.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 
