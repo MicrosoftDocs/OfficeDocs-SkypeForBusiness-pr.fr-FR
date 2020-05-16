@@ -21,12 +21,12 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327996"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256449"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
@@ -47,13 +47,15 @@ Ce paramètre est désactivé par défaut.
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode est une plate-forme de codage basée sur blocs qui donne vie à l’informatique à tous les étudiants. 
+Microsoft MakeCode est une plate-forme de codage basée sur blocs qui donne vie aux sciences de l’ordinateur pour tous les étudiants. 
 
-Il s’agit d’un produit ou service tiers soumis à ses propres conditions et politique de confidentialité. Vous êtes responsable de l’utilisation de produits et services tiers.
+MakeCode est un produit Microsoft soumis aux [conditions d’utilisation](https://go.microsoft.com/fwlink/?LinkID=206977) et aux politiques de [confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839) de Microsoft.
 
-Ce paramètre est désactivé par défaut.
+Ce paramètre est désactivé par défaut. Pour activer les affectations MakeCode dans Teams, dans le **Centre d’administration teams**, accédez à la section **affectations** , puis activez l’option bascule **MakeCode.** Cliquez sur **Enregistrer** et attendez jusqu’à 24 heures pour que les paramètres soient pris en compte.
 
-[En savoir plus sur MakeCode](https://www.microsoft.com/makecode)
+Pour plus d’informations sur le fonctionnement de cette fonctionnalité, consultez cette [démonstration vidéo](https://makecode.com/blog/teams/teams-assignments).
+
+[En savoir plus sur MakeCode](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin

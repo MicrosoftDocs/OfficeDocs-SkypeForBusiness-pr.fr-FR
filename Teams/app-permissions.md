@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997185"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256479"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -57,17 +57,21 @@ Aucun
 
 ### <a name="considerations"></a>Inconvénients
 
-Une application doit divulguer les données qu’elle utilise et quelles sont les données utilisées dans ses conditions générales d’utilisation et de politique de confidentialité.</td>
+- Une application doit divulguer les données qu’elle utilise et quelles sont les données utilisées dans ses conditions générales d’utilisation et de politique de confidentialité.
+
+- Le [consentement spécifique aux ressources](resource-specific-consent.md) fournit un ensemble d’autorisations que les applications peuvent demander, qui s’affichent sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir informations de référence sur les [autorisations de graphique](https://docs.microsoft.com/graph/permissions-reference).
+
+- Les applications doivent également disposer d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Après l’installation d’une application, l’application peut demander des autorisations de graphique à l’aide d’une invite de consentement. Pour en savoir plus, voir [Présentation des expériences de consentement des applications Azure ad](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Vous pouvez configurer les autorisations et l’autorisation d’API dans le portail Azure. Pour en savoir plus, voir [infrastructure d’autorisation d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 
 ## <a name="bots-and-messaging-extensions"></a>Robots et extensions de messagerie
 
 ### <a name="required-permissions"></a>Autorisations requises
 
-- RECEIVE_MESSAGE, REPLYTO_MESSAGE. Le bot peut recevoir des messages des utilisateurs et leur répondre.<sup>1</sup>
+- RECEIVE_MESSAGE REPLYTO_MESSAGE. Le bot peut recevoir des messages des utilisateurs et y répondre. <sup>1</sup>
 
 - POST_MESSAGE_USER. Dès qu’un utilisateur a envoyé un message à un bot, le bot peut lui envoyer des messages directs (également appelés *messages proactifs* à tout moment.
 
-- GET_CHANNEL_LIST. Les bots ajoutés à des équipes peuvent obtenir la liste des noms et des ID des canaux d’une équipe.
+- GET_CHANNEL_LIST. Les robots ajoutés aux équipes peuvent obtenir une liste de noms et d’ID des canaux d’une équipe.
 
 ### <a name="optional-permissions"></a>Autorisations facultatives
 
@@ -101,7 +105,7 @@ Une application doit divulguer les données qu’elle utilise et quelles sont le
 
 - Lorsqu’un fichier est envoyé à un bot, le fichier quitte le réseau d’entreprise. Pour envoyer et recevoir des fichiers, l’utilisateur doit approuver chaque fichier. 
 
-- Par défaut, les robots ne peuvent pas agir de la part de l’utilisateur, mais les robots peuvent demander aux utilisateurs de se connecter ; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès permettant d’effectuer d’autres actions. Exactement ce que ces éléments supplémentaires dépendent du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure https://apps.dev.microsoft.com/ ad inscrite sur et peut avoir son propre jeu d’autorisations.
+- Par défaut, les robots ne peuvent pas agir de la part de l’utilisateur, mais les robots peuvent demander aux utilisateurs de se connecter ; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès permettant d’effectuer d’autres actions. Exactement ce que ces éléments supplémentaires dépendent du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure AD inscrite sur https://apps.dev.microsoft.com/ et peut avoir son propre jeu d’autorisations.
 
 - Les robots sont informés lorsque les utilisateurs sont ajoutés ou supprimés d’une équipe.
 
@@ -150,7 +154,7 @@ POST_MESSAGE_CHANNEL
 
 REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages interactifs, ce qui permet aux utilisateurs de publier des réponses ciblées au message du connecteur, par exemple en ajoutant une réponse à un problème de GitHub ou en ajoutant une date à une carte Trello.
 
-### <a name="considerations"></a>Points à prendre en compte
+### <a name="considerations"></a>Inconvénients
 
 - Le système qui publie des messages de connecteur ne sait pas à qui il envoie des messages ou qui les reçoit : aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, et non le locataire ; Microsoft effectue le billet réel sur le canal.)
 
@@ -181,7 +185,7 @@ RECEIVE_MESSAGE REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et 
 
 Aucun
 
-### <a name="considerations"></a>Points à prendre en compte
+### <a name="considerations"></a>Inconvénients
 
 - Les raccordements Web sortants sont similaires aux robots, mais ils ont moins de privilèges. Elles doivent être mentionnées explicitement, comme les robots.
 

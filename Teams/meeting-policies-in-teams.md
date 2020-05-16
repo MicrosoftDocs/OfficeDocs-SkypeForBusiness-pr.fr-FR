@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139208"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256499"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -78,7 +78,7 @@ Pour attribuer une stratégie à plusieurs utilisateurs à la fois, consultez l�
 
 Vous pouvez également effectuer les opérations suivantes :
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à** > **stratégies de réunion**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies de réunion**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -327,7 +327,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes anonymes, y compris les utilisateurs interentreprises, et les utilisateurs fédérés, peuvent rejoindre la réunion de l’utilisateur sans qu’un utilisateur authentifié de l’organisation n’ait accès à celle-ci. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes anonymes, y compris les utilisateurs interentreprises, et les utilisateurs fédérés, peuvent rejoindre la réunion de l’utilisateur sans qu’un utilisateur authentifié de l’organisation n’ait accès à celle-ci. La valeur par défaut est False.
 
 ![Capture d’écran montrant un message à un utilisateur en attente](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion rejoignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs fédérés, les invités, les utilisateurs anonymes, ainsi que les personnes qui se connectent par téléphone.       |
 |**Tout le monde au sein de votre organisation et organisations fédérées**     |Utilisateurs authentifiés au sein de l’organisation, y compris utilisateurs invités et utilisateurs d’organisations fédérées, joignez directement la réunion sans attendre dans la salle d’attente.  Utilisateurs anonymes et utilisateurs qui se connectent par téléphone dans la salle d’attente.   |
-|**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Utilisateurs fédérés, utilisateurs anonymes et utilisateurs qui composent le numéro de téléphone dans la salle d’attente.           |
+|**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Utilisateurs fédérés, utilisateurs anonymes et utilisateurs qui composent le numéro de téléphone dans la salle d’attente. Il s’agit du paramètre par défaut.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** .
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False.
 
 Voici le comportement de participation des personnes qui se connectent par téléphone.
 
@@ -402,6 +402,16 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la con
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>Paramètres de la stratégie de réunion-rapport de participation à une réunion
+
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les organisateurs de la réunion peuvent télécharger le [rapport de présence](teams-analytics-and-reports/meeting-attendance-report.md)de la réunion.
+
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion teams existante à l’aide de l’applet de passe [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez créer une stratégie de réunion teams à l’aide de l’applet [de nouvelle cmdlet New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour permettre à un organisateur de la réunion de télécharger le rapport de présence de la réunion, définissez le paramètre **AllowEngagementReport** sur **Enabled**. Lorsque l’option est activée, l’option permettant de télécharger le rapport s’affiche dans le volet **participants** .
+
+Pour empêcher un organisateur de la réunion de télécharger le rapport, attribuez au paramètre la valeur **Disabled**. Par défaut, ce paramètre est désactivé et l’option permettant de télécharger le rapport n’est pas disponible.
+
 ## <a name="related-topics"></a>Sujets associés
 
-[Stratégies de messagerie dans teams](messaging-policies-in-teams.md)
+- [Présentation de Teams PowerShell](teams-powershell-overview.md)

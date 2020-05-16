@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902349"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256389"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Rapports d’activité de l’utilisateur Microsoft Teams 
 ========================================
@@ -32,7 +32,7 @@ Vous pouvez utiliser des rapports d’activité dans le centre d’administratio
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Comment afficher les rapports d’équipes dans le tableau de bord rapports ?
 
-1. Dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home), sélectionnez**utilisation**des **rapports** > .
+1. Dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home), sélectionnez utilisation des **rapports**  >  **Usage**.
  
 2. Sur la page **utilisation** , sélectionnez **Sélectionner un rapport**, puis sous **Microsoft teams** dans la liste des États, sélectionnez le rapport que vous souhaitez consulter.
 
@@ -101,7 +101,7 @@ Les rapports d’activité sont accessibles aux utilisateurs assignés :
 
 ### <a name="reports-reader-role"></a>Rôle du lecteur de rapports
 
-Vous pouvez affecter le rôle de *lecteur rapports* aux personnes qui ne sont pas du personnel informatique pour lesquelles vous souhaitez avoir accès à ces rapports. En attribuant ce rôle aux responsables de formations ou aux parties prenantes de l’entreprise, vous pouvez veiller à ce qu’ils aient accès aux informations utiles pour piloter et effectuer le suivi de l’adoption d’équipes.
+Vous pouvez affecter le rôle de *lecteur rapports* aux personnes qui ne sont pas du personnel informatique pour lesquelles vous souhaitez avoir accès à ces rapports. En attribuant ce rôle aux responsables de formations ou aux parties prenantes de l’entreprise, vous pouvez veiller à ce qu’ils aient accès aux informations utiles pour piloter et effectuer le suivi de l’adoption d’équipes. Pour plus d’informations sur l’affectation de rôles, voir [attribuer des rôles d’administrateur et d’administrateur aux utilisateurs d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Autres informations dans le tableau de bord rapports
 
