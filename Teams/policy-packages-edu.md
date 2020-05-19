@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139227"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278187"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -269,8 +269,14 @@ Ces paramètres permettront aux enseignants de contrôler l’accès à leurs r�
 - **Autoriser les personnes anonymes à démarrer une réunion** : **Désactivé**
 - **Admettre automatiquement les personnes** : **Tous les membres de votre organisation**
 - **Autoriser les utilisateurs de l'accès à distance à passer outre la salle d’attente** : **Désactivé**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>Stratégies de message
+<sup>1</sup> Ce paramètre ne figure pas dans le Centre d’administration Microsoft Teams, vous devez utiliser PowerShell pour définir le paramètre **DesignatedPresenterRoleMode** à l’aide de l’applet de commande [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) ou [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy). Définit la valeur par défaut du paramètre **Qui peut être présente ?** dans **Options de réunion** dans Teams sur **Uniquement moi**. Avec ce paramètre, seul l’organisateur de la réunion peut être présentateur et tous les autres participants à la réunion sont désignés comme participants. Pour en savoir plus, consultez [Paramètres de stratégie de réunion : mode de rôle de présentateur désigné](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
+
+> [!NOTE]
+> Pour les membres du personnel qui ne sont pas des enseignants, vous pouvez définir le paramètre sur **EveryoneUserOverride** (qui correspond au paramètre **Tout le monde** dans Teams) ou **EveryoneInCompanyUserOverride** (qui correspond au paramètre **Membres de mon organisation** dans Teams).
+
+### <a name="messaging-policies"></a>Stratégies de messagerie
 
 L’option **Les propriétaires peut supprimer les messages envoyés**définie sur **Activé** permet aux enseignants de surveiller les sessions de conversation et de supprimer les messages inappropriés dans les réunions de canal.
 
