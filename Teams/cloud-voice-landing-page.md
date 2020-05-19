@@ -20,12 +20,12 @@ search.appverid: MET150
 description: En savoir plus sur la fonctionnalité voix sur le Cloud et comprendre les décisions de déploiement nécessaires.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905906"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281669"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
@@ -151,7 +151,7 @@ Les standards automatiques du Cloud peuvent être utilisés pour créer un syst�
 
 Pour plus d’informations sur les appareils pris en charge, voir les rubriques suivantes :
 
-- [Gérer vos périphériques dans Microsoft Teams](device-management.md)
+- [Gérer vos périphériques dans Microsoft Teams](devices/device-management.md)
 - [Téléphones IP](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Périphériques audio et vidéo USB](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Communications intelligentes pour les appareils](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
