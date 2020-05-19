@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137904"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278177"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -36,11 +36,13 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 |Télécommande|Description|Options de contrôle|
 |:-----|:-----|:-----|
-|Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
+|Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|Toute destination (par défaut)</br>Dans le même pays ou la même région que le organizor </br> </br>Zonage uniquement dans les pays ou régions </br>Ne pas autoriser|
 |Appels RTC utilisateur final|Limite le type d'appels </br>qui peuvent être effectués par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
 
+Pour connaître les pays/régions qui sont considérés comme la zone A, consultez [la rubrique zone a pays/régions](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365).
+
    > [!NOTE]
-   > Un appel est considéré comme domestique si le numéro composé est dans le même pays que celui où Office 365 a été configuré pour l’organisateur de la réunion (dans le cas d’une audioconférence) ou l’utilisateur final (dans le cas d’appels RTC de l’utilisateur final). 
+   > Un appel est considéré comme domestique si le numéro composé est dans le même pays ou région où Office 365 a été configuré pour l’organisateur de la réunion (dans le cas d’une audioconférence) ou l’utilisateur final (dans le cas d’appels RTC de l’utilisateur final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -61,7 +63,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ![Icône affichant le logo Skype Entreprise](media/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1.    Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, sélectionnez**utilisateurs**de l' **audioconférence** > , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1.    Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, sélectionnez utilisateurs de l' **audioconférence**  >  **Users**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2.    Dans le volet Action, cliquez sur **Modifier**.
 
@@ -76,9 +78,9 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 **Utiliser PowerShell**
 
-Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
+Les restrictions des appels sortants sont contrôlées par une stratégie unique appelée OnlineDialOutPolicy qui possède un attribut de restriction pour chacun. La stratégie ne peut pas être personnalisée, mais il existe des instances de stratégie prédéfinies pour chaque combinaison de paramètres. 
 
-Vous pouvez utiliser l’applet de cmdlet Get-CSOnlineDialOutPolicy pour afficher les stratégies d’appel sortant et les affecter aux utilisateurs à l’aide de l’applet de passe Grant-CSDialOutPolicy. (Veuillez noter que la cmdlet Grant ne contient pas le mot « Online » en tant que cmdlet Get.) 
+Vous pouvez utiliser la cmdlet Get-CSOnlineDialOutPolicy pour afficher les stratégies d'appels sortants et les affecter aux utilisateurs à l'aide de la cmdlet Grant-CSDialOutPolicy. (Veuillez noter que la cmdlet Grant ne contient pas le mot « Online » en tant que cmdlet Get.) 
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 
@@ -93,3 +95,6 @@ Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 |    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    L'utilisateur de la conférence peut uniquement composer des numéros nationaux, et cet utilisateur ne peut effectuer aucun appel sortant vers le numéro RTC en dehors des numéros d'urgence.    |
 |    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    L'utilisateur de la conférence ne peut effectuer aucun appel sortant et cet utilisateur peut uniquement effectuer des appels sortants vers des numéros RTC nationaux.    |
 |    Identity='tag:DialoutCPCandPSTNDisabled'    |    L'utilisateur de la conférence ne peut effectuer aucun appel sortant et cet utilisateur ne peut effectuer aucun appel sortant vers le numéro RTC en dehors des numéros d'urgence.    |
+|    Identity = 'tag : DialoutCPCZoneAPSTNInternational'    |    Dans la Conférence, l’utilisateur peut uniquement appeler les pays et régions d’un pays ou d’une région, et cet utilisateur peut passer des appels sortants vers des numéros internationaux et nationaux.    |
+|    Identity = 'tag : DialoutCPCZoneAPSTNDomestic'    |    Dans la Conférence, l’utilisateur peut uniquement appeler des pays et des régions, et cet utilisateur ne peut émettre des appels sortants que vers son numéro RTC local.    |
+|    Identity = 'tag : DialoutCPCZoneAPSTNDisabled'    |    Dans la Conférence, l’utilisateur peut uniquement appeler des pays et des régions, et cet utilisateur ne peut pas passer d’appels sortants au numéro RTC en plus des numéros d’urgence.    |

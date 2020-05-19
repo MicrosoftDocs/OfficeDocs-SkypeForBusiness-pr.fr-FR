@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: En savoir plus sur les différentes combinaisons de création d’utilisateur et les combinaisons prises en charge ou non prises en charge.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779993"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280253"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
@@ -65,7 +65,7 @@ Un environnement hybride Skype entreprise avec connectivité PSTN offre une soup
 |**Combinaisons non prises en charge**    | |         |         |      |
 |Azure AD| En local/en ligne | Skype entreprise et Microsoft teams|Voix entreprise/connectivité vocale hybride/routage direct  |Non, un objet utilisateur doit d’abord être créé dans une publicité locale |
 |ANNONCE locale  |En local| Microsoft Teams| Voix entreprise/connectivité vocale hybride/routage direct   |Non, le client Microsoft teams n’est pas pris en charge avec Skype entreprise local. |     
-|ANNONCE locale  |Online |Skype Entreprise  | Routage direct  |Non, le routage direct n’est pas pris en charge par le client Skype entreprise et l’utilisateur doit être activé pour voix entreprise dans Skype entreprise d’abord  |
+|ANNONCE locale  |Online |Skype Entreprise  | Routage direct  |Non, le routage direct n’est pas pris en charge par le client Skype entreprise  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Déclaration de prise en charge pour l’environnement hybride avec RTC

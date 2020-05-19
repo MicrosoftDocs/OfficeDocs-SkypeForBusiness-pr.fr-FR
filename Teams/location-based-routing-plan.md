@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836544"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280273"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -133,7 +133,7 @@ Le transfert d’appel nécessite que l’utilisateur à l’origine de l’appe
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour le routage par emplacement
 
-Un utilisateur qui n’est pas activé pour le routage géolocalisation peut transférer ou transférer des appels RTC vers d’autres utilisateurs qui ne sont pas autorisés à effectuer le routage sur la base de l’emplacement. En règle générale, l’utilisateur n’est pas autorisé à transférer ou transférer un appel RTC à un utilisateur qui est autorisé à utiliser le routage de géolocalisation dans la mesure où le routage de l’emplacement est disponible en général sur les passerelles de routage basées sur l’emplacement pour PSTN invoqu. Il s’agit de l’exception qui consiste à activer l’itinérance d’un utilisateur sur un site qui n’est pas activé pour le routage basé sur l’emplacement. Dans ce scénario, l’appel transféré est autorisé.  
+Un utilisateur qui n’est pas activé pour le routage géolocalisation peut transférer ou transférer des appels RTC vers d’autres utilisateurs qui ne sont pas autorisés à effectuer le routage sur la base de l’emplacement. En règle générale, l’utilisateur n’est pas autorisé à transférer ou transférer un appel RTC à un utilisateur qui est autorisé à utiliser le routage de géolocalisation dans la mesure où le routage de l’emplacement est disponible uniquement dans les passerelles de routage basées sur l’emplacement pour les appels PSTN. Il s’agit de l’exception qui consiste à activer l’itinérance d’un utilisateur sur un site qui n’est pas activé pour le routage basé sur l’emplacement. Dans ce scénario, l’appel transféré est autorisé.  
 
 De même, un utilisateur qui n’est pas activé pour le routage géolocalisation ne peut recevoir qu’un transfert ou un appel RTC d’un autre utilisateur qui n’est pas activé pour le routage sur site. 
 
@@ -250,11 +250,15 @@ Le routage basé sur l’emplacement n’est pas applicable aux types d’intera
 
 Un utilisateur de routage basé sur l’emplacement à l’aide d’un appel RTC n’est pas autorisé à démarrer une conférence avec un autre utilisateur ou numéro RTC. La connexion aux standards automatiques ou aux files d’attente d’appels est autorisée. Si l’utilisateur dispose d’une licence de conférence, l’utilisateur doit commencer une conférence avec les utilisateurs concernés et appeler le RTC via le pont de conférence pour démarrer une conférence téléphonique.  
 
+### <a name="media-bypass-requirement-for-location-based-routing"></a>Exigence de contournement de média pour le routage par emplacement
+
+Si vous déployez le routage de géolocalisation en Inde, il est nécessaire de configurer également une dérivation multimédia. Pour en savoir plus, consultez [la section planification de la dérivation de médias avec le routage direct](direct-routing-plan-media-bypass.md).
+
 ## <a name="next-steps"></a>Étapes suivantes
 
 Accédez à [configurer les paramètres réseau pour le routage selon l’emplacement](location-based-routing-configure-network-settings.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 - [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)

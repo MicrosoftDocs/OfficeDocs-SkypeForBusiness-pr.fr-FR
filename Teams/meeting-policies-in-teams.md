@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256499"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278197"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -401,6 +401,23 @@ Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une
 Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur.
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>Paramètres de stratégie de réunion-mode de rôle de présentateur désigné
+
+Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de changer la valeur par défaut du paramètre **qui peut présenter ?** dans les **options de réunion** du client Teams. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant.
+
+Le paramètre **qui peut présenter ?** permet aux organisateurs de la réunion de choisir qui peut être présentateur dans une réunion. Pour en savoir plus, voir [modifier les paramètres des participants d’une réunion](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) et de rôles d’équipes [dans une réunion teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion teams existante à l’aide de l’applet de passe [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez créer une stratégie de réunion teams à l’aide de l’applet [de nouvelle cmdlet New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour spécifier la valeur par défaut du paramètre **qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’une des options suivantes :
+
+- **EveryoneUserOverride**: tous les participants à la réunion peuvent être présentateurs. Il s’agit de la valeur par défaut. Ce paramètre correspond au paramètre **tout le monde** dans Teams.
+- **EveryoneInCompanyUserOverride**: les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **personnes du mon organisation** dans Teams.
+- **EveryoneInSameAndFederatedCompanyUserOverride**: les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs d’organisations fédérées, peuvent être présentateurs. Ce paramètre correspond au paramètre **personnes du même organisme et organisations approuvées** dans Teams.
+- **OrganizerOnlyUserOverride**: seul l’organisateur de la réunion peut être présentateur, et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **moi uniquement** dans Teams.
+
+Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de la réunion peuvent toujours modifier ce paramètre dans teams et choisir qui peut effectuer une présentation aux réunions planifiées.
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>Paramètres de la stratégie de réunion-rapport de participation à une réunion
 

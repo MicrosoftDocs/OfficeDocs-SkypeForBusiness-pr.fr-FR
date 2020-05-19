@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159001"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278167"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -57,7 +57,7 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 ----------------|----------|---------------|
 | TargetName    | Oui      | Il s’agit du nom du nœud. Le nom peut contenir jusqu’à 100 caractères et contenir uniquement les caractères A-Z, a-z et 0-9. Les noms de nœud doivent être uniques. |
 | ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur figurant dans le champ NomCible du nœud parent. Si vous souhaitez ajouter plusieurs nœuds parents, séparez chaque nom de nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents et chaque nom de nœud parent peut contenir jusqu’à 2500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**Important** Veillez à ne pas créer une boucle dans laquelle un parent situé plus haut dans la hiérarchie fait référence à un nœud enfant inférieur dans la hiérarchie. Cette opération n’est pas prise en charge. |
-| TeamID        | Oui, si l’équipe publie des tâches ou reçoit des tâches d’un nœud parent       | Il contient l’ID de l’équipe à laquelle vous voulez lier un nœud. Un nœud doit être lié à une équipe s’il se trouve en bas de votre hiérarchie, si vous voulez que les utilisateurs puissent publier à partir de ce nœud, ou si vous souhaitez que les utilisateurs puissent voir les rapports de ce nœud et de ses descendants. Par exemple, si votre responsable pour le Bureau de la région ouest souhaite voir le rapport d’achèvement des tâches pour les nœuds qui appartiennent à cette région.<br><br>Si vous souhaitez ajouter un nœud uniquement pour le regroupement d’autres nœuds dans la hiérarchie, il n’est pas nécessaire de lier ce nœud à une équipe et de laisser ce champ vide. Vous pouvez lier chaque nœud à une seule équipe.<br>Pour obtenir l’ID d’une équipe à laquelle vous voulez lier un nœud, exécutez la commande PowerShell suivante : `Get-Team | Export-Csv TeamList.csv`. Cette liste répertorie les équipes au sein de votre organisation et inclut le nom et l’ID de chaque équipe. Recherchez le nom de l’équipe vers laquelle vous voulez créer le lien, puis copiez l’ID dans ce champ.|
+| TeamId        | Oui, si l’équipe publie des tâches ou reçoit des tâches d’un nœud parent       | Il contient l’ID de l’équipe à laquelle vous voulez lier un nœud. Un nœud doit être lié à une équipe s’il se trouve en bas de votre hiérarchie, si vous voulez que les utilisateurs puissent publier à partir de ce nœud, ou si vous souhaitez que les utilisateurs puissent voir les rapports de ce nœud et de ses descendants. Par exemple, si votre responsable pour le Bureau de la région ouest souhaite voir le rapport d’achèvement des tâches pour les nœuds qui appartiennent à cette région.<br><br>Si vous souhaitez ajouter un nœud uniquement pour le regroupement d’autres nœuds dans la hiérarchie, il n’est pas nécessaire de lier ce nœud à une équipe et de laisser ce champ vide. Vous pouvez lier chaque nœud à une seule équipe.<br>Pour obtenir l’ID d’une équipe à laquelle vous voulez lier un nœud, exécutez la commande PowerShell suivante : `Get-Team | Export-Csv TeamList.csv` . Cette liste répertorie les équipes au sein de votre organisation et inclut le nom et l’ID de chaque équipe. Recherchez le nom de l’équipe vers laquelle vous voulez créer le lien, puis copiez l’ID dans ce champ.|
 
 ### <a name="add-attribute-columns"></a>Ajouter des colonnes d’attributs
 
@@ -90,14 +90,14 @@ Lorsque vous ajoutez une colonne de compartiment, notez ce qui suit :
 
 Voici un exemple de fichier CSV de schéma qui sera créé pour prendre en charge la hiérarchie affichée dans l’image ci-dessus. Ce schéma contient les éléments suivants :
 
-- Trois colonnes obligatoires `TargetName`nommées `ParentName`, et`TeamID`
-- Trois colonnes d’attribut `Store layout`nommées, `Departments:Clothing`et`Departments:Foods`
-- Trois colonnes de compartiment `Fresh Foods`nommées, `Frozen Foods`et`Womenswear`
+- Trois colonnes obligatoires nommées `TargetName` , `ParentName` et`TeamId`
+- Trois colonnes d’attribut nommées `Store layout` , `Departments:Clothing` et`Departments:Foods`
+- Trois colonnes de compartiment nommées `Fresh Foods` , `Frozen Foods` et`Womenswear`
 
-L' `Store layout` attribut comporte des valeurs incluant `Compact`, `Standard`et `Large`. Les `Departments` colonnes d' `0` attribut peuvent être définies sur une valeur égale à (zéro `1`) ou. La `Store` disposition et `Departments` les attributs n’apparaissent pas dans l’image ci-dessus. Ils sont ajoutés ici pour vous permettre de montrer comment les attributs peuvent être ajoutés aux entrées de nœud. Le même vrai pour les trois colonnes de compartiment.
+L' `Store layout` attribut comporte des valeurs incluant `Compact` , `Standard` et `Large` . Les `Departments` colonnes d’attribut peuvent être définies sur une valeur égale à `0` (zéro) ou `1` . La `Store` disposition et les `Departments` attributs n’apparaissent pas dans l’image ci-dessus. Ils sont ajoutés ici pour vous permettre de montrer comment les attributs peuvent être ajoutés aux entrées de nœud. Le même vrai pour les trois colonnes de compartiment.
 
 
-| TargetName             | ParentName                      | TeamID                       | Disposition du Windows Store|Services : vêtements|Services : aliments|#Fresh aliments|#Frozen aliments|#Womenswear|
+| TargetName             | ParentName                      | TeamId                       | Disposition du Windows Store|Services : vêtements|Services : aliments|#Fresh aliments|#Frozen aliments|#Womenswear|
 |------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
 | Oublier                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
 | Communications         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||
@@ -197,6 +197,6 @@ Si vous avez déjà installé le module teams PowerShell à partir de la Galerie
 
 Prenez note du message d’erreur, car il devrait inclure des informations de dépannage pour indiquer la raison pour laquelle le schéma n’a pas pu être chargé. Examinez et modifiez votre fichier CSV de schéma en fonction des informations contenues dans le message d’erreur, puis réessayez.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer l’application tâches pour votre organisation dans teams](manage-tasks-app.md)
