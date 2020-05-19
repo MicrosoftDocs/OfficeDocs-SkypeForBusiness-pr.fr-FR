@@ -64,8 +64,8 @@
 ### [Gérer vos applications personnalisées](manage-your-custom-apps.md)
 ### [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
 ### [Configurer la hiérarchie de ciblage de votre équipe](set-up-your-team-hierarchy.md)
+### [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
 ### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Communiquer avec des utilisateurs externes
@@ -604,6 +604,7 @@
 # Conseils pour les industries et le secteur public
 ## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
+## [Applications de réservations et visites virtuelles](bookings-app-admin.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -628,7 +629,7 @@
 ## [Teams pour l’éducation](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
 ### [Commencez avec l’apprentissage à distance](remote-learning-edu.md)
-### [Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)
+### [Stratégies et packages de stratégie Teams EDU](policy-packages-edu.md)
 ### [Affecter des stratégies à des ensembles volumineux d’utilisateurs](batch-policy-assignment-edu.md)
 ### [Aide dans des situations de faible bande passante pour les administrateurs dans l'éducation](edu-remote-low-bandwidth.md)
 ### [Devoirs dans Teams pour l’éducation](expand-teams-across-your-org/assignments-in-teams.md)
@@ -763,12 +764,12 @@
 
 
 ## Appareils pris en charge
-### [Gérer vos périphériques dans Teams](device-management.md)
-### [Téléphones pour Teams](phones-for-teams.md)
+### [Gérer vos périphériques dans Teams](devices/device-management.md)
+### [Téléphones pour Teams](devices/phones-for-teams.md)
+### [Périphériques audio et vidéo USB](devices/usb-devices.md)
 ### [Déployer des barres de collaboration pour Microsoft Teams](devices/collab-bar-deploy.md)
-### [Périphériques audio et vidéo USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Solutions et appareils de salle de réunion](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Téléphones IP certifiés pour Microsoft Teams](teams-ip-phones.md)
+### [Téléphones IP certifiés pour Microsoft Teams](devices/teams-ip-phones.md)
 ### [Téléphones pour Skype Entreprise Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
