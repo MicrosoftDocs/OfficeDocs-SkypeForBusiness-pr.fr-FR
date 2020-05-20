@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042211"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321613"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -32,7 +32,7 @@ Le complément réunion Teams permet aux utilisateurs de planifier une réunion 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Le complément Réunion Teams dans Outlook pour Windows
 
-Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2010, Office2013 ou Office 2016 sont installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier Outlook.
+Le complément de réunion équipes est automatiquement installé pour les utilisateurs disposant de Microsoft teams et d’Office 2013, d’Office 2016 ou d’Office 2019 installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier Outlook.
 
 ![Capture d'écran du complément réunion Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ Le bouton réunion Teams s’affiche dans les dernières versions de l’applica
 Les coordonnées de la réunion (lien de participation et numéros à composer Teams) sont ajoutées à l’invitation à la réunion une fois que l’utilisateur clique sur **envoyer**.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complément réunion Teams dans et FindTime pour Outlook
-FindTime est un complément pour Outlook qui permet aux utilisateurs d’atteindre un consensus sur les horaires de réunion au sein des entreprises. Une fois que les participants à la réunion ont fourni leurs horaires préférés, FindTime envoie l’invitation à la réunion au nom de l’utilisateur. Si l’option **Réunion en ligne** est sélectionnée dans FindTime, FindTime planifiera une réunion Skype Entreprise ou Microsoft Teams. (FindTime utilise la valeur définie par votre organisation comme canal de réunion en ligne par défaut).
+FindTime est un complément pour Outlook qui permet aux utilisateurs de parvenir à un consensus sur le temps de réunion entre entreprises. Une fois que les participants à la réunion ont fourni leurs horaires préférés, FindTime envoie l’invitation à la réunion au nom de l’utilisateur. Si l’option **Réunion en ligne** est sélectionnée dans FindTime, FindTime planifiera une réunion Skype Entreprise ou Microsoft Teams. (FindTime utilise la valeur définie par votre organisation comme canal de réunion en ligne par défaut).
 
 > [!NOTE]  
 > Si vous avez enregistré un paramètre Skype Entreprise dans votre [Tableau de bord Findtime](https://findtime.microsoft.com/UserDashboard), FindTime l’utilisera à la place de Microsoft Teams. Si vous voulez utiliser Microsoft Teams, supprimez le paramètre Skype Entreprise dans le tableau de bord.
 
-Pour plus d’informations, consultez l’article[Planifier des réunions avec FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
+Pour plus d’informations, voir [planifier des réunions avec FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
 
 ## <a name="authentication-requirements"></a>Exigences d'authentification
 
@@ -128,7 +128,8 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 - Vérifiez que l’utilisateur dispose d’une stratégie de mise à niveau équipes permettant de planifier des réunions dans Teams. Pour plus d’informations, consultez la rubrique [mise à niveau de Skype entreprise vers teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Vérifiez que l’utilisateur dispose d’une stratégie de réunion teams qui autorise le complément Outlook. Pour plus d’informations, voir [gérer les stratégies de réunion dans teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Assurez-vous que l’utilisateur a installé le client de bureau Teams. Le complément de la réunion ne sera pas installé uniquement lors de l’utilisation du client Web Teams.
-- Assurez-vous que l’utilisateur est autorisé à exécuter Regsvr32. exe.  Pour plus d’informations, consultezhttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- Vérifiez que l’utilisateur dispose de l’installation d’Outlook 2013 ou version ultérieure.
+- Assurez-vous que l’utilisateur est autorisé à exécuter Regsvr32. exe.
 - Vérifiez que toutes les mises à jour disponibles pour le client de bureau Outlook ont été appliquées.
 - Procédez comme suit :
   - Redémarrez le client de bureau Teams.

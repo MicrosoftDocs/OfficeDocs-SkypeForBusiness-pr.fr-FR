@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft teams pour simplifier, simplifier et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: 742269fd85cb912e52d727a03a6123acd0b87a72
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: 6927e2efae60370c0622f38570fc961794734f35
+ms.sourcegitcommit: e0ed3b6478918c4737648e6c27eb01de0b622b0e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44281461"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322303"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -101,6 +101,15 @@ Voici les étapes à suivre pour afficher, attribuer et personnaliser des packag
 2. Cliquez sur **gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Assigner un package de stratégie à un grand jeu (lot) d’utilisateurs
+
+Utilisez une affectation de package de stratégie de lot pour assigner un package de stratégie à un grand nombre d’utilisateurs à la fois. Vous utilisez l’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) pour transmettre un lot d’utilisateurs et le package de stratégie que vous voulez affecter. Les affectations sont traitées en tant qu’opérations en arrière-plan et chaque lot est généré.
+
+Un lot peut contenir jusqu’à 20 000 utilisateurs. Vous pouvez spécifier des utilisateurs en fonction de leur ID d’objet, de leur nom d’utilisateur principal, de leur adresse SIP ou de leur adresse de messagerie. Pour en savoir plus, voir [affecter un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+
+> [!IMPORTANT]
+> Pour l’instant, nous vous recommandons d’affecter des stratégies par lot d’utilisateurs 5 000 à la fois. Au cours de ces périodes de demande croissante, il est possible que les temps de traitement soient retardés. Pour réduire l’impact de ces délais de traitement, nous vous suggérons d’adresser de plus petites tailles de lot à des utilisateurs 5 000 et de n’en faire qu’après la fin de la précédente. Vous pouvez également obtenir de l’aide pour soumettre des lots en dehors de vos heures de travail normales.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personnaliser les stratégies dans un package de stratégie
 
