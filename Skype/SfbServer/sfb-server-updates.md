@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et Lync 2013 à un seul endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220544"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326571"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -54,7 +54,8 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
-|Mise à jour cumulative 10 du correctif logiciel 1 pour Skype entreprise Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
+|Mise à jour cumulative 11 pour Skype entreprise Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 mai 2020 |
+|Mise à jour cumulative 10 du correctif logiciel 1 pour Skype entreprise Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
 |Mise à jour cumulative 10 pour Skype entreprise Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2019 |
 |Mise à jour cumulative 9 pour Skype entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| Mai 2019 |
 |Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janvier 2019|
@@ -261,7 +262,7 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[article 824684 de la base de connaissances](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer Skype entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [Mise à niveau vers Skype entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)

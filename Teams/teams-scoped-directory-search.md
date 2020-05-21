@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341772"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326591"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -51,7 +51,7 @@ Pour plus d’informations sur l’utilisation des stratégies de carnet d’adr
 
 1. Utiliser des stratégies de cloisonnement des informations pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, consultez [définir des stratégies de barrière des informations](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
-2. Dans le centre d’administration de Microsoft Teams, sélectionnez > **paramètres d’équipe** **des paramètres à l’échelle**de l’organisation.
+2. Dans le centre d’administration de Microsoft Teams, sélectionnez Paramètres d’équipe **des paramètres à l’échelle de l’organisation**  >  **Teams settings**.
 
 3. Sous **recherche**, en regard de la **zone Rechercher dans l’annuaire dans teams à l’aide d’une stratégie de carnet d’adresses Exchange (ABP)**, activez le bouton **bascule.**
 
@@ -59,4 +59,4 @@ Pour plus d’informations sur l’utilisation des stratégies de carnet d’adr
 
 
 > [!IMPORTANT]
-> La réplication de ce changement peut durer jusqu’à 24 heures.
+> La réplication de cette modification peut prendre quelques heures.

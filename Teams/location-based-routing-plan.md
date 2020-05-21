@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280273"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326641"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -252,13 +252,13 @@ Un utilisateur de routage basé sur l’emplacement à l’aide d’un appel RTC
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Exigence de contournement de média pour le routage par emplacement
 
-Si vous déployez le routage de géolocalisation en Inde, il est nécessaire de configurer également une dérivation multimédia. Pour en savoir plus, consultez [la section planification de la dérivation de médias avec le routage direct](direct-routing-plan-media-bypass.md).
+Si vous déployez le routage de géolocalisation en Inde, il est nécessaire de configurer également une dérivation multimédia. Pour en savoir plus, consultez la section [planification de la dérivation multimédia avec le routage direct](direct-routing-plan-media-bypass.md) et l' [optimisation du contenu multimédia local pour le routage direct](direct-routing-media-optimization.md).
 
 ## <a name="next-steps"></a>Étapes suivantes
 
 Accédez à [configurer les paramètres réseau pour le routage selon l’emplacement](location-based-routing-configure-network-settings.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 - [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)

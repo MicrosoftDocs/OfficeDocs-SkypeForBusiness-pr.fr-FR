@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc09323e7f0a25f0f7c7083307776ad1a08bf4fb
-ms.sourcegitcommit: e0ed3b6478918c4737648e6c27eb01de0b622b0e
+ms.openlocfilehash: 2ef9ca9a5f03ecffe1460a24db186a266fd4a84c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44294049"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326671"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -137,56 +137,56 @@ Les administrateurs informatiques peuvent déterminer quels utilisateurs seront 
 
 1. Créez une instance d’application dans votre client.
 
-```powershell
-PS C:\> New-CsOnlineApplicationInstance -UserPrincipalName cr.instance@contoso.onmicrosoft.com -DisplayName ComplianceRecordingBotInstance -ApplicationId fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
+   ```powershell
+   PS C:\> New-CsOnlineApplicationInstance -UserPrincipalName cr.instance@contoso.onmicrosoft.com -DisplayName ComplianceRecordingBotInstance -ApplicationId fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
 
-RunspaceId        : 4c13efa6-77bc-42db-b5bf-bdd62cdfc5df
-ObjectId          : 5069aae5-c451-4983-9e57-9455ced220b7
-TenantId          : 5b943d7c-5e14-474b-8237-5022eb8e0dc9
-UserPrincipalName : cr.instance@contoso.onmicrosoft.com
-ApplicationId     : fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
-DisplayName       : ComplianceRecordingBotInstance
-PhoneNumber       :
-```
+   RunspaceId        : 4c13efa6-77bc-42db-b5bf-bdd62cdfc5df
+   ObjectId          : 5069aae5-c451-4983-9e57-9455ced220b7
+   TenantId          : 5b943d7c-5e14-474b-8237-5022eb8e0dc9
+   UserPrincipalName : cr.instance@contoso.onmicrosoft.com
+   ApplicationId     : fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
+   DisplayName       : ComplianceRecordingBotInstance
+   PhoneNumber       :
+   ```
 
-```powershell
-PS C:\> Sync-CsOnlineApplicationInstance -ObjectId 5069aae5-c451-4983-9e57-9455ced220b7
-```
+   ```powershell
+   PS C:\> Sync-CsOnlineApplicationInstance -ObjectId 5069aae5-c451-4983-9e57-9455ced220b7
+   ```
 
 2. Créer une stratégie d’enregistrement de conformité.
 
-```powershell
-PS C:\> New-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy -Enabled $true -Description "Test policy created by tenant admin"
+   ```powershell
+   PS C:\> New-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy -Enabled $true -Description "Test policy created by tenant admin"
 
-Identity                        : Global
-ComplianceRecordingApplications : {}
-Enabled                         : True
-WarnUserOnRemoval               : True
-Description                     : Test policy created by tenant admin
-```
+   Identity                        : Global
+   ComplianceRecordingApplications : {}
+   Enabled                         : True
+   WarnUserOnRemoval               : True
+   Description                     : Test policy created by tenant admin
+   ```
 
-```powershell
-PS C:\> Set-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy `
--ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
-```
+   ```powershell
+   PS C:\> Set-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy `
+   -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
+   ```
 
-[<span class="underline">https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
+   [<span class="underline">Set-CsTeamsComplianceRecordingPolicy</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
 3. Affectez la stratégie d’enregistrement de conformité à un utilisateur.
 
-```powershell
-PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
-```
+   ```powershell
+   PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
+   ```
 
-[<span class="underline">https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
+   [<span class="underline">Grant-CsTeamsComplianceRecordingPolicy</span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
 
-```powershell
-PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
+   ```powershell
+   PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
 
-UserPrincipalName              : testuser@contoso.onmicrosoft.com
-TenantId                       : 5b943d7c-5e14-474b-8237-5022eb8e0dc9
-TeamsComplianceRecordingPolicy : TestComplianceRecordingPolicy
-```
+   UserPrincipalName              : testuser@contoso.onmicrosoft.com
+   TenantId                       : 5b943d7c-5e14-474b-8237-5022eb8e0dc9
+   TeamsComplianceRecordingPolicy : TestComplianceRecordingPolicy
+   ```
 
 ## <a name="user-experiences"></a>Expérience utilisateur
 
@@ -212,7 +212,7 @@ Les partenaires suivants sont en train de certifier leur solution pour Microsoft
 
 |Partenaire|Site Web de solution |
 |:--|:--|
-|Technologies ASC |[https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html](https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html) |
+|Technologies ASC |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |BELLE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
@@ -224,4 +224,4 @@ Cette liste sera mise à jour sous la forme d’autres partenaires et répondez 
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Si vous êtes un fournisseur qui cherche à rejoindre le programme de certification, envoyez-le <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>
+Si vous êtes un fournisseur qui cherche à rejoindre le programme de certification, envoyez-le à <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.

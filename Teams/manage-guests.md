@@ -17,18 +17,18 @@ description: Apprenez-en davantage sur la création de vos premières équipes e
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777839"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326451"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Il est possible que les modifications ne prennent effet qu'après 24 heures. 
+> Il est possible que vous deviez patienter quelques heures avant que les modifications soient prises en compte. 
 
 **Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans l’ensemble des abonnements Microsoft 365 entreprise, Office 365 entreprise, Microsoft 365 entreprise basique et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
 
@@ -38,7 +38,7 @@ Une fois que l’accès invité est activé, vous pouvez configurer les paramèt
     
 Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies et les autorisations des utilisateurs invités, et extraire des rapports sur l’activité des utilisateurs invités. Ces contrôles sont disponibles dans le centre d’administration Teams. Le contenu et les activités des utilisateurs invités sont soumis à la même protection de conformité et d’audit que le reste d’Office 365.
 
-Les propriétaires d’équipe peuvent inviter de nouveaux invités et ajouter des utilisateurs invités à leurs équipes dans le centre d’administration Teams. Identifiez les utilisateurs invités **sur la page** > **de gestion des équipes** et définissez les fonctionnalités liées aux canaux pour les invités dans la page**accès invité** des **paramètres** > à l’échelle de l’organisation. Les paramètres permettent aux invités de créer, mettre à jour et supprimer des canaux, comme le montre l’illustration suivante.
+Les propriétaires d’équipe peuvent inviter de nouveaux invités et ajouter des utilisateurs invités à leurs équipes dans le centre d’administration Teams. Identifiez les utilisateurs invités **sur la**  >  page de**gestion des équipes** et définissez les fonctionnalités liées aux canaux pour les invités dans la **Org-wide settings**  >  page**accès invité** des paramètres à l’échelle de l’organisation. Les paramètres permettent aux invités de créer, mettre à jour et supprimer des canaux, comme le montre l’illustration suivante.
 
 ![Paramètres des autorisations invité dans teams](media/manage-guest-access-image1.png)
   
@@ -64,7 +64,7 @@ Les avis sur l’accès sont disponibles avec l’édition Premium d’Azure AD,
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Temps d’attente pour que les paramètres d’accès invités soient appliqués
 
-Pour les paramètres d’accès invité dans Azure Active Directory, il faut 2-24 heures pour que les modifications prennent effet dans votre 365 ou Office 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
+Pour les paramètres d’accès invité dans Azure Active Directory, il faut quelques heures pour que les modifications prennent effet dans Microsoft 365 ou Office 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité

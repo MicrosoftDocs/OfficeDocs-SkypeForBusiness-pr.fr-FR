@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: 70771f4a5e7c1376970ac3ac96cb9a4f822882a8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837544"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326681"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -32,7 +32,7 @@ Les utilisateurs de votre organisation peuvent envoyer des commentaires sur team
 
 **Fonctionnalité envoyer des commentaires**
 
-Les utilisateurs peuvent **vous** > envoyer des commentaires et des suggestions aux équipes pour nous en accédant aux**Commentaires** dans Teams. Les données envoyées par le biais de **Commentaires** sont considérées comme des « données de support » dans votre contrat 365 Office, y compris des informations qui seraient considérées comme « données client » ou « données personnelles ».
+Les utilisateurs peuvent **vous**envoyer des commentaires et des suggestions aux équipes pour nous en accédant aux  >  **Commentaires** dans Teams. Les données envoyées par le biais de **Commentaires** sont considérées comme des « données de support » dans votre contrat 365 Office, y compris des informations qui seraient considérées comme « données client » ou « données personnelles ».
 
 ![Capture d’écran de l’option envoyer des commentaires dans Microsoft teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -46,7 +46,7 @@ Les utilisateurs peuvent également évaluer leur connaissance de Team et nous e
 
 En tant qu’administrateur, vous pouvez contrôler si les utilisateurs de votre organisation peuvent envoyer des commentaires sur teams à Microsoft par le biais de **Commentaires** et s’ils reçoivent l’enquête. Par défaut, tous les utilisateurs de votre organisation disposent automatiquement de la stratégie globale (par défaut de l’organisation par défaut), et la fonctionnalité d' **attribution de commentaires** est activée dans la stratégie. L’exception est teams pour l’éducation, qui est activée pour les enseignants et désactivée pour les étudiants.
 
-Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Si un utilisateur dispose d’une stratégie personnalisée, cette politique s’applique à l’utilisateur. Si un utilisateur ne reçoit pas de stratégie personnalisée, la politique globale s’applique à l’utilisateur. Lorsque vous modifiez la stratégie globale ou que vous attribuez une stratégie, un délai de 24 heures peut être nécessaire pour que les modifications soient prises en compte.
+Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Si un utilisateur dispose d’une stratégie personnalisée, cette politique s’applique à l’utilisateur. Si un utilisateur ne reçoit pas de stratégie personnalisée, la politique globale s’applique à l’utilisateur. Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.
 
 Par exemple, supposons que vous souhaitiez permettre à tous les utilisateurs de votre organisation d’envoyer des commentaires par le biais de **Commentaires** et de recevoir des enquêtes à l’exception des nouvelles recrues dans la formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver les deux fonctions et les attribuer aux nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la politique globale avec les fonctionnalités activées.  
 
@@ -55,7 +55,7 @@ Vous pouvez utiliser l’applet **de nouvelle applet de nouveau-CsTeamsFeedbackP
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
  - **Envoyer des commentaires**: définissez le paramètre **userInitiatedMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée pour formuler des commentaires. Le fait de définir le paramètre sur **Disabled** désactive la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne peuvent pas envoyer de commentaires.
- - **Enquêtes**: définissez le paramètre **receiveSurveysMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée à la réception de l’enquête. Pour que les utilisateurs reçoivent l’enquête et leur permettent de les refuser, définissez le paramètre sur **enabledUserOverride**. Dans Microsoft Teams, les utilisateurs peuvent accéder aux **paramètres** > de**confidentialité** et décider s’ils souhaitent participer aux enquêtes. La définition du paramètre sur **Disabled** entraîne la désactivation de la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne recevront pas l’enquête.
+ - **Enquêtes**: définissez le paramètre **receiveSurveysMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée à la réception de l’enquête. Pour que les utilisateurs reçoivent l’enquête et leur permettent de les refuser, définissez le paramètre sur **enabledUserOverride**. Dans Microsoft Teams, les utilisateurs peuvent accéder aux **paramètres**  >  de**confidentialité** et décider s’ils souhaitent participer aux enquêtes. La définition du paramètre sur **Disabled** entraîne la désactivation de la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne recevront pas l’enquête.
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
 

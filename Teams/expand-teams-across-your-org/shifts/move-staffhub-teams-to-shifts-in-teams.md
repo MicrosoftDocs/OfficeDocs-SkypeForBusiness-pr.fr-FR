@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780623"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326791"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams
 
@@ -91,7 +91,7 @@ Si ces éléments requis n’ont pas été satisfaits, la demande de déplacemen
 
 Chaque utilisateur doit avoir une licence Microsoft 365 ou Office 365 active d' [un plan éligible](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) et être disposant d’une licence d’équipe. L’attribution d’une licence d’équipe aux utilisateurs leur permet d’accéder à Teams.
 
-Pour gérer les licences d’équipe, vous devez utiliser le centre d’administration 365 Microsoft. Pour en savoir plus, voir [gérer l’accès des utilisateurs aux équipes](../../user-access.md).
+Pour gérer les licences d’équipe, vous devez utiliser le centre d’administration 365 Microsoft. Pour en savoir plus, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](../../user-access.md).
 
 > [!NOTE]
 > Si votre organisation utilise Skype entreprise et que vous n’êtes pas prêt à déplacer tous vos utilisateurs vers Teams, vous pouvez activer les équipes pour vos travailleurs terrain qui peuvent alors exécuter des équipes en même temps que Skype entreprise. Dans ce mode de coexistence, intitulé *îlots*, chaque application cliente fonctionne en tant que solution distincte. Pour en savoir plus, reportez-vous à la rubrique [Présentation des équipes et coexistence et interopérabilité de Skype entreprise](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
@@ -156,7 +156,7 @@ Effectuez l’une des opérations suivantes :
 
 Teams inclut une stratégie intégrée de configuration de l’application FirstlineWorker que vous pouvez utiliser pour personnaliser teams afin de mettre en évidence les applications les plus importantes pour les travailleurs terrain au sein de votre organisation. Lorsque vous attribuez ce paramètre de stratégie aux utilisateurs, les applications de la stratégie sont épinglées à la barre de l’application dans teams pour un accès rapide et facile. Les autres applications ajoutées aux équipes sont accessibles dans la barre de l’application en cliquant sur **... D’autres applications** sont installées sur les clients de bureau et Web teams en effectuant un balayage vers le haut dans le client Microsoft teams mobile. Par défaut, la stratégie de configuration de l’application FirstlineWorker comprend les applications activité, équipes, discussions et appels.
 
-Pour plus d’informations sur l’affectation de la stratégie de configuration de l’application FirstlineWorker aux utilisateurs, voir [utilisation de la stratégie de configuration des applications FirstlineWorker pour épingler des équipes à des équipes](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Dès lors que vous attribuez une stratégie, un délai de 24 heures peut être nécessaire.
+Pour plus d’informations sur l’affectation de la stratégie de configuration de l’application FirstlineWorker aux utilisateurs, voir [utilisation de la stratégie de configuration des applications FirstlineWorker pour épingler des équipes à des équipes](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Dès lors que vous attribuez une stratégie, plusieurs heures peuvent être prises en compte.
 
 Nous vous recommandons de terminer cette étape au moins une semaine avant de déplacer vos équipes et utilisateurs StaffHub vers Teams. Lorsque les utilisateurs sont sur Teams, assurez-vous qu’ils peuvent afficher l’application Shifts et y accéder.
 
@@ -300,7 +300,7 @@ Exécutez la commande suivante pour obtenir la liste de tous les ID d’équipe 
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-Dans les résultats renvoyés par `Get-StaffHubteamsForTenant` l’applet de requête que vous avez exécutée précédemment, sélectionnez les ID d’équipe que vous voulez déplacer, puis ajoutez-les à un fichier de valeurs séparées par des virgules (CSV).
+Dans les résultats renvoyés par l' `Get-StaffHubteamsForTenant` applet de requête que vous avez exécutée précédemment, sélectionnez les ID d’équipe que vous voulez déplacer, puis ajoutez-les à un fichier de valeurs séparées par des virgules (CSV).
 
 Voici un exemple de mise en forme du fichier CSV.
 
@@ -374,7 +374,7 @@ Exécutez la commande suivante pour ajouter le dossier général à SharePoint, 
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 - [Comment mettre en place Microsoft Teams](../../How-to-roll-out-teams.md)
 - [Fin de parcours pour Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)

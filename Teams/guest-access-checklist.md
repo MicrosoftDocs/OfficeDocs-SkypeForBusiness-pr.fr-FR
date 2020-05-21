@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902579"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326601"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Liste de contrôle de l’accès invité Microsoft Teams
 =========================================
@@ -39,7 +39,7 @@ Regardez cette courte vidéo (5:31 minutes) pour découvrir comment activer l’
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Étape 1 : activer l’accès invité au niveau de l’organisation à l’échelle de l’organisation
 
-Pour activer l’accès invité, accédez au **Centre d’administration Microsoft Teams**. 
+Pour activer l’accès invité, accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
 
 1. Dans le Centre d'administration Teams, sélectionnez **paramètres Org-wide** > **accès invité**.
 2. Mettre le bouton bascule**Autoriser l’accès invité dans Microsoft Teams** sur **On**.
@@ -78,7 +78,7 @@ Il s’agit des paramètres Azure AD qui prennent en charge l’accès invité d
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Étape 3 : configurer les groupes Microsoft 365
 
-1. Dans le centre d’administration 365 Microsoft, accédez à**paramètres**des **paramètres** > , cliquez sur **services**, puis sélectionnez **groupes Microsoft 365**.
+1. Dans le centre d’administration 365 Microsoft, accédez **Settings**à  >  **paramètres**des paramètres, cliquez sur **services**, puis sélectionnez **groupes Microsoft 365**.
 
      ![Capture d’écran montrant les paramètres des groupes Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Assurez-vous que la case à cocher **Permettre aux membres du groupe extérieurs à l’organisation d’accéder au contenu du groupe** est activée. Si ce paramètre n’est pas sélectionné, les invités ne pourront pas accéder au contenu du groupe.

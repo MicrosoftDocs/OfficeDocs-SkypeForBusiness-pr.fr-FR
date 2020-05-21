@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour les utilisateurs de Microsoft Teams, afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: 0be2d66d1a073a031b8112cf4aa8438cfc68b150
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006030"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326801"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
@@ -44,21 +44,21 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
  
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
-1. Dans le volet de navigation de gauche, cliquez sur**numéros de téléphone** **vocaux** > .
+1. Dans le volet de navigation de **Voice**gauche, cliquez sur  >  **numéros de téléphone**vocaux.
 2. Dans la page **numéros de téléphone** , sélectionnez un numéro non attribué dans la liste, puis cliquez sur **modifier**.  
 3. Dans le volet d' **édition** , sous **affecté à**, recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **affecter**.
 4. Pour attribuer ou modifier l’emplacement d’urgence associé, sous **emplacement d’urgence**, recherchez et sélectionnez l’emplacement.
 5. Si vous souhaitez envoyer à l’utilisateur un message électronique contenant son numéro de téléphone, désactivez ou activez l’option **courrier électronique avec les informations**sur le numéro de téléphone. Par défaut, ce paramètre est activé. 
 6. Cliquez sur **Enregistrer**.
     > [!NOTE]
-    > En raison de la latence entre Office 365 et Teams, il est possible que les utilisateurs puissent utiliser jusqu’à 24 heures. Si, au bout de 24 heures, le numéro de téléphone n’est pas attribué correctement, [Contactez le support technique pour les produits professionnels-aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Nous sommes là pour vous aider !
+    > En raison de la latence entre Office 365 et Teams, il est possible que les utilisateurs puissent exécuter quelques heures. Si ce n’est pas le cas, [Contactez le support technique des produits pour les entreprises-aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Nous sommes là pour vous aider !
   
 ## <a name="change-a-phone-number-for-a-user"></a>Changer le numéro de téléphone d’un utilisateur
  
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, recherchez et double-cliquez sur l’utilisateur de votre choix, cliquez sur **compte**, puis, sous **informations générales**, notez le numéro de téléphone affecté à l’utilisateur.
-2. Dans le volet de navigation de gauche, cliquez sur**numéros de téléphone** **vocaux** > .
+2. Dans le volet de navigation de **Voice**gauche, cliquez sur  >  **numéros de téléphone**vocaux.
 3. Dans la page **numéros de téléphone** , sélectionnez le numéro que vous avez identifié à l’étape 1, puis cliquez sur **modifier**.  
 4. Dans le volet d' **édition** , sous **affecté à**, cliquez sur la **Croix (X** ) pour supprimer l’utilisateur.
 5. Cliquez sur **Enregistrer**.
@@ -72,12 +72,12 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, recherchez et double-cliquez sur l’utilisateur de votre choix, cliquez sur **compte**, puis, sous **informations générales**, notez le numéro de téléphone affecté à l’utilisateur.
-2. Dans le volet de navigation de gauche, cliquez sur**numéros de téléphone** **vocaux** > .
+2. Dans le volet de navigation de **Voice**gauche, cliquez sur  >  **numéros de téléphone**vocaux.
 3. Dans la page **numéros de téléphone** , sélectionnez le numéro que vous avez identifié à l’étape 2, puis cliquez sur **modifier**.  
 4. Dans le volet d' **édition** , sous **affecté à**, cliquez sur la **Croix (X** ) pour supprimer l’utilisateur.
 5. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
