@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785937"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338234"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -73,7 +73,7 @@ Les exigences d’infrastructure pour les domaines SBCs et de connectivité rés
 |Lignes de téléphonie connectées à l’SBC|Un ou plusieurs Trunks de téléphonie connectés à l’SBC. À la fin, l’SBC se connecte au système Microsoft Phone via le routage direct. Les SBC peuvent également se connecter à des entités de téléphonie tierces, telles que des PBX, des adaptateurs de téléphonie analogique, etc. Toute option de connectivité PSTN qui est connectée à l’SBC fonctionne. (Pour la configuration des Trunks RTC auprès de l’SBC, veuillez consulter les fournisseurs ou les fournisseurs de lignes SBC.)|
 |Organisation Office 365|Une organisation Office 365 que vous utilisez pour les utilisateurs de Microsoft Teams, ainsi que la configuration et la connexion au SBC.|
 |Bureau d’enregistrement de noms d’utilisateur|L’utilisateur doit être hébergé dans Office 365.<br/>Si votre entreprise possède un environnement Skype entreprise ou Lync local avec une connectivité hybride à Office 365, vous ne pouvez pas activer la voix dans teams pour un utilisateur hébergé sur site.<br/><br/>Pour vérifier le Bureau d’enregistrement d’un utilisateur, utilisez l’applet de commande PowerShell Skype entreprise Online suivante :<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>La sortie de l’applet de cmdlet doit afficher les éléments suivants :<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domaines|Un ou plusieurs domaines ajoutés à vos organisations Office 365.<br/><br/>Notez que vous ne pouvez pas utiliser le domaine \*par défaut,. onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les organisations 365 d’Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domaines|Un ou plusieurs domaines ajoutés à vos organisations Office 365.<br/><br/>Notez que vous ne pouvez pas utiliser le domaine par défaut, \* . onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les organisations 365 d’Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Adresse IP publique de l’SBC|Une adresse IP publique qui peut être utilisée pour se connecter à l’SBC. En fonction du type de SBC, l’SBC peut utiliser la traduction d’adresses réseau (NAT).|
 |Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits dans votre organisation Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
 |Entrée DNS publique pour l’SBC |Une entrée DNS publique qui mappe le nom de domaine complet du SBC à l’adresse IP publique. |
@@ -132,7 +132,7 @@ Vous pouvez utiliser un point de terminaison :
 
 ## <a name="sbc-domain-names"></a>Noms de domaine SBC
 
-Le nom de domaine SBC doit être issu de l’un des noms inscrits dans les domaines du client. Vous ne pouvez pas \*utiliser le client. onmicrosoft.com pour le nom de domaine complet de l’SBC.
+Le nom de domaine SBC doit être issu de l’un des noms inscrits dans les domaines du client. Vous ne pouvez pas utiliser le \* client. onmicrosoft.com pour le nom de domaine complet de l’SBC.
 
 Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, que le nom puisse être utilisé comme nom de domaine complet pour l’SBC et des exemples de noms de domaine complets valides :
 
@@ -155,9 +155,9 @@ Microsoft vous recommande de demander le certificat pour la SBC en générant un
   > [!NOTE]
   > La plupart des autorités de certification doivent avoir une taille de clé privée d’au moins 2048. Gardez à l’esprit ce qui suit lors de la génération du conseiller.
 
-Le certificat doit contenir le nom de domaine complet de l’SBC dans les champs objet, nom usuel ou nom de substitution de l’objet.
+Le certificat doit comporter le nom de domaine complet SBC en tant que nom commun (CN) dans le champ Subject.
 
-Par ailleurs, le routage direct prend en charge un caractère générique dans le SAN et le caractère générique doit se conformer au standard [RFC http sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Par exemple, l’utilisation \*de. contoso.com dans le San, qui correspondait à l’élément de nom de domaine complet SBC SBC.contoso.com, mais ne correspondait pas à SBC.test.contoso.com.
+Par ailleurs, le routage direct prend en charge un caractère générique dans le SAN et le caractère générique doit se conformer au standard [RFC http sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Par exemple, l’utilisation \* de. contoso.com dans le San, qui correspondait à l’élément de nom de domaine complet SBC SBC.contoso.com, mais ne correspondait pas à SBC.test.contoso.com.
 
 Le certificat doit être généré par l’une des autorités de certification racines suivantes :
 
@@ -200,7 +200,7 @@ Apprenez-en davantage sur [Office 365 et les environnements gouvernementaux des 
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
-Le point de connexion pour le routage direct est le trois noms de domaine complets suivants :
+Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :
 
 - **SIP.pstnhub.Microsoft.com** -nom de domaine complet (FQDN) global, doit d’abord être essayé. Lorsque le SBC envoie une demande pour résoudre ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de noms principal Azure attribué à l’SBC. Cette affectation est basée sur les métriques de performance des centres de donnes et de proximité géographique de l’SBC. L’adresse IP renvoyée correspond au FQDN principal.
 - **sip2.pstnhub.Microsoft.com** -nom de domaine complet (FQDN) : il correspond à la deuxième région de priorité.
@@ -280,7 +280,7 @@ Notez que les conditions suivantes s’appliquent si vous souhaitez déployer le
 
 
 
-Le trafic de média est acheminé vers et à partir d’un service distinct dans le Cloud Microsoft. La plage d’adresses IP pour le trafic multimédia se présente comme suit.
+Le trafic de média est acheminé vers et à partir d’un service distinct dans le Cloud Microsoft. Les plages d’adresses IP pour le trafic multimédia sont les suivantes :
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 

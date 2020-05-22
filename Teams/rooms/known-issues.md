@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut en savoir plus sur une liste des problèmes connus de Microsoft Teams, notamment les mises à jour, l’interface utilisateur, le matériel et les comportements attendus.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905416"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338224"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -33,6 +33,8 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, 
 |  ---        |      ---             |   ---            | --- |
 |  Application obsolète         |    La console Microsoft Teams Rooms affiche une erreur « système config obsolète ».                |   [Utiliser l’outil de récupération de Microsoft Teams Rooms](recovery-tool.md)             |  Aucun |
 |  Appareil mis à jour vers une version non prise en charge de Windows 10   |    Appareil Windows 10 mis à jour à partir de la version 1803 vers la version 1809, qui n’est pas prise en charge. La version prise en charge est 1903. |   Cela peut se produire si le paramètre [stratégie de groupe ou GPM pour](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) le paramètre DeferFeatureUpdatesPeriodinDays, qui vous permet de différer les mises à jour de fonctionnalités d’un nombre de jours spécifié, est défini sur le maximum de 365 jours. <br><br> La version 1809 de Windows 10 n’est pas prise en charge dans Microsoft Teams, mais la version 1903 est prise en charge. Toutefois, à compter du 27 mars 2020, la version 1809 sera de plus de 365 jours. Si ce paramètre n’est pas modifié, Windows essaie d’installer la version 1809, ce qui risque de provoquer des problèmes avec les salles de Microsoft Teams.<br><br>Pour éviter ce problème, **supprimez** un paramètre de stratégie de groupe ou d’affichage GPM pour différer les mises à jour. Cela permet à Windows de procéder à la mise à jour vers la dernière version du système d’exploitation pris en charge. <br><br>**Important** Le paramètre de stratégie de groupe ou de gestion des périphériques mobiles doit être **supprimé** (à gauche, non configuré) et **ne pas être défini sur 0**. Si la stratégie est définie sur 0, Windows utilise la version la plus récente qui n’est peut-être pas prise en charge. |  Aucun |
+| Application indémarrable |  Après avoir effectué la mise à jour vers la version de l’application 4.4.41.0, le système démarre sur l’écran noir et il se trouve bloqué ou accède à l’écran de connexion après quelques minutes. | Pour résoudre ce problème, suivez les étapes décrites dans l' [application salles de Microsoft Teams ne démarre pas après la mise à jour vers la version 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) .  | Aucun |
+
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Interface utilisateur 
@@ -66,8 +68,6 @@ Utilisez toujours une connexion réseau 1 Gbit/s câblée pour vous assurer que 
 ***
 
 Si votre périphérique Microsoft teams se bloque en toute sécurité, vous ne pourrez pas vous authentifier auprès de l’appareil et ouvrir les paramètres. Par exemple, si vous supprimez les salles de Microsoft teams du domaine après qu’il est joint au domaine, l’approbation est perdue. La solution consiste à se connecter avec le compte d’administrateur local. 
-***
-La version 64 bits de l’édition anniversaire de Windows 10 Entreprise (en anglais, version 1607) est n’est plus prise en charge depuis la publication Microsoft Teams Rooms 3.0.12.0. 
 ***
 Les salles de Microsoft teams sont une application multifenêtre et nécessitent l’affichage d’une salle avant pour être connectés au port HDMI de l’appareil, afin que l’application fonctionne correctement. Vérifiez que vous disposez d’un écran HDMI branché ou que vous utilisez un câble HDMI si vous effectuez des tests et que vous n’avez pas encore d’affichage acheté.
 ***

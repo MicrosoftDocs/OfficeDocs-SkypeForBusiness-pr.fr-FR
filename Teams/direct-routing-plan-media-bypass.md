@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation multimédia avec le routage direct du système téléphonique, qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918693"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338244"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -140,7 +140,9 @@ Dans le chemin multimédia pour les applications vocales | Toujours | Interdire 
 Peut faire un transcodage (B2BUA)\* | Oui | Non, ne relaye le son qu’entre les points de terminaison. | 
 Nombre d’instances dans le monde et emplacement | 8 au total : 2 aux États-Unis et en ouest ; 2 dans Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon  | Multiples
 
-La plage d’adresses IP est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254). 
+Les plages d’adresses IP sont les suivantes :
+- 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
+- 52.120.0.0/14 (adresses IP de 52.120.0.1 à 52.123.255.254)
 
 \*Explication du transcodage : 
 
