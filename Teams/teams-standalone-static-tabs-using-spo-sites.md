@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Prenez un site ou une page SharePoint Online et créez un onglet statique autonome pouvant être utilisé comme portail intranet pour votre organisation.
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207073"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326581"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Créer une application de portail intranet Teams à partir d’un site ou d’une page SharePoint Online
 
@@ -96,7 +96,7 @@ Commencez par suivre les étapes ci-dessous :
 
 Pour afficher l’onglet nouveau sur le bureau Teams, accédez aux points de suspension (**...**) sur le côté gauche de la barre de l’application. Trouvez votre nouvelle application, chargez-la et testez-la dans Teams.
 
-Si vous souhaitez que la nouvelle application soit disponible dans le menu de gauche à une position supérieure, vous devez utiliser un paramètre de stratégie d’application. Ce paramètre se trouve dans la section administrateur Teams > stratégie d’application > Ajouter une application épinglée. Lorsque vous attribuez la stratégie à un utilisateur à des fins de test, celle-ci apparaît 24 heures plus tard. À cet esprit, n’hésitez pas à choisir l’emplacement dans lequel l’application doit apparaître à votre guise pour éviter les retards.
+Si vous souhaitez que la nouvelle application soit disponible dans le menu de gauche à une position supérieure, vous devez utiliser un paramètre de stratégie d’application. Ce paramètre se trouve dans la section administrateur Teams > stratégie d’application > Ajouter une application épinglée. Lorsque vous attribuez la politique à un utilisateur pour le test, le changement apparaîtra quelques heures plus tard. À cet esprit, n’hésitez pas à choisir l’emplacement dans lequel l’application doit apparaître à votre guise pour éviter les retards.
 
 Pour afficher et tester la nouvelle application sur un appareil mobile, ouvrez le tiroir de l’application en appuyant sur le chevron (**^**) au-dessus de la barre d’onglets située en bas de l’écran. Recherchez votre application et accédez-y sur votre appareil mobile.
 
