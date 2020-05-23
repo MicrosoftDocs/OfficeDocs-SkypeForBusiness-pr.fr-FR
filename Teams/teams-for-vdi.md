@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997165"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350228"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -237,7 +237,7 @@ Vous pouvez définir des stratégies en utilisant le centre d’administration M
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Attribuer des stratégies à l’aide du centre d’administration Microsoft teams
 
-Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réunion AllOff aux utilisateurs, procédez comme suit :
+Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réunion AllOff à un utilisateur, procédez comme suit :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
@@ -246,13 +246,17 @@ Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réuni
     2.  Sous **stratégie de réunion**, cliquez sur **AllOff**.
 4. Cliquez sur **Appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois, consultez l’article [Modifier en masse les paramètres utilisateur Teams](edit-user-settings-in-bulk.md).
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois :
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' &#x2713; (coche) en haut du tableau.
+3. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **appliquer**.  
 
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
-    - Accédez à **Voice** > **stratégies d’appel**vocal, puis cliquez sur **DisallowCalling**.
-    - Accédez à **Meetings** > **stratégies de réunion**, puis cliquez sur **AllOff**.
+    - Accédez à **Voice**  >  **stratégies d’appel**vocal, puis cliquez sur **DisallowCalling**.
+    - Accédez à **Meetings**  >  **stratégies de réunion**, puis cliquez sur **AllOff**.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
@@ -289,7 +293,7 @@ Politiques d' [**appel**](teams-calling-policy.md): les stratégies d’appel en
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Attribuer des stratégies à l’aide du centre d’administration Microsoft teams
 
-Pour affecter la stratégie d’appel AllowCalling et la stratégie de réunion inconforme aux utilisateurs, procédez comme suit :
+Pour affecter la stratégie d’appel AllowCalling et la stratégie de réunion inconforme à un utilisateur, procédez comme suit :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
@@ -298,13 +302,17 @@ Pour affecter la stratégie d’appel AllowCalling et la stratégie de réunion 
     2.  Sous **stratégie de réunion**, **cliquez sur**inverser.
 4. Cliquez sur **Appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois, consultez l’article [Modifier en masse les paramètres utilisateur Teams](edit-user-settings-in-bulk.md).
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois :
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' &#x2713; (coche) en haut du tableau.
+3. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **appliquer**.  
 
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
-    - Accédez à **Voice** > **stratégies d’appel**vocal, puis cliquez sur **AllowCalling**.
-    - Accédez à **Meetings** > stratégies de réunion, **puis cliquez sur****intentn**.
+    - Accédez à **Voice**  >  **stratégies d’appel**vocal, puis cliquez sur **AllowCalling**.
+    - Accédez à **Meetings**  >  stratégies de réunion, puis cliquez sur **AllOn****intentn**.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
@@ -361,7 +369,7 @@ Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de suppor
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

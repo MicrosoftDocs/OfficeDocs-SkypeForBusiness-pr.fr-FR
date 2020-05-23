@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140741"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350238"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
@@ -41,7 +41,7 @@ Suivez les étapes ci-dessous avec ces premiers points de suite :
 
 ## <a name="gather-feedback"></a>Recueillir des commentaires
 
-Utilisez les composants d’Office 365 pour recueillir des commentaires pour votre projet.
+Utilisez les composants de Microsoft 365 ou Office 365 pour recueillir des commentaires pour votre projet.
   
 ![Icône représentant un point de décision](media/teams-adoption-decision-icon.png) Décision : Si votre organisation a déjà un investissement dans un réseau Yammer, vous pouvez l’utiliser en tant que forum de commentaires pour votre premier programme adoptant. Si ce n’est pas le cas, et que votre programme d’adoption initiale comporte moins de 5000 membres, créez une équipe dans teams pour recueillir vos commentaires et fournir une formation.
   
@@ -49,4 +49,4 @@ Utilisez les composants d’Office 365 pour recueillir des commentaires pour vot
 > Certaines organisations combinent les canaux pour les commentaires du préversion du programme des champions au sein de l’équipe du programme d’équipe. C’est une bonne approche en raison du fait que de nombreux premiers décideurs peuvent devenir des champions et renforcer la communauté. 
 
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [prise en charge intégrée](teams-adoption-onboard-support.md).
+![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [prise en charge intégrée](teams-adoption-onboard-support.md).

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904319"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350248"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
@@ -64,10 +64,10 @@ L’interface de réunion teams est haute qualité, prend en charge les discussi
 
 ### <a name="decision-6--data-security"></a>Décision 6 : sécurité des données
 
-En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance en équipe](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base a été définie pour les données d’équipe dans Microsoft 365 ou Office 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car les droits d’administrateur d’Office 365 sont requis pour terminer ce travail.
+En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance en équipe](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base a été définie pour les données d’équipe dans Microsoft 365 ou Office 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car les droits d’administrateur Microsoft 365 ou Office 365 sont requis pour terminer ce travail.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Décision 7 : durée de votre expérience
 
 Une implémentation de teams réussie est un bon rythme pour garantir une dynamique, un foyer et des connaissances appropriés. Nous vous conseillons de faire en sorte que la phase de votre projet soit de 60 jours pour garantir la durée de la période de travail de vos premiers entourages. Le développement d’une expérimentation trop longue a pour unique risque d’augmenter le risque d’un programme de changement d’échec ; Néanmoins, cette durée varie en fonction de chaque organisation.  
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
+![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904349"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350128"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
-La sensibilisation et la formation sont les segments marketing et de communications de votre stratégie d’adoption globale. Cela permet de garantir que vos employés connaissent les nouvelles fonctionnalités de Microsoft Teams, ainsi que les services et applications Office 365 sous-jacents.
+La sensibilisation et la formation sont les segments marketing et de communications de votre stratégie d’adoption globale. Cela permet de garantir que vos employés connaissent les nouvelles fonctionnalités de Microsoft Teams, ainsi que les services et applications Office 365 sous-365 jacents.
    
 Pour vos pilotes initiaux et votre déploiement à l’échelle de l’entreprise, vos communications internes doivent être de priorité. Ils doivent inclure :
 
@@ -49,13 +49,13 @@ Si votre entreprise possède un portail intranet central pour les actualités, l
 
 ## <a name="implement-end-user-training"></a>Mettre en œuvre une formation pour les utilisateurs finaux
 
-Utilisez nos ressources pour vous permettre de réaliser des formations aux utilisateurs finaux au fur et à mesure que les utilisateurs commenceront à utiliser Microsoft teams et d’autres services 365 Office. Consultez nos pages de ressources pour en savoir plus :
+Utilisez nos ressources pour vous permettre de réaliser des formations aux utilisateurs finaux au fur et à mesure de l’utilisation de Microsoft teams et d’autres services Microsoft 365 ou Office 365. Consultez nos pages de ressources pour en savoir plus :
 
 - [Formation pour les utilisateurs finaux dirigées par un instructeur pour teams](instructor-led-training-teams-landing-page.md)
 - [Formations destinées aux administrateurs pour teams](itadmin-readiness.md)
 - [Vidéo de formation en ligne pour les utilisateurs finaux](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Café dans la formation Cloud Online pour les champions & professionnels de l’informatique](https://aka.ms/CoffeeintheCloud) 
-- [Aide-mémoires dans les fiches récapitulatives sur la formation Office 365](https://aka.ms/O365AdoptionTools)
+- [Aide-mémoires dans les fiches récapitulatives sur Microsoft 365 et Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Mesurer et partager la réussite
 
@@ -71,4 +71,4 @@ Partagez les avis que vous obtenez de votre canal de commentaires grâce au mot-
 
 [En savoir plus sur les rapports d’utilisation de Microsoft teams dans le centre d’administration 365 Microsoft.](teams-activity-reports.md)
 
-![Une icône représentant les étapes](media/teams-adoption-next-icon.png) suivantes : planifier des [révisions d’état de service](teams-adoption-schedule-service-health-reviews.md)
+![Une icône représentant les étapes suivantes ](media/teams-adoption-next-icon.png) : planifier des [révisions d’état de service](teams-adoption-schedule-service-health-reviews.md)

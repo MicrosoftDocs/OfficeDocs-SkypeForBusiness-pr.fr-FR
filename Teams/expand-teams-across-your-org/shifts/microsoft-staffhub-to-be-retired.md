@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780633"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350158"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
-À compter du 31 décembre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps.
+À compter du 30 juin 2020, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps.
 
 Ces modifications font partie de nos efforts continus pour permettre à tous les employés possédant Microsoft 365. Avec les fonctionnalités de terrain travailleurs désormais disponibles en équipe, tous les employés de votre organisation pourront utiliser teams pour rationaliser leur journée de travail, collaborer avec des collègues et accéder à des informations et à l’expertise pour leur permettre de travailler efficacement.
 
@@ -37,13 +37,13 @@ Ces modifications font partie de nos efforts continus pour permettre à tous les
 
 #### <a name="when-will-staffhub-be-retired"></a>Quand StaffHub sera-t-il supprimé ?
 
-À compter du milieu du 2019 avril, Microsoft StaffHub ne sera plus disponible pour les nouveaux clients et vous ne pourrez plus accéder à l’application à partir du lanceur d’applications Office 365 dans les clients existants. Les utilisateurs actuels pourront toujours utiliser le service jusqu’au 31 décembre 2019, mais aucune fonction supplémentaire ne sera disponible.
+À compter du milieu du 2019 avril, Microsoft StaffHub ne sera plus disponible pour les nouveaux clients et vous ne pourrez plus accéder à l’application à partir du lanceur d’applications Microsoft 365 ou Office 365 dans les clients existants. Les utilisateurs actuels pourront toujours utiliser le service jusqu’au 31 décembre 2019, mais aucune fonction supplémentaire ne sera disponible.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>Que se passe-t-il une fois que StaffHub est supprimé ?
 
-Microsoft StaffHub cesse de fonctionner pour tous les utilisateurs du 1er janvier 2020. Tout utilisateur qui tente d’ouvrir l’application verra s’afficher un message lui indiquant de télécharger Teams. Si l’utilisateur dispose d’une licence active qui inclut les équipes et que l’organisation a suivi les étapes appropriées pour permettre aux équipes, les données et les fonctionnalités essentielles de StaffHub lui sont accessibles en fonction de leur transition vers Teams.
+Microsoft StaffHub cesse de fonctionner pour tous les utilisateurs du 30 juin 2020. Tout utilisateur qui tente d’ouvrir l’application verra s’afficher un message lui indiquant de télécharger Teams. Si l’utilisateur dispose d’une licence active qui inclut les équipes et que l’organisation a suivi les étapes appropriées pour permettre aux équipes, les données et les fonctionnalités essentielles de StaffHub lui sont accessibles en fonction de leur transition vers Teams.
 
-Entre le 2019 avril et 2019 décembre, les utilisateurs de StaffHub peuvent recevoir des notifications dans l’application les encourageant à utiliser Teams.
+Entre le 2019 avril et le 2020 juin, les utilisateurs de StaffHub peuvent recevoir des notifications dans l’application les encourageant à utiliser Teams.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Les équipes disposeront-elles de toutes les fonctionnalités actuellement proposées dans StaffHub ?
 
@@ -103,7 +103,7 @@ Pour plus d’informations, voir [emplacement des données de décalage](manage-
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>Où puis-je en savoir plus sur les Shifts ?
 
-Pour plus d’informations sur le [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)produit, voir.
+Pour plus d’informations sur le produit, voir [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) .
 
 Pour obtenir des instructions d’administration, voir [gérer l’application Shifts pour votre organisation dans teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -127,9 +127,9 @@ Par défaut, l’option équipes est activée pour toutes les organisations. Vou
 
 Teams prend en charge la coexistence avec Skype entreprise. Pour plus d’informations, reportez-vous à la rubrique [comprendre les équipes et la coexistence de Skype entreprise,](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) ainsi que les recommandations en matière d’interopérabilité et [de migration et d’interopérabilité pour les organisations qui utilisent des équipes dans Skype entreprise](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Est-ce que chaque utilisateur doit avoir un compte 365 Office ou un compte Azure Active Directory (Azure AD) ?
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>Chaque utilisateur doit-il disposer d’un compte Microsoft 365 ou Office 365 ou d’Azure Active Directory (Azure AD) ?
 
-Oui, tous les responsables et membres d’une équipe qui utilisent des équipes et des équipes doivent disposer d’un compte Office 365 (Azure AD) et disposer d’une licence valide.
+Oui, tous les responsables et membres d’une équipe qui utilisent des équipes et des équipes doivent disposer d’un compte Microsoft 365 ou Office 365 (Azure AD) et doivent avoir reçu une licence valide.
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>Dans StaffHub, j’aurais pu ajouter un préfixe spécial à tous les groupes Microsoft 365 créés par StaffHub Teams. Est-ce que je peux faire la même chose dans teams ?
 
@@ -137,7 +137,7 @@ Vous ne disposez pas de la même fonctionnalité lorsque vous passez de StaffHub
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Les noms d’équipe seront-ils les mêmes dans teams ?
 
-Le nom d’une équipe est peut-être différent. Le nom des équipes dans teams utilise le nom du groupe Office 365. Si le nom de l’équipe StaffHub est différent du nom du groupe Office 365 correspondant, vous verrez un autre nom lorsque vous basculerez vers Teams.
+Le nom d’une équipe est peut-être différent. Le nom de l’équipe dans Microsoft teams utilise le nom du groupe Microsoft 365. Si le nom de l’équipe StaffHub est différent du nom du groupe Microsoft 365 correspondant, vous verrez un autre nom lorsque vous basculerez vers Teams.
 
 #### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>Qu’advient-il de l’appartenance à une équipe StaffHub à une équipe ?
 
@@ -147,7 +147,7 @@ Nous vous encourageons à consulter vos listes d’équipe existantes sur StaffH
  
 #### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>Qu’advient-il des membres de l’équipe StaffHub qui ne sont pas approvisionnés ou dont le statut est inactif ?
 
-Le planning de l’utilisateur est déplacé vers les décalages, mais il n’est pas membre de l’équipe ou d’un groupe Office 365.
+Le planning de l’utilisateur est déplacé vers les équipes, toutefois, l’utilisateur n’est pas membre de l’équipe ou d’un groupe Microsoft 365.
 
 Pour les comptes inactifs qui ne sont pas associés à un compte d’utilisateur Azure AD, un responsable peut s’assurer que l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Microsoft 365 ou Office 365 valide dans la page des membres de l’équipe StaffHub de manière à ce que l’utilisateur soit lié au compte Azure AD approprié au sein de son organisation.
 
@@ -157,9 +157,9 @@ Nous vous recommandons de veiller à ce que tous les utilisateurs de votre organ
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>Qu’advient-il des conversations dans StaffHub ?
 
-Pour aider les utilisateurs à migrer, nous prévoyons de migrer l’historique de la discussion dans StaffHub vers Teams. Le volume de l’historique des conversations disponible dans teams dépend de la manière dont vous configurez votre organisation en fonction de la transition. Nous vous conseillons d’effectuer une action au plus tard le 30 juin 2019 afin d’offrir suffisamment de temps pour effectuer la transition 90 jours de données avant le 31 décembre 2019.
+Pour aider les utilisateurs à migrer, nous prévoyons de migrer l’historique de la discussion dans StaffHub vers Teams. Le volume de l’historique des conversations disponible dans teams dépend de la manière dont vous configurez votre organisation en fonction de la transition. Nous vous conseillons d’effectuer une action au plus tard le 30 juin 2019 afin de fournir suffisamment de temps pour effectuer la transition 90 jours de données avant le 30 juin 2020.
 
-Assurez-vous que la création de groupes Office 365 est activée dans le centre d’administration 365 avant le début de la transition, car cela est essentiel pour nous permettre de migrer vos données de discussion StaffHub en équipes. Dans le cas contraire, il est impossible d’activer ce service avant le 30 juin 2019, mais la mise à jour des données de la discussion sera moins récente.
+Assurez-vous que la création de groupes Microsoft 365 est activée dans le centre d’administration 365 avant le début de la transition, car cela est essentiel pour nous permettre de migrer vos données de discussion StaffHub en équipes. Dans le cas contraire, il est impossible d’activer ce service avant le 30 juin 2019, mais la mise à jour des données de la discussion sera moins récente.
 
 #### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>Qu’advient-il des fichiers qui ont été téléchargés sur StaffHub ?
 
@@ -175,7 +175,7 @@ La suppression d’une planification est liée à la suppression d’une équipe
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Qui alimente la fonctionnalité de partage de fichiers dans teams ? Où les fichiers sont-ils stockés ?
 
-La fonctionnalité de partage de fichiers, qui permet à un responsable de distribuer des fichiers aux membres d’une équipe, est disponible sur le serveur principal de SharePoint Online. Lors de la création d’une équipe, un groupe Office 365 est automatiquement configuré pour cette équipe en arrière-plan.
+La fonctionnalité de partage de fichiers, qui permet à un responsable de distribuer des fichiers aux membres d’une équipe, est disponible sur le serveur principal de SharePoint Online. Lors de la création d’une équipe, un groupe Microsoft 365 est automatiquement configuré pour cette équipe en arrière-plan.
 
 Pour en savoir plus, voir [comment SharePoint Online et OneDrive entreprise interagissent avec teams](../../SharePoint-OneDrive-interact.md).
  
@@ -209,4 +209,4 @@ Comme Shifts est une application dans Teams, vous pouvez voir l’utilisation vi
 
 #### <a name="where-can-i-provide-feedback"></a>Où puis-je envoyer des commentaires ?
   
-Dans l’application mobile, appuyez sur **plus** dans le coin supérieur gauche de l’écran, accédez à **paramètres** > **Envoyer des commentaires** ou **signaler un problème**. De même, dans les applications de bureau et Web, dans le coin inférieur gauche de l’écran, **vous** > allez**partager une idée** ou **signaler un problème**.
+Dans l’application mobile, appuyez sur **plus** dans le coin supérieur gauche de l’écran, accédez à **paramètres**  >  **Envoyer des commentaires** ou **signaler un problème**. De même, dans les applications de bureau et Web, dans le coin inférieur gauche de l’écran, **vous**allez  >  **partager une idée** ou **signaler un problème**.

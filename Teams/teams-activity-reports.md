@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256389"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349978"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Rapports d’activité de l’utilisateur Microsoft Teams 
 ========================================
@@ -107,7 +107,7 @@ Vous pouvez affecter le rôle de *lecteur rapports* aux personnes qui ne sont pa
 
 ### <a name="at-a-glance-activity-widget"></a>Widget d’activité en un clin d’œil
 
-Le tableau de bord rapports inclut les données d’utilisation d’équipes dans le widget activité d’un coup d’œil, qui vous permettent d’obtenir une vue d’ensemble illustrant la manière dont les utilisateurs communiquent et collaborent à l’aide des autres services dans Office 365.
+Le tableau de bord rapports inclut les données d’utilisation d’équipes dans le widget activité d’un coup d’œil, qui vous offre une vue d’ensemble des produits permettant aux utilisateurs de communiquer et de collaborer à l’aide des autres services dans Microsoft 365 ou Office 365.
 
 ![Capture d’écran du widget activités d’une équipe en un clin d’œil.](media/at-a-glance-activity-widget.png)
 

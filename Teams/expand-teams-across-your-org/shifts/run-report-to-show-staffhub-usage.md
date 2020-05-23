@@ -17,17 +17,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe7851e57cd6d812d0b8904668ca5fd67fd5999d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5701e508440a338e0f0ba1fd133dac98ec35d57f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826692"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349628"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>Exécuter un rapport pour afficher l’utilisation effective de StaffHub
 
 > [!IMPORTANT]
-> À compter du 31 décembre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub s’arrêtera de fonctionner pour tous les utilisateurs du 31 décembre 2019. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
+> À compter du 30 juin 2020, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub s’arrêtera de fonctionner pour tous les utilisateurs du 30 juin 2020. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
 Suivez les étapes décrites dans cet article pour exécuter un rapport et obtenir la liste des utilisateurs de StaffHub actifs au sein de votre organisation. Ces informations pourront vous être utiles lorsque vous préparez [le déplacement de vos équipes StaffHub vers Microsoft teams](move-staffhub-teams-to-shifts-in-teams.md). Dans le rapport, vous savez qui vous devez inclure dans vos communications lorsque vous passez de StaffHub à Teams.
 

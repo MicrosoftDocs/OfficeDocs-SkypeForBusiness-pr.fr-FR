@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780193"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350148"
 ---
 # <a name="patients-app-overview"></a>Présentation de l’application Patients
 
@@ -30,18 +30,18 @@ L’application patients est une application Microsoft teams Store disponible po
 
 L’application possède deux modes :
 
-- Le mode connecté EMR qui se connecte à EMRs via FHIR. L’application en mode connecté EMR reste en version privée prédéfinie, et les utilisateurs intéressés ou les administrateurs peuvent demander l’accès à l’application en déplaçant le message électronique sur [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) contenant des informations sur son organisation 365.
+- Le mode connecté EMR qui se connecte à EMRs via FHIR. L’application en mode connecté EMR reste en version privée prédéfinie, et les administrateurs ou les clients concernés peuvent demander l’accès à l’application en déposant des messages Microsoft sur [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) avec des informations sur son organisation Microsoft 365.
 - Le mode manuel qui permet aux équipes de soins d’ajouter/de mettre en place des informations relatives aux patients manuellement. L’application est disponible dans le magasin d’applications teams pour que les utilisateurs finaux puissent télécharger la version privée préversion. L’application peut être limitée à certaines sections d’utilisateurs à l’aide de [stratégies de configuration d’application](../../teams-app-setup-policies.md) dans Teams. Pour pouvoir accéder à l’application, votre client doit faire partie du programme d’adoption de technologie (TAP). Envoyez-nous un e-mail à [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) pour démarrer le processus de demande d’accès.
 
 ## <a name="usage-example"></a>Exemple d’utilisation
 
-Au cours d’un arrondi dans le cadre d’une période de travail dans les soins médicaux, les médecins regroupent dans la station albattable des nouvelles mises à jour de l’évolution des patients.  Ils ont mis en surbrillance les métriques critiques principales (qui ne sont pas nécessairement médicales ou dont la mention est explicite sur les dossiers médicaux des patients) et permettent de s’assurer que le patient se trouve sur le chemin coulissant approprié pour se décharger en fonction du diagnostic. Pour arrondir ce qui est le cas, les soins d’une équipe fixent l’application du patient au sein d’une équipe où tous les médecins sont ajoutés et ajoutent des patients à une liste de patients. Pendant les arrondis, les infirmières et le Givers d’autres soins pour le patient accèdent à l’application Microsoft teams et au patients sur leurs appareils mobiles et mettent à jour les informations pertinentes relatives aux patients sur leur appareil, et tous les autres utilisateurs de l’équipe de soins peuvent voir ces mises à jour et notes et rester synchronisées. Deux fois par jour, au début et à la fin d’une équipe, ils ont également des réunions d’équipe multidisciplinaires pour parcourir la liste des patients et utiliser l’application patients pour vous mettre en ligne et partager des informations sur chaque patient à l’aide de l’application patients sur un grand écran d’affichage. Dans la plupart des cas, certains cliniciens pourront également se connecter à distance à ces équipes et continuer à participer à la discussion.
+Au cours d’un arrondi dans le cadre d’une période de travail dans les soins médicaux, les médecins regroupent dans la station albattable des nouvelles mises à jour de l’évolution des patients.  Ils ont mis en surbrillance les mesures critiques critiques (qui ne sont pas nécessairement médicales ou qui s’affichent sur les dossiers médicaux des patients) et permettent de s’assurer que le patient se trouve sur le chemin coulissant approprié pour se décharger en fonction du diagnostic. Pour arrondir ce qui est le cas, les soins d’une équipe fixent l’application du patient au sein d’une équipe où tous les médecins sont ajoutés et ajoutent des patients à une liste de patients. Pendant les arrondis, les infirmières et le Givers d’autres soins pour le patient accèdent à l’application Microsoft teams et au patients sur leurs appareils mobiles et mettent à jour les informations pertinentes relatives aux patients sur leur appareil, et tous les autres utilisateurs de l’équipe de soins peuvent voir ces mises à jour et notes et rester synchronisées. Deux fois par jour, au début et à la fin d’une équipe, ils ont également des réunions d’équipe multidisciplinaires pour parcourir la liste des patients et utiliser l’application patients pour vous mettre en ligne et partager des informations sur chaque patient à l’aide de l’application patients sur un grand écran d’affichage. Dans la plupart des cas, certains cliniciens pourront également se connecter à distance à ces équipes et continuer à participer à la discussion.
 
 ## <a name="configure-patients-app"></a>Configurer l’application patients
 
 Pour plus d’informations sur la façon de préparer votre environnement pour l’utilisation de l’application patients en mode EMR, voir intégration des enregistrements de la [santé électronique dans Microsoft teams](patients-app.md). Vous devrez également consulter la rubrique [gérer les stratégies de configuration des applications dans Microsoft teams](../../teams-app-setup-policies.md) pour activer l’application patients pour votre organisation.
 
-Pour plus d’informations sur la façon dont vos utilisateurs finaux peuvent accéder à l’application patients et l’installer dans une équipe qu’elles possèdent ou gérer, voir [commencer à utiliser Microsoft teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393) 
+Pour plus d’informations sur la façon dont vos utilisateurs finaux peuvent accéder à l’application patients et l’installer dans une équipe qu’elles possèdent ou gérer, voir [prendre en main Microsoft teams patients](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
@@ -66,8 +66,8 @@ Pas pour l’instant, mais cette fonctionnalité sera bientôt disponible.
 
 **Dans la mesure où cette application prend en charge l’utilisation de PHI, est-ce que le contrôle empêche tout accès non autorisé ou conformité aux réglementations ?**
 
-Oui, c’est. Chaque action de l’interface utilisateur exécutée par un utilisateur de Microsoft teams sur l’application patients est auditée et disponible dans le centre de sécurité et conformité. Les détails sont décrits dans [cet article.](patients-audit.md)
+Oui, c’est. Chaque action de l’interface utilisateur exécutée par un utilisateur de Microsoft teams sur l’application patients est auditée et disponible dans le centre de sécurité et conformité. Les détails sont décrits dans les [journaux d’audit de l’application patients](patients-audit.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Intégration des dossiers médicaux électroniques dans Microsoft Teams](patients-app.md)

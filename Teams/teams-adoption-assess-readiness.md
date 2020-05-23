@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904766"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350268"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Votre organisation est-elle prête pour Microsoft Teams ?
 
@@ -64,7 +64,7 @@ Les premiers décideurs partagent certaines caractéristiques, quelle que soit l
 - Je souhaite partager ses observations et leurs connaissances avec le groupe
 - Sont des préféreront de risques ; c’est-à-dire qu’il est disposé d’essayer d’autres éléments pour voir s’il fonctionne
 
-Utilisez un formulaire simple dans Office 365 pour permettre à ces utilisateurs de participer à votre programme d’adoption initiale pour Teams. Selon la taille et la complexité de votre organisation, il est possible que vous choisissiez d’activer tout ou partie de ces personnes pour la phase d’expérimentation. Dans ce programme, il accepte de participer activement à la phase d’expérimentation et de fournir régulièrement des commentaires à l’équipe de projet. N’emportez pas de personnes souhaitant simplement tester une nouvelle technologie. Informez-les qu’il est en train d’apporter ce commentaire actif et nous aidons à mettre en avant les résultats de votre projet. Vous pouvez utiliser cette liste de personnes dans la [phase 2-expérimentation](teams-adoption-phase2-experiment.md).
+Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes d’accepter dans votre programme d’adoption initiale pour Teams. Selon la taille et la complexité de votre organisation, il est possible que vous choisissiez d’activer tout ou partie de ces personnes pour la phase d’expérimentation. Dans ce programme, il accepte de participer activement à la phase d’expérimentation et de fournir régulièrement des commentaires à l’équipe de projet. N’emportez pas de personnes souhaitant simplement tester une nouvelle technologie. Informez-les qu’il est en train d’apporter ce commentaire actif et nous aidons à mettre en avant les résultats de votre projet. Vous pouvez utiliser cette liste de personnes dans la [phase 2-expérimentation](teams-adoption-phase2-experiment.md).
 
 Notre guide du programme des premiers conseils est une ressource utile pour le lancement de ce programme dans votre environnement.  
  
@@ -104,4 +104,4 @@ Combinez ces données avec les profils de parties prenantes et les employés sou
 
 Vous pouvez utiliser des champions internes pour résoudre le problème lié à l’utilisation de différents types de modifications. Ici, les commentaires sont la clé de réussite : encourager les utilisateurs à partager leurs défis et leurs besoins. Englober les dépassements et les dépassements en donnant à ces personnes ou à un siège au tableau lors de l’expérimentation. Cette meilleure pratique va préparer le déploiement de vos améliorations en matière de collaboration.  
 
-![Une icône représentant l’étape](media/teams-adoption-next-icon.png) suivante, à la suite de la [phase 2 de Microsoft teams : expérimentation](teams-adoption-phase2-experiment.md) 
+![Une icône représentant l’étape suivante, à la suite de la ](media/teams-adoption-next-icon.png) [phase 2 de Microsoft teams : expérimentation](teams-adoption-phase2-experiment.md) 

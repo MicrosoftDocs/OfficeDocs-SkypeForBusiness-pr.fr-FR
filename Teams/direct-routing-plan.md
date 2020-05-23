@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338234"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349598"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -285,6 +285,7 @@ Le trafic de média est acheminé vers et à partir d’un service distinct dans
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
+- 52.120.0.0/14 (adresses IP de 52.120.0.1 à 52.123.255.254).
 
 ### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
 

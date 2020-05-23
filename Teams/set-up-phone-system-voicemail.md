@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042931"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349718"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -35,7 +35,7 @@ Cet article est destiné à l' [administrateur 365 Office](https://support.offic
 > [!NOTE]
 > La messagerie vocale Cloud prend en charge le dépôt de messages vocaux uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie de tiers. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Environnements Cloud uniquement : configurer la messagerie vocale Cloud
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Environnements Cloud uniquement : configurer la messagerie vocale Cloud pour les utilisateurs Cloud psystem
 
 Pour les utilisateurs de Skype entreprise Online et des offres d’appels, la boîte vocale Cloud est automatiquement configurée et activée pour les utilisateurs lorsque vous attribuez une licence de **système téléphonique** et un numéro de téléphone à vos utilisateurs.
   
@@ -45,21 +45,32 @@ Pour les utilisateurs de Skype entreprise Online et des offres d’appels, la bo
     
 3. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
 
-## <a name="phone-system-with-on-premises-environments"></a>Système téléphonique avec environnements locaux
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configuration de la messagerie vocale Cloud pour les utilisateurs de boîtes aux lettres Exchange Server
 
-Vous trouverez ci-après des informations sur la configuration de la messagerie vocale Cloud pour travailler avec des environnements d’appels locaux.
+Vous trouverez ci-après des informations sur la configuration de la messagerie vocale Cloud pour travailler avec des utilisateurs qui sont en ligne pour le système téléphonique mais disposent de leur boîte aux lettres sur Exchange Server. 
   
-1. Si la fonctionnalité du système téléphonique n’est pas incluse dans votre plan, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Vous devez également acheter une licence Exchange Online. Voir [licences de modules complémentaires Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Si la fonctionnalité du système téléphonique n’est pas incluse dans votre plan, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Voir [licences de modules complémentaires Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)et les licences Exchange Online aux personnes de votre entreprise.
+2. [Attribuez des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) aux personnes de votre entreprise.
     
-3. Suivez les instructions correspondant à la solution d’appels RTC sur site déployée pour vos utilisateurs. Pour la version Cloud Connector, suivez les instructions de la section configurer **les services vocaux et de messagerie vocale du système téléphonique du système** de [configuration Skype entreprise Cloud Connector Edition](https://technet.microsoft.com/library/mt605228.aspx). Pour [la](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)fonction d’appel RTC de Skype entreprise Server, procédez comme suit. Pour le routage direct Teams, suivez la section **configurer le numéro de téléphone et activer l’audio** et la boîte vocale d’entreprise de [configurer le routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
+3. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
 
-4. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
-
-5. Les messages vocaux sont remis à la boîte aux lettres Exchange des utilisateurs via le protocole SMTP routé via Exchange Online Protection. Pour permettre la remise des messages, assurez-vous que les connecteurs Exchange sont correctement configurés entre les serveurs Exchange et Exchange Online Protection. [Utiliser des connecteurs pour configurer le flux de messagerie](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
+4. Les messages vocaux sont remis à la boîte aux lettres Exchange des utilisateurs via le protocole SMTP routé via Exchange Online Protection. Pour permettre la remise des messages, assurez-vous que les connecteurs Exchange sont correctement configurés entre les serveurs Exchange et Exchange Online Protection. [Utiliser des connecteurs pour configurer le flux de messagerie](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
 
 6. Pour activer les fonctionnalités de boîte vocale telles que la personnalisation des messages d’accueil et les messages vocaux visuels dans les clients Skype entreprise, il est nécessaire de se connecter à partir d’Office 365 vers la boîte aux lettres Exchange Server via les services Web Exchange. Pour activer cette connectivité, vous devez configurer le nouveau protocole d’authentification OAuth Exchange décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), ou exécuter l’Assistant Exchange hybride à partir d’Exchange 2013 CU5 ou version ultérieure. Par ailleurs, vous devez configurer l’intégration et le protocole OAuth entre Skype entreprise Online et Exchange Server décrits dans [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+
+## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Configuration de la messagerie vocale Cloud pour les utilisateurs de Skype entreprise Server
+
+Vous trouverez ci-après des informations sur la configuration de la messagerie vocale Cloud pour travailler avec des utilisateurs qui sont en ligne pour Exchange et sur site pour Skype entreprise. 
+  
+1. Il est possible que vous deviez acheter des licences Exchange Online aux personnes de votre entreprise. Voir [licences de modules complémentaires Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    
+2. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) licences Exchange Online destinées aux personnes de votre entreprise.
+    
+3. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
+
+4. Pour configurer les utilisateurs de Skype entreprise Server pour la boîte vocale Cloud, voir [planifier le service de messagerie vocale Cloud pour les utilisateurs locaux](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail) .
+
 
 > [!NOTE]
 > Lorsqu’un délégué répond à un appel de la part d’un déléguer, les notifications ne sont pas disponibles dans la boîte vocale Cloud. Les utilisateurs peuvent recevoir des notifications d’appels manqués.

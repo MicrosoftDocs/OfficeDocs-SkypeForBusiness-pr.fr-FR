@@ -21,12 +21,12 @@ f1.keywords:
 description: Familiarisez-vous avec une équipe de champions pour promouvoir l’adoption d’équipes en tirant, adoptant et éducation au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904756"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350258"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
@@ -45,7 +45,7 @@ Les champions doivent :
 
 Utilisez notre [Guide du programme champions](https://go.microsoft.com/fwlink/?linkid=854665) pour créer ce programme au sein de votre organisation. Nos bonnes pratiques pour cette communauté sont les suivantes :
 
-- Participez au programme Office 365 champions : Assurez-vous que, au minimum, les leaders du programme champion (et potentiellement tous les champions de la société) appartiennent au [programme Microsoft Office 365 champion](https://aka.ms/O365Champions). Cet appel gratuit de la Communauté fournit des informations précieuses pour exécuter votre propre programme et profiter au maximum des équipes et des autres services 365 d’Office. Les matériaux du programme peuvent être réutilisés dans votre propre programme interne.
+- Rejoignez le programme Microsoft 365 ou Microsoft Office 365 [champions](https://aka.ms/O365Champions). Assurez-vous que les points de suite du programme champion (et éventuellement des champions de la société) sont membres du programme. Cet appel gratuit de la Communauté fournit des informations précieuses pour exécuter votre propre programme et profiter au maximum des équipes et autres services Microsoft 365 ou Office 365. Les matériaux du programme peuvent être réutilisés dans votre propre programme interne.
 
 - Utilisez l’équipe de l’équipe d’équipe pour les membres de l’équipe : vos champions doivent utiliser l’équipe que vous avez configurées pour les communications du programme, les commentaires et Rechercher des ressources.  En procédant ainsi, le produit sera de plus en plus familier et ses avantages.
 
@@ -60,5 +60,5 @@ Utilisez notre [Guide du programme champions](https://go.microsoft.com/fwlink/?l
 
 - Former les premiers champions et souvent : votre programme est lancé et les réunions mensuelles peuvent être utilisées pour créer des compétences au sein de la communauté des champions. Servez-vous de ces opportunités pour les mettre dans le cadre de votre formation initiale, pour leur permettre de participer à nos cours et de veiller à ce qu’ils soient prêts à être utilisés dans le cadre de la phase d’expérimentation.  
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [terminer le démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
+![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [terminer le démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
 

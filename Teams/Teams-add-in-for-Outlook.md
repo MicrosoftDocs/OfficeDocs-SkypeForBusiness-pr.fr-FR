@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321613"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349608"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -44,7 +44,7 @@ Le complément de réunion équipes est automatiquement installé pour les utili
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Le complément Réunion Teams dans Outlook pour Mac
 
-Le bouton réunion Teams dans Outlook pour Mac apparaît dans le ruban Outlook pour Mac si Outlook est en cours d’exécution de la version de production 16.24.414.0 et ultérieure et est activé avec un abonnement client Office 365.
+Le bouton réunion teams dans Outlook pour Mac s’affiche dans le ruban d’Outlook pour Mac si Outlook exécute la version de production 16.24.414.0 et les versions ultérieures, et est activée avec un abonnement client Microsoft 365 ou Office 365.
 
 Les coordonnées de la réunion (lien de participation et numéros à composer Teams) sont ajoutées à l’invitation à la réunion une fois que l’utilisateur clique sur **envoyer**.  
 

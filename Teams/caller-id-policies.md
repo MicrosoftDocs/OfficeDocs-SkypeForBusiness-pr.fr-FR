@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de teams au sein de votre organisation.
-ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224251"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349778"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’identification d’appelant dans Microsoft teams
 
@@ -67,17 +67,21 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>Attribuer une stratégie d’ID d’appelant personnalisée aux utilisateurs
 
-Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à un ou plusieurs utilisateurs ou au module PowerShell Skype entreprise pour attribuer une stratégie personnalisée à des groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution.
+Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à un ou plusieurs utilisateurs ou au module PowerShell Skype entreprise et attribuer une stratégie personnalisée aux utilisateurs d’un groupe, tels qu’un groupe de sécurité ou un groupe de distribution.
 
-### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>Assigner une stratégie d’ID de ligne d’appelant personnalisée à un utilisateur
+### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>Assigner une stratégie d’ID de ligne d’appelant personnalisée aux utilisateurs
+
+Pour attribuer une stratégie à un utilisateur :
 
 1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
 2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
 3. Sous **stratégie d’identification**de l’appelant, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
 
-### <a name="assign-a-custom-calling-line-id-policy-to-multiple-users-at-a-time"></a>Assigner une stratégie d’ID de ligne d’appel personnalisée à plusieurs utilisateurs à la fois
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois :
 
-Pour assigner une stratégie d’ID de ligne d’appel personnalisée à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' &#x2713; (coche) en haut du tableau.
+3. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **appliquer**.  
 
 Vous pouvez également effectuer les opérations suivantes :
 
@@ -110,7 +114,7 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
- ## <a name="related-topics"></a>Sujets associés
+ ## <a name="related-topics"></a>Rubriques connexes
 
 - [Nouveau-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

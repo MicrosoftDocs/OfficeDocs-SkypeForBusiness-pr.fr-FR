@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905666"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349708"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Phase 1 de l’adoption de Microsoft Teams - Démarrer
 
@@ -67,10 +67,10 @@ Dans la plupart des cas, cette équipe initiale doit être un petit groupe de pe
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-La [communauté technique Microsoft](https://aka.ms/TechCommunity) fournit des informations d’approbation fournies par un homologue en matière d’adoption et de problèmes techniques pour de nombreux produits Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
+La [communauté technique Microsoft](https://aka.ms/TechCommunity) fournit des informations d’approbation fournies par l’homologue en adoptant et en problèmes techniques pour de nombreux produits Microsoft 365 et Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
 
 - [Communauté technique Microsoft teams](https://aka.ms/TeamsCommunity) : Obtenez des réponses à vos questions sur le produit, apprenez auprès des clients d’autres équipes et suivez notre blog pour vous tenir au courant des nouvelles fonctionnalités et des cas d’utilisation pour Teams. 
-- [Programme des champions office 365](https://aka.ms/O365Champions) et communauté d’adoption du pilotage : Apprenez auprès de vos collègues comment adopter efficacement les charges de travail d’Office 365 telles que Teams, SharePoint, Yammer et d’autres produits. Ce service est destiné aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et aux personnes qui souhaitent adopter les services Cloud.  
+- [Programme de champions](https://aka.ms/O365Champions) et communauté d’adoption du pilotage : Apprenez auprès de vos homologues comment procéder à l’adoption d’une charge de travail Microsoft 365 ou Office 365 par le biais d’équipes, de SharePoint, de Yammer et d’autres produits. Ce service est destiné aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et aux personnes qui souhaitent adopter les services Cloud.  
 
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)
+![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)

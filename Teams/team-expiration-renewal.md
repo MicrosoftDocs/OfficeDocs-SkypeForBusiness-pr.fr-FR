@@ -11,23 +11,23 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Apprenez-en davantage sur l’expiration et le renouvellement d’une équipe et l’utilisation de la stratégie d’expiration de groupe Office 365 pour nettoyer automatiquement les équipes inutilisées dans Microsoft Teams.
+description: Apprenez-en davantage sur l’expiration et le renouvellement d’une équipe et l’utilisation de la stratégie d’expiration du groupe Microsoft 365 ou Office 365 pour nettoyer automatiquement les équipes inutilisées dans Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd9949a23d18eb03c83e50ecd418abbf54c0494
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ed1e91ae51bf3f2868e9e2f5f1de1532954d552e
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837894"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350278"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement de l’équipe dans Microsoft teams
 
 Les équipes ayant un grand nombre d’équipes disposent souvent d’équipes qui ne sont jamais utilisées. Cela peut se produire pour plusieurs raisons, notamment pour une expérimentation du produit, une collaboration d’équipe à court terme ou des propriétaires d’équipe quittant l’organisation. Au fil du temps, ces équipes peuvent s’accumuler et créer un fardeau sur les ressources client.  
 
-Pour limiter le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la [stratégie d’expiration de groupe Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont régularisées par des groupes, les stratégies d’expiration de groupe s’appliquent automatiquement aux équipes.
+Pour limiter le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la [stratégie d’expiration du groupe Microsoft 365 ou Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont régularisées par des groupes, les stratégies d’expiration de groupe s’appliquent automatiquement aux équipes.
 
 Lorsque vous appliquez une stratégie d’expiration à une équipe, le propriétaire d’une équipe reçoit une notification pour le renouvellement d’équipe 30 jours, 15 jours et 1 jour avant la date d’expiration de l’équipe. Lorsque le propriétaire de l’équipe reçoit la notification, il peut cliquer sur **renouveler maintenant** dans les paramètres de l’équipe pour renouveler l’équipe.
 

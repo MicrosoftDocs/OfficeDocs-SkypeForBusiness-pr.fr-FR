@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780403"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350178"
 ---
 # <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
@@ -28,7 +28,7 @@ Le journal d’audit de l’activité des applications patient permet aux équip
 
 ## <a name="meet-hipaa-requirements"></a>Respecter la loi HIPAA
 
-Conformément aux directives du HIPAA, les prestataires de services de santé doivent conserver des enregistrements de tout accès à la norme PHI, de sorte que les modifications soient auditées. Microsoft s’engage à remplir ses clients d’entreprise à l’aide de Microsoft Teams, et de les aider à répondre aux exigences et contrôles HIPAA. L’accès à la fonction PHI par le biais de l’application patients est entièrement suivi et les journaux sont disponibles dans le centre de sécurité et conformité M365, comme décrit dans l’article [fonctionnalité de recherche du journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
+Conformément aux directives du HIPAA, les prestataires de services de santé doivent conserver des enregistrements de tout accès à la norme PHI, de sorte que les modifications soient auditées. Microsoft s’engage à remplir ses clients d’entreprise à l’aide de Microsoft Teams, et de les aider à répondre aux exigences et contrôles HIPAA. L’accès à la fonction PHI par le biais de l’application patients est entièrement suivi et les journaux sont rendus disponibles dans le centre de conformité Microsoft 365, comme décrit dans l’article [fonctionnalité de recherche du journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
 
 > [!IMPORTANT]
 > La charge de la mise en place de la vie privée du patient est appliquée au service de santé par la Loi. La législation donne lieu à la vie privée et exige qu’un administrateur informatique ou un contrôleur d’HIPAA puisse facilement identifier le niveau d’infirmier, du praticien ou du travailleur social ayant consulté ou modifié les dossiers du patient. L’un des exemples les plus courants d’une violation d’accès PHI est l’accès aux patients VIP. La fonctionnalité du journal d’audit est nécessaire pour effectuer des enquêtes sur une violation d’accès PHI et répondre aux exigences du HIPAA.
@@ -41,7 +41,7 @@ Un audit dépend de plusieurs configurations antérieures :
 
 1. L’administrateur doit collaborer avec son fournisseur de services FHIR pour qu’il utilise EMR dans un format utilisé par l’application patients. Voir [intégration des enregistrements de santé électronique dans Microsoft teams](patients-app.md).
 2. Un administrateur de prestataire de services de santé doit activer l’application patients dans le centre d’administration Teams. Pour plus d’informations, consultez [gérer les stratégies de configuration des applications dans Microsoft teams](../../teams-app-setup-policies.md) et les Articles connexes.
-3. L’administrateur doit activer les audits d’activités dans O365, de la même façon qu’avec l’audit du journal d’activité dans Office 365, comme décrit dans la section [avant de commencer](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) et [activer ou désactiver la recherche dans le journal d’audit](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Si la journalisation d’audit est déjà activée, rien de spécial n’est nécessaire pour l’application patients. Chaque fois qu’un fournisseur de services de santé installe et exécute l’application au sein d’une équipe, les journaux d’audit enregistrent l’activité PHI.
+3. L’administrateur doit activer les audits d’activité, de la même manière qu’il s’agit de l’activation de l’audit du journal d’activité, comme décrit dans la section [avant de commencer](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) et [activer ou désactiver la recherche dans le journal d’audit](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Si la journalisation d’audit est déjà activée, rien de spécial n’est nécessaire pour l’application patients. Chaque fois qu’un fournisseur de services de santé installe et exécute l’application au sein d’une équipe, les journaux d’audit enregistrent l’activité PHI.
 4. L’administrateur doit alors annoncer la disponibilité de l’application patients, et les travailleurs de la santé doivent commencer à générer une activité qui sera incluse dans un audit.
 
 <!-- add link out to client doc when available -->
@@ -78,7 +78,7 @@ Vous pouvez personnaliser votre audit selon vos besoins pour effectuer une reche
 
 Les activités journalisées de Microsoft teams sont décrites dans [activités de Microsoft teams](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Effectuer une recherche dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140695"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349768"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
-Assurez-vous d’obtenir des signaux de votre service et de vos employés en suivant les meilleures pratiques en matière de commentaires des utilisateurs et de rapports sur l’état du service.  Dans certains cas, il est possible que vous deviez disposer des droits d’administrateur d’Office 365 pour accéder à certains rapports d’utilisation et d’intégrité des services. Si vous n’êtes pas l’administrateur 365 de votre organisation, travaillez avec cette personne pour lui accorder le rôle de lecteur de rapport dans le centre d’administration Microsoft 365 pour accéder à certaines de ces données. 
+Assurez-vous d’obtenir des signaux de votre service et de vos employés en suivant les meilleures pratiques en matière de commentaires des utilisateurs et de rapports sur l’état du service.  Dans certains cas, vous devrez éventuellement disposer de droits d’administrateur pour accéder à certains rapports d’utilisation et d’intégrité des services. Si vous n’êtes pas l’administrateur Microsoft 365 ou Office 365 de votre organisation, travaillez avec cette personne pour recevoir le rôle de lecteur de rapport dans le centre d’administration Microsoft 365 pour accéder à certaines de ces données.
 
 ## <a name="incorporating-feedback"></a>Incorporation de commentaires 
 
@@ -56,8 +56,8 @@ Meilleure pratique : Demandez aux représentants de votre service d’assistanc
 
 Il existe trois types de rapports que vous devez examiner lors du déploiement et de l’adoption de Microsoft teams :
 
-- [État du service](https://status.office365.com/) : à partir d’Office 365 et de votre service d’assistance informatique interne.
-- [Activité de service](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – à partir d’Office 365 afficher des [rapports sur Microsoft teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Vous pouvez également utiliser des informations d’autres systèmes au sein de votre organisation.
+- [État du service](https://status.office365.com/) : à partir de Microsoft 365 ou d’Office 365 et de votre service de support informatique interne.
+- [Activité de service](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – à partir de Microsoft 365 ou d’Office 365 afficher [des rapports sur Microsoft teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Vous pouvez également utiliser des informations d’autres systèmes au sein de votre organisation.
 - Satisfaction des services – recueillies auprès des forums et enquêtes de la communauté interne sur des expériences spécifiques.
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [prise de connaissance et mise en œuvre des formations](teams-adoption-drive-awareness.md)
+![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [prise de connaissance et mise en œuvre des formations](teams-adoption-drive-awareness.md)

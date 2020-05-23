@@ -21,12 +21,12 @@ f1.keywords:
 description: Découvrez comment mesurer les résultats et la réussite de votre vaste public d’équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140797"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350138"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Définir les résultats et la réussite de votre adoption de Microsoft Teams
 
@@ -79,13 +79,13 @@ Teams est une technologie transmise en forme, en fonction de la taille de votre 
 | D’abord teams | Teams | Teams Go Big | Skype côte à côte | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Déploiement du Cloud sénior avec teams | Scénarios de collaboration pour les équipes | Tous les employés d’équipes et d’équipes au sein de l’Organisation | Activer les équipes et Skype entreprise | Migration des utilisateurs de Skype entreprise vers équipes |
-| -Applicable aux clients Office 365 nouveaux ou à faible utilisation <br/>-Diriger les équipes dans un scénario spécifique au client <br/>-Mettez l’accent sur l’interface utilisateur intégrée et le délai d’exécution rapide pour Office 365 <br/>-Effectuez conjointement la mise en œuvre de la planification pour éviter l’implémentation en série | -Activez les équipes avec OneDrive et SharePoint Online <br/>-Créez un intranet d’entreprise pour partager les ressources d’actualité et la vidéo à l’aide de Microsoft Stream.<br/>**Ensemble**: <br/>Équipes<br/>SharePoint<br/>Yammer<br/>Planificateur<br/>PowerApps |-Pour les clients dont la taille est inférieure à 5000 (limitation actuelle).<br/>-Permettre la collaboration entre organisations avec une seule équipe<br/>-Automatiser les tâches courantes (demandes de congé, enquêtes des employés, engagement de la direction) |-Utiliser des tactiques fondamentales pour les équipes pour une collaboration plus rapide<br/>-Mettre en évidence des recommandations en matière de scénario en fonction de la taille et de l’ensemble des fonctionnalités requises</br>-Utilisez Skype entreprise pour les appels d’entreprise, l’interopérabilité et les scénarios hybrides<br/>-Utilisez la procédure d’introduction publique pour la planification des capacités. |-Planifiez la migration vers teams depuis Skype entreprise en créant un plan de stratégie de service pour le client<br/>-Joindre au programme de publication de la fonctionnalité<br/>-Vous recommandez d’y inclure côte à côte et équipes pour faciliter la transition
+| -Applicable aux clients nouveaux ou à faible utilisation de Microsoft 365 ou Office 365 <br/>-Diriger les équipes dans un scénario spécifique au client <br/>-Mettez l’accent sur l’interface utilisateur intégrée et le délai d’utilisation des valeurs pour Microsoft 365 ou Office 365 <br/>-Effectuez conjointement la mise en œuvre de la planification pour éviter l’implémentation en série | -Activez les équipes avec OneDrive et SharePoint Online <br/>-Créez un intranet d’entreprise pour partager les ressources d’actualité et la vidéo à l’aide de Microsoft Stream.<br/>**Ensemble**: <br/>Équipes<br/>SharePoint<br/>Yammer<br/>Planificateur<br/>PowerApps |-Pour les clients dont la taille est inférieure à 5000 (limitation actuelle).<br/>-Permettre la collaboration entre organisations avec une seule équipe<br/>-Automatiser les tâches courantes (demandes de congé, enquêtes des employés, engagement de la direction) |-Utiliser des tactiques fondamentales pour les équipes pour une collaboration plus rapide<br/>-Mettre en évidence des recommandations en matière de scénario en fonction de la taille et de l’ensemble des fonctionnalités requises</br>-Utilisez Skype entreprise pour les appels d’entreprise, l’interopérabilité et les scénarios hybrides<br/>-Utilisez la procédure d’introduction publique pour la planification des capacités. |-Planifiez la migration vers teams depuis Skype entreprise en créant un plan de stratégie de service pour le client<br/>-Joindre au programme de publication de la fonctionnalité<br/>-Vous recommandez d’y inclure côte à côte et équipes pour faciliter la transition
 
 Voici quelques recommandations pour la plupart des organisations de clients. Il y a toutefois des exceptions. Pour obtenir des conseils pour n’importe quelle situation qui n’est pas abordée ici, posez vos questions à notre communauté d’adoption ou contactez l’équipe FastTrack ou le réseau de partenaires Microsoft.
 
 - **Sélectionnez teams First ou teams**: la plupart des organisations ont un investissement existant dans la technologie Microsoft. Vous pouvez activer plusieurs charges de travail à la fois, telles qu’Exchange Online, OneDrive entreprise ou SharePoint. Dans ces cas, il est préférable de sélectionner teams First ou Teams. Cela permettra à vos utilisateurs d’être utilisés pour l’amélioration de l’utilisation de la collaboration dans Teams. Votre équipe de projet de collaboration peut ensuite planifier le déploiement de nouvelles fonctionnalités ainsi que les formations et l’assistance nécessaires à la réussite. 
 
-- **Sélectionnez teams Go Big**: dans les nouvelles organisations Office 365, il est souvent préférable d’adopter une approche du changement d’équipe afin de réduire la fatigue liée à l’apprentissage de nouvelles technologies à plusieurs reprises. Vous bénéficierez du plus grand bénéfice en permettant aux équipes de collaborer et de réorganisation de SharePoint, de OneDrive, de planificateur et d’autres charges de travail, et en permettant à vos employés d’en savoir plus sur eux dans le cadre de votre déploiement d’équipes. 
+- **Cliquez sur teams Go Big**: dans le nouveau Microsoft 365 ou dans Office 365 pour les entreprises, il est souvent préférable d’adopter une nouvelle approche de teams pour réduire la fatigue du changement suite à une nouvelle technologie à plusieurs reprises. Vous bénéficierez du plus grand bénéfice en permettant aux équipes de collaborer et de réorganisation de SharePoint, de OneDrive, de planificateur et d’autres charges de travail, et en permettant à vos employés d’en savoir plus sur eux dans le cadre de votre déploiement d’équipes. 
 
     Teams Go Big correspond également à la stratégie d’activation préférée pour les organisations qui utilisent des employés de 1 000 qui souhaitent simplifier la communication et l’engagement de leurs employés. L’utilisation de l’équipe au sein de l’organisation peut répartir les tâches et les initiatives courantes sur n’importe quel appareil. 
 
@@ -137,7 +137,7 @@ Exemples de meilleures pratiques en matière de mise en service et de gestion de
 
 Dans Microsoft Teams, il est essentiel de savoir comment la transformation numérique et l’utilisation de Microsoft teams permettent de comprendre les besoins, les opportunités et les problèmes qu’ils rencontrent. Tout comme pour la conversation classique entre les entreprises, le focus doit se trouver sur ce qui est nécessaire. Ecoutez avant de migrer vers les exigences techniques. Dans de nombreux cas, les fonctionnalités d’équipe peuvent répondre aux besoins de votre organisation.   
 
-Meilleure pratique : avant de procéder au développement d’une solution personnalisée, assurez-vous que votre organisation utilise entièrement les fonctionnalités prêts à l’emploi d’Office 365. Le développement d’une solution personnalisée engendre toujours des coûts à long terme pour vos services informatiques et de support.
+Meilleure pratique : avant de procéder au développement d’une solution personnalisée, assurez-vous que votre organisation utilise entièrement les fonctionnalités de Microsoft 365 ou d’Office 365. Le développement d’une solution personnalisée engendre toujours des coûts à long terme pour vos services informatiques et de support.
  
 Suivez les étapes ci-dessous pour rationaliser votre travail avec les unités commerciales.  Reconnaissant qu’il est possible de prolonger la durée de la période après votre premier déploiement de Microsoft teams dans les grandes entreprises multinationales :
 
@@ -147,4 +147,4 @@ Suivez les étapes ci-dessous pour rationaliser votre travail avec les unités c
 4. Capturez des commentaires et développez des champions grâce aux connaissances de votre unité commerciale pour soutenir la transition.
 5. Configurez des points de vérification mensuels pour discuter de la progression et définir la priorité des projets supplémentaires.
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [optimiser les commentaires et les rapports](teams-adoption-optimize-feedback-and-reporting.md)
+![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [optimiser les commentaires et les rapports](teams-adoption-optimize-feedback-and-reporting.md)
