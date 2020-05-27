@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349558"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374312"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -70,17 +70,17 @@ Vous pouvez ensuite attribuer la stratégie aux utilisateurs.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Affecter une stratégie de réunion aux utilisateurs
 
-Pour attribuer une stratégie de réunion à un utilisateur :
+Pour affecter une stratégie de réunion à un seul utilisateur :
 
 1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
 3. Sous **Stratégie de réunion**, sélectionnez la stratégie que vous souhaitez attribuer, et puis cliquez sur **Appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois :
+Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **appliquer**.  
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
+3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
 
 Vous pouvez également effectuer les opérations suivantes :
 
@@ -333,60 +333,32 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes anonymes, y compris les utilisateurs interentreprises, et les utilisateurs fédérés, peuvent rejoindre la réunion de l’utilisateur sans qu’un utilisateur authentifié de l’organisation n’ait accès à celle-ci. La valeur par défaut est False.
+Il s’agit d’une stratégie par organisateur qui permet la numérotation des conférences de conférences. Ce paramètre détermine si les utilisateurs de la Conférence rendez-vous peuvent participer à la réunion sans utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que l’utilisateur Dial doit patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion. 
 
-![Capture d’écran montrant un message à un utilisateur en attente](media/meeting-policies-anonymous-user-lobby.png)
+**Remarques** Si la valeur est faux et qu’un utilisateur compose le numéro d’abord de la réunion et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur à partir du lobbby. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants. 
 
-Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsque les utilisateurs authentifiés sont présents dans la réunion.
-
-|Permettre aux utilisateurs anonymes de démarrer une réunion  |Admettre automatiquement des personnes |Comportement de jointure des personnes anonymes |
-|---------|---------|---------|
-|Vrai    | Tout le monde      | Rejoindre directement         |
-|   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
-|False    | Tout le monde        | Rejoindre directement        |
-|   | Tout le monde dans votre organisation     | Patienter dans la salle d’attente        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
-
-Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsqu’aucun utilisateur authentifié n’est présent à la réunion.
-
-|Permettre aux utilisateurs anonymes de démarrer une réunion |Admettre automatiquement des personnes  |Comportement de jointure des personnes anonymes |
-|---------|---------|---------|
-|Vrai    | Tout le monde      | Rejoindre directement         |
-|   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
-|False    | Tout le monde        | Patienter dans la salle d’attente. Les utilisateurs sont automatiquement admis lorsque le premier utilisateur authentifié rejoint la réunion.        |
-|   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
-|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes rejoignent directement une réunion ou patientent dans la salle d’attente jusqu’à ce qu’elles soient admises par un utilisateur authentifié.
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes rejoignent directement une réunion ou patientent dans la salle d’attente jusqu’à ce qu’elles soient admises par un utilisateur authentifié. Ce paramètre ne s’applique pas aux utilisateurs d’appels entrants. 
 
 ![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
 
  Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
+ 
+ **Remarques** Dans les options de la réunion, le paramètre est « qui peut éviter la salle d’attente ».
   
 |Définition de la valeur  |Comportement de jointure |
 |---------|---------|
-|**Tout le monde**   |Tous les participants à la réunion rejoignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs fédérés, les invités, les utilisateurs anonymes, ainsi que les personnes qui se connectent par téléphone.       |
-|**Tout le monde au sein de votre organisation et organisations fédérées**     |Utilisateurs authentifiés au sein de l’organisation, y compris utilisateurs invités et utilisateurs d’organisations fédérées, joignez directement la réunion sans attendre dans la salle d’attente.  Utilisateurs anonymes et utilisateurs qui se connectent par téléphone dans la salle d’attente.   |
-|**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Utilisateurs fédérés, utilisateurs anonymes et utilisateurs qui composent le numéro de téléphone dans la salle d’attente. Il s’agit du paramètre par défaut.           |
+|**Tout le monde**   |Tous les participants à la réunion rejoignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations de confiance, les invités et les utilisateurs anonymes.     |
+|**Tout le monde au sein de votre organisation et organisations fédérées**     |Utilisateurs authentifiés au sein de l’organisation, y compris utilisateurs invités et utilisateurs d’organisations approuvées, joignez directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
+|**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs d’organisations approuvées et d’utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False.
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False. Lorsque la valeur est false, les utilisateurs se serviront dans la salle d’attente jusqu’à ce qu’ils soient joints à la réunion avec un client Teams. Lorsque la valeur est true, Dial se connecte automatiquement à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion. 
 
-Voici le comportement de participation des personnes qui se connectent par téléphone.
-
-|Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Admettre automatiquement des personnes  |Comportement de connexion des personnes qui se connectent |
-|---------|---------|---------|
-|Vrai    | Tout le monde      | Rejoindre directement         |
-|   | Tout le monde dans votre organisation       | Rejoindre directement        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées       | Rejoindre directement         |
-|False    | Tout le monde        | Rejoindre directement        |
-|   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
-|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
+**Remarques** Si un utilisateur compose un numéro joint à une réunion avant qu’un utilisateur de l’organisation ne rejoint la réunion, il est placé dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion par le biais d’un client d’équipe et les admet. 
 
 
 ### <a name="enable-live-captions"></a>Activer les légendes dynamiques

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140675"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374302"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
@@ -82,6 +82,8 @@ Ce mode peut être utilisé avant le démarrage d’un déploiement géré d’�
 Un utilisateur de **teams** (également appelé utilisateur *mis à niveau* ) a accès à toutes les fonctionnalités dans Teams. Ils peuvent conserver le client Skype entreprise pour pouvoir participer à des réunions dans Skype entreprise qui ont été organisées par des utilisateurs qui ne sont pas mis à niveau ou des parties externes. Un utilisateur mis à niveau peut continuer à communiquer avec d’autres utilisateurs de l’organisation qui utilisent encore Skype entreprise à l’aide des fonctionnalités d’interopérabilité entre teams et Skype entreprise (à condition que les utilisateurs de Skype entreprise ne sont pas en mode d' **îlot** ). Toutefois, un utilisateur mis à niveau ne peut pas lancer une conversation, un appel ou une réunion Skype entreprise.
 
 Dès que votre organisation est prête à être utilisée par tout ou partie des équipes comme outil de communication et de collaboration uniquement, vous pouvez mettre à niveau ces utilisateurs vers le mode **équipes uniquement** . Si vous effectuez une mise à niveau à partir du mode **îlot** , nous vous conseillons de saturer d’abord les équipes au sein de votre organisation avant de commencer le processus de mise à niveau. Cela évite de violer les scénarios de communication en raison du fait que le mode **îlot** ne procure pas d’interopérabilité.
+
+En mode **équipe uniquement** , teams est l’application par défaut pour le protocole SIP/tel. Cela signifie que les liens figurant dans la carte de visite d’un utilisateur dans Outlook pour les appels ou les discussions seront gérés par Teams.
 
 Pour plus d’informations sur le passage en mode **équipes uniquement** , voir [considérations relatives au mode équipes uniquement](teams-only-mode-considerations.md).
 
@@ -204,7 +206,7 @@ Lors de la validation, il est placé dans la réunion Teams. ils doivent commenc
  
 Pendant ce temps, l’utilisateur Skype entreprise reçoit un message de discussion entrant contenant le lien vers la réunion et est guidé pour s’inscrire.
 
-Ce remontée à une réunion teams est disponible pour les appels et les discussions et les appels fédérés entre clients. Elle est activée par défaut et il n’y a aucun paramètre que l’administrateur doit mettre en service. Toutefois, elle est désactivée pour l’utilisateur si celui- ``-AllowPrivateMeetNow`` ci ``CsTeamsMeetingPolicy`` est ``$false``défini comme.
+Ce remontée à une réunion teams est disponible pour les appels et les discussions et les appels fédérés entre clients. Elle est activée par défaut et il n’y a aucun paramètre que l’administrateur doit mettre en service. Toutefois, elle est désactivée pour l’utilisateur si celui-ci est défini ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` comme ``$false`` .
 
 Après avoir consulté cet article, vous pouvez consulter [la rubrique choix de votre guide de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), de la [migration et de l’interopérabilité](https://aka.ms/SkypeToTeams-Interop), de la [coexistence avec Skype entreprise](coexistence-chat-calls-presence.md)et de [la configuration de votre coexistence et de vos paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) pour plus d’informations.
 

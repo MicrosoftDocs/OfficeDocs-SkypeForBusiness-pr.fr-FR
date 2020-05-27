@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de transfert pour votre organisation, il est possible que vous deviez obtenir de l’aide et une assistance technique au niveau de l’assistance téléphonique PSTN.
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006010"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374272"
 ---
 # <a name="pstn-service-desk-contact"></a>Contact de bureau de service PSTN
 
@@ -38,6 +38,7 @@ L’équipe de bureau de service RTC possède actuellement trois adresses de mes
 |:-----:|:------:|
 | [À l' **intérieur des États-Unis ou du Canada**, envoyez-nous un e-mail à PTN@microsoft.com](mailto:ptn@microsoft.com)| [**Belgique, France, Allemagne, Grande-Bretagne, Irlande, Pays-Bas, Espagne, Suède, Suisse**, envoyez un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[**Hors des États-Unis ou du Canada**, envoyez-nous un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [Dans **le monde entier**, envoyez-nous un e-mail à gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|En raison d’un grand pic dans les requêtes entrantes, l’équipe de portage de l' **Amérique du Nord** est en cours de connexion. Nous travaillons à la désactivation de cette file d’attente sur une base FIFO (première itération) et, par conséquent, **notre réponse aux nouvelles demandes sera retardée.**|
 
 Si vous avez besoin **d’aide pour transférer vos numéros de téléphone existants vers Microsoft teams**, indiquez autant de détails que possible :
   - ID de votre [Organisation (ID de client) ou domaines Microsoft actifs](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).

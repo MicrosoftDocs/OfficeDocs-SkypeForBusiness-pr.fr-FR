@@ -12,17 +12,18 @@ description: Découvrez comment afficher les activités d’affectation de strat
 localization_priority: Normal
 f1.keywords:
 - CSH
+- ms.teamsadmincenter.dashboard.activitylog.overview
 ms.custom: ''
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a363d934ffd66d04bc3eb778380613e33e460a9
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5f85899869a8578df59516d0e0d702f8e36bd951
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350072"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374292"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Afficher vos affectations de stratégie dans le journal d’activité
 
@@ -48,6 +49,6 @@ Pour afficher vos affectations de stratégie dans le journal d’activité :
 > [!NOTE]
 > Vous pouvez également accéder au Journal d’activité à partir de la page **utilisateurs** . Après avoir cliqué sur **appliquer** pour valider une affectation de stratégie en bloc, une bannière apparaît en haut de la page. Cliquez sur le lien **Journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Attribution de stratégies aux utilisateurs](assign-policies.md)
