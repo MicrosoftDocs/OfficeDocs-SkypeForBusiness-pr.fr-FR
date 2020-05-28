@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281765"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407406"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -74,10 +74,16 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Mise à jour du 2020 avril*
+*Tableau mis à jour 2020*
 
 | Fabricant    | Sous                   | Complète  | Programme certifié                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |Utiliser la fonctionnalité vocale 750 avec dongle USB Jabra 370 Link|5/21/2020 | Certifiés pour Microsoft teams  | 
+|EPOS              | Casque 660 de carte Sennheiser |5/15/2020 |Certifiés pour Microsoft teams  | 
+|EPOS              | Casque 560 de carte Sennheiser|5/15/2020 |Certifiés pour Microsoft teams  | 
+|EPOS              | Casque Sennheiser 460T |5/15/2020 |Certifiés pour Microsoft teams  | 
+|EPOS              | Casque 360 de carte Sennheiser| 5/15/2020 |Certifiés pour Microsoft teams  | 
+|Yealink           |Casque UH36 | 5/13/2020 |Certifiés pour Microsoft teams  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | Skype entreprise avec la mise à niveau vers Microsoft teams |
 | Poly            | Savi 8210 UC            | 4/20/2020  | Skype entreprise avec la mise à niveau vers Microsoft teams |
 | Poly            | Savi 8220 Office        | 4/20/2020  | Skype entreprise avec la mise à niveau vers Microsoft teams |

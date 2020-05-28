@@ -1,6 +1,6 @@
 ---
 title: Configuration matérielle requise pour Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224117"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385985"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -86,6 +86,7 @@ Vous pouvez utiliser Teams sur ces plateformes mobiles :
 - iOS : compatible avec iPhone, iPad et iPod touch.
 
   La prise en charge est limitée aux deux versions principales d’iOS les plus récentes. Lors de la publication d’une nouvelle version majeure d’iOS, la nouvelle version of iOS et les versions précédentes sont officiellement prises en charge.
+  L’effet de **flou facultatif mon arrière-plan** sur iOS nécessite un système d’exploitation d’IOS 12 ou version ultérieure, et est compatible avec les appareils suivants : iPhone 7 ou version ultérieure, iPad 2018 (sixième génération) ou version ultérieure, et l’iPod effleure 2019 (7e génération).
 
 Pour une expérience optimale de Teams, utilisez la dernière version de votre système d’exploitation iOS et Android.
 
