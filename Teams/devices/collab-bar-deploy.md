@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de barres de collaboration pour Microsoft Teams.
-ms.openlocfilehash: 4593d6b42e61efbd7d57f27fd0a10ed8f97b82f5
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268031"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410449"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Déploiement de barres de collaboration pour Microsoft teams
 
@@ -62,7 +62,7 @@ Avant de déployer vos barres de collaboration, vous devez décider s’ils util
 
 Si vous décidez de configurer un compte de ressources Microsoft 365, vous devez acheter une licence de salle de réunion. La licence de salle de réunion inclut une boîte aux lettres de ressources permettant aux personnes de votre organisation de réserver la salle de réunion via Outlook ou Teams. Cette licence autorise également les conférences vidéo et audio et le partage d’écran entre les participants à la réunion.
 
-Si vous avez besoin de recevoir ou de passer des appels vers ou à partir d’un numéro de téléphone externe, vous aurez également besoin d’un système téléphonique Microsoft 365 ou d’une licence Microsoft 365 Business Voice.
+Si vous avez besoin d’appeler ou de passer des appels vers un numéro de téléphone externe, vous aurez peut-être besoin d’un forfait d’appel ou d’une [licence du composant additionnel](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)vocal Microsoft 365 Business. Si vous avez activé le routage direct au sein de votre organisation, il vous suffit de disposer de la référence SKU de la salle de réunion.
 
 Lorsque vous créez un compte de ressources, vous pouvez choisir de laisser le compte accepter ou refuser les demandes de réunion automatiquement, et autoriser les réunions récurrentes, spécifier combien de temps les utilisateurs peuvent la réserver, et ainsi de suite.
 
@@ -87,7 +87,7 @@ La planification de la configuration et du déploiement englobe les principales 
 
 ### <a name="account-provisioning"></a>Attribution de compte
 
-Si vous envisagez d’utiliser des comptes de ressources Microsoft 365 pour permettre aux utilisateurs de coorganiser la collaboration, suivez les instructions de la procédure de [création d’un compte de ressources à l’aide du centre d’administration microsoft 365](resource-account-ui.md) pour créer un compte de ressource Microsoft 365 pour chaque barre de collaboration qui en a besoin. C’est également ici que vous devez ajouter une licence de salle de réunion au compte de ressources et, si vous voulez passer ou recevoir des appels vers des numéros de téléphone externes ou des numéros de téléphone externes, un système téléphonique ou une licence voix entreprise.
+Si vous envisagez d’utiliser des comptes de ressources Microsoft 365 pour permettre aux utilisateurs de coorganiser la collaboration, suivez les instructions de la procédure de [création d’un compte de ressources à l’aide du centre d’administration microsoft 365](resource-account-ui.md) pour créer un compte de ressource Microsoft 365 pour chaque barre de collaboration qui en a besoin. C’est également ici que vous devez ajouter une licence de salle de réunion au compte de ressource et, si vous voulez passer et recevoir des appels vers des numéros de téléphone externes ou des numéros de téléphone externes, si votre organisation n’utilise pas le routage direct.
 
 Si vous voulez attribuer des barres de collaboration à des utilisateurs individuels pour leur utilisation privée, vous n’avez pas besoin de configurer d’autres comptes. Les utilisateurs peuvent se connecter aux barres de collaboration à l’aide de leur compte personnel.
 
@@ -118,7 +118,7 @@ Nous vous recommandons de configurer les fichiers de construction pour le tablea
 
 Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le compte de ressources connecté et les périphériques périphériques.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer les comptes pour les barres de collaboration de Microsoft teams à l’aide du centre d’administration Microsoft teams](resource-account-ui.md)
 

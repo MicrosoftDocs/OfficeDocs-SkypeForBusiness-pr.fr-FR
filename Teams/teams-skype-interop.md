@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: En savoir plus sur les fonctionnalités d’interopérabilité entre les utilisateurs teams au sein de votre organisation et les utilisateurs de Skype.
 localization_priority: Normal
-ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749551"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410429"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interopérabilité entre teams et Skype
 
@@ -68,17 +68,17 @@ Les utilisateurs de Skype bloqués, ainsi que les autres personnes et les numér
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Définir si les utilisateurs de teams peuvent communiquer avec des utilisateurs de Skype
 
-En tant qu’administrateur, vous utilisez le centre d’administration Microsoft teams ou PowerShell pour définir les paramètres d’accès externe pour contrôler si les utilisateurs teams de votre organisation peuvent communiquer avec des utilisateurs de Skype. Par défaut, cette fonctionnalité est désactivée pour les nouveaux clients.
+En tant qu’administrateur, vous utilisez le centre d’administration Microsoft teams ou PowerShell pour définir les paramètres d’accès externe pour contrôler si les utilisateurs teams de votre organisation peuvent communiquer avec des utilisateurs de Skype. Par défaut, cette fonctionnalité est activée pour les nouveaux clients.
 
 Si vous avez effectué une mise à niveau de Skype entreprise vers Teams, les paramètres de communications externes que vous avez configurés dans le centre d’administration Skype entreprise sont déplacés vers Teams.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Dans le Centre d’administration Microsoft Teams
 
-Dans le centre d’administration de Microsoft Teams, accédez à **paramètres** > **externes**pour l’organisation, puis activez **les utilisateurs peuvent communiquer avec des utilisateurs Skype**. Pour obtenir des instructions détaillées sur la configuration de ce paramètre et d’autres paramètres d’accès externe, voir [gérer l’accès externe dans teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
+Dans le centre d’administration de Microsoft Teams, accédez à paramètres externes pour l' **organisation**  >  **External access**, puis activez **les utilisateurs peuvent communiquer avec des utilisateurs Skype**. Pour obtenir des instructions détaillées sur la configuration de ce paramètre et d’autres paramètres d’accès externe, voir [gérer l’accès externe dans teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez l’applet de commande [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) conjointement ```EnablePublicCloudAccess``` avec le paramètre pour contrôler si les utilisateurs de teams peuvent communiquer avec des utilisateurs Skype. Définition du paramètre permettant ```true``` aux utilisateurs de teams de communiquer avec des utilisateurs de Skype. Notez que le ```EnablePublicCloudAudioVideoAccess``` paramètre peut être utilisé pour activer/désactiver les appels audio/vidéo.
+Utilisez l’applet de commande [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) conjointement avec le ```EnablePublicCloudAccess``` paramètre pour contrôler si les utilisateurs de teams peuvent communiquer avec des utilisateurs Skype. Définition du paramètre permettant aux ```true``` utilisateurs de teams de communiquer avec des utilisateurs de Skype. Notez que le ```EnablePublicCloudAudioVideoAccess``` paramètre peut être utilisé pour activer/désactiver les appels audio/vidéo.
 
 ## <a name="related-topics"></a>Voir aussi
 

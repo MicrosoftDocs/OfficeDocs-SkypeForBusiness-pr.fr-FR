@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser une affectation de stratégie de lot pour attribuer des stratégies aux utilisateurs de votre établissement d’enseignement en bloc pour les usages de l’établissement scolaire
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033358"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410439"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>Assigner une stratégie en bloc
 
-À présent, nous affectons les stratégies appropriées aux utilisateurs en bloc. Le nombre maximal d’utilisateurs pour lesquels vous pouvez attribuer ou mettre à jour des stratégies est 20 000 à la fois. Par exemple, si vous avez plus de 20 000 employé et enseignants, vous devrez ennoter plusieurs lots.
+À présent, nous affectons les stratégies appropriées aux utilisateurs en bloc. Le nombre maximal d’utilisateurs pour lesquels vous pouvez attribuer ou mettre à jour des stratégies est 5 000 à la fois. Par exemple, si vous avez plus de 5 000 employé et enseignants, vous devrez ennoter plusieurs lots.
 
-> [!IMPORTANT]
-> Pour l’instant, nous vous recommandons d’affecter des stratégies par lot d’utilisateurs 5 000 à la fois. Au cours de ces périodes de demande croissante, il est possible que les temps de traitement soient retardés. Pour réduire l’impact de ces délais de traitement, nous vous suggérons d’adresser de plus petites tailles de lot à des utilisateurs 5 000 et de n’en faire qu’après la fin de la précédente. Vous pouvez également obtenir de l’aide pour soumettre des lots en dehors de vos heures de travail normales.
 
 Exécutez la commande suivante pour affecter la stratégie de réunion nommée EducatorMeetingPolicy à votre personnel et aux enseignants.
 
@@ -120,7 +118,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> Pour attribuer un type de stratégie différent en bloc (par exemple, TeamsMessagingPolicy), vous ```PolicyType``` devez utiliser la stratégie que vous affectez et ```PolicyName``` le nom de la stratégie.
+> Pour attribuer un type de stratégie différent en bloc (par exemple, TeamsMessagingPolicy), vous devez utiliser ```PolicyType``` la stratégie que vous affectez et ```PolicyName``` le nom de la stratégie.
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>Obtenir l’état d’une affectation en bloc
 
@@ -130,13 +128,13 @@ Chaque affectation en bloc renvoie un ID d’opération, que vous pouvez utilise
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-Pour afficher l’état de l’affectation de chaque utilisateur dans l’opération de traitement par lot, exécutez la commande suivante. Les détails de chaque utilisateur sont dans ```UserState``` la propriété.
+Pour afficher l’état de l’affectation de chaque utilisateur dans l’opération de traitement par lot, exécutez la commande suivante. Les détails de chaque utilisateur sont dans la ```UserState``` propriété.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>Affecter une stratégie en bloc si vous avez plus de 20 000 utilisateurs
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>Affecter une stratégie en bloc si vous avez plus de 5 000 utilisateurs
 
 Tout d’abord, exécutez la commande suivante pour voir combien de personnes et de enseignants vous avez :
 
@@ -144,13 +142,13 @@ Tout d’abord, exécutez la commande suivante pour voir combien de personnes et
 $faculty.count
 ```
 
-Au lieu de fournir la liste complète des identifiants utilisateur, exécutez la commande suivante pour spécifier le premier 20 000, puis la 20 000 suivante, et ainsi de suite.
+Au lieu de fournir la liste complète des identifiants utilisateur, exécutez la commande suivante pour spécifier le premier 5 000, puis la 5 000 suivante, et ainsi de suite.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Vous pouvez modifier la plage d’ID utilisateur jusqu’à ce que vous accédiez à la liste complète des utilisateurs. Par exemple, entrez ```$faculty[0..19999``` pour le premier lot, utilisez ```$faculty[20000..39999``` pour le second lot, entrez ```$faculty[40000..59999``` pour le troisième lot, et ainsi de suite.
+Vous pouvez modifier la plage d’ID utilisateur jusqu’à ce que vous accédiez à la liste complète des utilisateurs. Par exemple, entrez pour le ```$faculty[0..4999``` premier lot, utilisez ```$faculty[5000..9999``` pour le second lot, entrez ```$faculty[10000..14999``` pour le troisième lot, et ainsi de suite.
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>Obtention des stratégies affectées à un utilisateur
 
@@ -170,7 +168,7 @@ L’équipe de produit équipes effectue son travail pour prendre en charge l’
 
 Consultez [vue d’ensemble de PowerShell teams](teams-powershell-overview.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Attribution de stratégies à vos utilisateurs](assign-policies.md)
 - [Nouveau-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)

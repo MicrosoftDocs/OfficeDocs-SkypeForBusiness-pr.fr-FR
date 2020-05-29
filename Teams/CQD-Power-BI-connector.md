@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219834"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410469"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -160,9 +160,9 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette zone, contact
 
 Malgré la balise bêta, le connecteur de qualité d’appel pour Power BI est la version de connecteur, officiellement sécurisée par l’équipe Power BI pour refléter cela. Le processus de certification permettant de supprimer cette balise bêta est un processus complet et nécessite un engagement de l’équipe Power BI pour fournir également une assistance directe au connecteur. En raison de contraintes de temps, l’équipe Power BI ne peut actuellement pas fournir le support technique et la certification plus large, mais elle reste préoccupée à attester de la sécurité, de l’authenticité et des fonctionnalités générales du connecteur de qualité d’appel Microsoft.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il si lent par rapport à bord avancée dans le navigateur ? Que puis-je faire pour améliorer les performances ?
+### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il plus lent par rapport aux fonctions avancées bord dans le navigateur ? Que puis-je faire pour améliorer les performances ?
 
-La performance des requêtes pour les différents modèles est en fait identique dans le navigateur et dans le connecteur. La différence intervient dans le nombre de requêtes simultanées exécutées. Dans la mesure où la version dans le navigateur de bord avait des options de visualisation moins bien développées et à forte densité d’information, la plupart de nos rapports étaient limités au chargement de requêtes 2-3 à la fois. En revanche, les modèles de connecteur affichent souvent 20 requêtes simultanées. Si vous souhaitez générer des rapports qui sont aussi réactifs que les plus anciens, essayez de créer des rapports sans utiliser les requêtes 2-3 par onglet.
+La performance des requêtes pour les différents modèles est en fait identique dans le navigateur et dans le connecteur.  À l’instar des autres applications autonomes, Power BI ajoute son authentification et le temps de rendu à nos performances. Par ailleurs, la différence intervient dans le nombre de requêtes simultanées en cours d’exécution. Dans la mesure où la version dans le navigateur de bord avait des options de visualisation moins bien développées et à forte densité d’information, la plupart de nos rapports étaient limités au chargement de requêtes 2-3 à la fois. En revanche, les modèles de connecteur affichent souvent 20 requêtes simultanées. Si vous souhaitez générer des rapports qui sont aussi réactifs que les plus anciens, essayez de créer des rapports sans utiliser les requêtes 2-3 par onglet.
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Je trouve qu’il s’agit de la limite de 10 000 lignes lors de l’exécution de requêtes. Comment puis-je faire en sorte que le connecteur renvoie plus de 10 000 lignes ?
 
@@ -172,6 +172,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est pré
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)

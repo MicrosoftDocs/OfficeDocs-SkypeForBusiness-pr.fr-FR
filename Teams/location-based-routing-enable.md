@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158991"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412641"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -36,7 +36,7 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 - Users
 - Sites réseau
 - Configurations des passerelles
-- Politiques d’appel
+- Stratégies d’appel
 
 Vous pouvez utiliser le [Centre d’administration Microsoft Team](#using-the-microsoft-teams-admin-center) ou [PowerShel](#using-powershell)l pour activer le routage basé sur l’emplacement.
 
@@ -54,7 +54,7 @@ Pour en savoir plus sur la création de stratégies de routage de messagerie et 
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage par emplacement pour les sites réseau
 
-Activez le routage selon l’emplacement pour vos sites qui doivent appliquer des restrictions de routage. Pour ce faire, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements** > **réseau**, sélectionnez un site réseau, cliquez sur **modifier**, puis activez **routage selon l’emplacement**.  
+Activez le routage selon l’emplacement pour vos sites qui doivent appliquer des restrictions de routage. Pour ce faire, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements**  >  **réseau**, sélectionnez un site réseau, cliquez sur **modifier**, puis activez **routage selon l’emplacement**.  
 
 Pour en savoir plus, voir [gérer la topologie de votre réseau](manage-your-network-topology.md).
 
@@ -62,7 +62,7 @@ Pour en savoir plus, voir [gérer la topologie de votre réseau](manage-your-net
 
 Activez le routage par emplacement vers des passerelles qui acheminent les appels vers les passerelles RTC qui routent les appels vers le RTC et associez le site réseau où se trouve la passerelle. 
 
-1. Dans le volet de navigation de gauche, sélectionnez**routage direct**de la **voix** > , puis cliquez sur l’onglet **SBCS** .
+1. Dans le volet de navigation de gauche **Voice**, sélectionnez  >  **routage direct**de la voix, puis cliquez sur l’onglet **SBCS** .
 2. Sélectionnez l’SBC, puis cliquez sur **modifier**. 
 3. Sous **routage d’emplacement et optimisation des éléments multimédias**, activez **activer le routage selon**la localisation.
 4. Spécifiez l’ID du site de la passerelle, puis définissez le mode de contournement.
@@ -176,17 +176,6 @@ Pour en savoir plus, voir [stratégies d’appel dans teams](teams-calling-polic
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    Les points de terminaison connectés à des systèmes qui ne routent pas les appels vers le RTC (par exemple, un PBX) présentent des restrictions similaires pour le routage de l’emplacement. Cela signifie que ces utilisateurs peuvent passer et recevoir des appels vers et depuis les utilisateurs Teams, quel que soit l’emplacement de l’utilisateur. Ils peuvent également passer et recevoir des appels vers et à partir d’autres systèmes qui ne routent pas les appels vers le réseau PSTN (par exemple, un point de terminaison connecté à un autre système PBX), quel que soit le site du réseau auquel le système est associé. Tous les appels entrants, les appels sortants, les transferts d’appel et le transfert d’appel qui impliquent des points de terminaison RTC sont soumis à des conditions de routage basées sur l’emplacement. Ces appels doivent uniquement utiliser des passerelles RTC définies comme locales pour de tels systèmes. 
-
-    Le tableau suivant montre la configuration de la passerelle de quatre passerelles sur deux sites réseau différents : deux connectés à des passerelles RTC et deux connectés aux systèmes PBX. 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway : passerelle 1 DEL-GW    |    Vrai     |   Site 1 (Delhi)      |
-    |PstnGateway : passerelle 2 HYD-GW     |   Vrai      |      Site 2 (Hyderabad)   |
-    |PstnGateway : passerelle 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
-    |PstnGateway : passerelle 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Activer le routage par emplacement pour les stratégies d’appel
 
