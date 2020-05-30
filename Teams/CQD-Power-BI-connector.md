@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410469"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416864"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -163,6 +163,10 @@ Malgré la balise bêta, le connecteur de qualité d’appel pour Power BI est l
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il plus lent par rapport aux fonctions avancées bord dans le navigateur ? Que puis-je faire pour améliorer les performances ?
 
 La performance des requêtes pour les différents modèles est en fait identique dans le navigateur et dans le connecteur.  À l’instar des autres applications autonomes, Power BI ajoute son authentification et le temps de rendu à nos performances. Par ailleurs, la différence intervient dans le nombre de requêtes simultanées en cours d’exécution. Dans la mesure où la version dans le navigateur de bord avait des options de visualisation moins bien développées et à forte densité d’information, la plupart de nos rapports étaient limités au chargement de requêtes 2-3 à la fois. En revanche, les modèles de connecteur affichent souvent 20 requêtes simultanées. Si vous souhaitez générer des rapports qui sont aussi réactifs que les plus anciens, essayez de créer des rapports sans utiliser les requêtes 2-3 par onglet.
+
+Pour plus d’informations, consultez les articles suivants : 
+- [Guide d’optimisation pour Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [Conseils pour le modèle DirectQuery](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Je trouve qu’il s’agit de la limite de 10 000 lignes lors de l’exécution de requêtes. Comment puis-je faire en sorte que le connecteur renvoie plus de 10 000 lignes ?
 

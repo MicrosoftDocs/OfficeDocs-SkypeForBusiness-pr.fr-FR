@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374312"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416874"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -335,7 +335,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 Il s’agit d’une stratégie par organisateur qui permet la numérotation des conférences de conférences. Ce paramètre détermine si les utilisateurs de la Conférence rendez-vous peuvent participer à la réunion sans utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que l’utilisateur Dial doit patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion. 
 
-**Remarques** Si la valeur est faux et qu’un utilisateur compose le numéro d’abord de la réunion et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur à partir du lobbby. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants. 
+**Remarques** Si la valeur est faux et qu’un utilisateur compose le numéro d’abord de la réunion et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants. 
 
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
@@ -346,7 +346,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 
  Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
  
- **Remarques** Dans les options de la réunion, le paramètre est « qui peut éviter la salle d’attente ».
+ **Remarques** Dans les options de la réunion, le paramètre est intitulé « qui peut éviter la salle d’attente ».
   
 |Définition de la valeur  |Comportement de jointure |
 |---------|---------|
@@ -406,6 +406,23 @@ Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce 
 Pour permettre à un organisateur de la réunion de télécharger le rapport de présence de la réunion, définissez le paramètre **AllowEngagementReport** sur **Enabled**. Lorsque l’option est activée, l’option permettant de télécharger le rapport s’affiche dans le volet **participants** .
 
 Pour empêcher un organisateur de la réunion de télécharger le rapport, attribuez au paramètre la valeur **Disabled**. Par défaut, ce paramètre est désactivé et l’option permettant de télécharger le rapport n’est pas disponible.
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Paramètres de la stratégie de réunion-fournisseur de réunion pour le mode îles
+
+**(prochainement)**
+
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine quel complément de réunion Outlook est utilisé pour *les utilisateurs en mode îlot*. Vous pouvez spécifier si les utilisateurs peuvent uniquement utiliser le complément de réunion teams ou les compléments de réunion équipes et de réunions Skype entreprise pour planifier des réunions dans Outlook.
+
+Vous pouvez uniquement appliquer cette politique aux utilisateurs qui sont en mode îlot et dont le paramètre **AllowOutlookAddIn** est défini sur **true** dans la stratégie de réunion Teams.
+
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion teams existante à l’aide de l’applet de passe [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez créer une stratégie de réunion teams à l’aide de l’applet [de nouvelle cmdlet New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour spécifier le complément de réunion que vous voulez mettre à la disposition des utilisateurs, définissez le paramètre **PreferredMeetingProviderForIslandsMode** comme suit :
+
+- Définissez le paramètre sur **TeamsAndSfB** pour activer le complément réunion teams et le complément Skype entreprise dans Outlook. Il s’agit de la valeur par défaut.
+- Définissez le paramètre sur **TeamsOnly** pour activer uniquement le complément de réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions futures disposent d’un lien vers une réunion Teams. Elle ne permet pas de migrer des liens vers les équipes. Ce paramètre de stratégie n’a aucun impact sur la présence, les discussions, les appels RTC ou toute autre fonctionnalité de Skype entreprise, ce qui signifie que les utilisateurs continuent à utiliser Skype entreprise pour ces fonctionnalités.
+
+  Si vous définissez le paramètre sur **TeamsOnly**, puis que vous revenez à **TeamsAndSfB**, les compléments de réunion sont activés. Toutefois, Notez que les liens de participation à une réunion teams existants ne seront pas déplacés vers Skype entreprise. Seules les réunions Skype entreprise programmées après le changement comportent un lien vers une réunion Skype entreprise.
 
 ## <a name="related-topics"></a>Sujets associés
 

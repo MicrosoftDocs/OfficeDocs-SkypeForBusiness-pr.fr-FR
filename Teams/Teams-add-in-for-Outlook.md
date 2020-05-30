@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349608"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416724"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -37,6 +37,7 @@ Le complément de réunion équipes est automatiquement installé pour les utili
 ![Capture d'écran du complément réunion Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Il n’existe **pas d’URL directe** liée au complément équipes.
 > - Il existe d’autres éléments à prendre en considération si votre organisation exécute des équipes et Skype entreprise. Dans certains cas, le complément teams n’est pas disponible dans Outlook. Pour plus d’informations, consultez la rubrique [mise à niveau de Skype entreprise vers teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 > - Les autorisations utilisateur pour exécuter le fichier Regsvr32.exe constituent une condition minimale requise pour que le complément réunion Teams soit installé sur l’ordinateur.
 > - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
@@ -65,6 +66,7 @@ Le bouton réunion Teams s’affiche dans les dernières versions de l’applica
 Les coordonnées de la réunion (lien de participation et numéros à composer Teams) sont ajoutées à l’invitation à la réunion une fois que l’utilisateur clique sur **envoyer**.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complément réunion Teams dans et FindTime pour Outlook
+
 FindTime est un complément pour Outlook qui permet aux utilisateurs de parvenir à un consensus sur le temps de réunion entre entreprises. Une fois que les participants à la réunion ont fourni leurs horaires préférés, FindTime envoie l’invitation à la réunion au nom de l’utilisateur. Si l’option **Réunion en ligne** est sélectionnée dans FindTime, FindTime planifiera une réunion Skype Entreprise ou Microsoft Teams. (FindTime utilise la valeur définie par votre organisation comme canal de réunion en ligne par défaut).
 
 > [!NOTE]  
@@ -96,7 +98,9 @@ Le client Teams installe le complément correct en déterminant si les utilisate
 
 Les clients peuvent [choisir leur mise à niveau de la migration de Skype Entreprise vers Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Les administrateurs de client peuvent utiliser le mode de coexistence Teams pour définir cette migration pour leurs utilisateurs. Les administrateurs de locataire ont la possibilité d’autoriser les utilisateurs à utiliser Teams en parallèle Skype Entreprise (mode d’îlots). 
 
-Lorsque les utilisateurs qui travaillent en mode d’île planifient une réunion dans Outlook, ils peuvent généralement choisir de planifier une réunion Skype Entreprise ou une réunion Teams. Dans Outlook sur le web, Outlook Windows et Mac, les utilisateurs voient les compléments Skype Entreprise et Teams en mode île. En raison de certaines limitations de la version initiale, Outlook Mobile ne peut prendre en charge que la création de réunions Skype Entreprise **ou** Teams. Pour plus de détails, voir le tableau suivant.
+Lorsque les utilisateurs qui travaillent en mode d’île planifient une réunion dans Outlook, ils peuvent généralement choisir de planifier une réunion Skype Entreprise ou une réunion Teams. Dans Outlook sur le Web, dans Outlook et dans Outlook pour Mac, les utilisateurs voient les compléments Skype entreprise et équipe en mode îlots par défaut. Vous pouvez configurer un paramètre de stratégie de réunion équipes pour contrôler si les utilisateurs en mode îlot peuvent uniquement utiliser le complément réunion teams ou les compléments réunion Skype entreprise et réunion Teams.
+
+En raison de certaines limitations de la version initiale, Outlook Mobile ne peut prendre en charge que la création de réunions Skype Entreprise **ou** Teams. Pour plus de détails, voir le tableau suivant.
 
 | Mode de coexistence dans le centre d’administration Microsoft Teams | Fournisseur de réunions par défaut dans Outlook Mobile |
 | --------------------------------------|---------------------------------------------|
@@ -105,6 +109,14 @@ Lorsque les utilisateurs qui travaillent en mode d’île planifient une réunio
 | Collaboration Skype Entreprise avec Teams | Skype Entreprise |
 | Collaboration Skype Entreprise avec Teams et réunions | Équipes |
 | Teams uniquement | Équipes |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Définir si les utilisateurs en mode d’îlot peuvent uniquement utiliser le complément de réunion équipes ou les compléments réunion et les réunions Skype entreprise
+
+**(prochainement)**
+
+En tant qu’administrateur, vous pouvez configurer un paramètre de stratégie de réunion équipes pour contrôler le complément de réunion Outlook utilisé pour *les utilisateurs en mode îlot*. Vous pouvez spécifier si les utilisateurs peuvent uniquement utiliser le complément de réunion teams ou les compléments de réunion équipes et de réunions Skype entreprise pour planifier des réunions dans Outlook.
+
+Vous pouvez uniquement appliquer cette politique aux utilisateurs qui sont en mode îlot et dont le paramètre **AllowOutlookAddIn** est défini sur **true** dans la stratégie de réunion Teams. Pour plus d’informations sur la définition de cette stratégie, voir [définir le fournisseur de la réunion pour les utilisateurs en mode îlot](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Autres considérations
 

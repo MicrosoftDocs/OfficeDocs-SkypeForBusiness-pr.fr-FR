@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: En savoir plus sur les licences disponibles pour les différents types d’appels et de fonctionnalités de réunion dans Microsoft Teams.
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064489"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416844"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
@@ -67,7 +67,7 @@ Le tableau suivant répertorie les fonctionnalités disponibles dans Microsoft T
 |Rejoindre une réunion planifiée  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  |
 |Lancer une réunion ad hoc | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
 |Lancer une réunion ad hoc et passer un appel sortant vers des numéros de téléphone depuis une réunion |  Référence SKU de salle de réunion |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Donnez un numéro de téléphone à la salle et transmettez ou recevez des appels depuis la salle ou participez à une conférence audio par le biais d’un numéro de téléphone.  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
+|Donnez un numéro de téléphone à la salle et transmettez ou recevez des appels depuis la salle ou participez à une conférence audio par le biais d’un numéro de téléphone.  | Avec routage direct : SKU de salle de réunion<br/>Sans routage direct : forfait d’appels nationaux ou internationaux<br/>Microsoft 365 pour les PME  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
 |Gérer votre appareil de salle avec Microsoft Intune |Référence SKU de salle de réunion  |Abonnement Microsoft Intune avec [le GPM local](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 

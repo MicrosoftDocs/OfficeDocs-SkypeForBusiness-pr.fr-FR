@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment configurer la dérivation multimédia avec le routage direct du système téléphonique en basculant tous les utilisateurs en même temps ou en implémentant une approche progressive (recommandée).
+description: Découvrez comment configurer la dérivation multimédia avec le routage direct du système téléphonique pour Microsoft teams en faisant basculer tous les utilisateurs à la fois ou en implémentant une approche progressive (recommandé).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904836"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416894"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
@@ -60,7 +60,7 @@ Pour obtenir la liste des contrôleurs de frontière de session (SBCs) certifié
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Envisager une dérivation de média avec le routage direct](direct-routing-plan-media-bypass.md)
 

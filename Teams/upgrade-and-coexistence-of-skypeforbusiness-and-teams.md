@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902269"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416744"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
@@ -104,7 +104,7 @@ Le tableau suivant résume l’interface du mode de travail de l’équipe et du
 | Discussions entrantes et appels reçus dans :|  Teams ou Skype entreprise | Équipes |
 | Appels RTC reçus dans : | Skype Entreprise <br>(L’utilisation de la fonctionnalité RTC dans teams n’est pas prise en charge en mode îlot.)     | Équipes |   
  |Présence    | La présence dans Skype entreprise et équipes est indépendante. Les utilisateurs peuvent voir des États différents pour les mêmes utilisateurs d’îlot, en fonction du client qu’ils utilisent. | La présence est basée uniquement sur l’activité de l’utilisateur dans Teams. Tous les autres utilisateurs, quel que soit le client qu’ils utilisent, voient leur présence. | 
- | Planification de réunions    | Les utilisateurs peuvent planifier des réunions dans teams ou Skype entreprise. Ces deux compléments s’afficheront dans Outlook.    |     Les utilisateurs planifient uniquement les réunions dans Teams. Le complément équipes n’est disponible que dans Outlook. | 
+ | Planification de réunions    | Les utilisateurs peuvent planifier des réunions dans teams ou Skype entreprise. Par défaut, les deux compléments s’afficheront dans Outlook. Vous pouvez définir une stratégie de réunion équipes pour contrôler si les utilisateurs peuvent uniquement utiliser le complément de réunion équipes ou les compléments réunion et les compléments de réunion Skype entreprise (**bientôt disponible**). Pour en savoir plus, consultez [la rubrique définir le fournisseur de réunion pour les utilisateurs en mode îlot](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Les utilisateurs planifient uniquement les réunions dans Teams. Le complément équipes n’est disponible que dans Outlook. | 
 
 Le tableau suivant récapitule les avantages et inconvénients de l’utilisation de la méthode de superposition de capacités pour migrer votre organisation vers Teams.
 

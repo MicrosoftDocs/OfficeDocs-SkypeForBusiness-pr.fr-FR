@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88eda5d9acaeb876008b3eb35d38b348830cce48
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958409"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416734"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -34,7 +34,7 @@ Le journal d’audit peut vous aider à rechercher des activités spécifiques d
 - Ajout d'un canal
 - Modification d'un paramètre
 
-Pour obtenir la liste complète des activités d’équipe auditées, voir [activités d’équipe](#teams-activities).
+Pour obtenir la liste complète des activités d’équipe auditées, voir [activités](#teams-activities) et équipes d’équipes [dans les activités d’équipe (en version préliminaire)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Les événements d’audit provenant de canaux privés sont également enregistrés tels qu’ils sont destinés aux canaux des équipes et des canaux standard.
@@ -59,7 +59,7 @@ La durée de conservation d’un enregistrement d’audit et de la recherche dan
 
 ## <a name="tips-for-searching-the-audit-log"></a>Conseils pour la recherche dans le journal d’audit
 
-Vous trouverez ci-dessous des conseils pour rechercher des [activités d’équipe](#teams-activities) dans le journal d’audit.
+Vous trouverez ci-dessous des conseils pour rechercher des activités d’équipe dans le journal d’audit.
 
 ![Capture d’écran de la page de recherche du journal d’audit](media/audit-log-search-page.png)
 
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous des conseils pour rechercher des [activités d’équi
     ![Capture d’écran de la recherche dans le journal d’audit](media/audit-log-search.png)
 - Pour afficher les événements pour les activités exécutées à l’aide d’applets de requête, sélectionnez **afficher les résultats pour toutes les activités** dans la liste **activités** . Si vous connaissez le nom de l’opération pour ces activités, recherchez toutes les activités, puis filtrez les résultats en entrant le nom de l’opération dans la zone de la colonne **activité** . Pour en savoir plus, reportez-vous à [l’étape 3 : filtrer les résultats de la recherche](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 - Pour effacer les critères de recherche actuels, cliquez sur **Effacer**. La plage de dates revient à la valeur par défaut des sept derniers jours. Vous pouvez également cliquer sur **tout effacer pour afficher les résultats pour toutes les activités** et annuler toutes les activités sélectionnées.
-- Si 5 000 est trouvé, vous pouvez probablement supposer qu’il y a plus de 5 000 événements qui répondent aux critères de recherche. Vous pouvez affiner les critères de recherche et relancer la recherche pour renvoyer moins de résultats, ou vous pouvez exporter tous les résultats de recherche en sélectionnant **Exporter les résultats** > pour**Télécharger tous les résultats**.
+- Si 5 000 est trouvé, vous pouvez probablement supposer qu’il y a plus de 5 000 événements qui répondent aux critères de recherche. Vous pouvez affiner les critères de recherche et relancer la recherche pour renvoyer moins de résultats, ou vous pouvez exporter tous les résultats de recherche en sélectionnant **Exporter les résultats**pour  >  **Télécharger tous les résultats**.
 
 Regardez [cette vidéo](https://www.youtube.com/embed/UBxaRySAxyE) pour utiliser la recherche dans le journal audio. Rejoignez Ansuman Acharya, responsable de programme pour Teams, comme il montre comment effectuer une recherche dans le journal d’audit pour les équipes.
 
@@ -143,10 +143,45 @@ Voici la liste de tous les événements enregistrés pour les activités des uti
 |Onglet mise à jour   |TabUpdated         |Un utilisateur a modifié un onglet dans un canal.         |
 |Utilisateur connecté à teams     |TeamsSessionStarted         |Un utilisateur se connecte à un client Microsoft Teams. Cet événement ne capture pas les activités d’actualisation des jetons.         |
 
+## <a name="shifts-in-teams-activities"></a>Équipes dans les activités d’équipe
+
+**(version d’évaluation)**
+
+Si votre organisation utilise l’application Shifts dans Microsoft Teams, vous pouvez effectuer une recherche dans le journal d’audit pour les activités liées à l’application Shifts. Vous trouverez ci-dessous une liste de tous les événements qui sont enregistrés pour les activités de décalage dans teams dans le journal d’audit Microsoft 365.
+
+|Nom convivial  |Opération  |Description  |
+|---------|---------|---------|
+|Groupe planification ajouté      |SchedulingGroupAdded          |Un utilisateur a correctement ajouté un nouveau groupe de planification au planning.          |
+|Groupe planification modifié     |SchedulingGroupEdited         |Un utilisateur a modifié un groupe de planification.          |
+|Groupe de planification supprimé         |SchedulingGroupDeleted              |Un utilisateur a correctement supprimé un groupe de planification de l’échéancier.|
+|Shift ajouté      |ShiftAdded          |Un utilisateur a correctement ajouté une équipe.           |
+|Shift modifié       |ShiftEdited       |Un utilisateur a correctement modifié une équipe.        |
+|Décalage supprimé          |ShiftDeleted          | Un utilisateur a correctement supprimé une équipe.               |
+|Congés ajoutés      |TimeOffAdded          |Un utilisateur a correctement ajouté du temps sur le planning.          |
+|Congés modifiés         |TimeOffEdited           |Un utilisateur a correctement modifié des congés.          |
+|Congés supprimés     |TimeOffDeleted              |Un utilisateur a correctement supprimé des congés.           |
+|Ouverture du quart d’ouverture     |OpenShiftAdded          |Un utilisateur a ajouté une équipe ouverte à un groupe de planification.          |
+|Ouverture du quart d’ouverture    |OpenShiftEdited          |Un utilisateur a modifié une équipe ouverte dans un groupe de planification.          |
+|Ouverture du quart d’ouverture      |OpenShiftDeleted          |Un utilisateur a correctement supprimé une équipe ouverte d’un groupe de planification.         |
+|Planification partagée     |ScheduleShared                  |Un utilisateur a correctement partagé une planification d’équipe pour une plage de dates.          |
+|Horloge avec horloge         |ClockedIn          |Un utilisateur pointe correctement à l’aide de Time Time.          |
+|À partir de l’horloge      |ClockedOut          |Un utilisateur a correctement pointé à l’aide de Time Time.          |
+|Arrêt du démarrage à l’aide de Time Clock      |Événement breakstarted          |Un utilisateur réussit un arrêt au cours d’une session d’horloge active.          |
+|Arrêt de fin avec horloge    |BreakEnded          |Un utilisateur termine correctement un arrêt au cours d’une session d’horloge active.          |
+|Entrée horaire ajoutée     |TimeClockEntryAdded          |Un utilisateur a correctement ajouté une nouvelle entrée d’horloge dans la feuille de temps.          |
+|Entrée horaire modifiée     | TimeClockEntryEdited             |Un utilisateur a modifié une entrée Time Clock dans la feuille de temps.          |
+|Entrée de l’heure de suppression    |TimeClockEntryDeleted              |Un utilisateur a correctement supprimé une entrée Time Clock dans une feuille de temps.          |
+|Demande de Shift ajoutée         |RequestAdded              |Un utilisateur a ajouté une demande de Shift.          |
+|Réponse à une demande de Shift     |RequestRespondedTo                  |Un utilisateur a répondu à une demande de Shift.          |
+|Demande de Shift annulée         |RequestCanceled               |Un utilisateur a annulé une demande de Shift.          |
+|Paramètre de planification modifié      |ScheduleSettingChanged          |Un utilisateur modifie un paramètre dans les paramètres de décalage.         |
+|Intégration de main-d’œuvre ajoutée      |WorkforceIntegrationAdded                  | Le changement d’application est intégré à un système tiers.         |
+|A accepté le message Shift         |OffShiftDialogAccepted          |Un utilisateur confirme le message hors décalage pour accéder aux équipes après les heures de travail.           |
+
 ## <a name="office-365-management-activity-api"></a>API activité de gestion d’Office 365
 
 Vous pouvez utiliser l’API activité de gestion d’Office 365 pour récupérer des informations sur les événements d’équipe. Pour en savoir plus sur le schéma de l’API activité de gestion pour Teams, voir [schéma d’équipe](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Effectuer une recherche dans le journal d’audit dans le centre de conformité Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
