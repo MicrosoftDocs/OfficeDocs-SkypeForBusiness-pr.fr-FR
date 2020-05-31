@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898129"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412621"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Utilisation de l’Assistant Mise en route pour configurer Business Voice
 
@@ -37,6 +37,8 @@ Nous vous conseillons de lire cet article avant de démarrer l’Assistant. Lors
 
 > [!IMPORTANT]
 > Microsoft Teams et Business Voice fonctionnent uniquement lorsque les boîtes aux lettres de vos utilisateurs se trouvent dans Microsoft 365.  Les boîtes aux lettres sur serveur Exchange local ne sont pas prises en charge.
+>
+> L’Assistant de mise en route ne prend pas en charge les déploiements hybrides Skype Entreprise. Si vous disposez d’un déploiement hybride Skype Entreprise et que vous voulez configurer l’accès à Business Voice, consultez [Configurer le système téléphonique au sein de votre organisation](../setting-up-your-phone-system.md).
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
