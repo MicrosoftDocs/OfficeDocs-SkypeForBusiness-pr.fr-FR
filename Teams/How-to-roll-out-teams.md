@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cb1178771ad0616a28fcc9e8a22c08b2851c4cf
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 74764b2a785835b9dfb65bedf3eb67db0e1109af
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904876"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410419"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Comment mettre en place Microsoft Teams
 
 ## <a name="start-here"></a>Démarrez ici
-Que vous soyez une petite ou une grande entreprise, la [Prise en main](get-started-with-teams-quick-start.md) est le point de démarrage pour le déploiement de Teams. Ce guide présente le déploiement d’équipes de petite taille, ce qui peut vous être utile si vous êtes dans une petite entreprise, ou si vous déployez Teams rapidement en tant que charge de travail Office 365 initiale pour la prise en charge de **travailleurs à distance**. Si vous êtes une grande organisation, utilisez [Prise en main](get-started-with-teams-quick-start.md) pour établir un projet pilote avec un petit groupe de premiers utilisateurs afin de pouvoir en savoir plus sur Teams et commencer à planifier votre déploiement à l’échelle de l’organisation. 
+Que vous soyez une petite ou une grande entreprise, la [Prise en main](get-started-with-teams-quick-start.md) est le point de démarrage pour le déploiement de Teams. Ce guide présente le déploiement Teams de petite taille, ce qui peut vous être utile si vous êtes dans une petite entreprise, ou si vous déployez Teams rapidement en tant que charge de travail Office 365 initiale pour la prise en charge de **travailleurs à distance**. Si vous êtes une grande organisation, utilisez [Prise en main](get-started-with-teams-quick-start.md) pour établir un projet pilote avec un petit groupe de premiers utilisateurs afin de pouvoir en savoir plus sur Teams et commencer à planifier votre déploiement à l’échelle de l’organisation. 
 
 ## <a name="recommended-path-to-teams"></a>Parcours recommandé pour Teams
 
