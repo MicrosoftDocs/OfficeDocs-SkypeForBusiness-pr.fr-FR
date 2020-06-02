@@ -15,12 +15,12 @@ description: Suivez ces instructions pour déployer Microsoft teams en tant que 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041711"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472345"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Commencez par déployer Microsoft teams
 
@@ -142,9 +142,7 @@ Pour en savoir plus <a href="https://docs.microsoft.com/microsoftteams/admin-set
 <li><p>la découverte électronique et les conservations juridiques pour la conformité aux messages de canal sont prises en charge</p></li>
 <li><p>Les stratégies de protection contre la perte de données (DLP) sont disponibles</p></li>
 </ul>
-<p>Ensemble des fonctionnalités disponibles avec Exchange Online, Exchange sur site prend en charge la plupart de ces fonctionnalités, reportez-vous à</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Interaction entre Exchange et Microsoft Teams</a></p>
-<p>pour la liste complète</p></td>
+<p>Ensemble complet des fonctionnalités disponibles avec Exchange Online, Exchange local prend en charge la plupart de ces fonctionnalités, voir <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Comment Exchange et teams interagissent</a> pour la liste complète.</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Pour en savoir plus <a href="https://docs.microsoft.com/microsoftteams/admin-set
     [Obtenir des clients pour Teams](get-clients.md)
 
 5.   Piloter votre programme d’adoption  
-    [Adopter Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Adopter Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams](teams-adoption-quick-start-checklist.md)
 
 6.  Commencer à planifier déplacer d’autres charges de travail vers Office 365
@@ -292,7 +289,7 @@ Pour des détails spécifiques sur chacun des services indiqués ci-dessus, suiv
   - Les [groupes Microsoft 365](office-365-groups.md) sont utilisés pour la création et la gestion d’équipes et de canaux.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Illustrations architecture IT Microsoft Teams et solutions téléphonie](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

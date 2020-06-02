@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898169"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489136"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -38,8 +38,11 @@ Avec l'association de façon anonyme, tout le monde peut participer à la réuni
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-2. Sous **Participants**, activez **Les utilisateurs anonymes peuvent participer à une réunion**.
+1. Accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> .
+
+2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
+
+3. Sous **Participants**, activez **Les utilisateurs anonymes peuvent participer à une réunion**.
 
     ![Capture d'écran des paramètres de participants pour les réunions dans le centre d'administration](media/meeting-settings-participants.png "Capture d'écran des paramètres de participants pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
@@ -62,8 +65,9 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-2. Sous **Invitation par e-mail**, procédez comme suit :
+1. Accédez au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>.
+2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
+3. Sous **Invitation par e-mail**, procédez comme suit :
 
     ![Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser](media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions Teams")
 
@@ -71,9 +75,9 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
     - **URL légale** Si votre organisation a un site web légal auquel vous voulez que les utilisateurs accèdent pour des questions juridiques, entrez l’URL ici.
     - **URL d'aide** Si votre organisation possède un site web d'aide auquel vous voulez que les utilisateurs accèdent lorsqu'ils rencontrent des problèmes, entrez l’URL ici.
     - **Pied de page** Entrer le texte que vous voulez inclure comme pied de page.
-3. Cliquez sur **Aperçu l’invitation** pour afficher un aperçu de votre invitation à une réunion.
-4. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
-5. Patientez une heure pour que les modifications se propagent. Planifiez ensuite une réunion Teams pour visualiser l’invitation à la réunion.  
+4. Cliquez sur **Aperçu l’invitation** pour afficher un aperçu de votre invitation à une réunion.
+5. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
+6. Patientez une heure pour que les modifications se propagent. Planifiez ensuite une réunion Teams pour visualiser l’invitation à la réunion.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Déterminer la façon dont vous voulez gérer le trafic média en temps réel pour les réunions Teams
 
@@ -85,9 +89,9 @@ Si vous utilisez la fonctionnalité Qualité de service [(QoS)](qos-in-teams.md)
 > Si vous activez la Qualité de service (QoS) ou si vous modifiez les paramètres dans le centre d’administration Microsoft Teams pour le service Microsoft Teams, vous devez également [appliquer les paramètres correspondants à tous les appareils d’utilisateurs](QoS-in-Teams-clients.md) et tous les appareils de réseau interne afin d’implémenter totalement les modifications apportées à QoS dans Teams.
 
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
-
-1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-2. Sous **Réseau**, procédez comme suit :
+1. Accédez au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>.
+2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
+3. Sous **Réseau**, procédez comme suit :
 
     ![Capture d'écran des paramètres de réseau pour les réunions dans le centre d'administration](media/meeting-settings-network.png "Capture d'écran des paramètres de réseau pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
@@ -108,7 +112,7 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | Entre 50 000 et 50 019               |TCP/UDP |46        |Acheminement accéléré (EF)|
 |Vidéo            | 50 020–50 039               |TCP/UDP |34        |Acheminement assuré (AF41)|
-|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18        |Transfert garanti (AF21)|
+|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |19        |Transfert garanti (AF21)|
 | | | | |
 
 \* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.
