@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416874"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489146"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -423,6 +423,24 @@ Pour spécifier le complément de réunion que vous voulez mettre à la disposit
 - Définissez le paramètre sur **TeamsOnly** pour activer uniquement le complément de réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions futures disposent d’un lien vers une réunion Teams. Elle ne permet pas de migrer des liens vers les équipes. Ce paramètre de stratégie n’a aucun impact sur la présence, les discussions, les appels RTC ou toute autre fonctionnalité de Skype entreprise, ce qui signifie que les utilisateurs continuent à utiliser Skype entreprise pour ces fonctionnalités.
 
   Si vous définissez le paramètre sur **TeamsOnly**, puis que vous revenez à **TeamsAndSfB**, les compléments de réunion sont activés. Toutefois, Notez que les liens de participation à une réunion teams existants ne seront pas déplacés vers Skype entreprise. Seules les réunions Skype entreprise programmées après le changement comportent un lien vers une réunion Skype entreprise.
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de la stratégie de réunion-mode de filtres vidéo
+
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion.
+
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion teams existante à l’aide de l’applet de passe [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez créer une stratégie de réunion teams à l’aide de l’applet [de nouvelle applet de nouveau-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) , puis affecter la stratégie aux utilisateurs.
+
+Pour indiquer si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** comme suit :
+
+|Définition d’une valeur dans PowerShell |Comportement  |
+|---------|---------|
+|**Nofiltre**     |L’utilisateur ne peut pas personnaliser son arrière-plan vidéo.|
+|**BlurOnly**     |L’utilisateur a la possibilité de brouiller son arrière-plan vidéo. |
+|**BlurandDefaultBackgrounds**     |L’utilisateur a la possibilité de brouiller son arrière-plan vidéo ou de choisir parmi un ensemble d’images à utiliser en arrière-plan. |
+|**AllFilters**     |Utiliser a la possibilité de brouiller l’arrière-plan de la vidéo, de choisir parmi un ensemble d’images ou de télécharger des images personnalisées à utiliser en tant qu’arrière-plan. |
+
+> [!NOTE]
+> Les images téléchargées par les utilisateurs ne sont pas affichées par Teams. Lorsque vous utilisez le paramètre **AllFilters** , vous devez disposer de stratégies d’organisation internes pour empêcher les utilisateurs de télécharger des images inappropriées ou inappropriées ou des images qui ne sont pas autorisées par votre organisation sur les arrière-plans des réunions Teams.
 
 ## <a name="related-topics"></a>Sujets associés
 
