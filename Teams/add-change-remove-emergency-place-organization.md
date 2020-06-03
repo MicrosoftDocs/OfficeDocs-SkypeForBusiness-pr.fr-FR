@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232495"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539431"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation
 
@@ -39,7 +39,7 @@ Vous gérez les emplacements d’urgence de votre organisation dans le centre d�
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **emplacements**d'  >  **urgence**.
 2. Dans la liste, cliquez sur le nom de l’emplacement pour lequel vous souhaitez ajouter un emplacement.
-3. Dans l’onglet **emplacements** , cliquez sur **Ajouter un emplacement**.
+3. Dans l’onglet **emplacements** , cliquez sur **Ajouter**.
 4. Entrez un nom de lieu, puis cliquez sur **appliquer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
@@ -71,7 +71,7 @@ Voir [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skyp
 
 Voir [Remove-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation).
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)

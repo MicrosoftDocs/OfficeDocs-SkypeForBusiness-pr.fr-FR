@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou changer l’emplacement d’un emplacement d’urgence pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5b13cf5d4b4a0cf22077318e3c2c2196840f66e
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232465"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539511"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’un emplacement d’urgence pour un utilisateur
 
@@ -37,7 +37,7 @@ Vous pouvez attribuer ou modifier l’emplacement d’un emplacement d’urgence
 
 1. Dans le volet de navigation de gauche du centre d’administration de **Voice**Microsoft Teams, cliquez sur  >  **numéros de téléphone**vocaux.
 
-2. Dans la page **numéros de téléphone** , sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur **modifier**.
+2. Dans la page **numéros de téléphone** , cliquez sur l’onglet **numéros** , sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur **modifier**.
 
 3. Dans le volet **édition** , sous **emplacement d’urgence**, effectuez l’une des opérations suivantes :
 
@@ -45,13 +45,15 @@ Vous pouvez attribuer ou modifier l’emplacement d’un emplacement d’urgence
 
     - Pour modifier l’emplacement qui est déjà attribué à l’utilisateur, cliquez sur **X** pour supprimer l’emplacement et l’emplacement, recherchez et sélectionnez l’emplacement que vous voulez attribuer.
 
-4. Cliquez sur **Enregistrer**.
+4. Si vous souhaitez envoyer à l’utilisateur un message électronique contenant son numéro de téléphone, désactivez ou activez l’option **courrier électronique avec les informations**sur le numéro de téléphone. Par défaut, ce paramètre est activé.
+
+5. Cliquez sur **Appliquer**.
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
 Voir [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)

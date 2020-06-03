@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232485"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539461"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -40,13 +40,13 @@ Vous gérez les emplacements d’urgence de votre organisation dans le centre d�
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **emplacements**d'  >  **urgence**.
-2. Cliquez sur **Ajouter un emplacement**.
+2. Cliquez sur **Ajouter**.
 3. Entrez un nom et une description pour l’emplacement.
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
    > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre qu’il est nécessaire d’activer un numéro de téléphone dans Office 365, mais que l’adresse définie au lieu d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre à l’indicatif de la région du numéro de téléphone.
-5. Si l’adresse est introuvable et que vous voulez modifier manuellement l’adresse, activez la case à cobesoin **modifier le formulaire d’adresse manuellement si vous ne trouvez pas l’adresse**.
+5. Si l’adresse est introuvable et que vous voulez modifier manuellement l’adresse, activez **la fonction modifier l’adresse manuellement**.
 6. Cliquez sur **Enregistrer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
@@ -80,7 +80,7 @@ Voir [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/
 
 Voir [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)

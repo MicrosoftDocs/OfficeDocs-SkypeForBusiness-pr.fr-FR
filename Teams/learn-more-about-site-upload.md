@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137114"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539641"
 ---
 <a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 ============================
@@ -38,9 +38,9 @@ Les étiquettes de rapport et les données d’emplacement fournies constituent 
 
 **Pour modifier le tableau des sous-réseaux et des emplacements**
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **emplacements** > **rapports**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **emplacements**  >  **rapports**.
 2. Cliquez sur **remplacer les données d’emplacements**.
-3. Dans le volet **remplacer les données** de l’emplacement, cliquez sur **Sélectionner un fichier**, puis recherchez et chargez votre fichier. csv ou. TSV modifié.
+3. Dans le volet **remplacer les données d’emplacement** , cliquez sur **Sélectionner un fichier**, puis recherchez et chargez le fichier. csv ou. TSV modifié.
 4. Cliquez sur **Télécharger**.
 
 Vous pouvez télécharger un exemple de modèle [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).

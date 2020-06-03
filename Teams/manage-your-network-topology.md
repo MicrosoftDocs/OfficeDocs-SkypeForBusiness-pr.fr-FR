@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer les paramètres réseau pour les fonctionnalités vocales de Microsoft Teams.
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888703"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539624"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gérer la topologie de votre réseau pour les fonctionnalités vocales de Microsoft teams
 
@@ -39,12 +39,12 @@ Vous définissez les zones du réseau, les sites réseau et les sous-réseaux so
 
 #### <a name="add-and-configure-a-network-site"></a>Ajouter et configurer un site réseau
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements** > **réseau**, puis cliquez sur l’onglet **sites du réseau** .
-2. Cliquez sur **nouveau**, puis tapez un nom et une description pour le site.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements**  >  **réseau**, puis cliquez sur l’onglet **sites du réseau** .
+2. Cliquez sur **Ajouter**, puis entrez un nom et une description pour le site.
 
     ![Capture d’écran de la page Ajouter un site réseau](media/manage-network-topology-add-site.png)
 
-3. Pour associer le site à une région du réseau, cliquez sur **lier la région du réseau**, sélectionnez une région existante ou cliquez sur **Ajouter** pour ajouter une région, puis cliquez sur **lien**.  
+3. Pour associer le site à une région du réseau, cliquez sur **Ajouter une région réseau**, sélectionnez une région existante ou cliquez sur **Ajouter** pour ajouter une région, puis cliquez sur **lien**.  
 4. Pour activer le routage en fonction de l’emplacement du site, activez le **routage selon l’emplacement**.
 5. Pour attribuer des stratégies de services d’urgence au site, effectuez l’une des opérations suivantes ou les deux :
 
@@ -56,7 +56,7 @@ Vous définissez les zones du réseau, les sites réseau et les sous-réseaux so
 
 #### <a name="modify-a-network-site"></a>Modifier un site réseau
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements** > **réseau**, puis cliquez sur l’onglet **sites du réseau** .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements**  >  **réseau**, puis cliquez sur l’onglet **sites du réseau** .
 2. Sélectionnez le site en cliquant à gauche du nom du site, puis cliquez sur **modifier**.
 3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer.**
 
@@ -66,7 +66,7 @@ Pour gérer les adresses IP de confiance externes, accédez à l’onglet **IPS 
 
 #### <a name="add-a-trusted-ip-address"></a>Ajouter une adresse IP de confiance
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements** > **réseau**, puis cliquez sur l’onglet **IPS approuvés** .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements**  >  **réseau**, puis cliquez sur l’onglet **IPS approuvés** .
 2. Cliquez sur **Nouveau**.
 3. Dans le volet **Ajouter une adresse IP approuvée** , spécifiez la version IP, l’adresse IP, la plage réseau, ajoutez une description, puis cliquez sur **appliquer**.
 
@@ -74,7 +74,7 @@ Pour gérer les adresses IP de confiance externes, accédez à l’onglet **IPS 
 
 #### <a name="edit-a-trusted-ip-address"></a>Modifier une adresse IP de confiance
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements** > **réseau**, puis cliquez sur l’onglet **IPS approuvés** .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **emplacements**  >  **réseau**, puis cliquez sur l’onglet **IPS approuvés** .
 2. Sélectionnez l’adresse IP en cliquant à gauche de celle-ci, puis cliquez sur **modifier**.
 3. Dans le volet **modifier l’adresse IP de confiance** , apportez les modifications souhaitées, puis cliquez sur **appliquer**.
 
@@ -84,7 +84,7 @@ Pour suivre les étapes décrites dans cette section, vous devez vous familiaris
 
 ### <a name="define-network-regions"></a>Définir des régions réseau
 
- Utilisez l’applet de nouvelle applet de [nouveau-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) pour définir des régions du réseau. Notez que le paramètre RegionID est un nom logique qui représente la géographie de la région et qu’il n’y a pas de dépendances ni&gt; de restrictions et que le paramètre d’ID de site CentralSite &lt;est facultatif.
+ Utilisez l’applet de nouvelle applet de [nouveau-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) pour définir des régions du réseau. Notez que le paramètre RegionID est un nom logique qui représente la géographie de la région et qu’il n’y a pas de dépendances ni de restrictions et que le &lt; paramètre d’ID de site CentralSite &gt; est facultatif.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -178,6 +178,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 Voir également [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)
