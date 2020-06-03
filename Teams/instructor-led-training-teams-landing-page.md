@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: Formations et vidéos dirigées par un instructeur pour les utilisateurs
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: Découvrez comment s’inscrire à des cours de formation gratuits, en direct et dirigés par des instructeurs pour en savoir plus sur Microsoft Teams.
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950999"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523447"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -172,26 +172,6 @@ Microsoft a le plaisir d’héberger une série de classes de formation gratuite
                         <h3>Teams pour une utilisations dans l’éducation: Webinaires</h3>
                         <p>Découvrez comment utiliser Teams dans l’enseignement supérieur.</p>
                         <p><i>Public : employés, étudiants, universitaires, chercheurs, informaticiens</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Donnez la possibilité à vos employés terrains d’équiper</h3>
-                        <p>Découvrez comment les équipes activent la transformation numérique qui permet d’atteindre un potentiel illimité pour l’ensemble de votre personnel.</p>
-                        <p><i>Public : décisionnaires pour les entreprises, décisionnaires informatiques</i></p>
                     </div>
                 </div>
             </div>
