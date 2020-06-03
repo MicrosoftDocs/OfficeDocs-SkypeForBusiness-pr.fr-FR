@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir comment créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224267"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512900"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -82,9 +82,9 @@ Un standard automatique ou une file d’attente d’appels de niveau supérieur 
 
 2. Obtenez une licence d’utilisateur virtuel de système téléphonique ou une licence de système téléphonique classique.
 
-   Pour obtenir la licence de l’utilisateur virtuel, à partir du centre d’administration 365 de **Billing**Microsoft, accédez à  >  la section abonnements au composant additionnel**services d’achat**de facturation  >  **Add-on subscriptions** et faites défiler jusqu’à la fin de l’appel de la licence « système téléphonique-utilisateur virtuel ». Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
-3. Créer un compte de ressource. Pour plus d’affichage, voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell).
-4. Attribution d’un système téléphonique- [licence d’utilisateur virtuel](teams-add-on-licensing/virtual-user.md) ou de système téléphonique au compte de ressources. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+   Pour obtenir la licence de l’utilisateur virtuel, dans le centre d’administration 365 de **Billing**Microsoft, accédez à  >  la section abonnements au composant additionnel**services d’achat**de facturation  >  **Add-on subscriptions** et faites défiler jusqu’à la fin, vous verrez la licence « système téléphonique-utilisateur virtuel ». Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
+3. Créer un compte de ressource. Pour plus d’affichage, voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell).
+4. Attribution d’un système téléphonique- [licence d’utilisateur virtuel](teams-add-on-licensing/virtual-user.md) ou de système téléphonique au compte de ressources. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) et [attribuer des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 5. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
 6. Configurez l’une des options suivantes :
    - [Standard automatique Cloud](create-a-phone-system-auto-attendant.md)
@@ -97,26 +97,36 @@ Lorsque vous créez un compte de ressources lors de la création d’un standard
 
 Un standard automatique ou une file d’attente d’appels imbriqués nécessiteront un compte de ressources, mais dans de nombreux cas, le compte de ressource correspondant n’aura pas besoin d’un numéro de téléphone et de la gestion des licences nécessaires à la prise en charge d’un numéro de téléphone. Pour créer un compte de ressources sans numéro de téléphone, vous devez effectuer les tâches suivantes dans l’ordre suivant :
 
-1. Créer un compte de ressource. Pour plus d’affichage, voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell).
+1. Créer un compte de ressource. Pour plus d’affichage, voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell).
 2. Configurez l’une des options suivantes :
    - [Standard automatique Cloud](create-a-phone-system-auto-attendant.md)
    - [File d’attente d’appels Cloud](create-a-phone-system-call-queue.md)
 3. Affectez le compte de ressource à la file d’attente d’appels ou au standard automatique. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
 
 
-## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Créer un compte de ressources dans le centre d’administration Microsoft teams
+## <a name="create-a-resource-account-in-the-microsoft-teams-admin-center"></a>Créer un compte de ressources dans le centre d’administration Microsoft teams
 
-Après avoir acheté une licence de système téléphonique, le centre d’administration Microsoft teams vous permet d’accéder aux comptes de ressources de paramètres à l’échelle de l' **organisation**  >  **Resource accounts**.
+Après avoir acheté une licence de système téléphonique, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à comptes de ressources de paramètres à l’échelle de l' **organisation**  >  **Resource accounts**.
 
 ![Capture d’écran de la page comptes de ressources](media/r-a-master.png)
 
 ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/teamscallout1.png)
 
-Pour créer un compte de ressource, cliquez sur **+ Ajouter**. Dans la fenêtre qui s’affiche, indiquez le **nom d’affichage**, le nom **d’utilisateur** (le nom de domaine doit remplir automatiquement) et le **type de compte de ressources** pour le compte de ressource. Le type de compte de ressource peut être de type **standard automatique** ou **file d’attente d’appels** , en fonction de l’application que vous voulez associer au compte de ressources. Lorsque vous êtes prêt, cliquez sur **Enregistrer**.
+Pour créer un compte de ressource, cliquez sur **Ajouter**. Dans le **volet ajouter un compte de ressources** , spécifiez le nom d' **affichage**, le nom **d’utilisateur** (le nom de domaine doit remplir automatiquement) et le **type de compte de ressources** pour le compte de ressource. Le type de compte de ressource peut être de type **standard automatique** ou **file d’attente d’appels**, en fonction de l’application que vous voulez associer au compte de ressources. Lorsque vous êtes prêt, cliquez sur **Enregistrer**.
 
 ![Capture d’écran des options de nouveau compte de ressources](media/res-acct.png)
 
-Ensuite, appliquez une licence au compte de ressources dans le centre d’administration O365, comme décrit dans la section [attribuer des licences aux utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
+<a name="enablesignin"> </a>
+
+Lorsque vous créez un compte de ressources, la connexion est bloquée pour le compte. Une bannière apparaît en haut du volet, indiquant que le compte de ressource ne peut pas être chargé. Vous devez débloquer la connexion au compte de ressources dans le centre d’administration 365 Microsoft pour que le compte de ressources soit autorisé à se connecter. Pour ce faire, dans le centre d’administration 365 Microsoft, accédez à **utilisateurs**, recherchez, puis sélectionnez le compte de ressource. Dans la partie supérieure du volet sous le nom d’affichage, cliquez sur **débloquer cet utilisateur ?**, décochez la case **empêcher cet utilisateur de se connecter** , puis cliquez sur **enregistrer les modifications**.
+
+![Capture d’écran de l’option débloquer cet utilisateur](media/res-acct-unblock.png)
+
+Après cela, vous verrez « connexion autorisée » sous le nom d’affichage. 
+
+![Capture d’écran du message de connexion autorisé](media/res-acct-sign-in-allowed.png)
+
+Appliquez ensuite une licence au compte de ressources dans le centre d’administration Microsoft 365, comme décrit dans la section [attribuer des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### <a name="edit-resource-account"></a>Modifier le compte de ressources 
 
@@ -151,7 +161,7 @@ Pour affecter un routage direct ou un numéro hybride à un compte de ressource,
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Modifier un compte de ressource existant pour utiliser une licence utilisateur virtuel
 
-Si vous décidez de basculer entre les licences sur votre compte de ressources existant d’une licence de système téléphonique vers une licence utilisateur virtuel, vous devez acquérir la licence utilisateur virtuel gratuite, puis suivre les étapes liées dans le centre d’administration Microsoft 365 pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+Si vous décidez de basculer entre les licences sur votre compte de ressources existant d’une licence de système téléphonique vers une licence utilisateur virtuel, vous devez acquérir la licence utilisateur virtuel gratuite, puis suivre les étapes du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Supprimez toujours une licence de système téléphonique complet et attribuez-la à la licence utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressources risque de ne plus fonctionner comme prévu. Si tel est le cas, nous vous recommandons de créer un compte de ressources pour la licence d’utilisateur virtuel et de supprimer le compte de ressource endommagé. 
@@ -180,9 +190,9 @@ L’ID d’application que vous devez utiliser lors de la création des instance
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. Vous ne serez pas en mesure d’utiliser le compte de ressource tant que vous n’avez pas appliqué de licence. Pour plus d’informations sur la façon d’appliquer une licence à un compte dans le centre d’administration O365, voir [attribuer des licences aux utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) , ainsi qu' [affecter des licences Skype entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. Vous ne serez pas en mesure d’utiliser le compte de ressource tant que vous n’avez pas appliqué de licence. Pour plus d’informations sur l’application d’une licence à un compte dans le centre d’administration 365 Microsoft, voir [attribuer des licences à des utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) et [attribuer des licences Skype entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-3. Facultatif Une fois la licence correcte appliquée au compte de ressources, vous pouvez affecter un numéro de téléphone au compte de ressource, comme illustré ci-dessous. Tous les comptes de ressources ne nécessitent pas de numéro de téléphone. Si vous n’avez pas appliqué de licence au compte de ressource, l’affectation de numéro de téléphone échoue.
+3. Facultatif Une fois la licence correcte appliquée au compte de ressources, vous pouvez affecter un numéro de téléphone au compte de ressource, comme illustré ci-dessous. Tous les comptes de ressources ne nécessitent pas de numéro de téléphone. Si vous n’avez pas appliqué de licence au compte de ressource, le numéro de téléphone ne peut pas être attribué.
 
    ``` Powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
@@ -200,9 +210,9 @@ L’ID d’application que vous devez utiliser lors de la création des instance
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gérer les paramètres de compte de ressources dans le centre d’administration Microsoft teams
+## <a name="manage-resource-account-settings-in-the-microsoft-teams-admin-center"></a>Gérer les paramètres de compte de ressources dans le centre d’administration Microsoft teams
 
-Pour gérer les paramètres de compte de ressources dans le centre d’administration de Microsoft Teams, accédez à comptes de ressources de paramètres à l’échelle de l' **organisation**  >  **Resource accounts**, sélectionnez le compte de ressources dont vous avez besoin pour modifier les paramètres, puis cliquez sur le bouton **modifier** . dans l’écran **modifier le compte de ressources** , vous pouvez modifier les paramètres suivants :
+Pour gérer les paramètres de compte de ressources dans le centre d’administration de Microsoft Teams, accédez à comptes de ressources de paramètres à l’échelle de l' **organisation**  >  **Resource accounts**, sélectionnez le compte de ressources dont vous avez besoin pour modifier les paramètres, puis cliquez sur **modifier**. Dans le volet **modifier le compte de ressources** , vous pouvez modifier les paramètres suivants :
 
 - **Nom d’affichage** du compte
 - File d’attente d’appels ou standard automatique qui utilise le compte
@@ -218,7 +228,7 @@ Vérifiez que vous avez dissocié le numéro de téléphone du compte de ressour
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
-Lorsque vous procédez ainsi, vous pouvez supprimer le compte de ressources du portail d’administration Office 365, sous l’onglet utilisateurs.
+Après quoi, vous pouvez supprimer le compte de ressources dans le centre d’administration 365 Microsoft, sous l’onglet utilisateurs.
 
 Pour dissocier un numéro de téléphone de routage direct du compte de ressources, utilisez l’applet de commande suivante :
 

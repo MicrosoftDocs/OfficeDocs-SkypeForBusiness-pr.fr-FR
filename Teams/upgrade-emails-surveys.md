@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Exemples de messages électroniques et d’enquêtes à utiliser dans conjunciton avec le plan d’action en dix étapes accéléré pour la mise à niveau de Skype entreprise vers équipes
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 202a1b4b1ac253979f264570368ec5ab4c819108
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837224"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522487"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de messages électroniques et d’enquêtes pour la mise à niveau des communications de base
 
@@ -225,7 +225,7 @@ Indiquez la façon dont vous souhaitez effectuer les activités suivantes dans M
 
 **Dans quelle mesure êtes-vous susceptible de recommander Microsoft teams à un ami/collègue ? (0 = sans doute... 10 = très probable)**
 
-| 0,4 | 1 | deuxième | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
+| 0,4 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

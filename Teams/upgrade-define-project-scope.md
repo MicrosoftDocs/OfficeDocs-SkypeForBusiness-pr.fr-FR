@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Exposez votre projet de mise à niveau en affinant votre vision et vos buts pour vous assurer que les parties prenantes de Project sont alignées et que vous travaillez en même bout.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904479"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522537"
 ---
 # <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 

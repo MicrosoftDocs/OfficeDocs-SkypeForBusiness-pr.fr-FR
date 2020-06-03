@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945580"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523299"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -106,7 +106,10 @@ Pour une description détaillée de l’optimisation du réseau, y compris des r
 <td>Assurez-vous que tous les ordinateurs exécutant le client teams peuvent résoudre les requêtes DNS externes pour découvrir les services fournis par Office 365 et que vos pare-feu n’empêchent pas l’accès. Pour plus d’informations sur la configuration des ports de pare-feu, voir <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">URL et plages d’adresses IP Office 365</a>.</td>
 </tr>
 <tr class="odd">
-<td>Valider la taille du pool</td>
+<td>Conserver la persistance de session</td>
+<td>Assurez-vous que votre pare-feu ne modifie pas les adresses ou ports de traduction d’adresses réseau (NAT) mappés pour UDP.</td>
+</tr><tr class="odd">
+<td>Valider la taille du pool NAT</td>
 <td>Validez la taille du pool de traduction d’adresses réseau (NAT) requise pour la connectivité utilisateur. Lorsque plusieurs utilisateurs et appareils accèdent à Office 365 à l’aide de la <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">traduction d’adresses réseau (NAT) ou de la traduction d’adresses de port (Pat)</a>, vous devez vous assurer que les périphériques cachés derrière chaque adresse IP routable publique ne dépassent pas le numéro pris en charge. Assurez-vous que les adresses IP publiques appropriées sont affectées aux pools NAT pour empêcher les épuisements de port. L’épuisement du port contribuera aux utilisateurs internes et aux appareils qui ne peuvent pas se connecter au service Office 365.</td>
 </tr>
 <tr class="even">

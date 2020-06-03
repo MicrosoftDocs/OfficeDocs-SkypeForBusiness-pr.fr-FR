@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769337"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205055"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **d’activité P2P Skype entreprise** pour visualiser le nombre d’utilisation de la messagerie instantanée, de l’audio, de la vidéo, du partage d’applications et du transfert de fichiers par utilisateur. 
+Le tableau de bord **rapports** affiche la vue d’ensemble des activités sur les produits Microsoft 365 ou Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **d’activité P2P Skype entreprise** pour visualiser le nombre d’utilisation de la messagerie instantanée, de l’audio, de la vidéo, du partage d’applications et du transfert de fichiers par utilisateur. 
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
@@ -42,9 +42,9 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Comment obtenir le rapport d'activité P2P Skype Entreprise
 
-1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
+1. Accédez au centre d’administration > **Reports**  >  **l’utilisation**des rapports.
     
-2. Dans la **page utilisation** , sélectionnez**activité d’égal à égal** **Skype entreprise** > dans la **liste Sélectionner un rapport** sur la gauche. Vous pouvez cliquer sur le widget **activité Skype entreprise** , puis sur **activité d’égal à égal Skype entreprise** dans la liste **activité Skype entreprise** .
+2. Dans la page **utilisation** , sélectionnez activité d' **Skype for Business**  >  **égal à égal** Skype entreprise dans la **liste Sélectionner un rapport** sur la gauche. Vous pouvez cliquer sur le widget **activité Skype entreprise** , puis sur **activité d’égal à égal Skype entreprise** dans la liste **activité Skype entreprise** .
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpréter le rapport d'activité P2P Skype Entreprise
 
@@ -113,7 +113,7 @@ Si les stratégies de votre organisation vous empêchent d’afficher des rappor
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

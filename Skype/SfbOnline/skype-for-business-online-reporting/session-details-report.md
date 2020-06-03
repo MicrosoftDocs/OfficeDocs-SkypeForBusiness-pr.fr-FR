@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: Le tableau de bord des rapports Microsoft 365 montre la vue d’ensemble des activités sur les produits Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Le tableau de bord rapports affiche la vue d’ensemble des activités sur les produits Microsoft 365 ou Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776279"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205505"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport Détails de la **session Skype entreprise** pour en savoir plus sur les expériences d’appel des utilisateurs individuels.
+Le tableau de bord **rapports** affiche la vue d’ensemble des activités sur les produits Microsoft 365 ou Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport Détails de la **session Skype entreprise** pour en savoir plus sur les expériences d’appel des utilisateurs individuels.
   
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d’informations sur les rapports disponibles.
   
@@ -46,7 +46,7 @@ Ce rapport, ainsi que les autres rapports Skype entreprise fournissent des infor
 3. Dans la liste sous **Sélectionner un rapport**, cliquez sur **Détails de la session Skype entreprise**.
     
     > [!TIP]
-    > Si ce rapport n’est pas répertorié, reportez-vous à la rubrique > **rapports** > **Session details**du **Centre d’administration Skype entreprise**. 
+    > Si ce rapport n’est pas répertorié, reportez-vous à la rubrique rapports du **Centre d’administration Skype entreprise**  >  **Reports**  >  **Session details**. 
   
     > [!IMPORTANT]
     > En fonction de l’abonnement Microsoft 365 ou Office 365, vous ne verrez peut-être pas tous les produits et les rapports présentés dans cet article. 

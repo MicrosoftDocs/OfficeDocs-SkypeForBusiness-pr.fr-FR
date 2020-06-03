@@ -1,7 +1,7 @@
 ---
 title: Configurer un standard automatique dans le cloud
-ms.author: kenwith
-author: kenwith
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 0b4b654a8e6d0eedd9d80cf5bf3bed8e9ee74115
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047374"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523798"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
-Les standards automatiques permettent aux personnes d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft teams ou avec PowerShell. Pour créer un standard automatique, dans la barre de navigation gauche, sélectionnez **voix** , puis cliquez sur **standards** > automatiques**Ajouter nouveau**.
+Les standards automatiques permettent aux personnes d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft teams ou avec PowerShell. Pour créer un standard automatique, dans la barre de navigation gauche, sélectionnez **voix** , puis cliquez sur **standards automatiques**  >  **Ajouter nouveau**.
 
 Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique [qu’est-ce que les standards automatiques Cloud ?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -43,7 +43,7 @@ Les implémentations de standard automatique impliquent souvent plusieurs standa
 
 ## <a name="step-1--get-started"></a>Étape 1 : prendre en main
 
-- Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) . 
+Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) . 
  
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
@@ -57,7 +57,7 @@ Les implémentations de standard automatique impliquent souvent plusieurs standa
 
 ### <a name="with-the-microsoft-teams-admin-center"></a>Avec le centre d’administration Microsoft teams
 
-Dans le **Centre d’administration de Microsoft teams**, cliquez sur**standards automatiques** **vocaux** > , puis cliquez sur **+ Ajouter**:
+Dans le **Centre d’administration de Microsoft teams**, cliquez sur **Voice**  >  **standards automatiques**vocaux, puis cliquez sur **+ Ajouter**:
 
 #### <a name="general-info-page"></a>Page informations générales
 
@@ -65,16 +65,16 @@ Dans le **Centre d’administration de Microsoft teams**, cliquez sur**standards
 
 * * *
 
-![Icône du numéro 1, une légende dans le](media/teamscallout1.png)
-**nom** de la capture d’écran précédente entrez un nom d’affichage pour votre standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Le **nom** que vous indiquez ici figure dans une colonne sous l’onglet **standards automatiques** .
+![Icône du numéro 1, une légende dans le nom de la capture d’écran précédente ](media/teamscallout1.png)
+ **Name** entrez un nom d’affichage pour votre standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Le **nom** que vous indiquez ici figure dans une colonne sous l’onglet **standards automatiques** .
 
 <a name="phonenumber"> </a>
 
 * * *
 
-![Icône du numéro 2, une légende dans l'](media/teamscallout2.png)
- <a name="operator"> </a> 
- **opérateur** de capture d’écran précédent il est facultatif (mais recommandé). Vous pouvez définir l’option d' **opérateur** permettant aux appelants de sortir des menus et de parler à une personne désignée.
+![Icône du numéro 2, une légende dans l’opérateur de capture d’écran ](media/teamscallout2.png)
+ <a name="operator"> </a>précédent 
+ **Operator** il est facultatif (mais recommandé). Vous pouvez définir l’option d' **opérateur** permettant aux appelants de sortir des menus et de parler à une personne désignée.
 
 La touche 0 est affectée à l’opérateur par défaut.
 
@@ -83,10 +83,10 @@ Si vous définissez un opérateur, indiquez aux personnes qui vous appellent à 
 Vous pouvez définir l’opérateur de plusieurs manières :
 
 - **Aucun opérateur** désactive les options « opérateur » et « appuyer sur 0 ». Il s’agit de la valeur par défaut actuelle.
-- Une **personne de votre organisation** affecte une personne disposant d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Office 365. Vous pouvez également le configurer de sorte que l’appelant soit dirigé vers la boîte vocale. Pour envoyer un appel à la boîte vocale, sélectionnez une **personne dans votre organisation** et définissez les paramètres de ce compte pour envoyer les appels directement à la boîte vocale.
+- Une **personne de l’organisation** attribue une personne disposant d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Office 365. Vous pouvez également le configurer de sorte que l’appelant soit dirigé vers la boîte vocale. Pour envoyer l’appel à la boîte vocale, sélectionnez **personne dans l’organisation** , puis définissez les paramètres de ce compte pour envoyer les appels directement à la boîte vocale.
 
      > [!Note]
-     > Une **personne de votre organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server.
+     > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
 
 - **Application vocale**  Sélectionnez le nom du compte de ressources lié à un standard automatique ou une file d’attente d’appels qui a déjà été créée. Les appelants qui demandent un opérateur y sont redirigés.  
 <!--   
@@ -104,18 +104,18 @@ Vous pouvez définir l’opérateur de plusieurs manières :
 
 <a name="timezone"> </a>
 
-![Icône du numéro 3, une légende dans le](media/teamscallout3.png) **fuseau horaire** de capture d’écran précédent vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire. Veillez à définir le fuseau horaire approprié pour éviter les incohérences entre les heures d’entreprise, car certaines régions ne disposent pas de l’heure d’été. 
+![Icône du numéro 3, une légende dans le fuseau horaire de capture d’écran précédent ](media/teamscallout3.png) **Time zone** vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire. Veillez à définir le fuseau horaire approprié pour éviter les incohérences entre les heures d’entreprise, car certaines régions ne disposent pas de l’heure d’été. 
 
 * * *
 
-![Icône du numéro 4, une légende dans la](media/teamscallout4.png)
+![Icône du numéro 4, une légende dans la langue précédente de la capture d’écran ](media/teamscallout4.png)
  <a name="language"> </a> 
- **langue** précédente de la capture d’écran sélectionnez la langue que vous voulez utiliser pour votre standard automatique. Le standard automatique utilise cette langue avec les appelants, et toutes les invites système sont lues dans cette langue.
+ **Language** sélectionnez la langue que vous voulez utiliser pour votre standard automatique. Le standard automatique utilise cette langue avec les appelants, et toutes les invites système sont lues dans cette langue.
 
  * * *
 
-![Icône du numéro 5, une légende dans la capture d’écran](media/teamscallout5.png)
-suivante activer la reconnaissance vocale des**entrées vocales** est disponible si cette option est sélectionnée. Les appelants peuvent utiliser la saisie vocale dans la [langue que vous avez définie](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si vous souhaitez uniquement permettre aux utilisateurs d’utiliser leur clavier **téléphonique pour effectuer**des sélections, vous pouvez activer la reconnaissance vocale.
+![Icône du numéro 5, une légende dans la capture d’écran suivante ](media/teamscallout5.png)
+ activer la reconnaissance vocale des**entrées vocales** est disponible si cette option est sélectionnée. Les appelants peuvent utiliser la saisie vocale dans la [langue que vous avez définie](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si vous souhaitez uniquement permettre aux utilisateurs d’utiliser leur clavier **téléphonique pour effectuer**des sélections, vous pouvez activer la reconnaissance vocale.
 
 * * *  
 
@@ -139,13 +139,13 @@ Vous pouvez configurer des messages d’accueil personnalisés, des invites et d
 > [!NOTE]
 > Un message d’accueil est particulièrement utile pour un standard automatique de premier niveau. Le standard automatique imbriqué n’a souvent pas besoin d’un message d’accueil.
 
-![Icône du numéro 1, une légende dans la capture d’écran](media/teamscallout1.png) précédente si vous sélectionnez aucun message d’accueil, l’appelant n’entend **aucun**message ou message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez ultérieurement. 
+![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) si vous sélectionnez **aucun**message d’accueil, l’appelant n’entend aucun message ou message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez ultérieurement. 
 
 <!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
 
-![Icône du numéro 2, une légende dans la capture d’écran](media/teamscallout2.png) précédente si vous sélectionnez **lire un fichier audio** , vous pouvez utiliser le bouton **Télécharger un fichier** pour télécharger un message d’accueil enregistré en tant que fichier audio. WAV,. MP3 ou. Format WMA. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
+![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) si vous sélectionnez **lire un fichier audio** , vous pouvez utiliser le bouton **Télécharger un fichier** pour télécharger un message d’accueil enregistré en tant que fichier audio. WAV,. MP3 ou. Format WMA. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
 
-![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente **tapez un message d’accueil** si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères) dans le champ fourni. Par exemple, entrez «Bienvenue dans contoso. Votre appel est important pour nous. La sortie est créée par un logiciel de synthèse vocale.
+![Icône du numéro 3, une légende dans la capture d’écran précédente ](media/teamscallout3.png) **tapez un message d’accueil** si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères) dans le champ fourni. Par exemple, entrez «Bienvenue dans contoso. Votre appel est important pour nous. La sortie est créée par un logiciel de synthèse vocale.
 
 * * *
 
@@ -155,12 +155,12 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 <a name="redirectcalls"> </a>
 
-![Icône du numéro 4, une légende dans la capture d’écran](media/teamscallout4.png) suivante **rediriger l’appel** , envoie l’appelant à la destination choisie sans choisir d’options. Les paramètres possibles sont les suivants :
+![Icône du numéro 4, une légende dans la capture d’écran suivante ](media/teamscallout4.png) **rediriger l’appel** , envoie l’appelant à la destination choisie sans choisir d’options. Les paramètres possibles sont les suivants :
 
   - **Personne de l’organisation** Le compte que vous choisissez doit avoir une licence de système téléphonique activée pour voix entreprise ou disposer d’un plan d’appels attribué dans Office 365. Vous pouvez configurer le programme pour qu’il puisse être envoyé à la boîte vocale : sélectionnez une **personne dans l’organisation** et configurer ce compte pour que les appels soient transférés directement à la boîte vocale.
 
-  > [!Note]
-  > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server.
+    > [!Note]
+    > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
 
   - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé au service.
   - Boîte **vocale** Sélectionnez le groupe Office 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Office 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
@@ -171,10 +171,10 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 ![Capture d’écran : section actions de la page gestion des appels](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
-![Icône du numéro 1, une légende dans la capture d’écran](media/teamscallout1.png) précédente lorsque vous sélectionnez **lire les options de menu** , vous pouvez choisir d’utiliser un fichier audio ou d’entrer du texte qui sera affiché en tant que texte par synthèse vocale afin d’offrir des options de menu de type pavé numérique aux appelants. Sélectionnez cette option au lieu de **Rediriger** les options appeler ou **déconnecter** .
+![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) lorsque vous sélectionnez **lire les options de menu** , vous pouvez choisir d’utiliser un fichier audio ou d’entrer du texte qui sera affiché en tant que texte par synthèse vocale afin d’offrir des options de menu de type pavé numérique aux appelants. Sélectionnez cette option au lieu de **Rediriger** les options appeler ou **déconnecter** .
 
 
-![Icône du numéro 2, une légende dans la capture d’écran](media/teamscallout2.png) précédente **lire un fichier audio** vous permet de configurer une invite et des options pour l’appelant. 
+![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) **lire un fichier audio** vous permet de configurer une invite et des options pour l’appelant. 
 - Si vous sélectionnez **lire un fichier audio** , vous pouvez utiliser le bouton **Télécharger un fichier** pour télécharger un message d’accueil enregistré en tant que fichier audio. WAV,. MP3 ou. Format WMA. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
 
 - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères) dans le champ fourni. Par exemple, entrez «Bienvenue dans contoso. Votre appel est important pour nous. La sortie est créée par un logiciel de synthèse vocale.
@@ -189,11 +189,11 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 > [!NOTE]
 > Les clés \* (répétition) et \# (retour) sont réservées par le système et ne peuvent pas être réaffectées. Si la reconnaissance vocale est activée, le fait d’appuyer sur * correspond à « répéter » et # correspond aux commandes vocales « retour ».
 
-![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente pour configurer une option de menu, cliquez sur **+ affecter une touche de numérotation** , puis entrez les informations pour les options suivantes :
+![Icône du numéro 3, une légende dans la capture d’écran précédente ](media/teamscallout3.png) pour configurer une option de menu, cliquez sur **+ affecter une touche de numérotation** , puis entrez les informations pour les options suivantes :
 
-![Icône du numéro 4 ; une légende dans la capture d’écran](media/teamscallout4.png)de la**commande vocale** de la capture initiale pour une option peut comporter jusqu’à 64 caractères et contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ».   Si la reconnaissance vocale est activée, le nom est automatiquement reconnu et l’appelant est en mesure d’appuyer sur 3, de dire « trois » ou de « service clientèle » pour sélectionner l’option associée à la clé 3. Ce texte est également affiché par synthèse vocale pour l’invite de confirmation du service (par exemple, « transfert de votre appel vers l’opérateur »).
+![Icône du numéro 4 ; une légende dans la capture d’écran de la ](media/teamscallout4.png) **commande vocale** de la capture initiale pour une option peut comporter jusqu’à 64 caractères et contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ».   Si la reconnaissance vocale est activée, le nom est automatiquement reconnu et l’appelant est en mesure d’appuyer sur 3, de dire « trois » ou de « service clientèle » pour sélectionner l’option associée à la clé 3. Ce texte est également affiché par synthèse vocale pour l’invite de confirmation du service (par exemple, « transfert de votre appel vers l’opérateur »).
 
-![Icône du numéro 5, une légende dans la capture d’écran](media/teamscallout5.png) précédente les options **Rediriger vers** l’emplacement de l’appel, si la touche correspondante est enfoncée ou si l’option est activée à l’aide de la reconnaissance vocale. L’appel peut être envoyé à :
+![Icône du numéro 5, une légende dans la capture d’écran précédente ](media/teamscallout5.png) les options **Rediriger vers** l’emplacement de l’appel, si la touche correspondante est enfoncée ou si l’option est activée à l’aide de la reconnaissance vocale. L’appel peut être envoyé à :
 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
@@ -211,7 +211,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Icône du numéro 6, une légende dans la capture d’écran](media/teamscallout6.png)précédente de la**recherche** dans cette section, vous pouvez activer le **numérotation par nom** et la **numérotation par poste** pour le standard automatique.   Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. La recherche dans l’annuaire est définie sur **aucune** par défaut.
+![Icône du numéro 6, une légende dans la capture d’écran précédente de la ](media/teamscallout6.png) **recherche** dans cette section, vous pouvez activer le **numérotation par nom** et la **numérotation par poste** pour le standard automatique.   Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. La recherche dans l’annuaire est définie sur **aucune** par défaut.
 
 **Numérotation par nom** Si vous activez cette option, les appelants peuvent rechercher des personnes dans votre organisation à l’aide de la **numérotation par nom**. Il parle du nom de l’utilisateur et de la reconnaissance vocale à l’utilisateur. Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom.
 
@@ -225,7 +225,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 >    - Mobile/MobilePhone
 >    - TelephoneNumber/PhoneNumber
 >    - OtherTelephone
->- Le format requis pour entrer l’extension dans le champ numéro de téléphone de l' `+<phonenumber>;ext=<extension>` utilisateur `x<extension>`est soit ou.
+>- Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur est soit `+<phonenumber>;ext=<extension>` ou `x<extension>` .
 >- L’attribution d’une extension dans le centre d’administration teams n’est pas prise en charge pour le moment. Vous devez utiliser la commande PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) ou le centre d’administration Microsoft 365.
 >- Il est possible que les modifications apportées aux attributs AAD et MobilePhone soient jusqu’à 12 heures.
 >- Ne définissez pas d’extension pour le LineUri d’un utilisateur. Cette fonctionnalité n’est pas prise en charge pour le moment.
@@ -268,17 +268,17 @@ Au départ, les heures d’ouverture sont définies pour commencer à 12:00 AM e
 ![capture d’écran des paramètres de flux d’appels après heures](media/aa-afterhour.png)
  * * *
 
-![Dans la capture d’écran du numéro 1, une légende dans](media/teamscallout1.png) la capture d’écran précédente, vous pouvez cliquer sur **Sélectionner 24/7** pour afficher toutes les heures d’activité pour ce standard automatique.
+![Dans la capture d’écran du numéro 1, une légende dans la capture d’écran précédente, ](media/teamscallout1.png) vous pouvez cliquer sur **Sélectionner 24/7** pour afficher toutes les heures d’activité pour ce standard automatique.
 
-![Dans le numéro 2, une légende dans la capture d’écran](media/teamscallout2.png) précédente, sélectionnez l’option de **réinitialisation par défaut** pour rétablir toutes les modifications apportées à la planification et revenir à la définition par défaut des heures d’activité, de 9:00 à 5:00 PM du lundi au vendredi.
+![Dans le numéro 2, une légende dans la capture d’écran précédente, ](media/teamscallout2.png) Sélectionnez l’option de **réinitialisation par défaut** pour rétablir toutes les modifications apportées à la planification et revenir à la définition par défaut des heures d’activité, de 9:00 à 5:00 PM du lundi au vendredi.
 
-![Icône du numéro 3 ; une légende dans la capture d’écran](media/teamscallout3.png) précédente sélectionnez **effacer toutes les heures** pour effacer entièrement le planning. Si vous sélectionnez cette option et que vous ne souhaitez pas utiliser les heures non configurées, utilisez cette option uniquement si vous voulez recommencer entièrement les heures d’activité.
+![Icône du numéro 3 ; une légende dans la capture d’écran précédente ](media/teamscallout3.png) sélectionnez **effacer toutes les heures** pour effacer entièrement le planning. Si vous sélectionnez cette option et que vous ne souhaitez pas utiliser les heures non configurées, utilisez cette option uniquement si vous voulez recommencer entièrement les heures d’activité.
 
-![Icône du numéro 4, une légende dans l’icône précédent de](media/teamscallout4.png)![la capture d’écran, une légende dans la capture d’écran](media/teamscallout5.png) précédente pour personnaliser l’heure de début ou de fin d’un jour de la semaine, cliquez sur au **début ou à** la fin de l’heure de début et de **fin** de la liste qui s’affiche.   La liste permet de sélectionner des heures d’ouverture par intervalle de 15 minutes, et les heures d’ouverture sélectionnées ici dépendent du fuseau horaire que vous avez défini dans la page **informations générales** .
+![Icône du numéro 4, une légende dans l’icône précédent de la capture ](media/teamscallout4.png) ![ d’écran, une légende dans la capture d’écran précédente ](media/teamscallout5.png) pour personnaliser l’heure de début ou de fin d’un jour de la semaine, cliquez sur au **début ou à** la fin de l’heure de début et de **fin** de la liste qui s’affiche.   La liste permet de sélectionner des heures d’ouverture par intervalle de 15 minutes, et les heures d’ouverture sélectionnées ici dépendent du fuseau horaire que vous avez défini dans la page **informations générales** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Icône du numéro 6, une légende dans la capture d’écran](media/teamscallout6.png) précédente pour configurer un saut (par exemple, une pause déjeuner, par exemple), sélectionnez **Ajouter une nouvelle heure** pour ce jour de la semaine pour créer une ligne de tableau, puis sélectionnez nouvelles heures de début et de fin. Vous pouvez définir plusieurs sauts dans les heures de bureau.
+![Icône du numéro 6, une légende dans la capture d’écran précédente ](media/teamscallout6.png) pour configurer un saut (par exemple, une pause déjeuner, par exemple), sélectionnez **Ajouter une nouvelle heure** pour ce jour de la semaine pour créer une ligne de tableau, puis sélectionnez nouvelles heures de début et de fin. Vous pouvez définir plusieurs sauts dans les heures de bureau.
 
 Les options de [flux d’appels](#call-flow) disponibles après les heures sont les mêmes que celles disponibles pendant les heures d’activité. Faire défiler la page d’entrée d’information pour définir les options de flux d’appels après heures.
 
@@ -294,9 +294,9 @@ Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automati
 
 ![Capture d’écran : aucun congé configuré](media/aa-no-holidays.png)
 
-![Icône du numéro 1, une légende dans la capture d’écran](media/teamscallout1.png) précédente pour définir un flux d’appels personnalisé pour un jour férié sur le standard automatique, cliquez sur **+ Ajouter** l’écran de **nouveau flux d’appels de vacances** .
+![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) pour définir un flux d’appels personnalisé pour un jour férié sur le standard automatique, cliquez sur **+ Ajouter** l’écran de **nouveau flux d’appels de vacances** .
 > [!TIP]
-> Pour créer des jours fériés **,** > vous pouvez accéder à l’écran aux**jours fériés**de l’organisation.  
+> Pour créer des jours fériés **,** vous pouvez accéder à l’écran aux  >  **jours fériés**de l’organisation.  
 
 
 
@@ -304,13 +304,13 @@ Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automati
 
 * * *
 
-![Icône du numéro 1, une légende dans la capture d’écran](media/teamscallout1.png) précédente entrez un **nom** pour le nouveau flux d’appels.
+![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) Entrez un **nom** pour le nouveau flux d’appels.
 
-![Icône du numéro 2, une légende dans la capture d’écran](media/teamscallout2.png) précédente si vous avez déjà créé des jours fériés, vous les verrez dans le menu déroulant des **fêtes** et pouvez les sélectionner. Vous verrez peut-être une option inutilisée que vous pouvez modifier selon vos besoins. Si ce n’est pas le cas, cliquez sur **Ajouter** au bas de la liste déroulante pour créer un jour férié.  Pour plus d’informations sur les étapes de création d’un congé, voir [configurer les jours fériés dans Microsoft teams](set-up-holidays-in-teams.md) . 
+![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) si vous avez déjà créé des jours fériés, vous les verrez dans le menu déroulant des **fêtes** et pouvez les sélectionner. Vous verrez peut-être une option inutilisée que vous pouvez modifier selon vos besoins. Si ce n’est pas le cas, cliquez sur **Ajouter** au bas de la liste déroulante pour créer un jour férié.  Pour plus d’informations sur les étapes de création d’un congé, voir [configurer les jours fériés dans Microsoft teams](set-up-holidays-in-teams.md) . 
 
 Le nom d’un flux d’appels de vacances peut contenir jusqu’à 64 caractères et doit être unique pour l’organisation. Par exemple, vous ne pouvez pas avoir deux flux d’appels de vacances nommés « Thanksgiving » dans la même organisation. Le standard automatique peut faire un flux d’appels pour chaque jour férié que vous avez configuré, mais il se peut que vous souhaitiez disposer d’un ensemble de comportements communs qui n’est pas une formule de salutation personnalisée.
 
-![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente les options d' [Accueil](#call-flow) disponibles pour un flux d’appels de vacances sont les mêmes que celles disponibles pendant les heures d’activité. Les **actions** effectuées après le message d’accueil sont également similaires, sauf que les seules actions disponibles sont la **déconnexion** ou la **redirection vers**, et lorsque vous sélectionnez l’option **Rediriger vers** , l’opérateur n’est pas l’un des choix disponibles. Vous ne pouvez pas définir un menu spécifique à un flux de vacances.
+![Icône du numéro 3, une légende dans la capture d’écran précédente ](media/teamscallout3.png) les options d' [Accueil](#call-flow) disponibles pour un flux d’appels de vacances sont les mêmes que celles disponibles pendant les heures d’activité. Les **actions** effectuées après le message d’accueil sont également similaires, sauf que les seules actions disponibles sont la **déconnexion** ou la **redirection vers**, et lorsque vous sélectionnez l’option **Rediriger vers** , l’opérateur n’est pas l’un des choix disponibles. Vous ne pouvez pas définir un menu spécifique à un flux de vacances.
 
 > [!NOTE]
 > Par défaut, tous les appels reçus pendant une période de vacances sont définis pour **déconnecter** après le message d’accueil (le cas échéant), vous devez donc spécifier une redirection si vous souhaitez un comportement personnalisé.
@@ -329,7 +329,7 @@ Cliquez sur en **regard** de définir l’étendue de numérotation, de **nouvea
 
 Dans cette page, vous pouvez définir qui est répertorié dans votre annuaire et disponible pour le numérotation par nom lorsque quelqu’un appelle votre organisation. La numérotation par nom est définie sur **désactivé** par défaut dans un écran antérieur. Tous les utilisateurs disposant d’une extension seront disponibles si la **numérotation par poste** a été sélectionnée auparavant.
 
-![D’après le numéro 1, une légende dans la capture d'](media/teamscallout1.png) écran précédente **inclut** les options de cette section : **tous les utilisateurs en ligne** ou **groupes d’utilisateurs personnalisés**
+![D’après le numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) **inclut** les options de cette section : **tous les utilisateurs en ligne** ou **groupes d’utilisateurs personnalisés**
 
 Si vous sélectionnez **tous les utilisateurs en ligne**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
@@ -339,7 +339,7 @@ Si vous sélectionnez **tous les utilisateurs en ligne**, tous les utilisateurs 
 
 Dans cette page, vous pouvez configurer les utilisateurs de votre organisation qui seront répertoriés dans votre annuaire et disponibles pour le numérotation par nom lorsqu’une personne appelle votre organisation.
 
-![Icône du numéro 2, une légende dans la capture d’écran](media/teamscallout2.png) précédente **exclue** les options de cette section vous permettent d’exclure des utilisateurs ou des groupes d’utilisateurs spécifiques de l’annuaire de l’organisation.
+![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) **exclue** les options de cette section vous permettent d’exclure des utilisateurs ou des groupes d’utilisateurs spécifiques de l’annuaire de l’organisation.
 
 Si vous sélectionnez **aucun**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
@@ -361,11 +361,11 @@ Si vous n’avez pas encore configuré de compte de ressources pour votre standa
 
 ![capture d’écran : gestion de compte de ressources facultative](media/aa-ra-optional.png) 
 
-![Icône du numéro 1, une légende dans la capture d’écran](media/teamscallout1.png) précédente pour ajouter un ou plusieurs comptes de ressources existants et non attribués au standard automatique, cliquez sur **Ajouter un compte** , puis sur Rechercher et sélectionnez-le dans les boîtes de dialogue fournies.
+![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) pour ajouter un ou plusieurs comptes de ressources existants et non attribués au standard automatique, cliquez sur **Ajouter un compte** , puis sur Rechercher et sélectionnez-le dans les boîtes de dialogue fournies.
 
 ![capture d’écran de l’affichage de synthèse nouveau standard](media/aa-assigned.png)
 
-![Icône du numéro 1, une légende dans la capture d’écran](media/teamscallout1.png) précédente pour ajouter un compte de ressources supplémentaire, cliquez sur **+ Ajouter un compte**.
+![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) pour ajouter un compte de ressources supplémentaire, cliquez sur **+ Ajouter un compte**.
 
 ![Icône du numéro 2, une légende dans la capture d’écran précédente](media/teamscallout2.png) Le compte de ressources ou les comptes attribués à ce standard automatique apparaissent dans une liste.
 
@@ -423,7 +423,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

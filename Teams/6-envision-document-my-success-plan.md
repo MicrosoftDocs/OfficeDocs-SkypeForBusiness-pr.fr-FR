@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825132"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512811"
 ---
 # <a name="document-my-success-plan"></a>Documenter mon plan de réussite
 
@@ -88,7 +88,7 @@ Si votre organisation ne comporte qu’un ou deux sites, il est possible que vou
 
 Voici un exemple de plan d’exécution trimestrielle pour la phase enVision d’une implémentation de voix Cloud.
 
-| Site/Division                            | Nombre d’employés | Audioconférence, | Système téléphonique                    | Trimestre à exécuter |
+| Site/Division                            | Nombre d’employés | Audioconférence | Système téléphonique                    | Trimestre à exécuter |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | États-Unis : New York                             | 2000                | Oui                | Système téléphonique avec forfaits d’appels | Q1 CY2018          |
 | Irlande : Dublin                          | 300                 | Oui                | Système téléphonique avec forfaits d’appels | Q1 CY2018          |
@@ -108,11 +108,11 @@ Voici un exemple de plan d’exécution trimestrielle pour la phase enVision d�
 
 ## <a name="communications-and-governance-plan"></a>Plan de communication et de gouvernance
 
-Pour tenir à jour les parties prenantes de Project avec la progression du déploiement, vous devez établir un plan de fonctionnement des communications entre les principaux membres de l’équipe de projet et les parties prenantes pour discuter des questions relatives à l’état du projet. des jalons, des blocs-notes et divers avis sur le projet en fonction de KSIs, de métriques opérationnelles et de buts stratégiques définis.
+Pour tenir à jour les parties prenantes de Project en vue de la progression du déploiement, vous devez établir un plan de fonctionnement des communications entre les principaux membres de l’équipe de projet et les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux blocs-notes et aux parties prenantes en rapport avec les KSIs, mesures opérationnelles et objectifs stratégiques.
 
 Vous trouverez ci-dessous un exemple de plan de communication et de gouvernance que vous pouvez utiliser dans votre projet d’implémentation vocale Cloud.
 
-| Type                                        | Définis                                                                                                                                                      | Ils | Jours/heures                                     | Lieu             | Propriétaire de la réunion |
+| Type                                        | Définis                                                                                                                                                      | Participants | Jours/heures                                     | Lieu             | Propriétaire de la réunion |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Appels standup de Project                       | Synchronisation de l’état du projet, suivi des jalons et blocages clés                                                                                           | TBA          | Lundi, mardi, mercredi, jeudi 5 PM PST | Virtualization              | TBA           |
 | Comité d’orientation hebdomadaire                   | Réviser l’état du projet voix sur le Cloud, signaler aux dirigeants, résoudre les problèmes nécessitant l’aide d’une direction                                        | TBA          | Tous les vendredis 11 PST                        | Virtualization              | TBA           |
@@ -173,7 +173,7 @@ Après avoir effectué une évaluation de la compatibilité de l’adoption, l�
 
 Identifiez les ressources pour prendre en charge les activités d’adoption telles que les prospectus, les courriers électroniques de bienvenue et les supports de cours, ainsi que les personnalisations dont vous avez besoin pour répondre aux besoins de votre organisation.
 
-Téléchargez des modèles d’activités d’adoption à partir du kit de réussite pour les [clients Microsoft teams](https://www.microsoft.com/download/details.aspx?id=54244).
+Téléchargez des modèles d’activités d’adoption à partir du kit de réussite pour les [clients Microsoft teams](https://aka.ms/TeamsCustomerSuccess).
 
 ### <a name="operational-plan"></a>Plan opérationnel
 

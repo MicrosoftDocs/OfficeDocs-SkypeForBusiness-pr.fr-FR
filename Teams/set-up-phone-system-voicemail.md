@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349718"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523117"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -35,7 +35,7 @@ Cet article est destiné à l' [administrateur 365 Office](https://support.offic
 > [!NOTE]
 > La messagerie vocale Cloud prend en charge le dépôt de messages vocaux uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie de tiers. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Environnements Cloud uniquement : configurer la messagerie vocale Cloud pour les utilisateurs Cloud psystem
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>Environnements Cloud uniquement : configurer la messagerie vocale Cloud pour les utilisateurs du système téléphonique
 
 Pour les utilisateurs de Skype entreprise Online et des offres d’appels, la boîte vocale Cloud est automatiquement configurée et activée pour les utilisateurs lorsque vous attribuez une licence de **système téléphonique** et un numéro de téléphone à vos utilisateurs.
   
@@ -74,6 +74,26 @@ Vous trouverez ci-après des informations sur la configuration de la messagerie 
 
 > [!NOTE]
 > Lorsqu’un délégué répond à un appel de la part d’un déléguer, les notifications ne sont pas disponibles dans la boîte vocale Cloud. Les utilisateurs peuvent recevoir des notifications d’appels manqués.
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>Activation de la boîte vocale protégée au sein de votre organisation
+
+Lorsqu’un utilisateur quitte un message vocal pour un utilisateur de votre organisation, le message vocal est remis dans la boîte aux lettres de l’utilisateur sous la forme d’une pièce jointe de message électronique. À l’aide de règles de flux de messagerie pour appliquer le chiffrement des messages, vous pouvez empêcher que les messages vocaux soient renvoyés aux autres destinataires. Lorsque vous activez la boîte vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en les appelant dans leur boîte vocale ou en ouvrant le message dans Outlook, Outlook sur le Web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Skype entreprise.
+
+Pour plus d’informations sur le chiffrement des messages, voir [chiffrement](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)des messages.
+
+Pour configurer la boîte vocale protégée, procédez comme suit :
+
+1. Accédez à https://admin.microsoft.com , puis connectez-vous en utilisant un compte doté des autorisations d’administrateur général.
+2. Sélectionnez **Afficher tout** , puis accédez à **Centre d’administration**  >  **Exchange**.
+3. Dans le centre d’administration Exchange, sélectionnez règles de **flux de courrier**  >  **Rules**.
+4. Cliquez **+** sur **Ajouter**, puis sélectionnez **appliquer le chiffrement des messages Office 365 et les droits de protection des messages**.
+5. Attribuez un nom à la nouvelle règle de flux de courrier, puis sous **appliquer cette règle si**, sélectionnez **les propriétés du message**  >  **incluent le type de message**  >  **messagerie vocale**. Sélectionnez **OK**.
+6. Sous **effectuer les opérations suivantes**, activez la case à cocher **appliquer le chiffrement et la protection des messages Office 365 au message avec** , puis sélectionnez **Sélectionner**. Sous **modèle RMS**, sélectionnez **ne pas transférer**. Sélectionnez **OK** , puis **Enregistrer**.
+    > [!NOTE]
+    > Si la liste de **modèles RMS** est vide, vous devez configurer le chiffrement des messages Office 365. Pour plus d’informations sur la configuration du chiffrement de messages Office 365, consultez les articles suivants :
+    > - [Configurer de nouvelles fonctionnalités de chiffrement de messages Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Configuration et gestion des modèles pour Azure information protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [Option ne pas transférer pour les messages électroniques](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 
@@ -146,7 +166,7 @@ Nous disposons d’informations et d’Articles de formation pour aider vos util
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)

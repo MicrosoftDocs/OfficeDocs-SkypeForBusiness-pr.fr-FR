@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769387"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204835"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
+Le tableau de bord **rapports** affiche la vue d’ensemble des activités sur les produits Microsoft 365 ou Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
 
 Pour plus d’informations, consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
@@ -40,9 +40,9 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>Comment obtenir le rapport d'organisateur de conférences Skype Entreprise
 
-1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
+1. Accédez au centre d’administration > **Reports**  >  **l’utilisation**des rapports.
     
-2. Dans la page **utilisation** , sélectionnez**activité d’organisateur de conférences** **Skype entreprise** >dans la **liste Sélectionner un rapport** sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de l’organisateur de conférences Skype entreprise** dans la liste **activité Skype entreprise** .
+2. Dans la page **utilisation** , sélectionnez activité d’organisateur de conférences **Skype entreprise**  > **Conference organizer activity** dans la **liste Sélectionner un rapport** sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de l’organisateur de conférences Skype entreprise** dans la liste **activité Skype entreprise** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpréter le rapport d'organisateur de conférences Skype Entreprise
 
@@ -117,7 +117,7 @@ Si les stratégies de votre organisation vous empêchent d’afficher des rappor
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

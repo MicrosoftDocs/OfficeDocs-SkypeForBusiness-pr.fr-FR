@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Recommandations pour le démarrage d’un pilote Microsoft teams pour découvrir toutes les équipes qui peuvent être proposées par votre organisation tout en continuant à utiliser Skype entreprise
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706454"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522687"
 ---
 # <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
@@ -38,13 +38,13 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 - [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 
-Le déploiement de nouvelles technologies permet à votre organisation de réaliser des avantages commerciaux tels que la réduction des coûts, la conformité de la sécurité, la satisfaction des employés et l’efficacité opérationnelle, mais elle peut également affecter la productivité de vos utilisateurs et l’infrastructure de l’organisation. votre réseau). Avant d’activer une nouvelle technologie au sein de votre organisation, effectuez un pilote d’utilisateur formel. Comme vous le feriez avec un petit carreau de couleur sur un mur avant de peindre la totalité de la pièce, vous testez un déploiement de grande envergure sur une plus petite échelle en lançant un pilote pour vérifier la compatibilité technique et des utilisateurs, identifier et limiter les problèmes et garantir la réussite de l’opération. implémentation à l’échelle de l’organisation.
+Le déploiement de nouvelles technologies permet à votre organisation de réaliser des économies, telles que le gain de coûts, la conformité de la sécurité, la satisfaction des employés et l’efficacité opérationnelle, mais elle peut également affecter la productivité de vos utilisateurs et l’infrastructure organisationnelle (votre réseau). Avant d’activer une nouvelle technologie au sein de votre organisation, effectuez un pilote d’utilisateur formel. Comme vous le feriez avec un petit carreau de couleur sur un mur avant de peindre la totalité de la pièce, vous testez un déploiement de grande envergure sur une plus petite échelle en lançant un pilote pour vérifier la compatibilité technique et des utilisateurs, identifier et limiter les problèmes, et garantir une implémentation réussie à l’échelle de l’organisation.
 
 Pour obtenir les résultats les plus réalistes, le pilote doit impliquer des utilisateurs réels, imiter la façon dont ils communiquent et collaborer, et vérifier les expériences techniques et aux utilisateurs. Qu’il s’agisse de l’utilisation de Skype pour les entreprises et de teams côte à côte, de la mise à niveau vers teams à l’avenir ou du déploiement de nouvelles fonctionnalités telles que les appels ou les conférences, un pilote peut vous aider à identifier le chemin approprié pour votre organisation. Dans la phase 1 du déploiement, le pilote idéal tire parti de la préparation que vous avez déjà démarré et implémente votre plan défini avec un groupe d’utilisateurs ciblé.
 
 | | |
 |---|---|
-| ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Comment utiliserez-vous un pilote pour en informer l’orientation du projet ?</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Comment utiliserez-vous un pilote pour en informer l’orientation du projet ?</li></ul> |
 | ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez les instructions ci-dessous pour créer et exécuter votre pilote formel.</li></ul>|
 
 > [!Tip]
@@ -78,14 +78,14 @@ Il est essentiel de la réussite de votre pilote pour éduquer les participants 
 
 ## <a name="5-conduct-your-pilot"></a>5. diriger votre pilote
 
-Une fois que votre organisation est en place, vous pouvez maintenant commencer votre pilote. La conduite de votre pilote implique de communiquer avec vos utilisateurs, de surveiller votre réseau et de votre utilisation pour garantir les performances de votre réseau et la qualité des appels, recueillir les commentaires des participants et consulter les tickets d’assistance pour les questions relatives à Associations.
+Une fois que votre organisation est en place, vous pouvez maintenant commencer votre pilote. La conduite de votre pilote implique de communiquer avec vos utilisateurs, de surveiller votre réseau et de votre utilisation pour garantir les performances de votre réseau et la qualité des appels, ainsi que pour les questions relatives aux équipes.
 
 ### <a name="tips-for-pilot-success"></a>Conseils relatifs à la réussite du pilote
 
 Les conseils suivants peuvent vous aider à garantir le succès de votre pilote :
 
 - Avant de commencer votre projet pilote, assurez-vous que tous les participants au programme pilote sont activés pour le mode de coexistence approprié.
-- (https://aka.ms/SkypeToTeams-SetCoexistence) vous souhaitez valider.
+- ( https://aka.ms/SkypeToTeams-SetCoexistence) vous souhaitez valider.
 - Toutes les semaines, au sein de votre projet pilote, rencontrez les parties prenantes de votre projet pour examiner les commentaires des utilisateurs, les données d’utilisation, les données réseau et les tickets de support pour vérifier que votre pilote fonctionne correctement. Apportez les modifications nécessaires.
 
 ### <a name="suggested-timeline"></a>Chronologie suggérée

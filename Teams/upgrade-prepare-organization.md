@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Évaluez le niveau de préparation de votre organisation pour accepter le changement, et préparez un plan pour préparer les utilisateurs à la mise à niveau de Skype entreprise vers Microsoft Teams.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b758734de436771d94c0f9b44215d621c276b767
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8f355e57e71ff59a5927a697aeb75e559e3615aa
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136964"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523007"
 ---
 # <a name="prepare-your-organization"></a>Préparer votre organisation
 

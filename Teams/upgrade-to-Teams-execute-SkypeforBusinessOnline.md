@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Découvrez comment mettre à niveau votre organisation vers Microsoft teams via le déploiement de Skype entreprise online.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905356"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523167"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Mise à niveau de Skype Entreprise Online vers Teams
 
@@ -58,7 +58,7 @@ Suivez ces étapes pour mettre à niveau tous vos utilisateurs vers teams en mê
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Étape 1 : informer les utilisateurs de la modification (facultatif)
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation.
+1. Dans le centre d’administration de Microsoft Teams, sélectionnez **Org-wide settings**  >  **mise à niveau des équipes**des paramètres à l’échelle de l’organisation.
 2. Sous **mode de coexistence**, changez le paramètre **informer les utilisateurs de Skype entreprise qu’une mise à niveau vers teams est disponible** **.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Étape 2 : définir le mode de coexistence sur TeamsOnly pour l’Organisation

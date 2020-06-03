@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Tâches et activités requises pour la gestion des services d’équipe, y compris la surveillance de l’état du service et l’évaluation et l’utilisation de la qualité et de l’utilisation du réseau
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997285"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523317"
 ---
 # <a name="operate-your-service"></a>Exploiter votre service
 
@@ -166,7 +166,7 @@ Vous pouvez surveiller l’état du service et les changements à venir en tiran
 
 Microsoft teams est un service basé sur le Cloud. C’est la possibilité de proposer de nouvelles fonctionnalités à un rythme rapide. Le fait d’innover et de proposer des avantages évidents pour les entreprises, mais ces modifications doivent être gérées de manière appropriée au sein de votre organisation afin d’éviter toute remise ou réaffectation de l’utilisateur à votre support technique.
 
-Les mises à jour d’équipes sont transférées automatiquement à vos utilisateurs. Vos utilisateurs ont toujours accès au client et aux fonctionnalités les plus récents dans le service Teams. Il n’est pas possible de gérer le lancement des mises à jour de teams pour vos utilisateurs, c’est pourquoi il est essentiel de gérer le changement par le biais de programmes de communication, de formation et d’adoption efficaces. Si vos utilisateurs ont accès au changement, ont été informés des avantages et profitent des nouvelles fonctionnalités&mdash;qu’ils pourront utiliser pour s’adapter plus rapidement et nous préparer.
+Les mises à jour d’équipes sont transférées automatiquement à vos utilisateurs. Vos utilisateurs ont toujours accès au client et aux fonctionnalités les plus récents dans le service Teams. Il n’est pas possible de gérer le lancement des mises à jour de teams pour vos utilisateurs, c’est pourquoi il est essentiel de gérer le changement par le biais de programmes de communication, de formation et d’adoption efficaces. Si vos utilisateurs ont accès au changement, ont été informés des avantages et profitent des nouvelles fonctionnalités &mdash; qu’ils pourront utiliser pour s’adapter plus rapidement et nous préparer.
 
 ### <a name="monitoring-for-change"></a>Suivi des modifications
 
