@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Forum aux questions sur le passage de Skype Entreprise à Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902949"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522667"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 
@@ -118,7 +118,9 @@ Non, vous devez basculez les utilisateurs sur le mode **Teams uniquement** pour 
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>Qui puis-je contacter si j’ai des questions sur le processus de mise à niveau ?
 
-Pour les questions concernant votre mise à niveau, contactez vos points de contact actuels, qui peuvent inclure votre équipe du compte Microsoft désignée, partenaire ou [FastTrack](https://www.microsoft.com/fasttrack). Vous pouvez aussi ouvrir un ticket d’aide depuis votre [Centre d’administration de Microsoft Teams](https://admin.teams.microsoft.com/).
+Pour les questions concernant votre mise à niveau, contactez vos points de contact actuels, qui peuvent inclure votre équipe du compte Microsoft désignée, partenaire ou [FastTrack](https://www.microsoft.com/fasttrack). Vous pouvez également ouvrir un ticket d’aide à partir de votre [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/) en cliquant sur le bouton **Besoin d’aide**.
+
+![Capture d’écran d’un bouton Besoin d’aide de Teams](media/helpDesk.png "Capture d’écran du bouton Besoin d’aide Teams dans le centre d’administration de Microsoft Teams")     
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>Dois-je mettre à niveau tous les utilisateurs sur mon client ou est-ce que je peux choisir de mettre à niveau des utilisateurs spécifiques à tour de rôle ?
 

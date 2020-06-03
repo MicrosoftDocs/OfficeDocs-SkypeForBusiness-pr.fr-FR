@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489056"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512821"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -64,7 +64,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 
 |Fonctionnalité  | Limite maximale  |
 |---------|---------|
-|Nombre de personnes dans une conversation privée<sup>1</sup>  | 100    |
+|Nombre de personnes dans une conversation privée<sup>1</sup>  | 250<br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 100. Nous mettrons à jour cet article lorsque la limite de cloud gouvernemental passe de 100 à 250.    |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Nombre de pièces jointes<sup>2</sup>  |10     |
 |Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
