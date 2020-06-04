@@ -17,12 +17,12 @@ description: Découvrez comment communiquer avec des utilisateurs d’autres org
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785927"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539441"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams
 ======================================================
@@ -73,7 +73,7 @@ Si vous êtes prêt à activer l’accès invité au sein de votre organisation,
 | Un utilisateur individuel peut être bloqué | Non | Oui |
 | les @mentions sont prises en charge | Oui <sup>4</sup> | Oui |
 | Passer des appels privés | Oui | Oui |
-| Afficher le numéro de téléphone des participants à la réunion rendez-vous | Non | Oui |
+| Afficher le numéro de téléphone des participants à la réunion rendez-vous | Non<sup>5</sup> | Oui |
 | Autoriser la vidéo sur IP | Oui | Oui |
 | Mode de partage d’écran | Oui <sup>4</sup> | Oui |
 | Autoriser la conférence maintenant | Non | Oui |
@@ -88,8 +88,10 @@ Si vous êtes prêt à activer l’accès invité au sein de votre organisation,
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> La conversation externe (fédérée) est 1:1 uniquement.<br>
 <sup>4</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. 
+<sup>5</sup> par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour **le type d’annonce d’entrée/sortie ** (cela permet d’éviter que les numéros soient lus par les équipes). Si vous ne voulez pas révéler les numéros de téléphone PSTN externes aux utilisateurs externes, lorsque vous activez **Annonces d’entrée/fermeture**, sélectionnez **Tonalités** pour le type d’annonce. Pour plus d’informations, voir [Activer ou désactiver l’entrée et quitter les annonces pour les réunions dans Microsoft teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
-## <a name="related-topics"></a>Sujets associés
+
+## <a name="related-topics"></a>Voir aussi
 
 [Accès externe dans Teams](manage-external-access.md)
 
