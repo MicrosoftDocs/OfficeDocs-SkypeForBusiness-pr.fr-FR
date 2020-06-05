@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: eecf5e015c1be21870221ba3b41a43640a6c0869
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539451"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562059"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -145,6 +145,8 @@ Reportez-vous [à la rubrique définition des numéros de téléphone inclus dan
 4. Sous **type d’annonce d’entrée/sortie**, sélectionnez **tonalités** ou **noms ou numéros de téléphone**. 
 
     Si vous choisissez des **noms ou des numéros de téléphone**, vous pouvez également choisir d’activer ou de désactiver **la demande aux appelants d’enregistrer leur nom avant de participer à la réunion**. 
+    > [!NOTE]
+> Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous souhaitez conserver la confidentialité de ces numéros de téléphone, sélectionnez **tonalités** pour le **type d’annonce d’entrée/sortie** (cela empêche les numéros d’être lus par Teams).
 
     > [!NOTE]
     > Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous souhaitez conserver la confidentialité de ces numéros de téléphone, sélectionnez **tonalités** pour le **type d’annonce d’entrée/sortie** (cela empêche les numéros d’être lus par Teams).
@@ -152,38 +154,38 @@ Reportez-vous [à la rubrique définition des numéros de téléphone inclus dan
 5. Cliquez sur **Enregistrer**.
 
     
-Reportez-vous à la section [Modifier les paramètres d’un pont d’audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
+Voir [Modifier les paramètres d'un pont d'Audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Modifier la longueur du code confidentiel pour les réunions**
+ **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
+2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
 
-3. Dans le volet **Bridge settings** (Paramètres du pont), entrez le nombre de chiffres que vous voulez pour le code confidentiel dans la liste **Longueur du code confidentiel**, puis cliquez sur **Enregistrer**.
+3. Dans le volet **paramètres du pont** , entrez le nombre de chiffres souhaités pour le code confidentiel dans la liste longueur du **code confidentiel** , puis cliquez sur **Enregistrer**.
 
-    Le code confidentiel doit comprendre entre 4 et 12 chiffres. La valeur par défaut est 5.
+    Le code confidentiel doit comporter entre 4 et 12 chiffres. La valeur par défaut est 5.
 
     
-Reportez-vous à la section [Modifier les paramètres d’un pont d’audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
+Voir [Modifier les paramètres d'un pont d'Audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Activer ou désactiver l’envoi de courriers électroniques aux utilisateurs d’audioconférence**
+ **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
+2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
 
-3. Dans le volet **Bridge settings** (Paramètres du pont), activez ou désactivez l’option **Automatically send emails to users if their audio conferencing settings change** (Envoyer automatiquement un courrier électronique aux utilisateurs en cas de modification de leurs paramètres d’audioconférence).
+3. Dans le volet **paramètres du pont** , activez ou désactivez l' **envoi automatique de messages électroniques aux utilisateurs en cas de modification de leurs paramètres de conférence audio**.
 
 4. Cliquez sur **Enregistrer**. 
  
-    Vous pouvez aussi envoyer à l’utilisateur un courrier électronique avec les paramètres d’audioconférence, en accédant aux propriétés d’audioconférence de l’utilisateur puis en cliquant sur **Envoyer les informations de la conférence dans un courrier électronique**.
+    Vous pouvez également envoyer des messages électroniques à l’utilisateur avec les paramètres de l’audioconférence en accédant aux propriétés de l’audioconférence de l’utilisateur, puis en cliquant sur envoyer les informations sur la **Conférence par courrier électronique**.
     
     Si vous procédez ainsi, le message envoyé ne contient pas le code confidentiel, mais uniquement l'ID de conférence et le numéro de téléphone de la conférence.
 
-Reportez-vous à la section [Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Afficher et définir la langue principale (par défaut) et les langues secondaires sur un pont d’audioconférence
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Afficher et définir les langues principales (par défaut) et secondaires (de remplacement) sur un pont de conférence audio
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 

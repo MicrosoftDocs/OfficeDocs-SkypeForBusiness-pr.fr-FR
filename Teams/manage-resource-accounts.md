@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir comment créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512900"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565901"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -98,9 +98,11 @@ Lorsque vous créez un compte de ressources lors de la création d’un standard
 Un standard automatique ou une file d’attente d’appels imbriqués nécessiteront un compte de ressources, mais dans de nombreux cas, le compte de ressource correspondant n’aura pas besoin d’un numéro de téléphone et de la gestion des licences nécessaires à la prise en charge d’un numéro de téléphone. Pour créer un compte de ressources sans numéro de téléphone, vous devez effectuer les tâches suivantes dans l’ordre suivant :
 
 1. Créer un compte de ressource. Pour plus d’affichage, voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell).
+
 2. Configurez l’une des options suivantes :
    - [Standard automatique Cloud](create-a-phone-system-auto-attendant.md)
    - [File d’attente d’appels Cloud](create-a-phone-system-call-queue.md)
+   
 3. Affectez le compte de ressource à la file d’attente d’appels ou au standard automatique. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
 
 
@@ -115,16 +117,6 @@ Après avoir acheté une licence de système téléphonique, dans le volet de na
 Pour créer un compte de ressource, cliquez sur **Ajouter**. Dans le **volet ajouter un compte de ressources** , spécifiez le nom d' **affichage**, le nom **d’utilisateur** (le nom de domaine doit remplir automatiquement) et le **type de compte de ressources** pour le compte de ressource. Le type de compte de ressource peut être de type **standard automatique** ou **file d’attente d’appels**, en fonction de l’application que vous voulez associer au compte de ressources. Lorsque vous êtes prêt, cliquez sur **Enregistrer**.
 
 ![Capture d’écran des options de nouveau compte de ressources](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-Lorsque vous créez un compte de ressources, la connexion est bloquée pour le compte. Une bannière apparaît en haut du volet, indiquant que le compte de ressource ne peut pas être chargé. Vous devez débloquer la connexion au compte de ressources dans le centre d’administration 365 Microsoft pour que le compte de ressources soit autorisé à se connecter. Pour ce faire, dans le centre d’administration 365 Microsoft, accédez à **utilisateurs**, recherchez, puis sélectionnez le compte de ressource. Dans la partie supérieure du volet sous le nom d’affichage, cliquez sur **débloquer cet utilisateur ?**, décochez la case **empêcher cet utilisateur de se connecter** , puis cliquez sur **enregistrer les modifications**.
-
-![Capture d’écran de l’option débloquer cet utilisateur](media/res-acct-unblock.png)
-
-Après cela, vous verrez « connexion autorisée » sous le nom d’affichage. 
-
-![Capture d’écran du message de connexion autorisé](media/res-acct-sign-in-allowed.png)
 
 Appliquez ensuite une licence au compte de ressources dans le centre d’administration Microsoft 365, comme décrit dans la section [attribuer des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-Si vous ne voyez pas le numéro de téléphone attribué au compte de ressources dans le centre d’administration teams et que vous ne pouvez pas attribuer le numéro à partir de cet emplacement, vérifiez les points suivants :
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>Le numéro de téléphone attribué au compte de ressource n’apparaît pas dans le centre d’administration Microsoft teams
+
+Si vous ne voyez pas le numéro de téléphone attribué au compte de ressources dans le centre d’administration Microsoft teams et que vous ne pouvez pas attribuer le numéro à partir de cet emplacement, vérifiez les points suivants :
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Actualisez la page Web du centre d’administration teams après avoir exécuté le cmldet et vous devriez pouvoir affecter le numéro correctement.
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>Vous obtenez un « nous ne pouvons pas utiliser ce compte de ressources pour les services ». message d’erreur
+
+<a name="blocksignin"> </a>
+
+Vous recevez le message d’erreur suivant lorsque vous essayez d’utiliser un compte de ressources :
+
+«Nous ne pouvons pas utiliser ce compte de ressources pour les services. Le compte de ressource doit être désactivé et empêché de se connecter. Vous devez bloquer les connexions pour ce compte de ressources dans la page utilisateurs du centre d’administration 365 Microsoft.»
+
+Par défaut, lorsque vous créez un compte de ressource, il est désactivé et la connexion est bloquée pour le compte. Vous ne devez pas modifier ces paramètres. Pour résoudre ce problème, bloquez le compte de ressources pour vous connecter. Pour ce faire :
+
+1. Dans le centre d’administration Microsoft 365, accédez à **utilisateurs**, recherchez, puis sélectionnez le compte de ressource.
+2. Dans la partie supérieure du volet sous le nom d’affichage, cliquez sur **bloquer cet utilisateur ?**, activez la case à cocher **empêcher cet utilisateur de vous connecter** , puis cliquez sur **enregistrer les modifications**.
+
+   ![Capture d’écran de l’option Bloquer cet utilisateur](media/res-acct-block.png)
+
+    Après cela, vous verrez « connexion bloquée » sous le nom d’affichage.
+
+      ![Capture d’écran du message de connexion bloqué](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>Informations connexes
 

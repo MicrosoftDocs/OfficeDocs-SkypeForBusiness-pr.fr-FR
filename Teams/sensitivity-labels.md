@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment définir et utiliser des étiquettes de sensibilité dans Microsoft Teams.
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779761"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562069"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité de Microsoft teams
 
@@ -109,6 +109,10 @@ Pour l’instant, les étiquettes de sensibilité ne sont pas prises en charge d
 **Prise en charge des étiquettes de sensibilité dans les API du graphique Teams, les cmdlets PowerShell et les modèles**
 
 Pour le moment, les utilisateurs ne seront pas en mesure d’appliquer des étiquettes de sensibilité aux équipes créées directement par le biais d’API de graphique, de cmdlets PowerShell et de modèles.
+
+**Support pour les étiquettes de sensibilité dans teams EDU**
+
+Pour l’instant, les étiquettes de sensibilité ne sont pas prises en charge pour les clients qui utilisent des références SKU éducation Teams.
 
 **Modification directe des étiquettes de sensibilité sur une collection de sites SharePoint pour les canaux privés**
 
