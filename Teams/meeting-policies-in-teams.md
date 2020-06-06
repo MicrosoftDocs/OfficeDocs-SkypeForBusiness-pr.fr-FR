@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523147"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583497"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -411,8 +411,6 @@ Pour permettre à un organisateur de la réunion de télécharger le rapport de 
 Pour empêcher un organisateur de la réunion de télécharger le rapport, attribuez au paramètre la valeur **Disabled**. Par défaut, ce paramètre est désactivé et l’option permettant de télécharger le rapport n’est pas disponible.
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Paramètres de la stratégie de réunion-fournisseur de réunion pour le mode îles
-
-**(prochainement)**
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine quel complément de réunion Outlook est utilisé pour *les utilisateurs en mode îlot*. Vous pouvez spécifier si les utilisateurs peuvent uniquement utiliser le complément de réunion teams ou les compléments de réunion équipes et de réunions Skype entreprise pour planifier des réunions dans Outlook.
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: a7e8cf5e6ed4329a617a7922d4c4380fb5593b7c
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350108"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583521"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -52,10 +52,10 @@ Par exemple, supposons que vous souhaitiez bloquer toutes les applications tierc
 Si vous voulez contrôler les applications qui sont disponibles pour différents groupes d’utilisateurs de votre organisation, créez et attribuez une ou plusieurs stratégies d’autorisation d’application personnalisées. Vous pouvez créer et attribuer des stratégies personnalisées distinctes selon que les applications sont publiées par Microsoft, par des tiers ou par votre organisation. Il est important de savoir qu’une fois que vous avez créé une stratégie personnalisée, vous ne pouvez pas la modifier si des applications tierces sont désactivées dans les paramètres de l’application à l’échelle de l’organisation.
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à stratégies d’autorisations des **applications teams**  >  **Permission policies**.
-2. Cliquez sur **Ajouter**.
+2. Cliquez sur **Ajouter**. <br>
     ![Capture d’écran de la nouvelle stratégie d’autorisation d’application](media/app-permission-policies-new-policy.png)
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
-4. Sous **applications Microsoft**, **applications**tierces et **applications clientes**, sélectionnez l’une des options suivantes :
+4. Sous **applications Microsoft**, **applications**tierces et **applications personnalisées**, sélectionnez l’une des options suivantes :
 
     - **Autoriser toutes les applications**
     - **Autoriser des applications spécifiques et bloquer toutes les autres**
@@ -65,10 +65,10 @@ Si vous voulez contrôler les applications qui sont disponibles pour différents
 5. Si vous avez sélectionné **autoriser des applications spécifiques et bloquer d’autres personnes**, ajoutez les applications que vous souhaitez autoriser :
 
     1. Sélectionnez **autoriser les applications**.
-    1. Recherchez les applications que vous souhaitez autoriser, puis cliquez sur **Ajouter**. Les résultats de la recherche sont filtrés sur l’éditeur de l’application (**applications Microsoft**, **applications tierces**ou **applications clientes**).
-    1. Lorsque vous avez choisi la liste des applications, cliquez sur **autoriser**.
+    1. Recherchez les applications que vous souhaitez autoriser, puis cliquez sur **Ajouter**. Les résultats de la recherche sont filtrés sur l’éditeur de l’application (**applications Microsoft**, **applications tierces**ou **applications personnalisées**).
+    1. Lorsque vous avez choisi la liste des applications, cliquez sur **autoriser**. 
 
-6. De même, si vous avez sélectionné **bloquer des applications spécifiques et autorisez tous les autres**, recherchez et ajoutez les applications que vous souhaitez bloquer.
+6. De même, si vous avez sélectionné **bloquer des applications spécifiques et autorisez tous les autres**, recherchez et ajoutez les applications que vous voulez bloquer, puis cliquez sur **bloquer**.
 7. Cliquez sur **Enregistrer**.
 
 ## <a name="edit-an-app-permission-policy"></a>Modifier une stratégie d’autorisation d’application
@@ -92,11 +92,11 @@ Pour attribuer une stratégie à un utilisateur :
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
 3. Sous **stratégie d’autorisation d’application**, sélectionnez la stratégie d’autorisation d’application que vous voulez attribuer, puis cliquez sur **appliquer**.
 
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois :
+Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **appliquer**.  
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
+3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
 
 Vous pouvez également effectuer les opérations suivantes :
 
@@ -194,7 +194,7 @@ Le portail hérité autorisait le contrôle des applications au niveau de l’or
 
 Pour les stratégies d’autorisation d’application attribuées à des utilisateurs spécifiques, si une application dotée d’une fonctionnalité de robot ou de connecteur a été autorisée et bloquée, et si l’application est alors autorisée uniquement pour certains utilisateurs dans un contexte partagé, les membres d’une conversation de groupe ou d’un canal ne disposant pas de l’autorisation d’accès à cette application peuvent afficher l’historique des messages et mais ne peut pas interagir avec elle.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 - [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

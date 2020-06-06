@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: En savoir plus sur la configuration requise pour la prise en charge des salles de Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230822"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591304"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -61,6 +61,7 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Élément audio HP Elite G2 prêt avec les Salles Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 Go |128 Go |
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 Go |128 Go |
   |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 Go |
+  |[Le centre de réflexion Logitech et le centre de M920 Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |

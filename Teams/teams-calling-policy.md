@@ -3,7 +3,6 @@ title: Stratégies de conservation dans Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -20,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914013"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44592925"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 ===================================
@@ -36,41 +35,51 @@ Dans Microsoft Teams, les stratégies d’appel contrôlent les fonctionnalités
 
 Suivez ces étapes pour créer une stratégie d’appel personnalisée.
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez**politique d’appel** **vocal** > .
-2. Sélectionnez **nouvelle stratégie**.
-3. Activez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel. Toutes les sélections sont **Désdésactivées** par défaut.
-4. Pour contrôler si les utilisateurs peuvent diriger les appels entrants vers la boîte vocale, sélectionnez **toujours activé** ou contrôlé par l' **utilisateur**. Pour empêcher le routage vers la boîte vocale, sélectionnez **toujours désactivé**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies d’appel**vocal.
+2. Cliquez sur **Ajouter**.
+3. Activez ou désactivez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel.
+4. Pour contrôler si les utilisateurs peuvent diriger les appels entrants vers la boîte vocale, sélectionnez **activé** ou contrôlé par l' **utilisateur**. Pour empêcher le routage vers la boîte vocale, sélectionnez **désactivé**.
 5. Sélectionnez **Save (enregistrer**).
 
 ## <a name="modify-an-existing-calling-policy"></a>Modifier une stratégie d’appel existante
 
 Pour modifier une stratégie d’appel existante, procédez comme suit.
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez**politique d’appel** **vocal** > .
+1. Dans le volet de navigation de gauche du centre d’administration de **Voice**Microsoft Teams, sélectionnez  >  **politiques d’appel**vocal.
 2. Cliquez sur en regard de la stratégie que vous voulez modifier, puis sélectionnez **modifier**.
-3. Activez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel. Toutes les sélections sont **Désdésactivées** par défaut.
-4. Pour contrôler si les utilisateurs peuvent diriger les appels entrants vers la boîte vocale, sélectionnez **toujours activé** ou contrôlé par l' **utilisateur**. Pour empêcher le routage vers la boîte vocale, sélectionnez **toujours désactivé**.
-5. Sélectionnez **Save (enregistrer**).
+3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
 
-## <a name="assign-a-calling-policy-to-a-user"></a>Assigner une stratégie d’appel à un utilisateur
+## <a name="assign-a-custom-calling-policy-to-users"></a>Assigner une stratégie d’appel personnalisée aux utilisateurs
 
-Pour attribuer une stratégie d’appel personnalisée à un utilisateur, procédez comme suit.
+Pour attribuer une stratégie à un utilisateur :
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez**politique d’appel** **vocal** > .
-2. Cliquez sur en regard du nom de la stratégie pour la sélectionner, puis sélectionnez **gérer les utilisateurs**.
-3. Dans le volet **gérer les utilisateurs** , recherchez le nom de l’utilisateur. (Vous devez entrer au moins trois caractères.)
-4. Sélectionnez le nom de l’utilisateur, puis sélectionnez **Ajouter**.
-5. Sélectionnez **Save (enregistrer**).
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
+3. Sous **stratégie d’appel**, sélectionnez la stratégie d’appel que vous voulez attribuer, puis cliquez sur **appliquer**.
+
+Pour affecter une stratégie à plusieurs utilisateurs à la fois :
+
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
+3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
+
+Vous pouvez également effectuer les opérations suivantes :
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies d’appel**vocal.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 ## <a name="calling-policy-settings"></a>Paramètres de la stratégie d’appel
 
-Utilisez les paramètres suivants pour créer une stratégie d’appel personnalisée.
+Voici les paramètres que vous pouvez configurer pour les stratégies d’appel.
 
-### <a name="user-can-make-private-calls"></a>L’utilisateur peut passer des appels privés
+### <a name="make-private-calls"></a>Passer des appels privés
 
 Ce paramètre contrôle toutes les fonctions d’appel dans Teams. Désactivez cette fonctionnalité pour désactiver toutes les fonctionnalités d’appel dans Teams.
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a>Transfert d’appel et sonnerie simultanée à d’autres utilisateurs
+### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Transfert d’appel et sonnerie simultanée pour les membres de votre organisation
 
 Ce paramètre détermine si les appels entrants peuvent être transférés à d’autres utilisateurs ou pour appeler une autre personne en même temps. 
 
@@ -78,13 +87,13 @@ Ce paramètre détermine si les appels entrants peuvent être transférés à d�
 
 Ce paramètre détermine si les appels entrants peuvent être transférés vers un numéro externe ou pour appeler un numéro externe en même temps.
 
-### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a>Le message vocal est disponible pour le routage des appels entrants vers les utilisateurs.
+### <a name="voicemail-is-available-for-routing-inbound-calls"></a>La boîte vocale est disponible pour le routage des appels entrants
 
 Ce paramètre permet d’envoyer les appels entrants vers la boîte vocale. Les options valides sont les suivantes :
 
-   - **Toujours activé** La boîte vocale est toujours disponible pour les appels entrants. 
-   - **Toujours désactivé**  La boîte vocale n’est pas disponible pour les appels entrants. 
-   - **Contrôle utilisateur**. Les utilisateurs peuvent déterminer s’ils veulent disposer de la boîte vocale.
+- **Activée** La boîte vocale est toujours disponible pour les appels entrants. 
+- **Désactivé**  La boîte vocale n’est pas disponible pour les appels entrants. 
+- **Contrôle utilisateur** Les utilisateurs peuvent déterminer s’ils veulent disposer de la boîte vocale.
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être routés vers des groupes d’appels 
 
@@ -98,18 +107,21 @@ Ce paramètre détermine si les appels entrants peuvent être transférés vers 
 
 Ce paramètre permet à des délégués entrants d’être routés aux délégués, permettant ainsi aux délégués de passer des appels sortants au nom des utilisateurs pour lesquels ils disposent d’autorisations déléguées. Pour plus d’informations, consultez [la rubrique partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
-
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Empêcher le contournement payant et envoyer les appels via PSTN 
 
 Le fait de définir ce paramètre sur **activé** permet d’envoyer des appels par le biais du réseau PSTN et d’engendrer des frais au lieu de les envoyer par le biais du réseau et de sauter les numéros.
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Le niveau occupé est disponible pendant un appel
 
-Occupé sur occupé (options occupées)) est un nouveau paramètre dans le cadre de la stratégie d’appel d’équipes qui vous permet de configurer le mode de gestion des appels entrants lorsqu’un utilisateur se trouve déjà dans un appel ou une conférence ou qu’un appel est en attente. Les appels nouveaux ou reçus peuvent être rejetés avec un signal occupé. Vous pouvez activer les options occupées au niveau du client ou au niveau de l’utilisateur. Quelle que soit la façon dont leurs options occupées sont configurées, les utilisateurs d’un appel ou d’une conférence ou ceux qui disposent d’un appel en attente ne peuvent pas lancer de nouveaux appels ou conférences. Ce paramètre est désactivé par défaut.
+Occupé dans occupé (les options occupées) est un nouveau paramètre qui vous permet de configurer le mode de gestion des appels entrants lorsqu’un utilisateur se trouve déjà en communication ou qu’un appel est en attente. Les appels nouveaux ou reçus peuvent être rejetés avec un signal occupé. Vous pouvez activer les options occupées au niveau du client ou au niveau de l’utilisateur. Quelle que soit la façon dont leurs options occupées sont configurées, les utilisateurs d’un appel ou d’une conférence ou ceux qui disposent d’un appel en attente ne peuvent pas lancer de nouveaux appels ou conférences. Ce paramètre est désactivé par défaut.
+
+### <a name="allow-web-pstn-calling"></a>Autoriser les appels RTC Web
+
+Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide du client Web Teams.
 
 ### <a name="allow-music-on-hold"></a>Autoriser la musique en attente
 
-Ce paramètre vous permet d’activer ou de désactiver la musique lors de la mise en attente d’un appelant PSTN. Elle est activée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de délégué de parc et de dédirection, et est uniquement disponible via PowerShell actuellement. 
+Ce paramètre vous permet d’activer ou de désactiver la musique lors de la mise en attente d’un appelant PSTN. Elle est activée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de délégué de parc et de dédirection, et n’est actuellement disponible que via PowerShell.
 
 ## <a name="see-also"></a>Voir aussi
 
