@@ -17,12 +17,12 @@ description: Découvrez les fonctionnalités de présentateur et de participants
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6341e688973dc50c070b9a0c01dfa57d03514119
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321723"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565857"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Fonctionnalités de présentateur et de participants dans un événement en direct Teams
 ======================================================
@@ -36,7 +36,6 @@ Les fonctionnalités de réunion disponibles sont les suivantes :
 - Tableau blanc
 - Enregistrement
 - Fichiers
-- Planifier une réunion (pour les réunions uniquement)
 
 Cet article décrit les fonctionnalités des participants et leur type d’accès aux fonctionnalités des événements en direct.
 
@@ -45,7 +44,7 @@ Cet article décrit les fonctionnalités des participants et leur type d’accè
 Les présentateurs et les organisateurs incluent les suivants :
 
 - Présentateurs de mon organisation
-- Présentateurs d’autres organisations (restriction sur les événements en direct) : cela inclut les participants anonymes et externes. Les présentateurs sont désignés par l’organisateur et ont besoin d’une invitation personnelle de l’organisateur.
+- Présentateurs d’autres organisations. Les présentateurs sont désignés par l’organisateur et ont besoin d’une invitation personnelle de l’organisateur.
 
 Les présentateurs et les organisateurs ont accès à toutes les fonctionnalités d’un événement en direct.
 
@@ -64,8 +63,8 @@ Le participant au sein d’un client appartient à l’organisation et dispose d
 
 | Événement en direct |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|  **Fonctionnalité**       | Avant la réunion | Réunion | Après la réunion |
-| Conversation | Oui | Oui | Oui |
+|  **Fonctionnalité**       | Avant la réunion | Pendant la réunion | Après la réunion |
+| Conversation | N/A | N/A | N/A |
 | Notes de réunion | Oui | Oui |Oui |
 | Tableau blanc | Oui | Oui |Oui |
 | Enregistrement | N/A |Oui | Oui |
@@ -79,8 +78,8 @@ Un participant invité est un membre d’une autre organisation qui a été invi
 
 | Événement en direct  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **Fonctionnalité**        | Avant la réunion | Réunion | Après la réunion |
-| Conversation | Oui | Oui | Oui |
+| **Fonctionnalité**        | Avant la réunion | Pendant la réunion | Après la réunion |
+| Conversation | N/A | N/A | N/A |
 | Notes de réunion | Oui | Oui | Oui |
 | Tableau blanc | Non | Non | Non |
 | Enregistrement | N/A | Non | Non |
@@ -94,8 +93,8 @@ Un participant externe est une personne qui utilise Teams dans une autre organis
 
 | Événement en direct |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|  **Fonctionnalité**         | Avant la réunion | Réunion | Après la réunion |
-| Conversation | Non| Oui | Oui |
+|  **Fonctionnalité**         | Avant la réunion | Pendant la réunion | Après la réunion |
+| Conversation | N/A| N/A | N/A |
 | Notes de réunion | Non | Non | Non |
 | Tableau blanc | Non| Non | Non |
 | Enregistrement | N/A | Non | Non |
@@ -108,10 +107,10 @@ Le participant anonyme est comme un utilisateur externe, mais son identité n’
 
 | Événement en direct|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **Fonctionnalité**        | Avant la réunion | Réunion | Après la réunion |
-| Conversation | Non | Oui | Non |
+| **Fonctionnalité**        | Avant la réunion | Pendant la réunion | Après la réunion |
+| Conversation | N/A | N/A | N/A |
 | Notes de réunion | N/A | Non | N/A |
-| Tableau blanc | N/A | Non | N/A |
+| Tableau blanc | N/A | N/A | N/A |
 | Enregistrement | N/A | Non | N/A |
 | Fichiers | N/A | Non | N/A |
 |||||||
@@ -122,3 +121,5 @@ Le participant anonyme est comme un utilisateur externe, mais son identité n’
 [Sécurité et Microsoft Teams](teams-security-guide.md)
 
 [Accès invité dans Teams](guest-access.md)
+
+[Planifier des événements en direct dans teams](teams-live-events/plan-for-teams-live-events.md)
