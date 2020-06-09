@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862814"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610046"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -33,7 +33,7 @@ Cet article fournit une vue d’ensemble de la configuration requise pour le dé
 
 Utilisez ce manuel pour aider votre organisation à planifier et à exécuter correctement le déploiement des fonctionnalités vocales de Microsoft teams sur une base site par site.
 
-Incluant toutes les activités requises, les chronologies recommandées et les liens vers des instructions correspondantes pour chaque activité, le présent manuel décrit les conseils de bout en bout pour vous permettre de garantir le déploiement de votre voix teams pour un site donné, en insistant sur les facteurs importants. à l’utilisateur.
+Incluant toutes les activités requises, les chronologies recommandées et les liens vers des instructions correspondantes pour chaque activité, le présent manuel décrit les conseils de bout en bout pour vous permettre de garantir le déploiement de votre voix teams pour un site donné, en insistant sur les facteurs importants pour l’utilisateur.
 
 En remplissant les activités de ce manuel, votre organisation peut :
 
@@ -44,7 +44,7 @@ En remplissant les activités de ce manuel, votre organisation peut :
 -   Réduisez les besoins en matière de support et augmentez la satisfaction des utilisateurs.
 
 > [!NOTE]
-> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de contrôle d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, la [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), les [fonctionnalités de base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipe, la [mise en réseau pour les équipes](prepare-network.md)et [l’activation d’Office 365](onboarding-checklist-enable-office-365.md).
+> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de contrôle d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, la [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), les [fonctionnalités de base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipe, la [mise en réseau pour les équipes](prepare-network.md)et [l’activation de Microsoft 365 ou d’Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -90,9 +90,9 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 5. Examinez chaque activité, effectuez les actions nécessaires et mettez à jour l’État à mesure que vous parcourez la chronologie. Le statut est représenté sous forme graphique, comme décrit ci-dessous :
   
-   - ![Illustration d’une coche](media/deploy-my-service-image3.png) verte **: oui ou non applicable (vert) :** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
-   - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune) :</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
-   - ![Illustration d’un X rouge indiquant qu'](media/deploy-my-service-image5.png) il n’y a <strong>pas de no (rouge) :</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
+   - ![Illustration d’une coche verte ](media/deploy-my-service-image3.png) **: oui ou non applicable (vert) :** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
+   - ![Image d’un point d’exclamation jaune ](media/deploy-my-service-image4.png) <strong>l’activité n’est pas achevée (jaune) :</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
+   - ![Illustration d’un X rouge indiquant qu’il n’y a ](media/deploy-my-service-image5.png) <strong>pas de no (rouge) :</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
 
 6. Le statut est répété dans chaque section, et le titre de section est mis en forme avec l’un de ces indicateurs d’État. Le **statut hebdomadaire** est également mis à jour automatiquement.
 

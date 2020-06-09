@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Découvrez comment payer pour les crédits de communication (consommation RTC) pour les services Skype entreprise et consulter les plans permettant à vos utilisateurs d’accéder à un système téléphonique continu. '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827212"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610277"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
-Les crédits de communication constituent un moyen pratique de régler le système téléphonique et les offres d’appels dans Office 365. Les crédits de communication permettent de veiller à ce que vous et vos utilisateurs ne soyez pas en mesure d’effectuer les opérations suivantes :
+Les crédits de communication constituent un moyen pratique de régler le système téléphonique et les offres d’appels dans Microsoft 365 ou Office 365. Les crédits de communication permettent de veiller à ce que vous et vos utilisateurs ne soyez pas en mesure d’effectuer les opérations suivantes :
   
 - Rendez-vous pour les réunions de conférence rendez-vous à l’aide d’un numéro de téléphone gratuit.
     
@@ -76,7 +76,7 @@ Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suiv
     
 - [Plans de système téléphonique](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation** > **abonnements** > **Ajouter des abonnements**.
+Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation**  >  **abonnements**  >  **Ajouter des abonnements**.
   
 Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -84,9 +84,9 @@ Pour afficher le tableau de la licence ou des licences dont vous avez besoin pou
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configuration de la messagerie vocale Cloud-Aide pour l'administrateur](set-up-phone-system-voicemail.md)
+- [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
-- [Configurer des Forfaits d’appels](set-up-calling-plans.md) et [Forfaits d’appels pour Office 365](calling-plans-for-office-365.md)
+- [Configurer les offres d’appels](set-up-calling-plans.md) et les [offres d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
         
  
  

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137984"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610056"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -66,8 +66,8 @@ Le déploiement met une nouvelle technologie à la portée de l’utilisateur, m
 Utilisez les considérations suivantes pour évaluer la préparation de votre organisation à la gestion des modifications de l’utilisateur.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi à avoir adopté des logiciels ou des services pour les utilisateurs ?</li><li>Est-il possible d’effectuer le suivi de l’utilisation ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une&mdash;campagne d'&mdash;adoption initiale et en cours (sensibilisation, formation et assistance) ?</li><li>Avez-vous une équipe dédiée de gestion des changements ou d’adoption d’utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir les résultats de votre entreprise ?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous &quot;répondez&quot; Oui à tous les éléments ci-dessus, identifiez les principales parties prenantes en matière de gestion du changement d’utilisateur et commencez votre planification de préparation des utilisateurs.</li><li>Si vous &quot;répondez&quot; non à tout ou partie des éléments ci-dessus, envisagez d’utiliser des ressources externes pour faciliter la gestion des modifications et les activités liées à l’adoption pour votre organisation.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi à avoir adopté des logiciels ou des services pour les utilisateurs ?</li><li>Est-il possible d’effectuer le suivi de l’utilisation ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une &mdash; campagne d' &mdash; adoption initiale et en cours (sensibilisation, formation et assistance) ?</li><li>Avez-vous une équipe dédiée de gestion des changements ou d’adoption d’utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir les résultats de votre entreprise ?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous répondez &quot; Oui &quot; à tous les éléments ci-dessus, identifiez les principales parties prenantes en matière de gestion du changement d’utilisateur et commencez votre planification de préparation des utilisateurs.</li><li>Si vous répondez &quot; non &quot; à tout ou partie des éléments ci-dessus, envisagez d’utiliser des ressources externes pour faciliter la gestion des modifications et les activités liées à l’adoption pour votre organisation.</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ L’optimisation du chemin réseau du réseau global de Microsoft permet d’am�
 Les VPN fournissent un service de valeur à de nombreuses organisations. Malheureusement, il n’est généralement pas conçu ou configuré pour prendre en charge les contenus multimédias en temps réel. Certains VPN peuvent également ne pas prendre en charge UDP. Les réseaux privés virtuels introduisent également une couche supplémentaire de chiffrement au-dessus du trafic multimédia déjà crypté. Par ailleurs, la connectivité au service teams peut ne pas être efficace en raison du trafic d’épinglage par le biais d’un appareil VPN.
 Par ailleurs, elles ne sont pas nécessairement conçues à partir d’un point de vue de la capacité pour s’adapter aux efforts prévus qui seront nécessaires aux équipes.
 
-La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. C’est communément connu sous le nom de *VPN de tunneling scindé*. Le tunneling fractionné signifie que le trafic destiné à Office 365 ne traverse pas le VPN, mais qu’il accède directement à Office 365. Ce changement aura un impact positif sur la qualité, mais fournit également l’avantage secondaire de réduire la charge des appareils VPN et du réseau de l’organisation.
+La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. C’est communément connu sous le nom de *VPN de tunneling scindé*. Le tunneling fractionné signifie que le trafic pour Microsoft 365 ou Office 365 ne traverse pas le VPN, mais qu’il accède directement à Microsoft 365 ou Office 365. Ce changement aura un impact positif sur la qualité, mais fournit également l’avantage secondaire de réduire la charge des appareils VPN et du réseau de l’organisation.
 
 Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour les détails de configuration.
 
@@ -153,10 +153,10 @@ Les plug-ins et connecteurs se connectent également via ces ports TCP. Les quat
 
 L’ouverture de ces ports est essentielle pour un déploiement d’équipes fiable. Le blocage de ces ports n’est pas pris en charge et aura un impact sur la qualité multimédia.
 
-Si votre organisation nécessite que vous spécifiiez les plages d’adresses IP et les domaines exacts auxquels ces ports doivent être ouverts, vous pouvez limiter les plages d’adresses IP cibles et les domaines pour ces ports. Pour obtenir la liste des ports, protocoles et plages d’adresses IP exacts, voir [URL et plages d’adresses IP Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
+Si votre organisation nécessite que vous spécifiiez les plages d’adresses IP et les domaines exacts auxquels ces ports doivent être ouverts, vous pouvez limiter les plages d’adresses IP cibles et les domaines pour ces ports. Pour obtenir la liste des ports, protocoles et plages d’adresses IP exacts, voir [URL et plages d’adresses IP de Microsoft 365 ou Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 Si vous choisissez de limiter les plages d’adresses IP et les domaines cibles, vous devez veiller à ce que la liste des ports et des plages soit à jour, car elles peuvent changer. Vous pouvez vous abonner à [ce flux RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) pour être mis à jour lorsque des modifications se produisent. Il est également recommandé de tester si tous les ports sont ouverts en exécutant l' [outil d’évaluation du réseau Skype entreprise](https://www.microsoft.com/download/details.aspx?id=53885) régulièrement. Vous pouvez en savoir plus sur les fonctionnalités de cet outil dans la section suivante.
 
-Dans le cas d’un serveur proxy déployé, nous vous recommandons de ne pas utiliser le serveur proxy pour tous les services Teams. Bien que l’utilisation d’un proxy puisse fonctionner, il est très probable que la qualité soit réduite en raison d’un contenu multimédia forcé d’utiliser le protocole TCP au lieu du protocole UDP. Pour plus d’informations sur les serveurs proxy et la contournement, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+Dans le cas d’un serveur proxy déployé, nous vous recommandons de ne pas utiliser le serveur proxy pour tous les services Teams. Bien que l’utilisation d’un proxy puisse fonctionner, il est très probable que la qualité soit réduite en raison d’un contenu multimédia forcé d’utiliser le protocole TCP au lieu du protocole UDP. Pour plus d’informations sur les serveurs proxy et la contournement, voir [URL et plages d’adresses IP Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 
@@ -166,14 +166,14 @@ Une fois que vous avez terminé votre planification et préparation du réseau, 
 
 Vous pouvez télécharger l' [outil d’évaluation du réseau Skype entreprise](https://www.microsoft.com/download/details.aspx?id=53885) pour tester si votre réseau est prêt pour les équipes. L’outil offre une double fonctionnalité : il peut tester si tous les ports corrects ont été ouverts et tester les problèmes de réseau.
 
-Une fois que vous avez téléchargé et installé l’outil, vous pouvez le trouver\\dans le\\fichier de programmation Microsoft Skype entreprise Network Assessment outil. Un guide détaillé pour l’utilisation de l’outil, utilisation. docx, est inclus dans ce répertoire.
+Une fois que vous avez téléchargé et installé l’outil, vous pouvez le trouver dans le \\ fichier de programmation \\ Microsoft Skype entreprise Network Assessment outil. Un guide détaillé pour l’utilisation de l’outil, utilisation. docx, est inclus dans ce répertoire.
 
 ### <a name="test-for-opened-ports"></a>Tester les ports ouverts
 
-Ouvrez une fenêtre d’invite de commandes et naviguez jusqu’au répertoire de l’outil d’évaluation du réseau en entrant le **CD-C :\\Program Files\\Microsoft Skype entreprise Network Assessment Tool**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool. exe/connectivitycheck**
+Ouvrez une fenêtre d’invite de commandes et naviguez jusqu’au répertoire de l’outil d’évaluation du réseau en entrant le **CD-C : \\ Program Files \\ Microsoft Skype entreprise Network Assessment Tool**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool. exe/connectivitycheck**
 
 Après avoir exécuté les tests, l’outil affiche le message « vérification réussie » ou rapport sur les ports qui ont été bloqués.
-Il génère également un fichier nommé Connectivity_results. txt, qui contient la sortie de l’outil et l'\\enregistre dans le\\\\\\ dossier% UserProfile% AppData de l’outil d’évaluation du réseau Skype entreprise local.
+Il génère également un fichier nommé Connectivity_results. txt, qui contient la sortie de l’outil et l’enregistre dans le dossier% UserProfile% AppData de l’outil d' \\ \\ évaluation du \\ réseau Skype entreprise local \\ .
 
 Nous vous recommandons d’exécuter les vérifications de connectivité régulièrement pour vous assurer que les ports ont été ouverts et qu’ils fonctionnent correctement.
 
@@ -206,7 +206,7 @@ Notez que les deux segments doivent respecter les exigences requises pour un dé
 
 Si les résultats de la planification de la bande passante, du test de port ou du test des exigences réseau indiquent que votre réseau actuel a besoin d’une correction avant le déploiement d’équipes, vous pouvez procéder de plusieurs manières :
 
--   Dans le cas d’une bande passante insuffisante, mettez les connexions à niveau de sorte que le trafic vers Office 365 puisse être mis en place.
+-   Dans le cas d’une bande passante insuffisante, mettez les connexions à niveau de sorte que le trafic vers Microsoft 365 ou Office 365 puisse être mis en place.
 
 -   Pour les ports bloqués, modifiez les règles de pare-feu et testez à présent les ports.
 

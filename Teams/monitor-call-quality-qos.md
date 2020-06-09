@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140053"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638613"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Mettre en œuvre QoS et surveiller la qualité d’appel dans Microsoft teams
 
@@ -38,7 +38,7 @@ Idéalement, vous pouvez implémenter la qualité de service (QoS) sur votre ré
 
 Le [**tableau de bord d’analyse des appels et de qualité des appels**](difference-between-call-analytics-and-call-quality-dashboard.md) permet de rechercher et de résoudre les problèmes qui surviennent au cours de l’opération en cours.  
 
-L' **analyse des appels** affiche des informations détaillées sur les appareils, réseaux et connectivité liés à des ***appels et des réunions spécifiques*** pour chaque utilisateur d’un compte Microsoft teams ou Skype entreprise. Si vous êtes un administrateur 365 Office, vous pouvez utiliser les services d’analyse des appels pour résoudre les problèmes de qualité d’appel et de connexion rencontrés dans un appel spécifique. Cela peut vous aider à identifier et éliminer les problèmes.
+L' **analyse des appels** affiche des informations détaillées sur les appareils, réseaux et connectivité liés à des ***appels et des réunions spécifiques*** pour chaque utilisateur d’un compte Microsoft teams ou Skype entreprise. Si vous êtes un administrateur 365 ou Office 365, vous pouvez utiliser les données d’analyse des appels pour résoudre les problèmes de qualité d’appel et de connexion rencontrés dans un appel spécifique. Cela peut vous aider à identifier et éliminer les problèmes.
 
 Le **tableau de bord de qualité des appels (bord)** est conçu pour permettre aux administrateurs et aux ingénieurs réseau d’optimiser leur ***réseau***, et pas d’analyser et résoudre les problèmes d’un seul appel. BORD déplace le focus entre des utilisateurs spécifiques pour accéder à des informations agrégées dans l’ensemble de l’organisation. Cela peut également vous aider à identifier et éliminer les problèmes.
 

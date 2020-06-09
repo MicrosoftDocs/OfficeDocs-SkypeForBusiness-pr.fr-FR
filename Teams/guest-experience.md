@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902599"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637273"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -57,7 +57,7 @@ Le tableau suivant compare les fonctionnalités d’équipes disponibles pour le
 |Créer des réunions ou des échéanciers d’accès  <br/> |&#x2713;||
 |Accès au stockage OneDrive entreprise  <br/> |&#x2713;||
 |Créer des stratégies d'accès invité qui s'appliquent à l'ensemble du client et aux équipes/canaux  <br/> |&#x2713;||
-|Inviter un utilisateur en dehors du domaine de l’organisation 365 Office <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |&#x2713;||
+|Inviter un utilisateur en dehors du domaine de l’organisation Microsoft 365 ou Office 365 <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |&#x2713;||
 |Créer une équipe  <br/> |&#x2713;||
 |Rechercher et rejoindre une équipe publique  <br/> |&#x2713;||
 |Afficher l'organigramme  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 <sup>1</sup> cette fonction sera disponible prochainement.
 
 > [!NOTE]
-> Les administrateurs d'Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
+> Les administrateurs Microsoft 365 et Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
 
 ## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 

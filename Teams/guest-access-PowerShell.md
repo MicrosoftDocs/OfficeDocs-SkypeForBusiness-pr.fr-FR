@@ -17,12 +17,12 @@ description: Découvrez comment utiliser PowerShell pour autoriser ou bloquer l�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902589"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637303"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Utiliser PowerShell pour contrôler l'accès invité à une équipe
 ================================================
@@ -33,7 +33,7 @@ Outre l’utilisation du centre d’administration Microsoft 365 et du portail A
 
 - Autoriser l’ajout d’invités à toutes les équipes et tous les groupes Microsoft 365
 
-- Autoriser ou bloquer les utilisateurs invités d'une équipe ou d'un groupe Office 365 spécifique
+- Autoriser ou bloquer les utilisateurs invités d’une équipe ou d’un groupe Microsoft 365 spécifique
 
 Pour plus d’informations, consultez la section « utiliser PowerShell pour contrôler l’accès invité » dans [gérer l’accès invité dans les groupes Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).
 

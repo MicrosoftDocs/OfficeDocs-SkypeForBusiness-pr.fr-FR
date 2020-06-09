@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583437"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637713"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -65,7 +65,7 @@ Le bouton réunion Teams s’affiche dans les dernières versions de l’applica
 
 Les coordonnées de la réunion (lien de participation et numéros à composer Teams) sont ajoutées à l’invitation à la réunion une fois que l’utilisateur clique sur **envoyer**.  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complément réunion Teams dans et FindTime pour Outlook
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Complément réunion teams et FindTime pour Outlook
 
 FindTime est un complément pour Outlook qui permet aux utilisateurs de parvenir à un consensus sur le temps de réunion entre entreprises. Une fois que les participants à la réunion ont fourni leurs horaires préférés, FindTime envoie l’invitation à la réunion au nom de l’utilisateur. Si l’option **Réunion en ligne** est sélectionnée dans FindTime, FindTime planifiera une réunion Skype Entreprise ou Microsoft Teams. (FindTime utilise la valeur définie par votre organisation comme canal de réunion en ligne par défaut).
 

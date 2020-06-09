@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb06a50d8a61d78abd84d8bf4f54295ece6d68ab
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 82b1397e597ae6dea218a8f3c27f50d26a60d05f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997125"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610076"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -33,11 +33,11 @@ Cet article fournit une vue d’ensemble de la configuration requise pour le fon
 
 Le guide des opérations vous donne une vue d’ensemble de toutes les tâches et activités requises dans le cadre de la fonction de gestion des services de Microsoft Teams.
 
-La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service Teams englobe Microsoft Office 365 et les composants d'infrastructure déployés sur site (par exemple, la mise en réseau).
+La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service teams englobe Microsoft 365 ou Office 365 et les composants d’infrastructure déployés en local (par exemple, réseau).
 
 La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez peut-être déjà implémenté des processus et des tâches associés à des services existants. Cela dit, vous pouvez probablement augmenter votre processus actuel lorsque vous planifiez la gestion de service dès aujourd’hui pour prendre en charge les équipes à l’avenir.
 
-La gestion des services englobe toutes les activités et processus impliqués dans la gestion des équipes de bout en bout. Comme indiqué plus haut, certains composants de la gestion des services, l’infrastructure qui est le service 365 d’Office lui-même, sont responsables par Microsoft, alors que le client, est responsable de la gestion des différents aspects des équipes, du réseau et des points de terminaison que vous fournissez.
+La gestion des services englobe toutes les activités et processus impliqués dans la gestion des équipes de bout en bout. Comme indiqué précédemment, certains composants de la gestion des services, l’infrastructure qui est le service Microsoft 365 ou Office 365 lui-même, sont responsables par Microsoft, alors que vous, le client, êtes responsable de vos utilisateurs pour gérer les différents aspects des équipes, du réseau et des points de terminaison que vous fournissez.
 
 Les tâches et les activités de ce guide sont regroupées en huit catégories, comme illustré dans le schéma suivant. Chacune de ces catégories sera développée sur les sections suivantes.
 
@@ -70,7 +70,7 @@ Une fois qu’un contrat est en place, les équipes correspondantes doivent comm
 
 ### <a name="teams-service-dependencies"></a>Dépendances des services teams
 
-Microsoft teams réunit les technologies dans Office 365 pour proposer un Hub pour le travail en équipe. Par exemple :
+Microsoft teams réunit les technologies sur Microsoft 365 ou Office 365 pour proposer un Hub pour le travail en équipe. Par exemple :
 
 -   Azure Active Directory (Azure AD) fournit des services d’authentification et d’autorisation pour Teams.
 
@@ -104,7 +104,7 @@ Les sections suivantes offrent une vue d’ensemble des activités requises pour
 
 ## <a name="monitor-service-health"></a>Surveiller l’état du service
 
-Il est important de bien comprendre le fonctionnement global du service Microsoft Teams, afin que vous puissiez avertir les autres personnes de votre organisation de tout événement affectant ce service. Comme décrit précédemment, teams dépend d’autres services Office 365 tels que Azure Active Directory, Exchange Online, SharePoint Online et OneDrive entreprise. Pour cette raison, il est également important de surveiller l’état des services dépendants.
+Il est important de bien comprendre le fonctionnement global du service Microsoft Teams, afin que vous puissiez avertir les autres personnes de votre organisation de tout événement affectant ce service. Comme décrit précédemment, teams dépend d’autres services Microsoft 365 ou Office 365 tels qu’Azure Active Directory, Exchange Online, SharePoint Online et OneDrive entreprise. Pour cette raison, il est également important de surveiller l’état des services dépendants.
 
 Incorporez cette activité dans votre processus de gestion des incidents pour informer de manière proactive les utilisateurs, le support technique et vos équipes opérationnelles à se préparer pour gérer les escalades des utilisateurs.
 
@@ -113,9 +113,9 @@ Les sections suivantes décrivent les outils que vous pouvez utiliser pour surve
 | Outil de surveillance                       | Avantages                                            | Quand utiliser                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Centre d’administration Microsoft 365                     | Disponible sur n’importe quel appareil doté d’un navigateur pris en charge. | À utiliser quand vous n’avez pas besoin de notifications en temps réel.                                          |
-| Application d’administration Office 365                  | Fournit des notifications de transmission sur votre appareil mobile.  | À utiliser quand vous avez besoin d’être informé des incidents de service lors de vos opérations de passage.                  |
+| Application d’administration Microsoft 365 ou Office 365                  | Fournit des notifications de transmission sur votre appareil mobile.  | À utiliser quand vous avez besoin d’être informé des incidents de service lors de vos opérations de passage.                  |
 | Centre de systèmes Microsoft               | Intégration à Microsoft System Center.           | À utiliser lorsque vous avez besoin d’une prise en charge des fonctionnalités d’analyse avancée et des notifications.                       |
-| API de communication de service Office 365 | Accès par programmation à l’état du service Office 365.   | À utiliser lorsque vous avez besoin d’une intégration avec un outil de surveillance tiers ou si vous voulez créer votre propre solution. |
+| API de communication de service Microsoft 365 ou Office 365 | Accès par programmation à l’état du service Microsoft 365 ou Office 365.   | À utiliser lorsque vous avez besoin d’une intégration avec un outil de surveillance tiers ou si vous voulez créer votre propre solution. |
 
 > [!NOTE]
 > Seules les personnes disposant du rôle administrateur **général** ou **administrateur de services** peuvent afficher l’état du service.
@@ -126,7 +126,7 @@ Le [Centre d’administration 365 Microsoft](https://portal.office.com/) fournit
 
 ### <a name="monitoring-with-the-mobile-app"></a>Surveillance avec l’application mobile
 
-L’application Office 365 admin est disponible sur Apple iOS, Android et Windows (PC et appareil mobile). L’application fournit aux administrateurs de services des informations sur l’état du service et les changements à venir. L’application prend en charge les notifications de transmission qui peuvent vous alerter presque immédiatement après la publication d’un avis. Cela vous permet de rester informé de l’état du service, de l’état d’intégrité et des changements à venir du service. La prise en charge de la notification rend son outil de contrôle recommandé aux administrateurs. Pour plus d’informations, consultez :
+L’application d’administration Microsoft 365 ou Office 365 est disponible sur Apple iOS, Android et Windows (PC et appareil mobile). L’application fournit aux administrateurs de services des informations sur l’état du service et les changements à venir. L’application prend en charge les notifications de transmission qui peuvent vous alerter presque immédiatement après la publication d’un avis. Cela vous permet de rester informé de l’état du service, de l’état d’intégrité et des changements à venir du service. La prise en charge de la notification rend son outil de contrôle recommandé aux administrateurs. Pour plus d’informations, consultez :
 
 [Application mobile Office 365 admin](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
@@ -164,7 +164,7 @@ Vous pouvez surveiller l’état du service et les changements à venir en tiran
 
 Microsoft teams est un service basé sur le Cloud. C’est la possibilité de proposer de nouvelles fonctionnalités à un rythme rapide. Le fait d’innover et de proposer des avantages évidents pour les entreprises, mais ces modifications doivent être gérées de manière appropriée au sein de votre organisation afin d’éviter toute remise ou réaffectation de l’utilisateur à votre support technique.
 
-Les mises à jour d’équipes sont transférées automatiquement à vos utilisateurs. Vos utilisateurs ont toujours accès au client et aux fonctionnalités les plus récents dans le service Teams. Il n’est pas possible de gérer le lancement des mises à jour de teams pour vos utilisateurs, c’est pourquoi il est essentiel de gérer le changement par le biais de programmes de communication, de formation et d’adoption efficaces. Si vos utilisateurs ont accès au changement, ont été informés des avantages et profitent des nouvelles fonctionnalités&mdash;qu’ils pourront utiliser pour s’adapter plus rapidement et nous préparer.
+Les mises à jour d’équipes sont transférées automatiquement à vos utilisateurs. Vos utilisateurs ont toujours accès au client et aux fonctionnalités les plus récents dans le service Teams. Il n’est pas possible de gérer le lancement des mises à jour de teams pour vos utilisateurs, c’est pourquoi il est essentiel de gérer le changement par le biais de programmes de communication, de formation et d’adoption efficaces. Si vos utilisateurs ont accès au changement, ont été informés des avantages et profitent des nouvelles fonctionnalités &mdash; qu’ils pourront utiliser pour s’adapter plus rapidement et nous préparer.
 
 ### <a name="monitoring-for-change"></a>Suivi des modifications
 

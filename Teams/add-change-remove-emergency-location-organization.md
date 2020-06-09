@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539461"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610323"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Un emplacement d’urgence doit être associé à un numéro de téléphone, mais lorsque cela se produit peut varier d’un pays à l’autre. Par exemple, aux États-Unis, vous devez associer un emplacement d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer un emplacement d’urgence au numéro de téléphone lorsque vous recevez les numéros de téléphone d’Office 365 ou que vous transférez des numéros de téléphone de votre fournisseur de services actuel.
+Un emplacement d’urgence doit être associé à un numéro de téléphone, mais lorsque cela se produit peut varier d’un pays à l’autre. Par exemple, aux États-Unis, vous devez associer un emplacement d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer un emplacement d’urgence au numéro de téléphone lorsque vous recevez les numéros de téléphone de Microsoft 365 ou Office 365 ou que vous transférez des numéros de téléphone de votre fournisseur de services actuel.
 
 Quel que soit le pays ou la région où vous vous trouvez, vous pouvez ajouter un lieu ou des lieux à un emplacement d’urgence et supprimer un emplacement d’urgence. En fonction du nombre d’emplacements physiques au sein de votre organisation, vous pouvez créer des lieux pour les bâtiments, les étages et les bureaux. Voir [gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md).
   
@@ -45,7 +45,7 @@ Vous gérez les emplacements d’urgence de votre organisation dans le centre d�
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
-   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre qu’il est nécessaire d’activer un numéro de téléphone dans Office 365, mais que l’adresse définie au lieu d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre à l’indicatif de la région du numéro de téléphone.
+   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que pour activer un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie à l’emplacement d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre à l’indicatif de la région du numéro de téléphone.
 5. Si l’adresse est introuvable et que vous voulez modifier manuellement l’adresse, activez **la fonction modifier l’adresse manuellement**.
 6. Cliquez sur **Enregistrer**.
 
@@ -80,7 +80,7 @@ Voir [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/
 
 Voir [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)

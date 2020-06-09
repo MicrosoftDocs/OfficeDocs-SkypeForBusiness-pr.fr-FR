@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
-ms.translationtype: HT
+ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265629"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637933"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -68,10 +68,12 @@ Lors de la création d’un canal privé, celui-ci est lié à l’équipe paren
 
 ### <a name="who-can-create-private-channels"></a>Qui peut créer des canaux privés ?
 
-Par défaut, tout membre ou propriétaire d’une équipe peut créer un canal privé. Les invités ne peuvent pas les créer. La possibilité de créer des canaux privés peut être gérée au niveau de l’équipe et au niveau de l’organisation :
+Par défaut, tout membre ou propriétaire d’une équipe peut créer un canal privé. Les invités ne peuvent pas les créer. La possibilité de créer des canaux privés peut être gérée au niveau de l’équipe et au niveau de l’organisation.
 
-- Sous l’onglet **Paramètres** d’une équipe, pour les membres d’une équipe, les propriétaires d'une équipe peuvent désactiver ou activer la possibilité pour les membres de créer des canaux privés.
-- En tant qu’administrateur, vous pouvez utiliser les [stratégies](teams-policies.md) pour contrôler quels utilisateurs de votre organisation sont autorisés à créer des canaux privés.
+> 1. Accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+
+> 2. Utiliser des [stratégies](teams-policies.md) pour contrôler les utilisateurs de votre organisation qui sont autorisés à créer des canaux privés.
+    Une fois que vous avez défini les stratégies, les propriétaires d’équipe peuvent désactiver ou activer la possibilité pour les membres de créer des canaux privés dans l’onglet **paramètres** d’une équipe.
 
 La personne qui crée un canal privé est le propriétaire de ce canal et elle est la seule a pouvoir directement y ajouter ou en supprimer des utilisateurs. Un propriétaire de canal privé peut ajouter un membre d’équipe à un canal privé qu’il a créé, même des invités. Les membres d’un canal privé disposent d’un espace de conversation sécurisé, et lorsque de nouveaux membres sont ajoutés, ils peuvent voir toutes les conversations (y compris les anciennes) de ce canal privé.
 
@@ -83,7 +85,7 @@ Si un membre d’une équipe quitte ou est supprimé d’une équipe, cet utilis
 
 Un propriétaire de canal privé ne peut pas être supprimé via le client Teams s’il est le dernier propriétaire d’un ou plusieurs canaux privés.
 
-Si un propriétaire de canal privé quitte votre organisation ou s’il est supprimé du groupe Office 365 associé à l’équipe, un membre du canal privé est automatiquement promu en tant que propriétaire du canal privé.
+Si un propriétaire de canal privé quitte votre organisation ou s’il est supprimé du groupe Microsoft 365 associé à l’équipe, un membre du canal privé est promu automatiquement en tant que propriétaire du canal privé.
 
 ### <a name="what-can-team-owners-and-team-members-see-in-a-private-channel"></a>Que peuvent voir les propriétaires d’équipe et les membres d’équipe dans un canal privé ?
 
@@ -105,14 +107,14 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 |Action  |Propriétaire d’une équipe|Membre de l’équipe|Invité de l’équipe|Propriétaire du canal privé|Membre du canal privé|Invité du canal privé|
 |---------|---------|---------|---------|---------|---------|---------|
-|Créer un canal privé|Oui <sup>1</sup>|Oui<sup>1,2</sup>|Non|N/D|N/A|S/O|
+|Créer un canal privé|Oui <sup>1</sup>|Oui<sup>1,2</sup>|Non|N/A|N/A |N/A |
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|N/A|S/O|Oui<sup>3</sup>|Oui|Oui|
-|Modifier un canal privé|Non|N/D|N/D|Oui|Non|Non|
+|Quitter un canal privé|S/O|N/A |N/A |Oui<sup>3</sup>|Oui |Oui|
+|Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
-|Ajouter des membres|Non|N/D|N/D|Oui|Non|Non|
-|Modifier les paramètres|Non|N/D|N/D|Oui|Non|Non|
-|Gérer les onglets et les applications|Non|N/D|S/O|Oui <sup>4</sup>|Oui<sup>5</sup>|Non|
+|Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
+|Modifier les paramètres|Non|N/A|N/A|Oui|Non|Non|
+|Gérer les onglets et les applications|Non|N/A|N/A|Oui <sup>4</sup>|Oui<sup>5</sup>|Non|
 
 <sup>1</sup> En supposant que la stratégie que vous, l'administrateur, avez configurée, permette à l'utilisateur de créer des canaux privés.<br>
 <sup>2</sup> Chaque équipe a un paramètre que les propriétaires d'équipe peuvent activer ou désactiver pour permettre aux membres de l'équipe de créer des canaux privés. Les propriétaires d’équipe peuvent toujours créer des canaux privés.<br>

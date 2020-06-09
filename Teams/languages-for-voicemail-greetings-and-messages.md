@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les langues que vous pouvez définir dans Skype entreprise pour les messages système par défaut et le message d’accueil de la boîte vocale.
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904519"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638763"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -80,7 +80,7 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
   
   
  

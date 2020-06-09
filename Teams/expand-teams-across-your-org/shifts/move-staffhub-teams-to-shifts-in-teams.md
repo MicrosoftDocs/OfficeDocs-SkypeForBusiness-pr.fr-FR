@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62686c87d653532f7f64b797fbe301a1cf0d2610
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350308"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638393"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams
 
@@ -56,7 +56,7 @@ Pour pouvoir effectuer les étapes décrites dans cet article, vous devez être 
 
 Lorsque vous déplacez une équipe StaffHub, l’appartenance à une équipe, les détails de l’utilisateur, les planifications d’équipe et les données de conversation sont déplacées vers Teams. Les fichiers ne sont pas déplacés lorsque vous déplacez une équipe StaffHub. S’il s’agit d’une équipe StaffHub qui contient les fichiers que vous voulez déplacer vers Teams, vous pouvez déplacer les fichiers dans une autre étape.
 
-Chaque équipe StaffHub doit avoir un groupe Microsoft 365 ou Office 365 correspondant. Si une équipe de StaffHub est associée à un groupe Microsoft 365, le paramètre de confidentialité du groupe est conservé lorsque vous déplacez l’équipe. Si un groupe Microsoft 365 n’est pas associé à une équipe de StaffHub, un groupe avec un paramètre de confidentialité de privé est automatiquement créé pour vous que vous pouvez prendre en charge la transition.  En raison de la différence entre les noms d’équipe et de groupe entre teams et StaffHub, il est possible que vous voyiez un nom d’équipe différent dans Teams. 
+Chaque équipe StaffHub doit avoir un groupe Microsoft 365 ou Microsoft 365 correspondant. Si une équipe de StaffHub est associée à un groupe Microsoft 365, le paramètre de confidentialité du groupe est conservé lorsque vous déplacez l’équipe. Si un groupe Microsoft 365 n’est pas associé à une équipe de StaffHub, un groupe avec un paramètre de confidentialité de privé est automatiquement créé pour vous que vous pouvez prendre en charge la transition.  En raison de la différence entre les noms d’équipe et de groupe entre teams et StaffHub, il est possible que vous voyiez un nom d’équipe différent dans Teams. 
 
 Lorsque vous transformez des équipes de StaffHub en équipes, les utilisateurs n’ont plus accès à leur planning dans StaffHub et sont redirigés vers des équipes dans Teams. Nous vous recommandons de communiquer ce changement au sein de votre organisation afin de limiter les perturbations et d’encourager les utilisateurs à adopter et à explorer les équipes. Si vous disposez d’Azure AD Premium, vous pouvez [exécuter un rapport](run-report-to-show-staffhub-usage.md) pour obtenir la liste des utilisateurs de StaffHub de votre organisation qui doivent savoir ce changement.  
 

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Utilisez les listes de contrôle d’intégration pour préparer Office 365 pour teams et configurer les fonctionnalités principales, la mise en réseau et les charges de travail de l’équipe Cloud.
+description: Utilisez les listes de contrôle d’intégration pour préparer Microsoft 365 ou Office 365 pour teams et configurer les fonctionnalités principales, la mise en réseau et les charges de travail de l’équipe Cloud.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137994"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610066"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -34,7 +34,7 @@ Cet article fournit une vue d’ensemble des exigences relatives à la préparat
 
 Les listes de vérification suivantes vous guident tout au long des étapes d’implémentation des fonctionnalités de conférence audio, de système téléphonique avec des plans d’appel (« plans d’appel ») et de routage direct du système téléphonique (« routage directe ») dans Microsoft Teams.
 
-*  [Préparer Office 365 pour teams](onboarding-checklist-enable-office-365.md)
+*  [Préparer Microsoft 365 ou Office 365 pour teams](onboarding-checklist-enable-office-365.md)
 
 *  [Configurer les fonctionnalités principales de teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

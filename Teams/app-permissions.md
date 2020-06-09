@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256479"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611013"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -140,7 +140,7 @@ Aucun (actuellement)
 
 - Le profil de risque d’un onglet est presque identique au même site Web exécuté dans un onglet de navigateur. 
 
-- Un objet Tab obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom de connexion et le nom d’utilisateur principal de l’utilisateur actuel, l’ID d’objet Azure AD pour l’utilisateur actuel, l’ID du groupe Office 365 dans lequel il se trouve (s’il s’agit d’une équipe), l’ID de locataire et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour mapper ces ID aux informations d’un utilisateur, l’onglet doit permettre à l’utilisateur de se connecter à Azure AD.
+- Un objet Tab obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom de connexion et le nom d’utilisateur principal de l’utilisateur actuel, l’ID d’objet Azure AD pour l’utilisateur actuel, l’ID du groupe Microsoft 365 dans lequel il se trouve (s’il s’agit d’une équipe), l’ID de locataire et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour mapper ces ID aux informations d’un utilisateur, l’onglet doit permettre à l’utilisateur de se connecter à Azure AD.
 
 ## <a name="connectors"></a>Connecteurs
 

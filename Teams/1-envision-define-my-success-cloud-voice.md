@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cafff163c4794002d8f92b638e73112faa8d1e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780663"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610983"
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
@@ -150,7 +150,7 @@ OKRs contient les objectifs que vous avez définis au début du projet et vous d
 > Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de conférences audio :
 > <br>
 > 
-> **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
+> **Vision : augmentez votre productivité en maximisant l’investissement dans Microsoft 365 ou Office 365**
 > 
 > |Objectifs  |Résultats clés  |À faire  |
 > |---------|---------|---------|
@@ -163,7 +163,7 @@ OKRs contient les objectifs que vous avez définis au début du projet et vous d
 > Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de plans d’appel :
 > <br>
 > 
-> **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
+> **Vision : augmentez votre productivité en maximisant l’investissement dans Microsoft 365 ou Office 365**
 > 
 > |Objectifs  |Résultats clés  |À faire  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ OKRs contient les objectifs que vous avez définis au début du projet et vous d
 > Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de routage direct :
 > <br>
 > 
-> **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
+> **Vision : augmentez votre productivité en maximisant l’investissement dans Microsoft 365 ou Office 365**
 > 
 > |Objectifs  |Résultats clés  |À faire  |
 > |---------|---------|---------|

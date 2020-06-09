@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Un administrateur 365 Office peut modifier les paramètres de l’audioconférence Teams, y compris le fournisseur, le numéro payant par défaut ou le numéro gratuit, l’ID de conférence ou le code confidentiel d’un utilisateur.
-ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Un administrateur Microsoft 365 ou Office 365 peut modifier les paramètres de l’audioconférence Teams, y compris le fournisseur, le numéro payant ou le numéro gratuit par défaut, l’ID de conférence ou le code confidentiel d’un utilisateur.
+ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137144"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638473"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence d'un utilisateur dans Microsoft Teams
 
-En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Pour modifier les paramètres de votre organisation, reportez-vous à [la section gérer les paramètres de conférence audio de votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres de l’audioconférence, tels que le fournisseur, le numéro payant ou le numéro gratuit par défaut, l’ID de conférence ou le code confidentiel, pour un utilisateur individuel de votre organisation. Pour modifier les paramètres de votre organisation, reportez-vous à [la section gérer les paramètres de conférence audio de votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -41,7 +41,7 @@ En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d�
 
 3. Sous **audioconférence**, modifiez l’une des options suivantes :
 
-|**Paramètre**|**Description**|
+|**Paramètres**|**Description**|
 |:-----|:-----|
 |**Audioconférence**|Pour activer ou désactiver la fonctionnalité d’audioconférence pour l’utilisateur, cliquez sur **modifier** en regard de **audioconférence**, puis dans le volet **audioconférence** , activez ou désactivez l’option **conférence audio** .|
 |**Envoyer les informations sur la Conférence par courrier électronique**  |Cliquez sur ce lien uniquement si vous souhaitez envoyer immédiatement un message électronique à l’utilisateur avec son identifiant de conférence et son numéro de téléphone. (Ce message n’inclut pas le code confidentiel). Voir [Envoyer un message électronique à un utilisateur avec ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
@@ -58,7 +58,7 @@ En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d�
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les paramètres d’audioconférence pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 

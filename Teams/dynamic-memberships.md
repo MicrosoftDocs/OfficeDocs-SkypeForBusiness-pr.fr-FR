@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Découvrez comment Microsoft teams prend en charge les équipes associées aux groupes Office 365 à l’aide de l’appartenance dynamique.
+description: Découvrez comment Microsoft teams prend en charge les équipes associées aux groupes Microsoft 365 à l’aide de l’appartenance dynamique.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905796"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638403"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
@@ -35,7 +35,7 @@ L’appartenance dynamique vous permet de configurer des équipes pour certaines
 
 Cette fonctionnalité permet aux membres d’une équipe donnée de mettre à jour automatiquement en fonction d’un ensemble spécifique de critères, au lieu de gérer manuellement l’appartenance. Pour cela, il est nécessaire d’affecter des licences d’Azure AD Premium P1 et des membres d’une équipe à l' [aide d’un administrateur client](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) aux propriétés Azure AD de chaque utilisateur, dans la mesure où vous disposez d’un client et d’un compte d’administrateur.
 
-Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour refléter les changements d’appartenance dynamique une fois qu’ils ont été appliqués dans le groupe Office 365 d’une équipe.
+Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour refléter les changements d’appartenance dynamique une fois qu’ils ont été appliqués dans le groupe Microsoft 365 pour une équipe.
 
 > [!NOTE]
 > - Les règles peuvent définir qui est membre d’une équipe, sans qui est le propriétaire de l’équipe.
@@ -44,7 +44,7 @@ Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour reflét
 > -    Les membres ne seront pas en mesure de laisser des équipes sauvegardées par des groupes dynamiques.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Création et gestion d’un groupe Office 365 avec appartenance dynamique
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Création et gestion d’un groupe Microsoft 365 avec l’appartenance dynamique
 Lorsque vous êtes connecté en tant qu’administrateur client, suivez les instructions de la procédure de [création d’un groupe dynamique et vérification](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)de l’État. Le cas échéant, voir [règles d’appartenance dynamique pour les groupes dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Créer une équipe à l’aide de votre groupe O365

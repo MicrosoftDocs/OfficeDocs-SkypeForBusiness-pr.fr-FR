@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: HT
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574021"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637503"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques po
 
 Lorsque Microsoft Teams est activé pour l'ensemble de votre organisation, les propriétaires d'équipe désignés peuvent inviter les employés avec lesquels ils travaillent à rejoindre leur équipe. Microsoft Teams permet aux propriétaires d’équipe d’ajouter facilement des personnes de l’organisation selon leur nom. En fonction des paramètres de votre organisation, des invités qui sont membres d’une équipe mais externes à votre organisation peuvent également être ajoutés à vos équipes. Reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md) pour plus d’informations. 
 
-Les propriétaires d’équipe peuvent également créer une équipe basée sur un groupe Office 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. Créer une équipe basée sur un groupe Office 365 existant simplifie non seulement le processus d’invitation et de gestion des membres, mais synchronise également les fichiers du groupe au sein de Microsoft Teams.
+Les propriétaires d’équipe peuvent également créer une équipe en fonction d’un groupe Microsoft 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. La création d’une équipe en fonction d’un groupe Microsoft 365 existant ne simplifie pas seulement le processus d’invitation et de gestion des membres, mais également la synchronisation des fichiers de groupe au sein de Microsoft Teams.
 
 **Rôles de l’équipe**
 
@@ -77,7 +77,7 @@ Prenez trois minutes à examiner cette vidéo guide de déplacement pour les pro
 
 Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès aux paramètres à l’échelle du système dans le centre d’administration Microsoft Teams. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal « Général » par défaut, pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
-Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams (pour modifier ces autorisations, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md). Les utilisateurs d'un groupe Office 365 existant peuvent également améliorer leurs autorisations avec la fonctionnalité Teams.
+Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams (pour modifier ces autorisations, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md). Les utilisateurs d’un groupe Microsoft 365 existant peuvent également améliorer leurs autorisations grâce aux fonctionnalités d’équipe.
 
 Pour faire adopter Microsoft Teams par les utilisateurs, l’une des première activités de planification consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Teams. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée. Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
 

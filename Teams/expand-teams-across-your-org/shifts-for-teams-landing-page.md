@@ -17,79 +17,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 5ba2118defb86ac6b957ac181c9a02afc5eed82f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079397"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610276"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
 Teams permet terrain aux travailleurs de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement et leurs meilleures tâches. Vous trouverez ci-dessous les conseils d’administration dont vous avez besoin pour configurer et gérer les Shifts, l’outil de gestion des plannings, dans Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Basculer entre StaffHub aux équipes dans teams
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>En savoir plus sur le retrait de StaffHub et la transition vers les équipes dans teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Planifier le déplacement de vos équipes de StaffHub vers Shifts dans Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Déplacez vos équipes StaffHub vers des équipes dans teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurer et gérer les Shifts pour votre organisation
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -120,6 +61,68 @@ Teams permet terrain aux travailleurs de votre organisation les outils dont ils 
                     </div>
                     <div class="cardText">
                         <h3>Aide sur les équipes pour les travailleurs terrain</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### <a name="shifts-extensions"></a>Extensions de Shift
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>API de Shift Graph</h3>
+                        <p>Les API de graphique Shifts vous permettent d’intégrer les données de décalage aux systèmes de gestion des employés externes, en vous offrant la possibilité de créer des expériences personnalisées au niveau du back-end, tout en offrant aux utilisateurs une expérience frontale et complète dans Teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Intégrations de la gestion de la main-d’œuvre</h3>
+                        <p>Si vous utilisez des systèmes de gestion de la main-d’œuvre tiers, tels que Kronos et JDA, pour la planification, l’heure et la présence, vous pouvez intégrer directement les Shifts à travers les API et SDK de la fonction Shift.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Shifts + Power Up</h3>
+                        <p>Shifts + Power automatise vous permet d’utiliser des informations provenant de décalages, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et les modèles prennent en charge différents scénarios, tels que l’activation de l’approbation automatique pour les demandes de décalage lorsque l’approbation d’un responsable n’est pas nécessaire.</p>
                     </div>
                 </div>
             </div>

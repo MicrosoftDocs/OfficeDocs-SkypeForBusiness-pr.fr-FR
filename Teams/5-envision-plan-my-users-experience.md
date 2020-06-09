@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021595"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610019"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
 
@@ -58,7 +58,7 @@ Pour plus d’informations sur la configuration logicielle requise pour les clie
 ## <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
 Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
-Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations contenues dans [Plages d'adresses URL et IP d’Office 365](https://aka.ms/o365ips). Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
+Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu client en fonction des informations contenues dans les [URL et plages d’adresses IP de Microsoft 365 ou Office 365](https://aka.ms/o365ips). Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
 
 >[!NOTE]
 > Les équipes Microsoft mettront automatiquement à jour le pare-feu Windows avec une configuration de pare-feu appropriée.

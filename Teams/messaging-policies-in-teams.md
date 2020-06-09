@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les stratégies de messagerie et savoir comment les utiliser pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: f02c9ffbb2517ca79c7f98b845f3865276259fb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: d435296f26c76017218af6120bcae5a4b90a0b36
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523137"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637923"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -91,7 +91,7 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Utiliser mèmes dans les conversations** Si vous activez cette fonction, les utilisateurs peuvent inclure des mèmes dans les conversations par messagerie instantanée avec d’autres personnes.
 - **Utiliser les autocollants dans les conversations** Si vous activez cette fonction, les utilisateurs peuvent inclure des autocollants dans les conversations par messagerie instantanée avec d’autres personnes.
 - **Autoriser les aperçus d’URL** Utilisez ce paramètre pour activer ou désactiver l’aperçu d’URL automatique dans les messages.
-- **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels pour Office 365.
+- **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages dans la langue spécifiée par leurs paramètres de langue personnels pour Microsoft 365 ou Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activez ce paramètre pour permettre aux utilisateurs d’afficher des messages dans le lecteur immersif Microsoft. Le lecteur immersif est un outil d’apprentissage qui offre une interface de lecture plein écran pour améliorer la lisibilité du texte.
 - **Envoyer des messages urgents à l’aide de notifications de priorité** Si vous activez cette fonction, les utilisateurs peuvent envoyer des messages à l’aide de [notifications de priorité](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Les notifications de priorité indiquent aux utilisateurs toutes les 2 minutes pour une période de 20 minutes ou jusqu’à ce que les messages marqués comme *urgents* soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit agi en temps opportun.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Création de messages audio**
@@ -107,6 +107,6 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 
 [Stratégies de réunion dans teams](meeting-policies-in-teams.md)

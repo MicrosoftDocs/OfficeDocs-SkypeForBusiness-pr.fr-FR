@@ -1,5 +1,5 @@
 ---
-title: Voici les avantages du système téléphonique dans Office 365
+title: Voici les avantages du système téléphonique
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer le système Microsoft Phone pour votre entreprise. '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288702"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638343"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
+# <a name="heres-what-you-get-with-phone-system"></a>Voici les avantages du système téléphonique
 
-Cet article décrit le système téléphonique dans les fonctionnalités d’Office 365. Pour plus d’informations sur l’utilisation du système téléphonique comme remplacement du système PBX et sur les options de connexion au réseau téléphonique public commuté (RTC), voir [qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md).
+Cet article décrit les fonctionnalités du système téléphonique. Pour plus d’informations sur l’utilisation du système téléphonique en tant que remplacement du système PBX et sur les options de connexion au réseau téléphonique public commuté (RTC), voir [qu’est-ce que le système téléphonique](what-is-phone-system-in-office-365.md).
 
 Les clients sont disponibles pour PC, Mac et mobile, qui fournit des fonctionnalités sur les appareils de tablettes et de téléphones mobiles vers des PC et des téléphones IP de bureau. Pour plus d’informations, voir [obtenir des clients pour Microsoft teams](get-clients.md).
 
   
-## <a name="phone-system-in-office-365-features"></a>Système téléphonique dans les fonctionnalités Office 365
+## <a name="phone-system-features"></a>Fonctionnalités du système téléphonique
 
 Le système téléphonique offre les fonctionnalités suivantes. Sauf indication contraire, les fonctions sont disponibles dans les équipes et dans Skype entreprise online.
   
 |||
 |:-----|:-----|
-|**Système téléphonique dans Office 365** <br/> |**Description** <br/> |
+|**Fonction de système téléphonique** <br/> |**Description** <br/> |
 |[Standards automatiques Cloud](what-are-phone-system-auto-attendants.md) <br/> |Vous permet de créer un système de menus qui permet aux appelants internes et externes de rechercher et de transférer les appels vers des utilisateurs ou services de l’entreprise au sein de votre organisation.  <br/> |
 |[Files d’attente d’appels Cloud](create-a-phone-system-call-queue.md) <br/> |Vous permet de configurer le mode de gestion des files d’attente d’appels pour votre organisation : par exemple, configurer les messages d’accueil et la musique en attente, Rechercher le prochain agent d’appel disponible pour gérer l’appel, et ainsi de suite.  <br/> |
 |Attente musicale | Lecture de la musique par défaut définie par le service lors de la mise en attente d’un appel externe à partir du réseau téléphonique public commuté (RTC). Cette fonctionnalité est disponible pour les appels RTC vers équipes et les appels passés vers une file d’attente d’appels. Cette fonctionnalité fournit la parité de notification en attente avec d’autres plateformes. Cette fonctionnalité est configurable par l’administrateur, mais [uniquement via PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Le blocage de la musique n’est pas non plus pris en charge dans un transfert de consultation d’un appel RTC.|
@@ -82,14 +82,14 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans les nuages de
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
+- [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)
 - [Configurer le système téléphonique](setting-up-your-phone-system.md)
 - [Quelle forfait d’appels vous convient le mieux ?](calling-plan-landing-page.md)
 - [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
 - [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Tarifs pour le système téléphonique](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Tarification pour Système téléphonique](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Équipes pour l’infrastructure de bureau virtualisée avec des appels et des réunions](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   

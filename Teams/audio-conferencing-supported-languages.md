@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826222"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610293"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l’audioconférence
 
-Lorsque vous configurez et configurez l’audioconférence dans Office 365, vous pouvez sélectionner les langues principales et secondaires (jusqu’à 4) qui sont utilisées lorsque les appelants se connectent à une réunion Skype entreprise ou Microsoft Teams. Voici la liste des langues prises en charge pour les conférences audio : 
+Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner les langues principales et secondaires (jusqu’à 4) utilisées lorsque les appelants se connectent à une réunion Skype entreprise ou Microsoft Teams. Voici la liste des langues prises en charge pour les conférences audio : 
   
 > [!IMPORTANT]
 > La langue principale et les langues secondaires ne peuvent être modifiées qu’avec des numéros de téléphone de conférence audio spécifiques. 
@@ -93,11 +93,11 @@ Si vous recherchez des pays ou des régions ayant des numéros de téléphone po
 
 - Pour gagner du temps ou automatiser cette opération, vous pouvez utiliser les applets de connexion [get-//go.Microsoft.com/fwlink/](https://go.microsoft.com/fwlink/?LinkId=617684) ou [Set-csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617689) .
     
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- Windows PowerShell consiste à gérer les utilisateurs et à identifier les utilisateurs autorisés ou interdits. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Les meilleures façons de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes : 
     
@@ -112,6 +112,6 @@ Si vous recherchez des pays ou des régions ayant des numéros de téléphone po
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l’audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

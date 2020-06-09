@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778930"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610136"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "43778930"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, un utilisateur qui crée une équipe dispose du statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer de capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Office 365 existant, les autorisations sont héritées.
+Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, un utilisateur qui crée une équipe dispose du statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer de capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Microsoft 365 existant, les autorisations sont héritées.
 
 Le tableau ci-après présente les différences d'autorisations entre un propriétaire et un membre.
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur les fonctionnalités de modérateur, voir [config
 
 ## <a name="assign-a-user-role"></a>Attribuer un rôle d’utilisateur
 
-Pour attribuer un rôle d’utilisateur, dans équipes, sélectionnez le nom de l’équipe, puis cliquez sur **autres options** > **gérer l’équipe**. Dans l’onglet **membres** , vous pouvez ajouter des membres et sélectionner propriétaires et modérateurs (si vous disposez des autorisations nécessaires). Pour plus d’informations, voir [modifier les paramètres d’équipe dans](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)Teams.
+Pour attribuer un rôle d’utilisateur, dans équipes, sélectionnez le nom de l’équipe, puis cliquez sur **autres options**  >  **gérer l’équipe**. Dans l’onglet **membres** , vous pouvez ajouter des membres et sélectionner propriétaires et modérateurs (si vous disposez des autorisations nécessaires). Pour plus d’informations, voir [modifier les paramètres d’équipe dans](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)Teams.
 
 ## <a name="permissions-to-create-teams"></a>Autorisations de créations d'équipes
 

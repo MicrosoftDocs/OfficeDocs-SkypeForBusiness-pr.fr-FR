@@ -18,12 +18,12 @@ description: Découvrez les étapes nécessaires pour ajouter des personnes en d
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902549"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637223"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
@@ -35,11 +35,11 @@ Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Comment un invité peut devenir membre d'une équipe
 
-1. Un propriétaire d'équipe ou un administrateur d'Office 365 [ajoute un invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-1. L’administrateur d'Office 365 ou le propriétaire d’équipe gère ce que l'invité peut effectuer, si nécessaire. Par exemple, autoriser un invité à ajouter ou supprimer des canaux ou désactiver l’accès aux fichiers.
+1. Un propriétaire d’équipe ou un administrateur 365 ou Office 365 [ajoute un invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+1. L’administrateur Microsoft 365 ou Office 365 ou le propriétaire de l’équipe gère les fonctionnalités d’un invité selon les besoins : par exemple, permet à un invité d’ajouter ou de supprimer des canaux ou de désactiver l’accès aux fichiers.
 1. L'invité reçoit un e-mail de bienvenue de la part du propriétaire de l’équipe, ainsi que des informations sur l’équipe et sur ce à quoi s'attendre en tant que membre. 
 1. L'invité accepte l'invitation.
-  Les utilisateurs invités disposant d’une adresse de courrier rattaché à un compte Azure Active Directory ou un compte scolaire ou professionnel Office 365 peuvent directement accepter l’invitation. 
+  Les utilisateurs invités disposant d’une adresse de messagerie qui appartient à un compte Azure Active Directory, Microsoft 365 ou un compte professionnel ou scolaire Office 365 peut accepter directement l’invitation. 
   Si l’invité ne dispose pas encore d’un compte Microsoft associé à son adresse de messagerie, il sera invité à en créer un gratuitement. 
 1. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir et répondre à des messages de canal, [accéder aux fichiers dans les canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer aux conversations, rejoindre des réunions, collaborer sur des documents, etc. 
 

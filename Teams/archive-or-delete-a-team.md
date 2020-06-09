@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904966"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611003"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 ===========================================
@@ -42,7 +42,7 @@ Lorsque vous supprimez une équipe, l’activité d’équipe dans les canaux st
 
 Suivez ces étapes pour archiver une équipe.
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **Teams**.
+1. Dans le centre d’administration au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> , sélectionnez **teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Archiver**. Le message suivant s’affichera.
 
@@ -55,7 +55,7 @@ Suivez ces étapes pour archiver une équipe.
 
 Pour réactiver une équipe archivée, procédez comme suit.
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **Teams**.
+1. Dans le <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>, sélectionnez **teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Désarchiver**. Le statut de l’équipe passera à **Active**.
 
@@ -63,16 +63,16 @@ Pour réactiver une équipe archivée, procédez comme suit.
 
 Si l’équipe ne sera pas nécessaire, vous pouvez la supprimer plutôt que de l’archiver. Pour supprimer une équipe, suivez ces étapes.
 
-1.  Dans le centre d’administration Microsoft Teams, sélectionnez **Teams**.
+1.  Dans le <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>, sélectionnez **teams**.
 2.  Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3.  Sélectionnez **Supprimer**. Un message de confirmation s’affichera.
 4.  Sélectionnez **Supprimer** pour supprimer définitivement l’équipe.
 
 ## <a name="restore-a-deleted-team"></a>Restaurer une équipe supprimée
 
-Pour restaurer une équipe supprimée en restaurant le groupe Office 365 associé à l’équipe, procédez comme suit. Restauration du groupe Office 365 pour une équipe, restaure le contenu de l’équipe, y compris les onglets, les canaux standard et les canaux privés, ainsi que les collections de sites associées.
+Pour restaurer une équipe supprimée en restaurant le groupe Microsoft 365 associé à l’équipe, procédez comme suit. La restauration du groupe Microsoft 365 pour une équipe restaure le contenu de l’équipe, y compris les onglets, les canaux standard, les canaux privés et les collections de sites associées.
 
-Par défaut, un groupe Office 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour plus d’informations, voir [Restaurer un groupe Office 365 supprimé](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour en savoir plus, voir [restaurer un groupe Microsoft 365 supprimé](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Installez le module AzureADPreview
 
@@ -92,7 +92,7 @@ Par défaut, un groupe Office 365 supprimé est conservé pendant 30 jours. Cett
     Install-Module AzureADPreview
     ```    
 
-### <a name="restore-the-deleted-office-365-group"></a>Restaurer un groupe Office 365 supprimé
+### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurer le groupe Microsoft 365 supprimé
 
 1. Connectez-vous à Azure AD en exécutant la commande suivante :
     ```PowerShell

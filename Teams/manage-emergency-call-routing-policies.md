@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams pour configurer des numéros d’urgence et définir le mode de routage des appels d’urgence.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b573543483d41219d2795043f47042789bc855ba
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539521"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638693"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams
 
@@ -109,7 +109,7 @@ Il est possible que vous souhaitiez affecter une stratégie d’acheminement d�
 Dans cet exemple, nous affectons une stratégie appelée politique d’acheminement des appels d’urgence à tous les utilisateurs du groupe RH de contoso.  
 
 > [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenez la GroupObjectId du groupe en particulier.
 ```PowerShell
@@ -135,7 +135,7 @@ Cet exemple montre comment assigner une stratégie appelée politique de routage
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les stratégies d’appel d’urgence dans teams](manage-emergency-calling-policies.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

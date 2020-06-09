@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour les utilisateurs de Microsoft Teams, afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326801"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609959"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
@@ -51,7 +51,8 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 5. Si vous souhaitez envoyer à l’utilisateur un message électronique contenant son numéro de téléphone, désactivez ou activez l’option **courrier électronique avec les informations**sur le numéro de téléphone. Par défaut, ce paramètre est activé. 
 6. Cliquez sur **Enregistrer**.
     > [!NOTE]
-    > En raison de la latence entre Office 365 et Teams, il est possible que les utilisateurs puissent exécuter quelques heures. Si ce n’est pas le cas, [Contactez le support technique des produits pour les entreprises-aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Nous sommes là pour vous aider !
+    > En raison de la latence entre Microsoft 365 ou Office 365 et équipes, il est possible que les utilisateurs puissent disposer de 24 heures. Si le numéro de téléphone n’est pas correctement affecté après 24 heures, [Contactez le support technique des produits pour les entreprises-aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Nous sommes là pour vous aider !
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>Changer le numéro de téléphone d’un utilisateur
  

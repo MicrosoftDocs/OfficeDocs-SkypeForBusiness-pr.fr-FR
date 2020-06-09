@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583497"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637963"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -332,7 +332,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Autoriser la discussion dans les réunions](#allow-chat-in-meetings)
 
 > [!NOTE]
->Les options de participation à une réunion varient en fonction des paramètres de chaque groupe équipes et de la méthode de connexion. Si votre groupe comporte une audioconférence et qu’elle est utilisée pour se connecter, voir [audioconférence dans Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si ce n’est pas le cas, reportez-vous à la rubrique [participer à une réunion dans teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>Les options de participation à une réunion varient en fonction des paramètres de chaque groupe équipes et de la méthode de connexion. S’il s’agit d’une audioconférence et de l’utiliser pour se connecter, voir [audioconférence](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si ce n’est pas le cas, reportez-vous à la rubrique [participer à une réunion dans teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
 

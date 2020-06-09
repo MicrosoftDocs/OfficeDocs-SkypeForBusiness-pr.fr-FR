@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140293"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637943"
 ---
 # <a name="meetings-first"></a>Commencer par les réunions
 
@@ -78,9 +78,9 @@ Une [topologie hybride Skype entreprise](https://docs.microsoft.com/skypeforbusi
 
 Les réunions sont d’abord prises en charge avec n’importe quelle version de Skype entreprise Server (et connues de l’utilisation du serveur Lync non pris en charge). Ce service est pris en charge avec n’importe quel client Skype entreprise pris en charge, mais les fonctionnalités de meilleure ensemble nécessitent un client récent.
 
-Une fois ces exigences remplies (et non antérieures), les utilisateurs peuvent utiliser [une licence pour Office 365 et teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
+Une fois ces exigences satisfaites (et non antérieures), les utilisateurs peuvent être [titulaires d’une licence pour Microsoft 365 ou Office 365 et équipes](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
 
-Pour la première utilisation de réunions, les utilisateurs doivent être activés pour [Exchange Online](exchange-teams-interact.md), [SharePoint Online et OneDrive entreprise](sharepoint-onedrive-interact.md), et la création de groupes Office 365. Les réunions sont tout d’abord prises en charge pour les utilisateurs dont la boîte aux lettres est située en local, ou qui n’ont pas SharePoint Online ou OneDrive entreprise, ou la création de groupes Office 365. Toutefois, leur interface sera moins complète. Par exemple, dans le cas d’organisations utilisant Exchange Server en local, il est possible (en fonction de la version d’Exchange Server) certaines limitations de création et d’affichage de réunions à partir du client Teams, ainsi que des fonctionnalités de conformité.
+Pour la première utilisation de réunions, les utilisateurs doivent être activés pour [Exchange Online](exchange-teams-interact.md), [SharePoint Online et OneDrive entreprise](sharepoint-onedrive-interact.md), et la création de groupes Microsoft 365. Les réunions sont tout d’abord prises en charge pour les utilisateurs dont la boîte aux lettres est située en local, ou qui n’ont pas SharePoint Online ou OneDrive entreprise, ou la création de groupes Microsoft 365. Toutefois, leur interface sera moins complète. Par exemple, dans le cas d’organisations utilisant Exchange Server en local, il est possible (en fonction de la version d’Exchange Server) certaines limitations de création et d’affichage de réunions à partir du client Teams, ainsi que des fonctionnalités de conformité.
 
 Pour le moment, les utilisateurs doivent disposer [d’une licence pour teams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). De plus, ils peuvent être dotés d’une licence pour les [conférences audio](set-up-audio-conferencing-in-teams.md), si nécessaire.
 

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des politiques d’appel d’urgence dans Microsoft teams pour définir ce qui se passe quand un utilisateur de teams dans votre organisation effectue un appel d’urgence.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98d6fb5eba98701cddccb808e5670fb34a00efbf
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 79332a8675273e86476a68f43489c202b03faea9
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539481"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638683"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence dans Microsoft teams
 
@@ -104,7 +104,7 @@ Il est possible que vous souhaitiez affecter une stratégie d’appel d’urgenc
 Dans cet exemple, nous affectons une stratégie appelée stratégie d’appel d’urgence d’opérations à tous les utilisateurs du groupe opérations de contoso.  
 
 > [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenez la GroupObjectId du groupe en particulier.
 ```powershell
@@ -130,7 +130,7 @@ L’exemple suivant montre comment affecter une stratégie appelée stratégie d
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les stratégies de routage des appels d’urgence dans teams](manage-emergency-call-routing-policies.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

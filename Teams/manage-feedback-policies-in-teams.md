@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326681"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637953"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -32,7 +32,7 @@ Les utilisateurs de votre organisation peuvent envoyer des commentaires sur team
 
 **Fonctionnalité envoyer des commentaires**
 
-Les utilisateurs peuvent **vous**envoyer des commentaires et des suggestions aux équipes pour nous en accédant aux  >  **Commentaires** dans Teams. Les données envoyées par le biais de **Commentaires** sont considérées comme des « données de support » dans votre contrat 365 Office, y compris des informations qui seraient considérées comme « données client » ou « données personnelles ».
+Les utilisateurs peuvent **vous**envoyer des commentaires et des suggestions aux équipes pour nous en accédant aux  >  **Commentaires** dans Teams. Les données envoyées par le biais de **Commentaires** sont considérées comme des « données de support » dans votre contrat Microsoft 365 ou Office 365, y compris des informations qui seraient considérées comme « données client » ou « données personnelles ».
 
 ![Capture d’écran de l’option envoyer des commentaires dans Microsoft teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 

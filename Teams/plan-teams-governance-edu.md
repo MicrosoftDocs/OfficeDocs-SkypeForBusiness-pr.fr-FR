@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780213"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638914"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs
 
@@ -35,7 +35,7 @@ Pour éviter d’utiliser des noms inappropriés ou incorrects, ou pour fournir 
 
 -   **Stratégie de nom de suffixe de préfixe** Vous pouvez utiliser des préfixes ou des suffixes pour définir la Convention d’affectation de noms Teams (groupes), par exemple **GRP_US_My Group_Engineering**. Les préfixes et suffixes peuvent être des chaînes fixes ou des attributs utilisateur (comme **[Department]**) qui sont ajoutés au nom en fonction de l’utilisateur qui crée l’équipe.
 -   **Mots bloqués personnalisés** Vous pouvez charger un ensemble de mots que les utilisateurs d’une organisation spécifique ne peuvent pas utiliser dans les noms des équipes qu’ils créent. Par exemple, vous pouvez bloquer l’utilisation du **PDG** **, de la** **paie**et de l’or dans les noms des équipes auxquelles ils ne s’appliquent pas.
--   **Classement** Vous pouvez créer des classifications que les utilisateurs de votre organisation peuvent configurer lors de la création d’un groupe Office 365. 
+-   **Classement** Vous pouvez créer des classifications que les utilisateurs de votre organisation peuvent configurer lors de la création d’un groupe Microsoft 365. 
 
 > [!IMPORTANT]
 > L’utilisation de la stratégie d’attribution de noms de groupes Microsoft 365 nécessite des licences Azure Active Directory Premium P1 ou des licences Azure AD Basic EDU pour chaque utilisateur unique membre d’un ou plusieurs groupes 365 Microsoft.
@@ -66,14 +66,14 @@ Au début de chaque semestre ou trimestre, vous aurez besoin de plusieurs nouvel
 -   Vous pouvez utiliser l’API Microsoft Graph (actuellement disponible en version bêta) pour créer, configurer, cloner et archiver des équipes. Pour plus d’informations, reportez-vous [à utiliser l’API Microsoft Graph pour utiliser Microsoft teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) .
 
 > [!TIP]
-> School Data Sync crée un groupe Office 365 pour chaque classe synchronisé et [active l’appartenance aux groupes cachés](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) de sorte que seuls les enseignants et les étudiants au sein de la classe puissent voir les membres de la classe. Si vous utilisez un autre processus pour créer des groupes de classes, utilisez le paramètre HiddenGroupMembershipEnabled de l’applet de nouvelle cmdlet New-Unifiedgrouphttps pour répondre aux exigences de confidentialité.
+> School Data Sync crée un groupe Microsoft 365 pour chaque classe synchronisé et [autorise l’appartenance aux groupes cachés](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) de sorte que seuls les enseignants et les étudiants au sein de la classe puissent voir les membres de la classe. Si vous utilisez un autre processus pour créer des groupes de classes, utilisez le paramètre HiddenGroupMembershipEnabled de l’applet de nouvelle cmdlet New-Unifiedgrouphttps pour répondre aux exigences de confidentialité.
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Comment puis-je gérer les équipes au terme du semestre ou du trimestre ?
 
 Nous vous recommandons d’abord de réfléchir à la façon dont vous souhaitez gérer les données d’équipe au début du semestre ou du trimestre : Si vous souhaitez le supprimer ou le conserver à la disposition des étudiants, même après avoir suivi le cours. Si vous souhaitez conserver le calendrier scolaire à l’esprit, toutes les stratégies que vous définissez n’entrent pas en conflit avec les jours fériés. Pour implémenter votre stratégie, vous pouvez utiliser les outils suivants :
 
 -   **Stratégie de rétention :** Cette opération permet de supprimer toutes les données antérieures à un âge que vous spécifiez pour vous assurer qu’elles sont supprimées des conversations (pour tous les utilisateurs ou pour tous les utilisateurs) et canaux. Vous pouvez également configurer teams pour conserver le contenu afin qu’il ne puisse pas être supprimé. Pour plus d’informations, voir [stratégies de rétention de Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
--   **Politique d’expiration :** Configurer teams pour qu’il expire après un certain nombre de jours. Trente jours avant la date d’expiration, tous les propriétaires d’une équipe sont avertis que leur équipe doit être renouvelée, sinon celle-ci est supprimée (un administrateur peut récupérer les équipes supprimées pendant 30 jours supplémentaires). Ce paramètre est très utile pour vous assurer que les équipes inutilisées sont au-dessus. Pour plus d’informations, voir [stratégie d’expiration de groupe Office 365](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+-   **Politique d’expiration :** Configurer teams pour qu’il expire après un certain nombre de jours. Trente jours avant la date d’expiration, tous les propriétaires d’une équipe sont avertis que leur équipe doit être renouvelée, sinon celle-ci est supprimée (un administrateur peut récupérer les équipes supprimées pendant 30 jours supplémentaires). Ce paramètre est très utile pour vous assurer que les équipes inutilisées sont au-dessus. Pour en savoir plus, voir [stratégie d’expiration de groupe Microsoft 365](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
 -   **Équipe d’archivage :** Ce paramètre place les équipes en mode lecture seule. Ils peuvent toujours être parcourus et recherchés, mais personne ne peut ajouter de nouvelles publications. [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) décrit comment les propriétaires d’équipe peuvent archiver une équipe ; Les propriétaires d’équipe peuvent également utiliser l' [API de Graph (Beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) pour archiver ou restaurer une équipe.
  

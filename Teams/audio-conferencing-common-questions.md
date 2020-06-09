@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Voici quelques-unes des questions les plus fréquemment posées par nos clients qui souhaitent utiliser l’audioconférence.
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236844"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611033"
 ---
 # <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l’audioconférence
 
@@ -35,7 +35,7 @@ Voici quelques-unes des questions les plus fréquemment posées par nos clients 
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>Quels sont les avantages de l’audioconférence ?
 
-Il est très utile d’appeler des réunions en déplacement, par exemple et ne peut pas participer à une réunion à l’aide de l’application Skype entreprise ou Microsoft teams sur leur ordinateur portable ou leur appareil mobile. Il existe d’autres scénarios dans lesquels l’utilisation d’un téléphone pour participer à une réunion Skype entreprise ou Microsoft teams peut être une meilleure option que l’utilisation d’une application sur un ordinateur :
+Il est très utile d’appeler des réunions en déplacement, par exemple et ne peut pas participer à une réunion à l’aide de l’application Skype entreprise ou Microsoft teams sur leur ordinateur portable ou leur appareil mobile. Mais dans d’autres cas, l’utilisation d’un téléphone pour participer à une réunion Skype Entreprise ou Microsoft Teams peut constituer une meilleure option qu’une application sur un ordinateur :
   
 - La connectivité Internet est limitée.
     
@@ -45,9 +45,9 @@ Il est très utile d’appeler des réunions en déplacement, par exemple et ne 
     
 - La qualité d’appel est meilleure s’il s’agit d’un numéro de téléphone.
     
-- Les personnes peuvent participer à une réunion en mode mains libres à l'aide d'appareils Bluetooth.
+- Les utilisateurs peuvent participer à une réunion en mains libres à l’aide d’appareils Bluetooth.
     
-- Les gens trouvent qu’il est plus facile et plus pratique dans leur situation.
+- Les utilisateurs estiment cela plus facile ou pratique compte tenu de leur situation.
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Qui peut participer à une réunion de conférence audio ? Et qui puis-je entendre ?
 
@@ -65,7 +65,7 @@ Il existe des numéros d’accès locaux qui vous sont attribués lorsque vous a
   
 Les numéros d'accès à distance et, dans certains cas, les numéros d'accès à distance internationaux à partir du pays ou de la région dans lequel se trouve votre organisation, seront inclus dans l'invitation à la réunion. Si l'organisateur d'une réunion utilise un autre numéro inclus dans l'invitation, il s'agira d'un numéro de téléphone partagé.
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Combien de numéros d’accès internationaux est-il pris en charge par l’audioconférence dans Office 365 ?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Combien de numéros d’accès internationaux est-il pris en charge par les conférences audio dans Microsoft 365 ou Office 365 ?
 
 Pour obtenir la liste actualisée des pays/régions, reportez-vous à la rubrique [numéros de téléphone pour les conférences audio de Microsoft teams](phone-numbers-for-audio-conferencing-in-teams.md) ou [des numéros de téléphone pour les conférences audio dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
@@ -85,7 +85,7 @@ La durée maximale dépend des participants à la réunion et du type d'authenti
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Combien de participants téléphoniques puis-je avoir dans les réunions ?
 
-Audioconférence accepte jusqu’à 250 participants.
+L’audioconférence rendez-vous accepte jusqu'à 250 participants.
   
 Pour plus d'informations, reportez-vous à la rubrique [Limites de Skype Entreprise Online](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
@@ -155,5 +155,5 @@ La planification d’une réunion qui sera jointe par tous les participants à l
   
 [Numéros de téléphone pour l’audioconférence dans Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Numéro de téléphone pour l’audioconférence dans Skype Entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   
