@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Suivez les instructions pour la migration de Slack vers Microsoft Teams.
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506875"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638643"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrer de Slack vers Microsoft Teams
 
@@ -79,12 +79,12 @@ Pour l’exportation de messages directs, voir les outils, tels que Exporter, da
 
 Les applications dans Slack sont comme les applications dans Teams. Une fois que vous disposez d’une liste d’applications et de leurs configurations dans l’espace de travail, vous pouvez effectuer une recherche dans l’App Store Teams pour voir si elles sont disponibles pour Teams *. 
 
-Accédez à <your Slack workspace>. slack.com/apps/manage pour obtenir la liste des applications et les intégrations personnalisées. Cette page indique également le nombre de configurations où chaque application est en cours d’utilisation. L’intégration personnalisée peut varier en fonction de la « capacité de migration ». S’il s’agit d’un hook Web, vous pouvez généralement l’envoyer à un connecteur Office 365 pour déplacer le flux de travail dans Teams. Évaluez les robots et les autres applications au cas par cas pour planifier leur migration vers Teams.
+Accédez à <your Slack workspace>. slack.com/apps/manage pour obtenir la liste des applications et les intégrations personnalisées. Cette page indique également le nombre de configurations où chaque application est en cours d’utilisation. L’intégration personnalisée peut varier en fonction de la « capacité de migration ». S’il s’agit d’un hook Web, vous pouvez généralement l’envoyer à un connecteur Microsoft 365 ou Office 365 pour déplacer le flux de travail dans Teams. Évaluez les robots et les autres applications au cas par cas pour planifier leur migration vers Teams.
 
 \* Si votre administrateur a utilisé des applications restreintes, il est possible que vous ne puissiez pas voir la liste complète des applications disponibles.
 
-### <a name="users"></a>Users
-Il se peut que les schémas d’identité que vous avez utilisés dans Slack ne s’intègrent pas directement à Office 365. Par exemple, il est possible que les adresses de messagerie de Slack ne correspondent pas aux comptes Office 365 professionnels ou scolaires. Vous devez créer un mappage ID utilisateur avant de commencer à planifier le déploiement de Teams.
+### <a name="users"></a>Utilisateurs
+Il se peut que les schémas d’identité que vous avez utilisés dans Slack ne s’intègrent pas directement à Microsoft 365 ou Office 365. Par exemple, il est possible que les adresses de messagerie de Slack ne correspondent pas aux comptes Microsoft 365 ou Office 365 professionnels ou scolaires. Vous devez créer un mappage ID utilisateur avant de commencer à planifier le déploiement de Teams.
 
 Si vous utilisez une offre de service Slack payante, vous pouvez accéder à *<your Slack workspace>. slack.com/admin/stats#members* pour obtenir des informations sur les membres, telles que l’adresse de messagerie et le type de compte pour chaque utilisateur (par exemple, un invité à un ou plusieurs canaux).
 
@@ -335,7 +335,7 @@ Pour déterminer les applications à ajouter à Teams, il est important de compr
 
 Dans de nombreux cas, les applications reçoivent principalement des données pilotées par les événements d’un service externe (par exemple, le système de surveillance) et envoient un message dans Slack. Vous pouvez obtenir le même résultat en utilisant un connecteur Microsoft 365 qui peut envoyer les messages au sein de Teams, sur la base d’événements.
 
-Vous trouverez ci-dessous des exemples de solution Slack dans laquelle un connecteur Office 365 était utilisé dans Teams pour l’intégration.
+Vous trouverez ci-dessous des exemples de solution Slack dans laquelle un connecteur Microsoft 365 était utilisé dans Teams pour l’intégration.
 - Ansible
   - Les alertes peuvent être envoyées à Teams via [webhook Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook)
 - New Relic

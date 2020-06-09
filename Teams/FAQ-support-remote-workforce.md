@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780313"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637903"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Forum aux questions : soutenir vos employés en télétravail
 
@@ -34,7 +34,7 @@ Consultez [aider vos employés à distance avec Teams](support-remote-work-with-
 Microsoft a étendu sa capacité dans les régions clés avec les annonces récentes concernant l’épidémie COVID-19 (coronavirus). Nous surveillons la situation et nos services de façon très étroite pour garantir la disponibilité de nos services à nos clients.L’un des avantages d’un service Cloud est sa capacité à échelonner dynamiquement, y compris l’utilisation de notre chaîne d’approvisionnement significative, la réattribution des ressources entre les services et la redistribution de la charge.Nous avons constaté une augmentation de l’utilisation de Microsoft Teams, à laquelle nous avons répondu et continuons à surveiller étroitement. Nous travaillons également à prendre une longueur d'avance en matière de demande pour les Forfaits d’appels et à gestion d’un nombre suffisant de numéros de téléphone, le cas échéant.
 
 > [!NOTE]
-> Si vous avez déjà configuré M365 et que vous voulez en savoir plus sur les actions prises par Microsoft, accédez au Centre des messages et passez en revue le billet **MC205458** du centre de messages.
+> Si vous avez déjà configuré Microsoft 365 et que vous voulez en savoir plus sur les actions prises par Microsoft, accédez au Centre des messages et passez en revue le billet **MC205458** du centre de messages.
 
 Ne manquez pas le billet de blog du 5 mars 2020 de Jared Spataro, vice-président Corporate pour Microsoft 365 : [Notre engagement envers les clients pendant COVID-19](https://www.microsoft.com/fr-FR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
 
@@ -102,21 +102,21 @@ Consultez [prise en charge de travailleurs à distance à l’aide de Teams](sup
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Je viens de commencer à utiliser Microsoft 365 afin d'utiliser Teams pour prendre en charge de mes collègues et élèves distants. Je me suis inscrit au service, mais lorsqu’un utilisateur tente d’utiliser Teams, il reçoit le message d’erreur suivant : « Vous n'y avez pas accès ! Demandez à votre administrateur d’activer Microsoft Teams. » Que dois-je faire ?
 
-Une fois activée l’une des offres Teams gratuites, vous devez l’activer pour vos utilisateurs. Consultez [Gérer l'accès à Teams par des utilisateurs](user-access.md) et  [Ajouter des utilisateurs à Office 365 individuellement ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+Une fois activée l’une des offres Teams gratuites, vous devez l’activer pour vos utilisateurs. Consultez [Gérer l'accès à Teams par des utilisateurs](user-access.md) et  [Ajouter des utilisateurs individuellement ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 Si vous attribuez ou activez une licence à un utilisateur pour la première fois et que vous possédez Microsoft 365 depuis un certain temps, il se peut que vous deviez [Active Teams](Office-365-set-up.md) pour votre organisation. Consultez la section [J'ai déjà Microsoft 365, mais je n’utilise pas Teams. Est-ce que vous fournissez des licences en version d’évaluation ?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) dans cet article.
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Puis-je utiliser Calling Plans avec la version d’évaluation d’Office 365 E1 que Microsoft offre ? Puis-je attribuer un numéro de téléphone à mes utilisateurs ? Quelle est la somme que je vais payer ?
 
-Les utilisateurs peuvent effectuer des appels audio et vidéo entre applications dans n’importe quelle version de Teams. Pour attribuer un numéro à un employé, vous avez besoin du [système téléphonique dans Office 365](what-is-phone-system-in-office-365.md). Nous vous recommandons de collaborer avec votre partenaire Microsoft ou votre représentant commercial afin de l’obtenir et de la déployer. Pour en savoir plus, consultez [appels vocaux et vidéo avec Teams](https://products.office.com/microsoft-teams/voice-calling).
+Les utilisateurs peuvent effectuer des appels audio et vidéo entre applications dans n’importe quelle version de Teams. Pour attribuer un numéro à un employé, vous avez besoin du [système téléphonique](what-is-phone-system-in-office-365.md). Nous vous recommandons de collaborer avec votre partenaire Microsoft ou votre représentant commercial afin de l’obtenir et de la déployer. Pour en savoir plus, consultez [appels vocaux et vidéo avec Teams](https://products.office.com/microsoft-teams/voice-calling).
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>Puis-je configurer un standard automatique avec la nouvelle Teams E1 (version d’évaluation) afin d’avoir une ligne d’urgence en interne dans mon entreprise pour gérer COVID-19 (coronavirus) ?
 
-Pour configurer un [Standard téléphonique Cloud ](what-are-phone-system-auto-attendants.md) dans Teams, vous avec besoin du [système téléphonique dans Office 365](what-is-phone-system-in-office-365.md) en plus de Teams. Nous vous recommandons de collaborer avec votre partenaire Microsoft ou votre représentant commercial afin de l’obtenir et de la déployer.
+Pour configurer un [Standard téléphonique Cloud ](what-are-phone-system-auto-attendants.md) dans Teams, vous avec besoin du [système téléphonique](what-is-phone-system-in-office-365.md) en plus de Teams. Nous vous recommandons de collaborer avec votre partenaire Microsoft ou votre représentant commercial afin de l’obtenir et de la déployer.
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>Où puis-je trouver des informations supplémentaires pour aider les employés à distance ?
 
-Utilisateurs finaux : [collaborer avec Office 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - Comment collaborer mieux sur toutes les charges de travail Office 365
+Utilisateurs finaux : [collaborer avec Microsoft 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - Comment collaborer mieux sur toutes les charges de travail Microsoft 365
 
 Consultez [prise en charge de travailleurs à distance à l’aide de Teams](support-remote-work-with-teams.md).
 

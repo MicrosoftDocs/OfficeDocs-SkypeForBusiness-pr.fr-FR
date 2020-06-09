@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aad3af888bb071ad871d67d964b0ae388684a15
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 421a849c37d1500ef3542f8a5c203069177eb1df
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43996995"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637673"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -43,7 +43,7 @@ Teams est basé sur les groupes Microsoft 365, Microsoft Graph et le même niv
 Pour voir où Teams se situe dans le contexte de Microsoft 365, consultez ce poster de l’architecture : [Teams en tant qu’élément de Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 Lorsque vous créez une équipe, voici ce que est créé :
-- Un nouveau [groupe Office 365](office-365-groups.md)
+- Un nouveau [groupe Microsoft 365](office-365-groups.md)
 - Un site [SharePoint Online](sharepoint-onedrive-interact.md) et une bibliothèque de documents pour stocker les fichiers de l’équipe
 - Une boîte aux lettres et un calendrier partagés [Exchange Online](exchange-teams-interact.md)
 - Un bloc-notes OneNote

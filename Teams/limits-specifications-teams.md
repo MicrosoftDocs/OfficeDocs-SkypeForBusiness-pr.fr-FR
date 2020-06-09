@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512821"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637643"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -40,7 +40,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre d’équipes à l’échelle de l’organisation autorisées dans un client | 5     |
 |Nombre de membres dans une[équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 5 000       |
 |Nombre d’équipes qu’un administrateur général peut créer        |  500 000   |
-|Nombre d’équipes qu’une organisation Office 365 peut avoir    | 500,000&sup2;     |
+|Nombre d’équipes qu’une organisation Microsoft 365 ou Office 365 peut avoir    | 500,000&sup2;     |
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
 |Nombre de canaux privés par équipe    |30|
 |Nombre de membres dans un canal privé    |250|
@@ -93,7 +93,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Les limites de taille des messages, de pièces jointes et d’images incorporées sont identiques pour toutes les licences Office 365.
+> Les limites de taille des messages, de pièces jointes et d’images incorporées sont identiques pour toutes les licences Microsoft 365 et Office 365.
 
 ## <a name="channel-names"></a>Noms des canaux
 
@@ -132,7 +132,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |------------|---------------|
 |Taille de l’audience | 10 000 participants |
 |Durée de l’événement | 4 heures |
-|Événements en direct simultanés exécutés dans une organisation Office 365 <sup>1</sup> | 15 |
+|Événements en direct simultanés exécutés dans une organisation Microsoft 365 ou Office 365 <sup>1</sup> | 15 |
 
 <sup>1</sup> vous pouvez planifier autant d’événements en direct que vous le souhaitez, mais vous ne pouvez exécuter que 15 à la fois. Dès que le producteur rejoint un événement en direct, celui-ci est considéré comme étant en cours d’exécution. Le producteur qui tente de participer au seizième événement en direct reçoit une erreur.
 

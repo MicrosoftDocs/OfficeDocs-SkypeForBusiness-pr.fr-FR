@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042791"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638773"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -55,7 +55,7 @@ La période d’essai accorde un abonnement d’essai d’un an à l’ensemble 
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Microsoft 365). Pour plus d’informations, voir [Gérer l’essai](#manage-the-trial) plus loin dans cet article. 
 
-Les utilisateurs qui n’ont pas de licence Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Applications Microsoft 365 pour les entreprises (n’incluant pas Teams) est éligible à l’essai.
+Les utilisateurs qui n’ont pas de licence Microsoft 365 ou Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Applications Microsoft 365 pour les entreprises (n’incluant pas Teams) est éligible à l’essai.
 
 ## <a name="who-is-not-eligible"></a>Qui n’est pas éligible
 
@@ -148,6 +148,6 @@ Pour plus d’informations, voir [Description du service Microsoft Teams](https:
 
 Depuis le 22 avril 2019, les utilisateurs peuvent commencer à demander la dernière licence d’évaluation Cloud commercial de Microsoft Teams. Si vous souhaitez migrer des membres de votre organisation de la licence d’évaluation héritée vers la dernière version de Microsoft Teams, vous devez commencer par supprimer la licence d’évaluation héritée pour chaque utilisateur concerné. Une fois la licence héritée supprimée, chaque utilisateur affecté peut réclamer la licence d’évaluation Cloud commercial de Microsoft Teams mise à jour.
 
-- Si vous souhaitez supprimer cette licence via PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
+- Si vous souhaitez supprimer cette licence via PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Microsoft 365 ou Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
-- Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+- Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retrait de licences à des utilisateurs](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).

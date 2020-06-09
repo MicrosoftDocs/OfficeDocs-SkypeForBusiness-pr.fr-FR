@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139237"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638523"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -69,9 +69,9 @@ Voici les deux opérations à effectuer pour être opérationnel sur Teams :
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Autoriser les utilisateurs à créer des équipes
 
-Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes qui répondent à leurs besoins. **Par défaut, tout utilisateur peut créer des groupes Microsoft 365 et Teams**. Cette fonctionnalité peut être inadéquate, par exemple, certains clients peuvent souhaiter limiter la création Teams par des étudiants de l'enseignement primaire/secondaire. Au besoin, la création de groupe Office 365 et Teams peut être [limitée à certains groupes de sécurité](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) dans votre environnement.
+Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes qui répondent à leurs besoins. **Par défaut, tout utilisateur peut créer des groupes Microsoft 365 et Teams**. Cette fonctionnalité peut être inadéquate, par exemple, certains clients peuvent souhaiter limiter la création Teams par des étudiants de l'enseignement primaire/secondaire. Au besoin, la création de groupe Microsoft 365 et Teams peut être [limitée à certains groupes de sécurité](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) dans votre environnement.
 
-Les établissements d’enseignement supérieur sont avantagés lorsque tout le monde, y compris les étudiants, peut créer des équipes pour des cours, des recherches, des projets de groupe et des groupes d’étude. Les établissements d’enseignement primaire et secondaire peuvent limiter la création Teams par les étudiants pour s’assurer que toutes les communications entre étudiants se déroulent trouvent dans un forum comprenant un adulte. Dans ce cas, la création de groupe Office 365 et Teams peut être limitée à tous les enseignants et membres du personnel.
+Les établissements d’enseignement supérieur sont avantagés lorsque tout le monde, y compris les étudiants, peut créer des équipes pour des cours, des recherches, des projets de groupe et des groupes d’étude. Les établissements d’enseignement primaire et secondaire peuvent limiter la création Teams par les étudiants pour s’assurer que toutes les communications entre étudiants se déroulent trouvent dans un forum comprenant un adulte. Dans ce cas, la création de groupe Microsoft 365 et Teams peut être limitée à tous les enseignants et membres du personnel.
 
 Pour un parcours guidé sur la création d’équipes, voir : [Créer une équipe de classe dans Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
 

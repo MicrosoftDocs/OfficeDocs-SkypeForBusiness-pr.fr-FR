@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951269"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638843"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -41,7 +41,7 @@ Les concepts et définitions suivants ont tous une incidence sur les décisions 
 
 **Teams**
 
-Une _équipe_ est un regroupement de personnes, de contenu et d'outils qui facilitent la collaboration. Une équipe définit qui sont ses membres, ainsi que les autorisations et stratégies qui s’appliquent à ces membres. Les équipes sont centrées autour de groupes Microsoft 365, et les modifications apportées à l’appartenance à un groupe Office 365 sont synchronisées avec l’équipe. Comme les autres groupes Microsoft 365, une boîte de messagerie Exchange, un site SharePoint, un bloc-notes OneNote ainsi que d’autres ressources dans Office 365 sont mis à disposition automatiquement dans Teams. [En savoir plus sur les groupes Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Une _équipe_ est un regroupement de personnes, de contenu et d'outils qui facilitent la collaboration. Une équipe définit qui sont ses membres, ainsi que les autorisations et stratégies qui s’appliquent à ces membres. Les équipes sont centrées autour de groupes Microsoft 365, et les modifications apportées à l’appartenance à un groupe Microsoft 365 sont synchronisées avec l’équipe. Comme les autres groupes Microsoft 365, une boîte de messagerie Exchange, un site SharePoint, un bloc-notes OneNote ainsi que d’autres ressources dans Office 365 sont mis à disposition automatiquement dans Teams. [En savoir plus sur les groupes Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Canaux**
 
@@ -141,7 +141,7 @@ Les équipes peuvent être issues de différentes méthodes, notamment :
 
 -   Créer l’équipe à partir de zéro. Ajoutez les membres en utilisant les alias de messagerie ou noms d’utilisateur ou développez une liste de distribution.
 -   Créer l’équipe à partir d’une équipe existante, et utiliser sa configuration de canal et d’application à partir d'un modèle. Vous pouvez aussi utiliser sa liste d’appartenance.
--   Ajouter une équipe à un groupe Office 365 existant, qui donne également accès à l’équipe à sa boîte aux lettres et à son site SharePoint.
+-   Ajouter une équipe à un groupe Microsoft 365 existant, qui donne également accès à l’équipe à sa boîte aux lettres et à son site SharePoint.
 -   Utiliser les API Teams Microsoft Graph ou des applets de commande PowerShell pour créer des équipes. Les API peuvent créer des équipes par programmation en fonction des attributs du carnet d’adresses global (tels que la région ou le département) ou des processus d’entreprise (engagements clients ou listes de classes par exemple).
 
 Utilisez ces liens pour obtenir plus d’informations sur l'organisation de vos équipes.

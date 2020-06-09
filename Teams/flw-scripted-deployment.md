@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227558"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638383"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de terrain
 
@@ -315,7 +315,7 @@ Pour gérer ces utilisateurs de façon plus efficace, vous devez créer deux gro
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>Attribuer des licences à des utilisateurs au moyen de licences en fonction des groupes
 
-Les services de cloud computing Microsoft payants, comme Office 365, Enterprise Mobility + Security, Dynamics 365 et d’autres produits similaires, nécessitent des licences. Ces licences sont attribuées à tous les utilisateurs qui ont besoin d’accéder à ces services. Pour gérer les licences, les administrateurs utilisent l’un des portails de gestion (Office ou Azure) et les applets de commande PowerShell. Azure Active Directory (Azure AD) est l’infrastructure sous-jacente qui prend en charge la gestion des identités pour tous les services de cloud computing Microsoft. Azure AD stocke des informations sur les états d’affectation de licence pour les utilisateurs.
+Les services de cloud computing Microsoft payants, comme Microsoft 365, Office 365, Enterprise Mobility + Security, Dynamics 365 et d’autres produits similaires, nécessitent des licences. Ces licences sont attribuées à tous les utilisateurs qui ont besoin d’accéder à ces services. Pour gérer les licences, les administrateurs utilisent l’un des portails de gestion (Office ou Azure) et les applets de commande PowerShell. Azure Active Directory (Azure AD) est l’infrastructure sous-jacente qui prend en charge la gestion des identités pour tous les services de cloud computing Microsoft. Azure AD stocke des informations sur les états d’affectation de licence pour les utilisateurs.
 
 Pour activer la gestion des licences à grande échelle, Azure AD inclut désormais des licences en fonction des groupes. C’est pour cette raison que nous avons créé les groupes de sécurité plus tôt dans cet article. Vous pouvez attribuer une ou plusieurs licences de produit à un groupe. Azure AD garantit que les licences sont attribuées à tous les membres du groupe. Les nouveaux membres qui rejoignent le groupe bénéficient des licences appropriées. Les licences sont supprimées pour les membres qui quittent le groupe. Cette gestion des licences élimine la nécessité d’automatiser la gestion des licences à l’aide de PowerShell dans le but de refléter les modifications au niveau de la structure de l’organisation et du département pour chaque utilisateur.
 

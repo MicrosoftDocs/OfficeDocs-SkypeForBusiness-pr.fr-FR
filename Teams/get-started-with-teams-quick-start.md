@@ -18,22 +18,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: bc5cc912a90320b7d7221fcd99df702020c69eaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042801"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638353"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
 > [!IMPORTANT]
-> Si vous déployez rapidement des Microsoft Teams en réponse à une demande accrue de prise en charge du **travail à distance**, utilisez ce guide de démarrage pour déployer Teams dans toute votre organisation. Ces conseils sont valables, même lorsque Teams constitue votre première charge de travail pour Office 365.
+> Si vous déployez rapidement des Microsoft Teams en réponse à une demande accrue de prise en charge du **travail à distance**, utilisez ce guide de démarrage pour déployer Teams dans toute votre organisation. Ces conseils sont valables, même lorsque Teams constitue votre première charge de travail pour Microsoft 365 ou Office 365.
 
 Pour commencer rapidement avec Teams, nous vous recommandons de créer deux ou trois équipes et canaux pour un groupe de premiers utilisateurs. Avec un premier déploiement de Teams à petite échelle, vous allez apprendre Teams en utilisant Teams. Vous obtenez des informations précieuses sur la façon dont vous pouvez déployer Teams au sein de toute votre organisation. Si vous êtes une petite entreprise, ce guide de démarrage rapide est suffisant pour déployer Teams auprès de toute l’organisation.
 
 
-Teams vous permet de mettre rapidement sur pied une équipe avec du personnel interne ou externe à votre organisation, de discuter avec d’autres personnes pour lancer des conversations rapides et inclusives, de partager et co-créer en toute sécurité des documents et de coopérer sur des projets. Vous pouvez personnaliser Teams en ajoutant des accès pratiques à des notes partagées, des pages web et des applications. Utiliser les réunions et des appels pour collaborer en temps réel où que se trouvent les utilisateurs. Teams simplifiera votre accès aux services Office 365 et à des applications tierces, pour être le nouveau centre de gravité de vos besoins de communication et de collaboration. Encouragez vos premiers utilisateurs à installer les applications mobiles et de bureau pour une meilleure expérience et pour recevoir des commentaires plus précis.
+Teams vous permet de mettre rapidement sur pied une équipe avec du personnel interne ou externe à votre organisation, de discuter avec d’autres personnes pour lancer des conversations rapides et inclusives, de partager et co-créer en toute sécurité des documents et de coopérer sur des projets. Vous pouvez personnaliser Teams en ajoutant des accès pratiques à des notes partagées, des pages web et des applications. Utiliser les réunions et des appels pour collaborer en temps réel où que se trouvent les utilisateurs. Teams simplifiera votre accès aux services Microsoft 365 ou Office 365 et à des applications tierces, pour être le nouveau centre de gravité de vos besoins de communication et de collaboration. Encouragez vos premiers utilisateurs à installer les applications mobiles et de bureau pour une meilleure expérience et pour recevoir des commentaires plus précis.
 
 ![Capture d’écran affichant les interfaces de l’utilisateur client mobile et de bureau](media/get-started-microsoft-teams.png "Capture d’écran affichant les interfaces de l’utilisateur client mobile et de bureau" ) 
 
@@ -50,10 +50,10 @@ Si vous êtes une petite entreprise, ou si **vous déployez rapidement Teams pou
 
 ## <a name="before-you-get-started"></a>Avant de commencer
 
-Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que Teams soit votre première charge de travail (« Teams d'abord ») ou la charge de travail suivante dans un déploiement Office 365 existant :
+Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que Teams soit votre première charge de travail (« Teams d'abord ») ou la charge de travail suivante dans un déploiement Microsoft 365 ou Office 365 existant :
 
 - [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
-    - Cela inclut la configuration de votre domaine Office 365, SharePoint Online, Exchange Online et OneDrive Entreprise.
+    - Cela inclut la configuration de votre domaine Microsoft 365 ou Office 365, SharePoint Online, Exchange Online et OneDrive Entreprise.
 
 - Obtenez des licences Teams pour tout le monde. Voir [Offres Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) et [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
@@ -65,7 +65,7 @@ Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que
    - [Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-   > Si votre organisation utilise Skype Entreprise Server en local (ou Serveur Lync), vous devez [configurer Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Office 365. 
+   > Si votre organisation utilise Skype Entreprise Server en local (ou Serveur Lync), vous devez [configurer Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Microsoft 365 ou Office 365. 
 
 
 ## <a name="next-steps"></a>Étapes suivantes

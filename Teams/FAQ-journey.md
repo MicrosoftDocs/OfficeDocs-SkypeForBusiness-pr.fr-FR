@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: f61da62118229cfa16db7a476c96e9d0bdf4a65a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522667"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637043"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "44522667"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Pourquoi Microsoft Teams remplace-t-il Skype Entreprise Online ?
 
-Microsoft Teams développe les fonctionnalités de Skype Entreprise Online en rassemblant des fichiers, des conversations et des applications dans une application intégrée, avec des fonctionnalités qui permettent aux organisations de fonctionner plus rapidement et de collaborer plus efficacement. En raison de la variété d’expériences offertes par Teams, cela remplace Skype Entreprise comme client principal de communications pour Office 365.
+Microsoft Teams développe les fonctionnalités de Skype Entreprise Online en rassemblant des fichiers, des conversations et des applications dans une application intégrée, avec des fonctionnalités qui permettent aux organisations de fonctionner plus rapidement et de collaborer plus efficacement. En raison de la variété d’expériences offertes par Teams, cela remplace Skype Entreprise comme client principal de communications pour Microsoft 365 et Office 365.
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>Quand a lieu le déclassement de Skype Entreprise Online ?
 
@@ -66,7 +66,7 @@ Nous envisageons la prise en charge de Skype Entreprise Online et client jusqu�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Que recommandez-vous aux clients qui déploient ou prévoient de déployer Skype Entreprise dans Office 365 ?
 
-Les clients qui déploient Skype Entreprise Online peuvent continuer à le faire. Nous encourageons tous les nouveaux clients Office 365 à commencer à utiliser Teams, indépendamment ou en parallèle avec Skype Entreprise, et à déterminer le chemin (coexistence ou équipes uniquement) et le calendrier répondant aux besoins de l’entreprise. Quoi qu’il en soit, avec Skype Entreprise Online, les clients devront passer à Teams avant la date de suppression de Skype Entreprise Online.
+Les clients qui déploient Skype Entreprise Online peuvent continuer à le faire. Nous encourageons tous les nouveaux clients Microsoft 365 et Office 365 à commencer à utiliser Teams, indépendamment ou en parallèle avec Skype Entreprise, et à déterminer le chemin (coexistence ou équipes uniquement) et le calendrier répondant aux besoins de l’entreprise. Quoi qu’il en soit, avec Skype Entreprise Online, les clients devront passer à Teams avant la date de suppression de Skype Entreprise Online.
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Quel support proposez-vous aux clients qui souhaitent passer à Teams, notamment ceux ayant réalisé des investissements considérables dans Skype Entreprise Online ?
 
@@ -74,7 +74,7 @@ Nous encourageons tous les clients Skype Entreprise à commencer à déployer Te
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>Que cela signifie-t-il en termes de licence ? Comment les clients devront-ils payer pour les services de communications intelligentes dans Teams ?
 
-Teams est disponible dans les suites Office 365. Les fonctionnalités qui constituent actuellement des charges de travail Premium dans Skype Entreprise Online continueront de l’être dans Teams. Les licences actuelles acquises par les clients seront toujours valables avec Teams. Par exemple, si un client a acheté une licence autonome ou E5 d’audioconférence avec Skype Entreprise, le service d’audioconférence sera activé dans Teams tel qu’il l’est aujourd’hui.
+Teams est disponible dans les suites Microsoft 365 et Office 365. Les fonctionnalités qui constituent actuellement des charges de travail Premium dans Skype Entreprise Online continueront de l’être dans Teams. Les licences actuelles acquises par les clients seront toujours valables avec Teams. Par exemple, si un client a acheté une licence autonome ou E5 d’audioconférence avec Skype Entreprise, le service d’audioconférence sera activé dans Teams tel qu’il l’est aujourd’hui.
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Microsoft prévoit-il des planifications de mise à niveau ?
 
@@ -172,7 +172,7 @@ Oui, Teams est disponible pour la communauté Cloud du gouvernement américain (
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Quels sont les projets concernant les fonctionnalités vocales en ligne de Microsoft ?
 
-L’essentiel de notre solution vocale est le système de téléphonie disponible aujourd’hui. Les clients peuvent également ajouter un plan d’appels Microsoft qui fournit une prise en charge complète pour les appels, notamment l’acquisition de numéros et l’affectation directement dans Office 365. Les clients désireux de conserver leurs circuits téléphoniques télécom peuvent utiliser le routage direct (inclus dans le système téléphonique). Combinez et faites correspondre les deux éléments ensemble selon les besoins de votre organisation pour qu’elle bénéficie d’une solution vocale complète.
+L’essentiel de notre solution vocale est le système de téléphonie disponible aujourd’hui. Les clients peuvent également ajouter un plan d’appels Microsoft qui fournit une prise en charge complète pour les appels, notamment l’acquisition de numéros et l’affectation directement dans Microsoft 365 et Office 365. Les clients désireux de conserver leurs circuits téléphoniques télécom peuvent utiliser le routage direct (inclus dans le système téléphonique). Combinez et faites correspondre les deux éléments ensemble selon les besoins de votre organisation pour qu’elle bénéficie d’une solution vocale complète.
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>Que préconisez-vous pour les clients ayant déjà déployé le système téléphonique (Cloud PBX) dans Skype Entreprise Online ?
 
@@ -190,7 +190,7 @@ Sa disponibilité dans Teams n’entraînera aucune modification de la couvertur
 
 ### <a name="are-third-party-audio-conferencing-providers-acp-supported-in-teams"></a>Les fournisseurs d’audioconférence (ACP) tiers sont-ils pris en charge dans Teams ?
 
-Il n’est pas prévu que les fournisseurs d’audioconférence (ACP) tiers soient pris en charge dans Teams. Nous pensons que l’expérience d’audioconférence optimale pour les clients qui utilisent Teams et Skype Entreprise sera d'utiliser nos services d’audioconférence dans Office 365. Les clients qui ont besoin d’avoir recours à notre prise en charge des ACP dans les réunions Skype Entreprise peuvent continuer à utiliser leur client Skype Entreprise pour rejoindre les réunions Skype Entreprise. Les réunions planifiées dans Teams devront utiliser les services de conférence audio d’Office 365.
+Il n’est pas prévu que les fournisseurs d’audioconférence (ACP) tiers soient pris en charge dans Teams. Nous pensons que l’expérience d’audioconférence optimale pour les clients qui utilisent Teams et Skype Entreprise sera d'utiliser nos services d’audioconférence. Les clients qui ont besoin d’avoir recours à notre prise en charge des ACP dans les réunions Skype Entreprise peuvent continuer à utiliser leur client Skype Entreprise pour rejoindre les réunions Skype Entreprise. Les réunions planifiées dans Teams devront utiliser les services de conférence audio de Microsoft 365 ou Office 365.
 
 La prise en charge de l’intégration de fournisseurs de services Internet (ACP) tiers dans Skype Entreprise Online a été prolongée jusqu’au 31 juillet 2021, avec une prise en charge limitée des clients actifs restants afin d’autoriser une transition supplémentaire.  Il s’agit d’une mise à jour de la chronologie ACP annoncée en avril 2018.
 
