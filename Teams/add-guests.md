@@ -18,12 +18,12 @@ description: Les administrateurs peuvent apprendre à ajouter de nouveaux utilis
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026fa191dffa160980bfb00e7031490f01ddc6cc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ea1670078a61366e1ab0207368a58f9ad2b900ab
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778219"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609832"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================
@@ -42,12 +42,12 @@ En tant qu’administrateur, vous pouvez ajouter un nouvel utilisateur invité �
 
 Azure AD B2B Collaboration permet aux organisations d'imposer un accès conditionnel et des stratégies d'authentification multifacteur (MFA) aux utilisateurs B2B. Ces stratégies peuvent être appliquées au niveau locataire, application ou utilisateur individuel, de la même façon qu’elles peuvent être activées pour les employés à plein temps et les membres de l’organisation. Les stratégies MFA sont appliquées à l’organisation de ressources. Pour plus d’informations, consultez la page [Accès conditionnel pour les utilisateurs B2B Collaboration](https://go.microsoft.com/fwlink/?linkid=857454). Non, il n’est pas possible de bloquer des utilisateurs invités individuels.
 
-Les invités que vous avez déjà ajoutés via Azure AD B2B, des Groupes Microsoft 365 ou SharePoint Online sont déjà prêts. L’administrateur 365 d’Office ou un propriétaire d’équipe peut ajouter ces invités à leurs équipes respectives. Si une équipe est déjà associée à un groupe Office 365 et qu’un invité est ajouté au groupe, celui-ci est accessible à l’équipe. L’ajout d’un invité par le biais du groupe Office 365 ne génère pas de message d’invitation à l’invité, de sorte qu’une personne de l’équipe doit avertir l’invité.
+Les invités que vous avez déjà ajoutés via Azure AD B2B, des Groupes Microsoft 365 ou SharePoint Online sont déjà prêts. L’administrateur de Microsoft 365 ou Office 365 ou un propriétaire d’équipe peut ajouter ces invités à leurs équipes respectives. Si une équipe est déjà associée à un groupe Microsoft 365 et qu’un invité est ajouté au groupe, celui-ci est accessible à l’équipe. L’ajout d’un invité par le biais du groupe Microsoft 365 ne génère pas de message d’invitation à l’invité, de sorte qu’une personne de l’équipe doit avertir l’invité.
 
 > [!NOTE]
-> Les invités sont soumis aux mêmes limites des services [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) et [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
+> Les invités sont soumis aux mêmes limites des services [Microsoft 365 ou Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) et [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
 
-Vous pouvez suivre l'ajout d'invités dans Azure AD ou dans le Centre de conformité de la sécurité &amp; d'Office 365. L’ajout d’un invité dans Microsoft teams est audité et consigné en tant qu’activité d’administration des groupes Azure AD «membre ajouté au groupe». Pour plus d’informations, [voir audit et création de rapports sur un](https://go.microsoft.com/fwlink/p/?linkid=858884) utilisateur [de collaboration B2B et effectuez une recherche dans le &amp; journal d'](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)audit dans le centre de conformité de la sécurité Office 365.
+Vous pouvez suivre l'ajout d'invités dans Azure AD ou dans le Centre de sécurité Microsoft 365. L’ajout d’un invité dans Microsoft teams est audité et consigné en tant qu’activité d’administration des groupes Azure AD «membre ajouté au groupe». Pour plus d’informations, [voir audit et création de rapports sur un](https://go.microsoft.com/fwlink/p/?linkid=858884) utilisateur [de collaboration B2B et effectuez une recherche dans le journal d'audit dans le centre de sécurité Microsoft 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 
 ## <a name="more-information"></a>Plus d’informations
