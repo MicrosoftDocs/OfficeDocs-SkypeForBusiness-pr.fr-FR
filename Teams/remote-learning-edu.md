@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638523"
+ms.locfileid: "44666276"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
+Pour avoir une vue d’ensemble de la transition vers les ressources pédagogiques et distantes pour vous aider à démarrer, consultez la page d’accueil de [l’apprentissage à distance](https://www.microsoft.com/education/remote-learning).
+
+Les ressources destinées à aider les enseignants et les étudiants disposant d’une formation à distance sont disponibles dans [l’enseignement et l’apprentissage à distance dans Microsoft Office 365 pour l’éducation](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+Cet article décrit les étapes à suivre pour faire en sorte que vos établissements d’enseignement soient configurés pour l’apprentissage à distance.
+
 > [!NOTE]
-> Cet article est une ressource très utile pour configurer votre établissement d’enseignement pour l’apprentissage à distance. Si vous êtes enseignant, directeur d’un établissement d’enseignement ou professionnel de l’informatique, ces ressources peuvent vous être utiles :
+> Si vous êtes enseignant, directeur d’un établissement d’enseignement ou professionnel de l’informatique, ces ressources peuvent vous être utiles :
 >
 > - Rendez l’ensemble de votre établissement d’enseignement rapidement opérationnel sur Teams avec [**Prise en main d’un seul récepteur de radiomessagerie**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Téléchargez [**Démarrer avec Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) : un guide pour les professionnels de l’informatique présentant des pratiques utiles pour la sécurité et la gestion des modifications.

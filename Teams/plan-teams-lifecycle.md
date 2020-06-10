@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638843"
+ms.locfileid: "44665286"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -41,7 +41,7 @@ Les concepts et définitions suivants ont tous une incidence sur les décisions 
 
 **Teams**
 
-Une _équipe_ est un regroupement de personnes, de contenu et d'outils qui facilitent la collaboration. Une équipe définit qui sont ses membres, ainsi que les autorisations et stratégies qui s’appliquent à ces membres. Les équipes sont centrées autour de groupes Microsoft 365, et les modifications apportées à l’appartenance à un groupe Microsoft 365 sont synchronisées avec l’équipe. Comme les autres groupes Microsoft 365, une boîte de messagerie Exchange, un site SharePoint, un bloc-notes OneNote ainsi que d’autres ressources dans Office 365 sont mis à disposition automatiquement dans Teams. [En savoir plus sur les groupes Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Une _équipe_ est un regroupement de personnes, de contenu et d'outils qui facilitent la collaboration. Une équipe définit qui sont ses membres, ainsi que les autorisations et stratégies qui s’appliquent à ces membres. Les équipes sont centrées autour de groupes Microsoft 365, et les modifications apportées à l’appartenance à un groupe Microsoft 365 sont synchronisées avec l’équipe. Comme les autres groupes Microsoft 365, une boîte de messagerie Exchange, un site SharePoint, un bloc-notes OneNote ainsi que d’autres ressources dans Microsoft 365 ou Office 365 sont mis à disposition automatiquement dans Teams. [En savoir plus sur les groupes Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Canaux**
 

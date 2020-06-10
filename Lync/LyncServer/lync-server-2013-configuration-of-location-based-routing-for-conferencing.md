@@ -12,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc901b9ef1b4b358771427f44d220631e4a40ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f982f6e484412234c75eadaea925b65ee11bcbb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199017"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,21 +53,27 @@ Pour plus d’informations sur le déploiement et la configuration du routage g�
 
 L’application de conférence de routage basée sur l’emplacement est désactivée par défaut. Avant d’activer cette application, vous devez déterminer la priorité appropriée à affecter à l’application. Pour déterminer cette priorité, exécutez l’applet de commande suivante dans Lync Server Management Shell :
 
-Get-CsServerApplication-Identity service : Registrar\<: nom de domaine complet du pool\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
-Dans cette applet de \<commande,\> le nom de domaine complet du pool est le pool dans lequel l’application de conférence de routage basée sur l’emplacement doit être activée.
+Dans cette applet de commande, \<Pool FQDN\> est le pool dans lequel l’application de conférence de routage basée sur l’emplacement doit être activée.
 
 Cette applet de commande renvoie la liste des applications hébergées par Lync Server et la valeur de priorité pour chacune d’entre elles. L’application de conférence de routage basée sur l’emplacement doit disposer d’une valeur de priorité supérieure à celle de l’application « UdcAgent » et plus petite que les applications « DefaultRouting », « ExumRouting » et « OutboundRouting ». Nous vous recommandons d’affecter à l’application de conférence de routage basée sur l’emplacement une valeur de priorité supérieure d’un point à la valeur de priorité de l’application « UdcAgent ».
 
-Par exemple, si l’application « UdcAgent » a une valeur de priorité « 2 », l’application « DefaultRouting » a une valeur de priorité « 8 », l’application « ExumRouting » a une valeur de priorité de « 9 » et l’application « OutboundRouting » a une valeur de priorité de « 10 », puis vous devez attribuer à l’application de conférence de routage basée sur l’emplacement une valeur de priorité de « 3 ». Cette opération placerait la priorité des applications dans l’ordre suivant : autres applications (priorités : 0 à 1), « UdcAgent » (priorité : 2), application de conférence de routage basée sur l’emplacement (Priority : 3), autres applications (priorités : 4 à 8), " DefaultRouting "(Priority : 9)," ExumRouting "(Priority : 10) et" OutboundRouting "(Priority : 11).
+Par exemple, si l’application « UdcAgent » a une valeur de priorité « 2 », l’application « DefaultRouting » a une valeur de priorité « 8 », l’application « ExumRouting » a une valeur de priorité de « 9 » et l’application « OutboundRouting » a une valeur de priorité « 10 », puis vous devez attribuer une valeur de priorité «3 Cela placerait la priorité des applications dans l’ordre suivant : autres applications (priorités : 0 à 1), « UdcAgent » (priorité : 2), application de conférence de routage basée sur l’emplacement (priorité : 3), autres applications (priorités : 4 à 8), « DefaultRouting » (priorité : 9), « ExumRouting » (priorité : 10) et « OutboundRouting » (priorité : 11).
 
 Une fois que vous avez trouvé la valeur de priorité correcte pour l’application de conférence de routage basée sur l’emplacement, tapez l’applet de commande suivante pour chaque pool frontal ou serveur Standard Edition dont les utilisateurs sont activés pour le routage géodépendant :
 
-New-CsServerApplication-Identity service : Registrar\<: pool\>de nom de \<domaine complet\> /LBRouting-Priority Application Priority enabled $true-URI Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Par exemple :
 
-New-CsServerApplication-Identity service :Registrar :LS2013CU2LBRPool. contoso. com/LBRouting-Optional 3-enabled $true-URI $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Après avoir utilisé cette applet de commande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition où l’application de conférence de routage basée sur l’emplacement a été activée.
 
