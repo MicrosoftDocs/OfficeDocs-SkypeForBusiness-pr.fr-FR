@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523157"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666016"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Effectuer une mise à niveau d’un déploiement local de Skype entreprise vers teams
 
@@ -54,7 +54,7 @@ Pour plus d’informations, reportez-vous à la section déploiement d’une [co
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Étape 2 : implémenter le voyage de mise à niveau choisi pour votre organisation
 
-Une fois que vous avez terminé la configuration hybride, vous pouvez planifier la migration de vos utilisateurs vers Office 365.
+Une fois que vous avez terminé la configuration hybride, vous pouvez planifier la migration de vos utilisateurs vers Microsoft 365 ou Office 365.
 
 Pour plus d’informations, consultez :
 
@@ -64,8 +64,8 @@ Pour plus d’informations, consultez :
 
 ## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau du système téléphonique et des équipes
 
-Le passage des systèmes téléphoniques locaux à teams vous permet de tirer parti du routage direct du système téléphonique (« routage directe ») ou des offres d’appels fournies par Microsoft pour Office 365.
+Le passage des systèmes téléphoniques locaux à teams vous permet de tirer parti du routage direct du système téléphonique (« routage directe ») ou des offres d’appel fournies par Microsoft pour Microsoft 365 ou Office 365.
 
-Si vous n’utilisez pas les forfaits d’appels dans Office 365, vous devez faire basculer votre déploiement de voix entreprise vers le routage direct du système téléphonique dans le cadre de la mise à niveau vers Teams.
+Si vous n’utilisez pas d’offres d’appels, vous devez faire basculer le déploiement de votre voix entreprise vers le système téléphonique direct du routage dans le cadre de la mise à niveau vers Teams.
 
-Pour plus d’informations, reportez-vous [à considérations supplémentaires sur le routage direct du système téléphonique](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Si vous envisagez d’utiliser des plans d’appel dans Office 365, consultez nos recommandations pour [le transfert de vos numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Pour plus d’informations, reportez-vous [à considérations supplémentaires sur le routage direct du système téléphonique](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Si vous envisagez d’utiliser des plans d’appel, veuillez consulter nos recommandations en matière de [transfert de vos numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523027"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666056"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Préparer votre service pour la mise à niveau vers teams
 
@@ -44,7 +44,7 @@ Cet article fournit une vue d’ensemble de la configuration requise pour prépa
 
 Les listes de vérification suivantes vous guident tout au long du déploiement de Microsoft teams au sein de votre organisation :
 
-- [Préparer Office 365 pour teams](onboarding-checklist-enable-office-365.md)
+- [Préparer Microsoft 365 ou Office 365 pour teams](onboarding-checklist-enable-office-365.md)
 
 - [Configurer les fonctionnalités principales de teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

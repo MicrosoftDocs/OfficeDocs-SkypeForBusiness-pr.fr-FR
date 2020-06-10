@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Familiarisez-vous avec les offres d’appels, y compris les plans d’affichage disponibles dans votre région, l’achat & l’attribution de licences, l’obtention de numéros de téléphone et l’ajout d’adresses de secours & emplacements.
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042401"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666236"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -57,7 +57,7 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration teams ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Étape 4 : ajouter les adresses de secours et les emplacements d’urgence pour votre organisation
-<a name="bkmk_add_addresses"> </a> Une adresse de secours doit être associée à un numéro de téléphone. Une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel. 
+<a name="bkmk_add_addresses"> </a> Une adresse de secours doit être associée à un numéro de téléphone. Une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d’urgence au numéro de téléphone lorsque vous récupérez les numéros de téléphone de Microsoft 365 ou Office 365, ou lorsque vous transférez des numéros de téléphone à partir de votre fournisseur de services actuel. 
 
 Pour plus d’informations sur les appels d’urgence et la gestion des adresses d’urgence, reportez-vous à la rubrique [gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) et [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md).
     

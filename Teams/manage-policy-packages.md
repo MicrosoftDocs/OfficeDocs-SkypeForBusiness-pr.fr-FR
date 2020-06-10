@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft teams pour simplifier, simplifier et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44412531"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669403"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -53,10 +53,8 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Travailleurs de l’information sur la santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui permettent aux travailleurs de l’information, tels que le personnel informatique, le personnel informatique, le personnel financier et les responsables de la mise en conformité, un accès complet aux discussions, aux appels et aux réunions.|
 |Salle de santé du patient  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles de soins de votre organisation.|
 |Utilisateurs petites et moyennes entreprises (voix entreprise) |Crée une stratégie de configuration d’application qui inclut les applications pour une interface vocale professionnelle.|
-|Utilisateurs petites et moyennes entreprises (sans voix entreprise) |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux utilisateurs professionnels de petites et moyennes tailles sans fonctions vocales métiers.|
+|Utilisateurs petites et moyennes entreprises (sans voix entreprise) |Crée une stratégie de configuration de l’application adaptée aux utilisateurs d’équipes de petites et moyennes entreprises (qualité vocale hors entreprise).
 |Officier de sûreté public   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique au sein de votre organisation.|
-
-
 
 > [!NOTE]
 > Comme nous allons ajouter d’autres packages de stratégie dans les futures versions de teams, vous pouvez consulter les informations les plus récentes.  
@@ -124,6 +122,6 @@ Vous pouvez modifier les paramètres d’une stratégie par le biais de la page 
 
 Cela risque de se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées. Réattribuez-le à vos utilisateurs. Le renouvellement de l’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)

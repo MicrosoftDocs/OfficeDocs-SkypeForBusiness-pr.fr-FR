@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583447"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665416"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
@@ -83,7 +83,7 @@ Lors de l’utilisation de la méthode de superposition des capacités, le trafi
 
 - Les communications déclenchées par le client équipes par un *utilisateur dans une organisation externe* seront toujours affectées par le client Skype entreprise de l’utilisateur.
 
-Si vous avez attribué une licence Office 365 à vos utilisateurs, il s’agit de l’option de mise à niveau par défaut de votre organisation. Lorsque vous affectez une licence Office 365, les équipes et les licences Skype entreprise Online sont affectées par défaut. <sup>2</sup>
+Si vous avez affecté une licence Microsoft 365 ou Office 365 à vos utilisateurs, il s’agit de l’option de mise à niveau par défaut de votre organisation. Lorsque vous affectez une licence Microsoft 365 ou Office 365, les licences équipes et Skype entreprise Online sont affectées par défaut. <sup>2</sup>
 
 Pour que cette méthode fonctionne efficacement, tous les utilisateurs doivent exécuter les deux clients simultanément. Les discussions et les appels entrants au sein de l’organisation à un utilisateur en mode d’îlot peuvent débarquer dans le client Skype entreprise ou équipes, et ce n’est pas le contrôle du destinataire. Tout dépend du client utilisé par l’expéditeur pour initier la communication. Si l’expéditeur et le destinataire se trouvent dans différentes organisations, les appels et les discussions entrants à un utilisateur en mode îlot sont toujours terrains dans le client Skype entreprise.
 
@@ -178,7 +178,7 @@ Le tableau suivant récapitule les méthodes de mise à niveau :
 |L’interopérabilité entre Skype entreprise et équipes n’existe pas tant que les deux utilisateurs sont en mode îlot.      |L’interopérabilité est requis pour la communication entre les utilisateurs de Skype entreprise et Teams.         |
 
 > [!NOTE]
-> Si vous ne parvenez pas à suivre les méthodes prises en charge pour migrer vos utilisateurs de Skype entreprise Server vers Teams, il est possible de faire basculer vos utilisateurs vers teams en supprimant Skype entreprise Server et tous les attributs d’utilisateur associés dans Active Directory. Une fois que les attributs Azure Active Directory de l’utilisateur ont été désactivés, les attributs de serveur et les enregistrements DNS de Skype entreprise ont été redirigés vers Office 365, il est possible que les utilisateurs soient licenciés dans Office 365 et les mettre à niveau vers Teams. 
+> Si vous ne parvenez pas à suivre les méthodes prises en charge pour migrer vos utilisateurs de Skype entreprise Server vers Teams, il est possible de faire basculer vos utilisateurs vers teams en supprimant Skype entreprise Server et tous les attributs d’utilisateur associés dans Active Directory. Une fois que les attributs Azure Active Directory de l’utilisateur ont été désactivés, les attributs de serveur et les enregistrements DNS de Skype entreprise ont été redirigés vers Microsoft 365 ou Office 365, il est possible que les utilisateurs disposent de licences dans Microsoft 365 ou Office 365 et de les mettre à niveau de teams. 
 
 > [!IMPORTANT]
 > Avec la migration à basculement, les données de contact et les données de réunions ne seront pas déplacées de l’environnement local vers Microsoft Teams.

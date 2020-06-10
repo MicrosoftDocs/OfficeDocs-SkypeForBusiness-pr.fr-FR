@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams, qui fournissent un message de salutation, de la musique, de la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523795"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669401"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -48,6 +48,7 @@ Tous les appels dans la file d’attente sont envoyés aux agents par le biais d
 
 - Avec le routage de l’attendant, le premier appel dans la file d’attente sonne sur tous les agents en même temps.
 - Avec le routage en série, le premier appel dans la file d’attente sonne tous les agents d’appel un par un.
+- Avec le routage inactif le plus long, l’agent d’appel qui est resté inactif le plus longtemps reçoit le prochain appel disponible. La durée d’inactivité est définie comme la durée de la période pendant laquelle l’état de présence de l’agent de l’appel est **disponible** ou **absent** (si moins de 10 minutes) est défini, au moment de l’appel. Si la présence d’un agent d’appel est en **dehors** de 10 minutes, le minuteur d’inactivité est redéfini.
 - Avec la répétition alternée, le routage des appels entrants est équilibré de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente.
 
 Vous pouvez définir des options de traitement des appels, telles que l’option d’activation/désactivation de l’agent, le routage basé sur la présence, le temps d’attente des appels et les options de délai d’attente avec les méthodes ci-dessus.
@@ -166,7 +167,7 @@ Vous pouvez sélectionner jusqu’à 200 opérateurs d’appel qui appartiennent
 - Groupe de sécurité
 - Liste de distribution
 
-Les agents d’appel sélectionnés doivent être l’un des éléments suivants :
+Les agents d’appel sélectionnés doivent être l’un des éléments suivants : 
 
 - Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée
 - Utilisateurs en ligne avec un plan d’appels
@@ -203,18 +204,24 @@ Lorsque le mode conférence est activé sur une file d’attente d’appels, les
 La plupart des appels sont reçus par le biais de l’une des méthodes indiquées ci-dessus. Si un appel est reçu par le biais d’une autre méthode (par exemple, un appel VoIP d’un client Skype entreprise), l’appel est toujours ajouté à la file d’attente d’appels, mais il n’est pas possible d’y profiter du temps de connexion plus rapide.
 
 ![Icône du numéro 3, qui fait référence à une légende dans la méthode de routage de capture d’écran précédente, ](media/teamscallout3.png)
- **Routing method** vous pouvez choisir l’une des options **standard**, **série**ou **tourniquet** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
+ **Routing method** vous pouvez choisir l’une des options **standard**, **série**, **inactif**ou **répétition arrondie** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 
 - Le routage de l' **attendant** entraîne le premier appel dans la file d’attente pour sonner tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 - **Routage en série** les appels entrants sonnent chacun d’eux, du début de la liste des agents d’appel. Les agents ne peuvent pas être commandés dans la liste des agents d’appel. Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
+- **Temps inactif** le plus long, l’appel actuellement disponible vers l’agent d’appel dont l’appel a été inactif le plus longtemps. La durée d’inactivité est définie comme la durée de la période pendant laquelle l’état de présence de l’agent de l’appel est **disponible** ou **absent** (si moins de 10 minutes) est défini, au moment de l’appel. Si la présence d’un agent d’appel est définie sur **absent (e** ) pendant plus de 10 minutes, le minuteur d’inactivité est redéfini. Les statuts de présence des utilisateurs sont interrogés toutes les minutes.
+
+    Il est important de savoir que l’activation de ce paramètre force le **routage sur la présence** à être activé.
+
+    > [!IMPORTANT]
+    > Les agents qui utilisent le client Skype entreprise ne reçoivent aucun appel lorsque le paramètre inactif le plus prolongé est activé. Si vous avez des agents qui utilisent Skype ou entreprise, n’activez pas ce paramètre.
 - **Tourniquet de tourniquet** qui achemine les appels entrants de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente. Cela pourrait être souhaitable dans un environnement de ventes entrantes pour garantir l’égalité des chances entre tous les agents d’appel.
 
 ![Icône du numéro 4, fait référence à une légende dans la capture d’écran précédente le routage de présence basé sur la présence ](media/teamscallout4.png)
- **Presence-based routing** utilise l’état de la disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**.
+ **Presence-based routing** utilise l’état de la disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**.  
 
 Vous pouvez activer le routage des appels en fonction de la présence avec n’importe quelle méthode de routage.
 
-Si un agent ne peut plus passer d’appel, il n’est pas inclus dans la liste routage des appels, quelle que soit la valeur de son statut de disponibilité.
+Si un agent ne peut plus passer d’appel, il n’est pas inclus dans la liste routage des appels, quelle que soit la valeur de son statut de disponibilité. 
 
 > [!IMPORTANT]
 > Les agents qui utilisent le client Skype entreprise ne sont pas inclus dans la liste routage des appels lorsque le routage en fonction de la présence est activé, même en fonction de leur statut de disponibilité. Les agents qui ne figurent pas dans la liste routage des appels ne reçoivent pas les appels. Si vous avez des agents qui utilisent Skype entreprise, n’activez pas le routage des appels basée sur la présence.
@@ -267,7 +274,7 @@ Le paramètre par défaut est de 30 secondes, mais peut être configuré pour un
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger vers** Lorsque vous choisissez cette option, sélectionnez l’une des options suivantes :
 
-  - **Personne de votre entreprise** Un utilisateur en ligne disposant d’une licence de **système téléphonique** et est activé pour voix entreprise ou avoir un plan d’appels. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Pour cela, sélectionnez une **personne au sein de votre entreprise** et configurez cette personne pour que les appels soient transférés directement à la boîte vocale.
+  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de **système téléphonique** et est activé pour voix entreprise ou avoir un plan d’appels. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Pour cela, sélectionnez une personne au sein de votre organisation et configurez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
 
   Pour en savoir plus sur les licences requises pour la boîte vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
@@ -285,7 +292,7 @@ La valeur Timeout peut être définie en secondes, à des intervalles de 15 seco
 
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger cet appel vers** Lorsque vous choisissez cette option, vous disposez des options suivantes :
-  - **Personne de votre entreprise** Un utilisateur en ligne disposant d’une licence de **système téléphonique** et est activé pour voix entreprise ou avec des plans d’appels. Pour la configurer de manière à ce que la personne qui vous appelle puisse être envoyée à la boîte vocale, sélectionnez une **personne dans votre entreprise** et définissez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
+  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de **système téléphonique** et est activé pour voix entreprise ou avec des plans d’appels. Pour la configurer de manière à ce que la personne qui appelle puisse être envoyée à la boîte vocale, sélectionnez une personne dans votre organisation et définissez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
 
   Pour en savoir plus sur les licences requises pour la boîte vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
@@ -333,7 +340,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
   - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

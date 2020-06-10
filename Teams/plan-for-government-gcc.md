@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 gouvernementale-déploiements de GCC
+title: Office 365 gouvernementale-déploiements de GCC
 author: lolajacobsen
 ms.author: heidip
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab398d4d76eb0c1ae6bac37b7c9c198ebc82d86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b93762c92d9681074124ba8ddb3fd066bdf8a60a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137806"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665226"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 Government-déploiements de GCC
+# <a name="plan-for-office-365-government---gcc-deployments"></a>Plan pour Office 365 Government-déploiements de GCC
 
-Ce guide est destiné aux professionnels de l’informatique qui pilotent des déploiements d’Office 365 aux États-Unis, aux États-Unis, aux États-Unis, tribal ou d’autres entités du gouvernement territorial ou d’autres entités qui gèrent les données soumises aux lois et exigences gouvernementales, lorsque l’utilisation de Microsoft 365 Government-GCC est appropriée pour respecter ces exigences. Nouveau 26 mars, 2020 : ne manquez pas notre [Guide de démarrage rapide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)téléchargeable pour la mise en route de GCC.
+Ce guide est destiné aux professionnels de l’informatique qui pilotent des déploiements d’Office 365 aux États-Unis, aux États-Unis, aux États-Unis, tribal ou d’autres entités du gouvernement territorial ou d’autres entités qui gèrent les données soumises aux lois et exigences gouvernementales, lorsque l’utilisation d’Office 365 Government-GCC est appropriée pour respecter ces exigences. Nouveau 26 mars, 2020 : ne manquez pas notre [Guide de démarrage rapide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)téléchargeable pour la mise en route de GCC.
 
 > [!IMPORTANT]
 > Microsoft teams est confronté à un énorme pic dans les appels en ligne et les conférences audio/vidéo à l’aide de coronavirus (COVID-19) Pandemic.<br/>
@@ -44,20 +44,20 @@ Ce guide est destiné aux professionnels de l’informatique qui pilotent des d�
 
 
 > [!NOTE]
-> Si votre organisation a déjà satisfait au service Microsoft 365 Government-obligation d’éligibilité et qu’elle a été acceptée pour le programme, vous pouvez passer directement à l’étape 3. 
+> Si votre organisation a déjà satisfait au service public d’Office 365, et qu’elle l’a appliquée et qu’elle a été acceptée dans le programme, vous pouvez passer directement à l’étape 3. 
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Étape 1. Déterminez si votre organisation a besoin de Microsoft 365 Government-GCC et répond aux exigences d’éligibilité. 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-and-meets-eligibility-requirements"></a>Étape 1. Déterminez si votre organisation a besoin d’Office 365 Government-GCC et répond aux exigences d’éligibilité. 
 
-L’environnement Microsoft 365 Government-GCC fournit une conformité aux exigences de l’administration américaine pour les services de Cloud Computing, y compris le FedRAMP modéré et la configuration requise pour les systèmes de données CJI et FTI.
+L’environnement Office 365 Government-GCC fournit une conformité aux exigences de l’administration américaine pour les services de Cloud Computing, y compris le FedRAMP modéré et la configuration requise pour les systèmes de données CJI et FTI.
 
-En plus des fonctionnalités et des fonctionnalités d’Office 365, les organisations tirent parti des fonctionnalités suivantes qui sont propres à Microsoft 365 Government :
+Outre les fonctionnalités et les fonctionnalités d’Office 365, les organisations disposent des fonctionnalités suivantes qui sont propres à Office 365 Government :
 
 -   Le contenu du client de votre organisation est séparé de manière logique du contenu client dans les services Office 365 commerciaux de Microsoft.
 -   Le contenu du client de votre organisation est enregistré aux États-Unis.
 -   L’accès au contenu du client de votre organisation est limité aux membres du personnel de Microsoft.
--   Microsoft 365 Government-GCC est conforme aux certifications et homologations requises pour les clients du secteur public américain.
+-   Office 365 Government-GCC est conforme aux certifications et aux accréditations requises pour les clients du secteur public américain.
 
-Vous trouverez des informations supplémentaires sur l’offre Microsoft 365 Government-GCC pour les clients du secteur public dans [Office 365 Government](https://products.office.com/government/compare-office-365-government-plans), y compris les [exigences d’éligibilité](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+Vous trouverez des informations supplémentaires sur l’offre Office 365 Government-GCC pour les clients du secteur public dans [office 365 Government](https://products.office.com/government/compare-office-365-government-plans) [.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
 La [Description du service fédéral des États-Unis d’Office 365](https://technet.microsoft.com/library/mt774581.aspx) décrit les avantages de la plateforme, qui sont centrés sur les exigences en matière de conformité aux États-Unis.
 
@@ -66,27 +66,27 @@ La [Description du service fédéral des États-Unis d’Office 365](https://tec
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez si Microsoft 365 Government-GCC est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions d’éligibilité.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez si Office 365 Government-GCC est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions d’éligibilité.</li></ul> |
 
 > [!Note]
-> Microsoft 365 Government-GCC est uniquement disponible aux États-Unis. Les clients de l’administration non américaine peuvent opter pour un certain nombre de [forfaits Office 365 Government](https://products.office.com/en/government/compare-office-365-government-plans).
+> Office 365 Government-GCC est uniquement disponible aux États-Unis. Les clients de l’administration non américaine peuvent opter pour un certain nombre de [forfaits Office 365 Government](https://products.office.com/en/government/compare-office-365-government-plans).
 
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Étape 2. Demander à Microsoft 365 Government-GCC
+## <a name="step-2-apply-for-office-365-government---gcc"></a>Étape 2. Demander à Office 365 Government-GCC
 
 Après avoir décidé que ce service est approprié pour votre organisation, commencez le processus d' [application de ce service ici](https://products.office.com/government/eligibility-validation).
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Étape 3. Comprendre Microsoft 365 Government-paramètres de sécurité par défaut de GCC.
+## <a name="step-3-understand-office-365-government---gcc-default-security-settings"></a>Étape 3. Comprendre le gouvernement d’Office 365-paramètres de sécurité par défaut de GCC.
 
 Nous vous conseillons de prendre le temps de vérifier les paramètres de votre [administrateur et de votre sécurité](enable-features-office-365.md) avant de les modifier, et de réfléchir à la conformité avant de modifier les paramètres de sécurité par défaut.
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous voulez modifier l’un des paramètres de sécurité du service public Microsoft 365 par défaut et le résoudre pour tout d’abord comprendre l’impact des modifications que vous pourriez apporter.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez si vous souhaitez modifier l’un des paramètres de sécurité par défaut du service d’administration de la sécurité d’Office 365, puis résolvez les problèmes liés aux modifications que vous pourriez apporter.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Étape 4. Comprenez quelles fonctionnalités sont actuellement indisponibles ou désactivées par défaut.
 
-Pour répondre aux besoins de nos clients du cloud public, il existe quelques différences entre le gouvernement Microsoft 365 et les plans de l’entreprise. Pour savoir quelles fonctionnalités sont disponibles, consultez le tableau suivant.
+Pour répondre aux besoins de nos clients du cloud public, il existe quelques différences entre le gouvernement d’Office 365 et les plans de l’entreprise. Pour savoir quelles fonctionnalités sont disponibles, consultez le tableau suivant.
 
 [Description du service Microsoft teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
@@ -108,7 +108,7 @@ Déterminez vos besoins en matière de gouvernance et comment vous pouvez les r�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déploiement d’équipes pour la collaboration
 
-Une fois que vous avez été intégré au service public Microsoft 365, suivez le chemin de déploiement recommandé décrit dans [la rubrique Comment déployer Microsoft teams](How-to-roll-out-teams.md). N’hésitez pas à vous engager avec votre adoption et votre équipe de gestion des changements et des champions.
+Une fois que vous avez été intégré au service public d’Office 365, vous pouvez suivre la procédure de déploiement recommandée décrite dans [la rubrique Comment déployer Microsoft teams](How-to-roll-out-teams.md). N’hésitez pas à vous engager avec votre adoption et votre équipe de gestion des changements et des champions.
 
 Vous pouvez également utiliser [FastTrack](https://www.microsoft.com/fasttrack) ou le partenaire que vous avez choisi pour l’intégration du service.
 

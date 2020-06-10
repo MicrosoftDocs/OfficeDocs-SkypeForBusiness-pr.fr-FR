@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: En savoir plus sur la configuration requise pour la prise en charge des salles de Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: e7dfc83bc3e1eff42c7a8de3f7e80fb25c03bf90
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591304"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666266"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -38,7 +38,7 @@ Voir aussi :
 > [!NOTE]
 > Les salles Microsoft Teams se connectent à Microsoft Teams, Skype Entreprise Server 2019, Skype Entreprise Server 2015 ou Skype Entreprise Online, et peuvent participer à des réunions hébergées par l’un de ces services.
 >
-> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Les salles Microsoft Teams ne sont pas prises en charge dans Office 365 géré par 21Vianet, ou dans les environnements GCC-High ou DoD.
+> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Les salles de Microsoft Teams ne sont pas prises en charge dans Microsoft 365 ou Office 365 géré par 21Vianet ou dans les environnements GCC-High ou DoD.
 >
 > Si vous avez un serveur Exchange local, les salles Microsoft Teams nécessitent l’utilisation d’Exchange Server 2013 SP1 ou d’une version ultérieure.
 

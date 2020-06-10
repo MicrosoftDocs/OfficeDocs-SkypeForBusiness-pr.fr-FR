@@ -1,5 +1,5 @@
 ---
-title: Système téléphonique dans Office 365
+title: Qu’est-ce que le système téléphonique ?
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Dans cet article, vous allez découvrir la technologie du système téléphonique dans Microsoft Office 365.
-ms.openlocfilehash: e3db8806733cff76ba69c19338c9d562bdbe6e83
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: Dans cet article, vous allez découvrir la technologie du système téléphonique dans Microsoft 365 et Office 365.
+ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951219"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666126"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
+# <a name="what-is-phone-system"></a>Qu’est-ce que le système téléphonique ?
 
-Un système PBX (Private Branch Exchange) est un système téléphonique au sein d’une entreprise. Le système téléphonique dans Office 365 offre des fonctionnalités PBX, mais sans l’équipement compliqué et difficile. 
+Un système PBX (Private Branch Exchange) est un système téléphonique au sein d’une entreprise. Le système téléphonique vous permet d’accéder à des fonctionnalités PBX, mais sans l’équipement compliqué et difficile. 
 
-Le système téléphonique vous permet de remplacer votre système PBX local existant par un ensemble de fonctionnalités fournies par Office 365 qui est étroitement intégré à votre environnement Cloud. Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md).
+Le système téléphonique vous permet de remplacer votre système PBX local existant par un ensemble de fonctionnalités fournies par Microsoft 365 ou Office 365 qui est étroitement intégré à votre environnement Cloud. Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous obtenez avec le système téléphonique](here-s-what-you-get-with-phone-system.md).
 
 ## <a name="phone-system-technology"></a>Technologie du système téléphonique
 
-Le système téléphonique permet le contrôle des appels et des fonctionnalités PBX dans le Cloud Office 365 avec Microsoft teams et Skype entreprise online. 
+Le système téléphonique active le contrôle d’appel et les fonctionnalités PBX dans le Cloud avec Microsoft teams et Skype entreprise online. 
   
 Grâce au système téléphonique, les utilisateurs peuvent utiliser teams ou Skype entreprise Online pour passer et recevoir des appels, transférer des appels, activer ou désactiver les appels. Utilisateurs du système téléphonique vous pouvez cliquer sur un nom dans le carnet d’adresses, puis placer les équipes ou les appels Skype entreprise Online de cette personne. Pour passer et recevoir des appels, les utilisateurs du système téléphonique peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP compatibles avec teams et Skype entreprise online. Les administrateurs de système téléphonique peuvent gérer les options d’appel et les paramètres à partir de la même console utilisée pour la messagerie, la collaboration, etc.
   
@@ -48,7 +48,7 @@ Pour les appels hors de votre organisation, Microsoft fournit plusieurs options 
   
 Le système téléphonique peut être connecté au RTC de l’une des deux manières suivantes :
   
-- Achetez un forfait d’appels Microsoft (national ou national et international) pour Office 365. Le forfait d’appel Microsoft est une solution tout-en-un-Cloud avec Microsoft comme opérateur PSTN. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md).
+- Achetez un forfait d’appels Microsoft (national ou national et international). Le forfait d’appel Microsoft est une solution tout-en-un-Cloud avec Microsoft comme opérateur PSTN. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md).
 
 - Utilisez votre infrastructure de téléphonie existante pour une connectivité PSTN locale.
 
@@ -67,9 +67,9 @@ Le système téléphonique peut être connecté au RTC de l’une des deux mani�
 
 - Boîte **vocale** : lorsque vous disposez d’une licence de système téléphonique pour un utilisateur, celui-ci est en mesure d’obtenir la boîte vocale laissée par les appelants. Le message vocal Cloud est configuré automatiquement et approvisionné pour les utilisateurs lorsque vous attribuez une licence de système téléphonique et un numéro de téléphone. Voir [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
-Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md). Si vous êtes prêt à commencer, reportez-vous à [la rubrique Configuration de système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
+Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous obtenez avec le système téléphonique](here-s-what-you-get-with-phone-system.md). Si vous êtes prêt à commencer, reportez-vous à [la rubrique Configuration de système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Fonctionnalités du système téléphonique](here-s-what-you-get-with-phone-system.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

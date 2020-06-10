@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0fb9a90a3528ed8d2d7f4d2f00843a9215e92a2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902419"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665706"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -44,9 +44,9 @@ Le moyen le plus complexe de traiter ces problèmes consiste à augmenter la tai
 
 Pour que la qualité de service (QoS) s’applique, vous devez appliquer des paramètres de QoS cohérents au sein de votre organisation, car une partie du chemin d’accès qui ne prend pas en charge les priorités de QoS peut nuire à la qualité des appels, de la vidéo et des partages d’écran. Cela inclut l’application de paramètres à tous les PC ou appareils utilisateur, commutateurs réseau, routeurs vers Internet et service en ligne Teams.
 
-_Figure 1. Relation entre les réseaux d’une organisation et les services 365 Office_
+_Figure 1. Relation entre les réseaux d’une organisation et Microsoft 365 ou les services 365 Office_
 
-![Illustration de la relation entre les réseaux et les services](media/Qos-in-Teams-Image1.png "Relation entre les réseaux d’une organisation et les services 365 Office : le réseau local et les appareils se connectent à un réseau d’interconnexion, qui à son tour est connecté aux services d’audioconférence et de voix sur le Cloud Office 365.")
+![Illustration de la relation entre les réseaux et les services](media/Qos-in-Teams-Image1.png "Relation entre les réseaux d’une organisation et les services 365 Microsoft 365 ou Office : le réseau local et les appareils se connectent à un réseau d’interconnexion, qui à son tour s’associe à Microsoft 365 365 ou aux services d’audioconférence Cloud et voix sur le Cloud.")
 
 Dans la plupart des cas, le réseau qui se connecte à votre entreprise avec le Cloud sera un réseau non géré dans lequel vous ne pourrez pas définir de manière fiable les options de QoS. L’un des choix disponibles pour l’adresse QoS de bout en bout est [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mais nous vous recommandons tout de même d’implémenter QoS sur votre réseau local pour le trafic entrant et sortant. Cela permettra d’augmenter la qualité des charges de travail de communication en temps réel pendant votre déploiement et de soulager chokepoints.
 
@@ -150,7 +150,7 @@ Si vous avez déjà déployé Skype entreprise Online, notamment le balisage QoS
 
 Lorsque vous préparez la mise en œuvre de la qualité de service (QoS), gardez à l’esprit les recommandations suivantes :
 
-- Le chemin d’accès le plus rapide à Office 365 est préférable.
+- Le chemin le plus court vers Microsoft 365 ou Office 365 est préférable.
 - La fermeture des ports entraîne uniquement une dégradation de la qualité.
 - Tout obstacle, tel qu’un proxy, n’est pas recommandé.
 - Limiter le nombre de tronçons :
@@ -158,7 +158,7 @@ Lorsque vous préparez la mise en œuvre de la qualité de service (QoS), gardez
   - Fournisseur de services Internet pour Microsoft Network Edge – 3 tronçons
   - Destination réseau Microsoft de destination finale-sans pertinence
 
-Pour plus d’informations sur la configuration des ports de pare-feu, voir [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md).
+Pour plus d’informations sur la configuration des ports de pare-feu, consultez les [URL et les plages d’adresses IP de Microsoft 365 et Office 365](office-365-urls-ip-address-ranges.md).
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Gestion des ports sources dans le centre d’administration teams
 

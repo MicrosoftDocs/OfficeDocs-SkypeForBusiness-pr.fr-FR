@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539491"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665156"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -84,7 +84,7 @@ Lorsque l’emplacement doit être associé au numéro de téléphone dépend du
 
 - Aux États-Unis et au Canada, par exemple, un emplacement d’urgence est requis lorsqu’un numéro est attribué à un utilisateur.
 
-- Pour les autres pays &mdash; (par exemple, en Europe, Moyen Orient et Afrique (EMEA), &mdash; un emplacement d’urgence est requis lorsque vous recevez le numéro de téléphone d’Office 365 ou lorsqu’il est transféré à partir d’un autre fournisseur ou opérateur de services.
+- Pour les autres pays (par exemple, en Europe, Moyen Orient et Afrique (EMEA) : un emplacement d’urgence est requis lorsque vous recevez le numéro de téléphone de Microsoft 365 ou Office 365, ou lorsqu’il est transféré à partir d’un autre fournisseur ou opérateur de services.
 
 ### <a name="dynamic-emergency-calling"></a>Appels d’urgence dynamiques
 
@@ -211,7 +211,7 @@ Une stratégie d’appel d’urgence peut être accordée à un compte d’utili
 Au cours d’un appel d’urgence, un support technique est retenu dans le cadre de l’appel et l’utilisateur du support technique est contrôlé en fonction de la stratégie d’appel d’urgence Teams. Une discussion de groupe est lancée pour chaque membre du support technique et l’emplacement de l’appelant d’urgence est partagé par le biais d’une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du support technique peut également être appelé dans le cadre de la Conférence.
 
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)

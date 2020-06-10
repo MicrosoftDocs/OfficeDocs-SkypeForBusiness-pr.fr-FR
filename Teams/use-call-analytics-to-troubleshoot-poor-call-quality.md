@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez les détails d’analyse des appels sur les appareils, les réseaux et la connectivité pour résoudre les problèmes liés aux utilisateurs de Microsoft Teams, ainsi que les réunions et les appels Skype entreprise.
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749561"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665246"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 
-L’analyse des appels vous permet de résoudre les problèmes liés aux appels ou à la connexion avec Microsoft teams et Skype entreprise. L’analyse des appels affiche des informations détaillées sur les périphériques, les réseaux et la connectivité pour les appels et les réunions de chaque utilisateur de votre compte 365 Office. Si des informations de construction, de site et de client ont été ajoutées à l’analyse des appels, celles-ci s’afficheront également pour chaque appel et chaque session. Les informations disponibles dans le cadre de la procédure d’analyse des appels peuvent vous aider à déterminer la raison pour laquelle l’utilisateur a rencontré des problèmes de connexion ou de réunion. 
+L’analyse des appels vous permet de résoudre les problèmes liés aux appels ou à la connexion avec Microsoft teams et Skype entreprise. L’analyse des appels fournit des informations détaillées sur les périphériques, les réseaux et la connectivité pour les appels et les réunions de chaque utilisateur de votre compte Microsoft 365 ou Office 365. Si des informations de construction, de site et de client ont été ajoutées à l’analyse des appels, celles-ci s’afficheront également pour chaque appel et chaque session. Les informations disponibles dans le cadre de la procédure d’analyse des appels peuvent vous aider à déterminer la raison pour laquelle l’utilisateur a rencontré des problèmes de connexion ou de réunion. 
   
 ## <a name="call-analytics-permissions"></a>Autorisations d’analyse des appels
 
@@ -60,7 +60,7 @@ Pour plus d’informations sur les autorisations, voir les informations de l’a
 
 1. Connectez-vous à l’aide des informations d’identification de votre équipe ou de votre administrateur d’équipe.
 
-2. Dans votre navigateur Web, accédez *https://admin.teams.microsoft.com*à.
+2. Dans votre navigateur Web, accédez à *https://admin.teams.microsoft.com* .
     
 3. Dans le **tableau de bord**, dans recherche de l' **utilisateur**, commencez à taper le nom ou l’adresse SIP de l’utilisateur dont vous souhaitez résoudre les appels ou sélectionnez **afficher les utilisateurs** pour afficher une liste d’utilisateurs.
     
@@ -88,7 +88,7 @@ Le tableau suivant répertorie les problèmes liés à la qualité des sessions 
 |Appel médiocre du réseau audio  <br/> |Session  <br/> |Des problèmes liés à la qualité du réseau (par exemple, perte de paquets, gigue, dégradation NMOS, RTT ou rapport masqué) ont été détectés. Pour plus d’informations sur les conditions utilisées pour classifier les appels médiocres, reportez-vous à ce [billet de blog Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |L’appareil ne fonctionne pas  <br/> |Device  <br/> | Un appareil ne fonctionne pas correctement. Taux de fonctionnement de l’appareil hors fonctionnement : <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)

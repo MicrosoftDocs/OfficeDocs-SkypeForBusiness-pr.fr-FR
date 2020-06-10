@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591294"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666106"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -78,6 +78,7 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 | Fabricant        | Sous                                                     | Complète      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra              | Utiliser la fonctionnalité vocale 750 avec dongle USB Jabra 370 Link       | 5/21/2020 | Certifiés pour Microsoft teams|
 | EPOS                | Casque 660 de carte Sennheiser                              | 5/15/2020      | Certifiés pour Microsoft teams                          |
 | EPOS                | Casque 560 de carte Sennheiser                              | 5/15/2020      | Certifiés pour Microsoft teams                          |
 | EPOS                | Casque Sennheiser 460T                             | 5/15/2020      | Certifiés pour Microsoft teams                          |

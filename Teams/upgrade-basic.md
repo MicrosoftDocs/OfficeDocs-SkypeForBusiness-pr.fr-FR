@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Pour passer d’une configuration de base de Skype entreprise à la configuration de Microsoft Teams, suivez ce plan d’action accéléré en dix étapes.
 localization_priority: Normal
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904469"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666226"
 ---
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
@@ -50,7 +50,7 @@ Qu’arrive-t-il à Skype entreprise après la mise à niveau ? Une fois vos ut
 
 Pour plus d’informations sur la mise à niveau, consultez notre [Forum aux questions](https://aka.ms/SkypeToTeams-FAQ) .
 
-Vous ne connaissez pas les équipes ? [Apprenez-en davantage sur la façon dont les équipes](https://products.office.com/microsoft-teams/group-chat-software) réunissent les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en fournissant un seul Hub pour le travail en équipe dans Office 365.
+Vous ne connaissez pas les équipes ? [Apprenez-en davantage sur la façon dont les équipes](https://products.office.com/microsoft-teams/group-chat-software) regroupent les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en fournissant un seul concentrateur pour le travail en équipe dans Microsoft 365 et Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -100,7 +100,7 @@ Les utilisateurs en profondeur sur Skype entreprise peuvent avoir besoin de plus
 
 **Ressources**
 
-- [Afficher les données d’utilisation dans les rapports d’activité dans Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Rapports 365 Microsoft dans le centre d’administration](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -164,7 +164,7 @@ Les utilisateurs ont occupé leurs responsabilités quotidiennes. Les rappels de
 
 *(Jour de la mise à niveau)*
 
-C’est aujourd’hui que votre organisation est officiellement mise à niveau vers teams en tant que solution de communication et de collaboration. Dans le centre d’administration de Microsoft Teams, activez le commutateur de mise à niveau en définissant le mode de coexistence sur **équipes uniquement**. (Dans le centre d’administration, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation.) Les utilisateurs reçoivent une notification dans leur client Skype entreprise qu’ils ont été mis à niveau en équipes.
+C’est aujourd’hui que votre organisation est officiellement mise à niveau vers teams en tant que solution de communication et de collaboration. Dans le centre d’administration de Microsoft Teams, activez le commutateur de mise à niveau en définissant le mode de coexistence sur **équipes uniquement**. (Dans le centre d’administration, accédez à **paramètres**  >  à l’échelle de l’organisation. **Mise à niveau des équipes**.) Les utilisateurs reçoivent une notification dans leur client Skype entreprise qu’ils ont été mis à niveau en équipes.
 
 Nous vous recommandons d’avoir effectué une mise à niveau de tout le monde, vous envoyez un courrier électronique à vos équipes.
 

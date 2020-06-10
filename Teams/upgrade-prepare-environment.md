@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa61c739910e00a277f6c3f201222ac5eb782da
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523017"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666046"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers teams
 
@@ -43,7 +43,7 @@ Pour améliorer la mise à niveau de vos équipes au sein de votre organisation,
 Effectuez les activités suivantes en parallèle avec votre préparation de l’utilisateur :
 
 - [Préparez votre équipe informatique](upgrade-prepare-IT-pros.md) pour vous assurer qu’elle a son besoin pour réussir la mise à niveau.
-- Vérifiez que votre environnement répond à toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md)et comprenez les dépendances entre les services et les équipes Office 365.
+- Vérifiez que votre environnement répond à toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md)et comprenez les dépendances entre les services et équipes Microsoft 365 ou Office 365.
 - [Évaluez votre environnement](upgrade-plan-journey-evaluate-environment.md) en effectuant une découverte environnementale en utilisant un exemple de questionnaire pour confirmer la volonté de votre organisation de procéder à une mise à niveau réussie vers Teams.
 - [Préparez votre réseau](prepare-network.md) par le biais d’une planification, d’une préparation et de toutes les étapes de correction nécessaires pour votre réseau pour la prise en charge des charges de travail d’équipes.
 - [Préparez votre service pour le](upgrade-prepare-environment-prepare-service.md) déploiement à l’aide d’une liste de contrôle d’intégration afin de vous assurer que la configuration de vos équipes est prête pour la prise en charge de la migration de vos utilisateurs de Skype entreprise vers Teams.

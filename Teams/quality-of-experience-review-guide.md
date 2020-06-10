@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 755be709a6d1aa0093478c0e614346fe319b0bde
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918723"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666206"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité 
 
@@ -94,11 +94,11 @@ _Tableau 1-indicateurs de qualité audio médiocres_
 
 | Moyenne métrique     | Description     | Expérience utilisateur |
 |-------------|-----------------|-----------------|
-| Scintillement \>de 30 ms        | Il s’agit de la modification moyenne du délai entre les paquets successifs. Les équipes et Skype entreprise peuvent s’adapter à certains niveaux de scintillement par le biais de la mise en mémoire tampon. C’est uniquement lorsque l’instabilité est supérieure à la mise en mémoire tampon qu’un participant a remarqué les effets de gigue.      | Les paquets entrants à des vitesses différentes peuvent entraîner le son de la voix du haut-parleur.   |
-| Taux \>de perte de paquets de 10% ou 0,1        | Il s’agit généralement du pourcentage de paquets perdus. La perte de paquets a un effet direct sur la qualité audio (par rapport aux petits paquets perdus) qui n’ont quasiment aucun impact sur les pertes de Burst en retour à la fin de l’audio.     | Les paquets en cours de rejet et ne sont pas à l’origine de la destination prévue dans le média, ce qui génère des syllabes et des mots manqués, ainsi que la vidéo et le partage saccadés. |
-| Durée \>de l’aller-retour 500 ms        | Il s’agit du temps nécessaire à l’obtention d’un paquet IP entre le point A et le point B et de nouveau au point A. Ce délai de propagation du réseau est lié à la distance physique entre les deux points et la vitesse de lumière, et inclut une surcharge supplémentaire prélevée par les divers appareils dans le chemin réseau.      | Les paquets prenant trop de temps pour arriver à leur destination entraînent un effet de diaphonie.   |
-| NMOS moyenne \>1,0         | Dégradation moyenne d' [avis du réseau (NMOS)](https://docs.microsoft.com/previous-versions/office/communications-server/bb894481(v=office.12)#network-mos) pour le flux. Représente le niveau de perte et de scintillation du réseau ayant affecté la qualité du son reçu et à l’origine du NMOS. | Il s’agit d’une combinaison de gigue, de perte de paquets et, à un niveau inférieur, d’une durée d’aller-retour accrue. Il est possible que l’utilisateur rencontre une combinaison des symptômes suivants.   |
-| Taux moyen d’échantillons \>masqués 7% ou 0,07 | Rapport moyen du nombre de trames audio et d’échantillons masqués générés par la correction de perte de paquets sur le nombre total de trames audio. Un échantillon audio dissimulé est une technique permettant de lisser la transition brutale qui serait généralement provoquée par des paquets réseau interrompus.      | Les valeurs élevées indiquent qu’un masquage de niveau de perte élevé a été appliqué et qu’un son est altéré ou perdu.     |
+| Scintillement de \> 30 ms        | Il s’agit de la modification moyenne du délai entre les paquets successifs. Les équipes et Skype entreprise peuvent s’adapter à certains niveaux de scintillement par le biais de la mise en mémoire tampon. C’est uniquement lorsque l’instabilité est supérieure à la mise en mémoire tampon qu’un participant a remarqué les effets de gigue.      | Les paquets entrants à des vitesses différentes peuvent entraîner le son de la voix du haut-parleur.   |
+| Taux de perte \> de paquets de 10% ou 0,1        | Il s’agit généralement du pourcentage de paquets perdus. La perte de paquets a un effet direct sur la qualité audio (par rapport aux petits paquets perdus) qui n’ont quasiment aucun impact sur les pertes de Burst en retour à la fin de l’audio.     | Les paquets en cours de rejet et ne sont pas à l’origine de la destination prévue dans le média, ce qui génère des syllabes et des mots manqués, ainsi que la vidéo et le partage saccadés. |
+| Durée de l’aller-retour \> 500 ms        | Il s’agit du temps nécessaire à l’obtention d’un paquet IP entre le point A et le point B et de nouveau au point A. Ce délai de propagation du réseau est lié à la distance physique entre les deux points et la vitesse de lumière, et inclut une surcharge supplémentaire prélevée par les divers appareils dans le chemin réseau.      | Les paquets prenant trop de temps pour arriver à leur destination entraînent un effet de diaphonie.   |
+| NMOS moyenne \> 1,0         | Dégradation moyenne d' [avis du réseau (NMOS)](https://docs.microsoft.com/previous-versions/office/communications-server/bb894481(v=office.12)#network-mos) pour le flux. Représente le niveau de perte et de scintillation du réseau ayant affecté la qualité du son reçu et à l’origine du NMOS. | Il s’agit d’une combinaison de gigue, de perte de paquets et, à un niveau inférieur, d’une durée d’aller-retour accrue. Il est possible que l’utilisateur rencontre une combinaison des symptômes suivants.   |
+| Taux moyen d’échantillons masqués \> 7% ou 0,07 | Rapport moyen du nombre de trames audio et d’échantillons masqués générés par la correction de perte de paquets sur le nombre total de trames audio. Un échantillon audio dissimulé est une technique permettant de lisser la transition brutale qui serait généralement provoquée par des paquets réseau interrompus.      | Les valeurs élevées indiquent qu’un masquage de niveau de perte élevé a été appliqué et qu’un son est altéré ou perdu.     |
 
 #### <a name="setup-failure-rate"></a>Taux d’échec d’installation
 
@@ -198,7 +198,7 @@ Le succès de l’opération de déploiement de grande qualité et fiable dépen
 
     -   Tout d’abord, il incombe à Microsoft de gérer et de tenir à jour les équipes et services Skype entreprise online.
 
-    -   Deuxièmement les tâches que votre organisation doit gérer pour garantir un accès fiable au service, par exemple, la mise à jour des informations de bâtiment et la maintenance des pare-feu pour les nouvelles adresses IP Office 365 lors de l’ajout d’une infrastructure au service.
+    -   Deuxièmement les tâches que votre organisation doit gérer pour garantir un accès fiable au service, comme la mise à jour des informations de bâtiment et la maintenance des pare-feu pour les nouvelles adresses IP Microsoft 365 ou Office 365 en tant qu’infrastructure ajoutée au service.
 
 ![Graphique des catégories de qualité dans une organisation](media/qerguide-image-categories.png "Catégories de qualité au sein d’une organisation : gestion du service, points de terminaison et réseau.")
 
@@ -213,7 +213,7 @@ La première fois que vous effectuez ces tâches, la première fois que vous eff
 
 #### <a name="service-management-tasks"></a>Tâches de gestion des services
 
-Dans un premier monde de niveau Cloud, vous devez effectuer certaines tâches de gestion de service pour garantir une expérience utilisateur de grande qualité. Ces tâches vont de s’assurer qu’il y a suffisamment de bande passante pour parvenir au service sans saturer les liens Internet, en validant la qualité de service (QoS) en place sur toutes les zones réseau gérées et en passant par le reste des [plages d’adresses IP d’Office 365 sur les pare-feu](https://aka.ms/o365ips).
+Dans un premier monde de niveau Cloud, vous devez effectuer certaines tâches de gestion de service pour garantir une expérience utilisateur de grande qualité. Les tâches suivantes permettent de s’assurer qu’il y a suffisamment de bande passante pour parvenir au service, sans saturer les liens Internet, en vérifiant que la qualité de service (QoS) est en place sur l’ensemble des zones réseau gérées et, enfin, en restant au-dessus des [plages d’adresses IP de Microsoft 365 et Office 365 sur les pare-feu](https://aka.ms/o365ips).
 
 #### <a name="network-tasks"></a>Tâches réseau
 
@@ -307,7 +307,7 @@ Certains rapports bord requièrent l’inclusion d’un filtre pour votre ID de 
 
 1. [Installez le module Microsoft Azure PowerShell Service Management](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2. Ouvrez une fenêtre de commande Azure PowerShell et exécutez le script suivant en entrant vos informations d’identification Office 365 lorsque vous y êtes invité : 
+2. Ouvrez une fenêtre de commande Azure PowerShell et exécutez le script suivant en entrant vos informations d’identification Microsoft 365 ou Office 365 lorsque vous y êtes invité :
 
    ```PowerShell
    Login-AzureRmAccount
@@ -460,7 +460,7 @@ Vous pouvez accéder à bord de l’une des trois manières suivantes :
 
     _Figure 7 : accès à bord par le biais du centre d’administration Microsoft teams_
 
--   Accédez à l’ancien > **Outils**du **Centre d’administration Skype entreprise**et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
+-   Accédez à l’ancien outils du **Centre d’administration Skype entreprise**  >  **tools**et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
 
     ![Capture d’écran de bord sélectionnée dans le volet principal.](media/qerguide-image-legacyui.png "Outils est sélectionné dans le volet de navigation gauche, et le lien vers bord est sélectionné dans le volet principal.")
 
@@ -498,7 +498,7 @@ Lorsque vous sélectionnez **modifier** dans le menu action d’un rapport, vous
 
 |             |           |
 | ------------|-----------|
-| ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout1.png "unes") | Pour ce faire, vous pouvez choisir des dimensions, des mesures et des filtres dans le volet gauche. Pointez sur une valeur existante pour afficher un bouton de fermeture (**X**) que vous pouvez sélectionner pour supprimer la valeur.<ul><li>En sélectionnant la cote ou la mesure, vous pouvez modifier le titre en modifiant le champ de **titre** . Vous pouvez également modifier l’ordre en cliquant sur les flèches bleu vers le haut ou le bas dans le volet supérieur.</li><li>Sélectionner (**+**) en regard d’un titre permet d’ouvrir la boîte de dialogue permettant d’ajouter une nouvelle dimension, mesure ou filtre.</li><li>Entrez les premières lettres de la dimension, de la mesure ou du filtre dans le champ **Rechercher** pour filtrer la liste et faciliter la recherche.</li></ul> |
+| ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout1.png "unes") | Pour ce faire, vous pouvez choisir des dimensions, des mesures et des filtres dans le volet gauche. Pointez sur une valeur existante pour afficher un bouton de fermeture (**X**) que vous pouvez sélectionner pour supprimer la valeur.<ul><li>En sélectionnant la cote ou la mesure, vous pouvez modifier le titre en modifiant le champ de **titre** . Vous pouvez également modifier l’ordre en cliquant sur les flèches bleu vers le haut ou le bas dans le volet supérieur.</li><li>Sélectionner ( **+** ) en regard d’un titre permet d’ouvrir la boîte de dialogue permettant d’ajouter une nouvelle dimension, mesure ou filtre.</li><li>Entrez les premières lettres de la dimension, de la mesure ou du filtre dans le champ **Rechercher** pour filtrer la liste et faciliter la recherche.</li></ul> |
 | ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout2.png "Color") | Le volet supérieur affiche des options de personnalisation du graphique. |
 | ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout3.png "suivantes") | L’éditeur de requête affiche un aperçu de l’État. |
 | ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/qerguide-image-callout4.png "trois") | Utilisez la zone d' **édition** en bas de l’écran pour créer ou modifier une description détaillée du rapport. |
@@ -537,7 +537,7 @@ Example
 
 
 > [!NOTE]
-> Les exemples d’URL ci-dessus sont uniquement destinés à la représentation visuelle. Utilisez le lien bord par défaut de <https://cqd.teams.microsoft.com>.
+> Les exemples d’URL ci-dessus sont uniquement destinés à la représentation visuelle. Utilisez le lien bord par défaut de <https://cqd.teams.microsoft.com> .
 
 
 #### <a name="query-filters"></a>Filtres de requête
@@ -548,8 +548,8 @@ _Tableau 3 : filtres de requête_
 
 | Filtre         | Description          | Exemple de filtre de requête bord      |
 |----------------|----------------------|-------------------------------|
-| Pas de valeurs non renseignées   | Certains filtres n’ont pas la possibilité de filtrer les valeurs vides. Pour filtrer les valeurs vides manuellement, utilisez l’expression vide et définissez le filtre sur égal à ou différent de selon vos besoins.      | \< \> Nom \^du \\deuxième bâtiment\*\$                       |
-| Exclure les sous-réseaux courants | Si vous n’avez pas de fichier de construction valide pour séparer la gestion de réseaux non gérés, les réseaux domestiques seront inclus dans les rapports. Ces sous-réseaux personnels se trouvent en dehors de la portée du contrôle et peuvent être rapidement exclus d’un rapport. Les sous-réseaux courants, tels que définis dans ce guide, sont 10.0.0.0, 192.168.1.0 et 192.168.0.0. | Deuxième sous \< \> - \| réseau \| 10.0.0.0 192.168.0.0 192.168.1.0 |
+| Pas de valeurs non renseignées   | Certains filtres n’ont pas la possibilité de filtrer les valeurs vides. Pour filtrer les valeurs vides manuellement, utilisez l’expression vide et définissez le filtre sur égal à ou différent de selon vos besoins.      | Nom du deuxième bâtiment \<\> \^ \\\*\$                       |
+| Exclure les sous-réseaux courants | Si vous n’avez pas de fichier de construction valide pour séparer la gestion de réseaux non gérés, les réseaux domestiques seront inclus dans les rapports. Ces sous-réseaux personnels se trouvent en dehors de la portée du contrôle et peuvent être rapidement exclus d’un rapport. Les sous-réseaux courants, tels que définis dans ce guide, sont 10.0.0.0, 192.168.1.0 et 192.168.0.0. | Deuxième sous-réseau \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | Affichage intérieur uniquement  | Utilisé pour filtrer un rapport pour une gestion (interne) ou non gérée (à l’extérieur). Le modèle bord géré est déjà préconfiguré avec ces filtres.       | Deuxième dans l’entreprise = intérieur        |
 
 #### <a name="report-filters"></a>Filtres de rapport
@@ -563,7 +563,7 @@ _Tableau 4 : filtres de rapport_
 | Month      | Commencez par l’année, puis mois. | 2017-10                           |
 | Alphabétique | Filtre tout caractère alphabétique. | [a-z]                             |
 | Numériques    | Filtre tout caractère numérique.    | [0-9]                             |
-| Pourcentage | Filtres pour un pourcentage.              | ([3-9]\\.) \|([3-9])\|([1-9] [0-9]) |
+| Pourcentage | Filtres pour un pourcentage.              | ([3-9] \\ .) \| ([3-9]) \| ([1-9] [0-9]) |
 
 ## <a name="import-the-cqd-templates"></a>Importer les modèles bord
 
@@ -573,7 +573,7 @@ Ce guide inclut [deux modèles bord](https://aka.ms/qertemplates). Ces modèles 
 
 1. Accédez à <https://cqd.teams.microsoft.com>.
 
-2. S’authentifier à l’aide de vos informations d’identification d’administration Office 365.
+2. S’authentifier à l’aide de vos informations d’identification d’administrateur Microsoft 365 ou Office 365.
 
    > [!NOTE]
    > Pour accéder à bord, vous devez avoir le rôle d’administrateur général, d’administrateur Skype entreprise ou de lecteurs de rapport. 
@@ -667,7 +667,7 @@ Voici quelques éléments à prendre en compte avant d’implémenter le super-r
 
 #### <a name="vpn"></a>VPN
 
-Les données de qualité de l’expertise que les clients envoient à Office 365 (qui est l’endroit où les données bord sont sources) incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Il existe deux approches permettant d’accueillir les sous-réseaux VPN dans le fichier de construction des informations :
+Les données de qualité de l’expertise que les clients envoient à Microsoft 365 ou Office 365, à partir duquel les données bord sont sources, incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Il existe deux approches permettant d’accueillir les sous-réseaux VPN dans le fichier de construction des informations :
 
 - Définissez un **nom de réseau** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux VPN.
 
@@ -692,7 +692,7 @@ Les données de qualité de l’expertise que les clients envoient à Office 365
 
 Le tableau de bord des rapports de synthèse de bord inclut une page de **téléchargement de données de client** accessible en sélectionnant la balise lien de téléchargement de données du **client** dans le coin supérieur droit (recherchez l’icône d’engrenage). Cette page est utilisée pour permettre aux administrateurs de télécharger leurs propres informations, par exemple le mappage de l’adresse IP et des informations géographiques, le mappage de chaque point d’accès sans fil et son adresse MAC, etc.
 
-1. Accédez à bord Online en accédant <https://cqd.teams.microsoft.com>à.
+1. Accédez à bord Online en accédant à <https://cqd.teams.microsoft.com> .
 
 2. Sélectionnez l’icône d’engrenage dans le coin supérieur droit, puis choisissez **Télécharger les données du client** dans la page **rapports de synthèse** .
 
@@ -847,7 +847,7 @@ _Tableau 7 : raisons de l’échec de configuration d’un appel_
 | Raison de l’échec de configuration d’un appel       | Cause classique                    |
 |----------------------------------|----------------------------------|
 | Règle d’exemption de paquets | Indique que les équipements réseau en fonction du chemin d’accès ont empêché l’établissement du chemin d’accès multimédia en raison de règles de vérification approfondie des paquets. Cela peut être dû au fait que les règles de pare-feu ne sont pas correctement configurées. Dans ce scénario, l’établissement d’une connexion TCP réussie, mais pas la connexion SSL.      |
-| Règle d’exception de bloc IP FW manquante      | Indique que les équipements réseau en fonction du chemin d’accès ont empêché le chemin multimédia d’être établis au réseau Office 365. Cela peut être dû au fait que des règles de proxy ou de pare-feu ne sont pas correctement configurées pour autoriser l’accès aux adresses IP et aux ports utilisés pour le trafic des équipes et Skype entreprise. |
+| Règle d’exception de bloc IP FW manquante      | Indique que les équipements réseau en fonction du chemin d’accès ont empêché le chemin multimédia d’être établis au réseau Microsoft 365 ou Office 365. Cela peut être dû au fait que des règles de proxy ou de pare-feu ne sont pas correctement configurées pour autoriser l’accès aux adresses IP et aux ports utilisés pour le trafic des équipes et Skype entreprise. |
 
 Dès lors que vous commencez votre politique de correction, vous pouvez vous concentrer sur un immeuble ou un sous-réseau particulier. Comme décrit dans le tableau ci-dessus, ces problèmes sont dus à des configurations de pare-feu ou de proxy. Passez en revue les options du tableau suivant pour les actions de correction.
 
@@ -856,7 +856,7 @@ _Tableau 8-étapes suivantes pour la mise à jour de l’échec de configuration
 
 |      Remediation      |                                                                                                                                                                                                                                                                                                                                                                   Aide                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configurer un ou plusieurs pare-feu | Travaillez avec votre équipe réseau et vérifiez la configuration de votre pare-feu par rapport à [la liste d’adresses IP d’Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les [sous-réseaux](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) et ports de média sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (indiqués ci-dessous) sont ouverts dans le pare-feu. La priorité du protocole UDP doit être donnée, car TCP est considéré comme un protocole de restauration automatique pour le partage d’écran audio, vidéo et vidéo, et son utilisation affectera la qualité de l’appel. Le partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP :** port 443</li><li>**UDP :** ports 3478 – 3481</li><ul> |
+| Configurer un ou plusieurs pare-feu | Travaillez avec votre équipe réseau et vérifiez la configuration de votre pare-feu par rapport à [la liste d’adresses IP Microsoft 365 et Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les [sous-réseaux](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) et ports de média sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (indiqués ci-dessous) sont ouverts dans le pare-feu. La priorité du protocole UDP doit être donnée, car TCP est considéré comme un protocole de restauration automatique pour le partage d’écran audio, vidéo et vidéo, et son utilisation affectera la qualité de l’appel. Le partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP :** port 443</li><li>**UDP :** ports 3478 – 3481</li><ul> |
 |        Vérifier         |                                                                                                                                                                                                                                                                 Utilisez l' [outil Microsoft Network Assessment](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier la connectivité du bâtiment ou du sous-réseau affecté à l’aide de la fonction de vérification de la connectivité.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Ignorer les échecs
@@ -1006,7 +1006,7 @@ _Tableau 10 : contributeurs courants aux V.Q.P.R.D._
 
 Le protocole TCP est considéré comme un transport de restauration automatique et non par le transport principal que vous voulez pour le média en temps réel. La raison pour laquelle il s’agit d’un transport de restauration automatique est due à la nature dynamique du protocole TCP. Par exemple, si un appel est effectué sur une connexion réseau latente et que les paquets multimédias sont retardés, il y a plus de quelques secondes (qui n’ont plus besoin de la bande passante pour accéder au destinataire), ce qui peut compliquer le problème. Ainsi, le son de la fonction de correction audio et le son s’étirent, ce qui engendre des artefacts audibles, souvent sous la forme d’un scintillement.
 
-Les rapports de cette section ne font pas de distinction entre les flux Good et médiocre. Dans la plupart des cas, il est préférable d’utiliser le protocole TCP pour le partage d’écran vidéo et audio (VBSS). Des débits de flux médiocres permettent de comparer la qualité UDP et la qualité TCP, afin que vous puissiez vous concentrer sur la meilleure qualité de vos efforts. L’utilisation de TCP est principalement causée par des règles de pare-feu incomplètes. Pour plus d’informations sur les règles de pare-feu pour les équipes et Skype entreprise Online, voir [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips).
+Les rapports de cette section ne font pas de distinction entre les flux Good et médiocre. Dans la plupart des cas, il est préférable d’utiliser le protocole TCP pour le partage d’écran vidéo et audio (VBSS). Des débits de flux médiocres permettent de comparer la qualité UDP et la qualité TCP, afin que vous puissiez vous concentrer sur la meilleure qualité de vos efforts. L’utilisation de TCP est principalement causée par des règles de pare-feu incomplètes. Pour plus d’informations sur les règles de pare-feu pour les équipes et Skype entreprise Online, voir les [URL et plages d’adresses IP de Microsoft 365 et Office 365](https://aka.ms/o365ips).
 
 > [!Important]
 > Il est vivement recommandé de disposer d’un [fichier de construction valide](#building-mapping) dans les flux extérieurs lorsque vous examinez l’utilisation de TCP.
@@ -1018,8 +1018,8 @@ Les rapports de cette section ne font pas de distinction entre les flux Good et 
 
 Les rapports TCP indiquent l’utilisation globale du protocole TCP au cours des sept derniers mois. Dans cette section, tous les rapports supplémentaires visent à affiner les bâtiments et sous-réseaux spécifiques pour lesquels TCP est le plus souvent utilisé. Des rapports distincts sont disponibles pour les conférences et les flux à deux parties.
 
-![Graphique illustrant le pourcentage de flux audio qui utilisent](media/qerguide-image-audiostreamswithtcp.png)
-TCP_figure 25 – flux audio avec utilisation de TCP_
+![Graphique illustrant le pourcentage de flux audio qui utilisent TCP ](media/qerguide-image-audiostreamswithtcp.png)
+ _figure 25 – flux audio avec utilisation de TCP_
 
 
 ##### <a name="investigation"></a>Procédure
@@ -1070,8 +1070,8 @@ _Tableau 11-Instructions de correction pour les flux TCP par bâtiment et sous-r
 
 | Remediation        | Aide     |
 |--------------------|--------------------------------------|
-| Configuration du pare-feu | Vérifiez que les [adresses IP et adresses IP d’Office 365](https://aka.ms/o365ips) sont exclues de votre pare-feu. Pour les problèmes TCP liés aux médias, concentrez-vous sur les points suivants :<ul><li>Vérifiez que les sous-réseaux multimédias du client 13.107.64.0/18 et 52.112.0.0/14 se trouvent dans les règles de pare-feu.</li><li>Ports UDP 3478 – 3481 sont les ports multimédias requis et doivent être ouverts, sinon le client bascule à nouveau vers le port 443.</li></ul> |
-| Vérifier             | Utilisez l' [outil Microsoft Network Assessment](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier les problèmes de connectivité avec des adresses IP et des ports Office 365 spécifiques du bâtiment ou du sous-réseau concernés.    |
+| Configuration du pare-feu | Vérifiez que les [adresses IP de Microsoft 365 ou Office 365](https://aka.ms/o365ips) sont exclues de votre pare-feu. Pour les problèmes TCP liés aux médias, concentrez-vous sur les points suivants :<ul><li>Vérifiez que les sous-réseaux multimédias du client 13.107.64.0/18 et 52.112.0.0/14 se trouvent dans les règles de pare-feu.</li><li>Ports UDP 3478 – 3481 sont les ports multimédias requis et doivent être ouverts, sinon le client bascule à nouveau vers le port 443.</li></ul> |
+| Vérifier             | Utilisez l' [outil Microsoft Network Assessment](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier les problèmes liés à la connectivité à des adresses IP Microsoft 365 ou Office 365 spécifiques et aux ports du bâtiment ou du sous-réseau concernés.    |
 
 ### <a name="http-proxy"></a>Proxy HTTP
 
@@ -1096,7 +1096,7 @@ _Figure 28 : flux audio avec utilisation du proxy HTTP_
 
 Vous voulez voir le plus petit flux multimédia HTTP possible. Si des flux traversent votre proxy, consultez votre équipe réseau pour vous assurer que les exclusions appropriées sont en place afin que les clients effectuent un routage direct vers teams ou des sous-réseaux multimédias Skype entreprise online.
 
-Si votre organisation ne comporte qu’un seul proxy Internet, vérifiez les [URL d’Office 365 appropriées et les exclusions de plages d’adresses IP](https://aka.ms/o365ips). S’il existe plusieurs proxy Internet au sein de votre organisation, utilisez le sous-rapport HTTP pour isoler le bâtiment ou le sous-réseau concerné.
+Si votre organisation ne comporte qu’un seul proxy Internet, vérifiez les [URL d’URL et de plages d’adresses IP appropriées Microsoft 365 ou Office 365](https://aka.ms/o365ips). S’il existe plusieurs proxy Internet au sein de votre organisation, utilisez le sous-rapport HTTP pour isoler le bâtiment ou le sous-réseau concerné.
 
 S’il s’agit d’organisations qui ne peuvent pas ignorer le proxy, assurez-vous que le client Skype entreprise est configuré de manière à se connecter correctement lorsqu’il se trouve derrière un proxy, comme indiqué dans l’article [Skype entreprise doit utiliser un serveur proxy pour se connecter au lieu d’essayer une connexion directe](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
@@ -1121,7 +1121,7 @@ Nous vous [recommandons](proxy-servers-for-skype-for-business-online.md) de touj
 
 La cause la plus fréquente de l’utilisation de HTTP est le manque de règles d’exception dans les proxys. En utilisant le bâtiment ou le sous-réseau fourni, vous pouvez déterminer rapidement quel proxy doit être configuré pour la dérivation multimédia.
 
-Vérifiez que les noms de [domaine complets Office 365](https://aka.ms/o365ips) requis sont autorisés dans votre proxy.
+Vérifiez que les noms de [domaine complets Microsoft 365 ou Office 365](https://aka.ms/o365ips) requis sont autorisés dans votre proxy.
 
 ## <a name="endpoint-investigations"></a>Investigations de points de terminaison
 
@@ -1166,7 +1166,7 @@ Il est également important de prendre en considération et de s’assurer que l
 
 Pour plus d’informations sur Skype entreprise, consultez les liens ci-dessous :
 
--   [Informations de publication des mises à jour d’Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
+-   [Informations de publication des mises à jour apportées aux applications Microsoft 365](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Historique des mises à jour pour les applications Microsoft 365 pour les entreprises](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Téléchargements et mises à jour de Skype Entreprise](/SkypeForBusiness/software-updates)
 
@@ -1221,11 +1221,11 @@ Les pilotes Wi-Fi doivent également être corrigés en une cadence normale et �
 
 ## <a name="appendix"></a>A 
 
-### <a name="office-365-network-connectivity-principles"></a>Principes de connectivité réseau d’Office 365
+### <a name="network-connectivity-principles"></a>Principes de connectivité réseau
 
-Avant de commencer la planification de votre réseau pour la connectivité réseau à Office 365, il est important de comprendre les principes de connectivité pour gérer le trafic Office 365 en toute sécurité et obtenir les meilleures performances possibles. Les articles suivants vous aideront à comprendre les recommandations les plus récentes pour optimiser la connectivité réseau d’Office 365 :
+Avant de commencer la planification de votre réseau pour Microsoft 365 ou la connectivité réseau d’Office 365, il est important de bien comprendre les principes de connectivité pour gérer en toute sécurité le trafic Microsoft 365 ou Office 365 et obtenir les meilleures performances possibles. Les articles suivants vous aideront à comprendre les recommandations les plus récentes pour optimiser la connectivité réseau :
 
-[Principes de connectivité réseau d’Office 365](https://aka.ms/pnc)
+[Principes de connectivité réseau de Microsoft 365 et Office 365](https://aka.ms/pnc)
 
 ### <a name="planning-for-wi-fi"></a>Planification du Wi-Fi
 

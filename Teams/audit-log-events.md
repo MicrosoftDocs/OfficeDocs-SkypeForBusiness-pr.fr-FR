@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416734"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665636"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -93,7 +93,7 @@ Dans cette section, vous pouvez passer en revue les correspondances à la strat�
 
 ### <a name="mass-delete-scenario"></a>Scénario de suppression massive
 
-Comme mentionné plus haut, vous pouvez surveiller des scénarios de suppression. Il est possible de créer une stratégie qui surveillerait la suppression massive des sites d’équipe. Dans cet exemple, une stratégie basée sur une alerte est configurée pour détecter la suppression massive d’équipes dans une durée de 30 minutes. 
+Comme mentionné plus haut, vous pouvez surveiller des scénarios de suppression. Il est possible de créer une stratégie qui surveillerait la suppression massive des sites d’équipe. Dans cet exemple, une stratégie basée sur une alerte est configurée pour détecter la suppression massive d’équipes dans une durée de 30 minutes.
 
 ![Capture d’écran de la page de création d’une stratégie montrant la création d’une stratégie pour la détection de suppression d’équipe en masse](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ Vous pouvez définir des alertes et envoyer des courriers électroniques aux adm
 
 Dans le cadre de la sécurité de l’application Cloud, les [stratégies de détection des anomalies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) fournissent aux utilisateurs et aux utilisateurs intégrés une analyse comportementale (UEBA) et des formations informatiques (ml), afin que vous puissiez immédiatement exécuter une détection avancée des menaces dans votre environnement Cloud. Étant donné qu’ils sont automatiquement activés, les nouvelles stratégies de détection d’anomalies fournissent des résultats immédiats en fournissant des détections immédiates, ciblant de nombreuses anomalies comportementales au sein de vos utilisateurs, et les ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données à partir du moteur de détection de la sécurité des applications Cloud pour vous aider à accélérer le processus d’examen et contenir les menaces actuelles.
 
-Nous travaillons à l’intégration des événements d’équipes dans des stratégies de détection d’anomalie. Pour le moment, vous pouvez configurer des stratégies de détection d’anomalie pour d’autres produits Office et effectuer des actions sur des utilisateurs qui correspondent à ces stratégies. 
+Nous travaillons à l’intégration des événements d’équipes dans des stratégies de détection d’anomalie. Pour le moment, vous pouvez configurer des stratégies de détection d’anomalie pour d’autres produits Office et effectuer des actions sur des utilisateurs qui correspondent à ces stratégies.
 
 ## <a name="teams-activities"></a>Activités dans teams
 
@@ -133,14 +133,21 @@ Voici la liste de tous les événements enregistrés pour les activités des uti
 |Rôle modifié de membres de l’équipe    |MemberRoleChanged         |Le propriétaire d’une équipe change le rôle des membres d’une équipe. Les valeurs suivantes indiquent le type de rôle affecté à l’utilisateur. <br><br>**1** -indique le rôle propriétaire.<br>**2** -indique le rôle membre.<br>**3** -indique le rôle invité.<br><br>La propriété Members comprend également le nom de votre organisation et l’adresse e-mail du membre.        |
 |Paramètre d’équipe modifié    |TeamSettingChanged        |L’opération TeamSettingChanged est journalisée lorsque les activités suivantes sont effectuées par un propriétaire d’équipe. Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses) s’affiche dans la colonne **Item** des résultats de la recherche dans le journal d’audit.<ul><li>Change le type d’accès d’une équipe. Les équipes peuvent être définies comme privées ou publiques (**type d’accès d’équipe**). Lorsqu’une équipe est privée (paramètre par défaut), les utilisateurs peuvent accéder à l’équipe uniquement par invitation. Lorsqu’une équipe est publique, elle est détectable par quiconque.</li><li>Modifie la classification des informations d’une équipe (**Team classification**). Par exemple, les données d’une équipe peuvent être classées comme ayant un impact élevé sur l’entreprise, ou avoir un impact faible sur l’activité.</li><li>Modifie le nom d’une équipe (**Team Name**).</li><li>Modifie la description de l’équipe (**Team Description**).</li><li>Modifications apportées aux paramètres de l’équipe. Pour accéder à ces paramètres, le propriétaire d’une équipe peut cliquer avec le bouton droit sur une équipe, sélectionner **gérer l’équipe**, puis cliquez sur l’onglet **paramètres** . Pour ces activités, le nom du paramètre modifié s’affiche dans la colonne **Item** des résultats de la recherche dans le journal d’audit.</li></ul>         |
 |Équipe créée    |TeamCreated         |Un utilisateur crée une équipe.         |
+|Suppression de toutes les applications de l’Organisation|DeletedAllOrganizationApps           |Suppression de toutes les applications de l’organisation du catalogue.     |
+|Application supprimée |AppDeletedFromCatalog           |Une application a été supprimée du catalogue.     |
 |Canal supprimé     |ChannelDeleted         |Un utilisateur supprime un canal d’une équipe.         |
 |Équipe supprimée  |TeamDeleted            |Un propriétaire d’équipe supprime une équipe.      |
+|Application installée |AppInstalled         |L’application a été installée.   |
+|Application publiée |AppPublishedToCatalog           |Une application a été ajoutée au catalogue.     |
 |Robot supprimé de l’équipe   |BotRemovedFromTeam         |Un utilisateur supprime un robot d’une équipe.       |
 |Connecteur supprimé     |ConnectorRemoved         |Un utilisateur supprime un connecteur d’un canal.         |
 |Membres supprimés    |MemberRemoved        |Le propriétaire d’une équipe supprime les membres d’une équipe, d’un canal ou d’une conversation de groupe.         |
 |Onglet supprimé    |TabRemoved         |Un utilisateur supprime un onglet d’un canal.         |
+|Application désinstallée |AppUninstalled           |Une application a été désinstallée.     |
+|Application mise à jour |AppUpdatedInCatalog           |Une application a été mise à jour dans le catalogue.     |
 |Connecteur mis à jour    |ConnectorUpdated         |Un utilisateur a modifié un connecteur dans un canal.         |
 |Onglet mise à jour   |TabUpdated         |Un utilisateur a modifié un onglet dans un canal.         |
+|Application mise à niveau |AppUpgraded           |Une application a été mise à niveau vers la dernière version dans le catalogue.     |
 |Utilisateur connecté à teams     |TeamsSessionStarted         |Un utilisateur se connecte à un client Microsoft Teams. Cet événement ne capture pas les activités d’actualisation des jetons.         |
 
 ## <a name="shifts-in-teams-activities"></a>Équipes dans les activités d’équipe
@@ -182,6 +189,6 @@ Si votre organisation utilise l’application Shifts dans Microsoft Teams, vous 
 
 Vous pouvez utiliser l’API activité de gestion d’Office 365 pour récupérer des informations sur les événements d’équipe. Pour en savoir plus sur le schéma de l’API activité de gestion pour Teams, voir [schéma d’équipe](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-- [Effectuer une recherche dans le journal d’audit dans le centre de conformité Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Effectuer une recherche dans le journal d’audit dans le centre de conformité Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

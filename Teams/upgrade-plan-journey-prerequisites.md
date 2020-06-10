@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9a5cd56e367b9255bd4c41b556583dcc921416a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523197"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666066"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Prérequis et dépendances environnementales pour les équipes
 
@@ -36,15 +36,15 @@ Cet article fait partie de l’étape de préparation technique de votre mouveme
 - [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams combine plusieurs services 365 Office et dépend par conséquent de l’implémentation et de l’utilisation appropriées de ces services. Ces services incluent, sans s’y limiter, SharePoint Online, Exchange Online et OneDrive entreprise.
+Teams combine plusieurs services Microsoft 365 et Office 365 et dépend par conséquent du bon fonctionnement et de l’application de ces services. Ces services incluent, sans s’y limiter, SharePoint Online, Exchange Online et OneDrive entreprise.
 
 Même si certains services ne sont pas requis, nous vous conseillons vivement de les implémenter. Si vous choisissez de ne pas implémenter certains services, cela a un impact sur les fonctionnalités que teams peut fournir à votre organisation. Par exemple, si vous n’avez pas besoin d’implémenter SharePoint Online, Teams ne dépend pas de SharePoint Online pour certaines fonctionnalités, telles que le partage de fichiers dans les conversations de groupe, de sorte qu’il n’est pas nécessaire d’implémenter ce service pour réduire les fonctionnalités proposées par le client.
 
 Pour en savoir plus sur les conditions préalables et la façon dont les équipes interagissent avec d’autres technologies, voir les articles suivants :
 
-- Si votre organisation n’a pas déployé de charges de travail 365 Office, voir [mise en route d’office 365 pour les entreprises](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+- Si votre organisation n’a pas déployé de charges de travail Microsoft 365 ou Office 365, voir [commencer](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
-- Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Office 365, voir [vérifier votre domaine office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Microsoft 365 ou Office 365, voir [Forum aux questions sur les domaines](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
 - Si votre organisation n’a pas de synchronisation des identités dans Azure Active Directory, voir [modèles d’identité et authentification dans Microsoft teams](identify-models-authentication.md).
 

@@ -18,12 +18,12 @@ description: Découvrez les différents modèles d'identité dans Microsoft Tea
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637203"
+ms.locfileid: "44665676"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
@@ -51,6 +51,7 @@ En fonction des décisions de votre organisation relatives au modèle d’identi
 
 Pour plus d’informations, reportez-vous à [la rubrique choix d’un modèle de connexion](https://go.microsoft.com/fwlink/?linkid=854626) et [Présentation des modèles d’identité et des guides d’Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) .
 
+
 <a name="multi-factor-authentication"></a>Authentification multifacteur
 ----------------------------
 
@@ -63,5 +64,5 @@ Lorsque les utilisateurs sont inscrits pour l’authentification multifacteur, l
 
 |Type de client  |Options de deuxième facteur de MFA disponibles  |Remarques  |
 |---------|---------|---------|
-|**Dans le cloud uniquement**     |Authentification multifacteur pour Microsoft 365 et Office 365 <ul><li>Appel téléphonique</li><li>SMS</li><li>Notification d'application mobile</li><li>Code vérification d'application mobile</li></ul>        |[Plan pour l’authentification multifacteur pour les déploiements de Microsoft 365](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>Authentification multifacteur pour Microsoft 365 et Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Remarque : des solutions MFA supplémentaires sont disponibles avec les [documents de compatibilité des fournisseurs d’identité Azure ad](https://www.microsoft.com/download/details.aspx?id=56843)         |
+|**Dans le cloud uniquement**     |Authentification multifacteur pour Microsoft 365 ou Office 365 <ul><li>Appel téléphonique</li><li>SMS</li><li>Notification d'application mobile</li><li>Code vérification d'application mobile</li></ul>        | |
+|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>Authentification multifacteur pour Microsoft 365 ou Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Remarque : des solutions MFA supplémentaires sont disponibles avec les [documents de compatibilité des fournisseurs d’identité Azure ad](https://www.microsoft.com/download/details.aspx?id=56843)         |

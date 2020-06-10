@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble de vos demandes de transfert et du transfert de vos numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227538"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665896"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -65,7 +65,7 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
 - des numéros de téléphone VoIP provenant d'un fournisseur de téléphone, comme Vonage ou RingCentral.
 
-- Numéros de téléphone hybrides Skype entreprise. Si vous souhaitez transférer ces numéros, envoyez-nous un <ptn@microsoft.com>e-mail à.
+- Numéros de téléphone hybrides Skype entreprise. Si vous souhaitez transférer ces numéros, envoyez-nous un e-mail à <ptn@microsoft.com> .
 
   **Vous ne pouvez pas transférer :**
   
@@ -112,7 +112,7 @@ Vous devez par exemple envoyer une demande de transfert de numéro unique pour c
 
 - les numéros de téléphone mobile et
 
-- Les numéros de service pouvant être utilisés pour les conférences audio dans Office 365.
+- Les numéros de service pouvant être utilisés pour les conférences audio dans Microsoft 365 ou Office 365.
 
 Pour plus d’informations sur l’envoi des demandes de transfert de numéro pour ces différents types de numéro, procédez comme suit :
   
@@ -131,7 +131,7 @@ Pour plus d’informations sur l’envoi des demandes de transfert de numéro po
 
 Une fois que vous avez terminé la demande de transfert, le traitement est effectué entre 7-14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois que les numéros de téléphone sont transférés, vous recevez un e-mail qui vous a été envoyé pour vous permettre de vous rendre bon.
   
-Pour vérifier le statut de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** .
+Pour vérifier le statut de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de **Voice**Microsoft Teams, sélectionnez  >  **numéros de téléphone**vocaux, puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** .
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Les numéros de téléphone des utilisateurs (abonnés) peuvent-ils être convertis en numéros de service ?
 <a name="bkmk_type_1"> </a>
@@ -163,7 +163,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à apporter des modifications au compte doit demander au transporteur actuel de lui permettre de lever le blocage. Ce processus peut prendre de une à trois semaines en fonction du transporteur.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

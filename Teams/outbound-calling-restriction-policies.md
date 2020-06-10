@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278177"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665906"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -42,7 +42,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 Pour connaître les pays/régions qui sont considérés comme la zone A, consultez [la rubrique zone a pays/régions](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365).
 
    > [!NOTE]
-   > Un appel est considéré comme domestique si le numéro composé est dans le même pays ou région où Office 365 a été configuré pour l’organisateur de la réunion (dans le cas d’une audioconférence) ou l’utilisateur final (dans le cas d’appels RTC de l’utilisateur final). 
+   > Un appel est considéré comme domestique si le numéro composé est dans le même pays que Microsoft 365 ou Office 365 a été configuré pour l’organisateur de la réunion (dans le cas d’une audioconférence) ou par l’utilisateur final (dans le cas d’appels RTC de l’utilisateur final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

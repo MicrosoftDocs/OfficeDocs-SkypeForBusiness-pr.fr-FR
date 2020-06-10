@@ -21,12 +21,12 @@ f1.keywords:
 description: Familiarisez-vous avec une équipe de champions pour promouvoir l’adoption d’équipes en tirant, adoptant et éducation au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 9f6a54a6da5aa12e92e6ae50960cca5e5faf6d0a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350258"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665996"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
@@ -45,7 +45,7 @@ Les champions doivent :
 
 Utilisez notre [Guide du programme champions](https://go.microsoft.com/fwlink/?linkid=854665) pour créer ce programme au sein de votre organisation. Nos bonnes pratiques pour cette communauté sont les suivantes :
 
-- Rejoignez le programme Microsoft 365 ou Microsoft Office 365 [champions](https://aka.ms/O365Champions). Assurez-vous que les points de suite du programme champion (et éventuellement des champions de la société) sont membres du programme. Cet appel gratuit de la Communauté fournit des informations précieuses pour exécuter votre propre programme et profiter au maximum des équipes et autres services Microsoft 365 ou Office 365. Les matériaux du programme peuvent être réutilisés dans votre propre programme interne.
+- Rejoignez le [programme champions](https://aka.ms/O365Champions). Assurez-vous que les points de suite du programme de champions (et potentiellement tous les champions de la société) sont membres du programme. Cet appel gratuit de la Communauté fournit des informations précieuses pour exécuter votre propre programme et profiter au maximum des équipes et autres services Microsoft 365 ou Office 365. Les matériaux du programme peuvent être réutilisés dans votre propre programme interne.
 
 - Utilisez l’équipe de l’équipe d’équipe pour les membres de l’équipe : vos champions doivent utiliser l’équipe que vous avez configurées pour les communications du programme, les commentaires et Rechercher des ressources.  En procédant ainsi, le produit sera de plus en plus familier et ses avantages.
 

@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Cette section présente les pays et régions qui ont des numéros de conférence rendez-vous et explique comment ils sont attribués automatiquement.
-ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779610"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665886"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
-Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour afficher les numéros de téléphone affectés à votre pont de conférence audio, dans le centre d’administration Microsoft Teams, **accédez à la** > section**ponts de conférences**de conférences. Pour plus d’informations, [consultez la liste des numéros de conférence audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour afficher les numéros de téléphone affectés à votre pont de conférence audio, dans le centre d’administration Microsoft Teams, **accédez à la**section  >  **ponts de conférences**de conférences. Pour plus d’informations, [consultez la liste des numéros de conférence audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarifs de l’audioconférence
@@ -50,7 +50,7 @@ Deux types de numéros de téléphone d’audioconférence peuvent être attribu
   
 - Les **numéros de téléphone dédiés** sont les numéros disponibles uniquement pour les utilisateurs au sein de votre organisation. Vous pouvez modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
   
-- Les **numéros de téléphone partagés** sont les numéros de téléphone que vous pouvez partager avec d’autres 365 ou Office 365s. Vous ne pouvez pas modifier la langue utilisée lorsque quelqu’un appelle l’un de ces numéros.
+- Les **numéros de téléphone partagés** sont les numéros de téléphone que vous pouvez partager avec d’autres 365 ou Office 365. Vous ne pouvez pas modifier la langue utilisée lorsque quelqu’un appelle l’un de ces numéros.
   
 Bien que le numéro d’audioconférence par défaut attribué à un organisateur soit uniquement inclus dans l'invitation à participer à la réunion, un appelant peut utiliser n'importe quel numéro de téléphone attribué à votre pont de conférence pour participer à une réunion. La liste des numéros de téléphone qui peuvent être utilisés pour participer à une réunion est disponible en cliquant sur le lien **Trouver un numéro national** figurant sur chaque invitation à la réunion.
   
@@ -78,4 +78,4 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l'audioconférence dans Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

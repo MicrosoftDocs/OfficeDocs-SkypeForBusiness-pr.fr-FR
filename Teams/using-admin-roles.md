@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: Découvrez comment utiliser les rôles d’administrateur pour désigner des administrateurs qui ont besoin d’un niveau d’accès différent pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951069"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665206"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
 
@@ -36,6 +36,8 @@ ms.locfileid: "43951069"
 ## <a name="teams-roles-and-capabilities"></a>Rôles et capacités de teams
 
 Il existe quatre rôles d’administrateur d’équipes disponibles : l’administrateur de service Teams, l’administrateur des communications Teams, le support technique de Microsoft Team communications et l’ingénieur du support des communications Teams. Consultez le tableau ci-dessous pour comprendre le fonctionnement de chaque rôle et les outils qu’il peut utiliser dans le centre d’administration Microsoft teams et PowerShell.
+
+Pour le suivre, accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 
 
@@ -51,8 +53,8 @@ Il existe quatre rôles d’administrateur d’équipes disponibles : l’admin
 <sup>1</sup> [PowerShell-module Skype entreprise](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell-module Microsoft teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [Centre d’administration Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 Pour plus d’informations sur les outils d’administration disponibles pour la gestion de Microsoft Teams, reportez-vous à [gestion de Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
@@ -73,9 +75,9 @@ Pour afficher la liste complète des cmdlets actuellement disponibles pour un r�
    a. $session = New-csonlinesession<br>
    b. Importation-PowerShell $session<br>
    c. Utilisez **Get-Module** pour identifier le nom de la session importée (le nom sera généré de manière aléatoire).<br>
-3. Utiliser **Get-Command-** <*nom du module ci-dessus*> pour identifier toutes les applets de commande disponibles
+3. Utiliser **Get-Command-**  < *nom du module ci-dessus*> pour identifier toutes les applets de commande disponibles
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Rubriques connexes
 
 - [Vue d’ensemble de Microsoft teams PowerShell](teams-powershell-overview.md)
 - [Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

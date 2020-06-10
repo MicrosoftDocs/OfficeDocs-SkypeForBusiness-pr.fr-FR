@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment réinitialiser le code confidentiel de l’audioconférence d’un utilisateur dans Microsoft teams et comment découvrir des informations importantes sur les codes confidentiels.
-ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905486"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666186"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -52,7 +52,7 @@ Les réunions peuvent commencer lorsqu'un utilisateur authentifié les rejoint e
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Réinitialisation par un utilisateur de son propre code confidentiel
 
-1. Demander à l’utilisateur d' [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)accéder à.
+1. Demander à l’utilisateur d’accéder à [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
 2. Cliquez sur **Réinitialiser le code confidentiel**. 
 
 
@@ -66,21 +66,21 @@ Les réunions peuvent commencer lorsqu'un utilisateur authentifié les rejoint e
     
 - Par défaut, les appelants anonymes ne permettent pas de démarrer une réunion.
     
-- Lorsque vous activez un utilisateur pour l’audioconférence, il est envoyé par défaut des messages électroniques qui incluent des informations de conférence et leur code confidentiel. L’utilisateur doit avoir une boîte aux lettres Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel sera envoyé à l’utilisateur dans un message électronique à l’adresse SMTP principale (alias) définie pour l’utilisateur.
+- Lorsque vous activez un utilisateur pour l’audioconférence, il est envoyé par défaut des messages électroniques qui incluent des informations de conférence et leur code confidentiel. L’utilisateur doit posséder une boîte aux lettres Microsoft 365 ou Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code secret est envoyé à l’utilisateur dans un message électronique à l’adresse SMTP principale (alias) qui est définie pour l’utilisateur.
     
 - Lorsque vous configurez l’audioconférence, vous définissez les chiffres requis pour les broches de votre organisation. Les codes confidentiels peuvent comporter de 4 à 12 chiffres, la valeur par défaut étant 5. Si vous modifiez le paramètre de longueur du code confidentiel, ce paramètre n’est appliqué qu’aux codes confidentiels générés et ne s’applique pas au paramètre code confidentiel pour les utilisateurs existants qui sont activés pour les conférences audio. Reportez-vous [à la section définir la longueur du code confidentiel pour les réunions de conférence audio](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
-- Par défaut, l’adresse de courrier est définie sur 365 l’adresse SMTP principale de l’utilisateur. Vous pouvez envoyer un courrier électronique à une adresse 365 autre qu’Office, telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez changer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Cela est utile si les utilisateurs ne disposent pas d'une boîte aux lettres Exchange dans Office 365.
+- Par défaut, l’adresse électronique est définie sur l’adresse SMTP principale de Microsoft 365 ou Office 365. Vous pouvez envoyer un courrier électronique à une adresse non Microsoft 365 ou non-Office 365 telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez changer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Cette fonctionnalité est utile si les utilisateurs ne disposent pas de boîte aux lettres Exchange dans Microsoft 365 ou Office 365.
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   

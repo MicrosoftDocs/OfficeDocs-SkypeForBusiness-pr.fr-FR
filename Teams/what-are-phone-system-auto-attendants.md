@@ -24,20 +24,20 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur les standards automatiques du Cloud et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menu pour localiser et transférer des appels vers des utilisateurs ou des services.
-ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042601"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665186"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
-Le système téléphonique dans Office 365 fournit des standards automatiques, qui peuvent être utilisés pour permettre aux appelants externes et internes de se déplacer dans un système de menus afin de localiser et de transférer les appels vers des utilisateurs ou services de votre organisation.
+Le système téléphonique fournit des standards automatiques qui peuvent être utilisés pour permettre aux appelants externes et internes de se déplacer dans un système de menus afin de localiser et de transférer les appels vers des utilisateurs ou services de votre organisation.
   
 Le standard automatique est le plus souvent un nœud dans un système, ce qui donne à un appelant une série d’invites vocales ou de fichiers audio qu’il entend au lieu d’un opérateur humain. Lorsque des personnes appellent un numéro associé à un standard automatique, leurs choix peuvent rediriger l’appel vers un utilisateur ou localiser une personne de votre organisation, puis se connecter à cet utilisateur. Ils peuvent exprimer leurs choix et interagir avec le système de menus à l’aide d’un clavier téléphonique (DTMF) ou d’une reconnaissance vocale. Les choix effectués peuvent également rediriger l’appel vers un autre standard automatique ou vers une file d’attente d’appels.
   
-Pour configurer un standard automatique pour le système téléphonique dans Office 365, voir [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md).
+Pour configurer un standard automatique pour le système téléphonique, accédez à [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md).
   
 Le standard automatique Cloud offre les fonctionnalités suivantes :
   
@@ -234,14 +234,14 @@ Pour configurer un standard automatique et les options de menu, sélectionnez [c
 
 Vous pouvez affecter un numéro de service ou un numéro hybride au compte de ressources lié au standard automatique (ou à plusieurs comptes de ressources si plusieurs numéros de téléphone sont requis). Pour plus d’informations, voir [planifier le routage direct](direct-routing-plan.md) .
 
-Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéros de service gratuits ou payants existants. Dès lors que vous recevez les numéros de service gratuits ou payants, ils s’affichent dans les**numéros de téléphone****vocaux** > du **Centre** > d’administration Skype entreprise. Le **type numérique** est répertorié en tant que **service-sans numéro**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) ou, si vous voulez effectuer un virement et un numéro de service, voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéros de service gratuits ou payants existants. Dès lors que vous recevez les numéros de service gratuits ou payants, ils s’affichent dans les numéros de téléphone vocaux du **Centre d’administration Skype entreprise**  >  **Voice**  >  **Phone numbers**. Le **type numérique** est répertorié en tant que **service-sans numéro**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) ou, si vous voulez effectuer un virement et un numéro de service, voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
 > Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour savoir comment procéder, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 

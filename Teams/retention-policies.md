@@ -17,25 +17,25 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042441"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666176"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
 Les stratégies de conservation vous permettent de gérer plus efficacement les informations au sein de votre organisation. Utilisez les stratégies de conservation pour conserver les données requises pour se conformer aux stratégies internes, aux réglementations sectorielles ou aux besoins juridiques de votre organisation, et pour supprimer les données considérées comme un passif, que vous n’avez plus besoin de conserver ou qui n’ont pas de valeur juridique ou commerciale.
 
-Par défaut, les données de chat, de canal et de fichiers de teams sont conservées définitivement, sauf s’il y a des tentatives de suppression du contenu via des stratégies de rétention, des suppressions de l’utilisateur, des suppressions d’administrateur, etc. En tant qu’administrateur, vous pouvez configurer des stratégies de rétention aux équipes pour les conversations et les messages de canal, et décider de manière proactive s’il convient de conserver les données, de les supprimer ou de les conserver pendant une période spécifique, puis de les supprimer.
+Par défaut, les données de chat, de canal et de fichier de teams sont conservées indéfiniment, sauf si vous tentez de supprimer le contenu par le biais des stratégies de rétention, des suppressions de l’utilisateur, des suppressions de l’administrateur, etc. En tant qu’administrateur, vous pouvez configurer des stratégies de rétention aux équipes pour les conversations et les messages de canal, et décider de manière proactive s’il convient de conserver les données, de les supprimer ou de les conserver pendant une période spécifique, puis de les supprimer.
 
 Pour créer et gérer des stratégies de rétention, vous pouvez créer et gérer des stratégies de rétention dans le [Centre de conformité Microsoft 365](https://protection.office.com/) ou utiliser les cmdlets PowerShell du centre de sécurité & conformité. Vous pouvez appliquer une stratégie de conservation Teams à l’ensemble de votre organisation ou à des utilisateurs et des équipes spécifiques.
 
 > [!NOTE]
 > Nous ne prenons pas encore en charge la configuration de la conservation des messages de canal privé. La conservation des fichiers partagés dans des canaux privés est prise en charge.
 
-Si vous souhaitez en savoir plus sur les stratégies de conservation pour Office 365, consultez l’article [Présentation des stratégies de conservation](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
+Pour en savoir plus sur les stratégies de rétention pour Microsoft 365 ou Office 365, voir [vue d’ensemble des stratégies de rétention](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
 
 ## <a name="what-are-retention-policies-for-teams"></a>Quelles sont les stratégies de conservation pour Teams ?
 
@@ -148,7 +148,7 @@ Pour supprimer une stratégie de conservation Teams, procédez comme suit :
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Pour créer et gérer des stratégies de rétention d’équipes à l’aide d' [Office 365 Security & Compliance PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell), utilisez les applets de commande suivantes :
+Pour créer et gérer des stratégies de rétention d’équipes à l’aide de [Security & PowerShell Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell), utilisez les applets de commande suivantes :
 
 |Stratégie|Règle|
 |---|---|
