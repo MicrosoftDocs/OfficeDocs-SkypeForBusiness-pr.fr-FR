@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326781"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698274"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams
 
@@ -123,10 +123,10 @@ Par exemple, supposons que vous souhaitiez autoriser uniquement les propriétair
 
 |Paramètre d’application personnalisée à l’échelle de l’Organisation |Paramètre de l’application personnalisée d’équipe |Stratégie d’application personnalisée utilisateur |Pris  |
 |---------|---------|---------|---------|
-| Désactivé    | Désactivé    | Désactivé     |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par quiconque. Vous pouvez utiliser PowerShell pour supprimer l’application personnalisée.   |
-| Désactivé     | Désactivé     | Activé        |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par quiconque. Vous pouvez utiliser PowerShell pour supprimer l’application personnalisée.         |
-| Désactivé    | Activé        | Désactivé        |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par quiconque. Vous pouvez utiliser Windows PowerShell pour supprimer des applications personnalisées.         |
-| Désactivé    | Activé      | Activé       |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par quiconque. Vous pouvez utiliser PowerShell pour supprimer l’application personnalisée.         |
+| Désactivé    | Désactivé    | Désactivé     |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par tout le monde à l’exception de l’administrateur de service teams ou d’un administrateur global. Vous pouvez utiliser PowerShell pour supprimer l’application personnalisée.   |
+| Désactivé     | Désactivé     | Activé        |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par tout le monde à l’exception de l’administrateur de service teams ou d’un administrateur global. Vous pouvez utiliser PowerShell pour supprimer l’application personnalisée.         |
+| Désactivé    | Activé        | Désactivé        |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par tout le monde à l’exception de l’administrateur de service teams ou d’un administrateur global. Vous pouvez utiliser Windows PowerShell pour supprimer des applications personnalisées.         |
+| Désactivé    | Activé      | Activé       |Les interactions avec toutes les applications personnalisées sont bloquées pour votre organisation. Les applications personnalisées ne peuvent pas être chargées par tout le monde à l’exception de l’administrateur de service teams ou d’un administrateur global. Vous pouvez utiliser PowerShell pour supprimer l’application personnalisée.         |
 | Activé    | Désactivé       | Désactivé         |  L’utilisateur ne peut pas charger des applications personnalisées.      |
 | Activé     | Désactivé       | Activé         | S’il s’agit d’un propriétaire d’équipe, il peut télécharger des applications personnalisées à l’équipe. Si l’utilisateur n’est pas propriétaire d’une équipe, il ne peut pas charger d’applications personnalisées dans l’équipe. L’utilisateur peut télécharger des applications personnalisées dans le contexte personnel.     |
 | Activé     | Activé     | Désactivé         | L’utilisateur ne peut pas charger des applications personnalisées.       |
