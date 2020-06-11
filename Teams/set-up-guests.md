@@ -17,22 +17,22 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e434a85693226252ecef2a5b4c251024524e698f
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 43965ef0b32551a9b4d5030b762d8fe0c53abcc4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326561"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690050"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
 ===================================================
 
-Par défaut, l’accès invité est désactivé. En tant qu’administrateur 365 Office, vous devez activer l’accès invité pour les équipes pour que l’administrateur ou les propriétaires d’équipes puissent ajouter des invités. Pour activer l’accès invité, utilisez la [liste de contrôle d’accès invité](guest-access-checklist.md). 
+Par défaut, l’accès invité est désactivé. En tant qu’administrateur Microsoft 365 ou Office 365, vous devez activer l’accès invité pour les équipes pour que l’administrateur ou les propriétaires d’équipes puissent ajouter des invités. Pour activer l’accès invité, utilisez la [liste de contrôle d’accès invité](guest-access-checklist.md). 
 
 Après avoir activé l’accès invité, il est possible que les modifications soient prises en compte. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, il est probable que l’accès invité n’ait pas été activé ou que les paramètres ne soient pas encore effectifs.
 
 > [!IMPORTANT]
-> L’activation de l’accès invité dépend des paramètres dans Azure Active Directory, Office 365, SharePoint Online et Teams. Pour plus d’informations, voir [autoriser l’accès invité dans Microsoft teams](Teams-dependencies.md).
+> L’activation de l’accès invité dépend des paramètres d’Azure Active Directory, de Microsoft 365 ou d’Office 365, SharePoint Online et Teams. Pour plus d’informations, voir [autoriser l’accès invité dans Microsoft teams](Teams-dependencies.md).
 
 
 

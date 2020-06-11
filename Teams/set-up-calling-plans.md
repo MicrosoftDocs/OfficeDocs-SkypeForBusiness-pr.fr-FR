@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Familiarisez-vous avec les offres d’appels, y compris les plans d’affichage disponibles dans votre région, l’achat & l’attribution de licences, l’obtention de numéros de téléphone et l’ajout d’adresses de secours & emplacements.
-ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666236"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691080"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
-Les appels vers les autres utilisateurs d’équipes sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, vous pouvez obtenir un plan d’appels nationaux ou un plan d’appels internationaux dans Office 365. Il est facile de configurer des forfaits d’appels pour votre entreprise.  Pour en savoir plus sur les offres d’appels, reportez- [vous à la rubrique quel forfait pour vous avez-vous ?](calling-plan-landing-page.md).
+Les appels vers les autres utilisateurs d’équipes sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, vous pouvez obtenir un plan d’appels nationaux ou un plan d’appels internationaux dans Microsoft 365 ou Office 365. Il est facile de configurer des forfaits d’appels pour votre entreprise.  Pour en savoir plus sur les offres d’appels, reportez- [vous à la rubrique quel forfait pour vous avez-vous ?](calling-plan-landing-page.md).
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1 : déterminer si les offres d’appels sont disponibles dans votre pays ou région
 Accédez à [disponibilité du pays et de la région pour les offres de conférence et d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) et sélectionnez votre pays ou votre région pour obtenir des informations de disponibilité sur les offres d’appels, ainsi que des informations sur les services d’audioconférence, le système téléphonique, les numéros payants et les appels gratuits.
@@ -40,10 +40,10 @@ Accédez à [disponibilité du pays et de la région pour les offres de confére
 Si les offres d’appels ne sont pas disponibles dans votre pays ou région, envisagez d’utiliser le routage direct pour connecter votre infrastructure de téléphonie locale au système téléphonique.  Pour plus d’informations, voir [routage direct du système téléphonique](direct-routing-landing-page.md).
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Étape 2 : acheter et attribuer des licences
-1. Si le système téléphonique dans Office 365 n’est pas inclus dans votre plan, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Une fois que vous avez des licences de **système téléphonique** , vous pouvez acheter [des plans d’appel pour Office 365](calling-plans-for-office-365.md). Reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), et achetez des licences et des offres. 
+1. Si la fonctionnalité du système téléphonique n’est pas incluse dans votre plan Microsoft 365 ou Office 365, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Une fois que vous disposez de licences de **système téléphonique** , vous pouvez acheter [des plans d’appel pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md). Reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), et achetez des licences et des offres. 
     
     > [!TIP]
-    > Les licences de **système téléphonique** et les forfaits d’appels dans Office 365, de sorte que vous pouvez voir l’option d’achat d’offres d’appel, vous devez d’abord disposer de licences de **système téléphonique** .
+    > Les licences de **système téléphonique** et les offres d’appels dans Microsoft 365 ou Office 365, de sorte que vous pouvez accéder à l’option d’achat d’offres d’appel, vous devez d’abord disposer de licences de **système téléphonique** .
   
 2. Tout d’abord, affectez les licences, puis affectez un plan d’appels aux personnes de votre organisation. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
@@ -52,7 +52,7 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 - **Utiliser le centre d’administration Teams.** Pour certains pays ou régions, vous pouvez obtenir des numéros pour vos utilisateurs à l’aide du centre d’administration Teams, reportez-vous à la rubrique [obtention de numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md).
     
-- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de service ou de votre téléphone actuel vers Office 365. Pour plus d’informations, reportez-vous à la section [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel vers Microsoft 365 ou Office 365. Pour plus d’informations, reportez-vous à la section [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration teams ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 

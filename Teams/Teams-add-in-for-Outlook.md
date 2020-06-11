@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637713"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689810"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -139,7 +139,7 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 - Vérifiez que l’utilisateur dispose d’une stratégie de réunion teams qui autorise le complément Outlook. Pour plus d’informations, voir [gérer les stratégies de réunion dans teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Assurez-vous que l’utilisateur a installé le client de bureau Teams. Le complément de la réunion ne sera pas installé uniquement lors de l’utilisation du client Web Teams.
 - Vérifiez que l’utilisateur dispose de l’installation d’Outlook 2013 ou version ultérieure.
-- Assurez-vous que l’utilisateur est autorisé à exécuter Regsvr32. exe.
+- Assurez-vous que l’utilisateur est autorisé à exécuter regsvr32.exe.
 - Vérifiez que toutes les mises à jour disponibles pour le client de bureau Outlook ont été appliquées.
 - Procédez comme suit :
   - Redémarrez le client de bureau Teams.
@@ -161,7 +161,7 @@ Si le complément n’apparaît toujours pas, procédez comme suit pour vérifie
 
 > [!NOTE]
 > La modification incorrecte du registre pourrait endommager sérieusement votre système. Avant d’apporter des modifications au registre, il est recommandé de sauvegarder toutes les données importantes de votre ordinateur.
-- Lancer RegEdit. exe
+- Lancer RegEdit.exe
 - Accédez à HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
 - Vérifiez que TeamsAddin. FastConnect existe.
 - Dans TeamsAddin. FastConnect, vérifiez qu’il existe une valeur LoadBehavior et qu’elle a la valeur 3.
@@ -169,4 +169,6 @@ Si le complément n’apparaît toujours pas, procédez comme suit pour vérifie
 
 ### <a name="delegate-scheduling-does-not-work"></a>La planification du délégué ne fonctionne pas
 
-Si votre administrateur a configuré Microsoft Exchange pour [contrôler l’accès à Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un délégué ne pourra pas planifier une réunion Teams au nom du responsable. La solution pour cette configuration est en cours de développement et sera publiée ultérieurement. 
+Si votre administrateur a configuré Microsoft Exchange pour [contrôler l’accès à Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un délégué ne pourra pas planifier une réunion Teams au nom du responsable. La solution pour cette configuration est en cours de développement et sera publiée ultérieurement. Pour contourner ce problème, votre administrateur peut ajouter la chaîne suivante à la liste verte d’EWS : «*SchedulingService*». 
+
+

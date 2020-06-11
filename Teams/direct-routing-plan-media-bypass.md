@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation multimédia avec le routage direct du système téléphonique, qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338244"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691250"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -79,13 +79,12 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 La description suivante décrit le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC. 
 
-Par exemple, supposons que l’utilisateur est externe et que l’administrateur client a décidé de ne pas ouvrir l’adresse IP publique de l’SBC auprès de tout le monde sur Internet, mais uniquement dans Microsoft Cloud. Les composants internes du trafic peuvent être acheminés par le biais des relais de transport Teams. Il s’agit de la configuration recommandée pour les utilisateurs en dehors du réseau d’entreprise. Vous devez tenir compte des éléments suivants :
+Par exemple, supposons que l’utilisateur est externe et que l’administrateur client a décidé de ne pas ouvrir l’adresse IP publique de l’SBC auprès de tout le monde sur Internet, mais uniquement dans Microsoft Cloud. Les composants internes du trafic peuvent être acheminés par le biais des relais de transport Teams. Vous devez tenir compte des éléments suivants :
 
 - Des relais de transport d’équipes sont utilisés.
 
 - Dans le cas d’une dérivation de média, Microsoft utilise une version de relais de transport qui nécessite l’ouverture des ports 50 000 à 59 999 entre les relais de transport d’équipe et l’SBC (à l’avenir, nous envisageons de migrer vers la version qui ne nécessite que les ports 3478 et 3479).
 
-- À des fins d’optimisation des éléments multimédias, Microsoft recommande l’ouverture de l’adresse IP publique de l’SBC uniquement aux relais de transport d’équipes. Pour les clients en dehors du réseau d’entreprise, Microsoft recommande l’utilisation de relais de transport au lieu de joindre directement l’adresse IP publique de la SBC.
 
 Le diagramme suivant illustre le flux d’appels lorsque la dérivation de média est activée, que le client est externe et que le client ne peut pas accéder à l’adresse IP publique du contrôleur de bordure de session (le contenu multimédia est relayée par teams Relay Relay).
 
@@ -138,7 +137,7 @@ Chemin multimédia pour les appels sans contournement pour les utilisateurs fina
 Dans le chemin multimédia pour les appels ignorés pour les utilisateurs finaux | Interdire | Si le client ne peut pas accéder à l’SBC sur l’adresse IP publique | 
 Dans le chemin multimédia pour les applications vocales | Toujours | Interdire | 
 Peut faire un transcodage (B2BUA)\* | Oui | Non, ne relaye le son qu’entre les points de terminaison. | 
-Nombre d’instances dans le monde et emplacement | 8 au total : 2 aux États-Unis et en ouest ; 2 dans Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon  | Multiples
+Nombre d’instances dans le monde et emplacement | 10 au total : 2 aux États-Unis et en ouest ; 2 dans Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 de l’Australie est et du sud-est | Multiples
 
 Les plages d’adresses IP sont les suivantes :
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
@@ -165,13 +164,13 @@ Assurez-vous que votre SBC a accès aux processeurs multimédias et aux plages d
 
 Pour la signalisation SIP, les exigences en matière de nom de domaine complet et de pare-feu sont les mêmes que pour les cas sans contournement. 
 
-Le routage direct est fourni dans les environnements Office 365 suivants :
-- Office 365
+Le routage direct est fourni dans les environnements Microsoft 365 ou Office 365 suivants :
+- Microsoft 365 ou Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD en savoir plus sur les [environnements d’administration des États-Unis et d’office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) tels que GCC, GCC High et DoD.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Environnements Microsoft 365, Office 365 et Office 365 GCC
 
 Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :
 
@@ -227,7 +226,7 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
 La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible :
-- Office 365
+- Microsoft 365 ou Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
@@ -263,7 +262,7 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Définie sur l’SBC |
 
 Les relais de transport sont dans la même plage que les processeurs de médias (pour les cas de non-contournement) : 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Environnements Microsoft 365, Office 365 et Office 365 GCC
 
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
 
@@ -366,6 +365,5 @@ Pour tous les autres points de terminaison qui ne prennent pas en charge la dér
 ## <a name="see-also"></a>Voir aussi
 
 [Configurer le contournement de média avec un routage direct](direct-routing-configure-media-bypass.md)
-
 
 

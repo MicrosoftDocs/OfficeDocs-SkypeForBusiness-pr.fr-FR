@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs du routage direct du système Microsoft Phone.
-ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160058"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691370"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Permettre aux utilisateurs d’utiliser le routage direct, les appels vocaux et la messagerie vocale
 
@@ -37,17 +37,17 @@ Pour plus d’informations sur la procédure de configuration du routage direct,
 
 Lorsque vous êtes prêt à activer les utilisateurs pour le routage direct, procédez comme suit : 
 
-1. Créez un utilisateur dans Office 365 et attribuez une licence de système téléphonique. 
+1. Créez un utilisateur dans Microsoft 365 ou Office 365 et attribuez une licence de système téléphonique. 
 2. Assurez-vous que l’utilisateur est bien immobilier dans Skype entreprise online. 
 3. Configurez le numéro de téléphone et activez voix entreprise et boîte vocale. 
 4. Affecter uniquement le mode équipe aux utilisateurs.
 
-## <a name="create-a-user-in-office-365-and-assign-the-license"></a>Créer un utilisateur dans Office 365 et affecter la licence 
+## <a name="create-a-user-and-assign-the-license"></a>Créer un utilisateur et lui attribuer une licence 
 
-Deux options s’offrent à vous pour créer un utilisateur dans Office 365. Toutefois, Microsoft recommande à votre organisation de choisir une option pour éviter les problèmes de routage : 
+Deux options s’offrent à vous pour créer un utilisateur dans Microsoft 365 ou Office 365. Toutefois, Microsoft recommande à votre organisation de choisir une option pour éviter les problèmes de routage : 
 
 - Créer l’utilisateur dans l’annuaire Active Directory local et synchroniser l’utilisateur avec le Cloud. Voir [intégrer vos annuaires locaux avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
-- Créer l’utilisateur directement dans le portail d’administration Office 365. Pour plus d' [informations, voir ajouter des utilisateurs individuellement ou en bloc à Office 365-aide de l’administrateur](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Créez l’utilisateur directement dans le centre d’administration 365 Microsoft. Pour plus d' [informations, voir ajouter des utilisateurs individuellement ou en bloc à Microsoft 365 ou Office 365-aide de l’administrateur](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
 Si votre déploiement de Skype entreprise Online existe avec Skype entreprise 2015 ou Lync 2010 ou 2013 sur site, la seule option prise en charge consiste à créer l’utilisateur dans l’annuaire Active Directory local et à synchroniser l’utilisateur dans le Cloud (option 1). 
 

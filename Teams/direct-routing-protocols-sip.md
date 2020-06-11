@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocoles de routage directe
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780683"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691220"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct-protocole SIP
 
@@ -30,7 +30,7 @@ Cet article décrit comment le routage direct implémente le protocole SIP (Sess
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>Traitement de la demande entrante : recherche du client et de l’utilisateur
 
-Lors d’un appel entrant, le proxy SIP doit rechercher le client auquel est destiné l’appel et Rechercher l’utilisateur spécifique au sein de ce client. L’administrateur client peut configurer des numéros qui ne sont pas des nombres, par exemple + 1001, dans plusieurs clients. Par conséquent, il est important de rechercher le client spécifique sur lequel effectuer la recherche de numéro, car les numéros qui ne sont pas les mêmes peuvent être identiques dans plusieurs organisations Office 365.  
+Lors d’un appel entrant, le proxy SIP doit rechercher le client auquel est destiné l’appel et Rechercher l’utilisateur spécifique au sein de ce client. L’administrateur client peut configurer des numéros qui ne sont pas des nombres, par exemple + 1001, dans plusieurs clients. Par conséquent, il est important de rechercher le client spécifique sur lequel effectuer la recherche de numéro, car les numéros qui ne sont pas les mêmes peuvent être identiques dans plusieurs organisations Microsoft 365 ou Office 365.  
 
 Cette section décrit la façon dont le proxy SIP trouve le locataire et l’utilisateur et effectue l’authentification de l’SBC sur la connexion entrante.
 
@@ -56,11 +56,11 @@ Lors de la réception de l’invitation, le proxy SIP effectue les étapes suiva
 
 2. Essayez de rechercher un client à l’aide du nom complet complet figurant dans l’en-tête contact.  
 
-   Vérifiez si le nom de domaine complet de l’en-tête de contact (sbc1.adatum.biz) est enregistré en tant que nom DNS dans une organisation Office 365. Le cas échéant, la liste de choix de l’utilisateur est exécutée dans le client qui dispose du nom de domaine complet SBC inscrit comme nom de domaine. S’il est introuvable, l’étape 3 s’applique.   
+   Vérifiez si le nom de domaine complet de l’en-tête de contact (sbc1.adatum.biz) est enregistré en tant que nom DNS dans toute organisation Microsoft 365 ou Office 365. Le cas échéant, la liste de choix de l’utilisateur est exécutée dans le client qui dispose du nom de domaine complet SBC inscrit comme nom de domaine. S’il est introuvable, l’étape 3 s’applique.   
 
 3. L’étape 3 s’applique uniquement en cas d’échec de l’étape 2. 
 
-   Supprimez la partie hôte du nom de domaine complet (FQDN) figurant dans l’en-tête de contact (FQDN : sbc12.adatum.biz, après avoir supprimé la partie hôte : adatum.biz), puis vérifiez que ce nom est enregistré en tant que nom DNS dans une organisation Office 365. Le cas échéant, la recherche utilisateur est effectuée dans ce client. Si ce n’est pas le cas, l’appel échoue.
+   Supprimez la partie hôte du nom de domaine complet (FQDN) figurant dans l’en-tête de contact (nom de domaine complet (FQDN) : sbc12.adatum.biz, après avoir supprimé la partie hôte : adatum.biz), puis vérifiez que ce nom est enregistré en tant que nom DNS dans une organisation Microsoft 365 ou Office 365. Le cas échéant, la recherche utilisateur est effectuée dans ce client. Si ce n’est pas le cas, l’appel échoue.
 
 4. En utilisant le numéro de téléphone présenté dans la requête-URI, effectuez la recherche de numéro inverse dans le client trouvé à l’étape 2 ou 3. Associez le numéro de téléphone présenté à un URI SIP utilisateur dans le client indiqué à l’étape précédente.
 
@@ -82,7 +82,7 @@ Ce nom doit également figurer dans le ou les champs du nom usuel ou du nom de r
 
 La prise en charge des caractères génériques est décrite dans [RFC 2818, section 3,1](https://tools.ietf.org/html/rfc2818#section-3.1). Destinées
 
-*"Les noms doivent contenir le caractère \* générique qui est considéré comme correspondant à tout composant de nom de domaine ou fragment de composant. Par exemple, \*. a.com correspond à foo.a.com mais pas à bar.foo.a.com. f\*. com correspond à foo.com mais pas bar.com. "*
+*"Les noms doivent contenir le caractère générique \* qui est considéré comme correspondant à tout composant de nom de domaine ou fragment de composant. Par exemple, \* . a.com correspond à foo.a.com mais pas bar.foo.a.com. f \* . com correspond à foo.com, mais pas bar.com. "*
 
 Si plusieurs valeurs dans l’en-tête de contact présentées dans un message SIP sont envoyées par l’SBC, seule la partie FQDN de la première valeur de l’en-tête de contact est utilisée.
 

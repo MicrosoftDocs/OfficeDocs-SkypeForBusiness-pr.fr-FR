@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042941"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691240"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -44,7 +44,7 @@ Pour ce faire, **vous devez affecter une licence d’audioconférence ou de syst
   
 - Affecter une licence de **conférence audio** à vos utilisateurs. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
-    Après avoir affecté cette licence, vous devez configurer l’audioconférence. Pour obtenir des instructions détaillées, reportez-vous à [essayer ou acheter l’audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+    Après avoir affecté cette licence, vous devez configurer l’audioconférence. Pour obtenir des instructions détaillées, reportez-vous à la rubrique [essayer ou acheter une audioconférence dans Microsoft 365 ou Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
 - Attribution d’un **système téléphonique** et d’une licence de plan d’appel **national ou national et international** à vos utilisateurs. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
@@ -57,9 +57,9 @@ Pour plus d’informations, reportez-vous à la rubrique [licences de complémen
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Étape 2 : configurer les crédits de communication pour votre organisation
 
-1. Connectez-vous au nouveau centre d’administration Microsoft 365 avec votre compte professionnel ou scolaire.
+1. Connectez-vous au [Centre d’administration Microsoft 365](https://portal.office.com/Adminportal) à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **facturation** > **services**. Faites défiler vers le bas, puis sélectionnez **modules complémentaires**.
+2. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **facturation**  >  **services**. Faites défiler vers le bas, puis sélectionnez **modules complémentaires**.
 
 3. Sélectionnez **crédits de communication**.
     
@@ -84,15 +84,15 @@ Pour plus d’informations, reportez-vous à la rubrique [licences de complémen
     >[!IMPORTANT]
     >Si vous êtes un client de gestion des licences en volume, vous pouvez choisir votre numéro de contrat entreprise pour le paiement. Si vous avez plusieurs numéros d’accord entreprise, vous serez en mesure de sélectionner l’accord entreprise que vous souhaitez utiliser pour le paiement. Vous aurez également une possibilité de spécifier un numéro de commande fournisseur à associer avec le numéro d’accord entreprise (le cas échéant).
     
-Le volume et le débit du forfait d’appels peuvent être préoccupés pour chaque organisation. You will need to get this type of usage data from your current service provider. Les organisations qui utilisent déjà Skype entreprise Online sont déjà en mesure d’obtenir des données**Reports** > **d’utilisation dans** le centre > d' **administration Skype entreprise**.
+Le volume et le débit du forfait d’appels peuvent être préoccupés pour chaque organisation. You will need to get this type of usage data from your current service provider. Les organisations qui utilisent déjà Skype entreprise Online sont déjà en mesure d’obtenir des données d’utilisation dans le **Centre d’administration Microsoft teams**  >  **Reports**  >  : rapport**sur les détails d’utilisation PSTN** .
   
-Lorsque vous configurez des crédits de communication, vous devez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants dont vous avez besoin. Ces informations sont disponibles dans le rapport **Détails de l'utilisation RTC**. Ce rapport vous permet d’exporter les enregistrements de données d’appel vers Excel si vous avez besoin de stocker les données ou de créer des rapports personnalisés. Pour plus d’informations sur l’affichage de l’utilisation, consultez rapport d’utilisation de la Conférence [RTC Skype entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+Lorsque vous configurez des crédits de communication, vous devez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants dont vous avez besoin. Ces informations sont disponibles dans le rapport **Détails de l'utilisation RTC**. Ce rapport vous permet d’exporter les enregistrements de données d’appel vers Excel si vous avez besoin de stocker les données ou de créer des rapports personnalisés. Pour plus d’informations sur l’affichage de l’utilisation, voir [rapport d’utilisation PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Étape 3 : affecter une licence de crédits de communication aux utilisateurs
 
-1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
+1. Connectez-vous au [Centre d’administration Microsoft 365](https://portal.office.com/Adminportal) à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le volet de navigation de gauche du centre d’administration Microsoft 365, **accédez à** > utilisateurs**actifs**, puis sélectionnez un ou des utilisateurs dans la liste.
+2. Dans le volet de navigation de gauche du centre d’administration Microsoft 365, **accédez à utilisateurs**  >  **actifs**, puis sélectionnez un utilisateur dans la liste.
     
 3. Sélectionnez **licences et applications**.
     
@@ -100,6 +100,9 @@ Lorsque vous configurez des crédits de communication, vous devez examiner l’u
     
     > [!NOTE]
     > Même si certains de vos utilisateurs sont affectés à une licence **entreprise E5** , il est recommandé d’effectuer cette opération.
+
+    > [!TIP]
+    > Vous pouvez utiliser [PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) pour attribuer des licences et des applications à plusieurs utilisateurs à l’aide d’une seule commande.
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>Vous souhaitez en savoir plus sur les offres et les tarifs ?
 
@@ -111,7 +114,7 @@ Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suiv
     
 - [Plans de système téléphonique](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation** > **abonnements** > **Ajouter des abonnements**.
+Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation**  >  **abonnements**  >  **Ajouter des abonnements**.
   
 Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -121,7 +124,7 @@ Pour afficher le tableau de la licence ou des licences dont vous avez besoin pou
     
 - [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
-- [Configurer des Forfaits d’appels](set-up-calling-plans.md) et [Forfaits d’appels pour Office 365](calling-plans-for-office-365.md)
+- [Configurer les offres d’appels](set-up-calling-plans.md) et les [offres d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
     
 - [Ajouter des fonds et gérer les Crédits de Communications](add-funds-and-manage-communications-credits.md)
     

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523327"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691040"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
@@ -54,7 +54,7 @@ Nous vous recommandons de passer en revue les modes de coexistence suivants pour
 
 ### <a name="islands-mode"></a>Mode insulaire
 
-Par défaut, les utilisateurs peuvent exécuter des équipes en même temps que Skype entreprise, sous la forme de deux solutions distinctes qui offrent des fonctionnalités similaires et chevauchantes, telles que la présence, les discussions, les appels et les réunions. Les utilisateurs teams peuvent également tirer parti des nouvelles fonctionnalités de collaboration telles que les équipes et les canaux, l’accès aux fichiers dans Office 365 et les applications.
+Par défaut, les utilisateurs peuvent exécuter des équipes en même temps que Skype entreprise, sous la forme de deux solutions distinctes qui offrent des fonctionnalités similaires et chevauchantes, telles que la présence, les discussions, les appels et les réunions. Les utilisateurs teams peuvent également tirer parti des nouvelles fonctionnalités de collaboration telles que les équipes et les canaux, l’accès à des fichiers dans Microsoft 365 ou Office 365 et des applications.
 
 Dans ce mode de coexistence, appelé **îlot**, chacune des applications clientes fonctionne comme une île séparée. Skype entreprise parle de Skype entreprise et teams parle d’équipes. Les utilisateurs doivent exécuter les deux clients à tout moment et pouvoir communiquer en mode natif dans le client à partir duquel la communication a été lancée. Par exemple, il n’est pas nécessaire d’interopérabilité en mode **îlot** .
 
@@ -91,7 +91,7 @@ Pour plus d’informations sur le passage en mode **équipes uniquement** , voir
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Collaboration avec teams dans Skype entreprise
 
-Ce mode permet aux équipes dans votre environnement de profiter de votre investissement actuel dans Skype entreprise. Dans ce mode, vous laissez Skype entreprise inchangé pour les fonctionnalités de conversation, d’appel et de réunion, et vous ajoutez des fonctionnalités de collaboration aux équipes (équipes et canaux, accès à des fichiers dans Office 365 et applications). Les fonctionnalités de communication de Teams (discussions privées, appels et planification) sont désdésactivées dans ce mode par défaut.
+Ce mode permet aux équipes dans votre environnement de profiter de votre investissement actuel dans Skype entreprise. Dans ce mode, vous laissez Skype entreprise inchangé pour les fonctionnalités de conversation, d’appel et de réunion, et vous ajoutez des fonctionnalités de collaboration dans Microsoft 365 ou Office 365 et des applications. Les fonctionnalités de communication de Teams (discussions privées, appels et planification) sont désdésactivées dans ce mode par défaut.
 
 Les organisations dont le point de départ est Skype entreprise Server sur site ou hybride doivent envisager ce mode en guise d’alternative au mode **insulaire** s’ils souhaitent offrir à leurs utilisateurs l’interopérabilité et la prédiction de leurs communications, ainsi qu’une chronologie prévisible pour leur mise à niveau vers Teams (plutôt que d’adopter la saturation du mode **insulaire** ).
 
@@ -142,7 +142,7 @@ Les utilisateurs de Skype entreprise peuvent passer des appels vocaux et vidéo 
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Les expériences d’interopérabilité d’un déploiement local de Skype entreprise requièrent que l’environnement local soit en mode hybride avec Office 365 Skype entreprise. Pour plus d’informations, consultez les [conseils de migration et d’interopérabilité](https://aka.ms/SkypeToTeams-Interop).
+> Les expériences d’interopérabilité d’un déploiement local de Skype entreprise requièrent que l’environnement local soit en mode hybride avec Microsoft 365 ou Office 365 Skype entreprise. Pour plus d’informations, consultez les [conseils de migration et d’interopérabilité](https://aka.ms/SkypeToTeams-Interop).
 
 Ces expériences d’interopérabilité sont accessibles aux utilisateurs et aux utilisateurs qui disposent de l’un des modes de coexistence suivants attribués : **Skype entreprise avec collaboration en équipe**, **Skype entreprise avec collaboration et réunions en équipe**, **Skype entreprise uniquement**ou **équipes uniquement**. Il n’existe aucune interopérabilité entre les utilisateurs en mode **îlot** .
 

@@ -20,19 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638623"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691440"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
 > [!Tip] 
-> Regardez la session suivante pour en savoir plus sur la [coexistence et l’interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
+> Regardez la session suivante pour en savoir plus sur la [coexistence et l’interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop).
 
 Dans le cadre de la prise en main de Skype entreprise, les administrateurs peuvent gérer l’utilisation des utilisateurs au sein de leur organisation en utilisant le concept du mode de coexistence "qui est une propriété de TeamsUpgradePolicy. Le mode de gestion de l’interopérabilité et de la migration permet aux administrateurs de gérer le passage de Skype entreprise à Teams.  Le mode utilisateur détermine dans quel client les discussions entrantes et les appels terrestres, ainsi que dans quel service (teams ou Skype entreprise) de nouvelles réunions sont prévues. Il définit également les fonctionnalités disponibles dans le client Teams. 
+
+> [!IMPORTANT]
+> Il peut s’écouler jusqu’à 24 heures avant que les modifications apportées à TeamsUpgradePolicy soient prises en compte. Avant cela, le statut de présence de l’utilisateur n’est pas correct (il est possible qu’il n’apparaisse pas comme **inconnu**).
 
 
 ## <a name="fundamental-concepts"></a>Concepts de base
@@ -50,7 +53,7 @@ Dans le cadre de la prise en main de Skype entreprise, les administrateurs peuve
 
 5.  L’interopérabilité entre les équipes et les utilisateurs Skype entreprise n’est possible que *si l’utilisateur de teams est connecté en ligne dans Skype entreprise*. L’utilisateur Skype entreprise du destinataire peut être hébergé sur site (et nécessite la configuration de Skype entreprise hybride) ou en ligne. Les utilisateurs qui sont hébergés dans Skype entreprise local peuvent utiliser teams en mode îlot (défini plus loin dans ce document), mais ils ne peuvent pas utiliser teams pour effectuer une interopérabilité ou fédérer avec d’autres utilisateurs de Skype entreprise.  
 
-6.    Le comportement de mise à niveau et d’interopérabilité est déterminé en fonction du mode de coexistence d’un utilisateur, décrit plus bas. Le mode est géré par TeamsUpgradePolicy. 
+6.    Le comportement de mise à niveau et d’interopérabilité est déterminé en fonction du mode de coexistence d’un utilisateur, décrit ci-dessous. Le mode est géré par TeamsUpgradePolicy. 
 
 7.  La mise à niveau d’un utilisateur vers le mode TeamsOnly vous permet de vous assurer que toutes les conversations et tous les appels entrants s’afficheront toujours dans le client teams de l’utilisateur, quel que soit le client dont il provient. Ces utilisateurs configureront également toutes les nouvelles réunions dans Teams. Pour être en mode TeamsOnly, l’utilisateur doit être hébergé en ligne dans Skype entreprise. Cela est nécessaire pour garantir l’interopérabilité, la Fédération et l’administration complète de l’utilisateur Teams. Pour mettre à niveau un utilisateur vers TeamsOnly :
     - Si l’utilisateur est hébergé dans Skype entreprise Online (ou s’il n’en possède jamais un), accordez-lui TeamsUpgradePolicy avec le mode = TeamsOnly à l’aide de l’instance « UpgradeToTeams » à l’aide de PowerShell, ou utilisez le centre d’administration teams pour sélectionner le mode TeamsOnly.
@@ -107,6 +110,9 @@ Les modes sont indiqués ci-dessous.
 
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy : gestion de la migration et de la coexistence
+
+> [!IMPORTANT]
+> Il peut s’écouler jusqu’à 24 heures avant que les modifications apportées à TeamsUpgradePolicy soient prises en compte. Avant cela, le statut de présence de l’utilisateur n’est pas correct (il est possible qu’il n’apparaisse pas comme **inconnu**).
 
 TeamsUpgradePolicy expose deux propriétés principales : mode et NotifySfbUsers. 
 </br>

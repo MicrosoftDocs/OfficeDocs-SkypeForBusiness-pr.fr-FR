@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522807"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689460"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
 
@@ -48,7 +48,7 @@ L’état de votre réseau affecte l’utilisation de l’utilisateur. Lorsqu’
 Pour profiter au maximum des avantages et des résultats commerciaux avec Teams, les utilisateurs doivent réellement les utiliser. Toutefois, l’excitation initiale tend à wane et les utilisateurs à revenir facilement aux vieilles méthodes de travail. Encourager les utilisateurs à adopter des équipes et à les mettre à jour, notamment :
 
 - D’en citer des champions pour promouvoir et encourager les utilisateurs.
-- Consulter le [Guide d’adoption d’Office 365](https://go.microsoft.com/fwlink/?linkid=859045) pour obtenir des conseils sur la promotion de votre engagement et son adoption.
+- Consulter le [Guide d’adoption de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=859045) pour obtenir des conseils sur la façon d’augmenter l’engagement et d’adopter le moteur.
 - Tirant parti du [Kit de réussite des utilisateurs d’équipes](https://aka.ms/TeamsCustomerSuccess) pour améliorer la sensibilisation et partager les meilleures pratiques.
 - Implémentation d’une [stratégie de gestion et d’adoption](http://www.successwithteams.com/) formelle pour favoriser la croissance de l’adoption.
 

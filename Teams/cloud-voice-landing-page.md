@@ -20,12 +20,12 @@ search.appverid: MET150
 description: En savoir plus sur la fonctionnalité voix sur le Cloud et comprendre les décisions de déploiement nécessaires.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281669"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690790"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
@@ -43,7 +43,7 @@ Nous recommandons à toutes les organisations de travailler par le biais des dé
 
 Les articles suivants fournissent des informations supplémentaires sur le déploiement et l’utilisation des fonctionnalités vocales Cloud dans teams :
 
-- [Système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
+- [Système téléphonique dans Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md)
 - [Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
 - [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Déploiement de la fonctionnalité vocale cloud](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ Voici les paramètres que la plupart des organisations veulent modifier (si les 
 
 ## <a name="phone-system-office-365"></a>Système téléphonique (Office 365)
 
-Le système téléphonique est la technologie de Microsoft permettant d’activer le contrôle d’appel et les fonctionnalités de branchement privée (PBX) du Cloud Office 365. Le système téléphonique vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités directement fournies par Office 365 et intégré dans l’environnement de productivité Cloud de l’entreprise.
+Le système téléphonique est la technologie de Microsoft permettant d’activer le contrôle d’appel et les fonctionnalités de branchement privée (PBX) dans le Cloud Microsoft 365 ou Office 365. Le système téléphonique vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités directement fournies par Microsoft 365 ou Office 365 et intégré étroitement dans l’environnement de productivité Cloud de l’entreprise.
 
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Pour quels emplacements ou bureaux d’utilisateurs puis-je implémenter un système téléphonique ? |Pour plus d’informations sur le système téléphonique, voir [qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|Pour quels emplacements ou bureaux d’utilisateurs puis-je implémenter un système téléphonique ? |Pour plus d’informations sur le système téléphonique, voir [qu’est-ce que le système téléphonique dans Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Connexion au réseau téléphonique public commuté (RTC)
@@ -120,7 +120,7 @@ Comment puis-je porter des numéros de téléphone existants vers teams ?|Pour 
 
 ### <a name="dial-plans"></a>Plan de numérotation
 
-Un plan de numérotation dans la fonctionnalité système téléphonique d’Office 365 est un ensemble de règles de normalisation qui convertissent les numéros de téléphone numérotés dans un autre format (en général, le format E. 164) pour l’autorisation et le routage des appels.
+Un plan de numérotation dans la fonctionnalité système téléphonique de Microsoft 365 ou d’Office 365 est un ensemble de règles de normalisation qui traduisent les numéros de téléphone numérotés dans un autre format (généralement le format E. 164) pour l’autorisation d’appel et le routage des appels.
 
 Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de numérotation ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638403"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691590"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
@@ -43,13 +43,13 @@ Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour reflét
 > - Les propriétaires ne seront pas en mesure d’ajouter ou de supprimer des utilisateurs en tant que membres de l’équipe, car ils sont définis par des règles de groupe dynamique.
 > -    Les membres ne seront pas en mesure de laisser des équipes sauvegardées par des groupes dynamiques.
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Création et gestion d’un groupe Microsoft 365 avec l’appartenance dynamique
+
 Lorsque vous êtes connecté en tant qu’administrateur client, suivez les instructions de la procédure de [création d’un groupe dynamique et vérification](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)de l’État. Le cas échéant, voir [règles d’appartenance dynamique pour les groupes dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## <a name="create-a-new-team-with-your-o365-group"></a>Créer une équipe à l’aide de votre groupe O365
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Créer une équipe à l’aide de votre groupe Microsoft 365
 
-Autorisez désormais le temps nécessaire au changement d’appartenance pour que les modifications soient prises en compte, puis créez une nouvelle équipe comme décrit dans [améliorer les groupes microsoft 365 existants avec Microsoft teams](enhance-office-365-groups.md).
+Autorisez désormais le temps nécessaire au changement d’appartenance pour que les modifications soient prises en compte, puis créez une nouvelle équipe comme décrit dans [créer une équipe à partir d’un groupe existant](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865).
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Appliquer une appartenance dynamique à une équipe existante
 

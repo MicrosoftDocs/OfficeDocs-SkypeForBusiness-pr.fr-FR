@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905536"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691520"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -31,7 +31,7 @@ La mise à niveau de Skype entreprise Online sera annulée le 31 juillet 2021. C
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>Qu’est-ce que le plan de retraite Skype entreprise ?
 
-La mise à jour de Skype entreprise Online sera le 31 juillet 2021 et après cette date, le service ne sera plus accessible. À l’heure actuelle, les clients actuels de Skype entreprise Online ne seront pas modifiés en service et pourront continuer à ajouter de nouveaux utilisateurs selon les besoins. Toutefois, à compter du 1er septembre 2019, tous les nouveaux clients Office 365 sont intégrés directement aux équipes pour la discussion, les réunions et les appels. Veuillez noter que le service grand public Skype et Skype entreprise Server ne seront pas affectés par cette annonce.  
+La mise à jour de Skype entreprise Online sera le 31 juillet 2021 et après cette date, le service ne sera plus accessible. À l’heure actuelle, les clients actuels de Skype entreprise Online ne seront pas modifiés en service et pourront continuer à ajouter de nouveaux utilisateurs selon les besoins. Toutefois, à compter du 1er septembre 2019, nous enverrons tous les nouveaux clients Microsoft 365 ou Office 365 directement aux équipes pour discuter, réunions et appels. Veuillez noter que le service grand public Skype et Skype entreprise Server ne seront pas affectés par cette annonce.  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>Pourquoi devons-nous faire cette annonce maintenant ?
 

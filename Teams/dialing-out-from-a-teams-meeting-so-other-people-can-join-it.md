@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Les organisateurs de la réunion peuvent découvrir comment numéroter à l’aide de l’application teams pour permettre à d’autres personnes de participer à la même réunion à l’aide de leur téléphone.
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901959"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691290"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
@@ -45,7 +45,7 @@ Lorsque vous appelez une personne, nous vous conseillons de le faire en utilisan
 
 Pour cela, procédez comme suit :
 
- **Étape 1 :** Dans la réunion, utilisez le **Add people** ![bouton](media/add-people-button.png) ajouter des personnes de l’option Ajouter des personnes pour appeler un numéro de téléphone.
+ **Étape 1 :** Dans la réunion, utilisez le bouton **Ajouter des personnes** ![ de l’option Ajouter des personnes ](media/add-people-button.png) pour appeler un numéro de téléphone.
  **Étape 2 :** Entrez le numéro de téléphone complet, y compris l’indicatif du pays/de la région dans la zone **inviter une personne ou composer un numéro** .
   
 ![Capture d’écran de la zone inviter une personne ou composer un numéro](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ Si vous recherchez des instructions sur la façon de permettre à vos utilisateu
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio ?
 
-[Tester ou acheter l’audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Essayez ou achetez une audioconférence](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

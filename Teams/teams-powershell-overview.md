@@ -17,12 +17,12 @@ description: Découvrez comment utiliser les contrôles PowerShell pour gérer M
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951249"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690950"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell teams
 
@@ -44,9 +44,9 @@ Lire [utiliser les rôles d’administrateur de Microsoft teams pour gérer les 
 
 Les applets de développement pour la création et la gestion d’équipes se trouvent dans le [module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Les équipes sont régularisées par les groupes Office 365, ce qui vous permet de créer un groupe lorsque vous créez une équipe. Il existe un ensemble d’applets de construction fourni pour l’utilisation de l’équipe principale et``new-team``de ``get-team``ses ``set-team``paramètres (,,,)``add-teamuser``, ``remove-teamuser``de la gestion des utilisateurs d’équipe (,), ainsi que des cmdlets ``remove-teamchannel``de gestion des canaux de l’équipe (``new-teamchannel``). Toutes ces applets de action peuvent être exécutées en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes membre ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous pouvez agir sur toutes les équipes de votre organisation.
+Les équipes sont régularisées par des groupes Microsoft 365, de sorte que lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de construction fourni pour l’utilisation de l’équipe principale et de ses paramètres ( ``new-team`` , ``get-team`` ,, ``set-team`` ), de la gestion des utilisateurs d’équipe ( ``add-teamuser`` , ``remove-teamuser`` ), ainsi que des cmdlets de gestion des canaux de l’équipe ( ``new-teamchannel`` ``remove-teamchannel`` ). Toutes ces applets de action peuvent être exécutées en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes membre ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous pouvez agir sur toutes les équipes de votre organisation.
 
-> Le **GroupID** utilisé dans les applets de applet de module Microsoft teams PowerShell est le même que la ``Get-UnifiedGroup`` propriété **Identity** renvoyée par dans le module Exchange PowerShell.
+> Le **GroupID** utilisé dans les applets de applet de module Microsoft teams PowerShell est le même que la propriété **Identity** renvoyée par ``Get-UnifiedGroup`` dans le module Exchange PowerShell.
 
 ### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Différences entre l’aperçu et le module Microsoft teams PowerShell disponible en général
 
@@ -84,30 +84,30 @@ Lorsque nous avons distribué notre version générale de notre module PowerShel
 Utilisez les applets de décision dans le [module de cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366) pour gérer les stratégies d’utilisateurs individuels.
 
 > [!NOTE]
-> Les applets de connexion seront disponibles dans votre session PowerShell une fois que vous vous connectez à Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> Les applets de connexion seront disponibles dans votre session PowerShell une fois que vous vous connectez à Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Microsoft 365 ou PowerShell Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
 
 Une stratégie est un ensemble de paramètres qui peuvent être appliqués de façon granulaire aux utilisateurs individuels. Chaque type de stratégie dispose de son propre ensemble d’applets de jeu permettant de créer, d’afficher, de supprimer et de mettre à jour les stratégies, puis de les affecter aux utilisateurs. La structure générale est la suivante :
 
-- OBTENIR des commandes (par exemple ``Get-CsTeamsMeetingPolicy``,) : renvoi des documents de stratégie que vous pouvez affecter au sein de votre organisation, les stratégies créées par Microsoft à utiliser et les stratégies personnalisées que vous avez créées.
-   > Si vous souhaitez rechercher uniquement les stratégies personnalisées que vous avez créées au sein de votre organisation, ``-Filter "tag:*"``vous pouvez utiliser.
+- OBTENIR des commandes (par exemple, ``Get-CsTeamsMeetingPolicy`` ) : renvoi des documents de stratégie que vous pouvez affecter au sein de votre organisation, les stratégies créées par Microsoft à utiliser et les stratégies personnalisées que vous avez créées.
+   > Si vous souhaitez rechercher uniquement les stratégies personnalisées que vous avez créées au sein de votre organisation, vous pouvez utiliser ``-Filter "tag:*"`` .
 
-- De nouvelles commandes (par exemple ``New-CsTeamsMeetingPolicy``,) : vous permettent de créer de nouvelles stratégies pour votre organisation, qui sont ensuite disponibles pour être affectées aux utilisateurs de votre organisation. Toutes les stratégies ne prennent pas en charge la création de stratégies personnalisées. En règle générale, il s’agit de veiller à ce que les stratégies que vous utilisez au sein de votre organisation possèdent une combinaison de paramètres prise en charge.
+- De nouvelles commandes (par exemple, ``New-CsTeamsMeetingPolicy`` ) : vous permettent de créer de nouvelles stratégies pour votre organisation, qui sont ensuite disponibles pour être affectées aux utilisateurs de votre organisation. Toutes les stratégies ne prennent pas en charge la création de stratégies personnalisées. En règle générale, il s’agit de veiller à ce que les stratégies que vous utilisez au sein de votre organisation possèdent une combinaison de paramètres prise en charge.
 
-- Les commandes SET (par exemple ``Set-CsTeamsMeetingPolicy``,) : vous permettent de définir des valeurs particulières sur une stratégie donnée. Certaines stratégies n’ont pas de commandes définies disponibles ou contiennent des paramètres qui ne peuvent pas être personnalisés dans la stratégie. Chaque description PowerShell sera appelée quels sont les paramètres qui ne peuvent pas être personnalisés. 
-   > Pour modifier la stratégie qui sera affectée par défaut aux utilisateurs de votre organisation pour lesquels aucune stratégie personnalisée n’est affectée, exécutez ``Set-Cs<PolicyName> -Identity Global``.
+- Les commandes SET (par exemple, ``Set-CsTeamsMeetingPolicy`` ) : vous permettent de définir des valeurs particulières sur une stratégie donnée. Certaines stratégies n’ont pas de commandes définies disponibles ou contiennent des paramètres qui ne peuvent pas être personnalisés dans la stratégie. Chaque description PowerShell sera appelée quels sont les paramètres qui ne peuvent pas être personnalisés. 
+   > Pour modifier la stratégie qui sera affectée par défaut aux utilisateurs de votre organisation pour lesquels aucune stratégie personnalisée n’est affectée, exécutez ``Set-Cs<PolicyName> -Identity Global`` .
 
-- SUPPRIMER des commandes (par exemple ``Remove-CsTeamsMeetingPolicy``,) : vous pouvez utiliser cette applet de commande pour supprimer une stratégie personnalisée qui a été créée dans votre client. Si vous supprimez une stratégie personnalisée qui a été attribuée à au moins un utilisateur au sein de votre organisation, cet utilisateur sera renvoyé à la stratégie globale.
-   > Vous ne pouvez pas supprimer réellement la politique globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft dans votre organisation, vous pouvez exécuter ``Remove-Cs<PolicyName> -Identity Global``.
+- SUPPRIMER des commandes (par exemple, ``Remove-CsTeamsMeetingPolicy`` ) : vous pouvez utiliser cette applet de commande pour supprimer une stratégie personnalisée qui a été créée dans votre client. Si vous supprimez une stratégie personnalisée qui a été attribuée à au moins un utilisateur au sein de votre organisation, cet utilisateur sera renvoyé à la stratégie globale.
+   > Vous ne pouvez pas supprimer réellement la politique globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft dans votre organisation, vous pouvez exécuter ``Remove-Cs<PolicyName> -Identity Global`` .
 
-- Commande d’attribution (par exemple ``Grant-CsTeamsMeetingPolicy``,) : vous permet d’affecter une stratégie à un utilisateur particulier.
-   > Pour supprimer une affectation de stratégie personnalisée et permettre à l’utilisateur de revenir à la stratégie par défaut de votre ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``organisation, exécutez.
+- Commande d’attribution (par exemple, ``Grant-CsTeamsMeetingPolicy`` ) : vous permet d’affecter une stratégie à un utilisateur particulier.
+   > Pour supprimer une affectation de stratégie personnalisée et permettre à l’utilisateur de revenir à la stratégie par défaut de votre organisation, exécutez ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` .
 
 > [!TIP]
-> Toutes les stratégies n’autorisent pas la création de stratégies personnalisées, et certaines stratégies ne peuvent pas être personnalisées (de sorte que vous ne pouvez pas définir de ``set-`` valeur ``new-``personnalisée pendant et). La documentation de l’applet de connexion spécifique peut faire l’objet d’un appel si des paramètres ne sont pas disponibles pour les clients.
+> Toutes les stratégies n’autorisent pas la création de stratégies personnalisées, et certaines stratégies ne peuvent pas être personnalisées (de sorte que vous ne pouvez pas définir de valeur personnalisée pendant ``set-`` et ``new-`` ). La documentation de l’applet de connexion spécifique peut faire l’objet d’un appel si des paramètres ne sont pas disponibles pour les clients.
 
 Paramètres courants :
 
-- **Identity**: ``Get-``pour ``Set-``, ``New-``, et ``Remove-``, le paramètre **Identity** fera toujours référence à une instance de stratégie spécifique. Pour ``Grant``le paramètre **Identity** , fait référence à un objet utilisateur spécifique auquel la stratégie est appliquée.
+- **Identity**: pour ``Get-`` ,, ``Set-`` ``New-`` et ``Remove-`` , le paramètre **Identity** fera toujours référence à une instance de stratégie spécifique. Pour ``Grant`` le paramètre **Identity** , fait référence à un objet utilisateur spécifique auquel la stratégie est appliquée.
 
 <!--more info here?-->
 
@@ -117,10 +117,10 @@ Les applets de configuration de la gestion de votre configuration se trouvent da
 
 Les configurations sont des compartiments des paramètres conservés dans le service qui ne peuvent pas être spécifiés à un niveau utilisateur. Les paramètres s’appliquent toujours à l’ensemble de l’organisation. Votre configuration globale est la seule configuration efficace au sein de votre organisation. Chaque type de configuration est fourni avec deux cmdlets principales :
 
-- ``Get-Cs<ConfigurationName>``(par exemple, ``Get-CsTeamsClientConfiguration``) : 
+- ``Get-Cs<ConfigurationName>``(par exemple, ``Get-CsTeamsClientConfiguration`` ) : 
 
-- Définissez les commandes (par exemple ``Set-CsTeamsClientConfiguration``,) : définissez les propriétés dans la configuration de ce type. Spécifiez les paramètres que vous voulez modifier.
-   > Vous pouvez faire référence à la configuration que vous modifiez de l’une des deux manières suivantes : en spécifiant-**Identity global**ou en exécutant ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
+- Définissez les commandes (par exemple, ``Set-CsTeamsClientConfiguration`` ) : définissez les propriétés dans la configuration de ce type. Spécifiez les paramètres que vous voulez modifier.
+   > Vous pouvez faire référence à la configuration que vous modifiez de l’une des deux manières suivantes : en spécifiant-**Identity global**ou en exécutant ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="other-powershell-tools"></a>Autres outils PowerShell
 

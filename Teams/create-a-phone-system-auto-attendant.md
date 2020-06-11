@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523798"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697417"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -83,7 +83,7 @@ Si vous définissez un opérateur, indiquez aux personnes qui vous appellent à 
 Vous pouvez définir l’opérateur de plusieurs manières :
 
 - **Aucun opérateur** désactive les options « opérateur » et « appuyer sur 0 ». Il s’agit de la valeur par défaut actuelle.
-- Une **personne de l’organisation** attribue une personne disposant d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Office 365. Vous pouvez également le configurer de sorte que l’appelant soit dirigé vers la boîte vocale. Pour envoyer l’appel à la boîte vocale, sélectionnez **personne dans l’organisation** , puis définissez les paramètres de ce compte pour envoyer les appels directement à la boîte vocale.
+- Une **personne de l’organisation** attribue une personne disposant d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Microsoft 365 ou Office 365. Vous pouvez également le configurer de sorte que l’appelant soit dirigé vers la boîte vocale. Pour envoyer l’appel à la boîte vocale, sélectionnez **personne dans l’organisation** , puis définissez les paramètres de ce compte pour envoyer les appels directement à la boîte vocale.
 
      > [!Note]
      > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
@@ -157,13 +157,13 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 ![Icône du numéro 4, une légende dans la capture d’écran suivante ](media/teamscallout4.png) **rediriger l’appel** , envoie l’appelant à la destination choisie sans choisir d’options. Les paramètres possibles sont les suivants :
 
-  - **Personne de l’organisation** Le compte que vous choisissez doit avoir une licence de système téléphonique activée pour voix entreprise ou disposer d’un plan d’appels attribué dans Office 365. Vous pouvez configurer le programme pour qu’il puisse être envoyé à la boîte vocale : sélectionnez une **personne dans l’organisation** et configurer ce compte pour que les appels soient transférés directement à la boîte vocale.
+  - **Personne de l’organisation** Le compte que vous choisissez doit être doté d’une licence de système téléphonique activée pour voix entreprise ou d’un forfait d’appels attribué dans Microsoft 365 ou Office 365. Vous pouvez configurer le programme pour qu’il puisse être envoyé à la boîte vocale : sélectionnez une **personne dans l’organisation** et configurer ce compte pour que les appels soient transférés directement à la boîte vocale.
 
     > [!Note]
     > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
 
   - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé au service.
-  - Boîte **vocale** Sélectionnez le groupe Office 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Office 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
+  - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Microsoft 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 
       Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
 
@@ -198,11 +198,11 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **Opérateur** Si un opérateur est déjà configuré, l’option est automatiquement mappée à la clé 0, mais peut également être supprimée ou réaffectée à une autre clé. L’appelant qui sélectionne cette option est envoyé à l’opérateur désigné. Si l’opérateur n’est pas défini sur une touche, la commande vocale « opérateur » est également désactivée. 
-- Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. L’utilisateur doit disposer d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Office 365. Recherchez la personne dans le champ **Rechercher par nom** .
+- Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. L’utilisateur doit disposer d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Microsoft 365 ou Office 365. Recherchez la personne dans le champ **Rechercher par nom** .
 
 - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé à l’application.
 
-- Boîte **vocale** Sélectionnez le groupe Office 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Office 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
+- Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Microsoft 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 
     Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
 
@@ -333,7 +333,7 @@ Dans cette page, vous pouvez définir qui est répertorié dans votre annuaire e
 
 Si vous sélectionnez **tous les utilisateurs en ligne**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
-**Groupes d’utilisateurs personnalisés** Cette option vous permet de rechercher et de sélectionner un groupe Office 365, une liste de distribution ou un groupe de sécurité déjà créé au sein de votre organisation. Les utilisateurs sont ajoutés à l’annuaire s’ils se trouvent dans le groupe Office 365 sélectionné, une liste de distribution ou un groupe de sécurité, et qu’il s’agit des **utilisateurs en ligne disposant d’une licence de système téléphonique** ou hébergé sur site via Skype entreprise Server. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité à l’annuaire.
+**Groupes d’utilisateurs personnalisés** Cette option vous permet de rechercher et de sélectionner un groupe Microsoft 365, une liste de distribution ou un groupe de sécurité déjà créé au sein de votre organisation. Les utilisateurs sont ajoutés à l’annuaire s’ils figurent dans le groupe Microsoft 365 choisi, une liste de distribution ou un groupe de sécurité, et qu’il s’agit des **utilisateurs en ligne disposant d’une licence de système téléphonique** ou hébergé sur site via Skype entreprise Server. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité à l’annuaire.
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation q
 
 Si vous sélectionnez **aucun**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
-**Groupe d’utilisateurs personnalisés** Vous pouvez rechercher un groupe Office 365, une liste de distribution ou un groupe de sécurité créé au sein de votre organisation. Les utilisateurs de ce groupe sont exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité.
-
+**Groupe d’utilisateurs personnalisés** Vous pouvez rechercher un groupe Microsoft 365, une liste de distribution ou un groupe de sécurité créé au sein de votre organisation. Les utilisateurs de ce groupe sont exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité.
 
 Si vous spécifiez les paramètres par défaut lorsque la numérotation par nom est activée, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
 
@@ -411,7 +410,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Office 365 et Microsoft teams à partir d’un point d’administration unique qui peut simplifier le travail quotidien. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 et Microsoft teams à partir d’un point d’administration unique qui peut simplifier le travail quotidien. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
   - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
 - Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple pour apporter des changements de paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Gérer Office 365 avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Gérer Microsoft 365 ou Office 365 avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-[Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers)
 

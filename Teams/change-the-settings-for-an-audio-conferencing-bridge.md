@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Modifiez les paramètres du pont de conférence audio, y compris les notifications d’entrée et de sortie, les noms de téléphone ou les numéros de téléphone, les tonalités et les appels d’invites pour enregistrer leur nom.
-ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780343"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690910"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
-Lorsque vous configurez l’audioconférence dans Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone. Ces numéros de téléphone permettent aux appelants de se connecter à une réunion. Le numéro de téléphone est inclus en bas de l’invitation à la réunion Skype entreprise ou Microsoft Teams.
+Lorsque vous configurez l’audioconférence dans Microsoft 365 ou Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone. Ces numéros de téléphone permettent aux appelants de se connecter à une réunion. Le numéro de téléphone est inclus en bas de l’invitation à la réunion Skype entreprise ou Microsoft Teams.
   
 Le pont de conférence répond à un appel et invite l’appelant à utiliser les invites vocales à l’aide d’un standard automatique de réunion, puis, en fonction de vos paramètres, il peut lire les notifications, demander aux appelants d’enregistrer leur nom et de contrôler les paramètres de code confidentiel. Des broches sont fournies aux organisateurs de la réunion pour leur permettre de démarrer une réunion lorsqu’elles ne sont pas à l’aide d’une application Skype entreprise ou Microsoft Teams.
 
@@ -45,7 +45,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation de gauche, accédez à **conférences** > **conférences.** 
+1. Dans le volet de navigation de gauche, accédez à **conférences**  >  **conférences**. 
 
 2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
 
@@ -72,7 +72,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 
  **Configurer l’interface de réunion lorsque les appelants rejoignent une réunion**
     
-1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
+1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation **Audio conferencing**de gauche, accédez à  >  **paramètres du pont Microsoft**Conferencing.
     
 2. Dans la page **paramètres du pont Microsoft** , sous **qualité de participation**à une réunion, sélectionnez :
     
@@ -92,9 +92,9 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
   
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
     
-2. Accédez au >  **Centre d’administration Microsoft 365****Skype entreprise**.
+2. Accédez au **Centre d’administration Microsoft 365**  >  **Skype entreprise**.
     
-3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
+3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche **Audio conferencing**, accédez à  >  **paramètres du pont Microsoft**Conferencing.
     
 4. Dans la page **paramètres du pont Microsoft** , sous **sécurité**, entrez le nombre de chiffres souhaités pour le code confidentiel dans la liste **longueur du code confidentiel** , puis cliquez sur **Enregistrer**.
     
@@ -105,9 +105,9 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
   
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
     
-2. Accédez au >  **Centre d’administration Microsoft 365****Skype entreprise**.
+2. Accédez au **Centre d’administration Microsoft 365**  >  **Skype entreprise**.
     
-3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
+3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche **Audio conferencing**, accédez à  >  **paramètres du pont Microsoft**Conferencing.
     
 4. Dans la page **paramètres du pont Microsoft** , activez ou désactivez **Envoyer automatiquement les messages électroniques aux utilisateurs en cas de modification de leurs informations de connexion**, puis cliquez sur **Enregistrer**.
     
@@ -117,11 +117,11 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 
 - Pour gagner du temps ou automatiser le processus, vous pouvez utiliser l’applet de connexion [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
     
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
     
@@ -134,7 +134,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

@@ -18,12 +18,12 @@ description: Exemples d’utilisation de PowerShell pour définir des stratégie
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140645"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691570"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Vous pouvez utiliser les applets de commande Windows PowerShell suivantes pour d
 Voici quelques exemples.
 
 > [!NOTE]
-> Pour pouvoir exécuter ces applets de connexion, vous devez être connecté à Skype entreprise Online PowerShell. Pour plus d’informations, reportez-vous à [gérer Skype entreprise Online avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> Pour pouvoir exécuter ces applets de connexion, vous devez être connecté à Skype entreprise Online PowerShell. Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Microsoft 365 ou PowerShell Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permettre aux utilisateurs de planifier des événements en direct 
 
@@ -144,7 +144,7 @@ Définissez la stratégie globale pour activer les légendes dynamiques et les s
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Présentation de Teams PowerShell](../teams-powershell-overview.md)
 

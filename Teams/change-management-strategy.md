@@ -15,12 +15,12 @@ description: Créez une stratégie de gestion des modifications pour Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 396649f40a3e3413de67aea61eca7f2feb7dac4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778380"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690480"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -61,8 +61,8 @@ La première règle d'une adoption réussie consiste à créer une équipe dynam
 |  |  |
 |---------|---------|
 |![Icône Responsables exécutifs.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Les **responsables exécutifs** sont les principaux dirigeants de l'organisation et leur participation est essentielle à l'adoption des employés. Ils exercent l'influence la plus marquée sur la culture de l'entreprise et peuvent activement communiquer les valeurs et avantages d'une nouvelle technologie et méthode.         |
-|![Icône Propriétaires de service.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Les **propriétaires de service** sont chargés de s'assurer que les employés utilisent le service et en tirent parti. Il est important de désigner des propriétaires de service dans votre organisation pour assurer la réalisation des objectifs définis pour Office 365.         |
-|![Icône Champions.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtenir l'appui de chaque utilisateur dans une organisation représente un véritable défi. Les **champions** peuvent contribuer à la réussite de ce défi et jouer un rôle important dans l'adoption d'Office 365. Ils disposent de connaissances, sont déterminés à approfondir leurs compétences et sont disposés à offrir un encadrement et une assistance. Ils aident à faire d'Office 365 une réalité dans leur service ou équipe.         |
+|![Icône Propriétaires de service.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Les **propriétaires de services** sont responsables de l’utilisation du service par le service et de leur obtention de valeurs. Il est important de définir les propriétaires de services au sein de votre organisation pour vous assurer que les objectifs de l’entreprise définis pour Microsoft 365 ou Office 365 sont réalisés.         |
+|![Icône Champions.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |L’acquisition de l’achat à partir de tous les utilisateurs au sein d’une organisation est un défi. Les **champions** peuvent vous aider à résoudre ce problème et jouer un rôle important lors de l’adoption de Microsoft 365 ou d’Office 365. Ils sont conversés et nous engageons à renforcer leurs compétences et à fournir du coaching et de l’assistance aux pairs. Celles-ci permettent de traduire Microsoft 365 ou Office 365 en réalité de leur département ou de leur équipe.         |
 
 Nous vous conseillons de mettre à jour les présentes parties prenantes pour suivre l’avancement de votre programme. Le lancement d’un « Conseil de collaboration » permettant de prendre en charge les commentaires et les discussions peut être un outil utile en fonction de la culture de votre entreprise.
 
@@ -145,7 +145,7 @@ Comme dans toute campagne de communications et d'adoption, vous voudrez identifi
 <a name="measure-and-share-success"></a>Mesurer et partager la réussite
 -------------------------------------------------
 
-Votre équipe du projet doit comprendre des administrateurs informatiques de votre organisation. Ces utilisateurs ont accès aux rapports d’utilisation de Microsoft teams dans Office 365 intégrés dans l’interface du centre d’administration Microsoft 365. Ces informations peuvent montrer l’utilisation de Microsoft Teams dans votre entreprise. Nous recommandons également d’obtenir des commentaires directement auprès de vos utilisateurs sur leur expérience de Teams et leurs autres idées d’utilisation. Partager ces exemples concrets de l'intérieur de votre entreprise est extrêmement utile pour parvenir à un changement soutenu au fil du temps avec votre communauté d’utilisateurs.  
+Votre équipe du projet doit comprendre des administrateurs informatiques de votre organisation. Ces personnes ont accès aux rapports d’utilisation Microsoft 365 ou Office 365 de Microsoft teams intégrés dans l’interface du centre d’administration Microsoft 365. Ces informations peuvent montrer l’utilisation de Microsoft Teams dans votre entreprise. Nous recommandons également d’obtenir des commentaires directement auprès de vos utilisateurs sur leur expérience de Teams et leurs autres idées d’utilisation. Partager ces exemples concrets de l'intérieur de votre entreprise est extrêmement utile pour parvenir à un changement soutenu au fil du temps avec votre communauté d’utilisateurs.  
 
 Pour en savoir plus sur les rapports d’utilisation de Microsoft teams dans [le centre d'](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) administration Microsoft 365
 
@@ -154,8 +154,8 @@ Pour en savoir plus sur les rapports d’utilisation de Microsoft teams dans [le
 
 ## <a name="ongoing-adoption"></a>Adoption permanente
 
-Encourager le changement dans une organisation est une activité permanente, pas un événement. Votre réunion de lancement n’est que le début d’un processus permettant aux personnes de collaborer de manière plus efficace. Il est important de planifier des moments dans ce processus qui mettent en avant vos réussites, d’introduire de nouvelles fonctionnalités et de vous rattacher à votre stratégie de services Office 365 globale, que votre département informatique élaborera. Vous assurer que vos utilisateurs sont impliqués au lieu d’être surchargés réduira leur lassitude face au changement et les aidera à abandonner leurs anciennes habitudes - comme les pièces jointes aux e-mails - pour adopter une nouvelle approche, comme stocker les documents dans le cloud.
+Encourager le changement dans une organisation est une activité permanente, pas un événement. Votre réunion de lancement n’est que le début d’un processus permettant aux personnes de collaborer de manière plus efficace. Il est important de planifier les moments de ce voyage qui vous permettent de mettre en évidence vos succès, d’introduire de nouvelles fonctionnalités et de vous connecter à votre stratégie de service globale Microsoft 365 ou Office 365, en fonction de votre service informatique. Vous assurer que vos utilisateurs sont impliqués au lieu d’être surchargés réduira leur lassitude face au changement et les aidera à abandonner leurs anciennes habitudes - comme les pièces jointes aux e-mails - pour adopter une nouvelle approche, comme stocker les documents dans le cloud.
 
-Partagez vos questions sur l’adoption du service Teams et Office 365 dans la [communauté Encourager l’adoption](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) sur le site de la communauté technique Microsoft. Nous sommes toujours ravis de communiquer avec vous et de vous aider dans votre processus d’adoption.  
+Partagez vos questions relatives à l’adoption des services d’équipes et de Microsoft 365 ou d’Office 365 dans la [communauté](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) sur le site de la communauté technique Microsoft. Nous sommes toujours ravis de communiquer avec vous et de vous aider dans votre processus d’adoption.  
 
 

@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522497"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690920"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
-Si vous êtes un administrateur de votre organisation Office 365, vous verrez désormais l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Cette fonctionnalité vous permet de mettre à niveau des utilisateurs individuels ou tout le client.  
+Si vous êtes un administrateur de votre organisation Microsoft 365 ou Office 365, vous verrez désormais l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Cette fonctionnalité vous permet de mettre à niveau des utilisateurs individuels ou tout le client.  
 
-La mise à niveau vers le mode équipes uniquement offre aux utilisateurs les avantages complets de Microsoft Teams, le Hub pour le travail en équipe dans Office 365, par le biais d’une seule et même interface client. De plus, les utilisateurs en mode équipes uniquement recevront tous les appels et les discussions dans Teams, que l’expéditeur utilise ou non Skype entreprise ou équipes, et qu’il bénéficie d’une prise en charge de l’interopérabilité et de la Fédération.
+La mise à niveau vers le mode équipes uniquement offre aux utilisateurs les avantages complets de Microsoft Teams, le Hub pour le travail en équipe dans Microsoft 365 ou Office 365, par le biais d’une seule et même interface client. De plus, les utilisateurs en mode équipes uniquement recevront tous les appels et les discussions dans Teams, que l’expéditeur utilise ou non Skype entreprise ou équipes, et qu’il bénéficie d’une prise en charge de l’interopérabilité et de la Fédération.
 
 Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Teams, il existe des considérations qui peuvent influer sur la chronologie de la mise à niveau de votre organisation et son utilisation. Par exemple, si vous avez la possibilité de procéder à la mise à niveau, cela signifie que votre organisation est prête pour cette modification. Pour bénéficier de la meilleure expérience utilisateur, vérifiez que Teams répond à vos besoins en matière de collaboration et de communication, assurez-vous que votre réseau est prêt à prendre en charge Teams et implémentez votre plan de préparation des utilisateurs avant de les mettre à niveau vers Teams. 
 
@@ -54,7 +54,7 @@ Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Te
  - Office 365 Allemagne
  - Le client Skype entreprise est hébergé en Corée du Sud **et** l’organisation nécessite le stockage des données d’équipe en Corée du Sud. Pour l’instant, les organisations possédant des données Skype entreprise stockées en Corée du Sud qui effectuent une mise à niveau vers teams disposeront des données de leurs équipes dans la région du centre de données Asia, et non dans la région du centre de données de Corée du Sud
 
-**Considérations spécifiques à l’utilisateur**: certains scénarios d’utilisation sont toujours évolutifs, et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs au sein de l’organisation. En particulier, nous travaillons toujours sur des scénarios d’adressage pour les utilisateurs dont l’appareil principal est basé sur l’infrastructure VDI. Pour plus d’annonces, visitez le site de [plan d’évolution d’Office 365](https://www.microsoft.com/microsoft-365/roadmap) .
+**Considérations spécifiques à l’utilisateur**: certains scénarios d’utilisation sont toujours évolutifs, et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs au sein de l’organisation. En particulier, nous travaillons toujours sur des scénarios d’adressage pour les utilisateurs dont l’appareil principal est basé sur l’infrastructure VDI. Pour plus d’annonces, recherchez le site de [feuilles de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) .
 
 > [!NOTE]
 > Avant de basculer vers le mode équipes uniquement, vous devez remplacer ou mettre à jour les appareils qui ne prennent pas en charge Teams. 

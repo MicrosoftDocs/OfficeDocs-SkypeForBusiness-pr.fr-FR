@@ -16,12 +16,12 @@ description: Dans cet article, vous allez découvrir les rapports d’équipes d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904279"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690970"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -29,7 +29,7 @@ Une nouvelle expertise d’analyse et de création de rapports de Microsoft team
 
 ## <a name="how-to-access-the-reports"></a>Accès aux rapports
 
-Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, l’administrateur de service Teams, l’administrateur des communications teams ou l’administrateur Skype entreprise. Pour en savoir plus sur les rôles d’administrateur d’équipes et sur les rapports accessibles à chaque rôle d’administrateur, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](../using-admin-roles.md).
+Pour accéder aux rapports, vous devez être un administrateur général dans Microsoft 365 ou Office 365, l’administrateur de service Teams, l’administrateur des communications teams ou l’administrateur Skype entreprise. Pour en savoir plus sur les rôles d’administrateur d’équipes et sur les rapports accessibles à chaque rôle d’administrateur, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](../using-admin-roles.md).
 
 Accédez au centre d’administration de Microsoft Teams, dans le volet de navigation gauche, sélectionnez **analyse & rapports**, puis sous **État**, choisissez le rapport que vous souhaitez exécuter.
 

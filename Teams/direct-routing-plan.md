@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
-ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
+ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44428951"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691230"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -71,22 +71,22 @@ Les exigences d’infrastructure pour les domaines SBCs et de connectivité rés
 |:--- |:--- |
 |Contrôleur de bordure de session (SBC)|SBC pris en charge. Pour plus d’informations, voir [SBCS prises en charge](#supported-session-border-controllers-sbcs).|
 |Lignes de téléphonie connectées à l’SBC|Un ou plusieurs Trunks de téléphonie connectés à l’SBC. À la fin, l’SBC se connecte au système Microsoft Phone via le routage direct. Les SBC peuvent également se connecter à des entités de téléphonie tierces, telles que des PBX, des adaptateurs de téléphonie analogique, etc. Toute option de connectivité PSTN qui est connectée à l’SBC fonctionne. (Pour la configuration des Trunks RTC auprès de l’SBC, veuillez consulter les fournisseurs ou les fournisseurs de lignes SBC.)|
-|Organisation Office 365|Une organisation Office 365 que vous utilisez pour les utilisateurs de Microsoft Teams, ainsi que la configuration et la connexion au SBC.|
-|Bureau d’enregistrement de noms d’utilisateur|L’utilisateur doit être hébergé dans Office 365.<br/>Si votre entreprise possède un environnement Skype entreprise ou Lync local avec une connectivité hybride à Office 365, vous ne pouvez pas activer la voix dans teams pour un utilisateur hébergé sur site.<br/><br/>Pour vérifier le Bureau d’enregistrement d’un utilisateur, utilisez l’applet de commande PowerShell Skype entreprise Online suivante :<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>La sortie de l’applet de cmdlet doit afficher les éléments suivants :<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domaines|Un ou plusieurs domaines ajoutés à vos organisations Office 365.<br/><br/>Notez que vous ne pouvez pas utiliser le domaine par défaut, \* . onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les organisations 365 d’Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Organisation Microsoft 365 ou Office 365|Une organisation Microsoft 365 ou Office 365 qui vous permet d’utiliser les utilisateurs de Microsoft Teams, ainsi que la configuration et la connexion au SBC.|
+|Bureau d’enregistrement de noms d’utilisateur|L’utilisateur doit être hébergé dans Microsoft 365 ou Office 365.<br/>Si votre entreprise possède un environnement Skype entreprise ou Lync local avec une connectivité hybride à Microsoft 365 ou Office 365, vous ne pouvez pas activer la voix dans teams pour un utilisateur hébergé sur site.<br/><br/>Pour vérifier le Bureau d’enregistrement d’un utilisateur, utilisez l’applet de commande PowerShell Skype entreprise Online suivante :<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>La sortie de l’applet de cmdlet doit afficher les éléments suivants :<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Domaines|Un ou plusieurs domaines ajoutés à votre organisation Microsoft 365 ou Office 365.<br/><br/>Notez que vous ne pouvez pas utiliser le domaine par défaut, \* . onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les organisations Microsoft 365 ou Office 365, voir FAQ sur les [domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Adresse IP publique de l’SBC|Une adresse IP publique qui peut être utilisée pour se connecter à l’SBC. En fonction du type de SBC, l’SBC peut utiliser la traduction d’adresses réseau (NAT).|
-|Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits dans votre organisation Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
+|Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits de votre organisation Microsoft 365 ou Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
 |Entrée DNS publique pour l’SBC |Une entrée DNS publique qui mappe le nom de domaine complet du SBC à l’adresse IP publique. |
 |Certificat de confiance public pour l’SBC |Certificat de l’SBC à utiliser pour toutes les communications avec le routage direct. Pour plus d’informations, voir [certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc).|
 |Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`-Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP : FQDN](#sip-signaling-fqdns).|
-|Adresses IP et ports du pare-feu pour le média de routage direct |Le SBC communique avec les services suivants dans le Cloud :<br/><br/>Proxy SIP, qui gère le signalement<br/>Processeur multimédia, qui gère les éléments multimédias, sauf lorsque la dérivation multimédia est activée<br/><br/>Ces deux services ont des adresses IP distinctes dans le Cloud Microsoft, décrites plus loin dans ce document.<br/><br/>Pour plus d’informations, reportez-vous à la [section Microsoft teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans les [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Adresses IP et ports du pare-feu pour le média de routage direct |Le SBC communique avec les services suivants dans le Cloud :<br/><br/>Proxy SIP, qui gère le signalement<br/>Processeur multimédia, qui gère les éléments multimédias, sauf lorsque la dérivation multimédia est activée<br/><br/>Ces deux services ont des adresses IP distinctes dans le Cloud Microsoft, décrites plus loin dans ce document.<br/><br/>Pour plus d’informations, reportez-vous à la [section Microsoft teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans les [URL et les plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de transport de média|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Adresses IP et ports pour le pare-feu pour les éléments multimédias de Microsoft teams |Pour plus d’informations, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Adresses IP et ports pour le pare-feu pour les éléments multimédias de Microsoft teams |Pour plus d’informations, voir [URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres conditions requises 
 
-Les utilisateurs du routage direct doivent avoir les licences suivantes affectées dans Office 365 : 
+Les utilisateurs du routage direct doivent avoir les licences suivantes affectées dans Microsoft 365 ou Office 365 : 
 
 - Système Microsoft Phone. 
 - Microsoft teams + Skype entreprise plan 2, s’il est inclus dans la gestion des licences.
@@ -117,7 +117,7 @@ Le routage direct prend également en charge les utilisateurs disposant d’une 
 
 Le mélange d’un plan d’appel et de la connectivité de routage directe pour le même utilisateur est facultatif, mais peut être utile (par exemple, lorsque l’utilisateur dispose d’un plan d’appel Microsoft et veut diriger certains appels à l’aide de la SBC). L’un des scénarios les plus courants est l’appel vers des PBX tiers.  Avec les PBX tiers, tous les appels, à l’exception de ceux qui sont connectés à ces PBX, sont routés à l’aide d’un forfait d’appel Microsoft, mais les appels vers les téléphones connectés à des PBX tiers sont dirigés vers l’SBC et ne sont donc pas du réseau d’entreprise. 
 
-Pour plus d’informations sur les licences de système téléphonique, voir [tirer le meilleur parti d’Office avec les options de](https://products.office.com/compare-all-microsoft-office-products?tab=2) Plan Office 365 et [Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
+Pour plus d’informations sur la gestion des licences de système téléphonique, voir [tirer le meilleur parti des options de bureau et de](https://products.office.com/compare-all-microsoft-office-products?tab=2) [plan](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
 Pour plus d’informations sur la gestion des licences de système téléphonique, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
@@ -190,15 +190,15 @@ Microsoft travaille actuellement à l’ajout d’autorités de certification ba
 
 ## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets 
 
-Le routage direct est fourni dans les environnements Office 365 suivants :
-- Office 365
+Le routage direct est proposé dans les environnements suivants :
+- Microsoft 365 ou Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
 
 Apprenez-en davantage sur [Office 365 et les environnements gouvernementaux des États-Unis](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) tels que GCC, GCC High et DoD.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Environnements Microsoft 365, Office 365 et Office 365 GCC
 
 Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :
 
@@ -251,8 +251,8 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
-Vous devez utiliser les ports suivants pour les environnements Office 365 dans lesquels le routage direct est disponible :
-- Office 365
+Vous devez utiliser les ports suivants pour les environnements Microsoft 365 ou Office 365 dans lesquels le routage direct est disponible :
+- Microsoft 365 ou Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
@@ -282,7 +282,7 @@ Notez que les conditions suivantes s’appliquent si vous souhaitez déployer le
 
 Le trafic de média est acheminé vers et à partir d’un service distinct dans le Cloud Microsoft. Les plages d’adresses IP pour le trafic multimédia sont les suivantes :
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Environnements Microsoft 365, Office 365 et Office 365 GCC
 
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
 - 52.120.0.0/14 (adresses IP de 52.120.0.1 à 52.123.255.254).
@@ -320,7 +320,7 @@ Emplacements dans lesquels les composants proxy SIP et processeur multimédia so
 
 Emplacements dans lesquels seuls les processeurs multimédias sont déployés (flux SIP via le centre de média le plus proche indiqué ci-dessus) :
 - Japon (JP East et West)
-- Australie (datacenters au-orientale et West)
+- Australie (datacenters au
 
 
 

@@ -17,12 +17,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232575"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690880"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -159,7 +159,7 @@ Utilisez les applets de commande suivantes pour ajouter des ports, des commutate
 
 Utilisez les stratégies suivantes pour configurer les appels d’urgence. Vous pouvez gérer ces stratégies dans le centre d’administration Microsoft teams ou à l’aide de PowerShell.
 
-- **Stratégie d’acheminement des appels d’urgence** : s’applique uniquement au routage direct. Cette politique configure les numéros d’urgence, les masques par numéro, le cas échéant, et l’itinéraire RTC par numéro.  Vous pouvez affecter cette stratégie aux utilisateurs, aux sites réseau ou aux deux. (Les appels d’offres sont automatiquement activés pour les appels d’urgence en utilisant les numéros d’urgence du pays en fonction de leur lieu d’utilisation dans Office 365.)  Pour plus d’informations, consultez [gérer les stratégies d’acheminement des appels d’urgence pour le routage direct](manage-emergency-call-routing-policies.md).
+- **Stratégie d’acheminement des appels d’urgence** : s’applique uniquement au routage direct. Cette politique configure les numéros d’urgence, les masques par numéro, le cas échéant, et l’itinéraire RTC par numéro.  Vous pouvez affecter cette stratégie aux utilisateurs, aux sites réseau ou aux deux. (Les appels d’offres sont automatiquement activés pour les appels d’urgence en utilisant les numéros d’urgence du pays en fonction de leur emplacement d’utilisation de Microsoft 365 ou d’Office 365.)  Pour plus d’informations, consultez [gérer les stratégies d’acheminement des appels d’urgence pour le routage direct](manage-emergency-call-routing-policies.md).
 
 - **Politique d’appel d’urgence** : s’applique aux offres d’appels et au routage direct. Cette stratégie configure l’interface de notification du support technique lors d’un appel d’urgence. Vous pouvez définir la personne à notifier et la manière dont elle est notifiée. Par exemple, pour avertir automatiquement le centre de sécurité de votre organisation et les informer lors des appels d’urgence.  Cette stratégie peut être affectée à des utilisateurs ou des sites réseau ou les deux. Pour en savoir plus, voir [gérer les stratégies d’appel d’urgence dans teams](manage-emergency-calling-policies.md).
 
@@ -208,7 +208,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - **Le routage direct des clients aux États-Unis** doit coordonné avec leur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Sujets associés
+ ## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur l’activation et l’utilisation du tableau de bord de qualité des appels et obtenez des rapports de synthèse sur la qualité des appels.
-ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243565"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697419"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -347,7 +347,7 @@ Le tableau de bord des rapports de synthèse de bord inclut une page de **télé
 - Carte de point de terminaison à marque/modèle/type de point de terminaison, etc.
   
 > [!NOTE]
-> Les étiquettes de rapport que vous chargez dans bord seront gérées en tant que *données de support* dans le cadre de votre contrat pour Office 365, y compris les informations qui seraient considérées comme des *données client* ou des *données personnelles*. N’incluez pas de données que vous ne souhaitez pas envoyer à Microsoft en tant que *données de support technique*, ces informations seront visibles par les ingénieurs Microsoft à des fins de support.
+> Les étiquettes de rapport que vous chargez dans bord seront gérées en tant que *données de support* dans le cadre de votre contrat pour Microsoft 365 ou Office 365, y compris des informations qui seraient considérées comme des *données client* ou des *données personnelles*. N’incluez pas de données que vous ne souhaitez pas envoyer à Microsoft en tant que *données de support technique*, ces informations seront visibles par les ingénieurs Microsoft à des fins de support.
 
 ![Capture d’écran : affiche les données client du tableau de bord de qualité des appels](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
@@ -552,7 +552,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

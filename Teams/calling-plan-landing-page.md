@@ -17,12 +17,12 @@ description: Déterminez le forfait d’appels du système Microsoft Phone qui f
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905026"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691410"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Quelle forfait d’appels vous convient le mieux ? 
 
@@ -35,8 +35,8 @@ Cet article décrit les décisions de déploiement principales pour les offres d
 
 Les articles suivants fournissent des informations supplémentaires sur le déploiement et l’utilisation des plans d’appel Microsoft :
 
-- [Système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
-- [Forfaits d’appel dans Office 365](calling-plans-for-office-365.md)
+- [Système téléphonique dans Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md)
+- [Forfaits d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ Il existe deux types de plans d’appel disponibles :
 |Posez-vous la question|Action |
 |------------|-------|
 |Les offres d’appels sont-elles disponibles dans ma région ? Quels sont les emplacements des utilisateurs disposant d’un service de plan d’appels ? | Pour plus d’informations, consultez [disponibilité du pays et de la région pour les offres d’appels audio et de services d’audioconférence](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
-Mes utilisateurs doivent-ils utiliser les appels internationaux ? | Pour plus d’informations, consultez la section [forfaits d’appels pour Office 365](calling-plans-for-office-365.md). |
+Mes utilisateurs doivent-ils utiliser les appels internationaux ? | Pour plus d’informations, consultez la section [forfaits d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md). |
 Mes utilisateurs ont-ils des licences offres d’appels ? | Pour acheter et attribuer des licences, reportez-vous à la section [étape 2 : acheter et attribuer des licences](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
 Mes utilisateurs ont-ils chacun un numéro de téléphone à composer directe | Pour obtenir des numéros de téléphone, reportez-vous à l' [étape 3 : obtenir des numéros de téléphone](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>Transférer les numéros de téléphone vers Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transférer des numéros de téléphone vers Microsoft 365 ou Office 365
 
 Il est facile de transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous transférez vos numéros de téléphone vers Teams, Microsoft deviendra votre fournisseur de services et vous facturera ces numéros de téléphone. Pour plus d’informations, consultez la section [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
-Avec les offres d’appels dans Office 365, chaque utilisateur de votre organisation doit disposer d’un numéro de téléphone unique et d’une adresse de secours validée correspondante. Vous pouvez également spécifier un emplacement d’urgence dans une adresse de secours (par exemple, un numéro de téléphone ou un numéro de téléphone). 
+Avec les offres d’appels dans Microsoft 365 ou Office 365, tous les utilisateurs de votre organisation doivent disposer d’un numéro de téléphone unique et d’une adresse de secours validée correspondante. Vous pouvez également spécifier un emplacement d’urgence dans une adresse de secours (par exemple, un numéro de téléphone ou un numéro de téléphone). 
 
 |Posez-vous la question|Action |
 |:------------|:-------|

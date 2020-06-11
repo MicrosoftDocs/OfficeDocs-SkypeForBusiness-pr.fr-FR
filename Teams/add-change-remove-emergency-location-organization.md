@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610323"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690840"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -46,6 +46,7 @@ Vous gérez les emplacements d’urgence de votre organisation dans le centre d�
 
    > [!NOTE]
    > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que pour activer un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie à l’emplacement d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre à l’indicatif de la région du numéro de téléphone.
+
 5. Si l’adresse est introuvable et que vous voulez modifier manuellement l’adresse, activez **la fonction modifier l’adresse manuellement**.
 6. Cliquez sur **Enregistrer**.
 

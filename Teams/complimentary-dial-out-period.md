@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Apprenez-en davantage sur la période de numérotation complète pour le plan d’appel d’Office 365 et l’audioconférence Office 365 dans Microsoft Teams.
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Apprenez-en davantage sur la période de numérotation complète pour Microsoft 365 ou le plan d’appels Office 365 et l’audioconférence Office 365 dans Microsoft Teams.
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779791"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690890"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
 ## <a name="skype-for-business-pstn-services"></a>Services RTC Skype Entreprise
 
-Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+Les clients peuvent utiliser Microsoft 365 ou un plan d’appels Office 365 et l’audioconférence Office 365, tel qu’il est autorisé dans les conditions d’utilisation des services RTC de Skype entreprise online. Les conditions d’utilisation des services RTC se trouvent dans les [termes du contrat de licence et la documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Fin de la période de numérotation
 
@@ -44,7 +44,7 @@ Ce changement n’intervient pas pour les pays dans lesquels l’abonnement à l
 
 ### <a name="complimentary-dial-out-period-details"></a>Détails de la période de numérotation gratuite
 
-Pour les clients adoptant notre service de conférence audio d’Office 365, Microsoft propose un avantage supplémentaire supplémentaire lié aux appels sortants de conférences organisés par les utilisateurs ayant affecté une licence d’abonnement Office 365 audio Conferencing en novembre 2019. Au cours de cette période supplémentaire, Microsoft permet aux organisateurs de la réunion ou aux participants autorisés, tels qu’ils sont définis dans les paramètres de la stratégie de la réunion, de passer des appels sortants à partir de la réunion vers des numéros de téléphone non plus surtaxés dans les pays et régions de 44 « zone A ». Cette prestation s’applique uniquement aux licences d’abonnements mensuels de conférences audio et ne s’étend pas aux licences payantes de l’audioconférence.
+Pour les clients adoptant notre service d’audioconférence Microsoft 365 ou Office 365, Microsoft propose un avantage supplémentaire supplémentaire lié aux appels sortants de conférences organisés par les utilisateurs qui ont attribué une 2019 licence d’abonnement Microsoft 365 ou Office 365 Au cours de cette période supplémentaire, Microsoft permet aux organisateurs de la réunion ou aux participants autorisés, tels qu’ils sont définis dans les paramètres de la stratégie de la réunion, de passer des appels sortants à partir de la réunion vers des numéros de téléphone non plus surtaxés dans les pays et régions de 44 « zone A ». Cette prestation s’applique uniquement aux licences d’abonnements mensuels de conférences audio et ne s’étend pas aux licences payantes de l’audioconférence.
 
 Par ailleurs, il y a une limite de 900 minutes au cours de la période de numérotation gratuite, comme suit :
 
@@ -58,7 +58,7 @@ Les utilisateurs disposant d’un emplacement d’utilisation des licences (il s
 - Tous les appels sortants vers des destinations qui ne sont pas dans la zone une liste de pays sont facturés à la minute à l’aide de crédits de communication au niveau de nos tarifs publiés vers cette destination
 
 > [!NOTE]
-> Le centre d’administration Skype entreprise vous permet de surveiller l’utilisation du pool de minutes d’appels sortants. Dans le centre d’administration Skype & de Microsoft Teams, accédez à > **rapports** > **PSTN Minute Pools**de **portail hérités**. Ce groupe de minutes est intitulé dans le rapport en tant qu’appel entrant vers les pays et les régions.
+> Le centre d’administration Skype entreprise vous permet de surveiller l’utilisation du pool de minutes d’appels sortants. Dans le centre d’administration Skype & de Microsoft Teams, accédez à rapports de **portail hérités**  >  **Reports**  >  **PSTN Minute Pools**. Ce groupe de minutes est intitulé dans le rapport en tant qu’appel entrant vers les pays et les régions.
 
 Des notifications par courrier électronique seront envoyées à tous les administrateurs de clients d’un client donné lorsque le taux d’utilisation du pool de minutes de connexion par le client atteint 80% et 100%.
 

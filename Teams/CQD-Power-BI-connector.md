@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416864"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690930"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -122,6 +122,8 @@ Malgré une utilisation de Power BI, toutes les fonctionnalités de Power BI ne 
 
 5.  **Filtrage de données relatif –** Est pris en charge dans le connecteur bord, mais uniquement avec les dimensions *heure de début* et *heure de fin* . Même si la dimension de *Date* peut être le choix évident pour le filtrage relatif aux dates relatives, la *Date* n’est pas stockée en tant qu’objet date et par conséquent ne prend pas en charge le filtrage relatif de la date sur Power bi.
 
+6. **Prise en charge de la communauté gouvernementale** Dans le cadre de l’utilisation de l’environnement GCC, l’application Power BI bord Connector fonctionne lors de l’utilisation de Power BI Desktop. Le connecteur Power BI bord n’est actuellement pas compatible avec le service Power BI pour les clients GCC.
+
 Veuillez noter que le connecteur est en version préliminaire, il est peu probable que ces limitations soient modifiées avec la version finale du connecteur. La plupart de ces problèmes sont des restrictions à la conception de connecteurs DirectQuery dans Power BI ou à la conception du modèle de données bord.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
@@ -176,6 +178,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est pré
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902879"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689650"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -36,7 +36,7 @@ Lire le 12 décembre 2017, annonce des plans d’appel dans teams : [les commun
 > [!NOTE]
 > Dans le cas d’un guide de démarrage rapide, nous vous conseillons de lire le [système téléphonique avec les offres d’appel](calling-plan-landing-page.md) et [FastTrack](https://aka.ms/cloudvoice) pour planifier et conduire un déploiement réussi.
 
-En ajoutant des plans d’appel, une fonctionnalité de 365 Office gérée par Skype entreprise, vous pouvez désormais utiliser les équipes pour passer et recevoir des appels téléphoniques vers des lignes fixes et mobiles via le réseau téléphonique public commuté (RTC).
+L’ajout d’offres d’appels est une fonctionnalité Microsoft 365 et Office 365 utilisée par Skype entreprise-vous pouvez désormais utiliser teams pour passer et recevoir des appels téléphoniques vers des lignes fixes ou mobiles grâce au réseau téléphonique public commuté (RTC).
 
 ![Capture d’écran montrant la page contacts dans teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Conditions préalables à l’activation de l’onglet **appels** dans teams

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à gérer l’utilisation des indicateurs au sein de votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209486"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690853"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft teams
 
@@ -53,7 +53,7 @@ Une équipe peut avoir jusqu’à 100 indicateurs, jusqu’à 100 membres de l�
 
 Par défaut, les propriétaires d’équipe peuvent ajouter des balises. Vous pouvez modifier ce paramètre pour autoriser les propriétaires d’équipe et les membres de l’équipe à ajouter des indicateurs ou à désactiver les indicateurs de votre organisation.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur > **paramètres des équipes**des **paramètres à l’échelle**de l’organisation.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur paramètres des équipes des **paramètres à l’échelle de l’organisation**  >  **Teams settings**.
 2. Sous **marquage**, en regard de l’option **étiquetage est activée pour**, sélectionnez l’une des options suivantes :
 
     - **Propriétaires et membres**d’une équipe : autoriser les propriétaires et les membres de l’équipe à ajouter des indicateurs.
@@ -64,7 +64,7 @@ Par défaut, les propriétaires d’équipe peuvent ajouter des balises. Vous po
 
 Vous pouvez configurer les paramètres de balises suivants pour contrôler l’utilisation des balises au sein de votre organisation.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur > **paramètres des équipes**des **paramètres à l’échelle**de l’organisation.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur paramètres des équipes des **paramètres à l’échelle de l’organisation**  >  **Teams settings**.
 2. Sous **marquage**, définissez les éléments suivants selon les besoins de votre organisation.
 
     - Le propriétaire d’une **équipe peut remplacer les personnes qui peuvent appliquer des indicateurs**: lorsque cette fonction est activée, les propriétaires d’équipe peuvent autoriser ou interdire les membres à ajouter des indicateurs dans les paramètres d’équipe.
@@ -79,6 +79,8 @@ Si vous avez activé la case à coadresse le propriétaire de l' **équipe peut 
 
 ## <a name="add-tags-in-teams"></a>Ajouter des balises dans teams
 
-Dans Microsoft Teams, l’onglet **membres** de la page gérer l’équipe d’une équipe comprend une colonne **balises** . Les propriétaires d’équipe et les membres (si la fonctionnalité est activée pour eux), vous pouvez cliquer sur **gérer les indicateurs** en regard d’un membre pour afficher la liste des balises suggérées pour ce membre et ajouter des indicateurs à la liste.
+Pour gérer les indicateurs, sélectionnez **gérer les équipes** dans la partie gauche de l’application et recherchez votre équipe dans la liste. Cliquez sur **autres options**, puis sélectionnez **gérer les indicateurs**.
 
-![Capture d’écran de l’application de balises dans le client teams ](media/manage-tags-teams.png) 
+Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
+
+![Capture d’écran de l’application de balises dans le client teams ](media/manage-tags-teams.png)

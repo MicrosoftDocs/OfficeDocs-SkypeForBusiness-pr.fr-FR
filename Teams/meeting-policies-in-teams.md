@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665136"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690940"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -436,8 +436,8 @@ Pour indiquer si les utilisateurs peuvent personnaliser leur arrière-plan vidé
 |---------|---------|
 |**Nofiltre**     |L’utilisateur ne peut pas personnaliser son arrière-plan vidéo.|
 |**BlurOnly**     |L’utilisateur a la possibilité de brouiller son arrière-plan vidéo. |
-|**BlurandDefaultBackgrounds**     |L’utilisateur a la possibilité de brouiller son arrière-plan vidéo ou de choisir parmi un ensemble d’images à utiliser en arrière-plan. |
-|**AllFilters**     |Utiliser a la possibilité de brouiller l’arrière-plan de la vidéo, de choisir parmi un ensemble d’images ou de télécharger des images personnalisées à utiliser en tant qu’arrière-plan. |
+|**BlurandDefaultBackgrounds**     |L’utilisateur a la possibilité de brouiller son arrière-plan vidéo ou de choisir parmi les images par défaut à utiliser comme arrière-plan. |
+|**AllFilters**     |Utiliser a la possibilité de brouiller l’arrière-plan de la vidéo, de choisir parmi les images par défaut ou de télécharger des images personnalisées à utiliser en tant qu’arrière-plan. |
 
 > [!NOTE]
 > Les images téléchargées par les utilisateurs ne sont pas affichées par Teams. Lorsque vous utilisez le paramètre **AllFilters** , vous devez disposer de stratégies d’organisation internes pour empêcher les utilisateurs de télécharger des images inappropriées ou inappropriées ou des images qui ne sont pas autorisées par votre organisation sur les arrière-plans des réunions Teams.

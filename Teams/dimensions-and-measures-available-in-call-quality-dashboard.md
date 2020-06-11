@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232585"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691280"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -121,8 +121,8 @@ Les informations de dimensions sont basées en partie sur les données chargées
 | First Inside Corp  | Énumération <br/>**Valeurs possibles :** <br/> Intérieur, extérieur  | Indique si le premier point de terminaison a été sur un sous-réseau au sein du réseau d’entreprise, en fonction du mappage des données bâtiment de sous-réseau à client. Par défaut, le point de terminaison est considéré intérieur. <br/> **Exemple de valeur :** Side | |
 | Second Inside Corp  | Énumération <br/> **Valeurs possibles :** <br/> Intérieur, extérieur | Indique si le deuxième point de terminaison a été sur un sous-réseau au sein du réseau d’entreprise, en fonction du mappage des données bâtiment de sous-réseau à client. Par défaut, le point de terminaison est considéré intérieur. <br/>**Exemple de valeur :** Side  |  |
 |**Deployment**| | | |
-| First Tenant Id  | Chaîne  | Identifiant client Office 365 pour le premier point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 -0000-0000 — 000000000000  | <br/>&bull;L’ID de locataire du premier point de terminaison n’a pas pu être déterminé. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
-| Second Tenant Id  | String  | Identifiant client Office 365 pour le deuxième point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000-0000-0000 — 000000000000  |  <br/>&bull;Impossible de déterminer l’ID de locataire pour le deuxième point de terminaison. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
+| First Tenant Id  | Chaîne  | ID de locataire du premier point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 -0000-0000 — 000000000000  | <br/>&bull;L’ID de locataire du premier point de terminaison n’a pas pu être déterminé. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
+| Second Tenant Id  | String  | ID de locataire du deuxième point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000-0000-0000 — 000000000000  |  <br/>&bull;Impossible de déterminer l’ID de locataire pour le deuxième point de terminaison. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
 | First Pool  | String  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au premier point de terminaison. <br/> **Exemple de valeur :** pool1 <span></span> . Lync <span></span> . com  | <br/>&bull;Indique que le point de terminaison a été connecté à Microsoft teams ou à Skype entreprise. Ce champ sera rempli uniquement pour les flux utilisant des déploiements Skype entreprise Server sur site. |
 | Second Pool  | String  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au deuxième point de terminaison. <br/> **Exemple de valeur :** <span>pool1.Lync.com</span>   | &bull;Le deuxième point de terminaison n’a pas pu déterminer le pool Skype entreprise online. Cela signifie que le point de terminaison a été connecté à un déploiement sur site de Skype entreprise Server.  |
 | Is Federated  | Boolean  | Vrai si les flux étaient entre deux clients fédérés, sinon, faux.   | <br/>&bull;Il n’est pas possible de déterminer s’il s’agissait d’un flux fédéré. <br/>&bull;Certaines données de signalisation n’ont pas été collectées   |
@@ -455,7 +455,7 @@ Les valeurs booléennes sont toujours true ou false. Dans certains cas, true peu
 
 Les dimensions fournies comme plage ou groupe de valeurs sont affichées selon le format suivant :
 
- _\<chaîne de l’ordre de tri \> \< \>  -  \<\>_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en secondes avec la valeur rapportée sous forme de plage de valeurs.
 
@@ -467,7 +467,7 @@ Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en s
 |066 : [3 – 4] |3 minutes < = durée du flux < 4 minutes |
 |  | |
 
-La \<> de chaîne d’ordre de tri est utilisée pour contrôler l’ordre de tri lors de la présentation des données et peut être utilisé pour le filtrage. Par exemple, un filtre sur la durée (minutes) < "065", affichait les flux avec une durée de moins de 2 minutes (le premier est nécessaire pour que le filtre fonctionne comme prévu).
+L'option \<sort order string> est utilisée pour contrôler l'ordre de tri lors de la présentation des données et peut être utilisé pour les trier. Par exemple, un filtre pour Durée (Minutes) < « 065 » affiche uniquement les flux d'une durée de moins de 2 minutes. (Le premier 0 est nécessaire pour le bon fonctionnement du filtre.)
 
 > [!NOTE]
 > La valeur réelle de la chaîne d'ordre de tri n'est pas significative.
@@ -480,7 +480,7 @@ Les chaînes utilisées par bord sont souvent dérivées de fichiers de données
 
 Les dimensions fournies comme paire d'énumération sont affichées selon le format suivant :
 
- _\<valeur d’énumération à partir d’un point de terminaison \> : \< valeur d’énumération de l’autre point de terminaison\>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
 
 Le tri des valeurs d'énumération est cohérent, mais ne reflète pas l'ordre du premier ou du deuxième point de terminaison.
 
@@ -515,10 +515,10 @@ Vous pouvez également utiliser de nombreux valeurs de mesure en tant que filtre
 |Total Answer Seizure Ratio |Taux |Taux d'appels d'une durée de moins de cinq secondes sur l'ensemble des appels. |
 |Total Short Call Percentage |Pourcentage |Pourcentage du total des appels d’une durée de moins d’une minute. |
 |Total Media Failure Percentage |Pourcentage |Pourcentage de flux pour lesquels le chemin de médias n'a pas pu être établi ou ne s'est pas terminé correctement. |
-|Media Failed Due To Firewall DPI Stream Count |Nombre de flux |Nombre de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365. |
-|Firewall DPI Media Failure Percentage |Pourcentage |Pourcentage de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365. |
-|Media Failed Due To Firewall IP Blocked Stream Count |Nombre de flux |Nombre de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès aux serveurs de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365. |
-|Firewall IP Blocked Media Failure Percentage |Pourcentage |Pourcentage de flux qui n’ont pas pu être établis, car l’équipement réseau a empêché l’accès à des serveurs Skype entreprise. Ces erreurs indiquent généralement qu’un proxy, un pare-feu ou un autre périphérique de sécurité réseau n’est pas configuré correctement pour accéder à l’adresse IP et aux ports utilisés par Skype entreprise dans Office 365. |
+|Media Failed Due To Firewall DPI Stream Count |Nombre de flux |Nombre de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces erreurs indiquent généralement qu’un proxy, un pare-feu ou un autre périphérique de sécurité réseau n’est pas configuré correctement pour accéder à l’adresse IP et aux ports utilisés par Skype entreprise dans Microsoft 365 ou Office 365. |
+|Firewall DPI Media Failure Percentage |Pourcentage |Pourcentage de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces erreurs indiquent généralement qu’un proxy, un pare-feu ou un autre périphérique de sécurité réseau n’est pas configuré correctement pour accéder à l’adresse IP et aux ports utilisés par Skype entreprise dans Microsoft 365 ou Office 365. |
+|Media Failed Due To Firewall IP Blocked Stream Count |Nombre de flux |Nombre de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès aux serveurs de Skype Entreprise. Ces erreurs indiquent généralement qu’un proxy, un pare-feu ou un autre périphérique de sécurité réseau n’est pas configuré correctement pour accéder à l’adresse IP et aux ports utilisés par Skype entreprise dans Microsoft 365 ou Office 365. |
+|Firewall IP Blocked Media Failure Percentage |Pourcentage |Pourcentage de flux qui n’ont pas pu être établis, car l’équipement réseau a empêché l’accès à des serveurs Skype entreprise. Ces erreurs indiquent généralement qu’un proxy, un pare-feu ou un autre périphérique de sécurité réseau n’est pas configuré correctement pour accéder à l’adresse IP et aux ports utilisés par Skype entreprise dans Microsoft 365 ou Office 365. |
 | Échec du média en raison d’un autre nombre de flux|Nombre de flux| Nombre de flux pour lesquels le chemin de médias n’a pas pu être établi entre les points de terminaison en raison d’une raison non déterminée ou non classée.| |
 | Pourcentage d’autres échecs de média|Pourcentage| Pourcentage de flux pour lesquels le chemin de médias n’a pas pu être établi entre les points de terminaison en raison d’une raison non déterminée ou non classée. ||
 | Nombre total d’appels de CDR disponibles|Nombre de flux|Nombre total de flux multimédias avec des informations de fiabilité et de diagnostic disponibles. Il y a une erreur de 0,2% pour cette mesure. Voir la remarque ci-dessous pour plus d’informations.|
@@ -698,7 +698,7 @@ Certaines mesures de nombre d’utilisateurs et d’appels s’appuient sur l’
 
 De nombreux valeurs de dimensions et de mesures peuvent également être utilisées comme filtres. Vous pouvez utiliser des filtres dans votre requête pour éliminer les informations de la même façon que vous sélectionnez une dimension ou une mesure pour ajouter ou inclure des informations dans la requête.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 

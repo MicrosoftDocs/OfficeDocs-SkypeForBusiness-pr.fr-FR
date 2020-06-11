@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment configurer Skype entreprise pour utiliser une autre langue pour le message d’accueil de la boîte vocale par défaut de votre organisation.
-ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904329"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691390"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -38,20 +38,20 @@ Si vous êtes un [administrateur général](https://support.office.com/article/d
   
 - **Les langues disponibles sont déterminées par l'emplacement de votre organisation**. Par exemple, si votre organisation est située aux États-Unis, vous pouvez configurer la langue par défaut sur l'anglais ou l'espagnol. Si votre organisation est située au Canada, vous avez le choix entre l'anglais et le français. Pour obtenir la liste des langues prises en charge, consultez la rubrique [Langues pour les messages et les messages d'accueil de la messagerie vocale de Skype Entreprise](languages-for-voicemail-greetings-and-messages.md).
     
-- **Modification de la langue pour les messages d’accueil de la boîte vocale et des messages vocaux des utilisateurs individuels.** Vous pouvez modifier la Lanaguage préférée pour les utilisateurs qui changera la langue du message d’accueil et des messages vocaux envoyés à leur boîte aux lettres Outlook. Pour obtenir des instructions, voir [comment définir les paramètres de langue et de région pourhttps://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)Office 365] (. 
+- **Modification de la langue pour les messages d’accueil de la boîte vocale et des messages vocaux des utilisateurs individuels.** Vous pouvez modifier la Lanaguage préférée pour les utilisateurs qui changera la langue du message d’accueil et des messages vocaux envoyés à leur boîte aux lettres Outlook. Pour obtenir des instructions, voir [comment définir les paramètres de langue et de région pour Microsoft 365 ou Office 365] ( https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) . 
     
     > [!NOTE]
     > Les utilisateurs peuvent modifier leur propre langue de salutation par le biais de leurs paramètres après s’être connecté en suivant les instructions décrites dans [la section modifier la langue d’affichage et le fuseau horaire dans Microsoft 365 pour les entreprises](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
 - **Vous voulez enregistrer un message d'accueil personnel ?** Reportez-vous à la rubrique [Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Pour Microsoft teams : les utilisateurs peuvent modifier les paramètres de la boîte vocale dans les [paramètres du client de bureau teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Voulez-vous modifier la langue de l’invite de la boîte vocale ?** Pour Skype entreprise- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et sélectionnez une nouvelle langue sous la section langue de l' **invite**. Pour Microsoft teams : les utilisateurs peuvent modifier leur message d’accueil de la boîte vocale dans les [paramètres du client de bureau teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Voulez-vous modifier la langue de l’invite de la boîte vocale ?** Pour Skype entreprise- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et sélectionnez une nouvelle langue sous la section **langue**de l’invite. Pour Microsoft teams : les utilisateurs peuvent modifier leur message d’accueil de la boîte vocale dans les [paramètres du client de bureau teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à l’aide de votre [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)compte d' [administrateur général](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l’adresse. 
+1. Connectez-vous à l’aide de votre compte d' [administrateur général](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l’adresse [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) . 
     
-2. Dans le centre d’administration Microsoft 365, sélectionnez**paramètres** > des **paramètres** > de l'**organisation**. 
+2. Dans le centre d’administration Microsoft 365, sélectionnez Paramètres des **paramètres**de l'  >  **Settings**  >  **organisation**. 
     
      ![Capture d’écran montrant la sélection des paramètres, puis le profil de l’organisation.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -69,11 +69,11 @@ Si vous êtes un [administrateur général](https://support.office.com/article/d
     
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Planifier le système téléphonique dans Office 365 avec la connectivité PSTN locale dans Skype entreprise Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planifier un système téléphonique dans Microsoft 365 ou Office 365 avec la connectivité PSTN locale dans Skype entreprise Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Changer la langue d'affichage et le fuseau horaire dans Office 365 pour les entreprises](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Changer la langue d’affichage et le fuseau horaire dans Microsoft 365 ou Office 365 pour les entreprises](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [Ajouter une langue ou définir les préférences de langue dans Office 2010 et les versions ultérieures](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
     

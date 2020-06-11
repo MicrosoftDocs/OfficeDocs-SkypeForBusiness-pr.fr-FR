@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Découvrez le code de pratique pour les forfaits d’appels RTC pour Skype entreprise, notamment pour obtenir de l’aide et comment faire des réclamations et résoudre les conflits.
-ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779630"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689760"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Microsoft 365-code de pratique pour le Royaume-Uni
 
-Ce code s’applique aux clients de petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel d’Office 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce code s’applique aux clients petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) par rapport au service de plan d’appel Microsoft 365 ou Office 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 
 ## <a name="1-about-skype-for-business"></a>1. À propos de Skype Entreprise
 
@@ -52,7 +52,7 @@ Vous trouverez peut-être la réponse à certaines de vos questions en visitant 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Résolution des réclamations et des litiges
 
-Nos priorités numéro sont la satisfaction du client et l'excellence de nos services. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Nos [forfaits d’appels dans Office 365-code de traitement des réclamations pour le Royaume-Uni (](complaint-handling-code-for-the-united-kingdom-u-k.md) r.-u.) les procédures destinées aux petites entreprises de classer une plainte avec nous et notre plan de résolution des conflits indépendant.
+Nos priorités numéro sont la satisfaction du client et l'excellence de nos services. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Nos [forfaits d’appels dans Microsoft 365 ou Office 365-code de traitement des réclamations pour la page du Royaume-Uni (r.-u.)](complaint-handling-code-for-the-united-kingdom-u-k.md) les procédures destinées aux petites entreprises de classer une plainte avec nous et notre plan de résolution des litiges indépendant.
   
 ## <a name="4-number-porting"></a>4. Transfert de numéro
 
@@ -60,13 +60,13 @@ Dans certains cas, il se peut que Skype Entreprise ne soit pas en mesure de tran
 
 ## <a name="5-service-reliability"></a>5. Fiabilité du Service
 
-Le plan d’appels d’Office 365 repose sur votre connexion haut débit. Si celle-ci est interrompue ou subit une panne de courant, vous n'êtes pas en mesure d'effectuer des appels téléphoniques. Les causes de ces pannes peuvent être hors de notre contrôle.
+Le plan d’appel Microsoft 365 ou Office 365 repose sur votre connexion haut débit. Si celle-ci est interrompue ou subit une panne de courant, vous n'êtes pas en mesure d'effectuer des appels téléphoniques. Les causes de ces pannes peuvent être hors de notre contrôle.
 
 ## <a name="6-emergency-calls"></a>6. Appels d'urgence
 
-Skype Entreprise fournit un accès aux services d'appels d'urgence publics du 999/112 pour les clients situés en Angleterre, au Pays de Galles, en Écosse et en Irlande du Nord. Toutefois, les appels d’urgence vers 999 ou 112 fonctionnent différemment avec les services de plan d’appel d’Office 365 que sur les services téléphoniques traditionnels. Les clients sont obligés de notifier chaque utilisateur des services de plan d’appel d’Office 365 de ces différences.
+Skype Entreprise fournit un accès aux services d'appels d'urgence publics du 999/112 pour les clients situés en Angleterre, au Pays de Galles, en Écosse et en Irlande du Nord. Toutefois, les appels d’urgence vers 999 ou 112 fonctionnent différemment avec les services de plan d’appels de Microsoft 365 ou Office 365 que sur les services téléphoniques traditionnels. Les clients sont invités à notifier chaque utilisateur des services de plan d’appel Microsoft 365 ou Office 365 de ces différences.
 
-Les différences sont les suivantes : (i) Skype entreprise ne connaît peut-être pas l’emplacement réel d’un appelant, ce qui pourrait entraîner l’expédition des services d’urgence au mauvais endroit ; (II) quand un utilisateur de Skype entreprise compose un appel d’urgence, il est possible qu’un opérateur lui demande de fournir son emplacement actuel pour faciliter le routage de l’appel d’urgence et l’expédition des services d’urgence ; (III) si l’appareil de l’utilisateur n’a pas d’alimentation, rencontre une panne de courant ou, pour une raison quelconque, ne peut pas accéder à Internet, l’utilisateur ne peut pas passer d’appel d’urgence via les services de plan d’appel d’Office 365 ; vous pouvez également utiliser les services de plan d’appel d’Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne doivent pas appeler 999 ou 112 d’Angleterre, de Galles, d’Écosse ou d’Irlande du Nord, car l’appel ne sera probablement pas dirigé vers le service d’urgence approprié.
+Les différences sont les suivantes : (i) Skype entreprise ne connaît peut-être pas l’emplacement réel d’un appelant, ce qui pourrait entraîner l’expédition des services d’urgence au mauvais endroit ; (II) quand un utilisateur de Skype entreprise compose un appel d’urgence, il est possible qu’un opérateur lui demande de fournir son emplacement actuel pour faciliter le routage de l’appel d’urgence et l’expédition des services d’urgence ; (III) si l’appareil de l’utilisateur n’a pas d’alimentation, rencontre une panne d’alimentation ou, pour une raison quelconque, ne peut pas accéder à Internet, l’utilisateur ne peut pas passer d’appel d’urgence par le biais de Microsoft 365 ou d’Office 365 de plan d’appel. vous pouvez également utiliser les services de plan d’appel Microsoft 365 et Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne doivent pas appeler 999 ou 112 en dehors de la planète, le pays de Galles et l’Irlande du Nord, car l’appel ne sera probablement pas acheminé au service d’urgence approprié.
 
 Il est important que chaque client enregistre l'emplacement de vos utilisateurs et maintienne cette information à jour afin qu'elle puisse être communiquée aux services d'urgence. Vous pouvez modifier les informations d'emplacement en ligne via le portail de l'administrateur de Skype Entreprise.
 

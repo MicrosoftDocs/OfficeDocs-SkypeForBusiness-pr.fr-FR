@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Découvrez comment Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre les activités des équipes et les problèmes liés à l’utilisation de Skype entreprise pour planifier des améliorations du produit.
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137354"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691530"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Pratiques de collecte de données Skype entreprise et Microsoft teams
 
@@ -104,7 +104,7 @@ Le signalement des erreurs nécessite deux éléments :
 
 - Le paramètre de stratégie de groupe DisableAutomaticSendTracing est défini sur false sur le serveur ou dans le centre d’administration client (il s’agit de l’État par défaut). Pour plus d’informations, voir [configurer les stratégies d’amorçage du client](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
-- Les utilisateurs finaux choisissent individuellement à partir de l’onglet général (cliquez sur ![l’icône d’engrenage, une ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) icône représentant un engrenage, puis la boîte de dialogue **options** s’ouvre avec l’onglet **général** affiché) dans le client Skype entreprise.
+- Les utilisateurs finaux choisissent individuellement à partir de l’onglet général (cliquez sur l’icône ![ d’engrenage, une icône représentant un engrenage ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , puis la boîte de dialogue **options** s’ouvre avec l’onglet **général** affiché) dans le client Skype entreprise.
     
  
 ![Capture d’écran de la case à cocher collection de données dans la boîte de dialogue Options](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ Pour plus d’informations, reportez-vous à la rubrique [définition des option
 
 Pour configurer votre réseau, vous pouvez vous reporter à [la rubrique Configuration de votre réseau pour Skype entreprise Online](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) .
 
-Si vous utilisez Office 365 géré par 21Vianet en Chine, reportez-vous à [la rubrique Configuration de votre réseau pour Skype entreprise Online géré par 21ViaNet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
+Si vous utilisez Microsoft 365 ou Office 365 géré par 21Vianet en Chine, reportez-vous à [la rubrique Configuration de votre réseau pour Skype entreprise Online géré par 21ViaNet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

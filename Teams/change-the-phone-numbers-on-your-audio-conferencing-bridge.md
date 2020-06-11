@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes nécessaires à l’affectation d’un nouveau numéro de téléphone de service à votre pont de conférence pour développer la couverture de vos utilisateurs.
-ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: e0786ad2c35ebe7d9663a71b594f7f5facd73b08
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898149"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691380"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
@@ -37,15 +37,15 @@ Lorsque vous achetez des licences de **conférence audio** , Microsoft héberge 
 Outre les numéros de téléphone déjà attribués à votre pont de conférence, vous pouvez [obtenir des numéros de service supplémentaires](/microsoftteams/getting-service-phone-numbers) (numéro payant et numéro gratuit utilisés pour les conférences audio) à partir d’autres emplacements, puis les affecter à la Conférence de conférence pour développer la couverture de vos utilisateurs.
   
 > [!NOTE]
-> Pour être en mesure d’affecter/retirer un numéro de téléphone à un pont de conférence, le numéro de téléphone doit être un numéro de*service*. Vous pouvez voir le type de numéro qu’il contient en accédant **aux** > **numéros de téléphone** dans le portail hérité et en regardant dans la colonne **type de nombre** . Les crédits de communication Office 365 doivent être configurés en premier pour permettre aux utilisateurs de se connecter au pont via un numéro gratuit.
+> Pour être en mesure d’affecter/retirer un numéro de téléphone à un pont de conférence, le numéro de téléphone doit être un numéro de*service*. Vous pouvez voir le type de numéro qu’il contient en accédant **aux**  >  **numéros de téléphone** dans le portail hérité et en regardant dans la colonne **type de nombre** . Les crédits de communications Microsoft 365 ou Office 365 doivent d’abord être configurés pour permettre aux utilisateurs de se connecter au pont sur un numéro gratuit.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Procédure d'affectation d'un nouveau numéro de téléphone de service à votre pont de conférence
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Étape 1 : affectation d’un nouveau numéro de téléphone à votre pont de conférence audio
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
+1. Connectez-vous à Microsoft 365 ou Office 365 à l’aide de votre compte professionnelle.
 
-2. Accédez aux**centres** > d’administration du centre > d' **administration Microsoft 365****équipes &** > aux**numéros de téléphone****vocaux** > du**portail** > hérité de Skype.
+2. Accédez aux centres d’administration du **Centre d’administration Microsoft 365**  >  **Admin centers**  >  **équipes &** aux  >  numéros de téléphone vocaux du**portail hérité**de Skype  >  **Voice**  >  **Phone numbers**.
 
 3. Sélectionnez le numéro de téléphone dans la liste, puis, dans le volet action, cliquez sur **affecter**.
 
@@ -57,9 +57,9 @@ Le numéro de téléphone par défaut de votre pont de conférence définit l’
 
 Seul le numéro payant du service peut être défini comme numéro par défaut de votre pont de conférence. **les numéros gratuits du service ne peuvent pas être définis comme numéro par défaut de votre pont de conférence**. Si vous affectez un numéro payant de service et que vous voulez le configurer comme nouveau numéro par défaut de votre pont de conférence audio, procédez comme suit :
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
+1. Connectez-vous à Microsoft 365 ou Office 365 à l’aide de votre compte professionnelle.
 
-2. Accédez**Meetings** > aux**centres** > d’administration du centre > d' **administration Microsoft 365****équipes & équipes** > de**conférences**Skype.
+2. Accédez aux centres d’administration du **Centre d’administration Microsoft 365**  >  **Admin centers**  >  **équipes & équipes**de  >  **Meetings**  >  **conférences**Skype.
 
 3. Mettez en surbrillance le numéro payant du service à configurer par défaut.
 
@@ -71,7 +71,7 @@ Le numéro de téléphone par défaut d’un utilisateur est celui qui est inclu
   
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
-2. Accédez aux**centres** > d’administration du centre > d' **administration 365 Microsoft****teams &** > **les utilisateurs**de l'**audioconférence** > Skype**hérités** > , puis sélectionnez les utilisateurs dans la liste.
+2. Accédez aux centres d’administration du **Centre d’administration 365 Microsoft**  >  **Admin centers**  >  **teams &**  >  **Legacy portal**  >  **Audio conferencing**  >  **les utilisateurs**de l’audioconférence Skype hérités, puis sélectionnez les utilisateurs dans la liste.
 
 3. Cliquez sur **Modifier** dans le volet Action.
 
@@ -135,7 +135,7 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
 
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
 
-2. Accédez aux**centres** > d’administration du centre > d' **administration 365 Microsoft****teams &** > les**numéros de téléphone****vocaux** > du**portail** > hérité de Skype.
+2. Accédez aux centres d’administration du **Centre d’administration 365 Microsoft**  >  **Admin centers**  >  **teams &** les  >  numéros de téléphone vocaux du**portail hérité**de Skype  >  **Voice**  >  **Phone numbers**.
 
 3. Si le numéro de téléphone est un numéro gratuit, sélectionnez le numéro de téléphone dans la liste, puis, dans le volet action, cliquez sur **Annuler l’affectation**. Si le numéro de téléphone est un numéro payant, contactez le [support technique Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) pour obtenir le numéro de téléphone non affecté.
 
@@ -161,7 +161,7 @@ Redémarrez votre ordinateur lorsque vous y êtes invité.
 4. Vous devez également installer le module Windows PowerShell pour Skype entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise online. Ce module est uniquement pris en charge sur les ordinateurs 64 bits et peut être téléchargé à partir du centre de téléchargement Microsoft dans le [module Windows PowerShell pour Skype entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 Redémarrez votre ordinateur si vous y êtes invité.
 
-Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Pour en savoir plus, voir [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
 ### <a name="to-start-windows-powershell"></a>Lancer Windows PowerShell
 
@@ -181,7 +181,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 
 > [!NOTE]
 > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [à vous connecter à Skype entreprise Online à l’aide de Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Pour plus d’informations sur le démarrage de Windows PowerShell, voir [connexion à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [connexion à Skype entreprise Online à l’aide de Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
 
 ### <a name="save-time-and-automate"></a>Gagnez du temps et automatisez
 
@@ -241,7 +241,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>À propos de Windows PowerShell
 
-Avec Windows PowerShell, vous pouvez gérer les utilisateurs et leurs autorisations. Windows PowerShell vous permet de gérer Office 365 et Skype entreprise Online à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien, en particulier lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Avec Windows PowerShell, vous pouvez gérer les utilisateurs et leurs autorisations. Windows PowerShell peut vous aider à gérer Microsoft 365 ou Office 365 et Skype entreprise Online à l’aide d’un point d’administration unique qui peut vous simplifier le travail quotidien, en particulier lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -249,11 +249,11 @@ Avec Windows PowerShell, vous pouvez gérer les utilisateurs et leurs autorisati
 
 Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 [Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)

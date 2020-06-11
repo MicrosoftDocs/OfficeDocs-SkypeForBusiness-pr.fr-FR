@@ -22,20 +22,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez les différences entre les services d’urgence (911) et les services téléphoniques traditionnels et comment passer un appel. '
-ms.openlocfilehash: 5a6f0b45fdf31ffbb1c0c5820a81326772610fb3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 70978907e8fffa74a7284b3c0179088287a2b181
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834964"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691450"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Conditions générales relatives aux appels d'urgence
 
 ## <a name="important-information"></a>INFORMATIONS IMPORTANTES
 
-Les appels vers les services d’urgence fonctionnent différemment avec les offres d’appels d’Office 365 par rapport aux services téléphoniques traditionnels. Il est important que vous compreniez ces différences et les communiquez à tous les utilisateurs disposant d’un plan d’appels dans Office 365. Vous reconnaissez et acceptez que vous ayez lu et compris les différences en ce qui concerne les appels vers les services d’urgence et qu’il sera notifié à chaque utilisateur avec des plans d’appels dans Office 365.
+Les appels vers les services d’urgence fonctionnent différemment avec les offres d’appels dans Microsoft 365 ou Office 365 par rapport aux services téléphoniques traditionnels. Il est important que vous compreniez ces différences et les communiquez à tous les utilisateurs disposant d’un plan d’appels dans Microsoft 365 ou Office 365. Vous reconnaissez et acceptez que vous ayez lu et compris les différences entre les appels vers les services d’urgence et nous fournissons ce message à chaque utilisateur avec des plans d’appels dans Microsoft 365 ou Office 365.
   
-Les différences entre les fonctions d’appel des services d’urgence sont les suivantes : (i) Skype entreprise et équipes ne connaissent peut-être pas l’emplacement réel d’un appelant effectuant un appel de services d’urgence, ce qui pourrait entraîner le passage de l’appel aux services d’urgence du centre d’appels et/ou des services d’urgence au mauvais endroit ; (II) si le client teams de l’utilisateur est hors connexion ou si l’appareil de l’utilisateur ne parvient pas à accéder à Internet pour une raison quelconque, par exemple une panne réseau ou une coupure de courant, les appels de services d’urgence par le biais d’un système téléphonique dans Office 365 ne sont pas pris en charge et ne sont pas censés fonctionner ; vous pouvez également utiliser des plans d’appel dans Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne peuvent pas passer d’appels vers des services d’urgence à partir d’un emplacement extérieur au pays/région où l’appel est susceptible de ne pas être acheminé vers le centre d’appels approprié dans ce pays ou cette région.
+Les différences entre les fonctions d’appel des services d’urgence sont les suivantes : (i) Skype entreprise et équipes ne connaissent peut-être pas l’emplacement réel d’un appelant effectuant un appel de services d’urgence, ce qui pourrait entraîner le passage de l’appel aux services d’urgence du centre d’appels et/ou des services d’urgence au mauvais endroit ; (II) si le client teams de l’utilisateur est hors connexion ou si l’appareil de l’utilisateur ne parvient pas à accéder à Internet pour une raison quelconque, par exemple une panne réseau ou une coupure de courant, les appels de services d’urgence par le biais du système téléphonique dans Microsoft 365 ou Office 365 ne sont pas pris en charge et ne sont pas censés fonctionner ; vous pouvez également utiliser des plans d’appel dans Microsoft 365 ou Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne peuvent pas passer d’appels vers des services d’urgence à partir d’un emplacement situé en dehors du pays/de la région où l’appel est susceptible de ne pas être acheminé vers le centre d’appels approprié
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)

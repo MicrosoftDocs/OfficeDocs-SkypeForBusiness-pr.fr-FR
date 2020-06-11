@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le centre d’administration Microsoft teams ou Windows PowerShell pour créer et gérer les plans de numérotation (appels RTC).
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902019"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691340"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -36,7 +36,7 @@ Une fois que vous avez planifié les plans de numérotation pour votre organisat
 
 ### <a name="create-a-dial-plan"></a>Créer un plan de numérotation
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au**plan de numérotation** **vocale** > .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez au  >  **plan de numérotation**vocale.
 2. Cliquez sur **Ajouter**, puis entrez un nom et une description pour le plan de numérotation.
     ![Capture d’écran montrant la page Ajouter pour la création d’un plan de numérotation](media/create-dial-plan.png)
 3. Sous **Détails du plan de numérotation**, spécifiez un préfixe de numérotation externe si les utilisateurs doivent composer au moins un chiffre de début supplémentaire (par exemple, 9) pour obtenir une ligne externe. Pour ce faire :
@@ -56,7 +56,7 @@ Une fois que vous avez planifié les plans de numérotation pour votre organisat
 
 ### <a name="edit-a-dial-plan"></a>Modifier un plan de numérotation
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au**plan de numérotation** **vocale** > .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez au  >  **plan de numérotation**vocale.
 2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation, puis cliquez sur **modifier**.
 3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
 
@@ -74,7 +74,7 @@ Une fois que vous avez planifié les plans de numérotation pour votre organisat
 
  **Vérifiez que vous exécutez la version 3,0 ou une version ultérieure de Windows PowerShell**
   
-1. Pour vérifier que vous exécutez la version 3,0 ou une version ultérieure : **menu** > démarrer**Windows PowerShell**.
+1. Pour vérifier que vous exécutez la version 3,0 ou une version ultérieure : **menu Démarrer**  >  **Windows PowerShell**.
     
 2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
     
@@ -82,11 +82,11 @@ Une fois que vous avez planifié les plans de numérotation pour votre organisat
     
 4. Vous devez également installer le module Windows PowerShell pour Skype entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise online. Vous pouvez télécharger ce module, qui est uniquement pris en charge sur les ordinateurs 64 bits, dans le [module Windows PowerShell pour Skype entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez l’ordinateur si vous y êtes invité.
     
-Pour en savoir plus, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+Pour en savoir plus, voir [se connecter à tous les services microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Démarrez une session Windows PowerShell**
   
-1. Cliquez sur **Démarrer** > **Windows PowerShell**.
+1. Cliquez sur **Démarrer**  >  **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
@@ -241,7 +241,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)

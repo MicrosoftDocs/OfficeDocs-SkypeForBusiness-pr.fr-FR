@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888583"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691360"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
 Cet article décrit les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Microsoft Teams. Cet article décrit la migration à partir des éléments suivants : 
  
-- Système téléphonique Office 365 avec des forfaits d’appels (pour Teams et Skype Entreprise Online) 
-- Système téléphonique Office 365 avec une connectivité PSTN en local dans Skype Entreprise Server (pour Skype Entreprise en ligne)  
-- Système téléphonique Office 365 avec une connectivité PSTN en local via Cloud Connector Edition (pour Skype Entreprise en ligne)
+- Système téléphonique avec des plans d’appels (pour les équipes et Skype entreprise Online) 
+- Système téléphonique avec connectivité PSTN locale dans Skype entreprise Server (pour Skype entreprise Online)  
+- Système téléphonique avec connectivité PSTN locale à l’aide de la version Cloud Connector (pour Skype entreprise Online)
 
 
 En plus de ces étapes de configuration, la configuration est également requise sur le contrôleur de frontière de session (SBC) pour acheminer les appels vers le nouvel itinéraire. Cet élément n’est pas abordé dans ce document. Pour plus d'informations, consultez la documentation du fournisseur du contrôleur SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>État final de l’attribution d’utilisateurs pour différentes options de connectivité PSTN 
 
-Le tableau suivant indique l’état final d’un utilisateur affecté pour les options de connectivités PSTN sélectionnées avec le système téléphonique Office 365. Seuls les attributs concernant la voix sont affichés.
+Le tableau suivant indique l’état final d’un utilisateur configuré pour les options de connectivité PSTN sélectionnées avec le système téléphonique. Seuls les attributs concernant la voix sont affichés.
 
 |Attributs d’objet utilisateur |Système téléphonique avec forfaits d’appels|Système téléphonique avec une connectivité PSTN en local via Skype Entreprise Server|Système téléphonique avec une connectivité PSTN via Cloud Connector|Système téléphonique avec une connectivité PSTN par routage direct|
 |---|---|---|---|---|

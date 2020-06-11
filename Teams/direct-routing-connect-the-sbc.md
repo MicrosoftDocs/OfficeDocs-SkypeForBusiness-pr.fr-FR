@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer et connecter votre SBC au routage direct du système téléphonique.
-ms.openlocfilehash: fbcc1d79a4875ba835fc77ea24f6356ded3da894
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159034"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691260"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connecter votre contrôleur de bordure de session (SBC) au routage direct
 
@@ -38,9 +38,9 @@ Vous pouvez utiliser le [Centre d’administration Microsoft teams](#using-the-m
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation de gauche, sélectionnez**routage direct**de la **voix** > , puis cliquez sur l’onglet **SBCS** .
+1. Dans le volet de navigation de gauche **Voice**, sélectionnez  >  **routage direct**de la voix, puis cliquez sur l’onglet **SBCS** .
 2. Cliquez sur **Ajouter**.
-3. Entrez un nom de domaine complet pour l’SBC. <br><br>Assurez-vous que la partie Domain Name du nom de domaine complet correspond à un domaine inscrit dans votre client et gardez `*.onmicrosoft.com` à l’esprit que le nom de domaine n’est pas pris en charge pour le nom de domaine de nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine `contoso.com` et `contoso.on.microsoft.com`que vous `sbc.contoso.com` utilisez le nom SBC.
+3. Entrez un nom de domaine complet pour l’SBC. <br><br>Assurez-vous que la partie Domain Name du nom de domaine complet correspond à un domaine inscrit dans votre client et gardez à l’esprit que le `*.onmicrosoft.com` nom de domaine n’est pas pris en charge pour le nom de domaine de nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine `contoso.com` et `contoso.on.microsoft.com` que vous utilisez `sbc.contoso.com` le nom SBC.
 4. Configurez les paramètres suivants pour SBC, en fonction des besoins de votre organisation. Pour plus d’informations sur chacun de ces paramètres, voir [paramètres de SBC](#sbc-settings).
 
     ![Capture d’écran de la page Ajouter un SBC dans le centre d’administration Microsoft teams](media/direct-routing-add-sbc.png)
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. Nous vous recommandons de définir une limite d’appels maximale dans l’SBC à l’aide d’informations qui figurent dans la documentation SBC. La limite déclenche une notification si l’SBC a le niveau de capacité.
-  > 2. Vous pouvez uniquement connecter l’SBC si la partie Domain de son nom de domaine complet correspond à l’un des domaines inscrits dans \*votre client, à l’exception de. onmicrosoft.com. L' \*utilisation des noms de domaine. onmicrosoft.com n’est pas prise en charge pour le nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine, **contoso**. com et **contoso**. onmicrosoft.com, vous pouvez utiliser SBC. contoso. con pour le nom SBC. Si vous tentez de vous connecter à l’SBC avec un nom tel que SBC. contoso. ABC, le système ne vous permet pas, car le domaine n’est pas détenu par ce client.<br/>
+  > 2. Vous pouvez uniquement connecter l’SBC si la partie Domain de son nom de domaine complet correspond à l’un des domaines inscrits dans votre client, à l’exception de \* . onmicrosoft.com. L’utilisation \* des noms de domaine. onmicrosoft.com n’est pas prise en charge pour le nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine, **contoso**. com et **contoso**. onmicrosoft.com, vous pouvez utiliser SBC. contoso. con pour le nom SBC. Si vous tentez de vous connecter à l’SBC avec un nom tel que SBC. contoso. ABC, le système ne vous permet pas, car le domaine n’est pas détenu par ce client.<br/>
   > Outre le domaine enregistré dans votre client, il est important de disposer d’un utilisateur avec ce domaine et d’une licence E3 ou E5 affectée. Si ce n’est pas le cas, vous recevez le message d’erreur suivant :<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -164,7 +164,7 @@ Le tableau suivant répertorie les options que vous pouvez définir pour l’SBC
 |Non|**Activé**|Activé|Permet d’activer l’SBC pour les appels sortants. Vous pouvez utiliser cette opération pour supprimer temporairement l’SBC du service lors de sa mise à jour ou de sa maintenance. |False|Vrai<br/>False|Boolean|
 |Oui|**Port de signalisation SIP**|SipSignalingPort |Il s’agit du port d’écoute utilisé pour communiquer avec le routage direct via le protocole TLS (Transport Layer).|Aucun|Tout port|entre 0 et 65535 |
 |Non|**Envoyer les options SIP**|SendSIPOptions |Définit si les SBC envoient des messages d’options SIP. Nous vous recommandons vivement d’activer ce paramètre. Lorsque ce paramètre est désactivé, l’SBC est exclu du système de surveillance et d’alerte.|Vrai|Vrai<br/>False|Boolean|
-|Non|**Transférer l’historique des appels**|ForwardCallHistory |Indique si les informations de l’historique des appels sont transmises via le Trunk. Lorsque vous activez cette fonction, le proxy Office 365 envoie un en-tête informations d’historique et un en-tête expertisé. |False|Vrai<br/>False|Boolean|
+|Non|**Transférer l’historique des appels**|ForwardCallHistory |Indique si les informations de l’historique des appels sont transmises via le Trunk. Lorsque vous activez cette fonction, le proxy Microsoft 365 ou Office 365 envoie un en-tête de rapport historique et de référence. |False|Vrai<br/>False|Boolean|
 |Non|**Forward P-assertion-Identity (PAI) en-tête**|ForwardPAI|Indique si l’en-tête PAI est transmis en même temps que l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si ce paramètre est activé, l’en-tête de confidentialité : ID est également envoyé.|False|Vrai<br/>False|Boolean|
 |Non|**Capacité d’appel simultanée**|MaxConcurrentSessions |Lorsque vous définissez une valeur, le système d’alerte vous avertit lorsque le nombre de sessions simultanées est de 90% ou une valeur supérieure à celle-ci. Si vous ne définissez pas de valeur, les alertes ne sont pas générées. Toutefois, le système de surveillance rapportera le nombre de sessions simultanées toutes les 24 heures. |Valeur|Valeur<br/>1 à 100 000 ||
 |Non|**Code de réponse de basculement**|FailoverResponseCodes<br>|Si le routage direct reçoit tout code d’erreur SIP 4xx ou 6xx en réponse à une invitation sortante, l’appel est considéré comme complet par défaut. Sortant désigne un appel d’un client teams vers le RTC avec le flux de trafic : client teams-> le routage direct-> le réseau de téléphonie de l’SBC->). Lorsque vous spécifiez un code de réponse de basculement, cela force le routage direct à essayer un autre SBC (si un autre SBC existe dans la stratégie de routage vocale de l’utilisateur) lorsqu’il reçoit les codes spécifiés si la SBC ne peut pas faire un appel en raison de problèmes réseau ou d’autres problèmes. Pour en savoir plus, voir [basculement de codes SIP spécifiques reçus du contrôleur de bordure de session (SBC)](direct-routing-trunk-failover-on-outbound-call.md).|408, 503, 504||Ent|
