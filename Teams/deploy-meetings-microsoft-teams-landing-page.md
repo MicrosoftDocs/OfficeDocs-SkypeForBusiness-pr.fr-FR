@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665936"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691300"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -63,11 +63,9 @@ Pour étendre les réunions à l'échelle de votre organisation, vous devez vous
 - ports TCP 80 et 443 sortants pour les clients qui utiliseront Teams.
 - ports UDP 3478 à 3481 sortants pour les clients qui utiliseront Teams.
 
-Vous pouvez utiliser le [compagnon de test de réseau ](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) pour confirmer que vos emplacements réseau sont prêts pour le trafic audio et vidéo qui prennent en charge vos réunions.
-
 | Posez-vous la question | Action |
 |--------------|--------|
-|Mon réseau est-il prêt pour le déploiement de réunions Teams ? | Pour vérifier que votre réseau est prêt, voir :<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL et plages d’adresses IP Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Mon réseau est-il prêt pour le déploiement de réunions Teams ? | Pour vérifier que votre réseau est prêt, voir :<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL et plages d’adresses IP](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core

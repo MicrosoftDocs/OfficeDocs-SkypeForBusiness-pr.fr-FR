@@ -17,12 +17,12 @@ description: Découvrez comment communiquer avec des utilisateurs d’autres org
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562039"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689690"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams
 ======================================================
@@ -44,7 +44,7 @@ Si vous voulez que les utilisateurs externes aient accès aux équipes et aux ca
 
 ## <a name="guest-access"></a>Accès invité
 
-Utiliser **l’accès invité** pour ajouter un utilisateur individuel (quel que soit le domaine) à une équipe, où les participants peuvent discuter, appeler, se rencontrer et collaborer sur des fichiers d’organisation (stockés dans SharePoint ou OneDrive Entreprise) à l’aide d’applications Office 365 telles que Word, Excel ou PowerPoint. Les utilisateurs invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams qu’un membre d’équipe natif. Pour plus d’informations, lisez [Accès invité dans Teams](guest-access.md).
+Utiliser **l’accès invité** pour ajouter un utilisateur individuel (quel que soit le domaine) à une équipe, où les participants peuvent discuter, appeler, se rencontrer et collaborer sur des fichiers d’organisation (stockés dans SharePoint ou OneDrive Entreprise) à l’aide d’applications Microsoft 365 et Office 365 telles que Word, Excel ou PowerPoint. Les utilisateurs invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams qu’un membre d’équipe natif. Pour plus d’informations, lisez [Accès invité dans Teams](guest-access.md).
 
 - Les invités sont ajoutés dans l’annuaire Active Directory de votre organisation.
 - Pour communiquer avec un invité, celui-ci doit être connecté à Teams à l’aide de son compte invité. En d’autres termes, un invité peut avoir besoin de se déconnecter de son compte Teams pour se connecter au vôtre.
@@ -87,7 +87,7 @@ Si vous êtes prêt à activer l’accès invité au sein de votre organisation,
 <sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et soit connecté en tant qu’invité au client invité.<br>
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> La conversation externe (fédérée) est 1:1 uniquement.<br>
-<sup>4</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. 
+<sup>4</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. <br>
 <sup>5</sup> par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour **le type d’annonce d’entrée/sortie ** (cela permet d’éviter que les numéros soient lus par les équipes). Si vous ne voulez pas révéler les numéros de téléphone PSTN externes aux utilisateurs externes, lorsque vous activez **Annonces d’entrée/fermeture**, sélectionnez **Tonalités** pour le type d’annonce. Pour plus d’informations, voir [Activer ou désactiver l’entrée et quitter les annonces pour les réunions dans Microsoft teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## <a name="related-topics"></a>Voir aussi

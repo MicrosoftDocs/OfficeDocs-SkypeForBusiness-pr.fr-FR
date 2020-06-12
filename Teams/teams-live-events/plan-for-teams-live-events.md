@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224237"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689730"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -46,7 +46,7 @@ Voici les licences qui doivent être attribuées pour produire ou présenter une
 > [!NOTE]
 > Pour l’instant, il n’existe aucune offre Microsoft 365 pour les petites entreprises pouvant être utilisée pour créer et organiser des événements Teams en direct.
 
-Il est important de comprendre qu’une licence Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cette exigence dépend de la méthode de production utilisée :
+Il est important de comprendre qu’une licence Microsoft 365 ou Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cette exigence dépend de la méthode de production utilisée :
 
 - **Pour les événements produits dans Teams**, l’utilisateur doit disposer d’une licence Teams.
 - **Pour les événements produits à l’aide d’un appareil ou d’une application externe**, l’utilisateur doit disposer d’une licence Stream.
@@ -97,7 +97,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Taille maximale de l’audience |10 000 participants |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
 |Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
 |Nombre maximal de présentateurs et de producteurs en temps réel |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Nombre maximal d’événements en direct simultanés par organisation Office 365 |15  | 15  | 15  |
+|Nombre maximal d’événements en direct simultanés par Microsoft 365 ou l’organisation Office 365 |15  | 15  | 15  |
 |Création d’événement en direct |   Portail de diffusion de réunion Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Engagement d’audience - Yammer |&#x2714; |&#x2714; (expérience intégrée) |&#x2714; (expérience intégrée) |
 |Engagement d’audience - Q&R modérées |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Légendes et sous-titres en direct |&#x2714; |&#x2714; |&#x274C; |
 |Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; |&#x2714; |
 |Contrôles DVR de participants (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
-|Support eCDN partenaire |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Support eCDN partenaire |&#x2714;(Kollective, RAMP) |&#x2714;(Kollective, RAMP) |&#x2714; (Hive, Kollective, Ramp) |
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 7b8cd74a8ac6c06a1bc51368009051dbacaca962
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042391"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691350"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gérer la version d’évaluation d’Office 365 E1
 ==============================
@@ -85,17 +85,17 @@ Pour plus d’informations, voir [Description du service Microsoft Teams](https:
 
 - Si vous souhaitez supprimer cette licence à l’aide PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
-- Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+- Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retirer des licences à des utilisateurs dans Microsoft 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 
 [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
 
-[Gérer l’expérience d’exploration de Teams](teams-exploratory.md)
+[Gérer l’expérience exploratoire de Teams](teams-exploratory.md)
 
-[Office 365 pour les associations à but non lucratif](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 ou Office 365 pour les associations](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Obtenir de l’aide pour déployer des équipes](https://go.microsoft.com/fwlink/?linkid=780698)
