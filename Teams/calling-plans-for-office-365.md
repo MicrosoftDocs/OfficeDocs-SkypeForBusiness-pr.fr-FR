@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041731"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691400"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
@@ -39,28 +39,28 @@ Les appels vers d’autres utilisateurs de Skype entreprise et Microsoft teams s
   
 Voici les options disponibles :
   
-- **Forfait d’appels nationaux**: les utilisateurs sous licence peuvent appeler des numéros situés dans le pays ou la région où ils sont attribués dans Office 365.
+- **Forfait d’appels nationaux**: les utilisateurs sous licence peuvent appeler des numéros situés dans le pays ou la région où ils sont attribués dans Microsoft 365 ou Office 365.
     
-- **Forfait d’appels nationaux et internationaux**: les utilisateurs sous licence peuvent appeler des numéros situés dans le pays ou la région où leur licence Office 365 est affectée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans les [pays/régions 196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Forfait d’appels nationaux et internationaux**: les utilisateurs sous licence peuvent appeler des numéros situés dans le pays ou la région où leur licence Microsoft 365 ou Office 365 est affectée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
 Pour en savoir plus sur les minutes mensuelles disponibles pour chaque organisation dans chaque pays ou région, consultez la rubrique [disponibilité du pays et](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) de la région.
   
 > [!IMPORTANT]
-> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le > **Active users** Centre d' **administration Microsoft 365**et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le **Centre d’administration Microsoft 365**.   
+> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365**  >  **Active users** et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le **Centre d’administration Microsoft 365**.   
 ![Capture d’écran de l’emplacement de la licence de l’utilisateur](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Pour obtenir des informations détaillées sur les limites et les conditions d’utilisation, voir [période de numérotation complète](complimentary-dial-out-period.md)de l’audioconférence.
   
 ## <a name="how-to-buy-a-calling-plan"></a>Comment acheter un forfait d’appels
 
-1. <strong>Vous devez d’abord acheter une</strong> licence du composant additionnel du système téléphonique * *<strong>. Pour ce faire, [Connectez-vous au centre d’administration 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et sélectionnez * * facturation</strong> > **Purchase services** > **des abonnements** > à des services de complément achat**immédiat**.
+1. <strong>Vous devez d’abord acheter une</strong> licence du composant additionnel du système téléphonique * *<strong>. Pour ce faire, [Connectez-vous au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et sélectionnez * * facturation</strong>  >  **Purchase services**  >  **des abonnements de compléments**  >  **acheter maintenant**.
     
     ![Capture d’écran montrant l’option d’achat d’une offre d’appels vocaux.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > En fonction de votre plan, il est possible que vous deviez acheter des modules complémentaires avant de pouvoir acheter des licences de système téléphonique. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Une fois que vous avez acheté des licences de système téléphonique, vous pouvez acheter l’offre d’appels en vous connectant au **Centre d’administration 365**, puis en cliquant sur**abonnements de complément****services** > de **facturation** > , puis sur **acheter maintenant**. Les plans d’appel apparaissent là.
+2. Une fois que vous avez acheté des licences de système téléphonique, vous pouvez acheter l’offre d’appels en vous connectant au **Centre d’administration 365**, puis en cliquant sur **Billing**  >  **Purchase services**  >  **abonnements de complément services de**facturation, puis sur **acheter maintenant**. Les plans d’appel apparaissent là.
     
     ![Capture d’écran montrant les options du plan d’appels vocaux.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -88,10 +88,10 @@ Voici d’autres articles sur la configuration de vos plans d’appel :
     
 - [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Voici les avantages du système téléphonique dans Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Voici ce que vous pouvez obtenir avec le système téléphonique dans Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

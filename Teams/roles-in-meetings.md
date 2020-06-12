@@ -17,12 +17,12 @@ description: Découvrez les fonctionnalités de présentateur et de participant 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321733"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702689"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Fonctionnalités de présentateur et de participants dans une réunion Teams
 ======================================================
@@ -92,10 +92,10 @@ Un participant invité est un membre d’une autre organisation qui a été invi
 
 Un participant externe est une personne qui utilise Teams dans une autre organisation et qui a été invité à participer à une réunion, mais qui n’a pas accès à d’autres ressources partagées de votre organisation. Les participants utilisateurs externes apparaissent dans la composition de la réunion avec le même nom d’identité qu’au sein de leur propre organisation. Pour en savoir plus sur un participant externe, voir [Communiquer avec des utilisateurs d’autres organisations](communicate-with-users-from-other-organizations.md#external-access).
 
-| Réunion (peut être ajoutée à une équipe en tant qu’invité uniquement) ||
+| Réunion ||
 |-|-|-|
 | **Fonctionnalité** |||
-| Conversation | N/A |
+| Conversation | Oui |
 | Notes de réunion | N/A |  
 | Tableau blanc | N/A |
 | Enregistrement | N/A |  
@@ -110,7 +110,7 @@ Le participant anonyme est comme un utilisateur externe, mais son identité n’
 | Réunion  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Fonctionnalité**        | Avant la réunion | Pendant la réunion | Après la réunion |
-| Conversation | N/A | Non | N/A |
+| Conversation | N/A | Oui | N/A |
 | Notes de réunion | N/A | Non | N/A |
 | Tableau blanc | N/A | Non | N/A |
 | Enregistrement | N/A | Non | N/A |

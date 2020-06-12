@@ -18,12 +18,12 @@ description: Découvrez les différentes méthodes d’attribution de stratégie
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698284"
+ms.locfileid: "44702729"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
@@ -34,7 +34,7 @@ En tant qu’administrateur, vous utilisez des stratégies pour contrôler les f
 
 Les organisations ont différents types d’utilisateurs dotés de besoins uniques et de stratégies personnalisées que vous créez et attribuez les paramètres de stratégie à différents ensembles d’utilisateurs en fonction de vos besoins.
 
-Pour faciliter la gestion des stratégies au sein de votre organisation, teams permet d’attribuer des stratégies aux utilisateurs de différentes manières. Vous pouvez affecter une stratégie directement aux utilisateurs, individuellement ou à l’échelle via une affectation de lot ou à un groupe dont l’utilisateur est membre. Vous pouvez également utiliser des packages de stratégie pour affecter une collection prédéfinie de stratégies aux utilisateurs de votre organisation possédant des rôles similaires. L’option que vous choisissez dépend du nombre de stratégies que vous gérez et du nombre d’utilisateurs auxquels vous attribuez.
+Pour faciliter la gestion des stratégies au sein de votre organisation, teams permet d’attribuer des stratégies aux utilisateurs de différentes manières. Vous pouvez affecter une stratégie directement aux utilisateurs, individuellement ou à la fois par le biais d’une affectation par lot ou à un groupe dont les utilisateurs sont membres. Vous pouvez également utiliser des packages de stratégie pour affecter une collection prédéfinie de stratégies aux utilisateurs de votre organisation possédant des rôles similaires. L’option que vous choisissez dépend du nombre de stratégies que vous gérez et du nombre d’utilisateurs auxquels vous attribuez. En définissant les stratégies globales par défaut de l’organisation, afin qu’elles s’appliquent au plus grand nombre d’utilisateurs de votre organisation, il vous suffit d’affecter des stratégies aux utilisateurs qui ont besoin de stratégies spécialisées.
 
 Cet article décrit les différentes façons dont vous pouvez attribuer des stratégies aux utilisateurs et les scénarios recommandés pour les situations dans lesquelles utiliser.
 
@@ -62,6 +62,8 @@ Pour en savoir plus, voir [règles de précédence](#precedence-rules).
 
 Vous trouverez ci-dessous une vue d’ensemble des méthodes permettant d’attribuer des stratégies aux utilisateurs et les scénarios recommandés pour chacun. Cliquez sur les liens pour en savoir plus.
 
+Avant d’affecter des stratégies à des utilisateurs ou des groupes spécifiques, commencez par [définir les stratégies globales par défaut](#set-the-global-policies) de l’organisation afin qu’elles s’appliquent au plus grand nombre d’utilisateurs de votre organisation.  Une fois les stratégies globales définies, vous n’aurez besoin d’affecter des stratégies qu’aux utilisateurs qui ont besoin de stratégies spécialisées.
+
 |Procédez comme suit…  |Si...  | Utilisation de...
 |---------|---------|----|
 |[Assigner une stratégie à des utilisateurs individuels](#assign-a-policy-to-individual-users)    | Vous débutez en équipe et vous commencez simplement à attribuer une ou plusieurs stratégies à un petit nombre d’utilisateurs. |Centre d’administration Microsoft teams ou cmdlets PowerShell dans le module PowerShell de Skype entreprise Online
@@ -70,6 +72,50 @@ Vous trouverez ci-dessous une vue d’ensemble des méthodes permettant d’attr
 |[Assigner une stratégie à un groupe](#assign-a-policy-to-a-group) (en Preview)   |Vous devez attribuer des stratégies en fonction de l’appartenance d’un utilisateur à un groupe. Par exemple, vous souhaitez attribuer une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité ou d’une unité d’organisation.| Cmdlets PowerShell dans le module PowerShell teams|
 | [Affectation d’un package de stratégie à un lot d’utilisateurs](#assign-a-policy-package-to-a-batch-of-users)|Vous devez affecter plusieurs stratégies à un lot d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, attribuez le package de stratégie éducation (enseignant) à tous les enseignants de votre établissement scolaire à l’aide de la fonctionnalité d’attribution de lot pour leur permettre d’accéder à des conversations, des appels et des réunions, et d’affecter le package de stratégie éducation (école secondaire) à un lot d’étudiants secondaires pour limiter certaines fonctionnalités telles que les appels privés.|Cmdlets PowerShell dans le module PowerShell teams|
 | Assigner un package de stratégie à un groupe (bientôt disponible)   | ||
+
+## <a name="set-the-global-policies"></a>Définir les stratégies globales
+
+Pour définir les stratégies globales par défaut de chaque type de stratégie, procédez comme suit.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la page de stratégie correspondant au type de stratégie que vous voulez mettre à jour. Par exemple, *teams > des politiques d’équipe* ou des *réunions >* des politiques de réunions ou des stratégies de *messagerie* ou des politiques d' *appels vocaux >*.
+2. Sélectionnez la stratégie **globale par défaut** de l’Organisation pour afficher les paramètres actuels.
+3. Mettez à jour la stratégie le cas échéant, puis sélectionnez **Enregistrer**.
+
+### <a name="using-powershell"></a>Utiliser PowerShell
+
+Pour définir les stratégies globales à l’aide de PowerShell, utilisez l’identificateur global.  Commencez par examiner la stratégie globale actuelle pour déterminer le paramètre que vous voulez modifier.
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+Ensuite, mettez à jour la stratégie globale selon vos besoins.  Il vous suffit de spécifier des valeurs pour les paramètres que vous souhaitez modifier. 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>Assigner une stratégie à des utilisateurs individuels
 
@@ -436,6 +482,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 Pour en savoir plus, consultez la rubrique [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation). 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
