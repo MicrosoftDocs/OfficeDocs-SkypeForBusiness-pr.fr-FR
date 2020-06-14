@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de transfert pour votre organisation, il est possible que vous deviez obtenir de l’aide et une assistance technique au niveau de l’assistance téléphonique PSTN.
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374272"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710828"
 ---
 # <a name="pstn-service-desk-contact"></a>Contact de bureau de service PSTN
 
@@ -42,12 +42,12 @@ L’équipe de bureau de service RTC possède actuellement trois adresses de mes
 
 Si vous avez besoin **d’aide pour transférer vos numéros de téléphone existants vers Microsoft teams**, indiquez autant de détails que possible :
   - ID de votre [Organisation (ID de client) ou domaines Microsoft actifs](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-  - Quels types de numéros de téléphone vous avez besoin d’aide pour (**utilisateur/abonné** ou **service/payant/gratuit**).
+  - Quels types de numéros de téléphone vous avez besoin d’aide ? **(utilisateur, service payant ou service gratuit)**.
   - Autres détails importants en fonction de votre demande.
   
 Si vous avez besoin **d’aide pour acheter de nouveaux numéros de téléphone pour Microsoft teams**, indiquez autant de détails que possible :
   - ID de votre [Organisation (ID de client) ou domaines Microsoft actifs.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - Quels types de numéros de téléphone vous aimeriez acquérir (**utilisateur/abonné** ou **service/payant ou gratuit**).
+  - Quels types de numéros de téléphone vous avez besoin d’aide ? **(utilisateur, service payant ou service gratuit)**.
   - Combien vous avez besoin et le ou les indicatifs/Country/Region à partir desquels vous souhaitez créer de nouveaux numéros de téléphone ?
 
 Si vous avez besoin d’aide **sur des numéros liés à la configuration des numéros, à la configuration, aux licences/frais**et à la facturation, veuillez consulter la page [de support technique pour les produits professionnels-aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) et notre équipe technique sera heureux de vous aider.

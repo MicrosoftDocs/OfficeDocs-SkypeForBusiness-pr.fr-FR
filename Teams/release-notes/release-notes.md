@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702719"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710818"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft teams
 
 Ces notes de publication fournissent des informations sur les nouvelles fonctionnalités d’administration de Microsoft Teams.
+
+## <a name="june-11-2020"></a>11 juin 2020
+
+### <a name="call-queues---presence-based-routing"></a>Files d’attente d’appels-routage sur la présence
+
+Lorsque cette option est désactivée, les appels sont routés vers les agents qui ont choisi de recevoir des appels, quel que soit leur état de présence. Lorsqu’il est activé, les agents d’activation ne recevront des appels que si leur état de présence est disponible. [En savoir plus](../create-a-phone-system-call-queue.md).
+
+
+## <a name="june-10-2020"></a>10 juin 2020
+
+### <a name="call-queues---longest-idle-routing"></a>Files d’attente d’appels : routage inactif le plus longtemps
+Lorsque vous choisissez cette valeur, les appels entrants sont routés vers les agents qui n’ont pas répondu à un appel entrant pendant la période la plus longue. [En savoir plus](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>1er juin 2020
 
@@ -90,12 +102,6 @@ Créez des balises et attribuez-leur des personnes pour pouvoir @mention un grou
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>Enregistrement basé sur une stratégie pour les appels et les réunions teams
 
 Cette fonctionnalité permet d’enregistrements automatisés basés sur des stratégies d’appels et de réunions d’équipes par le biais de fournisseurs de logiciels agréés par Microsoft.
-
-## <a name="march-29-2020"></a>29 mars 2020
-
-### <a name="call-queues---presence-based-routing"></a>Files d’attente d’appels-routage sur la présence
-
-Lorsque cette option est désactivée, les appels sont routés vers les agents qui ont choisi de recevoir des appels, quel que soit leur état de présence. Lorsqu’il est activé, les agents d’activation ne recevront des appels que si leur état de présence est disponible. [En savoir plus](../create-a-phone-system-call-queue.md).
 
 ## <a name="march-25-2020"></a>25 mars 2020
 

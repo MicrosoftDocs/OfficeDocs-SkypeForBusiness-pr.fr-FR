@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Apprenez à personnaliser une stratégie de messagerie sécurisée qui peut inclure les confirmations de lecture et les notifications de priorité.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905526"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724894"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -53,15 +53,13 @@ Pour les applications de santé, sélectionnez **contrôle utilisateur** ou **ac
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Envoyer des messages urgents à l’aide de notifications de priorité
 
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
-
 Un utilisateur peut marquer un message comme *urgent* lors de l’envoi de messages instantanés à d’autres utilisateurs. Cette fonctionnalité permet au personnel de l’hôpital de s’avertir lorsque l’un d’eux nécessite son attention. À la différence des messages *importants* ordinaires, les [notifications de priorité](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) avertissent les utilisateurs toutes les deux minutes pour une durée de 20 minutes maximum ou jusqu’à ce que le message soit reçu et lu par le destinataire, ce qui maximise la probabilité que le message soit traité en temps opportun.
 
 Un administrateur peut activer ou désactiver la possibilité pour les utilisateurs ayant affecté cette stratégie d’envoyer des notifications de priorité. Cette fonctionnalité est activée par défaut. Le destinataire du message prioritaire peut ne pas avoir la même stratégie de messagerie et ne peut pas désactiver la réception de messages de priorité. Dans le cas des applications de santé, nous vous recommandons d’activer la fonctionnalité pour au moins quelques utilisateurs, mais vous devez en déterminer les.
 
 *Exemple d’utilisation :* Sofia Krause est en plus d’admettre un patient à haut risque, Jakob Roth. Manuela Carsten est le médecin principal du patient pour ce patient.  Sofia envoie un message à Manuela à l’aide d’une notification de priorité demandant une assistance immédiate au triage de Jakob.  Le numéro de téléphone de Manuela reçoit le message mais Manuela n’a pas trouvé la vibration du téléphone et ne répond pas. Teams réactive le Manuela et continue d’avertir de nouveau jusqu’à ce qu’il Lise le message. Si les confirmations de lecture sont également activées, vous savez que le message a été lu par Manuela, même avant que Manuela ne décide du mode de réponse.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les stratégies de messagerie dans Teams](../../messaging-policies-in-teams.md)
 - [Prise en main de Teams pour les organismes de santé](teams-in-hc.md)
