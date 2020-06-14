@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 10d17aedd0a653b6fc5bd24946ede5da09dc4647
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901949"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691330"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
@@ -63,11 +63,11 @@ Les utilisateurs approuvent les applications. Elles sont gérées par l’admini
 
 ### <a name="bots-for-private-chats-and-channels"></a>Robots pour des conversations et des canaux privés
 
-Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services cloud tels que la gestion des tâches, la planification et les sondages dans une conversation Teams. Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation des robots est autorisée dans une organisation Office 365.
+Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services cloud tels que la gestion des tâches, la planification et les sondages dans une conversation Teams. Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation des robots est autorisée dans une organisation Microsoft 365 ou Office 365.
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Est-ce que je souhaite autoriser les robots personnalisés dans mon organisation Office 365 ?|Pour plus d’informations sur l’ajout de robots, voir [Ajouter des robots pour conversations et canaux privés dans Microsoft Teams](add-bots.md). Pour plus d’informations sur l’activation ou la désactivation des robots personnalisés, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
+|Est-ce que je souhaite autoriser les robots personnalisés dans mon organisation ?|Pour plus d’informations sur l’ajout de robots, voir [Ajouter des robots pour conversations et canaux privés dans Microsoft Teams](add-bots.md). Pour plus d’informations sur l’activation ou la désactivation des robots personnalisés, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Onglets intégrés et personnalisés
@@ -76,25 +76,25 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Est-ce que je souhaite autoriser les onglets personnalisés dans mon organisation Office 365 ?|Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](built-in-custom-tabs.md).|
+|Est-ce que je souhaite autoriser les onglets personnalisés dans mon organisation ?|Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](built-in-custom-tabs.md).|
 |||
 
-### <a name="office-365-and-custom-connectors"></a>Connecteurs Office 365 et personnalisés
+### <a name="custom-connectors"></a>Connecteurs personnalisés
 
 Avec les connecteurs, votre équipe reste au courant des dernières activités, en leur fournissant directement dans un canal du contenu et des mises à jour de services que vous utilisez fréquemment. Grâce aux connecteurs, vos utilisateurs de Teams peuvent recevoir des mises à jour de services courants tels que Twitter, Trello, Wunderlist, GitHub et les services Azure DevOps dans leurs conversations Teams.
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Est-ce que je souhaite permettre aux utilisateurs de créer des connecteurs personnalisés ?|Pour plus d’informations, voir [Utiliser des connecteurs Office 365 et personnalisés dans Teams](office-365-custom-connectors.md).|
+|Est-ce que je souhaite permettre aux utilisateurs de créer des connecteurs personnalisés ?|Pour plus d’informations, voir [Utiliser des connecteurs personnalisés dans Teams](office-365-custom-connectors.md).|
 |||
 
-## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
+## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
 
 Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
 
 ### <a name="activity-reports"></a>Rapports d’activité
 
-Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateurs de votre organisation utilisent Teams. Par exemple, si certains utilisateurs n’utilisent pas encore Teams, c’est peut-être parce qu’ils ne savent pas comment commencer ou comment utiliser Teams pour être plus productifs et mieux collaborer. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication. Pour afficher les rapports d’activité, vous devez être un administrateur général dans Office 365, un administrateur de service Teams ou un administrateur Skype Entreprise.
+Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateurs de votre organisation utilisent Teams. Par exemple, si certains utilisateurs n’utilisent pas encore Teams, c’est peut-être parce qu’ils ne savent pas comment commencer ou comment utiliser Teams pour être plus productifs et mieux collaborer. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication. Pour afficher les rapports d’activité, vous devez être un administrateur général dans Microsoft 365 ou Office 365, un administrateur de service Teams ou un administrateur Skype Entreprise.
 
 | Posez-vous la question | Action |
 |--------------|--------|

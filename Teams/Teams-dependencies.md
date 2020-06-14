@@ -18,17 +18,17 @@ f1.keywords:
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778480"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689800"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
 
-Pour vous conformer aux exigences de votre organisation, vous pouvez gérer les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents. Tous les niveaux d’autorisation s’appliquent à votre organisation Office 365. Chaque niveau d’autorisation contrôle l’expérience utilisateur comme indiqué ci-dessous :
+Pour vous conformer aux exigences de votre organisation, vous pouvez gérer les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents. Tous les niveaux d’autorisation s’appliquent à votre organisation Microsoft 365 ou Office 365. Chaque niveau d’autorisation contrôle l’expérience utilisateur comme indiqué ci-dessous :
 
 - **Azure Active Directory** : l’accès invité dans Microsoft Teams repose sur la plate-forme entre entreprises (B2B) Azure AD. Ce niveau d’autorisation contrôle l’expérience des utilisateurs au niveau de l’annuaire, du client et de l’application.
 - **Microsoft Teams** : contrôle l’expérience invité uniquement dans Microsoft Teams.
@@ -38,9 +38,9 @@ Pour vous conformer aux exigences de votre organisation, vous pouvez gérer les 
 Ces différents niveaux d’autorisation vous donnent de la flexibilité pour configurer l’accès invité pour votre organisation. Par exemple, si vous ne souhaitez pas autoriser d’utilisateurs invités dans votre Microsoft Teams mais que vous voulez les autoriser dans votre organisation, il vous suffit de désactiver l’accès invité dans Microsoft Teams. Autre exemple : vous pourriez activer l’accès invité aux niveaux Azure AD, Teams et Groupes, puis désactiver l’ajout d’utilisateurs invités au niveau des équipes sélectionnées qui correspondent à un ou plusieurs critères, comme par exemple une classification des données confidentielles. SharePoint Online et OneDrive Entreprise ont leurs propres paramètres d’accès invité qui ne reposent pas sur des groupes Microsoft 365.
 
 > [!NOTE]
-> Les invités sont soumis aux mêmes limites des services [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) et [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019). 
+> Les invités sont soumis aux limites de service décrites dans [Descriptions des services Microsoft 365 et Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) et [limitations d’Azure AD B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=853019). 
 
-Le diagramme suivant montre comment la dépendance des autorisations de l’accès invité est octroyée et intégrée entre Azure Active Directory, Microsoft Teams et Office 365.
+Le diagramme suivant montre comment la dépendance des autorisations de l’accès invité est octroyée et intégrée entre Azure Active Directory, Microsoft Teams et Microsoft 365 ou Office 365.
 
 ![Diagramme des dépendances des autorisations de l’accès invité.](media/teams_dependencies_image1.png)
 
@@ -110,7 +110,7 @@ Si vous souhaitez obtenir plus d’informations sur l’accès invité dans les 
 
 Teams repose sur SharePoint Online et OneDrive Entreprise pour stocker les fichiers et les documents des canaux et des conversations.  
 
-Pour bénéficier de l'expérience complète de l'accès invité Teams, les administrateurs d'Office 365 doivent configurer les paramètres suivants :
+Pour bénéficier de l'expérience complète de l'accès invité Teams, les administrateurs de Microsoft 365 et Office 365 doivent configurer les paramètres suivants :
 
 - Dans SharePoint Online : sélectionnez **Invités existants**, **Invités nouveaux et existants** ou **Tout le monde**.
 

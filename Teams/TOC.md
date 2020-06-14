@@ -905,3 +905,5 @@
 ### [Forfaits d’appels dans Microsoft 365 – Code de conduite au Royaume-Uni](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Forfaits d’appels dans Microsoft 365 – Gestion de réclamation de code pour le Royaume-Uni](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
+
+## [Notes de publication pour les fonctionnalités d’administration de Teams](release-notes/release-notes.md)
