@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification du routage géodépendant pour les conférences dans Skype entreprise Server Voice, y compris les transferts d’appels consultatifs.
-ms.openlocfilehash: f2a44c1f3275dd0cc9e1205d60ba26e01429ea51
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cec7eb1f853752997ca3dcfbe8546b86227fde9b
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690580"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710738"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Routage géodépendant pour les conférences dans Skype entreprise Server
 
@@ -49,9 +49,7 @@ Le routage géodépendant de l’application de conférence empêche la particip
 
 Ces restrictions de routage basées sur l’emplacement des conférences sont résumées dans le tableau suivant.
 
-| |
-
-|**Utilisateur (s) dans une conférence à tout moment**|**Utilisateur (s) autorisé à rejoindre la Conférence**|**Utilisateur (s) non autorisé à rejoindre la Conférence**|
+|Utilisateur (s) dans une conférence à tout moment|Utilisateur (s) autorisé à rejoindre la Conférence|Utilisateur (s) non autorisé à rejoindre la Conférence|
 |:-----|:-----|:-----|
 |Utilisateur (s) de client VoIP Skype entreprise à partir d’un site réseau unique  <br/> |Utilisateur de client VoIP Skype entreprise à partir du même site réseau  <br/> Utilisateur de client VoIP Skype entreprise à partir d’un autre site réseau  <br/> Utilisateur de client VoIP Skype entreprise à partir d’un site réseau inconnu  <br/> Utilisateur de client VoIP Skype entreprise fédéré  <br/> Appartenance d’un utilisateur à partir d’un point de terminaison PSTN  <br/> |Aucune  <br/> |
 |Utilisateur (s) de client VoIP Skype entreprise à partir d’un site réseau inconnu  <br/> |Utilisateur de client VoIP Skype entreprise à partir de n’importe quel site  <br/> Utilisateur de client VoIP Skype entreprise à partir d’un site inconnu  <br/> Utilisateur de client VoIP Skype entreprise fédéré  <br/> |Appartenance d’un utilisateur via un point de terminaison PSTN  <br/> |
@@ -69,7 +67,7 @@ Les caractéristiques supplémentaires du routage géodépendant pour l’applic
 > [!NOTE]
 > Avec la mise à jour cumulative 4 de Skype entreprise, le comportement dans le tableau suivant doit être observé :
 
-|**User**|**Autre partie**|**Action**|**Résultat**|
+|Utilisateur|Autre partie|Action|Résultat|
 |:-----|:-----|:-----|:-----|
 |Skype entreprise mobile  <br/> |RTC  <br/> |Skype entreprise mobile est un appel RTC. Skype entreprise mobile transfère ensuite l’appel vers un standard automatique de conférence (CAA).  <br/> |L’appel est bloqué, avec un message d’erreur approprié.  <br/> |
 |Skype entreprise mobile  <br/> |Client Skype entreprise ou utilisateur fédéré  <br/> |Le client ou utilisateur fédéré est sur un appel VoIP à un utilisateur de routage basé sur l’emplacement mobile Skype entreprise, et chaque partie passe à un CAA.  <br/> |L’appel d’escalade est bloqué, avec un message d’erreur approprié.  <br/> |
@@ -84,14 +82,14 @@ En plus de l’application du routage géodépendant aux réunions Skype entrepr
 
 Lorsqu’un utilisateur activé pour le routage géodépendant lance un transfert d’appel consultatif d’un point de terminaison PSTN (comme illustré dans la figure précédente), cela crée deux appels actifs, un appel entre l’utilisateur RTC et l’utilisateur Skype entreprise A, et l’autre entre l’utilisateur Skype entreprise A et Skype entreprise B. le comportement suivant est appliqué par le routage géodépendant pour l’application de conférence. :
 
-- Si le routage de jonction SIP est autorisé à réacheminer l’appel RTC vers le site réseau où se trouve l’utilisateur Skype entreprise B (c.-à-d ? cible de transfert), le transfert d’appel sera autorisé ; dans le cas contraire, le transfert consultatif est bloqué. Cette autorisation est effectuée en fonction de l’emplacement de la partie transférée dans le même site réseau que la jonction SIP qui achemine l’appel actif vers le point de terminaison PSTN.
+- Si le routage de jonction SIP est autorisé à réacheminer l’appel RTC vers le site réseau où se trouve l’utilisateur Skype entreprise B (c.-à-d. cible de transfert), le transfert d’appel sera autorisé ; dans le cas contraire, le transfert consultatif est bloqué. Cette autorisation est effectuée en fonction de l’emplacement de la partie transférée dans le même site réseau que la jonction SIP qui achemine l’appel actif vers le point de terminaison PSTN.
 
-- Si le routage de jonction SIP de l’appel RTC entrant n’est pas autorisé à acheminer les appels vers le site réseau où la partie transférée (Skype entreprise B) est située ou que la partie transférée se trouve dans un site réseau inconnu, le transfert d’appel consultatif vers le point de terminaison PSTN (c.-à-d. cible de transfert d’appel) sera bloqué.
+- Si le routage de jonction SIP de l’appel RTC entrant n’est pas autorisé à acheminer les appels vers le site réseau où se trouve la partie transférée (Skype entreprise B) ou la partie transférée dans un site réseau inconnu, le transfert d’appel consultatif vers le point de terminaison PSTN (c.-à-d. la cible de transfert d’appel) sera bloqué.
 
 Le tableau suivant décrit la façon dont les restrictions de routage basées sur l’emplacement sont appliquées par le routage géodépendant pour l’application de conférence pour les transferts d’appels consultatifs. Bien que les points de terminaison PBX ne soient pas directement associés à un site réseau, la jonction SIP à laquelle le PBX est connecté peut être affectée à un site réseau. Par conséquent, le point de terminaison PBX peut être indirectement associé à un site réseau.
 
 
-|**Site réseau de la partie transférée d’appel**|**Site réseau de la cible de transfert d’appel**|**Comportement**|
+|Site réseau de la partie transférée d’appel|Site réseau de la cible de transfert d’appel|Comportement|
 |:-----|:-----|:-----|
 |Point de terminaison PSTN  <br/> |Utilisateur Skype entreprise dans le même site réseau (par exemple, site 1)  <br/> |Le transfert consultatif est autorisé  <br/> |
 |Point de terminaison PSTN  <br/> |Utilisateur Skype entreprise dans différents sites réseau (par exemple, site 2)  <br/> |Le transfert consultatif est interdit  <br/> |
@@ -113,7 +111,7 @@ Le routage géodépendant pour l’application de conférence nécessite le dép
 Le tableau suivant identifie les combinaisons de rôles serveur et de versions qui prennent en charge le routage géodépendant.
 
 
-|**Version du pool frontal**|**Version du serveur de médiation**|**Pris en charge**|
+|Version du pool frontal|Version du serveur de médiation|Pris en charge|
 |:-----|:-----|:-----|
 |Mise à jour cumulative 2 pour Skype entreprise Server ou Lync Server 2013  <br/> |Mise à jour cumulative 2 pour Skype entreprise Server ou Lync Server 2013  <br/> |Oui  <br/> |
 |Mise à jour cumulative 2 de Lync Server 2013  <br/> |Mise à jour cumulative 1 de Lync Server 2013  <br/> |Non  <br/> |
@@ -137,7 +135,11 @@ Le routage géodépendant de l’application de conférence repose sur la config
 
 Le routage géodépendant de l’application de conférence est désactivé par défaut. Avant d’activer cette application, vous devez déterminer la priorité appropriée à affecter à l’application. Pour déterminer cette priorité, exécutez l’applet de commande suivante dans Skype entreprise Server Management Shell :
 
-Get-CsServerApplication-Identity service : Registrar : <Pool FQDN> dans cette applet de commande, \<Pool FQDN\> est le pool dans lequel le routage géodépendant pour l’application de conférence doit être activé.
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
+
+Dans cette applet de commande, \<Pool FQDN\> est le pool dans lequel le routage géodépendant pour l’application de conférence doit être activé.
 
 Cette applet de commande renvoie la liste des applications hébergées par Skype entreprise Server et la valeur de priorité de chacune d’elles. Le routage géodépendant pour l’application de conférence doit disposer d’une valeur de priorité supérieure à celle de l’application « UdcAgent » et plus petite que les applications « DefaultRouting », « ExumRouting » et « OutboundRouting ». Nous vous recommandons d’attribuer au routage géodépendant une valeur de priorité d’un point supérieur à la valeur de priorité de l’application « UdcAgent ».
 
@@ -145,11 +147,15 @@ Par exemple, si l’application « UdcAgent » a une valeur de priorité de «
 
 Une fois que vous avez trouvé la valeur de priorité correcte pour le routage géodépendant pour l’application de conférence, tapez l’applet de commande suivante pour chaque pool frontal ou serveur Standard Edition qui héberge les utilisateurs pour lesquels le routage géodépendant est activé :
 
-New-CsServerApplication-Identity service : Registrar : `<Pool FQDN`>/lbrouting-Priority \<Application Priority\> -enabled $true-Critical $true-URI<http://www.microsoft.com/LCS/LBRouting>
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+```
 
 Par exemple :
 
-New-CsServerApplication-Identity service :Registrar :LS2013CU2LBRPool. contoso. com/LBRouting-Optional 3-enabled $true-URI $true-URIhttp://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Après avoir utilisé cette applet de commande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition où le routage géodépendant de l’application de conférence a été activé.
 
