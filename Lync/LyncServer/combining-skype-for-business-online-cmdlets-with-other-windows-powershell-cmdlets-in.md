@@ -1,8 +1,8 @@
 ---
 title: Combinaison des applets de commande Skype entreprise Online et d’autres applets de commande Windows PowerShell dans
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180987"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ Bien qu’un cours complet dans Windows PowerShell 3,0 dépasse le cadre de cet 
 
 Étant donné qu’aucun paramètre supplémentaire n’est inclus, toutes les informations renvoyées par **la cmdlet Out-Printer** sont imprimées sur l’imprimante par défaut.
 
-De même, aucune des applets de commande Skype entreprise Online n’inclut un paramètre qui vous permet d’enregistrer des données dans un fichier. Mais cela est correct : cette commande utilise la cmdlet **out-file** pour enregistrer les informations renvoyées dans le fichier texte C\\:\\logs locataires. txt :
+De même, aucune des applets de commande Skype entreprise Online n’inclut un paramètre qui vous permet d’enregistrer des données dans un fichier. Mais cela est correct : cette commande utilise la cmdlet **out-file** pour enregistrer les informations renvoyées dans le fichier texte C : \\ logs \\Tenants.txt :
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 

@@ -1,8 +1,8 @@
 ---
-title: 'Phase 2 : préparer la migration'
+title: 'Étape 2 : Préparer la migration'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f55ef2f7db41022dbf1a3d39e6baece47c377f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0687c32890d149672fd71a59d6a64206b99af384
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189737"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189737"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>Phase 2 : préparer la migration
+# <a name="phase-2-prepare-for-migration"></a>Étape 2 : Préparer la migration
 
 </div>
 
@@ -45,13 +45,13 @@ Avant de commencer la migration vers Lync Server 2013 à partir de Lync Server 2
 
   - [Appliquer les mises à jour de Lync Server 2010](apply-lync-server-2010-updates.md)
 
-  - [Configuration des enregistrements DNS pour le déploiement du pool pilote](configure-dns-records-for-pilot-pool-deployment.md)
+  - [Configuration des enregistrements DNS pour le déploiement d’un pool pilote](configure-dns-records-for-pilot-pool-deployment.md)
 
   - [Exécuter Best Practices Analyzer](run-best-practices-analyzer.md)
 
   - [Sauvegarder des systèmes et des données](back-up-systems-and-data.md)
 
-  - [Configurer les clients pour la migration](configure-clients-for-migration.md)
+  - [Configuration des clients pour la migration](configure-clients-for-migration.md)
 
   - [Vérifier l’environnement Lync Server 2010](verify-lync-server-2010-environment.md)
 

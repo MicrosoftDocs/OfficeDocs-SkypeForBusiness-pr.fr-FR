@@ -1,8 +1,8 @@
 ---
-title: Configurer la surveillance SCOM
+title: Configuration de la surveillance SCOM
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c83adcd4241f6a8c447265715bba26f87cc20f09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95bc54defed596dfa8a8d801908b281abf06ead3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180837"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180837"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-scom-monitoring"></a>Configurer la surveillance SCOM
+# <a name="configure-scom-monitoring"></a>Configuration de la surveillance SCOM
 
 </div>
 
@@ -72,7 +72,7 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
     
 
     > [!NOTE]  
-    > À chaque modification du Registre, une erreur liée à l’échec de la commande risque de se produire si la clé de Registre existe déjà. Dans ce cas, vous pouvez ignorer cette erreur sans risque.
+    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error.
 
     
     </div>

@@ -1,8 +1,8 @@
 ---
-title: Configurer la page de participation aux réunions
+title: Configuration de la page de participation à une réunion
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 418a4ab1e5f44e6cf57a6124a29470a4f4ab477c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10700dc8a75d5c067870b53c0e0e74b7a469504a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180797"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180797"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>Configurer la page de participation aux réunions
+# <a name="configure-the-meeting-join-page"></a>Configuration de la page de participation à une réunion
 
 </div>
 
@@ -62,7 +62,7 @@ Vous pouvez modifier le comportement de la page de participation à la réunion 
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>Quand la valeur est True, les autres options pour rejoindre une conférence en ligne (comme Office Communicator 2007 R2) seront automatiquement développées et montrées aux utilisateurs. Quand la valeur est False (valeur par défaut), ces options sont disponibles, mais l’utilisateur doit afficher la liste des options.</p></td>
+<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
 </tr>
 </tbody>
 </table>

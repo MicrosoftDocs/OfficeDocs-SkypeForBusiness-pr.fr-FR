@@ -1,8 +1,8 @@
 ---
 title: Déplacer plusieurs utilisateurs vers le pool pilote
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move multiple users to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81b5ad16b36063c217d90c4c8f1e8a2e7fa3c0ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a5a92b0438e72be0ecb5acaa1b8e1886768ad59
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189847"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool Lync Server 2010 vers
 
 1.  Ouvrez Lync Server 2013 Management Shell.
 
-2.  Sur la ligne de commande, tapez ce qui suit et remplacez **utilisateur1** et **utilisateur2** par des noms d’utilisateur spécifiques que vous souhaitez déplacer et remplacer le nom de **domaine complet du pool\_** par le nom du pool de destination. Dans cet exemple, nous allons déplacer les utilisateurs Hao Chen et Katie Jordan.
+2.  Sur la ligne de commande, tapez ce qui suit et remplacez **utilisateur1** et **utilisateur2** par des noms d’utilisateur spécifiques que vous souhaitez déplacer et remplacer le nom de ** \_ domaine complet du pool** par le nom du pool de destination. Dans cet exemple, nous allons déplacer les utilisateurs Hao Chen et Katie Jordan.
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
@@ -79,7 +79,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool Lync Server 2010 vers
     
         Get-CsUser -Identity "User1"
 
-4.  L’identité du pool de serveurs d' **inscriptions** doit désormais pointer vers le pool que vous avez spécifié comme **nom de domaine complet du pool\_** à l’étape précédente. La présence de cette identité confirme que l’utilisateur a été déplacé avec succès. Répétez cette étape pour vérifier que **User2** a été déplacé.
+4.  L’identité du pool de serveurs d' **inscriptions** doit désormais pointer vers le pool que vous avez spécifié comme **nom de \_ domaine complet du pool** à l’étape précédente. La présence de cette identité confirme que l’utilisateur a été déplacé avec succès. Répétez cette étape pour vérifier que **User2** a été déplacé.
     
     ![Sortie de l’applet de commande PowerShell Get-UsUser-Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Sortie de l’applet de commande PowerShell Get-UsUser-Identity")  
 
@@ -103,7 +103,7 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés au pool Lync Server 
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  L’identité du pool de serveurs d' **inscriptions** pour chaque utilisateur pointe désormais vers le pool que\_vous avez spécifié en tant que « nom de domaine complet du pool » à l’étape précédente. Le présence de cette identité confirme que l’utilisateur a été déplacé avec succès.
+4.  L’identité du pool de serveurs d' **inscriptions** pour chaque utilisateur pointe désormais vers le pool que vous avez spécifié en tant que « \_ nom de domaine complet du pool » à l’étape précédente. Le présence de cette identité confirme que l’utilisateur a été déplacé avec succès.
 
 5.  De plus, nous pouvons afficher la liste des utilisateurs dans le panneau de configuration Lync Server 2013 et vérifier que la valeur de pool de serveurs d’inscriptions pointe désormais vers le pool Lync Server 2013.
     

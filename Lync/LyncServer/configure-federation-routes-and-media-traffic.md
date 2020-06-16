@@ -1,8 +1,8 @@
 ---
 title: Configurer les itinéraires de fédération et le trafic multimédia
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180917"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +65,7 @@ Utilisez les procédures suivantes pour effectuer la transition de l’itinérai
 
 
 > [!IMPORTANT]  
-> Si votre Fédération XMPP est routée via un serveur Edge Lync Server 2013, les utilisateurs hérités de Lync Server 2010 ne seront pas en mesure de communiquer avec le partenaire fédéré XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, les stratégies XMPP et les certificats ont été configuré, le partenaire fédéré XMPP a été configuré sur Lync Server 2013 et les entrées DNS ont été mises à jour.
+> Si votre Fédération XMPP est routée via un serveur Edge Lync Server 2013, les utilisateurs hérités de Lync Server 2010 ne pourront pas communiquer avec le partenaire fédéré XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, les stratégies XMPP et les certificats ont été configurés, le partenaire fédéré XMPP a été configuré sur Lync Server 2013 et les entrées DNS ont été mises
 
 
 
@@ -269,7 +269,7 @@ Utilisez les procédures suivantes pour effectuer la transition de l’itinérai
     
 
     > [!NOTE]  
-    > Si vous n’utilisez pas un équilibreur de charge matérielle, vous devez mettre à jour l’enregistrement A DNS pour que la fédération puisse résoudre le nouveau serveur Edge d’accès Lync Server. Pour ce faire, réduisez la valeur TLL pour le FQDN du serveur Edge d’accès Lync Server externe afin que lorsque le DNS est mis à jour pour pointer vers le nouveau serveur Edge d’accès Lync Server, la fédération et l’accès à distance soient mis à jour rapidement.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

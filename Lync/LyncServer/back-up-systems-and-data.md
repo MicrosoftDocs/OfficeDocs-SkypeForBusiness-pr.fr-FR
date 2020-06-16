@@ -1,8 +1,8 @@
 ---
 title: Sauvegarder les systèmes et les données
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 866effa84453cf313a6eb5117b883410e2a1ed6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14b8257b6748c6b8dc7db0069b7c10d30ca2b73c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181137"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42181137"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-Avant de commencer la migration vers Lync Server 2013, nous vous recommandons vivement d’effectuer une sauvegarde complète du système et de documenter votre système existant, notamment un inventaire des comptes d’utilisateur hébergés sur chaque pool, afin que vous puissiez restaurer Lync Server 2010, le cas échéant. s’avère nécessaire. Plusieurs outils et programmes sont disponibles pour la sauvegarde et la restauration des données, des paramètres et des systèmes.
+Avant de commencer la migration vers Lync Server 2013, nous vous recommandons vivement d’effectuer une sauvegarde complète du système et de documenter votre système existant, notamment un inventaire des comptes d’utilisateur hébergés sur chaque pool, afin que vous puissiez restaurer Lync Server 2010 si cela s’avère nécessaire. Plusieurs outils et programmes sont disponibles pour la sauvegarde et la restauration des données, des paramètres et des systèmes.
 
 Pour plus d’informations et de procédures, reportez-vous à la rubrique [sauvegarde et restauration de Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .
 

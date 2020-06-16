@@ -1,8 +1,8 @@
 ---
 title: Configurer les serveurs d’applications approuvées
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180747"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180747"
 
 _**Dernière modification de la rubrique :** 2012-10-04_
 
-Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvées après avoir fusionné la topologie Office Communications Server héritée avec Lync Server 2013 et que vous définissez un nouveau serveur d’applications approuvées à l’aide du générateur de topologie, vous devez définir le pool de tronçon suivant comme étant un Pool Lync Server 2013. Dans un environnement fusionné, le pool Office Communications Server hérité et le pool Lync Server 2013 apparaissent dans la liste déroulante. La sélection du pool hérité *n’est pas* prise en charge.
+Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvées après avoir fusionné la topologie Office Communications Server héritée avec Lync Server 2013 et que vous définissez un nouveau serveur d’applications approuvées à l’aide du générateur de topologie, vous devez définir le pool de tronçon suivant comme pool Lync Server 2013. Dans un environnement fusionné, le pool Office Communications Server hérité et le pool Lync Server 2013 apparaissent dans la liste déroulante. La sélection du pool hérité *n’est pas* prise en charge.
 
 <div>
 

@@ -1,8 +1,8 @@
 ---
 title: Configurer les itinéraires de fédération et le trafic multimédia
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136091"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754960"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurer les itinéraires de fédération et le trafic multimédia
 
@@ -36,7 +36,7 @@ Utilisez les procédures suivantes pour effectuer la transition de l’itinérai
 
 
 > [!IMPORTANT]  
-> Si votre serveur Edge Office Communications Server 2007 R2 hérité est configuré pour utiliser le même nom de domaine complet pour le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V, les procédures de cette section pour faire passer le paramètre de Fédération à un serveur Edge Lync Server 2013 ne sont pas prises en charge. Si les services Edge hérités sont configurés pour utiliser le même nom de domaine complet, vous devez d’abord migrer tous vos utilisateurs d’Office Communications Server 2007 R2 vers Lync Server 2013, puis désactiver le serveur Edge Office Communications Server 2007 R2 avant d’activer la Fédération sur le serveur Edge Lync Server 2013. Pour plus de détails, consultez les rubriques suivantes : 
+> Si votre serveur Edge Office Communications Server 2007 R2 hérité est configuré pour utiliser le même nom de domaine complet pour le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V, les procédures de cette section pour faire passer le paramètre de Fédération à un serveur Edge Lync Server 2013 ne sont pas prises en charge. Si les services Edge hérités sont configurés pour utiliser le même nom de domaine complet, vous devez d’abord migrer tous vos utilisateurs d’Office Communications Server 2007 R2 vers Lync Server 2013, puis désactivez le serveur Edge Office Communications Server 2007 R2 avant d’activer la Fédération sur le serveur Edge Lync Server 2013. Pour plus de détails, consultez les rubriques suivantes : 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Déplacer les utilisateurs restants vers Lync Server 2013</A></P>
@@ -47,7 +47,7 @@ Utilisez les procédures suivantes pour effectuer la transition de l’itinérai
 
 
 > [!IMPORTANT]  
-> Si votre Fédération XMPP est routée via un serveur Edge Lync Server 2013, les utilisateurs hérités d’Office Communications Server 2007 R2 ne seront pas en mesure de communiquer avec le partenaire fédéré XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, des stratégies XMPP et les certificats ont été configurés, le partenaire fédéré XMPP a été configuré sur Lync Server 2013, et enfin, les entrées DNS ont été mises à jour.
+> Si votre Fédération XMPP est acheminée via un serveur Edge Lync Server 2013, les utilisateurs hérités d’Office Communications Server 2007 R2 ne seront pas en mesure de communiquer avec le partenaire fédéré XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, les stratégies XMPP et les certificats ont été configurés, le partenaire fédéré XMPP a été configuré sur Lync Server 2013
 
 
 
@@ -87,11 +87,11 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
     
     ![Page spécifier le générateur de topologies](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Page spécifier le générateur de topologies")
 
-5.  Dans **Spécifier la configuration Edge externe**, désactivez la case à cocher **Ce pool de serveurs Edge est utilisé pour la fédération et la solution PIC (Public IM Connectivity)**. Cela supprimera l’association de fédération avec le BackCompatSite.
+5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > Cette étape est importante. Vous devez désactiver cette option pour supprimer l’association de fédération héritée.
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
 
 1.  Sur le serveur Office Communications Server 2007 R2 Standard Edition ou le serveur frontal, ouvrez l’outil d’administration Office Communications Server 2007 R2.
 
-2.  Dans le volet gauche, développez le nœud supérieur, puis cliquez avec le bouton droit sur le nœud **Forêt**. Sélectionnez **Propriétés**, puis cliquez sur **Propriétés globales**.
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  Cliquez sur l’onglet **Fédération**.
 

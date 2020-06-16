@@ -1,8 +1,8 @@
 ---
 title: Applets de commande dans Skype entreprise Online qui utilisent uniquement l’étendue globale
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4a894c4a9c6e2913abb003c49094bc6d6868483
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001249"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755096"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Applets de commande dans Skype entreprise Online qui utilisent uniquement l’étendue globale
 
@@ -82,7 +82,7 @@ Deuxièmement, l’applet de commande **Remove-CsVoicePolicy** ne supprime pas r
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>False</p></td>
+<td><p>Faux</p></td>
 <td><p>Valeur par défaut</p></td>
 </tr>
 <tr class="even">
@@ -90,7 +90,7 @@ Deuxièmement, l’applet de commande **Remove-CsVoicePolicy** ne supprime pas r
 <td><p>Après la modification de la stratégie globale</p></td>
 </tr>
 <tr class="odd">
-<td><p>False</p></td>
+<td><p>Faux</p></td>
 <td><p>Après l’exécution de la cmdlet <strong>Remove-CsVoicePolicy</strong></p></td>
 </tr>
 </tbody>

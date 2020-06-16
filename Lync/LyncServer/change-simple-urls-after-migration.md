@@ -1,8 +1,8 @@
 ---
-title: Modifier les URL simples après la migration
+title: Modification des URL simples après la migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: def26afe2bae21a7a3b6d0ffae4b358c76296e6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181027"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181027"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>Modifier les URL simples après la migration
+# <a name="change-simple-urls-after-migration"></a>Modification des URL simples après la migration
 
 </div>
 
@@ -40,9 +40,9 @@ _**Dernière modification de la rubrique :** 2012-09-22_
 
 Lync Server prend en charge trois URL simples :
 
-  - **Meet** qui est l’URL de réunion de base pour toutes les conférences dans le site ou l’organisation. Avec l’URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre, à communiquer et à distribuer.
+  - **Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.
 
-  - **Dial-in** qui permet d’accéder à la page web Paramètres de conférence rendez-vous. L’URL simple Dial-in est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires.
+  - **Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.
 
   - L' **administrateur** permet un accès rapide au panneau de configuration Lync Server. L’URL simple d’administration est interne à votre organisation.
 
@@ -70,7 +70,7 @@ Après avoir effectué la migration vers Lync Server 2013, vous devez savoir com
     
 
     > [!TIP]  
-    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <STRONG> https://admin.</STRONG> &lt;domaine&gt;.
+    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <STRONG> https://admin .</STRONG> &lt; domaine &gt; .
 
     
     </div>
