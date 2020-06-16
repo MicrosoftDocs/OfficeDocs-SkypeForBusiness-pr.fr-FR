@@ -1,8 +1,8 @@
 ---
 title: Configurer le profil utilisateur
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure User Profile
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c53f156aee56aa1986302bf2ff2514aef78af592
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6615e283e0e426e738cd3cdaf714dd90f57b393e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188757"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Les outils inclus dans le package d’outils de contrainte et de performances de
 
 ## <a name="running-the-lync-server-2013-load-configuration-tool"></a>Exécution de l’outil de configuration de chargement Lync Server 2013
 
-Pour configurer les profils utilisateur, exécutez l’outil de configuration de chargement Lync Server 2013 (UserProfileGenerator. exe) et renseignez chacun des onglets. UserProfileGenerator. exe génère un répertoire pour chacun des ordinateurs clients dont vous avez besoin pour exécuter la simulation. Chaque annuaire client est également fourni avec un script pour démarrer toutes les instances de l’outil de contrainte et performances de Lync Server 2013 (LyncPerfTool. exe).
+Pour configurer les profils utilisateur, exécutez l’outil de configuration de chargement (UserProfileGenerator.exe) de Lync Server 2013 et renseignez chacun des onglets. UserProfileGenerator.exe génère un répertoire pour chacun des ordinateurs clients dont vous avez besoin pour exécuter la simulation. Chaque annuaire client est également fourni avec un script pour démarrer toutes les instances de l’outil de contrainte et performance Lync Server 2013 (LyncPerfTool.exe).
 
 <div>
 
@@ -65,13 +65,13 @@ L’onglet **configuration commune** de l’outil de configuration de chargement
 
 ![Onglet Configuration commune.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Onglet Configuration commune.")
 
-1.  Dans **nombre d’ordinateurs disponibles**, tapez ou cliquez sur le nombre d’ordinateurs que vous souhaitez utiliser pour exécuter LyncPerfTool. exe. Nous vous recommandons de disposer d’un ordinateur pour chaque 4 500 utilisateurs que vous simulerez. Ce nombre peut varier si vous réduisez le niveau de charge ou si vous utilisez uniquement un sous-ensemble des fonctionnalités disponibles. (Les niveaux de charge sont définis sous l’onglet **scénarios généraux** .)
+1.  Dans **nombre d’ordinateurs disponibles**, tapez ou cliquez sur le nombre d’ordinateurs que vous souhaitez utiliser pour exécuter LyncPerfTool.exe. Nous vous recommandons de disposer d’un ordinateur pour chaque 4 500 utilisateurs que vous simulerez. Ce nombre peut varier si vous réduisez le niveau de charge ou si vous utilisez uniquement un sous-ensemble des fonctionnalités disponibles. (Les niveaux de charge sont définis sous l’onglet **scénarios généraux** .)
 
-2.  Dans **préfixe pour les noms d’utilisateur**, tapez le préfixe du nom d’utilisateur des utilisateurs. Pour se connecter, l’URI (Uniform Resource Identifier) est : index de\[démarrage de l’utilisateur UserPrefix... (Nombre d’utilisateurs-1) \]@User domaine.
+2.  Dans **préfixe pour les noms d’utilisateur**, tapez le préfixe du nom d’utilisateur des utilisateurs. Pour se connecter, l’URI (Uniform Resource Identifier) est : index de \[ démarrage de l’utilisateur UserPrefix... (Nombre d’utilisateurs-1) \] @User domaine.
 
 3.  Dans **mot de passe pour tous les utilisateurs**, entrez le mot de passe utilisé pour créer les utilisateurs. Si vous laissez ce champ vide, le nom d’utilisateur sera utilisé comme mot de passe.
 
-4.  Dans **index de démarrage**de l’utilisateur, cliquez sur ou tapez l’index du premier utilisateur à configurer. Vous pouvez configurer des plages différentes pour différents types ou niveaux de charge, mais vous devez exécuter UserProfileGenerator. exe une fois par plage que vous souhaitez configurer.
+4.  Dans **index de démarrage**de l’utilisateur, cliquez sur ou tapez l’index du premier utilisateur à configurer. Vous pouvez configurer des plages différentes pour différents types ou niveaux de charge, mais vous devez exécuter UserProfileGenerator.exe une fois par plage que vous souhaitez configurer.
 
 5.  Dans **nombre d’utilisateurs**, cliquez sur ou tapez le nombre total d’utilisateurs que vous allez configurer.
 
@@ -79,7 +79,7 @@ L’onglet **configuration commune** de l’outil de configuration de chargement
 
 7.  Dans **domaine de compte**, tapez connexion au domaine des services de domaine Active Directory.
 
-8.  Entrez le nombre maximal de points de terminaison simultanés dans **se connecter par seconde (par instance)** pour lesquels l’outil doit se connecter à tous les points de terminaison/utilisateurs. Le taux recommandé est \<= 2 par seconde/standard SKU Fe.
+8.  Entrez le nombre maximal de points de terminaison simultanés dans **se connecter par seconde (par instance)** pour lesquels l’outil doit se connecter à tous les points de terminaison/utilisateurs. Le taux recommandé est \< = 2 par seconde/standard SKU Fe.
 
 9.  Dans le proxy d’accès ou le nom de **domaine complet du pool**, tapez le nom de domaine complet (FQDN) du serveur auquel vous souhaitez que les clients se connectent. Si les utilisateurs se connectent en externe, spécifiez le proxy d’accès. Si les utilisateurs sont internes, spécifiez le nom de domaine complet (FQDN) de leur pool ou serveur Standard Edition Server.
 
@@ -116,7 +116,7 @@ Configurez les niveaux de charge et les paramètres pour chaque scénario géné
 
 4.  Dans la **collaboration de données**, qui inclut la Conférence de données, spécifiez la valeur appropriée pour le niveau de charge.
 
-5.  Dans **expansion**de la liste de distribution, spécifiez la valeur appropriée pour le niveau de charge. Vous devez également cliquer sur le bouton **avancé** , puis renseignez les champs avec les mêmes valeurs que celles configurées dans l’onglet **liste de distribution** de l’outil de création d’utilisateurs Lync Server (UserProvisioningTool. exe). Pour plus d’informations sur ces champs, voir [Create Users and contacts](create-users-and-contacts.md) .
+5.  Dans **expansion**de la liste de distribution, spécifiez la valeur appropriée pour le niveau de charge. Vous devez également cliquer sur le bouton **avancé** , puis renseignez les champs avec les mêmes valeurs que celles configurées dans l’onglet **liste de distribution** de l’outil de création d’utilisateurs Lync Server (UserProvisioningTool.exe). Pour plus d’informations sur ces champs, voir [Create Users and contacts](create-users-and-contacts.md) .
 
 6.  Dans la **requête Web du carnet d'** adresses, qui est le service de recherche de carnet d’adresses (et non le téléchargement du fichier de carnet d’adresses), spécifiez la valeur appropriée pour le niveau de charge. Pour activer les téléchargements de carnet d’adresses, cliquez sur le bouton **avancé** correspondant, puis définissez **EnableABSDownload** sur true.
 
@@ -207,7 +207,7 @@ Utilisez l’onglet **mobilité** pour configurer tous les scénarios liés à l
 
 1.  Cliquez sur le bouton **avancé** en regard de **mobilité (UCWA)**. Définissez le champ **UcwaTargetServerUrl** sur l’adresse IP virtuelle du pool directeur ou sur l’adresse IP virtuelle du pool frontal.
 
-2.  Dans la **présence et l’audio\\de la messagerie instantanée P2P**, sélectionnez la valeur appropriée pour le **niveau de charge** pour activer la simulation de scénario de mobilité.
+2.  Dans la **présence et l' \\ audio de la messagerie instantanée P2P**, sélectionnez la valeur appropriée pour le **niveau de charge** pour activer la simulation de scénario de mobilité.
 
 <div>
 
@@ -229,7 +229,7 @@ L’onglet **Résumé** de l’outil de configuration de chargement de Lync Serv
 
 ![Onglet Résumé.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Onglet Résumé.")
 
-L’onglet **Résumé** indique les utilisateurs à utiliser pour chacun des scénarios. Il est possible de configurer manuellement des plages de numéros d’utilisateur en activant la case à cocher **activer la génération personnalisée** de la plage d’utilisateurs, puis en double-cliquant sur le scénario dans le tableau qui contient la **plage d’utilisateurs** que vous souhaitez personnaliser. Check (RunClient. bat) ajoutez un retard de connexion au démarrage, afin d’inclure des retards dans les fichiers de commandes générés pour correspondre au taux de connexion. Ceci est utile pour empêcher la surcharge de serveur lors de la connexion d’un grand nombre d’utilisateurs. Cliquez sur **générer des fichiers**, puis sélectionnez le dossier où vous souhaitez générer la configuration. Une boîte de dialogue semblable à la figure suivante apparaît lorsque les fichiers ont été correctement créés.
+L’onglet **Résumé** indique les utilisateurs à utiliser pour chacun des scénarios. Il est possible de configurer manuellement des plages de numéros d’utilisateur en activant la case à cocher **activer la génération personnalisée** de la plage d’utilisateurs, puis en double-cliquant sur le scénario dans le tableau qui contient la **plage d’utilisateurs** que vous souhaitez personnaliser. Vérifiez (RunClient.bat) ajoutez un retard de connexion au démarrage, afin d’inclure des retards dans les fichiers de commandes générés pour correspondre au taux de connexion. Ceci est utile pour empêcher la surcharge de serveur lors de la connexion d’un grand nombre d’utilisateurs. Cliquez sur **générer des fichiers**, puis sélectionnez le dossier où vous souhaitez générer la configuration. Une boîte de dialogue semblable à la figure suivante apparaît lorsque les fichiers ont été correctement créés.
 
 ![Accusé de réception de la création de fichiers.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Accusé de réception de la création de fichiers.")
 

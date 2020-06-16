@@ -1,8 +1,8 @@
 ---
-title: 'Phase 7 : effectuer les tâches postérieures à la migration'
+title: 'Étape 7 : Exécuter les tâches post-migration'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 7: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d42207ecff45a66f2b8fb4d88abb69483504c644
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcf827412104bcfc8b6c3fe2b58378ecab8ad7bf
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209560"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209560"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>Phase 7 : effectuer les tâches postérieures à la migration
+# <a name="phase-7-complete-post-migration-tasks"></a>Étape 7 : Exécuter les tâches post-migration
 
 </div>
 
@@ -43,27 +43,27 @@ Les rubriques de cette section décrivent les tâches que vous devrez effectuer 
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Migration de réunions et de contenu de réunion existants](migrate-existing-meetings-and-meeting-content.md)
+  - [Migration des réunions existantes et du contenu des réunions](migrate-existing-meetings-and-meeting-content.md)
 
-  - [Migration des numéros d’accès entrant](migrate-dial-in-access-numbers.md)
+  - [Migrer les numéros d’accès entrant](migrate-dial-in-access-numbers.md)
 
-  - [Migrer les paramètres d’application de parcage d’appel](migrate-call-park-application-settings.md)
+  - [Migration des paramètres d’application de parcage d’appel](migrate-call-park-application-settings.md)
 
-  - [Effectuer la migration de groupes Response Group](migrate-response-groups.md)
+  - [Migrer des groupes Response Group](migrate-response-groups.md)
 
-  - [Faire migrer le carnet d’adresses](migrate-address-book.md)
+  - [Migrer le carnet d’adresses](migrate-address-book.md)
 
-  - [Configurer la page de participation aux réunions](configure-the-meeting-join-page.md)
+  - [Configuration de la page de participation à une réunion](configure-the-meeting-join-page.md)
 
-  - [Supprimer les serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers.md)
+  - [Suppression des serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [Configurer des serveurs d’applications approuvées](configure-trusted-application-servers.md)
+  - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers.md)
 
   - [Déployer les clients Lync Server 2013](deploy-lync-server-2013-clients.md)
 
-  - [Connexion d’un Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
+  - [Connexion d’une Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
 
-  - [Configurer la surveillance SCOM](configure-scom-monitoring.md)
+  - [Configuration de la surveillance SCOM](configure-scom-monitoring.md)
 
   - [Migration des téléphones de partie commune](migrate-common-area-phones.md)
 

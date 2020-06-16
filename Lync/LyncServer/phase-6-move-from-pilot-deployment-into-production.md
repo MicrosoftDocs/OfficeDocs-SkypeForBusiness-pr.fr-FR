@@ -1,8 +1,8 @@
 ---
-title: 'Phase 6 : passer d’un déploiement pilote en production'
+title: 'Phase 6 : Transition d’un déploiement pilote vers un environnement de production'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65324bc20d47bf12804c045a3c1beb62134fd5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189647"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189647"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6 : passer d’un déploiement pilote en production
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6 : Transition d’un déploiement pilote vers un environnement de production
 
 </div>
 
@@ -43,11 +43,11 @@ Les rubriques de cette section décrivent les tâches que vous devez effectuer a
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configurer les itinéraires de fédération et le trafic multimédia](configure-federation-routes-and-media-traffic.md)
+  - [Configuration des itinéraires de fédération et du trafic multimédia](configure-federation-routes-and-media-traffic.md)
 
-  - [Vérifier la Fédération et l’accès à distance pour les utilisateurs externes](verify-federation-and-remote-access-for-external-users.md)
+  - [Vérifier la fédération et l’accès à distance pour les utilisateurs externes](verify-federation-and-remote-access-for-external-users.md)
 
-  - [Modifier les URL simples après la migration](change-simple-urls-after-migration.md)
+  - [Modification des URL simples après la migration](change-simple-urls-after-migration.md)
 
   - [Déplacer les utilisateurs restants vers Lync Server 2013](move-remaining-users-to-lync-server-2013.md)
 

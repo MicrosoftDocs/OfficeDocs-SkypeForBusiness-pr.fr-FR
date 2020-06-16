@@ -1,8 +1,8 @@
 ---
 title: Transition d’un serveur de médiation colocalisé à un serveur de médiation autonome (facultatif)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189157"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ Appliquez la procédure qui suit pour effectuer la transition de votre serveur d
 
 3.  Cliquez avec le bouton droit sur **Pools de médiation**, puis cliquez sur **Nouveau serveur de médiation**.
 
-4.  Dans la page **Définir un nouveau pool de médiation**, spécifiez le nom de domaine complet du nouveau pool de serveurs de médiation. Indiquez également s’il s’agit d’un pool de serveur unique ou de plusieurs serveurs, puis cliquez sur **Suivant**.
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  Sélectionnez le pool de serveurs frontaux du tronçon suivant vers lequel le nouveau serveur de médiation acheminera les appels entrants, puis cliquez sur **Suivant**.
 
 6.  Sélectionnez le pool Edge que doit utiliser le serveur de médiation, puis cliquez sur **Suivant**.
 
-7.  Dans la page **Spécifier des passerelles PSTN**, associez la passerelle PSTN précédente au serveur de médiation. Sélectionnez la passerelle, puis cliquez sur **Ajouter**.
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  Cliquez sur **Terminer** pour fermer l’Assistant **Définir un nouveau pool de médiation**.
 

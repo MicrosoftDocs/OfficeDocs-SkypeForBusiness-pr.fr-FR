@@ -1,8 +1,8 @@
 ---
 title: Exécuter la compatibilité descendante pour le serveur de conversation permanente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d107c13d281001196dcad17604d0bfbbb9e522
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189337"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42189337"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Le point de terminaison Lync Server 2013, persistent Chat Server permet de créer une URL simple qui pointe vers un pool de serveurs de conversation permanente. Cette fonctionnalité est utile pour les clients hérités (serveur de conversation de groupe Microsoft Office Communications Server 2007 R2 ou Lync Server 2010, conversation de groupe), car les utilisateurs peuvent entrer une URL simple dans la configuration manuelle lorsqu’ils tentent de faire pointer le client hérité vers un ordinateur exécutant Lync 2013 Conversation permanente. Ce point de terminaison n’est pas utilisé par la conversation permanente et est requis uniquement pour les clients hérités. Cela est utile pour la période intermédiaire où les salles peuvent être migrées, mais les clients Lync 2013 n’ont pas été déployés au sein de l’organisation. Les utilisateurs exécutant Lync 2010 Group chat (client) peuvent toujours se connecter au serveur principal du serveur de conversation permanente.
+Le point de terminaison Lync Server 2013, persistent Chat Server permet de créer une URL simple qui pointe vers un pool de serveurs de conversation permanente. Cette fonctionnalité est utile pour les clients hérités (serveur de conversation de groupe Microsoft Office Communications Server 2007 R2 ou Lync Server 2010, conversation de groupe), car les utilisateurs peuvent entrer une URL simple dans la configuration manuelle lorsqu’ils tentent de faire pointer le client hérité vers un ordinateur exécutant Lync 2013, conversation permanente. Ce point de terminaison n’est pas utilisé par la conversation permanente et est requis uniquement pour les clients hérités. Cela est utile pour la période intermédiaire où les salles peuvent être migrées, mais les clients Lync 2013 n’ont pas été déployés au sein de l’organisation. Les utilisateurs exécutant Lync 2010 Group chat (client) peuvent toujours se connecter au serveur principal du serveur de conversation permanente.
 
 Vous n’avez pas besoin de créer plusieurs points de terminaison de serveur de conversation permanente ; il vous suffit d’en avoir un pour chaque pool de serveurs de conversation permanente. Les administrateurs peuvent créer plusieurs points de terminaison (un par pool), mais les clients hérités peuvent être configurés pour se connecter à un seul pool à la fois. Dans le scénario classique ou standard, le déploiement hérité est un seul pool. Un nouveau déploiement migre généralement ce pool vers un nouveau Lync Server 2013 et peut ajouter des pools de serveurs de conversation permanente supplémentaires.
 
 Ce scénario standard suit généralement ce modèle :
 
-  - Vous administrez les utilisateurs avec un pool Lync Server 2010, Group chat et vos clients Lync 2010 Group chat se connectent à ce pool à l’aide d’un utilisateur connu (soit\<SIP\>par défaut : OCSChat@ nom_domaine. com, soit similaire). Les utilisateurs sont des services de domaine Active Directory compatibles SIP, et le service de recherche s’inscrit auprès de ces derniers pour recevoir des demandes entrantes.
+  - Vous administrez les utilisateurs avec un pool Lync Server 2010, Group chat et vos clients Lync 2010 Group chat se connectent à ce pool à l’aide d’un utilisateur connu (SIP par défaut : ocschat@ \<domainName\> . com ou similaire). Les utilisateurs sont des services de domaine Active Directory compatibles SIP, et le service de recherche s’inscrit auprès de ces derniers pour recevoir des demandes entrantes.
 
   - Par la suite, vous installez un serveur de conversation permanente Lync Server 2013 et un pool de serveurs de conversation permanente.
 

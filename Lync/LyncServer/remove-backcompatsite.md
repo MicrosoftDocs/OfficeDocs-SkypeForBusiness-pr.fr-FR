@@ -1,8 +1,8 @@
 ---
 title: Supprimer BackCompatSite
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove BackCompatSite
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d41d333e834dba34da2a1a04854571d721e94e38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209446"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ Une fois tous les pools désactivés et tous les serveurs Edge désinstallés, e
 
 3.  Cliquez sur **Suivant** pour continuer.
 
-4.  Dans la page **Spécifier la configuration Edge héritée**, vérifiez que la liste des serveurs Edge est vide. Si elle ne l’est pas, utilisez le bouton **Supprimer** pour supprimer tous les serveurs Edge hérités, puis cliquez sur **Suivant**.
+4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
     
     ![Assistant fusion de topologies, spécifier la page Configuration du serveur Edge](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistant fusion de topologies, spécifier la page Configuration du serveur Edge")  
 

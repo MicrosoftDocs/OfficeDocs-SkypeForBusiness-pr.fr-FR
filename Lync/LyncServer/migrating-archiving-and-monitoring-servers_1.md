@@ -1,8 +1,8 @@
 ---
 title: Migration des serveurs d’archivage et de surveillance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67896576fce21eea630533a5826bbcbc53392fa0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209850"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Si vous voulez que les fonctionnalités d’archivage et de surveillance soient 
     
 
     > [!NOTE]  
-    > Pendant la phase de migration, lorsque vous utilisez toujours votre serveur Edge hérité avec le nouveau pool pilote Lync Server 2013, la version Office Communications Server 2007 R2 du serveur d’archivage continue de collecter des données pour les utilisateurs hébergés sur Office Communications Server 2007 Les pools R2 et la version Lync Server 2013 du serveur d’archivage collectent des données pour les utilisateurs hébergés sur des pools Lync Server 2013.
+    > Pendant la phase de migration, lorsque vous utilisez toujours votre serveur Edge hérité avec le nouveau pool pilote Lync Server 2013, la version Office Communications Server 2007 R2 du serveur d’archivage continue de collecter des données pour les utilisateurs hébergés sur des pools Lync Server 2007 et la version Lync Server 2013 du serveur d’archivage recueille des données pour les utilisateurs hébergés sur les pools Lync Server 2013.
 
     
     </div>

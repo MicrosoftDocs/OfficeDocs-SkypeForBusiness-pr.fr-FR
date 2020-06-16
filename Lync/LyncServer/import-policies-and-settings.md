@@ -1,8 +1,8 @@
 ---
 title: Importer des stratégies et des paramètres
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Import policies and settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dde4cfdc2f027c095cd6ad95582a130d047d3c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c6a56f1a622aca4d3f50565bc86528cf474c845
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198927"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42198927"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Après avoir fusionné les informations de topologie Office Communications Server 2007 R2 avec votre pool pilote Lync Server 2013, vous devez exécuter une cmdlet Lync Server 2013 Management Shell pour migrer vos stratégies et paramètres de configuration Office Communications Server 2007 R2. à votre pool pilote Lync Server 2013.
+Après avoir fusionné les informations de topologie Office Communications Server 2007 R2 avec votre pool pilote Lync Server 2013, vous devez exécuter une cmdlet Lync Server 2013 Management Shell pour migrer vos stratégies et paramètres de configuration Office Communications Server 2007 R2 vers votre pool de pilote Lync Server 2013.
 
 L’applet de commande **Import-applet cslegacyconfiguration** importe des stratégies, des itinéraires de communications vocales, des plans de numérotation, des URL d’Office Communicator Web Access et des numéros d’accès entrant vers Lync Server 2013.
 

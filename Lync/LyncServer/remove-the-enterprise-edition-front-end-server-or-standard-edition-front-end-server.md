@@ -1,8 +1,8 @@
 ---
 title: Supprimer le serveur frontal Enterprise Edition ou le serveur frontal Standard Edition
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37091a4cc89b64f03697f7ac44a7cc45ff39070e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 461a7868d0c8a6c00df8dba67ed0135a100d4e84
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189447"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +43,9 @@ Les procédures décrites dans cette rubrique sont destinées à vous guider tou
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Réinitialiser le contrôle d’admission des appels](reset-call-admission-control.md)
+  - [Réinitialisation du contrôle d’admission des appels](reset-call-admission-control.md)
 
-  - [Empêcher les sessions pour les services](prevent-sessions-for-services.md)
+  - [Empêcher l’exécution de sessions de services](prevent-sessions-for-services.md)
 
   - [Arrêter les services Lync Server 2010](stop-lync-server-2010-services.md)
 

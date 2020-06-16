@@ -1,8 +1,8 @@
 ---
 title: Phases de migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189977"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Les phases suivantes décrivent le processus de migration d’un pool de Lync Se
 
 1.  [Phase 1 : planification de la migration à partir de Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-2.  [Phase 2 : préparer la migration](phase-2-prepare-for-migration.md)
+2.  [Étape 2 : Préparer la migration](phase-2-prepare-for-migration.md)
 
 3.  [Phase 3 : déployer le pool pilote Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -53,11 +53,11 @@ Les phases suivantes décrivent le processus de migration d’un pool de Lync Se
 
 5.  [Phase 5 : ajouter le serveur Edge Lync Server 2013 au pool pilote](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [Phase 6 : passer d’un déploiement pilote en production](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [Phase 6 : Transition d’un déploiement pilote vers un environnement de production](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [Phase 7 : effectuer les tâches postérieures à la migration](phase-7-complete-post-migration-tasks.md)
+7.  [Étape 7 : Exécuter les tâches post-migration](phase-7-complete-post-migration-tasks.md)
 
-8.  [Phase 8 : désactiver les pools hérités](phase-8-decommission-legacy-pools.md)
+8.  [Étape 8 : Mettre des pools hérités hors service](phase-8-decommission-legacy-pools.md)
 
 </div>
 

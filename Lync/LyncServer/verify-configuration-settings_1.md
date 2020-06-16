@@ -1,8 +1,8 @@
 ---
 title: Vérifier les paramètres de configuration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188977"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +95,7 @@ Après avoir fusionné la topologie et exécuté l’applet de commande **Import
 
 ## <a name="to-verify-policies-and-settings"></a>Pour vérifier les stratégies et les paramètres
 
-1.  Dans votre environnement Office Communications Server 2007 R2, notez les noms des plans de numérotation (anciennement appelés profils d’emplacement), les numéros d’accès entrant (numéros de téléphone et régions), les itinéraires des communications vocales et les stratégies répertoriées dans le tableau précédent, en plus des URL utilisées pour Communicator Web Access.
+1.  Dans votre environnement Office Communications Server 2007 R2, notez les noms des plans de numérotation (anciennement appelés profils d’emplacement), les numéros d’accès entrant (numéros de téléphone et régions), les itinéraires de communications vocales et les stratégies répertoriées dans le tableau précédent, ainsi que les URL utilisées pour Office Communicator Web Access.
 
 2.  Sur le serveur frontal Lync Server 2013, ouvrez le panneau de configuration Lync Server.
 

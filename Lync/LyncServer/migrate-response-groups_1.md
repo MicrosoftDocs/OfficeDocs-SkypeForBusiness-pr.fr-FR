@@ -1,8 +1,8 @@
 ---
 title: Effectuer la migration de groupes Response Group
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190147"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +73,7 @@ Pour migrer des groupes Response Group d’un pool hérité vers le Lync Server 
 
 </div>
 
-Après avoir migré les groupes Response Group, vous devez mettre à jour l’URL utilisée par les agents formels pour se connecter à leurs groupes Response Group et les déconnecter, et utiliser le panneau de configuration Lync Server ou les applets de commande Lync Server Management Shell pour vérifier que tous les groupes d’agents, files d’attente et flux de travail sont déplacés. exécuté.
+Après avoir migré les groupes Response Group, vous devez mettre à jour l’URL utilisée par les agents formels pour se connecter à leurs groupes Response Group et les déconnecter, et utiliser le panneau de configuration Lync Server ou les cmdlets Lync Server Management Shell pour vérifier que tous les groupes d’agents, files d’attente et flux de travail ont été déplacés avec succès.
 
 <div>
 
@@ -127,13 +127,13 @@ La procédure qui suit pour la migration des configurations Response Group suppo
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Si vous avez déployé l’onglet Response Group pour Microsoft Office Communicator 2007 R2 dans votre environnement Office Communications Server 2007 R2, supprimez l’onglet du fichier Office Communicator 2007 R2 Tabs. Xml.
+5.  Si vous avez déployé l’onglet Response Group pour Microsoft Office Communicator 2007 R2 dans votre environnement Office Communications Server 2007 R2, supprimez l’onglet du fichier Office Communicator 2007 R2 tabs.xml.
     
     <div>
     
 
     > [!NOTE]  
-    > Les agents formels ont utilisé l’onglet Response Group pour se connecter à leurs groupes de réponses avant de pouvoir recevoir des appels. Si vous avez déployé l’onglet Response Group, vous avez choisi l’emplacement du fichier Office Communicator 2007 R2 Tabs. xml lors de son déploiement.
+    > Les agents formels ont utilisé l’onglet Response Group pour se connecter à leurs groupes de réponses avant de pouvoir recevoir des appels. Si vous avez déployé l’onglet Response Group, vous avez choisi l’emplacement du fichier Office Communicator 2007 R2 tabs.xml lors de son déploiement.
 
     
     </div>
@@ -144,7 +144,7 @@ La procédure qui suit pour la migration des configurations Response Group suppo
     
 
     > [!NOTE]  
-    > L’URL est généralement https://webpoolFQDN/RgsClients/Tab.aspx, où webpoolfqdn représente est le nom de domaine complet (FQDN) du pool de sites Web associé au pool que vous venez de migrer vers Lync Server 2013.
+    > L’URL est généralement https://webpoolFQDN/RgsClients/Tab.aspx , où webpoolfqdn représente est le nom de domaine complet (FQDN) du pool de sites Web associé au pool que vous venez de migrer vers Lync Server 2013.
 
     
     </div>

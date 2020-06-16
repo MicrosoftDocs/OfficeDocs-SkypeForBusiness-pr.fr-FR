@@ -1,8 +1,8 @@
 ---
 title: Applets de commande de création de rapports Skype entreprise Online et service Web REST
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189177"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Les applets de commande de création de rapports disponibles pour les administra
 
   - Get-Csp2psessionreport permet, qui fournit des informations sur le nombre et le type de sessions P2P auxquelles les utilisateurs ont participé.
 
-La plupart des administrateurs utilisent les rapports disponibles dans le centre d’administration 365 de Microsoft : non seulement les rapports sont générés automatiquement, mais ils fournissent également une représentation graphique des données souvent plus facile à interpréter que les valeurs numériques brutes renvoyées par le applets de commande de création de rapports. Toutefois, les administrateurs habitués à Windows PowerShell peuvent utiliser les applets de commande de création de rapports pour renvoyer des données qui ne sont pas immédiatement disponibles à partir des rapports Lync Online. Par exemple, les applets de commande de création de rapports renvoient des informations sur la durée de la session (la durée, en minutes, de chaque session). Les durées de session individuelles ne sont pas disponibles à l’aide des rapports Lync Online. De même, dans l’affichage quotidien, les rapports Lync Online affichent des informations uniquement pour les 14 jours précédents. Si vous souhaitez passer en revue les totaux quotidiens pour un autre jour (par exemple, une date comprise entre quatre mois), vous pouvez le faire à l’aide des applets de commande de création de rapports.
+La plupart des administrateurs utilisent les rapports disponibles dans le centre d’administration 365 de Microsoft : non seulement les rapports sont générés automatiquement, mais ils fournissent également une représentation graphique des données souvent plus facile à interpréter que les valeurs numériques brutes renvoyées par les applets de commande de création de rapports. Toutefois, les administrateurs habitués à Windows PowerShell peuvent utiliser les applets de commande de création de rapports pour renvoyer des données qui ne sont pas immédiatement disponibles à partir des rapports Lync Online. Par exemple, les applets de commande de création de rapports renvoient des informations sur la durée de la session (la durée, en minutes, de chaque session). Les durées de session individuelles ne sont pas disponibles à l’aide des rapports Lync Online. De même, dans l’affichage quotidien, les rapports Lync Online affichent des informations uniquement pour les 14 jours précédents. Si vous souhaitez passer en revue les totaux quotidiens pour un autre jour (par exemple, une date comprise entre quatre mois), vous pouvez le faire à l’aide des applets de commande de création de rapports.
 
 Les administrateurs peuvent également être intéressés par l’article [utilisant Excel pour récupérer des données de création de rapports office 365](https://msdn.microsoft.com/library/dn781442.aspx), qui expliquent comment utiliser la fonctionnalité requête de données OData dans Microsoft Excel pour créer des rapports Office 365 personnalisés. Les rapports personnalisés vous permettent de déterminer les données (et la capacité de données) renvoyées par le service de création de rapports Office 365. Les rapports personnalisés vous permettent également d’effectuer des opérations telles que la spécification du mode de tri et de regroupement des données, ainsi que l’accès aux informations qui ne sont pas affichées dans le centre d’administration.
 

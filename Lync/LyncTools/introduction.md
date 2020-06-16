@@ -1,8 +1,8 @@
 ---
 title: Introduction
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Introduction
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 912c6a1704438106a3ffbb178d9f03a536489757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 354f28948578be528787928fd4e0874f6ff8e5fa
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204560"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -112,15 +112,15 @@ Les applications suivantes sont incluses dans l’outil de contrainte et de perf
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UserProvisioningTool. exe</p></td>
+<td><p>UserProvisioningTool.exe</p></td>
 <td><p>Outil de mise en service utilisateur Lync Server 2013. Cet outil permet de créer des utilisateurs et des contacts.</p></td>
 </tr>
 <tr class="even">
-<td><p>UserProfileGenerator. exe</p></td>
+<td><p>UserProfileGenerator.exe</p></td>
 <td><p>L’outil de configuration de chargement Lync Server 2013. Cet outil permet de configurer les caractéristiques de la charge utilisateur à simuler.</p></td>
 </tr>
 <tr class="odd">
-<td><p>LyncPerfTool. exe</p></td>
+<td><p>LyncPerfTool.exe</p></td>
 <td><p>L’outil de contrainte et de performances de Lync Server 2013. LyncPerfTool est l’outil qui simule la charge utilisateur.</p></td>
 </tr>
 <tr class="even">

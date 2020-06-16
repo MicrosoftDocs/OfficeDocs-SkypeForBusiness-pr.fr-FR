@@ -1,8 +1,8 @@
 ---
 title: Créer des utilisateurs et des contacts
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Create Users and Contacts
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b8016079cd130a814da410df5e5a5b151d8702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188687"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755478"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42188687"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Vous devez utiliser l’outil de mise en service utilisateur Lync Server 2013 (UserProvisioningTool. exe) pour créer des utilisateurs et des contacts en vue de préparer le test de charge de stress et de performances.
+Vous devez utiliser l’outil de mise en service utilisateur Lync Server 2013 (UserProvisioningTool.exe) pour créer des utilisateurs et des contacts en vue de préparer le test de charge des performances et de la contrainte.
 
 Voici une liste des termes et des définitions que vous pouvez trouver utiles lors de la lecture de cette rubrique.
 
   - Unité d’organisation : l’unité d’organisation des services de domaine Active Directory.
 
-  - Fédérés/interpools : utilisateurs qui seront autorisés à communiquer avec des utilisateurs à partir d’autres services de messagerie instantanée, tels que MSN Network of Internet Services, AOL® et Yahoo\!®.
+  - Fédérés/interpools : utilisateurs qui seront autorisés à communiquer avec des utilisateurs à partir d’autres services de messagerie instantanée, tels que MSN Network of Internet Services, AOL® et Yahoo \! ®.
 
   - Listes de distribution : objets des services de domaine Active Directory qui contiennent une liste des utilisateurs des services de domaine Active Directory, utilisés pour lancer des communications avec des groupes de personnes.
 
@@ -53,15 +53,15 @@ Voici une liste des termes et des définitions que vous pouvez trouver utiles lo
 
 <div>
 
-## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Créer des utilisateurs et des contacts à l’aide de UserProvisioningTool. exe
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Créer des utilisateurs et des contacts à l’aide de UserProvisioningTool.exe
 
-Vous devez utiliser l’outil de mise en service d’utilisateur Lync Server pour créer des utilisateurs et des contacts pour la simulation de charge. L’outil de mise en service des utilisateurs Lync Server est installé avec le package d’outils de performances et de stress de Lync Server. Assurez-vous que le programme d’installation du package (CapacityPlanningTool. msi) a été exécuté sur le serveur frontal ou le serveur Standard Edition. Démarrez l’outil de mise en service des utilisateurs Lync Server en exécutant le fichier UserProvisioningTool. exe (situé dans le dossier\\% InstalledDirectory% LyncStressAndPerfTool LyncStress) sur le serveur frontal ou sur le serveur Standard Edition Server.
+Vous devez utiliser l’outil de mise en service d’utilisateur Lync Server pour créer des utilisateurs et des contacts pour la simulation de charge. L’outil de mise en service des utilisateurs Lync Server est installé avec le package d’outils de performances et de stress de Lync Server. Assurez-vous que le programme d’installation du package (CapacityPlanningTool.msi) a été exécuté sur le serveur frontal ou le serveur Standard Edition. Démarrez l’outil de mise en service des utilisateurs Lync Server en exécutant le fichier UserProvisioningTool.exe (situé dans le dossier% InstalledDirectory% LyncStressAndPerfTool \\ LyncStress) sur le serveur frontal ou sur le serveur Standard Edition.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vous devez être connecté en tant que membre du groupe de sécurité administrateurs du domaine afin d’exécuter UserProvisioningTool. exe. Il est nécessaire d’exécuter à partir de ce contexte car UserProvisioningTool. exe crée et configure les nouveaux utilisateurs des services de domaine Active Directory.
+> Vous devez être connecté en tant que membre du groupe de sécurité administrateurs du domaine afin d’exécuter UserProvisioningTool.exe. Il est nécessaire d’exécuter à partir de ce contexte car UserProvisioningTool.exe créerez et configurerez les nouveaux utilisateurs des services de domaine Active Directory.
 
 
 
@@ -71,13 +71,13 @@ Vous devez utiliser l’outil de mise en service d’utilisateur Lync Server pou
 
 
 > [!NOTE]  
-> Lorsque vous créez un nombre important d’utilisateurs (10 000 ou plus), exécutez UserProvisioningTool. exe à partir d’un ordinateur haut de gamme. Notez que le contrôleur de domaine subira également une charge élevée pendant que les utilisateurs sont en cours de création.
+> Lorsque vous créez un nombre important d’utilisateurs (10 000 ou plus), exécutez UserProvisioningTool.exe à partir d’un ordinateur haut de gamme. Notez que le contrôleur de domaine subira également une charge élevée pendant que les utilisateurs sont en cours de création.
 
 
 
 </div>
 
-Lorsque l’outil de mise en service de l’utilisateur Lync Server s’ouvre, cliquez sur **configuration** , puis sélectionnez **charger la configuration**. Pour commencer à configurer des utilisateurs et des contacts, chargez le fichier par défaut inclus dans le package, SampleData. Xml. Cette opération préremplira les champs avec des exemples de données que vous devrez réviser pour votre système. Si vous disposez d’un fichier XML préconfiguré qui contient déjà des paramètres personnalisés, chargez ce fichier à la place. Renseignez les champs de l’outil de mise en service d’utilisateur Lync Server, comme décrit dans les sections suivantes.
+Lorsque l’outil de mise en service de l’utilisateur Lync Server s’ouvre, cliquez sur **configuration** , puis sélectionnez **charger la configuration**. Pour commencer à configurer des utilisateurs et des contacts, chargez le fichier par défaut inclus dans le package, SampleData.xml. Cette opération préremplira les champs avec des exemples de données que vous devrez réviser pour votre système. Si vous disposez d’un fichier XML préconfiguré qui contient déjà des paramètres personnalisés, chargez ce fichier à la place. Renseignez les champs de l’outil de mise en service d’utilisateur Lync Server, comme décrit dans les sections suivantes.
 
 ![Onglet création d’utilisateur.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Onglet création d’utilisateur.")
 
@@ -133,7 +133,7 @@ Lorsque vous cliquez sur le bouton supprimer des utilisateurs, il valide tous le
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>Seuls les numéros de téléphone au format américain sont pris en charge. Les numéros de téléphone sont toujours attribués aux utilisateurs et tous les utilisateurs créés par UserProvisioningTool. exe sont activés pour voix entreprise. Tous les scénarios qui utilisent le numéro de téléphone, comme les appels de standard automatique de conférence ou RTC-PSTN, utilisent ce numéro de téléphone pour acheminer correctement les appels. Pour cette raison, chaque utilisateur doit disposer d’un numéro de téléphone unique. Si vous devez créer des utilisateurs à deux reprises, la commande échoue, sauf si vous utilisez un indicatif régional différent ou si les utilisateurs précédents ont été désactivés à l’aide de la cmdlet <STRONG>Disable-Csuser</STRONG> .</P>
+> <P>Seuls les numéros de téléphone au format américain sont pris en charge. Les numéros de téléphone sont toujours attribués aux utilisateurs et tous les utilisateurs créés par UserProvisioningTool.exe sont activés pour voix entreprise. Tous les scénarios qui utilisent le numéro de téléphone, comme les appels de standard automatique de conférence ou RTC-PSTN, utilisent ce numéro de téléphone pour acheminer correctement les appels. Pour cette raison, chaque utilisateur doit disposer d’un numéro de téléphone unique. Si vous devez créer des utilisateurs à deux reprises, la commande échoue, sauf si vous utilisez un indicatif régional différent ou si les utilisateurs précédents ont été désactivés à l’aide de la cmdlet <STRONG>Disable-Csuser</STRONG> .</P>
 > <LI>
 > <P>Avant de créer des contacts, vous devez d’abord effectuer une réplication utilisateur, effectuée à partir de l’onglet utilisateurs. Si vous venez de créer vos utilisateurs, vous devez patienter jusqu’à ce que la réplication Lync Server se termine et renseigne les comptes d’utilisateur dans la base de données. Si les utilisateurs n’ont pas terminé la réplication, un message d’erreur s’affiche. Vous saurez quand les utilisateurs ont terminé la réplication si le service frontal Lync Server 2013 a démarré ou en exécutant correctement la cmdlet <STRONG>Get-Csuser</STRONG> sur le dernier utilisateur.</P></LI></OL>
 
@@ -229,7 +229,7 @@ L’une des fonctionnalités de l’outil stress and performance de Lync Server 
 
 ![Onglet Configuration du service informations d’emplacement.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Onglet Configuration du service informations d’emplacement.")
 
-Si vous choisissez de tester cette fonctionnalité, vous pouvez renseigner les valeurs mentionnées dans le formulaire, puis cliquer sur le bouton générer des fichiers de configuration LIS. Il génère des fichiers CSV appelés lis\_subnet. csv, lis\_switches. csv,\_lis ports. csv et lis\_WAP. csv. Vous pouvez ensuite importer ces fichiers CSV dans la base de données LIS à l’aide de la cmdlet **Set-CsLisSubnet** , de l’applet de commande Set **-CsLisSwitch** , de l’applet de commande **Set-CsLisPort** et de l’applet de commande **Set-CsWirelessAccessPoint** .
+Si vous choisissez de tester cette fonctionnalité, vous pouvez renseigner les valeurs mentionnées dans le formulaire, puis cliquer sur le bouton générer des fichiers de configuration LIS. Il génère des fichiers CSV appelés LIS \_Subnet.csv, lis \_Switches.csv, lis \_Ports.csv et lis \_WAP.csv. Vous pouvez ensuite importer ces fichiers CSV dans la base de données LIS à l’aide de la cmdlet **Set-CsLisSubnet** , de l’applet de commande Set **-CsLisSwitch** , de l’applet de commande **Set-CsLisPort** et de l’applet de commande **Set-CsWirelessAccessPoint** .
 
 </div>
 

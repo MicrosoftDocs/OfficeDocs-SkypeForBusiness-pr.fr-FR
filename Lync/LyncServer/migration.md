@@ -1,8 +1,8 @@
 ---
 title: Migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6add96ea262c2d8495997bd2e17f046d6463e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e57303aa330245a0d00a7a824c5eb846e19519d7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209800"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42209800"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-Cette section explique comment effectuer une migration à partir de Microsoft Office Communications Server 2007 R2 ou Microsoft Lync Server 2010 vers Microsoft Lync Server 2013, de Microsoft Lync Server 2010, de la conversation de groupe vers Microsoft Lync Server 2013, du serveur de conversation permanente et de Microsoft Office Communications Server 2007 R2 Group chat to persistent Chat Server.
+Cette section explique comment effectuer une migration à partir de Microsoft Office Communications Server 2007 R2 ou Microsoft Lync Server 2010 vers Microsoft Lync Server 2013, de Microsoft Lync Server 2010, de la conversation de groupe vers Microsoft Lync Server 2013, du serveur de conversation permanente et de Microsoft Office Communications Server 2007 R2 Group chat vers le serveur de conversation permanente.
 
 <div>
 

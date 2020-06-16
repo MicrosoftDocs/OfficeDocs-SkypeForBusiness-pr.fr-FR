@@ -1,8 +1,8 @@
 ---
-title: Supprimer les serveurs d’archivage et de surveillance hérités
+title: Suppression des serveurs d’archivage et de surveillance hérités
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23209752263222be3521c6ddb9f9e03bd86d0808
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d77292fe478fa95deec50df84a78907af4290e3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209420"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209420"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Supprimer les serveurs d’archivage et de surveillance hérités
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Suppression des serveurs d’archivage et de surveillance hérités
 
 </div>
 
@@ -41,7 +41,7 @@ Si votre déploiement hérité contient un serveur d’archivage ou un serveur d
 
 Vous pouvez déplacer des utilisateurs de Lync Server 2010 vers Lync Server 2013 en suivant les procédures décrites dans la [phase 4 : déplacer les utilisateurs de test vers le pool pilote](phase-4-move-test-users-to-the-pilot-pool.md).
 
-Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section « désinstallation de Microsoft Lync Server 2010 et suppression des [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)rôles serveur », qui peut être téléchargée à l’adresse.
+Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section « désinstallation de Microsoft Lync Server 2010 et suppression des rôles serveur », qui peut être téléchargée à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 </div>
 

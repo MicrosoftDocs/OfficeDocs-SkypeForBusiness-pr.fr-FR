@@ -1,8 +1,8 @@
 ---
 title: Conditions préalables
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4f10cb1bdf5733dbe54519325475871be10564
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196147"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756885"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +93,9 @@ Les ordinateurs qui exécuteront l’outil de contrainte et de performances de L
 
 1.  Vous devez être connecté en tant que membre du groupe de domaine ou du groupe Administrateurs local.
 
-2.  L’outil stress and performance de Lync Server 2013 (LyncPerfTool. exe) ne peut pas être exécuté sur un ordinateur qui exécute également les composants Lync Server 2013.
+2.  Lync Server 2013 stress and Performance Tool (LyncPerfTool.exe) ne peut pas être exécuté sur un ordinateur qui exécute également les composants Lync Server 2013.
 
-3.  Vous devez exécuter l’outil de création d’utilisateurs Lync Server 2013 (UserProvisioningTool. exe) sur le serveur frontal ou sur le serveur Standard Edition où les comptes d’utilisateur doivent résider. Lorsque l’outil est exécuté plusieurs fois, chaque utilisateur activé pour les communications unifiées de Microsoft doit disposer d’un numéro de téléphone unique.
+3.  Vous devez exécuter l’outil de création d’utilisateurs Lync Server 2013 (UserProvisioningTool.exe) sur le serveur frontal ou sur le serveur Standard Edition où les comptes d’utilisateur doivent résider. Lorsque l’outil est exécuté plusieurs fois, chaque utilisateur activé pour les communications unifiées de Microsoft doit disposer d’un numéro de téléphone unique.
 
 4.  La taille du fichier d’échange doit être gérée par le système ou au moins 1,5 fois la quantité de RAM sur le système.
 

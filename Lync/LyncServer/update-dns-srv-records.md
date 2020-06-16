@@ -1,8 +1,8 @@
 ---
 title: Mettre à jour les enregistrements SRV DNS
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40abfa35892b09b3bdc4824a35f0697142980854
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85b286355f765342a2c7b240f23e0aac1c7daad6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189137"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ Cette rubrique explique comment mettre à jour les enregistrements DNS (Domain N
 
 1.  Sur le serveur DNS, cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
-2.  Dans l’arborescence de la console pour votre domaine SIP, développez **zones de recherche directes**, développez le domaine SIP dans lequel Lync Server 2013 est installé, puis accédez au paramètre ** \_TCP** .
+2.  Dans l’arborescence de la console pour votre domaine SIP, développez **zones de recherche directes**, développez le domaine SIP dans lequel Lync Server 2013 est installé, puis accédez au paramètre ** \_ TCP** .
 
-3.  Dans le volet droit, cliquez avec le bouton droit sur ** \_sipinternaltls** , puis sélectionnez **Propriétés**.
+3.  Dans le volet droit, cliquez avec le bouton droit sur ** \_ sipinternaltls** , puis sélectionnez **Propriétés**.
 
 4.  Dans **hôte offrant ce service**, mettez à jour le nom de domaine complet de l’hôte de sorte qu’il pointe vers le pool Lync Server 2013.
 
@@ -61,7 +61,7 @@ Cette rubrique explique comment mettre à jour les enregistrements DNS (Domain N
 
 3.  Dans la zone **Ouvrir**, tapez **cmd**, puis cliquez sur **OK**.
 
-4.  À l’invite de commandes, tapez **nslookup** \<nom de domaine complet du\> pool \<frontal ou du nom de domaine\>complet du serveur Standard Edition, puis appuyez sur entrée.
+4.  À l’invite de commandes, tapez **nslookup** \<FQDN of the Front End pool\> ou \<FQDN of the Standard Edition server\> , puis appuyez sur entrée.
 
 5.  Vérifiez que vous recevez une réponse qui est résolue en adresse IP appropriée pour le nom de domaine complet.
 

@@ -1,8 +1,8 @@
 ---
-title: 'Phase 8 : désactiver les pools hérités'
+title: 'Étape 8 : Mettre des pools hérités hors service'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 474cc5ee3f508ed5a9069f3e8625bcc6ee451153
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209490"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209490"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>Phase 8 : désactiver les pools hérités
+# <a name="phase-8-decommission-legacy-pools"></a>Étape 8 : Mettre des pools hérités hors service
 
 </div>
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2016-12-08_
 
 La rubrique suivante fournit des instructions sur la mise à jour des entrées DNS, le transfert du serveur de gestion de contenu, la mise hors service des pools et la désactivation et la suppression de serveurs et de pools à partir d’un déploiement hérité de Lync Server 2010. Certaines des procédures répertoriées dans cette section ne sont pas requises. Lisez la documentation pour déterminer la procédure de mise hors service à utiliser.
 
-Pour une couverture exhaustive de la suppression des serveurs et des rôles serveur Lync Server 2010, ainsi qu’un guide pas à pas pour la mise en service d’un déploiement de Lync Server 2010, voir « désinstallation de Microsoft Lync Server 2010 et suppression des rôles serveur [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)», qui peut être téléchargé à l’adresse.
+Pour une couverture exhaustive de la suppression des serveurs et des rôles serveur Lync Server 2010, ainsi qu’un guide pas à pas pour la mise en service d’un déploiement de Lync Server 2010, voir « désinstallation de Microsoft Lync Server 2010 et suppression des rôles serveur », qui peut être téléchargé à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 <div>
 
@@ -62,19 +62,19 @@ Pour une couverture exhaustive de la suppression des serveurs et des rôles serv
     [Déplacer le serveur de gestion centralisée Lync Server 2010 vers Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
-    [Déplacer les annuaires des conférences](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+    [Déplacement des annuaires de conférences](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [Supprimer l’Association du serveur d’archivage](remove-the-archiving-server-association.md)
+    [Supprimer l’association au serveur d’archivage](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [Supprimer l’Association du serveur de surveillance](remove-the-monitoring-server-association.md)
+    [Supprimer l’association au serveur de surveillance](remove-the-monitoring-server-association.md)
 
   - <span></span>  
     [Supprimer le serveur frontal Enterprise Edition ou le serveur frontal Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [Supprimer des instances et des bases de données SQL Server sur le serveur principal](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [Suppression des instances et des bases de données SQL Server sur le serveur principal](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

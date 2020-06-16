@@ -1,8 +1,8 @@
 ---
-title: Empêcher les sessions pour les services
+title: Empêcher l’exécution de sessions de services
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prevent sessions for services
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed0ba62a3635d58d685668adc9cf3687609e4f49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f85595acd38e69af9fb8108cab44f4839904799a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189587"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189587"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services"></a>Empêcher les sessions pour les services
+# <a name="prevent-sessions-for-services"></a>Empêcher l’exécution de sessions de services
 
 </div>
 

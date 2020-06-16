@@ -1,8 +1,8 @@
 ---
-title: Vérifier la coexistence du pool pilote avec le pool hérité
+title: Vérification de la coexistence du pool pilote avec le pool hérité
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c30f15b7a4e40b5c814ed5f21d07e213b69cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b76c1296f69421bfbfe83e61055249f2642420ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188887"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188887"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérifier la coexistence du pool pilote avec le pool hérité
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérification de la coexistence du pool pilote avec le pool hérité
 
 </div>
 
@@ -43,7 +43,7 @@ Après avoir déployé le premier pool, vous devez vérifier la coexistence des 
 
 ## <a name="verify-that-lync-server-2013-services-have-started"></a>Vérifier que les services Lync Server 2013 ont démarré
 
-1.  À partir du serveur frontal Lync Server 2013, accédez à l’applet\\services d’administration.
+1.  À partir du serveur frontal Lync Server 2013, accédez à l' \\ applet Services d’administration.
 
 2.  Vérifiez que les services suivants sont exécutés sur le serveur frontal :
 

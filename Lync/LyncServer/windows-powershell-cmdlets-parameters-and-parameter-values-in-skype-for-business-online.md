@@ -1,8 +1,8 @@
 ---
-title: Cmdlets, paramètres et valeurs de paramètres Windows PowerShell dans Skype entreprise Online
+title: Applets de commande Windows PowerShell, paramètres et valeurs de paramètres dans Skype entreprise Online
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Windows PowerShell cmdlets, parameters, and parameter values
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9fadf59b353458b2e7c48f597c11b92342e7edc
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 70c7b04c428297e74d0910a42c4136bf4a06dacd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888663"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "41888663"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-parameters-and-parameter-values-in-skype-for-business-online"></a>Cmdlets, paramètres et valeurs de paramètres Windows PowerShell dans Skype entreprise Online
+# <a name="windows-powershell-cmdlets-parameters-and-parameter-values-in-skype-for-business-online"></a>Applets de commande Windows PowerShell, paramètres et valeurs de paramètres dans Skype entreprise Online
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41888663"
 
 _**Dernière modification de la rubrique :** 2013-07-05_
 
-Si vous connaissez la fenêtre de commandes dans toutes les versions de Windows (ou si vous êtes familiarisé avec l’utilisation de MS-DOS), vous serez en mesure de vous familiariser avec Windows PowerShell. Dans la fenêtre de commande, vous tapez une commande, puis appuyez sur entrée. En réponse, l’ordinateur exécute une commande ou un fichier exécutable. Par exemple, pour renvoyer des informations sur tous les fichiers et dossiers du répertoire actif, tapez la commande suivante à l’invite de commandes, puis appuyez sur entrée :
+Si vous êtes familiarisé avec la fenêtre de commande qui se trouve dans toutes les versions de Windows (ou si vous êtes familiarisé avec MS-DOS), vous aurez un point de départ pour apprendre à utiliser Windows PowerShell. Dans la fenêtre de commande, tapez une commande, puis appuyez sur entrée. En réponse, l’ordinateur exécute une commande ou un fichier exécutable. Par exemple, pour renvoyer des informations sur tous les fichiers et dossiers du répertoire actif, tapez la commande suivante à l’invite de commandes, puis appuyez sur entrée :
 
 ```console
 dir
 ```
 
-En retour, vous obtenez des informations sur tous les fichiers et dossiers du répertoire actuel :
+Vous obtenez ensuite des informations sur tous les fichiers et dossiers du répertoire actif :
 
 ```console
     Directory: C:\
@@ -62,13 +62,13 @@ En retour, vous obtenez des informations sur tous les fichiers et dossiers du r�
               7 Dir(s)21,386,002,432 bytes free
 ```
 
-Il s’agit d’un exemple de résultat lorsque vous tapez uniquement le nom d’une commande ou d’un fichier exécutable. Toutefois, la plupart des commandes exécutées à partir de la fenêtre de commande acceptent également des *arguments*. Les arguments sont des éléments d’informations supplémentaires transmis à la commande, qui modifient le comportement de la commande. Par exemple, si vous souhaitez afficher uniquement les noms des fichiers et dossiers du répertoire actif (aucune autre information, telle que la taille du fichier ou dossier), ou la date et l’heure de création du dossier ou du dossier. Dans ce cas, vous devez ajouter l’argument **/b** lors de l’exécution de la commande dir :
+C’est un exemple de résultat lorsque vous tapez uniquement le nom d’une commande ou d’un fichier exécutable. Toutefois, de nombreuses commandes exécutées à partir de la fenêtre de commande acceptent également des *arguments*. Les arguments sont des informations supplémentaires qui sont transmises à la commande, qui modifient le comportement de la commande. Par exemple, si vous souhaitez uniquement afficher les noms des fichiers et des dossiers dans le répertoire actif (aucune autre information, telle que la taille du fichier ou du dossier) ou la date et l’heure de création du dossier ou du dossier. Dans ce cas, vous devez ajouter l’argument **/b** lors de l’exécution de la commande dir :
 
 ```console
 dir /b
 ```
 
-Lorsque vous incluez l’argument **/b** , la commande **dir** renvoie uniquement les noms des dossiers et des fichiers figurant dans le répertoire actif :
+Lorsque vous incluez l’argument **/b** , la commande **dir** renvoie uniquement les noms des dossiers et des fichiers trouvés dans le répertoire actif :
 
 ```console
 Deploy
@@ -83,13 +83,13 @@ RHDSetup.exe
 setup.doc
 ```
 
-Dans la commande précédente, l’argument **/b** est la seule information requise pour limiter les données renvoyées aux noms de fichier et de dossier. Il s’agit souvent de commandes de ligne de commande : le simple fait de posséder un argument est qu’il est nécessaire de modifier le comportement de la commande. (C’est-à-dire, si vous incluez l’argument **/b** pour masquer des informations supplémentaires, ou si vous excluez l’argument **/b** pour afficher les informations supplémentaires.) En revanche, vous devez spécifier une *valeur d’argument*à d’autres moments. Une valeur d’argument est une information supplémentaire transmise à l’argument lui-même. Par exemple, l’argument **/o** vous permet de spécifier la manière dont vous voulez que la commande dir trie les données renvoyées. Entre autres options, vous pouvez utiliser la valeur d’argument **e** pour trier par extension de fichier ou par valeur d’argument **s** pour trier par taille de fichier. Par exemple, cette commande trie les données renvoyées par extension de fichier. Notez que la valeur d’argument **e** est incluse immédiatement après l’argument **/o** :
+Dans la commande précédente, l’argument **/b** est la seule information requise pour limiter les données renvoyées aux noms de fichier et de dossier. Cela est souvent le cas avec les commandes de ligne de commande : la seule présence d’un argument est qu’il suffit de modifier le comportement de la commande. (Autrement dit, vous devez inclure l’argument **/b** pour masquer des informations supplémentaires ou exclure l’argument **/b** pour afficher les informations supplémentaires.) Toutefois, dans d’autres cas, vous devez spécifier une *valeur d’argument*. Une valeur d’argument est une information supplémentaire transmise à l’argument lui-même. Par exemple, l’argument **/o** vous permet de spécifier la manière dont vous souhaitez que la commande dir trie les données renvoyées. Entre autres options, vous pouvez utiliser la valeur d’argument **e** pour trier par extension de fichier ou la valeur d’argument **s** pour trier par taille de fichier. Par exemple, cette commande trie les données renvoyées par extension de fichier. Notez la façon dont la valeur **e** de l’argument est incluse immédiatement après l’argument **/o** :
 
 ```console
 dir /oe
 ```
 
-À l’aide de notre exemple de dossier, les données renvoyées se présentent comme suit, et les fichiers sont triés par ordre alphabétique par extension de fichier :
+À l’aide de notre exemple de dossier, les données renvoyées ressemblent à ce qui suit, avec les fichiers triés par extension de fichier par ordre alphabétique :
 
 ```console
     Directory: C:\
@@ -108,7 +108,7 @@ dir /oe
               7 Dir(s)21,386,002,432 bytes free
 ```
 
-Pour vous aider à cerner exactement ce que nous parlons :
+Ou, pour vous aider à identifier exactement ce dont nous parlons :
 
 ```console
 setup.doc  
@@ -116,52 +116,52 @@ RHDSetup.exe
 pldok.log
 ```
 
-Même si Windows PowerShell utilise une terminologie différente, l’approche de base de l’utilisation de Windows PowerShell est la même que celle de l’utilisation de la fenêtre de commande : vous tapez les commandes, vous incluez des arguments et des valeurs d’argument selon les besoins, puis vous appuyez sur entrée pour exécuter ces commandes. Comme indiqué, Windows PowerShell utilise toutefois une terminologie différente de celle utilisée par l’interpréteur de commandes. Dans Windows PowerShell, les commandes que vous exécutez sont appelées *cmdlets*. À son tour, les arguments transmis à une cmdlet sont appelés *paramètres*et les valeurs transmises à un paramètre sont connues sous le nom de *valeurs*de paramètres.
+Bien que Windows PowerShell utilise une terminologie différente, l’approche de base de l’utilisation de Windows PowerShell est identique à celle de la fenêtre de commande : vous tapez des commandes, vous incluez des arguments et des valeurs d’argument si nécessaire, puis appuyez sur entrée pour exécuter ces commandes. Comme indiqué précédemment, Windows PowerShell utilise une terminologie différente de celle utilisée par l’interface de commande. Dans Windows PowerShell, les commandes que vous exécutez sont connues sous le nom de *cmdlets*. En retour, les arguments transmis à une cmdlet sont appelés *paramètres*et les valeurs transmises à un paramètre sont connues sous le nom de *valeurs de paramètres*.
 
-Les définitions précédentes sont un peu simplifiées. Les applets de commande sont essentiellement des mini-applications qui ne peuvent être exécutées qu’à partir de l’environnement Windows PowerShell. Toutefois, vous pouvez également exécuter d’autres commandes et applications à partir de Windows PowerShell, y compris la plupart des commandes et applications qui peuvent être exécutées à partir d’une fenêtre de commande. Par exemple, si vous voulez démarrer le bloc-notes dans Windows PowerShell, il vous suffit de taper la commande suivante, puis d’appuyer sur entrée :
+Les définitions précédentes sont quelque peu simplifiées. Les cmdlets sont essentiellement des mini-applications qui ne peuvent être exécutées qu’au sein de l’environnement Windows PowerShell. Toutefois, vous pouvez également exécuter d’autres commandes et applications à partir de Windows PowerShell, notamment la plupart des commandes et des applications qui peuvent être exécutées à partir d’une fenêtre de commande. Par exemple, si vous souhaitez démarrer le bloc-notes dans Windows PowerShell, il vous suffit de taper la commande suivante, puis appuyez sur entrée :
 
 ```console
 notepad.exe
 ```
 
-En ce qui concerne la gestion de Skype entreprise Online, la plupart des administrateurs se fient aux cmdlets Windows PowerShell pour effectuer les tâches d’administration. En temps, d’autres types de commandes ou applications peuvent être utilisés pour gérer Skype entreprise online. Il est parfois possible d’utiliser les applets de applet Skype entreprise Online sans arguments supplémentaires (comme indiqué, les arguments sont appelés paramètres dans Windows PowerShell). Par exemple, la commande suivante appelle l’applet de commande [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) sans aucun paramètre supplémentaire. En soi, la commande renvoie des informations sur tous les utilisateurs de Skype entreprise Online :
+Toutefois, en ce qui concerne la gestion de Skype entreprise Online, la plupart des administrateurs recourent à des applets de commande Windows PowerShell pour effectuer des tâches d’administration. Au moment, il existe très peu d’autres types de commandes ou d’applications qui peuvent être utilisés pour gérer Skype entreprise online. Parfois, les applets de commande Skype entreprise Online peuvent être utilisées sans autres arguments (, comme indiqué, les arguments sont appelés paramètres dans Windows PowerShell). Par exemple, la commande suivante appelle la cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) sans aucun paramètre supplémentaire. La commande renvoie des informations sur tous vos utilisateurs de Skype entreprise Online :
 
 ```powershell
 Get-CsOnlineUser
 ```
 
-Toutefois, la plupart des applets de commande Skype entreprise Online acceptent également des paramètres (et des valeurs de paramètres). Envisagez la commande suivante :
+Toutefois, la plupart des applets de commande Skype entreprise Online acceptent également les paramètres (et les valeurs des paramètres). Envisagez la commande suivante :
 
 ```powershell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
-Cette commande est composée de trois éléments :
+Cette commande se compose de trois parties :
 
-  - Cmdlet **Get-CsOnlineUser**.
+  - La cmdlet **Get-CsOnlineUser**.
 
-  - Paramètre Identity. Notez que, dans Windows PowerShell, les paramètres sont toujours précédés d’un tiret (-). Cela signifie que, pour cette même applet de cmdlet, le paramètre UnassignedUser serait indiqué en utilisant la syntaxe suivante :
+  - Paramètre Identity. Notez que, dans Windows PowerShell, les paramètres sont toujours précédés d’un tiret (-). Cela signifie que, pour cette même cmdlet, le paramètre UnassignedUser est indiqué à l’aide de la syntaxe suivante :
     
     ```powershell
     -UnassignedUser
     ```
     
-    C’est utile de savoir, pas seulement que les paramètres doivent être précédés d’un tiret, mais également de la même façon que dans la fenêtre de commande, où les arguments sont précédés par une barre oblique (/) :
+    Cela est utile, non seulement parce que les paramètres doivent être précédés d’un tiret, mais également, car cela diffère de la fenêtre de commande, où les arguments sont précédés d’une barre oblique (/) :
     
     ```console
     /b
     ```
 
-  - Valeur de paramètre **kenmyer@litwareinc.com**.
+  - La valeur de paramètre **kenmyer@litwareinc.com**.
 
-Cette commande renvoie une information concernant un utilisateur spécifique : l’utilisateur ayant l’identité kenmyer@litwareinc.com.
+Cette commande renvoie, par invariable, les informations relatives à un utilisateur spécifique : l’utilisateur ayant l’identité kenmyer@litwareinc.com.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Présentation de Windows PowerShell et Skype Entreprise Online](https://technet.microsoft.com/library/Dn362785(v=OCS.15))  
+[Présentation de Windows PowerShell et de Skype entreprise Online](https://technet.microsoft.com/library/Dn362785(v=OCS.15))  
   
 
 </div>

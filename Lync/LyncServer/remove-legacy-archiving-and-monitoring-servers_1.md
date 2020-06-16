@@ -1,8 +1,8 @@
 ---
-title: Supprimer les serveurs d’archivage et de surveillance hérités
+title: Suppression des serveurs d’archivage et de surveillance hérités
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83e0decfbf79aa4be81c47fd66014b10ccbcba22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b4f149db04be75cec961478f4382b3e7a333e0a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189527"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189527"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Supprimer les serveurs d’archivage et de surveillance hérités
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Suppression des serveurs d’archivage et de surveillance hérités
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "42189527"
 
 _**Dernière modification de la rubrique :** 2012-09-26_
 
-Si votre déploiement Office Communications Server 2007 R2 contenait un serveur d’archivage ou un serveur de surveillance, après la migration vers Lync Server 2013, ces serveurs peuvent être supprimés de l’environnement hérité, étant donné que tous les utilisateurs ont été supprimés des autres Pools Office Communications Server 2007 R2. Vous pouvez supprimer le serveur d’archivage ou le serveur de surveillance dans n’importe quel ordre. La condition essentielle est que tous les utilisateurs ont été supprimés des pools Office Communications Server 2007 R2 restants.
+Si votre déploiement Office Communications Server 2007 R2 contenait un serveur d’archivage ou un serveur de surveillance, après la migration vers Lync Server 2013, ces serveurs peuvent être supprimés de l’environnement hérité, sous réserve que tous les utilisateurs aient été supprimés des pools Office Communications Server 2007 R2 restants. Vous pouvez supprimer le serveur d’archivage ou le serveur de surveillance dans n’importe quel ordre. La condition essentielle est que tous les utilisateurs ont été supprimés des pools Office Communications Server 2007 R2 restants.
 
 Vous pouvez déplacer des utilisateurs d’Office Communications Server 2007 R2 vers Lync Server 2013 en suivant les procédures décrites à [la phase 6 : déplacer des utilisateurs vers le pool pilote](phase-6-move-users-to-the-pilot-pool.md).
 
-Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)« suppression des serveurs et des rôles serveur » à l’adresse.
+Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section « suppression des serveurs et des rôles serveur » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887) .
 
 </div>
 

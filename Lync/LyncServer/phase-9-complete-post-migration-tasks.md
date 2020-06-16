@@ -1,8 +1,8 @@
 ---
 title: 'Phase 9 : effectuer les tâches postérieures à la migration'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209480"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,23 +43,23 @@ Les rubriques de cette section décrivent les tâches que vous devrez effectuer 
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Effectuer la migration de groupes Response Group](migrate-response-groups_1.md)
+  - [Migrer des groupes Response Group](migrate-response-groups_1.md)
 
-  - [Migration des numéros d’accès entrant](migrate-dial-in-access-numbers_1.md)
+  - [Migrer les numéros d’accès entrant](migrate-dial-in-access-numbers_1.md)
 
   - [Activer Exchange 2013 Outlook Web App et l’intégration de la messagerie instantanée](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Faire migrer le carnet d’adresses](migrate-address-book_1.md)
+  - [Migrer le carnet d’adresses](migrate-address-book_1.md)
 
   - [Activer le contrôle d’appel distant](enable-remote-call-control.md)
 
-  - [Supprimer les serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Suppression des serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [Migrer le serveur de médiation](migrate-mediation-server.md)
 
-  - [Configurer des serveurs d’applications approuvées](configure-trusted-application-servers_1.md)
+  - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers_1.md)
 
-  - [Configurer la page de participation aux réunions](configure-the-meeting-join-page_1.md)
+  - [Configuration de la page de participation à une réunion](configure-the-meeting-join-page_1.md)
 
   - [Déployer les clients Lync Server 2013](deploy-lync-server-2013-clients_1.md)
 

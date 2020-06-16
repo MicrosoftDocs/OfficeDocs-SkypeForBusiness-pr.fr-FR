@@ -1,8 +1,8 @@
 ---
-title: Supprimer l’Association du serveur d’archivage
+title: Supprimer l’association au serveur d’archivage
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Archiving server association
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93c53ef1e70b174681149593237db3f9d0268209
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87578bad234adfad254b45961b07180176f9b027
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189487"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189487"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-archiving-server-association"></a>Supprimer l’Association du serveur d’archivage
+# <a name="remove-the-archiving-server-association"></a>Supprimer l’association au serveur d’archivage
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: Déplacer les annuaires des conférences
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move conference directories
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 705540ba138a6b62c41480e275f183d67dbfbfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2de2b588d880600a4a7d8365f20423d3faf2653e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209720"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour 
     
         Get-CsConferenceDirectory
     
-    Étant donné que l’applet de commande renvoie tous les annuaires des conférences dans votre organisation, vous pouvez limiter les résultats au seul pool que vous voulez désaffecter. Par exemple, si vous souhaitez désaffecter un pool avec le nom de domaine complet (FQDN) pool01.contoso.net :
+    Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     

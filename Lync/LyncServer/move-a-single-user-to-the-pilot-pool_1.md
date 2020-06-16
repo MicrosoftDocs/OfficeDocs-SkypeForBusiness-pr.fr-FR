@@ -1,8 +1,8 @@
 ---
 title: Déplacer un seul utilisateur vers le pool pilote
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189890"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189890"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 2007 R2 vers votre pool de pilote Lync Server 2013 à l’aide du panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell. Dans l’exemple ci-dessous, dans la colonne pool de serveurs d’inscriptions, ** \<Office Communications Server\> ** est le pool Office Communications Server 2007 R2, et ces six utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur vers votre pool Lync Server 2013 à l’aide du panneau de configuration Lync Server 2013 et de Lync Server Management Shell.
+Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 2007 R2 vers votre pool de pilote Lync Server 2013 à l’aide du panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell. Dans l’exemple ci-dessous, dans la colonne pool de serveurs d’inscriptions, il **\<Office Communications Server\>** s’agit du pool Office Communications Server 2007 R2, et ces six utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur vers votre pool Lync Server 2013 à l’aide du panneau de configuration Lync Server 2013 et de Lync Server Management Shell.
 
 ![Rechercher des utilisateurs OCS dans le panneau de configuration Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Rechercher des utilisateurs OCS dans le panneau de configuration Lync Server")
 

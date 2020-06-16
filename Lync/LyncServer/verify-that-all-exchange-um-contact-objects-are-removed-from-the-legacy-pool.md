@@ -1,8 +1,8 @@
 ---
 title: Vérifier que tous les objets contact de messagerie unifiée Exchange sont supprimés du pool hérité
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7815f78dfa5f2b4aab3f09102a9948498c20cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e638dc7e0172c3187859797776f8e64372c81d5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188847"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2012-09-26_
 
 Utilisez l’outil **OCSUmUtil** ou la cmdlet **Get-CsExumContact** pour vérifier que les objets contact de messagerie unifiée Exchange ont été supprimés du pool Office Communications Server 2007 R2 hérité. **OCSUmUtil** se trouve dans le dossier suivant :
 
-% Program Files%\\Common Files\\Lync Server 2013\\support\\OcsUMUtil. exe
+% Program Files% \\ fichiers communs de \\ \\ prise en charge de Lync Server 2013 \\OcsUMUtil.exe
 
 **OCSUmUtil** doit être exécuté à partir d’un compte d’utilisateur qui remplit les conditions suivantes :
 

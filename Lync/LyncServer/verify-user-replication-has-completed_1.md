@@ -1,8 +1,8 @@
 ---
 title: Vérifier que la réplication utilisateur est terminée
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21ff29474825cdecca8db4c4db42eb5bb2cf0ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31bed57b6e24db0ba6f75e323fe311aa4aaf262c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188787"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Lors de l’exécution de la cmdlet **Move-CsLegacyUser** , vous pouvez être co
 
 5.  Dans la liste **Sources de l’événement**, cliquez sur **LS User Replicator**.
 
-6.  Dans ** \<tous les ID\> d’événement** , entrez **30024** , puis cliquez sur **OK**.
+6.  Dans **\<All Event IDs\>** entrez **30024** , puis cliquez sur **OK**.
 
 7.  Dans la liste des événements filtrés, dans l’onglet **Général**, recherchez une entrée qui stipule que la réplication utilisateur s’est achevée avec succès.
 

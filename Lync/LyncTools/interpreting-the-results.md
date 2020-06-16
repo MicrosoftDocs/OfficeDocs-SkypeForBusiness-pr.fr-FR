@@ -1,8 +1,8 @@
 ---
 title: Interprétation des résultats
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Interpreting the Results
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3683e2a2ac9fb163fe9db3dabce40b3c61d098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206160"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42206160"
 
 _**Dernière modification de la rubrique :** 2013-02-24_
 
-L’outil de contrainte et de performances de Lync Server 2013 (LyncPerfTool. exe) comporte de nombreux compteurs que vous pouvez utiliser pour comprendre ce que fait le client et s’il rencontre des problèmes.
+L’outil de contrainte et de performances de Lync Server 2013 (LyncPerfTool.exe) comporte de nombreux compteurs que vous pouvez utiliser pour comprendre ce que fait le client et s’il rencontre des problèmes.
 
 <div>
 
 ## <a name="client-counters"></a>Compteurs client
 
-Chaque instance de LyncPerfTool. exe en cours d’exécution dispose d’une instance distincte des compteurs. Chaque instance est nommée par son ID de processus.
+Chaque instance de LyncPerfTool.exe en cours d’exécution dispose d’une instance distincte des compteurs. Chaque instance est nommée par son ID de processus.
 
 Si les clients sont surchargés, des problèmes peuvent se produire. Pour éviter ces problèmes, procédez comme suit :
 

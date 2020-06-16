@@ -1,8 +1,8 @@
 ---
 title: Présentation de l’appartenance à la conversation permanente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Understanding Persistent Chat membership
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cc357eff6cdc68c5285eeb915f5534b6f38b871
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 400866812ab2d5efb12960dc3c2f37c2fcb8eb45
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189147"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,9 +69,9 @@ Une catégorie spécifie tous les utilisateurs et les groupes qui peuvent être 
 
 La définition de **AllowedMembers** et **Créateurs** pour une catégorie comporte les avantages suivants :
 
-  - Toutes les salles de conversation de cette catégorie sont liées par des limitations définies au niveau de la catégorie. Vous pouvez utiliser cela pour isoler des salles de conversation en fonction des besoins et des stratégies d’accès.
+  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
 
-  - Un utilisateur qui se trouve dans la liste **Créateurs** peut créer des salles de conversation dans cette catégorie. Si vous voulez mettre en place un système qui limite le nombre de personnes de votre organisation ayant la possibilité de créer des salles de conversation, ce contrôle peut être utilisé.
+  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
 
 </div>
 
@@ -81,7 +81,7 @@ La définition de **AllowedMembers** et **Créateurs** pour une catégorie compo
 
 Le **AllowedMembers** d’une catégorie doit inclure tous les utilisateurs qui utiliseront toute salle de conversation permanente de cette catégorie. En fonction des besoins de protection de vos données et pour contrôler les niveaux d’accès, vous pouvez définir une ou plusieurs catégories pour spécifier qui peut effectuer des recherches dans les salles et y participer. Si vous ne voulez autoriser qu’un groupe d’utilisateurs donnés (support technique ou employés à plein temps) à créer des salles, vous pouvez définir l’étendue de **Créateurs** d’une catégorie pour répondre à ce besoin.
 
-Les catégories peuvent également être utilisées pour créer des séparations déontologiques. Les séparations déontologiques permettent d’éviter les conflits d’intérêts dans votre organisation. Par exemple, un administrateur peut créer des salles de conversation dans une catégorie uniquement pour les opérateurs en bourse, et d’autres salles dans une autre catégorie pour les analystes.
+Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
 
 <div>
 

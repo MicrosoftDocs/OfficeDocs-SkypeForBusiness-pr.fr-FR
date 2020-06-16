@@ -1,8 +1,8 @@
 ---
 title: Applets de commande Skype entreprise Online
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189187"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189187"
 
 _**Dernière modification de la rubrique :** 2013-07-05_
 
-Lorsque vous vous connectez à Skype entreprise Online à l’aide de Windows PowerShell, une collection d’applets de commande Skype entreprise Online est copiée, en mémoire, sur votre ordinateur. Ces applets de commande, ainsi que d’autres cmdlets que vous avez déjà sur votre ordinateur local (y compris les applets de commande principales qui sont installées lors de l’installation de Windows PowerShell), sont disponibles pour la gestion de votre déploiement Skype entreprise Online et de votre Skype Comptes d’utilisateur Business Online. Les applets de commande Skype entreprise Online sont présentées dans les rubriques suivantes :
+Lorsque vous vous connectez à Skype entreprise Online à l’aide de Windows PowerShell, une collection d’applets de commande Skype entreprise Online est copiée, en mémoire, sur votre ordinateur. Ces applets de commande, ainsi que d’autres cmdlets que vous avez déjà sur votre ordinateur local (y compris les applets de commande principales qui sont installées lors de l’installation de Windows PowerShell), sont disponibles pour la gestion de votre déploiement Skype entreprise Online et de vos comptes d’utilisateur Skype entreprise online. Les applets de commande Skype entreprise Online sont présentées dans les rubriques suivantes :
 
   - [Gestion des clients Skype entreprise Online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
