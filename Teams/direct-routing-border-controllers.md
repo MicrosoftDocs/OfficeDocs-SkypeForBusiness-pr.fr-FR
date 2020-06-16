@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: L’administrateur peut en savoir plus sur les contrôleurs de bordure de session (SBCs) qui ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710798"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735434"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -72,7 +72,7 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado service de routage d’urgence (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3,20 pris en charge (recommandé 4,0)        |     |    |    
 |                     [Changer de bouton](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |  
-|                     [Cisco](http://www.cisco.com/go/cube)                               |     Un élément Border unifié Cisco (CUBE) pour les routeurs services intégrés de la série 1000        |     &#10004;   |  |      IOS XE 17.2.1 r      |     |   |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Un élément Border unifié Cisco (CUBE) pour les routeurs services intégrés de la série 1000        |     &#10004;   |  |      IOS XE 17.2.1 r      |     |   |  
 |                                   |     Un élément Border unifié Cisco (CUBE) pour les routeurs services intégrés de la série 4000        |     &#10004;   |  |      IOS XE 17.2.1 r      |     |    |  
 |                                   |     Élément de bordure unifié Cisco (CUBE) pour le routeur des services Cloud de la série 1000V       |     &#10004;   |  |      IOS XE 17.2.1 r      |     |    |  
 |                                 |     Un élément Border unifié Cisco (CUBE) pour les routeurs de services d’agrégation de séries 1000      |     &#10004;   |  |      IOS XE 17.2.1 r      |     |    |  
@@ -91,6 +91,7 @@ Le tableau suivant répertorie les appareils qui sont vérifiés en matière d�
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Version du logiciel AP6300 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Version du logiciel AP6350 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Version du logiciel VME 8.3.0.1.2 |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode avec Grandstream GXW42xx (V 1.0.7.10) |     &#10004;     |
 
 Pour nous envoyer des commentaires sur des produits sur Teams, par exemple des idées de nouvelles fonctionnalités, voir [UserVoice](https://microsoftteams.uservoice.com).
 Notez la certification accordée à une version majeure. Cela signifie que le microprogramme avec n’importe quel numéro dans le microprogramme SBC après la version principale est pris en charge.

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Apprenez-en davantage sur la préparation de votre infrastructure pour le déploiement de Microsoft Teams, afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666166"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735424"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -53,7 +53,7 @@ Un *compte d’appareil* est un compte qu’utilise le client Microsoft teams po
 Pour fonctionner correctement, l’appareil de salle Microsoft teams doit avoir accès à un réseau câblé qui répond à la configuration requise suivante :
   
 - Accès à votre instance Active Directory ou Azure Active Directory (Azure AD), ainsi qu’à vos serveurs Microsoft Exchange et Skype Entreprise.
-- Accès à un serveur pouvant fournir une adresse IP à l’aide du protocole DHCP. Les salles de Microsoft Teams ne peuvent pas être configurées à l’aide d’une adresse IP statique.
+- Accès à un serveur pouvant fournir une adresse IP à l’aide du protocole DHCP. Les salles de Microsoft Teams ne peuvent pas être configurées à l’aide d’une adresse IP statique lors du premier démarrage de l’unité.
 - Accès aux ports HTTP 80 et 443.
 - Ports TCP et UDP configurés comme décrit dans la section exigences relatives aux [ports et aux protocoles pour les serveurs](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) pour les mises à niveau de Skype entreprise Server sur site, ou les [URL et plages d’adresses IP de Microsoft 365 et Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) pour les mises à niveau de Microsoft teams ou Skype entreprise online.
 
@@ -104,7 +104,7 @@ Les salles de Microsoft teams sont conçues pour hériter des paramètres de pro
     
 11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si les étapes précédentes n’ont pas abouti, l’appareil de salle Microsoft teams se connecte correctement.
     
-Pour utiliser cette application, vous devez être en mesure de vous connecter aux points de terminaison décrits ci-après. Pour consulter les adresses IP, développez la section d’adresses IP sous la table de description de flux de trafic.
+To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **Exemple de noms d’hôte/ports de proxy de pare-feu**
 
@@ -118,9 +118,9 @@ Pour utiliser cette application, vous devez être en mesure de vous connecter au
 |Audio  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 000-50019  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
 |Vidéo  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
 |Partage de bureau  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50 000-59 999  <br/> |
-|Notifications Push pour Lync Mobile 2010 sur des appareils iOS. Cela n’est pas nécessaire pour appareils mobiles Android, Nokia Symbian ou Windows Phone.  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Télémétrie Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
-|Conseils rapides pour les clients Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |quicktips.skypeforbusiness.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
+|Conseils rapides du client Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |quicktips.skypeforbusiness.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Le caractère générique pour contoso.com et broadcast.skype.com représente une longue liste de nœuds utilisés exclusivement pour Microsoft 365 ou Office 365. 
@@ -144,7 +144,7 @@ Le compte d’appareil n’utilise généralement pas de mot de passe. Il est po
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
-Le mot de passe par défaut de Microsoft teams est défini sur « marketing ». Le mot de passe peut être modifié localement en accédant à paramètres Windows, \> accédez à Windows ou au fichier Autounattend. XML (utilisez le gestionnaire d’image système Windows de ADK pour apporter la modification au fichier XML).
+Le mot de passe par défaut de Microsoft teams est défini sur « marketing ». Le mot de passe peut être modifié localement en accédant à paramètres Windows, puis \> sélectionnez Windows ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’image Windows de ADK pour apporter la modification au fichier XML).
   
 > [!CAUTION]
 > N’hésitez pas à modifier le mot de passe des salles de Microsoft teams dès que possible. 
@@ -159,7 +159,7 @@ Comme n’importe quel appareil Windows, le nom de l’ordinateur peut être ren
   
  Si vous souhaitez renommer l’ordinateur après l’avoir rejointe à un domaine, utilisez la commande PowerShell d’ordinateur renommé suivie du nouveau nom de l’ordinateur.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier les salles de Microsoft teams](rooms-plan.md)
 
