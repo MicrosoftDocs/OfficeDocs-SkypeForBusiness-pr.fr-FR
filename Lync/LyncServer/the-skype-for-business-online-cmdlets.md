@@ -1,8 +1,8 @@
 ---
 title: Applets de commande Skype entreprise Online
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189187"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189187"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a><span data-ttu-id="dc5c2-102">Applets de commande Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-102">The Skype for Business Online cmdlets</span></span>
+# <a name="the-skype-for-business-online-cmdlets"></a><span data-ttu-id="d9d79-102">Applets de commande Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-102">The Skype for Business Online cmdlets</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42189187"
 
 <span> </span>
 
-<span data-ttu-id="dc5c2-103">_**Dernière modification de la rubrique :** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="dc5c2-103">_**Topic Last Modified:** 2013-07-05_</span></span>
+<span data-ttu-id="d9d79-103">_**Dernière modification de la rubrique :** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="d9d79-103">_**Topic Last Modified:** 2013-07-05_</span></span>
 
-<span data-ttu-id="dc5c2-104">Lorsque vous vous connectez à Skype entreprise Online à l’aide de Windows PowerShell, une collection d’applets de commande Skype entreprise Online est copiée, en mémoire, sur votre ordinateur.</span><span class="sxs-lookup"><span data-stu-id="dc5c2-104">When you connect to Skype for Business Online by using Windows PowerShell, a collection of Skype for Business Online cmdlets is copied, in memory, to your computer.</span></span> <span data-ttu-id="dc5c2-105">Ces applets de commande, ainsi que d’autres cmdlets que vous avez déjà sur votre ordinateur local (y compris les applets de commande principales qui sont installées lors de l’installation de Windows PowerShell), sont disponibles pour la gestion de votre déploiement Skype entreprise Online et de votre Skype Comptes d’utilisateur Business Online.</span><span class="sxs-lookup"><span data-stu-id="dc5c2-105">These cmdlets, in addition to any other cmdlets you already have on your local computer (including the core cmdlets that are installed when you install Windows PowerShell), are then available for managing your Skype for Business Online deployment and your Skype for Business Online user accounts.</span></span> <span data-ttu-id="dc5c2-106">Les applets de commande Skype entreprise Online sont présentées dans les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="dc5c2-106">The Skype for Business Online cmdlets are introduced in the following topics:</span></span>
+<span data-ttu-id="d9d79-104">Lorsque vous vous connectez à Skype entreprise Online à l’aide de Windows PowerShell, une collection d’applets de commande Skype entreprise Online est copiée, en mémoire, sur votre ordinateur.</span><span class="sxs-lookup"><span data-stu-id="d9d79-104">When you connect to Skype for Business Online by using Windows PowerShell, a collection of Skype for Business Online cmdlets is copied, in memory, to your computer.</span></span> <span data-ttu-id="d9d79-105">Ces applets de commande, ainsi que d’autres cmdlets que vous avez déjà sur votre ordinateur local (y compris les applets de commande principales qui sont installées lors de l’installation de Windows PowerShell), sont disponibles pour la gestion de votre déploiement Skype entreprise Online et de vos comptes d’utilisateur Skype entreprise online.</span><span class="sxs-lookup"><span data-stu-id="d9d79-105">These cmdlets, in addition to any other cmdlets you already have on your local computer (including the core cmdlets that are installed when you install Windows PowerShell), are then available for managing your Skype for Business Online deployment and your Skype for Business Online user accounts.</span></span> <span data-ttu-id="d9d79-106">Les applets de commande Skype entreprise Online sont présentées dans les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="d9d79-106">The Skype for Business Online cmdlets are introduced in the following topics:</span></span>
 
-  - [<span data-ttu-id="dc5c2-107">Gestion des clients Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-107">Managing Skype for Business Online tenants</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
+  - [<span data-ttu-id="d9d79-107">Gestion des clients Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-107">Managing Skype for Business Online tenants</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
-  - [<span data-ttu-id="dc5c2-108">Gestion des utilisateurs et des propriétés des comptes d’utilisateur dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-108">Managing users and user account properties in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
+  - [<span data-ttu-id="d9d79-108">Gestion des utilisateurs et des propriétés des comptes d’utilisateur dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-108">Managing users and user account properties in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
 
-  - [<span data-ttu-id="dc5c2-109">Gestion des stratégies dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-109">Managing policies in Skype for Business Online</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
+  - [<span data-ttu-id="d9d79-109">Gestion des stratégies dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-109">Managing policies in Skype for Business Online</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
 
-  - [<span data-ttu-id="dc5c2-110">Gestion du client Skype entreprise à partir de Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-110">Managing the Skype for Business client from Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
+  - [<span data-ttu-id="d9d79-110">Gestion du client Skype entreprise à partir de Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-110">Managing the Skype for Business client from Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 
-  - [<span data-ttu-id="dc5c2-111">Gestion de la messagerie unifiée Exchange et de la messagerie vocale hébergée dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-111">Managing Exchange Unified Messaging and hosted voice mail in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
+  - [<span data-ttu-id="d9d79-111">Gestion de la messagerie unifiée Exchange et de la messagerie vocale hébergée dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-111">Managing Exchange Unified Messaging and hosted voice mail in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
 
-  - [<span data-ttu-id="dc5c2-112">Gestion des communications dans Skype entreprise Online avec des organisations et des utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="dc5c2-112">Managing communications in Skype for Business Online with outside users and organizations</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
+  - [<span data-ttu-id="d9d79-112">Gestion des communications dans Skype entreprise Online avec des organisations et des utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="d9d79-112">Managing communications in Skype for Business Online with outside users and organizations</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 
-  - [<span data-ttu-id="dc5c2-113">Gestion des réunions et conférences Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-113">Managing Skype for Business Online meetings and conferences</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
+  - [<span data-ttu-id="d9d79-113">Gestion des réunions et conférences Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-113">Managing Skype for Business Online meetings and conferences</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
 
-  - [<span data-ttu-id="dc5c2-114">Gestion des téléphones cellulaires et des appareils mobiles dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-114">Managing cell phones and mobile devices in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
+  - [<span data-ttu-id="d9d79-114">Gestion des téléphones cellulaires et des appareils mobiles dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-114">Managing cell phones and mobile devices in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="dc5c2-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dc5c2-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d9d79-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d9d79-115">See Also</span></span>
 
 
-[<span data-ttu-id="dc5c2-116">Aide-mémoire : utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="dc5c2-116">Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
+[<span data-ttu-id="d9d79-116">Aide-mémoire : utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="d9d79-116">Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
   
 
 </div>

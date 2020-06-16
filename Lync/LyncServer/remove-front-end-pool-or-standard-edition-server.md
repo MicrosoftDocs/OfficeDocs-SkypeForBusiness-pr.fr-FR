@@ -1,8 +1,8 @@
 ---
 title: Supprimer un pool frontal ou un serveur Standard Edition
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove Front End pool or Standard Edition server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47aa2edebe202f6ed21d1b802d899faea563feba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b004426c65157ef7ad1120728c9daeea1b68f161
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189537"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189537"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="da458-102">Supprimer un pool frontal ou un serveur Standard Edition</span><span class="sxs-lookup"><span data-stu-id="da458-102">Remove Front End pool or Standard Edition server</span></span>
+# <a name="remove-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="832e0-102">Supprimer un pool frontal ou un serveur Standard Edition</span><span class="sxs-lookup"><span data-stu-id="832e0-102">Remove Front End pool or Standard Edition server</span></span>
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "42189537"
 
 <span> </span>
 
-<span data-ttu-id="da458-103">_**Dernière modification de la rubrique :** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="da458-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="832e0-103">_**Dernière modification de la rubrique :** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="832e0-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="da458-104">Cette rubrique vous guide tout au long du processus de suppression d’un pool frontal ou d’un serveur frontal Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="da458-104">This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="da458-105">Lorsque vous supprimez un pool frontal, vous supprimez tous les serveurs frontaux qui appartiennent au pool dans le cadre du processus de suppression du pool.</span><span class="sxs-lookup"><span data-stu-id="da458-105">When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process.</span></span> <span data-ttu-id="da458-106">Lorsque vous supprimez un serveur frontal Standard Edition, vous devez supprimer la définition du magasin SQL du générateur de topologies.</span><span class="sxs-lookup"><span data-stu-id="da458-106">When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.</span></span>
+<span data-ttu-id="832e0-104">Cette rubrique vous guide tout au long du processus de suppression d’un pool frontal ou d’un serveur frontal Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="832e0-104">This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="832e0-105">Lorsque vous supprimez un pool frontal, vous supprimez tous les serveurs frontaux qui appartiennent au pool dans le cadre du processus de suppression du pool.</span><span class="sxs-lookup"><span data-stu-id="832e0-105">When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process.</span></span> <span data-ttu-id="832e0-106">Lorsque vous supprimez un serveur frontal Standard Edition, vous devez supprimer la définition du magasin SQL du générateur de topologies.</span><span class="sxs-lookup"><span data-stu-id="832e0-106">When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.</span></span>
 
 <div>
 
-## <a name="to-remove-a-front-end-server-pool"></a><span data-ttu-id="da458-107">Pour supprimer un pool de serveurs frontaux</span><span class="sxs-lookup"><span data-stu-id="da458-107">To remove a Front End Server pool</span></span>
+## <a name="to-remove-a-front-end-server-pool"></a><span data-ttu-id="832e0-107">Pour supprimer un pool de serveurs frontaux</span><span class="sxs-lookup"><span data-stu-id="832e0-107">To remove a Front End Server pool</span></span>
 
-1.  <span data-ttu-id="da458-108">Ouvrez le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="da458-108">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="832e0-108">Ouvrez le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="832e0-108">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="da458-109">Accédez au nœud Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="da458-109">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="832e0-109">Accédez au nœud Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="832e0-109">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="da458-110">Développez **Pools frontaux Enterprise Edition**, développez le pool frontal, cliquez avec le bouton droit sur le pool frontal que vous souhaitez supprimer, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="da458-110">Expand **Enterprise Edition Front End pools**, expand the Front End pool, right-click the Front End pool that you want to remove, and then click **Delete**.</span></span>
+3.  <span data-ttu-id="832e0-110">Développez **Pools frontaux Enterprise Edition**, développez le pool frontal, cliquez avec le bouton droit sur le pool frontal que vous souhaitez supprimer, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="832e0-110">Expand **Enterprise Edition Front End pools**, expand the Front End pool, right-click the Front End pool that you want to remove, and then click **Delete**.</span></span>
 
-4.  <span data-ttu-id="da458-111">Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="da458-111">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+4.  <span data-ttu-id="832e0-111">Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="832e0-111">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-remove-a-standard-edition-front-end-server"></a><span data-ttu-id="da458-112">Pour supprimer un serveur frontal Standard Edition</span><span class="sxs-lookup"><span data-stu-id="da458-112">To remove a Standard Edition Front End server</span></span>
+## <a name="to-remove-a-standard-edition-front-end-server"></a><span data-ttu-id="832e0-112">Pour supprimer un serveur frontal Standard Edition</span><span class="sxs-lookup"><span data-stu-id="832e0-112">To remove a Standard Edition Front End server</span></span>
 
-1.  <span data-ttu-id="da458-113">Ouvrez le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="da458-113">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="832e0-113">Ouvrez le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="832e0-113">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="da458-114">Accédez au nœud Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="da458-114">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="832e0-114">Accédez au nœud Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="832e0-114">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="da458-115">Développez **serveurs frontaux Standard Edition**, cliquez avec le bouton droit sur le serveur frontal que vous souhaitez supprimer, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="da458-115">Expand **Standard Edition Front End servers**, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
+3.  <span data-ttu-id="832e0-115">Développez **serveurs frontaux Standard Edition**, cliquez avec le bouton droit sur le serveur frontal que vous souhaitez supprimer, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="832e0-115">Expand **Standard Edition Front End servers**, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
 
-4.  <span data-ttu-id="da458-116">Développez **magasins SQL**, cliquez avec le bouton droit sur la base de données SQL Server associée au serveur frontal Standard Edition, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="da458-116">Expand **SQL stores**, right-click the SQL Server database that is associated with the Standard Edition Front End Server, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="832e0-116">Développez **magasins SQL**, cliquez avec le bouton droit sur la base de données SQL Server associée au serveur frontal Standard Edition, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="832e0-116">Expand **SQL stores**, right-click the SQL Server database that is associated with the Standard Edition Front End Server, and then click **Delete**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="da458-117">Vous devez supprimer la définition des bases de données SQL Server colocalisées à partir du serveur frontal Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="da458-117">You must remove the definition of the collocated SQL Server databases from the Standard Edition Front End Server.</span></span>
+    > <span data-ttu-id="832e0-117">Vous devez supprimer la définition des bases de données SQL Server colocalisées à partir du serveur frontal Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="832e0-117">You must remove the definition of the collocated SQL Server databases from the Standard Edition Front End Server.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="da458-118">Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="da458-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+5.  <span data-ttu-id="832e0-118">Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="832e0-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 

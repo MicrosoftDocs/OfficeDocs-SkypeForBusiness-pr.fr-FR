@@ -1,8 +1,8 @@
 ---
 title: 'Phase 5 : configuration du pool pilote'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 5: Configure the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 565ae8f69c43c15e25acd707806931afb7c2419e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56e68d7150fa4af78863049c6e27e26bf5efadba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209770"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209770"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-configure-the-pilot-pool"></a><span data-ttu-id="c45f0-102">Phase 5 : configuration du pool pilote</span><span class="sxs-lookup"><span data-stu-id="c45f0-102">Phase 5: Configure the pilot pool</span></span>
+# <a name="phase-5-configure-the-pilot-pool"></a><span data-ttu-id="2bd25-102">Phase 5 : configuration du pool pilote</span><span class="sxs-lookup"><span data-stu-id="2bd25-102">Phase 5: Configure the pilot pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42209770"
 
 <span> </span>
 
-<span data-ttu-id="c45f0-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="c45f0-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="2bd25-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2bd25-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="c45f0-104">À présent que le pool pilote a été créé et que les informations de déploiement hérité ont été fusionnées avec Lync Server 2013, cette section identifie quelques configurations qui doivent être effectuées sur le pool pilote.</span><span class="sxs-lookup"><span data-stu-id="c45f0-104">Now that the pilot pool has been created and legacy deployment information has been merged with Lync Server 2013, this section identifies a few configurations that must be made to the pilot pool.</span></span>
+<span data-ttu-id="2bd25-104">À présent que le pool pilote a été créé et que les informations de déploiement hérité ont été fusionnées avec Lync Server 2013, cette section identifie quelques configurations qui doivent être effectuées sur le pool pilote.</span><span class="sxs-lookup"><span data-stu-id="2bd25-104">Now that the pilot pool has been created and legacy deployment information has been merged with Lync Server 2013, this section identifies a few configurations that must be made to the pilot pool.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c45f0-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c45f0-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2bd25-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="2bd25-105">In This Section</span></span>
 
-  - [<span data-ttu-id="c45f0-106">Connecter le pool pilote aux serveurs Edge hérités</span><span class="sxs-lookup"><span data-stu-id="c45f0-106">Connect pilot pool to legacy Edge Servers</span></span>](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [<span data-ttu-id="2bd25-106">Connexion du pool pilote aux serveurs Edge hérités</span><span class="sxs-lookup"><span data-stu-id="2bd25-106">Connect pilot pool to legacy Edge Servers</span></span>](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [<span data-ttu-id="c45f0-107">Autoriser la connexion au serveur Edge Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="c45f0-107">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [<span data-ttu-id="2bd25-107">Autoriser la connexion au serveur Edge Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="2bd25-107">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [<span data-ttu-id="c45f0-108">Vérifier les paramètres de configuration</span><span class="sxs-lookup"><span data-stu-id="c45f0-108">Verify configuration settings</span></span>](verify-configuration-settings_1.md)
+  - [<span data-ttu-id="2bd25-108">Vérifier les paramètres de configuration</span><span class="sxs-lookup"><span data-stu-id="2bd25-108">Verify configuration settings</span></span>](verify-configuration-settings_1.md)
 
-  - [<span data-ttu-id="c45f0-109">Configuration des certificats et des stratégies d’accès à la passerelle XMPP</span><span class="sxs-lookup"><span data-stu-id="c45f0-109">Configure XMPP gateway access policies and certificates</span></span>](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [<span data-ttu-id="2bd25-109">Configuration des certificats et des stratégies d’accès de passerelle XMPP</span><span class="sxs-lookup"><span data-stu-id="2bd25-109">Configure XMPP gateway access policies and certificates</span></span>](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 
 </div>
 

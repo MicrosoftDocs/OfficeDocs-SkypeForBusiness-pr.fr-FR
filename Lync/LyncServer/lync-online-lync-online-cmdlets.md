@@ -1,8 +1,8 @@
 ---
 title: 'Lync Online : applets de commande Lync Online'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Lync Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 51803930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 771e73a62724c225351a155c9dc42d629c473c3f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5352f2c211f16fa446052884ad161c5506b523b8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198877"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42198877"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-online-cmdlets"></a><span data-ttu-id="e0ea5-102">Applets de commande Lync Online</span><span class="sxs-lookup"><span data-stu-id="e0ea5-102">Lync Online cmdlets</span></span>
+# <a name="lync-online-cmdlets"></a><span data-ttu-id="b80c2-102">Applets de commande Lync Online</span><span class="sxs-lookup"><span data-stu-id="b80c2-102">Lync Online cmdlets</span></span>
 
 </div>
 
@@ -35,115 +35,115 @@ ms.locfileid: "42198877"
 
 <span> </span>
 
-<span data-ttu-id="e0ea5-103">_**Dernière modification de la rubrique :** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="e0ea5-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="b80c2-103">_**Dernière modification de la rubrique :** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="b80c2-103">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="e0ea5-104">Cette page répertorie toutes les applets de commande Windows PowerShell disponibles pour les administrateurs de clients Microsoft Lync Online.</span><span class="sxs-lookup"><span data-stu-id="e0ea5-104">This page lists all the Windows PowerShell cmdlets available to administrators of Microsoft Lync Online tenants.</span></span>
+<span data-ttu-id="b80c2-104">Cette page répertorie toutes les applets de commande Windows PowerShell disponibles pour les administrateurs de clients Microsoft Lync Online.</span><span class="sxs-lookup"><span data-stu-id="b80c2-104">This page lists all the Windows PowerShell cmdlets available to administrators of Microsoft Lync Online tenants.</span></span>
 
 <div>
 
-## <a name="cmdlets-available-only-to-lync-online-administrators"></a><span data-ttu-id="e0ea5-105">Applets de commande disponibles uniquement pour les administrateurs Lync Online</span><span class="sxs-lookup"><span data-stu-id="e0ea5-105">Cmdlets Available Only to Lync Online Administrators</span></span>
+## <a name="cmdlets-available-only-to-lync-online-administrators"></a><span data-ttu-id="b80c2-105">Applets de commande disponibles uniquement pour les administrateurs Lync Online</span><span class="sxs-lookup"><span data-stu-id="b80c2-105">Cmdlets Available Only to Lync Online Administrators</span></span>
 
-<span data-ttu-id="e0ea5-106">Les applets de commande suivantes peuvent être utilisées uniquement avec Lync Online :</span><span class="sxs-lookup"><span data-stu-id="e0ea5-106">The following cmdlets can be used only with Lync Online:</span></span>
+<span data-ttu-id="b80c2-106">Les applets de commande suivantes peuvent être utilisées uniquement avec Lync Online :</span><span class="sxs-lookup"><span data-stu-id="b80c2-106">The following cmdlets can be used only with Lync Online:</span></span>
 
-  - <span data-ttu-id="e0ea5-107">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/JJ994030(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-107">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/JJ994030(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-107">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/JJ994030(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-107">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/JJ994030(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-108">[Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-108">[Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-108">[Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-108">[Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-109">[Get-CsTenant](https://technet.microsoft.com/library/JJ994044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-109">[Get-CsTenant](https://technet.microsoft.com/library/JJ994044(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-109">[Get-CsTenant](https://technet.microsoft.com/library/JJ994044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-109">[Get-CsTenant](https://technet.microsoft.com/library/JJ994044(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-110">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994072(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-110">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994072(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-110">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994072(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-110">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994072(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-111">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994034(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-111">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994034(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-111">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994034(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-111">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994034(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-112">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/Dn362770(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-112">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/Dn362770(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-112">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/Dn362770(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-112">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/Dn362770(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-113">[Get-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994016(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-113">[Get-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994016(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-113">[Get-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994016(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-113">[Get-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994016(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-114">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/JJ994088(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-114">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/JJ994088(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-114">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/JJ994088(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-114">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/JJ994088(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-115">[New-CsEdgeAllowList](https://technet.microsoft.com/library/JJ994023(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-115">[New-CsEdgeAllowList](https://technet.microsoft.com/library/JJ994023(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-115">[New-CsEdgeAllowList](https://technet.microsoft.com/library/JJ994023(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-115">[New-CsEdgeAllowList](https://technet.microsoft.com/library/JJ994023(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-116">[New-CsEdgeDomainPattern](https://technet.microsoft.com/library/JJ994040(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-116">[New-CsEdgeDomainPattern](https://technet.microsoft.com/library/JJ994040(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-116">[New-CsEdgeDomainPattern](https://technet.microsoft.com/library/JJ994040(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-116">[New-CsEdgeDomainPattern](https://technet.microsoft.com/library/JJ994040(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-117">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994080(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-117">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994080(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-117">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994080(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-117">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994080(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-118">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994046(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-118">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994046(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-118">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994046(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-118">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994046(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-119">[Set-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994047(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-119">[Set-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994047(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-119">[Set-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994047(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-119">[Set-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994047(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-120">[Update-CsTenantMeetingUrl](https://technet.microsoft.com/library/Dn424754(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-120">[Update-CsTenantMeetingUrl](https://technet.microsoft.com/library/Dn424754(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-120">[Update-CsTenantMeetingUrl](https://technet.microsoft.com/library/Dn424754(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-120">[Update-CsTenantMeetingUrl](https://technet.microsoft.com/library/Dn424754(v=OCS.15))</span></span>
 
-<span data-ttu-id="e0ea5-121">Pour plus d’informations sur la configuration de votre ordinateur afin d’utiliser Windows PowerShell pour gérer avec Lync Online, voir la rubrique d’aide [Using Windows PowerShell to Manage Lync Online](https://technet.microsoft.com/library/Dn362831(v=OCS.15)).</span><span class="sxs-lookup"><span data-stu-id="e0ea5-121">For information on how to configure your computer to use Windows PowerShell to manage with Lync Online see the help topic [Using Windows PowerShell to Manage Lync Online](https://technet.microsoft.com/library/Dn362831(v=OCS.15)).</span></span>
+<span data-ttu-id="b80c2-121">Pour plus d’informations sur la configuration de votre ordinateur afin d’utiliser Windows PowerShell pour gérer avec Lync Online, voir la rubrique d’aide [Using Windows PowerShell to Manage Lync Online](https://technet.microsoft.com/library/Dn362831(v=OCS.15)).</span><span class="sxs-lookup"><span data-stu-id="b80c2-121">For information on how to configure your computer to use Windows PowerShell to manage with Lync Online see the help topic [Using Windows PowerShell to Manage Lync Online](https://technet.microsoft.com/library/Dn362831(v=OCS.15)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="other-cmdlets-available-to-lync-online-administrators"></a><span data-ttu-id="e0ea5-122">Autres cmdlets disponibles pour les administrateurs Lync Online</span><span class="sxs-lookup"><span data-stu-id="e0ea5-122">Other Cmdlets Available to Lync Online Administrators</span></span>
+## <a name="other-cmdlets-available-to-lync-online-administrators"></a><span data-ttu-id="b80c2-122">Autres cmdlets disponibles pour les administrateurs Lync Online</span><span class="sxs-lookup"><span data-stu-id="b80c2-122">Other Cmdlets Available to Lync Online Administrators</span></span>
 
-<span data-ttu-id="e0ea5-123">Ces applets de commande peuvent être utilisées avec Lync Online ou avec la version locale de Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="e0ea5-123">These cmdlets can be used either with Lync Online or with the on-premises version of Lync Server 2013:</span></span>
+<span data-ttu-id="b80c2-123">Ces applets de commande peuvent être utilisées avec Lync Online ou avec la version locale de Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="b80c2-123">These cmdlets can be used either with Lync Online or with the on-premises version of Lync Server 2013:</span></span>
 
-  - <span data-ttu-id="e0ea5-124">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-124">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-124">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-124">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-125">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-125">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-125">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-125">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-126">[Get-CsClientPolicy](https://technet.microsoft.com/library/Gg398830(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-126">[Get-CsClientPolicy](https://technet.microsoft.com/library/Gg398830(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-126">[Get-CsClientPolicy](https://technet.microsoft.com/library/Gg398830(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-126">[Get-CsClientPolicy](https://technet.microsoft.com/library/Gg398830(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-127">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-127">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-127">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-127">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-128">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-128">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-128">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-128">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-129">[Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-129">[Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-129">[Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-129">[Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-130">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-130">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-130">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-130">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-131">[Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-131">[Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-131">[Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-131">[Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-132">[Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-132">[Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-132">[Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-132">[Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-133">[Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-133">[Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-133">[Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-133">[Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-134">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-134">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-134">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-134">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-135">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-135">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-135">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-135">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-136">[Get-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690049(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-136">[Get-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690049(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-136">[Get-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690049(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-136">[Get-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690049(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-137">[Get-CsUserAcp](https://technet.microsoft.com/library/Gg398978(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-137">[Get-CsUserAcp](https://technet.microsoft.com/library/Gg398978(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-137">[Get-CsUserAcp](https://technet.microsoft.com/library/Gg398978(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-137">[Get-CsUserAcp](https://technet.microsoft.com/library/Gg398978(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-138">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-138">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-138">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-138">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-139">[Grant-CsClientPolicy](https://technet.microsoft.com/library/Gg412942(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-139">[Grant-CsClientPolicy](https://technet.microsoft.com/library/Gg412942(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-139">[Grant-CsClientPolicy](https://technet.microsoft.com/library/Gg412942(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-139">[Grant-CsClientPolicy](https://technet.microsoft.com/library/Gg412942(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-140">[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-140">[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-140">[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-140">[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-141">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-141">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-141">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-141">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-142">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-142">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-142">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-142">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-143">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-143">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-143">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-143">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-144">[New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-144">[New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-144">[New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-144">[New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-145">[Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-145">[Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-145">[Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-145">[Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-146">[Remove-CsUserAcp](https://technet.microsoft.com/library/Gg398982(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-146">[Remove-CsUserAcp](https://technet.microsoft.com/library/Gg398982(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-146">[Remove-CsUserAcp](https://technet.microsoft.com/library/Gg398982(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-146">[Remove-CsUserAcp](https://technet.microsoft.com/library/Gg398982(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-147">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-147">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-147">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-147">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-148">[Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-148">[Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-148">[Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-148">[Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-149">[Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-149">[Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-149">[Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-149">[Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-150">[Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-150">[Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-150">[Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-150">[Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-151">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-151">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-151">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-151">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-152">[Set-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690013(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-152">[Set-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690013(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-152">[Set-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690013(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-152">[Set-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690013(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-153">[Set-CsUser](https://technet.microsoft.com/library/Gg398510(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-153">[Set-CsUser](https://technet.microsoft.com/library/Gg398510(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-153">[Set-CsUser](https://technet.microsoft.com/library/Gg398510(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-153">[Set-CsUser](https://technet.microsoft.com/library/Gg398510(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e0ea5-154">[Set-CsUserAcp](https://technet.microsoft.com/library/Gg413018(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e0ea5-154">[Set-CsUserAcp](https://technet.microsoft.com/library/Gg413018(v=OCS.15))</span></span>
+  - <span data-ttu-id="b80c2-154">[Set-CsUserAcp](https://technet.microsoft.com/library/Gg413018(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b80c2-154">[Set-CsUserAcp](https://technet.microsoft.com/library/Gg413018(v=OCS.15))</span></span>
 
 </div>
 

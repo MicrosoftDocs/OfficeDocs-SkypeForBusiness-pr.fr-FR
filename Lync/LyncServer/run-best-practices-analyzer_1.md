@@ -1,8 +1,8 @@
 ---
 title: Exécuter Best Practices Analyzer
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fead940eb80ee303955bed8f4dbe501984ebfa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a61b99fc5013f65ce70e5d79bee54ccca229725b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189268"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189268"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-best-practices-analyzer"></a><span data-ttu-id="09ee2-102">Exécuter Best Practices Analyzer</span><span class="sxs-lookup"><span data-stu-id="09ee2-102">Run Best Practices Analyzer</span></span>
+# <a name="run-best-practices-analyzer"></a><span data-ttu-id="1d8b6-102">Exécuter Best Practices Analyzer</span><span class="sxs-lookup"><span data-stu-id="1d8b6-102">Run Best Practices Analyzer</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42189268"
 
 <span> </span>
 
-<span data-ttu-id="09ee2-103">_**Dernière modification de la rubrique :** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="09ee2-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="1d8b6-103">_**Dernière modification de la rubrique :** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="1d8b6-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="09ee2-104">L’outil Office Communications Server 2007 R2 Best Practices Analyzer recueille des informations de configuration à partir d’un déploiement d’Office Communications Server 2007 R2 et détermine si la configuration est définie conformément aux meilleures pratiques de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="09ee2-104">The Office Communications Server 2007 R2 Best Practices Analyzer tool gathers configuration information from an Office Communications Server 2007 R2 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="09ee2-105">Vous pouvez installer l’outil sur un ordinateur client qui exécute Microsoft .NET Framework 2,0 ou directement sur le serveur qui exécute Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="09ee2-105">You can install the tool on a client computer that runs Microsoft .NET Framework 2.0, or directly on the server that runs Office Communications Server 2007 R2.</span></span> <span data-ttu-id="09ee2-106">Nous vous recommandons d’installer et d’exécuter cet outil sur un ordinateur client.</span><span class="sxs-lookup"><span data-stu-id="09ee2-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="09ee2-107">Les outils d’administration Office Communications Server 2007 R2 doivent également être installés localement sur l’ordinateur client afin que Best Practices Analyzer puisse collecter un ensemble complet de données.</span><span class="sxs-lookup"><span data-stu-id="09ee2-107">The Office Communications Server 2007 R2 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
+<span data-ttu-id="1d8b6-104">L’outil Office Communications Server 2007 R2 Best Practices Analyzer recueille des informations de configuration à partir d’un déploiement d’Office Communications Server 2007 R2 et détermine si la configuration est définie conformément aux meilleures pratiques de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="1d8b6-104">The Office Communications Server 2007 R2 Best Practices Analyzer tool gathers configuration information from an Office Communications Server 2007 R2 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="1d8b6-105">Vous pouvez installer l’outil sur un ordinateur client qui exécute Microsoft .NET Framework 2,0 ou directement sur le serveur qui exécute Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="1d8b6-105">You can install the tool on a client computer that runs Microsoft .NET Framework 2.0, or directly on the server that runs Office Communications Server 2007 R2.</span></span> <span data-ttu-id="1d8b6-106">Nous vous recommandons d’installer et d’exécuter cet outil sur un ordinateur client.</span><span class="sxs-lookup"><span data-stu-id="1d8b6-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="1d8b6-107">Les outils d’administration Office Communications Server 2007 R2 doivent également être installés localement sur l’ordinateur client afin que Best Practices Analyzer puisse collecter un ensemble complet de données.</span><span class="sxs-lookup"><span data-stu-id="1d8b6-107">The Office Communications Server 2007 R2 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
 
-<span data-ttu-id="09ee2-108">Vous pouvez télécharger Office Communications Server 2007 R2 Best Practices Analyzer à partir du centre de téléchargement Microsoft [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702)à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="09ee2-108">You can download the Office Communications Server 2007 R2 Best Practices Analyzer from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).</span></span>
+<span data-ttu-id="1d8b6-108">Vous pouvez télécharger Office Communications Server 2007 R2 Best Practices Analyzer à partir du centre de téléchargement Microsoft à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) .</span><span class="sxs-lookup"><span data-stu-id="1d8b6-108">You can download the Office Communications Server 2007 R2 Best Practices Analyzer from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).</span></span>
 
 </div>
 
