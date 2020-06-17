@@ -136,6 +136,7 @@
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activer ou désactiver les annonces d’entrée et de sortie des réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Passer l’option main aux réunions d’équipe](raise-hand-meetings.md)
 ## [Réunions Teams sur les navigateurs non pris en charge](unsupported-browsers.md)
 ## [Configurer le partage de bureau dans Teams](configure-desktop-sharing.md)
 ## [Enregistrement de réunion cloud Teams](cloud-recording.md)
