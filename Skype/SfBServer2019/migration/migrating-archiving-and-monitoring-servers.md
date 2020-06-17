@@ -1,8 +1,8 @@
 ---
 title: Migration des serveurs d’archivage et de surveillance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Si vous avez déployé le serveur d’archivage et surveillé votre serveur dans votre environnement hérité, vous pouvez déployer ces serveurs dans votre environnement 2019 Skype entreprise Server après la migration de vos pools front-end. En revanche, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, il est conseillé d’ajouter l’archivage et la surveillance à votre liste de pilotes de pilotes 2019 Skype entreprise Server avant de procéder à la migration de manière à ce que la fonctionnalité soit disponible pendant le processus de migration.
-ms.openlocfilehash: 5088f4b4f72ddc083cf2868df893946561eb2469
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Si vous avez déployé le serveur d’archivage et le serveur de surveillance dans votre environnement hérité, vous pouvez déployer ces serveurs dans votre environnement Skype entreprise Server 2019 après avoir migré vos pools frontaux. Toutefois, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, vous devez ajouter l’archivage et la surveillance à votre pool pilote Skype entreprise Server 2019 avant de procéder à la migration afin que la fonctionnalité soit disponible au cours du processus de migration.
+ms.openlocfilehash: 595c92e23b0872571f75c140f86b5c437c7d8129
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813452"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752666"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migration des serveurs d’archivage et de surveillance
 
-Si vous avez déployé le serveur d’archivage et surveillé votre serveur dans votre environnement hérité, vous pouvez déployer ces serveurs dans votre environnement 2019 Skype entreprise Server après la migration de vos pools front-end. En revanche, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, il est conseillé d’ajouter l’archivage et la surveillance à votre liste de pilotes de pilotes 2019 Skype entreprise Server avant de procéder à la migration de manière à ce que la fonctionnalité soit disponible pendant le processus de migration. 
+Si vous avez déployé le serveur d’archivage et le serveur de surveillance dans votre environnement hérité, vous pouvez déployer ces serveurs dans votre environnement Skype entreprise Server 2019 après avoir migré vos pools frontaux. Toutefois, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, vous devez ajouter l’archivage et la surveillance à votre pool pilote Skype entreprise Server 2019 avant de procéder à la migration afin que la fonctionnalité soit disponible au cours du processus de migration. 
   
-Si vous voulez utiliser les fonctionnalités d’archivage et de surveillance pendant le processus de migration, tenez compte des points suivants :
+Si vous voulez la fonctionnalité d’archivage et de surveillance au cours du processus de migration, gardez les considérations suivantes à l’esprit :
   
-- Les données d’archivage et de surveillance ne sont pas déplacées vers le déploiement 2019 de Skype entreprise Server. Les données que vous sauvegardez avant de désactiver l’environnement hérité seront votre historique d’activités dans l’environnement hérité.
+- Les données d’archivage et les données de surveillance ne sont pas déplacées vers le déploiement de Skype entreprise Server 2019. Les données que vous sauvegardez avant la mise hors service de l’environnement hérité seront votre historique des activités dans l’environnement hérité.
     
-- La version héritée du serveur d’archivage et de la surveillance du serveur peut être associée uniquement à un pool frontal hérité. Dans Skype entreprise Server 2019, l’archivage et la surveillance ne constituent plus de rôles de serveur, mais les services intégrés au pool frontal 2019 de Skype entreprise Server.
+- La version héritée du serveur d’archivage et du serveur de surveillance ne peut être associée qu’à un pool frontal hérité. Dans Skype entreprise Server 2019, l’archivage et la surveillance ne sont plus des rôles serveur, mais des services intégrés au pool frontal de Skype entreprise Server 2019.
     
-- Pendant la période de coexistence de vos déploiements d’anciens et de Skype entreprise Server 2019, la version héritée du serveur d’archivage et la surveillance du serveur collectent des données pour les utilisateurs hébergés sur des pools hérités. Archivage et surveillance dans Skype entreprise Server 2019 rassemblez les données des utilisateurs hébergés sur les pools 2019 de Skype entreprise Server.
+- Pendant la coexistence de vos déploiements hérités et Skype entreprise Server 2019, la version héritée du serveur d’archivage et du serveur de surveillance recueille des données pour les utilisateurs hébergés sur les pools hérités. L’archivage et la surveillance dans Skype entreprise Server 2019 recueillent des données pour les utilisateurs hébergés sur des pools 2019 Skype entreprise Server.
     
     > [!NOTE]
-    > Pendant la phase de migration lorsque vous utilisez toujours votre serveur de bord traditionnel avec le nouveau Skype entreprise Server 2019, la version héritée du serveur d’archivage continue de rassembler les données pour les utilisateurs hébergés sur des listes héritées et l’archivage dans Skype entreprise. Server 2019 recueille des données pour les utilisateurs hébergés sur des pools 2019 de Skype entreprise Server. 
+    > Pendant la phase de migration, lorsque vous utilisez toujours votre serveur Edge hérité avec le nouveau pool pilote Skype entreprise Server 2019, la version héritée du serveur d’archivage continue de collecter des données pour les utilisateurs hébergés sur les pools hérités et l’archivage dans Skype entreprise Server 2019 recueille des données pour les utilisateurs hébergés sur des pools Skype entreprise Server 2019. 
   
-- Si vous utilisez une solution tierce d’archivage et de surveillance conjointement avec l’archivage et la surveillance dans Skype entreprise Server 2019, contactez votre revendeur pour savoir quand et comment vous devez intégrer la solution tierce dans Skype entreprise Server 2019.
+- Si vous utilisez une solution d’archivage et de surveillance tierce en association avec l’archivage et la surveillance dans Skype entreprise Server 2019, consultez votre fournisseur quand et comment intégrer la solution tierce avec Skype entreprise Server 2019.
     
 

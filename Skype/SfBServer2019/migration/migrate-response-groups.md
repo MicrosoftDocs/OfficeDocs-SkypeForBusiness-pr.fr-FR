@@ -1,8 +1,8 @@
 ---
 title: Effectuer la migration de groupes Response Group
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Une fois les utilisateurs déplacés vers les pools Skype entreprise Server 2019, vous pouvez migrer vos groupes Response Group. La migration de groupes Response Group consiste à copier des groupes d’agents, des files d’attente, des flux de travail, des fichiers audio et des objets de contact de groupe Response Group à partir du déploiement hérité vers le pool Skype entreprise Server 2019. Une fois vos groupes de réponse hérités migrés, les appels vers les groupes Response Group sont gérés par l’application Response Group dans le pool Skype entreprise Server 2019. Les appels destinés aux groupes Response Group ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016105"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752676"
 ---
 # <a name="migrate-response-groups"></a>Effectuer la migration de groupes Response Group
 
@@ -40,7 +40,7 @@ Après avoir migré les groupes Response Group, vous devez utiliser le panneau d
 Lorsque vous migrez des groupes Response Group, les groupes Response Group hérités ne sont pas supprimés. Lorsque vous gérez des groupes Response Group après une migration à l’aide du panneau de configuration de Skype entreprise ou de Skype entreprise Server Management Shell, vous pouvez voir les groupes Response Group hérités et Skype entreprise Server 2019 Response groups. Vous devez appliquer les mises à jour uniquement aux groupes Response Group de Skype entreprise Server 2019. Les groupes Response Group hérités ne sont conservés qu’à des fins de restauration. 
   
 > [!CAUTION]
-> Une fois que la migration est terminée et que les nouveaux groupes Response Group ont été créés, le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell afficheront les versions héritées et Skype entreprise Server 2019 de chaque réponse. Communauté. N’utilisez pas le panneau de configuration Skype entreprise Server ou Skype entreprise Server Management Shell pour supprimer les groupes Response Group hérités. Si vous supprimez un, le groupe Response Group correspondant qui a été créé pendant la migration cessera de fonctionner. Les groupes Response Group hérités sont supprimés lorsque vous désactivez le pool hérité. 
+> Une fois la migration terminée et les nouveaux groupes Response Group créés, le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell affichent les versions héritées et Skype entreprise Server 2019 de chaque groupe Response Group. N’utilisez pas le panneau de configuration Skype entreprise Server ou Skype entreprise Server Management Shell pour supprimer les groupes Response Group hérités. Si vous supprimez un, le groupe Response Group correspondant qui a été créé pendant la migration cessera de fonctionner. Les groupes Response Group hérités sont supprimés lorsque vous désactivez le pool hérité. 
   
 > [!IMPORTANT]
 > Nous vous recommandons de ne pas supprimer les données de votre déploiement précédent tant que vous n’avez pas désaffecté le pool. En outre, nous vous recommandons fortement d’exporter les groupes Response Group immédiatement après la migration. Si un groupe Response Group hérité doit être supprimé, vous pouvez restaurer vos groupes Response Group à partir de la sauvegarde pour obtenir les groupes de réponse Skype entreprise Server 2019 en cours d’exécution à nouveau. 

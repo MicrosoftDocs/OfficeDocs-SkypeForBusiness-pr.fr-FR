@@ -1,8 +1,8 @@
 ---
 title: Réinitialisation du contrôle d’admission des appels
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Si un pool frontal hérité héberge le contrôle d’admission des appels (CAC), vous devez déplacer l’hébergement CAC vers un pool Skype entreprise Server 2019 avant de pouvoir supprimer le pool frontal hérité.
-ms.openlocfilehash: cbc481e55d044ef196bd91dbfa8f7ebc796f28b5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812802"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753296"
 ---
 # <a name="reset-call-admission-control"></a>Réinitialisation du contrôle d’admission des appels
 
 Si un pool frontal hérité héberge le contrôle d’admission des appels (CAC), vous devez déplacer l’hébergement CAC vers un pool Skype entreprise Server 2019 avant de pouvoir supprimer le pool frontal hérité.
   
-### <a name="to-reset-cac"></a>Pour réinitialiser le CAC
+### <a name="to-reset-cac"></a>Pour réinitialiser le service Contrôle d’admission des appels
 
-1. Ouvrez le générateur de topologie.
+1. Ouvrez le Générateur de topologie.
     
-2. Cliquez avec le bouton droit sur le nœud site, puis cliquez sur **modifier les propriétés**.
+2. Cliquez avec le bouton droit sur le nœud du site, puis cliquez sur **Modifier les propriétés**.
     
-3. Sous **paramètre de contrôle d’admission des appels**, assurez-vous que l’option **activer le contrôle d’admission des appels** est activée. 
+3. Sous **Définition du contrôle d’admission des appels**, assurez-vous que l’option **Activer le contrôle d’admission des appels** est sélectionnée. 
     
-4. Sous **pool frontal pour exécuter le contrôle d’admission des appels (CAC)**, sélectionnez le pool Skype entreprise Server 2019 d’hébergement CAC, puis cliquez sur **OK**.
+4. Sous **pool frontal pour exécuter le contrôle d’admission des appels (CAC)**, sélectionnez le pool Skype entreprise Server 2019 qui doit héberger le contrôle d’admission des appels, puis cliquez sur **OK**.
     
 5. Publiez la topologie.
     

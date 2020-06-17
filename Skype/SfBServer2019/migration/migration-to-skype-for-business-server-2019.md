@@ -1,8 +1,8 @@
 ---
 title: Migration vers Skype entreprise Server 2019
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,37 +10,37 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Les rubriques de cette section vous guident dans le processus de migration vers Skype entreprise Server 2019.
-ms.openlocfilehash: 51c3be10b90198e1abe24172aa35ab167e871739
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les rubriques de cette section vous guident tout au long du processus de migration vers Skype entreprise Server 2019.
+ms.openlocfilehash: 860fce550de33ed726bbbe723c8c7677ff09fc1c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813402"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752616"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migration vers Skype entreprise Server 2019
 
-Les rubriques de cette section vous guident dans le processus de migration vers Skype entreprise Server 2019. Cet article décrit la migration de Lync Server 2013 ou de Skype entreprise Server 2015 vers Skype entreprise Server 2019.
+Les rubriques de cette section vous guident tout au long du processus de migration vers Skype entreprise Server 2019. Cet article traite de la migration de Lync Server 2013 ou Skype entreprise Server 2015 vers Skype entreprise Server 2019.
 
 > [!IMPORTANT]
-> Dans l’ensemble du contenu, nous utilisons le terme *hérité* pour faire référence à l’ancien serveur Lync Server 2013 ou à Skype entreprise Server 2015 que vous migrez vers Skype entreprise Server 2019.
+> Tout au long du contenu, nous utilisons le terme *hérité* pour faire référence à l’ancien Lync Server 2013 ou Skype entreprise Server 2015 que vous migrez vers Skype entreprise Server 2019.
   
 > [!IMPORTANT]
-> Ce guide décrit les étapes généralement requises pour effectuer chaque phase de migration. Elle ne traite pas chaque topologie de déploiement hérité possible ou chaque scénario de migration possible. Par conséquent, il est possible que vous n’ayez pas à effectuer toutes les étapes décrites ou que vous deviez effectuer des étapes supplémentaires, selon votre déploiement. Ce guide fournit également des exemples de procédure de vérification. Ces étapes de vérification sont fournies pour vous aider à comprendre ce que vous devez savoir pour vous assurer que toutes les phases s’exécutent correctement lors de la migration. Adaptez ces étapes de vérification à votre processus de migration spécifique. 
+> Ce guide décrit les étapes généralement requises pour effectuer chaque phase de la migration. Il n’aborde pas toutes les topologies de déploiement héritées possibles ni tous les scénarios de migration possibles. Par conséquent, vous n’avez peut-être pas besoin d’effectuer toutes les étapes décrites ou vous devez peut-être en effectuer d’autres, selon votre déploiement. Ce guide fournit également des exemples d’étapes de vérification. Ces étapes de vérification sont fournies pour vous aider à comprendre ce que vous devez rechercher afin que chaque phase se déroule correctement au fur et à mesure de la migration. Adaptez-les à votre processus de migration propre. 
   
-Ce guide fournit des informations spécifiques à la mise à niveau de votre déploiement existant. Il n’explique pas comment modifier votre topologie existante. Ce guide ne traite pas de l’implémentation des nouvelles fonctionnalités. Lorsqu’une procédure détaillée est documentée à un autre emplacement, ce guide vous dirige vers l’article ou la section article. 
+Le présent guide fournit des informations propres à la mise à niveau de votre déploiement existant. Il n’explique pas comment modifier votre topologie existante. Il n’aborde pas l’implémentation des nouvelles fonctionnalités. Lorsqu’une procédure détaillée est documentée ailleurs, ce guide vous dirige vers la section article ou article. 
   
-Cet article définit les termes comme spécifié dans la liste suivante.
+Cet article définit les termes comme indiqué dans la liste suivante.
   
-**migration :** Migration de votre déploiement de production de Lync Server 2013 ou de Skype entreprise Server 2015 vers Skype entreprise Server 2019.
+**migration :** Migration de votre déploiement de production de Lync Server 2013 ou Skype entreprise Server 2015 vers Skype entreprise Server 2019.
     
-**coexistence :** Environnement temporaire existant lors de la migration lors de la migration de certaines fonctionnalités vers Skype entreprise Server 2019 et si d’autres fonctionnalités continuent de subsister dans une version antérieure.
+**coexistence :** Environnement temporaire qui existe lors de la migration, quand une fonctionnalité a été migrée vers Skype entreprise Server 2019 et que d’autres fonctionnalités demeurent sur une version antérieure.
     
-**interopérabilité :** La capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
+**interopérabilité :** Capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
 
-**héritage :** Le système à partir duquel vous effectuez la migration, qui est Lync Server 2013 ou Skype entreprise Server 2015.
+**hérité :** Le système à partir duquel vous effectuez la migration, c’est-à-dire Lync Server 2013 ou Skype entreprise Server 2015.
     
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Avant de commencer la migration](before-you-begin-the-migration.md)
     
@@ -50,7 +50,7 @@ Cet article définit les termes comme spécifié dans la liste suivante.
     
 - [Étape 3 : Déployer un pool pilote](phase-3-deploy-pilot-pool.md)
     
-- [Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md)
+- [Phase 4 : déplacer les utilisateurs test vers le pool pilote](phase-4-move-test-users-to-the-pilot-pool.md)
     
 - [Étape 5 : Ajouter un serveur Edge au pool pilote](phase-5-add-edge-server-to-pilot-pool.md)
     

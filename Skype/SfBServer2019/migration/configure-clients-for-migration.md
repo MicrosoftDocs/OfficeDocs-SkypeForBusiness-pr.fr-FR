@@ -1,8 +1,8 @@
 ---
 title: Configurer les clients pour la migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cette rubrique contient les étapes de déploiement de clients recommandées avant la migration vers Skype entreprise Server 2019. Ces modifications de configuration doivent être effectuées sur Lync Server 2013 ou Skype entreprise Server 2015.
-ms.openlocfilehash: ad3ed4f34409b5ba730d79c24db65092802572db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fd630898d064c8ba079f87ce571e73de8cf0aaf9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986089"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754064"
 ---
 # <a name="configure-clients-for-migration"></a>Configurer les clients pour la migration
 
