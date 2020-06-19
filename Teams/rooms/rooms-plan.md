@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Cet article décrit les considérations relatives à la planification pour le déploiement de Microsoft Teams, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997305"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761462"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier les salles de Microsoft teams
 
@@ -102,8 +102,8 @@ _Exemple d’inventaire d’une salle de réunion/de conférence_
 
 | Site  | Nom de la salle | Type de salle | Nombre de personnes  | Dans l’étendue ? | Fonctionnalités actuelles de la salle       | Nouvelles fonctionnalités de salle     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| HQ de Londres | Curie         | Moyen        | 6&ndash;12                  | Oui          | Mains                        | 1 écran, audio et vidéo plus présentation<br>Accès RTC |
-| HQ de Sydney | Hill          | Grande         | 12&ndash;16                 | Oui          | Unité AV héritée, 1 écran et appareil photo | 2 écrans, audio et vidéo et présentation<br>Accès RTC |
+| HQ de Londres | Curie         | Moyen        | 6 &ndash; 12                  | Oui          | Mains                        | 1 écran, audio et vidéo plus présentation<br>Accès RTC |
+| HQ de Sydney | Hill          | Grande         | 12 &ndash; 16                 | Oui          | Unité AV héritée, 1 écran et appareil photo | 2 écrans, audio et vidéo et présentation<br>Accès RTC |
 
 ## <a name="device-selection"></a>Sélection d’appareil 
 
@@ -124,10 +124,10 @@ _Exemple de modèle de déploiement de salles de Microsoft teams pour votre orga
 
 | **Type/taille de pièce** | **Nombre de personnes**  | **Système de salle Microsoft teams** | **Appareils périphériques**  | **Affichage (s)** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| Mettre le focus sur 10 'par 9 '      | 2&ndash;4                   |                                  |                         |                 |
-| Petites 16 'par 16 '     | 4&ndash;6                   |                                  |                         |                 |
-| Moyenne 18 'par 20 '    | 6&ndash;12                  |                                  |                         |                 |
-| Grande 15 'par 32 '     | 12&ndash;16                 |                                  |                         |                 |
+| Mettre le focus sur 10 'par 9 '      | 2 &ndash; 4                   |                                  |                         |                 |
+| Petites 16 'par 16 '     | 4 &ndash; 6                   |                                  |                         |                 |
+| Moyenne 18 'par 20 '    | 6 &ndash; 12                  |                                  |                         |                 |
+| Grande 15 'par 32 '     | 12 &ndash; 16                 |                                  |                         |                 |
 
 **Conseil Pro :** C’est le moment idéal pour commencer à collecter des informations sur la solution de Microsoft teams que vous avez choisie.
 
@@ -150,7 +150,7 @@ Votre organisation doit exécuter les tâches de surveillance, d’administratio
 
 De nombreuses organisations disposent d’une équipe ou d’un partenaire AV qui gère leurs salles et périphériques de conférence. Cette équipe doit être chargée de l’acceptation des personnes qui géreront les périphériques de la salle de Microsoft teams pour contrôler les performances et déployer les mises à jour logicielles et les correctifs logiciels. 
 
-Envisagez la file d’attente du support technique pour laquelle vous dirigez les appels liés à Microsoft teams rooms֪, puis fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre l’utilisation des salles de Microsoft teams et les principales étapes de résolution des problèmes. Le point de départ pour cette FAQ est l' [aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) de l’utilisateur et de la [prise en charge des équipes au sein de votre organisation](known-issues.md).
+Envisagez la file d’attente du support technique pour laquelle vous dirigez les appels liés à Microsoft teams rooms֪, puis fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre l’utilisation des salles de Microsoft teams et les principales étapes de résolution des problèmes. Le bon point de départ pour cette FAQ est l’aide de l' [utilisateur](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et les [problèmes connus](known-issues.md).
 
 |    |     |
 |-----------|------------|

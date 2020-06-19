@@ -1,7 +1,7 @@
 ---
 title: Guide de sécurité pour Microsoft Teams
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: tracyp
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689660"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761442"
 ---
 # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
@@ -61,7 +61,7 @@ Teams atténue ces attaques en exécutant la protection réseau Azure DDOS et en
 
 ### <a name="eavesdropping"></a>Protection contre l’écoute
 
-Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. Cette attaque est également appelée reniflage (« sniffing ») ou surveillance (« snooping »). Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données.
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
 Teams utilise MTLS (mutual TLS) pour les communications serveur au sein de Microsoft 365 et Office 365 et utiles également TLS des clients au service, rendant cette attaque très difficile à réaliser, voire impossible, dans le délai pendant lequel une conversation donnée pourrait être attaquée. TLS authentifie toutes les parties et chiffre tout le trafic. Ceci n’empêche pas les attaques par écoute, mais l’intrus ne peut pas lire le trafic à moins que le chiffrement ne soit rompu.
 

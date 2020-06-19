@@ -3,8 +3,8 @@ title: Adopter Microsoft Teams
 ms.reviewer: karuanag
 description: Découvrez les ressources d’adoption disponibles pour vous aider à planifier et déployer Microsoft teams au sein de votre organisation.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665926"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756513"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
 > [!NOTE]
-> Pour obtenir une vue d’ensemble de la transition vers les ressources et l’apprentissage à distance pour vous aider à commencer, consultez la page d’accueil de la [**formation à distance**](https://www.microsoft.com/education/remote-learning).
+> Pour avoir une vue d’ensemble de la transition vers les ressources pédagogiques et distantes pour vous aider à démarrer, consultez [**la page d’accueil de l’apprentissage à distance**](https://www.microsoft.com/education/remote-learning).
 
 S’il s’agit d’une petite entreprise, ou si vous voulez déployer des équipes à partir de la discussion, d’équipes & de canaux et de réunions, utilisez nos [guides](get-started-with-teams-quick-start.md)de démarrage rapide pour vous lancer rapidement. S’il s’agit d’une grande organisation disposant d’une configuration Skype entreprise hybride ou locale, ou si vous voulez déployer des fonctions vocales (par exemple, des plans d’appel ou du système téléphonique Microsoft 365 ou Office 365), vous pouvez commencer avec **nos recommandations en**matière de mise en route.
 

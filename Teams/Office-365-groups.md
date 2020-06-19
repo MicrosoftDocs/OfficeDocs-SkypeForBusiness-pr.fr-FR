@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61569b2a60bdce188a7ffb75ae6720d4e1e87a3c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637053"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753894"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Groupes Microsoft 365 et Microsoft teams
 =====================================
@@ -43,7 +43,7 @@ Ne manquez pas les [groupes d’affiches dans Microsoft 365 pour les architectes
 Lorsque vous créez une équipe, sur le système principal, vous créez un groupe Microsoft 365 et la bibliothèque de documents SharePoint associée et un bloc-notes OneNote, ainsi que des liens vers d’autres applications Office 365 Cloud. Si la personne qui crée l’équipe est le propriétaire d’un groupe public ou privé Office 365 existant, elle peut ajouter des fonctionnalités d’équipe au groupe si elle a moins de 5000 personnes et qu’elle n’a jamais été ajoutée à Teams. Cela crée un canal **général** par défaut dans lequel se trouvent les messages de discussion, les documents, OneNote et les autres objets. Le principe d’affichage de la bibliothèque de documents du canal permettra d’afficher le dossier **général** représentant le canal dans l’équipe. Plus important encore, si vous créez votre propre structure de dossiers au sein d’une bibliothèque de documents, **celle-ci n’est pas propagée** aux équipes en tant que canal ; pour l’instant, seules les équipes sont acheminées vers SharePoint.
 
 > [!NOTE]
-> En fonction des commentaires des clients, les nouveaux groupes Microsoft 365 générés suite à la création d’une équipe dans Microsoft Teams ne s’afficheront plus dans Outlook par défaut. Pour les clients souhaitant continuer à utiliser le comportement d’affichage de ces groupes dans Outlook, une cmdlet PowerShell Exchange Online sera fournie, ce qui peut permettre au groupe d’avoir accès à l’environnement Outlook. Les groupes créés via Outlook et les versions ultérieures sont activés pour les équipes continuent à apparaître dans Outlook et Teams. Cette mise à jour sera déployée progressivement entre Outlook et teams dans les prochains mois.
+> Sur la base des commentaires des clients, les nouveaux groupes Microsoft 365 générés suite à la création d’une équipe dans le client Microsoft Teams ne s’afficheront plus dans Outlook par défaut. Pour activer ou désactiver l’affichage des groupes dans Outlook, utilisez l’applet de connexion [Set-unifiedgrouphttps](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) avec le paramètre **HiddenFromExchangeClientsEnabled** . Les groupes créés via Outlook et les versions ultérieures sont activés pour les équipes continuent à apparaître dans Outlook et Teams. 
 
 > [!NOTE]
 > La suppression d’un groupe Microsoft 365 entraîne la suppression de l’alias de boîte aux lettres pour les invitations aux réunions Outlook Le retrait d’une équipe et son impact sur Outlook sont d’environ 20 minutes. La suppression d’une équipe du client teams le supprime immédiatement de l’affichage de tous les membres de l’équipe. Si vous supprimez des membres d’un groupe Microsoft 365 pour lequel la fonctionnalité d’équipe est activée, il peut y avoir un délai d’environ deux heures avant la suppression de l’équipe dans le client teams pour les personnes concernées qui ont été supprimées.

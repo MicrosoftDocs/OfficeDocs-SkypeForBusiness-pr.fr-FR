@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637273"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799795"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -32,9 +32,9 @@ Lorsqu’un invité est invité à rejoindre une équipe, il reçoit un message 
     
 ![Capture d’écran montrant un exemple de message électronique de bienvenue](media/guest-experience-image1.png)
     
-Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Comme le montre la capture d’écran d’un exemple d’équipe, une bannière indique « cette équipe a des invités » et une étiquette **(invité)** apparaît en regard du nom de chaque invité.
-    
-![Capture d’écran illustrant des notifications de bannière aux utilisateurs invités](media/guest-experience-image2.png "La capture d’écran montre une partie du canal marketing de Northwind Traders, avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le mot « GUEST » à côté de leur nom.")
+Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Une balise située dans le coin supérieur droit du thread de canal indique le nombre d’invités figurant sur l’équipe et **l’étiquette de l’invité située** en regard du nom de chaque invité.
+
+![Capture d’écran montrant un indicateur indiquant le nombre d’invités dans l’équipe](media/guest-experience-image2.png)
 
 Regardez ces vidéos sur l’interface de l’invité dans teams :
 - [Rejoindre une équipe en tant qu’invité](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

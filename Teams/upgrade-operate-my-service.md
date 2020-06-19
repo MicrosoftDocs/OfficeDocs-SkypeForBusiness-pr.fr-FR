@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666086"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761472"
 ---
 # <a name="operate-your-service"></a>Exploiter votre service
 
@@ -433,7 +433,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 
 2. **Valider la connectivité du client :** Les problèmes de connectivité entraînent des fonctionnalités ou des problèmes de connexion dans Teams. Nous vous conseillons de valider la connectivité au service (en particulier pour les nouveaux sites et emplacements). Assurez-vous que les instructions d' [URL et de plages d’adresses IP d’Office 365](https://aka.ms/o365ips) suivantes sont suivies pour chaque site. Vous pouvez tirer parti de l' [outil d’évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour effectuer un test de connectivité afin de vérifier que les ports multimédias ont été ouverts correctement pour les fonctionnalités d’équipe. Les étapes détaillées d’exécution des tests de connectivité sont fournies dans les recommandations relatives à la [préparation du réseau](prepare-network.md) .
 
-3. **Consultez la liste des problèmes connus :** Consultez les [équipes de support technique de votre organisation](known-issues.md) pour déterminer si l’utilisateur a été affecté par l’un de ces problèmes. Pour résoudre le problème, suivez la solution de contournement fournie (le cas échéant).
+3. **Consultez la liste des problèmes connus :** Pour savoir si l’utilisateur a été affecté par l’un de ces problèmes, consultez la [procédure de dépannage de teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) . Pour résoudre le problème, suivez la solution de contournement fournie (le cas échéant).
 
 4. **Visitez la communauté Microsoft teams :** La [communauté Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) propose des espaces dédiés pour Teams. La communauté équipes fournit une liste de discussion, des billets de blog et des annonces centrées sur les équipes. Vous pouvez publier une question ou effectuer une recherche dans les discussions précédentes pour trouver des solutions à votre problème.
 
@@ -457,7 +457,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 
 [Communauté Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Prendre en charge les équipes au sein de votre organisation](known-issues.md)
+[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Vérifier l’état du service Microsoft Teams](service-health.md)
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691040"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756845"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
@@ -76,7 +76,7 @@ Ce mode peut être utilisé avant le démarrage d’un déploiement géré d’�
 
 
 > [!IMPORTANT]
-> Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution de contournement :pour afficher la présence dans Outlook (et d'autres applications Office), Skype Entreprise doit être installé, même si vous exécutez Teams en mode **Teams uniquement**. Microsoft est sensibilisé à ce problème et travaille activement au développement d’un correctif.
+> Si vous désinstallez le client Skype entreprise après le déplacement d’un utilisateur en mode **équipes uniquement** , vous devrez redémarrer Outlook et teams si la présence cesse de fonctionner. 
 
 
 Un utilisateur de **teams** (également appelé utilisateur *mis à niveau* ) a accès à toutes les fonctionnalités dans Teams. Ils peuvent conserver le client Skype entreprise pour pouvoir participer à des réunions dans Skype entreprise qui ont été organisées par des utilisateurs qui ne sont pas mis à niveau ou des parties externes. Un utilisateur mis à niveau peut continuer à communiquer avec d’autres utilisateurs de l’organisation qui utilisent encore Skype entreprise à l’aide des fonctionnalités d’interopérabilité entre teams et Skype entreprise (à condition que les utilisateurs de Skype entreprise ne sont pas en mode d' **îlot** ). Toutefois, un utilisateur mis à niveau ne peut pas lancer une conversation, un appel ou une réunion Skype entreprise.

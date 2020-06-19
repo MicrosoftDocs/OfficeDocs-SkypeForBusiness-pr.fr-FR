@@ -4,108 +4,37 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-layout: LandingPage
 audience: ITPro
-ms.topic: landing-page
+ms.topic: article
+feedback_system: None
 ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Considérations relatives à la planification du déploiement des salles de Microsoft Teams, et déploiement et gestion du système.
-ms.openlocfilehash: 0a418f6fcca9a122a7e3e6aaca123562f2b6fc56
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
+ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905426"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773379"
 ---
-<h1>Salles Microsoft Teams</h1>
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p>Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande envergure grâce aux équipes de conférences de grande qualité,&#39;qui sont simples à utiliser, à déployer et à gérer. </p>
-                        <p>Démarrez des réunions avec une jointure en une seule fois, puis projetez instantanément sur l’écran de la salle et partagez-les avec les participants distants. </p>
-                        <p>Sélectionnez les périphériques audio et vidéo appropriés pour l’un de nos partenaires : Yealink, Logitech, Crestron, Polycom, Lenovo et HP.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="An icon that represents planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="An icon that represents deployment" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Déployer</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="An icon that represents management" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Gestion</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+# <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
+
+Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande taille, à l’aide d’une expérience de collaboration complète et simple d’utilisation, de déploiement et de gestion.
+
+Démarrez des réunions avec une jointure en une seule fois, puis projetez instantanément sur l’écran de la salle et partagez-les avec les participants distants.
+
+Sélectionnez les périphériques audio et vidéo appropriés pour l’un de nos partenaires : Yealink, Logitech, Crestron, Polycom, Lenovo et HP.
+
+:::image type="content" source="../media/srs-room.jpg" alt-text="Une table de conférences avec le matériel Microsoft teams":::
+
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![Symbole de liste](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Symbole de déploiement](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[Déployer](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Outils/clé](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[Gestion](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+
+<br>
 
 > [!NOTE]
 > Les salles de Microsoft teams sont conçues pour une utilisation avec Microsoft Teams, Skype entreprise Online, Skype entreprise Server 2019 ou Skype entreprise Server 2015.  <br><br>Les plateformes antérieures comme Lync Server 2013 ne sont pas censées fonctionner avec les salles Microsoft Teams.

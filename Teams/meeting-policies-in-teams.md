@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690940"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756915"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -420,9 +420,9 @@ Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette
 Pour spécifier le complément de réunion que vous voulez mettre à la disposition des utilisateurs, définissez le paramètre **PreferredMeetingProviderForIslandsMode** comme suit :
 
 - Définissez le paramètre sur **TeamsAndSfB** pour activer le complément réunion teams et le complément Skype entreprise dans Outlook. Il s’agit de la valeur par défaut.
-- Définissez le paramètre sur **TeamsOnly** pour activer uniquement le complément de réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions futures disposent d’un lien vers une réunion Teams. Elle ne permet pas de migrer des liens vers les équipes. Ce paramètre de stratégie n’a aucun impact sur la présence, les discussions, les appels RTC ou toute autre fonctionnalité de Skype entreprise, ce qui signifie que les utilisateurs continuent à utiliser Skype entreprise pour ces fonctionnalités.
+- Définissez le paramètre sur **équipes** pour activer uniquement le complément réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions futures disposent d’un lien vers une réunion Teams. Elle ne permet pas de migrer des liens vers les équipes. Ce paramètre de stratégie n’a aucun impact sur la présence, les discussions, les appels RTC ou toute autre fonctionnalité de Skype entreprise, ce qui signifie que les utilisateurs continuent à utiliser Skype entreprise pour ces fonctionnalités.
 
-  Si vous définissez le paramètre sur **TeamsOnly**, puis que vous revenez à **TeamsAndSfB**, les compléments de réunion sont activés. Toutefois, Notez que les liens de participation à une réunion teams existants ne seront pas déplacés vers Skype entreprise. Seules les réunions Skype entreprise programmées après le changement comportent un lien vers une réunion Skype entreprise.
+  Si vous définissez le paramètre sur **teams**, puis que vous revenez à **TeamsAndSfB**, les compléments de réunion sont activés. Toutefois, Notez que les liens de participation à une réunion teams existants ne seront pas déplacés vers Skype entreprise. Seules les réunions Skype entreprise programmées après le changement comportent un lien vers une réunion Skype entreprise.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de la stratégie de réunion-mode de filtres vidéo
 

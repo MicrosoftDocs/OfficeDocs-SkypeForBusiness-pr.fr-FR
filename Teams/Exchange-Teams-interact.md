@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637063"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752976"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -50,7 +50,7 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 |**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui |
 |**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui|
 |**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>, 3</sup>|Oui, <sup> 4|Oui|Non|Non|Oui|Oui|Non|Oui, <sup> 5|Oui, <sup> 6|Oui |Oui |
-|**Exchange sur site** (synchronisation avec Azure ad & configuration OAuth requise)|Oui <sup>2</sup>| Oui <sup>2</sup> |Oui, <sup> 4|Oui|Oui (Exchange 2016 CU3 +)|Oui<sup>8</sup> (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui, <sup> 5|Oui, <sup> 6|Oui |Oui |
+|**Exchange sur site** (synchronisation avec Azure ad & configuration OAuth requise)|Oui <sup>2</sup>| Oui <sup>2</sup> |Oui, <sup> 4|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui, <sup> 5|Oui, <sup> 6|Oui |Oui |
 
 <sup>1</sup> Exchange 2016 CU3 et supérieur pris en charge.  
 
@@ -93,7 +93,7 @@ Microsoft teams fonctionne avec plusieurs services Microsoft 365 et Office 365 p
 
 Voici quelques éléments supplémentaires à prendre en considération lors de l’implémentation de Microsoft teams au sein de votre organisation.
 
-- Dans Microsoft Teams, les fonctions de sécurité et de conformité, telles que eDiscovery, la recherche de contenu, l'archivage et la conservation légale sont plus efficaces dans les environnements Exchange Online et SharePoint Online. Dans le cas de conversations de canal, les messages sont journalisés dans la boîte aux lettres du groupe dans Exchange Online et peuvent être utilisés par eDiscovery. Si SharePoint Online et OneDrive Entreprise (avec un compte professionnel ou scolaire) sont activés pour les utilisateurs dans l'organisation, ces fonctionnalités de conformité sont également disponibles pour l'ensemble des fichiers dans Teams.
+- In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
 - Contrôle et protection de la configuration des stratégies de conformité dans les équipes et Exchange à l’aide d’un accès conditionnel. Pour plus d’informations, voir [fonctionnement des stratégies d’accès conditionnel pour Microsoft teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 

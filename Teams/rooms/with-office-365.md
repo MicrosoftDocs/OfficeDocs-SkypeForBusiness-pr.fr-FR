@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Microsoft 365 ou Office 365, où teams ou Skype entreprise et Exchange sont tous deux en ligne.
-ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666136"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756795"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365
 
 Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Microsoft 365 ou Office 365, où Microsoft teams ou Skype entreprise et Exchange sont tous deux en ligne.
 
-Le moyen le plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de Windows PowerShell distant. Microsoft fournit [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous permet de créer de nouveaux comptes d’utilisateur, ou de valider des comptes de ressources existants dont vous disposez pour vous aider à les convertir en comptes d’utilisateurs de salles Microsoft teams compatibles. Si vous le souhaitez, vous pouvez suivre les étapes ci-dessous afin de configurer des comptes que votre appareil de salle Microsoft teams utilisera.
+Le moyen le plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de Windows PowerShell distant. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer de nouveaux comptes d’utilisateurs, ou de valider des comptes de ressources existants dont vous avez besoin afin de vous aider à les convertir en comptes d’utilisateurs de salles Microsoft teams compatibles. Si vous le souhaitez, vous pouvez suivre les étapes ci-dessous afin de configurer des comptes que votre appareil de salle Microsoft teams utilisera.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -116,53 +116,55 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
 
 5. Si vous ne souhaitez pas que le mot de passe expire, utilisez la syntaxe suivante :
 
-    ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-    ```
-<!--
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
+   ```
+   <!--
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
    Cet exemple définit le mot de passe du compte Rigel1@contoso.onmicrosoft.com pour qu’il n’expire jamais.
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
+   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    Vous pouvez également définir un numéro de téléphone pour le compte en exécutant la commande suivante :
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
 6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles pour votre organisation Microsoft 365 ou Office 365, procédez comme suit :
 
-  ``` Powershell
-  Get-MsolAccountSku
-  ```
-<!--
-   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
    Vous pouvez ensuite ajouter une licence à l’aide du`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> applet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
 
-  ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-  ``` 
-<!-- 
-   ``` Powershell
+   ``` 
+   <!-- 
+   ```Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
@@ -183,19 +185,19 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
    Activez ensuite votre compte Microsoft teams pour Skype entreprise Server en exécutant l’applet de commande suivante :
 
    ``` Powershell
+   $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    Obtenez les informations RegistrarPool à partir du nouveau compte d’utilisateur configuré, comme le montre l’exemple suivant :
 
     ``` Powershell
+    $rm="Rigel1@contoso.onmicrosoft.com"
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
     > Les nouveaux comptes d’utilisateur ne peuvent pas être créés sur le même pool de bureau d’enregistrement que les comptes d’utilisateurs existants dans le client. Dans le cas présent, la commande ci-dessus empêche les erreurs dans la configuration du compte.
-
-Après avoir suivi les étapes ci-dessous pour activer votre compte Microsoft teams dans Microsoft teams ou Skype entreprise Online, vous devez attribuer une licence à l’appareil Microsoft Teams. À l’aide du centre d’administration Microsoft 365, attribuez une licence Skype entreprise Online (plan 2) ou une licence Skype entreprise Online (plan 3) à l’appareil.
 
 ### <a name="assign-a-license-to-your-account"></a>Affectation d’une licence à votre compte
 

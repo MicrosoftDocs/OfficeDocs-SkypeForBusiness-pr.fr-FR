@@ -1,7 +1,7 @@
 ---
 title: Modèles d’organisations de santé
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles de Microsoft teams pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: db6475c3d7c4be6242c1befb988b240b9efcab42
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7f5fbeb967b72a25e4df5dee6f0597c3140d85b6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904726"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756603"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
@@ -164,7 +164,7 @@ Pour utiliser ces modèles, il vous suffit de changer la propriété « templat
 
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Prise en main des modèles Teams](../../get-started-with-teams-templates.md)
 

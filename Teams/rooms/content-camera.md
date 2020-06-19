@@ -1,7 +1,7 @@
 ---
 title: Découvrir comment configurer les appareils photo de contenu-Microsoft teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans une salle de Microsoft Teams, qui interagit avec un logiciel de traitement d’image pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157807"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756895"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -87,7 +87,7 @@ Pour plus d’informations, consultez la rubrique Marketplace Microsoft teams Ma
 
 Une fois la caméra installée dans la salle, configurez-la sur la console Microsoft teams salles de cette salle :
 
-1. Sélectionnez **Settings** ![l’icône](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)paramètres des paramètres, connectez-vous en tant qu’administrateur, puis sélectionnez Paramètres de l' **appareil**.
+1. Sélectionnez **Settings** ![ l’icône paramètres ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) des paramètres, connectez-vous en tant qu’administrateur, puis sélectionnez Paramètres de l' **appareil**.
 2. Dans la section **valeurs par défaut de l’appareil photo** , sélectionnez l’appareil photo de contenu et assurez-vous que l’option **améliorations du contenu** est sélectionnée.
 3. Facultatif Si la caméra a été installée à l’envers, car la caméra a été montée à partir du plafond, activez l’option **faire pivoter l’appareil photo 180 °** .
 4. Sélectionnez **enregistrer et quitter**.
@@ -100,6 +100,6 @@ Vous pouvez également ajuster ces paramètres à distance à l’aide d’un [f
 
 [Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md)
 
-[Configuration requise pour Microsoft teams](requirements.md)
+[Spécifications des salles Microsoft Teams](requirements.md)
 
 

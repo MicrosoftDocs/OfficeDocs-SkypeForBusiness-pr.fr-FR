@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691230"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799825"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -49,7 +49,7 @@ Microsoft propose également une solution vocale tout-en-un, comme un forfait d�
 
 Le routage direct prend également en charge les utilisateurs dotés de la licence supplémentaire pour le forfait d’appel Microsoft. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md). 
 
-Lorsque les utilisateurs participent à une conférence planifiée, le numéro d’accès est fourni par le service de conférence rendez-vous de Microsoft, qui nécessite des licences appropriées.  Lors d’un appel sortant, le service de conférence rendez-vous de Microsoft passe l’appel à l’aide des fonctionnalités d’appel en ligne, qui nécessitent une gestion appropriée des licences. (Notez que la numérotation n’est pas routée via le routage direct.) Pour plus d’informations, reportez-vous à la rubrique [réunions en ligne avec teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+Lorsque les utilisateurs participent à une conférence planifiée, le numéro d’accès est fourni par le service de conférence rendez-vous de Microsoft, qui nécessite des licences appropriées.  Lors d’un appel sortant, le service de conférence rendez-vous de Microsoft passe l’appel à l’aide des fonctionnalités d’appel en ligne, qui nécessitent une gestion appropriée des licences. (Remarque Si un utilisateur ne dispose pas d’une licence de conférence rendez-vous Microsoft, il envoie des itinéraires via le routage direct.) Pour plus d’informations, reportez-vous à la rubrique [réunions en ligne avec teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 La planification de votre déploiement du routage direct est essentiel pour une implémentation réussie. Cet article décrit les exigences en matière d’infrastructure et de gestion des licences et fournit des informations sur la connectivité SBC : 
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur la configuration du routage direct, voir [configu
 ## <a name="infrastructure-requirements"></a>Conditions d’infrastructure requises
 Les exigences d’infrastructure pour les domaines SBCs et de connectivité réseau pris en charge pour le déploiement du routage direct sont indiquées dans le tableau suivant :  
 
-|**Exigence d’infrastructure**|**Vous avez besoin des éléments suivants :**|
+|Exigence d’infrastructure|Vous avez besoin des éléments suivants :|
 |:--- |:--- |
 |Contrôleur de bordure de session (SBC)|SBC pris en charge. Pour plus d’informations, voir [SBCS prises en charge](#supported-session-border-controllers-sbcs).|
 |Lignes de téléphonie connectées à l’SBC|Un ou plusieurs Trunks de téléphonie connectés à l’SBC. À la fin, l’SBC se connecte au système Microsoft Phone via le routage direct. Les SBC peuvent également se connecter à des entités de téléphonie tierces, telles que des PBX, des adaptateurs de téléphonie analogique, etc. Toute option de connectivité PSTN qui est connectée à l’SBC fonctionne. (Pour la configuration des Trunks RTC auprès de l’SBC, veuillez consulter les fournisseurs ou les fournisseurs de lignes SBC.)|
@@ -136,7 +136,7 @@ Le nom de domaine SBC doit être issu de l’un des noms inscrits dans les domai
 
 Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, que le nom puisse être utilisé comme nom de domaine complet pour l’SBC et des exemples de noms de domaine complets valides :
 
-|**Nom DNS**|**Peut être utilisé pour le nom de domaine complet SBC**|**Exemples de noms de FQDN**|
+|Nom DNS|Peut être utilisé pour le nom de domaine complet SBC|Exemples de noms de FQDN|
 |:--- |:--- |:--- |
 contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|Non|L’utilisation des domaines *. onmicrosoft.com n’est pas prise en charge pour les noms SBC
@@ -257,7 +257,7 @@ Vous devez utiliser les ports suivants pour les environnements Microsoft 365 ou 
 - Office 365 (GCC High)
 - Office 365 DoD
 
-|**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
+|Trafic|De|À|Port source|Port de destination|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|Proxy SIP|SBC|1024 – 65535|Défini sur le SBC (pour Office 365 (au port de DoD de la France uniquement) 5061 doit être utilisé)|
 SIP/TLS|SBC|Proxy SIP|Définie sur l’SBC|5061|
@@ -269,7 +269,7 @@ L’SBC crée une requête DNS pour résoudre sip.pstnhub.microsoft.com. Le cent
 
 Le tableau ci-dessous résume les relations entre les centres de donneaux principal, secondaire et tertiaire :
 
-|**Si le centre de donnees principal est**|**EMEA**|**NOAM**|**RÉGIONS**|
+|Si le centre de donnees principal est|EMEA|NOAM|RÉGIONS|
 |:--- |:--- |:--- |:--- |
 |Centre de la secondaire (sip2.pstnhub.microsoft.com)|Nous|COMMUNAUTAIRES|Nous|
 |Le troisième centre de sip3.pstnhub.microsoft.com|RÉGIONS|RÉGIONS|COMMUNAUTAIRES|
@@ -298,7 +298,7 @@ Le trafic de média est acheminé vers et à partir d’un service distinct dans
 ### <a name="port-range-applicable-to-all-environments"></a>Plage de ports (applicable à tous les environnements)
 Le tableau suivant indique la portée de port des processeurs multimédias : 
 
-|**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
+|Trafic|De|À|Port source|Port de destination|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|Processeur de média|SBC|3478-3481 et 49152-53247|Définie sur l’SBC|
 |UDP/SRTP|SBC|Processeur de média|Définie sur l’SBC|3478-3481 et 49152-53247|

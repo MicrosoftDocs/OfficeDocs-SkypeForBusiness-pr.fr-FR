@@ -1,7 +1,7 @@
 ---
 title: Coexistence avec Skype Entreprise
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportement de coexistence entre les équipes & Skype entreprise, y compris les paramètres de routage, les discussions & le routage des appels, les conversations & les appels existants, les & de présence.
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137304"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757235"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -65,12 +65,12 @@ Les paramètres qui déterminent la méthode de routage du thread sont les suiva
 
 Les tableaux ci-dessous capturent le routage de discussions et d’appels dans le client et sont valides pour les nouveaux appels ou messages instantanés qui ne sont pas démarrés à partir d’un thread préexistant. Il décrit le client recevant un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur à gauche, à un utilisateur de destinataire dans le client sur la droite.
 
-Les messages envoyés aux utilisateurs de TeamsOnly sont toujours routés vers Teams. Les messages envoyés aux\* utilisateurs de marketing sont toujours routés vers Skype entreprise, si la conversation est possible comme décrit ci-dessus. Les messages envoyés aux îlots utilisateurs seront toujours routés vers le client à partir duquel ils ont été envoyés.
+Les messages envoyés aux utilisateurs de TeamsOnly sont toujours routés vers Teams. Les messages envoyés aux \* utilisateurs de marketing sont toujours routés vers Skype entreprise, si la conversation est possible comme décrit ci-dessus. Les messages envoyés aux îlots utilisateurs seront toujours routés vers le client à partir duquel ils ont été envoyés.
 
 Les tableaux ci-dessous indiquent le client dans un mode donné qui reçoit un appel de la part de l’expéditeur (trois colonnes la plus à gauche), en fonction du mode de l’expéditeur, du client choisi et de l’endroit où le client Skype entreprise est hébergé (locaux ou en ligne).
 
 Dans les tableaux ci-dessous : 
-- **Marketing\* ** représente l’un des modes suivants : *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **Marketing \* ** représente l’un des modes suivants : *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - Le *texte en italique* met en évidence une conversation d’interopérabilité.
 
@@ -78,16 +78,16 @@ Dans les tableaux ci-dessous :
 
 **Tableau 1a : nouvelle conversation ou routage d’appel vers un destinataire du mode insulaire**
 
-| <br/><br/> Veille | Autorité <br/><br/> Client | <br/><br/> Marketing&nbsp;famille | | Destinataire <br/><br/> Île  |
+| <br/><br/> Veille | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille | | Destinataire <br/><br/> Île  |
 |--- |--- |--- |--- |--- |
 | Île | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Locaux<br/>Locaux| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
 |Marketing\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Locaux<br/> |&boxv;<br/>&boxv;|Skype Entreprise<br/>Skype Entreprise<br/>|
 |TeamsOnly |Équipes| Online<br/>|&boxv;<br/>|Équipes|
 | | | | | |
 
-**Tableau 1b : nouvelle conversation ou routage d’appel dans un destinataire dans un mode marketing\***
+**Tableau 1b : nouvelle conversation ou routage d’appel dans un destinataire dans un \* mode marketing**
 
-| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing&nbsp;famille | |   Destinataire <br/><br/> Marketing\*   |
+| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille | |   Destinataire <br/><br/> Marketing\*   |
 |--- |--- |--- |---   |--- |
 | Île |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **Ce n’est pas possible** <br/>Skype Entreprise<br/> |
 |Marketing\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Locaux<br/> |&boxv;<br/>&boxv; |  Skype Entreprise<br/>Skype Entreprise<br/> |
@@ -96,7 +96,7 @@ Dans les tableaux ci-dessous :
 
 **Tableau 1C : nouvelle conversation ou routage d’appel en mode TeamsOnly sur un client**
 
-| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing&nbsp;famille | |   Destinataire <br/><br/> TeamsOnly  |
+| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille | |   Destinataire <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | Île   |Équipes<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Équipes <br/>*Teams* <br/>Équipes <br/>*Teams*  |
 |Marketing\*  | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Locaux<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
@@ -107,7 +107,7 @@ Dans les tableaux ci-dessous :
   
 Les tableaux ci-dessous capturent le routage des appels et des discussions fédéré et sont valides pour les nouveaux appels ou les discussions. Ils indiquent quel client recevra un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur à gauche, à un utilisateur cible fédéré sur la droite.
 
-En résumé, si la conversation est possible comme décrit ci-dessus, les messages envoyés aux utilisateurs de TeamsOnly seront toujours terrains dans Teams. les messages envoyés aux\* utilisateurs de marketing seront toujours dans Skype entreprise. les messages envoyés aux îlots utilisateurs seront toujours terrains dans Skype entreprise, quel que soit le client à partir duquel ils ont été envoyés. L’acheminement pour les conversations et les appels fédérés est différent du routage dans le client au sein desquels les utilisateurs peuvent toujours bénéficier d’une communication fédérée dans Skype entreprise.
+En résumé, si la conversation est possible comme décrit ci-dessus, les messages envoyés aux utilisateurs de TeamsOnly seront toujours terrains dans Teams. les messages envoyés aux \* utilisateurs de marketing seront toujours dans Skype entreprise ; les messages envoyés aux utilisateurs d’îlot seront toujours terrains dans Skype entreprise, quel que soit le client à partir duquel ils ont été envoyés. L’acheminement pour les conversations et les appels fédérés est différent du routage dans le client au sein desquels les utilisateurs peuvent toujours bénéficier d’une communication fédérée dans Skype entreprise.
 
 En effet, nous ne sommes pas en mesure de supposer qu’un partenaire Skype entreprise fédéré utilise déjà teams s’il est en mode îlot. Îles est le mode par défaut, mais nous ne pouvons pas supposer que tous les utilisateurs des îles exécutent Teams. En routant vers Skype entreprise, nous assurons qu’aucune communication avec un utilisateur d’îlot ne fonctionne. S’il est routé vers Teams, cette communication peut être manquée si la cible n’a pas utilisé Teams. Le routage vers Skype entreprise garantit que le message sera toujours reçu.  
 
@@ -125,7 +125,7 @@ Les tableaux ci-dessous décrivent le client recevant un appel de la part de l�
 | TeamsOnly |Équipes |Online| &boxv;|*Skype Entreprise* |
 |  | | | | 
 
-**Tableau 2b : nouvelle conversation ou routage d’appel vers un destinataire dans un mode\* marketing**
+**Tableau 2b : nouvelle conversation ou routage d’appel vers un destinataire dans un \* mode marketing**
 
 | <br/><br/>Veille   | Autorité<br/><br/> Client| <br/><br/>Marketing famille| |  Destinataire<br/><br/> Marketing\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ Par exemple, si une discussion ou un appel d’un expéditeur doit débarquer su
 Pour savoir quel comportement vous attend, vous devez comprendre que la présence est partagée en fonction du mode de coexistence d’un utilisateur :
 
 * Si un utilisateur est en mode TeamsOnly, tout autre utilisateur (dans teams ou Skype entreprise) verra la présence des équipes des utilisateurs TeamsOnly
-* Si un utilisateur se trouve dans l’un des\* modes marketing (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), tout autre utilisateur (dans teams ou Skype entreprise) verra la présence de l'\* utilisateur
+* Si un utilisateur se trouve dans l’un des \* modes marketing (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), tout autre utilisateur (dans teams ou Skype entreprise) verra \* la présence de l’utilisateur
 * Si un utilisateur est en mode îlots (ou hérité), la présence dans teams et la présence dans Skype entreprise est indépendante (les valeurs ne correspondent pas), et les autres utilisateurs peuvent voir l’utilisateur de l’îlot de travail, selon qu’ils se trouvent dans le même client ou dans un client fédéré et quel client ils utilisent
     * À partir de teams, tout autre utilisateur au sein d’un même client verra la présence des équipes de l’utilisateur de l’îlot ; Ceci est aligné avec la table de routage dans le client ci-dessus.
     * À partir de teams, tout utilisateur d’un client fédéré verra la présence de l’utilisateur de l’îlot. Ceci est aligné avec la table de routage fédérée ci-dessus.
@@ -183,7 +183,7 @@ Pour savoir quel comportement vous attend, vous devez comprendre que la présenc
 
 ### <a name="in-tenant-presence"></a>Présence dans le client
 
-Les messages envoyés aux utilisateurs de TeamsOnly seront toujours en équipe. Les messages envoyés aux\* utilisateurs de marketing seront toujours disponibles dans Skype entreprise, si la conversation est possible comme décrit ci-dessus. Les messages envoyés aux îlots utilisateurs s’afficheront toujours dans le client à partir duquel ils ont été créés.
+Les messages envoyés aux utilisateurs de TeamsOnly seront toujours en équipe. Les messages envoyés aux \* utilisateurs de marketing seront toujours disponibles dans Skype entreprise, si la conversation est possible comme décrit ci-dessus. Les messages envoyés aux îlots utilisateurs s’afficheront toujours dans le client à partir duquel ils ont été créés.
 
 Le tableau décrit la présence de l’éditeur qui sera vue par un observateur, en fonction du mode de l’éditeur et du client de l’observateur (pour un nouveau thread).
 

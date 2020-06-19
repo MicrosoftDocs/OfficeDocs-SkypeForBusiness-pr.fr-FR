@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Apprenez à personnaliser une stratégie de messagerie sécurisée qui peut inclure les confirmations de lecture et les notifications de priorité.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724894"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755828"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -53,7 +53,7 @@ Pour les applications de santé, sélectionnez **contrôle utilisateur** ou **ac
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Envoyer des messages urgents à l’aide de notifications de priorité
 
-Un utilisateur peut marquer un message comme *urgent* lors de l’envoi de messages instantanés à d’autres utilisateurs. Cette fonctionnalité permet au personnel de l’hôpital de s’avertir lorsque l’un d’eux nécessite son attention. À la différence des messages *importants* ordinaires, les [notifications de priorité](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) avertissent les utilisateurs toutes les deux minutes pour une durée de 20 minutes maximum ou jusqu’à ce que le message soit reçu et lu par le destinataire, ce qui maximise la probabilité que le message soit traité en temps opportun.
+Un utilisateur peut marquer un message comme *urgent* lors de l’envoi de messages instantanés à d’autres utilisateurs. Cette fonctionnalité permet au personnel de l’hôpital de s’avertir lorsque l’un d’eux nécessite son attention. À la différence des messages *importants* ordinaires, les [notifications de priorité](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) avertissent les utilisateurs toutes les deux minutes pour une durée de 20 minutes maximum ou jusqu’à ce que le message soit reçu et lu par le destinataire, ce qui maximise la probabilité que le message soit traité en temps opportun.
 
 Un administrateur peut activer ou désactiver la possibilité pour les utilisateurs ayant affecté cette stratégie d’envoyer des notifications de priorité. Cette fonctionnalité est activée par défaut. Le destinataire du message prioritaire peut ne pas avoir la même stratégie de messagerie et ne peut pas désactiver la réception de messages de priorité. Dans le cas des applications de santé, nous vous recommandons d’activer la fonctionnalité pour au moins quelques utilisateurs, mais vous devez en déterminer les.
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690010"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753436"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -34,7 +34,7 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 - **Teams** regroupe des personnes, du contenu et des outils autour d'un projet ou d'une tâche spécifique au sein d'une organisation.
 
     - Teams peut être créé pour être privé, accessible uniquement aux utilisateurs invités.
-    - Teams peut également être créé pour être publique et ouvert à tous les utilisateurs d’une organisation (jusqu'à 5000 membres).
+    - Les équipes peuvent également être créées pour être publiques et ouvertes, et tout le monde au sein de l’organisation peut participer (jusqu’à 10 000 membres).
     
     Une équipe est conçue pour réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
