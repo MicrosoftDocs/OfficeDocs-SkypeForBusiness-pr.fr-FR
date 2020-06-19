@@ -15,164 +15,166 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Microsoft 365 ou Office 365, où teams ou Skype entreprise et Exchange sont tous deux en ligne.
-ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666136"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756795"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a><span data-ttu-id="7ed1c-103">Déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365</span><span class="sxs-lookup"><span data-stu-id="7ed1c-103">Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365</span></span>
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a><span data-ttu-id="34ffe-103">Déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365</span><span class="sxs-lookup"><span data-stu-id="34ffe-103">Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365</span></span>
 
-<span data-ttu-id="7ed1c-104">Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Microsoft 365 ou Office 365, où Microsoft teams ou Skype entreprise et Exchange sont tous deux en ligne.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-104">Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Microsoft Teams or Skype for Business and Exchange are both online.</span></span>
+<span data-ttu-id="34ffe-104">Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Microsoft 365 ou Office 365, où Microsoft teams ou Skype entreprise et Exchange sont tous deux en ligne.</span><span class="sxs-lookup"><span data-stu-id="34ffe-104">Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Microsoft Teams or Skype for Business and Exchange are both online.</span></span>
 
-<span data-ttu-id="7ed1c-105">Le moyen le plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de Windows PowerShell distant.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="7ed1c-106">Microsoft fournit [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous permet de créer de nouveaux comptes d’utilisateur, ou de valider des comptes de ressources existants dont vous disposez pour vous aider à les convertir en comptes d’utilisateurs de salles Microsoft teams compatibles.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts.</span></span> <span data-ttu-id="7ed1c-107">Si vous le souhaitez, vous pouvez suivre les étapes ci-dessous afin de configurer des comptes que votre appareil de salle Microsoft teams utilisera.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-107">If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.</span></span>
+<span data-ttu-id="34ffe-105">Le moyen le plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de Windows PowerShell distant.</span><span class="sxs-lookup"><span data-stu-id="34ffe-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="34ffe-106">Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer de nouveaux comptes d’utilisateurs, ou de valider des comptes de ressources existants dont vous avez besoin afin de vous aider à les convertir en comptes d’utilisateurs de salles Microsoft teams compatibles.</span><span class="sxs-lookup"><span data-stu-id="34ffe-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts.</span></span> <span data-ttu-id="34ffe-107">Si vous le souhaitez, vous pouvez suivre les étapes ci-dessous afin de configurer des comptes que votre appareil de salle Microsoft teams utilisera.</span><span class="sxs-lookup"><span data-stu-id="34ffe-107">If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7ed1c-108">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="7ed1c-108">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="34ffe-108">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="34ffe-108">Requirements</span></span>
 
-<span data-ttu-id="7ed1c-109">Avant de déployer des salles Microsoft teams avec Microsoft 365 ou Office 365, assurez-vous que vous remplissez les conditions requises.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-109">Before you deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="7ed1c-110">Pour plus d’informations, voir la [Configuration requise pour Microsoft teams salles](requirements.md).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-110">For more information, see [Microsoft Teams Rooms requirements](requirements.md).</span></span>
+<span data-ttu-id="34ffe-109">Avant de déployer des salles Microsoft teams avec Microsoft 365 ou Office 365, assurez-vous que vous remplissez les conditions requises.</span><span class="sxs-lookup"><span data-stu-id="34ffe-109">Before you deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="34ffe-110">Pour plus d’informations, voir la [Configuration requise pour Microsoft teams salles](requirements.md).</span><span class="sxs-lookup"><span data-stu-id="34ffe-110">For more information, see [Microsoft Teams Rooms requirements](requirements.md).</span></span>
 
-<span data-ttu-id="7ed1c-111">Pour activer Skype entreprise, vous devez disposer des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-111">To enable Skype for Business, you must have the following:</span></span>
+<span data-ttu-id="34ffe-111">Pour activer Skype entreprise, vous devez disposer des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="34ffe-111">To enable Skype for Business, you must have the following:</span></span>
 
-- <span data-ttu-id="7ed1c-112">Skype entreprise Online (plan 2 ou plan d’entreprise) ou version ultérieure dans votre plan Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-112">Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Microsoft 365 or Office 365 plan.</span></span> <span data-ttu-id="7ed1c-113">Le plan doit permettre l’accès aux fonctionnalités de conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-113">The plan needs to allow dial-in conferencing capabilities.</span></span>
+- <span data-ttu-id="34ffe-112">Skype entreprise Online (plan 2 ou plan d’entreprise) ou version ultérieure dans votre plan Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="34ffe-112">Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Microsoft 365 or Office 365 plan.</span></span> <span data-ttu-id="34ffe-113">Le plan doit permettre l’accès aux fonctionnalités de conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="34ffe-113">The plan needs to allow dial-in conferencing capabilities.</span></span>
 
-- <span data-ttu-id="7ed1c-114">Si vous avez besoin de fonctionnalités de connexion à une réunion, vous avez besoin d’une licence de système téléphonique et de téléconférence.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-114">If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.</span></span>  <span data-ttu-id="7ed1c-115">Si vous avez besoin de fonctionnalités de numérotation d’une réunion, vous aurez besoin d’une licence de conférence audio.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-115">If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.</span></span>
+- <span data-ttu-id="34ffe-114">Si vous avez besoin de fonctionnalités de connexion à une réunion, vous avez besoin d’une licence de système téléphonique et de téléconférence.</span><span class="sxs-lookup"><span data-stu-id="34ffe-114">If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.</span></span>  <span data-ttu-id="34ffe-115">Si vous avez besoin de fonctionnalités de numérotation d’une réunion, vous aurez besoin d’une licence de conférence audio.</span><span class="sxs-lookup"><span data-stu-id="34ffe-115">If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.</span></span>
 
-- <span data-ttu-id="7ed1c-116">Les utilisateurs de votre client doivent avoir des boîtes aux lettres Exchange.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-116">Your tenant users must have Exchange mailboxes.</span></span>
+- <span data-ttu-id="34ffe-116">Les utilisateurs de votre client doivent avoir des boîtes aux lettres Exchange.</span><span class="sxs-lookup"><span data-stu-id="34ffe-116">Your tenant users must have Exchange mailboxes.</span></span>
 
-- <span data-ttu-id="7ed1c-117">Votre compte Microsoft teams Room nécessite au moins une licence Skype entreprise Online (plan 2), mais il ne nécessite pas de licence Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-117">Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.</span></span> <span data-ttu-id="7ed1c-118">Pour plus d’informations, consultez la rubrique [licences Microsoft teams](rooms-licensing.md) .</span><span class="sxs-lookup"><span data-stu-id="7ed1c-118">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.</span></span>
+- <span data-ttu-id="34ffe-117">Votre compte Microsoft teams Room nécessite au moins une licence Skype entreprise Online (plan 2), mais il ne nécessite pas de licence Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="34ffe-117">Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.</span></span> <span data-ttu-id="34ffe-118">Pour plus d’informations, consultez la rubrique [licences Microsoft teams](rooms-licensing.md) .</span><span class="sxs-lookup"><span data-stu-id="34ffe-118">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.</span></span>
 
-<span data-ttu-id="7ed1c-119">Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous à la [Description du service Skype entreprise Online](https://technet.microsoft.com/library/jj822172.aspx).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-119">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
+<span data-ttu-id="34ffe-119">Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous à la [Description du service Skype entreprise Online](https://technet.microsoft.com/library/jj822172.aspx).</span><span class="sxs-lookup"><span data-stu-id="34ffe-119">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
 
-### <a name="add-a-device-account"></a><span data-ttu-id="7ed1c-120">Ajout d’un compte d’appareil</span><span class="sxs-lookup"><span data-stu-id="7ed1c-120">Add a device account</span></span>
+### <a name="add-a-device-account"></a><span data-ttu-id="34ffe-120">Ajout d’un compte d’appareil</span><span class="sxs-lookup"><span data-stu-id="34ffe-120">Add a device account</span></span>
 
-1. <span data-ttu-id="7ed1c-121">Connectez-vous à Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-121">Connect to Exchange Online PowerShell.</span></span> <span data-ttu-id="7ed1c-122">Pour obtenir des instructions, voir [se connecter à Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-122">For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).</span></span>
+1. <span data-ttu-id="34ffe-121">Connectez-vous à Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="34ffe-121">Connect to Exchange Online PowerShell.</span></span> <span data-ttu-id="34ffe-122">Pour obtenir des instructions, voir [se connecter à Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).</span><span class="sxs-lookup"><span data-stu-id="34ffe-122">For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).</span></span>
 
-2. <span data-ttu-id="7ed1c-123">Dans Exchange Online PowerShell, créez une nouvelle boîte aux lettres de salle ou modifiez une boîte aux lettres de salle existante.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-123">In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox.</span></span> <span data-ttu-id="7ed1c-124">Par défaut, les boîtes aux lettres de salle n’ont pas de compte associé, vous devez donc ajouter un compte lorsque vous créez ou modifiez une boîte aux lettres de salle qui lui permet de s’authentifier auprès des systèmes de salle Skype v2.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-124">By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.</span></span>
+2. <span data-ttu-id="34ffe-123">Dans Exchange Online PowerShell, créez une nouvelle boîte aux lettres de salle ou modifiez une boîte aux lettres de salle existante.</span><span class="sxs-lookup"><span data-stu-id="34ffe-123">In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox.</span></span> <span data-ttu-id="34ffe-124">Par défaut, les boîtes aux lettres de salle n’ont pas de compte associé, vous devez donc ajouter un compte lorsque vous créez ou modifiez une boîte aux lettres de salle qui lui permet de s’authentifier auprès des systèmes de salle Skype v2.</span><span class="sxs-lookup"><span data-stu-id="34ffe-124">By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.</span></span>
 
-   - <span data-ttu-id="7ed1c-125">Pour créer une boîte aux lettres de salle, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-125">To create a new room mailbox, use the following syntax:</span></span>
+   - <span data-ttu-id="34ffe-125">Pour créer une boîte aux lettres de salle, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="34ffe-125">To create a new room mailbox, use the following syntax:</span></span>
 
      ``` PowerShell
      New-Mailbox -Name "<Unique Name>" -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     <span data-ttu-id="7ed1c-126">Cet exemple crée une boîte aux lettres de salle avec les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-126">This example creates a new room mailbox with the following settings:</span></span>
+     <span data-ttu-id="34ffe-126">Cet exemple crée une boîte aux lettres de salle avec les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="34ffe-126">This example creates a new room mailbox with the following settings:</span></span>
 
-     - <span data-ttu-id="7ed1c-127">Nom : Rigel-01</span><span class="sxs-lookup"><span data-stu-id="7ed1c-127">Name: Rigel-01</span></span>
+     - <span data-ttu-id="34ffe-127">Nom : Rigel-01</span><span class="sxs-lookup"><span data-stu-id="34ffe-127">Name: Rigel-01</span></span>
 
-     - <span data-ttu-id="7ed1c-128">Alias : Rigel1</span><span class="sxs-lookup"><span data-stu-id="7ed1c-128">Alias: Rigel1</span></span>
+     - <span data-ttu-id="34ffe-128">Alias : Rigel1</span><span class="sxs-lookup"><span data-stu-id="34ffe-128">Alias: Rigel1</span></span>
 
-     - <span data-ttu-id="7ed1c-129">Compte : Rigel1@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="7ed1c-129">Account: Rigel1@contoso.onmicrosoft.com</span></span>
+     - <span data-ttu-id="34ffe-129">Compte : Rigel1@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="34ffe-129">Account: Rigel1@contoso.onmicrosoft.com</span></span>
 
-     - <span data-ttu-id="7ed1c-130">Mot de passe du compte : P@ $ $W 0rd5959</span><span class="sxs-lookup"><span data-stu-id="7ed1c-130">Account password: P@$$W0rd5959</span></span>
+     - <span data-ttu-id="34ffe-130">Mot de passe du compte : P@ $ $W 0rd5959</span><span class="sxs-lookup"><span data-stu-id="34ffe-130">Account password: P@$$W0rd5959</span></span>
 
      ``` PowerShell
      New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
-   - <span data-ttu-id="7ed1c-131">Pour modifier une boîte aux lettres de salle existante, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-131">To modify an existing room mailbox, use the following syntax:</span></span>
+   - <span data-ttu-id="34ffe-131">Pour modifier une boîte aux lettres de salle existante, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="34ffe-131">To modify an existing room mailbox, use the following syntax:</span></span>
 
      ``` PowerShell
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     <span data-ttu-id="7ed1c-132">Dans cet exemple, le compte de la boîte aux lettres de salle existante possède la valeur alias Rigel2 et le mot de passe est défini sur 9898P@ $ $W 0rd.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-132">This example enables the account for the existing room mailbox that has the alias value Rigel2, and sets the password to 9898P@$$W0rd.</span></span> <span data-ttu-id="7ed1c-133">Notez que le compte sera Rigel2@contoso.onmicrosoft.com en raison de la valeur de l’alias existant.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-133">Note that the account will be Rigel2@contoso.onmicrosoft.com because of the existing alias value.</span></span>
+     <span data-ttu-id="34ffe-132">Dans cet exemple, le compte de la boîte aux lettres de salle existante possède la valeur alias Rigel2 et le mot de passe est défini sur 9898P@ $ $W 0rd.</span><span class="sxs-lookup"><span data-stu-id="34ffe-132">This example enables the account for the existing room mailbox that has the alias value Rigel2, and sets the password to 9898P@$$W0rd.</span></span> <span data-ttu-id="34ffe-133">Notez que le compte sera Rigel2@contoso.onmicrosoft.com en raison de la valeur de l’alias existant.</span><span class="sxs-lookup"><span data-stu-id="34ffe-133">Note that the account will be Rigel2@contoso.onmicrosoft.com because of the existing alias value.</span></span>
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   <span data-ttu-id="7ed1c-134">Pour plus d’informations sur les paramètres de syntaxe et de paramètre, voir [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-134">For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).</span></span>
+   <span data-ttu-id="34ffe-134">Pour plus d’informations sur les paramètres de syntaxe et de paramètre, voir [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).</span><span class="sxs-lookup"><span data-stu-id="34ffe-134">For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).</span></span>
 
 
-3. <span data-ttu-id="7ed1c-135">Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’interface utilisateur :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-135">In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:</span></span>
+3. <span data-ttu-id="34ffe-135">Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’interface utilisateur :</span><span class="sxs-lookup"><span data-stu-id="34ffe-135">In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:</span></span>
 
-   - <span data-ttu-id="7ed1c-136">AutomateProcessing : l’acceptation automatique (les organisateurs de la réunion reçoivent la décision de réservation de salle directement sans intervention humaine : gratuit = accepter ; occupé = refuser.)</span><span class="sxs-lookup"><span data-stu-id="7ed1c-136">AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)</span></span>
+   - <span data-ttu-id="34ffe-136">AutomateProcessing : l’acceptation automatique (les organisateurs de la réunion reçoivent la décision de réservation de salle directement sans intervention humaine : gratuit = accepter ; occupé = refuser.)</span><span class="sxs-lookup"><span data-stu-id="34ffe-136">AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)</span></span>
 
-   - <span data-ttu-id="7ed1c-137">AddOrganizerToSubject : $false (l’organisateur de la réunion n’est pas ajouté au sujet de la demande de réunion.)</span><span class="sxs-lookup"><span data-stu-id="7ed1c-137">AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)</span></span>
+   - <span data-ttu-id="34ffe-137">AddOrganizerToSubject : $false (l’organisateur de la réunion n’est pas ajouté au sujet de la demande de réunion.)</span><span class="sxs-lookup"><span data-stu-id="34ffe-137">AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)</span></span>
 
-   - <span data-ttu-id="7ed1c-138">DeleteComments : $false (conservez le texte dans le corps des demandes de réunion entrantes).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-138">DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)</span></span>
+   - <span data-ttu-id="34ffe-138">DeleteComments : $false (conservez le texte dans le corps des demandes de réunion entrantes).</span><span class="sxs-lookup"><span data-stu-id="34ffe-138">DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)</span></span>
 
-   - <span data-ttu-id="7ed1c-139">DeleteSubject : $false (conserver le sujet des demandes de réunion entrantes).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-139">DeleteSubject: $false (Keep the subject of incoming meeting requests.)</span></span>
+   - <span data-ttu-id="34ffe-139">DeleteSubject : $false (conserver le sujet des demandes de réunion entrantes).</span><span class="sxs-lookup"><span data-stu-id="34ffe-139">DeleteSubject: $false (Keep the subject of incoming meeting requests.)</span></span>
 
-   - <span data-ttu-id="7ed1c-140">RemovePrivateProperty : $false (vérifie que l’indicateur privé qui a été envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste indiqué.)</span><span class="sxs-lookup"><span data-stu-id="7ed1c-140">RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)</span></span>
+   - <span data-ttu-id="34ffe-140">RemovePrivateProperty : $false (vérifie que l’indicateur privé qui a été envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste indiqué.)</span><span class="sxs-lookup"><span data-stu-id="34ffe-140">RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)</span></span>
 
-   - <span data-ttu-id="7ed1c-141">AddAdditionalResponse : $true (le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)</span><span class="sxs-lookup"><span data-stu-id="7ed1c-141">AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)</span></span>
+   - <span data-ttu-id="34ffe-141">AddAdditionalResponse : $true (le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)</span><span class="sxs-lookup"><span data-stu-id="34ffe-141">AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)</span></span>
 
-   - <span data-ttu-id="7ed1c-142">AdditionalResponse : « il s’agit d’une salle de réunion Skype ! »</span><span class="sxs-lookup"><span data-stu-id="7ed1c-142">AdditionalResponse: "This is a Skype Meeting room!"</span></span> <span data-ttu-id="7ed1c-143">(Le texte supplémentaire à ajouter à la demande de réunion.)</span><span class="sxs-lookup"><span data-stu-id="7ed1c-143">(The additional text to add to the meeting request.)</span></span>
+   - <span data-ttu-id="34ffe-142">AdditionalResponse : « il s’agit d’une salle de réunion Skype ! »</span><span class="sxs-lookup"><span data-stu-id="34ffe-142">AdditionalResponse: "This is a Skype Meeting room!"</span></span> <span data-ttu-id="34ffe-143">(Le texte supplémentaire à ajouter à la demande de réunion.)</span><span class="sxs-lookup"><span data-stu-id="34ffe-143">(The additional text to add to the meeting request.)</span></span>
 
-   <span data-ttu-id="7ed1c-144">Cet exemple configure ces paramètres sur la boîte aux lettres de salle nommée Rigel-01.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-144">This example configures these settings on the room mailbox named Rigel-01.</span></span>
+   <span data-ttu-id="34ffe-144">Cet exemple configure ces paramètres sur la boîte aux lettres de salle nommée Rigel-01.</span><span class="sxs-lookup"><span data-stu-id="34ffe-144">This example configures these settings on the room mailbox named Rigel-01.</span></span>
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   <span data-ttu-id="7ed1c-145">Pour obtenir une syntaxe détaillée et des informations relatives aux paramètres, voir [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-145">For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span></span>
+   <span data-ttu-id="34ffe-145">Pour obtenir une syntaxe détaillée et des informations relatives aux paramètres, voir [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span><span class="sxs-lookup"><span data-stu-id="34ffe-145">For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span></span>
 
-4. <span data-ttu-id="7ed1c-146">Connectez-vous à MS Online PowerShell pour créer des paramètres Active Directory en exécutant l’applet de contrôle `Connect-MsolService -Credential $cred` PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-146">Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` powershell cmdlet.</span></span>   <span data-ttu-id="7ed1c-147">Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSONLINE,) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-147">For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span></span> 
+4. <span data-ttu-id="34ffe-146">Connectez-vous à MS Online PowerShell pour créer des paramètres Active Directory en exécutant l’applet de contrôle `Connect-MsolService -Credential $cred` PowerShell.</span><span class="sxs-lookup"><span data-stu-id="34ffe-146">Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` powershell cmdlet.</span></span>   <span data-ttu-id="34ffe-147">Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSONLINE,) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="34ffe-147">For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span></span> 
 
    > [!NOTE]
-   > <span data-ttu-id="7ed1c-148">[Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-148">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.</span></span> 
+   > <span data-ttu-id="34ffe-148">[Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="34ffe-148">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.</span></span> 
 
-5. <span data-ttu-id="7ed1c-149">Si vous ne souhaitez pas que le mot de passe expire, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-149">If you do not want the password to expire, use the following syntax:</span></span>
+5. <span data-ttu-id="34ffe-149">Si vous ne souhaitez pas que le mot de passe expire, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="34ffe-149">If you do not want the password to expire, use the following syntax:</span></span>
 
-    ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-    ```
-<!--
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
+   ```
+   <!--
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   <span data-ttu-id="7ed1c-150">Cet exemple définit le mot de passe du compte Rigel1@contoso.onmicrosoft.com pour qu’il n’expire jamais.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-150">This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.</span></span>
+   <span data-ttu-id="34ffe-150">Cet exemple définit le mot de passe du compte Rigel1@contoso.onmicrosoft.com pour qu’il n’expire jamais.</span><span class="sxs-lookup"><span data-stu-id="34ffe-150">This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.</span></span>
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
+   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
-   <span data-ttu-id="7ed1c-151">Vous pouvez également définir un numéro de téléphone pour le compte en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-151">You can also set a phone number for the account by running the following command:</span></span>
+   <span data-ttu-id="34ffe-151">Vous pouvez également définir un numéro de téléphone pour le compte en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="34ffe-151">You can also set a phone number for the account by running the following command:</span></span>
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. <span data-ttu-id="7ed1c-152">Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-152">The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work.</span></span> <span data-ttu-id="7ed1c-153">Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-153">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="7ed1c-154">Vous pouvez utiliser`Get-MsolAccountSku`</span><span class="sxs-lookup"><span data-stu-id="7ed1c-154">You can use `Get-MsolAccountSku`</span></span> <!-- Get-AzureADSubscribedSku --> <span data-ttu-id="7ed1c-155">pour récupérer la liste des références SKU disponibles pour votre organisation Microsoft 365 ou Office 365, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-155">to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:</span></span>
+6. <span data-ttu-id="34ffe-152">Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas.</span><span class="sxs-lookup"><span data-stu-id="34ffe-152">The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work.</span></span> <span data-ttu-id="34ffe-153">Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte.</span><span class="sxs-lookup"><span data-stu-id="34ffe-153">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="34ffe-154">Vous pouvez utiliser`Get-MsolAccountSku`</span><span class="sxs-lookup"><span data-stu-id="34ffe-154">You can use `Get-MsolAccountSku`</span></span> <!-- Get-AzureADSubscribedSku --> <span data-ttu-id="34ffe-155">pour récupérer la liste des références SKU disponibles pour votre organisation Microsoft 365 ou Office 365, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="34ffe-155">to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:</span></span>
 
-  ``` Powershell
-  Get-MsolAccountSku
-  ```
-<!--
-   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   <span data-ttu-id="7ed1c-156">Vous pouvez ensuite ajouter une licence à l’aide du`Set-MsolUserLicense`</span><span class="sxs-lookup"><span data-stu-id="7ed1c-156">Next, you can add a license using the `Set-MsolUserLicense`</span></span> <!--Set-AzureADUserLicense --> <span data-ttu-id="7ed1c-157">applet.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-157">cmdlet.</span></span> <span data-ttu-id="7ed1c-158">Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-158">In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
+   <span data-ttu-id="34ffe-156">Vous pouvez ensuite ajouter une licence à l’aide du`Set-MsolUserLicense`</span><span class="sxs-lookup"><span data-stu-id="34ffe-156">Next, you can add a license using the `Set-MsolUserLicense`</span></span> <!--Set-AzureADUserLicense --> <span data-ttu-id="34ffe-157">applet.</span><span class="sxs-lookup"><span data-stu-id="34ffe-157">cmdlet.</span></span> <span data-ttu-id="34ffe-158">Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="34ffe-158">In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
 
-  ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-  ``` 
-<!-- 
-   ``` Powershell
+   ``` 
+   <!-- 
+   ```Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```   -->
 
-   <span data-ttu-id="7ed1c-159">Pour obtenir des instructions détaillées, voir [attribuer des licences à des comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-159">For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+   <span data-ttu-id="34ffe-159">Pour obtenir des instructions détaillées, voir [attribuer des licences à des comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="34ffe-159">For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-7. <span data-ttu-id="7ed1c-160">Ensuite, vous devez activer le compte de l’appareil avec Skype entreprise.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-160">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="7ed1c-161">Assurez-vous que votre environnement répond à la configuration requise définie dans les [exigences de Microsoft teams salles](requirements.md).</span><span class="sxs-lookup"><span data-stu-id="7ed1c-161">Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).</span></span>
+7. <span data-ttu-id="34ffe-160">Ensuite, vous devez activer le compte de l’appareil avec Skype entreprise.</span><span class="sxs-lookup"><span data-stu-id="34ffe-160">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="34ffe-161">Assurez-vous que votre environnement répond à la configuration requise définie dans les [exigences de Microsoft teams salles](requirements.md).</span><span class="sxs-lookup"><span data-stu-id="34ffe-161">Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).</span></span>
 
-   <span data-ttu-id="7ed1c-162">Démarrez une [session Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) distante comme suit (veillez à [installer les composants PowerShell de Skype entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-162">Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):</span></span>
+   <span data-ttu-id="34ffe-162">Démarrez une [session Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) distante comme suit (veillez à [installer les composants PowerShell de Skype entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) :</span><span class="sxs-lookup"><span data-stu-id="34ffe-162">Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):</span></span>
 
    ``` Powershell
    Import-Module SkypeOnlineConnector  
@@ -180,40 +182,40 @@ ms.locfileid: "44666136"
    Import-PSSession $cssess -AllowClobber
    ```
 
-   <span data-ttu-id="7ed1c-163">Activez ensuite votre compte Microsoft teams pour Skype entreprise Server en exécutant l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-163">Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:</span></span>
+   <span data-ttu-id="34ffe-163">Activez ensuite votre compte Microsoft teams pour Skype entreprise Server en exécutant l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="34ffe-163">Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:</span></span>
 
    ``` Powershell
+   $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   <span data-ttu-id="7ed1c-164">Obtenez les informations RegistrarPool à partir du nouveau compte d’utilisateur configuré, comme le montre l’exemple suivant :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-164">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
+   <span data-ttu-id="34ffe-164">Obtenez les informations RegistrarPool à partir du nouveau compte d’utilisateur configuré, comme le montre l’exemple suivant :</span><span class="sxs-lookup"><span data-stu-id="34ffe-164">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
 
     ``` Powershell
+    $rm="Rigel1@contoso.onmicrosoft.com"
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
-    > <span data-ttu-id="7ed1c-165">Les nouveaux comptes d’utilisateur ne peuvent pas être créés sur le même pool de bureau d’enregistrement que les comptes d’utilisateurs existants dans le client.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-165">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="7ed1c-166">Dans le cas présent, la commande ci-dessus empêche les erreurs dans la configuration du compte.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-166">The command above will prevent errors in account setup due to this situation.</span></span>
+    > <span data-ttu-id="34ffe-165">Les nouveaux comptes d’utilisateur ne peuvent pas être créés sur le même pool de bureau d’enregistrement que les comptes d’utilisateurs existants dans le client.</span><span class="sxs-lookup"><span data-stu-id="34ffe-165">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="34ffe-166">Dans le cas présent, la commande ci-dessus empêche les erreurs dans la configuration du compte.</span><span class="sxs-lookup"><span data-stu-id="34ffe-166">The command above will prevent errors in account setup due to this situation.</span></span>
 
-<span data-ttu-id="7ed1c-167">Après avoir suivi les étapes ci-dessous pour activer votre compte Microsoft teams dans Microsoft teams ou Skype entreprise Online, vous devez attribuer une licence à l’appareil Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-167">After you've completed the preceding steps to enable your Microsoft Teams Rooms account in Microsoft Teams or Skype for Business Online, you need to assign a license to Microsoft Teams Rooms device.</span></span> <span data-ttu-id="7ed1c-168">À l’aide du centre d’administration Microsoft 365, attribuez une licence Skype entreprise Online (plan 2) ou une licence Skype entreprise Online (plan 3) à l’appareil.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-168">Using the Microsoft 365 admin center, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.</span></span>
+### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="34ffe-167">Affectation d’une licence à votre compte</span><span class="sxs-lookup"><span data-stu-id="34ffe-167">Assign a license to your account</span></span>
 
-### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="7ed1c-169">Affectation d’une licence à votre compte</span><span class="sxs-lookup"><span data-stu-id="7ed1c-169">Assign a license to your account</span></span>
+1. <span data-ttu-id="34ffe-168">Connectez-vous en tant qu’administrateur client, ouvrez le centre d’administration Microsoft 365, puis cliquez sur l’application Administration.</span><span class="sxs-lookup"><span data-stu-id="34ffe-168">Login as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.</span></span>
 
-1. <span data-ttu-id="7ed1c-170">Connectez-vous en tant qu’administrateur client, ouvrez le centre d’administration Microsoft 365, puis cliquez sur l’application Administration.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-170">Login as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.</span></span>
+2. <span data-ttu-id="34ffe-169">Cliquez sur **Utilisateurs et groupes**, puis sur **Ajoutez des utilisateurs, réinitialisez les mots de passe, et plus encore**.</span><span class="sxs-lookup"><span data-stu-id="34ffe-169">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
 
-2. <span data-ttu-id="7ed1c-171">Cliquez sur **Utilisateurs et groupes**, puis sur **Ajoutez des utilisateurs, réinitialisez les mots de passe, et plus encore**.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-171">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
+3. <span data-ttu-id="34ffe-170">Sélectionnez le compte Microsoft teams Room, puis cliquez ou appuyez sur l’icône de stylet, c’est-à-dire modifier.</span><span class="sxs-lookup"><span data-stu-id="34ffe-170">Select the Microsoft Teams Rooms account, and then click or tap the pen icon, which means edit.</span></span>
 
-3. <span data-ttu-id="7ed1c-172">Sélectionnez le compte Microsoft teams Room, puis cliquez ou appuyez sur l’icône de stylet, c’est-à-dire modifier.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-172">Select the Microsoft Teams Rooms account, and then click or tap the pen icon, which means edit.</span></span>
+4. <span data-ttu-id="34ffe-171">Cliquez sur l’option **Licences**.</span><span class="sxs-lookup"><span data-stu-id="34ffe-171">Click on the **Licenses** option.</span></span>
 
-4. <span data-ttu-id="7ed1c-173">Cliquez sur l’option **Licences**.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-173">Click on the **Licenses** option.</span></span>
+5. <span data-ttu-id="34ffe-172">Dans la section **attribuer des licences** , vous devez sélectionner Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), en fonction de votre licence et de ce que vous avez choisi pour l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="34ffe-172">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="34ffe-173">Vous devez utiliser une licence de plan 3 Si vous souhaitez utiliser PBX Cloud sur les salles de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="34ffe-173">You'll have to use a Plan 3 license if you want to use Cloud PBX on Microsoft Teams Rooms.</span></span> <span data-ttu-id="34ffe-174">Vous aurez au moins besoin de CloudPBX pour la connectivité vocale.</span><span class="sxs-lookup"><span data-stu-id="34ffe-174">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="34ffe-175">Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC.</span><span class="sxs-lookup"><span data-stu-id="34ffe-175">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span> <span data-ttu-id="34ffe-176">Pour plus d’informations, consultez la rubrique [licences Microsoft teams](rooms-licensing.md)</span><span class="sxs-lookup"><span data-stu-id="34ffe-176">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for more details.</span></span>
 
-5. <span data-ttu-id="7ed1c-174">Dans la section **attribuer des licences** , vous devez sélectionner Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), en fonction de votre licence et de ce que vous avez choisi pour l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-174">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="7ed1c-175">Vous devez utiliser une licence de plan 3 Si vous souhaitez utiliser PBX Cloud sur les salles de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-175">You'll have to use a Plan 3 license if you want to use Cloud PBX on Microsoft Teams Rooms.</span></span> <span data-ttu-id="7ed1c-176">Vous aurez au moins besoin de CloudPBX pour la connectivité vocale.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-176">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="7ed1c-177">Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-177">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span> <span data-ttu-id="7ed1c-178">Pour plus d’informations, consultez la rubrique [licences Microsoft teams](rooms-licensing.md)</span><span class="sxs-lookup"><span data-stu-id="7ed1c-178">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for more details.</span></span>
+6. <span data-ttu-id="34ffe-177">Cliquez sur **Enregistrer** pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="34ffe-177">Click **Save** to complete the task.</span></span>
 
-6. <span data-ttu-id="7ed1c-179">Cliquez sur **Enregistrer** pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-179">Click **Save** to complete the task.</span></span>
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="34ffe-178">Exemple : configuration de compte salle dans Exchange Online et Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="34ffe-178">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
 
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="7ed1c-180">Exemple : configuration de compte salle dans Exchange Online et Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="7ed1c-180">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
-
-<span data-ttu-id="7ed1c-181">Commandes PowerShell Exchange Online :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-181">Exchange Online PowerShell commands:</span></span>
+<span data-ttu-id="34ffe-179">Commandes PowerShell Exchange Online :</span><span class="sxs-lookup"><span data-stu-id="34ffe-179">Exchange Online PowerShell commands:</span></span>
 
 ``` Powershell
 New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
@@ -222,7 +224,7 @@ Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrgan
 -AdditionalResponse "This is a Rigel room!"
 ```
 
-<span data-ttu-id="7ed1c-182">Commandes PowerShell d’Azure Active Directory :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-182">Azure Active Directory PowerShell commands:</span></span>
+<span data-ttu-id="34ffe-180">Commandes PowerShell d’Azure Active Directory :</span><span class="sxs-lookup"><span data-stu-id="34ffe-180">Azure Active Directory PowerShell commands:</span></span>
 
 ``` PowerShell
 Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
@@ -239,7 +241,7 @@ Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLic
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
-<span data-ttu-id="7ed1c-183">Commande PowerShell Skype entreprise :</span><span class="sxs-lookup"><span data-stu-id="7ed1c-183">Skype for Business PowerShell command:</span></span>
+<span data-ttu-id="34ffe-181">Commande PowerShell Skype entreprise :</span><span class="sxs-lookup"><span data-stu-id="34ffe-181">Skype for Business PowerShell command:</span></span>
 
 ``` PowerShell
 Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
@@ -247,22 +249,22 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> <span data-ttu-id="7ed1c-184">Ceci ajoute CloudPBX et PSTNCallingDomesticAndInternational.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-184">This adds CloudPBX and PSTNCallingDomesticAndInternational.</span></span> <span data-ttu-id="7ed1c-185">Par ailleurs, vous devez utiliser l’interface administrateur pour attribuer un numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-185">Additionally, you will need to use the Admin interface to assign a phone number.</span></span>
+> <span data-ttu-id="34ffe-182">Ceci ajoute CloudPBX et PSTNCallingDomesticAndInternational.</span><span class="sxs-lookup"><span data-stu-id="34ffe-182">This adds CloudPBX and PSTNCallingDomesticAndInternational.</span></span> <span data-ttu-id="34ffe-183">Par ailleurs, vous devez utiliser l’interface administrateur pour attribuer un numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="34ffe-183">Additionally, you will need to use the Admin interface to assign a phone number.</span></span>
 
-## <a name="validate"></a><span data-ttu-id="7ed1c-186">Invalidé</span><span class="sxs-lookup"><span data-stu-id="7ed1c-186">Validate</span></span>
+## <a name="validate"></a><span data-ttu-id="34ffe-184">Invalidé</span><span class="sxs-lookup"><span data-stu-id="34ffe-184">Validate</span></span>
 
-<span data-ttu-id="7ed1c-187">Pour la validation, vous devriez être en mesure d’utiliser n’importe quel client Skype entreprise pour vous connecter au compte que vous avez créé.</span><span class="sxs-lookup"><span data-stu-id="7ed1c-187">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
+<span data-ttu-id="34ffe-185">Pour la validation, vous devriez être en mesure d’utiliser n’importe quel client Skype entreprise pour vous connecter au compte que vous avez créé.</span><span class="sxs-lookup"><span data-stu-id="34ffe-185">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7ed1c-188">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7ed1c-188">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34ffe-186">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="34ffe-186">See also</span></span>
 
-[<span data-ttu-id="7ed1c-189">Configurer des comptes pour les salles de Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="7ed1c-189">Configure accounts for Microsoft Teams Rooms</span></span>](rooms-configure-accounts.md)
+[<span data-ttu-id="34ffe-187">Configurer des comptes pour les salles de Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="34ffe-187">Configure accounts for Microsoft Teams Rooms</span></span>](rooms-configure-accounts.md)
 
-[<span data-ttu-id="7ed1c-190">Planifier les Salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7ed1c-190">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
+[<span data-ttu-id="34ffe-188">Planifier les Salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="34ffe-188">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
 
-[<span data-ttu-id="7ed1c-191">Déployer les Salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7ed1c-191">Deploy Microsoft Teams Rooms</span></span>](rooms-deploy.md)
+[<span data-ttu-id="34ffe-189">Déployer les Salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="34ffe-189">Deploy Microsoft Teams Rooms</span></span>](rooms-deploy.md)
 
-[<span data-ttu-id="7ed1c-192">Configurer une console des salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7ed1c-192">Configure a Microsoft Teams Rooms console</span></span>](console.md)
+[<span data-ttu-id="34ffe-190">Configurer une console des salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="34ffe-190">Configure a Microsoft Teams Rooms console</span></span>](console.md)
 
-[<span data-ttu-id="7ed1c-193">Gérer les Salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7ed1c-193">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
+[<span data-ttu-id="34ffe-191">Gérer les Salles Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="34ffe-191">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
 
-[<span data-ttu-id="7ed1c-194">Gestion des licences Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="7ed1c-194">Microsoft Teams Rooms Licensing</span></span>](rooms-licensing.md)
+[<span data-ttu-id="34ffe-192">Gestion des licences Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="34ffe-192">Microsoft Teams Rooms Licensing</span></span>](rooms-licensing.md)
