@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689710"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785300"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
@@ -147,6 +147,8 @@ Pour plus d’informations, voir [Description du service Microsoft Teams](https:
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Qu’arrive-t-il aux licences d’évaluation cloud commercial de Microsoft Teams ?
 
 À compter de février 2020, les utilisateurs qualifiés peuvent commencer à utiliser la dernière expérience exploratoire de Microsoft Teams. Toutes les versions d’évaluation du Cloud commercial sont automatiquement converties à la nouvelle offre avant l’expiration de la période d’évaluation.
+
+Lorsqu'un utilisateur se connecte pour la première fois à sa version d'évaluation commerciale du cloud Teams qui a expiré, nous lui attribuons automatiquement une licence d'expérience Teams Exploratory. Les utilisateurs ne sont pas convertis avant de s'être inscrits.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Supprimer une licence exploratoire Teams
 
