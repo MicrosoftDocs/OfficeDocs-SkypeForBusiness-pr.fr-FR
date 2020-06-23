@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666116"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816815"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -71,6 +71,39 @@ Les barres de collaboration suivantes sont certifiées pour Microsoft teams :
 |Poly Studio X50 | 3.1.1.216109| 2020 juin|Salle de focalisation (3m x 3m) </br> Petite salle de réunion (4.5 x 4.5 m)|
 |Yealink VC210| 118.15.0.14|2020 février|Salle de focalisation (3m x 3m) </br> Petite salle de réunion (4.5 x 4.5 m)|
 
+### <a name="product-release-information-teams-phones"></a>Informations de publication de produit-téléphones teams
+Vous trouverez ci-après les versions les plus récentes des applications IP Phone et la version du microprogramme publiée
+#### <a name="release-date-may-132020"></a>Date de publication : 13, 2020
+#### <a name="app-versions"></a>Versions de l’application
+|Appli| Version|
+|:---|:---|
+|Équipes | .040801|
+|Agent d’administration|.210|
+|Portail d’entreprise| .4715|
+
+#### <a name="firmware-versions"></a>Versions du microprogramme
+|#3 de mise à jour| Microprogramme disponible sur prod.|
+|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/CCX600|5.9.13.0306|
+|Yealink T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|Yealink CP960|73.15.0.100|
+
+### <a name="product-release-information-collaboration-bar"></a>Informations de publication de produit-barre de collaboration
+Voici les versions les plus récentes des applications de barre de collaboration et de microprogrammes disponibles
+#### <a name="app-versions"></a>Versions de l’application
+|Appli| Version|
+|:---|:---|
+|Équipes | .040901|
+|Agent d’administration|.210|
+|Portail d’entreprise| .4715|
+
+#### <a name="firmware-versions"></a>Versions du microprogramme
+|#3 de mise à jour| Microprogramme disponible sur prod.|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 Pour plus d’informations sur les fonctionnalités prises en charge par ces appareils, voir l' [ensemble des fonctionnalités de téléphone de Microsoft teams](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 

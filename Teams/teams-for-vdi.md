@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb1be3215aff5aa97d97b0bc7cfbb81febd7d7fe
-ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
+ms.openlocfilehash: 82e7a9af9c8e3fa2374234efbb752682d58d1602
+ms.sourcegitcommit: dad97d53f63e5164095b6d6de2d1b0445e2c10db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44804698"
+ms.lasthandoff: 06/20/2020
+ms.locfileid: "44820845"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -115,6 +115,7 @@ Exclure les éléments suivants du dossier teams Caching,% AppData%/Microsoft/Te
 
 - fichiers. txt
 - Média-dossier pile
+- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache)
 
 ### <a name="microsoft-365-apps-for-enterprise-considerations"></a>Considérations relatives aux applications 365 Microsoft pour les entreprises
 
