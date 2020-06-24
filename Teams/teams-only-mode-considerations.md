@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690920"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854096"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
@@ -41,9 +41,6 @@ Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Te
 > Si vous commencez à commencer votre planification de mise à niveau, n’hésitez pas à consulter notre guide de [mise à niveau de Microsoft teams](upgrade-start-here.md) . 
 
 **Considérations de coexistence**: les organisations qui utilisent déjà Skype entreprise Online et/ou Skype entreprise Server peuvent proposer des équipes au rythme qui répondent à leurs besoins. Les organisations peuvent déployer de façon incrémentielle des équipes auprès d’un ensemble d’utilisateurs souhaité, et les utilisateurs qui utilisent teams peuvent communiquer avec des utilisateurs de Skype entreprise, et inversement. Pour gérer cette situation, les administrateurs utilisent les modes de coexistence, qui définissent l’utilisation du client de l’utilisateur final, le comportement de routage des conversations et des appels entrants, ainsi que la planification de nouvelles réunions dans teams ou Skype entreprise. Les utilisateurs peuvent se fédérer avec des utilisateurs d’autres organisations si l’utilisateur est mis à niveau vers **équipes uniquement**; Toutefois, la meilleure utilisation est fournie lorsque les deux utilisateurs utilisent Teams. Les utilisateurs qui sont mis à niveau vers les équipes peuvent toujours participer à des réunions Skype entreprise. 
-
-> [!NOTE]
-> Les utilisateurs qui sont mis à niveau vers Teams ne peuvent pas communiquer avec des utilisateurs de Skype pour particuliers.
 
 > [!IMPORTANT]
 > Pour plus d’informations sur la coexistence, reportez-vous à la rubrique comprendre le fonctionnement de [Microsoft Teams, de la coexistence et de l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 

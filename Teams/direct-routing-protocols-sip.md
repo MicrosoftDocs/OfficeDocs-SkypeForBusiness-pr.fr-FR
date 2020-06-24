@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocoles de routage directe
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691220"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859649"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct-protocole SIP
 
@@ -44,7 +44,7 @@ Voici un exemple du message d’invitation SIP lors d’un appel entrant :
 | En-tête de | À partir de l’en-tête de : <SIP : 7168712781@sbc1. adatum. biz ; transport = UDP ; balise = 1c747237679 |
 | En-tête | Pour : sip :+183338006777@sbc1.adatum.biz | 
 | En-tête CSeq | CSeq : 1 invitation | 
-| En-tête contact | Contact : <SIP : 68712781@sbc1. adatum. biz ; transport = TLS> | 
+| En-tête contact | Contact : <SIP : 68712781@sbc1. adatum. biz : 5058 ; transport = TLS> | 
 
 Lors de la réception de l’invitation, le proxy SIP effectue les étapes suivantes :
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 Le proxy SIP doit calculer le nom de domaine complet (FQDN) du tronçon suivant pour les nouvelles transactions de client dans la boîte de dialogue (par exemple, bye ou réinvite) et lorsque vous répondez aux options SIP. Les options contact ou enregistrement-itinéraire sont utilisées. 
 
-D’après le RFC 3261, l’en-tête de contact est requis pour toutes les demandes qui peuvent engendrer une nouvelle boîte de dialogue. L’enregistrement-itinéraire est requis uniquement si un proxy veut rester sur le chemin d’accès des demandes futures dans une boîte de dialogue. 
+D’après le RFC 3261, l’en-tête de contact est requis pour toutes les demandes qui peuvent engendrer une nouvelle boîte de dialogue. L’enregistrement-itinéraire est requis uniquement si un proxy veut rester sur le chemin d’accès des demandes futures dans une boîte de dialogue. Si une colonie de proxy est utilisée avec une [optimisation de média locale pour le routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization), un itinéraire d’enregistrement doit être configuré lorsque l’élément SBC de proxy doit rester dans l’itinéraire. 
 
-Microsoft recommande l’utilisation de l’en-tête contact uniquement pour les raisons suivantes :
+Microsoft recommande l’utilisation de l’en-tête de contact uniquement si une colonie de proxy n’est pas utilisée :
 
-- Par RFC 3261, la fonction record-route est utilisée si un proxy veut rester sur le chemin d’une requête future dans une boîte de dialogue, ce qui n’est pas essentiel pour le trafic entre le proxy SIP Microsoft et le SBC couplé. Il n’est pas nécessaire de disposer d’un serveur proxy intermédiaire entre le serveur proxy SBC et Microsoft SIP.
+- Par RFC 3261, record-Path est utilisé si un proxy veut rester sur le chemin d’accès aux demandes futures d’une boîte de dialogue, ce qui n’est pas essentiel si aucun élément SBC proxy n’est configuré comme le trafic entre le proxy SIP Microsoft et le SBC couplé. 
 
-- Le serveur proxy SIP Microsoft utilise uniquement l’en-tête contact (pas d’enregistrement) pour déterminer le saut suivant lors de l’envoi des options de test ping sortant. La configuration d’un seul paramètre (contact) au lieu de deux (contact et enregistrement-itinéraire) simplifie l’administration.
+- Le serveur proxy SIP Microsoft utilise uniquement l’en-tête contact (pas d’enregistrement) pour déterminer le saut suivant lors de l’envoi des options de test ping sortant. La configuration d’un seul paramètre (contact) au lieu de deux (contact et enregistrement-itinéraire) simplifie l’administration si un SBC proxy n’est pas en cours d’utilisation. 
 
 Pour calculer le tronçon suivant, le proxy SIP utilise les éléments suivants :
 

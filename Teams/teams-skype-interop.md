@@ -12,16 +12,14 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: En savoir plus sur les fonctionnalités d’interopérabilité entre les utilisateurs teams au sein de votre organisation et les utilisateurs de Skype.
 localization_priority: Normal
-ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410429"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859639"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interopérabilité entre teams et Skype
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Cet article offre une vue d’ensemble des fonctionnalités d’interopérabilité entre Microsoft teams et Skype (grand public). Découvrez comment les utilisateurs de équipes et les utilisateurs de Skype peuvent communiquer par le biais de conversations et d’appels, ainsi que des contrôles d’administration qui s’appliquent.
 

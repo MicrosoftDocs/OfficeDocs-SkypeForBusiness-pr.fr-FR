@@ -14,19 +14,19 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Apprenez-en davantage sur l’interface de chat d’équipe native pour les utilisateurs de Microsoft Teams (fédéré) disponibles entre les utilisateurs externes lorsque les deux utilisateurs sont en mode de mise à niveau TeamsOnly.
-ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832684"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842005"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Une interface utilisateur native pour les discussions pour les utilisateurs externes de Microsoft teams
 ======================================
 
-Lorsqu’un utilisateur de Microsoft teams discute avec un utilisateur externe (fédéré), l’interface de conversation est limitée au texte. Toutefois, si votre client teams et celui de l’utilisateur externe se trouvent dans le mode de mise à niveau de TeamsOnly, vous pouvez avoir une « expérience de conversation en équipe native » qui inclut une mise en forme enrichie, @mentions et d’autres fonctionnalités de conversation. En d’autres termes, vous pouvez utiliser la même expérience de conversation d’équipe 1:1 avec les utilisateurs externes éligibles, comme vous le faites avec les utilisateurs de votre organisation. Les discussions d’équipe natives avec des utilisateurs externes sont toujours limitées aux discussions 1:1 uniquement (les utilisateurs externes ne peuvent pas faire des discussions de groupe).
+Lorsqu’un utilisateur de Microsoft teams discute avec un utilisateur externe (fédéré), l’interface de conversation est limitée au texte. En revanche, si vos interlocuteurs et utilisateurs externes se trouvent dans le mode de mise à niveau de TeamsOnly, vous pouvez avoir une « expérience de conversation en équipe Native » incluant une mise en forme enrichie, @mentions et d’autres fonctionnalités de conversation. En d’autres termes, vous pouvez utiliser la même expérience de conversation d’équipe 1:1 avec les utilisateurs externes éligibles, comme vous le faites avec les utilisateurs de votre organisation. Les discussions d’équipe natives avec des utilisateurs externes sont toujours limitées aux discussions 1:1 uniquement (les utilisateurs externes ne peuvent pas faire des discussions de groupe).
 
-L’interface de conversation native pour les utilisateurs externes est activée pour tous les clients Teams, mais tous les utilisateurs ne sont pas éligibles. Pour vous offrir une conversation native, l’expéditeur et le destinataire doivent être sur un client d’équipe exécutant le mode de mise à niveau TeamsOnly. Pour en savoir plus sur les stratégies de mise à niveau, voir [définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
+L’interface de conversation native pour les utilisateurs externes est activée pour tous les clients Teams, mais tous les utilisateurs ne sont pas éligibles. Pour vous offrir une conversation native, l’expéditeur et le destinataire doivent être configurés pour le mode de mise à niveau TeamsOnly. Pour en savoir plus sur les stratégies de mise à niveau, voir [définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
 
 Pour afficher une liste de fonctionnalités pour les utilisateurs d’accès externe dans Teams, voir [comparer des accès externes et invités](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
 
@@ -47,6 +47,6 @@ Si vous avez une conversation d’équipe native avec un utilisateur externe et 
 Si teams recherche une ancienne conversation textuelle uniquement avec cet utilisateur externe, il le réutilisera. Dans le cas contraire, teams crée une discussion de texte uniquement.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer l’accès externe dans teams](manage-external-access.md)

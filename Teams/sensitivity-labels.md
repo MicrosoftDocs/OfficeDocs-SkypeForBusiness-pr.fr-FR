@@ -17,16 +17,14 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment définir et utiliser des étiquettes de sensibilité dans Microsoft Teams.
-ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562069"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854116"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité de Microsoft teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Les [étiquettes de sensibilité](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permettent aux administrateurs d’équipes de réguler l’accès au contenu d’organisation sensible créé lors de la collaboration au sein d’équipes. Vous pouvez définir des étiquettes de sensibilité et leurs politiques associées dans le [Centre de sécurité & conformité](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center). Celles-ci s’appliquent automatiquement aux équipes au sein de votre organisation.  
 
@@ -36,19 +34,20 @@ Les étiquettes de sensibilité diffèrent des étiquettes de classification qui
 
 En revanche, les étiquettes de sensibilité et leurs politiques sont automatiquement appliquées de bout en bout par le biais d’une combinaison de la plateforme de groupes, du centre de sécurité & de conformité et des services d’équipe. Les étiquettes de sensibilité fournissent un puissant support d’infrastructure pour la sécurisation des données sensibles de votre organisation.  
 
+Pour migrer vos groupes existants de l’utilisation d’étiquettes de classification à l’aide d’étiquettes de sensibilité, utilisez les instructions dans les [étiquettes classification et confidentialité d’Azure Active Directory pour les groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Créer, gérer et publier des étiquettes de confidentialité pour teams
 
-Pour plus d’informations sur l’activation, la création et la publication d’étiquettes de sensibilité pour les équipes, voir [utiliser des étiquettes de sensibilité avec Microsoft Teams, les groupes microsoft 365 et les sites SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Pour plus d’informations sur l’activation, la création et la publication d’étiquettes de confidentialité pour les équipes, voir [étiquettes de classification et de sensibilité dans Azure Active Directory pour les groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >La création, la mise à jour et la suppression d’étiquettes de sensibilité nécessitent un séquençage rigoureux avec des étiquettes de publication aux utilisateurs. Tout écart dans la séquence peut entraîner des erreurs de création d’équipe persistantes pour tous les utilisateurs. Par conséquent, il est essentiel de procéder comme suit pour <a href="#createpublishlabels">créer et publier des étiquettes</a>, <a href="#modifydeletelabels">modifier et supprimer des étiquettes publiées</a>et <a href="#manageerrors">gérer les erreurs de création d’équipe</a>.
 
 **Créer et publier des étiquettes** <a name="createpublishlabels"> </a>
 
-Lors de la création et de la publication d’une étiquette dans le centre de sécurité & conformité, il peut s’écouler jusqu’à 24 heures avant que l’étiquette s’affiche dans l’interface de création d’équipes. Procédez comme suit pour publier l’étiquette de tous les utilisateurs du client :
+Lors de la création et de la publication d’une étiquette dans le centre de sécurité & conformité, 10 minutes peuvent être nécessaires pour que l’étiquette s’affiche dans l’interface de création d’équipes. Procédez comme suit pour publier l’étiquette de tous les utilisateurs du client :
 1. Créez l’étiquette et publiez-la pour quelques comptes d’utilisateurs sélectionnés dans le client.
-2. Une fois l’étiquette publiée, attendez 24 heures.
-3. Après 24 heures, essayez de créer une équipe avec l’étiquette à l’aide de l’un des comptes d’utilisateurs qui ont accès à l’étiquette.
+2. Une fois l’étiquette publiée, attendez 10 minutes.
+3. Après 10 minutes, essayez de créer une équipe avec l’étiquette à l’aide de l’un des comptes d’utilisateurs qui ont accès à l’étiquette.
 4. Si l’équipe a été créée à l’étape 3, continuez et publiez l’étiquette pour les utilisateurs restants dans le client.
 
 **Modification et suppression d’étiquettes publiées** <a name="modifydeletelabels"> </a>
@@ -56,8 +55,8 @@ Lors de la création et de la publication d’une étiquette dans le centre de s
 La suppression ou la modification de l’étiquette alors qu’elle est associée aux stratégies de confidentialité peut entraîner des échecs de création d’équipe sur le client. Par conséquent, avant de supprimer ou de modifier une étiquette, vous devez d’abord dissocier l’étiquette de ses stratégies associées. Procédez comme suit  
 pour supprimer ou modifier une étiquette :
 1. Supprimez l’étiquette de toutes les stratégies utilisant l’étiquette. Vous pouvez également supprimer les stratégies eux-mêmes.
-2. Lorsque l’étiquette est supprimée des stratégies ou que les stratégies lui-même sont supprimées, attendez 48 heures avant de continuer.
-3. Après 48 heures, lancez l’interface de création d’équipe et assurez-vous que l’étiquette n’est plus visible pour les utilisateurs du client.
+2. Lorsque l’étiquette est supprimée des stratégies ou que les stratégies lui-même sont supprimées, attendez 10 minutes avant de continuer.
+3. Après 10 minutes, lancez l’interface de création d’équipe et assurez-vous que l’étiquette n’est plus visible pour les utilisateurs du client.
 4. Vous pouvez maintenant supprimer ou modifier l’étiquette en toute sécurité.
 
 **Gérer les erreurs** <a name="manageerrors"> </a> de création d’équipe

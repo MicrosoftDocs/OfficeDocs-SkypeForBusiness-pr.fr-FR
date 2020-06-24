@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé et la création d’un fichier de paramètres maître.
-ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230502"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842015"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -30,7 +30,7 @@ Il est possible de modifier les paramètres par défaut des appareils gérés à
   
 ## <a name="create-an-xml-configuration-file"></a>Créer un fichier de configuration XML
 
-Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres. Le tableau d' **éléments XML** décrit les éléments présentés dans cet exemple de fichier de configuration SkypeSettings. XML (nom de fichier requis).
+Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres. Le tableau d' **éléments XML** décrit les éléments présentés dans cet exemple de fichier de configuration SkypeSettings.xml (nom de fichier requis).
   
 ```XML
 <SkypeSettings>
@@ -90,28 +90,29 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 |\<ExchangeAddress\> |&#x2778; de chaîne  ||Nom de connexion du compte de l’appareil Exchange de la console. Si ExchangeAddress est omis, le SkypeSignInAddress ne sera pas réutilisé automatiquement. |
 |\<ModernAuthEnabled> |&#x2777; booléenne  |  |Désactivé par défaut. <br/> <br/>S’il est défini sur true, l’application Microsoft teams pièces utilise uniquement l’authentification moderne pour se connecter aux ressources et ne revient pas à l’authentification de base.|
 |\<DomainUsername\> |&#x2778; de chaîne  ||Nom de domaine et d'utilisateur de la console, par exemple Seattle\RanierConf. |
-|\<Son\> |Chaîne 3  ||  Le paramètre du mot de passe est le même mot de passe que celui utilisé pour la connexion au compte d'appareil Skype Entreprise.   |
+|\<Password\> |Chaîne 3  ||  Le paramètre du mot de passe est le même mot de passe que celui utilisé pour la connexion au compte d'appareil Skype Entreprise.   |
 | \<ConfigureDomain\>  |&#x2778; de chaîne  ||Vous pouvez répertorier plusieurs domaines, séparés par des virgules. |
-|\<TeamsMeetingsEnabled\> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/> Le fichier XML est considéré de façon incorrecte si les deux \< SkypeMeetingsEnabled \> et \< TeamsMeetingsEnabled \> sont désactivés, mais il est acceptable d’activer les deux paramètres en même temps. |
+|\<TeamsMeetingsEnabled\> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/> Le fichier XML est considéré comme incorrectement formé si les deux \<SkypeMeetingsEnabled\> et \<TeamsMeetingsEnabled\> sont désactivés, mais il est acceptable d’activer les deux paramètres en même temps. |
 |\<IsTeamsDefaultClient> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. |
 |\<BluetoothAdvertisementEnabled> |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut. |
 |\<AutoAcceptProximateMeetingInvitations> |&#x2777; booléenne  |Première &#x2776;  |Si vrai, les réunions basées sur la proximité sont automatiquement acceptées. Désactivé par défaut. |
 |\<DualScreenMode\>  |&#x2777; booléenne  |Première &#x2776;  |Si la valeur est true, le mode à deux écrans est activé. Dans le cas contraire, l’appareil utilise le mode écran unique. |
-| \<DuplicateIngestDefault\> |&#x2777; booléenne  |Première &#x2776; |Si la valeur est true, le contenu s’affiche sur les deux écrans en mode à deux écrans, lors de l’absence de la réunion. | 
+| \<DuplicateIngestDefault\> |&#x2777; booléenne  |Première &#x2776; |Si la valeur est true, le contenu s’affiche sur les deux écrans en mode à deux écrans, lors de l’absence de la réunion. |
+|\<DisableTacCommunication\> |&#x2777; booléenne  |Première &#x2776; |Si la valeur est true, toutes les communications avec la gestion des appareils du centre d’administration teams sont désactivées. |
 |\<SendLogs\> |Conteneur |Première &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |&#x2778; de chaîne  | | Définit une adresse de messagerie facultative dans laquelle les journaux peuvent être envoyés lorsque la fenêtre « envoyer des commentaires » s’affiche. |
 |\<SendLogsAndFeedback\> |&#x2777; booléenne  | |  Si ce paramètre est vrai, les journaux sont envoyés à l'administrateur. Si ce paramètre est faux, seuls les commentaires sont envoyés à l'administrateur (pas les journaux).  |
-| \<Appareils\>  |Conteneur |Première &#x2776;  | Les noms des appareils audio connectés dans les éléments enfants sont les mêmes valeurs que celles qui sont répertoriées dans l'application du gestionnaire de périphériques. La configuration peut contenir un appareil qui n'existe pas actuellement sur le système, tel qu'un périphérique audio/vidéo qui n'est pas connecté à la console actuellement. La configuration sera conservée pour l'appareil respectif.  |
+| \<Devices\>  |Conteneur |Première &#x2776;  | Les noms des appareils audio connectés dans les éléments enfants sont les mêmes valeurs que celles qui sont répertoriées dans l'application du gestionnaire de périphériques. La configuration peut contenir un appareil qui n'existe pas actuellement sur le système, tel qu'un périphérique audio/vidéo qui n'est pas connecté à la console actuellement. La configuration sera conservée pour l'appareil respectif.  |
 |\<MicrophoneForCommunication\> |&#x2778; de chaîne  ||Définit le microphone utilisé comme périphérique d’enregistrement dans une conférence. |
 |\<SpeakerForCommunication\> |&#x2778; de chaîne  ||Périphérique qui sera utilisé comme haut-parleur pour la conférence. Ce paramètre permet de définir le périphérique de haut-parleur utilisé dans un appel. |
 |\<DefaultSpeaker\> |&#x2778; de chaîne  ||Périphérique qui sera utilisé pour lire le son d'une source de réception HDMI.  |
 |\<ContentCameraId>  | &#x2778; de chaîne  | | Définissez le chemin d’accès de l’instance de la caméra configurée dans la salle pour partager du contenu de tableau blanc analogique dans une réunion. Voir [Repérez le chemin d’accès de l’instance de caméra USB](#locate-the-content-camera-usb-instance-path).|
 |\<ContentCameraInverted>  | &#x2777; booléenne | | Indiquez si l’appareil photo de contenu est physiquement installé à l’envers. Pour les caméras de contenu qui prennent en charge la rotation automatique, spécifiez false. |
 |\<ContentCameraEnhancement>  | &#x2777; booléenne | |Lorsque la valeur est définie sur true (valeur par défaut), l’image de l’appareil photo de contenu est améliorée de façon numérique : le bord du tableau blanc est détecté et un zoom approprié est sélectionné, les lignes d’entrée manuscrite sont améliorées et la personne qui rédige le tableau blanc devient transparente.  <br><br> Valeur définie sur false si vous envisagez d’envoyer un flux vidéo brut aux participants d’une réunion pour les espaces dans lesquels un tableau blanc n’est pas dessiné à l’aide d’un stylet et, à la place, la caméra est utilisée pour afficher les notes collantes, les affiches ou tout autre contenu multimédia.  |
-| \<Thèmes\>  |Conteneur |Première &#x2776;  |L’une des fonctionnalités qui peuvent être appliquées à un fichier XML est un thème personnalisé pour votre organisation. Vous pouvez spécifier un nom de thème, une image d’arrière-plan et une couleur. |
+| \<Theming\>  |Conteneur |Première &#x2776;  |L’une des fonctionnalités qui peuvent être appliquées à un fichier XML est un thème personnalisé pour votre organisation. Vous pouvez spécifier un nom de thème, une image d’arrière-plan et une couleur. |
 |\<ThemeName\> |&#x2778; de chaîne  || Permet d'identifier le thème sur le client. Les options pour le nom du thème sont Par défaut, un des thèmes prédéfinis fournis ou Personnalisé. <br/>  Les noms de thème personnalisés utilisent toujours le nom *personnalisé*. L’interface utilisateur du client peut être définie sur la console par défaut ou l’une des présélections, mais l’utilisation d’un thème personnalisé doit être définie à distance par un administrateur. <br/>  Les thèmes prédéfinis sont les suivants :  <br/>  Par défaut <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Pour désactiver le thème actuel, utilisez « aucun thème » pour l’ThemeName.  |
 |\<CustomThemeImageUrl\> |&#x2778; de chaîne  ||Requis pour un thème personnalisé, sinon facultatif. Entrez uniquement le nom du fichier.   |Pour plus d’informations sur l’image de thème personnalisé, voir la section [images de thème personnalisées](xml-config-file.md#Themes) .
-|\<CustomThemeColor\> |Conteneur ||Conteneur pour les \< \> valeurs RedComponent, \< GreenComponent \> et \< BlueComponent \> . Ces valeurs sont requises pour un thème personnalisé. |
+|\<CustomThemeColor\> |Conteneur ||Conteneur pour les \<RedComponent\> \<GreenComponent\> valeurs, et \<BlueComponent\> . Ces valeurs sont requises pour un thème personnalisé. |
 |\<RedComponent\> |Octet (0-255) ||Représente le composant de la couleur rouge. |
 |\<GreenComponent\> |Octet (0-255) ||Représente le composant de la couleur verte. |
 |\<BlueComponent\> |Octet (0-255) ||Représente le composant de la couleur bleue. | 
@@ -125,7 +126,7 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>Gestion des paramètres de la console à l'aide d'un fichier de configuration XML
 
-Au démarrage, si une console Microsoft teams se trouve dans le fichier XML intitulé SkypeSettings. XML `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` , il applique les paramètres de configuration indiqués par le fichier XML, puis supprime le fichier XML.
+Au démarrage, si une console Microsoft teams service recherche un fichier XML intitulé SkypeSettings.xml se trouve `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` , il applique les paramètres de configuration indiqués par le fichier XML, puis supprime le fichier XML.
   
 En fonction du nombre de systèmes de salles de Microsoft teams dont dispose votre entreprise et de la manière dont vous choisissez de les gérer pour les configurer, il existe plusieurs façons de placer le fichier de configuration XML. Une fois le fichier poussé sur la console, redémarrez-la pour traiter les modifications apportées à la configuration. Le fichier de configuration XML est supprimé une fois qu';il a été traité. Les méthodes de gestion suggérées pour les appareils Microsoft teams salles sont décrites dans :
   
@@ -138,7 +139,7 @@ Vous pouvez utiliser la méthode que vous souhaitez tant que vous pouvez l'utili
 
 <a name="Themes"> </a>
 
-Le fichier image de thème personnalisé doit être placé dans le `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` dossier. Entrez le nom et l’extension du fichier dans la \< \> variable CustomThemeImageUrl.
+Le fichier image de thème personnalisé doit être placé dans le `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` dossier. Entrez le nom et l’extension du fichier dans la \<CustomThemeImageUrl\> variable.
   
 Le fichier image doit avoir exactement 3840X1080 pixels et doit être l’un des formats de fichier suivants : jpg, JPEG, png et BMP. Si votre organisation veut utiliser une image personnalisée, un concepteur graphique peut utiliser le [modèle Photoshop thème personnalisé](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd). Il contient de plus amples détails sur l’emplacement des différents éléments de l’interface utilisateur par rapport au reste d’une image de thème et les zones qui apparaissent dans les consoles et les affichages.
   

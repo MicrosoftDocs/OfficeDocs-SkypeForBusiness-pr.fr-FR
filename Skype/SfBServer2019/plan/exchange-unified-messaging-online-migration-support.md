@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de la migration de messagerie unifiée Exchange Online
+title: Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232559"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842025"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration de messagerie unifiée Exchange Online
+# <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
 > [!IMPORTANT]
 > **Le service de messagerie unifiée dans Exchange Online n’est pas pris en charge depuis le 28 février 2020, heure du Pacifique. Tous les comptes de messagerie vocale ont été migrés vers le service de messagerie vocale Cloud par Microsoft. Tout trafic de standard automatique restant n’est pas surveillé et peut être interrompu à tout moment.**
 
 En référence à l' [annonce](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) le 8 février 2019, Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) du 28 février 2020. Cet article offre un résumé des éléments que les clients concernés doivent connaître et faire pour planifier leur continuité d’entreprise.
- 
+
 ExchUMO est déployé par les clients pour la messagerie vocale, le standard automatique, la file d’attente d’appels et les services d’intégration de télécopie. Microsoft prévoit d’aider les clients à migrer vers des services de système téléphonique qui prennent déjà en charge des milliers de clients sur Skype entreprise Online et Microsoft Teams.
 
 La messagerie vocale est principalement une migration basée sur Microsoft ; l’implication de l’administrateur et/ou l’investissement peuvent être requis pour un sous-ensemble de clients. Le standard automatique est une migration basée sur un administrateur ; vous devrez recréer les arbres de standard automatique ExchUMO existants dans le service Cloud de standard automatique Cloud. Les clients qui utilisent l’une des fonctionnalités ExchUMO avec un PBX tiers ne seront pas migrés vers les services Cloud Skype car ils ne prennent pas en charge les systèmes PBX tiers. Un plan de retraite pour le support technique tiers a été annoncé dans [ce blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), et les clients de ce modèle de déploiement peuvent migrer leurs utilisateurs vers l’une des plateformes/services de communications unifiées de Microsoft ou acquérir une solution de standard automatique et/ou de standard vocale pour ces utilisateurs. L’intégration de la télécopie n’est pas prise en charge dans les services en nuage ; les clients devront migrer vers une solution tierce.
 
-### <a name="who-is-affected"></a>Qui est concerné ?
+## <a name="who-is-affected"></a>Qui est concerné ?
 
 Les clients qui utilisent l’une des fonctionnalités suivantes du service de messagerie unifiée Exchange sont concernés :
 
@@ -39,13 +39,13 @@ Les clients qui utilisent l’une des fonctionnalités suivantes du service de m
 - Intégration de la télécopie
 
 > [!Note]
-> Les clients qui utilisent l’un des serveurs Exchange locaux avec la messagerie unifiée ne sont pas affectés. 
+> Les clients qui utilisent l’un des serveurs Exchange locaux avec la messagerie unifiée ne sont pas affectés.
 
 En savoir plus sur l’impact de l’expérience utilisateur et de l’administrateur sur l’impact de l' [expérience utilisateur](#user-experience-impact).
 
 ## <a name="migration-plan-overview"></a>Vue d’ensemble du plan de migration
 
-Microsoft a identifié divers déploiements de clients qui utilisent des fonctionnalités de ExchUMO et aidera les clients à migrer en fonction du plan suivant. 
+Microsoft a identifié divers déploiements de clients qui utilisent des fonctionnalités de ExchUMO et aidera les clients à migrer en fonction du plan suivant.
 
 |Groupe de clients |Chronologie  |Détails  |
 |---------|---------|---------|
@@ -53,60 +53,62 @@ Microsoft a identifié divers déploiements de clients qui utilisent des fonctio
 |Clients avec conditions préalables<br><br>Fonctionnalités à migrer :<br><ul><li>Messagerie vocale<li>Standard automatique<li>File d’attente des appels</ul> |  Mai — décembre 2019 |Exemples : <br><ul><li>La configuration hybride n’est pas terminée<li>Les numéros RTC hybrides ne sont pas configurés</ul>|
 |Les clients qui ont besoin d’une intervention de l’administrateur & investissement client<br><br>Fonctionnalités à migrer :<ul><li>voicemail<li>Standard automatique<li>Files d’attente d’appels<li>Intégration de la télécopie</ul>| Par le 2020 février  | Exemples : <br><ul><li>Le service ExchUMO est utilisé par un PBX tiers<li>Clients ayant des exigences en matière d’accès abonné RTC<li>Clients sur SFB 2010 (non pris en charge)<li>Intégration de la télécopie</ul> |
 
-## <a name="voicemail-migration-steps"></a>Étapes de migration de la messagerie vocale
+## <a name="voicemail-migration-guidelines"></a>Instructions de migration de la messagerie vocale
 
-1.  **Être informé**
+### <a name="get-informed"></a>Être informé
+
+Familiarisez-vous avec l' [annonce de blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) et cet article pour planifier une migration en douceur pour vos utilisateurs. Pour plus d’informations sur les fonctionnalités de messagerie vocale du système téléphonique [, voir vérifier la messagerie vocale et les options de Skype entreprise](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) .  
+
+### <a name="establish-a-skype-for-business-hybrid-topology"></a>Établir une topologie hybride Skype entreprise
+
+Si vous ne disposez pas d’une topologie hybride Skype entreprise établie, vous devez effectuer cette opération pour faciliter la migration de vos utilisateurs de la messagerie vocale. Pour plus d’informations, reportez-vous à la rubrique [configure Skype for Business Hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) .
+
+> [!Note]
+> Vous n’avez pas besoin de migrer vos utilisateurs en ligne pour la migration du service de messagerie vocale. Toutefois, pour que les utilisateurs locaux puissent tirer parti du service de messagerie vocale du système téléphonique, une topologie hybride doit être établie.
+
+### <a name="plan-your-auto-attendant-migration"></a>Planification de la migration de votre standard automatique
+
+Les administrateurs peuvent lancer la migration de leurs standards automatiques depuis ExchUMO vers le standard automatique Cloud à tout moment. Pour plus d’informations, reportez-vous à [la rubrique Configurer un standard automatique de Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) .
+
+Microsoft continue de fournir des fonctionnalités de standard automatique supplémentaires que les clients peuvent envisager de prendre en compte pour leur migration. Les administrateurs doivent évaluer l’ensemble de fonctionnalités et migrer leurs instances de standard automatique en conséquence. Pour une comparaison des listes de fonctionnalités, voir la [matrice de fonctionnalités ExchUMO et Azure Cloud-based services](#exchumo-and-azure-cloud-based-services-feature-matrix).
+
+### <a name="plan-for-your-voicemail-post-migration-validation-and-testing"></a>Planification de la validation et du test post-migration de votre messagerie vocale
+
+La migration de la messagerie vocale est dirigée par Microsoft. Les administrateurs ne doivent rien faire, étant donné que la topologie hybride prérequise est établie. Microsoft effectue la validation requise et les tests afin de s’assurer que la migration de la messagerie vocale des utilisateurs n’est pas interrompue. Les administrateurs sont encouragés à effectuer des tests et des validations sur le même site. Voir le [plan de test suggéré et la validation post-migration pour les administrateurs](#suggested-test-plan-and-post-migration-validation-for-admins) pour un plan de test recommandé.
+
+> [!Note]
+> Lync Server 2010 n’est pas pris en charge. Si vous êtes dans un déploiement de serveur 2010, vous devez planifier une mise à niveau du serveur ou envisager de faire migrer vos utilisateurs vers Microsoft teams ou Skype entreprise online.  
+
+### <a name="monitor-the-admin-notification-center"></a>Surveiller le centre de notification d’administration
+
+Surveillez une notification dans le centre de notification d’administration avec des informations supplémentaires et une chronologie concernant la migration de vos utilisateurs. Les notifications sont envoyées au moins 30 jours avant la période de migration.
+
+> [!Note]
+> Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et souhaitez reporter votre migration pour une raison stratégique, vous pouvez le faire en contactant le support Microsoft. Vous ne pouvez pas reporter votre migration au-delà de la date de retraite du 28 février 2020. Pour les clients qui peuvent avoir des questions supplémentaires, contactez votre équipe de compte ou le support Microsoft. Les clients qui utilisent déjà Microsoft 365 ou Office 365 peuvent soumettre un cas de support via le centre d’administration Microsoft 365.
+
+### <a name="consider-opting-in-for-a-planned-migration"></a>Envisager d’opter pour une migration planifiée
+
+Vous pouvez opter pour une migration de service de messagerie vocale planifiée vers CVM. Avant d’opter pour le choix, consultez les détails de cet article, en particulier les sections suivantes :
+
+- Étapes de migration (cette section)
+- Matrice de fonctionnalité des services Cloud ExchUMO et Azure
+- Impact sur l’expérience utilisateur
+
+Lorsque vous choisissez une migration gérée, vous ne recevrez pas de notification de 30 jours avant la migration dans le centre de messages du portail d’administration de Microsoft 365.
+
+Pour vous inscrire à une migration planifiée, envoyez une demande de courrier électronique à partir de l’adresse de messagerie de votre administrateur à [CVM@microsoft.com](mailto:cvm@microsoft.com) avec les informations suivantes :
+
+- Date par défaut (mardis) : les vagues de migration sont exécutées tous les mardis. Veuillez sélectionner une date sur un mardi qui n’est pas au-delà de 12/3/2019.
  
-    Familiarisez-vous avec l' [annonce de blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) et cet article pour planifier une migration en douceur pour vos utilisateurs. Pour plus d’informations sur les fonctionnalités de messagerie vocale du système téléphonique [, voir vérifier la messagerie vocale et les options de Skype entreprise](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) .  
- 
-2.  **Établir une topologie hybride Skype entreprise**
+- ID de client : 32 caractères numériques au format 0046728c-688a-4472-a38f-098fec60ac6x. Vous pouvez trouver votre ID de locataire dans le portail d’administration 365 de Microsoft sous Azure AD ou à l’aide de l’applet de commande PowerShell suivante :`Get-CsTenant | Select ObjectId`
 
-    Si vous ne disposez pas d’une topologie hybride Skype entreprise établie, vous devez effectuer cette opération pour faciliter la migration de vos utilisateurs de la messagerie vocale. Pour plus d’informations, reportez-vous à la rubrique [configure Skype for Business Hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
-
-    > [!Note]
-    > Vous n’avez pas besoin de migrer vos utilisateurs vers Online pour la migration du service de messagerie vocale. Toutefois, pour que les utilisateurs locaux puissent tirer parti du service de messagerie vocale du système téléphonique, une topologie hybride doit être établie.
-
-3. **Planification de la migration de votre standard automatique**
-    
-    Les administrateurs peuvent lancer la migration de leurs standards automatiques depuis ExchUMO vers le standard automatique Cloud à tout moment. Pour plus d’informations, reportez-vous à [la rubrique Configurer un standard automatique de Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft continue de fournir des fonctionnalités de standard automatique supplémentaires que les clients peuvent envisager d’effectuer pour leur migration, les administrateurs doivent évaluer l’ensemble de fonctionnalités et migrer leurs instances de standard automatique en conséquence. Pour une comparaison des listes de fonctionnalités, voir la [matrice de fonctionnalités ExchUMO et Azure Cloud-based services](#exchumo-and-azure-cloud-based-services-feature-matrix).
-
-4. **Planification de la validation et du test post-migration de votre messagerie vocale**
-
-    La migration de la messagerie vocale est dirigée par Microsoft. Les administrateurs ne doivent rien faire, étant donné que la topologie hybride prérequise est établie. Microsoft effectue la validation requise et les tests afin de s’assurer que la migration de la messagerie vocale des utilisateurs n’est pas interrompue. Les administrateurs sont encouragés à effectuer des tests et des validations sur le même site. Voir le [plan de test suggéré et la validation post-migration pour les administrateurs](#suggested-test-plan-and-post-migration-validation-for-admins) pour un plan de test recommandé. 
-
-    > [!Note]
-    > Lync Server 2010 n’est pas pris en charge. Si vous êtes dans un déploiement de serveur 2010, vous devez planifier une mise à niveau du serveur ou envisager de faire migrer vos utilisateurs vers Microsoft teams ou Skype entreprise online.  
-
-5. **Surveiller le centre de notification d’administration**
-
-    Pour plus d’informations sur la migration de vos utilisateurs, consultez le centre de notification de l’administrateur. Les notifications sont envoyées au moins 30 jours avant la période de migration. 
-
-    > [!Note]
-    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et souhaitez reporter votre migration pour une raison stratégique, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas reporter votre migration au-delà de la date de déclassement, du 28 février 2020. Pour les clients qui peuvent avoir des questions supplémentaires, contactez votre équipe de compte ou le support Microsoft. Les clients qui utilisent déjà Microsoft 365 ou Office 365 peuvent soumettre un cas de support via le centre d’administration Microsoft 365. 
-
-6. **Envisager d’opter pour une migration planifiée**
-
-    Vous pouvez opter pour une migration de service de messagerie vocale planifiée vers CVM. Avant d’opter pour le choix, consultez les détails de cet article, en particulier les sections suivantes :
-
-    - Étapes de migration (cette section)
-    - Matrice de fonctionnalité des services Cloud ExchUMO et Azure
-    - Impact sur l’expérience utilisateur
-
-    Lorsque vous choisissez une migration gérée, vous ne recevrez pas de notification de 30 jours avant la migration dans le centre de messages du portail d’administration de Microsoft 365.
- 
-    Pour vous inscrire à une migration planifiée, envoyez une demande de courrier électronique à partir de l’adresse de messagerie de votre administrateur à [CVM@microsoft.com](mailto:cvm@microsoft.com) avec les informations suivantes :
-
-    - Date par défaut (mardis) : les vagues de migration sont exécutées tous les mardis. Veuillez sélectionner une date sur un mardi qui n’est pas au-delà de 12/3/2019.
- 
-    - ID de client : 32 caractères numériques au format 0046728c-688a-4472-a38f-098fec60ac6x. Vous pouvez trouver votre ID de locataire dans le portail d’administration 365 de Microsoft sous Azure AD ou à l’aide de l’applet de commande PowerShell suivante :`Get-CsTenant | Select ObjectId`
- 
-    Vous recevez une confirmation par courrier électronique une fois que votre client a été correctement migré.
+Vous recevrez une confirmation par courrier électronique une fois que votre client aura été correctement migré.
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instructions de migration du standard automatique
 
-Les administrateurs de l’organisation Microsoft 365 et Office 365 doivent recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Cloud de Microsoft et faire en sorte que leurs numéros de téléphone locaux soient déclassés avant le 28 février 2020. Il s’agit de la règle recommandée pour réussir la migration et le test de nouveaux standards automatiques Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique de messagerie unifiée Exchange pour les scripts de migration de standard](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatique de Cloud afin de simplifier la migration en bloc des standards automatiques.
+Les administrateurs de l’organisation Microsoft 365 et Office 365 doivent recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Cloud de Microsoft et changer leurs numéros de téléphone locaux avant la date de désinstallation du service UMO Exchange du 28 février 2020. Il s’agit de la règle recommandée pour réussir la migration et le test de nouveaux standards automatiques Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique de messagerie unifiée Exchange pour les scripts de migration de standard](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatique de Cloud afin de simplifier la migration en bloc des standards automatiques.
 
-### <a name="setup"></a>Installation
+### <a name="auto-attendant-setup"></a>Installation du standard automatique
 
 Nous vous conseillons vivement de commencer la configuration de vos nouveaux standards automatiques dès le début pour éviter les problèmes de dernière minute et pour vous familiariser avec les fonctionnalités et l’expérience du service de standard automatique Cloud. Pour les standards automatiques qui nécessitent une ou plusieurs fonctionnalités d’intervalle, vous pouvez créer et tester les standards automatiques lorsque les fonctionnalités d’espace sont disponibles pour préparer le déploiement. Pour plus d’informations sur les fonctionnalités des intervalles, voir l' [annexe](#appendix).
 
@@ -115,13 +117,13 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 3. Suivez les instructions indiquées dans plan auto- [standards](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [set up a Cloud auto standard](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) pour créer des standards automatiques à l’aide du centre d’administration Microsoft teams ou de PowerShell.
 4. Vérifiez votre message d’accueil si les options de menu sont modifiées.
 5. Configurez les transferts vers vos groupes Response Group à l’aide de la solution de contournement « transfert d’appel vers PSTN » dans la section [problèmes connus](#known-issues) de cet article.  
-6. Testez les nouveaux standards automatiques. Pour le tester, appelez-le en interne ou affectez un numéro de téléphone test.  
+6. Testez les nouveaux standards automatiques en les appelant en interne ou en affectant un numéro de téléphone test.  
 
 ### <a name="cutover"></a>Basculement
 
 1. Basculer vos numéros de téléphone des standards automatiques Exchange UMO vers les nouveaux standards automatiques.
 2. Déplacez l’URI SIP de l’objet contact vers le compte de ressource.
-3. Testez et validez vos standards automatiques à l’aide des numéros de téléphone nouvellement attribués. 
+3. Testez et validez vos standards automatiques à l’aide des numéros de téléphone nouvellement attribués.
 
 ## <a name="appendix"></a>Annexe
 
@@ -163,13 +165,13 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités de l’appelant  | Détection de silence   |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : l’administrateur peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme protégée | v | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la durée limite d’enregistrement  |     | v | v    |
-| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | N/A    | v    |
+| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | S/O    | v    |
 | Media | Client-fonctionnalités d’administration | Modifier le nombre d’échecs d’entrée | CVM : préprogrammé préprogrammé sur 3 | N | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la langue par défaut |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la transcription |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | N/A    | v    |
+| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | S/O    | v    |
 | Media | Client-fonctionnalités d’administration | Masquage de transcription|  | v | N    |
 | Media | Client-fonctionnalités d’administration | Stratégie de messagerie vocale    |   | v | v    |
 | Media | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | v    |
@@ -199,14 +201,14 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de test suggéré et validation post-migration pour les administrateurs
 
-Pour vérifier que vos utilisateurs ont été migrés vers la messagerie vocale Cloud, laissez une messagerie vocale à un utilisateur et vérifiez le corps du message dans Outlook.  Les messages vocaux Cloud ont un pied de page qui indique :
+Pour vérifier que vos utilisateurs ont été migrés vers la messagerie vocale Cloud, laissez une messagerie vocale à un utilisateur et vérifiez le corps du message dans Outlook. Les messages vocaux Cloud ont un pied de page qui indique :
 
-**Merci d’utiliser la transcription. Si vous ne voyez pas de transcription ci-dessus, cela est dû au fait que la qualité audio n’était pas suffisamment claire pour transcrire.**
+«Merci d’utiliser la transcription ! Si vous ne voyez pas de transcription ci-dessus, cela est dû au fait que la qualité audio n’était pas suffisamment claire pour transcrire.
 
 Lors du test de la fonctionnalité de messagerie vocale après la migration de vos utilisateurs, veillez à prendre en compte les scénarios suivants :
 
-- Validation de l’accès à la messagerie vocale à tous les types de points de terminaison de votre organisation : les applications et les téléphones IP. 
-- Valider avec des exemples d’utilisateurs que les messages d’accueil personnalisés configurés sont diffusés aux appelants.   
+- Valider l’accès à la messagerie vocale pour tous les types de points de terminaison de votre organisation, tels que les applications et les téléphones IP.
+- Valider avec des exemples d’utilisateurs que les messages d’accueil personnalisés configurés sont diffusés aux appelants.
 - Si votre organisation a besoin de désactiver la transcription pour les utilisateurs, assurez-vous qu’elle est désactivée après la migration. Pour plus d’informations, consultez la rubrique [configurer la messagerie vocale Cloud](/microsoftteams/set-up-phone-system-voicemail).
 - Si vous avez déjà configuré les stratégies et les règles de la machine virtuelle Exchange, assurez-vous qu’elles sont efficaces.
 - Familiarisez-vous avec les applets de commande PowerShell du service de messagerie vocale Cloud pour modifier les paramètres utilisateur.  
@@ -222,37 +224,48 @@ Voici une présentation de l’expérience de migration de la messagerie vocale 
 |Accès aux messages précédents | Aucune modification<br>Les utilisateurs ont accès à leurs messages vocaux précédents dans tous les points de terminaison pris en charge. |
 |Réception d’un ordinateur virtuel dans Outlook, applications SFB| Aucune modification<br>Les utilisateurs continuent de recevoir leurs messages vocaux dans tous les points de terminaison pris en charge. |
 |Phonétique | Avancée<br>La transcription CVM a un taux de précision plus élevé et des langues prises en charge par rapport à ExchUMO. |
-|Paramètre utilisateur | Nouvelle expérience<br>Les utilisateurs peuvent modifier leurs préférences à partir d’un portail de paramètres utilisateur (USP). Les utilisateurs peuvent accéder à leur USP à partir d’un lien hypertexte dans leur messagerie vocale ou au bouton paramètres utilisateur sur leur client SFB ; https://aka.ms/vmsettings.   
+|Paramètre utilisateur | Nouvelle expérience<br>Les utilisateurs peuvent modifier leurs préférences à partir d’un portail de paramètres utilisateur (USP). Les utilisateurs peuvent accéder à leur USP à partir d’un lien hypertexte dans leur messagerie vocale ou au bouton paramètres utilisateur sur leur client SFB ; https://aka.ms/vmsettings.
  |Fonctionnalités| Pour plus d’informations, reportez-vous à la comparaison des jeux de fonctionnalités. |
 |Règles Outlook pour les messages VM | Aucune modification<br>Les règles créées précédemment s’appliqueront aux messages CVM après la migration.
  |
 
-#### <a name="user-management-and-provisioning-in-cvm"></a>Gestion et approvisionnement des utilisateurs dans CVM
+### <a name="user-management-and-provisioning-in-cvm"></a>Gestion et approvisionnement des utilisateurs dans CVM
 
 Les nouveaux utilisateurs de Skype entreprise seront automatiquement mis en service pour la messagerie vocale Cloud lors de leur création. Aucune licence ou tâche d’administration supplémentaire n’est requise pour mettre en service de nouveaux utilisateurs de messagerie vocale. Consultez la rubrique [configurer la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail) sur le Cloud pour en savoir plus sur la gestion des stratégies pour les utilisateurs existants et nouveaux.
 
-#### <a name="admin-auto-attendant-management-experience"></a>Expérience de gestion du standard automatique de l’administrateur
+### <a name="admin-auto-attendant-management-experience"></a>Expérience de gestion du standard automatique de l’administrateur
 
 Pour en savoir plus sur les standards automatiques, consultez [la rubrique Configurer un standard automatique Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
-#### <a name="known-issues"></a>Problèmes connus
+### <a name="known-issues"></a>Problèmes connus
 
-**Désactiver l’accès abonné après la migration pour éviter l’incohérence des salutations** L’accès abonné peut continuer à fonctionner pour votre client jusqu’à ce que le service soit complètement retiré, même après que tous vos utilisateurs ont été migrés vers la messagerie vocale Cloud. Pour éviter toute confusion d’utilisateur et une expérience incohérente, désactivez l’accès abonné car les messages d’accueil ont changé après la migration à partir de là. Pour ce faire, supprimez le contact EXUM pour chaque ligne d’accès abonné à l’aide de Get-CsExUmContact | ? {$_. IsSubscriberAccess-EQ $true} | Remove-CsExUmContact 
+#### <a name="greeting-inconsistencies"></a>Incohérences des salutations
 
-**Transfert d’appel de standard automatique vers PSTN** Les clients sont encouragés à configurer une solution de contournement temporaire pour répondre aux exigences du transfert d’un appel de standard automatique vers un numéro RTC externe ou vers une instance RGS. 
- 
-Un problème a été identifié lors de l’assurance de la qualité avec la fonctionnalité de transfert out to PSTN, qui ne sera pas corrigée en temps réel pour que les clients commencent la migration du service Exchange UMO avant sa date de retraite planifiée du 28 février 2020. En guise de solution de contournement, les administrateurs peuvent transférer des appelants de standard automatique vers un utilisateur virtuel sur site avec un paramètre de transfert d’appel actif vers le numéro de téléphone RTC ou le numéro de téléphone RGS désiré. 
- 
-Expérience attendue
-- Les administrateurs n’ont pas besoin de disposer d’une licence pour l’utilisateur virtuel, car il s’agit d’une solution de contournement. 
-- Les administrateurs peuvent manipuler l’ID d’appelant que le récepteur RTC verra en affectant le numéro désiré à l’utilisateur virtuel ou en utilisant les fonctionnalités de manipulation de chiffres SBC
-- Les appelants RTC ne subiront aucun retard pendant le transfert d’appel et ils continueront de voir l’ID de l’appelant du standard automatique une fois le transfert réussi.  
+L’accès abonné peut continuer à fonctionner pour votre client jusqu’à ce que le service soit complètement retiré, même après la migration de tous vos utilisateurs vers la messagerie vocale Cloud. Pour éviter la confusion des utilisateurs et une expérience incohérente, désactivez l’accès abonné depuis le changement d’accueil après la migration. Pour ce faire, supprimez le contact EXUM pour chaque ligne d’accès abonné à l’aide de `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` .
 
-**Boîte aux lettres partagée :** Une boîte aux lettres partagée configurée à l’aide de la messagerie unifiée Exchange Online continuera à recevoir des messages après avoir été migrée vers CVM, et sera toujours accessible aux utilisateurs via Outlook. Toutefois, l’accès pour modifier les messages de message d’accueil de ces boîtes aux lettres ne sera pas disponible une fois la migration vers CVM. Les clients disposant de boîtes aux lettres partagées utilisées pour capturer des appels de standard automatique doivent utiliser les fonctionnalités de boîtes aux lettres partagées des standards automatiques et des files d’attente d’appels après leur publication (ETA octobre 2019).
+#### <a name="auto-attendant-call-transfer-to-pstn"></a>Transfert d’appel de standard automatique vers PSTN
+
+Les clients sont encouragés à configurer une solution temporaire pour répondre aux exigences du transfert d’un appel de standard automatique vers un numéro RTC externe ou vers une instance RGS.
+
+Un problème a été identifié lors de l’assurance de la qualité avec la fonctionnalité « transférer vers le numéro RTC », qui ne sera pas résolue en temps que les clients commencent à migrer du service Exchange UMO avant sa date de retraite planifiée du 28 février 2020. En guise de solution de contournement, les administrateurs peuvent transférer des appelants de standard automatique vers un utilisateur virtuel sur site avec un paramètre de transfert d’appel actif vers le numéro de téléphone RTC ou le numéro de téléphone RGS désiré. L’expérience attendue est la suivante :
+
+- Les administrateurs n’ont pas besoin de disposer d’une licence pour l’utilisateur virtuel étant donné qu’il s’agit d’une solution de contournement.
+- Les administrateurs peuvent manipuler l’ID de l’appelant que voit le récepteur RTC en affectant le numéro désiré à l’utilisateur virtuel ou en utilisant les fonctionnalités de manipulation des chiffres SBC.
+- Les appelants RTC ne subiront aucun retard pendant le transfert d’appel et continueront de voir l’ID de l’appelant du standard automatique une fois le transfert réussi.
+
+#### <a name="shared-mailbox-is-still-accessible"></a>La boîte aux lettres partagée est toujours accessible
+
+Une boîte aux lettres partagée configurée à l’aide de la messagerie unifiée Exchange Online continue à recevoir des messages après la migration vers CVM et être accessible aux utilisateurs via Outlook. Toutefois, l’accès pour modifier les messages de message d’accueil de ces boîtes aux lettres ne sera pas disponible une fois la migration vers CVM. Les clients disposant de boîtes aux lettres partagées utilisées pour capturer des appels de standard automatique doivent utiliser les fonctionnalités de boîtes aux lettres partagées des standards automatiques et des files d’attente d’appels après leur publication (ETA octobre 2019).
   
-**Bannière mise à niveau vers teams sur le client SFB :** Le service CVM est basé sur l’infrastructure de Microsoft teams ; les appels vers le client Skype entreprise peuvent entraîner l’affichage d’une bannière d’informations sur le client qui indique : «le nom d’utilisateur n’utilise pas Skype entreprise. Pour une expérience plus riche, passez à teams ou démarrez une réunion Skype. "
+#### <a name="username-is-not-using-skype-for-business-banner-displays"></a>Affichages de la bannière « le nom d’utilisateur n’utilise pas Skype entreprise »
+
+Le service CVM est basé sur l’infrastructure de Microsoft teams et les appels à partir d’un client Skype entreprise peuvent entraîner l’affichage d’une bannière d’informations sur le client qui indique : «le nom d’utilisateur n’utilise pas Skype entreprise. Pour une expérience plus riche, passez à teams ou démarrez une réunion Skype. "
 Assurez-vous de mettre à jour le client Skype entreprise de vos utilisateurs vers la dernière mise à jour du client C2R pour empêcher l’affichage de cette bannière.
   
-**Le programme d’installation de votre messagerie vocale vous permet d’accéder à OWA :** Cliquez sur « configurer la messagerie vocale » à partir du client pour continuer à prendre les clients Skype entreprise Server 2015/2013 vers la page du portail Office Web Access (OWA) après la migration vers CVM. Tous les paramètres ont été supprimés de l’onglet messagerie vocale dans OWA, et une bannière s’affiche avec un lien de redirection permettant aux utilisateurs d’accéder au portail des paramètres utilisateur de CVM.
- 
-**Modifier l’accès mobile du message d’accueil :** L’accès abonné PSTN n’est pas pris en charge dans CVM. Pour les utilisateurs qui doivent modifier leur message d’accueil à distance, une option de menu « modifier votre message d’accueil » est ajoutée au service de messagerie vocale vocale pour les clients mobiles. Les utilisateurs peuvent appeler ce service en appuyant sur la touche « 1 » et en la maintenant enfoncée sur le pavé d’appels du client mobile.
+#### <a name="set-up-voice-mail-takes-you-to-owa"></a>« Configurer la messagerie vocale » vous permet d’accéder à OWA
+
+En cliquant sur **configurer la messagerie vocale** à partir du client, les clients de Skype entreprise Server 2015/2013 continueront de prendre part à la page du portail Office Web Access (OWA) après la migration vers CVM. Tous les paramètres ont été supprimés de l’onglet messagerie vocale dans OWA et une bannière s’affiche avec un lien de redirection pour prendre les utilisateurs au portail des paramètres utilisateur de CVM.
+
+#### <a name="changing-greeting-remotely"></a>Modification d’un message d’accueil à distance
+
+L’accès abonné PSTN n’est pas pris en charge dans CVM. Pour les utilisateurs qui ont besoin de modifier leur message d’accueil à distance, une option de menu « modifier votre message d’accueil » a été ajoutée au service de messagerie vocale vocale pour les clients mobiles. Les utilisateurs peuvent appeler ce service en appuyant sur la touche « 1 » et en la maintenant enfoncée sur le pavé d’appels du client mobile.

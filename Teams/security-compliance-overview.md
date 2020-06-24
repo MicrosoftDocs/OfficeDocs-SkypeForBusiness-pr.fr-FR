@@ -20,19 +20,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0771141955e2641e1cdd261a22b933950e6c3c2e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690240"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841895"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
 > [!IMPORTANT]
 > Pour plus d’informations sur la façon de garantir **la sécurité de tous les utilisateurs de chez vous lors de l’épidémie de COVID-19**, lisez les articles suivants :
 >  - [12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
->  - [Optimiser Microsoft 365 ou la connectivité Office 365 pour les utilisateurs distants utilisant le tunneling VPN Split](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - [Optimiser la connectivité de Microsoft 365 ou Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Mise à jour du 2 avril 2020 : Guide sur la [sécurité teams](teams-security-guide.md)
 
 
@@ -104,7 +104,7 @@ Les stratégies de rétention de Microsoft teams vous permettent de conserver le
 
 La protection contre la perte de données (DLP) dans Microsoft Teams, ainsi que l’histoire DLP plus grande pour Microsoft 365 ou Office 365, tourne en fonction de l’avancement de l’entreprise en matière de protection des documents et données sensibles. Que vous ayez des inquiétudes sur des informations sensibles dans des messages ou des documents, les stratégies DLP seront en mesure de garantir que vos utilisateurs ne partageront pas ces données sensibles avec les personnes inappropriées.
 
-Pour plus d’informations sur la protection contre la perte de données dans Teams, voir [DLP pour Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams). Pour plus d’informations sur la [protection contre la perte de données](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies), reportez-vous à l’article approprié pour O36 DLP.
+Pour plus d’informations sur la protection contre la perte de données dans Teams, voir [DLP pour Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams). Pour plus d’informations sur les problèmes d’Office 365 DLP, c’est une [Présentation de la protection contre la perte de données](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies).
 
 ### <a name="ediscovery"></a>eDiscovery
 
@@ -195,7 +195,7 @@ Teams utilise les normes suivantes : [iso 27001](https://docs.microsoft.com/mic
 
 Vous trouverez plus d’informations sur les [ressources de protection des données](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Sécurité](https://docs.microsoft.com/microsoft-365/security/) 
  Microsoft 365 [Conformité](https://docs.microsoft.com/microsoft-365/compliance/) 
