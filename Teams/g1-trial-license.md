@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042811"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868540"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gérez la version d’évaluation d’Office 365 G1 pour le gouvernement américain 
 ==============================
@@ -78,9 +78,9 @@ Pour plus d’informations, consultez [Teams pour le gouvernement](expand-teams-
 
   - Si vous souhaitez supprimer cette licence à l’aide de PowerShell, voir  [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
-  - Si vous souhaitez supprimer cette licence via le portail d’administration, voir  [Retrait de licences à des utilisateurs dans Office 365](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+  - Si vous souhaitez supprimer cette licence via le portail d’administration, consultez :  [Supprimer un utilisateur de votre organisation](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 

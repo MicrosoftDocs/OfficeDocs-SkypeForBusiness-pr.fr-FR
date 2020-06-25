@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilisez Advisor pour Teams (préversion) pour faciliter la planification et l’exécution du déploiement de Microsoft Teams.
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665256"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868151"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -89,7 +89,7 @@ Les sections ci-dessous décrivent chaque évaluation, notamment s’il s’agit
 
 |Test d’évaluation  |Ce qu’il vous indique  |
 |---------|---------|
-|Domaine personnalisé configuré     |Si un domaine autre que @onmicrosoft.com est configuré pour votre client (par exemple, @contoso.onmicrosoft.com). Vous pouvez utiliser le domaine @onmicrosoft.com bien sûr, ou configurer un domaine personnalisé de votre choix. Si vous voulez en savoir plus, consultez [Ajouter un domaine](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Domaine personnalisé configuré     |Si un domaine autre que @onmicrosoft.com est configuré pour votre client (par exemple, @contoso.onmicrosoft.com). Vous pouvez utiliser le domaine @onmicrosoft.com bien sûr, ou configurer un domaine personnalisé de votre choix. Pour en savoir plus, lire [Ajouter un domaine à Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
 |Licences Teams     |Il s’agit d’une condition préalable : vous **devez avoir** des licences Teams pour déployer Teams. Interroger Microsoft Graph pour déterminer si vous avez des licences Teams (avec au moins une licence disponible à attribuer). Pour plus d’informations, lire [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Licences Exchange Online     |Si vous disposez d’un abonnement actif avec des licences Exchange Online disponibles. Même si Exchange n’est pas nécessaire pour les fonctionnalités Teams de base, l’intégration avec Exchange offre une expérience Teams optimale. Interroger Microsoft Graph pour analyser les abonnements associés à votre client et vérifier si vous avez des abonnements ayant une licence Exchange Online valide (avec au moins une licence disponible à attribuer). Pour en savoir plus, lire [Interaction de Exchange et Teams](exchange-teams-interact.md).    |
 |Licences SharePoint Online     |Si vous disposez d’un abonnement actif avec des licences SharePoint Online disponibles. Nous recommandons un licence SharePoint Online par utilisateur afin de fournir OneDrive Entreprise pour le stockage de fichiers dans des conversations. Interroger Microsoft Graph pour déterminer si vous avez des licences SharePoint Online (avec au moins une licence disponible à attribuer). Pour en savoir plus, voir [Intéraction de SharePoint Online et OneDrive Entreprise avec Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
@@ -102,8 +102,8 @@ Outre les [tests d’évaluation de pour toutes les charges de travail](#assessm
 
 |Test d’évaluation  |Ce qu’il vous indique  |
 |---------|---------|
-|Stratégie de nommage de Groupe Microsoft 365 configurée     |Si les standards d’attribution de noms ont été configurés pour les Groupes Microsoft 365. La stratégie de noms de Groupes Microsoft 365 permet à votre organisation d’appliquer une stratégie d’attribution de noms cohérente avec les équipes créées par l’utilisateur et elle s’applique également aux autres charges de travail de groupes (notamment Outlook, SharePoint, Planner et Yammer). Ce test interroge Azure AD via Microsoft Graph pour vérifier l’existence de stratégies d’attribution de nom qui s’appliquent aux Groupes Microsoft 365. Si vous voulez en savoir plus, consultez [Stratégie de noms de groupe](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Stratégie d’Expiration de Groupe Microsoft 365 configurée     |Si une stratégie d’expiration de groupe a été définie pour les Groupes Microsoft 365. Cela permet à votre organisation de supprimer automatiquement des Teams inactives. Cette option est désactivée par défaut. Ce test interroge Azure AD via Microsoft Graph et indique si la valeur a été modifiée par rapport à celle par défaut. Si vous voulez en savoir plus, consultez [Stratégie d’expiration du groupe](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Stratégie de nommage de Groupe Microsoft 365 configurée     |Si les standards d’attribution de noms ont été configurés pour les Groupes Microsoft 365. La stratégie de noms de Groupes Microsoft 365 permet à votre organisation d’appliquer une stratégie d’attribution de noms cohérente avec les équipes créées par l’utilisateur et elle s’applique également aux autres charges de travail de groupes (notamment Outlook, SharePoint, Planner et Yammer). Ce test interroge Azure AD via Microsoft Graph pour vérifier l’existence de stratégies d’attribution de nom qui s’appliquent aux Groupes Microsoft 365. Si vous voulez en savoir plus, consultez [Stratégie de noms de groupes](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Stratégie d’Expiration de Groupe Microsoft 365 configurée     |Si une stratégie d’expiration de groupe a été définie pour les Groupes Microsoft 365. Cela permet à votre organisation de supprimer automatiquement des Teams inactives. Cette option est désactivée par défaut. Ce test interroge Azure AD via Microsoft Graph et indique si la valeur a été modifiée par rapport à celle par défaut. Pour en savoir plus, consultez [Stratégie d’Expiration de groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Évaluations pour réunions et conférences
 

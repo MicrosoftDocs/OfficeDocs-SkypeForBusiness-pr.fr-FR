@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689730"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854106"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -67,6 +67,14 @@ L’utilisateur doit disposer des éléments suivants :
 
 > [!IMPORTANT]
 > Les utilisateurs anonymes non authentifiés ne peuvent pas être invités en tant que producteurs ou présentateurs dans les événements live Teams.
+
+Pour qu'un invité soit présent dans un événement en direct, procédez comme suit :
+
+1. [Ajoutez l’utilisateur en tant qu’invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+2. Demandez à l’utilisateur d’accepter l’invitation invité et de rejoindre l’équipe.
+3. [Planifiez l’événement en direct et ajoutez l’invité à votre groupe d’événements](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+
+Nous vous recommandons de créer un canal pour les fabricants et présentateurs de l’événement en direct, afin qu’ils puissent discuter et partager des informations avant l’événement. Les invités qui n’ont pas d’informations d’identification Microsoft 365 ne pourront pas afficher le calendrier dans Teams. Pour permettre aux utilisateurs de participer aisément à l’événement, les producteurs peuvent publier le lien de l’événement vers le canal. Les présentateurs peuvent ensuite ouvrir Teams, accéder au canal, puis cliquer sur le lien pour participer à l’événement. 
 
 ## <a name="who-can-watch-live-events"></a>Qui peut regarder les événements en direct
 
@@ -117,7 +125,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Légendes et sous-titres en direct |&#x2714; |&#x2714; |&#x274C; |
 |Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; |&#x2714; |
 |Contrôles DVR de participants (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
-|Support eCDN partenaire |&#x2714;(Kollective, RAMP) |&#x2714;(Kollective, RAMP) |&#x2714; (Hive, Kollective, Ramp) |
+|Support eCDN partenaire |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
