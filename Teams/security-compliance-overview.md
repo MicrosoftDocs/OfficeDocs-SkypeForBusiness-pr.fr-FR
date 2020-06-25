@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841895"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868081"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -45,7 +45,7 @@ Cet article fournit des informations supplémentaires sur la sécurité et la co
 - [Contrôles Microsoft teams pour la sécurité et la conformité](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
 
 > [!IMPORTANT]
-> En tant que client de Microsoft 365 ou Office 365, vous êtes propriétaire et contrôle de vos données. Microsoft n’utilise pas vos données pour aucune autre action que le service auquel vous êtes abonné. En tant que fournisseur de services, nous ne analyserons pas vos messages électroniques, vos documents ou vos équipes à des fins publicitaires ou à des fins qui ne sont pas liées au service. Microsoft n’a pas accès au contenu téléchargé. Comme OneDrive entreprise et SharePoint Online, les données de clients restent dans le client. Vous pouvez en savoir plus sur les informations relatives à la confidentialité et à la sécurité du centre de gestion de la [confidentialité de Microsoft](https://microsoft.com/trustcenter). Teams suit les mêmes recommandations et principes que le centre de gestion de la confidentialité Microsoft.
+> En tant que client de Microsoft 365 ou Office 365, vous êtes propriétaire et contrôle de vos données. Microsoft n’utilise pas vos données pour aucune autre action que le service auquel vous êtes abonné. En tant que fournisseur de services, nous ne analyserons pas vos messages électroniques, vos documents ou vos équipes à des fins publicitaires ou à des fins qui ne sont pas liées au service. Microsoft n’a pas accès au contenu téléchargé. Comme OneDrive et SharePoint dans Microsoft 365, les données Client restent dans le client. Vous pouvez en savoir plus sur les informations relatives à la confidentialité et à la sécurité du centre de gestion de la [confidentialité de Microsoft](https://microsoft.com/trustcenter). Teams suit les mêmes recommandations et principes que le centre de gestion de la confidentialité Microsoft.
 
 ## <a name="security"></a>Sécurité
 
@@ -53,14 +53,14 @@ Teams applique l’authentification à deux facteurs à l’échelle de l’orga
 
 Lire les [modèles d’identité et l’authentification](identify-models-authentication.md) pour plus d’informations sur l’authentification et les équipes et sur [le fonctionnement de l’authentification moderne](sign-in-teams.md) , notamment sur l’authentification moderne.
 
-Étant donné que teams travaille en partenariat avec SharePoint, OneNote, Exchange, et bien plus encore, vous devez être sûr de la gestion de la sécurité dans Microsoft 365 ou Office 365. Pour en savoir plus, consultez[la configuration de votre organisation Microsoft 365 ou Office 365 pour une plus grande sécurité](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+Étant donné que teams travaille en partenariat avec SharePoint, OneNote, Exchange, et bien plus encore, vous devez être sûr de la gestion de la sécurité dans Microsoft 365 ou Office 365. Pour en savoir plus, consultez [la configuration de votre organisation Microsoft 365 ou Office 365 pour une plus grande sécurité](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
 > [!NOTE]
 > Actuellement, les [canaux privés](private-channels.md) prennent en charge des fonctionnalités de sécurité et de conformité limitées. La prise en charge de l’ensemble complet des fonctionnalités de sécurité et de conformité dans les canaux privés est disponible prochainement.
 
 ### <a name="advanced-threat-protection-atp"></a>Protection avancée contre les menaces
 
-La protection avancée contre les menaces (ATP) est disponible dans Microsoft Teams, ainsi que dans SharePoint et OneDrive entreprise, applications qui s’intègrent à teams pour la gestion de contenu. ATP vous permet de déterminer si le contenu de ces applications est malveillant et de bloquer ce contenu de l’accès des utilisateurs.
+La protection avancée contre les menaces (ATP) est disponible dans Microsoft Teams, ainsi que dans SharePoint et OneDrive, applications qui s’intègrent à teams pour la gestion de contenu. ATP vous permet de déterminer si le contenu de ces applications est malveillant et de bloquer ce contenu de l’accès des utilisateurs.
 
 La façon dont le contenu affecté est géré après la détection correspond aux paramètres que vous avez sélectionnés dans Microsoft 365 ou Office 365. Nous vous recommandons vivement de prendre en compte toutes les applications lorsque vous configurez ATP, et pour une lecture plus approfondie, l’article [ATP pour SharePoint, OneDrive et Microsoft teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) vous propose des informations détaillées sur la prise en main.
 
@@ -70,13 +70,13 @@ Pour l’instant, les liens sécurisés de protection contre les menaces avancé
 
 ### <a name="safe-attachments"></a>Pièces jointes approuvées
 
-Les pièces jointes fiables sont une fonctionnalité conçue pour améliorer la sécurité des utilisateurs en recherchant et en détectant des pièces jointes malveillantes. Les administrateurs généraux ou de sécurité créent des [stratégies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) de gestion de ces pièces jointes malveillantes présumées pour les empêcher d’être envoyées aux utilisateurs, de cliquer et de traiter. La protection sécurisée des pièces jointes est disponible dans SharePoint Online, OneDrive entreprise et Microsoft Teams, et Microsoft 365 ou Office 365 [Advanced Threat Protection Plan 1 et 2 disposent de](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) cette fonctionnalité. Pour en savoir plus sur les pièces jointes sûres et la façon dont elles peuvent vous aider à protéger [votre organisation.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+Les pièces jointes fiables sont une fonctionnalité conçue pour améliorer la sécurité des utilisateurs en recherchant et en détectant des pièces jointes malveillantes. Les administrateurs généraux ou de sécurité créent des [stratégies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) de gestion de ces pièces jointes malveillantes présumées pour les empêcher d’être envoyées aux utilisateurs, de cliquer et de traiter. La protection sécurisée des pièces jointes est disponible dans SharePoint, OneDrive et Microsoft Teams, et Microsoft 365 ou Office 365 [Advanced Threat Protection Plan 1 et 2 disposent de](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) cette fonctionnalité. Pour en savoir plus sur les pièces jointes sûres et la façon dont elles peuvent vous aider à protéger [votre organisation.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Fonctionnement des stratégies d’accès conditionnel pour les équipes
 
-Microsoft teams repose essentiellement sur Exchange Online, SharePoint Online et Skype entreprise Online pour les scénarios de productivité de base, tels que les réunions, les calendriers, les discussions d’interopérabilité et le partage de fichiers. Les stratégies d’accès conditionnel définies pour ces applications Cloud s’appliquent à Microsoft teams lorsqu’un utilisateur se connecte directement à Microsoft Teams, quel que soit le client.
+Microsoft teams repose essentiellement sur Exchange Online, SharePoint et Skype entreprise Online pour les scénarios de productivité de base, tels que les réunions, les calendriers, les discussions d’interopérabilité et le partage de fichiers. Les stratégies d’accès conditionnel définies pour ces applications Cloud s’appliquent à Microsoft teams lorsqu’un utilisateur se connecte directement à Microsoft Teams, quel que soit le client.
 
-Microsoft teams est pris en charge séparément en tant qu’application Cloud dans des stratégies d’accès conditionnel Azure Active Directory. Les stratégies d’accès conditionnel définies pour l’application Cloud de Microsoft teams s’appliquent à Microsoft teams lorsqu’un utilisateur se connecte. Toutefois, sans les stratégies appropriées sur d’autres applications telles qu’Exchange Online et SharePoint Online, les utilisateurs peuvent toujours accéder directement à ces ressources. Pour plus d’informations sur la configuration d’une stratégie d’accès conditionnel dans le portail Azure, voir [démarrage rapide d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
+Microsoft teams est pris en charge séparément en tant qu’application Cloud dans des stratégies d’accès conditionnel Azure Active Directory. Les stratégies d’accès conditionnel définies pour l’application Cloud de Microsoft teams s’appliquent à Microsoft teams lorsqu’un utilisateur se connecte. Toutefois, sans les stratégies appropriées sur d’autres applications telles qu’Exchange Online et SharePoint, les utilisateurs peuvent toujours accéder à ces ressources directement. Pour plus d’informations sur la configuration d’une stratégie d’accès conditionnel dans le portail Azure, voir [démarrage rapide d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
 
 Les clients de bureau Microsoft teams pour Windows et Mac prennent en charge l’authentification moderne. L’authentification moderne fournit la connexion en fonction de la bibliothèque d’authentification Azure Active Directory (ADAL) pour les applications clientes Microsoft Office sur différentes plateformes.
 
@@ -153,7 +153,7 @@ Pour obtenir d’autres informations spécifiques aux équipes sur la configurat
 
 ### <a name="auditing-and-reporting"></a>Audit et rapports
 
-La recherche dans le journal d’audit se connecte au centre de conformité Microsoft 365 et vous donne la possibilité de définir des alertes, ainsi que de signaler des événements d’audit, en autorisant l’exportation d’événements spécifiques ou génériques de charge de travail pour l’utilisation et les investigations d’administration au cours d’une barre d’audit illimitée. Vous pouvez définir des alertes pour toutes les données du journal d’audit dans le centre de conformité Microsoft 365 et filtrer et exporter ces données pour analyse approfondie. Reportez-vous à la rubrique [Rechercher dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour en savoir plus sur la façon de réaliser un journal d’audit pour Microsoft 365 ou Office 365. Pour en savoir plus sur la recherche d’événements Microsoft teams dans le centre de conformité Microsoft 365, vous pouvez également consulter l’article [activer l’audit dans teams](audit-log-events.md) .
+La recherche dans le journal d’audit se connecte au centre de conformité Microsoft 365 et vous donne la possibilité de définir des alertes, ainsi que de signaler des événements d’audit, en autorisant l’exportation d’événements spécifiques ou génériques de charge de travail pour l’utilisation et les investigations d’administration au cours d’une barre d’audit illimitée. Vous pouvez définir des alertes pour toutes les données du journal d’audit dans le centre de conformité Microsoft 365 et filtrer et exporter ces données pour analyse approfondie. Reportez-vous à la rubrique [Rechercher dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour en savoir plus sur la réalisation d’une recherche dans le journal d’audit pour Microsoft 365 ou Office 365. Pour en savoir plus sur la recherche d’événements Microsoft teams dans le centre de conformité Microsoft 365, vous pouvez également consulter l’article [activer l’audit dans teams](audit-log-events.md) .
 
 ## <a name="privacy"></a>Confidentialité
 
@@ -197,6 +197,8 @@ Vous trouverez plus d’informations sur les [ressources de protection des donn�
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Sécurité](https://docs.microsoft.com/microsoft-365/security/) 
- Microsoft 365 [Conformité](https://docs.microsoft.com/microsoft-365/compliance/) 
- Microsoft 365 [Solutions de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
+[Sécurité Microsoft 365](https://docs.microsoft.com/microsoft-365/security/)
+
+[Conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
+
+[Solutions de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

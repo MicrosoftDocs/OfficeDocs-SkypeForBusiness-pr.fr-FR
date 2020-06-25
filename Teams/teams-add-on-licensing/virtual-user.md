@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: En savoir plus sur l’affectation d’une licence de système téléphonique à un compte de ressources au sein de votre organisation.
-ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042411"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868651"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Système téléphonique Microsoft 365-licence utilisateur virtuel
 
@@ -47,25 +47,25 @@ Si votre organisation utilise la version gratuite du système téléphonique Mic
 
 ### <a name="license-allocation-example"></a>Exemple d’attribution de licence
 
-Contoso, Inc. a acheté des licences 600 incluant un système téléphonique (pour chaque employé). Contoso est associé à un système téléphonique Microsoft 365 60 initial, c’est-à-dire aux licences utilisateur virtuelles, 85 au total. Son organisation dispose d’une file d’attente d’appels 90 et de standards automatiques disposant de numéros de téléphone. Ils doivent affecter tout le système téléphonique Microsoft 365, ainsi que les licences utilisateur virtuelles et obtenir cinq licences de système téléphonique à prix réduit. 
+Contoso, Inc. a acheté des licences 600 incluant un système téléphonique (pour chaque employé). Contoso est associé à un système téléphonique Microsoft 365 60 initial, c’est-à-dire aux licences utilisateur virtuelles, 85 au total. Son organisation dispose d’une file d’attente d’appels 90 et de standards automatiques disposant de numéros de téléphone. Ils doivent affecter tout le système téléphonique Microsoft 365, ainsi que les licences utilisateur virtuelles et obtenir cinq licences de système téléphonique à prix réduit.
 
-Contoso doit envisager de reconcevoir le standard automatique et le système de files d’attente d’appels. S’ils utilisent moins de numéros de téléphone et des nœuds imbriqués qui n’ont pas besoin d’un numéro de téléphone, ils simplifient l’implémentation et réduisent les coûts. 
+Contoso doit envisager de reconcevoir le standard automatique et le système de files d’attente d’appels. S’ils utilisent moins de numéros de téléphone et des nœuds imbriqués qui n’ont pas besoin d’un numéro de téléphone, ils simplifient l’implémentation et réduisent les coûts.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Achat du système téléphonique Microsoft 365-licences utilisateur virtuelles 
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Achat du système téléphonique Microsoft 365-licences utilisateur virtuelles
 
 1. Connectez-vous au Centre d’administration Microsoft 365.
-2. Accédez aux **Billing** > **modules complémentaires**  > **services d’achat**de facturation
+2. Accédez aux **Billing**  >  **Purchase services**  >  **modules complémentaires** services d’achat de facturation
 3. Faites défiler jusqu’à la fin pour trouver le **système téléphonique Microsoft 365-licence utilisateur virtuel** . Sélectionnez **acheter maintenant**.
 
 > [!NOTE]
-> Gardez à l’esprit que vous devez toujours **acheter** la licence, même si elle a un coût égal à zéro. 
+> Gardez à l’esprit que vous devez toujours **acheter** la licence, même si elle a un coût égal à zéro.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Modification d’un compte de ressources existant pour utiliser un système téléphonique Microsoft 365-licence utilisateur virtuel
 
-Si vous décidez de basculer la licence sur votre compte de ressources à partir d’une licence de système téléphonique vers un système téléphonique Microsoft 365-licence utilisateur virtuel : 
+Si vous décidez de basculer la licence sur votre compte de ressources à partir d’une licence de système téléphonique vers un système téléphonique Microsoft 365-licence utilisateur virtuel :
 
-1. Téléchargez le nouveau système téléphonique Microsoft 365-licence utilisateur virtuel. 
-2. Suivez les étapes liées du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+1. Téléchargez le nouveau système téléphonique Microsoft 365-licence utilisateur virtuel.
+2. Suivez les étapes liées du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Supprimez toujours une licence de système téléphonique complet et attribuez-la à une licence d’utilisateur virtuel Microsoft 365. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressources risque de ne plus fonctionner comme prévu. Si tel est le cas, nous vous recommandons de créer un compte de ressources pour le système téléphonique Microsoft 365-licence d’utilisateur virtuel et de supprimer le compte de ressource endommagé. 

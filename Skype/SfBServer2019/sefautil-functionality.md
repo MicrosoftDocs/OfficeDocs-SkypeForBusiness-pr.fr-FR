@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir la fonctionnalité SEFAUtil dans Skype entreprise Server 2019 après avoir installé la mise à jour cumulative 1.'
-ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232555"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868551"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utilisation de la fonctionnalité SEFAUtil via PowerShell dans Skype entreprise Server 2019
 
@@ -103,7 +103,7 @@ Pour les déploiements locaux, les applets de commande introduites dans cette fo
 - CsHelpDesk-Get pour toutes les cmdlets
 
 Pour plus d’informations sur ces rôles d’administrateur, voir [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). L’administrateur peut accéder à ces applets de commande en ouvrant directement ou à distance une session sur un ordinateur serveur.
-Pour un déploiement hybride, les administrateurs Skype entreprise doivent pouvoir appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, consultez la rubrique [à propos des rôles d’administrateur](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+Pour un déploiement hybride, les administrateurs Skype entreprise doivent pouvoir appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, consultez la rubrique [à propos des rôles d’administrateur](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > La découverte automatique de serveur doit être activée. Aucune autre exigence en matière de licences ne sera introduite pour l’utilisation des applets de commande.

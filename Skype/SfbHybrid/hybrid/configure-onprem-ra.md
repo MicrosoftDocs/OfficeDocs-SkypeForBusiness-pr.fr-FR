@@ -13,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221134"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868431"
 ---
-# <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
+# <a name="configure-resource-accounts"></a>Configurer des comptes de ressource
 
 Les implémentations hybrides de Skype entreprise Server 2019 utilisent uniquement les services Cloud fournis par le système téléphonique pour la messagerie unifiée et ne s’intègrent pas à Exchange Online. Dans Skype entreprise Server 2019, vous pouvez désormais utiliser les files d’attente d’appels Cloud et les standards automatiques décrits dans la section relative aux [systèmes téléphoniques de Microsoft 365 ou Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
@@ -84,7 +84,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
     Pour plus d’informations sur cette commande, voir [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
 
-5. Affectez la licence du système téléphonique-utilisateur virtuel ou du système téléphonique au compte de ressource. Consultez la rubrique [affecter des licences de module complémentaire Microsoft teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) et [attribuer des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Affectez la licence du système téléphonique-utilisateur virtuel ou du système téléphonique au compte de ressource. Consultez la rubrique [affecter des licences de module complémentaire Microsoft teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) et [attribuer des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
    Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser le système téléphonique économique-licence utilisateur virtuel. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation et vous permet de créer des fonctionnalités de standard automatique et de file d’attente d’appel.
 
@@ -199,9 +199,9 @@ La migration du service de messagerie unifiée Exchange vers le système télép
 
 [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[Planifier les standards automatiques Cloud](plan-cloud-auto-attendant.md)
+[Planifier les standards automatiques cloud](plan-cloud-auto-attendant.md)
 
-[Planifier les files d’attente des appels Cloud](plan-call-queue.md)
+[Planifier les files d’attente d’appels cloud](plan-call-queue.md)
 
 [Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux](plan-cloud-voicemail.md)
 

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment emporter vos applications teams personnalisées du développement au déploiement.
-ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 705f5ecf5628dd981a4deb3ded847b3da8e9ea08
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064529"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868511"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Gérer vos applications personnalisées dans Microsoft teams
 
@@ -41,7 +41,7 @@ Pour créer et gérer des applications personnalisées dans Teams, vous devez di
 
 ### <a name="create-test-users"></a>Créer des utilisateurs test
 
-Assurez-vous que vos développeurs, que vous soyez en interne ou en externe, disposent de comptes dans votre client de test. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">En savoir plus sur l’ajout d’utilisateurs</a>.
+Assurez-vous que vos développeurs, que vous soyez en interne ou en externe, disposent de comptes dans votre client de test. <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">En savoir plus sur l’ajout d’utilisateurs</a>.
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>Autoriser les applications personnalisées dans le client de test
 
@@ -50,13 +50,13 @@ Pour offrir aux développeurs l’accès nécessaires aux tests, autorisez tous 
 Pour autoriser les utilisateurs à télécharger des applications personnalisées, procédez comme suit :
 
 1. Activez le paramètre **autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à **teams** > **Manage Apps**, puis cliquez sur **paramètres de l’application à l’échelle**de l’organisation.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à **teams**  >  **Manage Apps**, puis cliquez sur **paramètres de l’application à l’échelle**de l’organisation.
     2. Sous **applications personnalisées**, activez **autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
 
     ![Capture d’écran du paramètre « autoriser l’interaction avec les applications personnalisées » dans l’Organisation](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Activez le paramètre **Télécharger des applications personnalisées** dans la stratégie de configuration de l’application globale. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications** > **d'** équipe, puis cliquez sur la stratégie **globale par défaut** de l’organisation.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications**  >  **d'** équipe, puis cliquez sur la stratégie **globale par défaut** de l’organisation.
     2. Activez **Télécharger les applications personnalisées**, puis cliquez sur **Enregistrer**.
 
     ![Capture d’écran du paramètre de stratégie « télécharger des applications personnalisées »](media/manage-your-lob-apps-app-setup-custom-apps.png)
@@ -86,13 +86,13 @@ Pour vérifier que l’application fonctionne correctement dans votre client de 
 Pour permettre aux utilisateurs approuvés de télécharger des applications personnalisées, procédez comme suit :
 
 1. Activez le paramètre **autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à **teams** > **Manage Apps**, puis cliquez sur **paramètres de l’application à l’échelle**de l’organisation.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à **teams**  >  **Manage Apps**, puis cliquez sur **paramètres de l’application à l’échelle**de l’organisation.
     2. Sous **applications personnalisées**, activez **autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
 2. Désactivez le paramètre **Télécharger des applications personnalisées** de la stratégie de configuration de l’application globale. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications** > **d'** équipe, puis cliquez sur la stratégie **globale par défaut** de l’organisation.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications**  >  **d'** équipe, puis cliquez sur la stratégie **globale par défaut** de l’organisation.
     2. Désactivez l’option **Télécharger les applications personnalisées**, puis cliquez sur **Enregistrer**.
 3. Créez une stratégie de configuration de l’application qui permet le téléchargement d’applications personnalisées et l’attribution à votre ensemble d’utilisateurs approuvés. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à**stratégies de configuration**des **applications** > d’équipe, puis cliquez sur **Ajouter**. Donnez un nom et une description à la nouvelle stratégie, activez l' **application télécharger des applications personnalisées**, puis cliquez sur **Enregistrer**.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications**  >  **d'** équipe, puis cliquez sur **Ajouter**. Donnez un nom et une description à la nouvelle stratégie, activez l' **application télécharger des applications personnalisées**, puis cliquez sur **Enregistrer**.
     2. Sélectionnez la nouvelle stratégie que vous avez créée, puis cliquez sur **gérer les utilisateurs**. Recherchez un utilisateur, cliquez sur **Ajouter**, puis sur **appliquer**. Répétez cette étape pour affecter la stratégie à l’ensemble de vos utilisateurs approuvés.
 
         ![Capture d’écran de la page « Ajouter une stratégie de configuration de l’application »](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -125,7 +125,7 @@ Par défaut, pour que les utilisateurs puissent trouver cette application, ils d
 
 Pour mettre à jour une application, les développeurs doivent continuer à suivre les [étapes 1](#step-1-develop-and-test) et [2](#step-2-validate-in-production).
 
-Vous pouvez mettre à jour l’application via le catalogue d’applications du client. Pour ce faire, dans le centre d’administration de Microsoft Teams, accédez à **teams** > **Manage**apps. Dans la liste des applications, cliquez sur le nom de l’application, puis sur **mettre à jour**. Le fait de procéder au remplacement de l’application existante dans le catalogue d’applications du client et à l’ensemble des stratégies d’autorisation et de configuration de l’application reste en vigueur pour l’application mise à jour.
+Vous pouvez mettre à jour l’application via le catalogue d’applications du client. Pour ce faire, dans le centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage**apps. Dans la liste des applications, cliquez sur le nom de l’application, puis sur **mettre à jour**. Le fait de procéder au remplacement de l’application existante dans le catalogue d’applications du client et à l’ensemble des stratégies d’autorisation et de configuration de l’application reste en vigueur pour l’application mise à jour.
 
 ### <a name="end-user-update-experience"></a>Mise à jour des utilisateurs finaux
 

@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment affecter des licences de complément d’équipe aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042774"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868581"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribution de licences de complément d’équipe aux utilisateurs
 
@@ -48,7 +48,7 @@ Avant de commencer, vérifiez les points suivants :
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Utilisation du centre d’administration Microsoft 365
 
-Utilisez le centre d’administration Microsoft 365 pour attribuer des licences à des utilisateurs individuels ou à des groupes d’utilisateurs de petites entreprises à la fois. Vous pouvez attribuer des licences dans la page **licences** (pour 20 utilisateurs maximum à la fois) ou la page **utilisateurs actifs** . La méthode que vous choisissez dépend de la façon dont vous souhaitez gérer les licences de produits pour des utilisateurs spécifiques ou gérer des licences utilisateur pour des produits spécifiques. 
+Utilisez le centre d’administration Microsoft 365 pour attribuer des licences à des utilisateurs individuels ou à des groupes d’utilisateurs de petites entreprises à la fois. Vous pouvez attribuer des licences dans la page **licences** (pour 20 utilisateurs maximum à la fois) ou la page **utilisateurs actifs** . La méthode que vous choisissez dépend de la façon dont vous souhaitez gérer les licences de produits pour des utilisateurs spécifiques ou gérer des licences utilisateur pour des produits spécifiques.
 
 Pour obtenir des instructions détaillées, voir attribuer des [licences à des utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -71,7 +71,7 @@ Voici un exemple illustrant comment utiliser un script pour attribuer des licenc
         ```
     3. Si vous êtes invité à installer le fournisseur NuGet, tapez **o**, puis appuyez sur entrée.
     4. Si vous êtes invité à installer le module à partir de PSGallery, tapez **Y**, puis appuyez sur entrée.
-3. Dans l’invite de commandes Windows PowerShell, exécutez le script suivant pour attribuer des licences à vos utilisateurs \<, où CompanyName : License> représente le nom de votre organisation et l’identificateur de la licence que vous voulez attribuer. Par exemple, litwareinc : MCOMEETADV.
+3. Dans l’invite de commandes Windows PowerShell, exécutez le script suivant pour attribuer des licences à vos utilisateurs, où \<CompanyName:License> est le nom de votre organisation et l’identificateur de la licence que vous voulez attribuer. Par exemple, litwareinc : MCOMEETADV.
 
     L’identificateur est différent du nom convivial de la licence. Par exemple, l’identificateur pour audioconférence est MCOMEETADV. Pour en savoir plus, consultez la rubrique [noms des produits et identificateurs UGS pour les licences](#product-names-and-sku-identifiers-for-licensing).
 
@@ -153,7 +153,7 @@ Pour en savoir plus, voir [afficher des licences et services avec PowerShell](ht
 | Forfait d’appels nationaux (240 minutes par utilisateur/mois pour chaque pays) </br>*Ce plan n’est pas disponible aux États-Unis.* | MCOPSTN6 |
 | Crédits de communication | MCOPSTNPP |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Licences de module complémentaire Teams](microsoft-teams-add-on-licensing.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)

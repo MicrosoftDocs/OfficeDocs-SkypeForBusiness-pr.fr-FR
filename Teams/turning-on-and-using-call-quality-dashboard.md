@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur l’activation et l’utilisation du tableau de bord de qualité des appels et obtenez des rapports de synthèse sur la qualité des appels.
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697419"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874247"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -41,7 +41,7 @@ Pour l’instant, les fonctionnalités avancées bord et bord sont disponibles p
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Affecter des rôles pour accéder à bord
 
-Attribuez des [rôles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) pour accéder à bord aux personnes qui ont besoin de les utiliser. 
+Attribuez des [rôles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) pour accéder à bord aux personnes qui ont besoin de les utiliser.
 
 Le tableau suivant vous montre les différents rôles possibles dans bord :
 
@@ -552,7 +552,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [
 
 Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

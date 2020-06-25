@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903029"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868121"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
 Les équipes à l’échelle de l’organisation fournissent un moyen automatique pour tous les membres d’une organisation, petite ou moyenne, de faire partie d’une équipe unique pour la collaboration.
 
-Les équipes à l’échelle de l’organisation permettent aux administrateurs généraux de facilement créer une équipe publique qui incorpore chaque utilisateur dans votre organisation et actualise l’appartenance avec Active Directory lorsque les utilisateurs rejoignent et quittent l’organisation. Seuls les administrateurs généraux peuvent créer des équipes à l’échelle de l’organisation. Actuellement, une équipe à l’échelle de l’organisation est limitée aux organisations ne dépassant pas 5 000 utilisateurs. Il existe également une limite de cinq équipes à l’échelle de l’organisation par client. Si ces conditions sont remplies, les administrateurs généraux verront ** à l’échelle de l’organisation** en tant qu’une option lorsqu’ils sélectionnent **Créer une équipe à partir de zéro** lors de la création d’une équipe. 
+Les équipes à l’échelle de l’organisation permettent aux administrateurs généraux de facilement créer une équipe publique qui incorpore chaque utilisateur dans votre organisation et actualise l’appartenance avec Active Directory lorsque les utilisateurs rejoignent et quittent l’organisation. Seuls les administrateurs généraux peuvent créer des équipes à l’échelle de l’organisation et actuellement, une équipe à l’échelle de l’organisation est limitée aux organisations ne disposant pas de plus de 5 000 utilisateurs. Il existe également une limite de cinq équipes à l’échelle de l’organisation par client. Si ces conditions sont remplies, les administrateurs généraux verront ** à l’échelle de l’organisation** en tant qu’une option lorsqu’ils sélectionnent **Créer une équipe à partir de zéro** lors de la création d’une équipe. 
 
 ![Capture d’écran de l’option à l’échelle de l’Organisation pour créer une équipe à l’échelle de l’Organisation](media/create-org-wide-team.png "Capture d’écran de l’option à l’échelle de l’Organisation pour créer une équipe à l’échelle de l’Organisation")
 
@@ -45,7 +45,7 @@ Ces types de comptes ne sont pas ajoutés à votre équipe à l’échelle de l�
 Au fur et à mesure que le répertoire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs, ou si des utilisateurs ne travaillent plus au sein de votre entreprise et que leur compte est désactivée, les modifications sont automatiquement synchronisées et les utilisateurs ajoutés ou supprimés de l’équipe. Les membres d’équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire d’équipe, vous pouvez manuellement ajouter ou supprimer des utilisateurs, si besoin.
 
 > [!NOTE]
-> - Si vous ne voyez pas l’option **à l’échelle de l’organisation** lors de la création d’une équipe et si vous êtes un administrateur général, il est possible que la fonctionnalité soit déployée, que vous ayez atteint la limite de cinq équipes à l’échelle de l’organisation ou que votre organisation ait atteint la limite de taille actuelle de 5 000 membres. Nous cherchons à augmenter cette limite à l’avenir. Les équipes à l’échelle de l’organisation sont actuellement indisponibles pour Teams pour l’éducation.
+> - Si vous ne voyez pas l’option **à l’échelle** de l’Organisation lors de la création d’une équipe et que vous êtes un administrateur global, vous avez peut-être atteint la limite de cinq équipes au sein de l’organisation, ou votre organisation peut avoir une taille supérieure à la limite actuelle de 5 000 membres. Nous cherchons à augmenter cette limite à l’avenir. Les équipes à l’échelle de l’organisation sont actuellement indisponibles pour Teams pour l’éducation.
 > - Les salles qui ne font pas partie d’une liste de salle, de ressources matérielles et de comptes de ressources peuvent être ajoutées ou synchronisées avec l’équipe à l’échelle de l’organisation. Les propriétaires d’équipe peuvent facilement supprimer ces comptes de l’équipe.
 > - Toutes les actions effectuées par le système pour ajouter ou supprimer des membres sont publiées dans le canal général. Le canal est également marqué comme présentant une nouvelle activité dans le client Teams.
 > - Nous créerons automatiquement une équipe à l'échelle de l'organisation pour votre organisation si celle-ci est nouvelle dans les équipes et ne compte pas plus de 5 000 utilisateurs. Le nom de l’équipe correspondra au nom du client et aura un canal général. Les administrateurs généraux peuvent modifier cette équipe de la même façon que n’importe quelle autre équipe. 
@@ -78,7 +78,7 @@ Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’o
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Y a-t-il un moyen de créer une équipe à l’échelle de l’organisation plutôt que d’utiliser le client Teams ?
 
-Les administrateurs généraux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide du client Teams. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution de contournement recommandée consiste à ajouter vos administrateurs généraux au groupe de sécurité des utilisateurs qui peuvent créer une équipe. Si vous souhaitez en savoir plus, consultez l’article [Gérer qui peut créer des groupes Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
+Les administrateurs généraux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide du client Teams. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution de contournement recommandée consiste à ajouter vos administrateurs généraux au groupe de sécurité des utilisateurs qui peuvent créer une équipe. Pour plus d’informations, voir [gérer les utilisateurs autorisés à créer des groupes](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 Si ce n’est pas le cas, vous pouvez utiliser PowerShell pour créer une équipe publique et ajouter un administrateur général en tant que propriétaire de l’équipe. Ensuite, demandez à l’administrateur général de cliquer sur **Autres options** en regard du nom de l’équipe, de cliquer sur **Modifier l’équipe**, puis de modifier la confidentialité en **à l’échelle de l’organisation : tous les membres de votre organisation seront ajoutés automatiquement**. Notez que seuls les propriétaires d’équipe peuvent accéder à l’option **Modifier l’équipé**. Seuls les administrateurs généraux peuvent voir l’option ** à l’échelle de l’organisation**.
 

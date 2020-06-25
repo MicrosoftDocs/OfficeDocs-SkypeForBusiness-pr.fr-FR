@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637943"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868471"
 ---
 # <a name="meetings-first"></a>Commencer par les réunions
 
@@ -82,7 +82,7 @@ Une fois ces exigences satisfaites (et non antérieures), les utilisateurs peuve
 
 Pour la première utilisation de réunions, les utilisateurs doivent être activés pour [Exchange Online](exchange-teams-interact.md), [SharePoint Online et OneDrive entreprise](sharepoint-onedrive-interact.md), et la création de groupes Microsoft 365. Les réunions sont tout d’abord prises en charge pour les utilisateurs dont la boîte aux lettres est située en local, ou qui n’ont pas SharePoint Online ou OneDrive entreprise, ou la création de groupes Microsoft 365. Toutefois, leur interface sera moins complète. Par exemple, dans le cas d’organisations utilisant Exchange Server en local, il est possible (en fonction de la version d’Exchange Server) certaines limitations de création et d’affichage de réunions à partir du client Teams, ainsi que des fonctionnalités de conformité.
 
-Pour le moment, les utilisateurs doivent disposer [d’une licence pour teams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). De plus, ils peuvent être dotés d’une licence pour les [conférences audio](set-up-audio-conferencing-in-teams.md), si nécessaire.
+Pour le moment, les utilisateurs doivent disposer [d’une licence pour teams](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users). De plus, ils peuvent être dotés d’une licence pour les [conférences audio](set-up-audio-conferencing-in-teams.md), si nécessaire.
 
 Nous vous recommandons d' [octroyer le mode **SfBOnly** ou **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) comme client par défaut au moment où vous attribuez une licence aux utilisateurs. Cela permet de garantir que les utilisateurs ne peuvent pas utiliser les équipes par défaut dans le mode par défaut de l' **îlot** avant de pouvoir lancer des réunions en premier.
 

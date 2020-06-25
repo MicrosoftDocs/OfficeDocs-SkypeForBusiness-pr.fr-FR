@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666216"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868141"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre équipe informatique pour Microsoft teams
 
@@ -42,7 +42,7 @@ Les administrateurs de votre organisation Microsoft 365 ou Office 365, les prosp
 Partagez les ressources suivantes avec les membres du personnel informatique et confirmez qu’ils sont prêts à prendre en charge les utilisateurs avant de commencer la mise à niveau vers teams :
 
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
-- [Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Résoudre les problèmes de connectivité avec le client de Microsoft Teams](connectivity-issues.md)
 - [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 

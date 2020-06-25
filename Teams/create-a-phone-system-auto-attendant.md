@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697417"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874257"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -220,7 +220,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 > [!IMPORTANT]
 > Notez ce qui suit :
->- Les utilisateurs que vous souhaitez rendre disponibles pour la numérotation par poste de poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou le centre d’administration Azure Active Directory [Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).
+>- Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou Azure Active Directory (voir [ajouter des utilisateurs individuellement ou en bloc] pour plus d’informations https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
 >    - HomePhone
 >    - Mobile/MobilePhone
 >    - TelephoneNumber/PhoneNumber
@@ -422,7 +422,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

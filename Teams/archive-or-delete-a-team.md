@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611003"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868701"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 ===========================================
@@ -72,7 +72,7 @@ Si l’équipe ne sera pas nécessaire, vous pouvez la supprimer plutôt que de 
 
 Pour restaurer une équipe supprimée en restaurant le groupe Microsoft 365 associé à l’équipe, procédez comme suit. La restauration du groupe Microsoft 365 pour une équipe restaure le contenu de l’équipe, y compris les onglets, les canaux standard, les canaux privés et les collections de sites associées.
 
-Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour en savoir plus, voir [restaurer un groupe Microsoft 365 supprimé](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour en savoir plus, voir [restaurer un groupe supprimé](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Installez le module AzureADPreview
 

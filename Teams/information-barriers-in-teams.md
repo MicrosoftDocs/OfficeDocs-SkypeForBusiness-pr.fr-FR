@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326741"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868691"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -94,7 +94,7 @@ Les stratégies de barrage d’information sont activées lorsque les événemen
 
 - **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne sera pas autorisé.
 - **Un utilisateur place un appel téléphonique (VoIP) dans teams** : chaque fois qu’un utilisateur est lancé par un utilisateur ou à un groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations des autres membres de l’équipe. En cas de violation, l’appel audio est bloqué.
-- **Utilisateurs invités dans teams** : les stratégies de barrière des informations s’appliquent également aux utilisateurs invités dans Teams. Si les utilisateurs invités doivent être détectables dans la liste d’adresses globale de votre organisation, voir [gérer l’accès invité dans les groupes Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Lorsque les utilisateurs invités peuvent être détectables, vous pouvez [définir des politiques de cloisonnement des informations](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Utilisateurs invités dans teams** : les stratégies de barrière des informations s’appliquent également aux utilisateurs invités dans Teams. Si les utilisateurs invités doivent être détectables dans la liste d’adresses globale de votre organisation, voir [gérer l’accès invité dans les groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Lorsque les utilisateurs invités peuvent être détectables, vous pouvez [définir des politiques de cloisonnement des informations](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Impact des modifications de la stratégie sur les discussions existantes
 

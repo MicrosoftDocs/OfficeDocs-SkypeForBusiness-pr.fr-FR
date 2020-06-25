@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669412"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874259"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -51,8 +51,8 @@ Si vous avez déjà [optimisé votre réseau pour microsoft 365 ou Office 365](h
     
 2.  Avez-vous un domaine vérifié pour Microsoft 365 ou Office 365 (par exemple, contoso.com) ?
     
-      - Si votre organisation n’a pas déployé Microsoft 365 ou Office 365, voir [mise en route de microsoft 365 ou d’office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Microsoft 365 ou Office 365, voir [vérifier votre domaine microsoft 365 ou office 365](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - Si votre organisation n’a pas déployé Microsoft 365 ou Office 365, voir [commencer](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+      - Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Microsoft 365 ou Office 365, voir le [Forum aux questions sur les domaines](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Votre organisation a-t-elle déployé Exchange Online et SharePoint Online ?
     
@@ -99,7 +99,7 @@ Pour une description détaillée de l’optimisation du réseau, y compris des r
 </tr>
 <tr class="even">
 <td>Conseiller en équipe</td>
-<td>Le <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">conseiller d’équipe</a> est intégré au <a href="https://admin.teams.microsoft.com">Centre d’administration teams</a>. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.</td>
+<td>Le <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">conseiller d’équipe</a> est intégré au <a href="https://admin.teams.microsoft.com">Centre d’administration teams</a>. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.</td>
 </tr>
 <tr class="odd">
 <td>Résolution de noms externes</td>

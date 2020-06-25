@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006040"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868481"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
@@ -31,7 +31,7 @@ En tant qu’administrateur, la page **gérer les applications** dans le centre 
 
 La page **gérer les applications** vous donne une vue d’ensemble des applications disponibles dans votre catalogue de clients, en fournissant les informations dont vous avez besoin pour déterminer les applications à autoriser ou à bloquer au sein de votre organisation. Vous pouvez ensuite utiliser des [stratégies d’autorisation d’application](teams-app-permission-policies.md), des stratégies de [configuration d’application](teams-app-setup-policies.md)et des [stratégies et paramètres d’application personnalisés](teams-custom-app-policies-and-settings.md) pour configurer l’utilisation de l’application pour des utilisateurs spécifiques de votre organisation.
 
-Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams** > **Manage**apps. Pour accéder à la page, vous devez être administrateur général ou administrateur de service Teams.
+Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage**apps. Pour accéder à la page, vous devez être administrateur général ou administrateur de service Teams.
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>Afficher les applications dans le catalogue d’applications de votre client
 
@@ -41,11 +41,12 @@ Vous pouvez afficher chaque application dans votre catalogue d’applications cl
 
 - **Nom**: nom de l’application. Cliquez sur le nom de l’application pour afficher davantage d’informations sur celle-ci. Cela inclut une description de l’application, qu’elle soit autorisée ou bloquée, version, catégories qui s’appliquent à l’application, à l’état de la certification, aux fonctionnalités prises en charge et à l’ID de l’application. Voici un exemple :<br> 
 ![Capture d’écran de la page de détails sur les applications pour une application](media/manage-apps-app-details.png)
-- **Certification**: si l’application n’a pas été **certifiée** , vous verrez soit la certification Microsoft 365, soit l' **attestation Publisher**. Cliquez sur le lien pour afficher les détails de certification de l’application. Si vous voyez «**--**», nous ne disposons pas des informations de certification de l’application. Pour en savoir plus sur les applications certifiées dans Teams, voir [programme de certification d’application Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
+- **Certification**: si l’application n’a pas été **certifiée** , vous verrez soit la certification Microsoft 365, soit l' **attestation Publisher**. Cliquez sur le lien pour afficher les détails de certification de l’application. Si vous voyez « **--** », nous ne disposons pas des informations de certification de l’application. Pour en savoir plus sur les applications certifiées dans Teams, voir [programme de certification d’application Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
 - **Catégories**: catégories qui s’appliquent à l’application.
 - **État**de l’application : état de l’application au niveau de l’organisation, qui peut être l’un des éléments suivants :
     - **Autorisé**: l’application est disponible pour tous les utilisateurs de votre organisation.
-    - **Bloqué**: l’application est bloquée et n’est pas disponible pour les utilisateurs de votre organisation.<br>
+    - **Bloqué**: l’application est bloquée et n’est pas disponible pour les utilisateurs de votre organisation.
+    - **Bloqué à l’échelle**de l’Organisation : l’application est bloquée dans les paramètres de l’application à l’échelle de l’organisation. <br>
 Il est important de savoir que cette colonne représente l’état autorisé et bloqué des applications qui se trouvaient auparavant dans le volet Paramètres à l’échelle de l' **organisation** . À présent, vous pouvez afficher, bloquer et autoriser des applications au niveau de l’organisation dans la page **gérer les applications** . 
 - **Version**: version de l’application.
 
@@ -82,17 +83,17 @@ Utilisez les paramètres d’application à l’échelle de l’Organisation pou
     
 2. Sous **applications tierces**, désactivez ou activez ces paramètres pour contrôler l’accès aux applications tierces :
 
-    - **Autoriser les applications tierces dans teams**: ce contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, les utilisateurs ne pourront pas installer ou utiliser d’applications tierces. Pour les applications que vous avez autorisées, l’état indique As **allowed mais Disabled**de l’organisation.              
+    - **Autoriser les applications**tierces : ce contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, vos utilisateurs ne seront pas en mesure d’installer ou d’utiliser des applications tierces et l’état de l’application de ces applications est affiché en tant qu' **entreprise bloquée** dans le tableau.
 
         > [!NOTE]
         > Dans Microsoft 365 Government-déploiement de Microsoft Teams, le paramètre **autoriser les applications tierces dans teams** est désactivé par défaut.
 
-        Lorsque **l’option autoriser les applications tierces dans teams** est désactivée, les [webhook sortants](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) sont désactivés, ce qui signifie que les utilisateurs ne peuvent pas les créer. Lorsque ce paramètre est activé, l’option de raccordements Web sortants est activée pour tous les utilisateurs, qu’il soit activé ou désactivé dans la stratégie d’autorisation de l’utilisateur.
+        Lorsque l’option **autoriser les applications tierces** est désactivée, les [webhook sortant](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) sont désactivés, ce qui signifie que les utilisateurs ne peuvent pas les créer. Lorsque ce paramètre est activé, l’option de raccordements Web sortants est activée pour tous les utilisateurs, qu’il soit activé ou désactivé dans la stratégie d’autorisation de l’utilisateur.
     - **Autorisez toutes les nouvelles applications tierces publiées dans le Windows Store par défaut**: ce contrôle si les nouvelles applications tierces publiées dans le Windows Store sont automatiquement disponibles dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
 3. Sous **applications personnalisées**, désactivez ou activez l’option **autoriser les interactions avec les applications personnalisées**. Ce paramètre détermine si les utilisateurs peuvent interagir avec les applications personnalisées. Pour plus d’informations, consultez [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
 4. Cliquez sur **Enregistrer** pour appliquer les paramètres de l’application à l’échelle de l’organisation.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

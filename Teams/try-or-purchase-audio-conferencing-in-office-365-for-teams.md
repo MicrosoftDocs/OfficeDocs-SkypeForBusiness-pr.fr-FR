@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Découvrez comment essayer ou acheter des licences de services d’audioconférence pour Microsoft 365 ou Office 365 pour configurer des conférences téléphoniques auxquelles les utilisateurs peuvent se connecter. '
-ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691540"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868531"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayez ou achetez une audioconférence dans Microsoft 365 pour Microsoft teams
 
@@ -52,7 +52,7 @@ Pour effectuer ces étapes, vous devez être administrateur [général ou admini
 
    - **Acheter**: consultez la rubrique [licences de compléments Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-3. [Ajoutez des utilisateurs individuels ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) achetés aux personnes de votre organisation qui vont planifier ou animer des réunions.
+3. [Attribuez des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) de votre organisation qui vont planifier ou animer des réunions.
 
 4. Si vous avez acheté des licences additionnelles d’audioconférence et des licences de crédits de communication, attribuez-les aussi. Pour obtenir des instructions, consultez [attribuer des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
@@ -69,7 +69,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
     > [!IMPORTANT]
     > Si les crédits de communication n’ont pas été configurés, l’audioconférence ne fonctionnera pour aucun des utilisateurs avec des licences de facturation à la minute.
 
-4. [Ajoutez des utilisateurs individuels ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) achetés aux personnes de votre organisation qui vont planifier ou animer des réunions.
+4. [Attribuez des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) de votre organisation qui vont planifier ou animer des réunions.
 
     > [!NOTE]
     > Si vous avez des licences d’audioconférence facturée à la minute, vous n’êtes pas obligé d’attribuer des licences de crédits de communications séparément pour chaque utilisateur pour l’utilisation de l’audioconférence (vous devrez peut-être quand même les attribuer pour d’autres services).
@@ -96,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Permettre aux équipes au sein de votre organisation](office-365-set-up.md)
 

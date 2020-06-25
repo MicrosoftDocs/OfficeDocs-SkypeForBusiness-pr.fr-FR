@@ -16,12 +16,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710808"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874411"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -76,7 +76,7 @@ Dans le Centre d’administration Microsoft Teams, activez ou désactivez le par
 
 À l’aide de PowerShell, vous configurez le paramètre AllowCloudRecording dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Notez que l’organisateur de la réunion et l’initiateur de l’enregistrement doivent avoir les autorisations d’enregistrement pour enregistrer la réunion. Sauf si vous avez affecté une stratégie personnalisée aux utilisateurs, les utilisateurs reçoivent la stratégie globale, laquelle AllowCloudRecording est désactivée par défaut.
+Notez que l’organisateur de la réunion et l’initiateur de l’enregistrement doivent avoir les autorisations d’enregistrement pour enregistrer la réunion. À moins que vous n’ayez affecté une stratégie personnalisée aux utilisateurs, les utilisateurs obtiennent la stratégie globale, qui a AllowCloudRecording activée par défaut.
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation des rôles d’équipes pour configurer les personnes autorisées à enregistrer une réunion, voir [rôles dans une réunion teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).

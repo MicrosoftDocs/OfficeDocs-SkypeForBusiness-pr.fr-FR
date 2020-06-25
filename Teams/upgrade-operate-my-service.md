@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761472"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868501"
 ---
 # <a name="operate-your-service"></a>Exploiter votre service
 
@@ -437,7 +437,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 
 4. **Visitez la communauté Microsoft teams :** La [communauté Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) propose des espaces dédiés pour Teams. La communauté équipes fournit une liste de discussion, des billets de blog et des annonces centrées sur les équipes. Vous pouvez publier une question ou effectuer une recherche dans les discussions précédentes pour trouver des solutions à votre problème.
 
-5. **Contacter le support Microsoft :** Vous pouvez contacter le support technique de Microsoft pour plus d’problèmes avec teams Online ou par téléphone. Pour plus d’informations, consultez [contacter le support technique pour les produits pour les entreprises](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Pour les clients premier, des demandes d’assistance peuvent être entamées en suivant les instructions de la rubrique [contacter le support technique de Microsoft Teams (clients de premier plan)](https://support.microsoft.com/premier/contacts).
+5. **Contacter le support Microsoft :** Vous pouvez contacter le support technique de Microsoft pour plus d’problèmes avec teams Online ou par téléphone. Pour plus d’informations, reportez-vous à la rubrique [contacter le support technique pour les produits professionnels](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) Pour les clients premier, des demandes d’assistance peuvent être entamées en suivant les instructions de la rubrique [contacter le support technique de Microsoft Teams (clients de premier plan)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 

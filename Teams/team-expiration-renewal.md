@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa4e89753848ece4b4737f7679333f8c01366a7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665986"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868521"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement de l’équipe dans Microsoft teams
 
 Les équipes ayant un grand nombre d’équipes disposent souvent d’équipes qui ne sont jamais utilisées. Cela peut se produire pour plusieurs raisons, notamment pour une expérimentation du produit, une collaboration d’équipe à court terme ou des propriétaires d’équipe quittant l’organisation. Au fil du temps, ces équipes peuvent s’accumuler et créer un fardeau sur les ressources client.  
 
-Pour limiter le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la [stratégie d’expiration de groupe Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont régularisées par des groupes, les stratégies d’expiration de groupe s’appliquent automatiquement aux équipes.
+Pour limiter le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la [stratégie d’expiration de groupe Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont régularisées par des groupes, les stratégies d’expiration de groupe s’appliquent automatiquement aux équipes.
 
 Lorsque vous appliquez une stratégie d’expiration à une équipe, le propriétaire d’une équipe reçoit une notification pour le renouvellement d’équipe 30 jours, 15 jours et 1 jour avant la date d’expiration de l’équipe. Lorsque le propriétaire de l’équipe reçoit la notification, il peut cliquer sur **renouveler maintenant** dans les paramètres de l’équipe pour renouveler l’équipe.
 
