@@ -17,21 +17,21 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4511bf67926c831548084647195e21ed13fc08f5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0eb91032689ffccc5696d60e44e52e72d5f4f067
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691200"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889983"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
 Deux méthodes s’offrent à vous pour les réunions et événements en direct dans Microsoft Teams. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements en direct au sein de votre organisation. 
 
- - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 250 personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone. 
+ - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 300* personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone. 
 
- - Les **événements en direct** Microsoft Teams sont une extension des réunions Teams qui vous permettent de planifier et de créer des événements qui sont diffusés à de larges audiences en ligne, à savoir jusqu’à 10 000 contacts. Si vous prévoyez une réunion de plus de 250 personnes, utilisez un événement en direct.
-
+ - Les **événements en direct** Microsoft Teams sont une extension des réunions Teams qui vous permettent de planifier et de créer des événements qui sont diffusés à de larges audiences en ligne, à savoir jusqu’à 10 000 contacts. Si vous prévoyez une réunion de plus de 300 personnes, utilisez un événement en direct.
+<br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite de cloud gouvernemental passe de 250 à 300.
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenir des licences pour des réunions et des événements en direct
 
 Tout le monde peut gratuitement participer à une réunion ou à un événement public en direct Teams : aucune licence n’est requise. Les participants rejoignent une réunion ou un événement en direct Teams en cliquant sur le bouton **Participer** dans Teams ou dans l’invitation à une réunion. La réunion audio fait partie des réunions Teams, mais si vous souhaitez que vos contacts puissent rejoindre une réunion par le biais de leur téléphone, vous devez leur fournir un numéro à composer. 

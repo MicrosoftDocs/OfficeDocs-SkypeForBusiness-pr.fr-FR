@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665756"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868301"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
@@ -59,6 +59,44 @@ L’authentification moderne est un processus qui permet à Teams de s’informe
 
 Sur MacOS, Teams invite les utilisateurs à entrer leur nom d’utilisateur et informations d’identification, et peut demander l’authentification multifacteur selon les paramètres de votre organisation. Une fois que les utilisateurs ont entré leurs informations d’identification, ils ne sont pas obligés de les redonner. À partir de ce point, Teams démarre automatiquement chaque fois qu’ils travaillent sur le même ordinateur.
 
+## <a name="teams-for-ios-and-android-users"></a>Teams les utilisateurs iOS et Android
+
+Une fois connecté, les utilisateurs mobiles voient une liste de tous les comptes Microsoft 365 qui sont actuellement connectés ou qui ont été précédemment connectés sur leur appareil. Les utilisateurs peuvent appuyer sur l’un des comptes pour se connecter. Il existe deux scénarios de connexion mobile :
+    
+1. Si le compte sélectionné est actuellement connecté à d’autres applications Office 365 ou Microsoft 365, l’utilisateur est directement dirigé vers Teams. Il n’est pas nécessaire pour l’utilisateur d’entrer ses informations d’identification.
+    
+2. Si l’utilisateur n’est pas connecté à son compte Microsoft 365 où que ce soit, il est invité à fournir une authentification à facteur unique ou multifacteur (SFA ou MFA), en fonction de ce que votre organisation a configuré pour les stratégies de connexion mobile.
+
+### <a name="adding-multiple-accounts-to-teams"></a>Ajout de plusieurs comptes à Teams
+
+Teams pour iOS et Android prend en charge l’ajout de plusieurs comptes d’un seul appareil à Teams. Les images suivantes montrent comment les utilisateurs peuvent ajouter plusieurs comptes dans Teams.
+    
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Ajout de plusieurs comptes dans Teams":::
+
+### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>Utiliser la gestion de la mobilité d’entreprise pour contrôler quels comptes peuvent se connecter à Teams
+
+Teams pour iOS et Android offre aux administrateurs informatiques la possibilité de pousser les configurations des comptes vers les comptes Microsoft 365. Cette fonctionnalité fonctionne avec n’importe quel fournisseur de gestion des appareils mobiles qui utilise le canal  [Configuration de l’application gérée](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) pour iOS ou le canal [Android Enterprise](https://developer.android.com/work/managed-configurations) pour Android.
+
+Pour les utilisateurs inscrits auprès de Microsoft Intune, vous pouvez déployer les paramètres de configuration de compte à l’aide d’Intune dans le portail Azure.
+
+Une fois la configuration du compte effectuée dans le fournisseur de gestion des données de référence, et après que l'utilisateur ait inscrit son appareil, sur le page de connexion, Teams pour iOS et Android affiche uniquement les comptes autorisés sur la page de connexion Teams. L’utilisateur peut appuyer sur l’un des comptes autorisés sur cette page pour se connecter.
+
+Configurez les paramètres de configuration suivants dans le portail Azure Intune pour les appareils gérés.
+
+
+|Plateforme |Clé  |Valeur  |
+|---------|---------|---------|
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Activé** : le seul compte autorisé est le compte d’utilisateur géré défini par la clé IntuneMAMUPN.<br> **Désactivé** (ou toute valeur qui n’est pas une correspondance non sensible à la casse à**Activé**) : tout compte est autorisé.        |
+|iOS     |   **IntuneMAMUPN**      |   Nom d’utilisateur principal du compte autorisé à se connecter à Teams.<br> Pour les appareils inscrits sur Intune, le jeton {{userPrincipalName}} peut être utilisé pour représenter le compte d’utilisateur inscrit.       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Seul le ou les comptes autorisés sont les comptes d’utilisateur gérés définis par cette clé.<br> Un ou plusieurs point-virgule [ ;] - UPN délimités.<br> Pour les appareils inscrits sur Intune, le jeton {{userPrincipalName}} peut être utilisé pour représenter le compte d’utilisateur inscrit.
+
+Une fois la configuration du compte définie, Teams restreint la possibilité de se connecter, de sorte que seuls les comptes autorisés sur les appareils inscrits bénéficient de l'accès.
+
+Pour créer une stratégie de configuration d’application pour les appareils iOS/iPadOS gérés, consultez  [Ajouter des stratégies de configuration d’application pour les appareils iOS/iPadOS gérés](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
+
+Pour créer une stratégie de configuration d’application pour les appareils Android gérés, consultez  [Ajouter des stratégies de configuration d’application pour les appareils Android gérés](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
+
+
 ## <a name="switching-accounts-after-completing-modern-authentication"></a>Changer de compte une fois l’authentification moderne terminée
 
 Si les utilisateurs travaillent sur un ordinateur joint au domaine (par exemple, si leur client a activé Kerberos), ils ne peuvent pas changer de compte d’utilisateur une fois l’authentification moderne terminée. Si les utilisateurs ne travaillent pas sur un ordinateur joint à un domaine, ils peuvent changer de compte.
@@ -67,9 +105,16 @@ Si les utilisateurs travaillent sur un ordinateur joint au domaine (par exemple,
 
 Pour se déconnecter de Teams, les utilisateurs peuvent cliquer sur leur image de profil dans la partie supérieure de l’application, puis sélectionner **se déconnecter**. Ils peuvent également cliquer avec le bouton droit sur l’icône de l’application dans la barre des tâches, puis sélectionner **se déconnecter**. Une fois qu’ils se déconnectent de Teams, ils doivent ré-entrer leurs informations d’identification pour lancer l’application.
 
+### <a name="signing-out-of-teams-for-ios-and-android"></a>Déconnexion de Teams pour iOS et Android
+
+Les utilisateurs mobiles peuvent se déconnecter de Teams en accédant au menu, puis en sélectionnant le menu **Plus**, puis en choisissant **Se déconnecter**. Une fois déconnectés, les utilisateurs devront entrer de nouveau leurs informations d’identification lors de la prochaine exécution de l’application.
+
+> [!NOTE]
+> Teams pour Android utilise l’authentification unique (SSO) pour simplifier l’expérience de connexion. Les utilisateurs doivent se déconnecter de **toutes** les applications Microsoft, en plus de Teams, afin de se déconnecter complètement de la plateforme Android.
+
 ## <a name="urls-and-ip-address-ranges"></a>URL et plages d’adresses IP
 
-Teams a besoin d’une connexion à Internet. Pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans Microsoft 365 ou Office 365 plans, ainsi que dans le secteur public et autres nuages, consultez [URL et plages d’adresses IP d’Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Teams a besoin d’une connexion à Internet. Pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans Office 365 plans, secteur public et autres nuages, consultez [URL et plages d’adresses IP d’Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > Pour l’instant, Teams a besoin d’accéder (port TCP 443) au service Google ssl.gstatic.com (<https://ssl.gstatic.com)> pour tous les utilisateurs, c’est vrai même si vous n’utilisez pas Gstatic. Teams supprimera cette exigence prochainement (début 2020). nous mettrons à jour cet article en conséquence.
