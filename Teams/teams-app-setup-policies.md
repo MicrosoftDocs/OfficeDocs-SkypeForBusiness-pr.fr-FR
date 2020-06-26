@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868564"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44890003"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -167,7 +167,7 @@ Il n’y a aucune limite sur le nombre d’applications épinglées que vous pou
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Combien de temps faut-il pour que les modifications soient prises en compte ?
 
-Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.
+Après avoir modifié ou affecté une stratégie, quelques heures peuvent être nécessaires pour que les modifications prennent effet.
 
 ### <a name="user-experience"></a>Expérience utilisateur
 
@@ -200,7 +200,7 @@ Si la stratégie de configuration de l’application affectée à l’utilisateu
 
 Veillez à suivre les recommandations relatives au logo avant de procéder à la soumission de l’application. Pour en savoir plus, voir [liste de contrôle pour la soumission du tableau de bord du vendeur](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 - [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

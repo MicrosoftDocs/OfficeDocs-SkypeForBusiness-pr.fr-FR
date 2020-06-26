@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339439"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877945"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype entreprise Server 
  
@@ -120,10 +120,10 @@ CQD est fourni avec plusieurs composants, et il est utile de comprendre les exig
 
 |**Nom du composant**|**Composant dépendant**|
 |:-----|:-----|
-|Archives QoE  <br/> |Microsoft SQL Server  <br/> |
+|Archives QoE  <br/> |Microsoft SQL Server  <br/> |
 |Carré  <br/> |Microsoft SQL Server Analysis Services  <br/> |
 |Portail  <br/> |Services d’information Microsoft  <br/> |
-|Service de référentiel (partie de l’installation du portail)  <br/> |Microsoft SQL Server  <br/> |
+|Service de référentiel (partie de l’installation du portail)  <br/> |Microsoft SQL Server  <br/> |
    
 > [!NOTE]
 > Pour l’archivage et le cube QoE, certaines options de déploiement requièrent l’aide à la décision ou les éditions entreprise de Microsoft SQL Server. Pour plus d’informations, reportez-vous à la section [Configuration requise pour l’infrastructure pour CQD](plan.md#Infrastructure_Req) ci-dessous.
@@ -144,7 +144,7 @@ Dans une configuration multiserveur, l’archive, le cube et le portail QoE peuv
     
 - Hébergement d’un portail de « développement » distinct du portail de production. 
     
-  **Hébergement d’un portail Web CQD et d’un cube CQD sur des ordinateurs différents.** Les organisations qui peuvent avoir besoin de séparer le portail CQD de l’installation SQL Server ou qui peuvent souhaiter combiner et faire correspondre les éditions SQL Server pour l’instance SQL Server et l’instance SQL Server Analysis Services peuvent choisir d’installer le portail CQD et CQD cube sur différentes machines. Le composant d’archive QoE peut également être le seul composant CQD installé si l’organisation souhaite simplement disposer d’une méthode viable pour archiver les données QoE sans atteindre des limites de performances sur le serveur de surveillance.
+  **Hébergement d’un portail Web CQD et d’un cube CQD sur des ordinateurs différents.** Les organisations susceptibles d’avoir besoin de séparer le portail CQD de l’installation SQL Server ou de combiner et de faire correspondre les éditions SQL Server pour l’instance SQL Server et l’instance SQL Server Analysis Services peuvent choisir d’installer le portail CQD et le cube CQD sur différentes machines. Le composant d’archive QoE peut également être le seul composant CQD installé si l’organisation souhaite simplement disposer d’une méthode viable pour archiver les données QoE sans atteindre des limites de performances sur le serveur de surveillance.
   
 ![Serveur CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -193,11 +193,11 @@ Cette section suppose qu’il existe une seule base de données QoEMetrics dans 
   
 **Profils d’ordinateur**
 
-|**Ordinateur**|**Cœurs de l’UC**|**Mémoire RAM**|**Archives QoE et cube sur le même disque**|**Archive QoE et base de données temp SQL sur le même disque**|
+|**Ordinateur**|**Cœurs de l’UC**|**RAM**|**Archives QoE et cube sur le même disque**|**Archive QoE et base de données temp SQL sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
-|Machine virtuelle  <br/> |4  <br/> |7 GO  <br/> |Oui  <br/> |Oui  <br/> |
-|4 cœurs  <br/> |4  <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
-|8 cœurs  <br/> |8bits  <br/> |32 Go   <br/> |Oui  <br/> |Non  <br/> |
+|Machine virtuelle  <br/> |4   <br/> |7 GO  <br/> |Oui  <br/> |Oui  <br/> |
+|4 cœurs  <br/> |4   <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
+|8 cœurs  <br/> |8   <br/> |32 Go   <br/> |Oui  <br/> |Non  <br/> |
 |16 cœurs  <br/> |16   <br/> |128 Go  <br/> |Non  <br/> |Non  <br/> |
    
 **Résultats des performances**
@@ -267,7 +267,7 @@ Les services de rôle IIS requis (dans l’ordre hiérarchique) sont les suivant
     
   - Filtres ISAPI
     
-  - Diagnostics d’intégrité &amp;
+  - &amp;Diagnostics d’intégrité
     
   - Journalisation HTTP
     
@@ -282,7 +282,7 @@ Les services de rôle IIS requis (dans l’ordre hiérarchique) sont les suivant
   - Console de gestion IIS
     
 > [!NOTE]
->  Notez les points suivants pour les exigences ci-dessus : les versions > 3,5 et 4,5 de .NET Framework sont disponibles. Les deux sont obligatoires (plus précisément, 3,5 SP1 est requis). > sur certains systèmes, si ASP.NET est configuré avant l’installation d’IIS, ASP.NET peut ne pas être enregistré dans IIS. Le problème est lié à l’absence de pools d’applications pour la version .net correspondante et la version .NET CLR est manquante dans la configuration du pool d’applications. Pour résoudre ce problème sur Windows Server 2008 R2, exécutez `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. Sur Windows Server 2012 et Windows Server 2012 R2, exécutez `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` suivi en supprimant le module « ServiceModel » du site Web par défaut dans le gestionnaire des services Internet (IIS). > les outils de gestion sont facultatifs, mais recommandés.
+>  Notez les points suivants pour les exigences ci-dessus : les versions > 3,5 et 4,5 de .NET Framework sont disponibles. Les deux sont obligatoires (plus précisément, 3,5 SP1 est requis). > sur certains systèmes, si ASP.NET est configuré avant l’installation d’IIS, ASP.NET peut ne pas être enregistré dans IIS. Le problème est lié à l’absence de pools d’applications pour la version .net correspondante et la version .NET CLR est manquante dans la configuration du pool d’applications. Pour résoudre ce problème sur Windows Server 2008 R2, exécutez `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . Sur Windows Server 2012 et Windows Server 2012 R2, exécutez `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` suivi en supprimant le module « ServiceModel » du site Web par défaut dans le gestionnaire des services Internet (IIS). > les outils de gestion sont facultatifs, mais recommandés.
   
 Pour installer ces exigences à l’aide de PowerShell, exécutez la commande suivante :
   
@@ -318,6 +318,9 @@ Pour plus d’informations sur l’installation et la configuration des fonction
 Trois comptes de service de domaine sont recommandés sur le principe des privilèges minimum : 
   
 - Une instance qui dispose déjà d’un principal de sécurité de connexion pour la base de données de mesures QoE (avec le privilège db_datareader) et d’un principal de sécurité de connexion dans l’instance SQL Server d’archive QoE (nécessaire pour créer un objet serveur lié lors de l’installation). Ce compte sera utilisé pour exécuter l’étape « données d’archivage QoE » du travail de l’agent SQL Server.
+    
+    > [!NOTE]
+    > Si vous travaillez dans un environnement fortement verrouillé, vous devez vérifier que ce compte de service bénéficie effectivement des droits d’utilisateur « ouverture de session en tant que tâche » et « autoriser l’ouverture de session locale » sur la base de données de surveillance des mesures QoE et sur le serveur SQL Server d’archivage QoE.
     
 - Un qui sera utilisé pour exécuter l’étape « traiter le cube » du travail de l’agent SQL Server. Le programme d’installation crée un principal de sécurité de connexion à la base de données d’archivage QoE (avec le privilège lecture et écriture) et crée également un membre dans le rôle QoE (avec le privilège contrôle total) pour le cube.
     

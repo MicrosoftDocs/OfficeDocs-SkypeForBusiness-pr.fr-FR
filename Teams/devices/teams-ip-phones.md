@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
+ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816815"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877905"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -51,6 +51,7 @@ Les téléphones suivants sont certifiés pour Microsoft teams :
 |Crestron M100| Ce produit a été abandonné. Pour plus d’informations, visitez la page [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) sur le site Web de Crestron. | Arrêté depuis 5/11/2020|
 |UC Crestron Flex-P100-T & UC-P110-T  | Ce produit a été abandonné. Pour plus d’informations, consultez la page [téléphone de communications unifiées]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) sur le site Web de Crestron. |Arrêté depuis 5/11/2020|
 |Affichage ThinkSmart Lenovo|CD-18781Y. 200410.067|2020 avril|
+|C60 de poly-trio|5.9.3.6155|2020 avril|
 |Poly CCX400 | 1.0.0.0200 | 2020 janvier|
 |Poly CCX600 | 5.9.12.1111| 2020 janvier|
 |Poly CCX500 | 5.9.12.1111| 2019 décembre|

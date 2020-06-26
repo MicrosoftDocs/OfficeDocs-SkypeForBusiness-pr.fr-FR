@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à gérer l’utilisation des indicateurs au sein de votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b19613268384831aaaa2608fc183b62fdc1b0445
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690853"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877935"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft teams
 
@@ -38,6 +38,8 @@ Vous pouvez ajouter un indicateur à une personne d’une équipe spécifique. D
 - Un responsable de produit de groupe veut avertir tous les responsables de produits dans un canal.
 - Un administrateur de l’hôpital veut envoyer un message à tous les Radiologists dans un canal.
 - Un responsable marketing veut commencer une discussion de groupe avec tous les concepteurs.
+
+Quand une balise n’est @mentioned dans une conversation de canal, les membres de l’équipe associés à la balise seront avertis, comme tout autre @mention.
 
 Pour en savoir plus, voir [utilisation de balises dans teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
@@ -77,10 +79,20 @@ Si vous avez activé la case à coadresse le propriétaire de l' **équipe peut 
 
 ![Capture d’écran du paramètre balises au niveau de l’équipe](media/manage-tags-team-settings.png)
 
-## <a name="add-tags-in-teams"></a>Ajouter des balises dans teams
+## <a name="use-tags"></a>Utiliser des indicateurs
 
-Pour gérer les indicateurs, sélectionnez **gérer les équipes** dans la partie gauche de l’application et recherchez votre équipe dans la liste. Cliquez sur **autres options**, puis sélectionnez **gérer les indicateurs**.
+### <a name="add-tags"></a>Ajouter des indicateurs
+
+Pour créer et attribuer des indicateurs, sélectionnez **équipes** dans la partie gauche de l’application, puis recherchez votre équipe dans la liste. Cliquez sur **autres options**, puis sélectionnez **gérer les indicateurs**.
 
 Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
 
 ![Capture d’écran de l’application de balises dans le client teams ](media/manage-tags-teams.png)
+
+### <a name="delete-tags"></a>Supprimer des indicateurs
+
+Supprimez tous les membres de l’équipe associés à la balise et la balise sera supprimée.
+
+## <a name="related-topics"></a>Sujets associés
+
+[Utilisation de balises dans teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)

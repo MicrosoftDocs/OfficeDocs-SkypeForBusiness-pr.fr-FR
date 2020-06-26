@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690960"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889973"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft teams
 
@@ -48,7 +48,7 @@ Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie
     ![Capture d’écran des paramètres de stratégie d’équipe](media/teams-policies.png)
 4. Choisissez les paramètres de votre choix :
 
-- **Découvrir les équipes privées**:<a name="discoverteams"> </a> activez ce paramètre pour autoriser les utilisateurs à découvrir les équipes privées dans les résultats de la recherche et dans la Galerie d’équipes.
+- **Découvrez les équipes privées** (en préversion<a name="discoverteams"> </a> privée) : activez ce paramètre pour permettre aux utilisateurs de découvrir les équipes privées dans les résultats de la recherche et dans la Galerie d’équipe.
 - **Créer des canaux privés**: <a name="createchannels"> </a>activez ce paramètre pour autoriser les utilisateurs à créer des canaux privés.
 
 5. Cliquez sur **Enregistrer**.
@@ -110,7 +110,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
 - [Canaux privés dans teams](private-channels.md)

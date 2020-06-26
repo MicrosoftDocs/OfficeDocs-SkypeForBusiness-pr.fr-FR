@@ -1,9 +1,9 @@
 ---
-title: Disponibilité dans l’Algérie
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité au Guatemala
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Algérie.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Guatemala.
+ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877895"
+ms.locfileid: "44877992"
 ---
-# <a name="availability-in-algeria"></a>Disponibilité dans l’Algérie
+# <a name="availability-in-guatemala"></a>Disponibilité au Guatemala
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Algérie.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Guatemala.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -68,8 +68,8 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Non géographique. Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Non géographique ([à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Cuidad de Guatemala<br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

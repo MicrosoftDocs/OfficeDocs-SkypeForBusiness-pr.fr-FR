@@ -1,9 +1,9 @@
 ---
-title: Disponibilité dans l’Algérie
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité au Cameroun
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Algérie.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Cameroun.
+ms.openlocfilehash: 283605d9c7c43dbf472d2738e19a940beffe7d43
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877895"
+ms.locfileid: "44877982"
 ---
-# <a name="availability-in-algeria"></a>Disponibilité dans l’Algérie
+# <a name="availability-in-cameroon"></a>Disponibilité au Cameroun
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Algérie.
+Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Cameroun.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

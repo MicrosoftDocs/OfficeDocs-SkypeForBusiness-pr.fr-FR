@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f59242fd3877ff1a075668a405a558f0fe18c374
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761452"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877915"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -29,6 +29,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
@@ -63,6 +64,13 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
+
+### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
+
+Présenté dans cette mise à jour :
+- Correctifs de qualité et de fiabilité
+- Correctif pour le problème « l’application ne se lance pas après la mise à jour vers 4.4.41.0 »
+
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
