@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330569"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874424"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -158,9 +158,20 @@ Pour vous assurer que les étudiants ne peuvent pas planifier de réunion pour c
 
 ![Page Étudiant en sciences de l’éducation en formation à distance, avec la section Général affichée, toutes les options ici sont désactivées.](media/edu-policy-list-a.png)
 
-- Dans la même page, dans la section Participants et invités dans la réunion : **Autoriser la conférence maintenant dans les réunions privées** : Désactivé
+- Dans la même page, dans la section Participants et invités dans les réunions :
+  - **Autoriser la conférence maintenant dans les réunions privées** : désactivé
+  - **Autoriser la conversation en réunion** : désactivé
 
 ![Section Participants et invités, avec l’option Autoriser la conférence maintenant dans les réunions privées définie sur Désactivé.](media/edu-participants-and-guests.png)
+
+La désactivation **Autoriser la conférence maintenant dans les canaux**, **Autoriser la planification des réunions pour les canaux**, **Autoriser la planification des réunions privées**, et **Conférence maintenant dans les réunions privées** pour les étudiants qui empêche les étudiants de planifier une réunion en tant qu’organisateur, elles fournissent également les mesures de sécurité suivantes pour l’éducation :
+
+- Si les étudiants tentent de rejoindre la réunion avant l'enseignant, ils ne pourront pas participer à la réunion dans la dernière version de l'application Teams.
+- Bien que la création de la réunion s’applique à tous les utilisateurs et toutes les licences, les mesures de sécurité sur le bloc de jointure de la réunion décrites ci-dessus s’appliquent uniquement aux clients Éducation dans Teams basées sur le type de licence des utilisateurs.
+
+Lorsque vous modifiez la stratégie **autoriser la conversation dans les réunions** sur désactivé et empêcher les étudiants de planifier les réunions à partir du haut et conserver cette stratégie pour les enseignants (pour les réunions qui ne sont pas planifiées à partir d’un canal ou de Conférence maintenant), les étudiants ne pourront pas converser avant que les enseignants ne joignent la réunion, ni après la réunion. Ils pourront toujours voir l’historique des conversations avant, pendant et après la réunion. Par exemple, ils peuvent voir les messages de l’enseignant ou le lien enregistrement de la réunion, si la réunion a été enregistrée.
+
+Si les étudiants et les enseignants ont la stratégie **Autoriser les conversations dans les réunions** désactivée, personne ne pourra discuter dans la fenêtre conversation de réunion. La mesure de sécurité relative aux restrictions de conversation de réunion décrite ci-dessus ne s’applique qu’aux clients Éducation Teams basés sur le type de licence des utilisateurs.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Contrôler si les étudiants peuvent ou non partager leurs vidéos pendant les appels et les réunions
 
