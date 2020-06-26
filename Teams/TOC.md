@@ -217,6 +217,7 @@
 ## Événements en direct
 ### [Que sont les événements en direct Teams ?](teams-live-events/what-are-teams-live-events.md)
 ### [Offre pour les événements en direct Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Fonctionnalités de présentateur, de producteur et de participants dans un événement en direct](roles-in-live-events.md)
 ### [Configurer les événements en direct Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Utiliser PowerShell pour définir les stratégies d’événements en direct Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configurer les paramètres d’événements en direct Teams](teams-live-events/configure-teams-live-events.md)
@@ -353,6 +354,16 @@
 #### [Étiquettes d’appel d’urgence](emergency-calling-labels.md)
 ### [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 ### [Gérer les stratégies de routage d’appel d’urgence](manage-emergency-call-routing-policies.md)
+
+## Étude de cas pour la migration vocale Contoso
+### [Vue d’ensemble](voice-case-study-overview.md)
+### [Plan de mise à niveau de Teams](voice-case-study-migration-plan.md)
+### [Système téléphonique](voice-case-study-phone-system.md)
+### [Routage basé sur l’emplacement](voice-case-study-location-based-routing.md)
+### [Appel d’urgence](voice-case-study-emergency-calling.md)
+### [Audioconférence](voice-case-study-audio-conferencing.md)
+### [Standards automatiques et files d’attente d’appels](voice-case-study-call-queues.md)
+
 
 
 
@@ -498,31 +509,31 @@
 
 ## Planifier votre parcours de mise à niveau
 
-### [Vue d’ensemble de la planification de mise à niveau](upgrade-plan-journey.md)
-### [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
-### [Définition de l’étendue de votre projet](upgrade-define-project-scope.md)
-### [Présentation de la coexistence et de l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Commencer par les réunions](meetings-first.md)
+### Planifier votre projet et vos besoins 
+#### [Vue d’ensemble](upgrade-plan-journey.md)
+#### [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+#### [Définition de l’étendue de votre projet](upgrade-define-project-scope.md)
+#### [Présentation de la coexistence et de l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [Planifier un pilote utilisateur](pilot-essentials.md)
 
-## Préparer votre environnement pour Teams
-### [Vue d’ensemble de la préparation technique](upgrade-prepare-environment.md)
-### [Préparer le service informatique pour Teams](upgrade-prepare-IT-pros.md)
-### [Conditions préalables](upgrade-plan-journey-prerequisites.md)
-### [Évaluer votre environnement](upgrade-plan-journey-evaluate-environment.md)
-### [Préparer votre service](upgrade-prepare-environment-prepare-service.md)
 
-## Préparer votre organisation pour Teams
-### [Vue d’ensemble de la préparation organisationnelle](upgrade-prepare-organization.md)
-### [Évaluer la préparation au changement de l’organisation](upgrade-org-change-readiness.md)
-### [Préparer un plan de préparation utilisateur](upgrade-user-readiness.md)
+### Préparer votre environnement pour Teams
+#### [Vue d’ensemble de la préparation technique](upgrade-prepare-environment.md)
+#### [Préparer le service informatique pour Teams](upgrade-prepare-IT-pros.md)
+#### [Conditions préalables](upgrade-plan-journey-prerequisites.md)
+#### [Évaluer votre environnement](upgrade-plan-journey-evaluate-environment.md)
+#### [Préparer votre service](upgrade-prepare-environment-prepare-service.md)
+
+### Préparer votre organisation pour Teams
+#### [Vue d’ensemble de la préparation organisationnelle](upgrade-prepare-organization.md)
+#### [Évaluer la préparation au changement de l’organisation](upgrade-org-change-readiness.md)
+#### [Préparer un plan de préparation utilisateur](upgrade-user-readiness.md)
 
 
 ## Implémenter votre mise à niveau
 ### [Vue d’ensemble](upgrade-to-Teams.md)
-### [Réaliser un pilote utilisateur](pilot-essentials.md)
 ### [Mise à niveau de Skype Entreprise Online vers Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Mise à niveau de Skype Entreprise local vers Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -541,6 +552,9 @@
 ### [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
 ### [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [Commencer par les réunions](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -687,7 +701,6 @@
 
 <!-- ============================================================ -->
 # Surveillance, maintenance et résolution des problèmes
-## [Support de Teams au sein de votre organisation](Known-issues.md).
 ## [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
 ### [Guide d’examen de l’expérience de qualité](quality-of-experience-review-guide.md)
 ### [Configurer la qualité de service dans Teams](QoS-in-Teams.md)
@@ -703,13 +716,14 @@
 #### [Utilisation du rapport de routage direct PSTN CQD](CQD-PSTN-report.md)
 ### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Classification de flux de données dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
+## [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Résoudre les problèmes d’installation et de mise à jour](troubleshoot-installation.md)
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Problèmes de réception des messages et des appels sur les anciens systèmes](legacy-login-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 ## [Forum aux questions : soutenir vos employés en télétravail](FAQ-support-remote-workforce.md)
 ## [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
-## [Ressources de support pour Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Contacter le support relatif aux produits d’entreprises - Aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
@@ -728,7 +742,6 @@
 ### [Planifier les groupes Microsoft 365 lors de la création d'équipes dans Microsoft Teams](plan-office-365-groups.md)
 ### [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)
 ### [Planifier la gouvernance dans Teams](plan-teams-governance.md)
-### [Utiliser l’Assistant test réseau](use-network-testing-companion.md)
 
 ## Installer Teams
 ### [Obtenir des clients pour Teams](get-clients.md)
