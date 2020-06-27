@@ -1,0 +1,71 @@
+### YamlMime:Hub
+title: Discussions de craie de Microsoft teams
+summary: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. Cliquez sur un titre d’atelier pour vous inscrire.
+brand: teams
+metadata:
+  title: Discussions de craie de Microsoft teams
+  description: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. À l’aide d’experts en matière d’expertise, ces ateliers interactifs en ligne vous aideront à utiliser des informations pour améliorer la mise en œuvre de votre équipe et fournir des valeurs supplémentaires aux utilisateurs finaux. Cliquez sur un titre d’atelier ci-dessous pour afficher les dates et heures disponibles, et inscrivez-vous dès aujourd’hui ! Cliquez sur un titre d’atelier pour vous inscrire.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 06/17/2020
+  ms.reviewer: nsuter
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Normal
+  ROBOTS: NOINDEX, NOFOLLOW
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902348"
+productDirectory:
+  items:
+  - title: Accéder aux équipes--zéro à la production
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: À venir! Accédez à l’implémentation de Microsoft teams pour la collaboration, les discussions et les réunions. Nous allons partager des configurations clés, des considérations, des meilleures pratiques et des ressources pour rendre vos utilisateurs plus rapidement opérationnels.
+    url: http://aka.ms/ChalkTalkGTT
+  - title: Ainsi... vous voulez passer des appels avec teams ?
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: Rejoignez-nous pour obtenir une vue d’esprit approfondie de l’ajout de fonctionnalités d’appel RTC à votre déploiement d’équipes. Ensemble, nous allons examiner la terminologie des appels, les principaux concepts et les configurations.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+  - title: Accès à la qualité audio/vidéo dans teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: Vous voulez vous assurer que les utilisateurs disposent d’expériences optimales pour les réunions et les fonctions vocales ? Nous allons aborder des outils, des rapports et des pratiques recommandées pour la gestion de la qualité de service (par l’établissement d’une stratégie proactive de résolution des problèmes courants).
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+  - title: En faire plus avec les applications dans teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
+    summary: Cette session de base aborde les fonctionnalités de base, notamment la gestion et la sécurité des applications. Découvrez comment intégrer vos flux de travail, applications de productivité et les services que vous utilisez quotidiennement en une seule et même interface unifiée.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+  - title: Automatisation des flux de travail informatiques avec teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
+    summary: À venir! Automatiser vos processus informatiques en utilisant des applications disponibles dans Teams. Nous allons aborder des scénarios courants, tels que le support technique et le partage de connaissances, afin que votre équipe puisse gagner du temps et vous concentrer sur ce qui est important.
+    url: https://aka.ms/ChalkTalkAutoIT
+  - title: Activation d’équipes pour l’engagement de terrain Worker
+    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
+    summary: Êtes-vous prêt à commencer à activer des espaces de travail numériques pour votre terrain ? Ensemble, nous allons examiner les meilleures pratiques en matière de démarrage d’un pilote pour améliorer la communication, l’engagement des employés et la productivité opérationnelle.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+additionalContent:
+  sections:
+  - items:
+    - title: Vous utilisez toujours Skype entreprise ?
+      summary: Consultez notre série d’ateliers de mise à niveau.
+      url: upgrade-workshops-landing-page.yml
+    - title: Préparer vos utilisateurs
+      summary: Familiarisez-vous avec les formations Teams.
+      url: https://aka.ms/TeamsLiveTraining
+    - title: Vous débutez avec Teams?
+      summary: En savoir plus sur la mise en route de teams.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
