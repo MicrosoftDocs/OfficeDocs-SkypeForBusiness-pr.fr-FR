@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666176"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902269"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -59,7 +59,7 @@ La licence minimale requise pour les stratégies de conservation est Office 365
 
 ## <a name="how-teams-retention-policies-work"></a>Fonctionnement des stratégies de conservation Teams
 
-Les conversations Teams sont stockées dans un dossier SubstrateHolds caché dans la boîte aux lettres de chaque utilisateur dans la conversation, et les messages du canal Teams sont stockés dans un dossier SubstratesHolds caché dans la boîte aux lettres de groupe pour une équipe. Teams utilise un service de conversation basé sur Azure qui stocke également ces données et, par défaut, ce service stocke les données sans limite de durée. Lorsque vous supprimez des données avec une stratégie de conservation Teams, celles-ci sont supprimées définitivement des boîtes aux lettres Exchange et du service de conversation sous-jacent.
+Les discussions d’équipe sont stockées dans un dossier masqué-Teamschat-dans la boîte aux lettres de chaque utilisateur dans la conversation, et les messages de canal d’équipe sont stockés dans un dossier caché-Teamschat-dans la boîte aux lettres de groupe pour une équipe. Teams utilise un service de conversation basé sur Azure qui stocke également ces données et, par défaut, ce service stocke les données sans limite de durée. Lorsque vous supprimez des données avec une stratégie de conservation Teams, celles-ci sont supprimées définitivement des boîtes aux lettres Exchange et du service de conversation sous-jacent.
 
 Lorsque vous appliquez une stratégie de conservation à des conversations et des messages de canal Teams, voici ce qui se produit :
 
@@ -83,7 +83,7 @@ Voici quelques considérations et limitations à prendre en compte lorsque vous 
 
 - Teams ne prend pas en charge les paramètres de conservation avancés, comme la possibilité d’appliquer une stratégie au contenu avec des mots clés ou des informations sensibles. Actuellement, les stratégies de conservation dans Teams s’appliquent à tous les contenus de conversation et/ou de canal.
 
-- Le nettoyage des messages expirés risque de durer jusqu’à sept jours. Une stratégie de conservation Teams supprimera les messages de discussion et de canal à l'expiration de la période de conservation. Toutefois, le nettoyage de ces messages risque de durer jusqu’à 3 jours et de les supprimer définitivement. De plus, les messages de conversation et de canal seront consultables avec les outils eDiscovery entre le moment qui suit l'expiration de la période de conservation et la suppression définitive des messages.
+- Une stratégie de rétention teams déclenche un processus, au cours d’une journée, pour supprimer des conversations et des messages de canal au moment de la fin de la période de rétention. Toutefois, le nettoyage de ces messages risque de durer jusqu’à 3 jours et de les supprimer définitivement. De plus, les messages de conversation et de canal seront consultables avec les outils eDiscovery entre le moment qui suit l'expiration de la période de conservation et la suppression définitive des messages.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Politiques de conservation multiples et principes de conservation
 

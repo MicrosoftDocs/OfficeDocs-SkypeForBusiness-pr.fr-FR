@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689720"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902289"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -76,7 +76,7 @@ La plateforme de flux d’événements en direct se compose des éléments suiva
 L’objectif de eCDN est de prendre le contenu vidéo à partir d’Internet et de distribuer le contenu au sein de votre entreprise, sans affecter les performances du réseau. Vous pouvez utiliser l’un des partenaires eCDN certifiés suivants pour optimiser votre réseau en ce qui concerne les événements dynamiques organisés au sein de votre organisation :
 - [Ruche](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [Renforcement](http://www.ramp.com)
+- [Renforcement](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>Compétences des participants 
 L’utilisation des participants est l’aspect le plus important des événements en direct et il est essentiel que les participants puissent participer à l’événement en direct sans problèmes. L’expérience des participants utilise le lecteur de flux (pour les événements produits dans Teams) et le lecteur multimédia Azure (pour les événements produits dans une application ou un appareil externe) et fonctionne sur les ordinateurs de bureau, les navigateurs et les appareils mobiles (iOS, Android). Microsoft 365 et Office 365 fournissent Yammer et teams sous la forme de deux hubs de collaboration et l’environnement des participants est intégré à ces outils de collaboration. 
@@ -89,9 +89,9 @@ Les administrateurs de clients peuvent afficher les données d’analyse en temp
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez au [plan pour les événements en direct teams](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 - [Événements en direct sur Microsoft 365 dans Yammer, Microsoft teams et Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Commencer à utiliser Microsoft teams Live Events](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [Prise en main des événements en direct Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Événements en direct dans Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
 

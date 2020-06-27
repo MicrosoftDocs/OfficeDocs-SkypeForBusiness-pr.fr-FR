@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Planification de la mise à niveau Teams
+summary: Rejoignez-nous pour une série d’ateliers de planification de mise à niveau en direct et interactifs, dans lesquels nous allons partager des conseils, des meilleures pratiques et des ressources conçues pour vous aider à planifier et implémenter la mise à niveau vers Teams. Pour une expérience optimale, commencez par planifier votre session de mise à niveau ci-dessous. Cliquez sur un titre d’atelier pour vous inscrire.
+brand: teams
+metadata:
+  title: Planification de la mise à niveau Teams
+  description: Rejoignez-nous pour une série d’ateliers de planification de mise à niveau en direct et interactifs, dans lesquels nous allons partager des conseils, des meilleures pratiques et des ressources conçues pour vous aider à planifier et implémenter la mise à niveau vers Teams. Pour une expérience optimale, commencez par planifier votre session de mise à niveau ci-dessous. Cliquez sur un titre d’atelier pour vous inscrire.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902349"
+productDirectory:
+  items:
+  - title: Planifier votre mise à niveau de la version (commencez ici !)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: Découvrez tout ce dont vous avez besoin pour faciliter la mise à niveau vers Teams. Public-All (sponsors de l’entreprise, administrateurs informatiques, préparation ou changement du responsable de projet)
+    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+  - title: Préparez vos utilisateurs finaux
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: Créez une stratégie de préparation des utilisateurs pour aider vos utilisateurs à apprécier et à adopter Teams. Public-disponibilité des utilisateurs/gestionnaire des modifications
+    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
+  - title: Identifier votre approche de mise à niveau
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: Déterminez l’approche la plus appropriée basée sur vos objectifs actuels de mise à niveau et de mise à niveau de Skype Entreprise. Public-administrateurs informatiques
+    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
+  - title: Implémenter votre approche de mise à niveau
+    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
+    summary: Exécutez votre approche de mise à niveau définie dans le cadre de votre plan de mise à niveau formel. Public-administrateurs informatiques
+    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+additionalContent:
+  sections:
+  - items:
+    - title: Consultez ces ateliers sur votre propre temps
+      summary: Visitez la page mise à niveau vers Microsoft teams sur YouTube.
+      url: https://aka.ms/UpgradeOnDemand
+    - title: Vous développez vos scénarios d’équipe ?
+      summary: Consultez nos ateliers de craie d’équipes pour professionnels de l’informatique.
+      url: https://aka.ms/TeamsChalkTalks
+    - title: Vous débutez avec Teams?
+      summary: En savoir plus sur la mise en route de teams.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
