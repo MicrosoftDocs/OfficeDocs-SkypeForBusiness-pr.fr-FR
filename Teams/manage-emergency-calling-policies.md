@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des politiques d’appel d’urgence dans Microsoft teams pour définir ce qui se passe quand un utilisateur de teams dans votre organisation effectue un appel d’urgence.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79332a8675273e86476a68f43489c202b03faea9
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 12d2e114a53c47e6c938c6c2cb4bf3cb83c81180
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638683"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938433"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence dans Microsoft teams
 
@@ -61,7 +61,7 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies d’urgence**vocale, puis cliquez sur l’onglet politiques d' **appel** .
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
-3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
+3. Apportez les modifications souhaitées, puis cliquez sur **appliquer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -69,56 +69,9 @@ Voir [Set-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/m
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Affecter une stratégie d’appel d’urgence personnalisée aux utilisateurs
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Pour attribuer une stratégie à un utilisateur :
-
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **stratégie d’appel d’urgence**, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
-
-Pour affecter une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies d’urgence**vocale, puis cliquez sur l’onglet politiques d' **appel** .
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
-
-### <a name="using-powershell"></a>Utiliser PowerShell
-
-#### <a name="assign-a-custom-emergency-calling-policy-to-a-user"></a>Affecter une stratégie d’appel d’urgence personnalisée à un utilisateur
-
-Voir [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
-
-#### <a name="assign-a-custom-emergency-calling-policy-to-users-in-a-group"></a>Affecter une stratégie d’appel d’urgence personnalisée aux utilisateurs d’un groupe
-
-Il est possible que vous souhaitiez affecter une stratégie d’appel d’urgence personnalisée à plusieurs utilisateurs déjà identifiés. Par exemple, vous souhaiterez probablement affecter une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité. Pour cela, vous devez vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise.
-
-Dans cet exemple, nous affectons une stratégie appelée stratégie d’appel d’urgence d’opérations à tous les utilisateurs du groupe opérations de contoso.  
-
-> [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenez la GroupObjectId du groupe en particulier.
-```powershell
-$group = Get-AzureADGroup -SearchString "Contoso Operations"
-```
-Obtenez les membres du groupe spécifié.
-```powershell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Attribuez à tous les utilisateurs du groupe une stratégie d’équipe particulière. Dans cet exemple, il s’agit de la stratégie d’acheminement des appels d’urgence.
-```powershell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
-``` 
-En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
+Voir aussi [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Affecter une stratégie d’appel d’urgence personnalisée à un site réseau
 
@@ -130,8 +83,10 @@ L’exemple suivant montre comment affecter une stratégie appelée stratégie d
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Gérer les stratégies de routage des appels d’urgence dans teams](manage-emergency-call-routing-policies.md)
-- [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Gérer les stratégies de routage des appels d’urgence dans teams](manage-emergency-call-routing-policies.md)
+
+[Présentation de Teams PowerShell](teams-powershell-overview.md)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams pour configurer des numéros d’urgence et définir le mode de routage des appels d’urgence.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638693"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938163"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams
 
@@ -74,56 +74,9 @@ Voir [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershe
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Attribuer une stratégie d’acheminement d’appel d’urgence personnalisée aux utilisateurs
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Pour attribuer une stratégie à un utilisateur :
-
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **stratégie d’acheminement des appels d’urgence**, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
-
-Pour affecter une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies d’urgence**vocale, puis cliquez sur l’onglet stratégies de routage des **appels** .
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
-
-### <a name="using-powershell"></a>Utiliser PowerShell
-
-#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>Attribuer une stratégie d’acheminement d’appel d’urgence personnalisée à un utilisateur
-
-Voir [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
-
-### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>Affecter une stratégie d’acheminement d’appel d’urgence personnalisée aux utilisateurs d’un groupe
-
-Il est possible que vous souhaitiez affecter une stratégie d’acheminement d’appel d’urgence personnalisée à plusieurs utilisateurs déjà identifiés. Par exemple, vous souhaiterez probablement affecter une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité ou de distribution. Pour cela, vous devez vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise.
-
-Dans cet exemple, nous affectons une stratégie appelée politique d’acheminement des appels d’urgence à tous les utilisateurs du groupe RH de contoso.  
-
-> [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenez la GroupObjectId du groupe en particulier.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso HR"
-```
-Obtenez les membres du groupe spécifié.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Attribuez à tous les utilisateurs du groupe une stratégie d’équipe particulière. Dans cet exemple, il s’agit de la stratégie d’acheminement des appels d’urgence HR.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
-``` 
-En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
+Voir aussi [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Affecter une stratégie d’acheminement d’appel d’urgence personnalisée à un site réseau
 
@@ -135,8 +88,10 @@ Cet exemple montre comment assigner une stratégie appelée politique de routage
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Gérer les stratégies d’appel d’urgence dans teams](manage-emergency-calling-policies.md)
-- [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Gérer les stratégies d’appel d’urgence dans teams](manage-emergency-calling-policies.md)
+
+[Présentation de Teams PowerShell](teams-powershell-overview.md)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

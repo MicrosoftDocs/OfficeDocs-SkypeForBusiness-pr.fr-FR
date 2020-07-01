@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698274"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938453"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams
 
@@ -132,6 +132,8 @@ Par exemple, supposons que vous souhaitiez autoriser uniquement les propriétair
 | Activé     | Activé     | Désactivé         | L’utilisateur ne peut pas charger des applications personnalisées.       |
 | Activé    | Activé        | Activé        | L’utilisateur peut télécharger des applications personnalisées dans l’équipe, qu’il s’agisse d’un propriétaire d’équipe ou non. L’utilisateur peut télécharger des applications personnalisées dans le contexte personnel.       |
 
- ## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
  
-- [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
+[Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le centre d’administration Microsoft teams ou Windows PowerShell pour créer et gérer les plans de numérotation (appels RTC).
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691340"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938233"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -60,13 +60,9 @@ Une fois que vous avez planifié les plans de numérotation pour votre organisat
 2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation, puis cliquez sur **modifier**.
 3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
 
-### <a name="add-users-to-a-dial-plan"></a>Ajouter des utilisateurs à un plan de numérotation
+### <a name="assign-a-dial-plan-to-users"></a>Affectation d’un plan de numérotation aux utilisateurs
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
-2. Pour sélectionner l’utilisateur, cliquez sur son nom d’affichage.
-3. Sélectionnez l’onglet **stratégies** .
-4. Cliquez sur **modifier** à droite des stratégies attribuées.
-5. Dans le menu déroulant **plan de numérotation** , sélectionnez le plan de numérotation que vous souhaitez attribuer à l’utilisateur, puis cliquez sur **appliquer**.
+Vous affectez un plan de numérotation de la même manière que vous attribuez des stratégies. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
   
@@ -241,7 +237,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)

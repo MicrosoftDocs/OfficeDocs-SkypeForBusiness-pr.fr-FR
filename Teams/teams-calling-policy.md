@@ -19,17 +19,19 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44592925"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44942041"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 ===================================
 
-Dans Microsoft Teams, les stratégies d’appel contrôlent les fonctionnalités d’appel et de transfert d’appel disponibles pour les utilisateurs. Les politiques d’appel déterminent si un utilisateur peut passer des appels privés, utiliser le transfert d’appel ou la sonnerie simultanée d’autres utilisateurs ou des numéros de téléphone externes, diriger les appels vers la boîte vocale, envoyer les appels vers les groupes d’appels, utiliser la délégation pour les appels entrants et sortants, et ainsi de suite. Une stratégie globale par défaut est créée automatiquement, mais les administrateurs peuvent également créer et attribuer des stratégies d’appel personnalisées.
+Dans Microsoft Teams, les stratégies d’appel contrôlent les fonctionnalités d’appel et de transfert d’appel disponibles pour les utilisateurs. Les politiques d’appel déterminent si un utilisateur peut passer des appels privés, utiliser le transfert d’appel ou la sonnerie simultanée d’autres utilisateurs ou des numéros de téléphone externes, diriger les appels vers la boîte vocale, envoyer les appels vers les groupes d’appels, utiliser la délégation pour les appels entrants et sortants, et ainsi de suite.
+
+Vous pouvez utiliser la stratégie globale par défaut de l’organisation créée automatiquement, ou créer et affecter des stratégies personnalisées.
 
 ## <a name="create-a-custom-calling-policy"></a>Créer une stratégie d’appel personnalisée
 
@@ -41,7 +43,7 @@ Suivez ces étapes pour créer une stratégie d’appel personnalisée.
 4. Pour contrôler si les utilisateurs peuvent diriger les appels entrants vers la boîte vocale, sélectionnez **activé** ou contrôlé par l' **utilisateur**. Pour empêcher le routage vers la boîte vocale, sélectionnez **désactivé**.
 5. Sélectionnez **Save (enregistrer**).
 
-## <a name="modify-an-existing-calling-policy"></a>Modifier une stratégie d’appel existante
+## <a name="edit-a-calling-policy"></a>Modifier une stratégie d’appel
 
 Pour modifier une stratégie d’appel existante, procédez comme suit.
 
@@ -51,25 +53,7 @@ Pour modifier une stratégie d’appel existante, procédez comme suit.
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>Assigner une stratégie d’appel personnalisée aux utilisateurs
 
-Pour attribuer une stratégie à un utilisateur :
-
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
-3. Sous **stratégie d’appel**, sélectionnez la stratégie d’appel que vous voulez attribuer, puis cliquez sur **appliquer**.
-
-Pour affecter une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies d’appel**vocal.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="calling-policy-settings"></a>Paramètres de la stratégie d’appel
 
@@ -91,8 +75,8 @@ Ce paramètre détermine si les appels entrants peuvent être transférés vers 
 
 Ce paramètre permet d’envoyer les appels entrants vers la boîte vocale. Les options valides sont les suivantes :
 
-- **Activée** La boîte vocale est toujours disponible pour les appels entrants. 
-- **Désactivé**  La boîte vocale n’est pas disponible pour les appels entrants. 
+- **Activée** La boîte vocale est toujours disponible pour les appels entrants.
+- **Désactivé**  La boîte vocale n’est pas disponible pour les appels entrants.
 - **Contrôle utilisateur** Les utilisateurs peuvent déterminer s’ils veulent disposer de la boîte vocale.
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être routés vers des groupes d’appels 
@@ -123,6 +107,8 @@ Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide 
 
 Ce paramètre vous permet d’activer ou de désactiver la musique lors de la mise en attente d’un appelant PSTN. Elle est activée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de délégué de parc et de dédirection, et n’est actuellement disponible que via PowerShell.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

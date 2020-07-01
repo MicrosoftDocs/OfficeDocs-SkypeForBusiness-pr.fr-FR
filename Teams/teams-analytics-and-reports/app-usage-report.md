@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport utilisation des applications
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902331"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938203"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Rapport sur l’utilisation des applications Microsoft teams
 
@@ -30,7 +30,7 @@ Le rapport utilisation des applications teams dans le centre d’administration 
 
 ## <a name="view-the-app-usage-report"></a>Afficher le rapport utilisation des applications
 
-1.  Dans le volet de navigation de gauche du centre d’administration <https://teams.admin.microsoft.com> , cliquez sur **analyse &** rapports d' \> **utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez utilisation des **applications**.
+1.  Dans le volet de navigation de gauche du centre d’administration <https://admin.teams.microsoft.com> , cliquez sur **analyse &** rapports d' \> **utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez utilisation des **applications**.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="Capture d’écran de l’élément de menu rapports d’utilisation":::
 

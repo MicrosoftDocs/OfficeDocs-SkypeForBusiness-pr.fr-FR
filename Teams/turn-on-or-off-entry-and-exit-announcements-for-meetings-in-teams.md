@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: L’administrateur peut en savoir plus sur la façon d’activer ou de désactiver les annonces d’entrée et de sortie dans une réunion Microsoft Teams.
-ms.openlocfilehash: 824949ea1c212f514830dfad3926444944ac099c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ae2e8936b3fe0dbac0ba0d6ad7bfad3ab2e322ef
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690980"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938553"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activer ou désactiver les annonces d'entrée et de sortie des réunions dans Microsoft Teams
 
@@ -43,7 +43,7 @@ Le pont de conférence répond à l’appel d’un utilisateur qui compose un nu
 
 Vous devez être administrateur pour apporter ces modifications.
 
-1. Connectez-vous au centre d’administration à l’adresse  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Connectez-vous au centre d’administration à l’adresse  <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a> .
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
@@ -54,7 +54,7 @@ Vous devez être administrateur pour apporter ces modifications.
 5. Sous **Type d'annonce d’entrée/sortie**, sélectionnez **Noms ou numéros de téléphone** ou **Tonalités**.
 
    > [!NOTE]
-   > Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous souhaitez conserver la confidentialité de ces numéros de téléphone, sélectionnez **tonalités** pour le **type d’annonce d’entrée/sortie** (cela empêche les numéros d’être lus par Teams).
+   > Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes).
     
 6. Si vous sélectionnez l'option **Names or phone numbers** (Noms ou numéros de téléphone), activez ou désactivez l’option **Ask callers to record their name before joining the meeting** (Demander aux appelants d'enregistrer leur nom avant de rejoindre la réunion).
     

@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889993"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938473"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler les applications auxquelles les utilisateurs de Microsoft Teams peuvent accéder au sein de votre organisation. Vous pouvez autoriser ou bloquer toutes les applications ou applications spécifiques publiées par Microsoft, des tiers et votre organisation. Lorsque vous bloquez une application, les utilisateurs qui disposent de la stratégie ne peuvent pas l’installer à partir de la boutique d’applications Teams. Vous devez être un administrateur général ou un administrateur du service Teams pour gérer ces stratégies.
 
-Vous gérez les stratégies d’autorisation d’application dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées à des utilisateurs individuels ou à des utilisateurs d’un groupe. Après avoir modifié ou affecté une stratégie, quelques heures peuvent être nécessaires pour que les modifications prennent effet.
+Vous gérez les stratégies d’autorisation d’application dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Après avoir modifié ou affecté une stratégie, quelques heures peuvent être nécessaires pour que les modifications prennent effet.
 
 ![Capture d’écran de la stratégie d’autorisation d’application](media/app-permission-policies.png)
 
 > [!NOTE]
-> Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Les paramètres d’application à l’échelle de l’organisation remplacent la stratégie globale et les stratégies personnalisées que vous créez et attribuez aux utilisateurs.
+> Les paramètres d’application à l’échelle de l’organisation remplacent la stratégie globale et les stratégies personnalisées que vous créez et attribuez aux utilisateurs.
 
 Si votre organisation est déjà en équipe, les paramètres d’application que vous avez configurés dans les paramètres à l' **échelle du client** dans le centre d’administration 365 Microsoft sont reflétés dans les paramètres de l’application à l’échelle de l’organisation dans la page [gérer les applications](manage-apps.md) . S’il s’agit de nouvelles équipes et de la mise en route, par défaut, toutes les applications sont autorisées dans la stratégie globale. Cela inclut les applications publiées par Microsoft, par des tiers et par votre organisation.
 
@@ -82,52 +82,7 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifi
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>Attribuer une stratégie d’autorisation d’application personnalisée aux utilisateurs
 
-Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à un ou plusieurs utilisateurs ou au module PowerShell Skype entreprise pour attribuer une stratégie personnalisée aux utilisateurs d’un groupe, par exemple tous les utilisateurs d’un groupe de sécurité ou d’un groupe de distribution.
-
-### <a name="assign-a-custom-app-permission-policy-to-users"></a>Attribuer une stratégie d’autorisation d’application personnalisée aux utilisateurs
-
-Pour attribuer une stratégie à un utilisateur :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
-2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
-3. Sous **stratégie d’autorisation d’application**, sélectionnez la stratégie d’autorisation d’application que vous voulez attribuer, puis cliquez sur **appliquer**.
-
-Pour affecter une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à stratégies d’autorisations des **applications teams**  >  **Permission policies**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
-
-### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>Assigner une stratégie d’autorisation d’application personnalisée aux utilisateurs d’un groupe
-
-Il est possible que vous souhaitiez affecter une stratégie d’autorisation d’application personnalisée à plusieurs utilisateurs déjà identifiés. Par exemple, vous souhaiterez probablement affecter une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité. Pour cela, vous devez vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise. Pour plus d’informations sur l’utilisation de PowerShell pour gérer Teams, voir [vue d’ensemble de teams PowerShell](teams-powershell-overview.md).
-
-Dans cet exemple, nous affectons une stratégie d’autorisations d’application personnalisée appelée stratégie d’autorisation d’application pour tous les utilisateurs du groupe de projets RH de contoso Pharmaceuticals.  
-
-> [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenez la GroupObjectId du groupe en particulier.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-Obtenez les membres du groupe spécifié.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Attribuez à tous les utilisateurs du groupe une stratégie d’autorisation d’application particulière. Dans cet exemple, il s’agit de la stratégie d’autorisation d’application HR.
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
-``` 
-En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="app-permission-policies-for-gcc"></a>Stratégies d’autorisation d’application pour GCC
 
@@ -196,5 +151,6 @@ Pour les stratégies d’autorisation d’application attribuées à des utilisa
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
-- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

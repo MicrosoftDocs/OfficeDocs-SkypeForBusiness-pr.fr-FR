@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de teams au sein de votre organisation.
-ms.openlocfilehash: 67b5abef6cdbdab9a127dd2957c2fdfefbaf2927
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 41466640f33769a64ce14d5d3dc47959c876a5bc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691420"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938463"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’identification d’appelant dans Microsoft teams
 
@@ -33,9 +33,7 @@ En tant qu’administrateur, vous pouvez utiliser les stratégies d’identifica
 
 Par exemple, lorsque les utilisateurs effectuent un appel, vous pouvez modifier l’identification de l’appelant pour afficher le numéro de téléphone principal de votre organisation à la place des numéros de téléphone des utilisateurs.
 
-Vous gérez les stratégies d’identification de l' **Voice**appelant en accédant à  >  **stratégies d’identification** de l’appelant vocal dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer à des utilisateurs. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
-
-Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Si un utilisateur dispose d’une stratégie personnalisée, cette politique s’applique à l’utilisateur. Si un utilisateur ne reçoit pas de stratégie personnalisée, la politique globale s’applique à l’utilisateur.
+Vous gérez les stratégies d’identification de l' **Voice**appelant en accédant à  >  **stratégies d’identification** de l’appelant vocal dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
 ## <a name="create-a-custom-caller-id-policy"></a>Créer une stratégie d’ID d’appelant personnalisée
 
@@ -67,54 +65,10 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>Attribuer une stratégie d’ID d’appelant personnalisée aux utilisateurs
 
-Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à un ou plusieurs utilisateurs ou au module PowerShell Skype entreprise et attribuer une stratégie personnalisée aux utilisateurs d’un groupe, tels qu’un groupe de sécurité ou un groupe de distribution.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>Assigner une stratégie d’ID de ligne d’appelant personnalisée aux utilisateurs
+## <a name="related-topics"></a>Sujets associés
 
-Pour attribuer une stratégie à un utilisateur :
+[Nouveau-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **stratégie d’identification**de l’appelant, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
-
-Pour affecter une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Accédez au **Centre d’administration Microsoft teams**  >  **Voice**  >  **Caller ID policies**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
-
-### <a name="assign-a-custom-caller-id-policy-to-users-in-a-group"></a>Assigner une stratégie d’ID d’appelant personnalisée aux utilisateurs d’un groupe
-
-Vous pouvez assigner une stratégie personnalisée à plusieurs utilisateurs que vous avez déjà identifiés. Par exemple, vous souhaiterez probablement affecter une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité. Pour cela, vous devez vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise. Pour plus d’informations sur l’utilisation de PowerShell pour gérer Teams, voir [vue d’ensemble de teams PowerShell](teams-powershell-overview.md).
-
-Dans cet exemple, nous affectons une stratégie de capot d’appelant personnalisé appelée stratégie d’ID d’appelant à tous les utilisateurs du groupe de support technique contoso.  
-
-> [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenez la GroupObjectId du groupe en particulier.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Support"
-```
-Obtenez les membres du groupe spécifié.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Attribuez à tous les utilisateurs du groupe une stratégie d’ID d’appelant particulière. Dans cet exemple, la stratégie d’ID d’appelant est prise en charge.
-```PowerShell
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
-``` 
-En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
-
- ## <a name="related-topics"></a>Rubriques connexes
-
-- [Nouveau-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

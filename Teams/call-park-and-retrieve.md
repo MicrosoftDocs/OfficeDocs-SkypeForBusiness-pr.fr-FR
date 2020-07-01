@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: En savoir plus sur l’utilisation du parc d’appels et la récupération pour mettre un appel en attente dans le service équipes du Cloud.
-ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042961"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938533"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -52,11 +52,11 @@ Le parc et la récupération des appels sont actuellement pris en charge par les
 
 | Fonctionnalité | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams | Téléphone IP Skype entreprise |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Parc d’un appel | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
-| Extraire un appel parqué | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
-| Retour de la sonnerie des appels annulé | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
+| Parc d’un appel | Oui  | Oui  | Oui  | Oui  | Oui | Non |
+| Extraire un appel parqué | Oui  | Oui  | Oui  | Oui  | Oui | Non |
+| Retour de la sonnerie des appels annulé | Oui  | Oui  | Oui  | Oui  | Oui | Non |
 
-## <a name="configuring-call-park-and-retrieve"></a>Configuration du parc et de la récupération des appels
+## <a name="configure-call-park-and-retrieve"></a>Configurer le parc d’appels et la récupération
 
 Vous devez être administrateur pour configurer le parc d’appels et la récupération, et la fonctionnalité est désactivée par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parc d’appels. Lorsque vous appliquez la même politique à un ensemble d’utilisateurs, ces derniers peuvent se parcer et récupérer les appels entre eux. Pour configurer le parc d’appels pour les utilisateurs et créer des groupes d’utilisateurs de parc d’appels, suivez la procédure [assigner une stratégie de parc d’appels](#assign-a-call-park-policy) ci-dessous.
 
@@ -64,33 +64,35 @@ Pour plus d’informations sur l’utilisation de la fonctionnalité de parc et 
 
 ### <a name="enable-a-call-park-policy"></a>Activer une stratégie de parc d’appels
 
-Pour activer une stratégie de parc d’appels, procédez comme suit :
-
-1. Accédez**Voice** > **Call park policies**au > Centre d' **administration Microsoft teams**.
-2. Sélectionnez **nouvelle stratégie**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies de parc d’appels**vocaux.
+2. Cliquez sur **Ajouter**.
 3. Attribuez un nom à la stratégie, puis basculez **autoriser le parc d’appels** sur **activé**.
 4. Sélectionnez **Save (enregistrer**).
 
+#### <a name="using-powershell"></a>Utiliser PowerShell
+
+Voir [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps).
+
+### <a name="edit-a-call-park-policy"></a>Modifier une stratégie de parc d’appels
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **stratégies de parc d’appels**vocaux.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
+3. Activez ou **désactivez** l’option autoriser **le** **parc d’appels** .
+4. Cliquez sur **Enregistrer**.
+
+#### <a name="using-powershell"></a>Utiliser PowerShell
+
+Voir [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps). Par exemple, pour modifier le paramètre par défaut, exécutez la commande suivante :
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
+
 ### <a name="assign-a-call-park-policy"></a>Assigner une stratégie de parc d’appels
 
-Pour attribuer une stratégie de parc d’appels à un ou plusieurs utilisateurs, procédez comme suit :
-
-1. Accédez**Voice** > **Call park policies**au > Centre d' **administration Microsoft teams**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **Enregistrer**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurer le parc d’appels et récupérer avec PowerShell
-
-Utilisez l’applet de cmdlet PowerShell [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) pour créer une stratégie de parc d’appels.
-
-Utilisez l’applet de passe PowerShell [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) pour accorder une stratégie de parc d’appels.
-
-Vous pouvez modifier le paramètre par défaut en utilisant [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) comme suit :
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+Voir aussi [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps).
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -105,6 +107,8 @@ Si un utilisateur tente de récupérer un appel et échoue, vérifiez les points
 - Mode île : le parc d’appels et la récupération ne sont pas disponibles en mode îlot d’équipe.
 - L’appel a déjà été récupéré ou arrêté.
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="related-topics"></a>Sujets associés
 
-[Parcez un appel dans teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+[Park a Call en teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

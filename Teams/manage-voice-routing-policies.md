@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment créer et gérer des stratégies de routage de messagerie vocale dans Microsoft Teams.
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350188"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938125"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Gérer les stratégies de routage de messagerie vocale dans Microsoft teams
 
@@ -65,35 +65,16 @@ Voir [Set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/modu
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>Assigner une stratégie de routage vocale personnalisée aux utilisateurs
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Pour attribuer une stratégie à un utilisateur :
-
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **stratégie de routage**de la voix, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
-
-Pour attribuer une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies de routage vocal**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
-
-### <a name="using-powershell"></a>Utiliser PowerShell
-
-Voir [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Voir aussi [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Configurer le routage de la voix pour le routage direct](direct-routing-voice-routing.md)
-- [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
-- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Présentation de Teams PowerShell](teams-powershell-overview.md)
+
+[Configurer le routage de la voix pour le routage direct](direct-routing-voice-routing.md)
+
+[Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

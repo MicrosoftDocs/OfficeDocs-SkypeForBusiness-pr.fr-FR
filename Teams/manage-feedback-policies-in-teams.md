@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637953"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938483"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -46,11 +46,11 @@ Les utilisateurs peuvent également évaluer leur connaissance de Team et nous e
 
 En tant qu’administrateur, vous pouvez contrôler si les utilisateurs de votre organisation peuvent envoyer des commentaires sur teams à Microsoft par le biais de **Commentaires** et s’ils reçoivent l’enquête. Par défaut, tous les utilisateurs de votre organisation disposent automatiquement de la stratégie globale (par défaut de l’organisation par défaut), et la fonctionnalité d' **attribution de commentaires** est activée dans la stratégie. L’exception est teams pour l’éducation, qui est activée pour les enseignants et désactivée pour les étudiants.
 
-Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Si un utilisateur dispose d’une stratégie personnalisée, cette politique s’applique à l’utilisateur. Si un utilisateur ne reçoit pas de stratégie personnalisée, la politique globale s’applique à l’utilisateur. Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.
+Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Après avoir modifié la stratégie globale ou affecté une stratégie personnalisée, il est possible que les modifications soient prises en compte.
 
 Par exemple, supposons que vous souhaitiez permettre à tous les utilisateurs de votre organisation d’envoyer des commentaires par le biais de **Commentaires** et de recevoir des enquêtes à l’exception des nouvelles recrues dans la formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver les deux fonctions et les attribuer aux nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la politique globale avec les fonctionnalités activées.  
 
-Vous pouvez utiliser l’applet **de nouvelle applet de nouveau-CsTeamsFeedbackPolicy** , * [disponible ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, pour créer une stratégie personnalisée et l’applet de passe **Grant-CsTeamsFeedbackPolicy** pour l’attribuer à un ou plusieurs utilisateurs ou groupes d’utilisateurs, par exemple un groupe de sécurité ou un groupe de distribution.
+Vous pouvez gérer les stratégies de commentaires à l’aide de PowerShell. Utilisez l’applet **de nouvelle applet de nouveau-CsTeamsFeedbackPolicy** , *qui se [trouve ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, pour créer une stratégie personnalisée et l’applet de passe **Grant-CsTeamsFeedbackPolicy** pour l’attribuer à un ou plusieurs utilisateurs ou groupes d’utilisateurs, comme un groupe de sécurité ou un groupe de distribution.
 
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
@@ -65,35 +65,17 @@ Dans cet exemple, nous créons une stratégie de commentaires appelée nouvelle 
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a>Assigner une stratégie de commentaires personnalisée
+## <a name="assign-a-custom-feedback-policy-to-users"></a>Assigner une stratégie de commentaires personnalisée aux utilisateurs
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a>Assigner une stratégie de commentaires personnalisée à un utilisateur
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 Dans cet exemple, nous affectons une stratégie personnalisée nommée nouvelle stratégie de commentaires d’embauche à un utilisateur nommé User1.
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>Assigner une stratégie de commentaires personnalisée aux utilisateurs d’un groupe
 
-Vous pouvez assigner une stratégie de commentaires personnalisée à plusieurs utilisateurs que vous avez déjà identifiés. Par exemple, vous souhaiterez probablement affecter une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité.
-
-Dans cet exemple, nous affectons un exemple de stratégie de commentaires personnalisé appelé nouvelle stratégie de commentaires d’embauche à tous les utilisateurs du groupe contoso New HiRes.  
-
-Obtenez la GroupObjectId du groupe en particulier.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-Obtenez les membres du groupe spécifié.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Attribuez à tous les utilisateurs du groupe une stratégie de commentaires particulière. Dans cet exemple, il s’agit de la nouvelle politique de commentaires sur les employés.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
-
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
+- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

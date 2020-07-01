@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Découvrez les fonctionnalités de soins de santé qui incluent la coordination des soins, la messagerie sécurisée, l’intégration de Telehealth, l’intégration DMI et l’intégration du système de travail terrain.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905736"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938363"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -109,10 +109,4 @@ En outre, en ce qui concerne la sécurisation de la messagerie, c’est la possi
 
 ## <a name="firstline-worker-integration"></a>Intégration du travailleur terrain
 
-Microsoft teams est intégré au Worker terrain, qui peut être utilisé pour coordonner les fonctions de personnel de décalage, etc.
-
- Consultez les articles suivants :
-
-- [Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft teams est intégré au Worker terrain, qui peut être utilisé pour coordonner les fonctions de personnel de décalage, etc. Voir [gérer l’application Shifts pour votre organisation dans Microsoft teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

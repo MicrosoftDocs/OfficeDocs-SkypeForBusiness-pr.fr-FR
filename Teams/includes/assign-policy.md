@@ -1,0 +1,3 @@
+Vous pouvez affecter une stratégie directement aux utilisateurs, individuellement ou à la mise à l’échelle via une affectation de lot (si elle est prise en charge pour le type de stratégie), ou à un groupe dont les utilisateurs sont membres (s’ils sont pris en charge pour le type de stratégie). 
+
+Pour plus d’informations sur les différentes façons d’affecter des stratégies aux utilisateurs, voir [attribuer des stratégies à vos utilisateurs dans teams](../assign-policies.md).

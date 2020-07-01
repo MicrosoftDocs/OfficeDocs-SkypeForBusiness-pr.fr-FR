@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Égypte, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140433"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938423"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrictions de numérotation gratuit en Égypte
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140433"
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Non  <br/> |
 |Format (s) de numérotation  <br/> |0800-XXX-XXXX  <br/> |
 |Code ISO pays/région  <br/> |EG  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "43140433"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

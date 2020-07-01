@@ -24,20 +24,20 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889973"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938143"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft teams
 
 En tant qu’administrateur, vous pouvez utiliser les stratégies d’équipe de Microsoft teams pour contrôler ce que peuvent faire les utilisateurs de votre organisation dans les équipes et les canaux. Par exemple, vous pouvez définir si les utilisateurs sont autorisés à découvrir des équipes privées dans les résultats de la recherche et dans la Galerie d’équipes et si les utilisateurs sont autorisés à créer des canaux privés.
 
-Pour gérer les stratégies d’équipe, **accédez à stratégies teams teams**  >  **Teams policies** dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer à des utilisateurs. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
+Pour gérer les stratégies d’équipe, **accédez à stratégies teams teams**  >  **Teams policies** dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
-Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Si un utilisateur dispose d’une stratégie personnalisée, cette politique s’applique à l’utilisateur. Si un utilisateur ne reçoit pas de stratégie personnalisée, la politique globale s’applique à l’utilisateur. Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.
+Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.
 
 ## <a name="create-a-custom-teams-policy"></a>Créer une stratégie d’équipe personnalisée
 
@@ -63,55 +63,12 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 ## <a name="assign-a-custom-teams-policy-to-users"></a>Attribuer une stratégie d’équipe personnalisée aux utilisateurs
 
-Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à un ou plusieurs utilisateurs ou au module PowerShell Skype entreprise pour attribuer une stratégie personnalisée à des groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution.
-
-### <a name="assign-a-custom-teams-policy-to-users"></a>Attribuer une stratégie d’équipe personnalisée aux utilisateurs
-
-Pour attribuer une stratégie à un utilisateur :
-
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **stratégies d’équipe**, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **Enregistrer**.
-
-Pour affecter une stratégie à plusieurs utilisateurs à la fois :
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
-2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.  
-
-Vous pouvez également effectuer les opérations suivantes :
-
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
-
-### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>Attribuer une stratégie d’équipe personnalisée aux utilisateurs d’un groupe
-
-Vous pouvez assigner une stratégie d’équipe personnalisée à plusieurs utilisateurs que vous avez déjà identifiés. Par exemple, vous souhaiterez probablement affecter une stratégie à l’ensemble des utilisateurs d’un groupe de sécurité. Pour cela, vous devez vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise. Pour plus d’informations sur l’utilisation de PowerShell pour gérer Teams, voir [vue d’ensemble de teams PowerShell](teams-powershell-overview.md).
-
-Dans cet exemple, nous affectons une stratégie équipes appelée politique équipes marketing à tous les utilisateurs du groupe marketing de contoso.  
-
-> [!NOTE]
-> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenez la GroupObjectId du groupe en particulier.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Marketing"
-```
-Obtenez les membres du groupe spécifié.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Attribuez à tous les utilisateurs du groupe une stratégie d’équipe particulière. Dans cet exemple, il s’agit de la stratégie d’équipes marketing.
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
-``` 
-En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
-- [Canaux privés dans teams](private-channels.md)
-- [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
+
+[Canaux privés dans teams](private-channels.md)
+
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951059"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938193"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemple de script PowerShell : créer et attribuer une stratégie de messagerie
 
@@ -62,4 +62,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Vous pouvez également utiliser une affectation de stratégie de batch pour attribuer une stratégie de messagerie à des groupes de personnes importants. Pour plus d’informations [, voir attribuer des stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](../batch-policy-assignment-edu.md) et [affecter des stratégies à vos utilisateurs dans teams](../assign-policies.md).
+> Vous pouvez également attribuer une stratégie de messagerie directement aux utilisateurs à l’échelle à l’aide d’une affectation de stratégie de lot ou d’un groupe dont les utilisateurs sont membres. Pour plus d’informations [, voir attribuer des stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](../batch-policy-assignment-edu.md) et [affecter des stratégies à vos utilisateurs dans teams](../assign-policies.md).
