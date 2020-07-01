@@ -780,6 +780,7 @@
 
 ## Appareils pris en charge
 ### [Gérer vos périphériques dans Teams](devices/device-management.md)
+### [Mettre à niveau vos périphériques à distance](devices/remote-update.md)
 ### [Téléphones pour Teams](devices/phones-for-teams.md)
 ### [Périphériques audio et vidéo USB](devices/usb-devices.md)
 ### [Déployer des barres de collaboration pour Microsoft Teams](devices/collab-bar-deploy.md)
@@ -790,8 +791,10 @@
 
 ## PowerShell Teams
 ### [Vue d’ensemble](teams-powershell-overview.md)
+### [Installer PowerShell Teams](teams-powershell-install.md)
+### [Gérer Teams avec PowerShell Teams](teams-powershell-managing-teams.md)
+### [Notes de publication de PowerShell Teams](teams-powershell-release-notes.md)
 ### [Référence cmdlet pour Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Installer la version précommerciale du module PowerShell de Teams](install-prerelease-teams-powershell-module.md)
 
 ## [Documentation pour les développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Obtenir de l’aide dans Teams](get-help-in-microsoft-teams.md)
