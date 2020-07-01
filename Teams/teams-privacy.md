@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579570"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938493"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Confidentialité et Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft ne divulguera pas les données personnelles, sauf :
 1. comme décrit dans les Conditions d’utilisation du service en ligne (par exemple, l’utilisation de sous-traitants autorisés pour fournir certains éléments de services);
 1. lorsque la loi l’exige.
 
-Si les forces de l’ordre contactent Microsoft avec une demande, Microsoft tentera de rediriger les autorités de police afin que la demande de données personnelle soit effectuée directement auprès du client. Si nous sommes contraints de divulguer des données personnelles aux autorités de police, Microsoft informera le client dans les plus brefs délais et fournira une copie de la demande, à moins que la loi ne l’interdise. Pour plus d’informations sur les données que nous communiquons en réponse aux demandes émanant des forces de l’ordre et d’autres agences gouvernementales, consultez notre [Rapport sur les demandes des forces de l’ordre](https://www.microsoft.com/about/corporate-responsibility/lerr/).
+Si les forces de l’ordre contactent Microsoft avec une demande, Microsoft tentera de rediriger les autorités de police afin que la demande de données personnelle soit effectuée directement auprès du client. Si nous sommes contraints de divulguer des données personnelles aux autorités de police, Microsoft informera le client dans les plus brefs délais et fournira une copie de la demande, à moins que la loi ne l’interdise. Pour plus d’informations sur les données que nous communiquons en réponse aux demandes émanant des forces de l’ordre et d’autres agences gouvernementales, consultez notre [Rapport sur les demandes des forces de l’ordre](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
 Le [Guide sur la sécurité Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) contient des informations supplémentaires sur nos normes de conformité.
 

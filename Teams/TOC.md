@@ -131,7 +131,6 @@
 ## [Démarrage rapide : réunions et événements en direct](quick-start-meetings-live-events.md)
 ## [Planifier votre déploiement](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
-## [Fonctionnalités de présentateur et de participants dans une réunion Teams](roles-in-meetings.md)
 ## [Gérer les stratégies de réunion](meeting-policies-in-teams.md)
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ## [Applications de réservations et visites virtuelles](bookings-app-admin.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Exécuter un rapport pour afficher l’utilisation effective de StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Planifier le déplacement de vos équipes de StaffHub vers Shifts dans Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Exemple de communication par courrier électronique aux utilisateurs](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHub n’existe plus](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Gérer l’application Shifts pour votre organisation dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams pour la santé publique

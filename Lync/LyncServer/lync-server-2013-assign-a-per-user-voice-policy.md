@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134390"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943927"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Affecter une stratégie de voix par utilisateur dans Lync Server 2013
 
@@ -40,29 +40,29 @@ Les stratégies de voix globale et de niveau site sont automatiquement attribué
     
 
     > [!NOTE]  
-    > Les <STRONG> &lt;paramètres&gt; automatiques</STRONG> appliquent les paramètres de stratégie globale ou de serveur par défaut.
+    > Les paramètres <STRONG> &lt; automatiques &gt; </STRONG> appliquent les paramètres de stratégie globale ou de serveur par défaut.
 
 
 
-## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie de voix par utilisateur à l’aide d’applets de commande Windows PowerShell
+## <a name="assign-per-user-voice-policies"></a>Affecter des stratégies de voix par utilisateur
 
-Vous pouvez affecter des stratégies de voix par utilisateur à l’aide de Windows PowerShell et de la cmdlet **Grant-CsVoicePolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez affecter des stratégies de voix par utilisateur à l’aide de Windows PowerShell et de la cmdlet **Grant-CsVoicePolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour en savoir plus sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, lisez ce billet de blog Windows PowerShell Lync Server : [démarrage rapide : gestion de Microsoft Lync server 2010 à l’aide de PowerShell à distance](https://go.microsoft.com/fwlink/p/?linkId=255876).
 
-## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>Pour affecter une stratégie de voix par utilisateur à un seul utilisateur
+### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>Affecter une stratégie de voix par utilisateur à un seul utilisateur
 
   - La commande suivante assigne la stratégie de voix par utilisateur RedmondVoicePolicy à l’utilisateur Ken Myer.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>Pour affecter une stratégie de voix par utilisateur à plusieurs utilisateurs
+## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>Affecter une stratégie de voix par utilisateur à plusieurs utilisateurs
 
   - Cette commande assigne la stratégie de voix par utilisateur FinanceVoicePolicy à tous les utilisateurs qui ont des comptes dans l’unité d’organisation Finance dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, reportez-vous à la documentation de la cmdlet [Get-Csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## <a name="to-unassign-a-per-user-voice-policy"></a>Pour annuler l’affectation d’une stratégie de voix par utilisateur
+## <a name="unassign-a-per-user-voice-policy"></a>Annuler l’affectation d’une stratégie de voix par utilisateur
 
-  - La commande suivante annule l’assignation d’une stratégie de voix par utilisateur précédemment affectée à Ken Myer. Lorsque cette stratégie par utilisateur n’est plus affectée à Ken Myer, celui-ci est automatiquement géré par la stratégie globale ou, le cas échéant, par la stratégie de site locale associée. La stratégie de site est prioritaire sur la stratégie globale.
+  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
