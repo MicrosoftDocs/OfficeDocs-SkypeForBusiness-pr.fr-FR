@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Utilisez les modèles prédéfinis de Microsoft teams pour créer rapidement et facilement des équipes pour les petites et moyennes entreprises.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757055"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944027"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Découvrir les modèles teams pour les petites et moyennes entreprises
 
@@ -30,7 +30,7 @@ Les modèles Microsoft teams vous permettent de créer rapidement et facilement 
 
 Pour les petites et moyennes entreprises, les modèles peuvent être particulièrement puissants, car ils permettent aux administrateurs de déployer rapidement des équipes au sein de leur organisation. Les modèles permettent également d’orienter les utilisateurs et de commencer à utiliser les équipes efficacement. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation.
 
-Pour l’instant, nous offrons trois modèles SMB de première partie que vous pouvez utiliser dans diverses situations. Tous les modèles créent une équipe *privée* . Une fois que vous avez créé les équipes et que vous êtes prêt à déployer votre organisation, vous pouvez définir le *niveau* de confidentialité en fonction de l’organisation ou du *public*, selon le cas. Pour en savoir plus sur les modèles d’équipe en général, voir [prendre en main les modèles](get-started-with-teams-templates.md)Teams.
+Pour l’instant, nous proposons trois modèles SMB de première partie que vous pouvez utiliser dans diverses situations. Tous les modèles créent une équipe *privée* . Une fois que vous avez créé les équipes et que vous êtes prêt à déployer votre organisation, vous pouvez définir le *niveau* de confidentialité en fonction de l’organisation ou du *public*, selon le cas. Pour en savoir plus sur les modèles d’équipe en général, voir [prendre en main les modèles](get-started-with-teams-templates.md)Teams.
 
 ## <a name="company-wide-template"></a>Modèle à l’échelle de l’entreprise
 Le modèle à l’échelle de l’entreprise est destiné aux communications et à la collaboration pertinentes pour l’ensemble de la société. Vous pouvez utiliser le canal général pour les annonces à l’échelle de l’entreprise, les actualités du secteur ou les billets d’encadrement. Le canal de ressources humaines est l’endroit idéal pour consolider toutes les activités liées aux ressources humaines, telles que les billets de poste, l’intégration de nouveaux employés, la formation et le développement. Le canal amusant est une plate-forme de mise en place pour toutes les publications aléatoires et amusantes.
@@ -174,7 +174,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 - [Créer une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en Preview)

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374202"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012190"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -34,9 +34,9 @@ Il existe trois types de fichiers journaux générés par le client et qui peuve
 
 -   Journaux du bureau
 
-Lors de la création d'une demande de support auprès du Support Microsoft, l'ingénieur de support sollicitera les journaux de débogage. Préparer ces journaux avant de créer la demande de support permet à Microsoft de résoudre rapidement le problème. Les journaux des médias ou du bureau sont requis uniquement sur demande de Microsoft.
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
 
-Le tableau suivant présente les différents clients et les journaux associés. Les fichiers journaux sont stockés dans des emplacements spécifiques au client et au système d'exploitation.
+The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
 
 
 |Client |Debug|Bureau|Media|
@@ -44,6 +44,7 @@ Le tableau suivant présente les différents clients et les journaux associés. 
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,18 +73,24 @@ Les journaux de débogage sont générés à l'aide des méthodes propres aux sy
 
       Raccourci clavier : Option + Commande + Maj t+1
 
+-   *
+
+      Raccourci clavier : Ctrl + Alt + Maj + 1
+
 Les journaux de débogage sont automatiquement téléchargés dans les dossiers suivants.
 
 -   Windows : %userprofile%\\Téléchargements
 
 -   Mac OSX : Téléchargements
 
+-   Linux : ~/downloads
+
 -   Navigateur : Vous serez invité à enregistrer le journal de débogage dans l'emplacement d'enregistrement par défaut.
 
 <a name="media-logs"></a>Journaux des médias
 ---------------------------
 
-Les journaux des médias contiennent des données de diagnostic sur les appels audio, vidéo et le partage d'écran. Ils sont requis pour les cas de support uniquement sur demande et seul Microsoft peut les lire. Le tableau suivant présente l'emplacement des journaux.
+Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
 
 
 |Client |Lieu |
@@ -93,23 +100,30 @@ Les journaux des médias contiennent des données de diagnostic sur les appels a
 |            |%appdata%\Microsoft\Teams\media-stack \\ *. etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/teams/Media-Stack/*. blog         |
 |            |~/Library/Application Support/Microsoft/teams/skylib/*. blog         |
+|Linux       |~/.config/Microsoft/Microsoft teams/Media-Stack/*. blog         |
+|            |~/.config/Microsoft/Microsoft teams/skylib/*. blog         |
 
 
 
 <a name="desktop-logs"></a>Journaux du bureau
 ---------------------
 
-Les journaux du bureau, également appelés journaux de programme d'amorçage, contiennent des données d'événements survenant entre le client de bureau et le navigateur. À l'instar des journaux des médias, ces journaux sont requis uniquement sur demande de Microsoft. Il s'agit de journaux texte qui peuvent être affichés à l'aide d'un éditeur de texte et lus de haut en bas.
+Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
 
 Windows :
 
-1.  Cliquez avec le bouton droit sur **l’icône Microsoft teams dans** votre barre d’état système, sélectionnez **obtenir les journaux**
+1.  Cliquez avec le bouton droit sur l’icône **Microsoft teams** dans votre barre d’état système, sélectionnez **obtenir les journaux**
 
 Mac OsX :
 
 1.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
 
+*
+
+1.  Cliquez sur l’icône **Microsoft teams** dans votre barre d’état système, puis sélectionnez **obtenir les journaux**
+
 |Client |Lieu |
 |---------|---------|
 |Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft équipes/logs.txt         |

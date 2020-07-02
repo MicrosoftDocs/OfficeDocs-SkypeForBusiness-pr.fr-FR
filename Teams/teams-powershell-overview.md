@@ -1,133 +1,69 @@
 ---
-title: Vue d’ensemble de PowerShell teams
+title: Vue d’ensemble de Microsoft teams PowerShell
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
-ms.date: 09/06/2018
+author: brandber
+ms.author: brandber
+manager: kojiko
+ms.date: 06/30/2020
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-search.appverid: MET150
-f1.keywords:
-- NOCSH
-description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams, y compris le mode de structuration des applets de commande PowerShell.
+description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5385430c7db8aab0adf1efbaec546134e9adf388
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690950"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943987"
 ---
-# <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell teams
+# <a name="microsoft-teams-powershell-overview"></a>Vue d’ensemble de Microsoft teams PowerShell
 
-Microsoft teams est doté d’un ensemble d’outils riches pour gérer le produit par le biais du centre d’administration Microsoft Teams, des contrôles PowerShell et des API de graphique. Ce guide décrit la structure de nos cmdlets PowerShell destinées aux administrateurs informatiques et fournit des pointeurs vers d’autres documents. Notez que les différents rôles d’administrateur d’équipes ont accès à différentes cmdlets. Pour plus d’informations, reportez-vous [à utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](using-admin-roles.md).
+Microsoft teams PowerShell est un ensemble d’applets de commande qui vous permet de gérer teams directement à partir de la ligne de commande PowerShell. Écrit en .NET standard, teams PowerShell fonctionne sur PowerShell 5,1 sur Windows, PowerShell 6. x et versions ultérieures sur toutes les plateformes, dont Azure Shell.
 
-## <a name="which-modules-do-you-need-to-use"></a>Quels modules avez-vous besoin d’utiliser ?
+Pour pouvoir commencer à utiliser PowerShell, vous devez l' [installer](teams-powershell-install.md). 
 
-Les contrôles PowerShell pour la gestion d’équipes se trouvent dans deux modules PowerShell différents : 
-- [Module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) : le module PowerShell teams contient toutes les applets de applet nécessaires pour créer et gérer Teams.  
-- [Module PowerShell Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366): le module PowerShell Skype entreprise contient les applets de décision permettant de gérer les stratégies, configurations et autres outils Teams. 
+> [!WARNING]
+> Il existe des problèmes connus dans PowerShell 7 et teams PowerShell. Nous vous recommandons d’utiliser PowerShell 5,1 jusqu’à la résolution des problèmes.
 
-La documentation de référence relative aux contrôles PowerShell indique le module qui contient l’applet de commande que vous étudiez. (Les deux modules seront combinés.)
-
-## <a name="what-can-each-admin-role-do"></a>Que peut faire chaque rôle d’administrateur ?
-
-Lire [utiliser les rôles d’administrateur de Microsoft teams pour gérer les équipes](using-admin-roles.md) et comprendre les applets de applet de cmdlet PowerShell qu’ils peuvent utiliser.
-
-## <a name="creating-and-managing-teams-via-powershell"></a>Création et gestion d’équipes via PowerShell
-
-Les applets de développement pour la création et la gestion d’équipes se trouvent dans le [module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
-
-Les équipes sont régularisées par des groupes Microsoft 365, de sorte que lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de construction fourni pour l’utilisation de l’équipe principale et de ses paramètres ( ``new-team`` , ``get-team`` ,, ``set-team`` ), de la gestion des utilisateurs d’équipe ( ``add-teamuser`` , ``remove-teamuser`` ), ainsi que des cmdlets de gestion des canaux de l’équipe ( ``new-teamchannel`` ``remove-teamchannel`` ). Toutes ces applets de action peuvent être exécutées en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes membre ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous pouvez agir sur toutes les équipes de votre organisation.
-
-> Le **GroupID** utilisé dans les applets de applet de module Microsoft teams PowerShell est le même que la propriété **Identity** renvoyée par ``Get-UnifiedGroup`` dans le module Exchange PowerShell.
-
-### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Différences entre l’aperçu et le module Microsoft teams PowerShell disponible en général
-
-Lorsque nous avons distribué notre version générale de notre module PowerShell, quelques cmdlets étaient restées dans le module bêta uniquement, comme décrit dans le tableau ci-dessous.
-
-| Applet de commande | Disponible dans Preview | Disponible dans 1,0 |
-|------- | -------------------- | ------------------------------ |
-| Add-TeamUser | Oui | Oui |
-| Connexion-MicrosoftTeams | Oui | Oui |
-| Déconnexion-MicrosoftTeams | Oui | Oui |
-| Obtenir une équipe | Oui | Oui |
-| Get-TeamChannel | Oui | Oui |
-| Get-TeamFunSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Get-TeamGuestSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Get-TeamHelp | Oui | Oui |
-| Get-TeamMemberSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Get-TeamMessagingSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Get-TeamUser | Oui | Oui |
-| Nouvelle équipe | Oui | Oui |
-| Nouveau-TeamChannel | Oui | Oui |
-| Supprimer-équipe | Oui | Oui |
-| Remove-TeamChannel | Oui | Oui |
-| Remove-TeamUser | Oui | Oui |
-| Ensemble d’équipes | Oui | Oui |
-| Set-TeamChannel | Oui | Oui |
-| Set-TeamFunSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Set-TeamGuestSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Set-TeamMemberSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Set-TeamMessagingSettings | Antérieure à la version de 1,0 uniquement | Non |
-| Set-TeamPicture | Oui | Non, planifié |
+## <a name="releases"></a>Versions
 
 
-## <a name="managing-policies-via-powershell"></a>Gestion des stratégies via PowerShell
+PowerShell teams est disponible dans la [Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) en deux types de publication.
 
-Utilisez les applets de décision dans le [module de cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366) pour gérer les stratégies d’utilisateurs individuels.
+- **Disponibilité générale (GA)**: cmdlets prêts à l’emploi, mises à jour mensuelles.
+
+- Préversion **publique**: accès en avant-première aux fonctions. Est-il possible de mettre à jour plus fréquemment que la disponibilité.
+
+Pour plus d’informations sur les ajouts et améliorations de fonctionnalités pour les deux versions, consultez les [notes de publication de teams PowerShell](teams-powershell-release-notes.md).
+
+
+## <a name="manage-teams-with-powershell"></a>Gestion des équipes avec PowerShell
+
+Vous utiliserez les deux modules PowerShell suivants pour gérer pleinement teams :
+
+- [Module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/): le module PowerShell teams contient des cmdlets de gestion des équipes, des discussions et des canaux.
+
+- [Module PowerShell Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366): le module PowerShell Skype entreprise contient les applets de applet permettant de gérer les fonctionnalités de réunion, de système téléphonique et de stratégie.
+
+Pour consulter un guide complet de la gestion d’équipes à l’aide de ces modules, voir [gérer les équipes grâce aux équipes PowerShell](teams-powershell-managing-teams.md).
 
 > [!NOTE]
-> Les applets de connexion seront disponibles dans votre session PowerShell une fois que vous vous connectez à Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Microsoft 365 ou PowerShell Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> La [version d’évaluation publique PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) la plus récente est intégrée au connecteur Skype entreprise Online pour proposer un module unique pour la gestion d’teams PowerShell.
 
-Une stratégie est un ensemble de paramètres qui peuvent être appliqués de façon granulaire aux utilisateurs individuels. Chaque type de stratégie dispose de son propre ensemble d’applets de jeu permettant de créer, d’afficher, de supprimer et de mettre à jour les stratégies, puis de les affecter aux utilisateurs. La structure générale est la suivante :
+## <a name="related-topics"></a>Sujets associés
 
-- OBTENIR des commandes (par exemple, ``Get-CsTeamsMeetingPolicy`` ) : renvoi des documents de stratégie que vous pouvez affecter au sein de votre organisation, les stratégies créées par Microsoft à utiliser et les stratégies personnalisées que vous avez créées.
-   > Si vous souhaitez rechercher uniquement les stratégies personnalisées que vous avez créées au sein de votre organisation, vous pouvez utiliser ``-Filter "tag:*"`` .
+[Installation de PowerShell teams](teams-powershell-install.md)
 
-- De nouvelles commandes (par exemple, ``New-CsTeamsMeetingPolicy`` ) : vous permettent de créer de nouvelles stratégies pour votre organisation, qui sont ensuite disponibles pour être affectées aux utilisateurs de votre organisation. Toutes les stratégies ne prennent pas en charge la création de stratégies personnalisées. En règle générale, il s’agit de veiller à ce que les stratégies que vous utilisez au sein de votre organisation possèdent une combinaison de paramètres prise en charge.
+[Gestion des équipes avec PowerShell teams](teams-powershell-managing-teams.md)
 
-- Les commandes SET (par exemple, ``Set-CsTeamsMeetingPolicy`` ) : vous permettent de définir des valeurs particulières sur une stratégie donnée. Certaines stratégies n’ont pas de commandes définies disponibles ou contiennent des paramètres qui ne peuvent pas être personnalisés dans la stratégie. Chaque description PowerShell sera appelée quels sont les paramètres qui ne peuvent pas être personnalisés. 
-   > Pour modifier la stratégie qui sera affectée par défaut aux utilisateurs de votre organisation pour lesquels aucune stratégie personnalisée n’est affectée, exécutez ``Set-Cs<PolicyName> -Identity Global`` .
+[Notes de publication teams PowerShell](teams-powershell-release-notes.md)
 
-- SUPPRIMER des commandes (par exemple, ``Remove-CsTeamsMeetingPolicy`` ) : vous pouvez utiliser cette applet de commande pour supprimer une stratégie personnalisée qui a été créée dans votre client. Si vous supprimez une stratégie personnalisée qui a été attribuée à au moins un utilisateur au sein de votre organisation, cet utilisateur sera renvoyé à la stratégie globale.
-   > Vous ne pouvez pas supprimer réellement la politique globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft dans votre organisation, vous pouvez exécuter ``Remove-Cs<PolicyName> -Identity Global`` .
+[Référence sur les applets de passe Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-- Commande d’attribution (par exemple, ``Grant-CsTeamsMeetingPolicy`` ) : vous permet d’affecter une stratégie à un utilisateur particulier.
-   > Pour supprimer une affectation de stratégie personnalisée et permettre à l’utilisateur de revenir à la stratégie par défaut de votre organisation, exécutez ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` .
+[Référence sur les applets de fonction Skype entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 
-> [!TIP]
-> Toutes les stratégies n’autorisent pas la création de stratégies personnalisées, et certaines stratégies ne peuvent pas être personnalisées (de sorte que vous ne pouvez pas définir de valeur personnalisée pendant ``set-`` et ``new-`` ). La documentation de l’applet de connexion spécifique peut faire l’objet d’un appel si des paramètres ne sont pas disponibles pour les clients.
-
-Paramètres courants :
-
-- **Identity**: pour ``Get-`` ,, ``Set-`` ``New-`` et ``Remove-`` , le paramètre **Identity** fera toujours référence à une instance de stratégie spécifique. Pour ``Grant`` le paramètre **Identity** , fait référence à un objet utilisateur spécifique auquel la stratégie est appliquée.
-
-<!--more info here?-->
-
-## <a name="managing-configurations-via-powershell"></a>Gestion des configurations via PowerShell
-
-Les applets de configuration de la gestion de votre configuration se trouvent dans le [module cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366).
-
-Les configurations sont des compartiments des paramètres conservés dans le service qui ne peuvent pas être spécifiés à un niveau utilisateur. Les paramètres s’appliquent toujours à l’ensemble de l’organisation. Votre configuration globale est la seule configuration efficace au sein de votre organisation. Chaque type de configuration est fourni avec deux cmdlets principales :
-
-- ``Get-Cs<ConfigurationName>``(par exemple, ``Get-CsTeamsClientConfiguration`` ) : 
-
-- Définissez les commandes (par exemple, ``Set-CsTeamsClientConfiguration`` ) : définissez les propriétés dans la configuration de ce type. Spécifiez les paramètres que vous voulez modifier.
-   > Vous pouvez faire référence à la configuration que vous modifiez de l’une des deux manières suivantes : en spécifiant-**Identity global**ou en exécutant ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
-
-## <a name="other-powershell-tools"></a>Autres outils PowerShell
-
-Vous trouverez des instructions détaillées sur l’utilisation de tous les contrôles PowerShell pour la gestion de Microsoft teams et de Skype entreprise, notamment la description détaillée des paramètres de chaque stratégie dans les informations de [référence](https://docs.microsoft.com/powershell/teams/?view=teams-ps) sur les applets de commande et les [applets de commande Skype entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
-
-## <a name="learn-more"></a>En savoir plus
-
-- [Référence sur les applets de passe Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Référence sur les applets de fonction Skype entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)
+[Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)

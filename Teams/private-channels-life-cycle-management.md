@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326691"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012290"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
 Vous trouverez ci-dessous les conseils nécessaires pour gérer le cycle de vie des [canaux privés](private-channels.md) au sein de votre organisation.
 
 > [!IMPORTANT]
-> Si vous utilisez les étapes PowerShell de cet article pour gérer des canaux privés, vous devez installer et utiliser la dernière version préliminaire du module PowerShell teams de la Galerie de [tests PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Pour savoir comment installer le module, voir [installer la version précommerciale du module PowerShell teams](install-prerelease-teams-powershell-module.md). La dernière version publique disponible du module PowerShell Teams ne prend pas en charge la gestion des canaux privés.
+> Si vous utilisez les étapes PowerShell de cet article pour gérer des canaux privés, vous devez installer et utiliser le module Team PowerShell public preview de la [Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Pour plus d’informations sur la procédure d’installation du module, voir [installer Microsoft teams PowerShell](teams-powershell-install.md). Le module PowerShell General Availability Teams ne prend pas en charge la gestion des canaux privés.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Définir si les membres d’une équipe peuvent créer des canaux privés
 

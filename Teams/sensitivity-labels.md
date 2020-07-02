@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment définir et utiliser des étiquettes de sensibilité dans Microsoft Teams.
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854116"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012310"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité de Microsoft teams
 
@@ -100,6 +100,10 @@ Le propriétaire d’une équipe peut changer l’étiquette de diffusion et le 
 Vous pouvez spécifier si une équipe créée avec une étiquette spécifique autorise l’accès invité. Les équipes créées avec une étiquette qui ne permet pas l’accès invité ne sont accessibles qu’aux utilisateurs de votre organisation. Les personnes externes à votre organisation ne peuvent pas être ajoutées à l’équipe.
 
 ## <a name="known-issues"></a>Problèmes connus
+
+**Les étiquettes par défaut enfants ne sont pas visibles lors de la création d’une équipe**
+
+Pour l’instant, une étiquette enfant définie comme étiquette par défaut pour Teams ne s’affiche pas en haut de la liste dans la liste déroulante étiquettes de sensibilité dans le modèle de création d’équipe. Les créateurs d’équipe peuvent toujours utiliser la liste déroulante pour appliquer l’étiquette enfant comme solution de contournement.
 
 **Support pour les étiquettes de sensibilité dans le centre d’administration Microsoft teams**
 

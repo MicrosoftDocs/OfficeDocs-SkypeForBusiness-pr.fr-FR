@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres de conférence rendez-vous de Skype entreprise Online, tels que le fournisseur, le numéro payant ou le numéro gratuit par défaut, l’ID de conférence ou le code confidentiel, pour un utilisateur individuel au sein de votre organisation. '
-ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164133"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943847"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gestion des paramètres de conférence audio d’un utilisateur dans Skype entreprise Online
 
 > [!Note]
 > Pour gérer les paramètres d’utilisateur dans Microsoft Teams, voir [gérer les paramètres d’audioconférence pour un utilisateur de Microsoft teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres de l’audioconférence, tels que le fournisseur, le numéro payant ou le numéro gratuit par défaut, l’ID de conférence ou le code confidentiel, pour un utilisateur individuel de votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir [gérer les paramètres d’audioconférence pour ma société](manage-the-audio-conferencing-settings-for-my-organization.md).
+As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
@@ -63,7 +63,7 @@ En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier le
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Gestion des paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
 

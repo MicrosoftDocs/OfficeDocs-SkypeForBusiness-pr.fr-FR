@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321743"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944017"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -116,7 +116,7 @@ L' `Store layout` attribut comporte des valeurs incluant `Compact` , `Standard` 
 ## <a name="apply-your-hierarchy"></a>Appliquer votre hiérarchie
 
 > [!IMPORTANT]
-> Pour effectuer cette étape, vous devez installer et utiliser la dernière version du module PowerShell teams dans la [Galerie de tests PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Pour savoir comment installer le module, voir [installer la version précommerciale du module PowerShell teams](install-prerelease-teams-powershell-module.md).
+> Pour effectuer cette étape, vous devez installer et utiliser le module Team PowerShell public preview de la [Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Pour plus d’informations sur la procédure d’installation du module, voir [installer teams PowerShell](teams-powershell-install.md).
 
 Après avoir défini votre hiérarchie dans le fichier CSV de schéma, vous pouvez la télécharger dans Teams. Pour cela, exécutez la commande suivante. Pour effectuer cette étape, vous devez être un administrateur général ou un administrateur de service Teams.
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>Supprimer votre hiérarchie
 
 > [!IMPORTANT]
-> Pour effectuer cette étape, vous devez installer et utiliser la dernière version du module PowerShell teams dans la [Galerie de tests PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Pour savoir comment installer le module, voir [installer la version précommerciale du module PowerShell teams](install-prerelease-teams-powershell-module.md).
+> Pour effectuer cette étape, vous devez installer et utiliser le module Team PowerShell public preview de la [Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Pour plus d’informations sur la procédure d’installation du module, voir [installer teams PowerShell](teams-powershell-install.md).
 
 Si vous voulez désactiver immédiatement l’onglet **listes publiées** pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs ne peuvent pas accéder à l’onglet **listes publiées** ou aux fonctionnalités de l’onglet.  Cela inclut la possibilité de créer de nouvelles listes de tâches pour publier, accéder aux listes à l’ébauche, publier, annuler la publication et les listes en double et afficher la création de rapports. La suppression de la hiérarchie n’entraîne pas la publication des tâches publiées précédemment. Ces tâches resteront accessibles aux équipes de destinataires. 
 
