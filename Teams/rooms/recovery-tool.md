@@ -1,7 +1,7 @@
 ---
 title: Utiliser l’outil de récupération de Microsoft Teams Rooms
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge.
-ms.openlocfilehash: 755a85c9013d160197c8a8d57f74ef18b207e052
-ms.sourcegitcommit: 3d393ceded4d64963411cfdc96931952d480ded5
+ms.openlocfilehash: 47e9bed4377a111a1c1284684bbc40517dbb42d8
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225278"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021722"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
 Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge. Cet outil doit être appliqué lorsque le message d’erreur « configuration système obsolète » est affiché sur la console de Microsoft Teams, ou avant de procéder à la réinitialisation de la [restauration en usine](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore).
 
-## <a name="prerequisites"></a>Conditions requises
+## <a name="prerequisites"></a>Conditions préalables
 
 Téléchargez le dernier [package d’installation de Microsoft teams](https://go.microsoft.com/fwlink/?linkid=851168) , puis récupérez-le sur une clé USB ou un partage réseau accessible à partir de l’appareil Microsoft Teams.
 
@@ -34,23 +34,21 @@ Téléchargez le dernier [package d’installation de Microsoft teams](https://g
 ## <a name="running-the-tool"></a>Exécution de l’outil
 
 1) Connectez-vous au compte d’administrateur sur votre appareil Microsoft Teams, puis lancez une invite de commandes avec élévation de privilèges.
-2) Vérifiez à partir de l’appareil Microsoft teams qui vous permet d’accéder `RecoveryTool.ps1 file`à la version incluse dans les fichiers extraits du programme d’installation de Microsoft Teams. Le kit est disponible sur le partage réseau ou sur le lecteur USB utilisé pour préparer les éléments requis.
-3) Exécuter `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
-4) Si vous effectuez une restauration en usine :
-   - Lorsque vous y êtes invité par le script, sélectionnez l’option 2 : **Reset**.
-   - Si BitLocker est activé, suivez les instructions fournies à la fin de la sortie du script pour le désactiver.
-   - Effectuez la restauration en usine.
-      - Ouvrez l’application **paramètres** , puis sélectionnez **mettre à jour les & sécurité**
-      - Accédez à l’onglet **récupération** .
-      - Sous **réinitialiser ce PC**, sélectionnez **commencer** .
-      - Sélectionnez **Supprimer tout**, puis **suivant** et **Réinitialiser**
-      - Le système redémarre à plusieurs reprises. Lorsque le rétablissement est terminé, le système se trouve sur l’écran OOBE Windows.
-5) Si vous réparez un système à jour :
-    - Lorsque vous y êtes invité par le script, sélectionnez option 1 : **réparer**.
-    - Lorsque vous avez terminé, redémarrez l’appareil Microsoft Teams. Elle redémarrera automatiquement et sera entièrement récupérée la deuxième fois.
+2) Vérifiez à partir de l’appareil Microsoft teams qui vous permet d’accéder à la version `RecoveryTool.ps1 file` incluse dans les fichiers extraits du programme d’installation de Microsoft Teams. Le kit est disponible sur le partage réseau ou sur le lecteur USB utilisé pour préparer les éléments requis.
+3) Exécuter `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` .
+4) Pour effectuer une restauration en usine :
+   1. Lorsque vous y êtes invité par le script, sélectionnez l’option 2 : **Reset**.
+   2. Si BitLocker est activé, suivez les instructions fournies à la fin de la sortie du script pour le désactiver.
+   3. Effectuez la restauration en usine.
+      1. Ouvrez l’application **paramètres** , puis sélectionnez **mettre à jour les & sécurité**
+      2. Accédez à l’onglet **récupération** .
+      3. Sous **réinitialiser ce PC**, sélectionnez **commencer** .
+      4. Sélectionnez **Supprimer tout**, puis **suivant** et **Réinitialiser**
+        > [!WARNING]
+        > L’appareil de salle Microsoft teams peut devenir inutilisable si l’option **conserver mes fichiers-supprime des applications et des paramètres, mais conserve vos fichiers personnels** est sélectionnée lors du processus de réinitialisation de Windows. Ne sélectionnez pas cette option.
+      5. Le système redémarre à plusieurs reprises. Lorsque la réinitialisation est terminée, le système se trouve sur l’écran de l’interface OOBE (out-of-Box Experience) de Windows.
 
-> [!NOTE]
-> Il existe un problème connu pour lequel les salles de Microsoft teams peuvent être désactivées si l’option **conserver mes fichiers-supprime des applications et des paramètres, mais** que vous avez sélectionné l’option conservation de vos fichiers personnels lors du processus de réinitialisation de Windows. N’utilisez *pas* cette option.
+
 
 ## <a name="see-also"></a>Voir aussi
 

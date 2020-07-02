@@ -18,19 +18,19 @@ description: Découvrez les différentes méthodes d’attribution de stratégie
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938543"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021752"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
 > [!NOTE]
 > **Notez ce qui suit à propos de l’une des fonctionnalités décrites dans cet article intitulé affectation de stratégie aux groupes**: 
 > - Une [affectation de stratégie à des groupes à l’aide du centre d’administration Microsoft teams](#using-the-microsoft-teams-admin-center-3)n’a pas encore été publiée. Il a été annoncé et est bientôt disponible. 
-> - [Pour l’instant, l’attribution de stratégies aux groupes à l’aide de PowerShell](#using-powershell-3)n’est disponible qu’en version préliminaire privée. Les applets de connexion PowerShell de cette fonctionnalité se trouvent dans le module pre-version PowerShell Teams.
+> - [Pour l’instant, l’attribution de stratégies aux groupes à l’aide de PowerShell](#using-powershell-3)n’est disponible qu’en version préliminaire privée. Les applets de fonction de cette fonctionnalité se trouvent dans le module Team PowerShell public preview.
 >
 > Pour en savoir plus sur l’état de publication de cette fonctionnalité, consultez la [documentation Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
@@ -160,7 +160,7 @@ Dans cet exemple, nous affectons une stratégie de réunion teams nommée Strat�
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-Pour en savoir plus, voir [gestion des stratégies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+Pour en savoir plus, voir [gestion des stratégies via PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## <a name="assign-a-policy-package"></a>Assigner un package de stratégie
 
@@ -315,40 +315,14 @@ Pour modifier le classement d’une affectation de groupe, vous devez d’abord 
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-**Pour le moment, cette fonctionnalité est uniquement disponible dans la version préliminaire privée. Les applets de fonction de cette fonctionnalité se trouvent dans le module pre-version PowerShell Teams.**
+**Pour le moment, cette fonctionnalité est uniquement disponible dans la version préliminaire privée. Les applets de fonction de cette fonctionnalité se trouvent dans le module Team PowerShell public preview.**
 
 > [!NOTE]
 > Pour l’instant, l’affectation de stratégie à des groupes à l’aide de PowerShell n’est pas disponible pour tous les types de stratégie d’équipe. Pour obtenir la liste des types de stratégie pris en charge, voir [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) .
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer le module Microsoft teams PowerShell et s’y connecter
 
-Les applets de contrôle se trouvent dans la version préliminaire du module PowerShell Teams. Suivez ces étapes pour commencer par désinstaller la version disponible en général du module PowerShell Teams (s’il est installé), puis installez la dernière version préliminaire du module à partir de la Galerie de tests PowerShell.
-
-Si ce n’est déjà fait, exécutez la commande suivante pour inscrire la Galerie de tests PowerShell comme source fiable.
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-Si vous avez installé la version disponible en général du module PowerShell Teams, exécutez la commande suivante pour la désinstaller.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Exécutez la commande suivante pour installer le module Microsoft teams PowerShell le plus récent à partir de la Galerie de tests PowerShell.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-Exécutez la commande suivante pour vous connecter à teams et démarrer une session.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-Lorsque vous y êtes invité, connectez-vous à l’aide de vos informations d’identification d’administrateur.
+Ces cmdlets font partie du module Team PowerShell public preview. Pour obtenir des instructions détaillées, consultez la rubrique [installer teams PowerShell](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-to-a-group"></a>Assigner une stratégie à un groupe
 

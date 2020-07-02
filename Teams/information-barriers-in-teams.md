@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868691"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021794"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -92,7 +92,16 @@ Les stratégies de barrage d’information sont activées lorsque les événemen
 
     ![Capture d’écran montrant l’utilisateur a empêché une réunion](media/information-barriers-meeting.png)
 
-- **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne sera pas autorisé.
+- **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne sera pas autorisé. 
+ 
+    Voici un exemple de partage d’écran avant l’application de la stratégie. 
+
+    ![Capture d’écran montrant une discussion d’utilisateur](media/ib-before-screen-share-policy.png)
+
+    Voici un exemple de partage d’écran après l’application de la stratégie. Les icônes de partage d’écran et d’appel ne sont pas visibles.
+
+    ![Capture d’écran montrant le caractère utilisateur avec les paramètres bloqués](media/ib-after-screen-share-policy.png)
+
 - **Un utilisateur place un appel téléphonique (VoIP) dans teams** : chaque fois qu’un utilisateur est lancé par un utilisateur ou à un groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations des autres membres de l’équipe. En cas de violation, l’appel audio est bloqué.
 - **Utilisateurs invités dans teams** : les stratégies de barrière des informations s’appliquent également aux utilisateurs invités dans Teams. Si les utilisateurs invités doivent être détectables dans la liste d’adresses globale de votre organisation, voir [gérer l’accès invité dans les groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Lorsque les utilisateurs invités peuvent être détectables, vous pouvez [définir des politiques de cloisonnement des informations](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
@@ -100,9 +109,17 @@ Les stratégies de barrage d’information sont activées lorsque les événemen
 
 Lorsque l’administrateur de la stratégie de protection des informations apporte des modifications à une stratégie ou qu’une modification de la stratégie est en vigueur en raison d’une modification du profil d’un utilisateur (par exemple, pour un changement de poste ou pour une raison similaire), le service d’évaluation de la stratégie d’obstacle des informations recherche automatiquement les membres de l’équipe sans violer une stratégie.
 
-S’il existe une discussion existante ou une autre communication entre les utilisateurs et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées.
+S’il existe une discussion existante ou une autre communication entre les utilisateurs et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées. 
 
-- **chat 1:1** : si la communication entre les deux utilisateurs n’est plus autorisée (si une communication bloquante est appliquée à l’un ou les deux utilisateurs), une communication supplémentaire est bloquée et la conversation par messagerie instantanée devient en lecture seule.
+- **chat 1:1** : si la communication entre les deux utilisateurs n’est plus autorisée (si une communication bloquante est appliquée à l’un ou les deux utilisateurs), une communication supplémentaire est bloquée et la conversation par messagerie instantanée devient en lecture seule. 
+
+    Vous trouverez ci-dessous un exemple illustrant la discussion.
+
+    ![Capture d’écran montrant la conversation des utilisateurs est disponible](media/ib-before-1-1chat-policy.png)
+
+    Vous trouverez ci-dessous un exemple illustrant la conversation est désactivée.
+
+    ![Capture d’écran montrant la conversation des utilisateurs est désactivée](media/ib-after-1-1chat-policy.png)
 
 - **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et les communications avec le groupe ne sont pas autorisées. L’utilisateur peut toujours voir d’anciennes conversations (qui sont en lecture seule), mais ne peut pas voir ou participer à d’autres conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations.
 
@@ -126,11 +143,30 @@ Pour le moment, les utilisateurs ont connaissance des éléments suivants si une
     ![Capture d’écran montrant une discussion de groupe](media/information-barriers-people-picker.png)
     
 - **Onglet activité** : si un utilisateur accède à l’onglet **activité** d’un utilisateur bloqué, aucun billet ne s’affiche. (L’onglet **activité** affiche uniquement les billets de canal et il n’y a pas de canaux courants entre les deux utilisateurs.)
+
+    Voici un exemple d’affichage de l’onglet activité.
+
+    ![Capture d’écran montrant l’onglet activité](media/ib-before-activity-tab-policy.png)
+
+    Voici un exemple d’affichage de l’onglet activité qui est bloqué.
+
+    ![Capture d’écran montrant l’onglet activité bloqué](media/ib-after-activity-tab-policy.png)
+
+
 - **Organigrammes : si** un utilisateur accède à un organigramme sur lequel un utilisateur bloqué s’affiche, l’utilisateur bloqué n’apparaît pas dans l’organigramme et un message d’erreur s’affiche à la place.
 - **Carte contacts** : si un utilisateur participe à une conversation et que l’utilisateur est bloqué par la suite, les autres utilisateurs verront s’afficher un message d’erreur au lieu de la carte contacts lorsqu’ils placent le pointeur sur le nom de l’utilisateur bloqué. Les actions figurant sur la carte (par exemple, appels et discussions) ne sont pas disponibles.
 - **Suggestions de contacts** : les utilisateurs bloqués n’apparaissent pas dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs).
 - **Contacts de chat** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts, mais les utilisateurs bloqués sont identifiés et la seule action que l’utilisateur peut effectuer est de les supprimer. L’utilisateur peut également cliquer dessus pour afficher sa ancienne conversation.
 - **Appels** de contact : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts appels, mais les utilisateurs bloqués seront identifiés et la seule action qu’il peut effectuer est de les supprimer.
+
+    Voici un exemple d’un utilisateur bloqué dans la liste des contacts appels.
+
+    ![Capture d’écran montrant une discussion d’utilisateur](media/ib-before-chat-contacts-policy.png)
+
+    Voici un exemple du message désactivé pour un utilisateur dans la liste de contenu appels.
+
+    ![Capture d’écran montrant que l’utilisateur a bloqué une conversation](media/ib-after-chat-contacts-policy.png)
+
 - **Migration de Skype vers les équipes** : au cours d’une migration Skype entreprise vers Teams, tous les utilisateurs, même ceux qui ont été bloqués par des politiques de barrage d’information, sont migrés vers Teams, puis seront gérés comme décrit ci-dessus.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Stratégies d’équipe et sites SharePoint

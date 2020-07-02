@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877915"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021872"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -71,6 +71,8 @@ Présenté dans cette mise à jour :
 - Correctifs de qualité et de fiabilité
 - Correctif pour le problème « l’application ne se lance pas après la mise à jour vers 4.4.41.0 »
 
+> [!NOTE]
+> Si votre appareil n’est pas mis à jour automatiquement vers la version 4.4.63.0, suivez les étapes décrites dans l' [application Microsoft teams pour ne pas démarrer après la mise à jour vers la version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) pour résoudre le problème.
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
