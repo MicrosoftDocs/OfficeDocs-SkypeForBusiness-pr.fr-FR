@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874424"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021882"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -148,6 +148,9 @@ Chaque stratégie individuelle reçoit le nom du package de stratégie afin de v
 ### <a name="meeting-policies"></a>Stratégies de réunion
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Désactiver la fonction de création et de démarrage de réunions
+
+> [!NOTE]
+> Vous ne remarquerez peut-être pas cette fonctionnalité dans votre client pour le moment. Cela est dû au fait que cette fonctionnalité est en cours de déploiement et sera mise à la disposition de tous les utilisateurs une fois déployée pour tous les clients. Veuillez vous reporter à la [Feuille de route Teams](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355) pour plus d’informations.
 
 Pour vous assurer que les étudiants ne peuvent pas planifier de réunion pour communiquer sans assistance, dans Stratégies de réunion, définissez sur **Désactivé** les fonctionnalités de création de réunion par le biais de ces paramètres généraux :
 
