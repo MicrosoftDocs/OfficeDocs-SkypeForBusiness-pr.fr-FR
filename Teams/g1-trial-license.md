@@ -15,45 +15,23 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 38ffb22e1f1321f7aebffa2ae22bb154bef48ca5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868540"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028100"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gérez la version d’évaluation d’Office 365 G1 pour le gouvernement américain 
 ==============================
 
-Nouveauté de mars 2020, une version d’évaluation gratuite de 6 mois à Office 365 G1, y compris Microsoft Teams, est désormais disponible. Microsoft met cette licence spéciale d'évaluation G1 à disposition du gouvernement américain pour répondre à la nécessité croissante pour les employés de travailler à partir de leur domicile (WFH) en raison de l’épidémie COVID-19 (coronavirus).
+Depuis le 1er juillet 2020, la licence d’évaluation d’Office 365 E1 n’est plus disponible. Si vous avez besoin de fournir une licence à des utilisateurs pour Microsoft Teams, consultez la [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) afin d’obtenir la liste des abonnements payants avec Teams inclus. 
 
-Pour découvrir les fonctionnalités disponibles avec une licence G1, consultez les [Offres Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) et les [fonctionnalités de Microsoft Teams disponibles dans le cloud GCC](plan-for-government-gcc.md).
+Lisez les instructions dans cet article pour gérer vos licences d’évaluation Office 365 G1 existantes, y compris [la mise à niveau vers un abonnement payant](#upgrade-users-from-the-office-365-g1-trial-license). Pour en savoir plus, consultez les [Offres Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) et les [fonctionnalités de Microsoft Teams disponibles dans le cloud de la communauté du secteur public](plan-for-government-gcc.md).
 
-Ne manquez pas toutes nos recommandations pour la  [prise en charge de d'employés distants avec Teams](support-remote-work-with-teams.md).
+Ne manquez aucune de nos recommandations pour la [prise en charge des employés en télétravail avec Teams](support-remote-work-with-teams.md).
 
-## <a name="how-to-get-an-g1-trial-license"></a>Comment obtenir une licence d’évaluation G1
-
-Contactez le gestionnaire de votre compte Microsoft. Vous obtiendrez un code promotionnel que vous pourrez utiliser pour vous inscrire à la version d’évaluation G1.
-
-## <a name="how-to-sign-up-for-the-g1-trial"></a>Voici comment s'enregistrer pour la version d'évaluation G1
-
-Suivez les instructions dans le message électronique envoyé par le gestionnaire de compte.
-
-## <a name="whos-eligible"></a>Qui est éligible ?
-
-Cette offre est destinée aux clients faisant partie du gouvernement américain qui opèrent sur le cloud GCC et sont gérés par un gestionnaire de compte Microsoft. Il s’agit d’organisations qui n’ont pas activé d’autres version évaluations Office 365 G1 dans le passé.
-
-Une fois que vous avez utilisé votre code promotionnel d’évaluation G1, vous ne pouvez plus l’utiliser, ni activer un autre code d’évaluation G1.
-
-## <a name="who-isnt-eligible"></a>Qui n'est pas éligible ?
-
-  - Cette offre n’est pas valable pour les clients commerciaux, GCC HIGH, DoD ou EDU.
-
-  - Les clients commerciaux doivent utiliser la version d’évaluation d’Office 365 E1.
-
-  - Les clients Éducation doivent utiliser la licence gratuite Office 365 A1.
-
-## <a name="manage-the-g1-trial"></a>Gérer la version d'évaluation G1
+## <a name="manage-the-g1-trial"></a>Gérer la version d'évaluation G1
 
 Une fois activée la version d’évaluation Office 365 G1, activez la licence pour les utilisations qui en ont besoin. Pour en savoir plus sur ce processus, lire la rubrique  [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md).
 
