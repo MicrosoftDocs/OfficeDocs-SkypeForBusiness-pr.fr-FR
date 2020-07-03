@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637903"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028110"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Forum aux questions : soutenir vos employés en télétravail
 
@@ -77,10 +77,7 @@ Teams est disponible gratuitement via deux programmes différents :
 
 **Professionnels de l’informatique**
 
-- Si vous travaillez dans une entreprise et que vous voulez que vos employés soient configurés sur Teams, vous pouvez vous inscrire pour bénéficier d’une offre de 6 mois [Office 365 E1 essai](e1-trial-license.md) par l’intermédiaire de votre partenaire ou commercial Microsoft.
-
-> [!NOTE]
-> La même offre gratuite Teams est disponible dans le [Cloud du Gouvernement des États-Unis d’Amérique](g1-trial-license.md), avec l’exception de GCC High et du Département de Défense.
+- Si vous travaillez pour une entreprise et si vous souhaitez que les employés puissent utiliser Teams, vous pouvez vous inscrire à [Exploratoire Teams](teams-exploratory.md).
 
 - Si vous travaillez dans l’éducation et que vous voulez configurer les enseignants, les étudiants et les administrateurs sur Teams, utilisez Office 365 a1, la version gratuite d’Office 365 disponible aux établissements d’enseignement. Inscrivez-vous à [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
