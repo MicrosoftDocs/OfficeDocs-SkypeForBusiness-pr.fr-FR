@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: En savoir plus sur les licences de compléments pour Microsoft teams ainsi que les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170685"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028180"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licences de compléments Microsoft teams
 
@@ -164,9 +164,9 @@ Pour en savoir plus, consultez l' [offre Microsoft 365 et Office 365](https://ww
 
 En réponse à une augmentation du nombre de personnes qui travaillent à distance (ou à partir de la maison), Microsoft dispose de plusieurs offres d’essais d’équipe gratuites pour les organisations gouvernementales, éducatives et à but non lucratif. Des essais sont disponibles pour les offres suivantes :
 
-- Version d’évaluation [d’entreprise E1](../e1-trial-license.md)d’Office 365 et version d’évaluation de E3
+- [Version d’évaluation d'](../e1-trial-license.md) Office 365 entreprise E1 (arrêtée à partir du 1er juillet 2020), de la version d’évaluation de E3 et de la période d’évaluation E5
 - [Version d’évaluation d'](../teams-edu-licensing.md) Office 365 éducation a1
-- [Version d’évaluation d'](../g1-trial-license.md) Office 365 pour le gouvernement G1
+- [Version d’évaluation d'](../g1-trial-license.md) Office 365 pour le gouvernement G1 (arrêtée depuis le 1er juillet 2020)
 
 Pour vous inscrire à une offre d’évaluation, voir s' [inscrire à une offre d’évaluation](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
@@ -176,7 +176,7 @@ Vous trouverez ci-dessous un résumé des offres d’évaluation de la fonction 
 
   ![Options basées sur une version d’évaluation](../media/licensing-trial-offers.png)
 
- Par le biais de votre plan de base, vous n’avez pas besoin d’une offre d’évaluation pour utiliser les fonctions vocales. Vous pouvez utiliser un plan Microsoft 365 Business ou un plan d’entreprise, de secteur public, d’éducation ou d’établissement d’activités avec les offres d’évaluation pour les fonctionnalités vocales. Pour afficher les offres d’évaluation disponibles et les modules complémentaires, dans le centre d’administration 365 Microsoft, accédez à**services d’achat**de **facturation** > , sélectionnez d' **autres catégories susceptibles de vous intéresser**, puis sélectionnez **composants**additionnels.
+ Par le biais de votre plan de base, vous n’avez pas besoin d’une offre d’évaluation pour utiliser les fonctions vocales. Vous pouvez utiliser un plan Microsoft 365 Business ou un plan d’entreprise, de secteur public, d’éducation ou d’établissement d’activités avec les offres d’évaluation pour les fonctionnalités vocales. Pour afficher les offres d’évaluation disponibles et les modules complémentaires, dans le centre d’administration 365 Microsoft **Billing**, accédez à  >  **services d’achat**de facturation, sélectionnez d' **autres catégories susceptibles de vous intéresser**, puis sélectionnez **composants**additionnels.
 
   Pour chacune de ces options de voix et de conférence, des [crédits de communication](../set-up-communications-credits-for-your-organization.md) sont requis si vous disposez de numéros sans frais ou si vous avez besoin d’ajouter des minutes supplémentaires aux utilisateurs pour passer des appels RTC nationaux et internationaux.
 
@@ -188,11 +188,11 @@ Vous trouverez ci-dessous un résumé des offres d’évaluation de la fonction 
 
 * * *
 
-## <a name="need-help"></a>Besoin d’aide ?
+## <a name="need-help"></a>Vous avez besoin d’aide ?
 
 Vous avez besoin de parler à une personne sur les options d’extension ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Attribution de licences de complément d’équipes](assign-teams-add-on-licenses.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)

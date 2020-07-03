@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944007"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028160"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -30,12 +30,12 @@ Cet article décrit les exigences et limitations relatives à l’utilisation de
 ## <a name="what-is-vdi"></a>Qu’est-ce qu’un infrastructure VDI ?
 
 La technologie VDI (Virtual Desktop Infrastructure) est une technologie de virtualisation qui héberge un système d’exploitation et des applications de bureau sur un serveur centralisé dans un centre de données. Cela permet d’offrir une expérience de bureau entièrement personnalisée aux utilisateurs dotés d’une source centralisée entièrement sécurisée et compatible.
- 
+
 Microsoft teams dans un environnement virtualisé prend en charge les discussions et la collaboration. La plate-forme Citrix, les fonctionnalités d’appel et de réunion sont également prises en charge.
 
 Teams dans un environnement virtualisé prend en charge plusieurs configurations. Cela inclut les modes VDI, dédié, partagé, permanent et non persistant. Les fonctionnalités sont en développement continu et sont ajoutées régulièrement, et les fonctionnalités seront développées dans les prochains mois et années.
- 
-L’utilisation des équipes dans un environnement virtualisé peut être légèrement différente de l’utilisation d’équipes dans un environnement non virtualisé. Par exemple, certaines fonctionnalités avancées risquent de ne pas être disponibles dans un environnement virtualisé et la résolution vidéo peut varier. 
+
+L’utilisation des équipes dans un environnement virtualisé peut être légèrement différente de l’utilisation d’équipes dans un environnement non virtualisé. Par exemple, certaines fonctionnalités avancées risquent de ne pas être disponibles dans un environnement virtualisé et la résolution vidéo peut varier.
 
 Pour garantir une utilisation optimale des utilisateurs, suivez les recommandations de cet article.
 
@@ -100,12 +100,12 @@ Voici la configuration minimale recommandée pour les ordinateurs virtuels.
 
 Dans une configuration non persistante, les modifications du système d’exploitation local des utilisateurs ne sont pas conservées lorsque les utilisateurs se déconnectent. Ces paramètres sont fréquemment partagés par des sessions multi-utilisateurs. La configuration de l’ordinateur virtuel varie en fonction du nombre d’utilisateurs et des ressources de zone physiques disponibles.
 
-Dans le cas d’une configuration non persistante, l’application de bureau teams doit être installée par ordinateur vers l’image Golden. (Pour en savoir plus, voir la section [installer ou mettre à jour l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) .) Cela garantit un lancement efficace de l’application teams lors d’une session utilisateur. 
+Dans le cas d’une configuration non persistante, l’application de bureau teams doit être installée par ordinateur vers l’image Golden. (Pour en savoir plus, voir la section [installer ou mettre à jour l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) .) Cela garantit un lancement efficace de l’application teams lors d’une session utilisateur.
 
 L’utilisation de teams avec une configuration non persistante nécessite également un gestionnaire de mise en cache de profil pour une synchronisation des données d’exécution teams efficace. Cela permet de s’assurer que les informations spécifiques à l’utilisateur (par exemple, les données utilisateur, le profil et les paramètres) sont mises en cache lors de la session utilisateur. Vérifiez que les données de ces deux dossiers sont synchronisées.  
 
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 Il existe de nombreuses solutions de gestionnaire de mise en cache disponibles. Par exemple, [FSLogix](https://docs.microsoft.com/fslogix/overview). Pour obtenir des instructions de configuration spécifiques, contactez le fournisseur du gestionnaire de cache.
 
@@ -143,10 +143,8 @@ Pour en savoir plus sur les équipes et les applications 365 Microsoft pour les 
 
 1. Téléchargez le package MSI teams qui correspond à votre système d’exploitation VM VDI en utilisant l’un des liens suivants :
 
-
     - [version 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [version 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
-
 
     La version minimum de l’application de bureau teams requise est la version 1.3.00.4461. (La conservation RTC n’est pas prise en charge dans les versions antérieures.)
 
@@ -179,6 +177,7 @@ Pour en savoir plus sur les équipes et les applications 365 Microsoft pour les 
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       Ce processus désinstalle les équipes du dossier Program Files (x86) ou Program Files, en fonction de l’environnement du système d’exploitation.
 
 ## <a name="teams-on-vdi-performance-considerations"></a>Considérations relatives aux performances d’une équipe sur VDI
@@ -271,9 +270,9 @@ Vous pouvez également effectuer les opérations suivantes :
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
     - Accédez à **Voice**  >  **stratégies d’appel**vocal, puis cliquez sur **DisallowCalling**.
     - Accédez à **Meetings**  >  **stratégies de réunion**, puis cliquez sur **AllOff**.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+2. Sélectionnez **Gérer les utilisateurs**.
+3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
 
@@ -327,9 +326,9 @@ Vous pouvez également effectuer les opérations suivantes :
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
     - Accédez à **Voice**  >  **stratégies d’appel**vocal, puis cliquez sur **AllowCalling**.
     - Accédez à **Meetings**  >  stratégies de réunion, puis cliquez sur **AllOn****intentn**.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
-5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+2. Sélectionnez **Gérer les utilisateurs**.
+3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
 
@@ -383,7 +382,7 @@ Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de suppor
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
