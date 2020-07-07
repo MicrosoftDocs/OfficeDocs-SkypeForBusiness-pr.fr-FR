@@ -18,12 +18,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 935be9902accbd575c9795a667943a6810aec6e3
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
-ms.translationtype: HT
+ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841905"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042796"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -141,7 +140,7 @@ Pour plus d’informations sur les événements en direct et pour voir une compa
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 > 
-> Dans le but de permettre aux clients de répondre à l’évolution rapide des besoins de communication, la limite par défaut des évènements en direct Microsoft 365, hébergés dans Teams, sera temporairement relevée jusqu’au 1er juillet 2020. Les relèvements ci-après sont en cours de déploiement à fin avril 2020 :
+> Dans le but de permettre aux clients de répondre à l’évolution rapide des besoins de communication, la limite par défaut des évènements en direct Microsoft 365, hébergés dans Teams, sera temporairement relevée jusqu’au 1er octobre 2020. Les relèvements ci-après sont en cours de déploiement :
 > - Nombre limite de participants : les événements prendre en charge jusqu’à 20 000 participants.
 > - Événements simultanés : 50 événements à la fois peuvent être hébergés chez un client
 > - Longueur d’événement : la durée d’événement passe à 16 heures par diffusion

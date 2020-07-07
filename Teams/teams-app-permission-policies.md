@@ -22,12 +22,11 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
-ms.translationtype: MT
+ms.openlocfilehash: 15698c7eeb12187ccc510a42b9a6e2120a7907cc
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938473"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042989"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -45,7 +44,7 @@ Si votre organisation est déjà en équipe, les paramètres d’application que
 Par exemple, supposons que vous souhaitiez bloquer toutes les applications tierces et autoriser des applications spécifiques de Microsoft à l’équipe RH de votre organisation. Tout d’abord, vous devez accéder à la page [gérer les applications](manage-apps.md) et vérifier que les applications que vous souhaitez autoriser pour l’équipe RH sont autorisées au niveau de l’organisation. Ensuite, créez une stratégie personnalisée nommée Stratégie d’autorisation d’application RH, définissez celle-ci pour bloquer et autoriser les applications souhaitées, et attribuez-la aux utilisateurs de l’équipe RH.
 
 > [!NOTE]
-> Si vous avez déployé des équipes dans un environnement Microsoft 365 Government-GCC, voir [stratégies d’autorisation d’application pour GCC](#app-permission-policies-for-gcc) pour en savoir plus sur les paramètres d’application tiers propres à gcc.
+> Si vous avez déployé des équipes dans un environnement de la communauté gouvernementale Microsoft 365, voir [gérer les paramètres d’application à l’échelle de l’Organisation pour le secteur public microsoft 365](#manage-org-wide-app-settings-for-microsoft-365-government) pour en savoir plus sur les paramètres d’application tiers uniques à l’application GCC.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Créer une stratégie d’autorisations d’application personnalisée
 
@@ -84,7 +83,7 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifi
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="app-permission-policies-for-gcc"></a>Stratégies d’autorisation d’application pour GCC
+## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Gérer les paramètres d’application à l’échelle de l’Organisation pour le secteur public Microsoft 365  
 
 Dans Microsoft 365 Government-déploiement de Microsoft Teams, il est important de connaître les paramètres d’application tiers, qui sont propres à la configuration de Skype.
 
@@ -92,19 +91,21 @@ Dans GCC, toutes les applications tierces sont bloquées par défaut. Par ailleu
 
 ![Capture d’écran de la stratégie d’autorisation d’application dans GCC](media/app-permission-policies-gcc.png)
 
-Pour autoriser une application tierce à un utilisateur ou à un groupe d’utilisateurs de votre organisation, procédez comme suit :
+Utilisez les paramètres de l’application à l’échelle de l’Organisation pour contrôler si les utilisateurs peuvent installer des applications tierces. Les paramètres de l’application à l’échelle de l’organisation régissent le comportement de tous les utilisateurs et remplacent toutes les autres stratégies d’autorisation d’application attribuées aux utilisateurs. Vous pouvez les utiliser pour contrôler les applications malveillantes ou problématiques.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage Apps**, puis dans la liste des applications, confirmez que l’application tierce que vous souhaitez autoriser pour un ensemble d’utilisateurs est définie sur **bloqué** au niveau de l’organisation.
+1. Dans la page **stratégies d’autorisation** , sélectionnez Paramètres de l' **application à l’échelle**de l’organisation. Vous pouvez alors configurer les paramètres de votre choix dans le panneau.
 
-2. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à stratégies d’autorisations des **applications teams**  >  **Permission policies**, puis modifiez la stratégie globale pour bloquer l’application tierce. Pour ce faire :
-    1. Dans la page stratégies d’autorisation d’application, cliquez sur **global (par défaut de l’organisation)**, puis cliquez sur **modifier**.
-    2. Sous **applications tierces**, sélectionnez **bloquer des applications spécifiques**, ajoutez l’application, puis cliquez sur **Enregistrer**.
+    ![Capture d’écran des paramètres d’application à l’échelle de l’Organisation](media/app-permission-policies-gcc-org-wide.png)
+    
+2. Sous **applications tierces**, désactivez ou activez ces paramètres pour contrôler l’accès aux applications tierces :
 
-    > [!NOTE]
-    > Il est important de procéder de la sorte avant de passer à l’étape suivante pour autoriser l’application au niveau de l’organisation. En effet, si l’application tierce n’est pas bloquée dans la stratégie d’autorisation globale de l’application, tous les utilisateurs auxquels elle s’applique sont en mesure d’accéder à l’application tierce lorsque vous l’autorisez au niveau de l’organisation.
+    - **Autoriser les applications**tierces : ce contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, les utilisateurs ne pourront pas installer ou utiliser d’applications tierces. Dans Microsoft 365 Government-déploiement de Microsoft Teams, ce paramètre est désactivé par défaut.
+    - **Autorisez toutes les nouvelles applications tierces publiées dans le Windows Store par défaut**: ce contrôle si les nouvelles applications tierces publiées dans le Windows Store sont automatiquement disponibles dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
-3. Autorisez l’application tierce au niveau de l’organisation. Pour ce faire, dans le volet de navigation de gauche, accédez à **applications d’équipe**  >  **gérer les applications**. Dans la liste des applications, cliquez à gauche du nom de l’application pour sélectionner celle-ci, puis sélectionnez **autoriser**.
-4. [Créez une stratégie d’autorisations d’application personnalisée](#create-a-custom-app-permission-policy) pour autoriser l’application, puis [affectez la stratégie](#assign-a-custom-app-permission-policy-to-users) aux utilisateurs de votre choix.
+3. Sous **applications bloquées**, ajoutez les applications que vous souhaitez bloquer au sein de votre organisation. Dans Microsoft 365 Government-déploiement de Microsoft Teams, toutes les applications tierces sont ajoutées par défaut à cette liste. Pour toute application tierce que vous souhaitez autoriser au sein de votre organisation, supprimez l’application de la liste des applications bloquées. Lorsque vous bloquez une application au sein de l’organisation, l’application est bloquée automatiquement pour tous les utilisateurs, qu’elle soit ou non autorisée dans des stratégies d’autorisation d’application
+4. Cliquez sur **Enregistrer** pour appliquer les paramètres de l’application à l’échelle de l’organisation.
+
+Comme mentionné plus haut, pour autoriser les applications tierces, vous pouvez modifier et utiliser la stratégie globale par défaut de l’organisation, ou créer et attribuer des stratégies personnalisées.
 
 ## <a name="faq"></a>FAQ
 
@@ -149,7 +150,7 @@ Le portail hérité autorisait le contrôle des applications au niveau de l’or
 
 Pour les stratégies d’autorisation d’application attribuées à des utilisateurs spécifiques, si une application dotée d’une fonctionnalité de robot ou de connecteur a été autorisée et bloquée, et si l’application est alors autorisée uniquement pour certains utilisateurs dans un contexte partagé, les membres d’une conversation de groupe ou d’un canal ne disposant pas de l’autorisation d’accès à cette application peuvent afficher l’historique des messages et mais ne peut pas interagir avec elle.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 

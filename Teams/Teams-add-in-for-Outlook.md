@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689810"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049411"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -133,6 +132,10 @@ Procédez comme suit pour résoudre les problèmes liés au complément réunion
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Le complément réunion teams dans Outlook pour Windows ne s’affiche pas
 
 Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour installer Outlook, essayez de suivre ces étapes de dépannage.
+
+[Téléchargez](https://aka.ms/SaRA-TeamsAddInScenario) et exécutez l' [Assistant de récupération du support Microsoft](https://aka.ms/SaRA_Home) pour effectuer des étapes de résolution des problèmes et des correctifs automatisés.
+
+Vous pouvez également effectuer les étapes suivantes manuellement :
 
 - Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
 - Vérifiez que l’utilisateur dispose d’une stratégie de mise à niveau équipes permettant de planifier des réunions dans Teams. Pour plus d’informations, consultez la rubrique [mise à niveau de Skype entreprise vers teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .

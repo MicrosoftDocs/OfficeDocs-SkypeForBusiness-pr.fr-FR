@@ -16,12 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: MT
+ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136784"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042786"
 ---
 # <a name="steering-committee"></a>Comité de direction
 
@@ -88,7 +87,7 @@ Lors de la planification d’une réunion de Comité, prenez en considération l
 
 ### <a name="prepare-for-the-meeting"></a>Préparer la réunion
 
-Pour tirer le meilleur parti des horaires de tout le monde, vous devez préparer la réunion. L’équipe principale peut commencer à préparer le contenu de la réunion du Comité d’orientation. Le modèle de Comité d’orientation [cadre-lien vers un exemple de modèle PPT] est utilisé comme point de départ pour préparer.
+Pour tirer le meilleur parti des horaires de tout le monde, vous devez préparer la réunion. L’équipe principale peut commencer à préparer le contenu de la réunion du Comité d’orientation. Vous pouvez créer une présentation PowerPoint pour préparer la réunion.
 
 Les ressources suivantes doivent être remplies et incluses dans l’ensemble de présentations pour la réunion :
 

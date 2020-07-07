@@ -17,12 +17,11 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
-ms.translationtype: MT
+ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028090"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042926"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
@@ -77,6 +76,9 @@ Lorsque vous bloquez ou autorisez une application dans la page **gérer les appl
 
 Utilisez les paramètres d’application à l’échelle de l’Organisation pour contrôler si les utilisateurs peuvent installer des applications tierces et si les utilisateurs peuvent télécharger ou interutiliser des applications personnalisées au sein de votre organisation. Les paramètres de l’application à l’échelle de l’organisation régissent le comportement de tous les utilisateurs et remplacent toutes les autres stratégies d’autorisation d’application attribuées aux utilisateurs. Vous pouvez les utiliser pour contrôler les applications malveillantes ou problématiques.
 
+> [!NOTE]
+> La page **gérer les applications** n’est pas encore disponible dans Microsoft 365 Government-déploiements de Microsoft Teams.  Pour plus d’informations sur l’utilisation des paramètres d’application à l’échelle de l’Organisation pour activer ou désactiver des applications tierces, voir [gérer les stratégies d’autorisation d’application dans teams](teams-app-permission-policies.md).
+
 1. Dans la page **gérer les applications** , sélectionnez Paramètres de l' **application à l’échelle de l’organisation**. Vous pouvez alors configurer les paramètres de votre choix dans le panneau.
 
     ![Capture d’écran des paramètres d’application à l’échelle de l’Organisation](media/manage-apps-org-wide-app-settings.png)
@@ -85,15 +87,12 @@ Utilisez les paramètres d’application à l’échelle de l’Organisation pou
 
     - **Autoriser les applications**tierces : ce contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, vos utilisateurs ne seront pas en mesure d’installer ou d’utiliser des applications tierces et l’état de l’application de ces applications est affiché en tant qu' **entreprise bloquée** dans le tableau.
 
-        > [!NOTE]
-        > Dans Microsoft 365 Government-déploiement de Microsoft Teams, le paramètre **autoriser les applications tierces** est désactivé par défaut.
-
         Lorsque l’option **autoriser les applications tierces** est désactivée, les [webhook sortant](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) sont désactivés, ce qui signifie que les utilisateurs ne peuvent pas les créer. Lorsque ce paramètre est activé, l’option de raccordements Web sortants est activée pour tous les utilisateurs, qu’il soit activé ou désactivé dans la stratégie d’autorisation de l’utilisateur.
     - **Autorisez toutes les nouvelles applications tierces publiées dans le Windows Store par défaut**: ce contrôle si les nouvelles applications tierces publiées dans le Windows Store sont automatiquement disponibles dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
 3. Sous **applications personnalisées**, désactivez ou activez l’option **autoriser les interactions avec les applications personnalisées**. Ce paramètre détermine si les utilisateurs peuvent interagir avec les applications personnalisées. Pour plus d’informations, consultez [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
 4. Cliquez sur **Enregistrer** pour appliquer les paramètres de l’application à l’échelle de l’organisation.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

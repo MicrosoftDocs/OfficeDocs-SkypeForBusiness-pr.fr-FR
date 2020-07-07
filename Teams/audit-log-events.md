@@ -15,12 +15,11 @@ search.appverid: MET150
 description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816625"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042876"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -97,13 +96,13 @@ Comme mentionné plus haut, vous pouvez surveiller des scénarios de suppression
 
 ![Capture d’écran de la page de création d’une stratégie montrant la création d’une stratégie pour la détection de suppression d’équipe en masse](media/TeamsMassDeletePolicy.png)
 
-Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’équipe, y compris la gravité, l’action unique ou répétée, et les paramètres limitant ce paramètre à la suppression des équipes et des sites. Cette opération peut être réalisée indépendamment d’un modèle, ou vous avez peut-être créé un modèle pour baser cette stratégie, en fonction des besoins de votre organisation.
+Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’équipe, y compris la gravité, l’action unique ou répétée, et les paramètres limitant ce paramètre à la suppression des équipes et des sites. Cette opération peut être réalisée indépendamment d’un modèle, ou vous avez peut-être créé un modèle sur lequel baser cette stratégie, en fonction des besoins de votre organisation.
 
 Après avoir établi une stratégie qui fonctionnera pour votre entreprise, vous pouvez passer en revue les résultats dans le journal d’activité en tant qu’événements déclenchés :
 
 ![Capture d’écran d’une liste d’événements déclenchés par des suppressions massiques](media/TeamsMassDeleteList.png)
 
-Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie pour afficher les résultats de cette stratégie. Si les résultats que vous obtenez dans le journal d’activité ne sont pas satisfaisants (il est possible que vous voyiez un grand nombre de résultats ou qu’il n’y en ait aucun), cela peut vous aider à peaufiner la requête afin de la rendre plus pertinente pour ce que vous en avez besoin.
+Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie pour afficher les résultats de cette stratégie. Si les résultats que vous obtenez dans le journal d’activité ne sont pas satisfaisants (il est possible que vous voyiez un grand nombre de résultats ou qu’il n’y en ait pas du tout), cela peut vous aider à peaufiner la requête afin de la rendre plus pertinente pour ce que vous en avez besoin.
 
 ### <a name="alert-and-governance-scenario"></a>Scénario d’alerte et de gouvernance
 
@@ -115,7 +114,7 @@ Vous pouvez définir des alertes et envoyer des courriers électroniques aux adm
 
 Dans le cadre de la sécurité de l’application Cloud, les [stratégies de détection des anomalies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) fournissent aux utilisateurs et aux utilisateurs intégrés une analyse comportementale (UEBA) et des formations informatiques (ml), afin que vous puissiez immédiatement exécuter une détection avancée des menaces dans votre environnement Cloud. Étant donné qu’ils sont automatiquement activés, les nouvelles stratégies de détection d’anomalies fournissent des résultats immédiats en fournissant des détections immédiates, ciblant de nombreuses anomalies comportementales au sein de vos utilisateurs, et les ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données à partir du moteur de détection de la sécurité des applications Cloud pour vous aider à accélérer le processus d’examen et contenir les menaces actuelles.
 
-Nous travaillons à l’intégration des événements d’équipes dans des stratégies de détection d’anomalie. Pour le moment, vous pouvez configurer des stratégies de détection d’anomalie pour d’autres produits Office et effectuer des actions sur des utilisateurs qui correspondent à ces stratégies.
+Nous travaillons à l’intégration des événements d’équipes dans des stratégies de détection d’anomalie. Pour le moment, vous pouvez configurer des stratégies de détection d’anomalie pour d’autres produits Office et effectuer des actions sur des utilisateurs qui répondent à ces stratégies.
 
 ## <a name="teams-activities"></a>Activités dans teams
 
@@ -138,6 +137,7 @@ Voici la liste de tous les événements enregistrés pour les activités des uti
 |Canal supprimé     |ChannelDeleted         |Un utilisateur supprime un canal d’une équipe.         |
 |Équipe supprimée  |TeamDeleted            |Un propriétaire d’équipe supprime une équipe.      |
 |Application installée |AppInstalled         |L’application a été installée.   |
+|Action réalisée sur la carte|PerformedCardAction|Un utilisateur a effectué une action sur une carte adaptative dans une conversation. Les cartes adaptatives sont généralement utilisées par les robots pour permettre l’affichage complet des informations et de l’interaction des conversations. <br/><br/>**Remarque :** Seules les actions d’entrée insérées sur une carte adaptative dans une discussion seront disponibles dans le journal d’audit. Par exemple, lorsqu’un utilisateur envoie une réponse à une interrogation dans une conversation de canal sur une carte adaptative générée par un robot d’interrogation. Les actions de l’utilisateur telles que « afficher le résultat », qui ouvre une boîte de dialogue ou les actions de l’utilisateur dans les boîtes de dialogue ne seront pas disponibles dans le journal d’audit.|
 |Application publiée |AppPublishedToCatalog           |Une application a été ajoutée au catalogue.     |
 |Robot supprimé de l’équipe   |BotRemovedFromTeam         |Un utilisateur supprime un robot d’une équipe.       |
 |Connecteur supprimé     |ConnectorRemoved         |Un utilisateur supprime un connecteur d’un canal.         |
