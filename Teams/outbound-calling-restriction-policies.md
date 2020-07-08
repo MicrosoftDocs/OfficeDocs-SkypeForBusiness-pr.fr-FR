@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: fd7c30a7561c06dd237bb72b405c8fc5b7b68dcd
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665906"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077669"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -69,7 +69,7 @@ Pour connaître les pays/régions qui sont considérés comme la zone A, consult
 
 3.    Sous **Restrictions de numérotation des réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant souhaitée.
 
-    ![Les restrictions aux options de numérotation](media/restrictions-to-dial-outs.png)
+    ![Les restrictions aux options de numérotation](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
 
 5. Cliquez sur **Enregistrer**.
 
