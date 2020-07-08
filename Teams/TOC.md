@@ -259,6 +259,7 @@
 ### [Partage d’appel et prise d’appel de groupe](call-sharing-and-group-call-pickup.md)
 ### [Stratégie d’Appel](teams-calling-policy.md)
 ### [Mode partage de lignes](shared-line-appearance.md)
+### [Configuration du pavé de numérotation](dial-pad-configuration.md)
 
 
 ## Forfaits d’appel
@@ -657,6 +658,7 @@
 ### [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
 ### [Déploiement par script pour les employés terrain](flw-scripted-deployment.md)
 ### [RealWear pour Microsoft Teams](flw-realwear.md)
+### [Talkie-walkie](walkie-talkie.md)
 ### [Créer une application de portail intranet Teams à partir d’un site ou d’une page SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams pour les organismes de vente au détail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
