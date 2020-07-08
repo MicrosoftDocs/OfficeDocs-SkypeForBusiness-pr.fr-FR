@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874257"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077713"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -88,7 +88,19 @@ Vous pouvez définir l’opérateur de plusieurs manières :
      > [!Note]
      > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
 
-- **Application vocale**  Sélectionnez le nom du compte de ressources lié à un standard automatique ou une file d’attente d’appels qui a déjà été créée. Les appelants qui demandent un opérateur y sont redirigés.  
+- **Application vocale**  Sélectionnez le nom du compte de ressources lié à un standard automatique ou une file d’attente d’appels qui a déjà été créée. Les appelants qui demandent un opérateur y sont redirigés.
+- Le **numéro de téléphone externe** transfère l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+
+    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
+        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
+    - Le numéro de téléphone sortant affiché est déterminé comme suit :
+        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
+        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
+            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
+            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
+    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
+
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -157,15 +169,27 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 ![Icône du numéro 4, une légende dans la capture d’écran suivante ](media/teamscallout4.png) **rediriger l’appel** , envoie l’appelant à la destination choisie sans choisir d’options. Les paramètres possibles sont les suivants :
 
-  - **Personne de l’organisation** Le compte que vous choisissez doit être doté d’une licence de système téléphonique activée pour voix entreprise ou d’un forfait d’appels attribué dans Microsoft 365 ou Office 365. Vous pouvez configurer le programme pour qu’il puisse être envoyé à la boîte vocale : sélectionnez une **personne dans l’organisation** et configurer ce compte pour que les appels soient transférés directement à la boîte vocale.
+  - **Personne de l’organisation** Le compte que vous choisissez doit être doté d’une licence de système téléphonique activée pour voix entreprise ou d’un forfait d’appels attribué dans Microsoft 365 ou Office 365. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Sélectionnez une **personne dans l’organisation** et définissez ce compte pour que les appels soient transférés directement vers la boîte vocale.
 
     > [!Note]
     > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
 
   - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé au service.
+  - Le **numéro de téléphone externe** transfère l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+
+    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
+        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
+    - Le numéro de téléphone sortant affiché est déterminé comme suit :
+        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
+        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
+            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
+            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
+    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
   - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Microsoft 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 
       Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
+
 
  * * *
 
@@ -201,6 +225,18 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 - Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. L’utilisateur doit disposer d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Microsoft 365 ou Office 365. Recherchez la personne dans le champ **Rechercher par nom** .
 
 - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé à l’application.
+
+- Le **numéro de téléphone externe** transfère l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+
+    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
+        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
+    - Le numéro de téléphone sortant affiché est déterminé comme suit :
+        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
+        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
+            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
+            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
+    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
 - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Microsoft 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 

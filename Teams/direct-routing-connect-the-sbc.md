@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer et connecter votre SBC au routage direct du système téléphonique.
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691260"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077619"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connecter votre contrôleur de bordure de session (SBC) au routage direct
 
@@ -40,7 +40,7 @@ Vous pouvez utiliser le [Centre d’administration Microsoft teams](#using-the-m
 
 1. Dans le volet de navigation de gauche **Voice**, sélectionnez  >  **routage direct**de la voix, puis cliquez sur l’onglet **SBCS** .
 2. Cliquez sur **Ajouter**.
-3. Entrez un nom de domaine complet pour l’SBC. <br><br>Assurez-vous que la partie Domain Name du nom de domaine complet correspond à un domaine inscrit dans votre client et gardez à l’esprit que le `*.onmicrosoft.com` nom de domaine n’est pas pris en charge pour le nom de domaine de nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine `contoso.com` et `contoso.on.microsoft.com` que vous utilisez `sbc.contoso.com` le nom SBC.
+3. Entrez un nom de domaine complet pour l’SBC. <br><br>Assurez-vous que la partie Domain Name du nom de domaine complet correspond à un domaine inscrit dans votre client et gardez à l’esprit que le `*.onmicrosoft.com` nom de domaine n’est pas pris en charge pour le nom de domaine de nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine `contoso.com` et `contoso.onmicrosoft.com` que vous utilisez `sbc.contoso.com` le nom SBC.
 4. Configurez les paramètres suivants pour SBC, en fonction des besoins de votre organisation. Pour plus d’informations sur chacun de ces paramètres, voir [paramètres de SBC](#sbc-settings).
 
     ![Capture d’écran de la page Ajouter un SBC dans le centre d’administration Microsoft teams](media/direct-routing-add-sbc.png)

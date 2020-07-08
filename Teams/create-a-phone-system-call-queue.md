@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams, qui fournissent un message de salutation, de la musique, de la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697423"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077712"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -69,7 +69,7 @@ Pour commencer à utiliser les files d’attente d’appels, il est important de
   > Les numéros de service de routage direct pour les files d’attente d’appels sont pris en charge pour les utilisateurs et agents Microsoft teams uniquement.
 
 > [!NOTE]
-> Pour rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer d’offres Microsoft 365 ou Office 365. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Pour rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer d’offres Microsoft 365 ou Office 365. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : 'Set-CsUser-Identity "Amos Marble"-EnterpriseVoiceEnabled $true.
 
 - Pour en savoir plus sur les offres d’appels, reportez-vous à la section [système téléphonique et](calling-plan-landing-page.md) offres [d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md).
 
@@ -174,11 +174,11 @@ Les agents d’appel sélectionnés doivent être l’un des éléments suivants
 - Utilisateurs de Skype entreprise sur site
 
   > [!NOTE]
-  > Cela s’applique également si vous souhaitez rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne. Ces personnes doivent disposer d’une licence de **système téléphonique** et d’une voix entreprise activée *ou* avoir un plan d’appels. Pour plus d’informations, reportez-vous à la section [affectation de licences Skype entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [attribution de licences Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou le [plan d’appels qui vous convient ?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > Cela s’applique également si vous souhaitez rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne. Ces personnes doivent disposer d’une licence de système téléphonique et d’une voix entreprise activée *ou* avoir un plan d’appels. Pour plus d’informations, reportez-vous à la section [affectation de licences Skype entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [attribution de licences Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou le [plan d’appels qui vous convient ?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
    Pour activer un agent pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Utilisateurs disposant d’une licence de **système téléphonique** ou d’une offre d’appels ajoutée à un groupe Microsoft 365, à une liste de distribution ou à un groupe de sécurité à extension messagerie. Lorsque vous ajoutez un agent dans une liste de distribution ou un groupe de sécurité en tant qu’agent de file d’attente d’appels, le premier appel peut durer jusqu’à trois heures. Une liste de distribution ou un groupe de sécurité nouvellement créé peut nécessiter jusqu’à 48 heures de disponibilité pour une utilisation avec des files d’attente d’appels. Les nouveaux groupes Microsoft 365 récemment créés sont disponibles presque immédiatement.
+- Utilisateurs disposant d’une licence de système téléphonique ou d’une offre d’appels ajoutée à un groupe Microsoft 365, à une liste de distribution ou à un groupe de sécurité à extension messagerie. Lorsque vous ajoutez un agent dans une liste de distribution ou un groupe de sécurité en tant qu’agent de file d’attente d’appels, le premier appel peut durer jusqu’à trois heures. Une liste de distribution ou un groupe de sécurité nouvellement créé peut nécessiter jusqu’à 48 heures de disponibilité pour une utilisation avec des files d’attente d’appels. Les nouveaux groupes Microsoft 365 récemment créés sont disponibles presque immédiatement.
 
 - Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
 
@@ -274,11 +274,23 @@ Le paramètre par défaut est de 30 secondes, mais peut être configuré pour un
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger vers** Lorsque vous choisissez cette option, sélectionnez l’une des options suivantes :
 
-  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de **système téléphonique** et est activé pour voix entreprise ou avoir un plan d’appels. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Pour cela, sélectionnez une personne au sein de votre organisation et configurez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
+  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et est activé pour voix entreprise ou avoir un plan d’appels. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Pour cela, sélectionnez une personne au sein de votre organisation et configurez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
 
   Pour en savoir plus sur les licences requises pour la boîte vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
   - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
+
+  - **Numéro de téléphone externe** Choisissez cette valeur pour transférer l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+
+    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
+        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
+    - Le numéro de téléphone sortant affiché est déterminé comme suit :
+        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
+        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
+            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
+            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
+    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
 * * *
 
@@ -292,11 +304,23 @@ La valeur Timeout peut être définie en secondes, à des intervalles de 15 seco
 
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger cet appel vers** Lorsque vous choisissez cette option, vous disposez des options suivantes :
-  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de **système téléphonique** et est activé pour voix entreprise ou avec des plans d’appels. Pour la configurer de manière à ce que la personne qui appelle puisse être envoyée à la boîte vocale, sélectionnez une personne dans votre organisation et définissez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
+  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et est activé pour voix entreprise ou avec des plans d’appels. Pour la configurer de manière à ce que la personne qui appelle puisse être envoyée à la boîte vocale, sélectionnez une personne dans votre organisation et définissez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
 
   Pour en savoir plus sur les licences requises pour la boîte vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
   - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
+
+  - **Numéro de téléphone externe** Choisissez cette valeur pour transférer l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+
+    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
+        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
+    - Le numéro de téléphone sortant affiché est déterminé comme suit :
+        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
+        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
+            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
+            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
+    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Changer l’identification de l’appelant pour les appels sortants
 
@@ -340,7 +364,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
   - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

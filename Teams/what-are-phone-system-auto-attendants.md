@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur les standards automatiques du Cloud et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menu pour localiser et transférer des appels vers des utilisateurs ou des services.
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665186"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077639"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
@@ -42,7 +42,7 @@ Pour configurer un standard automatique pour le système téléphonique, accéde
 Le standard automatique Cloud offre les fonctionnalités suivantes :
   
 - Il propose des messages d'accueil spécifiques de l'entreprise ou à vocation informative.
-- Il propose des menus d'entreprise personnalisés. Vous pouvez personnaliser ces menus afin de disposer de plusieurs niveaux.
+- It can provide custom corporate menus. You can customize these menus to have more than one level.
 - Il fournit une recherche dans l’annuaire permettant aux personnes qui rejoignent la recherche d’un nom dans l’annuaire de l’organisation.
 - Il permet à une personne qui appelle pour joindre ou laisser un message à une personne de votre organisation.
 - Il prend en charge plusieurs langues pour les invites, la conversion de texte par synthèse vocale et la reconnaissance vocale.
@@ -71,8 +71,9 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
     > [!IMPORTANT]
     > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à des standards automatiques. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés.
 
-- Un système de standard automatique complet implique généralement plusieurs standards automatiques et peut uniquement nécessiter un seul numéro de téléphone pour le standard automatique de niveau supérieur ou d’entrée. Les autres standards automatiques ou files d’attente d’appels dans le système complet ne nécessitent qu’un numéro de téléphone si vous souhaitez fournir plusieurs points d’entrée dans le système.
-- Il est possible d’appliquer plusieurs numéros de téléphone à un standard automatique en associant plus d’un compte de ressources à un standard automatique.
+- Un système de standard automatique complet implique généralement plusieurs standards automatiques.
+- Il est possible d’appliquer plusieurs numéros de téléphone aux standards automatiques d’entrée de niveau.
+- Les standards automatiques sans entrée ou les files d’attente d’appels dans le système complet ne nécessitent qu’un numéro de téléphone s’ils effectuent des appels RTC en sortie.
   
 ## <a name="feature-overview"></a>Présentation de la fonctionnalité
 
@@ -239,7 +240,7 @@ Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéro
 > [!NOTE]
 > Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour savoir comment procéder, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
