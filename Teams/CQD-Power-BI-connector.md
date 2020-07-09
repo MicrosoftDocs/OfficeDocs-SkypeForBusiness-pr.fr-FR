@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Installation de Power BI Connector pour utiliser les modèles de requête de tableau de bord de qualité d’appel (bord)
+ms.openlocfilehash: d474ad6e3f10b0aefaafcd06bb17a5959b65846d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690930"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085570"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
-Pour pouvoir utiliser les modèles de requête Power BI pour bord (fichiers PBIX), vous devez installer Power BI Connector pour Microsoft bord, à l’aide du fichier *MicrosoftCallQuality. pqx* inclus dans le [Téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Pour pouvoir utiliser les modèles de requête Power BI (fichiers PBIX) pour le tableau de bord de qualité des appels de Microsoft Teams (bord), vous devez installer Power BI Connector pour Microsoft bord, à l’aide du fichier *MicrosoftCallQuality. pqx* inclus dans le [Téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 Lire [Utilisez Power bi pour analyser les données de bord pour les équipes](CQD-Power-BI-query-templates.md) et en savoir plus sur ces modèles.
 
@@ -178,6 +178,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est pré
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser des données bord pour teams](CQD-Power-BI-query-templates.md)

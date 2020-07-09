@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 689a66eea93d71c6b083bfd370ba1c73b6a28245
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691300"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085800"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -197,7 +197,7 @@ Lorsque vous planifiez un déploiement à grande échelle des appareils personne
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>Résoudre les problèmes de qualité de réunion et d’appel 
 
-Teams offre deux façons de surveiller et de résoudre les problèmes de qualité d’appel : [Analytique des appels et Tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md). L’analytique des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés aux appels et réunions spécifiques pour chaque utilisateur. L’analytique des appels est conçue pour aider les administrateurs et agents du support technique à résoudre les problèmes de qualité d’appel concernant des appels spécifiques, alors que le Tableau de bord de qualité des appels est conçu pour aider les administrateurs et les ingénieurs réseau à optimiser un réseau. Le Tableau de bord de qualité des appels se concentre sur des utilisateurs spécifiques et examine plutôt des informations globales pour l'ensemble d'une organisation Teams. 
+Teams offre deux façons de surveiller et de résoudre les problèmes de qualité d’appel : [Analytique des appels et Tableau de bord de qualité des appels](monitor-call-quality-qos.md). L’analytique des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés aux appels et réunions spécifiques pour chaque utilisateur. L’analytique des appels est conçue pour aider les administrateurs et agents du support technique à résoudre les problèmes de qualité d’appel concernant des appels spécifiques, alors que le Tableau de bord de qualité des appels est conçu pour aider les administrateurs et les ingénieurs réseau à optimiser un réseau. Le Tableau de bord de qualité des appels se concentre sur des utilisateurs spécifiques et examine plutôt des informations globales pour l'ensemble d'une organisation Teams. 
 
 |Posez-vous la question|Action |
 |------------|-------|

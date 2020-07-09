@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905406"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085960"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -119,7 +119,7 @@ La planification de la configuration et du déploiement englobe les principales 
 
 Chaque appareil de salle Microsoft teams nécessite un compte de ressources dédié et unique qui doit être activé pour Microsoft teams ou Skype entreprise et Exchange. Ce compte doit avoir une boîte aux lettres de salle hébergée sur Exchange et être activé comme salle de réunion dans le déploiement teams ou Skype entreprise. Dans le cas d’Exchange, le traitement du calendrier doit être configuré de manière à ce que l’appareil puisse automatiquement accepter les demandes de réunion entrantes. Pour plus d’informations sur la création de comptes, reportez-vous à [configurer des comptes pour les salles Microsoft teams](rooms-configure-accounts.md). 
 
-**Conseil Pro** : rendez les noms d’affichage de ces comptes descriptifs et faciles à comprendre. Il s’agit des noms que les utilisateurs verront lors de la recherche et de l’ajout de systèmes de salle Microsoft teams à des réunions. Certaines organisations utilisent le*nom*de la salle de *site*-(*capacité maximale*de la salle)-RS, par exemple Curie, une salle de conférence de 12 personnes à Londres, peut présenter le nom d’affichage lon-Curie (12)-RS. 
+**Conseil Pro** : rendez les noms d’affichage de ces comptes descriptifs et faciles à comprendre. Il s’agit des noms que les utilisateurs verront lors de la recherche et de l’ajout de systèmes de salle Microsoft teams à des réunions. Certaines organisations utilisent le nom de la salle de *site* - *Room Name*(*capacité maximale*de la salle)-RS, par exemple Curie, une salle de conférence de 12 personnes à Londres, peut présenter le nom d’affichage lon-Curie (12)-RS. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Lors de la planification du déploiement des salles de Microsoft Teams, vous ave
 | Déploiement de plus de 50 équipements de salles de Microsoft Teams, déploiement de périphériques auprès de plusieurs fournisseurs ou demandant des agents spécifiques à une organisation dans le cadre du déploiement. | Utilisez une plateforme de build et de distribution de logiciels basée sur une séquence de tâches, telle que [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de développer une convention d’affectation de noms pour les déploiements de Microsoft Teams, ce qui permet au personnel de support de retrouver facilement les salles de Microsoft teams pour lesquelles il y a eu une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la*salle* de*site*-(MTR-lon-Curie). 
+**Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de développer une convention d’affectation de noms pour les déploiements de Microsoft Teams, ce qui permet au personnel de support de retrouver facilement les salles de Microsoft teams pour lesquelles il y a eu une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la salle de*site* - *Room Name* (MTR-lon-Curie). 
 
 Dans le cadre du déploiement, vous devez également prendre en considération votre stratégie de gestion et de configuration des [comptes locaux](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) créés par le programme d’installation de l’application Microsoft Teams.
 
@@ -188,7 +188,7 @@ Vous pouvez utiliser [Remote PowerShell](rooms-operations.md#remote-management-u
 
 Une fois le système de salle Microsoft teams déployé, vous devez le tester. Vérifiez que les fonctionnalités répertoriées dans l' [aide de Microsoft teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) pour travailler sur l’appareil déployé. Nous recommandons fortement aux équipes de déploiement de vérifier que Microsoft teams se connecte à la suite Microsoft Operations Management (si utilisée). Il est également important de passer des appels et des réunions de test pour vérifier la qualité. Pour plus d’informations, consultez cette [liste de vérification de déploiement utile](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Nous vous recommandons de configurer les fichiers de construction pour le tableau de bord de qualité des appels dans le cadre d’équipes générales ou du lancement de Skype entreprise, ainsi que le processus de vérification de la qualité de l’expertise. Pour plus d’informations, reportez-vous au [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide). 
+Nous vous recommandons de configurer les fichiers de construction pour le tableau de bord de qualité des appels dans le cadre d’équipes générales ou du lancement de Skype entreprise, ainsi que le processus de vérification de la qualité de l’expertise. Pour plus d’informations, voir [améliorer et surveiller la qualité d’appel pour teams](../monitor-call-quality-qos.md). 
 
 ### <a name="asset-management"></a>Gestion des ressources
 

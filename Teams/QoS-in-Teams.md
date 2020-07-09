@@ -1,12 +1,11 @@
 ---
 title: Implémenter la qualité de service dans Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: LolaJacobsen
+ms.author: lolaj
 manager: Serdars
-ms.date: 12/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
 description: Découvrez comment préparer le réseau de votre organisation à la qualité de service (QoS) dans Microsoft Teams.
 localization_priority: Normal
@@ -21,40 +20,72 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef2fca810a7125c4150ff4de2c3eea8fd7970d2e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665706"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085280"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
-Cet article va vous aider à préparer le réseau de votre organisation à la qualité de service (QoS) dans Microsoft Teams. Si vous prenez en charge un groupe de nombreux utilisateurs et qu’ils rencontrent des problèmes mentionnés ci-dessous, vous devez probablement implémenter QoS. Une petite entreprise avec peu d’utilisateurs peut ne pas avoir besoin de la qualité de service (QoS), mais même celle-ci peut être utile.
+La qualité de service (QoS) dans Microsoft teams permet d’autoriser le trafic réseau en temps réel, qui est sensible aux retards de réseau (par exemple, les flux vocaux ou vidéo) en « Cut Line », devant le trafic moins sensible (par exemple, le téléchargement d’une nouvelle application, où le téléchargement d’une seconde version supplémentaire n’est pas une solution importante). La fonction QoS identifie et marque tous les paquets en flux temps réel (à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, plus d’informations sur celles-ci sont disponibles), ce qui permet à votre réseau de transmettre des flux vocaux, vidéo et de partage d’écran une portion dédiée de la bande passante réseau
 
-La qualité de service (QoS) est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour « couper ligne » devant le trafic moins sensible (comme le téléchargement d’une nouvelle application, où une seconde supplémentaire à télécharger n’est pas très importante). La fonction QoS identifie et marque tous les paquets en flux temps réel (à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, plus d’informations sur celles-ci sont disponibles), ce qui permet à votre réseau de transmettre des flux vocaux, vidéo et de partage d’écran une portion dédiée de la bande passante réseau
+Si vous prenez en charge un groupe de nombreux utilisateurs et qu’ils rencontrent des problèmes décrits ci-dessous, vous devez probablement implémenter QoS. Une petite entreprise avec peu d’utilisateurs peut ne pas avoir besoin de la qualité de service (QoS), mais même celle-ci peut être utile.
 
 Sans la qualité de service (QoS), vous risquez de rencontrer les problèmes de qualité suivants dans les fonctionnalités audio et vidéo :
 
-- Gigue : paquets multimédias entrants à des tarifs différents, qui peuvent entraîner l’absence de mots ou de syllabes dans les appels.
-- Perte de paquets : paquets rejetés, qui peuvent également entraîner une baisse de la qualité de la voix et des difficultés à comprendre la parole.
-- Durée de l’aller-retour retardé (RTT) : les paquets multimédias prenaient un temps considérable pour joindre leurs destinataires, ce qui a pour effet de retarder les utilisateurs.
+- Gigue : paquets multimédias entrants à des tarifs différents, qui peuvent entraîner l’absence de mots ou de syllabes dans les appels
+- Perte de paquets – paquets rejetés, ce qui peut entraîner une diminution de la qualité de la voix et des difficultés à comprendre les paroles
+- Durée de l’aller-retour retardé (RTT) : les paquets multimédias prenaient un temps considérable pour joindre leurs destinataires, ce qui a pour effet de retarder les utilisateurs
 
-Le moyen le plus complexe de traiter ces problèmes consiste à augmenter la taille des connexions de données, à la fois en interne et hors Internet. Étant donné qu’il s’agit souvent de coûts, la fonction QoS fournit un moyen de gérer plus efficacement les ressources que vous avez au lieu d’ajouter de nouvelles ressources. Pour résoudre les problèmes de qualité d’utilisation de la qualité de service (QoS) sur l’ensemble de l’implémentation, ajoutez une connectivité uniquement si nécessaire.
+Le moyen le plus complexe de traiter ces problèmes consiste à augmenter la taille des connexions de données, à la fois en interne et hors Internet. Étant donné qu’il s’agit souvent de coûts, la fonction QoS fournit un moyen de gérer plus efficacement les ressources que vous avez au lieu d’ajouter de la bande passante. Pour résoudre les problèmes de qualité, nous vous recommandons de commencer par utiliser QoS, puis d’ajouter de la bande passante uniquement si nécessaire.
 
-Pour que la qualité de service (QoS) s’applique, vous devez appliquer des paramètres de QoS cohérents au sein de votre organisation, car une partie du chemin d’accès qui ne prend pas en charge les priorités de QoS peut nuire à la qualité des appels, de la vidéo et des partages d’écran. Cela inclut l’application de paramètres à tous les PC ou appareils utilisateur, commutateurs réseau, routeurs vers Internet et service en ligne Teams.
+Pour que la qualité de service (QoS) s’applique, vous devez appliquer des paramètres de QoS cohérents dans l’ensemble de votre organisation, car une partie du chemin d’accès qui ne prend pas en charge les priorités de QoS peut nuire à la qualité des appels, de la vidéo et du partage d’écran. Cela inclut l’application de paramètres à tous les PC ou appareils utilisateur, commutateurs réseau, routeurs vers Internet et service équipes.
 
 _Figure 1. Relation entre les réseaux d’une organisation et Microsoft 365 ou les services 365 Office_
 
 ![Illustration de la relation entre les réseaux et les services](media/Qos-in-Teams-Image1.png "Relation entre les réseaux d’une organisation et les services 365 Microsoft 365 ou Office : le réseau local et les appareils se connectent à un réseau d’interconnexion, qui à son tour s’associe à Microsoft 365 365 ou aux services d’audioconférence Cloud et voix sur le Cloud.")
 
-Dans la plupart des cas, le réseau qui se connecte à votre entreprise avec le Cloud sera un réseau non géré dans lequel vous ne pourrez pas définir de manière fiable les options de QoS. L’un des choix disponibles pour l’adresse QoS de bout en bout est [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mais nous vous recommandons tout de même d’implémenter QoS sur votre réseau local pour le trafic entrant et sortant. Cela permettra d’augmenter la qualité des charges de travail de communication en temps réel pendant votre déploiement et de soulager chokepoints.
+## <a name="qos-implementation-checklist"></a>Liste de vérification de l’implémentation QoS
 
-## <a name="verify-your-network-is-ready"></a>Vérifier que votre réseau est prêt
+À un niveau élevé, procédez comme suit pour implémenter QoS :
+
+1. [Vérifier que votre réseau est prêt](#make-sure-your-network-is-ready)
+
+1. [Sélectionner une méthode d’implémentation de QoS](#select-a-qos-implementation-method)
+
+1. [Choisir les plages de port initiales pour chaque type de média](#choose-initial-port-ranges-for-each-media-type)
+
+1. Mettre en œuvre des paramètres de QoS :
+   1. Sur les clients utilisant un objet de stratégie de groupe pour [définir les plages de port de périphériques client et les marques](QoS-in-Teams-clients.md)
+   2. Sur les routeurs (voir la documentation du fabricant) ou sur d’autres appareils réseau. Il s’agit de listes de Contrã’le de niveau de service, ou simplement de définir des files d’attente de QoS et des marques DSCP.
+
+      > [!IMPORTANT]
+      > Nous vous recommandons d’implémenter ces stratégies de QoS à l’aide des ports sources du client et d’une adresse IP source et de destination « tout. » Le trafic multimédia entrant et sortant est alors détecté sur le réseau interne.  
+
+   3. [Définir la manière dont vous souhaitez gérer le trafic multimédia pour les réunions teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+
+5. [Validez la mise en œuvre](#validate-your-qos-implementation) de la qualité de service en analysant le trafic d’équipe sur le réseau.
+
+Lorsque vous préparez la mise en œuvre de la qualité de service (QoS), gardez à l’esprit les recommandations suivantes :
+
+- Le chemin le plus court à Microsoft 365 est préférable
+- La fermeture des ports entraîne uniquement une dégradation de la qualité
+- Tout obstacle entre, tels que les proxys, n’est pas recommandé
+- Limiter le nombre de tronçons :
+  - Client vers Edge réseau : 3 à 5 tronçons
+  - Fournisseur de services Internet pour Microsoft Network Edge – 3 tronçons
+  - Destination réseau Microsoft de destination finale-sans pertinence
+
+Pour plus d’informations sur la configuration des ports de pare-feu, voir [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md).
+
+
+## <a name="make-sure-your-network-is-ready"></a>Vérifier que votre réseau est prêt
 
 Si vous envisagez une implémentation QoS, vous devez déjà avoir déterminé vos exigences de bande passante et d’autres [exigences réseau](prepare-network.md). 
   
-  La congestion du trafic sur un réseau aura un impact considérable sur la qualité multimédia. Un manque de bande passante entraîne une dégradation des performances et une expérience utilisateur médiocre. Au fur et à mesure de l’adoption des équipes, vous pouvez utiliser la création de rapports, l' [analyse des appels et le tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md) pour identifier les problèmes, puis effectuer des ajustements à l’aide de la fonctionnalité QoS et de
+La congestion du trafic sur un réseau aura un impact considérable sur la qualité multimédia. Un manque de bande passante entraîne une dégradation des performances et une expérience utilisateur médiocre. En vertu du développement et de l’utilisation des équipes, vous pouvez utiliser la création de rapports, l' [analyse des appels par utilisateur](use-call-analytics-to-troubleshoot-poor-call-quality.md)et le [tableau de bord de qualité d’appel (bord)](turning-on-and-using-call-quality-dashboard.md) pour identifier les problèmes, puis effectuer des ajustements à l’aide de la fonction QoS et des ajouts
 
 ### <a name="vpn-considerations"></a>Considérations relatives aux réseaux VPN
 
@@ -68,7 +99,7 @@ Pour garantir la qualité de service (QoS), les appareils réseau doivent dispos
 
 Lorsque le trafic réseau entre dans un routeur, le trafic est placé dans une file d’attente. Si aucune stratégie de QoS n’est configurée, il n’y a qu’une seule file d’attente, et toutes les données sont traitées comme étant de type First-in, premier niveau avec la même priorité. Cela signifie que le trafic vocal (qui est très sensible aux retards) peut rester bloqué derrière le trafic pour lequel un délai de quelques millisecondes supplémentaires ne serait pas un problème.
 
-Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l’aide de l’une des nombreuses fonctionnalités de gestion de la congestion (par exemple, la mise en file d’attente de priorités de Cisco et la mise en file d’attente équitable de [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)), ainsi que des fonctionnalités de prévention de la congestion (par exemple, WRED de détection de niveau aléatoire [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
+Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l’aide de l’une des nombreuses fonctionnalités de gestion de la congestion (par exemple, la mise en file d’attente équitable de Cisco et la mise en [attente normale basée sur la classe (CBWFQ)](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641), ainsi que des fonctionnalités de prévention de congestion ( [WRED)](https://en.wikipedia.org/wiki/Weighted_random_early_detection).
 
 _Figure 2. Exemples de files d’attente QoS_
 
@@ -80,19 +111,19 @@ Une simple analogie est que la qualité de service (QoS) crée des « couloirs 
 
 Vous pouvez implémenter QoS par le biais du balisage basée sur le port, à l’aide des listes de contrôle d’accès (ACL) sur les routeurs de votre réseau. Le balisage basé sur les ports est la méthode la plus fiable, car elle fonctionne dans les environnements Windows, Mac et Linux et est la plus simple à implémenter. Les clients mobiles ne fournissent aucun mécanisme de marquage du trafic à l’aide de valeurs DSCP, de sorte qu’ils nécessitent cette méthode.  
 
-À l’aide de cette méthode, le routeur de votre réseau examine un paquet entrant et, si le paquet est reçu à l’aide d’un certain port ou d’une plage de ports, il l’identifie en tant que type de média, et le place dans la file d’attente pour ce type, en ajoutant une marque [DSCP](https://tools.ietf.org/html/rfc2474) prédéfinie à l’en-tête de paquets IP, de manière à ce
+Le routeur de votre réseau examine un paquet entrant et, si le paquet est reçu à l’aide d’un certain port ou d’une plage de ports, il l’identifie en tant que type de média et le place dans la file d’attente pour ce type, en ajoutant une marque [DSCP](https://tools.ietf.org/html/rfc2474) prédéfinie à l’en-tête de paquet IP, afin que d’autres appareils puissent reconnaître son type de trafic et
 
 Même si cela fonctionne sur différentes plateformes, le trafic est uniquement marqué sur le périmètre du réseau WAN (et non sur l’ordinateur client) et entraîne une surcharge de gestion. Pour obtenir des instructions sur l’implémentation de cette méthode, consultez la documentation fournie par le fabricant du routeur.
 
-* * *
+### <a name="insert-dscp-markers"></a>Insérer des marqueurs DSCP
 
-Vous pouvez également implémenter une QoS implémentée à l’aide d’un objet de stratégie de groupe (GPO) pour diriger les appareils clients afin d’insérer un marqueur DSCP dans les en-têtes de paquets IP identifiant ce type de trafic particulier (par exemple, voix). Les routeurs et autres périphériques réseau peuvent être configurés pour reconnaître ce point et placer le trafic dans une file d’attente séparée et de priorité élevée.
+Vous pouvez également implémenter QoS à l’aide d’un objet de stratégie de groupe (GPO) pour diriger les appareils clients pour insérer un marqueur DSCP dans les en-têtes de paquets IP identifiant ce type de trafic particulier (par exemple, audio). Les routeurs et autres périphériques réseau peuvent être configurés pour reconnaître ce point et placer le trafic dans une file d’attente séparée et de priorité élevée.
 
 Bien que ce scénario soit entièrement valide, il fonctionne uniquement pour les clients Windows associés à un domaine. Tout appareil qui n’est pas un client Windows qui n’est pas membre du domaine ne sera pas activé pour la balise DSCP. Les clients tels que Mac OS disposent de balises codées en dur et balisent toujours le trafic.
 
 Sur le côté de plus, le contrôle du marquage DSCP via un objet de stratégie de groupe garantit que tous les ordinateurs appartenant à un domaine reçoivent les mêmes paramètres et que seul un administrateur peut les gérer. Les clients qui peuvent utiliser l’objet de stratégie de groupe seront balisés sur l’appareil d’origine, puis les appareils réseau configurés pourront reconnaître le flux en temps réel par le code DSCP et lui attribuer une priorité appropriée.
 
-* * *
+### <a name="best-practice"></a>Meilleure pratique
 
 Nous vous recommandons d’utiliser une combinaison de marques DSCP au niveau du point de terminaison et des ACL de port sur les routeurs, le cas échéant. L’utilisation d’un objet de stratégie de groupe pour intercepter la plupart des clients, et l’utilisation du balisage DSCP par port permet de garantir que le traitement de la QoS (au moins partiellement) est appliqué au niveau du service.
 
@@ -105,8 +136,6 @@ Une fois tous les appareils du réseau utilisant les mêmes classifications, mar
 La valeur DSCP indique à une connexion réseau configurée quelle priorité définir un paquet ou un flux, si la marque DSCP est affectée par des clients ou le réseau lui-même en fonction des paramètres de la liste de contrôle d’accès. Chaque charge de travail multimédia obtient sa propre valeur DSCP unique (d’autres services peuvent permettre aux charges de travail de partager un marquage DSCP, teams n’est pas) et une plage de port définie et séparée utilisée pour chaque type de média. Dans d’autres environnements, il est possible qu’une stratégie QoS existe en place, ce qui vous permet de déterminer la priorité des charges de travail réseau.
 
 La taille relative des plages de port pour différentes charges de travail en flux continu en temps réel définit le prorata de la bande passante disponible totale dédiée à cette charge de travail. Pour revenir à notre analogie initiale plus ancienne : une lettre portant le cachet « messagerie » peut être prélevée dans une heure à l’aéroport le plus proche, tandis qu’un petit emballage marqué « courrier en nombre » peut patienter pendant une journée avant de voyager sur terre sur une série de camions.
-
-Le tableau suivant répertorie les marquages DSCP requis et les plages de ports multimédias correspondant aux suggestions utilisées par teams et ExpressRoute. Ces plages peuvent servir de bon point de départ pour les clients qui ne sont pas certain de ce qu’ils peuvent utiliser dans leur propre environnement. Pour des informations complémentaire, consultez les [Exigences de qualité de service d’ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Plages de port initiales recommandées_
 
@@ -129,84 +158,29 @@ Tenez compte des points suivants lorsque vous utilisez les paramètres suivants�
 Si vous avez déjà déployé Skype entreprise Online, notamment le balisage QoS et les plages de port, et que vous déployez désormais Teams, teams respecte la configuration existante et utilise les mêmes plages de port et balisage que le client Skype entreprise. Dans la plupart des cas, aucune configuration supplémentaire n’est nécessaire.
 
 > [!NOTE]
-> Si vous utilisez le balisage QoS du nom de l’application via une stratégie de groupe, vous devez ajouter Teams. exe comme nom de l’application.
+> Si vous utilisez le balisage QoS du nom de l’application via une stratégie de groupe, vous devez ajouter Teams.exe comme nom de l’application.
 
-## <a name="qos-implementation-steps"></a>Étapes d’implémentation de QoS
-
-À un niveau élevé, l’implémentation de QoS nécessite les étapes suivantes :
-
-1. [Vérifier que votre réseau est prêt](#verify-your-network-is-ready)
-2. [Sélectionner une méthode d’implémentation de QoS](#select-a-qos-implementation-method)
-3. [Choisir les plages de port initiales pour chaque type de média](#choose-initial-port-ranges-for-each-media-type)
-4. Mettre en œuvre des paramètres de QoS :
-   1. Sur les clients utilisant un objet de stratégie de groupe pour [définir les plages de port de périphériques client et les marques](QoS-in-Teams-clients.md)
-   2. Sur les routeurs (voir la documentation du fabricant) ou sur d’autres appareils réseau. Il s’agit de listes de Contrã’le de niveau de service, ou simplement de définir des files d’attente de QoS et des marques DSCP.
-
-      > [!IMPORTANT]
-      > Nous vous recommandons d’implémenter ces stratégies de QoS à l’aide des ports sources du client et d’une adresse IP source et de destination « tout. » Le trafic multimédia entrant et sortant est alors détecté sur le réseau interne.  
-
-   3. Dans le [Centre d’administration teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
-5. [Validez l’implémentation QoS](#validate-the-qos-implementation) en analysant le trafic des équipes sur le réseau.
-
-Lorsque vous préparez la mise en œuvre de la qualité de service (QoS), gardez à l’esprit les recommandations suivantes :
-
-- Le chemin le plus court vers Microsoft 365 ou Office 365 est préférable.
-- La fermeture des ports entraîne uniquement une dégradation de la qualité.
-- Tout obstacle, tel qu’un proxy, n’est pas recommandé.
-- Limiter le nombre de tronçons :
-  - Client vers Edge réseau : 3 à 5 tronçons.
-  - Fournisseur de services Internet pour Microsoft Network Edge – 3 tronçons
-  - Destination réseau Microsoft de destination finale-sans pertinence
-
-Pour plus d’informations sur la configuration des ports de pare-feu, consultez les [URL et les plages d’adresses IP de Microsoft 365 et Office 365](office-365-urls-ip-address-ranges.md).
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Gestion des ports sources dans le centre d’administration teams
 
-Dans Teams, les ports sources QoS utilisés par les différentes charges de travail doivent être gérés activement et ajustés selon les besoins. Le fait de faire référence à la table dans [choisir des plages de port initiales pour chaque type de média](#choose-initial-port-ranges-for-each-media-type), les plages de port sont ajustables, mais les marques DSCP ne peuvent pas être configurées. Une fois ces paramètres implémentés, il est possible que vous ayez besoin de plus ou moins de ports pour un type de média donné. Le [tableau de bord d’analyse des appels et de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md) doit être utilisé pour décider d’ajuster les plages de port après la mise en œuvre d’équipes et périodiquement en fonction du changement.
+Dans Teams, les ports sources QoS utilisés par les différentes charges de travail doivent être gérés activement et ajustés selon les besoins. Le fait de faire référence à la table dans [choisir des plages de port initiales pour chaque type de média](#choose-initial-port-ranges-for-each-media-type), les plages de port sont ajustables, mais les marques DSCP ne peuvent pas être configurées. Une fois ces paramètres implémentés, il est possible que vous ayez besoin de plus ou moins de ports pour un type de média donné. Le tableau de bord d’analyse des appels et des appels de qualité d’appel [par utilisateur](use-call-analytics-to-troubleshoot-poor-call-quality.md) [(bord)](turning-on-and-using-call-quality-dashboard.md) doit être utilisé pour prendre une décision d’ajuster les plages de port après la mise en œuvre d’équipes et périodiquement en cas de changement.
 
 > [!NOTE]
-> Si vous avez déjà configuré la qualité de service (QoS) sur la base des plages de ports sources et des marques DSCP pour Skype entreprise Online, la même configuration s’applique aux équipes et aucune modification du client ou du réseau supplémentaire n’est nécessaire, mais vous devrez peut-être [définir les plages utilisées dans le centre d’administration teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) pour correspondre aux configurations de Skype entreprise online.
+> Si vous avez déjà configuré la qualité de service (QoS) sur la base des plages de ports sources et des marques DSCP pour Skype entreprise Online, la même configuration s’applique aux équipes et aucune modification du client ou du réseau supplémentaire n’est nécessaire, mais vous devrez peut-être [définir les plages utilisées dans teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) pour correspondre aux configurations de Skype entreprise online.
 
-Si vous avez déjà déployé Skype entreprise Server en local, il est possible que vous deviez réexaminer vos stratégies de QoS et les ajuster au besoin pour correspondre aux paramètres de plage de port que vous avez vérifiés pour une utilisation optimale des utilisateurs dans Teams.
+Si vous avez déjà déployé Skype entreprise Server en local, il est possible que vous deviez réexaminer vos stratégies de QoS et les ajuster pour correspondre aux paramètres de plage de port que vous avez vérifiés pour une utilisation optimale de l’utilisateur dans Teams.
 
-## <a name="validate-the-qos-implementation"></a>Valider l’implémentation QoS
+## <a name="validate-your-qos-implementation"></a>Valider votre implémentation QoS
 
-Pour que la qualité de service (QoS) soit effective, la valeur DSCP définie par l’objet de stratégie de groupe doit être présente aux deux extrémités d’un appel. En analysant le trafic généré par le client Teams, vous pouvez vérifier que la valeur DSCP n’est pas modifiée ou supprimée lorsque le trafic de charge de travail d’équipes traverse le réseau.
+Pour que la qualité de service (QoS) soit effective, la valeur DSCP définie par l’objet de stratégie de groupe doit être présente aux deux extrémités d’un appel. En analysant le trafic généré par le client Teams, vous pouvez vérifier que la valeur DSCP n’est pas modifiée ou supprimée lorsque le trafic de charge de travail d’équipes se déplace sur le réseau.
 
 De préférence, vous capturez le trafic sur le point de sortie du réseau. Pour cela, vous pouvez utiliser la mise en miroir de port sur un commutateur ou un routeur.
 
-### <a name="use-network-monitor-to-verify-dscp-values"></a>Utiliser le moniteur réseau pour vérifier les valeurs DSCP
 
-Moniteur réseau est un outil que vous pouvez [Télécharger auprès de Microsoft](https://www.microsoft.com/download/4865) pour analyser le trafic réseau.
-
-1. Sur le PC exécutant le moniteur réseau, connectez-vous au port configuré pour la mise en miroir de port et commencez la capture de paquets.
-
-2. Passez un appel à l’aide du client Teams. Vérifiez que le média a été établi avant de raccrocher.
-
-3. Arrêtez la capture.
-
-4. Dans le champ **filtre d’affichage** , utilisez l’adresse IP source du PC à l’origine de l’appel et affinez le filtre en définissant la valeur DSCP 46 (hex 0x2E) comme critère de recherche, comme le montre l’exemple suivant :
-
-    Source = = « 192.168.137.201 » et IPv4. DifferentiatedServicesField = = 0x2E
-
-    ![Filtres de capture d’écran de la boîte de dialogue Filtre d’affichage.](media/Qos-in-Teams-Image4.png "La boîte de dialogue Filtre d’affichage du moniteur réseau, montrant les filtres à appliquer.")
-
-5. Sélectionnez **appliquer** pour activer le filtre.
-
-6. Dans la fenêtre **Résumé du cadre** , sélectionnez le premier paquet UDP.
-
-7. Dans la fenêtre **Détails du cadre** , développez l’élément de liste IPv4 et notez la valeur à la fin de la ligne qui commence par **DSCP**.
-
-    ![Capture d’écran montrant les paramètres DSCP dans la boîte de dialogue Détails du cadre.](media/Qos-in-Teams-Image5.png "La boîte de dialogue Détails du cadre dans le moniteur réseau, en surlignant les paramètres DSCP.")
-
-Dans cet exemple, la valeur DSCP est définie sur 46. C’est correct, car le port source utilisé est 50019, ce qui indique qu’il s’agit d’une charge de travail vocale.
-
-Répétez la procédure de vérification pour chaque charge de travail marquée par l’objet de stratégie de groupe.
-
-## <a name="more-information"></a>Plus d’informations
+## <a name="related-topics"></a>Voir aussi
 
 [Vidéo : planification du réseau](https://aka.ms/teams-networking)
 
 [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 
-[ExpressRoute QoS requise](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[Implémenter QoS dans le client teams](QoS-in-Teams-clients.md)

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Utilisez le rapport de routage direct RTC bord pour surveiller et résoudre les problèmes de la fonction d’appel RTC dans Microsoft Teams.
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Utilisez le rapport de routage téléphonique RTC de Microsoft Teams (bord) pour surveiller et résoudre les problèmes de la fonction d’appel RTC de Microsoft Teams.
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221748"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085340"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Utilisation du rapport de routage direct RTC bord
 
-Nouveauté du 2020 mars, nous avons ajouté un rapport de routage direct RTC bord aux [modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Nouveauté du 2020 mars, nous avons ajouté un rapport de routage direct de tableau de bord de qualité des appels de Microsoft Teams (bord) vers nos [modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 Le rapport de routage direct RTC de bord (bord RTC direct Routing. PBiT) vous aide à comprendre les modèles d’utilisation et la qualité de vos services RTC. Utilisez ce rapport pour contrôler l’utilisation du service, les informations relatives à votre contrôleur de bordure de session (SBC), au service de téléphonie, aux paramètres réseau et aux détails du rapport d’efficacité réseau. Ces informations peuvent vous aider à identifier les problèmes, notamment le motif des appels interrompus. Par exemple, vous pouvez voir le nombre de chutes de volume ou le nombre d’appels qui sont affectés et la raison pour laquelle vous vous trouvez.
@@ -143,6 +143,8 @@ Si vous voyez un pique-notes sur l’un des quatre graphiques (latence, instabil
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser des données bord pour Microsoft teams](CQD-PSTN-report.md)
+
+[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

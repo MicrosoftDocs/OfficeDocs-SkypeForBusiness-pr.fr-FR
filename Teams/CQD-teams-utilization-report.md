@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Utilisez les rapports Power BI de Microsoft teams pour suivre l’utilisation de Microsoft teams au sein de votre organisation.
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: Utilisez les rapports Power BI d’utilisation des équipes pour accéder aux données de tableau de bord de qualité des appels de Microsoft Teams (bord) pour suivre l’utilisation de Microsoft teams au sein de votre organisation.
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978551"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085580"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Afficher l’utilisation de Microsoft teams dans Power BI à l’aide de données bord
 
 Nouveauté du 2020 mars, nous avons ajouté un rapport sur l’utilisation des équipes aux [modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
-Ce nouvel état d’utilisation de teams vous permet de déterminer la façon dont vos utilisateurs utilisent Microsoft Teams. Ces rapports sont destinés à être centralisés pour permettre à la fois aux administrateurs et aux leaders du marché d’avoir accès à ces données.
+Les nouveaux rapports d’utilisation de teams vous permettent de voir (et combien) vos utilisateurs utilisent Microsoft teams en accédant à des données de tableau de bord de qualité des appels de Teams (bord). Ces rapports sont destinés à être centralisés pour permettre à la fois aux administrateurs et aux leaders du marché d’avoir accès à ces données.
 
 Le rapport taux d’utilisation de Microsoft Team BI comporte deux rapports principaux : **[Résumé des appels et synthèse](#call-count-summary-report)** des **[minutes audio](#audio-minutes-summary-report)**. L' [utilisation quotidienne](#daily-usage), les détails de l' [audio régional](#regional-audio-details), les détails de la [Conférence](#conference-details) et les rapports de [liste d’utilisateurs](#user-list) sont lus quand un utilisateur tire parti des rapports d’exploration, indiqués dans les descriptions ci-dessous.
 
@@ -51,7 +51,7 @@ La page principale (Résumé du numéro d’appel) fournit immédiatement le nom
   ![Capture d’écran : rapports d’utilisation des équipes](media/CQD-teams-utilization-report4.png)
 
 Dans la section en bas à gauche de la page se trouve un tableau qui fournit des valeurs totales pour chaque type de média au cours de l’année écoulée. 
-    ![Capture d’écran : rapports](media/CQD-teams-utilization-report5.png) ![d’utilisation des équipes : rapports d’utilisation des équipes](media/CQD-teams-utilization-report6.png)   
+    ![Capture d’écran : rapports d’utilisation des équipes ](media/CQD-teams-utilization-report5.png) ![ : rapports d’utilisation des équipes](media/CQD-teams-utilization-report6.png)   
 
 À droite du tableau, un graphique à barres affiche les clients les plus utilisés (appels/flux) au cours des 30 derniers jours.
    ![Capture d’écran : rapports d’utilisation des équipes](media/CQD-teams-utilization-report7.png)
@@ -156,7 +156,7 @@ Le coin supérieur droit du graphique indique le nombre d’appels passés par c
 Le tableau inférieur fournit des informations détaillées sur les sessions auxquelles un utilisateur a participé au cours de cette heure. La colonne type d’échec permet de déterminer le résultat d’un appel. Les colonnes d’appareil de capture et de rendu sont utiles dans l’identification de la raison pour laquelle un appel a été signalé d’une mauvaise qualité.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
@@ -167,4 +167,6 @@ Le tableau inférieur fournit des informations détaillées sur les sessions aux
 [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489136"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086160"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -83,10 +83,10 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 <a name="bknetwork"> </a>
 
-Si vous utilisez la fonctionnalité Qualité de service [(QoS)](qos-in-teams.md) pour hiérarchiser le trafic réseau, vous pouvez activer les marqueurs QoS et définir des plages de ports pour chaque type de trafic média. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
+Si vous utilisez la qualité de service (QoS) pour définir la priorité du trafic réseau, vous pouvez activer les marqueurs de QoS et définir des plages de port pour chaque type de trafic multimédia. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
-> Si vous activez la Qualité de service (QoS) ou si vous modifiez les paramètres dans le centre d’administration Microsoft Teams pour le service Microsoft Teams, vous devez également [appliquer les paramètres correspondants à tous les appareils d’utilisateurs](QoS-in-Teams-clients.md) et tous les appareils de réseau interne afin d’implémenter totalement les modifications apportées à QoS dans Teams.
+> Si vous activez la qualité de service (QoS) ou modifiez les paramètres dans le centre d’administration Microsoft teams pour le service équipes, vous devrez également [appliquer des paramètres de correspondance à tous les appareils utilisateurs](QoS-in-Teams-clients.md) et à tous les périphériques réseau internes pour appliquer les modifications à QoS dans Teams.
 
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 1. Accédez au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>.

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b356d171ee8c1a66de2f69b0b0525c24220755
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522557"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085920"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -33,7 +33,9 @@ ms.locfileid: "44522557"
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
 
-Le [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide) inclut un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact élevé sur l’amélioration de l’interface utilisateur, comme illustré ci-dessous.
+## <a name="improve-and-monitor-call-quality"></a>Améliorer et surveiller la qualité des appels
+
+[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md) inclut un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact maximal sur l’amélioration de l’interface utilisateur, comme illustré ci-dessous.
 
 ![Illustration des principales zones à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux points à examiner lors de la vérification de la qualité de l’utilisation : audio, fiabilité et résultats d’une enquête utilisateur.")
 
@@ -51,8 +53,8 @@ En évaluant et en révisant en permanence les zones décrites dans le guide, vo
 
 - Sous-réseaux ou périphériques réseau problématiques
 
-Les recommandations fournies dans le guide sur la qualité de l’utilisation s’intéressent à l’utilisation du tableau de bord de qualité des appels (bord) en ligne comme outil principal permettant de signaler et d’examiner chaque zone décrite, de manière à optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
+Les recommandations fournies dans [améliorer et surveiller la qualité des appels pour les équipes](monitor-call-quality-qos.md) ont pour but de vous aider à utiliser le tableau de bord de qualité des appels (bord) en ligne en tant qu’outil principal pour signaler et examiner chaque zone décrite, en vous concentrant sur le son pour optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Nous vous conseillons vivement de le nommer rapidement. Ils doivent commencer à se familiariser avec le contenu du guide sur la [qualité de l’utilisation](https://aka.ms/qerguide).
+Nous vous conseillons vivement de le nommer rapidement. Après avoir été nommée, il doit commencer à se familiariser avec le contenu des [équipes pour améliorer et surveiller la qualité des appels](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

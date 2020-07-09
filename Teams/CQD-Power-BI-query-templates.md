@@ -16,18 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez Power BI pour analyser les données de bord pour Microsoft Teams.
-ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158961"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086180"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser des données bord pour Microsoft teams
 
 Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et enregistrer vos données bord.
 
-Pour les rapports bord dans Microsoft Teams, si vous préférez utiliser Power BI pour interroger et créer des rapports sur vos données, téléchargez nos modèles Power BI bord. Lorsque vous ouvrez les modèles dans Power BI, vous êtes invité à vous connecter à l’aide de vos informations d’identification d’administrateur bord. Vous pouvez personnaliser ces modèles de requête et les distribuer à toutes les personnes de votre organisation disposant d’une licence Power BI et d’autorisations d’administrateur bord.
+Pour les rapports de tableau de bord de qualité d’appel (bord) dans Microsoft Teams, si vous préférez utiliser Power BI pour interroger et créer des rapports sur vos données, téléchargez nos modèles Power BI bord. Lorsque vous ouvrez les modèles dans Power BI, vous êtes invité à vous connecter à l’aide de vos informations d’identification d’administrateur bord. Vous pouvez personnaliser ces modèles de requête et les distribuer à toutes les personnes de votre organisation disposant d’une licence Power BI et d’autorisations d’administrateur bord.
 
 Pour pouvoir utiliser ces fichiers PBIT, vous devez [installer le connecteur Power bi pour Microsoft bord](CQD-Power-BI-connector.md) à l’aide du fichier *MicrosoftCallQuality. pqx* inclus dans le [Téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 

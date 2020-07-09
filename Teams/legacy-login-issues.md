@@ -17,12 +17,12 @@ description: Résoudre les problèmes liés à la réception de messages et d’
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489159"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085150"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur les systèmes hérités
 ==============================================================
@@ -45,3 +45,8 @@ Pour plus d’informations, reportez-vous [à se connecter à Microsoft teams av
 ## <a name="skype-token-revocation"></a>Révocation de jeton Skype
 
 Lors de la modification/réinitialisation d’un mot de passe, les clients plus anciens ne recevront pas de messages et d’appels pendant une heure. Pour résoudre ce problème, redémarrez l’application ou accédez à un client plus récent.
+
+
+## <a name="related-topics"></a>Voir aussi
+
+[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

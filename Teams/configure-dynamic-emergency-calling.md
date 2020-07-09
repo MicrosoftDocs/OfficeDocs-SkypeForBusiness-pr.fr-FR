@@ -17,12 +17,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690880"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083154"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -74,6 +74,7 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 - Client Microsoft teams mobile pour les versions de client Apple iOS 1.0.92.2019121004 et App Store 1.0.92 et version ultérieure
 - Client mobile teams pour Android et Google Play Store version 1416/1.0.0.2019121201 et version ultérieure
 - Version de téléphone teams 1449/1.0.94.2019110802 et version ultérieure
+- Teams version 4.4.25.0 et versions ultérieures
 
 ## <a name="assign-emergency-addresses"></a>Attribution d’adresses de secours
 
@@ -208,7 +209,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - **Le routage direct des clients aux États-Unis** doit coordonné avec leur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Rubriques connexes
+ ## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

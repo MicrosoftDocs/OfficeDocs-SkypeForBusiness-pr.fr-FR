@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868121"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086221"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -32,7 +32,7 @@ Les équipes à l’échelle de l’organisation permettent aux administrateurs 
 
 ![Capture d’écran de l’option à l’échelle de l’Organisation pour créer une équipe à l’échelle de l’Organisation](media/create-org-wide-team.png "Capture d’écran de l’option à l’échelle de l’Organisation pour créer une équipe à l’échelle de l’Organisation")
 
-Lors de la création d’une équipe à l’échelle de l’organisation, tous les administrateurs généraux sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, une licence d’essai du cloud commercial Microsoft Teams lui est attribuée. Pour en savoir plus sur la licence d’évaluation, consultez [Gérer l’offre d’évaluation cloud commercial Teams](iw-trial-teams.md). 
+Lors de la création d’une équipe à l’échelle de l’organisation, tous les administrateurs généraux sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, l’utilisateur reçoit une licence exploratoire Microsoft Teams. Pour en savoir plus sur la licence exploratoire, voir [gérer la licence exploratoire de Microsoft teams](teams-exploratory.md). 
 
 Ces types de comptes ne sont pas ajoutés à votre équipe à l’échelle de l’organisation :
 

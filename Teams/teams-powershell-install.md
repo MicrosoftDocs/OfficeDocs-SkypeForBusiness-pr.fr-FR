@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944091"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085880"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installer Microsoft teams PowerShell
 
@@ -26,7 +26,7 @@ Cet article explique comment installer le module Microsoft teams PowerShell à l
 
 ## <a name="requirements"></a>Configuration requise
 
-PowerShell teams fonctionne avec PowerShell 6.2.4 et versions ultérieures sur toutes les plateformes. Elle est également prise en charge dans PowerShell 5,1 sous Windows. Installez la [dernière version de PowerShell](/powershell/scripting/install/installing-powershell) disponible pour votre système d’exploitation. Teams PowerShell n’a aucune configuration requise supplémentaire lorsqu’il est exécuté sur PowerShell 6.2.4 et versions ultérieures.
+Teams PowerShell nécessite PowerShell 5,1 ou une version ultérieure sur toutes les plateformes. Installez la [dernière version de PowerShell](/powershell/scripting/install/installing-powershell) disponible pour votre système d’exploitation.
 
 > [!WARNING]
 > Il existe des problèmes connus dans PowerShell 7 et teams PowerShell. Pour une utilisation optimale, nous vous recommandons d’utiliser PowerShell 5,1.
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 Par défaut, la Galerie PowerShell (PSGallery) n’est pas configurée en tant que référentiel approuvé pour **PowerShellGet**. Lorsque vous utilisez PSGallery pour la première fois, le message suivant s’affiche :
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Répondez `Yes` ou `Yes to All` pour poursuivre l’installation.
+Répondez **Yes** ou **Yes à All** pour continuer l’installation.
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Installer teams public preview
@@ -137,7 +137,7 @@ Uninstall-Module MicrosoftTeams
 
 Vous êtes maintenant prêt à gérer teams à l’aide de teams PowerShell. Pour commencer, voir [gestion d’équipes avec teams PowerShell](teams-powershell-managing-teams.md) .
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des équipes avec PowerShell teams](teams-powershell-managing-teams.md)
 

@@ -1,10 +1,10 @@
 ---
-title: Dimensions et mesures-tableau de bord de qualité des appels
+title: Dimensions et mesures-tableau de bord de qualité des appels (bord)
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise online.
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938513"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085780"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels (bord)
 
-Le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise Online vous permet de mieux comprendre la qualité des appels effectués à l’aide de ces services. Cette rubrique fournit des informations détaillées sur les dimensions et les mesures visibles par le biais de bord. Pour en savoir plus sur bord, reportez-vous à [activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online](turning-on-and-using-call-quality-dashboard.md).
+Le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise Online vous permet de mieux comprendre la qualité des appels effectués à l’aide de ces services. Cette rubrique fournit des informations détaillées sur les dimensions et les mesures visibles par le biais de bord. Pour en savoir plus sur bord, voir [utiliser bord pour gérer les appels et la qualité des réunions dans Microsoft teams](quality-of-experience-review-guide.md).
 
 ## <a name="first-and-second-endpoint-classification"></a>Classification du premier et du deuxième point de terminaison
 
@@ -170,7 +170,7 @@ Les informations de dimensions sont basées en partie sur les données chargées
 | First User Agent  | String  | Chaîne de l'agent utilisateur du premier point de terminaison. <br/> **Exemple de valeur :** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype entreprise) | &bull;Aucun agent utilisateur signalé par le premier point de terminaison   |
 | Second User Agent  | String  | Chaîne de l'agent utilisateur du deuxième point de terminaison. <br/> **Exemple de valeur :** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype entreprise) | &bull;Aucun agent utilisateur n’a été signalé par le deuxième point de terminaison   |
 | Conference Type  | Énumération <br/>**Valeurs possibles :** <br/>&bull;conf : ApplicationSharing <br/>&bull;conf : audio-vidéo <br/>&bull;conf : foyer | URI du type de conférence.  <br/> **Exemple de valeur :** conf : Audio-Video | &bull;Scénario sans Conférence.   |
-| ID de conférence  | String | ID de conférence (ou ID d’appel) associé aux flux. Dans cqd.teams.microsoft.com, tous les appels ont un ID d’appel, qu’il s’agisse d’un appel de personne à personne ou d’une conférence téléphonique. Dans cqd.lync.com, cette valeur est uniquement avialble pour les conférences téléphoniques Skype entreprise.  Il est possible qu’il y ait trop de lignes à utiliser en tant que cote dans un État. Elle peut par contre être utilisée comme filtre.  <br/> **Exemple de valeur (CQD.Lync.com) :** 0001P6GK <br/> **Exemple de valeur (CQD.Teams.Microsoft.com) :** 5a962ccf-b9cb-436a-A433-f28bf5404ad8  | |
+| ID de conférence  | String | ID de conférence (ou ID d’appel) associé aux flux. Dans cqd.teams.microsoft.com, tous les appels ont un ID d’appel, qu’il s’agisse d’un appel de personne à personne ou d’une conférence téléphonique. Dans cqd.lync.com, cette valeur est uniquement disponible pour les conférences téléphoniques Skype entreprise.  Il est possible qu’il y ait trop de lignes à utiliser en tant que cote dans un État. Elle peut par contre être utilisée comme filtre.  <br/> **Exemple de valeur (CQD.Lync.com) :** 0001P6GK <br/> **Exemple de valeur (CQD.Teams.Microsoft.com) :** 5a962ccf-b9cb-436a-A433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **Exemple de valeur :** 16.0.7766.2047 | &bull;La chaîne de la version n’a pas pu être analysée <br/>&bull;La valeur n’a pas été communiquée.   |
 | Second Client App Version  | Chaîne  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **Exemple de valeur :** 16.0.7766.2047 | &bull;La chaîne de la version n’a pas pu être analysée <br/>&bull;La valeur n’a pas été communiquée. |
 |ID de réunion (dans cqd.teams.microsoft.com) <br/> ID de conférence (dans cqd.lync.com) |String |Identificateur de la réunion généré lors de la création de la réunion. <br/> **Exemple de valeur (Skype entreprise) :** 0001P6GK  <br/> **Exemple de valeur (Teams) :** 19 : meeting_MzB... zIw@thread. v2| |
@@ -699,11 +699,20 @@ Certaines mesures de nombre d’utilisateurs et d’appels s’appuient sur l’
 
 De nombreux valeurs de dimensions et de mesures peuvent également être utilisées comme filtres. Vous pouvez utiliser des filtres dans votre requête pour éliminer les informations de la même façon que vous sélectionnez une dimension ou une mesure pour ajouter ou inclure des informations dans la requête.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-[Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
+[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md)
 
-[Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Qu’est-ce que bord ?](CQD-what-is-call-quality-dashboard.md)
 
-[Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[Configurer le tableau de bord de qualité des appels (bord)](turning-on-and-using-call-quality-dashboard.md)
+
+[Télécharger le client et générer des données](CQD-upload-tenant-building-data.md)
+
+[Rapports et données bord](CQD-data-and-reports.md)
+
+[Utiliser bord pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
+
+[Classification des flux dans bord](stream-classification-in-call-quality-dashboard.md)
+
+[Utiliser Power BI pour analyser des données de bord](CQD-Power-BI-query-templates.md)

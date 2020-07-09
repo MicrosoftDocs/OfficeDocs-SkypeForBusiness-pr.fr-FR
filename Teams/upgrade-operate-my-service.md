@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868501"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085910"
 ---
 # <a name="operate-your-service"></a>Exploiter votre service
 
@@ -49,7 +49,9 @@ Les tâches et les activités de ce guide sont regroupées en huit catégories, 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez comment les opérations seront implémentées pour les équipes.</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Passez en revue le Guide de fonctionnement complet.</li><li>Implémentez une stratégie de fonctionnement qui s’adapte aux objectifs de votre organisation afin de garantir la qualité et la fiabilité des charges de travail de l’équipe.</li><li>Passez en revue le Guide de vérification de la qualité de l’utilisation.</li><li> Implémentez une stratégie d’opérations pour effectuer régulièrement des révisions de qualité d’utilisation afin de vous assurer que le déploiement de votre équipe fonctionne aux pointe.</li></ul></td></tr>
+
 </table>
 
 ### <a name="operational-role-mapping"></a>Mappage des rôles opérationnels
@@ -377,12 +379,12 @@ Pour garantir l’état de votre réseau, plusieurs activités d’opérations d
 Toutes les organisations ont besoin d’un groupe ou d’une personne pour la qualité. Il s'agit du rôle le plus important dans la gestion des services. Le rôle d’expert qualité est attribué à une personne ou à un groupe qui s’est engagé sur l’interface de ses utilisateurs.
 Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives. En général, le meilleur candidat au rôle de Champion Qualité est le responsable du service clientèle. Selon la taille et la complexité de l’organisation, il peut s’agir d’une personne ou d’un groupe ayant une passion pour garantir une meilleure qualité de l’utilisation de l’utilisateur.
 
-Le spécialiste qualité tire parti des outils et processus documentés existants, tels que le tableau de bord de qualité des appels (bord) et le Guide de la qualité de l’utilisation, pour contrôler l’utilisation de l’utilisateur, identifier les tendances en matière de qualité et piloter la correction le cas échéant.
+Le spécialiste de la qualité tire parti des outils et processus documentés existants, tels que le tableau de bord de qualité des appels (bord), et permet d' [améliorer et de surveiller la qualité des appels en équipe](monitor-call-quality-qos.md), de surveiller l’utilisation des utilisateurs, d’identifier les tendances de qualité et de tester la correction pour les besoins.
 Le spécialiste de la qualité doit collaborer avec les équipes respectives pour diriger les actions de correction et signaler à une Commission d’orientation la progression et les problèmes en cours.
 
-Le [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide) inclut des activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact élevé sur l’amélioration de l’utilisation de l’utilisateur. Les recommandations fournies dans le Guide de vérification de la qualité de l’utilisation de bord Online en tant qu’outil principal permettent de rapporter et d’examiner chaque zone, en ayant une focalisation sur le son pour optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
+[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md) comprend des activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact maximal sur l’amélioration de l’interface utilisateur. Les recommandations fournies dans le Guide de vérification de la qualité de l’utilisation de bord Online en tant qu’outil principal permettent de rapporter et d’examiner chaque zone, en ayant une focalisation sur le son pour optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Nous vous conseillons vivement de le nommer rapidement. Après avoir été désignée, elle doit commencer à se familiariser avec le contenu du Guide de vérification de la qualité de l’utilisation et des supports de cours associés.
+Nous vous conseillons vivement de le nommer rapidement. Après avoir été désignée, il doit commencer à se familiariser avec le contenu des équipes et de la [qualité d’appel pour les équipes](monitor-call-quality-qos.md) et les supports de cours associés.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
@@ -398,7 +400,7 @@ Nous vous conseillons vivement de le nommer rapidement. Après avoir été dési
 
 [Télécharger les informations de bâtiment](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Guide d’examen de l’expérience de qualité](https://aka.ms/qerguide)
+[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -419,7 +421,7 @@ Les pare-feu côté client peuvent influer sur la qualité des appels et même e
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Les pilotes Wi-Fi peuvent poser problème. Par exemple, un pilote peut présenter des comportements d’itinérance très agressives entre des points d’accès qui peuvent provoquer un changement de points d’accès inutiles en entraînant une mauvaise qualité d’appel. Un pilote Wi-Fi incorrect peut être détecté par le biais d’un examen de qualité de l’utilisation (voir le guide sur la [qualité de l’utilisation](https://aka.ms/qerguide) pour plus d’informations). Il est essentiel de mettre en œuvre un processus piloté par la qualité qui analyse les nouveaux pilotes Wi-Fi et vérifie qu’ils sont testés avant d’être déployés dans la population des utilisateurs généraux.
+Les pilotes Wi-Fi peuvent poser problème. Par exemple, un pilote peut présenter des comportements d’itinérance très agressives entre des points d’accès qui peuvent provoquer un changement de points d’accès inutiles en entraînant une mauvaise qualité d’appel. Un pilote Wi-Fi d’une qualité médiocre peut être détecté par le biais d’un examen de qualité de l’apprentissage (voir [améliorer et surveiller la qualité des appels pour les équipes](monitor-call-quality-qos.md) pour plus d’informations). Il est essentiel de mettre en œuvre un processus piloté par la qualité qui analyse les nouveaux pilotes Wi-Fi et vérifie qu’ils sont testés avant d’être déployés dans la population des utilisateurs généraux.
 
 ### <a name="endpoint-management"></a>Gestion des points de terminaison
 
@@ -445,7 +447,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 |---|---|---|---|
 | Exigences relatives aux points de terminaison | Assurez-vous que le point de terminaison teams continue de respecter toutes les configurations logicielles requises pour les équipes répertoriées dans la liste [obtenir des clients pour Microsoft teams](get-clients.md). | Mois | |
 | Pare-feu des points de terminaison | Conservez les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations contenues dans les [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips). Votre fournisseur tiers disposera d’instructions spécifiques pour vous permettre de gérer les exclusions. Abonnez-vous au [flux RSS](https://support.office.com/o365ip/rss) pour être informé automatiquement des modifications. | Selon vos besoins | |
-| Pilotes Wi-Fi | Testez et mettez à jour les pilotes Wi-Fi sur le PC. Validez les résultats à l’aide de bord ([Quality of performance Review Guide](https://aka.ms/qerguide)). | Selon vos besoins | |
+| Pilotes Wi-Fi | Testez et mettez à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de bord ([améliorer et surveiller la qualité d’appel pour teams](monitor-call-quality-qos.md)). | Selon vos besoins | |
 | Gestion des points de terminaison | Tenir à jour le catalogue des points de terminaison et des appareils d’interface pris en charge (comme les casques). Gestion des contrats de fournisseur, de garantie, de distribution, de remplacement et de réparation. | Mois | |
 | Résolution des problèmes de point de terminaison | Les tâches de dépannage permettent de vérifier la connectivité, de consulter la liste des problèmes connus, de collecter, d’analyser et de réaffectation de journaux au support Microsoft ou aux fournisseurs tiers. | Selon vos besoins | |
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665166"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085170"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Activer Microsoft 365 ou Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665166"
 | EXEMPLE 7  | Confirmer les administrateurs du client | Travaillez avec vos équipes de sécurité pour développer un modèle d’administration Microsoft 365 ou Office 365. <br/><br/>Veillez à identifier et documenter tous les administrateurs du client et du service. | | [À propos des rôles d’administrateur Microsoft 365 ou Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 Mo  | Implémenter les rôles d’administration de votre client | Vérifiez que votre modèle d’administration répond aux besoins de votre organisation et attribuez des rôles d’administrateur Microsoft 365 ou Office 365 à vos administrateurs. | | [Attribuer des rôles d’administrateur dans Microsoft 365 ou Office 365 entreprise](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | Étape 9  | Connectez-vous au Tableau de bord de qualité des appels (CQD) et chargez vos informations sur la construction. | Chaque déploiement de Teams doit utiliser le CQD pour obtenir des informations sur la qualité et la fiabilité de tous les appels qui utilisent Teams. <br><br>Utilisez les conseils pour le CQD répertoriées dans la colonne **Informations complémentaires** pour tirer le meilleur parti de cet outil. | | [Plan de gestion du service et de la qualité](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[Guide d'examen de l'expérience de qualité](https://aka.ms/qerguide) <br/><br/>[Modèles d'examen de l'expérience de qualité](https://aka.ms/qertemplates) <br/><br/>[Activation et utilisation du tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Charger les informations sur la construction](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 10%  | Confirmez que les informations sur la construction sont traitées. Le tableau de bord de qualité des appels (CQD) est opérationnel pour votre client. | | | [Tableau de bord de la qualité des appels](https://cqd.lync.com) |
+| 10%  | Confirmez que les informations sur la construction sont traitées. Le tableau de bord de qualité des appels (CQD) est opérationnel pour votre client. | | | [Tableau de bord de la qualité des appels](https://cqd.teams.microsoft.com) |

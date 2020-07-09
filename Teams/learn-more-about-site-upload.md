@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539641"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085290"
 ---
 <a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 ============================
 
-Les étiquettes de rapport sont utilisées dans votre organisation pour indiquer l’emplacement physique des bureaux, des bâtiments ou des sites d’organisation. La page étiquettes de rapport dans le centre d’administration de Microsoft teams vous permet de fournir un fichier texte (. csv ou. TSV) contenant une liste des emplacements physiques et leurs sous-réseaux associés. Ce fichier est utilisé par le tableau de bord d’analyse des appels et de qualité des appels pour générer des rapports. Lorsque vous chargez le mappage de votre sous-réseau, les rapports fournis par ces services contiennent également les noms d’emplacements, ce qui facilite la compréhension et l’utilisation des rapports pour la correction des problèmes potentiels.
+Les étiquettes de rapport sont utilisées dans votre organisation pour indiquer l’emplacement physique des bureaux, des bâtiments ou des sites d’organisation. La page étiquettes de rapport dans le centre d’administration de Microsoft teams vous permet de fournir un fichier texte (. csv ou. TSV) contenant une liste des emplacements physiques et leurs sous-réseaux associés. Ce fichier est utilisé par l’analyse des appels pour générer des rapports. Lorsque vous chargez le mappage de votre sous-réseau, les rapports fournis par ces services contiennent également les noms d’emplacements, ce qui facilite la compréhension et l’utilisation des rapports pour la correction des problèmes potentiels.
+
+> [!IMPORTANT]
+> Les étiquettes de rapport que vous chargez seront gérées en tant que *données de support* dans le cadre de votre contrat pour Office 365, y compris les informations qui seraient considérées comme des *données client* ou des *données personnelles*. N’incluez pas de données que vous ne souhaitez pas proposer à Microsoft comme *données de support technique*, car ces informations seront visibles par les ingénieurs Microsoft à des fins de support.
 
 Les étiquettes de rapport et les données d’emplacement fournies constituent une seule structure de données : aucune interface n’est actuellement disponible pour apporter des modifications individuelles aux données.
 
@@ -57,7 +60,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso bail RE&F|Office|RE&F|Affichage de montagne|94043|Nous|CA|Nous|1|1|
 
-Pour plus d’informations sur la mise en forme de votre fichier de données, voir [format de fichier de données client et structure du fichier de données](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
+Pour plus d’informations sur la mise en forme de votre fichier de données, voir [format de fichier de données client et structure du fichier de données](CQD-upload-tenant-building-data.md#upload-building-data-file).
 
 ## <a name="related-topics"></a>Voir aussi
 

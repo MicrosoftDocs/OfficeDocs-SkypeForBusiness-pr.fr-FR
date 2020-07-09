@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Apprenez-en davantage sur la création et l’exécution de maintenance et d’opérations en continu pour vous assurer que vos systèmes de salle Microsoft teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905366"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085950"
 ---
 # <a name="management-overview"></a>Vue d’ensemble de la gestion
 
@@ -42,7 +42,7 @@ Les informations relatives à l’état de l’application Microsoft teams salle
 |**Paramètres**|**Permet**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permet au démarrage de Microsoft teams  <br/> |
-|Gestion de l'\> alimentation-sur le ca, éteindre l’écran après 10 minutes  <br/> Gestion de l'\> alimentation-sur le secteur, jamais mettre le système en veille  <br/> |Activation de l’affichage et de la réactivation des salles de Microsoft teams  <br/> |
+|Gestion de l’alimentation- \> sur le ca, éteindre l’écran après 10 minutes  <br/> Gestion de l’alimentation- \> sur le secteur, jamais mettre le système en veille  <br/> |Activation de l’affichage et de la réactivation des salles de Microsoft teams  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
 
 Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -65,7 +65,7 @@ Nous vous conseillons d’implémenter les procédures de vérification de la qu
 
 Lorsque vous chargez vos informations de bâtiment dans bord, vous pouvez examiner les tendances en matière de qualité d’appel et de fiabilité d’un niveau par niveau, ce qui permet de comparer facilement les bâtiments et de focaliser votre attention sur des problèmes spécifiques.
 
-Nous vous recommandons de revoir et de suivre le Guide de la [qualité de l’utilisation](https://aka.ms/qerguide) pour identifier les tendances en matière de qualité et de fiabilité, et créer un plan d’action pour les résoudre. 
+Nous vous recommandons de revoir et de suivre les recommandations en [matière de qualité d’appel pour les équipes](../monitor-call-quality-qos.md) afin d’identifier les tendances en matière de qualité et de fiabilité, et de créer un plan d’action pour les résoudre. 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Mise à jour du système d’exploitation Microsoft teams et de l’application Microsoft teams
 

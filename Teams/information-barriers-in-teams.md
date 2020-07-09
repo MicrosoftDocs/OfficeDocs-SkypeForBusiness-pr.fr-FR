@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021794"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083184"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -143,10 +143,6 @@ Pour le moment, les utilisateurs ont connaissance des éléments suivants si une
     ![Capture d’écran montrant une discussion de groupe](media/information-barriers-people-picker.png)
     
 - **Onglet activité** : si un utilisateur accède à l’onglet **activité** d’un utilisateur bloqué, aucun billet ne s’affiche. (L’onglet **activité** affiche uniquement les billets de canal et il n’y a pas de canaux courants entre les deux utilisateurs.)
-
-    Voici un exemple d’affichage de l’onglet activité.
-
-    ![Capture d’écran montrant l’onglet activité](media/ib-before-activity-tab-policy.png)
 
     Voici un exemple d’affichage de l’onglet activité qui est bloqué.
 
