@@ -187,7 +187,7 @@
 #### [Courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Activer ou désactiver l’envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Désactiver les numéros gratuits pour des utilisateurs spécifiques](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](outbound-calling-restriction-policies.md)
+#### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs](outbound-calling-restriction-policies.md)
 #### [Afficher et réinitialiser l’ID de conférence attribué à un utilisateur](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -298,7 +298,7 @@
 #### [Planifier l’optimisation des médias locaux](direct-routing-media-optimization.md)
 #### [Configurer l’optimisation des médias locaux](direct-routing-media-optimization-configure.md)
 
-### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [Comptes d’utilisateur dans un environnement hybride avec une connectivité RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migrer vers un routage direct](direct-routing-migrating.md)
 
@@ -694,21 +694,29 @@
 
 <!-- ============================================================ -->
 # Surveillance, maintenance et résolution des problèmes
-## [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
-### [Guide d’examen de l’expérience de qualité](quality-of-experience-review-guide.md)
-### [Configurer la qualité de service dans Teams](QoS-in-Teams.md)
+## Surveiller et gérer de la qualité des appels
+### [Surveiller et améliorer de la qualité des appels](monitor-call-quality-qos.md)
+### Tableau de bord de la qualité des appels (TBQA)
+#### [Qu’est-ce que le TBQA ?](CQD-what-is-call-quality-dashboard.md)
+#### [Configurer le TBQA](turning-on-and-using-call-quality-dashboard.md)
+#### [Charger le client et créer des données](CQD-upload-tenant-building-data.md)
+#### [Données et rapports du TBQA](CQD-data-and-reports.md)
+#### [Utiliser le TBQA pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
+#### [Foire aux questions](CQD-frequently-asked-questions.md)
+#### [Dimensions et mesures disponibles dans le TBQA](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Classification de flux de données dans le TBQA](stream-classification-in-call-quality-dashboard.md)
+#### [Créer une carte de construction](CQD-building-mapping.md)
+#### Utiliser Power BI pour analyser les données TBQA
+##### [Utiliser Power BI pour analyser les données TBQA](CQD-Power-BI-query-templates.md)
+##### [Installer le connecteur Power BI pour utiliser les modèles de requête TBQA](CQD-Power-BI-connector.md)
+##### [Obtenir les données TBQA sur l’utilisation de Teams](CQD-teams-utilization-report.md)
+##### [Utilisation du rapport de routage direct du RTC et du TBQA](CQD-PSTN-report.md)
+### Analyse des appels
+#### [Configurer l’analyse des appels](set-up-call-analytics.md)
+#### [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Qualité de service (QdS)
+#### [Configurer la qualité de service dans Teams](QoS-in-Teams.md)
 #### [Définir la qualité de service sur les clients Windows](QoS-in-Teams-clients.md)
-### [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Configurer l’analyse des appels](set-up-call-analytics.md)
-### [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Activation et utilisation du tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
-### Utiliser Power BI pour analyser les données CQD
-#### [Utiliser Power BI pour analyser les données CQD](CQD-Power-BI-query-templates.md)
-#### [Installer le connecteur Power BI pour utiliser les modèles de requête CQD](CQD-Power-BI-connector.md)
-#### [Obtenir les données CQD sur l’utilisation de Teams](CQD-teams-utilization-report.md)
-#### [Utilisation du rapport de routage direct PSTN CQD](CQD-PSTN-report.md)
-### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Classification de flux de données dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
 ## [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Résoudre les problèmes d’installation et de mise à jour](troubleshoot-installation.md)
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
@@ -717,6 +725,7 @@
 ## [Forum aux questions : soutenir vos employés en télétravail](FAQ-support-remote-workforce.md)
 ## [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
 ## [Contacter le support relatif aux produits d’entreprises - Aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
