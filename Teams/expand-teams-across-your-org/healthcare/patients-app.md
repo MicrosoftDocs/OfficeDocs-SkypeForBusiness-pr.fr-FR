@@ -18,18 +18,16 @@ appliesto:
 ms.reviewer: anach
 description: En savoir plus sur l’intégration d’enregistrements de santé électronique dans l’application patients de Microsoft teams à l’aide des API FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905516"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098422"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Intégration des dossiers médicaux électroniques dans Microsoft Teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-Pour participer à une préversion privée, voir Inscrivez-vous [à la version d’évaluation privée](#enroll-in-the-private-preview).
 
 Cet article s’adresse aux développeurs de systèmes d’information aux soins généraux désireux d’utiliser des API FHIR sur un système d’informations médicales pour se connecter à Microsoft Teams. Cela permettrait aux scénarios de coordination de soins qui répondent aux besoins d’un organisme de santé.
 
@@ -53,7 +51,6 @@ Les sections suivantes décrivent les exigences de la couche d’accès aux donn
 - Attentes en matière de performances et de fiabilité
 - Attentes concernant les ressources FHIR devant être prises en charge pour l’application patients
 - Processus d’intégration et modèle d’engagement ATTENDU
-- Comment s’inscrire vous-même et votre client dans la version d’évaluation privée de l’application patients
 - Commencer à utiliser FHIR et résoudre certains problèmes courants rencontrés avec l’application patients
 - Exigences futures pour l’itération suivante de l’application patients
 
@@ -80,7 +77,7 @@ L’authentification du service au service doit être réalisée par le biais du
     {"resourceType" : "CapabilityStatement",.
         .
         .
-        "Rest" : [{"mode" : "serveur", "sécurité" : {{"URL" : [{"extension" : [{"URL" : "Token", "valueUri" :https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token""}, {"URL" : ""} "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize," URL "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris:" "}])," service " : [{" Coding " : [{" System " :"https://hl7.org/fhir/ValueSet/restful-security-service"," code " :" OAuth "})}]}
+        "Rest" : [{"mode" : "serveur", "sécurité" : {{"URL" : [{"extension" : [{"URL" : "Token", "valueUri" : ""}, {"URL" : ""} "," URL " :" "}])," https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris service " : [{" Coding " : [{" System " :" https://hl7.org/fhir/ValueSet/restful-security-service "," code " :" OAuth "})}]}
                 .
                 .
             } ] }
@@ -145,26 +142,4 @@ Même si l’application patients est en préversion privée, il n’existe aucu
 
 Si vous débutez sur FHIR et que vous avez besoin d’accéder facilement à un serveur FHIR que vous pouvez exposer à l’interface d’intégration DMI de Microsoft Teams, Microsoft dispose d’un serveur FHIR Open-source disponible pour tous les développeurs. Reportez-vous à l’article [qu’est-ce que FHIR Server pour Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) pour en savoir plus sur le serveur Open source FHIR fourni par Microsoft et le déploiement pour votre organisation.
 
-Vous pouvez également utiliser l’environnement de bac à sable (sandbox) HSPC ouvert pour créer un DMI qui prend également en charge un serveur Open FHIR Nous vous recommandons de lire la [documentation de bac à sable (sandbox) hspc](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Non seulement le bac à sable (sandbox) offre une méthode simple, orientée interface utilisateur et conviviale pour la création, l’ajout et la modification de patients.  
-
-## <a name="enroll-in-the-private-preview"></a>S’inscrire dans la version d’évaluation privée
-
-Une fois que vous avez créé le serveur Open source FHIR, il est très facile de se connecter à l’application patients au sein de votre client en suivant les étapes décrites ci-dessous :
-
-1. [Contactez-nous](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) avec les informations initiales suivantes :  
-    - Votre nom
-    - Votre position
-    - Société ou organisation que vous représentent
-    - Pourquoi vous êtes intéressé par l’application patients pour une intégration DMI
-
-    Nous vous recontacterons le plus rapidement possible en incluant de nouvelles questions et vous guident tout au long du processus de configuration de votre préversion privée.
-
-2. Assurez-vous que chargement indépendant d’applications personnalisées est activé dans le client où vous allez essayer l’application patients. Reportez-vous à la rubrique [stratégies d’autorisation d’application](../../admin-settings.md) pour savoir comment l’activer à partir du centre d’administration teams pour le client ou le client de votre client.
-
-3. Charger le manifeste de l’application patients que vous obtiendrez de la part de Microsoft (après le traitement de votre messagerie électronique) dans une équipe du client qui sera utilisée pour des scénarios de coordination de soins et d’arrondi du patient. Des instructions détaillées sur la façon de charger une application dans le centre de téléchargement d’un [package d’application dans Microsoft teams](/microsoftteams/platform/concepts/apps/apps-upload)
-
-4. Accédez au canal général en tant que propriétaire de l’équipe, puis cliquez sur l’onglet patients. Vous devriez voir une première option d’exécution qui présente deux options, par exemple le mode DMI et le mode manuel. Sélectionnez le **mode DMI** et copiez le point de terminaison du serveur FHIR (que vous venez de configurer auparavant avec toutes les données et ressources nécessaires conformément aux spécifications ci-dessus) dans le champ lien et attribuez un nom à la connexion qui représente le serveur FHIR. Cliquez sur connexion pour tout ce qui est prêt à l’emploi.
-
-    ![Capture d’écran des paramètres de serveur de l’application patients](../../media/patients-server.png)
-
-5. Commencez à utiliser l’application pour rechercher des patients à partir du serveur FHIR/DMI et ajoutez-les à une liste, puis [faites-nous part de vos commentaires](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) en cas de dysfonctionnement. Par ailleurs, pour établir une version entièrement authentifié de l’application patients-> flux de serveurs FHIR, vous devez vous connecter à l’application en mode hors connexion avec Microsoft teams pour l’ingénierie des produits pour la santé, par le biais de la demande de message électronique mentionnée précédemment pour clarifier les exigences et nous vous aidons à vous en servir conformément aux exigences d’authentification énoncées ci-dessus  
+Vous pouvez également utiliser l’environnement de bac à sable (sandbox) HSPC ouvert pour créer un DMI qui prend également en charge un serveur Open FHIR Nous vous recommandons de lire la [documentation de bac à sable (sandbox) hspc](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Non seulement le bac à sable (sandbox) offre une méthode simple, orientée interface utilisateur et conviviale pour la création, l’ajout et la modification de patients. 
