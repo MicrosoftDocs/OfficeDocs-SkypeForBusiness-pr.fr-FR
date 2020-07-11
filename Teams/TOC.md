@@ -255,6 +255,7 @@
 #### [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
 #### [Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Bloquer les appels entrants](block-inbound-calls.md)
 ### [Parcage d’appel et récupération](call-park-and-retrieve.md)
 ### [Partage d’appel et prise d’appel de groupe](call-sharing-and-group-call-pickup.md)
 ### [Stratégie d’Appel](teams-calling-policy.md)
