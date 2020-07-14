@@ -1,15 +1,15 @@
 ---
 title: Conduire une étude eDiscovery du contenu
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950889"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121394"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -154,7 +154,7 @@ Après avoir finalisé votre recherche, vous pouvez cliquer sur le bouton **Ajou
 
 Lors de l’ajout d’une recherche à un ensemble d’avis, vous pouvez choisir parmi un ensemble d’avis standard ou un ensemble de avis de conversation.
 
-Un ensemble d’avis normal est semblable à une exportation. Il fournit les fichiers `.msg` individuels pour le contenu d’équipes et affiche le contenu dans un affichage de base. En règle générale, vous devez utiliser un avis standard lorsque vous envisagez d’utiliser d’autres outils logiciels pour retraiter les fichiers ultérieurement.
+Un ensemble d’avis normal est semblable à une exportation. Il fournit les `.msg` fichiers individuels pour le contenu d’équipes et affiche le contenu dans un affichage de base. En règle générale, vous devez utiliser un avis standard lorsque vous envisagez d’utiliser d’autres outils logiciels pour retraiter les fichiers ultérieurement.
 
 Un ensemble de avis de conversation fournit une vue thématique et intuitive des conversations. il affiche conjointement les messages liés dans le bon ordre.
 
@@ -180,11 +180,11 @@ En plus des documents, vous pouvez ajouter des messages électroniques, des équ
 
 Le bouton **gérer les ensembles de révisions** fournit des options supplémentaires telles que l’analyse, le rapport de synthèse, le nombre de jeux de charges qui ont été ajoutés, etc.
 
-Pour accéder aux visualisations et graphiques de vos données, cliquez sur le \> **mode d’affichage profil de recherche** de **résultats individuels** dans le coin supérieur droit. Vous pouvez cliquer sur des pentaèdres dans ces graphiques pour sélectionner le type de contenu que vous souhaitez interroger. Par exemple, vous pouvez choisir d’interroger uniquement le contenu d’une équipe. Vous pouvez également enregistrer ces requêtes de la même manière que les requêtes que vous rédigez manuellement.
+Pour accéder aux visualisations et graphiques de vos données, cliquez sur le mode d’affichage profil de recherche de **résultats individuels** \> **Search profile view** dans le coin supérieur droit. Vous pouvez cliquer sur des pentaèdres dans ces graphiques pour sélectionner le type de contenu que vous souhaitez interroger. Par exemple, vous pouvez choisir d’interroger uniquement le contenu d’une équipe. Vous pouvez également enregistrer ces requêtes de la même manière que les requêtes que vous rédigez manuellement.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Affichage de synthèse, affichage texte et affichage annoter
 
-Si vous cliquez sur une conversation de teams dans l’ensemble d’avis, elle affiche la **vue de synthèse**, qui permet d’afficher l’intégralité d’une conversation d’équipe dans la liste des messages avec lesquels vous pouvez interagir individuellement. Cliquez sur la flèche vers le bas à droite du message pour afficher un menu contextuel qui vous permet d’afficher les détails du message `.msg` ou de télécharger le fichier individuel. Cliquez sur Détails du message pour afficher le résumé des métadonnées ou les métadonnées complètes du message.
+Si vous cliquez sur une conversation de teams dans l’ensemble d’avis, elle affiche la **vue de synthèse**, qui permet d’afficher l’intégralité d’une conversation d’équipe dans la liste des messages avec lesquels vous pouvez interagir individuellement. Cliquez sur la flèche vers le bas à droite du message pour afficher un menu contextuel qui vous permet d’afficher les détails du message ou de télécharger le `.msg` fichier individuel. Cliquez sur Détails du message pour afficher le résumé des métadonnées ou les métadonnées complètes du message.
 
 Pour télécharger un fichier PDF, cliquez sur le bouton Télécharger dans le coin supérieur droit de l’affichage de synthèse.
 
@@ -196,7 +196,7 @@ En bas de l’onglet **affichage d’annotation** figure le bouton **balise docu
 
 #### <a name="action-menu"></a>Menu d’action
 
-Dans la fenêtre réviser les jeux, vous pouvez exporter le contenu en cliquant sur **exportation**d' **action** \> . De nombreuses options sont disponibles lors de l’exportation.
+Dans la fenêtre réviser les jeux, vous pouvez exporter le contenu en cliquant sur exportation d' **action** \> **Export**. De nombreuses options sont disponibles lors de l’exportation.
 
 Pour exporter un fichier qui contient toutes les métadonnées de tous les messages Teams, activez la case à cocher **charger le fichier** . Pour inclure dans votre fichier toutes les balises que vous avez appliquées au contenu, activez la case à cocher **balises** .
 
@@ -213,7 +213,7 @@ Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur 
 > [!NOTE]
 > L’exportation peut prendre un certain temps. Pour effectuer le suivi de l’état du processus d’exportation, quittez l’onglet **révision** , puis cliquez sur l’onglet **exportations** .
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [eDiscovery dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

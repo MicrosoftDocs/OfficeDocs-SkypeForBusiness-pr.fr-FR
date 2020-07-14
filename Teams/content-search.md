@@ -1,15 +1,15 @@
 ---
 title: Utiliser la recherche de contenu dans Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Apprenez-en davantage sur l’utilisation de la recherche de contenu dans Microsoft teams pour interroger les informations de Microsoft teams à partir d’Exchange, SharePoint Online, OneDrive entreprise et OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690440"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121524"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 =====================================
@@ -90,6 +90,6 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche de contenu.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [cas de découverte électronique dans le centre de conformité Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

@@ -1,12 +1,12 @@
 ---
 title: Modèles d’identité et authentification
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: anwara
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -14,32 +14,32 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
+description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 330a197f2e042ee8d87e294f9ff822c6bf6d5ac6
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665676"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121564"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
 
-Microsoft teams prend en charge tous les modèles d’identité disponibles avec Microsoft 365 et Office 365. Les modèles d’identité pris en charge sont les suivants :
+Microsoft Teams supports all the identity models that are available with Microsoft 365 and Office 365. Supported identity models include:
 
 -   **Identité Cloud**: dans ce modèle, un utilisateur est créé et géré dans Microsoft 365 ou Office 365 et stocké dans Azure Active Directory, et le mot de passe est vérifié par Azure Active Directory.
 
--   **Identité synchronisée** : Dans ce modèle, l'identité de l'utilisateur est gérée sur un serveur sur site, et les hachages de compte et mot de passe sont synchronisés dans le cloud. L'utilisateur saisit le même mot de passe sur site que celui du cloud, et lors de la connexion, le mot de passe est vérifié par Azure Active Directory. Ce modèle utilise l'outil Azure Active Directory Connect de Microsoft.
+-   **Synchronized Identity**: In this model, the user identity is managed in an on-premises server, and the accounts and password hashes are synchronized to the cloud. The user enters the same password on-premises as they do in the cloud, and at sign-in the password is verified by Azure Active Directory. This model uses the Microsoft Azure Active Directory Connect Tool.
 
--   **Identité fédérée** : Ce modèle requiert une identité synchronisée et le mot de passe utilisateur est vérifié par le fournisseur d'identité sur site. Avec ce modèle, il n'est pas nécessaire de synchroniser le hachage de mot de passe avec Azure AD, et les services ADSF (Active Directory Federation Services) ou un fournisseur d'identité tiers sont utilisés pour authentifier les utilisateurs au niveau de Active Directory sur site.
+-   **Federated Identity**: This model requires a synchronized identity with the user password is verified by the on-premises identity provider. With this model, the password hash does not need to be synchronized to Azure AD, and Active Directory Federation Services (ADFS) or a third-party identity provider is used to authenticate users against the on-premises Active Directory.
 
 <a name="configurations"></a>Configurations
 --------------
 
-En fonction des décisions de votre organisation relatives au modèle d’identité à implémenter et à utiliser, les exigences en matière d’implémentation peuvent varier. Référez-vous au tableau exigences ci-dessous pour vous assurer que votre déploiement répond aux conditions préalables suivantes. Si vous avez déjà déployé Microsoft 365 ou Office 365 et avez déjà implémenté la méthode d’identité et d’authentification, vous pouvez ignorer ces étapes.
+Depending on your organization's decisions of which identity model to implement and use, the implementation requirements may vary. Refer to the requirements table below to ensure that your deployment meets these prerequisites. If you have already deployed Microsoft 365 or Office 365 and have already implemented the identity and authentication method, you may skip these steps.
 
 
 |Modèle d'identité |Liste de contrôle du déploiement  |Informations complémentaires  |
@@ -55,11 +55,11 @@ Pour plus d’informations, reportez-vous à [la rubrique choix d’un modèle d
 <a name="multi-factor-authentication"></a>Authentification multifacteur
 ----------------------------
 
-Les offres Microsoft 365 et Office 365 prennent en charge l’authentification multifacteur (MFA) qui renforce la sécurité des connexions utilisateur aux services. Avec l’authentification multifacteur, les utilisateurs doivent accuser réception d’un appel téléphonique, d’un SMS ou d’une notification d’application sur son smartphone après avoir entré correctement son mot de passe. Un utilisateur ne peut se connecter qu’après avoir satisfait ce deuxième facteur d’authentification.
+Microsoft 365 and Office 365 plans support Multi-Factor Authentication (MFA) that increases the security of user logins to services. With MFA, users are required to acknowledge a phone call, text message, or an app notification on their smartphone after correctly entering their password. Only after this second authentication factor has been satisfied, can a user sign in.
 
-L’authentification multifacteur est prise en charge avec n’importe quel plan Microsoft 365 ou Office 365 incluant Microsoft Teams. Les offres d’abonnement qui incluent Microsoft teams sont décrites plus loin dans la section gestion des licences ci-dessous.
+Multi Factor authentication is supported with any Microsoft 365 or Office 365 plan that includes Microsoft Teams. The subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
 
-Lorsque les utilisateurs sont inscrits pour l’authentification multifacteur, la prochaine fois qu’un utilisateur se connecte, il verra un message lui demandant de configurer son deuxième facteur d’authentification. Les méthodes d’authentification prises en charge sont les suivantes :
+Once the users are enrolled for MFA, the next time a user signs in, they will see a message that asks them to set up their second authentication factor. Supported authentication methods are:
 
 
 |Type de client  |Options de deuxième facteur de MFA disponibles  |Remarques  |
