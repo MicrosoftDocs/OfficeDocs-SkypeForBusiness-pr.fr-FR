@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Mise à jour des téléphones et des barres de collaboration de Microsoft teams à l’aide du centre d’administration teams
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944090"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125947"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour les appareils Microsoft teams à distance
 
@@ -32,7 +32,7 @@ ms.locfileid: "44944090"
 Les mises à jour du microprogramme de périphériques peuvent être appliquées automatiquement ou planifiées pour des dates et heures ultérieures. Les autres mises à jour de périphériques disponibles ne s’appliquent pas automatiquement, mais peuvent être appliquées manuellement ou programmées pour des dates et heures ultérieures.
 
 > [!NOTE]
-> Si les mises à jour de microprogramme de périphériques peuvent être planifiées, si la date et l’heure planifiées se trouvent après le délai maximal configuré de 30 ou 90, la mise à jour du microprogramme est appliquée lorsque le délai maximal est atteint. La date et l’heure planifiées ne sont pas prises en compte.
+> Si les mises à jour de microprogramme de périphériques peuvent être planifiées, si la date et l’heure planifiées se trouvent après le délai maximal configuré de 30 ou 90, la mise à jour du microprogramme est appliquée lorsque le délai maximal est atteint. La date et l’heure planifiées ne sont pas prises en compte. En outre, la mise à jour des appareils Microsoft teams à distance est une fonctionnalité qui n’est pas encore disponible pour les clients du Cloud fédéral des États-Unis (GCC-High).
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Choisir le comportement de mise à jour automatique du microprogramme de périphérique
 

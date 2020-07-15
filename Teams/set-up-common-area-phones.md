@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: 1b8e1582e1f3eba65802d4b1c181f8e0ba319eb0
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868601"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125987"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -65,7 +65,7 @@ La licence de téléphone commune prend en charge les éléments suivants :
 |---------|---------|
 |Skype Entreprise |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
-|Systèmes téléphoniques |    &#x2714; |
+|Système téléphonique |    &#x2714; |
 |Audioconférence |       &#x2718; &sup1 ;  |
 |Microsoft Intune |        &#x2718; &sup2 ; |
 |Disponibilité dans le monde entier |    &#x2714; |

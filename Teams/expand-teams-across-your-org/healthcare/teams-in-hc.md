@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Découvrez les fonctionnalités de soins de santé qui incluent la coordination des soins, la messagerie sécurisée, l’intégration de Telehealth, l’intégration DMI et l’intégration du système de travail terrain.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938363"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138104"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -89,9 +89,25 @@ L’application patients repose sur la plateforme d’extensibilité des équipe
 
 Pour plus d’informations sur l’implémentation, voir [intégration d’enregistrements de santé électronique dans Microsoft teams](patients-app.md) .
 
-## <a name="templates"></a>Modèles
+## <a name="teams-templates"></a>Modèles teams
 
 De nouveaux modèles de création d’équipes ont été développés pour s’appliquer à un environnement d’hôpital et de plus en plus sont prévus. Ainsi, il est plus facile de créer des équipes que les travailleurs de la santé utilisent pour coordonner les soins des patients dans divers services ou vers l’extérieur. Voir [commencer par les modèles d’équipes pour les entreprises de santé](healthcare-templates.md). Les équipes peuvent être démarrées pour les services internes tels que Cardiology ou pour les soins de niveau supérieur, et de plus en plus de modèles en développement.
+
+## <a name="lists-app"></a>Application listes
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+L’application listes dans teams permet aux équipes de suivre les informations et d’organiser le fonctionnement. L’application est préinstallée pour tous les utilisateurs d’teams et est disponible sous forme d’onglet dans chaque équipe ou canal. Les listes peuvent être créées à partir de zéro, de modèles prédéfinis ou d’importation de données dans Excel.
+
+Les équipes de soins peuvent utiliser le modèle patients pour commencer. Ils peuvent créer des listes pour suivre les besoins et l’état des patients. Les données du patient existantes dans les feuilles de calcul Excel peuvent être intégrées pour créer une liste dans Teams. Ces listes peuvent être utilisées pour des scénarios tels que des arrondis et la surveillance du patient pour coordonner les soins.
+
+Par exemple, une infirmière de frais crée une liste de patients dans une équipe qui inclut tous les membres de l’équipe de soins. Au cours des arrondis, l’équipe de soins accède aux équipes sur leurs appareils mobiles et met à jour les informations relatives aux patients dans la liste, que tous les membres de l’équipe peuvent voir pour rester synchronisés. Dans le cas d’une session d’arrondi dans laquelle l’équipe de soins recueille et évalue les métriques de performances de fonctionnement clés pour s’assurer qu’un patient se trouve sur le chemin coulissant approprié, il peut partager ces informations à l’aide des équipes sur un grand écran d’affichage. Les membres de l’équipe qui ne sont pas sur le site peuvent rejoindre à distance.
+
+Voici un exemple de liste qui a été configurée pour l’arrondi du patient.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Capture d’écran de la liste d’exemples pour arrondi du patient":::
+
+Pour en savoir plus, voir [gérer l’application listes pour votre organisation dans teams](../../manage-lists-app.md).
 
 ## <a name="secure-messaging"></a>Messagerie sécurisée
 
@@ -105,7 +121,7 @@ Ensemble, ces fonctionnalités permettent d’attirer plus rapidement les messag
 
 Pour plus d’informations, voir [prendre en main des politiques de messagerie sécurisée pour les entreprises de santé](messaging-policies-hc.md) .
 
-En outre, en ce qui concerne la sécurisation de la messagerie, c’est la possibilité d’avoir d’autres clients fédérés par le biais d’organisations de santé, autorisant une communication plus complète entre les clients. (voir [gérer les accès externes dans Microsoft teams](../../manage-external-access.md)).
+En outre, en ce qui concerne la sécurisation de la messagerie, c’est la possibilité d’avoir d’autres clients fédérés par le biais d’organisations de santé, autorisant une communication plus complète entre les clients. (Voir [gérer les accès externes dans Microsoft teams](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Intégration du travailleur terrain
 

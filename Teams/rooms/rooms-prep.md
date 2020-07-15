@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Apprenez-en davantage sur la préparation de votre infrastructure pour le déploiement de Microsoft Teams, afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735424"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125957"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -36,8 +36,8 @@ Cette section fournit une vue d’ensemble des étapes nécessaires pour prépar
    - HTTP : 80
    - Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
     
-     > [!NOTE]
-     > Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent visiblement des problèmes avec la fonctionnalité de réception HDMI (vidéo, audio). Assurez-vous que les options HDCP des commutateurs connectés à Microsoft Teams sont désactivées.
+     > [!IMPORTANT]
+     > Les salles de Microsoft Teams ne prennent pas en charge l’authentification par proxy puisque cela peut interférer avec les opérations normales de la salle. Assurez-vous que les salles de Microsoft teams ont été exemptées de l’authentification par proxy avant de passer en production.
   
 3. Pour améliorer votre expérience, Microsoft collecte des données. Pour permettre à Microsoft de recueillir des données, liste d’autorisation sur ces sites :
 

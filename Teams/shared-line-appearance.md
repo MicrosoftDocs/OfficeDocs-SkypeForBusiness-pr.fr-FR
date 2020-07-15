@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: En savoir plus sur l’envoi de courriers électroniques à vos utilisateurs à l’aide de leurs informations de conférence audio dans Microsoft Teams.
-ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042581"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125977"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -59,10 +59,10 @@ L’apparence des lignes partagées est actuellement prise en charge par les app
 
 | Fonctionnalité | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Configurer la délégation | Oui  | Oui  | Oui | Non | Non |
-| Recevoir des appels au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui |
-| Appeler un numéro de téléphone pour le compte d’une autre | Oui  | Oui  | Oui  | Oui  | Oui |
-| Appeler un utilisateur de teams au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui |
+| Configurer la délégation | Oui  | Oui  | Oui | Non | Oui |
+| Recevoir des appels au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui  |
+| Appeler un numéro de téléphone pour le compte d’une autre | Oui  | Oui  | Oui  | Oui  | Oui  |
+| Appeler un utilisateur de teams au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui  |
 | Voir la vue d’administration des lignes partagées | Oui  | Oui  | Oui | Non | Non |
 | Voir la vue d’administration des activités d’appel du responsable | Oui  | Oui  | Oui | Non | Non |
 | Afficher le mode responsable des délégués | Oui  | Oui  | Oui | Non | Non |

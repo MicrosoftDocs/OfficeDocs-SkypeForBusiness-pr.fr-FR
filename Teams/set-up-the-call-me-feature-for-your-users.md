@@ -17,19 +17,23 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140857"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138014"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
-Dans Microsoft Teams, la fonctionnalité **m’appeler** permet aux utilisateurs d’accéder à la partie audio d’une réunion par téléphone. C’est pratique dans les situations où l’utilisation d’un ordinateur pour l’audio peut ne pas être possible. Les utilisateurs reçoivent la partie audio de la réunion par le biais de leur téléphone mobile ou de leur ligne fixe et&mdash;de la partie du contenu de la réunion, par exemple lorsqu'&mdash;un autre participant à la réunion partage son écran ou lit une vidéo par le biais de leur ordinateur.
+Dans Microsoft Teams, la fonctionnalité **m’appeler** permet aux utilisateurs d’accéder à la partie audio d’une réunion par téléphone. C’est pratique dans les situations où l’utilisation d’un ordinateur pour l’audio peut ne pas être possible. Les utilisateurs peuvent accéder à la partie audio de la réunion par le biais du téléphone portable ou de la ligne fixe et de la partie du contenu de la réunion &mdash; , par exemple lorsqu’un autre participant à une réunion partage son écran ou lit une vidéo &mdash; par le biais de leur ordinateur.
 
 > [!IMPORTANT]
-> Pendant la durée de l’épidémie de COVID-19, nous recommandons aux utilisateurs de participer à des réunions en cliquant sur le bouton participer à une **réunion** au lieu d’appeler en utilisant les numéros de conférence RTC ou en utilisant l’option **m’appeler au**</strong>. C’est essentiellement en raison de la congestion dans les infrastructures de téléphonie des pays concernés par COVID-19. En évitant les appels RTC, vous bénéficierez d’une meilleure qualité audio. 
+> 
+> Pendant les périodes de forte réunion (que nous avons rencontrées en conjonction avec l’COVID-19), nous recommandons aux utilisateurs de participer à des réunions en cliquant sur le bouton participer à la <strong>réunion</strong> et en utilisant <strong>appeler à</strong>. Cela permet de garantir une qualité audio optimale lorsque le volume de la réunion est à l’origine du congestion du réseau PSTN. 
+
+> [!IMPORTANT]
+> Pendant la durée de l’épidémie COVID-19, il est recommandé aux utilisateurs de rejoindre les réunions en cliquant sur le bouton **Rejoindre une réunion Teams** plutôt que de se connecter en utilisant les numéros de conférence RTC ou l’option **M’appeler au**</strong>. Cela est principalement dû à l’encombrement des infrastructures téléphonique des pays touchés par le COVID-19. En évitant les appels RTC, vous bénéficierez probablement d’une meilleure qualité audio. 
 
 ## <a name="the-user-experience"></a>L’interface utilisateur
 
