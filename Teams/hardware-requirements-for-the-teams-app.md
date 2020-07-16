@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3096673df464b02ae828423c5aebf8690a7ab853
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 1a61c7338c6a182b6803bf2a302522b7fb97586f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702619"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143775"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -32,7 +32,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 
 ## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Configuration matérielle requise pour les équipes sur un PC Windows
 
-|**Composant**|**Configuration requise**  |
+| Composant | Condition requise |
 |---------|---------|
 |Ordinateur et processeur    | Minimum 1,6 GHz (ou plus) (32 bits ou 64 bits).        |
 |Mémoire     |    RAM de 2.0 Go     |
@@ -43,12 +43,12 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Version de .NET    |  Requiert .NET 4.5 CLR ou version ultérieure.       |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    | 
-|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo 1:1, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur monocœur et de 4,0 Go de RAM (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure). </li><li>Les **effets vidéo d’arrière-plan** facultatifs ne sont pas pris en charge sur les processeurs sans qu’un AVX2 d’instructions s’exécute sur Windows 8,1 ou une option ci-dessous.</li><li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite Bluetooth LE, lequel nécessite l’activation du Bluetooth sur l’appareil client, et pour les clients Windows, le client Teams 64 bits est nécessaire. Ce n’est pas disponible pour les équipes 32 bits.</li></ul> |
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo 1:1, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et d’une RAM 4,0 Go (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure). </li><li>Les **effets vidéo d’arrière-plan** facultatifs ne sont pas pris en charge sur les processeurs sans qu’un AVX2 d’instructions s’exécute sur Windows 8,1 ou une option ci-dessous.</li><li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite Bluetooth LE, lequel nécessite l’activation du Bluetooth sur l’appareil client, et pour les clients Windows, le client Teams 64 bits est nécessaire. Ce n’est pas disponible pour les équipes 32 bits.</li></ul> |
 |Événements en direct Teams | Si vous produisez un événement en direct Teams, nous vous conseillons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou d’une version ultérieure) et d’un codeur matériel. Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur un Mac
 
-|**Composant**|**Configuration requise**  |
+| Composant | Condition requise |
 |---------|---------|
 |Processeur    | Minimum processeur Intel, Core 2 Duo ou version supérieure |
 |Mémoire     |   RAM de 2.0 Go      |
@@ -57,11 +57,11 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Système d’exploitation  |    Mac OS X 10,11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo 1:1, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur monocœur et de 4,0 Go de RAM (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure).</li><li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Mac OS.</li></ul> |
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo 1:1, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et d’une RAM 4,0 Go (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure).</li><li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Mac OS.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Configuration matérielle requise pour Teams sur Linux
 
-|**Composant**|**Configuration requise**  |
+| Composant | Condition requise |
 |---------|---------|
 |Ordinateur et processeur    | Minimum 1,6 GHz (ou plus) (32 bits ou 64 bits).        |
 |Mémoire     |    RAM de 2.0 Go     |
@@ -72,7 +72,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    | 
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo 1:1, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur monocœur et de 4,0 Go de RAM (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure).</li><li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
+|Appels vidéo et réunions | <ul><li>Pour une meilleure expérience des appels vidéo 1:1, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et d’une RAM 4,0 Go (ou d’une version ultérieure). </li><li>Pour une meilleure expérience des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur double cœur et de 8,0 Go de RAM (ou d’une version ultérieure).</li><li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
 |Distributions Linux prises en charge | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Configuration matérielle requise pour Teams sur les appareils mobiles

@@ -18,11 +18,12 @@ description: Découvrez les différentes méthodes d’attribution de stratégie
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049441"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143845"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
@@ -295,7 +296,7 @@ Si vous ne spécifiez pas de classement, l’affectation de la stratégie est af
 **Cette fonctionnalité n’a pas encore été publiée. Il a été annoncé et est bientôt disponible.**
 
 > [!NOTE]
-> Pour l’instant, l’affectation de stratégie à des groupes à l’aide du centre d’administration Microsoft teams n’est disponible que pour la stratégie d’appel d’équipe, la stratégie de réunion équipes et la stratégie de messagerie Teams. Pour les autres types de stratégies, utilisez PowerShell.
+> Pour l’instant, l’attribution de stratégies aux groupes à l’aide du centre d’administration Microsoft teams n’est disponible que pour les stratégies d’appel d’équipe, la stratégie de parc d’appels d’équipe, la stratégie d’équipe, la stratégie des événements en direct Teams, la stratégie de réunion équipes et la stratégie de messagerie Pour les autres types de stratégies, utilisez PowerShell.
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la page type de stratégie. Par exemple, accédez à **Meetings**  >  **stratégies de réunion**réunions.
 2. Sélectionnez l’onglet **affectation de stratégie de groupe** .
