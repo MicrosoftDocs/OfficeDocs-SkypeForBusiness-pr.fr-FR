@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c025e408842c3d883112b7c99d930fc77db47435
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1a2012464d3847cf15ae76fd9c5b5b453d810fa7
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44867971"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143785"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -46,7 +46,7 @@ L'accès invité est un paramètre de niveau organisation dans Teams, désactiv�
 
 ## <a name="licensing-for-guest-access"></a>Gestion des licences pour l’accès invité
 
-L’accès invité est inclus dans tous les abonnements Microsoft 365 Business Standard, Office 365 Enterprise et Office 365 Éducation. Aucune licence Microsoft 365 ou Office 365 supplémentaire n'est requise. Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Toutefois, le nombre total d’invités pouvant être ajoutés à votre client dépend de ce que votre licence Azure AD autorise (généralement 5 invités par utilisateur sous licence). Pour plus d’informations, consultez l’article [Affectation de licences Azure Active Directory B2B Collaboration](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+L’accès invité est inclus dans tous les abonnements Microsoft 365 Business Standard, Office 365 Enterprise et Office 365 Éducation. Aucune licence Microsoft 365 ou Office 365 supplémentaire n'est requise. Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Cependant, le nombre total d’invités pouvant être ajoutés à votre client peut être limité par les fonctionnalités payantes d’Azure AD. Pour plus d’informations, consultez l’article [Affectation de licences Azure Active Directory B2B Collaboration](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]

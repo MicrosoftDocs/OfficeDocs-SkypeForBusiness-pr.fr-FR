@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a864e810df8cdd69a9c8a2e9bb29524147a3b865
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45137904"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146070"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -126,6 +126,9 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Périodique sans heure de fin     |Heure de début + 60 jours         |60 jours         |
 |Périodique avec heure de fin     |Heure de fin de la dernière occurrence + 60 jours         |60 jours         |
 
+> [!NOTE]
+> Les réunions Microsoft Teams ont une durée limite de 24 heures. 
+
 ## <a name="teams-live-events"></a>Événements en direct Teams
 
 |Fonctionnalité     | Limite maximale |
@@ -154,7 +157,7 @@ La présence de Teams dans Outlook est prise en charge dans l’application de b
 
 ## <a name="storage"></a>Stockage
 
-Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online, et chaque canal d'une équipe reçoit un dossier dans la bibliothèque de documents par défaut du site de l'équipe. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité de fichier définies dans SharePoint sont automatiquement appliquées à Teams.
 
 > [!NOTE]
 > Chaque [canal privé](https://docs.microsoft.com/microsoftteams/private-channels) possède sa propre collection de sites SharePoint.
