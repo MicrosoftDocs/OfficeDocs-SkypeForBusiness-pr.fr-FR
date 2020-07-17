@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522997"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158632"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Prise en main de votre mise à niveau de Microsoft Teams
 
@@ -52,6 +52,14 @@ Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Est-il possible de continuer d’utiliser Skype Entreprise Online tout en se préparant et en exécutant une mise à niveau vers Teams ?
 
 Oui, Microsoft propose plusieurs options à des fins d’utilisation combinée de Skype Entreprise Online et de Teams. Ces modes de coexistence permettent aux utilisateurs de se familiariser avec Teams, tout en favorisant la mise à niveau vers Teams uniquement. Pour en savoir plus, consultez [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
+
+## <a name="is-phone-system-available-for-teams-users"></a>Le système téléphonique est-il disponible pour les utilisateurs teams ?
+
+Oui. Le système téléphonique est disponible pour tous les utilisateurs d’teams une fois qu’ils sont déplacés vers le mode TeamsOnly.  Microsoft fournit également des options pour la connexion au réseau téléphonique public commuté (RTC) pour permettre aux utilisateurs de passer des appels téléphoniques partout dans le monde. Pour plus d’informations, voir [système de téléphonie vocale et connectivité PSTN](cloud-voice-landing-page.md).
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>Est-il possible d’utiliser notre infrastructure de téléphonie locale ?
+
+Oui. Le routage direct du système téléphonique vous permet d’utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie. Avec le routage direct, vous connectez votre propre contrôleur de bordure de session (SBC) directement au système téléphonique. Pour plus d’informations, voir [routage direct du système téléphonique](direct-routing-landing-page.md).
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>De quelle manière Microsoft aide-t-il les clients à effectuer leur mise à niveau vers Teams ? 
 

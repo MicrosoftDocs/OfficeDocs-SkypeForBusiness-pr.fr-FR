@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523167"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158662"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Mise à niveau de Skype Entreprise Online vers Teams
 
@@ -99,8 +99,16 @@ Par ailleurs, il est possible que vous puissiez constater qu’il est plus facil
 Lorsque vous validez le mode de mise à niveau en équipes uniquement et que vous êtes prêt à développer, répétez les étapes précédentes pour ajouter TeamsOnly à d’autres utilisateurs.  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau du système téléphonique et des équipes
+## <a name="phone-system-and-pstn-connectivity-options"></a>Options système téléphonique et connectivité PSTN
 
-Si votre déploiement de Skype entreprise Online inclut un système téléphonique avec des plans d’appels et que Microsoft est votre fournisseur de réseau téléphonique commuté (PSTN), la mise à niveau de vos utilisateurs vers teams fera automatiquement basculer les appels RTC entrants vers Teams.
+Le système téléphonique avec teams est pris en charge lorsque l’utilisateur est en mode TeamsOnly. (Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise.)  
 
-Si votre déploiement de Skype entreprise Online inclut un système téléphonique avec la version Cloud Connector, voir [Considérations supplémentaires relatives au routage direct du système téléphonique](2-envision-make-my-service-decisions-direct-routing.md).
+### <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
+
+Dans le cadre de la prise en compte des options de connectivité PSTN (réseau téléphonique commuté), il existe deux scénarios possibles lors du passage de Skype entreprise Online au mode TeamsOnly :
+
+- Un utilisateur de Skype entreprise Online avec un plan d’appels Microsoft. Suite à la mise à niveau, cet utilisateur aura besoin d’un plan d’appels Microsoft. Il s’agit du scénario le plus simple qui nécessite uniquement quelques étapes. Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec les offres d’appel Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+
+- Un utilisateur de Skype entreprise Online avec la fonction vocale locale via Skype entreprise local ou la version Cloud Connector. La mise à niveau de l’utilisateur vers teams doit être coordonnée avec la migration de l’utilisateur pour diriger le routage afin de garantir que l’utilisateur TeamsOnly dispose de la fonctionnalité RTC.  Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec voix locale](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
+
+

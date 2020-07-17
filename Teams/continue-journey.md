@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751536"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158502"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
 
@@ -37,10 +37,10 @@ La technologie innove à un rythme inégalé. La mise à jour et l’activation 
 
 ## <a name="monitor-for-network-health-and-quality"></a>Surveiller l’intégrité et la qualité du réseau
 
-L’état de votre réseau affecte l’utilisation de l’utilisateur. Lorsqu’un utilisateur a une mauvaise utilisation (par exemple, un appel en cas de perte ou de retard lors de la participation à des réunions), il est mis en corrélation avec la technologie lui-même, en laissant l’impression que la technologie ne fonctionne pas et en ouvrant la porte pour des applications non prises en charge. La mise en œuvre d’un plan de surveillance et de réduction de l’intégrité du réseau contribue à garantir une utilisation positive des utilisateurs en plus de réduire les appels vers votre support technique. Pour plus d’informations, consultez les articles suivants :
+L’état de votre réseau affecte l’utilisation de l’utilisateur. Lorsqu’un utilisateur a une mauvaise utilisation (par exemple, un appel en cas de perte ou de retard lors de la participation à des réunions), il est mis en corrélation avec la technologie lui-même, en laissant l’impression que la technologie ne fonctionne pas et en ouvrant la porte pour des applications non prises en charge. La mise en œuvre d’un plan de surveillance et de réduction de l’intégrité du réseau contribue à garantir une utilisation positive des utilisateurs en plus de réduire les appels vers votre support technique. Pour plus d’informations, consultez :
 
 - [Exploiter votre service](upgrade-operate-my-service.md)
-- [Contrôler la qualité](upgrade-monitor-quality.md)
+- [Surveiller et améliorer la qualité des appels](monitor-call-quality-qos.md)
 - [Améliorer votre service](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Libérer de l’élan et de l’adoption des utilisateurs

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666066"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158732"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Prérequis et dépendances environnementales pour les équipes
 
@@ -48,12 +48,16 @@ Pour en savoir plus sur les conditions préalables et la façon dont les équipe
 
 - Si votre organisation n’a pas de synchronisation des identités dans Azure Active Directory, voir [modèles d’identité et authentification dans Microsoft teams](identify-models-authentication.md).
 
-- Si votre organisation ne dispose pas de<sup>1</sup>t Exchange Online, voir [comprendre comment Exchange et Microsoft teams interagissent](Exchange-Teams-interact.md).
+- Si votre organisation n’a pas Exchange Online, voir [comprendre comment Exchange et Microsoft teams interagissent](Exchange-Teams-interact.md).
 
 - Si votre organisation ne dispose pas de SharePoint Online, voir [comprendre comment SharePoint Online et OneDrive entreprise interagissent avec Microsoft teams](SharePoint-OneDrive-interact.md).
 
-- Découvrez comment [interagissent avec les groupes microsoft 365 et Microsoft teams](Office-365-groups.md).
+- Pour plus d’informations sur l' [interaction entre les groupes microsoft 365 et Microsoft teams](Office-365-groups.md).
 
-- Si votre organisation est une institution éducative et que vous utilisez un système d’information sur les étudiants, vous devez [déployer School Data Sync](https://docs.microsoft.com/schooldatasync) avant de déployer Microsoft Teams.
+- Si votre organisation est une institution éducative et que vous utilisez un système d’information sur les étudiants, voir [Bienvenue dans Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) avant de déployer Microsoft Teams.
+
+- Si votre organisation envisagez des options d’appel de réseau téléphonique commuté (PSTN), consultez la section [système téléphonique et connectivité PSTN](cloud-voice-landing-page.md), l' [offre qui vous convient et le](calling-plan-landing-page.md) [routage direct du système téléphonique](direct-routing-landing-page.md).
+
+- Pour vous assurer que toutes les exigences réseau sont remplies avant le déploiement d’équipes, reportez-vous à [la rubrique préparer le réseau de votre organisation à Microsoft teams](prepare-network.md).
 
 Après avoir vérifié que votre environnement répond à tous les éléments requis concernés, [évaluez votre environnement actuel pour teams](upgrade-plan-journey-evaluate-environment.md).

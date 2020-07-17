@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138367"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158692"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application listes de votre organisation dans Microsoft teams
 
@@ -46,7 +46,7 @@ Les modèles dans les listes sont adaptés aux scénarios de suivi des informati
 
 - Suivez les problèmes et mettez-les en sortie à l’aide du modèle de suivi des problèmes.
 - Organisez tous les détails de votre événement à l’aide du modèle d’itinéraire des événements.
-- Utilisez le modèle patients pour enregistrer les besoins et le statut des patients de sorte que les équipes de soins de votre organisation puissent surveiller et coordonner votre attention.
+- Le modèle patients vous permet d’enregistrer les besoins et le statut des patients pour les équipes de soins de votre organisation pour la santé afin de surveiller et de coordonner votre attention.
 - Effectuez le suivi de l’état des candidatures avec le modèle prêts.
 
 ## <a name="example-scenario"></a>Exemple de scénario

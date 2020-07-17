@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e9a1d50469490e3e68163cf7b51a0fc6cac9af7
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756845"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158752"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
@@ -66,18 +66,7 @@ Pour éviter d’avoir une connaissance confuse ou régressé, les communication
 > [!Tip]
 > Le chemin d’accès recommandé pour les utilisateurs de Skype entreprise Online consiste à démarrer avec le mode par défaut des **îles** , de mettre la saturation des équipes au sein de l’organisation et de basculer rapidement vers le mode **équipes uniquement** . Les clients locaux et hybrides, particulièrement complexes, peuvent bénéficier du déploiement du mode de **collaboration Skype entreprise avec teams** comme point de départ plutôt que du mode d' **îlot** et de la progression de la réunion avec le mode de collaboration et des réunions dans **Skype entreprise avec teams** (c’est-à-dire, réunions d’abord), le cas échéant, et en mode **équipes uniquement** lorsque l’organisation est prête à adopter teams
 
-### <a name="skype-for-business-only"></a>Skype Entreprise uniquement
-
-Dans ce mode de coexistence, les utilisateurs restent dans Skype entreprise (et non dans Teams) pour les fonctionnalités de conversation, de réunion et d’appel, et ils n’utilisent pas teams pour les équipes et les canaux. Ce mode est disponible aujourd’hui ; Toutefois, dans l’implémentation actuelle, les équipes et les canaux ne sont pas automatiquement désactivés pour l’utilisateur. Pour cela, vous pouvez utiliser la stratégie d’autorisations d’application pour masquer les équipes et les canaux.
-
-Ce mode peut être utilisé avant le démarrage d’un déploiement géré d’équipes afin d’empêcher les utilisateurs de commencer à utiliser teams en avance ou à activer la participation authentifiée dans les réunions d’équipes pour les utilisateurs de Skype entreprise, à condition que les utilisateurs soient sous licence d’équipes.
-
 ### <a name="teams-only"></a>Équipes uniquement
-
-
-> [!IMPORTANT]
-> Si vous désinstallez le client Skype entreprise après le déplacement d’un utilisateur en mode **équipes uniquement** , vous devrez redémarrer Outlook et teams si la présence cesse de fonctionner. 
-
 
 Un utilisateur de **teams** (également appelé utilisateur *mis à niveau* ) a accès à toutes les fonctionnalités dans Teams. Ils peuvent conserver le client Skype entreprise pour pouvoir participer à des réunions dans Skype entreprise qui ont été organisées par des utilisateurs qui ne sont pas mis à niveau ou des parties externes. Un utilisateur mis à niveau peut continuer à communiquer avec d’autres utilisateurs de l’organisation qui utilisent encore Skype entreprise à l’aide des fonctionnalités d’interopérabilité entre teams et Skype entreprise (à condition que les utilisateurs de Skype entreprise ne sont pas en mode d' **îlot** ). Toutefois, un utilisateur mis à niveau ne peut pas lancer une conversation, un appel ou une réunion Skype entreprise.
 
@@ -88,6 +77,12 @@ En mode **équipe uniquement** , teams est l’application par défaut pour le p
 Pour plus d’informations sur le passage en mode **équipes uniquement** , voir [considérations relatives au mode équipes uniquement](teams-only-mode-considerations.md).
 
 ![Capture d’écran du message de confirmation teams](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Client Skype entreprise s’exécutant en mode spécial une fois que l’utilisateur a été mis à niveau en tant qu’utilisateur d’équipe uniquement")
+
+### <a name="skype-for-business-only"></a>Skype Entreprise uniquement
+
+Dans ce mode de coexistence, les utilisateurs restent dans Skype entreprise (et non dans Teams) pour les fonctionnalités de conversation, de réunion et d’appel, et ils n’utilisent pas teams pour les équipes et les canaux. Ce mode est disponible aujourd’hui ; Toutefois, dans l’implémentation actuelle, les équipes et les canaux ne sont pas automatiquement désactivés pour l’utilisateur. Pour cela, vous pouvez utiliser la stratégie d’autorisations d’application pour masquer les équipes et les canaux.
+
+Ce mode peut être utilisé avant le démarrage d’un déploiement géré d’équipes afin d’empêcher les utilisateurs de commencer à utiliser teams en avance ou à activer la participation authentifiée dans les réunions d’équipes pour les utilisateurs de Skype entreprise, à condition que les utilisateurs soient sous licence d’équipes.
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Collaboration avec teams dans Skype entreprise
 
@@ -102,9 +97,6 @@ Utilisez ce mode de coexistence pour accélérer la disponibilité des fonctionn
 Outre l’utilisation d’équipes pour les équipes et les canaux, les utilisateurs utilisent teams pour planifier et diriger leurs réunions. Les appels et les discussions privés restent sur Skype entreprise. Avantages de teams et de Skype entreprise d’une gamme de fonctions « combinées », telles que le rapprochement de présence, la conservation automatique de la conservation et l’affichage de périphériques HID sur les deux applications. Notez qu’il est possible de masquer les équipes et les canaux, si vous le souhaitez, à l’aide de la stratégie d’autorisations des applications.
 
 Ce mode de coexistence est particulièrement utile pour les organisations qui utilisent des déploiements sur site de Skype entreprise et qui sont susceptibles de prendre le temps de mettre à jour les équipes et de profiter des réunions de plus en plus performantes dès que possible.
-
-> [!Note]
-> Lorsqu’il est déployé dans n’importe quel mode de coexistence, à l’exception des **îles**, teams et Skype entreprise [, permet aux](#interoperability-of-teams-and-skype-for-business)utilisateurs de communiquer avec eux et de s’appeler entre eux et de veiller à ce que les communications restent fluides au sein de votre organisation pendant la mise à niveau vers Teams. Modes de coexistence régissant l’interopérabilité. Le mode de coexistence du destinataire détermine si l’interopérabilité sera disponible. Par exemple, si le destinataire est dans un mode qui n’est disponible que dans un seul client (par exemple, Teams), l’interopérabilité des discussions sera généralement disponible en cas d’utilisation d’un autre client (dans ce cas, Skype entreprise) pour lancer la discussion. D’un autre côté, si le destinataire est en mode d’accès à la discussion dans les deux clients (mode de l’îlot), l’interopérabilité ne sera pas disponible pour la discussion. Le message est reçu par le destinataire dans le client dans lequel l’initiateur a lancé la discussion. Par conséquent, une bonne communication en mode **îlot** nécessite la saturation de teams ; ainsi, tous les utilisateurs utilisent activement et surveillant les deux clients.
 
 > [!TIP]
 > Pour vous aider à identifier le mode de mise à niveau recommandé en fonction des fonctionnalités que vous voulez activer dans teams alors que Skype entreprise est toujours en cours d’utilisation, tirez parti de l' [Assistant Mise à niveau de Skype to teams](https://aka.ms/SkypeToTeamsWizard).
@@ -121,6 +113,12 @@ Pour plus d’informations sur les modes de coexistence, les conditions préalab
 L’interopérabilité est une fonctionnalité qui permet aux équipes et aux utilisateurs Skype entreprise de la même organisation de communiquer entre eux et Skype entreprise.
 
 L’interopérabilité est régie par le mode de coexistence (également appelé mode de mise à niveau) du destinataire. Il n’existe aucune interopérabilité lorsque le destinataire est en mode **îlot** .
+
+> [!Note]
+> Lorsqu’il est déployé dans n’importe quel mode de coexistence, à l’exception des **îles**, teams et Skype entreprise [, permet aux](#interoperability-of-teams-and-skype-for-business)utilisateurs de communiquer avec eux et de s’appeler entre eux et de veiller à ce que les communications restent fluides au sein de votre organisation pendant la mise à niveau vers Teams. Modes de coexistence régissant l’interopérabilité. Le mode de coexistence du destinataire détermine si l’interopérabilité sera disponible. Par exemple, si le destinataire est dans un mode qui n’est disponible que dans un seul client (par exemple, Teams), l’interopérabilité des discussions sera généralement disponible en cas d’utilisation d’un autre client (dans ce cas, Skype entreprise) pour lancer la discussion. D’un autre côté, si le destinataire est en mode d’accès à la discussion dans les deux clients (mode de l’îlot), l’interopérabilité ne sera pas disponible pour la discussion. Le message est reçu par le destinataire dans le client dans lequel l’initiateur a lancé la discussion. Par conséquent, une bonne communication en mode **îlot** nécessite la saturation de teams ; ainsi, tous les utilisateurs utilisent activement et surveillant les deux clients.
+
+> [!Note]
+> **Pour disposer de l’interface de coexistence la plus récente, la version du client doit être le dernier client disponible sur le canal de déploiement d’Office de l’utilisateur.**
 
 ### <a name="native-interop-and-interop-escalation"></a>Escalade d’interopérabilité native et d’interopérabilité
 

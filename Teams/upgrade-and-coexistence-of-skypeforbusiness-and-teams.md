@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665416"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158602"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
@@ -56,6 +56,9 @@ Cet article présente les différents modes qui vous permettent de gérer les mo
 Pour préparer officiellement votre organisation aux équipes, vous devez commencer à planifier des scénarios de mise à niveau, ce qui permettra finalement à votre organisation d’adopter pleinement teams comme votre solution de communication et de collaboration unique.
 
 Pour vous guider dans le processus de prise de décision, vous devez vous familiariser avec les différents modes, concepts et terminologie pertinents pour la mise à niveau de Skype entreprise vers Teams. Pour plus d’informations, reportez-vous à la rubrique [Microsoft Teams, coexistence et interopérabilité de Skype entreprise](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!NOTE]
+> Vous devez également tenir compte des scénarios de migration vocale. Le système téléphonique est la technologie de Microsoft permettant d’activer le contrôle d’appel et les fonctionnalités de branchement privée (PBX) dans le Cloud Microsoft 365 ou Office 365. Pour connecter un système téléphonique au réseau téléphonique commuté (PSTN), afin que les utilisateurs puissent passer des appels téléphoniques partout dans le monde, vous disposez d’options selon les besoins de votre entreprise. Pour plus d’informations sur les options système téléphonique et connectivité PSTN, voir [système de téléphonie vocale et connectivité PSTN](cloud-voice-landing-page.md).
 
 Un utilisateur ayant migré vers teams n’utilise plus un client Skype entreprise, à l’exception de la participation à une réunion hébergée dans Skype entreprise. Toutes les conversations et les appels entrants dans le client teams de l’utilisateur, que l’expéditeur utilise teams ou Skype entreprise. Toutes les nouvelles réunions organisées par l’utilisateur mis à niveau seront planifiées en tant que réunions d’équipes. Si l’utilisateur tente d’utiliser le client Skype entreprise, le lancement de conversations et d’appels est bloqué<sup>1</sup>. Toutefois, l’utilisateur peut (et doit) toujours utiliser le client Skype entreprise pour participer aux réunions auxquelles il est invité.
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Utilisez un cadre de réussite prouvé pour faciliter la mise à niveau de votre organisation de Skype entreprise vers Teams.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139653"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158652"
 ---
 # <a name="about-the-upgrade-framework"></a>À propos du cadre de mise à niveau
 
@@ -42,16 +42,16 @@ Recherchez ce graphique d’infrastructure sur les pages associées pour identif
 Le voyage de votre mise à niveau commence lorsque vous commencez à planifier le changement. En tirant parti de l’infrastructure de réussite, vous trouverez ci-dessous un exemple de chronologie qui vous permet de vous familiariser avec la phase de pré-mise à niveau, qui permet de planifier et de préparer la mise à niveau, par le biais de la mise à niveau et de la phase opérationnelle après la mise à niveau, conçue pour soutenir et amplifier vos résultats. 
 
 > [!NOTE]
-> Nous comprenons que votre déplacement vers teams peut impliquer l’utilisation de plusieurs [modes](https://aka.ms/skypetoteams-coexist) et la mise à niveau de groupes d’utilisateurs à différents moments, ce qui vous permet de contrôler l’utilisation de la mise à niveau utilisateur tout en préservant la fluidité des équipes.  
+> Nous comprenons que votre déplacement vers teams peut impliquer l’utilisation de plusieurs [modes](https://aka.ms/skypetoteams-coexist)   et la mise à niveau de groupes d’utilisateurs à différents moments, ce qui vous permet de contrôler l’utilisation de la mise à niveau utilisateur tout en préservant la fluidité des équipes.  
 
-Pour vous aider à montrer la marche à suivre pour le déroulement de votre mise à niveau, nous avons présenté ci-dessous un exemple de plan qui définit le passage de Skype entreprise Online au mode îles uniquement. En outre, l’exemple de plan décrit une organisation qui a divisé ses utilisateurs en quatre groupes de mise à niveau ou des cohortes. À l’aide de ce modèle en tant que modèle, personnalisez le plan pour inclure votre voyage spécifique dans Teams, en incluant les différents [modes](https://aka.ms/skypetoteams-coexist) que vous utiliserez et le nombre de groupes de mise à niveau dans lesquels vous segmenterez vos utilisateurs. 
+Pour vous aider à montrer la marche à suivre pour le déroulement de votre mise à niveau, nous avons présenté ci-dessous un exemple de plan qui définit le passage de Skype entreprise Online au mode îles uniquement. En outre, l’exemple de plan décrit une organisation qui a divisé ses utilisateurs en quatre groupes de mise à niveau ou des cohortes. À l’aide de ce modèle en tant que modèle, personnalisez le plan pour inclure votre voyage spécifique dans Teams, en incluant les différents [modes](https://aka.ms/skypetoteams-coexist)   que vous utiliserez et le nombre de groupes de mise à niveau dans lesquels vous segmenterez vos utilisateurs. 
 
 ## <a name="pre-upgrade"></a>Avant la mise à niveau
 
 **Préparez votre organisation pour teams**. Pour garantir la réussite de la mise à niveau vers Teams, il est important d’allouer un délai approprié pour la préparation. Par le biais de votre organisation, votre organisation pourra à tout moment commencer à créer rapidement des équipes, vous serez en mesure d’accélérer la mise à niveau de Skype entreprise dès que teams sera prêt pour vous. Si vous avez déjà activé teams en même temps que Skype entreprise, utilisez ces activités de pré-mise à niveau pour vérifier la préparation de votre organisation avant de mettre à niveau les utilisateurs vers Teams. 
 
 > [!TIP]
-> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit)pour les documents de préparation des utilisateurs de modèles tels que les communications et les enquêtes utilisateur, en plus d’un exemple de plan de projet de mise à niveau et d’un plan de test pilote. Les éléments disponibles dans le kit sont marqués d’un astérisque (*) dans les listes ci-dessous.
+> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit)   pour les documents de préparation des utilisateurs de modèles tels que les communications et les enquêtes utilisateur, en plus d’un exemple de plan de projet de mise à niveau et d’un plan de test pilote. Les éléments disponibles dans le kit sont marqués d’un astérisque (*) dans les listes ci-dessous.
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan : créez votre plan de mise à niveau pour vous assurer que votre organisation est configurée pour le succès à long terme.
 
@@ -62,7 +62,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 | **3** | **Définir les objectifs du projet** | Définissez des objectifs ciblés qui vous permettent de mesurer la progression ainsi que le succès du projet. | [Objectifs du projet](upgrade-define-project-scope.md#project-goals) |
 | **4** | **Identifier les risques et les plans d’atténuation** | Établissez un plan d’atténuation pour vous assurer que vous pouvez faire en sorte que vous puissiez rapidement faire en sorte que votre projet puisse poser un problème. | [Risques et réduction](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **Définir votre chronologie** | Définissez une chronologie et des jalons clés pour faciliter le maintien du temps et du budget dans votre projet. | ['](upgrade-define-project-scope.md#timeline) <br><br> [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Définir la stratégie de mise à niveau et de coexistence de Skype entreprise et des équipes** | Faites correspondre votre parcours pour garantir le meilleur chemin entre Skype entreprise et Teams pour votre organisation. | [Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **Définir la stratégie de mise à niveau et de coexistence de Skype entreprise et des équipes** | Faites correspondre votre parcours pour garantir le meilleur chemin entre Skype entreprise et Teams pour votre organisation. | [Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[Présentation du système téléphonique et des options de connectivité PSTN](cloud-voice-landing-page.md)<br><br>  [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Préparer : évaluer la disponibilité de votre organisation pour teams
@@ -92,7 +92,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|
 | **1** | **Annoncer le lancement officiel d’équipes** | Suscitez votre enthousiasme et votre dynamisme en envoyant une annonce officielle de lancement dès qu’une équipe est prête. | [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **Activez le mode de coexistence approprié pour vos utilisateurs.** | Suivez les étapes permettant de définir le ou les modes de coexistence appropriés pour votre organisation. | [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md) |
+| **2** | **Implémenter votre mise à niveau** | Les étapes que vous prenez dépendent de votre déploiement actuel de Skype entreprise. | [Implémenter votre mise à niveau](upgrade-to-teams.md) |
 | **3** | **Restez informé des formations d’équipes** | Suivez la procédure d’analyse des équipes pour déterminer le moment où votre organisation doit être déplacée vers Teams. | [Plan d’équipes](https://aka.ms/teamsroadmap) |
 | **4** | **Envoyer des communications supplémentaires et impliquer des champions en équipe pour renforcer l’enthousiasme et l’adoption des équipes** | Encourager les utilisateurs à adopter une équipe de communications et des champions en toute facilité. | [Programme Microsoft 365 champions](https://aka.ms/O365Champions) |
 
@@ -106,7 +106,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 |------|--|---------|----------|
 | **1** | **Vérifiez que vous avez terminé les activités de pré-mise à niveau décrites ci-dessus.** | Assurez-vous que la mise à niveau est réussie en confirmant la fin de toutes les activités de planification et de préparation. | Toutes les réponses précédentes |
 | **2** | **Lancer des communications aux utilisateurs de votre premier groupe de mise à niveau** | Avertissez les utilisateurs que des mises à jour sont en train de commencer et mettez-les en garde tout au long du processus. | [Préparer un plan de préparation utilisateur](upgrade-user-readiness.md) <br><br> [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **Activez le mode de coexistence aux équipes uniquement pour les utilisateurs de votre premier groupe de mise à niveau** | Suivez les étapes adaptées à votre environnement Skype entreprise pour effectuer la migration des utilisateurs techniques. | [Mise à niveau de Skype Entreprise Online vers Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Mise à niveau de Skype Entreprise hybride ou sur site vers Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **3** | **Activez le mode de coexistence aux équipes uniquement pour les utilisateurs de votre premier groupe de mise à niveau** | Suivez les étapes adaptées à votre environnement Skype entreprise pour effectuer la migration des utilisateurs techniques. | [Mise à niveau de Skype Entreprise Online vers Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Mise à niveau de Skype entreprise local vers teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **Répéter les activités de mise à niveau précédentes pour les groupes de mise à niveau restants sur un cycle roulant** | Continuez à piloter votre plan de communication en continu et à mettre à niveau les groupes d’utilisateurs selon votre plan. | |
 | **5** | **Envoyer des enquêtes de commentaires après la mise à niveau à tous les utilisateurs** | Utilisez un questionnaire pour recueillir des commentaires et des informations auprès des utilisateurs. | [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
 

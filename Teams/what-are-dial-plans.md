@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Apprenez-en davantage sur les types de plans d’appel d’appels RTC disponibles avec les équipes et en choisissant une pour votre organisation.  '
-ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
+ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836684"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153576"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
@@ -57,6 +57,9 @@ Voici les différents plans de numérotation efficace possibles :
  **Utilisateur du client-service** Si un plan de numérotation utilisateur d’un client est défini et attribué à un utilisateur, celui-ci recevra un plan de numérotation efficace, composé du plan de numérotation de l’utilisateur du client fusionné et du plan de numérotation pays du service associé à son lieu d’utilisation.
 
 Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer vos plans de numérotation client.
+
+> [!NOTE]
+> Dans le cas où il n’y a pas de règles de normalisation de plan de numérotation s’appliquent à un numéro composé, la chaîne numérotée est toujours normalisée pour ajouter le code d’utilisation de l’utilisateur. Cela concerne les offres d’appel, le routage direct et les scénarios de numérotation de conférence RTC.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planification des plans de numérotation utilisateur
 
@@ -105,7 +108,7 @@ Vous devez attribuer une ou plusieurs règles de normalisation au plan de numér
 Dans la mesure où tout plan de numérotation client est fusionné efficacement avec le plan de numérotation du pays d’un utilisateur donné, il est probable que les règles de normalisation de votre plan de numérotation pays doivent être évaluées pour déterminer les règles de normalisation du plan de numérotation client nécessaires. L'applet de commande **Get-CsEffectiveTenantDialPlan** peut être utilisée à cet effet. Cette applet de commande utilise l'identité d'un utilisateur comme paramètre d'entrée et indique en retour toutes les règles de normalisation appliquées à cet utilisateur.
 
 ### <a name="creating-normalization-rules"></a>Créer des règles de normalisation
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 Les règles de normalisation utilisent des expressions régulières du .NET Framework pour spécifier les modèles de correspondance numérique que le serveur utilise pour convertir les chaînes de numérotation au format E. 164. Les règles de normalisation peuvent être créées en spécifiant lʼexpression régulière de la correspondance et la conversion à effectuer lorsquʼune correspondance est trouvée. Quand vous avez terminé, vous pouvez entrer un numéro test pour vérifier que la règle de normalisation fonctionne correctement.
 
@@ -117,11 +120,11 @@ Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-p
 
 Le tableau ci-dessous illustre des exemples de règles de normalisation écrites sous la forme d'expressions régulières .NET Framework. Il s'agit uniquement d'exemples qui ne doivent pas être considérés comme une référence normative pour la création de règles de normalisation.
 
- **Règles de normalisation utilisant des expressions régulières du .NET Framework**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a> 
+ **Règles de normalisation utilisant des expressions régulières du .NET Framework**
 
-||||||
+| Nom de la règle<br/> | Description<br/> | Type de numéro<br/> | Conversion<br/> | Exemple<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Nom de la règle** <br/> |**Description** <br/> |**Schéma de numéro** <br/> |**Conversion** <br/> |**Exemple** <br/> |
 |4digitExtension  <br/> |Convertit les extensions à 4 chiffres.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 est converti en +14255550100  <br/> |
 |5digitExtension  <br/> |Convertit les extensions à 5 chiffres.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 est converti en +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Convertit les numéros à 7 chiffres en numéros locaux à Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 est converti en +14255550100  <br/>|
@@ -135,18 +138,17 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 
  Le tableau suivant illustre un exemple de plan de numérotation pour Redmond, Washington, États-unis, basé sur les règles de normalisation indiquées dans le tableau précédent.
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Plan de numérotation de Redmond** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| Plan de numérotation de Redmond<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > Les noms des règles de normalisation indiquées dans le tableau précédent n’incluent aucun espace, mais il s’agit d’une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 

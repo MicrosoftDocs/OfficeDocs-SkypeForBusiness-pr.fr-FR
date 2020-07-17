@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666026"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158672"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Mise à niveau de Skype entreprise local vers teams
 
@@ -69,14 +69,24 @@ En fonction de vos besoins, vous pouvez affecter le mode de coexistence appropri
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Étape 3 : migrer des utilisateurs de Skype entreprise local vers équipes uniquement
 
-Pour finir, vous pouvez déplacer vos utilisateurs vers le mode TeamsOnly. Cela peut impliquer une ou deux étapes en fonction de votre environnement local actuel.  
+Pour finir, vous pouvez déplacer vos utilisateurs vers le mode TeamsOnly. Cela peut impliquer une ou deux étapes en fonction de votre environnement local.  
 
 Pour plus d’informations, reportez-vous à [déplacer des utilisateurs entre le Cloud local et le Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) et [déplacer des utilisateurs de local vers équipes](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
+## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Étape 4 : désactiver l’environnement hybride pour terminer la migration vers le Cloud
+
+Après avoir déplacé tous les utilisateurs de local vers le Cloud, vous pouvez désaffecter le déploiement Skype entreprise local. Pour plus d’informations, reportez-vous à la rubrique [désactiver l’environnement hybride pour terminer la migration vers le Cloud](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md).
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau du système téléphonique et des équipes
+## <a name="phone-system-and-pstn-connectivity-options"></a>Options système téléphonique et connectivité PSTN
 
-Si vous migrez votre déploiement Skype entreprise vers un système téléphonique avec des plans d’appels, Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN). En supposant que vous avez terminé le portage du numéro de téléphone, la mise à niveau de vos utilisateurs vers teams va automatiquement migrer les appels RTC entrants vers Teams.
+Le système téléphonique avec teams est pris en charge lorsque l’utilisateur est en mode TeamsOnly. (Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise.) 
 
-Si vous migrez votre déploiement Skype entreprise vers votre système téléphonique sans utiliser d’offres d’appels, vous devez migrer votre déploiement voix entreprise vers le routage direct du système Microsoft Phone. Pour plus d’informations, voir [routage direct du système téléphonique](direct-routing-landing-page.md).
+### <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
+
+Dans le cadre de la prise en compte des options de connectivité PSTN (réseau téléphonique commuté), il existe deux scénarios possibles lors du passage de Skype entreprise sur site au mode TeamsOnly :
+
+- Un utilisateur de Skype entreprise sur site avec voix entreprise, qui sera déplacé vers en ligne et utilisant un forfait d’appel Microsoft. La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et la coordination de la migration à l’aide de l’un des numéros de téléphone de l’utilisateur vers un forfait d’appel Microsoft ou B), en attribuant un nouveau numéro d’abonné à partir des régions disponibles.  Pour plus d’informations, reportez-vous à [Skype entreprise Server en local, avec Enterprise Voice, à l’offre d’appels Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
+
+- Un utilisateur de Skype entreprise sur site avec voix entreprise, qui va basculer vers une connectivité RTC sur site. La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et le coordination du déplacement avec la migration de celui-ci pour le routage directe. Pour plus d’informations, reportez-vous [à partir de Skype entreprise Server en local, avec Enterprise Voice, pour le routage direct](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
+
