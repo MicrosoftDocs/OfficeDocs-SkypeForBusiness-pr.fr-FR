@@ -87,11 +87,11 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
     
     ![Page spécifier le générateur de topologies](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Page spécifier le générateur de topologies")
 
-5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
+5.  Dans **Spécifier la configuration Edge externe**, désactivez la case à cocher **Ce pool de serveurs Edge est utilisé pour la fédération et la solution PIC (Public IM Connectivity)**. Cela supprimera l’association de fédération avec le BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > Cette étape est importante. Vous devez désactiver cette option pour supprimer l’association de fédération héritée.
 
 
 
@@ -123,7 +123,7 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
 
 1.  Sur le serveur Office Communications Server 2007 R2 Standard Edition ou le serveur frontal, ouvrez l’outil d’administration Office Communications Server 2007 R2.
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  Dans le volet gauche, développez le nœud supérieur, puis cliquez avec le bouton droit sur le nœud **Forêt**. Sélectionnez **Propriétés**, puis cliquez sur **Propriétés globales**.
 
 3.  Cliquez sur l’onglet **Fédération**.
 

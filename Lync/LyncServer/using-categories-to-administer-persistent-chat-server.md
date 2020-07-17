@@ -63,7 +63,7 @@ Les gestionnaires de salles de conversation permanente, qui peuvent gérer une o
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+Les responsables de salles de conversation peuvent apporter des modifications à toutes les propriétés des salles de conversation, à l’exception de la catégorie de la salle. Il n’est pas possible de les empêcher d’effectuer les actions suivantes :
 
   - Désactivation d’une salle de conversation
 

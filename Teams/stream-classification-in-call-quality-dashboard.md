@@ -29,11 +29,11 @@ ms.locfileid: "45085890"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels (bord)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+Le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise Online vous permet d’accéder à des informations sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux multimédias. Pour en savoir plus sur bord et la configuration, voir Configurer le [tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 
-Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Dans bord, les flux sont classés comme _bon_, _médiocre_ou non _classés_ en fonction des valeurs des mesures de qualité clé disponibles. Les mesures et conditions utilisées pour classifier le flux sont indiquées dans les tableaux suivants. Les dimensions de type « médiocre à la suite de » d’bord peuvent être utilisées pour comprendre quelle mesure est responsable d’une _mauvaise_ classification. Pour plus d’informations sur ces dimensions, voir [dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Classificateur audio
 
@@ -41,7 +41,7 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 
 |Mesure|Condition|Explication|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
+|Audio Degradation Avg|> 1,0|Dégradation moyenne d’avis du réseau pour le flux. Le niveau de perte et de scintillation du réseau a affecté la qualité audio de la réception.|
 |Round Trip|> 500|Temps moyen de propagation du réseau en boucle arrondi, calculé en millisecondes. Détails disponibles dans [le document rfc3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|> 0,1|Taux moyen de perte de paquets pour le flux.|
 |Jitter|> 30|Gigue moyenne pour le flux, en millisecondes.|

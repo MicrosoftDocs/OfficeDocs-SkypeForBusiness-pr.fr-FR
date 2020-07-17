@@ -23,7 +23,7 @@ ms.locfileid: "44752866"
 Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype entreprise Server 2019. Les processus de déploiement et de configuration de Skype entreprise Server 2019 sont très similaires à ceux de Skype entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+À mesure que vous parcourez l’Assistant **Définir un nouveau pool Edge**, examinez les principaux paramètres de configuration mentionnés aux étapes suivantes. Notez que seules quelques pages de l’Assistant **Définir un nouveau pool Edge** sont illustrées. 
   
 ### <a name="to-define-an-edge-pool"></a>Pour définir un pool de serveurs Edge
 

@@ -72,7 +72,7 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
     
 
     > [!NOTE]  
-    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error.
+    > À chaque modification du Registre, une erreur liée à l’échec de la commande risque de se produire si la clé de Registre existe déjà. Dans ce cas, vous pouvez ignorer cette erreur sans risque.
 
     
     </div>

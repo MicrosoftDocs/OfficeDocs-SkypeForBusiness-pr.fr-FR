@@ -62,7 +62,7 @@ Vous pouvez affecter des stratégies de voix par utilisateur à l’aide de Wind
 
 ## <a name="unassign-a-per-user-voice-policy"></a>Annuler l’affectation d’une stratégie de voix par utilisateur
 
-  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - La commande suivante annule l’assignation d’une stratégie de voix par utilisateur précédemment affectée à Ken Myer. Lorsque cette stratégie par utilisateur n’est plus affectée à Ken Myer, celui-ci est automatiquement géré par la stratégie globale ou, le cas échéant, par la stratégie de site locale associée. La stratégie de site est prioritaire sur la stratégie globale.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

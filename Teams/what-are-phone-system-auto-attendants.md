@@ -42,7 +42,7 @@ Pour configurer un standard automatique pour le système téléphonique, accéde
 Le standard automatique Cloud offre les fonctionnalités suivantes :
   
 - Il propose des messages d'accueil spécifiques de l'entreprise ou à vocation informative.
-- It can provide custom corporate menus. You can customize these menus to have more than one level.
+- Il propose des menus d'entreprise personnalisés. Vous pouvez personnaliser ces menus afin de disposer de plusieurs niveaux.
 - Il fournit une recherche dans l’annuaire permettant aux personnes qui rejoignent la recherche d’un nom dans l’annuaire de l’organisation.
 - Il permet à une personne qui appelle pour joindre ou laisser un message à une personne de votre organisation.
 - Il prend en charge plusieurs langues pour les invites, la conversion de texte par synthèse vocale et la reconnaissance vocale.

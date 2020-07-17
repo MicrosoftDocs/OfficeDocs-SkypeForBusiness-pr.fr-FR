@@ -39,15 +39,15 @@ _**Dernière modification de la rubrique :** 2012-10-06_
 
 Lors de la création des catégories et des salles de conversation permanente et de la conception de votre étendue et de votre appartenance, les conseils suivants peuvent vous aider dans votre planification :
 
-  - If your company does not require an ethical wall, do not narrow the scope in your category tree. Put all your users in the scope of one category, and create all chat rooms in that category. Subsequently, use only membership lists to grant or restrict access to each chat room.
+  - Si votre société ne requiert pas la mise en place d’une séparation déontologique, ne limitez pas l’étendue dans l’arborescence de votre catégorie. Mettez tous vos utilisateurs dans l’étendue d’une catégorie et créez toutes les salles de conversation dans cette catégorie. Ensuite, utilisez uniquement des listes d’appartenance pour accorder ou restreindre l’accès à chaque salle de conversation.
 
-  - In most cases, you should enable users to create new chat rooms so that discussions about new topics can be started any time. Do this by making the **Creators** list the same as the **AllowedMembers** list. However, if you want to allow only a central support team or designated users to create rooms, then make the **Creators** list as the appropriate subset.
+  - Dans la plupart des cas, vous devez permettre aux utilisateurs de créer des salles de conversation afin de pouvoir démarrer des discussions sur de nouveaux sujets à tout moment. Pour cela, vous devez rendre la liste **Creators** identique à la liste **AllowedMembers**. Cependant, pour autoriser uniquement une équipe de support centrale ou des utilisateurs désignés à créer des salles, vous devez définir la liste **Creators** comme sous-ensemble approprié.
 
-  - Give each chat room a complete name and description summary that describes where it fits in with your organization. Because users cannot see the category name when they use the chat room, you cannot rely on the category name to help users determine the intended discussion forum for the chat room.
+  - Donnez un nom complet et une synthèse de description à chaque salle de conversation. Ces derniers permettent une identification claire avec votre organisation. Étant donné que les utilisateurs ne peuvent pas voir le nom de la catégorie lorsqu’ils utilisent la salle de conversation, vous ne pouvez pas compter dessus pour aider les utilisateurs à déterminer le forum de discussion prévu pour la salle de conversation.
 
   - Vous pouvez appliquer un flux de travail de création de salle personnalisé si vous utilisez certaines conventions d’affectation de noms ou d’autres contrôles d’accès ou validations à mettre en œuvre. La configuration de la conversation permanente vous permet de personnaliser le **RoomManagementUrl** sur un événement que vous hébergez. Par exemple, lorsque les utilisateurs cliquent sur **créer une salle** dans leur client Lync, ils peuvent être redirigés vers votre solution personnalisée.
 
-  - Create a variety of add-ins that help to enhance the experience of chat rooms by bringing in other business data into chat rooms. Administrators must register the add-ins that they want to allow in the system. Chat room managers and creators can choose from the list of allowed add-ins for the ones most relevant to their respective rooms.
+  - Vous pouvez créer divers compléments qui permettent d’améliorer l’expérience des salles de conversation en y apportant d’autres données métier. Les administrateurs doivent inscrire les compléments qu’ils veulent autoriser dans le système. Les responsables et créateurs de salle de conversation peuvent choisir dans la liste des compléments autorisés ceux qui sont adaptés à leurs salles respectives.
 
 <div>
 

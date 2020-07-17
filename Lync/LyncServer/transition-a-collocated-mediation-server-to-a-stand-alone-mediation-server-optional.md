@@ -49,13 +49,13 @@ Appliquez la procédure qui suit pour effectuer la transition de votre serveur d
 
 3.  Cliquez avec le bouton droit sur **Pools de médiation**, puis cliquez sur **Nouveau serveur de médiation**.
 
-4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
+4.  Dans la page **Définir un nouveau pool de médiation**, spécifiez le nom de domaine complet du nouveau pool de serveurs de médiation. Indiquez également s’il s’agit d’un pool de serveur unique ou de plusieurs serveurs, puis cliquez sur **Suivant**.
 
 5.  Sélectionnez le pool de serveurs frontaux du tronçon suivant vers lequel le nouveau serveur de médiation acheminera les appels entrants, puis cliquez sur **Suivant**.
 
 6.  Sélectionnez le pool Edge que doit utiliser le serveur de médiation, puis cliquez sur **Suivant**.
 
-7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
+7.  Dans la page **Spécifier des passerelles PSTN**, associez la passerelle PSTN précédente au serveur de médiation. Sélectionnez la passerelle, puis cliquez sur **Ajouter**.
 
 8.  Cliquez sur **Terminer** pour fermer l’Assistant **Définir un nouveau pool de médiation**.
 

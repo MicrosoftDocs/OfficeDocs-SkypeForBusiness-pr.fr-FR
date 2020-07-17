@@ -47,13 +47,13 @@ _**Dernière modification de la rubrique :** 2012-10-02_
     
     ![Assistant fusion de topologies, spécifier la page Configuration du serveur Edge](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Assistant fusion de topologies, spécifier la page Configuration du serveur Edge")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  Dans **Spécifier le type Edge**, entrez le type de configuration du serveur Edge, puis cliquez sur **Suivant**. Cet exemple utilise l’option **Serveur Edge unique**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > Un déploiement <STRONG>Edge étendu</STRONG> n’est pas une configuration prise en charge. Un serveur <STRONG>Edge étendu</STRONG> doit d’abord être converti en <STRONG>serveur Edge unique</STRONG> ou <STRONG>Edge consolidé à charge équilibrée</STRONG>.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Dernière modification de la rubrique :** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > Avant de cliquer sur <STRONG>Suivant</STRONG>, effectuez l’étape suivante de cette procédure. Il est très important que vous ne manquiez pas cette étape 11.
 
     
     </div>

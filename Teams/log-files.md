@@ -34,9 +34,9 @@ Il existe trois types de fichiers journaux générés par le client et qui peuve
 
 -   Journaux du bureau
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
+Lors de la création d'une demande de support auprès du Support Microsoft, l'ingénieur de support sollicitera les journaux de débogage. Préparer ces journaux avant de créer la demande de support permet à Microsoft de résoudre rapidement le problème. Les journaux des médias ou du bureau sont requis uniquement sur demande de Microsoft.
 
-The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
+Le tableau suivant présente les différents clients et les journaux associés. Les fichiers journaux sont stockés dans des emplacements spécifiques au client et au système d'exploitation.
 
 
 |Client |Debug|Bureau|Media|
@@ -90,7 +90,7 @@ Les journaux de débogage sont automatiquement téléchargés dans les dossiers 
 <a name="media-logs"></a>Journaux des médias
 ---------------------------
 
-Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
+Les journaux des médias contiennent des données de diagnostic sur les appels audio, vidéo et le partage d'écran. Ils sont requis pour les cas de support uniquement sur demande et seul Microsoft peut les lire. Le tableau suivant présente l'emplacement des journaux.
 
 
 |Client |Lieu |
@@ -108,7 +108,7 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 <a name="desktop-logs"></a>Journaux du bureau
 ---------------------
 
-Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
+Les journaux du bureau, également appelés journaux de programme d'amorçage, contiennent des données d'événements survenant entre le client de bureau et le navigateur. À l'instar des journaux des médias, ces journaux sont requis uniquement sur demande de Microsoft. Il s'agit de journaux texte qui peuvent être affichés à l'aide d'un éditeur de texte et lus de haut en bas.
 
 Windows :
 

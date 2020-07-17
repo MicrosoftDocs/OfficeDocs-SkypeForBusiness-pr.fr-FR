@@ -69,9 +69,9 @@ Une catégorie spécifie tous les utilisateurs et les groupes qui peuvent être 
 
 La définition de **AllowedMembers** et **Créateurs** pour une catégorie comporte les avantages suivants :
 
-  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
+  - Toutes les salles de conversation de cette catégorie sont liées par des limitations définies au niveau de la catégorie. Vous pouvez utiliser cela pour isoler des salles de conversation en fonction des besoins et des stratégies d’accès.
 
-  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
+  - Un utilisateur qui se trouve dans la liste **Créateurs** peut créer des salles de conversation dans cette catégorie. Si vous voulez mettre en place un système qui limite le nombre de personnes de votre organisation ayant la possibilité de créer des salles de conversation, ce contrôle peut être utilisé.
 
 </div>
 
@@ -81,7 +81,7 @@ La définition de **AllowedMembers** et **Créateurs** pour une catégorie compo
 
 Le **AllowedMembers** d’une catégorie doit inclure tous les utilisateurs qui utiliseront toute salle de conversation permanente de cette catégorie. En fonction des besoins de protection de vos données et pour contrôler les niveaux d’accès, vous pouvez définir une ou plusieurs catégories pour spécifier qui peut effectuer des recherches dans les salles et y participer. Si vous ne voulez autoriser qu’un groupe d’utilisateurs donnés (support technique ou employés à plein temps) à créer des salles, vous pouvez définir l’étendue de **Créateurs** d’une catégorie pour répondre à ce besoin.
 
-Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
+Les catégories peuvent également être utilisées pour créer des séparations déontologiques. Les séparations déontologiques permettent d’éviter les conflits d’intérêts dans votre organisation. Par exemple, un administrateur peut créer des salles de conversation dans une catégorie uniquement pour les opérateurs en bourse, et d’autres salles dans une autre catégorie pour les analystes.
 
 <div>
 
