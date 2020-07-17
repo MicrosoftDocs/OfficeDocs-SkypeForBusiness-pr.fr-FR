@@ -26,7 +26,7 @@ ms.locfileid: "44755344"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="49f01-102">Sauvegarder les systèmes et les données</span><span class="sxs-lookup"><span data-stu-id="49f01-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="d2e88-102">Sauvegarder les systèmes et les données</span><span class="sxs-lookup"><span data-stu-id="d2e88-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "44755344"
 
 <span> </span>
 
-<span data-ttu-id="49f01-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="49f01-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="d2e88-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="d2e88-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="49f01-104">Avant de commencer la migration vers Lync Server 2013, nous vous recommandons vivement d’effectuer une sauvegarde complète du système et de documenter votre système existant, notamment un inventaire des comptes d’utilisateur hébergés sur chaque pool, afin que vous puissiez revenir à Office Communications Server 2007 R2 si cela s’avère nécessaire.</span><span class="sxs-lookup"><span data-stu-id="49f01-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="49f01-105">Plusieurs outils et programmes sont disponibles pour la sauvegarde et la restauration des données, des paramètres et des systèmes.</span><span class="sxs-lookup"><span data-stu-id="49f01-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="49f01-106">Pour plus d’informations et de procédures, voir « Guide de sauvegarde et de restauration d’Office Communications Server 2007 R2 » à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=168162> .</span><span class="sxs-lookup"><span data-stu-id="49f01-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <https://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
+<span data-ttu-id="d2e88-104">Avant de commencer la migration vers Lync Server 2013, nous vous recommandons vivement d’effectuer une sauvegarde complète du système et de documenter votre système existant, notamment un inventaire des comptes d’utilisateur hébergés sur chaque pool, afin que vous puissiez revenir à Office Communications Server 2007 R2 si cela s’avère nécessaire.</span><span class="sxs-lookup"><span data-stu-id="d2e88-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="d2e88-105">Plusieurs outils et programmes sont disponibles pour la sauvegarde et la restauration des données, des paramètres et des systèmes.</span><span class="sxs-lookup"><span data-stu-id="d2e88-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="d2e88-106">Pour plus d’informations et de procédures, voir « Guide de sauvegarde et de restauration d’Office Communications Server 2007 R2 » à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=168162> .</span><span class="sxs-lookup"><span data-stu-id="d2e88-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <https://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
 
 </div>
 

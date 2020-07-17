@@ -26,7 +26,7 @@ ms.locfileid: "44755010"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a><span data-ttu-id="624a3-102">Configurer les clients pour la migration</span><span class="sxs-lookup"><span data-stu-id="624a3-102">Configure clients for migration</span></span>
+# <a name="configure-clients-for-migration"></a><span data-ttu-id="9a014-102">Configurer les clients pour la migration</span><span class="sxs-lookup"><span data-stu-id="9a014-102">Configure clients for migration</span></span>
 
 </div>
 
@@ -36,30 +36,30 @@ ms.locfileid: "44755010"
 
 <span> </span>
 
-<span data-ttu-id="624a3-103">_**Dernière modification de la rubrique :** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="624a3-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="9a014-103">_**Dernière modification de la rubrique :** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="9a014-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="624a3-104">Cette rubrique contient les étapes de déploiement de clients recommandées avant la migration vers Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="624a3-104">This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013.</span></span> <span data-ttu-id="624a3-105">Ces modifications de configuration doivent être effectuées sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="624a3-105">These configuration changes should be made on Lync Server 2010.</span></span>
+<span data-ttu-id="9a014-104">Cette rubrique contient les étapes de déploiement de clients recommandées avant la migration vers Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9a014-104">This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013.</span></span> <span data-ttu-id="9a014-105">Ces modifications de configuration doivent être effectuées sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9a014-105">These configuration changes should be made on Lync Server 2010.</span></span>
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a><span data-ttu-id="624a3-106">Pour configurer les clients avant la migration</span><span class="sxs-lookup"><span data-stu-id="624a3-106">To configure clients before migration</span></span>
+## <a name="to-configure-clients-before-migration"></a><span data-ttu-id="9a014-106">Pour configurer les clients avant la migration</span><span class="sxs-lookup"><span data-stu-id="9a014-106">To configure clients before migration</span></span>
 
-1.  <span data-ttu-id="624a3-107">Déployez les mises à jour les plus récentes du serveur, du client et du périphérique (correctifs) pour Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="624a3-107">Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010.</span></span> <span data-ttu-id="624a3-108">Pour obtenir les informations les plus à jour sur Lync Server 2010, consultez la rubrique mises à jour du centre de ressources pour Lync à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=232630> .</span><span class="sxs-lookup"><span data-stu-id="624a3-108">For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
+1.  <span data-ttu-id="9a014-107">Déployez les mises à jour les plus récentes du serveur, du client et du périphérique (correctifs) pour Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9a014-107">Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010.</span></span> <span data-ttu-id="9a014-108">Pour obtenir les informations les plus à jour sur Lync Server 2010, consultez la rubrique mises à jour du centre de ressources pour Lync à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=232630> .</span><span class="sxs-lookup"><span data-stu-id="9a014-108">For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
 
-2.  <span data-ttu-id="624a3-109">Sur Lync Server 2010, utilisez le filtrage de version du client pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées.</span><span class="sxs-lookup"><span data-stu-id="624a3-109">On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.</span></span>
+2.  <span data-ttu-id="9a014-109">Sur Lync Server 2010, utilisez le filtrage de version du client pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées.</span><span class="sxs-lookup"><span data-stu-id="9a014-109">On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="624a3-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="624a3-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a014-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9a014-110">See Also</span></span>
 
 
-[<span data-ttu-id="624a3-111">Paramètres nouveaux et modifiés pour Lync 2013</span><span class="sxs-lookup"><span data-stu-id="624a3-111">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
-[<span data-ttu-id="624a3-112">Interopérabilité des clients dans Lync 2013</span><span class="sxs-lookup"><span data-stu-id="624a3-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)  
+[<span data-ttu-id="9a014-111">Paramètres nouveaux et modifiés pour Lync 2013</span><span class="sxs-lookup"><span data-stu-id="9a014-111">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
+[<span data-ttu-id="9a014-112">Interopérabilité des clients dans Lync 2013</span><span class="sxs-lookup"><span data-stu-id="9a014-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 
-[<span data-ttu-id="624a3-113">Planification des clients et des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="624a3-113">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)  
+[<span data-ttu-id="9a014-113">Planification des clients et des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a014-113">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)  
   
 
 </div>

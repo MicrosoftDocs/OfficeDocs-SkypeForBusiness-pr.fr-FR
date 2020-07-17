@@ -25,7 +25,7 @@ ms.locfileid: "44756855"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a><span data-ttu-id="e2421-102">Configuration</span><span class="sxs-lookup"><span data-stu-id="e2421-102">Setup</span></span>
+# <a name="setup"></a><span data-ttu-id="0815f-102">Configuration</span><span class="sxs-lookup"><span data-stu-id="0815f-102">Setup</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "44756855"
 
 <span> </span>
 
-<span data-ttu-id="e2421-103">_**Dernière modification de la rubrique :** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="e2421-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="0815f-103">_**Dernière modification de la rubrique :** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="0815f-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="e2421-104">Pour installer les outils fournis dans le cadre de l’outil de contrainte et de performances de Lync Server 2013, suivez ces instructions.</span><span class="sxs-lookup"><span data-stu-id="e2421-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
+<span data-ttu-id="0815f-104">Pour installer les outils fournis dans le cadre de l’outil de contrainte et de performances de Lync Server 2013, suivez ces instructions.</span><span class="sxs-lookup"><span data-stu-id="0815f-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="e2421-105">Installation de l’outil stress and performance</span><span class="sxs-lookup"><span data-stu-id="e2421-105">Installing the Stress and Performance Tool</span></span>
+## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="0815f-105">Installation de l’outil stress and performance</span><span class="sxs-lookup"><span data-stu-id="0815f-105">Installing the Stress and Performance Tool</span></span>
 
-<span data-ttu-id="e2421-106">Exécutez le fichier Windows Installer, **CapacityPlanningTool.msi**, sur chaque ordinateur client que vous utiliserez pour simuler le trafic utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e2421-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="e2421-107">Ces ordinateurs clients ne doivent pas exécuter de composants Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e2421-107">These client computers must not be running any Lync Server components.</span></span>
+<span data-ttu-id="0815f-106">Exécutez le fichier Windows Installer, **CapacityPlanningTool.msi**, sur chaque ordinateur client que vous utiliserez pour simuler le trafic utilisateur.</span><span class="sxs-lookup"><span data-stu-id="0815f-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="0815f-107">Ces ordinateurs clients ne doivent pas exécuter de composants Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0815f-107">These client computers must not be running any Lync Server components.</span></span>
 
 </div>
 

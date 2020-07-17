@@ -25,7 +25,7 @@ ms.locfileid: "44755548"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="975e9-102">Vérifier que tous les objets contact de messagerie unifiée Exchange sont supprimés du pool hérité</span><span class="sxs-lookup"><span data-stu-id="975e9-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="f1d11-102">Vérifier que tous les objets contact de messagerie unifiée Exchange sont supprimés du pool hérité</span><span class="sxs-lookup"><span data-stu-id="f1d11-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "44755548"
 
 <span> </span>
 
-<span data-ttu-id="975e9-103">_**Dernière modification de la rubrique :** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="975e9-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="f1d11-103">_**Dernière modification de la rubrique :** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="f1d11-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="975e9-104">Utilisez l’outil **OCSUmUtil** ou la cmdlet **Get-CsExumContact** pour vérifier que les objets contact de messagerie unifiée Exchange ont été supprimés du pool Office Communications Server 2007 R2 hérité.</span><span class="sxs-lookup"><span data-stu-id="975e9-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="975e9-105">**OCSUmUtil** se trouve dans le dossier suivant :</span><span class="sxs-lookup"><span data-stu-id="975e9-105">**OCSUmUtil** is located in the following folder:</span></span>
+<span data-ttu-id="f1d11-104">Utilisez l’outil **OCSUmUtil** ou la cmdlet **Get-CsExumContact** pour vérifier que les objets contact de messagerie unifiée Exchange ont été supprimés du pool Office Communications Server 2007 R2 hérité.</span><span class="sxs-lookup"><span data-stu-id="f1d11-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="f1d11-105">**OCSUmUtil** se trouve dans le dossier suivant :</span><span class="sxs-lookup"><span data-stu-id="f1d11-105">**OCSUmUtil** is located in the following folder:</span></span>
 
-<span data-ttu-id="975e9-106">% Program Files% \\ fichiers communs de \\ \\ prise en charge de Lync Server 2013 \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="975e9-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
+<span data-ttu-id="f1d11-106">% Program Files% \\ fichiers communs de \\ \\ prise en charge de Lync Server 2013 \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="f1d11-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
 
-<span data-ttu-id="975e9-107">**OCSUmUtil** doit être exécuté à partir d’un compte d’utilisateur qui remplit les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="975e9-107">**OCSUmUtil** must be run from a user account that has:</span></span>
+<span data-ttu-id="f1d11-107">**OCSUmUtil** doit être exécuté à partir d’un compte d’utilisateur qui remplit les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="f1d11-107">**OCSUmUtil** must be run from a user account that has:</span></span>
 
-  - <span data-ttu-id="975e9-108">appartenance aux groupes RTCUniversalServerAdmins et RTCUniversalUserAdmins (ce qui inclut les droits de lecture des paramètres de messagerie unifiée Exchange Server) ;</span><span class="sxs-lookup"><span data-stu-id="975e9-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
+  - <span data-ttu-id="f1d11-108">appartenance aux groupes RTCUniversalServerAdmins et RTCUniversalUserAdmins (ce qui inclut les droits de lecture des paramètres de messagerie unifiée Exchange Server) ;</span><span class="sxs-lookup"><span data-stu-id="f1d11-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
 
-  - <span data-ttu-id="975e9-109">autorisations de domaine pour la création d’objets contact dans le conteneur d’unités d’organisation spécifié.</span><span class="sxs-lookup"><span data-stu-id="975e9-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
+  - <span data-ttu-id="f1d11-109">autorisations de domaine pour la création d’objets contact dans le conteneur d’unités d’organisation spécifié.</span><span class="sxs-lookup"><span data-stu-id="f1d11-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
 
-<span data-ttu-id="975e9-110">Pour plus d’informations sur l’utilisation de la cmdlet **Get-CsExumContact** , voir [Get-CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) dans la documentation de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="975e9-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="f1d11-110">Pour plus d’informations sur l’utilisation de la cmdlet **Get-CsExumContact** , voir [Get-CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) dans la documentation de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="f1d11-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

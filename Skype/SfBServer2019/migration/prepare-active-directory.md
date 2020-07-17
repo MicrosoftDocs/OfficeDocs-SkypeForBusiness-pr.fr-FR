@@ -18,18 +18,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752336"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a><span data-ttu-id="e7b8e-105">Préparation d’Active Directory pour Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="e7b8e-105">Prepare Active Directory for Skype for Business Server</span></span>
+# <a name="prepare-active-directory-for-skype-for-business-server"></a><span data-ttu-id="a19ae-105">Préparation d’Active Directory pour Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="a19ae-105">Prepare Active Directory for Skype for Business Server</span></span>
 
-<span data-ttu-id="e7b8e-106">Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez effectuer certaines tâches Active Directory supplémentaires pour configurer le schéma, la forêt et le domaine pour Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-106">Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019.</span></span> <span data-ttu-id="e7b8e-107">Les extensions de schéma ajoutent les classes et attributs Active Directory requis par Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-107">The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019.</span></span> <!-- For additional information, see the topic 
+<span data-ttu-id="a19ae-106">Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez effectuer certaines tâches Active Directory supplémentaires pour configurer le schéma, la forêt et le domaine pour Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="a19ae-106">Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019.</span></span> <span data-ttu-id="a19ae-107">Les extensions de schéma ajoutent les classes et attributs Active Directory requis par Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="a19ae-107">The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019.</span></span> <!-- For additional information, see the topic 
 [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
-### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a><span data-ttu-id="e7b8e-108">Pour préparer Active Directory pour Skype entreprise Server 2019</span><span class="sxs-lookup"><span data-stu-id="e7b8e-108">To prepare Active Directory for Skype for Business Server 2019</span></span>
+### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a><span data-ttu-id="a19ae-108">Pour préparer Active Directory pour Skype entreprise Server 2019</span><span class="sxs-lookup"><span data-stu-id="a19ae-108">To prepare Active Directory for Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="e7b8e-109">Sur le serveur frontal Skype entreprise Server 2019, exécutez le programme d’installation de Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-109">On the Skype for Business Server 2019 Front End Server, run Skype for Business Server 2019 Setup.</span></span>
+1. <span data-ttu-id="a19ae-109">Sur le serveur frontal Skype entreprise Server 2019, exécutez le programme d’installation de Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="a19ae-109">On the Skype for Business Server 2019 Front End Server, run Skype for Business Server 2019 Setup.</span></span>
     
-2. <span data-ttu-id="e7b8e-110">Sélectionnez **Préparer Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-110">Select **Prepare Active Directory**.</span></span>
+2. <span data-ttu-id="a19ae-110">Sélectionnez **Préparer Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="a19ae-110">Select **Prepare Active Directory**.</span></span>
   
-3. <span data-ttu-id="e7b8e-111">Effectuez les étapes 1 à 5 de l’Assistant.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-111">Complete steps 1 through 5 in the wizard.</span></span>
+3. <span data-ttu-id="a19ae-111">Effectuez les étapes 1 à 5 de l’Assistant.</span><span class="sxs-lookup"><span data-stu-id="a19ae-111">Complete steps 1 through 5 in the wizard.</span></span>
 
   
 
