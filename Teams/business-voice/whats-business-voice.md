@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Découvrez une vue d’ensemble de Microsoft 365 Business Voice et de quelle façon cette solution peut aider les PME à mieux communiquer.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e4798a8e449bf3ee9128938305795f617099af1
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690820"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170613"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Qu’est-ce que Microsoft 365 Business Voice ?
 
 La solution Microsoft 365 Business Voice permet aux petites et moyennes entreprises de transformer facilement leur application Microsoft Teams en un système téléphonique souple et performant. Elle remplace avantageusement les fournisseurs de services de téléphonie et les systèmes téléphoniques internes traditionnels dont la gestion est parfois complexe et coûteuse. Vous pouvez configurer des numéros payants et gratuits, des menus d’appel pour aider les utilisateurs à joindre le service approprié, l’audioconférence pour organiser des réunions à plusieurs et plus encore. Vous pouvez même attribuer aux utilisateurs leur propre numéro de téléphone pour qu’ils reçoivent des appels directement.
 
 Business Voice vous permet de faire tout cela en regroupant l’ensemble des fonctionnalités de votre Système téléphonique Microsoft 365 dans un bundle facile à gérer. Vous n’avez pas à vous soucier de choisir le plan ou la fonctionnalité qu’il vous faut. Tout est déjà inclus et configuré pour vous. Comme le Système téléphonique fait partie de Teams, vous pouvez transformer votre PC, Mac ou appareil mobile en téléphone et utiliser ce dernier avec votre numéro de téléphone professionnel.
+
+Voici une courte vidéo qui vous donne une vue d’ensemble de Business Voice (2:13 minutes) :
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
 
 Business Voice est la solution qui répondra à vos besoins si votre organisation ne compte pas plus de 300 personnes et que vous avez les abonnements Microsoft 365 suivants :
 
@@ -38,12 +42,12 @@ Business Voice est la solution qui répondra à vos besoins si votre organisatio
 - Microsoft 365 F1
 - Microsoft 365 F3
 - Office 365 F3
-- Microsoft et Office 365 Entreprise E1, E3 et E5
-- Microsoft 365 et Office 365 Éducation A1, A3 ou A5
-- Microsoft 365 et Office 365 Secteur Public G1, G3 ou G5 (GCC uniquement)
+- Microsoft et Office 365 Entreprise E1 ou E3
+- Microsoft 365 et Office 365 Éducation A1 ou A3
+- Microsoft 365 et Office 365 Secteur Public G1 ou G3
 - Microsoft 365 Business pour les associations
 - Microsoft 365 Business pour les associations standard
-- Microsoft 365 et Office 365 E1, E3 ou E5 pour les associations
+- Microsoft 365 et Office 365 E1 ou E3 pour les associations
 
 Business Voice est disponible dans plus de 70 pays et régions. Si vous pouvez configurer Business Voice par vous-même, transférez des numéros de téléphone à Microsoft 365 et gérez vos numéros de téléphone dans Microsoft 365, selon le pays ou la région dans lequel se trouve votre client Microsoft 365. Pour plus d’informations, consultez [disponibilité des pays et régions pour les](country-region-availability.md)vocaux professionnels.
 
