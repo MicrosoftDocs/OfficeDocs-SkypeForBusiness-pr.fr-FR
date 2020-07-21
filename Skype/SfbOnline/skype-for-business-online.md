@@ -15,14 +15,16 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: db4b7e5469608724bb9d147d212a08e6b31957a0
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943937"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185789"
 ---
 # <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
+
+La mise à niveau de Skype entreprise Online a été mise en service le 31 juillet 2021, et l’accès au service se termine. Nous encourageons les clients à commencer la mise à niveau de Microsoft Teams, le Hub pour le travail en équipe dans Microsoft 365. <a href=https://aka.ms/sfboannounce>En savoir plus</a>. 
 
 Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
