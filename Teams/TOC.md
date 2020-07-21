@@ -219,7 +219,6 @@
 ## Événements en direct
 ### [Que sont les événements en direct Teams ?](teams-live-events/what-are-teams-live-events.md)
 ### [Offre pour les événements en direct Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Fonctionnalités de présentateur, de producteur et de participants dans un événement en direct](roles-in-live-events.md)
 ### [Configurer les événements en direct Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Utiliser PowerShell pour définir les stratégies d’événements en direct Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configurer les paramètres d’événements en direct Teams](teams-live-events/configure-teams-live-events.md)
