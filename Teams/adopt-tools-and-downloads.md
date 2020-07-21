@@ -2,11 +2,9 @@
 title: Outils et téléchargements pour l’adoption
 ms.reviewer: karuanag
 description: Utilisez ces ressources pour vous aider à renforcer l’adoption de Microsoft teams et d’autres services Microsoft 365 ou Office 365.
-ms.topic: landing-page
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
@@ -19,133 +17,21 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5e721db22f14ed04a207f4655b745a25e0bc358b
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756503"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189186"
 ---
 # <a name="tools-for-driving-adoption"></a>Outils pour favoriser l’Adoption 
 
 Utilisez les outils ci-dessous pour prendre en charge chaque phase de votre plan d’adoption de service.  
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plans de Projet d’Adoption</h3>
-                        <p>Accélérer votre planification avec nos fichiers offre d’adoption</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Chat" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Exemple de personnages et de styles de travail</h3>
-                        <p>Utilisez ces modèles pour mapper ce qui est important pour vos employés<p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Utilisez ce modèle pour attribuer des flux de travail aux membres de l’équipe clés et communiquer avec les parties prenantes</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Inspirez vos employés grâce à l’option «Day in the Life quicksheets»</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/CoffeeintheCloud">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Ressources vidéo intégrables pour les spécialistes et les professionnels de l’informatique</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Préparez votre réseau pour Microsoft Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li></ul>
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px">| [Plans de Projet d’Adoption](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px">| [Exemple de personnages et de styles de travail](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [Utilisez ce modèle pour attribuer des flux de travail aux membres de l’équipe clés et communiquer avec les parties prenantes](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px">| [Inspirez vos employés grâce à l’option «Day in the Life quicksheets»](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px">| [Ressources vidéo intégrables pour les spécialistes et les professionnels de l’informatique](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px">| [Préparez votre réseau pour Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
 
 
 ### <a name="microsoft-365-or-office-365-champions-program"></a>Programme Microsoft 365 ou Office 365 champions

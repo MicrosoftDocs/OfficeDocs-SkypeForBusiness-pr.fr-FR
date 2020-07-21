@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique gestion de Skype entreprise Server.
-ms.openlocfilehash: 781d00911c0d4d1ea1fb197bbc67fd8b80909b6c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration de Skype entreprise Server, consultez la rubrique Manage Skype for Business Server.
+ms.openlocfilehash: 075068b924c009df1d142c4c16253d38826f974a
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797425"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189196"
 ---
 # <a name="voice-usage-policy"></a>Stratégie d’utilisation de la voix
  
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, voir gérer les articles dans [Skype entreprise server 2019](../../../../SfBServer2019/skype-for-business-server-2019.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration de Skype entreprise Server, voir Manage Articles in [Skype for Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml).
   
 
