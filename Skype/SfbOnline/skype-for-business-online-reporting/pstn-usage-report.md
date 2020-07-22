@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918512"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201168"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
@@ -41,7 +41,7 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-- Accédez au centre d' **administration >** > Centre d’administration Skype entreprise-**rapports** >  > **Centre d’administration Skype entreprise**-**Détails d’utilisation PSTN**.
+- Accédez au centre d' **administration > Centre**  >  **d’administration Skype entreprise-rapports centre d’administration Skype entreprise**-  >  **Reports**  >  **Détails d’utilisation PSTN**.
     
     > [!NOTE]
     > En fonction de l’abonnement Microsoft 365 ou Office 365, vous ne verrez peut-être pas tous les produits et les rapports présentés dans cet article.
@@ -52,7 +52,7 @@ Vous pouvez vous connaître l'utilisation PSTN Skype Entreprise d'un utilisateur
   
 Voici une illustration du rapport.
   
-![Rapport d'utilisation de la conférence RTC Skype Entreprise](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
+[Rapport d’utilisation de la Conférence ![ ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) RTC Skype entreprise](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Cette opération montre tous les utilisateurs pour lesquels Skype entreprise est associé et leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
@@ -103,7 +103,7 @@ Voici une illustration du rapport.
 > Vous pouvez également voir « aucune donnée » dans certains champs. « Aucune donnée » signifie que le champ n’est pas applicable au type d’appel ou à la fonctionnalité. 
 
 > [!NOTE]
-> Si vous avez un plan d’appels Telstra, vous ne verrez pas les enregistrements des détails des appels dans le rapport d’utilisation PSTN. Veuillez contacter Telstra pour obtenir les exigences de votre rapport. 
+> Si vous avez un plan d’appels Telstra ou Softbank, vous ne verrez pas les enregistrements des détails des appels dans le rapport d’utilisation PSTN. Veuillez contacter Telstra ou Softbank à des fins de création de rapports. 
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***
@@ -114,9 +114,9 @@ Cliquer ou appuyer sur le bouton **Exporter vers Excel** vous permet de téléch
 
 Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure.
 
-Le processus d’exportation peut durer de quelques secondes à quelques minutes, en fonction de la quantité de données. Lorsque le serveur effectue l’exportation, vous recevez un fichier zip intitulé «**appels. Export. [ ] `identifier`. zip**", avec l’identificateur qui est un ID unique pour l’exportation, qui peut être utilisé pour la résolution des problèmes.
+Le processus d’exportation peut durer de quelques secondes à quelques minutes, en fonction de la quantité de données. Lorsque le serveur effectue l’exportation, vous recevez un fichier zip intitulé «**appels. Export. [ `identifier` ]. Code postal**, avec l’identificateur qui est un ID unique pour l’exportation, qui peut être utilisé pour la résolution des problèmes.
 
-Si vous avez les deux plans d’appel et le routage direct, le fichier exporté risque de contenir des données pour les deux produits. Un fichier de rapport d’utilisation RTC porte le nom de fichier «**RTC. Calls ». ] `UTC date`. csv**. Outre les fichiers RTC et de routage directe, l’archive contient le fichier «**Parameters. JSON**», avec la plage de temps d’exportation sélectionnée et les capacités (le cas échéant).
+Si vous avez les deux plans d’appel et le routage direct, le fichier exporté risque de contenir des données pour les deux produits. Un fichier de rapport d’utilisation RTC porte le nom de fichier «**RTC. Calls. [ `UTC date` ]. CSV**». Outre les fichiers RTC et de routage directe, l’archive contient le fichier «**parameters.jsactivé**», avec la plage de temps d’exportation sélectionnée et les capacités (le cas échéant).
 
 Le fichier exporté est un fichier de valeurs séparées par des virgules (CSV), conforme à la norme [RFC 4180](https://tools.ietf.org/html/rfc4180) . Le fichier peut être ouvert dans Excel ou tout autre éditeur compatible standard sans qu’il soit nécessaire de transformations.
 
@@ -169,7 +169,7 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

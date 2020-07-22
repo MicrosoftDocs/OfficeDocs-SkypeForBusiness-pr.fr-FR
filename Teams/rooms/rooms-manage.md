@@ -1,5 +1,5 @@
 ---
-title: Présentation de la gestion des salles de Microsoft teams
+title: Gérer les Salles Microsoft Teams
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -15,82 +15,162 @@ ms.collection:
 - M365-collaboration
 description: Apprenez-en davantage sur la création et l’exécution de maintenance et d’opérations en continu pour vous assurer que vos systèmes de salle Microsoft teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2339967d6d7705266c13dbc65fb689c49c8e8279
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085950"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202920"
 ---
-# <a name="management-overview"></a>Vue d’ensemble de la gestion
+# <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
-Il est essentiel de développer et d’exécuter les opérations de maintenance et d’exécution en continu pour vous assurer que vos systèmes de salle Microsoft teams sont disponibles pour vos utilisateurs et offrir ainsi une bonne utilisation de l’utilisateur. 
+Si vous disposez de périphériques certifiés par Microsoft teams dans votre organisation, vous pouvez les gérer depuis un emplacement central à l’aide du centre d’administration Microsoft Teams. Vous pouvez :
 
-## <a name="monitoring"></a>Surveillance 
+- Effectuer une gestion des périphériques telle que le redémarrage ou le blocage des appareils, et le téléchargement des journaux de périphériques
+- Appliquer des paramètres spécifiques aux équipes
+- Vérification de l’état d’intégrité des appareils de salle Microsoft teams et de leurs périphériques, y compris des appareils photo, des écrans, des microphones, etc.
+- Passer en revue l’activité actuelle d’une réunion (par exemple, détails relatifs à la qualité des appels, état du réseau et connectivité et nombre de participants);
+- Voir les périphériques (par exemple, appareils photo et projecteurs) connectés à un appareil de salle Microsoft teams
 
-Le contrôle des systèmes de salle Microsoft teams comporte deux activités clés :
+Pour gérer les appareils de salle d’équipe, ouvrez le [Centre d’administration Microsoft teams](https://admin.teams.microsoft.com) et accédez à **périphériques**  >  **équipes**.
 
-- Surveillance de périphériques, d’applications et de périphériques
-- Surveillance de la qualité et de la fiabilité (bord)
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Pages de synthèse des salles de teams dans le centre d’administration teams":::
 
-### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Analyse du périphérique, de l’application et de l’appareil périphériques de Microsoft teams
+> [!IMPORTANT]
+> Pour gérer les appareils à l’aide du centre d’administration Teams, vous devez disposer de l’administrateur du service équipes ou des rôles d’administrateur général.
 
-Pour garantir que les utilisateurs peuvent utiliser les unités de salles de Microsoft Teams, les unités doivent être activées, connectées au réseau avec l’application Microsoft teams de Microsoft correctement configurée et être connectées aux périphériques de fonctionnement. 
+## <a name="make-changes-to-teams-rooms-devices"></a>Apporter des modifications à des appareils de salle d’équipe
 
-Les informations relatives à l’état de l’application Microsoft teams salles et aux périphériques connectés sont écrites par l’application Microsoft teams dans le journal des événements Windows et expliquées dans les [entrées du journal](azure-monitor-manage.md#understand-the-log-entries). 
+Si vous avez plusieurs périphériques d’équipe, vous pouvez effectuer la plupart des actions sur plusieurs appareils en même temps. Par exemple, vous pouvez définir les paramètres de l’application équipes sur l’ensemble de vos appareils en même temps.
 
-|**Paramètres**|**Permet**|
-|:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permet au démarrage de Microsoft teams  <br/> |
-|Gestion de l’alimentation- \> sur le ca, éteindre l’écran après 10 minutes  <br/> Gestion de l’alimentation- \> sur le secteur, jamais mettre le système en veille  <br/> |Activation de l’affichage et de la réactivation des salles de Microsoft teams  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
+### <a name="device-settings"></a>Paramètres de l’appareil
 
-Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
-## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
-<a name="RemotePS"> </a>
+Vous pouvez modifier les paramètres d’un ou de plusieurs appareils de votre organisation. Pour modifier les paramètres, sélectionnez le ou les appareils que vous voulez gérer, puis sélectionnez **modifier les paramètres**. Un nouveau volet s’ouvre et vous permet de modifier les paramètres de vos appareils. Le tableau suivant répertorie les paramètres que vous pouvez modifier à l’aide du centre d’administration Teams. Certains paramètres ne sont disponibles que lorsque vous sélectionnez un seul appareil.
 
-Nous vous recommandons d’utiliser Microsoft Operations Manager suite pour surveiller vos systèmes de salle Microsoft Teams. Pour obtenir des instructions sur la configuration de la surveillance et l’alerte de base, voir [déployer la gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-deploy.md). 
+Si vous sélectionnez plusieurs appareils, les paramètres qui prennent en charge la modification en bloc présentent les deux options suivantes.
 
-Grâce à ces instructions, vous pouvez créer un tableau de bord simple à utiliser pour identifier les problèmes liés à l’utilisation de vos unités de salle Microsoft teams au sein de votre déploiement. 
+- **Conserver la valeur existante** Si vous choisissez cette option, aucune modification n’est apportée au paramétrage sur les appareils sélectionnés.
+- **Remplacer la valeur existante par** Si vous choisissez cette option, vous pouvez mettre à jour le paramètre sur les appareils que vous avez sélectionnés avec la valeur que vous spécifiez.
+    > [!CAUTION]
+    > Les valeurs existantes des paramètres que vous choisissez de mettre à jour seront remplacées par la valeur que vous spécifiez. Si vous souhaitez ajouter à une liste de valeurs existantes, vous devez inclure les valeurs existantes à la valeur que vous voulez ajouter. Par exemple, si un paramètre dispose d’une liste de domaines existante `contoso.com, fabrikam.com` et que vous voulez ajouter `northwindtraders.com` , la valeur que vous devez fournir est `contoso.com, fabrikam.com, northwindtraders.com` .
+    >
+    > Si vous sélectionnez plusieurs appareils, le paramètre de tous les appareils que vous sélectionnez sera changé en fonction de la valeur que vous spécifiez. Si les appareils ont des valeurs différentes pour un paramètre, celles-ci sont toutes mises à jour avec la même valeur.
 
-|    |     |
-|-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Vérifiez que vous utilisez la suite de gestion des opérations pour surveiller votre déploiement de Microsoft Teams.</li><li>Déterminez la liste de distribution cible à utiliser pour les alertes par e-mail.</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Définissez votre approche de qualité et de surveillance de la fiabilité.</li></ul>|
+| Paramètres                                                      | Valeurs acceptées                                        | Prend en charge la modification en bloc |
+|--------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| *Compte*                                                    |                                                        |                    |
+| **Email**                                                    | Adresse de messagerie                                          | Non                 |
+| **Mode de réunion pris en charge**                                   | Skype entreprise (par défaut) et Microsoft teams<br>Skype entreprise et Microsoft Teams (par défaut)<br>Skype entreprise uniquement|Oui|
+| **Authentification moderne**                                    | Activé<br>Désactivé                                              | Oui                |
+| **Adresse Exchange**                                         | Adresse de messagerie                                          | Non                 |
+| **Domaine\nomutilisateur (facultatif)**                               | Nom de domaine et nom d’utilisateur du compte                           | Non                 |
+| **Configurer un domaine**                                         | Liste séparée par des virgules                                   | Oui                |
+| *Réunions*                                                   |                                                        |                    |
+| **Partage d’écran automatique**                                 | Activé<br>Désactivé                                              | Oui                |
+| **Afficher les noms des réunions**                                       | Activé<br>Désactivé                                              | Oui                |
+| **Départ automatique si le reste de la réunion**                 | Activé<br>Désactivé                                              | Oui                |
+| *Device*                                                     |                                                        |                    |
+| **Double mode moniteur**                                        | Activé<br>Désactivé                                              | Oui                |
+| **Signalisation Bluetooth**                                      | Activé<br>Désactivé                                              | Oui                |
+| **Accepter automatiquement les invitations aux réunions en fonction de la proximité** | Sélectionné<br>Non activée                                 | Oui                |
+| **Envoi de journaux avec commentaires**                                  | Activé<br>Désactivé                                              | Oui                |
+| **Adresse e-mail pour les journaux et les commentaires**                      | Adresse de messagerie                                          | Oui                |
+| *Périphériques*                                                |                                                        |                    |
+| **Microphone de conférence**                                  | Liste des microphones disponibles                          | Non                 |
+| **Intervenant de la Conférence**                                     | Liste des haut-parleurs disponibles                             | Non                 |
+| **Volume par défaut**                                           | 0-100                                                  | Non                 |
+| **Intervenant par défaut**                                          | Liste des haut-parleurs disponibles                             | Non                 |
+| **Volume par défaut**                                           | 0-100                                                  | Non                 |
+| **Caméra de contenu**                                           | Liste des caméras disponibles                              | Non                 |
+| **Améliorations apportées à l’appareil photo**                              | Activé<br>Désactivé                                              | Non                 |
+| **Faire pivoter la caméra de contenu 180 degrés**                        | Activé<br>Désactivé                                              | Non                 |
+| *Thèmes*                                                    |                                                        |                    |
+|                                                              | Par défaut<br>Aucun thème<br>Personnels<br>Liste des thèmes intégrés   | Oui                |
 
-## <a name="quality-and-reliability-monitoring-cqd"></a>Surveillance de la qualité et de la fiabilité (bord)
+### <a name="device-restart-options"></a>Options de redémarrage de l’appareil
 
-Nous vous conseillons d’implémenter les procédures de vérification de la qualité opérationnelle et de la fiabilité dans le cadre de votre déploiement pour contrôler la tendance des appels et de la qualité des réunions et de la fiabilité, en identifiant les zones de préoccupation et en vous efforçant de résoudre le problème. 
+Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous apportez des modifications nécessitant un redémarrage, vous pouvez choisir si vous voulez redémarrer les appareils immédiatement ou planifier un redémarrage. Voici les options de redémarrage disponibles :
 
-Lorsque vous chargez vos informations de bâtiment dans bord, vous pouvez examiner les tendances en matière de qualité d’appel et de fiabilité d’un niveau par niveau, ce qui permet de comparer facilement les bâtiments et de focaliser votre attention sur des problèmes spécifiques.
+- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils sur lesquels vous apportez des modifications seront redémarrés dès que vous sélectionnez cette option.
+- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils sur lesquels vous apportez des modifications à un moment qui ne perturbe pas votre organisation.
+  - **Sélectionnez Date et heure** , puis choisissez une date et une heure spécifiques pour redémarrer l’appareil. La date et l’heure que vous choisissez est locale sur l’appareil redémarré. 
+  - **Laisser la mise à jour pour réinitialisation nocturne** Les appareils sont redémarrés de façon nocturne pour effectuer la maintenance. Les modifications que vous apportez aux appareils seront appliquées au redémarrage.
 
-Nous vous recommandons de revoir et de suivre les recommandations en [matière de qualité d’appel pour les équipes](../monitor-call-quality-qos.md) afin d’identifier les tendances en matière de qualité et de fiabilité, et de créer un plan d’action pour les résoudre. 
+> [!CAUTION]
+> Les appareils utilisés au moment du redémarrage ne seront plus disponibles pendant la durée du processus de redémarrage. Ils seront déconnectés d’une réunion en cours et ne seront pas disponibles pour joindre de nouvelles réunions.
 
-## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Mise à jour du système d’exploitation Microsoft teams et de l’application Microsoft teams
+### <a name="remove-or-block-a-device"></a>Supprimer ou bloquer un appareil
 
-Nous vous recommandons de mettre à jour l’application système d’exploitation de Microsoft teams et de Microsoft teams pour bénéficier des mises à jour et des améliorations du produit. Pour obtenir une aide détaillée, voir [gérer les salles de Microsoft teams](rooms-operations.md#software-updates). 
+Lorsque vous **supprimez** un appareil, celui-ci est supprimé de votre organisation et ne s’affiche plus dans la liste des appareils de salle d’équipes dans le centre d’administration Teams. 
 
-## <a name="windows-updates"></a>Mises à jour Windows
+Lorsque vous **bloquez** un périphérique, Teams ne communique plus le périphérique. Les appareils bloqués ne seront pas envoyés, même s’ils sont inclus dans un groupe de périphériques en cours de modification en bloc. Il apparaît toujours dans la liste des appareils de salle d’équipe dont le statut est **bloqué**.
 
-Microsoft teams Room s’exécute sur Windows 10 entreprise IoT ou Windows 10 entreprise (VL) et reçoit les mêmes mises à jour Windows et les mêmes versions de système d’exploitation que le bureau standard. Pour plus d’informations, voir [gérer les mises à jour Windows](updates.md) .
+Qu’il s’agisse d’un appareil bloqué ou supprimé, s’il est toujours configuré avec un nom d’utilisateur et un mot de passe valides, il sera automatiquement rajouté à votre liste d’appareils de salle d’équipe s’il est connecté à Microsoft 365.
 
+Pour supprimer un ou plusieurs appareils, procédez comme suit :
 
-## <a name="troubleshooting"></a>Résolution des problèmes
+1. Accédez à **périphériques**  >  **équipes** et sélectionnez les appareils que vous voulez supprimer.
+1. Sélectionnez **Supprimer**.
 
-Nous vous recommandons de configurer l’alerte de la suite de gestion des opérations comme décrit dans la section ci-dessus pour que votre équipe et votre support technique soient avertis de tout problème de Microsoft Teams. Les options qui s’offrent à vous pour la gestion à distance PowerShell sont décrites dans [gestion à distance à l’aide de PowerShell](rooms-operations.md#remote-management-using-powershell). Dans le cas où un périphérique est déconnecté, vous devrez peut-être vous reposer sur des « mains actives » locales ou sur la prise en charge de l’examen et de la reconnexion des appareils. 
+Pour bloquer un appareil, procédez comme suit :
 
-Pour plus d’informations sur la résolution des problèmes et le mode administrateur, voir [mode administrateur et gestion des appareils](rooms-operations.md#admin-mode-and-device-management). 
+1. Accédez à **périphériques**  >  **équipes** et sélectionnez le nom de l’appareil que vous voulez bloquer.
+1. Dans la page Détails de l’appareil, sélectionnez **actions** dans le coin supérieur droit de la page.
+1. Sélectionnez **bloquer**.
 
+Pour déverrouiller un appareil, procédez comme suit :
 
-## <a name="see-also"></a>Voir aussi
+1. Accédez à **périphériques**  >  **équipes** et sélectionnez le nom de l’appareil que vous voulez bloquer.
+1. Dans la page Détails de l’appareil, sélectionnez **actions** dans le coin supérieur droit de la page.
+1. Sélectionnez **débloquer**.
 
-[Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+## <a name="download-device-logs"></a>Télécharger les journaux de périphériques
 
-[Planifier les Salles Microsoft Teams](rooms-plan.md)
+Vous pouvez télécharger une copie des fichiers journaux de diagnostic d’un appareil, le cas échéant, à l’aide du support Microsoft. Les fichiers journaux sont comprimés dans un fichier zip qui peut être téléchargé à partir du centre d’administration Teams.
 
-[Déployer les Salles Microsoft Teams](rooms-deploy.md)
+Pour télécharger les journaux à partir d’un appareil de salle d’équipe sur votre ordinateur, procédez comme suit :
 
-[Configurer une console des salles Microsoft Teams](console.md)
+1. Accédez à **périphériques**  >  **équipes** et sélectionnez le nom de l’appareil à partir duquel vous voulez télécharger les journaux.
+1. Sélectionnez **Télécharger les journaux de périphériques**. Quelques minutes peuvent s’écouler avant que les journaux de périphériques deviennent disponibles.
+1. Sélectionnez l’onglet **historique** , puis sélectionnez le lien fichier journal sous **fichier de diagnostic**. Un fichier zip contenant les fichiers journaux de diagnostic de votre appareil est téléchargé dans le dossier téléchargements par défaut de votre navigateur.
 
-[Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md)
+## <a name="view-device-information"></a>Afficher les informations sur l’appareil
+
+Dans le centre d’administration Teams, vous pouvez afficher l’état global de tous les appareils de votre organisation et afficher les détails de chacun d’eux individuellement.
+
+### <a name="teams-rooms-system-dashboard"></a>Tableau de bord du système de salle teams
+
+Le tableau de bord du système salles d’équipes montre l’État et l’état de tous vos appareils en un clin d’œil.
+
+### <a name="device-details-view"></a>Affichage des détails de l’appareil
+
+Pour afficher des informations détaillées sur un appareil, sélectionnez son nom dans la liste des appareils. Le mode Détails vous permet d’accéder aux informations suivantes sur votre appareil :
+
+- **État d’intégrité** Indique l’état global de l’appareil de salle de salle. L’état d’intégrité peut être **sain** ou **défectueux**.
+- **Hors connexion depuis** Affiche la dernière fois que Microsoft 365 a pu communiquer avec l’appareil.
+- **État** de l’appareil Affiche l’état actuel de l’appareil : **inactif**, **réunion teams**, **réunion Skype**ou **acquisition**.
+- **Périphériques** Affiche les périphériques connectés à votre appareil de salle d’équipe ainsi que leur état d’intégrité. L’état d’intégrité peut être **connecté** ou **déconnecté**.
+- **État d’intégrité** Affiche des informations détaillées sur les périphériques connectés à votre appareil de salle d’équipe, la connectivité réseau, le statut de connexion aux services requis et les informations de version du logiciel.
+- **Informations détaillées** Affiche des informations sur le fabricant, une adresse IP réseau et une adresse de série/MAC.
+- **Activité** Affiche les détails de la réunion, y compris la date et l’heure de la réunion, le nombre de participants, la durée et la qualité audio. Pour plus d’informations sur les détails de la réunion, voir la section Détails de l’activité de la [réunion](#meeting-activity-details) , plus loin dans cet article.
+- **Historique des** appels Affiche un historique de l’activité de gestion de l’appareil de salle Teams, y compris les mises à jour de configuration, les redémarrages de périphériques et les liens de téléchargement du journal des appareils.
+
+#### <a name="meeting-activity-details"></a>Détails sur l’activité de la réunion
+
+L’onglet **activité** des détails de l’appareil salle de réunion affiche des informations de haut niveau et détaillées sur toutes les réunions auxquelles l’appareil a participé dans le temps. Dans l’onglet **activité** , vous pouvez voir le moment de la réunion, le nombre de participants ayant participé à la réunion et la qualité audio pendant la réunion.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Liste récapitulative de l’activité des périphériques de salle teams":::
+
+Pour afficher des informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion à laquelle vous voulez obtenir plus d’informations. Si une réunion ne compte que deux participants, la page des détails des participants s’affiche, faute de quoi vous verrez une page de résumé du participant.
+
+##### <a name="participant-summary"></a>Résumé du participant
+
+La page Résumé du participant montre tous les participants ayant participé à la réunion. Vous pouvez voir à quel moment chaque participant a rejoint la réunion, son nom, sa qualité audio et les fonctionnalités utilisées au cours de sa session. Pour afficher les détails de la session d’un participant, sélectionnez l’heure de début de la session pour ce participant.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Détails de la Conférence sur les appareils de salle teams":::
+
+##### <a name="participant-details"></a>Détails du participant
+
+La page Détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme indiqué dans l’illustration suivante, les informations relatives aux **périphériques**, au **système**et à la **connectivité** sont fournies pour le participant et l’appareil de salle de l’équipe. Des informations de diagnostic **réseau** sont également fournies entre le participant et l’appareil de salle de l’équipe. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour obtenir des informations de diagnostic supplémentaires, sélectionnez l’onglet **Options avancées** .
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Détails de l’appel d’appareil de salle teams":::

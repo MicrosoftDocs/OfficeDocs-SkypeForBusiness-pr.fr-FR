@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport d’utilisation RTC de Micro
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918572"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201198"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Rapport utilisation RTC de Microsoft teams
 
@@ -30,16 +30,19 @@ Le rapport utilisation RTC de Microsoft teams dans le centre d’administration 
 
 L’onglet **forfaits** d’appels affiche des informations telles que le nombre de minutes passées par les utilisateurs dans les appels RTC entrants et sortants et le coût de ces appels. L’onglet **routage direct** affiche des informations telles que l’adresse SIP et les heures de début et de fin de l’appel. Les informations contenues dans ce rapport vous permettent de vous familiariser avec l’utilisation RTC au sein de votre organisation et vous aident à examiner, planifier et prendre des décisions commerciales.
 
+> [!NOTE]
+> Si vous avez un plan d’appels Telstra ou Softbank, vous ne verrez pas les enregistrements des détails des appels dans le rapport d’utilisation PSTN. Veuillez contacter Telstra ou Softbank à des fins de création de rapports. 
+
 ## <a name="view-the-pstn-usage-report"></a>Afficher le rapport d’utilisation PSTN
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez **rapport d’utilisation PSTN**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** rapports d'  >  **utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez **rapport d’utilisation PSTN**.
 2. Sous **plage de dates**, sélectionnez une plage de 7 ou 28 jours prédéfinie, ou définissez une plage personnalisée, puis sélectionnez **exécuter un rapport**.
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
 ### <a name="calling-plans"></a>Forfaits d’appel
 
-![Capture d’écran du rapport sur l’utilisation RTC des plans d’appel dans le centre d’administration](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Rapport d’utilisation RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
+[![Capture d’écran du rapport sur l’utilisation RTC des plans d’appel dans le centre d’administration](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Rapport d’utilisation RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Légende |Description  |
 |--------|-------------|
@@ -54,7 +57,7 @@ L’onglet **forfaits** d’appels affiche des informations telles que le nombre
 
 ### <a name="direct-routing"></a>Routage direct
 
-![Capture d’écran du rapport de rapport d’utilisation RTC du routage direct dans le centre d’administration](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Capture d’écran du rapport sur l’utilisation RTC du routage direct dans le centre d’administration Microsoft teams avec des légendes numérotées")
+[![Capture d’écran du rapport de rapport d’utilisation RTC du routage direct dans le centre d’administration](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Capture d’écran du rapport sur l’utilisation RTC du routage direct dans le centre d’administration Microsoft teams avec des légendes numérotées")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Légende |Description  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Cliquez sur **Exporter vers Excel**, puis sous l’onglet **téléchargements** 
 
 Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Les fichiers exportés contiennent d’autres champs qui ne sont pas disponibles dans le rapport en ligne. Celles-ci peuvent être utilisées pour résoudre les problèmes et les flux de travail automatisés.
 
- Vous recevrez un fichier zip intitulé «**appels. Export.`[identifier]`.. Code postal**, avec l’identificateur qui est un ID unique pour l’exportation qui peut être utilisé pour la résolution des problèmes.
+ Vous recevrez un fichier zip intitulé «**appels. Export. `[identifier]` .. Code postal**, avec l’identificateur qui est un ID unique pour l’exportation qui peut être utilisé pour la résolution des problèmes.
 
-Si vous avez les deux plans d’appel et le routage direct, le fichier exporté risque de contenir des données pour les deux produits. Le fichier de rapport d’utilisation RTC dispose du nom de fichier «**PSTN. Calls`[UTC date]`». CSV**» et routage directe «**DirectRouting. Calls`[UTC date]`.. CSV**».
+Si vous avez les deux plans d’appel et le routage direct, le fichier exporté risque de contenir des données pour les deux produits. Le fichier de rapport d’utilisation RTC dispose du nom de fichier «**PSTN. Calls `[UTC date]` ». CSV**» et routage directe «**DirectRouting. Calls. `[UTC date]` . CSV**».
 
- En plus des fichiers RTC et du routage direct, l’archive contient le fichier «**Parameters. JSON**», avec la plage de valeurs et les capacités d’exportation sélectionnées.
+ Outre les fichiers RTC et de routage directe, l’archive contient le fichier «**parameters.jsactivé**», avec la plage de temps et les capacités d’exportation sélectionnées.
 
 Les fichiers exportés sont au format de valeurs séparées par des virgules (CSV), conforme à la norme [RFC 4180](https://tools.ietf.org/html/rfc4180) . Les fichiers peuvent être ouverts dans Excel ou tout autre éditeur compatible standard sans avoir besoin de transformations.
 

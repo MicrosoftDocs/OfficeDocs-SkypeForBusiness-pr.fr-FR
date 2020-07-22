@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Apprenez-en davantage sur la prise en charge du cycle de vie des salles de Microsoft Teams, y compris la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691190"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201188"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Prise en charge de la version de l’application Microsoft teams
  
@@ -54,8 +54,8 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 |Version  |Date de disponibilité   |État du support de Microsoft teams   |Version d’application minimum de Microsoft teams | Build recommandée du système d’exploitation  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 2004 |2020-05-27 |Sous validation, <br/>Déconseillé|&#x2014; |19041,264 |
-| 1909 |2019-11-12 |Validation terminée, <br/>Aucun problème connu.|Bientôt disponible |18363,418  |
-| 1903 |2019-05-21 |Pris en charge <br/>Recommandation  |4.2.4.0 |18362,356 |
+| 1909 |2019-11-12 |Pris en charge <br/>Recommandation |4.5.33.0 |18363,418  |
+| 1903 |2019-05-21 |Pris en charge  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Ignoré <br/>Déconseillé &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Pris en charge                             |4.1.22.0 |17134,191|
 | 1709 |2018-01-18 |Non pris en charge                         |&#x2014; |&#x2014; |
@@ -67,7 +67,7 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 
 Lorsque vous utilisez une version prise en charge de Windows 10, vous obtiendrez toujours les dernières mises à jour de l’application pour l’application Microsoft teams salles.  
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

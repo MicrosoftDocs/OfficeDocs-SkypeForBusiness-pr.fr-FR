@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021872"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201178"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -29,6 +29,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -64,6 +65,17 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
+
+### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+Présenté dans cette mise à jour :
+- Rejoignez des réunions Cisco Webex à partir d’équipes de réunion avec l’accès invité directe
+- Activation et inscription automatique du centre d’administration teams
+- Windows 10 1909-support technique
+- Basculer vers la disposition de la Galerie de vidéos même en cas de présence de contenu
+- Prise en charge de l’augmentation virtuelle pour les participants et contrôles pour les présentateurs
+- Paramètre de volume par défaut réglable pour les conférences et les haut-parleurs par défaut
+- Rechercher et appeler des utilisateurs fédérés (client) à partir de la salle teams
+    
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 

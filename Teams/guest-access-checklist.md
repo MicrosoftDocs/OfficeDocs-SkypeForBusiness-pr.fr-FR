@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583fdf2ba821437d1877036ddafe5cce0a460269
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637293"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201048"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Liste de contrôle de l’accès invité Microsoft Teams
 =========================================
@@ -78,7 +78,7 @@ Il s’agit des paramètres Azure AD qui prennent en charge l’accès invité d
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Étape 3 : configurer les groupes Microsoft 365
 
-1. Dans le centre d’administration 365 Microsoft, accédez **Settings**à  >  **paramètres**des paramètres, cliquez sur **services**, puis sélectionnez **groupes Microsoft 365**.
+1. Dans le centre d’administration 365 Microsoft, accédez à **paramètres**de l'  >  **organisation**, cliquez sur **services**, puis sélectionnez **groupes Microsoft 365**.
 
      ![Capture d’écran montrant les paramètres des groupes Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Assurez-vous que la case à cocher **Permettre aux membres du groupe extérieurs à l’organisation d’accéder au contenu du groupe** est activée. Si ce paramètre n’est pas sélectionné, les invités ne pourront pas accéder au contenu du groupe.
@@ -92,7 +92,7 @@ Pour obtenir des instructions détaillées sur la configuration de ces paramètr
 
 Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment procéder :
 
-1. Dans le Centre d’administration Microsoft 365, accédez à **Paramètres** > **Paramètres**, cliquez sur **Sécurité et confidentialité**, puis sélectionnez **Partage**.
+1. Dans le centre d’administration 365 Microsoft, accédez à **paramètres**de l'  >  **organisation**, cliquez sur **sécurité & confidentialité**, puis sélectionnez **partage**.
 
      ![Capture d’écran montrant un exemple de paramètres de services](media/guest-access-checklist-security-privacy-settings.png)
  
