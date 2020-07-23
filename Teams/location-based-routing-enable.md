@@ -17,23 +17,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: e4cadbfb700c7478cb77c62f4597c9ae00164b0c
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412641"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372043"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Avant de suivre les étapes décrites dans cet article, assurez-vous d’avoir lu le [routage de l’emplacement de votre plan pour le routage direct](location-based-routing-plan.md) et effectué les étapes décrites dans [configurer les paramètres réseau pour le routage via emplacement](location-based-routing-configure-network-settings.md).
 
 Cet article explique comment activer le routage sur la base de l’emplacement pour le routage direct. Après le déploiement du routage direct du système téléphonique et la configuration des zones, des sites et des sous-réseaux, vous pouvez activer le routage par emplacement. Pour suivre les étapes décrites dans cet article, vous devez être familiarisé avec les applets de méthode PowerShell. Pour en savoir plus, voir [vue d’ensemble de PowerShell teams](teams-powershell-overview.md).
 
  Vous devez activer le routage par emplacement pour les éléments suivants :
-- Users
+- Utilisateurs
 - Sites réseau
 - Configurations des passerelles
 - Stratégies d’appel

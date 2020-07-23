@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201048"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372003"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Liste de contrôle de l’accès invité Microsoft Teams
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "45201048"
 Utilisez cette liste de vérification pour activer et configurer l’accès invité dans Microsoft Teams. Pour apporter ces modifications, vous devez être un administrateur général ou un administrateur Teams.
 
 > [!IMPORTANT]
-> Il est possible que vous deviez patienter quelques heures avant que les modifications soient prises en compte. 
+> Il est possible que vous deviez patienter quelques heures avant que les modifications soient prises en compte.
 
 Regardez cette courte vidéo (5:31 minutes) pour découvrir comment activer l’accès invité dans Microsoft 365, y compris les équipes.
 
@@ -39,7 +39,7 @@ Regardez cette courte vidéo (5:31 minutes) pour découvrir comment activer l’
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Étape 1 : activer l’accès invité au niveau de l’organisation à l’échelle de l’organisation
 
-Pour activer l’accès invité, accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
+Pour effectuer ces modifications, vous devez être un administrateur de service Teams. Pour plus d’informations sur l’accès aux rôles d’administrateur et aux autorisations, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
 1. Dans le Centre d'administration Teams, sélectionnez **paramètres Org-wide** > **accès invité**.
 2. Mettre le bouton bascule**Autoriser l’accès invité dans Microsoft Teams** sur **On**.
@@ -73,7 +73,7 @@ Il s’agit des paramètres Azure AD qui prennent en charge l’accès invité d
      - **Restrictions de collaboration** : pour plus d’informations sur l’autorisation ou le blocage d’invitations à des domaines spécifiques, consultez [Autoriser ou bloquer des invitations à des utilisateurs B2B d’organisations spécifiques](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
         > [!NOTE]
         > Pour plus d’informations sur les restrictions de collaboration, consultez [Activer la collaboration externe B2B et gérer les utilisateurs pouvant inviter des invités](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
-      
+
     Pour plus d’informations sur le contrôle de qui peut ajouter des invités, voir [Permettre une collaboration B2B externe et gérer qui peut inviter des invités](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Étape 3 : configurer les groupes Microsoft 365
@@ -88,18 +88,18 @@ Il s’agit des paramètres Azure AD qui prennent en charge l’accès invité d
 
 Pour obtenir des instructions détaillées sur la configuration de ces paramètres, voir [gérer l’accès invité dans les groupes microsoft 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) et [contrôler l’accès invité dans les groupes Microsoft 365](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
-## <a name="step-4-configure-sharing-in-microsoft-365"></a>Étape 4 : configurer le partage dans Microsoft 365 
+## <a name="step-4-configure-sharing-in-microsoft-365"></a>Étape 4 : configurer le partage dans Microsoft 365
 
 Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment procéder :
 
 1. Dans le centre d’administration 365 Microsoft, accédez à **paramètres**de l'  >  **organisation**, cliquez sur **sécurité & confidentialité**, puis sélectionnez **partage**.
 
      ![Capture d’écran montrant un exemple de paramètres de services](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. Activez la case à cocher **Permettre aux utilisateurs d’ajouter des invités à cette organisation**, puis cliquez sur **Enregistrer les modifications**.
 
      ![Capture d’écran montrant un exemple de commutateurs de paramètres de partage](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > Ce paramètre équivaut au paramètre **Les membres peuvent inviter** dans **Paramètres de l’utilisateur** > **Utilisateurs externes** dans Azure AD.  
 

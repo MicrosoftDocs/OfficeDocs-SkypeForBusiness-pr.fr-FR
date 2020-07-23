@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Suivez ces étapes pour créer un numéro de téléphone par défaut permettant aux appelants de participer à une réunion Microsoft Teams.
-ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021762"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372183"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus dans les invitations dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Les conférences audio dans Microsoft 365 et Office 365 permettent aux utilisate
 Un pont de conférence vous offre un ensemble de numéros de téléphone pour votre organisation. Tous ces ponts peuvent servir à participer à des réunions créées par un organisateur de réunion, mais vous pouvez sélectionner ceux qui doivent être inclus dans les invitations de réunion.
   
 > [!NOTE]
-> Il peut y avoir au maximum une ligne simple et une ligne de téléphone gratuite dont les numéros apparaissent sur l’invitation à la réunion pour un organisateur de réunion, mais il existe également un lien situé en bas de chaque invitation à une réunion qui ouvre la liste complète de tous les numéros de téléphone qui peuvent être utilisés pour participer à une réunion. 
+> Il peut y avoir au maximum une ligne simple et une ligne de téléphone gratuite dont les numéros apparaissent sur l’invitation à la réunion pour un organisateur de réunion, mais il existe également un lien situé en bas de chaque invitation à une réunion qui ouvre la liste complète de tous les numéros de téléphone qui peuvent être utilisés pour participer à une réunion.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ Lorsque l’utilisateur est activé pour le service d’audioconférence, les nu
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-Vous devez être administrateur pour apporter ces modifications.
+Pour effectuer ces modifications, vous devez être un administrateur de service Teams. Pour plus d’informations sur l’accès aux rôles d’administrateur et aux autorisations, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
 1. Connectez-vous au centre d’administration Microsoft Teams.
 
@@ -63,27 +63,25 @@ Vous devez être administrateur pour apporter ces modifications.
 
 3. Cliquez sur le nom d’utilisateur dans la liste des utilisateurs disponibles.
 
-4. A côté de **Conférence Audio**, cliquez sur **Modifier**. 
-    
+4. A côté de **Conférence Audio**, cliquez sur **Modifier**.
+
     ![Cliquez sur modifier en regard de audioconférence](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. Utilisez les champs **numéro payant** ou **numéro gratuit** pour entrer les numéros de l’utilisateur.
 
-
 > [!IMPORTANT]
-> Lorsque vous modifiez les paramètres d’audioconférence d’un utilisateur, les réunions périodiques et périodiques de Microsoft teams doivent être mises à jour et envoyées aux participants. 
+> Lorsque vous modifiez les paramètres d’audioconférence d’un utilisateur, les réunions périodiques et périodiques de Microsoft teams doivent être mises à jour et envoyées aux participants.
 
-## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
+## <a name="want-to-use-windows-powershell"></a>Vous voulez utiliser Windows PowerShell
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
-    
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps). 
+
+- [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
-    
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

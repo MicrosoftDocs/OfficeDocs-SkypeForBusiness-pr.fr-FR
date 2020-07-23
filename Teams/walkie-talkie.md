@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043009"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229050"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application de discussion de Microsoft teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-L’application de notification de l’équipe de discussion dans teams fournit une communication instantanée et vocale pour votre équipe et sera bientôt disponible en préversion publique sur Android. Le Guide d’appel permet aux utilisateurs de communiquer avec leur équipe en utilisant les mêmes canaux sous-jacents dont ils sont membres. Seuls les utilisateurs qui se connectent à la fonctionnalité de conversation dans un canal deviennent des participants et pourront communiquer entre eux à l’aide de la fonctionnalité de communication d’une personne à la fois.
+L’application de discussion de Microsoft teams fournit une communication de type « diffuser en communication » (PTT) instantanée pour votre équipe et est disponible en préversion publique sur Android. Le Guide d’appel permet aux utilisateurs de communiquer avec leur équipe en utilisant les mêmes canaux sous-jacents dont ils sont membres. Seuls les utilisateurs qui se connectent à la fonctionnalité de conversation dans un canal deviennent des participants et pourront communiquer entre eux à l’aide de la fonctionnalité de communication d’une personne à la fois.
 
 En équipe, vous pouvez à tout moment communiquer en toute sécurité avec une expérience PTT familière sans avoir besoin de transporter des radios en vrac, et de se familiariser avec la connectivité Internet WiFi ou mobile.
 
@@ -73,9 +73,9 @@ L’utilisation de données attendue à partir de Walk parle est entourée de 20
 
 Les travailleurs terrain doivent souvent parler et recevoir des appels à propos de l’appel, même si leur téléphone est verrouillé. Cette expérimentation est possible via des appareils spécialisés avec un bouton PTT dédié.
 
-- Téléphones existants
-  - Casques câblés ([électronique Klein](https://www.kleinelectronics.com/))
-  - Casques sans fil ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Casques
+  - Casques câblés ([électronique Klein](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Casques sans fil ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Des téléphones plus robustes
   - Samsung Galaxy XCover Pro
     - [Plus d’informations](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).

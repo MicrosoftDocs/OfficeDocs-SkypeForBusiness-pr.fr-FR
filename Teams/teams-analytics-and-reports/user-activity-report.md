@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport activité de l’utilisateur
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903869"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372153"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Rapport d’activité des utilisateurs de Microsoft Teams
 
@@ -30,7 +30,9 @@ Le rapport activité de l’utilisateur sur teams vous permet de mieux comprendr
 
 ## <a name="view-the-user-activity-report"></a>Afficher le rapport d’activité de l’utilisateur
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez activité de l' **utilisateur sur teams**.
+Pour effectuer ces modifications, vous devez être un administrateur de service Teams. Pour plus d’informations sur l’accès aux rôles d’administrateur et aux autorisations, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
+
+1. Dans le volet de navigation de gauche du centre d’administration, cliquez sur **analyse &** rapports d'  >  **utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez activité de l' **utilisateur sur teams**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
     ![Capture d’écran du rapport activité de l’utilisateur sur teams dans le centre d’administration teams avec légendes](../media/teams-reports-user-activity-with-callouts.png "Capture d’écran du rapport activité de l’utilisateur sur teams dans le centre d’administration teams avec légendes")

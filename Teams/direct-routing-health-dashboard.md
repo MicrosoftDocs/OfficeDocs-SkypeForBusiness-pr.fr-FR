@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment utiliser le tableau de bord d’état d’intégrité pour contrôler la connexion entre votre contrôleur de bordure de session et le routage direct.
-ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: a75510340815489921a5dd67a204b6914a9539d4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940741"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229110"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Tableau de bord d’État pour le routage direct
 
-Le tableau de bord d’intégrité pour le routage direct vous permet d’analyser la connexion entre votre contrôleur de bordure de session et l’interface de routage directe.  Le tableau de bord d’État vous permet d’surveiller les informations relatives à votre SBC, au service de téléphonie et aux paramètres réseau entre votre SBC et l’interface de routage directe. Ces informations peuvent vous aider à identifier les problèmes, notamment le motif des appels interrompus. Par exemple, l’SBC peut arrêter d’envoyer des appels si un certificat sur l’SBC a expiré ou s’il rencontre des problèmes de réseau.  
+Le tableau de bord d’intégrité pour le routage direct vous permet d’analyser la connexion entre votre contrôleur de bordure de session et l’interface de routage directe.  Le tableau de bord d’État vous permet d’surveiller les informations relatives à votre SBC, au service de téléphonie et aux paramètres réseau entre votre SBC et l’interface de routage directe. Ces informations peuvent vous aider à identifier les problèmes, notamment le motif des appels interrompus. Par exemple, l’SBC peut arrêter d’envoyer des appels si un certificat sur l’SBC a expiré ou s’il rencontre des problèmes de réseau. Pour plus d’informations sur les personnes autorisées à accéder au tableau de bord d’État, voir [rôles d’administrateur](using-admin-roles.md) .
 
 Le tableau de bord d’état de santé analyse deux niveaux d’information :
 
@@ -33,7 +33,6 @@ Le tableau de bord d’état de santé analyse deux niveaux d’information :
 - Informations détaillées sur la connexion SBCs connectée
 
 Vous pouvez afficher le tableau de bord d’État dans le centre d’administration Microsoft teams et Skype entreprise.
-
 
 ## <a name="overall-health"></a>Intégrité globale
 
@@ -47,18 +46,17 @@ Le tableau de bord de santé fournit les informations suivantes relatives à l�
 
 - **Taux d’efficacité du réseau (ner)** : ner mesure la capacité d’un réseau à remettre des appels en mesurant le nombre d’appels envoyés par rapport au destinataire.  
 
-   Le NER mesure la capacité des réseaux à délivrer les appels vers le terminal principal, à l’exception des actions des utilisateurs qui génèrent des rejets d’appel.  Si le destinataire a rejeté un appel ou a envoyé l’appel à la boîte vocale, l’appel est considéré comme une remise réussie. Cela signifie qu’un message de réponse, un signal occupé ou une sonnerie sans réponse sont tous considérés comme des appels réussis. 
+   Le NER mesure la capacité des réseaux à délivrer les appels vers le terminal principal, à l’exception des actions des utilisateurs qui génèrent des rejets d’appel.  Si le destinataire a rejeté un appel ou a envoyé l’appel à la boîte vocale, l’appel est considéré comme une remise réussie. Cela signifie qu’un message de réponse, un signal occupé ou une sonnerie sans réponse sont tous considérés comme des appels réussis.
   
-   Par exemple, supposons que le routage direct envoie un appel au SBC et que le SBC renvoie le code SIP « 504 Server Time-Out-le serveur tente d’accéder à un autre serveur en essayant de traiter la demande sans recevoir de réponse d’invite ». Cette réponse indique qu’il y a un problème sur le côté de l’SBC et cela diminue le NER sur le tableau de bord d’état de cette SBC. 
+   Par exemple, supposons que le routage direct envoie un appel au SBC et que le SBC renvoie le code SIP « 504 Server Time-Out-le serveur tente d’accéder à un autre serveur en essayant de traiter la demande sans recevoir de réponse d’invite ». Cette réponse indique qu’il y a un problème sur le côté de l’SBC et cela diminue le NER sur le tableau de bord d’état de cette SBC.
   
-   Dans la mesure où l’action que vous prenez peut dépendre du nombre d’appels concernés, le tableau de bord d’État du service indique le nombre d’appels analysés pour calculer un paramètre. Si le nombre d’appels est inférieur à 100, le NER peut être très faible, mais rester normal. 
+   Dans la mesure où l’action que vous prenez peut dépendre du nombre d’appels concernés, le tableau de bord d’État du service indique le nombre d’appels analysés pour calculer un paramètre. Si le nombre d’appels est inférieur à 100, le NER peut être très faible, mais rester normal.
 
    La formule utilisée pour calculer NER est la suivante :
 
    NER = 100 x (appels en réponse + utilisateur occupé + sonne sans réponse + appel de rejet de terminaux)/Total appels
 
- 
-- **Durée d’appel moyenne** : les informations relatives à la durée d’appel moyenne vous permettent de surveiller la qualité des appels. La durée moyenne d’un appel RTC 1:1 est de quatre à cinq minutes.  Toutefois, pour chaque société, cette moyenne peut varier.  Microsoft recommande d’établir un planning de référence pour la durée d’appel moyenne de votre entreprise. Si ce paramètre est largement inférieur au planning de référence, il est possible que vos utilisateurs rencontrent des problèmes de qualité d’appel ou de fiabilité et qu’ils raccrochent plus tôt que d’habitude. Si vous commencez à afficher une durée d’appel très basse moyenne, par exemple 15 secondes, les appelants peuvent se bloquer, car votre service ne fonctionne pas correctement. 
+- **Durée d’appel moyenne** : les informations relatives à la durée d’appel moyenne vous permettent de surveiller la qualité des appels. La durée moyenne d’un appel RTC 1:1 est de quatre à cinq minutes.  Toutefois, pour chaque société, cette moyenne peut varier.  Microsoft recommande d’établir un planning de référence pour la durée d’appel moyenne de votre entreprise. Si ce paramètre est largement inférieur au planning de référence, il est possible que vos utilisateurs rencontrent des problèmes de qualité d’appel ou de fiabilité et qu’ils raccrochent plus tôt que d’habitude. Si vous commencez à afficher une durée d’appel très basse moyenne, par exemple 15 secondes, les appelants peuvent se bloquer, car votre service ne fonctionne pas correctement.
 
    Dans la mesure où l’action que vous prenez peut dépendre du nombre d’appels concernés, le tableau de bord d’État du service indique le nombre d’appels analysés pour calculer un paramètre.
 
@@ -76,17 +74,15 @@ Le tableau de bord de santé fournit les informations suivantes relatives à l�
 
     - Avertissement, aucune option SIP : le contrôleur de bordure de session existe dans la base de données (votre administrateur l’a créée à l’aide de la commande New-CsOnlinePSTNGateway). Il est configuré pour envoyer les options SIP, mais le service de routage direct n’a pas vu les options SIP en retour de cet SBC.
 
-    - Avertissement, les messages SIP ne sont pas configurés le contrôle de Trunking avec les options SIP n’est pas activé. Le système d’appel Microsoft utilise les options SIP et la surveillance du protocole TLS (Transport Layer Security) pour détecter l’état des contrôleurs de frontière de session connectés (SBCs) au niveau de l’application. Vous rencontrez des problèmes si ce Trunk peut être atteint au niveau réseau (par ping), mais que le certificat a expiré ou si la pile SIP ne fonctionne pas. Pour vous aider à identifier ces problèmes, Microsoft recommande l’activation de l’envoi d’options SIP. Consultez la documentation fournie par le fabricant de votre SBC pour configurer l’envoi d’options SIP. 
+    - Avertissement, les messages SIP ne sont pas configurés le contrôle de Trunking avec les options SIP n’est pas activé. Le système d’appel Microsoft utilise les options SIP et la surveillance du protocole TLS (Transport Layer Security) pour détecter l’état des contrôleurs de frontière de session connectés (SBCs) au niveau de l’application. Vous rencontrez des problèmes si ce Trunk peut être atteint au niveau réseau (par ping), mais que le certificat a expiré ou si la pile SIP ne fonctionne pas. Pour vous aider à identifier ces problèmes, Microsoft recommande l’activation de l’envoi d’options SIP. Consultez la documentation fournie par le fabricant de votre SBC pour configurer l’envoi d’options SIP.
 
 - **Capacité d’appels simultanés** : vous pouvez spécifier la limite d’appels simultanés qu’une SBC peut gérer en utilisant la commande New-or set-CsOnlinePSTNGateway avec le paramètre-MaxConcurrentSessions. Ce paramètre calcule le nombre d’appels envoyés ou reçus par le routage direct à l’aide d’un SBC spécifique et le compare avec la limite définie. Remarque : si l’SBC gère également les appels vers différents PBX, ce numéro ne montre pas les appels simultanés réels.
-
 
 ## <a name="detailed-information-for-each-sbc"></a>Informations détaillées pour chaque SBC
 
 Vous pouvez également afficher les informations détaillées d’une SBC spécifique, comme illustré dans la capture d’écran suivante :
 
 ![Détails SBC du tableau de bord d’État](media/direct-routing-dashboard-SBC-detail1.png)
-
 
 L’affichage détaillé affiche les paramètres supplémentaires suivants :
 
@@ -113,7 +109,3 @@ L’affichage détaillé affiche les paramètres supplémentaires suivants :
    Vous pouvez faire glisser les données à l’aide du nombre de jours et de la direction de l’appel (entrant/sortant/tous les flux).
 
 **Taux d’efficacité du réseau** -il s’agit du même paramètre qui s’affiche dans le tableau de bord d’État du service, mais avec la possibilité de segmenter les données par série de temps ou direction d’appel.
-
-
-
-

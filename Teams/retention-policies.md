@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202953"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247383"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -154,6 +154,24 @@ Pour supprimer une stratégie de conservation Teams, procédez comme suit :
 1. Dans le volet gauche du Centre de sécurité et conformité, cliquez sur **Gouvernance des données**  >  **Conservation**.
 2. Dans la liste des stratégies de-conservation, cochez la case en regard de la stratégie de conservation que vous souhaitez supprimer.
 3. Sélectionnez **Supprimer la stratégie**.
+
+### <a name="end-user-experience"></a>Utilisation de l’utilisateur final
+
+Pour les discussions privées (discussions 1:1) ou les discussions de groupe, les utilisateurs finaux verront que les discussions antérieures à la configuration de la stratégie de rétention sont supprimées et qu’un message de contrôle indiquant « nous avons supprimé plus ancien message en raison de la stratégie de rétention de votre organisation » s’affiche dans la partie supérieure de messages encore non supprimés.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Capture d’écran de la rétention des conversations":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Capture d’écran de la rétention des discussions de groupe":::
+
+Pour les messages de canal, les utilisateurs finaux (membres du canal) verront que les messages supprimés disparaissent de l’affichage une fois les messages expirés. Si le message supprimé était un message parent d’une conversation thématique, alors, à la place du message parent, un message indiquant « ce message a été supprimé en raison d’une stratégie de rétention » s’affiche.
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Capture d’écran du canal avant la rétention":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Capture d’écran du canal après rétention":::
+
+> [!NOTE]
+> La messagerie de l’utilisateur final n’est pas modifiable par l’utilisateur ou par l’administrateur pour le moment.
+
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 

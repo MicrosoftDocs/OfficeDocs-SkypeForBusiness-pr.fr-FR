@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 0e87b5eadd358bb4c7e13f2948b180d2f7bfff81
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201218"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45371983"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -38,7 +38,9 @@ Avec l'association de façon anonyme, tout le monde peut participer à la réuni
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> .
+Pour effectuer ces modifications, vous devez être un administrateur de service Teams. Pour plus d’informations sur l’accès aux rôles d’administrateur et aux autorisations, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
+
+1. Accédez au centre d’administration.
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
@@ -65,7 +67,7 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Accédez au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>.
+1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Invitation par e-mail**, procédez comme suit :
 
@@ -89,7 +91,7 @@ Si vous utilisez la qualité de service (QoS) pour définir la priorité du traf
 > Si vous activez la qualité de service (QoS) ou modifiez les paramètres dans le centre d’administration Microsoft teams pour le service équipes, vous devrez également [appliquer des paramètres de correspondance à tous les appareils utilisateurs](QoS-in-Teams-clients.md) et à tous les périphériques réseau internes pour appliquer les modifications à QoS dans Teams.
 
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
-1. Accédez au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>.
+1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Réseau**, procédez comme suit :
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7ae1776cf57368ea0f18cb6b0e46e5a11dffe447
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085680"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228900"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "45085680"
 
 Les applications fournissent des outils prédéfinis pour votre organisation afin de tirer le meilleur parti des équipes. Ces applications associent les fonctionnalités des onglets, des extensions de messagerie, des connecteurs et des robots proposés par Microsoft, par une tierce partie ou par les développeurs de votre organisation.
 
-Vous gérez les applications pour votre organisation dans les **applications teams** dans le [Centre d’administration](https://admin.teams.microsoft.com/). Par exemple, vous pouvez autoriser ou bloquer des applications au niveau de l’organisation, définir des stratégies pour contrôler les applications disponibles pour les utilisateurs d’équipes et personnaliser les équipes en épinglant les applications les plus importantes à vos utilisateurs.
+Vous gérez les applications pour votre organisation dans les **applications teams** dans le centre d’administration. (Pour plus d’informations sur l’accès aux rôles d’administrateur et aux autorisations, voir [utiliser des rôles d’administrateur d’équipes pour gérer teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .) Par exemple, vous pouvez autoriser ou bloquer des applications au niveau de l’organisation, définir des stratégies pour contrôler les applications disponibles pour les utilisateurs d’équipes et personnaliser les équipes en épinglant les applications les plus importantes à vos utilisateurs.
 
 Nous améliorons continuellement l’interface de l’application dans teams et en ajoutant des fonctions et fonctionnalités. Au fil du temps, nous développons des fonctionnalités supplémentaires de gestion des applications, vous pouvez donc rechercher les informations les plus récentes sur les stratégies d’application.
 

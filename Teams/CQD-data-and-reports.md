@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et les rapports disponibles dans le tableau de bord de qualité des appels Microsoft (bord).
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086017"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372163"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels (bord)
 
 Le tableau de bord de qualité des appels Microsoft (bord) utilise un flux de données en temps réel (NRT). Les enregistrements d’appels sont disponibles dans bord dans un délai de 30 minutes à compter de la fin d’un appel. Les enregistrements d’appels à partir du pipeline NRT sont uniquement disponibles pendant quelques mois avant d’être supprimés du jeu de données. 
 
-
-> [!NOTE]
-> Advanced bord (nouveauté du 2019 novembre) fusionne les données de l’ancien pipeline bord (qui rend les enregistrements disponibles dans environ 24 heures) avec les données NRT du pipeline bord avancé. Les requêtes sur les portails plus anciens et avancés pour les données de la période d’archivage produisent les mêmes résultats. Les requêtes sur l’un ou l’autre des portails pour les données de NRT et NRT données + EUII périodes seront différentes.
 
 ## <a name="many-ways-to-access-cqd-data"></a>Différentes façons d’accéder à des données bord
 

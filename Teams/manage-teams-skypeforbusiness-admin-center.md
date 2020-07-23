@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637423"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228890"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
@@ -34,9 +34,9 @@ ms.locfileid: "44637423"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Qu’est-ce que le nouveau centre d’administration de Microsoft teams ?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Qu’est-ce que le nouveau centre d’administration Microsoft teams  
 
-Le nouveau centre d’administration offrira une interface unifiée pour gérer les équipes et Skype entreprise. Nous proposons des fonctionnalités supplémentaires, des analyses de bout en bout et la possibilité de gérer les paramètres d’équipe sur un niveau utilisateur. Vous pouvez accéder au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+Le nouveau centre d’administration offrira une interface unifiée pour gérer les équipes et Skype entreprise. Nous proposons des fonctionnalités supplémentaires, des analyses de bout en bout et la possibilité de gérer les paramètres d’équipe sur un niveau utilisateur.
 
 ![Capture d’écran du centre d’administration Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -84,15 +84,15 @@ Le tableau suivant identifie les sections de l’interface d’équipe qui ont �
 
 - Autorisez un utilisateur à charger des applications qui peuvent être gérées à un utilisateur dans [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Autorisez les utilisateurs d’un client à interagir avec des applications personnalisées qui peuvent être gérées au niveau du client dans les paramètres d’application à l’échelle de l’organisation.
- 
-<sup>3</sup> les applications et applications externes par défaut peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. De plus, les applications peuvent être bloquées au niveau du client dans les paramètres de l’application à l’échelle de l’organisation qui remplace les paramètres utilisateur et de niveau client. 
+
+<sup>3</sup> les applications et applications externes par défaut peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. De plus, les applications peuvent être bloquées au niveau du client dans les paramètres de l’application à l’échelle de l’organisation qui remplace les paramètres utilisateur et de niveau client.
 
 > [!NOTE]
-> Vous pouvez toujours utiliser le tableau de bord groupes dans le centre d’administration Microsoft 365 pour la configuration liée aux équipes et aux canaux. Les paramètres des applications resteront dans la zone équipes du centre d’administration Microsoft 365 et seront migrés plus tard. 
+> Vous pouvez toujours utiliser le tableau de bord groupes dans le centre d’administration Microsoft 365 pour la configuration liée aux équipes et aux canaux. Les paramètres des applications resteront dans la zone équipes du centre d’administration Microsoft 365 et seront migrés plus tard.
 
 ## <a name="manage-settings-during-the-migration"></a>Gérer les paramètres lors de la migration
 
-Vous pouvez continuer à modifier les paramètres dans le centre d’administration Microsoft 365 et le centre d’administration Skype entreprise jusqu’à ce que la migration pour une section soit terminée pour votre client. 
+Vous pouvez continuer à modifier les paramètres dans le centre d’administration Microsoft 365 et le centre d’administration Skype entreprise jusqu’à ce que la migration pour une section soit terminée pour votre client.
 
 Le tableau suivant indique les emplacements où vous pouvez gérer les fonctionnalités lors de la migration.
 
@@ -104,7 +104,7 @@ Le tableau suivant indique les emplacements où vous pouvez gérer les fonctionn
 |Gestion du cycle de vie des équipes   |    X    |      |       |
 |Paramètres des équipes   |    X    |      |       |
 |Paramètres d’accès externe     |    X    |      |       |
-|Gestion des utilisateurs    |         |         |    X     |    
+|Gestion des utilisateurs    |         |         |    X     |
 |Audioconférence     |    X     |    X     |         |
 |Forfaits d'appels     |    X    |    X     |         |
 |Système téléphonique    |    X    |     X    |         |

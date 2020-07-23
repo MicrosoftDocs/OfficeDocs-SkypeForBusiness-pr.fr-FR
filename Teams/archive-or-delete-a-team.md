@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086190"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372193"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 ===========================================
@@ -40,9 +40,9 @@ Lorsque vous supprimez une équipe, l’activité d’équipe dans les canaux st
 
 ## <a name="archive-a-team"></a>Archiver une équipe
 
-Suivez ces étapes pour archiver une équipe.
+Suivez ces étapes pour archiver une équipe. Pour effectuer ces modifications, vous devez être un administrateur de service Teams. Pour plus d’informations sur l’accès aux rôles d’administrateur et aux autorisations, voir [utiliser les rôles d’administrateur d’équipes pour gérer teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
-1. Dans le centre d’administration au <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> , sélectionnez **teams**.
+1. Dans le centre d’administration, sélectionnez **teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Archiver**. Le message suivant s’affichera.
 
@@ -55,7 +55,7 @@ Suivez ces étapes pour archiver une équipe.
 
 Pour réactiver une équipe archivée, procédez comme suit.
 
-1. Dans le <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>, sélectionnez **teams**.
+1. Dans le centre d’administration, sélectionnez **teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Désarchiver**. Le statut de l’équipe passera à **Active**.
 
@@ -63,7 +63,7 @@ Pour réactiver une équipe archivée, procédez comme suit.
 
 Si l’équipe ne sera pas nécessaire, vous pouvez la supprimer plutôt que de l’archiver. Pour supprimer une équipe, suivez ces étapes.
 
-1.  Dans le <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration</a>, sélectionnez **teams**.
+1.  Dans le centre d’administration, sélectionnez **teams**.
 2.  Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3.  Sélectionnez **Supprimer**. Un message de confirmation s’affichera.
 4.  Sélectionnez **Supprimer** pour supprimer définitivement l’équipe.
@@ -79,7 +79,7 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
 1. Ouvrez Windows PowerShell en tant qu’administrateur.
 2. Si une version antérieure du module AzureADPreview est installée ou si le module AzureAD est installé, désinstallez-le en exécutant l’une des opérations suivantes :
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -90,7 +90,7 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurer le groupe Microsoft 365 supprimé
 
@@ -102,7 +102,7 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
 2. Exécutez la commande suivante pour afficher la liste de tous les groupes Microsoft 365 supprimés par logiciel qui sont toujours dans la période de rétention de 30 jours. Utilisez le paramètre **-All $True** si vous avez un grand nombre de groupes.
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. Trouvez le groupe que vous voulez restaurer, puis notez l’ID.
 4. Exécutez la commande suivante pour restaurer le groupe, où [id] est l’ID de groupe.
     ```PowerShell

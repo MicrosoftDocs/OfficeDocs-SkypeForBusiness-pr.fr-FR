@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: Découvrez comment utiliser les rôles d’administrateur pour désigner des administrateurs qui ont besoin d’un niveau d’accès différent pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665206"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229040"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
 
-À l’aide d’Azure Active Directory (Azure AD), vous pouvez désigner les administrateurs qui ont besoin d’un niveau d’accès différent pour gérer Microsoft Teams. Les administrateurs peuvent gérer toute la charge de travail teams ou disposer d’autorisations déléguées pour la résolution des problèmes de qualité des appels ou la gestion des besoins en téléphonie de votre organisation. 
+À l’aide d’Azure Active Directory (Azure AD), vous pouvez désigner les administrateurs qui ont besoin d’un niveau d’accès différent pour gérer Microsoft Teams. Les administrateurs peuvent gérer toute la charge de travail teams ou disposer d’autorisations déléguées pour la résolution des problèmes de qualité des appels ou la gestion des besoins en téléphonie de votre organisation.
 
 ## <a name="teams-roles-and-capabilities"></a>Rôles et capacités de teams
 
 Il existe quatre rôles d’administrateur d’équipes disponibles : l’administrateur de service Teams, l’administrateur des communications Teams, le support technique de Microsoft Team communications et l’ingénieur du support des communications Teams. Consultez le tableau ci-dessous pour comprendre le fonctionnement de chaque rôle et les outils qu’il peut utiliser dans le centre d’administration Microsoft teams et PowerShell.
 
-Pour le suivre, accédez au centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
-
-
+Pour effectuer le suivi, vous devez être administrateur. Les instructions pour obtenir les autorisations sont décrites dans cet article.
 
 <!-- add Global admin role? -->
 
@@ -77,7 +75,7 @@ Pour afficher la liste complète des cmdlets actuellement disponibles pour un r�
    c. Utilisez **Get-Module** pour identifier le nom de la session importée (le nom sera généré de manière aléatoire).<br>
 3. Utiliser **Get-Command-**  < *nom du module ci-dessus*> pour identifier toutes les applets de commande disponibles
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 
 - [Vue d’ensemble de Microsoft teams PowerShell](teams-powershell-overview.md)
 - [Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

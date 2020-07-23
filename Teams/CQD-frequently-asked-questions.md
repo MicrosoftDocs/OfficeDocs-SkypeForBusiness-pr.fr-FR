@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lisez le Forum aux questions et répondez aux questions sur le tableau de bord de qualité des appels de Microsoft Teams (bord).
-ms.openlocfilehash: f33d66d9c8abb465c6680bacbbd2ff200cf930c6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086170"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372123"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Tableau de bord de qualité d’appel (bord) Forum aux questions (FAQ)
 
@@ -35,8 +35,6 @@ ms.locfileid: "45086170"
 [Pourquoi bord marque-t-on comme bon dans le cas d’un ou plusieurs participants à la réunion ?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [Pourquoi est-ce que je reçois une différence de 0,2% sur les mesures et le nombre d’utilisateurs et la façon d’obtenir des volumes plus précis ?](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[Pourquoi les données du rapport bord v2 sont-elles différentes de celles du rapport bord v3 ?](#why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data)
 
 [Pourquoi les données bord de Skype entreprise sont-elles différentes de celles bord de teams ?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
@@ -73,66 +71,17 @@ La télémétrie ne sera pas nécessairement à l’origine du problème, mais e
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Pourquoi est-ce que je reçois une différence de 0,2% sur les mesures et le nombre d’utilisateurs et la façon d’obtenir des volumes plus précis ? 
 Pour calculer le nombre d’appels et les mesures de nombre d’utilisateurs, une opération NB.si distincte est effectuée par rapport aux identificateurs d’appel ou d’utilisateur du jeu de données. Dans le cas d’un grand nombre de jeux de données, une erreur de 0,2% est inhérente à l’opération NB.si distincte. Pour obtenir le volume le plus précis, vous devez vous fier aux mesures de nombre de flux, car elles ne dépendent pas de cette opération NB.si distincte. Le filtrage permettant de réduire le volume de données risque de réduire l’erreur, mais n’a pas pu éliminer cette source d’erreur dans les compteurs d’appels et d’utilisateurs distincts. Reportez-vous aux [sections Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md) pour lesquels des mesures sont affectées.
 
-### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Pourquoi les données du rapport bord v2 sont-elles différentes de celles du rapport bord v3 ? 
-
-Si vous voyez des différences de données entre bord v2 et v3, assurez-vous que la comparaison ou la validation des données est réalisée sur une « pommes-to-pommes » et un niveau étroit, et non sur un niveau agrégé. Par exemple, si vous filtrez les deux rapports pour les données du client de bureau MSIT de la construction de 30 ', le pourcentage de qualité médiocre doit être identique entre la version v2 et la version v3.
-
-La classification de CQDv2 pour l’échec de la CallSetup n’est envisagée qu’à des fins de « son », dans CQDv3 cette classification se produit pour chaque modalité (audio, vidéo et partage) et est représentée dans le flux de modalité correspondant. 
-
-Pour Teams, le CQDv2 applique les mêmes commentaires aux utilisateurs à toutes les modalités CQDv3 applique une base de commentaires à des fins d’équipe.
-
-BORD v3 comprend 
-1. Appels 2019 de Skype entreprise Server 
-2. Les appels Skype bot tels que le standard automatique, la file d’attente d’appels, le service d’annonce de conférence 
-3. Interface de bureau virtuel,
-4. Conférences vidéo,
-3. Événements en direct pour l’éditeur et les appels du présentateur 
-4. Appels RTC. 
-
-Pour plus d’informations sur l’utilisation de ces modèles Power BI pour analyser et enregistrer vos données bord, voir [utiliser les rapports Power bi pour bord](cqd-power-bi-query-templates.md).
-
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Pourquoi les données bord de Skype entreprise sont-elles différentes de celles bord de teams ? 
 
 
 > [!IMPORTANT]
-> À compter du 1er juillet 2020, l’ancien bord accède aux données à partir de la dernière bord. Les données bord plus anciennes ne sont plus disponibles et vous ne pouvez pas exporter les données de votre bâtiment ou de votre rapport.
+> À compter du 1er juillet, 2020, l’ancien bord (CQD.lync.com) utilise les données du dernier bord (bord. Teams.microsoft.com). Les données bord plus anciennes ne sont plus disponibles et vous ne pouvez pas exporter les données de votre bâtiment ou de votre rapport. Vous pouvez toujours utiliser CQD.lync.com (disponible dans le centre d’administration Skype entreprise), mais nous vous conseillons de désactiver l’accès à CQD.lync.com bientôt, donc vous devez accéder à bord. Teams.microsoft.com si vous ne l’avez pas déjà fait.
 
 
 Si vous essayez de comparer des données entre l’ancien bord du portail hérité Skype entreprise (cqd.lync.com) et le dernier bord à partir du centre d’administration Teams (cqd.teams.microsoft.com), vous remarquerez rapidement que les données ne correspondent pas. Ce n’est pas parce que les derniers rapports bord sur de nombreux scénarios d’appels supplémentaires. Si vous utilisez toujours des rapports de l’ancien bord, utilisez cet article pour vous aider à interpréter ces rapports : [tableau de bord de qualité des appels pour Skype entreprise Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 
-
-Vous trouverez ci-dessous un exemple d’application de filtres spécifiques pour comparer les données bord v2 et bord v3 :
-
-1. Enregistrement QoE disponible = vrai
-
-2. Ajoutez est le filtre de paires de serveurs avec value : client : client et client : Server. La plupart des clients préfèrent exclure serveur : appels serveur.
-
-3. Ajoutez un filtre pour la catégorie de l’agent utilisateur et filtrez le standard automatique, la file d’attente d’appels, le bot, le système de salle, le MediationServer, le service d’annonce des conférences, l’infrastructure VDI, etc.
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Capture d’écran de l’application de filtres spécifiques dans bord v3":::
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Capture d’écran de l’application de filtres spécifiques dans bord v2":::
-
-#### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>Autres différences attendues entre bord v2 et bord v3
-
-Pour en savoir plus sur les différences entre les versions les plus anciennes et les plus récentes de bord, lisez le blog [Présentation du tableau de bord de qualité des appels avancé](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) , du 5 novembre 2019.
-
-
-> [!IMPORTANT]
-> À compter du 1er juillet 2020, l’ancien bord accède aux données à partir de la dernière bord. Les données bord plus anciennes ne sont plus disponibles et vous ne pouvez pas exporter les données de votre bâtiment ou de votre rapport.
-
-Vous verrez probablement plus de différences de données entre vos anciens rapports bord et les plus récents au niveau agrégé ou synthétique. Si vous comparez les données à un niveau plus précis, vous obtiendrez une comparaison « pommes à pommes ». Par exemple, si vous examinez les données d’un immeuble individuel, le pourcentage de qualité médiocre doit être le même entre les anciens et les nouveaux rapports bord.
-
-- Choisissez un scénario avec le focus étroit, tel que les connexions câblées d’entreprise, les ordinateurs de bureau Windows, ou une région ou un bâtiment unique.
-- Vérifiez les plages d’adresses IP de RM, TR ou MP. Les plages d’équipes sont plus récentes que Skype entreprise Online et peuvent entraîner des problèmes de connectivité liés à des pare-feu.
-- Ne pas comparer les numéros de synthèse ou de niveau supérieur. Ces comparaisons vous aideront à comparer le volume des appels de Skype entreprise Online sur une connexion câblée d’entreprise à un petit volume d’appels d’équipe sur un réseau LTE ou privé.
-- Soyez attentif aux différences de décalage d’emplacement et de population : de nombreuses comparaisons sont trop différentes pour être utiles :
-  - NOAM : APAC
-  - NY : autorités australiennes
-  - Filaire : wifi
-  - Réseau d’entreprise : réseau domestique
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Pourquoi ne puis-je pas voir EUII dans bord ?
 
