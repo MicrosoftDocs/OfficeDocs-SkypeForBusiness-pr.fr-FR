@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
+ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201178"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45390114"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -29,7 +29,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
-|4.5.33.0 |07/20/2020 |
+|4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -66,20 +66,25 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
 
-### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
+
 Présenté dans cette mise à jour :
-- Rejoignez des réunions Cisco Webex à partir d’équipes de réunion avec l’accès invité directe
+
+- Rejoignez des réunions Cisco WebEx à partir d’équipes de réunion avec l’accès invité directe
 - Activation et inscription automatique du centre d’administration teams
 - Windows 10 1909-support technique
 - Basculer vers la disposition de la Galerie de vidéos même en cas de présence de contenu
 - Prise en charge de l’augmentation virtuelle pour les participants et contrôles pour les présentateurs
 - Paramètre de volume par défaut réglable pour les conférences et les haut-parleurs par défaut
 - Rechercher et appeler des utilisateurs fédérés (client) à partir de la salle teams
-    
+
+> [!IMPORTANT]
+> La version 4,5 est la dernière version pour prendre en charge Windows 10 version 1803. les versions ultérieures ne seront pas proposées aux systèmes sur Windows 10 version 1803. Pour plus d’informations sur la prise en charge des versions de Windows, voir [prise en charge de Windows 10](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support).
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
 Présenté dans cette mise à jour :
+
 - Correctifs de qualité et de fiabilité
 - Correctif pour le problème « l’application ne se lance pas après la mise à jour vers 4.4.41.0 »
 
@@ -89,6 +94,7 @@ Présenté dans cette mise à jour :
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
 Présenté dans cette mise à jour :
+
 - Correctifs de fiabilité pour le démarrage d’une application dans Windows 10 Kiosk
 
 ### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Bahreïn.
-ms.openlocfilehash: 5d3dbac85646384eb2491c05797235d212450382
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
+ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231213"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391622"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilité au Bahreïn
 
@@ -71,7 +71,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Manama  <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Non  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -84,7 +84,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
