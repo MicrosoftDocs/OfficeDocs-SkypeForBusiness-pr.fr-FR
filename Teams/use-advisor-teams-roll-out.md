@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilisez Advisor pour Teams (préversion) pour faciliter la planification et l’exécution du déploiement de Microsoft Teams.
-ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868151"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201208"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -53,7 +53,7 @@ Pour une vue d’ensemble guidée de l’expérience Advisor for Teams, consulte
 
 ## <a name="available-advisor-for-teams-plans"></a>Plans Advisor for Teams disponibles
 
-Pendant la période de préversion publique d’Advisor pour Teams, nous proposons deux offres différentes :
+Pendant la période de préversion publique du Conseiller pour Teams, nous proposons les offres suivantes :
 
 1. Conversations, équipes, canaux et applications
     - Évaluation du client
