@@ -27,7 +27,7 @@ ms.locfileid: "45028120"
 
 Votre organisation souhaite-t-elle commencer à utiliser Microsoft Teams pour prendre en charge vos utilisateurs travaillant à distance ou à partir de leur domicile ? Utilisez les conseils décrits dans cet article pour devenir rapidement opérationnel.
 
-Si vous avez une petite entreprise ou moyenne entreprise, ne manquez pas [Permettez à votre petite entreprise d’utiliser des à distance](https://aka.ms/remote-business).
+Si vous avez une petite entreprise ou moyenne entreprise, ne manquez pas [Dynamisez votre petite entreprise avec le télétravail](https://aka.ms/remote-business).
 
 ## <a name="it-admin-guidance"></a>Conseils pour les administrateurs informatiques
 
