@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611013"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429366"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -55,11 +55,11 @@ Aucun
 
 Aucun
 
-### <a name="considerations"></a>Inconvénients
+### <a name="considerations"></a>Considérations
 
 - Une application doit divulguer les données qu’elle utilise et quelles sont les données utilisées dans ses conditions générales d’utilisation et de politique de confidentialité.
 
-- Le [consentement spécifique aux ressources](resource-specific-consent.md) fournit un ensemble d’autorisations que les applications peuvent demander, qui s’affichent sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir informations de référence sur les [autorisations de graphique](https://docs.microsoft.com/graph/permissions-reference).
+- Le [consentement spécifique aux ressources](resource-specific-consent.md) fournit un ensemble d’autorisations que les applications peuvent demander, qui s’affichent sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir informations de référence sur les [autorisations de graphique](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
 - Les applications doivent également disposer d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Après l’installation d’une application, l’application peut demander des autorisations de graphique à l’aide d’une invite de consentement. Pour en savoir plus, voir [Présentation des expériences de consentement des applications Azure ad](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Vous pouvez configurer les autorisations et l’autorisation d’API dans le portail Azure. Pour en savoir plus, voir [infrastructure d’autorisation d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 
@@ -87,7 +87,7 @@ Aucun
 
 - SEND_FILES RECEIVE_FILES. <sup>2</sup> contrôle si un bot peut envoyer et recevoir des fichiers dans la conversation personnelle (pas encore pris en charge pour les conversations ou canaux de groupe).
 
-### <a name="considerations"></a>Inconvénients
+### <a name="considerations"></a>Considérations
 
 - Les robots ont uniquement accès aux équipes auxquelles ils ont été ajoutés ou aux utilisateurs qui les ont installés.
 
@@ -117,7 +117,7 @@ Aucun
 
 <sup>1</sup> certains robots envoient uniquement des messages (POST_MESSAGE_USER). Il s’agit de robots « notifications uniquement », mais le terme ne fait pas référence à ce qu’un bot est autorisé ou qu’il n’est pas autorisé à faire, cela signifie que le bot ne veut pas exposer une conversation. Teams utilise ce champ pour désactiver les fonctionnalités de l’interface utilisateur qui seraient en principe activées ; Ce robot n’est pas limité à ce qu’il est autorisé à faire comparé aux robots qui présentent une connaissance de conversation.
 
-<sup>2</sup> soumis à la propriété booléenne supportsFiles sur l’objet bot dans le fichier manifest. JSON de l’application.
+<sup>2</sup> régie par la propriété booléenne supportsFiles sur l’objet bot dans le fichier manifest.jsde l’application.
 
 > [!NOTE]
 > Si un bot dispose de sa propre connexion, il y a une deuxième fonction de consentement pour la première fois que l’utilisateur se connecte.
@@ -136,7 +136,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 Aucun (actuellement)
 
-### <a name="considerations"></a>Inconvénients
+### <a name="considerations"></a>Considérations
 
 - Le profil de risque d’un onglet est presque identique au même site Web exécuté dans un onglet de navigateur. 
 
@@ -154,7 +154,7 @@ POST_MESSAGE_CHANNEL
 
 REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages interactifs, ce qui permet aux utilisateurs de publier des réponses ciblées au message du connecteur, par exemple en ajoutant une réponse à un problème de GitHub ou en ajoutant une date à une carte Trello.
 
-### <a name="considerations"></a>Inconvénients
+### <a name="considerations"></a>Considérations
 
 - Le système qui publie des messages de connecteur ne sait pas à qui il envoie des messages ou qui les reçoit : aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, et non le locataire ; Microsoft effectue le billet réel sur le canal.)
 
@@ -185,7 +185,7 @@ RECEIVE_MESSAGE REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et 
 
 Aucun
 
-### <a name="considerations"></a>Inconvénients
+### <a name="considerations"></a>Considérations
 
 - Les raccordements Web sortants sont similaires aux robots, mais ils ont moins de privilèges. Elles doivent être mentionnées explicitement, comme les robots.
 

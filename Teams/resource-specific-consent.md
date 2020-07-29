@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256580"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429376"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Autorisation spécifique aux ressources dans Microsoft teams
 
@@ -93,8 +93,9 @@ Les propriétaires d’équipe peuvent uniquement accorder l’autorisation aux 
 
 Lorsque vous téléchargez une application personnalisée (également connue sous le nom de chargement indépendant) qui utilise l’autorisation spécifique aux ressources, l’application doit provenir du client sur lequel elle est installée. En d’autres termes, l’inscription de l’application Azure AD doit être de ce client. Les administrateurs globaux sont exemptés de cette restriction et peuvent télécharger des applications personnalisées à partir de n’importe quel client, directement dans une équipe (chargement indépendant) ou dans le catalogue d’applications du client.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
+- [Autorisations RSC disponibles](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Gérer vos applications dans le centre d’administration Microsoft teams](manage-apps.md)
 - [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
