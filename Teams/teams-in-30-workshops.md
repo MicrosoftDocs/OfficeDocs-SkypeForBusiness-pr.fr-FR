@@ -3,8 +3,6 @@ title: Équipes dans 30
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: HubPage
-ms.topic: hub-page
 ms.date: 7/1/19
 ms.service: msteams
 audience: admin
@@ -21,25 +19,19 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b82830041736751685807e2cda652fc4ab8525d
-ms.sourcegitcommit: b257e11ba5506b5a105b438dcade4f12805d9595
+ms.openlocfilehash: b6d721da9e2b5a722675c5026301435c65eac5a8
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44908997"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522494"
 ---
+# <a name="teams-in-30"></a><span data-ttu-id="f156c-103">Équipes dans 30</span><span class="sxs-lookup"><span data-stu-id="f156c-103">Teams in 30</span></span>
 <div id="main" class="v2">
     <div class="container">
-        <h1>Équipes dans 30</h1>
-           <p>Microsoft est heureux de vous convier aux <strong>équipes dans 30</strong>, une série de ateliers interactifs destinés à faciliter la mise en route de Microsoft Teams (500-5000) en un minimum de 30 jours. Rejoignez-nous pour découvrir des conseils et des meilleures pratiques testés et obtenir des réponses à vos questions sur votre équipe. Les participants à un atelier recevront également une invitation exclusive pour les heures d’ouverture du micro ouvertes avec un spécialiste de teams.
-           <p><font color="#6264A7">Êtes-vous prêt à vous lancer ?</font> Nous encourageons tous les membres de votre équipe de projet à commencer avec la session <i>de mise en route d’équipes dans 30</i> sessions. Cliquez sur le titre d’une session ci-dessous pour vous inscrire.
-        <ul class="pivots">
-            <li>
-                <a href="#home" data-linktype="self-bookmark"></a>
-                <ul id="home">
-                    <li>
-                        <a href="#home-all" data-linktype="self-bookmark"></a>
-                        <ul id="home-all" class="panelContent cardsF cols cols2">        
+        <p><span data-ttu-id="f156c-104">Microsoft est heureux de vous convier aux <strong>équipes dans 30</strong>, une série de ateliers interactifs destinés à faciliter la mise en route de Microsoft Teams (500-5000) en un minimum de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="f156c-104">Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days.</span></span> <span data-ttu-id="f156c-105">Rejoignez-nous pour découvrir des conseils et des meilleures pratiques testés et obtenir des réponses à vos questions sur votre équipe.</span><span class="sxs-lookup"><span data-stu-id="f156c-105">Join us to learn time-tested guidance and best practices and get your Teams questions answered.</span></span> <span data-ttu-id="f156c-106">Les participants à un atelier recevront également une invitation exclusive pour les heures d’ouverture du micro ouvertes avec un spécialiste de teams.</span><span class="sxs-lookup"><span data-stu-id="f156c-106">Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.</span></span>
+           <p><span data-ttu-id="f156c-107"><font color="#6264A7">Êtes-vous prêt à vous lancer ?</font></span><span class="sxs-lookup"><span data-stu-id="f156c-107"><font color="#6264A7">Ready to jump in?</font></span></span> <span data-ttu-id="f156c-108">Nous encourageons tous les membres de votre équipe de projet à commencer avec la session <i>de mise en route d’équipes dans 30</i> sessions.</span><span class="sxs-lookup"><span data-stu-id="f156c-108">We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session.</span></span> <span data-ttu-id="f156c-109">Cliquez sur le titre d’une session ci-dessous pour vous inscrire.</span><span class="sxs-lookup"><span data-stu-id="f156c-109">Click a session title below to sign up.</span></span>
+ <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
@@ -47,13 +39,13 @@ ms.locfileid: "44908997"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Grid of three shapes representing a process" />
+                            <img src="./media/process-flow-teams.svg"  alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Commencer à utiliser teams dans 30 (début)</h3>
-                        <P>Démarrez vos équipes dans 30 voyages sur le pied de page de droite. Comprenez le programme, qui doit participer, et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
-                        <p><i>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</i></p>
+                        <h3><span data-ttu-id="f156c-110">Commencer à utiliser teams dans 30 (début)</span><span class="sxs-lookup"><span data-stu-id="f156c-110">Get started with Teams in 30 (Start here!)</span></span></h3>
+                        <P><span data-ttu-id="f156c-111">Démarrez vos équipes dans 30 voyages sur le pied de page de droite.</span><span class="sxs-lookup"><span data-stu-id="f156c-111">Start your Teams in 30 journey on the right foot.</span></span> <span data-ttu-id="f156c-112">Comprenez le programme, qui doit participer, et les ressources que vous pouvez utiliser pour garantir votre réussite.</span><span class="sxs-lookup"><span data-stu-id="f156c-112">Understand the program, who should participate, and what resources you can use to ensure your success.</span></span></P>
+                        <p><span data-ttu-id="f156c-113"><i>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</i></span><span class="sxs-lookup"><span data-stu-id="f156c-113"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -67,12 +59,12 @@ ms.locfileid: "44908997"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                            <img src="./media/users-people.svg"  alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Préparez vos utilisateurs finaux</h3>
-                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un subordonné de champions et garantir l’acceptation de l’utilisateur en tant que composant principal de votre déploiement d’équipes.</p><p><i>Public : adoption et modification des propriétaires</i></p>
+                        <h3><span data-ttu-id="f156c-114">Préparez vos utilisateurs finaux</span><span class="sxs-lookup"><span data-stu-id="f156c-114">Ready your end users</span></span></h3>
+                    <p><span data-ttu-id="f156c-115">Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un subordonné de champions et garantir l’acceptation de l’utilisateur en tant que composant principal de votre déploiement d’équipes.</span><span class="sxs-lookup"><span data-stu-id="f156c-115">Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</span></span></p><p><span data-ttu-id="f156c-116"><i>Public : adoption et modification des propriétaires</i></span><span class="sxs-lookup"><span data-stu-id="f156c-116"><i>Audience: Adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -86,12 +78,12 @@ ms.locfileid: "44908997"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud image and carpenter's square, representing cloud architecture" />
+                            <img src="./media/cloud-architecture2.svg"  alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Préparer votre environnement-Partie I</h3>
-                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p><i>Public : administrateurs informatiques</i></p>
+                    <h3><span data-ttu-id="f156c-117">Préparer votre environnement-Partie I</span><span class="sxs-lookup"><span data-stu-id="f156c-117">Prepare your environment - Part I</span></span></h3>
+                    <p><span data-ttu-id="f156c-118">Définissez le fondement du déploiement de votre équipe.</span><span class="sxs-lookup"><span data-stu-id="f156c-118">Set the foundation for your Teams rollout.</span></span> <span data-ttu-id="f156c-119">Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</span><span class="sxs-lookup"><span data-stu-id="f156c-119">Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</span></span></p><p><span data-ttu-id="f156c-120"><i>Public : administrateurs informatiques</i></span><span class="sxs-lookup"><span data-stu-id="f156c-120"><i>Audience: IT admins</i></span></span></p>
 </div>
                 </div>
             </div>
@@ -104,12 +96,12 @@ ms.locfileid: "44908997"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Grid of four blocks representing architecture" />
+                            <img src="./media/blocks-teams.svg"  alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Préparer votre environnement-Partie 2</h3>
-                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p><i>Public : administrateurs informatiques</i></p>
+                        <h3><span data-ttu-id="f156c-121">Préparer votre environnement-Partie 2</span><span class="sxs-lookup"><span data-stu-id="f156c-121">Prepare your environment - Part II</span></span></h3>
+                    <p><span data-ttu-id="f156c-122">À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</span><span class="sxs-lookup"><span data-stu-id="f156c-122">Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</span></span></p><p><span data-ttu-id="f156c-123"><i>Public : administrateurs informatiques</i></span><span class="sxs-lookup"><span data-stu-id="f156c-123"><i>Audience: IT admins</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -123,13 +115,13 @@ ms.locfileid: "44908997"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" alt="Image of a graph, representing a report" />
+                            <img src="./media/trend-graph-teams.svg"  alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Optimiser et développer</h3>
-                    <p>Concevoir un plan capable d’optimiser les performances du service, d’étendre les fonctionnalités d’équipes et d’intégrer de nouveaux utilisateurs.</p>
-                    <p><i>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</i></p>
+                    <h3><span data-ttu-id="f156c-124">Optimiser et développer</span><span class="sxs-lookup"><span data-stu-id="f156c-124">Optimize and expand</span></span></h3>
+                    <p><span data-ttu-id="f156c-125">Concevoir un plan capable d’optimiser les performances du service, d’étendre les fonctionnalités d’équipes et d’intégrer de nouveaux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="f156c-125">Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</span></span></p>
+                    <p><span data-ttu-id="f156c-126"><i>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</i></span><span class="sxs-lookup"><span data-stu-id="f156c-126"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -143,22 +135,18 @@ ms.locfileid: "44908997"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                            <img src="./media/sign-up-teams.svg"  alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Discussions d’équipes</h3>
-                    <p>Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. Les discussions présupposent que vous avez terminé le déploiement d’une équipe de base.</p>
-                    <p><strong>Conditions préalables</strong>: équipes dans une assiduité de 30 ateliers ou déjà activées pour les équipes au sein de votre organisation.</p>
-                    <p><i>Public : administrateurs informatiques</i></p>
+                    <h3><span data-ttu-id="f156c-127">Discussions d’équipes</span><span class="sxs-lookup"><span data-stu-id="f156c-127">Teams Chalk Talks</span></span></h3>
+                    <p><span data-ttu-id="f156c-128">Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.</span><span class="sxs-lookup"><span data-stu-id="f156c-128">Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</span></span> <span data-ttu-id="f156c-129">Les discussions présupposent que vous avez terminé le déploiement d’une équipe de base.</span><span class="sxs-lookup"><span data-stu-id="f156c-129">Chalk Talks assume you've completed a basic Teams rollout.</span></span></p>
+                    <p><span data-ttu-id="f156c-130"><strong>Conditions préalables</strong>: équipes dans une assiduité de 30 ateliers ou déjà activées pour les équipes au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="f156c-130"><strong>Prerequisite</strong>: Teams in 30 workshop attendance OR already enabled for Teams across your organization.</span></span></p>
+                    <p><span data-ttu-id="f156c-131"><i>Public : administrateurs informatiques</i></span><span class="sxs-lookup"><span data-stu-id="f156c-131"><i>Audience: IT admins</i></span></span></p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
-    </li>
-
-</ul>
-
-    
+    </li>    
 </ul>
