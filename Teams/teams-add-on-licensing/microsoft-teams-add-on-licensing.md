@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: En savoir plus sur les licences de compléments pour Microsoft teams ainsi que les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028180"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522461"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licences de compléments Microsoft teams
 
@@ -41,7 +41,7 @@ Vous trouverez ci-dessous une liste de fonctionnalités que vous pouvez ajouter 
 |:-----|:-----|:-----|:-----|
 |**Fonctionnalité** <br/> |**Description** <br/> |**Petites entreprises (<utilisateurs 300)**|**Grande entreprise (>utilisateurs 300)**|
 **Téléphonie Microsoft 365 pour les PME** <br/> | [Business Voice](../business-voice/whats-business-voice.md) est une solution de téléphonie conçue pour les petites et moyennes entreprises de plus de 300 utilisateurs qui regroupent le système téléphonique, les conférences audio, une offre d’appels nationaux, et bien plus encore. Les fonctionnalités du système téléphonique que vous recevez incluent la boîte vocale, l’ID de l’appelant, le parc d’appels, le transfert d’appel, les standards automatiques et les files d’attente d’appels. <br> Pour savoir si la voix professionnelle est disponible dans votre pays ou région, voir [disponibilité du pays et de la région pour les appels vocaux](../business-voice/country-region-availability.md). Pour plus d’informations sur les tarifs, voir [tarifs pour les appels vocaux](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
-|**Audioconférence** <br/> |Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion teams à la place de leur ordinateur. Configurez l' [audioconférence](../audio-conferencing-in-office-365.md) pour les utilisateurs qui planifient ou animent des réunions. <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Audioconférence** <br/> |Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion teams à la place de leur ordinateur. Configurez l' [audioconférence](../audio-conferencing-in-office-365.md) pour les utilisateurs qui planifient ou animent des réunions. <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;|&#x2713;|
 |**Numéros gratuits** |Si vous souhaitez utiliser des numéros sans frais pour les conférences audio, les standards automatiques ou les files d’attente d’appels, vous devez [configurer des crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Système téléphonique** <br/> |Le [système téléphonique](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous permet de contrôler les appels et les fonctionnalités de connexion de succursale privée (PBX) grâce aux options de connexion au réseau téléphonique public commuté (RTC). Les fonctionnalités du système téléphonique incluent la boîte vocale Cloud, l’identification de l’appelant, le parc d’appels, le transfert d’appel, les standards automatiques, les files d’attente d’appels, le transfert d’appel, l’identification de l’appelant, etc. <br>Pour en savoir plus, voir [Voici ce que vous obtenez avec le système téléphonique](../here-s-what-you-get-with-phone-system.md). Pour plus d’informations sur les tarifs, voir [tarification du système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Forfaits d’appel** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone à l’extérieur de votre organisation, vous pouvez obtenir un [plan d’appels](../calling-plans-for-office-365.md). Il existe des forfaits d’appels nationaux et des offres d’appels nationaux et internationaux. Pour plus d’informations sur les tarifs, voir [tarifs pour les offres d’appels](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
@@ -192,7 +192,7 @@ Vous trouverez ci-dessous un résumé des offres d’évaluation de la fonction 
 
 Vous avez besoin de parler à une personne sur les options d’extension ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Attribution de licences de complément d’équipes](assign-teams-add-on-licenses.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)

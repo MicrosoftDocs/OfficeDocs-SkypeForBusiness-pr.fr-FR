@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Apprenez-en davantage sur la préparation de votre infrastructure pour le déploiement de Microsoft Teams, afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125957"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526700"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -39,7 +39,7 @@ Cette section fournit une vue d’ensemble des étapes nécessaires pour prépar
      > [!IMPORTANT]
      > Les salles de Microsoft Teams ne prennent pas en charge l’authentification par proxy puisque cela peut interférer avec les opérations normales de la salle. Assurez-vous que les salles de Microsoft teams ont été exemptées de l’authentification par proxy avant de passer en production.
   
-3. Pour améliorer votre expérience, Microsoft collecte des données. Pour permettre à Microsoft de recueillir des données, liste d’autorisation sur ces sites :
+3. Pour améliorer votre expérience, Microsoft collecte des données. Pour permettre à Microsoft de recueillir des données, autorisez la liste de ces sites :
 
    - Point de terminaison du client de télémétrie :https://vortex.data.microsoft.com/
    - Point de terminaison des paramètres de télémétrie :https://settings.data.microsoft.com/

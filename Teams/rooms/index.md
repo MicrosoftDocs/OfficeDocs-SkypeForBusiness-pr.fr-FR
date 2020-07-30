@@ -13,26 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Considérations relatives à la planification du déploiement des salles de Microsoft Teams, et déploiement et gestion du système.
-ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773379"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521989"
 ---
 # <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 
-Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande taille, à l’aide d’une expérience de collaboration complète et simple d’utilisation, de déploiement et de gestion.
-
-Démarrez des réunions avec une jointure en une seule fois, puis projetez instantanément sur l’écran de la salle et partagez-les avec les participants distants.
-
-Sélectionnez les périphériques audio et vidéo appropriés pour l’un de nos partenaires : Yealink, Logitech, Crestron, Polycom, Lenovo et HP.
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="Une table de conférences avec le matériel Microsoft teams":::
+:::row:::
+    :::column span="2":::
+       Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande taille, à l’aide d’une expérience de collaboration complète et simple d’utilisation, de déploiement et de gestion. <br> 
+       Démarrez des réunions avec une jointure en une seule fois, puis projetez instantanément sur l’écran de la salle et partagez-les avec les participants distants.<br> 
+       Sélectionnez les périphériques audio et vidéo appropriés pour l’un de nos partenaires : Yealink, Logitech, Crestron, Polycom, Lenovo et HP.
+    :::column-end:::
+    :::column:::
+       ![Une table de conférences avec le matériel Microsoft teams](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Symbole de liste](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Symbole de déploiement](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[Déployer](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Outils/clé](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[Gestion](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![Symbole de liste](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Symbole de déploiement](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Déployer](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Outils/clé](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Gestion](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

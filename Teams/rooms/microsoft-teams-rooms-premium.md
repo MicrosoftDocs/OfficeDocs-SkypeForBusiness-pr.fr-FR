@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur Microsoft teams Premium.
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201272"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521979"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Microsoft teams-Premium
 
-Microsoft teams pour la version Premium est un service informatique de gestion et de surveillance informatique qui permet de mettre à jour les périphériques et leurs périphériques de Microsoft teams pour une expérience utilisateur optimale.
+Microsoft teams Premium inclut un service de gestion et de surveillance informatique basé sur le Cloud, qui permet de mettre à jour les périphériques et les périphériques de Microsoft Teams, et de surveiller les informations de manière proactive, en prenant en charge un environnement optimisé pour une expérience utilisateur optimale.
 
 Microsoft teams Room Premium est destiné aux organisations qui cherchent à améliorer leur expérience de salle de réunion et à faire évoluer leur empreinte en toute rapidité en offrant une gestion proactive des appareils de Microsoft Teams. Ce service permet aux organisations de gagner du temps, de l’argent et de l’expertise qui seraient éventuellement consacrées à la gestion des salles de conversation.  
 
@@ -62,8 +62,6 @@ Vous trouverez ci-dessous un résumé des fonctionnalités importantes fournies 
 |**Insights et recommandations**   |Utilisation, incidents, état du rapport global (vues historiques)         |
 
 ## <a name="service-prerequisites"></a>Conditions préalables pour les services
-
-Le service Premium de Microsoft teams est une licence de composant additionnel par salle. Les salles de Microsoft teams nécessitent une licence d’utilisateur ou de salle Microsoft teams séparée.
 
 Pour le maintien de la qualité de service de Microsoft Teams (en anglais), il convient d’utiliser des [appareils pris en charge dans Microsoft teams](requirements.md#hardware-requirements), et vous devez préparer votre environnement avec toutes les [URL et plages d’adresses IP d’Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) autorisées et accessibles par les appareils de salle de réunion. Pour en savoir plus, voir [préparer votre environnement](rooms-prep.md) dans la documentation de Microsoft Teams.
 
