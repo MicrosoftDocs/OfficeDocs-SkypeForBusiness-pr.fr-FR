@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installation de Power BI Connector pour utiliser les modèles de requête de tableau de bord de qualité d’appel (bord)
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138042"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506167"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -124,7 +124,7 @@ Malgré une utilisation de Power BI, toutes les fonctionnalités de Power BI ne 
 
 6. **Prise en charge de la communauté gouvernementale** Dans le cadre de l’utilisation de l’environnement GCC, l’application Power BI bord Connector fonctionne lors de l’utilisation de Power BI Desktop. Le connecteur Power BI bord n’est actuellement pas compatible avec le service Power BI pour les clients GCC.
 
-Veuillez noter que le connecteur est en version préliminaire, il est peu probable que ces limitations soient modifiées avec la version finale du connecteur. La plupart de ces problèmes sont des restrictions à la conception de connecteurs DirectQuery dans Power BI ou à la conception du modèle de données bord.
+La plupart de ces problèmes sont des restrictions à la conception de connecteurs DirectQuery dans Power BI ou à la conception du modèle de données bord.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 

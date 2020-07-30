@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Découvrir comment configurer l’authentification moderne pour les salles Microsoft teams
-ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666256"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506178"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans les salles de Microsoft teams
 
@@ -31,9 +31,9 @@ L’authentification moderne est prise en charge dans Microsoft Teams (version 4
 
 ## <a name="modern-authentication"></a>Authentification moderne
 
-Lorsque vous utilisez l’authentification moderne avec l’application Microsoft teams Resources, la bibliothèque d’authentification Active Directory (ADAL) est utilisée pour se connecter à Microsoft Teams, Exchange et Skype entreprise. Un appareil de salle Microsoft teams est un appareil partagé et effectue un redémarrage nocturne pour garantir un fonctionnement fluide et obtenir des mises à jour de systèmes d’exploitation, de microprogrammes ou de microprogrammes importants. Le mécanisme d’authentification moderne utilise le type d’autorisation d’accès au [mot de passe du propriétaire de ressources](https://tools.ietf.org/html/rfc6749#section-1.3.3) dans OAuth 2,0, qui ne nécessite aucune intervention de l’utilisateur. Il s’agit de l’une des principales différences entre le fonctionnement de l’authentification moderne pour les comptes d’utilisateurs et les comptes de ressources qui sont utilisés par l’application Microsoft Teams. Pour cette raison, les comptes de ressources de Microsoft Teams ne doivent pas être configurés de manière à utiliser l’authentification multifacteur (MFA), l’authentification par carte à puce ou l’authentification par certificat client (qui sont disponibles pour les utilisateurs finaux).
+Lorsque vous utilisez l’authentification moderne avec l’application Microsoft teams Resources, la bibliothèque d’authentification Active Directory (ADAL) est utilisée pour se connecter à Microsoft Teams, Exchange et Skype entreprise. Un appareil de salle Microsoft teams est un appareil partagé et effectue un redémarrage nocturne pour garantir un fonctionnement fluide et obtenir des mises à jour de systèmes d’exploitation, de microprogrammes ou de microprogrammes importants. Le mécanisme d’authentification moderne utilise le type d’autorisation d’accès au [mot de passe du propriétaire de ressources](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) dans OAuth 2,0, qui ne nécessite aucune intervention de l’utilisateur. Il s’agit de l’une des principales différences entre le fonctionnement de l’authentification moderne pour les comptes d’utilisateurs et les comptes de ressources qui sont utilisés par l’application Microsoft Teams. Pour cette raison, les comptes de ressources de Microsoft Teams ne doivent pas être configurés de manière à utiliser l’authentification multifacteur (MFA), l’authentification par carte à puce ou l’authentification par certificat client (qui sont disponibles pour les utilisateurs finaux).
 
-La différence principale entre le fonctionnement de l’authentification moderne sur les appareils Microsoft teams et les appareils utilisateurs finaux réside dans le fait que vous ne pouvez pas utiliser un compte de ressources pour appliquer des stratégies d’accès conditionnel au niveau de l’appareil, telles que « nécessiter l’identification d’un appareil conforme » ou « nécessiter un appareil Azure AD hybride », et ainsi de suite. En effet, les concepts de niveau périphérique ne s’appliquent pas à l’authentification moderne lorsqu’elle est utilisée au niveau de l’application. Au lieu de cela, vous pouvez inscrire un appareil dans Microsoft Intune et appliquer des stratégies de conformité à l’aide des recommandations fournies dans [gestion des salles de réunion d’équipes avec Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
+La différence principale entre le fonctionnement de l’authentification moderne sur les appareils Microsoft teams et les appareils utilisateurs finaux réside dans le fait que vous ne pouvez pas utiliser un compte de ressource pour appliquer des stratégies d’accès conditionnel au niveau de l’appareil dans Azure Active Directory et le gestionnaire de points de terminaison car les informations d’appareil ne sont pas transmises lors de l’utilisation de ce type d’autorisation. Au lieu de cela, vous pouvez inscrire un appareil dans le gestionnaire de points de terminaison Microsoft et appliquer des stratégies de conformité à l’aide des recommandations fournies dans [gestion des salles de réunion d’équipes avec Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Activer l’authentification moderne sur un appareil Microsoft teams
 
@@ -51,7 +51,7 @@ Pour que Microsoft teams se réutilise l’authentification moderne dans Skype e
 
 ### <a name="using-the-xml-config-file"></a>Utilisation du fichier de configuration XML
 
-Dans votre fichier SkypeSettings. xml, définissez l’élément XML d’authentification moderne sur **true**, comme suit.
+Dans votre fichier SkypeSettings.xml, définissez l’élément XML d’authentification moderne sur **true**, comme suit.
 
 ```
 <ModernAuthEnabled>True</ModernAuthEnabled>
@@ -67,17 +67,19 @@ Avant de commencer, assurez-vous de bien comprendre les modèles d’identité �
 
 Pour activer l’authentification moderne pour Exchange Online, voir [activer l’authentification moderne dans Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). Si vous utilisez Skype entreprise Online, vous devez également vérifier que l’authentification moderne est activée pour Skype entreprise online. Pour en savoir plus, reportez-vous à [la rubrique Skype entreprise Online : activer votre client pour l’authentification moderne](https://aka.ms/SkypeModernAuth).
 
-Nous vous conseillons de ne pas supprimer les stratégies d’authentification de base pour Exchange Online ou de désactiver l’authentification de base pour votre client avant que vous n’ayez pu valider que le paramètre d’authentification moderne puisse se connecter à Exchange Online et teams ou à Skype entreprise Online lorsque le paramètre d’authentification moderne est activé et qu’aucun appareil n’est encore configuré pour utiliser l’authentification de base.
+Nous vous conseillons de ne pas supprimer les stratégies d’authentification de base pour Exchange Online ou de désactiver l’authentification de base pour votre client tant que vous n’avez pas vérifié que les appareils de la salle Microsoft teams peuvent se connecter à l’aide d’Exchange Online, teams et de Skype entreprise online.
 
 Pour plus d’informations sur la désactivation de l’authentification de base dans Exchange Online, voir [désactiver l’authentification de base dans Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online).
 
 ## <a name="hybrid-modern-authentication"></a>Authentification moderne hybride
 
-Pour garantir une authentification réussie de votre serveur Exchange local et/ou de Skype entreprise Server, vous devez vous assurer que le compte de ressources utilisé avec les salles de Microsoft teams est configuré pour obtenir l’autorisation d’Azure AD. Pour en savoir plus sur l’identité hybride et les méthodes qui fonctionnent pour votre organisation, consultez les rubriques suivantes : 
+Pour garantir une authentification réussie de votre serveur Exchange local et/ou de Skype entreprise Server, vous devez vous assurer que le compte de ressources utilisé avec les salles de Microsoft teams est configuré pour obtenir l’autorisation d’Azure AD. 
 
-- [Qu’est-ce que la synchronisation du hachage du mot de passe ?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
-- [Qu’est-ce que l’authentification par relais ?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
-- [Qu’est-ce que la Fédération ?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed)
+Les flux d’authentification par salle d’équipe varient en fonction de votre configuration d’authentification. Pour les clients qui utilisent un domaine géré, teams utilise [les informations d’identification du mot de passe du propriétaire de ressources 2,0 OAuth](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) avec Azure Active Directory. Toutefois, pour les clients qui utilisent un domaine fédéré, le [flux d’assertion du porteur SAML 2,0](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion) est utilisé.
+
+> [!NOTE]
+> Votre fournisseur d’identité doit avoir besoin de configurations ou de paramètres spécifiques pour l’intégration avec Azure Active Directory ou Office 365. Contactez votre fournisseur d’identité si vous avez besoin d’aide pour configurer l’authentification auprès des salles d’équipe.
+
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Éléments requis spécifiques aux salles de Microsoft teams
 
@@ -88,7 +90,7 @@ Toutefois, étant donné que Microsoft teams est compatible avec les [informatio
 - Vous devez disposer d’Exchange Server 2016 CU8 ou version ultérieure, ou d’Exchange Server 2019 CU1 ou version ultérieure.
 - Vous devez disposer de Skype entreprise Server 2015 CU5 ou version ultérieure, ou de Skype entreprise Server 2019 ou version ultérieure.
 - L’authentification multifacteur n’est pas prise en charge, quelle que soit la topologie que vous utilisez.
-- Si vous utilisez un fournisseur d’authentification tiers pris en charge par Azure AD, il doit prendre en charge OAuth et utiliser l’autorisation d’identification du mot de passe de propriétaire de ressources.
+- Si vous utilisez un fournisseur d’authentification tiers pris en charge par Azure AD, il doit prendre en charge un flux d’authentification actif via WS-Trust.
 - N’utilisez pas de stratégies d’accès conditionnel au niveau de l’appareil pour un compte de ressources configuré avec l’application. Cela entraînera des échecs de connexion. Au lieu de cela, inscrivez un appareil dans Microsoft Intune et appliquez les stratégies de conformité à l’aide des instructions publiées dans [gestion des salles de réunion d’équipes avec Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 
 ### <a name="configure-exchange-server"></a>Configurer Exchange Server
