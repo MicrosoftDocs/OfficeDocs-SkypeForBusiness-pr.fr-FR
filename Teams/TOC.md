@@ -6,7 +6,7 @@
 
 # [Prise en charge des travailleurs à distance (travail à la maison)](support-remote-work-with-teams.md)
 
-# Formation 
+# Formation
 ## [Vue d’ensemble](training-microsoft-teams-landing-page.md)
 ## [Formation Teams par un instructeur](instructor-led-training-teams-landing-page.md)
 ## [Formation sur Teams pour les administrateurs](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [Renouvellement et expiration d’une équipe](team-expiration-renewal.md)
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 ## [Migrer de Slack vers Teams](migrate-slack-to-teams.md)
-## [Modèles Teams pour les petites et moyennes entreprises](smb-templates.md)
+## [Modèles Teams créés dans Graph pour les petites et moyennes entreprises](smb-templates.md)
 
 
 
@@ -648,8 +648,8 @@
 <!-- ============================================================ -->
 
 # Conseils pour les industries et le secteur public
-## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
+## [Présentation](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+## [Prise en main des modèles Teams avec Microsoft Graph](get-started-with-teams-templates.md)
 ## [Applications de réservations et visites virtuelles](bookings-app-admin.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub n’existe plus](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -824,7 +824,7 @@
 
 ## Appareils pris en charge
 ### [Gérer vos périphériques dans Teams](devices/device-management.md)
-### [Mettre à niveau vos périphériques à distance](devices/remote-update.md)
+### [Mettre à niveau vos appareils à distance](devices/remote-update.md)
 ### [Téléphones pour Teams](devices/phones-for-teams.md)
 ### [Périphériques audio et vidéo USB](devices/usb-devices.md)
 ### [Déployer des barres de collaboration pour Microsoft Teams](devices/collab-bar-deploy.md)
@@ -833,7 +833,7 @@
 ### [Téléphones pour Skype Entreprise Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## PowerShell Teams
-### [Vue d’ensemble](teams-powershell-overview.md)
+### [Présentation](teams-powershell-overview.md)
 ### [Installer PowerShell Teams](teams-powershell-install.md)
 ### [Gérer Teams avec PowerShell Teams](teams-powershell-managing-teams.md)
 ### [Notes de publication de PowerShell Teams](teams-powershell-release-notes.md)
