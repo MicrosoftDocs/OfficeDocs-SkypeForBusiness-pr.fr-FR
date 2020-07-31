@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146070"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506127"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -108,6 +108,9 @@ Les noms des canaux ne peuvent pas contenir les caractères ou les mots suivants
 Les noms des canaux ne peuvent pas non plus commencer par un trait de soulignement (_) ou un point (.) ou se terminer par un point (.).
 
 ## <a name="meetings-and-calls"></a>Réunions et appels
+
+> [!IMPORTANT]
+> Au mois d’avril, [nous avons annoncé](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que les augmentations de la limite temporaire par défaut seraient activées jusqu’au 1er juillet pour les événements en direct de Microsoft 365 afin de mieux servir les clients. Pour continuer à répondre aux besoins des clients, nous étendons les limites temporaires par défaut jusqu’au 1er octobre 2020. Les événements en direct hébergés dans Teams, Stream et Yammer continueront à prendre en charge de façon temporaire les événements comptant jusqu’à 20 000 participants, d’une durée de 16 heures et 50 événements se produisant simultanément. En outre, les clients peuvent héberger dans Stream un événement en direct comptant jusqu’à 100 000 participants s’il est planifié via [le programme d’assistance des événements en direct Microsoft](https://resources.techcommunity.microsoft.com/live-events/assistance/).
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
