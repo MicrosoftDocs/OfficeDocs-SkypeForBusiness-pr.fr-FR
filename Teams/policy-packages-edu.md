@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021882"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533901"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -100,7 +100,7 @@ Une fois votre définition de stratégie créée ou mise à jour, vous pouvez l�
 Vous pouvez également attribuer une stratégie à un utilisateur en accédant à Utilisateurs, en sélectionnant l’utilisateur pour lequel vous voulez mettre à jour les stratégies, en sélectionnant Stratégies, puis Modifier. À partir de là, vous pouvez sélectionner la définition de stratégie à attribuer à l’utilisateur pour chaque domaine de capacité.
 
 > [!IMPORTANT]
-> Si vous faites partie d’un grand établissement d’enseignement, l’utilisation du portail d’administration Microsoft Teams pour la définition de stratégies pour chaque utilisateur peut être difficile. Il est préférable d’attribuer des stratégies par lots via PowerShell. Nous avons quelques informations spécifiques à l’éducation sur la façon [d’attribuer des stratégies à d’importants ensembles d’utilisateurs de votre établissement d’enseignement](batch-policy-assignment-edu.md) si vous en avez besoin. Vous pouvez également consulter la section ci-dessous sur les packages de stratégie, qui constituent un autre excellent moyen de gérer les stratégies et paramètres pour les groupes importants d’utilisateurs.
+> Si vous faites partie d’un grand établissement d’enseignement, l’utilisation du portail d’administration Microsoft Teams pour la définition de stratégies pour chaque utilisateur peut être difficile. Il est préférable d’attribuer des stratégies par lots via PowerShell. Nous avons quelques informations spécifiques à l’éducation sur la façon [d’attribuer des stratégies à d’importants ensembles d’utilisateurs de votre établissement d’enseignement](batch-group-policy-assignment-edu.md) si vous en avez besoin. Vous pouvez également consulter la section ci-dessous sur les packages de stratégie, qui constituent un autre excellent moyen de gérer les stratégies et paramètres pour les groupes importants d’utilisateurs.
 
 ![Volet Modifier les stratégies utilisateur, à droite au-dessus de la page Stratégies affectées.](media/edu-edit-user-policies-pane.png)
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de l’organisation du service public grâce à Microsoft Teams, en particulier lorsqu’ils travaillent à domicile en réponse à l’épidémie de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028140"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533749"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Prise en charge des employés du secteur public travaillant à distance avec Microsoft Teams
 
@@ -65,7 +65,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
   - Démarrez votre parcours Teams avec une série de **[formations interactives](https://aka.ms/TeamsLiveTraining)** en direct, conçues pour aider votre organisation à être opérationnelle et à fonctionner avec Teams.
 
-  - Rejoignez l’une de nos **[classes en ligne](../instructor-led-training-teams-landing-page.md)** pour observer Teams en action et obtenir des réponses à vos questions.
+  - Rejoignez l’une de nos **[classes en ligne](../instructor-led-training-teams-landing-page.yml)** pour observer Teams en action et obtenir des réponses à vos questions.
 
   - Partagez des **[vidéos de formation détaillées](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** avec les utilisateurs qui souhaitent en savoir plus.
 

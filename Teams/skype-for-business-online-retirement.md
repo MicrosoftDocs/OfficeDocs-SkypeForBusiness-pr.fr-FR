@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7ce21fb620f37479a051b7ed4467dcc3cd9f6f19
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691520"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533841"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -48,6 +48,6 @@ Tout d’abord, nous faisons des investissements pour traiter les demandes de fo
 - **Interéquipes et interopérabilité des utilisateurs Skype**. L’interopérabilité entre teams et Skype Consumer permettra aux utilisateurs d’utiliser les deux services pour communiquer avec les conversations et les appels.  Les équipes et l’interopérabilité de Skype Consumer seront disponibles dans teams au cours du premier trimestre de l’année 2020.
 - **Intégration du centre de contacts et enregistrement de la conformité**. Au plus tôt ce mois-ci, nous avons annoncé le partenariat d’équipes avec Five9, les gènes et les NICE pour activer les solutions du centre de contacts, ainsi que les solutions ASC, NICE et Verint pour l’enregistrement de la conformité.   Nous travaillons également en collaboration avec d’autres partenaires certifiés Skype entreprise Online pour amener d’autres solutions d’enregistrement de la conformité aux équipes.
  
-Lorsque vous êtes prêt à commencer, nous proposons [un ensemble complet d’instructions techniques et de ressources de planification](https://aka.ms/SkypeToTeams), y compris un cadre de réussite prouvé, des pratiques recommandées, des documents de planification, une [formation dirigée](instructor-led-training-teams-landing-page.md)par un instructeur et une assistance d’intégration [FastTrack](https://www.microsoft.com/FastTrack) pour les abonnements éligibles.
+Lorsque vous êtes prêt à commencer, nous proposons [un ensemble complet d’instructions techniques et de ressources de planification](https://aka.ms/SkypeToTeams), y compris un cadre de réussite prouvé, des pratiques recommandées, des documents de planification, une [formation dirigée](instructor-led-training-teams-landing-page.yml)par un instructeur et une assistance d’intégration [FastTrack](https://www.microsoft.com/FastTrack) pour les abonnements éligibles.
  
 Depuis son introduction dans 2014, Skype entreprise est un outil précieux pour des millions de personnes dans le monde entier.  En associant la messagerie instantanée, les appels et la vidéo en une seule application, le produit a établi une nouvelle vision passionnante pour les communications professionnelles. Microsoft teams est le prochain chapitre de cette vision et, à l’heure actuelle, nous ne sommes pas en mesure d’annoncer le retrait du service Skype entreprise Online, nous communiquons également notre confiance dans Teams.  Au bout de plus de deux ans dans le marché, teams est prêt pour les clients les plus exigeants et nous sommes convaincus que vous allez adorer !  Si vous êtes un client Skype entreprise Online actuel, commencez à planifier votre migration dès aujourd’hui.  Nous nous efforçons de vous aider à effectuer toutes les étapes et nous ne sommes pas en mesure de vous aider à vous familiariser avec la nouvelle façon de travailler. 

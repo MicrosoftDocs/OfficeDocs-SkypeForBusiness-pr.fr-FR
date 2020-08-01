@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Dresse la liste des plans d’éducation et de gestion des licences des étudiants et des références SKU.
 f1keywords: ''
-ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702699"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533891"
 ---
 # <a name="education-sku-reference"></a>Référence SKU éducation
 
@@ -69,6 +69,6 @@ Cet article répertorie les enseignants et plans de licence d’étudiant et les
 |Office 365 a1 pour les étudiants (pour les appareils)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 a1 plus pour les étudiants     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-- [Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](batch-policy-assignment-edu.md)
+- [Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

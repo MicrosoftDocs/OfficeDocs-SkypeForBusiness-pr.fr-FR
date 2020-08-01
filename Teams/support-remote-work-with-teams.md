@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 8d28d88a9669391f582dd1532c7f74f052fae727
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028120"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533831"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -115,7 +115,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
    - En tant qu’organisation de taille moyenne (de 500 à 5 000 utilisateurs), commencez votre découverte de Teams par ces [ateliers interactifs](teams-in-30-workshops.md) en direct.
 
-   - Rejoignez l’une de nos [classes en ligne](instructor-led-training-teams-landing-page.md) pour voir Teams en action et obtenir des réponses à vos questions.
+   - Rejoignez l’une de nos [classes en ligne](instructor-led-training-teams-landing-page.yml) pour voir Teams en action et obtenir des réponses à vos questions.
 
    - Partagez des [vidéos de formation détaillées](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) avec les utilisateurs qui souhaitent en savoir plus.
 

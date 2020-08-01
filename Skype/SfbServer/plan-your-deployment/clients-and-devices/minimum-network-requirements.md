@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Résumé : informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder à des réunions hébergées par des organisations qui le font.'
-ms.openlocfilehash: 656f8fa52f4a1080cca0b8464becf77c8c2a0ef0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bcb8cfa74067ec6aa3e895f757c71d075888f447
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219724"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529187"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Configuration réseau minimale requise pour l’application Réunions Skype
  
 **Résumé :**  Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder à des réunions hébergées par des organisations qui le font. Cet article n’est pas destiné aux utilisateurs de ces applications.
   
-Pour permettre aux utilisateurs d’utiliser l’application réunions Skype pour participer à des réunions hébergées dans Skype entreprise Online, les administrateurs réseau des organisations qui n’utilisent pas Microsoft 365 ou Office 365 doivent être autorisés à accéder à la liste des noms de domaine complets, des adresses IP et des ports mentionnés ci-dessous.
+Pour permettre aux utilisateurs d’utiliser l’application réunions Skype pour participer à des réunions hébergées dans Skype entreprise Online, les administrateurs réseau des organisations qui n’utilisent pas Microsoft 365 ou Office 365 doivent autoriser ou rendre disponibles les noms de domaine complets, les adresses IP et les ports mentionnés ci-dessous.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Configuration requise pour la connectivité des applications Skype meetings
 
