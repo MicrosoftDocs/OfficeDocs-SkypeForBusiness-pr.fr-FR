@@ -18,12 +18,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
 ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522341"
+ms.locfileid: "46522907"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -109,16 +110,20 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 ## <a name="meetings-and-calls"></a>Réunions et appels
 
-> [!IMPORTANT]
-> Au mois d’avril, [nous avons annoncé](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que les augmentations de la limite temporaire par défaut seraient activées jusqu’au 1er juillet pour les événements en direct de Microsoft 365 afin de mieux servir les clients. Pour continuer à répondre aux besoins des clients, nous étendons les limites temporaires par défaut jusqu’au 1er octobre 2020. Les événements en direct hébergés dans Teams, Stream et Yammer continueront à prendre en charge de façon temporaire les événements comptant jusqu’à 20 000 participants, d’une durée de 16 heures et 50 événements se produisant simultanément. En outre, les clients peuvent héberger dans Stream un événement en direct comptant jusqu’à 100 000 participants s’il est planifié via [le programme d’assistance des événements en direct Microsoft](https://resources.techcommunity.microsoft.com/live-events/assistance/).
-
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  |300. <br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite du cloud pour le secteur public passera de 250 à 300 et qu’il prendra en charge le dépassement de capacité des réunions.   |
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  |300. **Affichage seul** autorise jusqu’à 20 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour un SKU de module complémentaire de communications avancées.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High et DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite du cloud pour le secteur public passe de 250 à 300 et prend en charge le dépassement de capacité des réunions.   |
 |Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300 |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
+
+<sup>1</sup> Affichage seul est activé par défaut. Vous pouvez utiliser PowerShell pour désactiver le dépassement de capacité des réunions. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+Les participants en affichage seul ne pourront pas participer à une réunion s’il n’existe plus de capacité d’affichage seul pendant la réunion, ou si le participant ne dispose pas des autorisations nécessaires pour passer outre la salle d’attente en fonction des stratégies ou options de salle d’attente définies. Les participants en affichage seul ne peuvent pas voir les fichiers de partage PowerPoint natifs.
 
 ### <a name="meeting-expiration"></a>Expiration de réunion
 

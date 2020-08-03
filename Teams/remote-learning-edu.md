@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085970"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533759"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -98,7 +98,7 @@ Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiant
 > [!IMPORTANT]
 > Pour les stratégies de réunion attribuées aux utilisateurs, nous vous recommandons de définir le paramètre « Admettre automatiquement les personnes » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
-**Les employés et enseignants d'école primaire** doivent se voir affecter des stratégies autorisant des fonctionnalités de base pouvant être limitées pour les étudiants. Créez des stratégies qui autorisent la conversation privée et la planification de réunions (paramètres par défaut pour une nouvelle stratégie). [Assignez ces stratégies en bloc à vos employés et enseignants via l’affectation d’une stratégie par lot](batch-policy-assignment-edu.md).
+**Les employés et enseignants d'école primaire** doivent se voir affecter des stratégies autorisant des fonctionnalités de base pouvant être limitées pour les étudiants. Créez des stratégies qui autorisent la conversation privée et la planification de réunions (paramètres par défaut pour une nouvelle stratégie). [Assignez ces stratégies en bloc à vos employés et enseignants](batch-group-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Utilisation de Teams
 
