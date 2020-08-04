@@ -62,11 +62,13 @@
 ### [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser Microsoft 365 ou Office 365 et des connecteurs personnalisés](Office-365-custom-connectors.md)
 ### [Consentement spécifique à la ressource](resource-specific-consent.md)
-### [Gérer vos applications personnalisées](manage-your-custom-apps.md)
+### [Publier une application personnalisée envoyée par le biais de l’API d’envoi d’applications Teams](submit-approve-custom-apps.md)
+### [Publier une application personnalisée en téléchargeant un package d’application](upload-custom-apps.md)
 ### [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Gérer l’application Listes pour votre organisation dans Teams](manage-lists-app.md)
 ### [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
+### [Gérer l’application Compliment](manage-praise-app.md)
 ### [Configurer la hiérarchie de ciblage de votre équipe](set-up-your-team-hierarchy.md)
 ### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -808,6 +810,7 @@
 ### [Gérer l’expérience d’exploration de Teams](teams-exploratory.md)
 ### [Gérer la version gratuite de Teams](manage-freemium.md)
 ### [Mettre à niveau la version gratuite de Teams vers une version avec abonnement](upgrade-freemium.md)
+### [Communications avancées](teams-add-on-licensing/advanced-communications.md)
 ### [Gestion des licences des stratégies de messagerie](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 - Système téléphonique - Utilisateur virtuel : licence utilisateur virtuel](teams-add-on-licensing/virtual-user.md)
 
