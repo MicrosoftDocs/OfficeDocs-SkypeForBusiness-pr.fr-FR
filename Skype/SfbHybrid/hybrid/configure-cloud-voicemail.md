@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour l’implémentation de la messagerie vocale en nuage pour les utilisateurs hébergés sur Skype entreprise Server.
-ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221458"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552580"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
 
@@ -38,7 +38,7 @@ La configuration de la messagerie vocale Cloud implique les tâches suivantes :
 
 2.  Assurez-vous que vous avez configuré la connectivité hybride comme décrit dans [plan Hybrid Connectivity](plan-hybrid-connectivity.md) et [configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configurez le service de messagerie vocale Cloud en tant que fournisseur d’hébergement sur le serveur Edge](#configure-cloud-voicemail-as-the-hosting-provider) , comme décrit dans cet article.
+3.  [Configurez le service de messagerie vocale Cloud en tant que fournisseur d’hébergement sur le serveur frontal](#configure-cloud-voicemail-as-the-hosting-provider) comme décrit dans cet article.
 
 4.  [Configurez une stratégie de messagerie vocale hébergée](#configure-a-hosted-voicemail-policy) comme décrit dans cet article.
 
