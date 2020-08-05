@@ -68,7 +68,6 @@
 ### [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Gérer l’application Listes pour votre organisation dans Teams](manage-lists-app.md)
 ### [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
-### [Gérer l’application Compliment](manage-praise-app.md)
 ### [Configurer la hiérarchie de ciblage de votre équipe](set-up-your-team-hierarchy.md)
 ### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
