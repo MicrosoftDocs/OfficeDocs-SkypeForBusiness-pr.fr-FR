@@ -17,22 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées envoyées à l’aide de l’API de soumission d’applications teams dans Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4c3563dc028c8566d29906e4e42a2002a197e71d
-ms.sourcegitcommit: 8812db47b45d171d47e71f87e84ab1828590392d
+ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46523680"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552600"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée soumise par le biais de l’API de soumission d’applications teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>Vue d’ensemble
 
 > [!NOTE]
-> Lorsque vous publiez une application teams personnalisée, celle-ci est disponible pour les utilisateurs du magasin d’applications de votre organisation. Il existe deux façons de publier une application personnalisée et votre mode d’utilisation dépend de la manière dont vous obtenez l’application. **Cet article décrit l’approbation et la publication d’une application personnalisée soumise par un développeur à l’aide de l’API de soumission d’applications teams**. Quant à l’autre méthode, le téléchargement d’une application personnalisée est utilisé lorsqu’un développeur vous envoie un package d’application au format. zip. Pour en savoir plus sur cette méthode, voir [publier une application personnalisée en chargeant un package d’application](manage-your-custom-apps.md).
+> Lorsque vous publiez une application teams personnalisée, celle-ci est disponible pour les utilisateurs du magasin d’applications de votre organisation. Il existe deux façons de publier une application personnalisée et votre mode d’utilisation dépend de la manière dont vous obtenez l’application. **Cet article décrit l’approbation et la publication d’une application personnalisée soumise par un développeur à l’aide de l’API de soumission d’applications teams**. Quant à l’autre méthode, le téléchargement d’une application personnalisée est utilisé lorsqu’un développeur vous envoie un package d’application au format. zip. Pour en savoir plus sur cette méthode, voir <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">publier une application personnalisée en chargeant un package d’application</a>.
  
 Cet article fournit des instructions complètes sur la façon de faire de votre application teams le déploiement vers la découverte. Vous obtenez une vue d’ensemble des expériences connectées fournies par teams dans le cycle de vie de l’application pour rationaliser le développement, le déploiement et la gestion des applications personnalisées dans le magasin d’applications de votre organisation.
 
@@ -142,6 +139,7 @@ Dans la plupart des cas, une fois que vous avez publié une mise à jour de l’
 
 ## <a name="related-topics"></a>Voir aussi
 
+- [Publier une application personnalisée en chargeant un package d’application](upload-custom-apps.md)
 - [Gérer vos applications dans le centre d’administration Microsoft teams](manage-apps.md)
 - [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 - [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)

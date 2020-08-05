@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580702"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552292"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -105,7 +105,8 @@ Par exemple, vous pouvez activer PowerShell à distance comme suit :
   
 1. Connectez-vous en tant qu’administrateur sur un appareil Microsoft Teams.
 2. Ouvrez une invite de commandes PowerShell avec élévation de privilèges.
-3. Entrez la commande suivante : Enable-PSRemoting -force
+3. Entrez la commande suivante :`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. Ouvrez la stratégie de sécurité locale et ajoutez le groupe de sécurité *administrateurs* aux **paramètres de sécurité**  >  **stratégies locales**d'  >  **attribution des droits d’utilisateur**pour accéder à  >  **cet ordinateur à partir du réseau**.
 
 Pour effectuer une opération de gestion :
   
@@ -113,7 +114,7 @@ Pour effectuer une opération de gestion :
 2. Ouvrez une invite de commandes PowerShell normale sur le PC.
 3. Copiez le texte de commande du tableau ci-dessous, puis collez-le à l’invite.
 4. Remplacez les `<Device fqdn>` champs par des valeurs FQDN appropriées à votre environnement.
-5. Remplacez * \< path \> * par le nom de fichier et le chemin d’accès local du fichier de configuration SkypeSettings. xml principal (ou de l’image de thème).
+5. Remplacez *\<path\>* par le nom de fichier et le chemin d’accès local du fichier de configuration du SkypeSettings.xml principal (ou de l’image de thème).
     
 Pour obtenir des appareils connectés
   
@@ -173,7 +174,7 @@ Si vous souhaitez gérer les mises à jour manuellement et ne parvenez pas à su
 ### <a name="to-update-using-powershell"></a>Pour effectuer une mise à jour à l’aide de PowerShell
 
 1. Extrayez le package de l’installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) vers un partage auquel le périphérique peut accéder.
-2. Exécutez le script suivant ciblant les appareils de salle Microsoft Teams, \< \> en modifiant le partage sur le partage de l’appareil, selon le cas :
+2. Exécutez le script suivant ciblant les appareils de salle Microsoft Teams, \<share\> en passant sur le partage de périphériques selon le cas :
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})

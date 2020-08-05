@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47ca6105b1d497bbba391856bfc190ea88fb47f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372033"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552272"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -30,12 +30,17 @@ ms.locfileid: "45372033"
 Dans certains pays et certaines régions, il est illégal d’ignorer le fournisseur de réseau téléphonique commuté (PSTN) pour réduire les frais d’appel longue distance. Cet article décrit comment utiliser le routage basé sur l’emplacement pour limiter le recours au contournement pour les utilisateurs de Microsoft teams en fonction de leur emplacement géographique. Cet article s’applique uniquement au routage direct du système téléphonique.
 
 Vous trouverez ci-dessous un aperçu du routage et des recommandations en fonction de l’emplacement pour vous aider à planifier la mise en route. Lorsque vous êtes prêt à appliquer et activer le routage selon l’emplacement, voir :
+
 - [Déploiement des paramètres réseau pour le routage de géolocalisation](location-based-routing-configure-network-settings.md)
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 
-Le routage basé sur l’emplacement est une fonctionnalité qui vous permet de limiter le contournement payant en fonction de la stratégie et de l’emplacement géographique de l’utilisateur au moment d’un appel RTC entrant ou sortant. 
+> [!NOTE]
+> Le routage basé sur la géolocalisation n’est pas disponible dans les déploiements importants de Microsoft 365 Government Community Cloud (GCC).
+
+Le routage basé sur l’emplacement est une fonctionnalité qui vous permet de limiter le contournement payant en fonction de la stratégie et de l’emplacement géographique de l’utilisateur au moment d’un appel RTC entrant ou sortant. Le routage basé sur l’emplacement est conçu pour fournir un mécanisme permettant d’éviter le contournement du numéro. Il ne doit pas être utilisé en tant que mécanisme pour diriger dynamiquement les appels RTC en fonction de l’emplacement de l’utilisateur ou d’éventuelles conséquences inattendues.
 
 Lorsqu’un utilisateur de teams est activé pour le routage géolocalisation, les conditions suivantes s’appliquent :
+
 - Pour passer un appel RTC sortant, l’une des conditions suivantes doit être remplie :
     - Le point de terminaison de l’utilisateur se trouve dans un site réseau activé pour le routage de géolocalisation et pour les appels sortants via la passerelle correspondante activée pour le routage sur site. 
     - Le point de terminaison de l’utilisateur se trouve dans un site réseau qui n’est pas activé pour le routage de géolocalisation et pour les appels sortants via une passerelle qui n’est pas activée pour le routage sur site.

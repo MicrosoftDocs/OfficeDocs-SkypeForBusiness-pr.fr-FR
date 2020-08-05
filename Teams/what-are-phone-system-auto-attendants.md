@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur les standards automatiques du Cloud et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menu pour localiser et transférer des appels vers des utilisateurs ou des services.
-ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077639"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552570"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
@@ -109,7 +109,7 @@ Les employés peuvent rechercher des noms dans votre organisation à l'aide des 
 |Prénom  |Complet   |Amos#   |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
 |Ln |Complet |Marble#  |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Mary Marble |
 |Prénom ou nom |Partiel |Mar# |Appuyez sur 1 pour Mary Marble  <br/> Appuyez sur 2 pour Mary Jones  <br/> Appuyez sur 3 pour Amos Marcus |
-|Prénom + nom |Partiel |Mar0Amos# |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
+|Prénom + nom |Partiel |Amos0Mar # |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
 |Nom + prénom |Partiel |Mar0Am# |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
 
 Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à l'aide d'un clavier téléphonique. Par exemple, la personne sera invitée à utiliser la touche dièse (#), tandis que la touche zéro (0) est utilisée pour un espace entre les noms. Appuyer sur la touche étoile (*) permet de répéter la liste des correspondances de noms.

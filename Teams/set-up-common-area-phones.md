@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125987"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552302"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
 > Les téléphones ordinaires ne prennent pas en charge la messagerie vocale.
 
-En règle générale, un téléphone commun est placé dans une zone telle que la salle d’attente ou une autre zone qui est disponible pour de nombreux utilisateurs pour passer un appel ; par exemple, une zone de réception, une salle d’attente ou un téléphone de conférence. Les téléphones communs sont configurés en tant que périphériques plutôt qu’en tant qu’utilisateurs et peuvent se connecter automatiquement à un réseau.
+En règle générale, un téléphone commun est placé dans une zone telle que la salle d’attente ou une autre zone qui est disponible pour de nombreux utilisateurs pour passer un appel ; par exemple, une zone de réception, une salle d’attente ou un téléphone de conférence. Les téléphones de surface commune sont connectés avec des comptes liés à une licence de téléphone commune. La stratégie TeamsIPPhone doit également être correctement définie pour que le téléphone dispose d’une interface utilisateur commune.
 
 Dans la procédure ci-dessous, nous allons vous aider à configurer un compte pour le système téléphonique afin de déployer des téléphones de zone commune pour votre organisation. Pour une interface de salle de réunion plus complète, y compris l’audioconférence, envisagez d’acheter une licence de salle de réunion dédiée avec un appareil de salle de réunion. 
 

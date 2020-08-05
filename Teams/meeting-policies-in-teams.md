@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 1b7c94cd8dc0f46b72cea21ae46d98ed9a974fc5
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938303"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552610"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -268,7 +268,7 @@ Pour utiliser PowerShell afin de contrôler les personnes qui peuvent donner le 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à céder ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les participants externes d’une réunion peuvent donner le contrôle de leur bureau ou fenêtre partagée aux autres participants à la réunion. Les participants externes aux réunions teams peuvent être classés comme suit :  
+Il s’agit d’une stratégie par utilisateur. La présence d’une organisation pour un utilisateur ne contrôle pas ce qu’il est possible de faire, quels que soient les participants externes qu’il a définis. Ce paramètre détermine si les participants externes peuvent recevoir le contrôle ou demander le contrôle de l’écran du partage, en fonction de ce que le partage a défini dans les stratégies de la réunion de leur organisation. Les participants externes aux réunions teams peuvent être classés comme suit :  
 
 - Utilisateur anonyme
 - Utilisateurs invités  

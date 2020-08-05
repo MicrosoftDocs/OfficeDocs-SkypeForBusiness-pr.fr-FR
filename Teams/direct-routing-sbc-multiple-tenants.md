@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients pour les partenaires Microsoft et/ou les opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689740"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552620"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -104,7 +104,7 @@ Le tableau suivant illustre une configuration.
 Pour configurer la base et les sous-domaines, suivez les étapes décrites ci-dessous. Dans l’exemple, nous allons configurer un nom de domaine de base (customers.adatum.biz) et un sous-domaine pour un client (sbc1.customers.adatum.biz dans le client Woodgrove Bank).
 
 > [!NOTE]
-> Utilisez sbcX.customers.adatum.biz pour activer la voix dans le locataire du transporteur.
+> Utilisez sbcX.customers.adatum.biz pour activer la voix dans le locataire du transporteur. sbcX peut être un nom d’hôte alphanumérique unique et valide.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Inscrire un nom de domaine de base dans le client de l’opérateur
 

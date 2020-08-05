@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams, qui fournissent un message de salutation, de la musique, de la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077712"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46556629"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -203,6 +203,10 @@ Lorsque le mode conférence est activé sur une file d’attente d’appels, les
 
 La plupart des appels sont reçus par le biais de l’une des méthodes indiquées ci-dessus. Si un appel est reçu par le biais d’une autre méthode (par exemple, un appel VoIP d’un client Skype entreprise), l’appel est toujours ajouté à la file d’attente d’appels, mais il n’est pas possible d’y profiter du temps de connexion plus rapide.
 
+> [!NOTE]
+> Occupé sur occupé n’est pas pris en charge par le mode conférence. Les agents sur les appels hors file d’attente risquent de se présenter avec un appel de file d’attente d’appels si le routage basé sur la présence n’est pas activé.
+
+
 ![Icône du numéro 3, qui fait référence à une légende dans la méthode de routage de capture d’écran précédente, ](media/teamscallout3.png)
  **Routing method** vous pouvez choisir l’une des options **standard**, **série**, **inactif**ou **répétition arrondie** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 
@@ -274,9 +278,7 @@ Le paramètre par défaut est de 30 secondes, mais peut être configuré pour un
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger vers** Lorsque vous choisissez cette option, sélectionnez l’une des options suivantes :
 
-  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et est activé pour voix entreprise ou avoir un plan d’appels. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Pour cela, sélectionnez une personne au sein de votre organisation et configurez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
-
-  Pour en savoir plus sur les licences requises pour la boîte vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
+  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et est activé pour voix entreprise ou a un plan d’appels.
 
   - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
 
@@ -291,6 +293,13 @@ Le paramètre par défaut est de 30 secondes, mais peut être configuré pour un
             - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
             - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
     - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
+  - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par cette file d’attente d’appels, puis sélectionnez l’une des options suivantes :
+      - **Lire un fichier audio** Si vous choisissez cette option, sélectionnez **Télécharger un fichier** pour télécharger un message d’accueil enregistré. Le nombre d’enregistrements ne peut pas dépasser 5 Mo. 
+      - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez taper «Désolé... nous ne pouvons pas prendre votre appel pour le moment. N’hésitez pas à laisser votre nom, votre numéro de téléphone et votre raison pour votre appel après le bip.»
+
+      Activez la transcription si vous souhaitez activer la transcription vocale des messages vocaux.
+
+      Les messages vocaux sont envoyés au groupe Microsoft 365 que vous spécifiez. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 
 * * *
 
@@ -304,9 +313,7 @@ La valeur Timeout peut être définie en secondes, à des intervalles de 15 seco
 
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger cet appel vers** Lorsque vous choisissez cette option, vous disposez des options suivantes :
-  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et est activé pour voix entreprise ou avec des plans d’appels. Pour la configurer de manière à ce que la personne qui appelle puisse être envoyée à la boîte vocale, sélectionnez une personne dans votre organisation et définissez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
-
-  Pour en savoir plus sur les licences requises pour la boîte vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
+  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et activé pour voix entreprise ou avoir des forfaits d’appels.
 
   - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
 
@@ -321,6 +328,13 @@ La valeur Timeout peut être définie en secondes, à des intervalles de 15 seco
             - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
             - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
     - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
+    - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par cette file d’attente d’appels, puis sélectionnez l’une des options suivantes :
+      - **Lire un fichier audio** Si vous choisissez cette option, sélectionnez **Télécharger un fichier** pour télécharger un message d’accueil enregistré. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
+      - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez taper «Désolé... nous ne pouvons pas prendre votre appel pour le moment. N’hésitez pas à laisser votre nom, votre numéro de téléphone et votre raison pour votre appel après le bip.»
+
+      Activez la transcription si vous souhaitez activer la transcription vocale des messages vocaux.
+
+      Les messages vocaux sont envoyés au groupe Microsoft 365 que vous spécifiez. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Changer l’identification de l’appelant pour les appels sortants
 

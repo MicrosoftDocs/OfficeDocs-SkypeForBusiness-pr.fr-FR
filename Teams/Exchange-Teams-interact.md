@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752976"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552010"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -45,28 +45,26 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 
 **Actions prises en charge :**
 
-| La boîte aux lettres de l'utilisateur est hébergée dans : | eDiscovery| &nbsp;Conservation légale | Rétention| Gestion des équipes et des canaux |Créer et afficher des réunions dans Microsoft teams| Modifier une image de profil utilisateur | Historique des appels | Gérer les contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui |
-|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui,<sup>8</sup>|Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui|
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>, 3</sup>|Oui, <sup> 4|Oui|Non|Non|Oui|Oui|Non|Oui, <sup> 5|Oui, <sup> 6|Oui |Oui |
-|**Exchange sur site** (synchronisation avec Azure ad & configuration OAuth requise)|Oui <sup>2</sup>| Oui <sup>2</sup> |Oui, <sup> 4|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui, <sup> 5|Oui, <sup> 6|Oui |Oui |
+| La boîte aux lettres de l'utilisateur est hébergée dans :                                        | eDiscovery       | &nbsp;Conservation légale    | Rétention  | Gestion des équipes et des canaux | Créer et afficher des réunions dans Microsoft teams | Modifier une image de profil utilisateur | Historique des appels | Gérer les contacts | Accéder aux contacts Outlook | Messagerie vocale  | Ajouter et configurer des connecteurs | Ajouter et configurer des onglets | Ajouter et configurer des bots |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui         | Oui                    | Oui                                | Oui,<sup>7</sup>             | Oui           | Oui              | Oui, <sup>6</sup>        | Oui         | Oui                           | Oui                     | Oui                     |
+| **vNext Exchange Online dédié**                                 | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui         | Oui                    | Oui                                | Oui,<sup>7</sup>             | Oui           | Oui              | Oui, <sup>6</sup>        | Oui         | Oui                           | Oui                     | Oui                    |
+| **Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)  | Oui <sup>1</sup> | Oui <sup>, 1, 2</sup> | Oui, <sup> 3 | Oui                   | Non                                | Non                          | Oui          | Oui             | Non                      | Oui, <sup> 4 | Oui, <sup> 5                   | Oui                     | Oui                     |
+| **Exchange sur site** (synchronisation avec Azure ad & configuration OAuth requise) | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui, <sup> 3 | Oui                   | Oui (Exchange 2016 CU3 +)          | Non                          | Oui          | Oui             | Non                      | Oui, <sup> 4 | Oui, <sup> 5                   | Oui                     | Oui                     |
 
-<sup>1</sup> Exchange 2016 CU3 et supérieur pris en charge.  
+<sup>1</sup> EDiscovery et conservation légale pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.
 
-<sup>2</sup> EDiscovery et conservation légale pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.
+<sup>2</sup> les messages de discussion privée d’équipes ne sont pas encore pris en charge pour cette option d’hébergement.
 
-<sup>3</sup> les messages de discussion privée d’équipes ne sont pas encore pris en charge pour cette option d’hébergement.
+<sup>3</sup> la rétention utilisera une boîte aux lettres d’ombre pour que l’utilisateur en ligne puisse stocker les messages.
 
-<sup>4</sup> la rétention utilisera une boîte aux lettres d’ombre pour que l’utilisateur en ligne puisse stocker les messages. [Microsoft teams prend en charge le eDiscovery pour les utilisateurs d’équipes dans un environnement Exchange hybride](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> les utilisateurs de teams disposant d’une boîte aux lettres Exchange locale peuvent utiliser la boîte vocale avec teams et recevoir des messages vocaux dans Outlook, mais les messages vocaux ne seront pas disponibles à l’affichage ou à la lecture dans le client Teams.
 
-<sup>5</sup> les utilisateurs teams disposant d’une boîte aux lettres Exchange locale peuvent utiliser la boîte vocale avec teams et recevoir des messages vocaux dans Outlook, mais les messages vocaux ne seront pas disponibles à l’affichage ou à la lecture dans le client Teams.
+<sup>5</sup> si l’un des propriétaires d’une équipe peut ajouter des connecteurs, tous les autres membres de cette équipe pourront le faire, même si leurs boîtes aux lettres sont hébergées sur site.
 
-<sup>6</sup> si l’un des propriétaires d’une équipe peut ajouter des connecteurs, tous les autres membres de cette équipe pourront y parvenir, même si leurs boîtes aux lettres sont hébergées sur site.
+<sup>6</sup> uniquement les contacts dans le dossier contacts par défaut. L’accès à d’autres dossiers ou sous-dossiers de contacts n’est pas pris en charge.
 
-<sup>7</sup> uniquement les contacts dans le dossier contacts par défaut. L’accès à d’autres dossiers ou sous-dossiers de contacts n’est pas pris en charge.
-
-<sup>huit</sup> équipes respectent le paramètre de [stratégie de boîte aux lettres Outlook sur le Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur image de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer l’image de mon profil. Par exemple, si un utilisateur charge une image de profil approuvée par le service informatique de votre organisation ou son service de ressources humaines, aucune action n’est requise. Toutefois, si un utilisateur charge une image inappropriée, modifiez-la en fonction des stratégies internes de votre organisation.
+<sup>7</sup> teams respecte le paramètre de [stratégie de boîte aux lettres Outlook sur le Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur image de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer l’image de mon profil. Par exemple, si un utilisateur charge une image de profil approuvée par le service informatique de votre organisation ou son service de ressources humaines, aucune action n’est requise. Toutefois, si un utilisateur charge une image inappropriée, modifiez-la en fonction des stratégies internes de votre organisation.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft teams
 
