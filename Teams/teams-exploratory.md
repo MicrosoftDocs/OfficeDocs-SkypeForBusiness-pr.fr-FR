@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 1508305fbc1d45caff9306dd5afb01d587df030b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229140"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552282"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
@@ -81,7 +81,7 @@ Les administrateurs peuvent désactiver la possibilité pour les utilisateurs fi
 
 Vous pouvez désactiver la possibilité pour un utilisateur d’installer des applications et des services d’essai, ce qui l’empêche d’exécuter l’expérience exploratoire Teams. 
 
-1. Dans le Centre d’administration Microsoft 365, accédez à **Paramètres** > **Paramètres**, sélectionnez **Services**, puis choisissez **Services et applications appartenant à l'utilisateur**.
+1. Dans le Centre d’administration Microsoft 365, accédez à **Paramètres** > **Paramètres org**, sélectionnez **Services**, puis choisissez **Services et applications propriétés de l'utilisateur**.
 
     ![Capture d’écran de la page Services dans le Centre d’administration](media/iw-trial-services.png)
 
@@ -169,4 +169,3 @@ Les licences de l’expérience Microsoft Teams Exploratory initiées dans le d�
 Pour les contrats qui n’ont pas de date de anniversaire ou de renouvellement annuel, l’année suivante après l’activation du premier utilisateur de la licence exploratoire Microsoft Teams est traitée comme la date anniversaire ou la date de renouvellement. Les utilisateurs de la licence exploratoire Microsoft Teams doivent être convertis en licence payante chaque année, conformément aux stratégies décrites ci-dessus.
 
 Par exemple, si le premier utilisateur final active Microsoft Teams exploratoire le 19 juin 2020, les utilisateurs éligibles et tous les autres utilisateurs éligibles du locataire client doivent effectuer une conversion vers une licence payante avec Teams avant le 19 juin 2021. 
-
