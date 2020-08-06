@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 249fbd646cf6c01f282fe73b28e9d02ec48db90b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c31439485f245b522a55c2e5e1134ca6cdddbdf7
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665976"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572349"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -53,7 +53,7 @@ La présence de Teams dans Outlook est prise en charge dans l’application de b
 || ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent du bureau|
 |||
 
-Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation).
+Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Notez que lorsque vous êtes en mode focus en fonction de votre calendrier, le focus est l’état que voient les destinataires dans Teans, mais qui s’affichent comme ne pas déranger dans d’autres produits.
 
 Votre état de présence actuel passe à Absent lorsque vous verrouillez votre ordinateur ou lorsqu’il entre en mode d’inactivité ou de veille. Sur les appareils mobiles, le statut de présence passe à Absent lorsque l’application Teams est en arrière-plan.
 

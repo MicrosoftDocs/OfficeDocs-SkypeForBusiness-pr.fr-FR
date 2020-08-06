@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurer l’optimisation locale des médias pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53f9156b6ab6d33223c9b1d3e11a604ba0c1c31
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: ecbbb4f01267265f9f1041e7d51652d063ced353
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121604"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576986"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation locale des médias pour le routage direct
 
@@ -57,7 +57,7 @@ Cet article décrit la configuration des composants Microsoft. Pour plus d’inf
 L’optimisation des éléments multimédias locaux est prise en charge par les fournisseurs de SBC suivants :
 
 | Fournisseur | Product |    Version du logiciel |
-|:------------|:-------|:-------| :-------|
+|:------------|:-------|:-------|
 | [CodesAudio](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20 a. 256 | 
 |            |  Mediant 800 SBC |   7.20 a. 256 | 
 |            |  Mediant 2600 SBC |  7.20 a. 256 | 
@@ -71,7 +71,9 @@ L’optimisation des éléments multimédias locaux est prise en charge par les 
 |            |  SBC 5400         | 8,2  |
 |            |  SBC 7000         | 8,2  |
 |            |  SBC SWe          | 8,2  |
-| [Ruban SBC du ruban](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 (Build 239) |
+| [Ruban SBC du ruban](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |

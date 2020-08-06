@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: En savoir plus sur la configuration requise pour la prise en charge des salles de Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e7dfc83bc3e1eff42c7a8de3f7e80fb25c03bf90
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 554ce35c640b97c0deb9291e6c797b9302bee50c
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666266"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576936"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -54,18 +54,25 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 Go |128 Go |
   |[Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 Go |128 Go |
   |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 Go |128 Go |
+  [UC Crestron Flex-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 Go |128 Go|
   |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 Go |128 Go |
-  [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Go |128 Go|
+  |[UC Crestron Flex-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 Go |128 Go |
+   [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Go |128 Go|
   |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
   |[HP Elite Slice pour salles de réunion G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 Go |128 Go |
   |[Élément audio HP Elite G2 prêt avec les Salles Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 Go |128 Go |
+  |[Partenariat HP Slice prêt avec Logitech appuyé]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 Go|128 Go|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 Go |128 Go |
-  |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 Go |
+  |[Logitech TAP avec Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 Go |
   |[Le centre de réflexion Logitech et le centre de M920 Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
-  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
-  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
-  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
-  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 Go|128 Go|
+  |[Yealink MVC300 avec Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
+  |[Yealink MVC500 avec Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
+  |[Yealink MVC800 avec Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
+  |[Yealink MVC900 avec Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 Go|128 Go|
+  |[Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 Go | 128 Go|
+  [Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 Go | 128 Go|
+  [Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 Go | 128 Go|
+  [Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 Go | 128 Go|
   ||||||
 
 > [!NOTE]
@@ -92,7 +99,10 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 
 |Périphériques des Salles Microsoft Teams|Version du micrologiciel certifiée | L'appareil photo prend en charge le contenu de l'utilisation de l'appareil photo|
 |:--- |:--- | :--- |
-|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Avereuse 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
+|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
+|[Toile Huddly](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Caméra Jabra Panacast](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
@@ -121,8 +131,13 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Micro de table Shure MXA 310 ](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 avec micro de matrice de plafond Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira premier plan AVB VT4 DSP audio fixe](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Microphone Sennheiser TeamConnect Ceiling 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[Biamp Tesira FORTÉ AVB VT4 son DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp parlé TCM-microphone au plafond XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Haut-parleur biamp Desono C-IC6 plafond](https://www.biamp.com/products/tesira-speakers)| Version de microcontrôle audio : 3,15|
+|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (MIC)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Version de microcontrôle audio : 3,15|
 |[Bose ControlSpace EX-440C DSP + </br>Amplificateur Bose P2600A AmpLink +</br> Microphone Sennheiser TCC2 Ceiling + </br> Haut-parleur Bose EdgeMax EM180 Ceiling](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
+|[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink + Sennheiser TCC2 micro + </br> Bose DesignMax DM2C-P plafond](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
+
+
 
 &Dagger; Les clients peuvent choisir l’interface Dante ou le commutateur réseau recommandé par biamp/Sennheiser pour cette offre groupée.
 
@@ -147,14 +162,14 @@ Les tableaux suivants fournissent des recommandations pour les périphériques b
 |:-----|:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'   |2 à 4  |1,5 m  |Logitech Connect  |Les appareils Logitech Connect comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. |
 |**Small** <br/> 16' x 16'  |4 à 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |Le volume de lecture peut être limité pour des salles plus grandes.  |
-|**Moyen** <br/> 18' x 20'  |6 à 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
+|**Moyen** <br/> 18' x 20'  |6 à 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
 |**Large** <br/> 15' x 32'  |12 à 16  |3 m <br/> Cette distance s’applique également à la zone couverte par chaque microphone satellitaire connecté.  |Logitech Group + microphones satellitaires <br/> Polycom Trio+ microphones satellitaires <br/> Polycom CX5100 + microphones satellitaires <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + microphones satellitaires  |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite. <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table. <br/> Le SP 220 MS doit être utilisé dans la configuration en cascade.  |
 
 **Périphériques vidéo certifiés des salles Microsoft Teams**
 
 |Type de salle|Nombre de personnes|Appareil par taille de salle maximale|Commentaires|
 |:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  |2 à 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
+|**Focus** <br/> 10' x 9'  |2 à 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
 |**Small** <br/> 16' x 16'  |4 à 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro est souvent livré avec Logitech Group  |
 |**Moyen** <br/> 18' x 20'  |6 à 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
 |**Large** <br/> 15' x 32'  |12 à 16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||

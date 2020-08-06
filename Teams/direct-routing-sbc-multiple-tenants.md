@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients pour les partenaires Microsoft et/ou les opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552620"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572359"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -60,7 +60,7 @@ Pour plus d’informations sur le déploiement et la configuration de SBCs pour 
 
 - **AudioCodes :** [notes de configuration de routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration du scénario d’hébergement SBC décrite dans «connexion de AudioCodes SBC à la configuration de modèle d’hébergement de Microsoft teams 
 - **Oracle :** [notes de configuration de routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section « Microsoft ». 
-- **Communications du ruban :**  Pour plus d’informations sur la configuration du ruban de base du ruban, voir le [Guide de configuration de Microsoft teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) (en anglais [)](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing) sur la configuration de l’interface du ruban de Microsoft Teams, reportez-vous à la rubrique recommandations pour le routage
+- **Communications du ruban :**  Pour plus d’informations sur la configuration du ruban de base du ruban, voir le [Guide de configuration de Microsoft teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) (en anglais [)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) sur la configuration de l’interface du ruban de Microsoft Teams, reportez-vous à la rubrique recommandations pour le routage
 - **Te-systèmes (anynode) :**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
 - **Basculer entre :**  Inscrivez-vous sur la page de la communauté sur le [switch](https://sso.metaswitch.com/UI/Login) pour savoir comment activer Perimeta SBC pour plusieurs clients.
 

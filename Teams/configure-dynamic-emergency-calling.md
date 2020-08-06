@@ -17,12 +17,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083154"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576926"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -75,6 +75,9 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 - Client mobile teams pour Android et Google Play Store version 1416/1.0.0.2019121201 et version ultérieure
 - Version de téléphone teams 1449/1.0.94.2019110802 et version ultérieure
 - Teams version 4.4.25.0 et versions ultérieures
+
+> [!NOTE]
+> Les appels d’urgence dynamiques, y compris la notification du support technique, ne sont pas pris en charge sur le client Web Teams. Pour empêcher les utilisateurs d’utiliser le client Web teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel d’équipe et désactiver le paramètre **autoriser les appels RTC Web** . Pour en savoir plus, voir [stratégies d’appel dans teams](teams-calling-policy.md) et [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## <a name="assign-emergency-addresses"></a>Attribution d’adresses de secours
 

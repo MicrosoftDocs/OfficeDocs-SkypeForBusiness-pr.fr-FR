@@ -1,7 +1,7 @@
 ---
 title: Obstacles liés à l’information dans Microsoft teams
 author: chrfox
-ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202910"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572379"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -177,6 +177,9 @@ Pour en savoir plus, cliquez [ici](https://docs.microsoft.com/sharepoint/informa
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
 Pour plus d’informations, y compris les offres et les tarifs, voir recommandations en matière de [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+## <a name="known-issues"></a>Problèmes connus
+- **Les utilisateurs ne peuvent pas participer**à des réunions : si les stratégies IB sont activées, les utilisateurs ne sont pas autorisés à participer à des réunions si la taille de la liste de la réunion est supérieure à 250 utilisateurs. La cause initiale est que le contrôle IB s’appuie sur le fait que les utilisateurs puissent être ajoutés à une liste de discussions et qu’ils le nécessitent pour permettre aux utilisateurs de participer à des réunions. Lorsque vous participez à une réunion, vous ajoutez ce dernier à la liste, par conséquent pour les réunions périodiques, la liste se remplit rapidement. Une fois qu’il atteint un nombre d’utilisateurs 250, aucun utilisateur supplémentaire ne peut être ajouté à la liste de conversations de la réunion. Si IB est activé, les utilisateurs ne sont pas autorisés à participer à la réunion, mais si IB n’est pas activé, les utilisateurs sont autorisés à participer à la réunion, mais ils ne sont pas ajoutés à la liste des discussions de la réunion. Une solution courte consiste à supprimer les membres inactifs de la liste de conversations de la réunion afin de libérer de l’espace pour les nouveaux utilisateurs. En revanche, vous augmenterez la taille des listes de discussions de réunion à une date ultérieure.
 
 ## <a name="more-information"></a>Plus d’informations
 

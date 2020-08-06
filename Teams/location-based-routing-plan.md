@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552272"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572239"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -35,7 +35,7 @@ Vous trouverez ci-dessous un aperçu du routage et des recommandations en foncti
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 
 > [!NOTE]
-> Le routage basé sur la géolocalisation n’est pas disponible dans les déploiements importants de Microsoft 365 Government Community Cloud (GCC).
+> Le routage basé sur la géolocalisation n’est pas disponible dans les déploiements Microsoft 365 Government Community Cloud (GCC) High ou DoD.
 
 Le routage basé sur l’emplacement est une fonctionnalité qui vous permet de limiter le contournement payant en fonction de la stratégie et de l’emplacement géographique de l’utilisateur au moment d’un appel RTC entrant ou sortant. Le routage basé sur l’emplacement est conçu pour fournir un mécanisme permettant d’éviter le contournement du numéro. Il ne doit pas être utilisé en tant que mécanisme pour diriger dynamiquement les appels RTC en fonction de l’emplacement de l’utilisateur ou d’éventuelles conséquences inattendues.
 
