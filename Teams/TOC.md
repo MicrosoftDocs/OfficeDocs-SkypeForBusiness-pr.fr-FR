@@ -660,6 +660,7 @@
 ### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Démarrage avec la messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Délégation de messages](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Packages de stratégie Teams pour la santé publique](policy-packages-healthcare.md)
 ### [Présentation de l’application Patients](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Intégration des dossiers médicaux électroniques dans Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Spécification de l’interface DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
