@@ -675,7 +675,7 @@
 ### [Affecter des stratégies à des ensembles volumineux d’utilisateurs](batch-group-policy-assignment-edu.md)
 ### [Script PowerShell pour créer des groupes de sécurité pour les enseignants et les étudiants](scripts/powershell-script-security-groups-edu.md)
 ### [Aide dans des situations de faible bande passante pour les administrateurs dans l'éducation](edu-remote-low-bandwidth.md)
-### [Informations sur la classe](class-insights.md)
+### [Prise en main d’Insights](class-insights.md)
 ### [Devoirs dans Teams pour l’éducation](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
 ### [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](plan-teams-governance-edu.md)
