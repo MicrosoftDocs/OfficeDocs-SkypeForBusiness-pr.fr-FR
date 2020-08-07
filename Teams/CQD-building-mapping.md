@@ -1,7 +1,7 @@
 ---
 title: Créer une carte de bâtiment pour le tableau de bord de qualité des appels (bord)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment créer une carte de bâtiment que vous pouvez utiliser pour charger un client et générer des données dans le tableau de bord de qualité des appels (bord).
-ms.openlocfilehash: 18e88c2de64d2d63589a3cd2ebddbc9643fe4522
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086044"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584033"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Créer une carte de bâtiment pour le tableau de bord de qualité des appels (bord)
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: L’administrateur peut en savoir plus sur les contrôleurs de bordure de session (SBCs) qui ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 973df1511657a71cb05ee6df8409dff4290ccd95
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 357bfd141527d104a0843e9e4e5d9c574307b4ac
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572249"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583933"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -75,7 +75,9 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Un élément Border unifié Cisco (CUBE) pour les routeurs services intégrés de la série 1000        |     &#10004;   |  |      IOS XE 17.2.1 r      |    <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado service de routage d’urgence (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     Un élément Border unifié Cisco (CUBE) pour les routeurs services intégrés de la série 4000        |     &#10004;   |  |      IOS XE 17.2.1 r      |   <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado service de routage d’urgence (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     Élément de bordure unifié Cisco (CUBE) pour le routeur des services Cloud de la série 1000V       |     &#10004;   |  |      IOS XE 17.2.1 r      |    <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado service de routage d’urgence (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
-|                                 |     Un élément Border unifié Cisco (CUBE) pour les routeurs de services d’agrégation de séries 1000      |     &#10004;   |  |      IOS XE 17.2.1 r      |    <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado service de routage d’urgence (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     Un élément Border unifié Cisco (CUBE) pour les routeurs de services d’agrégation de séries 1000      |     &#10004;   |  |      IOS XE 17.2.1 r      |    <ul> <li> [Routage de l’emplacement dynamique de la bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado service de routage d’urgence (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de bordure de session Avaya pour les entreprises (ASBCE)    |     &#10004;     |           |       Version 8.1.1       |     |    | 
+
 
 Le tableau suivant répertorie les appareils qui sont vérifiés en matière d’interopérabilité entre le routage direct et les appareils analogiques.
 

@@ -1,6 +1,6 @@
 ---
 title: Classification des flux dans le tableau de bord de qualité des appels (bord)
-ms.author: lolajacobsen
+ms.author: serdarsacobsen
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085890"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583823"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels (bord)
 

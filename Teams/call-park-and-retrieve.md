@@ -1,7 +1,7 @@
 ---
 title: Parcage et récupération d’appel dans Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: En savoir plus sur l’utilisation du parc d’appels et la récupération pour mettre un appel en attente dans le service équipes du Cloud.
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938533"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582651"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -52,9 +52,9 @@ Le parc et la récupération des appels sont actuellement pris en charge par les
 
 | Fonctionnalité | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams | Téléphone IP Skype entreprise |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Parc d’un appel | Oui  | Oui  | Oui  | Oui  | Oui | Non |
-| Extraire un appel parqué | Oui  | Oui  | Oui  | Oui  | Oui | Non |
-| Retour de la sonnerie des appels annulé | Oui  | Oui  | Oui  | Oui  | Oui | Non |
+| Parc d’un appel | Oui | Oui | Oui | Oui | Oui | Non |
+| Extraire un appel parqué | Oui | Oui | Oui | Oui | Oui | Non |
+| Retour de la sonnerie des appels annulé | Oui | Oui | Oui | Oui | Oui | Non |
 
 ## <a name="configure-call-park-and-retrieve"></a>Configurer le parc d’appels et la récupération
 
@@ -107,7 +107,7 @@ Si un utilisateur tente de récupérer un appel et échoue, vérifiez les points
 - Mode île : le parc d’appels et la récupération ne sont pas disponibles en mode îlot d’équipe.
 - L’appel a déjà été récupéré ou arrêté.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Park a Call en teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

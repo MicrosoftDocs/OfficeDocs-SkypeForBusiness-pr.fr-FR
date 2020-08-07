@@ -1,7 +1,7 @@
 ---
 title: Limites et spécifications de Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 236b11242c4f7f609fb5eab0bd772884f9452336
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522907"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583653"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -112,7 +112,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  |300. **Affichage seul** autorise jusqu’à 20 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour un SKU de module complémentaire de communications avancées.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High et DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite du cloud pour le secteur public passe de 250 à 300 et prend en charge le dépassement de capacité des réunions.   |
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  |300. **Affichage seul** autorise jusqu’à 20 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour un SKU de module complémentaire de communications avancées.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High et DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite du cloud pour le secteur public passera de 250 à 300 et qu’il prendra en charge le dépassement de capacité des réunions.   |
 |Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300 |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|

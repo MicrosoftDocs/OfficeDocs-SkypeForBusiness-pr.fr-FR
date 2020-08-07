@@ -1,7 +1,7 @@
 ---
 title: Utilisation du rapport de routage direct RTC bord
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez le rapport de routage téléphonique RTC de Microsoft Teams (bord) pour surveiller et résoudre les problèmes de la fonction d’appel RTC de Microsoft Teams.
-ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e4662d80dbba88c1049c7ef98569dae408ca9ba0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085340"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583101"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Utilisation du rapport de routage direct RTC bord
 

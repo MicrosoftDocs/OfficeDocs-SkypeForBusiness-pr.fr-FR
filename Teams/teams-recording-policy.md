@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121644"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584083"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -40,7 +40,7 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 
 - Nouvelles politiques d’administration pour l’enregistrement de la conformité, y compris l’intégration aux équipes existantes d’appels administratifs et aux politiques et aux outils de réunion
 
-- Activé pour les utilisateurs de teams disposant d’une licence distincte
+- Nécessite une [licence de communications avancée](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 Les fonctionnalités d’intégration de la solution enregistrement de la conformité ont également été examinées lors de l’enflamme 2019 de la [<span class="underline">session enregistrement de la conformité et Microsoft teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -56,10 +56,10 @@ Chacune des catégories implique différentes exigences relatives à la manière
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | Initiateur              | Utilisateur               | Application/solution       | Administrateur système     | Administrateur système  | LEA                |
 | Cible                 | Par appel/réunion | Par appel/réunion | Par appel/réunion | Par utilisateur        | Par point de terminaison/DID |
-| Propriétaire de stockage          | Utilisateur               | Appli                | Administrateur              | Conformément      | LEA                |
-| Notification requise ? | Oui                 | Oui                 | Oui                 | Oui             | Non                 |
-| Propriétaire de l’accès           | Utilisateur               | Appli                | Administrateur              | Conformément      | LEA                |
-| Stratégie de rétention      | Facultatif           | Oui                 | Oui                 | Oui              | Oui                |
+| Propriétaire de stockage          | Utilisateur               | Appli                | Administrateur              | Conformité      | LEA                |
+| Notification requise ? | Oui                | Oui                | Oui                | Oui             | Non                 |
+| Propriétaire de l’accès           | Utilisateur               | Appli                | Administrateur              | Conformité      | LEA                |
+| Stratégie de rétention      | Facultatif           | Oui                | Oui                | Oui             | Oui                |
 
 Teams fournit différentes fonctionnalités pour un enregistrement [<span class="underline">pratique</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) et opérationnel pour les réunions et les événements en direct. L’enregistrement d’organisation implique la possibilité pour les organisations d’adopter des équipes aux fins d’appel et de réunions pour stipuler, par le biais d’une politique d’administration, l’enregistrement et la conservation automatiques des appels et des réunions en ligne conformément aux exigences d’entreprise ou de réglementation pertinentes. Les utilisateurs qui se trouvent dans le cadre de cette stratégie seront avertis que leurs interactions numériques avec Teams, mais ne seront pas en mesure de désactiver l’enregistrement et ne pourront pas accéder à l’enregistrement une fois que l’interaction se termine. L’enregistrement fait partie de l’archive d’organisation disponible pour la conformité et le personnel légal pour la découverte électronique, la conservation légale et les autres usages de rétention de l’entreprise.
 

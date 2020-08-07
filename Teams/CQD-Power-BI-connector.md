@@ -1,7 +1,7 @@
 ---
 title: Installer le connecteur Power BI pour utiliser des modèles de requête bord
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installation de Power BI Connector pour utiliser les modèles de requête de tableau de bord de qualité d’appel (bord)
-ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506167"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584053"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 

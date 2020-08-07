@@ -2,7 +2,7 @@
 title: Gérer de grandes équipes dans Microsoft teams-meilleures pratiques
 ms.reviewer: abgupta
 author: lolaj
-ms.author: lolaj
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d939b4be4fcd5f3a1045f2f9adde750197b92f29
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 90345578ceb6bbf8d8752b561511d8df85023bf1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638904"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582661"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Gérer de grandes équipes dans Microsoft teams-meilleures pratiques
 ======================================================
@@ -83,7 +83,7 @@ Les mentions d’équipe et de canal peuvent être utilisées pour attirer l’a
 
 Les propriétaires d’équipe peuvent activer la modération dans un canal afin de contrôler qui peut lancer de nouvelles publications et répondre aux publications de ce canal. Lorsque vous configurez la modération, vous pouvez choisir un ou plusieurs membres de l’équipe à utiliser en tant que modérateurs. Par défaut, les propriétaires d’équipe sont modérateurs. Pour plus d’informations, reportez-vous à [configurer et gérer la modération de canal](manage-channel-moderation-in-teams.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Recommandations en matière d’organisation des équipes](best-practices-organizing.md)
 - [Créer une équipe à l’échelle de l’Organisation](create-an-org-wide-team.md)

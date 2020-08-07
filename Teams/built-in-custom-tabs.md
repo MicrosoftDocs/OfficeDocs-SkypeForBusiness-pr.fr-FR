@@ -1,7 +1,7 @@
 ---
 title: Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824692"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581355"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -41,7 +41,7 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
     ![Capture d’écran des onglets d’une discussion.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Les propriétaires et les membres de l’équipe peuvent ajouter d’autres onglets à un canal ou une conversation en cliquant sur **Ajouter une** ![capture d’écran du bouton Ajouter un onglet avec le signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la discussion.
+- Les propriétaires et les membres de l’équipe peuvent ajouter d’autres onglets à un canal ou une conversation en cliquant sur **Ajouter une** ![ capture d’écran du bouton Ajouter un onglet avec le signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la discussion.
 
 - Les fichiers Excel, PowerPoint, Word et PDF doivent être téléchargés sur l’onglet **fichiers** pour pouvoir être convertis en onglets. Tout fichier téléchargé existant peut être converti en un onglet d’un simple clic, comme illustré ci-dessous.
 

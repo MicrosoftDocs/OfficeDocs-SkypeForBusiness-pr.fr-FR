@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522901"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588288"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>Utiliser NDI dans Microsoft teams
 
@@ -40,7 +40,7 @@ NDI est limité à un réseau local et ne doit être considéré qu’une partie
 
 L’activation de NDI nécessite deux étapes.
 
-1. L’administrateur client doit activer l’indicateur de fonctionnalité enableStreamingCallsOverNdi.
+1. L’administrateur client doit activer la propriété « AllowNDIStreaming » dans CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,13 +54,13 @@ L’image ci-après illustre le message d’une bannière qu’un utilisateur vo
 
 ![Image de la bannière NDI qui s’affiche dans une réunion Teams.](media/NDI-disclosure.png)
 
-La bannière comporte un lien vers la [politique de confidentialité Microsoft](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi).
+La bannière comporte un lien vers la [politique de confidentialité Microsoft](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Paramètres régionaux et types d’utilisateurs pris en charge
 
 NDI est pris en charge dans tous les pays/régions. Les utilisateurs suivants sont pris en charge dans une réunion NDI :
 
-- In-client-support complet, fourni en fonction de la sonnerie/IDClient/Id_utilisateur (gérée par la stratégie de réunion + indicateur de fonctionnalité)
+- In-client-support complet, fourni en fonction de sonnerie/IDClient/Id_utilisateur (géré par la stratégie de réunion)
 - Federated-non (même lorsqu’ils ont NDI)<sup>1</sup>
 - Freemium-non (valeur par défaut)
 - Anonymat-non (valeur par défaut)

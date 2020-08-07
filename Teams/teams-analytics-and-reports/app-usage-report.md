@@ -1,7 +1,7 @@
 ---
 title: Rapport sur l’utilisation des applications Microsoft teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport utilisation des applications
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 91af37ed9c19a1d3e8d32cdf296cf32e90818564
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938203"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583793"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Rapport sur l’utilisation des applications Microsoft teams
 

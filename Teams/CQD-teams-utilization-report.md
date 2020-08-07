@@ -1,7 +1,7 @@
 ---
 title: Afficher l’utilisation de Microsoft teams dans Power BI à l’aide de données bord
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez les rapports Power BI d’utilisation des équipes pour accéder aux données de tableau de bord de qualité des appels de Microsoft Teams (bord) pour suivre l’utilisation de Microsoft teams au sein de votre organisation.
-ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085580"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581545"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Afficher l’utilisation de Microsoft teams dans Power BI à l’aide de données bord
 

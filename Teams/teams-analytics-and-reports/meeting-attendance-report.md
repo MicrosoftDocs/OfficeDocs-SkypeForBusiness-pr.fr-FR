@@ -1,7 +1,7 @@
 ---
 title: Rapport de présence de la réunion Microsoft teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Obtenez un rapport de participation à une réunion à partir d’�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b3c7a5fd0bdee38a40ea2ab78afb8af5fd1c616e
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 7a048b3a334f9a70273c7a1b39f888247dbb9596
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256577"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583783"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Rapport de présence de la réunion Microsoft teams
 

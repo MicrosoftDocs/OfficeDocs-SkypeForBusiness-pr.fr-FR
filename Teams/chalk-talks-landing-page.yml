@@ -7,8 +7,8 @@ metadata:
   description: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. À l’aide d’experts en matière d’expertise, ces ateliers interactifs en ligne vous aideront à utiliser des informations pour améliorer la mise en œuvre de votre équipe et fournir des valeurs supplémentaires aux utilisateurs finaux. Cliquez sur un titre d’atelier ci-dessous pour afficher les dates et heures disponibles, et inscrivez-vous dès aujourd’hui ! Cliquez sur un titre d’atelier pour vous inscrire.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
@@ -25,12 +25,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902348"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583463"
 productDirectory:
   items:
   - title: Accéder aux équipes--zéro à la production

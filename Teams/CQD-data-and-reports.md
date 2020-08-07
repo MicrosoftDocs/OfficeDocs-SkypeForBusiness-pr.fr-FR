@@ -1,7 +1,7 @@
 ---
 title: Données et rapports dans le tableau de bord de qualité des appels (bord)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et les rapports disponibles dans le tableau de bord de qualité des appels Microsoft (bord).
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372163"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583091"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels (bord)
 
@@ -123,18 +123,18 @@ Si vous souhaitez utiliser Power BI pour analyser vos données bord, lisez [Util
 |Fonctionnalité|Rapports de synthèse|Rapports détaillés|
 |:--- |:--- |:--- |
 |Métrique du partage d’application | Non | Oui |
-|Support des informations sur le bâtiment du client | Oui | Oui  |
+|Support des informations sur le bâtiment du client | Oui | Oui |
 |Support technique des informations de point de terminaison client | Uniquement dans <span> CQD.Teams.Microsoft.com<span/> | Uniquement dans <span> CQD.Teams.Microsoft.com<span/> |
 |Prise en charge de l’analyse approfondie   | Non   | Oui   |
 |Mesures de fiabilité des médias   | Non   | Oui   |
-|Rapports prêts à l’emploi   | Oui   | Oui    |
-|Présentation des rapports   | Oui   | Oui    |
+|Rapports prêts à l’emploi   | Oui   | Oui   |
+|Présentation des rapports   | Oui   | Oui   |
 |Ensemble de rapports par utilisateur   | Non   | Oui   |
 |Personnalisation d’un ensemble de rapports (ajout, suppression, modification des rapports)   | Non   | Oui   |
 |Métriques de partage d’écran vidéo   | Non   | Oui   |
 |Métriques vidéo   | Non   | Oui   |
 |Volume de données disponible   | 12 derniers mois   | 12 derniers mois   |
-|Données de Microsoft teams   | Oui   | Oui    |
+|Données de Microsoft teams   | Oui   | Oui   |
 | | | |
 
 

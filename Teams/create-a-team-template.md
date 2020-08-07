@@ -1,5 +1,5 @@
 ---
-title: Créer un modèle d’équipe dans Microsoft teams
+title: Créer un modèle d’équipe personnalisé dans Microsoft teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment créer un modèle d’équipe dans Microsoft Teams.
+description: Découvrez comment créer un modèle d’équipe personnalisé dans Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,16 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 28f85158662c1c9da2cd6411bc5c1f79523a4693
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506381"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583693"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 
 Un modèle d’équipe personnalisé est une structure d’équipe prédéfinie avec un ensemble de canaux, d’onglets et d’applications que vous pouvez développer pour vous aider à créer rapidement un espace de collaboration adéquat. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
 
@@ -66,6 +68,6 @@ Votre nouveau modèle s’affiche dans la liste **modèles d’équipe** . Le mo
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Commencer à utiliser les modèles teams dans le centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
-- [Créer une équipe à partir d’une équipe existante](create-team-from-existing-team.md)
-- [Créer une équipe à partir d’un modèle d’équipe existant](modify-existing-team-template.md)
+- [Commencer à utiliser les modèles d’équipe dans le centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
+- [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)
+- [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](create-template-from-existing-template.md)

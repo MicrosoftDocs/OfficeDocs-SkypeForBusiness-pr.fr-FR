@@ -1,8 +1,8 @@
 ---
 title: Créer des équipes du gestionnaire de personnes dans Microsoft teams
 ms.reviewer: pbethi
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6cd6ed74bebd0cbd729b828c152b9f04d1fc1f
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796200"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583673"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Créer des équipes du gestionnaire de personnes dans Microsoft teams
 
@@ -30,9 +30,9 @@ Lorsque vous déployez Microsoft teams au lieu d’un « ardoise vierge » (sa
 
 ## <a name="how-to-use-the-powershell-script"></a>Utiliser le script PowerShell 
 
-Commencez par exécuter les [responsables d’exportation et leurs scripts de direction](scripts/powershell-script-create-teams-from-managers-export-managers.md) (ce qui suppose que vous avez déjà exécuté les modules [AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) et [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell). Les *gestionnaires d’exportation et leurs* scripts de direction créent un fichier délimité par des tabulations (ExportedManagerDirects. txt) qui répertorie tous les responsables avec leurs rapports directs. 
+Commencez par exécuter les [responsables d’exportation et leurs scripts de direction](scripts/powershell-script-create-teams-from-managers-export-managers.md) (ce qui suppose que vous avez déjà exécuté les modules [AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) et [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell). Les *gestionnaires d’exportation et leurs* scripts de direction créent un fichier délimité par des tabulations (ExportedManagerDirects.txt) qui recense tous les responsables avec leurs rapports directs. 
 
-Ensuite, exécutez le [script créer de nouvelles équipes du gestionnaire de personnes](scripts/powershell-script-create-teams-from-managers-new-teams.md). Ce script lit le fichier ExportedManagerDirects. txt et crée une équipe pour chaque responsable, avec ses rapports directs en tant que membres. Si un responsable ou une direction n’est pas activé pour Teams, le script les ignore et ne crée aucune équipe. (Consultez le rapport, puis relancez le script une fois que vous avez activé les équipes pour toute personne qui en a besoin. Le script ne crée pas de deuxième équipe pour les gestionnaires pour lesquels il a déjà créé une équipe.)
+Ensuite, exécutez le [script créer de nouvelles équipes du gestionnaire de personnes](scripts/powershell-script-create-teams-from-managers-new-teams.md). Ce script lit le fichier ExportedManagerDirects.txt et crée une équipe pour chaque responsable, avec ses rapports directs en tant que membres. Si un responsable ou une direction n’est pas activé pour Teams, le script les ignore et ne crée aucune équipe. (Consultez le rapport, puis relancez le script une fois que vous avez activé les équipes pour toute personne qui en a besoin. Le script ne crée pas de deuxième équipe pour les gestionnaires pour lesquels il a déjà créé une équipe.)
 
 S’il s’agit d’une équipe, le script crée une chaîne générale et « pour plaisir ». 
 
@@ -42,7 +42,7 @@ S’il s’agit d’une équipe, le script crée une chaîne générale et « p
 
 - Consultez la nouvelle application de communications de crise en lisant ce 8 mars, billet de blog 2020 : [coordonner les communications de crise à l’aide de Microsoft teams + Power Platform](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Recommandations en matière d’organisation des équipes](best-practices-organizing.md)
 

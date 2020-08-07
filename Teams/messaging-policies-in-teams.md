@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de messagerie dans Teams
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les stratégies de messagerie et savoir comment les utiliser pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042976"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583291"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 

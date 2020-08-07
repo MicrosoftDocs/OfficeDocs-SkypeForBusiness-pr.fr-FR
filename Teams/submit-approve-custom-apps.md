@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées envoyées à l’aide de l’API de soumission d’applications teams dans Microsoft Teams.
-ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 7168a6cf531890a8e942153cc4d214085d6bc63f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552600"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583503"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée soumise par le biais de l’API de soumission d’applications teams
 
@@ -87,6 +87,12 @@ Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l�
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Épingler et installer l’application pour détecter les utilisateurs
 
 Par défaut, pour que les utilisateurs puissent trouver l’application, ils doivent accéder au magasin d’applications de votre organisation et rechercher celles-ci. Pour permettre aux utilisateurs d’accéder facilement à l’application, vous pouvez épingler l’application à la barre de l’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et attribuez-la à des utilisateurs. Pour en savoir plus, voir <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">gérer les stratégies de configuration des applications dans Microsoft teams</a>.
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>Effectuer une recherche dans le journal d’audit pour les événements d’application teams
+
+Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité des applications teams au sein de votre organisation. Pour en savoir plus sur la façon d’effectuer une recherche dans le journal d’audit et d’afficher la liste des activités d’équipe qui sont enregistrées dans le journal d’audit, voir <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">Rechercher des événements dans le journal d’audit dans teams</a>.
+
+Pour pouvoir effectuer une recherche dans le journal d’audit, vous devez d’abord activer l’audit dans le <a href="https://protection.office.com" target="_blank">Centre de sécurité & conformité</a>. Pour plus d’informations, voir <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">activer ou désactiver la recherche dans le journal d’audit</a>. Gardez à l’esprit que les données d’audit sont uniquement disponibles à partir du point d’activation de l’audit.
 
 ## <a name="discover-and-adopt"></a>Découvrir et adopter
 

@@ -1,7 +1,7 @@
 ---
 title: Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: Découvrez comment utiliser les rôles d’administrateur pour désigner des administrateurs qui ont besoin d’un niveau d’accès différent pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 4f9059815e61ff0343f909ef76d03abf904c8bd4
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229040"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583533"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
 

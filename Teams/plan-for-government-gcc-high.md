@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Government-déploiements de très haute qualité
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d478d91c256661e493005859786606bdb2fe1a1c
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 890d0c1a7419109e4fe29a1742e84b25ea5e222c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665866"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581225"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plan pour Office 365 Government-déploiements de niveau supérieur
 

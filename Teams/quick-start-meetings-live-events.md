@@ -3,8 +3,8 @@ title: 'Démarrage rapide pour les administrateurs : réunions et évènements 
 ms.reviewer: ''
 description: Prise en main rapide des réunions et événements en direct dans Microsoft Teams.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb91032689ffccc5696d60e44e52e72d5f4f067
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889983"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581145"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 

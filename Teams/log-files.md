@@ -1,8 +1,8 @@
 ---
 title: Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 ms.reviewer: tejeshs
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085750"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582107"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================

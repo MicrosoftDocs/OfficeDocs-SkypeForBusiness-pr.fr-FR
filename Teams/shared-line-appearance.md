@@ -1,7 +1,7 @@
 ---
 title: Mode partage de lignes dans Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: En savoir plus sur l’envoi de courriers électroniques à vos utilisateurs à l’aide de leurs informations de conférence audio dans Microsoft Teams.
-ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125977"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583833"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -59,14 +59,14 @@ L’apparence des lignes partagées est actuellement prise en charge par les app
 
 | Fonctionnalité | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Configurer la délégation | Oui  | Oui  | Oui | Non | Oui |
-| Recevoir des appels au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui  |
-| Appeler un numéro de téléphone pour le compte d’une autre | Oui  | Oui  | Oui  | Oui  | Oui  |
-| Appeler un utilisateur de teams au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui  |
-| Voir la vue d’administration des lignes partagées | Oui  | Oui  | Oui | Non | Non |
-| Voir la vue d’administration des activités d’appel du responsable | Oui  | Oui  | Oui | Non | Non |
-| Afficher le mode responsable des délégués | Oui  | Oui  | Oui | Non | Non |
-| L’administrateur ou le responsable peut mettre en attente ou reprendre | Oui  | Oui  | Oui | Non | Non |
+| Configurer la délégation | Oui | Oui | Oui | Non | Oui |
+| Recevoir des appels au nom d’un autre | Oui | Oui | Oui | Oui | Oui |
+| Appeler un numéro de téléphone pour le compte d’une autre | Oui | Oui | Oui | Oui | Oui |
+| Appeler un utilisateur de teams au nom d’un autre | Oui | Oui | Oui | Oui | Oui |
+| Voir la vue d’administration des lignes partagées | Oui | Oui | Oui | Non | Non |
+| Voir la vue d’administration des activités d’appel du responsable | Oui | Oui | Oui | Non | Non |
+| Afficher le mode responsable des délégués | Oui | Oui | Oui | Non | Non |
+| L’administrateur ou le responsable peut mettre en attente ou reprendre | Oui | Oui | Oui | Non | Non |
 
 ## <a name="limitations"></a>Conditions
 
