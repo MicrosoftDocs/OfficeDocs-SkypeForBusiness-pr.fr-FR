@@ -1,7 +1,7 @@
 ---
 title: Configurer le partage du bureau dans Microsoft Teams
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -17,61 +17,61 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552590"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581745"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a><span data-ttu-id="7830b-103">Configurer le partage du bureau dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7830b-103">Configure desktop sharing in Microsoft Teams</span></span>
+<a name="configure-desktop-sharing-in-microsoft-teams"></a><span data-ttu-id="87b4b-103">Configurer le partage du bureau dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="87b4b-103">Configure desktop sharing in Microsoft Teams</span></span>
 ============================================
 
-<span data-ttu-id="7830b-104">Le partage de bureau permet aux utilisateurs d'afficher un écran ou une application pendant une réunion ou une conversation.</span><span class="sxs-lookup"><span data-stu-id="7830b-104">Desktop sharing lets users present a screen or app during a meeting or chat.</span></span> <span data-ttu-id="7830b-105">Les administrateurs peuvent configurer le partage d’écran dans Microsoft Teams pour autoriser les utilisateurs à partager l'ensemble d'un écran, d'une application ou d'un fichier.</span><span class="sxs-lookup"><span data-stu-id="7830b-105">Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file.</span></span> <span data-ttu-id="7830b-106">Vous pouvez permettre aux utilisateurs d’attribuer ou de demander le contrôle, d'autoriser le partage PowerPoint, d'ajouter un tableau blanc et d'autoriser les notes partagées.</span><span class="sxs-lookup"><span data-stu-id="7830b-106">You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes.</span></span> <span data-ttu-id="7830b-107">Vous pouvez également préciser si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé.</span><span class="sxs-lookup"><span data-stu-id="7830b-107">You can also configure whether anonymous or external users can request control of the shared screen.</span></span>
+<span data-ttu-id="87b4b-104">Le partage de bureau permet aux utilisateurs d'afficher un écran ou une application pendant une réunion ou une conversation.</span><span class="sxs-lookup"><span data-stu-id="87b4b-104">Desktop sharing lets users present a screen or app during a meeting or chat.</span></span> <span data-ttu-id="87b4b-105">Les administrateurs peuvent configurer le partage d’écran dans Microsoft Teams pour autoriser les utilisateurs à partager l'ensemble d'un écran, d'une application ou d'un fichier.</span><span class="sxs-lookup"><span data-stu-id="87b4b-105">Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file.</span></span> <span data-ttu-id="87b4b-106">Vous pouvez permettre aux utilisateurs d’attribuer ou de demander le contrôle, d'autoriser le partage PowerPoint, d'ajouter un tableau blanc et d'autoriser les notes partagées.</span><span class="sxs-lookup"><span data-stu-id="87b4b-106">You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes.</span></span> <span data-ttu-id="87b4b-107">Vous pouvez également préciser si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé.</span><span class="sxs-lookup"><span data-stu-id="87b4b-107">You can also configure whether anonymous or external users can request control of the shared screen.</span></span>
 
-<span data-ttu-id="7830b-108">Pour configurer le partage d’écran, vous créez une stratégie de réunion, puis vous l’attribuez aux utilisateurs que vous souhaitez gérer.</span><span class="sxs-lookup"><span data-stu-id="7830b-108">To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.</span></span>
+<span data-ttu-id="87b4b-108">Pour configurer le partage d’écran, vous créez une stratégie de réunion, puis vous l’attribuez aux utilisateurs que vous souhaitez gérer.</span><span class="sxs-lookup"><span data-stu-id="87b4b-108">To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.</span></span>
 
-<span data-ttu-id="7830b-109">**Dans le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/)**</span><span class="sxs-lookup"><span data-stu-id="7830b-109">**In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/)**</span></span>
+<span data-ttu-id="87b4b-109">**Dans le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/)**</span><span class="sxs-lookup"><span data-stu-id="87b4b-109">**In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/)**</span></span>
 
-1. <span data-ttu-id="7830b-110">Sélectionnez **Réunions** > **Stratégies de réunion**.</span><span class="sxs-lookup"><span data-stu-id="7830b-110">Select **Meetings** > **Meeting policies**.</span></span>
+1. <span data-ttu-id="87b4b-110">Sélectionnez **Réunions** > **Stratégies de réunion**.</span><span class="sxs-lookup"><span data-stu-id="87b4b-110">Select **Meetings** > **Meeting policies**.</span></span>
 
     ![Capture d’écran affichant les stratégies de Réunion sélectionnées](media/configure-desktop-sharing-image1.png)
 
-2. <span data-ttu-id="7830b-112">Sur la page **Stratégies de réunion**, sélectionnez **Nouvelle stratégie**.</span><span class="sxs-lookup"><span data-stu-id="7830b-112">On the **Meeting policies** page, select **New policy**.</span></span>
+2. <span data-ttu-id="87b4b-112">Sur la page **Stratégies de réunion**, sélectionnez **Nouvelle stratégie**.</span><span class="sxs-lookup"><span data-stu-id="87b4b-112">On the **Meeting policies** page, select **New policy**.</span></span>
 
     ![Capture d’écran affichant le message des stratégies de Réunion](media/configure-desktop-sharing-image2.png)
 
-3. <span data-ttu-id="7830b-114">Donnez un titre unique à votre stratégie, puis entrez une brève description.</span><span class="sxs-lookup"><span data-stu-id="7830b-114">Give your policy a unique title and enter a brief description.</span></span>
+3. <span data-ttu-id="87b4b-114">Donnez un titre unique à votre stratégie, puis entrez une brève description.</span><span class="sxs-lookup"><span data-stu-id="87b4b-114">Give your policy a unique title and enter a brief description.</span></span>
 
-4. <span data-ttu-id="7830b-115">Sous le **Partage de contenu**, choisissez un **Mode de partage d’écran** dans la liste déroulante :</span><span class="sxs-lookup"><span data-stu-id="7830b-115">Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:</span></span>
+4. <span data-ttu-id="87b4b-115">Sous le **Partage de contenu**, choisissez un **Mode de partage d’écran** dans la liste déroulante :</span><span class="sxs-lookup"><span data-stu-id="87b4b-115">Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:</span></span>
 
-   - <span data-ttu-id="7830b-116">**Écran complet** : permet au utilisateurs de partager la totalité de leur bureau.</span><span class="sxs-lookup"><span data-stu-id="7830b-116">**Entire screen** – lets users share their entire desktop.</span></span>
-   - <span data-ttu-id="7830b-117">**Application Unique** : permet aux utilisateurs de limiter le partage d’écran à une seule application active.</span><span class="sxs-lookup"><span data-stu-id="7830b-117">**Single application** – lets users limit screen sharing to a single active application.</span></span>
-   - <span data-ttu-id="7830b-118">**Désactivé** : désactive le partage d’écran.</span><span class="sxs-lookup"><span data-stu-id="7830b-118">**Disabled** – Turns off screen sharing.</span></span>
+   - <span data-ttu-id="87b4b-116">**Écran complet** : permet au utilisateurs de partager la totalité de leur bureau.</span><span class="sxs-lookup"><span data-stu-id="87b4b-116">**Entire screen** – lets users share their entire desktop.</span></span>
+   - <span data-ttu-id="87b4b-117">**Application Unique** : permet aux utilisateurs de limiter le partage d’écran à une seule application active.</span><span class="sxs-lookup"><span data-stu-id="87b4b-117">**Single application** – lets users limit screen sharing to a single active application.</span></span>
+   - <span data-ttu-id="87b4b-118">**Désactivé** : désactive le partage d’écran.</span><span class="sxs-lookup"><span data-stu-id="87b4b-118">**Disabled** – Turns off screen sharing.</span></span>
 
     ![Capture d’écran affichant les options de mode de partage](media/configure-desktop-sharing-image3.png)
 
-5. <span data-ttu-id="7830b-120">Activer ou désactiver les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="7830b-120">Turn the following settings on or off:</span></span>
+5. <span data-ttu-id="87b4b-120">Activer ou désactiver les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="87b4b-120">Turn the following settings on or off:</span></span>
 
-    - <span data-ttu-id="7830b-121">**Autoriser un participant à donner ou demander le contrôle** : permet aux membres de l’équipe de donner ou de demander le contrôle du bureau ou de l'application du présentateur.</span><span class="sxs-lookup"><span data-stu-id="7830b-121">**Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.</span></span>
-    - <span data-ttu-id="7830b-122">**Autoriser un participant externe à attribuer ou demander le contrôle** – il s’agit d’une stratégie par utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7830b-122">**Allow an external participant to give or request control** – This is a per-user policy.</span></span> <span data-ttu-id="7830b-123">La présence d’une organisation pour un utilisateur ne contrôle pas ce qu’il est possible de faire, quels que soient les participants externes qu’il a définis.</span><span class="sxs-lookup"><span data-stu-id="7830b-123">Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set.</span></span> <span data-ttu-id="7830b-124">Ce paramètre détermine si les participants externes peuvent recevoir le contrôle ou demander le contrôle de l’écran du partage, en fonction de ce que le partage a défini dans les stratégies de la réunion de leur organisation.</span><span class="sxs-lookup"><span data-stu-id="7830b-124">This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.</span></span>
-    - <span data-ttu-id="7830b-125">**Autoriser le partage de PowerPoint** : permet aux utilisateurs de créer des réunions autorisant le téléchargement et le partage de présentations PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="7830b-125">**Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.</span></span>
-    - <span data-ttu-id="7830b-126">**Autoriser le tableau blanc** : permet aux utilisateurs de partager un tableau blanc.</span><span class="sxs-lookup"><span data-stu-id="7830b-126">**Allow whiteboard** – lets users share a whiteboard.</span></span>
-    - <span data-ttu-id="7830b-127">**Autoriser les notes partagées** : permet aux utilisateurs de prendre des notes partagées.</span><span class="sxs-lookup"><span data-stu-id="7830b-127">**Allow shared notes** – lets users take shared notes.</span></span>
+    - <span data-ttu-id="87b4b-121">**Autoriser un participant à donner ou demander le contrôle** : permet aux membres de l’équipe de donner ou de demander le contrôle du bureau ou de l'application du présentateur.</span><span class="sxs-lookup"><span data-stu-id="87b4b-121">**Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.</span></span>
+    - <span data-ttu-id="87b4b-122">**Autoriser un participant externe à attribuer ou demander le contrôle** – il s’agit d’une stratégie par utilisateur.</span><span class="sxs-lookup"><span data-stu-id="87b4b-122">**Allow an external participant to give or request control** – This is a per-user policy.</span></span> <span data-ttu-id="87b4b-123">La présence d’une organisation pour un utilisateur ne contrôle pas ce qu’il est possible de faire, quels que soient les participants externes qu’il a définis.</span><span class="sxs-lookup"><span data-stu-id="87b4b-123">Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set.</span></span> <span data-ttu-id="87b4b-124">Ce paramètre détermine si les participants externes peuvent recevoir le contrôle ou demander le contrôle de l’écran du partage, en fonction de ce que le partage a défini dans les stratégies de la réunion de leur organisation.</span><span class="sxs-lookup"><span data-stu-id="87b4b-124">This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.</span></span>
+    - <span data-ttu-id="87b4b-125">**Autoriser le partage de PowerPoint** : permet aux utilisateurs de créer des réunions autorisant le téléchargement et le partage de présentations PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="87b4b-125">**Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.</span></span>
+    - <span data-ttu-id="87b4b-126">**Autoriser le tableau blanc** : permet aux utilisateurs de partager un tableau blanc.</span><span class="sxs-lookup"><span data-stu-id="87b4b-126">**Allow whiteboard** – lets users share a whiteboard.</span></span>
+    - <span data-ttu-id="87b4b-127">**Autoriser les notes partagées** : permet aux utilisateurs de prendre des notes partagées.</span><span class="sxs-lookup"><span data-stu-id="87b4b-127">**Allow shared notes** – lets users take shared notes.</span></span>
 
-6. <span data-ttu-id="7830b-128">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="7830b-128">Click **Save**.</span></span>
+6. <span data-ttu-id="87b4b-128">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="87b4b-128">Click **Save**.</span></span>
 
-## <a name="use-powershell-to-configure-shared-desktop"></a><span data-ttu-id="7830b-129">Utiliser PowerShell pour configurer le bureau partagé</span><span class="sxs-lookup"><span data-stu-id="7830b-129">Use PowerShell to configure shared desktop</span></span>
+## <a name="use-powershell-to-configure-shared-desktop"></a><span data-ttu-id="87b4b-129">Utiliser PowerShell pour configurer le bureau partagé</span><span class="sxs-lookup"><span data-stu-id="87b4b-129">Use PowerShell to configure shared desktop</span></span>
 
-<span data-ttu-id="7830b-130">Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) pour contrôler le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="7830b-130">You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing.</span></span> <span data-ttu-id="7830b-131">Définissez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="7830b-131">Set the following parameters:</span></span>
+<span data-ttu-id="87b4b-130">Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) pour contrôler le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="87b4b-130">You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing.</span></span> <span data-ttu-id="87b4b-131">Définissez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="87b4b-131">Set the following parameters:</span></span>
 
-- <span data-ttu-id="7830b-132">Description</span><span class="sxs-lookup"><span data-stu-id="7830b-132">Description</span></span>
-- <span data-ttu-id="7830b-133">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="7830b-133">ScreenSharingMode</span></span>
-- <span data-ttu-id="7830b-134">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="7830b-134">AllowParticipantGiveRequestControl</span></span>
-- <span data-ttu-id="7830b-135">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="7830b-135">AllowExternalParticipantGiveRequestControl</span></span>
-- <span data-ttu-id="7830b-136">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="7830b-136">AllowPowerPointSharing</span></span>
-- <span data-ttu-id="7830b-137">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="7830b-137">AllowWhiteboard</span></span>
-- <span data-ttu-id="7830b-138">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="7830b-138">AllowSharedNotes</span></span>
+- <span data-ttu-id="87b4b-132">Description</span><span class="sxs-lookup"><span data-stu-id="87b4b-132">Description</span></span>
+- <span data-ttu-id="87b4b-133">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="87b4b-133">ScreenSharingMode</span></span>
+- <span data-ttu-id="87b4b-134">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="87b4b-134">AllowParticipantGiveRequestControl</span></span>
+- <span data-ttu-id="87b4b-135">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="87b4b-135">AllowExternalParticipantGiveRequestControl</span></span>
+- <span data-ttu-id="87b4b-136">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="87b4b-136">AllowPowerPointSharing</span></span>
+- <span data-ttu-id="87b4b-137">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="87b4b-137">AllowWhiteboard</span></span>
+- <span data-ttu-id="87b4b-138">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="87b4b-138">AllowSharedNotes</span></span>
 
-<span data-ttu-id="7830b-139">[En savoir plus sur l’utilisation de l'applet de commande csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="7830b-139">[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="87b4b-139">[En savoir plus sur l’utilisation de l'applet de commande csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="87b4b-139">[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span></span>
 
