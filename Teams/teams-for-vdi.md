@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028160"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597114"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -31,7 +31,7 @@ Cet article décrit les exigences et limitations relatives à l’utilisation de
 
 La technologie VDI (Virtual Desktop Infrastructure) est une technologie de virtualisation qui héberge un système d’exploitation et des applications de bureau sur un serveur centralisé dans un centre de données. Cela permet d’offrir une expérience de bureau entièrement personnalisée aux utilisateurs dotés d’une source centralisée entièrement sécurisée et compatible.
 
-Microsoft teams dans un environnement virtualisé prend en charge les discussions et la collaboration. La plate-forme Citrix, les fonctionnalités d’appel et de réunion sont également prises en charge.
+Microsoft teams dans un environnement virtualisé prend en charge les discussions et la collaboration. Outre les plates-formes de bureau virtuel ou Citrix Windows, les fonctionnalités d’appel et de réunion sont également prises en charge.
 
 Teams dans un environnement virtualisé prend en charge plusieurs configurations. Cela inclut les modes VDI, dédié, partagé, permanent et non persistant. Les fonctionnalités sont en développement continu et sont ajoutées régulièrement, et les fonctionnalités seront développées dans les prochains mois et années.
 
@@ -54,15 +54,20 @@ L’utilisation des équipes dans un environnement virtualisé nécessite les co
 
 L’application de bureau teams a été validée avec les principaux fournisseurs de solutions de virtualisation. Avec plusieurs fournisseurs de marché, nous vous conseillons de consulter le fournisseur de votre solution de virtualisation pour vérifier que vous respectez la configuration minimale requise.
   
-Pour l’instant, les équipes sur VDI avec l’optimisation de l’audio/vidéo (AV) sont certifiées avec Citrix. Passez en revue les informations de cette section pour vous assurer que vous répondez à la configuration requise pour Citrix et Teams.
+Pour l’instant, les équipes sur VDI avec l’optimisation de l’audio/vidéo (AV) sont certifiées avec la version de bureau virtuelle et Citrix de Windows. Passez en revue les informations de cette section pour vérifier que vous respectez toutes les conditions requises pour les fonctionnalités appropriées.
 
-### <a name="partners-certified-for-teams"></a>Partenaires certifiés pour teams
+### <a name="platforms-certified-for-teams"></a>Plates-formes certifiées pour teams
 
-Les partenaires suivants disposent de solutions d’infrastructure de bureau virtuel pour Teams.
+Les plateformes suivantes disposent de solutions d’infrastructure de bureau virtuel pour Teams.
 
-|Partenaire|Solution de partenariat|
+|Plateforme|Solution|
 |----|---|
-|![Le logo représentant Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Applications virtuelles et ordinateurs de bureau Citrix</a> |
+|![Logo représentant Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Bureau virtuel Windows</a> |
+|![Le logo représentant Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Applications virtuelles et ordinateurs de bureau Citrix</a> |
+
+### <a name="windows-virtual-desktop"></a>Bureau virtuel Windows
+
+Le bureau virtuel Windows fournit une optimisation AV pour les équipes sur VDI. Pour plus d’informations et la configuration requise et l’installation, voir [utiliser teams sur le bureau virtuel Windows](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Configurations requises pour les applications virtuelles et les postes de travail Citrix
 
@@ -360,19 +365,19 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
 ### <a name="calling-and-meetings"></a>Appels et réunions
 
 - L’interopérabilité avec Skype entreprise est limité aux appels audio. Il n’y a pas de modalité vidéo.
-- L’interaction DTMF (multifrequency multifrequency) avec des systèmes de téléphonie n’est actuellement pas prise en charge.
 - La participation à des réunions d’équipes en tant qu’utilisateur anonyme n’est pas optimisée pour l’AV. L’utilisateur peut rejoindre la réunion et disposer d’une expérience non optimisée.
 - Un seul flux vidéo entrant est pris en charge dans les réunions ou les appels de groupe. Lorsque plusieurs personnes envoient de la vidéo, seule la vidéo dominante de haut-parleur est affichée à tout moment.
 - La résolution du flux vidéo entrant et sortant est limitée à la résolution 720p. Il s’agit d’une limitation WebRTC.
 - Un seul flux vidéo à partir d’un appareil photo ou d’un flux de partage d’écran entrant est pris en charge. Lorsque le partage d’écran est reçu, ce partage d’écran est affiché, au lieu de la vidéo de l’intervenant dominant.
 - Partage d’écran sortant :
-    - Le partage d’écran à partir de la conversation n’est pas pris en charge.
     - Le partage d’applications n’est pas pris en charge.
 - Donnez le contrôle et prenez le contrôle :
     - Non pris en charge lors d’une session de partage d’écran ou d’application.
     - Pris en charge lors d’une session de partage PowerPoint.
-- Lorsque le partage d’écran est configuré dans une configuration à plusieurs moniteurs, seul le moniteur principal est partagé.
-- La mise à l’échelle PPP élevée sur CWA n’est pas prise en charge.
+- Limitations de Citrix uniquement
+    - L’interaction DTMF (multifrequency multifrequency) avec des systèmes de téléphonie n’est actuellement pas prise en charge.
+    - Lorsque le partage d’écran est configuré dans une configuration à plusieurs moniteurs, seul le moniteur principal est partagé.
+    - La mise à l’échelle PPP élevée sur CWA n’est pas prise en charge.
 
 Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de support au sein de votre organisation](Known-issues.md).
 
@@ -382,7 +387,7 @@ Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de suppor
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

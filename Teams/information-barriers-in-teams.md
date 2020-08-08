@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572379"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592908"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -167,12 +167,12 @@ Pour le moment, les utilisateurs ont connaissance des éléments suivants si une
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Stratégies d’équipe et sites SharePoint
 
-Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à l’équipe pour l’interface des fichiers. L’accès à ce site SharePoint et aux fichiers respecte la préversion de l’organisation, c’est-à-dire que seuls les utilisateurs pour lesquels le segment IB correspond à une stratégie IB sont autorisés à y accéder. Même au moment du partage de fichiers, la stratégie IB est honorée.
+Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à Microsoft teams pour l’interface de fichiers. Par défaut, les stratégies de barrage d’information ne sont pas honorées sur ce site SharePoint et les fichiers. Pour activer les stratégies de cloisonnement des informations, l’administrateur a déjà rempli un formulaire, pour demander l’activation de stratégies IB sur SharePoint et OneDrive (voir la section *conditions préalables* dans la rubrique [barrières d’information](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Si la stratégie de protection des informations est activée dans SharePoint et OneDrive, les stratégies IB fonctionneront sur les sites SharePoint approvisionnés lors de la création d’une équipe à l’aide de Microsoft Teams.
 
-Par exemple : dans contoso Bank Corporation, l’utilisateur’Sesha@contosobank.onmicrosoft.com’appartient au segment bancaire d’investissement et l’utilisateur’Nikita@contosobank.onmicrosoft.com’appartient à un avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments.
+**Exemple de stratégies IB sur le site SharePoint d’une équipe**: dans la Banque bancaire de contoso, l’utilisateur « Sesha@contosobank.onmicrosoft.com » appartient au segment de banque d’investissement et l’utilisateur « Nikita@contosobank.onmicrosoft.com » appartient à la fonction d’avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments.
 Lorsque l’utilisateur Sesha crée une équipe pour un segment de services d’investissement, l’équipe et le site SharePoint qui la replaceront ne seront accessibles qu’aux utilisateurs de segments bancaires d’investissement. L’utilisateur Nikita ne peut pas accéder à ce site, même s’il possède le lien de site.
 
-Pour en savoir plus, cliquez [ici](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
+Pour plus d’informations, consultez l’article relatif aux [barrières d’information](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
