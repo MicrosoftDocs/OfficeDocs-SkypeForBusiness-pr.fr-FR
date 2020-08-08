@@ -4,7 +4,7 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 |Navigateur  |Appels :audio, vidéo et partage  |Réunions : audio, vidéo et partage<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
 |Internet Explorer 11     |Non pris en charge         |Les réunions ne sont prises en charge que si elles incluent des coordonnées PSTN. Pour participer à une réunion sur IE11 sans coordonnées PSTN, les utilisateurs doivent télécharger le client de bureau Teams.<br><br>Vidéo : non prise en charge.<br><br>Partage : partage entrant uniquement (non sortant)     |
-|Microsoft Edge, RS2 ou version ultérieure     |Entièrement pris en charge, sauf le partage sortant         |Entièrement pris en charge, sauf le partage sortant         |
+|Microsoft Edge, RS2 ou version ultérieure     |Entièrement pris en charge, sauf le partage sortant <sup>4</sup>         |Entièrement pris en charge, sauf le partage sortant         |
 |Microsoft Edge (basé sur Chromium), dernière version et les deux versions précédentes     | Entièrement pris en charge    |Entièrement pris en charge         |
 |Google Chrome, dernière version et les deux versions précédentes       |Entièrement pris en charge |Entièrement pris en charge <br> <br>Le partage est pris en charge sans plug-in ni extension sur Chrome version 72 ou ultérieure.       |
 |Safari 13+     |Les appels 1:1 ne sont pas pris en charge. Les appels de groupe sont pris en charge avec la prise en charge audio complète.<br><br>Vidéo : non prise en charge.<br><br>Partage : partage entrant uniquement (non sortant)         |Les réunions sont prises en charge avec la prise en charge audio complète.<br><br>Vidéo : non prise en charge.<br><br>Partage : partage entrant uniquement (non sortant)     |
@@ -16,6 +16,8 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 <sup>2</sup> Brouiller mon arrière-plan n’est pas disponible lorsque vous exécutez Teams dans un navigateur. Cette fonctionnalité est uniquement disponible dans le client de bureau Teams.
 
 <sup>3</sup> Les réunions Teams sur les navigateurs sont limitées à un flux vidéo entrant unique de l’orateur actif.
+
+<sup>4</sup> Edge RS2 ou version ultérieure ne prend pas en charge l’envoi de trafic audio et vidéo en temps réel via des proxies HTTP.
 
 > [!NOTE]
 > Tant qu’un système d’exploitation peut exécuter le navigateur pris en charge, Teams est également pris en charge sur des ordinateurs de bureau.. Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
