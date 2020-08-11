@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597114"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607093"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -31,7 +31,7 @@ Cet article décrit les exigences et limitations relatives à l’utilisation de
 
 La technologie VDI (Virtual Desktop Infrastructure) est une technologie de virtualisation qui héberge un système d’exploitation et des applications de bureau sur un serveur centralisé dans un centre de données. Cela permet d’offrir une expérience de bureau entièrement personnalisée aux utilisateurs dotés d’une source centralisée entièrement sécurisée et compatible.
 
-Microsoft teams dans un environnement virtualisé prend en charge les discussions et la collaboration. Outre les plates-formes de bureau virtuel ou Citrix Windows, les fonctionnalités d’appel et de réunion sont également prises en charge.
+Microsoft teams dans un environnement virtualisé prend en charge les discussions et la collaboration. Outre les plates-formes Windows Virtual Desktop, Citrix et VMware, les fonctionnalités d’appel et de réunion sont également prises en charge.
 
 Teams dans un environnement virtualisé prend en charge plusieurs configurations. Cela inclut les modes VDI, dédié, partagé, permanent et non persistant. Les fonctionnalités sont en développement continu et sont ajoutées régulièrement, et les fonctionnalités seront développées dans les prochains mois et années.
 
@@ -54,7 +54,7 @@ L’utilisation des équipes dans un environnement virtualisé nécessite les co
 
 L’application de bureau teams a été validée avec les principaux fournisseurs de solutions de virtualisation. Avec plusieurs fournisseurs de marché, nous vous conseillons de consulter le fournisseur de votre solution de virtualisation pour vérifier que vous respectez la configuration minimale requise.
   
-Pour l’instant, les équipes sur VDI avec l’optimisation de l’audio/vidéo (AV) sont certifiées avec la version de bureau virtuelle et Citrix de Windows. Passez en revue les informations de cette section pour vérifier que vous respectez toutes les conditions requises pour les fonctionnalités appropriées.
+Pour l’instant, les équipes sur VDI avec l’optimisation de l’audio/vidéo (AV) sont certifiées avec la version de bureau virtuelle de Windows, Citrix et VMware. Passez en revue les informations de cette section pour vérifier que vous respectez toutes les conditions requises pour les fonctionnalités appropriées.
 
 ### <a name="platforms-certified-for-teams"></a>Plates-formes certifiées pour teams
 
@@ -64,6 +64,7 @@ Les plateformes suivantes disposent de solutions d’infrastructure de bureau vi
 |----|---|
 |![Logo représentant Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Bureau virtuel Windows</a> |
 |![Le logo représentant Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Applications virtuelles et ordinateurs de bureau Citrix</a> |
+|![Le logo représentant VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">Horizon VMware</a> |
 
 ### <a name="windows-virtual-desktop"></a>Bureau virtuel Windows
 
@@ -76,6 +77,10 @@ Les applications virtuelles et ordinateurs de bureau Citrix (auparavant appelée
 Vous pouvez télécharger la dernière version des applications virtuelles et des bureaux sur [le site de téléchargement de Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (Vous devrez d’abord vous connecter.) Les composants nécessaires sont regroupés par défaut dans l' [application d’espace de travail Citrix (CWA)](https://www.citrix.com/downloads/workspace-app/) et l’agent de remise virtuel (VDA). Vous n’avez pas besoin d’installer d’autres composants ou plugin sur CWA ou sur VDA.
 
 Pour obtenir les dernières exigences relatives au serveur et au client, consultez [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>Espace de travail d’horizon VMware et configuration requise pour le Bureau
+
+VMware horizon fournit une prise en charge optimisée pour les équipes sur VDI pour une productivité accrue sur les ordinateurs de bureau virtuels. Vous pouvez télécharger la dernière version de VMware horizon sur la page [téléchargements de VMware](https://my.vmware.com/web/vmware/downloads/#all_products) .
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installation ou mise à jour de l’application de bureau teams sur VDI
 
@@ -197,24 +202,12 @@ Il existe de nombreuses configurations virtualisées, chacune ayant un focus dif
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>Équipes sur VDI avec les appels et les réunions
 
-En plus des discussions et de la collaboration, les équipes sur VDI dotées d’une prise en charge des appels et des réunions sont disponibles avec les plates-formes basées sur Citrix. Les fonctionnalités prises en charge sont basées sur la pile multimédia WebRTC et l’implémentation propre à Citrix. Le diagramme suivant fournit une vue d’ensemble de l’architecture.
+En plus des discussions et de la collaboration, les équipes sur VDI utilisant les appels et les réunions sont disponibles avec des plateformes de fournisseurs de virtualisation prises en charge. Les fonctionnalités prises en charge sont basées sur la mise en œuvre de la pile multimédia WebRTC et du fournisseur de virtualisation. Le diagramme suivant fournit une vue d’ensemble de l’architecture.
 
 ![Diagramme montrant les équipes dans l’architecture VDI](media/teams-on-vdi-architecture.png)
 
-Ces fonctionnalités d’appel et de réunion ne sont pas prises en charge :
-
-- Amélioration des services d’urgence
-- Boutons HID et contrôles LED entre l’application et les appareils teams
-- Effets et atténuation d’arrière-plan
-- Événements de diffusion/en temps réel
-- Routage basé sur l’emplacement (LBR)
-- Parcage d'appel
-- File d’attente d’appels
-
 > [!IMPORTANT]
-> Si vous disposez actuellement d’une équipe sans optimisation AV dans l’infrastructure VDI et que vous utilisez des fonctionnalités qui ne sont pas encore prises en charge pour l’optimisation (par exemple, donner et prendre le contrôle lors du partage d’une application), vous devez définir des stratégies Citrix pour désactiver la redirection d’équipes. Cela signifie que les sessions multimédias des équipes ne sont pas optimisées. Pour plus d’informations sur la façon de définir des stratégies pour désactiver la redirection d’équipes, voir ce [site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
-
-Nous travaillons actuellement pour ajouter des fonctionnalités d’appel et de réunion qui ne sont disponibles que dans les environnements non-VDI. Il peut s’agir de davantage de contrôle d’administration sur la qualité, de scénarios de partage d’écran supplémentaires et de fonctionnalités avancées récemment ajoutées à Teams. Contactez votre représentant pour en savoir plus sur les fonctionnalités à venir.
+> Si vous exécutez actuellement des équipes sans optimisation AV dans l’infrastructure VDI et que vous utilisez des fonctionnalités qui ne sont pas encore prises en charge pour l’optimisation (telles que l’octroi et la prise de contrôle lors du partage d’application), vous devez définir les stratégies du fournisseur de virtualisation pour désactiver la redirection d’équipes. Cela signifie que les sessions multimédias des équipes ne sont pas optimisées. Pour plus d’informations sur la façon de définir des stratégies pour désactiver la redirection d’équipes, contactez votre fournisseur de virtualisation.
 
 ### <a name="network-requirements"></a>Conditions de réseau requises
 
@@ -243,7 +236,7 @@ Les équipes sur le navigateur Chrome ne fournissent pas de remplacement pour l�
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams sur un VDI avec les discussions et la collaboration
 
-Si votre organisation veut uniquement utiliser les fonctionnalités de conversation et de collaboration dans Teams, vous pouvez définir des stratégies de niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion dans Teams. Ce niveau de fonctionnalité ne nécessite pas les applications virtuelles et les ordinateurs de bureau Citrix.
+Si votre organisation veut uniquement utiliser les fonctionnalités de conversation et de collaboration dans Teams, vous pouvez définir des stratégies de niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion dans Teams. 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Définir des stratégies pour désactiver les fonctionnalités d’appel et de réunion
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies de réunion, consultez la rubrique [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migration des équipes sur l’infrastructure VDI avec les discussions et la collaboration vers Citrix avec les appels et les réunions
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>Migration des équipes sur l’infrastructure VDI grâce aux discussions et à la collaboration pour optimiser les équipes grâce aux appels et aux réunions
 
-Si vous disposez d’une implémentation de teams sur VDI avec les fonctionnalités de conversation et de collaboration dans lesquelles vous avez défini des stratégies de niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion et que vous effectuez une migration vers Citrix avec l’optimisation AV, vous devez définir des stratégies pour activer les fonctionnalités d’appel et de réunion pour ces équipes sur les utilisateurs VDI.
+Si vous disposez d’une implémentation de teams sur VDI avec les fonctionnalités de conversation et de collaboration dans lesquelles vous avez défini des stratégies de niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion et que vous effectuez une migration à l’aide de l’optimisation AV, vous devez définir des stratégies pour activer les fonctionnalités d’appel et de réunion pour ces équipes sur les utilisateurs de VDI.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Définir des stratégies pour activer les fonctionnalités d’appel et de réunion
 
@@ -359,13 +352,28 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
 
 - Dans le cas d’une installation par ordinateur, teams sur VDI n’est pas automatiquement mis à jour de la même manière que les clients teams de l’infrastructure non VDI. Vous devez mettre à jour l’image de l’ordinateur virtuel en installant un nouveau MSI comme décrit dans la section [installation ou mise à jour de l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
 - Teams doit être déployée par l’utilisateur ou par machine. Le déploiement d’équipes pour le déploiement simultané par utilisateur et par ordinateur n’est pas pris en charge. Pour effectuer une migration à partir de l’une ou l’autre de ces modes par poste de passe, suivez la procédure de désinstallation et redéployez en mode.
-- Citrix ne prend pas en charge les clients MacOs et Linux pour le moment.
+- Pour le moment, les utilisateurs de bureau virtuel et de VMware ne prennent pas en charge les clients MacOS et Linux.
+- Citrix ne prend pas en charge les clients MacOs pour le moment.
 - Citrix ne prend pas en charge l’utilisation de proxys HTTP explicites définis sur un point de terminaison.
 
 ### <a name="calling-and-meetings"></a>Appels et réunions
 
+Les fonctionnalités d’appel et de réunion suivantes ne sont pas prises en charge :
+
+- Amélioration des services d’urgence
+- Boutons HID et contrôles LED entre l’application et les appareils teams
+- Effets et atténuation d’arrière-plan
+- Événements de diffusion/en temps réel
+- Routage basé sur l’emplacement (LBR)
+- Parcage d'appel
+- File d’attente d’appels
+
+> [!NOTE]
+> Nous travaillons actuellement pour ajouter des fonctionnalités d’appel et de réunion qui ne sont disponibles que dans les environnements non-VDI. Il peut s’agir de davantage de contrôle d’administration sur la qualité, de scénarios de partage d’écran supplémentaires et de fonctionnalités avancées récemment ajoutées à Teams. Contactez votre représentant pour en savoir plus sur les fonctionnalités à venir.
+
+Vous trouverez ci-après des problèmes connus et des limitations relatives aux appels et aux réunions :
+
 - L’interopérabilité avec Skype entreprise est limité aux appels audio. Il n’y a pas de modalité vidéo.
-- La participation à des réunions d’équipes en tant qu’utilisateur anonyme n’est pas optimisée pour l’AV. L’utilisateur peut rejoindre la réunion et disposer d’une expérience non optimisée.
 - Un seul flux vidéo entrant est pris en charge dans les réunions ou les appels de groupe. Lorsque plusieurs personnes envoient de la vidéo, seule la vidéo dominante de haut-parleur est affichée à tout moment.
 - La résolution du flux vidéo entrant et sortant est limitée à la résolution 720p. Il s’agit d’une limitation WebRTC.
 - Un seul flux vidéo à partir d’un appareil photo ou d’un flux de partage d’écran entrant est pris en charge. Lorsque le partage d’écran est reçu, ce partage d’écran est affiché, au lieu de la vidéo de l’intervenant dominant.
