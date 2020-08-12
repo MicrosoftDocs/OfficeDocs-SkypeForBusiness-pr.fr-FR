@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121374"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634610"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -189,6 +189,11 @@ Si votre organisation utilise l’application Shifts dans Microsoft Teams, vous 
 ## <a name="office-365-management-activity-api"></a>API activité de gestion d’Office 365
 
 Vous pouvez utiliser l’API activité de gestion d’Office 365 pour récupérer des informations sur les événements d’équipe. Pour en savoir plus sur le schéma de l’API activité de gestion pour Teams, voir [schéma d’équipe](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+
+
+## <a name="attribution-in-teams-audit-logs"></a>Attribution dans les journaux d’audit d’équipes
+
+Pour l’instant, il existe un problème connu relatif à l’attribution dans les journaux d’audit d’équipes et aux messages de contrôle : un propriétaire peut être mal attribué à la suppression ou à l’ajout d’utilisateurs. Cela se produit lorsque le changement intervient en dehors de teams. Dans ces cas, nous vous recommandons d’utiliser les [journaux d’audit d’Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="related-topics"></a>Voir aussi
 

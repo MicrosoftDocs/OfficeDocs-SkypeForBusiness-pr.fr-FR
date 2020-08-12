@@ -168,6 +168,7 @@
 
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gérer les stratégies de réunion](meeting-policies-in-teams.md)
+## [Supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs](meeting-policies-restricted-anonymous-access.md)
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)

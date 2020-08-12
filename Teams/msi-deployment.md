@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606920"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640829"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -44,7 +44,7 @@ Voici les liens vers les fichiers MSI :
 
 - Installez la version 64 bits d’équipe sur les systèmes d’exploitation 64 bits. Si vous essayez d’installer la version 64 bits d’équipe sur un système d’exploitation 32 bits, l’installation échoue et vous ne recevez pas de message d’erreur.
 
-- Si le locataire du client se trouve sur le GCCH ou DoD Cloud, le client doit définir le point de terminaison initial dans le registre en ajoutant la valeur **CloudType** à la **HKEY_CURRENT_USER clé \software\policies\microsoft\office\16.0\teams** du Registre. Le type pour **CloudType** est **DWORD** et les valeurs sont (0 = unset, 1 = commercial, 2 = GCC, * = GCCH, 4 = DoD). Définir le point de terminaison avec la clé de Registre restreint les équipes à se connecter au point de terminaison Cloud approprié pour la connectivité avant connexion avec Teams.
+- Si le locataire du client se trouve sur le GCCH ou DoD Cloud, le client doit définir le point de terminaison initial dans le registre en ajoutant la valeur **CloudType** à la **HKEY_CURRENT_USER clé \software\policies\microsoft\office\16.0\teams** du Registre. Le type pour **CloudType** est **DWORD** et les valeurs sont (0 = unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DoD). Définir le point de terminaison avec la clé de Registre restreint les équipes à se connecter au point de terminaison Cloud approprié pour la connectivité avant connexion avec Teams.
 
 - Les équipes peuvent également être incluses dans un déploiement d’applications 365 Microsoft pour entreprises. Pour plus d’informations, reportez-vous à la rubrique [déploiement de Microsoft teams avec les applications microsoft 365 pour les entreprises](https://docs.microsoft.com/deployoffice/teams-install).
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572259"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640909"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -80,8 +80,8 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certifié pour Skype entreprise                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Certifié pour Skype entreprise                        |
-|Jabra                |Engagez le casque 75                                          |7/31/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
-|Jabra                |Engagez le casque 65                                          |7/31/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Jabra                |Casque 75 d’évolution                                          |7/31/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Jabra                |Casque 65 d’évolution                                          |7/31/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |Jabra                |Engagez le casque 50                                          |7/31/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |Avocor               |WCD-AVW-6555                                              |7/30/2020       |Certifiés pour Microsoft teams                           |
 |Jabra                |Casque Evolve2 85                                         |7/17/2020       |Certifiés pour Microsoft teams                           |
