@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment attribuer un ID de conférence à un utilisateur dans Skype entreprise Online et quels sont les paramètres d’ID de conférence. '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163913"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643604"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Afficher et réinitialiser un ID de conférence affecté à un utilisateur de Skype Entreprise Online
 
@@ -82,7 +82,7 @@ Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'ou
 
 2. Accédez au centre d’administration > **Skype entreprise**.
 
-3. Dans> **les** > **utilisateurs**du **Centre d’administration de Skype entreprise**, dans le volet action, sous **ID de conférence**, cliquez sur **Réinitialiser**.
+3. Dans les utilisateurs du **Centre d’administration de Skype entreprise** >  **Audio conferencing**  >  **Users**, dans le volet action, sous **ID de conférence**, cliquez sur **Réinitialiser**.
 
 4. Dans la fenêtre de **réinitialisation de l’ID de conférence ?** , cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -103,7 +103,7 @@ Vous pouvez réinitialiser l’ID de conférence d'un utilisateur à l’aide de
 
 - L’ID de conférence doit correspondre à la longueur dans les chiffres définis sur le pont de conférence audio. Vous ne pouvez pas utiliser des caractères alphabétiques ou spéciaux dans les ID de conférence ; Seuls les numéros peuvent être utilisés.
 
-- L’ID de conférence de tous les utilisateurs de l’audioconférence sera 7 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
+- L’ID de conférence de tous les utilisateurs de l’audioconférence sera de 9 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
