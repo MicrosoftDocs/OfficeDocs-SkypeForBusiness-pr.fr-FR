@@ -125,6 +125,7 @@
 ## [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Gérer l’application Listes pour votre organisation dans Teams](manage-lists-app.md)
 ## [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
+## [Gérer l’application Compliment dans le centre d’administration Teams](manage-praise-app.md)
 ## [Configurer la hiérarchie de ciblage de votre équipe](set-up-your-team-hierarchy.md)
 ## [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -830,6 +831,7 @@
 ## Appareils pris en charge
 ### [Gérer vos périphériques dans Teams](devices/device-management.md)
 ### [Mettre à niveau vos appareils à distance](devices/remote-update.md)
+### [Gérer les balises d’appareils Teams](devices/manage-device-tags.md)
 ### [Téléphones pour Teams](devices/phones-for-teams.md)
 ### [Périphériques audio et vidéo USB](devices/usb-devices.md)
 ### [Déployer des barres de collaboration pour Microsoft Teams](devices/collab-bar-deploy.md)

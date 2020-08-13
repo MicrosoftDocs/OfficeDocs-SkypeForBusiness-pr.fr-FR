@@ -1,7 +1,7 @@
 ---
-title: Utiliser Advisor pour Teams (préversion) pour faciliter le déploiement de Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+title: Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -18,42 +18,40 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Utilisez Advisor pour Teams (préversion) pour faciliter la planification et l’exécution du déploiement de Microsoft Teams.
-ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+description: Utilisez Advisor for Teams pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
+ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201208"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648595"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Advisor pour Teams (préversion) vous guide tout au long du processus de déploiement de Microsoft Teams. Il évalue l’environnement de votre organisation Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams. Advisor for Teams crée ensuite une équipe Déploiement (dans Teams) avec des canaux pour chaque charge de travail à déployer. Chaque charge de travail de l’équipe Déploiement s’accompagne d’un plan complet du Planificateur qui comprend toutes les tâches de déploiement pour chaque charge de travail.  Ce plan du Planificateur vous permet d’affecter des tâches aux différentes personnes responsables de chaque phase du déploiement, à savoir le responsable du projet, les administrateurs de Teams et Microsoft 365 ou Office 365, les personnes en charge du support technique et votre équipe d’adoption et de préparation des utilisateurs. Chaque tâche de déploiement contient toutes les ressources et tous les conseils dont vous avez besoin pour la mener à bien.
+Advisor for Teams vous guide tout au long du processus de déploiement de Microsoft Teams. Il évalue l’environnement de votre organisation Microsoft 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams. Advisor for Teams crée ensuite une équipe Déploiement (dans Teams) avec des canaux pour chaque charge de travail à déployer. Chaque charge de travail de l’équipe Déploiement s’accompagne d’un plan complet du Planificateur qui comprend toutes les tâches de déploiement pour chaque charge de travail.  Ce plan du Planificateur vous permet d’affecter des tâches aux différentes personnes responsables de chaque phase du déploiement, à savoir le responsable du projet, les administrateurs de Teams, les personnes en charge du support technique et votre équipe d’adoption et de préparation des utilisateurs. Chaque tâche de déploiement contient toutes les ressources et tous les conseils dont vous avez besoin pour la mener à bien.
 
 Advisor for Teams fait partie intégrante du [Centre d’administration Teams](https://admin.teams.microsoft.com). Vous aurez besoin d’une licence Microsoft 365 Business Basic au minimum pour profiter de l’intégration d’Advisor pour Teams avec Forms et le Planificateur. Pour commencer à utiliser Advisor for Teams, cliquez sur le bouton **Démarrer** dans le widget **Déploiement de charges de travail Teams** situé dans le tableau de bord. Ou accédez à **Planification** > **Teams Advisor**.
 
 > [!IMPORTANT]
-> Advisor for Teams n’est pas disponible pour Microsoft 365 Government – Déploiements GCC High ou DoD.
+> Advisor for Teams n’est pas disponible pour les déploiements Microsoft 365 Secteur Public (GCC High ou DoD).
 
 Pour une vue d’ensemble guidée de l’expérience Advisor for Teams, consultez la vidéo [déployer & configurer Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) sur les Mécanismes Microsoft.
 
-## <a name="using-advisor-for-teams-public-preview"></a>Utilisation d’Advisor pour Teams (préversion)
+## <a name="using-advisor-for-teams"></a>Utilisation d’Advisor for Teams
 
-**Les équipes, les formulaires et les licences Planner sont nécessaires pour utiliser Advisor pour Teams.** Cependant, vous n’avez pas besoin d’être administrateur de Teams pour utiliser Advisor for Teams. Toutes les personnes de votre organisation peuvent l’utiliser. Nous avons créé des autorisations spéciales pour permettre aux utilisateurs non administrateurs d’accéder à Advisor for Teams, même si ce conseiller figure dans le Centre d’administration Teams. Vous DEVEZ être un administrateur Teams, un administrateur de service Teams ou un administrateur général pour ouvrir des évaluations de préparation du client (en raison du fait que les rôles spéciaux non administrateurs n’ont pas accès aux API Microsoft Graph sous-jacentes aux évaluations).
+**Les équipes, les formulaires et les licences Planner sont nécessaires pour utiliser Advisor pour Teams.** Cependant, vous n’avez pas besoin d’être administrateur de Teams pour utiliser Advisor for Teams. Toutes les personnes de votre organisation peuvent l’utiliser. Nous avons créé des autorisations spéciales pour permettre aux utilisateurs non administrateurs d’accéder à Advisor for Teams, même si ce conseiller figure dans le Centre d’administration Teams. Vous DEVEZ être un administrateur Teams, un administrateur de service Teams ou un administrateur général pour ouvrir des évaluations de préparation du client (en raison du fait que les rôles spéciaux non administrateurs n’ont pas accès aux API Microsoft Graph sous-jacentes aux évaluations). Cependant, vous n’avez pas besoin d’être administrateur de Teams pour utiliser Advisor for Teams. Toutes les personnes de votre organisation peuvent l’utiliser. Nous avons créé des autorisations spéciales pour permettre aux utilisateurs non administrateurs d’accéder à Advisor for Teams, même si ce conseiller figure dans le Centre d’administration Teams. Vous DEVEZ être un administrateur Teams, un administrateur de service Teams ou un administrateur général pour ouvrir des évaluations de préparation du client (en raison du fait que les rôles spéciaux non administrateurs n’ont pas accès aux API Microsoft Graph sous-jacentes aux évaluations).
 
 > [!IMPORTANT]
-> Si **Teams Advisor** n’apparaît pas sous **Planification** dans le centre d’administration Teams, cela signifie que l’utilisateur n’est pas titulaire d’une licence Teams. Ce comportement sera modifié dans le futur.
+> Si **Teams Advisor** n’apparaît pas sous **Planification** dans le centre d’administration Teams, cela signifie que l’utilisateur n’est pas titulaire d’une licence Teams.
 
 À la première utilisation de Advisor for Teams, une équipe déploiement sera créée automatiquement dans Teams. Un canal se crée pour chaque charge de travail sélectionnée.
 
 > [!IMPORTANT]
-> Si une équipe de déploiement a déjà été créée et qu’un autre utilisateur tente de la créer, un message d’erreur lui indique de contacter l’équipe de support technique. Ceci empêche Teams de divulguer par inadvertance des informations sur l’équipe existante ainsi que ses membres. Demandez au propriétaire de l’équipe de déploiement de vous ajouter, ou contactez le support technique pour obtenir de l’aide.
+> Si une équipe de déploiement a déjà été créée et qu’un autre utilisateur tente de la créer, un message d’erreur lui indique de contacter son équipe de support technique. Ceci empêche Teams de divulguer par inadvertance des informations sur l’équipe existante ainsi que ses membres. Demandez au propriétaire de l’équipe de déploiement de vous ajouter, ou contactez le support technique pour obtenir de l’aide.
 
 ## <a name="available-advisor-for-teams-plans"></a>Plans Advisor for Teams disponibles
 
-Pendant la période de préversion publique du Conseiller pour Teams, nous proposons les offres suivantes :
+Advisor for Teams fournit actuellement les plans suivants :
 
 1. Conversations, équipes, canaux et applications
     - Évaluation du client
@@ -81,7 +79,7 @@ Chaque plan comprend une évaluation de la préparation du client dont vous pouv
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triangle d’avertissement orange indique une suggestion de suivi pour déterminer si une action est nécessaire (par exemple, une stratégie d’expiration de groupe Microsoft 365 est recommandée, bien qu’elle ne soit pas obligatoire).
 
 > [!IMPORTANT]
-> Lorsqu’un utilisateur doté d’un rôle d’administrateur démarre Advisor for Teams, toutes les évaluations s’exécutent en arrière-plan. Si vous mettez à jour ou corrigez quelque chose, il est possible que cela ne se reflète pas dans vos évaluations pendant 24 heures. Cet état est temporaire. Une fois que la préversion publique sera terminée et qu’Advisor pour Teams sera disponible de façon générale, les évaluations seront mises à jour quasiment en temps réel.
+> Lorsqu’un utilisateur doté d’un rôle d’administrateur démarre Advisor for Teams, toutes les évaluations s’exécutent en arrière-plan. Si vous mettez à jour ou corrigez quelque chose, il est possible que cela ne se reflète pas dans vos évaluations pendant 24 heures.
 
 Les sections ci-dessous décrivent chaque évaluation, notamment s’il s’agit d’une condition préalable ou des pratiques recommandées, de la façon dont les vérifications d’évaluation sont effectuées et pourquoi, ainsi que des conseils pour la correction si besoin.
 
@@ -143,7 +141,7 @@ Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor 
 Vous aurez besoin, au minimum, de Microsoft 365 Business Basic pour profiter de l’intégration d’Advisor pour Teams avec Forms et le Planificateur.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Puis-je supprimer l’équipe déploiement ?
-Une fois que votre équipe déploiement a été créée par Advisor for Teams, vous pouvez la gérer comme n’importe quelle autre équipe (et donc la supprimer). Notez cependant que si vous ne supprimez pas l’équipe à partir du Centre d’administration Teams, l’équipe y sera présentée comme existante. Il s’agit d’un problème temporaire qui sera résolu dès que la période de préversion sera terminée et qu’Advisor pour Teams sera disponible de façon générale.
+Une fois que votre équipe déploiement a été créée par Advisor for Teams, vous pouvez la gérer comme n’importe quelle autre équipe (et donc la supprimer). Notez cependant que si vous ne supprimez pas l’équipe à partir du Centre d’administration Teams, l’équipe y sera présentée comme existante.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Puis-je ajouter ou supprimer des canaux dans l’équipe déploiement ?
 Oui. Une fois l’équipe déploiement créée, vous pouvez gérer les canaux comme n’importe quelle autre équipe.
@@ -181,5 +179,4 @@ Accédez au [Centre d’aide de Forms](https://support.office.com/forms).
 
 [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 
-[Noms de produits et identificateurs de plans de service pour la gestion des licences](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-)
+[Noms de produits et identificateurs de plans de service pour la gestion des licences](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
