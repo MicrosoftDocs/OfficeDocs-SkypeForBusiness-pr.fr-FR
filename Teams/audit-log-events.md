@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634610"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648535"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -193,7 +193,7 @@ Vous pouvez utiliser l’API activité de gestion d’Office 365 pour récupére
 
 ## <a name="attribution-in-teams-audit-logs"></a>Attribution dans les journaux d’audit d’équipes
 
-Pour l’instant, il existe un problème connu relatif à l’attribution dans les journaux d’audit d’équipes et aux messages de contrôle : un propriétaire peut être mal attribué à la suppression ou à l’ajout d’utilisateurs. Cela se produit lorsque le changement intervient en dehors de teams. Dans ces cas, nous vous recommandons d’utiliser les [journaux d’audit d’Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Les modifications d’appartenance aux équipes (par exemple, les utilisateurs ajoutés ou supprimés) apportées à l’aide d’Azure Active Directory (Azure AD), du portail d’administration Microsoft 365 ou de l’API graphique Microsoft 365 Groups s’affichent dans les messages d’audit des équipes et dans le canal général avec une attribution à un propriétaire existant de l’équipe, et non à l’initiateur réel de l' Dans ces scénarios, consultez les [journaux d’audit d'](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Azure ad ou du groupe Microsoft 365 pour consulter les informations pertinentes.
 
 ## <a name="related-topics"></a>Voir aussi
 

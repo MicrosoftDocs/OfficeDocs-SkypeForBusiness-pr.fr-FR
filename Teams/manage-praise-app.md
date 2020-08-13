@@ -1,20 +1,19 @@
 ---
 title: Gérer l’application compliment dans le centre d’administration teams
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: En savoir plus sur les paramètres d’administration dans l’application compliment dans le centre d’administration Microsoft teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564075"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656305"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application compliment dans le centre d’administration Microsoft teams
 
@@ -46,7 +45,7 @@ Les enseignants peuvent reconnaître les étudiants individuels pour les réalis
 
 ## <a name="create-your-own-badges"></a>Créer vos propres badges
 
-Activez le bouton bascule **badges personnalisés** et sélectionnez **créer un badge personnalisé**. À partir de là, vous pouvez concevoir un badge personnalisé dans le volet latéral.
+Activez le bouton bascule **badges personnalisés** et sélectionnez **créer un badge personnalisé**. À partir de là, vous pouvez concevoir un badge personnalisé dans le volet latéral. Vous pouvez créer jusqu’à 25 badges personnalisés. 
 
 1. Entrez un nom de badge. Il s’agit du nom qui s’affichera sur le badge lorsque les utilisateurs envoient les compliments.
 
@@ -55,7 +54,7 @@ Activez le bouton bascule **badges personnalisés** et sélectionnez **créer un
    > [!TIP]
    > Si vous débutez avec les valeurs hexadécimales, cet article inclut une [brève présentation](#hex-colors-intro) pour vous montrer comment les utiliser.
 
-3. Télécharger une image de badge. Le type de fichier accepté est. PNG. Le fichier doit être inférieur à 25kb.
+3. Télécharger une image de badge. Le type de fichier accepté est. PNG. La taille du fichier image doit être inférieure à 40 Ko et comporter au maximum 216 X 216 pixels.
 ![Badge avec champs d’arrière-plan, de texte et d’image libellés](media/praise-app-badge-fields.png)
 
 4. Localisez votre nom de badge : sous **noms de badges localisés**, sélectionnez **Ajouter**. Sélectionnez le paramètre régional souhaité dans la liste déroulante. Entrez ensuite le nom du badge dans la langue désignée.
@@ -98,7 +97,7 @@ Vous trouverez ci-dessous une liste de couleurs d’exemple pour commencer :
 
 **Lorsque vous sélectionnez des couleurs, n’oubliez pas d’accessibilité.** Davantage de couleurs sont bien meilleures que d’autres.  Définissez le contraste entre les couleurs de texte et d’arrière-plan pour faciliter la lecture du nom de badge. Par exemple, si vous avez choisi une couleur d’arrière-plan foncée, choisissez une couleur de texte claire.
 
-**Lorsque vous sélectionnez une image, tenez compte des dimensions du badge.** Pour une qualité optimale, nous vous recommandons de télécharger un fichier image de 216x216 pixels. Évitez d’étirer ou de déformer l’image pour l’ajuster à ces dimensions.
+**Lorsque vous sélectionnez une image, tenez compte des dimensions du badge.** Pour une qualité optimale, nous vous recommandons de télécharger un fichier image de 216 x 216 pixels (qui est le nombre maximal de dimensions). Évitez d’étirer ou de déformer l’image pour l’ajuster à ces dimensions.
 
 **Si votre image de badge n’est pas rectangulaire, rendez l’image transparente.** Vous devez le faire avant de télécharger le fichier image pour encomplimenter.
 

@@ -1,7 +1,7 @@
 ---
 title: Gérer l'accès invité dans Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Apprenez-en davantage sur la création de vos premières équipes e
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637663"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655935"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
@@ -30,9 +30,9 @@ ms.locfileid: "44637663"
 > [!IMPORTANT]
 > Il est possible que vous deviez patienter quelques heures avant que les modifications soient prises en compte. 
 
-**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans l’ensemble des abonnements Microsoft 365 entreprise, Office 365 entreprise, Microsoft 365 entreprise basique et Office 365 éducation. Aucune licence Microsoft 365 ou Office 365 supplémentaire n’est nécessaire. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
+**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans l’ensemble des abonnements Microsoft 365 entreprise, Office 365 entreprise, Microsoft 365 entreprise basique et Office 365 éducation. Aucune licence Microsoft 365 ou Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
 
-L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur l’activation de l’accès invité, voir Activation ou désactivation de l' [accès invité aux équipes](set-up-guests.md)ou utilisation de la liste de vérification de l' [accès invité](guest-access-checklist.md) pour vous guider dans la procédure d’installation.
+L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur l’activation de l’accès invité, voir Activation ou désactivation de l' [accès invité aux équipes](set-up-guests.md)ou utilisation de la liste de vérification de l' [accès invité ](guest-access-checklist.md) pour vous guider dans la procédure d’installation.
 
 Une fois que l’accès invité est activé, vous pouvez configurer les paramètres pour les invités en utilisant les contrôles décrits dans [gérer les paramètres d’équipe pour votre organisation](enable-features-office-365.md) et [gérer les équipes lors de la transition vers le nouveau centre d’administration Microsoft teams](manage-teams-skypeforbusiness-admin-center.md).     
     

@@ -1,7 +1,7 @@
 ---
 title: À quoi ressemble l'expérience des invités
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799795"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655945"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -69,19 +69,19 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 
 | Fonction d’appel | Dactylo | Utilisateurs E1 et E3 | E5 et utilisateur voix entreprise |
 | --------------- | ----- | -------------- | -------------- |
-| Appels VOIP | Oui | Oui  | Oui  |
-| Appels de groupe | Oui | Oui  | Oui  |
-| Commandes d’appel principales prises en charge (mise en attente, muet, vidéo activées, partage d’écran) | Oui | Oui  | Oui  |
-| Destination du transfert | Oui | Oui  | Oui  |
-| Peut transférer un appel | Oui | Oui  | Oui  |
-| Possibilité de transférer des conseils | Oui | Oui  | Oui  |
-| Peut ajouter d’autres utilisateurs à un appel via le protocole VOIP | Oui | Oui  | Oui  |
+| Appels VOIP | Oui | Oui | Oui |
+| Appels de groupe | Oui | Oui | Oui |
+| Commandes d’appel principales prises en charge (mise en attente, muet, vidéo activées, partage d’écran) | Oui | Oui | Oui |
+| Destination du transfert | Oui | Oui | Oui |
+| Peut transférer un appel | Oui | Oui | Oui |
+| Possibilité de transférer des conseils | Oui | Oui | Oui |
+| Peut ajouter d’autres utilisateurs à un appel via le protocole VOIP | Oui | Oui | Oui |
 | Peut ajouter des utilisateurs par numéro de téléphone à un appel | Non | Non | Oui |
-| Destination directe | Non | Oui | Oui  |
-| Cible du groupe d’appels | Non | Oui | Oui  |
-| Cible sans réponse | Non | Oui | Oui  |
-| Peut être la cible d’un appel fédéré | Non | Oui | Oui  |
-| Possibilité d’effectuer un appel fédéré | Non | Oui | Oui  |
+| Destination directe | Non | Oui | Oui |
+| Cible du groupe d’appels | Non | Oui | Oui |
+| Cible sans réponse | Non | Oui | Oui |
+| Peut être la cible d’un appel fédéré | Non | Oui | Oui |
+| Possibilité d’effectuer un appel fédéré | Non | Oui | Oui |
 | Peut immédiatement transférer ses appels | Non | Non | Oui |
 | Peuvent sonner simultanément dans leurs appels | Non | Non | Oui |
 | Peut acheminer les appels sans réponse | Non | Non | Oui |

@@ -1,7 +1,7 @@
 ---
 title: Planifier la gouvernance dans Teams - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665276"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656355"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
@@ -103,6 +103,34 @@ Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, v
 
 - [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
+## <a name="group-and-team-membership-management"></a>Gestion des appartenances aux groupes et aux équipes
+
+La gestion homogène des membres du projet ou des groupes restreints est nécessaire pour les équipes qui nécessitent une intégration rapide et un déclassement via, des utilisateurs et des invités. Il est également possible que votre organisation ait besoin de vérifier que tous les membres actuels ont la justification commerciale au sein d’une équipe. La gestion des membres peut s’avérer difficile, car les propriétaires de l’équipe peuvent quitter le projet et les utilisateurs ne le laissent pas en règle générale lorsque le projet se termine ou qu’ils changent de rôle. La meilleure façon de gérer l’appartenance aux groupes qui permet aux utilisateurs d’obtenir l’accès lorsque cela est nécessaire, mais vous devez vous assurer que le groupe ne présente aucun risque d’accès inapproprié est par le biais de deux processus circonscription : gestion des habilitations et accès.
+
+La [gestion des habilitations](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) vous permet de déléguer une personne (par exemple, un responsable de projet) à la collecte de toutes les ressources nécessaires, dont l’appartenance aux équipes, dans un seul package. Ils peuvent également définir qui peut formuler des demandes : soit des utilisateurs de votre client, soit d’autres organisations connectées. Le responsable de projet recevra les demandes d’accès dans leur adresse de messagerie, puis approuvez ou refusez les demandes dans le portail MyAccess. Les administrateurs peuvent configurer les conditions d’accès pour inclure une date et une période d’expiration pour la suppression de l’utilisateur ou de l’invité de l’équipe, sauf si l’accès est renouvelé. Les administrateurs peuvent également configurer les groupes associés aux équipes pour qu’ils participent aux révisions dans Access. Pour les [avis sur Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), les propriétaires du groupe reçoivent des rappels périodiques pour passer en revue les membres d’une équipe. Les avis d’accès incluent des recommandations, ce qui permet aux propriétaires de groupe de traverser plus facilement le processus d’attestation standard.
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Points de décision | Votre organisation nécessite-t-elle un processus cohérent pour gérer l’appartenance d’une ou de plusieurs équipes ? <br> Votre organisation nécessite-t-elle des propriétaires ou les membres eux-mêmes pour justifier le maintien de leur appartenance à une ou plusieurs équipes de façon régulière ? <br> Votre organisation nécessite-t-elle l’approbation des utilisateurs et invités pour demander l’accès à des ressources telles que des équipes, des groupes, des sites SharePoint et des applications ? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Étapes suivantes | Documentez les exigences de votre organisation pour chaque équipe ou pour des équipes spécifiques à la date d’expiration de l’abonnement.<br>Planifiez la façon dont votre organisation peut regrouper les équipes, les groupes, les sites SharePoint et les applications dans les packages Access.<br>Déterminez quels sont les utilisateurs, tels que le gestionnaire de la personne qui est le responsable de projet, le commanditaire d’une organisation connectée ou d’un responsable de la sécurité de votre organisation doit approuver ou refuser des demandes d’accès. |
+
+> [!TIP]
+> Le tableau suivant vous permet de capturer les exigences de votre organisation.
+
+| Fonctionnalité | Détails | Licence Azure AD Premium requise | Décision |
+|:-|:-|:-|:-|
+| Accès aux commentaires | Configurer l’accès aux avis pour certifier l’appartenance à des équipes spécifiques à intervalles réguliers | S2 | DÉFINIR |
+| Gestion des habilitations | Configurer un package d’accès pour permettre aux utilisateurs et aux invités de demander l’accès à teams | S2 | DÉFINIR |
+
+> [!NOTE]
+> Pour vous aider à planifier votre projet, [Apprenez-en davantage sur les licences dont ils ont besoin](https://azure.microsoft.com/pricing/details/active-directory/).
+
+### <a name="additional-information"></a>Informations supplémentaires
+
+Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir :
+
+- [Gestion des habilitations](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Accès aux commentaires](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Gestion des fonctionnalités de teams
 

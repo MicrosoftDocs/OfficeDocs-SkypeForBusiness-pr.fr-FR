@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs du routage direct du système Microsoft Phone.
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691370"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656145"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Permettre aux utilisateurs d’utiliser le routage direct, les appels vocaux et la messagerie vocale
 
@@ -53,9 +53,9 @@ Si votre déploiement de Skype entreprise Online existe avec Skype entreprise 20
 
 Pour plus d’informations sur la gestion des licences, voir gestion des [licences et autres exigences](direct-routing-plan.md#licensing-and-other-requirements) dans [planifier le routage direct](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Vérifier que l’utilisateur est bien immobilier dans Skype entreprise Online 
+## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est connecté en ligne 
 
-Le routage direct nécessite que l’utilisateur soit hébergé dans Skype entreprise online. Vous pouvez vérifier en examinant le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com.
+Le routage direct nécessite que l’utilisateur soit hébergé en ligne. Vous pouvez vérifier en examinant le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com.
 
 1. Connectez-vous à Remote PowerShell.
 2. Émettez la commande suivante : 

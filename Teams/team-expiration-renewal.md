@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868521"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648585"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement de l’équipe dans Microsoft teams
 
@@ -33,7 +33,7 @@ Lorsque vous appliquez une stratégie d’expiration à une équipe, le proprié
 
 ![Capture d’écran du bouton renouveler maintenant pour renouveler une équipe dans les paramètres d’équipe](media/team-expiration.png "Capture d’écran du bouton renouveler maintenant pour renouveler une équipe dans les paramètres d’équipe")
 
-Si le propriétaire de l’équipe ne renouvelle pas l’équipe, l’équipe est placée dans un état « supprimé (e) », ce qui signifie qu’elle peut être restaurée dans les 30 prochains jours.
+Si le propriétaire de l’équipe ne renouvelle pas l’équipe et qu’il n’y a plus d’activités sur l’équipe jusqu’à la fin de la stratégie d’expiration, l’équipe est placée dans un état « supprimé (e) », ce qui signifie qu’elle peut être restaurée dans les 30 prochains jours.
 
 ## <a name="team-auto-renewal"></a>Renouvellement automatique d’équipe
 

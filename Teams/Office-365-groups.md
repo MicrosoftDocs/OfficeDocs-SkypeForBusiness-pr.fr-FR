@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a44adb84cb6669bb96bd617fb52ea9b5fdceb7af
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4861683d3c46eaa6122ffbac0d2ae17b4f3a7979
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581125"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655995"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Groupes Microsoft 365 et Microsoft teams
 =====================================
@@ -40,7 +40,7 @@ Ne manquez pas les [groupes d’affiches dans Microsoft 365 pour les architectes
 <a name="how-microsoft-365-groups-work"></a>Fonctionnement des groupes Microsoft 365
 --------------------------
 
-Lorsque vous créez une équipe, sur le système principal, vous créez un groupe Microsoft 365 et la bibliothèque de documents SharePoint associée et un bloc-notes OneNote, ainsi que des liens vers d’autres applications Office 365 Cloud. Si la personne qui crée l’équipe est le propriétaire d’un groupe public ou privé Office 365 existant, elle peut ajouter des fonctionnalités d’équipe au groupe si elle a moins de 5000 personnes et qu’elle n’a jamais été ajoutée à Teams. Cela crée un canal **général** par défaut dans lequel se trouvent les messages de discussion, les documents, OneNote et les autres objets. Le principe d’affichage de la bibliothèque de documents du canal permettra d’afficher le dossier **général** représentant le canal dans l’équipe. Plus important encore, si vous créez votre propre structure de dossiers au sein d’une bibliothèque de documents, **celle-ci n’est pas propagée** aux équipes en tant que canal ; pour l’instant, seules les équipes sont acheminées vers SharePoint.
+Lorsque vous créez une équipe, sur le système principal, vous créez un groupe Microsoft 365 et la bibliothèque de documents SharePoint associée et un bloc-notes OneNote, ainsi que des liens vers d’autres applications Office 365 Cloud. Si la personne qui crée l’équipe est le propriétaire d’un groupe public ou privé Office 365 existant, elle peut ajouter des fonctionnalités d’équipes au groupe si le nombre de membres du groupe est compris dans les limites spécifiées dans [limites et spécifications pour Microsoft teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) et si le groupe n’a jamais été ajouté à Teams. Cela crée un canal **général** par défaut dans lequel se trouvent les messages de discussion, les documents, OneNote et les autres objets. Le principe d’affichage de la bibliothèque de documents du canal permettra d’afficher le dossier **général** représentant le canal dans l’équipe. Plus important encore, si vous créez votre propre structure de dossiers au sein d’une bibliothèque de documents, **celle-ci n’est pas propagée** aux équipes en tant que canal ; pour l’instant, seules les équipes sont acheminées vers SharePoint.
 
 > [!NOTE]
 > Sur la base des commentaires des clients, les nouveaux groupes Microsoft 365 générés suite à la création d’une équipe dans le client Microsoft Teams ne s’afficheront plus dans Outlook par défaut. Pour activer ou désactiver l’affichage des groupes dans Outlook, utilisez l’applet de connexion [Set-unifiedgrouphttps](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) avec le paramètre **HiddenFromExchangeClientsEnabled** . Les groupes créés via Outlook et les versions ultérieures sont activés pour les équipes continuent à apparaître dans Outlook et Teams. 
