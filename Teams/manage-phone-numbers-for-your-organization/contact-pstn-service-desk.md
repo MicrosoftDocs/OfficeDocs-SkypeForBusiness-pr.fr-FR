@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous recevez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et de l’assistance technique sur le centre de services RTC.
-ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597059"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662094"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Coordonnées du Bureau de service PSTN
 
@@ -36,8 +36,9 @@ Pour contacter l’équipe de bureau de service PSTN, envoyez un courrier élect
 
 | **Je souhaite transférer/porter des numéros existants**  | **Je souhaite commander de nouveaux numéros pour** |
 |:-----:|:------:|
-| **À l’intérieur** des **États-Unis** ou du **Canada**, envoyez un e-mail à [PTN@microsoft.com](mailto:ptn@microsoft.com).| **Belgique, France, Allemagne, Grande-Bretagne, Irlande, Pays-Bas, Espagne, Suède, Suisse**, envoyer des e-mails à [ptneu@microsoft.com](mailto:ptneu@microsoft.com).|
-|**Hors** des **États-Unis** ou du **Canada**, envoyez un e-mail à [ptneu@microsoft.com](mailto:ptneu@microsoft.com).| Dans **le monde entier**, envoyez un e-mail à [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).|
+| [À l' **intérieur des États-Unis ou du Canada**, envoyez-nous un e-mail à PTN@microsoft.com](mailto:ptn@microsoft.com)| [**Belgique, France, Allemagne, Grande-Bretagne, Irlande, Pays-Bas, Espagne, Suède, Suisse**, envoyez un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
+|[**Hors des États-Unis ou du Canada**, envoyez-nous un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [Dans **le monde entier**, envoyez-nous un e-mail à gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|En raison d’un grand pic dans les requêtes entrantes, l’équipe de portage de l' **Amérique du Nord** est en cours de connexion. Nous travaillons à la désactivation de cette file d’attente sur une base FIFO (première itération) et, par conséquent, **notre réponse aux nouvelles demandes sera retardée.**|En raison d’un grand nombre de requêtes entrantes, l’équipe de portage de l' **Union européenne** est retardée. Nous travaillons à la désactivation de cette file d’attente sur une base FIFO (première itération) et, par conséquent, **notre réponse aux nouvelles demandes sera retardée.**|
 
 > [!NOTE]
 > Les réponses d’Amérique du Nord peuvent être retardées en raison d’une augmentation importante des demandes entrantes. Le backlog est compensé sur une base FIFO (première itération).

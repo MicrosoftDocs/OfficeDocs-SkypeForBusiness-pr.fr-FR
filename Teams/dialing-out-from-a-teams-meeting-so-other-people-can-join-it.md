@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Les organisateurs de la réunion peuvent découvrir comment numéroter à l’aide de l’application teams pour permettre à d’autres personnes de participer à la même réunion à l’aide de leur téléphone.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691290"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662104"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
@@ -38,7 +38,8 @@ Lorsque vous appelez une personne, nous vous conseillons de le faire en utilisan
   Veuillez noter que :
 
 - Vous pouvez appeler uniquement si vous participez à une réunion à l’aide de teams.
-- En tant qu’organisateur de la réunion, vous avez été activé pour l’audioconférence.
+- L’organisateur de la réunion a été activé pour l’audioconférence ou, dans le cas contraire, il est autorisé à effectuer des appels vers le réseau téléphonique commuté en ligne ou via le routage direct.
+- L’organisateur de la réunion est [doté d’une stratégie de numérotation en ligne qui permet la numérotation des conférences activée](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

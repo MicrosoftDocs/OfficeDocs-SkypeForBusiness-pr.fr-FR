@@ -1,7 +1,7 @@
 ---
 title: Que sont les standards automatiques Cloud ?
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur les standards automatiques du Cloud et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menu pour localiser et transférer des appels vers des utilisateurs ou des services.
-ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552570"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672835"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
@@ -81,7 +81,7 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
 
 La numérotation par nom est une fonctionnalité d’un standard automatique qui est également connu sous le nom de recherche dans l’annuaire. Elle permet aux personnes qui appellent votre standard automatique d’utiliser la reconnaissance vocale ou leur clavier téléphonique (DTMF) d’entrer un nom complet ou partiel pour rechercher dans l’annuaire de la société, de localiser la personne, puis de lui transférer l’appel. Les utilisateurs que vous souhaitez avoir localisés et pris en charge à l’aide de la numérotation par nom **n’ont pas besoin d’un numéro de téléphone ou d’un plan d’appels est attribué aux utilisateurs de Skype entreprise Server**. La numérotation par nom sera même capable de rechercher et transférer des appels à des utilisateurs de Microsoft teams hébergés dans des pays ou des régions différents pour des organisations multinationales. En fonction des éléments requis, vous activez explicitement la numérotation par nom dans un standard automatique.
 
-Dial by extension est une fonctionnalité d’un standard automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux personnes qui rejoignent votre standard automatique d’utiliser la reconnaissance vocale (Speech) ou leur clavier téléphonique (DTMF) d’entrer l’extension du téléphone de l’utilisateur que vous essayez de joindre, puis de lui transférer l’appel. Les utilisateurs que vous souhaitez trouver et auxquels il est possible d’accéder à l’aide de la numérotation par poste **ne doivent pas être associés à un numéro de téléphone ou être associés à des plans d’appel, mais ils doivent disposer d’une licence de système téléphonique s’il s’agit d’utilisateurs en ligne ou d’Enterprise Voice activé pour les utilisateurs de Skype entreprise Server**. Vous devrez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Le numérotation par poste de passe peut même être capable de rechercher et transférer des appels à des utilisateurs de Microsoft teams hébergés dans différents pays ou régions d’organisations multinationales. En fonction des éléments requis concernés, vous activez explicitement Dial par extension dans un standard automatique.
+Dial by extension est une fonctionnalité d’un standard automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux personnes qui rejoignent votre standard automatique d’utiliser la reconnaissance vocale (Speech) ou leur clavier téléphonique (DTMF) d’entrer l’extension du téléphone de l’utilisateur que vous essayez de joindre, puis de lui transférer l’appel. Les utilisateurs que vous souhaitez trouver et auxquels il est possible d’accéder à l’aide de la numérotation par poste  **ne doivent pas être associés à un numéro de téléphone ou être associés à des plans d’appel, mais ils doivent disposer d’une licence de système téléphonique s’il s’agit d’utilisateurs en ligne ou d’Enterprise Voice activé pour les utilisateurs de Skype entreprise Server**. Vous devrez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Le numérotation par poste de passe peut même être capable de rechercher et transférer des appels à des utilisateurs de Microsoft teams hébergés dans différents pays ou régions d’organisations multinationales. En fonction des éléments requis concernés, vous activez explicitement Dial par extension dans un standard automatique.
 
 #### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 

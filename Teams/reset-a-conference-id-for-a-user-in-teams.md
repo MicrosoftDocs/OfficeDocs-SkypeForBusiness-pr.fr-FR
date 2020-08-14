@@ -21,45 +21,44 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez la procédure de réinitialisation de l’ID de conférence d’un utilisateur et pour obtenir des liens vers les outils de mise à jour et de migration de réunion.
-ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666196"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662124"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Réinitialiser l'ID de conférence d'un utilisateur dans Microsoft Teams
 
 Un ID de conférence dynamique est inclus dans la partie inférieure des invitations aux réunions avec les numéros de téléphone qui peuvent être utilisés par les appelants pour accéder à une réunion. Lorsque l'utilisateur compose le numéro de téléphone, le standard automatique de la réunion lui demande de saisir cet ID de conférence pour pouvoir assister à la réunion.
   
 > [!NOTE]
-> Si votre fournisseur de service de conférence est Microsoft, les ID de conférence de vos utilisateurs sont définis par défaut sur Dynamique uniquement. Il n’est malheureusement pas possible de définir des ID statiques, car cette option n’est pas prise en charge actuellement. Les ID de conférence sont définis automatiquement uniquement pour les utilisateurs de Microsoft Teams activés pour l’audioconférence. 
+> Les ID de conférence sont générés automatiquement, vont de 7-9 chiffres et sont définis lorsque vous activez l’audioconférence pour un utilisateur. **Les ID de conférence statiques ne sont pas pris en charge.** 
 
-
-## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialiser l'ID de conférence d'un utilisateur
+## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialisation de l’ID de conférence d’un utilisateur
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. Cliquez sur **modifier**.
 
-3. Sous **audioconférence** , cliquez sur **Réinitialiser l’ID de conférence**.
+3. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.
 
-2. Dans la fenêtre de **réinitialisation** de l’ID de conférence, cliquez sur **Réinitialiser**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les courriers électroniques sont envoyés aux utilisateurs, mais ils peuvent être désactivés.   
+2. Dans la fenêtre **Réinitialiser l’ID de conférence**, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un courrier électronique contenant le nouvel ID sera envoyé à l’utilisateur. Des courriers électroniques sont envoyés aux utilisateurs par défaut, mais cette option peut être désactivée.   
 
     
 > [!NOTE]
-> Une fois l'ID de conférence réinitialisé, un message électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce message est envoyé à l’adresse de messagerie principale, dans de nombreux cas, la boîte aux lettres Microsoft 365 ou Office 365. L’e-mail contient le nouvel ID de conférence, le ou les numéros de téléphone d’accès par défaut pour la mise à jour des réunions existantes. 
+> Une fois l'ID de conférence réinitialisé, un courrier électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce message est envoyé à l’adresse de messagerie principale, dans de nombreux cas, la boîte aux lettres Microsoft 365 ou Office 365. Le courrier électronique contient le nouvel ID de conférence, le ou les numéros de téléphone et les instructions de mise à jour des réunions existantes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Vous pouvez envoyer toutes les informations sur les conférences à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone à composer en cliquant sur envoyer les informations sur la **Conférence par courrier électronique** pour l’utilisateur dans la section **audioconférence** . Le code confidentiel n'est pas envoyé.
+- Vous pouvez envoyer toutes les informations sur les conférences à l'utilisateur dans un message électronique qui inclut l'ID de conférence et les numéros de téléphone à composer en cliquant sur **Envoyer les informations de la conférence dans un courrier électronique** pour l’utilisateur dans la section **Audioconférence**. Ce courrier ne contient pas le code confidentiel.
     
-- Un ID de conférence contient 8 chiffres, et vous ne pouvez pas modifier sa longueur.
+- Un ID de conférence à 7-9 chiffres est créé par le service Teams. Vous ne pouvez pas modifier sa longueur.
     
 - Une fois l'ID de conférence réinitialisé, vous pouvez afficher le nouvel ID de conférence sous **ID de conférence**.
     
