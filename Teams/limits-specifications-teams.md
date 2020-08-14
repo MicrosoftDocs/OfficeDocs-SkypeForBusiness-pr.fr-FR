@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 794089ed86b51ba15df2bd72a63a4dbe4f892f13
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656065"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672755"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -44,7 +44,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
 |Nombre de canaux privés par équipe    |30|
 |Nombre de membres dans un canal privé    |250|
-|Nombre maximal de membres d’un groupe pouvant être convertis en équipe    |10 000|
+|Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000|
 |Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
 
 <sup>1</sup> N’importe quel objet dans Azure Active Directory compte dans cette limite. Les administrateurs généraux sont exempts de cette limite, comme les applications appelant Microsoft Graph en utilisant des[autorisations d’application](https://docs.microsoft.com/graph/permissions-reference).
