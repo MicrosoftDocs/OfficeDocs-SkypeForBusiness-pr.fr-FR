@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé et la création d’un fichier de paramètres maître.
-ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: abf6d93dea4f856f372305fd30b474f72ce47989
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201248"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761330"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -76,6 +76,13 @@ Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
@@ -123,8 +130,12 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 |\<CustomThemeColor\> |Conteneur ||Conteneur pour les \<RedComponent\> \<GreenComponent\> valeurs, et \<BlueComponent\> . Ces valeurs sont requises pour un thème personnalisé. |
 |\<RedComponent\> |Octet (0-255) ||Représente le composant de la couleur rouge. |
 |\<GreenComponent\> |Octet (0-255) ||Représente le composant de la couleur verte. |
-|\<BlueComponent\> |Octet (0-255) ||Représente le composant de la couleur bleue. | 
-| | | |
+|\<BlueComponent\> |Octet (0-255) ||Représente le composant de la couleur bleue. |
+|\<CoordinatedMeetings\>|&#x2777; booléenne|Première &#x2776; |Conteneur des éléments de configuration pour les réunions coordonnées. Cet élément dispose d’un attribut :<ul><li><b>activée</b> Détermine si teams est configuré pour participer à des réunions coordonnées avec d’autres appareils.</li></ul>|
+|\<TrustedAccounts\>| String | |Il s’agit d’une liste séparée par des virgules d’UPN pour chaque appareil de salle de réunion ou surface Hub sur lequel l’appareil doit accepter les demandes de participation à une réunion, ou pour lesquelles des demandes de participation à une réunion doivent être envoyées.|
+|\<Settings\>|Conteneur | |Conteneur des éléments de configuration audio et vidéo de configuration pour les réunions coordonnées.|
+|\<Audio\>| &#x2777; booléenne| |Contrôle la configuration audio de teams sur un surface Hub. Cet élément a deux attributs :<br><ul><li><b>par défaut</b> Détermine sur quel appareil le micro est actif lors du démarrage d’une réunion. Ce champ doit être défini sur un seul appareil (en général, sur un appareil d’équipe) pour `true` que le reste des appareils doit être paramétré pour `false` éviter l’écho et le retour audio.</li><li><b>activée</b> Détermine si les participants à une réunion peuvent activer ou désactiver le micro. Les appareils sur lesquels la **valeur par défaut** de l’audio est définie sur `false` doivent avoir ce paramètre configuré pour `false` que les participants puissent accidentellement allumer un micro et provoquer un écho ou un retour audio.<p>Si l' **option audio par défaut** est définie sur `true` , le paramètre **audio Enabled** est ignoré et les participants peuvent activer ou désactiver le micro.</li></ul>|
+|\<Video\>| &#x2777; booléenne| |Contrôle la configuration vidéo des équipes sur un surface Hub. Cet élément a deux attributs :<br><ul><li><b>par défaut</b> Détermine sur quel appareil l’appareil photo sera actif lors du démarrage de la réunion. Pour une utilisation optimale, nous vous conseillons de définir uniquement le périphérique de salle teams `true` lorsque tous les autres appareils sont définis sur `false` .</li><li><b>activée</b> Détermine si les participants à une réunion peuvent activer ou désactiver la caméra. Vous pouvez définir ce `true` type sur sur n’importe quel autre appareil dans lequel vous voulez partager différentes perspectives vidéo (par exemple, si un participant utilise le tableau blanc surface Hub). Si vous ne voulez pas que les participants activent ou désactivent la caméra sur un appareil, définissez cette valeur sur `false` .<p> Si la **valeur par défaut** de l’option vidéo est définie sur `true` , le paramètre **vidéo** est ignoré et les participants peuvent allumer ou éteindre la caméra.</li></ul>|
 
 &#x2776; tous les éléments de premier niveau sont facultatifs. Si un élément du premier niveau est omis, tous ses paramètres enfants restent inchangés sur l';appareil.
   

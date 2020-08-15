@@ -17,32 +17,31 @@ description: Apprenez-en davantage sur la création de vos premières équipes e
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: fb7fe026e59bcefb6dc7fb5d586f5458e6b358f9
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655935"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761160"
 ---
-<a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
-======================================
+# <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
+
+**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans l’ensemble des abonnements Microsoft 365 entreprise, Office 365 entreprise, Microsoft 365 entreprise basique et Office 365 éducation. Aucune licence Microsoft 365 supplémentaire n’est nécessaire. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
+
+L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur la façon d’activer l’accès invité, voir [collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+
+Une fois que l’accès invité est activé, vous pouvez configurer les paramètres pour les invités en utilisant les contrôles décrits dans [gérer les paramètres d’équipe pour votre organisation](enable-features-office-365.md) et [gérer les équipes lors de la transition vers le nouveau centre d’administration Microsoft teams](manage-teams-skypeforbusiness-admin-center.md).     
+    
+Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies et les autorisations des utilisateurs invités, et extraire des rapports sur l’activité des utilisateurs invités. Ces contrôles sont disponibles dans le centre d’administration Teams. Le contenu et les activités des utilisateurs invités sont soumis à la même protection de conformité et d’audit que le reste de Microsoft 365.
+
+Les propriétaires d’équipe peuvent inviter de nouveaux invités et ajouter des utilisateurs invités à leurs équipes dans le centre d’administration Teams. Identifiez les utilisateurs invités **sur la**  >  page de**gestion des équipes** et définissez les fonctionnalités liées aux canaux pour les invités dans la **Org-wide settings**  >  page**accès invité** des paramètres à l’échelle de l’organisation. Les paramètres permettent aux invités de créer, mettre à jour et supprimer des canaux, comme le montre l’illustration suivante.
 
 > [!IMPORTANT]
 > Il est possible que vous deviez patienter quelques heures avant que les modifications soient prises en compte. 
 
-**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans l’ensemble des abonnements Microsoft 365 entreprise, Office 365 entreprise, Microsoft 365 entreprise basique et Office 365 éducation. Aucune licence Microsoft 365 ou Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
-
-L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur l’activation de l’accès invité, voir Activation ou désactivation de l' [accès invité aux équipes](set-up-guests.md)ou utilisation de la liste de vérification de l' [accès invité ](guest-access-checklist.md) pour vous guider dans la procédure d’installation.
-
-Une fois que l’accès invité est activé, vous pouvez configurer les paramètres pour les invités en utilisant les contrôles décrits dans [gérer les paramètres d’équipe pour votre organisation](enable-features-office-365.md) et [gérer les équipes lors de la transition vers le nouveau centre d’administration Microsoft teams](manage-teams-skypeforbusiness-admin-center.md).     
-    
-Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies et les autorisations des utilisateurs invités, et extraire des rapports sur l’activité des utilisateurs invités. Ces contrôles sont disponibles dans le centre d’administration Teams. Le contenu et les activités des utilisateurs invités sont soumis à la même protection de conformité et d’audit que le reste de Microsoft 365 ou d’Office 365.
-
-Les propriétaires d’équipe peuvent inviter de nouveaux invités et ajouter des utilisateurs invités à leurs équipes dans le centre d’administration Teams. Identifiez les utilisateurs invités **sur la**  >  page de**gestion des équipes** et définissez les fonctionnalités liées aux canaux pour les invités dans la **Org-wide settings**  >  page**accès invité** des paramètres à l’échelle de l’organisation. Les paramètres permettent aux invités de créer, mettre à jour et supprimer des canaux, comme le montre l’illustration suivante.
-
 ![Paramètres des autorisations invité dans teams](media/manage-guest-access-image1.png)
   
-Vous pouvez utiliser le portail Azure Active Directory (Azure AD) pour gérer les invités et leur accès aux ressources Microsoft 365 ou Office 365 et Teams. L’accès invité teams utilise les fonctionnalités de collaboration d’Azure AD Business-to-Business (B2B) comme infrastructure sous-jacente pour le stockage des informations de principes de sécurité, tels que les propriétés d’identité, l’appartenance et les paramètres d’authentification multifacteur. Pour en savoir plus sur Azure AD B2B, reportez-vous à la rubrique [qu’est-ce qu’Azure ad B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=853011) et [FAQ sur Azure Active Directory B2B](https://go.microsoft.com/fwlink/p/?linkid=853020).
+Vous pouvez utiliser le portail Azure Active Directory (Azure AD) pour gérer les invités et leur accès aux ressources Microsoft 365 et Teams. L’accès invité teams utilise les fonctionnalités de collaboration d’Azure AD Business-to-Business (B2B) comme infrastructure sous-jacente pour le stockage des informations de principes de sécurité, tels que les propriétés d’identité, l’appartenance et les paramètres d’authentification multifacteur. Pour en savoir plus sur Azure AD B2B, reportez-vous à la rubrique [qu’est-ce qu’Azure ad B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=853011) et [FAQ sur Azure Active Directory B2B](https://go.microsoft.com/fwlink/p/?linkid=853020).
 
 > [!NOTE]
 > Microsoft teams respecte toujours les paramètres externes Azure AD pour autoriser ou empêcher les ajouts d’utilisateurs invités au client. Pour plus d’informations, voir [autoriser l’accès invité dans Microsoft teams](Teams-dependencies.md).
@@ -56,16 +55,9 @@ En raison de ces limitations de licence (et pour garder votre client à jour), v
 
 Vous pouvez effectuer une révision par accès invité vous-même, demander aux invités de passer en revue leur appartenance ou demander à un propriétaire d’application ou à un concepteur de décision d’entreprise de procéder à la révision. Utiliser le portail Azure pour effectuer des révisions de l’accès invité. Pour plus d’informations, voir [gérer l’accès invité avec les avis sur Azure ad Access](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
-###  <a name="prerequisites-for-azure-ad-access-reviews"></a>Conditions préalables pour les avis sur Azure AD Access
-
-Les avis sur l’accès sont disponibles avec l’édition Premium d’Azure AD, qui est incluse dans Microsoft entreprise Mobility + Security, E5. Pour plus d’informations, reportez-vous à la rubrique [éditions d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis). Chaque utilisateur qui interagit avec cette fonctionnalité en créant un avis, en remplissant un avis ou en confirmant son accès, doit disposer d’une licence.
-
-
-
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Temps d’attente pour que les paramètres d’accès invités soient appliqués
 
-Pour les paramètres d’accès invité dans Azure Active Directory, il faut quelques heures pour que les modifications prennent effet dans Microsoft 365 ou Office 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
-
+Pour les paramètres d’accès invité dans Azure Active Directory, il faut quelques heures pour que les modifications prennent effet dans Microsoft 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
   
 ## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité
 

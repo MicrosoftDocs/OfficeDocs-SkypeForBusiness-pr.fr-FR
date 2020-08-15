@@ -19,17 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121634"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761290"
 ---
 # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
 > [!IMPORTANT]
-> Le modèle de service Teams est susceptible d’être modifié pour améliorer l’expérience des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception.
+> Le modèle de service Teams est susceptible d’être modifié pour améliorer les expériences des clients. Par exemple, il est possible que les heures d’expiration des jetons d’actualisation ou d’accès par défaut soient sujettes à des modifications pour améliorer les performances et la résilience de l’authentification pour les personnes qui utilisent Teams. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception.
 
 Microsoft Teams, dans le cadre des services Microsoft 365 et Office 365, respecte toutes les pratiques recommandées en matière de sécurité et des procédures telles que la sécurité de niveau de service, notamment les contrôles client de défense approfondie au sein du service, le renforcement de la sécurité et le fonctionnement optimal. techniques. Pour plus d’informations, voir le [centre de gestion de la confidentialité de Microsoft](https://microsoft.com/trustcenter).
 
@@ -127,7 +127,7 @@ Les connexions de serveur à serveur reposent sur le protocole TLS (MTLS) mutuel
 Les protocoles TLS et MTLS évitent les attaques par écoute clandestine et les attaques d’homme intercepteurs. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. La spécification des serveurs approuvés de TLS et de Teams atténue les risques d’attaque de l’intercepteur sur la couche d’application en utilisant le chiffrement qui est coordonné à l’aide du chiffrement à clé publique entre les deux points de terminaison. Un attaquant doit avoir un certificat valide et approuvé avec la clé privée correspondante et émis au nom du service vers lequel le client communique pour déchiffrer la communication.
 
 > [!NOTE]
-> Les données Teams sont chiffrées pendant le transit et au repos. Microsoft utilise les technologies standard du secteur telles que TLS et SRTP pour chiffrer toutes les données en transit entre les appareils des utilisateurs et les centres de données Microsoft, ainsi qu’entre les centres de données Microsoft. Elles comprennent les messages, fichiers, réunions et d’autres contenus. Les données de l’entreprise sont également chiffrées au repos dans les centres de données de Microsoft, ce qui permet aux organisations de déchiffrer du contenu le cas échéant, dans le but de respecter leurs obligations en matière de sécurité et de conformité, telles que eDiscovery.
+> Les données Teams sont chiffrées pendant le transit et au repos dans les centres de données Microsoft. Microsoft utilise les technologies standard du secteur telles que TLS et SRTP pour chiffrer toutes les données en transit entre les appareils des utilisateurs et les centres de données Microsoft, ainsi qu’entre les centres de données Microsoft. Elles comprennent les messages, fichiers, réunions et d’autres contenus. Les données de l’entreprise sont également chiffrées au repos dans les centres de données de Microsoft, ce qui permet aux organisations de déchiffrer du contenu le cas échéant, dans le but de respecter leurs obligations en matière de sécurité et de conformité, telles que eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Chiffrement pour Teams
 

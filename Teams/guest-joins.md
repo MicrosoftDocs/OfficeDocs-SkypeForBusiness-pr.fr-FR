@@ -18,12 +18,12 @@ description: Découvrez les étapes nécessaires pour ajouter des personnes en d
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 476640953c0b3773fde44727dede6b95e6bf676d
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 985374db5ff44d19efb26571dc7e9a0e78241002
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655915"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761230"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
@@ -31,7 +31,7 @@ ms.locfileid: "46655915"
 Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toutes les personnes ayant un compte de messagerie professionnel ou individuel tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
   
 > [!NOTE]
-> Par défaut, l’accès invité est désactivé. Pour permettre aux invités de rejoindre une équipe, l'administrateur doit donc activer l'accès invité dans Teams. Pour cela, utilisez la [Liste de contrôle d’accès invité](guest-access-checklist.md). 
+> Par défaut, l’accès invité est désactivé. Pour permettre aux invités de rejoindre une équipe, l'administrateur doit donc activer l'accès invité dans Teams. Pour cela, voir [collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Comment un invité peut devenir membre d'une équipe
 

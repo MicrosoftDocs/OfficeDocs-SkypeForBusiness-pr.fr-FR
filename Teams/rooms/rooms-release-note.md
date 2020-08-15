@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
-ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
+ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45390114"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761320"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -29,6 +29,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
@@ -65,6 +66,12 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
+
+### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
+
+Présenté dans cette mise à jour :
+- Réunions coordonnées entre Microsoft teams et surface Hub 2 
+- Correction du problème de connexion à Skype entreprise lors de la [mise à jour de Windows 10 KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) ou de la [mise à jour de Windows 10 KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709)
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
