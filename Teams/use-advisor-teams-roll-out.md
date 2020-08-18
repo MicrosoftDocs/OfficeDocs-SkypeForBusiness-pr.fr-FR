@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilisez Advisor for Teams pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761350"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788398"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -109,7 +109,7 @@ Outre les [Tests d’évaluation pour toutes les charges de travail](#assessment
 
 |Test d’évaluation  |Ce qu’il vous indique  |
 |---------|---------|
-|Licences d’audioconférences    |Si vous disposez d’un abonnement en cours avec des licences d’audioconférence. Il s’agit d’une condition préalable si vous déployez des ponts d’audioconférence. Interroge Microsoft Graph pour déterminer si vous disposez de licences d’audioconférence (avec au moins une licence disponible pour l’attribution). Pour plus d’informations, consultez [Licences de composants additionnels Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Licences d’audioconférences    |Si vous disposez d’un abonnement en cours avec des licences d’audioconférence. Il s’agit d’une condition préalable si vous déployez des ponts d’audioconférence. Interroge Microsoft Graph pour déterminer si vous disposez de licences d’audioconférence (avec au moins une licence disponible pour l’attribution). Pour plus d’informations, consultez [Licences de composants additionnels Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
 |Licences Stream     |Si vous disposez d’un abonnement actif avec des licences Microsoft Stream. Il s’agit d’une condition préalable si vous voulez activer Enregistrement de la réunion. Interroger Microsoft Graph pour déterminer si vous avez des licences Microsoft Stream (avec au moins une licence disponible à attribuer). Pour plus d’informations sur Stream et son activation, consultez [Enregistrement de réunions Teams sur le cloud](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Évaluations pour la mise à niveau de Skype Entreprise

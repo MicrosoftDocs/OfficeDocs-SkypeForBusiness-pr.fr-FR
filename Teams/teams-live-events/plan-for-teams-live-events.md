@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: df05da7313394bdc0856002014df8e8e18385774
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854106"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788338"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -54,7 +54,7 @@ Il est important de comprendre qu’une licence Microsoft 365 ou Office 365 est 
 > [!NOTE]
 > Les événements live Teams sont désormais disponibles pour les organisations de la communauté Cloud du gouvernement américain (GCC).
 
-Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 L’utilisateur doit disposer des éléments suivants :
 
