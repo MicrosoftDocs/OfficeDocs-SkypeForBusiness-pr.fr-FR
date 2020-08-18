@@ -143,7 +143,9 @@
 #### [Configuration requise](rooms/requirements.md)
 #### [Gestion des licences en ligne](rooms/rooms-licensing.md)
 #### [Planifier la gestion avec Azure Monitor](rooms/azure-monitor-plan.md)
-#### [Planifier la gestion avec Salles Microsoft Teams Premium](rooms/microsoft-teams-rooms-premium.md)
+#### Service géré de salles Microsoft Teams
+##### [Planifier la gestion avec le service géré de salles Microsoft Teams](rooms/microsoft-teams-rooms-premium.md)
+##### [Contrôle d’accès en fonction du rôle avec le service géré de salles Microsoft Teams](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### Déployer
 #### [Vue d’ensemble du déploiement](rooms/rooms-deploy.md)
 #### [Configurer les comptes](rooms/rooms-configure-accounts.md)
