@@ -16,16 +16,19 @@ search.appverid: MET150
 description: Découvrez comment teams prend en charge l’audio et la vidéo dans les navigateurs non pris en charge.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.openlocfilehash: 51d19affd962b396af42f4efaec707388b186094
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955713"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778046"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Réunions Microsoft teams sur les navigateurs non pris en charge
 
 Certains navigateurs tels qu’Internet Explorer 11, Safari et Firefox prennent en charge Microsoft teams Web App, mais ne prennent pas en charge certaines fonctionnalités d’appel et de réunion. Pour contourner cette limitation, Team Web App permet aux utilisateurs de recevoir du son par le biais d’une connexion RTC et de lui permettre d’afficher le contenu présenté (partage d’écran) à un tarif réduit.
+
+> [!Note]
+> Les applications et services Microsoft 365 ne prennent pas en charge Internet Explorer 11 au début du 17 août 2021 (Microsoft Teams ne prend pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 reste pris en charge. Internet Explorer 11 est un composant du système d’exploitation Windows et [suit la politique de cycle de vie](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) pour le produit sur lequel il est installé.
 
 Lorsque teams détecte un navigateur non pris en charge, un message s’affiche automatiquement pour vous expliquer le problème et les limites de la session. Le message fournit des instructions supplémentaires pour accéder à l’audio de la réunion, par exemple pour indiquer à l’utilisateur de laisser un numéro d’appel pour que les équipes puissent appeler l’utilisateur, ou pour demander à l’utilisateur d’appeler le numéro de la Conférence incluse dans l’invitation à la réunion. Le message encourage également l’utilisateur à télécharger et utiliser le [client de bureau teams](https://teams.microsoft.com/downloads) pour l’expérience complète de teams.
 
@@ -45,6 +48,6 @@ Les utilisateurs d’Team Web App sur les navigateurs non pris en charge sont so
 
 Pour plus d’informations sur la prise en charge du navigateur dans Teams, voir [limites et spécifications pour teams](/microsoftteams/limits-specifications-teams#browsers).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Participation à une réunion teams sur un navigateur non pris en charge](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

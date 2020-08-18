@@ -1,0 +1,87 @@
+### YamlMime:Hub
+title: Documentation vocale Microsoft 365
+summary: Découvrez comment planifier, configurer et utiliser Téléphonie Microsoft 365 pour les PME au sein de votre organisation. Téléphonie pour les PME permet aux petites et moyennes entreprises de configurer facilement un système téléphonique souple et performant en évitant les frais et la complexité liés aux solutions internes.
+metadata:
+  title: Documentation vocale Microsoft 365
+  description: Découvrez comment planifier, déployer et utiliser Téléphonie Microsoft 365 pour les PME.
+  ms.topic: hub-page
+  author: dstrome
+  ms.author: dstrome
+  ms.date: 06/17/2020
+  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
+  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 08/17/2020
+  ms.locfileid: "46778109"
+productDirectory:
+  items:
+  - title: Explorer
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    links:
+    - url: whats-business-voice.md
+      text: Qu’est-ce que Téléphonie pour les PME ?
+    - url: https://www.microsoft.com/microsoft-365/business-voice
+      text: Téléphonie Microsoft 365 pour les PME
+    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+      text: Description de service
+  - title: Configurer
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+      text: Comment obtenir Téléphonie pour les PME ?
+    - url: get-ready-internet.md
+      text: Vérifiez votre connexion Internet
+    - url: prepare-users.md
+      text: Préparation de vos utilisateurs
+    - url: use-getting-started-wizard.md
+      text: Exécution de l’Assistant Prise en main
+  - title: Personnalisation de votre configuration
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    links:
+    - url: port-phone-numbers.md
+      text: Transfert de numéros de téléphone existants
+    - url: set-up-auto-attendants.md
+      text: Configuration de standards automatiques
+    - url: set-up-policies.md
+      text: Configuration de stratégies
+    - url: set-up-call-queues.md
+      text: Configuration de files d’attente d’appels
+  - title: Utilisation
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    links:
+    - url: create-users.md
+      text: Création d’autres utilisateurs
+    - url: manage-devices.md
+      text: Gestion de vos appareils
+    - url: monitor-quality.md
+      text: Surveillance de la qualité des appels
+    - url: analytics-dashboard.md
+      text: Tableau de bord de qualité et d’analyse des appels
+  - title: Ressources destinées aux partenaires
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    links:
+    - url: https://docs.microsoft.com/partner-center/
+      text: Accédez à l’Espace partenaires pour obtenir Microsoft 365 Business
+    - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
+      text: Téléphonie Microsoft 365 pour les PME pour les partenaires
+    - url: partner-resources.md
+      text: Ressources d’aide pour les partenaires Téléphonie Microsoft 365 pour les PME
+  - title: Vous avez besoin d’aide ?
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+      text: Contacter l’assistance pour Microsoft 365 ou Office 365
+    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
+      text: Communauté technique pour les petites et moyennes entreprises
+  - title: Documentation d’aide
+    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    links:
+    - url: /microsoftteams/cloud-voice-landing-page
+      text: Documents d’administration Microsoft Teams
+    - url: https://microsoftteams.uservoice.com/
+      text: Votre avis Microsoft Teams UserVoice
+    - url: https://support.office.com/teams
+      text: Documents pour les clients Microsoft Teams
+    - url: https://docs.microsoft.com/office365/admin/
+      text: Documents d’administrateur Microsoft 365 et Office 365

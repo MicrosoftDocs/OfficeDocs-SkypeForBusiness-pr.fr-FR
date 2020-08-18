@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: Découvrez comment affecter des licences de complément d’équipe aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 5dd09ae11104aa0297a12417d4c267edfc17cf3f
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868581"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788738"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribution de licences de complément d’équipe aux utilisateurs
 
 Les licences de compléments sont des licences pour des fonctionnalités d’équipe spécifiques, telles que les conférences audio, le système téléphonique et les offres d’appels. Cet article décrit comment affecter des licences de complément à des utilisateurs individuels et à des groupes de personnes volumineux en bloc.
 
 > [!NOTE]
-> Pour plus d’options, voir [licences de complément teams](microsoft-teams-add-on-licensing.md) disponibles avec des licences de compléments. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (en fonction de votre plan), de sorte que les utilisateurs puissent obtenir des fonctions telles que les services d’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Une fois que vous avez décidé des fonctionnalités que vous voulez pour vos utilisateurs, attribuez-leur des licences.
+> Pour plus d’options, voir [licences de complément teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) disponibles avec des licences de compléments. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (en fonction de votre plan), de sorte que les utilisateurs puissent obtenir des fonctions telles que les services d’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Une fois que vous avez décidé des fonctionnalités que vous voulez pour vos utilisateurs, attribuez-leur des licences.
 
 Vous pouvez utiliser le centre d’administration 365 Microsoft ou PowerShell pour attribuer des licences aux utilisateurs de votre organisation. Vous devez être un administrateur général ou un administrateur de gestion des utilisateurs pour gérer les licences.
 
@@ -155,7 +155,7 @@ Pour en savoir plus, voir [afficher des licences et services avec PowerShell](ht
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Licences de module complémentaire Teams](microsoft-teams-add-on-licensing.md)
+- [Licences de module complémentaire Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)
 - [Afficher les licences et services avec PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Noms de produits et identificateurs de plans de service pour la gestion des licences](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

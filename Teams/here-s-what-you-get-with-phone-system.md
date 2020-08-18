@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer le système Microsoft Phone pour votre entreprise. '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638343"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788428"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Voici les avantages du système téléphonique
 
@@ -80,7 +80,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans les nuages de
 - Attente musicale
 - Liste de choix pour le numéro inverse d’Azure AD
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)
@@ -88,7 +88,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans les nuages de
 - [Quelle forfait d’appels vous convient le mieux ?](calling-plan-landing-page.md)
 - [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
-- [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Tarification pour Système téléphonique](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Équipes pour l’infrastructure de bureau virtualisée avec des appels et des réunions](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour les utilisateurs de Microsoft Teams, afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18c2cd710459e84f8dc7c0e09ed0fe6f8142bf2c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44609959"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788668"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
@@ -35,7 +35,7 @@ Lorsque vous configurez des plans d’appel, vous attribuez des numéros de tél
 
 Lorsque vous configurez des utilisateurs afin qu’ils puissent passer et recevoir des appels téléphoniques, vous devez commencer par utiliser le centre d’administration Microsoft teams et affecter un numéro de téléphone. Vous pouvez modifier ou supprimer le numéro de téléphone le cas échéant.
   
-Pour plus d’informations sur la façon d’obtenir des plans d’appel dans teams et leur coût, voir [licences de module complémentaire équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour plus d’informations sur la façon d’obtenir des plans d’appel dans teams et leur coût, voir [licences de module complémentaire équipes](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 > [!NOTE]
 > Une façon de savoir si une licence a été attribuée à un utilisateur est d’accéder au centre d’administration Microsoft teams > **utilisateurs**. Si une licence est affectée, elle apparaît sur la page.  Vous pouvez également utiliser le centre d’administration Microsoft 365.
@@ -78,7 +78,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 4. Dans le volet d' **édition** , sous **affecté à**, cliquez sur la **Croix (X** ) pour supprimer l’utilisateur.
 5. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

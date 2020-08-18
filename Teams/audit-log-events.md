@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit.
+description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit dans le centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648535"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778006"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -65,8 +65,11 @@ Vous trouverez ci-dessous des conseils pour rechercher des activités d’équip
 
 - Vous pouvez sélectionner des activités spécifiques à rechercher en cliquant sur le nom de l’activité. Vous pouvez aussi rechercher toutes les activités d’un groupe (par exemple, les **activités des fichiers et des dossiers**) en cliquant sur le nom du groupe. Si une activité est sélectionnée, vous pouvez cliquer dessus pour annuler la sélection. Vous pouvez également utiliser la zone de recherche pour afficher les activités qui contiennent le mot clé que vous tapez.<br>
     ![Capture d’écran de la recherche dans le journal d’audit](media/audit-log-search.png)
+
 - Pour afficher les événements pour les activités exécutées à l’aide d’applets de requête, sélectionnez **afficher les résultats pour toutes les activités** dans la liste **activités** . Si vous connaissez le nom de l’opération pour ces activités, recherchez toutes les activités, puis filtrez les résultats en entrant le nom de l’opération dans la zone de la colonne **activité** . Pour en savoir plus, reportez-vous à [l’étape 3 : filtrer les résultats de la recherche](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+
 - Pour effacer les critères de recherche actuels, cliquez sur **Effacer**. La plage de dates revient à la valeur par défaut des sept derniers jours. Vous pouvez également cliquer sur **tout effacer pour afficher les résultats pour toutes les activités** et annuler toutes les activités sélectionnées.
+
 - Si 5 000 est trouvé, vous pouvez probablement supposer qu’il y a plus de 5 000 événements qui répondent aux critères de recherche. Vous pouvez affiner les critères de recherche et relancer la recherche pour renvoyer moins de résultats, ou vous pouvez exporter tous les résultats de recherche en sélectionnant **Exporter les résultats**pour  >  **Télécharger tous les résultats**.
 
 Regardez [cette vidéo](https://www.youtube.com/embed/UBxaRySAxyE) pour utiliser la recherche dans le journal audio. Rejoignez Ansuman Acharya, responsable de programme pour Teams, comme il montre comment effectuer une recherche dans le journal d’audit pour les équipes.
@@ -99,7 +102,7 @@ Comme mentionné plus haut, vous pouvez surveiller des scénarios de suppression
 
 Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’équipe, y compris la gravité, l’action unique ou répétée, et les paramètres limitant ce paramètre à la suppression des équipes et des sites. Cette opération peut être réalisée indépendamment d’un modèle, ou vous avez peut-être créé un modèle sur lequel baser cette stratégie, en fonction des besoins de votre organisation.
 
-Après avoir établi une stratégie qui fonctionnera pour votre entreprise, vous pouvez passer en revue les résultats dans le journal d’activité en tant qu’événements déclenchés :
+Après avoir établi une stratégie adaptée aux besoins de votre entreprise, vous pouvez passer en revue les résultats du journal d’activité en tant qu’événements déclenchés :
 
 ![Capture d’écran d’une liste d’événements déclenchés par des suppressions massiques](media/TeamsMassDeleteList.png)
 
@@ -181,7 +184,7 @@ Si votre organisation utilise l’application Shifts dans Microsoft Teams, vous 
 |Entrée de l’heure de suppression    |TimeClockEntryDeleted              |Un utilisateur a correctement supprimé une entrée Time Clock dans une feuille de temps.          |
 |Demande de Shift ajoutée         |RequestAdded              |Un utilisateur a ajouté une demande de Shift.          |
 |Réponse à une demande de Shift     |RequestRespondedTo                  |Un utilisateur a répondu à une demande de Shift.          |
-|Demande de Shift annulée         |RequestCanceled               |Un utilisateur a annulé une demande de Shift.          |
+|Demande de Shift annulée         |RequestCancelled               |Un utilisateur a annulé une demande de Shift.          |
 |Paramètre de planification modifié      |ScheduleSettingChanged          |Un utilisateur modifie un paramètre dans les paramètres de décalage.         |
 |Intégration de main-d’œuvre ajoutée      |WorkforceIntegrationAdded                  | Le changement d’application est intégré à un système tiers.         |
 |A accepté le message Shift         |OffShiftDialogAccepted          |Un utilisateur confirme le message hors décalage pour accéder aux équipes après les heures de travail.           |
@@ -190,11 +193,10 @@ Si votre organisation utilise l’application Shifts dans Microsoft Teams, vous 
 
 Vous pouvez utiliser l’API activité de gestion d’Office 365 pour récupérer des informations sur les événements d’équipe. Pour en savoir plus sur le schéma de l’API activité de gestion pour Teams, voir [schéma d’équipe](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-
 ## <a name="attribution-in-teams-audit-logs"></a>Attribution dans les journaux d’audit d’équipes
 
 Les modifications d’appartenance aux équipes (par exemple, les utilisateurs ajoutés ou supprimés) apportées à l’aide d’Azure Active Directory (Azure AD), du portail d’administration Microsoft 365 ou de l’API graphique Microsoft 365 Groups s’affichent dans les messages d’audit des équipes et dans le canal général avec une attribution à un propriétaire existant de l’équipe, et non à l’initiateur réel de l' Dans ces scénarios, consultez les [journaux d’audit d'](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Azure ad ou du groupe Microsoft 365 pour consulter les informations pertinentes.
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Effectuer une recherche dans le journal d’audit dans le centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
+- [Effectuer une recherche dans le journal d’audit dans le centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

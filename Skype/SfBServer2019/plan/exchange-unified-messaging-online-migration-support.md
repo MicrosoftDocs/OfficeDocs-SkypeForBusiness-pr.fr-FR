@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842025"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778036"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -100,7 +100,7 @@ Pour vous inscrire à une migration planifiée, envoyez une demande de courrier 
 
 - Date par défaut (mardis) : les vagues de migration sont exécutées tous les mardis. Veuillez sélectionner une date sur un mardi qui n’est pas au-delà de 12/3/2019.
  
-- ID de client : 32 caractères numériques au format 0046728c-688a-4472-a38f-098fec60ac6x. Vous pouvez trouver votre ID de locataire dans le portail d’administration 365 de Microsoft sous Azure AD ou à l’aide de l’applet de commande PowerShell suivante :`Get-CsTenant | Select ObjectId`
+- ID de client : 32 caractères numériques au format 0046728c-688a-4472-a38f-098fec60ac6x. Vous pouvez trouver votre ID de locataire dans le portail d’administration 365 de Microsoft sous Azure AD ou à l’aide de l’applet de commande PowerShell suivante : `Get-CsTenant | Select ObjectId`
 
 Vous recevrez une confirmation par courrier électronique une fois que votre client aura été correctement migré.
 
@@ -148,14 +148,14 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités utilisateur | Enregistrer les messages d’accueil personnels (appareil authentifié) |  | v | v    |
 | Media | Fonctionnalités utilisateur | Enregistrer les messages d’accueil personnels (PSTN) — émettre au téléphone |  | N | v    |
 | Media | Fonctionnalités utilisateur | Paramètre utilisateur permettant de désactiver la transcription |  | N | v    |
-| Media | Fonctionnalités utilisateur | Phonétique  |  | v | v    |
+| Media | Fonctionnalités utilisateur | Transcription  |  | v | v    |
 | Media | Fonctionnalités utilisateur | Messagerie vocale visuelle sur tous les points de terminaison   | Avec contrôle utilisateur pour lire, supprimer, indicateur d’attente des messages et état-bascule, sur tous les points de terminaison pris en charge  | v | v    |
 | Media | Fonctionnalités utilisateur | Format de fichier audio MP3 dans Outlook    |  | v | v    |
 | Media | Fonctionnalités utilisateur | Contrôle de lecture à vitesse variable |  | v | v    |
 | Media | Fonctionnalités utilisateur | Transférer une messagerie vocale  | Transférer une messagerie vocale reçue à d’autres utilisateurs | v | v    |
 | Media | Fonctionnalités utilisateur | Envoi d’un message vocal à un groupe d’utilisateurs  |Diffusion de messagerie vocale   | N | v   |
 | Media | Fonctionnalités utilisateur | Notification de messagerie vocale à l’aide de SMS    | Les utilisateurs peuvent recevoir un SMS lorsqu’ils ont une nouvelle messagerie vocale    | N | v    |
-| Media | Fonctionnalités utilisateur | Langues de salutation prises en charge | Détails :https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| Media | Fonctionnalités utilisateur | Langues de salutation prises en charge | Détails : https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | Media | Fonctionnalités utilisateur | Règles de répondeur automatique |  | v | v    |
 | Media | Fonctionnalités utilisateur | Émettre un message sur le téléphone (RTC) | M’appeler sur ma cellule pour écouter le message vocal  | N | v    |
 | Media | Fonctionnalités utilisateur | Émettre au téléphone (auth)-pour lire un message | M’appeler sur mon appareil authentifié  | v | v    |
@@ -165,13 +165,13 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités de l’appelant  | Détection de silence   |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : l’administrateur peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme protégée | v | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la durée limite d’enregistrement  |     | v | v    |
-| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | S/O    | v    |
+| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | N/A    | v    |
 | Media | Client-fonctionnalités d’administration | Modifier le nombre d’échecs d’entrée | CVM : préprogrammé préprogrammé sur 3 | N | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la langue par défaut |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la transcription |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | S/O    | v    |
+| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | N/A    | v    |
 | Media | Client-fonctionnalités d’administration | Masquage de transcription|  | v | N    |
 | Media | Client-fonctionnalités d’administration | Stratégie de messagerie vocale    |   | v | v    |
 | Media | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | v    |
@@ -181,7 +181,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | AUTOMATIQUE | Fonctionnalités de service | Prise en charge de Microsoft teams|  | v | N    |
 | AUTOMATIQUE | Fonctionnalités de service | Numérotation par nom, entrée DTMF    |  | v | v    |
 | AUTOMATIQUE | Fonctionnalités de service | Numérotation par nom, entrée vocale  |  | v | v    |
-| AUTOMATIQUE | Fonctionnalités de service | Prise en charge de plusieurs langues | Détails de la langue :https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AUTOMATIQUE | Fonctionnalités de service | Prise en charge de plusieurs langues | Détails de la langue : https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | AUTOMATIQUE | Fonctionnalités de service | Transférer vers l’opérateur, CQ ou un utilisateur |  | v | v    |
 | AUTOMATIQUE | Fonctionnalités de service | Transférer vers le numéro RTC en interne (DID RNL)  |  | v | v    |
 | AUTOMATIQUE | Fonctionnalités de service | Transférer vers le numéro RTC en externe  |  | Section problèmes connus (voir ci-dessous) | v    |
@@ -197,7 +197,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | AUTOMATIQUE | Fonctionnalités de service | Plusieurs attributions de numéros RTC à un AA|  | v | v    |
 | AUTOMATIQUE | Client-fonctionnalités d’administration | Administration du portail Web   |  | v | N    |
 | AUTOMATIQUE | Client-fonctionnalités d’administration | Cmdlets PowerShell  |  | v | v    |
-| Télécopie| Fonctionnalités de service | Intégration de la télécopie|  | N | v    |
+| Fax| Fonctionnalités de service | Intégration de la télécopie|  | N | v    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de test suggéré et validation post-migration pour les administrateurs
 
@@ -223,7 +223,7 @@ Voici une présentation de l’expérience de migration de la messagerie vocale 
 |Notification par courrier électronique | Aucune modification<br>Aucun courrier électronique n’est envoyé aux utilisateurs pour les informer sur l’activation/la migration des comptes de messagerie vocale. |
 |Accès aux messages précédents | Aucune modification<br>Les utilisateurs ont accès à leurs messages vocaux précédents dans tous les points de terminaison pris en charge. |
 |Réception d’un ordinateur virtuel dans Outlook, applications SFB| Aucune modification<br>Les utilisateurs continuent de recevoir leurs messages vocaux dans tous les points de terminaison pris en charge. |
-|Phonétique | Avancée<br>La transcription CVM a un taux de précision plus élevé et des langues prises en charge par rapport à ExchUMO. |
+|Transcription | Avancée<br>La transcription CVM a un taux de précision plus élevé et des langues prises en charge par rapport à ExchUMO. |
 |Paramètre utilisateur | Nouvelle expérience<br>Les utilisateurs peuvent modifier leurs préférences à partir d’un portail de paramètres utilisateur (USP). Les utilisateurs peuvent accéder à leur USP à partir d’un lien hypertexte dans leur messagerie vocale ou au bouton paramètres utilisateur sur leur client SFB ; https://aka.ms/vmsettings.
  |Fonctionnalités| Pour plus d’informations, reportez-vous à la comparaison des jeux de fonctionnalités. |
 |Règles Outlook pour les messages VM | Aucune modification<br>Les règles créées précédemment s’appliqueront aux messages CVM après la migration.
@@ -245,13 +245,7 @@ L’accès abonné peut continuer à fonctionner pour votre client jusqu’à ce
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>Transfert d’appel de standard automatique vers PSTN
 
-Les clients sont encouragés à configurer une solution temporaire pour répondre aux exigences du transfert d’un appel de standard automatique vers un numéro RTC externe ou vers une instance RGS.
-
-Un problème a été identifié lors de l’assurance de la qualité avec la fonctionnalité « transférer vers le numéro RTC », qui ne sera pas résolue en temps que les clients commencent à migrer du service Exchange UMO avant sa date de retraite planifiée du 28 février 2020. En guise de solution de contournement, les administrateurs peuvent transférer des appelants de standard automatique vers un utilisateur virtuel sur site avec un paramètre de transfert d’appel actif vers le numéro de téléphone RTC ou le numéro de téléphone RGS désiré. L’expérience attendue est la suivante :
-
-- Les administrateurs n’ont pas besoin de disposer d’une licence pour l’utilisateur virtuel étant donné qu’il s’agit d’une solution de contournement.
-- Les administrateurs peuvent manipuler l’ID de l’appelant que voit le récepteur RTC en affectant le numéro désiré à l’utilisateur virtuel ou en utilisant les fonctionnalités de manipulation des chiffres SBC.
-- Les appelants RTC ne subiront aucun retard pendant le transfert d’appel et continueront de voir l’ID de l’appelant du standard automatique une fois le transfert réussi.
+Pour transférer un appel de standard automatique vers un numéro de téléphone RTC externe via Skype entreprise Server ou un service de groupe de réponse (RGS) sur Skype entreprise Server, créez un utilisateur local dont le transfert d’appel est défini sur le numéro de téléphone RTC ou le numéro de téléphone RGS. L’utilisateur doit être activé et configuré correctement pour voix entreprise et une stratégie de voix est attribuée.
 
 #### <a name="shared-mailbox-is-still-accessible"></a>La boîte aux lettres partagée est toujours accessible
 

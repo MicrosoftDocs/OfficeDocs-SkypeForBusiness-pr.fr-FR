@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: En savoir plus sur l’option de paiement à la minute pour activer les fonctionnalités de l’audioconférence pour les organisations qui utilisent le programme de licence en volume Microsoft.
-ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021742"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788678"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -54,7 +54,7 @@ Même si l’offre de licence par utilisateur est utilisée par la fonction de c
 > [!NOTE]
 > Vous pouvez consulter les tarifs d’appels entrants et sortants associés à ces types d’appels en passant en revue la **section Voir les tarifs pour l’endroit où vous souhaitez appeler** dans [audioconférence](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
   
-Les paiements à la minute nécessitent que votre organisation ait configuré des [crédits de communication](what-are-communications-credits.md) . Il est également nécessaire qu’une licence par minute et qu’une licence de crédits de communication soient attribuées à chaque utilisateur pour que l’audioconférence puisse fonctionner. Si vous souhaitez obtenir plus d’informations, reportez-vous [à la rubrique Configurer les crédits de communication pour les licences de compléments de votre organisation](set-up-communications-credits-for-your-organization.md) et/ou [Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Les paiements à la minute nécessitent que votre organisation ait configuré des [crédits de communication](what-are-communications-credits.md) . Il est également nécessaire qu’une licence par minute et qu’une licence de crédits de communication soient attribuées à chaque utilisateur pour que l’audioconférence puisse fonctionner. Si vous souhaitez obtenir plus d’informations, reportez-vous [à la rubrique Configurer les crédits de communication pour les licences de compléments de votre organisation](set-up-communications-credits-for-your-organization.md) et/ou [Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 Pour activer l’audioconférence pour les utilisateurs de votre organisation, reportez-vous à la rubrique [essayer ou acheter une audioconférence dans Microsoft Office 365 ou Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
@@ -82,9 +82,9 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, r
     
 - [Tarifs de forfaits d'appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
   
-[Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
   
  

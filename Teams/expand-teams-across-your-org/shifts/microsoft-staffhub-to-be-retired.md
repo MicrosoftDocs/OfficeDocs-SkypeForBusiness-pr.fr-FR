@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938313"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778056"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub a été supprimé
 
@@ -90,6 +90,9 @@ Le fonctionnement principal est identique entre les équipes iOS et Android. Il 
 #### <a name="what-browsers-does-shifts-work-on"></a>Quels sont les navigateurs sur lesquels fonctionne le changement ?
 
 Shifts fonctionne sur tous les navigateurs pris en charge par Teams, qui inclut les versions les plus récentes de Microsoft Edge, Internet Explorer, Google Chrome et Mozilla Firefox. Pour plus d’informations, voir [obtenir des clients pour teams](../../get-clients.md).
+
+> [!Note]
+> Les applications et services Microsoft 365 ne prennent pas en charge Internet Explorer 11 au début du 17 août 2021 (Microsoft Teams ne prend pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 reste pris en charge. Internet Explorer 11 est un composant du système d’exploitation Windows et [suit la politique de cycle de vie](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) pour le produit sur lequel il est installé. 
 
 #### <a name="what-languages-does-shifts-support"></a>Quelles sont les langues prises en charge par le changement ?
 

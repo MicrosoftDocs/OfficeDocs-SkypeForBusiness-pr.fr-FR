@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083174"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788708"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -78,7 +78,7 @@ Les exigences d’infrastructure pour les domaines SBCs et de connectivité rés
 |Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits de votre organisation Microsoft 365 ou Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
 |Entrée DNS publique pour l’SBC |Une entrée DNS publique qui mappe le nom de domaine complet du SBC à l’adresse IP publique. |
 |Certificat de confiance public pour l’SBC |Certificat de l’SBC à utiliser pour toutes les communications avec le routage direct. Pour plus d’informations, voir [certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc).|
-|Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`-Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP : FQDN](#sip-signaling-fqdns).|
+|Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :<br/><br/>`sip.pstnhub.microsoft.com` -Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com` – Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com` – Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP : FQDN](#sip-signaling-fqdns).|
 |Adresses IP et ports du pare-feu pour le média de routage direct |Le SBC communique avec les services suivants dans le Cloud :<br/><br/>Proxy SIP, qui gère le signalement<br/>Processeur multimédia, qui gère les éléments multimédias, sauf lorsque la dérivation multimédia est activée<br/><br/>Ces deux services ont des adresses IP distinctes dans le Cloud Microsoft, décrites plus loin dans ce document.<br/><br/>Pour plus d’informations, reportez-vous à la [section Microsoft teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans les [URL et les plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de transport de média|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Adresses IP et ports pour le pare-feu pour les éléments multimédias de Microsoft teams |Pour plus d’informations, voir [URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -119,7 +119,7 @@ Le mélange d’un plan d’appel et de la connectivité de routage directe pour
 
 Pour plus d’informations sur la gestion des licences de système téléphonique, voir [tirer le meilleur parti des options de bureau et de](https://products.office.com/compare-all-microsoft-office-products?tab=2) [plan](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Pour plus d’informations sur la gestion des licences de système téléphonique, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+Pour plus d’informations sur la gestion des licences de système téléphonique, voir [licences de complément Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
 
 ## <a name="supported-end-points"></a>Points de terminaison pris en charge 
 

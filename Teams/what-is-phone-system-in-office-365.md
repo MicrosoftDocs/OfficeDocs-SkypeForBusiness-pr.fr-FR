@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir la technologie du système téléphonique dans Microsoft 365 et Office 365.
-ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666126"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788418"
 ---
 # <a name="what-is-phone-system"></a>Qu’est-ce que le système téléphonique ?
 
@@ -69,12 +69,12 @@ Le système téléphonique peut être connecté au RTC de l’une des deux mani�
 
 Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous obtenez avec le système téléphonique](here-s-what-you-get-with-phone-system.md). Si vous êtes prêt à commencer, reportez-vous à [la rubrique Configuration de système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Fonctionnalités du système téléphonique](here-s-what-you-get-with-phone-system.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)
 - [Configurer le système téléphonique](setting-up-your-phone-system.md)
 - [Quelle forfait d’appels vous convient le mieux ?](calling-plan-landing-page.md)
 - [Routage direct via le système téléphonique](direct-routing-landing-page.md)
-- [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

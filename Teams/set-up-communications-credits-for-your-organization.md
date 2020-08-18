@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691240"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788368"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -42,18 +42,18 @@ Lorsque vous vous inscrivez, vous obtenez un certain nombre de minutes en foncti
   
 Pour ce faire, **vous devez affecter une licence d’audioconférence ou de système téléphonique** à vos utilisateurs.
   
-- Affecter une licence de **conférence audio** à vos utilisateurs. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Affecter une licence de **conférence audio** à vos utilisateurs. Voir [affecter des licences de compléments Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
     Après avoir affecté cette licence, vous devez configurer l’audioconférence. Pour obtenir des instructions détaillées, reportez-vous à la rubrique [essayer ou acheter une audioconférence dans Microsoft 365 ou Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Attribution d’un **système téléphonique** et d’une licence de plan d’appel **national ou national et international** à vos utilisateurs. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Attribution d’un **système téléphonique** et d’une licence de plan d’appel **national ou national et international** à vos utilisateurs. Voir [affecter des licences de compléments Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
     > [!NOTE]
     > Même si cela n’est pas obligatoire pour les crédits de communication, vous devez également affecter une licence de plan d' **appel national** ou **national et international** .
   
     Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, consultez la rubrique [configurer les offres d’appels](set-up-calling-plans.md).
     
-Pour plus d’informations, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour plus d’informations, reportez-vous à la rubrique [licences de complément Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Étape 2 : configurer les crédits de communication pour votre organisation
 
@@ -73,7 +73,7 @@ Pour plus d’informations, reportez-vous à la rubrique [licences de complémen
     
    - **Montant de la recharge** Entrez dans la zone **recharger avec** le montant que vous souhaitez ajouter à votre compte dès qu’il atteint le montant du déclencheur inférieur.
     
-   - **Montant du déclencheur** Entrez dans la zone montant **lorsque le solde devient inférieur** à, qui sera utilisé pour *déclencher* la recharge automatique. Lorsque votre solde devient inférieur à ce montant, le montant de la recharge sera automatiquement ajouté à votre compte.
+   - **Montant du déclencheur** Entrez dans la zone montant **lorsque le solde devient inférieur** à, qui sera utilisé pour *déclencher*  la recharge automatique. Lorsque votre solde devient inférieur à ce montant, le montant de la recharge sera automatiquement ajouté à votre compte.
 
       > [!NOTE]
      > Les fonds seront appliqués uniquement aux crédits de communication au tarif publié par Microsoft lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
@@ -116,9 +116,9 @@ Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suiv
     
 Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation**  >  **abonnements**  >  **Ajouter des abonnements**.
   
-Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

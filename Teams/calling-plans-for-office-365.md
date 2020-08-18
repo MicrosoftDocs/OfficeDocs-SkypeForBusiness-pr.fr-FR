@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 427215df1540c11a58d834c59fce84c2b62f96e2
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691400"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788618"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
@@ -58,19 +58,19 @@ Pour obtenir des informations détaillées sur les limites et les conditions d�
     ![Capture d’écran montrant l’option d’achat d’une offre d’appels vocaux.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > En fonction de votre plan, il est possible que vous deviez acheter des modules complémentaires avant de pouvoir acheter des licences de système téléphonique. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > En fonction de votre plan, il est possible que vous deviez acheter des modules complémentaires avant de pouvoir acheter des licences de système téléphonique. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 2. Une fois que vous avez acheté des licences de système téléphonique, vous pouvez acheter l’offre d’appels en vous connectant au **Centre d’administration 365**, puis en cliquant sur **Billing**  >  **Purchase services**  >  **abonnements de complément services de**facturation, puis sur **acheter maintenant**. Les plans d’appel apparaissent là.
     
     ![Capture d’écran montrant les options du plan d’appels vocaux.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-En fonction des besoins de votre organisation, vous pouvez acheter et attribuer différentes offres d’appels à différents utilisateurs. Après avoir sélectionné le plan d’appel dont vous avez besoin, procédez à l’extraction. Vous attribuez un plan à chaque utilisateur dans le centre d’administration Microsoft 365. Pour savoir comment procéder, voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+En fonction des besoins de votre organisation, vous pouvez acheter et attribuer différentes offres d’appels à différents utilisateurs. Après avoir sélectionné le plan d’appel dont vous avez besoin, procédez à l’extraction. Vous attribuez un plan à chaque utilisateur dans le centre d’administration Microsoft 365. Pour savoir comment procéder, voir [affecter des licences de compléments Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Avez-vous un fournisseur de services proposant une connectivité RTC sur site aux utilisateurs hybrides ?
 
 Si tel est le cas, vous n’avez pas besoin d’acheter un plan d’appel. Office 365 entreprise E5 inclut le module complémentaire **système téléphonique** , de sorte que vous pouvez procéder à l’extraction.
   
-Ensuite, affectez les licences de compléments entreprise E5 ou du **système téléphonique** aux utilisateurs du centre d’administration 365 Microsoft. Pour savoir comment procéder, voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Ensuite, affectez les licences de compléments entreprise E5 ou du **système téléphonique** aux utilisateurs du centre d’administration 365 Microsoft. Pour savoir comment procéder, voir [affecter des licences de compléments Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="pricing-information"></a>Informations de tarification
 
@@ -86,7 +86,7 @@ Voici d’autres articles sur la configuration de vos plans d’appel :
   
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
     
 - [Voici ce que vous pouvez obtenir avec le système téléphonique dans Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
