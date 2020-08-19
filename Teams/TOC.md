@@ -707,6 +707,7 @@
 ### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
 ### [Plan pour Microsoft 365 pour entités publiques - DoD](plan-for-government-dod.md)
 ### [Audioconférence avec routage direct pour GCC High et DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [Packages de stratégie Teams pour le gouvernement](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
