@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778066"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803990"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -178,9 +178,9 @@ Pour en savoir plus sur les équipes et les applications 365 Microsoft pour les 
 
         La prochaine session interactive de connexion démarre teams et demande des informations d’identification.
 
-    > [!NOTE]
-    > Ces exemples utilisent également le paramètre **ALLUSERS = 1** . Lorsque vous définissez ce paramètre, le programme d’installation à l’échelle de l’entreprise teams apparaît dans programmes et fonctionnalités dans le panneau de configuration et dans applications & fonctionnalités dans les paramètres Windows de tous les utilisateurs de l’ordinateur. Tous les utilisateurs peuvent alors désinstaller teams s’ils possèdent des informations d’identification d’administrateur.
-    Il est important de comprendre la différence entre **ALLUSERS = 1** et **ALLUSER = 1**. Le paramètre **ALLUSERS = 1** peut être utilisé dans les environnements non-VDI et VDI, alors que le paramètre **ALLUSER = 1** est utilisé uniquement dans les environnements VDI pour spécifier une installation par ordinateur.
+        > [!NOTE]
+        > Ces exemples utilisent également le paramètre **ALLUSERS = 1** . Lorsque vous définissez ce paramètre, le programme d’installation à l’échelle de l’entreprise teams apparaît dans programmes et fonctionnalités dans le panneau de configuration et dans applications & fonctionnalités dans les paramètres Windows de tous les utilisateurs de l’ordinateur. Tous les utilisateurs peuvent alors désinstaller teams s’ils possèdent des informations d’identification d’administrateur.
+        Il est important de comprendre la différence entre **ALLUSERS = 1** et **ALLUSER = 1**. Le paramètre **ALLUSERS = 1** peut être utilisé dans les environnements non-VDI et VDI, alors que le paramètre **ALLUSER = 1** est utilisé uniquement dans les environnements VDI pour spécifier une installation par ordinateur.
 
 3. Désinstaller le MSI de l’ordinateur virtuel VDI.
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies de réunion, consultez la rubrique [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
+## <a name="control-fallback-mode-in-teams"></a>Contrôle du mode de secours dans teams
+
+Lorsque les utilisateurs se connectent à partir d’un point de terminaison non pris en charge, les utilisateurs sont en mode de secours, dans lesquels l’AV n’est pas optimisé. Vous pouvez désactiver ou activer le mode Fallback en définissant l’une des valeurs DWORD de Registre suivantes :
+
+- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+Pour désactiver le mode de basculement, définissez la valeur sur **1**. Pour activer l’audio uniquement, définissez la valeur sur **2**. Si la valeur n’est pas présente ou est égale à **0** (zéro), le mode de secours est activé.
+
+Cette fonctionnalité est disponible dans teams version 1.3.00.13565 et les versions ultérieures.
+
 ## <a name="known-issues-and-limitations"></a>Problèmes connus et limitations
 
 ### <a name="client-deployment-installation-and-setup"></a>Déploiement de clients, installation et configuration
@@ -391,11 +402,11 @@ Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de suppor
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-#### <a name="troubleshoot-citrix-components"></a>Résoudre les problèmes liés aux composants Citrix
+### <a name="troubleshoot-citrix-components"></a>Résoudre les problèmes liés aux composants Citrix
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

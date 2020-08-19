@@ -1,5 +1,5 @@
 ---
-title: Packages de stratégie d’équipe pour la santé
+title: Packages de stratégie d’équipes pour le secteur public
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer des packages de stratégie d’équipe pour votre organisation de santé.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: Découvrez comment utiliser et gérer des packages de stratégie d’équipe pour votre organisation gouvernementale.
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803969"
+ms.locfileid: "46804018"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>Packages de stratégie d’équipe pour la santé
+# <a name="teams-policy-packages-for-government"></a>Packages de stratégie d’équipes pour le secteur public
+
+> [!NOTE]
+> Pour le moment, les packages de stratégie ne sont pas disponibles dans les déploiements Microsoft 365 Government High ou DoD.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -38,19 +41,19 @@ Les packages de stratégie prédéfinis pour les éléments suivants, en fonctio
 - Configuration de l’application
 - Événements en direct
 
-Teams inclut actuellement les packages de politique de santé suivants.
+Teams inclut actuellement les packages de stratégie suivants pour le gouvernement.
 
 |Nom du package dans le centre d’administration Microsoft teams|Idéal pour|Description |
 |---------|---------|---------|
-|Travailleurs cliniques médicaux  |Travailleurs cliniques de votre organisation de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui permettent aux travailleurs cliniques tels que les infirmières, les infirmières, les médecins et les travailleurs sociaux d’avoir un accès complet aux discussions, aux appels, à la gestion des équipes et aux réunions. |
-|Travailleurs de l’information sur la santé  |Travailleurs de l’information au sein de votre organisation de santé |Crée un ensemble de stratégies et de paramètres de stratégie qui permettent aux travailleurs de l’information, tels que le personnel informatique, le personnel informatique, le personnel financier et les responsables de la mise en conformité, un accès complet aux discussions, aux appels et aux réunions.|
-|Salle de santé du patient  |Appareils de salle de patient|Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles de soins de votre organisation.|
+|Officier de sûreté public  |Fonctionnaires de la sécurité publique au sein de votre organisation gouvernementale  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique au sein de votre organisation. |
+|Gestionnaire de terrain  |Responsables terrain au sein de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux responsables terrain de votre organisation.|
+|Collaborateur terrain  |Terrain travailleurs de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux travailleurs terrain au sein de votre organisation.|
 
-![Capture d’écran des packages de politique de santé](media/policy-packages-healthcare.png)
+![Capture d’écran des packages de politique de santé](media/policy-packages-gov.png)
 
-Chaque stratégie individuelle dispose du nom du package de stratégie, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous attribuez le package de stratégie de travailleur clinique de santé aux médecins au sein de votre organisation, une stratégie nommée Healthcare_ClinicalWorker est créée pour chaque stratégie dans le package.
+Chaque stratégie individuelle dispose du nom du package de stratégie, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous attribuez le package de stratégie de l’officier de sécurité public aux utilisateurs de votre organisation, une stratégie nommée PublicSafety_Officer est créée pour chaque stratégie dans le package.
 
-![Capture d’écran des politiques dans l’offre pour le travail clinique de santé](media/policy-packages-healthcare-clinical-worker.png)
+![Capture d’écran des politiques dans l’offre pour le travail clinique de santé](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gérer vos packages de stratégie
 
@@ -72,7 +75,7 @@ Attribuez le package de stratégie aux utilisateurs. Pour attribuer un package d
 
 Pour plus d’informations sur l’affectation d’un package de stratégie à l’aide du centre d’administration Microsoft teams ou de PowerShell, voir [affecter un package de stratégie](manage-policy-packages.md#assign-a-policy-package).
 
-![Capture d’écran de l’affectation d’un package de stratégie dans le centre d’administration](media/policy-packages-healthcare-assign.png)
+![Capture d’écran de l’affectation d’un package de stratégie dans le centre d’administration](media/policy-packages-gov-assign.png)
 
 Si une stratégie est affectée à un utilisateur et que vous affectez une autre stratégie, l’affectation la plus récente est prioritaire.
 
@@ -80,4 +83,4 @@ Si une stratégie est affectée à un utilisateur et que vous affectez une autre
 
 [Gérer les packages de stratégie dans Teams](manage-policy-packages.md)
 
-[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+[Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md) 

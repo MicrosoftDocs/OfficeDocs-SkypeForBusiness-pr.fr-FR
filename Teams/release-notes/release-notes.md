@@ -16,18 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788468"
+ms.locfileid: "46797442"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft teams
 
 Ces notes de publication fournissent des informations sur les nouvelles fonctionnalités d’administration de Microsoft Teams.
 
 ## <a name="august-17-2020"></a>17 août 2020
+
+### <a name="group-chat-size-increase"></a>Augmentation de la taille des conversations de groupe
+
+Nous avons ajouté la possibilité d’avoir désormais des participants à 250 dans une discussion de groupe.
 
 ### <a name="manage-the-praise-app"></a>Gérer l’application compliments
 
@@ -59,24 +63,29 @@ Les utilisateurs dotés de ce rôle peuvent gérer des appareils certifiés par 
 
 Les utilisateurs de teams peuvent désormais gérer, créer et tenir à jour leurs listes à l’aide de l’onglet application listes. L’application listes fonctionne sur tous les clients teams et permet de collaborer et de communiquer sur des éléments de liste.
 
+## <a name="august-6-2020"></a>6 août 2020
+
+### <a name="approve-custom-apps"></a>Approuver des applications personnalisées
+
+Approuvez des applications personnalisées envoyées par le biais de l’API de soumission d’applications Teams. [En savoir plus](../submit-approve-custom-apps.md).
+
 ## <a name="august-3-2020"></a>3 août 2020
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Acheter des services pour les équipes d’équipe tierce dans le centre d’administration Microsoft teams
 
 Les applications teams peuvent être installées gratuitement et certains peuvent nécessiter des abonnements à des services pour bénéficier de l’ensemble des fonctionnalités et de la portée de l’application. Ces abonnements de service sont appelés offres logicielles en tant que service (SaaS), qui sont disponibles à l’achat via AppSource et désormais via le centre d’administration Microsoft Teams. [En savoir plus](../purchase-third-party-apps.md).
 
-## <a name="july-31-2020"></a>31 juillet 2020
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Les administrateurs peuvent configurer la présence basée sur une équipe (sur Maj, désactivé) pour leurs collaborateurs terrain
-
-Les administrateurs peuvent configurer leurs travailleurs terrain pour qu’ils disposent d’États de présence reposant sur une équipe de basculement : sur Maj, occupé (peut être basculé en cas de décalage) et de désactivation de la touche Maj.
-[En savoir plus](../firstline-workers-quickstart.yml).
-
 ## <a name="july-29-2020"></a>29 juillet 2020
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Gérabilité améliorée à l’aide de la fonctionnalité de marquage d’appareil
 
 Dans le cadre de la gérabilité améliorée, nous proposons une fonctionnalité de marquage d’appareil. Il permettra aux administrateurs informatiques de grouper des appareils spécifiques avec des balises générées par l’utilisateur et d’effectuer des opérations de la même façon. [En savoir plus](/../../manage-device-tags.md).
+
+## <a name="july-28-2020"></a>28 juillet 2020
+
+### <a name="create-your-own-teams-template"></a>Créer votre propre modèle d’équipe
+
+Vous pouvez désormais utiliser les modèles à partir de la console d’administration pour créer votre propre modèle d’équipe ou créer un modèle d’équipe à partir de modèles existants. [En savoir plus](../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="july-20-2020"></a>20 juillet 2020
 
@@ -90,11 +99,23 @@ Les administrateurs peuvent contrôler les webhook sortants au niveau utilisateu
 
 Nous avons ajouté la possibilité d’activer NDI à une réunion Teams. NDI permet d’utiliser les outils de production vidéo pour l’audio et la vidéo d’une réunion. [En savoir plus](../use-ndi-in-meetings.md).
 
+## <a name="july-15-2020"></a>15 juillet 2020
+
+### <a name="enable-suggested-replies"></a>Activer les réponses suggérées
+
+Activez ce paramètre pour activer les réponses suggérées pour les messages de discussion. [En savoir plus](../messaging-policies-in-teams.md)
+
 ## <a name="july-9-2020"></a>9 juillet 2020
 
 ### <a name="voicemail-support-in-call-queues"></a>Prise en charge de la boîte vocale dans les files d’attente d’appels
 
 Nous avons ajouté la prise en charge des files d’attente d’appels pour utiliser une boîte vocale partagée. [En savoir plus](../create-a-phone-system-call-queue.md).
+
+## <a name="july-8-2020"></a>8 juillet 2020
+
+### <a name="policy-packaging-batch-assignment"></a>Affectation de lot de package de stratégie
+
+Nous avons fait en sorte que l’utilisation de PowerShell pour assigner un package de stratégie pour les utilisateurs et les groupes.
 
 ## <a name="july-7-2020"></a>7 juillet 2020
 
@@ -116,7 +137,7 @@ Nous avons ajouté la possibilité pour les standards automatiques et les appels
 
 ### <a name="install-apps-on-behalf-of-others"></a>Installer des applications de la part d’autres personnes
 
-Vous choisissez les applications qui sont installées par défaut pour les utilisateurs lorsqu’elles démarrent Teams. [En savoir plus](../teams-app-setup-policies.md)
+Vous choisissez les applications qui sont installées par défaut pour les utilisateurs lorsqu’elles démarrent Teams. [En savoir plus](../teams-app-setup-policies.md).
 
 ## <a name="june-29-2020"></a>29 juin 2020
 
@@ -124,11 +145,15 @@ Vous choisissez les applications qui sont installées par défaut pour les utili
 
 Communication vocale instantanée grâce à la communication vocale.
 
-## <a name="july-15-2020"></a>15 juillet 2020
+## <a name="june-25-2020"></a>25 juin 2020
 
-### <a name="enable-suggested-replies"></a>Activer les réponses suggérées
+### <a name="teams-filter-option"></a>Option de filtre teams
 
-Activez ce paramètre pour activer les réponses suggérées pour les messages de discussion. [En savoir plus](../messaging-policies-in-teams.md)
+Nous avons ajouté une nouvelle option de filtre dans la barre de commandes pour vous permettre de définir des paramètres spécifiques lors de la recherche d’équipes spécifiques.
+
+### <a name="users-widgets"></a>Widgets utilisateurs
+
+Nous avons ajouté un widget de synthèse des utilisateurs qui est disponible lorsque vous ajoutez des équipes et des canaux.
 
 ## <a name="june-21-2020"></a>21 juin 2020
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Configurez les appareils de salle d’équipe et surface Hub pour participer à des réunions lorsqu’un appareil ou l’autre rejoint une réunion.
-ms.openlocfilehash: c1200b4e949cb866440907f8577f61f4528630e2
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: cfd8bd423d8f7765a973d55e42d64773a06bba32
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761435"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803936"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurer des réunions coordonnées avec Microsoft teams salles et surface Hub
 
@@ -52,10 +52,10 @@ Vous devez être doté d’un rôle d’administrateur pour accéder au centre d
 
 Pour obtenir les UPN des appareils de salle de votre équipe et de surface hubs, procédez comme suit :
 
-1. Connectez-vous au centre d’administration 365 Microsoft en visitant https://admin.microsoft.com
-2. Accédez à **utilisateurs**  >  **actifs**
-3. Recherchez le nom de votre périphérique d’équipe ou surface Hub dans la colonne **nom complet** (vous pouvez utiliser la zone de **recherche** si vous avez de nombreux utilisateurs).
-4. Recherchez le nom d’utilisateur principal dans la colonne **nom d’utilisateur** (il ressemble à alias@contoso.com ou alias@contoso.onmicrosoft.com).
+1. Connectez-vous au centre d’administration 365 Microsoft en visitant le site https://admin.microsoft.com .
+2. Accédez à **utilisateurs**  >  **actifs**.
+3. Recherchez le nom de votre appareil de salle d’équipe ou surface Hub dans la colonne **nom complet** (vous pouvez utiliser la zone de **recherche** si vous avez de nombreux utilisateurs).
+4. Recherchez le nom d’utilisateur principal dans la colonne **username** (il ressemble à alias@contoso.com ou alias@contoso.onmicrosoft.com).
 5. Répétez cette procédure pour chaque appareil participant aux réunions coordonnées.
 
 ## <a name="step-3-create-a-deployment-worksheet"></a>Étape 3 : créer une feuille de calcul de déploiement
@@ -71,6 +71,7 @@ Dans une application de feuille de calcul, ajoutez des lignes pour les élément
 | **Vidéo par défaut**      | Détermine sur quel appareil l’appareil photo sera actif lors du démarrage de la réunion. Pour une utilisation optimale, nous vous conseillons de définir uniquement le périphérique de salle teams `true` lorsque tous les autres appareils sont définis sur `false` .          |
 | **Vidéo activée**      | Détermine si les participants à une réunion peuvent activer ou désactiver la caméra. Vous pouvez définir ce `true` type sur sur n’importe quel autre appareil dans lequel vous voulez partager différentes perspectives vidéo (par exemple, si un participant utilise le tableau blanc surface Hub). Si vous ne voulez pas que les participants activent ou désactivent la caméra sur un appareil, définissez cette valeur sur `false` .<p> Si la **valeur par défaut** de la vidéo est définie sur `true` , ce paramètre est ignoré et les participants peuvent activer ou désactiver la caméra.         |
 | **Tableau blanc par défaut** | Détermine si le dispositif de salle teams affiche un tableau blanc partagé par l’un des participants à la réunion. Nous vous recommandons de définir cette valeur sur `false` si vous disposez d’un surface Hub et `true` si vous n’en avez pas. Ce paramètre n’a aucun effet sur surface Hub. Surface hubs affiche toujours un tableau blanc partagé par des participants à la réunion.         |
+| **Tableau blanc activé** | Détermine si les participants à une réunion peuvent activer ou désactiver le tableau blanc. Si vous ne souhaitez pas que les participants activent ou ferment le tableau blanc sur un appareil, définissez la valeur sur `false` . <p>Si la **valeur par défaut de tableau blanc** est définie sur `true` , ce paramètre est ignoré et les participants peuvent activer ou désactiver le tableau blanc.
 | **Comptes approuvés**   | Il s’agit d’une liste séparée par des virgules d’UPN pour chaque appareil de salle de réunion ou surface Hub sur lequel l’appareil doit accepter les demandes de participation à une réunion, ou pour lesquelles des demandes de participation à une réunion doivent être envoyées. |
 
 Dans les colonnes suivantes, ajoutez chacun de vos appareils de salle d’équipe et de surface hubs. Dans chaque colonne, remplissez les valeurs qui correspondent à l’interface que vous souhaitez utiliser pour la salle de réunion. Voici un exemple avec un appareil de salle de l’équipe et un surface Hub :
@@ -88,7 +89,7 @@ Dans les colonnes suivantes, ajoutez chacun de vos appareils de salle d’équip
 | **Audio activé**      | `true`          | `false`          |
 | **Vidéo par défaut**      | `true`          | `false`          |
 | **Vidéo activée**      | `true`          | `true`           |
-| **Tableau blanc par défaut** | `false`         | Non applicable   |
+| **Tableau blanc par défaut** | `false`         | `false`          |
 | **Comptes approuvés**   | hub@contoso.com | room@contoso.com |
 
 ## <a name="step-4-configure-teams-rooms-device"></a>Étape 4 : configurer l’appareil de salles d’équipe
@@ -101,17 +102,17 @@ Utilisez la feuille de calcul que vous avez créée à l’étape précédente p
 
 Pour configurer des réunions coordonnées sur un appareil, procédez comme suit :
 
-1. Sélectionner **... **  >  **Paramètres** supplémentaires
-2. Entrez le mot de passe d’administrateur et sélectionnez **Oui** .
-3. Sélectionner des **réunions coordonnées**
-4. Sous **options**, définissez **réunion coordonnée** sur activé.
-5. Si le son est défini **par défaut** dans votre feuille de calcul `true` , **activez la** case à cotacher le micro de votre appareil, sinon quittez-le.
+1. Sélectionner **... **  >  **Paramètres**supplémentaires.
+2. Entrez le mot de passe d’administrateur, puis sélectionnez **Oui**.
+3. Sélectionnez **réunions coordonnées**.
+4. Sous **options**, définissez **réunion coordonnée** _sur activé_.
+5. Si le son est défini **par défaut** dans votre feuille de calcul `true` , activez la case à _cotacher_le **micro de cet appareil pour l’activer** .
 6. Si le **son est activé** dans votre feuille de calcul `true` , sélectionnez permettre aux utilisateurs de s’activer lors de la **participation à une réunion** sous **activer le micro de cet appareil**. Cette option ne peut pas être désactivée si le **micro de l’appareil** est activé.
-7. Si la vidéo est définie **par défaut** dans votre feuille de calcul `true` , activez la case à cotacher **l’appareil photo** de votre appareil, sinon quittez-le.
-8. Si la **vidéo est activée** dans votre feuille de calcul `true` , sélectionnez permettre aux utilisateurs de s’activer lors de la participation à **une réunion** sous **activer l’appareil photo de l’appareil**. Cette option ne peut pas être désactivée si **l’appareil photo de l’appareil** est activé.
-9. S’il s’agit de **tableau blanc par défaut** dans votre feuille de calcul, activez la case à `true` cotacher le **tableau blanc**
+7. Si la vidéo est définie **par défaut** dans votre feuille de calcul `true` , activez la case à _cotacher_ **l’appareil photo** de votre appareil, sinon quittez-le.
+8. Si la **vidéo est activée** dans votre feuille de calcul `true` , sélectionnez permettre aux utilisateurs de s’activer lors de la participation à **une réunion** sous **activer l’appareil photo de l’appareil**. Cette option ne peut pas être désactivée si **l’appareil photo de l’appareil** est _activé._
+9. Si le **tableau blanc par défaut** dans votre feuille de calcul est, activez la case à `true` cotacher le **tableau blanc sur cet appareil** sur _activé_; sinon, laissez-la _désactivée_.
 10. Sous **comptes d’appareils approuvés**, tapez chaque nom d’utilisateur principal répertorié dans **comptes approuvés** dans votre feuille de calcul. Séparez plusieurs UPN par des virgules.
-11. Sélectionnez **enregistrer et quitter**
+11. Sélectionnez **enregistrer et quitter**.
 
 Après avoir sélectionné **enregistrer et quitter**, l’appareil redémarre et il est prêt à participer à des réunions coordonnées.
 
@@ -126,7 +127,7 @@ Voici la syntaxe des paramètres de réunion coordonnés du fichier de configura
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
@@ -134,15 +135,22 @@ Voici la syntaxe des paramètres de réunion coordonnés du fichier de configura
 
 Pour configurer des réunions coordonnées sur un appareil, procédez comme suit :
 
-1. Dans un éditeur de fichier texte, tel que code Visual Studio ou bloc-notes, collez le code XML ci-dessus dans un nouveau fichier
+1. Dans un éditeur de fichier texte, tel que code Visual Studio ou bloc-notes, collez le code XML ci-dessus dans un nouveau fichier.
+
 2. Définissez chacun des éléments XML sur la `true` valeur ou correspondante `false` de votre feuille de calcul. Par exemple, si l' **option audio par défaut** est `true` , définissez `<Audio default="true">` .
+
 3. N’hésitez pas à passer `TrustedAccounts` à votre liste d’UPN.
-4. Enregistrez le fichier avec le nom `SkypeSettings.xml`
+
+4. Enregistrez le fichier avec le nom `SkypeSettings.xml` .
+
 5. Placez le fichier dans le dossier de l’appareil de salle de l’équipe `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Vous pouvez procéder de plusieurs manières :
+
     - **Copiez le fichier sur votre appareil de salle teams** Vous devez activer le partage de fichiers et créer un partage réseau avant de pouvoir copier des fichiers sur votre appareil. Après cela, vous pouvez vous connecter au partage réseau et copier le fichier sur l’appareil. Pour plus d’informations, reportez-vous à la section [maintenance et opérations de Microsoft teams](../rooms/rooms-operations.md).
     - **Utiliser une stratégie de groupe** Créez une stratégie de groupe pour copier le fichier sur l’appareil. Pour plus d’informations, voir [vue d’ensemble](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))de la stratégie de groupe.
     - **Télécharger le fichier sur l’appareil de salle d’équipe** Vous pouvez vous connecter à l’appareil à l’aide du mode admin, puis copier le fichier sur l’appareil à partir d’un partage réseau ou d’un lecteur USB. Pour plus d’informations, consultez [basculer vers le mode administrateur](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
+    
 6. Redémarrez l’appareil. Vous pouvez procéder de deux façons :
+
     - **PowerShell distant** Vous pouvez exécuter la commande shutdown sur l’appareil à l’aide de Remote PowerShell. Pour plus d’informations, reportez-vous à la rubrique [gestion à distance via PowerShell](../rooms/rooms-operations.md).
     - **Exécuter le redémarrage-ordinateur** Vous pouvez exécuter l' `Restart-Computer` applet de cmdlet sur votre ordinateur local et spécifier le nom d’ordinateur de l’appareil que vous voulez redémarrer. Pour plus d’informations, reportez-vous à la rubrique [redémarrer-ordinateur](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
 
@@ -172,9 +180,12 @@ Voici la syntaxe du fichier de configuration XML pour les réunions coordonnées
 
 Pour préparer le XML pour le concepteur de configuration Windows ou Microsoft Intune, procédez comme suit :
 
-1. Dans un éditeur de fichier texte, tel que code Visual Studio ou bloc-notes, collez le code XML ci-dessus dans un nouveau fichier
+1. Dans un éditeur de fichier texte, tel que code Visual Studio ou bloc-notes, collez le code XML ci-dessus dans un nouveau fichier.
+
 2. Définissez chacun des éléments XML sur la `true` valeur ou correspondante `false` de votre feuille de calcul. Par exemple, si l' **option audio par défaut** est `true` , définissez `<Audio default="true">` .
+
 3. N’hésitez pas à passer `TrustedAccounts` à votre liste d’UPN.
+
 4. Le concepteur de configuration Windows exige que le code XML soit sur une seule ligne. Supprimez tous les sauts de ligne entre chaque ligne afin que le code XML ressemble à ce qui suit :
 
     ```xml

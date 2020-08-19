@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Cet article décrit les cmdlets qui donnent aux administrateurs plus de contrôle sur les méthodes d’authentification utilisées à l’intérieur et à l’extérieur d’une entreprise. Les administrateurs peuvent activer ou désactiver les méthodes d’authentification en interne ou en externe sur leur réseau.
-ms.openlocfilehash: a3f26e0bb29a58b53547083a4410da849c054b03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f9a8c9c8576c07de3158fb2446cb3cb89bac72
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043716"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797452"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planification de la désactivation interne et externe des méthodes d’authentification héritées sur votre réseau.
 
@@ -72,7 +72,7 @@ Il est assez facile de savoir comment protéger vos mots de passe dans les optio
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Pourquoi utiliser SET-CsAuthConfig au niveau global ?
 
-La `Set-CsAuthConfig` configuration des effets des applets de commande sur les rôles serveur d’inscriptions et services Web.
+La `Set-CsAuthConfig` Configuration des effets des applets de commande sur les rôles serveur d’inscriptions et services Web.
 
 Cette applet de commande est conçue pour être exécutée au niveau global de votre serveur Skype entreprise. Elle *peut* être exécutée au niveau du pool, mais cela n’est *pas recommandé* , car elle ajoute de la complexité à votre installation. En exécutant ces commandes au niveau du pool, si votre pool ne dispose pas de tous les rôles inclus (par exemple, s’il n’a pas de services Web), les paramètres ne seront définis que pour le rôle de serveur d’inscriptions. Dans ce cas, les services Web s’exécuteront avec des paramètres du niveau global, qui peuvent être un comportement confus (en particulier lorsque cela est fait par inadvertance).
 
@@ -97,8 +97,10 @@ Il peut s’avérer plus judicieux d’effectuer une opération Get-pour ces val
 > 
 > Si vous utilisez le paramètre BlockWindowsAuthExternally pour bloquer l’authentification NTLM de manière externe, sachez que cela bloque également NTLM en interne pour le canal SIP. Toutefois, les clients Skype entreprise et Lync plus récents que 2010 pourront toujours se connecter car ils utiliseront NTLM sur HTTP pour la connexion, en interne, puis extrayez un certificat pour se connecter via SIP. Toutefois, les clients antérieurs à 2010 ne pourront pas se connecter en interne dans ce cas, et vous pouvez envisager de mettre à niveau ces applications afin que les utilisateurs puissent reprendre leur fonctionnalité sécurisée.
 
+> [!IMPORTANT] 
+> Certaines applications Web Skype entreprise ne prennent pas en charge l’agent de gestion. À l’aide du scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’agent de gestion de la page sont Web Scheduler, page Dial-in, Skype entreprise Control Panel (CSCP) et Response Group Group Settings. 
 
-## <a name="links"></a>Liens 
+## <a name="links"></a>Links 
 - Pour plus d’informations sur PowerShell :
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
     -  [Set-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/set-csauthconfig?view=skype-ps)
