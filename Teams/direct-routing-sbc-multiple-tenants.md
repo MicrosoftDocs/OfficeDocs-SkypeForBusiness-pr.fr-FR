@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients pour les partenaires Microsoft et/ou les opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572359"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814240"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -81,7 +81,7 @@ Les sous-domaines **doivent** correspondre au nom de domaine complet (FQDN) du T
 
 Lorsqu’un appel arrive sur l’interface de routage direct de Microsoft 365 ou d’Office 365, l’interface utilise l’en-tête de contact pour trouver le client dans lequel l’utilisateur doit être recherché. Le routage direct n’utilise pas la recherche de numéros de téléphone dans l’invitation, car certains clients peuvent avoir des numéros qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de domaine complet dans l’en-tête de contact est requis pour identifier le client exact pour trouver le numéro de téléphone de l’utilisateur.
 
-*Pour plus d’informations sur la création de noms de domaine dans Microsoft 365 ou les organisations Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Pour plus d’informations sur la création de noms de domaine dans Microsoft 365 ou les organisations Office 365, voir  [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Le diagramme suivant récapitule les exigences relatives aux domaines de base, sous-domaines et en-tête de contact.
 
@@ -137,7 +137,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 ### <a name="activate-the-domain-name"></a>Activer le nom de domaine
 
-Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins une licence E1, E3 ou E5 et en attribuant une adresse SIP à la partie FQDN de l’adresse SIP correspondant au domaine de base créé. 
+Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins une licence E1, E3 ou E5 et en attribuant une adresse SIP à la partie FQDN de l’adresse SIP correspondant au domaine de base créé. Le contrat de licence peut être révoqué après l’activation du domaine (il peut s’écouler jusqu’à 24 heures).
 
 *Pour plus d’informations sur l’ajout d’utilisateurs dans Microsoft 365 ou les organisations d’Office 365, voir [obtenir de l’aide sur les domaines microsoft 365 ou office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
@@ -199,7 +199,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 ### <a name="activate-the-subdomain-name"></a>Activer le nom de sous-domaine
 
-Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en assignant une adresse SIP avec la partie FQDN de l’adresse SIP correspondant au sous-domaine créé dans le client client.
+Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en assignant une adresse SIP avec la partie FQDN de l’adresse SIP correspondant au sous-domaine créé dans le client client. La licence peut être révoquée de l’utilisateur après l’activation de sous-domaine (il peut s’écouler jusqu’à 24 heures).
 
 *Pour plus d’informations sur l’ajout d’utilisateurs dans Microsoft 365 ou les organisations d’Office 365, voir [obtenir de l’aide sur les domaines microsoft 365 ou office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 

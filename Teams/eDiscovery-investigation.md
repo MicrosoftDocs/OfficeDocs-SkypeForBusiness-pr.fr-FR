@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121394"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814110"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -30,7 +30,7 @@ Les grandes entreprises sont souvent exposées à des actions juridiques à fort
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Toutes les équipes 1:1 ou les discussions de groupe sont journalisées dans les boîtes aux lettres des utilisateurs correspondants. Tous les messages de canal standard sont journalisés dans la boîte aux lettres de groupe représentant l’équipe. Les fichiers téléchargés dans les canaux standard sont décrits sous la fonctionnalité eDiscovery pour SharePoint Online et OneDrive entreprise.
+Toutes les discussions de groupe et Microsoft teams 1:1 sont journalisées dans les boîtes aux lettres des utilisateurs correspondants. Tous les messages de canal standard sont journalisés dans la boîte aux lettres de groupe représentant l’équipe. Les fichiers téléchargés dans les canaux standard sont décrits sous la fonctionnalité eDiscovery pour SharePoint Online et OneDrive entreprise.
 
 la découverte électronique des messages et fichiers dans des [canaux privés](private-channels.md) fonctionne différemment de celles des canaux standard. Pour en savoir plus, voir [découverte électronique des canaux privés](#ediscovery-of-private-channels).
 
@@ -39,28 +39,49 @@ Le contenu de toutes les équipes n’est pas eDiscoverable. Le tableau suivant 
 | Type de contenu | eDiscoverable | Remarques |
 |:--- | --- |:--- |
 | Messages de discussion teams | Oui |  |
-| Enregistrements audio | Non | |
 | Messages de canal privé | Oui | |
+| Nom du canal | Non | |
+| Conversations par messagerie instantanée de réunion | Oui | |
+| Métadonnées de réunion<sup>1</sup> | Oui |  |
+| Messages modifiés | Oui | Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont conservées. |
 | Emoji, fichiers GIF, autocollants | Oui | |
 | Extraits de code | Non | |
 | Liens de discussion | Oui | |
 | Réactions (j’aime, coeurs, etc.) | Non | |
-| Messages modifiés | Oui | Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont conservées. |
 | Images incorporées | Oui | |
 | Contenu | Oui | |
 | Objet | Oui | |
 | Offres | Oui | Le contenu mentionné peut être recherché. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été placé entre guillemets. |
-| Nom du canal | Non | |
+| Enregistrements audio | Non | |
 
-- Pour effectuer une analyse eDiscovery avec le contenu Microsoft Teams, reportez-vous à l’étape 1 dans [gérer les cas de découverte électronique du lien Centre de sécurité & conformité](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) .
+<sup>1</sup> les métadonnées de réunion incluent les éléments suivants :
 
-- Les données de Microsoft teams s’affichent sous forme de messages instantanés ou de conversations dans la sortie d’exportation eDiscovery d’Excel. Vous pouvez ouvrir le `.pst` fichier dans Outlook pour afficher ces messages après l’exportation.
+- Heures de début et de fin d’appel et durée
+- Appel/réunion et conservation des événements pour chaque participant
+- Connexion/appels VOIP
+- Jointure anonyme
+- Affiliation d’utilisateur fédéré
+- Participation des utilisateurs invités
 
-    Lorsque le `.pst` fichier est affiché pour l’équipe, toutes les conversations sont conservées dans le dossier de discussion d’équipe sous historique des conversations. Le titre du message contient le nom de l’équipe et le nom du canal. Par exemple, l’image ci-dessous montre un message de Bob qui a affiché le canal Project 7 standard de l’équipe des spécifications de fabrication.
+L’image montre un exemple de métadonnées.
 
-    ![Capture d’écran d’un dossier de discussion d’équipe dans la boîte aux lettres d’un utilisateur dans Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![L’image est du CVR les métadonnées de la réunion.](media/conversationOption3.png)
 
-- Les discussions privées de la boîte aux lettres d’un utilisateur sont stockées dans le dossier de discussion d’équipe sous historique des conversations.
+Voici un exemple de conversation par messagerie instantanée entre participants lors de la réunion.
+
+![L’image est une conversation entre participants.](media/MeetingIMConversations.png)
+
+![L’image est une conversation entre participants.](media/MeetingImConversation2.png)
+
+Pour effectuer une enquête eDiscovery avec le contenu Microsoft Teams, passez à l’étape 1 de la rubrique mise [en route de](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)Microsoft teams eDiscovery.
+
+Les données de Microsoft teams s’affichent sous forme de messages instantanés ou de conversations dans la sortie d’exportation eDiscovery d’Excel. Vous pouvez ouvrir le `.pst` fichier dans Outlook pour afficher ces messages après l’exportation.
+
+Lorsque vous affichez le fichier. pst de l’équipe, toutes les conversations sont conservées dans le dossier de conversation d’équipe sous historique des conversations. Le titre du message contient le nom de l’équipe et le nom du canal. Par exemple, l’image ci-dessous montre un message de Bob qui a affiché le canal Project 7 standard de l’équipe des spécifications de fabrication.
+
+![Capture d’écran d’un dossier de discussion d’équipe dans la boîte aux lettres d’un utilisateur dans Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+
+Les discussions privées de la boîte aux lettres d’un utilisateur sont stockées dans le dossier de discussion d’équipe sous historique des conversations.
 
 ## <a name="ediscovery-of-private-channels"></a>Découverte électronique des canaux privés
 
@@ -86,7 +107,7 @@ Avant d’effectuer cette procédure, installez [SharePoint Online Management Sh
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
 3. Pour chaque ID d’équipe ou de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents, où $groupID est l’ID de groupe de l’équipe.
@@ -146,7 +167,7 @@ Vous pouvez également effectuer une recherche dans le contenu d’équipes. Pou
 
 Lors de la création d’une requête de recherche, vous pouvez choisir des dépositaires de telle sorte que toutes les sources que vous avez déjà sélectionnées puissent effectuer une recherche. Vous pouvez également rechercher des sources non privatives de Troie telles que des sites d’équipe qui ne sont pas mappés à un utilisateur. Des requêtes facultatives sont également disponibles pour affiner votre recherche dans le contenu de l’équipe.
 
-Une fois que vous avez créé une recherche et sélectionné celle-ci, une fenêtre s’affiche avec des informations supplémentaires et des actions que vous pouvez effectuer sur la recherche sélectionnée. Si vous cliquez sur le bouton **statistiques** , vous pouvez afficher les statistiques relatives à votre recherche, notamment les répartitions en fonction des types d’emplacements, de la source d’origine du contenu et de la présence du contenu dans une boîte aux lettres de groupe, dans la boîte aux lettres de l’utilisateur individuel ou sur un site SharePoint. Cela vous permet d’afficher une répartition des sources qui participent à vos résultats de recherche. Le mode **requêtes** est également disponible pour vous permettre de voir les mots clés individuels qui participent aux résultats.
+Une fois que vous avez créé une recherche et sélectionné celle-ci, une fenêtre s’affiche avec des informations supplémentaires et des actions que vous pouvez effectuer sur la recherche sélectionnée. Si vous cliquez sur le bouton **statistiques** , vous pouvez afficher les statistiques relatives à votre recherche, notamment les répartitions en fonction des types d’emplacements, de la source d’origine du contenu et de la présence du contenu dans une boîte aux lettres de groupe, dans la boîte aux lettres de l’utilisateur individuel ou sur un site SharePoint. Vous pouvez donc voir une répartition des sources qui participent à vos résultats de recherche. Le mode **requêtes** est également disponible pour vous permettre de voir les mots clés individuels qui participent aux résultats.
 
 Après avoir finalisé votre recherche, vous pouvez cliquer sur le bouton **Ajouter des résultats pour réviser** , puis l’ajouter à un ensemble de révisions. Pour plus d’informations sur les ensembles de révisions, voir [gérer les ensembles de révision dans Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) and [Review sets](#review-sets-workflow) plus loin dans cet article.
 
@@ -154,13 +175,13 @@ Après avoir finalisé votre recherche, vous pouvez cliquer sur le bouton **Ajou
 
 Lors de l’ajout d’une recherche à un ensemble d’avis, vous pouvez choisir parmi un ensemble d’avis standard ou un ensemble de avis de conversation.
 
-Un ensemble d’avis normal est semblable à une exportation. Il fournit les `.msg` fichiers individuels pour le contenu d’équipes et affiche le contenu dans un affichage de base. En règle générale, vous devez utiliser un avis standard lorsque vous envisagez d’utiliser d’autres outils logiciels pour retraiter les fichiers ultérieurement.
+Un ensemble d’avis normal est semblable à une exportation. Il fournit les `.msg` fichiers individuels pour le contenu d’équipes et affiche le contenu dans un affichage de base. En règle générale, vous devez utiliser une révision normale lorsque vous envisagez d’utiliser d’autres outils logiciels pour retraiter les fichiers ultérieurement.
 
 Un ensemble de avis de conversation fournit une vue thématique et intuitive des conversations. il affiche conjointement les messages liés dans le bon ordre.
 
-Les fonctionnalités telles que la biffure sont disponibles dans les deux types de révisions.
+![Capture d’écran du jeu de vérification de conversation](media/conversationOptions2.png)
 
-Pour plus d’informations sur les ensembles de révision, voir [revoir des conversations dans Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
+Les fonctionnalités telles que la biffure sont disponibles dans les deux types de révisions. Pour plus d’informations sur les ensembles de révision, voir [revoir des conversations dans Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Options de collection
 
@@ -188,9 +209,13 @@ Si vous cliquez sur une conversation de teams dans l’ensemble d’avis, elle a
 
 Pour télécharger un fichier PDF, cliquez sur le bouton Télécharger dans le coin supérieur droit de l’affichage de synthèse.
 
-Cliquez sur l’onglet **affichage de texte** pour afficher une vue de texte brut du texte extrait de la conversation Teams. Cette opération est appropriée pour l’exportation et vous pouvez facilement utiliser ce texte extrait à l’aide d’autres outils logiciels.
+Cliquez sur l’onglet **affichage de texte** pour afficher une vue de texte brut du texte extrait de la conversation Teams. Ce contenu en texte brut est approprié pour l’exportation et vous pouvez l’utiliser facilement à l’aide d’autres outils logiciels.
 
 Cliquez sur l’onglet du **mode annotation** pour accéder aux fonctionnalités d’annotation. Cet onglet affiche le contenu dans un format qui ressemble à une conversation d’équipe, mais il existe également d’autres options de modification. Vous pouvez utiliser un outil crayon pour prendre des notes, dessiner sur le message ou effectuer des rayures fines pour les fins de rédaction. Il existe également un outil de **biffure de zone** que vous pouvez utiliser pour dessiner un rectangle qui entoure le cadre de la zone et le marque comme ayant été rédigé.
+
+Voici un exemple de fichier biffé pour la conversation thématique entre les utilisateurs.
+
+![Capture d’écran d’un fichier biffé](media/RedactedFileExample.png)
 
 En bas de l’onglet **affichage d’annotation** figure le bouton **balise documents** qui affiche le panneau balisage. Dans ce panneau, vous pouvez appliquer un indicateur à tous les messages de la conversation Teams. Vous pouvez étiqueter une conversation comme réactif ou sans réponse, privilégié ou ne pas être privilégié, si elle contient des « éléments intéressants », si elle doit être incluse dans l’exportation et si elle a besoin d’une analyse approfondie. Vous pouvez également gérer et appliquer d’autres balises personnalisées.
 
@@ -202,18 +227,18 @@ Pour exporter un fichier qui contient toutes les métadonnées de tous les messa
 
 Utilisez l’option **fichiers natifs** pour exporter des fichiers au format natif. Vous pouvez choisir d’exporter une conversation sous la forme d’un fichier ou de tous les messages d’une conversation dans leurs propres fichiers.
 
-L’option **fichiers texte** vous permet d’enregistrer les versions de texte brut. Pour plus d’informations sur la façon d’obtenir une vue de texte simple des conversations d’équipe dans le jeu d’avis [, voir affichage de synthèse, affichage de texte et annotation](#summary-view-text-view-and-annotate-view) de l’affichage.
+L’option **fichiers texte** vous permet d’enregistrer les versions de texte brut. Pour plus d’informations sur la façon d’obtenir une vue de texte brut des conversations d’équipes dans l’ensemble de révisions, voir [vue récapitulative, vue de texte et mode annotation](#summary-view-text-view-and-annotate-view) au-dessus.
 
 Si vous avez appliqué des Redactions au contenu, comme décrit dans la section synthèse de l’affichage de [synthèse, texte et annoter](#summary-view-text-view-and-annotate-view) ci-dessus, vous pouvez sélectionner l’option remplacer les formats **natifs avec des** fichiers PDF convertis pour remplacer les fichiers natifs contenant des copies converties au format PDF.
 
 Vous pouvez choisir d’exporter vers un conteneur de stockage d’objets BLOB Azure fourni par Microsoft ou vous pouvez fournir votre propre conteneur de stockage BLOB Azure.
 
-Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur le bouton **Exporter** . Une fois l’exportation terminée, voir [Télécharger des tâches d’exportation](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) pour plus d’informations sur la façon d’accéder au conteneur de stockage BLOB Azure et de télécharger le contenu exporté.
+Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur le bouton **Exporter** . Pour plus d’informations sur la façon d’accéder au conteneur de stockage BLOB Azure et de télécharger le contenu exporté une fois l’exportation terminée, voir [Télécharger des tâches d’exportation](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) .
 
 > [!NOTE]
 > L’exportation peut prendre un certain temps. Pour effectuer le suivi de l’état du processus d’exportation, quittez l’onglet **révision** , puis cliquez sur l’onglet **exportations** .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [eDiscovery dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

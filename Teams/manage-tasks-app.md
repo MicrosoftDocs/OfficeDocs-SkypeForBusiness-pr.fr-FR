@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 48465336e0c3657b8bfd1d3adb1eb69c239ecdb6
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042491"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814230"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application tâches pour votre organisation dans Microsoft teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "44042491"
 
 ## <a name="overview-of-tasks"></a>Vue d’ensemble des tâches
 
-L’application tâches offre une interface de gestion des tâches cohésive à Microsoft Teams, intégrant les tâches personnelles gérées par [Microsoft aux](https://todo.microsoft.com/tasks/) tâches d’équipe et aux tâches d’équipe gérées par le planificateur au même endroit. Les utilisateurs peuvent accéder aux tâches en tant qu’application sur le côté gauche d’une équipe et en tant qu’onglet dans un canal au sein d’équipes individuelles. Les **listes personnelles** et les **listes d’équipes** dans les tâches permettent aux utilisateurs d’afficher et de gérer toutes les tâches personnelles et d’équipe, et de hiérarchiser leur travail. Le complément tâches est disponible dans les applications de bureau, Web et mobiles Teams. 
+L’application tâches offre une interface de gestion des tâches cohésive à Microsoft Teams, intégrant les tâches individuelles mises en œuvre par [Microsoft pour](https://todo.microsoft.com/tasks/) les tâches effectuées par le planificateur au même endroit. Les utilisateurs peuvent accéder aux tâches en tant qu’application sur le côté gauche d’une équipe et en tant qu’onglet dans un canal au sein d’équipes individuelles. **Mes tâches** et **plans partagés** dans les tâches permettent aux utilisateurs d’afficher et de gérer toutes leurs tâches individuelles et d’équipe et de hiérarchiser leur travail. Le complément tâches est disponible dans les applications de bureau, Web et mobiles Teams. 
 
 > [!NOTE]
 > À mesure que nous déployons l’expérience de tâches sur les clients teams de bureau, le nom de l’application s’affichera initialement en tant que **planificateur** aux utilisateurs. Le nom sera alors provisoirement modifié **en tâches par Planner et à faire**, et par la suite, il sera renommé **tâches**. Pour les clients mobiles Teams, le nom de l’application s’affichera toujours en tant que **tâches**. La disponibilité de l’expérience mobile peut prendre un peu de temps après la disponibilité de l’expérience de bureau.
@@ -39,13 +39,13 @@ Pour les organisations qui souhaitent rationaliser la gestion des tâches pour l
 
 ## <a name="what-you-need-to-know-about-tasks"></a>Ce que vous devez savoir sur les tâches
 
-Tâches est disponible en tant qu’application et en tant qu’onglet dans un canal. Gardez à l’esprit que l’application inclut à la fois des tâches personnelles de à faire et des tâches d’équipe du planificateur, alors que l’onglet n’affiche que les tâches d’équipe.
+Tâches est disponible en tant qu’application et en tant qu’onglet dans un canal. Gardez à l’esprit que l’application comprend des tâches individuelles de à faire et des tâches d’équipe du planificateur, alors que l’onglet n’affiche que les tâches d’équipe.
 
 Avec les tâches, les utilisateurs bénéficient d’une expérience de bureau, Web ou mobile. Si les tâches sont installées sur le client de bureau Teams, les utilisateurs la verront également sur leurs clients de bureau et mobiles Teams. Exception : utilisateurs invités. Il est important de savoir que les invités peuvent uniquement accéder aux tâches en tant qu’application à partir du client mobile Teams. Les invités verront les onglets tâches sur le bureau et les clients Web Teams.
 
-Les listes personnelles indiquent les tâches individuelles d’un utilisateur. Listes d’équipes Affichez les tâches sur lesquelles l’équipe a travaillé, ainsi que les listes de tâches ajoutées en tant qu’onglet tâches à un canal. Notez ce qui suit :
+**Mes tâches** affiche les tâches individuelles d’un utilisateur. Les **plans partagés** indiquent les tâches sur lesquelles l’équipe entière travaille, ainsi que les listes de tâches ajoutées en tant qu’onglet tâches à un canal. Notez ce qui suit :
 
-- Les listes personnelles créées par un utilisateur dans l’application tâches s’affichent également dans pour les clients de cet utilisateur. De la même façon, les listes de tâches qu’un utilisateur crée dans le volet de tâches s’affichent dans les listes personnelles dans tâches pour cet utilisateur. Le même vrai pour chaque tâche.
+- Les listes de tâches créées par un utilisateur dans l’application tâches s’affichent également dans pour les clients de cet utilisateur. De la même façon, les listes de tâches qu’un utilisateur crée dans le **dossier** tâches s’affichent dans les tâches de l’utilisateur. Le même vrai pour chaque tâche.
 
 - Tout onglet tâches qui est ajouté à un canal s’affichera également dans les clients Planner. Lorsqu’un utilisateur crée un plan dans Planner, le plan n’apparaît pas dans l’application tâches ou planificateur sauf s’il est ajouté en tant qu’onglet à un canal. Lorsqu’un utilisateur ajoute un nouvel onglet tâches, il peut créer une liste ou un plan ou en choisir un existant.
 
@@ -58,7 +58,7 @@ Les listes personnelles indiquent les tâches individuelles d’un utilisateur. 
 
 L’option tâches est activée par défaut pour tous les utilisateurs d’équipes de votre organisation. Vous pouvez activer ou désactiver l’application au niveau de l’organisation sur la page [gérer les applications](manage-apps.md) dans le centre d’administration Microsoft Teams.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams** > **Manage** apps.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage** apps.
 2. Dans la liste des applications, effectuez l’une des opérations suivantes :
 
     - Pour désactiver des tâches pour votre organisation, recherchez l’application tâches, sélectionnez-la, puis cliquez sur **bloquer**.
@@ -70,13 +70,15 @@ Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation 
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler des tâches à des équipes
 
-Les stratégies de configuration des applications vous permettent de personnaliser teams afin de mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la&mdash;barre de l’application, qui se trouve sur le côté du client de bureau teams et dans&mdash;la partie inférieure des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
+Les stratégies de configuration des applications vous permettent de personnaliser teams afin de mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la barre de l’application &mdash; , qui se trouve sur le côté du client de bureau teams et dans la partie inférieure des clients mobiles Teams, &mdash; où les utilisateurs peuvent y accéder rapidement et facilement.
 
 Pour épingler l’application tâches à vos utilisateurs, vous pouvez modifier la stratégie globale par défaut de l’organisation, ou créer et affecter une stratégie de configuration d’application personnalisée. Pour en savoir plus, voir [gérer les stratégies de configuration des applications dans Microsoft teams](teams-app-setup-policies.md).
 
-### <a name="hide-users-personal-lists-if-you-dont-want-users-to-see-them"></a>Masquer les listes personnelles des utilisateurs si vous ne souhaitez pas que les utilisateurs puissent les voir 
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Les tâches d’un utilisateur s’affichent si l’utilisateur est titulaire d’une licence pour Exchange Online
 
-Si vous ne souhaitez pas que les utilisateurs puissent voir les listes personnelles, vous pouvez les masquer. Pour cela, [supprimez la licence Exchange Online de l’utilisateur](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Notez qu’une fois que vous avez supprimé une licence Exchange Online, l’utilisateur n’a plus accès à la boîte aux lettres. Les données de boîte aux lettres sont conservées pendant 30 jours, après quoi elles sont supprimées et ne peuvent pas être récupérées, sauf si la boîte aux lettres est placée [en conservation inaltérable ou en conservation pour litige](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Si vous ne voulez pas que l’utilisateur puisse voir **Mes tâches**, vous pouvez le masquer. Pour cela, [supprimez la licence Exchange Online de l’utilisateur](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Il est important de savoir qu’une fois que vous avez supprimé une licence Exchange Online, l’utilisateur n’a plus accès à la boîte aux lettres.  Les données de boîte aux lettres sont conservées pendant 30 jours, après quoi elles sont supprimées et ne peuvent pas être récupérées, sauf si la boîte aux lettres est placée [en conservation inaltérable ou en conservation pour litige](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+
+Nous déconseillons de le faire pour les travailleurs de l’information, mais dans certains cas, cela peut être le cas, par exemple pour les travailleurs terrain qui ne dépendent pas de la messagerie électronique.
 
 ## <a name="task-publishing"></a>Publication de tâches
 

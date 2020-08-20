@@ -12,17 +12,16 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: Découvrez comment acheter des services pour des applications tierces sur la page gérer les applications du centre d’administration Microsoft teams
+description: Découvrez comment acheter des services pour des applications tierces dans la page gérer les applications du centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ab917c57578a854ef5bf6c591229ac35a7e98fe9
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: aeff6f363c1ae594a4a122055204d98b43d246e8
+ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146110"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818153"
 ---
 <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Acheter des services pour les équipes d’équipe tierce dans le centre d’administration Microsoft teams
 ======================================================
@@ -35,6 +34,8 @@ Les applications teams peuvent être installées gratuitement et certains peuven
 La page [gérer les applications](manage-apps.md) dans le centre d’administration Microsoft teams vous permet d’afficher et de gérer toutes les applications teams pour votre organisation. Par exemple, vous pouvez voir l’état de niveau de l’organisation et les propriétés des applications, télécharger de nouvelles applications personnalisées dans le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, et gérer les paramètres de l’application à l’échelle de l’organisation.
 
 Vous pouvez également acheter des licences pour les services proposés par des applications tierces pour les utilisateurs de votre organisation. La colonne **licences** du tableau indique si une application propose un abonnement Saas à des fins d’achat.
+
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Capture d’écran illustrant des applications tierces ayant des abonnements SaaS":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Rechercher et acheter des services pour une application tierce
 
@@ -51,10 +52,12 @@ Vous pouvez également acheter des licences pour les services proposés par des 
 8. Lorsque vous avez terminé, sélectionnez **passer une commande**.
 9. Cliquez sur **Configurer maintenant** pour activer votre abonnement sur le site Web de l’éditeur.
 
-Après avoir acheté l’application SaaS associée à l’application Teams, vous pouvez afficher les détails de l’achat suivants sur la page **gérer les applications** .
+Après avoir acheté l’offre SaaS associée à l’application Teams, vous pouvez afficher les détails de l’achat suivants sur l’onglet **offres et tarification** de la page Détails de l’application.
 
 - **Date d’activation**de la licence : date à laquelle votre licence a été activée. Si votre compte n’est pas encore configuré, cela s’affiche sous la forme d’un **abonnement en attente d’activation**.
 - **Licences**: nombre de licences que vous avez achetées.
+
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Capture d’écran de l’onglet plans et tarification de la page Détails de l’application":::
 
 Sélectionnez **gérer les licences** pour accéder au centre d’administration 365 Microsoft et afficher et gérer les licences que vous avez achetées et gérer les attributions de licence pour les utilisateurs.
 
@@ -64,8 +67,9 @@ Les administrateurs généraux peuvent afficher les achats effectués par n’im
 
 Les développeurs peuvent créer des offres SaaS associées à leurs applications Teams. Ces offres sont publiées via le [Centre des partenaires](https://partner.microsoft.com) et sont disponibles pour les organisations qui peuvent être achetées via [AppSource](https://appsource.microsoft.com/) et le centre d’administration Microsoft Teams.
  
-Pour plus d’informations, les développeurs d’applications tierces peuvent se rendre [dans le marché commercial pour créer une nouvelle proposition Saas](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) .
+Pour plus d’informations, les développeurs d’applications tierces peuvent se rendre à [la création d’une proposition Saas](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-
+- [Gérer vos applications dans le centre d’administration Microsoft teams](manage-apps.md)
+- [Créer une proposition SaaS](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)

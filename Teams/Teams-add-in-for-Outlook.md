@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085240"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814100"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -120,6 +120,7 @@ Vous pouvez uniquement appliquer cette politique aux utilisateurs qui sont en mo
 
 Certaines fonctionnalités du complément Réunion Teams sont encore en cours de création. Tenez compte des points suivants :
 
+- Le complément de réunion équipes nécessite une boîte aux lettres Exchange pour l’utilisateur principal qui planifie la réunion. Assurez-vous d’avoir au moins une boîte aux lettres Exchange configurée dans votre profil Outlook et de l’utiliser pour planifier des réunions d’équipe avec le complément. Pour une configuration requise pour Exchange, voir [Comment Exchange et teams interagissent](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams.
 - Le complément ne fonctionnera pas si un proxy d’authentification figure dans le chemin réseau du PC et des services d’équipe de l’utilisateur.
 - Les utilisateurs ne peuvent pas planifier d’événements en direct à partir d’Outlook. Accédez à Teams pour planifier des événements en direct. Pour plus d’informations, consultez [Que sont les événements en direct Microsoft Teams ?](teams-live-events/what-are-teams-live-events.md)

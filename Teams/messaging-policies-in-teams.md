@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les stratégies de messagerie et savoir comment les utiliser pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583291"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814180"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
 <!--- Add zone marker here--->
 
-Les stratégies de messagerie permettent de contrôler la disponibilité des fonctionnalités de conversation et de messagerie de canal pour les utilisateurs de Microsoft Teams. Vous pouvez utiliser la stratégie globale par défaut de l’organisation qui est créée automatiquement ou crée et attribue des stratégies de messagerie personnalisées.
+Les stratégies de messagerie sont utilisées pour contrôler les fonctionnalités de messagerie et de messagerie de canal disponibles pour les utilisateurs de Microsoft teams [(propriétaires et membres)](assign-roles-permissions.md) . Vous pouvez utiliser la stratégie globale par défaut de l’organisation qui est créée automatiquement ou crée et attribue des stratégies de messagerie personnalisées.
 
 Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Vous pouvez modifier les paramètres de la stratégie globale ou créer et affecter une ou plusieurs stratégies personnalisées pour activer ou désactiver les fonctionnalités de votre choix.
 
@@ -109,6 +109,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
+- [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
