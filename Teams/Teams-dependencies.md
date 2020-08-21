@@ -18,12 +18,12 @@ f1.keywords:
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ecf6893539204909bb6f583bbba982e8ee8d19
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6bf763caf0b44490ee578f0bf130a1d4db56a3b
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656155"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845566"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
@@ -60,7 +60,13 @@ Les paramètres des invitations s’appliquent au niveau du client et contrôlen
 
 Azure AD inclut les paramètres suivants pour configurer des utilisateurs externes :
 
-- **Autorisations des utilisateurs invités sont limitées**: **Oui** signifie que les invités ne sont pas autorisés à effectuer certaines tâches de répertoire, comme énumérer les utilisateurs, des groupes ou autres ressources de l’annuaire. En outre, les invités ne peut pas être affectées à des rôles d’administrateur dans votre annuaire. **Non** signifie que les invités ont le même accès aux données de l’annuaire que les utilisateurs normaux dans votre annuaire.
+- **Restrictions de l’accès des utilisateurs invités** : cette stratégie détermine les autorisations des invités de votre annuaire. Trois options de stratégie sont disponibles.
+
+    - Le paramètre **Les utilisateurs invités ont le même accès que les membres (le plus inclusif)** signifie que les invités disposent du même accès aux données d’annuaires que les utilisateurs réguliers dans votre annuaire.
+    - Le paramètre **Les utilisateurs invités ont un accès limité aux propriétés et à l’appartenance des objets d’annuaire** signifie que les invités n’ont pas d’autorisations pour certaines tâches d’annuaire, telles que l’énumération des utilisateurs, des groupes ou d’autres ressources d’annuaire à l’aide de Microsoft Graph.
+    - Le paramètre **L’accès des utilisateurs invités est limité aux propriétés et aux appartenances de leurs propres objets d’annuaire (le plus restrictif)** signifie que les invités peuvent uniquement accéder à leurs propres objets d’annuaire.
+    
+  Pour plus d’informations, voir [Quelles sont les autorisations par défaut de l’utilisateur dans Azure Active Directory ?](https://go.microsoft.com/fwlink/?linkid=2135493)
 - **Les administrateurs et utilisateurs ayant le rôle d'Inviteur d’invités peuvent inviter** : **Oui** signifie que les administrateurs et utilisateurs dans le rôle « Inviteur d’invités » peuvent ajouter des invités au client. **Non** signifie que les administrateurs et utilisateurs ne peuvent pas ajouter d’invités sur le client.
 - **Les membres peuvent envoyer des invitations** : pour autoriser les membres non administrateurs de votre annuaire à convier des invités, attribuez la valeur **Oui** (recommandé) à cette stratégie. Si vous préférez que seuls les administrateurs puissent ajouter des invités, vous pouvez affecter la valeur **Non**à cette stratégie. Ne pas oublier que le paramètre **Non** limite l’expérience invité aux propriétaires d’équipes non administrateurs ; ils ne pourront ajouter des invités dans Teams que si ceux-ci ont déjà été ajoutés par l'administrateur dans Azure Active Directory.
 - **Les invités peuvent inviter** : **Oui** signifie que les invités de votre annuaire peuvent ajouter des invités pour collaborer sur des ressources sécurisées par votre instance d’Azure AD, par exemple, les sites SharePoint ou les ressources Azure. **Non** signifie que les invités ne peuvent pas inviter d’autres invités pour collaborer avec votre organisation.
@@ -76,7 +82,6 @@ Ajouter manuellement le compte utilisateur invité à Azure AD B2B n’est pas o
 
 ### <a name="licensing-for-guest-access"></a>Gestion des licences pour l’accès invité
 La gestion des licences d’accès invité fait partie de la gestion des licences Azure AD. L’accès invité est inclus dans tous les abonnements Microsoft 365 Business Standard et Office 365 Entreprise. Pour plus d’informations sur les licences, voir [le guide de licence de collaboration Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
-
 
 > [!NOTE]
 > Les utilisateurs de votre organisation qui ont uniquement des offres d’abonnement Office 365 autonomes, telles que Exchange Online Plan 2, ne peuvent pas être invités en tant qu’invités à votre organisation, car les équipes considèrent ces utilisateurs comme membres de la même organisation. Pour que ces utilisateurs puissent utiliser des équipes, une offre Microsoft 365 Business Standard, Office 365 Entreprise ou Office 365 Éducation doivent leur être attribuée. 
