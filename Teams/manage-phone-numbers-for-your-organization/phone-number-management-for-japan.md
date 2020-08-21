@@ -19,17 +19,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
-ms.openlocfilehash: c76a43b3a4fd6e65a977ea5b68b595891c40aadc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638783"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824925"
 ---
 # <a name="phone-number-management-for-japan"></a>Gestion des numéros de téléphone pour le Japon
-
-> [!IMPORTANT]
-> L’utilisation de SoftBank pour les appels au Japon n’est actuellement disponible que pour les premiers décideurs (EA).
 
 Au Japon, nous avons associé SoftBank à l’achat et à la mise en service des offres d’appels pour les clients possédant une adresse de facturation au Japon. SoftBank va vendre ses forfaits d’appels, fournir des numéros d’utilisateur pour le Japon et fournir la prise en charge de la gestion des numéros de téléphone. Toutefois, les numéros de service et les licences pour les conférences audio, les standards automatiques et les files d’attente d’appels seront toujours vendus et gérés par Microsoft 365 et Office 365.
 
@@ -37,7 +34,7 @@ Pour plus d’informations sur les [appels Softbank](https://aka.ms/SoftBankVoic
 
 Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
 
-Pour plus d’informations, reportez-vous à [la rubrique gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization.md).
+Pour plus d’informations, reportez-vous à  [la rubrique gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
 |:-----|:-----|

@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085880"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824935"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installer Microsoft teams PowerShell
 
@@ -73,8 +73,11 @@ Install-Module PowerShellGet -Force -AllowClobber
 
 Pour installer Team PowerShell public Preview, exécutez la commande PowerShell ci-dessous.
 
+> [!NOTE]
+> Pour savoir comment accéder à la version d’évaluation la plus récente dans la [Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou dans PowerShell, exécutez « Find-module MicrosoftTeams-AllowPrerelease ».
+
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 ```
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Installation de Skype entreprise Online Connector
@@ -99,13 +102,13 @@ Pour commencer à utiliser teams PowerShell, connectez-vous à l’aide de vos i
 > Si vous utilisez la version la plus récente de la [version préliminaire public teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credentials $credential
+Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credentials $credential
+$session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
@@ -137,7 +140,7 @@ Uninstall-Module MicrosoftTeams
 
 Vous êtes maintenant prêt à gérer teams à l’aide de teams PowerShell. Pour commencer, voir [gestion d’équipes avec teams PowerShell](teams-powershell-managing-teams.md) .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Gestion des équipes avec PowerShell teams](teams-powershell-managing-teams.md)
 

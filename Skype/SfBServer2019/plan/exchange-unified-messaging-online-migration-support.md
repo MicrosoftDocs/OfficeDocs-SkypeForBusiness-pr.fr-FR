@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778036"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824895"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -165,17 +165,18 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités de l’appelant  | Détection de silence   |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : l’administrateur peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme protégée | v | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la durée limite d’enregistrement  |     | v | v    |
-| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | N/A    | v    |
+| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | S/O    | v    |
 | Media | Client-fonctionnalités d’administration | Modifier le nombre d’échecs d’entrée | CVM : préprogrammé préprogrammé sur 3 | N | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la langue par défaut |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la transcription |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | N/A    | v    |
+| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | S/O    | v    |
 | Media | Client-fonctionnalités d’administration | Masquage de transcription|  | v | N    |
 | Media | Client-fonctionnalités d’administration | Stratégie de messagerie vocale    |   | v | v    |
 | Media | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | v    |
 | Media | Client-fonctionnalités d’administration | PowerShell   |  | v | v    |
+| MESSAGERIE | Fonctionnalités utilisateur | Indicateur de message en attente (indicateur) sur les téléphones certifiés Skype entreprise   |Peut être fourni par un partenaire de téléphone  | Non | Oui    |
 | AUTOMATIQUE | Fonctionnalités de service | AA prennent en charge PBX tiers    |  | N | v    |
 | AUTOMATIQUE | Fonctionnalités de service | Prise en charge de Skype entreprise Server   |  | v | v    |
 | AUTOMATIQUE | Fonctionnalités de service | Prise en charge de Microsoft teams|  | v | N    |

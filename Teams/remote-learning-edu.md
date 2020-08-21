@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: karsmith, lakuan
 description: Conseils pour le démarrage de l'apprentissage à distance pour Microsoft Teams pour l’Éducation.
 localization_priority: Priority
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 8b72a2000b17f5e910b98f907b00fa9742cf9d72
+ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533759"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818173"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -104,12 +104,149 @@ Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiant
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>Créez des équipes de cours pour une utilisation sûre de la classe
 
-Microsoft Teams pour l’éducation offre des [types d’équipe spécifiques](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) pour l’utilisation scolaire. Le [type d’équipe de classe](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) est conçu pour les salles de cours qui incluent des fonctionnalités spécifiques, notamment les devoirs, un bloc-notes OneNote pour la classe, un [dossier de cours](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) pour la sécurisation du contenu en lecture seule pour les étudiants, et la possibilité de désactiver le son des étudiants perturbateurs. Les équipes de classe peuvent être déployées de plusieurs manières :
+Microsoft Teams pour l’éducation offre des   [types d’équipe spécifiques](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)   pour l’utilisation scolaire. Le [type d’équipe de la classe](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) est conçue pour l’utilisation de la classe et inclut des fonctionnalités spécifiques qui prennent en charge les besoins de classe, notamment :  
 
-1. [School Data Sync](https://sds.microsoft.com/) (SDS) peut être **configuré par le service informatique**, pour pouvoir créer des équipes de cours pour toutes les classes sur la base des informations du système d’information de l'établissement d’enseignement. Ce processus met en place les groupes pour chaque section et maintient la synchronisation de vos listes d’enseignants et d’étudiants au fur et à mesure des modifications d’inscription. Les enseignants peuvent convertir ces groupes en équipes de classe [l’aide de ce processus](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b). Une fois qu’une équipe de classe est créée, Les [Enseignants peuvent préparer leur équipe](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) avant d’admettre les étudiants. School Data Sync (SDS) prend en charge plus de 80 Systèmes d’information scolaire (SIS) différents pour l’importation de données, et l’ [équipe de support SDS](https://aka.ms/SDSSupport) est prête à vous aider pour la planification et la configuration. Vous pouvez également consulter nos [Guide de déploiement rapide pour l'apprentissage à distances](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance) démarrer rapidement.
-1. Les **enseignants configurent** leur propre équipe de type de classe et invitent des étudiants. Les enseignants peuvent effectuer cette opération via l'[ajout des étudiants dans l'équipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), le [partage d'un code de participation](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ou le [partage d'un lien avec l'équipe](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Dans la mesure du possible, il est préférable que les enseignants ajoutent les étudiants à l’équipe pour leur en garantir l'accès et être sûr qu’ils soient informés de leur ajout dans une équipe.
+- Affectations
+- Notes
+- Bloc-notes OneNote pour la classe  
+- [Dossier matériaux de la classe](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  pour la sécurisation du contenu en lecture seule pour les étudiants
+- [Accès initial aux enseignants](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) pour configurer la classe avant que les étudiants soient ajoutés 
+- Possibilité de désactiver le son des étudiants et d’autres autorisations spéciales  
 
-Une fois que vous avez configuré l’équipe, les propriétaires d’équipe peuvent [personnaliser les paramètres de celle-ci](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158), notamment avec l’ajout d’une [image d'équipe](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), la [création de canaux](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45) pour des sujets de cours ou des zones de collaboration de groupe, l’[ajout d’une application](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) telle que Quizlet/Flipgrid/Kahoot pour faire apparaître le contenu éducatif existant, et ils peuvent également [mentionner leur équipe dans leur première publication](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) pour informer tout le monde et commencer la conversation.
+Plusieurs méthodes s’offrent à vous pour créer des équipes de classe, et les équipes pour l’éducation disposent d’un jeu unique d’outils de déploiement qui leur permet de rendre le plus simple possible.
+
+ - [Création automatique d’équipe à l’aide de SDS](#automatic-team-creation-using-sds)
+ - [Création d’équipes dispensés d’enseignants à partir d’Office 365 groupes de classe](#educator-led-team-creation-from-office-365-class-groups)
+ - [Script PowerShell à l’aide des API Graph](#powershell-script-using-graph-apis)
+ - [Création manuelle d’équipe](#manual-team-creation)
+
+Plusieurs options s’offrent à vous pour vous aider à choisir le chemin de déploiement approprié qui correspond le mieux à vos besoins.  
+
+#### <a name="automatic-team-creation-using-sds"></a>Création automatique d’équipe à l’aide de SDS
+
+L’automatisation de la création d’équipe permet aux administrateurs informatiques et aux enseignants de gagner du temps. Elle permet aux enseignants de créer des équipes de cours et de les configurer lors de la connexion. [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) est un outil de formation Office 365 gratuit qui lit les données du système d’enregistrement d’un établissement d’enseignement, par exemple, un système d’information sur les étudiants (SIS) ou un système de gestion des formations (LMS). SDS utilise les données pour enrichir la configuration d’Office 365 de nombreuses façons, notamment la création en bloc de équipes de cours et la synchronisation avec votre système d’information afin de maintenir la mise à jour de votre instructeur et de vos membres d’étudiant au fur et à mesure de la modification de l’inscription. SDS peut importer des données à partir de n’importe quel système d’enregistrement et intègre des connecteurs à la plupart des fournisseurs [SIS existants de](https://docs.microsoft.com/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support). Nous vous recommandons vivement d’utiliser SDS, car il présente les avantages suivants.  
+
+###### <a name="benefits"></a>Avantages
+
+- Création et maintenance automatiques des équipes de cours : les enseignants pourront se connecter aux équipes et commencer immédiatement l’apprentissage.
+- La synchronisation des membres avec SIS/LMS permet de gérer les modifications d’adhésion des étudiants.
+- L’équipe de réussite des clients de l’UDE est disponible pour une assistance gratuite au déploiement.
+- [Accès initial aux enseignants](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): les enseignants ont le temps de préparer leur équipe avant d’admettre les étudiants.  
+- Vous pouvez également créer des utilisateurs et appliquer des licences Office 365.
+- Crée des groupes de sécurité à utiliser dans Office 365, y compris la stratégie des équipes.
+- Crée des unités d’administration pour la délégation d’administration étendue et [de réinitialisation du mot de passe d’enseignant](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset). 
+- Erreurs intégrées et gestion des tentatives, limitation de limitation et stabilité de la session pour un traitement à grande échelle afin de réduire le travail des administrateurs.  
+- Fonctionnalités de nettoyage intégrées renommez et archivez les groupes et les équipes une fois qu’ils sont obsolètes.
+- [Synchronisation de qualité](https://docs.microsoft.com/schooldatasync/grade-sync): les enseignants peuvent faire leur classement dans les équipes et faire en sorte qu’elles réécrivent automatiquement les notes des équipes dans le SIS. 
+- [Protection des données d’étudiant](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data) : empêcher les étudiants d’utiliser des applications non-Microsoft et suivre et gérer l’autorisation parentale. 
+- Les données importées sont utilisées pour enrichir les informations de formation avec les rôles d’utilisateur, les organisations (établissements scolaires) et d’autres données importantes.  
+
+##### <a name="considerations"></a>Considérations
+
+SDS crée des équipes en deux étapes. La première étape consiste à créer un groupe Microsoft 365 dans Azure Active Directory (Azure AD). la deuxième étape transforme automatiquement ce groupe en équipe. La deuxième étape de la création d’équipes est facultative dans SDS. Un administrateur peut ne pas vouloir créer automatiquement des équipes en fonction du temps de déploiement et du nombre d’équipes inutilisées pouvant en résulter. Nous recommandons aux établissements disposant de 500 000 équipes de désactiver le bouton de création automatique d’équipe dans SDS et d’utiliser la [méthode de création d’équipe disposant d’enseignant](#educator-led-team-creation-from-office-365-class-groups).  
+
+##### <a name="get-started"></a>Prise en main
+
+Pour commencer, accédez à [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) et contactez [https://aka.ms/sdssupport](https://aka.ms/sdssupport) support de déploiement.  
+
+#### <a name="educator-led-team-creation-from-office-365-class-groups"></a>Création d’équipes dispensés d’enseignants à partir d’Office 365 groupes de classe
+
+La création d’une équipe dirigée par l’enseignant est une option de déploiement idéale si vous voulez permettre aux enseignants de créer facilement les cours dont ils ont besoin. Nous recommandons également que les établissements comptant plus de 500 000 équipes utilisent cette méthode pour réduire au minimum le nombre d’équipes créées à l’extérieur.  
+
+Cette approche hybride vous permet d’utiliser SDS pour créer des groupes pour chaque classe (recommandé) ou d’utiliser [API Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) pour les créer vous-même. Une fois les groupes de classes préparés, les enseignants peuvent convertir leurs groupes en équipes à l’aide de l’icône **Classes suggérées**.
+
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Capture d’écran montrant l’icône de cours suggérés":::
+
+##### <a name="benefits"></a>Avantages
+
+- [Accès initial aux enseignants](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): les enseignants ont le temps de préparer leur équipe avant d’admettre les étudiants.  
+- Réduit le nombre d’équipes inutilisées et superflues. Les classes sont préparées et suggérées, mais pas créées, sauf si l’enseignant envisage de les utiliser. Nous vous recommandons d’utiliser cette option pour les grandes entreprises qui ont plus de 500 000 équipes afin de réduire l’encombrement.
+- SDS
+    - La synchronisation des membres avec SIS/LMS permet de gérer les modifications d’adhésion des étudiants.
+    - L’équipe de réussite des clients de l’UDE est disponible pour une assistance gratuite au déploiement.
+    - Vous pouvez également créer des utilisateurs et appliquer des licences Office 365.
+    - Crée des groupes de sécurité à utiliser dans Office 365, y compris la stratégie des équipes.
+    - Crée des unités d’administration pour la délégation d’administration étendue et [de réinitialisation du mot de passe d’enseignant](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset).
+    - Erreurs intégrées et gestion des tentatives, limitation de limitation et stabilité de la session pour un traitement à grande échelle afin de réduire le travail des administrateurs. 
+    - Fonctionnalités de nettoyage intégrées renommez et archivez les groupes et les équipes une fois qu’ils sont obsolètes. 
+    - [Synchronisation de qualité](https://docs.microsoft.com/schooldatasync/grade-sync): les enseignants peuvent faire leur classement dans les équipes et faire en sorte qu’elles réécrivent automatiquement les notes des équipes dans le SIS. 
+    - [Protection des données d’étudiant](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data) : empêcher les étudiants d’utiliser des applications non-Microsoft et suivre et gérer l’autorisation parentale. 
+    - Les données importées sont utilisées pour enrichir les informations de formation avec les rôles d’utilisateur, les organisations (établissements scolaires) et d’autres données importantes.
+- API Graph
+    - Davantage de flexibilité et de contrôle.
+    - Ne nécessite aucune intégration avec SDS.
+
+##### <a name="considerations"></a>Considérations
+
+- Pas complètement automatisé et nécessite une action de l’étudiant.
+- Les enseignants qui n’ont pas l’autorisation de créer des équipes peuvent continuer à créer des équipes à partir de groupes existants, comme illustré [ici](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+- L’API Graph nécessite un haut niveau de compétences techniques et un temps de création et d’exécution du script et de résoudre les problèmes liés à la création de groupes de classes.
+
+##### <a name="get-started"></a>Prise en main
+
+Pour commencer à utiliser la méthode SDS, accédez à [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) et contactez [https://aka.ms/sdssupport](https://aka.ms/sdssupport) support de déploiement. 
+
+Pour utiliser la méthode de l’API Graph, voir [API Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) et [Créer une équipe de classe](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http).  
+
+> [!NOTE]
+> Pour utiliser cette méthode avec SDS, vous devez activer le bouton de création automatique de l’équipe dans votre profil SDS. Vous pouvez également utiliser une combinaison de création d’équipes disposées automatiquement et professeur pour les équipes de classe requises et facultatives à l’aide de deux profils SDS.
+
+#### <a name="powershell-script-using-graph-apis"></a>Script PowerShell à l’aide des API Graph
+
+PowerShell vous permet de créer un script pour créer des équipes, des canaux et configurer les paramètres automatiquement. L’administrateur doit tout d’abord créer le groupe, ajouter des enseignants et des étudiants, puis créer l’équipe comme décrit [ici](https://docs.microsoft.com/graph/teams-create-group-and-team). Vous pouvez également utiliser l’API Microsoft Graph pour créer, configurer, cloner et archiver des équipes. Pour plus d’informations, voir [utiliser l’API Microsoft Graph pour utiliser Microsoft teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview), [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams) et [Créer une équipe de classe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-6-create-a-team-with-a-non-standard-base-template-type). L’utilisation des API Graph constitue un excellent moyen de disposer d’un contrôle et d’une flexibilité accrus, mais nécessite un haut niveau de compétences techniques et prend plus de temps pour la configuration initiale.
+
+##### <a name="benefits"></a>Avantages
+
+- Davantage de flexibilité et de contrôle.
+- Option permettant de créer des équipes d’accès rapide aux enseignants ou un accès immédiat des étudiants aux équipes.  
+- Si vous [Créer des équipes à partir de groupes](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group), les enseignants peuvent accéder en avant-première aux modifications apportées à l’appartenance au groupe Azure AD.
+
+##### <a name="considerations"></a>Considérations
+
+- Nécessite un haut niveau de compétences techniques et le temps nécessaire pour créer et exécuter le script et résoudre les problèmes liés à la création de groupes de classes.
+- Pas de gestion des erreurs intégrée ni de logique de nouvelle tentative.
+- Les modifications d’appartenance ne sont pas synchronisées avec SIS. 
+
+> [!NOTE]
+> Les équipes de classe nécessitent une appartenance aux groupes masqués de sorte que seuls les enseignants et les étudiants au sein de la classe puissent voir les membres de cette classe. Pour créer un groupe de classes Office 365, voir [Créer une équipe de classe](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http) afin de respecter les mêmes exigences de confidentialité.
+
+#### <a name="manual-team-creation"></a>Création manuelle d’équipe
+
+Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes. Les enseignants configurent leur propre équipe de type classe et invitent les étudiants comme illustré [ici](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Les enseignants peuvent inviter des étudiants en [ajoutant des étudiants à l’équipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [partageant un code de jointure](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ou [partageant un lien vers l’équipe](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Dans la mesure du possible, il est préférable que les enseignants ajoutent les étudiants à l’équipe pour leur en garantir l'accès et être sûr qu’ils soient informés de leur ajout dans une équipe.
+
+##### <a name="benefits"></a>Avantages
+
+- Flexibilité supplémentaire pour les enseignants.
+- Création et accès immédiat de l’équipe.  
+
+##### <a name="considerations"></a>Considérations
+
+- Nécessite l’intervention et le temps de l’enseignant.
+- Les membres de l’étudiant ne sont pas synchronisés avec SIS et nécessitent une gestion manuelle.
+- N’offre pas aux enseignants un accès en avant-première à leur équipe. Les étudiants pourront y accéder immédiatement.
+
+#### <a name="recommended-best-practices"></a>Recommandations recommandées
+
+- Déploiement précoce ! Déployez dès maintenant pour vous assurer que tout fonctionne correctement et prêt pour le premier jour de l’école.
+- Si vous avez plus de 500 000 équipes, nous vous recommandons d’utiliser la méthode de création d’équipe disposant de [enseignant,](#educator-led-team-creation-from-office-365-class-groups). Il réduit les équipes inutilisées et le courrier pêle-mêle en créant uniquement des équipes de cours pertinentes et utiles.  
+- S’il existe des problèmes (par exemple, des classes manquantes) avec la création automatique d’une équipe SDS et si les enseignants en ont besoin immédiatement, ils peuvent utiliser la [méthode de création d’équipe disposant de enseignant](#educator-led-team-creation-from-office-365-class-groups) pour réessayer. [La création manuelle d’une équipe](#manual-team-creation) est une autre solution, mais elle ne maintient pas la mise à jour de votre abonnement d’équipe.  
+- La limite de l’équipe des clients est de 500 000 équipes. Par conséquent, les administrateurs doivent essayer de réduire le nombre d’équipes inutilisées de manière proactive afin d’éviter d’atteindre ces limites et de prolonger leur temps de configuration. Pour plus d’informations sur les limites, voir [Limites et spécifications pour Microsoft teams](limits-specifications-teams.md).  
+
+#### <a name="early-access-to-class-teams"></a>Accès anticipé aux équipes de cours
+
+Early Access Class Teams permet aux enseignants d'accéder à leur équipe de classe avant que leurs élèves ne puissent la consulter et commencer à participer. Cela permet aux enseignants de configurer et d’ajouter des fichiers, et de s’organiser avant d’accorder l’accès aux étudiants. Lorsqu’ils sont prêts à permettre aux étudiants d’accéder à l’équipe, ils peuvent facilement [activer leur classe](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78). En tant qu’administrateur, vous disposez également de contrôles et de fonctionnalités supplémentaires pour créer et configurer Early Access Class Teams.
+
+##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>Comment créer des équipes de classe qui permettent aux enseignants une accès anticipé à la configuration d’une équipe avant d’autoriser les étudiants ?
+
+Les équipes créées à partir de regroupements (via SDS, le format enseignant ou l’API Graph) créent automatiquement des équipes d’accès anticipé en amont par défaut. Pour créer vos propres équipes d’accès anticipé à l’aide de l’API Graph, vous devez [créer une classe](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http) et [créer l’équipe à partir d’un groupe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group).
+
+##### <a name="how-do-i-check-if-a-class-is-activated"></a>Comment vérifier si une classe est activée ?
+
+Dans le [type de ressource d’équipe](https://docs.microsoft.com/graph/api/resources/team?view=graph-rest-beta), nous avons ajouté une nouvelle propriété, [isMembershipLimitedToOwners](https://docs.microsoft.com/graph/api/resources/team?view=graph-rest-beta#properties), pour déterminer si une classe est activée. Utilisez la [l’API obtenir l’équipe](https://docs.microsoft.com/graph/api/team-get?view=graph-rest-beta&tabs=http) pour interroger la propriété ```isMembershipLimitedToOwners``` pour une classe spécifique. Si l’équipe est activée, elle renvoie la valeur faux. Si l’équipe n’a pas été activée par le propriétaire de l’équipe, elle renvoie la valeur vrai.
+
+##### <a name="how-do-i-activate-a-class-for-an-educator"></a>Comment activer une classe pour un enseignant ?
+
+Utilisez l’[API de mise à jour d’équipe](https://docs.microsoft.com/graph/api/team-update?view=graph-rest-beta&tabs=http) et attribuez à la propriété ```isMembershipLimitedToOwners``` la valeur faux pour activer l’équipe au nom de l’enseignant. Notez qu’une fois qu’une équipe est activée, elle ne peut pas être contrepassée.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Créez des équipes pour la communication et la collaboration du personnel
 

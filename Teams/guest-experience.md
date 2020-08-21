@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 591cd6447f9430905fce1e84f22708d19adf70c5
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655945"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845576"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -40,6 +40,8 @@ Regardez ces vidéos sur l’interface de l’invité dans teams :
 - [Rejoindre une équipe en tant qu’invité](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Rejoindre une réunion en équipe avec des invités](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
+> [!NOTE]
+> Les administrateurs Microsoft 365 et Office 365 contrôlent les fonctionnalités disponibles pour les invités.
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparaison entre le membre d’équipe et les fonctionnalités d’invité
 
@@ -64,7 +66,6 @@ Le tableau suivant compare les fonctionnalités d’équipes disponibles pour le
 |Utiliser la traduction intraligne  <br/> |&#x2713;||
 |Devenir le propriétaire de l’équipe  <br/> |&#x2713;||
 
-   
 Le tableau suivant répertorie les fonctionnalités d’appel et de réunion accessibles aux invités par rapport aux autres types d’utilisateurs.
 
 | Fonction d’appel | Dactylo | Utilisateurs E1 et E3 | E5 et utilisateur voix entreprise |
@@ -95,34 +96,46 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 | Peuvent avoir des délégués | Non | Non | Oui |
 |  Il peut s’agir d’un délégué | Non | Non | Oui |
 
-
 <sup>1</sup> cette fonction sera disponible prochainement.
 
 > [!NOTE]
-> Les administrateurs Microsoft 365 et Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
+> La stratégie de **restrictions d’accès des utilisateurs invités** dans Azure Active Directory (Azure AD) détermine les autorisations relatives aux invités dans votre annuaire. Il existe trois options de stratégie.
+>  - Les **utilisateurs invités ont le même accès que les membres (plus inclusives)** que les invités ont le même accès aux données d’annuaire que les utilisateurs normaux dans votre annuaire.
+>  - Les **utilisateurs invités disposant d’un accès limité aux propriétés et de l’appartenance aux paramètres d’objets d’annuaire** impliquent que les invités ne disposent pas des autorisations pour certaines tâches d’annuaire, comme l’énumération des utilisateurs, des groupes ou d’autres ressources d’annuaire à l’aide de Microsoft Graph.
+>  - L' **accès des utilisateurs invités est limité aux propriétés et aux appartenances de leurs propres objets d’annuaire (la plus restrictive)** signifie que les invités peuvent uniquement accéder à leurs propres objets d’annuaire.
+>
+>Pour en savoir plus, voir [Quelles sont les autorisations d’utilisateur par défaut dans Azure Active Directory ?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 ### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>Comment puis-je laisser une organisation à laquelle j’ai été invité ?
+
 Si vous avez été invité à une organisation dont vous ne voulez pas être invité, vous pouvez choisir de quitter l’organisation. Pour plus d’informations, voir [quitter une organisation en tant qu’utilisateur invité](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Par ailleurs, vous pouvez demander à l’administrateur de l’organisation de vous supprimer de son locataire. Notez que, dans tous les cas, vous devrez être réinvité pour le client si vous souhaitez accéder à l’organisation ultérieurement.
 
 ### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>Les invités ont-ils les mêmes fonctionnalités que les membres de l’équipe ?
+
 Non. Pour plus d’informations sur ce qu’un invité peut et ne peut pas faire, consultez la rubrique [comparaison des fonctionnalités de membre d’équipe et d’invité](#comparison-of-team-member-and-guest-capabilities) dans cet article.
 
 ### <a name="do-guests-have-access-to-onedrive-for-business"></a>Les invités peuvent-ils accéder à OneDrive entreprise ?
+
 Non.
 
 ### <a name="do-guests-have-access-to-sharepoint-files"></a>Les invités peuvent-ils accéder aux fichiers SharePoint ?
+
 Oui.
 
 ### <a name="can-guests-search-within-files"></a>Les invités peuvent-ils effectuer une recherche dans les fichiers ?
+
 Non.
 
 ### <a name="can-guests-attach-files"></a>Les invités peuvent-ils joindre des fichiers ?
+
 Oui, un invité peut joindre des fichiers de deux manières :
 
-   - Sélectionnez **fichiers** dans le volet gauche, puis accédez à l’emplacement du fichier.
-   - Chargez des fichiers à partir de leur ordinateur.
+  - Sélectionnez **fichiers** dans le volet gauche, puis accédez à l’emplacement du fichier.
+  - Chargez des fichiers à partir de leur ordinateur.
 
 ### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>Un invité peut-il télécharger un fichier dans une conversation privée ?
+
 Oui, il peut recevoir un fichier d’un membre d’une conversation privée, puis le télécharger sur son bureau.
+
