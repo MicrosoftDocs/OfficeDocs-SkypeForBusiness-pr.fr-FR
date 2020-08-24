@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788708"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860805"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -163,7 +163,7 @@ Le certificat doit être généré par l’une des autorités de certification r
 
 - AffirmTrust
 - Racine de l’autorité de certification externe AddTrust
-- Certificat racine de CyberTrust Baltimore
+- Racine Baltimore CyberTrust *
 - Buypass
 - Cybertrust
 - Autorité de certification principale publique de classe 3
@@ -185,6 +185,11 @@ Le certificat doit être généré par l’une des autorités de certification r
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+
+
+
+> [!NOTE]
+> * Si la prise en charge de Mutual TLS (MTLS) est activée pour la connexion teams sur l’SBC, vous devez installer le certificat racine Baltimore CyberTrust dans le magasin de racines de confiance SBC du contexte TLS Teams. (En effet, les certificats de service Microsoft utilisent le certificat racine Baltimore.) Pour télécharger le certificat racine Baltimore, voir [chaînes de chiffrement Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 Microsoft travaille actuellement à l’ajout d’autorités de certification basées sur les demandes des clients. 
 

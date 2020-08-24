@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086221"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860815"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -86,6 +86,10 @@ Si ce n’est pas le cas, vous pouvez utiliser PowerShell pour créer une équip
 
 Les administrateurs généraux peuvent convertir une équipe existante en une équipe à l’échelle de l’organisation en la modifiant dans le client Teams. Accédez au nom de l’équipe, cliquez sur **Autres options** > **Modifier l’équipe**.
 
+### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>Puis-je créer une équipe à l’échelle de l’organisation à l’aide d’un modèle d’équipe ?
+
+Les modèles d’équipe ne peuvent pas être utilisés pour créer une équipe à l’échelle de l’organisation. Ce composant est actuellement en cours d’utilisation. 
+
 ## <a name="see-also"></a>Voir aussi
 
-Visionnez une vidéo sur la[Création d’une équipe à l’échelle de l’entreprise dans Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Regardez une vidéo sur la [création d’une équipe à l’échelle de l’entreprise dans Microsoft teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634730"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860795"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Commencer à utiliser les modèles teams dans la console d’administration teams
 
@@ -71,7 +71,6 @@ Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou re
 > [!NOTE]
 > Les modèles de base prédéfinis fournis par Microsoft teams peuvent être dupliqués mais ne peuvent pas être modifiés.
 
-
 | Type de modèle de base | Propriétés fournies avec ce modèle de base |
 | ------------------ |----------------------------------------------------- |
 | Adopter Office 365 |  Canaux <ul><li>Général</li> <li>Annonces</li> <li>Coin des champions</li> <li>Formulaires d’équipe</li></ul> Logiciels <ul><li>Wiki</li>  <li>Calendrier</li> |
@@ -88,6 +87,22 @@ Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou re
 |Qualité et sécurité |Canaux <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Technologique</li><li>Formation</li><li>Tarification</li><li>Outils amusants</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 |Collaboration avec le responsable commercial |Canaux <ul><li>Général<li>Opérations</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 |||
+
+## <a name="template-size-limits"></a>Limites de taille de modèle
+
+Les modèles sont limités à un nombre déterminé de canaux, d’onglets et d’applications.
+
+ > [!Note]
+ > Vous pouvez ajouter d’autres canaux, onglets et applications à l’équipe après leur création à partir d’un modèle.
+
+|Fonctionnalité | Plafond|
+|-|-|
+|Canaux par modèle | 0,15 |
+|Onglets par canal dans un modèle | CX3-20 |
+|Applications par modèle | 50|
+|||
+
+Pour plus d’informations [, voir limites et spécifications de teams](limits-specifications-teams.md) .
 
 ## <a name="related-topics"></a>Voir aussi
 
