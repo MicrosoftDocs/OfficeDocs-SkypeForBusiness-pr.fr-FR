@@ -3,127 +3,6 @@
 
 
 
-## <a name="week-of-july-06-2020"></a>Semaine du mois de juillet 06 2020
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 7/7/2020 | [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 7/7/2020 | [Créer une file d’attente d’appel](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 7/7/2020 | [Connecter votre contrôleur de bordure de session (SBC) au routage direct](/MicrosoftTeams/direct-routing-connect-the-sbc) | modifié |
-| 7/7/2020 | [Traduire des numéros de téléphone pour le routage direct](/MicrosoftTeams/direct-routing-translate-numbers) | modifié |
-| 7/7/2020 | [Restrictions des appels sortants-audioconférence & appels RTC](/MicrosoftTeams/outbound-calling-restriction-policies) | modifié |
-| 7/7/2020 | [Afficher la liste des numéros d’audioconférence](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modifié |
-| 7/7/2020 | [Notes de publication de Microsoft teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
-| 7/7/2020 | [Un standard Cloud automatique, qu’est-ce que c’est ?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modifié |
-| 7/8/2020 | [Solutions d’accessibilité pour Skype Entreprise Online et Microsoft Teams](/MicrosoftTeams/accessibility-solutions-in-france) | modifié |
-| 7/8/2020 | [Configurer un appel d’urgence dynamique](/MicrosoftTeams/configure-dynamic-emergency-calling) | modifié |
-| 7/8/2020 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
-| 7/8/2020 | [Obstacles liés à l’information dans Microsoft teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
-| 7/8/2020 | [Créer une application de portail intranet Teams à partir d’un site ou d’une page SharePoint Online](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modifié |
-| 7/8/2020 | [Guides des opérations de Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | modifié |
-| 7/8/2020 | [Utilisation du rapport de routage direct RTC bord](/MicrosoftTeams/cqd-pstn-report) | modifié |
-| 7/8/2020 | [Installer le connecteur Power BI pour utiliser des modèles de requête bord](/MicrosoftTeams/cqd-power-bi-connector) | modifié |
-| 7/8/2020 | [Utiliser Power BI pour analyser des données bord pour Microsoft teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modifié |
-| 7/8/2020 | [Afficher l’utilisation de Microsoft teams dans Power BI à l’aide de données bord](/MicrosoftTeams/cqd-teams-utilization-report) | modifié |
-| 7/8/2020 | [Mise en œuvre de la qualité de service (QoS) pour les clients Microsoft teams](/MicrosoftTeams/qos-in-teams-clients) | modifié |
-| 7/8/2020 | [Implémenter la qualité de service dans Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modifié |
-| 7/8/2020 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
-| 7/8/2020 | [Paramètres d'administration pour les applications dans Microsoft Teams](/MicrosoftTeams/admin-settings) | modifié |
-| 7/8/2020 | [Archiver ou supprimer une équipe dans Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | modifié |
-| 7/8/2020 | [Surveillance de la qualité des appels](/MicrosoftTeams/business-voice/monitor-quality) | modifié |
-| 7/8/2020 | [Résoudre les problèmes de connectivité avec le client teams](/MicrosoftTeams/connectivity-issues) | modifié |
-| 7/8/2020 | [Créer une équipe à l’échelle de l’organisation dans Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modifié |
-| 7/8/2020 | [Applications, robots et connecteurs dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
-| 7/8/2020 | [Configurer les paramètres de conférence audio-Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | modifié |
-| 7/8/2020 | [Réunions et conférences dans Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modifié |
-| 7/8/2020 | Tableau de bord Analyse des appels et Qualité des appels | supprimé |
-| 7/8/2020 | [Dimensions et mesures-tableau de bord de qualité des appels (bord)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
-| 7/8/2020 | [Obtenir de l’aide dans Microsoft Teams](/MicrosoftTeams/get-help-in-microsoft-teams) | modifié |
-| 7/8/2020 | [Ajouter et mettre à jour les étiquettes de rapport](/MicrosoftTeams/learn-more-about-site-upload) | modifié |
-| 7/8/2020 | [Problèmes de réception de messages et d’appels sur les anciens systèmes dans teams](/MicrosoftTeams/legacy-login-issues) | modifié |
-| 7/8/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 7/8/2020 | [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](/MicrosoftTeams/log-files) | modifié |
-| 7/8/2020 | [Gérer vos applications dans le centre d’administration Microsoft teams](/MicrosoftTeams/manage-apps) | modifié |
-| 7/8/2020 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
-| 7/8/2020 | [Surveiller et améliorer la qualité des appels de Microsoft teams](/MicrosoftTeams/monitor-call-quality-qos) | modifié |
-| 7/8/2020 | [Installer teams à l’aide de Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modifié |
-| 7/8/2020 | [Utiliser le planificateur de réseaux pour Microsoft teams](/MicrosoftTeams/network-planner) | modifié |
-| 7/8/2020 | [Liste de vérification d’intégration : activez le service Microsoft 365 ou Office 365](/MicrosoftTeams/onboarding-checklist-enable-office-365) | modifié |
-| 7/8/2020 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
-| 7/8/2020 | [Utiliser bord pour gérer la qualité des appels et des réunions dans Microsoft teams](/MicrosoftTeams/quality-of-experience-review-guide) | modifié |
-| 7/8/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
-| 7/8/2020 | [Stratégies de conservation dans Microsoft Teams](/MicrosoftTeams/retention-policies) | modifié |
-| 7/8/2020 | [Déployer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-deploy) | modifié |
-| 7/8/2020 | [Présentation de la gestion des salles de Microsoft teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
-| 7/8/2020 | [Vérifier l’état du service Microsoft Teams](/MicrosoftTeams/service-health) | modifié |
-| 7/8/2020 | [Configurer l’analyse des appels pour Microsoft teams](/MicrosoftTeams/set-up-call-analytics) | modifié |
-| 7/8/2020 | [Se connecter à Teams en utilisant l’authentification moderne](/MicrosoftTeams/sign-in-teams) | modifié |
-| 7/8/2020 | [Classification des flux dans le tableau de bord de qualité des appels (bord)](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | modifié |
-| 7/8/2020 | [Installer Microsoft teams PowerShell](/MicrosoftTeams/teams-powershell-install) | modifié |
-| 7/8/2020 | [Résolution des problèmes liés à l’accès invité dans Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | modifié |
-| 7/8/2020 | [Résoudre les problèmes d’installation et de mise à jour de Microsoft Teams sur Windows](/MicrosoftTeams/troubleshoot-installation) | modifié |
-| 7/8/2020 | [Configurer le tableau de bord de qualité des appels (bord)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modifié |
-| 7/8/2020 | [Scénario d’utilisation du planificateur de réseaux-exemple](/MicrosoftTeams/tutorial-network-planner-example) | modifié |
-| 7/8/2020 | [Qualité de l’expérience utilisateur \| Microsoft Teams \| QoS \| Qualité d’appel](/MicrosoftTeams/upgrade-monitor-quality) | modifié |
-| 7/8/2020 | [Opérations pour Microsoft Teams\| Gestion du service \| Qualité](/MicrosoftTeams/upgrade-operate-my-service) | modifié |
-| 7/8/2020 | [Formation pour Microsoft Teams \|Support informatique relatif aux problèmes d’administrateur](/MicrosoftTeams/upgrade-prepare-it-pros) | modifié |
-| 7/8/2020 | [Utiliser l’analyse des appels pour résoudre les problèmes de mauvaise qualité d’appel](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | modifié |
-| 7/9/2020 | [Étiquettes de confidentialité de Microsoft teams](/MicrosoftTeams/sensitivity-labels) | modifié |
-| 7/10/2020 | [Autoriser l'accès invité dans Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modifié |
-| 7/10/2020 | [Présentation de l’application Patients](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modifié |
-
-
-## <a name="week-of-july-13-2020"></a>Semaine du 13 juillet 2020
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 7/14/2020 | [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modifié |
-| 7/14/2020 | [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 7/14/2020 | [Mettre à jour les appareils Microsoft teams à distance](/MicrosoftTeams/devices/remote-update) | modifié |
-| 7/14/2020 | [Préparer votre environnement](/MicrosoftTeams/rooms/rooms-prep) | modifié |
-| 7/14/2020 | [Configuration de la licence de téléphone commune](/MicrosoftTeams/set-up-common-area-phones) | modifié |
-| 7/14/2020 | [Mode partage de lignes dans Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modifié |
-| 7/14/2020 | [Exemple petite entreprise : configurer un standard automatique](/MicrosoftTeams/tutorial-org-aa) | modifié |
-| 7/14/2020 | [Installer le connecteur Power BI pour utiliser des modèles de requête bord](/MicrosoftTeams/cqd-power-bi-connector) | modifié |
-| 7/14/2020 | [Forum aux questions - soutenir vos employés en télétravail](/MicrosoftTeams/faq-support-remote-workforce) | modifié |
-| 7/14/2020 | [Réunions dans Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | modifié |
-| 7/14/2020 | [Prise en main de Teams pour les organismes de santé](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modifié |
-| 7/14/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 7/14/2020 | [Configurer la fonctionnalité M’appeler pour vos utilisateurs](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | modifié |
-| 7/14/2020 | [Partager des fichiers dans Microsoft teams](/MicrosoftTeams/sharing-files-in-teams) | ajouté |
-| 7/15/2020 | [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](/MicrosoftTeams/assign-policies) | modifié |
-| 7/15/2020 | [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 7/15/2020 | [Créer une file d’attente d’appel](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 7/15/2020 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
-| 7/15/2020 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
-| 7/15/2020 | [Centre de contacts teams](/MicrosoftTeams/teams-contact-center) | modifié |
-| 7/15/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 7/15/2020 | [Gérer vos applications dans le centre d’administration Microsoft teams](/MicrosoftTeams/manage-apps) | modifié |
-| 7/15/2020 | [Acheter des services pour les équipes d’équipe tierce dans le centre d’administration Microsoft teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
-| 7/16/2020 | [Qu’est-ce que les plans de numérotation ?](/MicrosoftTeams/what-are-dial-plans) | modifié |
-| 7/16/2020 | [Appel vocal dans le nuage dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modifié |
-| 7/16/2020 | [Plan d’adoption par les utilisateurs de Microsoft Teams \|Meilleures pratiques](/MicrosoftTeams/continue-journey) | modifié |
-| 7/16/2020 | [Gérer l’application listes de votre organisation](/MicrosoftTeams/manage-lists-app) | modifié |
-| 7/16/2020 | Stratégies de conservation dans Microsoft Teams | supprimé |
-| 7/16/2020 | Fonctionnalités de présentateur et de participants dans une réunion Teams | supprimé |
-| 7/16/2020 | [Interopérabilité entre Skype entreprise et Microsoft teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modifié |
-| 7/16/2020 | [Mise à niveau de Microsoft Teams à partir de Skype Entreprise \| Modes, coexistence](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modifié |
-| 7/16/2020 | [À propos du cadre de mise à niveau](/MicrosoftTeams/upgrade-framework) | modifié |
-| 7/16/2020 | [Évaluation de l’environnement de mise à niveau de Microsoft teams \| , questions de découverte](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | modifié |
-| 7/16/2020 | [Mise à niveau des dépendances de Microsoft teams prérequis \|](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | modifié |
-| 7/16/2020 | [Préparation à la mise à niveau de Microsoft Teams, \| liste de contrôle du déploiement](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | modifié |
-| 7/16/2020 | [Prise en main de votre mise à niveau de Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | modifié |
-| 7/16/2020 | [Mise à niveau de Skype Entreprise local vers Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
-| 7/16/2020 | [Mise à niveau de Skype entreprise Online en déploiement de Microsoft teams \|](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modifié |
-| 7/17/2020 | [Téléphones et appareils pour teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
-| 7/17/2020 | [Téléphones et périphériques pour Microsoft teams](/MicrosoftTeams/devices/usb-devices) | modifié |
-| 7/17/2020 | [Pays et régions dans lesquels Business Voice est disponible](/MicrosoftTeams/business-voice/country-region-availability) | modifié |
-| 7/17/2020 | [Qu’est-ce que Microsoft 365 Business Voice ?](/MicrosoftTeams/business-voice/whats-business-voice) | modifié |
-| 7/17/2020 | [Notes de publication de Microsoft teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
-
-
 ## <a name="week-of-july-20-2020"></a>Semaine du 20 juillet 2020
 
 
@@ -360,3 +239,104 @@
 | 8/7/2020 | [Contacter le service d’assistance RTC](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modifié |
 | 8/7/2020 | [Déclassement de Skype Entreprise Online](/MicrosoftTeams/skype-for-business-online-retirement) | modifié |
 | 8/7/2020 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+
+
+## <a name="week-of-august-10-2020"></a>Semaine du 10 août 2020
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 8/11/2020 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
+| 8/11/2020 | [Utiliser les modèles teams pour créer une équipe](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modifié |
+| 8/11/2020 | [Téléphones et périphériques pour Microsoft teams](/MicrosoftTeams/devices/usb-devices) | modifié |
+| 8/11/2020 | [Gérer les stratégies de réunion](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
+| 8/11/2020 | [Installer teams à l’aide de Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modifié |
+| 8/12/2020 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
+| 8/12/2020 | [Expiration et renouvellement de l’équipe dans Microsoft teams](/MicrosoftTeams/team-expiration-renewal) | modifié |
+| 8/12/2020 | [Mise à niveau de Skype Entreprise local vers Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
+| 8/12/2020 | [Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modifié |
+| 8/12/2020 | [Planifier la gouvernance dans Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modifié |
+| 8/12/2020 | [Groupes Microsoft 365 et Microsoft teams](/MicrosoftTeams/office-365-groups) | modifié |
+| 8/12/2020 | [Autoriser l'accès invité dans Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modifié |
+| 8/12/2020 | [Ajouter un invité à une équipe](/MicrosoftTeams/add-guests) | modifié |
+| 8/12/2020 | [Adopter Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modifié |
+| 8/12/2020 | [Gérer vos périphériques dans Microsoft Teams](/MicrosoftTeams/devices/device-management) | modifié |
+| 8/12/2020 | [Activer les utilisateurs pour le routage direct](/MicrosoftTeams/direct-routing-enable-users) | modifié |
+| 8/12/2020 | [Modifier les informations d'un utilisateur invité](/MicrosoftTeams/edit-guests-information) | modifié |
+| 8/12/2020 | [Utiliser PowerShell pour contrôler l'accès invité à une équipe](/MicrosoftTeams/guest-access-powershell) | modifié |
+| 8/12/2020 | [Liste de contrôle de l’accès invité Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modifié |
+| 8/12/2020 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
+| 8/12/2020 | [À quoi ressemble l'expérience des invités](/MicrosoftTeams/guest-experience) | modifié |
+| 8/12/2020 | [Comment un invité rejoint une équipe](/MicrosoftTeams/guest-joins) | modifié |
+| 8/12/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
+| 8/12/2020 | [Gérer l'accès invité dans Microsoft Teams](/MicrosoftTeams/manage-guests) | modifié |
+| 8/12/2020 | [Gérer l’application compliment dans le centre d’administration teams](/MicrosoftTeams/manage-praise-app) | modifié |
+| 8/12/2020 | [Planifier les groupes Microsoft 365 lors de la création d'équipes](/MicrosoftTeams/plan-office-365-groups) | modifié |
+| 8/12/2020 | [Planifier la gestion du cycle de vie](/MicrosoftTeams/plan-teams-lifecycle) | modifié |
+| 8/12/2020 | [Activation ou désactivation de l’accès invité à Microsoft teams](/MicrosoftTeams/set-up-guests) | modifié |
+| 8/12/2020 | [Démarrage rapide pour la gouvernance de Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | modifié |
+| 8/12/2020 | [Formation pour les administrateurs Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modifié |
+| 8/12/2020 | [Résolution des problèmes liés à l’accès invité dans Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | modifié |
+| 8/12/2020 | [Afficher les utilisateurs invités d'une équipe](/MicrosoftTeams/view-guests) | modifié |
+| 8/13/2020 | [Enregistrement de réunion cloud Teams](/MicrosoftTeams/cloud-recording) | modifié |
+| 8/13/2020 | [Appel sortant pour permettre à d’autres personnes de participer à une réunion](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | modifié |
+| 8/13/2020 | [Contacter le service d’assistance RTC](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modifié |
+| 8/13/2020 | [Planifier la gouvernance dans Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modifié |
+| 8/13/2020 | [Réinitialiser l'ID de conférence d'un utilisateur dans Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | modifié |
+| 8/13/2020 | [Ressources de formation pour les administrateurs-Microsoft teams](/MicrosoftTeams/itadmin-readiness) | modifié |
+| 8/13/2020 | [Répondre aux appels de la file d’attente automatique et des appels](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | modifié |
+| 8/13/2020 | [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
+| 8/13/2020 | [Créer une file d’attente d’appel](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
+| 8/13/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
+| 8/13/2020 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+| 8/13/2020 | [Exemple petite entreprise : configurer un standard automatique](/MicrosoftTeams/tutorial-org-aa) | modifié |
+| 8/13/2020 | [Un standard Cloud automatique, qu’est-ce que c’est ?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modifié |
+| 8/14/2020 | [Ajouter un invité à une équipe](/MicrosoftTeams/add-guests) | modifié |
+| 8/14/2020 | [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modifié |
+| 8/14/2020 | Liste de contrôle de l’accès invité Microsoft Teams | supprimé |
+| 8/14/2020 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
+| 8/14/2020 | [Comment un invité rejoint une équipe](/MicrosoftTeams/guest-joins) | modifié |
+| 8/14/2020 | [Gérer l'accès invité dans Microsoft Teams](/MicrosoftTeams/manage-guests) | modifié |
+| 8/14/2020 | [Problèmes connus](/MicrosoftTeams/rooms/known-issues) | modifié |
+| 8/14/2020 | [Notes de publication](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
+| 8/14/2020 | [Activation ou désactivation de l’accès invité à Microsoft teams](/MicrosoftTeams/set-up-guests) | modifié |
+| 8/14/2020 | [Guide de sécurité pour Microsoft Teams](/MicrosoftTeams/teams-security-guide) | modifié |
+| 8/14/2020 | [Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modifié |
+| 8/14/2020 | [Gestion à distance des paramètres d’appareil de salle Microsoft teams](/MicrosoftTeams/rooms/xml-config-file) | modifié |
+
+
+## <a name="week-of-august-17-2020"></a>Semaine du 17 août 2020
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 8/18/2020 | [Notes de publication de Microsoft teams](/MicrosoftTeams/release-notes/release-notes) | modifié |
+| 8/18/2020 | [Interaction entre Exchange et Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modifié |
+| 8/18/2020 | [Packages de stratégie d’équipe pour la santé](/MicrosoftTeams/policy-packages-healthcare) | modifié |
+| 8/18/2020 | [Présence des utilisateurs dans Teams](/MicrosoftTeams/presence-admins) | modifié |
+| 8/18/2020 | [Configurer des réunions coordonnées avec Microsoft teams salles et surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | modifié |
+| 8/18/2020 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 8/18/2020 | [Gestion à distance des paramètres d’appareil de salle Microsoft teams](/MicrosoftTeams/rooms/xml-config-file) | modifié |
+| 8/18/2020 | [Rapport sur l’utilisation des événements Microsoft teams Live](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | modifié |
+| 8/18/2020 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 8/19/2020 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
+| 8/19/2020 | [Configurer le contrôleur de bordure de session-plusieurs clients](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
+| 8/19/2020 | [Conduire une étude eDiscovery du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
+| 8/19/2020 | [Gérer l’accès externe (Fédération)](/MicrosoftTeams/manage-external-access) | modifié |
+| 8/19/2020 | [Gérer l’application tâches pour votre organisation dans Microsoft teams](/MicrosoftTeams/manage-tasks-app) | modifié |
+| 8/19/2020 | [Gérer les stratégies de messagerie dans Teams](/MicrosoftTeams/messaging-policies-in-teams) | modifié |
+| 8/19/2020 | Méthodes recommandées et meilleures pratiques pour la création d’équipes de cours | supprimé |
+| 8/19/2020 | [Gérer vos applications dans le centre d’administration Microsoft teams](/MicrosoftTeams/manage-apps) | modifié |
+| 8/19/2020 | [Acheter des services pour les équipes d’équipe tierce dans le centre d’administration Microsoft teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
+| 8/19/2020 | [Administrateurs de ressources Microsoft Teams pour l’éducation](/MicrosoftTeams/remote-learning-edu) | modifié |
+| 8/20/2020 | [Afficher les autorisations d’application et accorder une autorisation d’administrateur dans le centre d’administration Microsoft teams](/MicrosoftTeams/app-permissions-admin-center) | modifié |
+| 8/20/2020 | [Gestion des numéros de téléphone pour le Japon](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | modifié |
+| 8/20/2020 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
+| 8/20/2020 | [Utiliser l’API de soumission d’applications teams pour soumettre et approuver vos applications personnalisées](/MicrosoftTeams/submit-approve-custom-apps) | modifié |
+| 8/20/2020 | [Installer Microsoft teams PowerShell](/MicrosoftTeams/teams-powershell-install) | modifié |
+| 8/20/2020 | [Ressources de formation pour les administrateurs-Microsoft teams](/MicrosoftTeams/itadmin-readiness) | modifié |
+| 8/20/2020 | [Autoriser l'accès invité dans Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modifié |
+| 8/20/2020 | [À quoi ressemble l'expérience des invités](/MicrosoftTeams/guest-experience) | modifié |
+| 8/21/2020 | [Créer une équipe à l’échelle de l’organisation dans Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modifié |
+| 8/21/2020 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
+| 8/21/2020 | [Utiliser les modèles teams pour créer une équipe](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modifié |

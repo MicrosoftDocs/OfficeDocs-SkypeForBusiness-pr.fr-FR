@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572239"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864578"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -256,6 +256,10 @@ Un utilisateur de routage basé sur l’emplacement à l’aide d’un appel RTC
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Exigence de contournement de média pour le routage par emplacement
 
 Si vous déployez le routage de géolocalisation en Inde, il est nécessaire de configurer également une dérivation multimédia. Pour en savoir plus, consultez la section [planification de la dérivation multimédia avec le routage direct](direct-routing-plan-media-bypass.md) et l' [optimisation du contenu multimédia local pour le routage direct](direct-routing-media-optimization.md).
+
+### <a name="direct-voice-over-ip-voip"></a>Voix sur IP (VoIP) directe
+
+La voix sur IP (VoIP) directe ne doit pas être déployée avec un équipement de téléphonie en Inde.
 
 ## <a name="next-steps"></a>Étapes suivantes
 

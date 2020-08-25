@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533901"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868703"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -74,7 +74,9 @@ Avant d’affecter des stratégies à vos utilisateurs, vous devez d’abord ajo
 Par défaut, la définition de stratégie globale pour chaque domaine de fonctionnalité (par défaut à l’échelle de l’organisation) est affectée à chaque nouvel utilisateur (étudiant ou enseignant). Nous vous recommandons de procéder comme suit :
 
 1. Créez une définition de stratégie personnalisée pour chaque domaine de fonctionnalité Teams pouvant ensuite être affecté à vos enseignants (sans cela, les modifications que vous apportez à la stratégie globale limitent les possibilités des enseignants jusqu’à ce qu’ils aient leur propre stratégie).
+
 1. Affectez vos enseignants à cette nouvelle définition de stratégie.
+
 1. Mettez à jour la définition de stratégie globale (par défaut à l’échelle de l’organisation), puis attribuez-la à vos étudiants.
 
 Pour créer ou modifier des définitions de stratégie, accédez au domaine de fonctionnalité de la stratégie à utiliser (par exemple, stratégies de messagerie). Sélectionnez **Ajouter** si vous devez créer une nouvelle définition de stratégie personnalisée (ce qui est le cas pour la définition de stratégie personnalisée que vous créez pour les enseignants). Dans le cas contraire, pour modifier une définition de stratégie existante, sélectionnez **Modifier** (action à effectuer si vous choisissez de mettre à jour la stratégie globale pour les étudiants).
@@ -155,26 +157,52 @@ Chaque stratégie individuelle reçoit le nom du package de stratégie afin de v
 Pour vous assurer que les étudiants ne peuvent pas planifier de réunion pour communiquer sans assistance, dans Stratégies de réunion, définissez sur **Désactivé** les fonctionnalités de création de réunion par le biais de ces paramètres généraux :
 
 - **Autoriser la conférence maintenant dans les canaux** : Désactivé
+
 - **Autoriser le complément Outlook** : Désactivé
+
 - **Autoriser la planification des réunions pour les canaux** : Désactivé
+
 - **Autoriser la planification des réunions privées** : Désactivé
 
-![Page Étudiant en sciences de l’éducation en formation à distance, avec la section Général affichée, toutes les options ici sont désactivées.](media/edu-policy-list-a.png)
+  ![Page Étudiant en sciences de l’éducation en formation à distance, avec la section Général affichée, toutes les options ici sont désactivées.](media/edu-policy-list-a.png)
 
 - Dans la même page, dans la section Participants et invités dans les réunions :
+
   - **Autoriser la conférence maintenant dans les réunions privées** : désactivé
   - **Autoriser la conversation en réunion** : désactivé
 
-![Section Participants et invités, avec l’option Autoriser la conférence maintenant dans les réunions privées définie sur Désactivé.](media/edu-participants-and-guests.png)
+  ![Section Participants et invités, avec l’option Autoriser la conférence maintenant dans les réunions privées définie sur Désactivé.](media/edu-participants-and-guests.png)
 
 La désactivation **Autoriser la conférence maintenant dans les canaux**, **Autoriser la planification des réunions pour les canaux**, **Autoriser la planification des réunions privées**, et **Conférence maintenant dans les réunions privées** pour les étudiants qui empêche les étudiants de planifier une réunion en tant qu’organisateur, elles fournissent également les mesures de sécurité suivantes pour l’éducation :
 
 - Si les étudiants tentent de rejoindre la réunion avant l'enseignant, ils ne pourront pas participer à la réunion dans la dernière version de l'application Teams.
+
 - Bien que la création de la réunion s’applique à tous les utilisateurs et toutes les licences, les mesures de sécurité sur le bloc de jointure de la réunion décrites ci-dessus s’appliquent uniquement aux clients Éducation dans Teams basées sur le type de licence des utilisateurs.
+
+Voici un tableau pour décrire la logique de chaque stratégie de création de réunion :
+
+| Stratégie de création de réunion | Créer une réunion | Démarrer une réunion sans participants | Ignorer la salle d’attente lors de la jointure | Mettre fin à la réunion |
+| --- | --- | --- | --- | --- |
+| **Activé (par exemple, enseignants)** | Oui | Oui | Déterminé par [options de la réunion](https://go.microsoft.com/fwlink/?linkid=2093366) | Oui, en tant qu’organisateur
+| **Désactivé (par exemple, étudiant)** | Non | Non\*\* | Déterminé par [options de la réunion](https://go.microsoft.com/fwlink/?linkid=2093366) | Non
+
+> [!NOTE]
+> \*\* S’applique uniquement aux utilisateurs titulaires d’une licence EDU et s’applique aux réunions, aux réunions de canaux, aux réunions instantanées et aux réunions de canaux instantanés.
 
 Lorsque vous modifiez la stratégie **autoriser la conversation dans les réunions** sur désactivé et empêcher les étudiants de planifier les réunions à partir du haut et conserver cette stratégie pour les enseignants (pour les réunions qui ne sont pas planifiées à partir d’un canal ou de Conférence maintenant), les étudiants ne pourront pas converser avant que les enseignants ne joignent la réunion, ni après la réunion. Ils pourront toujours voir l’historique des conversations avant, pendant et après la réunion. Par exemple, ils peuvent voir les messages de l’enseignant ou le lien enregistrement de la réunion, si la réunion a été enregistrée.
 
 Si les étudiants et les enseignants ont la stratégie **Autoriser les conversations dans les réunions** désactivée, personne ne pourra discuter dans la fenêtre conversation de réunion. La mesure de sécurité relative aux restrictions de conversation de réunion décrite ci-dessus ne s’applique qu’aux clients Éducation Teams basés sur le type de licence des utilisateurs.
+
+Voici un tableau pour décrire la logique de la conversation dans le groupe réunions :
+
+| Stratégie « Autoriser la conversation dans les réunions » | Afficher l’historique des conversations à tout moment | Publier des messages pendant la réunion | Publier des messages avant ou après la réunion |
+| --- | --- | --- | --- | 
+| **Activé pour tout** | Oui | Oui | Oui |
+| **Désactivé pour tout** | N/A | N/A | N/A |
+| **Pour les enseignants et les étudiants** | Enseignants : Oui<br>Étudiant Oui | Enseignants : Oui<br>Étudiant Oui | Enseignants : Oui<br>N ° d’étudiant\*\* | 
+
+> [!NOTE]
+> \*\* S’applique uniquement aux utilisateurs titulaires d’une licence EDU et s’applique aux réunions et aux réunions instantanées. Elle ne s’applique pas aux réunions de canaux ni aux réunions instantanées.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Contrôler si les étudiants peuvent ou non partager leurs vidéos pendant les appels et les réunions
 
@@ -209,17 +237,20 @@ Pour vous assurer que les étudiants ne peuvent pas passer d’appels privés av
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Désactiver la possibilité de supprimer ou de modifier les messages envoyés
 
 - Pour les étudiants : pour que les messages envoyés par les étudiants ne soient pas supprimés ou endommagés, les paramètres des étudiants doivent être **désactivés** :
+
   - **Supprimer des messages envoyés**
   - **Modifier des messages envoyés**
+  
 - Pour les enseignants : pour que les enseignants puissent modérer ou supprimer les messages inappropriés envoyés par les étudiants, les enseignants doivent avoir **activé** ces paramètres :
+
   - **Les propriétaires peuvent supprimer les messages envoyés** (ce paramètre permet aux enseignants de supprimer les messages inappropriés d’étudiants).
   - **Supprimer des messages envoyés**
   - **Modifier des messages envoyés**
 
-![Page Étudiant en sciences de l’éducation en formation à distance, paramètres des messages envoyés pour les étudiants et les enseignants.](media/edu-delete-edit-sent.png)
+  ![Page Étudiant en sciences de l’éducation en formation à distance, paramètres des messages envoyés pour les étudiants et les enseignants.](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> Pour plus d’informations à ce sujet, consultez la section sur la [désactivation des commentaires des étudiants dans une équipe de classe.](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
+> Pour plus d’informations à ce sujet, consultez la section sur la [désactivation des commentaires des étudiants dans une équipe de classe](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
 #### <a name="control-whether-students-can-chat-privately"></a>Vérifier si les étudiants peuvent discuter en privé
 
@@ -254,7 +285,7 @@ Pour vous assurer que les étudiants ne peuvent pas créer de canal privé comme
 ![Page Stratégie Teams avec le volet Nouvelle stratégie Teams superposé à droite de la page, avec l’option Créer des canaux privés sur ce volet définie sur Désactivé.](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> Vous souhaiterez également veiller à ce que les étudiants ne puissent pas créer d’équipes dans Microsoft Teams. Il s’agit en fait d’un paramètre de groupes M365, et vous pouvez en savoir plus à ce sujet [ici](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+> Vous souhaiterez également veiller à ce que les étudiants ne puissent pas créer d’équipes dans Microsoft Teams. Il s’agit en fait d’un paramètre de groupes M365, et vous pouvez en savoir plus à ce sujet dans[Gérer les personnes autorisées à créer des Groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 ### <a name="app-permission-policies"></a>Stratégies d’autorisation d’application
 
@@ -312,7 +343,9 @@ Les options de réunion vous permettent de contrôler si les participants aux r�
 ![Acceptez l’invitation à une réunion Microsoft Teams. Les options de réunion se trouvent tout à droite sous le lien Inviter.](media/edu-join-meeting-options.png)
 
 - Déterminez qui peut entrer directement dans la réunion avec l’option **Qui peut éviter la salle d’attente**. Définissez-la sur **Membres de mon organisation** pour empêcher les utilisateurs externes d’entrer, puis définissez **Toujours laisser les appelants contourner la salle d’attente** sur **Désactivé** pour que les participants attendent d’être admis à la réunion au lieu d’y accéder immédiatement. Vous pouvez également **annoncer lorsque les appelants rejoignent ou quittent la réunion**. Cette option doit être définie sur **Activé** pour que vous sachiez qui participe à la réunion.
+
 - Contrôler qui rejoint la réunion en tant que présentateur ou participant. Vous pouvez sélectionner **Moi seul** pour désigner tous les autres participants en tant que simples participants. Il s’agit de la configuration la plus sûre pour les réunions tenues dans une salle de classe.
+
   - Si vous envisagez d’avoir plusieurs présentateurs dans votre réunion, sélectionnez **Personnes spécifiques** puis sélectionnez les autres participants qui doivent participer en tant que présentateurs. Sélectionnez **Tout le monde** si vous souhaitez que tous les participants rejoignent la réunion en tant que présentateurs.
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="Liste déroulante Qui peut contourner la salle d’attente avec l’option Membres de mon organisation sélectionnée et liste déroulante Qui peut présenter avec l’option Moi seul sélectionnée.":::
@@ -339,11 +372,11 @@ Un rôle est attribué à chaque participant à une réunion en tant que présen
 
 - Pour modifier le rôle d’un participant, cliquez ou appuyez sur **Afficher les participants** dans vos contrôles d’appel. Cliquez avec le bouton droit sur le participant dont le rôle doit être modifié, puis sélectionnez **Activer comme participant** ou **Activer comme présentateur**.
 
-![Barre de contacts avec une option de menu qui s’affiche. Activer comme participant la quatrième option du menu.](media/edu-make-attendee-menu.png)
+  ![Barre de contacts avec une option de menu qui s’affiche. Activer comme participant la quatrième option du menu.](media/edu-make-attendee-menu.png)
 
 - Pour accéder rapidement aux options de votre réunion et modifier les paramètres de rôle de la réunion pour les participants actuels et les personnes qui rejoignent votre réunion à l’avenir, cliquez ou appuyez sur **Autres actions** dans vos contrôles d’appel, puis sur **Afficher les détails de la réunion**. Vous trouverez le lien vers vos **options de réunion** près du lien de participation à la réunion.
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="Fenêtre Réunion avec le volet Détails de la réunion sur le côté droit.":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="Fenêtre Réunion avec le volet Détails de la réunion sur le côté droit.":::
 
 ### <a name="mute-student-comments"></a>Désactiver les commentaires des étudiants
 
@@ -367,4 +400,4 @@ Vous pouvez contrôler quand les étudiants peuvent publier des messages et y r�
 
 ## <a name="further-reading"></a>Lectures supplémentaires
 
-Consultez la section [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8) pour plus d’informations sur la protection des étudiants.
+Pour plus d’informations sur la protection des étudiants, passez en revue [Protéger les étudiants lors de l’utilisation de réunions dans Teams pour la formation à distance ](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).

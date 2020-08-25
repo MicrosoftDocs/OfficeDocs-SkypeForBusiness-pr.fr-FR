@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45247383"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864568"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -192,7 +192,7 @@ Les problèmes suivants sont rencontrés pour les stratégies de conservation da
 
 - Sous **Sélectionnez les utilisateurs** dans la ligne d’emplacement **Conversations Teams**, vous pouvez voir les invités et les utilisateurs qui n’utilisent pas la boîte aux lettres. Les stratégies de conservation ne sont pas censées être définies pour les invités et nous travaillons afin de les supprimer de la liste.
 
-- L’Assistant de cycle de vie Exchange (ECV) s’exécute quotidiennement, mais il dispose d’un contrat SLA de 7 jours. Par conséquent, si vous avez une stratégie de conservation Teams pour supprimer des éléments datant de plus de 60 jours, il est possible que ces éléments soient conservés pendant 67 jours. Il ne s’agit pas d’une situation nouvelle : elle suit le modèle Exchange. Bien sûr, dans la plupart des cas, il n’y a aucun décalage.
+- L’Assistant ELC (Exchange Life cycle Assistant) s’exécute quotidiennement, mais la latence est connue pour s’exécuter jusqu’à 7 jours, dans certains cas. Par conséquent, si vous avez une stratégie de conservation Teams pour supprimer des éléments datant de plus de 60 jours, il est possible que ces éléments soient conservés pendant 67 jours. Il ne s’agit pas d’une situation nouvelle : elle suit le modèle Exchange. Bien sûr, dans la plupart des cas, il n’y a aucun décalage.
 
 ## <a name="related-topics"></a>Sujets associés
 
