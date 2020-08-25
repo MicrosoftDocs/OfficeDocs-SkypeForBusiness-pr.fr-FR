@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860828"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868693"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Utiliser les Teams Microsoft en toute sécurité sur des ordinateurs partagés
 
@@ -46,8 +46,8 @@ Des plans doivent être élaborés pour se conformer aux lignes directrices auss
 
 1. Utiliser les capacités de sécurité de la plate-forme du système opérationnel.
     1. Assurez-vous que le système opérationnel est configuré pour installer les mises à jour automatiques du fournisseur du système opérationnel (pour les systèmes Microsoft, cela peut être fait via [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq)). 
-    2. Assurez-vous que toutes les capacités de cryptage de l'appareil, telles que le[**bitlocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) sont activées et que la clé utilisée pour accéder à l'appareil est sécurisée.
-    1. Utilisez des capacités anti-virus telles que celles offertes par [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) sur vos appareils.
+    2. Assurez-vous que toutes les capacités de cryptage de l'appareil, telles que [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) sont activées et que la clé utilisée pour accéder à l'appareil est sécurisée.  Notez que la plupart des appareils modernes [**Windows 10 prennent en charge bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
+    1. Utilisez des capacités anti-virus telles que celles offertes par [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) sur vos appareils.
     1. L'utilisation [de comptes d'utilisateur séparés ](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)pour chaque utilisateur du système est fortement recommandée.
     1. *Ne*pas accorder, ou utiliser, des privilèges d'administrateur pour des fonctions non administratives (telles que la navigation sur le web, la gestion des Teams etc).
 
@@ -76,6 +76,6 @@ Les éléments ci-dessus ne constituent pas une liste exhaustive des meilleures 
 
 [ Article du centre de sécurité Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[ Client web Teams/application web des équipes ](../get-clients.md#web-client)
+[ Client web Teams/application web des équipes ](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [ Sécurité et Microsoft Team](https://docs.microsoft.com/microsoftteams/teams-security-guide)
