@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868431"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868683"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressource
 
@@ -43,7 +43,7 @@ Si le standard automatique de votre système téléphonique ou la file d’atten
 
 Si le standard automatique ou la file d’attente des appels est imbriqué sous un standard automatique de niveau supérieur, le compte de ressource associé n’a besoin que d’un numéro de téléphone si vous souhaitez utiliser plusieurs points d’entrée dans la structure des standards automatiques et des files d’attente d’appels.
 
-Pour rediriger les appels vers des personnes de votre organisation qui sont hébergées en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour voix entreprise ou avoir des forfaits d’appels Microsoft 365 ou Office 365. Consultez la rubrique [attribuer des licences Microsoft teams](/MicrosoftTeams/assign-teams-licenses). Pour les activer pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Pour rediriger les appels vers des personnes de votre organisation qui sont hébergées en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour voix entreprise ou avoir des forfaits d’appels Microsoft 365 ou Office 365. Consultez la rubrique [attribuer des licences Microsoft teams](/MicrosoftTeams/assign-teams-licenses). Pour les activer pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Si le standard automatique ou la file d’attente d’appels du système téléphonique que vous créez seront imbriqués et n’aura pas besoin de numéro de téléphone, le processus est le suivant :
 
@@ -83,6 +83,8 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
     ```
 
     Pour plus d’informations sur cette commande, voir [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
+    
+    Remarque-à ce stade, le compte peut être synchronisé, mais le provisionnement n’est peut-être pas terminé.  Vérifiez la sortie de [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si le point de terminaison synchronisé n’a pas encore terminé la mise en service, il n’apparaîtra pas ici.  Vous pouvez vérifier l’état des demandes de provisionnement dans le portail M365 sous [État de configuration des équipes](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  Cette phase de mise en service peut prendre jusqu’à 24 heures.
 
 5. Affectez la licence du système téléphonique-utilisateur virtuel ou du système téléphonique au compte de ressource. Consultez la rubrique [affecter des licences de module complémentaire Microsoft teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) et [attribuer des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -117,7 +119,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
 8. Associez le compte de ressource au standard automatique ou à la file d’attente d’appels du système téléphonique que vous avez choisi précédemment.
 
-Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite  [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Créer un compte de ressource sans numéro de téléphone
 
@@ -148,7 +150,7 @@ Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de c
    - [Créer une file d’attente d’appels cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associez le compte de ressource et le standard automatique du système téléphonique ou la file d’attente que vous avez choisie précédemment.
 
-Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite  [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Tester l’implémentation
 
