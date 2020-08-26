@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment télécharger un client et générer des données dans le tableau de bord de qualité des appels (bord).
-ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584063"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897834"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Télécharger le client et générer des données dans le tableau de bord de qualité des appels (bord)
 
@@ -64,43 +64,47 @@ Dans le tableau de bord des rapports de synthèse de bord, sélectionnez **charg
 Le premier type de fichier de données client dans bord est le fichier de données de **bâtiment** . La colonne de sous-réseau repose sur le développement de la colonne Network + plage du réseau, puis sur la colonne de sous-réseau pour le premier sous-réseau de l’enregistrement d’appel ou sur le second sous-réseau. Pour que le format du fichier de données réussisse le contrôle de validation avant le téléchargement, il doit respecter les critères suivants.
   
 - Il doit s’agir d’un fichier. TSV (les colonnes sont séparées par une tabulation) ou d’un fichier. csv (les colonnes sont séparées par une virgule).
+
 - Le fichier de données n’inclut pas de ligne d’en-tête de tableau. La première ligne du fichier de données est censée être de véritables données, pas d’étiquettes d’en-tête comme « réseau ».
+
 - Les types de données dans le fichier ne peuvent être que des chaînes, des entiers ou des valeurs booléennes. Pour le type de données Integer, la valeur doit être une valeur numérique. Les valeurs booléennes doivent être égales à 0 ou 1.
+
 - Si une colonne utilise le type de données chaîne, un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
+
 - Chaque ligne doit comporter 14 colonnes, chaque colonne doit avoir le type de données approprié, et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant (séparateur : virgule ou tabulation) :
 
-**Créer un format de fichier de données**
+  **Créer un format de fichier de données**
+  
+  | Nom de la colonne        | Type de données | Exemple                   | Aide              |
+  |--------------------|-----------|---------------------------|-----------------------|
+  | NetworkIP          | String    | 192.168.1.0               | Obligatoire              |
+  | Nom réseau        | String    | États-Unis/Seattle/SEATTLE-SEA-1 | Obligatoire<sup>1</sup>  |
+  | NetworkRange       | Numéro    | 26/08/03                        | Obligatoire              |
+  | BuildingName       | String    | SEATTLE-SEA-1             | Obligatoire<sup>1</sup>  |
+  | Type de propriété      | String    | Chez                   | Facultatif              |
+  | Type de bâtiment       | String    | Arrêt            | Facultatif              |
+  | BuildingOfficeType | String    | Ingénieur               | Facultatif              |
+  | Ville               | String    | Seattle                   | Recommandation           |
+  | ZipCode            | String    | 98001                     | Recommandation           |
+  | Pays            | String    | Nous                        | Recommandation           |
+  | État              | String    | WA                        | Recommandation           |
+  | Région             | String    | MSUS                      | Recommandation           |
+  | Dans l’entreprise<sup>2</sup>         | Bool      | 1             | Obligatoire              |
+  | ExpressRoute<sup>3</sup>       | Bool      | 0,4             | Obligatoire              |
+  | VPN                | Bool      | 0,4                         | Facultatif              |
 
-| Nom de la colonne        | Type de données | Exemple                   | Aide              |
-|--------------------|-----------|---------------------------|-----------------------|
-| NetworkIP          | String    | 192.168.1.0               | Obligatoire              |
-| Nom réseau        | String    | États-Unis/Seattle/SEATTLE-SEA-1 | Obligatoire<sup>1</sup>  |
-| NetworkRange       | Numéro    | 26/08/03                        | Obligatoire              |
-| BuildingName       | String    | SEATTLE-SEA-1             | Obligatoire<sup>1</sup>  |
-| Type de propriété      | String    | Chez                   | Facultatif              |
-| Type de bâtiment       | String    | Arrêt            | Facultatif              |
-| BuildingOfficeType | String    | Ingénieur               | Facultatif              |
-| Ville               | String    | Seattle                   | Recommandation           |
-| ZipCode            | String    | 98001                     | Recommandation           |
-| Pays            | String    | Nous                        | Recommandation           |
-| État              | String    | WA                        | Recommandation           |
-| Région             | String    | MSUS                      | Recommandation           |
-| Dans l’entreprise<sup>2</sup>         | Bool      | 1             | Obligatoire              |
-| ExpressRoute<sup>3</sup>       | Bool      | 0,4             | Obligatoire              |
-| VPN                | Bool      | 0,4                         | Facultatif              |
+  <sup>1</sup> sans être requis par bord, les modèles sont configurés pour afficher les noms de bâtiment et de réseau.
 
-<sup>1</sup> S’il n’est pas requis par bord, les modèles sont configurés pour afficher les noms de bâtiment et de réseau.
+  <sup>2</sup> ce paramètre peut être utilisé pour indiquer si le sous-réseau se trouve ou non dans le réseau d’entreprise. Vous pouvez personnaliser l’utilisation à d’autres fins.
 
-<sup>2</sup> Ce paramètre peut être utilisé pour indiquer si le sous-réseau se trouve ou non dans le réseau d’entreprise. Vous pouvez personnaliser l’utilisation à d’autres fins.
+  <sup>3</sup> ce paramètre peut être utilisé pour indiquer si le réseau utilise ou non Azure ExpressRoute. Vous pouvez personnaliser l’utilisation à d’autres fins.  
 
-<sup>3</sup> Ce paramètre peut être utilisé pour indiquer si le réseau utilise ou non Azure ExpressRoute. Vous pouvez personnaliser l’utilisation à d’autres fins.  
+  **Ligne d’exemple :**
 
-**Ligne d’exemple :**
-
-`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
+  `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> La plage réseau peut être utilisée pour représenter un super-réseau (combinaison de plusieurs sous-réseaux avec un seul préfixe de routage). Les nouveaux chargements de construction seront examinés pour toutes les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le télécharger à nouveau. Tout chevauchement dans les fichiers précédemment téléchargés risque de provoquer des mappages incorrects de sous-réseaux sur les bâtiments dans les rapports. Certaines implémentations de réseau privé virtuel n’indiquent pas exactement les informations de sous-réseau. Lorsque vous ajoutez un sous-réseau VPN au fichier de construction au lieu d’une entrée pour le sous-réseau, nous vous conseillons d’ajouter des entrées distinctes pour chaque adresse du sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de lignes 256, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclusive.
+> La plage réseau peut être utilisée pour représenter un super-réseau (combinaison de plusieurs sous-réseaux avec un seul préfixe de routage). Les nouveaux chargements de construction seront examinés pour toutes les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le télécharger à nouveau. Tout chevauchement dans les fichiers précédemment téléchargés risque de provoquer des mappages incorrects de sous-réseaux sur les bâtiments dans les rapports. Certaines implémentations de réseau privé virtuel n’indiquent pas exactement les informations de sous-réseau. 
 >
 > La colonne RPV est facultative et utilise par défaut la valeur 0. Si la valeur de la colonne VPN est définie sur 1, le sous-réseau représenté par cette ligne sera entièrement étendu pour correspondre à toutes les adresses IP au sein du sous-réseau.  N’hésitez pas à utiliser cette fonction et uniquement pour les sous-réseaux VPN dans la mesure où le développement complet de ces sous-réseaux aura un impact négatif sur les requêtes de création de données.
 
@@ -136,7 +140,7 @@ Voici quelques éléments à prendre en compte avant d’implémenter le super-r
 
 ### <a name="vpn"></a>VPN
 
-Les données de qualité de l’expertise que les clients envoient à Microsoft 365 ou Office 365, à partir duquel les données bord sont sources, incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Il existe deux approches permettant d’accueillir les sous-réseaux VPN dans le fichier de construction des informations :
+Les données de qualité de l’expertise que les clients envoient à Microsoft 365 ou Office 365, à partir duquel les données bord sont sources, incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Utilisez la colonne VPN décrite plus haut pour marquer et identifier précisément les sous-réseaux VPN. Il est également conseillé d’étiqueter vos réseaux VPN pour faciliter l’identification de vos rapports. Vous trouverez ci-dessous deux exemples d’attribution de libellés à vos sous-réseaux VPN :
 
 - Définissez un **nom de réseau** en entrant « VPN » dans ce champ pour les sous-réseaux VPN.
 
@@ -146,34 +150,34 @@ Les données de qualité de l’expertise que les clients envoient à Microsoft 
 
   ![Capture d’écran de rapport QCD montrant un VPN utilisant le nom de bâtiment](media/qerguide-image-vpnbuildingname.png)
 
-> [!IMPORTANT]
-> Certaines implémentations de réseau privé virtuel n’indiquent pas précisément les informations de sous-réseau. Si cela se produit dans votre création de rapports, nous vous conseillons de faire en sorte que lorsque vous ajoutez un sous-réseau VPN au fichier de bâtiment, au lieu d’une entrée pour le sous-réseau, ajoutez des entrées distinctes pour chaque adresse dans le sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous disposez de lignes 253, avec une ligne pour chaque adresse de 172.16.18.1/32 à 172.16.18.254/32, inclusive.
-
-
 > [!NOTE]
-> Les connexions de réseau privé virtuel (VPN) ont été connues pour identifier de manière Inde une connexion réseau filaire Lorsque la connexion Internet sous-jacente est sans fil. Lorsque vous examinez la qualité de connexions VPN, vous ne pouvez pas supposer que le type de connexion a été correctement identifié.
-
+> Les connexions VPN ont été connues pour identifier le type de connexion réseau comme filaire Lorsque la connexion sous-jacente est sans fil. Lorsque vous examinez la qualité de connexions VPN, vous ne pouvez pas supposer que le type de connexion a été correctement identifié.
 
 ## <a name="endpoint-data-file"></a>Fichier de données du point de terminaison
 
 L’autre type de fichier de données client bord est le fichier de données de **point de terminaison** . Les valeurs de colonne sont utilisées dans la première colonne nom du point de terminaison du client ou deuxième nom du point de terminaison du client pour afficher les informations de point de terminaison, de modèle ou de type. Pour que le format du fichier de données réussisse le contrôle de validation avant le téléchargement, il doit respecter les critères suivants.
 
 - Il doit s’agir d’un fichier. TSV (les colonnes sont séparées par une tabulation) ou d’un fichier. csv (les colonnes sont séparées par une virgule).
+
 - Le contenu du fichier de données ne comporte pas d’en-têtes de tableau. La première ligne du fichier de données est censée être une véritable donnée, et non une étiquette d’en-tête telle que « EndpointName ».
+
 - Les six colonnes utilisent uniquement le type de données chaîne. La longueur maximale autorisée est de 64 caractères.
+
 - Un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
+
 - EndpointName doit être unique, sinon le téléchargement échoue. S’il existe une ou deux lignes en double utilisant la même EndpointName, le conflit provoquera une jointure incorrecte.
+
 - EndpointLabel1, EndpointLabel2 et EndpointLabel3 sont des étiquettes personnalisables. Il peut s’agir de chaînes vides ou de valeurs telles que « service informatique de l’ordinateur portable 2018 » ou « indicateur de ressources 5678 ».
+
 - Il doit y avoir six colonnes pour chaque ligne et les colonnes doivent être dans l’ordre suivant :
 
   **Ordre des champs :**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Ligne d’exemple :**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
-
+  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 
 ## <a name="update-a-building-file"></a>Mettre à jour un fichier de construction
@@ -187,10 +191,14 @@ Lors du rassemblement des informations de construction et de sous-réseau, les a
 
 Il peut arriver que vous deviez ajouter des sous-réseaux de nouveaux réseaux aux bord qui n’étaient pas à l’origine dans la topologie de votre réseau. Pour ajouter de nouveaux sous-réseaux, effectuez l’une des opérations suivantes à partir de la page **téléchargement de données de client** dans bord :
 
-2.  Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
+1.  Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
+
 1.  Supprimez le fichier actif dans bord.
+
 1.  Modifiez le fichier de construction d’origine et indiquez une date de fin au moins un jour avant l’acquisition des sous-réseaux.
+
 1.  Ajoutez les nouveaux sous-réseaux personnels au fichier de construction d’origine.
+
 1.  Téléchargez le fichier de construction qui vient d’être modifié, puis définissez la date de début pour un jour après la fin du fichier de construction précédent.
 
 ## <a name="add-missing-subnets"></a>Ajouter des sous-réseaux manquants
@@ -198,9 +206,13 @@ Il peut arriver que vous deviez ajouter des sous-réseaux de nouveaux réseaux a
 Une fois que vous avez chargé les informations de bâtiment pour les réseaux gérés, chaque réseau géré doit avoir une association de bâtiment. Toutefois, ce n’est pas toujours le cas. en règle générale, un petit nombre de sous-réseaux est manqué. Pour trouver ces réseaux manquants, examinez le **rapport de sous-réseau manquant** sur la page **rapports de qualité de l’interface** dans bord. Tous les sous-réseaux avec 10 flux audio ou plus qui ne sont pas définis dans le fichier de données de bâtiment sont marqués comme extérieurs. Assurez-vous qu’il n’y a pas de réseaux gérés dans cette liste. Si des sous-réseaux ne sont pas disponibles, utilisez la procédure suivante pour mettre à jour le fichier de données de construction d’origine et le télécharger à nouveau sur bord.
 
 1. Accédez à la page **Télécharger les données du client** dans bord.
+
 1. Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
+
 1. Supprimez le fichier actif dans bord.
+
 1. Ajoutez les nouveaux sous-réseaux au fichier d’origine.
+
 1. Téléchargez le fichier de construction. Veillez à définir la date de début sur au moins huit mois avant que bord ne traitera les données historiques.
 
 

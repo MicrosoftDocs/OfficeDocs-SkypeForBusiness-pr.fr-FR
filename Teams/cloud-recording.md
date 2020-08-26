@@ -16,12 +16,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662084"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897803"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Où sont stockées vos Enregistrements de réunions
 
-Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Une fois que vous avez enregistré une réunion, Microsoft Stream la conserve définitivement (ou jusqu’à ce que le propriétaire de l’enregistrement le supprime). Si l’enregistrement n’est pas transféré en flux, il est stocké dans le stockage cloud Teams, où il est disponible en téléchargement pendant 20 jours. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données.
+Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Les enregistrements sont conservés et disponibles pour affichage et téléchargement pendant 21 jours. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données. Dans le futur, la fonctionnalité d’enregistrement de réunions Teams sera activée pour les clients dont les données d’équipe sont stockées dans le pays, même si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays.
+
+Lorsque cette modification prend effet, les enregistrements de réunion sont stockés par défaut dans la zone géographique plus proche pour Microsoft Stream. Si vos données Teams sont stockées dans le pays et que vous préférez stocker les enregistrements de réunions dans le pays, nous vous conseillons de désactiver la fonctionnalité, puis de les activer une fois Microsoft Stream déployé sur votre pays ou région de résidence dans le pays. Pour désactiver la fonctionnalité pour tous les utilisateurs de votre organisation, désactivez le paramètre **autoriser l’enregistrement Cloud** dans la stratégie de réunion global Teams, qui se trouve dans le centre d’administration Microsoft Teams.
+
+Voici un résumé de ce qui se produit lorsque vous activez l’enregistrement de la réunion lorsque cette modification prend effet :
+
+|Si vous activez les enregistrements de réunion...|Les enregistrements de réunion sont stockés... |
+|---|---|
+|Pour que Microsoft Stream soit disponible dans votre région de résidence des données dans le pays |Dans la région de flux Microsoft la plus proche|
+|Lorsque Microsoft Stream est disponible dans votre région de résidence des données dans le pays |Dans votre région de résidence des données dans le pays|
+
+Pour les clients nouveaux et existants qui n’ont pas encore activé l’enregistrement de la réunion, les nouveaux enregistrements sont stockés dans le pays une fois Microsoft Stream disponible dans la zone de résidence des données dans le pays. Néanmoins, tout client qui active l’enregistrement de la réunion avant que Microsoft Stream soit disponible dans la région de résidence des données dans le pays continue d’utiliser le stockage de flux Microsoft pour les enregistrements existants et nouveaux, même si Microsoft Stream est disponible dans la région de résidence des données dans le pays.
 
 Pour rechercher la région dans laquelle vos données Microsoft Stream sont stockées, dans Microsoft Stream, cliquez sur **?** dans le coin supérieur droit, cliquez sur **À propos de Microsoft Stream**, puis sur **Vos données sont stockées dans**.  Pour en savoir plus sur les régions dans lesquelles Microsoft Stream stocke les données, consultez la rubrique [FAQ Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 

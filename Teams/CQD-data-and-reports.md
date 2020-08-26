@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et les rapports disponibles dans le tableau de bord de qualité des appels Microsoft (bord).
-ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4b96f64f7f182c0d4c95796358b20b38d8c726b4
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583091"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897844"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels (bord)
 
@@ -59,14 +59,14 @@ Téléchargez [deux modèles de rapports bord](https://aka.ms/qertemplates) (tou
 
 4. Répétez les étapes 2 et 3 pour le deuxième modèle bord.
 
-> [!NOTE]
-> Chaque utilisateur doit importer les modèles bord dans son instance bord. 
+   > [!NOTE]
+   > Chaque utilisateur doit importer les modèles bord dans son instance bord. 
 
 
 
 ## <a name="euii-data"></a>Données EUII
 
-Pour des raisons de conformité, les données d’identification de l’utilisateur final (également appelées informations d’identification personnelle ou PII) sont conservées pendant 30 jours. Les données NRT qui se trouvent dans la marque de 30 jours, les champs qui contiennent EUII sont effacés, ce qui crée des données NRT EUII gratuites. Les champs qui contiennent des données EUII sont les suivants :
+Pour des raisons de conformité, les données d’identification de l’utilisateur final (également appelées informations d’identification personnelle ou PII) ne sont conservées qu’à 28 jours. À mesure que les données de NRT franchissent la marque de 28 jours, les champs qui contiennent EUII sont effacés, ce qui crée des données NRT EUII gratuites. Les champs qui contiennent des données EUII sont les suivants :
 
 - Adresse IP complète
 - Adresse de contrôle d’accès au média (MAC)
@@ -151,12 +151,12 @@ Dans les rapports détaillés, vous pouvez utiliser la dimension **is teams** po
 
 Voici les rapports qui s’affichent dans le tableau de bord bord lorsque vous vous connectez pour la première fois à bord. Ils vous donnent une vue d’ensemble des tendances de qualité avec des rapports quotidiens, mensuels et de tableau pour vous aider à identifier les sous-réseaux présentant une qualité médiocre. 
 
-|Délimité  |  |
+| Délimité | Description |
 |---------|---------|
-|La qualité d’appel globale     | Agrégation d’autres trois onglets        |
-|Serveur — client     |Détails des flux entre les points de terminaison serveur et client         |
-|Client — client     |Détails des flux entre deux points de terminaison client         |
-|SLA de qualité vocale     |Plus d’informations sur les appels inclus dans le [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) de qualité vocale de Skype entreprise         |
+|La qualité d’appel globale     | Agrégation des 3 autres onglets.       |
+|Serveur — client     |Détails des flux entre les points de terminaison serveur et client.        |
+|Client — client     |Détails des flux entre deux points de terminaison client.        |
+|SLA de qualité vocale     |Informations sur les appels inclus dans le [contrat](https://go.microsoft.com/fwlink/p/?linkid=846252)de service de qualité vocale de Skype entreprise.        |
 
 ### <a name="overall-call-quality-tab"></a>Onglet qualité globale des appels
 
@@ -164,7 +164,7 @@ Utilisez les données de cet onglet pour évaluer l’État et les tendances de 
   
 ![Capture d’écran : afficher l’onglet qualité des appels](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Les flux sont classés en trois groupes : bon, médiocre et non classés. Il existe également des valeurs de *pourcentage médiocres* calculées qui vous permettent d’obtenir le rapport entre les flux considérés *médiocres* et le nombre total de flux classés. Depuis un pourcentage médiocre de mauvaises *chaînes/(mauvais flux + Good Streams) * 100*, le *% médiocre* n’est pas affecté par la présence de plusieurs flux non *classés* . Pour déterminer le classement d’un flux comme médiocre ou satisfaisant, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md).
+Les flux sont classés en trois groupes : bon, médiocre et non classés. Il existe également des valeurs de  *pourcentage médiocres*  calculées qui vous permettent d’obtenir le rapport entre les flux considérés *médiocres*  et le nombre total de flux classés. Depuis un pourcentage médiocre de mauvaises *chaînes/(mauvais flux + Good Streams) * 100*, le *% médiocre*  n’est pas affecté par la présence de plusieurs flux non *classés*  . Pour déterminer le classement d’un flux comme médiocre ou satisfaisant, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md).
   
 Utilisez l’échelle de gauche pour mesurer les valeurs de nombre de flux.
   
@@ -202,13 +202,14 @@ De même, l’onglet client-client comporte cinq sections réductibles :
 
 #### <a name="inside-versus-outside"></a>Intérieur et extérieur
 
-BORD classifie un flux comme *à l’intérieur* ou à l' *extérieur* en utilisant des informations de bâtiment s’il existe. Les points de terminaison de chaque flux sont associés à une adresse de sous-réseau. Si le sous-réseau figure dans la liste des sous-réseaux marqués dans l’entreprise dans les informations de bâtiment téléchargées, il est considéré comme *à l’intérieur*. Si les informations de bâtiment n’ont pas encore été chargées, le test interne les classifie toujours en tant qu' *extérieur*. 
+BORD classifie un flux comme  *à l’intérieur*  ou à l' *extérieur*  en utilisant des informations de bâtiment s’il existe. Les points de terminaison de chaque flux sont associés à une adresse de sous-réseau. Si le sous-réseau figure dans la liste des sous-réseaux marqués dans l’entreprise dans les informations de bâtiment téléchargées, il est considéré comme *à l’intérieur*. Si les informations de bâtiment n’ont pas encore été chargées, le test interne les classifie toujours en tant qu' *extérieur*. 
 
 Le test interne d’un scénario serveur-client considère uniquement le point de terminaison client. Étant donné que les serveurs sont toujours extérieurs du point de vue d’un utilisateur, ce n’est pas pris en compte dans le test.
   
 #### <a name="wired-versus-wifi"></a>Câble filaire et WiFi
 
 Étant donné que les noms indiquent, les critères de classification sont basés sur le type de connexions client. Le serveur est toujours câblé et n’est pas inclus dans le calcul. Dans un flux donné, si l’un des deux points de terminaison est connecté à un réseau WiFi, bord le considère comme WiFi.
+
 > [!NOTE]
 > À partir d’un flux, si l’un des deux points de terminaison est connecté à un réseau WiFi, il est considéré comme WiFi dans bord.
   
@@ -217,8 +218,8 @@ Le test interne d’un scénario serveur-client considère uniquement le point d
 
 Le tableau de bord des rapports de synthèse de bord inclut une page de **téléchargement de données de client** accessible en sélectionnant télécharger les **données client** dans le menu paramètres dans le coin supérieur droit. Cette page permet aux administrateurs de télécharger leurs propres informations, par exemple :
 
-- Carte d’adresse IP et informations géographiques
-- Carte de chaque point d’accès sans fil et son adresse MAC
+- Carte d’adresse IP et informations géographiques.
+- Carte de chaque point d’accès sans fil et son adresse MAC.
 - Carte de point de terminaison à marque/modèle/type de point de terminaison, etc.
   
 Nous vous recommandons de télécharger vos données de client, de bâtiment et d’emplacement de sorte que bord puisse inclure ces informations dans vos rapports. Si vous n’avez pas encore téléchargé ces données, voir [Télécharger le client et générer des données](CQD-upload-tenant-building-data.md). 
@@ -226,13 +227,13 @@ Nous vous recommandons de télécharger vos données de client, de bâtiment et 
 
 ## <a name="detailed-reports"></a>Rapports détaillés
 
-|Nom  |  |
+| Nom | Description |
 |---------|---------|
 |Rapports d’emplacement améliorés     |Affiche des tendances en fonction de l’emplacement. Ce rapport s’affiche uniquement si vous avez [téléchargé les données de votre client](CQD-upload-tenant-building-data.md).        |
-|Rapports de fiabilité     |Inclut des rapports audio, vidéo, de partage d’écran vidéo (VBSS) et de partage d’application         |
+|Rapports de fiabilité     |Inclut des rapports audio, vidéo, de partage d’écran vidéo (VBSS) et de partage d’application.        |
 |Rapports sur la qualité des performances     |Qualité audio et fiabilité de tous les clients et appareils, y compris les salles de réunion. Ces rapports constituent une version « allégée » des [modèles bord](https://aka.ms/QERtemplates)téléchargeables, qui s’intéresse à l’analyse de la qualité et de la fiabilité du son.         |
-|Rapports analyse qualité     | Explorer les niveaux inférieurs : date par région, emplacements, sous-réseaux, heure et utilisateurs         |
-|Échec analyse approfondie des États     | Explorer les niveaux inférieurs : date par région, emplacements, sous-réseaux, heure et utilisateurs        |
+|Rapports analyse qualité     | Explorer les niveaux inférieurs : date par région, emplacements, sous-réseaux, heure et utilisateurs.        |
+|Échec analyse approfondie des États     | Explorer les niveaux inférieurs : date par région, emplacements, sous-réseaux, heure et utilisateurs.        |
 |Évaluer mes rapports d’appel     |Analyser les évaluations des appels utilisateur par région, par emplacement ou par utilisateur. Inclut des commentaires à la fois.         |
 |Rapports du support technique     |Rapports du support technique observez les données des appels et des réunions des utilisateurs individuels, des groupes d’utilisateurs ou de tout le monde. Grâce à l’intégration de données de bâtiment et de EUII, ces rapports permettent d’identifier les problèmes système possibles en fonction de l’emplacement du réseau, des détails de la Conférence, des appareils ou du microprogramme.         |
 |Rapports sur la version du client     |Résumé de la version du client : afficher les sessions et les utilisateurs pour chaque version de l’application cliente<br><br>Version cliente par l’utilisateur : afficher les noms d’utilisateurs pour chaque version de l’application cliente <br><br>Les filtres prédéfinis pour le type produit et client permettent de focaliser les versions sur des clients spécifiques.         |
@@ -244,6 +245,7 @@ Nous vous recommandons de télécharger vos données de client, de bâtiment et 
 Si les rapports bord par défaut ne répondent pas à vos besoins, utilisez ces instructions pour créer un rapport personnalisé. Vous devez [utiliser les rapports Power bi pour bord ](cqd-power-bi-query-templates.md). 2020
 
 Dans la liste déroulante des rapports en haut de l’écran qui s’affiche dans \( la **Summary Reports** fenêtre de connexion \) , sélectionnez **rapports détaillés** , puis **nouveau**. Cliquez sur **modifier** dans un rapport pour afficher l’éditeur de requête. Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. L’éditeur de requête vous permet de modifier ces requêtes et les options d’affichage du rapport.
+
 > [!IMPORTANT]
 > La plage réseau peut être utilisée pour représenter un super-réseau (combinaison de plusieurs sous-réseaux avec un seul préfixe de routage). Les nouveaux chargements de construction seront examinés pour toutes les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le télécharger à nouveau. Tout chevauchement dans les fichiers précédemment téléchargés risque de provoquer des mappages incorrects de sous-réseaux sur les bâtiments dans les rapports. Certaines implémentations de réseau privé virtuel n’indiquent pas exactement les informations de sous-réseau. Lorsque vous ajoutez un sous-réseau VPN au fichier de construction au lieu d’une entrée pour le sous-réseau, nous vous conseillons d’ajouter des entrées distinctes pour chaque adresse du sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de lignes 256, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclusive.
 >
@@ -306,7 +308,7 @@ Pour sélectionner plusieurs valeurs de filtre, commencez par ajouter un nouveau
 
 Ensuite, cliquez sur **recherche** (icône en forme de loupe en regard du nouveau filtre). Un champ de texte s’affiche, ainsi qu’un certain nombre d’options, notamment **tout sélectionner** et **inverser**. Entrez une valeur, puis cliquez sur **Rechercher** en regard de ce champ pour effectuer une recherche. Vous pouvez aussi laisser le champ de texte vide et cliquer sur **Rechercher** pour afficher les premières options 100.
 
-```PowerShell
+```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -318,7 +320,7 @@ Example
 Certains rapports bord possèdent des filtres au niveau du tableau de bord, ce qui permet de les filtrer facilement selon les paramètres courants. Ces filtres s’affichent en dehors des onglets de rapport standard, juste en dessous du filtre produit, et s’appliquent à tous les filtres du tableau de bord.
 
 ![Capture d’écran d’un filtre de tableau de bord](media/qerguide-image-dashboardfilters.png)
-```PowerShell
+```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -329,29 +331,29 @@ L’exclusion des données fédérées des rapports bord est utile lorsque vous 
 
 Pour ajouter un filtre, ajoutez ce qui suit à la fin de l’URL :
 
-```
+```console
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
 Example  
 
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+`https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]`
 
 Pour ajouter un filtre au niveau du tableau de bord à une URL, ce filtre doit exister dans bord en tant que filtre de produit ou de niveau de tableau de bord. Ajoutez ces filtres à l’URL après le mois de tendance et avant les paramètres d’URL :
 
-```filter/DATA_MODEL_NAME|VALUE```
+`filter/DATA_MODEL_NAME|VALUE`
 
 Par exemple, pour appliquer une valeur de filtre produit de Microsoft Teams, vous devez ajouter la commande suivante :
 
-```filter/[AllStreams].[Is%20Teams]|[True]```
+`filter/[AllStreams].[Is%20Teams]|[True]`
 
 Tout votre URL ressemble à ceci :
 
-```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+`https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
 Pour appliquer des filtres d’URL avec des valeurs à sélection multiple, séparez chaque valeur par un trait (|). Par exemple :
 
-```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+`filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
 Si vous spécifiez un nom ou une valeur non valide, le filtre d’URL n’est pas appliqué.
 
@@ -369,23 +371,22 @@ Vous pouvez utiliser un filtre d’URL pour filtrer chaque rapport pour une dime
 
 L’ID de locataire dans bord correspond à l’ID d’annuaire dans Azure. Si vous ne connaissez pas votre ID d’annuaire, vous pouvez le trouver dans le portail Azure :
 
-1.  Connectez-vous au portail Microsoft Azure :<https://portal.azure.com>
+1.  Connectez-vous au portail Microsoft Azure : <https://portal.azure.com>
 
 2.  Sélectionnez **Azure Active Directory**.
 
 3.  Sous **gérer**, sélectionnez **Propriétés**. Votre ID de locataire figure dans la zone ID de l' **Annuaire** .
 
 Vous pouvez également trouver votre ID de locataire à l’aide de PowerShell : 
-  ```
-  Login-AzureRmAccount
-  ```
 
-
+```powershell
+Login-AzureRmAccount
+```
 
 ## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparer des équipes et des données de Skype entreprise bord
 
 Même au cours des dernières bord (cqd.teams.microsoft.com), vous verrez les différences de données entre teams et Skype entreprise. Voici quelques raisons pour lesquelles :
-- Différences en matière de mécanismes permettant de garantir les performances et la fiabilité
+- Différences en matière de mécanismes assurant la fiabilité et les performances :
   - Teams utilise la reconnexion automatique et l’itinérance rapide. Skype entreprise ne fonctionne pas.
   - Teams offre une gestion dynamique de la bande passante. Skype entreprise ne fonctionne pas.
 - Différences de [plages d’adresses IP](Office-365-URLs-IP-address-ranges.md) entre les équipes et Skype entreprise. Les plages d’adresses IP d’équipes sont plus récentes, ce qui peut entraîner des problèmes de connectivité au pare-feu.
@@ -395,10 +396,12 @@ Même au cours des dernières bord (cqd.teams.microsoft.com), vous verrez les di
 ![Icône du logo Skype entreprise ](media/sfb-logo-30x30.png) **avec le portail hérité Skype entreprise**
 
 1. Connectez-vous à votre organisation Office 365 à l’aide d’un compte d’administrateur, puis sélectionnez la vignette **administrateur** pour ouvrir le centre d’administration.
+
 2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Microsoft teams** pour ouvrir le centre d’administration Teams.
+
 3. Dans le centre d’administration Teams, sélectionnez **portail hérité** dans le volet gauche, sélectionnez **Outils**, puis cliquez sur **tableau de bord de qualité des appels de Skype entreprise Online**.
 
-     ![Capture d’écran : sélectionner le tableau de bord de qualité des appels](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+   ![Capture d’écran : sélectionner le tableau de bord de qualité des appels](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
 4. Dans la page qui s’affiche, connectez-vous à l’aide de votre compte d’administrateur général, puis indiquez les informations d’identification du compte lorsque vous y êtes invité.
 

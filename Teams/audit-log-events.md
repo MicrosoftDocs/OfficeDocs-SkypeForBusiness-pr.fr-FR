@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer les données de Microsoft teams à partir du journal d’audit dans le centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778006"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897704"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -162,9 +162,9 @@ Si votre organisation utilise l’application Shifts dans Microsoft Teams, vous 
 
 |Nom convivial  |Opération  |Description  |
 |---------|---------|---------|
-|Groupe planification ajouté      |SchedulingGroupAdded          |Un utilisateur a correctement ajouté un nouveau groupe de planification au planning.          |
-|Groupe planification modifié     |SchedulingGroupEdited         |Un utilisateur a modifié un groupe de planification.          |
-|Groupe de planification supprimé         |SchedulingGroupDeleted              |Un utilisateur a correctement supprimé un groupe de planification de l’échéancier.|
+|Groupe planification ajouté |ScheduleGroupAdded          |Un utilisateur a correctement ajouté un nouveau groupe de planification au planning.|
+|Groupe planification modifié     |ScheduleGroupEdited         |Un utilisateur a modifié un groupe de planification.          |
+|Groupe de planification supprimé         |ScheduleGroupDeleted              |Un utilisateur a correctement supprimé un groupe de planification de l’échéancier.|
 |Shift ajouté      |ShiftAdded          |Un utilisateur a correctement ajouté une équipe.           |
 |Shift modifié       |ShiftEdited       |Un utilisateur a correctement modifié une équipe.        |
 |Décalage supprimé          |ShiftDeleted          | Un utilisateur a correctement supprimé une équipe.               |

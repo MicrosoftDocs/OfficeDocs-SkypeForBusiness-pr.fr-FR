@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672755"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864508"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -180,6 +180,26 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 Les canaux sont protégés par des dossiers au sein de la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets des fichiers au sein des canaux partagent les limites de stockage de l’équipe à laquelle ils appartiennent.
 
 Pour plus d’informations, voir [Limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="class-teams"></a>Équipes de classe :
+
+Microsoft Teams pour l’éducation fournit des modèles conçus pour des scénarios d’éducation uniques, tels que l’apprentissage en classe. Pour plus d’informations sur les types d’équipe, y compris les équipes de classe, est disponible dans [Choisir un type d’équipe à des fins de collaboration dans Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+
+Une équipe de classe est un type de modèle avec des applications supplémentaires incluses, et des limites distinctes au nombre de membres de l’équipe.
+
+> [!NOTE]
+> L’utilisation d’équipes de classe nécessite une licence [Microsoft Office 365 pour l’éducation](https://www.microsoft.com/education/products/office).
+
+Les limites pour les équipes de classe sont répertoriées dans le tableau suivant :
+
+|Fonctionnalité  |Limite maximale  |
+|---------|---------|
+|Nombre de membres dans une équipe.    | Consultez la section [Équipes et canaux](#teams-and-channels) de cet article.        |
+|Nombre de membres pour utiliser Affectations dans une équipe de classe    | 200        |
+|Nombre de membres pour utiliser un bloc-notes OneNote pour la classe dans une équipe de classe     |200         |
+
+Une équipe de classe peut prendre en charge plus de 200 membres. Toutefois, si vous envisagez d’utiliser l’application Affectations ou bloc-notes pour la classe au sein de votre équipe, vous devrez conserver le nombre de membres inférieur aux limites maximales ci-dessus.
+
 
 ## <a name="tags"></a>Balises
 

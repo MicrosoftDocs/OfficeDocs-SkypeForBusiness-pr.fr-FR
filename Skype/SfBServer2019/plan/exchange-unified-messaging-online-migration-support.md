@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824895"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897814"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -149,7 +149,8 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités utilisateur | Enregistrer les messages d’accueil personnels (PSTN) — émettre au téléphone |  | N | v    |
 | Media | Fonctionnalités utilisateur | Paramètre utilisateur permettant de désactiver la transcription |  | N | v    |
 | Media | Fonctionnalités utilisateur | Transcription  |  | v | v    |
-| Media | Fonctionnalités utilisateur | Messagerie vocale visuelle sur tous les points de terminaison   | Avec contrôle utilisateur pour lire, supprimer, indicateur d’attente des messages et état-bascule, sur tous les points de terminaison pris en charge  | v | v    |
+| Media | Fonctionnalités utilisateur | INDICATEUR (indicateur d’attente des messages) à l’aide de messages SIP Notify |  | N | v    |
+| Media | Fonctionnalités utilisateur | Messagerie vocale visuelle sur tous les points de terminaison   | Avec contrôle utilisateur pour lire, supprimer, notification en attente de message et état-bascule, sur tous les points de terminaison pris en charge  | v | v    |
 | Media | Fonctionnalités utilisateur | Format de fichier audio MP3 dans Outlook    |  | v | v    |
 | Media | Fonctionnalités utilisateur | Contrôle de lecture à vitesse variable |  | v | v    |
 | Media | Fonctionnalités utilisateur | Transférer une messagerie vocale  | Transférer une messagerie vocale reçue à d’autres utilisateurs | v | v    |
