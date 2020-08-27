@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52f40e9eacc75c15720d5d908709c5840d9474b3
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 689b2fcad408f0fe18651ada1a5ed03467bea345
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803786"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255237"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -30,13 +30,16 @@ ms.locfileid: "46803786"
 
 Pour une utilisation complète de teams, chaque utilisateur doit être activé pour la création de groupes Exchange Online, SharePoint Online et Microsoft 365.
 
-Les boîtes aux lettres Exchange des utilisateurs peuvent être hébergées en ligne ou sur site. Pour une intégration locale, il est recommandé d’utiliser un déploiement hybride Exchange complet classique. Pour plus d’informations sur la configuration d’un déploiement hybride, voir [déploiements hybrides Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
+Les boîtes aux lettres Exchange des utilisateurs peuvent être hébergées en ligne ou sur site.
 
 Les utilisateurs hébergés sur Exchange Online ou Exchange dédié vNext peuvent utiliser toutes les fonctionnalités d’Teams. Ils peuvent créer et rejoindre des équipes et des canaux, créer et afficher des réunions, appeler et discuter, modifier des images de profil utilisateur (si la stratégie de boîte aux lettres Outlook sur le Web le permet) et ajouter et configurer des connecteurs, des onglets et des robots. Pour obtenir la liste complète des fonctionnalités disponibles, consultez le tableau ci-dessous.
 
 Les utilisateurs hébergés sur Exchange Online dédié (hérité) doivent être synchronisés avec Azure Active Directory sur Microsoft 365 ou Office 365. Ils peuvent créer et rejoindre des équipes et des canaux, ajouter et configurer des onglets et des robots, et utiliser les fonctionnalités de conversation et d’appel. Toutefois, ils ne peuvent pas modifier les images de profil, gérer les réunions, accéder aux contacts Outlook ou gérer les connecteurs.
 
-Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent gérer les réunions, en fournissant Exchange Server 2016 (cumulative Update 3) ou version ultérieure, s’exécute sur site avec OAuth configuré (de préférence par le biais de l’Assistant Configuration hybride Exchange), comme décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Pour activer la délégation de calendrier pour ces utilisateurs, vous devez effectuer les étapes 2-3 comme décrit dans la rubrique [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). ces étapes permettent à l’application de planifier des équipes les autorisations requises pour vérifier les autorisations de délégué.
+> [!IMPORTANT]
+> S’il s’agit d’une intégration avec le système local, il est fortement recommandé d’utiliser un déploiement hybride Exchange complet classique avec Exchange Server 2016 ou version ultérieure pour répondre aux exigences ci-dessous. Pour plus d’informations sur la configuration d’un déploiement hybride, voir [déploiements hybrides Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
+
+Les utilisateurs dotés de boîtes aux lettres hébergées sur site doivent être synchronisés avec Azure Active Directory. Ils peuvent utiliser toutes les fonctionnalités du scénario ci-dessus, mais ils peuvent également gérer les réunions si les exigences indiquées dans la section [conditions requises pour les boîtes aux lettres hébergées sur site](#requirements-for-mailboxes-hosted-on-premises) sont satisfaites.
 
 Le tableau suivant fournit une référence rapide utile à la disponibilité des fonctionnalités en fonction de l’environnement Exchange.
 
@@ -47,7 +50,7 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 | **Exchange Online**                                                 | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui        | Oui                   | Oui                               | Oui,<sup>7</sup>             | Oui          | Oui             | Oui, <sup>6</sup>        | Oui        | Oui                          | Oui                    | Oui                    |
 | **vNext Exchange Online dédié**                                 | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui        | Oui                   | Oui                               | Oui,<sup>7</sup>             | Oui          | Oui             | Oui, <sup>6</sup>        | Oui        | Oui                          | Oui                    | Oui                    |
 | **Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)  | Oui <sup>1</sup> | Oui <sup>, 1, 2</sup> | Oui, <sup> 3 | Oui                   | Non                                | Non                          | Oui          | Oui             | Non                      | Oui, <sup> 4 | Oui, <sup> 5                   | Oui                    | Oui                    |
-| **Exchange sur site** (synchronisation avec Azure ad & configuration OAuth requise) | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui, <sup> 3 | Oui                   | Oui (Exchange 2016 CU3 +)          | Non                          | Oui          | Oui             | Non                      | Oui, <sup> 4 | Oui, <sup> 5                   | Oui                    | Oui                    |
+| **Exchange sur site** (synchronisation avec Azure AD) | Oui <sup>1</sup> | Oui <sup>1</sup>   | Oui, <sup>3</sup> | Oui                   | Oui, <sup>8</sup>         | Non                          | Oui          | Oui             | Non                      | Oui, <sup> 4 | Oui, <sup> 5                   | Oui                    | Oui                    |
 
 <sup>1</sup> EDiscovery et conservation légale pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.
 
@@ -61,11 +64,15 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 
 <sup>6</sup> uniquement les contacts dans le dossier contacts par défaut. L’accès à d’autres dossiers ou sous-dossiers de contacts n’est pas pris en charge.
 
-<sup>7</sup> teams respecte le paramètre de [stratégie de boîte aux lettres Outlook sur le Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur image de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer l’image de mon profil. Par exemple, si un utilisateur charge une image de profil approuvée par le service informatique de votre organisation ou son service de ressources humaines, aucune action n’est requise. Toutefois, si un utilisateur charge une image inappropriée, modifiez-la en fonction des stratégies internes de votre organisation.
+<sup>7</sup> teams respecte le paramètre de [stratégie de boîte aux lettres Outlook sur le Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur image de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer l’image de mon profil. Par exemple, si un utilisateur charge une image de profil approuvée par le service informatique de votre organisation ou son service de ressources humaines, aucune action n’est requise. Toutefois, si un utilisateur télécharge une image inappropriée, modifiez-la selon les stratégies internes de votre organisation.
+
+<sup>8</sup> vous devez respecter les exigences indiquées dans la section [Configuration requise pour les boîtes aux lettres hébergées sur site](#requirements-for-mailboxes-hosted-on-premises) .
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft teams
 
 Microsoft teams fonctionne avec plusieurs services Microsoft 365 et Office 365 pour offrir aux utilisateurs une expérience plus riche. Pour prendre en charge cette fonctionnalité, vous devez activer certains services et fonctionnalités, ainsi qu’affecter des licences.
+
+- Une licence Exchange Online doit être affectée aux utilisateurs.
 
 - SharePoint Online est requis pour le partage et le stockage de fichiers dans les conversations d'équipe. Microsoft Teams ne prend pas en charge SharePoint sur site.
 
@@ -73,16 +80,42 @@ Microsoft teams fonctionne avec plusieurs services Microsoft 365 et Office 365 p
 
 - Pour créer des équipes dans Microsoft Teams, les utilisateurs doivent être activés pour la création de groupes Microsoft 365.
 
-- Pour permettre à Microsoft teams de fonctionner avec Exchange en local, vous devez configurer le nouveau protocole d’authentification OAuth Exchange, de préférence en exécutant l’Assistant Exchange hybride, comme décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Pour que l’accès au calendrier fonctionne pour vos boîtes aux lettres locales, teams a besoin d’accéder à votre organisation Exchange locale pour la découverte automatique et la boîte aux lettres, et il doit être localisé sur Exchange 2016 CU3 ou version ultérieure. Pour permettre aux utilisateurs de boîtes aux lettres Exchange locales de planifier des réunions d’équipes au nom d’un autre utilisateur, vous devez également suivre les étapes 2 et 3, comme décrit dans la rubrique [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
-
-> [!NOTE]
-> Le complément Outlook teams peut être utilisé pour planifier une réunion teams pour les boîtes aux lettres hébergées dans Exchange sur site. Toutefois, la planification d’une réunion teams au nom d’un autre utilisateur avec Exchange en local nécessite Exchange 2016 CU3 et versions ultérieures, ainsi que le nouveau protocole d’authentification OAuth Exchange. Le délégué et la délégation doivent disposer d’une boîte aux lettres Exchange sur site.
-
-> [!NOTE]
-> Dans le cas d’une intégration Exchange locale ou Teams, la licence requise doit être attribuée à l’utilisateur synchronisé de AAD.
-
 > [!IMPORTANT]
 > Si vous désinstallez le client Skype entreprise après le déplacement d’un utilisateur en mode **équipes uniquement** , il est possible que la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Pour résoudre ce problème, sélectionnez votre image de profil dans le coin supérieur droit de Microsoft Teams, puis sélectionnez **paramètres**. Sous l’onglet **général** , sous **application**, sélectionnez **inscrire les équipes en tant qu’application de conversation pour Office (nécessite le redémarrage des applications Office)**. Après avoir sélectionné cette option, fermez et rouvrez toutes les applications Office, y compris Outlook. Lorsque vous ouvrez Outlook, les informations de présence sont disponibles.
+
+## <a name="requirements-for-mailboxes-hosted-on-premises"></a>Conditions requises pour les boîtes aux lettres hébergées sur site
+
+Si les utilisateurs souhaitent avoir la possibilité de planifier une réunion teams à l’aide d’Exchange Server en local, vous devez disposer des éléments suivants :
+
+- La licence requise teams doit être attribuée à l’utilisateur de la synchronisation Azure Active Directory.
+
+- Les utilisateurs doivent être synchronisés avec Azure Active Directory. Pour plus d’informations sur l’utilisation d’Azure AD Connect pour synchroniser avec Azure Active Directory, voir [documentation d’identité hybride](https://docs.microsoft.com/azure/active-directory/hybrid/).
+
+- Les boîtes aux lettres sont hébergées dans Exchange Server 2016 cumulative Update 3 ou version ultérieure.
+
+- Les services de découverte automatique et de services Web Exchange sont publiés en externe.
+ 
+> [!NOTE]
+> Le service de découverte automatique (auto) v2 est requis pour permettre au service teams d’effectuer une découverte non authentifiée de la boîte aux lettres de l’utilisateur. La version 2 de v2 est prise en charge dans Exchange 2016 CU3 et les versions ultérieures.
+
+- L’authentification OAuth est configurée de préférence par le biais de l’Assistant Configuration hybride Exchange exécutant une configuration hybride complète (classique ou moderne). Si vous ne pouvez pas utiliser l’Assistant Configuration hybride, configurez OAuth comme décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+
+> [!NOTE]
+> Exchange approuve le jeton OAuth du service équipes, connu sous le nom de EvoSTS. L’étape 1 doit être suffisamment grande, mais uniquement le EvoSTS ; ACS est utilisé pour la recherche de disponibilité dans le calendrier.
+
+- La case à cocher de la fonctionnalité déploiement hybride Exchange d’Azure AD Connect est définie.
+
+- Pour le support des applications calendrier et le complément Outlook teams pour Mac, les URL du service Web Exchange doivent être configurées en tant que SPN dans Azure AD du client pour le principal du service Exchange. Cette étape est accomplie avec l’Assistant Configuration hybride ou [les étapes manuelles suivantes pour l’authentification moderne hybride](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
+
+Pour activer la délégation de calendrier pour ces utilisateurs :
+
+
+- Le délégué et la délégation doivent disposer d’une boîte aux lettres sur le serveur Exchange.
+
+- Vous devez également suivre les étapes 2-3 comme décrit dans la rubrique [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). ces étapes permettent à l’application de planifier des équipes les autorisations requises pour vérifier les autorisations de délégué.
+ 
+> [!NOTE]
+> Étape 2 inclut l’attribution de rôles pour ArchiveApplication, qui n’est pas nécessaire pour la délégation.
 
 ## <a name="additional-considerations"></a>Autres considérations
 
@@ -92,33 +125,9 @@ Voici quelques éléments supplémentaires à prendre en considération lors de 
 
 - Contrôle et protection de la configuration des stratégies de conformité dans les équipes et Exchange à l’aide d’un accès conditionnel. Pour plus d’informations, voir [fonctionnement des stratégies d’accès conditionnel pour Microsoft teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 
-- Si votre organisation a des exigences en matière de conformité afin de vous assurer que toutes les discussions de réunion soient détectables, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale.
+- Si votre organisation a des exigences en matière de conformité afin de vous assurer que toutes les discussions de réunion soient détectables, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, reportez-vous à [autoriser la planification de réunions privées](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - Dans le cas d’un déploiement hybride Exchange, le contenu des messages instantanés peut être recherché, même si les participants possédant une boîte aux lettres basée sur le Cloud ou une boîte aux lettres locale. Pour en savoir plus, consultez [recherche de boîtes aux lettres sur le nuage pour les utilisateurs locaux](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Microsoft Teams, voir [recherche de contenu dans le centre de conformité Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
-
-> [!TIP]
-> Pour plus d’informations sur l’utilisation d’Azure AD Connect pour synchroniser avec Azure Active Directory, voir [intégration de vos identités locales avec Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
-
-## <a name="requirements-for-on-premises-exchange-mailbox-user"></a>Configuration requise pour l’utilisateur de la boîte aux lettres Exchange locale
-
-Si les utilisateurs souhaitent pouvoir planifier une réunion teams à l’aide d’Exchange, vous devez vérifier les points suivants :
-
-- Le délégué et la délégation doivent disposer d’une boîte aux lettres sur le serveur Exchange.
-
-- Le service de découverte automatique (automatique) v2 est requis pour permettre au service teams d’effectuer une découverte non authentifiée de la boîte aux lettres de l’utilisateur. La version v2 automatique est prise en charge dans Exchange 2016 CU3 +.
-
-- Le serveur Exchange doit être configuré avec le serveur d’authentification pour EVOSTS. Configuré automatiquement dans le cadre de l’Assistant hybride pour Exchange (des).
-
-    Si vous ne souhaitez pas exécuter des, vous pouvez créer manuellement le serveur auth pour EVO STS sur le serveur Exchange en suivant ces instructions de configuration de l' [authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Toutefois, nous vous recommandons d’utiliser le des.
-
-- Une application partenaire doit être configurée pour le serveur Exchange avec un ID d’application de **Skype entreprise Online et 00000004-0000-0ff1-CE00-000000000000**. L’ID est utilisé par le service de planification d’équipes et un compte d’utilisateur lié ayant les propriétés suivantes :
-
-  - Caché dans le carnet d’adresses Exchange. Nous vous conseillons de la masquer dans le carnet d’adresses, car il s’agit d’un compte d’utilisateur désactivé.
-
-  - Attribution de rôle de gestion Exchange de **UserApplication**.
-
-Pour achever l’intégration, suivez les étapes décrites dans 1-3 à [la configuration de l’authentification OAuth entre votre organisation Exchange locale et Exchange Online ?](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Notez que l’étape 2 inclut l’attribution de rôles pour ArchiveApplication qui n’est pas nécessaire pour la délégation, mais qui consiste à archiver marketing online chat vers une boîte aux lettres Exchange.
-
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 

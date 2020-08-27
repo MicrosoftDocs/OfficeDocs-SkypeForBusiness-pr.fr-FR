@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
+ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864568"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903803"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -146,6 +146,14 @@ Pour modifier une stratégie de conservation Teams, procédez comme suit :
 3. Sélectionnez **modifier** en regard de ce que vous voulez modifier, apportez vos modifications, cliquez sur **enregistrer**, puis cliquez sur **Fermer**.
 
     ![Capture d'écran des messages de canal Teams et des options de conversations Teams sur la page Choisir des emplacements](media/retention-policies-edit.png)
+
+> [!WARNING]
+> Si vous avez configuré des équipes spécifiques ou des utilisateurs spécifiques à inclure pour les messages de canaux des équipes ou les discussions d’équipe, et que vous les modifiez pour supprimer le dernier emplacement pour l’emplacement, la configuration de cet emplacement devient **tout**. Assurez-vous qu’il s’agit de la configuration que vous envisagez avant d’enregistrer la stratégie.
+> 
+> Par exemple, si vous avez spécifié un utilisateur de la discussion d’équipes à inclure dans votre stratégie de rétention configurée pour supprimer des données, puis que vous modifiez la stratégie pour supprimer cet utilisateur, tous les utilisateurs seront ensuite soumis à la stratégie de rétention qui supprime définitivement leurs messages de discussion. La même chose s’applique également aux messages des canaux des équipes.
+> 
+> Dans ce scénario, activez le paramètre emplacement si vous ne voulez pas que le paramètre **tous** pour les messages de canal teams ou les messages de chat teams soient soumis à la stratégie de rétention. Vous pouvez également spécifier les exclusions à exempter de la stratégie.
+
 
 #### <a name="delete-a-retention-policy"></a>Supprimer une stratégie de conservation
 

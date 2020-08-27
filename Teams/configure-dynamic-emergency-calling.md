@@ -17,12 +17,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576926"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255377"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -81,7 +81,7 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 
 ## <a name="assign-emergency-addresses"></a>Attribution d’adresses de secours
 
-Vous pouvez affecter des adresses d’urgence aux utilisateurs de plan d’appel et aux identifiants réseau requis pour l’obtention dynamique d’un emplacement. (Le sous-réseau et le point d’accès WiFi sont pris en charge ; le commutateur/port Ethernet est en attente).
+Vous pouvez affecter des adresses d’urgence aux utilisateurs de plan d’appel et aux identifiants réseau requis pour l’obtention dynamique d’un emplacement. (Le sous-réseau et le point d’accès WiFi sont pris en charge. Le commutateur/port Ethernet est pris en charge sur Windows 8,1 et les versions ultérieures pour le moment.
 
 Pour prendre en charge le routage automatisé des appels d’urgence à l’intérieur des États-Unis, vous devez vous assurer que les emplacements d’urgence attribués aux identifiants réseau incluent les codes géographiques associés. (Les adresses de secours sans codes géographiques ne peuvent pas être affectées aux identifiants réseau requis pour les emplacements dynamiques.)
 
@@ -216,7 +216,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
-- [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)
+- [Gérer les stratégies de routage des appels d’urgence ](manage-emergency-call-routing-policies.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Affectation ou modification d’un emplacement d’urgence pour votre utilisateur](assign-change-emergency-location-user.md)
 - [Paramètres réseau pour les fonctionnalités voix Cloud](cloud-voice-network-settings.md)

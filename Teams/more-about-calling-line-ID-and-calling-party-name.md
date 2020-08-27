@@ -1,7 +1,7 @@
 ---
 title: Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez pourquoi vous devez ajouter une personne autorisée pouvant apporter des modifications au compte lorsque vous utilisez l’Assistant Nouvelle demande de transfert de numéros locaux.
-ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: db64a5d1a7e7a5969f66d67d6b056ec6947d44bb
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832654"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255397"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel
 
@@ -37,8 +37,8 @@ Lors d’un appel, le CLID (numéro de téléphone) est routé vers l’opérate
 
 Le CLID & transmission CNAMe incombe à l’opérateur de résiliation, dans la mesure où l’opérateur de résiliation doit prendre en charge le CLID & la fonctionnalité CNAMe et fournir des enregistrements à jour pour les deux valeurs. Microsoft fournit des valeurs de CLID lors des appels d’origine, mais ces valeurs ne peuvent pas être conservées intactes une fois transmises par le biais d’un transporteur intermédiaire ou du transporteur de terminaison. Malheureusement, en cas de modification de la valeur de l’élément CLID, qu’il ait été omis ou tronqué par l’intermédiaire du transporteur ou de l’arrêt du son, Microsoft ne peut pas être modifié dans le cadre de la résolution de ces problèmes sur le réseau téléphonique public.
 
-Les incohérences dans CNAMe peuvent être provoquées par des retards dans les opérateurs intermédiaires ou de terminaison qui actualisent les informations CNAMe dans les bases de données faisant autorité, comme dans le cas des États-Unis. Dans les pays dans lesquels il n’existe aucune base de données faisant autorité pour CNAMe, des pratiques de transporteur individuelles peuvent également poser des problèmes avec les informations CNAMe qui arrivent de façon insuffisante lors de l’appel. Microsoft ne prend actuellement pas en charge les informations CNAMe d’origine dans les pays autres que les États-Unis.
+Les incohérences dans CNAMe peuvent être provoquées par des retards dans les opérateurs intermédiaires ou de terminaison qui actualisent les informations CNAMe dans les bases de données faisant autorité, comme dans le cas des États-Unis. Dans les pays dans lesquels il n’existe aucune base de données faisant autorité pour CNAMe, des pratiques de transporteur individuelles peuvent également poser des problèmes avec les informations CNAMe qui arrivent intactes lors de l’appel. Microsoft ne prend actuellement pas en charge les informations CNAMe d’origine dans les pays autres que les États-Unis.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 

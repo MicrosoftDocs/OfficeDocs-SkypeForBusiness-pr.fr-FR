@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640959"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255487"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "46640959"
 Stratégies de réunion: elles sont utilisées pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par des utilisateurs au sein de votre organisation. Vous pouvez utiliser la stratégie globale par défaut de l’organisation qui crée ou crée automatiquement des stratégies personnalisées. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en utilisant [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
-> Pour plus d’informations sur l’utilisation de rôles pour gérer les autorisations des présentateurs de la réunion et des participants, voir [rôles d’une réunion teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Pour plus d’informations sur l’utilisation de rôles pour gérer les autorisations des présentateurs de la réunion et des participants, voir [rôles d’une réunion teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur l’interface de réunion pour les utilisateurs avant le début d’une réunion, pendant une réunion ou après une réunion.
 
@@ -76,7 +76,7 @@ Vous pouvez ensuite attribuer la stratégie aux utilisateurs.
 
 ## <a name="edit-a-meeting-policy"></a>Modifier une stratégie de réunion
 
-Vous pouvez modifier la stratégie globale et les stratégies personnalisées que vous créez. 
+Vous pouvez modifier la stratégie globale et les stratégies personnalisées que vous créez.
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies de réunion**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
@@ -102,7 +102,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 - [Partage de contenu](#meeting-policy-settings---content-sharing)
 - [Participants & invités](#meeting-policy-settings---participants--guests)
 
-::: zone-end 
+::: zone-end
 
 <a name="bkgeneral"> </a>
 
@@ -130,11 +130,37 @@ Si vous désactivez cette fonctionnalité, les utilisateurs ne sont pas en mesur
 
 ### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions de canal
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à costar, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il démarrera une réunion dans un canal d’équipe et l’option **Ajouter un canal** est désactivée pour les utilisateurs dans Teams. La valeur par défaut est « True ».
+Utilisez la stratégie AllowChannelMeetingScheduling existante pour contrôler les types d’événements qui peuvent être créés dans les calendriers d’équipe. Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe. La valeur par défaut est « True ».
 
-![Capture d’écran montrant l’option planifier une réunion dans teams](media/meeting-policies-schedule-a-meeting.png)
+Si cette stratégie est désactivée, les utilisateurs ne peuvent pas créer de réunions de canal. Néanmoins, il est possible de modifier les réunions existantes du canal par l’organisateur de l’événement.
 
-![Capture d’écran montrant l’option Sélectionner un canal pour la réunion](media/meeting-policies-select-a-channel-to-meet-in.png)
+La planification d’une réunion est désactivée.
+
+![Capture d’écran montrant l’option planifier une réunion dans teams](media/schedule-meeting-option.png)
+
+La sélection du canal est désactivée.
+
+![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/meeting-policies-select-a-channel-to-meet-in.png)
+
+Dans la page billets de canal, les éléments suivants seront désactivés :
+
+- Bouton **planifier une réunion** dans la zone de rédaction de la réponse au canal.
+![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/schedule-meeting-disabled-in-chat2.png)
+- Bouton **planifier une réunion** dans l’en-tête de canal.
+![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/schedule-now-in-header.png)
+
+Dans le calendrier de canal :
+
+- Le bouton **Ajouter un nouvel événement** dans l’en-tête du calendrier du canal sera désactivé.
+![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/add-new-event-disabled.png)
+- Les utilisateurs ne seront pas en mesure de faire glisser et sélectionner un bloc d’heure sur le calendrier du canal pour créer une réunion à partir du canal.
+- Les utilisateurs ne peuvent pas utiliser les raccourcis clavier pour créer une réunion dans le calendrier de canal.
+
+Dans le centre d’administration :
+
+L’application Calendrier de canal s’affiche dans la section **applications Microsoft** du volet d’administration pour les stratégies d’autorisation.
+
+![Capture d’écran montrant la stratégie applications Microsoft dans la console d’administration des équipes.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Autoriser la planification de réunions privées
 
@@ -157,7 +183,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 ### <a name="allow-transcription"></a>Autoriser la transcription
 
-Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. Ce paramètre détermine si les légendes et les fonctionnalités de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette fonctionnalité, les options **Rechercher** et **CC** ne seront pas disponibles lors de la lecture de l’enregistrement d’une réunion. Ce paramètre doit être activé pour la personne qui a créé l’enregistrement. 
+Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. Ce paramètre détermine si les légendes et les fonctionnalités de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette fonctionnalité, les options **Rechercher** et **CC** ne seront pas disponibles lors de la lecture de l’enregistrement d’une réunion. Ce paramètre doit être activé pour la personne qui a créé l’enregistrement.
 
 Notez que la transcription pour les réunions enregistrées est uniquement prise en charge pour les utilisateurs qui disposent de la langue dans teams pour lesquelles l’anglais est lu lors de la réunion.
 
@@ -167,7 +193,7 @@ Notez que la transcription pour les réunions enregistrées est uniquement prise
 
 Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. Ce paramètre détermine si les réunions de cet utilisateur peuvent être enregistrées. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant à la réunion si le paramètre de stratégie est activé pour le participant et s’il s’agit d’un utilisateur authentifié de la même organisation.
 
-Les personnes externes à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent pas démarrer ou arrêter l’enregistrement. 
+Les personnes externes à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent pas démarrer ou arrêter l’enregistrement.
 
 ![Capture d’écran montrant les options d’enregistrement](media/meeting-policies-recording.png)
 
@@ -208,7 +234,7 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine le taux
 
 S’il n’y a pas assez de bande passante pour une réunion, un message s’affiche indiquant une mauvaise qualité du réseau.
 
-Pour les réunions qui ont besoin d’une vidéo de qualité optimale, telle que les réunions du tableau PDG et les événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia de teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario. 
+Pour les réunions qui ont besoin d’une vidéo de qualité optimale, telle que les réunions du tableau PDG et les événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia de teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de la stratégie de réunion-partage de contenu
 
@@ -242,9 +268,9 @@ Pour le moment, les utilisateurs ne peuvent pas lire de vidéo ou partager leur 
 
 ### <a name="allow-a-participant-to-give-or-request-control"></a>Autoriser un participant à céder ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre indique si l’utilisateur peut donner le contrôle du bureau ou de la fenêtre partagés aux autres participants à la réunion. Pour donner le contrôle, pointez sur la partie supérieure de l’écran. 
+Il s’agit d’une stratégie par utilisateur. Ce paramètre indique si l’utilisateur peut donner le contrôle du bureau ou de la fenêtre partagés aux autres participants à la réunion. Pour donner le contrôle, pointez sur la partie supérieure de l’écran.
 
-Si ce paramètre est activé pour l’utilisateur, l’option **donner le contrôle** s’affiche dans la barre supérieure d’une session de partage. 
+Si ce paramètre est activé pour l’utilisateur, l’option **donner le contrôle** s’affiche dans la barre supérieure d’une session de partage.
 
 ![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
 
@@ -264,7 +290,7 @@ Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée
 Pour utiliser PowerShell afin de contrôler les personnes qui peuvent donner le contrôle ou accepter des demandes de contrôle, utilisez l’applet de commande AllowParticipantGiveRequestControl.
 
 > [!NOTE]
-> Pour donner et prendre le contrôle du contenu partagé lors du partage, les deux parties doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsqu'une des parties exécute Teams dans un navigateur. Il s'agit d'une limitation technique que nous nous efforçons de résoudre. 
+> Pour donner et prendre le contrôle du contenu partagé lors du partage, les deux parties doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsqu'une des parties exécute Teams dans un navigateur. Il s'agit d'une limitation technique que nous nous efforçons de résoudre.
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à céder ou demander le contrôle
 
@@ -294,7 +320,7 @@ Amanda ne peut pas partager des diapositives PowerPoint dans les réunions, mêm
 
 ### <a name="allow-whiteboard"></a>Autoriser le tableau blanc
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. 
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
@@ -333,19 +359,18 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
 
-Il s’agit d’une stratégie par organisateur qui permet la numérotation des conférences de conférences. Ce paramètre détermine si les utilisateurs de la Conférence rendez-vous peuvent participer à la réunion sans utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que l’utilisateur Dial doit patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion. 
+Il s’agit d’une stratégie par organisateur qui permet la numérotation des conférences de conférences. Ce paramètre détermine si les utilisateurs de la Conférence rendez-vous peuvent participer à la réunion sans utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que l’utilisateur Dial doit patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
-**Remarques** Si la valeur est faux et qu’un utilisateur compose le numéro d’abord de la réunion et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants. 
-
+**Remarques** Si la valeur est faux et qu’un utilisateur compose le numéro d’abord de la réunion et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants.
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes rejoignent directement une réunion ou patientent dans la salle d’attente jusqu’à ce qu’elles soient admises par un utilisateur authentifié. Ce paramètre ne s’applique pas aux utilisateurs d’appels entrants. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes rejoignent directement une réunion ou patientent dans la salle d’attente jusqu’à ce qu’elles soient admises par un utilisateur authentifié. Ce paramètre ne s’applique pas aux utilisateurs d’appels entrants.
 
 ![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
 
  Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
- 
+
  **Remarques** Dans les options de la réunion, le paramètre est intitulé « qui peut éviter la salle d’attente ».
   
 |Définition de la valeur  |Comportement de jointure |
@@ -356,10 +381,9 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False. Lorsque la valeur est false, les utilisateurs se serviront dans la salle d’attente jusqu’à ce qu’ils soient joints à la réunion avec un client Teams. Lorsque la valeur est true, Dial se connecte automatiquement à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False. Lorsque la valeur est false, les utilisateurs se serviront dans la salle d’attente jusqu’à ce qu’ils soient joints à la réunion avec un client Teams. Lorsque la valeur est true, Dial se connecte automatiquement à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
 
-**Remarques** Si un utilisateur compose un numéro joint à une réunion avant qu’un utilisateur de l’organisation ne rejoint la réunion, il est placé dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion par le biais d’un client d’équipe et les admet. 
-
+**Remarques** Si un utilisateur compose un numéro joint à une réunion avant qu’un utilisateur de l’organisation ne rejoint la réunion, il est placé dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion par le biais d’un client d’équipe et les admet.
 
 ### <a name="enable-live-captions"></a>Activer les légendes dynamiques
 
