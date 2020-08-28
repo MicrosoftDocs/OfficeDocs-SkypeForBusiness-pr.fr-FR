@@ -73,7 +73,7 @@
 #### [Modifier les informations d’un utilisateur invité](edit-guests-information.md)
 #### [Utiliser PowerShell pour contrôler l’accès des invités](guest-access-PowerShell.md)
 #### [Résolution des problèmes liés à l’accès des invités](troubleshoot-guest-access.md)
-
+## [Cortana dans Teams](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [Exemple de petite entreprise : configurer une file d’attente des appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gérer les comptes de ressources Teams](manage-resource-accounts.md)
 #### [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
+#### [Configurer les jours fériés](set-up-holidays-in-teams.md)
 #### [Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [Bloquer les appels entrants](block-inbound-calls.md)
