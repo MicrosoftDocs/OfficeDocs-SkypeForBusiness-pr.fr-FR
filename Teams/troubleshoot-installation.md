@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment résoudre les problèmes d’installation et de mise à jour pour l’application client de bureau Teams sur Windows.
-ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086140"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300278"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Résoudre les problèmes d’installation et de mise à jour de Microsoft Teams sur Windows
 
@@ -49,7 +49,7 @@ Si SquirrelSetup.log n’indique pas la cause ou si vous avez besoin d’informa
 
 ### <a name="troubleshoot-update-issues"></a>Résoudre les problèmes de mise à jour
 
-Lorsque Teams est correctement installé, l’emplacement du journal passe de %LocalAppData%\SquirrelTemp à %AppData%\Microsoft\Teams. À cet emplacement figurent deux fichiers journaux intéressants, SquirrelSetup.log et logs.txt.
+Lorsque teams est correctement installé, l’emplacement du journal passe de%LocalAppData%\SquirrelTemp à%LocalAppData%\Microsoft\Teams. À cet emplacement figurent deux fichiers journaux intéressants, SquirrelSetup.log et logs.txt.
 
 - Le fichier SquirrelSetup.log à cet emplacement est écrit par Update.exe, lequel est un exécutable qui révise l’application Teams.
 - Le fichier logs.txt est utilisé par l’application Teams (spécifiquement Teams.exe) pour enregistrer les événements importants de l’application. Il contient généralement des informations d’échec.

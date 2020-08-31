@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Apprenez-en davantage sur le contrôle d’accès basé sur les rôles grâce au service géré par Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: ec8bb770f1dd843c569a98dd909c87ef3ca14dd0
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788781"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300288"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Contrôle d’accès basé sur un rôle avec le service géré Microsoft teams
 
@@ -59,12 +59,12 @@ Le tableau suivant récapitule ce que chaque rôle peut faire.
 |    |Clé de réinitialisation         |&#10004;           |         ||
 |    |Télécharger la clé         |&#10004;           |&#10004;          |&#10004; |
 |    |Désinscrivent         |&#10004;           |&#10004;           |&#10004; |
-|Gestion des groupes   |Create         |&#10004;           |&#10004;           ||
+|Gestion des groupes   |Create         |&#10004;           |           ||
 |    |Afficher       |&#10004;          |&#10004;           ||
-|    |Modifiant         |&#10004;           |&#10004;           ||
-|Gestion de la sonnerie de mise à jour    |Create         |&#10004;           |&#10004;           ||
-|    |Afficher         |&#10004;           |&#10004;           ||
-|    |Modifiant         |&#10004;           |&#10004;           ||
+|    |Modifiant         |&#10004;           |           ||
+|Gestion de la sonnerie de mise à jour    |Create         |&#10004;           |           ||
+|    |Afficher         |&#10004;           |           ||
+|    |Modifiant         |&#10004;           |           ||
 |Rapports   |Afficher        |&#10004;           |&#10004;           ||
 |Gestion des tickets   |Créer un incident client         |&#10004;           |&#10004;           |&#10004;  |
 |    |Afficher         |&#10004;           |&#10004;           |&#10004;  |
@@ -78,7 +78,7 @@ Le tableau suivant récapitule ce que chaque rôle peut faire.
 
 Pour attribuer des rôles, vous devez être un administrateur général ou un administrateur de service géré.
 
-1. Dans le volet de navigation de gauche du portail de service géré de Microsoft Teams, accédez à **rôles**.
+1. Dans le volet de navigation de gauche du portail de service géré de Microsoft Teams, accédez à **paramètres**  >  **Roles**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Capture d’écran de la page de contrôle d’accès montrant les rôles":::
 
