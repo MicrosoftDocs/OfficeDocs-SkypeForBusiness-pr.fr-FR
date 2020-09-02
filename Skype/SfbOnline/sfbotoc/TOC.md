@@ -212,8 +212,8 @@
 ### [Créer une file d’attente d’appels cloud](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
-
 ## [Configurer votre réseau pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
+### [Qu'est-ce qu'une diffusion de réunion Skype ?](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d)
 ### [Licences pour blocage d'utilisateurs pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
 ### [Activer une diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Modifier les paramètres de diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)

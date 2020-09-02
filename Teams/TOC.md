@@ -195,11 +195,13 @@
 ### [Planifier votre déploiement](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audioconférence dans Microsoft 365](audio-conferencing-in-office-365.md)
+### [Ouvrir l’aperçu : Conférence sur le réseau pour la conférence audio](audio-conferencing-on-network.md)
 ### [Questions fréquentes à propos de l’audioconférence](audio-conferencing-common-questions.md)
 ### [Didacticiel : Audioconférence dans Teams](Tutorial-Audio-Conferencing.yml)
 ### [Tester ou acheter l’audioconférence dans Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Période d’appels sortants complémentaire pour l’audioconférence](complimentary-dial-out-period.md)
 ### [Avantage de l’abonnement conférence audio « Appel sortant »/« Appeler Moi à »](audio-conferencing-subscription-dial-out.md)
+
 
 ### [Configurer l’audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
