@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: En savoir plus sur les paramètres d’administration dans l’application compliment dans le centre d’administration Microsoft teams
-ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656305"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324028"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application compliment dans le centre d’administration Microsoft teams
 
@@ -105,7 +105,7 @@ Vous trouverez ci-dessous une liste de couleurs d’exemple pour commencer :
 
 ## <a name="badge-set-assets"></a>Ressources du jeu de badges
 
-Les jeux de badges intégrés ne peuvent pas être modifiés, de sorte que lorsqu’un jeu intégré est activé, tous les badges du jeu sont ajoutés à l’application compliments. Si vous souhaitez ajouter des badges spécifiques à partir d’un ensemble intégré et en ignorer d’autres, recréez les badges que vous souhaitez utiliser comme badges personnalisés. Vous pouvez télécharger l’image de badge et rechercher les couleurs de texte et d’arrière-plan des badges à partir d’ensembles prédéfinis dans les tableaux ci-dessous.
+Les jeux de badges intégrés ne peuvent pas être modifiés, de sorte que lorsqu’un jeu intégré est activé, tous les badges du jeu sont ajoutés à l’application compliments. Si vous souhaitez ajouter des badges spécifiques à partir d’un ensemble intégré et en ignorer d’autres, recréez les badges que vous voulez utiliser comme badges personnalisés. Vous pouvez télécharger l’image de badge et rechercher les couleurs de texte et d’arrière-plan des badges à partir d’ensembles prédéfinis dans les tableaux ci-dessous.
 
 ### <a name="default-badges-assets"></a>Composants de badge par défaut
 
@@ -114,13 +114,13 @@ Les jeux de badges intégrés ne peuvent pas être modifiés, de sorte que lorsq
 |Nom de badge     |Fichier image  |Couleur du texte | Couleur d’arrière-plan |
 |---------------|------------|---------- |--------|
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|Extraordinaire        |[PNG impressionnant](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png>Awesome.PNG)</a>|#8283B2    |#D1EFF2|
+|Extraordinaire        |[PNG impressionnant](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Éco          |[Autocar PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Découragé        |[PNG recommandée](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |Créatrice       |[PNG Creative](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |Incluant      |[PNG inclusive](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Type cœur     |[Type coeur PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|Pointe     |[PNG au leadership](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.pn)|#419098    |#D2EAEC|
+|Pointe     |[PNG au leadership](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Optimisation       |[PNG optimisé](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |Solveur de problème |[Erreur « PNG » dans PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |Lecteur d’équipe    |[PNG du lecteur d’équipe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|

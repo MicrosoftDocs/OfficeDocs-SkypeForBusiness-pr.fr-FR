@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft teams pour simplifier, simplifier et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45374362"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47327230"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -115,6 +115,14 @@ Vous pouvez modifier les paramètres d’une stratégie par le biais de la page 
     - Cliquez sur le type de stratégie.  Par exemple, cliquez sur **stratégies de messagerie**.
 2. Cliquez sur la stratégie que vous voulez modifier. Les stratégies liées à un package de stratégie portent le même nom que le package de stratégie.
 3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
+
+## <a name="supported-policy-types"></a>Types de stratégie pris en charge
+
+- Messagerie
+- Réunions
+- Appel
+- Configuration de l’application
+- Événements en direct
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 

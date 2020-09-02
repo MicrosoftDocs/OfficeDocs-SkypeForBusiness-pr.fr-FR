@@ -17,12 +17,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255377"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321737"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -42,7 +42,11 @@ Pour les appels d’urgence dynamiques, les informations suivantes doivent se pr
 
    - S’il existe une correspondance entre le site paramètres du réseau, les stratégies d’appel d’urgence sont renvoyées au client teams depuis ce site. Pour plus d’informations sur les stratégies, voir [configurer des stratégies d’urgence](#configure-emergency-policies).
 
-   - S’il existe une correspondance LIS, un emplacement d’urgence à partir de l’élément réseau auquel le client teams est connecté est retourné au client Teams.
+   - S’il existe une correspondance LIS, un emplacement d’urgence à partir de l’élément réseau auquel le client teams est connecté est retourné au client Teams. La correspondance est effectuée dans l’ordre suivant, avec le premier résultat correspondant renvoyé :
+       - WAP
+       - Commutateur/port Ethernet
+       - Commutateur Ethernet
+       - Sous-réseau
 
 3. Lorsque le client teams effectue un appel d’urgence, l’emplacement d’urgence est transmis au réseau PSTN.
 

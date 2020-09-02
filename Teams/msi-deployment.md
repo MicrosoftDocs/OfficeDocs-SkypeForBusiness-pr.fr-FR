@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640829"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47323928"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -64,7 +64,8 @@ Le fichier MSI Teams placera un programme d’installation dans les fichiers pro
 
 N’utilisez pas le MSI pour déployer les mises à jour, car le client sera mis à jour automatiquement lorsqu’il détecte qu’une nouvelle version est disponible à partir du service. Pour redéployer le dernier programme d’installation, suivez le processus de redéploiement de MSI décrit ci-dessous. Si vous déployez une version antérieure du package MSI, le client effectue une mise à jour automatique (sauf dans les environnements VDI) lorsque l’utilisateur le permet. Si une version antérieure est déployée, le MSI déclenche une mise à jour de l’application avant que l’utilisateur ne puisse utiliser Teams.
 
-> [!Important]
+> [!IMPORTANT]
+> L’emplacement par défaut est C:\Program Files (x86) \Teams installer sur les systèmes d’exploitation 64 bits et C:\Program Files\Teams installer sur les systèmes d’exploitation 32 bits.
 > Nous vous déconseillons de modifier les emplacements d’installation par défaut, car cela pourrait rompre le flux de mise à jour. La présence d’une version plus ancienne peut empêcher les utilisateurs d’accéder au service.
 
 #### <a name="target-computer-requirements"></a>Configuration requise pour les ordinateurs cibles
