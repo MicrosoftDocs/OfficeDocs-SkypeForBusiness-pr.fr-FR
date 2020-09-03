@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: d19f3382fd64d48c4fa1067c0a8e6c8749a84596
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576916"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331639"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -77,12 +77,13 @@ Les barres de collaboration suivantes sont certifiées pour Microsoft teams :
 
 Vous trouverez ci-après les versions les plus récentes des applications du téléphone IP et du microprogramme Teams.
 
-#### <a name="release-date-june-262020"></a>Date de publication : 26 juin 2020
+#### <a name="release-date-august-312020"></a>Date de publication : 31 août 2020
 
 #### <a name="app-versions"></a>Versions de l’application
 
 | Version du produit | Date de publication  | Version de l’application Microsoft teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| #5 de mise à jour       | 31 août 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446. Product Versioncode : 216|
 | #4 de mise à jour       | 30 juin 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
 | #3 de mise à jour       | 13 2020  | .040801                     | .4715                  | 1,210               |
 
@@ -92,13 +93,16 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil        | Version du microprogramme     | Version du produit incluse |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | #4 de mise à jour                |
-| AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | #4 de mise à jour                |
-| Poly CCX400         | 1.0.1.0054           | #3 de mise à jour                |
-| Poly CCX500/CCX600  | 5.9.13.0306          | #3 de mise à jour                |
-| Yealink T55/T56/T58 | 58.15.0.107          | #4 de mise à jour                |
-| Yealink VP59        | 91.15.0.42           | #4 de mise à jour                |
-| Yealink CP960       | 73.15.0.103          | #4 de mise à jour                |
+| AudioCodes C448HD   | C450HD_TEAMS_1.5.203 | #5 de mise à jour                |
+| AudioCodes C450HD   | C450HD_TEAMS_1.5.203 | #5 de mise à jour                |
+|Affichage ThinkSmart Lenovo|CD-18781Y. 200809.091 |#5 de mise à jour                 |
+| Poly CCX400         | 6.2.21.1198          | #5 de mise à jour                |
+| Poly CCX500/CCX600  | 6.2.21.1198          | #5 de mise à jour                |
+| C60 de poly-trio       | 5.9.5.2686           | #5 de mise à jour                |
+| Yealink T55/T56/T58 | 58.15.0.110          | #5 de mise à jour                |
+| Yealink MP56        | 122.15.0.13          | #5 de mise à jour                |
+| Yealink VP59        | 91.15.0.44           | #5 de mise à jour                |
+| Yealink CP960       | 73.15.0.105          | #5 de mise à jour                |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>Informations de publication des produits pour les barres de collaboration
 
@@ -108,7 +112,8 @@ Vous trouverez ci-après les versions les plus récentes des applications de bar
 
 | Version du produit | Date de publication | Version de l’application Microsoft teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| #3 de mise à jour       | 13 2020 | .040901                     | .4715                  | .210                |
+| #2 de mise à jour       | 24 août 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. Product versioncode : 212|
+| #1 de mise à jour       | 13 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
@@ -116,7 +121,9 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 | 118.15.0.19      | #3 de mise à jour                |
+| Yealink VC210 + CP900 | 118.15.0.32      | #2 de mise à jour         |
+| Poly Studio X30 | 3.2.0.222012          | #2 de mise à jour         |
+| Poly Studio X50 | 3.2.0.222012          | #2 de mise à jour         |
 
 Pour plus d’informations sur les fonctionnalités prises en charge par ces appareils, voir l' [ensemble des fonctionnalités de téléphone de Microsoft teams](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 

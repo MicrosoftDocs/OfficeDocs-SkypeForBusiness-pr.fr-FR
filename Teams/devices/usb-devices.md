@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640909"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331629"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -74,10 +74,17 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Tableau mise à jour 2020*
+*Tableau mis à jour le 2020 août*
 
 | Fabricant        | Sous                                                     | Complète      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Casque 80 d’évolution                                          |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Jabra                |Casque 40 d’évolution                                          |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Jabra                |Faire évoluer le casque de 30 II                                       |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Jabra                |Faire évoluer 20 casque                                          |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|EPOS/Sennheiser      |Impact SC 660 avec USB-ED CC 01 MS CONNECTO                |8/20/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|EPOS/Sennheiser      |Impact SC 630 avec USB-ED CC 01 MS CONNECTO                |8/20/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|EPOS/Sennheiser      |Impact SC 260 avec USB-ED CC 01 MS CONNECTO                |8/20/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certifié pour Skype entreprise                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Certifié pour Skype entreprise                        |
 |Jabra                |Casque 75 d’évolution                                          |7/31/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |

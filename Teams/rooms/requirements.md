@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: En savoir plus sur la configuration requise pour la prise en charge des salles de Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cc5db49a105d113240d29b9f139993e8dd2bd99f
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 4d54414e58e34dc5e88a5fc68547a43041adf89c
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803916"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331649"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -65,15 +65,17 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 Go |128 Go |
   |[Logitech TAP avec Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 Go |
   |[Le centre de réflexion Logitech et le centre de M920 Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
+  |[Poly G10-T avec le centre de réflexion de Lenovo M920 minuscule](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 Go | 128 Go|
   |[Yealink MVC300 avec Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC500 avec Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC800 avec Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
   |[Yealink MVC900 avec Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 Go|128 Go|
   |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 Go | 128 Go|
-  [Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 Go | 128 Go|
-  [Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 Go | 128 Go|
-  [Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 Go | 128 Go|
-  ||||||
+  |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 Go | 128 Go|
+  
 
 > [!NOTE]
 > - Les processeurs Core M3 ne sont pas pris en charge.
@@ -128,15 +130,18 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC 1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
+|Yealink UVC30| 105.420.0.11 |  &#x2714; |
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Micro de table Shure MXA 310 ](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 avec micro de matrice de plafond Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
+|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 matrice de tableau ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [Haut-parleur plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> Matrice de tableau MXA310:4.1.41 </br> Intervenant MXN5W-C : 1.0.4 |
+|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 avec Intellimix plafond](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [Haut-parleur plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> MXA910:4.1.41 </br> Intervenant MXN5W-C : 1.0.4 |
 |[Biamp Tesira premier plan AVB VT4 DSP audio fixe](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Microphone Sennheiser TeamConnect Ceiling 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 son DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp parlé TCM-microphone au plafond XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Haut-parleur biamp Desono C-IC6 plafond](https://www.biamp.com/products/tesira-speakers)| Version de microcontrôle audio : 3,15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (MIC)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Version de microcontrôle audio : 3,15|
 |[Bose ControlSpace EX-440C DSP + </br>Amplificateur Bose P2600A AmpLink +</br> Microphone Sennheiser TCC2 Ceiling + </br> Haut-parleur Bose EdgeMax EM180 Ceiling](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink + Sennheiser TCC2 micro + </br> Bose DesignMax DM2C-P plafond](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
-||||||
-
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br> [Micro Sennheiser TCC2 plafond](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Haut-parleur plafond DesignMax DM2C-LP](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br> [Micro Sennheiser TCC2 plafond](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Haut-parleur plafond EdgeMax EM180](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
 
 
 &Dagger; Les clients peuvent choisir l’interface Dante ou le commutateur réseau recommandé par biamp/Sennheiser pour cette offre groupée.
