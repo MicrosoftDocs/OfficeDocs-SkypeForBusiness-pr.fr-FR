@@ -20,15 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Découvrez comment configurer Skype entreprise version Cloud Connector, une topologie locale minimale pour permettre l’intégration de votre infrastructure vocale locale aux services vocaux de système téléphonique (PBX Cloud) dans Skype entreprise online.
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219514"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358790"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configuration et gestion de Skype entreprise, version Cloud Connector
  
+> [!Important]
+> La version Cloud Connector sera déconnectée le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Découvrez comment configurer Skype entreprise version Cloud Connector, une topologie locale minimale pour permettre l’intégration de votre infrastructure vocale locale aux services vocaux de système téléphonique (PBX Cloud) dans Skype entreprise online. 
   
 Avant de commencer, passez en revue les conditions préalables dans [plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).

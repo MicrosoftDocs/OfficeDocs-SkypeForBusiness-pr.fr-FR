@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860805"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359400"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -34,7 +34,10 @@ Le routage direct du système Microsoft Phone vous permet de connecter un contr�
 ![Diagramme montrant la configuration de la connectivité PSTN locale](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration de la connectivité PSTN locale avec le client Microsoft teams")
 
   > [!NOTE]
-  > Skype entreprise Online vous permet également de jumeler une SBC fournie par l’utilisateur, mais cela nécessite un déploiement sur site de Skype entreprise Server ou une édition spéciale de Skype entreprise, appelée Cloud Connector, entre SBC et Microsoft Cloud. Ce scénario est connu sous le nom de voix hybride. En revanche, le routage direct autorise une connexion directe entre SBC et Microsoft Cloud. 
+  > Skype entreprise Online vous permet également de jumeler une SBC fournie par l’utilisateur, mais cela nécessite un déploiement sur site de Skype entreprise Server ou une édition spéciale de Skype entreprise, appelée Cloud Connector, entre SBC et Microsoft Cloud. Ce scénario est connu sous le nom de voix hybride. En revanche, le routage direct autorise une connexion directe entre SBC et Microsoft Cloud.
+
+> [!Important]
+> La version Cloud Connector Edition va supprimer le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau de téléphonie local à teams via le [routage direct](direct-routing-landing-page.md). 
 
 Avec le routage direct, vous pouvez connecter votre SBC à presque n’importe quel Trunk ou interconnexion de téléphonie avec un équipement RTC tiers. Le routage direct vous permet d’effectuer les opérations suivantes : 
 

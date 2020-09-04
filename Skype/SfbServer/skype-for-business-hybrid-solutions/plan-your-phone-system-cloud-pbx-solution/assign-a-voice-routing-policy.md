@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Résumé : consultez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs utilisant un système téléphonique avec une connectivité RTC locale.'
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221858"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359320"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affecter une stratégie de routage des communications vocales
  
+> [!Important]
+> Skype entreprise Online sera supprimé le 31 juillet 2021 après lequel le service ne sera plus accessible.  De plus, la connectivité PSTN entre votre environnement local, que ce soit via Skype entreprise Server ou Cloud Connector Edition et Skype entreprise Online, ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 **Résumé :** Lisez cette rubrique pour découvrir comment attribuer une stratégie de voix pour les utilisateurs utilisant un système téléphonique avec une connectivité RTC locale. 
   
 Une fois qu’un utilisateur est sur Skype entreprise Online et qu’il utilise un système téléphonique avec une connectivité RTC locale, deux stratégies de voix s’appliquent à celles-ci. L’une est une stratégie de routage des communications vocales locale que vous allez attribuer sur site. Cette stratégie peut être globale ou spécifique à l’utilisateur et définit les enregistrements d’utilisation PSTN associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.

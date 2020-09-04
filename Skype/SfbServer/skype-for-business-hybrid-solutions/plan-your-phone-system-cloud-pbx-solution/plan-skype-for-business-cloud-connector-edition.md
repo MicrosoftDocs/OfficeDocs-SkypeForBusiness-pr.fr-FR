@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Trouvez des informations sur Skype entreprise, version Cloud Connector, un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC locale avec un système téléphonique (PBX Cloud).
-ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ec96662e3dbe432ce8cebe7dc59004350124451e
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220084"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358990"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification de Skype entreprise, version Cloud Connector
+
+> [!Important]
+> La version Cloud Connector sera déconnectée le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Trouvez des informations sur Skype entreprise, version Cloud Connector, un ensemble de machines virtuelles (VM) qui mettent en œuvre une connectivité RTC locale avec un système téléphonique (PBX Cloud).
 
@@ -125,7 +128,7 @@ Les composants de Cloud Connector offrent les fonctionnalités suivantes :
 
 - **Contrôleur de domaine** -services de domaine Active Directory de Cloud Connector pour stocker tous les paramètres globaux et les groupes nécessaires au déploiement des composants de Cloud Connector. Une forêt est créée pour chaque appliance Cloud Connector. Le contrôleur de domaine ne doit pas avoir de connexions avec Active Directory de production. Les services Active Directory sont les suivants :
 
-  - Services de domaine Active Directory
+  - Services de domaine Active Directory
 
   - Services de certificats Active Directory pour émettre des certificats internes
 
@@ -242,7 +245,7 @@ Avant de déployer la version Cloud Connector, vérifiez que vous disposez des �
 
 - Si un serveur proxy est requis sur l’ordinateur hôte pour la navigation sur Internet, vous devez effectuer les modifications de configuration suivantes :
 
-  - Pour contourner le proxy, spécifiez les paramètres de proxy WinHTTP définis avec votre serveur proxy et une liste de contournement incluant le « 192.168.213 \* ». réseau utilisé par les services de gestion de Cloud Connector et le sous-réseau de Skype entreprise corpnet tel que défini dans votre fichier CloudConnector. ini. Dans le cas contraire, la connectivité de gestion échoue et empêche le déploiement et la récupération automatique de Cloud Connector. Voici un exemple de commande de configuration WinHTTP : netsh WinHTTP Set proxy "10.10.10.175:8080" Bypass-List = " \* . local ; 1. \* ; 172,20. \* ; 192.168.218. \* ' \< local \> ».
+  - Pour contourner le proxy, spécifiez les paramètres de proxy WinHTTP définis avec votre serveur proxy et une liste de contournement incluant le « 192.168.213 \* ». réseau utilisé par les services de gestion de Cloud Connector et le sous-réseau de Skype entreprise corpnet tel que défini dans votre fichier CloudConnector.ini. Dans le cas contraire, la connectivité de gestion échoue et empêche le déploiement et la récupération automatique de Cloud Connector. Voici un exemple de commande de configuration WinHTTP : netsh WinHTTP Set proxy "10.10.10.175:8080" Bypass-List = " \* . local ; 1. \* ; 172,20. \* ; 192.168.218. \* ' \<local\> ".
 
   - Spécifiez les paramètres de proxy par ordinateur et non par utilisateur. Sinon, les téléchargements Cloud Connector échouent. Vous pouvez spécifier les paramètres de proxy par ordinateur à l’aide d’une modification du registre ou du paramètre de stratégie de groupe comme suit :
 
@@ -258,14 +261,14 @@ Avant de déployer la version Cloud Connector, vérifiez que vous disposez des �
 
 - Pendant le déploiement, vous serez invité à créer un compte d’administrateur de domaine avec les autorisations nécessaires pour créer et publier la topologie dans le domaine Cloud Connector.
 
-- Les enregistrements DNS externes, qui sont définis dans le fichier CloudConnector. ini inclus dans le package d’installation :
+- Les enregistrements DNS externes, qui sont définis dans le fichier CloudConnector.ini inclus dans le package d’installation :
 
-  - Enregistrement DNS externe pour le service Edge d’accès du composant Edge ; par exemple, AP. \< Nom de domaine \> . Vous avez besoin d’un enregistrement par site RTC. Cet enregistrement doit contenir les adresses IP de tous les Edges de ce site.
+  - Enregistrement DNS externe pour le service Edge d’accès du composant Edge ; par exemple, AP. \<Domain Name\> . Vous avez besoin d’un enregistrement par site RTC. Cet enregistrement doit contenir les adresses IP de tous les Edges de ce site.
 
 - Une organisation Microsoft 365 ou Office 365 avec tous les enregistrements DNS et SRV requis créés.
 
     > [!IMPORTANT]
-    > Lorsque vous intégrez votre client à Cloud Connector Edition, l’utilisation du suffixe de domaine par défaut,. onmicrosoft.com, en tant que domaine SIP pour votre organisation, n’est pas prise en charge. > vous ne pouvez pas utiliser SIP. \< Nom \> de domaine en tant que nom de votre interface de proxy d’accès Edge de Cloud Connector car cet enregistrement DNS est utilisé par Microsoft 365 et Office 365.
+    > Lorsque vous intégrez votre client à Cloud Connector Edition, l’utilisation du suffixe de domaine par défaut,. onmicrosoft.com, en tant que domaine SIP pour votre organisation, n’est pas prise en charge. > vous ne pouvez pas utiliser SIP.\<Domain Name\> comme nom de votre interface de proxy d’accès Edge de Cloud Connector car cet enregistrement DNS est utilisé par Microsoft 365 et Office 365.
 
 - Un certificat pour le serveur Edge externe obtenu auprès d’une autorité de certification publique (CA).
 
@@ -343,8 +346,8 @@ Ce tableau indique les ports et les plages de ports permettant la communication 
 
 |**IP source**|**Adresse IP de destination**|**Port source**|**Port de destination**|
 |:-----|:-----|:-----|:-----|
-|Composant de médiation Cloud Connector  <br/> |Passerelle SBC/PSTN  <br/> |N'importe lequel  <br/> |TCP 5060\*\*  <br/> |
-|Passerelle SBC/PSTN  <br/> |Composant de médiation Cloud Connector  <br/> |N'importe lequel  <br/> |TCP 5068/TLS 5067  <br/> |
+|Composant de médiation Cloud Connector  <br/> |Passerelle SBC/PSTN  <br/> |N’importe lequel  <br/> |TCP 5060\*\*  <br/> |
+|Passerelle SBC/PSTN  <br/> |Composant de médiation Cloud Connector  <br/> |N’importe lequel  <br/> |TCP 5068/TLS 5067  <br/> |
 |Composant de médiation Cloud Connector  <br/> |Passerelle SBC/PSTN  <br/> |UDP 49 152-57 500  <br/> |Chaque\*\*\*  <br/> |
 |Passerelle SBC/PSTN  <br/> |Composant de médiation Cloud Connector  <br/> |Chaque\*\*\*  <br/> |UDP 49 152-57 500  <br/> |
 |Composant de médiation Cloud Connector  <br/> |Clients internes  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50000-50 019  <br/> Module  <br/> |
@@ -352,11 +355,11 @@ Ce tableau indique les ports et les plages de ports permettant la communication 
 |Clients internes  <br/> |Composant de médiation Cloud Connector  <br/> |TCP 50000-50 019  <br/> |TCP 49 152-57 500\*  <br/> |
 |Clients internes  <br/> |Composant de médiation Cloud Connector  <br/> |UDP 50000-50 019  <br/> |UDP 49 152-57 500\*  <br/> |
 
-\*Il s’agit de la plage de ports par défaut sur le composant de médiation. Pour un flux d’appels optimal, quatre ports par appel sont nécessaires.
+\* Il s’agit de la plage de ports par défaut sur le composant de médiation. Pour un flux d’appels optimal, quatre ports par appel sont nécessaires.
 
-\*\*Ce port doit être configuré sur la passerelle SBC/PSTN ; 5060 est un exemple. Vous pouvez configurer d’autres ports sur votre passerelle SBC/PSTN.
+\*\* Ce port doit être configuré sur la passerelle SBC/PSTN ; 5060 est un exemple. Vous pouvez configurer d’autres ports sur votre passerelle SBC/PSTN.
 
-\*\*\*Notez que vous pouvez également limiter la plage de ports sur votre SBC/passerelle si cela est autorisé par le fabricant de l’SBC/de la passerelle.
+\*\*\* Notez que vous pouvez également limiter la plage de ports sur votre SBC/passerelle si cela est autorisé par le fabricant de l’SBC/de la passerelle.
 
 Pour des raisons de sécurité, vous pouvez limiter la plage de ports pour le composant de médiation à l’aide de la cmdlet [Set-applet csmediationserver](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) .
 
@@ -382,15 +385,15 @@ Dans ce cas, tout le trafic multimédia vers Internet passe par le serveur Edge 
 
 |**IP source**|**Adresse IP de destination**|**Port source**|**Port de destination**|
 |:-----|:-----|:-----|:-----|
-|N'importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |TCP 80  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |UDP 53  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |TCP 53  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|N'importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |TCP 50000-000-59 999  <br/> |TCP 443  <br/> |
-|N'importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |TCP 50000-000-59 999  <br/> |TCP 443  <br/> |
+|N’importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |TCP 80  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |UDP 53  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |TCP 53  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
+|N’importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |TCP 50000-000-59 999  <br/> |TCP 443  <br/> |
+|N’importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |TCP 50000-000-59 999  <br/> |TCP 443  <br/> |
 
 Le tableau suivant indique les ports et les plages de ports permettant la communication entre le composant Edge de Cloud Connector et le pare-feu externe. Ce tableau indique la solution recommandée.
 
@@ -404,15 +407,15 @@ Dans ce cas, tout le trafic multimédia pour le point de terminaison sur Interne
 
 |**IP source**|**Adresse IP de destination**|**Port source**|**Port de destination**|
 |:-----|:-----|:-----|:-----|
-|N'importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |TCP 80  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |UDP 53  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |N'importe lequel  <br/> |TCP 53  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |TCP 50000-000-59 999  <br/> |N'importe lequel  <br/> |
-|Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |UDP 3478 ; UDP 50000-000-59 999  <br/> |N'importe lequel  <br/> |
-|N'importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |TCP 443 ; TCP 50000-000-59 999  <br/> |
-|N'importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N'importe lequel  <br/> |UDP 3478 ; UDP 50 000-59 999  <br/> |
+|N’importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |TCP 80  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |UDP 53  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |N’importe lequel  <br/> |TCP 53  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |TCP 50000-000-59 999  <br/> |N’importe lequel  <br/> |
+|Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |UDP 3478 ; UDP 50000-000-59 999  <br/> |N’importe lequel  <br/> |
+|N’importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |TCP 443 ; TCP 50000-000-59 999  <br/> |
+|N’importe lequel  <br/> |Interface externe du serveur Edge de Cloud Connector  <br/> |N’importe lequel  <br/> |UDP 3478 ; UDP 50 000-59 999  <br/> |
 
 ### <a name="host-internet-connectivity-requirements"></a>Configuration requise pour la connectivité Internet hôte
 <a name="BKMB_Ports"> </a>
@@ -423,7 +426,7 @@ L’ordinateur hôte doit être en mesure de joindre des ressources externes pou
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |80, 443  <br/> |TCP  <br/> |Liste de révocation de certificats (CRL)  <br/> |
-|Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour de Cloud Connector  <br/> Skype Entreprise Online  <br/> PowerShell d’administration  <br/> Windows Update  <br/> |
+|Sortant  <br/> |IPs hôte Cloud Connector  <br/> |indifférent  <br/> |indifférent  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour de Cloud Connector  <br/> Skype Entreprise Online  <br/> PowerShell d’administration  <br/> Windows Update  <br/> |
 
 Si des règles plus restrictives sont requises, reportez-vous aux URL de liste d’adresses autorisées suivantes :
 
@@ -435,7 +438,7 @@ Si des règles plus restrictives sont requises, reportez-vous aux URL de liste d
 
     Si vous avez besoin d’une exclusion de proxy pour cette destination, vous devrez l’ajouter à la liste de contournement WinHTTP.
 
-- Mise à jour de Cloud Connector : [Centre de téléchargement](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) et[https://download.microsoft.com](https://download.microsoft.com)
+- Mise à jour de Cloud Connector : [Centre de téléchargement](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) et [https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>Résolution de noms DNS pour le composant Edge
 <a name="BKMB_Ports"> </a>
@@ -444,7 +447,7 @@ Le composant Edge doit résoudre les noms externes des services Microsoft 365 ou
 
 Chaque composant Edge est un ordinateur multi-hébergé avec des interfaces internes et externes. Cloud Connector déploie des serveurs DNS sur le composant de contrôleur de domaine dans le réseau de périmètre. Vous pouvez pointer le serveur Edge vers le serveur DNS dans le périmètre pour toutes les résolutions de noms, mais vous devez activer le serveur DNS Cloud Connector pour résoudre les noms externes en définissant une zone DNS contenant un ou plusieurs enregistrements A DNS pour les requêtes externes qui font référence à des recherches de noms sur d’autres serveurs DNS publics.
 
-Dans le fichier. ini, si vous définissez le nom de domaine complet pour les passerelles à partir du même espace de domaine que votre domaine SIP, la zone faisant autorité pour ce domaine SIP sera créée sur le serveur DNS dans le périmètre. Si le serveur Edge pointe vers ce serveur DNS pour résoudre les noms, Edge ne résoudra jamais le _sipfederationtls. \< \>enregistrement DNS votre_domaine, qui est requis pour le flux d’appels. Dans ce cas, Microsoft vous recommande de fournir un serveur DNS sur l’interface externe de serveur Edge pour résoudre les recherches de noms Internet, et chaque composant Edge doit utiliser un fichier hôte pour résoudre les autres noms de composants Cloud Connector en adresses IP.
+Dans le fichier. ini, si vous définissez le nom de domaine complet pour les passerelles à partir du même espace de domaine que votre domaine SIP, la zone faisant autorité pour ce domaine SIP sera créée sur le serveur DNS dans le périmètre. Si le serveur Edge pointe vers ce serveur DNS pour résoudre les noms, Edge ne résoudra jamais le _sipfederationtls.\<yourdomain\> Enregistrement DNS, qui est requis pour le flux d’appels. Dans ce cas, Microsoft vous recommande de fournir un serveur DNS sur l’interface externe de serveur Edge pour résoudre les recherches de noms Internet, et chaque composant Edge doit utiliser un fichier hôte pour résoudre les autres noms de composants Cloud Connector en adresses IP.
 
 > [!NOTE]
 > Pour des raisons de sécurité, nous vous recommandons de ne pas faire pointer le serveur DNS Cloud Connector vers les serveurs internes dans le domaine de production pour la résolution de noms.
@@ -460,7 +463,7 @@ Tout d’abord, vous devez définir les paramètres de déploiement courants sui
 |Domaines SIP  <br/> |URI SIP utilisée par les utilisateurs de l’entreprise. Fournir tous les domaines SIP qui seront pris en charge par ce déploiement. Vous pouvez avoir plusieurs domaines SIP.  <br/> ||
 |Nombre de sites RTC  <br/> |Nombre de sites RTC que vous allez déployer.  <br/> ||
 
-Pour chaque site RTC que vous envisagez de déployer, vous devrez rassembler les informations suivantes avant de commencer le déploiement. Vous devrez fournir ces informations lors de la mise à jour du fichier CloudConnector. ini.
+Pour chaque site RTC que vous envisagez de déployer, vous devrez rassembler les informations suivantes avant de commencer le déploiement. Vous devrez fournir ces informations lors de la mise à jour du fichier CloudConnector.ini.
 
 Lors de la configuration des informations de passerelle, rappelez-vous des points suivants :
 
@@ -557,7 +560,7 @@ Chaque composant Edge nécessite un certificat d’une autorité de certificatio
   ```
 
 > [!NOTE]
-> Vous ne devez pas créer une entrée DNS externe pour SIP. \< sipdomain \> . com, car ce nom appartient au déploiement de Microsoft 365 ou Office 365.
+> Vous ne devez pas créer une entrée DNS externe pour SIP. \<sipdomain\> . com, car ce nom appartient au déploiement de Microsoft 365 ou Office 365.
 
 > [!NOTE]
 > Si vous souhaitez utiliser un certificat unique pour tous les pools de serveurs Edge déployés dans votre organisation et que vous ne pouvez pas utiliser un certificat de caractère générique tel que défini dans l’option 2, vous devez inclure le nom de domaine complet (FQDN) pour tous les pools de serveurs Edge déployés dans le nom de SAN du certificat.
@@ -581,7 +584,7 @@ Vous devrez ajouter sip.sipdomain.com pour chaque domaine SIP et le nom des pool
   ```
 
 > [!NOTE]
-> Vous ne devez pas créer une entrée DNS externe pour SIP. \< sipdomain \> . com, car ce nom appartient au déploiement de Microsoft 365 ou Office 365.
+> Vous ne devez pas créer une entrée DNS externe pour SIP. \<sipdomain\> . com, car ce nom appartient au déploiement de Microsoft 365 ou Office 365.
 
 À des fins de déploiement, vous pouvez utiliser le tableau suivant :
 

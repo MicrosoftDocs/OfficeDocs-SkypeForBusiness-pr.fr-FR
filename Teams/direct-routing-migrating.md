@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691360"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359420"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -95,6 +95,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 > Si un CsVoiceRoutingPolicy global est configuré, il est recommandé de supprimer les utilisations RTC associées à cette stratégie globale. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration à partir du système téléphonique Office 365 avec une connectivité PSTN en local via Cloud Connector Edition 
+
+> [!Important]
+> La version Cloud Connector Edition va supprimer le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau de téléphonie local à teams via le [routage direct](direct-routing-landing-page.md).
 
 Pour plus d’informations sur la migration à partir du système téléphonique avec une connectivité PSTN en local via Cloud Connector, voir :
 

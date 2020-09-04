@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597089"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359390"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -100,6 +100,9 @@ Pour prendre en charge des clients de plus petite taille qui ne disposent pas n�
 
 **Comment l’annonce du retrait de Skype Entreprise Online affecte-t-elle les organisations qui disposent de configurations hybrides (Skype Entreprise Online et Skype Entreprise Server) ?**<br>
 Les clients hybrides disposant de configurations en ligne et locale seront obligés de migrer les utilisateurs de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Les trajectoires de mise à niveau pour les configurations hybrides basées sur les principes de coexistence et d’interopérabilité sont conservées après le retrait de Skype Entreprise Online. Pour plus d’informations, accédez à la rubrique [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md) et [Comprendre la coexistence et l'interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+
+**Comment le retrait de Skype entreprise Online affectera-t-il les organisations avec des configurations Skype entreprise hybrides pour une connectivité PSTN (réseau téléphonique commuté) et des fonctionnalités du système téléphonique en ligne ?**<br>
+Certaines organisations ont fractionné les utilisateurs entre leur domicile local pour une connectivité PSTN et une connexion hébergée en ligne pour les fonctionnalités du système téléphonique. Après avoir accès à la fin de Skype entreprise Online, les organisations doivent migrer les utilisateurs en ligne vers Microsoft teams et connecter leur réseau téléphonique local aux équipes via le [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Les clients disposant d’un abonnement éligible sont encouragés à s’engager avec [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) pour l’assistance technique de Teams.
 

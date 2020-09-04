@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255437"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359300"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -77,7 +77,7 @@ Microsoft continue de fournir des fonctionnalités de standard automatique suppl
 La migration de la messagerie vocale est dirigée par Microsoft. Les administrateurs ne doivent rien faire, étant donné que la topologie hybride prérequise est établie. Microsoft effectue la validation requise et les tests afin de s’assurer que la migration de la messagerie vocale des utilisateurs n’est pas interrompue. Les administrateurs sont encouragés à effectuer des tests et des validations sur le même site. Voir le [plan de test suggéré et la validation post-migration pour les administrateurs](#suggested-test-plan-and-post-migration-validation-for-admins) pour un plan de test recommandé.
 
 > [!Note]
-> Lync Server 2010 n’est pas pris en charge. Si vous êtes dans un déploiement de serveur 2010, vous devez planifier une mise à niveau du serveur ou envisager de faire migrer vos utilisateurs vers Microsoft teams ou Skype entreprise online.  
+> Lync Server 2010 n’est pas pris en charge. Si vous êtes dans un déploiement de serveur 2010, vous devez planifier une mise à niveau du serveur ou envisager de faire migrer vos utilisateurs vers Microsoft Teams.  
 
 ### <a name="monitor-the-admin-notification-center"></a>Surveiller le centre de notification d’administration
 
@@ -165,13 +165,13 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités de l’appelant  | Détection de silence   |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : l’administrateur peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme protégée | v | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la durée limite d’enregistrement  |     | v | v    |
-| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | S/O    | v    |
+| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | N/A    | v    |
 | Media | Client-fonctionnalités d’administration | Modifier le nombre d’échecs d’entrée | CVM : préprogrammé préprogrammé sur 3 | N | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la langue par défaut |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la transcription |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | S/O    | v    |
+| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | N/A    | v    |
 | Media | Client-fonctionnalités d’administration | Masquage de transcription|  | v | N    |
 | Media | Client-fonctionnalités d’administration | Stratégie de messagerie vocale    |   | v | v    |
 | Media | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | v    |

@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de Cloud Connector avec votre organisation Microsoft 365 ou Office 365.
-ms.openlocfilehash: 2c65551ce75efce61f82d47ac2b9c16db555ab42
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bf5d8c4fb9684a205670701428fa8db30835a871
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221244"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359070"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Configuration de l’intégration de Cloud Connector à votre organisation Microsoft 365 ou Office 365
- 
+
+> [!Important] 
+> La version Cloud Connector sera déconnectée le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Découvrez comment configurer l’intégration de Cloud Connector avec votre organisation Microsoft 365 ou Office 365.
   
 Une fois l’installation de Skype entreprise, version Cloud Connector terminée, effectuez les étapes de cette section pour configurer votre déploiement et le connecter à votre organisation Microsoft 365 ou Office 365.
@@ -69,7 +72,7 @@ Ajoutez les enregistrements DNS suivants à votre organisation Microsoft 365 ou 
 
 Pour configurer la connectivité hybride entre votre déploiement Skype entreprise version Cloud Connector et votre organisation Microsoft 365 ou Office 365, exécutez l’applet de commande suivante dans une session PowerShell distante. Pour savoir comment établir une session PowerShell à distance, voir : [configurer votre ordinateur pour Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
   
-L’applet de commande définit le nom de domaine complet externe du serveur Edge d’accès. Dans la première des commandes, le \< nom de domaine complet du serveur Edge d’accès externe \> doit être celui du rôle de serveur Edge d’accès SIP. Par défaut, il doit s’agir de AP. \< Nom de domaine \> .
+L’applet de commande définit le nom de domaine complet externe du serveur Edge d’accès. Dans la première des commandes, le \<External Access Edge FQDN\> doit être celui du rôle de serveur Edge d’accès SIP. Par défaut, il doit s’agir de AP. \<Domain Name\> .
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -140,7 +143,7 @@ Pour désactiver les appels internationaux au niveau de chaque utilisateur, exé
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-Pour réactiver les appels internationaux au niveau de chaque utilisateur une fois qu’il a été désactivé, exécutez la même cmdlet, mais modifiez la valeur de **PolicyName** sur *InternationalCallsAllowed* .
+Pour réactiver les appels internationaux au niveau de chaque utilisateur une fois qu’il a été désactivé, exécutez la même cmdlet, mais modifiez la valeur de **PolicyName** sur *InternationalCallsAllowed*  .
   
 ## <a name="assign-users-to-pstn-sites"></a>Affecter des utilisateurs à des sites PSTN
 
@@ -180,7 +183,7 @@ Lorsqu’un appel P2P est remonté vers une conférence RTC, le serveur de conf�
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Démarrez une session PowerShell client Skype entreprise à l’aide de vos informations d’identification d’administrateur client Skype entreprise, puis exécutez l’applet de commande suivante pour définir le nom de domaine complet du serveur de médiation et du serveur Edge sur ce compte d’utilisateur, en remplaçant \< DisplayName \> par le nom complet de l’utilisateur pour le compte que vous avez créé à l’étape 1 :
+3. Démarrez une session PowerShell client Skype entreprise à l’aide de vos informations d’identification d’administrateur client Skype entreprise, puis exécutez l’applet de commande suivante pour définir le serveur de médiation et le nom de domaine complet du serveur Edge sur ce compte d’utilisateur, en remplaçant \<DisplayName\> par le nom d’affichage de l’utilisateur pour le compte que vous avez créé à l’étape 1 :
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
@@ -188,9 +191,9 @@ Lorsqu’un appel P2P est remonté vers une conférence RTC, le serveur de conf�
 
     Pour Identity, utilisez le nom d’affichage du compte d’utilisateur que vous avez créé pour ce serveur de médiation.
     
-    Pour *MediationServerFQDN* , utilisez le nom de domaine complet interne défini pour votre serveur de médiation.
+    Pour  *MediationServerFQDN*  , utilisez le nom de domaine complet interne défini pour votre serveur de médiation.
     
-    Pour *EdgeServerExternalFQDN* , utilisez le nom de domaine complet externe défini pour le proxy d’accès du serveur Edge. S’il existe plusieurs sites RTC Cloud Connector, choisissez le nom de domaine complet du proxy d’accès du serveur Edge affecté au site où se trouve le serveur de médiation.
+    Pour  *EdgeServerExternalFQDN*  , utilisez le nom de domaine complet externe défini pour le proxy d’accès du serveur Edge. S’il existe plusieurs sites RTC Cloud Connector, choisissez le nom de domaine complet du proxy d’accès du serveur Edge affecté au site où se trouve le serveur de médiation.
     
 4. S’il existe plusieurs serveurs de médiation Cloud Connector (multisite, haute disponibilité), répétez les étapes précédentes pour chacun d’eux.
     

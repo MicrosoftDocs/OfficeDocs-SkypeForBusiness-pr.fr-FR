@@ -1,5 +1,5 @@
 ---
-title: Planifier un système téléphonique avec une connectivité RTC locale dans Skype entreprise Server
+title: Planifier un système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Découvrez les considérations relatives à la planification pour le système téléphonique (PBX Cloud) avec une connectivité RTC locale.
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220235"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358810"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier un système téléphonique avec une connectivité RTC locale dans Skype entreprise Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier un système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server
+
+> [!Important]
+> Skype entreprise Online sera supprimé le 31 juillet 2021 après lequel le service ne sera plus accessible.  De plus, la connectivité PSTN entre votre environnement local, que ce soit via Skype entreprise Server ou Cloud Connector Edition et Skype entreprise Online, ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Découvrez les considérations relatives à la planification pour le système téléphonique (PBX Cloud) avec une connectivité RTC locale.
 
@@ -59,7 +62,7 @@ En déployant un système téléphonique avec une connectivité RTC sur site, vo
 
 Vous disposez peut-être d’une fonctionnalité personnalisée ou d’un complément principal sur votre système PBX hérité, tel qu’un centre d’appels. Si la fonctionnalité personnalisée n’est actuellement pas disponible sur le système téléphonique, vous devez laisser ces utilisateurs qui ont besoin de cette fonctionnalité personnalisée sur site avec le PBX hérité, et uniquement transférer les utilisateurs qui n’ont pas besoin d’accéder à la fonctionnalité personnalisée vers le système téléphonique avec une connectivité RTC locale.
 
-Pour obtenir la liste des PBX hérités qui interagissent directement avec Skype entreprise Server 2015, voir [infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si votre PBX ne figure pas sur cette liste, vous pouvez utiliser un contrôleur de frontière de session pour connecter votre système PBX avec le système téléphonique dans Skype entreprise online.
+Pour obtenir la liste des PBX hérités qui interagissent directement avec Skype entreprise Server 2015, voir  [infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si votre PBX ne figure pas sur cette liste, vous pouvez utiliser un contrôleur de frontière de session pour connecter votre système PBX avec le système téléphonique dans Skype entreprise online.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Considérations relatives au réseau pour la qualité et les performances
 
@@ -83,11 +86,11 @@ Avant de pouvoir configurer le système téléphonique avec une connectivité RT
 
 | **Rôle serveur**                                       | **Versions prises en charge\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
-| Serveur Edge de Fédération\*\*  <br/>                            | Skype Entreprise Server 2015  <br/>                                                                              |
+| Serveur Edge de Fédération\*\*  <br/>                            | Skype Entreprise Server 2015  <br/>                                                                              |
 | Serveur de pool interne de l’itinéraire de Fédération du tronçon suivant  <br/> | Skype entreprise Server 2015, mise à jour cumulative de mars 2016 6.0.9319.235 ou ultérieure (frontal ou directeur)  <br/> |
-| Serveur d’utilisateurs frontal  <br/>                          | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
-| Serveur Edge  <br/>                                    | Skype Entreprise Server 2015  <br/>                                                                              |
-| Serveur de médiation  <br/>                               | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| Serveur d’utilisateurs frontal  <br/>                          | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| Serveur Edge  <br/>                                    | Skype Entreprise Server 2015  <br/>                                                                              |
+| Serveur de médiation  <br/>                               | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 
 \*Les versions minimales prises en charge sont les suivantes :
 

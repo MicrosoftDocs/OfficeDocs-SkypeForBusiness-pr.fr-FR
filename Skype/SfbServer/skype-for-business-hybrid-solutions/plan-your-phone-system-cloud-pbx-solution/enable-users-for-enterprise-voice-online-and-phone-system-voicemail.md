@@ -1,5 +1,5 @@
 ---
-title: Activer les utilisateurs pour voix entreprise Online et messagerie vocale du système téléphonique
+title: Activer la messagerie vocale pour les utilisateurs de la messagerie vocale Enterprise Online et du système téléphonique
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer les services vocaux de téléphonie pour vos utilisateurs de Skype entreprise.
-ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221104"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359180"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Activer les utilisateurs pour voix entreprise Online et messagerie vocale du système téléphonique
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Activer la messagerie vocale pour les utilisateurs de la messagerie vocale Enterprise Online et du système téléphonique
  
+> [!Important]
+> Skype entreprise Online sera supprimé le 31 juillet 2021 après lequel le service ne sera plus accessible.  De plus, la connectivité PSTN entre votre environnement local, que ce soit via Skype entreprise Server ou Cloud Connector Edition et Skype entreprise Online, ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Découvrez comment activer les services vocaux de téléphonie pour vos utilisateurs de Skype entreprise.
   
 La dernière étape du déploiement d’un système téléphonique avec une connectivité RTC sur site consiste à activer vos utilisateurs pour le système téléphonique et la messagerie vocale. Pour activer ces fonctionnalités, vous devez être un utilisateur doté du rôle d’administrateur général et être en mesure d’exécuter PowerShell à distance. Vous devez suivre les étapes décrites dans cette rubrique pour tous les comptes d’utilisateur pour lesquels la fonctionnalité voix entreprise n’est pas encore activée pour Skype entreprise online.

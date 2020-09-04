@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Découvrez comment déployer un seul site RTC dans la version Cloud Connector.
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220534"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358930"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Déployer un seul site dans Cloud Connector
  
+> [!Important]
+> La version Cloud Connector sera déconnectée le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Découvrez comment déployer un seul site RTC dans la version Cloud Connector.
   
 Vous pouvez déployer Skype entreprise, version Cloud Connector avec ou sans prise en charge de la haute disponibilité (HA). Si vous souhaitez activer la haute disponibilité, vous devez déployer au moins deux Appliances au sein d’un site. Vous pouvez également convertir une appliance existante pour prendre en charge la haute disponibilité après son déploiement.

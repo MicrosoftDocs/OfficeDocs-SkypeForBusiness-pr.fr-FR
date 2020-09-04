@@ -16,21 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’une version de Skype entreprise et du déploiement de la version ultérieure de Skype entreprise.
-ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220294"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359110"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d’un déploiement Cloud Connector existant
- 
+
+> [!Important]
+> La version Cloud Connector sera déconnectée le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’une version de Skype entreprise et du déploiement de la version ultérieure de Skype entreprise. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>Modifier la configuration d’un seul site
 <a name="BKMK_SIngleSite"> </a>
 
-S’il n’y a qu’une seule Appliance dans le site, lorsque vous souhaitez modifier les paramètres de configuration après le déploiement de l’appliance, vous pouvez modifier le fichier CloudConnector. ini et relancer le déploiement.
+S’il n’y a qu’une seule Appliance dans le site, lorsque vous souhaitez modifier les paramètres de configuration après le déploiement de l’appliance, vous pouvez modifier le fichier CloudConnector.ini et relancer le déploiement.
   
 1. Exécutez l’applet de commande suivante pour désinstaller toutes les machines virtuelles existantes sur le serveur hôte : 
     
@@ -44,7 +47,7 @@ S’il n’y a qu’une seule Appliance dans le site, lorsque vous souhaitez mod
    Unregister-CcAppliance
    ```
 
-3. Mettez à jour le fichier CloudConnector. ini dans le répertoire de l’appliance.
+3. Mettez à jour le fichier CloudConnector.ini dans l’annuaire d’appliances.
     
 4. Exécutez l’applet de commande suivante pour mettre à jour la configuration : (cette étape s’applique uniquement à la version 2 ; pour les versions antérieures, passez à l’étape suivante.)
     
@@ -64,7 +67,7 @@ S’il n’y a qu’une seule Appliance dans le site, lorsque vous souhaitez mod
    Install-CcAppliance
    ```
 
-S’il y a plusieurs Appliances dans le site, vous devrez suivre ces étapes, modifier le fichier CloudConnector. ini et redéployer les appliances une par une.
+S’il y a plusieurs Appliances dans le site, vous devrez suivre ces étapes, modifier le fichier CloudConnector.ini et redéployer les appliances une par une.
   
 1. Exécutez l’applet de commande suivante pour désinstaller toutes les machines virtuelles existantes sur l’appliance actuelle : 
     
@@ -78,7 +81,7 @@ S’il y a plusieurs Appliances dans le site, vous devrez suivre ces étapes, mo
    Unregister-CcAppliance
    ```
 
-3. Mettez à jour le fichier CloudConnector. ini dans le répertoire de l’appliance.
+3. Mettez à jour le fichier CloudConnector.ini dans l’annuaire d’appliances.
     
 4. Exécutez l’applet de commande suivante pour mettre à jour la configuration : (cette étape s’applique uniquement à la version 2 ; pour les versions antérieures, passez à l’étape suivante.)
     
@@ -175,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Cette section s’applique à Cloud Connector version 2,0 et versions ultérieures. 
   
-Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . Xml». Lorsque le mot de passe sur le serveur hôte est modifié, vous devez mettre à jour les informations d’identification stockées localement.
+Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML». Lorsque le mot de passe sur le serveur hôte est modifié, vous devez mettre à jour les informations d’identification stockées localement.
   
 Pour mettre à jour les informations d’identification stockées localement sur le matériel de Cloud Connector, utilisez les cmdlets [Get-applet cccredential](get-cccredential.md) et [Set-applet cccredential](set-cccredential.md) et procédez comme suit :
   
@@ -191,7 +194,7 @@ Pour mettre à jour les informations d’identification stockées localement sur
     
 3. Redémarrez le serveur hôte.
     
-4. Supprimez le fichier suivant : "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . Xml».
+4. Supprimez le fichier suivant : "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML».
     
 5. Lancez une console PowerShell en tant qu’administrateur, puis exécutez la commande « Register-applet ccappliance-local » pour entrer de nouveau les mots de passe à la suite de la description. Veillez à entrer le même mot de passe que celui que vous avez entré auparavant pour le déploiement de Cloud Connector.
     
@@ -215,7 +218,7 @@ Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceServi
 > [!NOTE]
 > Cette section s’applique à Cloud Connector version 2.0.1 et versions ultérieures. 
   
-Le service Cloud Connector exécute le service de gestion de Cloud Connector. Le compte CceService est créé pendant le déploiement de Cloud Connector Edition et stocké dans les fichiers suivants : "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml» et «%SystemDrive%\Programdata\Cloudconnector\credentials.. CceService. Xml».
+Le service Cloud Connector exécute le service de gestion de Cloud Connector. Le compte CceService est créé pendant le déploiement de Cloud Connector Edition et stocké dans les fichiers suivants : "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML» et « % SystemDrive% \Programdata\Cloudconnector\credentials..CceService.xml ».
   
 Pour vous assurer que toutes les appliances peuvent accéder au partage de l’annuaire de sites, le mot de passe du compte CceService doit être le même sur toutes les appliances déployées dans le site. Gardez les éléments suivants à l’esprit :
   
@@ -271,11 +274,11 @@ Pour chaque appliance qui appartient au même site RTC, vous devez spécifier le
     
     - CcLockFile
     
-    - \<Nom de domaine complet du pool SIP externe Site_ Edge\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-    - \<Nom de domaine complet du pool SIP externe Tenant_ Edge\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-    - \<Nom de domaine complet du pool SIP externe TenantConfigLock_ Edge\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>Ajouter un nouveau domaine SIP
 <a name="BKMK_UpdatePassword"> </a>
