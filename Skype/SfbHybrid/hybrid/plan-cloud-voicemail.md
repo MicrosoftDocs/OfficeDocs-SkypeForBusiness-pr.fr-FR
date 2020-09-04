@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique Configuring Cloud vocaux.
-ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472253"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359130"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux
 
@@ -36,6 +36,9 @@ La messagerie vocale Cloud prend la place de la messagerie unifiée Exchange pou
 - Prise en charge des boîtes aux lettres Exchange sur site ou dans le Cloud
 
 - Utilisation des messages d’accueil de la messagerie unifiée Exchange Online
+
+> [!Important]
+> Skype entreprise Online sera supprimé le 31 juillet 2021 après que les utilisateurs ne pourront plus accéder à la messagerie vocale dans leur boîte aux lettres Exchange via le client Skype entreprise online.
 
 Pour plus d’informations sur la comparaison des fonctionnalités, reportez-vous à la rubrique [plan for Skype for Business Server et Exchange Server Migration](plan-um-migration.md).
 
@@ -92,8 +95,8 @@ L’interopérabilité des versions et les topologies prises en charge pour la m
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype entreprise Server 2019 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
-| Skype Entreprise Server 2015 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
+| Skype Entreprise Server 2019 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
+| Skype Entreprise Server 2015 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
 | Lync Server 2013 <br>  | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Non pris en charge | Messagerie vocale cloud |
 
 Microsoft recommande les chemins de migration suivants :

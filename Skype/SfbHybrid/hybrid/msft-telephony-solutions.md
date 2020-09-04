@@ -1,5 +1,5 @@
 ---
-title: Solutions de téléphonie Microsoft
+title: Détails sur les solutions téléphoniques Microsoft Telephony
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Décrit les solutions de téléphonie Microsoft.
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221324"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359100"
 ---
-# <a name="microsoft-telephony-solutions"></a>Solutions de téléphonie Microsoft
+# <a name="microsoft-telephony-solutions"></a>Détails sur les solutions téléphoniques Microsoft Telephony
 
 Microsoft prend en charge plusieurs options lorsque vous commencez votre transition vers teams dans le Cloud de Microsoft. Cet article vous aide à décider quelle solution de téléphonie Microsoft (système téléphonique dans le Cloud ou voix entreprise en local) est appropriée pour les utilisateurs de votre organisation, et comment votre organisation peut se connecter au réseau téléphonique commuté (PSTN). 
 
@@ -101,7 +101,7 @@ Posez-vous les questions suivantes pour déterminer la meilleure solution pour v
 - Votre système PBX actuel offre-t-il des fonctionnalités uniques essentielles à votre entreprise ?
 - Certains ou l’ensemble de vos utilisateurs nécessitent-ils des fonctionnalités qui ne sont actuellement pas proposées dans le système téléphonique ?
 
-Remarques :
+Veuillez prendre en compte les éléments suivants:
 
 - Les quatre options peuvent coexister les unes avec les autres au cas où vous devriez concevoir une solution pour un environnement complexe ou la gestion de la migration en plusieurs étapes.
 - Le système téléphonique avec propre opérateur via Skype entreprise Server ou Cloud Connector Edition ne peut être déployé qu’avec Skype entreprise Server ou Cloud Connector. La coexistence de Skype entreprise Server et de Cloud Connector n’est pas prise en charge dans une seule société.
@@ -126,7 +126,7 @@ Le système téléphonique avec forfait d’appels est une option tout en nuage 
 | Nécessite un contrat avec un opérateur tiers      | Non   |
 | Nécessite le déploiement et la maintenance de Skype entreprise Server ou de Cloud Connector Edition | Non |
 
-\*Pour plus d’informations sur les pays où le plan d’appels est disponible, consultez la rubrique [disponibilité du pays et de la région pour l’audioconférence et les forfaits d’appels](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+\* Pour plus d’informations sur les pays où le plan d’appels est disponible, consultez la rubrique [disponibilité du pays et de la région pour l’audioconférence et les forfaits d’appels](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
 Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée :
@@ -158,7 +158,7 @@ Cette option fournit un système Microsoft Phone dans le Cloud avec pratiquement
 | Nécessite un contrat avec un opérateur tiers *      | Oui   |
 | Nécessite le déploiement et la maintenance de Skype entreprise Server ou de Cloud Connector Edition | Non |
 
-\*Sauf si elle est déployée en tant qu’option pour fournir une connexion à un PBX tiers, des appareils analogiques ou d’autres équipements de téléphonie pour les utilisateurs qui se trouvent sur un système téléphonique avec forfaits d’appels.
+\* Sauf si elle est déployée en tant qu’option pour fournir une connexion à un PBX tiers, des appareils analogiques ou d’autres équipements de téléphonie pour les utilisateurs qui se trouvent sur un système téléphonique avec forfaits d’appels.
 
 Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée :
 
@@ -172,6 +172,9 @@ Pour plus d’informations, consultez [qu’est-ce que le système téléphoniqu
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Système téléphonique avec propre opérateur via Skype entreprise Server ou Cloud Connector Edition
+
+> [!Important]
+> Skype entreprise Online sera supprimé le 31 juillet 2021 après lequel le service ne sera plus accessible.  De plus, la connectivité PSTN entre votre environnement local, que ce soit via Skype entreprise Server ou Cloud Connector Edition et Skype entreprise Online, ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Cette option permet au système Microsoft Phone dans le Cloud de se connecter à un réseau téléphonique local pour les utilisateurs de Skype entreprise online.
 

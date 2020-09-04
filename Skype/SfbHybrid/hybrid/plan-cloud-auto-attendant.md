@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019
-ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221294"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359080"
 ---
-# <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques Cloud
+# <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques cloud
 
 Le standard automatique utilisé avec la messagerie unifiée Exchange (Exchange Server 2013 ou Exchange Server 2016) n’est plus disponible dans Exchange Server 2019 ou Exchange Online. Si votre implémentation de Skype entreprise Server 2019 s’intègre à l’une de ces versions d’Exchange, vous devez utiliser les fonctionnalités vocales Cloud en ligne associées au système téléphonique. Reportez-vous à la rubrique [plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) pour plus d’informations sur le transfert des services de messagerie unifiée Exchange hébergés sur exchange Server 2013 et 2016 vers le Cloud.
 
@@ -49,7 +49,7 @@ La configuration requise suivante suppose que vous ayez déjà déployé Skype e
 
 - Si vous utilisez déjà la messagerie unifiée Exchange en ligne ou en local et que vous effectuez une mise à niveau vers Skype entreprise 2019, vous devrez capturer la structure de vos standards automatiques et les recréer dans le Cloud à l’aide de standards automatiques Cloud. Pour plus d’informations, consultez la rubrique [migration d’un standard automatique de messagerie unifiée Exchange ou d’une file d’attente d’appels vers un système téléphonique](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
-- Pour une nouvelle configuration de standards automatiques Cloud, suivez les étapes décrites dans [Configure Resource Accounts](configure-onprem-ra.md).
+- Pour une nouvelle configuration de standards automatiques Cloud, suivez les étapes décrites dans  [Configure Resource Accounts](configure-onprem-ra.md).
 
 Outre la configuration requise ci-dessus, les conditions suivantes doivent être configurées pour se connecter au service de standard automatique Cloud Microsoft :
 
@@ -85,7 +85,7 @@ Actuellement, nous ne prenons pas en charge la migration automatisée vers le Cl
 1. Utilisez les commandes PowerShell d’administration Exchange pour examiner la structure de l’ancien système de standard automatique, y compris les standards automatiques imbriqués et les files d’attente d’appels.  
 2. Créez des copies de scripts de synthèse vocale ou de messages enregistrés associés à chaque nœud de standard automatique de messagerie unifiée.
 3. Créez des points de terminaison de site pour chaque nœud de standard automatique, y compris en affectant des numéros de téléphone de test et des licences aux objets. Notez que vous pouvez désormais attribuer des numéros de téléphone locaux aux licences utilisées par les services en ligne, tels que le système téléphonique.
-4. Implémentez un nouveau service de standard automatique Cloud avec Skype entreprise Online et le système téléphonique. Voir [Configure Resource Accounts](configure-onprem-ra.md) for Implementation Details. Au fur et à mesure, téléchargez les scripts de synthèse vocale ou les messages enregistrés associés à chaque nœud de standard automatique de messagerie unifiée.
+4. Implémentez un nouveau service de standard automatique Cloud avec Microsoft teams et le système téléphonique. Voir [Configure Resource Accounts](configure-onprem-ra.md) for Implementation Details. Au fur et à mesure, téléchargez les scripts de synthèse vocale ou les messages enregistrés associés à chaque nœud de standard automatique de messagerie unifiée.
 5. Testez la fonctionnalité du standard automatique Cloud.
 6. Réaffectez le numéro de téléphone affecté à l’ancien standard automatique de messagerie unifiée Exchange au standard automatique de Cloud principal nouvellement créé.
 
@@ -102,9 +102,9 @@ Lorsque vous disposez d’une structure solide qui répond à vos besoins et d�
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de la migration de Skype entreprise Server et d’Exchange Server](plan-um-migration.md)
+[Planifier la migration pour Skype Entreprise Server et Exchange Server](plan-um-migration.md)
 
-[Configurer des comptes de ressources](configure-onprem-ra.md)
+[Configurer des comptes de ressource](configure-onprem-ra.md)
 
 [Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 

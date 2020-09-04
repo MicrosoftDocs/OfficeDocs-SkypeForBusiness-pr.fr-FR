@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Considérations relatives à la planification de la mise en œuvre d’une connectivité hybride entre Skype entreprise Server et Skype entreprise Online ou Teams.
-ms.openlocfilehash: 3a7df5ef36a7d0e6bf58c1784edb0bbe0baa9409
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221274"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359060"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planification de la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365
 
@@ -37,6 +37,9 @@ Vous devez également configurer la connectivité hybride et déplacer tous les 
 Cette rubrique décrit la configuration requise pour l’infrastructure et le système, dont vous aurez besoin pour configurer une connectivité hybride entre votre déploiement Skype entreprise Server existant et teams ou Skype entreprise online.
 
 Une fois que vous avez lu cette rubrique et que vous êtes prêt à configurer la connectivité hybride, reportez-vous à [configurer la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md). Les rubriques relatives à la configuration fournissent des instructions détaillées sur la configuration de la connectivité hybride entre votre déploiement local et teams ou Skype entreprise online.
+
+> [!Important]
+> Skype entreprise Online sera supprimé le 31 juillet 2021 après lequel le service ne sera plus accessible.  De plus, la connectivité PSTN entre votre environnement local, que ce soit via Skype entreprise Server ou Cloud Connector Edition et Skype entreprise Online, ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 ## <a name="about-shared-sip-address-space-functionality"></a>À propos de la fonctionnalité d’espace d’adressage SIP partagé
 
@@ -84,8 +87,8 @@ Après avoir configuré la connectivité hybride, vous pouvez déplacer des util
 
 Pour configurer votre déploiement hybride avec **teams ou Skype entreprise Online**, vous devez disposer de l’une des topologies prises en charge suivantes :
 
-- Un déploiement de Skype entreprise Server 2019 avec tous les serveurs exécutant Skype entreprise Server 2019.
-- Un déploiement de Skype entreprise Server 2015 avec tous les serveurs exécutant Skype entreprise Server 2015.
+- Déploiement de Skype Entreprise Server 2019 avec tous les serveurs exécutant Skype Entreprise Server 2019.
+- Déploiement de Skype Entreprise Server 2015 avec tous les serveurs exécutant Skype Entreprise Server 2015.
 - Un déploiement Lync Server 2013 avec tous les serveurs exécutant Lync Server 2013.  Toutefois, si la connectivité vocale hybride est requise, vous devez utiliser une topologie de version mixte, comme indiqué ci-dessous.
 - Un déploiement avec au maximum 2 versions de serveur différentes, comme décrit ci-dessous :
   - Skype entreprise Server 2015 et Skype entreprise Server 2019
@@ -149,7 +152,7 @@ En outre, vous devez vous assurer que la résolution DNS décrite dans le tablea
 
 |Enregistrement DNS  <br/> |Résolu par  <br/> |Enregistrement DNS requis  <br/> |
 |:-----|:-----|:-----|
-|Enregistrement DNS SRV pour _sipfederationtls. _tcp. \< sipdomain.com \> pour tous les domaines SIP pris en charge résolus pour accéder à l’adresse IP externe du serveur Edge (s)  <br/> |Serveur (s) Edge  <br/> |Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit indiquer où acheminer le trafic fédéré pour le domaine SIP qui est réparti entre local et en ligne.  <br/> Doit utiliser une correspondance de nom DNS stricte entre le domaine dans le nom d’utilisateur et l’enregistrement SRV.  <br/> |
+|Enregistrement DNS SRV pour _sipfederationtls. _tcp.\<sipdomain.com\> pour tous les domaines SIP pris en charge résolus pour accéder à l’adresse IP externe du serveur Edge (s)  <br/> |Serveur (s) Edge  <br/> |Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit indiquer où acheminer le trafic fédéré pour le domaine SIP qui est réparti entre local et en ligne.  <br/> Doit utiliser une correspondance de nom DNS stricte entre le domaine dans le nom d’utilisateur et l’enregistrement SRV.  <br/> |
 |Enregistrements DNS A (s) pour le nom de domaine complet du service de conférence Web Edge, par exemple webcon.contoso.com résolution des adresses IP externes Edge de conférence Web  <br/> |Ordinateurs des utilisateurs connectés au réseau d’entreprise interne  <br/> |Permettre aux utilisateurs en ligne de présenter ou d’afficher le contenu des réunions hébergées sur site. Le contenu inclut des fichiers PowerPoint, des tableaux blancs, des sondages et des notes partagées.  <br/> |
 
 En fonction de la configuration de DNS dans votre organisation, il se peut que vous deviez ajouter ces enregistrements à la zone DNS hébergée interne pour les domaines SIP correspondants afin de fournir la résolution DNS interne à ces enregistrements.

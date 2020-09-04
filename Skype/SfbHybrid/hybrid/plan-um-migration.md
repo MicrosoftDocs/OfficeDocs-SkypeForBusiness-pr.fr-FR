@@ -1,5 +1,5 @@
 ---
-title: Planification de la migration de Skype entreprise Server et d’Exchange Server
+title: Planifier la migration pour Skype Entreprise Server et Exchange Server
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers la dernière version ou Skype entreprise Online ou Exchange Online.
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221264"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359040"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planification de la migration de Skype entreprise Server et d’Exchange Server
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planifier la migration pour Skype Entreprise Server et Exchange Server
 
-Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers la dernière version ou Skype entreprise Online ou Exchange Online. Ce que vous pouvez migrer et quand, dépend fortement de ce que vous avez déjà configuré dans votre organisation.
+Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers Exchange Online. Ce que vous pouvez migrer et quand, dépend fortement de ce que vous avez déjà configuré dans votre organisation.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Modifications apportées aux fonctionnalités dans Exchange 2019 et Skype entreprise Server 2019
 
