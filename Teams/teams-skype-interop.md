@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: En savoir plus sur les fonctionnalités d’interopérabilité entre les utilisateurs teams au sein de votre organisation et les utilisateurs de Skype.
 localization_priority: Normal
-ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
-ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
+ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44859639"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395363"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interopérabilité entre teams et Skype
 
@@ -63,6 +63,10 @@ Les utilisateurs de Skype bloqués, ainsi que les autres personnes et les numér
 - Les conversations sont une seule personne à la fois. Les discussions de groupe ne sont pas prises en charge.
 - Les utilisateurs de teams et les utilisateurs de Skype ne peuvent pas voir la présence de chacun d’eux.
 - La recherche d’utilisateurs Skype à l’aide de leur pseudo Skype ou de leur numéro de téléphone n’est pas prise en charge.
+- Les utilisateurs de Skype ne peuvent pas appeler le numéro d’un autre utilisateur, le numéro d’un délégué ou le numéro de réseau téléphonique commuté (PSTN) de l’équipe.  Seule la boîte vocale est prise en charge.
+- La réaffectation d’interopérabilité, les appels de groupe et les réunions ne sont pas pris en charge.
+- La possibilité pour un délégué d’appeler un utilisateur Skype pour le compte d’un utilisateur teams n’est pas prise en charge.
+- Le partage d’écran avec les discussions n’est pas pris en charge.
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Définir si les utilisateurs de teams peuvent communiquer avec des utilisateurs de Skype
 

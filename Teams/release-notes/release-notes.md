@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797442"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399509"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft teams
 
 Ces notes de publication fournissent des informations sur les nouvelles fonctionnalités d’administration de Microsoft Teams.
+
+## <a name="september-3-2020"></a>3 septembre 2020
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisé dans Microsoft teams
+
+Vous pouvez désormais personnaliser le magasin des applications teams avec votre marque de votre organisation en ajoutant votre logo, des arrière-plans personnalisés et des couleurs de texte personnalisées pour le rendre plus attrayant aux utilisateurs finaux. [Pour en savoir plus](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>1er septembre 2020
+
+### <a name="on-demand-translation-in-android"></a>Traduction à la demande dans Android
+
+La traduction de messages en ligne est une fonctionnalité Microsoft teams qui permet aux utilisateurs de traduire des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels. Le paramètre de traduction est **activé** par défaut. [En savoir plus](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
 
 ## <a name="august-17-2020"></a>17 août 2020
 
@@ -75,6 +87,16 @@ Approuvez des applications personnalisées envoyées par le biais de l’API de 
 
 Les applications teams peuvent être installées gratuitement et certains peuvent nécessiter des abonnements à des services pour bénéficier de l’ensemble des fonctionnalités et de la portée de l’application. Ces abonnements de service sont appelés offres logicielles en tant que service (SaaS), qui sont disponibles à l’achat via AppSource et désormais via le centre d’administration Microsoft Teams. [En savoir plus](../purchase-third-party-apps.md).
 
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée soumise par le biais de l’API de soumission d’applications teams
+
+Les développeurs peuvent utiliser l’API de soumission d’applications teams pour soumettre des applications personnalisées directement au centre d’administration Microsoft teams afin que les administrateurs puissent la consulter et l’approuver. [En savoir plus](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+
+## <a name="july-31-2020"></a>31 juillet 2020
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Les administrateurs peuvent configurer la présence basée sur une équipe (sur Maj, désactivé) pour leurs collaborateurs terrain
+
+Les administrateurs peuvent configurer leurs travailleurs terrain pour qu’ils disposent d’États de présence reposant sur une équipe de basculement : sur Maj, occupé (peut être basculé en cas de décalage) et de désactivation de la touche Maj.
+
 ## <a name="july-29-2020"></a>29 juillet 2020
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Gérabilité améliorée à l’aide de la fonctionnalité de marquage d’appareil
@@ -103,7 +125,7 @@ Nous avons ajouté la possibilité d’activer NDI à une réunion Teams. NDI pe
 
 ### <a name="enable-suggested-replies"></a>Activer les réponses suggérées
 
-Activez ce paramètre pour activer les réponses suggérées pour les messages de discussion. [En savoir plus](../messaging-policies-in-teams.md)
+Activez ce paramètre pour activer les réponses suggérées pour les messages de discussion. [Pour en savoir plus](../messaging-policies-in-teams.md)
 
 ## <a name="july-9-2020"></a>9 juillet 2020
 
@@ -139,6 +161,10 @@ Nous avons ajouté la possibilité pour les standards automatiques et les appels
 
 Vous choisissez les applications qui sont installées par défaut pour les utilisateurs lorsqu’elles démarrent Teams. [En savoir plus](../teams-app-setup-policies.md).
 
+### <a name="screen-sharing-on-behalf-of-others"></a>Partage d’écran pour le compte d’autres personnes
+
+De nombreux administrateurs informatiques se plaignent qu’ils ne peuvent pas avoir le partage d’écran de leurs employés d’une discussion quand ils désactivent la stratégie AllowPrivateCalling. Cette fonctionnalité permet de découpler la possibilité de démarrer une screenshare à partir de la conversation à partir de la stratégie AllowPrivateCalling, mais elle empêche les utilisateurs d’ajouter de l’audio ou de la vidéo à la session screenshare si leur stratégie d’AllowPrivateCalling est désactivée.
+
 ## <a name="june-29-2020"></a>29 juin 2020
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Application de discussion de Microsoft teams
@@ -160,6 +186,12 @@ Nous avons ajouté un widget de synthèse des utilisateurs qui est disponible lo
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Restrictions de connexion pour les utilisateurs Android et iOS
 
 Si l’utilisateur n’est pas connecté à son compte Microsoft 365 où que ce soit, il est invité à fournir une authentification à facteur unique ou multifacteur (SFA ou MFA), en fonction de ce que votre organisation a configuré pour les stratégies de connexion mobile. [En savoir plus](../sign-in-teams.md).
+
+## <a name="june-15-2020"></a>2020 du 15 juin
+
+### <a name="monitor-shifts-with-audit-logs"></a>Surveiller les Shifts à l’aide de journaux d’audit
+
+Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité de décalage au sein de votre organisation. [En savoir plus](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11 juin 2020
 

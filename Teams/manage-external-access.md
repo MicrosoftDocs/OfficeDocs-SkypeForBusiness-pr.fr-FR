@@ -20,12 +20,12 @@ description: Votre administrateur Teams ou informatique peut configurer l’acc�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 1acc8bea66791c7e8cfc38cae2d394b6360ceec9
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255417"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395403"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 ======================================================
@@ -56,6 +56,9 @@ Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votr
 - **Autoriser des domaines spécifiques**: en ajoutant des domaines à une liste**Autoriser**, vous limitez l’accès externe uniquement aux domaines autorisés. Une fois que vous avez configuré la liste des domaines autorisés, tous les autres domaines sont bloqués. Pour autoriser certains domaines, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine**, puis sélectionnez **Autorisé**.
 
 - **Bloquez des domaines spécifiques**-en ajoutant des domaines à une liste **Bloquer**, vous pouvez communiquer avec tous les domaines externes *à l’exception de* ceux que vous avez bloqués. Pour bloquer certains domaines, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine**, puis sélectionnez **Bloqué**. Une fois que vous avez configuré la liste des domaines bloqués, tous les autres domaines sont autorisés.
+
+> [!NOTE]
+> Si vous désactivez l’accès externe au sein de votre organisation, les utilisateurs externes peuvent tout de même participer à des réunions via une jointure anonyme. Pour en savoir plus, voir [gérer les paramètres de réunion dans teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
 
 ## <a name="allow-or-block-domains"></a>Autoriser ou bloquer des domaines
 
