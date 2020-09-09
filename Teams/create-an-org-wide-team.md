@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860815"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405791"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Pour tirer le meilleur parti de votre équipe à l’échelle de l’organisatio
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Autoriser uniquement les propriétaires d’équipe à publier sur le canal général
 
-Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. Accédez à l’équipe, puis cliquez sur **˙˙˙Autres options** > **Gérer une équipe**. Sous l’onglet **Paramètres**, cliquez sur **Autorisations de membre** > sélectionnez **Seuls les propriétaires peuvent publier des messages**.
+Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. Accédez à l’équipe, recherchez le canal général, puis sélectionnez **̇ ̇ ̇ plus d’options**  >  **gérer le canal**. Dans l’onglet **paramètres du canal** , cliquez sur **autorisations**, puis sélectionnez **seuls les propriétaires peuvent publier des messages**.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver les mentions @team et @ [nom de l’équipe]
 

@@ -13,12 +13,12 @@ ms.collection:
 description: En savoir plus sur les dernières modifications dans teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170623"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405811"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notes de publication de Microsoft teams PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit le journal des modifications PowerShell d’teams pour les ve
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
+| 2020 septembre | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Intégration de connecteur Skype entreprise Online</li> |
 | 2020 juillet | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[Cmdlets d’attribution de stratégie de groupe](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) ajoutées</li> |
 | 2020 juin | [1.1.3-Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Intégration de connecteur Skype entreprise Online<li>Optimisations de la mise en équipe<li>Fiabilité améliorée</li> |
 | 2020 juin | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Ajout d’une cmdlet de préchargement<li>Optimisations de .NET Framework</li>   |
