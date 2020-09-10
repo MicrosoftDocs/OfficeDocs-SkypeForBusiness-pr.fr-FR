@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
+ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778096"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47408230"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Informations sur le Guide d’administration informatique pour Teams pour l’éducation
 
@@ -34,14 +34,16 @@ Insights est actif dans les SKU A1, A3 et A5 de Microsoft Office 365 pour l’
 
 ## <a name="permissions"></a>Autorisations
 
-Types d'utilisateur : 
-- Les étudiants sont identifiés par leur licence et n’ont pas accès à l’onglet Insights (même s’ils sont propriétaires de l’équipe). 
-- Les enseignants sont définis par les licences du corps professoral. Les enseignants doivent disposer d’une licence pour les enseignants et être le propriétaire d’une équipe de classe pour ajouter et les données affichées dans l’onglet Insights. 
-- Les chefs d’établissement sont également identifiés par une licence pour les enseignants, mais, en outre, ils ont besoin des autorisations explicites de l’administrateur général en informatique pour afficher les rapports dans l’application Insights.
+### <a name="user-types"></a>Types d'utilisateur
+- Les **étudiants** sont identifiés par leur licence et  _n’ont pas_ accès à l’onglet Insights (même s’ils sont propriétaires de l’équipe). 
+- Les **enseignants** sont définis par les licences du corps professoral. Les enseignants doivent disposer d’une licence pour les enseignants et être le propriétaire d’une équipe de classe pour ajouter et les données affichées dans l’onglet Insights. 
+- Les **chefs d’établissement** sont également identifiés par une licence pour les enseignants, mais, en outre, ils ont besoin des autorisations explicites de l’administrateur général en informatique pour afficher les rapports dans l’application Insights.
+- Les comptes invités _n’ont pas_ l’accès à Insights.
 
+### <a name="permission-levels"></a>Niveaux d’autorisation
 Les enseignants et chefs d’établissement ont des niveaux d’autorisation et une logique différents :
-- Les enseignants peuvent ajouter l’application Insights à un canal public au sein d’une équipe de classe en accédant aux applications dans la barre d’application Teams et en recherchant Insights. L’onglet reflète les activités de tous les membres de l’équipe de classe qui ne sont pas propriétaires (y compris les enseignants qui ne sont pas propriétaires de l’équipe). 
-- Les chefs d’établissement peuvent ajouter l’application Insights en tant qu’application personnelle (elle s’affiche dans le menu Teams à gauche) en accédant aux Applications dans la barre d’application Teams et en recherchant Insights. 
+- Les **enseignants** peuvent ajouter l’application Insights à un canal public au sein d’une équipe de classe en accédant aux applications dans la barre d’application Teams et en recherchant Insights. L’onglet reflète les activités de tous les membres de l’équipe de classe qui ne sont pas propriétaires (y compris les enseignants qui ne sont pas propriétaires de l’équipe). 
+- Les **chefs d’établissement** peuvent ajouter l’application Insights en tant qu’application personnelle (elle s’affiche dans le menu Teams à gauche) en accédant aux Applications dans la barre d’application Teams et en recherchant Insights. 
 
 ## <a name="compliance"></a>Conformité
 
@@ -58,9 +60,9 @@ Notre objectif est d’aider les enseignants à comprendre l’implication et à
 
 ## <a name="data-collection"></a>Collecte de données
 
-Nous collectons des données pour Class lorsque l'outil Education Analytics est activé pour le client. Les données sont collectées à partir de l’activité Teams afin d’obtenir des informations exploitables pour l’enseignement et l’apprentissage.
-
-Par défaut, Education Analytics est **Activée**.
+- Nous collectons des données pour Class lorsque l'outil Education Analytics est activé pour le client. Les données sont collectées à partir de l’activité Teams afin d’obtenir des informations exploitables pour l’enseignement et l’apprentissage.
+- Les données des invités _ne sont pas_ collectées pour Insights.
+- Par défaut, Education Analytics est **Activée**.
 
 Pour l’instant, ces données sont extraites des domaines suivants de l’activité des étudiants et des enseignants dans les équipes de classe :
 

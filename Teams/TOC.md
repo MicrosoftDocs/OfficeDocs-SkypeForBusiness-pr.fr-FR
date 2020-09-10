@@ -499,21 +499,8 @@
 
 ### [Carrousel Microsoft Teams](microsoft-teams-online-call-flows.md)
 
-## Conseils pratiques pour les grandes entreprises
-### [Didacticiel : appel dans Teams](Tutorial-calling-in-teams.yml)
-### [Conseils de voix cloud](cloud-voice-landing-page.md)
-#### [Définir ma réussite](1-envision-define-my-success-cloud-voice.md)
-#### [Prendre des décisions pour le service - Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
-#### [Prendre des décisions pour le service - Routage direct du système téléphonique](direct-routing-landing-page.md)
-#### [Évaluer mon environnement](3-envision-evaluate-my-environment.md)
-#### [Planifier ma gestion des services](4-envision-plan-my-service-management.md)
+### [Didacticiel : Appeler dans Teams](Tutorial-calling-in-teams.yml)
 #### [Planifier l’expérience de mes utilisateurs](5-envision-plan-my-users-experience.md)
-#### [Documenter mon plan de réussite](6-envision-document-my-success-plan.md)
-#### [Préparer mon service](1-onboard-prepare-my-service.md)
-#### [Préparer mes utilisateurs](2-onboard-prepare-my-users.md)
-#### [Déployer mon service](3-onboard-deploy-my-service.md)
-#### [Exploiter mon service](1-drive-value-operate-my-service.md)
-#### [Améliorer mon service](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
