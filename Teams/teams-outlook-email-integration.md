@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 474da725ad88221d131959078a733ed1724ae1be
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
+ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611165"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47420608"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Équipe et intégration de la messagerie Outlook
 
@@ -35,7 +35,7 @@ Pour utiliser cette fonctionnalité, Outlook sur le Web doit être activé pour 
 
 ## <a name="actionable-activity-emails"></a>Messages d’activité interactifs
 
-Les utilisateurs obtiennent automatiquement des messages d’activité manqués interactifs qui les aident à prendre des conversations manquées dans Teams. Les messages d’activité manqués indiquent les dernières réponses d’une conversation, y compris les messages envoyés après le message manqué, et les utilisateurs peuvent cliquer sur **répondre** pour répondre directement à partir d’Outlook. Pour plus d’informations, voir [répondre à des messages d’activités manquées d’Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
+Les utilisateurs obtiennent automatiquement des messages d’activité manqués interactifs qui les aident à prendre des conversations manquées dans Teams. Les messages d’activité manqués indiquent les dernières réponses d’une conversation, y compris les messages envoyés après le message manqué, et les utilisateurs peuvent cliquer sur **répondre** pour répondre directement à partir d’Outlook. Pour plus d’informations, voir [répondre à des messages d’activité manqués d’Outlook et des messages interactifs](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) [dans les groupes outlook et Office 365](https://docs.microsoft.com/outlook/actionable-messages/).
 
 ![Capture d’écran montrant un e-mail d’activité manquée](media/missed-activity-email.png)
 
