@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Résumé : déployez Skype entreprise Web App et l’application réunions Skype utilisée avec Skype entreprise.'
-ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029045"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429420"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déploiement de clients Web téléchargeables dans Skype entreprise Server
 
@@ -33,7 +33,7 @@ Les fonctionnalités vocales, vidéo et de partage dans Skype entreprise Web App
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Activer l’authentification multifacteur pour Skype entreprise Web App
 <a name="MFA"> </a>
 
-Skype entreprise Web App, l’application réunions Skype et Skype entreprise pour Mac prennent en charge l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à des réunions Skype entreprise. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Skype entreprise Server. Une fois les services ADFS configurés, les utilisateurs externes qui tentent de participer à des réunions Skype entreprise sont présentés avec une page Web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que les autres méthodes d’authentification que vous avez configurés.
+Skype entreprise Web App, l’application réunions Skype et Skype entreprise pour Mac prennent en charge l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à des réunions Skype entreprise. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Skype entreprise Server. Une fois les services ADFS configurés, les utilisateurs externes qui tentent de participer à des réunions Skype entreprise sont présentés avec une page Web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que les autres méthodes d’authentification que vous avez configurées.
 
 > [!IMPORTANT]
 > Vous trouverez ci-dessous des considérations importantes si vous envisagez de configurer les services AD FS pour l’authentification multifacteur :
@@ -135,7 +135,7 @@ Cette procédure est facultative et s’applique à Skype entreprise Server 2015
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Les informations envoyées à Microsoft sont strictement conformes aux [pratiques de collecte de données de Skype entreprise](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Les informations envoyées à Microsoft sont strictement conformes à la [confidentialité et à Microsoft teams](../../../../Teams/teams-privacy.md).
 
 3. Définissez le délai d’attente avant de revenir à l’expérience Skype entreprise Web hébergée localement si le CDN n’est pas disponible. La valeur par défaut est de 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’attente.
 

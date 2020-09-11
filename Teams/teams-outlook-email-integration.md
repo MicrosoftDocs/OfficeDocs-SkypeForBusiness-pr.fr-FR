@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
-ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
+ms.openlocfilehash: 675834cd36c4e86d34d179e91fe66905e3860b32
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420608"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429440"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Équipe et intégration de la messagerie Outlook
 
@@ -35,7 +35,10 @@ Pour utiliser cette fonctionnalité, Outlook sur le Web doit être activé pour 
 
 ## <a name="actionable-activity-emails"></a>Messages d’activité interactifs
 
-Les utilisateurs obtiennent automatiquement des messages d’activité manqués interactifs qui les aident à prendre des conversations manquées dans Teams. Les messages d’activité manqués indiquent les dernières réponses d’une conversation, y compris les messages envoyés après le message manqué, et les utilisateurs peuvent cliquer sur **répondre** pour répondre directement à partir d’Outlook. Pour plus d’informations, voir [répondre à des messages d’activité manqués d’Outlook et des messages interactifs](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) [dans les groupes outlook et Office 365](https://docs.microsoft.com/outlook/actionable-messages/).
+Les utilisateurs obtiennent automatiquement des messages d’activité manqués interactifs qui les aident à prendre des conversations manquées dans Teams. Les messages d’activité manqués indiquent les dernières réponses d’une conversation, y compris les messages envoyés après le message manqué, et les utilisateurs peuvent cliquer sur **répondre** pour répondre directement à partir d’Outlook. Pour plus d’informations, voir [répondre à des messages d’activités manquées d’Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381). 
+
+> [!NOTE]
+> Cette fonctionnalité n’est pas prise en charge dans Outlook pour Mac ou dans les versions antérieures d’Outlook pour Windows. Pour plus d’informations, reportez-vous à la section [messages exploitables dans les groupes Outlook et Office 365](https://docs.microsoft.com/outlook/actionable-messages/).
 
 ![Capture d’écran montrant un e-mail d’activité manquée](media/missed-activity-email.png)
 
