@@ -773,7 +773,6 @@
 
 ## [Spécifications et limites de Teams](limits-specifications-teams.md)
 ## [Emplacement des données dans Teams](location-of-data-in-teams.md)
-## [Pratiques de collecte de données](data-collection-practices.md)
 
 ## Préparez-vous à déployer Teams
 ### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
