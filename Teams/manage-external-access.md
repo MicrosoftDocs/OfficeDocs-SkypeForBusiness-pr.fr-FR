@@ -20,17 +20,20 @@ description: Votre administrateur Teams ou informatique peut configurer l’acc�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 1acc8bea66791c7e8cfc38cae2d394b6360ceec9
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: cb470bb0388c09f1914f7dbdba98a425baa40a7a
+ms.sourcegitcommit: 8c043265becbe3d12658805e12a9cf0b2881a430
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395403"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "47449398"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 ======================================================
 
 L’accès externe permet aux utilisateurs de Microsoft teams de rechercher, appeler, discuter et organiser des réunions en équipe. Vous pouvez également utiliser l’accès externe pour communiquer avec des utilisateurs externes qui utilisent encore Skype entreprise (en ligne et sur site) et Skype (en version préliminaire).
+
+> [!NOTE]
+> Les domaines autorisés ou bloqués s’appliquent uniquement aux réunions si l’accès anonyme aux réunions est « désactivé ».
 
 Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, l’accès invité sera sans doute préférable. Pour plus d’informations sur les différences entre l’accès externe et l’accès invité, voir [Comparer les accès externe et invité](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -47,7 +50,7 @@ Utilisez l’accès externe dans les situations suivantes :
 
 ## <a name="plan-for-external-access"></a>Plan pour l’accès externe
 
-Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
+Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. Il existe une exception à cette règle, si les participants anonymes sont autorisés à participer à des réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
 
 - **Fédération ouverte**: il s’agit du paramètre par défaut dans Teams, qui permet aux membres de votre organisation de rechercher, d’appeler, d’envoyer des messages instantanés/conversations et de configurer des réunions avec des personnes extérieures à votre organisation.
 
