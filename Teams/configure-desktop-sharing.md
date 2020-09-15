@@ -17,17 +17,22 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
+ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581745"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47652470"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
 ============================================
 
-Le partage de bureau permet aux utilisateurs d'afficher un écran ou une application pendant une réunion ou une conversation. Les administrateurs peuvent configurer le partage d’écran dans Microsoft Teams pour autoriser les utilisateurs à partager l'ensemble d'un écran, d'une application ou d'un fichier. Vous pouvez permettre aux utilisateurs d’attribuer ou de demander le contrôle, d'autoriser le partage PowerPoint, d'ajouter un tableau blanc et d'autoriser les notes partagées. Vous pouvez également préciser si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé.
+Le partage de bureau permet aux utilisateurs d'afficher un écran ou une application pendant une réunion ou une conversation. Les administrateurs peuvent configurer le partage d’écran dans Microsoft Teams pour autoriser les utilisateurs à partager l'ensemble d'un écran, d'une application ou d'un fichier. Vous pouvez permettre aux utilisateurs d’attribuer ou de demander le contrôle, d'autoriser le partage PowerPoint, d'ajouter un tableau blanc et d'autoriser les notes partagées. Vous pouvez également préciser si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé. Les participants externes aux réunions teams peuvent être classés comme suit :
+
+- Utilisateur anonyme
+- Utilisateurs invités
+- Utilisateur B2B
+- Utilisateur fédéré
 
 Pour configurer le partage d’écran, vous créez une stratégie de réunion, puis vous l’attribuez aux utilisateurs que vous souhaitez gérer.
 
@@ -35,11 +40,11 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
 
 1. Sélectionnez **Réunions** > **Stratégies de réunion**.
 
-    ![Capture d’écran affichant les stratégies de Réunion sélectionnées](media/configure-desktop-sharing-image1.png)
+    ![Stratégies de réunion sélectionnées](media/configure-desktop-sharing-image1.png)
 
-2. Sur la page **Stratégies de réunion**, sélectionnez **Nouvelle stratégie**.
+2. Dans la page stratégies de la **réunion** , sélectionnez **Ajouter**.
 
-    ![Capture d’écran affichant le message des stratégies de Réunion](media/configure-desktop-sharing-image2.png)
+    ![Le message stratégies de réunion](media/addMeeting.png)
 
 3. Donnez un titre unique à votre stratégie, puis entrez une brève description.
 
@@ -49,7 +54,10 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
    - **Application Unique** : permet aux utilisateurs de limiter le partage d’écran à une seule application active.
    - **Désactivé** : désactive le partage d’écran.
 
-    ![Capture d’écran affichant les options de mode de partage](media/configure-desktop-sharing-image3.png)
+    ![Options du mode de partage](media/configure-desktop-sharing-image3.png)
+
+  > [!Note]
+  > Vous n’avez pas besoin d’activer la stratégie d’appel pour que les utilisateurs puissent utiliser le partage d’écran à partir de la discussion. Toutefois, leur son est désactivé tant qu’il n’est pas activé. Par ailleurs, l’utilisateur qui partage l’écran peut cliquer sur **Ajouter du son** pour activer l’audio. Si la stratégie d’appel est désactivée, les utilisateurs ne seront pas en mesure d’ajouter de l’audio au partage d’écran à partir d’une session de conversation.
 
 5. Activer ou désactiver les paramètres suivants :
 
@@ -67,6 +75,7 @@ Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](ht
 
 - Description
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
@@ -74,4 +83,3 @@ Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](ht
 - AllowSharedNotes
 
 [En savoir plus sur l’utilisation de l'applet de commande csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
-

@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: En savoir plus sur les fonctionnalités d’interopérabilité entre les utilisateurs teams au sein de votre organisation et les utilisateurs de Skype.
 localization_priority: Normal
-ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
+ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395363"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651203"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interopérabilité entre teams et Skype
 
@@ -28,7 +28,10 @@ Les utilisateurs de Microsoft teams dans votre organisation peuvent discuter ave
 - Les utilisateurs de teams peuvent rechercher et commencer une conversation de texte unique ou un appel audio/vidéo avec un utilisateur de Skype.
 - Les utilisateurs de Skype peuvent rechercher et lancer une conversation en tête-à-tête uniquement ou un appel audio/vidéo avec un utilisateur de teams.
 
-Disponible sur les clients de bureau, Web et mobiles (Android et iOS) pour les deux équipes et Skype. Pour une qualité optimale, nous vous recommandons d’utiliser la version 8,58 et les versions ultérieures de Skype.
+Ces fonctionnalités sont disponibles sur les clients de bureau, Web et mobiles (Android et iOS) pour les deux équipes et Skype. Pour une qualité optimale, nous vous recommandons d’utiliser la version 8,58 et les versions ultérieures de Skype.
+
+> [!NOTE]
+> Les fonctionnalités d’équipe et d’interopérabilité Skype mentionnées dans cet article ne sont pas disponibles dans les déploiements de GCC, de GCC ou de DOD, ni dans les environnements Cloud privés.
 
 ## <a name="chat-and-calling-experience"></a>Appels et conversations
 
@@ -42,7 +45,7 @@ Un utilisateur Skype est susceptible de ne pas apparaître dans les résultats d
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Un utilisateur de Skype commence une discussion ou un appel avec un utilisateur de teams
 
-Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec un utilisateur d’équipe à l’aide de leur adresse de messagerie. L’utilisateur de teams est prévenu qu’il dispose d’un nouveau message d’un utilisateur de Skype et qu’il doit d’abord accepter le message pour pouvoir y répondre.
+Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec un utilisateur d’équipe à l’aide de leur adresse de messagerie. L’utilisateur de teams est prévenu qu’il dispose d’un nouveau message d’un utilisateur de Skype. L’utilisateur de teams doit d’abord accepter le message pour pouvoir y répondre.
 
 - Si l’utilisateur de teams sélectionne **accepter**, la conversation est acceptée et les deux utilisateurs peuvent discuter et se appeler.
 - Si l’utilisateur de teams sélectionne **bloquer**, la conversation est bloquée, les messages et appels ultérieurs de l’utilisateur Skype sont bloqués.
@@ -53,7 +56,7 @@ Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec 
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Un utilisateur de teams bloque ou débloque un utilisateur de Skype
 
-Une fois qu’un utilisateur de teams a accepté ou interdit la demande de conversation initiale d’un utilisateur de Skype, il peut choisir de bloquer ou de débloquer cette personne à tout moment, qu’il s’agisse d’une conversation ou d’un paramètre de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
+Une fois qu’un utilisateur de teams a accepté ou interdit la demande de conversation initiale d’un utilisateur Skype, il peut choisir de bloquer ou débloquer cette personne à tout moment. Pour ce faire, vous pouvez le faire dans la conversation ou dans les paramètres de confidentialité de teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
 
 Les utilisateurs de Skype bloqués, ainsi que les autres personnes et les numéros de téléphone RTC (réseau téléphonique commuté) qu’un utilisateur d’équipe a bloqué apparaissent dans la liste des contacts bloqués de l’utilisateur dans Teams.
 
@@ -80,7 +83,7 @@ Dans le centre d’administration de Microsoft Teams, accédez à paramètres ex
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez l’applet de commande [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) conjointement avec le ```EnablePublicCloudAccess``` paramètre pour contrôler si les utilisateurs de teams peuvent communiquer avec des utilisateurs Skype. Définition du paramètre permettant aux ```true``` utilisateurs de teams de communiquer avec des utilisateurs de Skype. Notez que le ```EnablePublicCloudAudioVideoAccess``` paramètre peut être utilisé pour activer/désactiver les appels audio/vidéo.
+Utilisez l’applet de commande [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) conjointement avec le ```EnablePublicCloudAccess``` paramètre pour contrôler si les utilisateurs de teams peuvent communiquer avec des utilisateurs Skype. Définition du paramètre permettant aux ```true``` utilisateurs de teams de communiquer avec des utilisateurs de Skype. Vous pouvez utiliser le ```EnablePublicCloudAudioVideoAccess``` paramètre pour activer/désactiver les appels audio/vidéo.
 
 ## <a name="related-topics"></a>Voir aussi
 
