@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Téléchargez, installez, puis utilisez le connecteur Skype entreprise Online pour créer une session Windows PowerShell distante qui se connecte à Skype entreprise online.
-ms.openlocfilehash: 8e9441e152314fafdee8fe8292d0b62a1b17d6da
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 3928e77e5bac77dbfe89f7be5e762dd0d8ff93eb
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564773"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814563"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Télécharger et installer le module Skype entreprise Online Connector
 
 > [!NOTE]
-> La [version d’évaluation publique PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) la plus récente est intégrée au connecteur Skype entreprise Online pour proposer un module unique pour la gestion d’teams PowerShell.
+> La dernière [version publique de PowerShell teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) est intégrée au connecteur Skype entreprise Online et fournit un module unique pour la gestion de PowerShell Teams.
 
 Le module Skype entreprise Online Connector inclut l’applet **de commande New-CsOnlineSession** , qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise online. Ce module, qui est pris en charge uniquement sur les ordinateurs 64 (pour plus d’informations, reportez-vous à la rubrique [configuration de votre ordinateur pour la gestion de Skype entreprise Online avec Windows PowerShell](set-up-your-computer-for-windows-powershell.md) pour plus d’informations) peut être téléchargé à partir du centre de téléchargement Microsoft [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) . Téléchargez le fichier SkypeOnlinePowershell.exe, puis procédez comme suit :
   

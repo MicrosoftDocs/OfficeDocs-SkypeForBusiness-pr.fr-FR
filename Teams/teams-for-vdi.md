@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766918"
+ms.locfileid: "47814373"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -38,6 +38,9 @@ Teams dans un environnement virtualisé prend en charge plusieurs configurations
 L’utilisation des équipes dans un environnement virtualisé peut être légèrement différente de l’utilisation d’équipes dans un environnement non virtualisé. Par exemple, certaines fonctionnalités avancées risquent de ne pas être disponibles dans un environnement virtualisé et la résolution vidéo peut varier.
 
 Pour garantir une utilisation optimale des utilisateurs, suivez les recommandations de cet article.
+
+ > [!Note]
+ > Pour plus d’informations, voir [fonctionnalités d’équipe par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="teams-on-vdi-components"></a>Équipes sur les composants VDI
 

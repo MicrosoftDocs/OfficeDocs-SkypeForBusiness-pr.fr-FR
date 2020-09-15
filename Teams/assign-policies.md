@@ -18,12 +18,12 @@ description: Découvrez les différentes méthodes d’attribution de stratégie
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d6253645e674d680f86d0b6f89a62968e6c21ba
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: eaca3bdebc25e511ecc8f461c47b2d39a6332afa
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533941"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814894"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
@@ -138,10 +138,15 @@ Vous pouvez également effectuer les opérations suivantes :
 
 Chaque type de stratégie dispose de son propre ensemble d’applets de service pour sa gestion. Utilisez l' ```Grant-``` applet de cmdlet d’un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez l' ```Grant-CsTeamsMeetingPolicy``` applet de cmdlet pour attribuer une stratégie de réunion teams à des utilisateurs. Ces applets de service sont inclus dans le module PowerShell de Skype entreprise Online et sont décrits dans la référence de l’applet de connexion [Skype entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
- Téléchargez et installez le [module PowerShell de Skype entreprise Online](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (si vous ne l’avez pas déjà fait), puis exécutez la commande suivante pour vous connecter à Skype entreprise Online et commencer une session.
+ Téléchargez et installez le [module PowerShell de Skype entreprise Online](https://www.microsoft.com/download/details.aspx?id=39366) (si vous ne l’avez pas déjà fait), puis exécutez la commande suivante pour vous connecter à Skype entreprise Online et commencer une session.
+
+> [!NOTE]
+> Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+>
+> Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $Cred = Get-Credential
 $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession

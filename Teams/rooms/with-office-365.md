@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Microsoft 365 ou Office 365, où teams ou Skype entreprise et Exchange sont tous deux en ligne.
-ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756795"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814793"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déploiement de salles Microsoft teams avec Microsoft 365 ou Office 365
 
@@ -145,7 +145,7 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles pour votre organisation Microsoft 365 ou Office 365, procédez comme suit :
+6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide ou Exchange et Microsoft teams ou Skype entreprise ne fonctionnera pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles pour votre organisation Microsoft 365 ou Office 365, procédez comme suit :
 
    ```Powershell
    Get-MsolAccountSku
@@ -155,7 +155,7 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Vous pouvez ensuite ajouter une licence à l’aide du`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> applet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
+   Vous pouvez ensuite ajouter une licence à l’aide du `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> applet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
 
    ```PowerShell
    $acctUpn="Rigel1@contoso.onmicrosoft.com"
@@ -175,9 +175,14 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
 7. Ensuite, vous devez activer le compte de l’appareil avec Skype entreprise. Assurez-vous que votre environnement répond à la configuration requise définie dans les [exigences de Microsoft teams salles](requirements.md).
 
    Démarrez une [session Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) distante comme suit (veillez à [installer les composants PowerShell de Skype entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) :
+   
+> [!NOTE]
+> Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+>
+> Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
    ``` Powershell
-   Import-Module SkypeOnlineConnector  
+   Import-Module -Name MicrosoftTeams  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
@@ -197,7 +202,7 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
     ```
 
     > [!NOTE]
-    > Les nouveaux comptes d’utilisateur ne peuvent pas être créés sur le même pool de bureau d’enregistrement que les comptes d’utilisateurs existants dans le client. Dans le cas présent, la commande ci-dessus empêche les erreurs dans la configuration du compte.
+    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
 
 ### <a name="assign-a-license-to-your-account"></a>Affectation d’une licence à votre compte
 

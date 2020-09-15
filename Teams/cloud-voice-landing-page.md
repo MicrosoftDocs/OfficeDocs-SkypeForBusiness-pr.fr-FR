@@ -20,12 +20,12 @@ search.appverid: MET150
 description: En savoir plus sur la fonctionnalité voix sur le Cloud et comprendre les décisions de déploiement nécessaires.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8106e5ef30b71ec82e9b1ae42f785b7a73b170a5
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158642"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814874"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>Options système de téléphonie vocale et connectivité PSTN
 
@@ -37,7 +37,8 @@ Cet article vous permet de déterminer si vous avez besoin de modifier des param
 
 Nous recommandons à toutes les organisations de travailler par le biais des décisions fondamentales puis, si votre organisation a des exigences supplémentaires, de consulter les documents suivants.
 
-
+ > [!Note]
+ > Pour plus d’informations, voir [fonctionnalités d’équipe par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="learn-more-about-voice"></a>En savoir plus sur la voix
 
@@ -76,7 +77,7 @@ Pour connecter un système téléphonique au réseau téléphonique commuté (PS
 |||
 
 
-## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
+## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
 
 Vous souhaiterez peut-être modifier les paramètres pour les éléments suivants, en fonction des besoins et de la configuration de votre organisation :
 

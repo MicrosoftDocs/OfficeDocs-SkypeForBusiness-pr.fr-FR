@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 71b1ab2ba641b25764f5c546343a3c7a597f121a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666156"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814533"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur le déploiement de salles de Microsoft teams dans
   
 Si votre organisation dispose d’une combinaison de services, avec une partie hébergée en local et une partie hébergée en ligne, votre configuration dépend de l’emplacement d’hébergement de chaque service. Cette rubrique traite des déploiements hybrides pour les salles de Microsoft teams sur lesquelles Exchange est hébergé sur site. Dans la mesure où ce type de déploiement comporte autant de variations différentes, il n’est pas possible de fournir des instructions détaillées pour chacune d’elles. Le processus suivant fonctionne pour de nombreuses configurations. Si le processus ne vous convient pas, nous vous recommandons d’utiliser Windows PowerShell pour obtenir le même résultat final qu’indiqué ici, et pour d’autres options de déploiement.
 
-Microsoft fournit [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous permet de créer de nouveaux comptes d’utilisateur, ou de valider des comptes de ressources existants dont vous disposez pour vous aider à les convertir en comptes d’utilisateurs de salles Microsoft teams compatibles. Si vous le souhaitez, vous pouvez suivre les étapes ci-dessous afin de configurer des comptes que votre appareil de salle Microsoft teams utilisera.
+Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer de nouveaux comptes d’utilisateurs, ou de valider des comptes de ressources existants dont vous avez besoin afin de vous aider à les convertir en comptes d’utilisateurs de salles Microsoft teams compatibles. Si vous le souhaitez, vous pouvez suivre les étapes ci-dessous afin de configurer des comptes que votre appareil de salle Microsoft teams utilisera.
   
 ## <a name="requirements"></a>Configuration requise
 
@@ -112,13 +112,13 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
    > [!NOTE]
    > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge. 
 
-2. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles.
+2. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ``` -->
 
-3. Vous pouvez ensuite ajouter une licence à l’aide du`Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> applet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
+3. Vous pouvez ensuite ajouter une licence à l’aide du `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> applet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
 
   ``` PowerShell
   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -139,9 +139,13 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 PowerShell Skype entreprise Online permet de gérer les services de Microsoft teams et de Skype entreprise online.
 
 1. Créez une session Windows PowerShell distante à partir d’un PC comme suit :
+> [!NOTE]
+> Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+>
+> Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
    ``` Powershell
-   Import-Module SkypeOnlineConnector  
+   Import-Module -Name MicrosoftTeams  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
@@ -175,7 +179,7 @@ PowerShell Skype entreprise Online permet de gérer les services de Microsoft te
 
 Pour la validation, vous devriez être en mesure d’utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer des comptes pour les salles de Microsoft teams](rooms-configure-accounts.md)
 

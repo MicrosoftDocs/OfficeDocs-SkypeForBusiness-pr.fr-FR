@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le centre d’administration Microsoft teams ou Windows PowerShell pour créer et gérer les plans de numérotation (appels RTC).
-ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0655f81df9c8ce25368a281a7f5b3392f7fe6ec3
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938233"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814783"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -86,12 +86,14 @@ Pour en savoir plus, voir [se connecter à tous les services microsoft 365 ou Of
     
 2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
+ 
     > [!NOTE]
-    > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-  
+    > Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+    >
+    > Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
     ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
@@ -237,7 +239,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)

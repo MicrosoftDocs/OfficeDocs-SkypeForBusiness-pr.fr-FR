@@ -17,18 +17,21 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803906"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814573"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
 La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et dans Microsoft 365 ou Office 365), qui indique la disponibilité et l’État actuels de l’utilisateur à d’autres utilisateurs. Par défaut, tous les membres qui utilisent Teams dans votre organisation peuvent voir (en temps quasi-réel) si d’autres utilisateurs sont disponibles en ligne.
 
 La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
+
+ > [!Note]
+ > Pour plus d’informations, voir [fonctionnalités d’équipe par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="presence-states-in-teams"></a>États de présence dans Teams
 

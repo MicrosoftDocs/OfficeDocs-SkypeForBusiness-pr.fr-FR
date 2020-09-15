@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Découvrez les problèmes liés aux caractères spéciaux dans les noms de stratégies et ce que vous pouvez faire pour résoudre ce problème.
-ms.openlocfilehash: 7358bd989b793e988f0a3dacdded275b5232c8cc
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691510"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814713"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?
 
@@ -41,10 +41,14 @@ Si vous disposez d’une stratégie contenant des caractères spéciaux, vous de
 
 ## <a name="to-remove-special-characters"></a>Pour supprimer des caractères spéciaux
 
-**Étape 1 : créer une connexion à distance avec PowerShell.** 
- Si ce n’est déjà fait, [configurez votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) .
+**Étape 1 : créer une connexion à distance avec PowerShell.**
+> [!NOTE]
+> Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+>
+> Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
+
 ```PowerShell
- Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ Import-Module -Name MicrosoftTeams
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
  Import-PSSession $session

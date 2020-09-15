@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 4af24f66aa82bbd0f0099e062981157b08c639db
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164093"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814603"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
@@ -52,7 +52,7 @@ Pour plus d’informations, reportez-vous à la rubrique [utilisation de la mess
 
 3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
 
-4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
+4. Vous devrez également installer le module Windows PowerShell pour les équipes qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise online.
 
 Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
@@ -64,12 +64,13 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 
 2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
 
-    > [!NOTE]
-    > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
+   > [!NOTE]
+   > Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+   >
+   > Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
->
   ```PowerShell
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+  Import-Module -Name MicrosoftTeams
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
@@ -82,7 +83,7 @@ Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se con
 > [!NOTE]
 > Les messages hors connexion ne sont disponibles **que** dans la dernière version du client « démarrer en un clic » de Skype entreprise et ne sont pas disponibles lorsqu’une version antérieure de Skype entreprise est utilisée ou qu’un fichier *. msi a été utilisé pour installer le client Skype entreprise.
 
-Pour activer ou désactiver les messages hors connexion pour les utilisateurs de votre organisation qui envoient `True` des `False`messages hors connexion, définissez _EnableIMAutoArchiving_ sur ou. Par défaut, ce paramètre est défini `True`sur.
+Pour activer ou désactiver les messages hors connexion pour les utilisateurs de votre organisation qui envoient des messages hors connexion, définissez  _EnableIMAutoArchiving_ sur `True` ou `False` . Par défaut, ce paramètre est défini sur `True` .
 
 Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 
@@ -90,7 +91,7 @@ Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Pour activer ou désactiver les messages hors connexion pour les utilisateurs qui envoient des `True` messages `False`hors connexion, définissez _EnableIMAutoArchiving_ sur ou. Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou en créer une comme dans l’exemple ci-dessous.
+Pour activer ou désactiver les messages hors connexion pour les utilisateurs qui envoient des messages hors connexion, définissez  _EnableIMAutoArchiving_ sur `True` ou `False` . Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou en créer une comme dans l’exemple ci-dessous.
 
 
   ```PowerShell

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur l’ID de l’appelant par défaut Microsoft 365 et Office 365 (numéro de téléphone affecté à l’utilisateur), également connu sous le nom d’ID de ligne d’appel. Vous pouvez modifier ou bloquer l’ID d’appelant d’un utilisateur.
-ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255427"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814323"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
 Le système téléphonique dans Microsoft 365 et Office 365 fournit un ID d’appelant par défaut indiquant le numéro de téléphone affecté à l’utilisateur. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation de l’identification de l’appelant au sein de votre organisation, voir utilisation [de l’ID d’appelant au sein de votre organisation](how-can-caller-id-be-used-in-your-organization.md).
@@ -82,10 +82,11 @@ Pour en savoir plus sur ces paramètres et leur utilisation, cliquez [Comment ut
 2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
     
    > [!NOTE]
-   > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-   > 
+   >
+   > Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+   > Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
    ```PowerShell
-    Import-Module -Name SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session

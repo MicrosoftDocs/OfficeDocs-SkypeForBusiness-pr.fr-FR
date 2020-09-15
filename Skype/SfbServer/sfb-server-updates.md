@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et Lync 2013 à un seul endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326571"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814313"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
-Recherchez et gérez les mises à jour de [Skype entreprise server 2019](#skype-for-business-server-2019-update-history), [skype entreprise Server 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)et [Lync Server 2010](#lync-server-2010-update-history) à un seul emplacement. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
+Recherchez et gérez les mises à jour de [Skype entreprise server 2019](#skype-for-business-server-2019-update-history), [skype entreprise Server 2015](#skype-for-business-server-2015-update-history),  [Lync server 2013](#lync-server-2013-update-history)et [Lync Server 2010](#lync-server-2010-update-history) à un seul emplacement. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
 
 Pour obtenir les dernières mises à jour de Skype entreprise Online et de Microsoft 365, reportez-vous à la feuille de [route microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
@@ -32,6 +32,7 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour cumulative 3 du logiciel Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
 |Mise à jour cumulative 3 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
 |Mise à jour cumulative 2 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
 |Mise à jour cumulative 1 du correctif logiciel 1 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
@@ -42,7 +43,7 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom/lien du package|Date de publication|
 |:--- |:--- |
-|[KIT DE DÉVELOPPEMENT LOGICIEL (SDK) UCMA 6,0](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Juin 2019       |
+|[KIT DE DÉVELOPPEMENT LOGICIEL (SDK) UCMA 6,0 ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Juin 2019       |
 |[CLR (Unified Communications Managed API 5,0 Runtime)](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Juin 2018        |
 |[Skype entreprise Server 2019, Pack d’administration](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Juin 2018        |
 |||
@@ -54,8 +55,9 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour cumulative 11 du serveur Skype entreprise Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 14 juillet 2020 |
 |Mise à jour cumulative 11 pour Skype entreprise Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 mai 2020 |
-|Mise à jour cumulative 10 du correctif logiciel 1 pour Skype entreprise Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
+|Mise à jour cumulative 10 du correctif logiciel 1 pour Skype entreprise Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
 |Mise à jour cumulative 10 pour Skype entreprise Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2019 |
 |Mise à jour cumulative 9 pour Skype entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| Mai 2019 |
 |Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janvier 2019|
@@ -77,7 +79,7 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom/lien du package|Date de publication|
 |:--- |:--- |
-|[KIT DE DÉVELOPPEMENT LOGICIEL (SDK) UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mai 2015       |
+|[KIT DE DÉVELOPPEMENT LOGICIEL (SDK) UCMA 5,0 ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mai 2015       |
 |[CLR (Unified Communications Managed API 5,0 Runtime)](https://www.microsoft.com/download/details.aspx?id=47344)     |   Mai 2015      |
 |[Skype entreprise Server 2015, Pack d’administration](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Juin 2019       |
 |||
@@ -88,6 +90,7 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Lync Server 2013 mise à jour cumulative 10 correctif logiciel 4 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Juin 2020|
 |Lync Server 2013 mise à jour cumulative 10 correctif logiciel 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septembre 2019|
 |Mise à jour cumulative 10 pour Lync Server 2013, correctif 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Juin 2019|
 |Mise à jour cumulative 10 pour Lync Server 2013, correctif 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Janvier 2019|
@@ -262,7 +265,7 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[article 824684 de la base de connaissances](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installer Skype entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [Mise à niveau vers Skype entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)

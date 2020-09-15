@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs du routage direct du système Microsoft Phone.
-ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656145"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814543"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Permettre aux utilisateurs d’utiliser le routage direct, les appels vocaux et la messagerie vocale
 
 Cet article explique comment permettre aux utilisateurs de routage direct du système téléphonique.  Vous trouverez ci-dessous l’étape 2 de la procédure de configuration du routage direct :
 
 - Étape 1. [Connecter l’SBC avec un système Microsoft Phone et valider la connexion](direct-routing-connect-the-sbc.md) 
-- **Étape 2. Permettre aux utilisateurs d’utiliser le routage direct, la voix et** la boîte vocale (cet article)
+- **Étape 2. Permettre aux utilisateurs d’utiliser le routage direct, la voix et**   la boîte vocale (cet article)
 - Étape 3. [Configurer le routage de la voix](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
 
@@ -53,16 +53,32 @@ Si votre déploiement de Skype entreprise Online existe avec Skype entreprise 20
 
 Pour plus d’informations sur la gestion des licences, voir gestion des [licences et autres exigences](direct-routing-plan.md#licensing-and-other-requirements) dans [planifier le routage direct](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est connecté en ligne 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Assurez-vous que l’utilisateur est en ligne et que le numéro de téléphone n’est pas synchronisé à partir de l’emplacement local (en application de la migration des utilisateurs de Skype entreprise Server entreprise vers le routage direct Teams)
 
-Le routage direct nécessite que l’utilisateur soit hébergé en ligne. Vous pouvez vérifier en examinant le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com.
+Le routage direct nécessite que l’utilisateur soit hébergé en ligne. Vous pouvez vérifier en examinant le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com. Le paramètre OnPremLineUriManuallySet doit également être défini sur true. Pour cela, il est possible de configurer le numéro de téléphone et d’activer la voix et la boîte vocale d’entreprise en utilisant PowerShell Skype entreprise online.
 
-1. Connectez-vous à Remote PowerShell.
+1. Connectez une session PowerShell Skype entreprise online.
+
 2. Émettez la commande suivante : 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
+    Dans le cas où OnPremLineUriManuallySet est défini sur false et que LineUri est renseigné avec un <numéro de téléphone E. 164>, nettoyez les paramètres à l’aide de Skype entreprise Online Management Shell avant de configurer le numéro de téléphone dans PowerShell Skype entreprise online. 
+
+1. Dans l’interpréteur de commandes de Skype entreprise, exécutez la commande suivante : 
+
+   ```PowerShell
+   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+    ``` 
+   Une fois les modifications synchronisées avec Office 365, la sortie attendue `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` serait la suivante :
+
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configuration du numéro de téléphone et activation de la voix et de la boîte vocale entreprise 
 
@@ -70,13 +86,14 @@ Une fois que vous avez créé l’utilisateur et attribué une licence, l’éta
 
 Pour ajouter le numéro de téléphone et l’activer pour la boîte vocale, procédez comme suit :
  
-1. Se connecter à une session PowerShell distante. 
-2. Entrez la commande suivante : 
+1. Connectez une session PowerShell Skype entreprise online. 
+
+2. Émettez la commande suivante : 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
-
+    
     Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Beaune Low », entrez ce qui suit : 
 
     ```PowerShell
@@ -85,8 +102,8 @@ Pour ajouter le numéro de téléphone et l’activer pour la boîte vocale, pro
 
     Le numéro de téléphone utilisé doit être configuré en tant que numéro de téléphone avec l’indicatif du pays. 
 
-      > [!NOTE]
-      > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’interpréteur de commandes ou le panneau de configuration Skype entreprise local pour configurer le numéro de téléphone de l’utilisateur. 
+    > [!NOTE]
+    > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’interpréteur de commandes ou le panneau de configuration Skype entreprise local pour configurer le numéro de téléphone de l’utilisateur. 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurer l’envoi d’appels directement à la boîte vocale

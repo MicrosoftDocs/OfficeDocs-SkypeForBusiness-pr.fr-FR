@@ -13,12 +13,12 @@ ms.collection:
 description: En savoir plus sur les dernières modifications dans teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405811"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814413"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notes de publication de Microsoft teams PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit le journal des modifications PowerShell d’teams pour les ve
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
+| 2020 septembre | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Intégration de connecteur Skype entreprise Online</li> |
 | 2020 septembre | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Intégration de connecteur Skype entreprise Online</li> |
 | 2020 juillet | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[Cmdlets d’attribution de stratégie de groupe](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) ajoutées</li> |
 | 2020 juin | [1.1.3-Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Intégration de connecteur Skype entreprise Online<li>Optimisations de la mise en équipe<li>Fiabilité améliorée</li> |
@@ -53,7 +54,7 @@ Cette page fournit le journal des modifications PowerShell d’teams pour les ve
 | [Déconnexion-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Oui | Oui |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Oui | Oui |
 | [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Oui | **Non** |
-| [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Oui | **Non** |
+| [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Oui | Oui |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Oui | Oui |
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Oui | Oui |
 | [Get-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | Oui | Oui |
@@ -68,7 +69,7 @@ Cette page fournit le journal des modifications PowerShell d’teams pour les ve
 | [Nouveau-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Oui | Oui |
 | [Nouveau-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Oui | Oui |
 | [Nouveau-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Oui | Oui |
-| [Nouveau-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Oui | **Non** |
+| [Nouveau-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Oui | Oui |
 | [Nouvelle équipe](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Oui | Oui |
 | [Nouveau-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Oui | Oui |
 | [Nouveau-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Oui | Oui |

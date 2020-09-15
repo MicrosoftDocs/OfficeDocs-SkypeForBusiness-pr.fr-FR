@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: f008d154099c57376fca914d576d7c9df4487780
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824935"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814463"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installer Microsoft teams PowerShell
 
@@ -82,13 +82,13 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Installation de Skype entreprise Online Connector
 
-> [!WARNING]
-> Le connecteur Skype entreprise Online fait actuellement partie de Team PowerShell public preview. Après avoir déployé cette fonction dans la version GA de teams PowerShell, le connecteur Skype entreprise Online ne sera plus disponible.
-
-Téléchargez et installez le [module PowerShell Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366), puis exécutez le code suivant dans PowerShell.
+> [!NOTE]
+>
+> Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+> Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession
@@ -140,7 +140,7 @@ Uninstall-Module MicrosoftTeams
 
 Vous êtes maintenant prêt à gérer teams à l’aide de teams PowerShell. Pour commencer, voir [gestion d’équipes avec teams PowerShell](teams-powershell-managing-teams.md) .
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des équipes avec PowerShell teams](teams-powershell-managing-teams.md)
 
