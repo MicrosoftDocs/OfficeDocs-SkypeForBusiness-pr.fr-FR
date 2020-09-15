@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible en Chine.
-ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230572"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766888"
 ---
 # <a name="availability-in-china"></a>Disponibilité en Chine
 
@@ -42,9 +42,9 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui, pour une utilisation par des utilisateurs situés en dehors de la Chine. Pour plus d’informations, contactez l’équipe de votre compte.  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Non géographique. Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. <br/>  Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> | Oui, sauf pour les clients qui achètent le service en Chine. Les fonctionnalités de numérotation sont désactivées pour les clients qui achètent le service en Chine.   <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 
@@ -71,7 +71,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Pékin  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
-|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), sauf pour les clients qui achètent le service en Chine. Les numéros sans frais ne sont pas disponibles pour les clients qui achètent le service en Chine. <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -81,9 +81,8 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |:-----|:-----|
 |Les crédits de communication sont-ils disponibles ?  <br/> |Non  <br/> |
    
-Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 

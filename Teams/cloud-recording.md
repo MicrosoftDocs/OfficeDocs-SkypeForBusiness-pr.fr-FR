@@ -16,12 +16,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897803"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766908"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -36,8 +36,8 @@ En relation avec la [Réunion Teams de qui enregistre la documentation de l’ut
 
 Pour que les réunions d’un utilisateur d’équipes puissent être enregistrées, Microsoft Stream doit être activé pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui lance l’enregistrement :
 
-- L’utilisateur dispose d’Office 365 E1, E3, E5, a1, a3, a5, M365 Business Premium, M365 Business standard ou M365 entreprise Basic.
-- L’utilisateur doit disposer d’une licence Microsoft Stream <sup>1</sup> 
+- L’utilisateur dispose d’Office 365 E1, E3, E5, a1, a3, a5, Microsoft 365 Business Premium, Business standard ou Business basique<sup>1</sup>
+- L’utilisateur doit avoir une licence pour Microsoft Stream<sup>2</sup> 
 - L’utilisateur doit disposer des autorisations nécessaires au chargement des vidéos Microsoft Stream
 - L’utilisateur doit avoir accepté les directives de l’entreprise configurées par l’administrateur, le cas échéant.
 - L’utilisateur doit disposer de l’espace de stockage suffisant dans Microsoft Stream pour sauvegarder les enregistrements
@@ -45,7 +45,9 @@ Pour que les réunions d’un utilisateur d’équipes puissent être enregistr�
 - L’utilisateur ne doit pas être un utilisateur anonyme, invité ou fédéré de la réunion
 - Pour activer la transcription de la réunion d’un utilisateur, la stratégie de réunion teams à laquelle vous êtes affecté doit avoir le paramètre-AllowTranscription défini sur true.
 
-<sup>1</sup> l’utilisateur doit être titulaire d’une licence pour télécharger et télécharger des réunions dans/à partir de Microsoft Stream, mais il n’est pas nécessaire d’enregistrer une réunion. Si vous souhaitez empêcher un utilisateur d’enregistrer une réunion Microsoft Teams, vous devez accorder une TeamsMeetingPolicy dont AllowCloudRecording a la valeur $False.
+<sup>1</sup> à compter du 20 août 2020, l’accès au fichier d’enregistrement de la réunion expire après 21 jours pour les utilisateurs avec a1. Pour plus d’informations, voir [charger un enregistrement de réunion Microsoft teams dans un flux](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+
+<sup>2</sup> l’utilisateur doit être titulaire d’une licence pour télécharger et télécharger des réunions dans/à partir de Microsoft Stream, mais il n’est pas nécessaire d’enregistrer une réunion. Si vous souhaitez empêcher un utilisateur d’enregistrer une réunion Microsoft Teams, vous devez accorder une TeamsMeetingPolicy dont AllowCloudRecording a la valeur $False.
 
 > [!IMPORTANT] 
 > Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream mais sont stockés dans Azure Media Services (AMS) avec une limite de 21 jours avant d’être supprimés. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
@@ -126,7 +128,8 @@ Pour en savoir plus sur l’emplacement de stockage des données entre les servi
 
 Ce paramètre détermine si les légendes et les fonctionnalités de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette fonctionnalité, les options **Rechercher** et **CC** ne seront pas disponibles lors de la lecture de l’enregistrement d’une réunion. Ce paramètre doit être activé pour la personne qui a créé l’enregistrement.
 
-**Notez** que la transcription pour les réunions enregistrées est uniquement prise en charge pour les utilisateurs qui disposent de la langue dans teams pour lesquelles l’anglais est lu lors de la réunion.
+> [!NOTE]
+> Pour le moment, cette transcription pour les réunions enregistrées est uniquement prise en charge pour les utilisateurs qui disposent de la langue dans teams pour les équipes définies en anglais et lorsque l’anglais est parlé dans la réunion. Ils sont stockés conjointement avec les enregistrements de la réunion dans le stockage cloud de Microsoft Stream.
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 

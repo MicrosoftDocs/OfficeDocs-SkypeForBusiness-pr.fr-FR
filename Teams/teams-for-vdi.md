@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803990"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766918"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -80,7 +80,11 @@ Pour obtenir les dernières exigences relatives au serveur et au client, consult
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>Espace de travail d’horizon VMware et configuration requise pour le Bureau
 
-VMware horizon fournit une prise en charge optimisée pour les équipes sur VDI pour une productivité accrue sur les ordinateurs de bureau virtuels. Vous pouvez télécharger la dernière version de VMware horizon sur la page [téléchargements de VMware](https://my.vmware.com/web/vmware/downloads/#all_products) .
+VMware horizon est une plate-forme moderne pour la remise sécurisée d’applications et de bureaux virtuels dans le Cloud hybride. Pour offrir une remarquable qualité de l’utilisation de l’utilisateur final, VMware horizon fournit une optimisation multimédia pour Teams. Cette optimisation améliore la productivité générale des bureaux et applications virtuels, et améliore l’expérience utilisateur lors de l’appel et de la réunion à l’aide d’équipes.
+
+Vous pouvez télécharger la dernière version de VMware horizon sur la page [téléchargements de VMware](https://my.vmware.com/web/vmware/downloads/#all_products) . Les composants d’optimisation de média requis font partie du client de l’agent d’horizon et de l’horizon par défaut, et il est inutile d’installer un plug-in supplémentaire pour utiliser la fonctionnalité d’optimisation des équipes.
+
+Pour obtenir les dernières exigences et instructions sur la configuration de l’optimisation des contenus multimédias pour Teams, consultez [ce site Web VMware](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installation ou mise à jour de l’application de bureau teams sur VDI
 
@@ -374,10 +378,12 @@ Les fonctionnalités d’appel et de réunion suivantes ne sont pas prises en ch
 - Amélioration des services d’urgence
 - Boutons HID et contrôles LED entre l’application et les appareils teams
 - Effets et atténuation d’arrière-plan
-- Événements de diffusion/en temps réel
+- Rôles de présentateur et de producteur d’événement de diffusion
 - Routage basé sur l’emplacement (LBR)
 - Parcage d'appel
 - File d’attente d’appels
+- Son de l’ordinateur du système partagé
+- Contournement de média pour le routage Direct
 
 > [!NOTE]
 > Nous travaillons actuellement pour ajouter des fonctionnalités d’appel et de réunion qui ne sont disponibles que dans les environnements non-VDI. Il peut s’agir de davantage de contrôle d’administration sur la qualité, de scénarios de partage d’écran supplémentaires et de fonctionnalités avancées récemment ajoutées à Teams. Contactez votre représentant pour en savoir plus sur les fonctionnalités à venir.
@@ -406,7 +412,7 @@ Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de suppor
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
