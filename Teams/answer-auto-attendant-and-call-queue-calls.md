@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672875"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766858"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -62,6 +62,11 @@ La prise en charge des appels de standard automatique et de file d’attente d�
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurer le standard automatique et la prise en charge de la file d’attente des appels pour Microsoft teams
 
 Pour recevoir des appels de standard automatique et de file d’attente d’appels sur Microsoft Teams, vous devez configurer votre stratégie d’interopérabilité et votre stratégie de mise à niveau. Passez en revue la [migration et l’interopérabilité des organisations qui utilisent des équipes dans Skype entreprise](migration-interop-guidance-for-teams-with-skype.md). Si vous n’avez pas configuré le standard automatique et/ou la file d’attente d’appels, puis souhaitez le faire, voir [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md) et [créer une file d’attente d’appels Cloud](create-a-phone-system-call-queue.md).
+
+## <a name="known-issues"></a>Problèmes connus
+
+Lorsqu’un agent de files d’attente d’appels reçoit un appel sur son appareil mobile, des appels doivent être suspendus si l’appareil est verrouillé. L’utilisateur doit d’abord déverrouiller l’appareil, puis répondez à l’appel.
+
 
 ## <a name="related-topics"></a>Voir aussi
 
