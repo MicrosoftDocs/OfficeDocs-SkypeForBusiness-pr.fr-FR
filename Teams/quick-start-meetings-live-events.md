@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814394"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820618"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
 Deux méthodes s’offrent à vous pour les réunions et événements en direct dans Microsoft Teams. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements en direct au sein de votre organisation. 
+
+> [!Note]
+> Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 300* personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone. 
 
@@ -43,9 +46,6 @@ Les contacts qui organisent, planifient et hébergent des réunions ou des évé
 > <sup>1</sup>  Les organisateurs de réunions doivent disposer d’une [Licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour envoyer une invitation incluant la conférence rendez-vous.
 >
 > <sup>2</sup>  L’appel sortant de réunion vers la fonctionnalité [**M’appeler** au numéro](set-up-the-call-me-feature-for-your-users.md) exige des organisateurs qu’ils disposent de E5 ou d’une [licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Un [plan de numérotation](what-are-dial-plans.md) peut également être nécessaire. 
-
- > [!Note]
- > Pour plus d’informations, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
