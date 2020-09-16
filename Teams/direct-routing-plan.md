@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359400"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820638"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -230,7 +230,7 @@ Les noms de domaine complets – sip.pstnhub.microsoft.com, sip2.pstnhub.microso
 - 52.114.16.74
 - 52.114.20.29
 
-Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip-all.pstnhub.microsoft.com est résolu sur toutes les adresses IP suivantes. 
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet **SIP-All.pstnhub.Microsoft.com** est résolu sur toutes les adresses IP suivantes. 
 
 
 ### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
@@ -257,7 +257,7 @@ Le nom de domaine complet (FQDN sip.pstnhub.gov.teams.microsoft.us) sera résolu
 - 52.127.88.59
 - 52.127.92.64
 
-Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu. Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet **SIP-All.pstnhub.gov.Teams.Microsoft.us** est résolu sur toutes les adresses IP suivantes. Ce nom de domaine complet peut également être utilisé en tant que FQDN fédéré pour la classification d’appel entrant.
 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 

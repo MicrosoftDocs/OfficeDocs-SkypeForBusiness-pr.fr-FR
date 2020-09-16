@@ -19,18 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 31207fe6720b62653076958ab1005df25579880d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583983"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814864"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
-Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation. 
+Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.
 
-Pour commencer, regardez notre courte vidéo sur les conversations, équipes et canaux Teams (4:30 minutes) : 
+Pour commencer, regardez notre courte vidéo sur les conversations, équipes et canaux Teams (4:30 minutes) :
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
@@ -40,6 +40,9 @@ Pour commencer, regardez notre courte vidéo sur les conversations, équipes et 
 
 > [!TIP]
 > Nous vous recommandons d’inclure nos applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, bots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
+
+ > [!Note]
+ > Pour plus d’informations, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="chat-deployment-prerequisites"></a>Conditions préalables pour le déploiement de Chat
 
@@ -143,7 +146,6 @@ Teams fournit un certain nombre d'applications premières (fournies par Microsof
 
 Pour en savoir plus sur le déploiement et la gestion des applications dans Teams, consultez notre guide approfondi [Applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md).
 
-
 ## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
 
 Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
@@ -183,7 +185,6 @@ Les organisations qui maintiennent un contrôle fin sur leur trafic internet dev
 |------------|-------|
 | Est-ce que j’ai besoin de règles d’accès internet pour permettre aux utilisateurs d’utiliser Teams ou est-ce suffisant d’ouvrir le minimum de ports requis ? | Pour plus d’informations, consultez [URL et plages d’adresses IP ](office-365-urls-ip-address-ranges.md).|
 |||
-
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>Gouvernance (conventions de création des noms, qui peut créer des équipes)
 
@@ -252,4 +253,3 @@ Office 365 pour le secteur public : GCC (cloud de communauté pour le secteur p
 - Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, bots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
 - [Mettre en place des réunions et des conférences](deploy-meetings-microsoft-teams-landing-page.md)
 - [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)
-

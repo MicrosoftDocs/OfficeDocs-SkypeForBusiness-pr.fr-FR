@@ -17,12 +17,12 @@ description: Configurez des événements en direct dans Teams, y compris la conf
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938503"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820528"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -98,6 +98,8 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 - **Kollective** est une plateforme de distribution intelligente par appairage basée sur le Cloud qui tire parti de votre infrastructure réseau existante pour transmettre du contenu, sous plusieurs formes (diffusion de vidéos en continu, vidéo à la demande, mises à jour de logiciels, correctifs de sécurité, etc.) plus rapidement, de manière fiable et en utilisant moins de bande passante. Notre plate-forme sécurisée est approuvée par les plus grandes institutions financières au monde. Sans nécessiter de matériel supplémentaire, la configuration et la maintenance en sont faciles. [En savoir plus](https://kollective.com/microsoft-pilot/).
  
 - **Ramp OmniCache** assure la distribution de réseau nouvelle génération et permet de distribuer de façon transparente du contenu vidéo sur les WAN globaux, afin d’aider les producteurs d’événements à optimiser la bande passante réseau et à prendre en charge la diffusion d’événements en direct et la diffusion à la demande. L’assistance pour Ramp OmniCache pour les événements en direct créés dans Teams sera disponible prochainement. [En savoir plus](https://rampecdn.com). 
+
+- **Riverbedx**, xxxxxxxxx xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX.  Les clients Microsoft 365 peuvent désormais optimiser le trafic 365, y compris les équipes et les flux, en plus d’un grand nombre d’autres services SaaS d’entreprise pour améliorer la productivité du personnel, où qu’ils se trouvent. L’accélération en équipe et en flux peut être activée par le biais d’une configuration simple, qui est assurée par toute l’assurance du support mondial d’Riverbed et de l’investissement actuel.
  
 > [!NOTE] 
 > La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers**, lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams. 

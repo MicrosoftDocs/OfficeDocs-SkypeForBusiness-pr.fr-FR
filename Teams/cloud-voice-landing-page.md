@@ -20,12 +20,12 @@ search.appverid: MET150
 description: En savoir plus sur la fonctionnalité voix sur le Cloud et comprendre les décisions de déploiement nécessaires.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814874"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820498"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>Options système de téléphonie vocale et connectivité PSTN
 
@@ -38,7 +38,7 @@ Cet article vous permet de déterminer si vous avez besoin de modifier des param
 Nous recommandons à toutes les organisations de travailler par le biais des décisions fondamentales puis, si votre organisation a des exigences supplémentaires, de consulter les documents suivants.
 
  > [!Note]
- > Pour plus d’informations, voir [fonctionnalités d’équipe par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+> Pour plus d’informations sur les fonctionnalités de système téléphonique sur différentes plateformes, voir [fonctionnalités d’équipes par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="learn-more-about-voice"></a>En savoir plus sur la voix
 
