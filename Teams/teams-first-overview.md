@@ -15,12 +15,12 @@ description: Suivez ces instructions pour déployer Microsoft teams en tant que 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 2f7acdfb092e74ae5e10e818b4007c4e22762a36
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691000"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950860"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Commencez par déployer Microsoft teams
 
@@ -100,25 +100,27 @@ Ce point de départ part du principe que votre organisation n’utilise pas Skyp
 <tbody>
 <tr class="odd">
 <td>Configuration des équipes client</td>
-<td>Le mode équipes uniquement, les fonctionnalités de conversation et d’appel ne sont disponibles que dans teams</td>
+<td>Le mode équipes uniquement, les fonctionnalités de conversation et d’appel ne sont disponibles que dans Teams.</td>
 </tr>
 <tr class="even">
 <td>Discussions/communications externes dans teams</td>
-<td><p>Internal (organisation Microsoft 365 ou Office 365) et communications externes possibles depuis teams</p>
-<p><em>Remarque : les entrées DNS doivent être configurées pour l’accès externe. Les enregistrements DNS de Skype entreprise sont nécessaires même si vous n’avez pas Skype entreprise local ou dans Microsoft 365 ou Office 365, pour autoriser la Fédération avec Lync et les environnements Skype entreprise.<br />
+<td><p>Internal (organisation Microsoft 365 ou Office 365) et communications externes possibles depuis Teams.</p>
+<p><em>Remarque : les entrées DNS doivent être configurées pour l’accès externe. Les enregistrements DNS de Skype entreprise sont nécessaires même si vous n’avez pas Skype entreprise local ou dans Microsoft 365 ou Office 365, pour autoriser la Fédération avec Lync et les environnements Skype entreprise :<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Enregistrements système de noms de domaine externes</a></em></p></td>
 </tr>
 <tr class="odd">
-<td><em>Créer et afficher des réunions dans Microsoft teams</em></td>
-<td><p><em>Possibilité de créer des réunions via le complément Outlook</em></p>
-<p><em>Les fonctionnalités de numérotation et de connexion RTC sont disponibles avec les licences de conférence audio.<br />
-Remarque : l’accès au calendrier teams nécessite Exchange 2016 CU3 + local déployé avec Exchange hybride établi : <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">créer un déploiement hybride à l’aide de l’Assistant Configuration hybride</a><br />
-En plus de la configuration hybride Exchange, établissez l’authentification OAuth Exchange : <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">configurez l’authentification OAuth entre les organisations Exchange et Exchange Online</a> .</em></p></td>
+<td>Créer et afficher des réunions dans Microsoft teams</td>
+<td><p>Possibilité de créer des réunions internes et externes via le complément Outlook.</p>
+<p>Les fonctionnalités de numérotation et de connexion RTC sont disponibles avec les licences de conférence audio.</p>
+<p>L’accès au calendrier teams nécessite Exchange 2016 CU3 + local déployé avec Exchange hybride établi : <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">créer un déploiement hybride à l’aide de l’Assistant Configuration hybride.</a> </p>
+<p>En plus de la configuration hybride Exchange, établissez l’authentification OAuth Exchange : <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> configurez l’authentification OAuth entre les organisations Exchange et Exchange Online.</p>
+
+</p></td>
 </tr>
 <tr class="even">
 <td>Fonctions d’appel<br />
 VoIP/PSTN dans teams</td>
-<td><p>VoIP est disponible en interne et en externe sur le client</p>
+<td><p>VoIP est disponible en interne et en externe sur le client.</p>
 <p>Les services RTC peuvent être configurés via le système Microsoft Phone, ainsi que l’ajout d’un plan d’appel Microsoft ou du routage direct.</p></td>
 </tr>
 <tr class="odd">
@@ -138,11 +140,11 @@ Pour en savoir plus <a href="https://docs.microsoft.com/microsoftteams/admin-set
 <tr class="even">
 <td>Fonctionnalités de sécurité et de conformité</td>
 <td><ul>
-<li><p>Des stratégies de rétention sont disponibles</p></li>
-<li><p>la découverte électronique et les conservations juridiques pour la conformité aux messages de canal sont prises en charge</p></li>
-<li><p>Les stratégies de protection contre la perte de données (DLP) sont disponibles</p></li>
+<li><p>Des stratégies de rétention sont disponibles.</p></li>
+<li><p>la découverte électronique et les conservations juridiques pour la conformité aux messages de canal sont prises en charge.</p></li>
+<li><p>Des stratégies de protection contre la perte de données (DLP) sont disponibles.</p></li>
 </ul>
-<p>Ensemble complet des fonctionnalités disponibles avec Exchange Online, Exchange local prend en charge la plupart de ces fonctionnalités, voir <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Comment Exchange et teams interagissent</a> pour la liste complète.</p></td>
+<p>Ensemble complet des fonctionnalités disponibles avec Exchange Online ; Exchange sur site prend en charge la plupart de ces fonctionnalités. Pour obtenir une liste complète, voir <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Comment Exchange et teams interagissent</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -178,7 +180,7 @@ Ce point de départ part du principe que votre organisation utilise Skype entrep
 <tbody>
 <tr class="odd">
 <td>Configuration des équipes client</td>
-<td>Mode insulaire</td>
+<td>Mode îlot.</td>
 </tr>
 <tr class="even">
 <td>Discussions/communications externes dans teams</td>
@@ -186,16 +188,18 @@ Ce point de départ part du principe que votre organisation utilise Skype entrep
 </tr>
 <tr class="odd">
 <td>Créer et afficher des réunions dans Microsoft teams</td>
-<td><p>Possibilité de créer des réunions via le complément Outlook</p>
-<p>Les fonctionnalités de numérotation et de connexion RTC sont disponibles avec les licences de conférence audio.<br />
-L’accès au calendrier teams nécessite Exchange 2016 CU3 + local déployé avec Exchange hybride établi :<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Créer un déploiement hybride à l’aide de l’Assistant Configuration hybride</a></p></td>
+<td><p>Possibilité de créer des réunions internes et externes via le complément Outlook.</p>
+<p>Les fonctionnalités de numérotation et de connexion RTC sont disponibles avec les licences de conférence audio.</p>
+<p>L’accès au calendrier teams nécessite Exchange 2016 CU3 + local déployé avec Exchange hybride établi :<br />
+<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Créer un déploiement hybride à l’aide de l’Assistant Configuration hybride.</a></p>
+<p>L’administrateur peut contrôler le complément Outlook Skype entreprise par le biais de l’attribut PreferredMeetingProviderForIslandsMode de la stratégie de réunion teams :<a href="https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> Set-csteamsmeetingpolicy</a>.</p> 
+</td>
 </tr>
 <tr class="even">
 <td>Fonctions d’appel<br />
 VoIP/PSTN dans teams</td>
-<td><p>Le VoIP est disponible en interne sur le client</p>
-<p>Les services RTC ou de plan d’appel ne sont pas disponibles tant que l’utilisateur n’a pas été déplacé vers l’interface uniquement</p></td>
+<td><p>Le VoIP est disponible en interne sur le client.</p>
+<p>Les services RTC ou de plan d’appel ne sont pas disponibles tant que l’utilisateur n’a pas été déplacé vers l’interface uniquement.</p></td>
 </tr>
 <tr class="odd">
 <td>Collaborer sur équipes et canaux dans teams</td>
@@ -214,14 +218,12 @@ Pour en savoir plus <a href="https://docs.microsoft.com/microsoftteams/admin-set
 <tr class="even">
 <td>Fonctionnalités de sécurité et de conformité</td>
 <td><ul>
-<li><p>Des stratégies de rétention sont disponibles</p></li>
-<li><p>la découverte électronique et les conservations juridiques pour la conformité aux messages de canal sont prises en charge</p></li>
-<li><p>Les stratégies de protection contre la perte de données (DLP) sont disponibles</p></li>
+<li><p>Des stratégies de rétention sont disponibles.</p></li>
+<li><p>la découverte électronique et les conservations juridiques pour la conformité aux messages de canal sont prises en charge.</p></li>
+<li><p>Des stratégies de protection contre la perte de données (DLP) sont disponibles.</p></li>
 </ul>
-<p>Ensemble des fonctionnalités disponibles avec Exchange Online, Exchange sur site prend en charge la plupart de ces fonctionnalités, reportez-vous à</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Interaction entre Exchange et Microsoft Teams</a></p>
+<p>Ensemble complet des fonctionnalités disponibles avec Exchange Online ; Exchange sur site prend en charge la plupart de ces fonctionnalités. Pour obtenir la liste complète, voir <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Comment Exchange et teams interagissent.</a></p>
 <ul>
-<li><p>pour la liste complète</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -289,7 +291,7 @@ Pour des détails spécifiques sur chacun des services indiqués ci-dessus, suiv
   - Les [groupes Microsoft 365](office-365-groups.md) sont utilisés pour la création et la gestion d’équipes et de canaux.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Illustrations architecture IT Microsoft Teams et solutions téléphonie](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

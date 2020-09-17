@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158662"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940504"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Mise à niveau de Skype Entreprise Online vers Teams
 
@@ -50,7 +50,7 @@ Suivez les recommandations de cet article si vous avez entièrement déployé Sk
 
 Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en assignant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du centre d’administration Microsoft teams ou d’une session Windows PowerShell Skype entreprise distante. Vous pouvez effectuer cette opération sur une base par utilisateur ou sur une base d’un client si vous souhaitez mettre à niveau tout le client en une seule étape. 
 
-Pour plus d’informations, reportez-vous à [définition de votre coexistence et de vos paramètres de mise à](https://aka.ms/SkypeToTeams-SetCoexistence) [TeamsUpgradePolicy : gestion de la migration et de la coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Pour plus d’informations, reportez-vous à [définition de votre coexistence et de vos paramètres de mise à](https://aka.ms/SkypeToTeams-SetCoexistence) [TeamsUpgradePolicy : gestion de la migration et de la coexistence](upgrade-to-teams-on-prem-tools.md).
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>Mettre à niveau tous les utilisateurs en équipes en même temps
 
@@ -107,8 +107,8 @@ Le système téléphonique avec teams est pris en charge lorsque l’utilisateur
 
 Dans le cadre de la prise en compte des options de connectivité PSTN (réseau téléphonique commuté), il existe deux scénarios possibles lors du passage de Skype entreprise Online au mode TeamsOnly :
 
-- Un utilisateur de Skype entreprise Online avec un plan d’appels Microsoft. Suite à la mise à niveau, cet utilisateur aura besoin d’un plan d’appels Microsoft. Il s’agit du scénario le plus simple qui nécessite uniquement quelques étapes. Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec les offres d’appel Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+- Un utilisateur de Skype entreprise Online avec un plan d’appels Microsoft. Suite à la mise à niveau, cet utilisateur aura besoin d’un plan d’appels Microsoft. Il s’agit du scénario le plus simple qui nécessite uniquement quelques étapes. Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec les offres d’appel Microsoft](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
-- Un utilisateur de Skype entreprise Online avec la fonction vocale locale via Skype entreprise local ou la version Cloud Connector. La mise à niveau de l’utilisateur vers teams doit être coordonnée avec la migration de l’utilisateur pour diriger le routage afin de garantir que l’utilisateur TeamsOnly dispose de la fonctionnalité RTC.  Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec voix locale](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
+- Un utilisateur de Skype entreprise Online avec la fonction vocale locale via Skype entreprise local ou la version Cloud Connector. La mise à niveau de l’utilisateur vers teams doit être coordonnée avec la migration de l’utilisateur pour diriger le routage afin de garantir que l’utilisateur TeamsOnly dispose de la fonctionnalité RTC.  Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec voix locale](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice).
 
 

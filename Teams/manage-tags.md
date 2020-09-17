@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à gérer l’utilisation des indicateurs au sein de votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324012"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940524"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft teams
 
@@ -94,11 +94,11 @@ Pour ajouter des balises personnalisées et configurer le balisage par Shift (si
 
 ### <a name="create-and-assign-custom-tags"></a>Création et affectation de balises personnalisées
 
-Pour créer et affecter des balises personnalisées, sélectionnez **équipes** dans la partie gauche de l’application, puis recherchez votre équipe dans la liste. Cliquez sur **autres options**, puis sélectionnez **gérer les indicateurs**. Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
+Pour créer et affecter des balises personnalisées, sélectionnez **équipes** dans la partie gauche de l’application, puis recherchez votre équipe dans la liste. Sélectionnez **̇ ̇ ̇ plus d’options**, puis cliquez sur **gérer les balises**. Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
 
 ![Capture d’écran de l’application de balises dans le client teams ](media/manage-tags-teams.png)
 
-Pour supprimer un indicateur, supprimez tous les membres de l’équipe associés à la balise.
+Pour supprimer un indicateur, sélectionnez **̇ ̇ ̇ plus d’options** en regard de la balise, puis sélectionnez **Supprimer la balise**.
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>Configurer le balisage par le biais du changement (bientôt disponible)
 
@@ -110,7 +110,7 @@ Pour supprimer un indicateur, supprimez tous les membres de l’équipe associé
 
 Le marquage par Shift permet aux utilisateurs d’accéder aux personnes en déplacement en temps réel. Les notifications ne sont envoyées qu’aux personnes qui se trouvent sur la touche Maj au moment où une balise est utilisée pour démarrer une discussion ou dans un billet de canal.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Utilisation de balises dans teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 

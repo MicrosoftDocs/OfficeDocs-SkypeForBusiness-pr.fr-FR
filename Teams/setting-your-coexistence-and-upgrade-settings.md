@@ -18,14 +18,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a20e8c355df4103980dc9da460d003382c721800
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905556"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940604"
 ---
-# <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
+# <a name="set-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
 
 Lorsque vous effectuez une mise à niveau de vos utilisateurs Skype entreprise de manière à utiliser Teams, plusieurs options s’offrent à vous pour faciliter le processus de gestion des utilisateurs. Vous avez la possibilité de définir les paramètres de coexistence et de mise à niveau de tous les utilisateurs de votre organisation en une seule fois, ou de modifier les paramètres d’un seul ou d’un ensemble d’utilisateurs de votre organisation. Notez que les versions plus anciennes de clients Skype entreprise ne respectent pas ces paramètres. Pour plus d’informations sur les versions de client Skype entreprise, consultez la [page téléchargements et mises à jour Skype entreprise](https://docs.microsoft.com/skypeforbusiness/software-updates). 
@@ -40,7 +40,7 @@ Vous pouvez vous familiariser avec les modes disponibles en lisant la rubrique c
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le [Centre d’administration de Microsoft teams](https://admin.teams.microsoft.com/), dans le volet de navigation de gauche, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation. 
+1. Dans le [Centre d’administration de Microsoft teams](https://admin.teams.microsoft.com/), dans le volet de navigation de gauche, accédez à **Org-wide settings**  >  **mise à niveau des équipes**des paramètres à l’échelle de l’organisation. 
 
 2. En haut de la page **mise à niveau de teams** , modifiez les options suivantes comme vous le souhaitez.
     - Définissez le mode de **coexistence** .

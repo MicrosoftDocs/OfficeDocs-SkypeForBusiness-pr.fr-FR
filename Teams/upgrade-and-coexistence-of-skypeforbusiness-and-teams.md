@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158602"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940414"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
@@ -62,7 +62,7 @@ Pour vous guider dans le processus de prise de décision, vous devez vous famili
 
 Un utilisateur ayant migré vers teams n’utilise plus un client Skype entreprise, à l’exception de la participation à une réunion hébergée dans Skype entreprise. Toutes les conversations et les appels entrants dans le client teams de l’utilisateur, que l’expéditeur utilise teams ou Skype entreprise. Toutes les nouvelles réunions organisées par l’utilisateur mis à niveau seront planifiées en tant que réunions d’équipes. Si l’utilisateur tente d’utiliser le client Skype entreprise, le lancement de conversations et d’appels est bloqué<sup>1</sup>. Toutefois, l’utilisateur peut (et doit) toujours utiliser le client Skype entreprise pour participer aux réunions auxquelles il est invité.
 
-Les administrateurs gèrent leur transition vers teams à l’aide du concept de [mode](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), qui est une propriété de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un utilisateur migré vers teams comme décrit ci-dessus est en mode « TeamsOnly ». Dans le cas d’une organisation migrant vers Teams, l’objectif ultime consiste à déplacer tous les utilisateurs vers le mode TeamsOnly.
+Les administrateurs gèrent leur transition vers teams à l’aide du concept de [mode](migration-interop-guidance-for-teams-with-skype.md), qui est une propriété de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un utilisateur migré vers teams comme décrit ci-dessus est en mode « TeamsOnly ». Dans le cas d’une organisation migrant vers Teams, l’objectif ultime consiste à déplacer tous les utilisateurs vers le mode TeamsOnly.
 
 Il existe deux méthodes pour migrer une organisation existante avec Skype entreprise (en ligne ou sur site) vers teams :
 
@@ -92,7 +92,7 @@ Pour que cette méthode fonctionne efficacement, tous les utilisateurs doivent e
 
 Par exemple, si le destinataire du mode d’îlot est connecté à Skype entreprise, mais pas Teams, et qu’une personne en provient d’une équipe, le destinataire du mode îles ne verra pas le message (mais il recevra finalement un message électronique indiquant qu’il a manqué un message dans Teams). De même, si un utilisateur travaille sur Teams, mais pas sur Skype entreprise, et qu’il est adressé à un utilisateur de Skype entreprise, il ne verra pas la discussion. Le comportement dans chacun de ces cas est similaire pour les appels. Si les utilisateurs ne sont pas en mesure d’exécuter les deux clients, ils peuvent facilement susciter votre frustration.
 
-La présence fonctionne également indépendamment entre teams et Skype entreprise à l’aide de cette méthode de mise à niveau. Cela signifie que d’autres utilisateurs peuvent voir des États de présence différents pour l’utilisateur A, en fonction du client qu’il utilise. Pour en savoir plus, voir [présence](upgrade-to-Teams-on-prem-overview.md#presence).
+La présence fonctionne également indépendamment entre teams et Skype entreprise à l’aide de cette méthode de mise à niveau. Cela signifie que d’autres utilisateurs peuvent voir des États de présence différents pour l’utilisateur A, en fonction du client qu’il utilise. Pour en savoir plus, voir [présence](upgrade-to-Teams-on-prem-coexistence.md#presence).
 
 - Les autres utilisateurs, lors de l’utilisation d’équipes, verront leur présence en fonction de l’activité de l’utilisateur dans Teams.
 
@@ -102,7 +102,7 @@ Lorsque vous êtes prêt à mettre à niveau les utilisateurs vers le mode Teams
 
 Toutefois, les destinataires non mis à niveau en mode îlot peuvent continuer à recevoir des conversations et des appels de la part d’un utilisateur TeamsOnly dans leurs clients Skype entreprise ou équipes. Pour les conversations existantes, l’utilisateur TeamsOnly répond au client auquel l’expéditeur a lancé la discussion ou un appel à partir de. 
 
-En ce qui concerne les nouvelles conversations du point de vue de l’utilisateur TeamsOnly, l’appel ou la conversation s’affiche toujours sur le client du mode îlot utilisateurs Teams. En effet, le client teams gère des threads de conversation distinctes pour la communication équipes-à---------Skype entreprise, même pour le même utilisateur. Pour en savoir plus, reportez-vous à la section [conversations en équipe-interopérabilité et threads natifs](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads)
+En ce qui concerne les nouvelles conversations du point de vue de l’utilisateur TeamsOnly, l’appel ou la conversation s’affiche toujours sur le client du mode îlot utilisateurs Teams. En effet, le client teams gère des threads de conversation distinctes pour la communication équipes-à---------Skype entreprise, même pour le même utilisateur. Pour en savoir plus, reportez-vous à la section [conversations en équipe-interopérabilité et threads natifs](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)
 
 Le tableau suivant résume l’interface du mode de travail de l’équipe et du mode TeamsOnly :
 
@@ -124,7 +124,7 @@ Le tableau suivant récapitule les avantages et inconvénients de l’utilisatio
 
 <sup>2</sup> c’est vrai même si l’utilisateur est hébergé sur site dans Skype entreprise Server. Que l’utilisateur réside en local ou en ligne, laissez la licence Skype entreprise Online activée, car elle est actuellement requise pour les fonctionnalités complètes d’équipes.
 
-<sup>3</sup> Notez que la migration des réunions Skype entreprise vers des réunions teams est déclenchée uniquement lors de l’application de TeamsUpgradePolicy à des utilisateurs individuels, et non au niveau de chaque client. Pour plus d’informations, voir migration de la [réunion](upgrade-to-Teams-on-prem-overview.md#meeting-migration) .
+<sup>3</sup> Notez que la migration des réunions Skype entreprise vers des réunions teams est déclenchée uniquement lors de l’application de TeamsUpgradePolicy à des utilisateurs individuels, et non au niveau de chaque client. Pour plus d’informations, voir migration de la [réunion](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) .
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Sélectionner une méthode de fonctions (à l’aide du mode Skype entreprise)
 
@@ -136,9 +136,9 @@ Certaines organisations peuvent proposer à leurs utilisateurs finaux une plus g
 
 - Les utilisateurs en mode TeamsOnly reçoivent toutes les discussions et les appels entrants dans le client équipes et la présence est assurée par Teams, quel que soit le lieu d’origine de la communication : Teams, Skype entreprise ou tout type d’utilisateur fédéré.
 
-Contrairement à la méthode de superposition des capacités, dans la méthode sélectionner des fonctionnalités, les utilisateurs de Skype entreprise peuvent communiquer avec des utilisateurs dans TeamsOnly. La communication entre un utilisateur de Skype entreprise et des équipes est appelée [interopérabilité](upgrade-to-Teams-on-prem-overview.md#interoperability) ou « interopérabilité ». La communication d’interopérabilité est possible sur une base un-à-un pour les conversations et les appels entre un utilisateur dans Skype entreprise et un autre utilisateur dans Teams. De plus, les utilisateurs invités peuvent toujours participer à une réunion Skype entreprise ou Teams, mais ils doivent utiliser un client correspondant au type de réunion. Pour plus d’informations, reportez-vous à la section [réunions](upgrade-to-Teams-on-prem-overview.md#meetings).
+Contrairement à la méthode de superposition des capacités, dans la méthode sélectionner des fonctionnalités, les utilisateurs de Skype entreprise peuvent communiquer avec des utilisateurs dans TeamsOnly. La communication entre un utilisateur de Skype entreprise et des équipes est appelée [interopérabilité](upgrade-to-Teams-on-prem-coexistence.md#interoperability) ou « interopérabilité ». La communication d’interopérabilité est possible sur une base un-à-un pour les conversations et les appels entre un utilisateur dans Skype entreprise et un autre utilisateur dans Teams. De plus, les utilisateurs invités peuvent toujours participer à une réunion Skype entreprise ou Teams, mais ils doivent utiliser un client correspondant au type de réunion. Pour plus d’informations, reportez-vous à la section [réunions](upgrade-to-Teams-on-prem-coexistence.md#meetings).
 
-Pour les utilisateurs ayant procédé à une sélection de fonctionnalités, la présence d’un utilisateur est cohérente quel que soit le client utilisé par l’autre utilisateur. Si l’utilisateur se trouve dans l’un des modes Skype entreprise, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Skype entreprise. De même, si un utilisateur est en mode TeamsOnly, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Teams. Pour plus d’informations, voir [présence](upgrade-to-Teams-on-prem-overview.md#presence).
+Pour les utilisateurs ayant procédé à une sélection de fonctionnalités, la présence d’un utilisateur est cohérente quel que soit le client utilisé par l’autre utilisateur. Si l’utilisateur se trouve dans l’un des modes Skype entreprise, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Skype entreprise. De même, si un utilisateur est en mode TeamsOnly, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Teams. Pour plus d’informations, voir [présence](upgrade-to-Teams-on-prem-coexistence.md#presence).
 
 Dans le cas d’une organisation qui a choisi de suivre la méthode sélectionner des capacités, l’administrateur doit changer le mode de travail à l’échelle du client de îles en le mode de coexistence Skype entreprise approprié (SfbWithTeamsCollab ou SfBWithTeamsCollabAndMeetings).  
 
