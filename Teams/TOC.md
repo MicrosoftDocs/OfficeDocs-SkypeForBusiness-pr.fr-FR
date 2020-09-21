@@ -76,8 +76,6 @@
 #### [Résolution des problèmes liés à l’accès des invités](troubleshoot-guest-access.md)
 ## [Cortana dans Teams](cortana-in-teams.md)
 
-
-
 ## Gérer Teams
 ### [Rôles d’administrateur](using-admin-roles.md)
 ### [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [Attribuer des stratégies à vos utilisateurs.](assign-policies.md)
 ### [Afficher vos affectations de stratégie dans le journal d’activité](activity-log.md)
 ### [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+### [Bloquer l’accès à SharePoint pour des utilisateurs spécifiques](block-access-sharepoint.md)
 ### [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
 ### [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 ### [Gérer les stratégies de commentaires dans Teams](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
 ### [Liens fiables dans Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Stratégies de contrôle d’application AppLocker](applocker-in-teams.md)
+### [Bloquer l’accès à SharePoint](block-access-sharepoint.md)
 ## Conformité
 ### [Obstacles aux informations](information-barriers-in-teams.md)
 ### [Stratégies de rétention](retention-policies.md)
