@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255487"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135968"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -118,7 +118,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal. La valeur par défaut est « True ».
 
-![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
+[![Capture d’écran montrant l’icône Conférence maintenant sous un message ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ### <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
@@ -140,20 +140,23 @@ La planification d’une réunion est désactivée.
 
 La sélection du canal est désactivée.
 
-![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/meeting-policies-select-a-channel-to-meet-in.png)
+[![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 Dans la page billets de canal, les éléments suivants seront désactivés :
 
 - Bouton **planifier une réunion** dans la zone de rédaction de la réponse au canal.
-![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/schedule-meeting-disabled-in-chat2.png)
+  
 - Bouton **planifier une réunion** dans l’en-tête de canal.
-![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/schedule-now-in-header.png)
+  ![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/schedule-now-in-header.png)
 
 Dans le calendrier de canal :
 
 - Le bouton **Ajouter un nouvel événement** dans l’en-tête du calendrier du canal sera désactivé.
-![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/add-new-event-disabled.png)
+  ![Capture d’écran montrant l’option calendrier permettant de sélectionner le canal dans lequel vous souhaitez planifier une réunion.](media/add-new-event-disabled.png)
+
 - Les utilisateurs ne seront pas en mesure de faire glisser et sélectionner un bloc d’heure sur le calendrier du canal pour créer une réunion à partir du canal.
+
 - Les utilisateurs ne peuvent pas utiliser les raccourcis clavier pour créer une réunion dans le calendrier de canal.
 
 Dans le centre d’administration :
@@ -234,7 +237,7 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine le taux
 
 S’il n’y a pas assez de bande passante pour une réunion, un message s’affiche indiquant une mauvaise qualité du réseau.
 
-Pour les réunions qui ont besoin d’une vidéo de qualité optimale, telle que les réunions du tableau PDG et les événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia de teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario.
+Pour les réunions qui ont besoin d’une vidéo de qualité supérieure, telle que des réunions de tableau PDG et des événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de la stratégie de réunion-partage de contenu
 
@@ -333,7 +336,7 @@ Amanda ne peut pas partager le tableau blanc dans une réunion, même s’il s�
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. Pour l’instant, l’onglet **notes de réunion** est uniquement pris en charge dans les réunions dont la taille est inférieure à 20 participants.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. Pour l’instant, l’onglet **notes de réunion** est uniquement pris en charge dans les réunions ayant moins de 20 participants.
 
 Examinons l’exemple suivant.
 
@@ -359,9 +362,10 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
 
-Il s’agit d’une stratégie par organisateur qui permet la numérotation des conférences de conférences. Ce paramètre détermine si les utilisateurs de la Conférence rendez-vous peuvent participer à la réunion sans utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que l’utilisateur Dial doit patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Il s’agit d’une stratégie basée sur la Conférence rendez-vous pour les utilisateurs de conférences rendez-vous. Ce paramètre détermine si les utilisateurs d’appels entrants peuvent participer à la réunion sans un utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que les utilisateurs d’appels entrants peuvent patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
-**Remarques** Si la valeur est faux et qu’un utilisateur compose le numéro d’abord de la réunion et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants.
+> [!NOTE]
+> Si faux et que l’utilisateur d’un rendez-vous rejoint la réunion pour la première fois et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants.
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 
@@ -371,19 +375,22 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 
  Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
 
- **Remarques** Dans les options de la réunion, le paramètre est intitulé « qui peut éviter la salle d’attente ».
+> [!NOTE]
+> Dans les options de la réunion, le paramètre est intitulé « qui peut éviter la salle d’attente ». Si vous modifiez le paramètre par défaut d’un utilisateur, celui-ci est appliqué à toutes les nouvelles réunions organisées par cet utilisateur et à toute réunion antérieure dans laquelle l’utilisateur n’a pas modifié les options de la réunion.
   
 |Définition de la valeur  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion rejoignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations de confiance, les invités et les utilisateurs anonymes.     |
 |**Tout le monde au sein de votre organisation et organisations fédérées**     |Utilisateurs authentifiés au sein de l’organisation, y compris utilisateurs invités et utilisateurs d’organisations approuvées, joignez directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
 |**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs d’organisations approuvées et d’utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.           |
+|**Organisateur uniquement**    |Seuls les organisateurs de la réunion peuvent rejoindre la réunion directement sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations approuvées et d’utilisateurs anonymes doivent patienter dans la salle d’attente.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False. Lorsque la valeur est false, les utilisateurs se serviront dans la salle d’attente jusqu’à ce qu’ils soient joints à la réunion avec un client Teams. Lorsque la valeur est true, Dial se connecte automatiquement à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False. Lorsque la valeur est false, les utilisateurs d’appels entrants attendent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client d’équipe et les admet. Lorsque la valeur est true, les utilisateurs rendez-vous sont automatiquement joints à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
 
-**Remarques** Si un utilisateur compose un numéro joint à une réunion avant qu’un utilisateur de l’organisation ne rejoint la réunion, il est placé dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion par le biais d’un client d’équipe et les admet.
+> [!NOTE]
+> Si un utilisateur d’un rendez-vous rejoint une réunion avant qu’un utilisateur de l’organisation ne rejoint la réunion, il est placé dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion par le biais d’un client d’équipe et les admet. Si vous modifiez le paramètre par défaut d’un utilisateur, celui-ci est appliqué à toutes les nouvelles réunions organisées par cet utilisateur et à toute réunion antérieure dans laquelle l’utilisateur n’a pas modifié les options de la réunion.
 
 ### <a name="enable-live-captions"></a>Activer les légendes dynamiques
 

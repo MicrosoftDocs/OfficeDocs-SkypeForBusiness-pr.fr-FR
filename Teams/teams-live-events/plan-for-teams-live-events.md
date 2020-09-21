@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820488"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962815"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -128,7 +128,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Légendes et sous-titres en direct |&#x2714; |&#x2714; |&#x274C; |
 |Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; |&#x2714; |
 |Contrôles DVR de participants (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
-|Support eCDN partenaire |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
+|Support eCDN partenaire |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

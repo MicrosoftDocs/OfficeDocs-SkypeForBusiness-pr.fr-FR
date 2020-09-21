@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5987588fd3df8f327502eace7f31b29483a2eba
-ms.sourcegitcommit: ab56033346426a018a8a6920d67526a9772f644c
+ms.openlocfilehash: d29bc28de39c8d145914d3bddab4ed949ad0a338
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47363357"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962895"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Gérer les balises de périphérique de Microsoft teams
 
@@ -29,7 +29,7 @@ Dans Microsoft Teams, les balises d’appareil vous permettent de regrouper, d�
 
 Vous pouvez ajouter une balise d’appareil à plusieurs types d’appareils. Toutefois, lorsque vous ouvrez un volet d’appareil dans le centre d’administration, seuls les appareils de ce type sont renvoyés. Par exemple, vous pouvez affecter la balise « entreprise » aux appareils de bureau et aux salles d’équipes. Si vous recherchez la balise « société » alors que **Devices**vous utilisez des  >  **téléphones**mobiles, seuls les téléphones sont renvoyés. De même, si vous recherchez la balise « entreprise » dans **périphériques**  >  **équipes**, seuls les appareils de salle teams sont renvoyés.
 
-Pour gérer les balises d’appareil, vous devez être un administrateur général ou un administrateur de service Teams.
+Pour gérer les balises de périphériques, vous devez être un administrateur général, un administrateur de service teams ou un administrateur de périphériques Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
 
 > [!IMPORTANT]
 > Les balises d’appareil sont affectées au compte de ressources qui est connecté à un appareil. Si vous signez un compte de ressource sur un appareil et que vous l’utilisez pour vous connecter à un autre appareil, les balises d’appareil s’appliquent à un nouvel appareil.

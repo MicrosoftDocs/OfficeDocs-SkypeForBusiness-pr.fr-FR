@@ -3,7 +3,7 @@ title: Effectuer une mise à niveau vers teams à partir d’un déploiement loc
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: Mise à niveau de Skype Entreprise vers Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a7071cf6adbfa423e4c0fa12ac21a5bc777268
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2a6c4fb2e2f6433b21972a3c5e5c324d0c3d78f3
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940651"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955940"
 ---
 # <a name="upgrade-methods-mdash-for-it-administrators"></a>Méthodes de mise à niveau &mdash; pour les administrateurs informatiques
 
@@ -45,7 +45,7 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
 
 ## <a name="upgrade-methods"></a>Méthodes de mise à niveau
 
-Deux méthodes s’offrent à vous pour effectuer la mise à niveau d’une organisation existante avec Skype entreprise (en ligne ou en local) en équipes : méthodes de superposition et méthode Select.  Cet article vous permet de choisir la méthode correcte pour votre organisation en décrivant les deux méthodes et en présentant les avantages et inconvénients de chacune d’elles. 
+Deux méthodes s’offrent à vous pour effectuer la mise à niveau d’une organisation existante avec Skype entreprise (en ligne ou en local) en équipes : méthodes de superposition et méthode Select. Cet article vous permet de choisir la méthode correcte pour votre organisation en décrivant les deux méthodes et en présentant les avantages et inconvénients de chacune d’elles. 
 
 - [Méthode de superposition des capacités (à l’aide du mode îlot)](#overlapping-capabilities-method-using-islands-mode)
 
@@ -78,11 +78,11 @@ Lorsque l’utilisateur a est en mode îlot, la présence de l’utilisateur A c
 - Les autres utilisateurs, lors de l’utilisation d’équipes, verront leur présence en fonction de l’activité de l’utilisateur dans Teams. 
 - Les autres utilisateurs, lors de l’utilisation de Skype entreprise, verront leur présence en fonction de l’activité de l’utilisateur A dans Skype entreprise. 
 
-Cela signifie que d’autres utilisateurs peuvent voir des États de présence différents pour l’utilisateur A, en fonction du client qu’il utilise. Pour en savoir plus, voir [présence](upgrade-to-teams-on-prem-coexistence.md#presence).
+Cela signifie que d’autres utilisateurs peuvent voir des États de présence différents pour l’utilisateur A, en fonction du client qu’il utilise. Pour plus d’informations, voir [presence](upgrade-to-teams-on-prem-coexistence.md#presence).
 
 Lorsque vous êtes prêt à mettre à niveau les utilisateurs vers le mode TeamsOnly, vous pouvez mettre à niveau les utilisateurs individuellement ou procéder à la mise à niveau du client entier en une fois à l’aide de la stratégie à l’échelle du client. Une fois qu’un utilisateur a procédé à la mise à niveau vers le mode TeamsOnly, il reçoit toutes les discussions et les appels entrants dans Teams. (Notez que la migration de réunions Skype entreprise vers des réunions teams n’est déclenchée que lorsque vous appliquez TeamsUpgradePolicy à des utilisateurs individuels, et non au niveau de chaque client. Pour plus d’informations, voir migration de la [réunion](upgrade-to-teams-on-prem-tools.md#meeting-migration) .
 
-Toutefois, les destinataires non mis à niveau en mode îlot peuvent continuer à recevoir des conversations et des appels de la part d’un utilisateur TeamsOnly dans leurs clients Skype entreprise ou équipes.  En effet, le client teams gère des threads de conversation distinctes pour la communication équipes-à---------Skype entreprise, même pour le même utilisateur.  (Voir [conversations d’équipe-interopérabilité et threads natifs](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).)  Par exemple, supposons que l’utilisateur A utilise teams pour TeamsOnly l’utilisateur B. Lorsque l’utilisateur B répond à cette discussion, la communication s’affiche dans le client teams de l’utilisateur. Supposons que l’utilisateur A utilise son client Skype entreprise pour envoyer un message à TeamsOnly l’utilisateur B. l’utilisateur B recevra la discussion dans Teams, mais il s’agira d’une conversation distincte dans le client teams de l’utilisateur b par rapport à l’autre conversation. Si l’utilisateur B répond à cette conversation avec l’utilisateur A, il sera débarqué dans le client Skype entreprise de l’utilisateur. 
+Toutefois, les destinataires non mis à niveau en mode îlot peuvent continuer à recevoir des conversations et des appels de la part d’un utilisateur TeamsOnly dans leurs clients Skype entreprise ou équipes.  En effet, le client teams gère des threads de conversation distinctes pour la communication équipes-à---------Skype entreprise, même pour le même utilisateur.  (Voir [conversations d’équipe-interopérabilité et threads natifs](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).)  Par exemple, supposons que l’utilisateur A utilise teams pour TeamsOnly l’utilisateur B. Lorsque l’utilisateur B répond à cette discussion, la communication s’affiche dans le client teams de l’utilisateur. Supposons que l’utilisateur A utilise le client Skype entreprise pour envoyer un message à TeamsOnly l’utilisateur B. l’utilisateur B recevra la discussion dans Teams, mais il s’agira d’une conversation distincte dans le client teams de l’utilisateur b par rapport à l’autre conversation. Si l’utilisateur B répond à cette conversation avec l’utilisateur A, il sera débarqué dans le client Skype entreprise de l’utilisateur. 
 
 Le tableau suivant résume l’interface du mode de travail de l’équipe et du mode TeamsOnly :  
 

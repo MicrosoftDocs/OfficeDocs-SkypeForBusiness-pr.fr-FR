@@ -3,7 +3,7 @@ title: Effectuer une mise à niveau vers teams à partir d’un déploiement loc
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: Mise à niveau de Skype Entreprise vers Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa87941300f87abb320ddad7e8bc1311c62addf0
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: e146394b5f000ce984d7bfaff5e6674c2c091b98
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940574"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955885"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype entreprise vers teams &mdash; pour les administrateurs informatiques
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Mise à jour des téléphones et des barres de collaboration de Microsoft teams à l’aide du centre d’administration teams
-ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: e57ca3f357deeb005f845d37a17c4b20db5d2035
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125947"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962885"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour les appareils Microsoft teams à distance
 
@@ -34,20 +34,25 @@ Les mises à jour du microprogramme de périphériques peuvent être appliquées
 > [!NOTE]
 > Si les mises à jour de microprogramme de périphériques peuvent être planifiées, si la date et l’heure planifiées se trouvent après le délai maximal configuré de 30 ou 90, la mise à jour du microprogramme est appliquée lorsque le délai maximal est atteint. La date et l’heure planifiées ne sont pas prises en compte. En outre, la mise à jour des appareils Microsoft teams à distance est une fonctionnalité qui n’est pas encore disponible pour les clients du Cloud fédéral des États-Unis (GCC-High).
 
+Pour gérer les appareils, vous devez être un administrateur général, un administrateur de service teams ou un administrateur d’appareil Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
+
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Choisir le comportement de mise à jour automatique du microprogramme de périphérique
 
-Les mises à jour du microprogramme du périphérique s’appliquent automatiquement. Vous pouvez décider d’appliquer les mises à jour dès qu’elles sont mises à jour, ou 30 ou 90 jours après la sortie d’une mise à jour. Par défaut, les mises à jour du microprogramme de périphériques s’appliquent 30 jours après la sortie.
+Les mises à jour du microprogramme du périphérique s’appliquent automatiquement. Vous pouvez décider si vous souhaitez appliquer les mises à jour dès qu’une mise à jour est activée (si vous choisissez cette option, les mises à jour sont appliquées le premier week-end après la sortie d’une mise à jour) ou 30 ou 90 jours après la sortie d’une mise à jour. Par défaut, les mises à jour du microprogramme de périphériques s’appliquent 30 jours après la sortie.
 
 > [!IMPORTANT]
 > La dernière mise à jour du microprogramme n’est pas appliquée sur votre appareil Teams. Au lieu de cela, la mise à jour appliquée automatiquement sur votre appareil est retardée d’une version. Par exemple, supposons que votre appareil dispose de la version « 10 » appliquée et qu’une version « 11 » soit publiée. La version « 11 » n’est pas encore appliquée. Votre appareil est mis à jour à la place de la version « 11 » après la version « 12 ».
 
+> [!NOTE]
+> Certains appareils ne prennent pas en charge la mise à jour automatique du microprogramme actuellement. L’application des paramètres de mise à jour automatique du microprogramme sur les appareils qui ne prennent pas en charge les mises à jour automatiques n’aura aucun impact sur ces appareils. Pour savoir si votre appareil prend en charge les mises à jour automatiques du microprogramme, contactez le fabricant de votre appareil.
+
 Pour choisir le comportement de mise à jour automatique de vos appareils, procédez comme suit :
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitanthttps://admin.teams.microsoft.com
+1. Connectez-vous au centre d’administration Microsoft teams en visitant https://admin.teams.microsoft.com
 2. Parcourir les **appareils**  >  **mobiles** ou les **barres de collaboration**
 3. Sélectionner un ou plusieurs appareils, puis sélectionner **mettre à jour**
 4. Sous **mise à jour automatique du microprogramme**, sélectionnez l’une des options suivantes :
-    - Dès **que possible** La seconde mise à jour du microprogramme du périphérique est appliquée le plus rapidement possible après la sortie de la dernière mise à jour.
+    - Dès **que possible** La seconde mise à jour du microprogramme du périphérique est appliquée le premier week-end après la sortie de la dernière mise à jour.
     - **Différer de 30 jours** La seconde mise à jour du microprogramme du périphérique est appliquée 30 jours après la sortie de la dernière mise à jour.
     - **Différer de 90 jours** La seconde mise à jour du microprogramme du périphérique est appliquée 90 jours après la mise à jour de la dernière mise à jour.
 5. Sélectionnez **mettre à jour**
@@ -60,7 +65,7 @@ Lorsque vous mettez à jour un ou plusieurs appareils à l’aide du centre d’
 
 Pour mettre à jour manuellement des appareils distants, procédez comme suit :
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitanthttps://admin.teams.microsoft.com
+1. Connectez-vous au centre d’administration Microsoft teams en visitant https://admin.teams.microsoft.com
 2. Parcourir les **appareils**  >  **mobiles** ou les **barres de collaboration**
 3. Sélectionner un ou plusieurs appareils, puis sélectionner **mettre à jour**
 4. Sous **mises à jour manuelles**, sélectionnez **échéancier** si vous souhaitez planifier la mise à jour pour des dates et heures ultérieures. Les mises à jour sont appliquées à la date et l’heure du fuseau horaire sélectionné dans **TimeZone**.

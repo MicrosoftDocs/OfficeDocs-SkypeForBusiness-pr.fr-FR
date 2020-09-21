@@ -3,27 +3,27 @@ title: Effectuer une mise à niveau vers teams à partir d’un déploiement loc
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Mise à niveau de Skype Entreprise vers Teams
+description: Mise à niveau de Skype entreprise vers considérations relatives à la voix dans teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 075960ef47f5d708a72cabc8e3c492786c2a5112
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940650"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955884"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Considérations RTC lors de la mise à niveau vers teams &mdash; pour les administrateurs informatiques
 

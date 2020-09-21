@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583693"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135858"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft teams
 
@@ -34,7 +34,7 @@ Un modèle d’équipe personnalisé est une structure d’équipe prédéfinie 
 
 Pour commencer, procédez comme suit :
 
-1. Connectez-vous au centre d’administration à l’adresse  <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a> .
+1. Connectez-vous au centre d’administration Teams.
 
 2. Dans le volet de navigation de **Teams**gauche, développez  >  **modèles d’équipe**équipes.
 
@@ -57,7 +57,7 @@ Pour commencer, procédez comme suit :
     2. Dans la boîte de dialogue **Ajouter** , nommez le canal.
     3. Ajoutez une description.
     4. Décidez si le canal doit être affiché par défaut.
-    5. Recherchez le nom d’une application que vous voulez Addd au canal.
+    5. Recherchez le nom d’une application que vous souhaitez ajouter au canal.
     6. Cliquez sur **appliquer** lorsque vous avez terminé.
 
 ![Image de l’écran modèles d’équipe (canaux, onglets et applications).](media/template-channels-tabs-apps.png)
@@ -66,7 +66,7 @@ Pour commencer, procédez comme suit :
 
 Votre nouveau modèle s’affiche dans la liste **modèles d’équipe** . Le modèle peut être utilisé pour créer une équipe dans Teams.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Commencer à utiliser les modèles d’équipe dans le centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de barres de collaboration pour Microsoft Teams.
-ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410449"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962905"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Déploiement de barres de collaboration pour Microsoft teams
 
@@ -29,6 +29,8 @@ Le déploiement des barres de collaboration de Microsoft teams peut être subdiv
 - **Disponibilité du site** Vérifiez que vos emplacements de déploiement (salles) répondent aux exigences de déploiement.
 - **Disponibilité du service** Créez des comptes de ressources et affectez-les aux appareils ([voir créer un compte de ressources à l’aide du centre d’administration 365 Microsoft](resource-account-ui.md)). Bien que nous vous recommandons d’utiliser une licence de salle dédiée, un compte d’utilisateur final sous licence peut également se connecter aux barres de collaboration.
 - **Configuration et déploiement** Configurez les barres de collaboration dans les salles et reliez les périphériques dont vous avez besoin (voir la documentation du fabricant pour vos barres de collaboration).
+
+Pour gérer les barres de collaboration, vous devez être un administrateur général, un administrateur de service teams ou un administrateur de périphériques Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
 
 ## <a name="site-readiness"></a>Disponibilité du site
 
@@ -118,7 +120,7 @@ Nous vous recommandons de configurer les fichiers de construction pour le tablea
 
 Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le compte de ressources connecté et les périphériques périphériques.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer les comptes pour les barres de collaboration de Microsoft teams à l’aide du centre d’administration Microsoft teams](resource-account-ui.md)
 

@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868703"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135878"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -147,7 +147,7 @@ Chaque stratégie individuelle reçoit le nom du package de stratégie afin de v
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Stratégies à attribuer pour la sécurité des étudiants
 
-### <a name="meeting-policies"></a>Stratégies de réunion
+### <a name="meeting-policies-for-students"></a>Stratégies de réunion pour les étudiants
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Désactiver la fonction de création et de démarrage de réunions
 
@@ -216,7 +216,7 @@ Options disponibles ici :
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="Page Étudiant en sciences de l’éducation en formation à distance avec les options vidéo affichées.":::
 
-### <a name="live-events-policies"></a>Stratégies d’événements en direct
+### <a name="live-events-policies-for-students"></a>Stratégies d’événements en direct pour les étudiants
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>Désactiver la fonction de création et de démarrage d’événements en direct
 
@@ -224,7 +224,7 @@ Pour vous assurer que les étudiants ne peuvent pas planifier d’événements e
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Page Étudiant en sciences de l’éducation en formation à distance avec l’option Autoriser la planification désactivée.":::
 
-### <a name="calling-policies"></a>Stratégies d’appel
+### <a name="calling-policies-for-students"></a>Stratégies d’appel pour les étudiants
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>Désactiver la possibilité de passer des appels privés
 
@@ -232,7 +232,7 @@ Pour vous assurer que les étudiants ne peuvent pas passer d’appels privés av
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="Page Étudiant en sciences de l’éducation en formation à distance avec l’option Passer des appels privés désactivée.":::
 
-### <a name="messaging-policies"></a>Stratégies de messagerie
+### <a name="messaging-policies-for-students"></a>Stratégies de messagerie pour les étudiants
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Désactiver la possibilité de supprimer ou de modifier les messages envoyés
 
@@ -276,7 +276,7 @@ Les étudiants ne doivent pas avoir la possibilité de supprimer d’autres util
 
 ![Page Étudiant en sciences de l’éducation en formation à distance, avec l’option Supprimer des utilisateurs des conversations de groupe désactivée.](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Stratégies Teams
+### <a name="teams-policies-for-students"></a>Stratégies Teams pour les étudiants
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>Désactiver la possibilité de détecter et de créer des canaux privés
 
@@ -287,7 +287,7 @@ Pour vous assurer que les étudiants ne peuvent pas créer de canal privé comme
 > [!IMPORTANT]
 > Vous souhaiterez également veiller à ce que les étudiants ne puissent pas créer d’équipes dans Microsoft Teams. Il s’agit en fait d’un paramètre de groupes M365, et vous pouvez en savoir plus à ce sujet dans[Gérer les personnes autorisées à créer des Groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
-### <a name="app-permission-policies"></a>Stratégies d’autorisation d’application
+### <a name="app-permission-policies-for-students"></a>Stratégies d’autorisation d’application pour les étudiants
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>Contrôler si les étudiants peuvent ajouter des applications au sein de Teams
 
@@ -309,7 +309,7 @@ Il s’agit de paramètres de stratégie recommandés que les administrateurs do
 > [!NOTE]
 > Les recommandations de stratégie pour les étudiants contiennent plus d’informations que les sections des enseignants mentionnées ci-dessous. Bien que vous puissiez définir les paramètres de stratégie conformément aux stratégies et procédures de votre établissement d’enseignement, les recommandations fournies ici concernent particulièrement la sûreté et la sécurité des étudiants.
 
-### <a name="meeting-policies"></a>Stratégies de réunion
+### <a name="meeting-policies-for-educators"></a>Stratégies de réunion pour les enseignants
 
 Ces paramètres permettront aux enseignants de contrôler l’accès à leurs réunions.
 
