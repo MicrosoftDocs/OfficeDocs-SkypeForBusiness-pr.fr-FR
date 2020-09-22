@@ -85,7 +85,6 @@
 ### [Attribuer des stratégies à vos utilisateurs.](assign-policies.md)
 ### [Afficher vos affectations de stratégie dans le journal d’activité](activity-log.md)
 ### [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
-### [Bloquer l’accès à SharePoint pour des utilisateurs spécifiques](block-access-sharepoint.md)
 ### [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
 ### [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 ### [Gérer les stratégies de commentaires dans Teams](manage-feedback-policies-in-teams.md)
@@ -733,7 +732,12 @@
 #### [Rechercher des événements dans le journal d’audit](audit-log-events.md)
 ## Confidentialité
 ### [Confidentialité et Microsoft Teams](teams-privacy.md)
+### [Pratiques de collecte de données](data-collection-practices.md)
 ### [Emplacement des données dans Teams](location-of-data-in-teams.md)
+### [Bloquer l’accès à SharePoint Online pour des utilisateurs spécifiques](block-access-sharepoint.md)
+### [Présentation du contrôle des stratégies](policy-control-overview.md)
+### [Données de diagnostic mobiles](policy-control-diagnostic-data-mobile.md)
+### [Données de diagnostic du client de bureau](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Surveillance, maintenance et résolution des problèmes
@@ -780,8 +784,6 @@
 # Référence
 
 ## [Spécifications et limites de Teams](limits-specifications-teams.md)
-## [Emplacement des données dans Teams](location-of-data-in-teams.md)
-## [Pratiques de collecte de données](data-collection-practices.md)
 
 ## Préparez-vous à déployer Teams
 ### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
