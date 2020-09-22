@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d377b18080d9208529b9c6196cd3879bd03a011f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584003"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177334"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Voici les paramètres d’applications que la plupart des organisations veulent 
 
 Teams fournit un certain nombre d'applications fournies par Microsoft et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services d’entreprise couramment utilisés dans Teams. Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications personnalisées envoyées via le [processus d’approbation du Store Teams](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
 
-Par défaut, toutes les applications fournies par Microsoft et les applications personnalisées sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe un paramètre global au niveau de l’organisation qui vous permet d’activer ou désactiver toutes les applications personnalisées pour toute votre organisation.
+Par défaut, toutes les applications tierces fournies par Microsoft et les applications personnalisées sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe des paramètres globaux au niveau de l’organisation qui vous permettent d’activer ou désactiver toutes les applications tierces et/ou personnalisées pour toute votre organisation.
 
 | Posez-vous la question | Action |
 |--------------|--------|
