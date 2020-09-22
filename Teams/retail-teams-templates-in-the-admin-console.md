@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cdac4b64f8a6fb10f3b36544e3361b6c413ad7
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136088"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171078"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>Utiliser les modèles commerciaux teams dans la console d’administration
 
@@ -45,7 +45,7 @@ Pour en savoir plus sur les modèles d’équipe en général, consultez la rubr
 
 Rassemblez vos collaborateurs au sein d’une interface centralisée pour gérer les tâches, partager des documents et résoudre les problèmes des clients. Intégrez des applications supplémentaires pour rationaliser les processus de début de & de fin de travail.
 
-| Type de modèle de base| | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
 |Organiser un Store| `retailStore`|Canaux <ul><li>Général<li>Remise du Shift</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 ||||
@@ -54,8 +54,7 @@ Rassemblez vos collaborateurs au sein d’une interface centralisée pour gérer
 
 Le modèle de collaboration responsable est idéal pour créer une équipe pour un ensemble de responsables pour collaborer entre des boutiques et des régions, etc. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe de collaboration en chef pour la région Californie et inclure tous les responsables du Windows Store de cette région ainsi que le responsable régional de cette région.
 
-| Type de modèle de base|  | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base| baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|- |----------------------------------------------------- |
 |Collaboration avec le responsable commercial|`retailManagerCollaboration` |Canaux <ul><li>Général<li>Opérations</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 ||||
-

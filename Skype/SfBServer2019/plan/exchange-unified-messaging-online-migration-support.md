@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359300"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177424"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -158,20 +158,20 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 | Media | Fonctionnalités utilisateur | Langues de salutation prises en charge | Détails : https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | Media | Fonctionnalités utilisateur | Règles de répondeur automatique |  | v | v    |
 | Media | Fonctionnalités utilisateur | Émettre un message sur le téléphone (RTC) | M’appeler sur ma cellule pour écouter le message vocal  | N | v    |
-| Media | Fonctionnalités utilisateur | Émettre au téléphone (auth)-pour lire un message | M’appeler sur mon appareil authentifié  | v | v    |
+| Media | Fonctionnalités utilisateur | Émettre au téléphone (auth)-pour lire un message | M’appeler sur mon appareil authentifié  | N | v    |
 | Media | Fonctionnalités utilisateur | Boîte aux lettres partagée entre plusieurs utilisateurs |  | v | v    |
 | Media | Fonctionnalités de l’appelant  | Expérience de l’appelant — messagerie vocale protégée | L’appelant peut choisir une option pour marquer un message enregistré comme protégé| N | v    |
 | Media | Fonctionnalités de l’appelant  | Expérience de l’appelant — messagerie vocale privée | L’appelant peut choisir une option pour marquer un message enregistré comme privé  | N | v    |
 | Media | Fonctionnalités de l’appelant  | Détection de silence   |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : l’administrateur peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme protégée | v | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la durée limite d’enregistrement  |     | v | v    |
-| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | N/A    | v    |
+| Media | Client-fonctionnalités d’administration | Modifier le délai d’expiration de la détection du silence    |  | S/O    | v    |
 | Media | Client-fonctionnalités d’administration | Modifier le nombre d’échecs d’entrée | CVM : préprogrammé préprogrammé sur 3 | N | v    |
 | Media | Client-fonctionnalités d’administration | Modifier la langue par défaut |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la transcription |  | v | v    |
 | Media | Client-fonctionnalités d’administration | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | Media | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | N/A    | v    |
+| Media | Client-fonctionnalités d’administration | Personnaliser les messages texte pour les utilisateurs activés|  | S/O    | v    |
 | Media | Client-fonctionnalités d’administration | Masquage de transcription|  | v | N    |
 | Media | Client-fonctionnalités d’administration | Stratégie de messagerie vocale    |   | v | v    |
 | Media | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | v    |

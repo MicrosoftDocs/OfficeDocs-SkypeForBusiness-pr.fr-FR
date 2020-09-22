@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135868"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171098"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Commencer à utiliser les modèles teams dans la console d’administration
 
@@ -74,7 +74,7 @@ Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou re
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ |----|----------------------------------------------------- |
 | Adopter Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canaux <ul><li>Général</li> <li>Annonces</li> <li>Coin des champions</li> <li>Formulaires d’équipe</li></ul> Logiciels <ul><li>Wiki</li>  <li>Calendrier</li> |
-| Gérer un projet |`com.microsoft.teams.template.ManageAnEvent`| Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gérer un projet |`com.microsoft.teams.template.ManageAProject`| Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
 | Gérer un événement|`com.microsoft.teams.template.ManageAnEvent` | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Budget</li> <li>Contenu</li><li>Logistique</li> <li>Planification</li> <li> Marketing et PR</li></ul> Logiciels<ul><li>Wiki</li><li>Associates</li> <li>YouTube</li> <li>Planificateur</li> <li>OneNote</li></ul> |
 |Utilisateurs intégrés|`com.microsoft.teams.template.OnboardEmployees` | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Discussions des employés</li> <li>Formation</li></ul>Logiciels<ul><li>Wiki</li><li>Civile</li></ul>|
 |Organiser le support technique| `com.microsoft.teams.template.OrganizeHelpDesk`|Canaux<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut en savoir plus sur une liste des problèmes connus de Microsoft Teams, notamment les mises à jour, l’interface utilisateur, le matériel et les comportements attendus.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761340"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177363"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -60,7 +60,7 @@ Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent 
 
 ***
 
-Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  En fonction du Dock ou de la console sélectionné (qui peut ne pas prendre en charge CEC, voir documentation du fabricant), un contrôleur d’espace de travail tel qu’un [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) peut être nécessaire pour activer le comportement souhaité. 
+Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  Selon le Dock ou la console sélectionné (qui n’est pas pris en charge par le CEC, voir documentation du fabricant), un contrôleur tel qu’une connexion [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron peut être nécessaire pour activer le comportement souhaité. 
 
 ***
 

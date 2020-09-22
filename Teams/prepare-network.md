@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583887"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177591"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -38,26 +38,23 @@ Si vous avez déjà [optimisé votre réseau pour microsoft 365 ou Office 365](h
     |Ports     |Ports UDP <strong>3478</strong> à <strong>3481</strong>        |
     |[Adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>et <strong>52.120.0.0/14</strong>         |
 
-> [!IMPORTANT]
-> Si vous avez besoin de fédérer avec Skype entreprise, en local ou en ligne, vous devrez configurer des enregistrements DNS supplémentaires.
->
->|Enregistrements CNAMe/nom d’hôte  |TTL  |Pointe vers l’adresse ou la valeur  |
->|---------|---------|---------|
->|SIP     |    3600     |    sipdir.online.lync.com     |
->|lyncdiscover     |   3600      |    webdir.online.lync.com     |
->
-
-
+    > [!IMPORTANT]
+    > Si vous avez besoin de fédérer avec Skype entreprise, en local ou en ligne, vous devrez configurer des enregistrements DNS supplémentaires.
+    >
+    >|Enregistrements CNAMe/nom d’hôte  |TTL  |Pointe vers l’adresse ou la valeur  |
+    >|---------|---------|---------|
+    >|SIP     |    3600     |    sipdir.online.lync.com     |
+    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
 2.  Avez-vous un domaine vérifié pour Microsoft 365 ou Office 365 (par exemple, contoso.com) ?
     
-      - Si votre organisation n’a pas déployé Microsoft 365 ou Office 365, voir [commencer](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
-      - Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Microsoft 365 ou Office 365, voir le [Forum aux questions sur les domaines](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
+    - Si votre organisation n’a pas déployé Microsoft 365 ou Office 365, voir [commencer](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+    - Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Microsoft 365 ou Office 365, voir le [Forum aux questions sur les domaines](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Votre organisation a-t-elle déployé Exchange Online et SharePoint Online ?
     
-      - Si votre organisation n’a pas Exchange Online, voir [comprendre comment Exchange et Microsoft teams interagissent](exchange-teams-interact.md).
-      - Si votre organisation ne dispose pas de SharePoint Online, voir [comprendre comment SharePoint Online et OneDrive entreprise interagissent avec Microsoft teams](sharepoint-onedrive-interact.md).
+    - Si votre organisation n’a pas Exchange Online, voir [comprendre comment Exchange et Microsoft teams interagissent](exchange-teams-interact.md).
+    - Si votre organisation ne dispose pas de SharePoint Online, voir [comprendre comment SharePoint Online et OneDrive entreprise interagissent avec Microsoft teams](sharepoint-onedrive-interact.md).
 
 Une fois que vous avez vérifié que vous répondez à ces exigences réseau, vous pouvez être prêt à [déployer teams](How-to-roll-out-teams.md). S’il s’agit d’une grande entreprise multinationale, ou si vous savez que vous avez des limitations réseau, poursuivez votre lecture pour découvrir comment évaluer et optimiser votre réseau pour Teams.
 
@@ -122,7 +119,7 @@ Pour une description détaillée de l’optimisation du réseau, y compris des r
 </tr>
 <tr class="even">
 <td>Configurer une connexion VPN de tunneling fractionné</td>
-<td><p>Nous vous recommandons de fournir un autre chemin pour le trafic d’équipes qui ignore le réseau privé virtuel (VPN), également connu sous le nom de [VPN de tunneling partagé](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing). Le tunneling fractionné signifie que le trafic pour Microsoft 365 ou Office 365 n’est pas transmis via le réseau privé virtuel mais qu’il accède directement à Microsoft 365 ou Office 365. Ignorer votre VPN aura un impact positif sur la qualité des équipes et réduit la charge des appareils VPN et du réseau de l’organisation. Pour implémenter une connexion VPN de tunneling fractionné, travaillez avec votre fournisseur de VPN.</p>
+<td><p>Nous vous recommandons de fournir un autre chemin pour le trafic d’équipes qui ignore le réseau privé virtuel (VPN), également connu sous le nom de <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">VPN de tunneling partagé</a>. Le tunneling fractionné signifie que le trafic pour Microsoft 365 ou Office 365 n’est pas transmis via le réseau privé virtuel mais qu’il accède directement à Microsoft 365 ou Office 365. Ignorer votre VPN aura un impact positif sur la qualité des équipes et réduit la charge des appareils VPN et du réseau de l’organisation. Pour implémenter une connexion VPN de tunneling fractionné, travaillez avec votre fournisseur de VPN.</p>
 <p>Autres raisons pour lesquelles nous vous conseillons de contourner le VPN :
 <ul>
 <li><p>Les réseaux privés virtuels ne sont généralement pas conçus ou configurés pour prendre en charge les contenus multimédias en temps réel.</p></li> 

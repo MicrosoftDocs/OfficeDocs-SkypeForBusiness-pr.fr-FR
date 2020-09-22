@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820328"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177224"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -78,7 +78,7 @@ Lorsque les utilisateurs lancent un appel à l'aide du client Microsoft Teams l
 ![Capture d'écran d'une boîte de dialogue Alerte de sécurité Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuration de pare-feu Windows sera modifiée même si l'invite est ignorée en sélectionnant Annuler. Deux règles de trafic entrant pour teams.exe seront créées avec une action de blocage pour les protocoles TCP et UDP.
+> La configuration du pare-feu Windows sera modifiée même lorsque l’invite sera fermée en sélectionnant « annuler ». Deux règles de trafic entrant pour teams.exe seront créées avec l’action autoriser pour les protocoles TCP et UDP.
 
 Si vous voulez empêcher les équipes d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs effectuent leur premier appel à partir d’une équipe, utilisez l' [exemple de script PowerShell-trafic entrant](#sample-powershell-script---inbound-firewall-rule) ci-dessous. 
 

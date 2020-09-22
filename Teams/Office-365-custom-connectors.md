@@ -17,17 +17,17 @@ description: Les connecteurs permettent à votre équipe de rester informée en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582471"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177214"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser Microsoft 365 et les connecteurs personnalisés de Microsoft teams
 =======================================================
 
-Les liens permettent de mettre à jour votre équipe en fournissant des mises à jour de contenu et de service fréquemment utilisées directement dans un canal. Les connecteurs permettent aux utilisateurs de Microsoft teams de recevoir des mises à jour de services populaires, tels que Twitter, Trello, Wunderlist, GitHub et Azure DevOps services dans le flux de conversation de leur équipe.
+Les liens permettent de mettre à jour votre équipe en fournissant des mises à jour de contenu et de service fréquemment utilisées directement dans un canal. Les connecteurs permettent aux utilisateurs de Microsoft teams de recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps services dans le flux de conversation de leur équipe.
 
 Tout membre d’une équipe peut relier son équipe aux services Cloud populaires avec les connecteurs si les autorisations de l’équipe le permettent, et tous les membres de l’équipe sont avertis des activités de ce service. Les connecteurs continuent de fonctionner même après que le membre qui a initialement configuré le connecteur est resté. Les membres d’une équipe disposant de l’autorisation d’ajout d’une fonction peuvent modifier les connecteurs configurés par d’autres membres.
 
@@ -40,19 +40,23 @@ Pour l’instant, vous pouvez ajouter des connecteurs à l’aide des clients de
 
 1. Pour ajouter un connecteur à un canal, cliquez sur les **points de suspension (...),** à droite du nom d’un canal, puis cliquez sur **connecteurs**.
 
-    ![Capture d’écran de l’interface équipes avec l’option connecteurs sélectionnée](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > [!div class="mx-imgBorder"]
+    > ![Capture d’écran de l’interface équipes avec l’option connecteurs sélectionnée](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2. Vous pouvez choisir parmi un large éventail de connecteurs disponibles, puis cliquez sur **Ajouter**.
 
-    ![Capture d’écran de la boîte de dialogue connecteurs montrant les connecteurs disponibles.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Capture d’écran de la boîte de dialogue connecteurs montrant les connecteurs disponibles.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3. Renseignez les informations requises pour le connecteur sélectionné et cliquez sur **Enregistrer**. Chaque connecteur nécessite un ensemble d'informations pour fonctionner correctement et certains peuvent également requérir l'ouverture d'une session au service à l'aide des liens fournis dans la page de configuration du connecteur.
 
-    ![Capture d'écran de la page de configuration du connecteur RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Capture d'écran de la page de configuration du connecteur RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4. Les données fournies par le connecteur sont automatiquement publiées dans le canal.
 
-    ![Capture d'écran de l'interface Teams affichant une conversation dans un canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    > [!div class="mx-imgBorder"]
+    > ![Capture d'écran de l'interface Teams affichant une conversation dans un canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Développer des connecteurs personnalisés
 ----------------------------

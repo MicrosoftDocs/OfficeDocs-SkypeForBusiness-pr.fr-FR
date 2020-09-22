@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135968"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177404"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -116,7 +116,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 
 ### <a name="allow-meet-now-in-channels"></a>Autoriser la Conférence maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal. La valeur par défaut est « True ».
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette option, les utilisateurs peuvent cliquer sur le bouton de **Conférence** pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est « True ».
 
 [![Capture d’écran montrant l’icône Conférence maintenant sous un message ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une
 
 ### <a name="allow-chat-in-meetings"></a>Autoriser la discussion dans les réunions
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur.
+Il s’agit d’un paramètre par participant. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur.
 
 <a name="bkparticipantsandguests"> </a>
 

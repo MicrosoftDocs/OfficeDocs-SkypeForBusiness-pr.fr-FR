@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820598"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171108"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -87,7 +87,7 @@ Pour un parcours guidé sur la création d’équipes, voir : [Créer une équi
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurer des expériences utilisateur à l’aide de stratégies
 
 > [!IMPORTANT]
-> Si vous avez besoin d’en savoir plus sur la façon de protéger vos étudiants durant les réunions, vous pouvez consulter [Garantir la sécurité des étudiants lors de l’utilisation de réunions dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Si vous voulez approfondir nos recommandations en matière de stratégie d’administration de la stratégie de l’administrateur, vous devez accéder aux [Stratégies Teams et aux packages de stratégie pour l’éducation](policy-packages-edu.md).
+> Pour en savoir plus sur les actions à prendre pour protéger les étudiants, consultez [Garantir la sécurité des étudiants dans Teams pour une formation à distance](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Si vous voulez approfondir nos recommandations en matière de stratégie d’administration de la stratégie de l’administrateur, vous devez accéder aux [Stratégies Teams et aux packages de stratégie pour l’éducation](policy-packages-edu.md).
 
 [Les stratégies Teams](teams-policies.md) offrent la possibilité de contrôler les options disponibles pour des utilisateurs ou groupes d’utilisateurs précis. Les stratégies peuvent être appliquées pour définir qui peut être autorisé à utiliser la conversation privée, l’appel privé, la planification de réunions, les types de contenus pouvant être partagés, etc.
 
