@@ -8,9 +8,11 @@
 
 # Formation
 ## [Vue d’ensemble](training-microsoft-teams-landing-page.md)
-## [Formation Teams par un instructeur](instructor-led-training-teams-landing-page.yml)
 ## [Formation sur Teams pour les administrateurs](itadmin-readiness.md)
 ## [Formation sur Teams pour les utilisateurs finaux](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Sessions Teams lors d’Ignite 2020](ignite-2020-landing-page.md)
+## [Formation à Teams en direct](instructor-led-training-teams-landing-page.yml)
+## [Formation à Teams en ligne](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Comment déployer Teams](How-to-roll-out-teams.md)
@@ -116,16 +118,18 @@
 ## [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ## [Utiliser Microsoft 365 ou Office 365 et des connecteurs personnalisés](Office-365-custom-connectors.md)
 ## [Consentement spécifique à la ressource](resource-specific-consent.md)
-## [Publier une application personnalisée envoyée par le biais de l’API d’envoi d’applications Teams](submit-approve-custom-apps.md)
-## [Publier une application personnalisée en téléchargeant un package d’application](upload-custom-apps.md)
+## Applications personnalisées
+### [Publier une application personnalisée envoyée par le biais de l’API d’envoi d’applications Teams](submit-approve-custom-apps.md)
+### [Gérer les applications Power Platform dans le centre d’administration Microsoft Teams](manage-power-platform-apps.md)
+### [Publier une application personnalisée en téléchargeant un package d’application](upload-custom-apps.md)
 ## [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Autorisations d’applications et points à prendre en compte](app-permissions.md)
 ## [Acheter des services pour les équipes applications tierces](purchase-third-party-apps.md)
 ## [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Gérer l’application Listes pour votre organisation dans Teams](manage-lists-app.md)
 ## [Gérer l’application Tâches pour votre organisation](manage-tasks-app.md)
-## [Gérer l’application Compliment dans le centre d’administration Teams](manage-praise-app.md)
 ## [Configurer la hiérarchie de ciblage de votre équipe](set-up-your-team-hierarchy.md)
+## [Gérer l’application Compliment dans le centre d’administration Teams](manage-praise-app.md)
 ## [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -619,7 +623,7 @@
 
 <!-- ============================================================ -->
 
-# Microsoft 365 pour les PME
+# Téléphonie Microsoft 365 Business
 ## [Qu’est-ce que Microsoft 365 pour les PME ?](business-voice/whats-business-voice.md)
 ## [Disponibilité selon les pays et les régions](business-voice/country-region-availability.md)
 ## Ce qu’il faut savoir avant d’acheter
@@ -981,5 +985,5 @@
 ### [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
 
 ## [Mettre à niveau le questionnaire de découverte](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Exporter du contenu avec l’API d’exportation Microsoft Teams](export-teams-content.md)
 ## [Notes de publication pour les fonctionnalités d’administration de Teams](release-notes/release-notes.md)
