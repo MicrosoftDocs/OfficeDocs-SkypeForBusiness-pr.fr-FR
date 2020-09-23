@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3cc7cdf9dc685e595a7efa3c0eddbf63f9ee79f1
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897694"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203727"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -119,6 +119,9 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
+
+>[!Note]
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 ### <a name="meeting-expiration"></a>Expiration de réunion
 
