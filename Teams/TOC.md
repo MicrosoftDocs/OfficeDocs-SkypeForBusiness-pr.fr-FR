@@ -113,6 +113,7 @@
 # Applications, robots et connecteurs
 
 ## [Vue d’ensemble](deploy-apps-microsoft-teams-landing-page.md)
+## [Intégration avec Power Platform](teams-power-platfom-integration.md)
 ## [Gérer les applications pour Teams](manage-apps.md)
 ## [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 ## [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
@@ -186,6 +187,7 @@
 ## [Réunions Teams sur les navigateurs non pris en charge](unsupported-browsers.md)
 ## [Configurer le partage de bureau dans Teams](configure-desktop-sharing.md)
 ## [Enregistrement de réunion cloud Teams](cloud-recording.md)
+## [Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion](tmr-meeting-recording-change.md)
 ## [Intégrations au centre de contacts](teams-contact-center.md)
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
 ## [Configurer la fonctionnalité M’appeler pour vos utilisateurs](set-up-the-call-me-feature-for-your-users.md)
@@ -258,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Interopérabilité de la vidéo cloud](cloud-video-interop.md)
 
 ## Événements en direct
@@ -293,14 +294,15 @@
 #### [Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Standards automatiques et files d’attente d’appels 
-#### [Les standards cloud automatiques, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
-#### [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
+#### [Planification](plan-auto-attendant-call-queue.md)
+#### [Configuration du standard automatique](create-a-phone-system-auto-attendant.md)
+#### [Configuration de la file d’attente des appels](create-a-phone-system-call-queue.md)
 #### [Exemple de petite entreprise : configurer un standard automatique](tutorial-org-aa.yml)
 #### [Exemple de petite entreprise : configurer une file d’attente des appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gérer les comptes de ressources Teams](manage-resource-accounts.md)
-#### [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
 #### [Configurer les jours fériés](set-up-holidays-in-teams.md)
 #### [Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Numérotation et référence vocale](dial-voice-reference.md)
 
 ### [Bloquer les appels entrants](block-inbound-calls.md)
 ### [Parcage d’appel et récupération](call-park-and-retrieve.md)
