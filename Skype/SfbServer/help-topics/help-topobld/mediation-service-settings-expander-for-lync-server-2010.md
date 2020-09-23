@@ -8,41 +8,41 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 'Vous modifiez les propriétés du service de médiation en définissant les propriétés suivantes :'
-ms.openlocfilehash: d5f46fb269925ace53a317caec4d9b75b3c4bbe4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 51fbd889d7e9d673fb75b1062a70ae55a9f8585c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819566"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215105"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres du service de médiation pour Lync Server 2010
  
 Vous modifiez les propriétés du service de médiation en définissant les propriétés suivantes :
   
-- **Ports d’écoute** : définissez le port **TLS** écouté par le service de médiation. Par défaut, la valeur du port TCP est le port 5067 sur TLS
+- **Ports d’écoute** : définissez le port **TLS** sur lequel le service de médiation écoutera. Par défaut, la valeur du port est TCP 5067 sur TLS
     
-    Vous avez la possibilité de définir la valeur du port TCP****. Par défaut, la valeur du port TCP est le port 5068.
+    Éventuellement, vous définissez la valeur du port **TCP**. Par défaut, la valeur du port TCP est 5068.
     
     > [!NOTE]
-    > Le paramètre de la valeur du port TCP est activé en sélectionnant **Activer le port TCP**. Pour plus d’informations sur les exigences des paramètres du port pour la communication avec le service de médiation, vous devez vous reportez à la documentation de votre passerelle de réseau téléphonique commuté (RTC) ou de votre système IP-PBX. 
+    > Le paramètre de la valeur du port TCP est activé en sélectionnant **Activer le port TCP**. Vous devriez consulter la documentation de votre passerelle de réseau téléphonique commuté (PSTN) ou de votre système IP-PBX pour obtenir la configuration requise des paramètres du port pour communiquer avec le service de médiation. 
   
-- Vous **activez le port TCP** pour définir la valeur du port des communications TCP à partir de votre passerelle RTC ou de votre système IP-PBX.
+- Vous pouvez **activer le port TCP** pour définir la valeur du port des communications TCP à partir de votre passerelle PSTN ou de votre système IP-PBX.
     
-- Une liste répertorie les **jonctions** (jonctions SIP [Session Initiation Protocol]), la **passerelle** (passerelle RTC ou système IP-PBX) et le **site** (site configuré pour la jonction et la passerelle).
+- Une liste d’éléments existants et actuellement associés en matière de **Jonction** (c’est-à-dire, jonctions SIP (Session Initiation Protocol)), de **Passerelle** (passerelle PSTN ou système IP-PBX) et de **Site** (site configuré pour la jonction et la passerelle).
     
-- Sélectionnez une jonction, une passerelle et un site et cliquez sur **Utiliser par défaut** pour définir la sélection comme valeur par défaut pour ce service de médiation. Sélectionnez la valeur par défaut actuelle, puis cliquez sur **Annuler par défaut** pour supprimer la sélection comme valeur par défaut actuelle. Sélectionnez ensuite une nouvelle valeur par défaut et cliquez sur **Utiliser par défaut**.
+- Sélectionnez une jonction, une passerelle et un site, puis cliquez sur **Utiliser par défaut** pour définir la sélection en tant que valeur par défaut pour ce service de médiation. Sélectionnez la valeur par défaut actuelle, puis cliquez sur **Annuler Par défaut** pour supprimer la sélection en tant que valeur par défaut actuelle. Sélectionnez ensuite une nouvelle valeur par défaut, puis cliquez sur **Utiliser par défaut**.
     
-  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+  **OK** permet d’accepter et de valider les modifications de la boîte de dialogue.
   
-  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+  **Annuler** permet d’annuler les modifications et de fermer la boîte de dialogue.
   
-  **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** permet d’afficher cet écran d’aide.
   
 

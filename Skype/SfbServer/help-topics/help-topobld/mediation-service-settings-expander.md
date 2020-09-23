@@ -8,32 +8,32 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-description: 'Dans Serveur de médiation, vous pouvez spécifier les éléments suivants :'
-ms.openlocfilehash: e6b89c61e84577af86576850f5c675861cfa3a80
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Pour le serveur de médiation, vous pouvez spécifier les éléments suivants :'
+ms.openlocfilehash: 9a6da594452b4675b3eed1ca734fa3b54c9117b9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819556"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215145"
 ---
 # <a name="mediation-service-settings-expander"></a>Expanseur des paramètres du service de médiation
 
-Dans **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
+Pour **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
 
-Si vous êtes collocating du serveur de médiation sur le pool frontal ou sur le serveur Standard Edition Server, activez la case à cocher Activer le **serveur de médiation**. Si vous choisissez de ne pas collocater le serveur de médiation, il n’y a aucun paramètre définissable dans cette section.
+Si vous colocaliser le serveur de médiation sur le pool frontal ou le serveur Standard Edition, activez la case à cocher **serveur de médiation colocalisé**. Si vous choisissez de ne pas colocaliser le serveur de médiation, cette section ne comporte aucun paramètre définissable.
 
-Si vous avez activé la colocalisation du serveur de médiation, vous devez définir la plage de port d’écoute sur le serveur pour le protocole TLS (Transport Layer Security). Par défaut, il s’agit du port 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif, et vous devez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est le port 5068.
+Si vous avez activé la colocalisation du serveur de médiation, vous devez définir la plage de ports d’écoute du serveur pour le protocole TLS (Transport Layer Security). Par défaut, ce port est 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP (Transmission Control Protocol) pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif et vous devez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est 5068.
 
-Vous définissez des passerelles RTC associées au serveur de médiation colocalisé. Si vous avez déjà défini des passerelles, celles-ci sont disponibles pour être associées au serveur de médiation.
+Vous définissez les passerelles PSTN qui sont associées au serveur de médiation colocalisé. Si vous avez déjà défini des passerelles, ces dernières pourront être associées au serveur de médiation.
 
-Si vous avez plusieurs passerelles associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez sélectionner une autre passerelle comme passerelle par défaut, sélectionnez la passerelle à utiliser par défaut, puis cliquez sur **Utiliser par défaut**. Pour désélectionner la passerelle par défaut, cliquez sur **Annuler par défaut**.
+Si plusieurs passerelles sont associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez choisir une autre passerelle comme passerelle par défaut, sélectionnez la passerelle que vous souhaitez utiliser par défaut, puis cliquez sur **Utiliser par défaut**. Pour désélectionner la passerelle par défaut, cliquez sur **Annuler Par défaut**.
 
-Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal Enterprise Edition ou du serveur Standard Edition Server, voir [définition et configuration de la topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [déploiement de serveurs de médiation et définition d’homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal Enterprise Edition ou d’un serveur Standard Edition, reportez-vous à [la rubrique Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 

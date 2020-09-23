@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902289"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203957"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -66,10 +66,13 @@ L’entrée vidéo est le fondement de l’événement en direct et peut varier 
 
     ![Capture d’écran montrant un événement en direct obtenu à l’aide d’une application ou d’un appareil externe](../media/teams-live-events-external-encoder.png "Capture d’écran montrant un événement en direct qui est réalisé à l’aide de la méthode de production d’une application ou d’un appareil externe")
 
+>[!Note]
+> Les modifications apportées à l’aide de Microsoft Stream to [OneDrive entreprise et de SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) seront une approche progressive. Au moment de l’exécution, vous serez en mesure de vous abonner à cette expérimentation en novembre, si vous voulez continuer à utiliser le flux de travail et que, à un 2021 moment donné, il est nécessaire que tous les clients utilisent OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+
 ### <a name="streaming-platform"></a>Plateforme en flux continu
 La plateforme de flux d’événements en direct se compose des éléments suivants :
 
-- **Services Azure Media**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous permet d’accéder à des services de diffusion vidéo en continu pour atteindre des audiences plus importantes sur les appareils mobiles les plus populaires du jour. Media Services permet d’améliorer l’accessibilité, la distribution et l’évolutivité, et de faciliter et de rendre plus rentables le contenu de flux vers vos audiences locales ou internationales, tout en protégeant votre contenu.
+- **Services Azure Media**:  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous permet d’accéder à des services de diffusion vidéo en continu pour atteindre des audiences plus importantes sur les appareils mobiles les plus populaires du jour. Media Services permet d’améliorer l’accessibilité, la distribution et l’évolutivité, et de faciliter et de rendre plus rentables le contenu de flux vers vos audiences locales ou internationales, tout en protégeant votre contenu.
 - **Réseau de distribution de contenu (CDN) Azure**: une fois que votre flux est actif, il est transmis via le [réseau de distribution de contenu (CDN) Azure](https://docs.microsoft.com/azure/cdn/). Azure Media Services fournit un CDN intégré pour les points de terminaison en flux continu. Cela permet d’afficher les flux partout dans le monde sans mise en mémoire tampon.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Réseau de distribution de contenu d’entreprise (eCDN)

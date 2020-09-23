@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177437"
+ms.locfileid: "48209483"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessions d’équipe pour enflammer 2020
 
@@ -55,7 +55,7 @@ ms.locfileid: "48177437"
 | Titre | Extraction            | Niveau| Leur |
 |---|----------|---|---|---|
 |[Introduction à l’utilisation de manifestations virtuelles : meilleures pratiques pour les organisateurs et les producteurs](https://aka.ms/PR101)|Cette session de cours en temps réel examine notre manuel d’événement virtuel pour les organisateurs d’événements et les professionnels de l’informatique.  Découvrez ce que vous devez savoir de KARUANA Gatimu, le Producer Technical, qui est le principal événement de l’équipe Microsoft teams au cours des étapes initiales du Pandemic.   Découvrez des conseils tirés de la transition de Microsoft vers des événements virtuels et la façon dont vous pouvez utiliser les réunions d’équipes et les événements en direct pour créer des événements percutants qui maintiennent votre organisation.  |300|Karuana Gatimu, Ashwin Appiah|
-|[Approfondissement de la gouvernance pour les groupes Office 365 et Microsoft teams](https://aka.ms/PR102)|Regardez ces mains sur une démonstration des outils de gouvernance capabilties et des outils qui vous permettent de gérer votre expérience de l’utilisateur final de Microsoft teams et de vous sentir sûr de la sécurité et de la conformité de vos informations. Inclut la configuration des fonctionnalités de complément Azure active Director. |300|Karuana Gatimu|
+|[Approfondissement de la gouvernance pour les groupes Office 365 et Microsoft teams](https://aka.ms/PR102)|Regardez ces mains sur une démonstration des fonctionnalités de gouvernance et des outils qui vous permettent de gérer votre expérience des utilisateurs finaux dans Microsoft teams et de vous garantir de la sécurité et de la conformité de vos informations. Inclut la configuration des fonctionnalités de complément Azure active Director. |300|Karuana Gatimu|
 |[Adoption industrielle-scénarios et fonctions spécifiques pour terrain, à but non lucratif, la santé et bien plus encore.](https://aka.ms/PR121)|Dans cette session basée sur le scénario, nous allons examiner les fonctionnalités, à la fois actuelles et nouvelles, dans le contexte des professionnels de l’informatique qui doivent y apporter leurs réponses.  Incluant les modèles d’utilisateur final et de ITPro, les fonctionnalités mobiles|200|KARUANA Gatimu, Kathy Minnis|
 |[Êtes-vous prêt à déployer Microsoft teams ?](https://aka.ms/PR127) |Dans cette session, nous allons parcourir les principaux produits et ressources qui peuvent vous aider à garantir le bon déroulement de votre déploiement d’équipes. D’outils et de ressources aux meilleures pratiques, cette session est une qui doit être une assistance Si la planification et le déploiement d’équipes sont dans votre liste de tâches.|300|Stephen rose|
 |[Déploiement d’équipes et gestionnaire de points de terminaison Microsoft](https://aka.ms/PR122)|Regardez des démonstrations des recommandations en matière de déploiement et de gestion de Microsoft teams à l’aide du gestionnaire de points finaux.|300|Mayunk Jain, Mayank Verma|

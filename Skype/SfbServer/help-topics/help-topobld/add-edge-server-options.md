@@ -8,36 +8,36 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
-description: 'Sélectionnez chaque fonctionnalité à activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu en utilisant un réseau privé virtuel (VPN). Pour les fonctionnalités de pool de serveurs Edge, vous disposez également des options suivantes :'
-ms.openlocfilehash: 34a5079c5baf5457e93171c5a61d0b91ef8f27c7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :'
+ms.openlocfilehash: dfcaafce36d525b676a606db4f164dfdd05f26ba
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820976"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216565"
 ---
 # <a name="add-edge-server-options"></a>Ajouter des options de serveur Edge
 
-Sélectionnez chaque fonctionnalité à activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu en utilisant un réseau privé virtuel (VPN). Pour les fonctionnalités de pool de serveurs Edge, vous disposez également des options suivantes :
+Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :
 
-- Utilisez un nom de domaine complet (FQDN) et une adresse IP uniques pour tous les services Edge, dont le service Edge d’accès, le service Edge de conférence web et le service Edge A/V. Si vous ne sélectionnez pas l’option pour utiliser un nom de domaine complet et une adresse IP uniques, vous devrez spécifier un nom de domaine complet et une adresse IP distincts pour chacun de ces trois services Edge lors e la procédure de déploiement. Pour plus d’informations sur les services Edge, reportez-vous à la rubrique [Components Required for External User Access](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) de la documentation de planification.
-
-    > [!NOTE]
-    > Si vous sélectionnez cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port par défaut recommandés : port 444 pour le service Edge d’accès, port 8057 pour le service Edge de conférence web et port 443 pour le service Edge A/V). Si vous sélectionnez cette option, vous pouvez éviter des problèmes de connectivité et simplifier la configuration, car vous pouvez taper un nom de domaine complet qui sera utilisé pour les trois services.
-
-- Prise en charge des fédérations : sélectionnez cette option si vous voulez prendre en charge la communication entre les utilisateurs internes et les utilisateurs de domaines approuvés à l’extérieur de votre organisation, y compris tous les utilisateurs d’un fournisseur de service de messagerie instantanée publique pris en charge. Si vous sélectionnez cette option, vous devrez configurer la prise en charge de domaines fédérés spécifiques et les fournisseurs de service de connectivité PIC (Public IM Connectivity) à prendre en charge. Pour plus d’informations sur la configuration de la prise en charge des fédérations et d’autres types d’accès utilisateur externe, reportez-vous à la rubrique [Configuring Support for External User Access](https://technet.microsoft.com/library/f8424f8c-f965-4414-8485-30f07e10214a.aspx) de la documentation de déploiement des serveurs Edge.
+- Utilisation d'un nom de domaine complet (FQDN) et adresse IP uniques pour tous les services Edge, notamment le service Edge d'accès, le service Edge de conférence Web et le service Edge A/V. Si vous ne sélectionnez pas l'option d'utiliser un nom de domaine complet et une adresse IP uniques, il vous faudra spécifier un nom de domaine complet et une adresse IP séparés pour chacun de ces trois services Edge dans le processus de déploiement. Pour plus d'informations sur les services Edge, voir [Composants requis pour l'accès des utilisateurs externes](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) dans la documentation de planification.
 
     > [!NOTE]
-    > Un seul pool frontal ou serveur Edge Standard dans votre organisation peut être publié de manière externe pour une fédération. Tout accès par des utilisateurs fédérés, y compris des utilisateurs publics de messagerie instantanée, passe par le même pool de serveurs Edge ou serveur Edge unique. Par exemple, si votre déploiement comprend un pool de serveurs Edge ou un serveur Edge unique déployé à New York et un autre déployé à Londres, et que vous activez la prise en charge de fédération sur le pool de serveurs Edge ou sur le serveur Edge unique de New York, le trafic de signalisation pour les utilisateurs fédérés passera par le pool de serveurs Edge ou par le serveur Edge unique de New York. Cela s’applique également aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
+    > Si vous sélectionnez cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port par défaut recommandés : 444 pour le service Edge d’accès, 8057 pour le service Edge de conférence Web et 443 pour le service Edge A/V). La sélection de cette option peut éviter des problèmes de connectivité, et peut simplifier la configuration car vous pouvez taper un nom de domaine complet qui sera utilisé pour les trois services.
 
-- Activer la fédération : sélectionnez cette option si vous voulez prendre en charge la communication entre les utilisateurs internes et les partenaires XMPP approuvés.
+- Prise en charge des fédérations. Sélectionnez cette option si vous souhaitez prendre en charge la communication entre les utilisateurs internes et les utilisateurs de domaines approuvés à l'extérieur de votre organisation, notamment les utilisateurs d'un fournisseur d'un service de messagerie instantanée public pris en charge. Si vous sélectionnez cette option, il vous faudra configurer la prise en charge de domaines fédérés spécifiques et de fournisseurs d'un service de messagerie instantanée public. Pour plus d'informations sur la configuration de la prise en charge des fédérations et d'autres types d'accès utilisateur externe, voir [Configuration de la prise en charge de l’accès des utilisateurs externe](https://technet.microsoft.com/library/f8424f8c-f965-4414-8485-30f07e10214a.aspx) dans la documentation de déploiement des serveurs Edge.
 
-Vous pouvez ajouter la prise en charge de l’accès des utilisateurs externes lors du déploiement initial de la topologie ou par la suite. Pour plus d’informations sur l’ajout de serveurs Edge à une topologie existante, reportez-vous à la rubrique [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) de la documentation de déploiement des serveurs Edge.
+    > [!NOTE]
+    > Un seul pool frontal ou serveur Edge Standard dans votre organisation peut être publié de manière externe pour une fédération. Tout accès par des utilisateurs fédérés, y compris les utilisateurs publics de messagerie instantanée, passe par le même pool de serveurs Edge ou serveur Edge unique. Par exemple, si votre déploiement comprend un pool de serveurs Edge ou un serveur Edge unique déployé à New York, et un autre déployé à Londres, et que vous activez la prise en charge de fédération sur le pool de serveurs Edge ou serveur Edge unique de New York, le trafic de signalisation pour les utilisateurs fédérés passera par le pool de serveurs Edge ou serveur Edge unique de New York. Ceci s’applique aussi aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
+
+- Activez la fédération. Sélectionnez cette option si vous voulez prendre en charge la communication entre les utilisateurs internes et les partenaires XMPP approuvés.
+
+Vous pouvez ajouter la prise en charge de l’accès des utilisateurs externes lors du déploiement initial de la topologie ou le faire ultérieurement. Pour plus d’informations sur l’ajout de serveurs Edge à une topologie existante, voir [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) dans la documentation de déploiement des serveurs Edge.
 
 

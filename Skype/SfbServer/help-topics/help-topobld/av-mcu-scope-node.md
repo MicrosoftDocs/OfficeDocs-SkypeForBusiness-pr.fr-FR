@@ -8,36 +8,36 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
-description: 'Ce nœud affiche le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 336424b7167d9ca926ca5e68f27c2be045d0c37c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Ce nœud montre le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: d9ee37e34ec11319ea93223969471fd75fb47a9f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820336"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216195"
 ---
 # <a name="av-mcu-scope-node"></a>Nœud d’étendue du service MCU audio/vidéo
  
-Ce nœud affiche le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :
+Ce nœud montre le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :
   
-- **Nouveau serveur** : lance l’Assistant **Définition d’un nouveau serveur** que vous pouvez utiliser pour ajouter un autre serveur Edge à ce pool.
+- **Nouveau serveur**. Démarre l'Assistant **Définir un nouveau serveur** que vous pouvez utiliser pour ajouter un autre serveur de périphérie à ce pool.
     
-- **Modifier les propriétés** : affiche la page **Modifier les propriétés** de ce serveur, dans laquelle vous pouvez modifier le nom de domaine complet du pool et les pools frontaux associés.
+- **Modifier les propriétés** Ouvre la page **Modifier les propriétés **de ce serveur dans laquelle vous pouvez modifier le nom de domaine complet du pool et les pools frontaux associés.
     
-- **Supprimer** : supprime le pool de la topologie.
+- **Supprimer**. Supprime le pool de la topologie.
     
 Outre ces options, vous pouvez effectuer les tâches générales suivantes :
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
     
-- **Afficher** ; vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+- **Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

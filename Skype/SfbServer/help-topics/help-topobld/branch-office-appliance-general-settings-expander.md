@@ -8,23 +8,23 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
-description: 'Pour modifier les paramètres d’une unité de branche Survivable existante ou d’un serveur de succursales survivant, vous avez accès aux sections suivantes :'
-ms.openlocfilehash: ebc3c0d0961fd239ad2b72469b1029ac7b7274d0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Les sections suivantes vous permettent de modifier les paramètres d’un Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, les sections suivantes se succèdent :'
+ms.openlocfilehash: 40ebf4a22bcfc3392c2f1dc8238a46b610d22281
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820296"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216125"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expanseur des paramètres généraux du Branch Office Appliance
 
-Pour modifier les paramètres d’une unité de branche Survivable existante ou d’un serveur de succursales survivant, vous avez accès aux sections suivantes :
+Les sections suivantes vous permettent de modifier les paramètres d’un Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, les sections suivantes se succèdent :
 
 - Paramètres généraux
 
@@ -34,48 +34,48 @@ Pour modifier les paramètres d’une unité de branche Survivable existante ou 
 
 
 
-Dans le cas d’une unité de branchement ou d’un serveur de succursale survivant, vous pouvez obtenir les éléments suivants :
+Dans le cas d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server, vous avez accès aux sections suivantes :
 
 ## <a name="general-settings"></a>Paramètres généraux
 
-Nom de domaine complet (FQDN) de l’appareil de branchement survivant ou du serveur de succursales survivant. Modifiez le nom de domaine complet du serveur pour changer la valeur. Vous devez disposer d’un enregistrement d’hôte DNS (A) correspondant à la nouvelle valeur.
+Nom de domaine complet (FQDN) du Survivable Branch Appliance ou du serveur Survivable Branch Server. Modifiez le nom de domaine complet du serveur pour changer la valeur. Vous devez disposer d’un enregistrement DNS A (hôte) qui corresponde à la nouvelle valeur.
 
-Vous pouvez sélectionner **Utiliser toutes les adresses IP configurées** ou **Limiter l’utilisation des services aux adresses IP sélectionnées**. Si vous sélectionnez **Limiter le service aux adresses IP définies**, vous définissez l’adresse IP principale utilisée par le serveur pour toutes les communications, à l’exception de la passerelle du réseau téléphonique commuté (RTC). Vous devez définir une adresse IP distincte pour l’utilisation du réseau téléphonique commuté.
+Vous pouvez choisir **Utiliser toutes les adresses IP configurées** ou **Limiter l’utilisation des services aux adresses IP sélectionnées**. Si vous choisissez **Limiter le service aux adresses IP définies**, vous définissez l’adresse IP principale que le serveur utilisera pour toutes les communications, à l’exception de la passerelle du réseau téléphonique commuté (PSTN). Vous devez définir une adresse IP distincte pour l’utilisation du réseau téléphonique commuté.
 
 Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
 
-- Associate Server Associates vous permet de sélectionner l’Association d’un serveur d’archivage à l’appareil de succursales survivant ou à un serveur de succursales survivant. Vous pouvez effectuer une sélection à partir d’un serveur d’archivage déjà défini en sélectionnant le serveur dans la liste déroulante, ou en cliquant sur **nouveau** pour spécifier un nouveau serveur d’archivage.
+- Associer un serveur d’archivage permet de choisir d’associer un serveur d’archivage au Survivable Branch Appliance ou au serveur Survivable Branch Server. Vous pouvez choisir un serveur d’archivage déjà défini en sélectionnant le serveur dans la liste déroulante ou en cliquant sur **nouveau** pour spécifier un nouveau serveur d’archivage.
 
     > [!IMPORTANT]
     > Avant de publier la nouvelle topologie que vous venez de définir, le serveur que vous spécifiez doit exister et être joint au domaine.
 
-- L’option associer le serveur de surveillance vous permet d’associer un serveur de surveillance à l’appareil de succursales survivant ou au serveur de succursales survivant. Vous pouvez sélectionner un serveur de surveillance déjà défini en le sélectionnant dans la liste déroulante ou en cliquant sur **nouveau** pour spécifier un nouveau serveur de surveillance.
+- Associer un serveur de surveillance vous permet de choisir d’associer un serveur de surveillance au Survivable Branch Appliance ou au serveur Survivable Branch Server. Vous pouvez sélectionner un serveur de surveillance déjà défini en sélectionnant le serveur dans la liste déroulante ou en cliquant sur **nouveau** pour spécifier un nouveau serveur de surveillance.
 
-- Le pool d’entreprise Associate vous permet d’associer un serveur Edge ou un pool à un serveur Edge ou à un serveur de succursales survivant. Vous pouvez sélectionner le serveur dans la liste déroulante à partir d’un serveur Edge ou d’un pool de serveurs Edge déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur Edge ou un nouveau pool de serveurs Edge.
+- Associer un pool de serveurs Edge permet de choisir d’associer un serveur Edge ou un pool au serveur Survivable Branch Appliance ou au serveur Survivable Branch Server. Vous pouvez choisir à partir d’un serveur Edge ou d’un pool de serveurs Edge déjà défini en sélectionnant le serveur dans la liste déroulante, ou vous pouvez cliquer sur **Nouveau** pour indiquer un nouveau serveur Edge ou un pool de serveurs Edge.
 
 ## <a name="resiliency"></a>Résilience
 
-La résilience permet une très grande disponibilité du pool de serveurs d’inscriptions. Lorsqu’un serveur d’inscriptions de secours est configuré, il permet de prendre le relais d’un serveur d’inscriptions en cas d’échec du serveur d’inscriptions principal, ce qui permet aux utilisateurs de se connecter et de communiquer. Certains utilisateurs peuvent disposer de fonctionnalités réduites en fonction des systèmes qui ont échoué sur le serveur principal.
+La résilience apporte une très grande disponibilité au pool de serveurs d’inscriptions. Lorsqu’il est configuré, un serveur d’inscriptions de sauvegarde permet de prendre le relais d’un serveur d’inscriptions en cas d’échec du serveur d’inscriptions principal, permettant aux utilisateurs de se connecter et de communiquer. Il est possible que les utilisateurs ne disposent pas de toutes les fonctionnalités, selon les systèmes qui ont échoué sur le serveur d’inscriptions principal.
 
-Dans la liste déroulante, sélectionnez le serveur frontal Enterprise Edition ou le serveur frontal Standard Edition qui jouera le rôle d’bureau d’enregistrement de sauvegarde de l’appareil de succursale survivant ou du serveur de succursales survivant. Vous pouvez également activer l’intervalle de reprise et de secours. L’activation des paramètres de basculement et de basculement (spécifiés en secondes) permet la détection automatique d’un bureau d’enregistrement en échec et un délai de basculement pour permettre la détermination automatique de la sauvegarde du serveur principal et peut prendre en charge le processus d’inscription.
+Dans la liste déroulante, sélectionnez le pool frontal Enterprise Edition ou le serveur frontal Standard Edition qui fera office de serveur d’inscriptions de sauvegarde pour le Survivable Branch Appliance ou le serveur Survivable Branch Server. Vous pouvez également choisir d’activer des intervalles de basculement et de secours. L’activation des paramètres d’intervalle de basculement et de secours (indiqués en secondes) permet de détecter automatiquement un serveur d’inscriptions défaillant ; un intervalle de secours permet de déterminer automatiquement que le serveur principal est le serveur de sauvegarde et qu’il peut reprendre le processus du serveur d’inscriptions.
 
 > [!IMPORTANT]
-> Lorsque vous définissez l’intervalle entre deux détections d’échec et de secours, veillez à ne pas entrer un intervalle qui entraînera le basculement et le secours si le serveur d’inscriptions ne répond pas pendant un court instant. Le serveur d’inscriptions peut cesser de répondre pendant de brefs instants en fonction du chargement du pool ou des serveurs. Les valeurs par défaut d’une unité de branchement Survivable ou d’un serveur de succursales survivant dans un site vers un pool ou un serveur frontal Standard Edition correspond à 120 secondes pour le basculement et 240 secondes pour le secours.
+> Lorsque vous définissez l’intervalle entre deux détections d’échec et de secours, prenez garde à ne pas entrer un intervalle qui provoquera le basculement et le secours si le serveur d’inscriptions ne répond pas pendant un court moment. Le serveur d’inscriptions peut cesser de répondre pendant de courts moments en fonction du chargement du pool ou des serveurs. Les valeurs par défaut d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server d’un site sur un pool ou un serveur frontal Standard Edition sont de 120 secondes pour le basculement et 240 secondes pour le secours.
 
 ## <a name="mediation-server"></a>Serveur de médiation
 
-Dans **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
+Dans le cas du **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
 
-La case à cocher du **serveur de médiation en option activé** n’est pas disponible sur un appareil de branche Survivable ou un serveur de succursales survivant, car le serveur de médiation est colocalisé.
+La case à cocher **Activation de la fonctionnalité de cohabitation du serveur de médiation** n’est pas active sur un Survivable Branch Appliance ou un serveur Survivable Branch Server car le serveur de médiation est colocalisé.
 
-Vous définissez le port d’écoute sur les serveurs du pool pour le protocole TLS (Transport Layer Security). Par défaut, il s’agit du port 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif, et vous devez consulter la configuration requise de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, le port TCP est le port 5068.
+Vous définissez le port d’écoute sur les serveurs du pool pour le protocole TLS (Transport Layer Security). Par défaut, ce port est 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif et vous devez consulter la configuration requise de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est 5068.
 
-Vous définissez des passerelles RTC associées au serveur de médiation colocalisé. Si vous avez déjà défini des passerelles, celles-ci sont disponibles pour être associées au serveur de médiation. Si vous n’avez pas défini de passerelle, mais que vous pouvez les définir, vous pouvez sélectionner **Nouveau**. Vous pouvez également supprimer des passerelles déjà configurées pour ce serveur de médiation. Sélectionnez la passerelle, puis cliquez sur **Supprimer**.
+Vous définissez des passerelles PSTN qui sont associées au serveur de médiation colocalisé. Si vous avez déjà défini des passerelles, ces dernières pourront être associées au serveur de médiation. Si vous n’avez défini aucune passerelle, mais si elles sont disponibles pour la définition, vous pouvez sélectionner **Nouveau**. Vous pouvez supprimer des passerelles qui sont déjà configurées pour ce serveur de médiation. Sélectionnez la passerelle, puis cliquez sur **Supprimer**.
 
-Si vous avez plusieurs passerelles associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez choisir une autre passerelle comme passerelle par défaut, sélectionnez la passerelle à utiliser par défaut, puis cliquez sur **Utiliser par défaut**.
+Si plusieurs passerelles sont associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez choisir une autre passerelle comme passerelle par défaut, sélectionnez la passerelle que vous souhaitez utiliser par défaut, puis cliquez sur **Utiliser par défaut**.
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration des paramètres de l’application de succursales Survivables ou du serveur de succursales survivant, voir [solutions de résilience de succursale](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres du Survivable Branch Appliance ou du serveur Survivable Branch Server, voir [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 
 

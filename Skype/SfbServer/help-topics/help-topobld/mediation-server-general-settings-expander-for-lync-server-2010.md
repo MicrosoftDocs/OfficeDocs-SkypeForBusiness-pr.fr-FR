@@ -1,5 +1,5 @@
 ---
-title: Expandeur des paramètres généraux du serveur de médiation pour Lync Server 2010
+title: Expanseur des paramètres généraux du serveur de médiation pour Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,47 +8,47 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
-description: 'Dans cette boîte de dialogue, vous pouvez modifier les propriétés des serveurs de médiation. Le côté gauche est un ensemble de liens rapides qui vous permettent d’utiliser les paramètres généraux, les paramètres de saut suivant et les paramètres de passerelle PSTN. Dans chaque section se trouvent les paramètres suivants :'
-ms.openlocfilehash: 3f7dad61778f54fee7a9be984191bc21f5029502
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Vous modifiez les propriétés des serveurs de médiation dans cette boîte de dialogue. Sur le côté gauche, un jeu de liens vous permet d’accéder aux paramètres généraux, aux paramètres du tronçon suivant et aux paramètres de la passerelle PSTN. Les paramètres suivants se trouvent dans chaque section :'
+ms.openlocfilehash: 19687f8d6a97a9174782c094f80c5b52d6973caf
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819616"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215155"
 ---
-# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur de médiation pour Lync Server 2010
+# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres généraux du serveur de médiation pour Lync Server 2010
 
-Dans cette boîte de dialogue, vous pouvez modifier les propriétés des serveurs de médiation. Le côté gauche est un ensemble de liens rapides qui vous permettent d’utiliser les paramètres généraux, les paramètres de saut suivant et les paramètres de passerelle PSTN. Dans chaque section se trouvent les paramètres suivants :
+Vous modifiez les propriétés des serveurs de médiation dans cette boîte de dialogue. Sur le côté gauche, un jeu de liens vous permet d’accéder aux paramètres généraux, aux paramètres du tronçon suivant et aux paramètres de la passerelle PSTN. Les paramètres suivants se trouvent dans chaque section :
 
- Informations **générales**:
+ **Général**:
 
-- Nom de domaine **complet**: vous modifiez le nom de domaine complet du serveur de médiation
+- Nom de domaine **complet**: modifiez le nom de domaine complet du serveur de médiation.
 
-- **Associations**: activez la case à cocher **associer le pool Edge (pour les composants multimédias)** et sélectionnez un serveur de périphérie ou un pool de périphérie du serveur de médiation à utiliser comme chemin multimédia pour l’accès externe.
+- **Associations**: activez la case à cocher **associer un pool Edge (pour les composants multimédias)** et sélectionnez un serveur Edge ou un pool de serveurs Edge pour le serveur de médiation à utiliser comme chemin de média pour l’accès externe.
 
-  **Tronçon suivant**:
+  **Tronçon suivant** :
 
-- **Sélection du saut suivant**: faites une sélection à partir d’une liste du serveur frontal ou du pool frontal à utiliser comme chemin d’accès du serveur de médiation à utiliser pour communiquer avec votre déploiement.
+- **Sélection du tronçon suivant**: sélectionnez dans une liste le serveur frontal ou le pool frontal à utiliser comme chemin d’accès pour le serveur de médiation à utiliser pour communiquer avec votre déploiement.
 
-  **Passerelle RTC**:
+  **Passerelle PSTN** :
 
-  **Passerelle RTC du serveur de médiation**:
+  **Passerelle PSTN du serveur de médiation** :
 
-- **Ports d’écoute**: définissez les ports que le serveur de médiation va écouter. Vous pouvez définir un port pour **TLS ou TLS** (Transport Layer Security), ou **TCP**ou protocole de contrôle de transport. Pour que l’entrée de port du protocole TCP soit disponible, vous devez activer la case à cocher **activer le port TCP**.
+- **Ports d’écoute**: définissez les ports que le serveur de médiation doit écouter. Vous pouvez définir un port pour le protocole **TLS** (Transport Layer Security) ou **TCP** (Transport Control Protocol). Pour que l’entrée du port TCP soit disponible, vous devez activer la case à cocher **Activer le port TCP**.
 
     > [!IMPORTANT]
-    > Reportez-vous à la documentation et aux paramètres de configuration de votre passerelle RTC (réseau téléphonique commuté) pour déterminer si vous devez activer et définir des valeurs de port TLS, TCP ou les deux. TLS est un protocole plus sécurisé, qui utilise des certificats pour chiffrer le trafic entre le serveur de médiation et la passerelle PSTN. Les passerelles RTC ne prennent pas en charge le protocole TLS.
+    > Consultez la documentation et les paramètres de configuration de votre passerelle de réseau téléphonique commuté (PSTN) pour déterminer si vous devez activer et définir les valeurs du port TLS, TCP ou les deux. TLS est un protocole plus sécurisé, qui utilise des certificats pour chiffrer le trafic entre le serveur de médiation et la passerelle PSTN. Certaines passerelles PSTN ne prennent pas en charge TLS.
 
-- Une liste des lignes SIP et des passerelles définies et configurées pour votre déploiement est répertoriée. Si aucune entrée n’est présente, il n’y a aucune passerelle SIP ni aucune passerelle RTC configurée pour votre déploiement. Vous définissez et configurez des lignes et des passerelles sous **composants partagés** dans le générateur de topologie.
+- Il existe une liste de jonctions SIP et de passerelles qui sont définies et configurées pour votre déploiement. Si aucune entrée n’est présente, aucune jonction SIP ou passerelles PSTN n’est configurée pour votre déploiement. Vous définissez et configurez des jonctions et des passerelles sous **composants partagés** dans le générateur de topologie.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Présentation du trunking SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
+[Vue d’ensemble d’une jonction SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
 
-[Options de déploiement de la passerelle RTC](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Options de déploiement d’une passerelle PSTN](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

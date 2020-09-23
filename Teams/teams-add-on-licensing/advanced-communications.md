@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542868"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203817"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Extension Advanced Communications pour Microsoft teams
 
@@ -71,11 +71,14 @@ Une période d’essai de 60 jours est disponible à partir du 4 août 2020. Vou
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>Différence entre les réunions de dépassement et les événements en direct
 
-Avec Advanced Communications, toutes les réunions avec plus de 300 participants permettent à 1 000 participants d’avoir une interface interactive et à 20 000 participants de participer à la réunion dans le cas d’une interface de type lecture seule. Un événement en direct active des fonctionnalités supplémentaires. Dans les événements en direct, 20 000 participants peuvent regarder la diffusion, et interagir avec Q&A dans les équipes, les conversations dans Yammer ou en lecture seule dans Microsoft Stream. Par ailleurs, nous faisons augmenter la longueur des événements en direct de 4 heures à 16 heures et nous autorisons jusqu’à 50 événements en direct par client.  
+Avec Advanced Communications, toutes les réunions avec plus de 300 participants permettent à 1 000 participants d’avoir une interface interactive et à 20 000 participants de participer à la réunion dans le cas d’une interface de type lecture seule. Un événement en direct active des fonctionnalités supplémentaires. Dans les événements en direct, 20 000 participants peuvent regarder la diffusion, et interagir avec Q&A dans les équipes, les conversations dans Yammer ou en lecture seule dans Microsoft Stream. Par ailleurs, nous faisons augmenter la longueur des événements en direct de 4 heures à 16 heures et nous autorisons jusqu’à 50 événements en direct par client. 
+
+>[!Note]
+> Les modifications apportées à l’aide de Microsoft Stream to [OneDrive entreprise et de SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) seront une approche progressive. Au moment de l’exécution, vous serez en mesure de vous abonner à cette expérimentation en novembre, si vous voulez continuer à utiliser le flux de travail et que, à un 2021 moment donné, il est nécessaire que tous les clients utilisent OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 > [!NOTE]
 > Les références SKU entreprise et éducation peuvent contenir temporairement des événements en direct pour jusqu’à 20 000 participants, avec une durée d’événement de 16 heures par diffusion et 50 des événements simultanés au sein d’un client jusqu’au 1er octobre 2020.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Enregistrement basé sur une stratégie d’équipe pour les appels et les réunions](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
