@@ -8,38 +8,38 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-description: 'Vous devez définir le Trunk racine pour le réseau téléphonique commuté (PSTN) ou IP commuté (RTC) en configurant les éléments suivants :'
-ms.openlocfilehash: d55edbabb43320215c932041549e7ef6a0aed2b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant les options suivantes :'
+ms.openlocfilehash: 3789024ce5099645eca7c14576b586bc1c349683
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820156"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219075"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 
-Vous devez définir le Trunk racine pour le réseau téléphonique commuté (PSTN) ou IP commuté (RTC) en configurant les éléments suivants :
+Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant les options suivantes :
 
-- **Nom du Trunk**: définissez le nom de domaine complet associé au Trunk.
+- **Nom de la jonction** : définissez le nom de domaine complet qui est associé à la jonction
 
-- **Port d’écoute pour la passerelle IP/PSTN**: définir le port sur lequel va écouter ce Trunk
+- **Port d’écoute pour la passerelle IP/PSTN** : définissez le port sur lequel la jonction procédera à l’écoute
 
-- **Protocole de transport SIP**: effectuez une sélection dans la liste **TCP** ou **TLS**en fonction de la configuration requise de Trunk.
+- **Protocole de transport SIP** : sélectionnez soit **TCP**, soit **TLS** dans la liste, selon les exigences de la jonction
 
-- **Serveur de médiation associé**: sélectionnez dans la liste des serveurs de médiation disponibles dans votre déploiement
+- **Serveur de médiation associé**: sélectionnez-le dans la liste des serveurs de médiation disponibles dans votre déploiement
 
-- **Port du serveur de médiation associé**: définir le port sur lequel le serveur de médiation sélectionné écoute
+- **Port du serveur de médiation associé**: définir le port d’écoute du serveur de médiation sélectionné
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration d’une jonction avec déviation du trafic multimédia dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Configuration d’une jonction avec la déviation du trafic multimédia dans Skype entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Configuration d’une jonction sans déviation du trafic multimédia dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Configuration d’une jonction sans déviation du trafic multimédia dans Skype entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Prise en charge du trunking SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Prise en charge de l’acheminement SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

@@ -1,9 +1,9 @@
 ---
-title: Configurer un standard automatique dans le cloud
-ms.author: dstrome
-author: dstrome
+title: Configurer un standard automatique pour Microsoft teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -20,407 +20,197 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
+ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077713"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48220187"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
+# <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
-Les standards automatiques permettent aux personnes d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft teams ou avec PowerShell. Pour créer un standard automatique, dans la barre de navigation gauche, sélectionnez **voix** , puis cliquez sur **standards automatiques**  >  **Ajouter nouveau**.
+Les standards automatiques permettent aux personnes d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft teams ou avec PowerShell. 
 
-Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique [qu’est-ce que les standards automatiques Cloud ?](/microsoftteams/what-are-phone-system-auto-attendants)
+Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
-> [!NOTE]
-> Cet article s’applique à Microsoft teams et à Skype entreprise online.
+Les standards automatiques peuvent diriger les appels, en fonction de l’entrée des appelants, vers l’une des destinations suivantes :
 
-Les numéros de téléphone ne sont pas directement attribués au standard automatique, mais plutôt à un [compte de ressources](manage-resource-accounts.md) associé au standard automatique.
+- **Personne de votre organisation** : une personne de votre organisation qui peut recevoir des appels vocaux. Il peut s’agir d’un utilisateur en ligne ou hébergé sur site utilisant Skype entreprise Server.
+- **Application vocale** -autre standard automatique ou file d’attente d’appels. (Sélectionnez le compte de ressources associé au standard automatique ou à la file d’attente d’appels lors du choix de cette destination.)
+- **Numéro de téléphone externe** -n’importe quel numéro de téléphone. (Voir les [Détails techniques sur les transferts externes](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- Boîte **vocale** -la boîte aux lettres vocale associée à un groupe Microsoft 365 que vous spécifiez.
+- **Opérateur** -l’opérateur défini pour le standard automatique. La définition d’un opérateur est facultative. L’opérateur peut être défini comme n’importe quelle autre destination dans cette liste.
 
-Les implémentations de standard automatique impliquent souvent plusieurs standards automatiques. Le standard automatique de *premier niveau* possède généralement un compte de ressources avec un numéro de téléphone attribué. Un standard automatique imbriqué est utilisé en tant que menu de second niveau, qui se connecte au standard automatique de *premier niveau* en tant qu’appel de. Il n’est pas nécessaire d’avoir un numéro de téléphone affecté à son compte de ressources pour un standard automatique *imbriqué* .
+Vous êtes invité à choisir l’une de ces options à différentes étapes Lorsque vous configurez un standard automatique.
 
-## <a name="step-1--get-started"></a>Étape 1 : prendre en main
+Pour configurer un standard automatique, dans le centre d’administration Teams, développez **voix**, cliquez sur **standards automatiques**, puis cliquez sur **Ajouter**.
 
-Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) . 
- 
-<!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
- 
-> [!TIP]
-> Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de système téléphonique, vous devez l’activer pour Enterprise Voice. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+## <a name="general-info"></a>Informations générales
 
-## <a name="step-2--create-auto-attendants"></a>Étape 2 : créer des standards automatiques
+![](media/auto-attendant-general-info-page-new.png)
 
-> [!IMPORTANT]
-> Chaque standard automatique doit disposer d’un compte de [ressources](manage-resource-accounts.md)associé. Vous devez d’abord créer le compte de ressources, puis vous pouvez l’associer au standard automatique.
+1. Tapez un nom pour le standard automatique dans la zone située dans la partie supérieure.
 
-### <a name="with-the-microsoft-teams-admin-center"></a>Avec le centre d’administration Microsoft teams
+2. Si vous souhaitez désigner un opérateur, spécifiez la destination des appels à l’opérateur. Facultatif (mais recommandé). Vous pouvez définir l’option d' **opérateur** permettant aux appelants de sortir des menus et de parler à une personne désignée.
 
-Dans le **Centre d’administration de Microsoft teams**, cliquez sur **Voice**  >  **standards automatiques**vocaux, puis cliquez sur **+ Ajouter**:
+3. Spécifiez le fuseau horaire pour ce standard automatique. Le fuseau horaire est utilisé pour calculer les heures d’ouverture, si vous [créez un flux d’appels distinct pendant les heures qui suivent](#call-flow-for-after-hours).
 
-#### <a name="general-info-page"></a>Page informations générales
+4. Spécifiez une langue pour ce standard automatique. Il s’agit de la langue qui sera utilisée pour les invites vocales générées par le système.
 
-![Capture d’écran de la page mon standard automatique](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+5. Indiquez si vous voulez activer les entrées vocales. Lorsque cette option est activée, le nom de chaque option de menu devient un mot clé de reconnaissance vocale. Par exemple, les appelants peuvent prononcer « un » pour sélectionner l’option de menu mappée à la clé 1, ou dire « ventes » pour sélectionner l’option de menu « ventes ».
 
-* * *
+6. Cliquez sur **Suivant**.
 
-![Icône du numéro 1, une légende dans le nom de la capture d’écran précédente ](media/teamscallout1.png)
- **Name** entrez un nom d’affichage pour votre standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Le **nom** que vous indiquez ici figure dans une colonne sous l’onglet **standards automatiques** .
+## <a name="call-flow"></a>Flux d’appels
 
-<a name="phonenumber"> </a>
+![](media/auto-attendant-call-flow-greeting-message.png)
 
-* * *
+Indiquez si vous voulez lire un message d’accueil lorsque le standard automatique répond à un appel.
 
-![Icône du numéro 2, une légende dans l’opérateur de capture d’écran ](media/teamscallout2.png)
- <a name="operator"> </a>précédent 
- **Operator** il est facultatif (mais recommandé). Vous pouvez définir l’option d' **opérateur** permettant aux appelants de sortir des menus et de parler à une personne désignée.
+Si vous sélectionnez **lire un fichier audio** , vous pouvez utiliser le bouton **Télécharger un fichier** pour télécharger un message d’accueil enregistré en tant que fichier audio. WAV,. MP3 ou. Format WMA. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
 
-La touche 0 est affectée à l’opérateur par défaut.
+Si vous sélectionnez l’option **taper un message d’accueil** le système lira le texte que vous tapez (jusqu’à 1000 caractères) lorsque le standard automatique répond à un appel.
 
-Si vous définissez un opérateur, indiquez aux personnes qui vous appellent à propos de l’option dans les **options de menu modifier** dans la page **flux d’appels** . Si vous définissez un opérateur sur le standard automatique, vous devez entrer le texte d’invite correspondant dans la zone les **appelants entendent** ou changer votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. »
+![](media/auto-attendant-call-flow-route-call-message.png)
 
-Vous pouvez définir l’opérateur de plusieurs manières :
+Choisissez le mode de routage de l’appel.
 
-- **Aucun opérateur** désactive les options « opérateur » et « appuyer sur 0 ». Il s’agit de la valeur par défaut actuelle.
-- Une **personne de l’organisation** attribue une personne disposant d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Microsoft 365 ou Office 365. Vous pouvez également le configurer de sorte que l’appelant soit dirigé vers la boîte vocale. Pour envoyer l’appel à la boîte vocale, sélectionnez **personne dans l’organisation** , puis définissez les paramètres de ce compte pour envoyer les appels directement à la boîte vocale.
+Si vous sélectionnez **déconnecter**, le standard automatique raccrochera l’appel.
 
-     > [!Note]
-     > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
+Si vous sélectionnez **rediriger l’appel**, vous pouvez choisir l’une des destinations de routage des appels.
 
-- **Application vocale**  Sélectionnez le nom du compte de ressources lié à un standard automatique ou une file d’attente d’appels qui a déjà été créée. Les appelants qui demandent un opérateur y sont redirigés.
-- Le **numéro de téléphone externe** transfère l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+Si vous sélectionnez les **options de menu lire**, vous pouvez choisir de **lire un fichier audio** ou **de taper un message d’accueil** , puis de choisir entre les options de menu et la recherche dans l’annuaire.
 
-    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
-        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
-        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
-    - Le numéro de téléphone sortant affiché est déterminé comme suit :
-        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
-        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
-            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
-            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
-    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
+### <a name="menu-options"></a>Options de menu
 
-<!--   
+![](media/auto-attendant-call-flow-menu-options-complete.png)
 
-- **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
-- **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator are redirected there.
+Pour les options de numérotation, vous pouvez affecter les touches 0-9 du clavier du téléphone à l’une des destinations de routage des appels. (Les clés \* (REPEAT) et \# (retour) sont réservés par le système et ne peuvent pas être réaffectés.)
 
-**Phone number (optional)** Enter the service phone number you want to assign to the new resource account this wizard creates and links to the new auto attendant. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
+Les mappages de clés ne doivent pas nécessairement être continus. Par exemple, il est possible de créer un menu avec les clés 0, 1 et 3 mappées à des options, tandis que la touche 2 n’est pas utilisée.
 
-> [!NOTE]
-> Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
--->
+Nous vous recommandons de mapper la touche 0 à l’opérateur si vous en avez configuré un. Si l’opérateur n’est pas défini sur une touche, la commande vocale « opérateur » est également désactivée. 
 
-* * *
+Pour chaque option de menu, spécifiez les éléments suivants :
 
-<a name="timezone"> </a>
+- **Clé de numérotation** -touche du clavier du téléphone pour accéder à cette option. Si les entrées vocales sont disponibles, les appelants peuvent également prononcer ce numéro pour accéder à l’option.
 
-![Icône du numéro 3, une légende dans le fuseau horaire de capture d’écran précédent ](media/teamscallout3.png) **Time zone** vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire. Veillez à définir le fuseau horaire approprié pour éviter les incohérences entre les heures d’entreprise, car certaines régions ne disposent pas de l’heure d’été. 
+- **Commande vocale** : définit la commande vocale que l’appelant peut donner pour accéder à cette option, si les entrées vocales sont activées. Elle peut contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ». Par exemple, l’appelant peut appuyer sur 2, prononcer « deux » ou dire « ventes » pour sélectionner l’option associée à la clé 2. Ce texte est également affiché par synthèse vocale pour l’invite de confirmation du service (par exemple, « transfert de votre appel vers les ventes »).
 
-* * *
+- **Rediriger vers** -la destination du routage des appels utilisée lorsque les appelants choisissent cette option. Si vous redirigez vers une file d’attente d’appels ou de standard automatique, sélectionnez le compte de ressources associé.
 
-![Icône du numéro 4, une légende dans la langue précédente de la capture d’écran ](media/teamscallout4.png)
- <a name="language"> </a> 
- **Language** sélectionnez la langue que vous voulez utiliser pour votre standard automatique. Le standard automatique utilise cette langue avec les appelants, et toutes les invites système sont lues dans cette langue.
+### <a name="directory-search"></a>Recherche dans l’annuaire
 
- * * *
+Si vous affectez des clés de numérotation aux destinations, nous vous recommandons de choisir **aucune** pour la recherche dans l' **Annuaire**. Si un appelant tente de composer un nom ou une extension à l’aide de clés affectées à des destinations spécifiques, il est possible qu’il soit routé de manière inattendue vers une destination avant d’avoir fini d’entrer le nom ou l’extension. Nous vous recommandons de créer un standard automatique distinct pour la recherche dans l’annuaire et de définir le lien principal de votre standard automatique à l’aide d’une clé de numérotation.
 
-![Icône du numéro 5, une légende dans la capture d’écran suivante ](media/teamscallout5.png)
- activer la reconnaissance vocale des**entrées vocales** est disponible si cette option est sélectionnée. Les appelants peuvent utiliser la saisie vocale dans la [langue que vous avez définie](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si vous souhaitez uniquement permettre aux utilisateurs d’utiliser leur clavier **téléphonique pour effectuer**des sélections, vous pouvez activer la reconnaissance vocale.
+Si vous n’avez pas affecté de touches de numérotation, sélectionnez une option pour la recherche dans l' **Annuaire**.
 
-* * *  
+**Composer par nom** : Si vous activez cette option, les appelants peuvent prononcer le nom de l’utilisateur ou le taper sur le clavier du téléphone. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
 
-Lorsque vous avez terminé vos sélections, cliquez sur **suivant**.
+**Composer par poste** : Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en composant leur numéro de poste. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la **numérotation par poste**. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
 
-#### <a name="call-flow"></a>Flux d’appels
+Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou Azure Active Directory (voir [Ajouter des utilisateurs individuellement ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) pour plus d’informations).
 
-<a name="greetingsandrouting"> </a>
+- OfficePhone
+- HomePhone
+- Mobile/MobilePhone
+- TelephoneNumber/PhoneNumber
+- OtherTelephone
 
-> [!TIP]
-> Vous pouvez choisir de configurer un planning d’heures d’entreprise personnalisées, avec des comportements de flux d’appels différents pendant et après les heures d’activité. Pour définir un planning personnalisé, définissez le [flux d’appels facultatif de après les heures](#call-flow-for-after-hours). Par défaut, un standard automatique utilise les flux d’appels d’heures de travail.
+Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est * + <phone number> ext = <extension> * ou * + <phone number> x <extension> *.
 
-Vous pouvez configurer des messages d’accueil personnalisés, des invites et des menus que les utilisateurs entendent quand ils atteignent votre standard automatique.
-
-![Capture d’écran : section Accueil de la page gestion des appels](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-
-* * *
-
-**Commencer par lire un message d’accueil** Un message d’accueil est facultatif et peut être défini pour aucun message d' **Accueil**, **lire un fichier audio**ou **taper un message d’accueil**.
+Vous pouvez définir l’extension dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou dans le [Centre d’administration Azure Active Directory](https://aad.portal.azure.com). Il faut parfois jusqu’à 12 heures pour que les modifications soient disponibles aux standards automatiques et aux files d’attente d’appels.
 
 > [!NOTE]
-> Un message d’accueil est particulièrement utile pour un standard automatique de premier niveau. Le standard automatique imbriqué n’a souvent pas besoin d’un message d’accueil.
+> Si vous voulez utiliser les fonctions **numérotation par nom** et **numéro de poste par numéro** , vous pouvez affecter une touche de numérotation à votre standard automatique principal pour atteindre un standard automatique activé pour la **numérotation par nom**. Dans ce standard automatique, vous pouvez affecter la touche 1 (qui ne comporte pas de lettres) pour atteindre le standard automatique de **composition par extension** .
 
-![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) si vous sélectionnez **aucun**message d’accueil, l’appelant n’entend aucun message ou message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez ultérieurement. 
+Lorsque vous avez sélectionné une option de recherche dans l' **Annuaire** , cliquez sur **suivant**.
 
-<!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
+## <a name="call-flow-for-after-hours"></a>Flux d’appels pour après heures
 
-![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) si vous sélectionnez **lire un fichier audio** , vous pouvez utiliser le bouton **Télécharger un fichier** pour télécharger un message d’accueil enregistré en tant que fichier audio. WAV,. MP3 ou. Format WMA. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
+![](media/auto-attendant-business-hours.png)
 
-![Icône du numéro 3, une légende dans la capture d’écran précédente ](media/teamscallout3.png) **tapez un message d’accueil** si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères) dans le champ fourni. Par exemple, entrez «Bienvenue dans contoso. Votre appel est important pour nous. La sortie est créée par un logiciel de synthèse vocale.
+Les heures d’activité peuvent être définies pour chaque standard automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies à l’aide de pauses pendant la journée, et toutes les heures qui ne sont pas définies comme heures d’ouverture. Vous pouvez définir des options de traitement des appels entrantes différentes et des salutations pour une durée de l’heure.
 
-* * *
+Selon la manière dont vous avez configuré vos standards automatiques et les files d’attente d’appels, il est possible que vous deviez spécifier le routage des appels après-heures pour les standards automatiques avec des numéros de téléphone directs.
 
-Vous pouvez sélectionner ce qui se produit en regard des appels à partir des actions suivantes dans la section **diriger l’appel** . Les paramètres sont **déconnecter**, **rediriger l’appel**ou **lire les options de menu**.
+Si vous souhaitez un routage des appels distinct pour les appelants après l’heure, spécifiez les heures d’activité pour chaque jour. Cliquez sur **Ajouter un nouvel horaire** pour spécifier plusieurs jeux d’heures pour un jour donné, par exemple pour spécifier une pause déjeuner.
 
-Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois le message d’accueil lu. 
+Une fois que vous avez spécifié les heures d’appel, sélectionnez vos options de routage des appels pour après heures. Les mêmes options sont disponibles que pour le routage des appels d’heures d’activités que vous avez spécifié ci-dessus.
 
-<a name="redirectcalls"> </a>
+Lorsque vous avez terminé, cliquez sur **suivant** .
 
-![Icône du numéro 4, une légende dans la capture d’écran suivante ](media/teamscallout4.png) **rediriger l’appel** , envoie l’appelant à la destination choisie sans choisir d’options. Les paramètres possibles sont les suivants :
+## <a name="call-flows-during-holidays"></a>Flux d’appels pendant les vacances
 
-  - **Personne de l’organisation** Le compte que vous choisissez doit être doté d’une licence de système téléphonique activée pour voix entreprise ou d’un forfait d’appels attribué dans Microsoft 365 ou Office 365. Vous pouvez la configurer de manière à ce que l’appelant puisse être dirigé vers la boîte vocale. Sélectionnez une **personne dans l’organisation** et définissez ce compte pour que les appels soient transférés directement vers la boîte vocale.
+![](media/auto-attendant-holiday-greeting.png)
 
-    > [!Note]
-    > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. Lors de la sélection **d’une personne dans l’organisation,** vous pouvez sélectionner un compte à l’aide d’une boîte aux lettres partagée ou d’une boîte aux lettres d’utilisateur.
+Le standard automatique peut avoir un flux d’appels pour chaque [jour férié que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
-  - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé au service.
-  - Le **numéro de téléphone externe** transfère l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+1. Dans la page Paramètres des appels de vacances, cliquez sur **Ajouter**.
 
-    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
-        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
-        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
-    - Le numéro de téléphone sortant affiché est déterminé comme suit :
-        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
-        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
-            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
-            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
-    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
-  - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Microsoft 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
+2. Tapez un nom pour ce paramètre de vacances.
 
-      Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
+3. Dans la liste déroulante **jour férié** , choisissez le jour férié que vous souhaitez utiliser.
 
+4. Choisissez le type d’message d’accueil que vous voulez utiliser.
 
- * * *
+    ![](media/auto-attendant-holiday-actions.png)
 
-![Capture d’écran : section actions de la page gestion des appels](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+5. Choisissez si vous souhaitez vous **déconnecter** ou **Rediriger** l’appel.
 
-![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) lorsque vous sélectionnez **lire les options de menu** , vous pouvez choisir d’utiliser un fichier audio ou d’entrer du texte qui sera affiché en tant que texte par synthèse vocale afin d’offrir des options de menu de type pavé numérique aux appelants. Sélectionnez cette option au lieu de **Rediriger** les options appeler ou **déconnecter** .
+6. Si vous avez choisi de rediriger l’appel, sélectionnez la destination de routage des appels pour l’appel.
 
+7. Cliquez sur **Enregistrer**.
 
-![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) **lire un fichier audio** vous permet de configurer une invite et des options pour l’appelant. 
-- Si vous sélectionnez **lire un fichier audio** , vous pouvez utiliser le bouton **Télécharger un fichier** pour télécharger un message d’accueil enregistré en tant que fichier audio. WAV,. MP3 ou. Format WMA. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
+![](media/auto-attendant-holiday-call-settings.png)
 
-- **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères) dans le champ fourni. Par exemple, entrez «Bienvenue dans contoso. Votre appel est important pour nous. La sortie est créée par un logiciel de synthèse vocale.
+Répétez la procédure selon vos besoins pour chaque jour férié supplémentaire.
 
-**Définir les options de menu** Le clavier téléphonique ou les commandes vocales peuvent être ajoutés ou supprimés dans cette boîte de dialogue. Pour supprimer une option de menu, supprimez l’entrée de commande vocale, puis **redirigez** vers retour pour **Sélectionner**.
+Lorsque vous avez ajouté tous vos jours fériés, cliquez sur **suivant**.
 
-> [!TIP]
-> Mettez à jour le texte d’invite de menu ou réenregistrez les invites audio lorsque vous supprimez des options. L’invite de menu lue pour les appelants n’est pas automatiquement mise à jour.  
->
-> Toutes les options de menu peuvent être ajoutées et supprimées dans n’importe quel ordre, et les mappages de clés ne doivent pas nécessairement être continus. Par exemple, il est possible de créer un menu avec les clés 0, 1 et 3 mappées à des options, tandis que la clé 2 n’est pas utilisée.
+## <a name="dial-scope"></a>Étendue de numérotation
+
+![](media/auto-attendant-dial-scope.png)
+
+L' *étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire quand un appelant utilise la numérotation par nom ou par numéro de poste par extension. La valeur par défaut de **tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne disposant d’une licence de système téléphonique ou hébergés en local à l’aide de Skype entreprise Server.
+
+Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **groupe d’utilisateurs personnalisé** sous **inclure** ou **exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les dirigeants de votre organisation du répertoire de numérotation.
 
 > [!NOTE]
-> Les clés \* (répétition) et \# (retour) sont réservées par le système et ne peuvent pas être réaffectées. Si la reconnaissance vocale est activée, le fait d’appuyer sur * correspond à « répéter » et # correspond aux commandes vocales « retour ».
+> Le nom d’un nouvel utilisateur peut nécessiter un maximum de 36 heures.
 
-![Icône du numéro 3, une légende dans la capture d’écran précédente ](media/teamscallout3.png) pour configurer une option de menu, cliquez sur **+ affecter une touche de numérotation** , puis entrez les informations pour les options suivantes :
+Lorsque vous avez terminé de définir l’étendue de numérotation, cliquez sur **suivant**.
 
-![Icône du numéro 4 ; une légende dans la capture d’écran de la ](media/teamscallout4.png) **commande vocale** de la capture initiale pour une option peut comporter jusqu’à 64 caractères et contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ».   Si la reconnaissance vocale est activée, le nom est automatiquement reconnu et l’appelant est en mesure d’appuyer sur 3, de dire « trois » ou de « service clientèle » pour sélectionner l’option associée à la clé 3. Ce texte est également affiché par synthèse vocale pour l’invite de confirmation du service (par exemple, « transfert de votre appel vers l’opérateur »).
+## <a name="resource-accounts"></a>Comptes de ressources
 
-![Icône du numéro 5, une légende dans la capture d’écran précédente ](media/teamscallout5.png) les options **Rediriger vers** l’emplacement de l’appel, si la touche correspondante est enfoncée ou si l’option est activée à l’aide de la reconnaissance vocale. L’appel peut être envoyé à :
+Tous les standards automatiques doivent disposer d’un compte de ressources associé.  Les standards automatiques de premier niveau ont besoin d’au moins un compte de ressources associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un standard automatique, chacun avec un numéro de service distinct.
 
-<!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
+![](media/auto-attendant-add-resource-account.png)
 
-- **Opérateur** Si un opérateur est déjà configuré, l’option est automatiquement mappée à la clé 0, mais peut également être supprimée ou réaffectée à une autre clé. L’appelant qui sélectionne cette option est envoyé à l’opérateur désigné. Si l’opérateur n’est pas défini sur une touche, la commande vocale « opérateur » est également désactivée. 
-- Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. L’utilisateur doit disposer d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Microsoft 365 ou Office 365. Recherchez la personne dans le champ **Rechercher par nom** .
+Pour ajouter un compte de ressource, cliquez sur **Ajouter un compte** et recherchez le compte que vous voulez ajouter. Cliquez sur **Ajouter**, puis cliquez sur **Ajouter**.
 
-- **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé à l’application.
+![](media/auto-attendant-resource-account-assigned.png)
 
-- Le **numéro de téléphone externe** transfère l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
+Lorsque vous avez terminé d’ajouter des comptes de service, cliquez sur **valider**. Cela termine la configuration de standard automatique.
 
-    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
-        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
-        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
-    - Le numéro de téléphone sortant affiché est déterminé comme suit :
-        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
-        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
-            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
-            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
-    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
+## <a name="external-phone-number-transfers---technical-details"></a>Transferts de numéros de téléphone externes-détails techniques
 
-- Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Microsoft 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
+Lorsque vous transférez des appels vers un numéro de téléphone externe, le compte de ressources associé au standard automatique ou à la file d’attente d’appels doit être doté d’un numéro de téléphone et d’un système téléphonique Microsoft 365-licence utilisateur virtuelles. En outre
 
-    Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
+- Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+- Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
 
-<!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
-- **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
-- **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
-- **Group Voicemail** routes the call to a voicemail box that you select.  -->
+Le numéro de téléphone sortant affiché est déterminé comme suit :
 
-![Icône du numéro 6, une légende dans la capture d’écran précédente de la ](media/teamscallout6.png) **recherche** dans cette section, vous pouvez activer le **numérotation par nom** et la **numérotation par poste** pour le standard automatique.   Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. La recherche dans l’annuaire est définie sur **aucune** par défaut.
+  - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
+  - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
+    - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
+    - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
 
-**Numérotation par nom** Si vous activez cette option, les appelants peuvent rechercher des personnes dans votre organisation à l’aide de la **numérotation par nom**. Il parle du nom de l’utilisateur et de la reconnaissance vocale à l’utilisateur. Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom.
+Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
-
-**Composer par poste** Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en entrant leur numéro de poste. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
-
-> [!IMPORTANT]
-> Notez ce qui suit :
->- Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou Azure Active Directory (voir [ajouter des utilisateurs individuellement ou en bloc] pour plus d’informations https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
->    - HomePhone
->    - Mobile/MobilePhone
->    - TelephoneNumber/PhoneNumber
->    - OtherTelephone
->- Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur est soit `+<phonenumber>;ext=<extension>` ou `x<extension>` .
->- L’attribution d’une extension dans le centre d’administration teams n’est pas prise en charge pour le moment. Vous devez utiliser la commande PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) ou le centre d’administration Microsoft 365.
->- Il est possible que les modifications apportées aux attributs AAD et MobilePhone soient jusqu’à 12 heures.
->- Ne définissez pas d’extension pour le LineUri d’un utilisateur. Cette fonctionnalité n’est pas prise en charge pour le moment.
->- Un standard automatique peut être configuré pour composer par nom ou par numéro de poste, mais pas les deux.
-
-> [!NOTE]
-> Si vous voulez utiliser les fonctions **numérotation par nom** et **numéro de poste par numéro** , vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu si elles connaissent l’extension de l’utilisateur et définir cette option pour transférer l’appel vers un standard automatique activé pour la numérotation par poste.
-
-* * *
-
-<!--
-**Instructions for callers** lets you choose **Use recorded call instructions** or **Write your call instructions**.  
-
-If you choose **Use recorded call instructions**, you have the option to record and upload new or prerecorded sound files to play as menu instructions. The same app used in recording the auto attendant greeting is used here.
-
-If you choose **Write your call instructions**, enter the script  you want the system to read (up to 1000 characters). For example, you might enter text that begins "Please choose from one of the following menu options ... " and provide a script written to reflect your configuration.
-* * *  -->
-
-Lorsque vous avez terminé vos sélections, vous pouvez cliquer sur **suivant** si vous voulez modifier les paramètres avancés ou cliquer sur le **faire si vous** souhaitez utiliser les paramètres par défaut pour les éléments suivants :
-- Flux d’appels pour après heures
-- Flux d’appels pour les jours fériés
-- Étendue de numérotation
-- Comptes de ressources
-
-Dans la mesure où votre standard automatique est requis pour disposer d’un compte de ressources, vous pouvez passer à la page du **compte de ressources** et associer un compte de ressources que vous avez déjà configuré, ou créer un compte de ressource et l’associer au standard automatique comme décrit dans [gérer les comptes de ressources dans Microsoft teams](manage-resource-accounts.md). Vous ne serez pas en mesure d’utiliser ce standard automatique tant qu’il n’a pas été associé à un compte de ressources. pour cela, cliquez sur le bouton **suivant** en bas de l’écran, puis cliquez sur **comptes de ressources** dans le volet de navigation de gauche pour accéder directement à la page comptes de ressources et associez le standard automatique à un compte de ressources.
-
-#### <a name="advanced-settings-optional"></a>Advanced Settings (facultatif)
-
-Il existe quatre écrans supplémentaires que vous pouvez configurer ou laisser par défaut à votre choix.
-
-##### <a name="call-flow-for-after-hours"></a>Flux d’appels pour après heures
-
-Par défaut, les heures d’activité d’un standard automatique sont définies sur 9H-17h00, du lundi au vendredi.  <!--24/7-->et les options de flux d’appels pour les appels *après les heures* sont désactivées parce que toutes les heures sont considérées comme des *heures de travail*. Lorsque vous sélectionnez l’option **configurer les heures d’ouverture personnalisées** , le **flux d’appels pour** la page après les heures configure les règles de traitement des appels utilisées par le standard automatique après les heures. Les options disponibles sont les mêmes, la différence est la possibilité de définir un planning pour différents menus et comportements.
-
-Un système de standards automatiques doit uniquement définir le comportement de gestion des appels d’après-service pour le standard automatique de premier niveau. Les standards automatiques imbriqués peuvent ne pas être appelés par le standard automatique de premier niveau, mais le système peut également définir un comportement d’après-heures pour chaque standard automatique qu’il utilise.
-
-Au départ, les heures d’ouverture sont définies pour commencer à 12:00 AM et se terminent à 12:00 PM, dimanche à samedi. Toutes les heures qui ne sont pas au cours des heures d’activité sont considérées comme des *heures passées*.
-
-
-![capture d’écran des paramètres de flux d’appels après heures](media/aa-afterhour.png)
- * * *
-
-![Dans la capture d’écran du numéro 1, une légende dans la capture d’écran précédente, ](media/teamscallout1.png) vous pouvez cliquer sur **Sélectionner 24/7** pour afficher toutes les heures d’activité pour ce standard automatique.
-
-![Dans le numéro 2, une légende dans la capture d’écran précédente, ](media/teamscallout2.png) Sélectionnez l’option de **réinitialisation par défaut** pour rétablir toutes les modifications apportées à la planification et revenir à la définition par défaut des heures d’activité, de 9:00 à 5:00 PM du lundi au vendredi.
-
-![Icône du numéro 3 ; une légende dans la capture d’écran précédente ](media/teamscallout3.png) sélectionnez **effacer toutes les heures** pour effacer entièrement le planning. Si vous sélectionnez cette option et que vous ne souhaitez pas utiliser les heures non configurées, utilisez cette option uniquement si vous voulez recommencer entièrement les heures d’activité.
-
-![Icône du numéro 4, une légende dans l’icône précédent de la capture ](media/teamscallout4.png) ![ d’écran, une légende dans la capture d’écran précédente ](media/teamscallout5.png) pour personnaliser l’heure de début ou de fin d’un jour de la semaine, cliquez sur au **début ou à** la fin de l’heure de début et de **fin** de la liste qui s’affiche.   La liste permet de sélectionner des heures d’ouverture par intervalle de 15 minutes, et les heures d’ouverture sélectionnées ici dépendent du fuseau horaire que vous avez défini dans la page **informations générales** .
-
- <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
-
-![Icône du numéro 6, une légende dans la capture d’écran précédente ](media/teamscallout6.png) pour configurer un saut (par exemple, une pause déjeuner, par exemple), sélectionnez **Ajouter une nouvelle heure** pour ce jour de la semaine pour créer une ligne de tableau, puis sélectionnez nouvelles heures de début et de fin. Vous pouvez définir plusieurs sauts dans les heures de bureau.
-
-Les options de [flux d’appels](#call-flow) disponibles après les heures sont les mêmes que celles disponibles pendant les heures d’activité. Faire défiler la page d’entrée d’information pour définir les options de flux d’appels après heures.
-
-* * *
-
-Lorsque vous avez terminé vos sélections, cliquez sur **suivant**. Vous pouvez également cliquer sur **comptes de ressources** dans le volet de navigation de gauche pour accéder directement à la page comptes de ressources et associer le standard automatique à un compte de ressources.
-
-##### <a name="call-flow-during-holidays"></a>Flux d’appels pendant les vacances
-
-<a name="holidaygreetings"> </a>
-
-Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique. Il est possible que votre organisation ait déjà défini des jours fériés comme décrit dans la rubrique [configurer les jours fériés dans Microsoft teams](set-up-holidays-in-teams.md). Si ce n’est pas le cas, l’écran suivant apparaît : 
-
-![Capture d’écran : aucun congé configuré](media/aa-no-holidays.png)
-
-![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) pour définir un flux d’appels personnalisé pour un jour férié sur le standard automatique, cliquez sur **+ Ajouter** l’écran de **nouveau flux d’appels de vacances** .
-> [!TIP]
-> Pour créer des jours fériés **,** vous pouvez accéder à l’écran aux  >  **jours fériés**de l’organisation.  
-
-
-
-![Capture d’écran : ajouter un gestionnaire d’appels](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
-
-* * *
-
-![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) Entrez un **nom** pour le nouveau flux d’appels.
-
-![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) si vous avez déjà créé des jours fériés, vous les verrez dans le menu déroulant des **fêtes** et pouvez les sélectionner. Vous verrez peut-être une option inutilisée que vous pouvez modifier selon vos besoins. Si ce n’est pas le cas, cliquez sur **Ajouter** au bas de la liste déroulante pour créer un jour férié.  Pour plus d’informations sur les étapes de création d’un congé, voir [configurer les jours fériés dans Microsoft teams](set-up-holidays-in-teams.md) . 
-
-Le nom d’un flux d’appels de vacances peut contenir jusqu’à 64 caractères et doit être unique pour l’organisation. Par exemple, vous ne pouvez pas avoir deux flux d’appels de vacances nommés « Thanksgiving » dans la même organisation. Le standard automatique peut faire un flux d’appels pour chaque jour férié que vous avez configuré, mais il se peut que vous souhaitiez disposer d’un ensemble de comportements communs qui n’est pas une formule de salutation personnalisée.
-
-![Icône du numéro 3, une légende dans la capture d’écran précédente ](media/teamscallout3.png) les options d' [Accueil](#call-flow) disponibles pour un flux d’appels de vacances sont les mêmes que celles disponibles pendant les heures d’activité. Les **actions** effectuées après le message d’accueil sont également similaires, sauf que les seules actions disponibles sont la **déconnexion** ou la **redirection vers**, et lorsque vous sélectionnez l’option **Rediriger vers** , l’opérateur n’est pas l’un des choix disponibles. Vous ne pouvez pas définir un menu spécifique à un flux de vacances.
-
-> [!NOTE]
-> Par défaut, tous les appels reçus pendant une période de vacances sont définis pour **déconnecter** après le message d’accueil (le cas échéant), vous devez donc spécifier une redirection si vous souhaitez un comportement personnalisé.
-
-![Capture d’écran de la page du flux d’appels sur les jours fériés](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
-
-Cliquez sur Enregistrer pour terminer la création du flux d’appels de vacances. Une fois que vous avez créé un flux d’appels de vacances, il s’affiche sur l’écran du **flux d’appels** .
-
-Cliquez sur en **regard** de définir l’étendue de numérotation, de **nouveau** pour modifier les flux d’appels d’après les heures et de l' **envoi** si vous avez terminé. Vous pouvez également cliquer sur **comptes de ressources** dans le volet de navigation de gauche pour accéder directement à la page comptes de ressources et associer le standard automatique à un compte de ressources.
-
-#### <a name="dial-scope"></a>Étendue de numérotation
-
-<a name="dialscope"> </a>
-
-![Capture d’écran montrant la page de portée de numérotation](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
-
-Dans cette page, vous pouvez définir qui est répertorié dans votre annuaire et disponible pour le numérotation par nom lorsque quelqu’un appelle votre organisation. La numérotation par nom est définie sur **désactivé** par défaut dans un écran antérieur. Tous les utilisateurs disposant d’une extension seront disponibles si la **numérotation par poste** a été sélectionnée auparavant.
-
-![D’après le numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) **inclut** les options de cette section : **tous les utilisateurs en ligne** ou **groupes d’utilisateurs personnalisés**
-
-Si vous sélectionnez **tous les utilisateurs en ligne**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
-
-**Groupes d’utilisateurs personnalisés** Cette option vous permet de rechercher et de sélectionner un groupe Microsoft 365, une liste de distribution ou un groupe de sécurité déjà créé au sein de votre organisation. Les utilisateurs sont ajoutés à l’annuaire s’ils figurent dans le groupe Microsoft 365 choisi, une liste de distribution ou un groupe de sécurité, et qu’il s’agit des **utilisateurs en ligne disposant d’une licence de système téléphonique** ou hébergé sur site via Skype entreprise Server. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité à l’annuaire.
-
-<a name="dialscope"> </a>
-
-Dans cette page, vous pouvez configurer les utilisateurs de votre organisation qui seront répertoriés dans votre annuaire et disponibles pour le numérotation par nom lorsqu’une personne appelle votre organisation.
-
-![Icône du numéro 2, une légende dans la capture d’écran précédente ](media/teamscallout2.png) **exclue** les options de cette section vous permettent d’exclure des utilisateurs ou des groupes d’utilisateurs spécifiques de l’annuaire de l’organisation.
-
-Si vous sélectionnez **aucun**, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
-
-**Groupe d’utilisateurs personnalisés** Vous pouvez rechercher un groupe Microsoft 365, une liste de distribution ou un groupe de sécurité créé au sein de votre organisation. Les utilisateurs de ce groupe sont exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes Microsoft 365, des listes de distribution et des groupes de sécurité.
-
-Si vous spécifiez les paramètres par défaut lorsque la numérotation par nom est activée, tous les utilisateurs éligibles sont inclus dans la recherche dans l’annuaire.
-
-> [!NOTE]
-> Le nom d’un nouvel utilisateur peut nécessiter un maximum de 36 heures. Lorsque quelqu’un utilise la numérotation par nom avec la reconnaissance vocale, il est possible que les nouveaux comptes ne soient pas disponibles pour cette fonctionnalité.
-
-Après avoir entré tous les champs requis et configuré l’ensemble des menus et options de traitement des appels, cliquez sur **suivant** pour passer à l’Association d’un compte de ressource.
-
-#### <a name="resource-accounts"></a>Comptes de ressources
-
-Tous les standards automatiques doivent disposer d’un compte de ressources associé.  Les standards automatiques de premier niveau ont besoin d’au moins un compte de ressources pour lequel un numéro de service est associé. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un standard automatique, chacun avec un numéro de service distinct.
-
-Si vous n’avez pas encore configuré de compte de ressources pour votre standard automatique, l’écran suivant apparaît : 
-
-![capture d’écran : gestion de compte de ressources facultative](media/aa-ra-optional.png) 
-
-![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) pour ajouter un ou plusieurs comptes de ressources existants et non attribués au standard automatique, cliquez sur **Ajouter un compte** , puis sur Rechercher et sélectionnez-le dans les boîtes de dialogue fournies.
-
-![capture d’écran de l’affichage de synthèse nouveau standard](media/aa-assigned.png)
-
-![Icône du numéro 1, une légende dans la capture d’écran précédente ](media/teamscallout1.png) pour ajouter un compte de ressources supplémentaire, cliquez sur **+ Ajouter un compte**.
-
-![Icône du numéro 2, une légende dans la capture d’écran précédente](media/teamscallout2.png) Le compte de ressources ou les comptes attribués à ce standard automatique apparaissent dans une liste.
-
-## <a name="edit-auto-attendants"></a>Modifier des standards automatiques
-
-Une fois que vous avez enregistré votre nouveau standard automatique, il apparaît dans la page **standards automatiques** . Cette page vous permet de voir rapidement certaines des options que vous avez configurées, y compris le nom, le compte de ressources associé, la langue et l’opérateur affecté.
-
-![capture d’écran de la liste d’attendant](media/aa-list.png)
-
-Si vous voulez modifier les paramètres du standard automatique, sélectionnez le standard automatique, puis dans le volet action, cliquez sur **modifier**.
-
-<!-- To quickly place a test call to your auto attendant, click the **Test** button in the Action pane. -->
-
-<!-- ## Summary view
-
-You can use the Summary page to review the settings you've created.
-
-![screenshot of the new attendant summary view](media/aa-new-summary.png)
-
-Press the **Create** button to finish setup of your new auto attendant. -->
+Dans un environnement hybride, pour transférer un appel de standard automatique vers le RTC via l’intégration RTC Skype entreprise, créez un nouvel utilisateur local avec le renvoi d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour voix entreprise et avoir reçu une stratégie vocale. Pour en savoir plus, voir [transfert d’appel standard automatique vers PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Créer un standard automatique avec PowerShell
 
@@ -444,21 +234,8 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 - [Importation-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
 - [Nouveau-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
-### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 et Microsoft teams à partir d’un point d’administration unique qui peut simplifier le travail quotidien. Pour prendre en main Windows PowerShell, consultez ces rubriques :
-
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
-
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple pour apporter des changements de paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
-
-  - [Gérer Microsoft 365 ou Office 365 avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
-
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
@@ -466,8 +243,6 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Nouvelle CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[Exemple petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa) 
 
-[Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
-
-[Exemple petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa)  
+[Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

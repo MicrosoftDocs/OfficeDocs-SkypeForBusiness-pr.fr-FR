@@ -3,7 +3,7 @@ title: Créer une file d’attente d’appel
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: phans, wasseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -22,71 +22,144 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams, qui fournissent un message de salutation, de la musique, de la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: be43c2dc378b985b63c47b9322b336eeadfeecb6
-ms.sourcegitcommit: 515f6cf7c16c0ab6ea7acbbd59084ac89b57dfb8
+description: Apprenez à configurer votre système téléphonique pour les files d’attente d’appels à l’aide de Microsoft Teams, qui fournit un message de bienvenue, de la musique, des appels et d’autres fonctionnalités.
+ms.openlocfilehash: 8365761f25ff981cd13770f23a27f4ef8a589b25
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47295284"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48220172"
 ---
-# <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
+# <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
-Les files d’attente d’appels Cloud peuvent fournir :
+Les files d’attente d’appels constituent une méthode de routage des appelants vers des personnes de votre organisation qui peuvent vous aider avec un problème ou une question spécifique. Les appels sont distribués un par un aux personnes de la file d’attente (qui sont appelés *agents*). 
+
+Les files d’attente d’appels fournissent :
 
 - Message d’accueil.
 
 - Musique pendant que les personnes sont en attente.
 
-- La redirection des appels vers des téléopérateurs dans des listes de distribution et des groupes de sécurité à extension messagerie.
+- Ordre d’acheminement des appels : pour les agents *, première et première sortie* (FIFO).
 
-- Définir des paramètres différents, tels que la taille maximale de la file d’attente, le délai d’expiration et les options de traitement des appels.
+- Gestion des options de dépassement de capacité et de délai d’attente.
 
-- Boîte vocale partagée permettant aux appelants de laisser un message à une organisation.
+Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
-Vous n’associez pas directement un numéro de téléphone à une file d’attente d’appels, mais le numéro de téléphone est associé à un [compte de ressources](manage-resource-accounts.md). Une file d’attente d’appels peut être numérotée directement ou consultée par une sélection dans un standard automatique.
+Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix**, cliquez sur **files d’attente d’appels**, puis cliquez sur **Ajouter**.
 
-L’appelant entend lire de la musique pendant qu’il est en attente et l’appel se connecte à la *première fois, première sortie* (FIFO).
+## <a name="resource-account-and-language"></a>Compte de ressources et langue
 
-Tous les appels dans la file d’attente sont envoyés aux agents par le biais de l’une des méthodes suivantes :
+![](media/call-queue-name-language.png)
 
-- Avec le routage de l’attendant, le premier appel dans la file d’attente sonne sur tous les agents en même temps.
+1. Tapez un nom pour la file d’attente d’appels. Les agents verront ce nom lorsqu’ils recevront un appel entrant de la file d’attente.
 
-- Avec le routage en série, le premier appel dans la file d’attente sonne tous les agents d’appel un par un.
+2. Cliquez sur **Ajouter**un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter**, puis sur **Ajouter**.
 
-- Avec le routage inactif le plus long, l’agent d’appel qui est resté inactif le plus longtemps reçoit le prochain appel disponible. La durée d’inactivité est définie comme la durée de la période pendant laquelle l’état de présence de l’agent de l’appel est **disponible** ou **absent** (si moins de 10 minutes) est défini, au moment de l’appel. Si la présence d’un agent d’appel est en **dehors** de 10 minutes, le minuteur d’inactivité est redéfini.
+3. Choisissez une langue. Ce langage sera utilisé pour les invites vocales générées par le système et la transcription de la boîte vocale (si vous les activez).
 
-- Avec la répétition alternée, le routage des appels entrants est équilibré de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente.
+## <a name="greetings-and--hold-music"></a>Faire des vœux et garder de la musique
 
-Vous pouvez définir des options de traitement des appels, telles que l’option d’activation/désactivation de l’agent, le routage basé sur la présence, le temps d’attente des appels et les options de délai d’attente avec les méthodes ci-dessus.
+Spécifiez si vous souhaitez lire un message d’accueil pour les appelants lorsqu’ils arrivent dans la file d’attente. Vous devez charger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous voulez lire.
 
-Une seule notification d’appel entrant (pour l’appel en tête de file) sera envoyée aux téléopérateurs à la fois. Lorsqu’un téléopérateur accepte l’appel, le prochain appel entrant dans la file d’attente sonnera pour les autres téléopérateurs.
+Teams fournit une musique par défaut aux appelants alors qu’ils sont en attente. Si vous voulez lire un fichier audio spécifique, sélectionnez **lire un fichier audio** et télécharger un fichier mp3, WAV ou WMA.
 
 > [!NOTE]
-> Cet article s’applique à Microsoft teams et à Skype entreprise online.
+> L’enregistrement téléchargé ne peut pas dépasser 5 Mo.
 
-## <a name="step-1--get-started"></a>Étape 1 : prendre en main
+## <a name="call-agents"></a>Agent d’appel
 
-Pour commencer à utiliser les files d’attente d’appels, il est important de garder à l’esprit les points suivants :
+Les agents d’appel sélectionnés doivent être l’un des éléments suivants : 
 
-- Une file d’attente d’appels doit avoir un compte de ressources associé. Pour plus d’informations sur les comptes de ressources, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
+- Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée
+- Utilisateurs en ligne avec un plan d’appels
+- Utilisateurs de Skype entreprise sur site
+- Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
 
-- Lorsque vous attribuez un numéro de téléphone à un compte de ressources, vous pouvez désormais utiliser la [licence utilisateur virtuel](teams-add-on-licensing/virtual-user.md)du système téléphonique sans frais. Le système téléphonique autorise les numéros de téléphone au niveau de l’Organisation pour une standardisation automatique et des services de files d’attente de faible coût.
+![](media/call-queue-users-groups.png)
 
-  > [!NOTE]
-  > Les numéros de service de routage direct pour les files d’attente d’appels sont pris en charge pour les utilisateurs et agents Microsoft teams uniquement.
+Vous pouvez ajouter jusqu’à 20 agents de manière individuelle et jusqu’à 200 agents via des groupes.
 
-  > [!NOTE]
-  > Pour rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer d’offres Microsoft 365 ou Office 365. Voir [affecter des licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : 'Set-CsUser-Identity "Amos Marble"-EnterpriseVoiceEnabled $true.
+Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs**, recherchez l’utilisateur, cliquez sur **Ajouter**, puis sur **Ajouter**.
 
-- Pour en savoir plus sur les offres d’appels, reportez-vous à la section [système téléphonique et](calling-plan-landing-page.md) offres [d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md).
+Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes**, recherchez le groupe, cliquez sur **Ajouter**, puis cliquez sur **Ajouter**. Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
 
-- Vous ne pouvez attribuer des files d’attente d’appels Cloud qu’aux numéros de téléphone de service gratuits ou payants que vous avez dans le **Centre d’administration Microsoft teams** ou transférés à partir d’un autre fournisseur de service. Les crédits de communication sont requis pour les numéros de service gratuits.
+> [!NOTE]
+> Les nouveaux utilisateurs ajoutés à un groupe peuvent parfois prendre jusqu’à huit heures de réception.
 
-    > [!NOTE]
-    > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués aux numéros de service de file d’attente d’appels uniquement ou les numéros de téléphone gratuits peuvent être utilisés.
+## <a name="call-routing"></a>Routage des appels
 
-- Les clients suivants sont pris en charge pour les agents d’appel associés à une file d’attente d’appels Cloud :
+![](media/call-queue-conference-mode-routing-method.png)
+
+Le **mode conférence** réduit considérablement la durée nécessaire à la connexion d’un appelant à un agent, une fois que l’agent a accepté l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente d’appels doivent utiliser un des clients suivants :
+
+  - Dernière version du client de bureau Microsoft Teams, de l’application Android ou de l’application iOS
+  - Microsoft teams Phone version 1449/1.0.94.2020051601 ou version ultérieure
+  
+Les comptes d’équipes des agents doivent être définis sur le mode équipes uniquement. Les agents qui ne satisfont pas les exigences requises ne sont pas inclus dans la liste routage des appels. Nous vous recommandons d’activer le mode Conférence pour vos files d’attente si vos agents utilisent tous des clients compatibles.
+
+> [!NOTE]
+> Occupé sur occupé n’est pas pris en charge par le mode conférence. Les agents sur les appels hors file d’attente risquent de se présenter avec un appel de file d’attente d’appels si le routage basé sur la présence n’est pas activé.
+
+La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent des appels à partir de la file d’attente. Sélectionnez l’une des options suivantes :
+
+- Le **routage en standard** sonne tous les agents de la file d’attente en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
+
+- Le **routage série** sonne tous les agents d’appel un par un dans l’ordre indiqué dans la liste des **agents d’appel** . Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
+
+- La **répétition** alternée équilibre le routage des appels entrants de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente. Cela pourrait être souhaitable dans un environnement de ventes entrantes pour garantir l’égalité des chances entre tous les agents d’appel.
+
+- Temps **inactif** le plus long pour chaque appel de l’agent qui est resté inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est disponible ou s’il est absent depuis moins de 10 minutes. Les agents dont l’état de présence est absent pendant plus de 10 minutes ne sont pas considérés comme inactifs et ne peuvent pas recevoir d’appels tant qu’ils n’ont pas changé leur présence en disponible. 
+
+![](media/call-queue-presence-agents-time.png)
+
+
+Le **routage basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**. 
+
+Vous pouvez activer le routage des appels en fonction de la présence avec n’importe quelle méthode de routage.
+
+Si un agent ne peut plus passer d’appel, il n’est pas inclus dans la liste routage des appels, quelle que soit la valeur de son statut de disponibilité. 
+
+> [!NOTE]
+> Les agents qui utilisent le client Skype entreprise ne sont pas inclus dans la liste des itinéraires d’appel lorsque le routage basé sur la présence est activé. Si vous avez des agents qui utilisent Skype entreprise, n’activez pas le routage des appels basée sur la présence.
+
+**Durée** de l’alerte d’agent spécifie la durée pendant laquelle le téléphone de l’agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
+
+Pour les files d’attente de volume élevé, nous vous recommandons d’utiliser les paramètres suivants :
+
+- **Mode** de conférence **automatique**
+- **Méthode de routage** pour le **routage en standard**
+- **Routage basé** sur la présence sur **activé**
+- **Durée de l’alerte agent :** **20 secondes**
+
+## <a name="call-overflow-handling"></a>Gestion du dépassement des appels
+
+![](media/call-queue-overflow-handling.png)
+
+Le nombre **maximal d’appels dans la file d’attente** spécifie le nombre maximal d’appels qui peuvent patienter dans la file d’attente à tout moment. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré conformément au paramètre **lorsque le nombre maximal d’appels est atteint** .
+
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente.
+
+> [!NOTE]
+> Si le nombre maximum d’appels est défini sur 0, le message d’accueil n’est pas lu.
+
+## <a name="call-timeout-handling"></a>Gestion des délais d’appel
+
+![](media/call-queue-timeout-handling.png)
+
+**Délai d’appel : délai d’attente maximum** spécifie la durée maximale pendant laquelle un appel peut être mis en attente dans la file d’attente avant qu’elle ne soit redirigée ou déconnectée. Vous pouvez spécifier une valeur comprise entre 15 secondes et 45 minutes.
+
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente.
+
+Lorsque vous avez sélectionné les options de temporisation de l’appel, cliquez sur **Enregistrer**.
+
+## <a name="caller-id-for-outbound-calls"></a>ID de l’appelant pour les appels sortants
+
+Dans la mesure où les agents d’une file d’attente d’appels risquent de composer un appel client, envisagez de définir l’identification de l’appelant pour les membres d’une file d’attente pour le numéro de service d’un standard automatique approprié. Pour plus d’informations, voir [gérer les stratégies d’identification d’appelant dans Microsoft teams](caller-id-policies.md) .
+
+## <a name="supported-clients"></a>Clients pris en charge
+
+- Les clients suivants sont pris en charge pour les téléopérateurs dans une file d’attente des appels :
 
   - Client de bureau Skype entreprise 2016 (versions 32 bits et 64 bits)
   - Client de bureau Lync 2013 (versions 32 bits et 64 bits)
@@ -103,279 +176,6 @@ Pour commencer à utiliser les files d’attente d’appels, il est important de
     > [!NOTE]
     > Les files d’attente d’appels disposant d’un numéro de routage direct ne prennent pas en charge les clients Skype entreprise, les clients Lync ou les téléphones IP Skype entreprise en tant qu’agents.
 
-## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Étape 2 : obtenir ou transférer des numéros de service gratuits ou payants
-
-Pour pouvoir créer et configurer vos files d’attente d’appels, vous devez obtenir ou transférer vos numéros de service gratuits ou payants existants. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou pour transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Une fois que vous avez obtenu les numéros de téléphone de service gratuits ou payants, ils s’affichent dans les numéros de téléphone vocaux du **Centre d’administration Microsoft teams**  >  **Voice**  >  **Phone numbers**. Les numéros gratuits seront répertoriés avec un **type** de **service**numéro gratuit.
-
-> [!NOTE]
-> Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour plus d’informations sur la [gestion des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , voir gérer les numéros de téléphone situés en dehors des États-Unis.
-
-Lorsque vous configurez plusieurs standards automatiques, vous devez généralement affecter un numéro de téléphone au compte de ressources principal du standard automatique. Les comptes de ressources associés aux standards automatiques imbriqués ou aux files d’attente d’appels ne nécessitent généralement pas de numéros de téléphone. Ce standard automatique peut diriger les appelants vers vos files d’attente d’appels ou standards automatiques imbriqués, même s’ils n’ont pas de numéro de téléphone. Dans ces situations, vous pouvez créer tous les standards automatiques et les files d’attente d’appels dans votre système sans affecter d’options de clavier numérique, puis modifier les paramètres par la suite. Une file d’attente d’appels ou un standard automatique doit exister pour le configurer en tant qu’option de menu.
-
-## <a name="step-3--create-a-call-queue"></a>Étape 3 : création d’une file d’attente d’appels
-
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-
-> [!IMPORTANT]
-> Chaque file d’attente d’appels doit avoir un [compte de ressources](manage-resource-accounts.md)associé. Vous devez d’abord créer le compte de ressources, puis vous pouvez l’associer à la file d’attente d’appels.
-
-### <a name="use-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft teams
-
-Dans le **Centre d’administration de Microsoft teams**, les **Voice**  >  **files d’attente d’appels**vocaux, puis cliquez sur **+ Ajouter nouveau**:
-
-### <a name="set-the-display-name-and-resource-account"></a>Définir le nom d’affichage et le compte de ressources
-
-![Capture d’écran d’une nouvelle file d’attente d’appels avec des légendes numérotées](media/37ecc300-a108-4294-8463-fce570dfce72.png)
-
-* * *
-
-![Icône du numéro 1, référence une légende dans le nom de la capture d’écran précédente ](media/teamscallout1.png)
- **Name** entrez un nom descriptif pour la file d’attente d’appels. Ce nom est obligatoire et peut contenir jusqu’à 64 caractères, y compris des espaces.
-
- Ce nom s’affiche dans la notification de l’appel entrant.
-
-* * *
-
-![Dans la boîte de dialogue numéro 2, fait référence à une légende dans la capture d’écran précédente ](media/teamscallout2.png)
- **Ajouter des comptes** sélectionnez un compte de ressources. Toutes les files d’attente d’appels doivent disposer d’un compte de ressources. Il n’est pas nécessaire d’avoir un numéro de téléphone payant ou gratuit pour les comptes de ressources.
-
-S’il n’y figure pas, vous pouvez obtenir des numéros de service et les affecter à un compte de ressources avant de créer la file d’attente d’appels, comme décrit précédemment. Pour obtenir vos numéros de service, consultez la rubrique [obtention de numéros de téléphone de service](getting-service-phone-numbers.md). Pour plus d’informations sur l’affectation d’un numéro de téléphone, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
-
-> [!NOTE]
-> Si vous souhaitez utiliser un **domaine** , vous devez l’attribuer au compte de ressources de la file d’attente d’appels.
-
-### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Définir le message d’accueil et la musique lue pendant la mise en attente
-
-![capture d’écran des options de salutation et de musique, avec des légendes numérotées](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
-
-* * *
-
-![Icône du numéro 1, référence une légende dans la capture d’écran suivante ](media/teamscallout1.png)
- **message** d’accueil facultatif pour les personnes qui appellent le numéro de la file d’attente d’appels.
-
-Vous pouvez charger un fichier audio (formats. wav,. mp3 ou. WMA).
-
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente ](media/teamscallout2.png)
- **musique en attente** , vous pouvez utiliser la musique par défaut fournie avec la file d’attente d’appels. Vous pouvez également charger un fichier audio au format. wav,. mp3 ou. WMA à utiliser comme votre musique personnalisée en attente.
-
-* * *
-
-### <a name="select-the-call-answering-options"></a>Sélectionner les options de répondeur automatique
-
-![Capture d’écran des options de répondeur automatique](media/teams-cq-call-answering-options.png)
-
-![Dans la capture d’écran du numéro 1, fait référence à une légende dans la capture d’écran suivante : ](media/teamscallout1.png)
- **opérateurs et groupes** pour ajouter directement des agents, sans les ajouter à un groupe, cliquez sur **Ajouter des utilisateurs**. Placez les agents individuels dans l’ordre dans lequel vous souhaitez qu’ils reçoivent l’appel. Vous pouvez ajouter jusqu’à 20 agents individuels (pour ajouter plus de 20, les placer dans un groupe).
-
-Les appels sont d’abord routés vers des agents individuels, puis vers les agents en groupes. 
-
-Vous pouvez sélectionner jusqu’à 200 opérateurs d’appel qui appartiennent à l’une des listes de diffusion ou groupes suivantes :
-
-- Groupe Microsoft 365
-- Groupe de sécurité
-- Liste de distribution
-
-Les agents d’appel sélectionnés doivent être l’un des éléments suivants : 
-
-- Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée
-- Utilisateurs en ligne avec un plan d’appels
-- Utilisateurs de Skype entreprise sur site
-
-  > [!NOTE]
-  > Cela s’applique également si vous souhaitez rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne. Ces personnes doivent disposer d’une licence de système téléphonique et d’une voix entreprise activée *ou* avoir un plan d’appels. Pour plus d’informations, reportez-vous à la section [affectation de licences Skype entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [attribution de licences Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou le [plan d’appels qui vous convient ?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
-
-   Pour activer un agent pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
-
-- Utilisateurs disposant d’une licence de système téléphonique ou d’une offre d’appels ajoutée à un groupe Microsoft 365, à une liste de distribution ou à un groupe de sécurité à extension messagerie. Lorsque vous ajoutez un agent dans une liste de distribution ou un groupe de sécurité en tant qu’agent de file d’attente d’appels, le premier appel peut durer jusqu’à trois heures. Une liste de distribution ou un groupe de sécurité nouvellement créé peut nécessiter jusqu’à 48 heures de disponibilité pour une utilisation avec des files d’attente d’appels. Les nouveaux groupes Microsoft 365 récemment créés sont disponibles presque immédiatement.
-
-- Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
-
-![D’après le numéro 2, fait référence à une légende dans le mode de conférences de la capture d’écran précédente ](media/teamscallout2.png)
- **Conference mode** , ce qui réduit considérablement le temps nécessaire à la connexion d’un appelant à un agent, une fois que l’agent a accepté l’appel. Si vous avez plusieurs files d’attente d’appels, vous pouvez activer le mode conférence sur l’ensemble ou une partie de vos files d’attente d’appels. l’activation ou la désactivation du mode conférence dans une file d’attente d’appels n’a aucun impact sur les autres files d’attente.
-
-Le mode conférence est désactivé par défaut, mais peut être activé à tout moment si les conditions suivantes sont remplies :
-
-- Les agents ajoutés à la file d’attente d’appels doivent utiliser un des clients suivants :
-
-  - Dernière version du client de bureau Microsoft Teams, de l’application Android ou de l’application iOS
-  - Microsoft teams Phone version 1449/1.0.94.2020051601 ou version ultérieure
-  
-- Les comptes d’équipes des agents doivent être définis sur le mode équipes uniquement.
-
-> [!IMPORTANT]
-> Si les exigences de l’agent ne sont pas satisfaites et que le mode conférence est activé sur une file d’attente d’appels, les agents qui ne satisfont pas les exigences ne sont pas inclus dans la liste routage des appels. Les agents qui ne figurent pas dans la liste routage des appels ne reçoivent pas les appels. Si vous avez des agents qui ne satisfont pas les exigences de l’agent ci-dessus, n’activez pas le mode conférence dans la file d’attente d’appels.
-
-Lorsque le mode conférence est activé sur une file d’attente d’appels, les appels peuvent être plus rapides s’ils sont reçus par le biais de l’une des méthodes suivantes :
-
-- Appels VoIP provenant d’un autre client de bureau Microsoft teams
-- Appels RTC de plan téléphonique
-- Acheminement des appels RTC
-
-La plupart des appels sont reçus par le biais de l’une des méthodes indiquées ci-dessus. Si un appel est reçu par le biais d’une autre méthode (par exemple, un appel VoIP d’un client Skype entreprise), l’appel est toujours ajouté à la file d’attente d’appels, mais il n’est pas possible d’y profiter du temps de connexion plus rapide.
-
-> [!NOTE]
-> Occupé sur occupé n’est pas pris en charge par le mode conférence. Les agents sur les appels hors file d’attente risquent de se présenter avec un appel de file d’attente d’appels si le routage basé sur la présence n’est pas activé.
-
-
-![Icône du numéro 3, qui fait référence à une légende dans la méthode de routage de capture d’écran précédente, ](media/teamscallout3.png)
- **Routing method** vous pouvez choisir l’une des options **standard**, **série**, **inactif**ou **répétition arrondie** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
-
-- Le routage de l' **attendant** entraîne le premier appel dans la file d’attente pour sonner tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
-- **Routage en série** les appels entrants sonnent chacun d’eux, du début de la liste des agents d’appel. Les agents ne peuvent pas être commandés dans la liste des agents d’appel. Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
-- **Temps inactif** le plus long, l’appel actuellement disponible vers l’agent d’appel dont l’appel a été inactif le plus longtemps. La durée d’inactivité est définie comme la durée de la période pendant laquelle l’état de présence de l’agent de l’appel est **disponible** ou **absent** (si moins de 10 minutes) est défini, au moment de l’appel. Si la présence d’un agent d’appel est définie sur **absent (e** ) pendant plus de 10 minutes, le minuteur d’inactivité est redéfini. Les statuts de présence des utilisateurs sont interrogés toutes les minutes.
-
-    Il est important de savoir que l’activation de ce paramètre force le **routage sur la présence** à être activé.
-
-    > [!IMPORTANT]
-    > Les agents qui utilisent le client Skype entreprise ne reçoivent aucun appel lorsque le paramètre inactif le plus prolongé est activé. Si vous avez des agents qui utilisent Skype ou entreprise, n’activez pas ce paramètre.
-- **Tourniquet de tourniquet** qui achemine les appels entrants de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente. Cela pourrait être souhaitable dans un environnement de ventes entrantes pour garantir l’égalité des chances entre tous les agents d’appel.
-
-![Icône du numéro 4, fait référence à une légende dans la capture d’écran précédente le routage de présence basé sur la présence ](media/teamscallout4.png)
- **Presence-based routing** utilise l’état de la disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**.  
-
-Vous pouvez activer le routage des appels en fonction de la présence avec n’importe quelle méthode de routage.
-
-Si un agent ne peut plus passer d’appel, il n’est pas inclus dans la liste routage des appels, quelle que soit la valeur de son statut de disponibilité. 
-
-> [!IMPORTANT]
-> Les agents qui utilisent le client Skype entreprise ne sont pas inclus dans la liste routage des appels lorsque le routage en fonction de la présence est activé, même en fonction de leur statut de disponibilité. Les agents qui ne figurent pas dans la liste routage des appels ne reçoivent pas les appels. Si vous avez des agents qui utilisent Skype entreprise, n’activez pas le routage des appels basée sur la présence.
-
-> [!IMPORTANT]
-> Pour la file d’attente d’appels à volume élevé, les paramètres recommandés sont les suivants :
->
-> Mode conférence : auto<br>
-> Méthode de routage : routage de l’attendant<br>
-> Routage en fonction de la présence : activé<br>
-> Durée de l’alerte agent : 20 secondes
-
-
-### <a name="select-an-agent-opt-out-option"></a>Sélectionner une option d’annulation d’agent
-
-![Capture d’écran des options d’annulation d’agent, avec des légendes numérotées](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
-
-* * *
-
-![Icône du numéro 1, qui fait référence à une légende dans l’agent de capture d’écran précédent ](media/teamscallout1.png)
- **peut refuser les appels** , vous pouvez choisir d’autoriser les agents de files d’attente d’appels à refuser les appels d’une file d’attente particulière en activant cette option.
-
-L’activation de cette option permet à tous les agents de cette file d’attente de démarrer ou d’arrêter de recevoir des appels à partir de la file d’attente d’appels. Vous pouvez révoquer les privilèges d’annulation de l’agent à tout moment en désactivant la case à cocher, pour que les agents le fassent automatiquement pour cette file d’attente (paramètre par défaut pour tous les agents).
-
-Pour accéder à l’option d’annulation, les agents peuvent :
-
- 1. Ouvrez les **options** de votre client Skype entreprise de bureau.
- 2. Dans l’onglet **transfert d’appel** , cliquez sur le lien modifier les **paramètres en ligne** .
- 3. Dans la page Paramètres d’utilisateur, cliquez sur **files d’attente d’appels**, puis désactivez les cases à cocher pour désactiver les files d’attente.
-
-    > [!NOTE]
-    > Les agents qui utilisent des applications ou des points de terminaison autres que le bureau Skype entreprise peuvent accéder à l’option d’annulation du portail des paramètres utilisateur [https://aka.ms/cqsettings](https://aka.ms/cqsettings) .
-    >
-    > Si les agents se trouvent dans des clients de bureau Microsoft Teams, ils peuvent refuser l’appel en utilisant les paramètres d’appel. 
-
-![Icône du numéro 2, qui fait référence à une légende dans le ](media/teamscallout2.png)
- **paramètre alerte** de l’agent de capture d’écran précédent.
-
-Cela définit la durée d’un appel de l’agent pour être averti de l’appel avant que les méthodes de routage par série ou par répétition alternées soient déplacées vers l’agent suivant.
-
-Le paramètre par défaut est de 30 secondes, mais peut être configuré pour une durée de 3 minutes maximum.
-
-* * *
-
-### <a name="set-the-call-overflow-and-timeout-handling-options"></a>Définir les options de dépassement d’appel et de gestion des délais d’expiration
-
-![Capture d’écran des options de traitement de dépassement de capacité, avec des légendes numérotées](media/3f018734-16fe-458b-827d-71fc25155cde.png)
-
-* * *
-
-![Icône du numéro 1, qui fait référence à une légende dans la capture d’écran précédente pour les ](media/teamscallout1.png)
- **appels dans la file d’attente** , utilisez cette valeur pour définir le nombre maximal d’appels qui peuvent patienter en même temps dans la file d’attente. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré selon la configuration du paramètre **lorsque le nombre maximal d’appels est atteint** ci-dessous.
-
-* * *
-
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente ](media/teamscallout2.png)
- **lorsque le nombre maximum d’appels est atteint** lorsque la file d’attente atteint la taille maximale (définie à l’aide du paramètre **appels dans la file d’attente** ), vous pouvez choisir ce qu’il advient des nouveaux appels entrants.
-
-- Se **déconnecter** L’appel est déconnecté.
-
-- **Rediriger vers** Lorsque vous choisissez cette option, sélectionnez l’une des options suivantes :
-
-  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et est activé pour voix entreprise ou a un plan d’appels.
-
-  - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
-
-  - **Numéro de téléphone externe** Choisissez cette valeur pour transférer l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
-
-    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
-        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
-        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
-    - Le numéro de téléphone sortant affiché est déterminé comme suit :
-        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
-        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
-            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
-            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
-    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
-    
-  - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par cette file d’attente d’appels, puis sélectionnez l’une des options suivantes :
-      - **Lire un fichier audio** Si vous choisissez cette option, sélectionnez **Télécharger un fichier** pour télécharger un message d’accueil enregistré. Le nombre d’enregistrements ne peut pas dépasser 5 Mo. 
-      - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez taper «Désolé... nous ne pouvons pas prendre votre appel pour le moment. N’hésitez pas à laisser votre nom, votre numéro de téléphone et votre raison pour votre appel après le bip.»
-
-      Activez la transcription si vous souhaitez activer la transcription vocale des messages vocaux.
-
-      Les messages vocaux sont envoyés au groupe Microsoft 365 que vous spécifiez. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
-
-* * *
-
-![Icône du numéro 3, qui fait référence à une légende dans la capture d’écran précédente ](media/teamscallout3.png)
- **délai d’appel : temps d’attente maximum** vous pouvez également décider du temps pendant lequel un appel peut être mis en attente dans la file d’attente avant qu’elle ne soit interrompue ou déconnectée. Le moment où il est redirigé dépend de la façon dont vous définissez le paramètre à la **fin de l’appel** . Vous pouvez définir une heure comprise entre 0 et 45 minutes.
-
-La valeur Timeout peut être définie en secondes, à des intervalles de 15 secondes. Cela vous permet de manipuler le flux d’appels avec une granularité plus fine. Par exemple, vous pouvez spécifier que les appels qui ne sont pas traités par un agent dans un délai de 30 secondes s’exécutent dans un standard automatique de recherche d’annuaires.
-
-![Icône du numéro 4, qui fait référence à une légende dans la capture d’écran précédente ](media/teamscallout4.png)
- **lorsque** le délai d’appel est écoulé lorsque l’appel atteint la limite définie en fonction de la **durée pendant laquelle un appel peut patienter dans la file d’attente** , vous pouvez choisir ce qu’il advient de l’appel :
-
-- Se **déconnecter** L’appel est déconnecté.
-
-- **Rediriger cet appel vers** Lorsque vous choisissez cette option, vous disposez des options suivantes :
-
-  - **Personne de l’organisation** Un utilisateur en ligne disposant d’une licence de système téléphonique et activé pour voix entreprise ou avoir des forfaits d’appels.
-
-  - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
-
-  - **Numéro de téléphone externe** Choisissez cette valeur pour transférer l’appelant vers un numéro de téléphone externe que vous spécifiez. Notez ce qui suit :
-
-    - Le compte de ressources associé à l’application effectuant le transfert RTC doit avoir un numéro de téléphone et recevoir une licence de système téléphonique virtuel. Les licences de système téléphonique ne sont pas prises en charge. Par ailleurs, le compte de ressource doit avoir l’une des valeurs suivantes :
-        - Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
-        - Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
-    - Le numéro de téléphone sortant affiché est déterminé comme suit :
-        - Pour les numéros de plan d’appels, le numéro de téléphone de l’appelant initial est affiché.
-        - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
-            - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
-            - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
-    - Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
-    - Boîte **vocale** Sélectionnez le groupe Microsoft 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par cette file d’attente d’appels, puis sélectionnez l’une des options suivantes :
-      - **Lire un fichier audio** Si vous choisissez cette option, sélectionnez **Télécharger un fichier** pour télécharger un message d’accueil enregistré. Le nombre d’enregistrements ne peut pas dépasser 5 Mo.
-      
-      - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez taper «Désolé... nous ne pouvons pas prendre votre appel pour le moment. N’hésitez pas à laisser votre nom, votre numéro de téléphone et votre raison pour votre appel après le bip.»
-
-      Activez la transcription si vous souhaitez activer la transcription vocale des messages vocaux.
-
-      Les messages vocaux sont envoyés au groupe Microsoft 365 que vous spécifiez. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
-
-## <a name="change-caller-id-for-outbound-calls"></a>Changer l’identification de l’appelant pour les appels sortants
-
-Pour protéger l’identité d’un agent d’appel, modifiez son ID d’appelant pour les appels sortants vers une file d’attente d’appels, le standard automatique ou n’importe quel numéro de service avec l’applet **de commande New-CsCallingLineIdentity** , comme dans l’exemple suivant :
-
-```powershell
-New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
-```
-
-Appliquez ensuite la stratégie à l’utilisateur à l’aide de l’applet de commande **Grant-CallingLineIdentity** comme dans l’exemple suivant : 
-
-```powershell
-Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
-```
-
-Pour plus d’informations, reportez-vous à [utilisation de l’ID d’appelant au sein de votre organisation](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
-
 ## <a name="call-queue-cmdlets"></a>Cmdlets de files d’attente d’appels
 
 Vous pouvez également utiliser Windows PowerShell pour créer et configurer des files d’attente d’appels. Voici les applets de passe que vous utilisez pour gérer une file d’attente d’appels.
@@ -388,21 +188,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 - [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
-### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
-
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 et Microsoft teams avec un seul point d’administration. Cela peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
-
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
-
-- Windows PowerShell offre de nombreux avantages en termes de rapidité, de simplicité et de productivité via le centre d’administration Microsoft teams lorsque vous apportez des modifications à de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
-
-  - [Gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
-
-  - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
@@ -411,3 +197,5 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Nouveau-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

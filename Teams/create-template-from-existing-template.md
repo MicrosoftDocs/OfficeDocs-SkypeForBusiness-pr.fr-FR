@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d12a9422fe7f189d8ad85cf0b139e905550428f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135958"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219085"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft teams
 
@@ -36,38 +36,38 @@ Microsoft teams fournit des modèles prédéfinis qui peuvent être enregistrés
 
 2. Dans le volet de navigation de **Teams**gauche, développez  >  **modèles d’équipe**équipes.
 
-3. Dans la section **modèles d’équipe** , cliquez sur en regard d’un modèle que vous voulez dupliquer pour le mettre en surbrillance.
+3. Dans la section **modèles d’équipe** , sélectionnez en regard d’un modèle que vous voulez dupliquer pour le mettre en surbrillance.
 
-4. Cliquez sur **dupliquer**.
+4. Sélectionnez **dupliquer**.
 
 ![Image de la boîte de dialogue modèles d’équipe avec l’État ajouter en surbrillance.](media/template-duplicate.png)
 
-(Vous pouvez également cliquer sur **Ajouter**  >  **Commencer avec un modèle existant** pour ouvrir l’écran **Sélectionner le modèle à utiliser comme point de départ** .)
+(Vous pouvez également sélectionner **Ajouter**  >  **Commencer avec un modèle existant** pour ouvrir **sélectionnez le modèle à utiliser comme point de départ**.
 
 ![Image de l’écran du point de départ des modèles d’équipe avec l’écran commencer avec un modèle existant mis en surbrillance.](media/template-start-existing-template.png)
 
-5. Dans l’écran **Sélectionner le modèle à utiliser comme point de départ** , cliquez sur **suivant**.
+5. Dans l’écran **Sélectionner le modèle à utiliser comme point de départ** , sélectionnez **suivant**.
 
     Le modèle dupliqué s’ouvre et la **copie** de Word est ajoutée au nom.
 
-6. Complétez les champs suivants, puis cliquez sur **suivant**:
+6. Complétez les champs suivants, puis sélectionnez **suivant**:
     - Nom du modèle
     - Descriptions courtes et longues du modèle
     - Visibilité des paramètres régionaux  
 
 7. Dans la section **canaux, onglets et applications** , modifiez les canaux et applications existants dont votre équipe a besoin.
 
-    1. Sélectionnez un canal à modifier, puis cliquez sur **modifier**.
+    1. Sélectionnez un canal à modifier, puis sélectionnez **modifier**.
     2. Lorsque vous avez terminé, **appliquez** vos modifications.
 
 8. Ajoutez les canaux ou applications dont votre équipe a besoin.
 
-    1. Dans la section **canaux** , cliquez sur **Ajouter**.
+    1. Dans la section **canaux** , sélectionnez **Ajouter**.
     2. Dans la boîte de dialogue **Ajouter** , nommez le canal.
     3. Ajoutez une description.
     4. Décidez si le canal doit être affiché par défaut.
-    5. Recherchez le nom d’une application que vous voulez Addd au canal.
-    6. Cliquez sur **appliquer** lorsque vous avez terminé.
+    5. Recherchez le nom d’une application que vous souhaitez ajouter au canal.
+    6. Sélectionnez **appliquer** lorsque vous avez terminé.
 
 7. Lorsque vous avez terminé d’ajouter des canaux et des applications, cliquez sur **valider** .
 

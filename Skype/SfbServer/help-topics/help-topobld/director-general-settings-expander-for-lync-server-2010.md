@@ -1,5 +1,5 @@
 ---
-title: Développeur des paramètres généraux du directeur pour Lync Server 2010
+title: Expanseur des paramètres généraux du directeur pour Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,40 +8,40 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 'Pour configurer les propriétés générales du réalisateur ou d’un pool de réalisateurs :'
-ms.openlocfilehash: c10afd53a8a5525ddf34bdb67b117a6cdf580abf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Pour configurer les propriétés générales du directeur ou d’un pool Directeur :'
+ms.openlocfilehash: d61bc52500c254ed43a1804d3094623dd0c8be1b
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820136"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219025"
 ---
-# <a name="director-general-settings-expander-for-lync-server-2010"></a>Développeur des paramètres généraux du directeur pour Lync Server 2010
+# <a name="director-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres généraux du directeur pour Lync Server 2010
  
-Pour configurer les propriétés **générales** du réalisateur ou d’un pool de réalisateurs :
+Pour configurer les propriétés **générales** du directeur ou d’un pool Directeur :
   
- **FQDN**: tapez le nom de domaine complet du réalisateur ou du pool de réalisateurs.
+ Nom de domaine **complet (FQDN)**: tapez le nom de domaine complet du directeur ou du pool directeur.
   
  **Associations**
   
- **Magasin de fichiers**: sélectionnez dans la liste le magasin de fichiers du réalisateur ou d’un pool de réalisateurs.
+ **Magasin de fichiers**: sélectionnez dans la liste le magasin de fichiers pour le directeur ou un pool directeur.
   
-Cliquez sur **nouveau** pour définir un nouveau magasin de fichiers.
+Cliquez sur **Nouveau** pour définir un nouveau magasin de fichiers.
   
-Cochez la case **associer le serveur de surveillance** et sélectionnez un serveur de surveillance dans la liste.
+Activez la case à cocher **associer un serveur de surveillance** et sélectionnez un serveur de surveillance dans la liste.
   
-Cliquez sur **nouveau** pour définir un nouveau serveur de surveillance
+Cliquez sur **nouveau** pour définir un nouveau serveur de surveillance.
   
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+ **OK** permet d’accepter et de valider les modifications de la boîte de dialogue.
   
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+ **Annuler** permet d’annuler les modifications et de fermer la boîte de dialogue.
   
- **Aide** : permet d’afficher cet écran d’aide.
+ **Aide** permet d’afficher cet écran d’aide.
   
 

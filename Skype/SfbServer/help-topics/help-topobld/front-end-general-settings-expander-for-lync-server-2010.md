@@ -1,5 +1,5 @@
 ---
-title: Développeur des paramètres généraux du serveur frontal pour Lync Server 2010
+title: Expanseur des paramètres généraux du serveur frontal pour Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,97 +8,97 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
-description: 'Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end en modifiant ou en configurant les attributs suivants. La page Configuration est divisée en sections suivantes :'
-ms.openlocfilehash: c417cd95d43354ad2466138ef6c9382c1a2cd00f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Pour modifier les propriétés du serveur frontal ou du pool frontal, modifiez ou configurez les attributs suivants. La page de configuration s’organise autour des sections suivantes :'
+ms.openlocfilehash: 6d7cdb9067ff88b383077538e38c39c2f8e86a5a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819896"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219095"
 ---
-# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Développeur des paramètres généraux du serveur frontal pour Lync Server 2010
+# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres généraux du serveur frontal pour Lync Server 2010
 
-Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end en modifiant ou en configurant les attributs suivants. La page Configuration est divisée en sections suivantes :
+Pour modifier les propriétés du serveur frontal ou du pool frontal, modifiez ou configurez les attributs suivants. La page de configuration s’organise autour des sections suivantes :
 
  **Général**
 
-- **FQDN**: nom de domaine complet du serveur frontal ou du pool frontal.
+- Nom de domaine **complet (FQDN)**: nom de domaine complet du serveur frontal ou du pool frontal.
 
 - Sélectionnez **utiliser toutes les adresses IP configurées** pour utiliser toutes les adresses configurées sur le serveur frontal ou le pool frontal.
 
     > [!IMPORTANT]
-    > Vous ne devez pas sélectionner cette option si vous collocate le serveur de médiation sur le serveur frontal ou le pool frontal. Les serveurs de médiation et les serveurs frontaux doivent disposer d’adresses IP dédiées sur lesquelles communiquer.
+    > Vous ne devez pas sélectionner cette option si vous colocaliser le serveur de médiation sur le serveur frontal ou le pool frontal. Les serveurs de médiation et les serveurs frontaux ont besoin d’adresses IP dédiées sur lesquelles communiquer.
 
-- Sélectionnez **limiter l’utilisation du service aux adresses IP sélectionnées** et entrez l’adresse IP de l' **adresse IP principale** du serveur frontal ou du pool frontal pour communiquer avec le reste du déploiement. Tapez **adresse IP RTC** et adresse IP associée au serveur de médiation.
+- Sélectionnez **limiter l’utilisation des services aux adresses IP sélectionnées** et entrez l’adresse IP de l' **adresse IP principale** pour le serveur frontal ou la communication de pool frontal avec le reste du déploiement. Tapez dans **adresse IP RTC** l’adresse IP associée au serveur de médiation.
 
-    **Fonctionnalités et fonctionnalités**
+    **Fonctionnalités**
 
-- **Conférences**: activez la case à cocher si vous voulez utiliser les fonctionnalités de conférence dans votre déploiement. Les conférences incluent l’audio, la vidéo, le partage d’application, le partage de bureau et la conférence Web. Vous devez créer et associer une application Office Web Apps Server pour les conférences Web (définie plus loin dans cette page de propriétés).
+- **Conférence** : activez cette case à cocher si vous voulez mettre en œuvre des fonctionnalités de conférence dans votre déploiement. Ces dernières comprennent l’audio, la vidéo, le partage des applications, le partage du Bureau et la conférence web. Vous devrez créer et associer un serveur Office Web Apps Server pour la conférence Web (défini plus loin dans cette page de propriétés).
 
-- Si vous avez sélectionné une conférence rendez **-vous (RTC)** , vous pouvez sélectionner l’option Conférence rendez-vous. Activez les cases à cocher pour activer les fonctionnalités de conférence rendez-vous.
+- Si vous avez sélectionné Conférence, **Conférence rendez-vous (PSTN)** peut l’être également. Activez cette case à cocher pour mettre en œuvre les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **entreprise voix** si vous envisagez de déployer des fonctionnalités pour permettre à Lync Server 2013 de fonctionner comme votre système de voix téléphonique à l’aide de technologies de voix sur IP (VoIP). il est possible d’utiliser une connectivité de type réseau téléphonique commuté, des passerelles RTC et un PBX IP, en combinaison ou seule, en fonction de la conception et de la configuration requise, en particulier. Pour plus d’informations sur voix entreprise, reportez-vous à la section voix [entreprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) et [plan pour Enterprise Voice dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **voix entreprise** si vous envisagez de déployer des fonctionnalités pour permettre à Lync Server 2013 de se comporter comme votre système vocal de téléphonie à l’aide des technologies VoIP (Voice over IP). y compris la possibilité de déployer des téléphones combinés, des jonctions SIP ou une connectivité de réseau téléphonique commuté public à l’aide du serveur de médiation, de passerelles PSTN et d’IP-PBX, en combinaison ou uniquement, en fonction de la conception et des exigences. Pour plus d’informations sur voix entreprise, voir [voix entreprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) et [plan pour voix entreprise dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
-- **SQL Server Store**: nom de domaine complet du serveur SQL (et éventuellement d’une instance nommée) associé au serveur frontal ou au pool frontal. Vous sélectionnez le magasin SQL Server dans la liste ou vous créez une nouvelle banque SQL Server en cliquant sur **nouveau**
+- **Magasin SQL Server**: nom de domaine complet (FQDN) du serveur SQL Server (et éventuellement une instance nommée) associé au serveur frontal ou au pool frontal. Vous sélectionnez le magasin SQL Server dans la liste ou vous créez un magasin SQL Server en cliquant sur **Nouveau**.
 
-- **Magasin de fichiers**: vous sélectionnez le nom de domaine complet (FQDN) du serveur et `\\<FQDN of server>\<share name>`le partage (au format) qui servira d’emplacement de stockage de fichiers pour les fichiers partagés que Lync Server 2013 crée et utilise pour la réplication, les annuaires de conférences et autres objectifs. Pour sélectionner le magasin de fichiers dans la liste, vous devez créer un nouveau magasin de fichiers en cliquant sur **nouveau**.
+- **Magasin de fichiers**: sélectionnez le nom de domaine complet (FQDN) du serveur et le partage (au format  `\\<FQDN of server>\<share name>` ) qui servira d’emplacement du magasin de fichiers pour les fichiers partagés créés et utilisés par Lync Server 2013 pour la réplication, les annuaires de conférence et d’autres objectifs. Vous sélectionnez le magasin de fichiers dans la liste ou vous créez un magasin de fichiers en cliquant sur **Nouveau**.
 
-- Cochez la case **associer un serveur d’archivage** pour activer un serveur d’archivage pour ce serveur frontal ou une liste frontale. Après avoir coché la case, sélectionnez un serveur d’archivage existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur d’archivage.
+- Activez la case à cocher **associer un serveur d’archivage** pour activer un serveur d’archivage pour ce serveur frontal ou ce pool frontal. Après avoir activé la case à cocher, sélectionnez un serveur d’archivage existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur d’archivage.
 
-- Activez la case à cocher **associer le serveur de surveillance** pour activer un serveur de surveillance pour ce serveur frontal ou le pool frontal. Après avoir coché la case, sélectionnez un serveur de surveillance existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur de surveillance.
+- Activez la case à cocher **associer un serveur de surveillance** pour activer un serveur de surveillance pour ce serveur frontal ou ce pool frontal. Après avoir activé la case à cocher, sélectionnez un serveur de surveillance existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur de surveillance.
 
-- Activez la case à cocher **associer le pool Edge (pour les composants multimédias** ) pour activer un serveur Edge pour ce serveur frontal ou le pool frontal. Après avoir activé la case à cocher, vous sélectionnez un serveur Edge ou un pool existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur Edge ou pool.
+- Activez la case à cocher **associer un pool Edge (pour les composants multimédias** ) pour activer un serveur Edge pour ce serveur frontal ou ce pool frontal. Après avoir activé la case à cocher, sélectionnez un serveur Edge ou un pool existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur ou pool Edge.
 
   **Résilience**
 
-- Activez la case à cocher **pool d’registraire de sauvegarde associé** pour sélectionner dans la liste un serveur frontal ou une liste frontale qui sera le Bureau d’enregistrement de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme bureau d’enregistrement secondaire dans le cas où le serveur principal tombe en panne).
+- Activez la case à cocher pool de serveurs d' **inscriptions de sauvegarde associé** pour sélectionner dans la liste un serveur frontal ou un pool frontal qui sera le serveur d’inscriptions de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme serveur d’inscriptions secondaire en cas de panne du serveur principal).
 
-- Si vous avez sélectionné le pool d’inscriptions de sauvegarde associé et que vous avez choisi un bureau d’enregistrement de sauvegarde, vous pouvez activer la case à cocher **reprise automatique et retour automatique pour la voix**. À présent, vous pouvez définir des propriétés numériques pour la détection de la **reprise vocale** et l' **intervalle de restauration vocale (s)**. Pour plus d’informations, consultez [planification de la résilience vocale d’entreprise](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx) .
+- Si vous avez sélectionné Pool de serveurs d’inscriptions de sauvegarde associé et si vous avez choisi un serveur d’inscriptions de sauvegarde, vous pouvez activer la case à cocher **Basculement et restauration automatiques pour Voice**. Vous pouvez maintenant définir des propriétés numériques pour **Intervalle de détection d’échec Voice (en secondes)** et **Intervalle de restauration automatique Voice (en secondes)**. Pour plus d’informations, voir [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
-  **Services Web**
+  **Services web**
 
-- Pour configurer les **services Web internes**, vous définissez des **ports d’écoute** pour **http** et **https**. Par défaut, il s’agit de port TCP 80 et 443 de port TCP respectivement. Vous devez également configurer les **ports publiés** pour **http** et **https**. Par défaut, il s’agit de port TCP 80 et 443 de port TCP respectivement. En fonction de la configuration de vos services Web internes et de l’utilisation des équilibreurs de charge (équilibreurs de charge matérielle et équilibrage de la charge DNS), ajustez les valeurs de port pour définir les ports d’écoute et de publication.
-
-    > [!IMPORTANT]
-    > Les services Web internes ainsi que les ports d’écoute et de publication définis sont destinés aux clients et appareils internes. Les clients et périphériques externes utilisent les ports d’écoute et de publication des services Web externes, ainsi que le nom de domaine complet des services Web externes définis.
-
-- Pour configurer des **services Web externes**, vous définissez des **ports d’écoute** pour **http** et **https**. Par défaut, il s’agit de port TCP 80 et 443 de port TCP respectivement. Vous devez également configurer les **ports publiés** pour **http** et **https**. Par défaut, il s’agit de port TCP 80 et 443 de port TCP respectivement. En fonction de la configuration de vos services Web internes et de l’utilisation des équilibreurs de charge (équilibreurs de charge matérielle et équilibrage de la charge DNS), ajustez les valeurs de port pour définir les ports d’écoute et de publication.
+- Pour configurer **Services web internes**, vous définissez **Ports d’écoute** pour **HTTP** et **HTTPS**. Par défaut, il s’agit respectivement du port TCP 80 et du port TCP 443. Vous configurez également les **Ports publiés** pour **HTTP** et **HTTPS**. Par défaut, il s’agit respectivement du port TCP 80 et du port TCP 443. Selon votre configuration des services web internes et votre utilisation des équilibrages de charge (équilibrages de charge matérielle et DNS), réglez les valeurs des ports pour définir les ports d’écoute et publiés.
 
     > [!IMPORTANT]
-    > Les services Web externes ainsi que les ports d’écoute et publiés définis sont destinés aux clients et périphériques externes. Les clients et périphériques externes utilisent les ports d’écoute et de publication des services Web externes, généralement définis par votre proxy inverse, ainsi que le nom de domaine complet (FQDN) des services Web externes définis. La relation du nom de domaine complet des services Web externes et des URL simples définissent les adresses URL (Uniform Resource Locator) que les clients externes utiliseront pour accéder aux services accessibles aux utilisateurs et périphériques externes. Pour plus d’informations sur les URL simples, voir [planification d’URL simples](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
+    > Les services web internes et les ports d’écoute et publiés sont destinés aux clients et périphériques internes. Les clients et périphériques externes utilisent les ports d’écoute et publiés des services web externes, avec le nom de domaine complet (FQDN) des services web externes définis.
+
+- Pour configurer **Services web externes**, vous définissez **Ports d’écoute** pour **HTTP** et **HTTPS**. Par défaut, il s’agit respectivement du port TCP 80 et du port TCP 443. Vous configurez également les **Ports publiés** pour **HTTP** et **HTTPS**. Par défaut, il s’agit respectivement du port TCP 80 et du port TCP 443. Selon votre configuration des services web internes et votre utilisation des équilibrages de charge (équilibrages de charge matérielle et DNS), réglez les valeurs des ports pour définir les ports d’écoute et publiés.
+
+    > [!IMPORTANT]
+    > Les services web externes et les ports d’écoute et publiés sont destinés aux clients et périphériques externes. Les clients et périphériques externes utilisent les ports d’écoute et publiés des services web externes, généralement définis par votre proxy inverse, avec le nom de domaine complet (FQDN) des services web externes définis. Les relations qui existent entre le nom de domaine complet (FQDN) des services web externes définis et les URL simples définissent les adresses URL (Uniform Resource Locator) que les clients externes utiliseront pour accéder aux services disponibles pour les utilisateurs et les périphériques externes. Pour plus d’informations sur les URL simples, voir [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
   **Serveur de médiation**
 
-- Pour configurer les propriétés du **serveur** de médiation pour un serveur de médiation colocalisé (autrement dit, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez **serveur de médiation en option activé**.
+- Pour configurer les propriétés du **serveur de médiation** pour un serveur de médiation colocalisé (c’est-à-dire un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez **serveur de médiation colocalisé activé**.
 
-- Pour définir les **ports d’écoute** d’un serveur de médiation colocalisé, vous devez taper les valeurs de port **TLS** et **TCP** que le serveur de médiation coordonnés écoute. Par défaut, la valeur TLS est définie comme port TCP 5067.
+- Pour définir les **ports d’écoute** d’un serveur de médiation colocalisé, tapez la valeur du port **TLS** et du port **TCP** sur lequel le serveur de médiation colocalisé est à l’écoute. Par défaut, TLS est défini comme le port TCP 5067.
 
-- Pour définir une valeur de port TCP pour le serveur de médiation, activez la case à cocher **activer le port TCP** . Par défaut, le serveur de médiation utilise le protocole TLS (Transport Layer Security) sur TCP. Les ports TCP ne sont disponibles que lorsque l’option Activer le port TCP est activée.
+- Pour définir une valeur de port TCP pour le serveur de médiation, activez la case à cocher **activer le port TCP** . Par défaut, le serveur de médiation utilise le protocole TLS (Transport Layer Security) sur TCP. Les ports TCP sont disponibles uniquement lorsqu’est activée la sélection Activer le port TCP.
 
     > [!NOTE]
-    > Il s’agit d’un paramètre facultatif qui vous permet de consulter les exigences de votre passerelle ou de votre PSTN pour déterminer si vous en avez besoin. Par défaut, le port TCP est le port 5068.
+    > Il s’agit d’un paramètre facultatif et vous devriez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est 5068.
 
-- Vous définissez les lignes associées au serveur de médiation colocalisé. Si vous avez déjà défini des jonctions, elles pourront être associées au serveur de médiation.
+- Vous définissez des jonctions associées au serveur de médiation colocalisé. Si vous avez déjà défini des jonctions, elles pourront être associées au serveur de médiation.
 
-    Si vous avez plusieurs passerelles associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous voulez utiliser par défaut, puis en cliquant sur **définir par défaut**. Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez celle-ci, puis cliquez sur **créer la valeur par défaut**.
+    Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle à utiliser par défaut, puis en cliquant sur **utiliser par défaut**. Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
 
 > [!IMPORTANT]
-> Si vous apportez des modifications aux propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement de Skype entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs concernés dans lesquels l’Assistant Déploiement de Skype entreprise Server doit s’exécuter est disponible en tant que lien sur l’écran de synthèse de publication de la topologie réussie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [publier la topologie](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Pour plus d’informations sur l’Assistant Déploiement de Skype entreprise Server, voir [Outils d’administration de Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
+> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement de Skype entreprise Server sur tous les serveurs concernés. Une fois la nouvelle topologie publiée, la liste des serveurs concernés sur lesquels l’Assistant Déploiement de Skype entreprise Server doit être exécuté vous est fournie sous forme de lien sur l’écran Résumé de publication de la topologie réussie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Pour plus d’informations sur l’Assistant Déploiement de Skype entreprise Server, reportez-vous à la rubrique [Outils d’administration de Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
 
-Cliquez sur **OK** pour enregistrer et valider les modifications apportées au document topologique.
+Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 
-Cliquez sur **Annuler** pour ignorer vos modifications et fermer les **Propriétés de modification** du serveur frontal ou du pool frontal.
+Cliquez sur **Annuler** pour ignorer vos modifications et fermer les **Propriétés de modification** pour le serveur frontal ou le pool frontal.
 
-Cliquez sur **aide** pour lire cette rubrique d’aide.
+Cliquez sur **Aide** pour lire cette rubrique d’aide.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Définir et configurer un pool frontal ou un serveur Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
+[Définition et configuration d’un pool frontal ou d’un serveur Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)

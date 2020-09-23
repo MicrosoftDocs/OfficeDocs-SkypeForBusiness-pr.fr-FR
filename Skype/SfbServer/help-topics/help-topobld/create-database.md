@@ -8,35 +8,35 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
-description: Le générateur de topologie fournit un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server spécifié ou le cluster SQL Server. C’est le seul type d’installation de base de données disponible par le biais du générateur de topologie. Si vous avez besoin d’installer une base de données spécifique sur un ordinateur spécifique, ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et l’applet de commande Install-CsDatabase.
-ms.openlocfilehash: cd3bd6e24f0dc3ec21c5cfa8626d9696454855e7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Le générateur de topologies offre un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server ou le cluster SQL Server spécifié. C’est le seul type d’installation de base de données disponible par le biais du Générateur de topologie. Si vous devez installer une base de données spécifique sur un ordinateur spécifique ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et la cmdlet install-applet csdatabase à la place.
+ms.openlocfilehash: ea7daab44c6075e40e3f8a1b900fe43b84048ed5
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820236"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219505"
 ---
 # <a name="create-database"></a>Créer des bases de données
  
-Le générateur de topologie fournit un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server spécifié ou le cluster SQL Server. C’est le seul type d’installation de base de données disponible par le biais du générateur de topologie. Si vous avez besoin d’installer une base de données spécifique sur un ordinateur spécifique, ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et l’applet de commande [install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) .
+Le générateur de topologies offre un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server ou le cluster SQL Server spécifié. C’est le seul type d’installation de base de données disponible par le biais du Générateur de topologie. Si vous devez installer une base de données spécifique sur un ordinateur spécifique ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et la cmdlet [install-applet csdatabase à](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) la place.
   
 ### <a name="creating-a-database"></a>Création d’une base de données
 
-1. Cliquez sur le nœud Skype entreprise Server 2015, puis cliquez sur **installer la base de données**.
+1. Cliquez sur le nœud Skype entreprise Server 2015, puis sur **installer la base de données**.
     
-2. Dans la boîte de dialogue **installer des bases de données** , dans la page créer une **base de données** , sélectionnez le nom de domaine complet (FQDN) du magasin SQL Server dans lequel les nouvelles bases de données doivent être créées.
+2. Dans la boîte de dialogue **installer des bases** de données, dans la page créer une **base de données** , sélectionnez le nom de domaine complet (FQDN) du magasin SQL Server où les nouvelles bases de données doivent être créées.
     
 3. Cliquez sur **Avancé**. Dans la boîte de dialogue **Sélectionner un emplacement de fichier de base de données**, sélectionnez l’une des options suivantes :
     
-   - **Déterminer automatiquement l’emplacement du fichier de base de données** : si vous sélectionnez cette option, le générateur de topologie utilise un algorithme intégré pour sélectionner l’emplacement de stockage des journaux de bases de données et des fichiers de données.
+   - **Déterminer automatiquement l’emplacement du fichier de base de données**. Si vous sélectionnez cette option, le Générateur de topologie utilise un algorithme intégré pour choisir l’emplacement de stockage pour les journaux de bases de données et les fichiers de données.
     
-   - **Utilisez les valeurs par défaut des instances SQL Server**. Si vous sélectionnez cette option, l’algorithme intégré n’est pas utilisé pour choisir les emplacements de stockage pour les journaux de base de données et les fichiers de données. Au lieu de cela, les fichiers de données et de journalisation sont stockés dans les emplacements spécifiés par le chemin d’accès par défaut de SQL Server (ces chemins doivent être configurés dans avancé par un administrateur SQL Server). Les fichiers de données seront stockés dans l’emplacement du fichier de données SQL Server par défaut alors que les fichiers journaux seront stockés dans l’emplacement du fichier journal SQL Server par défaut.
+   - **Utiliser les valeurs par défaut de l’instance SQL Server**. Si vous sélectionnez cette option, l’algorithme intégré n’est pas utilisé pour choisir les emplacements de stockage pour les journaux de bases de données et les fichiers de données. À la place, les fichiers journaux et les fichiers de données sont stockés aux emplacements spécifiés dans les chemins d’accès SQL Server par défaut (ces chemins doivent être configurés à l’avance par un administrateur SQL). Les fichiers de données seront stockés à l’emplacement attribué par défaut pour les fichiers de données SQL Server et les fichiers journaux SQL Server à leur emplacement défini par défaut.
     
 4. Cliquez sur **OK**.
     

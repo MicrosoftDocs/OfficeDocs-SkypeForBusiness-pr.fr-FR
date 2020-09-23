@@ -1,5 +1,5 @@
 ---
-title: Nœud d’étendue du site Lync Server
+title: Test - Nœud d’étendue de site Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,36 +8,36 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.SiteScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
-description: 'Ce nœud affiche l’un des sites définis dans votre topologie. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 4971b67b323b805827837ad4ea8cd324c7faa25b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 609d85b3c70d4a04491348a51968e33485cd597f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819186"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219589"
 ---
-# <a name="test---skype-for-business-server-site-scope-node"></a>Nœud d’étendue du site Lync Server
+# <a name="test---skype-for-business-server-site-scope-node"></a>Test - Nœud d’étendue de site Skype Entreprise Server
  
-Ce nœud affiche l’un des sites définis dans votre topologie. Vous pouvez effectuer les actions suivantes : 
+Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes : 
   
-- **Nouveau.**  : ajoute un nouveau pool ou serveur au site.
+- **Nouveau.** Ajoute un nouveau pool ou serveur au site.
     
-- **Modifier les propriétés** : modifie les propriétés du site, comme le nom et l’emplacement, et spécifie si le site utilise le contrôle d’admission des appels pour la gestion de la bande passante et si un pool de directeurs ou un pool de serveurs Edge sur ce site est utilisé comme itinéraire de fédération.
+- **Modifier les propriétés.** Modifie les propriétés du site comme le nom et l’emplacement, et spécifie si le site utilise le contrôle d’admission des appels pour la gestion de la bande passante, et si un pool de directeurs ou un pool de serveurs Edge sur ce site est utilisé comme itinéraire de fédération.
     
-- **Supprimer.**  : supprime ce site de votre topologie.
+- **Supprimer.** Supprime ce site de votre topologie.
     
 Outre ces options, vous pouvez effectuer les tâches générales suivantes :
   
-- **Topologie.**  : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
+- **Topologie.** Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
     
-- **Afficher.**  : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+- **Afficher.** Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide.** Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

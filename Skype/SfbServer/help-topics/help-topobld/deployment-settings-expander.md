@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Vous pouvez modifier les propriétés d’un déploiement existant à l’aide des sections suivantes :'
-ms.openlocfilehash: 972abaf61a481ae21ea87e09b8355b4481c7f1c1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820146"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219065"
 ---
 # <a name="deployment-settings-expander"></a>Expanseur des paramètres de déploiement
 
@@ -28,17 +28,17 @@ Vous pouvez modifier les propriétés d’un déploiement existant à l’aide d
 
 - Domaine SIP
 
-- URL simples 
+- URL simples
 
-- serveur de gestion centralisée
+- Serveur de gestion centralisée
 
 ## <a name="sip-domain"></a>Domaine SIP
 
-Pour modifier le **Domaine SIP par défaut**, entrez le nouveau nom de domaine.
+Pour modifier le **Domaine SIP par défaut**, saisissez le nouveau nom de domaine.
 
-Pour ajouter d’**autres domaines SIP pris en charge**, tapez le nom de domaine à ajouter. Cliquez sur **Ajouter** pour le valider comme nouveau nom de domaine SIP (Session Initiation Protocol).
+Pour ajouter d’**Autres domaines SIP pris en charge**, tapez le nom de domaine que vous souhaitez ajouter. Cliquez sur **Ajouter** pour l’accepter en tant que nouveau nom de domaine SIP (Session Initiation Protocol).
 
-Pour mettre à jour un nom de domaine SIP existant, sélectionnez le nom de domaine et effectuez les modifications dans la zone de texte. Cliquez sur **Mettre à jour** pour valider la modification.
+Pour mettre à jour un nom de domaine SIP existant, sélectionnez le nom de domaine et effectuez les modifications dans la zone de texte. Cliquez sur **Mettre à jour** pour accepter la modification.
 
 Pour supprimer un autre nom de domaine SIP défini, sélectionnez le nom de domaine, puis cliquez sur **Supprimer**.
 
@@ -46,9 +46,9 @@ Lorsque vous avez terminé vos modifications dans la page Modifier les propriét
 
 ## <a name="simple-urls"></a>URL simples
 
-Pour modifier ou définir des URL simples, vous devez sélectionner l’une des trois URL simples à modifier. Vous pouvez sélectionner les URL d’accès téléphonique, les URL de réunion ou les URL d’accès administratif.
+Pour modifier ou définir des URL simples, vous devez choisir l’une des trois URL simples à modifier. Vous pouvez choisir parmi les URL d’accès téléphonique, les URL de réunion et les URL d’accès administratif.
 
-Pour modifier l’URL d’accès téléphonique ou l’URL de réunion, sélectionnez l’URL à modifier. Cliquez sur **Modifier l’URL**. Ensuite, modifiez l’URL, puis cliquez sur **OK** pour l’enregistrer. Cliquez sur **Annuler** pour annuler les modifications.
+Pour modifier l’URL d’accès téléphonique ou l’URL de réunion, sélectionnez l’URL à modifier. Cliquez sur **Modifier l’URL**. Modifiez ensuite l’URL, puis cliquez sur **OK** pour l’enregistrer. Cliquez sur **Annuler** pour annuler les modifications.
 
 Pour ajouter une nouvelle URL, cliquez sur **Ajouter**. Dans la boîte de dialogue **Ajouter une URL simple**, spécifiez l’URL et cliquez sur **OK** pour l’enregistrer. Sélectionnez **Définir cette URL en tant qu’URL active pour le domaine sélectionné** si vous avez besoin de définir la nouvelle URL comme URL active. Cliquez sur **Annuler** pour annuler les modifications.
 
@@ -73,10 +73,10 @@ Le serveur de gestion centralisée peut être changé d’un pool frontal défin
 > [!IMPORTANT]
 > Après avoir défini, publié et déployé le magasin central de gestion pour l’infrastructure, vous ne pouvez pas modifier son emplacement sans redéfinir l’emplacement du magasin central de gestion sur un autre serveur frontal par le biais d’un processus externe.
 
-Pour plus d’informations sur le déplacement du magasin central de gestion, reportez-vous à la rubrique [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence de l’applet de commande Windows PowerShell.
+Pour plus d’informations sur le déplacement du magasin central de gestion, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence de l’applet de commande Windows PowerShell.
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration de ces paramètres, reportez-vous à la rubrique [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+Pour plus d’informations sur la définition et la configuration de ces paramètres, voir [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 
 

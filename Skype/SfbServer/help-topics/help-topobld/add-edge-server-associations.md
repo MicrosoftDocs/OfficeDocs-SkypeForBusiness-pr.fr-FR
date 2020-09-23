@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
-description: Cette page vous permet de sélectionner les pools front-end et les serveurs Standard Edition utilisant ce pool de périphériques pour le trafic A/V.
-ms.openlocfilehash: 2fc4bd0f582fcac45f397d04467ed20d7f217551
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Utilisez cette page pour sélectionner les pools frontaux et les serveurs Standard Edition Server qui utiliseront ce pool de serveurs de périphérie pour le trafic A/V.
+ms.openlocfilehash: aede7eed913eefb778920061554b56dd0e2ef9fb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821096"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219295"
 ---
 # <a name="add-edge-server-associations"></a>Ajouter des associations de serveur Edge
  
-Cette page vous permet de sélectionner les pools front-end et les serveurs Standard Edition utilisant ce pool de périphériques pour le trafic A/V. 
+Utilisez cette page pour sélectionner les pools frontaux et les serveurs Standard Edition Server qui utiliseront ce pool de serveurs de périphérie pour le trafic A/V. 
   
-Chaque pool frontal ne peut être associé qu’à un seul pool de bords. Si vous sélectionnez un groupe qui est déjà associé à un autre pool de périphériques, l’Association est en dehors de la réserve de bords précédente.
+Chaque pool frontal ne peut être associé qu’à un seul pool de serveurs de périphérie. Si vous sélectionnez un pool qui est déjà associé à un autre pool de serveurs de périphérie, cela affectera l’association du précédent pool de serveurs de périphérie.
   
-Vous pouvez également choisir d’associer ce serveur Edge ou pool de périphériques de médiation aux serveurs de médiation ou aux pools de serveurs de médiation pour configurer et activer la voix entreprise pour les utilisateurs externes.
+Vous pouvez également choisir d’associer ce serveur Edge ou ce pool Edge aux serveurs de médiation ou aux pools de serveurs de médiation pour configurer et activer Enterprise Voice pour les utilisateurs externes.
   
 
