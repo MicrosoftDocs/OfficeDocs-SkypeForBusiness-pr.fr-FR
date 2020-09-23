@@ -8,32 +8,32 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 'Le nœud Pools directeurs répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 802cf2161ede835c58b94d0bbde34f4a1edd2916
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 81945ff70a46bd0507cc5ff8c8d463a2b66f0ebe
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820106"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218975"
 ---
-# <a name="directors-scope-node"></a><span data-ttu-id="14cb9-104">Nœud d’étendue des directeurs</span><span class="sxs-lookup"><span data-stu-id="14cb9-104">Directors Scope Node</span></span>
+# <a name="directors-scope-node"></a><span data-ttu-id="5c627-104">Nœud d’étendue des directeurs</span><span class="sxs-lookup"><span data-stu-id="5c627-104">Directors Scope Node</span></span>
  
-<span data-ttu-id="14cb9-p102">Le nœud **Pools directeurs** répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :</span><span class="sxs-lookup"><span data-stu-id="14cb9-p102">The **Director pools** node lists the Director pools in your topology. You can perform the following action:</span></span>
+<span data-ttu-id="5c627-p102">Le nœud **Pools directeurs** répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :</span><span class="sxs-lookup"><span data-stu-id="5c627-p102">The **Director pools** node lists the Director pools in your topology. You can perform the following action:</span></span>
   
-- <span data-ttu-id="14cb9-p103">**Nouveau pool directeur** : lance l’Assistant **Définition d’un nouveau pool directeur**, qui permet d’ajouter un nouveau pool directeur à votre topologie.</span><span class="sxs-lookup"><span data-stu-id="14cb9-p103">**New Director Pool**. Starts the **Define New Director Pool** wizard, which you use to add a new Director pool to the topology.</span></span>
+- <span data-ttu-id="5c627-p103">**Nouveau pool directeur**. Démarre l’Assistant **Définir un nouveau pool directeur** qui permet d’ajouter un nouveau pool directeur à votre topologie.</span><span class="sxs-lookup"><span data-stu-id="5c627-p103">**New Director Pool**. Starts the **Define New Director Pool** wizard, which you use to add a new Director pool to the topology.</span></span>
     
-<span data-ttu-id="14cb9-109">Outre les options de pool directeur, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="14cb9-109">In addition to the Director pool options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="5c627-109">Outre les options de pool directeur, vous pouvez réaliser les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="5c627-109">In addition to the Director pool options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="14cb9-p104">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="14cb9-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="5c627-110">**Topologie**.</span><span class="sxs-lookup"><span data-stu-id="5c627-110">**Topology**.</span></span> <span data-ttu-id="5c627-111">Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner les composants des versions précédentes ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="5c627-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="14cb9-p105">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="14cb9-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="5c627-p105">**Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="5c627-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="14cb9-p106">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="14cb9-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="5c627-p106">**Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.</span><span class="sxs-lookup"><span data-stu-id="5c627-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
