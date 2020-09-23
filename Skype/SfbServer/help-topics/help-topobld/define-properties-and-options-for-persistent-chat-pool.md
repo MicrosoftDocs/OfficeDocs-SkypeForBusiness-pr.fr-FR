@@ -8,50 +8,50 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
-description: 'Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes :'
-ms.openlocfilehash: 39816bcc4c76a5be07e90c63dfa9064c4a0670d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Vous configurez les options de votre serveur de conversation permanente ou de votre pool de serveurs de conversation permanente en définissant les propriétés suivantes :'
+ms.openlocfilehash: 8d3cef04d7089ffff640740bb048ca52cf7fd91e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820186"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218545"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Définir les propriétés et les options de pool de conversations permanentes
  
-Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes :
+Vous configurez les options de votre serveur de conversation permanente ou de votre pool de serveurs de conversation permanente en définissant les propriétés suivantes :
   
- **Nom d’affichage du pool de conversations permanentes**: propriété requise définissant un nom convivial qui sera affiché pour ce serveur de chat permanent ou le pool de serveurs de chat permanent.
+ **Nom complet du pool de conversations permanentes**: propriété obligatoire définissant un nom convivial qui s’affichera pour ce serveur de conversation permanente ou ce pool de serveurs de conversation permanente.
   
- **Port de chat permanent**: propriété requise définissant le numéro de port que le serveur de chat permanent ou le pool de serveurs de chat permanent écoutera.
+ **Port de conversation permanente**: propriété obligatoire qui définit le numéro de port sur lequel le serveur de conversation permanente ou le pool de serveurs de conversation permanente écoute.
   
- **Activer la conformité**: activez la case à cocher si vous envisagez de déployer et d’implémenter la fonctionnalité et la base de données de compatibilité de conversation persistante facultative.
+ **Activer la conformité**: activez cette case à cocher si vous envisagez de déployer et d’implémenter la fonctionnalité et la base de données de conformité de conversation permanente facultatives.
   
- **Utiliser les magasins de sauvegarde SQL Server pour activer la reprise après sinistre**: activez cette case à cocher si vous envisagez de déployer et de mettre en œuvre une reprise après sinistre des magasins SQL Server de discussion persistante à partir d’un jeu de stockage de sauvegarde configuré sur un autre serveur SQL Server. Pour plus d’informations, reportez-vous à la rubrique Configuration de la [haute disponibilité et de la reprise après sinistre pour le serveur Chat permanent dans Skype entreprise server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
-  
-> [!NOTE]
-> Cette option n’est disponible que pour les pools comportant plusieurs serveurs. 
-  
- **Utilisez ce pool par défaut pour le site \<de site\>sur lequel ce serveur ou ce pool est configuré**: activez cette case à cocher s’il s’agit du serveur de chat permanent par défaut ou du pool de serveurs de chat permanent pour le site. Vous devez disposer d’une conversation permanente par défaut ou d’un serveur. pol par site.
+ **Utiliser des magasins SQL Server de sauvegarde pour activer la récupération d’urgence**: activez cette case à cocher si vous envisagez de déployer et d’implémenter la récupération d’urgence des magasins SQL Server de conversation permanente à partir d’un jeu de banques de sauvegarde configuré sur un autre serveur SQL Server. Pour plus d’informations, reportez-vous à la rubrique [configure High Availability and Disaster Recovery for persistent Chat Server in Skype for Business server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
-> Si votre topologie comporte plusieurs sites, la case à cocher **Toujours utiliser ce pool pour tous les sites** s’affiche également.
+> Cette option est disponible uniquement pour les pools avec plusieurs serveurs. 
+  
+ **Utiliser ce pool comme serveur par défaut pour \<site that this server or pool is being configured in\> le site **: activez cette case à cocher s’il s’agit du pool de serveurs de conversation permanente ou de conversation permanente par défaut pour le site. Vous devez disposer d’un serveur de conversation permanente par défaut ou de Pol par site.
+  
+> [!NOTE]
+> Si votre topologie comprend plusieurs sites, une case à cocher **utiliser ce pool comme valeur par défaut pour tous les sites** s’affiche également.
   
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   
-Cliquez sur **suivant** une fois que vous avez terminé d’entrer les options pour ce pool et continuez avec la définition du pool de serveurs de chat permanent.
+Une fois que vous avez terminé d’entrer les options pour ce pool, cliquez sur **suivant** pour continuer avec la définition de pool de serveurs de conversation permanente.
   
-Cliquez sur **Annuler** pour ignorer toutes les modifications et fermer l’Assistant **Définition d’un nouveau pool de conversations permanentes**.
+Cliquez sur **Annuler** pour ignorer toutes les modifications et mettre fin à l’Assistant **Définir un nouveau pool de conversations permanentes**.
   
-Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active.
+Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active, par exemple.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier le serveur de conversation permanente dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter un serveur de chat permanent à votre topologie 2015 Skype entreprise Server](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Ajouter un serveur de conversation permanente à votre topologie Skype entreprise Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Fusion héritée : ajouter un ordinateur'
+title: 'Fusion héritée : ajouter un ordinateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
-description: Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur appartenant au pool de serveurs Edge consolidé avec charge équilibrée.
-ms.openlocfilehash: 80e078b9555c56121c6f21c13152f6e437369b5b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur qui fait partie du pool de serveurs Edge consolidé hérité à charge équilibrée.
+ms.openlocfilehash: b303a9b5e083e3646f3e39e74782d4810d3d473c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819776"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218485"
 ---
-# <a name="legacy-merge-add-machine"></a>Fusion héritée : ajouter un ordinateur
+# <a name="legacy-merge-add-machine"></a>Fusion héritée : ajouter un ordinateur
  
-Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur appartenant au pool de serveurs Edge consolidé avec charge équilibrée. 
+Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur qui fait partie du pool de serveurs Edge consolidé hérité à charge équilibrée. 
   
 

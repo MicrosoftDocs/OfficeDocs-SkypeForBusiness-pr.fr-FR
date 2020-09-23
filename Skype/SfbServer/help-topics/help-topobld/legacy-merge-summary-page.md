@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeSummaryPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
-description: La migration de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités de générateur de topologie pour fusionner les topologies existantes. L’écran de synthèse spécifie toutes les actions et sélections que vous avez apportées lors de la configuration de la fusion du serveur Office Communications Server 2007 R2 dans la configuration du générateur de topologie Lync Server 2013.
-ms.openlocfilehash: 1640def423df393330595126d97a0c65de018053
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La migration de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités du générateur de topologie pour fusionner les topologies existantes. L’écran de résumé spécifie toutes les actions et sélections que vous avez effectuées au cours de la configuration de la fusion d’Office Communications Server 2007 R2 dans la configuration de générateur de topologies Lync Server 2013.
+ms.openlocfilehash: 2e999d12ed17d3b48496ce2f41f7f08104c3429a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819696"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218025"
 ---
 # <a name="legacy-merge-summary-page"></a>Page de résumé de la fusion héritée
 
-La migration de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités de générateur de topologie pour fusionner les topologies existantes. L’écran de synthèse spécifie toutes les actions et sélections que vous avez apportées lors de la configuration de la fusion du serveur Office Communications Server 2007 R2 dans la configuration du générateur de topologie Lync Server 2013.
+La migration de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités du générateur de topologie pour fusionner les topologies existantes. L’écran de résumé spécifie toutes les actions et sélections que vous avez effectuées au cours de la configuration de la fusion d’Office Communications Server 2007 R2 dans la configuration de générateur de topologies Lync Server 2013.
 
-Passez en revue le résumé et déterminez si vos sélections ont été correctement définies. Procédez à la fusion si vous êtes satisfait des sélections réfléchies dans le résumé.
+Consultez le résumé et déterminez si vos sélections ont été correctement définies. Poursuivez la fusion si les sélections figurant dans le résumé vous satisfont.
 
 ## <a name="see-also"></a>Voir aussi
 

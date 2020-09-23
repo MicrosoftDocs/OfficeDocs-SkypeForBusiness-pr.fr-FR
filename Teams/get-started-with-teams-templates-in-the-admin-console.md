@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171098"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218575"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Commencer à utiliser les modèles teams dans la console d’administration
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171098"
 
 Les modèles teams sont des définitions prédéfinies d’une structure d’équipe conçue pour un projet ou une entreprise. Utilisez des modèles prédéfinis ou créez votre propre modèle. Les modèles d’équipes vous permettent de créer rapidement des espaces de collaboration riches avec des canaux pour différentes rubriques et des applications de préinstallation pour extraire des contenus et services stratégiques. Les modèles teams fournissent une structure d’équipe prédéfinie qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Pour l’instant, vous pouvez créer une équipe à partir d’un modèle dans teams ou [Microsoft Graph](get-started-with-teams-templates.md).
 
-Dans cet article, nous allons expliquer les propriétés qui peuvent être définies dans les modèles, les types de modèles de base et la façon dont vous pouvez utiliser quelques exemples de requête pour créer une équipe à partir d’un modèle.
+Dans cet article, nous allons expliquer les propriétés qui peuvent être définies dans les modèles, les types de modèles de base et la façon dont vous pouvez utiliser quelques requêtes d’exemples pour créer une équipe à partir d’un modèle.
 
 Cet article est pour vous si vous êtes :
 
@@ -88,7 +88,7 @@ Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou re
 |Collaboration avec le responsable commercial| `retailManagerCollaboration` |Canaux <ul><li>Général<li>Opérations</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 ||||
 
-Pour plus d’informations sur les catégories de modèles, voir les rubriques suivantes :
+Pour plus d’informations sur les catégories de modèles, voir les catégories suivantes :
 
 - [Modèles financiers](financial-teams-templates-in-the-admin-console.md)
 - [Modèles généraux](general-teams-templates-in-the-admin-console.md)

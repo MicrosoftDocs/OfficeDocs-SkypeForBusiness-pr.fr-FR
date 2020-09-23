@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords: ''
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -16,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment créer et gérer des stratégies de routage de messagerie vocale dans Microsoft Teams.
-ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 2bef422f22dc212b2c615e2ca2ab98806b396e9f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938125"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217655"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Gérer les stratégies de routage de messagerie vocale dans Microsoft teams
 
@@ -38,7 +39,7 @@ Il est important de savoir que l’affectation d’une stratégie de routage voc
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**stratégies de routage de voix vocales, puis  >  **Voice routing policies**cliquez sur **Ajouter**.<br>
-    ![Capture d’écran de la page Ajouter une stratégie de routage vocale dans le centre d’administration Microsoft teams](media/manage-voice-routing-policies.png) 
+    ![Capture d’écran de la page Ajouter une stratégie de routage vocale dans le centre d’administration Microsoft teams ](media/manage-voice-routing-policies.png) 
 2. Entrez un nom pour votre stratégie, ainsi qu’une description.
 3. Sous **rapports d’utilisation RTC**, cliquez sur **Ajouter une utilisation PSTN**, puis sélectionnez les enregistrements que vous souhaitez ajouter. Si vous avez besoin de créer un nouvel enregistrement d’utilisation RTC, cliquez sur **Ajouter**.
 4. Si vous avez ajouté plusieurs enregistrements d’utilisation RTC, réorganisez-les dans l’ordre de votre choix.

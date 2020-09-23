@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
-description: La page publier la topologie s’affiche lorsque vous commencez le processus de publication. Lisez et confirmez la fin de la liste de tâches avant de continuer. Lorsque vous êtes prêt à procéder, cliquez sur suivant. Si vous devez quitter le processus de publication, cliquez sur Annuler.
-ms.openlocfilehash: 0fb9e626988ff83b7e01974d4af3201f0b8cff9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La page Publier la topologie s'affiche lorsque vous commencez le processus de publication. Vérifiez que les tâches répertoriées sont terminées avant de continuer. Lorsque vous êtes prêt à continuer, cliquez sur Suivant. Si vous devez quitter le processus de publication, cliquez sur Annuler.
+ms.openlocfilehash: d8e9244e8259a3966f2dd1ef8200993ee04b2b99
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819356"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217225"
 ---
 # <a name="publish-topology"></a>Publier la topologie
  
-La page **publier la topologie** s’affiche lorsque vous commencez le processus de publication. Lisez et confirmez la fin de la liste de tâches avant de continuer. Lorsque vous êtes prêt à procéder, cliquez sur **suivant**. Si vous devez quitter le processus de publication, cliquez sur **Annuler**.
+La page **Publier la topologie** s'affiche lorsque vous commencez le processus de publication. Vérifiez que les tâches répertoriées sont terminées avant de continuer. Lorsque vous êtes prêt à continuer, cliquez sur **Suivant**. Si vous devez quitter le processus de publication, cliquez sur **Annuler**.
   
 

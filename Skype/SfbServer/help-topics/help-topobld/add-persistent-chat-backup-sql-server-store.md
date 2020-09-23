@@ -1,5 +1,5 @@
 ---
-title: Ajouter un magasin SQL Server de stockage de conversation permanente
+title: Ajouter un magasin SQL Server de stockage de conversation permanente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,52 +8,52 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
-description: Vous configurez les banques SQL Server de sauvegarde qui fournissent des bases de données de sauvegarde pour le serveur de chat permanent ou le pool de serveurs de chat permanent.
-ms.openlocfilehash: 0f8fe19d95adff9e2ac538600f3dcf5153c25afd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Vous configurez les magasins SQL Server de sauvegarde qui fourniront des bases de données de sauvegarde pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente.
+ms.openlocfilehash: 70eec229c567120d0669979f688c152e1b1e3d79
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820706"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218705"
 ---
-# <a name="add-persistent-chat-backup-sql-server-store"></a>Ajouter un magasin SQL Server de stockage de conversation permanente
+# <a name="add-persistent-chat-backup-sql-server-store"></a>Ajouter un magasin SQL Server de stockage de conversation permanente
  
-Vous configurez les banques SQL Server de sauvegarde qui fournissent des bases de données de sauvegarde pour le serveur de chat permanent ou le pool de serveurs de chat permanent.
+Vous configurez les magasins SQL Server de sauvegarde qui fourniront des bases de données de sauvegarde pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente.
   
- **SQL Server Store**: sélectionnez un serveur SQL Server existant et éventuellement une instance pour la discussion permanente.
+ **Magasin SQL Server**: sélectionnez un serveur SQL Server existant et, éventuellement, une instance pour la conversation permanente.
   
-Cliquez sur **nouveau** pour définir un nouveau serveur SQL et, éventuellement, une nouvelle instance pour les données de sauvegarde de conversation permanente.
+Cliquez sur **nouveau** pour définir un nouveau serveur SQL Server et éventuellement une nouvelle instance pour les données de sauvegarde de conversation permanente.
   
-Cochez la case **activer la mise en miroir SQL Server Store** pour configurer une base de données SQL Server et une instance optionnelle qui fournira une base de données en miroir pour les données de sauvegarde de conversation permanente.
+Activez la case à cocher **activer la mise en miroir du magasin SQL Server** pour configurer une base de données SQL Server et une instance facultative qui fournira une base de données mise en miroir pour les données de sauvegarde de conversation permanente.
   
-Dans la liste, sélectionnez à partir de la liste **mettre en miroir SQL Server Store** un serveur SQL Server et une instance facultative pour faire office de miroir SQL Server pour le serveur SQL Server de sauvegarde de chat permanent.
+Dans la liste **magasin SQL Server de mise en miroir** , sélectionnez un serveur SQL Server et une instance facultative pour agir en tant que miroir SQL Server pour le serveur SQL Server de sauvegarde de conversation permanente.
   
-Cliquez sur **nouveau** pour définir un nouveau serveur SQL et, si vous le souhaitez, une nouvelle instance de la mise en miroir du serveur de conversation SQL Server.
+Cliquez sur **nouveau** pour définir un nouveau serveur SQL Server et éventuellement une nouvelle instance pour la mise en miroir SQL Server de conversation permanente.
   
-Sélectionnez la liste **utiliser un témoin de mise en miroir SQL Server pour activer le basculement automatique vers** un serveur SQL qui fera office de serveur témoin dans les scénarios de basculement. Le serveur témoin ne met pas en miroir ou n’héberge pas de données pour les serveurs de chat permanent, mais vérifie qu’un seul serveur SQL dans une configuration en miroir est le serveur SQL Server actif à tout moment.
+Sélectionnez la liste **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** un serveur SQL qui fera office de serveur témoin dans les scénarios de basculement. Le serveur témoin ne met pas en miroir ou n’héberge pas de données pour les serveurs de conversation permanente, mais garantit qu’un seul serveur SQL Server dans une configuration mise en miroir est le serveur SQL actif à tout moment.
   
-Cliquez sur **nouveau** pour définir un nouveau témoin SQL Server en option une instance pour le témoin de mise en miroir SQL Server du serveur Chat permanent.
+Cliquez sur **nouveau** pour définir un nouveau témoin SQL Server, éventuellement une instance pour le témoin de mise en miroir SQL Server de sauvegarde de conversation permanente.
   
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   
-Cliquez sur **suivant** lorsque vous avez fini d’entrer les options pour la configuration de sauvegarde du magasin SQL Server du pool et de continuer avec la définition du pool de serveurs de chat permanent.
+Une fois que vous avez terminé d’entrer les options pour la configuration du magasin SQL Server de sauvegarde de ce pool, cliquez sur **suivant** pour continuer la définition du pool de serveurs de conversation permanente.
   
-Cliquez sur **Annuler** pour ignorer toutes les modifications et fermer l’Assistant **Définition d’un nouveau pool de conversations permanentes**.
+Cliquez sur **Annuler** pour ignorer toutes les modifications et mettre fin à l’Assistant **Définir un nouveau pool de conversations permanentes**.
   
-Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active.
+Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active, par exemple.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier le serveur de conversation permanente dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Configuration requise pour le serveur pour Skype entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Configuration logicielle et matérielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
