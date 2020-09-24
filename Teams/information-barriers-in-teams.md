@@ -16,16 +16,16 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
-ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
+ms.openlocfilehash: 8addc6ff58ad148f5a5146e7397ec479c8dfbbb4
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592908"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235852"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
-Les barrières d’information (IB) sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre eux. Cela peut s’avérer utile si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres services ou si un groupe doit être empêché ou être isolé de communiquer avec des personnes extérieures à ce groupe.
+Les barrières d’information (IB) sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre eux. IB est utile si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres services ou si un groupe doit être empêché ou être isolé de communiquer avec des personnes extérieures à ce groupe.
 
 > [!NOTE]
 > - Les groupes de barrière d’information ne peuvent pas être créés entre des clients.
@@ -33,7 +33,7 @@ Les barrières d’information (IB) sont des stratégies qu’un administrateur 
 > - Les canaux privés sont conformes aux stratégies de barrière des informations que vous configurez.
 > - Nouveau : pour plus d’informations sur la prise en charge des barrières pour un site SharePoint connecté à Teams, cliquez [ici](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
-Les stratégies de barrage d’information empêchent également les recherches et la découverte. En d’autres termes, si vous essayez de communiquer avec une personne sans communiquer, vous ne trouverez pas cet utilisateur dans le sélecteur de personnes.
+Les stratégies de barrage d’information empêchent également les recherches et la découverte. Si vous essayez de communiquer avec une personne avec laquelle vous ne devez pas communiquer, vous ne trouverez pas cet utilisateur dans le sélecteur de personnes.
 
 ## <a name="background"></a>Arrière-plan
 
@@ -43,7 +43,7 @@ Toutefois, dans la mesure où il existe des obstacles d’information, de nombre
 
 - Formation : les étudiants au sein d’une école ne peuvent pas chercher les coordonnées des étudiants de votre établissement scolaire.
 - Légal : conservation de la confidentialité des données obtenues par le juriste d’un client par le biais d’un juriste pour la même entreprise représentant un client différent.
-- Secteur public : le contrôle et l’accès aux informations sont limités entre les services et les groupes.
+- Secteur public : accès et contrôle des informations limités entre les services et les groupes.
 - Services professionnels : un groupe de personnes dans une société est uniquement en mesure de dialoguer avec un client ou un client spécifique via une Fédération ou un accès invité lors d’un engagement client.
 
 Par exemple, Enrico appartient au segment bancaire et Pradeep appartient au segment du conseiller financier. Enrico et Pradeep ne peuvent pas communiquer entre eux, car la stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments. Toutefois, Enrico et Pradeep peuvent communiquer avec Lee dans HR.
@@ -92,7 +92,7 @@ Les stratégies de barrage d’information sont activées lorsque les événemen
 
     ![Capture d’écran montrant l’utilisateur a empêché une réunion](media/information-barriers-meeting.png)
 
-- **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne sera pas autorisé. 
+- **Un écran est partagé entre deux utilisateurs ou plus** : lorsqu’un écran est partagé entre plusieurs utilisateurs, le partage d’écran doit être évalué pour veiller à ce qu’il ne soit pas contraire aux stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne sera pas autorisé. 
  
     Voici un exemple de partage d’écran avant l’application de la stratégie. 
 
@@ -121,7 +121,7 @@ S’il existe une discussion existante ou une autre communication entre les util
 
     ![Capture d’écran montrant la conversation des utilisateurs est désactivée](media/ib-after-1-1chat-policy.png)
 
-- **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et les communications avec le groupe ne sont pas autorisées. L’utilisateur peut toujours voir d’anciennes conversations (qui sont en lecture seule), mais ne peut pas voir ou participer à d’autres conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations.
+- **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et les communications avec le groupe ne sont pas autorisées. L’utilisateur peut toujours voir d’anciennes conversations (lecture seule), mais ne pourra pas voir ou participer à des conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations.
 
 Dans cet exemple, Enrico a été déplacé vers un service différent au sein de l’organisation et est supprimé de la discussion de groupe.
 
@@ -135,7 +135,7 @@ Enrico ne peut plus envoyer de messages à la discussion de groupe.
 
 ## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Scénario : un utilisateur dans une discussion existante est bloqué
 
-Pour le moment, les utilisateurs ont connaissance des éléments suivants si une stratégie de protection des informations bloque un autre utilisateur :
+Pour le moment, les utilisateurs peuvent se familiariser avec les scénarios suivants si une stratégie de protection des informations bloque un autre utilisateur :
 
 - **Onglet contacts** : un utilisateur ne peut pas voir les utilisateurs bloqués sous l’onglet **personnes** .
 - **Sélecteur de personnes** -les utilisateurs bloqués ne seront pas visibles dans le sélecteur de personnes.
@@ -149,7 +149,7 @@ Pour le moment, les utilisateurs ont connaissance des éléments suivants si une
     ![Capture d’écran montrant l’onglet activité bloqué](media/ib-after-activity-tab-policy.png)
 
 
-- **Organigrammes : si** un utilisateur accède à un organigramme sur lequel un utilisateur bloqué s’affiche, l’utilisateur bloqué n’apparaît pas dans l’organigramme et un message d’erreur s’affiche à la place.
+- **Organigrammes : si** un utilisateur accède à un organigramme sur lequel un utilisateur bloqué apparaît, l’utilisateur bloqué n’apparaît pas dans l’organigramme et un message d’erreur s’affiche à la place.
 - **Carte contacts** : si un utilisateur participe à une conversation et que l’utilisateur est bloqué par la suite, les autres utilisateurs verront s’afficher un message d’erreur au lieu de la carte contacts lorsqu’ils placent le pointeur sur le nom de l’utilisateur bloqué. Les actions figurant sur la carte (par exemple, appels et discussions) ne sont pas disponibles.
 - **Suggestions de contacts** : les utilisateurs bloqués n’apparaissent pas dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs).
 - **Contacts de chat** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts, mais les utilisateurs bloqués sont identifiés et la seule action que l’utilisateur peut effectuer est de les supprimer. L’utilisateur peut également cliquer dessus pour afficher sa ancienne conversation.
@@ -176,10 +176,10 @@ Pour plus d’informations, consultez l’article relatif aux [barrières d’in
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
-Pour plus d’informations, y compris les offres et les tarifs, voir recommandations en matière de [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Pour plus d’informations, y compris les offres et les tarifs, voir conseils relatifs aux [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problèmes connus
-- **Les utilisateurs ne peuvent pas participer**à des réunions : si les stratégies IB sont activées, les utilisateurs ne sont pas autorisés à participer à des réunions si la taille de la liste de la réunion est supérieure à 250 utilisateurs. La cause initiale est que le contrôle IB s’appuie sur le fait que les utilisateurs puissent être ajoutés à une liste de discussions et qu’ils le nécessitent pour permettre aux utilisateurs de participer à des réunions. Lorsque vous participez à une réunion, vous ajoutez ce dernier à la liste, par conséquent pour les réunions périodiques, la liste se remplit rapidement. Une fois qu’il atteint un nombre d’utilisateurs 250, aucun utilisateur supplémentaire ne peut être ajouté à la liste de conversations de la réunion. Si IB est activé, les utilisateurs ne sont pas autorisés à participer à la réunion, mais si IB n’est pas activé, les utilisateurs sont autorisés à participer à la réunion, mais ils ne sont pas ajoutés à la liste des discussions de la réunion. Une solution courte consiste à supprimer les membres inactifs de la liste de conversations de la réunion afin de libérer de l’espace pour les nouveaux utilisateurs. En revanche, vous augmenterez la taille des listes de discussions de réunion à une date ultérieure.
+- **Les utilisateurs ne peuvent pas participer**à des réunions : si les stratégies IB sont activées, les utilisateurs ne peuvent pas participer à des réunions si la taille de la liste de la réunion ne correspond pas aux [limites d’assiduité](limits-specifications-teams.md)de la réunion. La cause initiale est que le contrôle IB s’appuie sur le fait que les utilisateurs puissent être ajoutés à une liste de discussions et qu’ils le nécessitent pour permettre aux utilisateurs de participer à des réunions. Lorsque vous participez à une réunion, vous ajoutez ce dernier à la liste, par conséquent pour les réunions périodiques, la liste se remplit rapidement. Lorsqu’il atteint les [limites d’assiduité](limits-specifications-teams.md)de la réunion, aucun utilisateur supplémentaire ne peut être ajouté à la liste de conversations de la réunion. Si IB est activé, les utilisateurs ne sont pas autorisés à participer à la réunion, mais si IB n’est pas activé, les utilisateurs sont autorisés à participer à la réunion, mais ils ne sont pas ajoutés à la liste des discussions de la réunion. Une solution courte consiste à supprimer les membres inactifs de la liste de conversations de la réunion afin de libérer de l’espace pour les nouveaux utilisateurs. En revanche, vous augmenterez la taille des listes de discussions de réunion à une date ultérieure.
 
 ## <a name="more-information"></a>Plus d’informations
 

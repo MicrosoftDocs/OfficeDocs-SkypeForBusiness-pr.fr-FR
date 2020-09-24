@@ -17,37 +17,38 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820618"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235842"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
-Deux méthodes s’offrent à vous pour les réunions et événements en direct dans Microsoft Teams. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements en direct au sein de votre organisation. 
+Deux méthodes s’offrent à vous pour les réunions et événements en direct dans Microsoft Teams. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements en direct au sein de votre organisation.
 
 > [!Note]
 > Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 300* personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone. 
+ - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 300* personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone.
 
  - Les **événements en direct** Microsoft Teams sont une extension des réunions Teams qui vous permettent de planifier et de créer des événements qui sont diffusés à de larges audiences en ligne, à savoir jusqu’à 10 000 contacts. Si vous prévoyez une réunion de plus de 300 personnes, utilisez un événement en direct.
-<br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite de cloud gouvernemental passe de 250 à 300.
+<br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite de cloud gouvernemental passe de 250 à 300. Consultez [Limites et spécifications](limits-specifications-teams.md) pour connaître les dernières informations sur les limites de réunion Teams.
+
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenir des licences pour des réunions et des événements en direct
 
-Tout le monde peut gratuitement participer à une réunion ou à un événement public en direct Teams : aucune licence n’est requise. Les participants rejoignent une réunion ou un événement en direct Teams en cliquant sur le bouton **Participer** dans Teams ou dans l’invitation à une réunion. La réunion audio fait partie des réunions Teams, mais si vous souhaitez que vos contacts puissent rejoindre une réunion par le biais de leur téléphone, vous devez leur fournir un numéro à composer. 
+Tout le monde peut gratuitement participer à une réunion ou à un événement public en direct Teams : aucune licence n’est requise. Les participants rejoignent une réunion ou un événement en direct Teams en cliquant sur le bouton **Participer** dans Teams ou dans l’invitation à une réunion. La réunion audio fait partie des réunions Teams, mais si vous souhaitez que vos contacts puissent rejoindre une réunion par le biais de leur téléphone, vous devez leur fournir un numéro à composer.
 
-Les contacts qui organisent, planifient et hébergent des réunions ou des événements en direct ont besoin d’une licence Microsoft 365 ou Office 365 figurant dans le tableau ci-dessous. Si vous êtes déjà un utilisateur de Teams, vous disposez probablement de la licence nécessaire pour organiser et héberger des réunions et des événements en direct. 
+Les contacts qui organisent, planifient et hébergent des réunions ou des événements en direct ont besoin d’une licence Microsoft 365 ou Office 365 figurant dans le tableau ci-dessous. Si vous êtes déjà un utilisateur de Teams, vous disposez probablement de la licence nécessaire pour organiser et héberger des réunions et des événements en direct.
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tableau des licences requises pour les réunions ou événements en direct Teams":::
 
 > <sup>1</sup>  Les organisateurs de réunions doivent disposer d’une [Licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour envoyer une invitation incluant la conférence rendez-vous.
 >
-> <sup>2</sup>  L’appel sortant de réunion vers la fonctionnalité [**M’appeler** au numéro](set-up-the-call-me-feature-for-your-users.md) exige des organisateurs qu’ils disposent de E5 ou d’une [licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Un [plan de numérotation](what-are-dial-plans.md) peut également être nécessaire. 
+> <sup>2</sup>  L’appel sortant de réunion vers la fonctionnalité [**M’appeler** au numéro](set-up-the-call-me-feature-for-your-users.md) exige des organisateurs qu’ils disposent de E5 ou d’une [licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Un [plan de numérotation](what-are-dial-plans.md) peut également être nécessaire.
 
-Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 
@@ -55,7 +56,7 @@ Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365
 
 ## <a name="meetings-and-conferencing"></a>Réunions et conférences
 
-- En tant qu’administrateur, vous configurez les [paramètres de la réunion](meeting-settings-in-teams.md) pour tout le monde. Vous utilisez ensuite les [stratégies de réunion](meeting-policies-in-teams.md) pour contrôler les fonctionnalités de réunion à la disposition (ou non) de vos utilisateurs. 
+- En tant qu’administrateur, vous configurez les [paramètres de la réunion](meeting-settings-in-teams.md) pour tout le monde. Vous utilisez ensuite les [stratégies de réunion](meeting-policies-in-teams.md) pour contrôler les fonctionnalités de réunion à la disposition (ou non) de vos utilisateurs.
 
 - Pour en savoir plus sur la gestion de l’enregistrement de réunions, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
