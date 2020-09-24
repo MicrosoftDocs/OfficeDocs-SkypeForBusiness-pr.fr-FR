@@ -16,22 +16,22 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583813"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235822"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
-Votre organisation souhaite-t-elle commencer à utiliser Microsoft Teams pour prendre en charge vos utilisateurs travaillant à distance ou à partir de leur domicile ? Utilisez les conseils décrits dans cet article pour devenir rapidement opérationnel.
+Votre organisation souhaite-t-elle utiliser Microsoft Teams pour aider les utilisateurs travaillant à distance ou à partir de leur domicile ? Utilisez les conseils décrits dans cet article pour devenir rapidement opérationnel.
 
 Si vous avez une petite entreprise ou moyenne entreprise, ne manquez pas [Dynamisez votre petite entreprise avec le télétravail](https://aka.ms/remote-business).
 
 ## <a name="it-admin-guidance"></a>Conseils pour les administrateurs informatiques
 
-- Assurez-vous que tout le monde a accès à Teams avec un [abonnement payant qui inclut Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Sinon, les organisations éligibles peuvent utiliser la **[version gratuite de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** ou les employés peuvent activer l’expérience **[exploratoire Teams](teams-exploratory.md)**.
+- Assurez-vous que tout le monde a accès à Teams avec un [abonnement payant qui inclut Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). De manière optionnelle, les organisations éligibles peuvent utiliser la **[version gratuite de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** ou les employés peuvent activer l’expérience **[Teams Exploratory](teams-exploratory.md)**.
 
 -  Si vous avez déjà un abonnement qui inclut Teams, **[activer le pour tout le monde](user-access.md)**.
     
@@ -40,7 +40,7 @@ Si vous avez une petite entreprise ou moyenne entreprise, ne manquez pas [Dynami
 Pour obtenir plus d’informations, consultez les [Ressources supplémentaires pour la prise en charge d'employés distants](#additional-resources-for-supporting-remote-workers) ci-dessous.
 
 
-## <a name="end-user-communications"></a>Communications de l'utilisateur final
+## <a name="end-user-communications"></a>Communications avec utilisateur final
 
 Vous êtes prêt à déployer Teams vers vos utilisateurs ? Téléchargez le kit **[Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)** (ou « Kit de réussite auprès des clients », uniquement disponible en anglais pour le moment), qui contient des modèles d’e-mails et d’autres documents très utiles :
 
@@ -82,7 +82,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
    - Ne manquez pas [Prise en main des équipes pour les](remote-learning-edu.md)à distance.
 
-1. Vous assurer que vos employés disposent d'un accès internet approprié et de la bande passante pour Teams. Pour plus d’informations sur la procédure, suivez les recommandations de [Préparer le réseau de votre organisation pour Teams](prepare-network.md).
+1. Vous assurer que vos employés disposent d'un accès internet approprié et de la bande passante pour Teams. Suivez les recommandations dans [Préparer le réseau de votre organisation pour Teams](prepare-network.md) pour savoir comment assurer la bande passante adéquate.
 
    - Une bande passante restreinte peut avoir une incidence sur la qualité audio des réunions dans Teams. Afin de garantir une expérience de réunion optimale dans des conditions de bande passante faible, encouragez les utilisateurs à limiter la vidéo et à utiliser PSTN pour les appels et les conférences audio. 
 
@@ -92,7 +92,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
    
    - Si vous êtes en Chine, consultez l’article [Optimisation globale des performances du client Microsoft 365 ou Office 365 pour les utilisateurs chinois](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
-   - Si vous avez besoin d'aide pour résoudre des problèmes concernant la qualité des appels ou des réunions, suivez les instructions de la section [Problème connu pour la Chine : Accéder à Skype Entreprise/Teams avec les ID de conférence](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) au bas de cet article.
+   - Si vous avez besoin d'aide pour résoudre des problèmes concernant la qualité des appels ou des réunions, suivez les instructions de la section [Problème connu - Chine: Accéder à Skype Entreprise/Teams avec les ID de conférence](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) au bas de cet article.
 
 1. La sécurité lorsque tout le monde travaille à partir du domicile
 
@@ -128,7 +128,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
       
       - [Travailler à distance avec Teams](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Blog Teams (28 février 2020) : [4 astuces pour travailler avec Microsoft Teams depuis chez vous](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Blog Teams (28 février 2020): [4 astuces pour travailler avec Microsoft Teams depuis chez vous](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Collaborer avec Microsoft 365 ou Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
@@ -150,7 +150,7 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
     
    - Envoyer des informations sur les stratégies de sécurité, la santé et le travail à domicile au sein de votre organisation.
     
-   - Utiliser les [Événements en direct](teams-live-events/what-are-teams-live-events.md) pour la sensibilisation et les réunions à l’échelle de l’entreprise. Pour des réunions comprenant plus de 250 participants, organisez un événement en direct. Activer les légendes en direct pour les [réunions](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) et les [événements en direct](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Activer les sous-titres dans les événements en direct. Ces fonctionnalités augmentent l’inclusion, la productivité et la compréhension. 
+   - Utiliser les [Événements en direct](teams-live-events/what-are-teams-live-events.md) pour la sensibilisation et les réunions à l’échelle de l’entreprise. Si votre réunion atteint les [limites et spécifications](limits-specifications-teams.md) d’une réunion régulière Teams, créez un événement en direct. Activer les légendes en direct pour les [réunions](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) et les [événements en direct](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Activer les sous-titres dans les événements en direct. Ces fonctionnalités augmentent l’inclusion, la productivité et la compréhension. 
 
 4.  Répartissez le personnel de votre [assistance](troubleshoot-installation.md) pour gérer les questions des utilisateurs.
 
@@ -164,14 +164,14 @@ Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider �
 
 Voici la synthèse de la publication du centre de Messages du 7 février 2020 (MC203397) :
 
-Microsoft est conscient des problèmes rencontrés par des utilisateurs dans la région de la Chine lors de la numérotation des numéros de conférence Skype Entreprise ou Teams. Dans la plupart des cas, ces problèmes ne sont pas liés aux systèmes sous notre contrôle. Le problème est souvent lié aux opérateurs mobiles et téléphoniques locaux. 
+Microsoft comprend que des problèmes sont rencontrés par des utilisateurs dans la région Chine lors de la composition des ID de conférence Skype Entreprise ou Teams. Dans la plupart des cas, ces problèmes ne sont pas liés aux systèmes sous notre contrôle. Le problème est souvent lié aux opérateurs mobiles et téléphoniques locaux. 
 
 Si vous rencontrez des problèmes de conférence audio, nous vous recommandons de procéder comme suit :
 
 - Invitez l’appelant ou l’organisateur de la réunion à appeler votre numéro PSTN ou numéro de téléphone portable.
 - Participez à l’appel ou à la réunion à partir de votre ordinateur de bureau ou de clients mobiles en utilisant VoIP.
 
-Si vous devez enregistrer un ticket de support, veuillez indiquer ce qui suit :
+Si vous devez enregistrer un ticket de support, veuillez indiquer ce qui suit:
     
 - Heure exacte de l’appel
 - Numéro de pont de conférence composé
