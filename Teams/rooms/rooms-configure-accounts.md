@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Consultez cette rubrique pour en savoir plus sur la configuration des comptes pour les salles Microsoft teams dans Exchange et Skype entreprise.
-ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 98507b3c5fb2b2d9383bcbff6ddcbdda0de19b9f
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666246"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262481"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles de Microsoft teams
  
@@ -52,7 +52,9 @@ Chaque compte d’appareil est unique pour une seule salle Microsoft teams et n�
 - Votre infrastructure doit être configurée pour permettre aux salles de Microsoft teams de valider le compte de l’appareil et d’accéder aux services Microsoft appropriés.
     
 > [!IMPORTANT]
-> Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. Dans les environnements hybrides, le compte utilisé pour les salles Microsoft teams doit avoir activé la synchronisation de mot de passe dans la synchronisation AAD, car 365 365 l’authentification Microsoft teams
+> Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. 
+
+Dans les environnements hybrides, le compte utilisé pour les salles de Microsoft teams doit disposer de la synchronisation de mot de passe activée dans la synchronisation Azure Active Directory (AAD), car l’authentification de Microsoft teams pièces nécessite l’authentification Microsoft 365 365 Lorsque vous configurez le compte, assurez-vous que l’adresse SIP du compte correspond à son nom d’utilisateur principal (UPN) dans AAD. 
   
 Vous pouvez considérer un compte d’appareil comme le compte de ressources reconnu par les utilisateurs comme une salle de conférence ou un compte d’espace de réunion. Lorsque vous souhaitez planifier une réunion qui se déroulera dans cette salle de réunion, vous invitez le compte à cette réunion. Pour utiliser la plupart des salles de Microsoft Teams, vous devez procéder de la même façon avec le compte d’appareil qui est attribué à chacun d’eux.
   
@@ -78,7 +80,7 @@ Si les propriétés de la configuration de base permettent de configurer le comp
 |:-----|:-----|
 |Authentification basée sur un certificat  <br/> |Des certificats sont requis pour Exchange et Skype entreprise Server. Pour déployer les certificats, vous devez les charger lorsque vous vous connectez en tant qu’administrateur.  <br/> |
    
-Le moyen le plus simple de configurer des comptes de périphériques consiste à les configurer à l’aide de Windows PowerShell distant. Microsoft fournit [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer de nouveaux comptes d’appareils, ou de valider des comptes de ressources existants dont vous avez besoin pour vous aider à les convertir en comptes d’appareils Microsoft teams compatibles.
+Le moyen le plus simple de configurer des comptes de périphériques consiste à les configurer à l’aide de Windows PowerShell distant. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer de nouveaux comptes d’appareils, ou de valider des comptes de ressources existants dont vous avez besoin afin de vous aider à les convertir en comptes d’appareils Microsoft teams compatibles.
   
 Si vous préférez utiliser l’interface utilisateur Microsoft 365 ou Office 365 sur les applets de contrôle Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Voir [création d’un compte d’appareil à l’aide de Microsoft 365 ou Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   

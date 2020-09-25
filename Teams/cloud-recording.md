@@ -16,12 +16,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203967"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262461"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -30,7 +30,7 @@ Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et ap
 En relation avec la [Réunion Teams de qui enregistre la documentation de l’utilisateur final](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Les modifications apportées à l’aide de Microsoft Stream to [OneDrive entreprise et de SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) seront une approche progressive. Au moment de l’exécution, vous serez en mesure de vous abonner à cette expérimentation en novembre, si vous voulez continuer à utiliser le flux de travail et que, à un 2021 moment donné, nous aurons besoin de tous les utilisateurs de OneDrive entreprise et de SharePoint pour les enregistrements de réunion.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation des rôles dans les réunions teams et sur la modification des rôles des utilisateurs, voir [rôles d’une réunion teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -112,7 +112,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Les enregistrements sont conservés et disponibles pour affichage et téléchargement pendant 21 jours. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données. Dans le futur, la fonctionnalité d’enregistrement de réunions Teams sera activée pour les clients dont les données d’équipe sont stockées dans le pays, même si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays.
 
-Lorsque cette modification prend effet, les enregistrements de réunion sont stockés par défaut dans la zone géographique plus proche pour Microsoft Stream. Si vos données Teams sont stockées dans le pays et que vous préférez stocker les enregistrements de réunions dans le pays, nous vous conseillons de désactiver la fonctionnalité, puis de les activer une fois Microsoft Stream déployé sur votre pays ou région de résidence dans le pays. Pour désactiver la fonctionnalité pour tous les utilisateurs de votre organisation, désactivez le paramètre **autoriser l’enregistrement Cloud** dans la stratégie de réunion global Teams, qui se trouve dans le centre d’administration Microsoft Teams.
+Lorsque cette modification prend effet, les enregistrements de réunion sont stockés par défaut dans la zone géographique plus proche pour Microsoft Stream. Si vos données Teams sont stockées dans le pays et que vous préférez stocker les enregistrements de réunions dans le pays, nous vous conseillons de désactiver la fonctionnalité, puis de les activer une fois Microsoft Stream déployé sur votre pays ou région de résidence dans le pays. Pour désactiver la fonctionnalité pour tous les utilisateurs de votre organisation, désactivez le paramètre **autoriser l’enregistrement Cloud** dans la stratégie de réunion global Teams, qui se trouve dans le centre d’administration Microsoft Teams. En revanche, si vous souhaitez malgré tout continuer à stocker les enregistrements dans la zone géographique la plus proche de Microsoft Stream, vous devez activer la zone **permettre l’enregistrement Cloud** et **autoriser le stockage d'** enregistrements à l’extérieur pour que cette modification intervient.
+
+Pour activer les enregistrements dans la zone de la stratégie globale, utilisez l’applet de commande suivante :
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 Voici un résumé de ce qui se produit lorsque vous activez l’enregistrement de la réunion lorsque cette modification prend effet :
 

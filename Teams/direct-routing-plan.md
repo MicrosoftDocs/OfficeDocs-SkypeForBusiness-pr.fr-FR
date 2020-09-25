@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820638"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262531"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -189,7 +189,9 @@ Le certificat doit être généré par l’une des autorités de certification r
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-
+Pour le routage direct dans l’environnement DoD DoD d’Office 365, le certificat doit être généré par l’une des autorités de certification racines suivantes :
+- Autorité de certification racine globale DigiCert
+- CA racine EV haute garantie DigiCert
 
 > [!NOTE]
 > * Si la prise en charge de Mutual TLS (MTLS) est activée pour la connexion teams sur l’SBC, vous devez installer le certificat racine Baltimore CyberTrust dans le magasin de racines de confiance SBC du contexte TLS Teams. (En effet, les certificats de service Microsoft utilisent le certificat racine Baltimore.) Pour télécharger le certificat racine Baltimore, voir [chaînes de chiffrement Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).

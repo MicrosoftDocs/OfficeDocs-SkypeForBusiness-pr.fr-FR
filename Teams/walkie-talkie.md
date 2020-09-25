@@ -18,18 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229050"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262501"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application de discussion de Microsoft teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-L’application de discussion de Microsoft teams fournit une communication de type « diffuser en communication » (PTT) instantanée pour votre équipe et est disponible en préversion publique sur Android. Le Guide d’appel permet aux utilisateurs de communiquer avec leur équipe en utilisant les mêmes canaux sous-jacents dont ils sont membres. Seuls les utilisateurs qui se connectent à la fonctionnalité de conversation dans un canal deviennent des participants et pourront communiquer entre eux à l’aide de la fonctionnalité de communication d’une personne à la fois.
+L’application de discussion de Microsoft teams fournit une communication instantané-to-Talk (PTT) pour votre équipe et est désormais disponible sur Android. Le Guide d’appel permet aux utilisateurs de communiquer avec leur équipe en utilisant les mêmes canaux sous-jacents dont ils sont membres. Seuls les utilisateurs qui se connectent à la fonctionnalité de conversation dans un canal deviennent des participants et pourront communiquer entre eux à l’aide de la fonctionnalité de communication d’une personne à la fois.
 
 En équipe, vous pouvez à tout moment communiquer en toute sécurité avec une expérience PTT familière sans avoir besoin de transporter des radios en vrac, et de se familiariser avec la connectivité Internet WiFi ou mobile.
 
@@ -37,7 +35,7 @@ En équipe, vous pouvez à tout moment communiquer en toute sécurité avec une 
 
 ### <a name="deploying-walkie-talkie"></a>Déploiement de l’étape de discussion
 
-Dans le cadre de la préversion publique, l’étape de conversation n’est pas préinstallée. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le propos de l’outil de [configuration de l’application](teams-app-setup-policies.md)   affecté aux utilisateurs dans le centre d' [administration teams](https://admin.teams.microsoft.com/).
+Pour le moment, la fonctionnalité de conversation n’est pas préinstallée. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le propos de l’outil de [configuration de l’application](teams-app-setup-policies.md)   affecté aux utilisateurs dans le centre d' [administration teams](https://admin.teams.microsoft.com/).
 
 Dès qu’il est activé, vous pouvez désormais accéder à la discussion sur l’application Android dans les 48 heures.
 
@@ -59,7 +57,11 @@ L’application de discussion à l’aide de l’application doit maintenant app
 
 Dans Microsoft Teams, il est nécessaire de disposer d’une connectivité Internet et au-dessous des conditions de réseau pour une expérience optimale.
 
-Latence (RTT) < 300. Scintillement < 30ms | Perte de paquets < 1%
+|Mesure | Obligatoire |
+|---|---|
+|Latence (RTT) | < 300M |
+|Jitter |< 30ms |
+|Perte de paquets |< 1% |
 
 Comme indiqué plus haut, la qualité du contenu multimédia en temps réel sur un réseau IP est fortement affectée par la qualité de la connectivité du réseau, mais surtout par la quantité de :
 

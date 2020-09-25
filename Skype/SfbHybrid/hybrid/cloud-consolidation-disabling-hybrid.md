@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées sur la désactivation de l’environnement hybride dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221498"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269658"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Désactiver le mode hybride pour terminer la migration vers le cloud
 
@@ -40,6 +40,8 @@ Après avoir déplacé tous les utilisateurs de l’environnement local vers le 
 
 Ces étapes doivent être réalisées ensemble en tant qu’unité. Vous trouverez ci-dessous des informations détaillées. En outre, des recommandations sont fournies pour la gestion des numéros de téléphone des utilisateurs migrés une fois que le déploiement local est déconnecté.
 
+Une fois ces étapes terminées, les serveurs Skype entreprise locaux ne sont plus utilisés et ces serveurs peuvent être recréés.
+
 > [!Important] 
 >Vous devez continuer à laisser les attributs msRTCSIP dans Active Directory Sync via Azure AD Connect dans Azure AD.  N’effacez pas ces attributs sauf s’il est demandé par le support technique.  N’exécutez pas Disable-CsUser dans l’environnement local. Si vous devez modifier l’adresse SIP d’un utilisateur, faites-le dans votre annuaire Active Directory local et laissez cette modification synchronisée dans Azure AD via Azure AD Connect, comme décrit ci-dessous. De même, si vous devez modifier un numéro de téléphone et que le LineURI de l’utilisateur est déjà défini en local, vous devez le modifier dans l’annuaire Active Directory local.
 >L’effacement des attributs msRTCSIP locaux après avoir effectué une migration à partir de l’installation locale pourrait entraîner la perte de service pour les utilisateurs.
@@ -51,10 +53,10 @@ Toutes les organisations fédérées qui utilisent l’ancien modèle de Fédér
 1.  *Mettre à jour le DNS pour qu’il pointe vers Microsoft 365 ou Office 365.*
 Le DNS externe de l’Organisation pour l’organisation locale doit être mis à jour de manière à ce que les enregistrements Skype entreprise pointent vers Microsoft 365 ou Office 365 au lieu du déploiement local. Notamment :
 
-    |Type d’enregistrement|Nom|TTL (Durée de vie)|Value (Valeur)|
+    |Type d’enregistrement|Nom|Durée de vie|Value (Valeur)|
     |---|---|---|---|
-    |SRV|_sipfederationtls. _tcp|3600|100 1 5061 sipfed. online. Lync. <span> com|
-    |SRV|_sip. _tls|3600|100 1 443 sipdir. online. Lync. <span> com|
+    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed. online. Lync. <span> com|
+    |SRV|_sip._tls|3600|100 1 443 sipdir. online. Lync. <span> com|
     |CNAME| lyncdiscover|   3600|   webdir. online. Lync. <span> com|
     |CNAME| sip|    3600|   sipdir. online. Lync. <span> com|
     |CNAME| satisfaction|   3600|   webdir. online. Lync. <span> com|

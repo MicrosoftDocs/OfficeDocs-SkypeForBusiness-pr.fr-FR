@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65c0d50686346b715ca7e10b455845927ff22341
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218405"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269638"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
 > [!Note]
-> Les modifications apportées à l’aide de Microsoft Stream to OneDrive entreprise et de SharePoint pour les enregistrements de réunion seront une approche progressive. Au moment de l’exécution, vous serez en mesure de vous abonner à cette expérimentation en novembre, si vous voulez continuer à utiliser le flux de travail et que, à un 2021 moment donné, il est nécessaire que tous les clients utilisent OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour OneDrive Entreprise et SharePoint pour les enregistrements de réunion auront une approche progressive. Au démarrage, les administrateurs de clients peuvent choisir cette nouvelle option de flux de travail dès aujourd’hui et commencer à voir les enregistrements téléchargés automatiquement dans OneDrive entreprise et SharePoint en octobre 2020. En novembre, vous devrez annuler votre abonnement si vous voulez continuer à utiliser le flux et à quelques instants dans les 2021 au début, nous aurons besoin de tous les clients d’utiliser OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
-Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme départ du flux, la méthode utilise Microsoft OneDrive et SharePoint dans Microsoft 365 et offre de nombreux avantages :
+Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme départ du flux, la méthode utilise Microsoft OneDrive et SharePoint dans Microsoft 365 et offre de nombreux avantages.
 
 Les avantages de l’utilisation de OneDrive entreprise et SharePoint pour le stockage d’enregistrements sont les suivants :
 
@@ -53,9 +53,9 @@ Certaines limitations sont à prendre en compte :
 - Vous pouvez contrôler les personnes avec lesquelles vous partagez l’enregistrement, mais vous ne pouvez pas bloquer les utilisateurs disposant d’un accès partagé pour télécharger l’enregistrement.
 - Vous ne recevrez pas d’e-mail à la fin de l’enregistrement, mais l’enregistrement s’affichera dans la conversation de la réunion une fois que vous avez terminé. Cela se produit beaucoup plus rapidement qu’auparavant dans le flux
 
-Regardez « enregistrement de la réunion » pour plus d’informations. 
+Regardez « enregistrement de la réunion » pour plus d’informations.
 
-> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8] 
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurer l’option d’enregistrement de la réunion pour OneDrive entreprise et SharePoint
 
