@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820448"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203827"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -148,6 +148,9 @@ La planification de la bande passante permet aux organisations d’estimer la ba
 ### <a name="meeting-recording-and-archiving"></a>Enregistrement et archivage des réunions
 
 Les utilisateurs peuvent enregistrer leurs réunions et appels de groupe pour capturer l’audio, la vidéo et le partage des activités à l’écran. Il existe également une option pour les enregistrements qui permet une transcription automatique, afin que les utilisateurs puissent regarder les enregistrements de réunion avec des sous-titres et rechercher des éléments de discussion importants dans la transcription. L’enregistrement se passe dans le nuage et est enregistré avec Microsoft Stream, pour que les utilisateurs puissent le partager en toute sécurité au sein de leur organisation. Pour rechercher l’enregistrement d’une réunion, accédez à la conversation de réunion.
+
+>[!Note]
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
 
 Pour plus d’informations, voir [Enregistrement de réunion Teams dans le nuage](cloud-recording.md).
 

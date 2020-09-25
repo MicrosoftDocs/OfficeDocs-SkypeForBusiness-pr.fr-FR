@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962815"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203917"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -45,6 +45,9 @@ Voici les licences qui doivent être attribuées pour produire ou présenter une
 - Une licence Microsoft Stream-est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview). 
 
   Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Azure Media Services (AMS) avec une limite de 30 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
+
+>[!Note]
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
 
 > [!NOTE]
 > Pour l’instant, il n’existe aucune offre Microsoft 365 pour les petites entreprises pouvant être utilisée pour créer et organiser des événements Teams en direct.
