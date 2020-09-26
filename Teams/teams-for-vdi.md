@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820608"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286110"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -413,9 +413,15 @@ Pour les problèmes connus qui ne sont pas liés à VDI, voir [équipe de suppor
 
 ### <a name="troubleshoot-citrix-components"></a>Résoudre les problèmes liés aux composants Citrix
 
-Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>Teams se bloque ou l’écran de connexion de teams est vide
 
-## <a name="related-topics"></a>Voir aussi
+Il s’agit d’un problème connu de la version d' 1906 et 1909 du Citrix. Pour contourner ce problème, ajoutez la valeur DWORD de Registre suivante, puis définissez-la sur 204 (hexadécimal).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Ensuite, redémarrez VDA. Pour plus d’informations, reportez-vous à cet article du support Citrix intitulé [résolution des problèmes d’optimisation HDX pour teams](https://support.citrix.com/article/CTX253754).
+
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

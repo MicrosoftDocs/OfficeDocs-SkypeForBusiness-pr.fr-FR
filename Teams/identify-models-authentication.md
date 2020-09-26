@@ -1,9 +1,9 @@
 ---
-title: Modèles d’identité et authentification
+title: Modèles d’identité et authentification pour Microsoft teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 09/25/2017
+ms.date: 09/25/2020
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anwara
@@ -14,55 +14,54 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
+description: Découvrez les différents modèles d’identité de Microsoft Teams, tels que Cloud-only et hybride. En savoir plus sur l’authentification multifacteur.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 330a197f2e042ee8d87e294f9ff822c6bf6d5ac6
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 40a06ce75c3ae7a4f85eb1c93064ba3d80c13fc0
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121564"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277114"
 ---
-<a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
-==========================================
+# <a name="identity-models-and-authentication-for-microsoft-teams"></a>Modèles d’identité et authentification pour Microsoft teams
 
-Microsoft teams prend en charge tous les modèles d’identité disponibles avec Microsoft 365 et Office 365. Les modèles d’identité pris en charge sont les suivants :
+Microsoft teams prend en charge tous les modèles d’identité disponibles avec Microsoft 365 et Office 365, notamment :
 
--   **Identité Cloud**: dans ce modèle, un utilisateur est créé et géré dans Microsoft 365 ou Office 365 et stocké dans Azure Active Directory, et le mot de passe est vérifié par Azure Active Directory.
+- **Cloud-only**: les comptes d’utilisateurs sont créés et gérés dans Microsoft 365 ou Office 365 et stockés dans Azure Active Directory (Azure AD). Les informations d’identification de l’utilisateur (nom du compte et mot de passe) sont validées par Azure AD.
 
--   **Identité synchronisée** : Dans ce modèle, l'identité de l'utilisateur est gérée sur un serveur sur site, et les hachages de compte et mot de passe sont synchronisés dans le cloud. L'utilisateur saisit le même mot de passe sur site que celui du cloud, et lors de la connexion, le mot de passe est vérifié par Azure Active Directory. Ce modèle utilise l'outil Azure Active Directory Connect de Microsoft.
+- **Hybride**: les comptes d’utilisateurs sont généralement gérés dans une forêt AD DS (Active Directory Domain Services) locale. En fonction de la configuration, il est possible de valider les informations d’identification à l’aide d’Azure AD, de AD DS ou d’un fournisseur d’identité fédéré. Ce modèle utilise la synchronisation d’annuaires entre les services de domaine Active Directory et Azure AD.
 
--   **Identité fédérée** : Ce modèle requiert une identité synchronisée et le mot de passe utilisateur est vérifié par le fournisseur d'identité sur site. Avec ce modèle, il n'est pas nécessaire de synchroniser le hachage de mot de passe avec Azure AD, et les services ADSF (Active Directory Federation Services) ou un fournisseur d'identité tiers sont utilisés pour authentifier les utilisateurs au niveau de Active Directory sur site.
+Pour plus d’informations, reportez-vous à la rubrique [modèles d’identité Microsoft 365 et Azure ad](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity).
 
-<a name="configurations"></a>Configurations
---------------
+## <a name="configurations"></a>Configurations
 
-En fonction des décisions de votre organisation relatives au modèle d’identité à implémenter et à utiliser, les exigences en matière d’implémentation peuvent varier. Référez-vous au tableau exigences ci-dessous pour vous assurer que votre déploiement répond aux conditions préalables suivantes. Si vous avez déjà déployé Microsoft 365 ou Office 365 et avez déjà implémenté la méthode d’identité et d’authentification, vous pouvez ignorer ces étapes.
+En fonction des décisions de votre organisation relatives au modèle d’identité et à la configuration que vous utilisez, les étapes d’implémentation peuvent varier.
 
+Si vous n’avez pas encore déployé Microsoft 365 ou Office 365 et un modèle d’identité, utilisez ce tableau. 
 
-|Modèle d'identité |Liste de contrôle du déploiement  |Informations complémentaires  |
+|Modèle d'identité |Liste de contrôle du déploiement  |Informations supplémentaires  |
 |---------|---------|---------|
-|Tous     |<ol type="1"><li>Comparer les options de plan Microsoft 365 et Office 365 et obtenir un abonnement</li><li>Créer une organisation Microsoft 365 ou Office 365</li><li>Attribution de licences Microsoft 365 ou Office 365 au client</li><li>Configuration des domaines et des administrateurs</li><li>Instructions spécifiques au modèle d'identité</li></ol>          |<ul style="list-style-type:none"><li>[Options de plan Microsoft 365 et Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[Comparer les applications 365 Microsoft pour les offres destinées aux entreprises](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[Gérer les licences d’abonnement](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[Ajout de licences à un abonnement](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[Configurer Microsoft 365 pour les entreprises](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[Ajout d'utilisateurs et de domaines avec l'assistant de configuration](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>Remarque : Si vous avez besoin d’aide, vous pouvez obtenir de l’aide sur [le Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=854618) .</li></ul>          |
-|Identité de cloud     |<ol type="1"><li>Créer des utilisateurs à l’aide du centre d’administration Microsoft 365</li></ol>           |<ul style="list-style-type:none"><li>[Ajouter des utilisateurs individuellement ou en bloc](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
-|Identité synchronisée     |<ol type="1"><li>Installation de Azure AD Connect</li><li>Configuration de la synchronisation de répertoires</li><li>Création d'utilisateurs à l'aide d'outils de gestion Active Directory sur site</li></ol>         |<ul style="list-style-type:none"><li>[Configurer la synchronisation d’annuaires](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>Remarque : les hachages de mot de passe doivent être synchronisés pour que Microsoft 365 et Office 365 effectuent l’authentification.</li></ul>         |
-|Identité fédérée    |<ol type="1"><li>Installation de Azure AD Connect</li><li>Configuration de la synchronisation de répertoires</li><li>Installation et configuration d'un fournisseur d'identité fédérée (services ADFS recommandés)</li><li>Création d'utilisateurs à l'aide d'outils de gestion Active Directory sur site</li></ol>           |<ul style="list-style-type:none"><li>[Configurer la synchronisation d’annuaires](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[Planification de votre déploiement AD FS](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[Liste de vérification : Déploiement de votre batterie de serveurs de fédération](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Configuration de l'accès Extranet pour AD FS](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[Configuration d'une relation d'approbation entre AD FS et Azure AD](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[Vérification et gestion de l'authentification unique avec ADFS](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Liste de compatibilité de fédération Azure AD](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>Note : Il n'est pas nécessaire de synchroniser le hachage de mot de passe avec Azure Active Directory.</li></ul>         |
+|Tout     |<ol type="1"><li>Comparez les options de plan Microsoft 365 et Office 365 et obtenez un abonnement et un client.</li><li>Créez une organisation Microsoft 365 ou Office 365 pour votre client.</li><li>Acheter des licences Microsoft 365 ou Office 365 pour le client</li><li>Configurer les comptes d’utilisateurs et les domaines.</li></ol>  |<ul><li>[Options de plan dans Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[Comparer les offres Microsoft 365 pour les entreprises](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[Acheter ou supprimer des licences d’abonnement](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[Ajout de licences à un abonnement](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[Configurer Microsoft 365 pour les entreprises](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[Ajouter un domaine à l’aide de l’Assistant Configuration](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) est disponible pour vous aider.  |
+|Identité Cloud     |<ul><li>Créer des comptes d’utilisateurs à l’aide du centre d’administration 365 Microsoft</li></ul> |<ul style="list-style-type:none"><li>[Ajouter des utilisateurs et attribuer des licences](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
+|Identité hybride     |<ol type="1"><li>Installez Azure AD Connect.</li><li>Configurer la synchronisation d’annuaires.</li><li>Gérer les utilisateurs et les groupes avec les outils AD DS.</li></ol> |<ul style="list-style-type:none"><li>[Configurer la synchronisation d’annuaires](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
+|Identité hybride avec authentification fédérée    |<ol type="1"><li>Installez et configurez un fournisseur d’identité fédéré tel qu’AD FS.</li><li>Installez Azure AD Connect et configurez la synchronisation d’annuaires et l’authentification fédérée.</li><li>Gérer les utilisateurs et les groupes avec les outils AD DS.</li></ol> |<ul><li>[Planification de votre déploiement AD FS](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[Liste de vérification : Déploiement de votre batterie de serveurs de fédération](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Configuration de l'accès Extranet pour AD FS](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[Configuration d'une relation d'approbation entre AD FS et Azure AD](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[Vérification et gestion de l'authentification unique avec ADFS](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Configurer la synchronisation d’annuaires](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
+||||
 
-Pour plus d’informations, reportez-vous à [la rubrique choix d’un modèle de connexion](https://go.microsoft.com/fwlink/?linkid=854626) et [Présentation des modèles d’identité et des guides d’Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) .
+## <a name="multi-factor-authentication"></a>Authentification multifacteur
 
+Les mots de passe sont la méthode d’authentification la plus courante pour la connexion à un ordinateur ou un service en ligne, mais qui sont également les plus vulnérables. Les utilisateurs peuvent choisir des mots de passe simples et utiliser le même mot de passe pour plusieurs connexions sur des ordinateurs et services différents. 
 
-<a name="multi-factor-authentication"></a>Authentification multifacteur
-----------------------------
+Pour fournir un niveau de sécurité supplémentaire pour les connexions, utilisez l’authentification multifacteur (MFA), qui nécessite un mot de passe et une méthode de vérification supplémentaire telle que :
 
-Les offres Microsoft 365 et Office 365 prennent en charge l’authentification multifacteur (MFA) qui renforce la sécurité des connexions utilisateur aux services. Avec l’authentification multifacteur, les utilisateurs doivent accuser réception d’un appel téléphonique, d’un SMS ou d’une notification d’application sur son smartphone après avoir entré correctement son mot de passe. Un utilisateur ne peut se connecter qu’après avoir satisfait ce deuxième facteur d’authentification.
+- Un message texte envoyé à un téléphone qui demande à l’utilisateur de taper un code de vérification.
+- Un appel téléphonique.
+- Application de téléphone intelligent Microsoft Authenticator.
+- D’autres méthodes d’identité et d’authentification hybrides sont disponibles.
 
-L’authentification multifacteur est prise en charge avec n’importe quel plan Microsoft 365 ou Office 365 incluant Microsoft Teams. Les offres d’abonnement qui incluent Microsoft teams sont décrites plus loin dans la section gestion des licences ci-dessous.
+MFA est pris en charge avec n’importe quel plan Microsoft 365 ou Office 365 incluant Microsoft Teams. Il est vivement recommandé d’utiliser une authentification multifacteur pour les comptes auxquels des [rôles d’administrateur sont attribués](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide), tels que l’administrateur de service Teams.
 
-Lorsque les utilisateurs sont inscrits pour l’authentification multifacteur, la prochaine fois qu’un utilisateur se connecte, il verra un message lui demandant de configurer son deuxième facteur d’authentification. Les méthodes d’authentification prises en charge sont les suivantes :
+Vous devez également déployer l’authentification multifacteur pour les utilisateurs. Lorsque vos utilisateurs sont inscrits pour l’authentification multifacteur, lors de leur connexion suivante, ils verront un message leur demandant de définir leur méthode de vérification supplémentaire. 
 
-
-|Type de client  |Options de deuxième facteur de MFA disponibles  |Remarques  |
-|---------|---------|---------|
-|**Dans le cloud uniquement**     |Authentification multifacteur pour Microsoft 365 ou Office 365 <ul><li>Appel téléphonique</li><li>SMS</li><li>Notification d'application mobile</li><li>Code vérification d'application mobile</li></ul>        | |
-|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>Authentification multifacteur pour Microsoft 365 ou Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Remarque : des solutions MFA supplémentaires sont disponibles avec les [documents de compatibilité des fournisseurs d’identité Azure ad](https://www.microsoft.com/download/details.aspx?id=56843)         |
+Pour plus d’informations, reportez-vous à la rubrique [authentification multifacteur pour Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).

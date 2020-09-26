@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: En savoir plus sur l’intégration d’enregistrements de santé électronique dans l’application Microsoft teams patients et la spécification de l’interface STU3.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905746"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277212"
 ---
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
+
+> [!IMPORTANT]
+> **En vigueur le 30 septembre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
+>
+>Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes permettent aux équipes de soins de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -43,7 +50,7 @@ La configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation 
 > [!NOTE]
 > La ressource patient est la seule ressource obligatoire (sans que l’application ne se charge du tout); Néanmoins, nous vous conseillons de mettre en œuvre la prise en charge de toutes les ressources mentionnées ci-dessus pour une utilisation optimale de l’application Microsoft teams pour les utilisateurs finaux.
 
-Les requêtes à partir de l’application patients de Microsoft teams pour plusieurs ressources publient une offre (BATCH) de requêtes dans l’URL du serveur FHIR. Le serveur traitera chaque demande et renverra une offre de ressources correspondant à chaque demande. Pour plus d’informations et d’exemples [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction), voir.
+Les requêtes à partir de l’application patients de Microsoft teams pour plusieurs ressources publient une offre (BATCH) de requêtes dans l’URL du serveur FHIR. Le serveur traitera chaque demande et renverra une offre de ressources correspondant à chaque demande. Pour plus d’informations et d’exemples, voir [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
 
 ## <a name="capability-statement"></a>Instruction Capability
 
@@ -56,7 +63,7 @@ Voici les champs obligatoires obligatoires :
    4. Sécurité : [extension pour les URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (notre code nécessite cela pour comprendre la version à laquelle nous devons faire pivoter.)
 
-Pour [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) plus d’informations sur ce jeu de champs, voir.
+[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="patient"></a>Patient
 
@@ -78,11 +85,11 @@ Une recherche de ressource utilise la méthode POST à/patient/_search et les pa
 
 1. ID
 2. famille = (recherche tous les patients dont le nom de famille contient la valeur)
-3. fourni =\<sous-chaîne>
+3. accordé =\<substring>
 4. DateNaissance = (correspondance exacte)
 5. sexe = (valeurs faisant partie d’un compte d’administrateur-sexe)
-6. \_nombre (nombre maximal de résultats à renvoyer) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés comme résultat de la recherche et \_du comptage qui seront utilisés par le PatientsApp pour limiter le nombre d’enregistrements renvoyés.
-7. identifiant =\<NRM>
+6. \_nombre (nombre maximal de résultats à renvoyer) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés comme résultat de la recherche et du \_ comptage qui seront utilisés par le PatientsApp pour limiter le nombre d’enregistrements renvoyés.
+7. identificateur =\<mrn>
 
 L’objectif est de pouvoir Rechercher et filtrer un patient en procédant comme suit :
 
@@ -97,18 +104,18 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Request : POST <fhir-Server>/patient/_search corps de la requête : fourni = Ruth&Family = Black
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "meta" : {"lastUpdated" : "2019-01-14T23:44:45.052 + 00:00"}, "tapez" : "searchset", "total" : 1, "Self", "URL" : « auto », « URL » : <fhir-Server>/patient/_search "}]," entrée " : [{" fullUrl " : <fhir-Server>/patient/<patient-ID>", "ressource" : {"resourceType" : "patient", "ID" : "<patient-ID>", "meta" : {"versionId" : "1", "lastUpdated" : "2017-10-18T18:32:37.000 + 00:00"}, "texte" : {"Status" : "generated", "div" : "<div>\n        <p>Noir Ruth</p>\n      </div>"}," identificateur " : [{" use " :" usuelle "," type " : {" codification " : [{" System " :"https://hl7.org/fhir/v2/0203"," code " :" Mr "," Display "," "userSelected" : false}], "texte" : "http://hospital.smarthealthit.org", "", "", "", "", "valeur" : "1234567"}], "actif" : vrai, "nom" : "" ";" ""; ""; ""; "" ";"
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "meta" : {"lastUpdated" : "2019-01-14T23:44:45.052 + 00:00"}, "tapez" : "searchset", "total" : 1, "Self", "URL" : « auto », « URL » : <fhir-Server>/patient/_search "}]," entrée " : [{" fullUrl " : <fhir-Server>/patient/<patient-ID>", "ressource" : {"resourceType" : "patient", "ID" : "<patient-ID>", "meta" : {"versionId" : "1", "lastUpdated" : "2017-10-18T18:32:37.000 + 00:00"}, "texte" : {"Status" : "generated", "div" : "<div>\n        <p>Noir Ruth</p>\n      </div>"}," identificateur " : [{" use " :" usuelle "," type " : {" codification " : [{" System " :" https://hl7.org/fhir/v2/0203 "," code " :" Mr "," Display "," "userSelected" : false}], "texte" : "" http://hospital.smarthealthit.org , "", "", "", "", "valeur" : "1234567"}], "actif" : vrai, "nom" : "" ";" ""; ""; ""; "" ";"
     ]}], "Telecom" : [{"système" : "téléphone", "valeur" : "800-599-2739", "utiliser" : "maison"}, {"système" : "téléphone", "valeur" : "800-808-7785", "utiliser" : "mobile"}, {"système" : "ruth.black@example.com" = "" valeur "femelle", "DateNaissance" : "1951-08-23", "adresse" : [{"utiliser" : "maison", "ligne" : ["26 South RdApt 22"], "ville" : "sapâtea", "État" : "OK", "CodePostal" : "74066", "Country" : "USA"}]), "Search" : {"mode" : "match"}})}
 
 * * *
 
     Demande : obtenez <fhir-Server>/patient/<patient-ID>
     
-    Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>", "identificateur" : [{"use" : "usuelle", "type" : {"codage" : [{"système" : "https://hl7.org/fhir/v2/0203", "code" : "Mr",}], "texte" : "le numéro de l’enregistrement médical"}, "valeur" : "1234567"}], "nom" : [{"utiliser" : "officiel", "famille" : "Adams", ""» : "Michel", "X." ]}], "sexe" : "mâle", "DateNaissance" : "1925-12-23",}
+    Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>", "identificateur" : [{"use" : "usuelle", "type" : {"codage" : [{"système" : " https://hl7.org/fhir/v2/0203 ", "code" : "Mr",}], "texte" : "le numéro de l’enregistrement médical"}, "valeur" : "1234567"}], "nom" : [{"utiliser" : "officiel", "famille" : "Adams", ""» : "Michel", "X." ]}], "sexe" : "mâle", "DateNaissance" : "1925-12-23",}
 
 * * *
 
-Pour [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) plus d’informations sur ce jeu de champs, voir.
+[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="observation"></a>Déterminée
 
@@ -125,7 +132,7 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<ID du patient>
+1. patient =\<patient id>
 2. _sort = date
 3. Category (nous interrogerons « Category = vitaux-Sign-signes ») pour récupérer la liste des signes vitaux.
 
@@ -135,14 +142,14 @@ Reportez-vous à cet exemple de l’appel :
 
     Demande : obtenez <fhir-Server>/observation ? patient =<patient-ID>&catégorie = vitaux-signes
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 20, "entrée" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-ID>", "category" : [{"code" : [{"System", "https://hl7.org/fhir/observation-category", "code" : "" code " : {" Coding " : [{" System " :"http://loinc.org"," code " :" 8867-4 "," display " :" heart_rate "}]}," effectiveDateTime " :" 2009-04-08T00:00:00-06:00 "," valueQuantity " : {" value " : 72,0," Unit " :" {temps} minute "," système " :"http://unitsofmeasure.org",}}},.
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 20, "entrée" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-ID>", "category" : [{"code" : [{"System", " https://hl7.org/fhir/observation-category ", "code" : "" code " : {" Coding " : [{" System " :" http://loinc.org "," code " :" 8867-4 "," Display " :" heart_rate "}]}," effectiveDateTime " :" 2009-04-08T00:00:00-06:00 "," valueQuantity " : {" value " : 72,0," Unit " :" {temps} minute "," système " :" http://unitsofmeasure.org ",}}},.
         .
         .
       ] }
 
 * * *
 
-Pour [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) plus d’informations sur ce jeu de champs, voir.
+[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="condition"></a>Condition
 
@@ -157,8 +164,8 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<ID du patient>
-2. _count =\<résultats maximum>
+1. patient =\<patient id>
+2. _count =\<max results>
 
 Pour plus d’informations, reportez-vous à l’exemple suivant :
 
@@ -166,13 +173,13 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/condition ? patient =<patient-ID>&_count = 10
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 2, "entry" : [{"Resource" : {"resourceType" = "condition", "ID" : "<-ID>", "code" : {"code"http://snomed.info/sct"," code " :" 185903001 "," Display " :" nécessite une immunisation de la grippe ",}]}," gravité " : {" codage " : [{" System " :"http://snomed.info/sct"," code " :" 24484000 "," Display " :" assertedDate "}}," " :" 2018-04-04 "}};
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 2, "entry" : [{"Resource" : {"resourceType" = "condition", "ID" : "<-ID>", "code" : {"code" http://snomed.info/sct "," code " :" 185903001 "," Display " :" nécessite une immunisation de la grippe ",}]}," gravité " : {" codage " : [{" System " :" http://snomed.info/sct "," code " :" 24484000 "," Display " :" assertedDate "}}," " :" 2018-04-04 "}};
         .
         .
       ] }
 
 * * *
-Pour [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) plus d’informations sur ce jeu de champs, voir.
+[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="encounter"></a>Connaître
 
@@ -188,13 +195,13 @@ De plus, les champs suivants provenant du cœur Microsoft pour les États-Unis d
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<ID du patient>
-2. _sort : DESC =\<champ ex. Date>
-3. _count =\<résultats maximum>
+1. patient =\<patient id>
+2. _sort : DESC =\<field ex. date>
+3. _count =\<max results>
 
 L’objectif est de pouvoir récupérer le dernier emplacement connu du patient. Chaque rencontre fait référence à une ressource d’emplacement. La référence inclut également le champ d’affichage de l’emplacement.
 
-Pour [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) plus d’informations sur ce jeu de champs, voir.
+[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -214,7 +221,7 @@ Outre les champs Argonaut, pour optimiser l’utilisation de l’application pat
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. Patient = \<ID du patient>
+1. Patient =  \<patient id>
 
 Pour plus d’informations, reportez-vous à l’exemple suivant : 
 
@@ -222,11 +229,11 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/AllergyIntolerance ? patient =<patient-ID>
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType", "AllergyIntolerance", "ID" : "<-ID>", "clinicalStatus" : "actif", "verificationStatus" : "confirmé", "code" : {"http://rxnav.nlm.nih.gov/REST/Ndfrtcode" : "", "code" : "N0000175503", "Display" : "sulfonamide antibactérienne",}], "texte" : "sulfonamide antibactérienne"}, "assertedDate" : "2018-01-01T00:00:00-07:00", "réaction" : [{"se manifester" : [{"codage" : [{"système" : "http://snomed.info/sct", "code" : "271807003", "Display" : "Skin rash",}), "Text" : "Skin rash"}]
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType", "AllergyIntolerance", "ID" : "<-ID>", "clinicalStatus" : "actif", "verificationStatus" : "confirmé", "code" : {"code" : "", "code" : http://rxnav.nlm.nih.gov/REST/Ndfrt "N0000175503", "Display" : "sulfonamide antibactérienne",}], "texte" : "sulfonamide antibactérienne"}, "assertedDate" : "2018-01-01T00:00:00-07:00", "réaction" : [{"se manifester" : [{"codage" : [{"système" : " http://snomed.info/sct ", "code" : "271807003", "Display" : "Skin rash",}), "Text" : "Skin rash"}]
 
 * * *
 
-Pour [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) plus d’informations sur ce jeu de champs, voir.
+[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="medication-request"></a>Demande de médication
 
@@ -244,10 +251,10 @@ Outre les champs de base américaine, l’application patients peut également l
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<ID du patient>
-2. _count =\<résultats maximum>
+1. patient =\<patient id>
+2. _count =\<max results>
 
-Pour [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) plus d’informations sur ce jeu de champs, voir.
+[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)Pour plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="coverage"></a>Articles
 
@@ -261,6 +268,6 @@ Il s’agit des champs requis au minimum, qui ne sont pas couverts par les profi
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. Patient = \<ID du patient>
+1. Patient = \<patient id>
 
-Pour [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) plus d’informations sur ce jeu de champs, voir.
+[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)Pour plus d’informations sur ce jeu de champs, voir.

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158692"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277283"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application listes de votre organisation dans Microsoft teams
 
@@ -78,7 +78,7 @@ Dans certains scénarios, vous souhaiterez peut-être limiter les actions que le
 
 Avec les listes, les utilisateurs peuvent bénéficier d’une expérience de bureau, Web ou mobile. Il est important de savoir que les utilisateurs ne peuvent pas créer de nouvelles listes ou épingler des listes existantes dans le client Microsoft teams mobile. Pour afficher ou modifier une liste dans le client mobile Teams, une liste doit d’abord être créée ou ajoutée à l’aide de listes sur le bureau teams ou le client Web.
 
-Les invités de [canaux privés](private-channels.md) ne peuvent pas créer ou supprimer une liste ou commencer une nouvelle conversation sur un élément de liste. Ils peuvent ajouter des éléments de liste aux listes existantes et répondre à des conversations existantes sur un élément de liste. Gardez à l’esprit que ces limitations s’appliquent uniquement aux canaux privés.
+Les invités ne peuvent pas créer ou supprimer une liste. Ils peuvent ajouter des éléments de liste à des listes existantes, commencer de nouvelles conversations sur des éléments de liste et répondre à des conversations existantes concernant des éléments de liste.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Listes et applications SharePoint
 
@@ -115,3 +115,7 @@ Les listes prennent en charge l' [automate Power](https://preview.flow.microsoft
 ## <a name="give-feedback-or-report-an-issue"></a>Envoyer des commentaires ou signaler un problème
   
 Pour nous envoyer des commentaires ou signaler un problème, cliquez sur **aide** en bas de la barre de navigation gauche dans équipes, puis sélectionnez **signaler un problème**. Sélectionnez **listes**, puis entrez vos commentaires ou détails sur le problème que vous rencontrez.
+
+## <a name="related-topics"></a>Sujets associés
+
+- [Affiche la documentation d’aide](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

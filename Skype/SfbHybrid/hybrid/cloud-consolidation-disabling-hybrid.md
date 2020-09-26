@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées sur la désactivation de l’environnement hybride dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269658"
+ms.locfileid: "48277256"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Désactiver le mode hybride pour terminer la migration vers le cloud
 
@@ -46,9 +46,6 @@ Une fois ces étapes terminées, les serveurs Skype entreprise locaux ne sont pl
 >Vous devez continuer à laisser les attributs msRTCSIP dans Active Directory Sync via Azure AD Connect dans Azure AD.  N’effacez pas ces attributs sauf s’il est demandé par le support technique.  N’exécutez pas Disable-CsUser dans l’environnement local. Si vous devez modifier l’adresse SIP d’un utilisateur, faites-le dans votre annuaire Active Directory local et laissez cette modification synchronisée dans Azure AD via Azure AD Connect, comme décrit ci-dessous. De même, si vous devez modifier un numéro de téléphone et que le LineURI de l’utilisateur est déjà défini en local, vous devez le modifier dans l’annuaire Active Directory local.
 >L’effacement des attributs msRTCSIP locaux après avoir effectué une migration à partir de l’installation locale pourrait entraîner la perte de service pour les utilisateurs.
 
-> [!Note] 
-> Dans de rares cas, le fait de modifier le serveur DNS vers Microsoft 365 ou Office 365 pour votre organisation peut entraîner l’arrêt de la Fédération avec d’autres organisations jusqu’à ce que l’autre organisation ait mis à jour sa configuration de Fédération :<ul><li>
-Toutes les organisations fédérées qui utilisent l’ancien modèle de Fédération directe (également appelé serveur partenaire autorisé) doivent mettre à jour leurs entrées de domaine autorisées pour leur organisation afin de supprimer le nom de domaine complet du proxy. Ce modèle de Fédération hérité n’est pas basé sur les enregistrements DNS SRV, de sorte qu’une telle configuration est devenue obsolète une fois que votre organisation passe dans le Cloud. </li><li>Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed. online. Lync. <span> com doit mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement locale et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la Fédération avec ces organisations ne fonctionnera pas tant qu’elles n’auront pas activé leur fournisseur d’hébergement.</li></ul>Si vous pensez qu’un de vos partenaires fédérés peut utiliser la Fédération directe ou avoir fédéré avec une organisation en ligne ou hybride, nous vous suggérons de lui envoyer une communication à ce sujet à mesure que vous vous préparez à effectuer votre migration vers le Cloud.
 
 1.  *Mettre à jour le DNS pour qu’il pointe vers Microsoft 365 ou Office 365.*
 Le DNS externe de l’Organisation pour l’organisation locale doit être mis à jour de manière à ce que les enregistrements Skype entreprise pointent vers Microsoft 365 ou Office 365 au lieu du déploiement local. Notamment :
