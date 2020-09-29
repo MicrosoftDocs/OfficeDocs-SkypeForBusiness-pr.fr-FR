@@ -24,51 +24,46 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
+ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938143"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48297372"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a><span data-ttu-id="469b4-103">Gérer les stratégies d’équipes dans Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="469b4-103">Manage teams policies in Microsoft Teams</span></span>
+# <a name="manage-teams-policies-in-microsoft-teams"></a><span data-ttu-id="eb34c-103">Gérer les stratégies d’équipes dans Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="eb34c-103">Manage teams policies in Microsoft Teams</span></span>
 
-<span data-ttu-id="469b4-104">En tant qu’administrateur, vous pouvez utiliser les stratégies d’équipe de Microsoft teams pour contrôler ce que peuvent faire les utilisateurs de votre organisation dans les équipes et les canaux.</span><span class="sxs-lookup"><span data-stu-id="469b4-104">As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels.</span></span> <span data-ttu-id="469b4-105">Par exemple, vous pouvez définir si les utilisateurs sont autorisés à découvrir des équipes privées dans les résultats de la recherche et dans la Galerie d’équipes et si les utilisateurs sont autorisés à créer des canaux privés.</span><span class="sxs-lookup"><span data-stu-id="469b4-105">For example, you can set whether users are allowed to discover private teams in search results and in the team gallery and whether users are allowed to create private channels.</span></span>
+<span data-ttu-id="eb34c-104">En tant qu’administrateur, vous pouvez utiliser les stratégies d’équipe de Microsoft teams pour contrôler ce que peuvent faire les utilisateurs de votre organisation dans les équipes et les canaux.</span><span class="sxs-lookup"><span data-stu-id="eb34c-104">As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels.</span></span> <span data-ttu-id="eb34c-105">Par exemple, vous pouvez définir si les utilisateurs sont autorisés à créer des canaux privés.</span><span class="sxs-lookup"><span data-stu-id="eb34c-105">For example, you can set whether users are allowed to create private channels.</span></span>
 
-<span data-ttu-id="469b4-106">Pour gérer les stratégies d’équipe, **accédez à stratégies teams teams**  >  **Teams policies** dans le centre d’administration Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="469b4-106">You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center.</span></span> <span data-ttu-id="469b4-107">Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées.</span><span class="sxs-lookup"><span data-stu-id="469b4-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="469b4-108">Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.</span><span class="sxs-lookup"><span data-stu-id="469b4-108">Users in your organization will automatically get the global policy unless you create and assign a custom policy.</span></span>
+<span data-ttu-id="eb34c-106">Pour gérer les stratégies d’équipe, **accédez à stratégies teams teams**  >  **Teams policies** dans le centre d’administration Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="eb34c-106">You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center.</span></span> <span data-ttu-id="eb34c-107">Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées.</span><span class="sxs-lookup"><span data-stu-id="eb34c-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="eb34c-108">Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.</span><span class="sxs-lookup"><span data-stu-id="eb34c-108">Users in your organization will automatically get the global policy unless you create and assign a custom policy.</span></span>
 
-<span data-ttu-id="469b4-109">Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée.</span><span class="sxs-lookup"><span data-stu-id="469b4-109">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="469b4-110">Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.</span><span class="sxs-lookup"><span data-stu-id="469b4-110">After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.</span></span>
+<span data-ttu-id="eb34c-109">Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée.</span><span class="sxs-lookup"><span data-stu-id="eb34c-109">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="eb34c-110">Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.</span><span class="sxs-lookup"><span data-stu-id="eb34c-110">After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.</span></span>
 
-## <a name="create-a-custom-teams-policy"></a><span data-ttu-id="469b4-111">Créer une stratégie d’équipe personnalisée</span><span class="sxs-lookup"><span data-stu-id="469b4-111">Create a custom teams policy</span></span>
+## <a name="create-a-custom-teams-policy"></a><span data-ttu-id="eb34c-111">Créer une stratégie d’équipe personnalisée</span><span class="sxs-lookup"><span data-stu-id="eb34c-111">Create a custom teams policy</span></span>
 
-1. <span data-ttu-id="469b4-112">Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.</span><span class="sxs-lookup"><span data-stu-id="469b4-112">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
-2. <span data-ttu-id="469b4-113">Cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="469b4-113">Click **Add**.</span></span>
-3. <span data-ttu-id="469b4-114">Entrez un nom pour votre stratégie, ainsi qu’une description.</span><span class="sxs-lookup"><span data-stu-id="469b4-114">Enter a name and description for the policy.</span></span>
+1. <span data-ttu-id="eb34c-112">Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.</span><span class="sxs-lookup"><span data-stu-id="eb34c-112">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
+2. <span data-ttu-id="eb34c-113">Cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="eb34c-113">Click **Add**.</span></span>
+3. <span data-ttu-id="eb34c-114">Entrez un nom pour votre stratégie, ainsi qu’une description.</span><span class="sxs-lookup"><span data-stu-id="eb34c-114">Enter a name and description for the policy.</span></span>
 
     ![Capture d’écran des paramètres de stratégie d’équipe](media/teams-policies.png)
-4. <span data-ttu-id="469b4-116">Choisissez les paramètres de votre choix :</span><span class="sxs-lookup"><span data-stu-id="469b4-116">Choose the settings that you want:</span></span>
+4. <span data-ttu-id="eb34c-116">Activez ou désactivez l’option créer des <a name="createchannels"> </a> **canaux privés**, selon que vous souhaitez autoriser les utilisateurs à créer des canaux privés.</span><span class="sxs-lookup"><span data-stu-id="eb34c-116">Turn on or turn off **Create private channels**, <a name="createchannels"> </a> depending on whether you want to allow users to create private channels.</span></span>
 
-- <span data-ttu-id="469b4-117">**Découvrez les équipes privées** (en préversion<a name="discoverteams"> </a> privée) : activez ce paramètre pour permettre aux utilisateurs de découvrir les équipes privées dans les résultats de la recherche et dans la Galerie d’équipe.</span><span class="sxs-lookup"><span data-stu-id="469b4-117">**Discover private teams** (in private preview):<a name="discoverteams"> </a> Turn on this setting to allow users to discover private teams in search results and in the team gallery.</span></span>
-- <span data-ttu-id="469b4-118">**Créer des canaux privés**: <a name="createchannels"> </a>activez ce paramètre pour autoriser les utilisateurs à créer des canaux privés.</span><span class="sxs-lookup"><span data-stu-id="469b4-118">**Create private channels**: <a name="createchannels"> </a>Turn on this setting to allow users to create private channels.</span></span>
+5. <span data-ttu-id="eb34c-117">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="eb34c-117">Click **Save**.</span></span>
 
-5. <span data-ttu-id="469b4-119">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="469b4-119">Click **Save**.</span></span>
+## <a name="edit-a-teams-policy"></a><span data-ttu-id="eb34c-118">Modifier une stratégie d’équipe</span><span class="sxs-lookup"><span data-stu-id="eb34c-118">Edit a teams policy</span></span>
 
-## <a name="edit-a-teams-policy"></a><span data-ttu-id="469b4-120">Modifier une stratégie d’équipe</span><span class="sxs-lookup"><span data-stu-id="469b4-120">Edit a teams policy</span></span>
+<span data-ttu-id="eb34c-119">Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.</span><span class="sxs-lookup"><span data-stu-id="eb34c-119">You can edit the global policy or any custom policies that you create.</span></span>
 
-<span data-ttu-id="469b4-121">Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.</span><span class="sxs-lookup"><span data-stu-id="469b4-121">You can edit the global policy or any custom policies that you create.</span></span>
+1. <span data-ttu-id="eb34c-120">Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.</span><span class="sxs-lookup"><span data-stu-id="eb34c-120">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
+2. <span data-ttu-id="eb34c-121">Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.</span><span class="sxs-lookup"><span data-stu-id="eb34c-121">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
+3. <span data-ttu-id="eb34c-122">Activez ou désactivez les paramètres souhaités, puis cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="eb34c-122">Turn on or turn off the settings that you want, and then click **Save**.</span></span>
 
-1. <span data-ttu-id="469b4-122">Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.</span><span class="sxs-lookup"><span data-stu-id="469b4-122">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
-2. <span data-ttu-id="469b4-123">Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.</span><span class="sxs-lookup"><span data-stu-id="469b4-123">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
-3. <span data-ttu-id="469b4-124">Activez ou désactivez les paramètres souhaités, puis cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="469b4-124">Turn on or turn off the settings that you want, and then click **Save**.</span></span>
-
-## <a name="assign-a-custom-teams-policy-to-users"></a><span data-ttu-id="469b4-125">Attribuer une stratégie d’équipe personnalisée aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="469b4-125">Assign a custom teams policy to users</span></span>
+## <a name="assign-a-custom-teams-policy-to-users"></a><span data-ttu-id="eb34c-123">Attribuer une stratégie d’équipe personnalisée aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="eb34c-123">Assign a custom teams policy to users</span></span>
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a><span data-ttu-id="469b4-126">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="469b4-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="eb34c-124">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="eb34c-124">Related topics</span></span>
 
-[<span data-ttu-id="469b4-127">Gérer la découverte des équipes privées dans Teams</span><span class="sxs-lookup"><span data-stu-id="469b4-127">Manage discovery of private teams in Teams</span></span>](manage-discovery-of-private-teams.md)
+[<span data-ttu-id="eb34c-125">Canaux privés dans teams</span><span class="sxs-lookup"><span data-stu-id="eb34c-125">Private channels in Teams</span></span>](private-channels.md)
 
-[<span data-ttu-id="469b4-128">Canaux privés dans teams</span><span class="sxs-lookup"><span data-stu-id="469b4-128">Private channels in Teams</span></span>](private-channels.md)
-
-[<span data-ttu-id="469b4-129">Attribuer des stratégies à vos utilisateurs dans teams</span><span class="sxs-lookup"><span data-stu-id="469b4-129">Assign policies to your users in Teams</span></span>](assign-policies.md)
+[<span data-ttu-id="eb34c-126">Attribuer des stratégies à vos utilisateurs dans teams</span><span class="sxs-lookup"><span data-stu-id="eb34c-126">Assign policies to your users in Teams</span></span>](assign-policies.md)
