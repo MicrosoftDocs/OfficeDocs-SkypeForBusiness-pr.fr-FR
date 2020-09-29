@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Utilisez les modèles prédéfinis de Microsoft teams intégrés dans Microsoft Graph pour créer rapidement et facilement des équipes pour les petites et moyennes entreprises.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: 7196dd93fc1245102a333c150715c4b4570986c7
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506147"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294550"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Modèles d’équipes intégrés à Microsoft Graph pour les petites et moyennes entreprises
 
@@ -33,7 +33,7 @@ Pour les petites et moyennes entreprises, les modèles peuvent être particuliè
 Pour l’instant, nous proposons trois modèles SMB de première partie que vous pouvez utiliser dans diverses situations. Tous les modèles créent une équipe *privée* . Une fois que vous avez créé les équipes et que vous êtes prêt à déployer votre organisation, vous pouvez définir le *niveau* de confidentialité en fonction de l’organisation ou du *public*, selon le cas. Pour en savoir plus sur les modèles d’équipe en général, voir [prendre en main les modèles](get-started-with-teams-templates.md)Teams.
 
 ## <a name="company-wide-template"></a>Modèle à l’échelle de l’entreprise
-Le modèle à l’échelle de l’entreprise est destiné aux communications et à la collaboration pertinentes pour l’ensemble de la société. Vous pouvez utiliser le canal général pour les annonces à l’échelle de l’entreprise, les actualités du secteur ou les billets d’encadrement. Le canal de ressources humaines est l’endroit idéal pour consolider toutes les activités liées aux ressources humaines, telles que les billets de poste, l’intégration de nouveaux employés, la formation et le développement. Le canal amusant est une plate-forme de mise en place pour toutes les publications aléatoires et amusantes.
+Le modèle à l’échelle de l’entreprise est destiné aux communications et à la collaboration pertinentes pour l’ensemble de la société. Vous pouvez utiliser le canal général pour les annonces à l’échelle de l’entreprise, les actualités du secteur ou les billets d’encadrement. Le canal de ressources humaines est l’endroit idéal pour consolider toutes les activités liées aux ressources humaines, telles que les publications du poste, l’intégration d’un nouvel employé, la formation et le développement. Le canal amusant est une plate-forme de mise en place pour toutes les publications aléatoires et amusantes.
 
 | Type de modèle de base  | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
@@ -57,11 +57,11 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>Modèle d’équipe exécutive
 
-Le modèle d’équipe exécutive est idéal pour créer une équipe destinée aux responsables de la société afin de communiquer et de collaborer sur des initiatives de société telles que des priorités annuelles, des budgets fiscaux, des initiatives stratégiques, des clients principaux, etc. Ce modèle est fourni avec un canal *privé* pour inviter des utilisateurs à sélectionner des rubriques spécifiques.
+Le modèle d’équipe exécutive est idéal pour créer une équipe destinée aux responsables de la société afin de communiquer et de collaborer sur des initiatives de société telles que des priorités annuelles, des budgets fiscaux, des initiatives stratégiques et des clients principaux. Ce modèle est fourni avec un canal *privé* pour inviter des utilisateurs à sélectionner des rubriques spécifiques.
 
 | Type de modèle de base  | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| Secteur <br>Équipe de direction | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canaux <ul><li>Général\*</li><li>Vulnérabilité\*</li></ul> Applications<ul><li>OneNote (épinglé au canal **privé** )</li> <li>Planificateur (épinglé au canal **privé** ) </li></ul><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> | 
+| Secteur <br>Équipe de direction | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canaux <ul><li>Général\*</li><li>Vulnérabilité \*</li></ul> Applications<ul><li>OneNote (épinglé au canal **privé** )</li> <li>Planificateur (épinglé au canal **privé** ) </li></ul><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> | 
 
 * Canaux avec favoris automatique<br>
 
@@ -81,11 +81,11 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>Modèle d’équipe département
 
-Vous pouvez utiliser le modèle d’équipe départemental pour créer une équipe pour des services individuels ou pour des projets. Le modèle d’équipe Finance est idéal pour tous les billets, annonces, collaboration quotidienne et communication au sein des membres de l’équipe finance (et membres de l’équipe de direction, le cas échéant). Le modèle est fourni avec un canal *privé* pour inviter des utilisateurs à sélectionner des rubriques spécifiques. Nous fournissons également le script ci-dessous pour l’équipe finance qui peut être utilisée pour étendre le modèle à des services ou des projets spécifiques en ajoutant, supprimant ou en modifiant à votre gré. Par exemple, si vous avez un service *marketing* , le script peut être adapté en renommant l’équipe de *finance* en *marketing* pour créer une nouvelle équipe marketing.
+Vous pouvez utiliser le modèle d’équipe départemental pour créer une équipe pour des services individuels ou pour des projets. Le modèle d’équipe Finance est idéal pour toutes les publications, annonces, collaboration quotidienne et communication au sein des membres de l’équipe finance et des membres de l’équipe de direction, le cas échéant. Le modèle est fourni avec un canal *privé* pour inviter des utilisateurs à sélectionner des rubriques spécifiques. Nous fournissons également le script ci-dessous pour l’équipe finance qui peut être utilisé pour étendre le modèle à des services ou des projets spécifiques en ajoutant, supprimant ou en modifiant à votre gré. Par exemple, si vous avez un service *marketing* , le script peut être adapté en renommant l’équipe de *finance* en *marketing* pour créer une nouvelle équipe marketing.
 
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| Secteur <br>Finances  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canaux <ul><li>Général\*</li><li>Vulnérabilité\*</li></ul><br> Applications<ul><li>OneNote (épinglé au canal **privé** )</li> <li>Planificateur (épinglé au canal **privé** ) </li> </ul><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> | 
+| Secteur <br>Finances  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canaux <ul><li>Général\*</li><li>Vulnérabilité \*</li></ul><br> Applications<ul><li>OneNote (épinglé au canal **privé** )</li> <li>Planificateur (épinglé au canal **privé** ) </li> </ul><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> | 
 
 * Canaux avec favoris automatique
 
@@ -174,8 +174,9 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
+- [Commencer à utiliser les modèles teams dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 - [Créer une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en Preview)
 

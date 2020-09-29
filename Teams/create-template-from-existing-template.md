@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219085"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294560"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 
@@ -72,6 +69,9 @@ Microsoft teams fournit des modèles prédéfinis qui peuvent être enregistrés
 7. Lorsque vous avez terminé d’ajouter des canaux et des applications, cliquez sur **valider** .
 
     Le nouveau modèle est enregistré dans la bibliothèque de modèles.
+
+> [!Note]
+> Il peut s’écouler jusqu’à 24 heures pour que les utilisateurs de teams puissent voir un modèle personnalisé dans la Galerie.
 
 ## <a name="related-articles"></a>Articles connexes
 

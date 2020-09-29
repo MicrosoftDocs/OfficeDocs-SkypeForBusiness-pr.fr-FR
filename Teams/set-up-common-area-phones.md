@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788748"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294460"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -64,11 +64,11 @@ La licence de téléphone commune prend en charge les éléments suivants :
 |   |  Téléphone de zone commune  |
 |---------|---------|
 |Skype Entreprise |   &#x2714; |
-|Microsoft Teams |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
 |Système téléphonique |    &#x2714; |
 |Audioconférence |       &#x2718; &sup1 ;  |
-|Microsoft Intune |        &#x2718; &sup2 ; |
-|Disponibilité dans le monde entier |    &#x2714; |
+|Microsoft Intune |    &#x2714; |
+|Disponibilité dans le monde entier |       &#x2718; &sup2 ;  |
 |Disponibilité du canal |    AE, EAS, CSP, GCC, EES, Web direct  |
 |      |         |
 

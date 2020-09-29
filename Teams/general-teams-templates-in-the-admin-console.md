@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216695"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294450"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Utiliser les modèles d’équipes généraux dans la console d’administration
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
 
 Les modèles d’équipes disposent de définitions prédéfinies de structures d’équipe conçues en fonction de vos besoins financiers. Vous pouvez également développer les modèles teams pour créer des équipes adaptées aux besoins spécifiques de votre organisation.
 
-Dans cet article, nous allons présenter chacun des modèles d’équipes et la façon dont nous vous conseillons de les utiliser.
+Dans cet article, nous allons présenter chacun des modèles d’équipes et nous vous conseillons de les utiliser.
 
-Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation financière. Nous partons du principe que vous avez déjà déployé teams service au sein de votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire la rubrique [comment déployer Microsoft teams](How-to-roll-out-teams.md).
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation financière. Vous avez déjà déployé le service teams au sein de votre organisation. Si vous n’avez pas déployé Teams, commencez par lire la rubrique [comment déployer Microsoft teams](How-to-roll-out-teams.md).
 
 Pour en savoir plus sur les modèles d’équipe en général, voir [commencer à utiliser les modèles](get-started-with-teams-templates-in-the-admin-console.md)Teams.
 

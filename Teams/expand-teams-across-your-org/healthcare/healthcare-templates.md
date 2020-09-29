@@ -18,20 +18,20 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles de Microsoft teams pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7f5fbeb967b72a25e4df5dee6f0597c3140d85b6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756603"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294434"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
+# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Premiers pas dans les modèles teams pour les établissements de santé utilisant Microsoft Graph
 
 Les modèles Microsoft teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications préinstallées.
 
-Pour les entreprises de santé, les modèles peuvent être particulièrement puissants, car ils permettent aux utilisateurs de se familiariser avec l’utilisation des équipes efficacement. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leurs organisations. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de santé.
+Pour les entreprises de santé, les modèles peuvent être particulièrement puissants, car ils permettent aux utilisateurs de se familiariser avec l’utilisation efficace d’équipes. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leurs organisations. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de santé.
 
-Nous proposons actuellement deux modèles de soins de santé que vous pouvez utiliser pour différentes situations. Pour en savoir plus sur les modèles d’équipe en général, voir [prendre en main les modèles](../../get-started-with-teams-templates.md)Teams.
+Pour l’instant, nous proposons deux modèles de soins de santé que vous pouvez utiliser pour différentes situations. Pour en savoir plus sur les modèles d’équipe en général, voir [prendre en main les modèles](../../get-started-with-teams-templates.md)Teams.
 
 ## <a name="ward-template"></a>Modèle vers le haut
 
@@ -42,7 +42,7 @@ Le modèle à l’envers est destiné à la communication et à la collaboration
 |Soins de santé-au | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Annonces\* <br> Huddles\* <br> Négative\* <br> Spécifient\* <br> Formation\* |
 |     | |         |
 
-\*Favoris automatique
+\* Favoris automatique
 
 ## <a name="hospital-template"></a>Modèle d’hôpital
 
@@ -50,12 +50,12 @@ Le modèle d’hôpital est destiné à la communication et à la collaboration 
 
 |Type de modèle de base |baseTemplateId |Canaux de modèles de base|
 |:--- |:---|:---|
-|Healthcare-hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Annonces\* <br> Conformément\* <br> Privatives de Troie <br> Ressources humaines <br> Pharmaceutiques |
+|Healthcare-hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Annonces\* <br> Conformité\* <br> Privatives de Troie <br> Ressources humaines <br> Pharmaceutiques |
 | | |  |
 
-\*Favoris automatique 
+\* Favoris automatique 
 
-## <a name="how-to-use-first-party-templates"></a>Utilisation de modèles de première partie
+## <a name="how-to-use-first-party-templates"></a>Utiliser les modèles de parties tierces
 
 Pour utiliser ces modèles, il vous suffit de changer la propriété « template@odata. bind » dans le corps de la requête de « standard » vers le TemplateIDs ci-dessus.  Pour plus d’informations sur le déploiement de modèles d’équipe, voir l’article Microsoft Graph sur la [création d’une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
@@ -164,8 +164,10 @@ Pour utiliser ces modèles, il vous suffit de changer la propriété « templat
 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Prise en main des modèles Teams](../../get-started-with-teams-templates.md)
 
 [Prise en main de Teams pour les organismes de santé](teams-in-hc.md)
+
+[Commencer à utiliser les modèles teams dans la console d’administration](../../get-started-with-teams-templates-in-the-admin-console.md)

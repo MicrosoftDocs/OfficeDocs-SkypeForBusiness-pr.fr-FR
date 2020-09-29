@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219125"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294570"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Créer un modèle à partir d’une équipe existante dans Microsoft teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 
@@ -63,6 +60,9 @@ Microsoft teams vous permet de créer un modèle à partir d’une équipe exist
 8. Sélectionnez **soumission** pour enregistrer vos modifications.
 
 Votre nouveau modèle s’affiche dans la liste **modèles d’équipe** . Le modèle peut être utilisé pour créer une équipe dans Teams.
+
+> [!Note]
+> Il peut s’écouler jusqu’à 24 heures pour que les utilisateurs de teams puissent voir un modèle personnalisé dans la Galerie.
 
 ## <a name="related-articles"></a>Articles connexes
 

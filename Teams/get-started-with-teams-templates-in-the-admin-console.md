@@ -18,17 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218575"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294610"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Commencer à utiliser les modèles teams dans la console d’administration
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 
@@ -37,12 +34,9 @@ ms.locfileid: "48218575"
 
 Les modèles teams sont des définitions prédéfinies d’une structure d’équipe conçue pour un projet ou une entreprise. Utilisez des modèles prédéfinis ou créez votre propre modèle. Les modèles d’équipes vous permettent de créer rapidement des espaces de collaboration riches avec des canaux pour différentes rubriques et des applications de préinstallation pour extraire des contenus et services stratégiques. Les modèles teams fournissent une structure d’équipe prédéfinie qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Pour l’instant, vous pouvez créer une équipe à partir d’un modèle dans teams ou [Microsoft Graph](get-started-with-teams-templates.md).
 
-Dans cet article, nous allons expliquer les propriétés qui peuvent être définies dans les modèles, les types de modèles de base et la façon dont vous pouvez utiliser quelques requêtes d’exemples pour créer une équipe à partir d’un modèle.
+Cet article décrit les propriétés qui peuvent être définies dans les modèles, les types de modèles de base et la façon dont vous pouvez utiliser quelques requêtes d’exemples pour créer une équipe à partir d’un modèle.
 
-Cet article est pour vous si vous êtes :
-
-- Responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation<br>
-- Développeur souhaitant créer par programme une équipe avec des canaux et applications prédéfinis.
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation.
 
 ## <a name="teams-template-capabilities"></a>Fonctionnalités du modèle équipes
 
@@ -55,7 +49,7 @@ La plupart des propriétés d’une équipe sont incluses et prises en charge pa
 | Description de l’équipe | Paramètres du canal |
 | Visibilité de l’équipe (publique ou privée) | Connecteurs |
 | Paramètres d’équipe (par exemple, membre, invité, @ mentions) | Fichiers et contenu |
-| Canal de favoris automatique | |
+| Canal de favoris | |
 | Application installée | |
 | Onglets épinglés | |
 
@@ -64,9 +58,9 @@ La plupart des propriétés d’une équipe sont incluses et prises en charge pa
 
 ## <a name="what-are-base-template-types"></a>Présentation des types de modèles de base
 
-Les types de modèles de base sont des modèles spécifiques créés par Microsoft pour des industries spécifiques. Ces modèles de base contiennent souvent des applications propriétaires disponibles dans le Windows Store.
+Les types de modèles de base sont des modèles spécifiques créés par Microsoft pour des industries spécifiques. Ces modèles de base contiennent souvent des applications propriétaires qui ne sont pas disponibles dans le magasin d’applications.
 
-Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou remplacer ces modèles spéciaux par d’autres propriétés que vous souhaitez spécifier. Toutefois, certains types de modèles de base contiennent des propriétés qui ne peuvent pas être remplacées.
+Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou remplacer ces modèles spéciaux par d’autres propriétés que vous souhaitez spécifier. Certains types de modèles de base contiennent des propriétés qui ne peuvent pas être remplacées.
 
 > [!NOTE]
 > Les modèles de base prédéfinis fournis par Microsoft teams peuvent être dupliqués mais ne peuvent pas être modifiés.
