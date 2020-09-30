@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Découvrir comment configurer l’authentification moderne pour les salles Microsoft teams
-ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506178"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308257"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans les salles de Microsoft teams
 
@@ -90,6 +90,7 @@ Toutefois, étant donné que Microsoft teams est compatible avec les [informatio
 - Vous devez disposer d’Exchange Server 2016 CU8 ou version ultérieure, ou d’Exchange Server 2019 CU1 ou version ultérieure.
 - Vous devez disposer de Skype entreprise Server 2015 CU5 ou version ultérieure, ou de Skype entreprise Server 2019 ou version ultérieure.
 - L’authentification multifacteur n’est pas prise en charge, quelle que soit la topologie que vous utilisez.
+- Les salles de Microsoft Teams ne prennent pas en charge les incompatibilités SIP et UPN. Pour pouvoir fonctionner, vous devez créer un compte Microsoft teams avec les mêmes nom d’utilisateur principal et SIP.
 - Si vous utilisez un fournisseur d’authentification tiers pris en charge par Azure AD, il doit prendre en charge un flux d’authentification actif via WS-Trust.
 - N’utilisez pas de stratégies d’accès conditionnel au niveau de l’appareil pour un compte de ressources configuré avec l’application. Cela entraînera des échecs de connexion. Au lieu de cela, inscrivez un appareil dans Microsoft Intune et appliquez les stratégies de conformité à l’aide des instructions publiées dans [gestion des salles de réunion d’équipes avec Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 

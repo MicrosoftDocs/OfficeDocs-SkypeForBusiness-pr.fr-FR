@@ -16,14 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dd598d92ab935ed8221258c386e87788d38f92c
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 2e3a6a19a511d86072f6c1d27c2bda447a937483
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294590"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308377"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 

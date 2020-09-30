@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177404"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308416"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -116,7 +116,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 
 ### <a name="allow-meet-now-in-channels"></a>Autoriser la Conférence maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette option, les utilisateurs peuvent cliquer sur le bouton de **Conférence** pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est « True ».
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette option, les utilisateurs peuvent cliquer sur le bouton **rencontrer** pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est « True ».
 
 [![Capture d’écran montrant l’icône Conférence maintenant sous un message ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -130,9 +130,9 @@ Si vous désactivez cette fonctionnalité, les utilisateurs ne sont pas en mesur
 
 ### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions de canal
 
-Utilisez la stratégie AllowChannelMeetingScheduling existante pour contrôler les types d’événements qui peuvent être créés dans les calendriers d’équipe. Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe. La valeur par défaut est « True ».
+Utilisez la stratégie AllowChannelMeetingScheduling existante pour contrôler les types d’événements qui peuvent être créés dans les calendriers d’équipe. Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe. Par défaut, ce paramètre est activé. 
 
-Si cette stratégie est désactivée, les utilisateurs ne peuvent pas créer de réunions de canal. Néanmoins, il est possible de modifier les réunions existantes du canal par l’organisateur de l’événement.
+Si cette stratégie est désactivée, les utilisateurs ne seront pas en mesure de créer des réunions de canal. Néanmoins, il est possible de modifier les réunions existantes du canal par l’organisateur de l’événement.
 
 La planification d’une réunion est désactivée.
 
@@ -169,11 +169,11 @@ L’application Calendrier de canal s’affiche dans la section **applications M
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée sur un canal d’une équipe.
 
-Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams. La valeur par défaut est « True ».
+Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams. Par défaut, ce paramètre est activé.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  La valeur par défaut est « True ».
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  Par défaut, ce paramètre est activé.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -181,6 +181,8 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 - [Autoriser la transcription](#allow-transcription)
 - [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
+- [Mode pour le son IP](#mode-for-ip-audio) 
+- [Mode pour la vidéo IP](#mode-for-ip-video) 
 - [Autoriser la vidéo sur IP](#allow-ip-video)
 - [Taux d’échantillonnage du support (Ko)](#media-bit-rate-kbs)
 
@@ -204,32 +206,101 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser l’enregistrement Cloud |
 |---------|---------|---------|
-|Daniela | Globale   | False |
-|Amanda | Location1MeetingPolicy | Vrai|
+|Daniela | Globale   | Désactivé |
+|Amanda | Location1MeetingPolicy | Activé|
 |Jean (utilisateur externe) | Non applicable | Non applicable|
 
 Les réunions organisées par Daniela ne peuvent pas être enregistrées et Amanda, qui dispose du paramètre de stratégie activé, ne peut pas enregistrer des réunions organisées par Daniela. Les réunions organisées par Amanda peuvent être enregistrées, mais, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peuvent pas enregistrer des réunions organisées par Amanda.
 
 Pour en savoir plus sur l’enregistrement d’une réunion dans le Cloud, voir [enregistrement de réunion Cloud teams](cloud-recording.md).
 
+### <a name="mode-for-ip-audio"></a>Mode pour le son IP
+
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’audio peut être activé dans les réunions et les appels de groupe. Voici les valeurs de ce paramètre.
+
+|Définition de la valeur |Comportement  |
+|---------|---------|
+|**Audio entrant et sortant activé**    |Le son entrant et sortant est autorisé dans la réunion. Il s’agit du paramètre par défaut. |
+|**Désactivé**     |Le son entrant et sortant est désactivé dans la réunion.     |
+
+S’il est défini sur **Disabled** pour un utilisateur, celui-ci peut toujours planifier et organiser des réunions, mais il ne peut pas utiliser le son. Pour participer à une réunion, ils doivent se connecter par le biais du réseau téléphonique public commuté (RTC) ou avoir l’appel de la réunion et les joindre par téléphone. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes) disposent de l’option **audio entrant et sortant activée** par défaut. Sur les clients mobiles Teams, si ce paramètre est désactivé, l’utilisateur doit se connecter à la réunion via PSTN.
+
+Ce paramètre ne s’applique pas aux appels 1:1. Pour limiter les appels 1:1, configurez une [stratégie d’appel](teams-calling-policy.md) d’équipes et désactivez le paramètre **effectuer des appels privés** . Ce paramètre ne s’applique également pas aux appareils de salle de conférence tels que surface Hub et les appareils Microsoft Teams.
+
+Pour en savoir plus, voir [gérer les appels audio et vidéo des participants](#manage-audiovideo-for-meeting-participants)à la réunion.
+
+### <a name="mode-for-ip-video"></a>Mode pour la vidéo IP
+
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si la vidéo peut être activée dans les réunions et les appels de groupe. Voici les valeurs de ce paramètre.
+
+|Définition de la valeur |Comportement  |
+|---------|---------|
+|**Vidéo sortante et entrante activée**    | La vidéo sortante et entrante est autorisée dans la réunion. Il s’agit du paramètre par défaut. |
+|**Désactivé**     | La vidéo sortante et entrante est désactivée dans la réunion. Sur les clients mobiles Teams, les utilisateurs ne peuvent pas partager des vidéos ou des photos pendant la réunion. <br><br>Notez que si le **mode pour le son IP** est désactivé, le **mode de lecture de la vidéo IP** reste également désactivé.  |
+
+S’il est défini sur **Disabled** pour un utilisateur, celui-ci ne peut pas activer la vidéo ou afficher les vidéos partagées par les autres participants à la réunion. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes) ont configuré ce paramètre sur **sortant et la vidéo entrante est activée** par défaut.
+
+Ce paramètre ne s’applique pas aux appareils de salle de conférence comme les appareils surface Hub et Microsoft Teams.
+
+> [!NOTE]
+> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante et entrante, alors que le paramètre **autoriser la vidéo IP** contrôle la vidéo sortante. Pour en savoir plus, voir [le paramètre de stratégie de vidéo IP prioritaire](#which-ip-video-policy-setting-takes-precedence) et gérer les paramètres [audio et vidéo des participants à la réunion](#manage-audiovideo-for-meeting-participants).
+
 ### <a name="allow-ip-video"></a>Autoriser la vidéo sur IP
 
-Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. La vidéo est un composant clé pour les réunions. Dans certaines organisations, les administrateurs peuvent souhaiter davantage de contrôle sur les réunions des utilisateurs en vidéo. Ce paramètre détermine si la vidéo peut être activée dans les réunions hébergées par un utilisateur et dans les appels 1:1 et les appels de groupe démarrés par un utilisateur. Réunions organisées par un utilisateur pour lequel cette stratégie est activée, autorisez le partage vidéo pendant la réunion par les participants de la réunion, si la stratégie est également activée pour les participants à la réunion. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes ou fédérés) héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. La vidéo est un composant clé pour les réunions. Dans certaines organisations, les administrateurs peuvent souhaiter davantage de contrôle sur les réunions des utilisateurs en vidéo. Ce paramètre détermine si la vidéo peut être activée dans les réunions hébergées par un utilisateur et dans 1:1 et les appels de groupe démarrés par un utilisateur. Sur les clients mobiles Teams, ce paramètre détermine si les utilisateurs peuvent partager des photos et des vidéos pendant une réunion. 
 
-![Capture d’écran montrant une réunion avec les paramètres audio et vidéo](media/meeting-policies-audio-video-settings.png)
+Réunions organisées par un utilisateur pour lequel ce paramètre de stratégie est activé, autorisez le partage vidéo pendant la réunion aux participants à la réunion, si le paramètre de stratégie est également activé pour les participants. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes ou fédérés) héritent de la stratégie de l’organisateur de la réunion.
+
+> [!NOTE]
+> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante, tandis que le paramètre **vidéo IP** contrôle la vidéo sortante et entrante. Pour en savoir plus, voir [le paramètre de stratégie de vidéo IP prioritaire](#which-ip-video-policy-setting-takes-precedence) et gérer les paramètres [audio et vidéo des participants à la réunion](#manage-audiovideo-for-meeting-participants).
+
+| Bureau et client Web teams |Client mobile teams  |
+|:-------:|:-------:|
+|![Capture d’écran montrant la participation à une réunion avec les paramètres audio et vidéo sur le Bureau](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran illustrant la participation à une réunion Sreen avec les paramètres audio et vidéo sur un appareil mobile](media/meeting-policies-mobile-join.png)          |
+
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser la vidéo IP |
+|Utilisateur |Stratégie de réunion  |Autoriser la vidéo sur IP |
 |---------|---------|---------|
-|Daniela   | Globale   | Vrai        |
-|Amanda    | Location1MeetingPolicy        | False      |
+|Daniela   | Globale   | Activé       |
+|Amanda    | Location1MeetingPolicy        | Désactivé      |
 
 Les réunions hébergées par Daniela permettre l’activation de la vidéo. Daniela pouvez rejoindre la réunion et activer la vidéo. Amanda ne peut pas activer la vidéo pendant la réunion Daniela, car la politique d’Amanda est définie sur ne pas autoriser la vidéo. Amanda peut voir les vidéos partagées par d’autres participants à la réunion.
 
 Dans les réunions hébergées par Amanda, personne ne peut activer la vidéo, quelle que soit la politique de vidéo qui lui est affectée. Cela signifie que Daniela ne peut pas activer la vidéo dans les réunions Amanda.  
 
 Si Daniela appelle Amanda avec la vidéo, Amanda peut répondre à l’appel avec l’audio uniquement.  Lorsque l’appel est connecté, Amanda peut voir la vidéo de Daniela, mais ne peut pas activer la vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l’appel avec de la vidéo et de l’audio. Lorsque l’appel est connecté, Daniela peut activer ou désactiver sa vidéo, selon les besoins.
+
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>Quel est le paramètre de stratégie de vidéo IP prioritaire ?
+
+Pour un utilisateur, le paramètre de stratégie le plus restrictif pour la vidéo est prioritaire. Voici quelques exemples.
+
+|Autoriser la vidéo sur IP|Mode pour la vidéo IP|Découverte des réunions|
+|---------|---------|---------|
+|Organisateur : **activé**<br><br>Participant : **activé** |Participant : **désactivé**        |Ce **paramètre** est prioritaire. Le participant affecté à cette stratégie ne peut pas activer ou afficher les vidéos partagées par d’autres personnes.|
+|Organisateur : **activé**<br><br>Participant : **activé** |Participant : **vidéo sortante et entrante activée**          |Le participant affecté à cette stratégie peut activer ou afficher les vidéos partagées par d’autres personnes.         |
+|Organisateur : **activé**<br><br>Participant : **désactivé** |Participant : **vidéo sortante et entrante activée**         |Le paramètre **allow IP Video** est prioritaire. Les participants peuvent uniquement voir la vidéo entrante et ne peut pas envoyer de vidéo sortante.         |
+|Organisateur : **activé**<br><br>Participant : **désactivé** |Participant : **désactivé**         |Ce **paramètre** est prioritaire. Le participant ne peut pas voir la vidéo entrante ou sortante.|
+|Organisateur : **désactivé**    |       |Le paramètre **allow IP Video** est prioritaire, car il est désactivé pour l’organisateur. Personne ne peut activer la vidéo dans les réunions organisées par l’utilisateur affecté de cette stratégie.         |
+
+### <a name="manage-audiovideo-for-meeting-participants"></a>Gérer les éléments audio/vidéo des participants à la réunion
+
+|Si vous souhaitez...  |Définissez les paramètres de stratégie suivants  |
+|---------|---------|
+|Désactiver l’audio et la vidéo pour les participants aux réunions  |Mode de l’audio IP : **désactivé**<br> Mode pour la vidéo IP : **désactivé**<br>Autoriser la vidéo IP : N/A       |
+|Activez uniquement les éléments vidéo et audio entrants pour les participants aux réunions.  |Mode audio IP : **audio sortant et entrant activé**<br> Mode pour la vidéo IP : **vidéo sortante et entrante activée**<br>Autoriser la vidéo IP : **désactivé**       |
+|Désactiver la vidéo pour les participants à une réunion (les participants ont uniquement le son)|  Mode de l’audio IP : **activez le son entrant et sortant** .<br> Mode pour la vidéo IP : **désactivé**<br>Autoriser la vidéo IP : N/A        
+|Activer l’audio et la vidéo pour les participants aux réunions    |Mode audio IP : **audio entrant et sortant activé** (par défaut)<br> Mode pour la vidéo IP : **vidéo sortante et entrante activée** (par défaut)<br>Autoriser la vidéo IP : **activée** (par défaut)    |
+
+La stratégie la plus restrictive entre la stratégie de l’organisateur de la réunion et la stratégie de l’utilisateur s’applique. Par exemple, si un organisateur dispose d’une stratégie qui limite la vidéo et la stratégie d’un utilisateur ne limite pas la vidéo, les participants à la réunion héritent de la stratégie de l’organisateur de la réunion et n’ont pas accès à la vidéo dans les réunions. Cela signifie qu’ils peuvent rejoindre la réunion à l’aide du son uniquement.
+
+> [!NOTE]
+> Lorsqu’un utilisateur entame un appel de groupe pour participer par téléphone, l’écran **utiliser le téléphone pour l’audio** ne s’affiche pas. Il s’agit d’un problème connu que nous nous efforçons de résoudre. Pour contourner ce problème, sélectionnez **audio du téléphone** sous **autres options de jointure**.  
+
+#### <a name="teams-mobile-clients"></a>Clients mobiles teams
+
+Pour les utilisateurs de clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre **autoriser** le mode vidéo IP ou **IP** . En fonction du paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre différent du [mode de partage d’écran](#screen-sharing-mode) . Par ailleurs, vous pouvez définir une [stratégie de mobilité d’équipes](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser la vidéo IP sur une connexion de données cellulaires, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Taux d’échantillonnage du support (Ko)
 
@@ -285,8 +356,8 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser les participants à céder ou demander le contrôle |
 |---------|---------|---------|
-|Daniela   | Globale   | Vrai       |
-|Babek    | Location1MeetingPolicy        | False   |
+|Daniela   | Globale   | Activé       |
+|Babek    | Location1MeetingPolicy        | Désactivé   |
 
 Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée à d’autres participants à une réunion organisée par Babek que Babek ne peut pas céder le contrôle à d’autres participants.
 
@@ -316,8 +387,8 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser le partage PowerPoint |
 |---------|---------|---------|
-|Daniela   | Globale   | Vrai       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Daniela   | Globale   | Activé       |
+|Amanda   | Location1MeetingPolicy        | Désactivé   |
 
 Amanda ne peut pas partager des diapositives PowerPoint dans les réunions, même si elle est l’organisateur de la réunion. Daniela peut partager des diapositives PowerPoint, même si la réunion est organisée par Amanda. Amanda peut afficher les diapositives PowerPoint partagées par d’autres participants à la réunion, même si elles ne peuvent pas partager des diapositives PowerPoint.
 
@@ -329,8 +400,8 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser le tableau blanc|
 |---------|---------|---------|
-|Daniela   | Globale   | Vrai       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Daniela   | Globale   | Activé       |
+|Amanda   | Location1MeetingPolicy        | Désactivé   |
 
 Amanda ne peut pas partager le tableau blanc dans une réunion, même s’il s’agit de l’organisateur de la réunion. Daniela peut partager le tableau blanc même si une réunion est organisée par Amanda.  
 
@@ -342,8 +413,8 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser les notes partagées |
 |---------|---------|---------|
-|Daniela   | Globale   | Vrai       |
-|Amanda   | Location1MeetingPolicy | False |
+|Daniela   | Globale   | Activé       |
+|Amanda   | Location1MeetingPolicy | Désactivé |
 
 Daniela peut prendre des notes dans les réunions d’Amanda et qu’Amanda ne peut prendre des notes pendant une réunion.
 
@@ -362,10 +433,10 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
 
-Il s’agit d’une stratégie basée sur la Conférence rendez-vous pour les utilisateurs de conférences rendez-vous. Ce paramètre détermine si les utilisateurs d’appels entrants peuvent participer à la réunion sans un utilisateur authentifié de l’organisation. La valeur par défaut est false, ce qui signifie que les utilisateurs d’appels entrants peuvent patienter dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Il s’agit d’une stratégie basée sur la Conférence rendez-vous pour les utilisateurs de conférences rendez-vous. Ce paramètre détermine si les utilisateurs d’appels entrants peuvent participer à la réunion sans un utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs d’appels entrants attendent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
-> Si faux et que l’utilisateur d’un rendez-vous rejoint la réunion pour la première fois et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants.
+> Si ce paramètre est désactivé et qu’un utilisateur rendez-vous rejoint la réunion tout d’abord et qu’il est placé dans la salle d’attente, l’utilisateur de l’organisation doit participer à la réunion à l’aide d’un client d’équipes pour admettre l’utilisateur dans la salle d’attente. Aucun contrôle de salle d’attente n’est disponible pour les utilisateurs distants.
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 
@@ -387,7 +458,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . La valeur par défaut est False. Lorsque la valeur est false, les utilisateurs d’appels entrants attendent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client d’équipe et les admet. Lorsque la valeur est true, les utilisateurs rendez-vous sont automatiquement joints à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** . Par défaut, ce paramètre est désactivé. Lorsque cette option est désactivée, les utilisateurs rendez-vous attendent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client teams et les autorise. Lorsque ce paramètre est activé, les utilisateurs rendez-vous se connectent automatiquement à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
 
 > [!NOTE]
 > Si un utilisateur d’un rendez-vous rejoint une réunion avant qu’un utilisateur de l’organisation ne rejoint la réunion, il est placé dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion par le biais d’un client d’équipe et les admet. Si vous modifiez le paramètre par défaut d’un utilisateur, celui-ci est appliqué à toutes les nouvelles réunions organisées par cet utilisateur et à toute réunion antérieure dans laquelle l’utilisateur n’a pas modifié les options de la réunion.

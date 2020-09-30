@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323988"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308167"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Utiliser la technologie de® NDI dans Microsoft teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek NDI® (Network Device Interface) est une solution moderne de connexion des appareils multimédias (par exemple, une caméra et un mixeur Studio). Au lieu d’utiliser des connexions physiques, NDI® technologie permet une connectivité via un intranet local, y compris sur un ordinateur local.
 
- La technologie NDI® (Network Device Interface) est une solution moderne de connexion des appareils multimédias (par exemple, une caméra et un mixeur Studio). Au lieu d’utiliser des connexions physiques, NDI® technologie permet une connectivité via un intranet local, y compris sur un ordinateur local.
+NDI® technologie est devenue une solution standard pour la production de contenus en direct et de sensibilisation et d’adoption dans le monde de la diffusion professionnelle.
 
-NewTek NDI® technologie est devenue une solution standard de production de contenus en direct pour les flux et a gagné de la connaissance et de l’adoption du monde professionnel de la diffusion.
-
-Skype a déjà ajouté des fonctionnalités de® NDI à Skype au plus tard 2018. Microsoft teams tire parti de cette fonctionnalité pour améliorer l’utilisation de la réunion.
+Skype a déjà ajouté des fonctionnalités de® NDI à Skype au plus tard 2018. Microsoft teams utilise cette fonctionnalité pour améliorer l’utilisation de la réunion.
 
 NDI® technologie est limitée à un réseau local et ne doit être considérée qu’une partie du flux de travail de production, et non d’une solution de diffusion.
 

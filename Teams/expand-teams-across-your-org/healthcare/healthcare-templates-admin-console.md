@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles Microsoft teams dans la console d’administration pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294580"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308277"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Utiliser les modèles de santé des équipes dans la console d’administration
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Les modèles Microsoft teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications préinstallées.
 

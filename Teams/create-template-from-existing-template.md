@@ -16,14 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294560"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308097"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 

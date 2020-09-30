@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ebbf765373699d07f96d11fff66e9677213bdb8
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294433"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308397"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Utiliser les modèles de fabrication d’équipes dans la console d’administration
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer les paramètres réseau pour les fonctionnalités vocales de Microsoft Teams.
-ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
+ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539624"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304578"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gérer la topologie de votre réseau pour les fonctionnalités vocales de Microsoft teams
 
@@ -147,10 +147,10 @@ Le tableau suivant montre les sous-réseaux définis dans cet exemple.
 Pour plusieurs sous-réseaux, vous pouvez importer un fichier CSV à l’aide d’un script comme celui-ci.
 
 ```PowerShell
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
+Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-Dans cet exemple, le fichier CSV ressemble à ceci :
+Dans cet exemple, le fichier CSV ressemble à ceci : 
 
 ```console
 Identity, Mask, SiteID
@@ -178,6 +178,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 Voir également [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)

@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a16634246bf301cde3b9cbdbd5df551b10706471
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294450"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308157"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Utiliser les modèles d’équipes généraux dans la console d’administration
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
 
