@@ -51,7 +51,15 @@
 ## [Renouvellement et expiration d’une équipe](team-expiration-renewal.md)
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 ## [Migrer de Slack vers Teams](migrate-slack-to-teams.md)
-## [Modèles Teams créés dans Graph pour les petites et moyennes entreprises](smb-templates.md)
+## Utilisation des modèles Teams
+### [Utiliser les modèles Teams dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
+### [Modèles Teams créés dans Graph pour les petites et moyennes entreprises](smb-templates.md)
+### [Créer un modèle personnalisé Teams](create-a-team-template.md)
+### [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)
+### [Créer un modèle à partir d’un modèle existant](create-template-from-existing-template.md)
+### [Modèles Teams de catégories financières](financial-teams-templates-in-the-admin-console.md)
+### [Modèles Teams de catégories générales](general-teams-templates-in-the-admin-console.md)
+### [Modèles Teams de catégories de fabrication](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## Communiquer avec des utilisateurs externes
 ### [Communiquer avec des utilisateurs d’autres organisations](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## Teams pour la santé publique
 ### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Démarrage avec les modèles Teams pour les organismes de santé dans la console d’administration](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Démarrage avec la messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Délégation de messages](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [Créer une application de portail intranet Teams à partir d’un site ou d’une page SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams pour les organismes de vente au détail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Démarrage avec les modèles Teams pour la vente au détail dans la console d’administration](retail-teams-templates-in-the-admin-console.md)
 ### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 
 ## [Teams pour le secteur public](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Prise en charge des travailleurs à distance (travail à la maison)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [Démarrage avec les modèles Teams pour le secteur public](government-teams-templates-in-the-admin-console.md)
 ### [Gérer la version d’essai d’Office 365 G1](g1-trial-license.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC](plan-for-government-gcc.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
