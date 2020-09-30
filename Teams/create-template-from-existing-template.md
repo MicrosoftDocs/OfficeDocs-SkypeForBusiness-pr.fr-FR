@@ -16,65 +16,67 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294560"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308097"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a><span data-ttu-id="1e275-103">Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="1e275-103">Create a new template from an existing team template in Microsoft Teams</span></span>
+# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a><span data-ttu-id="da0e7-103">Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft teams</span><span class="sxs-lookup"><span data-stu-id="da0e7-103">Create a new template from an existing team template in Microsoft Teams</span></span>
 
-<span data-ttu-id="1e275-104">**Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**</span><span class="sxs-lookup"><span data-stu-id="1e275-104">**Custom templates are not yet supported for EDU customers.**</span></span>
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-<span data-ttu-id="1e275-105">Microsoft teams fournit des modèles prédéfinis qui peuvent être enregistrés et modifiés pour répondre à vos besoins spécifiques en matière d’organisation.</span><span class="sxs-lookup"><span data-stu-id="1e275-105">Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.</span></span>
+<span data-ttu-id="da0e7-104">**Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**</span><span class="sxs-lookup"><span data-stu-id="da0e7-104">**Custom templates are not yet supported for EDU customers.**</span></span>
 
-1. <span data-ttu-id="1e275-106">Connectez-vous au centre d’administration Teams.</span><span class="sxs-lookup"><span data-stu-id="1e275-106">Sign in to the Teams admin center.</span></span>
+<span data-ttu-id="da0e7-105">Microsoft teams fournit des modèles prédéfinis qui peuvent être enregistrés et modifiés pour répondre à vos besoins spécifiques en matière d’organisation.</span><span class="sxs-lookup"><span data-stu-id="da0e7-105">Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.</span></span>
 
-2. <span data-ttu-id="1e275-107">Dans le volet de navigation de **Teams**gauche, développez  >  **modèles d’équipe**équipes.</span><span class="sxs-lookup"><span data-stu-id="1e275-107">In the left navigation, expand **Teams** > **Team templates**.</span></span>
+1. <span data-ttu-id="da0e7-106">Connectez-vous au centre d’administration Teams.</span><span class="sxs-lookup"><span data-stu-id="da0e7-106">Sign in to the Teams admin center.</span></span>
 
-3. <span data-ttu-id="1e275-108">Dans la section **modèles d’équipe** , sélectionnez en regard d’un modèle que vous voulez dupliquer pour le mettre en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="1e275-108">In the **Team templates** section, select next to a template that you want to duplicate to highlight it.</span></span>
+2. <span data-ttu-id="da0e7-107">Dans le volet de navigation de **Teams**gauche, développez  >  **modèles d’équipe**équipes.</span><span class="sxs-lookup"><span data-stu-id="da0e7-107">In the left navigation, expand **Teams** > **Team templates**.</span></span>
 
-4. <span data-ttu-id="1e275-109">Sélectionnez **dupliquer**.</span><span class="sxs-lookup"><span data-stu-id="1e275-109">Select **Duplicate**.</span></span>
+3. <span data-ttu-id="da0e7-108">Dans la section **modèles d’équipe** , sélectionnez en regard d’un modèle que vous voulez dupliquer pour le mettre en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="da0e7-108">In the **Team templates** section, select next to a template that you want to duplicate to highlight it.</span></span>
+
+4. <span data-ttu-id="da0e7-109">Sélectionnez **dupliquer**.</span><span class="sxs-lookup"><span data-stu-id="da0e7-109">Select **Duplicate**.</span></span>
 
 ![Image de la boîte de dialogue modèles d’équipe avec l’État ajouter en surbrillance.](media/template-duplicate.png)
 
-<span data-ttu-id="1e275-111">(Vous pouvez également sélectionner **Ajouter**  >  **Commencer avec un modèle existant** pour ouvrir **sélectionnez le modèle à utiliser comme point de départ**.</span><span class="sxs-lookup"><span data-stu-id="1e275-111">(Alternatively, you can select **Add** > **Start with an existing template** to open **Select the template to use as a starting point**.)</span></span>
+<span data-ttu-id="da0e7-111">(Vous pouvez également sélectionner **Ajouter**  >  **Commencer avec un modèle existant** pour ouvrir **sélectionnez le modèle à utiliser comme point de départ**.</span><span class="sxs-lookup"><span data-stu-id="da0e7-111">(Alternatively, you can select **Add** > **Start with an existing template** to open **Select the template to use as a starting point**.)</span></span>
 
 ![Image de l’écran du point de départ des modèles d’équipe avec l’écran commencer avec un modèle existant mis en surbrillance.](media/template-start-existing-template.png)
 
-5. <span data-ttu-id="1e275-113">Dans l’écran **Sélectionner le modèle à utiliser comme point de départ** , sélectionnez **suivant**.</span><span class="sxs-lookup"><span data-stu-id="1e275-113">In the **Select the template to use as a starting point** screen, select **Next**.</span></span>
+5. <span data-ttu-id="da0e7-113">Dans l’écran **Sélectionner le modèle à utiliser comme point de départ** , sélectionnez **suivant**.</span><span class="sxs-lookup"><span data-stu-id="da0e7-113">In the **Select the template to use as a starting point** screen, select **Next**.</span></span>
 
-    <span data-ttu-id="1e275-114">Le modèle dupliqué s’ouvre et la **copie** de Word est ajoutée au nom.</span><span class="sxs-lookup"><span data-stu-id="1e275-114">The duplicated template opens, and the word **Copy** is appended to the name.</span></span>
+    <span data-ttu-id="da0e7-114">Le modèle dupliqué s’ouvre et la **copie** de Word est ajoutée au nom.</span><span class="sxs-lookup"><span data-stu-id="da0e7-114">The duplicated template opens, and the word **Copy** is appended to the name.</span></span>
 
-6. <span data-ttu-id="1e275-115">Complétez les champs suivants, puis sélectionnez **suivant**:</span><span class="sxs-lookup"><span data-stu-id="1e275-115">Complete the following fields and then select **Next**:</span></span>
-    - <span data-ttu-id="1e275-116">Nom du modèle</span><span class="sxs-lookup"><span data-stu-id="1e275-116">Template name</span></span>
-    - <span data-ttu-id="1e275-117">Descriptions courtes et longues du modèle</span><span class="sxs-lookup"><span data-stu-id="1e275-117">Template short and long descriptions</span></span>
-    - <span data-ttu-id="1e275-118">Visibilité des paramètres régionaux</span><span class="sxs-lookup"><span data-stu-id="1e275-118">Locale visibility</span></span>  
+6. <span data-ttu-id="da0e7-115">Complétez les champs suivants, puis sélectionnez **suivant**:</span><span class="sxs-lookup"><span data-stu-id="da0e7-115">Complete the following fields and then select **Next**:</span></span>
+    - <span data-ttu-id="da0e7-116">Nom du modèle</span><span class="sxs-lookup"><span data-stu-id="da0e7-116">Template name</span></span>
+    - <span data-ttu-id="da0e7-117">Descriptions courtes et longues du modèle</span><span class="sxs-lookup"><span data-stu-id="da0e7-117">Template short and long descriptions</span></span>
+    - <span data-ttu-id="da0e7-118">Visibilité des paramètres régionaux</span><span class="sxs-lookup"><span data-stu-id="da0e7-118">Locale visibility</span></span>  
 
-7. <span data-ttu-id="1e275-119">Dans la section **canaux, onglets et applications** , modifiez les canaux et applications existants dont votre équipe a besoin.</span><span class="sxs-lookup"><span data-stu-id="1e275-119">In the **channels, tabs, and apps** section, modify any existing channels and apps that your team needs.</span></span>
+7. <span data-ttu-id="da0e7-119">Dans la section **canaux, onglets et applications** , modifiez les canaux et applications existants dont votre équipe a besoin.</span><span class="sxs-lookup"><span data-stu-id="da0e7-119">In the **channels, tabs, and apps** section, modify any existing channels and apps that your team needs.</span></span>
 
-    1. <span data-ttu-id="1e275-120">Sélectionnez un canal à modifier, puis sélectionnez **modifier**.</span><span class="sxs-lookup"><span data-stu-id="1e275-120">Select a channel to edit, and select **Edit**.</span></span>
-    2. <span data-ttu-id="1e275-121">Lorsque vous avez terminé, **appliquez** vos modifications.</span><span class="sxs-lookup"><span data-stu-id="1e275-121">**Apply** your changes when finished.</span></span>
+    1. <span data-ttu-id="da0e7-120">Sélectionnez un canal à modifier, puis sélectionnez **modifier**.</span><span class="sxs-lookup"><span data-stu-id="da0e7-120">Select a channel to edit, and select **Edit**.</span></span>
+    2. <span data-ttu-id="da0e7-121">Lorsque vous avez terminé, **appliquez** vos modifications.</span><span class="sxs-lookup"><span data-stu-id="da0e7-121">**Apply** your changes when finished.</span></span>
 
-8. <span data-ttu-id="1e275-122">Ajoutez les canaux ou applications dont votre équipe a besoin.</span><span class="sxs-lookup"><span data-stu-id="1e275-122">Add any channels or apps that your team needs.</span></span>
+8. <span data-ttu-id="da0e7-122">Ajoutez les canaux ou applications dont votre équipe a besoin.</span><span class="sxs-lookup"><span data-stu-id="da0e7-122">Add any channels or apps that your team needs.</span></span>
 
-    1. <span data-ttu-id="1e275-123">Dans la section **canaux** , sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="1e275-123">In the **Channels** section, select **Add**.</span></span>
-    2. <span data-ttu-id="1e275-124">Dans la boîte de dialogue **Ajouter** , nommez le canal.</span><span class="sxs-lookup"><span data-stu-id="1e275-124">In the **Add** dialog, name the channel.</span></span>
-    3. <span data-ttu-id="1e275-125">Ajoutez une description.</span><span class="sxs-lookup"><span data-stu-id="1e275-125">Add a description.</span></span>
-    4. <span data-ttu-id="1e275-126">Décidez si le canal doit être affiché par défaut.</span><span class="sxs-lookup"><span data-stu-id="1e275-126">Decide if the channel should be shown by default.</span></span>
-    5. <span data-ttu-id="1e275-127">Recherchez le nom d’une application que vous souhaitez ajouter au canal.</span><span class="sxs-lookup"><span data-stu-id="1e275-127">Search for an app name that you want to add to the channel.</span></span>
-    6. <span data-ttu-id="1e275-128">Sélectionnez **appliquer** lorsque vous avez terminé.</span><span class="sxs-lookup"><span data-stu-id="1e275-128">Select **Apply** when finished.</span></span>
+    1. <span data-ttu-id="da0e7-123">Dans la section **canaux** , sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="da0e7-123">In the **Channels** section, select **Add**.</span></span>
+    2. <span data-ttu-id="da0e7-124">Dans la boîte de dialogue **Ajouter** , nommez le canal.</span><span class="sxs-lookup"><span data-stu-id="da0e7-124">In the **Add** dialog, name the channel.</span></span>
+    3. <span data-ttu-id="da0e7-125">Ajoutez une description.</span><span class="sxs-lookup"><span data-stu-id="da0e7-125">Add a description.</span></span>
+    4. <span data-ttu-id="da0e7-126">Décidez si le canal doit être affiché par défaut.</span><span class="sxs-lookup"><span data-stu-id="da0e7-126">Decide if the channel should be shown by default.</span></span>
+    5. <span data-ttu-id="da0e7-127">Recherchez le nom d’une application que vous souhaitez ajouter au canal.</span><span class="sxs-lookup"><span data-stu-id="da0e7-127">Search for an app name that you want to add to the channel.</span></span>
+    6. <span data-ttu-id="da0e7-128">Sélectionnez **appliquer** lorsque vous avez terminé.</span><span class="sxs-lookup"><span data-stu-id="da0e7-128">Select **Apply** when finished.</span></span>
 
-7. <span data-ttu-id="1e275-129">Lorsque vous avez terminé d’ajouter des canaux et des applications, cliquez sur **valider** .</span><span class="sxs-lookup"><span data-stu-id="1e275-129">Select **Submit** when you're finished adding channels and apps.</span></span>
+7. <span data-ttu-id="da0e7-129">Lorsque vous avez terminé d’ajouter des canaux et des applications, cliquez sur **valider** .</span><span class="sxs-lookup"><span data-stu-id="da0e7-129">Select **Submit** when you're finished adding channels and apps.</span></span>
 
-    <span data-ttu-id="1e275-130">Le nouveau modèle est enregistré dans la bibliothèque de modèles.</span><span class="sxs-lookup"><span data-stu-id="1e275-130">The new template is saved to the template library.</span></span>
+    <span data-ttu-id="da0e7-130">Le nouveau modèle est enregistré dans la bibliothèque de modèles.</span><span class="sxs-lookup"><span data-stu-id="da0e7-130">The new template is saved to the template library.</span></span>
 
 > [!Note]
-> <span data-ttu-id="1e275-131">Il peut s’écouler jusqu’à 24 heures pour que les utilisateurs de teams puissent voir un modèle personnalisé dans la Galerie.</span><span class="sxs-lookup"><span data-stu-id="1e275-131">It can take up to 24 hours for teams users to see a custom template in the gallery.</span></span>
+> <span data-ttu-id="da0e7-131">Il peut s’écouler jusqu’à 24 heures pour que les utilisateurs de teams puissent voir un modèle personnalisé dans la Galerie.</span><span class="sxs-lookup"><span data-stu-id="da0e7-131">It can take up to 24 hours for teams users to see a custom template in the gallery.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="1e275-132">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="1e275-132">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="da0e7-132">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="da0e7-132">Related articles</span></span>
 
-- [<span data-ttu-id="1e275-133">Commencer à utiliser les modèles d’équipe dans le centre d’administration</span><span class="sxs-lookup"><span data-stu-id="1e275-133">Get started with team templates in the admin center</span></span>](get-started-with-teams-templates-in-the-admin-console.md)
-- [<span data-ttu-id="1e275-134">Créer un modèle à partir d’une équipe existante</span><span class="sxs-lookup"><span data-stu-id="1e275-134">Create a template from an existing team</span></span>](create-template-from-existing-team.md)
-- [<span data-ttu-id="1e275-135">Créer un modèle d’équipe</span><span class="sxs-lookup"><span data-stu-id="1e275-135">Create a team template</span></span>](create-a-team-template.md)
+- [<span data-ttu-id="da0e7-133">Commencer à utiliser les modèles d’équipe dans le centre d’administration</span><span class="sxs-lookup"><span data-stu-id="da0e7-133">Get started with team templates in the admin center</span></span>](get-started-with-teams-templates-in-the-admin-console.md)
+- [<span data-ttu-id="da0e7-134">Créer un modèle à partir d’une équipe existante</span><span class="sxs-lookup"><span data-stu-id="da0e7-134">Create a template from an existing team</span></span>](create-template-from-existing-team.md)
+- [<span data-ttu-id="da0e7-135">Créer un modèle d’équipe</span><span class="sxs-lookup"><span data-stu-id="da0e7-135">Create a team template</span></span>](create-a-team-template.md)
