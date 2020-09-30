@@ -281,7 +281,7 @@
 
 # Voix : système téléphonique et connectivité PSTN 
 
-## [Planifier votre déploiement](cloud-voice-landing-page.md)
+## [Planifier votre solution vocale Teams](cloud-voice-landing-page.md)
 
 ## Système téléphonique
 ### [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
