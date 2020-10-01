@@ -18,19 +18,19 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203917"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308317"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
 Lorsque vous planifiez des événements en direct Teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez tenir compte de plusieurs facteurs avant de commencer à les configurer.
 
  > [!Note]
-> Pour plus d’informations sur les événements en direct Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Pour plus d’informations sur les événements en direct Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Pour en savoir plus sur les exigences en matière de bande passante pour les événements en direct Teams [préparer votre organisation](../prepare-network.md) . 
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Qui peut rejoindre, créer et planifier des événements en direct ?
 
@@ -100,11 +100,15 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
-> 
-> Dans le but de permettre aux clients de répondre à l’évolution rapide des besoins de communication, la limite par défaut des évènements en direct Microsoft 365, hébergés dans Teams, sera temporairement relevée jusqu’au 1er juillet 2020. Les relèvements ci-après sont en cours de déploiement à fin avril 2020 :
-> - Nombre limite de participants : les événements prendre en charge jusqu’à 20 000 participants.
-> - Événements simultanés : 50 événements à la fois peuvent être hébergés chez un client
-> - Longueur d’événement : la durée d’événement passe à 16 heures par diffusion
+>
+> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
+>
+>- Jusqu’à 20 000 participants par événement
+>- Jusqu’à 50 événements simultanés par client Teams
+>- Jusqu’à 16 heures par diffusion
+>
+> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](../teams-add-on-licensing/advanced-communications.md).**
+
 
 |**Fonctionnalité**   |**Diffusion de réunion Skype** |**Événements générés dans Teams** |**Événements générés dans une application ou un appareil externe** |
 |---------|---------|---------|---------|

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203727"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308197"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -111,7 +111,16 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 ## <a name="meetings-and-calls"></a>Réunions et appels
 
 > [!IMPORTANT]
-> Au mois d’avril, [nous avons annoncé](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que les augmentations de la limite temporaire par défaut seraient activées jusqu’au 1er juillet pour les événements en direct de Microsoft 365 afin de mieux servir les clients. Pour continuer à répondre aux besoins des clients, nous étendons les limites temporaires par défaut jusqu’au 1er octobre 2020. Les événements en direct hébergés dans Teams, Stream et Yammer continueront à prendre en charge de façon temporaire les événements comptant jusqu’à 20 000 participants, d’une durée de 16 heures et 50 événements se produisant simultanément. En outre, les clients peuvent héberger dans Stream un événement en direct comptant jusqu’à 100 000 participants s’il est planifié via [le programme d’assistance des événements en direct Microsoft](https://resources.techcommunity.microsoft.com/live-events/assistance/).
+> **Augmentation de la limite d’événements en direct Microsoft 365**
+>
+> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
+>
+>- Jusqu’à 20 000 participants par événement
+>- Jusqu’à 50 événements simultanés par client Teams
+>- Jusqu’à 16 heures par diffusion
+>
+> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](teams-add-on-licensing/advanced-communications.md).**
+
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
@@ -151,11 +160,13 @@ Pour plus d’informations sur les événements en direct et pour voir une compa
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> Dans le but de permettre aux clients de répondre à l’évolution rapide des besoins de communication, la limite par défaut des évènements en direct Microsoft 365, hébergés dans Teams, sera temporairement relevée jusqu’au 1er octobre 2020. Les relèvements ci-après sont en cours de déploiement :
+> Pour aider les clients à répondre rapidement aux besoins en matière de communication, nous verrons temporairement les limites par défaut jusqu’au 1er janvier 2021 pour les événements en direct hébergés dans Teams, Stream et Yammer.
 >
 > - Nombre limite de participants : les événements prendre en charge jusqu’à 20 000 participants.
 > - Événements simultanés : 50 événements à la fois peuvent être hébergés chez un client
 > - Longueur d’événement : la durée d’événement passe à 16 heures par diffusion
+>
+> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](teams-add-on-licensing/advanced-communications.md).**
 
 ## <a name="presence-in-outlook"></a>Présence dans Outlook
 
