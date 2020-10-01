@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b910a93435cedfc1dcc83c34b766d9121f93eea
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955951"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328193"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Outils pour la mise à niveau vers teams &mdash; pour les administrateurs informatiques
 
@@ -45,11 +45,11 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
 
 ## <a name="tools-for-managing-the-upgrade"></a>Outils de gestion de la mise à niveau
 
-Quelle que soit la méthode de mise à niveau choisie, vous gérez la transition vers TeamsOnly à l’aide de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), qui contrôle le mode de coexistence d’un utilisateur. Pour plus d’informations sur chacun des modes, voir [modes de coexistence](migration-interop-guidance-for-teams-with-skype.md).
+Quelle que soit la méthode de mise à niveau de votre choix, pour les utilisateurs qui disposent déjà de Skype entreprise Online, vous gérez le passage à TeamsOnly à l’aide de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), qui contrôle le mode de coexistence d’un utilisateur. Pour les utilisateurs disposant d’un compte local dans Skype entreprise Server, vous pouvez également `Move-CsUser` [les déplacer vers le Cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Pour plus d’informations sur chacun des modes, voir [modes de coexistence](migration-interop-guidance-for-teams-with-skype.md).  
 
-Que vous effectuiez une transition sélection de fonctionnalités à l’aide du mode Skype entreprise ou que vous soyez simplement dans le mode TeamsOnly à partir de la configuration des îles par défaut, TeamsUpgradePolicy est l’outil principal. À l’instar des autres stratégies dans Teams, vous pouvez attribuer TeamsUpgradePolicy directement à un utilisateur. Vous pouvez également définir la stratégie en tant que niveau de client par défaut. Tout devoir d’un utilisateur est prioritaire sur le paramètre par défaut du client.  Vous pouvez gérer la stratégie dans la console d’administration des équipes et dans PowerShell.
+Que vous effectuiez une transition sélection de fonctionnalités à l’aide du mode Skype entreprise ou que vous soyez simplement dans le mode TeamsOnly à partir de la configuration des îles par défaut, TeamsUpgradePolicy est l’outil principal pour les utilisateurs qui disposent déjà de Skype entreprise online. À l’instar des autres stratégies dans Teams, vous pouvez attribuer TeamsUpgradePolicy directement à un utilisateur. Vous pouvez également définir la stratégie en tant que niveau de client par défaut. Tout devoir d’un utilisateur est prioritaire sur le paramètre par défaut du client.  Vous pouvez gérer la stratégie dans la console d’administration des équipes et dans PowerShell.
 
-Vous pouvez attribuer n’importe quel mode de TeamsUpgradePolicy aux utilisateurs, que l’utilisateur soit hébergé dans Skype entreprise Online ou en local, **sauf que le mode TeamsOnly ne peut être attribué qu’à un utilisateur déjà associé dans Skype entreprise Online**. En effet, les fonctionnalités d’interopérabilité avec les utilisateurs et la Fédération Skype entreprise, ainsi que les fonctionnalités du système téléphonique Microsoft 365 ne sont possibles que si l’utilisateur est hébergé dans Skype entreprise online.
+Vous pouvez également affecter n’importe quel mode de TeamsUpgradePolicy, à l’exception du mode TeamsOnly, aux utilisateurs hébergés dans Skype entreprise local. **Le mode TeamsOnly ne peut être attribué qu’à un utilisateur déjà associé dans Skype entreprise Online**. En effet, les fonctionnalités d’interopérabilité avec les utilisateurs et la Fédération Skype entreprise, ainsi que les fonctionnalités du système téléphonique Microsoft 365 ne sont possibles que si l’utilisateur est hébergé dans Skype entreprise online. Par ailleurs, **vous ne pouvez pas affecter le mode TeamsOnly en tant que client par défaut si vous disposez d’un déploiement local de Skype entreprise** (qui est détecté par la présence d’un enregistrement DNS lyncdiscover qui pointe vers un emplacement autre qu’Office 365.
 
 Les utilisateurs disposant d’un compte Skype entreprise sur site hébergé sur site [doivent être déplacés en ligne](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (à partir de Skype entreprise Online ou directement à Teams) à l’aide de Move-Csuser dans l’ensemble d’outils Skype entreprise local. Ces utilisateurs peuvent être déplacés vers TeamsOnly en 1 ou 2 étapes :
 
@@ -83,7 +83,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->Si vos utilisateurs disposent d’un compte Skype entreprise local, vous ne devez pas affecter le mode TeamsOnly au niveau du client, sauf si vous affectez explicitement un autre mode à tous les utilisateurs disposant de comptes Skype entreprise locaux.
+>Si vous avez des utilisateurs avec des comptes Skype entreprise en local, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez déplacer ces utilisateurs individuellement vers le Cloud à l’aide de Move-CsUser.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Utilisation des notifications dans les clients Skype entreprise

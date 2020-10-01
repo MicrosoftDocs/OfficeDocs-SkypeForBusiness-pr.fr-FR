@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: db0c7b0d151a12852adffafeda9d84475b82e055
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584083"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320789"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -39,8 +39,6 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 - Prise en charge de la capture d’interactions entre les utilisateurs de teams et les points de terminaison d’appel pris en charge (Teams, équipes mobiles, Skype entreprise, RTC)
 
 - Nouvelles politiques d’administration pour l’enregistrement de la conformité, y compris l’intégration aux équipes existantes d’appels administratifs et aux politiques et aux outils de réunion
-
-- Nécessite une [licence de communications avancée](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 Les fonctionnalités d’intégration de la solution enregistrement de la conformité ont également été examinées lors de l’enflamme 2019 de la [<span class="underline">session enregistrement de la conformité et Microsoft teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -133,7 +131,7 @@ La configuration requise pour Azure et Windows VM s’applique uniquement au com
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Attribution de stratégie d’enregistrement de la conformité et approvisionnement
 
-Les administrateurs informatiques peuvent déterminer quels utilisateurs seront enregistrés et quel enregistreur sera utilisé pour chaque utilisateur, en créant et en assignant des stratégies d’enregistrement de la conformité. Les enregistreurs sont automatiquement invités à participer à des conversations en fonction de la configuration de celles-ci lorsqu’une interaction de communication a lieu. Les stratégies d’enregistrement de la conformité sont gérées à l’aide de [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) et peuvent être appliquées au niveau du client, de la sécurité et du groupe de sécurité pour chaque organisation. Vous trouverez des informations supplémentaires sur les stratégies de [<span class="underline">réunion</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), les stratégies d' [<span class="underline">appel</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) et les stratégies de [<span class="underline">groupe</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)dans Microsoft documents.
+Les administrateurs informatiques peuvent déterminer quels utilisateurs seront enregistrés et quel enregistreur sera utilisé pour chaque utilisateur, en créant et en assignant des stratégies d’enregistrement de la conformité. Les enregistreurs sont automatiquement invités à participer à des conversations en fonction de la configuration de celles-ci lorsqu’une interaction de communication a lieu. Les stratégies d’enregistrement de la conformité sont gérées à l’aide de [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) et peuvent être appliquées au niveau du client, de la sécurité et du groupe de sécurité pour chaque organisation. Vous trouverez des informations supplémentaires sur les stratégies de [<span class="underline">réunion</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), les stratégies d' [<span class="underline">appel</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) et les stratégies de  [<span class="underline">groupe</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)dans Microsoft documents.
 
 1. Créez une instance d’application dans votre client.
 
@@ -224,4 +222,4 @@ Cette liste sera mise à jour sous la forme d’autres partenaires et répondez 
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Si vous êtes un fournisseur qui cherche à rejoindre le programme de certification, envoyez-le à <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.
+Si vous êtes un fournisseur qui cherche à rejoindre le programme de certification, envoyez-le à  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.

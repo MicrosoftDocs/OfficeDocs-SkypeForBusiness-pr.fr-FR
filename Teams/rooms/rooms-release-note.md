@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761320"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328223"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -29,6 +29,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -66,6 +67,13 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
+
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
+
+Présenté dans cette mise à jour :
+- Regardez plus de vidéos avec la Galerie de vidéos 3 x 3 au premier plan  
+- Démarrer des sous-titres en direct en temps réel à partir de MTR 
+- Rejoindre des réunions à l’aide de la fonction d’ajout d’invité directe (Preview)
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

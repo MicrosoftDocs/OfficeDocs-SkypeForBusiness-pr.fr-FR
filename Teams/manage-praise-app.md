@@ -8,18 +8,21 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: En savoir plus sur les paramètres d’administration dans l’application compliment dans le centre d’administration Microsoft teams
-ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324028"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328203"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application compliment dans le centre d’administration Microsoft teams
 
 Dans Microsoft Teams, l’application compliments permet aux utilisateurs d’afficher une reconnaissance aux membres de leur organisation ou Classroom. Avec une sélection de jeux de badges à partir desquels vous pouvez créer vos propres badges, compliment est conçu pour vous aider à reconnaître les efforts qui s’appliquent à la vaste gamme de tâches que les utilisateurs d’équipes effectuent, des enseignants aux travailleurs de première ligne.
 
 Les administrateurs peuvent contrôler les badges disponibles pour leur organisation à partir du centre d’administration Teams. Dans le volet de navigation de gauche, sélectionnez **applications teams > gérer les applications**. Ouvrez compliment dans le [catalogue d’applications du client](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)et accédez à **paramètres**.
+
+> [!Note]
+> Cette fonctionnalité n’est pas disponible pour les nuages de gouvernement des États-Unis.
 
 ## <a name="use-built-in-badge-sets"></a>Utiliser les jeux de badges intégrés
 

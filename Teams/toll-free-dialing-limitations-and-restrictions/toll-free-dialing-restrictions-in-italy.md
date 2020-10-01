@@ -1,5 +1,5 @@
 ---
-title: Restrictions de numérotation gratuit au Portugal
+title: Restrictions de numérotation sans frais en Italie
 ms.author: v-lanac
 author: LanaChin
 manager: serdars
@@ -21,15 +21,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 11b3664f0b25967143dc029e65a11f80117595b8
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation indiquent les codes d’accès requis au sein de chaque pays ou région pour composer le numéro gratuit.
+ms.openlocfilehash: b55de2a46ea1eb64f277d56de0fb18d7073c7aa3
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322263"
+ms.locfileid: "48322273"
 ---
-# <a name="toll-free-dialing-restrictions-in-portugal"></a>Restrictions de numérotation gratuit au Portugal
+# <a name="toll-free-dialing-restrictions-in-italy"></a>Restrictions de numérotation sans frais en Italie
 
 [Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
 
@@ -37,19 +37,16 @@ ms.locfileid: "48322263"
 |**Details**|**Description**|
 |:-----|:-----|
 |Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
-|Code ISO pays/région  <br/> |PT  <br/> |
-|Île/territoire couvert  <br/> | Açores, Madère <br/> |
-|Île/territoire non couvert  <br/> |Non applicable  <br/> |
+|Format (s) de numérotation  <br/> | 800 <br>803 <br>|
+|Code ISO pays/région  <br/> |NE  <br/> |
+|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Île/territoire non couvert  <br/> | Non applicable  <br/>  |
 |Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
-|Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
+|Disponibilité de réseau mobile  <br/> | Oui (il est possible que certains nombres soient payants) <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
-   
+
 ## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers)
-
-  
- 

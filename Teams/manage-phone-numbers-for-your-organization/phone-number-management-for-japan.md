@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
-ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824925"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322253"
 ---
 # <a name="phone-number-management-for-japan"></a>Gestion des numéros de téléphone pour le Japon
 
@@ -43,7 +43,8 @@ Pour plus d’informations, reportez-vous à  [la rubrique gérer les numéros d
 |Obtenez des numéros de téléphone transférés vers Microsoft 365 ou Office 365 pour **les utilisateurs** au Japon.|Veuillez contacter [Softbank](https://aka.ms/SoftBankVoicePlan) pour transférer les numéros de téléphone de l’utilisateur. Ils ajouteront alors ces numéros à votre organisation.  <br/> |
 |Obtenez des numéros de téléphone transférés vers Microsoft 365 ou Office 365 pour les **files d’attente** au Japon.|Veuillez contacter [Softbank](https://aka.ms/SoftBankVoicePlan) pour transférer des numéros de téléphone de service. Ils ajouteront alors ces numéros à votre organisation.|
 |Changer l’adresse d’urgence affectée aux utilisateurs qui ont un numéro de téléphone de plan d’appel.|Veuillez contacter [Softbank](https://aka.ms/SoftBankVoicePlan) pour effectuer des changements d’adresse de secours. Ils peuvent mettre à jour ces informations pour vous.|
-|Remplacez un numéro d’utilisateur par un numéro de service. |Pas actuellement pris en charge lors de l’utilisation des appels SoftBank.
+|Remplacez un numéro d’utilisateur par un numéro de service. |Pas actuellement pris en charge lors de l’utilisation des appels SoftBank.|
+|Effectuer des mises à jour du service d’annuaire pour appeler des numéros de file d’attente ou de standard automatique|Pour ajouter ou modifier des numéros de files d’attente d’appels ou de standards automatiques, contactez [le service d’assistance PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

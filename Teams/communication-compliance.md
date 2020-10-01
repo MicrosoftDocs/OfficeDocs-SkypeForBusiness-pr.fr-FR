@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597135"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328253"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité de la communication avec Microsoft teams
 
@@ -32,9 +32,6 @@ Dans Microsoft Teams, la conformité de la communication permet d’identifier l
 - Langage injurieux, profanes et harceler
 - Images adultes, racy et Gory
 - Partage d’informations sensibles
-
->[!IMPORTANT]
->Les canaux Microsoft teams privés ne sont pas pris en charge par la conformité aux communications. Les communications de conversation envoyées par les utilisateurs invités aux utilisateurs Teams ne sont pas surveillées sur du contenu inapproprié.
 
 Pour plus d’informations sur la conformité de la communication et la configuration des stratégies pour votre organisation, voir [conformité de la communication dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Canada pour Microsoft Teams.
-ms.openlocfilehash: 1ebeb077f17c47ed91509538ab5a66d1a2c19620
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 86be01615c63a41d1a9cfa0055dc2539c14689b1
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905836"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324229"
 ---
 # <a name="phone-number-management-for-canada"></a>Gestion des numéros de téléphone pour le Canada
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 | **Que voulez-vous faire ?** | **Suivez la procédure suivante et téléchargez les formulaires corrects** |
 |:---   |:---    |
-| Obtenez de nouveaux numéros de téléphone d’utilisateur qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.  <br/>   | Téléchargez un des formulaires suivants : <br/> [Demande de nouveaux numéros de téléphone pour le Canada (numéros d'utilisateur et de service) (v.1.0) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf?raw=true) <br/>[Demande de nouveaux numéros de téléphone pour le Canada (numéros d'utilisateur et de service) (v.1.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true)  <br/> <br>Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/>        
-| Obtenez de nouveaux numéros de téléphone de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams. <br/> | Pour les numéros de service situés hors des États-Unis, [Téléchargez ce formulaire](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)et remplissez-le et [envoyez-](mailto:ptneu@microsoft.com)le. |
+| Obtenez de nouveaux numéros d’utilisateur et de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.  <br/>   | Téléchargez un des formulaires suivants : <br/> [Nouvelle demande de numéro de téléphone pour le Canada (v. 5.0) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(en-ca).pdf?raw=true) <br/>[Nouvelle demande de numéro de téléphone pour le Canada (v. 5.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(fr-ca).pdf?raw=true)  <br/> <br>Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).      |
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation (LOA) pour le Canada (numéros d’utilisateur et de service) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/> [Courrier d'autorisation (LOA) pour le Canada (numéros d'utilisateur et de service) (v.1.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true) <br/> [Lettre d’autorisation (LOA) pour le Canada (numéros gratuits) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/>[Courrier d'autorisation (LOA) pour le Canada (numéros gratuits) (v.1.1) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf?raw=true)<br/> <br>**Remarque :** Si vous essayez d’obtenir plus de 999 abonné ou numéro de téléphone utilisateur, vous devez renseigner une lettre d’autorisation (LOA) et nous l’envoyer. Pour plus d’informations, consultez la rubrique [transfert de numéros de téléphone dans teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) . <br/> <br>Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/>                                 | [Envoyez-nous](mailto:ptn@microsoft.com) votre code confidentiel et la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. Pour configurer un code confidentiel, cliquez [ici](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Transférez les numéros d’un compte Microsoft 365 ou Office 365 vers un autre.  <br/>               | [Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, cliquez [ici](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
+|Effectuer des mises à jour du service d’annuaire pour appeler des numéros de file d’attente ou de standard automatique|Pour ajouter ou modifier des numéros de files d’attente d’appels ou de standards automatiques, contactez [le service d’assistance PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955911"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328213"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>Considérations en matière de mise à niveau pour les organisations avec Skype entreprise Server en local &mdash; pour les administrateurs informatiques
 
@@ -52,7 +52,7 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
 
 - Les utilisateurs teams disposant d’un compte Skype entreprise local (autrement dit, ils n’ont pas encore été déplacés vers le Cloud à l’aide de Move-CsUser) ne peuvent pas interagir avec des utilisateurs de Skype entreprise, et ne peuvent pas être fédérer avec des utilisateurs externes. Cette fonctionnalité n’est disponible que lorsque les utilisateurs sont déplacés vers le Cloud (en mode îlot ou en tant qu’utilisateurs TeamsOnly). 
 
-- Si vos utilisateurs disposent d’un compte Skype entreprise local, vous ne devez pas affecter le mode TeamsOnly au niveau du client, sauf si vous affectez explicitement un autre mode à tous les utilisateurs disposant de comptes Skype entreprise locaux. 
+- Si vous avez des utilisateurs avec des comptes Skype entreprise en local, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez tout d’abord déplacer tous les utilisateurs disposant d’un compte Skype entreprise local dans le Cloud à l’aide de `Move-CsUser` , puis [désactiver l’environnement hybride pour terminer la migration vers le Cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid).  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` ne fonctionnera pas au niveau du client si un enregistrement DNS lyncdiscover est détecté et pointe vers un emplacement autre qu’Office 365.
 
 - Vous devez vous assurer que vos utilisateurs sont correctement synchronisés avec Azure AD avec les attributs Skype entreprise appropriés. Ces attributs sont des préfixes avec « msRTCSIP- ». Si les utilisateurs ne sont pas synchronisés correctement avec Azure AD, les outils de gestion dans Teams ne seront pas en mesure de gérer ces utilisateurs. Par exemple, vous ne serez pas en mesure d’affecter des stratégies d’équipe aux utilisateurs locaux, sauf si vous synchronisez correctement ces attributs. Pour plus d’informations, reportez-vous à la rubrique [configuration d’Azure ad Connect pour les équipes et Skype entreprise](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
@@ -64,12 +64,6 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
 
 >[!NOTE]
 > Tout nouveau client créé après le 3 septembre 2019 est créé en tant que client TeamsOnly, sauf si l’organisation a déjà un déploiement local de Skype entreprise Server. Microsoft utilise des enregistrements DNS pour identifier les organisations serveur Skype entreprise locales. Si votre organisation possède un serveur Skype entreprise local sans aucune entrée DNS publique, vous devrez appeler le support Microsoft pour que votre nouveau client soit mis à niveau. 
-
-
-
-
-
-
 
 
 

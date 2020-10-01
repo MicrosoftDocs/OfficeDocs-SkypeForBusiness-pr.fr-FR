@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment obtenir et gérer les numéros de téléphone des utilisateurs (abonnés) et des services de Microsoft teams pour votre organisation.
-ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905846"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320819"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
@@ -42,7 +42,7 @@ Il existe quatre méthodes pour obtenir les numéros de téléphone des utilisat
 - Utilisez un formulaire de demande pour les nouveaux numéros de téléphone qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.
 
 > [!IMPORTANT]
-> En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, vous ne pouvez pas obtenir de nouveaux numéros de téléphone à l’aide du centre d’administration Microsoft Teams. Vous devez télécharger et remplir un formulaire. Pour les nouveaux numéros de téléphone de l’Australie, voir : [**services vocaux Telstra**](https://aka.ms/TelstraVoicePlan).
+> Pour les nouveaux numéros de téléphone en Australie, voir [Services de téléphonie Telstra](https://aka.ms/TelstraVoicePlan). Pour les nouveaux numéros de téléphone au Japon, voir [services vocaux Softbank](https://aka.ms/SoftBankVoicePlan).
 
 ***
 Si vous connaissez le type de formulaire que vous recherchez, utilisez la liste déroulante pour sélectionner le pays ou la région où vous souhaitez obtenir des numéros.
@@ -50,16 +50,22 @@ Si vous connaissez le type de formulaire que vous recherchez, utilisez la liste 
 **Sélectionnez votre pays ou votre région pour rechercher les formulaires LOA PDF à télécharger dont vous aurez besoin.**
 > [!div class="op_single_selector"]
 > - [Australie](phone-number-management-for-australia.md)
+> - [Autriche](phone-number-management-for-austria.md)
 > - [Belgique](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Danemark](phone-number-management-for-denmark.md)
 > - [France](phone-number-management-for-france.md)
 > - [Allemagne](phone-number-management-for-germany.md)
 > - [Irlande](phone-number-management-for-ireland.md)
+> - [Italie](phone-number-management-for-italy.md)
 > - [Japon](phone-number-management-for-japan.md)
 > - [Pays-Bas](phone-number-management-for-the-netherlands.md)
+> - [Portugal](phone-number-management-for-portugal.md)
 > - [Espagne](phone-number-management-for-spain.md)
+> - [Suède](phone-number-management-for-sweden.md)
+> - [Suisse](phone-number-management-for-switzerland.md)
 > - [Royaume-Uni](phone-number-management-for-the-u-k.md)
-> - [U.S. & Porto Rico](phone-number-management-for-the-u-s.md)
+> - [États-Unis & Porto Rico](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Voici un peu plus d’informations sur les formulaires de demande de numéro

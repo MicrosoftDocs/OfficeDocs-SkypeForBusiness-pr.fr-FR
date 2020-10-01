@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
-ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: ba3389abd0555db7ff269ec969e216bd40d22bdf
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231163"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321887"
 ---
 # <a name="availability-in-germany"></a>Disponibilité en Allemagne
 
@@ -60,7 +60,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1200 minutes d’appel national ou 600 minutes d’appels internationaux (selon la première atteinte dans le mois de calendrier)</li></li> 
+|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1200 minutes d’appel national ou 600 minutes d’appels internationaux (selon la première atteinte dans le mois de calendrier)</li></li>|
 |Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
