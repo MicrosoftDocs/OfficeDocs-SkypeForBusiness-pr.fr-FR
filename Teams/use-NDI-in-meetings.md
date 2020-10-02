@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308167"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337013"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Utiliser la technologie de® NDI dans Microsoft teams
 
@@ -50,7 +49,7 @@ Lorsqu’un utilisateur rejoint une réunion, un message s’affiche indiquant q
 
 L’image ci-après illustre le message d’une bannière qu’un utilisateur voit dans une réunion Teams.
 
-![Image de la bannière de technologie NDI® qui s’affiche dans une réunion Teams.](media/NDI-disclosure.png)
+![Il NDI® bannière de technologie qui s’affiche dans une réunion Teams.](media/NDI-disclosure.png)
 
 La bannière comporte un lien vers la [politique de confidentialité Microsoft](https://aka.ms/teamsprivacy).
 
@@ -60,7 +59,7 @@ NDI® technologie est prise en charge dans tous les pays/régions. Les utilisate
 
 - In-client-support complet, fourni en fonction de sonnerie/IDClient/Id_utilisateur (géré par la stratégie de réunion)
 - Federated – aucun flux d’accès (même si la technologie® est activée)<sup>1</sup>
-- Freemium-pas d’accès aux flux
+- Premium : pas d’accès aux flux
 - Anonyme-accès sans flux
 - Invité – aucun flux d’accès  
 

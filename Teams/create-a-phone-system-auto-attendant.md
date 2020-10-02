@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220187"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337578"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -175,7 +175,7 @@ Lorsque vous avez ajouté tous vos jours fériés, cliquez sur **suivant**.
 
 L' *étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire quand un appelant utilise la numérotation par nom ou par numéro de poste par extension. La valeur par défaut de **tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne disposant d’une licence de système téléphonique ou hébergés en local à l’aide de Skype entreprise Server.
 
-Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **groupe d’utilisateurs personnalisé** sous **inclure** ou **exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les dirigeants de votre organisation du répertoire de numérotation.
+Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **groupe d’utilisateurs personnalisé** sous **inclure** ou **exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les dirigeants de votre organisation du répertoire de numérotation. (Si l’utilisateur figure dans les deux listes, il est exclu de l’annuaire.)
 
 > [!NOTE]
 > Le nom d’un nouvel utilisateur peut nécessiter un maximum de 36 heures.

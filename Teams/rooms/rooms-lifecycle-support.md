@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Apprenez-en davantage sur la prise en charge du cycle de vie des salles de Microsoft Teams, y compris la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201188"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336982"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Prise en charge de la version de l’application Microsoft teams
  
@@ -44,7 +44,7 @@ Dans les options de maintenance du canal semi-annuel de Microsoft Teams, il est 
 - Internet sur Windows 10 d’objets (IoT) Enterprise LTSB/LTSC éditions
 - toute autre version de Windows, telle que Windows 10 professionnel ou édition familiale
 
-Une mise à jour de fonctionnalité de Windows 10 n’est pas disponible ou mise à jour sur les appareils Microsoft teams Un délai intentionnel de six mois après la date de disponibilité générale publiée sur la page [informations de publication de Windows 10](https://docs.microsoft.com/windows/release-information/) . Le délai est utilisé pour valider la compatibilité de la version de Windows 10 pour l’application Microsoft Teams, le matériel et les périphériques audio certifiés. La validation commence et continue pendant le développement actif de chaque version majeure de Windows 10. Un temps supplémentaire est nécessaire pour vérifier que tous les fabricants d’appareils ont créé des images mises à jour pour leurs appareils, et pour que Microsoft teams certifie et teste ces images. Pendant la période de validation, l’application Microsoft teams salle utilise [Windows Update pour les stratégies de groupe pour les entreprises](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) afin de différer les mises à jour de fonctionnalité de Windows 10. Suite à la détection et à la résolution des problèmes de compatibilité, le blocage est levé via la mise à jour des stratégies de groupe par le biais d’une nouvelle version de l’application dans le Windows Store. Les appareils qui exécutent l’application Microsoft teams se mettent automatiquement à jour vers une version de Windows 10 appropriée lors du redémarrage de la maintenance nocturne. Une version MSI est mise à la disposition des clients qui souhaitent gérer manuellement les mises à jour.  
+Une mise à jour de fonctionnalité de Windows 10 n’est pas disponible ou mise à jour sur les appareils Microsoft teams Un délai intentionnel de six mois après la date de disponibilité générale publiée sur la page [informations de publication de Windows 10](https://docs.microsoft.com/windows/release-information/) . Le délai est utilisé pour valider la compatibilité de la version de Windows 10 pour l’application Microsoft Teams, le matériel et les périphériques audio certifiés. La validation commence et continue pendant le développement actif de chaque version majeure de Windows 10. Un temps supplémentaire est nécessaire pour vérifier que tous les fabricants d’appareils ont créé des images mises à jour pour leurs appareils, et pour que Microsoft teams certifie et teste ces images. Pendant la période de validation, l’application Microsoft teams salle utilise  [Windows Update pour les stratégies de groupe pour les entreprises](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) afin de différer les mises à jour de fonctionnalité de Windows 10. Suite à la détection et à la résolution des problèmes de compatibilité, le blocage est levé via la mise à jour des stratégies de groupe par le biais d’une nouvelle version de l’application dans le Windows Store. Les appareils qui exécutent l’application Microsoft teams se mettent automatiquement à jour vers une version de Windows 10 appropriée lors du redémarrage de la maintenance nocturne. Une version MSI est mise à la disposition des clients qui souhaitent gérer manuellement les mises à jour.  
 
 > [!IMPORTANT]
 > Pendant la période de validation, il est préférable de **ne pas** mettre à jour la version de Microsoft teams pour les périphériques de la version ultérieure de Windows 10. Cela inclut le remplacement des stratégies de groupe en place, l’utilisation de System Center ou d’autres services de gestion des appareils tiers. Ces problèmes peuvent entraîner des problèmes pour l’application Microsoft teams salle ou laisser des appareils inutilisables.  
@@ -56,8 +56,8 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 | 2004 |2020-05-27 |Sous validation, <br/>Déconseillé|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Pris en charge <br/>Recommandation |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Pris en charge  |4.2.4.0 |18362,356 |
-| 1809 |2019-03-28 |Ignoré <br/>Déconseillé &#x2780;|&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |Pris en charge                             |4.1.22.0 |17134,191|
+| 1809 |2019-03-28 |Non pris en charge, <br/>Problèmes de compatibilité connus &#x2780;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |Non pris en charge                             |&#x2014;  |&#x2014; |
 | 1709 |2018-01-18 |Non pris en charge                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Non pris en charge                         |&#x2014; |&#x2014; |
 
@@ -67,7 +67,7 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 
 Lorsque vous utilisez une version prise en charge de Windows 10, vous obtiendrez toujours les dernières mises à jour de l’application pour l’application Microsoft teams salles.  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

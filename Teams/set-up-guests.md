@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761150"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333244"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
 
-Par défaut, l’accès invité est désactivé. En tant qu’administrateur Microsoft 365 ou Office 365, vous devez activer l’accès invité pour les équipes pour que l’administrateur ou les propriétaires d’équipes puissent ajouter des invités. Pour activer l’accès invité, [collaborez avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
+Par défaut, l’accès invité est désactivé. En tant qu’administrateur Microsoft 365 ou Office 365, vous devez activer l’accès invité pour les équipes pour que l’administrateur ou les propriétaires d’équipes puissent ajouter des invités.
 
 Après avoir activé l’accès invité, il est possible que les modifications soient prises en compte. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, il est probable que l’accès invité n’ait pas été activé ou que les paramètres ne soient pas encore effectifs.
 
 > [!IMPORTANT]
-> L’activation de l’accès invité dépend des paramètres d’Azure Active Directory, de Microsoft 365 ou d’Office 365, SharePoint Online et Teams. Pour plus d’informations, voir [autoriser l’accès invité dans Microsoft teams](Teams-dependencies.md).
-
-
+> L’activation de l’accès invité dépend des paramètres dans Azure Active Directory, Microsoft 365, SharePoint et Teams. Pour plus d’informations, reportez-vous à [la rubrique collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration teams
 
@@ -68,10 +65,12 @@ Après avoir activé l’accès invité, il est possible que les modifications s
 
 5. Cliquez sur **Enregistrer**.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Utiliser PowerShell pour activer ou désactiver l’accès invité
-
-Lisez [Utiliser PowerShell pour activer ou désactiver l’accès invité](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off).
-
 ## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>Voir aussi
+
+[Bloquer les utilisateurs invités d’une équipe en particulier](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

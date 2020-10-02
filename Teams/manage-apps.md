@@ -17,17 +17,17 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 23ff7cc90d30dc931b0677ce5ec5aa8db98981fb
-ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
+ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818183"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336950"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
 
-En tant qu’administrateur, la page gérer les applications dans le centre d’administration Microsoft teams vous permet d’afficher et de gérer toutes les applications d’équipe pour votre organisation. Dans cet exemple, vous pouvez voir l’état de niveau de l’organisation et les propriétés des applications, approuver ou télécharger de nouvelles applications personnalisées dans le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, acheter des services pour des applications tierces et gérer les paramètres de l’application à l’échelle de l’organisation.
+En tant qu’administrateur, la page gérer les applications dans le centre d’administration Microsoft teams vous permet d’afficher et de gérer toutes les applications d’équipe pour votre organisation. Dans cet exemple, vous pouvez voir l’état de niveau de l’organisation et les propriétés des applications, approuver ou télécharger de nouvelles applications personnalisées dans le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, ajouter des applications aux équipes (en préversion), acheter des services pour des applications tierces, afficher les autorisations demandées par les applications, accorder l'
 
 La page gérer les applications vous donne une vue d’ensemble des applications disponibles et vous fournit les informations dont vous avez besoin pour déterminer les applications à autoriser ou à bloquer au sein de votre organisation. Vous pouvez ensuite utiliser des [stratégies d’autorisation d’application](teams-app-permission-policies.md), des stratégies de [configuration d’application](teams-app-setup-policies.md)et des [stratégies et paramètres d’application personnalisés](teams-custom-app-policies-and-settings.md) pour configurer l’utilisation de l’application pour des utilisateurs spécifiques de votre organisation.
 
@@ -42,7 +42,7 @@ Vous pouvez afficher chaque application, y compris les informations suivantes su
 
 ![Capture d’écran de la page des applications gérées](media/manage-apps.png)
 
-- **Nom**: nom de l’application. Cliquez sur le nom de l’application pour afficher davantage d’informations sur celle-ci. Cela inclut une description de l’application, qu’elle soit autorisée ou bloquée, version, catégories qui s’appliquent à l’application, à l’état de la certification, aux fonctionnalités prises en charge et à l’ID de l’application. Voici un exemple :
+- **Nom**: nom de l’application. Cliquez sur le nom de l’application pour accéder à la page des détails de l’application et afficher des informations supplémentaires sur celle-ci. Il s’agit d’une description de l’application, qui est autorisée ou bloquée, version, politique de confidentialité, conditions d’utilisation, catégories qui s’appliquent à l’application, état de la certification, fonctionnalités prises en charge et ID d’application. Voici un exemple :
 
   ![Capture d’écran de la page de détails sur les applications pour une application](media/manage-apps-app-details.png)
   
@@ -63,6 +63,9 @@ Vous pouvez afficher chaque application, y compris les informations suivantes su
     - **Acheté**: l’application propose un abonnement SaaS et vous avez acheté des licences.
     - **--**: L’application n’a pas d’abonnement Saas.
 - **Application personnalisée**: si l’application est une application personnalisée.
+- **Autorisations**: indique si une application tierce ou personnalisée enregistrée dans Azure Active Directory (Azure AD) dispose d’autorisations qui nécessitent un consentement. Vous pouvez voir l’une des valeurs suivantes :
+    - **Afficher les détails**: l’application dispose d’autorisations qui nécessitent un consentement pour permettre à l’application d’accéder aux données. 
+    - **--**: L’application n’a pas les autorisations nécessaires.
 - **Catégories**: catégories qui s’appliquent à l’application.
 - **Version**: version de l’application.
 
@@ -102,11 +105,31 @@ Pour autoriser ou bloquer une application, sélectionnez-la, puis cliquez sur **
 Lorsque vous bloquez ou autorisez une application dans la page gérer les applications, cette application est bloquée ou autorisée pour tous les utilisateurs de votre organisation.  Lorsque vous bloquez ou autorisez une application dans une stratégie d’autorisation d’application Teams, elle est bloquée ou autorisée pour les utilisateurs qui ont attribué cette stratégie. Pour qu’un utilisateur puisse installer une application et interagir avec celle-ci, vous devez autoriser l’application au niveau de l’organisation sur la page gérer les applications et dans la stratégie d’autorisation d’application qui est affectée à l’utilisateur.
 
  > [!NOTE]
- > Pour désinstaller une application, cliquez avec le bouton droit sur l’application, puis cliquez sur **désinstaller** ou utilisez le menu **plus d’applications** sur le côté gauche.
+ > Pour désinstaller une application, cliquez avec le bouton droit sur l’application, puis cliquez sur **désinstaller** ou utiliser le menu **plus d’applications** sur le côté gauche.
+
+## <a name="add-an-app-to-a-team"></a>Ajouter une application à une équipe
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+Le bouton **Ajouter à l’équipe** vous permet d’installer une application dans une équipe. Gardez à l’esprit que seules les applications qui peuvent être installées dans le cadre d’une équipe peuvent être installées. Le bouton **Ajouter à l’équipe** n’est pas disponible pour les applications qui ne peuvent être installées qu’au sein de l’application personnelle.
+
+![Capture d’écran du bouton Ajouter aux équipes](media/manage-apps-add-app-team.png)
+
+1. Recherchez l’application souhaitée, puis sélectionnez l’application en cliquant à gauche du nom de l’application.
+2. Sélectionnez **Ajouter à l’équipe**.
+3. Dans le volet **Ajouter à l’équipe** , recherchez l’équipe à laquelle vous voulez ajouter l’application, sélectionnez-la, puis sélectionnez **appliquer**.
 
 ## <a name="purchase-services-for-third-party-apps"></a>Acheter des services pour des applications tierces
 
 Vous pouvez rechercher et acheter des licences de services proposées par des applications tierces pour les utilisateurs de votre organisation directement à partir de la page gérer les applications. La colonne **licences** du tableau indique si une application propose un abonnement Saas payant. Cliquez sur **acheter maintenant** pour afficher les offres et les informations de tarification et acheter des licences pour vos utilisateurs. Pour en savoir plus, voir [acheter des services pour les applications tierces dans le centre d’administration Microsoft teams](purchase-third-party-apps.md).
+
+## <a name="grant-admin-consent-to-apps"></a>Accorder l’autorisation d’administration aux applications
+
+Vous pouvez consulter et accorder une autorisation aux applications demandant des autorisations pour le compte de tous les utilisateurs de votre organisation. Vous procédez ainsi pour que les utilisateurs n’aient pas à passer en revue et à accepter les autorisations requises par l’application au démarrage de l’application. La colonne **autorisations** indique si une application dispose d’autorisations qui nécessitent une autorisation. Vous verrez un lien d' **affichage des détails** pour chaque application inscrite dans Azure ad et disposant d’autorisations nécessaires. Pour en savoir plus, voir [afficher les autorisations d’application et accorder une autorisation d’administrateur dans le centre d’administration Microsoft teams](app-permissions-admin-center.md).
+
+## <a name="view-resource-specific-consent-permissions"></a>Afficher les autorisations de consentement spécifiques aux ressources
+
+Les autorisations de consentement spécifiques aux ressources (RSC) permettent aux propriétaires d’équipe d’accorder l’autorisation d’accès et de modification des données d’une équipe à une application. Les autorisations RSC s’appliquent aux autorisations spécifiques aux équipes qui définissent ce qu’une application peut faire au sein d’une équipe spécifique. Vous pouvez afficher les autorisations RSC sous l’onglet **autorisations** de la page Détails de l’application pour une application. Pour en savoir plus, voir [afficher les autorisations d’application et accorder une autorisation d’administrateur dans le centre d’administration Microsoft teams](app-permissions-admin-center.md).
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres d’application à l’échelle de l’Organisation
 

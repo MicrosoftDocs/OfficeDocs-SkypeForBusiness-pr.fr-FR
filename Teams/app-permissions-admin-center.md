@@ -13,17 +13,14 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6aafd5cbdd1ae44844f69b78234f10a54abe7b85
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824905"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336841"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations d’application et accorder une autorisation d’administrateur dans le centre d’administration Microsoft teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 La page [gérer les applications](manage-apps.md) dans le centre d’administration Microsoft teams vous permet d’afficher et de gérer toutes les applications teams pour votre organisation. Par exemple, vous pouvez voir l’état de niveau de l’organisation et les propriétés des applications, approuver ou télécharger de nouvelles applications personnalisées dans le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, et gérer les paramètres de l’application à l’échelle de l’organisation.
 
