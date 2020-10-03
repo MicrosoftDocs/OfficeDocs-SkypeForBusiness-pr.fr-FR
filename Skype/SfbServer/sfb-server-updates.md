@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et Lync 2013 à un seul endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: a6b93c7b0428073e9a13808fae1515b2e1c0b344
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814313"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341028"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -32,6 +32,7 @@ KB 4470124 est la base de connaissances maître pour Skype entreprise Server 201
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour cumulative 4 de Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2020 |
 |Mise à jour cumulative 3 du logiciel Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
 |Mise à jour cumulative 3 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
 |Mise à jour cumulative 2 pour Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
@@ -244,7 +245,7 @@ Nom/lien du package|Date de publication|
 
 Visitez le site de téléchargement du [Kit de ressources Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger des chapitres de livres individuels ou télécharger un fichier. zip contenant [les 19 chapitres du kit de ressources](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
-### <a name="group-chat"></a>conversation de groupe
+### <a name="group-chat"></a>Group Chat
 
 Nom/lien du package|Date de publication|
 |:--- |:--- |

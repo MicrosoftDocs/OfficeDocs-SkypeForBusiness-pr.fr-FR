@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269638"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346335"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -126,3 +126,7 @@ Les fichiers d’enregistrements de réunion teams résident dans OneDrive entre
 **Comment lire l’enregistrement d’une réunion teams ?**
 
 Votre vidéo sera lue sur le lecteur vidéo de OneDrive entreprise ou SharePoint, selon l’endroit où vous accédez au fichier.
+
+**Si vous envisagez d’utiliser l’ajout au flux, les vidéos existantes resteront-elles aussi longtemps que possible.**
+
+Le flux en tant que plateforme ne sera pas déconseillé dans un avenir proche. Les vidéos actuellement actives dans le flux resteront là jusqu’à ce que la migration soit entamée. Lors de la migration, ces vidéos seront migrées vers ODSP également. Pour plus d’informations, consultez [ici](https://docs.microsoft.com/stream/streamnew/classic-migration) .

@@ -9,24 +9,25 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Découvrez comment activer ou désactiver la fonctionnalité d’accès invité dans Microsoft teams en tant qu’administrateur 365 Office.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+description: Découvrez comment activer ou désactiver la fonctionnalité d’accès invité dans Microsoft teams en tant qu’administrateur 365 Office.
+ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333244"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346325"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
 
-Par défaut, l’accès invité est désactivé. En tant qu’administrateur Microsoft 365 ou Office 365, vous devez activer l’accès invité pour les équipes pour que l’administrateur ou les propriétaires d’équipes puissent ajouter des invités.
+Par défaut, l’accès invité est désactivé. Vous devez activer l’accès invité pour les équipes pour que les administrateurs ou les propriétaires d’équipes puissent ajouter des invités.
 
 Après avoir activé l’accès invité, il est possible que les modifications soient prises en compte. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, il est probable que l’accès invité n’ait pas été activé ou que les paramètres ne soient pas encore effectifs.
 
@@ -35,7 +36,7 @@ Après avoir activé l’accès invité, il est possible que les modifications s
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration teams
 
-1. Se connecter au centre d’administration de Microsoft Teams.
+1. Connectez-vous au [Centre d’administration Microsoft teams](https://admin.teams.microsoft.com/).
 
 2. Sélectionnez **paramètres Org-wide** > **accès invité**.
 
@@ -63,6 +64,8 @@ Après avoir activé l’accès invité, il est possible que les modifications s
       - **Utiliser mèmes dans conversations** : activez ce paramètre pour autoriser les **invités à utiliser** mèmes dans les conversations.
       - **Utiliser des Autocollants dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Autocollants dans les conversations. 
 
+    ![Paramètres des autorisations invité dans teams](media/manage-guest-access-image1.png)
+
 5. Cliquez sur **Enregistrer**.
 
 ## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité
@@ -70,6 +73,8 @@ Après avoir activé l’accès invité, il est possible que les modifications s
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>Voir aussi
+
+[Configurer la collaboration sécurisée avec Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Bloquer les utilisateurs invités d’une équipe en particulier](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 

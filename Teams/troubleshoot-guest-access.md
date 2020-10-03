@@ -14,22 +14,21 @@ search.appverid: MET150
 description: Obtenir de l'aide pour résoudre et corriger les problèmes liés à l’accès invité dans Microsoft Teams.
 f1.keywords:
 - NOCSH
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 466728a50a5a610ee00665f3661b5c5701bcbad1
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656275"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346355"
 ---
-<a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résolution des problèmes liés à l’accès invité dans Microsoft Teams
-======================================================
+# <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résolution des problèmes liés à l’accès invité dans Microsoft Teams
 
 - Pour savoir si le problème persiste, consultez l' [équipe de support au sein de votre organisation](Known-issues.md).
 - Pour rechercher les problèmes de prise en charge actuels avec l’accès invité dans Teams, voir [Résolution des problèmes liés à Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
-- Les invités sont des utilisateurs extérieurs à votre organisation. Si une personne se trouve à l'intérieur de votre organisation (y compris vos employés et les fournisseurs et agents sur site), elle ne peut pas être ajoutée en tant qu'invité. La même chose s'applique pour les affiliés.
+- Les invités sont des personnes extérieures à votre organisation. Si une personne se trouve à l'intérieur de votre organisation (y compris vos employés et les fournisseurs et agents sur site), elle ne peut pas être ajoutée en tant qu'invité. La même chose s'applique pour les affiliés.
 - Vous trouverez des informations sur les fonctionnalités d'accès invité à venir, nouvelles ou mises à jour, dans la [Feuille de route de Teams](https://aka.ms/teamsroadmap).
 - Indiquez-nous ce que vous souhaitez dans [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
@@ -40,18 +39,17 @@ L’accès invité dans Teams utilise Azure Active Directory (Azure AD) Business
 > [!NOTE]
 > Pour pouvoir se connecter et utiliser les équipes en tant qu’invités sur un autre client (ressource), les équipes doivent être activées sur le client d’origine d’un invité.
 
-Si vous rencontrez des erreurs de gestion des licences, veillez à lire les [recommandations d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) pour la gestion des licences en fonction de vos besoins en matière d’accès invité au sein de votre organisation.
-
+Si vous rencontrez des erreurs de gestion des licences, veillez à lire le [modèle de facturation pour les identités externes d’Azure ad](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) afin de déterminer les besoins en matière de licences pour vous permettre d’accéder aux invités de votre organisation.
 
 - Les licences invité sont décomptées du nombre existant au sein de l’organisation qui invite. Tenez-en compte au moment de calculer le nombre de licences dont vous avez besoin.
-- Les licences sont comptabilisées au niveau de votre organisation, que les invités invités proviennent d’une autre organisation 365 ou d’une organisation Office 365 ou utilisent leurs adresses de messagerie personnelles.
+- Les licences sont comptabilisées au niveau de votre organisation, que les invités invités proviennent d’une autre organisation Microsoft 365 ou utilisent leurs adresses de messagerie personnelles.
 
 ## <a name="support-for-b2b-user-types"></a>Prise en charge des types d’utilisateur B2B
+
 Actuellement, Teams prend uniquement en charge les types d’États 1 et 2 des utilisateurs invités [définis par Azure B2B.](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Accès invité dans Teams](guest-access.md)
-
 
 [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
