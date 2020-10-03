@@ -3,8 +3,8 @@ title: Formation pour les administrateurs Microsoft Teams
 ms.reviewer: ''
 description: Ces ressources de formation, destinées aux instructeurs, administrateurs et utilisateurs finaux, permettent de tirer le meilleur parti de Microsoft Teams dans une organisation.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656335"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336973"
 ---
 # <a name="microsoft-teams-training"></a>Formation Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656335"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Formation directe Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Ces formations en ligne gratuites sont hébergées par Microsoft. Elles sont conçues pour accélérer la prise en main de Teams. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Formation en ligne Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Utilisez ces ressources d’auto-formation pour aider les membres de votre organisation à tirer le meilleur parti de Teams. |
 
-## <a name="dont-miss-this-key-training"></a>Ne manquez pas cette formation cruciale
+## <a name="dont-miss-these-key-training-offerings"></a>Ne manquez pas ces offres de formation essentielles
 
 Revenez régulièrement : nous continuerons de mettre à jour cette liste pour que vous soyez toujours au courant des dernières formations les plus récentes, les plus passionnantes et les plus importantes sur Teams.
 
@@ -51,7 +51,7 @@ Revenez régulièrement : nous continuerons de mettre à jour cette liste pour 
    :::column-end:::
 
    :::column:::
-   **[Travail d’équipe](https://aka.ms/edx-cld267x-about)** </br>
+   **[Travail d’équipe](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    Cours : Favoriser le travail d’équipe avec Teams
 
    :::column-end:::
