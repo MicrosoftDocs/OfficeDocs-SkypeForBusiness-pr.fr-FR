@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308317"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333512"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -107,7 +107,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 >- Jusqu’à 50 événements simultanés par client Teams
 >- Jusqu’à 16 heures par diffusion
 >
-> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](../teams-add-on-licensing/advanced-communications.md).**
+> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](../teams-add-on-licensing/advanced-communications.md).**
 
 
 |**Fonctionnalité**   |**Diffusion de réunion Skype** |**Événements générés dans Teams** |**Événements générés dans une application ou un appareil externe** |
