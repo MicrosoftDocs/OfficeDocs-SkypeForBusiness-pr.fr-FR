@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294600"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361654"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Découvrir les modèles teams à l’aide de Microsoft Graph
 
@@ -73,7 +73,7 @@ Par défaut, le modèle de base est défini sur **standard**, qui ne contient au
 | Expliquer<br>Équipe du personnel enseignant | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Logiciels<ul><li>Carnet de notes OneNote du personnel enseignant (ajouté à l’onglet **général** )</li></ul> |
 |Expliquer<br>Équipe PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Logiciels<ul><li>Bloc-notes OneNote PLC (épinglé à l’onglet **général** )</ul></li>|
 | Revendeur<br>Boutique d’applications | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canaux<ul><li>Remise du Shift</li><li>LMS</li></ul>Propriétés d’équipe<ul><li>Visibilité de l’équipe définie sur publique</li></ul>Autorisations des membres<ul><li>Empêcher les membres de créer, de mettre à jour ou de supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, de mettre à jour ou de supprimer des connecteurs</li></ul> |
-| Revendeur<br>Collaboration avec les responsables | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux<ul><li>Remise du Shift</li><li>LMS</li></ul>Propriétés d’équipe :<ul><li>Visibilité de l’équipe définie sur privée</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, de mettre à jour ou de supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, de mettre à jour ou de supprimer des connecteurs</li></ul>|
+| Revendeur<br>Collaboration avec les responsables | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux<ul><li>LMS</li><li>Opérations</li></ul>Propriétés d’équipe :<ul><li>Visibilité de l’équipe définie sur privée</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, de mettre à jour ou de supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, de mettre à jour ou de supprimer des connecteurs</li></ul>|
 | Organisme<br>Rétrocompatibles |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canaux <ul><li>Annonces\*</li><li>Huddles\*</li><li>Négative</li><li>Spécifient\*</li><li>Formation\*</li></ul>\*Canaux favoris automatiquement |
 |Organisme<br>Hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canaux<ul><li>Annonces\*</li><li>Conformité\*</li><li>Privatives de Troie</li><li>Ressources humaines</li></li><li>Pharmaceutiques</li></ul>\*Canal avec favoris automatique|
 |||

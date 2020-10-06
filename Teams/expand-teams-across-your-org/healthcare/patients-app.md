@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: En savoir plus sur l’intégration d’enregistrements de santé électronique dans l’application patients de Microsoft teams à l’aide des API FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1046037ff2cac7f98b9a34ede05a4b30ce793d6c
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 29bb5b32cdd6e2f0d819adcc610639929921d078
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277296"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361384"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Intégration des dossiers médicaux électroniques dans Microsoft Teams
 
 > [!IMPORTANT]
-> **En vigueur le 30 septembre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
+> **À compter du 15 octobre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
 >
 >Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >

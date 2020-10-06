@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346335"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361334"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -85,7 +85,7 @@ Regardez « enregistrement de la réunion » pour plus d’informations.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Désactiver OneDrive entreprise et SharePoint pour continuer à utiliser le flux
 
-Même si une stratégie indique qu’il est déjà défini comme étant en **flux**, il est possible qu’elle ne soit pas définie. S’il n’a aucun effet, la valeur par défaut est Stream. Si vous voulez annuler votre abonnement, vous **devez** réinitialiser la stratégie en **flux** pour vérifier que le flux est la valeur par défaut.
+Même si une stratégie indique qu’il est défini sur **Stream**, il est possible qu’elle ne soit pas définie. En règle générale, si la stratégie n’est pas définie, le paramètre par défaut est **flux**. Toutefois, si vous souhaitez annuler votre utilisation de SharePoint ou OneDrive, vous devez réinitialiser la stratégie sur **flux** pour vous assurer qu’elle est définie sur la valeur par défaut.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

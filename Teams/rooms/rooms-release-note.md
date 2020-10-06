@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut lire les notes de publication de Microsoft Teams, qui répertorient les améliorations cumulées dans les salles de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328223"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361494"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -74,6 +74,10 @@ Présenté dans cette mise à jour :
 - Regardez plus de vidéos avec la Galerie de vidéos 3 x 3 au premier plan  
 - Démarrer des sous-titres en direct en temps réel à partir de MTR 
 - Rejoindre des réunions à l’aide de la fonction d’ajout d’invité directe (Preview)
+
+> [!NOTE]
+> les galeries vidéo 3x3 et les sous-titres en direct en direct sont fournis via le service Microsoft Teams. Ces fonctionnalités sont disponibles pour toutes les salles d’équipe avec application version 4.5.37.0 et versions ultérieures. 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

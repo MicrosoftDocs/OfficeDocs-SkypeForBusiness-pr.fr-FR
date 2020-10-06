@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Danemark de Microsoft Teams.
-ms.openlocfilehash: 2c3c8e32ed0254c16f9e1f4b4968a505914bc2d3
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 3df6532531dd281c4695d4b94ecdffc82b9adde0
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324220"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361744"
 ---
 # <a name="phone-number-management-for-denmark"></a>Gestion des numéros de téléphone pour le Danemark
 
@@ -34,7 +34,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros d’utilisateur et de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.   <br/> |Télécharger ce formulaire. <br/>  [Nouvelle demande de numéro de téléphone pour le Danemark (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).
+|Obtenez de nouveaux numéros d’utilisateur et de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour le Danemark (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Nouvelle demande de numéro de téléphone pour le Danemark (v. 5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Télécharger ce formulaire. <br/>[Lettre d’autorisation (LOA) pour le Danemark (tous les numéros) (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf?raw=true) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Publiez/annulez le ou les numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

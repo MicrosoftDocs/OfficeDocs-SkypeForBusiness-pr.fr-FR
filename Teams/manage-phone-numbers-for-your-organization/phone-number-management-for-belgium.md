@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Belgique pour Microsoft Teams.
-ms.openlocfilehash: 29d2aff6965e960e2069876438e935e871bded9e
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 82f508ff286ad0fc811c0048e9ba181ea5847c09
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346315"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361764"
 ---
 # <a name="phone-number-management-for-belgium"></a>Gestion des numéros de téléphone pour la Belgique
 
@@ -35,7 +35,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros d’utilisateur et de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.   <br/> |En Belgique, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l’aide du centre d’administration Microsoft Teams, vous devez en créer une. <br/><br/>Téléchargez un des formulaires suivants : <br/>  [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (à partir de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/><br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
+|Obtenez de nouveaux numéros d’utilisateur et de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.   <br/> |En Belgique, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l’aide du centre d’administration Microsoft Teams, vous devez en créer une. <br/><br/>Téléchargez un des formulaires suivants : <br/>  [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (à partir de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [Nouvelle demande de numéro de téléphone pour la Belgique (v. 5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/>|
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez l’un de ces formulaires. <br/>[Lettre d’autorisation (LOA) pour la Belgique (tous les numéros) (v. 5.0) (de-)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf?raw=true) <br/> [Lettre d’autorisation (LOA) pour la Belgique (tous les numéros) (v. 5.0) (de-)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(fr-be).pdf?raw=true)<br/> [Lettre d’autorisation (LOA) pour la Belgique (tous les numéros) (v. 5.0) (NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(nl-be).pdf?raw=true) <br/>   <br/>   Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Publiez/annulez le ou les numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
