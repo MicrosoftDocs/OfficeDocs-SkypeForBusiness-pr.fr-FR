@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft teams pour simplifier, simplifier et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48220362"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48370568"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "48220362"
 
 Un package de stratégie dans Microsoft teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires au sein de votre organisation. Nous avons conçu des packages de stratégie pour simplifier, rationaliser et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs au sein de votre organisation.  
 
-Vous pouvez utiliser les [packages de stratégie inclus dans teams](#policy-packages-included-in-teams) ou [créer vos propres packages de stratégie personnalisés](#custom-policy-packages) (bientôt disponible en préversion privée).
+Vous pouvez utiliser les [packages de stratégie inclus dans teams](#policy-packages-included-in-teams) ou [créer vos propres packages de stratégie personnalisés](#custom-policy-packages) (en préversion privée).
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Capture d’écran de la page packages de stratégie dans le centre d’administration":::
 
@@ -83,7 +83,7 @@ Par exemple, lorsque vous attribuez le package de stratégie éducation (enseign
 
 ## <a name="custom-policy-packages"></a>Packages de stratégie personnalisés
 
-**Cette fonctionnalité sera bientôt disponible dans la version bêta privée**
+**Cette fonctionnalité est en version préliminaire privée**
 
 Les packages de stratégie personnalisés vous permettent de regrouper votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires dans votre organisation. Créez vos propres packages de stratégie en ajoutant les types de stratégie et les stratégies dont vous avez besoin.
 

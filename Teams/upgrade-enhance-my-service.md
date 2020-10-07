@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Évaluez régulièrement les possibilités d’améliorer le service teams après la mise à niveau, de surveiller la présentation des fonctionnalités d’Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780463"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369199"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Tirer le meilleur parti de teams après la mise à niveau
 
@@ -39,9 +39,7 @@ Une fois que vous avez déployé des équipes dans votre organisation et que vou
 
 Un excellent moyen de veiller à tirer le meilleur parti de vos services consiste à surveiller les [formations publiques d’équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) pour de nouvelles fonctionnalités qui peuvent être utiles pour votre organisation. Si vous avez accès au centre d’administration Microsoft 365, vous recevez des mises à jour régulières de nouvelles fonctionnalités dans notre centre de messages.
 
-Lorsque vous avez la possibilité d’améliorer votre service, prenez le temps de le faire directement. Pour plus d’informations, reportez-vous à la rubrique [déploiement d’une discussion, d’équipes, de canaux et d’applications dans Microsoft teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) . Lors de la création de petites modifications incrémentielles, il est peu probable que vous deviez effectuer toutes les activités et tâches en intégralité, mais que vous soyez sûr d’évaluer chaque activité et tâche tout en vous permettant de vous offrir la meilleure chance de succès.
-
-Lorsque vous avez la possibilité d’améliorer votre service, prenez le temps de le faire directement. Reportez-vous à nos [phases d’implémentation](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquez les mêmes conseils en fin de cycle. Lors de la création de petites modifications incrémentielles, il est peu probable que vous deviez effectuer toutes les activités et tâches en intégralité, mais que vous soyez sûr d’évaluer chaque activité et tâche tout en vous permettant de vous offrir la meilleure chance de succès.
+Lorsque vous avez la possibilité d’améliorer votre service, prenez le temps de le faire directement. Pour plus d’informations, reportez-vous à la rubrique [déploiement d’une discussion, d’équipes, de canaux et d’applications dans Microsoft teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , ainsi que des [étapes d’implémentation](deploy-chat-teams-channels-microsoft-teams-landing-page.md) complètes. Lors de la création de petites modifications incrémentielles, il est peu probable que vous deviez effectuer toutes les activités et tâches en intégralité, mais que vous soyez sûr d’évaluer chaque activité et tâche tout en vous permettant de vous offrir la meilleure chance de succès.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez qui va surveiller les feuilles de route publiques et autres annonces de service pour les nouvelles fonctionnalités ou services dont votre organisation peut bénéficier.</li><li>Déterminez la cadence d’affichage des nouvelles fonctions ou services aux principales parties prenantes, par le biais de votre Comité de direction.</li></ul></td></tr>

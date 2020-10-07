@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336841"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367594"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations d’application et accorder une autorisation d’administrateur dans le centre d’administration Microsoft teams
 
@@ -32,7 +32,7 @@ Si vous êtes un administrateur général, vous pouvez passer en revue et accord
 
 Les autorisations requises par les applications incluent la possibilité de lire les informations stockées dans une équipe, de lire le profil d’un utilisateur et d’envoyer un message électronique de la part des utilisateurs. Pour en savoir plus, voir [autorisations et autorisation dans le point de terminaison de la plateforme d’identité Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-La colonne **autorisations** indique si une application dispose d’autorisations qui nécessitent une autorisation. Vous verrez un lien d' **affichage des détails** pour chaque application inscrite dans Azure ad et disposant d’autorisations nécessaires. Gardez à l’esprit que ceci s’applique uniquement aux applications tierces et personnalisées et. Ce lien ne sera pas visible ou vous devrez accorder l’autorisation d’administrateur pour les applications publiées par Microsoft.
+La colonne **autorisations** indique si une application dispose d’autorisations qui nécessitent une autorisation. Vous verrez un lien d' **affichage des détails** pour chaque application inscrite dans Azure ad et disposant d’autorisations nécessaires. Gardez à l’esprit que ceci s’applique uniquement aux applications tierces et personnalisées. Ce lien ne sera pas visible ou vous devrez accorder l’autorisation d’administrateur pour les applications publiées par Microsoft.
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Capture d’écran de la colonne autorisations dans la page gérer les applications":::
 

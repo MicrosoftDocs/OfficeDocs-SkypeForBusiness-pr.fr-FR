@@ -18,19 +18,19 @@ description: Exemples d’utilisation de PowerShell pour définir des stratégie
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d83dd66914c835f62028fc4941da34646c75411d
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: e49c2dca91dca56366dd6b8a8ce460547043c120
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320799"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369149"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
 Vous pouvez utiliser les applets de commande Windows PowerShell suivantes pour définir et affecter des paramètres de stratégie pour les événements en direct dans teams : 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Nouveau-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Nouveau-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Nouveau-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
 

@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: Apprenez-en davantage sur la spécification de l’interface DSTU2 dans Teams, notamment la configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2fa5575d6d7a4cbdffec6c3396004c38e743720a
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: ab502f66785af7947185fb0fbee0d3a55dd70c67
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361454"
+ms.locfileid: "48367604"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
 > [!IMPORTANT]
-> **À compter du 15 octobre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
+> **À compter du 30 octobre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
 >
 >Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >

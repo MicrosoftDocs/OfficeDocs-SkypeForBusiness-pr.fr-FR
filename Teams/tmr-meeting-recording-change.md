@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361334"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369169"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -95,7 +95,7 @@ Même si une stratégie indique qu’il est défini sur **Stream**, il est possi
 
 **Où l’enregistrement de la réunion sera-t-il stocké ?**
 
-- Pour les réunions hors canal, l’enregistrement est stocké dans un dossier nommé. Enregistrements * * qui se trouve au niveau supérieur du OneDrive qui appartient à la personne qui a démarré l’enregistrement de la réunion. Example
+- Pour les réunions hors-canal, l’enregistrement est stocké dans un dossier intitulé **enregistrements** qui se trouve au niveau supérieur du OneDrive qui appartient à la personne qui a démarré l’enregistrement de la réunion. Example
 
   <i>OneDrive entreprise</i> / de l’enregistreur **Enregistrements**
 

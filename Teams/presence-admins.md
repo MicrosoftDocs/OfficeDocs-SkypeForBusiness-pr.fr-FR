@@ -1,7 +1,7 @@
 ---
 title: Présence des utilisateurs dans Teams
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820518"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369209"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -49,22 +49,32 @@ La présence de Teams dans Outlook est prise en charge dans l’application de b
 | ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
-|| ![Une icône d’horloge jaune indique l’absence, congé](media/Presence_Away.png)  Congé|
-|| ![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Hors connexion |
+|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Apparaître hors connexion | ![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Hors connexion| |
 || ![Un cercle gris ouvert indique un statut inconnu](media/Presence_Unknown.png) Statut inconnu|
-||![Un cercle rouge ouvert avec une ligne diagonale indique bloqué](media/Presence_Blocked.png) Bloqué |
 || ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent du bureau|
 |||
 
-Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Notez que lorsque vous êtes en mode focus en fonction de votre calendrier, le focus peut être considéré comme ne pas déranger dans les autres produits.
+Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Notez que lorsque vous êtes en mode focus en fonction de votre calendrier, l’état de l’utilisateur dans teams s’affichera comme ne pas déranger dans les autres produits.
 
-Votre état de présence actuel passe à Absent lorsque vous verrouillez votre ordinateur ou lorsqu’il entre en mode d’inactivité ou de veille. Sur les appareils mobiles, le statut de présence passe à Absent lorsque l’application Teams est en arrière-plan.
+Votre statut de présence actuel passe à absent (e) lorsque vous verrouillez votre ordinateur ou lorsque votre ordinateur passe en mode inactif ou veille. Sur un appareil mobile, votre statut de présence passe à absent (e) lorsque l’application teams est en arrière-plan.
 
-Les utilisateurs reçoivent tous les messages de conversation qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsqu’une personne envoie un message, celui-ci apparaît dans Teams lorsque l'utilisateur est de nouveau en ligne. Si un utilisateur est défini sur Ne pas déranger, il reçoit les messages de conversation, mais les notifications de bannière ne s’affichent pas.
+Les utilisateurs reçoivent tous les messages de conversation qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsqu’une personne envoie un message, celui-ci apparaît dans Teams lorsque l'utilisateur est de nouveau en ligne. Si l’état de l’utilisateur est défini sur ne pas déranger, l’utilisateur peut toujours recevoir des messages instantanés, mais les notifications de bannière ne sont pas affichées.
 
 Les utilisateurs reçoivent des appels quel que soit l'état de présence, à l’exception de l’état Ne pas déranger dans lequel les appels entrants sont redirigés vers la messagerie vocale. Si le destinataire a bloqué l’appelant, l'appel n’est pas remis et l’appelant voit la présence du destinataire en Mode hors connexion.
 
-Les utilisateurs peuvent ajouter des utilisateurs à leur liste d’accès prioritaire en accédant à **Paramètres** > **Confidentialité** dans Teams. Les contacts disposant d’un accès prioritaire peuvent contacter l’utilisateur, même lorsque celui-ci est défini sur Ne pas déranger.
+Les utilisateurs peuvent ajouter des utilisateurs à leur liste d’accès prioritaire en accédant à **Paramètres** > **Confidentialité** dans Teams. Les personnes disposant d’un accès prioritaire peuvent contacter l’utilisateur, même lorsque son statut est défini sur ne pas déranger.
+
+## <a name="user-configured-states-expiration"></a>Expiration des États configurés par l’utilisateur
+Lorsqu’un utilisateur sélectionne un état de présence spécifique, il est prioritaire sur les mises à jour des activités d’applications. Par exemple, si un utilisateur vous le définit comme ne pas déranger, il restera comme ne pas déranger, même si la personne participe à une réunion ou répond à un appel.
+
+Les États configurés par l’utilisateur ont des paramètres d’expiration par défaut dans Teams, afin d’empêcher les utilisateurs d’afficher un statut qui n’est pas pertinent après une période donnée.
+
+|État configuré par l’utilisateur|Expiration par défaut|
+|:--- |:---|
+| Occupé|1 jour|
+| Ne pas déranger|1 jour|
+| Locuteur|7 jours|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administrateur dans Teams comparé à ceux de Skype Entreprise
 

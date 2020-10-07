@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Les rubriques suivantes décrivent les fonctionnalités d’aperçu ouvert pour l’audioconférence sur le réseau.
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321793"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369179"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Aperçu avant impression de l’audioconférence sur réseau pour les conférences audio
 
@@ -38,7 +38,7 @@ Cet article décrit les prérequis et les étapes de configuration nécessaires 
 
 Avant de configurer une conférence sur le réseau, assurez-vous que votre organisation remplit les conditions préalables suivantes : 
 
-- Assurez-vous que tous les utilisateurs de votre organisation qui sont activés ou seront activés pour les conférences audio en mode équipes uniquement. Le routage des appels de conférence audio entrants et Outboud par le biais de conférences sur le réseau est uniquement pris en charge pour les réunions Teams.
+- Assurez-vous que tous les utilisateurs de votre organisation qui sont activés ou seront activés pour les conférences audio en mode équipes uniquement. Le routage des appels de conférences audio entrants et sortants par le biais de conférences sur le réseau est uniquement pris en charge pour les réunions Teams.
 
 - Attribuez des licences de conférence audio à tous les utilisateurs qui utiliseront une conférence sur le réseau.
 
@@ -56,6 +56,8 @@ Vous devez configurer l’équipement de téléphonie de vos sites pour diriger 
 
 Vous pouvez trouver les numéros de service dans le centre d’administration teams sous **réunions-> des ponts de conférence** ou en utilisant l’applet de cmdlet PowerShell de Skype entreprise Online Get-CsOnlineDialInConferencingBridge. Pour plus d’informations, reportez-vous à la liste des [numéros de conférence audio dans Microsoft teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
+> [!NOTE]
+> Cette fonctionnalité n’est pas disponible pour les utilisateurs disposant d’une licence de conférence par minute.
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Activez le routage des appels sortants de réunion à l’aide du routage direct.
 
@@ -162,6 +164,6 @@ Vous trouverez ci-dessous une liste des problèmes connus actuellement présents
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 
