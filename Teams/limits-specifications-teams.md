@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333264"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361644"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -34,7 +34,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Fonctionnalité    | Limite maximale |
 |-----------|---------------|
 |Nombre d’équipes qu’un utilisateur peut créer | Soumis à une limite objet de 250 et sup1 ;         |
-|Nombre d’équipes dont un utilisateur peut-être membre|1 000|
+|Nombre d’équipes dont un utilisateur peut-être membre|1 000&sup2 ;|
 |Nombre de membres dans une équipe. | 10 000       |
 |Nombre de propriétaires par équipe | 100   |
 |Nombre d’équipes à l’échelle de l’organisation autorisées dans un client | 5     |
@@ -49,7 +49,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 <sup>1</sup> N’importe quel objet dans Azure Active Directory compte dans cette limite. Les administrateurs généraux sont exempts de cette limite, comme les applications appelant Microsoft Graph en utilisant des[autorisations d’application](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Cette limite inclut les équipes archivées.
+<sup>2</sup> Cette limite inclut les équipes archivées. Pour dépasser la limite maximale, vous devez contacter le support Microsoft.
 
 <sup>3</sup> Les canaux supprimés peuvent être restaurés dans un délai de 30 jours. Pendant ces 30 jours, un canal supprimé continue d’être pris en compte dans la limite des 200 canaux par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de façon définitive et le canal n’est plus pris en compte dans la limite des 200 canaux par équipe.
 
