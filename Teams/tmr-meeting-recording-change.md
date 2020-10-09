@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369169"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389932"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
 > [!Note]
 > Les modifications apportées à l’utilisation de Microsoft Stream pour OneDrive Entreprise et SharePoint pour les enregistrements de réunion auront une approche progressive. Au démarrage, les administrateurs de clients peuvent choisir cette nouvelle option de flux de travail dès aujourd’hui et commencer à voir les enregistrements téléchargés automatiquement dans OneDrive entreprise et SharePoint en octobre 2020. En novembre, vous devrez annuler votre abonnement si vous voulez continuer à utiliser le flux et à quelques instants dans les 2021 au début, nous aurons besoin de tous les clients d’utiliser OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
-Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme départ du flux, la méthode utilise Microsoft OneDrive et SharePoint dans Microsoft 365 et offre de nombreux avantages.
+Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme la première phase d’une transition à partir du flux Microsoft classique vers le [nouveau flux](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive et SharePoint dans Microsoft 365 et offre de nombreux avantages.
 
 Les avantages de l’utilisation de OneDrive entreprise et SharePoint pour le stockage d’enregistrements sont les suivants :
 
@@ -102,6 +102,10 @@ Même si une stratégie indique qu’il est défini sur **Stream**, il est possi
 - Pour les réunions de canal, l’enregistrement est stocké dans la bibliothèque de documents du site d’équipe dans un dossier nommé **enregistrements**. Example
 
   <i>Nom de l’équipe-nom du canal</i> / Des **documents** / ; **Enregistrements**
+
+**Comment gérer les enregistrements d’anciens employés ?**
+
+Étant donné que les vidéos sont similaires à n’importe quel autre fichier dans OneDrive et SharePoint, la gestion de la propriété et de la rétention après le départ d’un employé va suivre le [processus OneDrive et SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)normal.
 
 **Qui dispose des autorisations pour afficher l’enregistrement de la réunion ?**
 
