@@ -692,7 +692,15 @@
 ### [Gérer l’application Listes](manage-lists-app.md)
 ### Plannings pour Teams
 #### [Plannings pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-#### [Gérer l’application Plannings](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+#### [Gérer l'application Changements de poste](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### Applications pour les patients
+#### [Aperçu de l'application pour les patients](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### Intégrer les dossiers médicaux électroniques dans l'application Patients
+##### [Intégrer les dossiers médicaux électroniques dans l'application « Patients » en utilisant les API FHIR](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [Spécification de l'interface DSTU2 pour l'application Patients](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [Spécification de l'interface STU3 pour l'application Patients](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Connecter l'application Patients à l'API d'Azure pour FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [Journaux d'audit pour l'application Patients](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams pour l’éducation](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)

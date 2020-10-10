@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 388fb68196a6e68c13066b7b94a1b24a31834b37
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346165"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416849"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -33,7 +33,7 @@ Un invité est une personne qui n'est ni un employé, ni un étudiant ni un memb
 
 En tant qu’administrateur Teams, vous [Contrôlez les fonctionnalités que les invités peuvent (et ne peuvent pas utiliser) dans teams](manage-guests.md). Les invités dans teams sont couverts par la même protection de conformité et d’audit que le reste de Microsoft 365 et peuvent être gérés dans Azure AD. L’accès invité est soumis à Azure AD et aux limites de service Microsoft 365 ou Office 365.
 
-L’expérience des invités comporte des limitations de par sa conception. Pour obtenir la liste complète des fonctionnalités qu’un invité peut et ne peut pas faire dans Microsoft Teams, voir[comparaison des fonctionnalités des membres d’équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+L’expérience des invités comporte des limitations de par sa conception. Pour obtenir la liste complète des fonctionnalités qu’un invité peut et ne peut pas faire dans Microsoft Teams, voir [comparaison des fonctionnalités des membres d’équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
 > Les utilisateurs invités suivent les paramètres de niveau organisation Teams pour le mode de mise à niveau de coexistence. Il n’est pas possible de modifier cela.
@@ -66,7 +66,7 @@ Les invités peuvent quitter l’équipe Teams à tout moment. Pour plus d'infor
 
 ## <a name="licensing-for-guest-access"></a>Gestion des licences pour l’accès invité
 
-L’accès invité est inclus dans tous les abonnements Microsoft 365 Business standard, Microsoft 365 entreprise et Microsoft 365 éducation. Aucune licence Microsoft 365 supplémentaire n’est nécessaire. Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Cependant, le nombre total d’invités pouvant être ajoutés à votre client peut être limité par les fonctionnalités payantes d’Azure AD. Pour plus d’informations, consultez l’article [Affectation de licences Azure Active Directory B2B Collaboration](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+L’accès invité est inclus dans tous les abonnements Microsoft 365 Business standard, Microsoft 365 entreprise et Microsoft 365 éducation. Aucune licence Microsoft 365 supplémentaire n’est nécessaire. Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Cependant, le nombre total d’invités pouvant être ajoutés à votre client peut être limité par les fonctionnalités payantes d’Azure AD. Pour plus d’informations, reportez-vous à la section [modèle de facturation d’identités externes Azure ad](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 > [!NOTE]
 > Les utilisateurs de votre organisation qui ont des plans d’abonnement Microsoft 365 autonomes, tels qu’Exchange Online plan 2, ne peuvent pas être invités en tant qu’invités à votre organisation, car teams les considère comme appartenant à la même organisation. Pour que ces utilisateurs puissent utiliser des équipes, une offre Microsoft 365 Business Standard, Office 365 Entreprise ou Office 365 Éducation doivent leur être attribuée. 

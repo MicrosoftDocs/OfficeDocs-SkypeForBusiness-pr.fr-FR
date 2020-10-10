@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389882"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416859"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -54,7 +54,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Mémoire     |   4,0 GO DE MÉMOIRE VIVE (RAM)      |
 |Disque dur    |   1,5 Go d’espace disque disponible      |
 |Affichage    | 1280 x 800 ou résolution supérieure    |
-|Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez [ici](https://support.apple.com/en-us/HT201260)les versions les plus récentes de MacOS. Par exemple, lorsque vous relâchez une nouvelle version de macOS, la nouvelle version et les deux qui la précèdent immédiatement deviennent les versions prises en charge.      |
+|Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez des informations sur les versions les plus récentes de macOS et sur la mise à niveau de votre version de [MacOS.](https://support.apple.com/en-us/HT201260) Par exemple, lorsque vous relâchez une nouvelle version de macOS, la nouvelle version et les deux qui la précèdent immédiatement deviennent les versions prises en charge.      |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
 |Appels vidéo et réunions | <ul><li>Nécessite le processeur 2 cœur. Pour une résolution de partage et une fréquence d’images plus élevée, il est recommandé de disposer d’un processeur 4 cœurs ou d’une meilleure qualité. </li><li>La participation à une réunion à l’aide de la détection de proximité dans une salle Microsoft teams n’est pas disponible sur macOS.</li></ul>

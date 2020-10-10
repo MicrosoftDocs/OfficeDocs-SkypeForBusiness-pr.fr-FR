@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361644"
+ms.locfileid: "48367564"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -42,7 +42,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre d’équipes qu’un administrateur général peut créer        |  500 000   |
 |Nombre d’équipes qu’une organisation Microsoft 365 ou Office 365 peut avoir    | 500,000&sup2;     |
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
-|Nombre de canaux privés par équipe    |30|
+|Nombre de canaux privés par équipe    |30| 200 (y compris les canaux supprimés)&sup3;
 |Nombre de membres dans un canal privé    |250|
 |Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000|
 |Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
@@ -94,7 +94,9 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Les limites de taille des messages, de pièces jointes et d’images incorporées sont identiques pour toutes les licences Microsoft 365 et Office 365.
+> Les limites de taille des messages, de pièces jointes et d’images incorporées sont identiques pour toutes les licences Microsoft 365 et Office 365. L’envoi d’un canal par courrier électronique n’est pas disponible dans Teams pour les organisations GCC/GCCH/DOD.
+
+
 
 ## <a name="channel-names"></a>Noms des canaux
 
