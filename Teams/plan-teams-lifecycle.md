@@ -3,7 +3,6 @@ title: Planifier la gestion du cycle de vie
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 09/26/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bdc9df2d0d7d55e806ad0faca896f3c78a145c96
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656365"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416921"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -58,10 +57,10 @@ Les types d’accès suivants déterminent qui peut rejoindre l’équipe :
 
 Les types d’utilisateurs de l’équipe déterminent le niveau de contrôle dont dispose un membre :
 
--   Le _créateur de l’équipe_ dispose d’autorisations pour créer un groupe ou une équipe dans le répertoire. L’administrateur peut restreindre ce type d’utilisateurs à un sous-ensemble d’administrateurs ou utilisateurs. Si vous souhaitez en savoir plus, consultez l’article [Gérer qui peut créer des groupes Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   Un _propriétaire de l’équipe_ gère l’appartenance et les paramètres de l’équipe. Une équipe peut comporter jusqu’à 100 propriétaires.
--   Un _membre de l'équipe_ est un membre de votre organisation qui participe à une équipe.
--   Un _invité_ est un utilisateur qui est externe à votre organisation. N’importe quelle personne ayant une adresse de messagerie peut être invitée si votre organisation a activé l’[accès invité](guest-access.md).
+-   Le *créateur de l’équipe* dispose d’autorisations pour créer un groupe ou une équipe dans le répertoire. L’administrateur peut restreindre ce type d’utilisateurs à un sous-ensemble d’administrateurs ou utilisateurs. Si vous souhaitez obtenir davantage d’informations, consultez l’article [Gérer les personnes autorisées à créer des groupes Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Les créateurs d’équipe deviennent automatiquement propriétaires d’équipe.
+-   Un *propriétaire d’équipe* gère l’appartenance et les paramètres de l’équipe. Une équipe peut comporter jusqu’à 100 propriétaires.
+-   Un *membre de l'équipe* est un membre de votre organisation qui participe à une équipe.
+-   Un *invité* est un utilisateur qui est externe à votre organisation. N’importe quelle personne ayant une adresse de messagerie peut être invitée si votre organisation a activé l’[accès invité](guest-access.md).
 
 > [!Note]
 > Vous trouverez des informations supplémentaires sur les fonctionnalités de propriétaire d’équipe et de membre d’équipe dans l’article [Attribuer le rôle et les autorisations dans Microsoft Teams](assign-roles-permissions.md).
@@ -164,9 +163,11 @@ Tous les propriétaires ou membres d’une équipe ayant les autorisations appro
 
 Pour susciter l’intérêt, le propriétaire du canal peut publier un message de bienvenue, charger des documents pertinents dans l'onglet **Fichiers** ou ajouter des onglets ou connecteurs au canal. Le propriétaire définit également la description du canal, et peut « ajouter aux favoris automatiquement » les canaux importants afin qu’ils soient répertoriés par défaut pour tous les membres de l’équipe.
 
+Envisagez des noms des canaux avant de les créer, car si vous renommez un canal dans l’équipe, le dossier correspondant n’est pas renommé dans la bibliothèque de documents SharePoint, ce qui peut être une source de confusion pour l’utilisateur final. 
+
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les canaux initiaux qui seront ajoutés à l’équipe ?</li><li>Quelles indications, le cas échéant, seront-elles fournies pour l’ajout de nouveaux canaux ? (Seront-ils configurés par projet, thème, ou...?)</li></ul> |
+| ![Icône représentant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les canaux initiaux qui seront ajoutés à l’équipe ?</li><li>Quelles indications, le cas échéant, seront-elles fournies pour l’ajout de nouveaux canaux ? (Seront-ils configurés par projet, thème, ou...?)</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez les canaux initiaux.</li><li>Publiez un message de bienvenue.</li><li>Commencez la collaboration.</li></ul>|
 
 ### <a name="stage-2-middle"></a>Stade 2: milieu
@@ -177,32 +178,30 @@ La confiance, la tolérance et l’esprit de collaboration se développent de ma
 
 Les équipes étant des organismes vivants, elles peuvent avoir parfois besoin d’être contrôlées ou aidées. Voici quelques bonnes pratiques :
 
--   Utilisez des ambassadeurs pour entretenir l’utilisation si elle commence à décliner, et également pour détecter et diffuser les nouveaux comportements créatifs. 
--   Gérez les invités judicieusement, en vous assurant que leur accès se termine lorsque le besoin de l’entreprise se termine.
--   Laissez les canaux évoluer avec les besoins de l’entreprise, en ajoutant de nouveaux canaux si nécessaire et en laissant les anciens disparaître (ou envisagez de les archiver ou supprimer s’ils contiennent des données sensibles ou éphémères, en fonction de vos exigences de conservation).
--   Répartissez de nouvelles équipes au fur et à mesure que des groupes plus larges ou domaines d’intérêt apparaissent.
--   Essayez différentes collaborations de canal, comme des réunions de canal ou des conversations dans un onglet autour de documents.
-
-Si un flux commence à s’installer dans une routine, envisagez de :
-
--   Diriger les communications dans des équipes au lieu de messages électroniques.
--   Utiliser des applications mobiles pour augmenter la participation.
--   Réduire le nombre de canaux.
+- Utilisez des ambassadeurs pour entretenir l’utilisation si elle commence à décliner, et également pour détecter et diffuser les nouveaux comportements créatifs. 
+- Gérez les invités de manière judicieuse, en vous assurant que leur accès se termine lorsque le besoin de l’entreprise prend fin.
+- Encouragez les membres à utiliser des conversations à thread avec des lignes d’objet pour améliorer la visibilité et l’attention lors du défilement dans un canal.
+- Laissez les canaux évoluer avec les besoins de l’entreprise, en ajoutant de nouveaux canaux si nécessaire et en permettant aux anciens de disparaître (ou envisagez leur archivage ou leur suppression s’ils contiennent des données sensibles ou éphémères, en fonction de vos exigences de rétention).
+- Répartissez de nouvelles équipes au fur et à mesure que des groupes plus larges ou domaines d’intérêt apparaissent.
+- Essayez différentes collaborations de canal, comme des réunions de canal ou des conversations dans un onglet autour des documents.
+- Utilisez l’application mobile Microsoft Teams pour accroître l’engagement.
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
+| ![Icône représentant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
 | ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Implémentez un processus pour contrôler l’intégrité des équipes individuelles.</li></ul>|
 
 ### <a name="stage-3-end"></a>Stade 3: fin
 
 Lorsque le travail d'une équipe est arrivé à son terme, il est important de prendre officiellement acte qu'il est terminé. Cela donnera aux membres de l’équipe un sentiment de bouclage et empêchera également l’accès à des informations obsolètes et périmées. Vous pouvez utiliser l’équipe elle-même pour effectuer les rituels de clôture comme les analyses rétrospectives et les rapports de synthèse.
 
-Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont en fait supprimées avec une « suppression réversible », que le service informatique peut annuler pendant 21 jours au maximum (30 jours pour les Groupes Microsoft 365). La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 21 jours après la suppression.
+Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont en fait supprimées avec une « suppression réversible », que le service informatique peut annuler pendant 21 jours au maximum (30 jours pour les Groupes Microsoft 365). La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 21 jours après la suppression. La suppression d’un canal ne supprimera pas le dossier ou son contenu de la bibliothèque de documents SharePoint.
 
-Vous pouvez aussi utiliser des stratégies d’expiration et de conservation en plus des fonctionnalités d’archivage pour réduire l’exposition aux équipes qui ne sont plus actives ou aux propriétaires qui ont quitté l'organisation.
+Vous pouvez aussi utiliser des stratégies d’expiration et de rétention, en plus des fonctionnalités d’archivage pour réduire l’exposition aux équipes qui ne sont plus actives ou aux propriétaires qui ont quitté l'organisation.
 
-Pour des informations sur la configuration des stratégies d’expiration et de conservation, reportez-vous à l’article [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md).
+Les stratégies de rétention appliquées à Teams ou aux services associés tels que SharePoint peuvent interdire la suppression d’équipes. En outre, tenez compte du fait que le contenu d’une équipe est souvent bien plus que de simples fichiers dans la bibliothèque de documents SharePoint. Il s’agit de conversations, de tableaux du Planificateur, de wikis, de résultats de formulaires, de réunions enregistrées, de blocs-notes OneNote et bien d’autres.
+
+Pour obtenir des informations sur la configuration des stratégies d’expiration et de rétention, reportez-vous à l’article [Présentation de la sécurité et de la conformité dans Microsoft Teams](security-compliance-overview.md).
 
 |    |     |
 |-----------|------------|

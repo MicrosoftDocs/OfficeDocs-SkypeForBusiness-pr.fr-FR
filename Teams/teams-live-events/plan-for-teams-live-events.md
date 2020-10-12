@@ -14,23 +14,23 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
+description: Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
+ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333512"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408147"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
-Lorsque vous planifiez des événements en direct Teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez tenir compte de plusieurs facteurs avant de commencer à les configurer.
+Lorsque vous planifiez des événements en direct Teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez tenir compte de plusieurs facteurs avant de démarrer la configuration.
 
  > [!Note]
-> Pour plus d’informations sur les événements en direct Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Pour en savoir plus sur les exigences en matière de bande passante pour les événements en direct Teams [préparer votre organisation](../prepare-network.md) . 
+> Pour plus d’informations sur les événements en direct Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Pour en savoir plus sur les exigences en matière de bande passante pour les événements en direct Teams [préparer votre organisation](../prepare-network.md) .
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Qui peut rejoindre, créer et planifier des événements en direct ?
 
@@ -40,14 +40,14 @@ Les conditions suivantes sont requises pour un utilisateur pour configurer un é
 
 Voici les licences qui doivent être attribuées pour produire ou présenter une équipe en direct événement :  
 
-- Une licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, ou une licence Office 365 Éducation A3 ou A5.
-- Une licence Microsoft Teams. -est incluse dans les licences ci-dessus. 
-- Une licence Microsoft Stream-est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview). 
+- Une licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, ou une licence Office 365 Éducation A3 ou A5. L’exception à cette condition est que les utilisateurs invités peuvent se présenter sans licence si les autres critères pour les [utilisateurs invités](plan-for-teams-live-events.md#guest-to-present) sont remplis.
+- Licence Microsoft Teams : elle fait partie des licences répertoriées dans la première puce.
+- Une licence Microsoft Stream est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
-  Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Azure Media Services (AMS) avec une limite de 30 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
+  Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Azure Media Services (AMS) avec une limite de 30 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
 
 > [!NOTE]
 > Pour l’instant, il n’existe aucune offre Microsoft 365 pour les petites entreprises pouvant être utilisée pour créer et organiser des événements Teams en direct.
@@ -72,7 +72,9 @@ L’utilisateur doit disposer des éléments suivants :
 - Le mode de coexistence est configuré pour planifier les réunions Teams(*îles, réunions en premier, ou Teams uniquement*).
 
 > [!IMPORTANT]
-> Les utilisateurs anonymes non authentifiés ne peuvent pas être invités en tant que producteurs ou présentateurs dans les événements live Teams.
+> Les utilisateurs anonymes non authentifiés ne peuvent pas être invités en tant que producteurs ou présentateurs dans les événements Teams en direct.
+
+### <a name="guest-to-present"></a>[Invité à présenter](#guest-to-present)
 
 Pour qu'un invité soit présent dans un événement en direct, procédez comme suit :
 
@@ -80,7 +82,7 @@ Pour qu'un invité soit présent dans un événement en direct, procédez comme 
 2. Demandez à l’utilisateur d’accepter l’invitation invité et de rejoindre l’équipe.
 3. [Planifiez l’événement en direct et ajoutez l’invité à votre groupe d’événements](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Nous vous recommandons de créer un canal pour les fabricants et présentateurs de l’événement en direct, afin qu’ils puissent discuter et partager des informations avant l’événement. Les invités qui n’ont pas d’informations d’identification Microsoft 365 ne pourront pas afficher le calendrier dans Teams. Pour permettre aux utilisateurs de participer aisément à l’événement, les producteurs peuvent publier le lien de l’événement vers le canal. Les présentateurs peuvent ensuite ouvrir Teams, accéder au canal, puis cliquer sur le lien pour participer à l’événement. 
+Nous vous recommandons de créer un canal pour les fabricants et présentateurs de l’événement en direct, afin qu’ils puissent discuter et partager des informations avant l’événement. Les invités qui n’ont pas d’informations d’identification Microsoft 365 ne pourront pas afficher le calendrier dans Teams. Pour permettre aux utilisateurs de participer aisément à l’événement, les producteurs peuvent publier le lien de l’événement vers le canal. Les présentateurs peuvent ensuite ouvrir Teams, accéder au canal, puis cliquer sur le lien pour participer à l’événement.
 
 ## <a name="who-can-watch-live-events"></a>Qui peut regarder les événements en direct
 
@@ -158,6 +160,7 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 - Europe/Afrique
 
 **Emplacement des données pour ces pays/régions (pris en charge)**
+
 - Australie
 - Canada
 - Inde
@@ -165,6 +168,7 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 - Royaume-Uni
 
 **Ces pays/régions et cloud ne sont pas pris en charge**
+
 - Allemagne
 - France
 - Norvège
