@@ -52,7 +52,7 @@
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 ## [Migrer de Slack vers Teams](migrate-slack-to-teams.md)
 ## Utilisation des modèles Teams
-### [Utiliser les modèles Teams dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
+### [Utiliser les modèles Teams dans le centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Modèles Teams créés dans Graph pour les petites et moyennes entreprises](smb-templates.md)
 ### [Créer un modèle personnalisé Teams](create-a-team-template.md)
 ### [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [Messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Délégation de messages](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### Modèles Teams pour les organismes de santé
-#### [Utiliser les modèles de santé publique Teams dans la console d’administration](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Utiliser les modèles de santé publique Teams dans le centre d’administration](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Gérer l’application Listes](manage-lists-app.md)
 ### Plannings pour Teams
@@ -725,7 +725,7 @@
 ### [Créer une application de portail intranet Teams à partir d’un site ou d’une page SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams pour les organismes de vente au détail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Démarrage avec les modèles Teams pour la vente au détail dans la console d’administration](retail-teams-templates-in-the-admin-console.md)
+### [Démarrage avec les modèles Teams pour la vente au détail dans le centre d’administration](retail-teams-templates-in-the-admin-console.md)
 ### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 
 ## [Teams pour le secteur public](expand-teams-across-your-org/teams-for-government-landing-page.md)
