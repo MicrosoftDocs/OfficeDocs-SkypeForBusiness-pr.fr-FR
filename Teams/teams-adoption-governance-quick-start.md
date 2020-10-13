@@ -3,7 +3,6 @@ title: Démarrage rapide pour la gouvernance de Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 10/29/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -21,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94f7d592c7c983f930e862ab317c88b16225a61f
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: cd54902e00e984de740b7bbf6d0fd96e37e88aa9
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656295"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424554"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
-Les activités suivantes interviendront en même temps, et elles peuvent impliquer l’ensemble ou une partie de votre équipe clé. Nous vous conseillons de différer les conversations de gouvernance et de sécurité à grande échelle pour une fois que vous avez terminé la première expérimentation de teams. Cela permet de simplifier les décisions que vous devrez apporter à ce jour plus tard. Pour cette phase, vous devez prendre des décisions. Pour ce faire, vous devez d’abord répondre aux questions suivantes :
+Les activités suivantes interviendront en même temps, et elles peuvent impliquer l’ensemble ou une partie de votre équipe clé. Nous vous conseillons de différer les conversations de gouvernance et de sécurité à grande échelle pour une fois que vous avez terminé la première expérimentation de teams. Il est important de comprendre la manière dont les décisions de gouvernance peuvent avoir une incidence sur l’utilisation des utilisateurs finaux et de simplifier les décisions que vous devrez apporter à ce jour plus tard. Pour cette phase, vous devez prendre des décisions. Pour ce faire, vous devez d’abord répondre aux questions suivantes :
 
 - Quelle partie prenante de votre évaluation antérieure est susceptible de participer à cette intégration d’entreprise limitée ?
 - Ce (ou groupe d’utilisateurs) a-t-il suggéré des cas d’utilisation pour cette phase ?  
@@ -52,21 +51,24 @@ Vous aurez probablement besoin d’implémenter quelques conventions d’affecta
 
 ### <a name="decision-3-guest-access"></a>Décision 3 : accès invité
 
-En fonction de l’étendue et du type de votre projet et de la nature de votre secteur, il est possible que vous deviez tester la collaboration avec des partenaires ou des fournisseurs. Vous pouvez limiter les personnes qui peuvent ajouter des invités à votre implémentation d’équipes en utilisant les contrôles client appropriés. 
+En fonction de l’étendue et du type de votre projet et de la nature de votre secteur, il est possible que vous deviez tester la collaboration avec des partenaires ou des fournisseurs. Vous pouvez limiter les personnes qui peuvent ajouter des invités à des équipes en utilisant les contrôles client appropriés et limiter les équipes qui sont ouvertes aux invités à l’aide d’étiquettes de sensibilité. Vous pouvez également vous assurer que les invités respectent les exigences de sécurité de l’organisation, telles que l’utilisation de l’authentification multifacteur (MFA).
 
 ### <a name="decision-4-approved-apps"></a>Décision 4 : applications approuvées
 
-La meilleure utilisation des équipes inclut l’intégration d’autres applications dans l’interface. Au minimum, votre équipe technique doit permettre aux applications de la première et des applications proposées dans votre interface d’équipe. En fonction de votre cas d’utilisation et d’autres applications utilisées dans votre organisation, vous pouvez choisir d’inclure d’autres applications dans le cadre de votre expérience contrôlée. 
+La meilleure utilisation des équipes inclut l’intégration d’autres applications dans l’interface. Au minimum, votre équipe technique doit permettre aux applications de la première et des applications proposées dans votre interface d’équipe. En fonction de votre cas d’utilisation et d’autres applications utilisées dans votre organisation, vous pouvez choisir d’inclure d’autres applications dans le cadre de votre expérience contrôlée. Assurez-vous d’obtenir des applications tierces pour s’assurer qu’elles respectent les exigences de sécurité et de conformité de votre organisation.
 
 ### <a name="decision-5-are-meetings-included-in-your-test"></a>Décision 5 : les réunions sont-elles incluses dans votre test ? 
 
-L’interface de réunion teams est haute qualité, prend en charge les discussions vidéo et permet d’améliorer l’efficacité de vos employés. Contactez votre équipe technique pour vous assurer que votre environnement est prêt à être utilisé pour inclure des réunions VoIP simples. L’activation de la fonction d’audioconférence ou de services vocaux sera normalement exclue de cette phase de votre expérimentation ; Toutefois, cela dépend de votre équipe de projet principale, de votre disponibilité technique et de l’état d’autres services vocaux/de réunion au sein de votre organisation. Nous vous recommandons d’inclure des conversations vidéo et des réunions VoIP dans votre expérimentation pour obtenir une plus grande valeur de l’implémentation de votre équipe. 
+L’interface de réunion teams est haute qualité, prend en charge les discussions vidéo et permet d’améliorer l’efficacité de vos employés. Contactez votre équipe technique pour vous assurer que votre environnement est prêt à être utilisé pour inclure des réunions VoIP simples. L’activation de la fonction d’audioconférence ou de services vocaux sera normalement exclue de cette phase de votre expérimentation ; Toutefois, cela dépend de votre équipe de projet principale, de votre disponibilité technique et de l’état d’autres services vocaux/de réunion au sein de votre organisation. La compatibilité technique doit inclure des éléments tels que le matériel de salle de réunion, les appareils et accessoires pour les utilisateurs finaux, ainsi que le réseau. Nous vous recommandons d’inclure des conversations vidéo et des réunions VoIP dans votre expérimentation pour obtenir une plus grande valeur de l’implémentation de votre équipe. 
 
-### <a name="decision-6--data-security"></a>Décision 6 : sécurité des données
+### <a name="decision-6-content-management-and-structure"></a>Décision 6 : gestion de contenu et structure
+Teams fonctionne de façon optimale lorsque les utilisateurs travaillent de bout en bout au sein de la plate-forme, au lieu de leur permettre de basculer continuellement vers les systèmes et services hérités, et propose de nouvelles méthodes de fonctionnement différentes de celles que les utilisateurs sont habitués. Dans le cadre de votre expérience, collaborez avec vos participants pour prendre en compte les structures et les canaux de l’équipe qui prennent en charge les méthodes de collaboration multimodales au sein des équipes, et évitez simplement de répliquer les structures de dossiers et de stockage existantes. Par ailleurs, prenez en compte les exigences de conformité relatives au contenu stocké hors des systèmes pris en charge existants tels que la gestion des enregistrements ou les systèmes de sauvegarde.
 
-En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance en équipe](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base a été définie pour les données d’équipe dans Microsoft 365 ou Office 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car les droits d’administrateur Microsoft 365 ou Office 365 sont requis pour terminer ce travail.
+### <a name="decision-7--data-security"></a>Décision 7 : sécurité des données
 
-### <a name="decision-7-length-of-your-experiment"></a>Décision 7 : durée de votre expérience
+En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance dans teams](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base est définie pour les données d’équipe dans Microsoft 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car vous devez disposer des droits d’administrateur Microsoft 365 pour terminer ce travail.
+
+### <a name="decision-8-length-of-your-experiment"></a>Décision 8 : durée de votre expérience
 
 Une implémentation de teams réussie est un bon rythme pour garantir une dynamique, un foyer et des connaissances appropriés. Nous vous conseillons de faire en sorte que la phase de votre projet soit de 60 jours pour garantir la durée de la période de travail de vos premiers entourages. Le développement d’une expérimentation trop longue a pour unique risque d’augmenter le risque d’un programme de changement d’échec ; Néanmoins, cette durée varie en fonction de chaque organisation.  
 

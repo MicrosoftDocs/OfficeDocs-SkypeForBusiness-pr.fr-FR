@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367594"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433047"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations d’application et accorder une autorisation d’administrateur dans le centre d’administration Microsoft teams
 
@@ -88,11 +88,12 @@ Pour afficher les autorisations RSC pour une application, procédez comme suit 
 
 Pour l’instant, la possibilité de réviser les autorisations et de consentement n’est pas disponible pour toutes les applications tierces inscrites dans Azure AD qui demandent des autorisations. À la place du lien **afficher les détails** , vous verrez **--** dans la colonne **autorisations** . Nous travaillons avec les éditeurs de logiciels indépendants pour activer cette fonctionnalité pour leurs applications.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer vos applications dans le centre d’administration Microsoft teams](manage-apps.md)
 - [Autorisations et consentement dans le point de terminaison de la plateforme d’identité Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [Autorisation spécifique aux ressources dans teams](resource-specific-consent.md)
 - [Autorisation spécifique aux ressources (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [Navigation dans le cycle de vie des applications teams](https://aka.ms/PR132) (enflammer 2020)
 
 

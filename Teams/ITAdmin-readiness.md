@@ -19,12 +19,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346195"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426929"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Mise en route des formations destinées aux administrateurs de Microsoft teams
 
@@ -56,9 +56,9 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 <h2>Notions de bases de teams pour les informaticiens &</h2>
 
-<p>Le tableau suivant contient des liens vers des formations vidéo complètes, avec des supports de présentation PowerPoint connexes, sur les salles de Microsoft Teams.  
+<p>Le tableau suivant contient des liens vers des formations vidéo complètes grâce aux supports de présentation PowerPoint accompagnés d’une présentation PowerPoint (au format PDF).  
 
-| Module | Vidéo | Présentation PowerPoint  |
+| Module | Vidéo | Présentation PowerPoint (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Module 1 : présentation des salles de Microsoft Teams (18:29 minutes) | [Vidéo](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Module 2 : réseau Microsoft Teams (34:10 min) | [Vidéo](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

@@ -1,7 +1,7 @@
 ---
 title: Application réservations et visites virtuelles dans Microsoft teams
-author: mattpennathe3rd
-ms.author: v-mapenn
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: Microsoft teams et les visites virtuelles à l’aide de l’application Réservations
-ms.openlocfilehash: b00a42ab7d0b590d706b8e3218f24d13b945b731
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280286"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427679"
 ---
 # <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Application réservations et visites virtuelles dans Microsoft teams
 
@@ -90,6 +90,6 @@ Vos commentaires sont les suivants :
   
 Pour envoyer des commentaires, cliquez sur le bouton **aide** en bas de la barre de navigation gauche de teams, puis cliquez sur **signaler un problème** pour **tous les** problèmes. Veuillez noter au début de votre rapport de commentaires que vous envoyez des commentaires sur « réservations » pour nous permettre d’identifier facilement les problèmes liés aux réservations.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Documentation relative aux réservations pour les utilisateurs finaux](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: Utiliser le Cloud Video Interop comme solution intermédiaire pour permettre à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 7f812d27b07dadb2f60bf77302e18eb0879f977e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177388"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433079"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -126,7 +126,7 @@ Si teams fonctionne correctement sur ce segment et que vous avez également suiv
 
 Les applets de commande PowerShell suivantes sont disponibles pour vous pour (partiellement) automatiser le déploiement d’interopérabilité de la vidéo Cloud.
 
-- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft fournit des stratégies préconçues pour chacun de nos partenaires pris en charge, qui vous permettent de désigner le ou les partenaires à utiliser pour l’interopérabilité de la vidéo Cloud.<br>Cette applet de connexion vous permet d’identifier les politiques prédéfinies que vous pouvez utiliser au sein de votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l’applet de passe Grant-CsTeamsVideoInteropServicePolicy.
+- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft fournit des stratégies préconçues pour chacun de nos partenaires pris en charge, qui vous permettent de désigner le ou les partenaires à utiliser pour l’interopérabilité de la vidéo Cloud.<br>Cette applet de connexion vous permet d’identifier les politiques prédéfinies que vous pouvez utiliser au sein de votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l’applet de Grant-CsTeamsVideoInteropServicePolicy.
 - **Grant-CsTeamsVideoInteropServicePolicy**: cette applet de connexion vous permet d’assigner une stratégie préconçue pour une utilisation au sein de votre organisation ou d’affecter la stratégie à des utilisateurs spécifiques.
 - **New-CsVideoInteropServiceProvider**: cette applet de cmdlet permet de spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
 - **Set-CsVideoInteropServiceProvider**: utilisez cette applet de cmdlet pour mettre à jour des informations sur un partenaire CVI pris en charge utilisé par votre organisation.

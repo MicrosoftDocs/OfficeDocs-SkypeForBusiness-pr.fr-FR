@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65fd33ed47b54d220925353bdb350557fc81bcb
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308187"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424654"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-console"></a>Commencer à utiliser les modèles teams dans la console d’administration
+# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Commencer à utiliser les modèles teams dans le centre d’administration
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -109,7 +109,7 @@ Les modèles sont limités à un nombre déterminé de canaux, d’onglets et d�
 
 Pour plus d’informations [, voir limites et spécifications de teams](limits-specifications-teams.md) .
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Créer un modèle d’équipe personnalisé](create-a-team-template.md)
 - [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](create-template-from-existing-template.md)

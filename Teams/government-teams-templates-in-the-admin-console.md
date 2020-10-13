@@ -1,5 +1,5 @@
 ---
-title: Utiliser les modèles gouvernementaux d’équipe dans la console d’administration
+title: Utiliser les modèles du ministère des équipes dans le centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour les besoins d’administration grâce aux paramètres prédéfinis, aux canaux et aux applications préinstallées à l’aide de la console d’administration.
+description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour les besoins d’administration grâce aux paramètres prédéfinis, aux canaux et aux applications préinstallées à l’aide du centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308137"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424714"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>Utiliser les modèles gouvernementaux d’équipe dans la console d’administration
+# <a name="use-teams-government-templates-in-the-admin-center"></a>Utiliser les modèles du ministère des équipes dans le centre d’administration
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

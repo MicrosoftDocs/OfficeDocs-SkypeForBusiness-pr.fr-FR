@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie d’équipe pour votre organisation de santé.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803969"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427169"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Packages de stratégie d’équipe pour la santé
 
@@ -52,6 +52,16 @@ Chaque stratégie individuelle dispose du nom du package de stratégie, ce qui v
 
 ![Capture d’écran des politiques dans l’offre pour le travail clinique de santé](media/policy-packages-healthcare-clinical-worker.png)
 
+## <a name="get-started-with-policy-packages"></a>Découvrir les packages de stratégie
+
+Pour vous aider à prendre en main les packages de stratégie de santé, sur le concentrateur Microsoft Admin Center, sélectionnez **notions de base**pour la santé, puis sélectionnez **attribuer des paramètres de stratégie par rôle**. Lorsque vous êtes prêt à commencer, déterminez les packages de stratégie auxquels vous souhaitez affecter des personnes à votre organisation.
+
+Pour en savoir plus sur les stratégies spécifiques d’un package et leurs paramètres respectifs, sélectionnez **afficher les détails** de la stratégie. Celles-ci [peuvent être personnalisées](manage-policy-packages.md#customize-policies-in-a-policy-package) après affectation dans le centre d’administration Teams.
+
+Sélectionnez un ou plusieurs packages à attribuer, puis cliquez sur **suivant**. Vous pouvez rechercher et ajouter des personnes au package de stratégie qui conviennent le mieux à leur rôle. Un individu ne peut pas être attribué à plusieurs packages de stratégies en même temps.
+
+Une fois que vous avez ajouté des personnes au package de stratégie approprié, **Terminer** finalise vos sélections. Vous pouvez continuer à personnaliser et gérer des packages de stratégie dans le centre d’administration Microsoft Teams.
+
 ## <a name="manage-policy-packages"></a>Gérer vos packages de stratégie
 
 ### <a name="view"></a>Afficher
@@ -76,7 +86,7 @@ Pour plus d’informations sur l’affectation d’un package de stratégie à l
 
 Si une stratégie est affectée à un utilisateur et que vous affectez une autre stratégie, l’affectation la plus récente est prioritaire.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les packages de stratégie dans Teams](manage-policy-packages.md)
 

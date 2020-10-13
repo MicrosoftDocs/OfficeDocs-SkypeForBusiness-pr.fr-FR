@@ -1,5 +1,5 @@
 ---
-title: Utiliser les modèles d’équipes généraux dans la console d’administration
+title: Utiliser les modèles d’équipes généraux dans le centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Apprenez à utiliser les modèles d’équipes générales pour créer des structures d’équipe en fournissant des paramètres, canaux et applications prédéfinis prédéfinis à l’aide de la console d’administration.
+description: Découvrez comment utiliser les modèles d’équipes générales pour créer des structures d’équipe en fournissant des paramètres, canaux et applications prédéfinis prédéfinis à l’aide du centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a16634246bf301cde3b9cbdbd5df551b10706471
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2905fe25d3051f322630d75473597e69425e2dc0
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308157"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424704"
 ---
-# <a name="use-general-teams-templates-in-the-admin-console"></a>Utiliser les modèles d’équipes généraux dans la console d’administration
+# <a name="use-general-teams-templates-in-the-admin-center"></a>Utiliser les modèles d’équipes généraux dans le centre d’administration
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

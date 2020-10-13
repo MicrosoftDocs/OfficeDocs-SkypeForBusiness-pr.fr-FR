@@ -1,5 +1,5 @@
 ---
-title: Commencer à utiliser les modèles de fabrication d’équipes dans la console d’administration
+title: Commencer à utiliser teams fabrication de modèles dans le centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour les besoins en fabrication en fournissant des paramètres, canaux et applications prédéfinis prédéfinis à l’aide de la console d’administration.
+description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour la fabrication en fournissant des paramètres prédéfinis, des canaux et des applications préinstallées à l’aide du centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308397"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424614"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Utiliser les modèles de fabrication d’équipes dans la console d’administration
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Utiliser les modèles de fabrication d’équipes dans le centre d’administration
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

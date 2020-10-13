@@ -1,5 +1,5 @@
 ---
-title: Commencer à utiliser des modèles financiers d’équipe à l’aide de la console d’administration
+title: Utiliser le centre d’administration pour prendre en main les modèles financiers d’équipes
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour les besoins financiers en fournissant des paramètres prédéfinis, des canaux et des applications préinstallées à l’aide de la console d’administration.
+description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour les besoins financiers grâce aux paramètres prédéfinis, aux canaux et aux applications préinstallées à l’aide du centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294410"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424604"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-console"></a>Utiliser les modèles financiers d’équipes dans la console d’administration
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>Utiliser les modèles financiers d’équipes dans le centre d’administration
 
 Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
 
