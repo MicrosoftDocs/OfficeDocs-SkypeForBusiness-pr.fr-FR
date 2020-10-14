@@ -19,25 +19,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Apprenez à configurer les jours fériés dans Microsoft teams et à les connecter à votre standard automatique à l’aide de la fonctionnalité jours fériés.
-ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: Apprenez à configurer les jours fériés dans Microsoft teams pour les utiliser avec vos standards automatiques.
+ms.openlocfilehash: cac41995f8faa072eaac2596d246808ac77fe431
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255407"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444247"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
-Vous pouvez utiliser la fonctionnalité jours fériés de Microsoft teams pour planifier des dates et heures spécifiques lorsque des personnes dans votre organisation pourront prendre des congés et ne seront pas disponibles pendant les heures d’ouverture normales. 
+Vous pouvez utiliser la fonction jours fériés de Microsoft teams pour planifier des dates et heures spécifiques lorsque des personnes dans votre organisation devront prendre des congés de travail et ne seront pas disponibles. Par exemple, il est possible que vous deviez créer un jour férié pour les nouveaux ans lorsque la plupart de vos employés ne sont pas au bureau.
 
-Vous pouvez lier les jours fériés aux standards automatiques que vous créez au sein de votre organisation. Les standards automatiques permettent aux appelants de naviguer dans un système de menus pour accéder au service approprié ou accéder aux informations dont ils ont besoin. Lorsque vous configurez les paramètres d’appel des jours fériés pour un standard automatique, vous pouvez sélectionner le jour férié dans une liste, ajouter un message d’accueil et spécifier la procédure à suivre en cas de réponse par le standard automatique pendant les vacances.
-
-Par exemple, nous vous conseillons de créer des vacances pour Noël lorsque la majorité de vos employés ne le travaillent pas. Une fois que vous avez créé les jours fériés et des heures, vous ajoutez le jour férié à votre standard automatique principal de sorte que les participants puissent entendre un message audio que vous avez créé. Par exemple, «nous sommes fermés pour Noël du 22 décembre au 27 décembre. N’hésitez pas à nous laisser un message vocal pour que nous puissions vous appeler lorsque nous revenons au bureau.»
-
-Pour plus d’informations sur les standards automatiques, voir [que sont les standards automatiques Cloud](what-are-phone-system-auto-attendants.md)?  
+Les jours fériés que vous créez ici sont disponibles lorsque vous [configurez un standard automatique](create-a-phone-system-auto-attendant.md), qui dispose de ses propres paramètres d’accueil et d’acheminement des appels.
 
 ## <a name="create-a-holiday"></a>Créer un jour férié
+
+Pour créer un jour férié :
 
 1. Dans le centre d’administration de Microsoft Teams, accédez à la **section**  >  **jours fériés**.
 
@@ -55,9 +53,15 @@ Pour plus d’informations sur les standards automatiques, voir [que sont les st
 
 8. Utilisez la liste déroulante pour sélectionner une heure de fin pour le jour férié.
 
-9. Sélectionnez **Save (enregistrer**).
+9. Vous pouvez également ajouter d’autres dates aux jours fériés récurrents.
+
+10. Sélectionnez **Save (enregistrer**).
+
+    ![](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Modification d’un jour férié
+
+Pour changer un jour férié :
 
 1. Dans le centre d’administration de Microsoft Teams, accédez à la **section**  >  **jours fériés**.
 
@@ -73,21 +77,6 @@ Pour plus d’informations sur les standards automatiques, voir [que sont les st
 
 7. Sélectionnez **Save (enregistrer**).
 
-## <a name="connect-a-holiday-to-an-auto-attendant"></a>Connecter un jour férié à un standard automatique
+## <a name="related-topics"></a>Rubriques connexes
 
-1. Dans le centre d’administration de Microsoft teams **Voice**, accédez à  >  **standards automatiques**de voix.
-2. Sélectionnez un compte de ressources dans la liste.
-3. Dans le volet de gauche, sélectionnez **paramètres des appels de vacances**.
-4. Sélectionnez **nouveau jour férié**.
-5. Sélectionnez le jour férié dans la liste déroulante.
-6. Vous pouvez ajouter un message d’accueil facultatif :
-    - Pour lire un message d’accueil enregistré, sélectionnez **lire un fichier audio**, puis **Télécharger un fichier**. Naviguez jusqu’à l’emplacement du fichier audio, sélectionnez le fichier, puis sélectionnez **ouvrir**.
-    - Pour créer un message d’accueil, sélectionnez **taper un message d’accueil**, puis tapez votre message. Les appelants entendront ce message si vous n’avez pas fourni de fichier audio.
-7. Pour mettre fin à l’appel après le message d’accueil, sous **actions**, sélectionnez **déconnecter**. 
-
-    Pour rediriger l’appel, sélectionnez **Rediriger**l’appel, puis sélectionnez la personne qui recevra l’appel Redirigé dans la liste déroulante ou recherchez la personne par son nom d’affichage.
-8. Sélectionnez **Save (enregistrer**).
-
-## <a name="related-topics"></a>Voir aussi
-
-[Que sont les standards automatiques Cloud](what-are-phone-system-auto-attendants.md)?
+[Plan pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md)

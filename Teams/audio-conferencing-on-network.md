@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Les rubriques suivantes décrivent les fonctionnalités d’aperçu ouvert pour l’audioconférence sur le réseau.
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369179"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444210"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Aperçu avant impression de l’audioconférence sur réseau pour les conférences audio
 
@@ -38,7 +38,7 @@ Cet article décrit les prérequis et les étapes de configuration nécessaires 
 
 Avant de configurer une conférence sur le réseau, assurez-vous que votre organisation remplit les conditions préalables suivantes : 
 
-- Assurez-vous que tous les utilisateurs de votre organisation qui sont activés ou seront activés pour les conférences audio en mode équipes uniquement. Le routage des appels de conférences audio entrants et sortants par le biais de conférences sur le réseau est uniquement pris en charge pour les réunions Teams.
+- Assurez-vous que tous les utilisateurs de votre organisation qui sont activés ou qui sont activés pour les conférences audio utilisent teams pour toutes les réunions. Le routage des appels de conférences audio entrants et sortants par le biais de conférences sur le réseau est uniquement pris en charge pour les réunions Teams.
 
 - Attribuez des licences de conférence audio à tous les utilisateurs qui utiliseront une conférence sur le réseau.
 
@@ -67,7 +67,7 @@ Pour activer le routage de numérotation des réunions teams via le routage dire
 
 La stratégie OnlineAudioConferencingRoutingPolicy est équivalente au CsOnlineVoiceRoutingPolicy pour les appels RTC 1:1 via le routage direct. La stratégie OnlineAudioConferencingRoutingPolicy peut être gérée à l’aide des applets de commande suivantes :
 
--   Nouveau-CsOnlineAudioConferencingRoutingPolicy
+-   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
 - Grant-CsOnlineAudioConferencingRoutingPolicy
@@ -101,7 +101,7 @@ Les utilisations RTC sont des collections d’itinéraires vocaux. Lorsqu’un a
 
 Vous pouvez créer une utilisation PSTN à l’aide de l’applet de commande « Set-CsOnlinePstnUsage ». Par exemple :
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ Les itinéraires vocaux déterminent la passerelle RTC qui doit être utilisée 
 
 Vous pouvez créer un itinéraire vocal et définir la fonction Regex et les passerelles à associer à l’itinéraire vocal à l’aide de l’applet de nouvelle applet de nouvelle-CsOnlineVoiceRoute. Par exemple :
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ Les stratégies de routage vocal de l’audioconférence déterminent les itiné
 
 Vous pouvez créer une stratégie de routage téléphonique de l’audioconférence à l’aide de l’applet de nouvelle applet de nouvelle-CsOnlineAudioConferencingRoutingPolicy. Par exemple :
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ Une fois les stratégies de routage de l’audioconférence définies, vous pouv
 
 Vous pouvez assigner une stratégie de routage téléphonique de l’audioconférence à un utilisateur à l’aide de l’applet de cmdlet « Grant-CsOnlineAudioConferencingRoutingPolicy ». Par exemple :
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Configurer le routage sur l’équipement de téléphonie de votre organisation
 
-Dans le cadre de l’équipement de téléphonie de votre organisation, vous devez vous assurer que les appels commutés de réunion routés via le routage direct sont routés vers la destination prévue.
+Sur l’équipement de téléphonie de votre organisation, vous devez vous assurer que les appels dial-out de réunion routés via le routage direct sont routés vers la destination sur le réseau prévue.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>Facultatif Configurer un plan de numérotation
@@ -164,6 +164,6 @@ Vous trouverez ci-dessous une liste des problèmes connus actuellement présents
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 

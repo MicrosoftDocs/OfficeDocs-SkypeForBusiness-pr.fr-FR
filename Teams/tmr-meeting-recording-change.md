@@ -16,17 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444230"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
 > [!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour OneDrive Entreprise et SharePoint pour les enregistrements de réunion auront une approche progressive. Au démarrage, les administrateurs de clients peuvent choisir cette nouvelle option de flux de travail dès aujourd’hui et commencer à voir les enregistrements téléchargés automatiquement dans OneDrive entreprise et SharePoint en octobre 2020. En novembre, vous devrez annuler votre abonnement si vous voulez continuer à utiliser le flux et à quelques instants dans les 2021 au début, nous aurons besoin de tous les clients d’utiliser OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+> Le changement de l’utilisation de Microsoft Stream sur OneDrive entreprise et Microsoft SharePoint pour les enregistrements de réunion sera une approche progressive.
+
+|||
+|---|-----------------|
+|Date|Événement|
+|Débuts du 4e CY20|**L’enregistrement de la réunion teams sur OneDrive entreprise et SharePoint disponible pour la possibilité de participer ou d’être désactivé.**<br> Les administrateurs de clients peuvent accepter ou désactiver OneDrive entreprise et définir la stratégie d’équipe dans PowerShell.|
+|Milieu du 4e CY20|**Enregistrement des réunions teams dans OneDrive entreprise et SharePoint par défaut pour les clients qui n’ont pas choisi de désactiver**<br> C’est le chemin d’accès recommandé pour la plupart des clients|
+Q1 CY21|**L’enregistrement d’équipes de réunion dans un flux classique n’est plus autorisé**<br>Tous les clients enregistrent l’enregistrement des réunions d’équipes dans OneDrive entreprise et SharePoint|
+|||
 
 Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme la première phase d’une transition à partir du flux Microsoft classique vers le [nouveau flux](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive et SharePoint dans Microsoft 365 et offre de nombreux avantages.
 

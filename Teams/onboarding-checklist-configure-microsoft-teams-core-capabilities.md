@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d21e120feee26230c225e59b462e35e47e4e12e1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a1881afc4897ca6321cd56609e491aef144e10da
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665176"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456088"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurer les fonctionnalités principales de Microsoft teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "44665176"
 | 4  | Configurer les paramètres d’équipes à l’échelle du client | Vous pouvez configurer certains paramètres d’équipes au niveau du client. Les utilisateurs qui sont activés pour les équipes héritent de ces paramètres de la configuration du client :<ul><li>Général</li><li>Intégration de courrier électronique</li><li>Applications</li><li>Stockage cloud personnalisé</li><li>Appels et réunions</li><li>Messagerie</li></ul>| | [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md) |
 | 5  | FACULTATIF : configurer l’accès invité | Vous utilisez l’accès invité dans Microsoft teams pour collaborer avec des personnes extérieures à votre organisation en leur accordant un accès aux équipes et aux canaux. L’accès invité est un paramètre au niveau du client dans Teams. Cette option est désactivée par défaut. <br/>Activez l’accès invité et configurez les paramètres d’invité à l’échelle du client si votre organisation envisage d’utiliser cette fonctionnalité. | | [Accès invité dans Microsoft Teams](guest-access.md) |
 | 6  | FACULTATIF : configurer une stratégie d’appellation des équipes | Teams exploite les stratégies d’appellation pour les groupes Microsoft 365 lorsque les utilisateurs créent et modifient des noms d’équipe. <br/><br/>Par défaut, aucune restriction d’appellation n’est appliquée lorsqu’un utilisateur crée une équipe. <br/><br/>Si vous devez appliquer des règles pour les noms d’équipes, configurez les stratégies d’attribution de noms de groupes Microsoft 365 qui s’appliquent à votre organisation. Vous pouvez définir des préfixes et des suffixes obligatoires et spécifier des mots bloqués. | | [Planifier les groupes Microsoft 365 lors de la création d’équipes dans Microsoft teams](plan-office-365-groups.md) <br/><br/>[Stratégie d’attribution de noms de groupes Microsoft 365](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
-| 7  | Configurer Exchange pour le domaine SMTP teams | Teams utilise Exchange Online pour envoyer des notifications aux membres d’une équipe à l’aide du domaine SMTP, email.teams.microsoft.com, lorsqu’ils ont été ajoutés ou supprimés. <br/><br/>Veillez à ajouter ce domaine SMTP à la liste domaines approuvés dans votre infrastructure Exchange. | | [Ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online](smtp-accepted-domain.md) |
+| 7  | Configurer Exchange pour le domaine SMTP teams | Teams utilise Exchange Online pour envoyer des notifications aux membres d’une équipe à l’aide du domaine SMTP, email.teams.microsoft.com, lorsqu’ils ont été ajoutés ou supprimés. <br/><br/>Veillez à ajouter ce domaine SMTP à la liste domaines approuvés dans votre infrastructure Exchange. | | [Créer des listes d’expéditeurs approuvés dans Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?view=o365-worldwide) |
 | version8  | Configurer et gérer l’accès des utilisateurs à teams | Même s’il est vivement recommandé d’activer tous les utilisateurs pour les équipes, vous pouvez autoriser ou interdire l’accès aux équipes par utilisateur en attribuant ou en supprimant la licence de produit Teams. | | [Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md) |
 | 09  | Attribution de licences à des utilisateurs | Attribution de licences à vos utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels | | [Affectation de licences de compléments Microsoft teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 0,10 | Facultatif : utiliser PowerShell pour gérer teams | Vous pouvez utiliser les applets de applet PowerShell plutôt que le centre d’administration Microsoft 365 pour administrer et gérer les paramètres d’équipe. | | [Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur le magasin d’applications personnalisé dans Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcfaee55f73ef86f1a03e99364fde1aaa306ed8a
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359887"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456148"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisé dans Microsoft teams
 
@@ -57,7 +57,7 @@ Le logo apparaît dans le coin supérieur droit du catalogue d’applications du
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Le logomark ou le petit logo de votre organisation est une image ou un symbole qui représente la marque de votre organisation et ne contient pas le nom de votre entreprise. Le logomark permet aux membres de l’équipe d’identifier la Banque d’applications. Le logo sélectionné s’affiche dans la page client teams de l’application.
+Le Lovemark ou le petit logo de votre organisation est une image ou un symbole qui représente la marque de votre organisation et ne contient pas le nom de votre entreprise. Le logomark permet aux membres de l’équipe d’identifier la Banque d’applications. Le logo sélectionné s’affiche dans la page client teams de l’application.
 
 Lorsque vous sélectionnez l’option **choisir une image** , vous pouvez télécharger le fichier de votre choix. Le logomark doit être de 32 x 32 pixels, ou il sera mis à l’échelle à cette taille. Sa taille ne doit pas être supérieure à 5 Mo. Les formats pris en charge sont les suivants :
 
@@ -100,8 +100,8 @@ Lorsque vous sélectionnez **choisir une couleur personnalisée**, un sélecteur
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Achevez la personnalisation de votre magasin d’applications d’équipe
 
-Lorsque vous avez terminé de personnaliser votre magasin d’applications, veillez à cliquer sur **Enregistrer** pour enregistrer vos modifications.
-Pour afficher un aperçu de vos modifications, cliquez sur **aperçu des applications Store** pour afficher une représentation de votre magasin d’applications personnalisées.
+Lorsque vous avez terminé de personnaliser votre magasin d’applications, veillez à sélectionner **Enregistrer** pour enregistrer vos modifications.
+Pour afficher un aperçu de vos modifications, sélectionnez **aperçu des applications Store** pour afficher une représentation de votre magasin d’applications personnalisées.
 
 > [!Note]
 > La représentation peut varier en fonction de la version finale de votre magasin d’applications personnalisées, car certaines couleurs par défaut sont basées sur la version du client teams de vos utilisateurs.
