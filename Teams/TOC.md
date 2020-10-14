@@ -770,6 +770,7 @@
 ### [Présentation du contrôle des stratégies](policy-control-overview.md)
 ### [Données de diagnostic mobiles](policy-control-diagnostic-data-mobile.md)
 ### [Données de diagnostic du client de bureau](policy-control-diagnostic-data-desktop.md)
+### [Vue d’ensemble des expériences connectées facultatives pour Microsoft Teams](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Surveillance, maintenance et résolution des problèmes
@@ -861,7 +862,7 @@
 ### [Améliorer les groupes Microsoft 365 existants avec Teams](enhance-office-365-groups.md)
 ### [Interaction entre Exchange et Microsoft Teams](exchange-teams-interact.md)
 #### [Configurer une organisation Exchange hybride à utiliser avec Microsoft Teams](exchange-hybrid-organization.md)
-#### [Ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online](smtp-accepted-domain.md)
+#### [Utiliser des règles de flux de courrier avec Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](sharepoint-onedrive-interact.md)
 ### [Expérience Teams dans une location compatible avec Multi-Geo Microsoft 365 ou Office 365](teams-experience-o365odb-spo-multi-geo.md)
 
