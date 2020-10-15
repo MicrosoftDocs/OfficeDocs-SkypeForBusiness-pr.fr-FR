@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: En savoir plus sur les fonctionnalités de soins à la santé incluant la coordination des soins, la messagerie sécurisée, la visite virtuelle, l’intégration DMI et l’intégration du système de travail terrain.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: 07f5e87a454091319775bf5e1124e2c4651ea736
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433057"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469550"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -92,8 +92,6 @@ Pour plus d’informations sur l’implémentation, voir [intégration d’enreg
 De nouveaux modèles de création d’équipes ont été développés pour s’appliquer à un environnement d’hôpital et de plus en plus sont prévus. Ainsi, il est plus facile de créer des équipes que les travailleurs de la santé utilisent pour coordonner les soins des patients dans divers services ou vers l’extérieur. Voir [commencer par les modèles d’équipes pour les entreprises de santé](healthcare-templates.md). Les équipes peuvent être démarrées pour les services internes tels que Cardiology ou pour les soins de niveau supérieur, et de plus en plus de modèles en développement.
 
 ## <a name="lists-app"></a>Application listes
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 L’application listes dans teams permet aux équipes de suivre les informations et d’organiser le fonctionnement. L’application est préinstallée pour tous les utilisateurs d’teams et est disponible sous forme d’onglet dans chaque équipe ou canal. Les listes peuvent être créées à partir de zéro, de modèles prédéfinis ou d’importation de données dans Excel.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation multimédia avec le routage direct du système téléphonique, qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691250"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469580"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -36,7 +36,8 @@ Les diagrammes ci-dessous montrent la différence de flux d’appels avec et san
 
 Sans dérivation multimédia, quand un client effectue ou reçoit un appel, la signalisation et le flux multimédia entre le SBC, le système Microsoft Phone et le client Teams, comme indiqué dans le schéma suivant :
 
-![Affiche la signalisation et le flux multimédia sans contournement du support multimédia](media/direct-routing-media-bypass-1.png)
+> [!div class="mx-imgBorder"]
+> ![Affiche la signalisation et le flux multimédia sans contournement du support multimédia](media/direct-routing-media-bypass-1.png)
 
 
 Par exemple, supposons qu’un utilisateur se trouve dans le même bâtiment ou réseau que l’SBC. Par exemple, supposons qu’un utilisateur participant à un bâtiment à Francfort effectue un appel vers un utilisateur RTC : 
@@ -47,7 +48,8 @@ Par exemple, supposons qu’un utilisateur se trouve dans le même bâtiment ou 
 
 - Par le biais du **contournement du contenu multimédia**, le média est maintenu directement entre l’utilisateur teams et l’élément SBC, comme illustré dans le schéma suivant :
 
-![Affiche le signalement et le flux multimédia avec une dérivation multimédia](media/direct-routing-media-bypass-2.png)
+  > [!div class="mx-imgBorder"]
+  > ![Affiche le signalement et le flux multimédia avec une dérivation multimédia](media/direct-routing-media-bypass-2.png)
 
 La fonction de contournement de média utilise des protocoles appelés interactifs (ICE) sur le client teams et ICE Lite sur l’SBC. Ces protocoles permettent le routage direct pour utiliser le chemin multimédia le plus direct pour une qualité optimale. ICE et ICE Lite sont des normes WebRTC. Pour plus d’informations sur ces protocoles, voir RFC 5245.
 
@@ -68,11 +70,12 @@ Si l’utilisateur a un accès direct à l’adresse IP publique de l’SBC, le 
 
 Le diagramme suivant illustre le flux d’appels lorsque la dérivation de média est activée, que le client est interne et que le client peut accéder à l’adresse IP publique de l’SBC (direct Media) : 
 
-- Les flèches et les valeurs numériques des chemins sont conformes à l’article [flux d’appels de Microsoft teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
+- Les flèches et les valeurs numériques des chemins sont conformes aux [flux d’appels de Microsoft teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
 
 - Le signalement SIP accepte toujours les chemins 4 et 4 (selon la direction du trafic). Le contenu multimédia reste local et prend le chemin 5b.
 
-![Flux d’appels avec contournement de média activé, le client est interne](media/direct-routing-media-bypass-3.png)
+> [!div class="mx-imgBorder"]
+> ![Flux d’appels avec contournement de média activé, le client est interne](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC
@@ -88,11 +91,12 @@ Par exemple, supposons que l’utilisateur est externe et que l’administrateur
 
 Le diagramme suivant illustre le flux d’appels lorsque la dérivation de média est activée, que le client est externe et que le client ne peut pas accéder à l’adresse IP publique du contrôleur de bordure de session (le contenu multimédia est relayée par teams Relay Relay).
 
-- Les flèches et les valeurs numériques des chemins sont conformes à l’article [flux d’appels de Microsoft teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
+- Les flèches et les valeurs numériques des chemins sont conformes aux [flux d’appels de Microsoft teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
 
 - Les médias sont relayés par le biais de chemins d’accès 3, 3, 4 et 4 '
 
-![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC](media/direct-routing-media-bypass-4.png)
+> [!div class="mx-imgBorder"]
+> ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flux d’appels s’il se trouve hors du réseau et a accès à l’adresse IP publique de l’SBC
@@ -106,7 +110,8 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 - Le signalement SIP accepte toujours les chemins 3 et 3 (selon la direction du trafic). Flux multimédias utilisant Path 2.
 
-![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC](media/direct-routing-media-bypass-5.png)
+> [!div class="mx-imgBorder"]
+> ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Utilisation de processeurs multimédias et de relais de transport
@@ -126,7 +131,8 @@ Le schéma suivant montre deux flux d’appels : l’un avec la dérivation mul
 
 - Le proxy SIP est un composant qui convertit la signalisation HTTP REST utilisée dans teams pour SIP.    
 
-![Flux d’appels avec contournement de média activé et désactivé](media/direct-routing-media-bypass-6.png)
+> [!div class="mx-imgBorder"]
+> ![Flux d’appels avec contournement de média activé et désactivé](media/direct-routing-media-bypass-6.png)
 
 
 Le tableau ci-dessous résume la différence entre les processeurs multimédias et les relais de transport.
@@ -143,7 +149,7 @@ Les plages d’adresses IP sont les suivantes :
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
 - 52.120.0.0/14 (adresses IP de 52.120.0.1 à 52.123.255.254)
 
-\*Explication du transcodage : 
+\* Explication du transcodage : 
 
 - Le processeur de média est B2BUA, ce qui signifie qu’il peut changer un codec (par exemple, soie du client teams vers MP et G. 711 entre MP et SBC).
 
@@ -190,6 +196,8 @@ Pour pouvoir effectuer les opérations suivantes, vous devez placer ces trois no
 Les noms de domaine complets **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Microsoft.com**et **sip3.pstnhub.Microsoft.com** seront résolus vers l’une des adresses IP suivantes :
 - 52.114.148.0
 - 52.114.132.46
+- 52.114.16.74
+- 52.114.20.29
 - 52.114.75.24
 - 52.114.76.76
 - 52.114.7.24
@@ -346,8 +354,8 @@ Utilisateurs avec relais multimédia | CX3-20 | sbc2.contoso.com:5061 | false |
 
 Les deux Trunks peuvent pointer sur la même SBC avec la même adresse IP publique. Les ports de signalisation TLS de l’SBC doivent être différents, comme indiqué dans le schéma suivant. Remarque vous devrez vous assurer que votre certificat prend en charge les deux Trunks. Dans SAN, vous devez avoir deux noms (**sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 
-
-![Affiche les deux liaisons peuvent pointer sur le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
+> [!div class="mx-imgBorder"]
+> ![Affiche les deux liaisons peuvent pointer sur le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
 
 Pour plus d’informations sur la configuration de deux lignes sur le même SBC, voir la documentation fournie par votre fournisseur de SBC :
 

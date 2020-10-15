@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277283"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469560"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application listes de votre organisation dans Microsoft teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview-of-lists"></a>Vue d’ensemble des listes
 
@@ -116,6 +114,6 @@ Les listes prennent en charge l' [automate Power](https://preview.flow.microsoft
   
 Pour nous envoyer des commentaires ou signaler un problème, cliquez sur **aide** en bas de la barre de navigation gauche dans équipes, puis sélectionnez **signaler un problème**. Sélectionnez **listes**, puis entrez vos commentaires ou détails sur le problème que vous rencontrez.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Affiche la documentation d’aide](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
