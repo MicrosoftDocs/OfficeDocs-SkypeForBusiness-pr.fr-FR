@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486759"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Considérations RTC lors de la mise à niveau vers teams &mdash; pour les administrateurs informatiques
 
@@ -44,7 +44,8 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
 
 
  > [!NOTE]
- > L’utilisation du système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
+ > - L’utilisation du système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
+ > - Les paramètres de transfert d’appel et de délégation de Skype entreprise ne sont pas migrés et devront être recréés pour Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Scénarios d’appel RTC
@@ -109,7 +110,7 @@ Les étapes de base sont décrites ci-dessous.  Les étapes 1-5 sont répertori�
 
 6. Mise à niveau de l’utilisateur : les étapes suivantes doivent être coordonnées. 
 
-   - À l’aide des outils Skype entreprise en local, exécutez l’option Move-CsUser with-MoveToTeams. Si vous utilisez une version de Skype entreprise Server qui ne prend pas en charge le commutateur-MoveToTeams, vous devez d’abord lancer Move-CsUser, puis attribuer le mode TeamsOnly dans la console d’administration distante du client ou Teams.
+   - À l’aide des outils Skype entreprise locaux, exécutez Move-CsUser avec le commutateur-MoveToTeams. Si vous utilisez une version de Skype entreprise Server qui ne prend pas en charge le commutateur-MoveToTeams, vous devez d’abord exécuter Move-CsUser puis affecter le mode TeamsOnly dans la console d’administration distante du client.
 
    - Sur la SBC, configurez le routage de la voix pour permettre les appels entrants en envoyant des appels vers le routage direct plutôt que vers le serveur de médiation local. 
 

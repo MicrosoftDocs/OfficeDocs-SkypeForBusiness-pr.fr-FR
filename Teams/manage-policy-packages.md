@@ -20,17 +20,17 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft teams pour simplifier, simplifier et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48370568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48488397"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
 > [!NOTE]
-> L’une des fonctionnalités décrites dans cet article, [packages de stratégie personnalisés](#custom-policy-packages), n’a pas encore été publiée. Il est bientôt disponible en version préliminaire privée.
+> L’une des fonctionnalités décrites dans cet article, [packages de stratégie personnalisés](#custom-policy-packages), est actuellement en version préliminaire privée.
 
 Un package de stratégie dans Microsoft teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires au sein de votre organisation. Nous avons conçu des packages de stratégie pour simplifier, rationaliser et garantir la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs au sein de votre organisation.  
 
@@ -157,7 +157,7 @@ Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des u
 
 Cela risque de se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées. Réattribuez-le à vos utilisateurs. Le renouvellement de l’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
 

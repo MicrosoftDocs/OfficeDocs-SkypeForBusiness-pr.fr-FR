@@ -17,17 +17,17 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486779"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
 
-En tant qu’administrateur, la page gérer les applications dans le centre d’administration Microsoft teams vous permet d’afficher et de gérer toutes les applications d’équipe pour votre organisation. Dans cet exemple, vous pouvez voir l’état de niveau de l’organisation et les propriétés des applications, approuver ou télécharger de nouvelles applications personnalisées dans le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, ajouter des applications aux équipes (en préversion), acheter des services pour des applications tierces, afficher les autorisations demandées par les applications, accorder l'
+En tant qu’administrateur, la page gérer les applications dans le centre d’administration Microsoft teams vous permet d’afficher et de gérer toutes les applications d’équipe pour votre organisation. Dans cet exemple, vous pouvez voir l’état de niveau de l’organisation et les propriétés des applications, approuver ou télécharger de nouvelles applications personnalisées dans le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, ajouter des applications aux équipes, acheter des services pour des applications tierces, afficher les autorisations demandées par les applications, accorder l’autorisation d’administration aux applications et
 
 La page gérer les applications vous donne une vue d’ensemble des applications disponibles et vous fournit les informations dont vous avez besoin pour déterminer les applications à autoriser ou à bloquer au sein de votre organisation. Vous pouvez ensuite utiliser des [stratégies d’autorisation d’application](teams-app-permission-policies.md), des stratégies de [configuration d’application](teams-app-setup-policies.md)et des [stratégies et paramètres d’application personnalisés](teams-custom-app-policies-and-settings.md) pour configurer l’utilisation de l’application pour des utilisateurs spécifiques de votre organisation.
 
@@ -109,8 +109,6 @@ Lorsque vous bloquez ou autorisez une application dans la page gérer les applic
 
 ## <a name="add-an-app-to-a-team"></a>Ajouter une application à une équipe
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Le bouton **Ajouter à l’équipe** vous permet d’installer une application dans une équipe. Gardez à l’esprit que seules les applications qui peuvent être installées dans le cadre d’une équipe peuvent être installées. Le bouton **Ajouter à l’équipe** n’est pas disponible pour les applications qui ne peuvent être installées qu’au sein de l’application personnelle.
 
 ![Capture d’écran du bouton Ajouter aux équipes](media/manage-apps-add-app-team.png)
@@ -153,6 +151,6 @@ Utilisez les paramètres d’application à l’échelle de l’Organisation pou
 3. Sous **applications personnalisées**, désactivez ou activez l’option **autoriser les interactions avec les applications personnalisées**. Ce paramètre détermine si les utilisateurs peuvent interagir avec les applications personnalisées. Pour plus d’informations, consultez [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
 4. Cliquez sur **Enregistrer** pour appliquer les paramètres de l’application à l’échelle de l’organisation.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

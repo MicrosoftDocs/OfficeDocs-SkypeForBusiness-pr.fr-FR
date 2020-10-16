@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment définir et utiliser des étiquettes de sensibilité dans Microsoft Teams.
-ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
-ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
+ms.openlocfilehash: 21d70bf48448ccef5555078e4aba65bb10d5d6a2
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091267"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476719"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité de Microsoft teams
 
@@ -104,10 +104,6 @@ Vous pouvez spécifier si une équipe créée avec une étiquette spécifique au
 Vous pouvez définir des étiquettes de sensibilité lors de la création ou de la modification d’une équipe dans le centre d’administration Microsoft Teams. Les étiquettes de sensibilité sont également visibles dans les propriétés d’équipe et dans la colonne **classification** de la page gérer les équipes du centre d’administration Microsoft Teams.
 
 ## <a name="known-issues"></a>Problèmes connus
-
-**Les étiquettes par défaut enfants ne sont pas visibles lors de la création d’une équipe**
-
-Pour l’instant, une étiquette enfant définie comme étiquette par défaut pour Teams ne s’affiche pas en haut de la liste dans la liste déroulante étiquettes de sensibilité dans le modèle de création d’équipe. Les créateurs d’équipe peuvent toujours utiliser la liste déroulante pour appliquer l’étiquette enfant comme solution de contournement.
 
 **Prise en charge des étiquettes de sensibilité dans les API du graphique Teams, les cmdlets PowerShell et les modèles**
 

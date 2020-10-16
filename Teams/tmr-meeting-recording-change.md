@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444230"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486769"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
 > [!Note]
 > Le changement de l’utilisation de Microsoft Stream sur OneDrive entreprise et Microsoft SharePoint pour les enregistrements de réunion sera une approche progressive.
 
-|||
-|---|-----------------|
+
 |Date|Événement|
+|---|-----------------|
 |Débuts du 4e CY20|**L’enregistrement de la réunion teams sur OneDrive entreprise et SharePoint disponible pour la possibilité de participer ou d’être désactivé.**<br> Les administrateurs de clients peuvent accepter ou désactiver OneDrive entreprise et définir la stratégie d’équipe dans PowerShell.|
 |Milieu du 4e CY20|**Enregistrement des réunions teams dans OneDrive entreprise et SharePoint par défaut pour les clients qui n’ont pas choisi de désactiver**<br> C’est le chemin d’accès recommandé pour la plupart des clients|
-Q1 CY21|**L’enregistrement d’équipes de réunion dans un flux classique n’est plus autorisé**<br>Tous les clients enregistrent l’enregistrement des réunions d’équipes dans OneDrive entreprise et SharePoint|
-|||
+|Q1 CY21|**L’enregistrement d’équipes de réunion dans un flux classique n’est plus autorisé**<br>Tous les clients enregistrent l’enregistrement des réunions d’équipes dans OneDrive entreprise et SharePoint|
+
 
 Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme la première phase d’une transition à partir du flux Microsoft classique vers le [nouveau flux](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive et SharePoint dans Microsoft 365 et offre de nombreux avantages.
 
@@ -98,6 +98,23 @@ Même si une stratégie indique qu’il est défini sur **Stream**, il est possi
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+
+## <a name="permissions-or-role-based-access"></a>Autorisations ou accès en fonction du rôle
+
+
+|Type de réunion                               | Qui a cliqué sur l’enregistrement ?| Où l’enregistrement s’affiche-t-il ?                               |Qui a accès ? R/W, R ou partage                                                                                                                                                                                                                                                     |
+|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|appel 1:1 avec les parties internes             |Appelant                 |Compte OneDrive entreprise de l’appelant                        |-L’appelant est propriétaire, dispose de droits de propriété complets (si le client le permet) dispose d’un accès en lecture seule, il n’y a pas d’accès de partage. L’appelant doit le partager avec l’appelé.|
+|appel 1:1 avec les parties internes             |Appelé                 |Compte OneDrive entreprise de l’appelant                        |-L’appelant est propriétaire, dispose de droits de propriété complets-appelant (si dans un même client dispose d’un accès en lecture seule, aucun accès de partage-appelant (dans le cas d’un autre client) n’a accès. L’appelant doit le partager avec l’appelant|
+|appel 1:1 avec un appel externe             |Appelant                 |Compte OneDrive entreprise de l’appelant                        |-L’appelant est propriétaire et dispose de droits complets-l’appelant n’est pas autorisé à y accéder. L’appelant doit le partager avec l’appelé.|
+|appel 1:1 avec un appel externe             |Appelé                 |Compte OneDrive entreprise de l’appelant                        |-L’appelant est propriétaire et dispose de droits complets-appelant sans accès. Le correspondant doit le partager avec l’appelant|
+|Appel de groupe                                 |Tout membre de l’appel |Membre sur lequel vous avez cliqué sur le compte OneDrive entreprise de l’enregistrement  |-Le membre sur lequel vous avez cliqué sur l’enregistrement dispose d’autorisations totales : les autres membres du même client disposent de droits de lecture, d’autres membres pour différents ne disposent pas de droits pour eux.|
+|Réunion adhoc/programmée                    |Organisateur              |Compte OneDrive entreprise de l’organisateur                     |-L’organisateur dispose de droits complets sur l’enregistrement ; tous les autres membres de la réunion disposent d’un accès en lecture|
+|Réunion adhoc/programmée                    |Autre membre de la réunion   |Membre sur lequel vous avez cliqué sur l’enregistrement                                  |Le membre qui a cliqué sur l’enregistrement dispose de droits complets sur l’enregistrement-l’organisateur dispose de droits de modification et peut partager|
+|Réunion adhoc/programmée avec des utilisateurs externes|Organisateur              |Compte OneDrive entreprise de l’organisateur                     |-L’organisateur dispose de droits complets sur l’enregistrement : tous les autres membres de la réunion à partir du même client que l’organisateur disposent d’un accès en lecture-tous les autres membres externes n’ont pas accès et l’organisateur doit les partager avec eux.|
+|Réunion adhoc/programmée avec des utilisateurs externes|Autre membre de la réunion   |Membre sur lequel vous avez cliqué sur l’enregistrement                                  |Le membre qui a cliqué sur l’enregistrement dispose de droits complets sur l’enregistrement-l’organisateur dispose de droits de modification et peut partager-tous les autres membres de la réunion à partir du même client que l’organisateur disposent d’un accès en lecture-tous les autres membres externes ne disposent pas d’un accès et l’organisateur doit les partager avec eux.|
+|Réunion de canal                            |Membre du canal         |Emplacement SharePoint teams pour ce canal                   |-Le membre sur lequel vous avez cliqué sur l’enregistrement dispose de droits de modification sur l’enregistrement : les autorisations de ce membre sont basées sur les autorisations SharePoint du canal.|
+
 
 ## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 

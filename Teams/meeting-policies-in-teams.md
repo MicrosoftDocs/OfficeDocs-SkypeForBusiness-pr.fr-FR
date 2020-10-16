@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308416"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486819"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -161,9 +161,9 @@ Dans le calendrier de canal :
 
 Dans le centre d’administration :
 
-L’application Calendrier de canal s’affiche dans la section **applications Microsoft** du volet d’administration pour les stratégies d’autorisation.
+L’application Calendrier de canal s’affiche dans la section **applications Microsoft** de la page stratégies d’autorisation d’applications.
 
-![Capture d’écran montrant la stratégie applications Microsoft dans la console d’administration des équipes.](media/manage-microsoft-apps-policy.png)
+![Capture d’écran montrant la stratégie d’autorisations des applications dans le centre d’administration Teams.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Autoriser la planification de réunions privées
 
@@ -227,6 +227,8 @@ S’il est défini sur **Disabled** pour un utilisateur, celui-ci peut toujours 
 
 Ce paramètre ne s’applique pas aux appels 1:1. Pour limiter les appels 1:1, configurez une [stratégie d’appel](teams-calling-policy.md) d’équipes et désactivez le paramètre **effectuer des appels privés** . Ce paramètre ne s’applique également pas aux appareils de salle de conférence tels que surface Hub et les appareils Microsoft Teams.
 
+Ce paramètre n’est pas encore disponible pour les environnements de la communauté gouvernementale Microsoft 365, de GCC High ou du ministère de la défense (DoD).
+
 Pour en savoir plus, voir [gérer les appels audio et vidéo des participants](#manage-audiovideo-for-meeting-participants)à la réunion.
 
 ### <a name="mode-for-ip-video"></a>Mode pour la vidéo IP
@@ -240,10 +242,14 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si la v
 
 S’il est défini sur **Disabled** pour un utilisateur, celui-ci ne peut pas activer la vidéo ou afficher les vidéos partagées par les autres participants à la réunion. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes) ont configuré ce paramètre sur **sortant et la vidéo entrante est activée** par défaut.
 
-Ce paramètre ne s’applique pas aux appareils de salle de conférence comme les appareils surface Hub et Microsoft Teams.
+Ce paramètre ne s’applique pas aux appareils de salle de conférence comme les appareils surface Hub et Microsoft Teams. 
+
+Ce paramètre n’est pas encore disponible pour les environnements de la communauté gouvernementale Microsoft 365, de GCC High ou du ministère de la défense (DoD).
 
 > [!NOTE]
 > Gardez à l’esprit que ce paramètre contrôle la vidéo sortante et entrante, alors que le paramètre **autoriser la vidéo IP** contrôle la vidéo sortante. Pour en savoir plus, voir [le paramètre de stratégie de vidéo IP prioritaire](#which-ip-video-policy-setting-takes-precedence) et gérer les paramètres [audio et vidéo des participants à la réunion](#manage-audiovideo-for-meeting-participants).
+
+Pour en savoir plus, voir [gérer les appels audio et vidéo des participants](#manage-audiovideo-for-meeting-participants)à la réunion.
 
 ### <a name="allow-ip-video"></a>Autoriser la vidéo sur IP
 
@@ -258,7 +264,6 @@ Réunions organisées par un utilisateur pour lequel ce paramètre de stratégie
 |:-------:|:-------:|
 |![Capture d’écran montrant la participation à une réunion avec les paramètres audio et vidéo sur le Bureau](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran illustrant la participation à une réunion Sreen avec les paramètres audio et vidéo sur un appareil mobile](media/meeting-policies-mobile-join.png)          |
 
-
 Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser la vidéo sur IP |
@@ -271,6 +276,8 @@ Les réunions hébergées par Daniela permettre l’activation de la vidéo. Dan
 Dans les réunions hébergées par Amanda, personne ne peut activer la vidéo, quelle que soit la politique de vidéo qui lui est affectée. Cela signifie que Daniela ne peut pas activer la vidéo dans les réunions Amanda.  
 
 Si Daniela appelle Amanda avec la vidéo, Amanda peut répondre à l’appel avec l’audio uniquement.  Lorsque l’appel est connecté, Amanda peut voir la vidéo de Daniela, mais ne peut pas activer la vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l’appel avec de la vidéo et de l’audio. Lorsque l’appel est connecté, Daniela peut activer ou désactiver sa vidéo, selon les besoins.
+
+Pour en savoir plus, voir [gérer les appels audio et vidéo des participants](#manage-audiovideo-for-meeting-participants)à la réunion.
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>Quel est le paramètre de stratégie de vidéo IP prioritaire ?
 
