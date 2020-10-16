@@ -17,76 +17,76 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: En savoir plus sur la façon de bloquer l’accès à SharePoint pour des utilisateurs spécifiques
+description: Découvrez comment bloquer l’accès à SharePoint pour des utilisateurs spécifiques
 ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
 ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48203837"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Bloquer l’accès à SharePoint pour des utilisateurs spécifiques
 
-L’application d’une stratégie d’accès conditionnel (CA) sur SharePoint dans Microsoft 365 est également appliquée aux équipes. Toutefois, certaines organisations veulent bloquer l’accès aux fichiers SharePoint (Télécharger, télécharger, afficher, modifier, créer) et permettre à leurs employés d’utiliser les clients de bureau, mobiles et Web teams sur des appareils non gérés. Dans les règles de stratégie d’autorité de certification, le blocage de SharePoint entraînerait le blocage des équipes. Cet article explique comment vous pouvez contourner cette limitation et permettre à vos employés de continuer à utiliser teams tout en bloquant complètement l’accès aux fichiers stockés dans SharePoint.
+Toute stratégie d’accès conditionnel appliquée sur SharePoint dans Microsoft 365 est également appliquée à Teams. Toutefois, certaines organisations souhaitent bloquer l’accès aux fichiers SharePoint (chargement, téléchargement, affichage, modification et création), et permettre à leurs employés d’utiliser les clients Teams de bureau, mobiles et web sur les appareils non gérés. Dans les règles de stratégie d’accès conditionnel, le blocage de SharePoint conduirait également au blocage de Teams. Cet article décrit la manière dont vous pouvez contourner cette limitation et permettre à vos employés de continuer à utiliser Teams tout en bloquant l’accès aux fichiers stockés dans SharePoint.
 
 > [!Note]
-> Bloquer ou limiter l’accès sur des appareils non gérés repose sur les stratégies d’accès conditionnel d’Azure AD. En savoir plus sur la gestion des [licences Azure ad](https://azure.microsoft.com/pricing/details/active-directory/). Pour obtenir une vue d’ensemble de l’accès conditionnel dans Azure AD, voir [accès conditionnel dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Pour plus d’informations sur les stratégies d’accès SharePoint Online recommandées, voir recommandations en matière [de stratégie pour la sécurisation des sites et fichiers SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Si vous limitez l’accès à des appareils non gérés, les utilisateurs sur les appareils gérés doivent utiliser l’une des [combinaisons de systèmes d’exploitation et navigateurs pris en charge](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition), ou leur accès est également limité.
+> Le blocage ou la limitation de l’accès sur des appareils non gérés s’appuie sur les stratégies d’accès conditionnel Azure AD. En savoir plus sur la [gestion des licences Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Pour obtenir une vue d’ensemble de l’accès conditionnel dans Azure AD, voir [Accès conditionnel dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Pour plus d’informations sur les stratégies d’accès SharePoint Online recommandées, voir [Recommandations en matière de stratégie pour la sécurisation des sites et fichiers SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Si vous limitez l’accès sur des appareils non gérés, les utilisateurs sur les appareils gérés doivent utiliser l’une des [combinaisons de systèmes d’exploitation et de navigateurs prises en charge](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition). Dans le cas contraire, ils disposeront également d’un accès limité.
 
 Vous pouvez bloquer ou limiter l’accès pour :
 
-- Utilisateurs de l’organisation ou seulement certains utilisateurs ou groupes de sécurité.
+- Les utilisateurs de l’organisation, ou certains utilisateurs ou groupes de sécurité uniquement.
 
-- Tous les sites au sein de l’organisation ou seulement des sites.
+- Tous les sites de votre organisation, ou certains sites uniquement.
 
-Lorsque l’accès est bloqué, un message d’erreur s’affiche. Bloquez l’accès pour renforcer la sécurité et protéger les données sécurisées. Lorsque l’accès est bloqué, un message d’erreur s’affiche.
+Lorsque l’accès est bloqué, les utilisateurs voient un message d’erreur. Le blocage de l’accès renforce la sécurité et protège les données sécurisées. Lorsque l’accès est bloqué, les utilisateurs voient un message d’erreur.
 
-1. Ouvrez le centre d’administration SharePoint.
+1. Ouvrez le Centre d’administration SharePoint.
 
-2. Développez stratégies d' **Policies**  >  **accès aux**stratégies.
+2. Développez **Politiques** > **Stratégies d’accès**.
 
-3. Dans la section **appareils non gérés** , sélectionnez **bloquer l’accès** et sélectionnez **Enregistrer**.
+3. Dans la section **Appareils non gérés**, sélectionnez **Bloquer l’accès**, puis **Enregistrer**.
 
-   ![section périphériques non gérés pour les stratégies](media/no-sharepoint-access1.png)
+   ![la section Appareils non gérés pour les stratégies](media/no-sharepoint-access1.png)
 
-4. Ouvrez le portail [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) et naviguez jusqu’à **stratégies d’accès conditionnel**.
+4. Ouvrez le portail [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) et accédez à **Stratégies d’accès conditionnel**.
 
-    Vous verrez une nouvelle stratégie créée par SharePoint, semblable à cet exemple :
+    Une nouvelle stratégie semblable à celle-ci est créée par SharePoint :
 
-    ![nouvelle stratégie nommée utilisation de restrictions appliquées par l’application pour l’accès au navigateur](media/no-sharepoint-access2.png)
+    ![une nouvelle stratégie nommée Utiliser les restrictions appliquées par l’application pour l’accès au navigateur](media/no-sharepoint-access2.png)
 
-5. Mettez à jour la stratégie pour cibler uniquement des utilisateurs ou un groupe spécifiques.
+5. Mettez à jour la stratégie pour cibler uniquement des utilisateurs spécifiques ou un groupe.
 
-    ![Centre d’administration SharePoint avec l’option Sélectionner l’utilisateur en surbrillance.](media/no-sharepoint-access2b.png)
+    ![centre d’administration SharePoint avec la section Sélectionner un utilisateur mise en évidence.](media/no-sharepoint-access2b.png)
 
   > [!Note]
-> La définition de cette stratégie entraîne la réduction de votre accès au portail d’administration SharePoint. Nous vous recommandons de configurer la stratégie d’exclusion et de sélectionner les administrateurs généraux et SharePoint.
+> La définition de cette stratégie permettra de réduire l’accès au portail d’administration SharePoint. Nous vous recommandons de configurer la stratégie d’exclusion et de sélectionner les administrateurs globaux et SharePoint.
 
-6. Vérifier que seul SharePoint est sélectionné comme application Cloud ciblée
+6. Vérifiez que seul SharePoint est sélectionné en tant qu’application cloud ciblée
 
     ![SharePoint est sélectionné en tant qu’application ciblée.](media/no-sharepoint-access3.png)
 
-7. Vous pouvez également mettre à jour des **conditions** pour inclure des clients de bureau.
+7. Mettez à jour les **conditions** afin d’inclure également les clients de bureau.
 
-    ![mise en surbrillance des applications de bureau et mobiles.](media/no-sharepoint-access4.png)
+    ![applications de bureau et mobiles mises en évidence.](media/no-sharepoint-access4.png)
 
-8. Vérifier que **l’option autoriser l’accès** est activée
+8. Assurez-vous que l’option **Accorder l’accès** est activée.
 
-    ![l’accès accordé est activé.](media/no-sharepoint-access5.png)
+    ![l’option Accorder l’accès est activée.](media/no-sharepoint-access5.png)
 
-9. Assurez-vous que l’option **utiliser les restrictions** appliquées aux applications est activée.
+9. Assurez-vous que **Utiliser les restrictions appliquées par l’application** est activé.
 
-10. Activez votre stratégie, puis sélectionnez **Enregistrer**.
+10. Activez votre stratégie et sélectionnez **Enregistrer**.
 
-    ![L’application restrictions appliquée est activée.](media/no-sharepoint-access6.png)
+    ![Les restrictions appliquées par l’application sont activées.](media/no-sharepoint-access6.png)
 
-Pour tester votre stratégie, vous devez vous déconnecter de n’importe quel client, tel que l’application de bureau teams ou le client de synchronisation OneDrive entreprise, puis vous reconnecter pour voir la stratégie qui fonctionne. Si votre accès a été bloqué, un message s’affiche dans Microsoft Teams, qui indique que l’élément n’existe pas.
+Pour tester votre stratégie, vous devez vous déconnecter de n’importe quel client, par exemple, l’application de bureau Teams ou le client de synchronisation OneDrive Entreprise, puis vous reconnecter afin d’afficher la stratégie active. Si votre accès a été bloqué, un message indiquant qu’il n’est peut-être pas disponible s’affiche dans Teams.
 
- ![Message élément introuvable.](media/access-denied-sharepoint.png)
+ ![Message concernant l’élément introuvable.](media/access-denied-sharepoint.png)
 
-Dans SharePoint, vous recevez un message accès refusé.
+Dans SharePoint, vous recevrez un message d’accès refusé.
 
-![Le message accès refusé.](media/blocked-access-warning.png)
+![Message d’accès refusé.](media/blocked-access-warning.png)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-[Contrôler l’accès pour les appareils non gérés dans SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Contrôler l’accès des appareils non gérés dans SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
