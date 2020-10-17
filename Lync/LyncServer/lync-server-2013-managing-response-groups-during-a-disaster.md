@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion des groupes Response Group lors d’un sinistre'
+description: 'Lync Server 2013 : gestion des groupes Response Group lors d’un sinistre.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d02637f6cb908844cdba3aee75c80260c002821
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 16018f170395e4657daf4405798be05c6da62581
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507201"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568690"
 ---
-# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a><span data-ttu-id="71061-102">Gestion des groupes Response Group dans Lync Server 2013 lors d’un sinistre</span><span class="sxs-lookup"><span data-stu-id="71061-102">Managing response groups in Lync Server 2013 during a disaster</span></span>
+# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a><span data-ttu-id="06aaa-103">Gestion des groupes Response Group dans Lync Server 2013 lors d’un sinistre</span><span class="sxs-lookup"><span data-stu-id="06aaa-103">Managing response groups in Lync Server 2013 during a disaster</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48507201"
 
 <span> </span>
 
-<span data-ttu-id="71061-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="71061-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="06aaa-104">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="06aaa-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="71061-104">Lync Server 2013 prend en charge l’exécution de groupes Response Group dans le pool de sauvegarde lors de la récupération d’urgence.</span><span class="sxs-lookup"><span data-stu-id="71061-104">Lync Server 2013 supports running response groups in the backup pool during disaster recovery.</span></span> <span data-ttu-id="71061-105">Cette section décrit la planification des groupes Response Group pendant une panne, la façon dont les groupes Response Group fonctionnent pendant la panne, ainsi que les étapes nécessaires pour basculer et restaurer les groupes Response Group.</span><span class="sxs-lookup"><span data-stu-id="71061-105">This section describes how to plan for response groups during an outage, how response groups work during the outage, and the steps required to fail over and fail back response groups.</span></span>
+<span data-ttu-id="06aaa-105">Lync Server 2013 prend en charge l’exécution de groupes Response Group dans le pool de sauvegarde lors de la récupération d’urgence.</span><span class="sxs-lookup"><span data-stu-id="06aaa-105">Lync Server 2013 supports running response groups in the backup pool during disaster recovery.</span></span> <span data-ttu-id="06aaa-106">Cette section décrit la planification des groupes Response Group pendant une panne, la façon dont les groupes Response Group fonctionnent pendant la panne, ainsi que les étapes nécessaires pour basculer et restaurer les groupes Response Group.</span><span class="sxs-lookup"><span data-stu-id="06aaa-106">This section describes how to plan for response groups during an outage, how response groups work during the outage, and the steps required to fail over and fail back response groups.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="71061-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="71061-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="06aaa-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="06aaa-107">In This Section</span></span>
 
-  - [<span data-ttu-id="71061-107">Planification de la récupération d’urgence de Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71061-107">Planning for response group disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-response-group-disaster-recovery.md)
+  - [<span data-ttu-id="06aaa-108">Planification de la récupération d’urgence de Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06aaa-108">Planning for response group disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-response-group-disaster-recovery.md)
 
-  - [<span data-ttu-id="71061-108">Expérience Response Group dans Lync Server 2013 en cas de défaillance d’un pool</span><span class="sxs-lookup"><span data-stu-id="71061-108">Response group experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-response-group-experience-during-pool-failure.md)
+  - [<span data-ttu-id="06aaa-109">Expérience Response Group dans Lync Server 2013 en cas de défaillance d’un pool</span><span class="sxs-lookup"><span data-stu-id="06aaa-109">Response group experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-response-group-experience-during-pool-failure.md)
 
-  - [<span data-ttu-id="71061-109">Procédures de récupération d’urgence des groupes Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71061-109">Response group disaster recovery procedures in Lync Server 2013</span></span>](lync-server-2013-response-group-disaster-recovery-procedures.md)
+  - [<span data-ttu-id="06aaa-110">Procédures de récupération d’urgence des groupes Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06aaa-110">Response group disaster recovery procedures in Lync Server 2013</span></span>](lync-server-2013-response-group-disaster-recovery-procedures.md)
 
 </div>
 

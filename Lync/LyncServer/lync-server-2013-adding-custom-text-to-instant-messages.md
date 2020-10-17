@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : ajout de texte personnalisé aux messages instantanés'
+description: 'Lync Server 2013 : ajout de texte personnalisé aux messages instantanés.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 466eac15cf75728578e7d517d15ddb222d1c4b70
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 54f5cf031da0ba4d5bd0b6dbaa7f5ebc9d0b3a6c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521361"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569340"
 ---
-# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a><span data-ttu-id="628ef-102">Ajout de texte personnalisé aux messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="628ef-102">Adding custom text to instant messages in Lync Server 2013</span></span>
+# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a><span data-ttu-id="90437-103">Ajout de texte personnalisé aux messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90437-103">Adding custom text to instant messages in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,16 +38,16 @@ ms.locfileid: "48521361"
 
 <span> </span>
 
-<span data-ttu-id="628ef-103">_**Dernière modification de la rubrique :** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="628ef-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="90437-104">_**Dernière modification de la rubrique :** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="90437-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="628ef-104">Ajoutez une clause d’exclusion de responsabilité ou un avertissement au début de chaque conversation de messagerie instantanée Lync 2013 à l’aide des cmdlets **New-CSClientPolicy** ou **Set-CSClientPolicy** de l’environnement de commande Lync Server Management Shell avec le paramètre imwarning.</span><span class="sxs-lookup"><span data-stu-id="628ef-104">Add a disclaimer or warning to the beginning of every Lync 2013 instant messaging (IM) conversation by using the **New-CSClientPolicy** or **Set-CSClientPolicy** Lync Server Management Shell cmdlets with the IMWarning parameter.</span></span>
+<span data-ttu-id="90437-105">Ajoutez une clause d’exclusion de responsabilité ou un avertissement au début de chaque conversation de messagerie instantanée Lync 2013 à l’aide des cmdlets **New-CSClientPolicy** ou **Set-CSClientPolicy** de l’environnement de commande Lync Server Management Shell avec le paramètre imwarning.</span><span class="sxs-lookup"><span data-stu-id="90437-105">Add a disclaimer or warning to the beginning of every Lync 2013 instant messaging (IM) conversation by using the **New-CSClientPolicy** or **Set-CSClientPolicy** Lync Server Management Shell cmdlets with the IMWarning parameter.</span></span>
 
-<span data-ttu-id="628ef-105">La commande de l’exemple suivant ajoute un rappel de sécurité en haut de la fenêtre de conversation à chaque fois qu’une nouvelle conversation de messagerie instantanée débute :</span><span class="sxs-lookup"><span data-stu-id="628ef-105">The command in the following example adds a security reminder at the top of the Conversation window whenever a new IM conversation begins:</span></span>
+<span data-ttu-id="90437-106">La commande de l’exemple suivant ajoute un rappel de sécurité en haut de la fenêtre de conversation à chaque fois qu’une nouvelle conversation de messagerie instantanée débute :</span><span class="sxs-lookup"><span data-stu-id="90437-106">The command in the following example adds a security reminder at the top of the Conversation window whenever a new IM conversation begins:</span></span>
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-<span data-ttu-id="628ef-106">Utilisez **Grant-CSClientPolicy** pour affecter cette nouvelle stratégie aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="628ef-106">Use **Grant-CSClientPolicy** to assign this new policy to users.</span></span> <span data-ttu-id="628ef-107">Pour plus d’informations, voir **New-CSClientPolicy** et **Grant-CSClientPolicy** dans la documentation de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="628ef-107">For details, see **New-CSClientPolicy** and **Grant-CSClientPolicy** in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="90437-107">Utilisez **Grant-CSClientPolicy** pour affecter cette nouvelle stratégie aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="90437-107">Use **Grant-CSClientPolicy** to assign this new policy to users.</span></span> <span data-ttu-id="90437-108">Pour plus d’informations, voir **New-CSClientPolicy** et **Grant-CSClientPolicy** dans la documentation de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="90437-108">For details, see **New-CSClientPolicy** and **Grant-CSClientPolicy** in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

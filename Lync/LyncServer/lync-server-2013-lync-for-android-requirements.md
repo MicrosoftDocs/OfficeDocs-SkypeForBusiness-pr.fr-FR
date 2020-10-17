@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration requise pour Lync pour Android'
+description: 'Lync Server 2013 : configuration requise pour Lync pour Android.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cca08828dd91a7b6c26e11330f0e8839f4677be4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2d3d3aa6e428c3a73f1b9263fe9cf13e5aa9fff0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506051"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570470"
 ---
-# <a name="lync-for-android-requirements-in-lync-server-2013"></a><span data-ttu-id="f12eb-102">Configuration requise pour Lync pour Android dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f12eb-102">Lync for Android requirements in Lync Server 2013</span></span>
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a><span data-ttu-id="51306-103">Configuration requise pour Lync pour Android dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51306-103">Lync for Android requirements in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48506051"
 
 <span> </span>
 
-<span data-ttu-id="f12eb-103">_**Dernière modification de la rubrique :** 2014-04-24_</span><span class="sxs-lookup"><span data-stu-id="f12eb-103">_**Topic Last Modified:** 2014-04-24_</span></span>
+<span data-ttu-id="51306-104">_**Dernière modification de la rubrique :** 2014-04-24_</span><span class="sxs-lookup"><span data-stu-id="51306-104">_**Topic Last Modified:** 2014-04-24_</span></span>
 
-<span data-ttu-id="f12eb-104">Microsoft Lync 2013 Microsoft Lync 2013 pour Android fournit des fonctionnalités de messagerie instantanée, de présence enrichie et de participation à des réunions Lync pour les utilisateurs de votre organisation qui se connectent à partir d’un appareil Android.</span><span class="sxs-lookup"><span data-stu-id="f12eb-104">Microsoft Lync 2013 Microsoft Lync 2013 for Android provides instant messaging (IM), enhanced presence, and Lync meeting join capabilities for users in your organization who are connecting from an Android device.</span></span> <span data-ttu-id="f12eb-105">Cette rubrique décrit les éléments à prendre en compte pour Lync 2013 pour Android, notamment les conditions préalables, les exigences techniques et les composants requis.</span><span class="sxs-lookup"><span data-stu-id="f12eb-105">This topic describes considerations for Lync 2013 for Android, including prerequisites, technical requirements, and required components.</span></span>
+<span data-ttu-id="51306-105">Microsoft Lync 2013 Microsoft Lync 2013 pour Android fournit des fonctionnalités de messagerie instantanée, de présence enrichie et de participation à des réunions Lync pour les utilisateurs de votre organisation qui se connectent à partir d’un appareil Android.</span><span class="sxs-lookup"><span data-stu-id="51306-105">Microsoft Lync 2013 Microsoft Lync 2013 for Android provides instant messaging (IM), enhanced presence, and Lync meeting join capabilities for users in your organization who are connecting from an Android device.</span></span> <span data-ttu-id="51306-106">Cette rubrique décrit les éléments à prendre en compte pour Lync 2013 pour Android, notamment les conditions préalables, les exigences techniques et les composants requis.</span><span class="sxs-lookup"><span data-stu-id="51306-106">This topic describes considerations for Lync 2013 for Android, including prerequisites, technical requirements, and required components.</span></span>
 
 <div>
 
-## <a name="lync-for-android-prerequisite"></a><span data-ttu-id="f12eb-106">Configuration requise pour Lync pour Android</span><span class="sxs-lookup"><span data-stu-id="f12eb-106">Lync for Android Prerequisite</span></span>
+## <a name="lync-for-android-prerequisite"></a><span data-ttu-id="51306-107">Configuration requise pour Lync pour Android</span><span class="sxs-lookup"><span data-stu-id="51306-107">Lync for Android Prerequisite</span></span>
 
-<span data-ttu-id="f12eb-107">Pour prendre en charge Lync 2013 pour Android, l’appareil Android doit remplir les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="f12eb-107">To support Lync 2013 for Android, the Android device must meet the following requirements:</span></span>
+<span data-ttu-id="51306-108">Pour prendre en charge Lync 2013 pour Android, l’appareil Android doit remplir les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="51306-108">To support Lync 2013 for Android, the Android device must meet the following requirements:</span></span>
 
-  - <span data-ttu-id="f12eb-108">L’appareil Android doit exécuter le système d’exploitation Android 4,0 ou une version ultérieure, y compris les tablettes, à l’exception de ceux dotés de la puce Tegra2.</span><span class="sxs-lookup"><span data-stu-id="f12eb-108">The Android device must be running Android 4.0 or a later phone- or tablet-oriented operating system, including tablets, except those with the Tegra2 chip.</span></span>
+  - <span data-ttu-id="51306-109">L’appareil Android doit exécuter le système d’exploitation Android 4,0 ou une version ultérieure, y compris les tablettes, à l’exception de ceux dotés de la puce Tegra2.</span><span class="sxs-lookup"><span data-stu-id="51306-109">The Android device must be running Android 4.0 or a later phone- or tablet-oriented operating system, including tablets, except those with the Tegra2 chip.</span></span>
 
-  - <span data-ttu-id="f12eb-109">Le périphérique doit disposer d’un processeur double cœur de 1,2 GHz ou supérieur.</span><span class="sxs-lookup"><span data-stu-id="f12eb-109">The device must have a 1.2 GHz dual core or higher CPU.</span></span>
+  - <span data-ttu-id="51306-110">Le périphérique doit disposer d’un processeur double cœur de 1,2 GHz ou supérieur.</span><span class="sxs-lookup"><span data-stu-id="51306-110">The device must have a 1.2 GHz dual core or higher CPU.</span></span>
 
-  - <span data-ttu-id="f12eb-110">La résolution de l’appareil appareil photo (avant/arrière) doit être VGA ou supérieur.</span><span class="sxs-lookup"><span data-stu-id="f12eb-110">The device camera (front/rear) resolution should be VGA or higher.</span></span>
+  - <span data-ttu-id="51306-111">La résolution de l’appareil appareil photo (avant/arrière) doit être VGA ou supérieur.</span><span class="sxs-lookup"><span data-stu-id="51306-111">The device camera (front/rear) resolution should be VGA or higher.</span></span>
 
-  - <span data-ttu-id="f12eb-111">Les autres configurations matérielles requises doivent être alignées sur le document de définition de compatibilité Android 4,0.</span><span class="sxs-lookup"><span data-stu-id="f12eb-111">Other hardware requirements should be aligned with Android 4.0 Compatibility Definition Document.</span></span>
+  - <span data-ttu-id="51306-112">Les autres configurations matérielles requises doivent être alignées sur le document de définition de compatibilité Android 4,0.</span><span class="sxs-lookup"><span data-stu-id="51306-112">Other hardware requirements should be aligned with Android 4.0 Compatibility Definition Document.</span></span>
 
 </div>
 
 <div>
 
-## <a name="other-technical-considerations"></a><span data-ttu-id="f12eb-112">Autres considérations d’ordre technique</span><span class="sxs-lookup"><span data-stu-id="f12eb-112">Other Technical Considerations</span></span>
+## <a name="other-technical-considerations"></a><span data-ttu-id="51306-113">Autres considérations d’ordre technique</span><span class="sxs-lookup"><span data-stu-id="51306-113">Other Technical Considerations</span></span>
 
-<span data-ttu-id="f12eb-113">Sur la plateforme de l’appareil Android, l’application Lync peut s’exécuter en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="f12eb-113">On the Android device platform, the Lync application can run in the background.</span></span> <span data-ttu-id="f12eb-114">Par conséquent, contrairement aux autres plateformes d’appareils mobiles, les notifications de type « transmission » ne sont pas requises pour les appareils Android.</span><span class="sxs-lookup"><span data-stu-id="f12eb-114">Therefore, unlike other mobile device platforms, push notifications are not required for Android devices.</span></span> <span data-ttu-id="f12eb-115">La seule façon de quitter l’application Lync sur un appareil Android est de se déconnecter explicitement de Lync.</span><span class="sxs-lookup"><span data-stu-id="f12eb-115">The only way to exit the Lync application on an Android device is to explicitly sign out of Lync.</span></span> <span data-ttu-id="f12eb-116">Cette version de l’application Lync n’est pas prise en charge sur les appareils dotés de chipsets Tegra 2.</span><span class="sxs-lookup"><span data-stu-id="f12eb-116">This version of the Lync application is not supported on devices with Tegra 2 chipsets.</span></span>
+<span data-ttu-id="51306-114">Sur la plateforme de l’appareil Android, l’application Lync peut s’exécuter en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="51306-114">On the Android device platform, the Lync application can run in the background.</span></span> <span data-ttu-id="51306-115">Par conséquent, contrairement aux autres plateformes d’appareils mobiles, les notifications de type « transmission » ne sont pas requises pour les appareils Android.</span><span class="sxs-lookup"><span data-stu-id="51306-115">Therefore, unlike other mobile device platforms, push notifications are not required for Android devices.</span></span> <span data-ttu-id="51306-116">La seule façon de quitter l’application Lync sur un appareil Android est de se déconnecter explicitement de Lync.</span><span class="sxs-lookup"><span data-stu-id="51306-116">The only way to exit the Lync application on an Android device is to explicitly sign out of Lync.</span></span> <span data-ttu-id="51306-117">Cette version de l’application Lync n’est pas prise en charge sur les appareils dotés de chipsets Tegra 2.</span><span class="sxs-lookup"><span data-stu-id="51306-117">This version of the Lync application is not supported on devices with Tegra 2 chipsets.</span></span>
 
 </div>
 

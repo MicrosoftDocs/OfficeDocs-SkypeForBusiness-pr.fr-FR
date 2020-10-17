@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : comptes d’utilisateur activés pour Lync Server'
+description: 'Lync Server 2013 : comptes d’utilisateur activés pour Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bf87177c378ffe61715d5332d2fd23b1d8e6fce6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530271"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569870"
 ---
-# <a name="user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="f0979-102">Comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-102">User accounts enabled for Lync Server 2013</span></span>
+# <a name="user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="05e63-103">Comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-103">User accounts enabled for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48530271"
 
 <span> </span>
 
-<span data-ttu-id="f0979-103">_**Dernière modification de la rubrique :** 2014-04-18_</span><span class="sxs-lookup"><span data-stu-id="f0979-103">_**Topic Last Modified:** 2014-04-18_</span></span>
+<span data-ttu-id="05e63-104">_**Dernière modification de la rubrique :** 2014-04-18_</span><span class="sxs-lookup"><span data-stu-id="05e63-104">_**Topic Last Modified:** 2014-04-18_</span></span>
 
-<span data-ttu-id="f0979-104">Les rubriques de cette section comportent des procédures détaillées pour la configuration des paramètres utilisateur que vous pouvez effectuer à l’aide du panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f0979-104">Topics in this section provide step-by-step procedures for configuring user settings that you can perform using the Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="05e63-105">Les rubriques de cette section comportent des procédures détaillées pour la configuration des paramètres utilisateur que vous pouvez effectuer à l’aide du panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="05e63-105">Topics in this section provide step-by-step procedures for configuring user settings that you can perform using the Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="f0979-105">Vous ne pouvez pas utiliser le panneau de configuration Lync Server pour gérer les utilisateurs membres du groupe administrateurs du domaine Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f0979-105">You cannot use Lync Server Control Panel to manage users who are members of the Active Directory Domain Admins group.</span></span> <span data-ttu-id="f0979-106">Pour les utilisateurs administrateurs du domaine, vous pouvez utiliser le panneau de configuration Lync Server uniquement pour effectuer des opérations de recherche en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f0979-106">For Domain Admins users, you can use Lync Server Control Panel only to perform read-only search operations.</span></span> <span data-ttu-id="f0979-107">Pour effectuer des opérations d’écriture sur les utilisateurs des administrateurs du domaine (par exemple, activer ou désactiver le panneau de configuration de Lync Server, modifier les attributions de stratégie ou de pool, les paramètres de téléphonie, l’adresse SIP), vous devez utiliser les applets de commande Windows PowerShell lorsque vous êtes connecté en tant qu’utilisateur administrateurs du domaine.</span><span class="sxs-lookup"><span data-stu-id="f0979-107">To perform write operations on Domain Admins users (for example, enable or disable for Lync Server Control Panel, change pool or policy assignments, telephony settings, SIP address), you must use Windows PowerShell cmdlets while logged on as a Domain Admins user.</span></span> <span data-ttu-id="f0979-108">Pour plus d’informations sur l’utilisation des applets de commande Windows PowerShell pour gérer les utilisateurs, voir <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.</span><span class="sxs-lookup"><span data-stu-id="f0979-108">For details about using Windows PowerShell cmdlets to manage users, see <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.</span></span>
+> <span data-ttu-id="05e63-106">Vous ne pouvez pas utiliser le panneau de configuration Lync Server pour gérer les utilisateurs membres du groupe administrateurs du domaine Active Directory.</span><span class="sxs-lookup"><span data-stu-id="05e63-106">You cannot use Lync Server Control Panel to manage users who are members of the Active Directory Domain Admins group.</span></span> <span data-ttu-id="05e63-107">Pour les utilisateurs administrateurs du domaine, vous pouvez utiliser le panneau de configuration Lync Server uniquement pour effectuer des opérations de recherche en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="05e63-107">For Domain Admins users, you can use Lync Server Control Panel only to perform read-only search operations.</span></span> <span data-ttu-id="05e63-108">Pour effectuer des opérations d’écriture sur les utilisateurs des administrateurs du domaine (par exemple, activer ou désactiver le panneau de configuration de Lync Server, modifier les attributions de stratégie ou de pool, les paramètres de téléphonie, l’adresse SIP), vous devez utiliser les applets de commande Windows PowerShell lorsque vous êtes connecté en tant qu’utilisateur administrateurs du domaine.</span><span class="sxs-lookup"><span data-stu-id="05e63-108">To perform write operations on Domain Admins users (for example, enable or disable for Lync Server Control Panel, change pool or policy assignments, telephony settings, SIP address), you must use Windows PowerShell cmdlets while logged on as a Domain Admins user.</span></span> <span data-ttu-id="05e63-109">Pour plus d’informations sur l’utilisation des applets de commande Windows PowerShell pour gérer les utilisateurs, voir <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.</span><span class="sxs-lookup"><span data-stu-id="05e63-109">For details about using Windows PowerShell cmdlets to manage users, see <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="f0979-109">Lorsque vous effectuez une tâche administrative Lync Server 2013 qui implique la recherche d’un utilisateur ou le filtrage des résultats de la recherche utilisateur, il existe des propriétés utilisateur qui existent en tant qu’attributs dans les services de domaine Active Directory, mais qui ne sont pas répliquées dans le catalogue global tant que Microsoft Exchange Server n’est pas déployé.</span><span class="sxs-lookup"><span data-stu-id="f0979-109">When you perform any Lync Server 2013 administrative task that involves searching for a user or filtering user search results, there are some user properties that exist as attributes in Active Directory Domain Services but are not replicated to the global catalog until Microsoft Exchange Server is deployed.</span></span> <span data-ttu-id="f0979-110">Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lors de l’installation :</span><span class="sxs-lookup"><span data-stu-id="f0979-110">Microsoft Exchange, not Lync Server, marks the following attributes for replication to the global catalog when it is installed:</span></span>
+<span data-ttu-id="05e63-110">Lorsque vous effectuez une tâche administrative Lync Server 2013 qui implique la recherche d’un utilisateur ou le filtrage des résultats de la recherche utilisateur, il existe des propriétés utilisateur qui existent en tant qu’attributs dans les services de domaine Active Directory, mais qui ne sont pas répliquées dans le catalogue global tant que Microsoft Exchange Server n’est pas déployé.</span><span class="sxs-lookup"><span data-stu-id="05e63-110">When you perform any Lync Server 2013 administrative task that involves searching for a user or filtering user search results, there are some user properties that exist as attributes in Active Directory Domain Services but are not replicated to the global catalog until Microsoft Exchange Server is deployed.</span></span> <span data-ttu-id="05e63-111">Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lors de l’installation :</span><span class="sxs-lookup"><span data-stu-id="05e63-111">Microsoft Exchange, not Lync Server, marks the following attributes for replication to the global catalog when it is installed:</span></span>
 
 
 <table>
@@ -62,23 +63,23 @@ ms.locfileid: "48530271"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f0979-111">Informations utilisateur</span><span class="sxs-lookup"><span data-stu-id="f0979-111">User Information</span></span></th>
-<th><span data-ttu-id="f0979-112">Adresse et numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="f0979-112">Address and Phone</span></span></th>
-<th><span data-ttu-id="f0979-113">Organisation</span><span class="sxs-lookup"><span data-stu-id="f0979-113">Organization</span></span></th>
+<th><span data-ttu-id="05e63-112">Informations utilisateur</span><span class="sxs-lookup"><span data-stu-id="05e63-112">User Information</span></span></th>
+<th><span data-ttu-id="05e63-113">Adresse et numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="05e63-113">Address and Phone</span></span></th>
+<th><span data-ttu-id="05e63-114">Organisation</span><span class="sxs-lookup"><span data-stu-id="05e63-114">Organization</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f0979-114">Initials</span><span class="sxs-lookup"><span data-stu-id="f0979-114">Initials</span></span></p></td>
-<td><p><span data-ttu-id="f0979-115">Rue</span><span class="sxs-lookup"><span data-stu-id="f0979-115">Street address</span></span></p>
-<p><span data-ttu-id="f0979-116">Pays/région</span><span class="sxs-lookup"><span data-stu-id="f0979-116">Country/region</span></span></p>
-<p><span data-ttu-id="f0979-117">Alphanumérique</span><span class="sxs-lookup"><span data-stu-id="f0979-117">Pager</span></span></p>
-<p><span data-ttu-id="f0979-118">Fax</span><span class="sxs-lookup"><span data-stu-id="f0979-118">Fax</span></span></p>
-<p><span data-ttu-id="f0979-119">Mobiles</span><span class="sxs-lookup"><span data-stu-id="f0979-119">Mobile</span></span></p></td>
-<td><p><span data-ttu-id="f0979-120">Titre</span><span class="sxs-lookup"><span data-stu-id="f0979-120">Title</span></span></p>
-<p><span data-ttu-id="f0979-121">Company</span><span class="sxs-lookup"><span data-stu-id="f0979-121">Company</span></span></p>
-<p><span data-ttu-id="f0979-122">Service</span><span class="sxs-lookup"><span data-stu-id="f0979-122">Department</span></span></p>
-<p><span data-ttu-id="f0979-123">Bureau</span><span class="sxs-lookup"><span data-stu-id="f0979-123">Office</span></span></p></td>
+<td><p><span data-ttu-id="05e63-115">Initials</span><span class="sxs-lookup"><span data-stu-id="05e63-115">Initials</span></span></p></td>
+<td><p><span data-ttu-id="05e63-116">Rue</span><span class="sxs-lookup"><span data-stu-id="05e63-116">Street address</span></span></p>
+<p><span data-ttu-id="05e63-117">Pays/région</span><span class="sxs-lookup"><span data-stu-id="05e63-117">Country/region</span></span></p>
+<p><span data-ttu-id="05e63-118">Alphanumérique</span><span class="sxs-lookup"><span data-stu-id="05e63-118">Pager</span></span></p>
+<p><span data-ttu-id="05e63-119">Fax</span><span class="sxs-lookup"><span data-stu-id="05e63-119">Fax</span></span></p>
+<p><span data-ttu-id="05e63-120">Mobiles</span><span class="sxs-lookup"><span data-stu-id="05e63-120">Mobile</span></span></p></td>
+<td><p><span data-ttu-id="05e63-121">Titre</span><span class="sxs-lookup"><span data-stu-id="05e63-121">Title</span></span></p>
+<p><span data-ttu-id="05e63-122">Company</span><span class="sxs-lookup"><span data-stu-id="05e63-122">Company</span></span></p>
+<p><span data-ttu-id="05e63-123">Service</span><span class="sxs-lookup"><span data-stu-id="05e63-123">Department</span></span></p>
+<p><span data-ttu-id="05e63-124">Bureau</span><span class="sxs-lookup"><span data-stu-id="05e63-124">Office</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -86,31 +87,31 @@ ms.locfileid: "48530271"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f0979-124">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f0979-124">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="05e63-125">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="05e63-125">In This Section</span></span>
 
-  - [<span data-ttu-id="f0979-125">Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-125">Viewing information about user accounts enabled for Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
+  - [<span data-ttu-id="05e63-126">Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-126">Viewing information about user accounts enabled for Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
 
-  - [<span data-ttu-id="f0979-126">Activation et désactivation des utilisateurs pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-126">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+  - [<span data-ttu-id="05e63-127">Activation et désactivation des utilisateurs pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-127">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
 
-  - [<span data-ttu-id="f0979-127">Gestion de voix entreprise pour les utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-127">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)
+  - [<span data-ttu-id="05e63-128">Gestion de voix entreprise pour les utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-128">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)
 
-  - [<span data-ttu-id="f0979-128">Modification des propriétés d’un compte d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-128">Modifying user account properties in Lync Server 2013</span></span>](lync-server-2013-modifying-user-account-properties.md)
+  - [<span data-ttu-id="05e63-129">Modification des propriétés d’un compte d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-129">Modifying user account properties in Lync Server 2013</span></span>](lync-server-2013-modifying-user-account-properties.md)
 
-  - [<span data-ttu-id="f0979-129">Gérer la stratégie d’accès externe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-129">Manage external access policy in Lync Server 2013</span></span>](lync-server-2013-manage-external-access-policy-for-your-organization.md)
+  - [<span data-ttu-id="05e63-130">Gérer la stratégie d’accès externe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-130">Manage external access policy in Lync Server 2013</span></span>](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [<span data-ttu-id="f0979-130">Affectation de stratégies par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-130">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
+  - [<span data-ttu-id="05e63-131">Affectation de stratégies par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-131">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f0979-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f0979-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05e63-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="05e63-132">See Also</span></span>
 
 
-[<span data-ttu-id="f0979-132">Applets de commande de gestion des utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-132">User management cmdlets in Lync Server 2013</span></span>](lync-server-2013-user-management-cmdlets.md)  
+[<span data-ttu-id="05e63-133">Applets de commande de gestion des utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-133">User management cmdlets in Lync Server 2013</span></span>](lync-server-2013-user-management-cmdlets.md)  
 
 
-[<span data-ttu-id="f0979-133">Gestion des utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0979-133">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
+[<span data-ttu-id="05e63-134">Gestion des utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05e63-134">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
   
 
 </div>

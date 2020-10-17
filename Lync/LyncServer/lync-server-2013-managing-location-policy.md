@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion de la stratégie d’emplacement'
+description: 'Lync Server 2013 : gestion de la stratégie d’emplacement.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db329cee8f58de1b058c8ef2f6ec1d1c9e064c86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f7419d69e1e1ece082ce35d4550cdbe4c3b01bfb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498191"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569420"
 ---
-# <a name="managing-location-policy-in-lync-server-2013"></a><span data-ttu-id="b81dc-102">Gestion de la stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b81dc-102">Managing location policy in Lync Server 2013</span></span>
+# <a name="managing-location-policy-in-lync-server-2013"></a><span data-ttu-id="8a1bc-103">Gestion de la stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a1bc-103">Managing location policy in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,36 +38,36 @@ ms.locfileid: "48498191"
 
 <span> </span>
 
-<span data-ttu-id="b81dc-103">_**Dernière modification de la rubrique :** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="b81dc-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="8a1bc-104">_**Dernière modification de la rubrique :** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="8a1bc-104">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="b81dc-104">Utilisez les procédures de cette section pour gérer la stratégie d’emplacement Lync Server 2013 à partir du groupe de **Configuration réseau** dans le panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b81dc-104">Use the procedures in this section to manage the Lync Server 2013 location policy from the **Network Configuration** group in Lync Server Control Panel.</span></span>
+<span data-ttu-id="8a1bc-105">Utilisez les procédures de cette section pour gérer la stratégie d’emplacement Lync Server 2013 à partir du groupe de **Configuration réseau** dans le panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8a1bc-105">Use the procedures in this section to manage the Lync Server 2013 location policy from the **Network Configuration** group in Lync Server Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b81dc-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="b81dc-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8a1bc-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="8a1bc-106">In This Section</span></span>
 
-  - [<span data-ttu-id="b81dc-106">Affichage des informations de stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b81dc-106">Viewing location policy information in Lync Server 2013</span></span>](lync-server-2013-viewing-location-policy-information.md)
+  - [<span data-ttu-id="8a1bc-107">Affichage des informations de stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a1bc-107">Viewing location policy information in Lync Server 2013</span></span>](lync-server-2013-viewing-location-policy-information.md)
 
-  - [<span data-ttu-id="b81dc-107">Création ou modification d’une stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b81dc-107">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)
+  - [<span data-ttu-id="8a1bc-108">Création ou modification d’une stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a1bc-108">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)
 
-  - [<span data-ttu-id="b81dc-108">Suppression d’une stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b81dc-108">Deleting a location policy in Lync Server 2013</span></span>](lync-server-2013-deleting-a-location-policy.md)
+  - [<span data-ttu-id="8a1bc-109">Suppression d’une stratégie d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a1bc-109">Deleting a location policy in Lync Server 2013</span></span>](lync-server-2013-deleting-a-location-policy.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="b81dc-109">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="b81dc-109">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="8a1bc-110">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="8a1bc-110">Related Sections</span></span>
 
-[<span data-ttu-id="b81dc-110">Planification des services d’urgence (E9-1-1) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b81dc-110">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+[<span data-ttu-id="8a1bc-111">Planification des services d’urgence (E9-1-1) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a1bc-111">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b81dc-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b81dc-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8a1bc-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8a1bc-112">See Also</span></span>
 
 
-[<span data-ttu-id="b81dc-112">Définition de la stratégie d’emplacement pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b81dc-112">Defining the location policy for Lync Server 2013</span></span>](lync-server-2013-defining-the-location-policy.md)  
+[<span data-ttu-id="8a1bc-113">Définition de la stratégie d’emplacement pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a1bc-113">Defining the location policy for Lync Server 2013</span></span>](lync-server-2013-defining-the-location-policy.md)  
   
 
 </div>

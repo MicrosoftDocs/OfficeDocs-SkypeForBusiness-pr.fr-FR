@@ -1,5 +1,6 @@
 ---
 title: Configurer une entrée d’application approuvée pour le contrôle d’appel distant
+description: Configurez une entrée d’application approuvée pour le contrôle d’appel distant.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f8175a351d13675c048efce7a2f831af7ab2c31
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fa5341dc220853670cf000f5b0d5dc379c02fa51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523061"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570070"
 ---
-# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="0cb06-102">Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cb06-102">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>
+# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="032a6-103">Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="032a6-103">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48523061"
 
 <span> </span>
 
-<span data-ttu-id="0cb06-103">_**Dernière modification de la rubrique :** 2015-11-02_</span><span class="sxs-lookup"><span data-stu-id="0cb06-103">_**Topic Last Modified:** 2015-11-02_</span></span>
+<span data-ttu-id="032a6-104">_**Dernière modification de la rubrique :** 2015-11-02_</span><span class="sxs-lookup"><span data-stu-id="032a6-104">_**Topic Last Modified:** 2015-11-02_</span></span>
 
-<span data-ttu-id="0cb06-104">La passerelle SIP/CSTA doit être configurée en tant qu’application approuvée afin de permettre à Lync Server d’appliquer un itinéraire statique pour acheminer les appels vers la passerelle.</span><span class="sxs-lookup"><span data-stu-id="0cb06-104">The SIP/CSTA gateway must be configured as a trusted application in order for Lync Server to apply a static route to route calls to the gateway.</span></span>
+<span data-ttu-id="032a6-105">La passerelle SIP/CSTA doit être configurée en tant qu’application approuvée afin de permettre à Lync Server d’appliquer un itinéraire statique pour acheminer les appels vers la passerelle.</span><span class="sxs-lookup"><span data-stu-id="032a6-105">The SIP/CSTA gateway must be configured as a trusted application in order for Lync Server to apply a static route to route calls to the gateway.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="0cb06-105">Si vous migrez des utilisateurs à partir d’une version précédente du déploiement Lync Server, veillez à supprimer toutes les entrées d’applications approuvées existantes (précédemment connues sous le nom d’entrées d’hôte autorisé) créées pour la passerelle SIP/CSTA avant de suivre les procédures décrites dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="0cb06-105">If you're migrating users from a previous version of Lync Server deployment, be sure that you removed all existing trusted application entries (previously known as authorized host entries) you created for the SIP/CSTA gateway before following the procedures in this topic.</span></span> <span data-ttu-id="0cb06-106">Pour plus d’informations, consultez <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">la rubrique supprimer un hôte autorisé hérité dans Lync Server 2013 (facultatif)</A>.</span><span class="sxs-lookup"><span data-stu-id="0cb06-106">For details, see <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remove a legacy authorized host in Lync Server 2013 (optional)</A>.</span></span><BR><span data-ttu-id="0cb06-107">Si vous envisagez de déployer un nouveau contrôle d’appel distant à l’aide d’une connexion TCP (Transmission Control Protocol), vous devez vérifier que la <STRONG>limite d’utilisation des services aux adresses IP sélectionnées</STRONG> doit être définie sur des pools et des applications approuvées existantes, si vous voulez utiliser le même port TCP pour la nouvelle application approuvée.</span><span class="sxs-lookup"><span data-stu-id="0cb06-107">If you plan to deploy new remote call control by using a Transmission Control Protocol (TCP) connection, you need to verify that <STRONG>Limit service usage to selected IP addresses</STRONG> should be set on existing trusted applications and pools, if you want to use the same TCP port for the new trusted application.</span></span>
+> <span data-ttu-id="032a6-106">Si vous migrez des utilisateurs à partir d’une version précédente du déploiement Lync Server, veillez à supprimer toutes les entrées d’applications approuvées existantes (précédemment connues sous le nom d’entrées d’hôte autorisé) créées pour la passerelle SIP/CSTA avant de suivre les procédures décrites dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="032a6-106">If you're migrating users from a previous version of Lync Server deployment, be sure that you removed all existing trusted application entries (previously known as authorized host entries) you created for the SIP/CSTA gateway before following the procedures in this topic.</span></span> <span data-ttu-id="032a6-107">Pour plus d’informations, consultez <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">la rubrique supprimer un hôte autorisé hérité dans Lync Server 2013 (facultatif)</A>.</span><span class="sxs-lookup"><span data-stu-id="032a6-107">For details, see <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remove a legacy authorized host in Lync Server 2013 (optional)</A>.</span></span><BR><span data-ttu-id="032a6-108">Si vous envisagez de déployer un nouveau contrôle d’appel distant à l’aide d’une connexion TCP (Transmission Control Protocol), vous devez vérifier que la <STRONG>limite d’utilisation des services aux adresses IP sélectionnées</STRONG> doit être définie sur des pools et des applications approuvées existantes, si vous voulez utiliser le même port TCP pour la nouvelle application approuvée.</span><span class="sxs-lookup"><span data-stu-id="032a6-108">If you plan to deploy new remote call control by using a Transmission Control Protocol (TCP) connection, you need to verify that <STRONG>Limit service usage to selected IP addresses</STRONG> should be set on existing trusted applications and pools, if you want to use the same TCP port for the new trusted application.</span></span>
 
 
 
@@ -53,49 +54,49 @@ ms.locfileid: "48523061"
 
 <div>
 
-## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a><span data-ttu-id="0cb06-108">Pour configurer une entrée d’application approuvée pour la passerelle SIP/CSTA</span><span class="sxs-lookup"><span data-stu-id="0cb06-108">To configure a trusted application entry for the SIP/CSTA gateway</span></span>
+## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a><span data-ttu-id="032a6-109">Pour configurer une entrée d’application approuvée pour la passerelle SIP/CSTA</span><span class="sxs-lookup"><span data-stu-id="032a6-109">To configure a trusted application entry for the SIP/CSTA gateway</span></span>
 
-1.  <span data-ttu-id="0cb06-109">Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou d’un rôle RBAC (contrôle d’accès basé sur un rôle) auquel vous avez affecté la cmdlet **New-CsTrustedApplicationPool** .</span><span class="sxs-lookup"><span data-stu-id="0cb06-109">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or a role-based access control (RBAC) role to which you have assigned the **New-CsTrustedApplicationPool** cmdlet.</span></span>
+1.  <span data-ttu-id="032a6-110">Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou d’un rôle RBAC (contrôle d’accès basé sur un rôle) auquel vous avez affecté la cmdlet **New-CsTrustedApplicationPool** .</span><span class="sxs-lookup"><span data-stu-id="032a6-110">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or a role-based access control (RBAC) role to which you have assigned the **New-CsTrustedApplicationPool** cmdlet.</span></span>
 
-2.  <span data-ttu-id="0cb06-110">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="0cb06-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="032a6-111">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="032a6-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="0cb06-111">Pour créer une entrée d’application approuvée, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="0cb06-111">To create a trusted application entry, do one of the following:</span></span>
+3.  <span data-ttu-id="032a6-112">Pour créer une entrée d’application approuvée, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="032a6-112">To create a trusted application entry, do one of the following:</span></span>
     
-      - <span data-ttu-id="0cb06-112">Pour une connexion TLS (Transport Layer Security), tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="0cb06-112">For a Transport Layer Security (TLS) connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="032a6-113">Pour une connexion TLS (Transport Layer Security), tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="032a6-113">For a Transport Layer Security (TLS) connection, type the following at the command prompt:</span></span>
         
             New-CsTrustedApplicationPool -Identity <FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
-        <span data-ttu-id="0cb06-113">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="0cb06-113">For example:</span></span>
+        <span data-ttu-id="032a6-114">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="032a6-114">For example:</span></span>
         
             New-CsTrustedApplicationPool -Identity rccgateway.contoso.net -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
     
-      - <span data-ttu-id="0cb06-114">Pour une connexion TCP (Transmission Control Protocol), tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="0cb06-114">For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="032a6-115">Pour une connexion TCP (Transmission Control Protocol), tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="032a6-115">For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:</span></span>
         
             New-CsTrustedApplicationPool -Identity <IP address or FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
-        <span data-ttu-id="0cb06-115">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="0cb06-115">For example:</span></span>
+        <span data-ttu-id="032a6-116">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="032a6-116">For example:</span></span>
         
             New-CsTrustedApplicationPool -Identity 192.168.0.240 -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
 
-4.  <span data-ttu-id="0cb06-116">Pour ajouter l’application approuvée au pool, procédez de l’une des manières suivantes :</span><span class="sxs-lookup"><span data-stu-id="0cb06-116">To add the trusted application to the pool, do one of the following:</span></span>
+4.  <span data-ttu-id="032a6-117">Pour ajouter l’application approuvée au pool, procédez de l’une des manières suivantes :</span><span class="sxs-lookup"><span data-stu-id="032a6-117">To add the trusted application to the pool, do one of the following:</span></span>
     
-      - <span data-ttu-id="0cb06-117">Pour une connexion TLS, tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="0cb06-117">For a TLS connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="032a6-118">Pour une connexion TLS, tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="032a6-118">For a TLS connection, type the following at the command prompt:</span></span>
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway>
         
-        <span data-ttu-id="0cb06-118">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="0cb06-118">For example:</span></span>
+        <span data-ttu-id="032a6-119">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="032a6-119">For example:</span></span>
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn rccgateway.contoso.net -Port 5065
     
-      - <span data-ttu-id="0cb06-119">Pour une connexion TCP, tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="0cb06-119">For a TCP connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="032a6-120">Pour une connexion TCP, tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="032a6-120">For a TCP connection, type the following at the command prompt:</span></span>
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <IP address or FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway> -EnableTcp
         
-        <span data-ttu-id="0cb06-120">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="0cb06-120">For example:</span></span>
+        <span data-ttu-id="032a6-121">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="032a6-121">For example:</span></span>
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn 192.169.0.240 -Port 5065 -EnableTcp
 
-5.  <span data-ttu-id="0cb06-121">Pour implémenter les modifications publiées que vous avez apportées à la topologie, tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="0cb06-121">To implement the published changes you have made to the topology, type the following at the command prompt:</span></span>
+5.  <span data-ttu-id="032a6-122">Pour implémenter les modifications publiées que vous avez apportées à la topologie, tapez ce qui suit à l’invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="032a6-122">To implement the published changes you have made to the topology, type the following at the command prompt:</span></span>
     
         Enable-CsTopology
 
@@ -103,11 +104,11 @@ ms.locfileid: "48523061"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0cb06-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0cb06-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="032a6-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="032a6-123">See Also</span></span>
 
 
-[<span data-ttu-id="0cb06-123">Configurer un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cb06-123">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[<span data-ttu-id="0cb06-124">Définition d’une adresse IP de passerelle SIP/CSTA dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cb06-124">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+[<span data-ttu-id="032a6-124">Configurer un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="032a6-124">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[<span data-ttu-id="032a6-125">Définition d’une adresse IP de passerelle SIP/CSTA dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="032a6-125">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 
 </div>
