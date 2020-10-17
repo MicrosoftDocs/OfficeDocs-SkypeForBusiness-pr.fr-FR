@@ -12,20 +12,22 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41eefd8316e0e33ab8c4418a6ce72ea9eb05fc84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc12092e08980fcb1863b18805260ac307cc6d3d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534861"
 ---
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a><span data-ttu-id="2b684-102">Installation des fichiers principaux de Lync Server 2013 et de la base de données RTCLocal</span><span class="sxs-lookup"><span data-stu-id="2b684-102">Installing the Lync Server 2013 core files and the RTCLocal database</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a><span data-ttu-id="28a4b-102">Installation des fichiers principaux de Lync Server 2013 et de la base de données RTCLocal</span><span class="sxs-lookup"><span data-stu-id="28a4b-102">Installing the Lync Server 2013 core files and the RTCLocal database</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42214770"
 
 <span> </span>
 
-<span data-ttu-id="28a4b-103">_**Dernière modification de la rubrique :** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="28a4b-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="2b684-103">_**Dernière modification de la rubrique :** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="2b684-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="28a4b-104">Pour installer les fichiers principaux de Lync Server 2013 sur un ordinateur, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="28a4b-104">To install the Lync Server 2013 core files on a computer, complete the following procedure.</span></span> <span data-ttu-id="28a4b-105">La base de données RTCLocal est installée automatiquement quand vous installez les fichiers principaux.</span><span class="sxs-lookup"><span data-stu-id="28a4b-105">The RTCLocal database is automatically installed when you install the core files.</span></span> <span data-ttu-id="28a4b-106">Notez que vous n’avez pas besoin d’installer SQL Server sur les nœuds observateur.</span><span class="sxs-lookup"><span data-stu-id="28a4b-106">Note that you do not need to install SQL Server on the watcher nodes.</span></span> <span data-ttu-id="28a4b-107">Au lieu de cela, SQL Server Express est automatiquement installé pour vous.</span><span class="sxs-lookup"><span data-stu-id="28a4b-107">Instead, SQL Server Express is automatically installed for you.</span></span>
+<span data-ttu-id="2b684-104">Pour installer les fichiers principaux de Lync Server 2013 sur un ordinateur, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="2b684-104">To install the Lync Server 2013 core files on a computer, complete the following procedure.</span></span> <span data-ttu-id="2b684-105">La base de données RTCLocal est installée automatiquement quand vous installez les fichiers principaux.</span><span class="sxs-lookup"><span data-stu-id="2b684-105">The RTCLocal database is automatically installed when you install the core files.</span></span> <span data-ttu-id="2b684-106">Notez que vous n’avez pas besoin d’installer SQL Server sur les nœuds observateur.</span><span class="sxs-lookup"><span data-stu-id="2b684-106">Note that you do not need to install SQL Server on the watcher nodes.</span></span> <span data-ttu-id="2b684-107">Au lieu de cela, SQL Server Express est automatiquement installé pour vous.</span><span class="sxs-lookup"><span data-stu-id="2b684-107">Instead, SQL Server Express is automatically installed for you.</span></span>
 
-<span data-ttu-id="28a4b-108">Pour installer les fichiers principaux de Lync Server 2013 et la base de données RTCLocal :</span><span class="sxs-lookup"><span data-stu-id="28a4b-108">To install the Lync Server 2013 core files and the RTCLocal database:</span></span>
+<span data-ttu-id="2b684-108">Pour installer les fichiers principaux de Lync Server 2013 et la base de données RTCLocal :</span><span class="sxs-lookup"><span data-stu-id="2b684-108">To install the Lync Server 2013 core files and the RTCLocal database:</span></span>
 
-1.  <span data-ttu-id="28a4b-109">Sur l’ordinateur sur lequel se trouve le nœud observateur, cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Accessoires**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="28a4b-109">On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
+1.  <span data-ttu-id="2b684-109">Sur l’ordinateur sur lequel se trouve le nœud observateur, cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Accessoires**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="2b684-109">On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
 
-2.  <span data-ttu-id="28a4b-110">Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur entrée, en utilisant le chemin d’accès approprié à vos fichiers d’installation de Lync Server :</span><span class="sxs-lookup"><span data-stu-id="28a4b-110">In the console window, type the following command and then press ENTER, using the appropriate path to your Lync Server setup files:</span></span>
+2.  <span data-ttu-id="2b684-110">Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur entrée, en utilisant le chemin d’accès approprié à vos fichiers d’installation de Lync Server :</span><span class="sxs-lookup"><span data-stu-id="2b684-110">In the console window, type the following command and then press ENTER, using the appropriate path to your Lync Server setup files:</span></span>
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-<span data-ttu-id="28a4b-111">Pour vérifier que les composants principaux de Lync Server ont été correctement installés, cliquez sur **Démarrer**, sur **tous les programmes**, sur **Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="28a4b-111">To verify that the core Lync Server components were successfully installed, click **Start**, click **All Programs**, click **Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span> <span data-ttu-id="28a4b-112">Dans l’environnement de ligne de commande Lync Server 2013 Management Shell, tapez la commande Windows PowerShell suivante, puis appuyez sur entrée :</span><span class="sxs-lookup"><span data-stu-id="28a4b-112">In the Lync Server 2013 Management Shell, type the following Windows PowerShell command, and then press ENTER:</span></span>
+<span data-ttu-id="2b684-111">Pour vérifier que les composants principaux de Lync Server ont été correctement installés, cliquez sur **Démarrer**, sur **tous les programmes**, sur **Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="2b684-111">To verify that the core Lync Server components were successfully installed, click **Start**, click **All Programs**, click **Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span> <span data-ttu-id="2b684-112">Dans l’environnement de ligne de commande Lync Server 2013 Management Shell, tapez la commande Windows PowerShell suivante, puis appuyez sur entrée :</span><span class="sxs-lookup"><span data-stu-id="2b684-112">In the Lync Server 2013 Management Shell, type the following Windows PowerShell command, and then press ENTER:</span></span>
 
     Get-CsWatcherNodeConfiguration
 
-<span data-ttu-id="28a4b-113">La première fois que vous exécutez cette commande, elle ne renvoie aucune donnée, car vous n’avez encore configuré aucun nœud observateur.</span><span class="sxs-lookup"><span data-stu-id="28a4b-113">The first time you run this command, you no data is returned because you have not configured any watcher node computers yet.</span></span> <span data-ttu-id="28a4b-114">Tant que la commande s’exécute sans renvoyer d’erreur, vous pouvez supposer que l’installation de Lync Server a réussi.</span><span class="sxs-lookup"><span data-stu-id="28a4b-114">As long as the command runs without returning an error, you can assume that the Lync Server setup completed successfully.</span></span>
+<span data-ttu-id="2b684-113">La première fois que vous exécutez cette commande, elle ne renvoie aucune donnée, car vous n’avez encore configuré aucun nœud observateur.</span><span class="sxs-lookup"><span data-stu-id="2b684-113">The first time you run this command, you no data is returned because you have not configured any watcher node computers yet.</span></span> <span data-ttu-id="2b684-114">Tant que la commande s’exécute sans renvoyer d’erreur, vous pouvez supposer que l’installation de Lync Server a réussi.</span><span class="sxs-lookup"><span data-stu-id="2b684-114">As long as the command runs without returning an error, you can assume that the Lync Server setup completed successfully.</span></span>
 
-<span data-ttu-id="28a4b-115">Si votre ordinateur nœud observateur se trouve à l’intérieur de votre réseau de périmètre, vous pouvez exécuter la commande suivante pour vérifier l’installation de Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="28a4b-115">If your watcher node computer is located inside your perimeter network, you can run the following command to verify the installation of Lync Server 2013:</span></span>
+<span data-ttu-id="2b684-115">Si votre ordinateur nœud observateur se trouve à l’intérieur de votre réseau de périmètre, vous pouvez exécuter la commande suivante pour vérifier l’installation de Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="2b684-115">If your watcher node computer is located inside your perimeter network, you can run the following command to verify the installation of Lync Server 2013:</span></span>
 
     Get-CsPinPolicy
 
-<span data-ttu-id="28a4b-116">Vous recevrez des informations semblables aux suivantes, selon le nombre de stratégies de code confidentiel configurées dans votre organisation :</span><span class="sxs-lookup"><span data-stu-id="28a4b-116">You will receive information similar to the following, depending on the number of personal identification number (PIN) policies configured for use in your organization:</span></span>
+<span data-ttu-id="2b684-116">Vous recevrez des informations semblables aux suivantes, selon le nombre de stratégies de code confidentiel configurées dans votre organisation :</span><span class="sxs-lookup"><span data-stu-id="2b684-116">You will receive information similar to the following, depending on the number of personal identification number (PIN) policies configured for use in your organization:</span></span>
 
     Identity             : Global
     Description          :
@@ -67,7 +69,7 @@ ms.locfileid: "42214770"
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-<span data-ttu-id="28a4b-117">Si des informations sur vos stratégies de code confidentiel sont affichées, cela signifie que vous avez correctement installé les composants principaux.</span><span class="sxs-lookup"><span data-stu-id="28a4b-117">If you see information about your PIN policies, it means that you have successfully installed the core components.</span></span>
+<span data-ttu-id="2b684-117">Si des informations sur vos stratégies de code confidentiel sont affichées, cela signifie que vous avez correctement installé les composants principaux.</span><span class="sxs-lookup"><span data-stu-id="2b684-117">If you see information about your PIN policies, it means that you have successfully installed the core components.</span></span>
 
 </div>
 
