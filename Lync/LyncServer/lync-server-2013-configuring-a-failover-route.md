@@ -12,20 +12,22 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50917bffe3c6294b554edc7f9c3f620721e04737
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0a3a0d3b2eb2d505ff345af66ae8ccbcc551ee8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204415"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520061"
 ---
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a><span data-ttu-id="7cbe0-102">Configuration d’un itinéraire de basculement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7cbe0-102">Configuring a failover route in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a><span data-ttu-id="1aacb-102">Configuration d’un itinéraire de basculement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1aacb-102">Configuring a failover route in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42204415"
 
 <span> </span>
 
-<span data-ttu-id="1aacb-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="1aacb-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="7cbe0-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7cbe0-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="1aacb-p101">L’exemple suivant montre comment un administrateur peut définir un itinéraire de basculement à utiliser en cas de maintenance ou d’indisponibilité de Dallas-GW1. Les tableaux suivants illustrent la modification de configuration requise.</span><span class="sxs-lookup"><span data-stu-id="1aacb-p101">The following example shows how an administrator can define a failover route for use if the Dallas-GW1 is down for maintenance or is otherwise unavailable. The following tables illustrate the required configuration change.</span></span>
+<span data-ttu-id="7cbe0-p101">L’exemple suivant montre comment un administrateur peut définir un itinéraire de basculement à utiliser en cas de maintenance ou d’indisponibilité de Dallas-GW1. Les tableaux suivants illustrent la modification de configuration requise.</span><span class="sxs-lookup"><span data-stu-id="7cbe0-p101">The following example shows how an administrator can define a failover route for use if the Dallas-GW1 is down for maintenance or is otherwise unavailable. The following tables illustrate the required configuration change.</span></span>
 
-### <a name="table-1-user-policy"></a><span data-ttu-id="1aacb-p102">Tableau 1. Stratégie utilisateur</span><span class="sxs-lookup"><span data-stu-id="1aacb-p102">Table 1. User Policy</span></span>
+### <a name="table-1-user-policy"></a><span data-ttu-id="7cbe0-p102">Tableau 1. Stratégie utilisateur</span><span class="sxs-lookup"><span data-stu-id="7cbe0-p102">Table 1. User Policy</span></span>
 
 <table>
 <colgroup>
@@ -48,30 +50,30 @@ ms.locfileid: "42204415"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1aacb-108">Stratégie utilisateur</span><span class="sxs-lookup"><span data-stu-id="1aacb-108">User policy</span></span></th>
-<th><span data-ttu-id="1aacb-109">Utilisation téléphonique</span><span class="sxs-lookup"><span data-stu-id="1aacb-109">Phone usage</span></span></th>
+<th><span data-ttu-id="7cbe0-108">Stratégie utilisateur</span><span class="sxs-lookup"><span data-stu-id="7cbe0-108">User policy</span></span></th>
+<th><span data-ttu-id="7cbe0-109">Utilisation téléphonique</span><span class="sxs-lookup"><span data-stu-id="7cbe0-109">Phone usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1aacb-110">Default Calling Policy</span><span class="sxs-lookup"><span data-stu-id="1aacb-110">Default Calling Policy</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-111">Local</span><span class="sxs-lookup"><span data-stu-id="1aacb-111">Local</span></span></p>
-<p><span data-ttu-id="1aacb-112">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="1aacb-112">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-110">Default Calling Policy</span><span class="sxs-lookup"><span data-stu-id="7cbe0-110">Default Calling Policy</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-111">Local</span><span class="sxs-lookup"><span data-stu-id="7cbe0-111">Local</span></span></p>
+<p><span data-ttu-id="7cbe0-112">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="7cbe0-112">GlobalPSTNHopoff</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1aacb-113">Redmond Local Policy</span><span class="sxs-lookup"><span data-stu-id="1aacb-113">Redmond Local Policy</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-114">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="1aacb-114">RedmondLocal</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-113">Redmond Local Policy</span><span class="sxs-lookup"><span data-stu-id="7cbe0-113">Redmond Local Policy</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-114">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="7cbe0-114">RedmondLocal</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1aacb-115">Dallas Calling Policy</span><span class="sxs-lookup"><span data-stu-id="1aacb-115">Dallas Calling Policy</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-116">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="1aacb-116">DallasUsers</span></span></p>
-<p><span data-ttu-id="1aacb-117">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="1aacb-117">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-115">Dallas Calling Policy</span><span class="sxs-lookup"><span data-stu-id="7cbe0-115">Dallas Calling Policy</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-116">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="7cbe0-116">DallasUsers</span></span></p>
+<p><span data-ttu-id="7cbe0-117">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="7cbe0-117">GlobalPSTNHopoff</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-2-routes"></a><span data-ttu-id="1aacb-p103">Tableau 2. Itinéraires</span><span class="sxs-lookup"><span data-stu-id="1aacb-p103">Table 2. Routes</span></span>
+### <a name="table-2-routes"></a><span data-ttu-id="7cbe0-p103">Tableau 2. Itinéraires</span><span class="sxs-lookup"><span data-stu-id="7cbe0-p103">Table 2. Routes</span></span>
 
 <table>
 <colgroup>
@@ -83,54 +85,54 @@ ms.locfileid: "42204415"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1aacb-120">Nom de l’itinéraire</span><span class="sxs-lookup"><span data-stu-id="1aacb-120">Route name</span></span></th>
-<th><span data-ttu-id="1aacb-121">Modèle de numéro</span><span class="sxs-lookup"><span data-stu-id="1aacb-121">Number pattern</span></span></th>
-<th><span data-ttu-id="1aacb-122">Utilisation téléphonique</span><span class="sxs-lookup"><span data-stu-id="1aacb-122">Phone usage</span></span></th>
-<th><span data-ttu-id="1aacb-123">Urbain</span><span class="sxs-lookup"><span data-stu-id="1aacb-123">Trunk</span></span></th>
-<th><span data-ttu-id="1aacb-124">Passerelle</span><span class="sxs-lookup"><span data-stu-id="1aacb-124">Gateway</span></span></th>
+<th><span data-ttu-id="7cbe0-120">Nom de l’itinéraire</span><span class="sxs-lookup"><span data-stu-id="7cbe0-120">Route name</span></span></th>
+<th><span data-ttu-id="7cbe0-121">Modèle de numéro</span><span class="sxs-lookup"><span data-stu-id="7cbe0-121">Number pattern</span></span></th>
+<th><span data-ttu-id="7cbe0-122">Utilisation téléphonique</span><span class="sxs-lookup"><span data-stu-id="7cbe0-122">Phone usage</span></span></th>
+<th><span data-ttu-id="7cbe0-123">Urbain</span><span class="sxs-lookup"><span data-stu-id="7cbe0-123">Trunk</span></span></th>
+<th><span data-ttu-id="7cbe0-124">Passerelle</span><span class="sxs-lookup"><span data-stu-id="7cbe0-124">Gateway</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1aacb-125">Redmond Local Route</span><span class="sxs-lookup"><span data-stu-id="1aacb-125">Redmond Local Route</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-126">^\+1 (425 | 206 | 253) (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="1aacb-126">^\+1(425|206|253)(\d{7})$</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-127">Local</span><span class="sxs-lookup"><span data-stu-id="1aacb-127">Local</span></span></p>
-<p><span data-ttu-id="1aacb-128">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="1aacb-128">RedmondLocal</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-129">Trunk1</span><span class="sxs-lookup"><span data-stu-id="1aacb-129">Trunk1</span></span></p>
-<p><span data-ttu-id="1aacb-130">Trunk2</span><span class="sxs-lookup"><span data-stu-id="1aacb-130">Trunk2</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-131">Rouge-GW1</span><span class="sxs-lookup"><span data-stu-id="1aacb-131">Red-GW1</span></span></p>
-<p><span data-ttu-id="1aacb-132">Rouge-GW2</span><span class="sxs-lookup"><span data-stu-id="1aacb-132">Red-GW2</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-125">Redmond Local Route</span><span class="sxs-lookup"><span data-stu-id="7cbe0-125">Redmond Local Route</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-126">^\+1 (425 | 206 | 253) (\d {7} ) $</span><span class="sxs-lookup"><span data-stu-id="7cbe0-126">^\+1(425|206|253)(\d{7})$</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-127">Local</span><span class="sxs-lookup"><span data-stu-id="7cbe0-127">Local</span></span></p>
+<p><span data-ttu-id="7cbe0-128">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="7cbe0-128">RedmondLocal</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-129">Trunk1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-129">Trunk1</span></span></p>
+<p><span data-ttu-id="7cbe0-130">Trunk2</span><span class="sxs-lookup"><span data-stu-id="7cbe0-130">Trunk2</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-131">Rouge-GW1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-131">Red-GW1</span></span></p>
+<p><span data-ttu-id="7cbe0-132">Rouge-GW2</span><span class="sxs-lookup"><span data-stu-id="7cbe0-132">Red-GW2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1aacb-133">Dallas Local Route</span><span class="sxs-lookup"><span data-stu-id="1aacb-133">Dallas Local Route</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-134">^\+1 (972 | 214 | 469) (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="1aacb-134">^\+1(972|214|469)(\d{7})$</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-135">Local</span><span class="sxs-lookup"><span data-stu-id="1aacb-135">Local</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-136">Trunk3</span><span class="sxs-lookup"><span data-stu-id="1aacb-136">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-137">Dallas-GW1</span><span class="sxs-lookup"><span data-stu-id="1aacb-137">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-133">Dallas Local Route</span><span class="sxs-lookup"><span data-stu-id="7cbe0-133">Dallas Local Route</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-134">^\+1 (972 | 214 | 469) (\d {7} ) $</span><span class="sxs-lookup"><span data-stu-id="7cbe0-134">^\+1(972|214|469)(\d{7})$</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-135">Local</span><span class="sxs-lookup"><span data-stu-id="7cbe0-135">Local</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-136">Trunk3</span><span class="sxs-lookup"><span data-stu-id="7cbe0-136">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-137">Dallas-GW1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-137">Dallas-GW1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1aacb-138">Universal Route</span><span class="sxs-lookup"><span data-stu-id="1aacb-138">Universal Route</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-139">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="1aacb-139">^\+?(\d\*)$</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-140">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="1aacb-140">GlobalPSTNHopoff</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-141">Trunk1</span><span class="sxs-lookup"><span data-stu-id="1aacb-141">Trunk1</span></span></p>
-<p><span data-ttu-id="1aacb-142">Trunk2</span><span class="sxs-lookup"><span data-stu-id="1aacb-142">Trunk2</span></span></p>
-<p><span data-ttu-id="1aacb-143">Trunk3</span><span class="sxs-lookup"><span data-stu-id="1aacb-143">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-144">Rouge-GW1</span><span class="sxs-lookup"><span data-stu-id="1aacb-144">Red-GW1</span></span></p>
-<p><span data-ttu-id="1aacb-145">Rouge-GW2</span><span class="sxs-lookup"><span data-stu-id="1aacb-145">Red-GW2</span></span></p>
-<p><span data-ttu-id="1aacb-146">Dallas-GW1</span><span class="sxs-lookup"><span data-stu-id="1aacb-146">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-138">Universal Route</span><span class="sxs-lookup"><span data-stu-id="7cbe0-138">Universal Route</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-139">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="7cbe0-139">^\+?(\d\*)$</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-140">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="7cbe0-140">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-141">Trunk1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-141">Trunk1</span></span></p>
+<p><span data-ttu-id="7cbe0-142">Trunk2</span><span class="sxs-lookup"><span data-stu-id="7cbe0-142">Trunk2</span></span></p>
+<p><span data-ttu-id="7cbe0-143">Trunk3</span><span class="sxs-lookup"><span data-stu-id="7cbe0-143">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-144">Rouge-GW1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-144">Red-GW1</span></span></p>
+<p><span data-ttu-id="7cbe0-145">Rouge-GW2</span><span class="sxs-lookup"><span data-stu-id="7cbe0-145">Red-GW2</span></span></p>
+<p><span data-ttu-id="7cbe0-146">Dallas-GW1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-146">Dallas-GW1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1aacb-147">Dallas Users Route</span><span class="sxs-lookup"><span data-stu-id="1aacb-147">Dallas Users Route</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-148">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="1aacb-148">^\+?(\d\*)$</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-149">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="1aacb-149">DallasUsers</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-150">Trunk3</span><span class="sxs-lookup"><span data-stu-id="1aacb-150">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="1aacb-151">Dallas-GW1</span><span class="sxs-lookup"><span data-stu-id="1aacb-151">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-147">Dallas Users Route</span><span class="sxs-lookup"><span data-stu-id="7cbe0-147">Dallas Users Route</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-148">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="7cbe0-148">^\+?(\d\*)$</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-149">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="7cbe0-149">DallasUsers</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-150">Trunk3</span><span class="sxs-lookup"><span data-stu-id="7cbe0-150">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="7cbe0-151">Dallas-GW1</span><span class="sxs-lookup"><span data-stu-id="7cbe0-151">Dallas-GW1</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1aacb-p104">Dans le tableau 1, une utilisation téléphonique GlobalPSTNHopoff est ajoutée après l’utilisation téléphonique DallasUsers dans la stratégie Dallas Calling Policy. Cela permet aux appels dotés de la stratégie Dallas Calling Policy d’utiliser des itinéraires configurés pour l’utilisation téléphonique GlobalPSTNHopoff, lorsqu’aucun itinéraire n’est disponible pour l’utilisation téléphonique DallasUsers.</span><span class="sxs-lookup"><span data-stu-id="1aacb-p104">In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.</span></span>
+<span data-ttu-id="7cbe0-p104">Dans le tableau 1, une utilisation téléphonique GlobalPSTNHopoff est ajoutée après l’utilisation téléphonique DallasUsers dans la stratégie Dallas Calling Policy. Cela permet aux appels dotés de la stratégie Dallas Calling Policy d’utiliser des itinéraires configurés pour l’utilisation téléphonique GlobalPSTNHopoff, lorsqu’aucun itinéraire n’est disponible pour l’utilisation téléphonique DallasUsers.</span><span class="sxs-lookup"><span data-stu-id="7cbe0-p104">In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.</span></span>
 
 </div>
 

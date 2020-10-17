@@ -12,20 +12,22 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18646cb43bc957ebee7da0a313e840cc18f3ed54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4c26c719e9d7e3cd0922813896896925a9bb6f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519991"
 ---
+# <a name="dialog-table-in-lync-server-2013"></a><span data-ttu-id="bbfbe-102">Table Dialog dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bbfbe-102">Dialog table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dialog-table-in-lync-server-2013"></a><span data-ttu-id="9b004-102">Table Dialog dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9b004-102">Dialog table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213410"
 
 <span> </span>
 
-<span data-ttu-id="9b004-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="9b004-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="bbfbe-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="bbfbe-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="9b004-104">La table Dialog est une table de prise en charge ; chaque enregistrement représente un dialogue SIP (Session Initiation Protocol).</span><span class="sxs-lookup"><span data-stu-id="9b004-104">The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog.</span></span>
+<span data-ttu-id="bbfbe-104">La table Dialog est une table de prise en charge ; chaque enregistrement représente un dialogue SIP (Session Initiation Protocol).</span><span class="sxs-lookup"><span data-stu-id="bbfbe-104">The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog.</span></span>
 
 
 <table>
@@ -49,36 +51,36 @@ ms.locfileid: "42213410"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9b004-105"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-105"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="9b004-106"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-106"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="9b004-107"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-107"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="9b004-108"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-108"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="bbfbe-105"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-105"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="bbfbe-106"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-106"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="bbfbe-107"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-107"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="bbfbe-108"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-108"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9b004-109"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-109"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b004-110">DateHeure</span><span class="sxs-lookup"><span data-stu-id="9b004-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="9b004-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="9b004-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9b004-p101">Heure à laquelle l’agent QoE (Quality of Excellence) reçoit le premier rapport de l’appelant ou de l’appelé. Utilisé conjointement avec SessionSeq pour identifier une session de manière unique.</span><span class="sxs-lookup"><span data-stu-id="9b004-p101">Time when the Quality of Excellence (QoE) agent receives the first report from either caller or callee. Used in conjunction with SessionSeq to uniquely identify a session.</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-109"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-109"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-110">DateHeure</span><span class="sxs-lookup"><span data-stu-id="bbfbe-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="bbfbe-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-p101">Heure à laquelle l’agent QoE (Quality of Excellence) reçoit le premier rapport de l’appelant ou de l’appelé. Utilisé conjointement avec SessionSeq pour identifier une session de manière unique.</span><span class="sxs-lookup"><span data-stu-id="bbfbe-p101">Time when the Quality of Excellence (QoE) agent receives the first report from either caller or callee. Used in conjunction with SessionSeq to uniquely identify a session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9b004-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-114"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b004-115">int</span><span class="sxs-lookup"><span data-stu-id="9b004-115">int</span></span></p></td>
-<td><p><span data-ttu-id="9b004-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="9b004-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9b004-117">Numéro de séquence pour différencier les sessions lorsqu’elles ont le même paramètre ConferenceDateTime.</span><span class="sxs-lookup"><span data-stu-id="9b004-117">Sequence number to differentiate sessions when they have the same ConferenceDateTime.</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-115">int</span><span class="sxs-lookup"><span data-stu-id="bbfbe-115">int</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="bbfbe-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-117">Numéro de séquence pour différencier les sessions lorsqu’elles ont le même paramètre ConferenceDateTime.</span><span class="sxs-lookup"><span data-stu-id="bbfbe-117">Sequence number to differentiate sessions when they have the same ConferenceDateTime.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9b004-118"><strong>DialogID</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-118"><strong>DialogID</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b004-119">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="9b004-119">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-118"><strong>DialogID</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-118"><strong>DialogID</strong></span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-119">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="bbfbe-119">varchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="9b004-120">ID du dialogue qui est unique à l’échelle globale.</span><span class="sxs-lookup"><span data-stu-id="9b004-120">Dialog ID which is globally unique.</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-120">ID du dialogue qui est unique à l’échelle globale.</span><span class="sxs-lookup"><span data-stu-id="bbfbe-120">Dialog ID which is globally unique.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9b004-121"><strong>DialogIDChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="9b004-121"><strong>DialogIDChecksum</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b004-122">int</span><span class="sxs-lookup"><span data-stu-id="9b004-122">int</span></span></p></td>
-<td><p><span data-ttu-id="9b004-123">Index</span><span class="sxs-lookup"><span data-stu-id="9b004-123">index</span></span></p></td>
-<td><p><span data-ttu-id="9b004-124">Somme de contrôle de l’ID du dialogue.</span><span class="sxs-lookup"><span data-stu-id="9b004-124">Checksum of the Dialog ID.</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-121"><strong>DialogIDChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="bbfbe-121"><strong>DialogIDChecksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-122">int</span><span class="sxs-lookup"><span data-stu-id="bbfbe-122">int</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-123">Index</span><span class="sxs-lookup"><span data-stu-id="bbfbe-123">index</span></span></p></td>
+<td><p><span data-ttu-id="bbfbe-124">Somme de contrôle de l’ID du dialogue.</span><span class="sxs-lookup"><span data-stu-id="bbfbe-124">Checksum of the Dialog ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
