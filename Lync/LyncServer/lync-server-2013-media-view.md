@@ -12,20 +12,22 @@ ms:contentKeyID: 49733570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54367095f2eadaab18cde3d2a29ebd3bb37970c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e6cd8658278a8d7798153698355f5a73f2952b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516151"
 ---
+# <a name="media-view-in-lync-server-2013"></a><span data-ttu-id="bc6d5-102">Vue multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc6d5-102">Media view in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-view-in-lync-server-2013"></a><span data-ttu-id="e6262-102">Vue multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6262-102">Media view in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42217594"
 
 <span> </span>
 
-<span data-ttu-id="e6262-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="e6262-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="bc6d5-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="bc6d5-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="e6262-104">La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal.</span><span class="sxs-lookup"><span data-stu-id="e6262-104">The Media view stores information about one media type used in a peer-to-peer session.</span></span> <span data-ttu-id="e6262-105">Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés.</span><span class="sxs-lookup"><span data-stu-id="e6262-105">One session would be represented by multiple records in the table, if more than one media type is used.</span></span> <span data-ttu-id="e6262-106">Cette vue a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6262-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="bc6d5-104">La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-104">The Media view stores information about one media type used in a peer-to-peer session.</span></span> <span data-ttu-id="bc6d5-105">Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-105">One session would be represented by multiple records in the table, if more than one media type is used.</span></span> <span data-ttu-id="bc6d5-106">Cette vue a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e6262-p102">La vue Media ne doit pas être utilisée pour calculer la durée du média lors d’une session. Cette vue contient les détails de signalisation de l’échange multimédia lors d’une session. L’échange multimédia est effectué par la requête INVITE et StartTime indique l’heure à laquelle la requête INVITE a été envoyée. L’heure d’invitation ne signifie pas nécessairement l’heure de début du média, car le média démarre seulement une fois la session acceptée.</span><span class="sxs-lookup"><span data-stu-id="e6262-p102">The Media view should not be used to calculate the media duration for a session. This view contains the signaling details of media exchange in a session. Media exchange is done by the INVITE request, and StartTime indicates the time that the INVITE was sent out. The invite time does not necessarily mean the media start time, because media starts only after the session is accepted.</span></span>
+> <span data-ttu-id="bc6d5-p102">La vue Media ne doit pas être utilisée pour calculer la durée du média lors d’une session. Cette vue contient les détails de signalisation de l’échange multimédia lors d’une session. L’échange multimédia est effectué par la requête INVITE et StartTime indique l’heure à laquelle la requête INVITE a été envoyée. L’heure d’invitation ne signifie pas nécessairement l’heure de début du média, car le média démarre seulement une fois la session acceptée.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-p102">The Media view should not be used to calculate the media duration for a session. This view contains the signaling details of media exchange in a session. Media exchange is done by the INVITE request, and StartTime indicates the time that the INVITE was sent out. The invite time does not necessarily mean the media start time, because media starts only after the session is accepted.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="e6262-110">La vue multimédia contient toutes les colonnes de la [vue SessionDetails dans Lync Server 2013](lync-server-2013-sessiondetails-view.md) , en plus de celles répertoriées ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="e6262-110">The Media view contains all of the columns in the [SessionDetails view in Lync Server 2013](lync-server-2013-sessiondetails-view.md) in addition the ones listed below.</span></span>
+<span data-ttu-id="bc6d5-110">La vue multimédia contient toutes les colonnes de la [vue SessionDetails dans Lync Server 2013](lync-server-2013-sessiondetails-view.md) , en plus de celles répertoriées ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-110">The Media view contains all of the columns in the [SessionDetails view in Lync Server 2013](lync-server-2013-sessiondetails-view.md) in addition the ones listed below.</span></span>
 
 
 <table>
@@ -60,26 +62,26 @@ ms.locfileid: "42217594"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e6262-111">Colonne</span><span class="sxs-lookup"><span data-stu-id="e6262-111">Column</span></span></th>
-<th><span data-ttu-id="e6262-112">Type de données</span><span class="sxs-lookup"><span data-stu-id="e6262-112">Data Type</span></span></th>
-<th><span data-ttu-id="e6262-113">Détails</span><span class="sxs-lookup"><span data-stu-id="e6262-113">Details</span></span></th>
+<th><span data-ttu-id="bc6d5-111">Colonne</span><span class="sxs-lookup"><span data-stu-id="bc6d5-111">Column</span></span></th>
+<th><span data-ttu-id="bc6d5-112">Type de données</span><span class="sxs-lookup"><span data-stu-id="bc6d5-112">Data Type</span></span></th>
+<th><span data-ttu-id="bc6d5-113">Détails</span><span class="sxs-lookup"><span data-stu-id="bc6d5-113">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e6262-114"><strong>Support</strong></span><span class="sxs-lookup"><span data-stu-id="e6262-114"><strong>Media</strong></span></span></p></td>
-<td><p><span data-ttu-id="e6262-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e6262-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="e6262-116">Type de média.</span><span class="sxs-lookup"><span data-stu-id="e6262-116">Media type.</span></span> <span data-ttu-id="e6262-117">Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-medialist-table.md">table médial dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e6262-117">See the <a href="lync-server-2013-medialist-table.md">MediaList table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-114"><strong>Media</strong></span><span class="sxs-lookup"><span data-stu-id="bc6d5-114"><strong>Media</strong></span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="bc6d5-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-116">Type de média.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-116">Media type.</span></span> <span data-ttu-id="bc6d5-117">Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-medialist-table.md">table médial dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="bc6d5-117">See the <a href="lync-server-2013-medialist-table.md">MediaList table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6262-118"><strong>MediaStartTime</strong></span><span class="sxs-lookup"><span data-stu-id="e6262-118"><strong>MediaStartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="e6262-119">DateHeure</span><span class="sxs-lookup"><span data-stu-id="e6262-119">datetime</span></span></p></td>
-<td><p><span data-ttu-id="e6262-120">Heure d’envoi d’une demande multimédia.</span><span class="sxs-lookup"><span data-stu-id="e6262-120">Time that a media request was sent out.</span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-118"><strong>MediaStartTime</strong></span><span class="sxs-lookup"><span data-stu-id="bc6d5-118"><strong>MediaStartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-119">DateHeure</span><span class="sxs-lookup"><span data-stu-id="bc6d5-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-120">Heure d’envoi d’une demande multimédia.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-120">Time that a media request was sent out.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e6262-121"><strong>MediaEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="e6262-121"><strong>MediaEndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="e6262-122">DateHeure</span><span class="sxs-lookup"><span data-stu-id="e6262-122">datetime</span></span></p></td>
-<td><p><span data-ttu-id="e6262-123">Heure de fin de la session.</span><span class="sxs-lookup"><span data-stu-id="e6262-123">End time of the session.</span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-121"><strong>MediaEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="bc6d5-121"><strong>MediaEndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-122">DateHeure</span><span class="sxs-lookup"><span data-stu-id="bc6d5-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="bc6d5-123">Heure de fin de la session.</span><span class="sxs-lookup"><span data-stu-id="bc6d5-123">End time of the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
