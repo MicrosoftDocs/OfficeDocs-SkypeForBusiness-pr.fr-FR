@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion du parcage d’appel lors de la récupération d’urgence'
+description: 'Lync Server 2013 : gérer le parcage d’appel pendant la récupération d’urgence.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a12abceb5972325f0843e8fb8500d7ac2b45c725
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ad7936dd28f749dc792505ec78d54857065957e2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525011"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556770"
 ---
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="a5fce-102">Gérer le parcage d’appel lors de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5fce-102">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="28cf0-103">Gérer le parcage d’appel lors de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28cf0-103">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48525011"
 
 <span> </span>
 
-<span data-ttu-id="a5fce-103">_**Dernière modification de la rubrique :** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="a5fce-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="28cf0-104">_**Dernière modification de la rubrique :** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="28cf0-104">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="a5fce-104">Lync Server 2013 prend en charge le parcage d’appel dans le pool de sauvegarde pendant la récupération d’urgence.</span><span class="sxs-lookup"><span data-stu-id="a5fce-104">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="a5fce-105">Cette section décrit les éléments à prendre en compte si vous souhaitez prendre en charge le parcage d’appel pendant une panne et ce qui se passe par les appels parqués pendant les phases d’une panne.</span><span class="sxs-lookup"><span data-stu-id="a5fce-105">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
+<span data-ttu-id="28cf0-105">Lync Server 2013 prend en charge le parcage d’appel dans le pool de sauvegarde pendant la récupération d’urgence.</span><span class="sxs-lookup"><span data-stu-id="28cf0-105">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="28cf0-106">Cette section décrit les éléments à prendre en compte si vous souhaitez prendre en charge le parcage d’appel pendant une panne et ce qui se passe par les appels parqués pendant les phases d’une panne.</span><span class="sxs-lookup"><span data-stu-id="28cf0-106">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a5fce-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a5fce-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="28cf0-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="28cf0-107">In This Section</span></span>
 
-  - [<span data-ttu-id="a5fce-107">Planification de la récupération d’urgence par le parcage d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5fce-107">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [<span data-ttu-id="28cf0-108">Planification de la récupération d’urgence par le parcage d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28cf0-108">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [<span data-ttu-id="a5fce-108">Expérience de parcage d’appel dans Lync Server 2013 en cas de défaillance du pool</span><span class="sxs-lookup"><span data-stu-id="a5fce-108">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [<span data-ttu-id="28cf0-109">Expérience de parcage d’appel dans Lync Server 2013 en cas de défaillance du pool</span><span class="sxs-lookup"><span data-stu-id="28cf0-109">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

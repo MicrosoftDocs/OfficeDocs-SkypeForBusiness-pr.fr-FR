@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : désactivation du chargement et du téléchargement de fichiers dans les salles de conversation'
+description: 'Lync Server 2013 : désactivation du chargement et du téléchargement de fichiers dans les salles de conversation.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd3215ae60576473ba06f62416798e4e2e3603d8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 77cf0fab4cdc78b088fc46531467048a78954136
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528971"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557680"
 ---
-# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="29ca9-102">Désactivation du chargement et du téléchargement de fichiers dans les salles de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="29ca9-102">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
+# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="b15cc-103">Désactivation du chargement et du téléchargement de fichiers dans les salles de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b15cc-103">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48528971"
 
 <span> </span>
 
-<span data-ttu-id="29ca9-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="29ca9-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="b15cc-104">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="b15cc-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="29ca9-p101">Par défaut, les utilisateurs peuvent télécharger des fichiers vers et depuis les messages qu’ils publient. Vous disposez de deux moyens pour désactiver cette fonctionnalité et empêcher les utilisateurs de télécharger des fichiers :</span><span class="sxs-lookup"><span data-stu-id="29ca9-p101">By default, users can upload and download files in the messages that they post. You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
+<span data-ttu-id="b15cc-p101">Par défaut, les utilisateurs peuvent télécharger des fichiers vers et depuis les messages qu’ils publient. Vous disposez de deux moyens pour désactiver cette fonctionnalité et empêcher les utilisateurs de télécharger des fichiers :</span><span class="sxs-lookup"><span data-stu-id="b15cc-p101">By default, users can upload and download files in the messages that they post. You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
 
-  - <span data-ttu-id="29ca9-106">Empêcher tous les utilisateurs de télécharger des fichiers dans une salle de conversation permanente ou une catégorie de salle de conversation.</span><span class="sxs-lookup"><span data-stu-id="29ca9-106">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
+  - <span data-ttu-id="b15cc-107">Empêcher tous les utilisateurs de télécharger des fichiers dans une salle de conversation permanente ou une catégorie de salle de conversation.</span><span class="sxs-lookup"><span data-stu-id="b15cc-107">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
 
-  - <span data-ttu-id="29ca9-p102">en empêchant un utilisateur donné de télécharger des fichiers vers et depuis toutes les salles de conversation. L’utilisateur ne peut télécharger de fichiers depuis et vers aucune salle de conversation, même dans celles qui l’autorisent.</span><span class="sxs-lookup"><span data-stu-id="29ca9-p102">Prevent a certain user from uploading and downloading files in any chat room. The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
+  - <span data-ttu-id="b15cc-p102">en empêchant un utilisateur donné de télécharger des fichiers vers et depuis toutes les salles de conversation. L’utilisateur ne peut télécharger de fichiers depuis et vers aucune salle de conversation, même dans celles qui l’autorisent.</span><span class="sxs-lookup"><span data-stu-id="b15cc-p102">Prevent a certain user from uploading and downloading files in any chat room. The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
 
-<span data-ttu-id="29ca9-109">Pour plus d’informations sur l’activation et la désactivation du chargement et du téléchargement de fichiers, voir [configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) et [Manage categories](manage-categories.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="29ca9-109">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="b15cc-110">Pour plus d’informations sur l’activation et la désactivation du chargement et du téléchargement de fichiers, voir [configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) et [Manage categories](manage-categories.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="b15cc-110">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
 
 </div>
 
