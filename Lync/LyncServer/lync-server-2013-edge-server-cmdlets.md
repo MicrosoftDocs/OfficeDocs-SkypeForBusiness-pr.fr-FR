@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533381"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Applets de commande de serveur Edge dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Applets de commande de serveur Edge dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179951"
 
 _**Dernière modification de la rubrique :** 2013-10-07_
 
-Les serveurs Edge vous permettent d’étendre les fonctionnalités de Microsoft Lync Server 2013 aux personnes qui ne sont pas connectées à votre réseau interne. Par exemple, si vous avez des utilisateurs distants qui se connectent à Lync Server 2013 via Internet plutôt que via le réseau interne, vous devrez configurer un serveur Edge qui exécute le service Edge d’accès Lync Server. En outre, les serveurs de périphérie sont requis si vous voulez établir une Fédération avec une autre organisation ou si vous souhaitez donner à vos utilisateurs le droit de communiquer avec des personnes disposant d’un service de messagerie instantanée\!public tel que Yahoo, AOL ou MSN.
+Les serveurs Edge vous permettent d’étendre les fonctionnalités de Microsoft Lync Server 2013 aux personnes qui ne sont pas connectées à votre réseau interne. Par exemple, si vous avez des utilisateurs distants qui se connectent à Lync Server 2013 via Internet plutôt que via le réseau interne, vous devrez configurer un serveur Edge qui exécute le service Edge d’accès Lync Server. En outre, les serveurs de périphérie sont requis si vous voulez établir une Fédération avec une autre organisation ou si vous souhaitez donner à vos utilisateurs le droit de communiquer avec des personnes disposant d’un service de messagerie instantanée public tel que Yahoo \! , AOL ou MSN.
 
 <div>
 

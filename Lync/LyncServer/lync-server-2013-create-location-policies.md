@@ -12,20 +12,22 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca6b5c2b4bb88ed1b611eedd831c5c30d14bbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d99618d5221bb15d3e670a010c1894c69c17ed4d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205620"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532201"
 ---
+# <a name="create-location-policies-in-lync-server-2013"></a>Créer des stratégies d’emplacement dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-location-policies-in-lync-server-2013"></a>Créer des stratégies d’emplacement dans Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Pour obtenir une description complète des stratégies d’emplacement, voir [d�
 </tr>
 <tr class="even">
 <td><p>LocationRequired</p></td>
-<td><p><strong>Clause d’exclusion</strong></p></td>
+<td><p><strong>Clause d’exclusion de responsabilité</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>EnhancedEmergencyServiceDisclaimer</p></td>
@@ -100,7 +102,7 @@ Pour obtenir une description complète des stratégies d’emplacement, voir [d�
 </tr>
 <tr class="odd">
 <td><p>LocationRefreshInterval</p></td>
-<td><p><strong>n°2</strong></p></td>
+<td><p><strong>2</strong></p></td>
 </tr>
 </tbody>
 </table>

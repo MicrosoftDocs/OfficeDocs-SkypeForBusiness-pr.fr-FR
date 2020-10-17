@@ -1,5 +1,5 @@
 ---
-title: Test des certificats AV et OAuth à l’aide de la CsCertificate
+title: Staging des certificats AV et OAuth à l’aide de la Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee572bbf115d1e83476194b0e5c92859886da42f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533011"
 ---
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Staging des certificats AV et OAuth dans Lync Server 2013 utilisation de la Set-CsCertificate
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Staging des certificats AV et OAuth dans Lync Server 2013 avec l’utilisation de la CsCertificate
+
 
 </div>
 
@@ -53,7 +55,7 @@ Les communications audio/vidéo (A/V) sont un composant clé de Microsoft Lync S
 
 </div>
 
-Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration de celui-ci entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Une nouvelle fonctionnalité de Lync Server 2013 permet d’éviter ce problème : la possibilité de mettre en place un nouveau certificat avant l’expiration de l’ancien et de faire en sorte que les deux certificats continuent de fonctionner pendant un certain temps. Cette fonctionnalité utilise la fonctionnalité mise à jour dans l’applet de commande Set-CsCertificate Lync Server Management Shell. Le nouveau paramètre –Roll, avec le paramètre –EffectiveDate existant, placera le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
+Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration de celui-ci entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Une nouvelle fonctionnalité de Lync Server 2013 permet d’éviter ce problème : la possibilité de mettre en place un nouveau certificat avant l’expiration de l’ancien et de faire en sorte que les deux certificats continuent de fonctionner pendant un certain temps. Cette fonctionnalité utilise la fonctionnalité mise à jour dans la cmdlet Set-CsCertificate Lync Server Management Shell. Le nouveau paramètre –Roll, avec le paramètre –EffectiveDate existant, placera le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
 
 <div>
 
@@ -65,7 +67,7 @@ Le service d’authentification A/V est responsable de l’émission des jetons 
 
 </div>
 
-Des informations supplémentaires sont nécessaires pour bien comprendre vos options et spécifications quand vous utilisez l’applet de commande Set-CsCertificate, notamment quand vous l’utilisez pour créer des certificats transitoires avant que le certificat actuel n’expire. Le paramètre –Roll est important, mais n’a essentiellement qu’une seule utilité. Si vous la définissez en tant que paramètre, vous indiquez à Set-CsCertificate que vous allez fournir des informations sur le certificat qui sera affecté défini par – type (par exemple AudioVideoAuthentication et OAuthTokenIssuer), lorsque le certificat deviendra effectif défini par – EffectiveDate.
+Des informations supplémentaires sont nécessaires pour bien comprendre vos options et spécifications quand vous utilisez l’applet de commande Set-CsCertificate, notamment quand vous l’utilisez pour créer des certificats transitoires avant que le certificat actuel n’expire. Le paramètre –Roll est important, mais n’a essentiellement qu’une seule utilité. Si vous la définissez en tant que paramètre, vous indiquez Set-CsCertificate que vous allez fournir des informations sur le certificat qui sera affecté défini par – type (par exemple AudioVideoAuthentication et OAuthTokenIssuer), lorsque le certificat prendra effet défini par – EffectiveDate.
 
 **-Roulier :** Le paramètre – ROLLBACK est obligatoire et comporte des dépendances qui doivent être fournies avec lui. Paramètres requis pour définir entièrement les certificats qui seront affectés et la façon dont ils seront appliqués :
 
@@ -87,7 +89,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
 
 3.  Importez le nouveau certificat AudioVideoAuthentication sur le serveur Edge et sur tous les autres serveurs Edge de votre pool (si vous disposez d’un pool déployé).
 
-4.  Configurez le certificat importé à l’aide de l’applet de commande Set-CsCertificate et utilisez le paramètre –Roll avec le paramètre –EffectiveDate. La date d’effet doit être définie comme étant l’heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins la durée de vie du jeton, dont la valeur par défaut est de huit heures. Cela nous donne un temps où le certificat doit être défini sur actif et est la chaîne \<\>– EFFECTIVEDATE : « 7/22/2012 6:00:00 AM ».
+4.  Configurez le certificat importé à l’aide de l’applet de commande Set-CsCertificate et utilisez le paramètre –Roll avec le paramètre –EffectiveDate. La date d’effet doit être définie comme étant l’heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins la durée de vie du jeton, dont la valeur par défaut est de huit heures. Cela nous donne un temps où le certificat doit être défini sur actif et est le – EffectiveDate \<string\> : « 7/22/2012 6:00:00 AM ».
     
     <div>
     

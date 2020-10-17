@@ -12,20 +12,22 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce7f6855e792b5edd339ee87f2955336a943615
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532921"
 ---
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Test de la possibilité de se connecter à un domaine fédéré à partir de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Test de la possibilité de se connecter à un domaine fédéré à partir de Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsFederatedPartner. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsFederatedPartner. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -124,7 +126,7 @@ Microsoft. RTC. signalisation. DiagnosticHeader
 
 Par exemple, la sortie précédente indique que le test a échoué en raison d’une erreur de délai d’attente du serveur. Cela indique généralement des problèmes de connectivité réseau ou des problèmes de contact avec le serveur Edge.
 
-Si test-CsFederatedPartner échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsFederatedPartner échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -134,7 +136,7 @@ Si test-CsFederatedPartner échoue, vous pouvez réexécuter le test, ce qui inc
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsFederatedPartner :
+Voici quelques raisons courantes pour lesquelles Test-CsFederatedPartner peut échouer :
 
   - Le serveur Edge n’est peut-être pas disponible. Vous pouvez utiliser cette commande pour les noms de domaine complets de vos serveurs Edge :
     

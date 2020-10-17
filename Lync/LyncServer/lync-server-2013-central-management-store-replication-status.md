@@ -12,20 +12,22 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ada48a9510be6d6deecedf063156abadbd59162f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b30b96ce505848e0cb1ec426d959b4c004ddde04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533401"
 ---
+# <a name="central-management-store-replication-status-in-lync-server-2013"></a>État de réplication du magasin central de gestion dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-replication-status-in-lync-server-2013"></a>État de réplication du magasin central de gestion dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lorsqu’un administrateur apporte une modification d’un type à Lync Server (
 
 Pour répliquer des données, le réplicateur principal (exécuté sur le serveur de gestion centralisée) crée une capture instantanée des données de configuration modifiées. Une copie de cette capture instantanée est ensuite envoyée à chaque ordinateur exécutant des services ou des rôles serveur Lync Server. Sur ces ordinateurs, un agent de réplication reçoit la capture instantanée et télécharge les données modifiées. L’agent envoie ensuite au réplicateur principal un message signalant l’état de la réplication la plus récente.
 
-La cmdlet Get-CsManagementStoreReplicationStatus vous permet de vérifier l’état de réplication de tout ou partie des ordinateurs Lync Server de votre organisation.
+L’applet de commande Get-CsManagementStoreReplicationStatus vous permet de vérifier l’état de réplication de tout ou partie des ordinateurs Lync Server de votre organisation.
 
 Qui peut exécuter cette applet de commande ? Par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Get-CsManagementStoreReplicationStatus : RTCUniversalUserAdmins, RTCUniversalServerAdmins.
 

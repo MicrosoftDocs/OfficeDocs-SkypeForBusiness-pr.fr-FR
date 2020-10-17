@@ -12,20 +12,22 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49d50173439e36bd5bb7f35f668837fe04b46b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b421656d5fefbefa308178962f5c25b9ae72013f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532181"
 ---
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Configuration DNS requise pour la connexion automatique des clients dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Configuration DNS requise pour la connexion automatique des clients dans Lync Server 2013
+
 
 </div>
 
@@ -54,9 +56,9 @@ Pour prendre en charge la connexion automatique des clients, vous devez :
     
     </div>
 
-Pour activer la configuration automatique pour vos clients, vous devez créer un enregistrement DNS SRV interne qui mappe l’un des enregistrements suivants sur le nom de domaine complet (FQDN) du pool frontal ou du serveur Standard Edition qui distribue les demandes de connexion à partir de Lync clients
+Pour activer la configuration automatique pour vos clients, vous devez créer un enregistrement DNS SRV interne qui mappe l’un des enregistrements suivants au nom de domaine complet (FQDN) du pool frontal ou du serveur Standard Edition qui distribue les demandes de connexion à partir de clients Lync :
 
-  - \_sipinternaltls. \_TCP. \<domaine\> : pour les connexions TLS internes
+  - \_sipinternaltls. \_ TCP.\<domain\> -pour les connexions TLS internes
 
 Il vous suffit de créer un seul enregistrement SRV pour le pool frontal ou le serveur Standard Edition, ou de distribuer des demandes de connexion.
 
@@ -81,12 +83,12 @@ Le tableau suivant présente des exemples d’enregistrements requis pour la soc
 <tr class="odd">
 <td><p>pool01.contoso.com</p></td>
 <td><p>contoso.com</p></td>
-<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _tcp. contoso. com sur le port 5061 qui mappe à pool01.contoso.com</p></td>
+<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _ TCP. contoso. com sur le port 5061 qui mappe sur pool01.contoso.com</p></td>
 </tr>
 <tr class="even">
 <td><p>pool01.contoso.com</p></td>
 <td><p>retail.contoso.com</p></td>
-<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _tcp. Retail. contoso. com sur le port 5061 qui mappe à pool01.contoso.com</p></td>
+<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _ TCP. Retail. contoso. com sur le port 5061 qui mappe sur pool01.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
@@ -104,13 +106,13 @@ Le tableau suivant présente des exemples d’enregistrements requis pour la soc
 
 <div>
 
-## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Exemple de certificats et d’enregistrements DNS requis pour la connexion automatique des clients
+## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Exemple de certificats et d’enregistrements DNS requis pour les Sign-In client automatiques
 
 Cet exemple utilise les mêmes exemples de noms dans le tableau précédent. L’organisation contoso prend en charge les domaines SIP de contoso.com et retail.contoso.com, et tous ses utilisateurs ont un URI SIP dans l’un des formats suivants :
 
-  - \<User\>@retail. contoso.com
+  - \<user\>@retail. contoso.com
 
-  - \<utilisateur\>@contoso. com
+  - \<user\>@contoso. com
 
 </div>
 

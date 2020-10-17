@@ -3,7 +3,7 @@ title: Effectuer une mise à niveau vers teams à partir d’un déploiement loc
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533571"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Outils pour la mise à niveau vers teams &mdash; pour les administrateurs informatiques
 
@@ -51,7 +51,7 @@ Que vous effectuiez une transition sélection de fonctionnalités à l’aide du
 
 Vous pouvez également affecter n’importe quel mode de TeamsUpgradePolicy, à l’exception du mode TeamsOnly, aux utilisateurs hébergés dans Skype entreprise local. **Le mode TeamsOnly ne peut être attribué qu’à un utilisateur déjà associé dans Skype entreprise Online**. En effet, les fonctionnalités d’interopérabilité avec les utilisateurs et la Fédération Skype entreprise, ainsi que les fonctionnalités du système téléphonique Microsoft 365 ne sont possibles que si l’utilisateur est hébergé dans Skype entreprise online. Par ailleurs, **vous ne pouvez pas affecter le mode TeamsOnly en tant que client par défaut si vous disposez d’un déploiement local de Skype entreprise** (qui est détecté par la présence d’un enregistrement DNS lyncdiscover qui pointe vers un emplacement autre qu’Office 365.
 
-Les utilisateurs disposant d’un compte Skype entreprise sur site hébergé sur site [doivent être déplacés en ligne](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (à partir de Skype entreprise Online ou directement à Teams) à l’aide de Move-Csuser dans l’ensemble d’outils Skype entreprise local. Ces utilisateurs peuvent être déplacés vers TeamsOnly en 1 ou 2 étapes :
+Les utilisateurs disposant d’un compte Skype entreprise sur site hébergé sur site [doivent être déplacés en ligne](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (à partir de Skype entreprise Online ou directement à Teams) en utilisant Move-CsUser dans l’ensemble d’outils Skype entreprise local. Ces utilisateurs peuvent être déplacés vers TeamsOnly en 1 ou 2 étapes :
 
 -   1 étape : spécifiez le commutateur-MoveToTeams dans Move-CsUser. Pour cela, vous devez disposer de Skype entreprise Server 2019 ou de Skype entreprise Server 2015 avec CU8 ou version ultérieure.
 

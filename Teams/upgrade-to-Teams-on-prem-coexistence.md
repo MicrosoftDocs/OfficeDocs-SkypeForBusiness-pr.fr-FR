@@ -3,7 +3,7 @@ title: Coexistence avec Microsoft teams et Skype entreprise
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 0690af8226f3f992dcc12f68c6135c953eb043f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533611"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>Coexistence avec teams et Skype entreprise
 
@@ -132,7 +132,7 @@ Les équipes et Skype entreprise disposent de listes de contacts distinctes. Cel
 
 - Pour tout utilisateur de Skype entreprise Online, lors de la première connexion à Teams, les contacts de Skype entreprise seront copiés dans Teams.  Ce comportement n’est pas disponible pour les utilisateurs disposant d’un compte local dans Skype entreprise Server.  
 
-- Une fois qu’un utilisateur a procédé à la mise à niveau vers TeamsOnly (par le biais de l’attribution d’TeamsUpgradePolicy ou par le biais de Move-CsUser-MoveToTeams), la prochaine fois qu’un utilisateur se connecte à Teams, les contacts existants dans Skype entreprise sont fusionnés avec les contacts existants déjà dans Teams. Ce comportement se produit si le compte Skype entreprise de l’utilisateur est hébergé sur site ou en ligne. 
+- Une fois qu’un utilisateur a procédé à la mise à niveau vers TeamsOnly (en attribuant TeamsUpgradePolicy ou par le biais de Move-CsUser-MoveToTeams), la prochaine fois qu’un utilisateur se connecte à Teams, les contacts existants dans Skype entreprise sont fusionnés avec les contacts existants déjà dans Teams. Ce comportement se produit si le compte Skype entreprise de l’utilisateur est hébergé sur site ou en ligne. 
 
 Dans les deux cas, le transfert de contacts de Skype entreprise à teams est asynchrone et peut donc être de quelques minutes avant l’affichage des contacts dans Teams. Les deux événements ci-dessus sont le déclencheur de la copie.  
 

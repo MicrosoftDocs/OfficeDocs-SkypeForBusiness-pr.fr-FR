@@ -12,20 +12,22 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c575a861644c27a0dba93790667ece9b973211e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73d2affed023c930a5fe9814d820148b4e850b68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532111"
 ---
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Activer ou désactiver le contrôle de version du client dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Activer ou désactiver le contrôle de version du client dans Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Les paramètres de configuration de la version du client permettent d’activer 
 
 ## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation du contrôle de version du client à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez activer ou désactiver le contrôle de version du client à l’aide de la cmdlet **Set-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez activer ou désactiver le contrôle de version du client à l’aide de la cmdlet **Set-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

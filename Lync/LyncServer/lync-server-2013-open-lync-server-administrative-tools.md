@@ -12,20 +12,22 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 172d448b3967782226335a5a3b9a4066514b7a9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531761"
 ---
+# <a name="open-lync-server-2013-administrative-tools"></a>Ouvrir les outils d’administration de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="open-lync-server-2013-administrative-tools"></a>Ouvrir les outils d’administration de Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Utilisez la procédure suivante pour ouvrir le générateur de topologie afin de
     
 
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs local, mais pour lire, publier ou activer une topologie, qui est nécessaire pour installer Lync Server 2013 sur un serveur, vous devez utiliser un compte membre du groupe administrateurs du domaine et de l’RTCUniv Groupe ersalServerAdmins, qui dispose des autorisations contrôle total (c’est-à-dire, lecture, écriture et modification) sur le partage de fichiers que vous allez utiliser pour le magasin de fichiers d’archivage afin que le générateur de topologies puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise, ou un compte doté de droits d’utilisateur équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs local, mais pour lire, publier ou activer une topologie, qui est nécessaire pour installer Lync Server 2013 sur un serveur, vous devez utiliser un compte membre du groupe administrateurs du domaine et du groupe RTCUniversalServerAdmins, et disposant des autorisations contrôle total (c’est-à-dire , lisez, écrivez et modifiez) sur le partage de fichiers que vous allez utiliser pour le magasin de fichiers d’archivage afin que le générateur de topologies puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise ou un compte doté de droits d’utilisateur équivalents.
 
     
     </div>
@@ -137,7 +139,7 @@ Utilisez l’une des procédures suivantes pour ouvrir le panneau de configurati
 
 ## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a>Pour ouvrir le panneau de configuration Lync Server 2013 sur un ordinateur exécutant Lync Server 2013
 
-1.  À partir d’un compte d’utilisateur membre du rôle CsAdministrator ou d’un autre rôle disposant des droits et des autorisations d’utilisateur appropriés pour la tâche à effectuer, ouvrez une session sur un ordinateur sur lequel vous avez installé Lync Server 2013 ou, au minimum, l’administrateur de Lync Server 2013 outils ive. Pour configurer les paramètres, l’ordinateur doit avoir une résolution d’écran minimale de 1024 x 768.
+1.  À partir d’un compte d’utilisateur membre du rôle CsAdministrator ou d’un autre rôle disposant des droits et des autorisations d’utilisateur appropriés pour la tâche à effectuer, ouvrez une session sur un ordinateur sur lequel vous avez installé Lync Server 2013 ou, au minimum, les outils d’administration de Lync Server 2013. Pour configurer les paramètres, l’ordinateur doit avoir une résolution d’écran minimale de 1024 x 768.
 
 2.  Démarrez le panneau de configuration Lync Server 2013 : cliquez sur **Démarrer**, sur **tous les programmes**, pointez sur **Outils d’administration**, sur **Microsoft Lync Server 2013**, puis cliquez sur **panneau de configuration Lync Server 2013**.
 

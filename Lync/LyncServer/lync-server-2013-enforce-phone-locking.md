@@ -12,20 +12,22 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f40f11f835c350b5038771f2ac9f47ab8fec0f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b8af6141f5b9c9894ee90c6b58a58b4bc7f1274
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533291"
 ---
+# <a name="enforce-phone-locking-in-lync-server-2013"></a>Appliquer le verrouillage du téléphone dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enforce-phone-locking-in-lync-server-2013"></a>Appliquer le verrouillage du téléphone dans Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Pour appliquer un verrou téléphonique, activez-le et configurez-le à l’aide
 
 ## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a>Application du verrouillage de téléphone à l’aide des applets de commande Windows PowerShell
 
-Le verrouillage du téléphone peut être appliqué à l’aide de la cmdlet Set-CsUCPhoneConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Le verrouillage du téléphone peut être appliqué à l’aide de la cmdlet Set-CsUCPhoneConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

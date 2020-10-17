@@ -12,20 +12,22 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 158dfa2954f331b4dce2407cb3bbee223f8e78ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 269d5a687baba53ed0bd60d4854b79643f23f0e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532121"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Résumé DNS-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP privées à l’aide de la conversion d’adresses réseau dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Résumé DNS-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP privées à l’aide de la conversion d’adresses réseau dans Lync Server 2013
+
 
 </div>
 
@@ -118,7 +120,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 <th>Emplacement/TYPE/port</th>
 <th>Nom de domaine complet/enregistrement DNS</th>
 <th>Adresse IP/Nom de domaine complet</th>
-<th>Mappe vers/Commentaires</th>
+<th>Mappage à/Commentaires</th>
 </tr>
 </thead>
 <tbody>
@@ -142,13 +144,13 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 </tr>
 <tr class="even">
 <td><p>DNS externe/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès. Nécessaire pour que la configuration automatique des clients Lync 2013 et Lync 2010 fonctionne en externe. Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS externe/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Obligatoire pour la découverte DNS automatique des partenaires fédérés connus sous le nom de « domaine SIP autorisé » (appelé fédération étendue dans les versions précédentes). Répétez cette opération autant que nécessaire pour tous les domaines SIP avec des utilisateurs activés pour Lync.</p></td>
 </tr>
@@ -186,8 +188,8 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS externe /SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>DNS externe/SRV/5061</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
 <div>
@@ -221,7 +223,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 <th>Emplacement/TYPE/port</th>
 <th>Nom de domaine complet/enregistrement DNS</th>
 <th>Adresse IP/Nom de domaine complet</th>
-<th>Mappe vers/Commentaires</th>
+<th>Mappage à/Commentaires</th>
 </tr>
 </thead>
 <tbody>
@@ -260,9 +262,9 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 <tbody>
 <tr class="odd">
 <td><p>DNS externe/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération si nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés via la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée au Utilisateur à extension Lync. Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP. Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</p></td>
+<td><p>Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération autant que nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés dans la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée à l’utilisateur à extension Lync. Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP. Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS externe/A</p></td>

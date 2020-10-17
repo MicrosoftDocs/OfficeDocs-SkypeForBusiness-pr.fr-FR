@@ -12,20 +12,22 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191817"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532341"
 ---
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configuration du magasin de contacts personnels sur les ordinateurs clients pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configuration du magasin de contacts personnels sur les ordinateurs clients pour Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Pour configurer cette valeur sur un seul ordinateur, procédez comme suit :
 
 2.  Dans la boîte de dialogue **Exécuter**, tapez regedit, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez **\_HKEY\_local machine**, **Software**, **Policies**, **Microsoft**, puis **Communicator**.
+3.  Dans l’éditeur du Registre, développez **HKEY \_ local \_ machine**, **Software**, **Policies**, **Microsoft**, puis **Communicator**.
 
 4.  Cliquez avec le bouton droit sur **Communicator**, pointez sur **nouveau**, puis cliquez sur **valeur DWORD (32 bits)**.
 
@@ -55,7 +57,7 @@ Pour configurer cette valeur sur un seul ordinateur, procédez comme suit :
 
 6.  Vérifiez que la valeur de PersonalContactStoreOverride est définie sur 0, puis fermez l’éditeur du Registre.
 
-Si vous devez effectuer cette même modification sur plusieurs ordinateurs, vous pouvez le faire en créant un objet de stratégie de groupe personnalisé. Pour plus d’informations, consultez la documentation sur [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543)la stratégie de groupe à l’adresse.
+Si vous devez effectuer cette même modification sur plusieurs ordinateurs, vous pouvez le faire en créant un objet de stratégie de groupe personnalisé. Pour plus d’informations, consultez la documentation sur la stratégie de groupe à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198631"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533111"
 ---
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Routage de messagerie unifiée Exchange hébergée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Routage de messagerie unifiée Exchange hébergée dans Lync Server 2013
+
 
 </div>
 
@@ -70,9 +72,9 @@ La boîte aux lettres d’Alice et le service de messagerie unifiée Exchange se
 
   - La stratégie de messagerie vocale hébergée attribuée au compte utilisateur d’Alice fournit les détails de routage suivants :
     
-      - La destination est le fournisseur de services de messagerie unifiée Exchange hébergé (LS. ExUm. \<hostedExchangeServer\>. com dans cet exemple).
+      - La destination est le fournisseur de services de messagerie unifiée Exchange hébergé (LS. ExUm. \<hostedExchangeServer\> . com dans cet exemple).
     
-      - Les organisations sont identifiées par les ID de client, qui sont les noms de domaine complets de routage pour les messages SIP pour les clients Exchange Server qui se trouvent sur ls. ExUm. \<hostedExchangeServer\>. com (Corp.contoso.com et Corp.litwareinc.com dans cet exemple).
+      - Les organisations sont identifiées par les ID de client, qui sont les noms de domaine complets de routage pour les messages SIP pour les clients Exchange Server qui se trouvent sur ls. ExUm. \<hostedExchangeServer\> . com (corp.contoso.com et corp.litwareinc.com dans cet exemple).
         
         <div>
         

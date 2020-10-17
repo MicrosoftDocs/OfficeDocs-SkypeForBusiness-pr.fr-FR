@@ -12,20 +12,22 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18ec967418effe53399070bc8e6f414cd2d927cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4fee1fa728c3c418c1f837a83248d95df7e7544
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191777"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532311"
 ---
+# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configuration du serveur d’administration principal dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configuration du serveur d’administration principal dans Lync Server 2013
+
 
 </div>
 
@@ -61,9 +63,9 @@ Lorsque vous installez System Center Operations Manager 2012 ou System Center Op
 
   - Data Warehouse
 
-Ces composants et leur installation ne sont pas décrits en détail dans le présent document. Pour plus d’informations sur System Center Operations Manager 2007 R2, reportez-vous <https://go.microsoft.com/fwlink/p/?linkid=257526> à la documentation Operations Manager 2007 R2 à <https://go.microsoft.com/fwlink/p/?linkid=257527>l’adresse et à la documentation de System center Operations Manager 2012 à l’adresse. Suivez ces instructions si vous envisagez d’utiliser SQL Server 2005 ou SQL Server 2008 Service Pack 1 comme base de données principale.
+Ces composants et leur installation ne sont pas décrits en détail dans le présent document. Pour plus d’informations sur System Center Operations Manager 2007 R2, reportez-vous à la documentation Operations Manager 2007 R2 à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=257526> et à la documentation de System Center Operations manager 2012 à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=257527> . Suivez ces instructions si vous envisagez d’utiliser SQL Server 2005 ou SQL Server 2008 Service Pack 1 comme base de données principale.
 
-Si vous utilisez System Center Operations Manager 2012, vous pouvez utiliser SQL Server 2012 comme base de données principale. Pour plus d’informations sur SQL Server 2012, reportez-vous à [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528)la documentation en ligne de sql Server 2012 à l’adresse.
+Si vous utilisez System Center Operations Manager 2012, vous pouvez utiliser SQL Server 2012 comme base de données principale. Pour plus d’informations sur SQL Server 2012, reportez-vous à la documentation en ligne de SQL Server 2012 à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528) .
 
 N’oubliez pas que vous ne pouvez avoir qu’un seul serveur de gestion principal par déploiement Lync Server. En outre, si vous pouvez utiliser System Center Operations Manager 2012 ou System Center Operations Manager 2007 R2, vous ne pouvez pas exécuter simultanément les deux applications, mais vous devez choisir l’une ou l’autre. Par exemple, si vous exécutez System Center Operations Manager 2012, tous vos agents System Center doivent également exécuter System Center Operations Manager 2012. Certains agents ne peuvent pas exécuter System Center Operations Manager 2012 et d’autres agents exécutant System Center Operations Manager 2007 R2.
 

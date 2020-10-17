@@ -12,20 +12,22 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd95611f3033dff992092e3be93815bd0e01915
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a9116374914c212d305ef2e55d0b8c4fecb782
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533667"
 ---
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Outils du kit de ressources de conversation permanente Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Outils du kit de ressources de conversation permanente Lync Server 2013
+
 
 </div>
 
@@ -43,13 +45,13 @@ Les outils du kit de ressources de conversation permanente Lync Server 2013 faci
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Installation des outils du kit de ressources
 
-Pour installer les outils du kit de ressources Lync Server 2013, téléchargez **PersistentChatReskit. msi**. Exécutez **PersistentChatReskit. msi** pour effectuer une installation simple. Le fichier. msi installe tous les outils dans le chemin d' \\accès suivant : **Program\\ Files Microsoft\\Lync Server 2013 persistent Server Resource Kit**. Les outils qui sont des fichiers exécutables autonomes se trouvent dans ce dossier. Les outils qui ont également des fichiers se trouvent dans leurs propres sous-dossiers.
+Pour installer les outils du kit de ressources Lync Server 2013, téléchargez **PersistentChatReskit.msi**. Exécutez **PersistentChatReskit.msi** pour effectuer une installation simple. Le fichier. msi installe tous les outils dans le chemin d’accès suivant : \\ **Program Files \\ Microsoft Lync Server 2013 \\ persistent Server Resource Kit**. Les outils qui sont des fichiers exécutables autonomes se trouvent dans ce dossier. Les outils qui ont également des fichiers se trouvent dans leurs propres sous-dossiers.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Après avoir installé les outils du kit de ressources Lync Server 2013, vous devez installer <STRONG>psexec. exe</STRONG> et copier <STRONG>psexec. exe</STRONG> dans le chemin \\d’accès suivant : <STRONG>Program Files \ Microsoft Lync Server 2013 \ persistent Server Resource Kit\ChatStressTool</STRONG>. Si vous ne copiez pas <STRONG>psexec. exe</STRONG>, l’outil de contrainte de conversation permanente génère une exception d’erreur et ne fonctionne pas correctement. Assurez-vous que vous respectez ces conditions préalables avant d’exécuter l’outil. Pour plus d’informations sur l’installation de <STRONG>psexec. exe</STRONG>, reportez-vous <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>à.
+> Après avoir installé les outils du kit de ressources Lync Server 2013, vous devez installer <STRONG>PsExec.exe</STRONG> et copier <STRONG>PsExec.exe</STRONG> dans le chemin d’accès suivant : \\ <STRONG>Program Files \ Microsoft Lync Server 2013 \ persistent Server Resource Kit\ChatStressTool</STRONG>. Si vous ne copiez pas <STRONG>PsExec.exe</STRONG>, l’outil de contrainte de conversation permanente génère une exception d’erreur et ne fonctionne pas correctement. Assurez-vous que vous respectez ces conditions préalables avant d’exécuter l’outil. Pour plus d’informations sur l’installation de <STRONG>PsExec.exe</STRONG>, voir <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A> .
 
 
 
@@ -111,9 +113,9 @@ Le compte d’utilisateur sous lequel l’outil est exécuté doit disposer d’
 
 ## <a name="usage"></a>Utilisation
 
-Configurez le fichier AffCheck. exe. config conformément aux instructions du fichier de configuration et exécutez l’outil AffCheck sans paramètres de ligne de commande. Voici le contenu du fichier AffCheck. exe. config par défaut.
+Configurez le fichier AffCheck.exe.config conformément aux instructions du fichier de configuration et exécutez l’outil AffCheck sans paramètres de ligne de commande. Voici le contenu de la AffCheck.exe.config par défaut.
 
-**AffCheck. exe. config :**
+**AffCheck.exe.config :**
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -175,7 +177,7 @@ Installez les outils du kit de ressources de conversation permanente sur un ordi
 
 Le compte d’utilisateur sous lequel l’outil s’exécute doit disposer d’un accès en lecture à la base de données de surveillance.
 
-Le fichier PersistentChatMonitoringSummary. exe. config doit contenir une \<section connectionStrings\> qui définit la chaîne de connexion à la base de données de surveillance. Il doit également contenir une clé pour le PersistentChatEndpointUri pour lequel les données de surveillance seront collectées, et un chemin d’accès de fichier vers un emplacement pour le fichier CSV qui sera généré. Reportez-vous au fichier de configuration installé pour obtenir des exemples. Le fichier doit se trouver dans le même répertoire que l’outil.
+Le fichier, PersistentChatMonitoringSummary.exe.config, doit contenir une \<connectionStrings\> section qui définit la chaîne de connexion à la base de données de surveillance. Il doit également contenir une clé pour le PersistentChatEndpointUri pour lequel les données de surveillance seront collectées, et un chemin d’accès de fichier vers un emplacement pour le fichier CSV qui sera généré. Reportez-vous au fichier de configuration installé pour obtenir des exemples. Le fichier doit se trouver dans le même répertoire que l’outil.
 
 </div>
 
@@ -257,9 +259,9 @@ Créez des utilisateurs et des canaux à utiliser dans l’exécution de contrai
 
 Modifiez les fichiers de configuration pour qu’ils s’ajustent à votre topologie :
 
-Dans **LoaderProcess. exe. config**, remplacez « Controller.contoso.com » par le nom de domaine complet (FQDN) de l’ordinateur contrôleur.
+Dans **LoaderProcess.exe.config**, remplacez « Controller.contoso.com » par le nom de domaine complet (FQDN) de l’ordinateur contrôleur.
 
-Dans **StressLauncher. exe. config :**
+Dans **StressLauncher.exe.config :**
 
 1.  Remplacez la valeur du paramètre « LoaderBinary » par le chemin d’accès du dossier partagé.
 
@@ -267,7 +269,7 @@ Dans **StressLauncher. exe. config :**
 
 3.  Remplacez « ChannelCategory » par le nom de la catégorie dans laquelle les canaux de contrainte ont été créés.
 
-4.  Remplacez « UserNamePattern » et « UserPasswordPattern » par un modèle qui correspond aux informations d’identification de votre utilisateur de stress. {0}est remplacé par le numéro d’index de l’utilisateur.
+4.  Remplacez « UserNamePattern » et « UserPasswordPattern » par un modèle qui correspond aux informations d’identification de votre utilisateur de stress. {0} est remplacé par le numéro d’index de l’utilisateur.
 
 5.  Remplacez « Domain » par « Domain » par le domaine SIP de votre topologie de test.
 
@@ -287,7 +289,7 @@ Dans **StressLauncher. exe. config :**
 
 ## <a name="usage"></a>Utilisation
 
-Une fois la configuration terminée, ouvrez StressLauncher. exe sur l’ordinateur contrôleur. Vous pouvez lancer StressLauncher comme n’importe quel utilisateur. Les informations d’identification sous lesquelles les processus de chargeur démarrent sur les ordinateurs de chargeur doivent être spécifiées dans le fichier de configuration. Vous devez également donner une chaîne de connexion qui dispose d’un accès en lecture à la base de données principale de conversation permanente. Si cette chaîne de connexion utilise l’authentification Windows intégrée, vous devez lancer StressLauncher en tant qu’utilisateur disposant de cet accès.
+Une fois la configuration terminée, ouvrez StressLauncher.exe sur l’ordinateur contrôleur. Vous pouvez lancer StressLauncher comme n’importe quel utilisateur. Les informations d’identification sous lesquelles les processus de chargeur démarrent sur les ordinateurs de chargeur doivent être spécifiées dans le fichier de configuration. Vous devez également donner une chaîne de connexion qui dispose d’un accès en lecture à la base de données principale de conversation permanente. Si cette chaîne de connexion utilise l’authentification Windows intégrée, vous devez lancer StressLauncher en tant qu’utilisateur disposant de cet accès.
 
 Modifiez les paramètres du modèle utilisateur selon vos besoins. Cliquez sur **Démarrer la charge** pour lancer une exécution. Après une minute ou par conséquent, les utilisateurs commencent à se connecter et la barre de progression commence à se remplir. À ce stade, vous pouvez peut-être utiliser l’ordinateur contrôleur et prendre des mesures de performances.
 
@@ -317,7 +319,7 @@ Installez les outils du kit de ressources de conversation permanente sur un ordi
 
 Le compte d’utilisateur sous lequel l’outil s’exécute doit disposer d’un accès en lecture aux bases de données de conversation permanente.
 
-Le fichier ChatUpgradeVerifier. exe. config doit contenir soit le paramètre GroupChat2007R2Db, soit le paramètre GroupChat2010Db, avec une chaîne de connexion à la base de données de conversation de groupe appropriée (groupchat 2007R2 ou 2010). Elle doit également contenir un paramètre PersistentChat2013Db, avec une chaîne de connexion à la base de données de conversation permanente 2013.
+Le fichier ChatUpgradeVerifier.exe.config doit contenir le paramètre GroupChat2007R2Db ou le paramètre GroupChat2010Db, avec une chaîne de connexion à la base de données de conversation de groupe appropriée (soit groupchat 2007R2, soit 2010). Elle doit également contenir un paramètre PersistentChat2013Db, avec une chaîne de connexion à la base de données de conversation permanente 2013.
 
 </div>
 
@@ -333,7 +335,7 @@ Exécutez **ChatUpgradeVerifier** sans aucun paramètre.
 
 ## <a name="example"></a>Exemple
 
-![Exécutant ChatUpgradeVerifier. exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Exécutant ChatUpgradeVerifier. exe.")
+![Exécutant ChatUpgradeVerifier.exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Exécutant ChatUpgradeVerifier.exe.")
 
 </div>
 
@@ -359,7 +361,7 @@ Installez les outils du kit de ressources de conversation permanente sur un ordi
 
 Le compte d’utilisateur sous lequel l’outil est exécuté doit disposer d’un accès en lecture à la base de données principale de conversation permanente.
 
-Le fichier ChatUsageReport. exe. config doit contenir une \<section connectionStrings\> définissant la chaîne de connexion à la base de données principale de conversation permanente. Le contenu du fichier de configuration par défaut est inclus ici, à des fins de référence.
+Le fichier, ChatUsageReport.exe.config, doit contenir une \<connectionStrings\> section définissant la chaîne de connexion à la base de données principale de conversation permanente. Le contenu du fichier de configuration par défaut est inclus ici, à des fins de référence.
 
 </div>
 
@@ -386,9 +388,9 @@ Ces paramètres définissent la façon dont les données sont affichées :
 
 **RoomsInactiveSince :** Si cette indication est spécifiée, le rapport inclut une liste des salles de conversation qui ont été inactives depuis la date spécifiée. Valeur par défaut : heure entière
 
-**OutputFolder :** Dossier dans lequel les images ChatUsageReport. html et Graph seront placées. Il doit être défini dans le fichier de configuration ou dans la ligne de commande.
+**OutputFolder :** Dossier dans lequel les images ChatUsageReport.html et Graph seront placées. Il doit être défini dans le fichier de configuration ou dans la ligne de commande.
 
-Toutes les valeurs de paramètre de ligne de commande peuvent également être spécifiées dans le fichier ChatUsageReport. exe. config qui se trouve dans le même répertoire que l’outil. Si une valeur est spécifiée dans le fichier de configuration et la ligne de commande, la valeur de la ligne de commande remplace la valeur du fichier de configuration.
+Toutes les valeurs de paramètre de ligne de commande peuvent également être spécifiées dans le fichier ChatUsageReport.exe.config qui se trouve dans le même répertoire que l’outil. Si une valeur est spécifiée dans le fichier de configuration et la ligne de commande, la valeur de la ligne de commande remplace la valeur du fichier de configuration.
 
 </div>
 
@@ -422,12 +424,12 @@ Le rapport inclut toujours la sortie suivante :
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant génère un rapport d’utilisation pour l’année 2001 entière et place le rapport dans le OutputFolder spécifié dans le ChatUsageReport. exe. config.
+L’exemple suivant génère un rapport d’utilisation pour l’année 2001 entière et place l’État dans le OutputFolder spécifié dans la ChatUsageReport.exe.config.
 
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
 ```
-ChatUsageReport. exe. config :
+ChatUsageReport.exe.config :
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>

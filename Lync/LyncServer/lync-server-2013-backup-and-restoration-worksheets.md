@@ -12,20 +12,22 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fcf163893a84e4b9244e43b12c702cf0076b1ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 161a8577558705c773974b1cc733337b29b6dbd5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196027"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532621"
 ---
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Base de données</th>
+<th>Database</th>
 <th>Nom de serveur (FQDN)</th>
 <th>Planification de la sauvegarde</th>
 <th>Outil de sauvegarde de base de données</th>
@@ -215,7 +217,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Base de données</th>
+<th>Database</th>
 <th>Nom de serveur (FQDN)</th>
 <th>Planification de la sauvegarde</th>
 <th>Outil de sauvegarde</th>

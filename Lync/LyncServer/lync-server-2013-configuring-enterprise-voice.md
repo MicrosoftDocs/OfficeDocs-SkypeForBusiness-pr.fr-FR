@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532551"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configuration de voix entreprise dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configuration de voix entreprise dans Lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ Pour déployer voix entreprise, vous devez configurer les éléments suivants :
 
   - Définition d’un itinéraire des communications vocales
 
-  - Activer les utilisateurs pour Voix Entreprise
+  - Activer les utilisateurs pour voix entreprise
 
 <div>
 
 ## <a name="create-a-trunk"></a>Créer une jonction
 
-Vous devez définir des jonctions dans votre déploiement voix entreprise. Pour le routage géodépendant, vous devez créer une configuration de jonction par jonction. À l’aide du générateur de topologie Lync Server, définissez vos jonctions et utilisez la commande Lync Server Windows PowerShell, New-applet cstrunkconfiguration ou le panneau de configuration Lync Server pour définir les configurations de jonction correspondantes. Pour plus d’informations sur l’activation du routage géodépendant sur les configurations de jonctions, consultez la section Activer le routage géodépendant vers des jonctions dans la rubrique [activation du routage géodépendant dans Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Pour cet exemple, le tableau suivant illustre les jonctions utilisées dans ce scénario.
+Vous devez définir des jonctions dans votre déploiement voix entreprise. Pour le routage des Location-Based, vous devez créer une configuration de jonction par jonction. À l’aide du générateur de topologie Lync Server, définissez vos jonctions et utilisez la commande Lync Server Windows PowerShell, New-applet cstrunkconfiguration ou le panneau de configuration Lync Server pour définir les configurations de jonction correspondantes. Pour plus d’informations sur l’activation du routage des Location-Based sur les configurations de jonctions, consultez la section relative à l’activation du routage des Location-Based sur les jonctions dans la rubrique, [Enabling Location-Based Routing in Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Pour cet exemple, le tableau suivant illustre les jonctions utilisées dans ce scénario.
 
 Pour plus d’informations, reportez-vous à la rubrique [define Additional jonctions in Topology Builder in Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
@@ -69,7 +71,7 @@ Pour plus d’informations, reportez-vous à la rubrique [define Additional jonc
 <th>Nom de la jonction</th>
 <th>Type du système</th>
 <th>Nom</th>
-<th>L’emplacement</th>
+<th>Emplacement</th>
 <th>Serveur de médiation</th>
 </tr>
 </thead>
@@ -117,7 +119,7 @@ Pour plus d’informations, reportez-vous à la rubrique [define Additional jonc
 
 ## <a name="defines-voice-policies"></a>Définit les stratégies de voix
 
-Vous devez définir des stratégies de voix pour votre déploiement voix entreprise. Définir une stratégie de voix pour appliquer des restrictions de routage géodépendant à un sous-ensemble d’utilisateurs si seul un sous-ensemble d’entre eux est requis pour utiliser le routage géodépendant. Pour cet exemple, le tableau suivant illustre les stratégies de voix utilisées dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
+Vous devez définir des stratégies de voix pour votre déploiement voix entreprise. Définir une stratégie de voix pour appliquer des restrictions de routage Location-Based à un sous-ensemble d’utilisateurs si seul un sous-ensemble de ces derniers est requis pour utiliser le routage de Location-Based. Pour cet exemple, le tableau suivant illustre les stratégies de voix utilisées dans ce scénario. Seuls les paramètres spécifiques à Location-Based routage sont inclus dans le tableau à des fins d’illustration.
 
 Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies de voix et des enregistrements d’utilisation RTC pour autoriser les fonctionnalités d’appel et les privilèges dans Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
@@ -166,7 +168,7 @@ Pour plus d’informations, reportez-vous à la rubrique [Configuration des stra
 
 ## <a name="define-voice-routes"></a>Définir les itinéraires des communications vocales
 
-Vous devez définir des itinéraires de communications vocales pour votre déploiement voix entreprise. Pour cet exemple, le tableau suivant illustre les itinéraires des communications vocales utilisés dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
+Vous devez définir des itinéraires de communications vocales pour votre déploiement voix entreprise. Pour cet exemple, le tableau suivant illustre les itinéraires des communications vocales utilisés dans ce scénario. Seuls les paramètres spécifiques à Location-Based routage sont inclus dans le tableau à des fins d’illustration.
 
 Pour plus d’informations, reportez-vous à la rubrique [Configuration des itinéraires des communications vocales pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
@@ -223,9 +225,9 @@ Pour plus d’informations, reportez-vous à la rubrique [Configuration des itin
 
 <div>
 
-## <a name="enable-users-for-enterprise-voice"></a>Activer les utilisateurs pour Voix Entreprise
+## <a name="enable-users-for-enterprise-voice"></a>Activer les utilisateurs pour voix entreprise
 
-Activez les utilisateurs pour voix entreprise et affectez-leur une stratégie de voix que vous avez définie précédemment. Pour cet exemple, le tableau suivant illustre l’affectation utilisée dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
+Activez les utilisateurs pour voix entreprise et affectez-leur une stratégie de voix que vous avez définie précédemment. Pour cet exemple, le tableau suivant illustre l’affectation utilisée dans ce scénario. Seuls les paramètres spécifiques à Location-Based routage sont inclus dans le tableau à des fins d’illustration.
 
 Pour plus d’informations, consultez la rubrique [activation des utilisateurs pour voix entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
@@ -270,7 +272,7 @@ Pour plus d’informations, consultez la rubrique [activation des utilisateurs p
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration du routage géodépendant dans Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configuration du routage des Location-Based dans Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

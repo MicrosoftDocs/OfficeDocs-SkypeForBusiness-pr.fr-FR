@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532641"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations
+
 
 </div>
 
@@ -69,12 +71,12 @@ Pour sauvegarder Lync Server, utilisez les outils identifiés dans le tableau su
 </tr>
 <tr class="odd">
 <td><p>Données de configuration de Response Group (RgsConfig. mdf)</p></td>
-<td><p>Export-applet csrgsconfiguration</p></td>
+<td><p>Export-CsRgsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>Données utilisateur persistantes (base de données Rtcxds. mdf)</p>
 <p>ID de conférence</p></td>
-<td><p>Export-applet csuserdata</p></td>
+<td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -86,7 +88,7 @@ Pour sauvegarder Lync Server, utilisez les outils identifiés dans le tableau su
 </tr>
 <tr class="even">
 <td><p>Base de données de conversation permanente (MGC. mdf)</p></td>
-<td><p>Procédures de sauvegarde SQL Server ou Export-applet cspersistentchatdata. Export-applet cspersistentchatdata exporte les données de conversation permanente sous forme de fichier.</p></td>
+<td><p>Procédures de sauvegarde SQL Server ou Export-applet cspersistentchatdata. Export-CsPersistentChatData exporte les données de conversation permanente sous forme de fichier.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tous les magasins de fichiers : magasin de fichiers Lync Server, magasin de fichiers d’archivage</p>
@@ -145,7 +147,7 @@ Pour restaurer Lync Server, utilisez les outils dans le tableau suivant. Toutes 
 <li><p>Base de données de surveillance</p></li>
 <li><p>Base de données d’archivage</p></li>
 </ul></td>
-<td><p>Install-applet csdatabase</p></td>
+<td><p>Install-CsDatabase</p></td>
 </tr>
 <tr class="even">
 <td><p>Restaurer le pointeur des services de domaine Active Directory vers le magasin central de gestion</p>
@@ -165,7 +167,7 @@ Pour restaurer Lync Server, utilisez les outils dans le tableau suivant. Toutes 
 <tr class="even">
 <td><p>Publier et activer la topologie</p></td>
 <td><p>Générateur de topologies</p>
-<p>- ou -</p>
+<p>-ou-</p>
 <p>Publish-CsTopology et Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
@@ -189,11 +191,11 @@ Pour restaurer Lync Server, utilisez les outils dans le tableau suivant. Toutes 
 </tr>
 <tr class="even">
 <td><p>Restaurer les données utilisateur persistantes (Rtcxds. mdf)</p></td>
-<td><p>Import-applet csuserdata</p></td>
+<td><p>Import-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><p>Restaurer les données de configuration du groupe Response Group (RgsConfig. mdf)</p></td>
-<td><p>Import-applet csrgsconfiguration</p>
+<td><p>Import-CsRgsConfiguration</p>
 <div>
 
 > [!NOTE]  
@@ -212,7 +214,7 @@ Pour restaurer Lync Server, utilisez les outils dans le tableau suivant. Toutes 
 </tr>
 <tr class="odd">
 <td><p>Base de données de conversation permanente (MGS. mdf)</p></td>
-<td><p>Procédures de restauration SQL Server ou Import-applet cspersistentchatdata. Vous pouvez utiliser import-applet cspersistentchatdata avec un fichier créé par Export-applet cspersistentchatdata, et les données seront importées dans la base de données de conversation permanente.</p></td>
+<td><p>Procédures de restauration SQL Server ou Import-applet cspersistentchatdata. Vous pouvez utiliser Import-CsPersistentChatData avec un fichier créé par Export-applet cspersistentchatdata, et les données seront importées dans la base de données de conversation permanente.</p></td>
 </tr>
 </tbody>
 </table>
@@ -224,7 +226,7 @@ Pour restaurer Lync Server, utilisez les outils dans le tableau suivant. Toutes 
 
 ## <a name="required-permissions"></a>Autorisations requises
 
-Les utilisateurs doivent être membres du groupe **RTCUniversalServerAdmins** pour effectuer toutes les commandes décrites dans cette rubrique. La plupart des commandes de sauvegarde et de restauration ne prennent pas en charge le contrôle d’accès basé sur un rôle (RBAC). Il existe deux exceptions : les cmdlets de conversation permanente Export-applet cspersistentchatdata et Import-applet cspersistentchatdata, qui doivent être exécutées par un utilisateur membre du groupe CsPersistentChatAdministrator. Pour exécuter l’Assistant Déploiement Lync Server, un utilisateur doit également être membre du groupe Administrateurs local.
+Les utilisateurs doivent être membres du groupe **RTCUniversalServerAdmins** pour effectuer toutes les commandes décrites dans cette rubrique. La plupart des commandes de sauvegarde et de restauration ne prennent pas en charge le contrôle d’accès basé sur un rôle (RBAC). Il existe deux exceptions : les cmdlets de conversation permanente Export-CsPersistentChatData et Import-applet cspersistentchatdata, qui doivent être exécutées par un utilisateur membre du groupe CsPersistentChatAdministrator. Pour exécuter l’Assistant Déploiement Lync Server, un utilisateur doit également être membre du groupe Administrateurs local.
 
 </div>
 

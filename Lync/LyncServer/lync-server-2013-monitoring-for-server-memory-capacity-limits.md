@@ -12,20 +12,22 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e969de7198eecf43b57ea00fa0591bbeb06da0b1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217310"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531941"
 ---
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Surveillance des limites de capacité de mémoire des serveurs dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Surveillance des limites de capacité de mémoire des serveurs dans Lync Server 2013
+
 
 </div>
 
@@ -61,19 +63,19 @@ Vous devez définir une limite sur le **nombre de sessions actuellement actives 
 
 Pour déterminer les limites appropriées, vous devez d’abord déterminer la capacité de mémoire disponible sur le serveur frontal pour le service de mobilité. Surveillez les compteurs pour déterminer à quel moment vous devez planifier une capacité supplémentaire, en fonction de la formule suivante :
 
-Quantité totale de mémoire utilisée par le service de mobilité MCX (Mo) = 164 + (400 + 134 \* )/1024 **nombre de sessions actuellement actives avec abonnements de présence actifs** + 400/1024 \* **(nombre de** sessions actuellement actives – **nombre de sessions actuellement actives avec abonnements de présence actifs**)
+Quantité totale de mémoire utilisée par le service de mobilité MCX (Mo) = 164 + (400 + 134)/1024 \* **nombre de sessions actuellement actives avec abonnements de présence actifs** + 400/1024 (nombre de sessions actuellement actives \* – **nombre de sessions actuellement actives avec abonnements de présence actifs**)**Currently Active Session Count**
 
 <div>
 
 
 > [!IMPORTANT]  
-> La calculatrice de capacité Microsoft Lync Server 2010 est une feuille de calcul pré-remplie avec toutes les formules qui permettent à un planificateur de déterminer les conditions requises pour les serveurs, notamment l’UC, la mémoire et le disque dur. Vous pouvez télécharger la feuille de calcul et un document associé à l’adresse suivante :<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> La calculatrice de capacité Microsoft Lync Server 2010 est une feuille de calcul pré-remplie avec toutes les formules qui permettent à un planificateur de déterminer les conditions requises pour les serveurs, notamment l’UC, la mémoire et le disque dur. Vous pouvez télécharger la feuille de calcul et un document associé à l’adresse suivante : <A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-Le serveur frontal doit disposer de suffisamment de mémoire disponible pour prendre en charge le service de mobilité dans les situations de basculement. Vous pouvez surveiller la mémoire disponible sur le serveur frontal en utilisant le compteur **méga-\\octets disponibles** de la mémoire, ou en utilisant l’équation mentionnée ci-dessus, pour planifier la quantité de mémoire que le service de mobilité doit utiliser.
+Le serveur frontal doit disposer de suffisamment de mémoire disponible pour prendre en charge le service de mobilité dans les situations de basculement. Vous pouvez surveiller la mémoire disponible sur le serveur frontal en utilisant le compteur **méga- \\ octets disponibles** de la mémoire, ou en utilisant l’équation mentionnée ci-dessus, pour planifier la quantité de mémoire que le service de mobilité doit utiliser.
 
 Si la quantité de mémoire disponible sur le serveur frontal est inférieure à 1 500 Mo lorsque vous planifiez le nombre d’utilisateurs de mobilité prévu, vous devez ajouter davantage de matériel pour prendre en charge le service de mobilité. Pour plus d’informations, reportez-vous à la rubrique [Monitoring Mobility for performance in Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) dans la documentation des opérations.
 

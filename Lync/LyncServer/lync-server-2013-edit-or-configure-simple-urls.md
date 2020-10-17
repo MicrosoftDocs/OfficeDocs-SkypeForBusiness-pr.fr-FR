@@ -12,20 +12,22 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e77d5ddf74d43cd277a701608e801a65262c929
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 61462b7910375959e002938a91efa27d8d45c988
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533361"
 ---
+# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Modifier ou configurer des URL simples dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Modifier ou configurer des URL simples dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Pour effectuer cette procédure, il n’est pas nécessaire d’appartenir à un
 
 Lync Server 2013 utilise des URL simples pour diriger les appels internes et externes vers des services sur le serveur frontal ou sur le directeur, le cas échéant. Pour plus d’informations sur les URL simples, voir [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) dans la documentation de planification. Vous pouvez sélectionner le format de vos URL simples à partir de plusieurs options. Pour plus d’informations sur ces options, consultez la rubrique [DNS Requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) dans la documentation de planification.
 
-Par défaut, les URL simples sont configurées sous la forme (par exemple, l’URL simple Dial-in) : https://dialin.\<SIP Domain.\>
+Par défaut, les URL simples sont configurées sous la forme (par exemple, l’URL simple Dial-in) : https://dialin .\<SIP Domain\>
 
 <div>
 
@@ -51,7 +53,7 @@ Par défaut, les URL simples sont configurées sous la forme (par exemple, l’U
 
 2.  Dans le volet **URL simples** , sélectionnez **URL d’accès téléphonique :** (accès à distance) ou **URL de réunion :** (réunion) pour modifier, puis cliquez sur **modifier l’URL**.
 
-3.  Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer. L’exemple ci-dessous a modifié l’URL de connexion vers https://pool01.contoso.net/dialin.
+3.  Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer. L’exemple ci-dessous a modifié l’URL de connexion vers https://pool01.contoso.net/dialin .
 
 4.  Modifiez l’URL Meet en procédant de la même manière, si nécessaire.
 
@@ -69,7 +71,7 @@ Par défaut, les URL simples sont configurées sous la forme (par exemple, l’U
     
 
     > [!TIP]  
-    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <STRONG> https://admin.</STRONG> &lt;domaine&gt;.
+    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <STRONG> https://admin .</STRONG> &lt; domaine &gt; .
 
     
     </div>
@@ -78,7 +80,7 @@ Par défaut, les URL simples sont configurées sous la forme (par exemple, l’U
     
 
     > [!IMPORTANT]  
-    > Si vous modifiez une URL simple après le déploiement initial, vous devez savoir quelles modifications ont un impact sur les enregistrements DNS (Domain Name System) et les certificats pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements DNS et les certificats. Par exemple, si vous https://lync.contoso.com/Meet modifiez https://meet.contoso.com l’URL de base de Lync.contoso.com en Meet.contoso.com, vous devez modifier les enregistrements DNS et les certificats pour faire référence à Meet.contoso.com. Si vous avez modifié l’URL simple https://lync.contoso.com/Meet vers https://lync.contoso.com/Meetings, l’url de base de Lync.contoso.com reste la même, de sorte qu’aucune modification de certificat ou de DNS n’est nécessaire. Chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’applet de commande <STRONG>Enable-CsComputer</STRONG> sur chaque directeur et serveur frontal pour enregistrer la modification.
+    > Si vous modifiez une URL simple après le déploiement initial, vous devez savoir quelles modifications ont un impact sur les enregistrements DNS (Domain Name System) et les certificats pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements DNS et les certificats. Par exemple, https://lync.contoso.com/Meet https://meet.contoso.com si vous modifiez l’URL de base de lync.contoso.com en Meet.contoso.com, vous devez modifier les enregistrements DNS et les certificats pour faire référence à Meet.contoso.com. Si vous avez modifié l’URL simple https://lync.contoso.com/Meet vers https://lync.contoso.com/Meetings , l’URL de base de Lync.contoso.com reste la même, de sorte qu’aucune modification de certificat ou de DNS n’est nécessaire. Chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’applet de commande <STRONG>Enable-CsComputer</STRONG> sur chaque directeur et serveur frontal pour enregistrer la modification.
 
     
     </div>

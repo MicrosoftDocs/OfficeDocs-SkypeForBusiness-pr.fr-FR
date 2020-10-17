@@ -12,20 +12,22 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50457100f1ba476fd3ddfa923b73acd6bfe6d843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33461781f0392d0e6e4fbfa21bdde8948e7a9a1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532581"
 ---
+# <a name="configuring-network-site-links-in-lync-server-2013"></a>Configuration des liens de sites réseau dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-site-links-in-lync-server-2013"></a>Configuration des liens de sites réseau dans Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Dans une configuration de contrôle d’admission des appels (CAC), vous pouvez 
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    Cet exemple crée un lien de site réseau nommé Reno\_Portland qui définit des limites de bande passante entre les sites réseau Reno et Portland. Les sites réseau et le profil de stratégie de bande passante doivent être existants avant d’exécuter cette commande.
+    Cet exemple crée un lien de site réseau nommé Reno \_ Portland qui définit des limites de bande passante entre les sites réseau Reno et Portland. Les sites réseau et le profil de stratégie de bande passante doivent être existants avant d’exécuter cette commande.
 
 Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) dans la documentation de Lync Server Management Shell. Pour récupérer une liste des profils de stratégie de bande passante pouvant être appliqués au lien de site réseau, appelez l’applet de commande **Get-CsNetworkBandwidthPolicyProfile**. Pour plus d’informations, reportez-vous à [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) dans la documentation Lync Server Management Shell.
 
@@ -65,7 +67,7 @@ Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkI
 
 2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Utilisez l’applet de commande **Set-CsNetworkInterSitePolicy** pour modifier les propriétés d’un lien de site réseau donné. Vous pouvez modifier l’un ou l’autre des sites connectés, ou les deux, ainsi que le profil de stratégie de bande passante associé au lien. Voici un exemple de modification du profil de stratégie de bande passante d’un lien de\_site nommé Reno Portland :
+3.  Utilisez l’applet de commande **Set-CsNetworkInterSitePolicy** pour modifier les propriétés d’un lien de site réseau donné. Vous pouvez modifier l’un ou l’autre des sites connectés, ou les deux, ainsi que le profil de stratégie de bande passante associé au lien. Voici un exemple de modification du profil de stratégie de bande passante d’un lien de site nommé Reno \_ Portland :
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
@@ -81,7 +83,7 @@ Pour obtenir des descriptions détaillées des paramètres, voir [Set-CsNetworkI
 
 2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Utilisez l’applet de commande **Remove-CsNetworkInterSitePolicy** pour supprimer un lien de site réseau. L’exemple suivant supprime le lien de\_site de réseau Portland Reno :
+3.  Utilisez l’applet de commande **Remove-CsNetworkInterSitePolicy** pour supprimer un lien de site réseau. L’exemple suivant supprime le lien de \_ site de réseau Portland Reno :
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4eb6d1ec984d09f3868ad621add52fb947dd13b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76e8734c8cef93191c5e7186240c1b78529916fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192687"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531921"
 ---
+# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>Surveillance des fichiers journaux de suivi des demandes IIS dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>Surveillance des fichiers journaux de suivi des demandes IIS dans Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**Dernière modification de la rubrique :** 2013-02-14_
 
 Lorsque vous activez le suivi des demandes IIS (Internet Information Services) pour le service Lync Server Mobility (MCX), les fichiers journaux générés peuvent consommer jusqu’à trois gigaoctets d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez analyser les serveurs frontaux pour vous assurer qu’ils ne manquent pas d’espace disque.
 
-Par défaut, les services Internet (IIS) stockent les\\fichiers\\journaux\\dans% SystemDrive% Inetpub logs journaux.
+Par défaut, les services Internet (IIS) stockent les fichiers journaux dans% SystemDrive% \\ Inetpub \\ logs journaux \\ .
 
 Pour désactiver le suivi des demandes IIS pour un serveur entier, tapez ce qui suit sur la ligne de commande :
 
     %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 
-Pour plus d’informations **** sur la commande httpLogging [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927), reportez-vous à la rubrique.
+Pour plus d’informations sur la commande **httpLogging** , reportez-vous à la rubrique [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927) .
 
 </div>
 
