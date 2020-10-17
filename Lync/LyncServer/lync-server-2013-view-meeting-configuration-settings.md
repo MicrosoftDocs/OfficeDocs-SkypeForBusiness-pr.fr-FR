@@ -12,20 +12,22 @@ ms:contentKeyID: 49733828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 076c3a13f1cbc6519a0af4c0ee8b587a7f5d83ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b9ad61f93cd7c65be04d30cf35638019ddc7ee58
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506331"
 ---
+# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a>Afficher les paramètres de configuration de réunion dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a>Afficher les paramètres de configuration de réunion dans Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Dans le panneau de configuration Lync Server 2013, utilisez le paramètre config
 
 5.  Dans **Modifier le filtre de fichiers**, cochez la case **Afficher les détails…**
     
-    **Modifier la configuration de \<la\> réunion-la stratégie** s’ouvre et affiche les paramètres de la stratégie sélectionnée. Pour plus d’informations sur la configuration des paramètres, voir [créer ou modifier une collection de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).
+    **Modifier la configuration de \<policy\> la réunion-** ouvre les paramètres de la stratégie sélectionnée. Pour plus d’informations sur la configuration des paramètres, voir [créer ou modifier une collection de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).
 
 </div>
 
@@ -65,7 +67,7 @@ Dans le panneau de configuration Lync Server 2013, utilisez le paramètre config
 
 ## <a name="viewing-meeting-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration de réunion à l’aide des applets de commande Windows PowerShell
 
-Les paramètres de configuration de réunion peuvent être affichés à l’aide de Windows PowerShell et de la cmdlet Get-CsMeetingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les paramètres de configuration de réunion peuvent être affichés à l’aide de Windows PowerShell et de l’applet de commande Get-CsMeetingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

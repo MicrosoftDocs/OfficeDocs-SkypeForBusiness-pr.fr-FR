@@ -12,20 +12,22 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25fceca5dfb3b308d7f9d545268c258c3e32609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26e4b9c2814b8e9e5bf57e2e798b4b803d7401fb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507261"
 ---
+# <a name="im-and-presence-in-lync-server-2013"></a>Messagerie instantanée et présence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-in-lync-server-2013"></a>Messagerie instantanée et présence dans Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ En effectuant simplement une recherche dans une liste de contacts, les utilisate
 
 Avec l’intégration entre Lync Server et d’autres produits tels qu’Outlook et SharePoint, lorsque le nom d’un contact apparaît, par exemple dans un message électronique ou sur un site Web d’équipe, l’État et les informations de contact sont également affichés. En outre, si vous déployez Exchange 2013, Lync Server et Exchange 2013 peuvent partager un magasin de contacts unifié, qui est accessible par les clients de l’un ou l’autre produit.
 
-Avec la messagerie instantanée dans Lync Server, les utilisateurs peuvent rapidement s’afficher avec des informations opportunes. Si vous le souhaitez, vos utilisateurs peuvent également communiquer avec des utilisateurs de réseaux de messagerie instantanée publics, tels que MSN\!/Windows Live, Yahoo et AOL. Notez qu’une licence distincte peut être requise pour la connectivité PIC avec Windows Live, AOL et Yahoo.\! Lync Server inclut également la compatibilité XMPP (extensible Messaging and Presence Protocol), afin que vos utilisateurs puissent échanger des messages INSTANTANÉs et des informations de présence avec des utilisateurs de services XMPP tels que Google Talk.
+Avec la messagerie instantanée dans Lync Server, les utilisateurs peuvent rapidement s’afficher avec des informations opportunes. Si vous le souhaitez, vos utilisateurs peuvent également communiquer avec des utilisateurs de réseaux de messagerie instantanée publics, tels que MSN/Windows Live, Yahoo \! et AOL. Notez qu’une licence distincte peut être requise pour la connectivité PIC avec Windows Live, AOL et Yahoo.\! Lync Server inclut également la compatibilité XMPP (extensible Messaging and Presence Protocol), afin que vos utilisateurs puissent échanger des messages INSTANTANÉs et des informations de présence avec des utilisateurs de services XMPP tels que Google Talk.
 
 <div>
 
@@ -69,7 +71,7 @@ L’historique des conversations permet aux utilisateurs de conserver les ancien
 
 La fonctionnalité de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs sujets qui persistent dans le temps. Les messages publiés dans les salles de conversation (forums de discussion) peuvent être permanents, afin que les personnes qui se trouvent dans des sites et départements différents puissent participer, même lorsqu’elles ne sont pas toutes en ligne en même temps.
 
-Si votre organisation doit respecter des réglementations en matière de conformité, vous pouvez déployer une fonctionnalité d’archivage des messages, afin d’archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation ou seulement pour certains utilisateurs que vous spécifiez. Si vous déployez également Exchange 2013, votre archive de messagerie instantanée peut être intégrée à la fonctionnalité de conservation inaltérable d’Exchange, afin de fournir une expérience d’administration unique pour votre conformité.
+Si votre organisation doit respecter des réglementations en matière de conformité, vous pouvez déployer une fonctionnalité d’archivage des messages, afin d’archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation ou seulement pour certains utilisateurs que vous spécifiez. Si vous déployez également Exchange 2013, votre archive de messagerie instantanée peut être intégrée à la fonctionnalité de mise en attente de In-Place d’Exchange, afin de fournir une expérience d’administration unique pour votre conformité.
 
 </div>
 

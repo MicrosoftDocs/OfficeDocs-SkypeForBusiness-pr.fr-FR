@@ -12,20 +12,22 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507481"
 ---
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Déploiement de l’application Lync Windows Store dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Déploiement de l’application Lync Windows Store dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43779580"
 
 _**Dernière modification de la rubrique :** 2013-12-03_
 
-Avant de rendre l’application Lync Windows Store accessible aux utilisateurs, assurez-vous que votre déploiement est conforme à la [Configuration requise de l’application Lync pour Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Pour plus d’informations sur la configuration de Lync Server 2013 afin de prendre en charge l’application Lync Windows Store, voir l’article du blog NextHop, « Lync Server Autodiscover and [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)the Lync Windows Store App », à l’adresse. Une fois que votre environnement serveur est correctement configuré, vous pouvez demander aux utilisateurs de télécharger l’application Lync à partir du Windows Store en recherchant « Lync ».
+Avant de rendre l’application Lync Windows Store accessible aux utilisateurs, assurez-vous que votre déploiement est conforme à la [Configuration requise de l’application Lync pour Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Pour plus d’informations sur la configuration de Lync Server 2013 afin de prendre en charge l’application Lync Windows Store, voir l’article du blog NextHop, « Lync Server Autodiscover and the Lync Windows Store App », à l’adresse [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966) . Une fois que votre environnement serveur est correctement configuré, vous pouvez demander aux utilisateurs de télécharger l’application Lync à partir du Windows Store en recherchant « Lync ».
 
 <div>
 
@@ -66,9 +68,9 @@ Mises à jour cumulatives pour Lync Server 2013 : le 2013 juin ajoute la prise 
 
 **Pour configurer l’authentification multifacteur**
 
-1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement des services de <https://go.microsoft.com/fwlink/p/?linkid=267511>Fédération Active Directory (AD fs) 2,0 à l’adresse.
+1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement des services de fédération Active Directory (AD FS) 2,0 à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=267511> .
 
-2.  Créer des certificats pour AD FS. Pour plus d’informations, consultez la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)-on.
+2.  Créer des certificats pour AD FS. Pour plus d’informations, consultez la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign-On [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante :
     ```powershell
@@ -150,7 +152,7 @@ Un problème de connexion peut se produire pour les utilisateurs de Microsoft 36
 
 Vous pouvez utiliser les journaux générés sur l’appareil pour résoudre les problèmes. Les journaux sont stockés dans le dossier suivant :
 
-% Des packages\\\\% LocalAppData% Microsoft\_.\\LyncMX\\8wekyb3d8bbwe suivi des LocalState
+% Des packages% LocalAppData% \\ \\ Microsoft. LyncMX \_ 8wekyb3d8bbwe \\ suivi des LocalState \\
 
 Avant d’obtenir les journaux d’un utilisateur, vérifiez que la journalisation est activée, puis demandez à l’utilisateur d’enregistrer les journaux de sorte que toutes les informations stockées dans la mémoire soient également enregistrées dans des fichiers sur le disque dur.
 

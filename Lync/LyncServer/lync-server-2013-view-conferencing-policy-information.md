@@ -12,20 +12,22 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 664078db23ecba5d26852c2e1348935a3e4c60b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f2417af7b1258a1b0bd9fce1bd5aafb6c691c59
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506521"
 ---
+# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Afficher les informations de stratégie de conférence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Afficher les informations de stratégie de conférence dans Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Dans le panneau de configuration Lync Server 2013, vous utilisez des stratégies
 
 5.  Dans **Modifier le filtre de fichier**, sélectionnez la case à cocher **Afficher les détails…**.
     
-    **Modifier la stratégie de \<Conférence\> -la stratégie** s’ouvre et affiche les paramètres de la stratégie sélectionnée. Pour plus d’informations sur la configuration des paramètres, voir [Create or Modify a Conferencing Policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+    **Modifier la stratégie de \<policy\> Conférence-** ouvre les paramètres de la stratégie sélectionnée. Pour plus d’informations sur la configuration des paramètres, voir [Create or Modify a Conferencing Policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
 
 </div>
 
@@ -65,7 +67,7 @@ Dans le panneau de configuration Lync Server 2013, vous utilisez des stratégies
 
 ## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Affichage des stratégies de conférence à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez afficher les stratégies de conférence à l’aide de Windows PowerShell et de l’applet de commande Get-CsConferencingPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les stratégies de conférence peuvent être visualisées à l’aide de Windows PowerShell et de l’applet de commande Get-CsConferencingPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

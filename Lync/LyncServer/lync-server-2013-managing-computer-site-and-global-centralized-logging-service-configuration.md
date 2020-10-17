@@ -12,20 +12,22 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 868005d0a719bc8bc021f1a0b82260037c1f6ea6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8b7dfb9d96e452fc18dc5a7a962a18802388410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218120"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505851"
 ---
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Gestion de la configuration de l’ordinateur, du site et du service de journalisation centralisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Gestion de la configuration de l’ordinateur, du site et du service de journalisation centralisée dans Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42218120"
 
 _**Dernière modification de la rubrique :** 2014-02-04_
 
-Le service de journalisation centralisée peut être exécuté au niveau d’un ordinateur unique, d’un pool d’ordinateurs, au niveau d’une étendue de site (c’est-à-dire un site défini tel que Redmond qui contient un ensemble d’ordinateurs et de pools dans votre déploiement), ou à une étendue globale ( , tous les ordinateurs et pools de votre déploiement).
+Le service de journalisation centralisée peut être exécuté au niveau d’un ordinateur, d’un pool d’ordinateurs, d’un site (un site défini tel que Redmond qui contient un ensemble d’ordinateurs et de pools dans votre déploiement), ou globalement (c’est-à-dire tous les ordinateurs et pools de votre déploiement).
 
-Pour configurer l’étendue du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur le rôle CsServerAdministrator), ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
+Pour configurer l’étendue du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur un rôle CsServerAdministrator), ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
@@ -51,7 +53,7 @@ Par exemple :
 
 
 > [!NOTE]
-> Windows PowerShell fournit des options supplémentaires et des options de configuration supplémentaires qui ne sont pas disponibles à l’aide de CLSController. exe. CLSController offre une méthode rapide et concise pour exécuter des commandes, mais l’ensemble de commandes disponibles pour CLSController est limité. Windows PowerShell n’est pas limité à la seule commande disponible pour le processeur de commandes du CLSController, et fournit un ensemble plus large de commandes et un ensemble d’options plus riche. Par exemple, CLSController.exe fournit des options d’étendue pour les ordinateurs et les pools. Avec Windows PowerShell, vous pouvez indiquer des ordinateurs ou des pools dans la plupart des commandes, et lorsque vous définissez de nouveaux scénarios (CLSController dispose d’un nombre limité de scénarios qui ne peuvent pas être modifiés par l’utilisateur), vous pouvez définir un site ou une étendue globale. Cette fonctionnalité puissante de Windows PowerShell vous permet de définir un scénario de site ou une étendue globale, mais de limiter la journalisation réelle à un ordinateur ou un pool.<BR>Il existe des différences fondamentales entre les commandes de ligne de commande que vous pouvez exécuter dans Windows PowerShell ou CLSController. Windows PowerShell fournit une méthode riche pour configurer et définir des scénarios, et pour réutiliser ces scénarios de manière significative pour les scénarios de dépannage. CLSController fournit un moyen rapide et efficace d’émettre des commandes et d’obtenir des résultats, l’ensemble de commandes pour CLSController est limité à un nombre fini de commandes disponibles à partir de la ligne de commande. Contrairement aux applets de commande Windows PowerShell, CLSController ne peut pas définir de nouveaux scénarios, gérer l’étendue au niveau d’un site ou d’un niveau global et de nombreuses autres limitations d’un jeu de commandes finies qui ne peuvent pas être configurés dynamiquement. Bien que CLSController offre un moyen pour une exécution rapide, Windows PowerShell permet d’étendre la fonctionnalité du service de journalisation centralisée au-delà de ce qui est possible avec CLSController.
+> Windows PowerShell fournit des options supplémentaires et des options de configuration supplémentaires qui ne sont pas disponibles à l’aide de CLSController.exe. CLSController offre une méthode rapide et concise pour exécuter des commandes, mais l’ensemble de commandes disponibles pour CLSController est limité. Windows PowerShell n’est pas limité à la seule commande disponible pour le processeur de commandes du CLSController, et fournit un ensemble plus large de commandes et un ensemble d’options plus riche. Par exemple, CLSController.exe fournit des options d’étendue pour les ordinateurs et les pools. Avec Windows PowerShell, vous pouvez indiquer des ordinateurs ou des pools dans la plupart des commandes, et lorsque vous définissez de nouveaux scénarios (CLSController dispose d’un nombre limité de scénarios qui ne peuvent pas être modifiés par l’utilisateur), vous pouvez définir un site ou une étendue globale. Cette fonctionnalité puissante de Windows PowerShell vous permet de définir un scénario de site ou une étendue globale, mais de limiter la journalisation réelle à un ordinateur ou un pool.<BR>Il existe des différences fondamentales entre les commandes de ligne de commande que vous pouvez exécuter dans Windows PowerShell ou CLSController. Windows PowerShell fournit une méthode riche pour configurer et définir des scénarios, et pour réutiliser ces scénarios de manière significative pour les scénarios de dépannage. CLSController fournit un moyen rapide et efficace d’émettre des commandes et d’obtenir des résultats, l’ensemble de commandes pour CLSController est limité à un nombre fini de commandes disponibles à partir de la ligne de commande. Contrairement aux applets de commande Windows PowerShell, CLSController ne peut pas définir de nouveaux scénarios, gérer l’étendue au niveau d’un site ou d’un niveau global et de nombreuses autres limitations d’un jeu de commandes finies qui ne peuvent pas être configurés dynamiquement. Bien que CLSController offre un moyen pour une exécution rapide, Windows PowerShell permet d’étendre la fonctionnalité du service de journalisation centralisée au-delà de ce qui est possible avec CLSController.
 
 
 

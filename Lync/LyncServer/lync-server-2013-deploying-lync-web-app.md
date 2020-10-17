@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507531"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Déploiement de Lync Web App dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Déploiement de Lync Web App dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Les fonctionnalités vocales, vidéo et de partage dans Lync Web App nécessiten
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Activation de l’authentification multifacteur pour Lync Web App
 
-La version Lync Server 2013 de Lync Web App prend en charge l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à des réunions Lync. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Lync Server 2013. Une fois les services ADFS configurés, les utilisateurs externes qui tentent de participer à des réunions Lync sont présentés avec une page Web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que toutes les autres méthodes d’authentification que vous avez configurées. .
+La version Lync Server 2013 de Lync Web App prend en charge l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à des réunions Lync. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Lync Server 2013. Une fois les services ADFS configurés, les utilisateurs externes qui tentent de participer à des réunions Lync sont présentés avec une page Web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que les autres méthodes d’authentification que vous avez configurées.
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ La version Lync Server 2013 de Lync Web App prend en charge l’authentification
 
 **Pour configurer l’authentification multifacteur**
 
-1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement des services ADFS (Active Directory Federation Services 2,0) à l’adresse<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement des services ADFS (Active Directory Federation Services 2,0) à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Créer des certificats pour AD FS. Pour plus d’informations, consultez la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)-on.
+2.  Créer des certificats pour AD FS. Pour plus d’informations, consultez la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign-On [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante :
     ```powershell
@@ -113,7 +115,7 @@ La version Lync Server 2013 de Lync Web App prend en charge l’authentification
 
 La fonctionnalité BranchCache dans Windows 7 et Windows Server 2008 R2 peut interférer avec les composants Web de Lync Web App. Pour éviter les problèmes pour les utilisateurs de Lync Web App, assurez-vous que BranchCache n’est pas activé.
 
-Pour plus d’informations sur la désactivation de BranchCache, voir le Guide de déploiement de BranchCache, qui est disponible au format Word [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) dans le centre de téléchargement Microsoft à l’adresse et au format HTML [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)dans la bibliothèque technique de Windows Server 2008 R2 (en anglais) à l’adresse.
+Pour plus d’informations sur la désactivation de BranchCache, voir le Guide de déploiement de BranchCache, qui est disponible au format Word dans le centre de téléchargement Microsoft à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) et au format HTML dans la bibliothèque technique de Windows Server 2008 R2 (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) .
 
 </div>
 
@@ -158,9 +160,9 @@ Si l’installation du plug-in échoue sur un ordinateur exécutant Windows Serv
 
 2.  Pour accéder à l’Éditeur du Registre, tapez **regedit**.
 
-3.  Naviguez jusqu'\_à\_HKEY\\local\\machine\\Software\\Policies Microsoft Windows\\installer.
+3.  Naviguez jusqu’à HKEY \_ local \_ machine \\ Software \\ Policies \\ Microsoft \\ Windows \\ installer.
 
-4.  Modifiez ou ajoutez la clé de Registre DisableMSI de type\_reg DWORD et affectez-lui la valeur 0.
+4.  Modifiez ou ajoutez la clé de Registre DisableMSI de type REG \_ DWORD et affectez-lui la valeur 0.
 
 5.  Rejoignez la réunion.
 

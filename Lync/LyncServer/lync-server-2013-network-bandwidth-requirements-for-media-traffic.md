@@ -12,20 +12,22 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89517fb83fa5cd0c7defd62b47f7ddf9b29a303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d10ef9e4ebf2c30c12e40c7f6f48f5ac36e58dce
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192547"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505571"
 ---
+# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Exigences de bande passante réseau pour le trafic multimédia dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Exigences de bande passante réseau pour le trafic multimédia dans Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ L’utilisation de la bande passante par le trafic multimédia peut être diffic
 </tr>
 <tr class="odd">
 <td><p>G. 722</p></td>
-<td><p>Vidéoconférence</p></td>
+<td><p>Conférence</p></td>
 <td><p>64,0</p></td>
 <td><p>80,0</p></td>
 <td><p>95,6</p></td>
@@ -109,7 +111,7 @@ L’utilisation de la bande passante par le trafic multimédia peut être diffic
 </tr>
 <tr class="even">
 <td><p>Siren</p></td>
-<td><p>Vidéoconférence</p></td>
+<td><p>Conférence</p></td>
 <td><p>16,0</p></td>
 <td><p>32,0</p></td>
 <td><p>47,6</p></td>
@@ -127,9 +129,9 @@ Pour la vidéo, le codec par défaut est la norme H.264/MPEG-4 Part 10 Advanced 
 
 La bande passante nécessaire dépend de la résolution, de la qualité et de la fréquence d’images. Pour chaque résolution, deux vitesses de transmission intéressantes sont disponibles :
 
-  - **Débit de charge utile maximal**   il s’agit de la vitesse de transmission qu’un point de terminaison Lync 2013 utilisera pour la résolution à la fréquence d’images maximale prise en charge pour cette résolution. Cette valeur est intéressante car elle permet de disposer d’une vidéo d’une qualité et d’une fréquence d’images optimales.
+  - **Vitesse de transmission**     de la charge utile maximale Il s’agit de la vitesse de transmission qu’un point de terminaison Lync 2013 utilisera pour la résolution à la fréquence d’images maximale prise en charge pour cette résolution. Cette valeur est intéressante car elle permet de disposer d’une vidéo d’une qualité et d’une fréquence d’images optimales.
 
-  - **Débit de charge utile minimum**   il s’agit de la vitesse de transmission au-dessous de laquelle un point de terminaison Lync 2013 bascule vers la résolution inférieure suivante. Afin de garantir une certaine résolution, la vitesse de transmission de la charge utile vidéo ne doit pas être inférieure à cette vitesse de transmission minimale pour cette résolution. Cette valeur est intéressante afin que vous puissiez comprendre la plus petite valeur possible lorsque la vitesse de transmission maximale n’est pas disponible ou pratique. Pour certains utilisateurs, une vidéo de débit faible peut être considérée comme une expérience vidéo inacceptable, donc soyez prudent lorsque vous envisagez ces débits minimaux de charge vidéo vidéo. Notez que pour les scènes vidéo avec peu ou pas de mouvement de l’utilisateur, la vitesse de transmission réelle peut également tomber en dessous de la vitesse de transmission minimale.
+  - **Vitesse de transmission**     de la charge utile minimale Il s’agit de la vitesse de transmission en dessous de laquelle un point de terminaison Lync 2013 bascule vers la résolution inférieure suivante. Afin de garantir une certaine résolution, la vitesse de transmission de la charge utile vidéo ne doit pas être inférieure à cette vitesse de transmission minimale pour cette résolution. Cette valeur est intéressante afin que vous puissiez comprendre la plus petite valeur possible lorsque la vitesse de transmission maximale n’est pas disponible ou pratique. Pour certains utilisateurs, une vidéo de débit faible peut être considérée comme une expérience vidéo inacceptable, donc soyez prudent lorsque vous envisagez ces débits minimaux de charge vidéo vidéo. Notez que pour les scènes vidéo avec peu ou pas de mouvement de l’utilisateur, la vitesse de transmission réelle peut également tomber en dessous de la vitesse de transmission minimale.
 
 Lync 2013 prend en charge beaucoup plus de résolutions. Cela permet une meilleure adaptation à différentes bandes passantes réseau et capacités des clients de réception. En outre, les proportions par défaut de Lync 2013 ont été remplacées par 16:9. Les proportions 4:3 sont toujours prises en charge pour les webcams qui ne permettent pas la capture 16:9.
 
@@ -156,7 +158,7 @@ Lync 2013 prend en charge beaucoup plus de résolutions. Cela permet une meilleu
 <td><p>320x180 (16:9)</p>
 <p>212x160 (4:3)</p></td>
 <td><p>250</p></td>
-<td><p>15 </p></td>
+<td><p>15 </p></td>
 </tr>
 <tr class="even">
 <td><p>H. 264/RTVideo</p></td>
@@ -207,7 +209,7 @@ Lync 2013 prend en charge beaucoup plus de résolutions. Cela permet une meilleu
 <td><p>H. 264/RTVideo</p></td>
 <td><p>960x144 (20:3)</p></td>
 <td><p>500</p></td>
-<td><p>15 </p></td>
+<td><p>15 </p></td>
 </tr>
 <tr class="even">
 <td><p>H. 264</p></td>
@@ -258,22 +260,22 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 </colgroup>
 <thead>
 <tr class="header">
-<th>Support</th>
+<th>Multimédia</th>
 <th>Bande passante maximale RTCP (Kbits/s)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Audio</p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)</p></td>
-<td><p>10 </p></td>
+<td><p>10 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Vidéo (H.264 et RTVideo envoyé/reçu)</p></td>
-<td><p>15 </p></td>
+<td><p>15 </p></td>
 </tr>
 </tbody>
 </table>
@@ -281,9 +283,9 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 
 Pour planifier la capacité, il est intéressant de tenir compte des deux bandes passantes suivantes :
 
-  - **Bande passante maximale sans FEC**   la bande passante maximale qu’un flux utilisera, y compris l’activité type du flux et le codec standard utilisé dans le scénario sans FEC.Il s’agit de la bande passante lorsque l’activité du flux est maximale et qu’aucune perte de paquets ne vient déclencher l’utilisation de la correction d’erreur de transfert.Ceci est intéressant pour calculer la bande passante qui sera allouée en vue d’autoriser l’utilisation du codec dans un scenario donné. 
+  - **Bande passante maximale sans FEC**     Bande passante maximale qu’un flux consomme, y compris l’activité classique du flux et le codec standard utilisé dans le scénario sans FEC.Il s’agit de la bande passante lorsque l’activité du flux est maximale et qu’aucune perte de paquets ne vient déclencher l’utilisation de la correction d’erreur de transfert.Ceci est intéressant pour calculer la bande passante qui sera allouée en vue d’autoriser l’utilisation du codec dans un scenario donné. 
 
-  - **Bande passante maximale avec FEC**   la bande passante maximale utilisée par un flux, y compris l’activité type du flux et le codec standard utilisé dans le scénario avec FEC. Il s’agit de la bande passante lorsque l’activité du flux est maximale et qu’une perte de paquets vient déclencher l’utilisation de la correction d’erreur de transfert pour améliorer la qualité. Ceci est intéressant pour calculer la bande passante qui sera allouée en vue d’autoriser l’utilisation du codec dans un scénario donné et d’autoriser l’utilisation de la correction d’erreur de transfert pour préserver la qualité en cas de perte de paquets. 
+  - **Bande passante maximale avec FEC**     Bande passante maximale utilisée par un flux, y compris l’activité classique du flux et le codec standard utilisé dans le scénario avec FEC. Il s’agit de la bande passante lorsque l’activité du flux est maximale et qu’une perte de paquets vient déclencher l’utilisation de la correction d’erreur de transfert pour améliorer la qualité. Ceci est intéressant pour calculer la bande passante qui sera allouée en vue d’autoriser l’utilisation du codec dans un scénario donné et d’autoriser l’utilisation de la correction d’erreur de transfert pour préserver la qualité en cas de perte de paquets. 
 
 Les tableaux ci-dessous répertorient également une valeur de bande passante supplémentaire, la **bande passante type**. Il s’agit de la bande passante moyenne consommée par un flux, y compris l’activité type du flux et le codec type utilisé dans le scénario. Cette bande passante peut être utilisée pour calculer une quantité approximative de bande passante consommée par un trafic multimédia à un moment donné, mais ne doit pas être utilisée pour planifier la capacité, car les appels individuels excéderont cette valeur dès lors que le niveau d’activité sera supérieur à cette moyenne. La vitesse de transmission du flux vidéo dans les tableaux ci-dessous est basée sur un ensemble de différentes résolutions vidéo comme cela est le plus souvent le cas. Par exemple, dans les sessions P2P, la majorité des utilisateurs utilisent la fenêtre de rendu de vidéo par défaut, tandis que le pourcentage d’utilisateurs augmenterait ou augmentaient l’application Lync pour permettre de meilleures résolutions vidéo.
 
@@ -301,7 +303,7 @@ Les tableaux ci-dessous fournissent ces trois valeurs de bande passante pour les
 </colgroup>
 <thead>
 <tr class="header">
-<th>Support</th>
+<th>Multimédia</th>
 <th>Codec</th>
 <th>Bande passante pour un flux type ( Kbits/s)</th>
 <th>Bande passante maximale sans correction d’erreur de transfert</th>
@@ -367,7 +369,7 @@ Les tableaux ci-dessous fournissent ces trois valeurs de bande passante pour les
 </colgroup>
 <thead>
 <tr class="header">
-<th>Support</th>
+<th>Multimédia</th>
 <th>Codec type</th>
 <th>Bande passante pour un flux type ( Kbits/s)</th>
 <th>Bande passante maximale sans correction d’erreur de transfert</th>
@@ -437,7 +439,7 @@ La bande passante de flux type pour une vidéo panoramique est basée sur les ap
 </colgroup>
 <thead>
 <tr class="header">
-<th>Support</th>
+<th>Multimédia</th>
 <th>Codec type</th>
 <th>Bande passante pour un flux type ( Kbits/s)</th>
 <th>Bande passante maximale sans correction d’erreur de transfert</th>

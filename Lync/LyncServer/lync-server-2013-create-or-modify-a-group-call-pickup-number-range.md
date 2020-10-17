@@ -12,20 +12,22 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdf2ee113682ccee44d2329de68dfa87ea5824be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee394401999038c205826c99b3e6b2e35734087d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179981"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506131"
 ---
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Création ou modification d’une plage de numéros de prise d’appel de groupe dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Création ou modification d’une plage de numéros de prise d’appel de groupe dans Lync Server 2013
+
 
 </div>
 
@@ -67,9 +69,9 @@ Les plages de numéros de groupe de prise d’appel doivent respecter les règle
 
   - La plage de numéros doit être unique. Cette plage ne peut pas chevaucher une autre plage.
 
-  - Si la plage de numéros commence par le \* caractère \#ou, la plage doit être supérieure à 100.
+  - Si la plage de numéros commence par le caractère \* ou \# , la plage doit être supérieure à 100.
 
-  - Valeurs valides : doivent correspondre à la chaîne d'\[\\\*|\#\]expression\[ régulière ( ? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}). Cela signifie que la valeur doit être une chaîne commençant par le caractère \* ou \# un nombre de 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est \* ou \#, le caractère suivant doit être un nombre de 1 à 9 (il ne peut pas être zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9, jusqu’à\#sept caractères supplémentaires (\*par exemple, «\*6000 », « 92000 », « 95551212 » et « 915551212 »). Si le premier caractère n’est \* pas \#ou, le premier caractère doit être un nombre compris entre 1 et 9 (il ne peut pas être zéro), suivi de huit caractères au maximum, chacun compris entre 0 et 9 (par exemple, « 915551212 », « 41212 », « 300 »).
+  - Valeurs valides : doivent correspondre à la chaîne d’expression régulière ( \[ \\ \* | \# \] ? \[ 1-9 \] \\ d {0,7} ) | ( \[ 1-9 \] \\ d {0,8} ). Cela signifie que la valeur doit être une chaîne commençant par le caractère \* ou \# un nombre de 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est \* ou \# , le caractère suivant doit être un nombre de 1 à 9 (il ne peut pas être zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9, jusqu’à sept caractères supplémentaires (par exemple, « \# 6000 », « \* 92000 », « \* 95551212 » et « 915551212 »). Si le premier caractère n’est pas \* ou \# , le premier caractère doit être un nombre compris entre 1 et 9 (il ne peut pas être zéro), suivi de huit caractères au maximum, chacun compris entre 0 et 9 (par exemple, « 915551212 », « 41212 », « 300 »).
 
 <div>
 

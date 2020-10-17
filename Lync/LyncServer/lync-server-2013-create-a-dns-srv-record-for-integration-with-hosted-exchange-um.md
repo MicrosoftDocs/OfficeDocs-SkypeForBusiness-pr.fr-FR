@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507471"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Créer un enregistrement SRV DNS pour l’intégration à la messagerie unifiée Exchange hébergée
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Créer un enregistrement SRV DNS pour l’intégration à la messagerie unifiée Exchange hébergée
+
 
 </div>
 
@@ -62,9 +64,9 @@ Cette rubrique décrit comment configurer l’enregistrement SRV DNS (Domain Nam
 
 5.  Dans **Type d’enregistrement de ressource**, cliquez sur **Emplacement du service (SRV)**, puis sur **Créer un enregistrement**.
 
-6.  Dans **nouvel enregistrement de ressource**, cliquez sur **service**, puis tapez ** \_sipfederationtls**.
+6.  Dans **nouvel enregistrement de ressource**, cliquez sur **service**, puis tapez ** \_ sipfederationtls**.
 
-7.  Cliquez sur **protocole**, puis tapez ** \_TCP**.
+7.  Cliquez sur **protocole**, puis tapez ** \_ TCP**.
 
 8.  Cliquez sur **Numéro de port**, puis tapez **5061**.
 
@@ -74,7 +76,7 @@ Cette rubrique décrit comment configurer l’enregistrement SRV DNS (Domain Nam
     
 
     > [!NOTE]
-    > Le domaine doit également être configuré comme domaine accepté et faisant autorité dans vos paramètres Exchange Online. Pour plus d’informations, consultez la rubrique <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>créer des domaines acceptés à l’adresse.
+    > Le domaine doit également être configuré comme domaine accepté et faisant autorité dans vos paramètres Exchange Online. Pour plus d’informations, consultez la rubrique créer des domaines acceptés à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .
 
     
     </div>

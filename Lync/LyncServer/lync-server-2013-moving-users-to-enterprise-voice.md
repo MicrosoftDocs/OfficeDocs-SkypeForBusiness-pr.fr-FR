@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507051"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Transfert d’utilisateurs vers voix entreprise dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Transfert d’utilisateurs vers voix entreprise dans Lync Server 2013
+
 
 </div>
 
@@ -161,7 +163,7 @@ Pour plus d’informations sur la planification des itinéraires d’appels, con
 
 <div>
 
-## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Étape 6. Configurer un PBX ou une jonction SIP pour réacheminer les appels pour les utilisateurs de voix entreprise
+## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Étape 6. Configurer un PBX ou une jonction SIP pour réacheminer les appels pour les utilisateurs de voix entreprise
 
 Les utilisateurs qui étaient auparavant hébergés sur un système PBX traditionnel ou une connexion de jonction SIP auprès d’un fournisseur de services de téléphonie Internet conservent leurs numéros de téléphone après le déplacement. Le seul besoin est qu’après le déplacement, le PBX ou la jonction SIP doit être reconfigurée pour acheminer les appels entrants pour les utilisateurs voix entreprise vers le serveur de médiation.
 
@@ -175,7 +177,7 @@ Le déplacement d’utilisateurs vers la messagerie unifiée Exchange comprend l
 
   - Configurez la messagerie unifiée Exchange et Lync Server pour qu’ils fonctionnent ensemble.
 
-  - Activer les utilisateurs pour le répondeur automatique de la messagerie unifiée Exchange et Outlook Voice Access. Cette tâche est effectuée sur le serveur de messagerie unifiée Exchange. Pour plus d’informations, reportez-vous à [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)la bibliothèque TechNet Exchange Server 2010 à l’adresse.
+  - Activer les utilisateurs pour le répondeur automatique de la messagerie unifiée Exchange et Outlook Voice Access. Cette tâche est effectuée sur le serveur de messagerie unifiée Exchange. Pour plus d’informations, reportez-vous à la bibliothèque TechNet Exchange Server 2010 à l’adresse [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) .
 
 </div>
 

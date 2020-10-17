@@ -12,20 +12,22 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571dba317998af4fe19f7d2dfd1677d3691f278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505541"
 ---
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure réseau pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure réseau pour Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ La configuration réseau requise pour l’audio/vidéo (A/V) dans un déploiemen
     
 
     > [!IMPORTANT]  
-    > Si vous avez un pool de serveurs Edge et que vous utilisez un programme d’équilibrage de la charge matérielle, vous devez utiliser des adresses IP publiques sur chaque serveur Edge et vous ne pouvez pas utiliser la traduction d’adresses réseau pour les serveurs ou le pool sur votre périphérique NAT (par exemple, le pare-feu ou un autre périphérique d’infrastructure qui serait Inbou trafic ND ou trafic sortant). Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports-serveur Edge consolidé ajusté avec des programmes d’équilibrage de la charge matérielle dans Lync Server 2013</A> dans la documentation sur la planification de l’accès des utilisateurs externes.
+    > Si vous disposez d’un pool de serveurs Edge et que vous utilisez un programme d’équilibrage de la charge matérielle, vous devez utiliser des adresses IP publiques sur chaque serveur Edge et vous ne pouvez pas utiliser le protocole NAT pour les serveurs ou le pool sur votre périphérique NAT (par exemple, le pare-feu ou un autre périphérique d’infrastructure qui doit NAT le trafic entrant ou sortant). Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports-serveur Edge consolidé ajusté avec des programmes d’équilibrage de la charge matérielle dans Lync Server 2013</A> dans la documentation sur la planification de l’accès des utilisateurs externes.
 
     
     </div>
@@ -70,7 +72,7 @@ Pour garantir une qualité des médias optimale, procédez comme suit :
 
   - Configurez vos liens réseau pour qu’ils prennent en charge un débit de 65 kilobits par seconde (Kbits/s) par flux audio et 500 Kbits/s par flux vidéo, s’ils sont activés, pendant les périodes d’utilisation maximale. Une session audio ou vidéo bidirectionnelle est composée de deux flux.
 
-  - Pour faire face à des pics inattendus dans le trafic au-dessus de ce niveau et une utilisation accrue au fil du temps, les points de terminaison Lync Server Media peuvent s’adapter à des conditions de réseau variables et prendre en charge des charges de trois fois le débit (voir paragraphe précédent) pour l’audio et la vidéo, tout en restant conservation de la qualité acceptable. Toutefois, ne partez pas du principe que cette adaptabilité prend en charge un réseau sous-configuré. Dans un réseau sous-configuré, la capacité des points de terminaison multimédia Lync Server à traiter dynamiquement des conditions réseau variables (par exemple, une perte de paquets élevée temporaire) est réduite.
+  - Pour faire face à des pics inattendus dans le trafic au-dessus de ce niveau et une utilisation accrue au fil du temps, les points de terminaison Lync Server Media peuvent s’adapter à des conditions de réseau variables et prendre en charge des charges de trois fois le débit (voir paragraphe précédent) pour l’audio et la vidéo tout en conservant une qualité acceptable. Toutefois, ne partez pas du principe que cette adaptabilité prend en charge un réseau sous-configuré. Dans un réseau sous-configuré, la capacité des points de terminaison multimédia Lync Server à traiter dynamiquement des conditions réseau variables (par exemple, une perte de paquets élevée temporaire) est réduite.
 
   - Pour les liaisons réseau où la mise en service est extrêmement coûteuse et difficile, vous devrez peut-être envisager la mise en service d’un volume de trafic inférieur. Dans ce scénario, l’élasticité des points de terminaison de Lync Server Media absorbe la différence entre le volume de trafic et le niveau de trafic maximal, au prix d’une réduction de la qualité de la voix. De plus, il y a une diminution de la hauteur suffisante autrement pour absorber les pics soudains dans le trafic.
 

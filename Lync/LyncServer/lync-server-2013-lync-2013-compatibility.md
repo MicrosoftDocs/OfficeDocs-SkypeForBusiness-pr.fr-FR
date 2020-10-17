@@ -12,20 +12,22 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19563b36f874bb3a13e1af897ed9ef41d31b4e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0af6d5d11494e24ecf54dd2ff06cbee9011814e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507251"
 ---
+# <a name="lync-2013-compatibility"></a>Compatibilité Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-2013-compatibility"></a>Compatibilité Lync 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Le tableau suivant décrit les fonctionnalités Lync 2013 prises en charge par d
 <th>Microsoft Office 2003 avec Service Pack 3 (SP3) (requis) ou le Service Pack le plus récent (recommandé)</th>
 <th>Microsoft Office 2007</th>
 <th>Microsoft Office 2010</th>
-<th>Microsoft Office 2013</th>
+<th>Microsoft Office 2013</th>
 </tr>
 </thead>
 <tbody>
@@ -184,7 +186,7 @@ Les fonctionnalités suivantes sont disponibles uniquement avec Office 2010 ou O
 
   - Répondre avec un message instantané ou un appel à partir du ruban Accueil d’Outlook dans les dossiers Courrier, Calendrier, Contacts et Tâches
 
-  - Liste de contacts Lync dans la barre des tâches d’Outlook
+  - Liste de contacts Lync dans la barre de To-Do Outlook
 
   - Statut de présence Office Backstage (onglet Fichier), partage de programmes et transfert de fichiers
 
@@ -215,7 +217,7 @@ Le tableau suivant décrit la prise en charge de Lync 2013 pour les différentes
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Exchange Server 2013</p></td>
+<td><p>Exchange Server 2013</p></td>
 <td><p>Identique à la prise en charge d’Exchange Server 2010, avec l’ajout d’un magasin de contacts unifié, des images haute résolution et l’intégration de l’archivage.</p>
 <div>
 

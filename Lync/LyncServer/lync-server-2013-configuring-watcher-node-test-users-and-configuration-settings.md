@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507521"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configuration des utilisateurs test de nœud observateur et des paramètres de configuration dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configuration des utilisateurs test de nœud observateur et des paramètres de configuration dans Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Cette section traite des sujets suivants :
 
 ## <a name="configuring-test-user-accounts"></a>Configuration de comptes d’utilisateurs tests
 
-Les utilisateurs test n’ont pas besoin de représenter des personnes réelles, mais ils doivent être des comptes de services de domaine Active Directory valides ; en outre, ces comptes doivent être activés pour Lync Server 2013, ils doivent avoir des adresses SIP valides, et ils doivent être activés pour voix entreprise (pour utiliser la transaction synthétique test-CsPstnPeerToPeerCall). Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et ont été configurés comme indiqué dans cet article. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester.
+Les utilisateurs test n’ont pas besoin de représenter des personnes réelles, mais ils doivent être des comptes de services de domaine Active Directory valides ; en outre, ces comptes doivent être activés pour Lync Server 2013, ils doivent avoir des adresses SIP valides, et ils doivent être activés pour voix entreprise (pour utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et ont été configurés comme indiqué dans cet article. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester.
 
 Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser la cmdlet **Set-applet cstestusercredential** et Lync Server Management Shell pour permettre à ces comptes de test de fonctionner avec les transactions synthétiques. Pour ce faire, vous pouvez exécuter une commande semblable à la suivante. (Ces commandes partent du principe que les trois comptes d’utilisateur Active Directory ont déjà été créés et que ces comptes ont été activés pour Lync Server 2013.) :
 
@@ -67,7 +69,7 @@ Si vous utilisez la méthode d’authentification Negotiate, vous devez égaleme
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Notez que vous devez inclure non seulement l’adresse SIP, mais également le nom d’utilisateur et le mot de passe. Si vous omettez le mot de passe, Set-CsTestUserCredential vous invitera à entrer ces informations. Le nom d’utilisateur peut être spécifié à l’aide\\du format nom d’utilisateur du nom de domaine indiqué ci-dessus ou en utilisant le format utilisateur Name@domain nom ; par exemple :
+Notez que vous devez inclure non seulement l’adresse SIP, mais également le nom d’utilisateur et le mot de passe. Si vous omettez le mot de passe, Set-CsTestUserCredential vous invitera à entrer ces informations. Le nom d’utilisateur peut être spécifié à l’aide du format nom d’utilisateur du nom de domaine \\ indiqué ci-dessus, ou en utilisant le format nom d’utilisateur Name@domain, par exemple :
 
     -UserName "watcher3@litwareinc.com"
 
@@ -119,7 +121,7 @@ Pour tester plusieurs stratégies de voix, vous devez créer un test étendu pou
 
 Si New-CsWatcherNodeConfiguration est appelée sans utiliser le paramètre Tests, cela signifie que seules les transactions synthétiques par défaut (et la transaction synthétique étendue spécifiée) seront activées pour le nouveau nœud observateur. Dans ce cas, le nœud observateur testera les composants suivants :
 
-  - Son
+  - Registration
 
   - IM (Messagerie instantanée)
 

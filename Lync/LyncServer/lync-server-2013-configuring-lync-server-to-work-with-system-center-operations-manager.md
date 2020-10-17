@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188367"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506231"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Configuration de Lync Server 2013 pour qu’il fonctionne avec System Center Operations Manager
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Configuration de Lync Server 2013 pour qu’il fonctionne avec System Center Operations Manager
+
 
 </div>
 
@@ -43,7 +45,7 @@ Pour configurer votre infrastructure Microsoft Lync Server 2013 afin qu’elle f
 
   - Identifiez et configurez les ordinateurs Lync Server que vous souhaitez surveiller. Pour surveiller un ordinateur Lync Server à l’aide de System Center Operations Manager, vous devez installer les fichiers de l’agent System Center Operations Manager et configurer chaque serveur comme proxy.
 
-  - Identifiez et configurez les ordinateurs que vous souhaitez utiliser comme *nœuds*de Lync Server Watcher. Les nœuds observateurs sont des ordinateurs qui exécutent régulièrement des transactions synthétiques de Lync Server, qui sont des applets de commande Windows PowerShell qui vérifient que les principaux composants de Lync Server, tels que la capacité à se connecter au système ou la possibilité d’échanger des messages instantanés sont travail comme prévu.
+  - Identifiez et configurez les ordinateurs que vous souhaitez utiliser comme *nœuds*de Lync Server Watcher. Les nœuds observateurs sont des ordinateurs qui exécutent régulièrement des transactions synthétiques de Lync Server, qui sont des applets de commande Windows PowerShell qui vérifient que les principaux composants de Lync Server, tels que la possibilité de se connecter au système ou la possibilité d’échanger des messages instantanés fonctionnent comme prévu.
 
 Les rubriques de cette section contiennent des instructions pour l’exécution de chacune de ces tâches.
 

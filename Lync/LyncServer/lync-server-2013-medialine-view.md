@@ -12,20 +12,22 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21fa89b5afe53937ee515dac45053dbd84ae12ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1b8cac172b4973f86916269585d2d9b02cdc728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505731"
 ---
+# <a name="medialine-view-in-lync-server-2013"></a>Vue MediaLine dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-view-in-lync-server-2013"></a>Vue MediaLine dans Lync Server 2013
+
 
 </div>
 
@@ -260,7 +262,7 @@ La vue MediaLine stocke des informations sur chaque ligne de média dans la base
 <td><p>Bande passante effectivement appliquée au flux côté envoi d’après différents paramètres de stratégie (TURN, API, SDP, serveur de stratégie, etc). À ne pas confondre avec la bande passante effective car il peut exister une bande passante effective plus basse basée sur l’estimation de la bande passante. Il s’agit en fait de la bande passante maximale pouvant être traitée par le flux d’envoi en ne tenant pas compte des limites imposées par l’estimation de la bande passante.</p></td>
 </tr>
 <tr class="even">
-<td><p>Table appliedbandwidthsource</p></td>
+<td><p>AppliedBandwidthSource</p></td>
 <td><p>varchar (256)</p></td>
 <td><p>Source de la capacité de bande passante imposée. Elle décrit l’origine de la limite de la bande passante (par exemple, « Serveur de stratégie », « Serveur TURN » ou « Modalité »).</p></td>
 </tr>

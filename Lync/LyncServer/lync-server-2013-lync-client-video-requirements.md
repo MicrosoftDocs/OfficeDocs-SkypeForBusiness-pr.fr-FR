@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506061"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Configuration requise pour la vidéo client Lync pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Configuration requise pour la vidéo client Lync pour Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync 2013 introduit l’accélération matérielle pour le codage et le décodag
 <div>
 
 > [!NOTE]  
-> Pour plus d’informations sur les modes de <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>décodage, voir.
+> Pour plus d’informations sur les modes de décodage, voir <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> .
 
 
 </div></td>
@@ -122,7 +124,7 @@ En règle générale, quatre facteurs principaux déterminent les capacités d�
 
   - Indice de performance Windows (WEI)
 
-L’Outil d’évaluation système Windows (WinSAT) détermine l’indice WEI. Lorsque vous exécutez l’outil WinSAT, il génère un document XML formel. Assessment sur l’ordinateur dans le répertoire%\\windir\\%\\WinSAT datastore. Ce fichier XML contient les deux scores suivants qui sont essentiels pour déterminer les capacités d’encodage et de décodage :
+L’Outil d’évaluation système Windows (WinSAT) détermine l’indice WEI. Lorsque vous exécutez l’outil WinSAT, il génère un document XML formel. Assessment sur l’ordinateur dans le répertoire% windir% \\ \\ WinSAT \\ datastore. Ce fichier XML contient les deux scores suivants qui sont essentiels pour déterminer les capacités d’encodage et de décodage :
 
   - La valeur VideoEncodeScore indique la capacité d’encodage vidéo logiciel de l’ordinateur.
 
@@ -179,7 +181,7 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 <tr class="odd">
 <td><p>1920x1080</p></td>
 <td><p>1920x1080</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 </tr>
 </tbody>
 </table>
