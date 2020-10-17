@@ -1,5 +1,6 @@
 ---
 title: Prise en charge des connexions SIP directes pour Lync Server 2013
+description: Prise en charge des connexions SIP directes de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e500c26bac526998329843302aee68d34042bad5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 32461cbfd5b1e6371fee3fc92467c8430227f48c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519961"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559690"
 ---
-# <a name="direct-sip-connections-support-in-lync-server-2013"></a><span data-ttu-id="04b48-102">Prise en charge des connexions SIP directes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04b48-102">Direct SIP connections support in Lync Server 2013</span></span>
+# <a name="direct-sip-connections-support-in-lync-server-2013"></a><span data-ttu-id="23934-103">Prise en charge des connexions SIP directes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23934-103">Direct SIP connections support in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48519961"
 
 <span> </span>
 
-<span data-ttu-id="04b48-103">_**Dernière modification de la rubrique :** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="04b48-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="23934-104">_**Dernière modification de la rubrique :** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="23934-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="04b48-104">Lync Server 2013 prend en charge l’utilisation de connexions SIP directes pour connecter Lync Server 2013 à l’un des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="04b48-104">Lync Server 2013 supports the use of direct SIP connections to connect Lync Server 2013 to either of the following:</span></span>
+<span data-ttu-id="23934-105">Lync Server 2013 prend en charge l’utilisation de connexions SIP directes pour connecter Lync Server 2013 à l’un des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="23934-105">Lync Server 2013 supports the use of direct SIP connections to connect Lync Server 2013 to either of the following:</span></span>
 
-  - <span data-ttu-id="04b48-105">Un PBX IP</span><span class="sxs-lookup"><span data-stu-id="04b48-105">An IP-PBX</span></span>
+  - <span data-ttu-id="23934-106">Un PBX IP</span><span class="sxs-lookup"><span data-stu-id="23934-106">An IP-PBX</span></span>
 
-  - <span data-ttu-id="04b48-106">Une passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="04b48-106">A PSTN gateway</span></span>
+  - <span data-ttu-id="23934-107">Une passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="23934-107">A PSTN gateway</span></span>
 
-<span data-ttu-id="04b48-107">Les serveurs de médiation d’un pool Lync Server 2013 peuvent contrôler plusieurs passerelles, des contrôleurs de frontière de session (SBC) fournis par des fournisseurs de service de téléphonie ou une combinaison de ces derniers.</span><span class="sxs-lookup"><span data-stu-id="04b48-107">The Mediation Servers in a Lync Server 2013 pool can control multiple gateways, Session Border Controllers (SBCs) provided by telephony service providers, or some combination thereof.</span></span> <span data-ttu-id="04b48-108">En outre, plusieurs serveurs de médiation d’un pool peuvent interagir avec une seule passerelle.</span><span class="sxs-lookup"><span data-stu-id="04b48-108">Additionally, multiple Mediation Servers in the pool can interact with a single gateway.</span></span>
+<span data-ttu-id="23934-108">Les serveurs de médiation d’un pool Lync Server 2013 peuvent contrôler plusieurs passerelles, des contrôleurs de frontière de session (SBC) fournis par des fournisseurs de service de téléphonie ou une combinaison de ces derniers.</span><span class="sxs-lookup"><span data-stu-id="23934-108">The Mediation Servers in a Lync Server 2013 pool can control multiple gateways, Session Border Controllers (SBCs) provided by telephony service providers, or some combination thereof.</span></span> <span data-ttu-id="23934-109">En outre, plusieurs serveurs de médiation d’un pool peuvent interagir avec une seule passerelle.</span><span class="sxs-lookup"><span data-stu-id="23934-109">Additionally, multiple Mediation Servers in the pool can interact with a single gateway.</span></span>
 
-<span data-ttu-id="04b48-109">Vous pouvez utiliser Microsoft Unified Communications Open Interoperability Program pour permettre à l’infrastructure de téléphonie d’entreprise de rechercher des passerelles PSTN, des systèmes PBX IP et des services de jonction SIP qualifiés.</span><span class="sxs-lookup"><span data-stu-id="04b48-109">You can use the Microsoft Unified Communications Open Interoperability Program for enterprise telephony infrastructure to find qualified PSTN gateways, IP-PBXs, and SIP trunking services.</span></span> <span data-ttu-id="04b48-110">Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open Interoperability Program à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) .</span><span class="sxs-lookup"><span data-stu-id="04b48-110">For details, see the Microsoft Unified Communications Open Interoperability Program website at [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).</span></span>
+<span data-ttu-id="23934-110">Vous pouvez utiliser Microsoft Unified Communications Open Interoperability Program pour permettre à l’infrastructure de téléphonie d’entreprise de rechercher des passerelles PSTN, des systèmes PBX IP et des services de jonction SIP qualifiés.</span><span class="sxs-lookup"><span data-stu-id="23934-110">You can use the Microsoft Unified Communications Open Interoperability Program for enterprise telephony infrastructure to find qualified PSTN gateways, IP-PBXs, and SIP trunking services.</span></span> <span data-ttu-id="23934-111">Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open Interoperability Program à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) .</span><span class="sxs-lookup"><span data-stu-id="23934-111">For details, see the Microsoft Unified Communications Open Interoperability Program website at [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).</span></span>
 
-<span data-ttu-id="04b48-111">Pour plus d’informations sur les options de topologie et de déploiement pour les connexions SIP directes, voir [connexions SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-connections.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="04b48-111">For details about the topology and deployment options for direct SIP connections, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) in the Planning documentation.</span></span>
+<span data-ttu-id="23934-112">Pour plus d’informations sur les options de topologie et de déploiement pour les connexions SIP directes, voir [connexions SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-connections.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="23934-112">For details about the topology and deployment options for direct SIP connections, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) in the Planning documentation.</span></span>
 
 </div>
 

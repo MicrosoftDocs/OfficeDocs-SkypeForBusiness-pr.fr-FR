@@ -1,5 +1,6 @@
 ---
 title: Outils Lync Server 2013
+description: Outils Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 660ebbadcd0de35eead3b2f2c783c73c42e4b026
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 86c239fbb198fec59fefd3c6fc9ed06eb52c6f8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509151"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560120"
 ---
-# <a name="lync-server-2013-tools"></a><span data-ttu-id="ca82c-102">Outils Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca82c-102">Lync Server 2013 Tools</span></span>
+# <a name="lync-server-2013-tools"></a><span data-ttu-id="5c44a-103">Outils Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c44a-103">Lync Server 2013 Tools</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48509151"
 
 <span> </span>
 
-<span data-ttu-id="ca82c-103">_**Dernière modification de la rubrique :** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="ca82c-103">_**Topic Last Modified:** 2013-03-14_</span></span>
+<span data-ttu-id="5c44a-104">_**Dernière modification de la rubrique :** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="5c44a-104">_**Topic Last Modified:** 2013-03-14_</span></span>
 
-<span data-ttu-id="ca82c-104">Les outils suivants sont disponibles pour Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="ca82c-104">The following tools are available for Lync Server 2013:</span></span>
+<span data-ttu-id="5c44a-105">Les outils suivants sont disponibles pour Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="5c44a-105">The following tools are available for Lync Server 2013:</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ca82c-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ca82c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5c44a-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5c44a-106">In This Section</span></span>
 
-[<span data-ttu-id="ca82c-106">Outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca82c-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
+[<span data-ttu-id="5c44a-107">Outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c44a-107">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
 
-[<span data-ttu-id="ca82c-107">Documentation sur les outils du kit de ressources Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca82c-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
+[<span data-ttu-id="5c44a-108">Documentation sur les outils du kit de ressources Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c44a-108">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
 
-[<span data-ttu-id="ca82c-108">Outils du kit de ressources de conversation permanente Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca82c-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
+[<span data-ttu-id="5c44a-109">Outils du kit de ressources de conversation permanente Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c44a-109">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
 
 </div>
 
