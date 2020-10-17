@@ -12,20 +12,22 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78332e2fa24c4f718cb3cdb3cbc9dc93a03601d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4bb2be4efad0467efafca88da8e0e1e627addb21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188027"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508241"
 ---
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferts d’appels et transfert d’appel dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferts d’appels et transfert d’appel dans Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42188027"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Lorsqu’un point de terminaison PSTN est impliqué, le routage géodépendant analyse l’emplacement du point de terminaison du Calle et le point de terminaison vers lequel l’appel sera transféré ou transféré (c.-à-d. cible de transfert/transfert). Routage géodépendant détermine si l’appel doit être transféré ou transféré en fonction de l’emplacement des deux points de terminaison.
+Lorsqu’un point de terminaison PSTN est impliqué, Location-Based routage analyse l’emplacement du point de terminaison du Calle et le point de terminaison vers lequel l’appel sera transféré ou transféré (c.-à-d. cible de transfert/transfert). Location-Based le routage détermine si l’appel doit être transféré ou transféré en fonction de l’emplacement des deux points de terminaison.
 
-Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel avec un point de terminaison PSTN, et l’utilisateur Lync transfère l’appel vers un autre utilisateur Lync. En fonction de l’emplacement du site réseau du point de terminaison du cessionnaire, le routage géodépendant a une incidence sur le routage du transfert d’appel ou vers l’aval.
+Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel avec un point de terminaison PSTN, et l’utilisateur Lync transfère l’appel vers un autre utilisateur Lync. En fonction de l’emplacement du site réseau du point de terminaison du cessionnaire, Location-Based routage affecte le routage du transfert d’appel ou vers l’aval.
 
 ### <a name="initiating-call-transfer-or-forward"></a>Lancement du transfert ou du transfert d’appel
 
@@ -55,7 +57,7 @@ Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel a
 <th>Utilisateur lançant le transfert/transfert d’appel</th>
 <th>Le point de terminaison cible se trouve dans le même site réseau que l’utilisateur à l’origine du transfert ou du transfert d’appel</th>
 <th>Le point de terminaison cible se trouve dans un autre site réseau que l’utilisateur à l’origine du transfert ou du transfert d’appel</th>
-<th>Le point de terminaison cible se trouve dans un site réseau inconnu ou le site réseau n’est pas activé pour le routage géodépendant</th>
+<th>Le point de terminaison cible se trouve dans un site réseau inconnu ou le site réseau n’est pas activé pour le routage de Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -72,7 +74,7 @@ Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel a
 
 Par exemple : un utilisateur Lync dans un appel avec un point de terminaison PSTN transfère l’appel vers un autre utilisateur Lync qui se trouve dans le même site réseau. Dans ce cas, le transfert d’appel est autorisé.
 
-Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel avec un autre utilisateur Lync, et l’un des utilisateurs transfère l’appel vers un point de terminaison PSTN. En fonction de l’emplacement de l’utilisateur vers lequel l’appel est transféré, le tableau explique en détail comment le routage géodépendant affecte l’appel.
+Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel avec un autre utilisateur Lync, et l’un des utilisateurs transfère l’appel vers un point de terminaison PSTN. En fonction de l’emplacement de l’utilisateur vers lequel l’appel est transféré, le tableau explique en détail comment Location-Based routage affecte l’appel.
 
 ### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Transfert d’appel ou transfert vers le point de terminaison PSTN
 
@@ -88,7 +90,7 @@ Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel a
 <th>Cible de point de terminaison/transfert d’appel</th>
 <th>Utilisateurs Lync dans le même site réseau</th>
 <th>Utilisateurs Lync dans différents sites réseau</th>
-<th>Un ou les deux utilisateurs Lync dans un site réseau inconnu ou un site réseau non activé pour le routage géodépendant</th>
+<th>Un ou plusieurs utilisateurs Lync dans un site réseau inconnu ou un site réseau n’est pas activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +98,7 @@ Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel a
 <td><p>Point de terminaison PSTN</p></td>
 <td><p>Transfert d’appel ou transfert autorisé par la stratégie de routage des communications vocales du site de l’utilisateur transféré</p></td>
 <td><p>Transfert d’appel ou transfert autorisé par la stratégie de routage des communications vocales du site de l’utilisateur transféré</p></td>
-<td><p>Transfert d’appel ou transfert autorisé par la stratégie de voix de l’utilisateur transféré uniquement via des jonctions non activées pour le routage géodépendant</p></td>
+<td><p>Le transfert d’appel ou le transfert d’appel est autorisé par la stratégie de voix de l’utilisateur transféré uniquement via des jonctions non activées pour le routage de Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +111,7 @@ Par exemple : un utilisateur Lync dans un appel avec un autre utilisateur Lync 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Scénarios de routage des Location-Based dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

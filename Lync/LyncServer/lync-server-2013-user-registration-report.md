@@ -12,20 +12,22 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd7ff808b766d7366e39595a46d1a2d7dfb75996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c2b17d36756de3db0418fceb85f49535387bd138
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213040"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508711"
 ---
+# <a name="user-registration-report-in-lync-server-2013"></a>Rapport d’enregistrement de l’utilisateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-registration-report-in-lync-server-2013"></a>Rapport d’enregistrement de l’utilisateur dans Lync Server 2013
+
 
 </div>
 
@@ -104,7 +106,7 @@ En plus de connaître le nombre d’ouvertures de session uniques, vous devez co
 
     (Get-CsUser).Count
 
-Si la commande précédente renvoie la valeur 1 236 et que la mesure utilisateurs uniques de l’ouverture de session renvoie une valeur moyenne de 667, cela indique qu’un peu plus de la moitié de vos utilisateurs permettent à Lync de se connecter en réalité au système chaque jour (667 divisé par 1 236 , soit environ 54%.
+Si la commande précédente renvoie la valeur 1 236 et que la mesure utilisateurs uniques de l’ouverture de session renvoie une valeur moyenne de 667, cela indique qu’un peu plus de la moitié de vos utilisateurs permettent à Lync de se connecter en réalité au système chaque jour (c’est-à-dire, 667 divisé par 1 236, soit environ 54%).
 
 <div>
 
@@ -209,9 +211,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’en
 <tbody>
 <tr class="odd">
 <td><p><strong>Toutes les heures</strong></p>
-<p><strong>Tous les jours</strong></p>
-<p><strong>Toutes les semaines</strong></p>
-<p><strong>Tous les mois</strong></p></td>
+<p><strong>Journalière</strong></p>
+<p><strong>Hebdomadaire</strong></p>
+<p><strong>Mensuelle</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Indique l’intervalle de temps que vous avez sélectionné sur la barre d’outils du filtre. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher les informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 7/7/2012, vous voyez un décompte horaire de l’activité d’enregistrement de l’utilisateur pour cette date.</p></td>
 </tr>

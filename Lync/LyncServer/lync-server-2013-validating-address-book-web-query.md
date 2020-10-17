@@ -12,20 +12,22 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 548ec62a56de829955647a696e33578b9ab3dfd8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ae10fa68703393459a72eaab7236f214502a614
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508551"
 ---
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Validation de la requête Web du carnet d’adresses dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Validation de la requête Web du carnet d’adresses dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsAddressBookWebQuery. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsAddressBookWebQuery. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookWebQuery&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsAddressBookWebQuery permet aux administrateurs de vérifier que les utilisateurs peuvent utiliser le service de requête Web du carnet d’adresses pour rechercher un contact spécifique. Lorsque vous exécutez l’applet de commande, test-CsAddressBookWebQuery se connecte au service de ticket Web pour être authentifié. Si l’authentification réussit, l’applet de commande se connecte au service de requête Web du carnet d’adresses et recherche le contact spécifié. Si ce contact est trouvé, l’applet de commande tente de renvoyer ces informations à l’ordinateur local. Le test sera marqué comme étant une réussite uniquement si toutes ces étapes peuvent être effectuées.
+L’applet de commande Test-CsAddressBookWebQuery permet aux administrateurs de vérifier que les utilisateurs peuvent utiliser le service de requête Web du carnet d’adresses pour rechercher un contact spécifique. Lorsque vous exécutez l’applet de commande, Test-CsAddressBookWebQuery se connectera d’abord au service de ticket Web pour être authentifié. Si l’authentification réussit, l’applet de commande se connecte au service de requête Web du carnet d’adresses et recherche le contact spécifié. Si ce contact est trouvé, l’applet de commande tente de renvoyer ces informations à l’ordinateur local. Le test sera marqué comme étant une réussite uniquement si toutes ces étapes peuvent être effectuées.
 
 Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) .
 
@@ -76,7 +78,7 @@ Pour plus d’informations, reportez-vous à la documentation de l’aide relati
 
 ## <a name="running-the-test"></a>Exécution du test
 
-La cmdlet Test-CsAddressBookWebQuery peut être exécutée à l’aide d’un compte de test préconfiguré (consultez la rubrique Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet du pool Lync Server et l’adresse SIP de l’utilisateur agissant comme cible de la recherche. Par exemple :
+L’applet de commande Test-CsAddressBookWebQuery peut être exécutée à l’aide d’un compte de test préconfiguré (voir Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet du pool Lync Server et l’adresse SIP de l’utilisateur agissant comme cible de la recherche. Par exemple :
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
@@ -95,7 +97,7 @@ Pour plus d’informations, reportez-vous à la documentation de l’aide relati
 
 Si l’utilisateur spécifié peut se connecter au service de carnet d’adresses et récupérer l’adresse de l’utilisateur ciblé, vous obtiendrez un résultat similaire à celui-ci avec la propriété Result marquée comme Success :
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ Diagnostique
 
 Si l’utilisateur spécifié ne peut pas se connecter ou si l’adresse de l’utilisateur cible ne peut pas être récupérée, le résultat s’affiche en panne et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
@@ -123,15 +125,15 @@ NoEntryFound.
 
 Diagnostique
 
-La sortie précédente indique que le test a échoué, car l’utilisateur cible est introuvable. Vous pouvez déterminer si une adresse SIP valide a été transmise à test-CsAddressBookWebQuery en exécutant une commande semblable à la suivante :
+La sortie précédente indique que le test a échoué, car l’utilisateur cible est introuvable. Vous pouvez déterminer si une adresse SIP valide a été transmise à Test-CsAddressBookWebQuery en exécutant une commande semblable à la suivante :
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
-Si test-CsAddressBookWebQuery échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsAddressBookWebQuery échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsAddressBookWebQuery renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cette sortie indique que test-CsAddressBookWebQuery était en mesure de se connecter au service de carnet d’adresses, mais qu’il n’a pas pu trouver l’adresse SIP cible :
+Lorsque le paramètre Verbose est inclus, Test-CsAddressBookWebQuery renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cette sortie indique que Test-CsAddressBookWebQuery a pu se connecter au service de carnet d’adresses, mais qu’il n’a pas été en mesure de trouver l’adresse SIP cible :
 
 Activité « QueryAddressBookWebService » démarrée.
 
@@ -147,7 +149,7 @@ Exception de requête de carnet d’adresses : échec de la demande de service 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsAddressBookWebQuery :
+Voici quelques raisons courantes pour lesquelles Test-CsAddressBookWebQuery peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur non valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     

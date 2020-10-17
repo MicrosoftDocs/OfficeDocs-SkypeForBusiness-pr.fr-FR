@@ -12,20 +12,22 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e8c96c6b4ad5e19abf2d1f41024932c710786cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18666f33becabcbdf61370a32900ae7a4819e0cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191047"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508021"
 ---
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure de certificat pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure de certificat pour Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Pour Lync Server, les exigences communes suivantes s’appliquent :
 
   - Tous les certificats de serveur doivent contenir un point de distribution de liste de révocation de certificats (CDP).
 
-  - Tous les certificats doivent être signés à l’aide d’un algorithme de signature pris en charge par le système d’exploitation. Lync Server 2013 prend en charge la suite SHA-1 et SHA-2 de tailles de condensé (224, 256, 384 et 512 bits) et répond ou dépasse la configuration requise du système d’exploitation. Pour la prise en charge du [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)système d’exploitation, voir.
+  - Tous les certificats doivent être signés à l’aide d’un algorithme de signature pris en charge par le système d’exploitation. Lync Server 2013 prend en charge la suite SHA-1 et SHA-2 de tailles de condensé (224, 256, 384 et 512 bits) et répond ou dépasse la configuration requise du système d’exploitation. Pour la prise en charge du système d’exploitation, voir [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002) .
     
     <div>
     
@@ -80,7 +82,7 @@ Pour Lync Server, les exigences communes suivantes s’appliquent :
 
   - Les longueurs de clés de chiffrement de 1024, 2048 et 4096 sont prises en charge. Les longueurs de clé de 2048 et supérieures sont recommandées.
 
-  - L’algorithme de chiffrement par défaut, ou signature de hachage, est RSA. Les algorithmes ECDH\_P256\_, ECDH P384 et\_ECDH P521 sont également pris en charge. 
+  - L’algorithme de chiffrement par défaut, ou signature de hachage, est RSA. Les \_ algorithmes ECDH P256, ECDH \_ P384 et ECDH \_ P521 sont également pris en charge. 
 
 <div>
 

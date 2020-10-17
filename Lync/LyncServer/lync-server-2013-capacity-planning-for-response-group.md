@@ -12,20 +12,22 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c9d43f6424a8d960ad5d0eee911b2f48455a39d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d89e2882d3f1990a794e103849c1fa705caca98b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508111"
 ---
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planification de la capacité pour Response Group dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planification de la capacité pour Response Group dans Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 </colgroup>
 <thead>
 <tr class="header">
-<th>Liées</th>
+<th>Métrique</th>
 <th>Par pool Enterprise Edition (avec 8 serveurs frontaux)</th>
 <th>Par serveur Standard Edition</th>
 </tr>
@@ -79,7 +81,7 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 <tbody>
 <tr class="odd">
 <td><p>Appels entrants par seconde</p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>n°2</p></td>
 </tr>
 <tr class="even">
@@ -95,7 +97,7 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 <tr class="even">
 <td><p>Sessions anonymes simultanées (avec messagerie instantanée)</p></td>
 <td><p>64</p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Agents actifs (formels et informels)</p></td>

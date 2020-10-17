@@ -12,20 +12,22 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ae9bfa8be276cccc6f31def6fb7014e417841d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23b77f246398ab47002ddef38e804419ffa4f5bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190557"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507611"
 ---
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configuration de la déviation du trafic multimédia dans Lync Server 2013 pour toujours contourner le serveur de médiation
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configuration de la déviation du trafic multimédia dans Lync Server 2013 pour toujours contourner le serveur de médiation
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Dernière modification de la rubrique :** 2013-02-25_
 
 Outre l’activation du contournement de média pour des connexions de jonction individuelles associées à un homologue vers le serveur de médiation, vous devez également configurer les paramètres globaux du contournement de média. Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux pour la déviation du trafic multimédia, il est supposé que vous disposez d’une connexion correcte entre les points de terminaison Lync et tout homologue pour lequel vous avez configuré le contournement de média sur la connexion de jonction.
 
-Si vous n’avez pas une connectivité correcte entre les points de terminaison Lync Server et tous les homologues du serveur de médiation dont les connexions de jonction respectives ont été activées pour la déviation du trafic multimédia, vous devez configurer les paramètres globaux de contournement de média pour utiliser les informations de site et de région lorsque utilisation de la déviation du trafic multimédia. Cela permet de déterminer plus précisément le moment auquel le média contourne le serveur de médiation. Pour ce faire, suivez les étapes décrites dans [configure Media Bypass Global Settings in Lync Server 2013 pour utiliser les informations de site et de région](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) , et [associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) .
+Si vous n’avez pas une connectivité correcte entre les points de terminaison Lync Server et tous les homologues du serveur de médiation dont les connexions de jonction respectives ont été activées pour la déviation du trafic multimédia, vous devez configurer les paramètres globaux de contournement de média pour utiliser les informations de site et de région lors de l’utilisation de la déviation du trafic multimédia. Cela permet de déterminer plus précisément le moment auquel le média contourne le serveur de médiation. Pour ce faire, suivez les étapes décrites dans [configure Media Bypass Global Settings in Lync Server 2013 pour utiliser les informations de site et de région](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) , et [associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) .
 
 <div>
 

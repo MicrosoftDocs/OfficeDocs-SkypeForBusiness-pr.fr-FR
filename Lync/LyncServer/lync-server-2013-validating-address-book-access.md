@@ -12,20 +12,22 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 665ee384afd85c4be5c82182691953e1c78c9659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3344c0a0a4f1992cc9ef67cd14bc2321419307
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508581"
 ---
+# <a name="validating-address-book-access-in-lync-server-2013"></a>Validation de l’accès au carnet d’adresses dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-access-in-lync-server-2013"></a>Validation de l’accès au carnet d’adresses dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsAddressBookService. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsAddressBookService. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookService&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsAddressBookService vous permet de vérifier qu’un utilisateur peut se connecter au service Web de téléchargement du carnet d’adresses. Lorsque vous exécutez l’applet de commande, test-CsAddressBookService se connecte au service Web de téléchargement du carnet d’adresses sur le pool spécifié et demande l’emplacement des fichiers du carnet d’adresses. Si le service Web de téléchargement du carnet d’adresses fournit cet emplacement, le test est considéré comme réussi. Si la demande est rejetée, cela signifie que la vérification a échoué.
+L’applet de commande Test-CsAddressBookService vous permet de vérifier qu’un utilisateur peut se connecter au service Web de téléchargement du carnet d’adresses. Lorsque vous exécutez l’applet de commande, Test-CsAddressBookService se connecte au service Web de téléchargement du carnet d’adresses sur le pool spécifié et demande l’emplacement des fichiers du carnet d’adresses. Si le service Web de téléchargement du carnet d’adresses fournit cet emplacement, le test est considéré comme réussi. Si la demande est rejetée, cela signifie que la vérification a échoué.
 
 </div>
 
@@ -74,7 +76,7 @@ L’applet de commande test-CsAddressBookService vous permet de vérifier qu’u
 
 ## <a name="running-the-test"></a>Exécution du test
 
-La cmdlet Test-CsAddressBookService peut être exécutée à l’aide d’un compte de test préconfiguré (consultez la rubrique Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de n’importe quel utilisateur qui a été activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool Lync Server testé. Par exemple :
+La cmdlet Test-CsAddressBookService peut être exécutée à l’aide d’un compte de test préconfiguré (voir Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de n’importe quel utilisateur qui a été activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool Lync Server testé. Par exemple :
 
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -93,7 +95,7 @@ Pour plus d’informations, reportez-vous à la documentation de l’aide relati
 
 Si l’utilisateur spécifié est en mesure de se connecter au service de carnet d’adresses, vous obtiendrez un résultat similaire à celui-ci, avec la propriété Result marquée comme **Success**:
 
-TargetUrihttps://lync-se.fabrikam.com:443/abs/handler
+TargetUri https://lync-se.fabrikam.com:443/abs/handler
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
@@ -125,23 +127,23 @@ Microsoft. RTC. signalisation. DiagnosticHeader
 
 Par exemple, la sortie précédente indique que le test a échoué, car l’utilisateur spécifié (c’est-à-dire, « l’URI de destination ») n’existe pas ou n’a pas été activé pour Lync Server. Vous pouvez vérifier si un compte d’utilisateur est valide, et vérifier que vous avez fourni l’adresse SIP correcte en exécutant une commande semblable à celle-ci :
 
-Get-CsUser-Identity "sip :kenmyer@litwareinc.com" | Select-Object SipAddress, activé
+Get-CsUser-Identity « sip :kenmyer@litwareinc.com » | Select-Object SipAddress, activé
 
-Si test-CsAddressBookService échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsAddressBookService échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
 Test-CsAddressBookService-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsAddressBookService renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cet exemple de sortie indique que test-CsAddressBookService, au moins dans cet exemple, a pu télécharger le fichier de carnet d’adresses :
+Lorsque le paramètre Verbose est inclus Test-CsAddressBookService renverra un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cet exemple de sortie indique que test-CsAddressBookService, au moins dans cet exemple, a pu télécharger le fichier de carnet d’adresses :
 
 Envoi d’une demande HTTP GET.
 
-Chemin d’accès du fichier =https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Chemin d’accès du fichier = https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 Numéro de tentative = 1
 
 Délai d’expiration (msec) = 60000
 
-Téléchargement du fichier ABS réussihttps://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Téléchargement du fichier ABS réussi https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 </div>
 
@@ -149,7 +151,7 @@ Téléchargement du fichier ABS réussihttps://atl-cs-001.litwareinc.com:443/abs
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsAddressBookService :
+Voici quelques raisons courantes pour lesquelles Test-CsAddressBookService peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur non valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     

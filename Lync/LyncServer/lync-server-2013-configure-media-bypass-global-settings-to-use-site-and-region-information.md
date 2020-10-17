@@ -12,20 +12,22 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ef0d68cc06582339ed066108efa28a7a85bb00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507621"
 ---
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du trafic multimédia dans Lync Server 2013 pour utiliser les informations de site et de région
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du trafic multimédia dans Lync Server 2013 pour utiliser les informations de site et de région
+
 
 </div>
 
@@ -66,7 +68,7 @@ Les informations relatives aux régions du réseau et aux sites réseau sont par
 
 Ou bien suivez ces étapes si vous souhaitez utiliser les informations relatives aux sites et aux régions pour appliquer le contournement de média sans activer le contrôle d’admission des appels. Dans ce cas, les liens limités de bande passante devront toujours être représentés par des stratégies intersite réseau, comme décrit dans [Create Network intersite Policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md). Les contraintes réelles de bande passante ne sont pas aussi importantes dans ce cas, car le contrôle d’admission des appels n’a pas été activé. Ces liaisons servent alors à partitionner les sous-réseaux afin de déterminer ceux qui n’ont aucune limite de bande passante et qui peuvent par conséquent avoir recours au contournement de média. Notez que cela est également vrai lorsque le contrôle d’admission des appels et le contournement de média sont tous les deux activés.
 
-Par ailleurs, pour que le contournement fonctionne correctement, il doit exister une cohérence entre un site défini dans le générateur de topologie et tel qu’il est défini lorsque vous configurez des régions réseau et des sites réseau. Par exemple, si vous disposez d’un site de succursale que vous avez défini dans le générateur de topologie comme n’ayant qu’une passerelle PSTN déployée, ce site de succursale doit être configuré avec une stratégie de voix entreprise qui permet aux utilisateurs de site de succursale d’acheminer leurs appels PSTN via le réseau téléphonique commuté (RTC). passerelle sur le site de succursale.
+Par ailleurs, pour que le contournement fonctionne correctement, il doit exister une cohérence entre un site défini dans le générateur de topologie et tel qu’il est défini lorsque vous configurez des régions réseau et des sites réseau. Par exemple, si vous disposez d’un site de succursale que vous avez défini dans le générateur de topologie comme n’ayant qu’une passerelle PSTN déployée, ce site de succursale doit être configuré avec une stratégie de voix entreprise qui permet aux utilisateurs de site de succursale d’acheminer leurs appels PSTN via la passerelle RTC sur le site de succursale.
 
 <div>
 

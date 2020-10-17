@@ -12,20 +12,22 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3ef2afaa162219d140a4eaef204dc6e1e2ab02
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27fbbc6bb2fe68c2f4bfff91b999934069548d00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509481"
 ---
+# <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-09-12_
 
 tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les dernières étapes de synchronisation Active Directory.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Colonnes
 
 <table>
 <colgroup>

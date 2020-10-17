@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210230"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508521"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Prise en charge de certificat générique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Prise en charge de certificat générique dans Lync Server 2013
+
 
 </div>
 
@@ -52,25 +54,25 @@ Lync Server 2013 utilise des certificats pour le chiffrement des communications 
 Une entrée de certificat n’est pas prise en charge en tant que nom d’objet (aussi appelé nom commun ou CN) pour un rôle donné. Les rôles serveur suivants sont pris en charge lors de l’utilisation d’entrées génériques dans le SAN :
 
   - <span></span>  
-    **Proxy inverse.**    L’entrée San générique est prise en charge pour les certificats de publication d’URL simples (de réunion et de numérotation).
+    **Proxy inverse.**     L’entrée SAN générique est prise en charge pour les certificats de publication d’URL simples (de réunion et de numérotation).
 
   - <span></span>  
-    **Proxy inverse.**    L’entrée San générique est prise en charge pour les entrées San pour LyncDiscover sur le certificat de publication.
+    **Proxy inverse.**     L’entrée SAN générique est prise en charge pour les entrées SAN pour LyncDiscover sur le certificat de publication.
 
   - <span></span>  
-    **Directeur.**    L’entrée San générique est prise en charge pour les URL simples (de réunion et de numérotation) et pour les entrées San pour LyncDiscover et LyncDiscoverInternal dans les composants Web Director.
+    **Directeur.**     L’entrée SAN générique est prise en charge pour les URL simples (de réunion et de numérotation) et pour les entrées SAN pour LyncDiscover et LyncDiscoverInternal dans les composants Web Director.
 
   - <span></span>  
     **Serveur frontal (Standard Edition) et pool frontal (Enterprise Edition).** L’entrée SAN générique est prise en charge pour les URL simples (de réunion et de numérotation) et pour les entrées SAN pour LyncDiscover et LyncDiscoverInternal dans les composants Web frontaux.
 
   - <span></span>  
-    **Messagerie unifiée Exchange.**    Le serveur n’utilise pas les entrées San lorsqu’il est déployé en tant que serveur autonome.
+    **Messagerie unifiée Exchange.**     Le serveur n’utilise pas les entrées SAN lorsqu’il est déployé en tant que serveur autonome.
 
   - <span></span>  
-    **Serveur d’accès au client Microsoft Exchange Server.**    Les entrées de caractères génériques dans le San sont prises en charge pour les clients internes et externes.
+    **Serveur d’accès au client Microsoft Exchange Server.**     Les entrées de caractères génériques dans le SAN sont prises en charge pour les clients internes et externes.
 
   - <span></span>  
-    **Messagerie unifiée Exchange et serveur d’accès au client Microsoft Exchange Server sur le même serveur.**    Les entrées San génériques sont prises en charge.
+    **Messagerie unifiée Exchange et serveur d’accès au client Microsoft Exchange Server sur le même serveur.**     Les entrées SAN génériques sont prises en charge.
 
 Rôles serveur non traités dans ce chapitre :
 

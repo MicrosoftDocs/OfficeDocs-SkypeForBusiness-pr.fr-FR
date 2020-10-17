@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509651"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Configuration de l’authentification Kerberos dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Configuration de l’authentification Kerberos dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200560"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Lync Server 2013 prend en charge l’authentification NTLM et l’authentification Kerberos pour les services Web. Office Communications Server 2007 et Office Communications Server 2007 R2 utilisaient le RTCComponentService et le RTCService par défaut comme comptes d’utilisateur pour exécuter les pools d’applications des services Web, ce qui permet d’attribuer un nom de principal du service (SPN) à l’utilisateur Accounts et agir en tant que principal d’authentification. Lync Server utilise NetworkService pour exécuter les services Web et NetworkService ne peut pas avoir de noms principaux de service.
+Lync Server 2013 prend en charge l’authentification NTLM et l’authentification Kerberos pour les services Web. Office Communications Server 2007 et Office Communications Server 2007 R2 utilisaient le RTCComponentService et le RTCService par défaut comme comptes d’utilisateur pour exécuter les pools d’applications des services Web, ce qui permet d’affecter un nom de principal du service (SPN) aux comptes d’utilisateur et d’agir en tant que principal d’authentification. Lync Server utilise NetworkService pour exécuter les services Web et NetworkService ne peut pas avoir de noms principaux de service.
 
 Pour résoudre le problème de non-utilisation d’objets Active Directory pour conserver les SPN, le panneau de configuration Lync Server peut utiliser des objets de compte d’ordinateur à cet effet. Les objets de compte d’ordinateur peuvent contenir les noms principaux de domaine et ne font pas l’objet d’une expiration de mot de passe, ce qui était un problème lors de l’utilisation de comptes d’utilisateur dans les versions précédentes.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02bbebae55504fcc27550bae3b90d7fca662a487
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 299d4c6d5b8a8cd53cee9fdae0a38769a535b118
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508841"
 ---
+# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Création ou modification d’une règle de normalisation à l’aide de la création d’une règle de normalisation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Création ou modification d’une règle de normalisation à l’aide de la création d’une règle de normalisation dans Lync Server 2013
+
 
 </div>
 
@@ -55,25 +57,25 @@ Pour créer ou modifier une règle de normalisation dans le panneau de configura
 
 6.  Dans **Créer une règle de normalisation**, entrez les valeurs dans les champs suivants :
     
-      - **Chiffres de départ**   (facultatif) Spécifiez les chiffres de début des numéros composés que le modèle doit respecter. Par exemple, tapez **425** si vous souhaitez que le modèle suive les numéros composés commençant par 425.
+      - **Chiffres**     de début Module Spécifiez les chiffres de début des numéros composés que le modèle doit respecter. Par exemple, tapez **425** si vous souhaitez que le modèle suive les numéros composés commençant par 425.
     
-      - **Longueur**   spécifiez le nombre de chiffres dans le modèle de correspondance et indiquez si vous souhaitez que le modèle corresponde exactement à cette longueur, mettez en correspondance les numéros composés de cette longueur ou les numéros composés de n’importe quelle longueur.
+      - **Longueur**     Spécifiez le nombre de chiffres dans le modèle de correspondance et indiquez si vous souhaitez que le modèle corresponde exactement à cette longueur, mettez en correspondance les numéros composés qui ont au moins cette longueur ou qui correspondent à des numéros de n’importe quelle longueur.
     
-      - **Chiffres à supprimer**   (facultatif) Spécifiez le nombre de chiffres de début à supprimer des numéros composés que le modèle doit respecter.
+      - **Chiffres à supprimer**     Module Spécifiez le nombre de chiffres de début à supprimer des numéros composés que le modèle doit respecter.
     
-      - **Chiffres à ajouter**   (facultatif) Spécifiez les chiffres à ajouter aux numéros composés que le modèle doit respecter.
+      - **Chiffres à ajouter**     Module Spécifiez les chiffres à ajouter aux numéros composés que le modèle doit respecter.
     
     Les valeurs que vous entrez dans ces champs apparaissent dans **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous laissez vide le champ **Chiffres de début**, tapez **7** dans le champ **Longueur** et sélectionnez **Exactement**, puis spécifiez **0** dans le champ **Chiffres à supprimer**, l’expression régulière obtenue dans **Modèle à suivre** est :
     
-    **^ (\\d{7}) $**
+    **^ ( \\ d {7} ) $**
 
 7.  Dans **Règle de traduction**, spécifiez comme suit le modèle du format des numéros de téléphone E.164 traduits :
     
-      - Une valeur qui représente le nombre de chiffres spécifiés dans le modèle à suivre. Par exemple, si le modèle de correspondance est **^\\({7}d) $** Then **$1** dans la règle de conversion, représente les numéros composés à 7 chiffres.
+      - Une valeur qui représente le nombre de chiffres spécifiés dans le modèle à suivre. Par exemple, si le modèle de correspondance est **^ ( \\ d {7} ) $** Then **$1** dans la règle de conversion, représente les numéros composés à 7 chiffres.
     
       - (Optionnel) Entrez une valeur dans le champ **Chiffres à ajouter** pour spécifier les chiffres à ajouter au numéro traduit (par exemple **+1425**).
     
-    Par exemple, si le modèle **à faire correspondre** contient **\\^{7}(d) $** comme modèle pour les numéros composés et que la **règle de traduction** contient **+ 1425 $1** comme modèle pour les numéros de téléphone E. 164, la règle normalise 5550100 à + 14255550100.
+    Par exemple, si le modèle **à faire correspondre** contient **^ ( \\ d {7} ) $** comme modèle pour les numéros composés et que la **règle de traduction** contient **+ 1425 $1** comme modèle pour les numéros de téléphone E. 164, la règle normalise 5550100 à + 14255550100.
 
 8.  (Optionnel) Si la règle de normalisation se traduit par un numéro de téléphone interne à votre entreprise, sélectionnez **Poste interne**.
 

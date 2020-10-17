@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213050"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508731"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Modèles utilisateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Modèles utilisateur dans Lync Server 2013
+
 
 </div>
 
@@ -153,7 +155,7 @@ Le tableau suivant décrit le modèle utilisateur pour l’enregistrement, les c
 <td><p>Sessions de messagerie instantanée d’égal à égal</p></td>
 <td><p>En moyenne, chaque utilisateur ouvre six sessions de messagerie instantanée d’égal à égal par jour.</p>
 <p>10 messages instantanés par session.</p>
-<p>Chaque message est mis en correspondance avec deux messages SIP INFO et 2 messages SIP 200 OK (pour les indicateurs de statut tels&lt;que&gt; « typage »)</p></td>
+<p>Chaque message est mis en correspondance avec deux messages SIP INFO et 2 messages SIP 200 OK (pour les indicateurs de statut tels que « &lt; &gt; typage »)</p></td>
 </tr>
 <tr class="even">
 <td><p>Interrogation de présence</p></td>
@@ -234,7 +236,7 @@ Le tableau suivant décrit le modèle de conférence.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Réunions planifiées &quot;et réunions&quot; maintenant</p></td>
+<td><p>Réunions planifiées et &quot; &quot; réunions maintenant</p></td>
 <td><p>60 % des réunions sont planifiées, 40 % ne le sont pas.</p>
 <p>De toutes les réunions planifiées, nous partons du principe que 80 % correspondent à des conférences affectées et qui sont des occurrences de conférences périodiques. 10 % sont des réunions ouvertes uniques. 8 % correspondent à des réunions anonymes uniques et 2 % sont des réunions fermées uniques.</p></td>
 </tr>

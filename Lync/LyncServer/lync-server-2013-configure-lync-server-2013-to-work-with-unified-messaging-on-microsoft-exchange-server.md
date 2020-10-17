@@ -12,20 +12,22 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0dc8bc60f87b981a18f351df8ddd163d1b080be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b297a505b1a12335e545895e0203ffc0e29c7354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507631"
 ---
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Configurer Lync Server 2013 pour qu’il fonctionne avec la messagerie unifiée sur Microsoft Exchange Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Configurer Lync Server 2013 pour qu’il fonctionne avec la messagerie unifiée sur Microsoft Exchange Server
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42197697"
 
 _**Dernière modification de la rubrique :** 2013-04-03_
 
-Cette étape nécessite l’utilitaire d’intégration de la messagerie unifiée Exchange (OcsUmUtil.exe)). Cet outil se trouve sur le serveur Lync Server 2013 dans le.. \\Fichiers\\communs des fichiers\\programme dossier de prise\\en charge de Microsoft Lync Server 2013.
+Cette étape nécessite l’utilitaire d’intégration de la messagerie unifiée Exchange (OcsUmUtil.exe)). Cet outil se trouve sur le serveur Lync Server 2013 dans le.. \\ Fichiers communs des fichiers programme \\ \\ dossier de \\ prise en charge de Microsoft Lync Server 2013.
 
 <div>
 
@@ -57,8 +59,8 @@ Lorsque vous exécutez l’utilitaire d’intégration de la messagerie unifiée
 > Avant d’exécuter l’utilitaire d’intégration de la messagerie unifiée Exchange, assurez-vous que vous avez réalisé les opérations suivantes :
 > <ul>
 > <li><p>Créez un ou plusieurs plans de numérotation de messagerie unifiée Exchange, comme décrit dans la documentation du produit Exchange.</p>
-> <p>Pour Microsoft Exchange Server 2010, consultez &quot;la rubrique créer un plan&quot; de <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>numérotation de messagerie unifiée à l’adresse.</p>
-> <p>Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), consultez &quot;la rubrique How to Create a Unified Messaging SIP URI SIP dial plan&quot; at <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
+> <p>Pour Microsoft Exchange Server 2010, consultez &quot; la rubrique créer un plan de numérotation de messagerie unifiée &quot; à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a> .</p>
+> <p>Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), consultez &quot; la rubrique How to Create a Unified Messaging SIP URI SIP dial plan &quot; at <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a> .</p></li>
 > <li><p>Créez un ou plusieurs plans de numérotation Lync Server correspondants, comme décrit dans <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</p></li>
 > <ul><li>Si vous utilisez une version d’Exchange antérieure à Microsoft Exchange Server 2010 SP1, vous devez entrer le nom de domaine complet (FQDN) du plan de numérotation SIP de messagerie unifiée Exchange correspondant dans le champ <STRONG>nom simple</STRONG> du plan de numérotation de Lync Server 2013. Si vous utilisez Microsoft Exchange Server 2010 SP1 ou le Service Pack le plus récent, cette correspondance de nom de plan de numérotation n’est pas nécessaire.</li></ul>
 > <li>Créez un standard automatique et assurez-vous que le numéro d’accès abonné et le numéro du standard automatique sont au format E.164.</li></ul>
@@ -68,7 +70,7 @@ Lorsque vous exécutez l’utilitaire d’intégration de la messagerie unifiée
 
 ## <a name="to-run-the-exchange-um-integration-utility"></a>Pour exécuter l’utilitaire d’intégration de la messagerie unifiée Exchange
 
-1.  Sur un serveur frontal, ouvrez une invite de commandes et tapez **cd% COMMONPROGRAMFILES%\\Microsoft Lync Server 2013\\support**, puis appuyez sur entrée.
+1.  Sur un serveur frontal, ouvrez une invite de commandes et tapez **cd% COMMONPROGRAMFILES% \\ Microsoft Lync Server 2013 \\ support**, puis appuyez sur entrée.
 
 2.  Tapez **OcsUmUtil.exe**, puis appuyez sur Entrée.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204880"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508871"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuration d’une stratégie de qualité de service dans Lync Server 2013 pour vos serveurs de conférence, d’application et de médiation
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuration d’une stratégie de qualité de service dans Lync Server 2013 pour vos serveurs de conférence, d’application et de médiation
+
 
 </div>
 
@@ -103,7 +105,7 @@ Pour vérifier que les nouvelles stratégies QoS ont été appliquées, procéde
 
 2.  Dans la boîte de dialogue **Exécuter**, tapez **regedit**, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez **ordinateur**, **HKEY\_local\_machine**, **logiciel**, développez **stratégies**, **Microsoft**, **Windows**, puis cliquez sur **QoS**. Sous **QoS** des clés de registre pour chaque stratégie QoS créée doivent s’afficher. Par exemple, si vous avez créé deux nouvelles stratégies (l’une nommée QoS audio Lync Server et l’autre nommée QoS vidéo de Lync Server), vous devez les entrées de Registre pour la qualité de service (QoS) audio Lync Server et la qualité de service (QoS) vidéo Lync Server.
+3.  Dans l’éditeur du Registre, développez **ordinateur**, **HKEY \_ local \_ machine**, **logiciel**, développez **stratégies**, **Microsoft**, **Windows**, puis cliquez sur **QoS**. Sous **QoS** des clés de registre pour chaque stratégie QoS créée doivent s’afficher. Par exemple, si vous avez créé deux nouvelles stratégies (l’une nommée QoS audio Lync Server et l’autre nommée QoS vidéo de Lync Server), vous devez les entrées de Registre pour la qualité de service (QoS) audio Lync Server et la qualité de service (QoS) vidéo Lync Server.
 
 Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP appropriée, vous devez également créer une entrée de Registre sur chaque ordinateur. Pour cela, procédez comme suit :
 
@@ -111,7 +113,7 @@ Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP
 
 2.  Dans la boîte de dialogue **Exécuter**, tapez **regedit**, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez **HKEY\_local\_machine**, **System**, **CurrentControlSet**, **services**, puis **tcpip**.
+3.  Dans l’éditeur du Registre, développez **HKEY \_ local \_ machine**, **System**, **CurrentControlSet**, **services**, puis **tcpip**.
 
 4.  Cliquez avec le bouton droit sur **Tcpip**, pointez sur **Nouveau**, puis cliquez sur **Clé**. Une fois la clé de Registre créée, tapez **QoS**, puis appuyez sur Entrée pour renommer la clé.
 

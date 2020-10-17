@@ -12,20 +12,22 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d1532acc21bc788adc8e52bfd1d562509e105ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7c7b08d22933947c2f8079a2713fd134feb4629
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509041"
 ---
+# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Configuration logicielle requise pour les outils d’administration dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Configuration logicielle requise pour les outils d’administration dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Cette rubrique décrit les logiciels requis pour installer et utiliser les outil
 
 <div>
 
-## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
+## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
 L’édition 64 bits de Microsoft .NET Framework 4,5 est requise pour Lync Server 2013.
 
@@ -61,7 +63,7 @@ Windows PowerShell 3,0 est requis pour l’exécution de n’importe quel compos
 
 Lync Server 2013 utilise la technologie Windows Installer pour installer, désinstaller et gérer différents rôles serveur. Windows Installer version 4.5 est disponible sous forme de composant redistribuable pour le système d’exploitation Windows Server. Windows Installer 4,5 est fourni avec Windows Server 2012 R2, Windows Server 2012 et Windows Server 2008 R2, ce qui signifie que vous n’avez pas besoin de télécharger l’utilitaire pour un ordinateur exécutant Lync Server 2013. (Lync Server 2013 ne peut être installé que sur des ordinateurs exécutant Windows Server 2012 R2, Windows Server 2012 ou Windows Server 2008 R2.)
 
-Toutefois, si vous souhaitez installer Lync Server Management Shell ou le générateur de topologie Lync Server sur une station de travail administrateur, vous devrez peut-être Télécharger Windows Installer 4,5. Cet utilitaire est fourni avec Windows 7 et Windows 2008 R2, mais pas avec les versions précédentes du système d’exploitation Windows. Vous pouvez télécharger Windows Installer 4,5 à partir du centre de téléchargement <https://go.microsoft.com/fwlink/p/?linkid=197395>Microsoft à l’adresse.
+Toutefois, si vous souhaitez installer Lync Server Management Shell ou le générateur de topologie Lync Server sur une station de travail administrateur, vous devrez peut-être Télécharger Windows Installer 4,5. Cet utilitaire est fourni avec Windows 7 et Windows 2008 R2, mais pas avec les versions précédentes du système d’exploitation Windows. Vous pouvez télécharger Windows Installer 4,5 à partir du centre de téléchargement Microsoft à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=197395> .
 
 </div>
 
