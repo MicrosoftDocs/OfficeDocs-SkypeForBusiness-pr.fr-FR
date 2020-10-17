@@ -12,20 +12,22 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0fcf148e5e3cc4003dac97e8ef5ca9f1b2e678a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 453da166895c79cafe9f9637163e93a63ebccd75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504281"
 ---
+# <a name="delegate-setup-permissions-in-lync-server-2013"></a>Déléguer les autorisations de configuration dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegate-setup-permissions-in-lync-server-2013"></a>Déléguer les autorisations de configuration dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204600"
 
 _**Dernière modification de la rubrique :** 2014-02-05_
 
-Si vous ne souhaitez pas accorder l’appartenance au groupe administrateurs du domaine aux utilisateurs ou aux groupes qui déploient Lync Server 2013, vous pouvez permettre aux membres du groupe RTCUniversalServerAdmins d’exécuter l’applet de commande Windows PowerShell **Enable-CsTopology** sur les serveurs exécutant Lync Server 2013. Par défaut, les membres du groupe RTCUniversalServerAdmins n’ont pas la possibilité d’exécuter cette applet de commande. Vous accordez des droits et des autorisations d’administrateur pour exécuter **Enable-CsTopology** sur des serveurs exécutant Lync Server à l’aide de l’applet de commande **Grant-CsSetupPermission** et en spécifiant une unité d’organisation où se trouvent les objets ordinateur du serveur exécutant Lync Server 2013.
+Si vous ne souhaitez pas accorder l’appartenance au groupe administrateurs du domaine aux utilisateurs ou aux groupes qui déploient Lync Server 2013, vous pouvez permettre aux membres du groupe RTCUniversalServerAdmins d’exécuter l’applet de commande Windows PowerShell **Enable-CsTopology**   sur les serveurs exécutant Lync Server 2013. Par défaut, les membres du groupe RTCUniversalServerAdmins n’ont pas la possibilité d’exécuter cette applet de commande. Vous accordez des droits et des autorisations d’administrateur pour exécuter **Enable-CsTopology** sur des serveurs exécutant Lync Server à l’aide de l’applet de commande **Grant-CsSetupPermission** et en spécifiant une unité d’organisation où se trouvent les objets ordinateur du serveur exécutant Lync Server 2013.
 
 La préparation du domaine qui a lieu lors de l’installation de Lync Server n’ajoute pas automatiquement les autorisations qui permettent aux membres du groupe RTCUniversalServerAdmins d’exécuter la cmdlet Enable-CsTopology. Cela signifie que, par défaut, vous devez être administrateur de domaine pour activer une topologie. Pour donner aux membres du groupe RTCUniversalServerAdmins le droit d’activer une topologie, vous devez exécuter l’applet de commande Grant-CsSetupPermissions. De plus, vous devrez exécuter cette applet de commande sur chaque conteneur Active Directory hébergeant des ordinateurs exécutant Lync Server.
 
@@ -55,7 +57,7 @@ Souvenez-vous que cette applet de commande n’accorde des autorisations qu’au
 
 <div>
 
-## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>Pour ajouter la possibilité d’exécuter Enable-CsTopology dans le groupe RTCUniversalServerAdmins
+## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>Pour ajouter la possibilité d’exécuter Enable-CsTopology au groupe RTCUniversalServerAdmins
 
 1.  Ouvrez une session sur un serveur en tant que membre du groupe administrateurs du domaine pour le domaine sur lequel l’utilisateur délégué exécutera **Enable-CsTopology**.
 

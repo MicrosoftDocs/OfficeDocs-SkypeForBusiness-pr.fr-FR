@@ -12,20 +12,22 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abdb6796139ddc4be2b8ea24aa9bfeb19f745373
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe6f0b1da87cfff6033840d37f590922c0a3bd9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193921"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504001"
 ---
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Test du routage des appels RTC dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Test du routage des appels RTC dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -104,7 +106,7 @@ paramètre valide (paramètre), puis réessayez.
 
 À la ligne : 1 char : 79
 
-\+Test-CsInterTrunkRouting-TargetNumber "Tél : + 12065551219"
+\+ Test-CsInterTrunkRouting-TargetNumber "Tél : + 12065551219"
 
 \-TrunkConfiguration $t...
 
@@ -112,11 +114,11 @@ paramètre valide (paramètre), puis réessayez.
 
 ~~
 
-\+CategoryInfo : InvalidData : ( :) \[Test-CsInterTrunkRouting\], par
+\+ CategoryInfo : InvalidData : ( :) \[ Test-CsInterTrunkRouting \] , par
 
 ameterBindingArgumentTransformationException
 
-\+FullyQualifiedErrorId : ParameterArgumentTransformationError, Microsoft. R
+\+ FullyQualifiedErrorId : ParameterArgumentTransformationError, Microsoft. R
 
 TC. Management. Voice. cmdlets. TestOcsInterTrunkRoutingCmdlet
 

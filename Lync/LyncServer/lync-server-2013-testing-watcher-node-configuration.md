@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193687"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503811"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Test de la configuration du nœud observateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Test de la configuration du nœud observateur dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -122,9 +124,9 @@ La vérification des clés de Registre du nœud observateur créées par l’ins
 
 début. Si une erreur est détectée, elle est imprimée.
 
-Test-applet cswatchernodeconfiguration : impossible de trouver la clé de registre d’intégrité dans
+Test-CsWatcherNodeConfiguration : impossible de trouver la clé de registre d’intégrité dans
 
-Logiciels\\Microsoft\\Communications en temps réel. Assurez-vous que le nœud observateur. msi est
+Logiciels \\ Microsoft \\ communications en temps réel. Assurez-vous que le nœud observateur. msi est
 
 installé correctement.
 

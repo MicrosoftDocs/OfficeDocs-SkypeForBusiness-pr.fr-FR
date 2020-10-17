@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503701"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Validation des conférences audio/vidéo dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Validation des conférences audio/vidéo dans Lync Server 2013
+
 
 </div>
 
@@ -50,7 +52,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 </tr>
 <tr class="even">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="odd">
 <td><p>Outil de test</p></td>
@@ -59,7 +61,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="even">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsAVConference. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsAVConference. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,9 +72,9 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsAVConference vérifie si deux utilisateurs de test peuvent participer à une conférence audio/vidéo (A/V). Quand l’applet de commande est exécutée, les deux utilisateurs sont connectés au système. Une fois qu’ils ont été correctement connectés, le premier utilisateur crée une conférence A/V, puis attend que le deuxième utilisateur rejoigne la Conférence. Après un bref échange de données, la conférence est supprimée et les deux utilisateurs de test sont déconnectés.
+L’applet de commande Test-CsAVConference vérifie si deux utilisateurs de test peuvent participer à une conférence audio/vidéo (A/V). Quand l’applet de commande est exécutée, les deux utilisateurs sont connectés au système. Une fois qu’ils ont été correctement connectés, le premier utilisateur crée une conférence A/V, puis attend que le deuxième utilisateur rejoigne la Conférence. Après un bref échange de données, la conférence est supprimée et les deux utilisateurs de test sont déconnectés.
 
-Notez que test-CsAVConference n’effectue pas de conférence A/V réelle entre les deux utilisateurs test. Au lieu de cela, l’applet de commande vérifie que les deux utilisateurs peuvent effectuer toutes les connexions nécessaires pour mener une telle conférence.
+Notez que Test-CsAVConference n’effectue pas de conférence A/V réelle entre les deux utilisateurs test. Au lieu de cela, l’applet de commande vérifie que les deux utilisateurs peuvent effectuer toutes les connexions nécessaires pour mener une telle conférence.
 
 Vous trouverez d’autres exemples pour cette commande à la rubrique [test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).
 
@@ -134,11 +136,11 @@ Par exemple, la sortie précédente indique que le test a échoué car au moins 
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-Si test-CsAVConference échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsAVConference échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsAVConference renvoie un compte pas à pas de chaque action effectuée lorsqu’il a vérifié que les utilisateurs spécifiés peuvent participer à une conférence AV. Par exemple, supposons que votre test échoue et que vous recevez le diagnostic suivant :
+Lorsque le paramètre Verbose est inclus Test-CsAVConference renvoie un compte pas à pas de chaque action effectuée lorsqu’il a vérifié que les utilisateurs spécifiés sont en mesure de participer à une conférence AV. Par exemple, supposons que votre test échoue et que vous recevez le diagnostic suivant :
 
 ErrorCode = 1008, source = accessproxy. litwareinc. com, Reason = impossible de résoudre l’enregistrement DNS SRV
 
@@ -178,7 +180,7 @@ La dernière ligne de cette sortie indique que l’utilisateur sip :kenmyer@lit
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsAVConference :
+Voici quelques raisons courantes pour lesquelles Test-CsAVConference peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     

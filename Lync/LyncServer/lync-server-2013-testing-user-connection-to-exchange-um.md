@@ -12,20 +12,22 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193727"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503871"
 ---
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Test de la connexion utilisateur à la messagerie unifiée Exchange dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Test de la connexion utilisateur à la messagerie unifiée Exchange dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -78,14 +80,14 @@ L’exemple suivant teste la connectivité de messagerie unifiée Exchange pour 
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-Les commandes indiquées dans l’exemple suivant testent la connectivité de messagerie unifiée Exchange\\pour l’utilisateur litwareinc kenmyer. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows\\PowerShell pour l’utilisateur litwareinc kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsExUMConnectivity** peut exécuter sa vérification.
+Les commandes indiquées dans l’exemple suivant testent la connectivité de messagerie unifiée Exchange pour l’utilisateur litwareinc \\ kenmyer. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell pour l’utilisateur litwareinc \\ kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsExUMConnectivity** peut exécuter sa vérification.
 
-La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l'\\utilisateur litwareinc kenmyer pour déterminer si l’utilisateur peut se connecter à la messagerie unifiée Exchange ou non.
+La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l’utilisateur litwareinc \\ kenmyer pour déterminer si l’utilisateur peut se connecter à la messagerie unifiée Exchange ou non.
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-La commande illustrée dans l’exemple suivant est une variante de la commande qui vient d’apparaître. Dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape effectuée par le **test-CsExUMConnectivity** cmdletand la réussite ou l’échec de chacune de ces étapes. Pour ce faire, le paramètre OutLoggerVariable est ajouté avec la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest. Dans la dernière commande de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML. Ces données XML sont ensuite écrites dans un fichier nommé C :\\logs\\ExumTest. XML à l’aide de l’applet de commande Out-File.
+La commande illustrée dans l’exemple suivant est une variante de la commande qui vient d’apparaître. Dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape effectuée par le **test-CsExUMConnectivity** cmdletand la réussite ou l’échec de chacune de ces étapes. Pour ce faire, le paramètre OutLoggerVariable est ajouté avec la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest. Dans la dernière commande de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML. Ces données XML sont ensuite écrites dans un fichier nommé C : \\ LogsExumTest.xml à \\ l’aide de la cmdlet Out-File.
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 

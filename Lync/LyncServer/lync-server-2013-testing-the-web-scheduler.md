@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503941"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Test du planificateur Web dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Test du planificateur Web dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -92,7 +94,7 @@ Si les utilisateurs de test ne sont pas définis, la commande échoue, car elle 
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Les commandes présentées dans l’exemple suivant testent la capacité d’un utilisateur spécifique (\\litwareinc kenmeyer) à planifier une réunion en ligne à l’aide du planificateur Web. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Ken Meyer. (Étant donné que le nom\\de connexion litwareinc kenmeyer est inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Ken Meyer.) L’objet Credential qui en résulte est ensuite stocké dans une variable nommée $cred 1.
+Les commandes présentées dans l’exemple suivant testent la capacité d’un utilisateur spécifique (litwareinc \\ kenmeyer) à planifier une réunion en ligne à l’aide du planificateur Web. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Ken Meyer. (Étant donné que le nom de connexion litwareinc \\ kenmeyer est inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Ken Meyer.) L’objet Credential qui en résulte est ensuite stocké dans une variable nommée $cred 1.
 
 La deuxième commande vérifie ensuite si cet utilisateur peut se connecter au pool atl-cs-001.litwareinc.com et planifier une réunion en ligne. Pour exécuter cette tâche, la cmdlet **test-applet cswebscheduler** est appelée, ainsi que trois paramètres : TargetFqdn (le nom de domaine complet du pool de serveurs d’inscriptions); UserCredential (l’objet Windows PowerShell qui contient les informations d’identification de l’utilisateur de Pilar Ackerman); et UserSipAddress (l’adresse SIP qui correspond aux informations d’identification de l’utilisateur fourni).
 

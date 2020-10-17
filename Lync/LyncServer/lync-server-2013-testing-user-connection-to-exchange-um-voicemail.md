@@ -12,20 +12,22 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd30591d651e6af587322a5d86cef9d5079f4ce6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4812f36d19f9645f926eb1aa4f017d70befa47a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503891"
 ---
+# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Test de la connexion utilisateur à la messagerie vocale de messagerie unifiée Exchange dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Test de la connexion utilisateur à la messagerie vocale de messagerie unifiée Exchange dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -78,15 +80,15 @@ L’exemple suivant teste la connectivité de messagerie vocale de la messagerie
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-Les commandes indiquées dans l’exemple suivant testent la connectivité de la messagerie vocale de la messagerie\\unifiée Exchange pour l’utilisateur litwareinc kenmyer. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows\\PowerShell pour l’utilisateur litwareinc kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsExUMVoiceMail** peut exécuter sa vérification.
+Les commandes indiquées dans l’exemple suivant testent la connectivité de la messagerie vocale de la messagerie unifiée Exchange pour l’utilisateur litwareinc \\ kenmyer. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell pour l’utilisateur litwareinc \\ kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsExUMVoiceMail** peut exécuter sa vérification.
 
-La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l'\\utilisateur litwareinc kenmyer pour déterminer si l’utilisateur peut se connecter à la messagerie vocale de la messagerie unifiée Exchange.
+La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l’utilisateur litwareinc \\ kenmyer pour déterminer si l’utilisateur peut se connecter à la messagerie vocale de la messagerie unifiée Exchange.
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-La commande illustrée dans l’exemple suivant est une variante de la commande illustrée dans l’exemple 1 ; dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape effectuée par le **test-CsExUMVoiceMail** cmdletand la réussite ou l’échec de chacune de ces étapes. Pour ce faire, le paramètre OutLoggerVariable est ajouté avec la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest. Dans la dernière commande de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML. Ces données XML sont ensuite écrites dans un fichier nommé C :\\logs\\VoicemailTest. XML à l’aide de l’applet de commande Out-File.
+La commande illustrée dans l’exemple suivant est une variante de la commande illustrée dans l’exemple 1 ; dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape effectuée par le **test-CsExUMVoiceMail** cmdletand la réussite ou l’échec de chacune de ces étapes. Pour ce faire, le paramètre OutLoggerVariable est ajouté avec la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest. Dans la dernière commande de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML. Ces données XML sont ensuite écrites dans un fichier nommé C : \\ LogsVoicemailTest.xml à \\ l’aide de la cmdlet Out-File.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      

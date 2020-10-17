@@ -12,20 +12,22 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cceaeaa869d1e058251a62d237c563143a4ae4c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4a54c4a7a3833fdd31999d7613659f9a35f9732
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198617"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504201"
 ---
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Gestion des utilisateurs Exchange hébergés dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Gestion des utilisateurs Exchange hébergés dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Pour fournir des services de messagerie vocale pour les utilisateurs de Lync Ser
 
 Lync Server 2013 introduit un nouvel attribut utilisateur nommé **msExchUCVoiceMailSettings**, qui est créé dans le cadre de la préparation du schéma Active Directory de lync Server 2013. Cet attribut à valeurs multiples contient les paramètres de messagerie vocale qui sont partagés par Lync Server 2013 et le service Exchange hébergé.
 
-Le service Exchange hébergé peut dans certains cas définir la valeur de l’attribut msExchUCVoiceMailSettings lors du processus d’activation de la messagerie unifiée (UM) Exchange ou de transfert des boîtes aux lettres vers un serveur Exchange hébergé. Si cet attribut n’est pas défini par Exchange, l’administrateur Lync Server 2013 doit le définir en exécutant la cmdlet Set-CsUser, comme décrit plus haut dans cette rubrique.
+Le service Exchange hébergé peut dans certains cas définir la valeur de l’attribut msExchUCVoiceMailSettings lors du processus d’activation de la messagerie unifiée (UM) Exchange ou de transfert des boîtes aux lettres vers un serveur Exchange hébergé. Si cet attribut n’est pas défini par Exchange, l’administrateur Lync Server 2013 doit le définir en exécutant l’applet de commande Set-CsUser, comme décrit plus haut dans cette rubrique.
 
 Les paires clé/valeur de l’attribut et leurs auteurs sont indiqués dans le tableau suivant.
 
@@ -129,7 +131,7 @@ Pour acheminer les appels de messagerie vocale d’un utilisateur vers une messa
     
     La cmdlet vérifie qu’aucune stratégie de messagerie vocale hébergée (au niveau global, du site ou de chaque utilisateur) ne s’applique à cet utilisateur. Si une stratégie s’applique, la cmdlet échoue.
 
-Pour plus d’informations sur l’utilisation de la cmdlet Set-CsUser, voir la documentation de Lync Server Management Shell.
+Pour plus d’informations sur l’utilisation de l’applet de commande Set-CsUser, voir la documentation de Lync Server Management Shell.
 
 </div>
 

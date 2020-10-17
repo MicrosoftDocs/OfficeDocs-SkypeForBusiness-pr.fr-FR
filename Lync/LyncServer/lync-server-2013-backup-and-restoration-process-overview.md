@@ -12,20 +12,22 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd6efce509283d59c5cecc7325c35c9cf1ab371e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94cebbc9a11e1857bed419c97f52f065326b1772
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504871"
 ---
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Vue d’ensemble du processus de sauvegarde et de restauration pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Vue d’ensemble du processus de sauvegarde et de restauration pour Lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ En règle générale, le processus de restauration fonctionne comme suit :
 
   - Pour que vos informations d’utilisateur et de conférence soient récupérables au point de défaillance, vous pouvez implémenter une topologie de récupération d’urgence avec des pools frontaux couplés, comme décrit dans [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - La configuration DNS (Domain Name System), la configuration du protocole DHCP (Dynamic Host Configuration Protocol), les noms de domaine, les noms de domaine complets (FQDN), les chemins d’accès aux magasins de fichiers, etc., doivent être identiques au moment de la restauration Recule.
+  - La configuration DNS (Domain Name System), la configuration du protocole DHCP (Dynamic Host Configuration Protocol), les noms de domaine, les noms de domaine complets (FQDN), les chemins d’accès aux magasins de fichiers, etc., doivent être identiques au moment de la restauration.
 
 Si un serveur exécutant Lync Server tombe en panne, la récupération inclut les étapes suivantes :
 

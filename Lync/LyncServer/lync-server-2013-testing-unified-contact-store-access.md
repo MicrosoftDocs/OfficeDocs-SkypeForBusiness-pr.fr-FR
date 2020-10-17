@@ -12,20 +12,22 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34dbf6ede9f58b39df1722e742511ee0844c41f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218290"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503901"
 ---
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Test de l’accès au magasin de contacts unifié dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Test de l’accès au magasin de contacts unifié dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2015-05-15_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -78,9 +80,9 @@ Notez que l’applet de commande **test-CsUnifiedContactStore** échoue si l’u
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Les commandes indiquées dans l’exemple suivant déterminent si les contacts de l'\\utilisateur litwareinc kenmyer se trouvent dans le magasin de contacts unifié. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows\\PowerShell pour l’utilisateur litwareinc kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsUnifiedContactStore** peut exécuter sa vérification.
+Les commandes indiquées dans l’exemple suivant déterminent si les contacts de l’utilisateur litwareinc \\ kenmyer se trouvent dans le magasin de contacts unifié. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell pour l’utilisateur litwareinc \\ kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsUnifiedContactStore** peut exécuter sa vérification.
 
-La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l'\\utilisateur litwareinc kenmyer pour déterminer si ses contacts se trouvent dans le magasin de contacts unifié.
+La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l’utilisateur litwareinc \\ kenmyer pour déterminer si ses contacts se trouvent dans le magasin de contacts unifié.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

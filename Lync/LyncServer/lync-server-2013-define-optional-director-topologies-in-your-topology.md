@@ -12,20 +12,22 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0448ddfdb9988b791ff14dff89ab4c122df1d38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e53512d2d3c0bd99c4d5b23d20f21859ec974415
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504571"
 ---
+# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Définir des topologies facultatives de directeur dans votre topologie pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Définir des topologies facultatives de directeur dans votre topologie pour Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Cette rubrique décrit les étapes à suivre pour définir et publier la topolog
     
     </div>
 
-7.  Dans la boîte de dialogue **Spécifier l’URL des services Web**, dans **URL de base externe**, spécifiez le nom de domaine complet des directeurs, puis cliquez sur **Terminer**.
+7.  Dans la boîte de dialogue **Spécifier l’URL des services web**, dans **URL de base externe**, spécifiez le nom de domaine complet des directeurs, puis cliquez sur **Terminer**.
     
     <div>
     

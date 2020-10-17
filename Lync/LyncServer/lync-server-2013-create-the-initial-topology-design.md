@@ -12,20 +12,22 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71ccdec2c39839674c6304000680ec611a48c016
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbd021a6b3804c369bccea5affcf26558802de2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504731"
 ---
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Création de la conception de topologie initiale pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Création de la conception de topologie initiale pour Lync Server 2013
+
 
 </div>
 
@@ -57,11 +59,11 @@ Une fois que vous avez terminé l’installation de l’outil de planification L
 
 2.  Une fois que l’outil de planification a démarré, la page **Bienvenue dans l’outil de planification pour Microsoft Lync Server 2013** s’affiche. Choisissez l’une des options suivantes pour commencer votre conception :
     
-      - **Option 1 : prise en main**   le fait de cliquer sur **commencer** fournit une série spécifique de questions d’entretien avec des sélections appropriées pour définir les critères. Lorsque vous en avez terminé avec la section **Démarrage** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
+      - **Option 1 : prise en main**     Le fait de cliquer sur **prise en main** fournit une série spécifique de questions d’entretien avec des sélections appropriées pour définir les critères. Lorsque vous en avez terminé avec la section **Démarrage** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
     
-      - **Option 2 : conception de sites**   le fait de cliquer sur **concevoir des sites** sur la page d’accueil ignore les questions présentées dans la section prise en **main** . Les informations qui auraient été collectées en répondant aux questions de l’entretien dans la section **prise en main** sont définies sur les valeurs par défaut avec cette option. En cliquant sur **concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut, selon vos besoins, sur la page de démarrage des **sites centraux** . Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
+      - **Option 2 : concevoir des sites**     En cliquant sur **concevoir des sites** sur la page d’accueil, vous ignorez les questions d’entretien présentées dans la section **prise en main** . Les informations qui auraient été collectées en répondant aux questions de l’entretien dans la section **prise en main** sont définies sur les valeurs par défaut avec cette option. En cliquant sur **concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut, selon vos besoins, sur la page de démarrage des **sites centraux** . Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
     
-      - **Option 3 : afficher votre topologie**   enregistrée si vous avez déjà terminé et enregistré une topologie à l’aide de l’outil de planification précédemment, vous pouvez ignorer la plupart de ces étapes et commencer par ouvrir et afficher la topologie. Vous pouvez également effectuer des modifications et des mises à jour de la topologie, la réenregistrer, puis l’exporter vers Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
+      - **Option 3 : afficher la topologie enregistrée**     Si vous avez déjà terminé et enregistré une topologie à l’aide de l’outil de planification précédemment, vous pouvez ignorer la plupart de ces étapes et commencer par ouvrir et afficher la topologie. Vous pouvez également effectuer des modifications et des mises à jour de la topologie, la réenregistrer, puis l’exporter vers Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
 
 3.  Cliquez sur **prise en main** pour commencer à concevoir votre topologie Lync Server 2013.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64c164f24f0f2c140a140b7343dd526979cc2bff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bdb3b556f5b9a8d552a3c48e300b8c4b7b19f5f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504521"
 ---
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Définition de la stratégie d’emplacement pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Définition de la stratégie d’emplacement pour Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Chaque stratégie d’emplacement contient les informations suivantes :
 <!-- end list -->
 
   - **Emplacement requis**  
-    Ce paramètre est utilisé uniquement lorsque l’option **services d’urgence activé** est définie sur **Oui**.
+    Ce paramètre est utilisé uniquement lorsque l’option **services d’urgence activé**   est définie sur **Oui**.
     
     Vous pouvez configurer le paramètre **emplacement requis** pour définir le comportement du client. La définition de la valeur sur **non** signifie que l’utilisateur ne sera pas invité à entrer un emplacement. La définition de la valeur sur **Oui** signifie que l’utilisateur sera invité à entrer un emplacement, mais peut ignorer l’invite. Si la valeur est définie sur **clause d’exclusion de responsabilité** , l’utilisateur sera invité à entrer un emplacement et une clause d’exclusion de responsabilité s’affichera si les utilisateurs essaient de le faire. Dans tous les cas, l’utilisateur peut continuer à utiliser le client.
     
@@ -81,7 +83,7 @@ Chaque stratégie d’emplacement contient les informations suivantes :
     
 
     > [!NOTE]  
-    > Si votre organisation n’utilise pas de préfixe d’accès à une ligne externe, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute le signe « + » à la chaîne 911 avant l’envoi de l’appel vers le routage sortant sur un serveur de pool Lync ; le signe « + » sera automatiquement ajouté par le client Lync à la suite de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation applicable qui supprime le préfixe d’accès externe et ajoute le signe « + ». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur&nbsp;compose le numéro 9 911 pour passer un appel d’urgence, le client utilise sa stratégie de plan de numérotation pour normaliser cette opération à + 911 avant que le numéro composé soit évalué par les itinéraires dans le profil d’emplacement de l’appelant.
+    > Si votre organisation n’utilise pas de préfixe d’accès à une ligne externe, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute le signe « + » à la chaîne 911 avant l’envoi de l’appel vers le routage sortant sur un serveur de pool Lync ; le signe « + » sera automatiquement ajouté par le client Lync à la suite de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation applicable qui supprime le préfixe d’accès externe et ajoute le signe « + ». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur compose le &nbsp; numéro 9 911 pour passer un appel d’urgence, le client utilise sa stratégie de plan de numérotation pour normaliser cette opération à + 911 avant que le numéro composé soit évalué par les itinéraires dans le profil d’emplacement de l’appelant.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 712e4cec9be89894b391ba940f054bc121e4acea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 935df08bd1ede124b048427de21594aa6e727e7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504511"
 ---
+# <a name="defining-normalization-rules-in-lync-server-2013"></a>Définition de règles de normalisation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-normalization-rules-in-lync-server-2013"></a>Définition de règles de normalisation dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Les règles de normalisation Lync Server 2013 utilisent des expressions réguli�
 
 Pour plus d’informations sur les règles de normalisation, voir [Dial plans and Normalization Rules in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) dans la documentation de planification.
 
-Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « .NET [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)Framework regular expressions » à l’adresse.
+Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « .NET Framework regular expressions » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 Vous pouvez utiliser l’une des méthodes suivantes pour définir ou modifier une règle de normalisation :
 

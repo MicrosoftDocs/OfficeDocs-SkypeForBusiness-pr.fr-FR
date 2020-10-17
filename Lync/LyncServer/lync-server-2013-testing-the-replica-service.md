@@ -12,20 +12,22 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cae11cce4d4214f0392304823710fe1f02a36f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e30d0b8c0e570605c8c6556d42224a205741a821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503961"
 ---
+# <a name="testing-the-replica-service-in-lync-server-2013"></a>Test du service de réplication dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-replica-service-in-lync-server-2013"></a>Test du service de réplication dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -88,7 +90,7 @@ La commande présentée dans l’exemple 1 teste le service de réplication Lync
 
 L’exemple 2 est une variante de la commande présentée dans l’exemple 1. Dans ce cas, le paramètre Report est inclus pour spécifier un chemin d’accès et un nom de dossier pour le rapport généré par le test. Si vous ne spécifiez pas un chemin de rapport, un nom généré automatiquement lui est attribué tel que :
 
-C :\\Users\\Administrator.\\litwareinc\\AppData\\local\\Temp\\1 test-CS-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e. html
+C : \\ Users \\ Administrator. litwareinc \\ AppData \\ local \\ temp \\ 1 \\Test-Cs-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e.html
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -100,33 +102,33 @@ C :\\Users\\Administrator.\\litwareinc\\AppData\\local\\Temp\\1 test-CS-Replica
 
 Insérez le corps de la section ici.
 
-VERBOSe : création d’un fichier journal « C\\:\\Users\\testing\\\\AppData\\local Temp test-CsReplica-3cb066b3-DD23-411a-8932-99f01c0f940c. Xml ».
+VERBOSe : création d’un fichier journal « C : \\ les utilisateurs \\ testent \\ AppData \\ local \\ temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml ».
 
-VERBOSe : création d’un fichier journal « C\\:\\Users\\testing\\\\AppData\\local Temp test-CsReplica-3cb066b3-DD23-411a-8932-99f01c0f940c. Xml ».
+VERBOSe : création d’un fichier journal « C : \\ les utilisateurs \\ testent \\ AppData \\ local \\ temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml ».
 
 VERBOSe : le traitement de « test-CsReplica » s’est terminé avec succès.
 
-VERBOSe : des résultats détaillés sont disponibles à l’adresse\\«\\C\\:\\Users testing AppData Local\\Temp\\test-CsReplica-3cb066b3-DD23-411a-8932-99f01c0f940c. Xml ».
+VERBOSe : des résultats détaillés sont disponibles à l’adresse « C : \\ Users \\ testing \\ AppData \\ local \\ temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml ».
 
 VERBOSe : création d’un fichier journal
 
-"C :\\\\Users\\testing\\AppData\\local\\Temp\\2 test-CsReplica-29fddb35-f56e-4e3c-8F4C-e
+"C : \\ Users \\ testing \\ AppData \\ local \\ temp \\ 2 \\ test-CsReplica-29fddb35-f56e-4e3c-8F4C-e
 
-d3bd0e4a083. Xml».
+d3bd0e4a083.xml».
 
 VERBOSe : création d’un fichier journal
 
-"C :\\\\Users\\testing\\AppData\\local\\Temp\\2 test-CsReplica-29fddb35-f56e-4e3c-8F4C-e
+"C : \\ Users \\ testing \\ AppData \\ local \\ temp \\ 2 \\ test-CsReplica-29fddb35-f56e-4e3c-8F4C-e
 
-d3bd0e4a083. html».
+d3bd0e4a083.html».
 
-AVERTISSEMENT : échec de test-CsReplica.
+AVERTISSEMENT : Test-CsReplica a échoué.
 
 AVERTISSEMENT : les résultats détaillés sont disponibles à l’adresse
 
-"C :\\\\Users\\testing\\AppData\\local\\Temp\\2 test-CsReplica-29fddb35-f56e-4e3c-8F4C-e
+"C : \\ Users \\ testing \\ AppData \\ local \\ temp \\ 2 \\ test-CsReplica-29fddb35-f56e-4e3c-8F4C-e
 
-d3bd0e4a083. html».
+d3bd0e4a083.html».
 
 Test-CsReplica : échec de l’exécution de la commande : l’accès au Registre demandé n’est pas
 
@@ -134,21 +136,21 @@ permis.
 
 À la ligne : 1 char : 1
 
-\+Test-CsReplica-verbose
+\+ Test-CsReplica-verbose
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo : InvalidOperation : ( :) \[Test-CsReplica\], sécurité
+\+ CategoryInfo : InvalidOperation : ( :) \[ Test-CsReplica \] , sécurité
 
 Exception
 
-\+FullyQualifiedErrorId : ProcessingFailed, Microsoft. RTC. Management. deploy
+\+ FullyQualifiedErrorId : ProcessingFailed, Microsoft. RTC. Management. deploy
 
 Management. TestReplicaCmdlet
 
-PS C :\\test\\des utilisateurs\>
+PS C : \\ test des utilisateurs \\\>
 
-PS C :\\test\\des\> utilisateurs test-CsUcwaConference-TargetFqdn "LyncTest. selfHost. Corp. M
+PS C : \\ utilisateurs \\ test \> Test-CsUcwaConference-TargetFqdn "LyncTest. selfHost. Corp. M
 
 icrosoft.com»
 
@@ -166,19 +168,19 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 Test-CsUcwaConference : aucun utilisateur de test n’est affecté à
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Vérifiez la configuration de l’utilisateur test.
+\[LyncTest.SelfHost.Corp.Microsoft.com \] . Vérifiez la configuration de l’utilisateur test.
 
 À la ligne : 1 char : 1
 
-\+Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn « LyncTest.SelfHost.Corp.Microsoft.com »
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo : ResourceUnavailable : ( :) \[Test-CsUcwaConference\]
+\+ CategoryInfo : ResourceUnavailable : ( :) \[ Test-CsUcwaConference\]
 
 , InvalidOperationException
 
-\+FullyQualifiedErrorId : NotFoundTestUsers, Microsoft. RTC. Management. synthé
+\+ FullyQualifiedErrorId : NotFoundTestUsers, Microsoft. RTC. Management. synthé
 
 eticTransactions.TestUcwaConferenceCmdlet
 

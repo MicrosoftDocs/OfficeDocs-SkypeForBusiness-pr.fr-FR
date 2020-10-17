@@ -12,20 +12,22 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4abe15d3884bc24d4facb26e2fc0c2df9e31bdcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193587"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503751"
 ---
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologies et composants pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologies et composants pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
+
 
 </div>
 
@@ -99,40 +101,40 @@ La première fois que vous démarrez un nouveau pool frontal, il est essentiel q
 <td><p>3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>3</p></td>
 </tr>
 <tr class="even">
-<td><p>disque</p></td>
-<td><p>4</p></td>
+<td><p>5 </p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
-<td><p>6 </p></td>
-<td><p>disque</p></td>
+<td><p>6 </p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
-<td><p>7 </p></td>
-<td><p>disque</p></td>
+<td><p>7 </p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="odd">
-<td><p>8 </p></td>
-<td><p>6 </p></td>
+<td><p>8 </p></td>
+<td><p>6 </p></td>
 </tr>
 <tr class="even">
-<td><p>9 </p></td>
-<td><p>7 </p></td>
+<td><p>9 </p></td>
+<td><p>7 </p></td>
 </tr>
 <tr class="odd">
-<td><p>10 </p></td>
-<td><p>8 </p></td>
+<td><p>10 </p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>11 </p></td>
-<td><p>9 </p></td>
+<td><p>a4</p></td>
+<td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12</p></td>
-<td><p>10 </p></td>
+<td><p>12 </p></td>
+<td><p>10 </p></td>
 </tr>
 </tbody>
 </table>
@@ -184,7 +186,7 @@ Pour qu’un pool frontal fonctionne du tout, il ne peut pas faire l’objets d�
 <td><p>Any 3</p></td>
 </tr>
 <tr class="even">
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>N’importe quel 4</p></td>
 </tr>
 <tr class="odd">
@@ -231,7 +233,7 @@ Vous devez surveiller deux autres facteurs afin de vous assurer que vos pools fr
 
   - Lorsque vous déplacez des utilisateurs vers le pool pour la première fois, assurez-vous qu’au moins trois serveurs frontaux sont en cours d’exécution.
 
-  - Si vous établissez une relation de jumelage entre ce pool et un autre pool à des fins de récupération d’urgence, après avoir établi cette relation, vous devez vous assurer que ce pool dispose de trois serveurs frontaux exécutés simultanément à un moment donné afin de synchroniser correctement données avec le pool de sauvegarde. Pour plus d’informations sur les paires de pools et les fonctionnalités de récupération d’urgence, voir [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - Si vous établissez une relation de jumelage entre ce pool et un autre pool à des fins de récupération d’urgence, après avoir établi cette relation, vous devez vous assurer que ce pool dispose de trois serveurs frontaux exécutés simultanément à un moment donné pour synchroniser correctement les données avec le pool de sauvegarde. Pour plus d’informations sur les paires de pools et les fonctionnalités de récupération d’urgence, voir [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 </div>
 

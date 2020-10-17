@@ -12,20 +12,22 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1cc8659035e6df437d10684eb1bd0158a76b7a0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cad9784eb2c50662bfedc460cb0dbc8c892206c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204460"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504931"
 ---
+# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Application d’une stratégie d’archivage Lync Server à un utilisateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Application d’une stratégie d’archivage Lync Server à un utilisateur dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Pour plus d’informations sur le fonctionnement des stratégies d’archivage, 
 
 
 > [!NOTE]  
-> Pour configurer et utiliser l’archivage, vous devez tout d’abord déployer l’archivage. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-archiving.md">déploiement de l’archivage dans Lync Server 2013</A> dans la documentation de déploiement.<BR>Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies de conservation inaltérable d’Exchange contrôlent si l’archivage est activé pour les utilisateurs hébergés sur Exchange 2013 et que leurs boîtes aux lettres sont placées en conservation inaltérable. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies d’archivage dans Lync Server 2013 lors de l’utilisation de l’intégration d’Exchange Server</A> dans la documentation de déploiement.<BR>Vous devez définir toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage dans Lync Server 2013</A> dans la documentation de déploiement.
+> Pour configurer et utiliser l’archivage, vous devez tout d’abord déployer l’archivage. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-archiving.md">déploiement de l’archivage dans Lync Server 2013</A> dans la documentation de déploiement.<BR>Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies de blocage Exchange In-Place déterminent si l’archivage est activé pour les utilisateurs hébergés sur Exchange 2013 et que leurs boîtes aux lettres sont placées en conservation In-Place. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies d’archivage dans Lync Server 2013 lors de l’utilisation de l’intégration d’Exchange Server</A> dans la documentation de déploiement.<BR>Vous devez définir toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage dans Lync Server 2013</A> dans la documentation de déploiement.
 
 
 
@@ -69,7 +71,7 @@ Pour plus d’informations sur le fonctionnement des stratégies d’archivage, 
     
 
     > [!NOTE]  
-    > Les <STRONG> &lt;paramètres&gt; automatiques</STRONG> appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
+    > Les paramètres <STRONG> &lt; automatiques &gt; </STRONG> appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
 
     
     </div>

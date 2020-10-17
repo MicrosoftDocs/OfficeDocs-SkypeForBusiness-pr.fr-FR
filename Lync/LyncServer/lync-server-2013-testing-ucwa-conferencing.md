@@ -12,20 +12,22 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af4bd6dd911b43714dffa48c3b21d3329b2aaa01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5879eaa10b128bedbc1e28fe85cee40aed27dddd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503911"
 ---
+# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Test de la Conférence UCWA dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Test de la Conférence UCWA dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -82,7 +84,7 @@ La commande présentée dans l’exemple 1 vérifie que deux utilisateurs de te
 
     Test-CsUcwaConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Les commandes indiquées dans l’exemple 2 testent la capacité d’une paire d’utilisateurs\\(litwareinc Pilar\\et litwareinc kenmyer) à participer à une conférence UCWA. Pour ce faire, la première commande de l’exemple utilise la cmdlet Get-Credential pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Pilar Ackerman. (Étant donné que le nom de\\connexion, litwareinc Pilar, a été inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Pilar Ackerman.) L’objet Credentials qui en résulte est ensuite stocké dans une variable nommée $cred 1. La deuxième commande effectue la même action, en retournant cette fois un objet d’identification pour le compte de Ken Myer.
+Les commandes indiquées dans l’exemple 2 testent la capacité d’une paire d’utilisateurs (litwareinc \\ Pilar et litwareinc \\ kenmyer) à participer à une conférence UCWA. Pour ce faire, la première commande de l’exemple utilise l’applet de commande Get-Credential pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Pilar Ackerman. (Étant donné que le nom de connexion, litwareinc \\ Pilar, a été inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Pilar Ackerman.) L’objet Credentials qui en résulte est ensuite stocké dans une variable nommée $cred 1. La deuxième commande effectue la même action, en retournant cette fois un objet d’identification pour le compte de Ken Myer.
 
 Avec les deux objets Credential en main, la troisième commande de l’exemple détermine si les deux utilisateurs peuvent participer à une conférence UCWA. Pour exécuter cette tâche, la cmdlet **test-CsUcwaConference** est appelée, ainsi que les paramètres suivants : TargetFqdn (nom de domaine complet du pool de serveurs d’inscriptions); OrganizerSipAddress (adresse SIP de l’organisateur de la réunion); OrganizerCredential (l’objet Windows PowerShell qui contient les informations d’identification pour ce même utilisateur); ParticipantSipAddress (l’adresse SIP de l’autre utilisateur de test); et ParticipantCredential (l’objet interface de ligne de commande Windows PowerShell qui contient les informations d’identification pour l’autre utilisateur).
 
@@ -128,19 +130,19 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 Test-CsUcwaConference : aucun utilisateur de test n’est affecté à
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Vérifiez la configuration de l’utilisateur test.
+\[LyncTest.SelfHost.Corp.Microsoft.com \] . Vérifiez la configuration de l’utilisateur test.
 
 À la ligne : 1 char : 1
 
-\+Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn « LyncTest.SelfHost.Corp.Microsoft.com »
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo : ResourceUnavailable : ( :) \[Test-CsUcwaConference\]
+\+ CategoryInfo : ResourceUnavailable : ( :) \[ Test-CsUcwaConference\]
 
 , InvalidOperationException
 
-\+FullyQualifiedErrorId : NotFoundTestUsers, Microsoft. RTC. Management. synthé
+\+ FullyQualifiedErrorId : NotFoundTestUsers, Microsoft. RTC. Management. synthé
 
 eticTransactions.TestUcwaConferenceCmdlet
 

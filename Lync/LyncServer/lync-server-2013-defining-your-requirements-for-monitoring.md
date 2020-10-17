@@ -12,20 +12,22 @@ ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a155f19f134506a4e592de18d03a7812c16dcbab
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f116fec331c252934c42e624c36813218d8f9ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504321"
 ---
+# <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Définition de la configuration requise pour la surveillance dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Définition de la configuration requise pour la surveillance dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ La rationalisation du déploiement et de l’installation de la surveillance dan
 
 Si vous choisissez d’activer la surveillance dans Lync Server 2013, vous pouvez activer à la fois la surveillance du CD-r et la surveillance QoE, ou vous pouvez choisir d’activer un type de surveillance tout en laissant l’autre type désactivé. Par exemple, supposons que vos utilisateurs se servent uniquement de la messagerie instantanée et du transfert de fichier, et ne passent pas d’appels audio ou vidéo. Dans ce cas, l’activation de la surveillance QoE s’avère superflue. De même, Lync Server facilite l’activation et la désactivation de la surveillance après le déploiement de la surveillance. Par exemple, il est possible que vous choisissiez de déployer la surveillance tout en laissant la surveillance QoE désactivée dans un premier temps. Si vos utilisateurs commencent à rencontrer des problèmes avec les appels audio et vidéo, vous pouvez alors activer la surveillance QoE et utiliser ces données pour vous aider à dépanner et résoudre ces problèmes.
 
-Il n’existe aucun avantage particulier (ou inconvénient) à installer la surveillance en même temps que Lync Server et l’installation de la surveillance après l’installation de Lync Server. Pour garder à l’esprit, avant d’installer la surveillance, vous devez sélectionner un ordinateur qui hébergera le magasin de surveillance principal, et une version prise en charge de SQL Server doit être installée et configurée sur cet ordinateur avant que cet ordinateur puisse être utilisé pour la surveillance. . Si vous avez déjà installé SQL Server sur un ordinateur et que cet ordinateur est prêt à être utilisé, vous pouvez installer la surveillance en même temps que Lync Server. Si vous ne disposez pas d’un ordinateur principal, vous pouvez procéder à l’installation de Lync Server seul, puis installer la surveillance dès que l’ordinateur principal est prêt à être utilisé.
+Il n’existe aucun avantage particulier (ou inconvénient) à installer la surveillance en même temps que Lync Server et l’installation de la surveillance après l’installation de Lync Server. Avant d’installer la surveillance, vous devez sélectionner un ordinateur pour héberger le magasin de surveillance principal, et une version prise en charge de SQL Server doit être installée et configurée sur cet ordinateur avant de pouvoir utiliser cet ordinateur à des fins de surveillance. Si vous avez déjà installé SQL Server sur un ordinateur et que cet ordinateur est prêt à être utilisé, vous pouvez installer la surveillance en même temps que Lync Server. Si vous ne disposez pas d’un ordinateur principal, vous pouvez procéder à l’installation de Lync Server seul, puis installer la surveillance dès que l’ordinateur principal est prêt à être utilisé.
 
 **Quand souhaitez-vous installer la surveillance ?** La surveillance peut être installée et configurée en même temps que l’installation et la configuration de Lync Server 2013 ; l’Assistant Déploiement de Lync Server vous offre la possibilité d’associer vos pools frontaux à une base de données de surveillance lors de l’installation. Vous pouvez également installer la surveillance une fois que Lync Server lui-même a été installé ; pour ce faire, vous pouvez utiliser le générateur de topologie pour associer vos pools frontaux et serveurs à une base de données de surveillance, puis publier la topologie révisée.
 

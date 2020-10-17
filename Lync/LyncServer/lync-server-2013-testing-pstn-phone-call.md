@@ -12,20 +12,22 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c9c0b0441ea31e2419101aba188c33b0bbfd70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abc46703118d27533ac2afd2b4b448ad9516bdd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503971"
 ---
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Test de l’appel téléphonique RTC dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Test de l’appel téléphonique RTC dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsRegistration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsRegistration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnOutboundCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-La cmdlet Test-CsPstnOutboundCall teste la capacité d’un utilisateur à appeler un numéro de téléphone situé sur le RTC. Lors de l’exécution de test-CsPstnOutboundCall, la cmdlet tente d’abord de connecter l’utilisateur de test à Lync Server. Si l’ouverture de session réussit, l’applet de commande tente alors d’effectuer un appel téléphonique via la passerelle PSTN. Cet appel téléphonique sera effectué à l’aide du plan de numérotation, de la stratégie de voix, ainsi que d’autres stratégies et paramètres affectés au compte de test. Lorsque l’appel reçoit une réponse, l’applet de commande envoie des codes DTMF (Dual-Tone Multi-Frequency) sur le réseau pour vérifier la connectivité multimédia.
+L’applet de commande Test-CsPstnOutboundCall teste la capacité d’un utilisateur à appeler un numéro de téléphone situé sur le RTC. Lors de l’exécution de test-CsPstnOutboundCall, la cmdlet tente d’abord de connecter l’utilisateur de test à Lync Server. Si l’ouverture de session réussit, l’applet de commande tente alors d’effectuer un appel téléphonique via la passerelle PSTN. Cet appel téléphonique sera effectué à l’aide du plan de numérotation, de la stratégie de voix, ainsi que d’autres stratégies et paramètres affectés au compte de test. Lorsque l’appel reçoit une réponse, l’applet de commande envoie des codes DTMF (Dual-Tone Multi-Frequency) sur le réseau pour vérifier la connectivité multimédia.
 
 Lors de la réalisation d’un test, Test-CsPstnOutboundCall passe un appel téléphonique réel : le téléphone cible retentit et doit être décroché pour que le test réussisse. Par ailleurs, cet appel doit être conclu manuellement par l’administrateur.
 
@@ -76,7 +78,7 @@ Lors de la réalisation d’un test, Test-CsPstnOutboundCall passe un appel tél
 
 ## <a name="running-the-test"></a>Exécution du test
 
-La cmdlet Test-CsPstnOutboundCall peut être exécutée à l’aide d’un compte de test préconfiguré (consultez la rubrique Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool Lync Server testé et le numéro de téléphone PSTN appelé. Par exemple :
+L’applet de commande Test-CsPstnOutboundCall peut être exécutée à l’aide d’un compte de test préconfiguré (voir Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool Lync Server testé et le numéro de téléphone PSTN appelé. Par exemple :
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
@@ -121,11 +123,11 @@ La stratégie ne contient pas d’utilisation de l’itinéraire téléphonique
 
 La sortie précédente indique que le test a échoué car la stratégie de voix attribuée à l’utilisateur spécifié n’inclut pas d’utilisation téléphonique. (Les utilisations téléphoniques lient les stratégies vocales aux itinéraires des communications vocales. Sans une stratégie de voix et un itinéraire de communications vocales correspondant, vous ne pouvez pas effectuer d’appels sur le réseau téléphonique commuté (RTC).)
 
-Si test-CsPstnOutboundCall échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsPstnOutboundCall échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsPstnOutboundCall renvoie un compte pas à pas de chaque action qu’il a tentée lorsqu’il a vérifié la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cette sortie indique que des problèmes réseau empêchent une connexion au réseau téléphonique commuté (RTC) :
+Lorsque le paramètre Verbose est inclus, Test-CsPstnOutboundCall renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cette sortie indique que des problèmes réseau empêchent une connexion au réseau téléphonique commuté (RTC) :
 
 Établissement de l’appel audio vidéo à « SIP : + 12065551219@litwareinc. com ; user = Phone ».
 
@@ -137,7 +139,7 @@ Une exception’A 404 (introuvable) a été reçue du réseau et l’opération 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsPstnOutboundCall :
+Voici quelques raisons courantes pour lesquelles Test-CsPstnOutboundCall peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur non valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     

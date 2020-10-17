@@ -12,20 +12,22 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 697023ef7c93191cbe13aa0abf4c175240e70ae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91efa1e0431c86fa1918473d01021f68e4dc16b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503741"
 ---
+# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Utilisation du tableau de bord de suivi dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Utilisation du tableau de bord de suivi dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Par défaut, le tableau de bord de suivi affiche les données des mesures suivan
 
 ## <a name="system-usage-metrics"></a>Mesures d’utilisation du système
 
-**Son**
+**Registration**
 
   - Ouvertures de session utilisateur uniques
 
@@ -75,7 +77,7 @@ Par défaut, le tableau de bord de suivi affiche les données des mesures suivan
 
   - Nombre moyen de minutes par session audio
 
-**Salle**
+**Conférence**
 
   - Nombre total de conférences
 
@@ -105,7 +107,7 @@ Outre les mesures d’utilisation du système, les mesures suivantes affichent l
 
 <div>
 
-## <a name="per-user-call-diagnostics"></a>Diagnostics des appels par utilisateur
+## <a name="per-user-call-diagnostics"></a>Diagnostics des appels de Per-User
 
 **Utilisateurs avec des échecs d’appel**
 
@@ -135,7 +137,7 @@ Pair à pair
 
   - Taux d’échec du partage d’application
 
-Salle
+Conférence
 
   - Nombre total d’échecs
 
@@ -163,7 +165,7 @@ Pair à pair
 
   - Appels RTC avec une qualité médiocre
 
-Salle
+Conférence
 
   - Nombre total d’appels de qualité médiocre
 

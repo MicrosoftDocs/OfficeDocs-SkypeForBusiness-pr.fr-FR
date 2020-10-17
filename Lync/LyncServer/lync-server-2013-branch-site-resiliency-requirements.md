@@ -12,20 +12,22 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e8fb2cdbf2b9192411f74c5099930d8bd7d7a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207133"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504841"
 ---
+# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Configuration requise pour la résistance des sites de succursale pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Configuration requise pour la résistance des sites de succursale pour Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protoc
 
 </div>
 
-Pour garantir que les appels entrants vers les utilisateurs de sites de succursale atteindront ces utilisateurs lorsque la passerelle de succursale ou le composant Windows du serveur Survivable Branch Appliance est indisponible (ce qui se produit, par exemple, si le Survivable Branch Appliance ou Branch. la passerelle n’était plus disponible pour la maintenance), créez un itinéraire de basculement sur la passerelle (ou travaillez avec votre fournisseur de serveurs d’inscriptions directe) pour rediriger les appels entrants vers le pool de serveurs d’inscriptions de sauvegarde sur le site central. À partir de là, les appels sont routés sur la liaison de réseau étendu (WAN) en direction des utilisateurs de succursale. Assurez-vous que l’itinéraire traduit les numéros selon les formats de numéro de téléphone acceptés par la passerelle PSTN ou un autre homologue de jonction. Pour plus d’informations sur la création d’un itinéraire de basculement, voir [configuration d’un itinéraire de basculement dans Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). De même, créez des plans de numérotation au niveau du service pour la jonction associée à la passerelle du site de succursale afin de normaliser les appels entrants. Si vous avez deux Survivable Branch Appliances sur un site de succursale, vous pouvez créer un plan de numérotation au niveau du site pour les deux, sauf si un plan de niveau de service distinct est nécessaire.
+Pour garantir que les appels entrants vers les utilisateurs de sites de succursale atteindront ces utilisateurs lorsque la passerelle de succursale ou le composant Windows du site Survivable Branch Appliance est indisponible (ce qui se produirait par exemple, si le Survivable Branch Appliance ou la passerelle de succursale était inactif pour maintenance), créez un itinéraire de basculement sur la passerelle (ou travaillez avec votre fournisseur de services d’accès direct à la sauvegarde) pour rediriger les appels entrants vers le pool de serveurs d’inscriptions de sauvegarde sur le site central. À partir de là, les appels sont routés sur la liaison de réseau étendu (WAN) en direction des utilisateurs de succursale. Assurez-vous que l’itinéraire traduit les numéros selon les formats de numéro de téléphone acceptés par la passerelle PSTN ou un autre homologue de jonction. Pour plus d’informations sur la création d’un itinéraire de basculement, voir [configuration d’un itinéraire de basculement dans Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). De même, créez des plans de numérotation au niveau du service pour la jonction associée à la passerelle du site de succursale afin de normaliser les appels entrants. Si vous avez deux Survivable Branch Appliances sur un site de succursale, vous pouvez créer un plan de numérotation au niveau du site pour les deux, sauf si un plan de niveau de service distinct est nécessaire.
 
 <div>
 
@@ -93,7 +95,7 @@ Nous vous recommandons également de créer un plan de numérotation et une stra
 
 ## <a name="routing-extension-numbers"></a>Acheminement des numéros de poste
 
-Lors de la préparation des plans de numérotation et des stratégies de voix pour les utilisateurs de site de succursale, n’oubliez pas d’inclure des règles de normalisation et des règles de conversion qui correspondent aux chaînes et au format de nombre utilisés dans l’attribut msRTCSIP-Line (ou URI de ligne), afin que Lync 2013 appelle activé entre les succursales les utilisateurs du site et les utilisateurs du site central sont routés correctement, en particulier lorsque les appels doivent être réacheminés via le réseau téléphonique commuté car la liaison de réseau étendu n’est pas disponible. D’autres éléments particuliers sont à prendre en considération dans le cas des numéros composés qui incluent des numéros de poste et non simplement des numéros de téléphone.
+Lors de la préparation des plans de numérotation et des stratégies de voix pour les utilisateurs des sites de succursale, n’oubliez pas d’inclure des règles de normalisation et des règles de traduction qui correspondent aux chaînes et au format de nombre utilisés dans l’attribut msRTCSIP-Line (ou URI de ligne), de sorte que les appels de Lync 2013 activés entre les utilisateurs de site de succursale et les utilisateurs de site central soient acheminés correctement, en particulier lorsque les appels doivent être réacheminés via le réseau téléphonique commuté D’autres éléments particuliers sont à prendre en considération dans le cas des numéros composés qui incluent des numéros de poste et non simplement des numéros de téléphone.
 
 Les règles de normalisation et de traduction qui correspondent à des URI de ligne contenant un numéro de poste, seul ou en plus d’un numéro de téléphone E.164 complet, imposent des exigences supplémentaires. Cette section décrit plusieurs exemples de scénarios pour acheminer les appels pour des URI de ligne constitués d’un numéro de poste.
 
@@ -123,7 +125,7 @@ Dans un scénario où la liaison de réseau étendu entre un site de succursale 
 <tr class="odd">
 <td><p>5digitExtensions</p></td>
 <td><p>Ne traduit pas les numéros à 5 chiffres</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^(\d{5})$</p></td>
 <td><p>$1</p></td>
 <td><p>10001 n’est pas traduit</p></td>
 </tr>
@@ -152,13 +154,13 @@ Vous devez également faire face aux scénarios de numéros de poste spécifique
 <tbody>
 <tr class="odd">
 <td><p>Traduit les numéros à 5 chiffres en numéro de téléphone d’utilisateur avec numéro de poste</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^(\d{5})$</p></td>
 <td><p>+ 14255550123 ; EXT = $1</p></td>
 <td><p>10001 devient +14255550123;ext=10001</p></td>
 </tr>
 <tr class="even">
 <td><p>Traduit les numéros à 5 chiffres en numéro de téléphone de votre organisation complété du poste d’un utilisateur</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^(\d{5})$</p></td>
 <td><p>+ 14255550100 ; EXT = $1</p></td>
 <td><p>10001 devient +14255550100;ext=10001</p></td>
 </tr>
@@ -209,7 +211,7 @@ Pour plus d’informations sur les appels d’un utilisateur de site central ver
 
 ## <a name="preparing-for-voice-mail-survivability"></a>Préparation de la survavibilité de la messagerie vocale
 
-La messagerie unifiée Exchange est généralement installée uniquement sur un site central et non sur des sites de succursale. Un appelant doit pouvoir laisser un message vocal, même si la liaison de réseau étendu entre un site de succursale et le site central n’est pas disponible. Par conséquent, la configuration de l’URI de ligne pour le numéro de téléphone du standard automatique de messagerie unifiée Exchange qui fournit la messagerie vocale pour les utilisateurs de site de succursale exige des considérations spéciales, ainsi que la stratégie de voix, le plan de numérotation et les règles de normalisation applicables à ce message vocal. valeur.
+La messagerie unifiée Exchange est généralement installée uniquement sur un site central et non sur des sites de succursale. Un appelant doit pouvoir laisser un message vocal, même si la liaison de réseau étendu entre un site de succursale et le site central n’est pas disponible. Par conséquent, la configuration de l’URI de ligne pour le numéro de téléphone du standard automatique de messagerie unifiée Exchange qui fournit la messagerie vocale pour les utilisateurs de site de succursale nécessite des considérations spéciales, ainsi que la stratégie de voix, le plan de numérotation et les règles de normalisation applicables à ce numéro de messagerie vocale.
 
 Survivable Branch Appliances (SBA) et les serveurs Survivable Branch Server offrent une survivabilité de la messagerie vocale pour les utilisateurs de succursale lors d’une panne de réseau étendu. Plus précisément, si vous utilisez un Survivable Branch Appliance ou un serveur Survivable Branch Server et que le réseau étendu devient indisponible, le SBA ou le Survivable Branch Server redirige les appels sans réponse sur le RTC vers la messagerie unifiée Exchange au niveau du site central. Avec un SBA ou un serveur Survivable Branch Server, les utilisateurs peuvent également récupérer des messages vocaux via le RTC lors d’une panne de réseau étendu (WAN). Enfin, pendant une panne de réseau étendu, le Survivable Branch Appliance ou le serveur Survivable Branch Server met en file d’attente les notifications d’appels manqués, puis les télécharge sur le serveur de messagerie unifiée Exchange lors de la restauration du réseau étendu. Pour vous assurer que le reroutage de messagerie vocale est résilient, veillez à ajouter une entrée pour le nom de domaine complet du pool de sites central et une entrée pour le nom de domaine complet du serveur Edge au fichier hosts sur le serveur Survivable Branch Server. À défaut, il est possible que la résolution DNS arrive à expiration si vous ne disposez pas de serveur DNS sur le site de succursale.
 

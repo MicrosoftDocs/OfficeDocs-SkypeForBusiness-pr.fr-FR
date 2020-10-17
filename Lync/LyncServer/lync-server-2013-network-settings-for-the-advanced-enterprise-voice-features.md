@@ -12,20 +12,22 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340a1902137b6c675b154ef9ccf3d9fbcc882e88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d8096f9dbce6e5e807cc806a5d87df7558f38a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505481"
 ---
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Paramètres réseau pour les fonctionnalités avancées de voix entreprise dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Paramètres réseau pour les fonctionnalités avancées de voix entreprise dans Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Une région réseau est un concentrateur réseau ou un segment réseau principal
 
 </div>
 
-Le contrôle d’admission des appels exige que toutes les régions réseau aient un site central Lync Server associé, qui gère le trafic multimédia au sein de la région (autrement dit, il prend des décisions en fonction des stratégies que vous avez configurées, qu’il s’agisse d’une session audio ou vidéo en temps réel). être établie). Les sites centraux de Lync Server ne représentent pas les emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés en tant que pool ou ensemble de pools. Pour plus d’informations sur les sites centraux, voir [Reference topologies in Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification. Voir également les [topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) dans la documentation de prise en charge.
+Le contrôle d’admission des appels exige que toutes les régions réseau aient un site central Lync Server associé, qui gère le trafic multimédia au sein de la région (autrement dit, il prend des décisions en fonction des stratégies que vous avez configurées, qu’il s’agisse d’une session audio ou vidéo en temps réel). Les sites centraux de Lync Server ne représentent pas les emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés en tant que pool ou ensemble de pools. Pour plus d’informations sur les sites centraux, voir [Reference topologies in Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification. Voir également les [topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) dans la documentation de prise en charge.
 
 Pour configurer une région réseau, vous pouvez utiliser l’onglet **régions** de la section **Configuration réseau** du panneau de configuration Lync Server ou exécuter les cmdlets **New-applet csnetworkregion** ou **Set-applet csnetworkregion** Lync Server Management Shell. Pour obtenir des instructions, voir [Create or Modify a Network Region in Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou reportez-vous à la documentation Lync Server Management Shell.
 

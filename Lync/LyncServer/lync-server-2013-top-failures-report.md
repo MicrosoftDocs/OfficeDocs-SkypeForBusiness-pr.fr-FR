@@ -12,20 +12,22 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 972c9e97015f5a39ace3cf1fc68051cc0afcc988
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 47bb2a36d3d165150735a4b0e4b44907a0d86011
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193637"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503761"
 ---
+# <a name="top-failures-report-in-lync-server-2013"></a>Rapport des principales défaillances dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="top-failures-report-in-lync-server-2013"></a>Rapport des principales défaillances dans Lync Server 2013
+
 
 </div>
 
@@ -117,7 +119,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <ul>
 <li><p>Tous les</p></li>
 <li><p>Pair à pair</p></li>
-<li><p>Salle</p></li>
+<li><p>Conférence</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -135,7 +137,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <li><p>Échecs attendus et inattendus</p></li>
 <li><p>Échec inattendu</p></li>
 </ul>
-<p>Un &quot;échec&quot; attendu est un échec qui est attendu. Par exemple, si un utilisateur a défini son statut en Ne pas déranger, vous attendez que tout appel à cette personne échoue. Un &quot;échec&quot; inattendu est un échec qui se produit dans le cas d’un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
+<p>Un &quot; échec attendu &quot; est un échec qui est attendu. Par exemple, si un utilisateur a défini son statut en Ne pas déranger, vous attendez que tout appel à cette personne échoue. Un &quot; échec inattendu &quot; est un échec qui se produit dans le cas d’un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Code de réponse </strong>.</p></td>

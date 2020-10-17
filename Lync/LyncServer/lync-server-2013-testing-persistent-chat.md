@@ -12,20 +12,22 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2177e4fce4d32bb2dc6c82e1f3fecae367eb2543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504071"
 ---
+# <a name="testing-persistent-chat-in-lync-server-2013"></a>Test de la conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-persistent-chat-in-lync-server-2013"></a>Test de la conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -74,7 +76,7 @@ L’applet de commande **test-cspersistentchatmessage ne** vérifie qu’une pai
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Les commandes illustrées dans l’exemple suivant testent la capacité d’une paire d’utilisateurs\\(litwareinc Pilar\\et litwareinc kenmyer) à se connecter à Lync Server 2013, puis à échanger des messages à l’aide du service de conversation permanente. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Pilar Ackerman. (Étant donné que le nom de\\connexion, litwareinc Pilar, a été inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Pilar Ackerman.) L’objet Credentials qui en résulte est ensuite stocké dans une variable nommée $cred 1. La deuxième commande effectue la même action, en retournant cette fois un objet d’identification pour le compte de Ken Myer.
+Les commandes illustrées dans l’exemple suivant testent la capacité d’une paire d’utilisateurs (litwareinc \\ Pilar et litwareinc \\ kenmyer) à se connecter à Lync Server 2013, puis à échanger des messages à l’aide du service de conversation permanente. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Pilar Ackerman. (Étant donné que le nom de connexion, litwareinc \\ Pilar, a été inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Pilar Ackerman.) L’objet Credentials qui en résulte est ensuite stocké dans une variable nommée $cred 1. La deuxième commande effectue la même action, en retournant cette fois un objet d’identification pour le compte de Ken Myer.
 
 Avec les objets Credential en main, la troisième commande détermine si ces deux utilisateurs peuvent se connecter à Lync Server 2013 et échanger des messages à l’aide de la conversation permanente. Pour effectuer cette tâche, la cmdlet **test-cspersistentchatmessage ne** est appelée à l’aide des paramètres suivants : TargetFqdn (nom de domaine complet du pool de serveurs d’inscriptions); SenderSipAddress (l’adresse SIP pour le premier utilisateur test); SenderCredential (l’objet Windows PowerShell qui contient les informations d’identification pour ce même utilisateur); ReceiverSipAddress (l’adresse SIP de l’autre utilisateur de test); et ReceiverCredential (l’objet Windows PowerShell qui contient les informations d’identification pour l’autre utilisateur de test).
 
@@ -127,7 +129,7 @@ ne répond pas correctement au bout d’un certain temps, ou
 
 échec de la connexion établie car l’hôte connecté a
 
-échec de la \[réponse 2001:4898 : E8 : f39e : 5c9a : ad83:81b3 :\]9944 :: 5061
+échec de la réponse \[ 2001:4898 : E8 : f39e : 5c9a : ad83:81b3:9944 :: \] 5061
 
 Exception interne : une tentative de connexion a échoué car le
 
@@ -137,7 +139,7 @@ heure ou échec de la connexion établie car l’hôte connecté
 
 n’a pas répondu
 
-\[2001:4898 : E8 : f39e : 5c9a : ad83:81b3:9944\]:: 5061
+\[2001:4898 : E8 : f39e : 5c9a : ad83:81b3:9944 : \] : 5061
 
 Diagnostique
 

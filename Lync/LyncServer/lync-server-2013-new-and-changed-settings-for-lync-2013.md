@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505431"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Paramètres nouveaux et modifiés pour Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Paramètres nouveaux et modifiés pour Lync 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Cette rubrique traite des modifications apportées aux applets de commande Lync 
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Lorsque ce paramètre est défini sur true, le suivi de logiciel est activé dans Lync ; Lorsque la valeur est false, le suivi de logiciel est désactivé. Le suivi des logiciels implique de conserver un enregistrement détaillé de tous les éléments qu’un programme effectue (y compris les appels d’API de suivi). Le suivi est principalement utile aux développeurs et au personnel de support des applications. Ce paramètre équivaut au paramètre &quot;de stratégie de groupe Communications Server 2007 R2 activer le suivi pour Communicator. &quot; Les paramètres sont les suivants :</p>
+<td><p>Lorsque ce paramètre est défini sur true, le suivi de logiciel est activé dans Lync ; Lorsque la valeur est false, le suivi de logiciel est désactivé. Le suivi des logiciels implique de conserver un enregistrement détaillé de tous les éléments qu’un programme effectue (y compris les appels d’API de suivi). Le suivi est principalement utile aux développeurs et au personnel de support des applications. Ce paramètre équivaut au paramètre de stratégie de groupe Communications Server 2007 R2 &quot; activer le suivi pour Communicator. &quot; Les paramètres sont les suivants :</p>
 <ul>
 <li><p>Off = Le suivi est désactivé et l’utilisateur ne peut pas modifier le paramètre.</p></li>
 <li><p>Light = Un suivi minimal est assuré et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
@@ -77,7 +79,7 @@ Cette rubrique traite des modifications apportées aux applets de commande Lync 
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Lorsque la valeur est true, toutes les réunions Lync sont &quot;traitées comme des grandes réunions. &quot; Avec une grande réunion, des restrictions sont placées sur le nombre de notifications envoyées aux participants, en plus de la taille de la liste de réunions qui est transmise par défaut.</p></td>
+<td><p>Lorsque la valeur est true, toutes les réunions Lync sont traitées comme des &quot; grandes réunions. &quot; Avec une grande réunion, des restrictions sont placées sur le nombre de notifications envoyées aux participants, en plus de la taille de la liste de réunions qui est transmise par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -151,7 +153,7 @@ Cette rubrique traite des modifications apportées aux applets de commande Lync 
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
 <td><p>Le paramètre EnableSQMData de la cmdlet Set-CSClientPolicy a été supprimé dans Lync Server 2013. À la place, vous pouvez utiliser le paramètre de stratégie de groupe des données de Gestion de la qualité logicielle (SQM, Software Quality Management) pour déterminer l’interface utilisateur de l’option d’amélioration de l’expérience utilisateur dans la page d’options Général du client Lync :</p>
-<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>Value</p>
 <p>1 = Afficher et activer la case à cocher (l’utilisateur peut désactiver cette case à cocher)</p>
 <p>0 = Désactiver la case à cocher (l’utilisateur ne peut pas remplacer cette valeur)</p>

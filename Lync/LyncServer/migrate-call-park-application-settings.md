@@ -12,20 +12,22 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2789a8a83c8f3ee831fb91c85999d936ea54dd8b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f63b91c6a742310d14031bdadc28cbc6ca57e115
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757005"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503561"
 ---
+# <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
+
 
 </div>
 
@@ -66,7 +68,7 @@ Les paramètres de l’application de parcage d’appel incluent le seuil du dé
     
     </div>
     ```powershell
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" <LS2010 CPS TimeSpan> "-EnableMusicOnHold" <LS2010 CPS value> "-valeur maxcallpickupattempts" <LS2010 CPS pickup attempts> "-OnTimeoutURI" <LS2010 CPS timeout URI> "```
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" <LS2010 CPS TimeSpan> "-EnableMusicOnHold" <LS2010 CPS value> "-valeur maxcallpickupattempts" <LS2010 CPS pickup attempts> "-OnTimeoutURI" <LS2010 CPS timeout URI> " ```
 
 Pour réaffecter toutes les plages d’orbites de parcage d’appel du pool Lync Server 2010 au pool Lync Server 2013, vous pouvez utiliser le panneau de configuration Lync Server ou Lync Server Management Shell.
 

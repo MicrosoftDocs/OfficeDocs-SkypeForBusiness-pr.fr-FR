@@ -12,20 +12,22 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9be82373d33dafba7a5cf3e967b162ab5d33b01e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504331"
 ---
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Définition de la configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Définition de la configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
+
 
 </div>
 
@@ -45,11 +47,11 @@ La principale tâche de planification pour la messagerie instantanée et la pré
 
 Vous pouvez grandement augmenter les avantages de votre investissement dans Lync Server en permettant à vos utilisateurs de communiquer avec des utilisateurs externes. Les utilisateurs externes peuvent inclure les catégories suivantes :
 
-  - **Utilisateurs distants**   les utilisateurs de votre organisation, lorsqu’ils travaillent à l’extérieur de vos pare-feu et qu’ils utilisent leur ordinateur portable ou d’autres appareils Lync Server.
+  - Utilisateurs distants **Remote users**     Les utilisateurs de votre organisation, lorsqu’ils travaillent à l’extérieur de vos pare-feu et qu’ils utilisent leur ordinateur portable ou d’autres appareils Lync Server.
 
-  - **Utilisateurs fédérés**   utilisateurs de sociétés avec qui exécutent également Lync Server. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises.
+  - **Utilisateurs fédérés**     Les utilisateurs des entreprises avec lesquelles vous travaillez et qui exécutent également Lync Server. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises.
 
-  - **Utilisateurs publics utilisateurs**   de services de messagerie instantanée publics, tels que les services de messagerie instantanée fournis par le réseau Windows Live\!des services Internet, Yahoo et AOL, ainsi que les utilisateurs de fournisseurs et de serveurs qui utilisent le protocole XMPP (extensible Messaging and Presence Protocol), comme Google Talk.
+  - **Utilisateurs publics**     Les utilisateurs de services de messagerie instantanée publics, tels que les services de messagerie instantanée fournis par le réseau Windows Live des services Internet, Yahoo \! et AOL, ainsi que les utilisateurs de fournisseurs et de serveurs qui utilisent le protocole XMPP (extensible Messaging and Presence Protocol), tels que Google Talk.
     
     <div>
     
