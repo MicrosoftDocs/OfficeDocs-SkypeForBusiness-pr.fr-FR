@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion du contrôle d’admission des appels'
+description: 'Lync Server 2013 : gestion du contrôle d’admission des appels.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9663f867e38319b0105373af81c8857be3e1abe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0a1c01bff6d1dce48dea314b6704cc0f5ff7d6b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505951"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549460"
 ---
-# <a name="managing-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="03c8a-102">Gestion du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-102">Managing call admission control in Lync Server 2013</span></span>
+# <a name="managing-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="23069-103">Gestion du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-103">Managing call admission control in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,38 +38,38 @@ ms.locfileid: "48505951"
 
 <span> </span>
 
-<span data-ttu-id="03c8a-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="03c8a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="23069-104">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="23069-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="03c8a-104">Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.</span><span class="sxs-lookup"><span data-stu-id="03c8a-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span> <span data-ttu-id="03c8a-105">Utilisez les procédures suivantes pour gérer les différentes fonctionnalités CAC pour votre environnement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="03c8a-105">Use the following procedures to manage different CAC features for your Lync Server 2013 environment.</span></span>
+<span data-ttu-id="23069-105">Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.</span><span class="sxs-lookup"><span data-stu-id="23069-105">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span> <span data-ttu-id="23069-106">Utilisez les procédures suivantes pour gérer les différentes fonctionnalités CAC pour votre environnement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="23069-106">Use the following procedures to manage different CAC features for your Lync Server 2013 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="03c8a-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="03c8a-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="23069-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="23069-107">In This Section</span></span>
 
-  - [<span data-ttu-id="03c8a-107">Activation du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-107">Enabling call admission control in Lync Server 2013</span></span>](lync-server-2013-enabling-call-admission-control.md)
+  - [<span data-ttu-id="23069-108">Activation du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-108">Enabling call admission control in Lync Server 2013</span></span>](lync-server-2013-enabling-call-admission-control.md)
 
-  - [<span data-ttu-id="03c8a-108">Gestion des profils de stratégie de bande passante réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-108">Managing network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
+  - [<span data-ttu-id="23069-109">Gestion des profils de stratégie de bande passante réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-109">Managing network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 
-  - [<span data-ttu-id="03c8a-109">Régions réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-109">Network regions in Lync Server 2013</span></span>](lync-server-2013-network-regions.md)
+  - [<span data-ttu-id="23069-110">Régions réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-110">Network regions in Lync Server 2013</span></span>](lync-server-2013-network-regions.md)
 
-  - [<span data-ttu-id="03c8a-110">Itinéraires de région réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-110">Network region routes in Lync Server 2013</span></span>](lync-server-2013-network-region-routes.md)
+  - [<span data-ttu-id="23069-111">Itinéraires de région réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-111">Network region routes in Lync Server 2013</span></span>](lync-server-2013-network-region-routes.md)
 
-  - [<span data-ttu-id="03c8a-111">Contrôle d’admission des appels pour les sites dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-111">Call admission control for sites in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-for-sites.md)
+  - [<span data-ttu-id="23069-112">Contrôle d’admission des appels pour les sites dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-112">Call admission control for sites in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-for-sites.md)
 
-  - [<span data-ttu-id="03c8a-112">Activation et désactivation de la déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-112">Enabling and disabling media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-media-bypass.md)
+  - [<span data-ttu-id="23069-113">Activation et désactivation de la déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-113">Enabling and disabling media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-media-bypass.md)
 
-  - [<span data-ttu-id="03c8a-113">Liaison de régions réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-113">Linking network regions in Lync Server 2013</span></span>](lync-server-2013-linking-network-regions.md)
+  - [<span data-ttu-id="23069-114">Liaison de régions réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-114">Linking network regions in Lync Server 2013</span></span>](lync-server-2013-linking-network-regions.md)
 
-  - [<span data-ttu-id="03c8a-114">Gestion des sous-réseaux réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-114">Managing network subnets in Lync Server 2013</span></span>](lync-server-2013-managing-network-subnets.md)
+  - [<span data-ttu-id="23069-115">Gestion des sous-réseaux réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-115">Managing network subnets in Lync Server 2013</span></span>](lync-server-2013-managing-network-subnets.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="03c8a-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="03c8a-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="23069-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="23069-116">See Also</span></span>
 
 
-[<span data-ttu-id="03c8a-116">Vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03c8a-116">Overview of call admission control in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-admission-control.md)  
+[<span data-ttu-id="23069-117">Vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23069-117">Overview of call admission control in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-admission-control.md)  
   
 
 </div>

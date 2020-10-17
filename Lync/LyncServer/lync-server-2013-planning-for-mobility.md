@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : planification de la mobilité'
+description: 'Lync Server 2013 : planification de la mobilité.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7897ff7f34ecd1881cc18bc5e305d42dd18c7bb8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0fe5517291726b691739aab69f6c4516a386a80e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521981"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549420"
 ---
-# <a name="planning-for-mobility-in-lync-server-2013"></a><span data-ttu-id="a2245-102">Planification de la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2245-102">Planning for mobility in Lync Server 2013</span></span>
+# <a name="planning-for-mobility-in-lync-server-2013"></a><span data-ttu-id="f6f1b-103">Planification de la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6f1b-103">Planning for mobility in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48521981"
 
 <span> </span>
 
-<span data-ttu-id="a2245-103">_**Dernière modification de la rubrique :** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="a2245-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="f6f1b-104">_**Dernière modification de la rubrique :** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="f6f1b-104">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="a2245-104">Avec Lync Server 2013, vous pouvez déployer la fonctionnalité de mobilité pour fournir les fonctionnalités Lync 2013 sur les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="a2245-104">With Lync Server 2013, you can deploy the mobility feature to provide Lync 2013 functionality on mobile devices.</span></span> <span data-ttu-id="a2245-105">Cette section fournit des détails sur la fonctionnalité de mobilité et la planification de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="a2245-105">This section provides details about the mobility feature and how to plan for your deployment.</span></span>
+<span data-ttu-id="f6f1b-105">Avec Lync Server 2013, vous pouvez déployer la fonctionnalité de mobilité pour fournir les fonctionnalités Lync 2013 sur les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="f6f1b-105">With Lync Server 2013, you can deploy the mobility feature to provide Lync 2013 functionality on mobile devices.</span></span> <span data-ttu-id="f6f1b-106">Cette section fournit des détails sur la fonctionnalité de mobilité et la planification de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="f6f1b-106">This section provides details about the mobility feature and how to plan for your deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a2245-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a2245-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f6f1b-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f6f1b-107">In This Section</span></span>
 
-  - [<span data-ttu-id="a2245-107">Fonctionnalités et fonctionnalités de mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2245-107">Mobility features and capabilities in Lync Server 2013</span></span>](lync-server-2013-mobility-features-and-capabilities.md)
+  - [<span data-ttu-id="f6f1b-108">Fonctionnalités et fonctionnalités de mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6f1b-108">Mobility features and capabilities in Lync Server 2013</span></span>](lync-server-2013-mobility-features-and-capabilities.md)
 
-  - [<span data-ttu-id="a2245-108">Topologies et composants pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2245-108">Topologies and components for mobility in Lync Server 2013</span></span>](lync-server-2013-topologies-and-components-for-mobility.md)
+  - [<span data-ttu-id="f6f1b-109">Topologies et composants pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6f1b-109">Topologies and components for mobility in Lync Server 2013</span></span>](lync-server-2013-topologies-and-components-for-mobility.md)
 
-  - [<span data-ttu-id="a2245-109">Configuration technique requise pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2245-109">Technical requirements for mobility in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-mobility.md)
+  - [<span data-ttu-id="f6f1b-110">Configuration technique requise pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6f1b-110">Technical requirements for mobility in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-mobility.md)
 
-  - [<span data-ttu-id="a2245-110">Définition de la configuration requise pour la mobilité pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2245-110">Defining your mobility requirements for Lync Server 2013</span></span>](lync-server-2013-defining-your-mobility-requirements.md)
+  - [<span data-ttu-id="f6f1b-111">Définition de la configuration requise pour la mobilité pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6f1b-111">Defining your mobility requirements for Lync Server 2013</span></span>](lync-server-2013-defining-your-mobility-requirements.md)
 
-  - [<span data-ttu-id="a2245-111">Processus de déploiement pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2245-111">Deployment process for mobility in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-mobility.md)
+  - [<span data-ttu-id="f6f1b-112">Processus de déploiement pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6f1b-112">Deployment process for mobility in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-mobility.md)
 
 </div>
 

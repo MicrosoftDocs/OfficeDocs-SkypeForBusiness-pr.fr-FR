@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration du mode de confidentialité améliorée de la présence'
+description: 'Lync Server 2013 : configuration du mode de confidentialité améliorée de la présence.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a06a7bf01664c260ace3a86537665e185b64f8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c8eab347d233c23a9a4becf119dee673d3021dfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532601"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548450"
 ---
-# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a><span data-ttu-id="e9abb-102">Configuration du mode de confidentialité améliorée de la présence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9abb-102">Configuring enhanced presence privacy mode in Lync Server 2013</span></span>
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a><span data-ttu-id="be500-103">Configuration du mode de confidentialité améliorée de la présence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be500-103">Configuring enhanced presence privacy mode in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,20 +38,20 @@ ms.locfileid: "48532601"
 
 <span> </span>
 
-<span data-ttu-id="e9abb-103">_**Dernière modification de la rubrique :** 2014-12-08_</span><span class="sxs-lookup"><span data-stu-id="e9abb-103">_**Topic Last Modified:** 2014-12-08_</span></span>
+<span data-ttu-id="be500-104">_**Dernière modification de la rubrique :** 2014-12-08_</span><span class="sxs-lookup"><span data-stu-id="be500-104">_**Topic Last Modified:** 2014-12-08_</span></span>
 
-<span data-ttu-id="e9abb-104">Grâce au mode de confidentialité de la présence enrichie, les utilisateurs peuvent restreindre leur information de présence afin qu’ils soient visibles uniquement par les contacts répertoriés dans la liste de contacts Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e9abb-104">With enhanced presence privacy mode, users can restrict their presence information so that it is visible only to the contacts listed in their Lync 2013 Contacts list.</span></span> <span data-ttu-id="e9abb-105">Les cmdlets **New-CsPrivacyConfiguration**   et **Set-CsPrivacyConfiguration** ont un paramètre EnablePrivacyMode contrôle cette option.</span><span class="sxs-lookup"><span data-stu-id="e9abb-105">The **New-CsPrivacyConfiguration** and **Set-CsPrivacyConfiguration** cmdlets have an EnablePrivacyMode parameter controls this option.</span></span> <span data-ttu-id="e9abb-106">Lorsque EnablePrivacyMode est défini sur true, l’option de restriction des informations de présence aux contacts devient disponible dans les options d’état de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e9abb-106">When EnablePrivacyMode is set to True, the option to restrict presence information to contacts becomes available in the Lync 2013 Status options.</span></span> <span data-ttu-id="e9abb-107">Lorsque l’option EnablePrivacyMode est définie sur False, les utilisateurs peuvent choisir de toujours autoriser les utilisateurs à consulter leurs informations de présence ou d’accepter toutes les futures modifications que l’administrateur apporte au mode de confidentialité.</span><span class="sxs-lookup"><span data-stu-id="e9abb-107">When EnablePrivacyMode is set to False, users can choose either to always allow everyone to see their presence information or to adhere to any future changes the administrator makes to the privacy mode.</span></span>
+<span data-ttu-id="be500-105">Grâce au mode de confidentialité de la présence enrichie, les utilisateurs peuvent restreindre leur information de présence afin qu’ils soient visibles uniquement par les contacts répertoriés dans la liste de contacts Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="be500-105">With enhanced presence privacy mode, users can restrict their presence information so that it is visible only to the contacts listed in their Lync 2013 Contacts list.</span></span> <span data-ttu-id="be500-106">Les cmdlets **New-CsPrivacyConfiguration**   et **Set-CsPrivacyConfiguration** ont un paramètre EnablePrivacyMode contrôle cette option.</span><span class="sxs-lookup"><span data-stu-id="be500-106">The **New-CsPrivacyConfiguration** and **Set-CsPrivacyConfiguration** cmdlets have an EnablePrivacyMode parameter controls this option.</span></span> <span data-ttu-id="be500-107">Lorsque EnablePrivacyMode est défini sur true, l’option de restriction des informations de présence aux contacts devient disponible dans les options d’état de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="be500-107">When EnablePrivacyMode is set to True, the option to restrict presence information to contacts becomes available in the Lync 2013 Status options.</span></span> <span data-ttu-id="be500-108">Lorsque l’option EnablePrivacyMode est définie sur False, les utilisateurs peuvent choisir de toujours autoriser les utilisateurs à consulter leurs informations de présence ou d’accepter toutes les futures modifications que l’administrateur apporte au mode de confidentialité.</span><span class="sxs-lookup"><span data-stu-id="be500-108">When EnablePrivacyMode is set to False, users can choose either to always allow everyone to see their presence information or to adhere to any future changes the administrator makes to the privacy mode.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="e9abb-108">Les paramètres de confidentialité de Lync 2013 et Lync 2010 ne sont pas honorés par les versions antérieures (Microsoft Office Communicator 2007 R2 ou Microsoft Office Communicator 2007).</span><span class="sxs-lookup"><span data-stu-id="e9abb-108">Lync 2013 and Lync 2010 privacy settings are not honored by previous versions (Microsoft Office Communicator 2007 R2 or Microsoft Office Communicator 2007).</span></span> <span data-ttu-id="e9abb-109">Si les versions précédentes d’Office Communicator sont autorisées à se connecter, le statut de l’utilisateur Lync 2013, les informations de contact ou l’image peuvent être affichés par une personne qui n’a pas été autorisée à l’afficher.</span><span class="sxs-lookup"><span data-stu-id="e9abb-109">If previous versions of Office Communicator are allowed to sign in, a Lync 2013 user’s status, contact information, or picture could be viewed by someone who has not been authorized to view it.</span></span> <span data-ttu-id="e9abb-110">De plus, les paramètres de confidentialité de l’utilisateur Lync 2013 sont réinitialisés s’il se connecte ultérieurement à l’aide d’une version précédente de Communicator.</span><span class="sxs-lookup"><span data-stu-id="e9abb-110">Additionally, a Lync 2013 user’s privacy settings are reset if he or she later signs in with previous version of Communicator.</span></span><BR><span data-ttu-id="e9abb-111">Pour ces raisons, dans un scénario de migration, avant de pouvoir activer le mode de confidentialité améliorée de la présence :</span><span class="sxs-lookup"><span data-stu-id="e9abb-111">For these reasons, in a migration scenario, before you enable enhanced presence privacy mode:</span></span> 
+> <span data-ttu-id="be500-109">Les paramètres de confidentialité de Lync 2013 et Lync 2010 ne sont pas honorés par les versions antérieures (Microsoft Office Communicator 2007 R2 ou Microsoft Office Communicator 2007).</span><span class="sxs-lookup"><span data-stu-id="be500-109">Lync 2013 and Lync 2010 privacy settings are not honored by previous versions (Microsoft Office Communicator 2007 R2 or Microsoft Office Communicator 2007).</span></span> <span data-ttu-id="be500-110">Si les versions précédentes d’Office Communicator sont autorisées à se connecter, le statut de l’utilisateur Lync 2013, les informations de contact ou l’image peuvent être affichés par une personne qui n’a pas été autorisée à l’afficher.</span><span class="sxs-lookup"><span data-stu-id="be500-110">If previous versions of Office Communicator are allowed to sign in, a Lync 2013 user’s status, contact information, or picture could be viewed by someone who has not been authorized to view it.</span></span> <span data-ttu-id="be500-111">De plus, les paramètres de confidentialité de l’utilisateur Lync 2013 sont réinitialisés s’il se connecte ultérieurement à l’aide d’une version précédente de Communicator.</span><span class="sxs-lookup"><span data-stu-id="be500-111">Additionally, a Lync 2013 user’s privacy settings are reset if he or she later signs in with previous version of Communicator.</span></span><BR><span data-ttu-id="be500-112">Pour ces raisons, dans un scénario de migration, avant de pouvoir activer le mode de confidentialité améliorée de la présence :</span><span class="sxs-lookup"><span data-stu-id="be500-112">For these reasons, in a migration scenario, before you enable enhanced presence privacy mode:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="e9abb-112">Assurez-vous que Lync 2013 est installé sur chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e9abb-112">Ensure that every user has Lync 2013 installed.</span></span></P>
+> <P><span data-ttu-id="be500-113">Assurez-vous que Lync 2013 est installé sur chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="be500-113">Ensure that every user has Lync 2013 installed.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="e9abb-113">Définissez une règle de stratégie de version de client empêchant les versions précédentes de Communicator de se connecter.</span><span class="sxs-lookup"><span data-stu-id="e9abb-113">Define a client version policy rule to prevent previous versions of Communicator from signing in.</span></span></P></LI></UL>
+> <P><span data-ttu-id="be500-114">Définissez une règle de stratégie de version de client empêchant les versions précédentes de Communicator de se connecter.</span><span class="sxs-lookup"><span data-stu-id="be500-114">Define a client version policy rule to prevent previous versions of Communicator from signing in.</span></span></P></LI></UL>
 
 
 
@@ -58,26 +59,26 @@ ms.locfileid: "48532601"
 
 <div>
 
-## <a name="to-enable-enhanced-presence-privacy-mode"></a><span data-ttu-id="e9abb-114">Pour activer le mode de confidentialité améliorée de la présence</span><span class="sxs-lookup"><span data-stu-id="e9abb-114">To enable enhanced presence privacy mode</span></span>
+## <a name="to-enable-enhanced-presence-privacy-mode"></a><span data-ttu-id="be500-115">Pour activer le mode de confidentialité améliorée de la présence</span><span class="sxs-lookup"><span data-stu-id="be500-115">To enable enhanced presence privacy mode</span></span>
 
-1.  <span data-ttu-id="e9abb-115">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="e9abb-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="be500-116">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="be500-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="e9abb-116">Exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="e9abb-116">Run the following command:</span></span>
+2.  <span data-ttu-id="be500-117">Exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="be500-117">Run the following command:</span></span>
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    <span data-ttu-id="e9abb-117">Cette commande active le mode confidentialité pour tous les paramètres de confidentialité utilisés actuellement dans votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="e9abb-117">This command enables privacy mode for all the privacy configuration settings currently in use in the organization.</span></span> <span data-ttu-id="e9abb-118">Pour plus d’informations sur la façon dont les configurations de stratégie de mode de confidentialité de la présence améliorée de Lync Server gère la présence du contact pour le client Lync 2013, voir l’article de la base de connaissances Microsoft [activation du mode de confidentialité Enhanced presence de Lync Server met à jour l’état de présence de certains contacts Lync sur « indisponible »](https://support.microsoft.com/kb/3020057).</span><span class="sxs-lookup"><span data-stu-id="e9abb-118">For more information about how the Lync Server enhanced presence privacy mode policy configurations manages contact presence for the Lync 2013 client, see the Microsoft KB article [Enabling Lync Server enhanced presence privacy mode updates the presence status of some Lync contacts to "unavailable"](https://support.microsoft.com/kb/3020057).</span></span>
+    <span data-ttu-id="be500-118">Cette commande active le mode confidentialité pour tous les paramètres de confidentialité utilisés actuellement dans votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="be500-118">This command enables privacy mode for all the privacy configuration settings currently in use in the organization.</span></span> <span data-ttu-id="be500-119">Pour plus d’informations sur la façon dont les configurations de stratégie de mode de confidentialité de la présence améliorée de Lync Server gère la présence du contact pour le client Lync 2013, voir l’article de la base de connaissances Microsoft [activation du mode de confidentialité Enhanced presence de Lync Server met à jour l’état de présence de certains contacts Lync sur « indisponible »](https://support.microsoft.com/kb/3020057).</span><span class="sxs-lookup"><span data-stu-id="be500-119">For more information about how the Lync Server enhanced presence privacy mode policy configurations manages contact presence for the Lync 2013 client, see the Microsoft KB article [Enabling Lync Server enhanced presence privacy mode updates the presence status of some Lync contacts to "unavailable"](https://support.microsoft.com/kb/3020057).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e9abb-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e9abb-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="be500-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="be500-120">See Also</span></span>
 
 
-[<span data-ttu-id="e9abb-120">Get-CsPrivacyConfiguration</span><span class="sxs-lookup"><span data-stu-id="e9abb-120">Get-CsPrivacyConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsPrivacyConfiguration)  
-[<span data-ttu-id="e9abb-121">New-CsPrivacyConfiguration</span><span class="sxs-lookup"><span data-stu-id="e9abb-121">New-CsPrivacyConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsPrivacyConfiguration)  
-[<span data-ttu-id="e9abb-122">Set-CsPrivacyConfiguration</span><span class="sxs-lookup"><span data-stu-id="e9abb-122">Set-CsPrivacyConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration)  
+[<span data-ttu-id="be500-121">Get-CsPrivacyConfiguration</span><span class="sxs-lookup"><span data-stu-id="be500-121">Get-CsPrivacyConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsPrivacyConfiguration)  
+[<span data-ttu-id="be500-122">New-CsPrivacyConfiguration</span><span class="sxs-lookup"><span data-stu-id="be500-122">New-CsPrivacyConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsPrivacyConfiguration)  
+[<span data-ttu-id="be500-123">Set-CsPrivacyConfiguration</span><span class="sxs-lookup"><span data-stu-id="be500-123">Set-CsPrivacyConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration)  
   
 
 </div>
