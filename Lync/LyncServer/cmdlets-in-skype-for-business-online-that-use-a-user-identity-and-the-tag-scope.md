@@ -1,5 +1,6 @@
 ---
 title: Applets de commande dans Skype entreprise Online qui utilisent une identité d’utilisateur et l’étendue de la balise
+description: Applets de commande dans Skype entreprise Online qui utilisent une identité d’utilisateur et l’étendue de la balise.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3e2ddbcc9c90096cea5fad4cb680f4ea1797ce48
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755116"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545610"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>Applets de commande dans Skype entreprise Online qui utilisent une identité d’utilisateur et l’étendue de la balise
 

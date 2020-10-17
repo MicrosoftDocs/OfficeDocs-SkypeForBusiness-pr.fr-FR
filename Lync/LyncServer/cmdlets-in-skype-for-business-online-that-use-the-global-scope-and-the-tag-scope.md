@@ -1,5 +1,6 @@
 ---
 title: Applets de commande dans Skype entreprise Online qui utilisent l’étendue globale et l’étendue de la balise
+description: Applets de commande dans Skype entreprise Online qui utilisent l’étendue globale et l’étendue de la balise.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba89ebe7322159027c5de765117afd366cb3dc23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755074"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545620"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Applets de commande dans Skype entreprise Online qui utilisent l’étendue globale et l’étendue de la balise
 
@@ -39,7 +40,7 @@ Pour renvoyer une stratégie par utilisateur dont l’identité est « RedmondA
 
 
 > [!NOTE]  
-> Lorsque vous faites référence à une stratégie utilisateur, le <STRONG>préfixe</STRONG> de balise est facultatif. Cette syntaxe, qui inclut le préfixe, est également valide :<BR>Get-CsExternalAccessPolicy – Identity "tag : RedmondAccessPolicy"
+> Lorsque vous faites référence à une stratégie utilisateur, le <STRONG>préfixe</STRONG> de balise est facultatif. Cette syntaxe, qui inclut le préfixe, est également valide :<BR>Get-CsExternalAccessPolicy-Identity» : RedmondAccessPolicy
 
 
 

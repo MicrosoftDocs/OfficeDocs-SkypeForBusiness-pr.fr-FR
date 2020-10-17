@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : applets de commande Windows PowerShell pour la gestion des carnets d’adresses'
+description: 'Lync Server 2013 : applets de commande Windows PowerShell pour la gestion des carnets d’adresses.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b598d91a4d1a29a67d8f8ceb2477f2d9b96f1319
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535321"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546020"
 ---
 # <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Applets de commande Windows PowerShell pour les services de carnet d’adresses dans Lync Server 2013
 

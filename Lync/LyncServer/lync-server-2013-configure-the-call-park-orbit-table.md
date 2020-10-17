@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration de la table d’orbites de parcage d’appel'
+description: 'Lync Server 2013 : configurez la table d’orbites de parcage d’appel.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0f4de5568dc8d265acd412999aafc814c68dbc9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ce9fb35c2958a426888d83d075064c88ddae4bfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520361"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544980"
 ---
 # <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>Configuration de la table d’orbites de parcage d’appel dans Lync Server 2013
 

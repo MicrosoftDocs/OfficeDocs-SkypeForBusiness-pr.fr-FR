@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration de la stratégie globale pour la conversation permanente'
+description: 'Lync Server 2013 : configurez la stratégie globale pour la conversation permanente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b883a650a4430ee286c4824e49711e47e1509e26
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 830074c31791ee8ff489d9a67af189be609c7f4c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520331"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544940"
 ---
 # <a name="configure-the-global-policy-for-persistent-chat-in-lync-server-2013"></a>Configurer la stratégie globale pour la conversation permanente dans Lync Server 2013
 

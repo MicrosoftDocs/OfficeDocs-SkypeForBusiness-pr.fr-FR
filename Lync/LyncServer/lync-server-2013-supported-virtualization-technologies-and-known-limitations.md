@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : technologies de virtualisation prises en charge et limitations connues'
+description: 'Lync Server 2013 : technologies de virtualisation prises en charge et limitations connues.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61d2d884566c21933e00dd3897f5fe394b4a2624
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 745fa535462d29342f4c0a58674ee6487db42a6f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523931"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544610"
 ---
 # <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Technologies de virtualisation prises en charge et limitations connues dans Lync Server 2013
 

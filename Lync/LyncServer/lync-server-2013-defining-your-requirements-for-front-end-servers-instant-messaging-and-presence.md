@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : définition de la configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence'
+description: 'Lync Server 2013 : définition de la configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 923132b32d5aef80191b19a7b85c3f17276e5946
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504331"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545370"
 ---
 # <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Définition de la configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
 
