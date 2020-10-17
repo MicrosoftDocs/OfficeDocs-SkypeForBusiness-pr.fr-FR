@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : instructions de configuration spéciales pour les transactions synthétiques'
+description: 'Lync Server 2013 : instructions de configuration spéciales pour les transactions synthétiques.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3841cb8a582e44e14b9ae7c73f3b3aed6b6ded33
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7e288a9d7f15f4b84df591d152a912509c77129a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519571"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551320"
 ---
 # <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Instructions de configuration spéciales pour les transactions synthétiques dans Lync Server 2013
 

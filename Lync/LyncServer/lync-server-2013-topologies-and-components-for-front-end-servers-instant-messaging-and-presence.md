@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : topologies et composants pour les serveurs frontaux, la messagerie instantanée et la présence'
+description: 'Lync Server 2013 : topologies et composants pour les serveurs frontaux, la messagerie instantanée et la présence.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 474911ef0e60d57151aa778688cf2e6a8e1bfcf7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503751"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550290"
 ---
 # <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologies et composants pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
 

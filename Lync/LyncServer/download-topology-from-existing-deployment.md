@@ -1,5 +1,6 @@
 ---
 title: Télécharger la topologie à partir d’un déploiement existant
+description: Télécharger la topologie à partir d’un déploiement existant.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 903b115eaa820245135e0bc2c3650ba596c5d925
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c22d746f8faf3fdf14a44e751eeb3c88bf3eef4c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502901"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551180"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Télécharger la topologie à partir d’un déploiement existant
 

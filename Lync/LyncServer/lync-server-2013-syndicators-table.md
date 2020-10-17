@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : table table syndicators'
+description: 'Lync Server 2013 : table table syndicators.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5aa9c6c41da7d2dc62d615a5838213ac82a66c01
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 97368512f9c90157a10f1ed71a04011244e974a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523861"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550870"
 ---
 # <a name="syndicators-table-in-lync-server-2013"></a>Table table syndicators dans Lync Server 2013
 

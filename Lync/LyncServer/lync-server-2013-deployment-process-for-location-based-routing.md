@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : processus de déploiement pour le routage des Location-Based'
+description: 'Lync Server 2013 : processus de déploiement pour le routage des Location-Based.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9d2dfa15dce07fa66678932d8d765ec7308ba75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2c321d9b0eada6e9501b2ded69120feae36be171
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526921"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551060"
 ---
 # <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Processus de déploiement pour le routage des Location-Based dans Lync Server 2013
 

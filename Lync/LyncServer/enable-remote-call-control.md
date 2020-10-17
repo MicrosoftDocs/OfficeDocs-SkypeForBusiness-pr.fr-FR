@@ -1,5 +1,6 @@
 ---
 title: Activer le contrôle d’appel distant
+description: Activer le contrôle d’appel distant.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502891"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551130"
 ---
 # <a name="enable-remote-call-control"></a>Activer le contrôle d’appel distant
 
@@ -55,7 +56,7 @@ Le contrôle d’appel distant permet aux utilisateurs de contrôler leurs tél�
 
 4.  Configurez les utilisateurs de Lync 2013 pour le contrôle d’appel distant en activant le contrôle d’appel distant et en affectant un URI (Uniform Resource Identifier) de serveur de ligne et un URI de ligne. Lorsque vous migrez des utilisateurs de votre déploiement hérité vers Lync Server 2013, les paramètres de contrôle d’appel distant sont migrés avec les autres paramètres utilisateur.
 
-5.  Si vous avez personnalisé vos règles de normalisation des numéros de téléphone du Carnet d’adresses dans votre déploiement hérité, vous devez effectuer certaines tâches manuelles une fois que la migration automatisée des stratégies et des paramètres est terminée, afin d’achever la migration des règles de normalisation personnalisées. Si vous n’avez pas personnalisé de règles de normalisation, le Carnet d’adresses est migré en même temps que le reste de votre topologie. Pour plus de détails sur la migration manuelle des règles de normalisation personnalisées,voir [Migrate Address Book](migrate-address-book_1.md).
+5.  Si vous avez personnalisé vos règles de normalisation des numéros de téléphone du Carnet d’adresses dans votre déploiement hérité, vous devez effectuer certaines tâches manuelles une fois que la migration automatisée des stratégies et des paramètres est terminée, afin d’achever la migration des règles de normalisation personnalisées. Si vous n’avez pas personnalisé de règles de normalisation, le Carnet d’adresses est migré en même temps que le reste de votre topologie. Pour plus de détails sur la migration manuelle des règles de normalisation personnalisées,voir [Migrate Address Book](migrate-address-book.md).
 
 </div>
 

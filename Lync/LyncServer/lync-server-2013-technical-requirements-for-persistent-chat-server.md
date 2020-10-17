@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration technique requise pour le serveur de conversation permanente'
+description: 'Lync Server 2013 : configuration technique requise pour le serveur de conversation permanente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 905563f31de36d41a48aea5fb8db3cfde9cb2434
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536131"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550330"
 ---
 # <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Configuration technique requise pour le serveur de conversation permanente dans Lync Server 2013
 
