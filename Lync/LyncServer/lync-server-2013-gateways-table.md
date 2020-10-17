@@ -12,20 +12,22 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddb3a0e781b5f505cb5a63d36eda73b98629e19b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b43adbf088e696b38ff8159e87e2b5b4e8608d38
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512661"
 ---
+# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="b7718-102">Tableau des passerelles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7718-102">Gateways table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="999f6-102">Tableau des passerelles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="999f6-102">Gateways table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213300"
 
 <span> </span>
 
-<span data-ttu-id="999f6-103">_**Dernière modification de la rubrique :** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="999f6-103">_**Topic Last Modified:** 2010-11-05_</span></span>
+<span data-ttu-id="b7718-103">_**Dernière modification de la rubrique :** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="b7718-103">_**Topic Last Modified:** 2010-11-05_</span></span>
 
-<span data-ttu-id="999f6-104">Le tableau des passerelles est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="999f6-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="999f6-105">Chaque enregistrement stocke des informations sur une passerelle impliquée dans des appels RTC (réseau téléphonique commuté) ayant des enregistrements dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="999f6-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
+<span data-ttu-id="b7718-104">Le tableau des passerelles est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="b7718-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="b7718-105">Chaque enregistrement stocke des informations sur une passerelle impliquée dans des appels RTC (réseau téléphonique commuté) ayant des enregistrements dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="b7718-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42213300"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="999f6-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="999f6-106">Column</span></span></th>
-<th><span data-ttu-id="999f6-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="999f6-107">Data Type</span></span></th>
-<th><span data-ttu-id="999f6-108">Clé/index</span><span class="sxs-lookup"><span data-stu-id="999f6-108">Key/Index</span></span></th>
-<th><span data-ttu-id="999f6-109">Détails</span><span class="sxs-lookup"><span data-stu-id="999f6-109">Details</span></span></th>
+<th><span data-ttu-id="b7718-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="b7718-106">Column</span></span></th>
+<th><span data-ttu-id="b7718-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="b7718-107">Data Type</span></span></th>
+<th><span data-ttu-id="b7718-108">Clé/index</span><span class="sxs-lookup"><span data-stu-id="b7718-108">Key/Index</span></span></th>
+<th><span data-ttu-id="b7718-109">Détails</span><span class="sxs-lookup"><span data-stu-id="b7718-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="999f6-110"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="999f6-110"><strong>GatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="999f6-111">int</span><span class="sxs-lookup"><span data-stu-id="999f6-111">int</span></span></p></td>
-<td><p><span data-ttu-id="999f6-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="999f6-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="999f6-113">Numéro unique identifiant cette passerelle.</span><span class="sxs-lookup"><span data-stu-id="999f6-113">Unique number identifying this gateway.</span></span></p></td>
+<td><p><span data-ttu-id="b7718-110"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="b7718-110"><strong>GatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="b7718-111">int</span><span class="sxs-lookup"><span data-stu-id="b7718-111">int</span></span></p></td>
+<td><p><span data-ttu-id="b7718-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="b7718-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="b7718-113">Numéro unique identifiant cette passerelle.</span><span class="sxs-lookup"><span data-stu-id="b7718-113">Unique number identifying this gateway.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="999f6-114"><strong>Passerelle</strong></span><span class="sxs-lookup"><span data-stu-id="999f6-114"><strong>Gateway</strong></span></span></p></td>
-<td><p><span data-ttu-id="999f6-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="999f6-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="b7718-114"><strong>Passerelle</strong></span><span class="sxs-lookup"><span data-stu-id="b7718-114"><strong>Gateway</strong></span></span></p></td>
+<td><p><span data-ttu-id="b7718-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="b7718-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="999f6-116">Nom de la passerelle.</span><span class="sxs-lookup"><span data-stu-id="999f6-116">Gateway name.</span></span></p></td>
+<td><p><span data-ttu-id="b7718-116">Nom de la passerelle.</span><span class="sxs-lookup"><span data-stu-id="b7718-116">Gateway name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
