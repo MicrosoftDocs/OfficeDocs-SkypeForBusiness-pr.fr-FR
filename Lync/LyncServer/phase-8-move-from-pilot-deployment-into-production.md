@@ -12,20 +12,22 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f572836c4ccb64fdb8bf85926e68dbcdbf5c712f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 13b5edff336b73b84183162bec3243a55f8aeb67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756453"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532901"
 ---
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a><span data-ttu-id="fe453-102">Phase 8 : passer d’un déploiement pilote en production</span><span class="sxs-lookup"><span data-stu-id="fe453-102">Phase 8: Move from pilot deployment into production</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a><span data-ttu-id="c56e4-102">Phase 8 : passer d’un déploiement pilote en production</span><span class="sxs-lookup"><span data-stu-id="c56e4-102">Phase 8: Move from pilot deployment into production</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "44756453"
 
 <span> </span>
 
-<span data-ttu-id="c56e4-103">_**Dernière modification de la rubrique :** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="c56e4-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="fe453-103">_**Dernière modification de la rubrique :** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="fe453-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="c56e4-104">Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de faire passer votre déploiement de Lync Server 2013 d’un déploiement pilote à un déploiement au niveau de la production.</span><span class="sxs-lookup"><span data-stu-id="c56e4-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="fe453-104">Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de faire passer votre déploiement de Lync Server 2013 d’un déploiement pilote à un déploiement au niveau de la production.</span><span class="sxs-lookup"><span data-stu-id="fe453-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c56e4-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c56e4-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fe453-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="fe453-105">In This Section</span></span>
 
-  - [<span data-ttu-id="c56e4-106">Configuration des itinéraires de fédération et du trafic multimédia</span><span class="sxs-lookup"><span data-stu-id="c56e4-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic_1.md)
+  - [<span data-ttu-id="fe453-106">Configuration des itinéraires de fédération et du trafic multimédia</span><span class="sxs-lookup"><span data-stu-id="fe453-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic_1.md)
 
-  - [<span data-ttu-id="c56e4-107">Déplacer les utilisateurs restants vers Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c56e4-107">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013_1.md)
+  - [<span data-ttu-id="fe453-107">Déplacer les utilisateurs restants vers Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe453-107">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013_1.md)
 
-  - [<span data-ttu-id="c56e4-108">Configuration de la passerelle XMPP sur Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c56e4-108">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [<span data-ttu-id="fe453-108">Configuration de la passerelle XMPP sur Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe453-108">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013_1.md)
 
 </div>
 

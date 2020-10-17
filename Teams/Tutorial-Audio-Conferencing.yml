@@ -3,7 +3,9 @@ title: 'Didacticiel : audioconférence-Microsoft teams'
 metadata:
   title: Audioconférence dans Microsoft Teams
   description: Servez-vous de ce didacticiel interactif pour découvrir la configuration requise, les étapes de planification et la création de rapports pour l’audioconférence dans Microsoft Teams.
-  ms.custom: seo-marvel-mar2020
+  ms.custom:
+  - seo-marvel-apr2020
+  - seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904549"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48532761"
 items:
 - durationInMinutes: 1
   content: >
@@ -68,7 +70,7 @@ items:
     Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Audioconférence dans teams
   durationInMinutes: 12
-  content: "\nDans le cadre de l’audioconférence, les participants utilisent un téléphone standard pour participer à des réunions d’équipes, en vous connectant à la réunion à partir de leur téléphone ou en utilisant une fonctionnalité de numérotation à partir de la réunion. Consultez les ressources suivantes pour en savoir plus sur les conférences audio :\n-   [Fonctionnalités](https://products.office.com/skype-for-business/audio-conferencing#Features) de l’audioconférence (durée estimée de lecture 1 minute)\n-   [9 conseils pour la réunion avec Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (le temps de\\#lecture estimé pour « 1-Rejoignez une réunion via une audioconférence » est d’au moins une minute ; plus si vous lisez l’article en entier)\n-   [Questions fréquemment](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) posées sur les conférences audio (durée de lecture estimée 7 minutes)\n-   [Appel sortant pour permettre à d’autres personnes de participer à une réunion](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (temps de lecture approximatif de 2 minutes)\n"
+  content: "\nDans le cadre de l’audioconférence, les participants utilisent un téléphone standard pour participer à des réunions d’équipes, en vous connectant à la réunion à partir de leur téléphone ou en utilisant une fonctionnalité de numérotation à partir de la réunion. Consultez les ressources suivantes pour en savoir plus sur les conférences audio :\n-   [Fonctionnalités](https://products.office.com/skype-for-business/audio-conferencing#Features) de l’audioconférence (durée estimée de lecture 1 minute)\n-   [9 conseils pour la réunion avec Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (le temps de lecture estimé pour « \\# 1-Rejoignez une réunion via une audioconférence » est d’au moins une minute ; plus si vous lisez l’article en entier)\n-   [Questions fréquemment](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) posées sur les conférences audio (durée de lecture estimée 7 minutes)\n-   [Appel sortant pour permettre à d’autres personnes de participer à une réunion](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (temps de lecture approximatif de 2 minutes)\n"
 - title: Scénario-audioconférence-audioconférence
   durationInMinutes: 1
   content: "\nClaude fonctionne sur Contoso, une société qui possède plusieurs bureaux. Claude a fréquemment besoin de communiquer avec des personnes dans d’autres emplacements d’Office et, dans la mesure où il travaille souvent à la maison ou en déplacement, il s’agit d’un énorme fan de réunions en équipe. Lorsque Claude envoie une invitation à une réunion, il ajoute automatiquement des informations pour l’audioconférence. Les scénarios suivants vous permettent d’effectuer les opérations suivantes :\n-   Alice souhaite participer à la réunion Claude, mais elle n’a pas accès à un réseau fiable. Elle rejoint donc la réunion en utilisant les coordonnées de connexion à partir de l’invitation à la réunion. Pendant le processus de conférence rendez-vous, elle utilise son code confidentiel pour s’authentifier, donc elle est reconnue par le système comme « Alice ».\n-   Bob, qui est actuellement dans un hôtel, rejoint la réunion à l’aide du client teams sur son PC. Malheureusement, la qualité audio par le biais d’une connexion Internet dans l’hôtel n’est pas idéale, c’est pourquoi Bob compose votre propre numéro de téléphone à partir de la réunion pour y participer par le biais du réseau téléphonique public commuté (RTC).\n-   Si les participants à la réunion décident au cours de l’appel qu’ils souhaitent ajouter des utilisateurs à un autre numéro de téléphone, ils peuvent simplement appeler le numéro de téléphone et amener d’autres personnes à la réunion.\n-   Les autres utilisateurs peuvent également rejoindre le client teams sur leur PC, Mac ou appareil mobile.\n\nDans Microsoft Teams, les organisateurs de la réunion peuvent mettre fin à une réunion de tous les participants à la réunion. Cette opération est utile dans les situations suivantes :\n\n-   Les enseignants permettent aux étudiants de rester en réunion non surveillés une fois qu’une classe est terminée.\n-   S’il s’agit d’une réunion qui est enregistrée (par exemple, webinaires), les organisateurs de la réunion peuvent s’assurer que l’enregistrement se termine à la fin de la réunion.\n-   Mettre fin à une réunion pour tous les participants permet de réduire l’utilisation et la facturation PSTN de votre organisation. \n\nPar exemple, une fois la réunion terminée, Claude peut cliquer sur **mettre fin** à la réunion à l’intérieur de la réunion dans teams pour la mettre fin et supprimer tous les participants.\n"
