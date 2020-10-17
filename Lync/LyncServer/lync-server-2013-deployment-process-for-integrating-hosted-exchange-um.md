@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée'
+description: 'Lync Server 2013 : processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68ae12ee384a78acd8c5c390715b05791b7a0df8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 83239c6534dfdaa65109c8880cc4cb4946bffab6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522591"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542610"
 ---
 # <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server 2013
 

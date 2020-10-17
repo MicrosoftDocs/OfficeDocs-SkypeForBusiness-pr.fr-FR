@@ -1,5 +1,6 @@
 ---
 title: Configuration des utilisateurs et des paramètres de configuration du nœud observateur
+description: Configuration des utilisateurs test de nœud observateur et des paramètres de configuration.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e39a35d3db6ed80c715c706f4b5766e4b684e39e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507521"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542180"
 ---
 # <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configuration des utilisateurs test de nœud observateur et des paramètres de configuration dans Lync Server 2013
 

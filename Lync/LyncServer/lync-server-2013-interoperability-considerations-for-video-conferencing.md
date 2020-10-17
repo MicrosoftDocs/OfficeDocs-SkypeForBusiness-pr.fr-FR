@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : considérations relatives à l’interopérabilité pour la conférence vidéo'
+description: 'Lync Server 2013 : considérations relatives à l’interopérabilité pour la conférence vidéo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183782
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f71977dc1909fa6993bc21f7944e821276dd86d6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 89675954ea4c4f188f50aab8fb2cb49494bcc247
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498391"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543930"
 ---
 # <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Considérations relatives à l’interopérabilité pour la conférence vidéo dans Lync Server 2013
 

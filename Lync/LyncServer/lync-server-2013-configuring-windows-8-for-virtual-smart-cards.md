@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration de Windows 8 pour les cartes à puce virtuelles'
+description: 'Lync Server 2013 : configuration de Windows 8 pour les cartes à puce virtuelles.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09f6c33ab9619e7a6b168e5d552ac13d84343c3c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 112047f91a20dd552c628fb33eba7bb9ad3d0f01
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502061"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542160"
 ---
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Configuration de Windows 8 pour l’utilisation de cartes à puce virtuelles avec Lync Server 2013
 

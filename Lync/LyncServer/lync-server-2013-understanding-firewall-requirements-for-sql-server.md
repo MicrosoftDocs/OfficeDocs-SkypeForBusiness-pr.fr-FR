@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : présentation des exigences en matière de pare-feu pour SQL Server'
+description: 'Lync Server 2013 : présentation des exigences de pare-feu pour SQL Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f836c71023defd6c826ab763d36e395a1240d3da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c434474b36ced0fe64b9398f7d0e6136ff523a93
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527741"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542380"
 ---
 # <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Présentation des exigences en matière de pare-feu pour SQL Server avec Lync Server 2013
 

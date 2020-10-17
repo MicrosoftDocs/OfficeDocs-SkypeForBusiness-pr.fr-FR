@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : sauvegarde et restauration de Lync Server'
+description: 'Lync Server 2013 : sauvegarde et restauration de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6947035af0021090596348b1aab873c60b930e00
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c1a7024b2264fb895d1562a6da0775f9397644b4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532731"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543780"
 ---
 # <a name="backing-up-and-restoring-lync-server-2013"></a>Sauvegarde et restauration de Lync Server 2013
 
