@@ -12,20 +12,22 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83a8b6dd4a545917f50f2a1403981ea116fb58b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54d5af3506eccd9cccfd3771d0e983f62bfaad15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497641"
 ---
+# <a name="planning-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="f5885-102">Planification de la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-102">Planning for monitoring in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="5c547-102">Planification de la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-102">Planning for monitoring in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42184157"
 
 <span> </span>
 
-<span data-ttu-id="5c547-103">_**Dernière modification de la rubrique :** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="5c547-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="f5885-103">_**Dernière modification de la rubrique :** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="f5885-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="5c547-104">Le service de surveillance de Microsoft Lync Server 2013 permet aux administrateurs de collecter les données d’utilisation, de tendance et de qualité de service pour les sessions de communication qui ont lieu au sein de leur organisation.</span><span class="sxs-lookup"><span data-stu-id="5c547-104">The monitoring service in Microsoft Lync Server 2013 provides a way for administrators to collect usage, trend, and quality of service data for the communication sessions that take place in their organization.</span></span> <span data-ttu-id="5c547-105">La surveillance dans Lync Server 2013 ne requiert plus de rôle serveur distinct ; au lieu de cela, le service de surveillance est intégré à chaque serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="5c547-105">Monitoring in Lync Server 2013 no longer requires a separate server role; instead, the monitoring service is built into each Front End server.</span></span> <span data-ttu-id="5c547-106">Toutefois, la surveillance par défaut n’est pas activée dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5c547-106">However, by default monitoring is not enabled in Lync Server 2013.</span></span> <span data-ttu-id="5c547-107">Ce document vous aidera à déterminer si vous devez ou non activer la surveillance dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="5c547-107">This document will help you determine whether or not monitoring should be enabled in your organization.</span></span>
+<span data-ttu-id="f5885-104">Le service de surveillance de Microsoft Lync Server 2013 permet aux administrateurs de collecter les données d’utilisation, de tendance et de qualité de service pour les sessions de communication qui ont lieu au sein de leur organisation.</span><span class="sxs-lookup"><span data-stu-id="f5885-104">The monitoring service in Microsoft Lync Server 2013 provides a way for administrators to collect usage, trend, and quality of service data for the communication sessions that take place in their organization.</span></span> <span data-ttu-id="f5885-105">La surveillance dans Lync Server 2013 ne requiert plus de rôle serveur distinct ; au lieu de cela, le service de surveillance est intégré à chaque serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="f5885-105">Monitoring in Lync Server 2013 no longer requires a separate server role; instead, the monitoring service is built into each Front End server.</span></span> <span data-ttu-id="f5885-106">Toutefois, la surveillance par défaut n’est pas activée dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5885-106">However, by default monitoring is not enabled in Lync Server 2013.</span></span> <span data-ttu-id="f5885-107">Ce document vous aidera à déterminer si vous devez ou non activer la surveillance dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="f5885-107">This document will help you determine whether or not monitoring should be enabled in your organization.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5c547-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5c547-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f5885-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f5885-108">In This Section</span></span>
 
-  - [<span data-ttu-id="5c547-109">Vue d’ensemble de la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-109">Overview of monitoring in Lync Server 2013</span></span>](lync-server-2013-overview-of-monitoring.md)
+  - [<span data-ttu-id="f5885-109">Vue d’ensemble de la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-109">Overview of monitoring in Lync Server 2013</span></span>](lync-server-2013-overview-of-monitoring.md)
 
-  - [<span data-ttu-id="5c547-110">Définition de la configuration requise pour la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-110">Defining your requirements for monitoring in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-monitoring.md)
+  - [<span data-ttu-id="f5885-110">Définition de la configuration requise pour la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-110">Defining your requirements for monitoring in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-monitoring.md)
 
-  - [<span data-ttu-id="5c547-111">Activation de la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-111">Enabling monitoring in Lync Server 2013</span></span>](lync-server-2013-enabling-monitoring.md)
+  - [<span data-ttu-id="f5885-111">Activation de la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-111">Enabling monitoring in Lync Server 2013</span></span>](lync-server-2013-enabling-monitoring.md)
 
-  - [<span data-ttu-id="5c547-112">Accès aux données de surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-112">Accessing monitoring data in Lync Server 2013</span></span>](lync-server-2013-accessing-monitoring-data.md)
+  - [<span data-ttu-id="f5885-112">Accès aux données de surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-112">Accessing monitoring data in Lync Server 2013</span></span>](lync-server-2013-accessing-monitoring-data.md)
 
-  - [<span data-ttu-id="5c547-113">Composants et topologies pour la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-113">Components and topologies for monitoring in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-monitoring.md)
+  - [<span data-ttu-id="f5885-113">Composants et topologies pour la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-113">Components and topologies for monitoring in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-monitoring.md)
 
-  - [<span data-ttu-id="5c547-114">Liste de vérification du déploiement pour la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c547-114">Deployment checklist for monitoring in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-monitoring.md)
+  - [<span data-ttu-id="f5885-114">Liste de vérification du déploiement pour la surveillance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5885-114">Deployment checklist for monitoring in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-monitoring.md)
 
 </div>
 

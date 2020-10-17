@@ -12,20 +12,22 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdc19a14b8aaa7c1fa4a3c45d01a5a00325996d9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d67c8d45138bed8933f3c05bd338f128e6dd24f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202150"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497901"
 ---
+# <a name="planning-for-archiving-in-lync-server-2013"></a><span data-ttu-id="a34bc-102">Planification de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-102">Planning for Archiving in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-archiving-in-lync-server-2013"></a><span data-ttu-id="d474b-102">Planification de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-102">Planning for Archiving in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42202150"
 
 <span> </span>
 
-<span data-ttu-id="d474b-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d474b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="a34bc-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="a34bc-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="d474b-104">Les grandes entreprises et d’autres organisations sont soumises à un nombre croissant de réglementations gouvernementales et industrielles nécessitant la conservation de types spécifiques de communications.</span><span class="sxs-lookup"><span data-stu-id="d474b-104">Corporations and other organizations are subject to an increasing number of industry and government regulations that require the retention of specific types of communications.</span></span> <span data-ttu-id="d474b-105">Si votre organisation dispose de ces conditions, vous pouvez utiliser l’archivage dans Lync Server 2013 pour archiver les communications de messagerie instantanée et de conférence envoyées via Lync Server afin de prendre en charge certaines de vos exigences en matière de conformité.</span><span class="sxs-lookup"><span data-stu-id="d474b-105">If your organization has such requirements, you can use Archiving in Lync Server 2013 to archive instant messaging (IM) and conferencing (meeting) communications sent through Lync Server to help support some of your compliance requirements.</span></span>
+<span data-ttu-id="a34bc-104">Les grandes entreprises et d’autres organisations sont soumises à un nombre croissant de réglementations gouvernementales et industrielles nécessitant la conservation de types spécifiques de communications.</span><span class="sxs-lookup"><span data-stu-id="a34bc-104">Corporations and other organizations are subject to an increasing number of industry and government regulations that require the retention of specific types of communications.</span></span> <span data-ttu-id="a34bc-105">Si votre organisation dispose de ces conditions, vous pouvez utiliser l’archivage dans Lync Server 2013 pour archiver les communications de messagerie instantanée et de conférence envoyées via Lync Server afin de prendre en charge certaines de vos exigences en matière de conformité.</span><span class="sxs-lookup"><span data-stu-id="a34bc-105">If your organization has such requirements, you can use Archiving in Lync Server 2013 to archive instant messaging (IM) and conferencing (meeting) communications sent through Lync Server to help support some of your compliance requirements.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d474b-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="d474b-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a34bc-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a34bc-106">In This Section</span></span>
 
-  - [<span data-ttu-id="d474b-107">Vue d’ensemble de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-107">Overview of Archiving in Lync Server 2013</span></span>](lync-server-2013-overview-of-archiving.md)
+  - [<span data-ttu-id="a34bc-107">Vue d’ensemble de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-107">Overview of Archiving in Lync Server 2013</span></span>](lync-server-2013-overview-of-archiving.md)
 
-  - [<span data-ttu-id="d474b-108">Fonctionnement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-108">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
+  - [<span data-ttu-id="a34bc-108">Fonctionnement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-108">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
 
-  - [<span data-ttu-id="d474b-109">Définition de la configuration requise pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-109">Defining your requirements for Archiving in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-archiving.md)
+  - [<span data-ttu-id="a34bc-109">Définition de la configuration requise pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-109">Defining your requirements for Archiving in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-archiving.md)
 
-  - [<span data-ttu-id="d474b-110">Composants et topologies pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-110">Components and topologies for Archiving in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-archiving.md)
+  - [<span data-ttu-id="a34bc-110">Composants et topologies pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-110">Components and topologies for Archiving in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-archiving.md)
 
-  - [<span data-ttu-id="d474b-111">Configuration technique requise pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-111">Technical requirements for Archiving in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-archiving.md)
+  - [<span data-ttu-id="a34bc-111">Configuration technique requise pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-111">Technical requirements for Archiving in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-archiving.md)
 
-  - [<span data-ttu-id="d474b-112">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d474b-112">Deployment checklist for Archiving in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [<span data-ttu-id="a34bc-112">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34bc-112">Deployment checklist for Archiving in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-archiving.md)
 
 </div>
 

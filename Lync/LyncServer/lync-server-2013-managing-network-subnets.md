@@ -12,20 +12,22 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1118bc127bce6fbca22eb4db47fbd38d8ff195f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0bcb6c52a538ddd879114e7d9f9351958221700
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497991"
 ---
+# <a name="managing-network-subnets-in-lync-server-2013"></a><span data-ttu-id="cbbc3-102">Gestion des sous-réseaux réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc3-102">Managing network subnets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-subnets-in-lync-server-2013"></a><span data-ttu-id="62f55-102">Gestion des sous-réseaux réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62f55-102">Managing network subnets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42185581"
 
 <span> </span>
 
-<span data-ttu-id="62f55-103">_**Dernière modification de la rubrique :** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="62f55-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="cbbc3-103">_**Dernière modification de la rubrique :** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="cbbc3-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="62f55-104">Vous pouvez utiliser le panneau de configuration Lync Server 2013 ou Lync Server 2013 Management Shell pour gérer les sous-réseaux réseau.</span><span class="sxs-lookup"><span data-stu-id="62f55-104">You can use either Lync Server 2013 Control Panel or Lync Server 2013 Management Shell to manage network subnets.</span></span> <span data-ttu-id="62f55-105">Dans la plupart des déploiements de Lync Server 2013 où le contrôle d’admission des appels (CAC) est implémenté, il y aura généralement un grand nombre de sous-réseaux.</span><span class="sxs-lookup"><span data-stu-id="62f55-105">In most deployments of Lync Server 2013 where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="62f55-106">Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="62f55-106">Because of this, it is often best to configure subnets from the Lync Server Management Shell.</span></span>
+<span data-ttu-id="cbbc3-104">Vous pouvez utiliser le panneau de configuration Lync Server 2013 ou Lync Server 2013 Management Shell pour gérer les sous-réseaux réseau.</span><span class="sxs-lookup"><span data-stu-id="cbbc3-104">You can use either Lync Server 2013 Control Panel or Lync Server 2013 Management Shell to manage network subnets.</span></span> <span data-ttu-id="cbbc3-105">Dans la plupart des déploiements de Lync Server 2013 où le contrôle d’admission des appels (CAC) est implémenté, il y aura généralement un grand nombre de sous-réseaux.</span><span class="sxs-lookup"><span data-stu-id="cbbc3-105">In most deployments of Lync Server 2013 where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="cbbc3-106">Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="cbbc3-106">Because of this, it is often best to configure subnets from the Lync Server Management Shell.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="62f55-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="62f55-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cbbc3-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="cbbc3-107">In This Section</span></span>
 
-  - [<span data-ttu-id="62f55-108">Affichage des informations de sous-réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62f55-108">Viewing network subnet information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-subnet-information.md)
+  - [<span data-ttu-id="cbbc3-108">Affichage des informations de sous-réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc3-108">Viewing network subnet information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-subnet-information.md)
 
-  - [<span data-ttu-id="62f55-109">Création ou modification de sous-réseaux dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62f55-109">Create or modify network subnets in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-network-subnets.md)
+  - [<span data-ttu-id="cbbc3-109">Création ou modification de sous-réseaux dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc3-109">Create or modify network subnets in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-network-subnets.md)
 
-  - [<span data-ttu-id="62f55-110">Suppression de sous-réseaux réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62f55-110">Deleting network subnets in Lync Server 2013</span></span>](lync-server-2013-deleting-network-subnets.md)
+  - [<span data-ttu-id="cbbc3-110">Suppression de sous-réseaux réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc3-110">Deleting network subnets in Lync Server 2013</span></span>](lync-server-2013-deleting-network-subnets.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="62f55-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="62f55-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cbbc3-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cbbc3-111">See Also</span></span>
 
 
-[<span data-ttu-id="62f55-112">Associer un sous-réseau à un site réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62f55-112">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[<span data-ttu-id="cbbc3-112">Associer un sous-réseau à un site réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc3-112">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>
