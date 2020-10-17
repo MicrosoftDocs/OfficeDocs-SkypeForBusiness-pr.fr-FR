@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : créer des enregistrements DNS pour les serveurs proxy inverses'
+description: 'Lync Server 2013 : créer des enregistrements DNS pour les serveurs proxy inverses.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51af1c3179d8101a7e2f9942e15553b5831bce95
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef785ebbd7160274b631a2d2b6b1f1dcc866e5fc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532211"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562280"
 ---
 # <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a>Créer des enregistrements DNS pour les serveurs proxy inverses dans Lync Server 2013
 

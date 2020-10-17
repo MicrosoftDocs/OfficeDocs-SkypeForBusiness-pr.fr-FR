@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : rapport des principales défaillances'
+description: 'Lync Server 2013 : rapport des principales défaillances.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47bb2a36d3d165150735a4b0e4b44907a0d86011
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 768c9a99916dece9eb76877b0cd65b057697ff95
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503761"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561270"
 ---
 # <a name="top-failures-report-in-lync-server-2013"></a>Rapport des principales défaillances dans Lync Server 2013
 

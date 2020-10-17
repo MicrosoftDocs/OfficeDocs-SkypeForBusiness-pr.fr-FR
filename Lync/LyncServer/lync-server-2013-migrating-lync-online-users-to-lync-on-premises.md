@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : migration des utilisateurs Lync Online vers Lync local'
+description: 'Lync Server 2013 : migration des utilisateurs Lync Online vers Lync local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a2be7414dbdc48c9e245db33e57b8238cfb2ee9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 620bc07def8e3c1f6b761c6398b452b4dbcd3b04
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520991"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561000"
 ---
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migration des utilisateurs Lync Online vers Lync sur site dans Lync Server 2013
 

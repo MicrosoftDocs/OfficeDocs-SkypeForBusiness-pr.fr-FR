@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : analyse des performances de stockage back-end Lync Server'
+description: 'Lync Server 2013 : analyse des performances de stockage de Lync Server principales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad04524df22c9d299b4a871b580330052d2aa5b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7501418d3589b941b7e92d2b414492c1d27a3ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531951"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562070"
 ---
 # <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Surveillance des performances de stockage principales de Lync Server 2013
 
