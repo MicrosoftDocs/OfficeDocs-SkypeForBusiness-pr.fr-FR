@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : personnalisation du comportement de Lync et de l’interface utilisateur'
+description: 'Lync Server 2013 : personnalisation du comportement de Lync et de l’interface utilisateur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db076a3ad0bfcf9647e2b509dd0bf19400e5fea8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7ae0a201aa8edd82b08c522c4b615094ececd6cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516681"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561110"
 ---
-# <a name="customizing-lync-behavior-and-the-user-interface-in-lync-server-2013"></a><span data-ttu-id="8cc4b-102">Personnalisation du comportement de Lync et de l’interface utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-102">Customizing Lync behavior and the user interface in Lync Server 2013</span></span>
+# <a name="customizing-lync-behavior-and-the-user-interface-in-lync-server-2013"></a><span data-ttu-id="3d06c-103">Personnalisation du comportement de Lync et de l’interface utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-103">Customizing Lync behavior and the user interface in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,29 +38,29 @@ ms.locfileid: "48516681"
 
 <span> </span>
 
-<span data-ttu-id="8cc4b-103">_**Dernière modification de la rubrique :** 2013-03-22_</span><span class="sxs-lookup"><span data-stu-id="8cc4b-103">_**Topic Last Modified:** 2013-03-22_</span></span>
+<span data-ttu-id="3d06c-104">_**Dernière modification de la rubrique :** 2013-03-22_</span><span class="sxs-lookup"><span data-stu-id="3d06c-104">_**Topic Last Modified:** 2013-03-22_</span></span>
 
-<span data-ttu-id="8cc4b-104">Cette section décrit comment ajouter des fonctionnalités personnalisées à Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="8cc4b-104">This section describes how to add custom features to Lync 2013.</span></span>
+<span data-ttu-id="3d06c-105">Cette section décrit comment ajouter des fonctionnalités personnalisées à Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="3d06c-105">This section describes how to add custom features to Lync 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8cc4b-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="8cc4b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3d06c-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="3d06c-106">In This Section</span></span>
 
-  - [<span data-ttu-id="8cc4b-106">Configuration des paramètres de plage de ports multimédias dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-106">Configuring media port range settings in Lync Server 2013</span></span>](lync-server-2013-configuring-media-port-range-settings.md)
+  - [<span data-ttu-id="3d06c-107">Configuration des paramètres de plage de ports multimédias dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-107">Configuring media port range settings in Lync Server 2013</span></span>](lync-server-2013-configuring-media-port-range-settings.md)
 
-  - [<span data-ttu-id="8cc4b-107">Ajout de commandes aux menus Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-107">Adding commands to Lync menus in Lync Server 2013</span></span>](lync-server-2013-adding-commands-to-lync-menus.md)
+  - [<span data-ttu-id="3d06c-108">Ajout de commandes aux menus Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-108">Adding commands to Lync menus in Lync Server 2013</span></span>](lync-server-2013-adding-commands-to-lync-menus.md)
 
-  - [<span data-ttu-id="8cc4b-108">Intégration d’une application de collaboration tierce avec Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-108">Integrating a third-party collaboration application with Lync Server 2013</span></span>](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
+  - [<span data-ttu-id="3d06c-109">Intégration d’une application de collaboration tierce avec Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-109">Integrating a third-party collaboration application with Lync Server 2013</span></span>](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
 
-  - [<span data-ttu-id="8cc4b-109">Configuration des États de présence personnalisés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-109">Configuring custom presence states in Lync Server 2013</span></span>](lync-server-2013-configuring-custom-presence-states.md)
+  - [<span data-ttu-id="3d06c-110">Configuration des États de présence personnalisés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-110">Configuring custom presence states in Lync Server 2013</span></span>](lync-server-2013-configuring-custom-presence-states.md)
 
-  - [<span data-ttu-id="8cc4b-110">Ajout d’un lien personnalisé à des messages d’erreur Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-110">Adding a custom link to Lync error messages in Lync Server 2013</span></span>](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
+  - [<span data-ttu-id="3d06c-111">Ajout d’un lien personnalisé à des messages d’erreur Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-111">Adding a custom link to Lync error messages in Lync Server 2013</span></span>](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
 
-  - [<span data-ttu-id="8cc4b-111">Ajout de texte personnalisé aux messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-111">Adding custom text to instant messages in Lync Server 2013</span></span>](lync-server-2013-adding-custom-text-to-instant-messages.md)
+  - [<span data-ttu-id="3d06c-112">Ajout de texte personnalisé aux messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-112">Adding custom text to instant messages in Lync Server 2013</span></span>](lync-server-2013-adding-custom-text-to-instant-messages.md)
 
-  - [<span data-ttu-id="8cc4b-112">Démarrage de Lync à partir d’une autre application</span><span class="sxs-lookup"><span data-stu-id="8cc4b-112">Starting Lync from another application</span></span>](lync-server-2013-starting-lync-from-another-application.md)
+  - [<span data-ttu-id="3d06c-113">Démarrage de Lync à partir d’une autre application</span><span class="sxs-lookup"><span data-stu-id="3d06c-113">Starting Lync from another application</span></span>](lync-server-2013-starting-lync-from-another-application.md)
 
-  - [<span data-ttu-id="8cc4b-113">Configuration des options d’image par défaut dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc4b-113">Configuring default picture options in Lync Server 2013</span></span>](lync-server-2013-configuring-default-picture-options.md)
+  - [<span data-ttu-id="3d06c-114">Configuration des options d’image par défaut dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d06c-114">Configuring default picture options in Lync Server 2013</span></span>](lync-server-2013-configuring-default-picture-options.md)
 
 </div>
 

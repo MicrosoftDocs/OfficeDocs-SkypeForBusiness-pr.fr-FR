@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : applets de commande de migration et de coexistence'
+description: 'Lync Server 2013 : applets de commande de migration et de coexistence.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c234a8b2fcfea1473c52da69eea9f5cccb2f4b1d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eecd1adad53d8f917d7db7ca201b25442a7d5e85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513621"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561010"
 ---
-# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a><span data-ttu-id="8ae83-102">Applets de commande de migration et de coexistence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ae83-102">Migration and coexistence cmdlets in Lync Server 2013</span></span>
+# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a><span data-ttu-id="af0c1-103">Applets de commande de migration et de coexistence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af0c1-103">Migration and coexistence cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,49 +38,49 @@ ms.locfileid: "48513621"
 
 <span> </span>
 
-<span data-ttu-id="8ae83-103">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="8ae83-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="af0c1-104">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="af0c1-104">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="8ae83-104">L’applet de commande [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) vous permet de déplacer des comptes d’utilisateur à partir d’Office Communications Server 2007 ou Microsoft lync Server 2010 vers Microsoft lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8ae83-104">The [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) cmdlet provides a way for you to move user accounts from Office Communications Server 2007 or Microsoft Lync Server 2010 to Microsoft Lync Server 2013.</span></span> <span data-ttu-id="8ae83-105">Si vous devez déplacer un compte d’utilisateur vers l’arrière (par exemple, à partir de Microsoft Lync Server 2013 vers Microsoft Lync Server 2010), utilisez la cmdlet [Move-Csuser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="8ae83-105">If you need to move a user account "backward" (for example, from Microsoft Lync Server 2013 to Microsoft Lync Server 2010) use the [Move-CsUser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="af0c1-105">L’applet de commande [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) vous permet de déplacer des comptes d’utilisateur à partir d’Office Communications Server 2007 ou Microsoft lync Server 2010 vers Microsoft lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="af0c1-105">The [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) cmdlet provides a way for you to move user accounts from Office Communications Server 2007 or Microsoft Lync Server 2010 to Microsoft Lync Server 2013.</span></span> <span data-ttu-id="af0c1-106">Si vous devez déplacer un compte d’utilisateur vers l’arrière (par exemple, à partir de Microsoft Lync Server 2013 vers Microsoft Lync Server 2010), utilisez la cmdlet [Move-Csuser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="af0c1-106">If you need to move a user account "backward" (for example, from Microsoft Lync Server 2013 to Microsoft Lync Server 2010) use the [Move-CsUser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) cmdlet.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="8ae83-106">[Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-106">[Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))</span></span>
+    <span data-ttu-id="af0c1-107">[Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-107">[Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="8ae83-107">[Import-applet cslegacyconfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-107">[Import-CsLegacyConfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))</span></span>
+    <span data-ttu-id="af0c1-108">[Import-applet cslegacyconfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-108">[Import-CsLegacyConfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="8ae83-108">[Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-108">[Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))</span></span>
+    <span data-ttu-id="af0c1-109">[Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-109">[Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="8ae83-109">[Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-109">[Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span></span>
+    <span data-ttu-id="af0c1-110">[Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-110">[Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="8ae83-110">[Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-110">[Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))</span></span>
+    <span data-ttu-id="af0c1-111">[Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-111">[Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="8ae83-111">[Convert-applet csuserdata](https://technet.microsoft.com/library/JJ205337(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-111">[Convert-CsUserData](https://technet.microsoft.com/library/JJ205337(v=OCS.15))</span></span>
+  - <span data-ttu-id="af0c1-112">[Convert-applet csuserdata](https://technet.microsoft.com/library/JJ205337(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-112">[Convert-CsUserData](https://technet.microsoft.com/library/JJ205337(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="8ae83-112">[Export-applet csuserdata](https://technet.microsoft.com/library/JJ204897(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-112">[Export-CsUserData](https://technet.microsoft.com/library/JJ204897(v=OCS.15))</span></span>
+  - <span data-ttu-id="af0c1-113">[Export-applet csuserdata](https://technet.microsoft.com/library/JJ204897(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-113">[Export-CsUserData](https://technet.microsoft.com/library/JJ204897(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="8ae83-113">[Import-applet csuserdata](https://technet.microsoft.com/library/JJ205373(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-113">[Import-CsUserData](https://technet.microsoft.com/library/JJ205373(v=OCS.15))</span></span>
+  - <span data-ttu-id="af0c1-114">[Import-applet csuserdata](https://technet.microsoft.com/library/JJ205373(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-114">[Import-CsUserData](https://technet.microsoft.com/library/JJ205373(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="8ae83-114">[Update-applet csuserdata](https://technet.microsoft.com/library/JJ205358(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8ae83-114">[Update-CsUserData](https://technet.microsoft.com/library/JJ205358(v=OCS.15))</span></span>
+  - <span data-ttu-id="af0c1-115">[Update-applet csuserdata](https://technet.microsoft.com/library/JJ205358(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af0c1-115">[Update-CsUserData](https://technet.microsoft.com/library/JJ205358(v=OCS.15))</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8ae83-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8ae83-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="af0c1-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="af0c1-116">See Also</span></span>
 
 
-[<span data-ttu-id="8ae83-116">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="8ae83-116">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="af0c1-117">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="af0c1-117">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
