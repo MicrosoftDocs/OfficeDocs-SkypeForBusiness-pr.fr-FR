@@ -12,20 +12,22 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accb2efafddc9253deda7fa20006dd9093e32496
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c0878623a68863aea219d1b3f3735042abc085
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186007"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534591"
 ---
+# <a name="mn-trunk-in-lync-server-2013"></a>Jonction M :N dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mn-trunk-in-lync-server-2013"></a>Jonction M :N dans Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Le serveur de médiation peut être déployé en tant que pool ; ce pool peut �
 
   - **Contrôleur de frontière de session.** Pour une jonction SIP, l’entité homologue est un contrôleur de frontière de session (SBC) sur un fournisseur de services de téléphonie Internet. Dans le sens du pool de serveurs de médiation vers l’SBC, l’SBC peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans le sens de la SBC vers le pool, le trafic peut être envoyé à n’importe quel serveur de médiation du pool. L’équilibrage de charge DNS, s’il est pris en charge par le fournisseur de services et SBC, est une méthode permettant d’atteindre ce objectif. Une autre solution consiste à donner aux fournisseurs de services les adresses IP de tous les serveurs de médiation du pool, et le fournisseur de services les configure dans leur SBC en tant que jonction SIP distincte pour chaque serveur de médiation. Le fournisseur de services gère alors l’équilibrage de charge pour ses propres serveurs. Tous les fournisseurs de services ou les contrôleurs SBC ne peuvent pas prendre en charge ces fonctionnalités. Par ailleurs, le fournisseur de services peut facturer des frais supplémentaires pour cette fonctionnalité. En règle générale, chaque jonction SIP vers la SBC entraîne une redevance mensuelle.
 
-  - **IP-PBX.** Dans le sens du pool de serveurs de médiation vers l’arrêt SIP IP-PBX, le système IP-PBX peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans le sens entre le système PBX IP et le pool, le trafic peut être envoyé à n’importe quel serveur de médiation du pool. Étant donné que la plupart des IP-PBX ne prennent pas en charge l’équilibrage de charge DNS, nous vous recommandons de définir des connexions SIP directes individuelles à partir du système IP-PBX vers chaque serveur de médiation du pool. Le système IP-PBX gère ensuite son propre équilibrage de charge en répartissant le trafic dans le groupe de jonctions. Le groupe de jonctions est supposé avoir un ensemble cohérent de règles de routage sur le système IP-PBX. Si un système IP-PBX particulier prend en charge ce concept de groupe de jonction et comment il croise la redondance et l’architecture de cluster de l’IP-PBX, il doit être déterminé avant de décider si un cluster de serveurs de médiation peut interagir correctement avec un système IP-PBX.
+  - **IP-PBX.** Dans le sens du pool de serveurs de médiation vers l’arrêt SIP IP-PBX, le système IP-PBX peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans le sens entre le système PBX IP et le pool, le trafic peut être envoyé à n’importe quel serveur de médiation du pool. Étant donné que la plupart des IP-PBXs ne prennent pas en charge l’équilibrage de la charge DNS, nous vous recommandons de définir des connexions SIP directes individuelles à partir du système IP-PBX vers chaque serveur de médiation du pool. Le système IP-PBX gère ensuite son propre équilibrage de charge en répartissant le trafic dans le groupe de jonctions. Le groupe de jonctions est supposé avoir un ensemble cohérent de règles de routage sur le système IP-PBX. Si un système IP-PBX particulier prend en charge ce concept de groupe de jonction et comment il croise la redondance et l’architecture de cluster de l’IP-PBX, il doit être déterminé avant de décider si un cluster de serveurs de médiation peut interagir correctement avec un système IP-PBX.
 
 Un pool de serveurs de médiation doit avoir une vue uniforme de la passerelle homologue avec laquelle il interagit. Cela signifie que tous les membres du pool accèdent à la même définition de passerelle homologue à partir du magasin de configurations et qu’ils ont tous autant de chances d’interagir avec elle pour les appels sortants. Par conséquent, il n’est pas possible de segmenter le pool pour que certains serveurs de médiation communiquent avec certains homologues de passerelle pour les appels sortants. Si une telle segmentation est nécessaire, un pool de serveurs de médiation distinct doit être utilisé. Ce serait le cas, par exemple, si les fonctionnalités associées dans les passerelles PSTN, jonctions SIP ou systèmes IP-PBX pour interagir avec un pool n’étaient pas présentes (voir plus haut dans cette rubrique).
 

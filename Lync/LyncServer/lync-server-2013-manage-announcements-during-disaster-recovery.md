@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534542"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Gérer les annonces lors de la récupération d’urgence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Gérer les annonces lors de la récupération d’urgence dans Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Cette section s’applique aux plages de numéros non attribués qui utilisent l
 
 Que vous choisissiez ou non d’utiliser des annonces en cas de panne, vous devez effectuer des sauvegardes distinctes des fichiers audio personnalisés que vous avez configurés pour l’application d’annonce. Les annonces personnalisées ne sont pas sauvegardées dans le cadre du processus de récupération d’urgence de Lync Server. Si vous n’effectuez pas de sauvegardes distinctes des fichiers et que les fichiers que vous avez téléchargés sur le serveur ou le pool sont endommagés, endommagés ou effacés, les fichiers seront perdus.
 
-Si vous n’avez pas de copie de sauvegarde des fichiers audio personnalisés et que les fichiers audio d’origine ne sont plus disponibles, vous pouvez trouver les fichiers audio que vous avez configurés pour une application d’annonce en consultant le magasin de fichiers du serveur ou du pool où vous avez initialement importation des fichiers. Vous pouvez copier tous les fichiers audio que vous avez configurés pour l’application d’annonce à partir du magasin de fichiers.
+Si vous n’avez pas de copie de sauvegarde des fichiers audio personnalisés et que les fichiers audio d’origine ne sont plus disponibles, vous pouvez trouver les fichiers audio que vous avez configurés pour une application d’annonce en recherchant dans le magasin de fichiers du serveur ou du pool où vous avez importé les fichiers à l’origine. Vous pouvez copier tous les fichiers audio que vous avez configurés pour l’application d’annonce à partir du magasin de fichiers.
 
 **Pour copier des fichiers audio à partir du magasin de fichiers**
 

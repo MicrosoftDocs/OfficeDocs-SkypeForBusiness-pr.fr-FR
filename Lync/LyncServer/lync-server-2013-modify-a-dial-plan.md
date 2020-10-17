@@ -12,20 +12,22 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2c4f922565b5b3af5613de4a5e43c79cf573410
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534411"
 ---
+# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Modifier un plan de numérotation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Modifier un plan de numérotation dans Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ Pour modifier un plan de numérotation existant, suivez les étapes de la procé
     
     </div>
 
-8.  (Facultatif) Dans le champ **Préfixe d’accès externe**, entrez une valeur uniquement si les utilisateurs doivent composer un ou plusieurs préfixes supplémentaires pour obtenir une ligne externe (le 0, par exemple). Vous pouvez taper une valeur de préfixe pouvant comporter jusqu’à quatre caractères ( \# \*c’est-à-dire,, et 0-9).
+8.  (Facultatif) Dans le champ **Préfixe d’accès externe**, entrez une valeur uniquement si les utilisateurs doivent composer un ou plusieurs préfixes supplémentaires pour obtenir une ligne externe (le 0, par exemple). Vous pouvez taper une valeur de préfixe pouvant comporter jusqu’à quatre caractères (c’est-à-dire,, \# \* et 0-9).
     
     <div>
     
@@ -122,7 +124,7 @@ Pour modifier un plan de numérotation existant, suivez les étapes de la procé
     
 
     > [!IMPORTANT]  
-    > Lync Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives.<BR>La règle de normalisation <STRONG>conserver toutes les</STRONG> règles de normalisation <STRONG>{11}^ (\d) $</STRONG> correspond à n’importe quel numéro à 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond à des numéros à 11 chiffres commençant par 1425, assurez-vous que la règle <STRONG>conserver tout</STRONG> est triée en dessous de la règle <STRONG>^ (1425 \{7}d) $</STRONG> plus restrictive.
+    > Lync Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives.<BR>La règle de normalisation <STRONG>conserver toutes les</STRONG> règles de normalisation <STRONG>^ (\d {11} ) $</STRONG> correspond à n’importe quel numéro à 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond à des numéros à 11 chiffres commençant par 1425, assurez-vous que la règle <STRONG>conserver tout</STRONG> est triée en dessous de la règle <STRONG>^ (1425 \ d {7} ) $</STRONG> plus restrictive.
 
     
     </div>

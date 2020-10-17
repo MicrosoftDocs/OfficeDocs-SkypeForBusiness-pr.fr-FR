@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186097"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534611"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plateformes de Lync Web App prises en charge pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plateformes de Lync Web App prises en charge pour Lync Server 2013
+
 
 </div>
 
@@ -183,7 +185,7 @@ Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons de s
 
 <sup>3</sup> sur les systèmes d’exploitation Windows Server 2008 pris en charge, les fonctionnalités vocales et vidéo basées sur ordinateur ne sont pas disponibles. L’affichage des applications, le partage d’application, l’affichage du bureau et le partage du Bureau sont disponibles.
 
-<sup>4</sup> le plug-in requiert la prise en charge de NPAPI dans le navigateur. Firefox a supprimé la prise en charge de NPAPI dans la version 52,0 et la prise en charge du chrome a été supprimée dans la version 45, de sorte que ces navigateurs ne sont plus pris en charge dans leurs versions actuelles.
+<sup>4</sup>  le plug-in requiert la prise en charge de NPAPI dans le navigateur. Firefox a supprimé la prise en charge de NPAPI dans la version 52,0 et la prise en charge du chrome a été supprimée dans la version 45, de sorte que ces navigateurs ne sont plus pris en charge dans leurs versions actuelles.
 
 </div>
 

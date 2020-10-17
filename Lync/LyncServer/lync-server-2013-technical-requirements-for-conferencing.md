@@ -12,20 +12,22 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f28effa3ac80f4a2bca1fa062fcc3dfafb5d7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d28afb699b63ee3523c7b5d4ae31bf9153459abf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533941"
 ---
+# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Configuration technique requise pour les conférences dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Configuration technique requise pour les conférences dans Lync Server 2013
+
 
 </div>
 
@@ -214,7 +216,7 @@ Application de surveillance de conférence et application d’annonce de confér
 
 ## <a name="user-requirements-for-dial-in-conferencing"></a>Exigences imposées aux utilisateurs de la conférence rendez-vous
 
-Les utilisateurs de la conférence rendez-vous doivent avoir un numéro de téléphone ou de poste unique rattaché à leur compte. Cette exigence n’empêche pas l’authentification dans le cadre de la conférence rendez-vous. Les utilisateurs d’entreprise (c’est-à-dire, les utilisateurs disposant d’informations d’identification des services de domaine Active Directory et les comptes Lync Server au sein de votre organisation) entrent leur numéro de téléphone (ou poste) et un code confidentiel (PIN) pour se connecter aux conférences en tant que utilisateur authentifié.
+Les utilisateurs de la conférence rendez-vous doivent avoir un numéro de téléphone ou de poste unique rattaché à leur compte. Cette exigence n’empêche pas l’authentification dans le cadre de la conférence rendez-vous. Les utilisateurs d’entreprise (c’est-à-dire, les utilisateurs disposant d’informations d’identification des services de domaine Active Directory et les comptes Lync Server au sein de votre organisation) entrent leur numéro de téléphone (ou poste) et un code confidentiel (PIN) pour se connecter aux conférences en tant qu’utilisateur authentifié.
 
 </div>
 

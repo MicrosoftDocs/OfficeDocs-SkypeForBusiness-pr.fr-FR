@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197057"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534941"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Installation et configuration des nœuds observateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Installation et configuration des nœuds observateur dans Lync Server 2013
+
 
 </div>
 
@@ -140,7 +142,7 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 <td><p>Non défini par défaut</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-Cspersistentchatmessage ne (PersistentChatMessage)</p></td>
+<td><p>Test-CsPersistentChatMessage (PersistentChatMessage)</p></td>
 <td><p>Confirme que les utilisateurs peuvent échanger des messages à l’aide du service de conversation permanente.</p></td>
 <td><p>Non défini par défaut</p></td>
 </tr>
@@ -164,7 +166,7 @@ Vous n’avez pas besoin d’installer les nœuds observateur afin d’utiliser 
 
 
 > [!NOTE]  
-> Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, et ce sans avoir besoin d’utiliser ou d’installer Operations Manager. Pour plus d’informations sur les différentes cmdlets test-CS, voir l' <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">index des applets de commande Lync Server 2013</A>.
+> Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, et ce sans avoir besoin d’utiliser ou d’installer Operations Manager. Pour plus d’informations sur les différentes applets de commande Test-Cs, voir l' <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">index des applets de commande Lync Server 2013</A>.
 
 
 

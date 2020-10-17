@@ -12,20 +12,22 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7be6cd7dcf58cae1cfe794c6a27d27fc5aaa5193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534681"
 ---
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Conditions préalables du plug-in Lync VDI dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Conditions préalables du plug-in Lync VDI dans Lync Server 2013
+
 
 </div>
 
@@ -46,9 +48,9 @@ Dans un environnement VDI (Virtual Desktop Infrastructure), les machines virtuel
 > Pour plus d’informations sur l’installation et le déploiement de l’environnement virtualisé, reportez-vous à votre fournisseur de solutions de virtualisation. Pour plus d’informations sur le déploiement d’un environnement virtualisé basé sur Hyper-V et les services Bureau à distance, consultez les articles suivants dans la bibliothèque Microsoft TechNet : 
 > <UL>
 > <LI>
-> <P>Hyper-V à<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <P>Hyper-V à <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Services Bureau à distance dans Windows&nbsp;Server&nbsp;2008 R2 à l’adresse<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Services Bureau à distance dans Windows Server &nbsp; 2008 &nbsp; R2 à l’adresse <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
@@ -66,7 +68,7 @@ Les conditions suivantes sont requises pour l’utilisateur et l’ordinateur lo
 
   - Si vous utilisez les services Bureau à distance, le nombre de bits de plug-in Lync VDI (c’est-à-dire, si l’application est 32 bits ou 64 bits) doit correspondre au nombre de bits du système d’exploitation de l’ordinateur local. Le nombre de bits du système d’exploitation sur l’ordinateur local et le système d’exploitation sur l’ordinateur virtuel n’ont pas besoin de correspondre. Si vous utilisez une autre solution ou plateforme de virtualisation, reportez-vous à la rubrique instructions de votre fournisseur de solutions de virtualisation sur les spécifications de nombre de bits.
 
-  - L’ordinateur local doit exécuter la dernière version du client Bureau à distance. Installez les dernières mises à jour du client des services Bureau à distance de Microsoft ou le dernier logiciel client Bureau à distance de votre fournisseur de solutions de virtualisation. Pour obtenir les dernières mises à jour des services Bureau à [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)distance, reportez-vous à.
+  - L’ordinateur local doit exécuter la dernière version du client Bureau à distance. Installez les dernières mises à jour du client des services Bureau à distance de Microsoft ou le dernier logiciel client Bureau à distance de votre fournisseur de solutions de virtualisation. Pour obtenir les dernières mises à jour des services Bureau à distance, reportez-vous à [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
   - Sur l’ordinateur local, les paramètres du client Bureau à distance doivent être configurés de manière à ce que l’audio s’exécute sur l’ordinateur local et que l’enregistrement à distance soit désactivé. Pour configurer ces paramètres pour la connexion Bureau à distance dans Windows, reportez-vous à la section suivante, « pour configurer les paramètres de la connexion Bureau à distance ».
 
@@ -76,7 +78,7 @@ Les conditions suivantes sont requises pour l’utilisateur et l’ordinateur lo
 
 Pour préparer la connexion Bureau à distance dans Windows pour le plug-in Lync VDI, procédez comme suit.
 
-1.  Si l’ordinateur local exécute Windows 8, ignorez cette étape. Si l’ordinateur local exécute Windows 7 avec SP1, installez la dernière version de Windows 8 du client des services Bureau à distance, disponible [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)à l’adresse.
+1.  Si l’ordinateur local exécute Windows 8, ignorez cette étape. Si l’ordinateur local exécute Windows 7 avec SP1, installez la dernière version de Windows 8 du client des services Bureau à distance, disponible à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
 2.  Démarrez le client des services Bureau à distance en cliquant sur **Démarrer**, puis sur **Connexion Bureau à distance**.
 

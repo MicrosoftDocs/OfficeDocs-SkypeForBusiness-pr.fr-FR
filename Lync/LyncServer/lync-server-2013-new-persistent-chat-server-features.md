@@ -12,20 +12,22 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dd9288fea9105be27428ac94d992de6e147f4900
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534181"
 ---
+# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Pour plus d’informations sur la dernière version du serveur de conversation p
 
   - [Planification du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification, [Deploying persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) dans la documentation de déploiement, [migration de Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat to Lync Server 2013, persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) dans la documentation de migration et [Managing Lync Server 2013, persistent Server](managing-lync-server-2013-persistent-chat-server.md) dans la documentation des opérations, qui fournissent toutes des instructions sur la configuration du serveur de conversation permanente.
 
-  - Le fichier. msi de la documentation du serveur de conversation permanente (fichier Windows Installer) permet aux utilisateurs d’accéder à une documentation hors ligne complète sur le serveur de conversation permanente.
+  - Le fichier de Documentation.msi du serveur de conversation permanente (fichier Windows Installer) permet aux utilisateurs d’accéder à une documentation hors connexion complète sur le serveur de conversation permanente.
 
 <div>
 
@@ -165,7 +167,7 @@ Lync Server 2013 a facilité l’administration et la gestion du serveur de conv
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>Quelles sont les différences en ce qui concerne les rôles d’utilisateur des versions précédentes du serveur de conversation de groupe ?
 
-Lync Server 2010, Group chat disposait d’un rôle d’administrateur d’utilisateurs, d’un rôle d’administrateur de salle de conversation et d’un rôle d’administrateur Lync Server pouvant gérer des compléments. le serveur de conversation permanente fournit simplement un rôle d’administrateur de conversation permanente (semblable aux autres rôles de contrôle d’accès basé sur un rôle de Lync Server). Toute personne qui est membre de ce rôle RBAC peut gérer les salles de conversation, les compléments et les catégories (et ainsi obtenir l’accès des utilisateurs pour ces catégories), ainsi que la configuration du pool de serveurs de conversation permanente.
+Lync Server 2010, Group chat disposait d’un rôle d’administrateur d’utilisateurs, d’un rôle d’administrateur de salle de conversation et d’un rôle d’administrateur Lync Server pouvant gérer les compléments. Le serveur de conversation permanente fournit simplement un rôle d’administrateur de conversation permanente (semblable aux autres rôles de contrôle d’accès basé sur un rôle de Lync Server). Toute personne qui est membre de ce rôle RBAC peut gérer les salles de conversation, les compléments et les catégories (et ainsi obtenir l’accès des utilisateurs pour ces catégories), ainsi que la configuration du pool de serveurs de conversation permanente.
 
 </div>
 

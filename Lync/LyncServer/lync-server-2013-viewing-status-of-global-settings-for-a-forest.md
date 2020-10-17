@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535581"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Afficher l’état des paramètres globaux d’une forêt dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Afficher l’état des paramètres globaux d’une forêt dans Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Les paramètres de réunion incluent les définitions des stratégies de réunio
 
 Les paramètres de configuration de réunion peuvent être récupérés à l’aide de Windows PowerShell et de la cmdlet **Get-CsMeetingConfiguration** . Par exemple, cette commande renvoie des informations sur les paramètres de configuration de réunion globale :
 
-Les paramètres de configuration de réunion Get-CsMeetingConfiguration – Identity "global" peuvent également être configurés au niveau de l’étendue site. Pour cette raison, vous pouvez utiliser la commande suivante, qui retourne des informations sur tous les paramètres de configuration de réunion :
+Get-CsMeetingConfiguration – les paramètres de configuration de réunion « globale » peuvent également être configurés au niveau de l’étendue site. Pour cette raison, vous pouvez utiliser la commande suivante, qui retourne des informations sur tous les paramètres de configuration de réunion :
 
 `Get-CsMeetingConfiguration`
 
@@ -239,7 +241,7 @@ Si **EnableFederationAccess** est défini sur true, les utilisateurs gérés par
 
 Vérifier les paramètres d’archivage pour les communications internes et fédérées. Avant de vérifier les paramètres pour l’archivage interne et externe, vous devez vérifier que l’archivage est activé.
 
-Les paramètres de configuration de l’archivage peuvent être vérifiés à l’aide de Windows PowerShell et de l’applet de commande Get-applet csarchivingconfiguration :
+Les paramètres de configuration de l’archivage peuvent être vérifiés à l’aide de Windows PowerShell et de l’applet de commande Get-CsArchivingConfiguration :
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
@@ -247,7 +249,7 @@ Notez que les paramètres d’archivage peuvent également être configurés au 
 
 `Get-CsArchivingConfiguration`
 
-La cmdlet Get-applet csarchivingconfiguration renvoie des données semblables à ceci :
+L’applet de commande Get-CsArchivingConfiguration renvoie des données semblables à ceci :
 
 Identity : global
 
@@ -287,7 +289,7 @@ Vous pouvez également utiliser cette commande pour renvoyer le nom de domaine c
 
 Une fois que vous avez vérifié que l’archivage est activé, vous pouvez afficher vos stratégies d’archivage pour déterminer si les sessions de communication interne et externe sont en cours d’archivage.
 
-Les informations de stratégie d’archivage peuvent être récupérées à l’aide de la cmdlet Get-applet csarchivingpolicy. Par exemple, cette commande renvoie des informations sur la stratégie d’archivage globale :
+Les informations de stratégie d’archivage peuvent être récupérées à l’aide de la cmdlet Get-CsArchivingPolicy. Par exemple, cette commande renvoie des informations sur la stratégie d’archivage globale :
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
@@ -295,7 +297,7 @@ Les informations de stratégie d’archivage peuvent être récupérées à l’
 
 `Get-CsArchivingPolicy`
 
-Les informations que vous recevez à partir de Get-applet csarchivingpolicy ressembleront à ceci :
+Les informations que vous recevez d' Get-CsArchivingPolicy ressemblent à ceci :
 
 Identity : global
 
@@ -321,7 +323,7 @@ Vérifiez les paramètres d’enregistrement des détails des appels (CDR) pour 
 
 `Get-CsCdrConfiguration`
 
-L’applet de commande Get-applet cscdrconfiguration renvoie des informations semblables à celles-ci pour chaque collection de paramètres de configuration CDR :
+L’applet de commande Get-CsCdrConfiguration renvoie des informations similaires à celles-ci pour chaque collection de paramètres de configuration CDR :
 
 Identity : global
 
@@ -377,7 +379,7 @@ Vous pouvez également renvoyer le nom de domaine complet de vos serveurs de sur
 
 ## <a name="check-voice-settings"></a>Vérifier les paramètres vocaux
 
-Les paramètres vocaux généralement importants pour les administrateurs sont contenus dans des stratégies de voix et des itinéraires de communications vocales : les stratégies de voix contiennent les paramètres qui déterminent les fonctionnalités exposées aux utilisateurs individuels (par exemple, la possibilité de transférer ou de transférer des appels), tandis que les itinéraires vocaux déterminent la façon dont les appels (et si) sont acheminés via le réseau téléphonique commuté (RTC).
+Les paramètres vocaux généralement importants pour les administrateurs sont contenus dans des stratégies de voix et des itinéraires de communications vocales : les stratégies de voix contiennent les paramètres qui déterminent les fonctionnalités exposées aux utilisateurs individuels (comme la possibilité de transférer ou de transférer des appels), tandis que les itinéraires vocaux déterminent la façon dont les appels (et si) sont acheminés via le réseau téléphonique commuté.
 
 Les informations de stratégie de voix peuvent être récupérées à l’aide de Windows PowerShell. Par exemple, cette commande renvoie des informations sur la stratégie de voix globale :
 
@@ -391,7 +393,7 @@ Les informations renvoyées par la cmdlet Get-CsVoicePolicy ressemblent à ce qu
 
 Identity : global
 
-PstnUsages{}
+PstnUsages {}
 
 Description
 
@@ -425,7 +427,7 @@ Cette commande renvoie toutes les stratégies de voix qui n’autorisent pas le 
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-Dans Windows PowerShell, utilisez la cmdlet Get-CsVoiceRouting pour renvoyer des informations sur vos itinéraires vocaux :
+Dans Windows PowerShell, utilisez l’applet de commande Get-CsVoiceRouting pour renvoyer des informations sur vos itinéraires vocaux :
 
 `Get-CsVoiceRoute`
 
@@ -437,11 +439,11 @@ Priorité : 0
 
 Description
 
-NumberPattern : ^ (\\+ 1\[0-9\]{10}) $
+NumberPattern : ^ ( \\ + 1 \[ 0-9 \] {10} ) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList :{}
+PstnGatewayList : {}
 
 Nom : LocalRoute
 
@@ -471,7 +473,7 @@ Notez que les paramètres du service de surveillance de conférence peuvent éga
 
 `Get-CsDialInConferencingConfiguration`
 
-La cmdlet Get-CsDialInConferencingConfiguration renvoie des données semblables à ceci :
+L’applet de commande Get-CsDialInConferencingConfiguration renvoie des données semblables à ceci :
 
 Identity : global
 

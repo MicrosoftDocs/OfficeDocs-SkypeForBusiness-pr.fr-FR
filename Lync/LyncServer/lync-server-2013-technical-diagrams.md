@@ -12,20 +12,22 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d5af9d3702d3d93b0926efe37d9ede6f1c928091
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533971"
 ---
+# <a name="technical-diagrams-for-lync-server-2013"></a>Diagrammes techniques pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-diagrams-for-lync-server-2013"></a>Diagrammes techniques pour Lync Server 2013
+
 
 </div>
 
@@ -136,7 +138,7 @@ Ces affiches détaillent un domaine technique spécifique et sont destinées à 
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Zoomer sur l’affiche avec Zoom.it de Microsoft</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">Version PDF</a> (recommandé pour les appareils mobiles ou les tablettes)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Version Visio</a> (recommandé pour les utilisateurs de Visio)</p></td>
-<td><p>Cette affiche décrit les options de plateforme disponibles pour Lync 2013 aux BDM et architectes les clients peuvent choisir entre Lync Online et Microsoft 365, hybride Lync, Lync Server local et Lync hébergé. L’affiche inclut les détails de chaque option d’architecture, y compris les scénarios idéaux pour chacune, les exigences de licence et les responsabilités des professionnels de l’informatique.</p>
+<td><p>Cette affiche décrit les options de plateforme disponibles pour Lync 2013 aux BDM et architectes les clients peuvent choisir entre Lync Online et Microsoft 365, hybride Lync, Lync Server local et Lync hébergé. L’affiche inclut les détails de chaque option d’architecture, ainsi que les scénarios idéaux pour chaque option, les exigences liées aux licences et les responsabilités qui incombent aux professionnels de l’informatique.</p>
 <p>Taille : 34-x-44 cm</p>
 <p>Cette affiche a été créée à l’aide de Visio 2013. Aucune modification n’est nécessaire pour un environnement spécifique.</p></td>
 </tr>

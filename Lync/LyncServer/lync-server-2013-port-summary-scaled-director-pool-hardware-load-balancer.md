@@ -12,20 +12,22 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8cb9d4d75eca59ee3749197de8b373a33b4515d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c1970b85b5b0c76174dfbc9d6dcec9ac24cc4d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534061"
 ---
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Résumé des ports-pool directeur mis à l’ampleur, équilibreur de charge matérielle dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Résumé des ports-pool directeur mis à l’ampleur, équilibreur de charge matérielle dans Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Les exigences de port de pare-feu pour un pool directeur consistent en des ports
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Serveur frontal ou pool frontal</p></td>
 <td><p>Communication entre le directeur charge matérielle VIP et les serveurs frontaux</p></td>
 </tr>
@@ -95,21 +97,21 @@ Les exigences de port de pare-feu pour un pool directeur consistent en des ports
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>48000b</p></td>
-<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClsAgent. exe)</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>Directeur</p></td>
+<td><p>Commandes de contrôleur de service de journalisation centralisée (ClsController.exe) ou agent (ClsAgent.exe) et collection de journaux</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>48000b</p></td>
-<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClsAgent. exe)</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>Directeur</p></td>
+<td><p>Commandes de contrôleur de service de journalisation centralisée (ClsController.exe) ou agent (ClsAgent.exe) et collection de journaux</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>48000b</p></td>
-<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClsAgent. exe)</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>Directeur</p></td>
+<td><p>Commandes de contrôleur de service de journalisation centralisée (ClsController.exe) ou agent (ClsAgent.exe) et collection de journaux</p></td>
 </tr>
 </tbody>
 </table>

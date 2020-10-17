@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211070"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535491"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>Itinéraires des communications vocales dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>Itinéraires des communications vocales dans Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Voici un exemple d’utilisation du routage à moindre coût : Fabrikam décide
 
 ## <a name="translating-outbound-dial-strings"></a>Traduction des chaînes de numérotation sortantes
 
-Lync Server 2013, comme ses prédécesseurs immédiats, nécessite que toutes les chaînes de numérotation soient normalisées au format E. 164 dans le but d’effectuer une recherche inversée des numéros (RNL). Pour les jonctions avec passerelles ou PBX (Private Branch eXchanges) qui nécessitent des numéros traduits dans les formats de numérotation locale, Lync Server 2013 vous permet de créer une ou plusieurs règles qui facilitent la manipulation du numéro appelé (URI de demande) avant de l’acheminer vers le urbain. Par exemple, vous pouvez rédiger une règle pour supprimer la valeur « +44 » au début de la chaîne de numérotation et la remplacer par « 0144 ».
+Lync Server 2013, comme ses prédécesseurs immédiats, nécessite que toutes les chaînes de numérotation soient normalisées au format E. 164 dans le but d’effectuer une recherche inversée des numéros (RNL). Pour les jonctions avec passerelles ou PBX (Private Branch eXchanges) qui nécessitent des numéros traduits dans les formats de numérotation locaux, Lync Server 2013 vous permet de créer une ou plusieurs règles qui facilitent la manipulation du numéro appelé (URI de demande) avant de l’acheminer vers la jonction. Par exemple, vous pouvez rédiger une règle pour supprimer la valeur « +44 » au début de la chaîne de numérotation et la remplacer par « 0144 ».
 
 Avec Lync Server 2013, il est possible de créer une ou plusieurs règles qui facilitent la manipulation du numéro d’appel avant de l’acheminer vers la jonction.
 
@@ -97,7 +99,7 @@ Lors de la planification de vos jonctions qui associent différentes passerelles
 
 ## <a name="configuring-caller-id"></a>Configuration d’un ID d’appelant
 
-Lync Server offre un moyen de manipuler l’ID de l’appelant pour les appels sortants. Par exemple, si une organisation souhaite masquer les extensions de numérotation directe des employés et les remplacer par le numéro de société ou de service générique, un administrateur peut le faire à l’aide du panneau de configuration Lync Server pour supprimer l’ID de l’appelant et le remplacer par un ID de l’appelant alternatif spécifié. Dans la planification de votre logique de routage, déterminez les personnes, groupes ou sites pour lesquels vous souhaiterez activer cette option (vous pourriez même l’activer pour l’ensemble des employés).
+Lync Server offre un moyen de manipuler l’ID de l’appelant pour les appels sortants. Par exemple, si une organisation souhaite masquer les extensions de numérotation directe des employés et les remplacer par le numéro de société ou de service générique, un administrateur peut le faire à l’aide du panneau de configuration Lync Server pour supprimer l’ID de l’appelant et le remplacer par un autre ID d’appelant spécifié. Dans la planification de votre logique de routage, déterminez les personnes, groupes ou sites pour lesquels vous souhaiterez activer cette option (vous pourriez même l’activer pour l’ensemble des employés).
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207270"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534791"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Installation de l’outil de planification dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Installation de l’outil de planification dans Lync Server 2013
+
 
 </div>
 
@@ -53,11 +55,11 @@ Les systèmes d’exploitation pris en charge pour l’installation et le foncti
 
   - Windows 8
 
-  - Windows 8.1
+  - Windows 8.1
 
   - Windows Server 2012
 
-  - Windows Server 2012 R2
+  - Windows Server 2012 R2
 
   - Windows 7, édition 32 bits
 
@@ -77,13 +79,13 @@ Une fois que la configuration requise pour la préinstallation est satisfaite, v
 
 2.  À l’aide de l’Explorateur Windows ou d’une fenêtre de commande, recherchez le répertoire dans lequel vous avez téléchargé les fichiers d’installation de l’outil de planification.
 
-3.  Localisez le LyncPlanningTool. msi. Dans l’Explorateur Windows, double-cliquez sur le fichier. Dans la fenêtre de commande, tapez le nom du fichier, puis appuyez sur **entrée** pour exécuter le fichier.
+3.  Recherchez le LyncPlanningTool.msi. Dans l’Explorateur Windows, double-cliquez sur le fichier. Dans la fenêtre de commande, tapez le nom du fichier, puis appuyez sur **entrée** pour exécuter le fichier.
 
 4.  Sur la page d’accueil de l’Assistant de configuration de l' **outil de planification Microsoft Lync Server 2013**, cliquez sur **suivant**.
 
 5.  Passez en revue le **contrat de licence utilisateur final**, sélectionnez **J’accepte les termes du contrat de licence** si vous choisissez d’accepter les conditions d’utilisation dans le contrat de licence, puis cliquez sur **suivant**.
 
-6.  Choisissez l’emplacement d’installation des fichiers de l’outil de planification. L’emplacement par défaut est C\\: Program Files (x86\\) Microsoft Lync Server\\2013 Planning Tool. Si vous souhaitez modifier l’emplacement d’installation, cliquez sur **modifier**. Sur **modifier le dossier de destination**, parcourez ou tapez l’emplacement d’installation des fichiers, cliquez sur **OK**, puis sur **suivant**.
+6.  Choisissez l’emplacement d’installation des fichiers de l’outil de planification. L’emplacement par défaut est C : \\ Program Files (x86) \\ Microsoft Lync Server 2013 \\ Planning Tool. Si vous souhaitez modifier l’emplacement d’installation, cliquez sur **modifier**. Sur **modifier le dossier de destination**, parcourez ou tapez l’emplacement d’installation des fichiers, cliquez sur **OK**, puis sur **suivant**.
 
 7.  Le programme d’installation est maintenant prêt à installer l’outil de planification. Cliquez sur **installer** pour commencer le processus d’installation.
 

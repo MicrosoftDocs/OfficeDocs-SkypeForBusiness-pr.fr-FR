@@ -12,20 +12,22 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bc8ad2f5372ee9b434a1236e9d0cbba0f34a5de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec5d280d05089c4f1efc4fd8c54ab4841d24621d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204870"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535001"
 ---
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Configuration des fournisseurs pour le service de journalisation centralisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Configuration des fournisseurs pour le service de journalisation centralisée dans Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42204870"
 
 _**Dernière modification de la rubrique :** 2014-03-19_
 
-Les concepts et la configuration des *fournisseurs* dans le service de journalisation centralisée sont les plus importants à comprendre. Les *fournisseurs* mappent directement vers les composants de rôle serveur Lync Server dans le modèle de suivi Lync Server. Le fournisseur définit les composants d’un Lync Server 2013 qui seront suivis, le type de messages (par exemple, fatal, erreur ou avertissement) à collecter, ainsi que les indicateurs (par exemple, TF\_Connection ou TF\_diag). Les fournisseurs sont les composants traçables dans chaque rôle serveur Lync Server. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
+Les concepts et la configuration des *fournisseurs* dans le service de journalisation centralisée sont les plus importants à comprendre. Les *fournisseurs* mappent directement vers les composants de rôle serveur Lync Server dans le modèle de suivi Lync Server. Le fournisseur définit les composants d’un Lync Server 2013 qui seront suivis, le type de messages (par exemple, fatal, erreur ou avertissement) à collecter, ainsi que les indicateurs (par exemple, TF \_ Connection ou TF \_ diag). Les fournisseurs sont les composants traçables dans chaque rôle serveur Lync Server. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
 
-Pour exécuter les fonctions du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur un rôle) CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’une des ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC (contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
+Pour exécuter les fonctions du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur un rôle CsServerAdministrator), ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC (contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,7 +49,7 @@ Par exemple :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-Le reste de cette rubrique porte sur la définition des fournisseurs, la modification d’un fournisseur et ce que contient une définition de fournisseur afin d’optimiser le dépannage. Il existe deux façons d’émettre des commandes de service de journalisation centralisée. Vous pouvez utiliser le CLSController. exe qui se trouve, par défaut, dans le répertoire C :\\Program Files\\Common files\\Microsoft Lync Server 2013\\CLSAgent. Vous pouvez utiliser Lync Server Management Shell pour émettre des commandes Windows PowerShell. Il est important de noter que lorsque vous utilisez CLSController.exe à la ligne de commande, la sélection de scénarios disponibles dans lesquels les fournisseurs sont déjà définis est limitée et non modifiable ; toutefois, vous pouvez définir le niveau de journalisation. À l’aide de Windows PowerShell, vous pouvez définir de nouveaux fournisseurs à utiliser dans vos sessions de journalisation et disposer d’un contrôle total sur leur création, leur collecte et leur niveau de collecte des données.
+Le reste de cette rubrique porte sur la définition des fournisseurs, la modification d’un fournisseur et ce que contient une définition de fournisseur afin d’optimiser le dépannage. Il existe deux façons d’émettre des commandes de service de journalisation centralisée. Vous pouvez utiliser le CLSController.exe qui se trouve, par défaut, dans le répertoire C : \\ Program Files \\ Common Files \\ Microsoft Lync Server 2013 \\ CLSAgent. Vous pouvez utiliser Lync Server Management Shell pour émettre des commandes Windows PowerShell. Il est important de noter que lorsque vous utilisez CLSController.exe à la ligne de commande, la sélection de scénarios disponibles dans lesquels les fournisseurs sont déjà définis est limitée et non modifiable ; toutefois, vous pouvez définir le niveau de journalisation. À l’aide de Windows PowerShell, vous pouvez définir de nouveaux fournisseurs à utiliser dans vos sessions de journalisation et disposer d’un contrôle total sur leur création, leur collecte et leur niveau de collecte des données.
 
 <div class="">
 
@@ -61,35 +63,35 @@ Le reste de cette rubrique porte sur la définition des fournisseurs, la modific
 
 Introduits dans [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), les éléments clés de la définition d’un fournisseur à utiliser dans un scénario sont les suivants :
 
-  - **Fournisseurs**   si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez pour indiquer à OCSLogger ce que le moteur de suivi doit collecter dans les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques au rôle serveur, dont le service de journalisation centralisée peut collecter des journaux. Dans le cas du service de journalisation centralisée, le CLSAgent est la partie architecturale du service de journalisation centralisée qui effectue le suivi des composants que vous définissez dans la configuration des fournisseurs.
+  - **Fournisseurs**     Si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez pour indiquer OCSLogger ce que le moteur de suivi doit collecter dans les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques au rôle serveur, dont le service de journalisation centralisée peut collecter des journaux. Dans le cas du service de journalisation centralisée, le CLSAgent est la partie architecturale du service de journalisation centralisée qui effectue le suivi des composants que vous définissez dans la configuration des fournisseurs.
 
-  - **Niveaux de journalisation**   OCSLogger offre la possibilité de choisir un certain nombre de niveaux de détail pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisée et des scénarios, et est définie par le paramètre **type** . Vous pouvez choisir l'une des options suivantes :
+  - Niveaux de journalisation **Logging levels**     OCSLogger a fourni la possibilité de choisir un certain nombre de niveaux de détail pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisée et des scénarios, et est définie par le paramètre **type** . Vous pouvez choisir l'une des options suivantes :
     
-      - **All collecte les**   messages de suivi de type fatal, Error, Warning et info dans le journal pour le fournisseur défini.
+      - **Tous les**     Collecte les messages de suivi de type fatal, Error, Warning et info dans le journal pour le fournisseur défini.
     
-      - **Fatal**   collecte uniquement les messages de suivi qui indiquent un échec pour le fournisseur défini.
+      - **Irrécupérable**     Collecte uniquement les messages de suivi qui indiquent un échec pour le fournisseur défini.
     
-      - **Error**   collecte uniquement les messages de suivi qui indiquent une erreur pour le fournisseur défini, ainsi que les messages irrécupérables.
+      - **Erreur**     Collecte uniquement les messages de suivi qui indiquent une erreur pour le fournisseur défini, ainsi que les messages irrécupérables.
     
-      - **Warning**   collecte uniquement les messages de suivi qui indiquent un avertissement pour le fournisseur défini, ainsi que les messages d’erreur et fatale.
+      - **Avertissement**     Collecte uniquement les messages de suivi qui indiquent un avertissement pour le fournisseur défini, ainsi que les messages d’erreur et d’erreur irrécupérable.
     
-      - **Info**   collecte uniquement les messages de suivi qui indiquent un message d’information pour le fournisseur défini, ainsi que les messages d’erreur fatale, d’erreur et d’avertissement.
+      - **Info**     Collecte uniquement les messages de suivi qui indiquent un message d’information pour le fournisseur défini, ainsi que les messages d’erreur et d’avertissement fatals.
     
-      - **Verbose**   collecte tous les messages de suivi de type fatal, Error, Warning et info pour le fournisseur défini.
+      - **Commentaires**     Collecte tous les messages de suivi de type fatal, Error, Warning et info pour le fournisseur défini.
 
-  - **Indicateurs**   OCSLogger offre la possibilité de choisir des indicateurs pour chaque fournisseur définissant le type d’informations que vous pouvez récupérer dans les fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
+  - **Indicateurs**     OCSLogger a fourni l’option permettant de choisir des indicateurs pour chaque fournisseur qui a défini le type d’informations que vous pouvez récupérer dans les fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
     
-      - **TF\_Connection**   fournit des entrées de journal liées à la connexion. Ces journaux incluent des informations sur les connexions établies depuis et vers un composant particulier. Ils peuvent également comprendre des informations importantes au niveau du réseau (c’est-à-dire, pour les composants sans le concept d’une connexion).
+      - **Tf \_ Connection**     fournit des entrées de journal liées à la connexion. Ces journaux incluent des informations sur les connexions établies depuis et vers un composant particulier. Ils peuvent également comprendre des informations importantes au niveau du réseau (c’est-à-dire, pour les composants sans le concept d’une connexion).
     
-      - **TF\_Security**   fournit tous les événements/entrées de journal liés à la sécurité. Par exemple, pour SipStack, il s’agit d’événements de sécurité tels que les échecs de validation de domaine et les échecs d’authentification ou d’autorisation du client.
+      - **Tf \_ La sécurité**     fournit tous les événements/entrées du journal liés à la sécurité. Par exemple, pour SipStack, il s’agit d’événements de sécurité tels que les échecs de validation de domaine et les échecs d’authentification ou d’autorisation du client.
     
-      - **TF\_diag**   fournit des événements de diagnostic que vous pouvez utiliser pour diagnostiquer ou dépanner le composant. Par exemple, pour SipStack, il s’agit d’échecs de certificat ou d’avertissements/erreurs DNS.
+      - **Tf \_ Diag**     fournit des événements de diagnostic que vous pouvez utiliser pour diagnostiquer ou dépanner le composant. Par exemple, pour SipStack, il s’agit d’échecs de certificat ou d’avertissements/erreurs DNS.
     
-      - **Le\_protocole**   TF fournit des messages de protocole, tels que SIP et les messages du Pack de codecs communautaires combinés.
+      - **Tf \_ Protocole**     fournit des messages de protocole, tels que SIP et les messages du Pack de codecs communautaires combinés.
     
-      - **Le\_composant**   TF active la journalisation sur les composants spécifiés dans le cadre des fournisseurs.
+      - **Tf \_ Le composant**     active la journalisation sur les composants spécifiés dans le cadre des fournisseurs.
     
-      - **All**   définit tous les indicateurs disponibles pour le fournisseur.
+      - **Tous les**     Définit tous les indicateurs disponibles pour le fournisseur.
 
 <div>
 
@@ -127,7 +129,7 @@ Introduits dans [Overview of the Centralized Logging Service in Lync Server 2013
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-–Level collecte les messages Fatal, Error, Warning et Info. Les indicateurs utilisés sont tous ceux définis pour le fournisseur Lyss, et incluent la connexion\_TF, TF\_diag et TF\_Protocol.
+–Level collecte les messages Fatal, Error, Warning et Info. Les indicateurs utilisés sont tous ceux définis pour le fournisseur Lyss, et incluent la \_ connexion TF, TF \_ diag et TF \_ Protocol.
 
 Après avoir défini la variable $LyssProvider, vous pouvez l’utiliser avec la nouvelle applet de commande **New-CsClsScenario** pour collecter des suivis à partir du fournisseur Lyss. Pour terminer la création du fournisseur et son affectation à un nouveau scénario, tapez :
 
@@ -177,7 +179,7 @@ Où chaque fournisseur défini avec la directive Add a déjà été défini à l
 
 1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Les applets de commande fournies vous permettent de mettre à jour des fournisseurs existants et de créer de nouveaux fournisseurs. Pour supprimer un fournisseur, vous devez utiliser la directive Replace pour le paramètre Provider pour **Set-CsClsScenario**. La seule façon de supprimer complètement un fournisseur est de le remplacer par un fournisseur redéfini du même nom et d’utiliser la directive Update. Par exemple, notre fournisseur LyssProvider est défini avec WPP comme type de journal, niveau défini sur déboguer et ensemble d’indicateurs\_sont connexion TF\_et TF diag. Vous devez affecter aux indicateurs la valeur « All ». Pour modifier le fournisseur, tapez ce qui suit :
+2.  Les applets de commande fournies vous permettent de mettre à jour des fournisseurs existants et de créer de nouveaux fournisseurs. Pour supprimer un fournisseur, vous devez utiliser la directive Replace pour le paramètre Provider pour **Set-CsClsScenario**. La seule façon de supprimer complètement un fournisseur est de le remplacer par un fournisseur redéfini du même nom et d’utiliser la directive Update. Par exemple, notre fournisseur LyssProvider est défini avec WPP comme type de journal, niveau défini sur déboguer et ensemble d’indicateurs sont \_ connexion TF et TF \_ diag. Vous devez affecter aux indicateurs la valeur « All ». Pour modifier le fournisseur, tapez ce qui suit :
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 

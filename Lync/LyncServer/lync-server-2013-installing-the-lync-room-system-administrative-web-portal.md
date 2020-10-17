@@ -12,20 +12,22 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b475911da0e0508fecb53de533f75e9feb10155
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54b772311865a36ba17699fc876c32c5504214e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534901"
 ---
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Installation du portail Web d’administration de Lync Room System dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Installation du portail Web d’administration de Lync Room System dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187607"
 
 _**Dernière modification de la rubrique :** 2015-04-09_
 
-Vous pouvez télécharger le portail Web d’administration de Microsoft Lync Room System à partir du centre [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044)de téléchargement Microsoft à l’adresse.
+Vous pouvez télécharger le portail Web d’administration de Microsoft Lync Room System à partir du centre de téléchargement Microsoft à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044) .
 
 Pour installer le portail Web d’administration de Lync Room System, procédez comme suit.
 
@@ -45,21 +47,21 @@ Pour installer le portail Web d’administration de Lync Room System, procédez 
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  Pour installer le portail de salle de réunion, téléchargez **LyncRoomAdminPortal. exe** , puis exécutez-le en tant qu’administrateur.
+2.  Pour installer le portail de salle de réunion, téléchargez **LyncRoomAdminPortal.exe** , puis exécutez-le en tant qu’administrateur.
 
-3.  Ouvrez le fichier Web. config à partir de l’emplacement suivant :
+3.  Ouvrez le fichier Web.config à partir de l’emplacement suivant :
     
-    % Program Files%\\Microsoft Lync Server 2013\\Web Components\\de la\\salle\\de réunion gestionnaire int du portail\\
+    % Program Files% \\ Microsoft Lync Server 2013 \\ Web Components de la \\ salle de réunion \\ gestionnaire int du portail \\\\
 
-4.  Dans le fichier Web. config, remplacez PortalUserName par le nom d’utilisateur créé à l’étape 2 sous la section « Configuration des éléments prérequis pour le portail d’administration de Lync Room System » (le nom recommandé à l’étape est LRSApp) :
+4.  Dans le fichier Web.Config, remplacez PortalUserName par le nom d’utilisateur créé à l’étape 2 sous la section « Configuration des éléments prérequis pour le portail d’administration de Lync Room System » (le nom recommandé à l’étape est LRSApp) :
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  Étant donné que le portail d’administration LRS est une application approuvée, vous n’avez pas besoin de fournir le mot de passe dans la configuration du portail. Si cet utilisateur utilise un autre bureau d’enregistrement que le serveur d’inscriptions local, vous devez spécifier le serveur d’inscriptions en ajoutant la ligne suivante dans le fichier Web. config :
+5.  Étant donné que le portail d’administration LRS est une application approuvée, vous n’avez pas besoin de fournir le mot de passe dans la configuration du portail. Si cet utilisateur utilise un autre bureau d’enregistrement que le serveur d’inscriptions local, vous devez spécifier le serveur d’inscriptions en ajoutant la ligne suivante dans le fichier Web.Config :
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  Si le port utilisé n’est pas 5061, ajoutez la ligne suivante dans le fichier Web. config :
+6.  Si le port utilisé n’est pas 5061, ajoutez la ligne suivante dans le fichier Web.Config :
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
@@ -72,7 +74,7 @@ Pour vérifier l’installation du portail Web d’administration de Lync Room S
 
 1.  Sur un serveur frontal, accédez à l’URL suivante :
     
-    https://\<serveur\>frontal/LRS
+    https:// \<fe-server\> /LRS
     
     Vous ne devez pas voir les erreurs, comme illustré dans l’image suivante :
     
@@ -80,9 +82,9 @@ Pour vérifier l’installation du portail Web d’administration de Lync Room S
 
 2.  Si aucune erreur ne s’affiche, essayez d’accéder à l’URL suivante à partir de n’importe quel autre ordinateur de la topologie :
     
-    https://\<serveur\>frontal/LRS
+    https:// \<fe-server\> /LRS
     
-    Pour accéder à la page, vous devez ajouter les enregistrements DNS comme décrit dans la section « enregistrements DNS requis pour la connexion automatique des clients » [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056)à l’adresse.
+    Pour accéder à la page, vous devez ajouter les enregistrements DNS comme décrit dans la section « enregistrements DNS requis pour la connexion automatique des clients » à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056) .
 
 </div>
 

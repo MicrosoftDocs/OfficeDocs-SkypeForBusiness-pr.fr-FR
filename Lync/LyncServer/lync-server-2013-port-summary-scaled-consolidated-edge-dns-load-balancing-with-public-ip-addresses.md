@@ -12,20 +12,22 @@ ms:contentKeyID: 48185865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a2bbae2168362e8591b4dcdb765ae0d4cca85b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5318f418c2bbd0876999aedcb33b559c5572b20a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534121"
 ---
+# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Résumé des ports-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Résumé des ports-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013
+
 
 </div>
 
@@ -73,98 +75,98 @@ Pour que l’accès à distance fonctionne pour tout service Edge, il est oblig
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Service proxy XMPP (partage une adresse IP avec le service Edge d’accès)</p></td>
 <td><p>Le service proxy XMPP accepte le trafic de contacts XMPP dans les fédérations XMPP définies</p></td>
 </tr>
 <tr class="even">
 <td><p>Accès/HTTP/TCP/80</p></td>
 <td><p>Adresse IP publique du service Edge d’accès au serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Vérification et extraction de la liste de révocation de certificats</p></td>
 </tr>
 <tr class="odd">
 <td><p>Accès/DNS/TCP/53</p></td>
 <td><p>Adresse IP publique du service Edge d’accès au serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Requête DNS sur TCP</p></td>
 </tr>
 <tr class="even">
 <td><p>Accès/DNS/UDP/53</p></td>
 <td><p>Adresse IP publique du service Edge d’accès au serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Requête DNS sur UDP</p></td>
 </tr>
 <tr class="odd">
 <td><p>Accès/SIP (TLS)/TCP/443</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge d’accès au serveur Edge</p></td>
 <td><p>Trafic SIP client vers serveur pour l’accès des utilisateurs externes</p></td>
 </tr>
 <tr class="even">
 <td><p>Accès/SIP (MTLS)/TCP/5061</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge d’accès au serveur Edge</p></td>
 <td><p>Pour la connectivité fédérée et PIC avec SIP</p></td>
 </tr>
 <tr class="odd">
 <td><p>Accès/SIP (MTLS)/TCP/5061</p></td>
 <td><p>Adresse IP publique du service Edge d’accès au serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Pour la connectivité fédérée et PIC utilisant SIP</p></td>
 </tr>
 <tr class="even">
 <td><p>Conférence Web/PSOM (TLS) TCP/443</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge de conférence Web du serveur Edge</p></td>
 <td><p>Support de conférence Web</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/TCP/50000-000-59 999</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Obligatoire pour la Fédération avec des partenaires exécutant Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/UDP/50000-000-59 999</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/TCP/50000-000-59 999</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
 <td><p>Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/UDP/50000-000-59 999</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
 <td><p>Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>3478 sortant est utilisé pour déterminer la version du serveur Edge avec lequel Lync Server communique et également pour le trafic multimédia à partir du serveur Edge de serveur à serveur Edge. Requis pour la Fédération avec Lync Server 2010, Windows Live Messenger et Office Communications Server 2007 R2, ainsi que si plusieurs pools Edge sont déployés au sein d’une entreprise.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
 <td><p>STUN/activer la négociation des candidats via UDP/3478</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/TCP/443</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP publique du service Edge A/V du serveur Edge</p></td>
 <td><p>STUN/activer la négociation des candidats sur TCP/443</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/TCP/443</p></td>
 <td><p>Service Edge A/V du serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>STUN/activer la négociation des candidats sur TCP/443</p></td>
 </tr>
 </tbody>
@@ -185,7 +187,7 @@ Pour que l’accès à distance fonctionne pour tout service Edge, il est oblig
 <th>Protocole/TCP ou UDP/Port</th>
 <th>Adresse IP source</th>
 <th>Adresse IP de destination</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -221,13 +223,13 @@ Pour que l’accès à distance fonctionne pour tout service Edge, il est oblig
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/UDP/3478</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
 <td><p>Chemin préféré pour le transfert multimédia A/V entre les utilisateurs internes et externes, le Survivable Branch Appliance ou le serveur Survivable Branch Server</p></td>
 </tr>
 <tr class="odd">
 <td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
 <td><p>Chemin de secours pour le transfert multimédia A/V entre les utilisateurs internes et externes, Survivable Branch Appliance ou le serveur Survivable Branch Server si la communication UDP ne peut pas être établie, le protocole TCP est utilisé pour le transfert de fichiers et le partage de bureau</p></td>
 </tr>
@@ -239,21 +241,21 @@ Pour que l’accès à distance fonctionne pour tout service Edge, il est oblig
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</p></td>
+<td><p>Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des cmdlets du service de journalisation centralisée, de la ligne de commande ClsController (ClsController.exe) ou des commandes de l’agent (ClsAgent.exe) et de la collection de journaux</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</p></td>
+<td><p>Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des cmdlets du service de journalisation centralisée, de la ligne de commande ClsController (ClsController.exe) ou des commandes de l’agent (ClsAgent.exe) et de la collection de journaux</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</p></td>
+<td><p>Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des cmdlets du service de journalisation centralisée, de la ligne de commande ClsController (ClsController.exe) ou des commandes de l’agent (ClsAgent.exe) et de la collection de journaux</p></td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +287,7 @@ Pour que l’accès à distance fonctionne pour tout service Edge, il est oblig
 <tr class="odd">
 <td><p>Accès/SIP (MTLS)/TCP/5061</p></td>
 <td><p>Adresse IP publique du service Edge d’accès</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Pour la connectivité fédérée et PIC utilisant SIP</p></td>
 </tr>
 </tbody>
@@ -374,25 +376,25 @@ Pour que l’accès à distance fonctionne pour tout service Edge, il est oblig
 <th>Protocole/TCP ou UDP/Port</th>
 <th>Source (adresse IP)</th>
 <th>Destination (adresse IP)</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP de l’interface du service Edge d’accès au serveur Edge</p></td>
 <td><p>Port de communication de serveur à serveur standard pour XMPP. Autorise la communication vers le proxy XMPP du serveur Edge à partir de partenaires XMPP fédérés</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Adresse IP de l’interface du service Edge d’accès au serveur Edge</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Port de communication de serveur à serveur standard pour XMPP. Autorise la communication du proxy XMPP serveur Edge aux partenaires XMPP fédérés</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP de chaque interface de serveur Edge interne</p></td>
 <td><p>Trafic XMPP interne depuis la passerelle XMPP sur le serveur frontal ou le pool frontal vers l’adresse IP interne du serveur Edge ou l’adresse IP interne de chaque membre du pool Edge</p></td>
 </tr>

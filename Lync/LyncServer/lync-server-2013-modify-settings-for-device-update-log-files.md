@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184907"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534331"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Modifier les paramètres des fichiers journaux de mise à jour des périphériques dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Modifier les paramètres des fichiers journaux de mise à jour des périphériques dans Lync Server 2013
+
 
 </div>
 
@@ -57,25 +59,25 @@ Les paramètres de journal peuvent être modifiés et appliqués globalement, ou
 <tr class="odd">
 <td><p>Taille maximale (en octets) d’un fichier journal</p></td>
 <td><p>Panneau de commande Lync Server</p>
-<p>- ou -</p>
+<p>-ou-</p>
 <p>Lync Server Management Shell</p></td>
 </tr>
 <tr class="even">
 <td><p>Quantité maximale d’informations (en octets) pouvant être conservées dans le cache</p></td>
 <td><p>Panneau de commande Lync Server</p>
-<p>- ou -</p>
+<p>-ou-</p>
 <p>Lync Server Management Shell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Fréquence (en minutes) d’écriture des informations mises en cache dans le fichier journal</p></td>
 <td><p>Panneau de commande Lync Server</p>
-<p>- ou -</p>
+<p>-ou-</p>
 <p>Lync Server Management Shell</p></td>
 </tr>
 <tr class="even">
 <td><p>Durée (en jours) pendant laquelle les fichiers journaux sont conservés</p></td>
 <td><p>Panneau de commande Lync Server</p>
-<p>- ou -</p>
+<p>-ou-</p>
 <p>Lync Server Management Shell</p></td>
 </tr>
 <tr class="odd">
@@ -106,13 +108,13 @@ Les paramètres de journal peuvent être modifiés et appliqués globalement, ou
 
 4.  Dans la boîte de dialogue **modifier le paramètre du journal** , modifiez l’un des paramètres suivants :
     
-      - **Taille maximale du fichier (octets)**   indique la taille maximale qu’un fichier journal peut prendre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
+      - **Taille maximale des fichiers (octets)**     Indique la taille maximale qu’un fichier journal peut prendre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
     
-      - **Taille maximale du cache (octets)**   spécifie la quantité maximale d’informations (en octets) pouvant être conservées dans le cache du fichier journal avant que ce cache ne soit effacé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
+      - **Taille maximale du cache (octets)**     Spécifie la quantité maximale d’informations (en octets) pouvant être conservées dans le cache du fichier journal avant que ce cache ne soit effacé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
     
-      - **Le nombre de minutes de vidage du cache (1-60)**   indique la fréquence à laquelle les informations stockées dans le cache du fichier journal sont écrites dans le fichier journal réel. Une fois que les données sont journalisées, le cache est effacé. La valeur par défaut est de cinq minutes.
+      - **Nombre de minutes de vidage du cache (1-60)**     Indique la fréquence à laquelle les informations stockées dans le cache du fichier journal sont écrites dans le fichier journal réel. Une fois que les données sont journalisées, le cache est effacé. La valeur par défaut est de cinq minutes.
     
-      - **Nombre de jours de conservation des fichiers journaux (1-365)**   indique le nombre de jours pendant lesquels les fichiers journaux sont conservés avant d’être purgés. La valeur par défaut est 10 jours.
+      - **Nombre de jours pendant lesquels les fichiers journaux sont conservés (1-365)**     Indique le nombre de jours pendant lesquels les fichiers journaux sont conservés avant d’être purgés. La valeur par défaut est 10 jours.
 
 5.  Cliquez sur **Valider**.
 
@@ -128,7 +130,7 @@ Les paramètres du fichier journal de mise à jour des appareils peuvent être m
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535321"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Applets de commande Windows PowerShell pour les services de carnet d’adresses dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Applets de commande Windows PowerShell pour les services de carnet d’adresses dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210220"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Lync Server fournit un certain nombre d’applets de commande d’interface de ligne de commande Windows PowerShell pour gérer et configurer le service de carnet d’adresses. Certaines de ces applets de commande sont des remplacements pour les commandes ABServer. exe utilisées dans les versions précédentes d’Office Communications Server. Les rubriques suivantes décrivent les applets de commande utilisées pour définir, créer et récupérer les informations relatives au service de carnet d’adresses et à sa configuration, ainsi que les informations relatives aux services web utilisés par le service de carnet d’adresses quand les clients récupèrent les fichiers et paramètres de ce dernier.
+Lync Server fournit un certain nombre d’applets de commande d’interface de ligne de commande Windows PowerShell pour gérer et configurer le service de carnet d’adresses. Certaines de ces applets de commande sont des remplacements pour les commandes ABServer.exe utilisées dans les versions précédentes d’Office Communications Server. Les rubriques suivantes décrivent les applets de commande utilisées pour définir, créer et récupérer les informations relatives au service de carnet d’adresses et à sa configuration, ainsi que les informations relatives aux services web utilisés par le service de carnet d’adresses quand les clients récupèrent les fichiers et paramètres de ce dernier.
 
 Toutes ces applets de commande sont émises via Lync Server Management Shell dans les outils Lync Server sur un serveur ou une station de travail où les outils d’administration ont été installés.
 
