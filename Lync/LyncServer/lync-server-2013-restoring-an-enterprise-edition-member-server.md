@@ -12,20 +12,22 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48af9dd5b35676ee0141b771f8e50e1fbdedae6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511441"
 ---
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauration d’un serveur membre Enterprise Edition dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauration d’un serveur membre Enterprise Edition dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Si un serveur exécutant l’un des rôles serveur suivants échoue, suivez la p
 
   - Serveur de médiation
 
-  - 48000b
+  - Directeur
 
   - serveur de conversations permanentes
 
@@ -76,7 +78,7 @@ Si un serveur exécutant l’un des rôles serveur suivants échoue, suivez la p
 
 2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous au serveur que vous restaurez.
 
-3.  Accédez au dossier ou au support d’installation de Lync Server et démarrez l’Assistant Déploiement de Lync Server \\situé\\à\\l’installation de amd64 Setup. exe.
+3.  Accédez au dossier ou au support d’installation de Lync Server et démarrez l’Assistant Déploiement de Lync Server situé lors de l' \\ installation de \\ amd64 \\Setup.exe.
 
 4.  Utilisez l’Assistant Déploiement pour faire ce que suit :
     

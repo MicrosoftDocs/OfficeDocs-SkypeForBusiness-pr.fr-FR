@@ -12,20 +12,22 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9a2f60b2273cf8d43833226ede66a2a90478a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8404a48ae4a8fce5f0d0a85fd5aa36824152c9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510851"
 ---
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Scénarios pour l’accès des utilisateurs externes dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Scénarios pour l’accès des utilisateurs externes dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ L’accès des utilisateurs externes à Lync Server 2013 nécessite le déploiem
 
 Si vous avez besoin d’une capacité supérieure à celle d’un serveur Edge unique, ou si vous avez besoin d’une haute disponibilité pour votre déploiement de serveur Edge, vous pouvez configurer l’équilibrage de charge et déployer plusieurs serveurs Edge dans un pool à charge équilibrée. Si votre organisation dispose de plusieurs centres de données, vous pouvez disposer de déploiements de serveur Edge ou de pool Edge à plusieurs emplacements. Toutefois, un seul des déploiements de serveur Edge peut être désigné comme itinéraire de Fédération.
 
-Cette section définit les scénarios pour les déploiements de serveur Edge et mappe les sections de planification aux scénarios possibles. Par exemple, si votre déploiement requiert une haute disponibilité, la Fédération avec les contacts XMPP (extensible Messaging and Presence) et Lync Mobility, sélectionnez les entrées correspondantes dans le tableau suivant qui satisferont ces exigences et utilisez le sections de planification référencées pour définir votre déploiement, comme illustré dans le diagramme suivant.
+Cette section définit les scénarios pour les déploiements de serveur Edge et mappe les sections de planification aux scénarios possibles. Par exemple, si votre déploiement requiert une haute disponibilité, la Fédération avec les contacts XMPP (extensible Messaging and Presence) et Lync Mobility, vous devez sélectionner les entrées correspondantes dans le tableau suivant qui satisferait ces exigences et utiliser les sections de planification référencées pour définir votre déploiement, comme illustré dans le diagramme suivant.
 
 **Processus de sélection d’un scénario de déploiement de serveur Edge**
 
@@ -53,7 +55,7 @@ Ce processus vous permet de planifier et de documenter la configuration de toute
 
 
 > [!TIP]  
-> Si vous envisagez d’installer les serveurs Edge et le proxy inverse, puis ajoutez des fonctionnalités ultérieurement (par exemple, la Fédération et la mobilité), déterminez les certificats dont vous aurez besoin pour tous les services après le déploiement. La planification et l’acquisition des certificats pour toutes les fonctionnalités à l’avance, initialement déployés ou non, vous évitent de devoir commander de nouveaux certificats afin de satisfaire aux exigences de la Fédération (c’est-à-dire sur les serveurs Edge) ou au proxy inverse (pour la mobilité services).
+> Si vous envisagez d’installer les serveurs Edge et le proxy inverse, puis ajoutez des fonctionnalités ultérieurement (par exemple, la Fédération et la mobilité), déterminez les certificats dont vous aurez besoin pour tous les services après le déploiement. La planification et l’acquisition des certificats pour toutes les fonctionnalités à l’avance, initialement déployées ou non, vous évitent de devoir commander de nouveaux certificats afin de satisfaire aux exigences de la Fédération (c’est-à-dire sur les serveurs Edge) ou au proxy inverse (pour les services de mobilité).
 
 
 

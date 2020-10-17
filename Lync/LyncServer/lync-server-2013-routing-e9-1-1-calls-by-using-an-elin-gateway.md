@@ -12,20 +12,22 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7382411774fb9fcb51bf7ade7d64795781c0ebb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a3fb7a36680ff3ef35de44d53fc10a676d46242
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511241"
 ---
+# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Routage des appels E9-1-1 à l’aide d’une passerelle ELIN dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Routage des appels E9-1-1 à l’aide d’une passerelle ELIN dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208510"
 
 _**Dernière modification de la rubrique :** 2013-02-05_
 
-Certains partenaires dans le programme d’interopérabilité ouverte des communications unifiées fournissent des passerelles ELIN (Emergency Location Identification Number) certifiées, qui peuvent servir d’alternative à une connexion de jonction SIP à un fournisseur de services E9-1-1 certifié. Les passerelles ELIN prennent en charge la connectivité RNIS ou CAMA (Centralized Automatic Message Accounting) aux services E9-1-1 basé sur le réseau téléphonique commuté (RTC). Pour plus d’informations sur les partenaires qui fournissent des passerelles ELIN et des liens [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425)vers leurs documents, reportez-vous à.
+Certains partenaires dans le programme d’interopérabilité ouverte des communications unifiées fournissent des passerelles ELIN (Emergency Location Identification Number) certifiées, qui peuvent servir d’alternative à une connexion de jonction SIP à un fournisseur de services E9-1-1 certifié. Les passerelles ELIN prennent en charge la connectivité RNIS ou CAMA (Centralized Automatic Message Accounting) aux services E9-1-1 basé sur le réseau téléphonique commuté (RTC). Pour plus d’informations sur les partenaires qui fournissent des passerelles ELIN et des liens vers leurs documents, reportez-vous à [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425) .
 
 Comme les connexions de jonction SIP aux fournisseurs de services E9-1-1, les passerelles ELIN permettent également de router un appel d’urgence vers le point de réponse publique (PSAPI) le plus approprié de l’appelant, mais ces passerelles utilisent un ELIN comme identificateur d’emplacement. Vous définissez numéros pour chaque lieu de réponse d’urgence (ERL) de votre organisation (pour plus d’informations, consultez la rubrique [Managing locations for Elin Gateways in Lync Server 2013](lync-server-2013-managing-locations-for-elin-gateways.md)).
 

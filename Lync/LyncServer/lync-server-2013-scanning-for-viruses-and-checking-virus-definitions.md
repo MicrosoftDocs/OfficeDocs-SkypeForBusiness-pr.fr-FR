@@ -12,20 +12,22 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aba7d5f1b279ba83a5a6053d2197c90253dd84ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510861"
 ---
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Recherche de virus et vérification des définitions de virus dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Recherche de virus et vérification des définitions de virus dans Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ La mise à jour des moteurs de scanneurs et des définitions de virus est très 
 
 
 > [!IMPORTANT]  
-> Lors de l’utilisation d’un logiciel antivirus de niveau fichier tiers sur un serveur qui exécute Lync Server 2013 et Forefront Security pour Lync Server, assurez-vous que les dossiers dans lesquels Forefront Security pour Lync Server et Lync Server sont installés ne sont pas analysés, afin d’empêcher leur corruption. Pour obtenir la liste complète des exclusions, <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>reportez-vous à la rubrique.
+> Lors de l’utilisation d’un logiciel antivirus de niveau fichier tiers sur un serveur qui exécute Lync Server 2013 et Forefront Security pour Lync Server, assurez-vous que les dossiers dans lesquels Forefront Security pour Lync Server et Lync Server sont installés ne sont pas analysés afin de prévenir leur corruption. Pour obtenir la liste complète des exclusions, reportez-vous à la rubrique <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> .
 
 
 

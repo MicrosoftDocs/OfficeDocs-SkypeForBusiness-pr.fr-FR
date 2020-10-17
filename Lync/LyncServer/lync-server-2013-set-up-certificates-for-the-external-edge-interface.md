@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509881"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configurer des certificats pour l’interface Edge externe pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configurer des certificats pour l’interface Edge externe pour Lync Server 2013
+
 
 </div>
 
@@ -47,11 +49,11 @@ _**Dernière modification de la rubrique :** 2012-09-08_
 
 </div>
 
-Chaque serveur Edge nécessite un certificat public sur l’interface entre le réseau de périmètre et Internet, et l’autre nom de sujet du certificat doit contenir les noms externes du service Edge d’accès et du service Edge de conférence Web. noms de domaine qualifiés (FQDN).
+Chaque serveur Edge nécessite un certificat public sur l’interface entre le réseau de périmètre et Internet, et l’autre nom de sujet du certificat doit contenir les noms externes du service Edge d’accès et des noms de domaine complets (FQDN) du service Edge de conférence Web.
 
 Pour plus d’informations à ce sujet et sur d’autres exigences de certificat, voir [Certificate Requirements for External User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Pour obtenir la liste des autorités de certification publiques qui fournissent des certificats conformes aux exigences spécifiques pour les certificats de communications unifiées et qui ont conclu un partenariat avec Microsoft afin de s’assurer qu’ils fonctionnent avec l’Assistant Certificat Lync Server 2013, consultez l’article 929395 de la base de connaissances Microsoft « partenaires de certificat de communications [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)unifiées pour Exchange Server et Communications Server » à l’adresse.
+Pour obtenir la liste des autorités de certification publiques qui fournissent des certificats conformes aux exigences spécifiques pour les certificats de communications unifiées et qui ont conclu un partenariat avec Microsoft afin de s’assurer qu’ils fonctionnent avec l’Assistant Certificat Lync Server 2013, consultez l’article 929395 de la base de connaissances Microsoft « partenaires de certificat de communications unifiées pour Exchange Server et Communications Server » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 <div>
 
@@ -96,7 +98,7 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) cert
 
 4.  Dans la page **Demande différée ou immédiate**, cochez la case **Préparer la demande maintenant, mais l’envoyer plus tard**.
 
-5.  Dans la **page fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple,\\c\_:\_CERT exernal Edge. cer).
+5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, c : \\ CERT \_ exernal \_ Edge. cer).
 
 6.  Dans la page **Spécifier un autre modèle de certificat**, pour utiliser un autre modèle que le modèle WebServer par défaut, cochez la case **Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée**.
 
@@ -114,7 +116,7 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) cert
 
 10. Dans la page **Nom du sujet/Autres noms du sujet**, le système affiche les informations automatiquement renseignées par l’Assistant. Si d’autres noms du sujet doivent être ajoutés, spécifiez-les dans les deux étapes suivantes.
 
-11. Sur la page **paramètre du domaine SIP sur les autres noms du sujet** , activez la case à cocher domaine pour ajouter un SIP. \<entrée\> sipdomain à la liste des autres noms du sujet.
+11. Sur la page **paramètre du domaine SIP sur les autres noms du sujet** , activez la case à cocher domaine pour ajouter un SIP.\<sipdomain\> entrée de la liste des autres noms du sujet.
 
 12. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
 
@@ -144,7 +146,7 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) cert
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Le nom de certificat par défaut du modèle fourni dans Lync Server 2013 est le serveur Web. Ne spécifiez \<le nom\> du modèle que si vous devez utiliser un modèle différent du modèle par défaut.
+    Le nom de certificat par défaut du modèle fourni dans Lync Server 2013 est le serveur Web. Spécifiez uniquement le \<template name\> si vous devez utiliser un modèle qui est différent du modèle par défaut.
     
     <div>
     
@@ -239,7 +241,7 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) cert
     
     </div>
 
-9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez ce qui suit :
+9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **échange d’informations personnelles – PKCS \# 12 (. PFX)** , puis sélectionnez ce qui suit :
     
       - Inclure tous les certificats dans le chemin d’accès de certification si possible
     
@@ -286,7 +288,7 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) cert
     
 
     > [!NOTE]  
-    > Si le certificat que vous avez demandé et importé ne se trouve pas dans la liste, l’une des méthodes de dépannage consiste à vérifier que le nom de sujet et les autres noms de sujet du certificat répondent à toutes les exigences du certificat et, si vous avez importé manuellement le certificat et chaîne de certificats au lieu d’utiliser les procédures précédentes, le certificat se trouve dans le magasin de certificats correct (le magasin de certificats de l’ordinateur, pas le magasin de certificats de l’utilisateur ou du service).
+    > Si le certificat que vous avez demandé et importé ne figure pas dans la liste, l’une des méthodes de dépannage consiste à vérifier que le nom de sujet et les autres noms de sujet du certificat répondent à toutes les exigences du certificat et, si vous avez importé manuellement le certificat et la chaîne de certificats au lieu d’utiliser les procédures précédentes, que le certificat se trouve dans le magasin de certificats approprié , et non l’utilisateur ou le magasin de certificats du service).
 
     
     </div>

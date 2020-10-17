@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510271"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Plateformes matérielles de serveur pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Plateformes matérielles de serveur pour Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Pour de meilleures performances, nous vous recommandons d’exécuter Lync Serve
 <td><ul>
 <li><p>8 disques durs ou plus 10 000 tours/minute avec au moins 72 Go d’espace disponible.</p>
 <p>Deux de ces disques doivent utiliser RAID 1 et six doivent utiliser RAID 10.</p>
-<p>-Des</p></li>
+<p>- Des</p></li>
 <li><p>Disques SSD (Solid State Drive) qui fournissent des performances similaires à 8 disques durs mécaniques 10 000 tours/minute.</p></li>
 </ul></td>
 </tr>
@@ -124,7 +126,7 @@ Pour de meilleures performances, nous vous recommandons d’exécuter Lync Serve
 <td><p>UC</p></td>
 <td><ul>
 <li><p>Double processeur 64 bits, quadruple cœur, 2,0 gigahertz (GHz) ou supérieur.</p>
-<p>-Des</p></li>
+<p>- Des</p></li>
 <li><p>processeur 4 ou 4 voies, double cœur, 2,0 GHz ou supérieur. 64</p></li>
 </ul>
 <p>Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</p></td>
@@ -138,7 +140,7 @@ Pour de meilleures performances, nous vous recommandons d’exécuter Lync Serve
 <td><ul>
 <li><p>4 disques durs ou plus 10 000 RPM avec au moins 72 Go d’espace disque disponible.</p>
 <p>Les disques doivent se trouver dans une configuration 2x RAID 1.</p>
-<p>-Des</p></li>
+<p>- Des</p></li>
 <li><p>Disques SSD (Solid State Drive) qui fournissent des performances similaires à 4 disques durs mécaniques 10 000 tours/minute.</p></li>
 </ul></td>
 </tr>

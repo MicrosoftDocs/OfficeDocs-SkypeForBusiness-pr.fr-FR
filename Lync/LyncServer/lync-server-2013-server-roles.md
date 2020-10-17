@@ -12,20 +12,22 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e153e41e0c5d452ec136daf2ad46d4ea67541d83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a413bde093c375a887f1ea39c435401b3ce1c4a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510261"
 ---
+# <a name="server-roles-in-lync-server-2013"></a>Rôles serveur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-in-lync-server-2013"></a>Rôles serveur dans Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Même si vous n’êtes pas familiarisé avec les rôles serveur dans Lync Serve
 
   - Serveur de médiation
 
-  - 48000b
+  - Directeur
 
   - Serveur frontal de conversation permanente
 
@@ -127,7 +129,7 @@ Parmi les informations stockées dans les bases de données du serveur principal
 
 ## <a name="edge-server"></a>Serveur Edge
 
-Le serveur Edge permet à vos utilisateurs de communiquer et de collaborer avec des utilisateurs à l’extérieur des pare-feu de l’organisation. Ces utilisateurs externes peuvent inclure les utilisateurs de l’organisation qui travaillent actuellement hors site, les utilisateurs des organisations de partenaires fédérés et les utilisateurs externes qui ont été invités à participer à des conférences hébergées sur votre déploiement Lync Server. Le serveur Edge permet également la connectivité aux services de connectivité de messagerie instantanée publique, y compris\!Windows Live, AOL, Yahoo et Google Talk.
+Le serveur Edge permet à vos utilisateurs de communiquer et de collaborer avec des utilisateurs à l’extérieur des pare-feu de l’organisation. Ces utilisateurs externes peuvent inclure les utilisateurs de l’organisation qui travaillent actuellement hors site, les utilisateurs des organisations de partenaires fédérés et les utilisateurs externes qui ont été invités à participer à des conférences hébergées sur votre déploiement Lync Server. Le serveur Edge permet également la connectivité aux services de connectivité de messagerie instantanée publique, y compris Windows Live, AOL, Yahoo \! et Google Talk.
 
 <div>
 
@@ -165,7 +167,7 @@ Pour plus d’informations, reportez-vous à [Mediation Server Component in Lync
 
 <div>
 
-## <a name="director"></a>48000b
+## <a name="director"></a>Directeur
 
 Les directeurs peuvent authentifier les demandes des utilisateurs de Lync Server, mais ils ne disposent pas de comptes d’utilisateurs personnels ou fournissent des services de présence ou de conférence. Les directeurs sont très utiles pour renforcer la sécurité dans les déploiements qui permettent l’accès des utilisateurs externes. Le directeur peut authentifier les demandes avant de les envoyer aux serveurs internes. En cas d’attaque par déni de service, celle-ci s’arrête au niveau du directeur sans atteindre les serveurs frontaux. Pour plus d’informations, reportez-vous à [scénarios pour le directeur dans Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) dans la documentation de planification.
 

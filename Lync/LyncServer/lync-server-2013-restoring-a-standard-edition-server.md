@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511561"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restauration d’un serveur Standard Edition Server dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restauration d’un serveur Standard Edition Server dans Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Si un serveur Standard Edition Server qui n’héberge pas le magasin central de
     
     3.  Sélectionnez la topologie, puis cliquez sur **Enregistrer**. Cliquez sur **Oui** pour confirmer votre sélection.
 
-5.  Accédez au dossier ou au support d’installation de Lync Server, puis démarrez l’Assistant Déploiement de Lync Server \\situé\\à\\l’installation de amd64 Setup. exe. Utilisez l’Assistant Déploiement de Lync Server pour effectuer les opérations suivantes :
+5.  Naviguez jusqu’au dossier ou au support d’installation de Lync Server, puis démarrez l’Assistant Déploiement de Lync Server situé lors de l' \\ installation de \\ amd64 \\Setup.exe. Utilisez l’Assistant Déploiement de Lync Server pour effectuer les opérations suivantes :
     
     1.  Exécutez l’**Étape 1 : Installer le magasin de configurations local** pour installer les fichiers de configuration locaux.
     
@@ -99,7 +101,7 @@ Si un serveur Standard Edition Server qui n’héberge pas le magasin central de
 
 6.  Restaurez les données utilisateur en effectuant ce qui suit :
     
-    1.  Copiez ExportedUserData. zip de\\ $Backup dans un répertoire local.
+    1.  Copiez ExportedUserData.zip de $Backup \\ vers un répertoire local.
     
     2.  Avant de restaurer les données utilisateur, vous devez arrêter Lync services. Pour ce faire, tapez :
         
@@ -123,7 +125,7 @@ Si un serveur Standard Edition Server qui n’héberge pas le magasin central de
     
     Si vous avez utilisé la sauvegarde SQL Server pour sauvegarder la base de données de conversation permanente, utilisez les procédures de restauration SQL Server pour la restaurer.
     
-    Si vous avez utilisé la cmdlet Export-applet cspersistentchatdata pour la sauvegarder, utilisez l’applet de commande Import-applet cspersistentchatdata pour la restaurer.
+    Si vous avez utilisé l’applet de commande Export-CsPersistentChatData pour la sauvegarder, utilisez la Import-CsPersistentChatData pour la restaurer.
 
 </div>
 

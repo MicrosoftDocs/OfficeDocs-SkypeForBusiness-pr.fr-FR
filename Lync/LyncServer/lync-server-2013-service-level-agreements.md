@@ -12,20 +12,22 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f902a946d272ce3a16db5f032b74ec031c7e3a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7dbc961068a0b0efe0e9d540d1e95540d9dd88cd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510111"
 ---
+# <a name="service-level-agreements-in-lync-server-2013"></a>Contrats de niveau de service dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="service-level-agreements-in-lync-server-2013"></a>Contrats de niveau de service dans Lync Server 2013
+
 
 </div>
 
@@ -63,11 +65,11 @@ Si votre client est interne, vous pouvez toujours définir les services attendus
 
 Les contrats de niveau de service incluent des sections qui définissent les critères des niveaux minimaux de disponibilité, de prise en charge et de capacité.
 
-  - **La disponibilité**   définit les heures et les systèmes d’exploitation sur lesquels les sites et les autres services Lync seront disponibles. Toute maintenance de routine affectant la disponibilité du service doit être définie. Définir les facteurs externes qui affectent le service, par exemple la perte de connectivité Internet.
+  - **Disponibilité**     Définissez les heures et les systèmes d’exploitation sur lesquels les sites et les autres services Lync seront disponibles. Toute maintenance de routine affectant la disponibilité du service doit être définie. Définir les facteurs externes qui affectent le service, par exemple la perte de connectivité Internet.
 
-  - **Prise en charge**   définir les heures auxquelles la prise en charge d’un système sera disponible. Spécifiez les méthodes permettant aux clients de contacter le personnel du support technique, le mode de regroupement des incidents et l’heure à laquelle ils doivent répondre et résoudre l’incident. Définissez la fréquence et le contenu des commentaires pour le client.
+  - **Prise en charge**     Définir les heures auxquelles la prise en charge d’un système sera disponible. Spécifiez les méthodes permettant aux clients de contacter le personnel du support technique, le mode de regroupement des incidents et l’heure à laquelle ils doivent répondre et résoudre l’incident. Définissez la fréquence et le contenu des commentaires pour le client.
 
-  - **Capacité**   définissez la taille maximale activée des sites Lync et les étapes à suivre si la limite est dépassée. Définir le temps maximal activé pour effectuer des tâches standard, telles que le temps de récupération d’un document dans une bibliothèque de documents. Définir le nombre maximal d’utilisateurs par pool Lync et accepter un processus pour augmenter la capacité si d’autres utilisateurs sont ajoutés.
+  - **Capacité**     Définir la taille maximale activée des sites Lync et les étapes à suivre si la limite est dépassée. Définir le temps maximal activé pour effectuer des tâches standard, telles que le temps de récupération d’un document dans une bibliothèque de documents. Définir le nombre maximal d’utilisateurs par pool Lync et accepter un processus pour augmenter la capacité si d’autres utilisateurs sont ajoutés.
 
 </div>
 

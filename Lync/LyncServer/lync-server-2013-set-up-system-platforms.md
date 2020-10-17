@@ -12,20 +12,22 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59aafcda7cbe94401cdbd77479eecf38e3e9e351
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29bd5bff0b215060b1d352d5cc5798b114140c15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200603"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509781"
 ---
+# <a name="set-up-system-platforms-in-lync-server-2013"></a>Configuration des plateformes système dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-system-platforms-in-lync-server-2013"></a>Configuration des plateformes système dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Vous pouvez également déployer le serveur de conversation permanente avec Lync
 
 
 > [!IMPORTANT]  
-> Nous ne prenons pas en charge le&nbsp;serveur de conversation permanente pour la haute disponibilité. Les performances et l’évolutivité seraient limitées. En outre, nous ne prenons en charge que&nbsp;les nouveaux déploiements de serveur de conversation permanente Server Standard Edition. Nous ne prenons pas en charge la mise à niveau de Lync Server 2010, Group Chat Server vers&nbsp;un serveur lync&nbsp;Server 2013 persistent Chat Server Standard Edition.
+> Nous ne prenons pas en charge le serveur de conversation permanente &nbsp; pour la haute disponibilité. Les performances et l’évolutivité seraient limitées. En outre, nous ne prenons en charge que les nouveaux déploiements de serveur de conversation permanente Server &nbsp; Standard Edition. Nous ne prenons pas en charge la mise à niveau de Lync Server 2010, Group Chat Server vers un serveur Lync Server 2013 &nbsp; persistent Chat Server &nbsp; Standard Edition.
 
 
 

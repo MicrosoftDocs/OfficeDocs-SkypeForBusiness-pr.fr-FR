@@ -12,20 +12,22 @@ ms:contentKeyID: 48184991
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d9f0f1bc18cf7c0a54a5bacc9257e4264b7b93c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e4ed33466e9b31fbabb3432927baea8f087ea1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208460"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511121"
 ---
+# <a name="running-forest-preparation-for-lync-server-2013"></a>Exécution de la préparation de la forêt pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-forest-preparation-for-lync-server-2013"></a>Exécution de la préparation de la forêt pour Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Après avoir préparé la forêt, vous devez vérifier que les paramètres globa
 
 1.  Ouvrez une session sur un ordinateur lié à un domaine en tant que membre du groupe Administrateurs d’entreprise pour le domaine racine de la forêt.
 
-2.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant déploiement.
+2.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup.exe pour démarrer l’Assistant déploiement.
 
 3.  Cliquez sur **Préparer Active Directory**, puis attendez que l’état du déploiement soit déterminé.
 
@@ -66,7 +68,7 @@ Après avoir préparé la forêt, vous devez vérifier que les paramètres globa
 
 6.  Sur la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**.
 
-7.  Sous la colonne **action** , développez préparation de la **forêt**, ** \<recherchez\> ** un résultat d’exécution réussie à la fin de chaque tâche pour vérifier que la préparation de la forêt s’est correctement effectuée, fermez le journal, puis cliquez sur **Terminer**.
+7.  Sous la colonne **action** , développez préparation de la **forêt**, recherchez le **\<Success\>** résultat d’exécution à la fin de chaque tâche pour vérifier que la préparation de la forêt s’est correctement effectuée, fermez le journal, puis cliquez sur **Terminer**.
 
 8.  Attendez que la réplication Active Directory soit terminée ou forcez la réplication sur tous les contrôleurs de domaine répertoriés dans le composant logiciel enfichable **Sites et services Active Directory** pour le contrôleur du domaine racine de la forêt, avant d’exécuter l’opération de préparation d’un domaine. Forcez la réplication entre les contrôleurs de domaine sur tous les sites Active Directory pour faire en sorte que la réplication au sein de ces sites se produise en quelques minutes.
 
@@ -80,7 +82,7 @@ Après avoir préparé la forêt, vous devez vérifier que les paramètres globa
 
 2.  Installez les composants principaux de Lync Server comme suit :
     
-    1.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Lync Server.
+    1.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup.exe pour démarrer l’Assistant Déploiement de Lync Server.
     
     2.  Si le système vous invite à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
     
@@ -106,7 +108,7 @@ Après avoir préparé la forêt, vous devez vérifier que les paramètres globa
     
         Get-CsAdForest 
     
-    Cette applet de commande renvoie une **valeur\_de\_LC\_FORESTSETTINGS State Ready** si la préparation de la forêt a réussi.
+    Cette applet de commande renvoie une valeur de **LC \_ FORESTSETTINGS \_ State \_ Ready** si la préparation de la forêt a réussi.
 
 </div>
 

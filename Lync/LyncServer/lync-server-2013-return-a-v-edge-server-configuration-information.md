@@ -12,20 +12,22 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50cfd257e387c48af8446adc43b25d4fd0818ea5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b73a6460b6045d5f1f2e35afcf91af0ebdd9e2b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511381"
 ---
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Renvoyer les informations de configuration du serveur Edge A/V dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Renvoyer les informations de configuration du serveur Edge A/V dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-11-01_
 
 Le service Edge A/V permet à vos utilisateurs internes (les utilisateurs connectés au réseau de votre organisation) de partager des fichiers audio et vidéo avec des utilisateurs externes (des utilisateurs qui ne sont pas connectés au réseau de votre organisation). La gestion du service Edge A/V s’effectue à l’aide des paramètres de configuration de ce service. Les paramètres peuvent être configurés au niveau du site ou du service (c’est-à-dire pour un serveur Edge A/V).
 
-Pour renvoyer des informations sur les paramètres de configuration Edge A/V utilisés dans votre organisation, vous devez utiliser Windows PowerShell et la cmdlet Get-CsAVEdgeConfiguration. Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
+Pour renvoyer des informations sur les paramètres de configuration Edge A/V utilisés dans votre organisation, vous devez utiliser Windows PowerShell et l’applet de commande Get-CsAVEdgeConfiguration. Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
 
 Les informations retournées par l’applet de commande Get-CsAVEdgeConfiguration ressemblent à ceci :
 

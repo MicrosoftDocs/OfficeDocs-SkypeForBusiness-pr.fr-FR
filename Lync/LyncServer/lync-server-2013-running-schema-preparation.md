@@ -12,20 +12,22 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12dda05b36406e620c08abac494dceecc7d314d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 202052ce01bca6cdc11e8ed36dfede9afba74b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201130"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511101"
 ---
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Exécution de la préparation du schéma Active Directory dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Exécution de la préparation du schéma Active Directory dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Vous pouvez utiliser le programme d’installation ou les applets de commande Ly
 
 
 > [!NOTE]  
-> La cmdlet de préparation de schéma (<STRONG>install-CsAdServerSchema</STRONG>) doit accéder au contrôleur de schéma, ce qui nécessite que le service Registre distant soit en cours d’exécution et que la clé de Registre distante soit activée. Si le service Registre distant ne peut pas être activé sur le contrôleur de schéma, vous pouvez exécuter l’applet de commande localement sur le contrôleur de schéma. Pour plus d’informations sur l’accès à distance au registre, consultez l’article 314837 de la base de connaissances Microsoft, « procédure de <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>gestion de l’accès à distance au registre » à l’adresse.
+> La cmdlet de préparation de schéma (<STRONG>install-CsAdServerSchema</STRONG>) doit accéder au contrôleur de schéma, ce qui nécessite que le service Registre distant soit en cours d’exécution et que la clé de Registre distante soit activée. Si le service Registre distant ne peut pas être activé sur le contrôleur de schéma, vous pouvez exécuter l’applet de commande localement sur le contrôleur de schéma. Pour plus d’informations sur l’accès à distance au registre, consultez l’article 314837 de la base de connaissances Microsoft, « procédure de gestion de l’accès à distance au registre » à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A> .
 
 
 
@@ -57,7 +59,7 @@ Après avoir préparé le schéma, vérifiez manuellement que la partition du sc
 
 1.  Ouvrez une session sur un serveur de la forêt en tant que membre du groupe Administrateurs du schéma et avec les droits d’administrateur sur le maître de schémas.
 
-2.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant déploiement.
+2.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup.exe pour démarrer l’Assistant déploiement.
 
 3.  Si le système vous invite à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
 
@@ -75,7 +77,7 @@ Après avoir préparé le schéma, vérifiez manuellement que la partition du sc
 
 10. Dans la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**.
 
-11. Sous la colonne **action** , développez **préparation du schéma**, recherchez le ** \<\> ** résultat de l’exécution réussie à la fin de chaque tâche pour vérifier que la préparation du schéma s’est correctement déroulée, fermez le journal, puis cliquez sur **Terminer**.
+11. Sous la colonne **action** , développez **préparation du schéma**, recherchez le résultat de l' **\<Success\>** exécution à la fin de chaque tâche pour vérifier que la préparation du schéma s’est correctement déroulée, fermez le journal, puis cliquez sur **Terminer**.
 
 12. Attendez la fin de la réplication d’Active Directory ou forcez-la.
 
@@ -91,7 +93,7 @@ Après avoir préparé le schéma, vérifiez manuellement que la partition du sc
 
 2.  Installez les composants principaux de Lync Server comme suit :
     
-    1.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Lync Server.
+    1.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup.exe pour démarrer l’Assistant Déploiement de Lync Server.
     
     2.  Si le système vous invite à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
     
@@ -115,7 +117,7 @@ Après avoir préparé le schéma, vérifiez manuellement que la partition du sc
     
         Get-CsAdServerSchema 
     
-    Cette applet de commande renvoie une valeur de l' **état\_\_\_actuel** de la version du schéma si la préparation du schéma a réussi.
+    Cette applet de commande renvoie une valeur de l' ** \_ \_ état \_ actuel** de la version du schéma si la préparation du schéma a réussi.
 
 6.  Attendez la fin de la réplication d’Active Directory ou forcez-la.
 

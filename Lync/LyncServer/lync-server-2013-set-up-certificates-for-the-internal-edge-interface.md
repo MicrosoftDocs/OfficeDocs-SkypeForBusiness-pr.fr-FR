@@ -12,20 +12,22 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34e1d0d4e87bffbf28ba600ab23d849fd664423
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8f8c5c41eba828cb6514ba6963167d708ed203d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182187"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509891"
 ---
+# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configurer des certificats pour l’interface Edge interne dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configurer des certificats pour l’interface Edge interne dans Lync Server 2013
+
 
 </div>
 
@@ -65,13 +67,13 @@ Pour configurer des certificats sur l’interface Edge interne au niveau d’un 
 
 6.  Assignez le certificat pour l’interface interne de chaque serveur Edge.
 
-Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topologie Edge sur plusieurs sites) ou des ensembles de serveurs Edge déployés derrière différents programmes d’équilibrage de la charge, vous devez suivre ces étapes pour chaque site doté de serveurs Edge et pour chaque ensemble de serveurs Edge. déployé derrière un programme d’équilibrage de charge différent.
+Si vous avez plusieurs sites avec des serveurs Edge (autrement dit, une topologie Edge sur plusieurs sites) ou des ensembles de serveurs Edge séparés déployés derrière différents programmes d’équilibrage de la charge, vous devez suivre ces étapes pour chaque site doté de serveurs Edge et pour chaque ensemble de serveurs Edge déployé derrière un programme d’équilibrage de charge différent.
 
 <div>
 
 
 > [!NOTE]  
-> Les étapes des procédures décrites dans cette section sont basées sur l’utilisation d'&nbsp;une autorité de certification windows&nbsp;Server&nbsp;2008, Windows Server 2008 R2 ca, Windows server 2012 ca ou Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge. Pour obtenir des instructions détaillées pour toute autre autorité de certification, consultez la documentation de cette autorité de certification. Par défaut, tous les utilisateurs authentifiés disposent des droits d’utilisateur appropriés pour demander des certificats.<BR>Les procédures de cette section sont basées sur la création de demandes de certificats sur le serveur Edge dans le cadre du processus de déploiement du serveur Edge. Il est possible de créer des demandes de certificat à l’aide du serveur frontal. Vous pouvez effectuer cette opération pour terminer la demande de certificat au début du processus de planification et de déploiement, avant de commencer le déploiement des serveurs Edge. Pour ce faire, vous devez vous assurer que le certificat que vous demandez est défini avec une clé privée exportable.<BR>Les procédures décrites dans cette section décrivent l’utilisation d’un fichier. cer et d’un fichier. p7b pour le certificat. Si vous utilisez un autre type de fichier, modifiez ces procédures selon vos besoins.
+> Les étapes des procédures décrites dans cette section sont basées sur l’utilisation d’une autorité de certification Windows Server &nbsp; 2008, Windows server &nbsp; 2008 &nbsp; R2 ca, Windows Server 2012 ca ou Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge. Pour obtenir des instructions détaillées pour toute autre autorité de certification, consultez la documentation de cette autorité de certification. Par défaut, tous les utilisateurs authentifiés disposent des droits d’utilisateur appropriés pour demander des certificats.<BR>Les procédures de cette section sont basées sur la création de demandes de certificats sur le serveur Edge dans le cadre du processus de déploiement du serveur Edge. Il est possible de créer des demandes de certificat à l’aide du serveur frontal. Vous pouvez effectuer cette opération pour terminer la demande de certificat au début du processus de planification et de déploiement, avant de commencer le déploiement des serveurs Edge. Pour ce faire, vous devez vous assurer que le certificat que vous demandez est défini avec une clé privée exportable.<BR>Les procédures décrites dans cette section décrivent l’utilisation d’un fichier. cer et d’un fichier. p7b pour le certificat. Si vous utilisez un autre type de fichier, modifiez ces procédures selon vos besoins.
 
 
 
@@ -135,7 +137,7 @@ Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topolo
 
 6.  Dans l’**Assistant Exportation de certificat**, cliquez sur **Suivant**.
 
-7.  Dans la boîte de dialogue **Exporter le format de fichier** , sélectionnez un format d’exportation. Nous vous recommandons d’utiliser la **syntaxe de message \#de chiffrement standard – certificats PKCS 7 (. P7B)**. Si vous sélectionnez la **syntaxe de message chiffré standard – \#certificats PKCS 7 (. P7B)**, activez la case à cocher **inclure tous les certificats dans le chemin d’accès de certification si possible** pour exporter la chaîne de certificats, y compris le certificat de l’autorité de certification racine et les certificats de l’autorité de certification intermédiaire. Cliquez sur **Suivant**.
+7.  Dans la boîte de dialogue **Exporter le format de fichier** , sélectionnez un format d’exportation. Nous vous recommandons d’utiliser la **syntaxe de message de chiffrement standard – \# certificats PKCS 7 (. P7B)**. Si vous sélectionnez la **syntaxe de message chiffré standard – \# certificats PKCS 7 (. P7B)**, activez la case à cocher **inclure tous les certificats dans le chemin d’accès de certification si possible** pour exporter la chaîne de certificats, y compris le certificat de l’autorité de certification racine et les certificats de l’autorité de certification intermédiaire. Cliquez sur **Suivant**.
 
 8.  Dans la boîte de dialogue **fichier à exporter** de l’entrée nom de fichier, tapez un chemin d’accès et un nom de fichier (extension. p7b) pour le certificat exporté. Éventuellement, cliquez sur **Parcourir**, recherchez un répertoire dans lequel placer le certificat exporté et attribuez un nom au certificat exporté. Cliquez sur **Enregistrer**. Cliquez sur **Suivant**.
 
@@ -188,7 +190,7 @@ Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topolo
 
 4.  Sur la page **demandes différées ou immédiates** , cliquez sur **préparer la demande maintenant, mais l’envoyer plus tard**.
 
-5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, **c :\\CERT\_Internal\_Edge. cer**).
+5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, **c : \\ CERT \_ Internal \_ Edge. cer**).
 
 6.  Sur la page **spécifier un autre modèle de certificat** , pour utiliser un autre modèle que le modèle serveur Web par défaut, activez la case à cocher utiliser un autre modèle **de certificat pour l’autorité de certification sélectionnée** .
 
@@ -265,7 +267,7 @@ Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topolo
 
 4.  Dans la page Ajouter ou supprimer des composants logiciels enfichables, cliquez sur **certificats**, puis sur **Ajouter**.
 
-5.  Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**. Cliquez sur **Suivant**. Dans sélectionner un ordinateur, sélectionnez **ordinateur local : (l’ordinateur sur lequel cette console est exécutée)**. Cliquez sur**Terminer**. Cliquez sur **OK** pour terminer la configuration de la console MMC.
+5.  Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**. Cliquez sur **Suivant**. Dans sélectionner un ordinateur, sélectionnez **ordinateur local : (l’ordinateur sur lequel cette console est exécutée)**. Cliquez sur **Terminer**. Cliquez sur **OK** pour terminer la configuration de la console MMC.
 
 6.  Double-cliquez sur **certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **personnel**, puis sur **certificats**.
     
@@ -291,7 +293,7 @@ Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topolo
     
     </div>
 
-9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez ce qui suit :
+9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **échange d’informations personnelles – PKCS \# 12 (. PFX)** , puis sélectionnez ce qui suit :
     
       - Inclure tous les certificats dans le chemin d’accès de certification si possible
     
@@ -312,7 +314,7 @@ Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topolo
 
 11. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide d’une extension de fichier. pfx. Le chemin d’accès doit être accessible à tous les autres serveurs Edge du pool ou être disponible pour le transport via un support amovible (par exemple, un lecteur flash USB). Cliquez sur **Suivant**.
 
-12. Consultez le résumé dans la boîte de dialogue fin de l’Assistant Exportation du certificat. Cliquez sur**Terminer**.
+12. Consultez le résumé dans la boîte de dialogue fin de l’Assistant Exportation du certificat. Cliquez sur **Terminer**.
 
 13. Cliquez sur **OK** dans la boîte de dialogue d’exportation réussie.
 

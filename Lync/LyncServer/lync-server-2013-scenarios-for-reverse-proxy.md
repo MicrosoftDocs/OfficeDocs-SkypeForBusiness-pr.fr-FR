@@ -12,20 +12,22 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3b987cfc1a982139aa0151e43918f0ed082034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 767df1e427cd29e9437b4bd04d2859b382b48267
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510831"
 ---
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Scénarios de proxy inverse dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Scénarios de proxy inverse dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lors de la phase de planification, vous définissez les conditions requises pour
 
 Lors de la planification de votre déploiement Lync Server 2013, vous mappez les configurations réelles requises pour Lync Server 2013 aux fonctionnalités de proxy inverse.
 
-1.  Les clients externes se connecteront au proxy inverse sur le port TCP 443 et utiliseront SSL (Secure Socket Layer) ou TLS (Transport Layer Security). Les clients mobiles Microsoft Lync peuvent se connecter au port TCP 80, mais uniquement lors de l’exécution de la connexion initiale aux services de découverte Lync et que l’administrateur a configuré les enregistrements CNAMe (ou alias) DNS (Domain Name System) appropriés et accepte que cela la communication ne sera pas chiffrée.
+1.  Les clients externes se connecteront au proxy inverse sur le port TCP 443 et utiliseront SSL (Secure Socket Layer) ou TLS (Transport Layer Security). Les clients mobiles Microsoft Lync peuvent se connecter au port TCP 80, mais uniquement lors de la connexion initiale aux services de découverte Lync et l’administrateur a configuré les enregistrements CNAMe (ou alias) DNS (Domain Name System) appropriés et accepte que cette communication ne soit pas chiffrée.
 
 2.  Les services Web externes de Lync Server 2013 (déployés sur le serveur frontal et/ou le directeur) attendent une connexion à partir d’un proxy inverse sur le port TCP 4443 et il s’attend à ce que la connexion soit SSL/TLS.
     
@@ -78,7 +80,7 @@ Lors de la planification de votre déploiement Lync Server 2013, vous mappez les
     
       - L’vDir de découverte automatique pour l’application Lync Windows Store, Lync mobile et le client de bureau Lync 2013. Le service de découverte automatique dans Lync Server 2013 est connu sous le nom DNS « lyncdiscover ».
     
-      - Les services non définis sont accessibles par le client externe via des appels directs aux services Web externes. Par exemple, l’expansion de groupe de distribution (DLX) et le service de carnet d’adresses (ABS) sont accédés par des appels directs aux services Web externes et aux vDirs associés. Le client connaît le chemin d’accès réel au vDir et construit un localisateur d’enregistrement uniforme (URL) en fonction de ces informations. Le client accède au service de carnet d’adresses à l’aide d’une URL semblable à`https://externalweb.contoso.com/abs/handler`
+      - Les services non définis sont accessibles par le client externe via des appels directs aux services Web externes. Par exemple, l’expansion de groupe de distribution (DLX) et le service de carnet d’adresses (ABS) sont accédés par des appels directs aux services Web externes et aux vDirs associés. Le client connaît le chemin d’accès réel au vDir et construit un localisateur d’enregistrement uniforme (URL) en fonction de ces informations. Le client accède au service de carnet d’adresses à l’aide d’une URL semblable à `https://externalweb.contoso.com/abs/handler`
     
       - Office Web Apps Server lorsque la Conférence est définie et configurée dans le cadre de la topologie Lync Server
         

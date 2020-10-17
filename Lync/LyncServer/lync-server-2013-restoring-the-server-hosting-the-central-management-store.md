@@ -12,20 +12,22 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772646b8122e228aa43818aa5fe7fe2fb6689366
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511391"
 ---
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Restauration du serveur qui héberge le magasin central de gestion dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Restauration du serveur qui héberge le magasin central de gestion dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Un déploiement Lync Server possède un seul magasin central de gestion, dont un
 
 Pour trouver le pool où se trouve le serveur de gestion centralisée, ouvrez le générateur de topologies, cliquez sur **Lync Server**, puis regardez dans le volet droit sous **serveur de gestion centralisée**.
 
-Si le serveur principal qui héberge le magasin central de gestion se trouve dans une installation en miroir et que la base de données miroir reste fonctionnelle, nous vous recommandons d’effectuer une sauvegarde de ce miroir en continu, puis d’effectuer une restauration complète sur la base de données principale et sur le base de données miroir, à l’aide de cette sauvegarde, en suivant la procédure de restauration ci-dessous. Cette opération est nécessaire car la restauration du serveur principal nécessite la modification et la publication de la topologie, ce qui n’est possible que si la base de données principale hébergeant le MCG est opérationnelle. Notez également que les rôles de base de données principale et miroir ne peuvent pas être interchangeables si la topologie ne peut pas être publiée.
+Si le serveur principal qui héberge le magasin central de gestion se trouve dans une installation en miroir et que la base de données miroir reste fonctionnelle, nous vous recommandons d’effectuer une sauvegarde de ce miroir en continu, puis d’effectuer une restauration complète sur la base de données principale et la base de données miroir à l’aide de cette sauvegarde en suivant la procédure de restauration ci-dessous. Cette opération est nécessaire car la restauration du serveur principal nécessite la modification et la publication de la topologie, ce qui n’est possible que si la base de données principale hébergeant le MCG est opérationnelle. Notez également que les rôles de base de données principale et miroir ne peuvent pas être interchangeables si la topologie ne peut pas être publiée.
 
 <div>
 
@@ -91,9 +93,9 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
     </div>
 
-4.  Effectuez l’une des opérations suivantes :
+4.  Effectuez l'une des opérations suivantes :
     
-      - Si vous installez un serveur Standard Edition, accédez au dossier ou au support d’installation de Lync Server, puis démarrez l’Assistant Déploiement de Lync Server qui \\se\\trouve\\à l’installation de amd64 Setup. exe. Dans l’Assistant Déploiement, cliquez sur **préparer d’abord le serveur Standard Edition** et suivez l’Assistant pour installer le magasin central de gestion.
+      - Si vous installez un serveur Standard Edition, accédez au dossier ou au support d’installation de Lync Server, puis démarrez l’Assistant Déploiement de Lync Server situé à l' \\ installation de \\ amd64 \\Setup.exe. Dans l’Assistant Déploiement, cliquez sur **préparer d’abord le serveur Standard Edition** et suivez l’Assistant pour installer le magasin central de gestion.
     
       - Si vous installez un serveur principal d’entreprise, installez SQL Server 2012 ou SQL Server 2008 R2, en conservant les mêmes noms d’instance qu’avant la défaillance.
         
@@ -112,7 +114,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    Par exemple :
+    Par exemple :
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
 
@@ -120,7 +122,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    Par exemple :
+    Par exemple :
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
@@ -190,7 +192,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
     </div>
 
-11. Si vous restaurez un serveur Standard Edition, accédez au dossier d’installation ou au support de Lync Server et démarrez l’Assistant Déploiement de Lync Server \\situé\\à\\l’installation de amd64 Setup. exe. Utilisez l’Assistant Déploiement de Lync Server pour effectuer les opérations suivantes :
+11. Si vous restaurez un serveur Standard Edition, accédez au dossier d’installation ou au support de Lync Server et démarrez l’Assistant Déploiement de Lync Server situé à l' \\ installation de \\ amd64 \\Setup.exe. Utilisez l’Assistant Déploiement de Lync Server pour effectuer les opérations suivantes :
     
     1.  Exécutez l’**Étape 1 : Installer le magasin de configurations local** pour installer les fichiers de configuration locaux.
     
@@ -204,7 +206,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
 
 12. Restaurez les données utilisateur en effectuant ce qui suit :
     
-    1.  Copiez ExportedUserData. zip de\\ $Backup dans un répertoire local.
+    1.  Copiez ExportedUserData.zip de $Backup \\ vers un répertoire local.
     
     2.  Avant de restaurer les données utilisateur, vous devez arrêter Lync services. Pour ce faire, tapez :
         
@@ -226,7 +228,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
         Import-CsLisConfiguration -FileName <LIS backup file name>
     
-    Par exemple :
+    Par exemple :
     
         Import-CsLisConfiguration -FileName "D:\E911Config.zip"
 

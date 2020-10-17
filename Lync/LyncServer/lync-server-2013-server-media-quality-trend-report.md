@@ -12,20 +12,22 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35e7e0f3cfe38a7a1c4802eca16c37a62013cecb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b40f2c316216b01415b3e58d5d59c97421439d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182397"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510301"
 ---
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Rapport de tendance de la qualité des médias serveur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Rapport de tendance de la qualité des médias serveur dans Lync Server 2013
+
 
 </div>
 
@@ -124,7 +126,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Serveurs</strong></p></td>
+<td><p><strong>Servers</strong></p></td>
 <td><p>Nom du serveur de la session ; cette liste déroulante est automatiquement remplie en fonction de la valeur du filtre Type de serveur. Vous pouvez sélectionner jusqu’à 5 serveurs différents lors de la création d’un rapport.</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +214,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de ten
 <tr class="even">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure de la &quot; fluctuations &quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>

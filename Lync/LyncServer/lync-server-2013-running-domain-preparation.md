@@ -12,20 +12,22 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d22c35f4e1a2b117ffa765446a94c9a7d2b0fd0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cf14c4b566d6c6447776d3251004f5d508220e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511111"
 ---
+# <a name="running-domain-preparation-for-lync-server-2013"></a>Exécution de la préparation du domaine pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-domain-preparation-for-lync-server-2013"></a>Exécution de la préparation du domaine pour Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ La préparation du domaine est la dernière étape de la préparation des servic
 
 1.  Ouvrez une session sur un serveur dans le domaine en tant que membre du groupe Administrateurs de domaine.
 
-2.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Lync Server.
+2.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup.exe pour démarrer l’Assistant Déploiement de Lync Server.
 
 3.  Cliquez sur **Préparer Active Directory**, puis attendez que l’état du déploiement soit déterminé.
 
@@ -57,7 +59,7 @@ La préparation du domaine est la dernière étape de la préparation des servic
 
 6.  Sur la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**.
 
-7.  Sous la colonne **action** , développez **préparation du domaine**, recherchez le résultat de l’exécution ** \<réussie\> ** à la fin de chaque tâche pour vérifier que la préparation du domaine s’est correctement effectuée, fermez le journal, puis cliquez sur **Terminer**.
+7.  Sous la colonne **action** , développez **préparation du domaine**, recherchez un résultat d' **\<Success\>** exécution à la fin de chaque tâche pour vérifier que la préparation du domaine s’est correctement effectuée, fermez le journal, puis cliquez sur **Terminer**.
 
 8.  Attendez que la réplication Active Directory soit terminée ou forcez la réplication sur tous les contrôleurs de domaine figurant dans le composant logiciel enfichable sites et services Active Directory pour le contrôleur de domaine racine de la forêt.
 
@@ -71,7 +73,7 @@ La préparation du domaine est la dernière étape de la préparation des servic
 
 2.  Installez les composants principaux de Lync Server comme suit :
     
-    1.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Lync Server.
+    1.  À partir du dossier ou du support d’installation de Lync Server 2013, exécutez Setup.exe pour démarrer l’Assistant Déploiement de Lync Server.
     
     2.  Si le système vous invite à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
     
@@ -103,14 +105,14 @@ La préparation du domaine est la dernière étape de la préparation des servic
     
 
     > [!NOTE]  
-    > Le paramètre GlobalSettingsDomainController vous permet d'indiquer où sont stockés les paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (ce qui est normal dans les déploiements de mise à niveau dont les paramètres globaux n’ont pas été migrés vers le conteneur de configuration), vous définissez un contrôleur de domaine à la racine de votre forêt Active Directory. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous définissez tout contrôleur de domaine de la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et font référence à n'&nbsp;importe quel contrôleur de domaine dans AD DS.
+    > Le paramètre GlobalSettingsDomainController vous permet d'indiquer où sont stockés les paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (ce qui est normal dans les déploiements de mise à niveau dont les paramètres globaux n’ont pas été migrés vers le conteneur de configuration), vous définissez un contrôleur de domaine à la racine de votre forêt Active Directory. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous définissez tout contrôleur de domaine de la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et font référence à n’importe quel contrôleur de domaine dans AD &nbsp; DS.
 
     
     </div>
     
     Si vous ne spécifiez pas le paramètre **Domain** , la valeur par défaut est le domaine local.
     
-    Cette applet de commande renvoie une **valeur\_de\_LC\_DOMAINSETTINGS State Ready** si la préparation du domaine a réussi.
+    Cette applet de commande renvoie une valeur de **LC \_ DOMAINSETTINGS \_ State \_ Ready** si la préparation du domaine a réussi.
 
 </div>
 

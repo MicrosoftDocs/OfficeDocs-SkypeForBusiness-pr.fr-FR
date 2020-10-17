@@ -12,20 +12,22 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7871d662d76f47685a58384804dfc6dee3b7b1d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f84b7eaf3476624479d1ecb7c7bb564a4eae8ad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510441"
 ---
+# <a name="security-framework-for-lync-server-2013"></a>Infrastructure de sécurité pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-framework-for-lync-server-2013"></a>Infrastructure de sécurité pour Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Ces éléments sont les suivants :
 
   - Les services de domaine Active Directory offrent un référentiel centralisé, unique et fiable aux comptes d’utilisateurs et aux ressources réseau.
 
-  - Le contrôle d’accès basé sur un rôle (RBAC) vous permet de déléguer des tâches administratives tout en conservant des normes de sécurité élevées.
+  - Le contrôle d’accès Role-Based (RBAC) vous permet de déléguer des tâches administratives tout en conservant des normes de sécurité élevées.
 
   - L’infrastructure à clé publique (PKI) utilise des certificats émis par des autorités de certification approuvées pour authentifier les serveurs et garantir l’intégrité des données.
 

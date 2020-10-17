@@ -12,20 +12,22 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66d883b48d1269fff8a57594101f083c88f1fbd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8baf67ce72103ef0dda64a9b0b43a8f6dd6402f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510061"
 ---
+# <a name="sessiondetails-view-in-lync-server-2013"></a>Vue SessionDetails dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-view-in-lync-server-2013"></a>Vue SessionDetails dans Lync Server 2013
+
 
 </div>
 
@@ -296,7 +298,7 @@ L’affichage SessionDetails stocke des informations sur les sessions d’égal 
 <p>0x02-appel effectué par un agent pour le compte d’un groupe Response Group</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Emplacement</strong></p></td>
+<td><p><strong>Location</strong></p></td>
 <td><p>varchar (max)</p></td>
 <td><p>Emplacement de l’appel d’urgence.</p></td>
 </tr>

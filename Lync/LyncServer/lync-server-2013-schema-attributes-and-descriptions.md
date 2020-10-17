@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510871"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Attributs et descriptions de schéma dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Attributs et descriptions de schéma dans Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 <tr class="header">
 <th>Attribut</th>
 <th>Description</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -385,7 +387,7 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 <tr class="odd">
 <td><p>msRTCSIP-FederationEnabled</p></td>
 <td><p>Cet attribut permet de contrôler si un utilisateur unique est activé pour la fédération. Il est appliqué par la couche Services d’entreprise. Il est identifié pour la réplication des catalogues globaux.</p>
-<p>Les valeurs valides sont <strong>true</strong> ou <strong>false</strong>.</p></td>
+<p>La valeur correcte est <strong>TRUE</strong> ou <strong>FALSE</strong>.</p></td>
 <td><p>Nouveauté de Live Communications Server 2005.</p></td>
 </tr>
 <tr class="even">
@@ -546,7 +548,7 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 <td><p>msRTCSIP-MCUFactoryData</p></td>
 <td><p>Il s’agit d’un attribut réservé de type chaîne gérant plusieurs valeurs. Les paramètres qui y sont stockés sont représentés par des paires nom=valeur. Les paires nom=valeur actuellement définies sont les suivantes :</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Nouveauté d’Office Communications Server 2007.</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserExtension</p></td>
-<td><p>Cet attribut à valeurs multiples contient une liste de paires nom-valeur au format &quot;nom = valeur. &quot; Cet attribut est marqué pour la réplication de catalogue global.</p></td>
+<td><p>Cet attribut à valeurs multiples contient une liste de paires nom-valeur au format &quot; nom = valeur. &quot; Cet attribut est marqué pour la réplication de catalogue global.</p></td>
 <td><p>Nouveauté de Live Communications Server 2005 avec SP1.</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>Cet attribut Active Directory existant qui gère plusieurs valeurs fait partie du schéma Active Directory de base introduit dans Windows 2000. Il contient les adresses électroniques X400, X500 et SMTP de la messagerie de l’utilisateur. Dans Live Communications Server 2003 et versions ultérieures, l’URI SIP de l’utilisateur est ajouté à cette liste &quot;à l'&quot; aide de la balise SIP :.</p>
+<td><p>Cet attribut Active Directory existant qui gère plusieurs valeurs fait partie du schéma Active Directory de base introduit dans Windows 2000. Il contient les adresses électroniques X400, X500 et SMTP de la messagerie de l’utilisateur. Dans Live Communications Server 2003 et versions ultérieures, l’URI SIP de l’utilisateur est ajouté à cette liste à l’aide de la &quot; &quot; balise SIP :.</p>
 <p>Les applications suivantes utilisent cet attribut pour examiner l’URI SIP de l’utilisateur :</p>
 <ul>
 <li><p>Client de messagerie et de collaboration Microsoft Office Outlook 2003</p></li>

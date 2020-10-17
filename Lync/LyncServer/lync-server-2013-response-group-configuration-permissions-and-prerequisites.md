@@ -12,20 +12,22 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e27d3495ce2152dee67a5f176c4a0d9f7e7f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511741"
 ---
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Autorisations et conditions préalables à la configuration du groupe Response Group dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Autorisations et conditions préalables à la configuration du groupe Response Group dans Lync Server 2013
+
 
 </div>
 
@@ -138,7 +140,7 @@ Pour configurer les groupes Response Group, vous devez être membre d’au moins
 
 
 > [!NOTE]  
-> <STRONG>(1)</STRONG> un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié. Un administrateur ou un membre de groupe Active Directory délégué disposant des autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, administrateur, opérateurs de compte) doit ajouter un objet utilisateur au groupe ou au groupe de sécurité indiqué pour que l’utilisateur puisse Exécutez les fonctions indiquées. <STRONG>(2)</STRONG> uniquement pour les flux de travail que l’CsResponseGroupAdministrator a affectées à l’CsResponseGroupManager. <STRONG>(3)</STRONG> un responsable Response Group peut attribuer un autre membre de CsResponseGroupManager à un flux de travail que le responsable actuel gère déjà. <STRONG>(4)</STRONG> CsViewOnlyAdministrator ne peut exécuter que les cmdlets « Get » de Lync Server Management Shell.
+> <STRONG>(1)</STRONG> un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié. Un administrateur ou un membre d’un groupe Active Directory délégué doté des autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, administrateur, opérateurs de compte) doit ajouter un objet utilisateur au groupe ou au groupe de sécurité indiqué pour que l’utilisateur puisse exécuter les fonctions indiquées. <STRONG>(2)</STRONG> uniquement pour les flux de travail que l’CsResponseGroupAdministrator a affectées à l’CsResponseGroupManager. <STRONG>(3)</STRONG> un responsable Response Group peut attribuer un autre membre de CsResponseGroupManager à un flux de travail que le responsable actuel gère déjà. <STRONG>(4)</STRONG> CsViewOnlyAdministrator ne peut exécuter que les cmdlets « Get » de Lync Server Management Shell.
 
 
 
@@ -186,15 +188,15 @@ La première étape de la configuration du groupe Response Group consiste à cr�
 
 Cette section vous est applicable uniquement si votre entreprise doit se conformer aux normes FIPS (Federal Information Processing Standard).
 
-Pour permettre une compatibilité avec la norme FIPS, vous devez modifier le fichier d’application Web.config afin d’utiliser un algorithme de chiffrement différent après l’installation des services web. Vous devez préciser le recours à l’algorithme de chiffrement triple 3DES (Triple Data Encryption Standard) pour qu’ASP.NET puisse traiter les données ViewState. Pour l’application Response Group, cette exigence s’applique à l’outil de configuration Response Group et à la console de connexion et de déconnexion de l’agent. Pour plus d’informations sur cette exigence, consultez l’article 911722 de la base de connaissances Microsoft, « vous pouvez recevoir un message d’erreur lorsque vous accédez à des pages Web ASP.NET dont le ViewState est activé après avoir effectué [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)la mise à niveau de ASP.net 1,1 vers ASP.NET 2,0 » à l’adresse.
+Pour permettre une compatibilité avec la norme FIPS, vous devez modifier le fichier d’application Web.config afin d’utiliser un algorithme de chiffrement différent après l’installation des services web. Vous devez préciser le recours à l’algorithme de chiffrement triple 3DES (Triple Data Encryption Standard) pour qu’ASP.NET puisse traiter les données ViewState. Pour l’application Response Group, cette exigence s’applique à l’outil de configuration Response Group et à la console de connexion et de déconnexion de l’agent. Pour plus d’informations sur cette exigence, consultez l’article 911722 de la base de connaissances Microsoft, « vous pouvez recevoir un message d’erreur lorsque vous accédez à des pages Web ASP.NET dont le ViewState est activé après avoir effectué la mise à niveau de ASP.NET 1,1 vers ASP.NET 2,0 » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183) .
 
 Pour modifier le fichier Web.config, procédez comme suit :
 
 1.  Dans un éditeur de texte tel que le Bloc-Notes, ouvrez le fichier d’application Web.config.
 
-2.  Dans le fichier Web. config, recherchez la `<system.web>` section.
+2.  Dans le fichier Web.config, recherchez la `<system.web>` section.
 
-3.  Ajoutez la section `<machineKey>` suivante à la `<system.web>` section :
+3.  Ajoutez la `<machineKey>` section suivante à la `<system.web>` section :
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
@@ -216,7 +218,7 @@ Cette section vous est applicable seulement si votre organisation doit prendre e
 
 
 > [!NOTE]  
-> Pour plus d’informations sur les caractères Yi, Meng et Zang et la raison pour laquelle ils peuvent être importants pour votre déploiement, consultez les informations sur les jeux <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>de caractères GB18030.
+> Pour plus d’informations sur les caractères Yi, Meng et Zang et la raison pour laquelle ils peuvent être importants pour votre déploiement, consultez les informations sur les jeux de caractères GB18030 <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A> .
 
 
 
@@ -234,11 +236,11 @@ Pour la prise en charge des caractères Yi, Meng ou Zang, vous devez modifier le
 
   - dbo. Travail
 
-Pour SQL Server 2008 R2 et SQL Server 2012, utilisez le classement\_Latin\_général 100 (accentué). Si vous utilisez ce classement, tous les noms d’objets ne tiennent pas compte de la casse.
+Pour SQL Server 2008 R2 et SQL Server 2012, utilisez le \_ classement latin général \_ 100 (accentué). Si vous utilisez ce classement, tous les noms d’objets ne tiennent pas compte de la casse.
 
-Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir « utilisation de SQL [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Server Management Studio » à l’adresse. Pour modifier le classement, procédez comme suit :
+Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir « utilisation de SQL Server Management Studio » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184) . Pour modifier le classement, procédez comme suit :
 
-1.  Assurez-vous que SQL Server Management Studio est configuré pour autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, consultez la section « enregistrer (non autorisé) [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)» à l’adresse. Pour plus d’informations sur la définition d’un classement de colonne, voir « How to : Set Column collation (Visual Database Tools [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)) » à l’adresse.
+1.  Assurez-vous que SQL Server Management Studio est configuré pour autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, consultez la section « enregistrer (non autorisé) » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186) . Pour plus d’informations sur la définition d’un classement de colonne, voir « How to : Set Column collation (Visual Database Tools) » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185) .
 
 2.  À l’aide de Microsoft SQL Server Management Studio, connectez-vous à la base de données Rgsconfig.
 

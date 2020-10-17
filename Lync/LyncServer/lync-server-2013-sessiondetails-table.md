@@ -12,20 +12,22 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfdf5552f150b23c50e8ad6867e90f96a6b586fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e49cb6a5715b95758a5e7520c69dd45b757b10c7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510051"
 ---
+# <a name="sessiondetails-table-in-lync-server-2013"></a>Table SessionDetails dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-table-in-lync-server-2013"></a>Table SessionDetails dans Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primaire, étrangère</p></td>
-<td><p>Numéro d’ID identifiant la session. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une session de manière unique. * pour plus d’informations, consultez le <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</p></td>
+<td><p>Numéro d’ID pour identifier la session. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une session de manière unique. * pour plus d’informations, consultez le <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Corrélation</strong></p></td>
@@ -263,15 +265,15 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 </tr>
 <tr class="odd">
 <td><p>REMOTE_ASSISTANCE</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="even">
 <td><p>APP_SHARING</p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
 <td><p>SIGNAUX</p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 </tr>
 <tr class="even">
 <td><p>VIDÉO</p></td>
@@ -325,7 +327,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 </table>
 
 
-\*Pour la plupart des sessions, SessionIdSeq aura la valeur 1. Si plusieurs sessions démarrent exactement en même temps, le SessionIdSeq sera 1 pour l’une, 2 pour un autre, et ainsi de suite.
+\* Pour la plupart des sessions, SessionIdSeq aura la valeur 1. Si plusieurs sessions démarrent exactement en même temps, le SessionIdSeq sera 1 pour l’une, 2 pour un autre, et ainsi de suite.
 
 </div>
 

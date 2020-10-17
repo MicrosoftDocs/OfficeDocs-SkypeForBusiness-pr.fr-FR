@@ -12,20 +12,22 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebd127948ec612be61254d97101c0dcd193eeeee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd8c20adfa98a10bd0b9a89ad31dda37e4510e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511161"
 ---
+# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Exécuter des tests de routage des communications vocales informels dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Exécuter des tests de routage des communications vocales informels dans Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Vous pouvez utiliser la boîte de dialogue **Créer des informations de cas de t
     
     1.  Dans le champ **Nom** de la boîte de dialogue **Enregistrer les informations de cas de test de routage des communications vocales**, entrez le nom unique de ce cas de test.
         
-        Le nom doit être unique parmi tous les cas de test de routage des communications vocales dans votre déploiement Voix Entreprise. Il peut comporter jusqu’à 32 caractères et peut contenir des caractères alphanumériques, outre la barre oblique inverse (\\), le point (.) ou le trait de soulignement (\_).
+        Le nom doit être unique parmi tous les cas de test de routage des communications vocales dans votre déploiement Voix Entreprise. Il peut comporter jusqu’à 32 caractères et peut contenir des caractères alphanumériques, outre la barre oblique inverse ( \\ ), le point (.) ou le trait de soulignement ( \_ ).
     
     2.  Notez que les champs restants de la boîte de dialogue **Enregistrer les informations de cas de test de routage des communications vocales** sont en lecture seule et préremplis à partir de la configuration *et* des résultats du test informel. Vérifiez qu’il s’agit effectivement de la configuration à enregistrer pour le cas de test.
         

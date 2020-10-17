@@ -12,20 +12,22 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 254f9e95edfb445d996948a17064ae460dbdb7d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea967dc717f36b8ab5951fa758e7c78d6130dc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214870"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511661"
 ---
+# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procédures de récupération d’urgence des groupes Response Group dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procédures de récupération d’urgence des groupes Response Group dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214870"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Pendant la phase de basculement de la récupération d’urgence, les groupes Response Group résident dans plusieurs pools : dans le pool principal (qui n’est pas disponible) et dans le pool de sauvegarde. Les groupes Response Group des deux pools portent le même nom et ont le même propriétaire (le pool principal), mais ils ont des parents différents. Pendant ce temps, les cmdlets Response Group fonctionnent un peu différemment. Veillez à utiliser les paramètres comme spécifié dans la procédure suivante. Pour plus d’informations sur le fonctionnement des cmdlets pendant la phase de basculement, voir l’article du blog NextHop « Lync Server 2013 : Recovering [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)Response Groups during Disaster Recovery » à l’adresse. Cet article du blog s’applique également à la version finale de Lync Server 2013.
+Pendant la phase de basculement de la récupération d’urgence, les groupes Response Group résident dans plusieurs pools : dans le pool principal (qui n’est pas disponible) et dans le pool de sauvegarde. Les groupes Response Group des deux pools portent le même nom et ont le même propriétaire (le pool principal), mais ils ont des parents différents. Pendant ce temps, les cmdlets Response Group fonctionnent un peu différemment. Veillez à utiliser les paramètres comme spécifié dans la procédure suivante. Pour plus d’informations sur le fonctionnement des cmdlets pendant la phase de basculement, voir l’article du blog NextHop « Lync Server 2013 : Recovering Response Groups during Disaster Recovery » à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957) . Cet article du blog s’applique également à la version finale de Lync Server 2013.
 
 Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une récupération d’urgence pour le service de groupe Response Group Lync Server.
 
@@ -51,7 +53,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
-    Par exemple :
+    Par exemple :
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
@@ -150,7 +152,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
-    Par exemple :
+    Par exemple :
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
@@ -167,7 +169,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
-    Par exemple :
+    Par exemple :
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
@@ -187,7 +189,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Par exemple :
+        Par exemple :
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
@@ -195,7 +197,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Par exemple :
+        Par exemple :
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -203,7 +205,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
-        Par exemple :
+        Par exemple :
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -211,7 +213,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Par exemple :
+        Par exemple :
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -219,7 +221,7 @@ Suivez les étapes de la procédure ci-dessous pour préparer et effectuer une r
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Par exemple :
+        Par exemple :
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 

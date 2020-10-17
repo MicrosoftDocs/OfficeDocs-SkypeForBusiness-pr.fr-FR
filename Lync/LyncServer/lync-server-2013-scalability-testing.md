@@ -12,20 +12,22 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be4dc8d08b9d8b1363af67af1a12aa56b59f0b9a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41e23cd1bf0382a392cba951d90cd9dfa80c4880
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511011"
 ---
+# <a name="scalability-testing-in-lync-server-2013"></a>Test de l’extensibilité dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scalability-testing-in-lync-server-2013"></a>Test de l’extensibilité dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 2013 fournit l’infrastructure de serveur pour toutes les communica
 
 À titre d’exemple, certaines organisations ont très souvent recours à la vidéo lors des conférences alors que d’autres l’utilisent peu ou pas du tout. De la même façon, certaines organisations préfèrent le partage de présentations PowerPoint au partage d’application (ou inversement). Les organisations qui déploient voix entreprise peuvent ou non utiliser l’application Response Group de manière intensive. La plupart des organisations déploient des serveurs de surveillance, mais pas un grand nombre d’entre elles déploient des serveurs d’archivage. Par ailleurs, toutes les organisations ne disposent pas d’infrastructures identiques, tant sur le plan des capacités matérielles ou réseau que du nombre et de la taille des pools déployés. La diversité des fonctionnalités et infrastructures déployées complique les tests d’extensibilité, car il est impossible de simuler toutes les combinaisons possibles de fonctionnalités et d’infrastructures.
 
-Pour déterminer la prise en charge de l’extensibilité pour Lync Server, nous procédons à des tests à l’aide de toutes les fonctionnalités Lync Server simultanément, en fonction d’un modèle d’utilisation moyen (modèle utilisateur). Pour déterminer le modèle utilisateur approprié pour les charges de travail Lync Server, nous analysons de nombreux points de données, notamment les enquêtes des clients, les commentaires du programme d’amélioration de l’expérience utilisateur de Microsoft, les données d’utilisation de Lync Server du service informatique interne de Microsoft, et les données extraites de notre service Live Meeting. Dans de nombreux cas, le modèle utilisateur prévoit des charges de travail plus lourdes afin de laisser une marge de manœuvre confortable pour l’organisation.
+Pour déterminer la prise en charge de l’extensibilité pour Lync Server, nous procédons à des tests à l’aide de toutes les fonctionnalités Lync Server simultanément, en fonction d’un modèle d’utilisation moyen (modèle utilisateur). Pour déterminer le modèle utilisateur approprié pour les charges de travail Lync Server, nous analysons de nombreux points de données, notamment les enquêtes des clients, les commentaires du programme d’amélioration de l’expérience utilisateur de Microsoft, les données d’utilisation de Lync Server du service informatique interne de Microsoft et les données extraites de notre service Live Meeting. Dans de nombreux cas, le modèle utilisateur prévoit des charges de travail plus lourdes afin de laisser une marge de manœuvre confortable pour l’organisation.
 
 Dans nos tests d’évolutivité, nous avons configuré les pools Lync Server 2013 conformément aux spécifications matérielles et logicielles recommandées, notamment les composants d’infrastructure, tels que les services de domaine Active Directory, les programmes d’équilibrage de la charge matérielle et les pare-feu. Nous configurerons les environnements Lync Server aussi étroitement que possible dans des environnements réels standard. Nous utilisons ensuite l’outil stress and performance de Lync Server 2013 pour simuler le chargement de Lync Server 2013 (en fonction de notre modèle utilisateur). .
 
