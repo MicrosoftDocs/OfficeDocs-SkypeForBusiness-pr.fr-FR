@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : conditions requises en matière de sauvegarde et de restauration : outils et autorisations'
+description: 'Lync Server 2013 : conditions requises en matière de sauvegarde et de restauration : outils et autorisations.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 36327d1214854586b44024f126bbd87acad6c4b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532641"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553465"
 ---
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations
 

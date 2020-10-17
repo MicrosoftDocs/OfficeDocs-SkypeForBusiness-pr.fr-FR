@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration des plages de numéros de prise d’appel de groupe'
+description: 'Lync Server 2013 : configurez les plages de numéros de prise d’appel de groupe.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d704fef4347526a7a49de6c1c13ed7eb27feed74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f0594bd681a157b8ff479846b2f6f1964a09cad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197737"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553280"
 ---
+# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a>Configuration des plages de numéros de prise d’appel de groupe dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a>Configuration des plages de numéros de prise d’appel de groupe dans Lync Server 2013
+
 
 </div>
 

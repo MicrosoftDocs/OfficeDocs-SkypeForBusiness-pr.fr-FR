@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : vue FileTransfers'
+description: 'Lync Server 2013 : vue FileTransfers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0fdfae0cefafc7ee6273af75e84e0ea6545188b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dd2b084274a4d5daa093f2269617214f703ac03e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500871"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552620"
 ---
 # <a name="filetransfers-view-in-lync-server-2013"></a>Vue FileTransfers dans Lync Server 2013
 

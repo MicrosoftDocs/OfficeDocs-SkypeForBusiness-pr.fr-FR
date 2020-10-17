@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration des services Internet (IIS)'
+description: 'Lync Server 2013 : configurer les services Internet (IIS).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72c660c4874977e5d697be1474ba2b99bebecbd9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cdd08e47d05f2e32f14178eaaa3a100f8c445dda
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507651"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553260"
 ---
 # <a name="configure-iis-for-lync-server-2013"></a>Configurer les services Internet (IIS) pour Lync Server 2013
 

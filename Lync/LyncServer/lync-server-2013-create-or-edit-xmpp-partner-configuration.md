@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : création ou modification d’une configuration de partenaire XMPP'
+description: 'Lync Server 2013 : création ou modification d’une configuration de partenaire XMPP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 19289df1920287984f104bb1bdfa214d6f83f5cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514801"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553870"
 ---
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Créer ou modifier la configuration d’un partenaire XMPP dans Lync Server 2013
 

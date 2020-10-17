@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration logicielle requise pour les outils d’administration'
+description: 'Lync Server 2013 : configuration logicielle requise pour les outils d’administration.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7c7b08d22933947c2f8079a2713fd134feb4629
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0c723d56cbda0c171fab206e3bcd3b2da0cc5b4b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509041"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552960"
 ---
 # <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Configuration logicielle requise pour les outils d’administration dans Lync Server 2013
 

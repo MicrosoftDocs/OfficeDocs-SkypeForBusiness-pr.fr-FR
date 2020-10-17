@@ -1,5 +1,6 @@
 ---
 title: Configuration de l’intégration de Lync Server sur site avec Exchange Online
+description: Configuration de l’intégration de Lync Server sur site avec Exchange Online.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e65e5a97a73f7170820f24778a74c8a1ffac04b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59c612bcdcdf4803bd6f9f2b38f1f9bb7dbad016
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532531"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553934"
 ---
 # <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a>Configuration de l’intégration de Lync Server 2013 sur site à Exchange Online
 

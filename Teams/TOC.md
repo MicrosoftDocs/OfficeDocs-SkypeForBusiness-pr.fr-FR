@@ -678,7 +678,6 @@
 ### [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ### [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Gérer l’application Shifts pour votre organisation dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## Teams pour la santé publique
 ### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Application Bookings et visites virtuelles](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## Teams pour les employés de terrain
 ### [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
 ### [Déploiement par script pour les employés terrain](flw-scripted-deployment.md)
+### [Gérez l’accès shift pour les Employés de terrain](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md) 
 ### [RealWear pour Microsoft Teams](flw-realwear.md)
 ### [Talkie-walkie](walkie-talkie.md)
 ### [Créer une application de portail intranet Teams à partir d’un site ou d’une page SPO](teams-standalone-static-tabs-using-spo-sites.md)

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : suppression des fichiers journaux de mise à jour des périphériques'
+description: 'Lync Server 2013 : supprimer les fichiers journaux de mise à jour des périphériques.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 576daa823dfd5bb8e6e7eb8c6bedeaa689780dbe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe32b3147f28c7eab1b4864df44ae0967848426b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514461"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552500"
 ---
 # <a name="delete-device-update-log-files-in-lync-server-2013"></a>Supprimer les fichiers journaux de mise à jour des périphériques dans Lync Server 2013
 

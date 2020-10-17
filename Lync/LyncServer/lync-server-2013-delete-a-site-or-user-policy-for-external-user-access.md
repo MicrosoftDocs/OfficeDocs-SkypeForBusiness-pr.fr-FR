@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : suppression d’un site ou d’une stratégie utilisateur pour l’accès des utilisateurs externes'
+description: 'Lync Server 2013 : suppression d’une stratégie de site ou d’utilisateur pour l’accès des utilisateurs externes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2f822bb1fc42d385cec762b86c5a674d50c872
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6aac81e7b50603e5eb80cde8877cdc06f138d872
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516321"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553710"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Supprimer une stratégie d’utilisateur ou de site pour l’accès des utilisateurs externes dans Lync Server 2013
 

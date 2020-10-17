@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration des pare-feu et des ports pour l’accès des utilisateurs externes'
+description: 'Lync Server 2013 : configurez les pare-feu et les ports pour l’accès des utilisateurs externes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 490d77fad964943515c6e487347f937144f5957c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 68ccb382c3b3632b113b2b0a36846500700c1b9f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525934"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553270"
 ---
 # <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a>Configurer les pare-feu et les ports pour l’accès des utilisateurs externes dans Lync Server 2013
 
