@@ -12,20 +12,22 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c40a101d383686c6178c153a40ac0c6b5b26f9a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7ddf45fbeda6aa16c30ee1ff79536658c8d598f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497771"
 ---
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Planification des fonctionnalités de gestion des appels dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Planification des fonctionnalités de gestion des appels dans Lync Server 2013
+
 
 </div>
 
@@ -54,7 +56,7 @@ Les fonctionnalités de gestion des appels Voix Entreprise contrôlent la faço
 
   - **Response Group**: achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche ou de questions et réponses de réponse vocale interactive (IVR).
 
-  - **Annonce :**    lit un message pour les appels passés à un numéro non attribué ou achemine l’appel ailleurs, ou les deux.
+  - **Annonce :**     Lit un message pour les appels passés à un numéro non attribué, ou achemine l’appel ailleurs, ou les deux.
 
 Si vous prévoyez de déployer Voix Entreprise, vous pouvez choisir d’implémenter une partie ou l’ensemble de ces fonctionnalités de gestion des appels.
 

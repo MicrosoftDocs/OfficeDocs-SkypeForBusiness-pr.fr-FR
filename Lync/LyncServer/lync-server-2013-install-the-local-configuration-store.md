@@ -12,20 +12,22 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5c95399aa7cccf28ec0c236c2882b6f44794e80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498571"
 ---
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Installer le magasin de configurations local dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Installer le magasin de configurations local dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Pour pouvoir faire quoi que ce soit avec l’Assistant Déploiement Lync Server,
 
 
 > [!IMPORTANT]  
-> Si vous n’avez pas encore exécuté le programme d’installation de Lync Server 2013 sur ce serveur, vous serez invité à indiquer un lecteur et un chemin d’accès pour installer Lync Server 2013. Cela vous permettra d’effectuer l’installation sur un lecteur autre que le lecteur système, si votre organisation l’exige ou si vous avez des préoccupations en matière d’espace. Vous pouvez simplement modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server dans la boîte de dialogue d’installation avec un nouveau lecteur disponible. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, le reste des fichiers Lync Server 2013 se déploiera également.
+> Si vous n’avez pas encore exécuté le programme d’installation de Lync Server 2013 sur ce serveur, vous serez invité à indiquer un lecteur et un chemin d’accès pour installer Lync Server 2013. Cela vous permettra d’effectuer l’installation sur un lecteur autre que le lecteur système, si votre organisation l’exige ou si vous avez des préoccupations en matière d’espace. Vous pouvez simplement modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server dans la boîte de dialogue d’installation avec un nouveau lecteur disponible. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore.msi, les autres fichiers Lync Server 2013 le déploient également.
 
 
 
@@ -55,7 +57,7 @@ Pour pouvoir faire quoi que ce soit avec l’Assistant Déploiement Lync Server,
 
 ## <a name="to-install-the-local-configuration-store"></a>Pour installer le magasin de configurations local
 
-1.  À partir de votre support d’installation \\,\\naviguez jusqu’à Setup amd64\\Setup. exe, puis cliquez sur **OK**.
+1.  À partir de votre support d’installation, accédez à \\ Setup \\ amd64 \\Setup.exe, puis cliquez sur **OK**.
 
 2.  Si vous êtes invité à installer Microsoft Visual C++ 2012 Redistributable, cliquez sur **Oui**.
 

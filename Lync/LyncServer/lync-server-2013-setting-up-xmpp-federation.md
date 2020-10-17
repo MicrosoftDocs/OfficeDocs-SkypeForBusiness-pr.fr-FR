@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181947"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497521"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configuration de la Fédération XMPP dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configuration de la Fédération XMPP dans Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 2.  Sur le serveur frontal, ouvrez l’Assistant Déploiement de Lync Server. Cliquez sur Installer ou mettre à jour le système Lync Server, puis sur Installer ou supprimer des composants Lync Server. Cliquez sur Réexécuter.
 
-3.  Dans Installer les composants Lync Server, cliquez sur Suivant. L’écran récapitulatif affiche les actions au fur et à mesure qu’elles s’exécutent. Une fois le déploiement terminé, cliquez sur Afficher le journal pour afficher les fichiers journaux disponibles. Cliquez sur Terminer pour terminer le déploiement.
+3.  Dans Installer les composants Lync Server, cliquez sur Suivant. L’écran de résumé affiche les actions au fur et à mesure qu’elles s’exécutent. Une fois le déploiement terminé, cliquez sur Afficher le journal pour afficher les fichiers journaux disponibles. Cliquez sur Terminer pour terminer le déploiement.
 
 4.  Sur le serveur Edge, ouvrez l’Assistant Déploiement de Lync Server. Cliquez sur Installer ou mettre à jour le système Lync Server, puis sur Installer ou supprimer des composants Lync Server. Cliquez sur Réexécuter.
 
@@ -70,7 +72,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 9.  Dans la page Demande différée ou immédiate, activez la case à cocher Préparer la demande maintenant, mais l’envoyer plus tard.
 
-10. Dans la page fichier de demande de certificat, tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple,\\c\_:\_CERT exernal Edge. cer).
+10. Dans la page fichier de demande de certificat, tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, c : \\ CERT \_ exernal \_ Edge. cer).
 
 11. Dans la page Spécifier un autre modèle de certificat, pour utiliser un autre modèle que le modèle Serveur web par défaut, activez la case à cocher Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée.
 
@@ -88,7 +90,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 15. Dans la page Nom du sujet/Autres noms du sujet, le système affiche les informations automatiquement renseignées par l’Assistant. Si d’autres noms du sujet doivent être ajoutés, spécifiez-les lors des deux étapes suivantes.
 
-16. Sur la page paramètre du domaine SIP sur les autres noms du sujet, activez la case à cocher domaine pour ajouter un SIP. \<entrée\> sipdomain à la liste des autres noms du sujet.
+16. Sur la page paramètre du domaine SIP sur les autres noms du sujet, activez la case à cocher domaine pour ajouter un SIP.\<sipdomain\> entrée de la liste des autres noms du sujet.
 
 17. Dans la page Configurer d’autres noms du sujet supplémentaires, spécifiez les autres noms du sujet supplémentaires requis.
     
@@ -119,7 +121,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
         Start-CsWindowsService
        ```
 
-23. Pour configurer DNS pour la Fédération XMPP, vous devez ajouter l’enregistrement SRV suivant à DNS\_externe : XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet du serveur Edge d’accès du serveur Edge, avec une valeur de port de 5269. Par ailleurs, vous devez configurer un enregistrement d’hôte « A » (par exemple, xmpp.contoso.com) qui pointe vers l’adresse IP du serveur Edge d’accès.
+23. Pour configurer DNS pour la Fédération XMPP, vous devez ajouter l’enregistrement SRV suivant à DNS externe : \_ XMPP-Server. \_ TCP.\<domain name\> L’enregistrement SRV est résolu en un nom de domaine complet du serveur Edge d’accès, avec une valeur de port de 5269. Par ailleurs, vous devez configurer un enregistrement d’hôte « A » (par exemple, xmpp.contoso.com) qui pointe vers l’adresse IP du serveur Edge d’accès.
     
     <div class=" ">
     

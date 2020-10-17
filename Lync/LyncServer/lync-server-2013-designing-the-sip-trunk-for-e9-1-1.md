@@ -12,20 +12,22 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c4191ed20497b4136b4e836da112054bef5a446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35efd8571a30b3d0dd067cbfc27f292985b6ee14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498951"
 ---
+# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Conception de la jonction SIP pour E9-1-1 dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Conception de la jonction SIP pour E9-1-1 dans Lync Server 2013
+
 
 </div>
 
@@ -48,7 +50,7 @@ Lync Server utilise des jonctions SIP pour connecter un appel d’urgence au fou
 > <LI>
 > <P>Utilisez des serveurs de médiation multirésidents qui utilisent leurs interfaces routées publiquement vers l’extérieur pour communiquer avec le fournisseur de jonctions SIP.</P>
 > <LI>
-> <P>Utilisez un contrôleur de frontière de session (SBC) local pour fournir un point de démarcation sécurisé entre les serveurs de médiation et les services du fournisseur de jonctions SIP.</P></LI></UL>Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les contrôleurs SBC certifiés, voir « infrastructure <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>Qualified for Microsoft Lync » à l’adresse.<BR>Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
+> <P>Utilisez un contrôleur de frontière de session (SBC) local pour fournir un point de démarcation sécurisé entre les serveurs de médiation et les services du fournisseur de jonctions SIP.</P></LI></UL>Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les contrôleurs SBC certifiés, voir « infrastructure Qualified for Microsoft Lync » à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A> .<BR>Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
 
 
 

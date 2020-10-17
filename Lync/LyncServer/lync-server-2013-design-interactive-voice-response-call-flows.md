@@ -12,20 +12,22 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78032a23fce6bb210ecec6eb828178aabddf9b52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498941"
 ---
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Concevoir des flux d’appels de réponse vocale interactive dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Concevoir des flux d’appels de réponse vocale interactive dans Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Les questions du système de réponse vocale interactive ainsi que les réponses
 
 ## <a name="working-with-speech-technologies"></a>Utilisation des technologies vocales
 
-Les technologies vocales, telles que la reconnaissance vocale et la conversion de texte par synthèse vocale, peuvent améliorer le produit et permettre aux gens d’accéder aux informations de façon plus naturelle et plus efficace. Toutefois, il peut arriver que le texte spécifié ou la réponse vocale de l’utilisateur ne soit pas correctement reconnu par le moteur de synthèse vocale. Par exemple, le symbole\#« » est traduit par le moteur de synthèse vocale comme le mot «numéro ». Ce problème peut être atténué en procédant comme suit :
+Les technologies vocales, telles que la reconnaissance vocale et la conversion de texte par synthèse vocale, peuvent améliorer le produit et permettre aux gens d’accéder aux informations de façon plus naturelle et plus efficace. Toutefois, il peut arriver que le texte spécifié ou la réponse vocale de l’utilisateur ne soit pas correctement reconnu par le moteur de synthèse vocale. Par exemple, le \# symbole « » est traduit par le moteur de synthèse vocale comme le mot «numéro ». Ce problème peut être atténué en procédant comme suit :
 
   - Le moteur de synthèse vocale autorise cinq tentatives de réponse. Si la réponse de l’appelant est incorrecte (autrement dit, si elle ne figure pas parmi les réponses spécifiées) ou s’il ne fournit aucune réponse, l’appelant se voit offrir une autre opportunité de fournir la bonne réponse. L’appelant peut donner cinq réponses avant d’être déconnecté si aucune d’elles n’est correcte. Vous pouvez configurer le système de réponse vocale interactive pour qu’il lise un message personnalisé après chaque erreur de l’appelant. La question est répétée à chaque fois.
 
@@ -73,7 +75,7 @@ Les technologies vocales, telles que la reconnaissance vocale et la conversion d
 
   - Si vos questions présentent à la fois des réponses vocales et DTMF, configurez les réponses vocales en utilisant des mots qui représentent le concept plutôt que la réponse DTMF. Par exemple, plutôt que d’utiliser « Appuyez ou dites un », utilisez « Appuyez sur 1 ou dites facturation ».
 
-  - Après avoir conçu votre système de réponse vocale interactive, appelez le flux de travail, écoutez les invites, répondez à chacune d’elles à l’aide de la voix et vérifiez que le système de réponse vocale interactive se présente et se comporte comme prévu. Vous pouvez ensuite modifier le système de réponse vocale interactive afin de résoudre des problèmes liés à l’interprétation. À la suite de l’exemple précédent, si vous avez besoin \# de faire référence à la clé, vous pouvez réécrire votre invite d’un système pour qu' \# il utilise le nom de la clé, plutôt que le symbole. Par exemple, « Pour être mis en relation avec le service commercial, appuyez sur la touche dièse ».
+  - Après avoir conçu votre système de réponse vocale interactive, appelez le flux de travail, écoutez les invites, répondez à chacune d’elles à l’aide de la voix et vérifiez que le système de réponse vocale interactive se présente et se comporte comme prévu. Vous pouvez ensuite modifier le système de réponse vocale interactive afin de résoudre des problèmes liés à l’interprétation. À la suite de l’exemple précédent, si vous avez besoin de faire référence à la \# clé, vous pouvez réécrire votre invite d’un système pour qu’il utilise le nom de la clé, plutôt que le \# symbole. Par exemple, « Pour être mis en relation avec le service commercial, appuyez sur la touche dièse ».
 
 </div>
 

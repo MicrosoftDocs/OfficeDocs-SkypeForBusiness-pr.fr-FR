@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498541"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Installation des rapports de surveillance Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Installation des rapports de surveillance Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Pour installer les rapports de surveillance à l’aide de l’Assistant Déploi
 
 3.  Dans l’Assistant Déploiement des rapports de surveillance, dans la page **Spécifier une base de données de surveillance**, vérifiez que le nom de domaine complet de l’ordinateur qui héberge votre magasin d’analyse apparaît dans la liste déroulante **Base de données de surveillance**. (Si vous avez plusieurs magasins d’analyse, vous devez sélectionner le serveur approprié dans la liste déroulante.) Vérifiez que l’instance SQL Server correcte apparaît dans la zone **Instance SQL Server Reporting Services (SSRS)** (par exemple, **atl-sql-001.litwareinc.com/archinst**), puis cliquez sur **Suivant**.
 
-4.  Sur la page **spécifier les informations d’identification** , dans la zone **nom d’utilisateur** , tapez le nom de domaine et le nom d’utilisateur du compte à utiliser lors de l’accès aux rapports de surveillance (par exemple, **litwareinc\\kenmyer**). Si vous n’utilisez pas ce format (nom\\d’utilisateur de domaine), une erreur se produit.
+4.  Sur la page **spécifier les informations d’identification** , dans la zone **nom d’utilisateur** , tapez le nom de domaine et le nom d’utilisateur du compte à utiliser lors de l’accès aux rapports de surveillance (par exemple, **litwareinc \\ kenmyer**). Si vous n’utilisez pas ce format ( \\ nom d’utilisateur de domaine), une erreur se produit.
     
     Tapez le mot de passe du compte d’utilisateur dans la zone **Mot de passe**, puis cliquez sur **Suivant**. Notez qu’aucun droit particulier n’est requis pour ce compte. Une fois l’installation terminée, le compte dispose automatiquement des autorisations d’ouverture de session et de base de données requises.
 
@@ -91,7 +93,7 @@ Pour installer les rapports de surveillance à l’aide de l’Assistant Déploi
 
 6.  Dans la page de **Exécution de commandes**, cliquez sur **Terminer**.
 
-Les rapports de surveillance peuvent également être installés à partir de Lync Server Management Shell en exécutant le script DeployReports. ps1 ; Ce script Windows PowerShell se trouve sur le support d’installation de Lync Server dans \\le\\dossier Setup ReportingSetup Pour installer les rapports de surveillance à l’aide de DeployReports.ps1, tapez une commande similaire à la suivante à l’invite Management Shell :
+Les rapports de surveillance peuvent également être installés à partir de Lync Server Management Shell en exécutant le script DeployReports.ps1 ; Ce script Windows PowerShell se trouve sur le support d’installation de Lync Server dans \\ le \\ dossier Setup ReportingSetup Pour installer les rapports de surveillance à l’aide de DeployReports.ps1, tapez une commande similaire à la suivante à l’invite Management Shell :
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -107,7 +109,7 @@ Les paramètres utilisés dans la commande précédente sont décrits dans le ta
 <thead>
 <tr class="header">
 <th>Nom du paramètre</th>
-<th>Obligatoire</th>
+<th>Requis</th>
 <th>Description</th>
 </tr>
 </thead>

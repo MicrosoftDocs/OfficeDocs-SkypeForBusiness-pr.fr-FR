@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499311"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Résumé des certificats-découverte automatique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Résumé des certificats-découverte automatique dans Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ Le service de découverte automatique Lync Server 2013 s’exécute sur les serv
 
 La décision d’utiliser des listes d’autres noms de sujet sur les proxys inverses est basée sur la publication du service de découverte automatique sur le port 80 ou sur le port 443 :
 
-  - **Publié sur le port 80**   aucune modification de certificat n’est requise si la requête initiale du service de découverte automatique a lieu sur le port 80. Cela est dû au fait que les appareils mobiles exécutant Lync accèdent au proxy inverse sur le port 80 de manière externe, puis sont transférés vers un directeur ou un serveur frontal sur le port 8080 en interne. Pour plus d’informations, reportez-vous à la section « processus de découverte automatique à l’aide du port 80 » [configuration technique requise pour la mobilité dans Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+  - **Publié sur le port 80**     Aucune modification de certificat n’est requise si la requête initiale du service de découverte automatique se produit sur le port 80. Cela est dû au fait que les appareils mobiles exécutant Lync accèdent au proxy inverse sur le port 80 de manière externe, puis sont transférés vers un directeur ou un serveur frontal sur le port 8080 en interne. Pour plus d’informations, reportez-vous à la section « processus de découverte automatique à l’aide du port 80 » [configuration technique requise pour la mobilité dans Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
-  - **Publié sur le port 443**   la liste autre nom du sujet sur les certificats utilisés par la règle de publication des services Web externes doit contenir un *lyncdiscover.\< entrée\> sipdomain* pour chaque domaine SIP au sein de votre organisation.
+  - **Publié sur le port 443**     La liste des autres noms de sujet sur les certificats utilisés par la règle de publication des services Web externes doit contenir un *lyncdiscover. \<sipdomain\> * entrée pour chaque domaine SIP au sein de votre organisation.
     
     <div>
     
@@ -60,7 +62,7 @@ La réémission de certificats à l’aide d’une autorité de certification in
 
 
 > [!NOTE]  
-> Si votre infrastructure Lync Server 2013 utilise des certificats internes émis par une autorité de certification interne et que vous envisagez de prendre en charge les appareils mobiles qui se connectent sans fil, la chaîne de certificats racine de l’autorité de certification interne doit être installée. sur les appareils mobiles ou vous devez passer à un certificat public sur votre infrastructure Lync Server 2013.
+> Si votre infrastructure Lync Server 2013 utilise des certificats internes émis par une autorité de certification interne et que vous envisagez de prendre en charge les appareils mobiles qui se connectent sans fil, la chaîne de certificats racine de l’autorité de certification interne doit être installée sur les appareils mobiles ou vous devez passer à un certificat public sur votre infrastructure Lync Server 2013.
 
 
 
@@ -86,11 +88,11 @@ Les tableaux suivants définissent les entrées SAN de découverte automatique p
 <tbody>
 <tr class="odd">
 <td><p>URL du service de découverte automatique interne</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;nom de domaine interne&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; nom de domaine interne&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL du service de découverte automatique externe</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ Les tableaux suivants définissent les entrées SAN de découverte automatique p
 
 
 > [!NOTE]  
-> Vous affectez le certificat que vous venez de mettre à jour avec la nouvelle entrée SAN au certificat par défaut. Vous pouvez également utiliser le SAN = *. &lt;sipdomain&gt;.
+> Vous affectez le certificat que vous venez de mettre à jour avec la nouvelle entrée SAN au certificat par défaut. Vous pouvez également utiliser le SAN = *. &lt; sipdomain &gt; .
 
 
 
@@ -122,11 +124,11 @@ Les tableaux suivants définissent les entrées SAN de découverte automatique p
 <tbody>
 <tr class="odd">
 <td><p>URL du service de découverte automatique interne</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;nom de domaine interne&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; nom de domaine interne&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL du service de découverte automatique externe</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ Les tableaux suivants définissent les entrées SAN de découverte automatique p
 
 
 > [!NOTE]  
-> Vous affectez le certificat que vous venez de mettre à jour avec la nouvelle entrée SAN au certificat par défaut. Vous pouvez également utiliser le SAN = *. &lt;sipdomain&gt;
+> Vous affectez le certificat que vous venez de mettre à jour avec la nouvelle entrée SAN au certificat par défaut. Vous pouvez également utiliser le SAN = *. &lt; sipdomain&gt;
 
 
 
@@ -158,7 +160,7 @@ Les tableaux suivants définissent les entrées SAN de découverte automatique p
 <tbody>
 <tr class="odd">
 <td><p>URL du service de découverte automatique externe</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>

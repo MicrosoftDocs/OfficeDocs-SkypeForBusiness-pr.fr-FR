@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497731"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planification de la résistance vocale du site central dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planification de la résistance vocale du site central dans Lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Lync Server dépend des composants logiciels et d’infrastructure suivants pour
 </tr>
 <tr class="odd">
 <td><p>Options DHCP 120</p></td>
-<td><p>Si DNS SRV n’est pas disponible, le client tente d’utiliser l’option DHCP 120 pour découvrir le serveur d’inscriptions. Pour que cela fonctionne, un serveur DHCP doit être configuré ou Lync Server 2013 DHCP doit être activé. Pour plus d’informations, voir Configuration matérielle et logicielle requise pour la résistance des sites de succursale dans la section <a href="lync-server-2013-branch-site-resiliency-requirements.md">Configuration requise pour la résistance des sites de succursale pour Lync Server 2013</a> .</p></td>
+<td><p>Si DNS SRV n’est pas disponible, le client tente d’utiliser l’option DHCP 120 pour découvrir le serveur d’inscriptions. Pour que cela fonctionne, un serveur DHCP doit être configuré ou Lync Server 2013 DHCP doit être activé. Pour plus d’informations, reportez-vous à Hardware and Software Requirements for Branch-Site Resilience in <a href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site Resiliency Requirements for Lync Server 2013</a> section.</p></td>
 </tr>
 </tbody>
 </table>

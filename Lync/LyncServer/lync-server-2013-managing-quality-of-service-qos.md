@@ -13,20 +13,22 @@ ms:contentKeyID: 48185049
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d96132357e1981214961f136cf5365cf74907a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0bb634a7e4f27693e982e403ad97d32ca2d95bf0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497931"
 ---
+# <a name="managing-quality-of-service-qos-in-lync-server-2013"></a>Gestion de la qualité de service (QoS) dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-quality-of-service-qos-in-lync-server-2013"></a>Gestion de la qualité de service (QoS) dans Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Lync Server 2013 offre une prise en charge complète de la qualité de service 
 
 
 > [!NOTE]  
-> Si vous utilisez Microsoft Windows Server 2012 ou Windows Server 2012 R2, le nouvel ensemble d’applets de commande Windows PowerShell disponible pour la gestion de la qualité de service sur cette plateforme est susceptible de vous intéresser. Pour plus d’informations, reportez-vous à Network Quality of service [https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps](https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps)cmdlets in Windows PowerShell à l’adresse.
+> Si vous utilisez Microsoft Windows Server 2012 ou Windows Server 2012 R2, le nouvel ensemble d’applets de commande Windows PowerShell disponible pour la gestion de la qualité de service sur cette plateforme est susceptible de vous intéresser. Pour plus d’informations, reportez-vous à Network Quality of service cmdlets in Windows PowerShell à l’adresse [https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps](https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps) .
 
 
 

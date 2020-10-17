@@ -12,20 +12,22 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce81d2005a9bbed5432f2c78f3d8df5507d6679
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5f56d856aa0a97125812f68ede9a2bff5b49f036
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191677"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498531"
 ---
+# <a name="installing-optional-software-in-lync-server-2013"></a>Installation de logiciels facultatifs dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>Installation de logiciels facultatifs dans Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ L’exportation de votre conception vers Microsoft Visio crée un diagramme à 
 
   - Topologie globale : diagramme des sites Lync Server 2013 configurés.
 
-  - Onglet nom du site – affiche la topologie de configuration de site avec le serveur Edge, le pare-feu, le réseau téléphonique commuté (RTC) avec passerelles et le déploiement du serveur interne. Le déploiement interne se compose de serveurs et de pools configurés, y compris les pools frontaux, les serveurs SQL Server, les services de domaine Active Directory, les directeurs, les serveurs de messagerie unifiée Exchange, les serveurs de boîtes aux lettres Exchange, les serveurs Office Web Apps, Les serveurs de médiation et les serveurs de conversation permanente.
+  - Onglet nom du site – affiche la topologie de configuration de site avec le serveur Edge, le pare-feu, le réseau téléphonique commuté (RTC) avec passerelles et le déploiement du serveur interne. Le déploiement interne se compose de serveurs et de pools configurés, y compris les pools frontaux, les serveurs SQL Server, les services de domaine Active Directory, les directeurs, les serveurs de messagerie unifiée Exchange, les serveurs de boîtes aux lettres Exchange, les serveurs Office Web Apps, les serveurs de médiation et les serveurs de conversation permanente.
 
   - Diagramme de réseau Edge : diagramme détaillant la configuration du serveur Edge avec des adresses IP et des noms de domaine complets associés. L’équilibrage de charge DNS et les programmes d’équilibrage de la charge matérielle sont également inclus. De plus, les directeurs et le serveur frontal ou le pool frontal sont affichés, avec le DNS charge matérielle associé et l’adresse IP affectée (l’outil de planification prend en charge les adresses IPv4 et IPv6) et le nom de domaine complet (FQDN).
 

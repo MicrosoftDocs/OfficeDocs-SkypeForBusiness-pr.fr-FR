@@ -12,20 +12,22 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af95403b8a1fc383d8d6065f26a55242e735a51b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81a17eacb30c62f64185508afef3842408238ba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204192"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498741"
 ---
+# <a name="install-edge-servers-for-lync-server-2013"></a>Installer des serveurs Edge pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>Installer des serveurs Edge pour Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Après avoir utilisé l’Assistant déploiement pour installer chaque serveur E
 
 1.  Ouvrez une session sur l’ordinateur sur lequel vous souhaitez installer le serveur Edge en tant que membre du groupe Administrateurs local ou avec un compte disposant de droits et d’autorisations équivalents.
 
-2.  Assurez-vous que le fichier de configuration de topologie que vous avez créé à l’aide du générateur de topologie, puis exporté et copié vers le support externe, est disponible sur le serveur Edge (par exemple, l’accès au lecteur USB sur lequel vous avez copié le fichier de configuration de topologie, ou vérifiez accès au partage réseau où vous avez copié le fichier).
+2.  Assurez-vous que le fichier de configuration de topologie que vous avez créé à l’aide du générateur de topologie, puis exporté et copié vers le support externe, est disponible sur le serveur de périphérie (par exemple, l’accès au lecteur USB sur lequel vous avez copié le fichier de configuration de topologie ou vérifiez l’accès au partage réseau où vous avez copié le fichier).
 
 3.  Démarrez l’Assistant Déploiement.
     

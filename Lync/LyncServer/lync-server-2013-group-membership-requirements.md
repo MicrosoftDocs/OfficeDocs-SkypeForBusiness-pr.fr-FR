@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200007"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498771"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Configuration requise pour l’appartenance à un groupe pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Configuration requise pour l’appartenance à un groupe pour Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Le tableau suivant résume le ou les groupes auxquels une personne doit apparten
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup. exe</strong> – exécutable qui démarre l’installation des outils d’administration de Lync Server 2013.</p></td>
+<td><p><strong>Setup.exe</strong> – exécutable qui démarre l’installation des outils d’administration Lync Server 2013.</p></td>
 <td><p>Membre du groupe Administrateurs local sur l’ordinateur sur lequel le fichier exécutable est exécuté. Membre du groupe utilisateurs du domaine pour lire les informations dans les services de domaine Active Directory. Ce niveau d’autorisation est obligatoire puisque l’installation automatique des packages MSI requis sur l’ordinateur local exige des privilèges permettant d’accéder en lecture et en écriture aux ressources protégées des ordinateurs locaux, notamment les répertoires Program Files et les éléments de Registre protégés, telles que la ruche Local Machine (ordinateur local).</p>
 <div>
 
@@ -88,7 +90,7 @@ Le tableau suivant résume le ou les groupes auxquels une personne doit apparten
 <td><p>Membre du groupe CsAdministrator ou membre d’un autre rôle RBAC (contrôle d’accès basé sur un rôle) auquel la tâche d’administration spécifique est affectée. Le panneau de configuration Lync Server 2013 implémente les modifications de configuration en exécutant les applets de commande de Lync Server 2013 Management Shell. Pour obtenir la liste des rôles prédéfinis et les membres des cmdlets autorisés à s’exécuter, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</a> dans la documentation de planification.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PowerShell. exe avec le module Lync Server 2013 chargé</strong> – outil d’administration de ligne de commande avec cmdlets spécifique à la gestion de Lync Server 2013.</p></td>
+<td><p><strong>PowerShell.exe avec le module Lync Server 2013 chargé</strong> – outil d’administration en ligne de commande avec cmdlets spécifique à la gestion de Lync Server 2013.</p></td>
 <td><p>Membre du groupe CsAdministrator ou d’un autre rôle RBAC auquel l’applet de commande spécifique a été affectée. Pour obtenir la liste des rôles prédéfinis et les membres des cmdlets autorisés à s’exécuter, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</a> dans la documentation de planification.</p>
 <p>Ou bien, membre d’un ou plusieurs des groupes suivants, en fonction de l’applet de commande :</p>
 <ul>
