@@ -12,20 +12,22 @@ ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba78067f076169a808129d83c8d4202e183a3a8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4098b3ea8c9a5dda2cdee7d05f71b940ffcb0325
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214420"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523631"
 ---
+# <a name="tblprincipalmembers-in-lync-server-2013"></a><span data-ttu-id="7b2c1-102">tblPrincipalMembers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b2c1-102">tblPrincipalMembers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmembers-in-lync-server-2013"></a><span data-ttu-id="175e7-102">tblPrincipalMembers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="175e7-102">tblPrincipalMembers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42214420"
 
 <span> </span>
 
-<span data-ttu-id="175e7-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="175e7-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="7b2c1-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="7b2c1-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="175e7-104">tblPrincipalMembers contient des appartenances aux principaux.</span><span class="sxs-lookup"><span data-stu-id="175e7-104">tblPrincipalMembers contains principal memberships.</span></span>
+<span data-ttu-id="7b2c1-104">tblPrincipalMembers contient des appartenances aux principaux.</span><span class="sxs-lookup"><span data-stu-id="7b2c1-104">tblPrincipalMembers contains principal memberships.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="175e7-105">Columns</span><span class="sxs-lookup"><span data-stu-id="175e7-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="7b2c1-105">Colonnes</span><span class="sxs-lookup"><span data-stu-id="7b2c1-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,27 +51,27 @@ ms.locfileid: "42214420"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="175e7-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="175e7-106">Column</span></span></th>
-<th><span data-ttu-id="175e7-107">Type</span><span class="sxs-lookup"><span data-stu-id="175e7-107">Type</span></span></th>
-<th><span data-ttu-id="175e7-108">Description</span><span class="sxs-lookup"><span data-stu-id="175e7-108">Description</span></span></th>
+<th><span data-ttu-id="7b2c1-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="7b2c1-106">Column</span></span></th>
+<th><span data-ttu-id="7b2c1-107">Type</span><span class="sxs-lookup"><span data-stu-id="7b2c1-107">Type</span></span></th>
+<th><span data-ttu-id="7b2c1-108">Description</span><span class="sxs-lookup"><span data-stu-id="7b2c1-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="175e7-109">prinID</span><span class="sxs-lookup"><span data-stu-id="175e7-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="175e7-110">int, non null</span><span class="sxs-lookup"><span data-stu-id="175e7-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="175e7-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="175e7-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-109">prinID</span><span class="sxs-lookup"><span data-stu-id="7b2c1-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-110">int, non null</span><span class="sxs-lookup"><span data-stu-id="7b2c1-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="7b2c1-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="175e7-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="175e7-112">memberADPath</span></span></p></td>
-<td><p><span data-ttu-id="175e7-113">nvarchar (384), non null</span><span class="sxs-lookup"><span data-stu-id="175e7-113">nvarchar (384), not null</span></span></p></td>
-<td><p><span data-ttu-id="175e7-114">Nom unique d’un membre.</span><span class="sxs-lookup"><span data-stu-id="175e7-114">Distinguished name of a member.</span></span> <span data-ttu-id="175e7-115">Un membre ne doit pas nécessairement être un principal (dans la table tblPrincipal).</span><span class="sxs-lookup"><span data-stu-id="175e7-115">A member does not have to be a principal (in tblPrincipal table).</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="7b2c1-112">memberADPath</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-113">nvarchar (384), non null</span><span class="sxs-lookup"><span data-stu-id="7b2c1-113">nvarchar (384), not null</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-114">Nom unique d’un membre.</span><span class="sxs-lookup"><span data-stu-id="7b2c1-114">Distinguished name of a member.</span></span> <span data-ttu-id="7b2c1-115">Un membre ne doit pas nécessairement être un principal (dans la table tblPrincipal).</span><span class="sxs-lookup"><span data-stu-id="7b2c1-115">A member does not have to be a principal (in tblPrincipal table).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="175e7-116">Keys</span><span class="sxs-lookup"><span data-stu-id="175e7-116">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="7b2c1-116">Keys</span><span class="sxs-lookup"><span data-stu-id="7b2c1-116">Keys</span></span>
 
 <table>
 <colgroup>
@@ -78,18 +80,18 @@ ms.locfileid: "42214420"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="175e7-117">Colonne</span><span class="sxs-lookup"><span data-stu-id="175e7-117">Column</span></span></th>
-<th><span data-ttu-id="175e7-118">Description</span><span class="sxs-lookup"><span data-stu-id="175e7-118">Description</span></span></th>
+<th><span data-ttu-id="7b2c1-117">Colonne</span><span class="sxs-lookup"><span data-stu-id="7b2c1-117">Column</span></span></th>
+<th><span data-ttu-id="7b2c1-118">Description</span><span class="sxs-lookup"><span data-stu-id="7b2c1-118">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="175e7-119">&lt;prinID, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="175e7-119">&lt;prinID, memberADPath&gt;</span></span></p></td>
-<td><p><span data-ttu-id="175e7-120">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="175e7-120">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-119">&lt;prinID, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="7b2c1-119">&lt;prinID, memberADPath&gt;</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-120">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="7b2c1-120">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="175e7-121">prinID</span><span class="sxs-lookup"><span data-stu-id="175e7-121">prinID</span></span></p></td>
-<td><p><span data-ttu-id="175e7-122">Clé étrangère avec recherche dans tblPrincipal. prinID.</span><span class="sxs-lookup"><span data-stu-id="175e7-122">Foreign key with lookup in tblPrincipal.prinID.</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-121">prinID</span><span class="sxs-lookup"><span data-stu-id="7b2c1-121">prinID</span></span></p></td>
+<td><p><span data-ttu-id="7b2c1-122">Clé étrangère avec recherche dans tblPrincipal. prinID.</span><span class="sxs-lookup"><span data-stu-id="7b2c1-122">Foreign key with lookup in tblPrincipal.prinID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
