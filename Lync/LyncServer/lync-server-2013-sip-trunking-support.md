@@ -12,20 +12,22 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f31159a2d14facbdfed2f74f3567081699a7bde9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d9bbf5ea35b6b24180f7853fd3715ad95973051
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519651"
 ---
+# <a name="sip-trunking-support-in-lync-server-2013"></a>Prise en charge de la jonction SIP dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-support-in-lync-server-2013"></a>Prise en charge de la jonction SIP dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-10-03_
 
 Si vous envisagez d’utiliser la voix entreprise avec la jonction SIP, vous devez déployer un serveur de médiation et vous assurer que d’autres infrastructures et composants répondent aux exigences de prise en charge appropriées à votre modèle de déploiement. Pour plus d’informations sur la façon de déterminer s’il faut implémenter la jonction SIP, voir [Overview of SIP Trunking in Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) dans la documentation de planification.
 
-Vous pouvez utiliser le programme d’interopérabilité Open Communications Microsoft pour l’infrastructure de téléphonie d’entreprise pour rechercher les passerelles RTC (réseau téléphonique commuté), les PBX IP et les services de jonction SIP qualifiés, y compris la téléphonie IP qualifiée fournisseurs de services. Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)Interoperability Program à l’adresse.
+Vous pouvez utiliser le programme d’interopérabilité Open Communications Microsoft pour l’infrastructure de téléphonie d’entreprise pour rechercher des passerelles RTC (réseau téléphonique commuté), des PBX IP et des services de jonction SIP qualifiés, y compris des fournisseurs de services de téléphonie IP qualifiés. Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open Interoperability Program à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) .
 
 <div>
 
@@ -95,7 +97,7 @@ Lync Server 2013 prend en charge les types de connexion suivants pour la jonctio
 
   - Une connexion privée sans autre trafic constitue généralement le type de connexion le plus fiable et le plus sûr (par exemple, une connexion en bail à fibre optique ou une ligne T1). Ce type de connexion fournit la capacité de gestion d’appels la plus élevée, mais elle est généralement la plus coûteuse. Un VPN n’est pas nécessaire. Les connexions privées sont adaptées aux organisations à grands volumes d’appels ou soumises à des exigences strictes en matière de sécurité et de disponibilité.
 
-  - L’Internet public représente le type de connexion le plus économique, mais également le moins fiable et celui qui offre la capacité de gestion des appels la plus faible. Votre fournisseur de services de téléphonie Internet (téléphonie Internet) peut vous aider à sécuriser ce type de connexion de jonction SIP s’il prend en charge le protocole TLS (Transport Layer Security) et SRTP (Secure Real-Time Transport Protocol) pour chiffrer le trafic de signalisation et le trafic multimédia. Si vous n’êtes pas en mesure de configurer une connexion par jonction SIP via Internet dans le but d’utiliser TLS et SRTP, nous vous recommandons vivement d’utiliser un tunnel VPN pour bénéficier d’une connexion plus sûre. Contactez votre fournisseur de services de téléphonie Internet pour déterminer s’il offre une prise en charge de TLS avec SRTP.
+  - L’Internet public représente le type de connexion le plus économique, mais également le moins fiable et celui qui offre la capacité de gestion des appels la plus faible. Votre fournisseur de services de téléphonie Internet (téléphonie Internet) peut vous aider à sécuriser ce type de connexion de jonction SIP s’il prend en charge le protocole TLS (Transport Layer Security) et le protocole SRTP (Secure Real-Time Transport Protocol) pour chiffrer le trafic de signalisation et le trafic multimédia. Si vous n’êtes pas en mesure de configurer une connexion par jonction SIP via Internet dans le but d’utiliser TLS et SRTP, nous vous recommandons vivement d’utiliser un tunnel VPN pour bénéficier d’une connexion plus sûre. Contactez votre fournisseur de services de téléphonie Internet pour déterminer s’il offre une prise en charge de TLS avec SRTP.
 
 <div>
 

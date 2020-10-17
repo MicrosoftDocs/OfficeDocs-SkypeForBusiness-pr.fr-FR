@@ -12,20 +12,22 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce1940f92860d5ccd2d66c53a0a4da16cebada24
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3141f08e7973b123b8c8ee0fe9b9c3c93c8e752
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518401"
 ---
+# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Affichage des mises à jour logicielles pour les périphériques dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Affichage des mises à jour logicielles pour les périphériques dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211360"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des appareils de votre organisation. Ces mises à jour sont disponibles dans les fichiers. cab (armoire) à partir du site Web [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)du support technique de Microsoft à l’adresse. Après avoir téléchargé le fichier. cab, exécutez l’applet de commande **Import-CSDeviceUpdate** pour importer les règles de mise à jour des périphériques à partir du fichier. cab. Pour plus d’informations sur l’applet de commande **Import-CSDeviceUpdate** , voir [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) dans la documentation de Lync Server Management Shell.
+Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des appareils de votre organisation. Ces mises à jour sont disponibles dans les fichiers. cab (armoire) à partir du site Web du support technique de Microsoft à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091) . Après avoir téléchargé le fichier. cab, exécutez l’applet de commande **Import-CSDeviceUpdate** pour importer les règles de mise à jour des périphériques à partir du fichier. cab. Pour plus d’informations sur l’applet de commande **Import-CSDeviceUpdate** , voir [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) dans la documentation de Lync Server Management Shell.
 
 <div>
 
@@ -55,9 +57,9 @@ Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périph�
 
 1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  À partir du site Web du [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)support technique de Microsoft à l’adresse, téléchargez le fichier. cab vers un emplacement sur un ordinateur Lync Server\\2013 (par\\exemple, C : updates UCUpdates. cab).
+2.  À partir du site Web du support technique de Microsoft à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091) , téléchargez le fichier. cab vers un emplacement sur un ordinateur Lync Server 2013 (par exemple, C : \\ updates \\UCUpdates.cab).
 
-3.  Importez les règles de mise à jour\\des périphériques à\\partir du fichier C : updates UCUpdates. cab en exécutant l’une des applets de commande suivantes :
+3.  Importez les règles de mise à jour des périphériques à partir du fichier C : updates \\ \\UCUpdates.cab en exécutant l’une des cmdlets suivantes :
     
       - Si le fichier .cab se trouve sur le même ordinateur que celui qui exécute le service à mettre à jour (service:Redmond-websvc-2), exécutez l’applet de commande suivante :
         

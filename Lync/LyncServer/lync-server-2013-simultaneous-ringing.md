@@ -12,20 +12,22 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da250e04b3547e7ce6f00a73028ac3fcd083c30d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 358a0dd6dab96b67b26c211c9f28dbc6c0842804
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519791"
 ---
+# <a name="simultaneous-ringing-in-lync-server-2013"></a>Sonnerie simultanée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a>Sonnerie simultanée dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200347"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Lorsque le composant appelé dispose d’une sonnerie simultanée, le routage géodépendant permet d’analyser l’emplacement de l’appelant et les points de terminaison des parties appelées afin de déterminer si l’appel doit être acheminé.
+Si la sonnerie simultanée est activée pour la partie appelée, le routage Location-Based analyse l’emplacement de la partie appelante et les points de terminaison des parties appelées afin de déterminer si l’appel doit être acheminé.
 
 Le tableau suivant illustre un utilisateur configuré avec la sonnerie simultanée et la cible de la sonnerie simultanée est un utilisateur du même site réseau, d’un site réseau différent ou d’un site réseau inconnu.
 
@@ -54,7 +56,7 @@ Le tableau suivant illustre un utilisateur configuré avec la sonnerie simultan�
 <th>Appel RTC entrant pour</th>
 <th>Situé dans le même site réseau que l’appelé.</th>
 <th>Situé dans un site réseau différent de celui de l’appelé ;</th>
-<th>Situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
+<th>Situé dans un site réseau inconnu ou non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +70,7 @@ Le tableau suivant illustre un utilisateur configuré avec la sonnerie simultan�
 </table>
 
   
-Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, l’appelant Lync) dans le même site réseau, dans un autre site réseau ou à partir d’un site réseau inconnu. L’appelé a un point de terminaison PSTN (par exemple, téléphone portable) configuré en tant que cible circulaire simultanée. Dans ce scénario, le routage géodépendant indique si l’appel doit être acheminé vers la cible de sonnerie simultanée (téléphone cellulaire) de l’appelé ou non.
+Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, l’appelant Lync) dans le même site réseau, dans un autre site réseau ou à partir d’un site réseau inconnu. L’appelé a un point de terminaison PSTN (par exemple, téléphone portable) configuré en tant que cible circulaire simultanée. Dans ce scénario, Location-Based routage détermine si l’appel doit être acheminé vers la cible de sonnerie simultanée (téléphone cellulaire) de l’appelé ou non.
 
 
 <table>
@@ -83,7 +85,7 @@ Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, l’a
 <th>Cible annulaire simultanée</th>
 <th>Situé dans le même site réseau que l’appelé.</th>
 <th>Situé dans un site réseau différent de celui de l’appelé ;</th>
-<th>Situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
+<th>Situé dans un site réseau inconnu ou non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +93,7 @@ Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, l’a
 <td><p>Point de terminaison PSTN</p></td>
 <td><p>Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</p></td>
 <td><p>Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</p></td>
-<td><p>Sonnerie simultanée autorisée via la stratégie de voix de l’appelant aux jonctions non activées pour le routage géodépendant</p></td>
+<td><p>Sonnerie simultanée autorisée via la stratégie de voix de l’appelant aux jonctions non activées pour le routage des Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +104,7 @@ Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, l’a
 ## <a name="see-also"></a>Voir aussi
 
 
-[Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Scénarios de routage des Location-Based dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

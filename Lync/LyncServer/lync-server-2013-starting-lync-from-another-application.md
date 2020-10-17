@@ -12,20 +12,22 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e049b2a8a88514b9236ee0172474a5252bfdb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d10e70615083796baa0934c6291b377dcd18005
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208310"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519511"
 ---
+# <a name="starting-lync-from-another-application"></a>Démarrage de Lync à partir d’une autre application
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a>Démarrage de Lync à partir d’une autre application
+
 
 </div>
 
@@ -45,7 +47,7 @@ Si Lync 2013 est configuré pour se connecter automatiquement lorsqu’il est d�
 
 Le tableau suivant présente les paramètres disponibles.
 
-### <a name="lync-2013-command-line-parameters"></a>Paramètres de ligne de commande Lync 2013
+### <a name="lync-2013-command-line-parameters"></a>Paramètres de Command-Line Lync 2013
 
 <table>
 <colgroup>
@@ -89,7 +91,7 @@ Le tableau suivant présente les paramètres disponibles.
 <tr class="even">
 <td><p>messagerie instantanée</p></td>
 <td><p>URI SIP</p></td>
-<td><p>Affiche une fenêtre de conversation de messagerie instantanée uniquement avec l’URI SIP. Accepte plusieurs URI SIP spécifiés entre chevrons&lt;&gt;() sans séparateur.</p>
+<td><p>Affiche une fenêtre de conversation de messagerie instantanée uniquement avec l’URI SIP. Accepte plusieurs URI SIP spécifiés entre chevrons ( &lt; &gt; ) sans séparateur.</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>

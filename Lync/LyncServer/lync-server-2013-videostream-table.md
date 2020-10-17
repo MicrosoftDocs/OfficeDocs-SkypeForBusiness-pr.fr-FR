@@ -12,20 +12,22 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a313419ca4072fe4d1841ba66a9cb603671e6c56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5c417ff391bb3ec5954cf12d00f6de3d2e6d9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211643"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518561"
 ---
+# <a name="videostream-table-in-lync-server-2013"></a>Table table Videostream dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostream-table-in-lync-server-2013"></a>Table table Videostream dans Lync Server 2013
+
 
 </div>
 
@@ -231,7 +233,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 <td><p>Pourcentage de la durée de l’appel avec l’image BPSPI.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Entrant</strong></p></td>
+<td><p><strong>Entrants</strong></p></td>
 <td><p>légèrement</p></td>
 <td><p> </p></td>
 <td><p>Les données de flux du côté récepteur sont reçues.</p></td>
@@ -251,21 +253,21 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="odd">
 <td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Indique le pourcentage de temps pendant lequel l’appel se trouve dans un état de congestion de perte.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Indique le pourcentage de l’appel pendant lequel la congestion a été causée par le retard de l’arrivée des paquets réseau.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Indique le pourcentage de temps pendant lequel l’appel a eu accès aux ressources réseau.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -300,28 +302,28 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="even">
 <td><p><strong>LowBandwidthForMultiview</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel où le point de terminaison a déterminé que la connexion réseau ne pouvait pas prendre en charge la vidéo multivue.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -342,7 +344,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -356,14 +358,14 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -405,7 +407,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="odd">
 <td><p><strong>SendFrameRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence d’images vidéo moyenne utilisée par l’expéditeur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -453,7 +455,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence d’images vidéo moyenne utilisée par le récepteur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -495,14 +497,14 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLR</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux de perte de paquets après la correction des erreurs de transfert a été appliquée.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de temps pendant lequel l’indicateur de capacité dynamique était actif.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -516,21 +518,21 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="odd">
 <td><p><strong>LowBitRateCallPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel sous le seuil de taux de bits bas (70 kilobits par seconde).</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel en dessous du seuil de fréquence d’images faible (7,5 images par seconde, entrantes).</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel qui s’est produit à la résolution la plus faible.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p>
@@ -538,7 +540,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de support vidéo co
 </tr>
 <tr class="even">
 <td><p><strong>DurationSeconds</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Longueur de l’appel en secondes.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>

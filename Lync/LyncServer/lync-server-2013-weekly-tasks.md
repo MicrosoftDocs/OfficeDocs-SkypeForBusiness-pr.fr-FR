@@ -12,20 +12,22 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a723c17e5c909ba0313b962cf97a508b17487309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518221"
 ---
+# <a name="weekly-tasks-in-lync-server-2013"></a>Tâches hebdomadaires dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Tâches hebdomadaires dans Lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Avec l’accès réseau approprié, l’outil peut examiner vos services de doma
 
   - Générer des informations de configuration pouvant être capturées à des fins de révision ultérieure
 
-Assurez-vous que RTCBPA. msi est installé sur tous les serveurs Lync Server 2013 et générez un rapport de vérification de l’intégrité hebdomadaire. Notez les résultats et corrigez, si nécessaire.
+Assurez-vous que le RTCBPA.msi est installé sur tous les serveurs Lync Server 2013 et générez un rapport de vérification de l’intégrité hebdomadaire. Notez les résultats et corrigez, si nécessaire.
 
 </div>
 
@@ -211,11 +213,11 @@ Pour chaque pool d’entreprise, les administrateurs peuvent utiliser l’onglet
 <ul>
 <li><p>Un utilisateur activé est un utilisateur qui est activé pour Lync Server 2013 à l’aide du composant logiciel enfichable utilisateurs et ordinateurs Active Directory.</p></li>
 <li><p>Un utilisateur actif est un utilisateur qui a ouvert une session ou a enregistré.</p></li>
-<li><p>Les rapports de synthèse fournissent également un ensemble d’informations statistiques sur les contacts. Ces statistiques ne sont valides que pour la population des utilisateurs qui ont ouvert une session au moins une fois et qui disposent au moins d’un contact. Par conséquent, vous ne verrez généralement pas de nombre minimal de contacts de 0. En raison de ce comportement, si un utilisateur ne dispose d’aucun contact (mais est actif, et que l’utilisateur s’est inscrit), &lt;vous&gt; pouvez voir : vide pour certains champs de statistiques.</p></li>
+<li><p>Les rapports de synthèse fournissent également un ensemble d’informations statistiques sur les contacts. Ces statistiques ne sont valides que pour la population des utilisateurs qui ont ouvert une session au moins une fois et qui disposent au moins d’un contact. Par conséquent, vous ne verrez généralement pas de nombre minimal de contacts de 0. En raison de ce comportement, si un utilisateur ne dispose d’aucun contact (mais est actif, et que l’utilisateur s’est inscrit), vous pouvez voir : &lt; vide &gt; pour certains champs de statistiques.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Rapports par utilisateur</p></td>
+<td><p>Rapports Per-User</p></td>
 <td><p>DbAnalyze/v/Report : disque [/SqlServer : valeur]</p>
 <p>Contrairement aux rapports de synthèse, qui sont calculés sur une population d’utilisateurs, il s’agit de rapports sur un utilisateur spécifique.</p></td>
 </tr>

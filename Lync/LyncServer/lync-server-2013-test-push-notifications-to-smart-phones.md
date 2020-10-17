@@ -12,20 +12,22 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194520"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519201"
 ---
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Test des notifications de type poussé vers les téléphones intelligents dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Test des notifications de type poussé vers les téléphones intelligents dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2017-03-15_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les mois</p></td>
+<td><p>Mensuelle</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2017-03-15_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsMcxPushNotification. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsMcxPushNotification. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxPushNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2017-03-15_
 
 ## <a name="description"></a>Description
 
-Le service de notifications par émission (service de notifications d’appels poussés Apple et le service de notifications poussés Microsoft) peut envoyer des notifications sur des événements tels que de nouveaux messages instantanés ou de nouveaux messages vocaux à des appareils mobiles tels que des iPhone et des téléphones Windows, même si le client Lync sur ces appareils est actuellement suspendu ou en cours d’exécution en arrière-plan. Le service de notifications d’envoi de notifications est un service en nuage qui s’exécute sur des serveurs Microsoft. Pour pouvoir tirer parti des notifications de type « transmission », vous devez être en mesure de vous connecter à, et être authentifié par le centre d’aide à la notification. L’applet de commande test-CsMcxPushNotification permet aux administrateurs de vérifier que les demandes de notifications de type transmission peuvent être acheminées via votre serveur Edge vers le centre d’administration de notifications.
+Le service de notifications par émission (service de notifications d’appels poussés Apple et le service de notifications d’émission de messages Microsoft) peut envoyer des notifications sur des événements tels que les nouveaux messages instantanés ou la messagerie vocale à des appareils mobiles tels que des iPhone et des téléphones Windows, même si le client Lync sur ces périphériques est actuellement suspendu ou s’exécute en arrière-plan Le service de notifications d’envoi de notifications est un service en nuage qui s’exécute sur des serveurs Microsoft. Pour pouvoir tirer parti des notifications de type « transmission », vous devez être en mesure de vous connecter à, et être authentifié par le centre d’aide à la notification. L’applet de commande Test-CsMcxPushNotification permet aux administrateurs de vérifier que les demandes de notifications de type transmission peuvent être acheminées via votre serveur Edge vers le centre d’administration de notifications.
 
 </div>
 
@@ -86,7 +88,7 @@ Pour plus d’informations, consultez la rubrique d’aide relative à l’apple
 
 ## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si test-CsMcxPushNotification réussit, l’applet de commande renvoie le résultat du test réussite :
+Si Test-CsMcxPushNotification réussit, l’applet de commande renvoie le résultat du test réussite :
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
@@ -98,17 +100,17 @@ Latence : 00:00:00
 
 Diagnostique
 
-Si test-CsMcxPushNotification ne parvient pas à se connecter au centre d’information de notifications, l’applet de commande ne renverra généralement pas de résultat de test de défaillance. Au lieu de cela, la commande échouera généralement entièrement. Par exemple :
+Si Test-CsMcxPushNotification ne parvient pas à se connecter au centre d’information de notifications, l’applet de commande ne renverra généralement pas de résultat de test. Au lieu de cela, la commande échouera généralement entièrement. Par exemple :
 
-Test-CsMcxPushNotification : une réponse de 504 (délai d’attente du serveur) a été reçue du réseau et l’opération a échoué. Pour plus d’informations, consultez les détails de l’exception.
+Test-CsMcxPushNotification : une réponse 504 (délai d’attente du serveur) a été reçue du réseau et l’opération a échoué. Pour plus d’informations, consultez les détails de l’exception.
 
 À la ligne : 1 char : 27
 
 \+Test-CsMcxPushNotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
 
-\+CategoryInfo : OperationStopped : ( :) \[Test-CsMcxPushNotification\], FailureResponseException
+\+ CategoryInfo : OperationStopped : ( :) \[ Test-CsMcxPushNotification \] , FailureResponseException
 
-\+FullyQualifiedErrorId : WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId : WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 </div>
 
@@ -116,7 +118,7 @@ Test-CsMcxPushNotification : une réponse de 504 (délai d’attente du serveur
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Si le service de notification d’envoi échoue, cela signifie généralement que des problèmes de communication avec votre serveur Edge ou des problèmes de communication avec le centre d’échanges de notifications d’envoi échouent. Si vous rencontrez des problèmes lors de l’exécution de test-CsMcxPushNotification, la première chose que vous devez faire est de vérifier que votre serveur Edge fonctionne correctement. Pour cela, vous pouvez utiliser la cmdlet Test-CsAVEdgeConnectivity :
+Si le service de notification d’envoi échoue, cela signifie généralement que des problèmes de communication avec votre serveur Edge ou des problèmes de communication avec le centre d’échanges de notifications d’envoi échouent. Si vous rencontrez des problèmes lors de l’exécution de test-CsMcxPushNotification, la première chose que vous devez faire est de vérifier que votre serveur Edge fonctionne correctement. Pour ce faire, utilisez l’applet de commande Test-CsAVEdgeConnectivity :
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -138,17 +140,17 @@ Si l’URI est correctement configuré, l’étape suivante consiste à vérifie
 
 Une réponse 504 (délai d’attente du serveur) a été reçue depuis le réseau et l’opération a échoué. Pour plus d’informations, consultez les détails de l’exception.
 
-Il est également possible que test-CsMcxConfiguration échoue avec ce message d’erreur :
+Il est également possible que Test-CsMcxConfiguration échoue avec ce message d’erreur :
 
-Test-CsMcxPushNotification : la demande de notifications d’envoi a été rejetée.
+Test-CsMcxPushNotification : la demande de notifications de type transmission a été rejetée.
 
 À la ligne : 1 char : 27
 
-\+Test-CsMcxPushNotification\<\<\<\<
+\+ Test-CsMcxPushNotification \<\<\<\<
 
-\+CategoryInfo : OperationStopped : ( :) \[Test-CsMcxPushNotification\], SyntheticTransactionException
+\+ CategoryInfo : OperationStopped : ( :) \[ Test-CsMcxPushNotification \] , SyntheticTransactionException
 
-\+FullyQualifiedErrorId : WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId : WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 Le message « demande de notifications d’envoi rejetées » s’affiche généralement si vous avez activé le filtrage d’URL et bloque les préfixes http : et https :. Vous pouvez déterminer les préfixes bloqués à l’aide d’une commande similaire à celle-ci :
 

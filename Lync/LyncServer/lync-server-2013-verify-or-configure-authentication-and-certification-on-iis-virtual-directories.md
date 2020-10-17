@@ -12,20 +12,22 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca51a3c597be40c679a7b131f87775876a63811d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c07fc83680fd6b1d3f4d0d24429165ff9cc5ca65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518611"
 ---
+# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Vérifier ou configurer l’authentification et la certification sur les répertoires virtuels IIS dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Vérifier ou configurer l’authentification et la certification sur les répertoires virtuels IIS dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
 
 
 > [!NOTE]  
-> La procédure suivante définit une procédure pour demander un certificat combiné qui est utilisé à des fins telles que Lync Server, le site Web interne et le site Web externe dans les services Internet (IIS). Lync Server 2010 a introduit un ensemble d’applets de&nbsp;commande Windows PowerShell Lync Server Management Shell pour l’objectif de la gestion de la demande de certificat, de l’importation et de l’affectation. La procédure part du principe qu’une autorité de certification capable de traiter la demande a été déployée en interne. Si vous utilisez des certificats publics pour votre serveur Lync Server ou si votre autorité de certification requiert une demande hors connexion, consultez la syntaxe détaillée dans cette rubrique pour plus d’informations sur le paramètre – OUTPUT. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
+> La procédure suivante définit une procédure pour demander un certificat combiné qui est utilisé à des fins telles que Lync Server, le site Web interne et le site Web externe dans les services Internet (IIS). Lync Server 2010 a introduit un ensemble d’applets de commande Windows PowerShell Lync Server Management Shell &nbsp; pour l’objectif de la gestion de la demande de certificat, de l’importation et de l’affectation. La procédure part du principe qu’une autorité de certification capable de traiter la demande a été déployée en interne. Si vous utilisez des certificats publics pour votre serveur Lync Server ou si votre autorité de certification requiert une demande hors connexion, consultez la syntaxe détaillée dans cette rubrique pour plus d’informations sur le paramètre – OUTPUT. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
 
@@ -76,7 +78,7 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
     
     Vous obtenez alors la liste des certificats actuellement présents sur le serveur, dans le magasin de certificats personnel de l’ordinateur. À noter que dans le certificat combiné (c’est-à-dire, quand les services web internes et les services web externes par défaut utilisent le même certificat), vous constaterez que la propriété Use affiche les valeurs Default, WebServicesInternal et WebServicesExternal. De même, la propriété Thumbprint a la même valeur pour chaque type Use. Un exemple de résultat de Get-CsCertificate est fourni dans cet exemple :
     
-    ![Get-CsCertificate informations sur l’état actuel de scert](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate informations sur l’état actuel de scert")
+    ![Get-CsCertificate informations sur l’état actuel de scert](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Informations Get-CsCertificate sur l’état actuel de scert")
 
 6.  Dans Lync Server Management Shell, tapez ce qui suit :
     
@@ -95,7 +97,7 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
     
     </div>
     
-    ![Sortie de la demande de certificat à l’aide de request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Sortie de la demande de certificat à l’aide de request-CsCertifica")
+    ![Sortie de la demande de certificat à l’aide de request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Sortie de la demande de certificat à l’aide de Request-CsCertifica")
 
 7.  Dans Lync Server Management Shell, tapez ce qui suit :
     
@@ -107,7 +109,7 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
     
     La sortie de l’applet de commande Set-CsCertificate vous montre que le même certificat (identifié par l’empreinte numérique du certificat) est assigné pour l’utilisation de Default, WebServicesExternal et WebServicesInternal.
     
-    ![Sortie de Set-CsCertificate sur IIS WebExt](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Sortie de Set-CsCertificate sur IIS WebExt")
+    ![Sortie d' Set-CsCertificate sur IIS WebExt](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Sortie d' Set-CsCertificate sur IIS WebExt")
 
 </div>
 

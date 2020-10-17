@@ -12,20 +12,22 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4b0b2e2708abbf3b92223474ec0804c1d11ac8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b504c498b2f07915f741e6c3172e911c7d40dae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519621"
 ---
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Conditions préalables logicielles pour voix entreprise dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Conditions préalables logicielles pour voix entreprise dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Vérifiez que l’infrastructure dans laquelle vous souhaitez déployer Voix En
 
   - Tous les serveurs Edge sont déployés et opérationnels dans votre réseau de périmètre, y compris les serveurs Edge exécutant le service Edge d’accès, le service Edge A/V, le service Edge de conférence Web et un proxy inverse.
 
-  - Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 ou Microsoft Exchange Server 2013 est requis pour l’intégration de la messagerie unifiée Exchange avec Lync Server et pour fournir des notifications enrichies et des informations de journal des appels au Points de terminaison Lync.
+  - Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 ou Microsoft Exchange Server 2013 est requis pour l’intégration de la messagerie unifiée Exchange avec Lync Server et pour fournir des notifications et des informations de journal des appels enrichies aux points de terminaison Lync.
 
   - Un ou plusieurs utilisateurs ont été créés et activés pour Lync Server.
 

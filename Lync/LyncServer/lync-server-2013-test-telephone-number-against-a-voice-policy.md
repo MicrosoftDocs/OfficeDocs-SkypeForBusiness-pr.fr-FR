@@ -12,20 +12,22 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d22c801c7d08c3df663f69df07a6c73a5f17f858
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2ac10938dbbc2810e5b43aae85711bf8413ad27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194521"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519161"
 ---
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Tester le numéro de téléphone par rapport à une stratégie de voix dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Tester le numéro de téléphone par rapport à une stratégie de voix dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les mois</p></td>
+<td><p>Mensuelle</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsVoicePolicy. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsVoicePolicy. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ Possibilité pour les utilisateurs de voix entreprise d’effectuer des appels t
 
 L’utilisation RTC est particulièrement importante : il s’agit de la propriété qui connecte une stratégie de voix à un itinéraire de communications vocales. (Une stratégie de voix et un itinéraire de communications vocales sont appelés connectés s’ils disposent d’au moins une utilisation RTC en commun.) Les stratégies de voix peuvent être configurées sans spécifier d’utilisation PSTN. Dans ce cas, les utilisateurs auxquels cette stratégie a été attribuée ne peuvent pas effectuer d’appels sortants sur le réseau RTC. De même, les itinéraires de communications vocales qui n’ont pas au moins une utilisation PSTN spécifiée ne pourront pas acheminer les appels vers le réseau RTC.
 
-L’applet de commande test-CsVoicePolicy vérifie qu’une stratégie de voix donnée a une utilisation PSTN et que l’utilisation est partagée par au moins un itinéraire de communications vocales. Si la vérification exécutée par test-CsVoicePolicy réussit, l’applet de commande affiche le nom du premier itinéraire de communications vocales valide, ainsi que le nom de l’utilisation PSTN qui connecte la stratégie à l’itinéraire.
+L’applet de commande Test-CsVoicePolicy vérifie qu’une stratégie de voix donnée a une utilisation PSTN et que l’utilisation est partagée par au moins un itinéraire de communications vocales. Si la vérification exécutée par Test-CsVoicePolicy réussit, la cmdlet indique le nom du premier itinéraire de communications vocales valide, ainsi que le nom de l’utilisation PSTN qui connecte la stratégie à l’itinéraire.
 
 </div>
 
@@ -84,7 +86,7 @@ L’applet de commande test-CsVoicePolicy vérifie qu’une stratégie de voix d
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Pour exécuter la cmdlet Test-CsVoicePolicy, vous devez d’abord utiliser l’applet de commande Get-CsVoicePolicy pour récupérer une instance de la stratégie de voix à tester ; cette instance doit ensuite être redirigée vers test-CsVoicePolicy. Par exemple :
+Pour exécuter l’applet de commande Test-CsVoicePolicy vous devez d’abord utiliser la cmdlet Get-CsVoicePolicy récupérer une instance de la stratégie de voix à tester ; cette instance doit ensuite être redirigée vers test-CsVoicePolicy. Par exemple :
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
@@ -96,9 +98,9 @@ Si vous souhaitez vérifier toutes les stratégies de voix sur un numéro de té
 
 `Get-CsVoicePolicy | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-Notez que le TargetNumber doit être spécifié à l’aide du format E. 164. Test-CsVoicePolicy n’essaiera pas de normaliser ou de traduire les numéros de téléphone au format E. 164.
+Notez que le TargetNumber doit être spécifié à l’aide du format E. 164. Test-CsVoicePolicy n’essaie pas de normaliser ou de traduire les numéros de téléphone au format E. 164.
 
-Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande test-CsVoicePolicy.
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande Test-CsVoicePolicy.
 
 </div>
 
@@ -126,7 +128,7 @@ FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Si test-CsVoicePolicy ne renvoie pas de correspondance, cela signifie que la stratégie de voix ne partage pas une utilisation PSTN avec un itinéraire de communications vocales. Pour vérifier que, utilisez une cmdlet semblable à la suivante pour vérifier que les utilisations PSTN affectées à la stratégie de voix :
+Si Test-CsVoicePolicy ne renvoie pas de correspondance, cela signifie que la stratégie de voix ne partage pas une utilisation PSTN avec un itinéraire de communications vocales. Pour vérifier que, utilisez une cmdlet semblable à la suivante pour vérifier que les utilisations PSTN affectées à la stratégie de voix :
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
@@ -134,7 +136,7 @@ Ensuite, exécutez la commande suivante pour déterminer les utilisations RTC at
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-Si vous voyez des correspondances (c’est-à-dire, si vous voyez un ou plusieurs itinéraires vocaux qui partagent au moins une utilisation PSTN avec votre stratégie de voix), vous devez ensuite exécuter l’applet de commande test-CsVoiceRoute pour vérifier que l’itinéraire des communications vocales peut composer le numéro de téléphone fourni.
+Si vous voyez des correspondances (c’est-à-dire, si vous voyez un ou plusieurs itinéraires vocaux qui partagent au moins une utilisation PSTN avec votre stratégie de voix), vous devez exécuter l’applet de commande Test-CsVoiceRoute pour vérifier que l’itinéraire des communications vocales peut composer le numéro de téléphone fourni.
 
 </div>
 

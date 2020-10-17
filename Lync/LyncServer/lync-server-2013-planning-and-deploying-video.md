@@ -12,20 +12,22 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6cc926ecdf990c9d82c4a088a77611ad0fd5806
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf5eca9118c9f4706aa209dc1e2db1b3dbbed358
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215450"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519811"
 ---
+# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planification et déploiement de la vidéo dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planification et déploiement de la vidéo dans Lync Server 2013
+
 
 </div>
 
@@ -39,17 +41,17 @@ _**Dernière modification de la rubrique :** 2012-10-02_
 
 Lync Server 2013 présente les nouvelles fonctionnalités vidéo suivantes :
 
-  - ****   Les utilisateurs de la vidéo HD peuvent bénéficier de résolutions jusqu’à la haute définition (HD) (1920 x 1080) dans les appels à deux et les conférences à plusieurs.
+  - **Vidéo HD**     Les utilisateurs peuvent bénéficier de résolutions allant jusqu’à une haute définition (HD) (1920 x 1080) dans les appels à deux et les conférences à plusieurs.
 
-  - **Vue**   de la galerie dans les conférences vidéo qui ont plus de deux personnes, les utilisateurs peuvent voir les vidéos des participants à la Conférence. Si la conférence inclut plus de cinq participants, seule la vidéo des participants les plus actifs apparaît dans la ligne supérieure, tandis qu’une photo apparaît pour les autres participants.
+  - **Mode Galerie**     Dans les conférences vidéo qui contiennent plus de deux personnes, les utilisateurs peuvent voir les vidéos des participants à la Conférence. Si la conférence inclut plus de cinq participants, seule la vidéo des participants les plus actifs apparaît dans la ligne supérieure, tandis qu’une photo apparaît pour les autres participants.
 
-  - **Vidéo h. 264**   le codec vidéo h. 264 est maintenant la valeur par défaut pour le codage de vidéo sur les clients Lync 2013. La vidéo H.264 prend en charge un éventail supérieur de résolutions et de fréquences d'images, et renforce l'évolutivité de la vidéo.
+  - Vidéo H. **264**     Le codec vidéo H. 264 est maintenant la valeur par défaut pour le codage vidéo sur les clients Lync 2013. La vidéo H.264 prend en charge un éventail supérieur de résolutions et de fréquences d'images, et renforce l'évolutivité de la vidéo.
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 prend toujours en charge le codec VC1 pour l’interopérabilité avec les versions précédentes de Lync. Pour plus d’informations sur le nouveau codec vidéo, consultez l’article du blog de Jeff Schertz, « interopérabilité vidéo dans Lync 2013 », <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>à l’adresse.
+    > Lync Server 2013 prend toujours en charge le codec VC1 pour l’interopérabilité avec les versions précédentes de Lync. Pour plus d’informations sur le nouveau codec vidéo, consultez l’article du blog de Jeff Schertz, « interopérabilité vidéo dans Lync 2013 », à l’adresse <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A> .
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582554c8f744c48b3eadab58359b965f910152f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae3182dd6129d9ce797739220faeef0cd97a3a92
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518811"
 ---
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>Utilisation des rapports de surveillance dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Utilisation des rapports de surveillance dans Lync Server 2013
+
 
 </div>
 
@@ -45,15 +47,15 @@ Pour pouvoir utiliser ces rapports, vous devez installer les rapports de surveil
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Le tableau de bord de surveillance de Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   offre aux administrateurs une vue d’ensemble rapide de l’État et de l’utilisation du système.
+  - [Utilisation du tableau de bord de suivi dans Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)     Fournit aux administrateurs une vue d’ensemble rapide de l’État et de l’utilisation du système.
 
-  - [Les rapports d’utilisation du système dans Lync Server 2013](lync-server-2013-system-usage-reports.md)   fournissent des informations sur l’utilisation du système en fonction des données CDR recueillies par Lync Server.
+  - [Rapports sur l’utilisation du système dans Lync Server 2013](lync-server-2013-system-usage-reports.md)     Fournit des informations sur l’utilisation du système en fonction des données CDR recueillies par Lync Server.
 
-  - [Call diagnostic Reports (Per User) dans Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   fournit des informations spécifiques à chaque utilisateur concernant les sessions de conférence et les sessions P2P ayant échoué.
+  - [Rapports de diagnostic des appels (par utilisateur) dans Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)     Fournit des informations spécifiques à chaque utilisateur concernant les sessions d’égal à égal et de conférence ayant échoué.
 
-  - [Call diagnostic reports in Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   fournit des informations de synthèse et des données de diagnostic pour les sessions d’égal à égal et de conférence ayant échoué.
+  - [Rapports de diagnostic des appels dans Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)     Fournit des informations de synthèse et des données de diagnostic pour les sessions d’égal à égal et de conférence ayant échoué.
 
-  - [Media Quality diagnostic reports in Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   fournit des informations sur la qualité des appels, ainsi que des informations de diagnostic et de résolution des problèmes pour les appels ayant échoué.
+  - [Rapports de diagnostic de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)     Fournit des informations sur la qualité des appels, ainsi que des informations de diagnostic et de résolution des problèmes pour les appels ayant échoué.
 
 </div>
 

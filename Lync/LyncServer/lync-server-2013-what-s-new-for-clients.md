@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518201"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>Nouveautés pour les clients dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Nouveautés pour les clients dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync 2013 dispose d’une interface utilisateur repensée et de nouvel
 
 
 > [!NOTE]  
-> Pour obtenir une vue d’ensemble des mises à jour de l’interface utilisateur de Lync 2013, voir « What’s New in <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>Lync 2013 » à l’adresse.
+> Pour obtenir une vue d’ensemble des mises à jour de l’interface utilisateur de Lync 2013, voir « What’s New in Lync 2013 » à l’adresse <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> .
 
 
 
@@ -81,7 +83,7 @@ Pour plus d’informations, reportez-vous à la rubrique [Deploying Lync clients
 
 ## <a name="group-policy-deployment"></a>Déploiement de la stratégie de groupe
 
-Étant donné que Lync 2013 est désormais inclus dans le programme d’installation d’Office, la méthode de déploiement des paramètres de stratégie de groupe Lync a changé. Dans les versions précédentes de Lync et Office Communicator, vous pouviez utiliser Communicator. adm pour définir les paramètres de la stratégie de groupe, tandis que dans Lync 2013 vous pouvez désormais utiliser les modèles d’administration Lync ADMX et ADML fournis avec la stratégie de groupe Office. Modèles d’administration.
+Étant donné que Lync 2013 est désormais inclus dans le programme d’installation d’Office, la méthode de déploiement des paramètres de stratégie de groupe Lync a changé. Dans les versions précédentes de Lync et Office Communicator, vous pouviez utiliser Communicator. adm pour définir les paramètres de la stratégie de groupe, tandis que dans Lync 2013 vous pouvez désormais utiliser les modèles d’administration Lync ADMX et ADML fournis avec les modèles d’administration de stratégie de groupe Office.
 
 Pour plus d’informations, consultez la rubrique [paramètres de stratégie de groupe pour Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md).
 

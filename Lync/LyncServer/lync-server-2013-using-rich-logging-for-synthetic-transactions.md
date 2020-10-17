@@ -12,20 +12,22 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1fd1cfd26e1b5d56a6043e13d348e73e3c2b108
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1d73bfe085d34e536c5d3b44f1cacca8819de442
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518791"
 ---
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Utilisation d’une journalisation enrichie pour les transactions synthétiques dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Utilisation d’une journalisation enrichie pour les transactions synthétiques dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42212720"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Les transactions synthétiques (introduites dans Microsoft Lync Server 2010) permettent aux administrateurs de vérifier que les utilisateurs peuvent effectuer correctement des tâches courantes telles qu’une ouverture de session sur le système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RTC). Ces tests (qui sont empaquetés sous la forme d’un ensemble d’applets de commande Windows PowerShell de Lync Server) peuvent être effectués manuellement par un administrateur ou être exécutés automatiquement par une application telle que System Center Operations Manager.
+Les transactions synthétiques (introduites dans Microsoft Lync Server 2010) permettent aux administrateurs de vérifier que les utilisateurs peuvent effectuer correctement des tâches courantes telles qu’ouvrir une session sur le système, échanger des messages instantanés ou appeler un téléphone situé sur le réseau téléphonique commuté (RTC). Ces tests (qui sont empaquetés sous la forme d’un ensemble d’applets de commande Windows PowerShell de Lync Server) peuvent être effectués manuellement par un administrateur ou être exécutés automatiquement par une application telle que System Center Operations Manager.
 
 Dans Lync Server 2010, les transactions synthétiques se sont révélées extrêmement utiles pour aider les administrateurs à identifier les problèmes liés au système. Par exemple, l’applet de commande **test-CsRegistration** pourrait alerter les administrateurs du fait que certains utilisateurs ont des difficultés à s’inscrire auprès de Lync Server. Toutefois, les transactions synthétiques étaient quelque peu moins utiles pour aider les administrateurs à déterminer pourquoi ces utilisateurs ont des difficultés à s’inscrire auprès de Lync Server. Cela est dû au fait que les transactions synthétiques n’ont pas fourni d’informations de journalisation détaillées pouvant aider les administrateurs à résoudre les problèmes liés à Lync Server. Au mieux, la sortie détaillée d’une transaction synthétique fournissait des informations pas à pas susceptibles de permettre à un administrateur d’émettre des hypothèses éclairées sur l’origine du problème.
 
@@ -91,7 +93,7 @@ Ces fichiers peuvent ensuite être affichés à l’aide d’Internet Explorer, 
 Les transactions synthétiques exécutées à l’intérieur de System Center Operations Manager génèrent automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne seront pas générés si l’exécution échoue avant que Windows PowerShell ne puisse charger et exécuter la transaction synthétique.
 
 > [!IMPORTANT]  
-> Par défaut, Lync Server 2013 enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour faciliter l’accès à ces journaux, vous devez partager ce dossier (par exemple \\ \\, ATL-Watcher-001. litwareinc. com\WatcherNode.
+> Par défaut, Lync Server 2013 enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour faciliter l’accès à ces journaux, vous devez partager ce dossier (par exemple, \\ \\ ATL-Watcher-001. litwareinc. com\WatcherNode.
 
 
 </div>

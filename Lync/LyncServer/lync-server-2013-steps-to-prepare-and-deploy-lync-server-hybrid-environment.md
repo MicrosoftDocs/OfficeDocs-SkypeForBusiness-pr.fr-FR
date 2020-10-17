@@ -12,20 +12,22 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519451"
 ---
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Étapes de préparation et de déploiement de l’environnement hybride Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Étapes de préparation et de déploiement de l’environnement hybride Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Le tableau suivant répertorie les étapes nécessaires à la préparation de vo
 <td><p>Ajouter votre domaine et vérifier la propriété</p></td>
 <td><p>Votre domaine est parfois également appelé votre <em>domaine personnel</em>. Vous devez ajouter votre domaine à votre organisation Office 365, puis suivre les étapes de validation du domaine avec Office 365. Cela permet de confirmer que vous êtes le propriétaire du domaine.</p>
 <p>Pour ajouter votre domaine à votre organisation Office 365, suivez les étapes décrites dans la rubrique <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">ajouter votre domaine à office 365</a>.</p>
-<p>Effectuez toutes les étapes de chaque section de la rubrique, y compris &quot;modifier les enregistrements DNS pour vos services Office 365.&quot;</p></td>
+<p>Effectuez toutes les étapes de chaque section de la rubrique, y compris &quot; modifier les enregistrements DNS pour vos services Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcde0adac292b8773a81c759c72765f832ce745
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 627832870de3a8306912d07134bb92caeee3076e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211780"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518621"
 ---
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Vérifier les règles de normalisation pour le parcage d’appel dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Vérifier les règles de normalisation pour le parcage d’appel dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211780"
 
 _**Dernière modification de la rubrique :** 2012-09-11_
 
-Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez vos plans de numérotation pour vous assurer que les numéros d’orbite ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure décrite dans [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a New Normalization Rule, de sorte que le **modèle de correspondance** identifie la plage d’orbites et le **modèle de traduction** est **$1**. Par exemple, si votre plage d’orbites de parcage d’appel est 7000 – 7999, le **modèle de correspondance** est **\\^ (7 d{3}) $** et le modèle de **traduction** est **$1**.
+Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez vos plans de numérotation pour vous assurer que les numéros d’orbite ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure décrite dans [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a New Normalization Rule, de sorte que le **modèle de correspondance** identifie la plage d’orbites et le **modèle de traduction** est **$1**. Par exemple, si votre plage d’orbites de parcage d’appel est 7000 – 7999, le **modèle de correspondance** est **^ (7 \\ d {3} ) $** et le **modèle de traduction** est **$1**.
 
 <div>
 

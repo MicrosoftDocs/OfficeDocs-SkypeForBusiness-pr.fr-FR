@@ -12,20 +12,22 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e160af5920f58b3813bd168c7f4fbe2e0f0cf95c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519321"
 ---
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Test et signalement de la disponibilité fonctionnelle pour l’authentification Kerberos dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Test et signalement de la disponibilité fonctionnelle pour l’authentification Kerberos dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-01-16_
 
 Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
 
-Vous pouvez utiliser l’applet de commande Windows PowerShell **test-CsKerberosAccountAssignment** pour tester et signaler la disponibilité fonctionnelle d’une affectation de site pour l’authentification Kerberos. Cette commande interroge le site spécifié dans le paramètre Identity obligatoire. Le paramètre de rapport facultatif fait en sorte que l’applet de commande écrive\\un rapport HTML dans C : logs sur l’ordinateur sur lequel la commande est exécutée. Le paramètre Verbose facultatif affiche des informations d’activité à l’écran.
+Vous pouvez utiliser l’applet de commande Windows PowerShell **test-CsKerberosAccountAssignment**   pour tester et signaler la disponibilité fonctionnelle d’une affectation de site pour l’authentification Kerberos. Cette commande interroge le site spécifié dans le paramètre Identity obligatoire. Le paramètre de rapport facultatif fait en sorte que l’applet de commande écrive un rapport HTML dans C : \\ logs sur l’ordinateur sur lequel la commande est exécutée. Le paramètre Verbose facultatif affiche des informations d’activité à l’écran.
 
 <div>
 

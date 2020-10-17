@@ -12,20 +12,22 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bd749aea86f610cee2671648e4e2ce1486cfba5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1a170ac21c89bd405ad0406830c00feabbde5434
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518651"
 ---
+# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>Vérifier la connectivité entre les serveurs internes et les serveurs Edge dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>Vérifier la connectivité entre les serveurs internes et les serveurs Edge dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-09-08_
 
 Dans Lync Server 2013, un Assistant validation distinct était disponible pour vous aider à valider la connectivité entre les serveurs Edge et les serveurs internes. Dans Lync Server 2013, la validation de la connectivité est exécutée automatiquement lorsque vous installez vos serveurs Edge.
 
-Vous pouvez valider la réplication des informations de configuration sur le serveur Edge en exécutant la cmdlet Windows PowerShell **Get-CsManagementStoreReplicationStatus** sur l’ordinateur interne sur lequel se trouve le magasin central de gestion (ou tout ordinateur appartenant à un domaine sur lequel les composants principaux de Lync Server 2013 (OcsCore. msi) sont installés. Les résultats initiaux peuvent indiquer le statut de réplication « False » au lieu de « True ». Si tel est le cas, exécutez l’applet de commande **Invoke-CsManagementStoreReplication** pour donner à la réplication le temps nécessaire de se terminer avant de réexécuter **Get-CsManagementStoreReplicationStatus**.
+Vous pouvez valider la réplication des informations de configuration sur le serveur Edge en exécutant la cmdlet Windows PowerShell **Get-CsManagementStoreReplicationStatus** sur l’ordinateur interne sur lequel se trouve le magasin central de gestion (ou tout ordinateur appartenant à un domaine sur lequel sont installés les composants principaux de Lync Server 2013 (OcsCore.msi). Les résultats initiaux peuvent indiquer le statut de réplication « False » au lieu de « True ». Si tel est le cas, exécutez l’applet de commande **Invoke-CsManagementStoreReplication** pour donner à la réplication le temps nécessaire de se terminer avant de réexécuter **Get-CsManagementStoreReplicationStatus**.
 
 Vous pouvez vérifier la connectivité des utilisateurs externes séparément, notamment à l’aide de l’Analyseur de connectivité à distance d’Office Communications Server. Pour plus d’informations, reportez-vous à [Vérifier la connectivité pour les utilisateurs externes dans Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).
 

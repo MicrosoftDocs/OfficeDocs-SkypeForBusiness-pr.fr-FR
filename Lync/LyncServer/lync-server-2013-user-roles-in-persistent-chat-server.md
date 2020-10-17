@@ -12,20 +12,22 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7d01b15c035b3f14a0f2d6dba92719d7f885437
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518851"
 ---
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Rôles d’utilisateur dans le serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Rôles d’utilisateur dans le serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Voici les quatre rôles d’utilisateur pour le serveur de conversation permanen
     
     </div>
 
-  - **Membre :** Utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées telles que les messages non lus, les filtres ego et les filtres par Mots clés), et participer à la salle de conversation (possibilité de publication, sauf si la salle est une salle de auditorium où seuls les présentateurs peuvent publier, obtenir du contenu et effectuer des recherches). Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher la salle de conversation si elles se trouvent dans la liste des membres autorisés de la catégorie, mais doivent demander l’accès pour rejoindre ces salles de conversation afin d’accéder au contenu. (Il n’y a pas d’accès ou d’approbation de demande intégré au système ; ces opérations sont réalisées en externe par courrier électronique, téléphone ou d’autres formes de contact.)
+  - **Membre :** Utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées telles que les messages non lus, les filtres ego et les filtres par Mots-clés) et participer à la salle de conversation (possibilité de publication). Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher la salle de conversation si elles se trouvent dans la liste des membres autorisés de la catégorie, mais doivent demander l’accès pour rejoindre ces salles de conversation afin d’accéder au contenu. (Il n’y a pas d’accès ou d’approbation de demande intégré au système ; ces opérations sont réalisées en externe par courrier électronique, téléphone ou d’autres formes de contact.)
 
   - **Présentateur :** Utilisateurs pouvant publier des messages dans une salle de Auditorium.
 
@@ -93,9 +95,9 @@ Voici les quatre rôles d’utilisateur pour le serveur de conversation permanen
 
 Les rôles suivants sont les rôles d’administrateur pour le serveur de conversation permanente :
 
-  - **Administrateur de conversation permanente (CsPersistentChatAdministrator) :** Il s’agit d’un nouveau rôle de contrôle d’accès basé sur un rôle (RBAC) permettant d’administrer et de gérer le serveur de conversation permanente. Les utilisateurs ou groupes de sécurité désignés comme CsPersistentChatAdministrator peuvent administrer le serveur de conversation permanente à l’aide des applets de commande Windows PowerShell à distance (c’est-à-dire à partir d’un ordinateur autre que le serveur de conversation permanente). Serveur de conversation permanente vérifie que l’administrateur de conversation permanente est membre du groupe local RTC local Administrator sur le serveur frontal du serveur de conversation permanente.
+  - **Administrateur de conversation permanente (CsPersistentChatAdministrator) :** Il s’agit d’un nouveau rôle de contrôle d’accès Role-Based (RBAC) permettant d’administrer et de gérer le serveur de conversation permanente. Les utilisateurs ou groupes de sécurité désignés comme CsPersistentChatAdministrator peuvent administrer le serveur de conversation permanente à l’aide des applets de commande Windows PowerShell à distance (c’est-à-dire à partir d’un ordinateur autre que le serveur de conversation permanente). Serveur de conversation permanente vérifie que l’administrateur de conversation permanente est membre du groupe local RTC local Administrator sur le serveur frontal du serveur de conversation permanente.
     
-    Le rôle CsPersistentChatAdministrator peut gérer des salles de conversation (modifier toutes les propriétés, y compris l’appartenance, les responsables, les catégories et désactiver des salles), ainsi que créer et gérer des catégories de salle de conversation qui définissent qui peut créer des salles de conversation et y accéder. Les administrateurs peuvent aussi marquer des salles de conversation comme désactivées et effacer celles qui ne sont plus actives. Les administrateurs ne sont pas soumis aux restrictions des créateurs ou des membres autorisés. Ils peuvent créer toutes sortes de salle de conversation et s’ajouter eux-mêmes en tant que membres de n’importe quelle salle de conversation. Les administrateurs peuvent également modifier et gérer la configuration de la conversation permanente (propriétés du pool, paramètres globaux et configuration de la conformité) et également planifier et implémenter la migration à partir d’un ancien déploiement de serveur de conversation de groupe vers Lync Server 2013 conversation permanente Serveurs.
+    Le rôle CsPersistentChatAdministrator peut gérer des salles de conversation (modifier toutes les propriétés, y compris l’appartenance, les responsables, les catégories et désactiver des salles), ainsi que créer et gérer des catégories de salle de conversation qui définissent qui peut créer des salles de conversation et y accéder. Les administrateurs peuvent aussi marquer des salles de conversation comme désactivées et effacer celles qui ne sont plus actives. Les administrateurs ne sont pas soumis aux restrictions des créateurs ou des membres autorisés. Ils peuvent créer toutes sortes de salle de conversation et s’ajouter eux-mêmes en tant que membres de n’importe quelle salle de conversation. Les administrateurs peuvent également modifier et gérer la configuration de la conversation permanente (propriétés du pool, les paramètres globaux et la configuration de la conformité) et également planifier et implémenter la migration à partir d’un ancien déploiement de serveur de conversation de groupe vers le serveur de conversation permanente Lync Server 2013.
 
   - **Administrateur Lync :** Administrateur général de l’entreprise pour Lync Server 2013 responsable du déploiement.
 

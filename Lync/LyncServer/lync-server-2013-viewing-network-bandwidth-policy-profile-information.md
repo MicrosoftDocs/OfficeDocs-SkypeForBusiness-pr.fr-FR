@@ -12,20 +12,22 @@ ms:contentKeyID: 49733866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ecfb3e43a817a190e3bee1199164b1eaf0c51e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08b8b984b1fd0c468f5ca340880ec294bf870e0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518311"
 ---
+# <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>Affichage des informations de profil de stratégie de bande passante réseau dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>Affichage des informations de profil de stratégie de bande passante réseau dans Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 ## <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de profil de stratégie de bande passante réseau à l’aide des applets de commande Windows PowerShell
 
-Les profils de bande passante réseau peuvent être affichés à l’aide de Windows PowerShell et de la cmdlet Get-CsNetworkBandwidthPolicyProfile. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les profils de bande passante réseau peuvent être affichés à l’aide de Windows PowerShell et de l’applet de commande Get-CsNetworkBandwidthPolicyProfile. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

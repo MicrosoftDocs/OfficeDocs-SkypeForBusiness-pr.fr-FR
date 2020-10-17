@@ -12,20 +12,22 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f284332507d06bf9ef55abecc894b3047965472c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 83d5be38ecddad1f9388f5e2efb33994b49e4bfd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519211"
 ---
+# <a name="test-mobile-user-access-in-lync-server-2013"></a>Tester l’accès des utilisateurs mobiles dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-user-access-in-lync-server-2013"></a>Tester l’accès des utilisateurs mobiles dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-07_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les mois</p></td>
+<td><p>Mensuelle</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-07_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsMcxConference. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsMcxConference. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -72,7 +74,7 @@ Le service de mobilité permet aux utilisateurs d’appareils mobiles d’effect
 
 2.  Stockez et récupérez les messages vocaux en interne au lieu de leur fournisseur sans fil.
 
-3.  Tirez parti des fonctionnalités de Lync Server, telles que l’appel via le bureau et la Conférence rendez-vous. L’applet de commande test-CsMcxConference offre un moyen rapide et simple de vérifier que les utilisateurs peuvent participer à des conférences Lync Server et y participer à l’aide d’un appareil mobile.
+3.  Tirez parti des fonctionnalités de Lync Server, telles que l’appel via le bureau et la Conférence rendez-vous. L’applet de commande Test-CsMcxConference offre un moyen rapide et simple de vérifier que les utilisateurs peuvent participer à des conférences Lync Server à l’aide d’un appareil mobile.
 
 </div>
 
@@ -80,7 +82,7 @@ Le service de mobilité permet aux utilisateurs d’appareils mobiles d’effect
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Pour exécuter cette vérification, vous devez créer trois objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez ensuite inclure ces objets Credentials et les adresses SIP des deux comptes lorsque vous appelez test-CsMcxConference, comme indiqué dans l’exemple suivant :
+Pour exécuter cette vérification, vous devez créer trois objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez ensuite inclure ces objets Credentials et les adresses SIP des deux comptes lorsque vous appelez Test-CsMcxConference comme illustré dans l’exemple suivant :
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -96,11 +98,11 @@ Pour plus d’informations, consultez la rubrique d’aide relative à l’apple
 
 ## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si la vérification réussit, test-CsMcxConference signalera un résultat de test réussi :
+Si la vérification réussit, Test-CsMcxConference signalera un résultat de test réussi :
 
 Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
-URI cible :http://atl-cs-001.litwareinc.com:443/mcx
+URI cible : http://atl-cs-001.litwareinc.com:443/mcx
 
 Résultat : opération réussie
 
@@ -110,17 +112,17 @@ Message d’erreur :
 
 Diagnostique
 
-Si la vérification échoue test-CsMcxConference signale un résultat de test d’échec. Ce résultat de test est généralement accompagné d’un message d’erreur détaillé et d’un diagnostic. Par exemple :
+Si la vérification échoue Test-CsMcxConference signale un résultat de test de défaillance. Ce résultat de test est généralement accompagné d’un message d’erreur détaillé et d’un diagnostic. Par exemple :
 
 Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
-URI cible :https://atl-cs-001.litwareinc.com:443/mcx
+URI cible : https://atl-cs-001.litwareinc.com:443/mcx
 
 Résultat : échec
 
 Latence : 00:00:00
 
-Message d’erreur : aucune réponse reçue pour le service de ticket Web.
+Message d’erreur : aucune réponse reçue pour le service Web-Ticket.
 
 Exception interne : la demande HHTP n’est pas autorisée avec le client
 
@@ -158,7 +160,7 @@ Longueur de contenu : 6305
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Si test-CsMcxConference échoue, vous devez commencer par vérifier que le service de mobilité est en cours d’exécution et qu’il est accessible. Vous pouvez effectuer cette opération à l’aide d’un navigateur Web pour vérifier que l’URL du service de mobilité de votre pool Lync Server est accessible. Par exemple, cette commande vérifie l’URL du pool atl-cs-001.litwareinc.com :
+Si Test-CsMcxConference échoue, vous devez commencer par vérifier que le service de mobilité est en cours d’exécution et qu’il est accessible. Vous pouvez effectuer cette opération à l’aide d’un navigateur Web pour vérifier que l’URL du service de mobilité de votre pool Lync Server est accessible. Par exemple, cette commande vérifie l’URL du pool atl-cs-001.litwareinc.com :
 
 `https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc`
 
@@ -170,11 +172,11 @@ Si la propriété Enabled n’a pas la valeur true ou si la commande échoue, ce
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Une fois que vous avez déterminé le nom de la stratégie, utilisez la cmdlet Get-CsMobilityPolicy pour vérifier que la stratégie en question (par exemple, RedmondMobilityPolicy) a la propriété EnableMobility définie sur true :
+Une fois que vous avez déterminé le nom de la stratégie, utilisez l’applet de commande Get-CsMobilityPolicy pour vérifier que la propriété EnableMobility de la stratégie en question (par exemple, RedmondMobilityPolicy) a la valeur true :
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-Si vous recevez un message d’erreur « en-tête d’authentification » lors de l’exécution de test-CsMcxConference, cela signifie que vous n’avez pas spécifié de compte d’utilisateur valide, vérifiez le nom d’utilisateur et le mot de passe, puis recommencez le test. Si vous êtes convaincu que le compte d’utilisateur est valide, utilisez la cmdlet Get-CsWebServiceConfiguration et vérifiez la valeur de la propriété UseWindowsAuth. Cela vous permettra de savoir quelles méthodes d’authentification sont activées dans votre organisation.
+Si vous recevez un message d’erreur « en-tête d’authentification » lorsque vous exécutez Test-CsMcxConference cela signifie que vous n’avez pas spécifié de compte d’utilisateur valide, vérifiez le nom d’utilisateur et le mot de passe, puis recommencez le test. Si vous êtes convaincu que le compte d’utilisateur est valide, utilisez l’applet de commande Get-CsWebServiceConfiguration et vérifiez la valeur de la propriété UseWindowsAuth. Cela vous permettra de savoir quelles méthodes d’authentification sont activées dans votre organisation.
 
 Pour plus d’informations sur la résolution des problèmes liés au service de mobilité, voir le billet de blog [Troubleshooting External Lync Mobility connectivity problems Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
 

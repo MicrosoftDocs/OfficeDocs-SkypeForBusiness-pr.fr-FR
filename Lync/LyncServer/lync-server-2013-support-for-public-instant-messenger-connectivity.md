@@ -12,20 +12,22 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be14e3dedf39883a81a040ed31ae38d2966ab647
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ad9f5083d336fdf90e415d627fe448d02e4db29
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519421"
 ---
+# <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Dernière modification de la rubrique :** 2013-10-07_
 
 Cet article fournit des informations sur la prise en charge de la connectivité PIC (Public IM Connectivity). PIC est une fonctionnalité de Microsoft Lync qui permet aux organisations de permettre aux utilisateurs de communiquer avec des utilisateurs de certains services de messagerie instantanée (IM) publics via leurs clients et identités Lync.
 
-Les utilisateurs finaux peuvent se connecter aux clients, partenaires et fournisseurs en fonction de leurs termes. Il bénéficie de la prise en charge d’un seul client de communications en temps réel tout en conservant les fonctionnalités de contrôle, de conformité et d’archivage de Lync. Lync-Skype Connectivity, [accessible publiquement en mai 2013](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), repose sur l’héritage que Lync/Office Communications Server (LCS) a créé en premier lieu avec la mise à niveau vers MSN/Windows Live, AOL et Yahoo.Pour plus d’informations sur la connectivité Lync-Skype, reportez-vous à la rubrique [Lync-Skype Connectivity](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). La Fédération avec Windows Live, AOL et Yahoo se situent dans un chemin d’accès à la fin de vie.Cette page décrit l’état de chaque service.
+Les utilisateurs finaux peuvent se connecter aux clients, partenaires et fournisseurs en fonction de leurs termes. Il bénéficie de la prise en charge d’un seul client de communications en temps réel tout en conservant les fonctionnalités de contrôle, de conformité et d’archivage de Lync. La connectivité Lync-Skype [accessible publiquement en mai 2013](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), repose sur l’ancienneté que Lync/Office Communications Server (OCS)/Live Communications Server (LCS) a établi en premier lieu avec PIC lors de la connexion à MSN/Windows Live, AOL et Yahoo.Pour plus d’informations sur la connectivité Lync-Skype, voir [Lync-Skype Connectivity](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). La Fédération avec Windows Live, AOL et Yahoo se situent dans un chemin d’accès à la fin de vie.Cette page décrit l’état de chaque service.
 
 Pour utiliser PIC, les clients doivent activer le service pour chaque fournisseur de services de messagerie instantanée public. Les conditions requises et les détails relatifs à cette opération dépendent du fournisseur de services de messagerie instantanée et du programme de gestion des licences sous-jacent du client.
 
@@ -55,7 +57,7 @@ Microsoft a mis en place Windows Live Messenger et Skype. En avril 2013, les uti
 
 Lorsque les utilisateurs de Messenger se connectent à Skype à l’aide de leurs comptes Microsoft (c’est-à-dire, les mêmes informations d’identification utilisées pour Messenger), tous leurs contacts Messenger, y compris les contacts Lync fédérés, les suivent dans Skype. Le partage de présence et la messagerie instantanée entre Skype et Lync pour ces contacts sont disponibles. 
 
-Lync-la connectivité Skype : l’ajout, le partage de présence, la messagerie instantanée et l’appel audio entre Lync et les utilisateurs Skype sont également disponibles pour tous les clients Lync.
+Lync-Skype connectivité-l’ajout, le partage de présence, la messagerie instantanée et l’appel audio entre Lync et les utilisateurs Skype sont également disponibles pour tous les clients Lync.
 
 </div>
 
@@ -67,7 +69,7 @@ Fédération avec Yahoo\! en effet, AOL se trouve à la fois sur un chemin de fi
 
   - **Yahoo** -service se poursuivra jusqu’au 2014 juin, et les clients continueront à utiliser la licence d’abonnement utilisateur Microsoft LYNC Public IM Connectivity (« PIC USL »).Depuis le 1er septembre, le 2012, la couche USL, n’est plus disponible à l’achat pour les contrats de nouvelle ou de renouvellement.Les clients disposant de licences achetées avant cette date seront en mesure de continuer à fédérer avec Yahoo.\! jusqu’à la date antérieure de l’arrêt du service ou de leur expiration de la licence.Lisez [l’annonce](https://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx) sur le blog de l’équipe Lync.Les clients disposant de licences PIC sur des accords qui dépassent le 30 juin 2014 recevront un crédit proportionnellement au montant des paiements couvrant le délai suivant : 30 juin 2014.
 
-  - **AOL** -le 30 juin 2014, le service de connectivité de messagerie instantanée de Lync (« PIC ») ne sera plus disponible.Afin de limiter le nombre d’interruptions client lorsque le service se termine, nous avons abandonné la mise en service des domaines de client supplémentaires. Jusqu’au 30 juin 2014, les clients n’ont rien besoin de faire quoi que ce soit pour continuer à prendre en charge les communications fédérées avec AIM. Au-delà de cette date (ou pour les clients qui souhaitent configurer des domaines supplémentaires en attendant), un service de remplacement est disponible directement auprès d’AOL. Pour plus d’informations sur le nouveau service d’AOL, consultez la rubrique établissement de la [Fédération directe avec AIM](http://aimenterprise.aol.com/pic.php)  (ouvre la nouvelle page sur AOL.com).  
+  - **AOL** -le 30 juin 2014, le service de connectivité de messagerie instantanée de Lync (« PIC ») ne sera plus disponible.Afin de limiter le nombre d’interruptions client lorsque le service se termine, nous avons abandonné la mise en service des domaines de client supplémentaires. Jusqu’au 30 juin 2014, les clients n’ont rien besoin de faire quoi que ce soit pour continuer à prendre en charge les communications fédérées avec AIM. Au-delà de cette date (ou pour les clients qui souhaitent configurer des domaines supplémentaires en attendant), un service de remplacement est disponible directement auprès d’AOL. Pour plus d’informations sur le nouveau service d’AOL, consultez la rubrique établissement de la [Fédération directe avec AIM](http://aimenterprise.aol.com/pic.php)    (ouvre la nouvelle page sur AOL.com).  
 
 </div>
 

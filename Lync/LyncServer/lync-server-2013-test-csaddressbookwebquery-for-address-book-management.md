@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : test-CsAddressBookWebQuery pour la gestion des carnets d’adresses'
+title: 'Lync Server 2013 : Test-CsAddressBookWebQuery pour la gestion des carnets d’adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5f03ead82f4ec5ebcb09c3bbfa1bba6206b8333
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c4112f34eb35bcf45991e6744327487afe9a2a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519241"
 ---
+# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>Test-CsAddressBookWebQuery pour la gestion des carnets d’adresses dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>Test-CsAddressBookWebQuery pour la gestion des carnets d’adresses dans Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42194591"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Personnes autorisées à exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande test-CsAddressBookWebQuery : RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
+Personnes autorisées à exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Test-CsAddressBookWebQuery : RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-À l’instar de la transaction synthétique test-CsAddressBookService, test-CsAddressBookWebQuery exécute une requête sur la requête Web de carnet d’adresses pour s’assurer qu’elle fonctionne correctement. L’applet de commande se connecte à l’authentification de ticket Web et présente les informations d’identification spécifiées dans – UserCredential. Si elle est authentifiée, l’applet de commande présente ensuite les informations – TargetSipAddress. La cmdlet doit signaler la réussite si elle a pu récupérer les informations sur le contact.
+À l’instar de la transaction synthétique Test-CsAddressBookService, Test-CsAddressBookWebQuery effectue une requête sur la requête Web de carnet d’adresses pour s’assurer qu’elle fonctionne correctement. L’applet de commande se connecte à l’authentification de ticket Web et présente les informations d’identification spécifiées dans – UserCredential. Si elle est authentifiée, l’applet de commande présente ensuite les informations – TargetSipAddress. La cmdlet doit signaler la réussite si elle a pu récupérer les informations sur le contact.
 
 Par exemple :
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d306c17f2c399d38e406d466664a49e3e2df6ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b054f3ea8a1054be1e920fbbacbfe2e88b157ba7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518761"
 ---
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Utilisation de la recherche sur les journaux de capture créés par le service de journalisation centralisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Utilisation de la recherche sur les journaux de capture créés par le service de journalisation centralisée dans Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Au terme de chaque recherche, l’applet de commande **Sync-CsClsLogging** est e
 
 Pour tirer le meilleur parti du service de journalisation centralisée, vous avez besoin d’une bonne compréhension de la configuration de la recherche pour renvoyer uniquement les messages de suivi à partir des journaux d’ordinateur et de pool pertinents pour le problème que vous recherchez. Problem
 
-Pour exécuter les fonctions de recherche du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur le rôle CsServerAdministrator), ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
+Pour exécuter les fonctions de recherche du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur un rôle CsServerAdministrator), ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -75,7 +77,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
 
     > [!NOTE]
-    > Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de la recherche dans un fichier, utilisez le &lt;chemin d’accès&gt;complet de la chaîne OutputFilePath. Pour définir le paramètre –OutputFilePath, indiquez un chemin d’accès et un nom de fichier dans un format de chaîne entouré de guillemets (par exemple ; C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTFS Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous souhaitez des fichiers séparés, définissez un nom de fichier distinct pour chaque recherche.
+    > Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de la recherche dans un fichier, utilisez le &lt; chemin d’accès complet de la chaîne OutputFilePath &gt; . Pour définir le paramètre –OutputFilePath, indiquez un chemin d’accès et un nom de fichier dans un format de chaîne entouré de guillemets (par exemple ; C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTFS Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous souhaitez des fichiers séparés, définissez un nom de fichier distinct pour chaque recherche.
 
     
     </div>
@@ -124,7 +126,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 2.  Par défaut, l’heure de début pour les paramètres temporels d’une recherche est définie sur 30 minutes avant le moment où vous lancez la recherche. En d’autres termes, si vous lancez votre recherche à 16 h 00 00, la recherche parcourt les journaux des ordinateurs et des pools que vous définissez entre 15 h 30 00 et 16 h 00 00. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre –StartTime et définissez la date et l’heure de manière à indiquer l’heure à laquelle vous souhaitez que la recherche débute.
     
-    Par exemple, en utilisant –StartTime et –EndTime pour définir une plage horaire et de dates, vous pouvez définir une recherche entre 8 h 00 00 et 9 h 00 00 le 20/11/2012 sur votre pool. Vous pouvez définir le chemin de sortie pour écrire les résultats dans un fichier nommé c\\: logfile. txt comme suit :
+    Par exemple, en utilisant –StartTime et –EndTime pour définir une plage horaire et de dates, vous pouvez définir une recherche entre 8 h 00 00 et 9 h 00 00 le 20/11/2012 sur votre pool. Vous pouvez définir le chemin de sortie pour écrire les résultats dans un fichier nommé c : \\logfile.txt comme suit :
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     

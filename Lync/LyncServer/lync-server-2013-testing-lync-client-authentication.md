@@ -12,20 +12,22 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 490068a9c9eec3e582471d9ff228b9bbccad43bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308bb50e5365cd45c993875ea503b33b32617397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519031"
 ---
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Test de l’authentification client Lync dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Test de l’authentification client Lync dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsClientAuth. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsClientAuth. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsClientAuth vous permet de déterminer si un utilisateur peut se connecter au serveur Lync à l’aide d’un certificat client, mais vous pouvez exécuter la cmdlet Test-CsClientAuth. Une fois appelée, l’applet de commande Test-CsClientAuth contacte le service d’approvisionnement de certificats et télécharge un exemplaire des certificats clients pour l’utilisateur spécifié. S’il est possible de trouver un certificat client et de le télécharger, la fonction test-CsClientAuth essaiera de se connecter à l’aide de ce certificat. Si l’ouverture de session réussit, Test-CsClientAuth ferme la session et indique que le test a réussi. Si aucun certificat n’est disponible ou s’il n’est pas possible de télécharger un certificat, ou si l’applet de commande Test-CsClientAuth ne peut pas ouvrir une session avec un certificat téléchargé, l’applet de commande indique que le test a échoué.
+L’applet de commande Test-CsClientAuth vous permet de déterminer si un utilisateur peut se connecter au serveur Lync à l’aide d’un certificat client, mais vous pouvez exécuter l’applet de commande Test-CsClientAuth. Une fois appelée, l’applet de commande Test-CsClientAuth contacte le service d’approvisionnement de certificats et télécharge un exemplaire des certificats clients pour l’utilisateur spécifié. S’il est possible de trouver un certificat client et de le télécharger, Test-CsClientAuth tentera de se connecter à l’aide de ce certificat. Si l’ouverture de session réussit, Test-CsClientAuth ferme la session et indique que le test a réussi. Si aucun certificat n’est disponible ou s’il n’est pas possible de télécharger un certificat, ou si l’applet de commande Test-CsClientAuth ne peut pas ouvrir une session avec un certificat téléchargé, l’applet de commande indique que le test a échoué.
 
 </div>
 
@@ -117,26 +119,26 @@ Par exemple, la sortie précédente indique que le test a échoué, car il est i
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-Si test-CsClientAuth échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsClientAuth échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsClientAuth renvoie un compte pas à pas de chaque action qu’il a tentée lorsqu’il a vérifié la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple :
+Lorsque le paramètre Verbose est inclus, Test-CsClientAuth renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple :
 
 Tentative de téléchargement d’un certificat CS pour l’utilisateur : kenmyer@litwareinc.com Endpoint : STEpid
 
-URL du service Web :https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+URL du service Web : https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
 Impossible de télécharger un certificat CS à partir du service Web.
 
 OPTION
 
-\-L’URL de service Web est valide et les services Web sont fonctionnels
+\- L’URL de service Web est valide et les services Web sont fonctionnels
 
-\-Si vous utilisez\\\\le code confidentiel PhoneNo pour l’authentification, assurez-vous qu’ils correspondent à l’URI de l’utilisateur.
+\-Si vous utilisez \\ \\ le code confidentiel PhoneNo pour l’authentification, assurez-vous qu’ils correspondent à l’URI de l’utilisateur.
 
-\-Si vous utilisez\\l’authentification NTLM Kerberos, vérifiez que vous avez fourni des informations d’identification valides.
+\- Si vous utilisez l' \\ authentification NTLM Kerberos, vérifiez que vous avez fourni des informations d’identification valides.
 
 </div>
 
@@ -144,7 +146,7 @@ OPTION
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsClientAuth :
+Voici quelques raisons courantes pour lesquelles Test-CsClientAuth peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     
