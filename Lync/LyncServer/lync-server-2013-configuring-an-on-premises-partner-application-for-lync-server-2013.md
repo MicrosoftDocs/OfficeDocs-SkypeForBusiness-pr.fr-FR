@@ -12,20 +12,22 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cfee7b89d2e7e66bd39b28a6d3361b4521cdc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517581"
 ---
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configuration d’une application partenaire locale pour Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configuration d’une application partenaire locale pour Microsoft Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Une fois que vous avez affecté le certificat OAuthTokenIssuer, vous devez confi
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-Après avoir copié le code, enregistrez le script à l’aide d’un fichier. Extension de fichier PS1 (par exemple, C\\:\\scripts ServerToServerAuth. ps1). Notez que, avant d’exécuter ce script, vous devez remplacer les URL https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 de métadonnées et http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx les URL de métadonnées utilisées par vos serveurs Exchange 2013 et SharePoint, respectivement. Pour plus d’informations sur l’identification de l’URL de métadonnées du produit respectif, voir la documentation du produit pour Exchange 2013 et SharePoint.
+Après avoir copié le code, enregistrez le script à l’aide d’un fichier. Extension de fichier PS1 (par exemple, C : \\ Scripts \\ServerToServerAuth.ps1). Notez que, avant d’exécuter ce script, vous devez remplacer les URL de métadonnées https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 et http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx les URL de métadonnées utilisées par vos serveurs Exchange 2013 et SharePoint, respectivement. Pour plus d’informations sur l’identification de l’URL de métadonnées du produit respectif, voir la documentation du produit pour Exchange 2013 et SharePoint.
 
 Si vous examinez la dernière ligne du script, vous pouvez constater que l’applet de commande Set-CsOAuthConfiguration est appelée à l’aide de cette syntaxe :
 
@@ -107,7 +109,7 @@ Lorsque vous exécutez ce script, vous pouvez recevoir un message d’erreur sem
 
 Si vous recevez ce message d’erreur, de deux choses l’une : soit l’une des URL spécifiées dans le script n’est pas valide (autrement dit, l’une de vos URL des métadonnées n’est pas une URL des métadonnées réelle), soit l’une des URL des métadonnées n’a pas pu être contactée. Dans ce cas, vérifiez que les URL sont correctes et accessibles, puis réexécutez le script.
 
-Après avoir créé l’application partenaire pour Lync Server 2013, vous devez configurer Lync Server pour qu’il soit une application partenaire pour Exchange 2013. Vous pouvez configurer des applications partenaires pour Exchange 2013 en exécutant le script configure-enterprisepartnerapplication. ps1 ; il vous suffit de spécifier l’URL de métadonnées pour Lync Server et d’indiquer que Lync Server est la nouvelle application partenaire.
+Après avoir créé l’application partenaire pour Lync Server 2013, vous devez configurer Lync Server pour qu’il soit une application partenaire pour Exchange 2013. Vous pouvez configurer les applications partenaires pour Exchange 2013 en exécutant le script Configure-EnterprisePartnerApplication.ps1 ; il vous suffit de spécifier l’URL de métadonnées pour Lync Server et d’indiquer que Lync Server est la nouvelle application partenaire.
 
 Pour configurer Lync Server comme application partenaire pour Exchange, ouvrez l’environnement de commande Exchange Management Shell et exécutez une commande similaire à celle-ci.
 

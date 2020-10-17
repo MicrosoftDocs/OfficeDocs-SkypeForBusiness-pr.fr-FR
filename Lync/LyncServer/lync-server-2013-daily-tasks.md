@@ -12,20 +12,22 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87653490036c55a5f8b60925c988775c881a7326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 777d0fdfc8857022c0a54fcb1cd237b90f68d9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516641"
 ---
+# <a name="daily-tasks-in-lync-server-2013"></a>Tâches quotidiennes dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a>Tâches quotidiennes dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209142"
 
 _**Dernière modification de la rubrique :** 2015-01-26_
 
-Pour garantir la disponibilité et la fiabilité du déploiement de Lync Server 2013, vous devez faire partie de la surveillance de routine quotidienne et des éléments de test qui sont très importants pour le fonctionnement du système, qui inclut la plateforme physique, le système d’exploitation et tous les services Lync Server 2013 importants. La maintenance préventive et la surveillance proactive vous aideront à identifier les erreurs et les problèmes potentiels susceptibles d’avoir un impact négatif sur le déploiement de Lync Server 2013.
+Pour garantir la disponibilité et la fiabilité du déploiement de Lync Server 2013, vous devez faire partie de la surveillance de routine quotidienne et des éléments de test qui sont très importants pour le fonctionnement du système, notamment la plateforme physique, le système d’exploitation et tous les services Lync Server 2013 importants. La maintenance préventive et la surveillance proactive vous aideront à identifier les erreurs et les problèmes potentiels susceptibles d’avoir un impact négatif sur le déploiement de Lync Server 2013.
 
 La surveillance du déploiement de Lync Server 2013 implique de vérifier les problèmes liés aux connexions, aux services, aux ressources du serveur et aux ressources système. Les systèmes d’exploitation Windows Server, ainsi que System Center Operations Manager et Lync Server, vous offrent un grand nombre d’outils et de services de surveillance pour vous aider à garantir le bon fonctionnement de l’organisation Lync Server. Lorsque ces technologies sont implémentées ensemble, les administrateurs peuvent recevoir des alertes quand ou avant des problèmes.
 

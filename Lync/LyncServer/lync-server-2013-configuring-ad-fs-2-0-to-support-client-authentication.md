@@ -12,20 +12,22 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c48e474c511fd8d2e4b3e84bea0d74fcfeb650ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d2b713d109a72431e78e966258a84c084523a7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517641"
 ---
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuration d’AD FS 2,0 pour prendre en charge l’authentification client dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuration d’AD FS 2,0 pour prendre en charge l’authentification client dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Il existe deux types d’authentification possibles pouvant être configurés po
 
   - Authentification du client TLS (Transport Layer Security)
 
-À l’aide de l’authentification basée sur les formulaires, vous pouvez développer une page Web qui permet aux utilisateurs de s’authentifier en utilisant leur nom d’utilisateur/mot de passe ou en utilisant leur carte à puce et leur code confidentiel. Cette rubrique se concentre sur la mise en œuvre de l’authentification du client TLS (Transport Layer Security) avec les services ADFS 2,0. Pour plus d’informations sur les types d’authentifications AD FS 2,0, voir AD FS 2,0 : comment modifier le type [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)d’authentification local à.
+À l’aide de l’authentification basée sur les formulaires, vous pouvez développer une page Web qui permet aux utilisateurs de s’authentifier en utilisant leur nom d’utilisateur/mot de passe ou en utilisant leur carte à puce et leur code confidentiel. Cette rubrique se concentre sur la mise en œuvre de l’authentification du client TLS (Transport Layer Security) avec les services ADFS 2,0. Pour plus d’informations sur les types d’authentifications AD FS 2,0, voir AD FS 2,0 : comment modifier le type d’authentification local à [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384) .
 
 <div>
 
@@ -54,21 +56,21 @@ Il existe deux types d’authentification possibles pouvant être configurés po
 
 2.  Lancez l’Explorateur Windows.
 
-3.  Accédez à C :\\Inetpub\\ADFS\\ls.
+3.  Accédez à C : \\ Inetpub \\ ADFS \\ ls.
 
-4.  Effectuez une copie de sauvegarde du fichier Web. config existant.
+4.  Effectuez une copie de sauvegarde du fichier web.config existant.
 
-5.  Ouvrez le fichier Web. config existant à l’aide du bloc-notes.
+5.  Ouvrez le fichier de web.config existant à l’aide du bloc-notes.
 
 6.  Dans la barre de menus, sélectionnez **modifier** , puis **Rechercher**.
 
-7.  Recherchez ** \<localAuthenticationTypes\>**.
+7.  Recherchez **\<localAuthenticationTypes\>** .
     
     Notez qu’il existe quatre types d’authentification répertoriés, un par ligne.
 
 8.  Déplacez la ligne contenant le type d’authentification TLSClient en haut de la liste dans la section.
 
-9.  Enregistrez et fermez le fichier Web. config.
+9.  Enregistrez et fermez le fichier web.config.
 
 10. Lancez une invite de commandes avec des privilèges élevés.
 

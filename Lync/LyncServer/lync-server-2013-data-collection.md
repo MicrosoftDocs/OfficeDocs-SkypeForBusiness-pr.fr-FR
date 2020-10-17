@@ -12,20 +12,22 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6ef9454912b2d421302d7e696350a6f83bc9fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01e6c75a4a557ff44d626f006210bec3a3c38472
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516571"
 ---
+# <a name="data-collection-in-lync-server-2013"></a>Collecte de données dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="data-collection-in-lync-server-2013"></a>Collecte de données dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206950"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Dans le logiciel de communication Microsoft Lync Server 2013, vous pouvez exécuter l’outil de planification de Microsoft Lync Server 2013, sans documenter vos adresses IP existantes et proposées, ainsi que les noms de domaine complets du serveur Edge (FQDN), mais il est beaucoup plus difficile de faire sans provoquer d’erreurs de configuration. Par exemple, si la coexistence est requise pendant un certain temps, une erreur fréquente consiste à réutiliser les noms de domaine complets d’un déploiement Edge existant pour votre déploiement Edge Lync Server 2013. Inscrire les adresses IP existantes et proposées ainsi que les FQDN dans une feuille de calcul, un tableau ou un autre formulaire visuel peut vous aider à prévenir les problèmes de configuration lors de l’installation.
+Dans le logiciel de communication Microsoft Lync Server 2013, vous pouvez exécuter l’outil de planification de Microsoft Lync Server 2013, sans documenter les adresses IP et les noms de domaine complets existants et proposés, mais il est beaucoup plus difficile de le faire sans provoquer d’erreurs de configuration. Par exemple, si la coexistence est requise pendant un certain temps, une erreur fréquente consiste à réutiliser les noms de domaine complets d’un déploiement Edge existant pour votre déploiement Edge Lync Server 2013. Inscrire les adresses IP existantes et proposées ainsi que les FQDN dans une feuille de calcul, un tableau ou un autre formulaire visuel peut vous aider à prévenir les problèmes de configuration lors de l’installation.
 
 <div>
 

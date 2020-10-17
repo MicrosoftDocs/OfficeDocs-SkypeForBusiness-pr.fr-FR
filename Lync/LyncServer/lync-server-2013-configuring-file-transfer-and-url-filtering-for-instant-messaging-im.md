@@ -12,20 +12,22 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0f9968b6154b281126430b87b7ae4ac98aa4b0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bad134c770300820bd4fb6bd2d72e648b5f34777
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517511"
 ---
+# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>Configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>Configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ Lorsqu’un message instantané transite d’un serveur à un autre, les règles
 
 Les URL sont filtrées à partir de leur préfixe de lien hypertexte. Voici quelques exemples de préfixes valides :
 
-  - www\*.
+  - www \* .
 
   - serveurFTP.
 
@@ -99,9 +101,9 @@ Les URL sont filtrées à partir de leur préfixe de lien hypertexte. Voici quel
 
 Si vous ne configurez pas le filtre de message instantané de sorte qu’il filtre les URL, toutes les URL contenues dans des messages instantanés sont transmises sans modification via le serveur. Si vous configurez le filtre de message instantané de sorte qu’il filtre les URL, les URL dans les messages instantanés sont filtrées en tenant compte des options que vous sélectionnez dans la boîte de dialogue **Modifier le filtre d’URL** ou **Nouveau filtre d’URL**.
 
-  - **Activer le filtre**   d’URL cette option active le filtrage d’URL pour le déploiement global ou pour le site que vous sélectionnez.
+  - **Activer le filtre**     d’URL Cette option active le filtrage des URL pour le déploiement global ou pour le site que vous sélectionnez.
 
-  - **Bloquer les URL avec l’extension**   de fichier le filtre de message instantané bloque toute URL Internet ou Internet active qui contient un fichier dont l’extension est indiquée sous **extensions de types de fichiers à bloquer** dans la boîte de dialogue **modifier le filtre de fichier** . Lorsqu’une URL est bloquée, l’expéditeur obtient un message d’erreur. Lorsqu’elle est activée, cette option prévaut sur toutes les autres options de filtrage pour les extensions de fichier définies sous **Extensions de types de fichiers à bloquer**.
+  - **Bloquer les URL avec l’extension**     de fichier Le filtre de message instantané bloque toute URL Internet ou intranet active qui contient un fichier dont l’extension est indiquée sous **extensions de types de fichiers à bloquer** dans la boîte de dialogue **modifier le filtre de fichiers** . Lorsqu’une URL est bloquée, l’expéditeur obtient un message d’erreur. Lorsqu’elle est activée, cette option prévaut sur toutes les autres options de filtrage pour les extensions de fichier définies sous **Extensions de types de fichiers à bloquer**.
     
     <div>
     
@@ -114,19 +116,19 @@ Si vous ne configurez pas le filtre de message instantané de sorte qu’il filt
 
 Pour configurer le traitement des liens hypertexte dans les conversations par messagerie instantanée, sélectionnez une des options suivantes sous **Préfixe de lien hypertexte** :
 
-  - **Ne pas filtrer**   les URL dans les messages sont envoyées par le biais du serveur. Lorsque vous choisissez cette option, la zone **Autoriser le message** apparaît. Dans la zone **Autoriser le message**, indiquez l’avis que vous souhaitez insérer au début de chaque message instantané contenant des liens hypertexte. Cet avis peut comporter jusqu’à 65 535 caractères.
+  - **Ne pas filtrer**     Les URL dans les messages sont envoyées par le biais du serveur. Lorsque vous choisissez cette option, la zone **Autoriser le message** apparaît. Dans la zone **Autoriser le message**, indiquez l’avis que vous souhaitez insérer au début de chaque message instantané contenant des liens hypertexte. Cet avis peut comporter jusqu’à 65 535 caractères.
 
-  - **Bloquer les liens hypertexte**   la remise de messages instantanés contenant des liens hypertexte actifs est bloquée par Lync Server et un message d’erreur s’affiche pour l’expéditeur.
+  - **Bloquer les liens hypertexte**     La remise de messages instantanés contenant des liens hypertexte actifs est bloquée par Lync Server, et un message d’erreur s’affiche pour l’expéditeur.
 
-  - **Envoyer un message**   d’avertissement Lync Server autorise les liens hypertexte actifs dans les messages instantanés, mais il comprend un avertissement. Lorsque vous choisissez cette option, la zone **Message d’avertissement** apparaît. Dans la zone **Message d’avertissement**, tapez l’avertissement que vous voulez inclure aux messages instantanés contenant des liens hypertexte valides. Par exemple, cet avertissement peut indiquer les dangers potentiels qu’encourt l’utilisateur s’il clique sur un lien inconnu ou il peut rappeler les stratégies et les conditions pertinentes de votre organisation concernant l’utilisation des liens. L’avertissement peut comporter jusqu’à 65 535  caractères.
+  - **Envoyer un message**     d’avertissement Lync Server autorise les liens hypertexte actifs dans les messages instantanés, mais il comprend un avertissement. Lorsque vous choisissez cette option, la zone **Message d’avertissement** apparaît. Dans la zone **Message d’avertissement**, tapez l’avertissement que vous voulez inclure aux messages instantanés contenant des liens hypertexte valides. Par exemple, cet avertissement peut indiquer les dangers potentiels qu’encourt l’utilisateur s’il clique sur un lien inconnu ou il peut rappeler les stratégies et les conditions pertinentes de votre organisation concernant l’utilisation des liens. L’avertissement peut comporter jusqu’à 65 535  caractères.
 
 Si vous sélectionnez **Bloquer les liens hypertexte** ou **Envoyer un message d’avertissement**, les options suivantes sont disponibles :
 
-  - **Exclure les liens hypertexte de l’intranet local**   le filtre de messages instantanés bloque uniquement les URL Internet. Les URL correspondant à des emplacements dans votre intranet sont transmises sans modification via le serveur. Toutefois, les URL intranet auxquelles les serveurs individuels exécutant Lync Server sont passés dépendent des types de sites Web locaux considérés comme faisant partie de leur zone intranet. Pour vérifier les paramètres de la zone intranet d’un serveur, reportez-vous à la procédure « pour configurer vos paramètres intranet dans Internet Explorer » dans [modifier le filtre d’URL par défaut dans Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
+  - **Exclure les liens hypertexte**     de l’intranet local Le filtre de message instantané bloque uniquement les URL Internet. Les URL correspondant à des emplacements dans votre intranet sont transmises sans modification via le serveur. Toutefois, les URL intranet auxquelles les serveurs individuels exécutant Lync Server sont passés dépendent des types de sites Web locaux considérés comme faisant partie de leur zone intranet. Pour vérifier les paramètres de la zone intranet d’un serveur, reportez-vous à la procédure « pour configurer vos paramètres intranet dans Internet Explorer » dans [modifier le filtre d’URL par défaut dans Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
 
-  - **Filtrez ces**   préfixes de liens hypertexte pour choisir les préfixes à bloquer, cliquez sur **Sélectionner**, puis, dans sélectionner un préfixe de **lien hypertexte**, ajoutez les préfixes à la liste préfixes de **liens hypertexte** .
+  - **Filtrer ces préfixes**     de liens hypertexte Pour choisir les préfixes à bloquer, cliquez sur **Sélectionner**, puis, dans sélectionner un préfixe de **lien hypertexte**, ajoutez les préfixes à la liste préfixes de **liens hypertexte** .
     
-    Tous les préfixes sauf **href** doivent se terminer par un point ou un point-virgule, ou un astérisque suivi d’un point. Les préfixes valides peuvent contenir n’importe quel caractère dans le jeu de caractères d'\*URL valides à l’exception de l’astérisque (). Le jeu de caractères d’URL valides \# \*est : +/0123456789 =\_ \` @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ abcdefghijklmnopqrstuvwxyz | ~
+    Tous les préfixes sauf **href** doivent se terminer par un point ou un point-virgule, ou un astérisque suivi d’un point. Les préfixes valides peuvent contenir n’importe quel caractère dans le jeu de caractères d’URL valides à l’exception de l’astérisque ( \* ). Le jeu de caractères d’URL valides est : \# \* +/0123456789 = @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ \_ \` abcdefghijklmnopqrstuvwxyz | ~
 
 </div>
 
@@ -148,13 +150,13 @@ Le filtrage de transfert de fichiers concerne les messages instantanés et les c
 
 Vous pouvez filtrer les transferts de fichiers au cours des conversations par messagerie instantanée lorsque vous utilisez la fonctionnalité des documents dans le client Office Live Meeting 2007 et les fonctionnalités de lecture multimédia pour tous les types de fichiers. Vous pouvez définir les options suivantes pour contrôler les transferts de fichiers :
 
-  - **Activer le filtre**   de fichiers cette option active le filtrage de fichiers pour le déploiement global ou pour le site que vous sélectionnez.
+  - **Activer le filtre**     de fichiers Cette option active le filtrage de fichiers pour le déploiement global ou pour le site que vous sélectionnez.
     
     Lorsque vous activez le filtre de fichiers, vous pouvez choisir l’une des options suivantes dans **Transfert de fichiers** :
     
-      - **Bloquer des types**   de fichiers spécifiques vous spécifiez les demandes de transfert de fichiers filtrées par le serveur en spécifiant une liste d’extensions de fichiers à bloquer. Les entrées de la liste peuvent contenir tous les caractères standard, mais pas le caractère\*générique (). Dans le client Office Live Meeting 2007, la fonctionnalité des documents est activée, mais les fichiers avec cette extension ne peuvent pas être téléchargés. Si vous activez la case à cocher **Bloquer les URL avec une extension de fichier** dans les paramètres d’un filtre d’URL répertorié sous l’onglet **Filtre d’URL**, le filtre d’URL utilise cette même liste pour bloquer les liens hypertexte actifs qui contiennent ces extensions de fichier. Pour choisir les types de fichiers que vous souhaitez bloquer, cliquez sur **Sélectionner**, puis dans **Sélectionner un type de fichier**, ajoutez les extensions de type de fichier à la liste **Extensions de types de fichiers sélectionnées**.
+      - **Bloquer des types**     de fichiers spécifiques Vous spécifiez les demandes de transfert de fichiers filtrées par le serveur en spécifiant une liste d’extensions de fichiers à bloquer. Les entrées de la liste peuvent contenir tous les caractères standard, mais pas le caractère générique ( \* ). Dans le client Office Live Meeting 2007, la fonctionnalité des documents est activée, mais les fichiers avec cette extension ne peuvent pas être téléchargés. Si vous activez la case à cocher **Bloquer les URL avec une extension de fichier** dans les paramètres d’un filtre d’URL répertorié sous l’onglet **Filtre d’URL**, le filtre d’URL utilise cette même liste pour bloquer les liens hypertexte actifs qui contiennent ces extensions de fichier. Pour choisir les types de fichiers que vous souhaitez bloquer, cliquez sur **Sélectionner**, puis dans **Sélectionner un type de fichier**, ajoutez les extensions de type de fichier à la liste **Extensions de types de fichiers sélectionnées**.
     
-      - **Bloquer tout**   le serveur supprime tous les messages instantanés qui contiennent des demandes de transfert de fichiers et renvoie un message d’erreur à l’expéditeur de la demande. La fonctionnalité des documents est désactivée dans le client Office Live Meeting 2007.
+      - **Bloquer tout**     Le serveur supprime tous les messages instantanés qui contiennent des demandes de transfert de fichiers et renvoie un message d’erreur à l’expéditeur de la demande. La fonctionnalité des documents est désactivée dans le client Office Live Meeting 2007.
 
 <div>
 

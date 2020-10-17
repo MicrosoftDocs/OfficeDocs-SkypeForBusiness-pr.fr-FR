@@ -12,20 +12,22 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f99aeda6136c79b7ffda9b5cd3d5dced3b1f6ee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516111"
 ---
+# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Vue d’ensemble de l’environnement hybride Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Vue d’ensemble de l’environnement hybride Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Les applications et les utilitaires suivants doivent être installés pour effec
 
   - [Installer Windows PowerShell pour l’authentification unique avec AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - L’Assistant de connexion Microsoft Online Services (msoidcli-7.0. msi) est inclus dans la configuration du Bureau de Microsoft 365, qui peut être obtenue à partir de la page de téléchargement liée à partir du centre d’administration Microsoft 365.
+  - L’Assistant de connexion Microsoft Online Services (msoidcli-7.0.msi) est inclus dans la configuration de bureau pour Microsoft 365, qui peut être obtenue à partir de la page de téléchargement liée à partir du centre d’administration Microsoft 365.
 
 </div>
 

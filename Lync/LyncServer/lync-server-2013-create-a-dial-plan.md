@@ -12,20 +12,22 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382b04f9b0aa835d0230cb05fb56cb272546c038
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f530faa83cb2e924d93abce6f7496c3ef1b82311
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192927"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516921"
 ---
+# <a name="create-a-dial-plan-in-lync-server-2013"></a>Création d’un plan de numérotation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dial-plan-in-lync-server-2013"></a>Création d’un plan de numérotation dans Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Pour créer un plan de numérotation, suivez les étapes de la procédure ci-apr
     
 
     > [!IMPORTANT]  
-    > Le <STRONG>nom simple</STRONG> doit être unique parmi tous les plans de numérotation dans le déploiement Lync Server. Il ne peut pas dépasser 256 caractères Unicode, chacun pouvant être un caractère alphabétique ou numérique, un tiret (-), un point (.) ou un trait de soulignement (_).<BR>Les caractères <STRONG>non pris en charge</STRONG> incluent les espaces et les caractères réservés telshttp://www.ietf.org/rfc/rfc3966.txt)que définis dans le document RFC 3966 (. Les caractères réservés qui <STRONG>ne sont pas pris en charge</STRONG> dans le <STRONG>nom simple</STRONG> sont les suivants :<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+    > Le <STRONG>nom simple</STRONG> doit être unique parmi tous les plans de numérotation dans le déploiement Lync Server. Il ne peut pas dépasser 256 caractères Unicode, chacun pouvant être un caractère alphabétique ou numérique, un tiret (-), un point (.) ou un trait de soulignement (_).<BR>Les caractères <STRONG>non pris en charge</STRONG> incluent les espaces et les caractères réservés tels que définis dans le document RFC 3966 ( http://www.ietf.org/rfc/rfc3966.txt) . Les caractères réservés qui <STRONG>ne sont pas pris en charge</STRONG> dans le <STRONG>nom simple</STRONG> sont les suivants :<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
     
     </div>
@@ -101,7 +103,7 @@ Pour créer un plan de numérotation, suivez les étapes de la procédure ci-apr
     
     </div>
 
-9.  (Facultatif) Dans le champ **Préfixe d’accès externe**, entrez une valeur uniquement si les utilisateurs doivent composer un ou plusieurs préfixes supplémentaires (le 0, par exemple) pour obtenir une ligne externe. Vous pouvez taper une valeur de préfixe de quatre caractères (\#, \*, et 0-9).
+9.  (Facultatif) Dans le champ **Préfixe d’accès externe**, entrez une valeur uniquement si les utilisateurs doivent composer un ou plusieurs préfixes supplémentaires (le 0, par exemple) pour obtenir une ligne externe. Vous pouvez taper une valeur de préfixe de quatre caractères ( \# ,, \* et 0-9).
     
     <div>
     
@@ -139,7 +141,7 @@ Pour créer un plan de numérotation, suivez les étapes de la procédure ci-apr
     
 
     > [!IMPORTANT]  
-    > Lync Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives.<BR>La règle de normalisation <STRONG>conserver toutes les</STRONG> règles de normalisation <STRONG>{11}^ (\d) $</STRONG> correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à des numéros à 11 chiffres commençant par 1425, assurez-vous que la règle <STRONG>conserver tout</STRONG> est triée en dessous de la règle <STRONG>^ (1425 \{7}d) $</STRONG> plus restrictive.
+    > Lync Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives.<BR>La règle de normalisation <STRONG>conserver toutes les</STRONG> règles de normalisation <STRONG>^ (\d {11} ) $</STRONG> correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à des numéros à 11 chiffres commençant par 1425, assurez-vous que la règle <STRONG>conserver tout</STRONG> est triée en dessous de la règle <STRONG>^ (1425 \ d {7} ) $</STRONG> plus restrictive.
 
     
     </div>

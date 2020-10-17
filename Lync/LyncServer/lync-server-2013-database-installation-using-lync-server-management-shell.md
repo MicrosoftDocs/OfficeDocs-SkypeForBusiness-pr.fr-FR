@@ -12,20 +12,22 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 443f353a43c2fdfd2f9fc8c7ce1a1b20c11a4a84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b602e29e0f90a49a031c25d6bb919337bef87b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187397"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516541"
 ---
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Installation de la base de données à l’aide de Lync Server Management Shell dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Installation de la base de données à l’aide de Lync Server Management Shell dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ La séparation des rôles et des responsabilités entre les administrateurs de s
 
 
 > [!IMPORTANT]  
-> La procédure suivante suppose que, au minimum, les objets de gestion de Lync Server 2013 OCSCore. msi, SQL Server Native Client (sqlncli. msi) Microsoft SQL Server 2012, les types CLR pour Microsoft SQL Server 2012 et Microsoft SQL Server 2012 ADOMD.NET sont installés. Le fichier OCSCore.msi se trouve sur le média d’installation dans le répertoire \Setup\AMD64\Setup. Les composants restants se trouvent dans \Setup\amd64. En outre, la préparation d’Active Directory pour Lync Server 2013 a réussi.
+> La procédure suivante suppose que, au minimum, le OCSCore.msi Lync Server 2013, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012 Management Objects, les types CLR pour Microsoft SQL Server 2012 et Microsoft SQL Server 2012 ADOMD.NET sont installés. Le fichier OCSCore.msi se trouve sur le média d’installation dans le répertoire \Setup\AMD64\Setup. Les composants restants se trouvent dans \Setup\amd64. En outre, la préparation d’Active Directory pour Lync Server 2013 a réussi.
 
 
 
@@ -77,7 +79,7 @@ Pour l’installation des bases de données, **install-applet csdatabase** utili
 
 1.  Ouvrez une session d’administration sur un ordinateur pour créer les bases de données sur le serveur SQL Server. Pour plus d’informations, reportez-vous à la rubrique [autorisations de déploiement pour SQL Server dans Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Ouvrez Lync Server 2013 Management Shell. Si vous n’avez pas ajusté la stratégie d’exécution pour Windows PowerShell, vous devez ajuster la stratégie pour autoriser l’exécution des scripts Windows PowerShell. Pour plus d’informations, consultez la rubrique « examen de [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)la stratégie d’exécution » à l’adresse.
+2.  Ouvrez Lync Server 2013 Management Shell. Si vous n’avez pas ajusté la stratégie d’exécution pour Windows PowerShell, vous devez ajuster la stratégie pour autoriser l’exécution des scripts Windows PowerShell. Pour plus d’informations, consultez la rubrique « examen de la stratégie d’exécution » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093) .
 
 3.  Utilisez la cmdlet **install-applet csdatabase** pour installer le magasin central de gestion.
     
@@ -122,7 +124,7 @@ Pour l’installation des bases de données, **install-applet csdatabase** utili
     
 
     > [!IMPORTANT]  
-    > Pour pouvoir configurer les bases de données basées sur SQL Server, assurez-vous que le compte d’administrateur SQL Server utilisé pour exécuter les étapes décrites ici est également membre du groupe sysadmins (ou équivalent) sur le serveur exécutant SQL Server et en tenant compte de la direction centrale Rôle serveur. Ceci est particulièrement important pour vérifier les pools Lync Server 2013 supplémentaires qui nécessitent une installation ou une configuration de base de données SQL Server. Par exemple, si vous déployez un deuxième pool (pool02) mais que le rôle de serveur de gestion centralisée est conservé par pool01. Le groupe sysadmin SQL Server (ou équivalent) doit disposer d’autorisations sur les bases de données basées sur SQL Server.
+    > Pour pouvoir configurer les bases de données basées sur SQL Server, assurez-vous que le compte d’administrateur SQL Server utilisé pour exécuter les étapes décrites ici est également membre du groupe administrateurs système (ou équivalent) sur le serveur exécutant SQL Server et hébergeant le rôle serveur de gestion centralisée. Ceci est particulièrement important pour vérifier les pools Lync Server 2013 supplémentaires qui nécessitent une installation ou une configuration de base de données SQL Server. Par exemple, si vous déployez un deuxième pool (pool02) mais que le rôle de serveur de gestion centralisée est conservé par pool01. Le groupe sysadmin SQL Server (ou équivalent) doit disposer d’autorisations sur les bases de données basées sur SQL Server.
 
     
     </div>
@@ -166,7 +168,7 @@ Pour l’installation des bases de données, **install-applet csdatabase** utili
     
 
     > [!IMPORTANT]  
-    > Pour pouvoir configurer les bases de données basées sur SQL Server, assurez-vous que le compte d’administrateur SQL Server utilisé pour exécuter les étapes décrites ici est également membre du groupe sysadmins (ou équivalent) sur le serveur exécutant SQL Server et en tenant compte de la direction centrale Rôle serveur. Ceci est particulièrement important pour vérifier les pools Lync Server supplémentaires qui nécessitent l’installation ou la configuration de la base de données SQL Server. Par exemple, si vous déployez un deuxième pool (pool02) mais que le rôle de serveur de gestion centralisée est conservé par pool01. Le groupe sysadmin SQL Server (ou équivalent) doit disposer d’autorisations sur les bases de données basées sur SQL Server.
+    > Pour pouvoir configurer les bases de données basées sur SQL Server, assurez-vous que le compte d’administrateur SQL Server utilisé pour exécuter les étapes décrites ici est également membre du groupe administrateurs système (ou équivalent) sur le serveur exécutant SQL Server et hébergeant le rôle serveur de gestion centralisée. Ceci est particulièrement important pour vérifier les pools Lync Server supplémentaires qui nécessitent l’installation ou la configuration de la base de données SQL Server. Par exemple, si vous déployez un deuxième pool (pool02) mais que le rôle de serveur de gestion centralisée est conservé par pool01. Le groupe sysadmin SQL Server (ou équivalent) doit disposer d’autorisations sur les bases de données basées sur SQL Server.
 
     
     </div>
@@ -175,7 +177,7 @@ Pour l’installation des bases de données, **install-applet csdatabase** utili
 
 4.  Utilisez la cmdlet **install-applet csdatabase** avec le paramètre DatabasePathMap et une table de hachage PowerShell pour installer les bases de données configurées du générateur de topologies.
 
-5.  Dans l’exemple de code, les chemins d’accès définis pour les bases de données peuvent être déterminés de manière granulaire en utilisant le paramètre – DatabasePathMap et une table de hachage définie comme suit (l’exemple\\utilise « c : CSData » pour tous les fichiers de base de données (\\. mdf) et « c : CSLogFiles » pour tous les fichiers journaux (. ldf). Le dossier sera créé si nécessaire par install-applet csdatabase) :
+5.  Dans l’exemple de code, les chemins d’accès définis pour les bases de données peuvent être déterminés de manière granulaire en utilisant le paramètre – DatabasePathMap et une table de hachage définie comme suit (l’exemple utilise « C : \\ CSData » pour tous les fichiers de base de données (. mdf) et « c : \\ CSLogFiles » pour tous les fichiers journaux (. ldf). Le dossier sera créé si nécessaire par install-applet csdatabase) :
     ```powershell
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
@@ -192,29 +194,29 @@ Pour l’installation des bases de données, **install-applet csdatabase** utili
     ```
 6.  Étant donné que la base de données et les fichiers journaux sont explicitement nommés avec leur emplacement sur le serveur de base de données de destination, vous pouvez définir des emplacements spécifiques pour la base de données et l’emplacement de journal de chaque type de service. L’exemple suivant place les bases de données pour chaque type de service spécifique sur des disques distincts et les fichiers journaux associés sur un autre. Par exemple :
     
-      - Toutes les bases de données RTC sur «\\D : RTCDatabase »
+      - Toutes les bases de données RTC sur « D : \\ RTCDatabase »
     
-      - Tous les fichiers journaux RTC sur « E\\: RTCLogs »
+      - Tous les fichiers journaux RTC sur « E : \\ RTCLogs »
     
-      - Toutes les bases de données de magasin d’applications\\vers « F : CPSDatabases »
+      - Toutes les bases de données de magasin d’applications vers « F : \\ CPSDatabases »
     
-      - Tous les journaux du magasin d’applications sur\\« G : CPSLogs »
+      - Tous les journaux du magasin d’applications sur « G : \\ CPSLogs »
     
-      - Toutes les bases de données de magasin Response Group sur\\« H : RGSDatabases »
+      - Toutes les bases de données de magasin Response Group sur « H : \\ RGSDatabases »
     
-      - Tous les journaux de magasin Response Group sur «\\I : RGSLogs »
+      - Tous les journaux de magasin Response Group sur « I : \\ RGSLogs »
     
-      - Toutes les bases de données de magasin de carnet d'\\adresses vers « J : ABSDatabases »
+      - Toutes les bases de données de magasin de carnet d’adresses vers « J : \\ ABSDatabases »
     
-      - Tous les fichiers journaux du magasin d’adresses en «\\K : ABSLogs »
+      - Tous les fichiers journaux du magasin d’adresses en « K : \\ ABSLogs »
     
-      - Toutes les bases de données de magasin d’archivage\\vers « L : ArchivingDatabases »
+      - Toutes les bases de données de magasin d’archivage vers « L : \\ ArchivingDatabases »
     
-      - Tous les journaux de magasin d’archivage sur\\« M : ArchivingLogs »
+      - Tous les journaux de magasin d’archivage sur « M : \\ ArchivingLogs »
     
-      - Toutes les bases de données de magasin de surveillance\\vers « N : MonitoringDatabases »
+      - Toutes les bases de données de magasin de surveillance vers « N : \\ MonitoringDatabases »
     
-      - Tous les fichiers journaux du magasin de surveillance sur\\« O : MonitoringLogfiles »
+      - Tous les fichiers journaux du magasin de surveillance sur « O : \\ MonitoringLogfiles »
     
     <!-- end list -->
     

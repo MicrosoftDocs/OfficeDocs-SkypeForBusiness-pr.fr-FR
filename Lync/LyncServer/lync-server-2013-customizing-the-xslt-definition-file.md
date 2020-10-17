@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516631"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personnalisation du fichier de définition XSLT dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personnalisation du fichier de définition XSLT dans Lync Server 2013
+
 
 </div>
 
@@ -107,7 +109,7 @@ Le tableau suivant décrit les attributs de message type, content et ID.
 <tr class="odd">
 <td><p>Type</p></td>
 <td><p>Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.</p></td>
-<td><p>Obligatoire</p></td>
+<td><p>Requis</p></td>
 </tr>
 <tr class="even">
 <td><p>Contenu</p></td>
@@ -149,7 +151,7 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 <tr class="even">
 <td><p>ID</p></td>
 <td><p>ID unique de l’expéditeur.</p></td>
-<td><p>Obligatoire</p></td>
+<td><p>Requis</p></td>
 </tr>
 <tr class="odd">
 <td><p>E-mail</p></td>
@@ -164,7 +166,7 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 <tr class="odd">
 <td><p>Uri</p></td>
 <td><p>URI SIP de l’utilisateur.</p></td>
-<td><p>Obligatoire</p></td>
+<td><p>Requis</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +199,7 @@ La table suivante décrit les types de message que l’élément Messages peut c
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Élément</p></td>
+<td><p>Quitter</p></td>
 <td><p>Un utilisateur quitte une salle de conversation.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 

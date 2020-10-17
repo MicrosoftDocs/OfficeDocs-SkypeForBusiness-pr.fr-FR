@@ -12,20 +12,22 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61f0de957889f108ff7b7cec3ad71e984fd61f11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84fb2d57e03965acff9d647854b86d7a5a528246
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517711"
 ---
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Composants utilisés par l’application d’annonce dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Composants utilisés par l’application d’annonce dans Lync Server 2013
+
 
 </div>
 
@@ -45,17 +47,17 @@ Dans Lync Server 2013, l’application d’annonce est un composant de l’appli
 
 Les composants de Lync Server suivants prennent en charge l’application d’annonce :
 
-  - **Application service**   application service fournit une plateforme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. Application service est automatiquement installé sur chaque serveur frontal d’un pool frontal et sur chaque serveur Standard Edition.
+  - **Service**     d’application Application service fournit une plateforme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. Application service est automatiquement installé sur chaque serveur frontal d’un pool frontal et sur chaque serveur Standard Edition.
 
-  - **Application Response Group**   l’application Response Group est l’une des applications de communications unifiées hébergées par le service d’application. Lorsqu’une plage de numéros de téléphone non attribués est configurée pour acheminer vers une annonce, l’application Response Group est requise pour acheminer les appels passés au numéro de téléphone. (L’application Response Group n’est pas nécessaire si toutes les plages sont configurées pour acheminer la messagerie unifiée Exchange.)
+  - **Application**     Response Group L’application Response Group est l’une des applications de communications unifiées hébergées par le service d’application. Lorsqu’une plage de numéros de téléphone non attribués est configurée pour acheminer vers une annonce, l’application Response Group est requise pour acheminer les appels passés au numéro de téléphone. (L’application Response Group n’est pas nécessaire si toutes les plages sont configurées pour acheminer la messagerie unifiée Exchange.)
 
-  - **Fichiers audio les fichiers**   audio sont utilisés pour les annonces.
+  - **Fichiers audio**     Les fichiers audio sont utilisés pour les annonces.
 
-  - **Magasin de fichiers**   l’application d’annonce utilise le magasin de fichiers pour stocker ses fichiers audio.
+  - **Magasin**     de fichiers L’application d’annonce utilise le magasin de fichiers pour stocker ses fichiers audio.
 
-  - **Panneau de configuration Lync Server**   vous pouvez utiliser le panneau de configuration Lync Server pour configurer la table des numéros non attribués.
+  - **Panneau de configuration**     Lync Server Vous pouvez utiliser le panneau de configuration Lync Server pour configurer la table des numéros non attribués.
 
-  - **Lync Server Management Shell**   vous pouvez utiliser des applets de commande Lync Server Management Shell pour configurer les paramètres d’annonce et la table des numéros non attribués.
+  - **Lync Server Management Shell**     Vous pouvez utiliser les applets de commande Lync Server Management Shell pour configurer les paramètres d’annonce et la table des numéros non attribués.
 
 </div>
 

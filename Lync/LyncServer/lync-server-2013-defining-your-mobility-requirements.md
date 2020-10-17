@@ -12,20 +12,22 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2da630e422aaf7068a4252333d5221f552bce525
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f560df21555bf15c1a51c055861898860ff8dc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516331"
 ---
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Définition de la configuration requise pour la mobilité pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Définition de la configuration requise pour la mobilité pour Lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ Voici les décisions que vous devez prendre en compte :
 
   - **Souhaitez-vous utiliser la découverte automatique des clients mobiles Lync ?**
     
-    Si vous souhaitez prendre en charge la découverte automatique, vous devez créer des enregistrements DNS (Domain Name System) internes et externes, ajouter d’autres noms de sujet aux certificats sur les serveurs frontaux, les directeurs et le proxy inverse, et modifier les règles de publication existantes. sur le proxy inverse. Pour plus d’informations, voir [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). La découverte automatique permet aux utilisateurs de localiser automatiquement les services Web Lync Server 2013 depuis n’importe quel emplacement à l’intérieur ou à l’extérieur du réseau d’entreprise, sans avoir à entrer des URL dans leurs paramètres d’appareil mobile.
+    Si vous souhaitez prendre en charge la découverte automatique, vous devez créer des enregistrements DNS (Domain Name System) internes et externes, ajouter d’autres noms de sujet aux certificats sur les serveurs frontaux, les directeurs et le proxy inverse, et modifier les règles de publication existantes sur le proxy inverse. Pour plus d’informations, voir [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). La découverte automatique permet aux utilisateurs de localiser automatiquement les services Web Lync Server 2013 depuis n’importe quel emplacement à l’intérieur ou à l’extérieur du réseau d’entreprise, sans avoir à entrer des URL dans leurs paramètres d’appareil mobile.
     
     Si vous utilisez des paramètres manuels au lieu de la découverte automatique, les utilisateurs mobiles doivent entrer manuellement les URL suivantes dans leurs appareils mobiles :
     
-      - https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/root pour l’accès externe
+      - https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/root pour l’accès externe
     
-      - https://\<IntPoolFQDN\>/Autodiscover/Autodiscoverservice. svc/root pour l’accès interne
+      - https:// \<IntPoolFQDN\> /Autodiscover/autodiscoverservice. svc/root pour l’accès interne
     
     Nous vous conseillons vivement d’utiliser la découverte automatique. Les paramètres manuels s’utilisent principalement à des fins de dépannage.
 
@@ -82,7 +84,7 @@ Voici les décisions que vous devez prendre en compte :
     
 
     > [!IMPORTANT]  
-    > Si vous utilisez un serveur frontal ou des&nbsp;pools frontaux lync Server 2013 et <STRONG>que vous ne disposez pas</STRONG> de serveurs frontaux ou de pools frontaux Lync Server 2010&nbsp;, il n' <STRONG>est pas nécessaire d’utiliser la persistance basée sur les cookies</STRONG>. Si vous avez besoin de conserver les serveurs frontaux ou les pools frontaux Lync Server 2010&nbsp;, les mêmes règles s’appliquent toujours comme dans lync Server 2010 pour la persistance basée sur les cookies.
+    > Si vous utilisez un &nbsp; serveur frontal ou des pools frontaux Lync server 2013 et <STRONG>que vous ne disposez pas</STRONG> &nbsp; de serveurs frontaux ou de pools frontaux Lync Server 2010, <STRONG>il n’est pas nécessaire d’utiliser la persistance basée sur les cookies</STRONG>. Si vous avez besoin de conserver les &nbsp; serveurs frontaux ou les pools frontaux Lync server 2010, les mêmes règles s’appliquent toujours comme dans Lync server 2010 pour la persistance basée sur les cookies.
 
     
     </div>
@@ -91,7 +93,7 @@ Voici les décisions que vous devez prendre en compte :
     
     Si vous prenez en charge les notifications push, les appareils Apple iOS et Windows Phones reçoivent une notification des événements qui se produisent pendant que l’application mobile est inactive. Vous devez configurer votre serveur Edge de sorte qu’il dispose d’une relation de Fédération avec le service de notifications d’envoi sur le Cloud de Lync Server, qui se trouve dans le centre de contenu Lync Online et exécute une applet de commande pour activer les notifications de transmission.
     
-    Si vous souhaitez prendre en charge les notifications de type transmission via votre réseau Wi-Fi, en plus de prendre en charge les notifications de type transmission sur les réseaux de données ou 3G des fournisseurs d’appareils mobiles, vous devez ouvrir le port 5223 sortant sur votre réseau Wi-Fi d’entreprise. Le fait de prendre en charge les notifications push sur le réseau Wi-Fi permet de prendre en charge les appareils mobiles qui utilisent uniquement le réseau Wi-Fi et ceux bénéficiant d’une mauvaise réception à l’intérieur.
+    Si vous souhaitez prendre en charge les notifications de type transmission sur votre réseau Wi-Fi, en plus de prendre en charge les notifications de type transmission sur les réseaux de données ou 3G des fournisseurs d’appareils mobiles, vous devez ouvrir le port 5223 sortant sur votre entreprise Wi-Fi réseau. Le fait de prendre en charge les notifications push sur le réseau Wi-Fi permet de prendre en charge les appareils mobiles qui utilisent uniquement le réseau Wi-Fi et ceux bénéficiant d’une mauvaise réception à l’intérieur.
     
     <div>
     
@@ -134,7 +136,7 @@ Voici les décisions que vous devez prendre en compte :
     <tbody>
     <tr class="odd">
     <td><p>Activer la mobilité</p>
-    <p>Nom du paramètre :<code>EnableMobility</code></p>
+    <p>Nom du paramètre : <code>EnableMobility</code></p>
     <p>Étendue : Global/site/User</p></td>
     <td><p>Paramètres d’administration pour contrôler les utilisateurs d’une étendue donnée sur laquelle Lync mobile est installé, si la stratégie est définie sur false, l’utilisateur ne peut pas se connecter au client.</p>
     <p>Le paramètre par défaut est True.</p></td>
@@ -142,7 +144,7 @@ Voici les décisions que vous devez prendre en compte :
     </tr>
     <tr class="even">
     <td><p>Activer la voix en extérieur</p>
-    <p>Nom du paramètre :<code>EnableOutsideVoice</code></p>
+    <p>Nom du paramètre : <code>EnableOutsideVoice</code></p>
     <p>Étendue : Global/site/User</p></td>
     <td><p>Contrôle la capacité d’un utilisateur à utiliser l’appel via le bureau, une fonctionnalité qui permet aux utilisateurs de passer et de recevoir des appels à l’aide de leur numéro professionnel au lieu de leur numéro de téléphone mobile. Si la valeur est définie sur false, l’utilisateur ne peut pas passer ou recevoir des appels à l’aide de son numéro de travail à partir de son appareil mobile.</p>
     <p>Le paramètre par défaut est true.</p></td>
@@ -150,7 +152,7 @@ Voici les décisions que vous devez prendre en compte :
     </tr>
     <tr class="odd">
     <td><p>Activer l’audio et la vidéo IP</p>
-    <p>Nom du paramètre :<code>EnableIPAudioVideo</code></p>
+    <p>Nom du paramètre : <code>EnableIPAudioVideo</code></p>
     <p>Étendue : Global/site/User</p></td>
     <td><p>Contrôle si un utilisateur peut utiliser VoIP pour passer ou recevoir des appels vocaux ou vidéo sur son appareil mobile. Si la valeur est définie sur false, l’utilisateur ne sera pas en mesure d’effectuer ou de recevoir des appels VoIP ou vidéo sur son appareil.</p>
     <p>Le paramètre par défaut est True.</p></td>
@@ -158,7 +160,7 @@ Voici les décisions que vous devez prendre en compte :
     </tr>
     <tr class="even">
     <td><p>Exiger WiFi pour l’audio IP</p>
-    <p>Nom du paramètre :<code>RequireWiFiForIPAudio</code></p>
+    <p>Nom du paramètre : <code>RequireWiFiForIPAudio</code></p>
     <p>Étendue : Global/site/User</p></td>
     <td><p>Ce paramètre définit si le client devra passer et recevoir des appels via VoIP sur WiFi au lieu du réseau de données cellulaires. Si la valeur est définie sur true, l’utilisateur peut passer et recevoir des appels VoIP uniquement lorsqu’il est connecté à un réseau WiFi.</p>
     <p>Le paramètre par défaut est False.</p></td>
@@ -166,9 +168,9 @@ Voici les décisions que vous devez prendre en compte :
     </tr>
     <tr class="odd">
     <td><p>Exiger WiFi pour la vidéo IP</p>
-    <p>Nom du paramètre :<code>RequireWiFiForIPVideo</code></p>
+    <p>Nom du paramètre : <code>RequireWiFiForIPVideo</code></p>
     <p>Étendue : Global/site/User</p></td>
-    <td><p>Ce paramètre définit si le client devra passer et recevoir des appels vidéo sur Wi-Fi plutôt que sur le réseau de données cellulaires. Si la valeur est définie sur true, l’utilisateur peut passer et recevoir des appels vidéo uniquement lorsqu’il est connecté à un réseau Wi-Fi.</p>
+    <td><p>Ce paramètre définit si le client devra passer et recevoir des appels vidéo sur Wi-Fi au lieu de le faire sur le réseau de données cellulaires. Si la valeur est définie sur true, l’utilisateur peut passer et recevoir des appels vidéo uniquement lorsqu’il est connecté à un réseau Wi-Fi.</p>
     <p>Le paramètre par défaut est False.</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>

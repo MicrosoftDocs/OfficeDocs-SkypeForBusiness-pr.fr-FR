@@ -12,20 +12,22 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cad247f2643261e02e475c459e703db843f18fbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516951"
 ---
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configuration de l’échappement de la messagerie vocale dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configuration de l’échappement de la messagerie vocale dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195567"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Lorsqu’un utilisateur configure la sonnerie simultanée sur un téléphone mobile, un appelant est généralement acheminé vers la messagerie vocale personnelle de l’utilisateur si le téléphone mobile est éteint, n’a plus de batterie ou est hors réseau. Avec Lync Server 2013, les utilisateurs peuvent choisir d’acheminer les appels professionnels vers leur système de messagerie vocale d’entreprise. Plus précisément, un minuteur peut être configuré et, si l’appel est reçu par la messagerie vocale de l’opérateur dans la plage de temps définie, Lync Server se déconnecte du système de messagerie vocale de l’opérateur (et de la messagerie vocale personnelle de l’utilisateur), tandis que le reste de l’utilisateur les points de terminaison dans le système d’entreprise continuent de sonner. De cette manière, l’appelant est acheminé automatiquement vers la messagerie vocale d’entreprise de l’utilisateur.
+Lorsqu’un utilisateur configure la sonnerie simultanée sur un téléphone mobile, un appelant est généralement acheminé vers la messagerie vocale personnelle de l’utilisateur si le téléphone mobile est éteint, n’a plus de batterie ou est hors réseau. Avec Lync Server 2013, les utilisateurs peuvent choisir d’acheminer les appels professionnels vers leur système de messagerie vocale d’entreprise. Plus précisément, un minuteur peut être configuré et, si l’appel est reçu par la messagerie vocale de l’opérateur dans la plage de temps définie, Lync Server se déconnecte du système de messagerie vocale de l’opérateur (et de la messagerie vocale personnelle de l’utilisateur), tandis que les points de terminaison restants de l’utilisateur dans le système d’entreprise continuent de sonner. De cette manière, l’appelant est acheminé automatiquement vers la messagerie vocale d’entreprise de l’utilisateur.
 
 Cette configuration est effectuée à l’aide de la cmdlet Lync Server Management Shell, **Set-CsVoicePolicy**, au niveau de la stratégie de voix, avec les paramètres suivants.
 

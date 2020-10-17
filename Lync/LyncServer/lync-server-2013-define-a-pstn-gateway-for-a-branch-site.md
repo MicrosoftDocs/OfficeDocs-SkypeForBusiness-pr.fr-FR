@@ -12,20 +12,22 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8a47e395e74dae1eb6ec454e63fb343dcea7872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 435af3ab537097592325438707b89ce901da9bcd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516391"
 ---
+# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Définition d’une passerelle PSTN pour un site de succursale dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Définition d’une passerelle PSTN pour un site de succursale dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ Effectuez cette procédure sur le site central, qui contient au moins un pool fr
 > Avant d’effectuer la procédure, les conditions suivantes doivent être remplies : 
 > <UL>
 > <LI>
-> <P>Les logiciels de&nbsp;communication Lync Server 2013 doivent être configurés sur le site central.</P>
+> <P>&nbsp;Les logiciels de communication Lync Server 2013 doivent être configurés sur le site central.</P>
 > <LI>
 > <P>Le serveur de médiation doit être déployé sur le site central.</P></LI></UL>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration du routage géodépendant'
+title: 'Lync Server 2013 : configuration du routage des Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b88df8bf0b8362a09ea2e5b779b7fa9d789a0a48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517413"
 ---
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configuration du routage des Location-Based dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configuration du routage géodépendant dans Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42206360"
 
 _**Dernière modification de la rubrique :** 2013-03-12_
 
-Lync Server 2013 CU1, le routage géodépendant est une fonctionnalité de voix entreprise. Le routage géodépendant est une fonctionnalité de gestion des appels qui contrôle la manière dont les appels sont routés par Lync Server 2013 CU1. Elle impose des restrictions quant à la possibilité de router les appels vers des destinations PBX ou PSTN en fonction de l’emplacement de l’appelant Lync. Le routage géodépendant applique des règles d’autorisation d’appels aux appels RTC en fonction de l’emplacement réseau de l’appelant. L’emplacement de l’appelant est déterminé en fonction du site réseau associé au sous-réseau auquel l’appelant est connecté. La configuration du routage géodépendant nécessite le déploiement d’Enterprise Voice, puis la configuration des régions réseau, des sites et des sous-réseaux. Cela configure les bases de l’activation du routage géodépendant.
+Lync Server 2013 CU1, le routage Location-Based est une fonctionnalité de voix entreprise. Le routage des Location-Based est une fonctionnalité de gestion des appels qui contrôle la manière dont les appels sont routés par Lync Server 2013 CU1. Elle impose des restrictions quant à la possibilité de router les appels vers des destinations PBX ou PSTN en fonction de l’emplacement de l’appelant Lync. Le routage des Location-Based applique les règles d’autorisation des appels aux appels RTC en fonction de l’emplacement réseau de l’appelant. L’emplacement de l’appelant est déterminé en fonction du site réseau associé au sous-réseau auquel l’appelant est connecté. La configuration du routage des Location-Based nécessite le déploiement d’Enterprise Voice, puis la configuration des régions réseau, des sites et des sous-réseaux. Cela permet de configurer la base pour activer le routage des Location-Based.
 
-Avant de déployer le routage géodépendant, vous devez d’abord déployer voix entreprise et configurer des régions réseau, des sites et des sous-réseaux associés sur vos sites réseau. Une fois terminé, vous pouvez configurer le routage géodépendant. Pour connaître les étapes de configuration des régions réseau, des sites et des sous-réseaux, voir [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+Avant de déployer Location-Based routage, vous devez d’abord déployer voix entreprise et configurer des régions réseau, des sites et des sous-réseaux associés sur vos sites réseau. Une fois l’opération terminée, vous pouvez configurer le routage des Location-Based. Pour connaître les étapes de configuration des régions réseau, des sites et des sous-réseaux, voir [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
-Cette section vous guide tout au long de la configuration du routage géodépendant en utilisant l’exemple suivant comme illustration.
+Cette section vous guide tout au long de la configuration du routage des Location-Based à l’aide de l’exemple suivant comme illustration.
 
 ![Exemple de routage basé sur l’emplacement de voix entreprise](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Exemple de routage basé sur l’emplacement de voix entreprise")
 
@@ -58,7 +60,7 @@ Le tableau suivant représente les utilisateurs définis dans cet exemple.
 <thead>
 <tr class="header">
 <th>Type de point de terminaison</th>
-<th>L’emplacement</th>
+<th>Emplacement</th>
 <th>Utilisateurs</th>
 </tr>
 </thead>
@@ -110,7 +112,7 @@ Le tableau suivant représente les systèmes illustrés dans cet exemple d’env
 <thead>
 <tr class="header">
 <th>Système</th>
-<th>L’emplacement</th>
+<th>Emplacement</th>
 <th>Nom</th>
 </tr>
 </thead>
@@ -157,7 +159,7 @@ Le tableau suivant représente les systèmes illustrés dans cet exemple d’env
 
   - [Déploiement des régions réseau, des sites et des sous-réseaux dans Lync Server 2013](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
-  - [Activation du routage géodépendant dans Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
+  - [Activation du routage des Location-Based dans Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
 
 </div>
 

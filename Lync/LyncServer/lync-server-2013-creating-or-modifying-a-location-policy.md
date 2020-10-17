@@ -12,20 +12,22 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a2f2d5575bee6e6b29b6a5c289cfa589a33c411
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f87bf9aff433b70bc50b3fcff209ecd14ea268e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516781"
 ---
+# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Création ou modification d’une stratégie d’emplacement dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Création ou modification d’une stratégie d’emplacement dans Lync Server 2013
+
 
 </div>
 
@@ -61,15 +63,15 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
 
 5.  Renseignez les champs restants, comme suit :
     
-      - **Activer les services**   d’urgence améliorés activez cette case à cocher pour activer les utilisateurs associés à cette stratégie pour E9-1-1. Lorsque les services d’urgence sont activés, les clients Lync Server récupèrent les informations d’emplacement lors de l’inscription et incluent ces informations lors d’un appel d’urgence.
+      - **Activer les services**     d’urgence améliorés Activez cette case à cocher pour activer les utilisateurs associés à cette stratégie pour E9-1-1. Lorsque les services d’urgence sont activés, les clients Lync Server récupèrent les informations d’emplacement lors de l’inscription et incluent ces informations lors d’un appel d’urgence.
     
-      - **Emplacement**   spécifiez l’une des valeurs suivantes :
+      - **Emplacement**     Spécifiez l’une des valeurs suivantes :
         
-          - **Obligatoire**   l’utilisateur est invité à entrer les informations d’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans fournir aucune information. S’il fournit des informations, le fournisseur de services d’urgence répond d’abord à l’appel d’urgence pour vérifier l’emplacement, puis l’appel est transmis à l’opérateur du centre d’appels de la sécurité publique (c’est-à-dire l’opérateur des services d’urgence).
+          - **Obligatoire**     L’utilisateur est invité à entrer les informations d’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans fournir aucune information. S’il fournit des informations, le fournisseur de services d’urgence répond d’abord à l’appel d’urgence pour vérifier l’emplacement, puis l’appel est transmis à l’opérateur du centre d’appels de la sécurité publique (c’est-à-dire l’opérateur des services d’urgence).
         
-          - **Non requis**   l’utilisateur ne sera pas invité à entrer un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
+          - **Non requis**     L’utilisateur ne sera pas invité à entrer un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
         
-          - **Clause d’exclusion de responsabilité**   cette option est identique à celle **requise** , sauf que l’utilisateur ne peut pas faire disparaître l’invite sans entrer les informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser Lync Server Management Shell pour exécuter la cmdlet **Set-CsLocationPolicy** ou la cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, reportez-vous à [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) dans la documentation Lync Server Management Shell.
+          - **Exclusion de responsabilité**     Cette option est identique à celle **requise** , sauf que l’utilisateur ne peut pas faire disparaître l’invite sans entrer les informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser Lync Server Management Shell pour exécuter la cmdlet **Set-CsLocationPolicy** ou la cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, reportez-vous à [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) dans la documentation Lync Server Management Shell.
             
             <div>
             
@@ -80,13 +82,13 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
             
             </div>
     
-      - **Utiliser l’emplacement pour les services d’urgence seul**   Lync peut utiliser les informations d’emplacement pour diverses raisons (par exemple, pour avertir les collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
+      - **Utiliser l’emplacement pour les services d’urgence uniquement**     Lync peut utiliser des informations d’emplacement pour diverses raisons (par exemple, pour avertir les collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
     
-      - **Utilisation PSTN l'**   utilisation du réseau téléphonique commuté (PSTN) qui sera utilisée pour déterminer l’itinéraire des communications vocales utilisé pour acheminer les appels d’urgence des clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche.
+      - **Utilisation PSTN**     L’utilisation du réseau téléphonique commuté (PSTN) qui sera utilisé pour déterminer l’itinéraire des communications vocales qui sera utilisé pour acheminer les appels d’urgence des clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche.
     
-      - **Numéro**   de téléphone d’urgence numéro composé pour joindre les services d’urgence. Aux États-Unis, cette valeur est 911. La chaîne doit être composée des chiffres 0 à 9 et peut avoir une longueur comprise entre 1 et 10 chiffres.
+      - Numéro de téléphone d' **urgence**     Le numéro composé pour joindre les services d’urgence. Aux États-Unis, cette valeur est 911. La chaîne doit être composée des chiffres 0 à 9 et peut avoir une longueur comprise entre 1 et 10 chiffres.
     
-      - **Masque de numérotation de secours**   nombre à traduire en valeur de numéro de téléphone d’urgence lorsqu’il est composé. Par exemple, si vous entrez 212 dans ce champ et si la valeur du champ Numéro d’urgence est 911, le numéro appelé sera le 911 si un utilisateur compose le 212. Cela permet de composer d’autres numéros d’urgence et de pouvoir joindre quand même les services d’urgence (par exemple, si une personne provenant d’un pays où le numéro d’urgence est différent tente de composer ce numéro au lieu du numéro du pays dans lequel elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La longueur maximale de la chaîne est 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+      - Masque de numérotation d' **urgence**     Nombre que vous souhaitez traduire en valeur de la valeur de numéro de téléphone d’urgence lorsqu’il est composé. Par exemple, si vous entrez 212 dans ce champ et si la valeur du champ Numéro d’urgence est 911, le numéro appelé sera le 911 si un utilisateur compose le 212. Cela permet de composer d’autres numéros d’urgence et de pouvoir joindre quand même les services d’urgence (par exemple, si une personne provenant d’un pays où le numéro d’urgence est différent tente de composer ce numéro au lieu du numéro du pays dans lequel elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La longueur maximale de la chaîne est 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
         
         <div>
         
@@ -97,15 +99,15 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
         
         </div>
     
-      - **URI de notification**   un ou plusieurs URI (Uniform Resource Identifier) SIP à avertir lors d’un appel d’urgence. Par exemple, le service de sécurité de la société peut être informé via un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, celui-ci sera inclus dans la notification. Plusieurs URI SIP peuvent être insérés dans une liste dans laquelle ils sont séparés par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». Les listes de distribution sont prises en charge. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Avant que vous ne cliquiez dans le champ URI de notification un exemple est affiché.
+      - **URI**     de notification Un ou plusieurs URI (Uniform Resource Identifier) SIP devant être avertis en cas d’appel d’urgence. Par exemple, le service de sécurité de la société peut être informé via un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, celui-ci sera inclus dans la notification. Plusieurs URI SIP peuvent être insérés dans une liste dans laquelle ils sont séparés par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». Les listes de distribution sont prises en charge. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Avant que vous ne cliquiez dans le champ URI de notification un exemple est affiché.
     
-      - **URI**   de la Conférence l’URI SIP, dans ce cas le numéro de téléphone, d’un tiers qui fera l’appel à des appels d’urgence. Par exemple, le service de sécurité de l’entreprise peut recevoir un appel l’invitant à écouter ou à participer à un appel d’urgence (en fonction de la valeur fournie dans le champ **Mode conférence**). La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe sip:. Un exemple est affiché avant que vous ne cliquiez dans ce champ.
+      - **URI**     de conférence L’URI SIP, dans ce cas le numéro de téléphone, d’un tiers qui fera l’appel à des appels d’urgence. Par exemple, le service de sécurité de l’entreprise peut recevoir un appel l’invitant à écouter ou à participer à un appel d’urgence (en fonction de la valeur fournie dans le champ **Mode conférence**). La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe sip:. Un exemple est affiché avant que vous ne cliquiez dans ce champ.
     
-      - **Mode**   Conférence si vous spécifiez une valeur dans le champ **URI de conférence** , le **mode conférence** détermine si un tiers peut participer à l’appel ou s’il peut uniquement écouter. Spécifiez une des options suivantes :
+      - **Mode conférence**     Si vous spécifiez une valeur dans le champ **URI de conférence** , le **mode conférence** détermine si un tiers peut participer à l’appel ou s’il peut uniquement écouter. Spécifiez une des options suivantes :
         
-          - **Un tiers**peut uniquement écouter la conversation entre l’appelant et l’opérateur PSAPI.   
+          - **Unidirectionnel**     Un tiers peut uniquement écouter la conversation entre l’appelant et l’opérateur PSAPI.
         
-          - **Bidirectionnel**   un tiers peut écouter et participer à l’appel entre l’appelant et l’opérateur PSAPI.
+          - **Bidirectionnel**     Un tiers peut écouter et participer à l’appel entre l’appelant et l’opérateur PSAPI.
 
 6.  Cliquez sur **Valider**.
     

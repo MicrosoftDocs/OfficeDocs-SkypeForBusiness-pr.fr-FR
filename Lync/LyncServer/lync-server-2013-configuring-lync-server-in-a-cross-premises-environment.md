@@ -12,20 +12,22 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517381"
 ---
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>Configuration de Microsoft Lync Server 2013 dans un environnement intersite
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>Configuration de Microsoft Lync Server 2013 dans un environnement intersite
+
 
 </div>
 
@@ -87,7 +89,7 @@ Une fois le script terminé, vous devez configurer une relation d’approbation 
 
 
 > [!NOTE]  
-> Si vous n’avez pas installé les applets de commande Microsoft Online Services, vous avez deux choses à faire avant de poursuivre. Tout d’abord, téléchargez et installez la version 64 bits de l’Assistant de connexion Microsoft Online Services. Une fois l’installation terminée, téléchargez et installez la version 64 bits du module Microsoft Online Services pour Windows PowerShell. Vous trouverez des informations détaillées sur l’installation et l’utilisation du module Microsoft Online Services sur le site Web Microsoft 365 ou Office 365. Ces instructions vous indiquent également comment configurer l’authentification unique, la Fédération et la synchronisation entre Microsoft 365 ou Office 36 et Active Directory.<BR>Si vous n’avez pas installé ces applets de commande, votre script échoue car la cmdlet Get-CsTenant n’est pas disponible.
+> Si vous n’avez pas installé les applets de commande Microsoft Online Services, vous avez deux choses à faire avant de poursuivre. Tout d’abord, téléchargez et installez la version 64 bits de l’Assistant de connexion Microsoft Online Services. Une fois l’installation terminée, téléchargez et installez la version 64 bits du module Microsoft Online Services pour Windows PowerShell. Vous trouverez des informations détaillées sur l’installation et l’utilisation du module Microsoft Online Services sur le site Web Microsoft 365 ou Office 365. Ces instructions vous indiquent également comment configurer l’authentification unique, la Fédération et la synchronisation entre Microsoft 365 ou Office 36 et Active Directory.<BR>Si vous n’avez pas installé ces applets de commande, votre script échouera car la Get-CsTenant cmdlet ne sera pas disponible.
 
 
 

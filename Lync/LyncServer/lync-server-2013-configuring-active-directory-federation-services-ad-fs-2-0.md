@@ -12,20 +12,22 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9daaec9cbe32f031c7ee99731b1d7c7c9ec10ac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac26f7ec2be8390ee913c810928cc99c4e20d53c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517651"
 ---
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configuration des services ADFS (Active Directory Federation Services) pour Lync Server 2013 (AD FS 2,0)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configuration des services ADFS (Active Directory Federation Services) pour Lync Server 2013 (AD FS 2,0)
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42195717"
 
 _**Dernière modification de la rubrique :** 2013-07-03_
 
-La section suivante décrit la configuration des services ADFS 2,0 (Active Directory Federation Services) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2,0, voir AD FS 2,0 Step-by-Step et How to [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)guides à l’adresse.
+La section suivante décrit la configuration des services ADFS 2,0 (Active Directory Federation Services) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2,0, voir AD FS 2,0 Step-by-Step et How to guides à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374) .
 
 <div class="">
 
 
 > [!NOTE]  
-> Lors de l’installation d’AD FS 2,0, n’utilisez pas le gestionnaire Windows Server pour ajouter le rôle services ADFS (Active Directory Federation Services). Au lieu de cela, téléchargez et installez le package Active Directory Federation Services <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>2,0 RTW à l’adresse.
+> Lors de l’installation d’AD FS 2,0, n’utilisez pas le gestionnaire Windows Server pour ajouter le rôle services ADFS (Active Directory Federation Services). Au lieu de cela, téléchargez et installez le package Active Directory Federation Services 2,0 RTW à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A> .
 
 
 
@@ -62,13 +64,13 @@ La section suivante décrit la configuration des services ADFS 2,0 (Active Direc
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  Établissez un partenariat avec chaque Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : le directeur de 2013 juillet, le pool d’entreprise et le serveur Standard Edition Server qui seront activés pour l’authentification passive en exécutant la commande suivante, en remplaçant le nom de serveur spécifique à votre déploiement :
+4.  Établissez un partenariat avec chaque Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : le directeur de 2013 juillet, le pool d’entreprise et le serveur Standard Edition Server qui seront activés pour l’authentification passive en exécutant la commande suivante, en remplaçant le nom de serveur propre à votre déploiement :
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
 5.  Dans le menu Outils d’administration, lancez la console de gestion AD FS 2,0.
 
-6.  Développez **relations** \> d’approbation de **partie**de confiance.
+6.  Développez **relations d’approbation** de \> **partie**de confiance.
 
 7.  Vérifiez qu’une nouvelle approbation a été créée pour votre Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : juillet 2013 pool d’entreprise ou serveur Standard Edition.
 

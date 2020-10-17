@@ -12,20 +12,22 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2a84b07821601b82e0268c6f5f167105f7d55c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed1a67fbc037f0828b386bf1339d59851e13680
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517401"
 ---
+# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Configuration du proxy inverse pour la mobilité dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Configuration du proxy inverse pour la mobilité dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2014-03-20_
 
 Si vous souhaitez utiliser la découverte automatique pour des clients d’appareils mobiles, vous devez modifier une règle de publication web existante ou en créer une pour le proxy inverse, que vous mettiez ou non à jour les listes d’autres noms de sujet sur les certificats de proxy inverse.
 
-Si vous décidez d’utiliser le protocole HTTPs pour les demandes de service de découverte automatique Lync Server 2013 initiales et mettez à jour les listes des autres noms de sujet sur les certificats de proxy inverse, vous devez affecter le certificat public mis à jour à l’écouteur SSL (Secure Sockets Layer) sur votre proxy inverse. Pour plus d’informations sur les entrées de l’autre nom de sujet requises, voir [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Vous devez ensuite créer modifier l’écouteur existant pour les services web externes ou créer une règle de publication web pour l’URL du service de découverte automatique externe. Si vous n’avez pas encore de règle de publication Web pour l’URL de services Web Lync Server 2013 externe pour votre pool frontal, vous devez également publier une règle pour cela.
+Si vous décidez d’utiliser le protocole HTTPs pour les demandes de service de découverte automatique Lync Server 2013 initiales et de mettre à jour les listes des autres noms du sujet sur les certificats de proxy inverse, vous devez affecter le certificat public mis à jour à l’écouteur SSL (Secure Sockets Layer) de votre proxy inverse. Pour plus d’informations sur les entrées de l’autre nom de sujet requises, voir [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Vous devez ensuite créer modifier l’écouteur existant pour les services web externes ou créer une règle de publication web pour l’URL du service de découverte automatique externe. Si vous n’avez pas encore de règle de publication Web pour l’URL de services Web Lync Server 2013 externe pour votre pool frontal, vous devez également publier une règle pour cela.
 
 <div>
 
@@ -83,15 +85,15 @@ Les procédures de cette section indiquent comment créer ou modifier les règle
 
 7.  Sur la page **Détails de publication interne** , dans **nom de site interne**, tapez le nom de domaine complet (FQDN) de votre pool de directeurs (par exemple, lyncdir01. contoso. local). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez l’adresse IP virtuelle de l’équilibreur de la charge matérielle (charge matérielle) devant le pool frontal.
 
-8.  Sur la page **Détails de publication interne** , dans **chemin (facultatif)**, ** / ** tapez comme chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine**.
+8.  Sur la page **Détails de publication interne** , dans **chemin (facultatif)**, tapez **/\*** comme chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine**.
 
 9.  Dans la page **Informations sur les noms publics**, procédez comme suit :
     
       - Sous **Accepter les demandes pour**, sélectionnez **Ce nom de domaine**.
     
-      - Dans **nom public**, tapez **lyncdiscover.** \<SIPDOMAIN\> (URL du service de découverte automatique externe). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez le nom de domaine complet (FQDN) des services Web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
+      - Dans **nom public**, tapez **lyncdiscover.**\<sipdomain\> (URL du service de découverte automatique externe). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez le nom de domaine complet (FQDN) des services Web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
     
-      - Dans **chemin d’accès**, tapez ** / **.
+      - Dans **chemin d’accès**, tapez **/\*** .
 
 10. Dans la page **Sélectionner le port d’écoute**, dans **Port d’écoute web**, sélectionnez votre écouteur SSL existant avec le certificat public mis à jour.
 
@@ -172,15 +174,15 @@ Les procédures de cette section indiquent comment créer ou modifier les règle
 
 7.  Sur la page **Détails de publication interne** , dans **nom de site interne**, tapez l’adresse IP virtuelle de l’équilibreur de charge matérielle (charge matérielle) devant le pool frontal.
 
-8.  Sur la page **Détails de publication interne** , dans **chemin d’accès (facultatif)**, tapez ** / ** comme chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine au lieu de celui spécifié dans le champ nom de site interne**.
+8.  Sur la page **Détails de publication interne** , dans **chemin d’accès (facultatif)**, tapez **/\*** comme chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine au lieu de celui spécifié dans le champ nom de site interne**.
 
 9.  Dans la page **Informations sur les noms publics**, procédez comme suit :
     
       - Sous **Accepter les demandes pour**, sélectionnez **Ce nom de domaine**.
     
-      - Dans **nom public**, tapez **lyncdiscover.** \<SIPDOMAIN\> (URL du service de découverte automatique externe).
+      - Dans **nom public**, tapez **lyncdiscover.**\<sipdomain\> (URL du service de découverte automatique externe).
     
-      - Dans **chemin d’accès**, tapez ** / **.
+      - Dans **chemin d’accès**, tapez **/\*** .
 
 10. Dans la page **Sélectionner un port d’écoute**, dans **Port d’écoute web**, sélectionnez un écouteur web ou utilisez l’Assistant Nouvelle définition d’écouteur web pour en créer un nouveau.
 
