@@ -1,5 +1,6 @@
 ---
 title: 'Phase 10 : mettre hors service le site hérité'
+description: 'Phase 10 : mettre hors service le site hérité.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a8a2871659747b68e7a0dec6a945c6f987219a8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9692301a1da38cfd69780ce2524f00dd428454e5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533761"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571200"
 ---
-# <a name="phase-10-decommission-legacy-site"></a><span data-ttu-id="1d7b9-102">Phase 10 : mettre hors service le site hérité</span><span class="sxs-lookup"><span data-stu-id="1d7b9-102">Phase 10: Decommission legacy site</span></span>
+# <a name="phase-10-decommission-legacy-site"></a><span data-ttu-id="e5c0a-103">Phase 10 : mettre hors service le site hérité</span><span class="sxs-lookup"><span data-stu-id="e5c0a-103">Phase 10: Decommission legacy site</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48533761"
 
 <span> </span>
 
-<span data-ttu-id="1d7b9-103">_**Dernière modification de la rubrique :** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="1d7b9-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="e5c0a-104">_**Dernière modification de la rubrique :** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="e5c0a-104">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="1d7b9-104">Les rubriques suivantes fournissent des conseils dans la mise hors service des pools et la désactivation et la suppression des serveurs et des pools d’un déploiement hérité d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="1d7b9-104">The following topics provide guidance in decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Office Communications Server 2007 R2.</span></span> <span data-ttu-id="1d7b9-105">Certaines des procédures répertoriées dans cette section ne sont pas requises.</span><span class="sxs-lookup"><span data-stu-id="1d7b9-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="1d7b9-106">Lisez les informations de chacune de ces rubriques pour déterminer la procédure de mise hors service à utiliser.</span><span class="sxs-lookup"><span data-stu-id="1d7b9-106">Read the information in each of these topics to determine which decommissioning procedure to use.</span></span>
+<span data-ttu-id="e5c0a-105">Les rubriques suivantes fournissent des conseils dans la mise hors service des pools et la désactivation et la suppression des serveurs et des pools d’un déploiement hérité d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="e5c0a-105">The following topics provide guidance in decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Office Communications Server 2007 R2.</span></span> <span data-ttu-id="e5c0a-106">Certaines des procédures répertoriées dans cette section ne sont pas requises.</span><span class="sxs-lookup"><span data-stu-id="e5c0a-106">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="e5c0a-107">Lisez les informations de chacune de ces rubriques pour déterminer la procédure de mise hors service à utiliser.</span><span class="sxs-lookup"><span data-stu-id="e5c0a-107">Read the information in each of these topics to determine which decommissioning procedure to use.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="1d7b9-107">Si vous avez importé des annuaires de conférence pour la Conférence rendez-vous vers Lync Server 2013, il est important de faire passer la propriété de l’annuaire des conférences à Lync Server 2013 avant de commencer à désaffecter vos pools.</span><span class="sxs-lookup"><span data-stu-id="1d7b9-107">If you imported conference directories for dial-in conferencing to Lync Server 2013, it is important to transition conference directory ownership to Lync Server 2013 before you begin to decommission your pools.</span></span> <span data-ttu-id="1d7b9-108">Si vous mettez hors service un pool sans transmettre la propriété des annuaires des conférences au préalable, la fonctionnalité de conférence rendez-vous ne fonctionnera plus pour toutes les réunions migrées.</span><span class="sxs-lookup"><span data-stu-id="1d7b9-108">If you decommission a pool without first transitioning conference directory ownership, the dial-in feature for all migrated meetings will no longer work.</span></span> <span data-ttu-id="1d7b9-109">Vous devez effectuer l’étape de transmission de propriété une fois pour chaque annuaire des conférences compris dans votre pool hérité.</span><span class="sxs-lookup"><span data-stu-id="1d7b9-109">You must perform the step to transition ownership once for each conference directory in your legacy pool.</span></span>
+> <span data-ttu-id="e5c0a-108">Si vous avez importé des annuaires de conférence pour la Conférence rendez-vous vers Lync Server 2013, il est important de faire passer la propriété de l’annuaire des conférences à Lync Server 2013 avant de commencer à désaffecter vos pools.</span><span class="sxs-lookup"><span data-stu-id="e5c0a-108">If you imported conference directories for dial-in conferencing to Lync Server 2013, it is important to transition conference directory ownership to Lync Server 2013 before you begin to decommission your pools.</span></span> <span data-ttu-id="e5c0a-109">Si vous mettez hors service un pool sans transmettre la propriété des annuaires des conférences au préalable, la fonctionnalité de conférence rendez-vous ne fonctionnera plus pour toutes les réunions migrées.</span><span class="sxs-lookup"><span data-stu-id="e5c0a-109">If you decommission a pool without first transitioning conference directory ownership, the dial-in feature for all migrated meetings will no longer work.</span></span> <span data-ttu-id="e5c0a-110">Vous devez effectuer l’étape de transmission de propriété une fois pour chaque annuaire des conférences compris dans votre pool hérité.</span><span class="sxs-lookup"><span data-stu-id="e5c0a-110">You must perform the step to transition ownership once for each conference directory in your legacy pool.</span></span>
 
 
 
@@ -55,7 +56,7 @@ ms.locfileid: "48533761"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1d7b9-110">Pour plus d’informations sur la migration et la mise à niveau des applications Microsoft Unified Communications Managed API (UCMA), avant de mettre hors service votre environnement hérité, voir <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="1d7b9-110">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
+> <span data-ttu-id="e5c0a-111">Pour plus d’informations sur la migration et la mise à niveau des applications Microsoft Unified Communications Managed API (UCMA), avant de mettre hors service votre environnement hérité, voir <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="e5c0a-111">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
 
 
 
@@ -63,15 +64,15 @@ ms.locfileid: "48533761"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1d7b9-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="1d7b9-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e5c0a-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="e5c0a-112">In This Section</span></span>
 
-  - [<span data-ttu-id="1d7b9-112">Déplacer les annuaires des conférences</span><span class="sxs-lookup"><span data-stu-id="1d7b9-112">Move conference directories</span></span>](move-conference-directories.md)
+  - [<span data-ttu-id="e5c0a-113">Déplacer les annuaires des conférences</span><span class="sxs-lookup"><span data-stu-id="e5c0a-113">Move conference directories</span></span>](move-conference-directories.md)
 
-  - [<span data-ttu-id="1d7b9-113">Mettre à jour les enregistrements SRV DNS</span><span class="sxs-lookup"><span data-stu-id="1d7b9-113">Update DNS SRV records</span></span>](update-dns-srv-records_1.md)
+  - [<span data-ttu-id="e5c0a-114">Mettre à jour les enregistrements SRV DNS</span><span class="sxs-lookup"><span data-stu-id="e5c0a-114">Update DNS SRV records</span></span>](update-dns-srv-records.md)
 
-  - [<span data-ttu-id="1d7b9-114">Mise hors service des serveurs et des pools</span><span class="sxs-lookup"><span data-stu-id="1d7b9-114">Decommissioning servers and pools</span></span>](decommissioning-servers-and-pools.md)
+  - [<span data-ttu-id="e5c0a-115">Mise hors service des serveurs et des pools</span><span class="sxs-lookup"><span data-stu-id="e5c0a-115">Decommissioning servers and pools</span></span>](decommissioning-servers-and-pools.md)
 
-  - [<span data-ttu-id="1d7b9-115">Supprimer BackCompatSite</span><span class="sxs-lookup"><span data-stu-id="1d7b9-115">Remove BackCompatSite</span></span>](remove-backcompatsite.md)
+  - [<span data-ttu-id="e5c0a-116">Supprimer BackCompatSite</span><span class="sxs-lookup"><span data-stu-id="e5c0a-116">Remove BackCompatSite</span></span>](remove-backcompatsite.md)
 
 </div>
 

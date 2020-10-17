@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : afficher les détails d’un service'
+description: 'Lync Server 2013 : afficher les détails d’un service.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64f728cb1fa128f0c3c2fbfe5b34ffab67283d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 09cc5a86748f18a9a032fbf7e90682f46b324902
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506461"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572440"
 ---
-# <a name="view-details-about-a-service-in-lync-server-2013"></a><span data-ttu-id="d43b7-102">Afficher les détails relatifs à un service dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d43b7-102">View details about a service in Lync Server 2013</span></span>
+# <a name="view-details-about-a-service-in-lync-server-2013"></a><span data-ttu-id="e1f8c-103">Afficher les détails relatifs à un service dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f8c-103">View details about a service in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,42 +38,42 @@ ms.locfileid: "48506461"
 
 <span> </span>
 
-<span data-ttu-id="d43b7-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d43b7-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="e1f8c-104">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="e1f8c-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="d43b7-104">Vous pouvez utiliser le panneau de configuration Lync Server pour afficher des détails sur chaque service en cours d’exécution sur un ordinateur spécifique dans votre topologie.</span><span class="sxs-lookup"><span data-stu-id="d43b7-104">You can use Lync Server Control Panel to view details about each service that is running on a specific computer in your topology.</span></span> <span data-ttu-id="d43b7-105">Vous pouvez consulter le statut de chaque service, ainsi que des données détaillées relatives aux bases de données associées, aux ports et aux services dépendants.</span><span class="sxs-lookup"><span data-stu-id="d43b7-105">You can view the status of each service and details such as the associated databases, ports, and dependent services.</span></span>
+<span data-ttu-id="e1f8c-105">Vous pouvez utiliser le panneau de configuration Lync Server pour afficher des détails sur chaque service en cours d’exécution sur un ordinateur spécifique dans votre topologie.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-105">You can use Lync Server Control Panel to view details about each service that is running on a specific computer in your topology.</span></span> <span data-ttu-id="e1f8c-106">Vous pouvez consulter le statut de chaque service, ainsi que des données détaillées relatives aux bases de données associées, aux ports et aux services dépendants.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-106">You can view the status of each service and details such as the associated databases, ports, and dependent services.</span></span>
 
 <div>
 
-## <a name="to-view-details-for-a-service"></a><span data-ttu-id="d43b7-106">Pour afficher les détails d’un service</span><span class="sxs-lookup"><span data-stu-id="d43b7-106">To view details for a service</span></span>
+## <a name="to-view-details-for-a-service"></a><span data-ttu-id="e1f8c-107">Pour afficher les détails d’un service</span><span class="sxs-lookup"><span data-stu-id="e1f8c-107">To view details for a service</span></span>
 
-1.  <span data-ttu-id="d43b7-107">À partir d’un compte d’utilisateur auquel est affecté un des rôles d’administrateur prédéfinis pour Lync Server 2013, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="d43b7-107">From a user account that is assigned to any of the predefined administrative roles for Lync Server 2013, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="d43b7-108">Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, reportez-vous à la rubrique [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span><span class="sxs-lookup"><span data-stu-id="d43b7-108">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
+1.  <span data-ttu-id="e1f8c-108">À partir d’un compte d’utilisateur auquel est affecté un des rôles d’administrateur prédéfinis pour Lync Server 2013, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-108">From a user account that is assigned to any of the predefined administrative roles for Lync Server 2013, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="e1f8c-109">Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, reportez-vous à la rubrique [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span><span class="sxs-lookup"><span data-stu-id="e1f8c-109">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
 
-2.  <span data-ttu-id="d43b7-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d43b7-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d43b7-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="d43b7-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="e1f8c-110">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e1f8c-111">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e1f8c-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="d43b7-111">Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.</span><span class="sxs-lookup"><span data-stu-id="d43b7-111">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+3.  <span data-ttu-id="e1f8c-112">Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-112">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-4.  <span data-ttu-id="d43b7-112">Dans la page **Statut**, triez la liste ou effectuez-y une recherche, puis cliquez sur l’ordinateur à afficher.</span><span class="sxs-lookup"><span data-stu-id="d43b7-112">In the **Status** page, sort or search through the list and then click the computer that you want to view.</span></span>
+4.  <span data-ttu-id="e1f8c-113">Dans la page **Statut**, triez la liste ou effectuez-y une recherche, puis cliquez sur l’ordinateur à afficher.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-113">In the **Status** page, sort or search through the list and then click the computer that you want to view.</span></span>
 
-5.  <span data-ttu-id="d43b7-113">Cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="d43b7-113">Click **Properties**.</span></span>
+5.  <span data-ttu-id="e1f8c-114">Cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-114">Click **Properties**.</span></span>
 
-6.  <span data-ttu-id="d43b7-114">Dans la fenêtre **Détail de l’ordinateur**, triez la liste des services, si besoin est, puis cliquez sur le service à consulter.</span><span class="sxs-lookup"><span data-stu-id="d43b7-114">In the **View Computer Detail** window, sort the list of services, if necessary, and click the service you want to view.</span></span>
+6.  <span data-ttu-id="e1f8c-115">Dans la fenêtre **Détail de l’ordinateur**, triez la liste des services, si besoin est, puis cliquez sur le service à consulter.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-115">In the **View Computer Detail** window, sort the list of services, if necessary, and click the service you want to view.</span></span>
 
-7.  <span data-ttu-id="d43b7-115">Effectuez les opérations suivantes, le cas échéant :</span><span class="sxs-lookup"><span data-stu-id="d43b7-115">Do any of the following as needed:</span></span>
+7.  <span data-ttu-id="e1f8c-116">Effectuez les opérations suivantes, le cas échéant :</span><span class="sxs-lookup"><span data-stu-id="e1f8c-116">Do any of the following as needed:</span></span>
     
-      - <span data-ttu-id="d43b7-116">Pour afficher le dernier statut du service concerné, cliquez sur **Obtenir le statut du service**.</span><span class="sxs-lookup"><span data-stu-id="d43b7-116">To see the latest status of that specific service, click **Get service status**.</span></span>
+      - <span data-ttu-id="e1f8c-117">Pour afficher le dernier statut du service concerné, cliquez sur **Obtenir le statut du service**.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-117">To see the latest status of that specific service, click **Get service status**.</span></span>
     
-      - <span data-ttu-id="d43b7-117">Pour afficher les détails du service en question, cliquez sur **Propriétés**, puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="d43b7-117">To see the details for that specific service, click **Properties** and then click **Close**.</span></span>
+      - <span data-ttu-id="e1f8c-118">Pour afficher les détails du service en question, cliquez sur **Propriétés**, puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-118">To see the details for that specific service, click **Properties** and then click **Close**.</span></span>
     
-      - <span data-ttu-id="d43b7-118">Pour obtenir une liste de tous les ordinateurs de votre topologie, cliquez sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="d43b7-118">To return to the list of all computers in your topology, click **Close**.</span></span>
+      - <span data-ttu-id="e1f8c-119">Pour obtenir une liste de tous les ordinateurs de votre topologie, cliquez sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="e1f8c-119">To return to the list of all computers in your topology, click **Close**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d43b7-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d43b7-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1f8c-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e1f8c-120">See Also</span></span>
 
 
-[<span data-ttu-id="d43b7-120">Gestion de la topologie Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d43b7-120">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+[<span data-ttu-id="e1f8c-121">Gestion de la topologie Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f8c-121">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

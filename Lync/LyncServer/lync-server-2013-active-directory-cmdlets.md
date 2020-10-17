@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : applets de commande Active Directory'
+description: 'Lync Server 2013 : applets de commande Active Directory.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9102adc17b5177264cc3e4daa1329cced5d9fe4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8c5e87cda24d5517b9c4501523fd06804ea20020
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529721"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571080"
 ---
-# <a name="active-directory-cmdlets-in-lync-server-2013"></a><span data-ttu-id="0c257-102">Applets de commande Active Directory dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c257-102">Active Directory cmdlets in Lync Server 2013</span></span>
+# <a name="active-directory-cmdlets-in-lync-server-2013"></a><span data-ttu-id="345db-103">Applets de commande Active Directory dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="345db-103">Active Directory cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,54 +38,54 @@ ms.locfileid: "48529721"
 
 <span> </span>
 
-<span data-ttu-id="0c257-103">_**Dernière modification de la rubrique :** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="0c257-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="345db-104">_**Dernière modification de la rubrique :** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="345db-104">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="0c257-104">Les applets de commande Active Directory sont généralement utilisées par le programme d’installation et sont rarement directement appelées par un administrateur.</span><span class="sxs-lookup"><span data-stu-id="0c257-104">The Active Directory cmdlets are typically used by Setup, and will rarely be called directly by an administrator.</span></span> <span data-ttu-id="0c257-105">Toutefois, les administrateurs peuvent utiliser ces cmdlets pour préparer (ou désinstaller) un domaine ou une forêt pour Microsoft Lync Server 2013, et pour installer les fichiers de schéma Active Directory requis.</span><span class="sxs-lookup"><span data-stu-id="0c257-105">However, administrators can use these cmdlets to prepare (or unprepare) a domain or forest for Microsoft Lync Server 2013, and to install the required Active Directory schema files.</span></span>
+<span data-ttu-id="345db-105">Les applets de commande Active Directory sont généralement utilisées par le programme d’installation et sont rarement directement appelées par un administrateur.</span><span class="sxs-lookup"><span data-stu-id="345db-105">The Active Directory cmdlets are typically used by Setup, and will rarely be called directly by an administrator.</span></span> <span data-ttu-id="345db-106">Toutefois, les administrateurs peuvent utiliser ces cmdlets pour préparer (ou désinstaller) un domaine ou une forêt pour Microsoft Lync Server 2013, et pour installer les fichiers de schéma Active Directory requis.</span><span class="sxs-lookup"><span data-stu-id="345db-106">However, administrators can use these cmdlets to prepare (or unprepare) a domain or forest for Microsoft Lync Server 2013, and to install the required Active Directory schema files.</span></span>
 
 <div>
 
-## <a name="active-directory-cmdlets"></a><span data-ttu-id="0c257-106">Applets de commande Active Directory</span><span class="sxs-lookup"><span data-stu-id="0c257-106">Active Directory Cmdlets</span></span>
+## <a name="active-directory-cmdlets"></a><span data-ttu-id="345db-107">Applets de commande Active Directory</span><span class="sxs-lookup"><span data-stu-id="345db-107">Active Directory Cmdlets</span></span>
 
-<span data-ttu-id="0c257-107">La liste suivante répertorie les applets de commande qui sont directement liées à la gestion des paramètres Active Directory de Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="0c257-107">The following is a list of cmdlets that relate directly to managing Lync Server 2013 Active Directory settings:</span></span>
+<span data-ttu-id="345db-108">La liste suivante répertorie les applets de commande qui sont directement liées à la gestion des paramètres Active Directory de Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="345db-108">The following is a list of cmdlets that relate directly to managing Lync Server 2013 Active Directory settings:</span></span>
 
-<span data-ttu-id="0c257-108">**Active Directory**</span><span class="sxs-lookup"><span data-stu-id="0c257-108">**Active Directory**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="0c257-109">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-109">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span></span>
+<span data-ttu-id="345db-109">**Active Directory**</span><span class="sxs-lookup"><span data-stu-id="345db-109">**Active Directory**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="0c257-110">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-110">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-110">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-110">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="0c257-111">[Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-111">[Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-111">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-111">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="345db-112">[Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-112">[Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="0c257-112">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-112">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-113">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-113">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="0c257-113">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-113">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-114">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-114">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="0c257-114">[Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-114">[Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-115">[Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-115">[Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="0c257-115">[Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-115">[Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-116">[Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-116">[Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="0c257-116">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0c257-116">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span></span>
+    <span data-ttu-id="345db-117">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="345db-117">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0c257-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0c257-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="345db-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="345db-118">See Also</span></span>
 
 
-[<span data-ttu-id="0c257-118">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="0c257-118">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="345db-119">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="345db-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
