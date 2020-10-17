@@ -12,20 +12,22 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac26e17ad9e0ab13529da438bc2e12bec210808d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94c64bbc8638ff4478849d74bb24f6e2f9704fa9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535811"
 ---
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Utilisation d’applets de commande pour inverser la préparation du domaine pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Utilisation d’applets de commande pour inverser la préparation du domaine pour Lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ Utilisez l’applet de commande **Disable-CsAdDomain** pour inverser l’étape 
     
 
     > [!NOTE]  
-    > Le paramètre GlobalSettingsDomainController vous permet d'indiquer où sont stockés les paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (ce qui est caractéristique des déploiements de mise à niveau qui n'ont pas eu leur paramètre global migré vers le conteneur de configuration), vous définissez un contrôleur de domaine dans la racine de votre forêt Active Directory. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous définissez tout contrôleur de domaine de la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et font référence à n'&nbsp;importe quel contrôleur de domaine dans AD DS.
+    > Le paramètre GlobalSettingsDomainController vous permet d'indiquer où sont stockés les paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (ce qui est caractéristique des déploiements de mise à niveau qui n'ont pas eu leur paramètre global migré vers le conteneur de configuration), vous définissez un contrôleur de domaine dans la racine de votre forêt Active Directory. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous définissez tout contrôleur de domaine de la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et font référence à n’importe quel contrôleur de domaine dans AD &nbsp; DS.
 
     
     </div>

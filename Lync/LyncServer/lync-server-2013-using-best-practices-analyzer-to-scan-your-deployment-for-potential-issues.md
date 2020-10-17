@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535881"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Utilisation de Best Practices Analyzer pour analyser le déploiement de Lync Server 2013 à la recherche de problèmes éventuels
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Utilisation de Best Practices Analyzer pour analyser le déploiement de Lync Server 2013 à la recherche de problèmes éventuels
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Dernière modification de la rubrique :** 2012-10-21_
 
 Pour lancer une analyse Best Practices Analyzer, vous devez spécifier ce qui suit :
 
-  - **Informations d’identification**   pour exécuter une analyse, vous devez vous connecter à un ordinateur sur lequel Best Practices Analyzer est installé à l’aide d’un compte membre du groupe Administrateurs local. En outre, ce compte doit disposer des droits et autorisations requis pour lancer les analyses appropriées ou vous devez spécifier des informations d’identification disposant des droits et autorisations appropriés pour exécuter Best Practices Analyzer. Pour plus d’informations, reportez-vous aux [appartenances aux groupes et aux droits des utilisateurs pour Best Practices Analyzer dans Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Informations d’identification**     Pour exécuter une analyse, vous devez vous connecter à un ordinateur sur lequel Best Practices Analyzer est installé à l’aide d’un compte membre du groupe Administrateurs local. En outre, ce compte doit disposer des droits et autorisations requis pour lancer les analyses appropriées ou vous devez spécifier des informations d’identification disposant des droits et autorisations appropriés pour exécuter Best Practices Analyzer. Pour plus d’informations, reportez-vous aux [appartenances aux groupes et aux droits des utilisateurs pour Best Practices Analyzer dans Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-  - **Étendue de l’analyse**   pour spécifier l’étendue de l’analyse, sélectionnez les catégories et les serveurs que vous souhaitez analyser. Vous pouvez sélectionner toutes les catégories, une ou plusieurs catégories ou un ou plusieurs serveurs d’une catégorie spécifique dans votre environnement Lync Server.
+  - **Étendue de l’analyse**     Pour spécifier l’étendue de l’analyse, sélectionnez les catégories et les serveurs que vous souhaitez analyser. Vous pouvez sélectionner toutes les catégories, une ou plusieurs catégories ou un ou plusieurs serveurs d’une catégorie spécifique dans votre environnement Lync Server.
 
-  - **Type d’analyse**   actuellement, l’analyse du contrôle d’intégrité est le seul type d’analyse disponible (sélectionné par défaut). L’analyse de vérification de l’intégrité génère un rapport qui comprend les erreurs, les avertissements et d’autres informations pour tous les serveurs spécifiés dans l’étendue de l’analyse.
+  - **Type d’analyse**     Actuellement, l’analyse du contrôle d’intégrité est le seul type d’analyse disponible (sélectionné par défaut). L’analyse de vérification de l’intégrité génère un rapport qui comprend les erreurs, les avertissements et d’autres informations pour tous les serveurs spécifiés dans l’étendue de l’analyse.
 
-  - **Vitesse réseau les**   options de vitesse de réseau incluent Fast LAN (100 Mbits/s ou plus), LAN (10 Mbits/s), Fast WAN (1,5 Mbits/s) ou WAN (64 Kbits/s). Le temps estimé pour réaliser l’analyse dépend de ce paramètre. Ce paramètre est également utilisé pour définir le délai d’expiration. Au cours de l’analyse, Best Practices Analyzer attend une réponse d’un serveur dans un délai spécifié. S’il ne reçoit aucune réponse dans ce délai, il passe au serveur suivant dans l’analyse. Sur les réseaux plus lents, ce délai est plus long pour prendre en compte les latences réseau plus longues. Nous vous recommandons de sélectionner la liaison la plus lente dans votre topologie pour ce paramètre afin que l’exécution de l’outil n’expire pas non plus.
+  - **Vitesse**     du réseau Les options de vitesse du réseau sont les suivants : Fast LAN (100 Mbits/s ou plus), LAN (10 Mbits/s), Fast WAN (1,5 Mbits/s) ou WAN (64 Kbits/s). Le temps estimé pour réaliser l’analyse dépend de ce paramètre. Ce paramètre est également utilisé pour définir le délai d’expiration. Au cours de l’analyse, Best Practices Analyzer attend une réponse d’un serveur dans un délai spécifié. S’il ne reçoit aucune réponse dans ce délai, il passe au serveur suivant dans l’analyse. Sur les réseaux plus lents, ce délai est plus long pour prendre en compte les latences réseau plus longues. Nous vous recommandons de sélectionner la liaison la plus lente dans votre topologie pour ce paramètre afin que l’exécution de l’outil n’expire pas non plus.
 
 <div>
 

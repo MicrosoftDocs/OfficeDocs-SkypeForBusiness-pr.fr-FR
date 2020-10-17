@@ -12,20 +12,22 @@ ms:contentKeyID: 48183298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a64bde9cabcae282be83b671115a5cda4e5580e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c40fddd324cd687b54d0c3317edc533fa559c8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536691"
 ---
+# <a name="registration-table-in-lync-server-2013"></a>Table Registration dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="registration-table-in-lync-server-2013"></a>Table Registration dans Lync Server 2013
+
 
 </div>
 
@@ -173,7 +175,7 @@ Chaque enregistrement représente un événement relatif à l’inscription d’
 <td><p>La raison de l’annulation de l’inscription, par exemple « initié par l’utilisateur », « expiration de l’inscription », « échec du client », et bien plus encore. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-deregistertype-table.md">table DeRegisterType dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IP</strong></p></td>
+<td><p><strong>IPAddress</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Adresse IP du point de terminaison avec laquelle l’utilisateur s’est inscrit. Il peut s’agir d’une adresse IPv4 ou d’une adresse IPv6.</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8687c5b9c5f422994817910eec640cc795798d18
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54371acb29bcc7d9b6581cbfd26199888dcfe893
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536101"
 ---
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Configuration technique requise pour l’application d’annonce dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Configuration technique requise pour l’application d’annonce dans Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ L’application d’annonce a les mêmes besoins en matière de matériel que le
 
 L’application d’annonce présente les mêmes exigences en matière de système d’exploitation et de logiciels que les serveurs frontaux. Pour plus d’informations sur la configuration logicielle requise, voir [serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de prise en charge.
 
-Windows Media Format Runtime doit être installé sur tous les serveurs frontaux ou les serveurs Standard Edition qui exécutent l’application d’annonce pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de l’expérience Bureau Windows. Le module d’exécution du format Windows Media ou Microsoft Media Foundation est requis pour les fichiers audio Windows Media (. WMA) que l’application d’annonce joue pour les annonces et la musique.
+Tous les serveurs frontaux ou les serveurs Standard Edition qui exécutent l’application d’annonce doivent avoir installé le module d’exécution du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de l’expérience Bureau Windows. Le module d’exécution du format Windows Media ou Microsoft Media Foundation est requis pour les fichiers audio Windows Media (. WMA) que l’application d’annonce joue pour les annonces et la musique.
 
 </div>
 
@@ -71,7 +73,7 @@ Windows Media Format Runtime doit être installé sur tous les serveurs frontaux
 
 L’application d’annonce utilise le port suivant :
 
-  - **Port 5071**   utilisé pour les demandes d’écoute SIP
+  - **Port 5071**     Utilisé pour les demandes d’écoute SIP
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536131"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Configuration technique requise pour le serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Configuration technique requise pour le serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-01-06_
 
 Chaque ordinateur qui héberge le serveur de conversation permanente doit avoir accès à une topologie Lync Server 2013 existante avec les composants suivants :
 
-  - **Lync Server 2013, serveur frontal.**  Le serveur frontal est la base du routage SIP (Session Initiation Protocol), qui rend possible la communication entre les ordinateurs exécutant le serveur de conversation permanente et la fonctionnalité de conversation permanente. Avant de commencer à déployer le serveur de conversation permanente, vérifiez le déploiement de Lync Server 2013, Standard Edition ou d’un pool frontal Lync Server et de tous les autres ordinateurs internes exécutant Lync Server, selon les besoins de votre organisation.
+  - **Lync server 2013, serveur frontal.**   Le serveur frontal est la base du routage SIP (Session Initiation Protocol), qui rend possible la communication entre les ordinateurs exécutant le serveur de conversation permanente et la fonctionnalité de conversation permanente. Avant de commencer à déployer le serveur de conversation permanente, vérifiez le déploiement de Lync Server 2013, Standard Edition ou d’un pool frontal Lync Server et de tous les autres ordinateurs internes exécutant Lync Server, selon les besoins de votre organisation.
 
 Les sections suivantes décrivent les conditions requises spécifiques pour le serveur de conversation permanente et la base de données qui stocke les données de conversation permanente.
 
@@ -99,9 +101,9 @@ La plateforme de serveur pour les serveurs de bases de données de conversation 
 
 Sur le serveur de base de données, assurez-vous que l’une des applications logicielles suivantes est installée :
 
-  - Microsoft SQL Server 2012. Pour plus d’informations sur l’installation de Microsoft SQL Server 2012, voir « installer SQL Server 2012 [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559)» à l’adresse suivante :.
+  - Microsoft SQL Server 2012. Pour plus d’informations sur l’installation de Microsoft SQL Server 2012, voir « installer SQL Server 2012 » à l’adresse suivante [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559) :.
 
-  - Microsoft SQL Server 2008 R2. Pour plus d’informations sur l’installation de Microsoft SQL Server 2008 R2, voir « installation de SQL Server (SQL Server 2008 R2 [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702)) » à l’adresse.
+  - Microsoft SQL Server 2008 R2. Pour plus d’informations sur l’installation de Microsoft SQL Server 2008 R2, voir « installation de SQL Server (SQL Server 2008 R2) » à l’adresse [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702) .
 
 </div>
 

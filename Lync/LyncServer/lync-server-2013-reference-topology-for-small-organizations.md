@@ -12,20 +12,22 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726056b63dfa37864171a77913b5126c23b27045
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68163756f2c2153d1e164999532bc6265400ac5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536731"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topologie de référence pour Lync Server 2013 dans les petites organisations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topologie de référence pour Lync Server 2013 dans les petites organisations
+
 
 </div>
 
@@ -43,9 +45,9 @@ La topologie de référence pour les petites organisations vous montre comment d
 
 ![Diagramme de la topologie de référence de déploiement de trois serveurs](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Diagramme de la topologie de référence de déploiement de trois serveurs")
 
-  - **Paire de serveurs Standard Edition déployée**     cette organisation a 4 000 utilisateurs sur leur site central. L’organisation a déployé deux serveurs Standard Edition et les a associés pour permettre la haute disponibilité et la récupération d’urgence. Chaque serveur héberge 2 000 utilisateurs, mais les informations sur tous les utilisateurs sont synchronisées entre les deux serveurs. En cas de panne, un administrateur peut faire basculer ces utilisateurs pour qu’ils soient pris en charge par l’autre serveur, avec un minimum de perturbation pour les utilisateurs. Pour plus d’informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence dans Lync Server 2013, consultez la rubrique [planification de la haute disponibilité et de la récupération d’urgence dans Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Paire de serveurs Standard Edition déployés**     Cette organisation a 4 000 utilisateurs sur leur site central. L’organisation a déployé deux serveurs Standard Edition et les a associés pour permettre la haute disponibilité et la récupération d’urgence. Chaque serveur héberge 2 000 utilisateurs, mais les informations sur tous les utilisateurs sont synchronisées entre les deux serveurs. En cas de panne, un administrateur peut faire basculer ces utilisateurs pour qu’ils soient pris en charge par l’autre serveur, avec un minimum de perturbation pour les utilisateurs. Pour plus d’informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence dans Lync Server 2013, consultez la rubrique [planification de la haute disponibilité et de la récupération d’urgence dans Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - **Le déploiement de serveur Edge est recommandé.**    Bien que le déploiement d’un serveur Edge ne soit pas requis pour la messagerie instantanée interne, la présence et la Conférence, nous vous recommandons de le faire même pour les déploiements de petite taille. Vous pouvez optimiser votre investissement Lync Server en déployant un serveur Edge pour fournir des services aux utilisateurs qui se trouvent actuellement en dehors des pare-feu de votre organisation. Les avantages sont les suivants :
+  - Le **déploiement de serveur Edge est recommandé.**     Bien que le déploiement d’un serveur Edge ne soit pas requis pour la messagerie instantanée interne, la présence et la Conférence, nous vous recommandons de le faire même pour les déploiements de petite taille. Vous pouvez optimiser votre investissement Lync Server en déployant un serveur Edge pour fournir des services aux utilisateurs qui se trouvent actuellement en dehors des pare-feu de votre organisation. Les avantages sont les suivants :
     
       - Les utilisateurs de votre organisation peuvent utiliser les fonctionnalités de Lync Server, s’ils travaillent de chez eux ou s’ils sont en déplacement.
     
@@ -53,7 +55,7 @@ La topologie de référence pour les petites organisations vous montre comment d
     
       - Si vous avez un partenaire, un fournisseur ou une organisation cliente qui utilise également Lync Server, vous pouvez former une *relation fédérée* avec cette organisation. Votre déploiement Lync Server reconnaîtrait alors les utilisateurs de cette organisation fédérée, ce qui permettra une meilleure collaboration.
     
-      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publics, y compris tout ou partie des éléments suivants :\!Windows Live, AOL, Yahoo et Google Talk. Une licence distincte peut être requise pour la connectivité PIC avec ces services.
+      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publics, y compris tout ou partie des éléments suivants : Windows Live, AOL, Yahoo \! et Google Talk. Une licence distincte peut être requise pour la connectivité PIC avec ces services.
         
         <div>
         
@@ -70,7 +72,7 @@ La topologie de référence pour les petites organisations vous montre comment d
         
         </div>
 
-  - **Survivabilité du site de succursale.**    Cette organisation exécute un programme pilote de la fonctionnalité voix entreprise de Lync Server. Certains utilisateurs utilisent Lync Server comme solution vocale unique. Certains de ces utilisateurs de la version pilote vocale se trouvent sur le site de succursale. Le site de succursale ne dispose pas d’un lien de réseau étendu (WAN) fiable vers le site central, c’est pourquoi un Survivable Branch Appliance est déployé à cet emplacement. Une fois cette fonctionnalité déployée, si la liaison de réseau étendu (WAN) tombe en panne, les utilisateurs du site de succursale peuvent continuer à passer et recevoir des appels (les deux appels au sein de l’organisation et les appels RTC), bénéficier des fonctionnalités de messagerie vocale et communiquer avec la messagerie instantanée (IM) à deux personnes. Les utilisateurs peuvent également être authentifiés lorsque la liaison WAN n’est plus disponible.
+  - **Survivabilité du site de succursale.**     Cette organisation exécute un programme pilote de la fonctionnalité voix entreprise de Lync Server. Certains utilisateurs utilisent Lync Server comme solution vocale unique. Certains de ces utilisateurs de la version pilote vocale se trouvent sur le site de succursale. Le site de succursale ne dispose pas d’un lien de réseau étendu (WAN) fiable vers le site central, c’est pourquoi un Survivable Branch Appliance est déployé à cet emplacement. Une fois cette fonctionnalité déployée, si la liaison de réseau étendu (WAN) tombe en panne, les utilisateurs du site de succursale peuvent continuer à passer et recevoir des appels (les deux appels au sein de l’organisation et les appels RTC), bénéficier des fonctionnalités de messagerie vocale et communiquer avec la messagerie instantanée (IM) à deux personnes. Les utilisateurs peuvent également être authentifiés lorsque la liaison WAN n’est plus disponible.
 
   - **Déploiement de la messagerie unifiée Exchange** Cette topologie de référence inclut un serveur de messagerie unifiée Exchange, qui exécute Microsoft Exchange Server, et non Lync Server.
     

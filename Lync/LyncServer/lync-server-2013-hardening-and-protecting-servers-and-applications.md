@@ -12,20 +12,22 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2a8de372a8ca0ae6ec8c80a147eb74ffb01d0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3533bcf01338a056bab8c75d1409530fab7c901f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536881"
 ---
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Renforcement et protection des serveurs et des applications pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Renforcement et protection des serveurs et des applications pour Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Pour les serveurs d’applications, le système d’exploitation et l’applicat
 
 ## <a name="securing-virtual-servers"></a>Sécurisation des serveurs virtuels
 
-Les captures instantanées de serveur virtuel contiennent des copies des disques de données du serveur et contiennent également des dumps de données en mémoire, qui peuvent contenir des données de chiffrement sensibles susceptibles de conduire à des attaques. Pour les serveurs de production implémentés à l’aide de la virtualisation, vous devez désactiver toutes les captures instantanées de serveur ou les gérer de manière très contrôlée. Pour plus d’informations sur la sécurisation des serveurs virtuels Hyper-V, voir le Guide de [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)sécurité Hyper-v à l’adresse suivante :.
+Les captures instantanées de serveur virtuel contiennent des copies des disques de données du serveur et contiennent également des dumps de données en mémoire, qui peuvent contenir des données de chiffrement sensibles susceptibles de conduire à des attaques. Pour les serveurs de production implémentés à l’aide de la virtualisation, vous devez désactiver toutes les captures instantanées de serveur ou les gérer de manière très contrôlée. Pour plus d’informations sur la sécurisation des serveurs virtuels Hyper-V, voir le Guide de sécurité Hyper-V à l’adresse suivante : [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176) .
 
 </div>
 
@@ -85,9 +87,9 @@ Dans Windows Server 2008 et Windows Server 2008 R2, la stratégie de groupe four
 
 Pour fournir une interface utilisateur permettant à l’administrateur de configurer ces paramètres, les modèles d’administration sont fournis avec les versions du système d’exploitation, les versions des service packs et certaines applications, y compris Lync Server 2013.
 
-Le fichier Communicator. adm est un modèle d’administration fourni avec Lync Server 2013, est installé dans le répertoire% windir%\\INF\\ et fournit une interface aux paramètres de la stratégie de groupe. Chaque paramètre de Communicator. adm correspond à un paramètre dans le Registre qui affecte le comportement de l’application.
+Le fichier Communicator. adm est un modèle d’administration fourni avec Lync Server 2013, est installé dans le répertoire% windir% \\ INF \\ et fournit une interface aux paramètres de la stratégie de groupe. Chaque paramètre de Communicator. adm correspond à un paramètre dans le Registre qui affecte le comportement de l’application.
 
-Les paramètres sont accessibles à partir de GPedit. dll, qui est disponible à partir de la console utilisateurs et ordinateurs Active Directory et de la console de gestion des stratégies de groupe (GPMC).
+Les paramètres sont accessibles à partir de GPedit.dll, qui sont disponibles à partir de la console utilisateurs et ordinateurs Active Directory et de la console de gestion des stratégies de groupe (GPMC).
 
 </div>
 
@@ -95,7 +97,7 @@ Les paramètres sont accessibles à partir de GPedit. dll, qui est disponible à
 
 ## <a name="group-policy-security-settings"></a>Paramètres de sécurité de la stratégie de groupe
 
-La stratégie de groupe contient les paramètres de sécurité d’un objet GPO sous Configuration de l’ordinateur/Paramètres Windows/paramètres de sécurité lors de l’accès à partir de GPedit. dll. Vous pouvez importer des modèles de sécurité pour configurer les paramètres de sécurité de l’objet de stratégie de groupe. Le Guide de sécurité de Windows Server [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 2008 à l’adresse et le kit de gestion de la [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) conformité de la sécurité de Windows Server 2008 R2, accessible à l’aide de ces modèles, que vous pouvez modifier pour répondre à vos besoins.
+La stratégie de groupe contient les paramètres de sécurité d’un objet GPO sous Configuration de l’ordinateur/Paramètres Windows/paramètres de sécurité lors de l’accès à partir de GPedit.dll. Vous pouvez importer des modèles de sécurité pour configurer les paramètres de sécurité de l’objet de stratégie de groupe. Le Guide de sécurité de Windows Server 2008 à [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) l’adresse et le kit de gestion de la conformité de la sécurité de Windows server 2008 R2, accessible à l’aide de ces [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) modèles, que vous pouvez modifier pour répondre à vos besoins.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 629fa8ea52148e25bd37fa448d9762fbfd557788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7da23bc56d18b1b5e6235551f7b99cc15e658fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193377"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535931"
 ---
+# <a name="troubleshooting-lync-server-2013-control-panel"></a>Dépannage du panneau de configuration Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-lync-server-2013-control-panel"></a>Dépannage du panneau de configuration Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Le panneau de configuration Lync Server nécessite l’installation du plug-in d
 
 </div>
 
-Si votre navigateur Internet bloque l’installation de Silverlight en raison de considérations de sécurité, ajoutez l’URL (Uniform Resource Locator) qui ouvre le panneau de configuration Lync Server à la liste des sites de confiance. Dans les paramètres de sécurité d’Internet Explorer, vérifiez que **Exécuter les contrôles ActiveX et les plugins** est défini comme **Activé**. Pour plus d’informations [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060), reportez-vous à. De plus, vérifiez que le navigateur est configuré pour utiliser SSL 3.0.
+Si votre navigateur Internet bloque l’installation de Silverlight en raison de considérations de sécurité, ajoutez l’URL (Uniform Resource Locator) qui ouvre le panneau de configuration Lync Server à la liste des sites de confiance. Dans les paramètres de sécurité d’Internet Explorer, vérifiez que **Exécuter les contrôles ActiveX et les plugins** est défini comme **Activé**. Pour plus d’informations, reportez-vous à [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060) . De plus, vérifiez que le navigateur est configuré pour utiliser SSL 3.0.
 
 Si le navigateur Internet est configuré de sorte d’utiliser un serveur proxy, vérifiez qu’il est configuré pour contourner le serveur proxy pour les sites qui sont automatiquement détectés comme des sites internes. Vous pouvez aussi ajouter l’adresse à la liste d’exception du navigateur dans les paramètres de configuration du serveur proxy.
 

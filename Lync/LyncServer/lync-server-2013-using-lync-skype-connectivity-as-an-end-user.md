@@ -12,20 +12,22 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6971ef2d6fb08838a4fcf71f4fec8097a7f9e47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94bb9a2d5fa584de5b6195de0ad2accf6899d0e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535771"
 ---
+# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>Utilisation de la connectivité Lync-Skype dans Lync Server 2013 en tant qu’utilisateur final
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>Utilisation de la connectivité Lync-Skype dans Lync Server 2013 en tant qu’utilisateur final
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42212820"
 
 _**Dernière modification de la rubrique :** 2016-12-27_
 
-Lync-Skype Connectivity permet aux utilisateurs Skype et aux utilisateurs de Lync de s’ajouter eux-mêmes sous forme de contacts, d’échanger des messages instantanés et d’effectuer des appels audio et vidéo. Lorsqu’un utilisateur Skype ajoute un utilisateur Lync, un utilisateur Skype crée un contact dans Skype contenant l’URI (Uniform Resource Identifier) SIP (Session Initiation Protocol) de l’utilisateur Lync. À l’inverse, lorsqu’un utilisateur Lync ajoute un contact Skype, l’utilisateur de Lync crée un contact dans Lync qui contiendra le compte Microsoft (MSA) de l’utilisateur Skype, et non le nom d’utilisateur Skype.
+La connectivité Lync-Skype permet aux utilisateurs Skype et aux utilisateurs de Lync de s’ajouter eux-mêmes en tant que contacts, d’échanger des messages instantanés et d’effectuer des appels audio et vidéo. Lorsqu’un utilisateur Skype ajoute un utilisateur Lync, un utilisateur Skype crée un contact dans Skype contenant l’URI (Uniform Resource Identifier) SIP (Session Initiation Protocol) de l’utilisateur Lync. À l’inverse, lorsqu’un utilisateur Lync ajoute un contact Skype, l’utilisateur de Lync crée un contact dans Lync qui contiendra le compte Microsoft (MSA) de l’utilisateur Skype, et non le nom d’utilisateur Skype.
 
-**Qu’est-ce qu’un MSA ?** Les utilisateurs de Skype doivent se connecter à Skype à l’aide d’un compte Microsoft (anciennement appelé Windows Live ID) pour communiquer avec les contacts Lync.Un compte Microsoft est constitué de la combinaison d’une adresse de messagerie et d’un mot de passe, que vous pouvez également utiliser pour vous connecter à des services tels que la technologie de stockage Microsoft OneDrive, Windows Phone, le service de jeux Microsoft Xbox LIVE Online et la messagerie Microsoft Outlook. et le client de collaboration (et, auparavant, le service de messagerie Web Microsoft Hotmail ou Windows Live Messenger).Si vous utilisez une adresse de messagerie et un mot de passe pour vous connecter à ces services ou à d’autres services, vous disposez déjà d’un compte Microsoft.Pour plus d’informations sur la création d’un compte Microsoft, reportez-vous [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)à la page d’inscription au compte Microsoft à l’adresse. Vous pouvez fusionner votre compte Skype existant avec votre compte Microsoft pour l’authentification unique, par le biais d’une variété d’applications et de services. Une fois le compte fusionné, un utilisateur de Skype peut envoyer une demande de contact aux utilisateurs de Lync.
+**Qu’est-ce qu’un MSA ?** Les utilisateurs de Skype doivent se connecter à Skype à l’aide d’un compte Microsoft (anciennement appelé Windows Live ID) pour communiquer avec les contacts Lync.Un compte Microsoft est composé de la combinaison d’une adresse de messagerie et d’un mot de passe, que vous pouvez également utiliser pour vous connecter à des services tels que la technologie de stockage Microsoft OneDrive, Windows Phone, le service de jeux Microsoft Xbox LIVE Online et le client de messagerie et de collaboration Microsoft Outlook (et, auparavant, le service de messagerie Web Microsoft Hotmail ou Windows Live Messenger).Si vous utilisez une adresse de messagerie et un mot de passe pour vous connecter à ces services ou à d’autres services, vous disposez déjà d’un compte Microsoft.Pour plus d’informations sur la création d’un compte Microsoft, reportez-vous à la page d’inscription au compte Microsoft à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061) . Vous pouvez fusionner votre compte Skype existant avec votre compte Microsoft pour l’authentification unique, par le biais d’une variété d’applications et de services. Une fois le compte fusionné, un utilisateur de Skype peut envoyer une demande de contact aux utilisateurs de Lync.
 
 <div>
 
@@ -102,7 +104,7 @@ Dans chaque instance, l’utilisateur Lync doit entrer le courrier électronique
 
 2.  Dans la liste des fournisseurs de contacts disponibles, sélectionnez **Skype**.
 
-3.  Dans le champ **adresse de messagerie instantanée** , entrez le compte Microsoft (MSA) de l’utilisateur Skype au format <strong>utilisateur (nom de domaine) @msn. com</strong>. Ainsi, pour l’utilisateur bob@contoso.com, l’entrée <strong>serait Bob (contoso. com) @msn.<strong> com.
+3.  Dans le champ **adresse de messagerie instantanée** , entrez le compte Microsoft (MSA) de l’utilisateur Skype au format <strong>utilisateur (nom de domaine) @msn. com</strong>. Ainsi, pour l’utilisateur bob@contoso.com, l’entrée serait <strong> Bob (contoso. com) @msn. com <strong> .
 
 4.  Dans la zone de liste déroulante **Ajouter au groupe de contacts** , sélectionnez un groupe de contacts auquel ajouter l’utilisateur.
 

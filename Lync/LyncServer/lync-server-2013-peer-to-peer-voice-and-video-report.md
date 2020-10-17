@@ -12,20 +12,22 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc5d3905df971cf5ce09bfb026acc4838974ff18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215660"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536801"
 ---
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Rapport vocal et vidéo d’égal à égal dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Rapport vocal et vidéo d’égal à égal dans Lync Server 2013
+
 
 </div>
 
@@ -104,7 +106,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
-<p>07/07/2012 13h</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>

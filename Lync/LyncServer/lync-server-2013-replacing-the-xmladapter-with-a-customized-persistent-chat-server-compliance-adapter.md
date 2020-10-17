@@ -12,20 +12,22 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e9cd9f2e950e835a113f64795022753e44e3ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c90452edc96a424111fcaa8c99dcf60e55e0109
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536351"
 ---
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Remplacement de XmlAdapter par une carte de conformité de serveur de conversation permanente personnalisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Remplacement de XmlAdapter par une carte de conformité de serveur de conversation permanente personnalisée dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser XmlAdapter 
 
 ## <a name="implementing-the-icomplianceadapter-interface"></a>Implémentation de l’interface IComplianceAdapter
 
-L’interface est définie dans l’assembly. dll de l’espace `Microsoft.Rtc.Internal.Chat.Server.Compliance`de noms. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
+L’interface est définie dans l’assembly Compliance.dll dans l’espace de noms `Microsoft.Rtc.Internal.Chat.Server.Compliance` . Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
 
     void SetConfig(AdapterConfig config)
 
@@ -51,9 +53,9 @@ Le serveur de conformité de conversation permanente appellera cette méthode lo
 
     void Translate(ConversationCollection conversations)
 
-Le serveur de conformité de conversation permanente appelle cette méthode à intervalles réguliers tant qu’il y a de nouvelles données à traduire. Cet intervalle de temps est égal à `RunInterval` l’comme défini dans la configuration de la conformité de conversation permanente.
+Le serveur de conformité de conversation permanente appelle cette méthode à intervalles réguliers tant qu’il y a de nouvelles données à traduire. Cet intervalle de temps est égal à l' `RunInterval` comme défini dans la configuration de la conformité de conversation permanente.
 
-`ConversationCollection` Contient les informations de conversation collectées lors du dernier appel de cette méthode.
+`ConversationCollection`Contient les informations de conversation collectées lors du dernier appel de cette méthode.
 
 </div>
 

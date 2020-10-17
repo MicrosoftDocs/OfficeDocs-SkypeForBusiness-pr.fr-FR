@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : serveurs de démarrage Edge'
+description: 'Lync Server 2013 : démarrer les serveurs Edge.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6dd2f40cdcba947a560dd51c520c8da2dbc768d9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1f036b9f140c7548d223f3346c8e9488e44c78aa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532971"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541880"
 ---
 # <a name="start-edge-servers-in-lync-server-2013"></a>Démarrer des serveurs Edge dans Lync Server 2013
 

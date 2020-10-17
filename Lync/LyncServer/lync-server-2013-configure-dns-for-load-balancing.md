@@ -12,20 +12,22 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8b2059048823c1a8f063d0d7832759ec64e6341
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 831968516ef155d6ad018f33bfa27226f58292dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537141"
 ---
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Configurer le DNS pour l’équilibrage de charge dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Configurer le DNS pour l’équilibrage de charge dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-10-01_
 
 Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine au moins en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
 
-L’équilibrage de charge DNS (Domain Name System) équilibre le trafic réseau propre à Lync Server 2013, tel que le trafic SIP et le trafic multimédia. L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools de serveurs directeurs et les pools de serveurs de médiation autonomes. Un pool configuré pour utiliser l’équilibrage de charge DNS doit avoir deux noms de domaine complets (FQDN) définis : le nom de domaine complet du pool normal qui est utilisé par l’équilibrage de charge DNS (par exemple, pool1.contoso.com) et qui est résolu en adresses IP physiques des serveurs du pool. et un autre nom de domaine complet pour les services Web du pool (par exemple, web1.contoso.net), qui est résolu en adresse IP virtuelle du pool. Pour plus d’informations sur l’équilibrage de la charge DNS, voir [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
+L’équilibrage de charge DNS (Domain Name System) équilibre le trafic réseau propre à Lync Server 2013, tel que le trafic SIP et le trafic multimédia. L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools de serveurs directeurs et les pools de serveurs de médiation autonomes. Un pool configuré pour utiliser l’équilibrage de charge DNS doit avoir deux noms de domaine complets (FQDN) définis : nom de domaine complet (FQDN) du pool normal utilisé par l’équilibrage de charge DNS (par exemple, pool1.contoso.com) et qui est résolu en adresses IP physiques des serveurs du pool, et un autre nom de domaine complet pour les services Web du pool (par exemple, web1.contoso.net), ce qui est résolu en adresse IP virtuelle du pool. Pour plus d’informations sur l’équilibrage de la charge DNS, voir [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
 
 <div>
 

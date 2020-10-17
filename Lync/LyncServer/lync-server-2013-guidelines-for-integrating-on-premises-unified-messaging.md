@@ -12,20 +12,22 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d6fc97a0b8c96758344dea12a0720d5ad049ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f032f7dd7d11d70ac912b2005f3ad9f7ddad69
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536921"
 ---
+# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Instructions pour l’intégration de la messagerie unifiée locale et de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Instructions pour l’intégration de la messagerie unifiée locale et de Lync Server 2013
+
 
 </div>
 
@@ -115,13 +117,13 @@ Dans l’exemple 1, les serveurs de messagerie unifiée Exchange 1 et 2 sont ac
 
 Dans l’exemple 2, dans des conditions de fonctionnement normales, les serveurs de messagerie unifiée Exchange 1 et 2 sont activés dans le centre de données Tukwila, et les serveurs de messagerie unifiée Exchange 3 et 4 sont activés dans le centre de données Dublin. Les quatre serveurs sont tous inclus dans le plan de numérotation URI SIP des utilisateurs Tukwila, toutefois les serveurs 3 et 4 sont désactivés. Dans le cas d’une défaillance d’un serveur de messagerie unifiée Exchange dans Tukwila, par exemple, les serveurs de messagerie unifiée Exchange 1 et 2 doivent être désactivés et les serveurs de messagerie unifiée Exchange 3 et 4 activés afin que le trafic de messagerie unifiée Exchange Tukwila soit acheminé vers les serveurs dans Dublin.
 
-Pour plus d’informations sur l’activation ou la désactivation de la messagerie unifiée sur Exchange 2013, voir « intégration de la [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)messagerie unifiée Exchange 2013 à Lync Server » à l’adresse.
+Pour plus d’informations sur l’activation ou la désactivation de la messagerie unifiée sur Exchange 2013, voir « intégration de la messagerie unifiée Exchange 2013 à Lync Server » à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 Pour plus d’informations sur l’activation ou la désactivation de la messagerie unifiée sur Microsoft Exchange Server 2010, voir :
 
-  - « Activer la messagerie unifiée sur Exchange 2010 [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418)» à l’adresse.
+  - « Activer la messagerie unifiée sur Exchange 2010 » à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418) .
 
-  - « Désactiver la messagerie unifiée sur Exchange 2010 [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416)» à l’adresse.
+  - « Désactiver la messagerie unifiée sur Exchange 2010 » à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416) .
 
 </div>
 
