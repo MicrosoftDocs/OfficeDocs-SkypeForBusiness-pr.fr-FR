@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191687"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530871"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Configuration requise pour le programme d’équilibrage de la charge matérielle pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Configuration requise pour le programme d’équilibrage de la charge matérielle pour Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ La topologie Edge consolidée Lync Server 2013 est optimisée pour l’équilibr
 
 </div>
 
-Pour déterminer si votre programme d’équilibrage de la charge matérielle prend en charge les fonctionnalités requises par Lync Server 2013, voir « partenaires d’équilibrage de charge [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 » à l’adresse.
+Pour déterminer si votre programme d’équilibrage de la charge matérielle prend en charge les fonctionnalités requises par Lync Server 2013, voir « partenaires d’équilibrage de charge Lync Server 2010 » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 <div>
 
@@ -143,7 +145,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de la charge matéri
 
 
 > [!WARNING]  
-> Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela.<BR>Pour plus d’informations sur les programmes d’équilibrage de la charge matérielle de tiers, voir<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela.<BR>Pour plus d’informations sur les programmes d’équilibrage de la charge matérielle de tiers, voir <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de la charge matéri
 
 La configuration requise de l’équilibreur de la charge matérielle des services web du directeur et du pool de serveurs frontaux est la suivante :
 
-  - Pour les VIP des services Web internes,\_définissez la persistance de l’adresse source (port interne 80, 443) sur l’équilibreur de la charge matérielle. Pour Lync Server 2013, la\_persistance de l’adresse source signifie que plusieurs connexions provenant d’une seule adresse IP sont toujours envoyées à un seul serveur pour maintenir l’état de la session.
+  - Pour les VIP des services Web internes, définissez \_ la persistance de l’adresse source (port interne 80, 443) sur l’équilibreur de la charge matérielle. Pour Lync Server 2013, \_ la persistance de l’adresse source signifie que plusieurs connexions provenant d’une seule adresse IP sont toujours envoyées à un seul serveur pour maintenir l’état de la session.
 
   - Utilisez un délai d’inactivité TCP de 1 800 secondes.
 
@@ -239,7 +241,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;int_mco_443_vs&gt;Web de pool</p>
+<td><p>&lt;&gt;int_mco_443_vs Web de pool</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>Serveur frontal</p>
@@ -248,7 +250,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;int_mco_80_vs&gt;Web de pool</p>
+<td><p>&lt;&gt;int_mco_80_vs Web de pool</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>Serveur frontal</p>
@@ -281,21 +283,21 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;web_mco_443_vs&gt;de pool</p>
+<td><p>&lt;web_mco_443_vs de pool &gt;</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>Serveur frontal</p>
 <p>5061</p></td>
-<td><p>Néant</p></td>
+<td><p>Aucune</p></td>
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;web_mco_80_vs&gt;de pool</p>
+<td><p>&lt;web_mco_80_vs de pool &gt;</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>Serveur frontal</p>
 <p>5061</p></td>
-<td><p>Néant</p></td>
+<td><p>Aucune</p></td>
 <td><p>HTTP</p></td>
 </tr>
 </tbody>

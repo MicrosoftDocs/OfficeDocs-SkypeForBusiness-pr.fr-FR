@@ -12,20 +12,22 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c37108d8429567c2653174e4d5a9d0510278e4f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91392470d47cc4d59130e7c304656f9eee48ae5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531371"
 ---
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Déployer l’outil SEFAUtil dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Déployer l’outil SEFAUtil dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Vous pouvez exécuter l’SEFAUtil dans n’importe quel pool frontal de votre d
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’exécution d’SEFAUtil, consultez l’article du blog TechNet « How to get SEFAutil Running ? » à <A href="https://go.microsoft.com/fwlink/?linkid=278940">https://go.microsoft.com/fwlink/?LinkId=278940</A>l’adresse.
+> Pour plus d’informations sur l’exécution d’SEFAUtil, consultez l’article du blog TechNet « How to get SEFAutil Running ? » à l’adresse <A href="https://go.microsoft.com/fwlink/?linkid=278940">https://go.microsoft.com/fwlink/?LinkId=278940</A> .
 
 
 

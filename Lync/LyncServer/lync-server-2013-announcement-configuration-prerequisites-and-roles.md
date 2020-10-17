@@ -12,20 +12,22 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 037625d0efea2ae53cd4923a0a7cccce4a890098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b5dac5c800f2e11829940445f9ebfe28c1a95c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204541"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531691"
 ---
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Conditions préalables et rôles de configuration d’annonce dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Conditions préalables et rôles de configuration d’annonce dans Lync Server 2013
+
 
 </div>
 
@@ -69,13 +71,13 @@ Vous pouvez utiliser les outils administratifs suivants pour configurer les anno
 
 La configuration de l’application d’annonce nécessite l’un des rôles d’administrateur suivants :
 
-  - **CsVoiceAdministrator**   ce rôle d’administrateur peut créer, configurer et gérer toutes les stratégies et les paramètres liés à la voix, y compris les paramètres d’annonce.
+  - **CsVoiceAdministrator**     Ce rôle d’administrateur peut créer, configurer et gérer toutes les stratégies et les paramètres vocaux, y compris les paramètres d’annonce.
 
-  - **CsServerAdministrator**   ce rôle d’administrateur peut gérer, surveiller et dépanner les serveurs et les services, et configurer tous les paramètres d’annonce.
+  - **CsServerAdministrator**     Ce rôle d’administrateur permet de gérer, surveiller et dépanner les serveurs et les services, et de configurer tous les paramètres d’annonce.
 
-  - **CsAdministrator**   ce rôle d’administrateur peut effectuer toutes les tâches d’administration et modifier tous les paramètres.
+  - **CsAdministrator**     Ce rôle d’administrateur peut effectuer toutes les tâches administratives et modifier tous les paramètres.
 
-  - **CsViewOnlyAdministrator**   ce rôle d’administrateur peut afficher le déploiement pour surveiller l’intégrité du déploiement.
+  - **CsViewOnlyAdministrator**     Ce rôle d’administrateur peut afficher le déploiement pour surveiller l’intégrité du déploiement.
 
 <div>
 

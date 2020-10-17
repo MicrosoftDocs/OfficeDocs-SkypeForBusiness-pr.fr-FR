@@ -12,20 +12,22 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 921db63f02be50866e6d26cb33007ac8ddbb32eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 928de572305cdbe19f5222f34e6616a8022e37b3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531541"
 ---
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Création d’enregistrements DNS pour le service de découverte automatique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Création d’enregistrements DNS pour le service de découverte automatique dans Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements A (hô
 
 4.  Vérifier s’il existe un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool de directeurs pour un enregistrement DNS interne, il doit exister un enregistrement A d’hôte pour le nom de domaine complet (FQDN) des services Web internes pour votre pool directeur (par exemple, lyncwebdir01. contoso. local). Si ce n’est pas le cas, il est possible que vous n’utilisiez pas un pool directeur et que vous devez utiliser le nom de domaine complet (FQDN) de votre pool frontal ou même un nom de domaine complet (FQDN) de serveur unique, si c’est votre configuration.
 
-5.  En gardant cela à l’esprit, vérifiez si un enregistrement A (AAAA pour IPv6) hôte existe pour votre pool frontal pour un enregistrement DNS interne, il doit exister un enregistrement A (ou AAAA) hôte pour le nom de domaine complet des services Web internes pour votre pool frontal (par exemple , lyncwebpool01. contoso. local). Si ce n’est pas le cas, vous devez noter le nom de domaine complet (FQDN) du serveur frontal ou du serveur Standard Edition.
+5.  À l’esprit, vérifiez si un enregistrement A (AAAA pour IPv6) hôte existe pour votre pool frontal pour un enregistrement DNS interne, il doit exister un enregistrement A (ou AAAA) hôte pour le nom de domaine complet des services Web internes pour votre pool frontal (par exemple, lyncwebpool01. contoso. local). Si ce n’est pas le cas, vous devez noter le nom de domaine complet (FQDN) du serveur frontal ou du serveur Standard Edition.
 
 6.  Une fois que vous connaissez les enregistrements A (ou AAAA) de l’hôte, dans l’arborescence de la console de votre serveur DNS, développez **zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
 
@@ -83,7 +85,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements A (hô
 
 3.  Un domaine SIP doit déjà être créé pour cet environnement. Développez la **zone de recherche directe** pour ce domaine SIP, ou sélectionnez-la en fonction de l’interface DNS externe utilisée.
 
-4.  Vous devriez déjà voir un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool directeur (par exemple, lyncwebexdir01.contoso.com), vous devez donc confirmer qu’il s’agit bien. Si ce n’est pas le cas, il se peut que vous n’utilisiez pas de pool directeur. Si c’est le cas, vous devez utiliser le nom de domaine complet (FQDN) de votre pool frontal ou, si vous effectuez cette opération pour un seul serveur, pour votre serveur frontal ou votre serveur Standard Edition.
+4.  Vous devriez déjà voir un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool directeur (par exemple, lyncwebexdir01.contoso.com), vous devez donc confirmer qu’il s’agit bien. Si ce n’est pas le cas, il se peut que vous n’utilisiez pas de pool directeur. Si c’est le cas, vous devez utiliser le nom de domaine complet de votre pool frontal, ou si vous effectuez cette opération pour un serveur unique, pour votre serveur Front-End ou votre serveur Standard Edition.
 
 5.  Vous devrez également vérifier qu’il existe un enregistrement A (AAAA pour IPv6) hôte pour votre nom de domaine complet (FQDN) des services Web externes pour votre pool frontal (tel que lyncwebextpool01.contoso.com) ou un nom de domaine complet pour votre nom de domaine complet (FQDN) de serveur unique si vous n’avez pas de pool frontal. Comme indiqué à l’étape précédente, vous en aurez besoin ci-dessous si vous n’avez pas de pool directeur.
 
@@ -109,7 +111,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements A (hô
 
 4.  Vérifier s’il existe un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool de directeurs pour un enregistrement DNS interne, il doit exister un enregistrement A d’hôte pour le nom de domaine complet (FQDN) des services Web internes pour votre pool directeur (par exemple, lyncwebdir01. contoso. local). Si ce n’est pas le cas, il se peut que vous n’utilisiez pas de pool directeur et que vous deviez utiliser l’adresse IP de votre pool frontal ou même une adresse IP de serveur unique, si c’est votre configuration.
 
-5.  En gardant cela à l’esprit, vérifiez si un enregistrement A (AAAA pour IPv6) hôte existe pour votre pool frontal pour un enregistrement DNS interne, il doit exister un enregistrement A (ou AAAA) hôte pour le nom de domaine complet des services Web internes pour votre pool frontal (par exemple , lyncwebpool01. contoso. local). Si ce n’est pas le cas, vous devez prendre note de l’adresse IP pour le serveur frontal ou le serveur Standard Edition.
+5.  À l’esprit, vérifiez si un enregistrement A (AAAA pour IPv6) hôte existe pour votre pool frontal pour un enregistrement DNS interne, il doit exister un enregistrement A (ou AAAA) hôte pour le nom de domaine complet des services Web internes pour votre pool frontal (par exemple, lyncwebpool01. contoso. local). Si ce n’est pas le cas, vous devez prendre note de l’adresse IP pour le serveur frontal ou le serveur Standard Edition.
 
 6.  Une fois que vous connaissez les enregistrements A (ou AAAA) de l’hôte, dans l’arborescence de la console de votre serveur DNS, développez **zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
 
@@ -137,9 +139,9 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements A (hô
 
 3.  Pour un enregistrement DNS externe, dans l’arborescence de la console du serveur DNS, développez **Zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com). Pour un enregistrement DNS externe, dans l’arborescence de la console du serveur DNS, développez **Zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
 
-4.  Vous devriez déjà voir un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool directeur (tel que lyncwebexdir01.contoso.com), vérifiez qu’il s’agit du point de vue et de l’adresse IP. Si ce n’est pas le cas, il se peut que vous n’utilisiez pas de pool directeur. Si c’est le cas, vous devez utiliser l’adresse IP de votre pool frontal, ou si vous effectuez cette opération pour un serveur unique, pour votre serveur frontal ou votre serveur Standard Edition. Gardez à l’esprit que vos serveurs peuvent également être derrière un équilibrage de charge ou utiliser un proxy inverse. Prenez note des adresses IP pour suivre les étapes ci-dessous.
+4.  Vous devriez déjà voir un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool directeur (tel que lyncwebexdir01.contoso.com), vérifiez qu’il s’agit du point de vue et de l’adresse IP. Si ce n’est pas le cas, il se peut que vous n’utilisiez pas de pool directeur. Si c’est le cas, vous devez utiliser l’adresse IP de votre pool frontal, ou si vous effectuez cette opération pour un serveur unique, pour votre serveur Front-End ou votre serveur Standard Edition. Gardez à l’esprit que vos serveurs peuvent également être derrière un équilibrage de charge ou utiliser un proxy inverse. Prenez note des adresses IP pour suivre les étapes ci-dessous.
 
-5.  Vous devrez également vérifier qu’il existe un enregistrement A (AAAA pour IPv6) hôte pour votre nom de domaine complet (FQDN) des services Web externes pour votre pool frontal (tel que lyncwebextpool01.contoso.com) ou une adresse IP pour votre installation Lync à serveur unique si vous Aucun pool frontal. Comme indiqué à l’étape précédente, vous en aurez besoin ci-dessous si vous n’avez pas de pool directeur.
+5.  Vous devrez également vérifier qu’il existe un enregistrement A (AAAA pour IPv6) hôte pour votre nom de domaine complet (FQDN) des services Web externes pour votre pool frontal (tel que lyncwebextpool01.contoso.com) ou une adresse IP pour votre installation Lync à serveur unique si vous n’avez pas de pool frontal. Comme indiqué à l’étape précédente, vous en aurez besoin ci-dessous si vous n’avez pas de pool directeur.
 
 6.  À présent, dans le format approprié pour votre fournisseur DNS externe, sélectionnez l’option permettant de créer un **nouvel hôte a ou AAAA** (il peut s’agir d’une option de menu ou d’un lien, selon le format du fournisseur DNS).
 

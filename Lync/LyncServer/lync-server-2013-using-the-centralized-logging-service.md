@@ -12,20 +12,22 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8e93bed162219da1ad522483d61b003a603
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529951"
 ---
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Utilisation du service de journalisation centralisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Utilisation du service de journalisation centralisée dans Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Le service de journalisation centralisée est une nouvelle fonctionnalité de Ly
     
       - Définir l’étendue de la session de journalisation à partir des options **Site** (exécuter la capture de journalisation sur les ordinateurs de ce site uniquement) ou **Globale** (exécuter la capture de journalisation sur tous les ordinateurs du déploiement).
 
-Le service de journalisation centralisée est extrêmement puissant et peut répondre à quasiment tous les besoins en matière de résolution des problèmes (grande ou petite). De l’analyse des causes principales aux problèmes de performances, le service de journalisation centralisée peut être un outil important pour tous les administrateurs. Tous les exemples sont affichés à l’aide de Lync Server Management Shell. Il existe un composant de ligne de commande pour le service de journalisation centralisée appelé **CLSController. exe**. Une aide est fournie pour l’outil en ligne de commande via l’outil lui-même. En revanche, il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. À l’aide de Lync Server Management Shell, vous avez accès à un ensemble de fonctionnalités plus grand et plus configurable. Vous devez toujours envisager Lync Server Management Shell comme première et première méthode lors de l’utilisation du service de journalisation centralisée.
+Le service de journalisation centralisée est extrêmement puissant et peut répondre à quasiment tous les besoins en matière de résolution des problèmes (grande ou petite). De l’analyse des causes principales aux problèmes de performances, le service de journalisation centralisée peut être un outil important pour tous les administrateurs. Tous les exemples sont affichés à l’aide de Lync Server Management Shell. Il existe un composant de ligne de commande pour le service de journalisation centralisée appelé **CLSController.exe**. Une aide est fournie pour l’outil en ligne de commande via l’outil lui-même. En revanche, il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. À l’aide de Lync Server Management Shell, vous avez accès à un ensemble de fonctionnalités plus grand et plus configurable. Vous devez toujours envisager Lync Server Management Shell comme première et première méthode lors de l’utilisation du service de journalisation centralisée.
 
 Les rubriques de cette section expliquent comment utiliser le service de journalisation centralisée et des exemples d’utilisation de ses nombreuses fonctionnalités.
 

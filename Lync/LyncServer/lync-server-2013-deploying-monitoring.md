@@ -12,20 +12,22 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49d62537f91145803f60f51c18b86816a0af657f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6fd56d0c06c9c81eda8cd1d7ef64b57da3219f3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195257"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531171"
 ---
+# <a name="deploying-monitoring-in-lync-server-2013"></a>Déploiement de la surveillance dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-monitoring-in-lync-server-2013"></a>Déploiement de la surveillance dans Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Bien qu’il soit souvent plus simple d’activer la surveillance en même temps
 
 
 > [!NOTE]  
-> Si la surveillance a été activée pour un pool, vous pouvez désactiver le processus de collecte des données de surveillance sans avoir à modifier votre topologie : Lync Server Management Shell vous permet de désactiver (puis réactiver ultérieurement) l’enregistrement des détails des appels (CDR) ou la qualité collecte de données de l’expérience (QoE). Pour plus d’informations, voir la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience de ce document.
+> Si la surveillance a été activée pour un pool, vous pouvez désactiver le processus de collecte des données de surveillance sans avoir à modifier votre topologie : Lync Server Management Shell vous permet de désactiver (puis réactiver ultérieurement) la collecte de données d’enregistrement des détails des appels (CDR) ou de qualité de l’expérience (QoE). Pour plus d’informations, voir la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience de ce document.
 
 
 
@@ -77,7 +79,7 @@ Une autre amélioration importante de la surveillance dans Lync Server 2013 est 
 
 
 > [!NOTE]  
-> Assurez-vous que le type de démarrage du service de l’agent SQL Server est automatique et que le service de l’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, afin que les travaux de maintenance SQL Server par défaut puissent s’exécuter sur leur base planifiée. sous le contrôle du service SQL Server Agent.
+> Assurez-vous que le type de démarrage du service SQL Server Agent est automatique et que le service de l’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, afin que les travaux de maintenance SQL Server par défaut puissent s’exécuter sur leur base planifiée sous le contrôle du service SQL Server Agent.
 
 
 

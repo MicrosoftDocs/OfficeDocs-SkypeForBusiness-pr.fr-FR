@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530471"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Test de la capacité d’un utilisateur à se connecter à Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Test de la capacité d’un utilisateur à se connecter à Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsRegistration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsRegistration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsRegistration vous permet de vérifier que les utilisateurs de votre organisation peuvent se connecter à Lync Server. Lorsque vous exécutez test-CsRegistration, l’applet de commande tente de se connecter à un utilisateur de test sur Lync Server, puis, si elle réussit, déconnecte cet utilisateur de test du système. Tout cela se passe sans aucune intervention de l’utilisateur et ce, sans affecter aucun utilisateur. Par exemple, supposons que le compte de test sip :kenmyer@litwareinc.com correspond à un utilisateur réel qui possède un compte de serveur Lync réel. Dans ce cas, le test sera effectué sans interrompre les activités de l’utilisateur réel Ken Myer. Lorsque le compte de test Ken Myer se déconnecte du système, Ken Myer la personne reste connectée.
+L’applet de commande Test-CsRegistration vous permet de vérifier que les utilisateurs de votre organisation peuvent se connecter à Lync Server. Lorsque vous exécutez test-CsRegistration, l’applet de commande tente de se connecter à un utilisateur de test sur Lync Server, puis, si elle réussit, déconnecte cet utilisateur de test du système. Tout cela se passe sans aucune intervention de l’utilisateur et ce, sans affecter aucun utilisateur. Par exemple, supposons que le compte de test sip :kenmyer@litwareinc.com correspond à un utilisateur réel qui possède un compte de serveur Lync réel. Dans ce cas, le test sera effectué sans interrompre les activités de l’utilisateur réel Ken Myer. Lorsque le compte de test Ken Myer se déconnecte du système, Ken Myer la personne reste connectée.
 
 </div>
 
@@ -74,7 +76,7 @@ L’applet de commande test-CsRegistration vous permet de vérifier que les util
 
 ## <a name="running-the-test"></a>Exécution du test
 
-La cmdlet Test-CsRegistration peut être exécutée à l’aide d’un compte de test préconfiguré (consultez la rubrique Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool de serveurs d’inscriptions Lync Server testé. Par exemple :
+L’applet de commande Test-CsRegistration peut être exécutée à l’aide d’un compte de test préconfiguré (voir Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool de serveurs d’inscriptions Lync Server testé. Par exemple :
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -123,11 +125,11 @@ Par exemple, la sortie précédente indique que le test a échoué, car l’util
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-Si test-CsRegistration échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsRegistration échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsRegistration renvoie un compte pas à pas de chaque action qu’il a tentée lorsqu’il a vérifié la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple :
+Lorsque le paramètre Verbose est inclus, Test-CsRegistration renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple :
 
 VERBOSe : activité « enregistrer » démarrée.
 
@@ -151,7 +153,7 @@ Pile des appels d’exception : at Microsoft. RTC. signalisation. SipAsyncResul
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsRegistration :
+Voici quelques raisons courantes pour lesquelles Test-CsRegistration peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur incorrect. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     

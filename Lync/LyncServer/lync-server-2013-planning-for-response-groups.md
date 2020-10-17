@@ -12,20 +12,22 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec702870cffcd6801cf125d2cc130dbe15b9481
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a4be9b6d89f58be67eb341d051d025b795f7feb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530561"
 ---
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planification des groupes Response Group dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planification des groupes Response Group dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184077"
 
 _**Dernière modification de la rubrique :** 2012-06-19_
 
-Si votre organisation a des groupes de personnes qui répondent et gèrent certains types d’appels, comme pour le service clientèle, un support technique interne ou un support téléphonique général pour un service, vous pouvez déployer l’application de groupe Response Group Lync Server pour gérer ces types. d’appels. L’application Response Group achemine et met en file d’attente les appels entrants vers des personnes désignées, appelées agents. L’utilisation des groupes Response Group vous permet d’améliorer l’utilisation des services de support téléphonique et de réduire la charge liée à l’exécution de ces services. Cette section décrit les considérations relatives à la planification du groupe Response Group.
+Si votre organisation a des groupes de personnes qui répondent et gèrent certains types d’appels, comme pour le service clientèle, un support technique interne ou un support téléphonique général pour un service, vous pouvez déployer l’application de groupe Response Group Lync Server pour gérer ces types d’appels. L’application Response Group achemine et met en file d’attente les appels entrants vers des personnes désignées, appelées agents. L’utilisation des groupes Response Group vous permet d’améliorer l’utilisation des services de support téléphonique et de réduire la charge liée à l’exécution de ces services. Cette section décrit les considérations relatives à la planification du groupe Response Group.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531411"
 ---
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Déployer une apparence de ligne partagée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Déployer une apparence de ligne partagée dans Lync Server 2013
+
 
 </div>
 
@@ -92,13 +94,13 @@ L’apparence de ligne partagée (SLA) est une nouvelle fonctionnalité de Lync 
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    Vous pouvez utiliser SET-CsSlaConfiguration pour créer un nouveau groupe de SLA ou en modifier un existant.
+    Vous pouvez utiliser Set-CsSlaConfiguration pour créer un nouveau groupe de SLA ou en modifier un existant.
     
     <div>
     
 
     > [!NOTE]  
-    > Notez que ce que vous spécifiez pour doit être un compte d’utilisateur activé pour <CODE>-Identity</CODE> voix entreprise existant valide.
+    > Notez que ce que vous spécifiez pour <CODE>-Identity</CODE> doit être un compte d’utilisateur activé pour voix entreprise existant valide.
 
     
     </div>
@@ -126,7 +128,7 @@ L’apparence de ligne partagée (SLA) est une nouvelle fonctionnalité de Lync 
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés à transmettre au numéro de téléphone 202-555-1234. La cible peut être un utilisateur de votre organisation au lieu d’un numéro de téléphone ; dans ce cas, la syntaxe de la personne qui reçoit les appels transférés est la même que lorsque vous spécifiez un délégué `sip:<NameofDelegate@domain>`:. L’autre paramètre possible pour `BusyOption` est `Voicemail`le suivant :
+    L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés à transmettre au numéro de téléphone 202-555-1234. La cible peut être un utilisateur de votre organisation au lieu d’un numéro de téléphone ; dans ce cas, la syntaxe de la personne qui reçoit les appels transférés est la même que lorsque vous spécifiez un délégué : `sip:<NameofDelegate@domain>` . L’autre paramètre possible pour `BusyOption` est le `Voicemail` suivant :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -143,7 +145,7 @@ L’apparence de ligne partagée (SLA) est une nouvelle fonctionnalité de Lync 
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    L’exemple suivant spécifie que les appels manqués doivent être transférés à l' `sla_forward_number`utilisateur nommé. Les options valides pour `-MissedCallOption` le paramètre `Forward`sont `BusySignal`, ou `Disconnect`. Si vous le `Forward`souhaitez, vous devez également inclure `-MissedCallForwardTarget` le paramètre, avec un utilisateur ou un numéro de téléphone comme cible :
+    L’exemple suivant spécifie que les appels manqués doivent être transférés à l’utilisateur nommé `sla_forward_number` . Les options valides pour le `-MissedCallOption` paramètre sont `Forward` , `BusySignal` ou `Disconnect` . Si vous le souhaitez `Forward` , vous devez également inclure le `-MissedCallForwardTarget` paramètre, avec un utilisateur ou un numéro de téléphone comme cible :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 

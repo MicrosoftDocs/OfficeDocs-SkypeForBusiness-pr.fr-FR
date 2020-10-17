@@ -12,20 +12,22 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aee795b6f4dd1f3ff1077fb739cad9709b2c8ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54230fb489a62ed5d7a80bfe871af3bc097e35e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530891"
 ---
+# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a>Basculement du pool de serveurs Edge utilisé pour la Fédération XMPP dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a>Basculement du pool de serveurs Edge utilisé pour la Fédération XMPP dans Lync Server 2013
+
 
 </div>
 

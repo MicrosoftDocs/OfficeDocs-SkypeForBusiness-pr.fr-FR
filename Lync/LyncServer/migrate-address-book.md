@@ -12,20 +12,22 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a3282315d50b0a5075afc380487fb9204d4285c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757035"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529901"
 ---
+# <a name="migrate-address-book"></a>Faire migrer le carnet d’adresses
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>Faire migrer le carnet d’adresses
+
 
 </div>
 
@@ -102,7 +104,7 @@ Si vous définissez la valeur de **UseNormalizationRules** sur false afin que le
 
 1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Effectuez l’une des opérations suivantes :
+2.  Effectuez l'une des opérations suivantes :
     
       - Si votre déploiement inclut uniquement Lync Server 2013, exécutez l’applet de commande suivante au niveau global pour modifier les valeurs de **UseNormalizationRules** et **IgnoreGenericRules** sur true :
         

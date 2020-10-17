@@ -12,20 +12,22 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93f6aadd6cde7f09d7c6bdde118055cde8a56de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530961"
 ---
+# <a name="failing-over-a-pool-in-lync-server-2013"></a>Basculement d’un pool dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-pool-in-lync-server-2013"></a>Basculement d’un pool dans Lync Server 2013
+
 
 </div>
 
@@ -63,33 +65,33 @@ En outre, si un pool frontal échoue mais que le pool de serveurs Edge sur ce si
     
         Invoke-CsManagementServerFailover -Whatif
     
-    Les résultats de cette cmdlet indiquent le pool qui héberge actuellement le serveur de gestion centralisée. Dans le reste de cette procédure, ce pool est appelé pool CMS\_.
+    Les résultats de cette cmdlet indiquent le pool qui héberge actuellement le serveur de gestion centralisée. Dans le reste de cette procédure, ce pool est appelé pool CMS \_ .
 
-2.  Utilisez le générateur de topologies pour rechercher la version de Lync Server exécutée\_sur le pool CMS. S’il exécute Lync Server 2013, utilisez l’applet de commande suivante pour rechercher le pool de sauvegarde du pool 1.
+2.  Utilisez le générateur de topologies pour rechercher la version de Lync Server exécutée sur le \_ pool CMS. S’il exécute Lync Server 2013, utilisez l’applet de commande suivante pour rechercher le pool de sauvegarde du pool 1.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    Laissez le\_pool de sauvegardes être le pool de sauvegarde.
+    Laissez \_ le pool de sauvegardes être le pool de sauvegarde.
 
 3.  Vérifiez l’état du magasin central de gestion à l’aide de l’applet de commande suivante :
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    Cette applet de commande doit indiquer que ActiveMasterFQDN et ActiveFileTransferAgents pointent vers le nom de\_domaine complet du pool CMS. S’ils sont vides, le serveur de gestion centralisée n’est pas disponible et vous devez le faire basculer.
+    Cette applet de commande doit indiquer que ActiveMasterFQDN et ActiveFileTransferAgents pointent vers le nom de domaine complet du \_ pool CMS. S’ils sont vides, le serveur de gestion centralisée n’est pas disponible et vous devez le faire basculer.
 
 4.  Si le magasin central de gestion n’est pas disponible ou si le magasin central de gestion était en cours d’exécution sur Pool1 (autrement dit, sur le pool ayant échoué), vous devez basculer le serveur de gestion centralisée avant de basculer sur le pool. Si vous avez besoin de basculer le serveur de gestion centralisée hébergé sur un pool exécutant Lync Server 2013, utilisez l’applet de commande à l’étape 5 de cette procédure. Si vous avez besoin de basculer le serveur de gestion centralisée hébergé sur un pool exécutant Lync Server 2010, utilisez l’applet de commande à l’étape 6 de cette procédure. Si vous n’avez pas besoin de basculer le serveur de gestion centralisée, passez à l’étape 7 de cette procédure.
 
 5.  Pour faire basculer le magasin central de gestion sur un pool exécutant Lync Server 2013, procédez comme suit :
     
-      - Tout d’abord, vérifiez le serveur principal dans\_le pool de sauvegarde qui exécute l’instance principale du magasin central de gestion en tapant ce qui suit :
+      - Tout d’abord, vérifiez le serveur principal dans le pool de sauvegarde qui \_ exécute l’instance principale du magasin central de gestion en tapant ce qui suit :
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Si le principal serveur principal dans le pool\_de sauvegarde est le principal, tapez :
+      - Si le principal serveur principal dans \_ le pool de sauvegarde est le principal, tapez :
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Si le serveur principal miroir dans le pool\_de sauvegarde est le principal, tapez :
+        Si le serveur principal miroir dans \_ le pool de sauvegarde est le principal, tapez :
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -97,7 +99,7 @@ En outre, si un pool frontal échoue mais que le pool de serveurs Edge sur ce si
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Vérifiez que ActiveMasterFQDN et ActiveFileTransferAgents pointent vers le nom de domaine complet\_du pool de sauvegarde.
+        Vérifiez que ActiveMasterFQDN et ActiveFileTransferAgents pointent vers le nom de domaine complet du pool de sauvegarde \_ .
     
       - Enfin, vérifiez l’état du réplica de tous les serveurs frontaux en tapant ce qui suit :
         
@@ -107,7 +109,7 @@ En outre, si un pool frontal échoue mais que le pool de serveurs Edge sur ce si
         
         Passez à l’étape 7 de cette procédure.
 
-6.  Installez le magasin central de gestion sur le serveur principal du pool\_de sauvegarde.
+6.  Installez le magasin central de gestion sur le serveur principal du pool de sauvegarde \_ .
     
       - Exécutez d’abord cette commande :
         
@@ -115,7 +117,7 @@ En outre, si un pool frontal échoue mais que le pool de serveurs Edge sur ce si
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Exécutez la commande suivante sur l’un des serveurs frontaux du pool\_de sauvegarde pour forcer le déplacement du magasin central de gestion :
+      - Exécutez la commande suivante sur l’un des serveurs frontaux du pool de sauvegarde \_ pour forcer le déplacement du magasin central de gestion :
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
@@ -123,7 +125,7 @@ En outre, si un pool frontal échoue mais que le pool de serveurs Edge sur ce si
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Vérifiez que ActiveMasterFQDN et ActiveFileTransferAgents pointent vers le nom de domaine complet\_du pool de sauvegarde.
+        Vérifiez que ActiveMasterFQDN et ActiveFileTransferAgents pointent vers le nom de domaine complet du pool de sauvegarde \_ .
     
       - Vérifiez le statut des réplicas de tous les serveurs frontaux en tapant ce qui suit :
         
@@ -131,7 +133,7 @@ En outre, si un pool frontal échoue mais que le pool de serveurs Edge sur ce si
         
         Assurez-vous que tous les réplicas sont définis sur True.
     
-      - Installez le service de gestion centralisée sur le reste des serveurs frontaux dans le\_pool de sauvegarde. Pour ce faire, exécutez la commande suivante sur tous les serveurs frontaux, à l’exception de celle que vous avez utilisée lors de l’activation forcée du déplacement du magasin central de gestion plus haut dans cette procédure :
+      - Installez le service de gestion centralisée sur le reste des serveurs frontaux dans le \_ pool de sauvegarde. Pour ce faire, exécutez la commande suivante sur tous les serveurs frontaux, à l’exception de celle que vous avez utilisée lors de l’activation forcée du déplacement du magasin central de gestion plus haut dans cette procédure :
         
             Bootstrapper /Setup 
 

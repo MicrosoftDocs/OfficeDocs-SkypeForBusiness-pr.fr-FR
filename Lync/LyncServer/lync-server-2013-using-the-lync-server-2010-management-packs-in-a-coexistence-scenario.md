@@ -12,20 +12,22 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc2aed62b9ad26fd1498787ecd3d58144a005b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212640"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529921"
 ---
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Utilisation des packs d’administration Lync Server 2010 dans un scénario de coexistence
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Utilisation des packs d’administration Lync Server 2010 dans un scénario de coexistence
+
 
 </div>
 
@@ -41,7 +43,7 @@ De nombreux clients adoptent un programme de déploiement au sein de leur entrep
 
 Dans Lync Server 2010, les ordinateurs Lync Server ont été découverts via le document de topologie stocké avec le magasin central de gestion. Dans cette configuration, un ordinateur unique signale l’existence de tous les autres ordinateurs Lync Server.
 
-Les packs d’administration de Lync Server 2013 utilisent désormais la découverte au niveau de l’ordinateur au lieu du mécanisme de découverte central utilisé dans Lync Server 2010. Cela signifie que chaque agent System Center se découvre lui-même et signale son existence à System Center Operations Manager. L’utilisation de la découverte au niveau de l’ordinateur simplifie l’administration de votre infrastructure System Center et permet également différentes versions des packs d’administration Lync Server (par exemple, les packs d’administration pour Lync Server 2010 et les packs d’administration pour Lync Server 2013) coexister plus facilement.
+Les packs d’administration de Lync Server 2013 utilisent désormais la découverte au niveau de l’ordinateur au lieu du mécanisme de découverte central utilisé dans Lync Server 2010. Cela signifie que chaque agent System Center se découvre lui-même et signale son existence à System Center Operations Manager. L’utilisation de la découverte au niveau de l’ordinateur simplifie l’administration de votre infrastructure System Center et permet également d’utiliser différentes versions des packs d’administration Lync Server (par exemple, les packs d’administration pour Lync Server 2010 et les packs d’administration pour Lync Server 2013) afin de la coexister plus facilement.
 
 Pour prendre en charge cette migration, vous devez d’abord mettre à niveau votre surveillance Lync Server 2010 existante afin d’éviter les lacunes dans la couverture. Pour ce faire, électionnez un ordinateur Lync Server 2010 existant afin de traiter le script de découverte centrale pour Lync Server 2010 avant de mettre à niveau votre magasin central de gestion vers Lync Server 2013. Il s’agit d’un processus en quatre étapes :
 
@@ -59,7 +61,7 @@ Pour prendre en charge cette migration, vous devez d’abord mettre à niveau vo
 
 Pour désigner un ordinateur de magasin de gestion non central (par exemple, un serveur frontal Lync Server) pour gérer la découverte centrale, vous devrez créer la clé de Registre suivante sur le serveur de magasin de gestion non central :
 
-HKLM\\Software\\Microsoft\\Real-Time communications\\Health\\CentralDiscoveryCandidate
+HKLM \\ Software \\ Microsoft \\ Real-Time communications \\ Health \\ CentralDiscoveryCandidate
 
 Vous pouvez créer cette clé de registre en procédant ainsi :
 
@@ -67,7 +69,7 @@ Vous pouvez créer cette clé de registre en procédant ainsi :
 
 2.  Dans la boîte de dialogue **Exécuter**, tapez **regedit**, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez **HKEY\_\_local machine**, **Software**, **Microsoft**, puis **Real-Time communications**.
+3.  Dans l’éditeur du Registre, développez **HKEY \_ local \_ machine**, **Software**, **Microsoft**, puis **Real-Time communications**.
 
 4.  Cliquez avec le bouton droit sur **Health**, cliquez sur **Nouveau**, sur **Clé**. Si la clé **Health** n’existe pas, cliquez avec le bouton droit sur **Real-Time Communications**, pointez sur **Nouveau**, puis cliquez sur **Clé**. Une fois la nouvelle clé créée, tapez Health, et appuyez sur Entrée.
     

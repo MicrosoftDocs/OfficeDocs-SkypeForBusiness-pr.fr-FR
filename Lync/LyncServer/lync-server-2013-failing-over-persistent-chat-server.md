@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214400"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530941"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Basculement du serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Basculement du serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -69,15 +71,15 @@ La base de données de conformité de conversation permanente (mgccomp) n’est 
 
 2.  Copiez tous les fichiers de sauvegarde non copiés se trouvant sur le partage de sauvegarde vers le dossier de destination de la copie du serveur de sauvegarde.
 
-3.  Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, consultez la rubrique « Procédure : appliquer une sauvegarde du journal des transactions (Transact https://go.microsoft.com/fwlink/p/?linkid=247428-SQL) » à l’adresse.
+3.  Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, consultez la rubrique « Procédure : appliquer une sauvegarde du journal des transactions (Transact-SQL) » à l’adresse https://go.microsoft.com/fwlink/p/?linkid=247428 .
 
 4.  Mettez en ligne la base de données mgc de sauvegarde. Dans la fenêtre de requête ouverte à l’étape 1b, procédez comme suit :
     
     1.  Mettez fin à toutes les connexions à la base de données mgc, le cas échéant :
         
-        1.  **Exec SP\_WHO2** pour identifier les connexions à la base de données MGC.
+        1.  **Exec SP \_ WHO2** pour identifier les connexions à la base de données MGC.
         
-        2.  **Kill \<SPID\> ** pour mettre fin à ces connexions.
+        2.  **Kill \<spid\> ** pour mettre fin à ces connexions.
     
     2.  Mettez en ligne la base de données :
         

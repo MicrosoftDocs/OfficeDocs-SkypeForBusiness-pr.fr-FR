@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529941"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Utilisation du portail Web d’administration de Lync Room System dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Utilisation du portail Web d’administration de Lync Room System dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Une fois que vous avez déployé LRS sur le serveur, vous pouvez vérifier l’�
 
 1.  Accédez à l’URL suivante :
     
-    https://\<serveur\>frontal/LRS
+    https:// \<fe-server\> /LRS
 
 2.  Entrez les informations d’identification du compte LRSSupport ou d’un compte qui a été ajouté au groupe de sécurité LRSSupportAdminGroup.
 
@@ -59,15 +61,15 @@ Une fois que vous avez déployé LRS sur le serveur, vous pouvez vérifier l’�
 
 La page de résumé fournit les informations suivantes pour toutes les salles LRS déployées sur le serveur :
 
-  - **Baliser**   le nom personnalisé que l’administrateur fournit à la salle. La balise peut être définie dans le portail en cliquant sur le nom de la salle.
+  - **Balise**     Nom personnalisé que l’administrateur fournit à la salle. La balise peut être définie dans le portail en cliquant sur le nom de la salle.
 
-  - **Intégrité**   l’état d’intégrité de la salle, qui est dérivé de l’état d’intégrité agrégé de la salle, qui s’affiche sous la section intégrité de la page Paramètres de la salle.
+  - **Intégrité**     L’état d’intégrité de la salle, qui est dérivé de l’état d’intégrité agrégé de la salle, qui est affiché sous la section intégrité de la page Paramètres de la salle.
 
-  - **Réunion suivante date**   et heure de la prochaine réunion planifiée.
+  - **Réunion suivante**     Date et heure de la prochaine réunion planifiée.
 
-  - **Version LRS, fabricant, modèle**   ces valeurs sont prédéfinies dans LRS. En fonction du fabricant, ces champs peuvent rester vides.
+  - **Version LRS, fabricant, modèle**     Ces valeurs sont prédéfinies dans LRS. En fonction du fabricant, ces champs peuvent rester vides.
 
-  - **Dernière actualisation**   : affiche la dernière fois que la page Web a été actualisée.
+  - **Dernière actualisation**     Affiche la date de la dernière actualisation de la page Web.
 
 ![Affichage de synthèse du portail d’administration de Lync Room System](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Affichage de synthèse du portail d’administration de Lync Room System")
 
@@ -145,13 +147,13 @@ La section Health fournit une indication visuelle de l’intégrité de la conne
 
 <div>
 
-## <a name="frequently-asked-questions"></a>Forum Aux Questions
+## <a name="frequently-asked-questions"></a>Foire aux questions
 
 <div>
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Pourquoi ne puis-je pas me connecter au portail Web d’administration ?
 
-  - Lorsque vous ouvrez https://localhost/lrs, vous pouvez voir la page de connexion, mais lorsque vous tapez vos informations d’identification, vous ne pouvez pas vous connecter. Dans ce cas, vous devez ouvrir https://FQDNofFEserver/lrs la session pour vous connecter au portail Web d’administration.
+  - Lorsque vous ouvrez https://localhost/lrs , vous pouvez voir la page de connexion, mais lorsque vous tapez vos informations d’identification, vous ne pouvez pas vous connecter. Dans ce cas, vous devez ouvrir https://FQDNofFEserver/lrs la session pour vous connecter au portail Web d’administration.
 
   - Si l’ordinateur à partir duquel vous accédez au portail Web d’administration se trouve dans un groupe de travail, « http:// » ne fonctionnera pas. Utilisez « HTTPS » à la place.
 
@@ -173,7 +175,7 @@ La section Health fournit une indication visuelle de l’intégrité de la conne
 
   - Assurez-vous que le compte d’utilisateur LRSApp est compatible SIP.
 
-  - Si vous rencontrez toujours des problèmes, récupérez le fichier **trace. log** dans le système LRS à partir\\de\\D\\: Tracing LRSAdminLogs, puis envoyez-le à votre contact de support LRS.
+  - Si vous rencontrez toujours des problèmes, récupérez le fichier **trace. log** dans le système LRS à partir de D : \\ Tracing \\ LRSAdminLogs \\ , puis envoyez-le à votre contact de support LRS.
 
 </div>
 

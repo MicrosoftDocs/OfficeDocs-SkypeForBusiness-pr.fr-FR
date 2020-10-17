@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530231"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Rapport d’activité de l’utilisateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Rapport d’activité de l’utilisateur dans Lync Server 2013
+
 
 </div>
 
@@ -173,7 +175,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <ul>
 <li><p>Tous les</p></li>
 <li><p>Pair à pair</p></li>
-<li><p>Salle</p></li>
+<li><p>Conférence</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -190,7 +192,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <li><p>Échec attendu</p></li>
 <li><p>Échec inattendu</p></li>
 </ul>
-<p>Un &quot;échec&quot; attendu est un échec qui est susceptible de se produire ; par exemple, si un utilisateur a défini son statut sur ne pas déranger, vous attendiez qu’un appel à cet utilisateur échoue. Un &quot;échec&quot; inattendu est un échec qui se produit dans le cas d’un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
+<p>Un &quot; échec attendu &quot; est un échec qui est susceptible de se produire ; par exemple, si un utilisateur a défini son statut sur ne pas déranger, vous devez attendre l’échec de tout appel à cet utilisateur. Un &quot; échec inattendu &quot; est un échec qui se produit dans le cas d’un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Préfixe d’URI de l’utilisateur</strong></p></td>
@@ -253,7 +255,7 @@ Le tableau suivant liste les informations fournies dans le rapport d’activité
 <tr class="even">
 <td><p><strong>Heure de réponse</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Date et heure auxquelles l' &quot;utilisateur&quot; a accepté l’invitation à la session.</p></td>
+<td><p>Date et heure auxquelles l' &quot; &quot; utilisateur a accepté l’invitation à la session.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Heure de fin</strong></p></td>
@@ -296,7 +298,7 @@ Le tableau suivant liste les informations fournies dans le rapport d’activité
 <tr class="odd">
 <td><p><strong>URI de la conférence</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Identifiant de conférence unique. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport détaillé de conférence pour la session sélectionnée. Lorsque vous développez cet élément, le rapport vous montre les informations sur les participants à la conférence. Pour plus d’informations, &quot;consultez la section mesures pour&quot; les participants à la Conférence plus loin dans cette rubrique.</p></td>
+<td><p>Identifiant de conférence unique. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport détaillé de conférence pour la session sélectionnée. Lorsque vous développez cet élément, le rapport vous montre les informations sur les participants à la conférence. Pour plus d’informations, consultez la &quot; section mesures pour les participants à la Conférence &quot; plus loin dans cette rubrique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organizer</strong></p></td>
@@ -359,7 +361,7 @@ Le tableau suivant liste les informations fournies dans le Rapport d’activité
 <tr class="odd">
 <td><p><strong>Connectivité</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Type de connexion réseau. Par exemple &quot;from Internal&quot; pour la connexion interne &quot;ou PSTN&quot; pour les utilisateurs d’appels entrants.</p></td>
+<td><p>Type de connexion réseau. Par exemple &quot; from Internal &quot; pour la connexion interne ou &quot; PSTN &quot; pour les utilisateurs d’appels entrants.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Heure d’arrivée</strong></p></td>

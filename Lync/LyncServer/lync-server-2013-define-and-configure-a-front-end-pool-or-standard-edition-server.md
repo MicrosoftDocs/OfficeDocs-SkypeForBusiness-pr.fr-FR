@@ -12,20 +12,22 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd8cc2b12032e1283c10e26d4a9fa879621233f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 847aeda66657b2bd665964d6fec3276dc22807ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209164"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531511"
 ---
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013
+
 
 </div>
 
@@ -68,15 +70,15 @@ Si vous déployez un serveur d’entreprise, un nombre minimal de serveurs front
 </tr>
 <tr class="even">
 <td><p>7-8</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>9-10</p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>11-12</p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 </tr>
 </tbody>
 </table>
@@ -119,7 +121,7 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
 
 4.  Dans la page **Sélectionner les fonctionnalités**, activez les cases à cocher correspondant aux fonctionnalités souhaitées pour ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, vous devez activer la case à cocher **Conférence** pour autoriser la messagerie instantanée à plusieurs, mais ne pas sélectionner les cases à cocher Conférence rendez **-** vous, **voix entreprise**ou **contrôle d’admission des appels** , car elles représentent des fonctionnalités de conférence vocale, vidéo et de collaboration.
     
-      - **Conférence**   cette sélection active un ensemble complet de fonctionnalités, notamment :
+      - **Conférence**     Cette sélection active un ensemble complet de fonctionnalités, notamment :
         
           - la messagerie instantanée avec plus de deux utilisateurs dans le cadre d’une session de messagerie instantanée ;
         
@@ -127,15 +129,15 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
         
           - Conférence a/V, qui permet aux utilisateurs d’effectuer des conférences audio/vidéo (A/V) en temps réel sans avoir besoin de recourir à des services externes, tels que le service Live Meeting ou un pont audio tiers.
     
-      - **La Conférence**   rendez-vous (PSTN) permet aux utilisateurs de rejoindre la partie audio d’une conférence Lync Server 2013 à l’aide d’un téléphone RTC sans avoir besoin d’un fournisseur de services d’audioconférence.
+      - Conférence rendez **-vous (PSTN)**     Permet aux utilisateurs de rejoindre la partie audio d’une conférence Lync Server 2013 à l’aide d’un téléphone RTC (réseau téléphonique commuté) sans avoir besoin d’un fournisseur de services d’audioconférence.
     
-      - **Enterprise Voice**   Enterprise Voice est la solution voix sur IP (VoIP) de Lync Server 2013 qui permet aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez déployer cette fonctionnalité si vous envisagez d’utiliser Lync Server 2013 pour les appels vocaux, la messagerie vocale et d’autres fonctions qui utilisent un périphérique matériel ou un client logiciel.
+      - **Voix entreprise**     Voix entreprise est la solution voix sur IP (VoIP) dans Lync Server 2013 qui permet aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez déployer cette fonctionnalité si vous envisagez d’utiliser Lync Server 2013 pour les appels vocaux, la messagerie vocale et d’autres fonctions qui utilisent un périphérique matériel ou un client logiciel.
     
-      - **Le contrôle d’admission des appels (CAC)**   CAC détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel telles que des appels vocaux ou vidéo doivent être établies. Si vous avez uniquement déployé les fonctionnalités de messagerie instantanée et de présence, CAC n’est pas nécessaire car aucune de ces deux fonctionnalités n’utilise CAC.
+      - **Contrôle d’admission des appels (CAC)**     Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel telles que des appels vocaux ou vidéo doivent être établies ou non. Si vous avez uniquement déployé les fonctionnalités de messagerie instantanée et de présence, CAC n’est pas nécessaire car aucune de ces deux fonctionnalités n’utilise CAC.
     
-      - **** L’archivage archivage vous permet d’archiver le contenu de messagerie instantanée, le contenu de conférence (réunion), ou les deux, qui sont envoyés via Lync Server 2013.   
+      - **Archivage**     L’archivage vous permet d’archiver le contenu de messagerie instantanée, le contenu de conférence (réunion), ou les deux, qui sont envoyés par le biais de Lync Server 2013.
     
-      - **Monitoring**   Monitoring Server vous permet de collecter des données numériques qui décrivent la qualité des médias sur votre réseau et les points de terminaison, les informations d’utilisation concernant les appels VoIP, les messages instantanés, les conversations a/V, les réunions, le partage d’application et les transferts de fichiers, ainsi que les informations d’erreur et de dépannage pour les appels ayant échoué.
+      - **Surveillance**     Le serveur de surveillance vous permet de collecter des données numériques qui décrivent la qualité des médias sur votre réseau et les points de terminaison, les informations d’utilisation relatives aux appels VoIP, les messages de messagerie instantanée, les conversations A/V, les réunions, le partage d’application et les transferts de fichiers, ainsi que les informations d’erreur et de dépannage pour les appels ayant échoué.
     
     <div>
     
@@ -160,9 +162,9 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
     <thead>
     <tr class="header">
     <th></th>
-    <th>Vidéoconférence</th>
+    <th>Conférence</th>
     <th>Conférence rendez-vous</th>
-    <th>Enterprise Voice</th>
+    <th>Voix Entreprise</th>
     <th>Contrôle d’admission des appels</th>
     </tr>
     </thead>
@@ -175,7 +177,7 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
     <td></td>
     </tr>
     <tr class="even">
-    <td><p>Vidéoconférence</p></td>
+    <td><p>Conférence</p></td>
     <td><p>X</p></td>
     <td><p>X</p></td>
     <td></td>
@@ -218,7 +220,7 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
 
 6.  La page **rôles serveur associés à ce pool frontal** vous permet de définir et d’associer des rôles serveur au pool frontal. Le rôle suivant est disponible :
     
-    **Activer un pool**   Edge définit et associe un serveur Edge unique ou un pool de serveurs Edge. Un serveur Edge facilite la communication et la collaboration entre les utilisateurs au sein de l’organisation et les personnes extérieures à l’organisation, y compris les utilisateurs fédérés.
+    **Activer un pool**     de serveurs Edge Définit et associe un serveur Edge unique ou un pool de serveurs Edge. Un serveur Edge facilite la communication et la collaboration entre les utilisateurs au sein de l’organisation et les personnes extérieures à l’organisation, y compris les utilisateurs fédérés.
     
     Vous disposez de deux scénarios pour déployer et associer des rôles serveur :
     
@@ -265,7 +267,7 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
     
 
     > [!IMPORTANT]
-    > L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services Web du pool est https://pool01.contoso.net, l’URL de base est pool01.contoso.net.
+    > L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services Web du pool est https://pool01.contoso.net , l’URL de base est pool01.contoso.net.
 
     
     </div>
@@ -279,7 +281,7 @@ Une fois que vous avez défini votre topologie, utilisez la procédure suivante 
     
     </div>
     
-    1.  Si vous configurez l’équilibrage de charge DNS, activez la case à cocher **remplacer le nom de domaine complet du pool des services Web internes** , entrez l’URL de base interne (qui doit être différente du nom de\<domaine complet du\>pool et peut être, par exemple, l’URL de base interne) dans **URL de base interne**.
+    1.  Si vous configurez l’équilibrage de la charge DNS, activez la case à cocher **remplacer le nom de domaine complet du pool des services Web internes** , entrez l’URL de base interne (qui doit être différente du nom de domaine complet du pool et peut être, par exemple, Internal \<your base URL\> ) dans **URL de base interne**.
         
         <div>
         
