@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : validation des adresses'
+description: 'Lync Server 2013 : valide les adresses.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bf8ebf2dd3da00adbd4719dd749c59eeeee82b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bcbb8789912b3bcbcfb60dd79807f06c2957c1f6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508621"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547270"
 ---
-# <a name="validate-addresses-in-lync-server-2013"></a><span data-ttu-id="4017e-102">Valider des adresses dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4017e-102">Validate addresses in Lync Server 2013</span></span>
+# <a name="validate-addresses-in-lync-server-2013"></a><span data-ttu-id="e16b9-103">Valider des adresses dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e16b9-103">Validate addresses in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,40 +38,40 @@ ms.locfileid: "48508621"
 
 <span> </span>
 
-<span data-ttu-id="4017e-103">_**Dernière modification de la rubrique :** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="4017e-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="e16b9-104">_**Dernière modification de la rubrique :** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="e16b9-104">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="4017e-104">Avant de publier la base de données des emplacements, vous devez valider les nouveaux emplacements par rapport à la base de données MSAG (Master Street Address Guide) gérée par votre fournisseur de service de jonction SIP ou E9-1-1 PSTN (Public Switched Telephone Network).</span><span class="sxs-lookup"><span data-stu-id="4017e-104">Before publishing the location database, you must validate new locations against the Master Street Address Guide (MSAG) that is maintained by your SIP trunk or public switched telephone network (PSTN) E9-1-1 service provider.</span></span>
+<span data-ttu-id="e16b9-105">Avant de publier la base de données des emplacements, vous devez valider les nouveaux emplacements par rapport à la base de données MSAG (Master Street Address Guide) gérée par votre fournisseur de service de jonction SIP ou E9-1-1 PSTN (Public Switched Telephone Network).</span><span class="sxs-lookup"><span data-stu-id="e16b9-105">Before publishing the location database, you must validate new locations against the Master Street Address Guide (MSAG) that is maintained by your SIP trunk or public switched telephone network (PSTN) E9-1-1 service provider.</span></span>
 
-<span data-ttu-id="4017e-105">Pour plus d’informations sur les fournisseurs de services de jonction SIP E9-1-1, voir [choix d’un fournisseur de services E9-1-1 pour Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).</span><span class="sxs-lookup"><span data-stu-id="4017e-105">For details about SIP trunk E9-1-1 service providers, see [Choosing an E9-1-1 service provider for Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).</span></span>
+<span data-ttu-id="e16b9-106">Pour plus d’informations sur les fournisseurs de services de jonction SIP E9-1-1, voir [choix d’un fournisseur de services E9-1-1 pour Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).</span><span class="sxs-lookup"><span data-stu-id="e16b9-106">For details about SIP trunk E9-1-1 service providers, see [Choosing an E9-1-1 service provider for Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).</span></span>
 
-<span data-ttu-id="4017e-106">Pour plus d’informations sur la validation des adresses, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :</span><span class="sxs-lookup"><span data-stu-id="4017e-106">For details about validating addresses, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="e16b9-107">Pour plus d’informations sur la validation des adresses, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :</span><span class="sxs-lookup"><span data-stu-id="e16b9-107">For details about validating addresses, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="4017e-107">**Get-CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="4017e-107">**Get-CsLisServiceProvider**</span></span>
+  - <span data-ttu-id="e16b9-108">**Get-CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="e16b9-108">**Get-CsLisServiceProvider**</span></span>
 
-  - <span data-ttu-id="4017e-108">**Set-CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="4017e-108">**Set-CsLisServiceProvider**</span></span>
+  - <span data-ttu-id="e16b9-109">**Set-CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="e16b9-109">**Set-CsLisServiceProvider**</span></span>
 
-  - <span data-ttu-id="4017e-109">**Remove-CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="4017e-109">**Remove-CsLisServiceProvider**</span></span>
+  - <span data-ttu-id="e16b9-110">**Remove-CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="e16b9-110">**Remove-CsLisServiceProvider**</span></span>
 
-  - <span data-ttu-id="4017e-110">**Get-CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="4017e-110">**Get-CsLisCivicAddress**</span></span>
+  - <span data-ttu-id="e16b9-111">**Get-CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="e16b9-111">**Get-CsLisCivicAddress**</span></span>
 
-  - <span data-ttu-id="4017e-111">**Test-CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="4017e-111">**Test-CsLisCivicAddress**</span></span>
+  - <span data-ttu-id="e16b9-112">**Test-CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="e16b9-112">**Test-CsLisCivicAddress**</span></span>
 
 <div>
 
-## <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="4017e-112">Pour valider des adresses situées dans la base de données des emplacements</span><span class="sxs-lookup"><span data-stu-id="4017e-112">To validate addresses located in the location database</span></span>
+## <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="e16b9-113">Pour valider des adresses situées dans la base de données des emplacements</span><span class="sxs-lookup"><span data-stu-id="e16b9-113">To validate addresses located in the location database</span></span>
 
-1.  <span data-ttu-id="4017e-113">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="4017e-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="e16b9-114">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="e16b9-114">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="4017e-114">Exécutez les applets de commande suivantes pour configurer la connexion du fournisseur de service d’urgence.</span><span class="sxs-lookup"><span data-stu-id="4017e-114">Run the following cmdlets to configure the emergency service provider connection.</span></span>
+2.  <span data-ttu-id="e16b9-115">Exécutez les applets de commande suivantes pour configurer la connexion du fournisseur de service d’urgence.</span><span class="sxs-lookup"><span data-stu-id="e16b9-115">Run the following cmdlets to configure the emergency service provider connection.</span></span>
     
         $pwd = Read-Host -AsSecureString <password>
         Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
 
-3.  <span data-ttu-id="4017e-115">Exécutez l’applet de commande suivante pour valider les adresses de la base de données des emplacements.</span><span class="sxs-lookup"><span data-stu-id="4017e-115">Run the following cmdlet to validate the addresses in the location database.</span></span>
+3.  <span data-ttu-id="e16b9-116">Exécutez l’applet de commande suivante pour valider les adresses de la base de données des emplacements.</span><span class="sxs-lookup"><span data-stu-id="e16b9-116">Run the following cmdlet to validate the addresses in the location database.</span></span>
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     
-    <span data-ttu-id="4017e-116">Vous pouvez également utiliser l’applet de commande **Test-CsLisCivicAddress** pour valider des adresses individuelles.</span><span class="sxs-lookup"><span data-stu-id="4017e-116">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
+    <span data-ttu-id="e16b9-117">Vous pouvez également utiliser l’applet de commande **Test-CsLisCivicAddress** pour valider des adresses individuelles.</span><span class="sxs-lookup"><span data-stu-id="e16b9-117">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : cmdlets de routage statique'
+description: 'Lync Server 2013 : cmdlets de routage statique.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa16eecf680c42588f14f5512d6d3d5413f17e03
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 33fd251f63111cebb9297287252e666a7e10f0e1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519461"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546340"
 ---
-# <a name="static-routing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="04d7a-102">Cmdlets de routage statique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04d7a-102">Static routing cmdlets in Lync Server 2013</span></span>
+# <a name="static-routing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="44dd4-103">Cmdlets de routage statique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44dd4-103">Static routing cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,97 +38,97 @@ ms.locfileid: "48519461"
 
 <span> </span>
 
-<span data-ttu-id="04d7a-103">_**Dernière modification de la rubrique :** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="04d7a-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="44dd4-104">_**Dernière modification de la rubrique :** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="44dd4-104">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="04d7a-p101">Grâce aux itinéraires statiques, les administrateurs peuvent déterminer à l’avance les itinéraires réseau empruntés par les messages SIP. Quand un message est reçu par un serveur, le serveur contrôle l’adresse du message puis transfère le message au serveur du tronçon suivant préconfiguré par un administrateur. S’ils sont configurés correctement, les itinéraires statiques contribuent à assurer une remise précise et en temps voulu des messages, tout en garantissant une charge minime sur les serveurs.</span><span class="sxs-lookup"><span data-stu-id="04d7a-p101">With static routes, administrators can predetermine the network routes taken by SIP messages. When a message is received by a server, the server checks the message address and then forwards the message to the next hop server preconfigured by an administrator. If configured correctly, static routes help ensure timely, and accurate, delivery of messages, and with minimal overheard placed on servers.</span></span>
+<span data-ttu-id="44dd4-p101">Grâce aux itinéraires statiques, les administrateurs peuvent déterminer à l’avance les itinéraires réseau empruntés par les messages SIP. Quand un message est reçu par un serveur, le serveur contrôle l’adresse du message puis transfère le message au serveur du tronçon suivant préconfiguré par un administrateur. S’ils sont configurés correctement, les itinéraires statiques contribuent à assurer une remise précise et en temps voulu des messages, tout en garantissant une charge minime sur les serveurs.</span><span class="sxs-lookup"><span data-stu-id="44dd4-p101">With static routes, administrators can predetermine the network routes taken by SIP messages. When a message is received by a server, the server checks the message address and then forwards the message to the next hop server preconfigured by an administrator. If configured correctly, static routes help ensure timely, and accurate, delivery of messages, and with minimal overheard placed on servers.</span></span>
 
 <div>
 
-## <a name="static-routing-cmdlets"></a><span data-ttu-id="04d7a-107">Applets de commande de routage statique</span><span class="sxs-lookup"><span data-stu-id="04d7a-107">Static Routing Cmdlets</span></span>
+## <a name="static-routing-cmdlets"></a><span data-ttu-id="44dd4-108">Applets de commande de routage statique</span><span class="sxs-lookup"><span data-stu-id="44dd4-108">Static Routing Cmdlets</span></span>
 
-<span data-ttu-id="04d7a-108">Sauf indication contraire du personnel du support technique Microsoft, les itinéraires statiques configurés pour Microsoft Lync Server 2013 doivent être créés à l’aide de la cmdlet [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="04d7a-108">Unless otherwise instructed by Microsoft support personnel, static routes configured for Microsoft Lync Server 2013 should be created using the [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) cmdlet.</span></span> <span data-ttu-id="04d7a-109">Une fois qu’un itinéraire a été créé, vous pouvez alors utiliser les applets de commande CsStaticRoutingConfiguration pour l’ajouter à la collection de routage statique.</span><span class="sxs-lookup"><span data-stu-id="04d7a-109">After a route has been created, you can then use the CsStaticRoutingConfiguration cmdlets to add that route to a static routing collection.</span></span>
+<span data-ttu-id="44dd4-109">Sauf indication contraire du personnel du support technique Microsoft, les itinéraires statiques configurés pour Microsoft Lync Server 2013 doivent être créés à l’aide de la cmdlet [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="44dd4-109">Unless otherwise instructed by Microsoft support personnel, static routes configured for Microsoft Lync Server 2013 should be created using the [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) cmdlet.</span></span> <span data-ttu-id="44dd4-110">Une fois qu’un itinéraire a été créé, vous pouvez alors utiliser les applets de commande CsStaticRoutingConfiguration pour l’ajouter à la collection de routage statique.</span><span class="sxs-lookup"><span data-stu-id="44dd4-110">After a route has been created, you can then use the CsStaticRoutingConfiguration cmdlets to add that route to a static routing collection.</span></span>
 
-<span data-ttu-id="04d7a-110">**Routage statique**</span><span class="sxs-lookup"><span data-stu-id="04d7a-110">**Static Routing**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="04d7a-111">[Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-111">[Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))</span></span>
+<span data-ttu-id="44dd4-111">**Routage statique**</span><span class="sxs-lookup"><span data-stu-id="44dd4-111">**Static Routing**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="04d7a-112">[New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-112">[New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-112">[Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-112">[Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="04d7a-113">[Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-113">[Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-113">[New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-113">[New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="04d7a-114">[Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-114">[Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-114">[Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-114">[Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="44dd4-115">[Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-115">[Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-115">[New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-115">[New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-116">[New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-116">[New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-116">[Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-116">[Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-117">[Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-117">[Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="04d7a-117">[New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-117">[New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-118">[New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-118">[New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="04d7a-118">[Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-118">[Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-119">[Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-119">[Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="04d7a-119">[Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-119">[Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-120">[Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-120">[Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-120">[New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-120">[New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-121">[New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-121">[New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-121">[New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-121">[New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-122">[New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-122">[New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-122">[New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-122">[New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-123">[New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-123">[New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-123">[New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-123">[New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-124">[New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-124">[New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-124">[New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-124">[New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-125">[New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-125">[New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-125">[New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-125">[New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-126">[New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-126">[New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-126">[New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-126">[New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-127">[New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-127">[New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="04d7a-127">[New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="04d7a-127">[New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))</span></span>
+    <span data-ttu-id="44dd4-128">[New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="44dd4-128">[New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="04d7a-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="04d7a-128">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44dd4-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="44dd4-129">See Also</span></span>
 
 
-[<span data-ttu-id="04d7a-129">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="04d7a-129">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="44dd4-130">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="44dd4-130">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

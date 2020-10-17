@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : appels entrants'
+description: 'Lync Server 2013 : appels entrants.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a72c7fc378240f9751eae8e6c24e9cc601b08d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526611"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547730"
 ---
-# <a name="incoming-calls-in-lync-server-2013"></a><span data-ttu-id="57a3e-102">Appels entrants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57a3e-102">Incoming calls in Lync Server 2013</span></span>
+# <a name="incoming-calls-in-lync-server-2013"></a><span data-ttu-id="d8ab1-103">Appels entrants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8ab1-103">Incoming calls in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48526611"
 
 <span> </span>
 
-<span data-ttu-id="57a3e-103">_**Dernière modification de la rubrique :** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="57a3e-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="d8ab1-104">_**Dernière modification de la rubrique :** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="d8ab1-104">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="57a3e-104">Le routage des appels entrants vers les utilisateurs pour lesquels le routage des Location-Baseds est activé dépend de l’emplacement du point de terminaison de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="57a3e-104">The routing of incoming calls to users enabled for Location-Based Routing depends on the location of the user’s endpoint.</span></span> <span data-ttu-id="57a3e-105">Le routage des appels entrants est affecté de la manière suivante.</span><span class="sxs-lookup"><span data-stu-id="57a3e-105">The routing of incoming calls is affected in the following way.</span></span> <span data-ttu-id="57a3e-106">Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage Location-Based et que le point de terminaison se trouve dans le même site réseau que la passerelle RTC, l’appel sera acheminé.</span><span class="sxs-lookup"><span data-stu-id="57a3e-106">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in the same network site as the PSTN gateway, the call will be routed.</span></span> <span data-ttu-id="57a3e-107">Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage Location-Based et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé.</span><span class="sxs-lookup"><span data-stu-id="57a3e-107">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in a different network site than the PSTN gateway, the call will not be routed.</span></span> <span data-ttu-id="57a3e-108">Lorsqu’un utilisateur n’a pas de point de terminaison situé dans le même site réseau que la passerelle RTC, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à la personne appelée.</span><span class="sxs-lookup"><span data-stu-id="57a3e-108">When a user has no endpoints located in the same network site as the PSTN gateway where the incoming call is originating from, the incoming call will be routed directly to the user’s voicemail and a missed call notification will be sent to the called party.</span></span>
+<span data-ttu-id="d8ab1-105">Le routage des appels entrants vers les utilisateurs pour lesquels le routage des Location-Baseds est activé dépend de l’emplacement du point de terminaison de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-105">The routing of incoming calls to users enabled for Location-Based Routing depends on the location of the user’s endpoint.</span></span> <span data-ttu-id="d8ab1-106">Le routage des appels entrants est affecté de la manière suivante.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-106">The routing of incoming calls is affected in the following way.</span></span> <span data-ttu-id="d8ab1-107">Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage Location-Based et que le point de terminaison se trouve dans le même site réseau que la passerelle RTC, l’appel sera acheminé.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-107">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in the same network site as the PSTN gateway, the call will be routed.</span></span> <span data-ttu-id="d8ab1-108">Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage Location-Based et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-108">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in a different network site than the PSTN gateway, the call will not be routed.</span></span> <span data-ttu-id="d8ab1-109">Lorsqu’un utilisateur n’a pas de point de terminaison situé dans le même site réseau que la passerelle RTC, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à la personne appelée.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-109">When a user has no endpoints located in the same network site as the PSTN gateway where the incoming call is originating from, the incoming call will be routed directly to the user’s voicemail and a missed call notification will be sent to the called party.</span></span>
 
-<span data-ttu-id="57a3e-109">Les paramètres de transfert d’appel d’un utilisateur activé pour le routage de Location-Based continueront à être appliqués, cependant, les appels transférés seront soumis à des restrictions de routage Location-Based de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="57a3e-109">The call forwarding settings of a user that is enabled for Location-Based Routing will continue to be enforced, however, calls forwarded will be subject to Location-Based Routing restrictions of the user.</span></span>
+<span data-ttu-id="d8ab1-110">Les paramètres de transfert d’appel d’un utilisateur activé pour le routage de Location-Based continueront à être appliqués, cependant, les appels transférés seront soumis à des restrictions de routage Location-Based de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-110">The call forwarding settings of a user that is enabled for Location-Based Routing will continue to be enforced, however, calls forwarded will be subject to Location-Based Routing restrictions of the user.</span></span>
 
-<span data-ttu-id="57a3e-110">Le tableau suivant montre comment Location-Based routage affecte le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelé.</span><span class="sxs-lookup"><span data-stu-id="57a3e-110">The following table illustrates how Location-Based Routing affects the routing of inbound calls depending on the location of the callee’s endpoint.</span></span> <span data-ttu-id="57a3e-111">Le site réseau de la passerelle PSTN est activé pour le routage des Location-Based et le routage des Location-Based uniquement autorise le routage des appels PSTN vers les points de terminaison au sein du même site réseau.</span><span class="sxs-lookup"><span data-stu-id="57a3e-111">The network site of the PSTN gateway is enabled for Location-Based Routing, and Location-Based Routing only permits routing of PSTN calls to endpoints within the same network site.</span></span>
+<span data-ttu-id="d8ab1-111">Le tableau suivant montre comment Location-Based routage affecte le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelé.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-111">The following table illustrates how Location-Based Routing affects the routing of inbound calls depending on the location of the callee’s endpoint.</span></span> <span data-ttu-id="d8ab1-112">Le site réseau de la passerelle PSTN est activé pour le routage des Location-Based et le routage des Location-Based uniquement autorise le routage des appels PSTN vers les points de terminaison au sein du même site réseau.</span><span class="sxs-lookup"><span data-stu-id="d8ab1-112">The network site of the PSTN gateway is enabled for Location-Based Routing, and Location-Based Routing only permits routing of PSTN calls to endpoints within the same network site.</span></span>
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a><span data-ttu-id="57a3e-112">Appelé recevant un appel entrant du RTC</span><span class="sxs-lookup"><span data-stu-id="57a3e-112">Callee receiving an inbound call from the PSTN</span></span>
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a><span data-ttu-id="d8ab1-113">Appelé recevant un appel entrant du RTC</span><span class="sxs-lookup"><span data-stu-id="d8ab1-113">Callee receiving an inbound call from the PSTN</span></span>
 
 <table>
 <colgroup>
@@ -57,17 +58,17 @@ ms.locfileid: "48526611"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="57a3e-113">Point de terminaison de l’appelé situé dans le même site réseau que la passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="57a3e-113">Callee’s endpoint located in the same network site as PSTN gateway</span></span></th>
-<th><span data-ttu-id="57a3e-114">Point de terminaison de l’appelé non situé dans le même site réseau que la passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="57a3e-114">Callee’s endpoint not located in the same network site as PSTN gateway</span></span></th>
-<th><span data-ttu-id="57a3e-115">Point de terminaison de l’appelé situé dans un site réseau inconnu ou non activé pour le routage des Location-Based</span><span class="sxs-lookup"><span data-stu-id="57a3e-115">Callee’s endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="d8ab1-114">Point de terminaison de l’appelé situé dans le même site réseau que la passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="d8ab1-114">Callee’s endpoint located in the same network site as PSTN gateway</span></span></th>
+<th><span data-ttu-id="d8ab1-115">Point de terminaison de l’appelé non situé dans le même site réseau que la passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="d8ab1-115">Callee’s endpoint not located in the same network site as PSTN gateway</span></span></th>
+<th><span data-ttu-id="d8ab1-116">Point de terminaison de l’appelé situé dans un site réseau inconnu ou non activé pour le routage des Location-Based</span><span class="sxs-lookup"><span data-stu-id="d8ab1-116">Callee’s endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="57a3e-116">Routage des appels RTC entrants</span><span class="sxs-lookup"><span data-stu-id="57a3e-116">Routing of inbound PSTN call</span></span></p></td>
-<td><p><span data-ttu-id="57a3e-117">L’appel entrant est acheminé vers les points de terminaison de l’appelé</span><span class="sxs-lookup"><span data-stu-id="57a3e-117">Incoming call is routed to callee’s endpoints</span></span></p></td>
-<td><p><span data-ttu-id="57a3e-118">L’appel entrant n’est pas acheminé vers les points de terminaison de l’appelé</span><span class="sxs-lookup"><span data-stu-id="57a3e-118">Incoming call is not routed to callee’s endpoints</span></span></p></td>
-<td><p><span data-ttu-id="57a3e-119">L’appel entrant n’est pas acheminé vers les points de terminaison de l’appelé</span><span class="sxs-lookup"><span data-stu-id="57a3e-119">Incoming call is not routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="d8ab1-117">Routage des appels RTC entrants</span><span class="sxs-lookup"><span data-stu-id="d8ab1-117">Routing of inbound PSTN call</span></span></p></td>
+<td><p><span data-ttu-id="d8ab1-118">L’appel entrant est acheminé vers les points de terminaison de l’appelé</span><span class="sxs-lookup"><span data-stu-id="d8ab1-118">Incoming call is routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="d8ab1-119">L’appel entrant n’est pas acheminé vers les points de terminaison de l’appelé</span><span class="sxs-lookup"><span data-stu-id="d8ab1-119">Incoming call is not routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="d8ab1-120">L’appel entrant n’est pas acheminé vers les points de terminaison de l’appelé</span><span class="sxs-lookup"><span data-stu-id="d8ab1-120">Incoming call is not routed to callee’s endpoints</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -76,10 +77,10 @@ ms.locfileid: "48526611"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="57a3e-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="57a3e-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8ab1-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d8ab1-121">See Also</span></span>
 
 
-[<span data-ttu-id="57a3e-121">Scénarios de routage des Location-Based dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57a3e-121">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="d8ab1-122">Scénarios de routage des Location-Based dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8ab1-122">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>
