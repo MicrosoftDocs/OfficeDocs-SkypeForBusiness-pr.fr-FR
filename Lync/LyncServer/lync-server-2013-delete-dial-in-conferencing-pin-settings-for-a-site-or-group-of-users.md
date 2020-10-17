@@ -1,5 +1,6 @@
 ---
 title: Supprimer les paramètres de code confidentiel de conférence rendez-vous pour un site ou un groupe d’utilisateurs
+description: Supprimer les paramètres de code confidentiel de conférence rendez-vous pour un site ou un groupe d’utilisateurs.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c217f86d9f453199ce55571bf2d2b674e7f0ff93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a40168780d5ac5f37ceb33dfaacd25b492d6307a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525591"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564250"
 ---
-# <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a><span data-ttu-id="1120a-102">Supprimer les paramètres de code confidentiel de conférence rendez-vous pour un site ou un groupe d’utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1120a-102">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>
+# <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a><span data-ttu-id="2d8cc-103">Supprimer les paramètres de code confidentiel de conférence rendez-vous pour un site ou un groupe d’utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d8cc-103">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48525591"
 
 <span> </span>
 
-<span data-ttu-id="1120a-103">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="1120a-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="2d8cc-104">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="2d8cc-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="1120a-104">Suivez cette procédure pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site.</span><span class="sxs-lookup"><span data-stu-id="1120a-104">Follow these steps to delete a user-level or a site-level PIN policy.</span></span>
+<span data-ttu-id="2d8cc-105">Suivez cette procédure pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-105">Follow these steps to delete a user-level or a site-level PIN policy.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="1120a-105">Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.</span><span class="sxs-lookup"><span data-stu-id="1120a-105">You cannot delete the global PIN policy.</span></span>
+> <span data-ttu-id="2d8cc-106">Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-106">You cannot delete the global PIN policy.</span></span>
 
 
 
@@ -53,19 +54,19 @@ ms.locfileid: "48525591"
 
 <div>
 
-## <a name="to-delete-a-user-or-site-pin-policy"></a><span data-ttu-id="1120a-106">Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site</span><span class="sxs-lookup"><span data-stu-id="1120a-106">To delete a user or site PIN policy</span></span>
+## <a name="to-delete-a-user-or-site-pin-policy"></a><span data-ttu-id="2d8cc-107">Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site</span><span class="sxs-lookup"><span data-stu-id="2d8cc-107">To delete a user or site PIN policy</span></span>
 
-1.  <span data-ttu-id="1120a-107">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1120a-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="2d8cc-108">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="1120a-108">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1120a-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1120a-109">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="1120a-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="2d8cc-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2d8cc-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2d8cc-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="1120a-110">Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.</span><span class="sxs-lookup"><span data-stu-id="1120a-110">In the left navigation bar, click **Conferencing**, and then click **PIN Policy**.</span></span>
+3.  <span data-ttu-id="2d8cc-111">Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-111">In the left navigation bar, click **Conferencing**, and then click **PIN Policy**.</span></span>
 
-4.  <span data-ttu-id="1120a-111">Dans la page **Stratégie de code confidentiel**, dans le champ de recherche, tapez l’intégralité ou le début du nom de la stratégie que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="1120a-111">On the **PIN Policy** page, in the search field, type all or part of the name of the policy you want to delete.</span></span>
+4.  <span data-ttu-id="2d8cc-112">Dans la page **Stratégie de code confidentiel**, dans le champ de recherche, tapez l’intégralité ou le début du nom de la stratégie que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-112">On the **PIN Policy** page, in the search field, type all or part of the name of the policy you want to delete.</span></span>
 
-5.  <span data-ttu-id="1120a-112">Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="1120a-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="2d8cc-113">Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-113">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="1120a-113">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="1120a-113">Click **OK**.</span></span>
+6.  <span data-ttu-id="2d8cc-114">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="2d8cc-114">Click **OK**.</span></span>
 
 </div>
 

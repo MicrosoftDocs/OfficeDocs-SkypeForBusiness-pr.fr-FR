@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : présentation du processus de sauvegarde et de restauration'
+description: 'Lync Server 2013 : présentation du processus de sauvegarde et de restauration.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94cebbc9a11e1857bed419c97f52f065326b1772
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 77b833a05021d3a848e9de1ee8768f7daa194c6a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504871"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563170"
 ---
-# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="0d69e-102">Vue d’ensemble du processus de sauvegarde et de restauration pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d69e-102">Backup and restoration process overview for Lync Server 2013</span></span>
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="4ffc7-103">Vue d’ensemble du processus de sauvegarde et de restauration pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffc7-103">Backup and restoration process overview for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,57 +38,57 @@ ms.locfileid: "48504871"
 
 <span> </span>
 
-<span data-ttu-id="0d69e-103">_**Dernière modification de la rubrique :** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="0d69e-103">_**Topic Last Modified:** 2013-03-26_</span></span>
+<span data-ttu-id="4ffc7-104">_**Dernière modification de la rubrique :** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="4ffc7-104">_**Topic Last Modified:** 2013-03-26_</span></span>
 
-<span data-ttu-id="0d69e-104">Cette section fournit une vue d’ensemble du fonctionnement du processus de sauvegarde et de restauration pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0d69e-104">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="0d69e-105">Vous utilisez la même procédure pour tous les serveurs Standard Edition Server et Enterprise Edition, quel que soit leur emplacement.</span><span class="sxs-lookup"><span data-stu-id="0d69e-105">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
+<span data-ttu-id="4ffc7-105">Cette section fournit une vue d’ensemble du fonctionnement du processus de sauvegarde et de restauration pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-105">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="4ffc7-106">Vous utilisez la même procédure pour tous les serveurs Standard Edition Server et Enterprise Edition, quel que soit leur emplacement.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-106">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
 
-<span data-ttu-id="0d69e-106">En règle générale, le processus de sauvegarde fonctionne comme suit :</span><span class="sxs-lookup"><span data-stu-id="0d69e-106">In general, the backup process works as follows:</span></span>
+<span data-ttu-id="4ffc7-107">En règle générale, le processus de sauvegarde fonctionne comme suit :</span><span class="sxs-lookup"><span data-stu-id="4ffc7-107">In general, the backup process works as follows:</span></span>
 
-  - <span data-ttu-id="0d69e-107">Vous créez un emplacement de sauvegarde en tant que dossier partagé sur un ordinateur autonome qui ne fait partie d’aucun pool.</span><span class="sxs-lookup"><span data-stu-id="0d69e-107">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="0d69e-108">L’emplacement de la sauvegarde est référencé dans **$Backup**.</span><span class="sxs-lookup"><span data-stu-id="0d69e-108">The location of the backup is referenced in **$Backup**.</span></span>
+  - <span data-ttu-id="4ffc7-108">Vous créez un emplacement de sauvegarde en tant que dossier partagé sur un ordinateur autonome qui ne fait partie d’aucun pool.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-108">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="4ffc7-109">L’emplacement de la sauvegarde est référencé dans **$Backup**.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-109">The location of the backup is referenced in **$Backup**.</span></span>
 
-  - <span data-ttu-id="0d69e-109">De manière régulière et planifiée, vous sauvegardez toutes les bases de données Lync Server et tous les magasins de fichiers décrits dans la rubrique Configuration de la [sauvegarde et de la restauration dans Lync server 2013 : données](lync-server-2013-backup-and-restoration-requirements-data.md) en suivant les procédures décrites dans la rubrique [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) le magasin central de gestion inclut tous les paramètres et configurations du serveur.</span><span class="sxs-lookup"><span data-stu-id="0d69e-109">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
+  - <span data-ttu-id="4ffc7-110">De manière régulière et planifiée, vous sauvegardez toutes les bases de données Lync Server et tous les magasins de fichiers décrits dans la rubrique Configuration de la [sauvegarde et de la restauration dans Lync server 2013 : données](lync-server-2013-backup-and-restoration-requirements-data.md) en suivant les procédures décrites dans la rubrique [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) le magasin central de gestion inclut tous les paramètres et configurations du serveur.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-110">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
 
-  - <span data-ttu-id="0d69e-110">Chaque fois que vous exécutez une sauvegarde ultérieure, vous créez un nouveau dossier partagé et modifiez le chemin d’accès que **$Backup** référence.</span><span class="sxs-lookup"><span data-stu-id="0d69e-110">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
+  - <span data-ttu-id="4ffc7-111">Chaque fois que vous exécutez une sauvegarde ultérieure, vous créez un nouveau dossier partagé et modifiez le chemin d’accès que **$Backup** référence.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-111">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
 
-<span data-ttu-id="0d69e-111">En règle générale, le processus de restauration fonctionne comme suit :</span><span class="sxs-lookup"><span data-stu-id="0d69e-111">In general, the restoration process works as follows:</span></span>
+<span data-ttu-id="4ffc7-112">En règle générale, le processus de restauration fonctionne comme suit :</span><span class="sxs-lookup"><span data-stu-id="4ffc7-112">In general, the restoration process works as follows:</span></span>
 
-  - <span data-ttu-id="0d69e-112">Lorsqu’une défaillance ou une panne se produit, vous restaurez les données à l’emplacement référencé par **$Backup** sur des ordinateurs nouveaux ou nettoyés.</span><span class="sxs-lookup"><span data-stu-id="0d69e-112">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
+  - <span data-ttu-id="4ffc7-113">Lorsqu’une défaillance ou une panne se produit, vous restaurez les données à l’emplacement référencé par **$Backup** sur des ordinateurs nouveaux ou nettoyés.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-113">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="0d69e-113">Ce processus de restauration ne restaure pas les données dans un état de serveur existant.</span><span class="sxs-lookup"><span data-stu-id="0d69e-113">This restoration process does not restore data onto an existing server state.</span></span> <span data-ttu-id="0d69e-114">Autrement dit, ce processus nécessite que le serveur soit propre ou nouveau.</span><span class="sxs-lookup"><span data-stu-id="0d69e-114">That is, this process requires that the server is clean or new.</span></span>
+    > <span data-ttu-id="4ffc7-114">Ce processus de restauration ne restaure pas les données dans un état de serveur existant.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-114">This restoration process does not restore data onto an existing server state.</span></span> <span data-ttu-id="4ffc7-115">Autrement dit, ce processus nécessite que le serveur soit propre ou nouveau.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-115">That is, this process requires that the server is clean or new.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="0d69e-115">Pour que vos informations d’utilisateur et de conférence soient récupérables au point de défaillance, vous pouvez implémenter une topologie de récupération d’urgence avec des pools frontaux couplés, comme décrit dans [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="0d69e-115">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
+  - <span data-ttu-id="4ffc7-116">Pour que vos informations d’utilisateur et de conférence soient récupérables au point de défaillance, vous pouvez implémenter une topologie de récupération d’urgence avec des pools frontaux couplés, comme décrit dans [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="4ffc7-116">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
 
-  - <span data-ttu-id="0d69e-116">La configuration DNS (Domain Name System), la configuration du protocole DHCP (Dynamic Host Configuration Protocol), les noms de domaine, les noms de domaine complets (FQDN), les chemins d’accès aux magasins de fichiers, etc., doivent être identiques au moment de la restauration.</span><span class="sxs-lookup"><span data-stu-id="0d69e-116">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
+  - <span data-ttu-id="4ffc7-117">La configuration DNS (Domain Name System), la configuration du protocole DHCP (Dynamic Host Configuration Protocol), les noms de domaine, les noms de domaine complets (FQDN), les chemins d’accès aux magasins de fichiers, etc., doivent être identiques au moment de la restauration.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-117">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
 
-<span data-ttu-id="0d69e-117">Si un serveur exécutant Lync Server tombe en panne, la récupération inclut les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="0d69e-117">If a server running Lync Server fails, recovery includes the following steps:</span></span>
+<span data-ttu-id="4ffc7-118">Si un serveur exécutant Lync Server tombe en panne, la récupération inclut les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="4ffc7-118">If a server running Lync Server fails, recovery includes the following steps:</span></span>
 
-  - <span data-ttu-id="0d69e-118">Installez le système d’exploitation sur un ordinateur nouveau ou nettoyé avec le même nom de domaine complet que l’ordinateur défaillant.</span><span class="sxs-lookup"><span data-stu-id="0d69e-118">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
+  - <span data-ttu-id="4ffc7-119">Installez le système d’exploitation sur un ordinateur nouveau ou nettoyé avec le même nom de domaine complet que l’ordinateur défaillant.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-119">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
 
-  - <span data-ttu-id="0d69e-119">Réinstallez les certificats.</span><span class="sxs-lookup"><span data-stu-id="0d69e-119">Reinstall certificates.</span></span>
+  - <span data-ttu-id="4ffc7-120">Réinstallez les certificats.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-120">Reinstall certificates.</span></span>
 
-  - <span data-ttu-id="0d69e-120">Si le serveur hébergeait une base de données, installez Microsoft SQL Server 2012 ou Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="0d69e-120">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
+  - <span data-ttu-id="4ffc7-121">Si le serveur hébergeait une base de données, installez Microsoft SQL Server 2012 ou Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-121">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
 
-  - <span data-ttu-id="0d69e-121">En général, si le serveur hébergeait une base de données, exécutez le générateur de topologie pour créer et installer la base de données, puis configurez les listes de contrôle d’accès (ACL).</span><span class="sxs-lookup"><span data-stu-id="0d69e-121">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
+  - <span data-ttu-id="4ffc7-122">En général, si le serveur hébergeait une base de données, exécutez le générateur de topologie pour créer et installer la base de données, puis configurez les listes de contrôle d’accès (ACL).</span><span class="sxs-lookup"><span data-stu-id="4ffc7-122">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
 
-  - <span data-ttu-id="0d69e-122">En général, si le serveur hébergeait un rôle serveur, exécutez les étapes 1 à 4 de l’Assistant Déploiement de Lync Server pour installer les fichiers de configuration locaux, installer les composants de rôle serveur, assigner des certificats et démarrer les services.</span><span class="sxs-lookup"><span data-stu-id="0d69e-122">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
+  - <span data-ttu-id="4ffc7-123">En général, si le serveur hébergeait un rôle serveur, exécutez les étapes 1 à 4 de l’Assistant Déploiement de Lync Server pour installer les fichiers de configuration locaux, installer les composants de rôle serveur, assigner des certificats et démarrer les services.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-123">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="0d69e-123">Si le serveur hébergeait une base de données colocalisée avec le rôle serveur, l’étape 2 de l’Assistant Déploiement de Lync Server recrée la base de données.</span><span class="sxs-lookup"><span data-stu-id="0d69e-123">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
+    > <span data-ttu-id="4ffc7-124">Si le serveur hébergeait une base de données colocalisée avec le rôle serveur, l’étape 2 de l’Assistant Déploiement de Lync Server recrée la base de données.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-124">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="0d69e-124">Si le serveur hébergeait une base de données, restaurez les données sauvegardées.</span><span class="sxs-lookup"><span data-stu-id="0d69e-124">If the server hosted a database, restore the backed up data.</span></span>
+  - <span data-ttu-id="4ffc7-125">Si le serveur hébergeait une base de données, restaurez les données sauvegardées.</span><span class="sxs-lookup"><span data-stu-id="4ffc7-125">If the server hosted a database, restore the backed up data.</span></span>
 
 </div>
 

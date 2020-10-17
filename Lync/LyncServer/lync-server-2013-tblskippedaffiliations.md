@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : tblSkippedAffiliations'
+description: 'Lync Server 2013 : tblSkippedAffiliations.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28751281bfbc8809c2be23e3bfdb6466b85d63f7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 31746cee7302d34a1d19b3059ca1da6beab9345d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536191"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563800"
 ---
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a><span data-ttu-id="aecc5-102">tblSkippedAffiliations dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aecc5-102">tblSkippedAffiliations in Lync Server 2013</span></span>
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a><span data-ttu-id="8699e-103">tblSkippedAffiliations dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8699e-103">tblSkippedAffiliations in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48536191"
 
 <span> </span>
 
-<span data-ttu-id="aecc5-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="aecc5-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="8699e-104">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="8699e-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="aecc5-104">tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison des erreurs d’accès aux services de domaine Active Directory).</span><span class="sxs-lookup"><span data-stu-id="aecc5-104">tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).</span></span>
+<span data-ttu-id="8699e-105">tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison des erreurs d’accès aux services de domaine Active Directory).</span><span class="sxs-lookup"><span data-stu-id="8699e-105">tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).</span></span>
 
-### <a name="columns"></a><span data-ttu-id="aecc5-105">Colonnes</span><span class="sxs-lookup"><span data-stu-id="aecc5-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="8699e-106">Colonnes</span><span class="sxs-lookup"><span data-stu-id="8699e-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,33 +52,33 @@ ms.locfileid: "48536191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="aecc5-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="aecc5-106">Column</span></span></th>
-<th><span data-ttu-id="aecc5-107">Type</span><span class="sxs-lookup"><span data-stu-id="aecc5-107">Type</span></span></th>
-<th><span data-ttu-id="aecc5-108">Description</span><span class="sxs-lookup"><span data-stu-id="aecc5-108">Description</span></span></th>
+<th><span data-ttu-id="8699e-107">Colonne</span><span class="sxs-lookup"><span data-stu-id="8699e-107">Column</span></span></th>
+<th><span data-ttu-id="8699e-108">Type</span><span class="sxs-lookup"><span data-stu-id="8699e-108">Type</span></span></th>
+<th><span data-ttu-id="8699e-109">Description</span><span class="sxs-lookup"><span data-stu-id="8699e-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aecc5-109">prinID</span><span class="sxs-lookup"><span data-stu-id="aecc5-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-110">int, non null</span><span class="sxs-lookup"><span data-stu-id="aecc5-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="aecc5-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="8699e-110">prinID</span><span class="sxs-lookup"><span data-stu-id="8699e-110">prinID</span></span></p></td>
+<td><p><span data-ttu-id="8699e-111">int, non null</span><span class="sxs-lookup"><span data-stu-id="8699e-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="8699e-112">ID principal.</span><span class="sxs-lookup"><span data-stu-id="8699e-112">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aecc5-112">affDescription</span><span class="sxs-lookup"><span data-stu-id="aecc5-112">affDescription</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-113">nvarchar (256), non null</span><span class="sxs-lookup"><span data-stu-id="aecc5-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-114">Chaîne identifiant l’affiliation.</span><span class="sxs-lookup"><span data-stu-id="aecc5-114">A string identifying the affiliation.</span></span></p>
-<p><span data-ttu-id="aecc5-115">Le format est : GUID : {0} URI : {1} &gt; ID :{2}</span><span class="sxs-lookup"><span data-stu-id="aecc5-115">The format is: guid: {0} uri: {1}&gt; id: {2}</span></span></p></td>
+<td><p><span data-ttu-id="8699e-113">affDescription</span><span class="sxs-lookup"><span data-stu-id="8699e-113">affDescription</span></span></p></td>
+<td><p><span data-ttu-id="8699e-114">nvarchar (256), non null</span><span class="sxs-lookup"><span data-stu-id="8699e-114">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="8699e-115">Chaîne identifiant l’affiliation.</span><span class="sxs-lookup"><span data-stu-id="8699e-115">A string identifying the affiliation.</span></span></p>
+<p><span data-ttu-id="8699e-116">Le format est : GUID : {0} URI : {1} &gt; ID :{2}</span><span class="sxs-lookup"><span data-stu-id="8699e-116">The format is: guid: {0} uri: {1}&gt; id: {2}</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aecc5-116">updatedBy</span><span class="sxs-lookup"><span data-stu-id="aecc5-116">updatedBy</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-117">int, non null</span><span class="sxs-lookup"><span data-stu-id="aecc5-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-p101">ID du principal qui a mis à jour cette ligne. Il s’agit toujours d’1 (utilisateur système) car la synchronisation Active Directory est la seule source pour ces entrées.</span><span class="sxs-lookup"><span data-stu-id="aecc5-p101">ID of the principal that updated this row. It is always 1 (system user) because Active Directory Sync is the only source for these entries.</span></span></p></td>
+<td><p><span data-ttu-id="8699e-117">updatedBy</span><span class="sxs-lookup"><span data-stu-id="8699e-117">updatedBy</span></span></p></td>
+<td><p><span data-ttu-id="8699e-118">int, non null</span><span class="sxs-lookup"><span data-stu-id="8699e-118">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="8699e-p101">ID du principal qui a mis à jour cette ligne. Il s’agit toujours d’1 (utilisateur système) car la synchronisation Active Directory est la seule source pour ces entrées.</span><span class="sxs-lookup"><span data-stu-id="8699e-p101">ID of the principal that updated this row. It is always 1 (system user) because Active Directory Sync is the only source for these entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="aecc5-120">Keys</span><span class="sxs-lookup"><span data-stu-id="aecc5-120">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="8699e-121">Keys</span><span class="sxs-lookup"><span data-stu-id="8699e-121">Keys</span></span>
 
 <table>
 <colgroup>
@@ -86,18 +87,18 @@ ms.locfileid: "48536191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="aecc5-121">Colonne (s)</span><span class="sxs-lookup"><span data-stu-id="aecc5-121">Column(s)</span></span></th>
-<th><span data-ttu-id="aecc5-122">Description</span><span class="sxs-lookup"><span data-stu-id="aecc5-122">Description</span></span></th>
+<th><span data-ttu-id="8699e-122">Colonne (s)</span><span class="sxs-lookup"><span data-stu-id="8699e-122">Column(s)</span></span></th>
+<th><span data-ttu-id="8699e-123">Description</span><span class="sxs-lookup"><span data-stu-id="8699e-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aecc5-123">&lt;prinID, affDescription&gt;</span><span class="sxs-lookup"><span data-stu-id="aecc5-123">&lt;prinID, affDescription&gt;</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-124">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="aecc5-124">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="8699e-124">&lt;prinID, affDescription&gt;</span><span class="sxs-lookup"><span data-stu-id="8699e-124">&lt;prinID, affDescription&gt;</span></span></p></td>
+<td><p><span data-ttu-id="8699e-125">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="8699e-125">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aecc5-125">prinID</span><span class="sxs-lookup"><span data-stu-id="aecc5-125">prinID</span></span></p></td>
-<td><p><span data-ttu-id="aecc5-126">Clé étrangère avec recherche dans la table tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="aecc5-126">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="8699e-126">prinID</span><span class="sxs-lookup"><span data-stu-id="8699e-126">prinID</span></span></p></td>
+<td><p><span data-ttu-id="8699e-127">Clé étrangère avec recherche dans la table tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="8699e-127">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
