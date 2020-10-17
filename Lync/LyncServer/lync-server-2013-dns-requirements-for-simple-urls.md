@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration DNS requise pour les URL simples'
+description: 'Lync Server 2013 : configuration DNS requise pour les URL simples.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98db338c48bbb764aefe3d5cab4bcba58b2b23c4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 84cc893fc06e9c57dcad6506d692b4484827b56a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564960"
 ---
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Configuration DNS requise pour les URL simples dans Lync Server 2013
 

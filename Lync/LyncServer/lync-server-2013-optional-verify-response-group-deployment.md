@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : (facultatif) Verify Response Group Deployment'
+description: 'Lync Server 2013 : (facultatif) vérifier le déploiement de Response Group.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b28fa4a83e89e446c5f4739d95fedea88769bc3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0cfe15026bc1fcfbe10b593987d2717fc0dc8104
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530741"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565710"
 ---
 # <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>Module Vérifier le déploiement de Response Group dans Lync Server 2013
 

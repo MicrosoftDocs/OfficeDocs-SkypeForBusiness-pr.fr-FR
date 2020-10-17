@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : afficher les informations de configuration de jonction'
+description: 'Lync Server 2013 : afficher les informations de configuration de jonction.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe7c828fe771a410825fd641c333a2230d7e9798
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b4e1d3063d65f8c27ad231f063249748046f759
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565430"
 ---
 # <a name="view-trunk-configuration-information-in-lync-server-2013"></a>Afficher les informations de configuration de jonction dans Lync Server 2013
 

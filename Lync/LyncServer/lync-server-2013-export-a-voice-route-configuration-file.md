@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : exporter un fichier de configuration d’itinéraire des communications vocales'
+description: 'Lync Server 2013 : exporter un fichier de configuration de l’itinéraire des communications vocales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca000e2ba0c1802d8ec97a2a9c2f361f2c0a1b68
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 30bf342e11be41015df3cfd76f6a875381cb8b64
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528381"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564790"
 ---
 # <a name="export-a-voice-route-configuration-file-in-lync-server-2013"></a>Exporter un fichier de configuration d’itinéraire des communications vocales dans Lync Server 2013
 

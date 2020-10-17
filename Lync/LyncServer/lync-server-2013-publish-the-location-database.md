@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : publication de la base de données d’emplacements'
+description: 'Lync Server 2013 : Publiez la base de données d’emplacements.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 481a8406eeeec6fce25c19336519c4a9bf19da82
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 26892429c7bf5fd9cbfebd0d7ac62482767a541e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565440"
 ---
 # <a name="publish-the-location-database-from-lync-server-2013"></a>Publier la base de données d’emplacements à partir de Lync Server 2013
 

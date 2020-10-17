@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : fichiers et journaux de mise à jour des périphériques'
+description: 'Lync Server 2013 : fichiers et journaux de mise à jour des périphériques.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23dd149a16a89e3ffbb11f5553cda3ab6e4530b8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 50db4935f62a4c037ab81a0d11e1eb993466fa80
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501471"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565990"
 ---
 # <a name="device-update-logs-and-files-in-lync-server-2013"></a>Fichiers et journaux de mise à jour des périphériques dans Lync Server 2013
 
