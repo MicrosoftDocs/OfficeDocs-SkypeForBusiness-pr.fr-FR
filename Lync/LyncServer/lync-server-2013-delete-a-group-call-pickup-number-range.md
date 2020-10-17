@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : suppression d’une plage de numéros de prise d’appel de groupe'
+description: 'Lync Server 2013 : suppression d’une plage de numéros de prise d’appel de groupe.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de031dd73f5fe74ba6d343cdea5414fa15988f2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b40d423b64d29300741c55433864128897c3ac8f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525651"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566550"
 ---
-# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a><span data-ttu-id="80883-102">Supprimer une plage de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80883-102">Delete a Group Call Pickup number range in Lync Server 2013</span></span>
+# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a><span data-ttu-id="28a98-103">Supprimer une plage de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28a98-103">Delete a Group Call Pickup number range in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48525651"
 
 <span> </span>
 
-<span data-ttu-id="80883-103">_**Dernière modification de la rubrique :** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="80883-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="28a98-104">_**Dernière modification de la rubrique :** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="28a98-104">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="80883-104">Utilisez la procédure suivante pour supprimer une plage de numéros de prise d’appel de groupe.</span><span class="sxs-lookup"><span data-stu-id="80883-104">Use the following procedure to delete a Group Call Pickup number range.</span></span>
+<span data-ttu-id="28a98-105">Utilisez la procédure suivante pour supprimer une plage de numéros de prise d’appel de groupe.</span><span class="sxs-lookup"><span data-stu-id="28a98-105">Use the following procedure to delete a Group Call Pickup number range.</span></span>
 
 <div>
 
-## <a name="to-delete-a-call-pickup-group-number-range"></a><span data-ttu-id="80883-105">Pour supprimer une plage de numéros de groupe de prise d’appel</span><span class="sxs-lookup"><span data-stu-id="80883-105">To delete a call pickup group number range</span></span>
+## <a name="to-delete-a-call-pickup-group-number-range"></a><span data-ttu-id="28a98-106">Pour supprimer une plage de numéros de groupe de prise d’appel</span><span class="sxs-lookup"><span data-stu-id="28a98-106">To delete a call pickup group number range</span></span>
 
-1.  <span data-ttu-id="80883-106">Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="80883-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="28a98-107">Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="28a98-107">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="80883-107">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="80883-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="28a98-108">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="28a98-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="80883-108">Sur la ligne de commande, tapez :</span><span class="sxs-lookup"><span data-stu-id="80883-108">At the command line, type:</span></span>
+3.  <span data-ttu-id="28a98-109">Sur la ligne de commande, tapez :</span><span class="sxs-lookup"><span data-stu-id="28a98-109">At the command line, type:</span></span>
     
         Remove-CsCallParkOrbit -Identity "<group number range name>" 
     
-    <span data-ttu-id="80883-109">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="80883-109">For example:</span></span>
+    <span data-ttu-id="28a98-110">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="28a98-110">For example:</span></span>
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
@@ -61,7 +62,7 @@ ms.locfileid: "48525651"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="80883-110">Pour plus d’informations sur d’autres options, voir <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span><span class="sxs-lookup"><span data-stu-id="80883-110">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
+    > <span data-ttu-id="28a98-111">Pour plus d’informations sur d’autres options, voir <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span><span class="sxs-lookup"><span data-stu-id="28a98-111">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
 
     
     </div>
@@ -70,14 +71,14 @@ ms.locfileid: "48525651"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="80883-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="80883-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="28a98-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="28a98-112">See Also</span></span>
 
 
-[<span data-ttu-id="80883-112">Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80883-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[<span data-ttu-id="28a98-113">Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28a98-113">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[<span data-ttu-id="80883-113">Remove-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="80883-113">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
-[<span data-ttu-id="80883-114">Get-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="80883-114">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+[<span data-ttu-id="28a98-114">Remove-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="28a98-114">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[<span data-ttu-id="28a98-115">Get-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="28a98-115">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

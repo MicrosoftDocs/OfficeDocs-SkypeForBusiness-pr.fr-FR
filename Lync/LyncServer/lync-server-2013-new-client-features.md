@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : nouvelles fonctionnalités client'
+description: 'Lync Server 2013 : nouvelles fonctionnalités client.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b414f6ced9f956b6a566fb8668da0f2d7c33ab84
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3d7cfd0a1db524678111f493176eed344931d102
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505291"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568120"
 ---
-# <a name="new-client-features-in-lync-server-2013"></a><span data-ttu-id="23465-102">Nouvelles fonctionnalités client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23465-102">New client features in Lync Server 2013</span></span>
+# <a name="new-client-features-in-lync-server-2013"></a><span data-ttu-id="0bd9f-103">Nouvelles fonctionnalités client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0bd9f-103">New client features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48505291"
 
 <span> </span>
 
-<span data-ttu-id="23465-103">_**Dernière modification de la rubrique :** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="23465-103">_**Topic Last Modified:** 2012-06-04_</span></span>
+<span data-ttu-id="0bd9f-104">_**Dernière modification de la rubrique :** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="0bd9f-104">_**Topic Last Modified:** 2012-06-04_</span></span>
 
-<span data-ttu-id="23465-104">Les sections suivantes décrivent les nouvelles fonctionnalités et les mises à jour de déploiement pour les clients Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="23465-104">The following sections describe new features and deployment updates for Lync Server 2013 clients.</span></span>
+<span data-ttu-id="0bd9f-105">Les sections suivantes décrivent les nouvelles fonctionnalités et les mises à jour de déploiement pour les clients Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0bd9f-105">The following sections describe new features and deployment updates for Lync Server 2013 clients.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="23465-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="23465-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0bd9f-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0bd9f-106">In This Section</span></span>
 
-  - [<span data-ttu-id="23465-106">Nouveautés pour les clients dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23465-106">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)
+  - [<span data-ttu-id="0bd9f-107">Nouveautés pour les clients dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0bd9f-107">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)
 
-  - [<span data-ttu-id="23465-107">Nouveautés pour les appareils dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23465-107">What's new for devices in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-devices.md)
+  - [<span data-ttu-id="0bd9f-108">Nouveautés pour les appareils dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0bd9f-108">What's new for devices in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-devices.md)
 
 </div>
 

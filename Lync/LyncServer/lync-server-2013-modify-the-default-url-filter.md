@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : modifier le filtre d’URL par défaut'
+description: 'Lync Server 2013 : modifier le filtre d’URL par défaut.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9d730bcdf17c9f78aee25ba3cec56f99a67086
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 079fcc83cd9041f99f1d14663ad51e86f6c23619
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515181"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566900"
 ---
-# <a name="modify-the-default-url-filter-in-lync-server-2013"></a><span data-ttu-id="fb542-102">Modifier le filtre d’URL par défaut dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb542-102">Modify the default URL filter in Lync Server 2013</span></span>
+# <a name="modify-the-default-url-filter-in-lync-server-2013"></a><span data-ttu-id="68fb6-103">Modifier le filtre d’URL par défaut dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68fb6-103">Modify the default URL filter in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48515181"
 
 <span> </span>
 
-<span data-ttu-id="fb542-103">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="fb542-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="68fb6-104">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="68fb6-104">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="fb542-104">En utilisant le filtre de messagerie instantanée, Lync Server 2013 fournit un filtre d’URL global qui bloque les URL spécifiques contenues dans les conversations de messagerie instantanée entre les utilisateurs tout au long de votre déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fb542-104">By using the instant messaging (IM) filter, Lync Server 2013 provides a global URL filter that blocks specific URLs contained in IM conversations among users throughout your Lync Server 2013 deployment.</span></span> <span data-ttu-id="fb542-105">À l’aide du panneau de configuration Lync Server, vous pouvez effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb542-105">By using Lync Server Control Panel, you can do the following:</span></span>
+<span data-ttu-id="68fb6-105">En utilisant le filtre de messagerie instantanée, Lync Server 2013 fournit un filtre d’URL global qui bloque les URL spécifiques contenues dans les conversations de messagerie instantanée entre les utilisateurs tout au long de votre déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="68fb6-105">By using the instant messaging (IM) filter, Lync Server 2013 provides a global URL filter that blocks specific URLs contained in IM conversations among users throughout your Lync Server 2013 deployment.</span></span> <span data-ttu-id="68fb6-106">À l’aide du panneau de configuration Lync Server, vous pouvez effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="68fb6-106">By using Lync Server Control Panel, you can do the following:</span></span>
 
-  - <span data-ttu-id="fb542-106">Bloquer un sous-ensemble ou l’ensemble des URL des conversations des messages instantanés.</span><span class="sxs-lookup"><span data-stu-id="fb542-106">Block all or a subset of URLs in instant message conversations.</span></span>
+  - <span data-ttu-id="68fb6-107">Bloquer un sous-ensemble ou l’ensemble des URL des conversations des messages instantanés.</span><span class="sxs-lookup"><span data-stu-id="68fb6-107">Block all or a subset of URLs in instant message conversations.</span></span>
 
-  - <span data-ttu-id="fb542-p102">Autoriser toutes les URL. En guise d’option, vous pouvez créer un message qui est inséré au début de chaque message instantané contenant une URL.</span><span class="sxs-lookup"><span data-stu-id="fb542-p102">Allow all URLs. As an option, you can create a notice that is inserted at the beginning of each instant message that contains a URL.</span></span>
+  - <span data-ttu-id="68fb6-p102">Autoriser toutes les URL. En guise d’option, vous pouvez créer un message qui est inséré au début de chaque message instantané contenant une URL.</span><span class="sxs-lookup"><span data-stu-id="68fb6-p102">Allow all URLs. As an option, you can create a notice that is inserted at the beginning of each instant message that contains a URL.</span></span>
 
-  - <span data-ttu-id="fb542-109">Autoriser les URL spécifiques et ajouter un avertissement avec chaque message instantané contenant une URL.</span><span class="sxs-lookup"><span data-stu-id="fb542-109">Allow specific URLs and include a warning with each instant message that contains a URL.</span></span>
+  - <span data-ttu-id="68fb6-110">Autoriser les URL spécifiques et ajouter un avertissement avec chaque message instantané contenant une URL.</span><span class="sxs-lookup"><span data-stu-id="68fb6-110">Allow specific URLs and include a warning with each instant message that contains a URL.</span></span>
 
-<span data-ttu-id="fb542-110">En outre, vous pouvez décider de bloquer les URL contenant des types de fichiers spécifiques, ou de bloquer uniquement les URL Internet en autorisant les URL qui se trouvent dans la zone intranet locale du serveur (URL intranet) à passer par le serveur.</span><span class="sxs-lookup"><span data-stu-id="fb542-110">In addition, you can choose to block URLs that contain specific file types, or block only Internet URLs by allowing URLs that are within the server’s local intranet zone — intranet URLs — to pass through the server.</span></span> <span data-ttu-id="fb542-111">Pour plus d’informations sur le filtrage des URL, voir [Configuring File Transfer and URL Filtering for Instant Messaging (im) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="fb542-111">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
+<span data-ttu-id="68fb6-111">En outre, vous pouvez décider de bloquer les URL contenant des types de fichiers spécifiques, ou de bloquer uniquement les URL Internet en autorisant les URL qui se trouvent dans la zone intranet locale du serveur (URL intranet) à passer par le serveur.</span><span class="sxs-lookup"><span data-stu-id="68fb6-111">In addition, you can choose to block URLs that contain specific file types, or block only Internet URLs by allowing URLs that are within the server’s local intranet zone — intranet URLs — to pass through the server.</span></span> <span data-ttu-id="68fb6-112">Pour plus d’informations sur le filtrage des URL, voir [Configuring File Transfer and URL Filtering for Instant Messaging (im) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="68fb6-112">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fb542-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fb542-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="68fb6-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="68fb6-113">See Also</span></span>
 
 
-[<span data-ttu-id="fb542-113">Configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb542-113">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[<span data-ttu-id="fb542-114">Créer un nouveau filtre de transfert de fichiers dans Lync Server 2013 pour un site spécifique</span><span class="sxs-lookup"><span data-stu-id="fb542-114">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[<span data-ttu-id="fb542-115">Créer un nouveau filtre d’URL dans Lync Server 2013 pour gérer les liens hypertexte dans les conversations par messagerie instantanée</span><span class="sxs-lookup"><span data-stu-id="fb542-115">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[<span data-ttu-id="fb542-116">Modifier le filtre de transfert de fichiers par défaut dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb542-116">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[<span data-ttu-id="68fb6-114">Configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68fb6-114">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[<span data-ttu-id="68fb6-115">Créer un nouveau filtre de transfert de fichiers dans Lync Server 2013 pour un site spécifique</span><span class="sxs-lookup"><span data-stu-id="68fb6-115">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[<span data-ttu-id="68fb6-116">Créer un nouveau filtre d’URL dans Lync Server 2013 pour gérer les liens hypertexte dans les conversations par messagerie instantanée</span><span class="sxs-lookup"><span data-stu-id="68fb6-116">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[<span data-ttu-id="68fb6-117">Modifier le filtre de transfert de fichiers par défaut dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68fb6-117">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
   
 
 </div>
