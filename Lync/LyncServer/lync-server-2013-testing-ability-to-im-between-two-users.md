@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500491"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Test de la fonctionnalité de messagerie instantanée entre deux utilisateurs dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Test de la fonctionnalité de messagerie instantanée entre deux utilisateurs dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsIM. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsIM. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsIM vérifie qu’une paire d’utilisateurs de test peut échanger des messages instantanés. Lorsqu’elle est appelée, la cmdlet Test-CsIM démarre en tentant d’ouvrir une session sur une paire d’utilisateurs test vers Lync Server. En supposant que les deux ouvertures de sessions réussissent, l’applet de commande démarre une session de messagerie instantanée entre les deux utilisateurs de test. (L’utilisateur 1 invite l’utilisateur 2 à une session de messagerie instantanée et l’utilisateur 2 accepte l’invitation.) Après avoir vérifié que les messages peuvent être échangés entre les deux utilisateurs, test-CsIM termine la session de messagerie instantanée et enregistre les deux utilisateurs dans le système.
+L’applet de commande Test-CsIM vérifie qu’une paire d’utilisateurs de test peut échanger des messages instantanés. Lorsqu’elle est appelée, la cmdlet Test-CsIM démarre en tentant d’ouvrir une session sur une paire d’utilisateurs test vers Lync Server. En supposant que les deux ouvertures de sessions réussissent, l’applet de commande démarre une session de messagerie instantanée entre les deux utilisateurs de test. (L’utilisateur 1 invite l’utilisateur 2 à une session de messagerie instantanée et l’utilisateur 2 accepte l’invitation.) Après avoir vérifié que les messages peuvent être échangés entre les deux utilisateurs, Test-CsIM termine la session de messagerie instantanée et enregistre les deux utilisateurs dans le système.
 
 Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .
 
@@ -126,11 +128,11 @@ Par exemple, la sortie précédente indique que le test a échoué, car l’util
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-Si test-CsIM échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsIM échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsIM renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité des deux utilisateurs de test à prendre part à une session de messagerie instantanée. Par exemple, voici un exemple de sortie qui se produit lorsqu’un jeu incorrect d’informations d’identification de l’utilisateur (dans ce cas, un mot de passe incorrect) est fourni à test-CsIM :
+Lorsque le paramètre Verbose est inclus, Test-CsIM renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité des deux utilisateurs de test à prendre part à une session de messagerie instantanée. Par exemple, voici un exemple de sortie qui se produit lorsqu’un jeu incorrect d’informations d’identification de l’utilisateur (dans ce cas, un mot de passe incorrect) est fourni à test-CsIM :
 
 Envoi d’une demande d’inscription :
 
@@ -154,7 +156,7 @@ Une exception’l’ouverture de session a été refusée. Vérifiez que les inf
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsIM :
+Voici quelques raisons courantes pour lesquelles Test-CsIM peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     

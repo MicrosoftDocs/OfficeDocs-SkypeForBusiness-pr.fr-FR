@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499381"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Sauvegarde des données et des paramètres principaux dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Sauvegarde des données et des paramètres principaux dans Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ Vous pouvez exécuter les applets de commande décrites dans cette section local
     
     </div>
 
-5.  Copiez le fichier de configuration du magasin central de gestion sauvegardé vers\\$Backup.
+5.  Copiez le fichier de configuration du magasin central de gestion sauvegardé vers $Backup \\ .
 
 6.  Sauvegardez les données du service informations d’emplacement. Sur la ligne de commande, tapez ce qui suit :
     
@@ -88,7 +90,7 @@ Vous pouvez exécuter les applets de commande décrites dans cette section local
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  Copiez le fichier de configuration du service informations d’emplacement de sauvegarde\\sur $Backup.
+7.  Copiez le fichier de configuration du service informations d’emplacement de sauvegarde sur $Backup \\ .
 
 8.  Sauvegardez les données utilisateur sur chaque base de données principale d’un pool frontal et de tous les serveurs Standard Edition. Sur la ligne de commande, tapez ce qui suit :
     
@@ -98,7 +100,7 @@ Vous pouvez exécuter les applets de commande décrites dans cette section local
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  Copiez le fichier utilisateur sauvegardé vers $Backup\\.
+9.  Copiez le fichier utilisateur sauvegardé vers $Backup \\ .
 
 10. Sur tous les pools qui exécutent l’application Response Group, sauvegardez la configuration Response Group. Procédez comme suit :
     
@@ -106,11 +108,11 @@ Vous pouvez exécuter les applets de commande décrites dans cette section local
         
             Export-CsRgsConfiguration -Source "service:ApplicationServer:<pool FQDN>" -FileName <path and file name for backup>
         
-        Par exemple :
+        Par exemple :
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. Copiez le fichier de configuration du groupe Response Group sauvegardé\\vers $Backup.
+11. Copiez le fichier de configuration du groupe Response Group sauvegardé vers $Backup \\ .
 
 </div>
 

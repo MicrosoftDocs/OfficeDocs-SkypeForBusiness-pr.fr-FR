@@ -12,20 +12,22 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 503a5a02d4412fe2bbbf5f1882e3d7d117640576
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d86f60e81e053a1ba07878728dd9c7273bd7feeb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500721"
 ---
+# <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Sécurité des données de jumelage des pools frontaux dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Sécurité des données de jumelage des pools frontaux dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Bien que le risque d’attaques de l’intercepteur dans le réseau d’entrepri
 
 ## <a name="mitigating-security-risks"></a>Atténuation des risques de sécurité
 
-Il existe de nombreuses façons d’améliorer la sécurité du trafic du service de sauvegarde, qu’il s’agisse de restreindre l’accès aux centres de données pour sécuriser le transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises déployant Lync Server 2013 peuvent avoir déjà l’infrastructure de sécurité requise en place. Pour les entreprises qui cherchent des conseils, Microsoft propose une solution comme exemple de création d’une infrastructure informatique sécurisée. Toutefois, cela ne signifie pas qu’il s’agit de la seule solution, ni qu’il s’agit de la solution par défaut pour Lync Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques en fonction de leurs besoins et de l’infrastructure de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine. Pour plus d’informations [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544), reportez-vous à. Pour obtenir des questions et des commentaires, contactez secwish@microsoft.com.
+Il existe de nombreuses façons d’améliorer la sécurité du trafic du service de sauvegarde, qu’il s’agisse de restreindre l’accès aux centres de données pour sécuriser le transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises déployant Lync Server 2013 peuvent avoir déjà l’infrastructure de sécurité requise en place. Pour les entreprises qui cherchent des conseils, Microsoft propose une solution comme exemple de création d’une infrastructure informatique sécurisée. Toutefois, cela ne signifie pas qu’il s’agit de la seule solution, ni qu’il s’agit de la solution par défaut pour Lync Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques en fonction de leurs besoins et de l’infrastructure de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine. Pour plus d’informations, reportez-vous à [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544) . Pour obtenir des questions et des commentaires, contactez secwish@microsoft.com.
 
 Une autre solution possible consiste à utiliser IPSec uniquement pour sécuriser les données envoyées par le service de sauvegarde lui-même. Si vous choisissez cette méthode, vous devez configurer les règles IPSec pour le protocole SMB pour les serveurs suivants, où le pool A et le pool B sont deux pools frontaux couplés.
 

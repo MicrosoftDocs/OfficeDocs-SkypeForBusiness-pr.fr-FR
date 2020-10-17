@@ -12,20 +12,22 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501281"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Résumé des enregistrements DNS-serveur Edge consolidé ajusté avec programmes d’équilibrage de la charge matérielle dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Résumé des enregistrements DNS-serveur Edge consolidé ajusté avec programmes d’équilibrage de la charge matérielle dans Lync Server 2013
+
 
 </div>
 
@@ -126,13 +128,13 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 </tr>
 <tr class="even">
 <td><p>DNS externe/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du service Edge d’accès. Nécessaire pour que la configuration automatique des clients Lync 2013 et Lync 2010 fonctionne en externe. Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS externe/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du service Edge d’accès SIP requise pour la découverte DNS automatique des partenaires fédérés connus sous le nom de « domaine SIP autorisé » (appelée fédération étendue dans les versions précédentes). Répétez cette opération autant que nécessaire pour tous les domaines SIP avec des utilisateurs de Lync et des clients mobiles Microsoft Lync qui utilisent le service de notifications ou le service de notification poussé Apple.</p></td>
 </tr>

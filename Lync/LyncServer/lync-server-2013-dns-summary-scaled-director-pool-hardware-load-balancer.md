@@ -12,20 +12,22 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10c742d8d58392b06bc563cd0a947d46243703d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7755acc815da690312d2f60c2348076b2231cc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501261"
 ---
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Résumé DNS-pool directeur mis à l’ampleur, équilibreur de charge matérielle dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Résumé DNS-pool directeur mis à l’ampleur, équilibreur de charge matérielle dans Lync Server 2013
+
 
 </div>
 
@@ -60,7 +62,7 @@ Le tableau suivant contient un résumé des enregistrements DNS requis pour pren
 <tr class="odd">
 <td><p>DNS interne/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Enregistrement d’hôte directeur utilisé pour la communication de réplication et de serveur à serveur</p></td>
 </tr>
 <tr class="even">

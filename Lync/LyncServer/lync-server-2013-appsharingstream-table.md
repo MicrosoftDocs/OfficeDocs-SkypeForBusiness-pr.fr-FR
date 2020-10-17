@@ -12,20 +12,22 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34f3ea8a5b25a4eaa3345249c8c7847dd4a3f2bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b729112aa0fb064a518c50212a6a041a6661be3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499501"
 ---
+# <a name="appsharingstream-table-in-lync-server-2013"></a>Table AppSharingStream dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingstream-table-in-lync-server-2013"></a>Table AppSharingStream dans Lync Server 2013
+
 
 </div>
 
@@ -90,20 +92,20 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure de la &quot; fluctuations &quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Gigue maximale du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
+<td><p>Gigue maximale du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure de la &quot; fluctuations &quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Retour</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre système d’extrémité. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.</p>
-<p>Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou une surcharge d’un serveur multimédia. Les durées d’aller-retour élevées ont un impact sur la qualité des conversations audio bidirectionnelles réalisées en temps réel.</p></td>
+<p>Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
@@ -114,13 +116,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux maximal de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
@@ -144,19 +146,19 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p></td>
 </tr>
@@ -168,13 +170,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
@@ -186,13 +188,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
@@ -204,19 +206,19 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Temps total de traitement des mosaïques RDP (Remote Desktop Protocol). Un total plus élevé équivaut à une expérience de visionnage plus longue.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Temps moyen de traitement des mosaïques RDP (Remote Desktop Protocol). Un total plus élevé équivaut à une expérience de visionnage plus longue.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Temps maximal de traitement des mosaïques RDP (Remote Desktop Protocol). Un total plus élevé équivaut à une expérience de visionnage plus longue.</p></td>
 </tr>
@@ -228,13 +230,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier.</p></td>
 </tr>
@@ -246,31 +248,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une faible densité d’intervalles équivaut à une meilleure expérience de visionnage.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). De brèves durées d’intervalle équivalent à une meilleure expérience de visionnage.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux total de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux moyen de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux maximal de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
@@ -282,13 +284,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales dans le taux de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans le taux de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
@@ -300,31 +302,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans le taux de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans le taux de mosaïques capturées (en mosaïques par seconde).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage total du contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage moyen du contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage maximal du contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
@@ -336,13 +338,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales pour le contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales pour le contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
@@ -354,31 +356,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles pour le contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles pour le contenu qui n’a pas atteint le spectateur mais qui a été ignoré et remplacé par du contenu récent.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Nombre total d’images récupérées à partir de la source graphique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Nombre moyen d’images récupérées à partir de la source graphique.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Nombre maximal d’images récupérées à partir de la source graphique.</p></td>
 </tr>
@@ -390,13 +392,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité de rafales dans les images récupérées à partir de la source graphique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans les images récupérées à partir de la source graphique.</p></td>
 </tr>
@@ -408,31 +410,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans les images récupérées à partir de la source graphique.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans les images récupérées à partir de la source graphique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence totale des images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence moyenne des images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence maximale des mosaïques entrantes reçues par la visionneuse.</p></td>
 </tr>
@@ -444,13 +446,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales dans la fréquence de mosaïques entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans la fréquence de mosaïques entrantes reçues par la visionneuse.</p></td>
 </tr>
@@ -462,31 +464,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans la fréquence de mosaïques entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans la fréquence de mosaïques entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence totale des images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence moyenne des images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence maximale des images entrantes reçues par la visionneuse.</p></td>
 </tr>
@@ -498,13 +500,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales dans la fréquence d’images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans la fréquence d’images entrantes reçues par la visionneuse.</p></td>
 </tr>
@@ -516,31 +518,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans la fréquence d’images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans la fréquence d’images entrantes reçues par la visionneuse.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence totale de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence moyenne de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence maximale de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
@@ -552,13 +554,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales dans la fréquence de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans la fréquence de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
@@ -570,31 +572,31 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans la fréquence de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans la fréquence de mosaïques sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence totale d’images sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence moyenne d’images sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Fréquence maximale d’images sortantes pour l’expéditeur.</p></td>
 </tr>
@@ -606,13 +608,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité des rafales dans la fréquence d’images sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des rafales dans la fréquence d’images sortantes pour l’expéditeur.</p></td>
 </tr>
@@ -624,13 +626,13 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité d’intervalles dans la fréquence d’images sortantes pour l’expéditeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée des intervalles dans la fréquence d’images sortantes pour l’expéditeur.</p></td>
 </tr>
@@ -647,7 +649,7 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 <td><p>Largeur moyenne de résolution vidéo, en pixels.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Entrant</strong></p></td>
+<td><p><strong>Entrants</strong></p></td>
 <td><p>légèrement</p></td>
 <td></td>
 <td><p>Fréquence d’images moyenne (en images par seconde) pour les transmissions entrantes.</p></td>

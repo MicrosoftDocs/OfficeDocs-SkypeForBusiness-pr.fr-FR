@@ -12,20 +12,22 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4165df6829818b90a22eff4f90ac8072876b4831
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8065d1c09ab48b1b3a874fd11d7f8fcad298bfcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500841"
 ---
+# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Premières étapes avant de commencer la migration des utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Premières étapes avant de commencer la migration des utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Avant de commencer à transférer des utilisateurs Lync Online vers votre enviro
 
   - Votre client Lync Online doit être configuré pour l’accès à PowerShell à distance.
     
-    Pour ce faire, commencez par installer le module Lync Online pour Windows PowerShell, que vous pouvez obtenir ici [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911):.
+    Pour ce faire, commencez par installer le module Lync Online pour Windows PowerShell, que vous pouvez obtenir ici : [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) .
     
     Après avoir installé le module, vous pouvez établir une session distante en tapant les applets de commande suivantes dans Lync Server Management Shell :
     

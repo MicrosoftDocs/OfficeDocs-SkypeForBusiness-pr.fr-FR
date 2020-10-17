@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Enregistrements DNS requis pour les URL simples'
+title: 'Lync Server 2013 : configuration DNS requise pour les URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 98db338c48bbb764aefe3d5cab4bcba58b2b23c4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888713"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501371"
 ---
+# <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Configuration DNS requise pour les URL simples dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Enregistrements DNS requis pour les URL simples dans Lync Server 2013
+
 
 </div>
 
@@ -37,27 +39,27 @@ ms.locfileid: "41888713"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Lync Server 2013 prend en charge des URL simples qui simplifient la participation à des réunions pour vos utilisateurs et permettent d’accéder plus facilement aux outils d’administration de Lync Server. Pour plus d’informations sur les URL simples, voir [planification d’URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+Lync Server 2013 prend en charge les URL simples qui facilitent la participation des réunions pour vos utilisateurs et facilitent l’accès aux outils d’administration de Lync Server pour vos administrateurs. Pour plus d’informations sur les URL simples, voir [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
-Lync Server prend en charge les trois URL simples suivantes : réunion, accès et administration. Vous devez configurer des URL simples pour la réunion et le rendez-vous, et l’URL simple d’administration est facultative. Les enregistrements DNS (Domain Name System) nécessaires à la prise en charge d’URL simples dépendent de la façon dont vous avez défini ces URL simples et de la prise en charge de la reprise après sinistre pour des URL simples.
+Lync Server prend en charge les trois URL simples suivantes : réunion, Conférence rendez-vous et administrateur. Vous devez configurer des URL simples pour la réunion et l’appel entrant, et l’URL simple d’administration est facultative. Les enregistrements DNS (Domain Name System) dont vous avez besoin pour prendre en charge les URL simples dépendent de la façon dont vous avez défini ces URL simples et si vous souhaitez prendre en charge la récupération d’urgence pour les URL simples.
 
 <div>
 
-## <a name="simple-url-option-1"></a>Option d’URL simple 1
+## <a name="simple-url-option-1"></a>Option 1 de définition des URL simples
 
-Dans l’option 1, vous créez une nouvelle URL de base pour chaque URL simple.
+Dans l’option 1, vous devez créer une URL de base pour chaque URL simple.
 
 <div class="">
 
 
 > [!NOTE]  
-> Lorsqu’un utilisateur clique sur un lien de réunion d’URL simple, le serveur résolu par l’enregistrement DNS pour déterminer le logiciel client approprié à démarrer. Lorsque le logiciel client est démarré, il communique automatiquement avec le pool sur lequel la Conférence est hébergée. De cette façon, les utilisateurs sont dirigés vers le serveur approprié pour le contenu de la réunion, quel que soit le serveur ou le pool sur lequel les enregistrements sont résolus.
+> Lorsqu’un utilisateur clique sur un lien d’URL simple de réunion, le serveur que l’enregistrement DNS A résout détermine le logiciel client à démarrer. Une fois que le logiciel client a démarré, il communique automatiquement avec le pool hébergeant la conférence. Ainsi, les utilisateurs sont acheminés vers le serveur approprié indépendamment du serveur ou pool sur lequel les enregistrements DNS A d’URL simple sont résolus.
 
 
 
 </div>
 
-### <a name="simple-url-option-1"></a>Option d’URL simple 1
+### <a name="simple-url-option-1"></a>Option 1 de définition des URL simples
 
 <table>
 <colgroup>
@@ -70,11 +72,11 @@ Dans l’option 1, vous créez une nouvelle URL de base pour chaque URL simple.
 <td><p><strong>Exemple</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Correspondre</p></td>
-<td><p>https://meet.contoso.com, https://meet.fabrikam.comet ainsi de suite (un pour chaque domaine SIP de votre organisation)</p></td>
+<td><p>Satisfaction</p></td>
+<td><p>https://meet.contoso.com, https://meet.fabrikam.com , et ainsi de suite (une pour chaque domaine SIP de votre organisation)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rendez-vous</p></td>
+<td><p>Appels entrants</p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
@@ -85,29 +87,29 @@ Dans l’option 1, vous créez une nouvelle URL de base pour chaque URL simple.
 </table>
 
 
-Si vous utilisez l’option 1, vous devez définir les éléments suivants :
+Si vous utilisez l’Option 1, vous devez définir ce qui suit :
 
-  - Pour chaque URL de la réunion, vous avez besoin d’un enregistrement DNS A qui résout l’URL en adresse IP du directeur, si vous en avez déployé une. Dans le cas contraire, elle doit résoudre vers l’adresse IP de l’équilibrage de charge d’un pool frontal. Si vous n’avez pas déployé de pool et que vous utilisez un déploiement Standard Edition Server, l’enregistrement DNS A doit résoudre vers l’adresse IP d’un serveur Standard Edition au sein de votre organisation.
+  - Pour chaque URL simple Meet, il est nécessaire de définir un enregistrement DNS A pour résoudre l’URL en adresse IP du directeur, si vous en avez déployé un. Sinon, il doit résoudre l’adresse IP du programme d’équilibrage de la charge d’un pool frontal. Si vous avez déployé un pool et utilisez un déploiement de serveur Standard Edition, l’enregistrement DNS A doit résoudre l’adresse IP d’un serveur Standard Edition de votre organisation.
     
-    Si vous avez plusieurs domaines SIP au sein de votre organisation et que vous utilisez cette option, vous devez créer des URL d’URL simples pour chaque domaine SIP et vous avez besoin d’un enregistrement DNS A pour chaque URL de la réunion. Par exemple, si vous avez à la fois contoso.com et fabrikam.com, vous devez créer des enregistrements DNS https://meet.contoso.com A https://meet.fabrikam.compour les deux et.
+    Si votre organisation compte plusieurs domaines SIP et si vous utilisez cette option, vous devez créer des URL simples Meet pour chaque domaine SIP et créer un enregistrement DNS A pour chaque URL simple Meet. Par exemple, si vous avez à la fois contoso.com et fabrikam.com, vous allez créer des enregistrements DNS A pour les deux https://meet.contoso.com et https://meet.fabrikam.com .
     
-    Par ailleurs, si vous avez plusieurs domaines SIP et que vous souhaitez réduire les exigences d’enregistrements DNS et de certificats pour ces URL simples, utilisez l’option 3 décrite plus loin dans cette rubrique.
+    En outre, si vous disposez de plusieurs domaines SIP et si vous souhaitez minimiser les enregistrements et les certificats DNS requis pour ces URL simples, utilisez l’option 3 présentée plus loin dans cette rubrique.
 
-  - Dans le cas de l’URL d’accès à la Conférence rendez-vous, vous avez besoin d’un enregistrement DNS A qui résout l’URL vers l’adresse IP du réalisateur, si vous en avez déployé une. Dans le cas contraire, elle doit résoudre vers l’adresse IP de l’équilibrage de charge d’un pool frontal. Si vous n’avez pas déployé de pool et que vous utilisez un déploiement Standard Edition Server, l’enregistrement DNS A doit résoudre vers l’adresse IP d’un serveur Standard Edition au sein de votre organisation.
+  - Pour chaque URL simple Dial-In, il est nécessaire de créer un enregistrement DNS A pour résoudre l’URL en adresse IP du directeur, si vous en avez déployé un. Sinon, il doit résoudre l’adresse IP du programme d’équilibrage de la charge d’un pool frontal. Si vous avez déployé un pool et utilisez un déploiement de serveur Standard Edition, l’enregistrement DNS A doit résoudre l’adresse IP d’un serveur Standard Edition de votre organisation.
 
-  - L’URL simple d’administration est réservée à un usage interne. Il nécessite un enregistrement DNS A qui résout l’URL vers l’adresse IP du directeur, si vous en avez déployé une. Dans le cas contraire, elle doit résoudre vers l’adresse IP de l’équilibrage de charge d’un pool frontal. Si vous n’avez pas déployé de pool et que vous utilisez un déploiement Standard Edition Server, l’enregistrement DNS A doit résoudre vers l’adresse IP d’un serveur Standard Edition au sein de votre organisation.
+  - L’URL simple Admin ne sert qu’en interne. Elle requiert un enregistrement DNS A pour résoudre l’URL en adresse IP du directeur, si vous en avez déployé un. Sinon, il doit résoudre l’adresse IP du programme d’équilibrage de la charge d’un pool frontal. Si vous avez déployé un pool et utilisez un déploiement de serveur Standard Edition, l’enregistrement DNS A doit résoudre l’adresse IP d’un serveur Standard Edition de votre organisation.
 
 </div>
 
 <div>
 
-## <a name="simple-url-option-2"></a>Option d’URL simple 2
+## <a name="simple-url-option-2"></a>Option 2 de définition des URL simples
 
-Avec l’option 2, les URL de base, de conférence rendez-vous et d’administration, telles que lync.contoso.com. Par conséquent, vous n’avez besoin que d’un seul enregistrement DNS pour ces URL simples, ce qui a pour effet de répartir lync.contoso.com vers l’adresse IP d’un pool de réalisateurs ou d’un pool frontal. Si vous n’avez pas déployé de pool et que vous utilisez un déploiement Standard Edition Server, l’enregistrement DNS A doit résoudre vers l’adresse IP d’un serveur Standard Edition au sein de votre organisation.
+Avec l’Option 2, les URL simples Meet, Dial-in et Admin ont une URL de base commune, telle que lync.contoso.com. Ainsi, ces URL simples ne requièrent qu’un enregistrement DNS A pour résoudre lync.contoso.com en l’adresse IP du pool directeur ou du pool frontal. Si vous avez déployé un pool et utilisez un déploiement de serveur Standard Edition, l’enregistrement DNS A doit résoudre l’adresse IP d’un serveur Standard Edition de votre organisation.
 
-Notez que si vous avez plusieurs domaines SIP dans votre organisation, vous devez quand même créer des URL simples pour chaque domaine SIP et vous avez besoin d’un enregistrement DNS A pour chaque URL de la réunion. Dans cet exemple, alors que trois URL simples sont basées sur lync.contoso.com, une URL simple de l’interface de fabrikam.com est configurée avec une autre URL de base. Dans cet exemple, vous devez créer des enregistrements DNS A pour https://lync.contoso.com les https://lync.fabrikam.comdeux et. L’option simple d’URL 3 vous permet d’utiliser une autre méthode pour gérer l’attribution de noms et les enregistrements DNS A si vous avez plusieurs domaines SIP.
+Notez que si votre organisation compte plusieurs domaines SIP, vous devez tout de même créer des URL simples Meet pour chaque domaine SIP et un enregistrement DNS A pour chaque URL simple Meet. Dans cet exemple, trois URL simples sont basées sur lync.contoso.com et une URL simple Meet supplémentaire est configurée avec une autre URL de base pour fabrikam.com. Dans cet exemple, vous devez créer des enregistrements DNS A pour les deux https://lync.contoso.com et https://lync.fabrikam.com . L’Option 3 présente une autre méthode de gestion des noms et des enregistrements DNS A si vous disposez de plusieurs domaines SIP.
 
-### <a name="simple-url-option-2"></a>Option d’URL simple 2
+### <a name="simple-url-option-2"></a>Option 2 de définition des URL simples
 
 <table>
 <colgroup>
@@ -120,11 +122,11 @@ Notez que si vous avez plusieurs domaines SIP dans votre organisation, vous deve
 <td><p><strong>Exemple</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Correspondre</p></td>
-<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meetet ainsi de suite (un pour chaque domaine SIP de votre organisation)</p></td>
+<td><p>Satisfaction</p></td>
+<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet , et ainsi de suite (une pour chaque domaine SIP de votre organisation)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rendez-vous</p></td>
+<td><p>Appels entrants</p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
@@ -139,11 +141,11 @@ Notez que si vous avez plusieurs domaines SIP dans votre organisation, vous deve
 
 <div>
 
-## <a name="simple-url-option-3"></a>Option d’URL simple 3
+## <a name="simple-url-option-3"></a>Option 3 de définition des URL simples
 
-L’option 3 est particulièrement utile si vous avez de nombreux domaines SIP et que vous souhaitez qu’ils disposent d’URL simples distinctes et qu’ils souhaitent limiter les exigences d’enregistrements DNS et de certificats pour ces URL simples. Dans cet exemple, vous avez besoin d’un enregistrement DNS A unique, qui résout lync.contoso.com sur l’adresse IP d’un pool de réalisateurs ou d’une liste frontale.
+L’option 3 est particulièrement utile si vous disposez de plusieurs domaines SIP et si vous souhaitez qu’ils aient des URL simples distinctes, mais souhaitez minimiser les enregistrements et les certificats DNS requis pour ces URL simples. Dans cet exemple, un seul enregistrement DNS A est nécessaire. Il est chargé de résoudre lync.contoso.com en l’adresse IP du pool directeur ou du pool frontal.
 
-### <a name="simple-url-option-3"></a>Option d’URL simple 3
+### <a name="simple-url-option-3"></a>Option 3 de définition des URL simples
 
 <table>
 <colgroup>
@@ -156,12 +158,12 @@ L’option 3 est particulièrement utile si vous avez de nombreux domaines SIP e
 <td><p><strong>Exemple</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Correspondre</p></td>
+<td><p>Satisfaction</p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Meet</p>
 <p>https://lync.contoso.com/fabrikamSIPdomain/Meet</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rendez-vous</p></td>
+<td><p>Appels entrants</p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Dialin</p></td>
 </tr>
 <tr class="even">
@@ -176,11 +178,11 @@ L’option 3 est particulièrement utile si vous avez de nombreux domaines SIP e
 
 <div>
 
-## <a name="disaster-recovery-option-for-simple-urls"></a>Option de reprise après sinistre pour les URL simples
+## <a name="disaster-recovery-option-for-simple-urls"></a>Option de récupération d’urgence pour les URL simples
 
-Si vous disposez de plusieurs sites et que votre fournisseur DNS prend en charge GeoDNS, vous pouvez configurer vos enregistrements DNS pour des URL simples afin de prendre en charge la reprise après sinistre, afin que la fonctionnalité d’URL n’intervient qu’à la fin de l’exécution d’un pool frontal complet. Cette fonctionnalité de reprise après sinistre prend en charge les URL de la réunion et du rendez-vous simples.
+Si vous avez plusieurs sites qui contiennent des pools frontaux et que votre fournisseur DNS prend en charge GeoDNS, vous pouvez configurer vos enregistrements DNS pour des URL simples afin de prendre en charge la récupération d’urgence, de sorte que la fonctionnalité d’URL simple continue même si un pool frontal entier tombe en panne. Cette fonctionnalité de récupération d’urgence prend en charge les URL simples de conférence et d’accès à distance.
 
-Pour le configurer, créez deux adresses GeoDNS. Chaque adresse possède deux enregistrements DNS A ou CNAMe qui sont résolus en deux regroupements qui sont associés à des fins de récupération par sinistre. Une adresse GeoDNS est utilisée pour l’accès interne et est résolue vers l’adresse IP du nom de domaine complet ou du nom de domaine complet (FQDN) du site Web interne. L’autre adresse GeoDNS est utilisée pour l’accès externe et est résolue sur l’adresse IP de nom de domaine complet ou du nom de domaine complet des deux pools. Voici un exemple de l’URL de la réunion, en utilisant les noms de domaine complets (FQDN) pour les pools.
+Pour configurer cette option, créez deux adresses GeoDNS. Chacune d’elles comprend deux enregistrements DNS A ou CNAME qui aboutissent à deux pools couplés à des fins de récupération d’urgence. Une adresse GeoDNS est utilisée pour l’accès interne et aboutit au nom de domaine complet web interne ou à l’adresse IP d’équilibrage de charge des deux pools. L’autre adresse GeoDNS est utilisée pour l’accès externe et aboutit au nom de domaine complet web externe ou à l’adresse IP d’équilibrage de charge des deux pools. L’exemple ci-dessous s’applique à l’URL simple Meet et utilise les noms de domaine complets des pools.
 
    ```console
     Meet-int.geolb.contoso.com
@@ -194,30 +196,30 @@ Pour le configurer, créez deux adresses GeoDNS. Chaque adresse possède deux en
          Pool2ExternalWebFQDN.contoso.com
    ``` 
 
-Ensuite, créez des enregistrements CNAMe qui résolvent votre URL de réunion simple (par exemple, meet.contoso.com) sur les deux adresses GeoDNS.
+Créez ensuite des enregistrements CNAME qui font aboutir l’URL simple Meet (telles que meet.contoso.com) aux deux adresses GeoDNS.
 
 <div class="">
 
 
 > [!NOTE]  
-> Si votre réseau utilise <EM>Hairpinning</EM> (le routage de tout le trafic d’URL par le biais du lien externe, y compris le trafic qui provient de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et résoudre votre URL de la réunion pour qu’elle utilise uniquement cette adresse externe.
+> Si votre réseau utilise le <EM>hairpinning</EM> (routage de l’ensemble du trafic de l’URL simple via le lien externe, y compris le trafic en provenance de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et faire aboutir votre adresse URL simple Meet uniquement à cette adresse externe.
 
 
 
 </div>
 
-Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS pour utiliser une méthode de tourniquet circulaire pour distribuer les demandes aux deux pools, ou pour vous connecter principalement à un pool (par exemple, le pool localisé plus près) et utiliser l’autre pool uniquement en cas de échec de connectivité.
+Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS de façon à distribuer les demandes aux deux pools selon la méthode du tourniquet (round robin), ou bien vous connecter principalement à un pool (par exemple, le pool le plus proche géographiquement) et utiliser l’autre pool seulement en cas de problème de connectivité.
 
-Vous pouvez configurer la même configuration pour l’URL d’accès à la Conférence rendez-vous. Pour ce faire, créez des enregistrements supplémentaires comme ceux de l’exemple précédent, `dialin` `meet` en remplaçant les enregistrements DNS. Pour l’URL simple d’administration, utilisez l’une des trois options indiquées plus haut dans cette section.
+Vous pouvez définir la même configuration pour l’URL simple Dial-In. Pour ce faire, créez des enregistrements supplémentaires comme ceux de l’exemple précédent, `dialin` en remplaçant `meet` les enregistrements DNS. Pour l’URL simple Admin, utilisez l’une des trois options mentionnées plus haut dans cette section.
 
-Une fois cette configuration configurée, vous devez utiliser une application de surveillance pour configurer la surveillance HTTP et surveiller les échecs. Pour un accès externe, assurez-vous que les demandes de découverte automatique associées à l’adresse IP du nom de domaine complet ou du nom de domaine complet des deux pools sont correctes. Par exemple, les requêtes suivantes ne doivent pas contenir d’en-tête **Accept** et doivent retourner **200 OK**.
+Après avoir défini cette configuration, vous devez utiliser une application de surveillance pour configurer la recherche de défaillance via la surveillance HTTP. Pour l’accès externe, surveillez pour vous assurer que le protocole HTTPs obtient des demandes de découverte automatique pour le nom de domaine complet Web externe ou l’adresse IP du programme d’équilibrage de charge pour les deux pools. Par exemple, les demandes suivantes ne doivent pas contenir d’en-tête **ACCEPT** et doivent retourner **200 OK**.
 
 ```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-Pour un accès interne, vous devez surveiller le port 5061 sur l’adresse IP du nom de domaine complet (FQDN) du site Web interne ou du solde de charge des deux pools. Si des échecs de connectivité sont détectés, l’adresse VIP de ces groupes doit fermer les ports 80, 443 et 444.
+Pour l’accès interne, vous devez surveiller le port 5061 sur le nom de domaine complet web interne ou l’adresse IP d’équilibrage de charge pour les deux pools. Si des problèmes de connectivité sont détectés, l’adresse IP virtuelle de ces deux pools doit fermer les ports 80, 443 et 444.
 
 </div>
 

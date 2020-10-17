@@ -12,20 +12,22 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500811"
 ---
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Forum aux questions : approvisionnement de Lync Server 2013 pour la connectivité Skype
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Forum aux questions : approvisionnement de Lync Server 2013 pour la connectivité Skype
+
 
 </div>
 
@@ -118,13 +120,13 @@ Une fois que cette modification a lieu, nous ne pourrons plus fournir de mises �
 
 **Q : Comment puis-je activer la connectivité Lync-Skype dans un scénario de domaine fractionné ?**
 
-**A :** Si vous avez un scénario de domaine fractionné sur site Lync Online 2013 et Lync Server (avec des utilisateurs sur site et en ligne utilisant le même domaine SIP), activez la connectivité Lync-Skype en effectuant ces deux étapes dans l’ordre suivant
+**A :** Si vous avez un scénario de domaine fractionné sur site Lync Online 2013 et Lync Server (avec des utilisateurs sur site et en ligne utilisant le même domaine SIP), activez Lync-Skype la connectivité en effectuant ces deux étapes dans l’ordre suivant
 
-1.  Configurez la connectivité Lync-Skype sur site comme indiqué dans le Guide de mise en service de PIC.
+1.  Configurez la connectivité Lync-Skype locale, comme expliqué dans le Guide de mise en service de PIC.
 
 2.  Patientez jusqu’à ce que vous voyez confirmation que votre domaine a été mis en service par Microsoft.
 
-3.  Une fois que vous avez affiché la confirmation, utilisez le centre d’administration Lync pour activer les communications externes. Pour plus d’informations, consultez la rubrique[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  Une fois que vous avez affiché la confirmation, utilisez le centre d’administration Lync pour activer les communications externes. Pour plus d’informations, consultez la rubrique [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 Cette commande est importante.Vous devez configurer la connectivité locale avant d’activer les communications dans Lync Online. Si la commande est contrepassée, les informations entrées pour le local dans <https://pic.lync.com> ne seront pas transmises. Si vous avez déjà configuré Lync Online pour les communications externes avec ce domaine, vous devez le désactiver, patienter 24 heures, puis recommencer, tout d’abord en entrant vos informations sur les locaux, puis en <https://pic.lync.com> activant les communications externes pour Lync Online.
 
@@ -138,7 +140,7 @@ Cette commande est importante.Vous devez configurer la connectivité locale avan
 
 **Q : Comment puis-je ajouter un contact Windows Live Messenger dont l’ID contient un domaine autre que ceux pris en charge par Windows Live ?**
 
-**A :** Si vous ajoutez un utilisateur Windows Live Messenger avec un compte ou un ID avec un domaine non Windows Live, entrez l’adresse au format suivant : nom d' \< utilisateur \> ( \< nom de domaine \> ) @msn. com, où \< nom \> de domaine est le nom de domaine dans l’adresse de messagerie de l’utilisateur. Par exemple, si vous souhaitez ajouter ted@contoso.com, vous devez utiliser le format suivant : Ted (contoso. com) @msn. com. Pour obtenir la liste des domaines administrés par Windows Live, consultez la section domaines pris en charge dans la section « problèmes connus liés à la messagerie instantanée publique après l’installation de Live Communications Server Service Pack 1 » à l’adresse https://support.microsoft.com/?kbid=897567 .
+**A :** Si vous ajoutez un utilisateur Windows Live Messenger avec un compte ou un ID avec un domaine non Windows Live, entrez l’adresse au format suivant : \<user name\> ( \<domain name\> ) @msn. com, où \<domain name\> est le nom de domaine dans l’adresse de messagerie de l’utilisateur. Par exemple, si vous souhaitez ajouter ted@contoso.com, vous devez utiliser le format suivant : Ted (contoso. com) @msn. com. Pour obtenir la liste des domaines administrés par Windows Live, consultez la section domaines pris en charge dans la section « problèmes connus liés à la messagerie instantanée publique après l’installation de Live Communications Server Service Pack 1 » à l’adresse https://support.microsoft.com/?kbid=897567 .
 
 **Q : combien de temps le processus de mise en service prend-il ?**
 

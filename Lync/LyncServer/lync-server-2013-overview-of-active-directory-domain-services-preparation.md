@@ -12,20 +12,22 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2712859aa3268b70db9bd126f1ea17463955db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0074b1739cd571db46fc704d4863ac4f0462c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216369"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500581"
 ---
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Vue d’ensemble de la préparation des services de domaine Active Directory dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Vue d’ensemble de la préparation des services de domaine Active Directory dans Lync Server 2013
+
 
 </div>
 
@@ -127,7 +129,7 @@ Lync Server 2013, comme Lync Server 2010, stocke une grande partie des informati
     
       - Compte d’authentification Kerberos (un objet ordinateur facultatif)
 
-Dans Lync Server 2013, vous déléguez le programme d’installation et l’administration en accordant des autorisations de configuration au groupe universel RTCUniversalServerAdmins afin que les membres de ce groupe puissent installer et activer Lync Server 2013 sur un serveur local (après que le serveur a été ajouté au topologie, publié et activé). Les utilisateurs délégués doivent être des administrateurs locaux sur l’ordinateur sur lequel ils installent et activent Lync Server 2013, mais ils n’ont pas besoin d’être membres du groupe administrateurs du domaine. Vous pouvez également accorder des autorisations pour des objets dans des unités d’organisation spécifiées afin que les membres des groupes universels créés lors de la préparation de la forêt puissent accéder à ces objets sans être membres du groupe Administrateurs du domaine.
+Dans Lync Server 2013, vous déléguez le programme d’installation et l’administration en accordant des autorisations de configuration au groupe universel RTCUniversalServerAdmins afin que les membres de ce groupe puissent installer et activer Lync Server 2013 sur un serveur local (après que le serveur a été ajouté à la topologie, publié et activé). Les utilisateurs délégués doivent être des administrateurs locaux sur l’ordinateur sur lequel ils installent et activent Lync Server 2013, mais ils n’ont pas besoin d’être membres du groupe administrateurs du domaine. Vous pouvez également accorder des autorisations pour des objets dans des unités d’organisation spécifiées afin que les membres des groupes universels créés lors de la préparation de la forêt puissent accéder à ces objets sans être membres du groupe Administrateurs du domaine.
 
 Pour les nouveaux déploiements de Lync Server 2013, les paramètres globaux doivent être stockés dans le conteneur de configuration. Si votre organisation est en cours de mise à niveau à partir d’une version antérieure et que vous disposez toujours de paramètres globaux dans le conteneur système, le conteneur système est toujours pris en charge.
 

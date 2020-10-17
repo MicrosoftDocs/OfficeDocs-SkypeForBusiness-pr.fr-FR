@@ -12,20 +12,22 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90af32fce28d87b211a0829c5c863c9277129c86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53251e03c55d6d61ae360d7b0739c07ac44dccdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500131"
 ---
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Déplacer le serveur de gestion centralisée Lync Server 2010 vers Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Déplacer le serveur de gestion centralisée Lync Server 2010 vers Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-11-25_
 
 Après avoir effectué une migration de Lync Server 2010 vers Lync Server 2013, vous devez déplacer le serveur de gestion centralisée Lync Server 2010 vers le serveur ou pool frontal Lync Server 2013, avant de pouvoir supprimer le serveur Lync Server 2010 hérité.
 
-Le serveur de gestion centralisée est un système de réplication maître/multiple unique, dans lequel la copie en lecture/écriture de la base de données est conservée par le serveur frontal qui contient le serveur de gestion centralisée. Chaque ordinateur de la topologie, y compris le serveur frontal qui contient le serveur de gestion centralisée, dispose d’une copie en lecture seule des données du magasin central de gestion dans la base de données SQL Server (nommée RTCLOCAL par défaut) installée sur l’ordinateur lors de l’installation et déploiement. La base de données locale reçoit les mises à jour de réplica par le biais de l’agent réplicateur de réplicas de Lync Server qui s’exécute en tant que service sur tous les ordinateurs. Le nom de la base de données réelle sur le serveur de gestion centralisée et le réplica local est XDS, composé des fichiers XDS. mdf et XDS. ldf. L’emplacement de la base de données maître est référencé par un point de contrôle de service (SCP) dans les services de domaine Active Directory. Tous les outils qui utilisent le serveur de gestion centralisée pour gérer et configurer Lync Server utilisent le SCP pour localiser le magasin central de gestion.
+Le serveur de gestion centralisée est un système de réplication maître/multiple unique, dans lequel la copie en lecture/écriture de la base de données est conservée par le serveur frontal qui contient le serveur de gestion centralisée. Chaque ordinateur de la topologie, y compris le serveur frontal qui contient le serveur de gestion centralisée, dispose d’une copie en lecture seule des données du magasin central de gestion dans la base de données SQL Server (nommée RTCLOCAL par défaut) installée sur l’ordinateur lors de l’installation et du déploiement. La base de données locale reçoit les mises à jour de réplica par le biais de l’agent réplicateur de réplicas de Lync Server qui s’exécute en tant que service sur tous les ordinateurs. Le nom de la base de données réelle sur le serveur de gestion centralisée et le réplica local est XDS, composé des fichiers XDS. mdf et XDS. ldf. L’emplacement de la base de données maître est référencé par un point de contrôle de service (SCP) dans les services de domaine Active Directory. Tous les outils qui utilisent le serveur de gestion centralisée pour gérer et configurer Lync Server utilisent le SCP pour localiser le magasin central de gestion.
 
 Une fois que vous avez réussi à déplacer le serveur de gestion centralisée, vous devez supprimer les bases de données du serveur de gestion centralisée à partir du serveur frontal d’origine. Pour plus d’informations sur la suppression des bases de données du serveur de gestion centralisée, consultez [la rubrique Remove the SQL Server Database for a front end pool](remove-the-sql-server-database-for-a-front-end-pool.md).
 
@@ -114,7 +116,7 @@ Utilisez les procédures de cette section pour préparer les serveurs frontaux L
     
 
     > [!WARNING]  
-    > Si <CODE>Enable-CsTopology</CODE> ce n’est pas le cas, résolvez le problème en empêchant la commande de se terminer avant de continuer. Si <STRONG>Enable-CsTopology</STRONG> ne réussit pas, le déplacement échoue et il peut laisser votre topologie dans un État où il n’existe pas de magasin central de gestion.
+    > Si ce <CODE>Enable-CsTopology</CODE> n’est pas le cas, résolvez le problème en empêchant la commande de se terminer avant de continuer. Si <STRONG>Enable-CsTopology</STRONG> ne réussit pas, le déplacement échoue et il peut laisser votre topologie dans un État où il n’existe pas de magasin central de gestion.
 
     
     </div>
@@ -177,7 +179,7 @@ Utilisez les procédures de cette section pour préparer les serveurs frontaux L
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    Où le \<nom de domaine complet\> de SQL Server est le serveur principal Lync Server 2010 dans un déploiement Enterprise Edition ou le nom de domaine complet (FQDN) du serveur Standard Edition.
+    Où \<FQDN of SQL Server\> est le serveur principal Lync server 2010 dans un déploiement Enterprise Edition ou le nom de domaine complet (FQDN) du serveur Standard Edition Server.
 
 </div>
 

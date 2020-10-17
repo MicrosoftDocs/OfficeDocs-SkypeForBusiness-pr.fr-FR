@@ -12,20 +12,22 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b103e2911812932026799bda154190aa6f46fc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192637"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500551"
 ---
+# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Déplacer des utilisateurs vers un autre pool dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Déplacer des utilisateurs vers un autre pool dans Lync Server 2013
+
 
 </div>
 
@@ -96,7 +98,7 @@ Vous pouvez utiliser le panneau de configuration Lync Server pour affecter des u
 
 6.  Dans **Pool de serveurs d’inscriptions de destination**, sélectionnez le pool vers lequel vous souhaitez déplacer les utilisateurs.
 
-7.  (Optionnel) Si le serveur ou le pool de destination n’est pas disponible, activez la case à cocher **Forcer**.
+7.  (Optionnel) Si le serveur ou pool de destination n’est pas disponible, activez la case à cocher **Forcer**.
     
     <div>
     
@@ -159,7 +161,7 @@ Vous pouvez utiliser le panneau de configuration Lync Server pour affecter des u
     
     1.  Si vous exécutez les commandes sur l’ordinateur local (par exemple, vous vous connectez directement à un serveur frontal) : Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
     
-    2.  Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition) : à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou à CsAdministrator , ouvrez une session sur un ordinateur de votre déploiement interne.
+    2.  Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition) : à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
 2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 

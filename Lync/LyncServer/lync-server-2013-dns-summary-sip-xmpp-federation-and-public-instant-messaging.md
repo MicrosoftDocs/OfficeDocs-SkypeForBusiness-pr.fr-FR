@@ -12,20 +12,22 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c2ccaab6d1d3bcb1cf597bef076601544f47aad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8c7b36448f2aa8eb895aebeeaddc6187c1831ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501191"
 ---
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Résumé des enregistrements DNS-SIP, Fédération XMPP et messagerie instantanée publique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Résumé des enregistrements DNS-SIP, Fédération XMPP et messagerie instantanée publique dans Lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42192787"
 
 _**Dernière modification de la rubrique :** 2017-03-09_
 
-Les enregistrements DNS (Domain Name System) requis pour la définition d’une Fédération avec Office Communications Server ou les partenaires Lync Server sont déterminés par votre décision d’autoriser la découverte automatique de DNS de votre domaine par d’autres partenaires en perspective. Si vous publiez \_le sipfederationtls. \_TCP. * \<Nom\> de domaine SIP* Enregistrement SRV, tout autre domaine fédéré SIP pourra « détecter » votre Fédération. Vous pouvez contrôler les domaines fédérés pouvant communiquer avec vous en utilisant les paramètres domaines et domaines bloqués dans le panneau de configuration Lync Server, ou en définissant la configuration des domaines autorisés ou bloqués à l’aide de Lync Server Management Shell et des applets de commande PowerShell **Get**, **Set**, **New**, **Remove-CsAllowedDomain** et **-applet csblockeddomain** . Pour plus d’informations sur la configuration de ces paramètres et l’utilisation des applets de commande PowerShell, consultez les **Rubriques connexes** à la fin de cette rubrique.
+Les enregistrements DNS (Domain Name System) requis pour la définition d’une Fédération avec Office Communications Server ou les partenaires Lync Server sont déterminés par votre décision d’autoriser la découverte automatique de DNS de votre domaine par d’autres partenaires en perspective. Si vous publiez le \_ sipfederationtls. \_ TCP. *\<SIP domain name\>* Enregistrement SRV, tout autre domaine fédéré SIP pourra « détecter » votre Fédération. Vous pouvez contrôler les domaines fédérés pouvant communiquer avec vous en utilisant les paramètres domaines et domaines bloqués dans le panneau de configuration Lync Server, ou en définissant la configuration des domaines autorisés ou bloqués à l’aide de Lync Server Management Shell et des applets de commande PowerShell **Get**, **Set**, **New**, **Remove-CsAllowedDomain** et **-applet csblockeddomain** . Pour plus d’informations sur la configuration de ces paramètres et l’utilisation des applets de commande PowerShell, consultez les **Rubriques connexes** à la fin de cette rubrique.
 
-Le tableau récapitulatif des enregistrements DNS décrit les entrées requises pour une fédération ouverte (détectable). Si vous ne souhaitez pas implémenter la découverte de Fédération, vous pouvez décider de ne \_pas configurer le sipfederationtls. \_TCP. Enregistrement de *nom\> de domaine SIP. \<*
+Le tableau récapitulatif des enregistrements DNS décrit les entrées requises pour une fédération ouverte (détectable). Si vous ne souhaitez pas implémenter la découverte de Fédération, vous pouvez décider de ne pas configurer le \_ sipfederationtls. \_ TCP. *\<SIP domain name\>* enregistrement.
 
 <div>
 
 
 > [!IMPORTANT]
-> Il existe des scénarios spécifiques dans lesquels vous devez disposer de l' _sipfederationtls. _tcp. <EM> &lt;Nom&gt; de domaine SIP</EM> Enregistrement SRV, mais vous ne souhaitez pas avoir une Fédération découvrable. Une telle instance est l’endroit où vous avez déployé la mobilité pour vos utilisateurs. Le centre de notifications mobiles Mobility (échanges) est un type spécial de Fédération utilisé pour les clients mobiles Microsoft Lync sur un iPhone ou un iPad Apple à l’aide du client mobile Lync 2010 ou de Windows Phone à l’aide des clients mobiles Lync 2010 mobile ou Lync 2013. Le _sipfederationtls. _tcp. <EM> &lt;Nom&gt; de domaine SIP</EM> L’enregistrement SRV est utilisé en cas de mobilité et de notification de transmission. Pour atténuer ce problème et contrôler votre détectabilité, désactivez la case à <STRONG>coactivation activer la découverte du domaine partenaire</STRONG> pour désactiver la découverte.
+> Il existe des scénarios spécifiques dans lesquels vous devez disposer de l' _sipfederationtls. _ TCP. Enregistrement SRV de <EM> &lt; &gt; nom de domaine SIP</EM> , mais vous ne souhaitez pas avoir une Fédération découvrable. Une telle instance est l’endroit où vous avez déployé la mobilité pour vos utilisateurs. Le centre de notifications mobiles Mobility (échanges) est un type spécial de Fédération utilisé pour les clients mobiles Microsoft Lync sur un iPhone ou un iPad Apple à l’aide du client mobile Lync 2010 ou de Windows Phone à l’aide des clients mobiles Lync 2010 mobile ou Lync 2013. _Sipfederationtls. _ TCP. L’enregistrement SRV de <EM> &lt; &gt; nom de domaine SIP</EM> est utilisé en cas de mobilité et de notification de transmission. Pour atténuer ce problème et contrôler votre détectabilité, désactivez la case à <STRONG>coactivation activer la découverte du domaine partenaire</STRONG> pour désactiver la découverte.
 
 
 
@@ -78,7 +80,7 @@ Lorsque vous configurez DNS (Domain Name System) pour la connectivité de messag
 <tbody>
 <tr class="odd">
 <td><p>DNS externe/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du service Edge d’accès requise pour la découverte automatique de DNS de votre Fédération auprès des autres partenaires de Fédération potentiels, et appelée « domaines SIP autorisés » (appelée fédération étendue dans les versions précédentes). Répétez cette opération autant que nécessaire pour tous les domaines SIP avec des utilisateurs activés pour Lync.</p>
 
@@ -118,9 +120,9 @@ Lorsque vous configurez DNS (Domain Name System) pour la connectivité de messag
 <tbody>
 <tr class="odd">
 <td><p>DNS externe/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération si nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés via la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée au Utilisateur à extension Lync. Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP. Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</p></td>
+<td><p>Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération autant que nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés dans la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée à l’utilisateur à extension Lync. Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP. Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS externe/A</p></td>

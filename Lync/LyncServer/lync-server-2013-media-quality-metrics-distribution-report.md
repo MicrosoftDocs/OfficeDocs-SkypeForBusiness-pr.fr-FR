@@ -12,20 +12,22 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee62d2eee4ab6e18b3c0c07b46f79b779bcce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500651"
 ---
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Le rapport de distribution des mesures de qualité des médias dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Le rapport de distribution des mesures de qualité des médias dans Lync Server 2013
+
 
 </div>
 
@@ -65,31 +67,31 @@ Le rapport de distribution des mesures de qualité des médias vous permet d’a
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>4550</p></td>
 </tr>
 <tr class="odd">
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10 </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>

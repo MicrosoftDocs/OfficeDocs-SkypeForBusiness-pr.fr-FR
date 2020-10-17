@@ -12,20 +12,22 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9737824248ea9f7d11803be14f1c008cc51261
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f97c44b0d199ec257b6e8b8e1d5f4c6d7fa307b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192877"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501241"
 ---
+# <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Résumé des enregistrements DNS-serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Résumé des enregistrements DNS-serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Les exigences liées aux enregistrements DNS pour l’accès à distance à Lync
 
 Pour plus d’informations sur les exigences DNS de Lync 2013, voir [determine DNS Requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-Pour plus d’informations sur la configuration automatique des clients exécutant Lync 2013 si le DNS split-brain n’est pas configuré, voir « Configuration automatique sans DNS split-brain » dans [determine DNS Requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Pour plus d’informations sur la configuration automatique des clients exécutant Lync 2013 si le DNS split-brain n’est pas configuré, voir « Configuration automatique sans Split-Brain DNS » dans [determine DNS Requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
 Le tableau suivant contient un résumé des enregistrements DNS requis pour prendre en charge la topologie Edge consolidée indiquée dans la figure Topologie Edge consolidée unique. Notez que certains enregistrements DNS sont requis uniquement pour la configuration automatique des clients Lync 2013 et Lync 2010. Si vous envisagez d’utiliser des objets de stratégie de groupe (GPO) pour configurer des clients Lync, les enregistrements de configuration automatique associés ne sont pas nécessaires.
 
@@ -102,7 +104,7 @@ Vous pouvez configurer deux cartes réseau dans votre serveur Edge comme suit :
 <th>Emplacement/TYPE/port</th>
 <th>Nom de domaine complet/enregistrement DNS</th>
 <th>Adresse IP/Nom de domaine complet</th>
-<th>Mappe vers/Commentaires</th>
+<th>Mappage à/Commentaires</th>
 </tr>
 </thead>
 <tbody>
@@ -126,13 +128,13 @@ Vous pouvez configurer deux cartes réseau dans votre serveur Edge comme suit :
 </tr>
 <tr class="even">
 <td><p>DNS externe/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès. Nécessaire pour que la configuration automatique des clients Lync 2013 et Lync 2010 fonctionne en externe. Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS externe/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Requise pour permettre la découverte DNS automatique des partenaires fédérés, connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p></td>
 </tr>
@@ -180,8 +182,8 @@ Vous pouvez configurer deux cartes réseau dans votre serveur Edge comme suit :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS externe /SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>DNS externe/SRV/5061</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
 
@@ -221,9 +223,9 @@ Vous pouvez configurer deux cartes réseau dans votre serveur Edge comme suit :
 <tbody>
 <tr class="odd">
 <td><p>DNS externe/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération si nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés via la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée au Utilisateur à extension Lync. Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP. Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</p></td>
+<td><p>Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération autant que nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés dans la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée à l’utilisateur à extension Lync. Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP. Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS externe/A</p></td>

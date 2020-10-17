@@ -12,20 +12,22 @@ ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79ac6a28c475c8ec08584788fdb868d2ce30e143
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef15dec14266d4813ecc11624caa4c11906e7329
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500510"
 ---
+# <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>Déplacer un périphérique de conférence vers un nouveau pool de serveurs d’inscriptions dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>Déplacer un périphérique de conférence vers un nouveau pool de serveurs d’inscriptions dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Déplacez un périphérique de conférence d’un pool de serveurs d’inscripti
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 

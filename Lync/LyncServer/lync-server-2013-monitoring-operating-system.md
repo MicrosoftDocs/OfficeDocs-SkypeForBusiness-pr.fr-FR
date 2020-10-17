@@ -12,20 +12,22 @@ ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3857ffa37ac3b50be6dc35ed281616aafff87c48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d6cad561761b7387cb4c268229f76b52f4bd24b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500631"
 ---
+# <a name="monitoring-operating-system-in-lync-server-2013"></a>Surveillance du système d’exploitation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-operating-system-in-lync-server-2013"></a>Surveillance du système d’exploitation dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Vous devez surveiller les performances de tous les serveurs et composants dans l
 
 Le moyen le plus transparent de surveiller un système d’exploitation consiste à utiliser le pack d’administration du système d’exploitation Windows Server. Elle offre des notions de base de surveillance fondamentales, telles que les performances, l’intégrité et la disponibilité des ordinateurs qui exécutent Windows Server 2012, Windows Server 2012 R2 et Windows Server 2008 R2.
 
-En détectant, en alertant et en répondant automatiquement aux événements importants et aux indicateurs de performances, ces packs d’administration réduisent les temps de résolution des problèmes et augmentent la disponibilité et les performances globales des systèmes qui exécutent Windows Server systèmes d’exploitation.
+En détectant, en alertant et en répondant automatiquement aux événements importants et aux indicateurs de performances, ces packs d’administration réduisent les temps de résolution des problèmes et augmentent la disponibilité et les performances globales des systèmes exécutant les systèmes d’exploitation Windows Server.
 
 Outre les packs de gestion Windows Server appropriés pour System Center Operations Manager, les ressources et outils système suivants peuvent être utilisés pour surveiller l’état du système d’exploitation (en fonction de la version du système d’exploitation).
 
@@ -77,7 +79,7 @@ Il inclut également le moniteur de fiabilité, un composant logiciel enfichable
 
 ## <a name="windows-reliability-and-performance-monitor"></a>Moniteur de fiabilité et de performances Windows
 
-Bien que le moniteur de fiabilité et de performances de Windows combine les fonctionnalités de certains anciens outils autonomes, tels que les journaux et alertes de performance, ainsi que le moniteur système et le conseiller de performance de serveur, il fournit également de nouvelles fonctionnalités à Windows Server 2008 et Windows Server 2008 R2, comme suit :
+Bien que le moniteur de fiabilité et de performances de Windows combine les fonctionnalités de certains anciens outils autonomes, tels que les journaux et alertes de performance, ainsi que le moniteur système et le conseiller de performance de serveur, il fournit également de nouvelles fonctionnalités pour Windows Server 2008 et Windows Server 2008 R2, tels que les suivants :
 
   - Ensembles de collecteurs de données
 
@@ -91,7 +93,7 @@ Bien que le moniteur de fiabilité et de performances de Windows combine les fon
 
 La page d’accueil de l’analyseur de fiabilité et de performances Windows est le nouvel écran de **vue des ressources** , qui fournit une représentation graphique en temps réel de l’utilisation de l’UC, du disque, du réseau et de la mémoire. En développant chacun de ces éléments surveillés, les administrateurs système peuvent identifier les processus qui utilisent les ressources. Dans les versions antérieures de Windows, ces données en temps réel, propres aux processus, étaient disponibles uniquement sous forme limitée dans le gestionnaire des tâches.
 
-Le **moniteur de fiabilité** calcule un index de stabilité du système reflétant si des problèmes inattendus ont permis de réduire la fiabilité du système. Un graphique de l’index de stabilité au fil du temps identifie rapidement des dates lorsque des problèmes ont commencé. Le rapport de stabilité du système associé fournit des informations pour vous aider à résoudre la cause d’une fiabilité réduite. En affichant les modifications apportées au système (installation ou suppression des applications, mises à jour du système d’exploitation ou ajout ou modification de pilotes) côte à côte avec des échecs (échecs d’applications, pannes du système d’exploitation ou défaillances matérielles), une stratégie pour la résolution des problèmes peut être développée rapidement.
+Le **moniteur de fiabilité** calcule un index de stabilité du système reflétant si des problèmes inattendus ont permis de réduire la fiabilité du système. Un graphique de l’index de stabilité au fil du temps identifie rapidement des dates lorsque des problèmes ont commencé. Le rapport de stabilité du système associé fournit des informations pour vous aider à résoudre la cause d’une fiabilité réduite. En affichant les modifications apportées au système (installation ou suppression d’applications, mises à jour du système d’exploitation ou ajout ou modification de pilotes) côte à côte avec des échecs (défaillances de l’application, panne du système d’exploitation ou défaillances matérielles), une stratégie de résolution des problèmes peut être développée rapidement.
 
 L’ajout de compteurs aux fichiers journaux et la planification de leur démarrage, de leur arrêt et de leur durée peuvent désormais être effectués via une **interface d’Assistant**. De plus, l’enregistrement de cette configuration sous forme de modèle permet aux administrateurs système de collecter le même journal sur d’autres ordinateurs sans répéter la sélection du collecteur de données et les processus de planification. Les fonctionnalités journaux et alertes de performance ont été intégrées à l’analyseur de fiabilité et de performances de Windows pour être utilisées avec n’importe quel ensemble de collecteurs de données.
 

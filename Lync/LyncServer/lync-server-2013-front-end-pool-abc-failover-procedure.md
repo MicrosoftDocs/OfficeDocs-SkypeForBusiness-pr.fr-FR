@@ -12,20 +12,22 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60ded6539f6d984662449562d0f978e98dc3078
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206550"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500801"
 ---
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Procédure de basculement ABC de pool frontal dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Procédure de basculement ABC de pool frontal dans Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Pour exécuter les applets de commande, ouvrez un environnement Lync Server Mana
 
 1.  Vérifiez si le pool A est l’hôte du serveur central de gestion (CMS).
     
-      - Exécutez la cmdlet suivante :
+      - Exécutez la l’applet commande suivant :
         
             Get-CsService -CentralManagement
         
@@ -89,7 +91,7 @@ Pour exécuter les applets de commande, ouvrez un environnement Lync Server Mana
     
 
     > [!WARNING]  
-    > N’oubliez pas que si vous ne souhaitez pas remplacer les paramètres au niveau de l’application du pool de sauvegarde (pool B) par les paramètres du pool principal (pool A), les paramètres au niveau de l’application du pool A seront perdus si le pool A est perdu, car l’application Response Group peut stockez un seul ensemble de paramètres au niveau de l’application par pool. Lorsque le pool C est déployé pour remplacer le pool A, les paramètres de niveau application doivent être reconfigurés, y compris le fichier audio de l’attente musicale par défaut.
+    > N’oubliez pas que si vous ne souhaitez pas remplacer les paramètres au niveau de l’application du pool de sauvegarde (pool B) par les paramètres du pool principal (pool A), les paramètres au niveau de l’application du pool A seront perdus si le pool A est perdu, car l’application Response Group ne peut stocker qu’un seul ensemble de paramètres au niveau de l’application par pool. Lorsque le pool C est déployé pour remplacer le pool A, les paramètres de niveau application doivent être reconfigurés, y compris le fichier audio de l’attente musicale par défaut.
 
     
     </div>
@@ -194,7 +196,7 @@ Pour exécuter les applets de commande, ouvrez un environnement Lync Server Mana
     
 
     > [!WARNING]  
-    > N’oubliez pas que si vous ne souhaitez pas remplacer les paramètres au niveau de l’application du pool C par les paramètres du pool de sauvegarde (pool B), les paramètres au niveau de l’application du pool B seront perdus car l’application Response Group ne peut stocker qu’un seul ensemble de niveau application paramètres par pool.
+    > N’oubliez pas que si vous ne souhaitez pas remplacer les paramètres au niveau de l’application du pool C par les paramètres du pool de sauvegarde (pool B), les paramètres au niveau de l’application du pool B seront perdus car l’application Response Group ne peut stocker qu’un seul ensemble de paramètres au niveau de l’application par pool.
 
     
     </div>

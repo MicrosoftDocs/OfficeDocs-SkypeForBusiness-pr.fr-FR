@@ -12,20 +12,22 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500571"
 ---
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Déplacer des utilisateurs vers Lync Online dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Déplacer des utilisateurs vers Lync Online dans Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Pour déplacer un utilisateur local vers votre client Lync Online, exécutez les
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant : https://de \< nom de domaine complet du pool \> /HostedMigration/hostedmigrationService.svc.
+Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant : https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc.
 
 Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online pour votre compte d’organisation Microsoft 365 ou Office 365.
 
@@ -111,7 +113,7 @@ Pour vérifier que l’utilisateur a été déplacé correctement, procédez com
 
   - Affichez l’état de l’utilisateur dans le panneau de configuration Lync Online. L’indicateur visuel pour les utilisateurs locaux et les utilisateurs en ligne est différent.
 
-  - Exécutez la cmdlet suivante :
+  - Exécutez la l’applet commande suivant :
     
         Get-CsUser -Identity
 
