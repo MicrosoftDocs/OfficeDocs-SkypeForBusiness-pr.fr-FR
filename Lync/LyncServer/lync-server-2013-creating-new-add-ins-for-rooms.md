@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : création de compléments pour les salles'
+description: 'Lync Server 2013 : création de compléments pour les salles.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1dbf63e9afb97a721e65027c85c953673fdc021
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55d14f3bd8ad2a021437af88c8fd0e2b71d79fde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531531"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563080"
 ---
 # <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>Création de compléments pour les salles dans Lync Server 2013
 

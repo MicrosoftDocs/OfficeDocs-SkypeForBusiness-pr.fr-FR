@@ -1,5 +1,6 @@
 ---
 title: Procédures de récupération d’urgence de groupe Response Group Lync Server 2013
+description: Procédures de récupération d’urgence de groupe Response Group Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea967dc717f36b8ab5951fa758e7c78d6130dc0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c9021fb75c8f937bfd298578a9241d6256d26d85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511661"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563890"
 ---
 # <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procédures de récupération d’urgence des groupes Response Group dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Phase 9 : effectuer les tâches postérieures à la migration'
+description: 'Phase 9 : effectuer les tâches postérieures à la migration.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33e4b97e0290ef14acda9201bb25897d7a517113
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1448f2ca399fdd31f914a55d2940f41624a9794e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532811"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563740"
 ---
 # <a name="phase-9-complete-post-migration-tasks"></a>Phase 9 : effectuer les tâches postérieures à la migration
 
@@ -45,25 +46,25 @@ Les rubriques de cette section décrivent les tâches que vous devrez effectuer 
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Migrer des groupes Response Group](migrate-response-groups_1.md)
+  - [Migrer des groupes Response Group](migrate-response-groups.md)
 
-  - [Migrer les numéros d’accès entrant](migrate-dial-in-access-numbers_1.md)
+  - [Migrer les numéros d’accès entrant](migrate-dial-in-access-numbers.md)
 
   - [Activer Exchange 2013 Outlook Web App et l’intégration de la messagerie instantanée](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Migrer le carnet d’adresses](migrate-address-book_1.md)
+  - [Migrer le carnet d’adresses](migrate-address-book.md)
 
   - [Activer le contrôle d’appel distant](enable-remote-call-control.md)
 
-  - [Suppression des serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Suppression des serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers.md)
 
   - [Migrer le serveur de médiation](migrate-mediation-server.md)
 
-  - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers_1.md)
+  - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers.md)
 
-  - [Configuration de la page de participation à une réunion](configure-the-meeting-join-page_1.md)
+  - [Configuration de la page de participation à une réunion](configure-the-meeting-join-page.md)
 
-  - [Déployer les clients Lync Server 2013](deploy-lync-server-2013-clients_1.md)
+  - [Déployer les clients Lync Server 2013](deploy-lync-server-2013-clients.md)
 
   - [Déplacer des objets contact de la messagerie unifiée Exchange](move-exchange-unified-messaging-contact-objects.md)
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : planification de votre organisation'
+description: 'Lync Server 2013 : planification de votre organisation.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185940
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8014b72cea48f650b4020b19789c904a0f351333
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bdd764ecca6784bb4d1aaa6c0c191d89999f44db
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513441"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563990"
 ---
 # <a name="organization-planning-for-lync-server-2013"></a>Planification de l’Organisation pour Lync Server 2013
 
