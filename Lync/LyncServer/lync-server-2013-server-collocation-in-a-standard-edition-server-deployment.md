@@ -1,5 +1,6 @@
 ---
 title: Colocalisation de serveur Lync Server 2013 dans un déploiement de serveur Standard Edition
+description: Colocalisation de serveur Lync Server 2013 dans un déploiement de serveur Standard Edition.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: af44761d36c472de1a3da5cd3b3938dc1a130836
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510311"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555110"
 ---
 # <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Colocalisation des serveurs dans un déploiement de serveur Standard Edition pour Lync Server 2013
 

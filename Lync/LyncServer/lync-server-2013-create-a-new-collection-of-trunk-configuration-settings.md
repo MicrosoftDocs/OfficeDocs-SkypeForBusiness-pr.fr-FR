@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : créer une collection de paramètres de configuration de jonction'
+description: 'Lync Server 2013 : créez une collection de paramètres de configuration de jonction.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 16ef4bb6393ec2385eaf7c642734bbc803d4dff6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507461"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554710"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Créer une collection de paramètres de configuration de jonction dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : basculement du pool de serveurs Edge utilisé pour la Fédération XMPP'
+description: 'Lync Server 2013 : basculement du pool de serveurs Edge utilisé pour la Fédération XMPP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54230fb489a62ed5d7a80bfe871af3bc097e35e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ccdfe119258b4d09ddedefb22d0272d72003bf04
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530891"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554900"
 ---
 # <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a>Basculement du pool de serveurs Edge utilisé pour la Fédération XMPP dans Lync Server 2013
 

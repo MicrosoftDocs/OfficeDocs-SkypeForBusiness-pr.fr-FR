@@ -1,5 +1,6 @@
 ---
 title: Notes de publication de Lync Server 2013
+description: Notes de publication de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f98a19e81ebf52d97b4c6807dbb97dc8110b0f34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 33fabb0912d7ea3defd91014df732368eced909e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536561"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555870"
 ---
 # <a name="release-notes-for-lync-server-2013"></a>Notes de publication pour Lync Server 2013
 

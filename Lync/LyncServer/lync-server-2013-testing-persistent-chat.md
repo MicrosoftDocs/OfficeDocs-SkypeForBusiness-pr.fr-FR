@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : test de la conversation permanente'
+description: 'Lync Server 2013 : test de la conversation permanente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a8b1dc4eef1870f1287dacdc1852ab1e24edd169
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504071"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556280"
 ---
 # <a name="testing-persistent-chat-in-lync-server-2013"></a>Test de la conversation permanente dans Lync Server 2013
 
