@@ -12,20 +12,22 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc787dee62152e9ace76663a084fe5c1c428b1f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dd1881050e5226df9c36d3b92194e27e1123df13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513261"
 ---
+# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>Empêcher les nouvelles connexions à Lync Server 2013 pour la maintenance du serveur
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>Empêcher les nouvelles connexions à Lync Server 2013 pour la maintenance du serveur
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server vous permet de mettre un serveur hors connexion (par exemple, pour a
 
 Quand vous spécifiez l’option qui empêche toute nouvelle connexion ou tout nouvel appel sur un serveur appartenant à un pool, Lync Server n’accepte plus de nouvelles connexions, ni de nouveaux appels une fois cette option implémentée. Quand un serveur empêche toute nouvelle connexion, il autorise ses sessions sur des connexions existantes à se poursuivre, jusqu’à ce qu’elles se terminent normalement. Une fois toutes les sessions existantes parvenues à terme, le serveur est prêt à être mis hors connexion.
 
-Lorsque vous interdisez de nouvelles connexions à un serveur frontal, certains services et fonctionnalités Lync Server s’appuient sur l’équilibrage de charge DNS pour s’assurer qu’il fonctionne correctement. Si vous n’utilisez pas l’équilibrage de charge DNS sur le pool, les connexions par le biais de ces services ne peuvent pas être redirigées vers d’autres serveurs pendant la période pendant laquelle le serveur empêche les nouvelles connexions et, par conséquent, lorsque le serveur est mis hors connexion, certaines sessions et appels peuvent être fonctionner. Les fonctionnalités qui dépendent de l’équilibrage de charge DNS pour s’assurer que cette option fonctionne correctement sont les suivantes :
+Lorsque vous interdisez de nouvelles connexions à un serveur frontal, certains services et fonctionnalités Lync Server s’appuient sur l’équilibrage de charge DNS pour s’assurer qu’il fonctionne correctement. Si vous n’utilisez pas l’équilibrage de charge DNS sur le pool, les connexions par le biais de ces services ne peuvent pas être redirigées vers d’autres serveurs pendant la période pendant laquelle le serveur empêche les nouvelles connexions, et par conséquent, lorsque le serveur est mis hors connexion, certaines sessions et appels peuvent être interrompus. Les fonctionnalités qui dépendent de l’équilibrage de charge DNS pour s’assurer que cette option fonctionne correctement sont les suivantes :
 
   - Attendant
 
@@ -55,7 +57,7 @@ Lorsque vous interdisez de nouvelles connexions à un serveur frontal, certains 
 
 Pour plus d’informations sur l’équilibrage de la charge DNS, voir [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
 
-En plus d’empêcher les nouvelles connexions pour tous les services sur un serveur exécutant Lync Server, vous pouvez également empêcher les nouvelles connexions pour des services Lync Server individuels. Par exemple, cette méthode est utile lorsque vous devez appliquer une mise à jour Lync Server qui ne nécessite pas l’arrêt de l’ensemble du serveur. Veuillez noter que lorsque vous interdisez les connexions pour un service, vous devez sélectionner un service groupé et affiché dans la liste des services Windows. Par exemple, le service frontal Lync Server et l’agent de collecte de données pour la surveillance sont des services Lync Server distincts, mais dans la liste des services Windows, ils sont consolidés et affichés en tant que service frontal Lync Server. Vous pouvez empêcher les nouvelles connexions pour le service frontal Lync Server, mais vous ne pouvez pas empêcher les nouvelles connexions pour ces deux services Lync Server sous-jacents individuels.
+En plus d’empêcher les nouvelles connexions pour tous les services sur un serveur exécutant Lync Server, vous pouvez également empêcher les nouvelles connexions pour des services Lync Server individuels. Par exemple, cette méthode est utile lorsque vous devez appliquer une mise à jour Lync Server qui ne nécessite pas l’arrêt de l’ensemble du serveur. Veuillez noter que lorsque vous interdisez les connexions pour un service, vous devez sélectionner un service groupé et affiché dans la liste des services Windows. Par exemple, le service Lync Server Front-End et l’agent de collecte de données pour la surveillance sont des services Lync Server distincts, mais dans la liste des services Windows, ils sont consolidés et affichés en tant que service frontal Lync Server. Vous pouvez empêcher les nouvelles connexions pour le service frontal Lync Server, mais vous ne pouvez pas empêcher les nouvelles connexions pour ces deux services Lync Server sous-jacents individuels.
 
 <div>
 

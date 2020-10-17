@@ -12,20 +12,22 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a4bd640d4f2e13ff6ecec129bd86602a197a451
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ab00e89c41b075e47d7764ce1c9c4cd3c471b8c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513631"
 ---
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Migrer des utilisateurs vers le magasin de contacts unifié dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Migrer des utilisateurs vers le magasin de contacts unifié dans Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Déterminez si les contacts d’un utilisateur ont été transférés en utilisa
 
   - Vérifiez la clé de Registre suivante sur l’ordinateur client :
     
-    HKEY\_Current\_user\\Software\\Microsoft\\Office\\15,0\\Lync\\\<SIP URL\>\\
+    HKEY \_ Current \_ User \\ Software \\ Microsoft \\ Office \\ 15,0 \\ Lync \\ \<SIP URL\> \\ UCS
     
     Si les contacts de l’utilisateur sont stockés dans Exchange 2013, cette clé contient une valeur de InUCSMode avec une valeur de 2165.
 

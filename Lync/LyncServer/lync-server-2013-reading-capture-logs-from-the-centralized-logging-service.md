@@ -12,20 +12,22 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0807552784b69b58accfd026031af55d41c91f33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512031"
 ---
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lecture des journaux de capture à partir du service de journalisation centralisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lecture des journaux de capture à partir du service de journalisation centralisée dans Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42201530"
 
 _**Dernière modification de la rubrique :** 2016-12-28_
 
-Vous profitez de l’avantage réel du service de journalisation centralisée après avoir exécuté la recherche et vous disposez d’un fichier que vous pouvez utiliser pour repérer un problème signalé. Vous pouvez lire le fichier de plusieurs façons. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad. exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil tel que Snooper. exe qui est conçu pour lire et analyser la sortie de journalisation à partir du service de journalisation centralisée. Snooper est inclus avec les outils de débogage Lync Server 2013, qui peuvent être téléchargés séparément. Vous pouvez télécharger les outils de débogage Lync Server 2013 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)ici :. Lorsque vous installez les outils de débogage Lync Server 2013, les raccourcis et les éléments de menu ne sont pas créés. Une fois que vous avez installé les outils de débogage Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell et accédez au répertoire (\\emplacement par\\défaut) C :\\Program Files Microsoft Lync Server 2013 Debugging Tools. Double-cliquez sur Snooper. exe ou sur Snooper. exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Lync Server Management Shell.
+Vous profitez de l’avantage réel du service de journalisation centralisée après avoir exécuté la recherche et vous disposez d’un fichier que vous pouvez utiliser pour repérer un problème signalé. Vous pouvez lire le fichier de plusieurs façons. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad.exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil comme Snooper.exe conçu pour lire et analyser la sortie de journalisation à partir du service de journalisation centralisée. Snooper est inclus avec les outils de débogage Lync Server 2013, qui peuvent être téléchargés séparément. Vous pouvez télécharger les outils de débogage Lync Server 2013 ici : [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) . Lorsque vous installez les outils de débogage Lync Server 2013, les raccourcis et les éléments de menu ne sont pas créés. Une fois que vous avez installé les outils de débogage Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell et accédez au répertoire (emplacement par défaut) C : \\ Program Files \\ Microsoft Lync Server 2013 \\ Debugging Tools. Double-cliquez sur Snooper.exe ou tapez Snooper.exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Lync Server Management Shell.
 
 <div>
 
 
 > [!IMPORTANT]  
-> L’objectif de cette rubrique n’est pas de détailler et de discuter des techniques de résolution des problèmes. Le dépannage et les processus qui l’entourent constituent un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base et sur la résolution des charges de travail spécifiques, <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>consultez le Guide du kit de ressources Microsoft Lync Server 2010 à l’adresse. Les processus et procédures s’appliquent toujours à Lync Server 2013.
+> L’objectif de cette rubrique n’est pas de détailler et de discuter des techniques de résolution des problèmes. Le dépannage et les processus qui l’entourent constituent un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base et sur la résolution des charges de travail spécifiques, consultez le Guide du kit de ressources Microsoft Lync Server 2010 à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A> . Les processus et procédures s’appliquent toujours à Lync Server 2013.
 
 
 
@@ -75,11 +77,11 @@ Vous pouvez pointer sur l’affichage Diagramme et obtenir des détails sur les 
 
 1.  Pour utiliser le Snooper et les fichiers journaux ouverts, vous avez besoin d’un accès en lecture aux fichiers journaux. Pour utiliser Snooper et accéder aux fichiers journaux, vous devez être membre du groupe de sécurité CsAdministrator ou du contrôle d’accès basé sur le rôle CsServerAdministrator (RBAC), ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes.
 
-2.  Après l’installation des outils de débogage Lync Server (LyncDebugTools. msi), remplacez le répertoire par l’emplacement de Snooper. exe à l’aide de l’Explorateur Windows ou de la ligne de commande. Par défaut, les outils de débogage se trouvent dans C :\\Program Files\\Microsoft Lync Server 2013\\Debugging Tools. Double-cliquez sur ou exécutez Snooper. exe.
+2.  Après l’installation des outils de débogage Lync Server (LyncDebugTools.msi), modifiez le répertoire à l’emplacement de Snooper.exe à l’aide de l’Explorateur Windows ou à partir de la ligne de commande. Par défaut, les outils de débogage se trouvent dans C : \\ Program Files \\ Microsoft Lync Server 2013 \\ Debugging Tools. Double-cliquez sur ou exécutez Snooper.exe.
 
 3.  Une fois le Snooper ouvert, cliquez avec le bouton droit sur **fichier**, cliquez sur **OpenFile**, recherchez vos fichiers journaux, sélectionnez un fichier dans la boîte de dialogue **ouvrir** , puis cliquez sur **ouvrir**.
 
-4.  Les messages de **suivi** du fichier journal sont affichés sous l’onglet **suivi** . cliquez sur l’onglet **messages** pour afficher le contenu des messages des traces collectées.
+4.  Les messages de **suivi** du fichier journal sont affichés sous l’onglet **suivi** . Cliquez sur l’onglet **messages** pour afficher le contenu des messages des traces collectées.
 
 </div>
 

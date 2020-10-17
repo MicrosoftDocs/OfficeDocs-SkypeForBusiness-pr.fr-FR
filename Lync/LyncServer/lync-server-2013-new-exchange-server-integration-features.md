@@ -12,20 +12,22 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e5365675efbcc7427cc29143c21b6656a4dba7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3ac7a336fc65b6e9b9222fc2f19e1983cb53c79
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512531"
 ---
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Nouvelles fonctionnalités d’intégration d’Exchange Server dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Nouvelles fonctionnalités d’intégration d’Exchange Server dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 2013 prend en charge de nouvelles fonctionnalités lorsqu’il est d
 
   - Vous pouvez utiliser des **photos haute résolution** pour les contacts. Les photos avec un maximum de 648 x 648 pixels sont stockées dans Exchange 2013 et mises à la disposition des clients, notamment Lync 2013, Outlook 2013, Microsoft Lync Web App et Outlook Web App.
 
-  - Vous pouvez activer l’intégration de l' **archivage Lync**, qui intègre l’archivage lync Server 2013 dans la fonctionnalité de blocage inaltérable Exchange 2013 pour les utilisateurs hébergés sur Exchange 2013, ce qui permet aux administrateurs d’utiliser une expérience commune en matière de conformité et de découverte électronique.
+  - Vous pouvez activer l’intégration de l' **archivage Lync**, qui intègre l’archivage lync Server 2013 dans la fonctionnalité de blocage In-Place Exchange 2013 pour les utilisateurs hébergés sur Exchange 2013, ce qui permet aux administrateurs d’utiliser une expérience commune en matière de conformité et de découverte électronique.
 
 <div>
 

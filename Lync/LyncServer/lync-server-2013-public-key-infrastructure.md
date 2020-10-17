@@ -12,20 +12,22 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec711ad773aeb1b3b426e929b2d87d033f8d8004
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7cee633f877a34dcf2ec0fd0b98891c62faf0bad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183507"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512411"
 ---
+# <a name="public-key-infrastructure-for-lync-server-2013"></a>Infrastructure de clé publique pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a>Infrastructure de clé publique pour Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Chaque certificat est lié à une clé publique. Le serveur nommé dans le certi
 
 
 > [!NOTE]  
-> Toutes les autorités de certification publiques ne respectent pas les exigences des certificats Lync Server 2013. Nous vous recommandons de vous reporter à la liste des fournisseurs d’autorités de certification publiques certifiées selon vos besoins de certificats publics. Pour plus d’informations, consultez la page relative <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>aux partenaires de certificat de communications unifiées.
+> Toutes les autorités de certification publiques ne respectent pas les exigences des certificats Lync Server 2013. Nous vous recommandons de vous reporter à la liste des fournisseurs d’autorités de certification publiques certifiées selon vos besoins de certificats publics. Pour plus d’informations, consultez la page relative aux partenaires de certificat de communications unifiées <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A> .
 
 
 

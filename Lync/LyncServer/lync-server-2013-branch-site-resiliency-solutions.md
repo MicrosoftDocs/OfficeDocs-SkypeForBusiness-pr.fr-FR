@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512981"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Solutions de résistance de site de succursale dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Solutions de résistance de site de succursale dans Lync Server 2013
+
 
 </div>
 
@@ -61,14 +63,14 @@ Si vous décidez de mettre en œuvre la résistance pour les sites de succursale
 <td><p>Hébergez entre 25 et 1 000 utilisateurs sur le site de succursale, et si un déploiement complet n’est pas rentable ou si vous ne disposez pas d’un support d’administration local</p></td>
 <td><p>Survivable Branch Appliance</p>
 <p>Le Survivable Branch Appliance est un serveur lame standard avec un serveur de médiation et de serveur d’inscriptions Lync Server s’exécutant sur Windows Server 2008 R2. Le Survivable Branch Appliance contient également une passerelle RTC (réseau téléphonique commuté). Des périphériques tiers qualifiés (développés par les partenaires de Microsoft dans le programme de qualification/certification Survivable Branch Appliance (SBA)) assurent une connexion PSTN continue en cas de panne du WAN, mais ils ne fournissent pas de services de conférence et de présence résistants, car ces fonctionnalités dépendent des serveurs frontaux du site central.</p>
-<p>Pour plus d’informations sur Survivable Branch Appliances, voir &quot;Survivable Branch&quot; Appliance Details, plus loin dans cette rubrique.</p>
+<p>Pour plus d’informations sur Survivable Branch Appliances, voir &quot; Survivable Branch Appliance Details, &quot; plus loin dans cette rubrique.</p>
 <p><strong>Remarque :</strong> Si vous décidez d’utiliser également une jonction SIP avec votre Survivable Branch appliance, contactez votre fournisseur Survivable Branch Appliance pour en savoir plus sur le fournisseur de services qui convient le mieux à votre organisation.</p></td>
 </tr>
 <tr class="even">
 <td><p>Hôte entre 1000 et 2000 utilisateurs sur votre site de succursale, absence de connexion WAN fiable et disponibilité des administrateurs Lync Server formés</p></td>
 <td><p>Survivable Branch Server ou deux Survivable Branch Appliances.</p>
 <p>Le Survivable Branch Server est une configuration matérielle requise pour une réunion Windows Server sur lequel le logiciel de serveur d’inscriptions et de médiation Lync Server est installé. Il doit se connecter à une passerelle PSTN ou à une jonction SIP à un fournisseur de services téléphoniques.</p>
-<p>Pour plus d’informations sur les serveurs Survivable &quot;Branch Server, voir Survivable&quot; Branch Server Details, plus loin dans cette rubrique.</p></td>
+<p>Pour plus d’informations sur les serveurs Survivable Branch Server, voir &quot; Survivable Branch Server Details, &quot; plus loin dans cette rubrique.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Si vous avez besoin de fonctionnalités de présence et de conférence en plus des fonctionnalités vocales pour un maximum de 5000 utilisateurs et que des administrateurs Lync Server formés sont disponibles ;</p></td>
@@ -108,7 +110,7 @@ Le Survivable Branch Appliance Lync Server inclut les composants suivants :
 
 Le Survivable Branch Appliance inclut également des jonctions PSTN, des ports analogiques et une carte Ethernet.
 
-Si la connexion WAN du site de succursale à un site central devient indisponible, les utilisateurs de la succursale peuvent continuer à être enregistrés auprès du serveur Survivable Branch appliance et obtenir des services vocaux ininterrompus à l’aide de la connexion Survivable Branch appliance. au réseau téléphonique commuté (RTC). De même, les utilisateurs du site de succursale se connectant de leur domicile ou d’autres emplacements distants pourront s’enregistrer avec un serveur d’inscriptions du site central si la liaison WAN vers le site de succursale est indisponible. Ces utilisateurs disposeront de la fonctionnalité de communication unifiée complète, la seule exception étant que les appels entrants vers le site de succursale seront transmis à la messagerie vocale. Lorsque la connexion WAN redevient disponible, les utilisateurs du site de succursale disposent de nouveau des fonctionnalités complètes de communication. Ni le basculement vers le Survivable Branch Appliance ni la restauration du service ne nécessitent la présence d’un administrateur informatique.
+Si la connexion WAN du site de succursale à un site central devient indisponible, les utilisateurs de la succursale peuvent continuer à être enregistrés auprès du serveur Survivable Branch appliance et obtenir des services vocaux ininterrompus à l’aide de la connexion Survivable Branch Appliance au réseau téléphonique commuté. De même, les utilisateurs du site de succursale se connectant de leur domicile ou d’autres emplacements distants pourront s’enregistrer avec un serveur d’inscriptions du site central si la liaison WAN vers le site de succursale est indisponible. Ces utilisateurs disposeront de la fonctionnalité de communication unifiée complète, la seule exception étant que les appels entrants vers le site de succursale seront transmis à la messagerie vocale. Lorsque la connexion WAN redevient disponible, les utilisateurs du site de succursale disposent de nouveau des fonctionnalités complètes de communication. Ni le basculement vers le Survivable Branch Appliance ni la restauration du service ne nécessitent la présence d’un administrateur informatique.
 
 Lync Server prend en charge jusqu’à deux Survivable Branch appliance sur un site de succursale.
 

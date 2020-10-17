@@ -12,20 +12,22 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c6bb3c7dcd8d03ffb0a57fb165fe1dba4ee933d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512801"
 ---
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planification de la capacité pour le serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planification de la capacité pour le serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42191247"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Le serveur de conversation permanente peut effectuer une conversation en temps réel multi-utilisateur pouvant être conservée pour la récupération et la recherche futures. Contrairement à la messagerie instantanée de groupe enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations est configuré, une session de serveur de conversation permanente reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, fichiers, URL et autres données qui font partie d’un conversation en cours.
+Le serveur de conversation permanente peut effectuer une conversation en temps réel multi-utilisateur pouvant être conservée pour la récupération et la recherche futures. Contrairement à la messagerie instantanée de groupe enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations est configuré, une session de serveur de conversation permanente reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, les fichiers, les URL et d’autres données qui font partie d’une conversation en cours.
 
 La planification de la capacité est un élément important de la préparation du déploiement du serveur de conversation permanente. Cette rubrique fournit des informations sur les topologies de serveur de conversation permanente prises en charge et les tables de planification de la capacité que vous pouvez utiliser pour déterminer la meilleure configuration pour votre déploiement. Il décrit également comment gérer au mieux les déploiements de serveurs de conversation permanente qui nécessitent une plus grande capacité aux heures de pointe.
 
-Pour télécharger le serveur de conversation permanente, voir « Microsoft Lync Server 13 persistent chat [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)Server » à l’adresse.
+Pour télécharger le serveur de conversation permanente, voir « Microsoft Lync Server 13 persistent Chat Server » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539) .
 
 Pour plus d’informations sur l’installation du serveur de conversation permanente, voir [Installing persistent Chat Server in Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) et [Configuring persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) dans la documentation de déploiement.
 
@@ -69,7 +71,7 @@ Nous pouvons également prendre en charge le serveur de conversation permanente 
 
 ## <a name="single-server-topology"></a>Topologie à serveur unique
 
-La configuration minimale et le déploiement le plus simple pour le serveur de conversation permanente est une seule topologie de serveur frontal de serveur de conversation permanente. Ce déploiement nécessite un serveur unique qui exécute le serveur de conversation permanente (qui exécute éventuellement le service de conformité, si la conformité est activée), un serveur qui héberge la base de données SQL Server et, si la conformité est requise, la base de données SQL Server pour stocker le données de conformité.
+La configuration minimale et le déploiement le plus simple pour le serveur de conversation permanente est une seule topologie de serveur frontal de serveur de conversation permanente. Ce déploiement nécessite un serveur unique qui exécute le serveur de conversation permanente (qui exécute éventuellement le service de conformité, si la conformité est activée), un serveur qui héberge la base de données SQL Server et, si la conformité est requise, la base de données SQL Server pour stocker les données de conformité.
 
 <div>
 
@@ -191,7 +193,7 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 <td><p>Salles de conversation</p></td>
 <td><p>32 000</p></td>
 <td><p>1 067</p></td>
-<td><p>10 </p></td>
+<td><p>10 </p></td>
 <td><p>33 077</p></td>
 </tr>
 <tr class="odd">
@@ -212,21 +214,21 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 <td><p>Salles ouvertes (pas d’appartenance explicite)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>Salles non ouvertes (salles standard avec appartenance explicite)</p></td>
 <td><p>31 040</p></td>
 <td><p>1,035</p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>32 080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salles Auditorium (entrée autres présentateurs supplémentaires)</p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -239,7 +241,7 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 <tr class="odd">
 <td><p>Salles gérées par groupes d’utilisateurs</p></td>
 <td><p>50%</p></td>
-<td><p>90%</p></td>
+<td><p>90 %</p></td>
 <td><p>100 %</p></td>
 <td></td>
 </tr>
@@ -260,22 +262,22 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 <tr class="even">
 <td><p>Groupes d’utilisateurs dans la liste d’appartenance de chaque salle de conversation pour les salles non ouvertes</p></td>
 <td><p>3</p></td>
-<td><p>disque</p></td>
-<td><p>10 </p></td>
+<td><p>5 </p></td>
+<td><p>10 </p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>Utilisateurs et groupes d’utilisateurs dans chaque liste de gestionnaires de la salle de conversation (pour les salles ouvertes et non ouvertes)</p></td>
-<td><p>6 </p></td>
-<td><p>6 </p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
+<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Utilisateurs et groupes d’utilisateurs dans la liste présentateurs de la salle de conversation de type Auditorium (pour les salles ouvertes et non ouvertes)</p></td>
-<td><p>6 </p></td>
-<td><p>6 </p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
+<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -316,8 +318,8 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 <tr class="even">
 <td><p>Salles de conversation par utilisateur</p></td>
 <td><p><em>an</em></p></td>
-<td><p><em>n°2</em></p></td>
-<td><p><em>n°2</em></p></td>
+<td><p><em>2</em></p></td>
+<td><p><em>2</em></p></td>
 <td><p><em>Seiz</em></p></td>
 </tr>
 <tr class="odd">
@@ -350,9 +352,9 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 </tr>
 <tr class="odd">
 <td><p>Utilisateurs et groupes d’utilisateurs dans chaque liste de gestionnaires, de présentateurs et d’étendue de la salle de conversation</p></td>
-<td><p>6 </p></td>
-<td><p>6 </p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
+<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -514,8 +516,8 @@ Les exemples de données du tableau suivant supposent que, sur la page des param
 </tr>
 <tr class="odd">
 <td><p>Taux de conversation par utilisateur et par jour</p></td>
-<td><p>15 </p></td>
-<td><p>disque</p></td>
+<td><p>15 </p></td>
+<td><p>5 </p></td>
 <td><p>0,1</p></td>
 <td><p>vingtaine</p></td>
 </tr>
@@ -559,7 +561,7 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 </tr>
 <tr class="even">
 <td><p>Nombre d’instances de service du serveur de conversation permanente</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Taille des petites salles de conversation</p></td>
@@ -587,15 +589,15 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 </tr>
 <tr class="odd">
 <td><p>Nombre de grandes salles de conversation</p></td>
-<td><p>10 </p></td>
+<td><p>10 </p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre total de salles de conversation par utilisateur</p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Nombre total de petites salles de conversation par utilisateur</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre total de moyennes salles de conversation par utilisateur</p></td>
@@ -675,7 +677,7 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 </tr>
 <tr class="odd">
 <td><p>Nombre de changements du statut de présence par heure et par utilisateur</p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de changements du statut de présence par seconde</p></td>

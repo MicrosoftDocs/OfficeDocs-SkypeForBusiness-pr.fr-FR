@@ -12,20 +12,22 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b920f7fd0325c3232abb5670a2da66fc98352d38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 230b731bf7b63a1ce86b5652d9e3d3b2956c94a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512821"
 ---
+# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207380"
 
 _**Dernière modification de la rubrique :** 2013-11-21_
 
-La calculatrice de planification de capacité Microsoft® Lync™ Server 2013 peut être téléchargée à l’adresse <https://www.microsoft.com/download/details.aspx?id=36828>. Elle est conçue pour vous aider à déterminer les exigences de serveur en fonction du nombre d’utilisateurs et de modalités de communication activés au sein de votre organisation. Vous entrez le profil de votre organisation et la calculatrice fournit des recommandations pour vous aider à planifier votre topologie.
+La calculatrice de planification de capacité Microsoft® Lync™ Server 2013 peut être téléchargée à l’adresse <https://www.microsoft.com/download/details.aspx?id=36828> . Elle est conçue pour vous aider à déterminer les exigences de serveur en fonction du nombre d’utilisateurs et de modalités de communication activés au sein de votre organisation. Vous entrez le profil de votre organisation et la calculatrice fournit des recommandations pour vous aider à planifier votre topologie.
 
 Les recommandations créées par la calculatrice sont uniquement destinées à la planification. La simulation de charge réelle est nécessaire pour s’assurer que Lync Server 2013 est correctement configuré. Pour effectuer des tests de contrainte sous une charge simulée, utilisez l' [outil de contrainte et de performances de Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=282724).
 
@@ -73,7 +75,7 @@ Le modèle d’utilisation contient les sections suivantes. Pour calculer vos be
 
   - Pourcentage d’utilisateurs vocaux impliqués dans les appels UC-UC indique le pourcentage d’utilisateurs activés pour voix entreprise qui seront activés uniquement pour les appels UC-UC. Ce nombre est calculé en fonction de ce que vous entrez pour le pourcentage d’utilisateurs vocaux activé pour les appels UC-PSTN.
 
-**Vidéoconférence**
+**Conférence**
 
   - Dans pourcentage d’utilisateurs dans des conférences simultanées, tapez le pourcentage d’utilisateurs qui participeront simultanément à des conférences. La valeur par défaut est 5%.
 

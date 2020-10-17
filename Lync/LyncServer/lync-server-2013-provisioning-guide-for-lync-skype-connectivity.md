@@ -12,20 +12,22 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 073d7c583c6d159e1b262421e441a56c9d081928
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780073"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513161"
 ---
+# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a>Guide de mise en service pour la connectivité Lync-Skype dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a>Guide de mise en service pour la connectivité Lync-Skype dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43780073"
 
 _**Dernière modification de la rubrique :** 2014-11-26_
 
-Lync Server 2013 prend en charge la connectivité avec Skype. Cette connectivité permet à vos utilisateurs de Lync 2013 d’ajouter des contacts Skype à l’aide du compte Microsoft de l’utilisateur Skype (MSA). Les clients Skype peuvent également ajouter des utilisateurs Lync à leur liste de contacts. En fonction des stratégies définies de manière administrative dans Lync Server, les utilisateurs Lync et Skype pourront communiquer à l’aide de la messagerie instantanée, voir la présence de chacun et lancer des appels audio et vidéo. Lync-Skype Connectivity est également une fonctionnalité de Lync Online, qui peut être activée pour les clients Lync Online à partir du centre d’administration Lync dans le centre d’administration 365 de Microsoft.
+Lync Server 2013 prend en charge la connectivité avec Skype. Cette connectivité permet à vos utilisateurs de Lync 2013 d’ajouter des contacts Skype à l’aide du compte Microsoft de l’utilisateur Skype (MSA). Les clients Skype peuvent également ajouter des utilisateurs Lync à leur liste de contacts. En fonction des stratégies définies de manière administrative dans Lync Server, les utilisateurs Lync et Skype pourront communiquer à l’aide de la messagerie instantanée, voir la présence de chacun et lancer des appels audio et vidéo. La connectivité Lync-Skype est également une fonctionnalité de Lync Online, qui peut être activée pour les clients Lync Online à partir du centre d’administration Lync dans le centre d’administration 365 de Microsoft.
 
 <div>
 

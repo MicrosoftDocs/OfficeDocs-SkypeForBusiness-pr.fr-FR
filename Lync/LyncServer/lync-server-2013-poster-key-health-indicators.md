@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513381"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Indicateurs d’intégrité clés dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Indicateurs d’intégrité clés dans Lync Server 2013
+
 
 </div>
 
@@ -105,15 +107,15 @@ Pour chaque serveur de votre implémentation Lync, commencez par vérifier que l
 
 Commencez par collecter les données de performances KHI pour tous les serveurs. Pour chaque rôle système (détails abordés plus loin dans ce document), déterminez si les composants système de base satisfont aux objectifs recommandés. Si ce n’est pas le cas, corrigez les performances du système, puis rerecueillez les données KHI et assurez-vous que le système est en mesure d’examiner les mesures propres au rôle du serveur dans l’implémentation Lync. L’intégrité des composants de tous les rôles est définie comme suit :
 
-  - Utilisation de \< l’UC 80%
+  - Utilisation de l’UC \< 80%
 
   - Moy. disque écriture \< 10 ms
 
   - Moy. disk read \< 10 ms
 
-  - Mémoire \>disponible 20% système total Mo
+  - Mémoire disponible \> 20% système total Mo
 
-  - Longueur \< de la file d’attente réseau 2
+  - Longueur de la file d’attente réseau \< 2
 
   - Paquets ignorés (entrée/sortie) = 0
 
@@ -170,39 +172,39 @@ Outre l’intégrité des composants de base, les cibles KHI recommandées sont 
 <tbody>
 <tr class="odd">
 <td><p>AS/AV/IM MCU</p></td>
-<td><p>État &lt;d’intégrité de la MCU 2</p></td>
+<td><p>État d’intégrité de la MCU &lt; 2</p></td>
 </tr>
 <tr class="even">
 <td><p>Composants Web</p></td>
-<td><p>Délais d’attente de l’extension &lt;de liste de distribution 0</p>
+<td><p>Délais d’attente de l’extension de liste de distribution &lt; 0</p>
 <p>Échecs ABWQ = 0</p>
 <p>Échecs LIS = 0</p>
-<p>Erreurs &lt; d’authentification 1/s</p>
+<p>Erreurs d’authentification &lt; 1/s</p>
 <p>Demandes v4 ASP.NET rejetées = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Pile SIP</p></td>
-<td><p>Traitement &lt; des messages entrants moy.</p>
-<p>Réponses entrantes &lt; supprimées 1/s requêtes &lt; entrantes abandonnées 1/s</p>
-<p>Latence de file &lt; d’attente 100 ms</p>
-<p>Latence de la &lt; sproc 100 ms</p>
+<td><p>Traitement des messages entrants moy. &lt;</p>
+<p>Réponses entrantes supprimées &lt; 1/s requêtes entrantes abandonnées &lt; 1/s</p>
+<p>Latence de file d’attente &lt; 100 ms</p>
+<p>Latence de la sproc &lt; 100 ms</p>
 <p>Demandes limitées = 0</p>
-<p>Erreurs &lt; d’authentification 1/s</p>
+<p>Erreurs d’authentification &lt; 1/s</p>
 <p>Messages entrants expirés &lt; 2</p>
-<p>Durée moyenne de blocage &lt; des messages entrants 1 seconde</p>
-<p>Connexions &lt; avec contrôle de flux 2</p>
-<p>Retard &lt; moy.</p></td>
+<p>Durée moyenne de blocage des messages entrants &lt; 1 seconde</p>
+<p>Connexions avec contrôle de flux &lt; 2</p>
+<p>&lt;Retard moy.</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>% de l’espace utilisé par le service &lt; de stockage DB 80</p>
-<p>#d’échecs de réplication de réplica = 0</p>
-<p>#des événements de perte de données = 0</p></td>
+<td><p>% de l’espace utilisé par le service de stockage DB &lt; 80</p>
+<p># d’échecs de réplication de réplica = 0</p>
+<p># des événements de perte de données = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Durée de vie de &gt; la page 300 s.</p>
-<p>Demandes par lots/ &lt; s 2500</p></td>
+<td><p>Durée de vie de la page &gt; 300 s.</p>
+<p>Demandes par lots/s &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -233,8 +235,8 @@ Outre l’intégrité des composants de base, les cibles KHI recommandées sont 
 <tbody>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Durée de vie de &gt; la page 300 s.</p>
-<p>Demandes par lots/ &lt; s 2500</p></td>
+<td><p>Durée de vie de la page &gt; 300 s.</p>
+<p>Demandes par lots/s &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -266,8 +268,8 @@ Outre l’intégrité des composants de base, les cibles KHI recommandées sont 
 <tr class="odd">
 <td><p>Service de médiation</p></td>
 <td><p>Index d’échec de l’appel de chargement = 0</p>
-<p>Appels ayant échoué en raison &lt;du proxy 10</p>
-<p>Appels ayant échoué en raison &lt;de la passerelle 10</p>
+<p>Appels ayant échoué en raison du proxy &lt; 10</p>
+<p>Appels ayant échoué en raison de la passerelle &lt; 10</p>
 <p>Appels (entrants ou sortants) rejetés = 0</p>
 <p>Candidats multimédias manquants = 0</p>
 <p>Échecs de vérification de la connectivité des médias = 0</p></td>
@@ -301,26 +303,26 @@ Outre l’intégrité des composants de base, les cibles KHI recommandées sont 
 <tbody>
 <tr class="odd">
 <td><p>Authentification AV</p></td>
-<td><p>Demandes &lt; incorrectes 20/s</p></td>
+<td><p>Demandes incorrectes &lt; 20/s</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur Edge AV</p></td>
-<td><p>Échecs &lt;d’authentification 20/s</p>
-<p>Échecs &lt;de répartition 20/s</p>
-<p>Paquets supprimés &lt;300/s</p></td>
+<td><p>Échecs d’authentification &lt; 20/s</p>
+<p>Échecs de répartition &lt; 20/s</p>
+<p>Paquets supprimés &lt; 300/s</p></td>
 </tr>
 <tr class="odd">
 <td><p>Proxy de données</p></td>
-<td><p>Connexions &lt; serveur limitées 3</p>
-<p>Le système est limité &lt;à 1</p></td>
+<td><p>Connexions serveur limitées &lt; 3</p>
+<p>Le système est limité à &lt; 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Pile SIP</p></td>
-<td><p>Connexions au-delà &lt; de la limite ignorée 1</p>
-<p>Envoi expiré &lt;10</p>
-<p>Connexions &lt;contrôlées par flux 100</p>
-<p>Demandes entrantes &lt; abandonnées 1/s</p>
-<p>Traitement &lt; de message moy. 3 s</p></td>
+<td><p>Connexions au-delà de la limite ignorée &lt; 1</p>
+<p>Envoi expiré &lt; 10</p>
+<p>Connexions contrôlées par flux &lt; 100</p>
+<p>Demandes entrantes abandonnées &lt; 1/s</p>
+<p>Traitement de message moy. &lt; 3 s</p></td>
 </tr>
 </tbody>
 </table>

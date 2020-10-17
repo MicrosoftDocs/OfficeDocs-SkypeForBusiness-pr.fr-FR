@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513401"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Ports et protocoles pour les serveurs internes dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Ports et protocoles pour les serveurs internes dans Lync Server 2013
+
 
 </div>
 
@@ -96,21 +98,21 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 </tr>
 <tr class="even">
 <td><p>Serveurs frontaux</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveurs frontaux</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Utilisé par les serveurs Standard Edition Server et les pools frontaux pour toutes les communications SIP internes entre serveurs (MTLS), pour les communications SIP entre serveurs et clients (TLS) et pour les communications SIP entre serveurs frontaux et serveurs de médiation (MTLS). Également utilisé pour les communications avec le serveur de surveillance.</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveurs frontaux</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 </tr>
 <tr class="odd">
 <td><p>Serveurs frontaux</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>135</p></td>
 <td><p>DCOM et appel de procédure distante (RPC)</p></td>
 <td><p>Utilisé pour les opérations DCOM, telles que le déplacement des utilisateurs, la synchronisation du réplicateur d’utilisateurs et la synchronisation du carnet d’adresses.</p></td>
@@ -371,14 +373,14 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 </tr>
 <tr class="odd">
 <td><p>Directeurs</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Utilisé facultativement pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.</p></td>
 </tr>
 <tr class="even">
 <td><p>Directeurs</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -400,20 +402,20 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 </tr>
 <tr class="odd">
 <td><p>Directeurs</p></td>
-<td><p>Service frontal Lync Server</p></td>
+<td><p>Service de Front-End Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>Utilisé pour les communications internes entre serveurs et pour les connexions client.</p></td>
 </tr>
 <tr class="even">
-<td><p>serveurs de médiation</p></td>
+<td><p>Serveurs de médiation</p></td>
 <td><p>Service de médiation Lync Server</p></td>
 <td><p>5070</p></td>
 <td><p>TCP</p></td>
 <td><p>Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal.</p></td>
 </tr>
 <tr class="odd">
-<td><p>serveurs de médiation</p></td>
+<td><p>Serveurs de médiation</p></td>
 <td><p>Service de médiation Lync Server</p></td>
 <td><p>5067</p></td>
 <td><p>TCP (TLS)</p></td>

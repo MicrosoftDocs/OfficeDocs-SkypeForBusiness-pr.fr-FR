@@ -12,20 +12,22 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512781"
 ---
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Résumé des certificats-connectivité de messagerie instantanée publique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Résumé des certificats-connectivité de messagerie instantanée publique dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187407"
 
 _**Dernière modification de la rubrique :** 2013-02-19_
 
-Pour configurer des certificats pour la connectivité de messagerie instantanée publique, vous devez tout d’abord remarquer qu’il n’y a rien de différent des autres types de Fédération SIP ou même des certificats de serveur Edge standard, à la seule différence qu’America Online (AOL) requiert un seul configuration du certificat. En plus de l’utilisation avancée de la clé (EKU) du serveur, America Online nécessite le certificat ou les certificats (dans le cas d’un pool de serveurs Edge) pour contenir également l’utilisation améliorée de la clé client. L’EKU client est un complément du certificat et fait partie du certificat public externe attribué à votre serveur Edge.
+Pour configurer des certificats pour la connectivité de messagerie instantanée publique, vous devez tout d’abord remarquer qu’il n’y a rien de différent des autres types de Fédération SIP ou même des certificats de serveur Edge standard, à la seule différence qu’America Online (AOL) nécessite une configuration de certificat unique. En plus de l’utilisation avancée de la clé (EKU) du serveur, America Online nécessite le certificat ou les certificats (dans le cas d’un pool de serveurs Edge) pour contenir également l’utilisation améliorée de la clé client. L’EKU client est un complément du certificat et fait partie du certificat public externe attribué à votre serveur Edge.
 
 <div>
 
@@ -56,7 +58,7 @@ Pour configurer des certificats pour la connectivité de messagerie instantanée
 <th>Composant</th>
 <th>Nom du sujet</th>
 <th>Autres noms du sujet (SAN)/Ordre</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

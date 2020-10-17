@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : fonctionnalités non prises en charge par le routage géodépendant'
+title: 'Lync Server 2013 : fonctionnalités non prises en charge par le routage des Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 321a48efd056f1f544a02d56e47d44da23951fb9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 40a7d32c0448abfe3552fdfe657b9c6bec960a08
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512861"
 ---
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Fonctionnalités non prises en charge par le routage des Location-Based dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Fonctionnalités non prises en charge par le routage géodépendant dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198477"
 
 _**Dernière modification de la rubrique :** 2014-03-12_
 
-Le routage géodépendant ne s’applique pas aux types d’interactions suivants. Le routage géodépendant n’est pas appliqué lorsque les points de terminaison Lync interagissent avec les points de terminaison RTC à l’aide de ces fonctionnalités.
+Le routage des Location-Based ne s’applique pas aux types d’interactions suivants. Le routage des Location-Based n’est pas appliqué lorsque les points de terminaison Lync interagissent avec les points de terminaison RTC à l’aide de ces fonctionnalités.
 
   - Numérotation RTC pour les conférences
 
@@ -49,7 +51,7 @@ Le routage géodépendant ne s’applique pas aux types d’interactions suivant
 
   - Appels RTC entrants récupérés via la prise d’appel de groupe
 
-Pour appliquer les règles de routage basées sur l’emplacement aux types d’interactions dans la liste suivante, vous devez activer le routage géodépendant pour les conférences :
+Pour appliquer les règles de routage de Location-Based aux types d’interactions répertoriés dans la liste suivante, vous devez activer le routage des Location-Based pour les conférences :
 
   - Numérotation RTC des conférences
 
@@ -57,14 +59,14 @@ Pour appliquer les règles de routage basées sur l’emplacement aux types d’
 
   - Transferts consultatifs impliquant des points de terminaison PSTN
 
-Pour activer le routage géodépendant pour les conférences, voir [routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
+Pour activer le routage des Location-Based pour les conférences, voir [routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Planification du routage géodépendant dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planification du routage des Location-Based dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

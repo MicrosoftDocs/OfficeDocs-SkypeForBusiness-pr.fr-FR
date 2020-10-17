@@ -12,20 +12,22 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3647de7f803a8ec90d50236c5cf14c1a1cf8e0da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208780"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513391"
 ---
+# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Méthodologie de qualité des appels Lync dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Méthodologie de qualité des appels Lync dans Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ La méthodologie de qualité des appels est une nouvelle infrastructure de réso
 
 CQM divise le dépannage du système en trois chemins ou « routes ». Ce sont les suivants : la route de plante serveur, qui examine les serveurs et les liens entre elles, les points de terminaison, qui examinent les appareils et les supports utilisateur utilisés pour transporter des appels, et le dernier kilomètre, qui traite de l’intégration des appels réseau téléphoniques commutés traditionnels.
 
-Chaque route est divisée en plusieurs segments liés à un domaine ou à un sujet spécifique, et chaque définition de segment est définie sur ce qui est un niveau de qualité acceptable, des actions sont entreprises pour atteindre ce niveau de qualité et un plan de gestion des services est mis en place pour maintenir ce niveau de qualité avant de passer à la rubrique suivante.
+Chaque route est divisée en plusieurs segments liés à un domaine ou à un sujet spécifique, et chaque définition de segment est définie sur ce qui est un niveau de qualité acceptable, des actions sont entreprises pour atteindre ce niveau de qualité, et un plan de gestion des services est mis en place pour maintenir ce niveau de qualité avant de passer à la rubrique suivante.
 
 L’affiche présente Lync CQM en tant que jeu de cartes pour trois joueurs, chacun d’eux passant par l’une des routes. Les cartes comprises dans le téléchargement sont utilisées pour simuler des obstacles à la qualité des appels qui doivent être résolus. Les conseils et suggestions concernant les objectifs, ainsi que la façon de les atteindre, sont inclus dans les trois chemins d’accès, ainsi que des instructions de définition des priorités pour lesquelles les routes doivent être abordées dans les applications réelles (dans le jeu, les trois routes sont traitées en parallèle).
 
@@ -103,7 +105,7 @@ Une fois que vous avez choisi une route avec laquelle commencer, définissez une
 
 ## <a name="pcd"></a>PCD
 
-L’outil de diagnostics de préversion (PCD) vous aide à identifier et à diagnostiquer les problèmes dans votre réseau de périmètre (la base de données QoE ne collecte pas d’informations sur votre serveur Edge ou réseau de périmètre), ainsi que la résolution des problèmes de connexion au cours du dernier kilomètre. L’outil est disponible à la fois en tant qu’application moderne Windows 8 ou application de https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88Bureau Windows à l’adresse.
+L’outil de diagnostics de préversion (PCD) vous aide à identifier et à diagnostiquer les problèmes dans votre réseau de périmètre (la base de données QoE ne collecte pas d’informations sur votre serveur Edge ou réseau de périmètre), ainsi que la résolution des problèmes de connexion au cours du dernier kilomètre. L’outil est disponible à la fois en tant qu’application moderne Windows 8 ou application de bureau Windows à l’adresse https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88 .
 
 </div>
 
@@ -129,9 +131,9 @@ Pour améliorer la qualité des communications vocales dans l’espace non gér�
 
 Le segment 1 de la route de la plante serveur adresse les serveurs réels dans l’implémentation Lync. Recueillez des données KHI sur le serveur lui-même et son rôle dans l’implémentation et analysez le résultat. Si l’action est justifiée, corrigez les problèmes détectés. Pour plus d’informations sur cette rubrique, consultez l’article relatif aux [indicateurs d’intégrité clés dans Lync Server 2013](lync-server-2013-poster-key-health-indicators.md) qui accompagne l’affiche Khi.
 
-Le segment suivant résout les flux multimédia entre le serveur MCU AV et le serveur de médiation. Commencez par déterminer vos cibles pour les seuils de flux de flux médiocres. Les flux de mauvaise qualité \> sont généralement PacketLossRate \> . 01 ou PacketLossRateMax. 05. Une autre cible intéressante est \< PoorStreamsRatio 2%. Ensuite, utilisez des requêtes détaillées pour trouver des paires de serveurs AVMCU et de médiation avec des flux médiocres, examiner la cause de flux médiocres, examiner l’équipement réseau dans les chemins de flux médiocres, corriger les flux médiocres et définir la configuration optimale ou « Gold » pour le réseau installations. Pour maintenir votre réalisation, implémentez des processus et des outils permettant de gérer la dérive de la configuration et de signaler de nouveaux problèmes.
+Le segment suivant résout les flux multimédia entre le serveur MCU AV et le serveur de médiation. Commencez par déterminer vos cibles pour les seuils de flux de flux médiocres. Les flux de mauvaise qualité sont généralement PacketLossRate. \> 01 ou PacketLossRateMax \> . 05. Une autre cible intéressante est PoorStreamsRatio \< 2%. Ensuite, utilisez des requêtes détaillées pour trouver des paires de serveurs AVMCU et de médiation avec des flux médiocres, examiner la cause de flux médiocres, examiner l’équipement réseau dans les chemins de flux médiocres, corriger les flux médiocres et définir la configuration optimale ou « Gold » pour l’équipement réseau. Pour maintenir votre réalisation, implémentez des processus et des outils permettant de gérer la dérive de la configuration et de signaler de nouveaux problèmes.
 
-Ensuite, examinez les flux de médias entre le serveur de médiation et la passerelle RTC (réseau téléphonique commuté). Commencez par déterminer vos cibles pour les seuils de flux de flux médiocres. Les flux de mauvaise qualité \> sont généralement PacketLossRate \> . 01 ou PacketLossRateMax. 05. Une autre cible intéressante est \< PoorStreamsRatio 2%. Ensuite, utilisez des requêtes détaillées pour trouver des paires serveur de médiation et passerelle avec des flux médiocres, rechercher la cause de flux médiocres, examiner l’équipement réseau dans les chemins de flux médiocres, corriger les flux médiocres et définir la configuration optimale ou « Gold » pour le réseau installations. Pour maintenir votre réalisation, implémentez des processus et des outils permettant de gérer la dérive de la configuration et de signaler de nouveaux problèmes.
+Ensuite, examinez les flux de médias entre le serveur de médiation et la passerelle RTC (réseau téléphonique commuté). Commencez par déterminer vos cibles pour les seuils de flux de flux médiocres. Les flux de mauvaise qualité sont généralement PacketLossRate. \> 01 ou PacketLossRateMax \> . 05. Une autre cible intéressante est PoorStreamsRatio \< 2%. Ensuite, utilisez des requêtes détaillées pour trouver des paires serveur de médiation et passerelle avec des flux médiocres, examiner la cause de flux médiocres, examiner l’équipement réseau dans les chemins de flux médiocres, corriger les flux médiocres et définir la configuration optimale ou « Gold » pour l’équipement réseau. Pour maintenir votre réalisation, implémentez des processus et des outils permettant de gérer la dérive de la configuration et de signaler de nouveaux problèmes.
 
 Enfin, examinez les mesures d’intégrité de votre passerelle PSTN. Identifiez les statistiques qui affichent l’état de santé et définissez les cibles. Aucun guide spécifique n’est fourni ici, car il est possible d’utiliser plusieurs passerelles. Une fois les cibles établies, corrigez-les si nécessaire pour obtenir la cible ; dans le processus, vous définirez probablement une configuration « Gold » ou optimale pour la passerelle. Pour maintenir votre réalisation, implémentez des processus et des outils permettant de gérer la dérive de la configuration et de signaler de nouveaux problèmes. N’oubliez pas que les mises à jour logicielles et de microprogramme peuvent modifier votre configuration ou vous amener à modifier la définition de la configuration « Gold », donc approchez-vous de ces activités avec précaution.
 
@@ -143,9 +145,9 @@ Enfin, examinez les mesures d’intégrité de votre passerelle PSTN. Identifiez
 
 ## <a name="the-last-mile-road"></a>Route des derniers milles
 
-Parmi les deux façons de se connecter au réseau, les clients câblés doivent fournir la meilleure qualité et correspondre à votre priorité initiale pour les problèmes de dernier kilomètre. Utilisez la requête filaire CQM (LastMile\_0\_filaire) et les données de ratio de flux médiocres qu’elle fournit. Nous vous suggérons de définir \< une cible PoorStreamsRatio 5% \> pour les sites avec 300 flux de test). Pour atteindre vos objectifs, corrigez les sous-réseaux ordonnés de pire à meilleur et implémentez QoS.
+Parmi les deux façons de se connecter au réseau, les clients câblés doivent fournir la meilleure qualité et correspondre à votre priorité initiale pour les problèmes de dernier kilomètre. Utilisez la requête filaire CQM (LastMile \_ 0 \_ filaire) et les données de ratio de flux médiocres qu’elle fournit. Nous vous suggérons de définir un flux cible PoorStreamsRatio \< 5% for sites with \> 300). Pour atteindre vos objectifs, corrigez les sous-réseaux ordonnés de pire à meilleur et implémentez QoS.
 
-Une fois que vous avez optimisé la qualité de vos connexions câblées, l’amélioration de la qualité du réseau sans fil devient plus facile car l’infrastructure sans fil se trouve sur le cœur de chaque emplacement. Des flux de communication sans fil médiocres dans un site de bonne qualité filaire doivent être attribués aux composants sans fil spécifiques. La requête sans fil CQM (\_LastMile\_1 sans fil) fonctionne sur une plage de dates et renverra tous les flux de communication sans fil internes de votre environnement à partir de clients Lync vers ou à partir de serveurs de conférence ou de serveurs de médiation. Nous vous suggérons de définir \< une cible PoorStreamsRatio 5% \> pour les sites avec 300 flux de test). Pour atteindre vos objectifs, corrigez les sous-réseaux ordonnés de pire à meilleur et implémentez QoS.
+Une fois que vous avez optimisé la qualité de vos connexions câblées, l’amélioration de la qualité du réseau sans fil devient plus facile car l’infrastructure sans fil se trouve sur le cœur de chaque emplacement. Des flux de communication sans fil médiocres dans un site de bonne qualité filaire doivent être attribués aux composants sans fil spécifiques. La requête sans fil CQM (LastMile \_ 1 \_ sans fil) fonctionne sur une plage de dates et renverra tous les flux de communication sans fil internes de votre environnement à partir de clients Lync vers ou à partir de serveurs de conférence ou de serveurs de médiation. Nous vous suggérons de définir un flux cible PoorStreamsRatio \< 5% for sites with \> 300). Pour atteindre vos objectifs, corrigez les sous-réseaux ordonnés de pire à meilleur et implémentez QoS.
 
 </div>
 
@@ -155,11 +157,11 @@ Une fois que vous avez optimisé la qualité de vos connexions câblées, l’am
 
 ## <a name="the-end-points-road"></a>Route des points de terminaison
 
-Commencez des demandes de points de terminaison avec les casques et autres appareils connus pour produire une qualité acceptable lorsqu’ils sont utilisés avec Lync. Nous vous suggérons une cible \> AvgSendListen MOS 3,6 pour les implémentations avec plus de 100 flux.) Obtenez la cible en identifiant les périphériques problématiques, puis corrigez-les ou remplacez-les.
+Commencez des demandes de points de terminaison avec les casques et autres appareils connus pour produire une qualité acceptable lorsqu’ils sont utilisés avec Lync. Nous vous suggérons une cible AvgSendListen MOS \> 3,6 pour les implémentations avec plus de 100 flux.) Obtenez la cible en identifiant les périphériques problématiques, puis corrigez-les ou remplacez-les.
 
-Ensuite, examinez le périphérique ou le PC traitant l’audio pour les appels des utilisateurs finaux. Une mesure de qualité cible suggérée est \<un AudioMicGlitchRate = 1. À mesure que vous identifiez les configurations système optimales pour les systèmes utilisateur, définissez une configuration PC « Golden » incluant des versions de pilotes.
+Ensuite, examinez le périphérique ou le PC traitant l’audio pour les appels des utilisateurs finaux. Une mesure de qualité cible suggérée est un AudioMicGlitchRate \< = 1. À mesure que vous identifiez les configurations système optimales pour les systèmes utilisateur, définissez une configuration PC « Golden » incluant des versions de pilotes.
 
-Examinez maintenant le chemin d’accès réseau emprunté par un flux audio à partir d’un système de point de terminaison Lync, ce qui peut entraîner une mauvaise qualité audio. Si l’audio transite via une connexion VPN, vous pouvez voir des problèmes de latence. Si un client Lync interne ne peut pas établir un flux de contenu multimédia direct vers un autre client Lync interne pour un appel d’égal à égal ou deux ou égal à égal, il reviendra à un chemin de relais via un serveur Edge Lync, entraînant de nouveau des problèmes de latence et d’augmentation du potentiel pour perte et instabilité. Nous vous suggérons de définir une mesure de qualité de 0% Media sur VPN. Lors de la correction pour obtenir la cible que vous définissez, identifiez les sous-réseaux présentant un problème et examinez les règles de pare-feu, les modeleurs de paquets et les autres équipements réseau pertinents.
+Examinez maintenant le chemin d’accès réseau emprunté par un flux audio à partir d’un système de point de terminaison Lync, ce qui peut entraîner une mauvaise qualité audio. Si l’audio transite via une connexion VPN, vous pouvez voir des problèmes de latence. Si un client Lync interne ne peut pas établir un flux multimédia direct vers un autre client Lync interne pour un appel à deux ou égal à égal, il fera l’objet d’un relais via un serveur Edge Lync, entraînant à nouveau des problèmes de latence, ainsi qu’une augmentation potentielle de la perte et de la gigue. Nous vous suggérons de définir une mesure de qualité de 0% Media sur VPN. Lors de la correction pour obtenir la cible que vous définissez, identifiez les sous-réseaux présentant un problème et examinez les règles de pare-feu, les modeleurs de paquets et les autres équipements réseau pertinents.
 
 Les paquets IP peuvent utiliser le protocole TCP (Transmission Control Protocol) ou UDP (User Datagram Protocol). Le protocole TCP est optimal pour les flux de données. UDP est sans connexion et est plus efficace pour le trafic multimédia étant donné que les mécanismes de récupération TCP ne peuvent pas traiter les pertes en temps réel. Lync préfère toujours UDP, mais reprendra le protocole TCP s’il n’est pas possible d’établir une session UDP. Les sessions multimédias sur TCP présentent une qualité médiocre par rapport à UDP. Nous recommandons une définition de qualité de connexions 0% sur TCP. Lors de la correction pour obtenir la cible que vous définissez, identifiez les sous-réseaux présentant un problème et examinez les règles de pare-feu, les modeleurs de paquets et les autres équipements réseau pertinents.
 

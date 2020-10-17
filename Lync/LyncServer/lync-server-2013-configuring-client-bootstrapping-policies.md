@@ -12,20 +12,22 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0a917364c31da4a944f41da586b53bc6a59b6ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 826f732f25996a9f8fcbd708f7e76157a5753a01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203150"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512771"
 ---
+# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configuration des stratégies de démarrage client dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configuration des stratégies de démarrage client dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203150"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-La console de gestion des stratégies de groupe et l’éditeur d’objets de stratégie de groupe sont des outils qui vous permettent de gérer la stratégie de groupe. Les modèles d’administration de la stratégie de groupe Office sont Lync 2013. admx (ADMX) et. adml (ADML), qui contiennent les paramètres de stratégie basés sur le registre que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à la langue pour les fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie pour une seule application Office. Pour plus d’informations, reportez-vous à la rubrique « Office 2013 administrative Template Files (ADMX, ADML <https://go.microsoft.com/fwlink/p/?linkid=267516>) » dans la documentation Office 2013 à l’adresse.
+La console de gestion des stratégies de groupe et l’éditeur d’objets de stratégie de groupe sont des outils qui vous permettent de gérer la stratégie de groupe. Les modèles d’administration de la stratégie de groupe Office sont Lync 2013. admx (ADMX) et. adml (ADML), qui contiennent les paramètres de stratégie basés sur le registre que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à la langue pour les fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie pour une seule application Office. Pour plus d’informations, reportez-vous à la rubrique « Office 2013 administrative Template Files (ADMX, ADML) » dans la documentation Office 2013 à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 Pour Lync 2013, plusieurs stratégies de démarrage client doivent être configurées avant que les utilisateurs se connectent au serveur pour la première fois. Par exemple, les serveurs et le mode de sécurité par défaut que le client doit utiliser jusqu’à ce que la connexion soit terminée. Vous pouvez utiliser la stratégie de groupe pour établir ces paramètres dans les registres des ordinateurs des utilisateurs avant qu’ils se connectent et commencent à recevoir des paramètres de mise en service intrabande à partir du serveur. Le tableau suivant répertorie les paramètres de stratégie de groupe disponibles pour Lync 2013.
 
@@ -160,14 +162,14 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
 </tr>
 <tr class="even">
 <td><p>n°2</p></td>
-<td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
-<td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>La boîte de dialogue Lync-options dans Lync 2013</p></td>
 </tr>
 </tbody>

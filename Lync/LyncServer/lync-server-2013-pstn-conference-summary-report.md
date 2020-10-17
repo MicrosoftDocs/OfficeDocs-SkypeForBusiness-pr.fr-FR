@@ -12,20 +12,22 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b531d0e8d7d4fe5de6d1598cf557096ebff8a90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513111"
 ---
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Rapport de synthèse de conférence RTC dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Rapport de synthèse de conférence RTC dans Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Les données retournées se présentent ainsi :
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-Des données semblables à ceci sont alors retournées :
+Les données retournées se présentent ainsi :
 
 </div>
 
@@ -156,9 +158,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tbody>
 <tr class="odd">
 <td><p><strong>Toutes les heures</strong></p>
-<p><strong>Tous les jours</strong></p>
-<p><strong>Toutes les semaines</strong></p>
-<p><strong>Tous les mois</strong></p></td>
+<p><strong>Journalière</strong></p>
+<p><strong>Hebdomadaire</strong></p>
+<p><strong>Mensuelle</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Indique l’intervalle de temps sélectionné. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 7/7/2012, une répartition par jour de l’activité d’enregistrement utilisateur est affichée pour cette date.</p></td>
 </tr>

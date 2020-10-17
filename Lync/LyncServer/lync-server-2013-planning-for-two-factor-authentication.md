@@ -12,20 +12,22 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0738cb282ad2f1f375e89526fcdd1569a6707ad0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513451"
 ---
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planification de l’authentification à deux facteurs dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planification de l’authentification à deux facteurs dans Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ Les clients sont vivement encouragés à déployer l’authentification à deux 
 <tr class="odd">
 <td><p>Service Web</p></td>
 <td><p>WebServer</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Kerberos, NTLM et certificat</p></td>
 </tr>
 <tr class="even">
@@ -106,7 +108,7 @@ Les clients sont vivement encouragés à déployer l’authentification à deux 
 
 ## <a name="lync-service-discovery"></a>Découverte de service Lync
 
-Les enregistrements DNS utilisés par les clients internes et/ou externes pour découvrir Lync services doivent être configurés pour être résolus en Lync Server qui n’est pas activé pour l’authentification à deux facteurs. Avec cette configuration, les utilisateurs des pools Lync qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas tenus d’entrer un code confidentiel à authentifier, tandis que les utilisateurs des pools Lync qui sont activés pour l’authentification à deux facteurs doivent entrer leur code confidentiel pour identifiés.
+Les enregistrements DNS utilisés par les clients internes et/ou externes pour découvrir Lync services doivent être configurés pour être résolus en Lync Server qui n’est pas activé pour l’authentification à deux facteurs. Avec cette configuration, les utilisateurs des pools Lync qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas tenus d’entrer un code confidentiel à authentifier, tandis que les utilisateurs des pools Lync qui sont activés pour l’authentification à deux facteurs doivent entrer leur code confidentiel pour s’authentifier.
 
 </div>
 
@@ -146,7 +148,7 @@ Il existe un certain nombre de considérations relatives au déploiement impliqu
 
 ## <a name="deleting-saved-credentials"></a>Suppression des informations d’identification enregistrées
 
-Les utilisateurs des clients de bureau doivent utiliser l’option de **Suppression de mes informations de connexion** dans le client Lync et supprimer leur dossier de profil\\SIP\\de\\%\\LocalAppData% Microsoft Office 15,0 Lync avant de tenter de signer pour la première fois à l’aide de l’authentification à deux facteurs.
+Les utilisateurs des clients de bureau doivent utiliser l’option de **Suppression de mes informations de connexion** dans le client Lync et supprimer leur dossier de profil SIP de% LocalAppData% \\ Microsoft \\ Office \\ 15,0 \\ Lync avant de tenter de signer pour la première fois à l’aide de l’authentification à deux facteurs.
 
 </div>
 
@@ -160,9 +162,9 @@ Si les utilisateurs sont involontairement invités à fournir des informations d
 
 Pour empêcher l’invite supplémentaire pour les informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
 
-HKEY\_stratégies\_\\logicielles\\de l'\\ordinateur\\\\local\\Microsoft Office 15,0 Lync
+HKEY \_ \_ stratégies logicielles de l’ordinateur local \\ \\ \\ Microsoft \\ Office \\ 15,0 \\ Lync
 
-REG\_DWORD : DisableNTCredentials
+REG \_ DWORD : DisableNTCredentials
 
 Valeur : 0x0
 
@@ -176,9 +178,9 @@ Lorsqu’un utilisateur se connecte à Lync pour la première fois, il est invit
 
 Le paramètre de Registre **SavePassword** doit être désactivé lorsque Lync est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leurs mots de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
 
-HKEY\_Current\_USER\\Software\\Microsoft\\Office\\15,0\\Lync
+HKEY \_ Current \_ User \\ Software \\ Microsoft \\ Office \\ 15,0 \\ Lync
 
-REG\_DWORD : SavePassword
+REG \_ DWORD : SavePassword
 
 Valeur : 0x0
 
@@ -190,9 +192,9 @@ Valeur : 0x0
 
 ## <a name="ad-fs-20-token-replay"></a>Relecture des jetons AD FS 2,0
 
-AD FS 2,0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis rejetées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil WebSSO SAML en s’assurant que le même jeton n’est jamais utilisé plusieurs fois.
+AD FS 2,0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis rejetées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans WS-Federation le profil WebSSO passif et le profil SAML en s’assurant que le même jeton n’est jamais utilisé plusieurs fois.
 
-Cette fonctionnalité doit être activée dans les situations où la sécurité est une préoccupation majeure, par exemple lors de l’utilisation de kiosques. Pour plus d’informations sur la détection de relecture de jetons, voir Best Practices for Secure Planning and [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)Deployment of AD FS 2,0 à l’adresse.
+Cette fonctionnalité doit être activée dans les situations où la sécurité est une préoccupation majeure, par exemple lors de l’utilisation de kiosques. Pour plus d’informations sur la détection de relecture de jetons, voir Best Practices for Secure Planning and Deployment of AD FS 2,0 à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) .
 
 </div>
 

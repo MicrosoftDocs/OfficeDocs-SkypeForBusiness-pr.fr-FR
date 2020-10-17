@@ -12,20 +12,22 @@ ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc20882362de83a83d60be4c2a70a092df2e603b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: efef66bcac833bb67c67dc453c25f3e0f6d51ba1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512851"
 ---
+# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Gestion de la capacité et de la disponibilité dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Gestion de la capacité et de la disponibilité dans Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ L’objectif de la gestion de la capacité et de la gestion de la disponibilité
 
 La gestion de la capacité implique la planification, le dimensionnement et le contrôle de la capacité de service afin de garantir que les niveaux de performances minimaux spécifiés dans votre contrat SLA sont dépassés. La gestion de la capacité permet de garantir que vous pouvez fournir des services informatiques à un coût raisonnable tout en respectant les niveaux de performances définis dans vos accords SLA avec le client. Ces critères peuvent être les suivants :
 
-  - **Temps de réponse du système**   il s’agit du temps mesuré que le système effectue pour effectuer des actions courantes. Les exemples incluent le temps nécessaire au rôle de serveur audio/vidéo pour traiter le trafic audio/vidéo, le temps nécessaire pour qu’un client crée et participe à une conférence, ou le temps nécessaire pour que la présence soit mise à jour dans tous les clients observateurs.
+  - Temps de réponse du **système**     Il s’agit du temps mesuré que le système effectue pour effectuer des actions classiques. Les exemples incluent le temps nécessaire au rôle de serveur audio/vidéo pour traiter le trafic audio/vidéo, le temps nécessaire pour qu’un client crée et participe à une conférence, ou le temps nécessaire pour que la présence soit mise à jour dans tous les clients observateurs.
 
-  - **Capacité de stockage**   il s’agit de la capacité d’un système de stockage, qu’il s’agisse d’une base de données de contenu, d’une unité de sauvegarde ou d’un lecteur local. Par exemple, l’espace de stockage maximal doit être fourni par site et le temps de stockage des sauvegardes avant leur remplacement.
+  - **Capacité**     de stockage Il s’agit de la capacité d’un système de stockage, qu’il s’agisse d’une base de données de contenu, d’une unité de sauvegarde ou d’un lecteur local. Par exemple, l’espace de stockage maximal doit être fourni par site et le temps de stockage des sauvegardes avant leur remplacement.
 
 L’ajustement de la capacité est souvent un cas de s’assurer que suffisamment de ressources physiques sont disponibles, telles que l’espace disque et la bande passante réseau. Le tableau suivant répertorie les résolutions typiques des problèmes liés à la capacité.
 
@@ -83,9 +85,9 @@ La capacité est affectée par la configuration du système et dépend des resso
 
 La gestion de la capacité est le processus qui consiste à maintenir la capacité d’un système dans des limites acceptables et à résoudre les problèmes suivants :
 
-  - **La réaction aux modifications des exigences de**   capacité requises doit être ajustée pour tenir compte des modifications apportées au sein du système ou de l’organisation. Par exemple, si votre environnement décide d’implémenter voix entreprise, le nombre et l’emplacement des serveurs de médiation et des passerelles PSTN (réseau téléphonique commuté) sont très importants. Si vous effectuez une jonction SIP (Session Initiation Protocol) ou SIP direct, la conception globale sera considérablement modifiée afin de fournir les meilleures performances vocales de l’entreprise.
+  - **Réaction aux modifications des exigences**     Les besoins en capacité doivent être ajustés pour tenir compte des modifications apportées au sein du système ou de l’organisation. Par exemple, si votre environnement décide d’implémenter voix entreprise, le nombre et l’emplacement des serveurs de médiation et des passerelles PSTN (réseau téléphonique commuté) sont très importants. Si vous effectuez une jonction SIP (Session Initiation Protocol) ou SIP direct, la conception globale sera considérablement modifiée afin de fournir les meilleures performances vocales de l’entreprise.
 
-  - **Prévision des exigences**   futures certaines exigences en matière de capacité changent de manière prévisible au fil du temps. Le suivi des tendances vous permet de planifier les mises à niveau à l’avance. Par exemple, la bande passante disponible entre les différents sites Lync doit être surveillée pour créer une configuration de référence. Cette configuration de référence vous permettra de prévoir le moment où vous devez ajouter davantage de bande passante à ces liens, car le nombre d’utilisateurs dans ces sites distants augmente avec le temps.
+  - **Prévision des besoins futurs**     Certaines exigences en matière de capacité changent de manière prévisible au fil du temps. Le suivi des tendances vous permet de planifier les mises à niveau à l’avance. Par exemple, la bande passante disponible entre les différents sites Lync doit être surveillée pour créer une configuration de référence. Cette configuration de référence vous permettra de prévoir le moment où vous devez ajouter davantage de bande passante à ces liens, car le nombre d’utilisateurs dans ces sites distants augmente avec le temps.
 
 </div>
 
@@ -99,23 +101,23 @@ Si vous devez fournir des rapports à votre gestion sur la disponibilité des sy
 
 Les mesures liées à la disponibilité sont les suivantes :
 
-  - **Disponibilité**   en règle générale, il s’agit du moment où un système ou un service est accessible par rapport au temps qu’il est inactif. Elle est généralement exprimée sous la forme d’un pourcentage. (Vous pouvez voir les références à « trois neufs » ou à « cinq neuf ». Ces éléments font référence à 99,9% ou 99,999% de disponibilité.)
+  - **Disponibilité**     En règle générale, il s’agit du moment où un système ou un service est accessible par rapport à l’heure à laquelle il est inactif. Elle est généralement exprimée sous la forme d’un pourcentage. (Vous pouvez voir les références à « trois neufs » ou à « cinq neuf ». Ces éléments font référence à 99,9% ou 99,999% de disponibilité.)
 
-  - **Fiabilité**   il s’agit d’une mesure du temps entre les défaillances d’un système et est parfois exprimée en temps moyen (ou en moyenne) entre les défaillances (MTBF).
+  - **Fiabilité**     Il s’agit d’une mesure du temps entre les défaillances d’un système et est parfois exprimée en temps moyen (ou en moyenne) entre les défaillances (MTBF).
 
-  - **Temps de réparation**   il s’agit du temps nécessaire à la récupération d’un service après une panne et souvent exprimé en temps moyen de réparation (MTTR).
+  - **Temps de réparation**     Il s’agit du temps nécessaire pour récupérer un service après une panne et est souvent exprimé en temps moyen de réparation (MTTR).
 
 La disponibilité, la fiabilité et le temps de réparation sont liés comme suit :
 
-**Disponibilité = (MTBF – MTTR)/MTBF**   par exemple, si un serveur tombe en panne deux fois pendant une période de six mois et n’est pas disponible pendant une durée moyenne de 20 minutes, le MTBF est de trois mois ou de 90 jours et le MTTR est de 20 minutes. Par conséquent, la disponibilité = (90 jours – 20 minutes)/90 jours = 99,985%.
+**Disponibilité = (MTBF – MTTR)/MTBF**     Par exemple, si un serveur tombe en panne deux fois pendant une période de six mois et n’est pas disponible pendant une moyenne de 20 minutes, le MTBF est de trois mois ou de 90 jours et le MTTR est de 20 minutes. Par conséquent, la disponibilité = (90 jours – 20 minutes)/90 jours = 99,985%.
 
 La gestion de la disponibilité est le processus qui consiste à s’assurer que la disponibilité est optimisée et conservée dans les paramètres définis dans SLA. La gestion de la disponibilité inclut les processus suivants :
 
-  - **Surveillance**     de l’examen du délai et de la durée de disponibilité des services.
+  - **Surveillance**     Examen du délai et de la durée pendant laquelle les services ne sont pas disponibles.
 
-  - ****   Les chiffres de disponibilité des rapports doivent être régulièrement fournis aux équipes de gestion, des utilisateurs et des opérations. Ces rapports doivent mettre en évidence des tendances et identifier les domaines qui nécessitent une attention particulière. Le rapport doit résumer la conformité aux objectifs définis dans les SLA.
+  - **Création de rapports**     Les chiffres de disponibilité doivent être régulièrement fournis aux équipes de gestion, des utilisateurs et des opérations. Ces rapports doivent mettre en évidence des tendances et identifier les domaines qui nécessitent une attention particulière. Le rapport doit résumer la conformité aux objectifs définis dans les SLA.
 
-  - **Amélioration**   si la disponibilité ne répond pas aux objectifs définis dans les SLA ou lorsque la tendance est de réduire la disponibilité, le processus de gestion de la disponibilité doit planifier les étapes de réparation. Cela doit inclure la collaboration avec d’autres équipes responsables pour mettre en évidence les raisons des pannes et planifier des actions correctives afin d’éviter une réapparition des pannes.
+  - **Amélioration**     Si la disponibilité ne répond pas aux objectifs définis dans les SLA ou lorsque la tendance est à réduire la disponibilité, le processus de gestion de la disponibilité doit planifier les étapes de réparation. Cela doit inclure la collaboration avec d’autres équipes responsables pour mettre en évidence les raisons des pannes et planifier des actions correctives afin d’éviter une réapparition des pannes.
 
 Les mesures de capacité et de disponibilité sont des tâches répétitives qui conviennent parfaitement aux outils et scripts automatisés, tels que Microsoft System Center Operations Manager (anciennement Microsoft Operations Manager), qui est abordé plus loin dans ce document.
 

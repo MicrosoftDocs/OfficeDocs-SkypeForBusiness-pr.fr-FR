@@ -12,20 +12,22 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5db6e8ed2df53acf5c1543569778b29168d0500b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7651e3da61e5ca197d36ca59ad8216af4c0188af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511981"
 ---
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Demander et configurer un certificat pour votre proxy HTTP inverse dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Demander et configurer un certificat pour votre proxy HTTP inverse dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183197"
 
 _**Dernière modification de la rubrique :** 2014-02-14_
 
-Vous devez installer le certificat de l’autorité de certification (CA) racine sur le serveur exécutant Microsoft Forefront Threat Management Gateway 2010 ou IIS ARR pour l’infrastructure de l’autorité de certification qui a émis les certificats de serveur sur les serveurs internes exécutant Microsoft Lync. Serveur 2013.
+Vous devez installer le certificat de l’autorité de certification (CA) racine sur le serveur exécutant Microsoft Forefront Threat Management Gateway 2010 ou IIS ARR pour l’infrastructure de l’autorité de certification qui a émis les certificats de serveur sur les serveurs internes exécutant Microsoft Lync Server 2013.
 
 Vous devez également installer un certificat de serveur web public sur votre serveur proxy inverse. Les autres noms de sujet de ce certificat doivent contenir les noms de domaine complets externes publiés de chaque pool hébergeant les utilisateurs activés pour l’accès à distance, ainsi que les noms de domaine complets externes de tous les directeurs ou pools directeurs qui seront utilisés dans cette infrastructure Edge. L’autre nom de sujet doit aussi contenir l’URL simple de réunion, l’URL simple de conférence rendez-vous et, si vous déployez des applications mobiles et prévoyez d’utiliser la découverte automatique, l’URL du service de découverte automatique externe, comme indiqué dans le tableau suivant.
 
@@ -146,7 +148,7 @@ Vous créez une demande de certificat sur le proxy inverse. Vous créez une dema
 
 
 > [!TIP]
-> Si vous planifiez les certificats de votre serveur Edge et vos certificats de proxy inverse en même temps, vous devez remarquer qu’il existe beaucoup de similitudes entre les deux exigences de certificat. Lorsque vous configurez et demandez votre certificat de serveur Edge, combinez le serveur Edge et les autres noms de sujet de proxy inverse. Vous pouvez utiliser le même certificat pour votre proxy inverse si vous exportez le certificat et la clé privée, puis copiez le fichier exporté vers le proxy inverse, puis importez le certificat/la paire de clés et attribuez-le selon vos besoins dans les procédures à venir. Reportez-vous à la rubrique Certificate Requirements for the Edge Server&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">plan for Edge Server Certificates in Lync Server 2013</A> et The inversion proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Certificate Summary-Reverse Proxy in Lync Server 2013</A>. Veillez à créer le certificat avec une clé privée exportable. La création du certificat et de la demande de certificat avec une clé privée exportable est requise pour les serveurs Edge regroupés, c’est une pratique normale et l’Assistant certificat de l’Assistant Déploiement de Lync Server pour le serveur Edge vous permet de définir l’indicateur <STRONG>Make Private Key exportable</STRONG> . Une fois que vous avez reçu la demande de certificat de l’autorité de certification publique, vous exportez le certificat et la clé privée. Reportez-vous à la section « pour exporter le certificat avec la clé privée pour les serveurs Edge dans un pool » dans la rubrique <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">set up Certificates for the external Edge interface for Lync Server 2013</A> pour plus d’informations sur la procédure de création et d’exportation de votre certificat avec une clé privée. L’extension du certificat doit être de type <STRONG>. pfx</STRONG>.
+> Si vous planifiez les certificats de votre serveur Edge et vos certificats de proxy inverse en même temps, vous devez remarquer qu’il existe beaucoup de similitudes entre les deux exigences de certificat. Lorsque vous configurez et demandez votre certificat de serveur Edge, combinez le serveur Edge et les autres noms de sujet de proxy inverse. Vous pouvez utiliser le même certificat pour votre proxy inverse si vous exportez le certificat et la clé privée, puis copiez le fichier exporté vers le proxy inverse, puis importez le certificat/la paire de clés et attribuez-le selon vos besoins dans les procédures à venir. Reportez-vous à la rubrique Certificate Requirements for the Edge Server &nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">plan for Edge Server Certificates in lync Server 2013</A> et The inversion proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Certificate Summary-Reverse proxy in Lync Server 2013</A>. Veillez à créer le certificat avec une clé privée exportable. La création du certificat et de la demande de certificat avec une clé privée exportable est requise pour les serveurs Edge regroupés, c’est une pratique normale et l’Assistant certificat de l’Assistant Déploiement de Lync Server pour le serveur Edge vous permet de définir l’indicateur <STRONG>Make Private Key exportable</STRONG> . Une fois que vous avez reçu la demande de certificat de l’autorité de certification publique, vous exportez le certificat et la clé privée. Reportez-vous à la section « pour exporter le certificat avec la clé privée pour les serveurs Edge dans un pool » dans la rubrique <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">set up Certificates for the external Edge interface for Lync Server 2013</A> pour plus d’informations sur la procédure de création et d’exportation de votre certificat avec une clé privée. L’extension du certificat doit être de type <STRONG>. pfx</STRONG>.
 
 
 
@@ -156,7 +158,7 @@ Pour générer une demande de signature de certificat sur l’ordinateur sur leq
 
 **Création d’une demande de signature de certificat**
 
-1.  Ouvrez la console MMC (Microsoft Management Console) et ajoutez le composant logiciel enfichable Certificats, sélectionnez **ordinateurs**, puis développez **personnel**. Pour plus d’informations sur la création d’une console certificats dans la console MMC (Microsoft Management Console [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)), reportez-vous à la rubrique.
+1.  Ouvrez la console MMC (Microsoft Management Console) et ajoutez le composant logiciel enfichable Certificats, sélectionnez **ordinateurs**, puis développez **personnel**. Pour plus d’informations sur la création d’une console certificats dans la console MMC (Microsoft Management Console), reportez-vous à la rubrique [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616) .
 
 2.  Cliquez avec le bouton droit sur **certificats**, cliquez sur **toutes les tâches**, puis sur **opérations avancées**, cliquez sur **créer une demande personnalisée**.
 
@@ -164,7 +166,7 @@ Pour générer une demande de signature de certificat sur l’ordinateur sur leq
 
 4.  Dans la page **Sélectionner une stratégie d’enregistrement de certificat** sous **demande personnalisée**, sélectionnez **continuer sans la stratégie d’enregistrement**. Cliquez sur **Suivant**.
 
-5.  Sur la page **demande personnalisée** , pour la clé héritée de sélection de **modèle** **(aucun modèle)**. Sauf indication contraire de votre fournisseur de certificats, laissez la case à cocher **Supprimer les extensions par défaut** désactivée et la sélection **format de demande** sur ** \#PKCS 10**. Cliquez sur **Suivant**.
+5.  Sur la page **demande personnalisée** , pour la clé héritée de sélection de **modèle** **(aucun modèle)**. Sauf indication contraire de votre fournisseur de certificats, laissez la case à cocher **Supprimer les extensions par défaut** désactivée et la sélection **format de demande** sur **PKCS \# 10**. Cliquez sur **Suivant**.
 
 6.  Sur la page informations sur le **certificat** , cliquez sur **Détails**, puis sur **Propriétés**.
 
@@ -180,7 +182,7 @@ Pour générer une demande de signature de certificat sur l’ordinateur sur leq
 
 12. Cliquez sur la flèche utilisation de la **clé étendue (stratégies d’application)** pour afficher les **options disponibles**. Sous options disponibles, cliquez sur **authentification serveur**, puis sur **Ajouter**. Cliquez sur **authentification client**, puis sur **Ajouter**. Si la case à cocher **activer les utilisations de la clé étendue critique** est activée, désélectionnez la case à cocher. Contrairement à la case à cocher utilisation de la clé (qui doit être vérifiée), vous devez vous assurer que la case à cocher utilisation étendue de la clé n’est pas activée.
 
-13. Sur la page **Propriétés du certificat** , cliquez sur l’onglet **clé privée** . **** Pour **taille**de la clé, sélectionnez **2048** dans la liste déroulante. Si vous générez ce couple de clés et CSR sur un ordinateur autre que le proxy inverse auquel ce certificat est destiné, sélectionnez **définir la clé privée exportable**.
+13. Sur la page **Propriétés du certificat** , cliquez sur l’onglet **clé privée** . Cliquez sur la flèche **touches options** . Pour **taille**de la clé, sélectionnez **2048** dans la liste déroulante. Si vous générez ce couple de clés et CSR sur un ordinateur autre que le proxy inverse auquel ce certificat est destiné, sélectionnez **définir la clé privée exportable**.
     
     <div>
     

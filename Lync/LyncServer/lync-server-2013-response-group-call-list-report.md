@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511761"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Rapport de liste d’appels Response Group dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Rapport de liste d’appels Response Group dans Lync Server 2013
+
 
 </div>
 
@@ -87,7 +89,7 @@ Si vous souhaitez obtenir la réponse à une question telle que « Quel est le 
 
 3.  Exécutez vos analyses à l’aide de Windows PowerShell.
 
-Par exemple, si vous avez enregistré les données dans un fichier nommé C :\\Data\\Response\_Group\_Call\_List\_Report. csv, vous pouvez utiliser la commande suivante pour renvoyer le nombre total d’appels reçus pour chaque flux de travail répertorié dans le rapport :
+Par exemple, si vous avez enregistré les données dans un fichier nommé C : \\ données \\ Response \_ Group \_ Call \_ List \_Report.csv, vous pouvez utiliser la commande suivante pour renvoyer le nombre total d’appels reçus pour chaque flux de travail répertorié dans le rapport :
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
