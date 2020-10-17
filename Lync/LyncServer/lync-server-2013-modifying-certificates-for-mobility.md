@@ -12,20 +12,22 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64676494916bf2c2bd71399bbdd04642da50cee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b10ea662d055812b9fccaa730a936033aaea077c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515161"
 ---
+# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Modification des certificats pour la mobilité dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Modification des certificats pour la mobilité dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217300"
 
 _**Dernière modification de la rubrique :** 2014-06-20_
 
-Pour prendre en charge les connexions sécurisées entre votre environnement Lync et vos clients mobiles, les certificats SSL (Secure Socket Layer) de votre pool Directeur, votre pool frontal et votre proxy inverse doivent être mis à jour avec un autre nom de sujet supplémentaire ( Entrées SAN). Pour plus d’informations sur les exigences de certificat pour la mobilité, voir la section relative aux exigences de certificat dans la rubrique [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), mais vous devez essentiellement obtenir de nouveaux certificats auprès de l’autorité de certification avec les entrées San supplémentaires incluses, puis ajouter ces certificats en suivant les étapes de cet article.
+Pour prendre en charge les connexions sécurisées entre votre environnement Lync et vos clients mobiles, les certificats SSL (Secure Socket Layer) de votre pool de directeurs, de votre pool frontal et de votre proxy inverse doivent être mis à jour avec certaines entrées de SAN (autre nom de sujet) supplémentaires. Pour plus d’informations sur les exigences de certificat pour la mobilité, voir la section relative aux exigences de certificat dans la rubrique [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), mais vous devez essentiellement obtenir de nouveaux certificats auprès de l’autorité de certification avec les entrées San supplémentaires incluses, puis ajouter ces certificats en suivant les étapes de cet article.
 
 Bien entendu avant de commencer, il est généralement judicieux de savoir quels sont les autres noms de sujet que vos certificats possèdent déjà. Si vous n’êtes pas sûr de ce qui a déjà été configuré, il existe de nombreuses façons de le découvrir. Alors que l’option permet d’exécuter les commandes **Get-CsCertificate** et d’autres commandes PowerShell pour afficher ces informations, (ce qui est décrit ci-dessous) par défaut, les données sont tronquées, de sorte que vous ne pouvez pas voir toutes les propriétés dont vous avez besoin. Pour obtenir un bon aperçu du certificat et de toutes ses propriétés, vous pouvez accéder à la console MMC (Microsoft Management Console) et charger le composant logiciel enfichable Certificats (que nous allons également suivre ci-dessous), ou vous pouvez simplement vérifier l’Assistant Déploiement de Lync Server.
 
@@ -95,7 +97,7 @@ Pour en savoir plus, il est possible que vous disposiez d’un seul certificat p
     
       - Noms externes des services Web et des services Web (par exemple, webpool01.contoso.net, webpool01.contoso.com), en fonction des choix effectués dans le générateur de topologie et des sélections de services Web remplacés.
     
-      - S’il est déjà attribué, le lyncdiscover. \<sipdomain\> et lyncdiscoverinternal. \<enregistrements\> sipdomain.
+      - S’il est déjà attribué, le lyncdiscover.\<sipdomain\> et lyncdiscoverinternal.\<sipdomain\> présents.
     
     Le dernier élément est celui qui intéresse le plus, s’il existe une entrée SAN lyncdiscover et lyncdiscoverinternal.
     
@@ -147,7 +149,7 @@ Pour en savoir plus, il est possible que vous disposiez d’un seul certificat p
     
 
     > [!NOTE]  
-    > Pour noter, les étapes 12 et 13 doivent être exécutées uniquement si le compte qui les exécute a accès à l’autorité de certification avec les autorisations appropriées. Si vous ne parvenez pas à vous connecter avec un compte qui dispose de ces autorisations, ou si vous utilisez une autorité de certification publique ou distante pour vos certificats, vous devez les demander par le biais de l’Assistant Déploiement Lync Server, qui a été touché en haut de la -.
+    > Pour noter, les étapes 12 et 13 doivent être exécutées uniquement si le compte qui les exécute a accès à l’autorité de certification avec les autorisations appropriées. Si vous ne parvenez pas à vous connecter avec un compte qui dispose de ces autorisations, ou si vous utilisez une autorité de certification publique ou distante pour vos certificats, vous devez les demander via l’Assistant Déploiement Lync Server, qui a été touché en haut de l’article.
 
     
     </div>

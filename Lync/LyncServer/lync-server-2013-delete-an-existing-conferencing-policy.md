@@ -12,20 +12,22 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 679d88a1d359ea9590262d78e49ab8fa7fbc3906
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29d8801c8ee58a65a60495789fdca66d16ce0c66
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514621"
 ---
+# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a>Supprimer une stratégie de conférence existante dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a>Supprimer une stratégie de conférence existante dans Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Suivez cette procédure pour supprimer une stratégie de conférence au niveau d
 
 ## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Suppression des stratégies de conférence à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer des stratégies de conférence à l’aide de Lync Server Management Shell et de la cmdlet **Remove-CsConferencingPolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez supprimer des stratégies de conférence à l’aide de Lync Server Management Shell et de la cmdlet **Remove-CsConferencingPolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

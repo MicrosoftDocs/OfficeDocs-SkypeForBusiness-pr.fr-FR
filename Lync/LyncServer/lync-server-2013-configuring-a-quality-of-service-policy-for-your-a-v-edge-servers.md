@@ -12,20 +12,22 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30fece45c4b13bd9cd2c9243dd21cdac1d779733
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69b9beb119ebd7189c31f9e239ac45409758ba00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515691"
 ---
+# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Configuration d’une stratégie de qualité de service pour vos serveurs Edge A/V dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Configuration d’une stratégie de qualité de service pour vos serveurs Edge A/V dans Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Si vous créez des stratégies basées sur Active Directory, vous devez ouvrir u
 
 5.  Page quatre, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionnez le protocole auquel s’applique cette stratégie de QoS**. Le protocole TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus couramment utilisés par Lync Server et ses applications clientes.
 
-6.  Sous le titre **Spécifiez le numéro de port de destination**, sélectionnez **à partir de ce port ou cette plage de destination**. Dans la zone de texte correspondante, tapez la plage de ports réservée pour les transmissions audio. Par exemple, si vous avez réservé les ports 49152 via les ports 57500 pour le trafic audio, entrez ensuite la plage de ports au format suivant : **49152:57500**. Cliquez sur**Terminer**.
+6.  Sous le titre **Spécifiez le numéro de port de destination**, sélectionnez **à partir de ce port ou cette plage de destination**. Dans la zone de texte correspondante, tapez la plage de ports réservée pour les transmissions audio. Par exemple, si vous avez réservé les ports 49152 via les ports 57500 pour le trafic audio, entrez ensuite la plage de ports au format suivant : **49152:57500**. Cliquez sur **Terminer**.
 
 Une fois que vous avez créé la stratégie de QoS pour le trafic audio, vous devez créer une deuxième stratégie pour le trafic vidéo. Pour créer une stratégie pour la vidéo, suivez la procédure indiquée pour l’audio, et remplacez les éléments suivants :
 
@@ -89,7 +91,7 @@ Les nouvelles stratégies que vous avez créées ne prendront effet qu’après 
 
     Gpudate.exe /force
 
-Cette commande peut être exécutée à partir de Lync Server ou de n’importe quelle fenêtre de commande exécutée sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur Edge même après avoir exécuté gpudate. exe.
+Cette commande peut être exécutée à partir de Lync Server ou de n’importe quelle fenêtre de commande exécutée sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur Edge même après avoir exécuté Gpudate.exe.
 
 Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP appropriée, vous devez également créer une entrée de Registre sur chaque ordinateur. Pour cela, procédez comme suit :
 
@@ -97,7 +99,7 @@ Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP
 
 2.  Dans la boîte de dialogue **Exécuter**, tapez **regedit**, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez **HKEY\_local\_machine**, **System**, **CurrentControlSet**, **services**, puis **tcpip**.
+3.  Dans l’éditeur du Registre, développez **HKEY \_ local \_ machine**, **System**, **CurrentControlSet**, **services**, puis **tcpip**.
 
 4.  Cliquez avec le bouton droit sur **Tcpip**, pointez sur **Nouveau**, puis cliquez sur **Clé**. Une fois la clé de Registre créée, tapez **QoS**, puis appuyez sur Entrée pour renommer la clé.
 

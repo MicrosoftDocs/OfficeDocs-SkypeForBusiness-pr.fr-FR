@@ -12,20 +12,22 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca9fd0b05eba812730c926685fedb244d60a29e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fbcd509d0abd05c12bd3443fe35fdd8c3f8a8885
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513971"
 ---
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Liste des tables des enregistrements des détails des appels dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Liste des tables des enregistrements des détails des appels dans Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Le schéma de base de données de l’enregistrement des détails des appels com
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-deregistertype-table.md">Table DeRegisterType dans Lync Server 2013</a></p></td>
-<td><p>Stocke la liste des raisons possibles de l’annulation de l’inscription &quot;d’un utilisateur&quot; &quot;, telles que&quot; &quot;initiée par&quot; le client, l’expiration de l’inscription, le blocage du client et bien plus encore.</p></td>
+<td><p>Stocke la liste des raisons possibles de l’annulation de l’inscription d’un utilisateur, telles que &quot; initiée par le client, &quot; &quot; l’expiration de l’inscription, le &quot; &quot; blocage du client &quot; et bien plus encore.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialist-table.md">Table médial dans Lync Server 2013</a></p></td>

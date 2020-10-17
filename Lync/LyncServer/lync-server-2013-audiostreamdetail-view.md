@@ -12,20 +12,22 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe995d08bf334308603512b4812b02c672d400f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a9abfbc214e72cf059250910ecec4ad3bcdba33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515781"
 ---
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Vue AudioStreamDetail dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Vue AudioStreamDetail dans Lync Server 2013
+
 
 </div>
 
@@ -557,7 +559,7 @@ L’affichage AudioStreamDetail stocke les informations relatives à chaque flux
 </tr>
 <tr class="odd">
 <td><p>CallerInitialSignalLevelRMS</p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td><p>Valeur quadratique moyenne du signal entant pour l’appelant au cours des 30 premières secondes au maximum de l’appel.</p></td>
 </tr>
 <tr class="even">
@@ -652,7 +654,7 @@ L’affichage AudioStreamDetail stocke les informations relatives à chaque flux
 </tr>
 <tr class="even">
 <td><p>CalleeInitialSignalLevelRMS</p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td><p>Valeur quadratique moyenne du signal entant pour l’appelé au cours des 30 premières secondes au maximum de l’appel.</p></td>
 </tr>
 <tr class="odd">

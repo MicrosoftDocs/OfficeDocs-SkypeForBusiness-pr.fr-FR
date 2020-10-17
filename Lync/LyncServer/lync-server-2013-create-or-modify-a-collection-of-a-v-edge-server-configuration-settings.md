@@ -12,20 +12,22 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2890dd69b8b5fdff58ed2b047b642456657eb0d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ec601a9c51e1b8d5785e91bae1f1f82c13bf245
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514771"
 ---
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Créer ou modifier une collection de paramètres de configuration de serveur Edge A/V dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Créer ou modifier une collection de paramètres de configuration de serveur Edge A/V dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-11-01_
 
 Le service Edge A/V permet à vos utilisateurs internes (les utilisateurs connectés au réseau de votre organisation) de partager des fichiers audio et vidéo avec des utilisateurs externes (des utilisateurs qui ne sont pas connectés au réseau de votre organisation). La gestion du service Edge A/V s’effectue à l’aide des paramètres de configuration de ce service. Les paramètres peuvent être configurés au niveau du site ou du service (c’est-à-dire pour un serveur Edge A/V).
 
-Lorsque vous installez Lync Server, une collection globale de paramètres de configuration Edge A/V est créée pour vous. En outre, vous pouvez utiliser Windows PowerShell et la cmdlet New-CsAVEdgeConfiguration pour créer de nouveaux paramètres au niveau de l’étendue site ou de l’étendue service (c’est-à-dire, pour un serveur Edge A/V individuel). Si vous créez des paramètres, gardez à l’esprit les aspects suivants :
+Lorsque vous installez Lync Server, une collection globale de paramètres de configuration Edge A/V est créée pour vous. En outre, vous pouvez utiliser les applets de commande Windows PowerShell et New-CsAVEdgeConfiguration pour créer des paramètres au niveau de l’étendue site ou de l’étendue service (c’est-à-dire, pour un serveur Edge A/V individuel). Si vous créez des paramètres, gardez à l’esprit les aspects suivants :
 
   - Les paramètres configurés au niveau du service (c’est-à-dire sur un serveur) prévalent sur tous les autres paramètres.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213450"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514507"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Conditions préalables et autorisations pour la configuration de la Conférence rendez-vous dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Conditions préalables et autorisations pour la configuration de la Conférence rendez-vous dans Lync Server 2013
+
 
 </div>
 
@@ -119,11 +121,11 @@ Ces outils permettent de configurer les paramètres de conférence rendez-vous a
 
 La configuration de la conférence rendez-vous nécessite l’un des rôles administratifs suivants, selon la tâche :
 
-  - **CsVoiceAdministrator**   ce rôle d’administrateur peut créer, configurer et gérer les stratégies et les paramètres liés à la voix.
+  - **CsVoiceAdministrator**     Ce rôle d’administrateur permet de créer, configurer et gérer les stratégies et les paramètres liés à la voix.
 
-  - **CsUserAdministrator**   ce rôle d’administrateur permet d’activer et de désactiver des utilisateurs pour Lync Server et d’affecter des stratégies existantes, telles que des stratégies de conférence et des stratégies de code confidentiel, aux utilisateurs.
+  - **CsUserAdministrator**     Ce rôle d’administrateur permet d’activer et de désactiver des utilisateurs pour Lync Server et d’affecter des stratégies existantes, telles que des stratégies de conférence et des stratégies de code confidentiel, aux utilisateurs.
 
-  - **CsAdministrator**   ce rôle d’administrateur peut effectuer toutes les tâches de CsVoiceAdministrator et de CsUserAdministrator.
+  - **CsAdministrator**     Ce rôle d’administrateur peut effectuer toutes les tâches de CsVoiceAdministrator et de CsUserAdministrator.
 
 </div>
 

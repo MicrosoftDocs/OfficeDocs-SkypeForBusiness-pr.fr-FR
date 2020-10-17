@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513881"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Liste des tables de serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Liste des tables de serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Le schéma de la base de données de conversation permanente se compose des tabl
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">tblADUpdates dans Lync Server 2013</a></p></td>
-<td><p>Contient les modifications apportées aux services de domaine Active Directory qui n’ont pas encore été traitées par les dernières étapes de synchronisation Active Directory et est l’une des tables temporaires (avec la table tblPrincipalMemberDifference) qui est utilisée dans la première étape d’Active Directory Synchroni.</p>
+<td><p>Contient les modifications apportées aux services de domaine Active Directory qui n’ont pas encore été traitées par les dernières étapes de synchronisation Active Directory et est l’une des tables temporaires (avec la table tblPrincipalMemberDifference) qui est utilisée lors de la première étape de la synchronisation Active Directory.</p>
 <p>Les modifications apportées à Active Directory sont stockées, traitées ou les deux uniquement pour les principaux qui sont déjà répertoriés dans le tableau tblPrincipal.</p></td>
 </tr>
 <tr class="even">
@@ -143,11 +145,11 @@ Le schéma de la base de données de conversation permanente se compose des tabl
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute dans Lync Server 2013</a></p></td>
-<td><p>Contient uniquement les attributs &quot;de&quot; visibilité &quot;et&quot; de comportement codés en dur utilisés dans la table tblNode.</p></td>
+<td><p>Contient uniquement les &quot; attributs de visibilité et de comportement codés en dur &quot; &quot; &quot; utilisés dans la table tblNode.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">tblEnumValue dans Lync Server 2013</a></p></td>
-<td><p>Contient les valeurs des attributs de &quot;comportement&quot; « et » de visibilité codés en dur utilisés dans la table tblNode.</p></td>
+<td><p>Contient les valeurs des attributs de &quot; comportement « et » de visibilité codés &quot; en dur utilisés dans la table tblNode.</p></td>
 </tr>
 </tbody>
 </table>

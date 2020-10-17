@@ -12,20 +12,22 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8400c6bbcf0cfc7d69bcba9dbebab07d14b5e0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514801"
 ---
+# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Créer ou modifier la configuration d’un partenaire XMPP dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Créer ou modifier la configuration d’un partenaire XMPP dans Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Microsoft Lync Server 2013 intègre un proxy XMPP (extensible Messaging and Pres
     
     Reportez-vous au document XSF XEP-0178 pour plus d’informations sur les exigences XMPP. Pour plus d’informations, reportez-vous à la rubrique « XEP-0178 : meilleures pratiques pour l’utilisation d’SASL avec des certificats ». <http://xmpp.org/extensions/xep-0178.html>
     
-    Reportez-vous au document IETF « extensible Messaging and Presence Protocol (XMPP) : Core », section <https://tools.ietf.org/html/rfc6120>5,0, négociation STARTTLS.
+    Reportez-vous au document IETF « extensible Messaging and Presence Protocol (XMPP) : Core », section 5,0, négociation STARTTLS <https://tools.ietf.org/html/rfc6120> .
     
       - **Négociation TLS**. Définit les règles de négociation TLS. Un service XMPP peut nécessiter TLS, peut rendre TLS facultatif ou vous pouvez décider de ne pas prendre en charge TLS. Si vous choisissez Facultatif, le service XMPP est responsable de la décision sur la négociation obligatoire. Pour afficher tous les paramètres et détails possibles pour la négociation SASL, TLS et rappel, y compris les configurations d’erreur connues et non valides-voir [paramètres de négociation pour les partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
@@ -108,7 +110,7 @@ Microsoft Lync Server 2013 intègre un proxy XMPP (extensible Messaging and Pres
           - <span></span>  
             **Non pris en charge**. Le service XMPP ne prend pas en charge SASL.
     
-      - **Négociation rappel**. La négociation rappel est définie par le fichier XSF dans le document **XEP-220 : Server rappel** <http://xmpp.org/extensions/xep-0220.html>. Le processus serveur rappel utilise le système DNS (Domain Name System) et un serveur faisant autorité pour vérifier que la demande provenait d’un partenaire XMPP valide. Pour ce faire, le serveur d’origine crée un message d’un type spécifique avec une clé rappel générée et recherche le serveur de réception dans le système DNS. Le serveur d’origine envoie la clé dans un flux XML à la recherche DNS résultante, vraisemblablement le serveur de réception. Lors de la réception de la clé sur le flux XML, le serveur de réception ne répond pas au serveur d’origine, mais envoie la clé à un serveur faisant autorité connu. Le serveur faisant autorité vérifie que la clé est valide ou non valide. S’il n’est pas valide, le serveur de réception ne répond pas au serveur d’origine. Si la clé est valide, le serveur de réception informe le serveur d’origine que l’identité et la clé sont valides et que la conversation peut commencer.
+      - **Négociation rappel**. La négociation rappel est définie par le fichier XSF dans le document **XEP-220 : Server rappel** <http://xmpp.org/extensions/xep-0220.html> . Le processus serveur rappel utilise le système DNS (Domain Name System) et un serveur faisant autorité pour vérifier que la demande provenait d’un partenaire XMPP valide. Pour ce faire, le serveur d’origine crée un message d’un type spécifique avec une clé rappel générée et recherche le serveur de réception dans le système DNS. Le serveur d’origine envoie la clé dans un flux XML à la recherche DNS résultante, vraisemblablement le serveur de réception. Lors de la réception de la clé sur le flux XML, le serveur de réception ne répond pas au serveur d’origine, mais envoie la clé à un serveur faisant autorité connu. Le serveur faisant autorité vérifie que la clé est valide ou non valide. S’il n’est pas valide, le serveur de réception ne répond pas au serveur d’origine. Si la clé est valide, le serveur de réception informe le serveur d’origine que l’identité et la clé sont valides et que la conversation peut commencer.
         
         Il existe deux états valides pour la **négociation de rappel** :
         

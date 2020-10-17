@@ -12,20 +12,22 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692cfd5f04a80a674fffb5e3a0f2f1890309c371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1eaaebf1fb695bc1ee6ea1b86f980a666cf0a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515531"
 ---
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>Résumé des enregistrements DNS-directeur unique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>Résumé des enregistrements DNS-directeur unique dans Lync Server 2013
+
 
 </div>
 
@@ -60,31 +62,31 @@ Le tableau suivant contient un résumé des enregistrements DNS requis pour pren
 <tr class="odd">
 <td><p>DNS interne/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Enregistrement d’hôte directeur utilisé pour la réplication et le serveur vers le serveur</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Protocole SIP (Session Initiation Protocol) entrant à partir de l’interface Edge interne du serveur Edge</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interne/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Services web d’accès à distance publiés depuis le proxy inverse</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Services web de réunion publiés depuis le proxy inverse</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interne/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>48000b</p></td>
+<td><p>Directeur</p></td>
 <td><p>Publié et défini par les services Web externes de ticket Web de proxy inverse pour le directeur</p></td>
 </tr>
 </tbody>

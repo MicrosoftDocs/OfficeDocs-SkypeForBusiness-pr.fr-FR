@@ -12,20 +12,22 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fe04aea0cc0d6ab38b0bfa9597b420d608c7597
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514781"
 ---
+# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une plage d�
     > <LI>
     > <P>Si la plage d’orbites commence avec le caractère * ou #, la plage doit être supérieure à 100.</P>
     > <LI>
-    > <P>Valeurs valides : doivent correspondre à la chaîne d’expression\*régulière ([| #] ? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). Ainsi, chaque valeur doit être une chaîne commençant soit par le caractère * ou #, soit par un nombre de 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est * ou #, le caractère qui suit doit être un nombre de 1 à 9 (il ne peut être zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », «*92000 », «* 95551212 » et « 915551212 »). Si le premier caractère n’est pas * ou #, il doit être un nombre de 1 à 9 (pas de zéro) suivi de huit caractères maximum, chacun étant un nombre de 0 à 9 (par exemple : « 915551212 », « 41212 », « 300 »).</P>
+    > <P>Valeurs valides : doivent correspondre à la chaîne d’expression régulière ([ \* | #] ? [ 1-9] \d {0,7} ) | ([1-9] \d {0,8} ). Ainsi, chaque valeur doit être une chaîne commençant soit par le caractère * ou #, soit par un nombre de 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est * ou #, le caractère qui suit doit être un nombre de 1 à 9 (il ne peut être zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », «*92000 », «* 95551212 » et « 915551212 »). Si le premier caractère n’est pas * ou #, il doit être un nombre de 1 à 9 (pas de zéro) suivi de huit caractères maximum, chacun étant un nombre de 0 à 9 (par exemple : « 915551212 », « 41212 », « 300 »).</P>
     > <LI>
     > <P>Il ne doit pas y avoir plus de 50 000 orbites par pool. Chaque plage d’orbites comporte en général un maximum de 100 orbites. Mais les plages peuvent comporter jusqu’à 10 000 orbites. Par exemple, au lieu de spécifier « 7 000 000 » comme numéro de début et « 8 000 000 » comme numéro de fin, spécifiez « 7 000 000 » comme numéro de début et « 7 000 100 » comme numéro de fin.</P></LI></UL>
 

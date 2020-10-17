@@ -12,20 +12,22 @@ ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33f84ec3cb900b4283f30d67e318ab10d3625326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c42084f2e5ed8acceb73b4f417d8205b78b4b56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515711"
 ---
+# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>Configurer la stratégie de conférence pour les appels entrants dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>Configurer la stratégie de conférence pour les appels entrants dans Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ Une stratégie de conférence est un paramètre de compte d’utilisateur qui sp
 
 Vérifiez les champs suivants dans votre stratégie de conférence :
 
-  - **Autoriser les participants à inviter des utilisateurs**   anonymes ce paramètre permet aux organisateurs de réunions d’inviter des participants anonymes (c’est-à-dire, non authentifiés) à des réunions. Ce paramètre est facultatif pour la conférence rendez-vous. Il est sélectionné par défaut dans la stratégie de conférence globale par défaut.
+  - **Autoriser les participants à inviter des utilisateurs**     anonymes Ce paramètre permet aux organisateurs de réunions d’inviter des participants anonymes (c’est-à-dire, non authentifiés) à des réunions. Ce paramètre est facultatif pour la conférence rendez-vous. Il est sélectionné par défaut dans la stratégie de conférence globale par défaut.
 
-  - **Activer la Conférence**   rendez-vous PSTN ce paramètre permet aux utilisateurs de rejoindre la partie audio d’une conférence en appelant le réseau RTC. Ce paramètre est obligatoire pour la conférence rendez-vous. Il est sélectionné par défaut dans la stratégie de conférence globale par défaut.
+  - **Activer la Conférence**     rendez-vous PSTN Ce paramètre permet aux utilisateurs de participer à la partie audio d’une conférence en appelant le réseau RTC. Ce paramètre est obligatoire pour la conférence rendez-vous. Il est sélectionné par défaut dans la stratégie de conférence globale par défaut.
 
-  - **Autoriser les participants anonymes à composer**   ce paramètre permet aux utilisateurs anonymes qui sont déjà joints à la réunion de se connecter à un numéro de téléphone pour rejoindre la partie audio de la Conférence. Ce paramètre est facultatif pour la conférence rendez-vous. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut.
+  - **Autoriser les participants anonymes à effectuer des appels sortants**     Ce paramètre permet aux utilisateurs anonymes qui sont déjà joints à la réunion d’appeler un numéro de téléphone pour rejoindre la partie audio de la Conférence. Ce paramètre est facultatif pour la conférence rendez-vous. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut.
 
-  - **Autoriser les participants non activés pour voix entreprise à composer**   ce paramètre permet aux participants à la réunion et aux organisateurs qui ne sont pas activés pour l’accès à distance à un numéro de téléphone de participer à la partie audio de la Conférence. Celui-ci est autorisé en fonction de la stratégie de voix assignée de l’organisateur. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut. Sa valeur par défaut est désactivée.
+  - **Autoriser les participants non activés pour voix entreprise à numéroter**     Ce paramètre permet aux participants à la réunion et aux organisateurs qui ne sont pas activés pour que voix entreprise appelle un numéro de téléphone pour participer à la partie audio de la Conférence. Celui-ci est autorisé en fonction de la stratégie de voix assignée de l’organisateur. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut. Sa valeur par défaut est désactivée.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5eb0d3d535a4ba5b3e8ffd9a9c712edd601fbbbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 356c418c620cbbf38a97da2df652b5767f9fced9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515321"
 ---
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Modifier les paramètres de configuration de jonction SIP dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Modifier les paramètres de configuration de jonction SIP dans Lync Server 2013
+
 
 </div>
 
@@ -96,7 +98,7 @@ Lorsque vous modifiez les paramètres de configuration de jonction SIP à l’ai
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>Si défini sur <strong>Activer la référence d’appel vers la passerelle</strong>, indique que la jonction prend en charge la réception des demandes REFER à partir du serveur de médiation.</p>
-<p>Si défini sur <strong>Activer la référence avec un contrôle d’appel tiers</strong>, indique que le protocole 3pcc peut être utilisé pour permettre aux appels transférés de contourner le site hébergé. 3PCC est également appelé contrôle &quot;tiers&quot; et se produit lorsqu’un tiers est utilisé pour connecter une paire d’appelants (par exemple, un opérateur passant un appel de la personne a à la personne B).</p></td>
+<p>Si défini sur <strong>Activer la référence avec un contrôle d’appel tiers</strong>, indique que le protocole 3pcc peut être utilisé pour permettre aux appels transférés de contourner le site hébergé. 3PCC est également appelé &quot; contrôle tiers &quot; et se produit lorsqu’un tiers est utilisé pour connecter une paire d’appelants (par exemple, un opérateur passant un appel de la personne a à la personne B).</p></td>
 </tr>
 <tr class="even">
 <td><p>Activer le contournement de média</p></td>
@@ -135,7 +137,7 @@ Lorsque vous modifiez les paramètres de configuration de jonction SIP à l’ai
 </tr>
 <tr class="odd">
 <td><p>Numéro traduit à tester</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.</p></td>
 </tr>
 <tr class="even">
@@ -150,17 +152,17 @@ Lorsque vous modifiez les paramètres de configuration de jonction SIP à l’ai
 </tr>
 <tr class="even">
 <td><p>Numéro de téléphone à tester</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Numéro appelant</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Indique que le numéro de téléphone à tester est celui de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p>Numéro appelé</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Indique que le numéro de téléphone à tester est celui de la personne appelée.</p></td>
 </tr>
 </tbody>

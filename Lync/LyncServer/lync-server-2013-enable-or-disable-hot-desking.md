@@ -12,20 +12,22 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd0378ee0aead4529b61be5f71aa37a64faf86c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb052f3a0743edac47ccfbe3786943820c59f78f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199487"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515542"
 ---
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Activation ou désactivation de la connexion à chaud dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Activation ou désactivation de la connexion à chaud dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-02-20_
 
 Vous pouvez configurer des téléphones de partie commune en tant que *téléphones de bureau à chaud*. Avec les téléphones de bureau à chaud, les utilisateurs peuvent se connecter à leur propre compte d’utilisateur et, une fois qu’ils sont connectés, utiliser les fonctionnalités de Lync Server et leurs propres paramètres de profil utilisateur. La gestion de l’accès à chaud est gérée à l’aide de stratégies de client : pour activer ou désactiver la connexion à chaud, vous devez modifier les stratégies client utilisées par vos téléphones de partie commune. Pour plus d’informations sur la façon de déterminer les stratégies de conférence qui ont été affectées à vos téléphones de partie commune, voir [View Common Area Phone information in Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
 
-Vous utilisez le paramètre EnableHotdesking de la cmdlet **New-CSClientPolicy** ou l’applet de commande **Set-CSClientPolicy** pour activer ou désactiver la connexion à chaud sur un téléphone, comme suit. Exécutez ces applets de commande à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous utilisez le paramètre EnableHotdesking de la cmdlet **New-CSClientPolicy** ou l’applet de commande **Set-CSClientPolicy** pour activer ou désactiver la connexion à chaud sur un téléphone, comme suit. Exécutez ces applets de commande à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

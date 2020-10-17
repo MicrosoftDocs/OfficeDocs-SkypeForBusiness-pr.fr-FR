@@ -12,20 +12,22 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd649cea823ce13460de924ffc49741b3ca5c6d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ee06e4b7f3cabc606a612cd0f332aed47b46823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514151"
 ---
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Exceptions IPsec dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>Exceptions IPsec dans Lync Server 2013
+
 
 </div>
 
@@ -67,139 +69,139 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 <tbody>
 <tr class="odd">
 <td><p>Serveur Edge A/V, ports internes/entrants</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Serveur Edge A/V - interne</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur Edge A/V, ports externes/entrants</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Serveur Edge A/V - externe</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur Edge A/V, ports internes/sortants</p></td>
 <td><p>Serveur Edge A/V - interne</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>TCP &amp; UDP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>&amp;TCP UDP</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur Edge A/V, ports externes/sortants</p></td>
 <td><p>Serveur Edge A/V - externe</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur de médiation, ports entrants</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Élaboration</p>
 <p>Serveur (s)</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur de médiation, ports sortants</p></td>
 <td><p>Élaboration</p>
 <p>Serveur (s)</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Intendant Conférence entrant</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Serveur frontal exécutant l’Intendant Conférence</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Intendant Conférence sortant</p></td>
 <td><p>Serveur frontal exécutant l’Intendant Conférence</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur de conférence A/V, ports entrants</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Serveurs frontaux</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Conférence A/V, ports sortants</p></td>
 <td><p>Serveurs frontaux</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange, ports entrants</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Messagerie unifiée Exchange</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveurs de partage d’application, ports entrants</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Serveurs de partage d’application</p></td>
 <td><p>TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur de partage d’application, ports sortants</p></td>
 <td><p>Serveurs de partage d’application</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange, ports sortants</p></td>
 <td><p>Messagerie unifiée Exchange</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clients</p></td>
-<td><p>N'importe lequel</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>DATAGRAMME</p></td>
 <td><p>Plage de ports multimédias définie</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 </tbody>

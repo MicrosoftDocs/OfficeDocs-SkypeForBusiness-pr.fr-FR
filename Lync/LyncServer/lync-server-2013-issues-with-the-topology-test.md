@@ -12,20 +12,22 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa3e9b587a286cdff2b7ef08ec217a420792b121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7095e539ec8e9cc832b4ce69f2e347bfcea38ccc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514031"
 ---
+# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Problèmes avec le test de topologie dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Problèmes avec le test de topologie dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42186767"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-À l’instar de la cmdlet **test-CsTopology** , Best Practices Analyzer vous offre un moyen de vérifier que Lync Server 2013 fonctionne correctement à un niveau global. Par défaut, Best Practice Analyzer, comme l’applet de commande, vérifie l’ensemble de votre infrastructure Lync Server 2013, en vérifiant que les services requis sont en cours d’exécution et que les droits et autorisations d’utilisateur appropriés ont été définis pour ces services et pour le service universel groupes de sécurité créés lors de l’installation de Lync Server 2013.
+À l’instar de la cmdlet **test-CsTopology** , Best Practices Analyzer vous offre un moyen de vérifier que Lync Server 2013 fonctionne correctement à un niveau global. Par défaut, Best Practice Analyzer, comme l’applet de commande, vérifie l’ensemble de votre infrastructure Lync Server 2013, en vérifiant que les services requis sont en cours d’exécution et que les droits et autorisations d’utilisateur appropriés ont été définis pour ces services et pour les groupes de sécurité universels créés lors de l’installation de Lync Server 2013.
 
 En plus de vérifier la validité de Lync Server dans son ensemble, **test-CsTopology** vérifie également la validité d’un service spécifique. Pour plus d’informations sur l’utilisation de l’applet de commande pour tester des services spécifiques, voir [test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) dans la documentation de Lync Server Management Shell. Utilisez les informations suivantes pour vous aider à résoudre les problèmes liés à votre topologie.
 

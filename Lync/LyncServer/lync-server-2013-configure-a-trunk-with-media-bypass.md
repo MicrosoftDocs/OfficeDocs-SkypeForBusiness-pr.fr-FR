@@ -12,20 +12,22 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 256962ace879c9d418d877b94f15227959177407
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 940470dc8b6ccb7563dede6e3deaa4f123d88858
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515721"
 ---
+# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Nous vous recommandons vivement d’activer la déviation du trafic multimédia.
 
 
 > [!NOTE]  
-> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle PSTN (réseau téléphonique commuté), PBX IP et contrôleur SBC (session Border Controller). Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans la rubrique Unified Communications Open Interoperability Program – Lync Server à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle PSTN (réseau téléphonique commuté), PBX IP et contrôleur SBC (session Border Controller). Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans la rubrique Unified Communications Open Interoperability Program – Lync Server à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> .
 
 
 
@@ -180,7 +182,7 @@ Une configuration de jonction, comme décrit ci-dessous, regroupe un ensemble de
     
 
     > [!IMPORTANT]  
-    > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue de serveur de médiation associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle RTC ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de jonction ne soit pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tout autre système en aval connecté via Lync. Serveurs.
+    > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue de serveur de médiation associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle RTC ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de jonction ne soit pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tout autre système en aval connecté via Lync Server.
 
     
     </div>

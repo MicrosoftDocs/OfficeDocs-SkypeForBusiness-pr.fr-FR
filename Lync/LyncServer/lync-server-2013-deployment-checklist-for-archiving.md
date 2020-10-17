@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514526"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Liste de vérification du déploiement pour l’archivage dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Liste de vérification du déploiement pour l’archivage dans Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ L’archivage est automatiquement installé sur chaque serveur frontal de votre 
 
 La manière de configurer l’archivage dépend de l’option de stockage choisie :
 
-  - Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer les stratégies d’archivage Lync Server 2013 pour vos utilisateurs. Au lieu de cela, configurez vos stratégies de conservation inaltérable Exchange pour prendre en charge l’archivage pour les utilisateurs hébergés sur Exchange 2013, avec leurs boîtes aux lettres placées en conservation inaltérable. Pour plus d’informations sur la configuration de ces stratégies, voir la documentation du produit Exchange 2013.
+  - Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer les stratégies d’archivage Lync Server 2013 pour vos utilisateurs. Au lieu de cela, configurez vos stratégies de blocage Exchange In-Place afin de prendre en charge l’archivage pour les utilisateurs hébergés sur Exchange 2013, dont les boîtes aux lettres sont placées In-Place blocage. Pour plus d’informations sur la configuration de ces stratégies, voir la documentation du produit Exchange 2013.
 
-  - Si vous n’utilisez pas l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous devez ajouter les bases de données d’archivage Lync Server (bases de données SQL Server) à votre topologie, puis la publier, ainsi que configurer des stratégies et des paramètres pour vos utilisateurs, avant de pouvoir archivez les données de ces utilisateurs. Vous pouvez déployer les bases de données d’archivage en même temps que la topologie initiale ou après avoir déployé au moins un pool frontal ou un serveur Standard Edition. Ce document indique la marche à suivre pour déployer des bases de données d’archivage en les ajoutant à un déploiement existant.
+  - Si vous n’utilisez pas l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous devez ajouter les bases de données d’archivage Lync Server (bases de données SQL Server) à votre topologie, puis les publier, ainsi que configurer des stratégies et des paramètres pour vos utilisateurs, avant de pouvoir archiver les données de ces utilisateurs. Vous pouvez déployer les bases de données d’archivage en même temps que la topologie initiale ou après avoir déployé au moins un pool frontal ou un serveur Standard Edition. Ce document indique la marche à suivre pour déployer des bases de données d’archivage en les ajoutant à un déploiement existant.
 
 Si vous activez l’archivage sur un pool frontal ou un serveur Standard Edition, vous devez l’activer pour tous les pools frontaux et serveurs Standard Edition dans le déploiement. Cela afin de permettre aux utilisateurs dont les communications doivent être archivées d’être invités à une conversation de messagerie instantanée en groupe ou à des réunions hébergées sur un autre pool. Si l’archivage n’est pas activé sur le pool sur lequel la conversation ou la réunion est hébergée, la totalité de la session risque de ne pas être archivée. Le cas échéant, il est toujours possible d’archiver les messages instantanés échangés avec des utilisateurs pour lesquels l’archivage est activé, mais pas les fichiers de contenu des conférences, ni les événements de participation ou d’arrêt de participation aux conférences.
 
@@ -121,8 +123,8 @@ Le tableau suivant décrit les étapes nécessaires pour déployer l’archivage
 </tr>
 <tr class="even">
 <td><p><strong>Configurer les stratégies et les paramètres de l’archivage</strong></p></td>
-<td><p>Configurez l’archivage, y compris s’il faut utiliser l’intégration de Microsoft Exchange, la stratégie globale et les stratégies de site et d’utilisateur (lorsque vous n’utilisez pas l’intégration de Microsoft Exchange pour tout le stockage de données) et des options d’archivage spécifiques, telles que le mode critique et les données exportation et vidage.</p>
-<p>Si vous utilisez l’intégration de Microsoft Exchange, configurez les stratégies de conservation inaltérable d’Exchange comme il convient.</p></td>
+<td><p>Configurez l’archivage, y compris s’il faut utiliser l’intégration de Microsoft Exchange, la stratégie globale et les stratégies de site et d’utilisateur (lorsque vous n’utilisez pas l’intégration de Microsoft Exchange pour tout le stockage de données) et des options d’archivage spécifiques, telles que le mode critique et l’exportation et la purge des données.</p>
+<p>Si vous utilisez l’intégration de Microsoft Exchange, configurez les stratégies de blocage d’Exchange In-Place en fonction de vos besoins.</p></td>
 <td><p>Groupe RTCUniversalServerAdmins (Windows PowerShell uniquement) ou affectez des utilisateurs au rôle CSArchivingAdministrator ou CSAdministrator.</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-archiving.md">Configuration de la prise en charge de l’archivage dans Lync Server 2013</a> dans la documentation de déploiement.</p>
 <p>Documentation du produit Exchange (si vous utilisez l’intégration de Microsoft Exchange).</p></td>

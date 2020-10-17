@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514001"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Forum aux questions sur la prise en charge des grandes réunions pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Forum aux questions sur la prise en charge des grandes réunions pour Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Les sections suivantes apportent des réponses aux questions fréquemment posée
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>Q : Combien d’utilisateurs peuvent participer à une grande réunion ?
 
-Le modèle utilisateur Lync Server spécifie des limites de 250 utilisateurs dans un pool partagé ou 1000 utilisateurs dans un pool dédié aux grandes réunions, mais ces chiffres représentent uniquement le nombre d’utilisateurs que nous avons testés et uniquement pour le jeu de matériel spécifique que nous avons utilisé lors de nos tests. En fonction de nos tests, nous recommandons ces limites pour les tailles maximales. Toutefois, vous contrôlez le nombre réel de participants autorisés dans les réunions au sein de votre organisation en configurant une ou plusieurs stratégies de conférence (que vous configurez à l’aide des applets de commande Windows PowerShell dans Lync Server Management Shell ou à l’aide de Lync Server Panneau de configuration). Le nombre que vous spécifiez dans une stratégie de conférence peut être n’importe quel nombre entier de 32 bits compris entre 1 et 4 294 967 295, mais la taille recommandée est comprise entre 2 et 250 participants (inclus). et la valeur par défaut est 250.
+Le modèle utilisateur Lync Server spécifie des limites de 250 utilisateurs dans un pool partagé ou 1000 utilisateurs dans un pool dédié aux grandes réunions, mais ces chiffres représentent uniquement le nombre d’utilisateurs que nous avons testés et uniquement pour le jeu de matériel spécifique que nous avons utilisé lors de nos tests. En fonction de nos tests, nous recommandons ces limites pour les tailles maximales. Toutefois, vous contrôlez le nombre réel de participants autorisés dans les réunions de votre organisation en configurant une ou plusieurs stratégies de conférence (que vous configurez à l’aide des applets de commande Windows PowerShell dans Lync Server Management Shell ou à l’aide du panneau de configuration Lync Server). Le nombre que vous spécifiez dans une stratégie de conférence peut être n’importe quel nombre entier de 32 bits compris entre 1 et 4 294 967 295, mais la taille recommandée est comprise entre 2 et 250 participants (inclus). et la valeur par défaut est 250.
 
 </div>
 
@@ -75,7 +77,7 @@ Les grandes réunions de plus de 1 000 utilisateurs peuvent inclure de l’aud
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>Q : Puis-je utiliser la messagerie instantanée de groupe dans les grandes réunions ?
 
-Oui. Toutefois, un grand nombre de messages instantanés, en particulier quand ils sont envoyés par un grand nombre de participants à la réunion, peuvent affecter l’expérience utilisateur en raison des problèmes liés au défilement rapide du texte dans la fenêtre de messagerie instantanée. La distribution d’un grand nombre de messages instantanés à un groupe de 1 000 utilisateurs peut également introduire des charges de serveur considérable, et ainsi nuire aux performances. En règle générale, la messagerie instantanée est uniquement requise pour les\&questions et les réponses (Q As).
+Oui. Toutefois, un grand nombre de messages instantanés, en particulier quand ils sont envoyés par un grand nombre de participants à la réunion, peuvent affecter l’expérience utilisateur en raison des problèmes liés au défilement rapide du texte dans la fenêtre de messagerie instantanée. La distribution d’un grand nombre de messages instantanés à un groupe de 1 000 utilisateurs peut également introduire des charges de serveur considérable, et ainsi nuire aux performances. En règle générale, la messagerie instantanée est uniquement requise pour les questions et les réponses (Q \& As).
 
 </div>
 

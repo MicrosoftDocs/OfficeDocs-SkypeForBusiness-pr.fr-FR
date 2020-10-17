@@ -12,20 +12,22 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de018fee2d4e9906c8eee3bd59ff360ce1db94a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ac77a8402a62929bcb043ebd165a41605b17351
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196597"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514181"
 ---
+# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Installation de Lync pour Windows Phone dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Installation de Lync pour Windows Phone dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync 2013 pour Windows Phone est une application installable par l’utilisateur
 
 ## <a name="installing-lync-for-windows-mobile"></a>Installation de Lync pour Windows Mobile
 
-Vous pouvez demander à vos utilisateurs d’installer Lync 2013 pour Windows Phone sur leurs appareils en les dirigeant vers Windows Phone Marketplace à l' <https://go.microsoft.com/fwlink/p/?linkid=231901>adresse.
+Vous pouvez demander à vos utilisateurs d’installer Lync 2013 pour Windows Phone sur leurs appareils en les dirigeant vers Windows Phone Marketplace à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=231901> .
 
 </div>
 
@@ -51,7 +53,7 @@ Vous pouvez demander à vos utilisateurs d’installer Lync 2013 pour Windows Ph
 
 ## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>Si vous utilisez un enregistrement SRV DNS pour publier des services Web Exchange
 
-Pour activer l’intégration d’Exchange pour les clients Lync, certaines organisations publient l’URL des services Web Exchange à l’aide d’un enregistrement SRV DNS. Le document « Understanding and Troubleshooting Exchange Integration », disponible dans le centre [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095)de téléchargement Microsoft à l’adresse, décrit les scénarios dans lesquels cela peut s’avérer nécessaire. Toutefois, l’intégration d’Exchange pour les utilisateurs de Windows Phone ne fonctionnera pas dans ce scénario, car la plateforme Windows Phone ne prend pas en charge les recherches SRV. Vous devrez indiquer aux utilisateurs Windows Phone de spécifier l’URL des services Web Exchange au lieu de permettre au téléphone de détecter automatiquement le serveur.
+Pour activer l’intégration d’Exchange pour les clients Lync, certaines organisations publient l’URL des services Web Exchange à l’aide d’un enregistrement SRV DNS. Le document « Understanding and Troubleshooting Exchange Integration », disponible dans le centre de téléchargement Microsoft à l’adresse [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095) , décrit les scénarios dans lesquels cela peut s’avérer nécessaire. Toutefois, l’intégration d’Exchange pour les utilisateurs de Windows Phone ne fonctionnera pas dans ce scénario, car la plateforme Windows Phone ne prend pas en charge les recherches SRV. Vous devrez indiquer aux utilisateurs Windows Phone de spécifier l’URL des services Web Exchange au lieu de permettre au téléphone de détecter automatiquement le serveur.
 
 Demandez à vos utilisateurs de configurer les paramètres Lync sur leurs téléphones Windows comme suit :
 

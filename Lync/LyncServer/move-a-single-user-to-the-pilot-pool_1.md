@@ -12,20 +12,22 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 41d89241cdddd129ea5e7fad38e7a3d761fb220b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514971"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>Déplacer un seul utilisateur vers le pool pilote
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>Déplacer un seul utilisateur vers le pool pilote
+
 
 </div>
 
@@ -91,7 +93,7 @@ Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 
 
 4.  L’identité **RegistrarPool** pointe désormais vers le pool Lync Server 2013. Le présence de cette identité confirme que l’utilisateur a été déplacé avec succès.
     
-    ![Sortie de l’applet de commande Get-CsUser avec le filtre d’identité](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Sortie de l’applet de commande Get-CsUser avec le filtre d’identité")  
+    ![Sortie de la cmdlet Get-CsUser avec le filtre d’identité](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Sortie de la cmdlet Get-CsUser avec le filtre d’identité")  
     
     <div>
     

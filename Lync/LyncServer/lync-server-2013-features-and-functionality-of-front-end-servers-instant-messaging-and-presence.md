@@ -12,20 +12,22 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab1b2285b80098ec6acf1faad64f21a78472c0b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26f80eb823af5ec50c18390fe2ebca2b25498874
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179651"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515371"
 ---
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Fonctionnalités des serveurs frontaux, de la messagerie instantanée et de la présence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Fonctionnalités des serveurs frontaux, de la messagerie instantanée et de la présence dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179651"
 
 _**Dernière modification de la rubrique :** 2013-03-17_
 
-Les serveurs frontaux fournissent la plupart des fonctionnalités Lync Server. Deux éditions sont disponibles : Lync Server Enterprise Edition, conçu principalement pour les grandes organisations et Lync Server Standard Edition, conçu principalement pour les organisations de petite taille qui souhaitent un investissement matériel réduit et ne sont pas Exigez une haute disponibilité. Les deux éditions prennent en charge toutes les charges de travail Lync Server, y compris la messagerie instantanée, la présence, les conférences et voix entreprise.
+Les serveurs frontaux fournissent la plupart des fonctionnalités Lync Server. Deux éditions sont disponibles : Lync Server Enterprise Edition, conçu principalement pour les grandes organisations et Lync Server Standard Edition, conçu principalement pour les organisations de petite taille qui souhaitent un investissement matériel réduit et ne nécessitent pas de haute disponibilité. Les deux éditions prennent en charge toutes les charges de travail Lync Server, y compris la messagerie instantanée, la présence, les conférences et voix entreprise.
 
 La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels.. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. Un participant à une conversation de messagerie instantanée peut ajouter un troisième participant à la conversation à tout moment. Lorsque cela arrive, la fenêtre Conversation change pour prendre en charge des fonctionnalités de conférence.
 
@@ -51,7 +53,7 @@ La messagerie instantanée permet aux utilisateurs de communiquer en temps réel
 
 </div>
 
-La *présence* fournit aux utilisateurs des informations sur l’état de présence des autres utilisateurs sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour permettre aux autres utilisateurs de décider s’ils doivent essayer de contacter l’utilisateur et s’ils doivent pour cela utiliser la messagerie instantanée, le téléphone ou la messagerie électronique. La présence permet une communication instantanée lorsque cela est possible, mais fournit aussi des informations indiquant si un utilisateur est en réunion ou hors du bureau, indiquant que la communication instantanée n’est pas possible. Cet état de présence est affiché sous la forme d’une icône de présence dans Lync et d’autres applications prenant en charge la présence, y compris le client de messagerie et de collaboration Microsoft Outlook, les technologies Microsoft SharePoint, Microsoft Word et la feuille de calcul Microsoft Excel application. L’icône de présence indique la disponibilité actuelle de l’utilisateur et sa volonté à communiquer.
+La *présence* fournit aux utilisateurs des informations sur l’état de présence des autres utilisateurs sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour permettre aux autres utilisateurs de décider s’ils doivent essayer de contacter l’utilisateur et s’ils doivent pour cela utiliser la messagerie instantanée, le téléphone ou la messagerie électronique. La présence permet une communication instantanée lorsque cela est possible, mais fournit aussi des informations indiquant si un utilisateur est en réunion ou hors du bureau, indiquant que la communication instantanée n’est pas possible. Cet état de présence est affiché sous la forme d’une icône de présence dans Lync et d’autres applications prenant en charge la présence, y compris le client de messagerie et de collaboration Microsoft Outlook, les technologies Microsoft SharePoint, Microsoft Word et le logiciel de feuille de calcul Microsoft Excel. L’icône de présence indique la disponibilité actuelle de l’utilisateur et sa volonté à communiquer.
 
 </div>
 

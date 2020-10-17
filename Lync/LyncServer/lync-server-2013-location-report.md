@@ -12,20 +12,22 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035d66d9b690a351a9b286eeff378ec0a36c1f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e98107d4949a935cbef448e1a533bddb0f7c5dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513791"
 ---
+# <a name="location-report-in-lync-server-2013"></a>Rapport d’emplacement dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-report-in-lync-server-2013"></a>Rapport d’emplacement dans Lync Server 2013
+
 
 </div>
 
@@ -81,7 +83,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
+<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -187,7 +189,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’em
 <tr class="even">
 <td><p><strong>Scintill</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Gigue moyenne du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure de la &quot; fluctuations &quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>

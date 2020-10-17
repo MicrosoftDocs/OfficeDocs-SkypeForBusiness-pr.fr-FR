@@ -12,20 +12,22 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f2b88b43c41a5a8bf990a72f0fdfef1c5537e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 213e42a7477202cf40a0b06c79edde49976f0bbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184817"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515271"
 ---
+# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Modifier l’action par défaut pour les clients qui ne sont pas explicitement pris en charge ou restreints dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Modifier l’action par défaut pour les clients qui ne sont pas explicitement pris en charge ou restreints dans Lync Server 2013
+
 
 </div>
 
@@ -53,13 +55,13 @@ En plus de spécifier la version des clients que vous souhaitez prendre en charg
 
 5.  Dans la boîte de dialogue **Modifier la configuration de la version du client**, vérifiez que la case à cocher **Activer le contrôle de version** est activée puis, sous **Action par défaut**, sélectionnez l’une des options suivantes :
     
-      - **Autoriser**   : autorise le client à se connecter si sa version ne correspond à aucun filtre dans la liste des **stratégies de version du client** .
+      - **Autoriser**     Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des **stratégies de version du client** .
     
-      - **Bloquer**   : empêche le client de se connecter si sa version ne correspond à aucun filtre dans la liste des **stratégies de version du client** .
+      - **Bloquer**     Empêche le client de se connecter si la version du client ne correspond à aucun filtre dans la liste des **stratégies de version du client** .
     
-      - **Bloquer avec une URL**   : empêche le client de se connecter si sa version ne correspond à aucun filtre dans la liste des **stratégies de version du client** , et inclut un message d’erreur contenant une URL dans laquelle un client plus récent peut être téléchargé.
+      - **Bloquer avec une URL**     Empêche le client de se connecter si la version du client ne correspond à aucun filtre dans la liste des **stratégies de version du client** , et inclut un message d’erreur contenant une URL dans laquelle un client plus récent peut être téléchargé.
     
-      - **Allow with URL**   autorise le client à se connecter si la version du client ne correspond à aucun filtre dans la liste des **stratégies de version du client** , et inclut un message d’erreur contenant une URL dans laquelle un client plus récent peut être téléchargé.
+      - **Autoriser avec l’URL**     Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des **stratégies de version du client** , et inclut un message d’erreur contenant une URL dans laquelle un client plus récent peut être téléchargé.
 
 6.  Si vous avez sélectionné **Bloquer avec une URL**, dans la zone **URL**, tapez l’URL de téléchargement du client à inclure dans le message d’erreur.
 
@@ -79,7 +81,7 @@ En plus de spécifier la version des clients que vous souhaitez prendre en charg
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Modification de l’action par défaut à l’aide des applets de commande Windows PowerShell
 
-L’action par défaut à effectuer lorsque les utilisateurs essaient de se connecter à l’aide de clients qui ne sont pas explicitement pris en charge ou restreints par une stratégie de version de client peuvent être gérés à l’aide de l’interface de ligne de commande Windows PowerShell et de la cmdlet **Set-CsClientVersionPolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+L’action par défaut à effectuer lorsque les utilisateurs essaient de se connecter à l’aide de clients qui ne sont pas explicitement pris en charge ou restreints par une stratégie de version de client peuvent être gérés à l’aide de l’interface de ligne de commande Windows PowerShell et de la cmdlet **Set-CsClientVersionPolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
