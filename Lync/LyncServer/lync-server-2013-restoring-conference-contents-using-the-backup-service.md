@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : restauration du contenu de conférence à l’aide du service de sauvegarde'
+description: 'Lync Server 2013 : restauration du contenu de la Conférence à l’aide du service de sauvegarde.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 252cdf6713db7fcb3c4658cc4adb0eb51905c1ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a3a0037af711948c008e74c5444373ed995f0e6e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511447"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555180"
 ---
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="86056-102">Restauration du contenu d’une conférence à l’aide du service de sauvegarde dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86056-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="ed9ec-103">Restauration du contenu d’une conférence à l’aide du service de sauvegarde dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ed9ec-103">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48511447"
 
 <span> </span>
 
-<span data-ttu-id="86056-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="86056-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="ed9ec-104">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="ed9ec-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="86056-p101">Si les informations de conférence stockées dans le magasin de fichiers d’un pool frontal deviennent disponibles, vous devez restaurer ces informations pour permettre aux utilisateurs hébergés sur le pool de conserver leurs données de conférence. Si le pool frontal qui a perdu les données de conférence est couplé à un autre pool frontal, vous pouvez utiliser le service de sauvegarde pour restaurer les données.</span><span class="sxs-lookup"><span data-stu-id="86056-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
+<span data-ttu-id="ed9ec-p101">Si les informations de conférence stockées dans le magasin de fichiers d’un pool frontal deviennent disponibles, vous devez restaurer ces informations pour permettre aux utilisateurs hébergés sur le pool de conserver leurs données de conférence. Si le pool frontal qui a perdu les données de conférence est couplé à un autre pool frontal, vous pouvez utiliser le service de sauvegarde pour restaurer les données.</span><span class="sxs-lookup"><span data-stu-id="ed9ec-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
 
-<span data-ttu-id="86056-p102">Vous devez aussi effectuer cette tâche en cas de panne d’un pool entier et basculer ses utilisateurs sur un pool de sauvegarde. Quand ces utilisateurs sont rebasculés sur leur pool d’origine, vous devez également exécuter cette procédure pour recopier leur contenu de référence sur le pool d’origine.</span><span class="sxs-lookup"><span data-stu-id="86056-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
+<span data-ttu-id="ed9ec-p102">Vous devez aussi effectuer cette tâche en cas de panne d’un pool entier et basculer ses utilisateurs sur un pool de sauvegarde. Quand ces utilisateurs sont rebasculés sur leur pool d’origine, vous devez également exécuter cette procédure pour recopier leur contenu de référence sur le pool d’origine.</span><span class="sxs-lookup"><span data-stu-id="ed9ec-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
 
-<span data-ttu-id="86056-109">Supposons que Pool1 est couplé à Pool2 et que les données de conférence de Pool1 sont perdues.</span><span class="sxs-lookup"><span data-stu-id="86056-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="86056-110">Vous pouvez utiliser l’applet de commande suivante pour appeler le service de sauvegarde afin de restaurer le contenu :</span><span class="sxs-lookup"><span data-stu-id="86056-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
+<span data-ttu-id="ed9ec-110">Supposons que Pool1 est couplé à Pool2 et que les données de conférence de Pool1 sont perdues.</span><span class="sxs-lookup"><span data-stu-id="ed9ec-110">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="ed9ec-111">Vous pouvez utiliser l’applet de commande suivante pour appeler le service de sauvegarde afin de restaurer le contenu :</span><span class="sxs-lookup"><span data-stu-id="ed9ec-111">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="86056-p104">La restauration du contenu de conférence peut prendre un certain temps, qui est fonction de sa taille. Vous pouvez utiliser l’applet de commande suivante pour vérifier l’état du processus</span><span class="sxs-lookup"><span data-stu-id="86056-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
+<span data-ttu-id="ed9ec-p104">La restauration du contenu de conférence peut prendre un certain temps, qui est fonction de sa taille. Vous pouvez utiliser l’applet de commande suivante pour vérifier l’état du processus</span><span class="sxs-lookup"><span data-stu-id="ed9ec-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="86056-113">Le processus est terminé une fois que cette applet de commande a retourné une valeur d’état stable pour les données du module de conférence.</span><span class="sxs-lookup"><span data-stu-id="86056-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
+<span data-ttu-id="ed9ec-114">Le processus est terminé une fois que cette applet de commande a retourné une valeur d’état stable pour les données du module de conférence.</span><span class="sxs-lookup"><span data-stu-id="ed9ec-114">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
 
 </div>
 
