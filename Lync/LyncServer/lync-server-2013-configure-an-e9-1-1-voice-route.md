@@ -12,20 +12,22 @@ ms:contentKeyID: 48184384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 767f49aa0074e269de386b2db017dc183e4eb92d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d5eb996b149bda87ea799768aea9821ec06f49f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523011"
 ---
+# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>Configuration d’un itinéraire des communications vocales E9-1-1 dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>Configuration d’un itinéraire des communications vocales E9-1-1 dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
 
 
 > [!NOTE]  
-> Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande <STRONG>Set-CsTrunkConfiguration</STRONG> la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple :<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Il n’est pas nécessaire d’activer la réception des emplacements pour les passerelles PSTN (réseau téléphonique commuté) et les passerelles ELIN (Emergency Location Identification Number).
+> Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande <STRONG>Set-CsTrunkConfiguration</STRONG> la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple : <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Il n’est pas nécessaire d’activer la réception des emplacements pour les passerelles PSTN (réseau téléphonique commuté) et les passerelles ELIN (Emergency Location Identification Number).
 
 
 

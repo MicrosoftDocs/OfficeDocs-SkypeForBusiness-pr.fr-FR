@@ -12,20 +12,22 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6e11f85cb929cdd3dbddcab23caaffcf434f303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 997097da30db000df82cba020b043748a1a5f62d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213540"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522631"
 ---
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Processus de déploiement du parcage d’appel dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Processus de déploiement du parcage d’appel dans Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Cette section fournit une vue d’ensemble des étapes nécessaires au déploiem
 <td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurer les paramètres de parcage d’appel</p></td>
+<td><p>Configuration des paramètres de parcage d’appel</p></td>
 <td><p>Utilisez la cmdlet <strong>Set-CsCpsConfiguration</strong> pour configurer les paramètres de parcage d’appel. Au minimum, nous vous recommandons de configurer l’option <strong>OnTimeoutURI</strong> pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants :</p>
 <ul>
 <li><p>(Facultatif) <strong>EnableMusicOnHold</strong> pour activer ou désactiver l’attente musicale.</p></li>
@@ -120,7 +122,7 @@ Cette section fournit une vue d’ensemble des étapes nécessaires au déploiem
 <td><p><a href="lync-server-2013-enable-call-park-for-users.md">Activer le parcage d’appel pour les utilisateurs dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Vérifier les règles de normalisation pour le parcage d’appel</p></td>
+<td><p>Vérification des règles de normalisation pour le parcage d’appel</p></td>
 <td><p>Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez que les règles de normalisation ne comportent aucune plage d’orbites. Si nécessaire, créez des règles de normalisation supplémentaires pour empêcher la normalisation des orbites.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>

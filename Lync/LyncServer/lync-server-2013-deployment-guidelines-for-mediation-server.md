@@ -12,20 +12,22 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcbfec56f4cfee3def2a0ef6deb82934534dbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213815"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522711"
 ---
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Instructions de déploiement pour le serveur de médiation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Instructions de déploiement pour le serveur de médiation dans Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Le serveur de médiation est colocalisé par défaut sur le serveur Standard Edi
 
 Lors de la planification, veillez à prendre en compte les exigences en matière de traitement des médias pour les appels PSTN et les conférences A/V qui ne sont pas configurées pour la déviation du trafic multimédia, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels d’heure de pointe qui doivent être pris en charge. S’il n’y a pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation ; les passerelles PSTN, IP-PBX et SBCs doivent être divisées en sous-ensembles contrôlés par les serveurs de médiation colocalisés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
 
-Si vous avez déployé des passerelles PSTN, des systèmes IP-PBX ou des contrôleurs de frontière de session (SBC) qui ne prennent pas en charge les fonctionnalités correctes pour interagir avec un pool de serveurs de médiation, y compris les éléments suivants, ils devront être associés à un pool autonome composé d’un serveur de médiation unique :
+Si vous avez déployé des passerelles PSTN, des systèmes IP-PBX ou des contrôleurs de frontière de session (SBC) qui ne prennent pas en charge les fonctionnalités correctes pour interagir avec un pool de serveurs de médiation, y compris les éléments suivants, ils devront être associés à un pool autonome constitué d’un seul serveur de médiation :
 
   - Effectuer l’équilibrage de charge DNS (Domain Name System) de couche réseau entre les serveurs de médiation d’un pool (ou acheminer uniformément le trafic de manière uniforme vers tous les serveurs de médiation d’un pool)
 
@@ -73,7 +75,7 @@ Les serveurs de médiation sur le site central peuvent être utilisés pour rout
 
 
 > [!NOTE]  
-> Le contournement de média ne fonctionnera pas avec chaque passerelle PSTN, système IP-PBX et SBC. Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et les versions mentionnés dans le <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>programme d’interopérabilité ouvert pour les communications unifiées – Lync Server à.
+> Le contournement de média ne fonctionnera pas avec chaque passerelle PSTN, système IP-PBX et SBC. Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et les versions mentionnés dans le programme d’interopérabilité ouvert pour les communications unifiées – Lync Server à <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A> .
 
 
 
@@ -89,7 +91,7 @@ Pour finir, si votre site central comporte un TDM PBX ou que votre IP-PBX ne sup
 
 
 > [!NOTE]  
-> Pour améliorer les performances multimédias d’un serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l' <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>évolutivité côté réception dans Windows Server » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité côté réception dans Windows Server » à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A> . Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cceaffb2ecf0ac1b133e01bd04f50f9950cc0dec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4971b5df8646f20843569ba653cd7a0c274d501
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523161"
 ---
+# <a name="backing-up-file-stores-in-lync-server-2013"></a>Sauvegarde de magasins de fichiers dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a>Sauvegarde de magasins de fichiers dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ La sauvegarde des magasins de fichiers Lync Server inclut tous les fichiers et d
 
 1.  Pour rechercher les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le générateur de topologies et regardez dans le nœud **magasins de fichiers** .
 
-2.  Utilisez Robocopy ou un autre outil de gestion de système de fichiers pour copier chaque\\magasin de fichiers vers $Backup de stockage de fichiers.
+2.  Utilisez Robocopy ou un autre outil de gestion de système de fichiers pour copier chaque magasin de fichiers vers $Backup de stockage de fichiers \\ .
 
 </div>
 

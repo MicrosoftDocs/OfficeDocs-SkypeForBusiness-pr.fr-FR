@@ -4,13 +4,16 @@ description: Trouvez tous les enseignements disponibles pour Business central.
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357602"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514941"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessions d’équipe pour enflammer 2020
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357602"
 |[Développez des applications personnalisées, des robots et des logiciels automatisés pour Microsoft teams avec des fonctionnalités de faible code](https://aka.ms/PR134)|Découvrez comment créer des solutions personnalisées pour Teams.  Nous allons approfondir l’intégration de teams et de Power Platform pour montrer comment l’utilisateur peut créer des outils numériques personnalisés, même s’ils n’ont pas d’expérience de développement|300|Pete Daderko, Geneve Estrada|
 |[Élever les expériences des utilisateurs grâce aux équipes et aux cartes adaptatives](https://aka.ms/PR135)|La plateforme teams avec des cartes adaptatives permet d’intégrer des expériences utilisateur à la fois intégrées et exploitables dans Teams. Dans cette session, nous allons vous expliquer comment les développeurs peuvent tirer parti de nouvelles fonctionnalités pour créer des expériences contextuelles et conformes qui élèvent la collaboration dans Teams.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[Trucs et astuces : meilleures pratiques et défis communs lors du développement d’applications Microsoft teams](https://aka.ms/PR136) |Rejoignez-nous pour une session qui aborde certains problèmes courants rencontrés par les développeurs lors de la création d’applications Teams. Les développeurs quittent cette session avec des conseils et des Insights qu’ils peuvent utiliser pour poursuivre le développement d’applications Teams.|400|Adrien Solis, votre Erin|
-|[Créer des applications sans friction & permettant une adoption transparente à l’aide des fonctionnalités d’autorisation et d’authentification et de Microsoft Graph](https://aka.ms/PR137)|Développez des applications à l’aide de puissantes fonctionnalités telles que l’authentification unique (SSO), le consentement spécifique aux ressources (RSC), les autorisations granulaires et la façon dont les administrateurs informatiques peuvent savoir comment tirer parti des API de Graph pour automatiser le cycle de vie et la gestion des applications.|400|Nick Kramer|
+|[Créer des applications sans friction & permettant une adoption transparente à l’aide des fonctionnalités d’autorisation et d’authentification et de Microsoft Graph](https://aka.ms/PR137)|Développez des applications avec de puissantes fonctionnalités telles que l’authentification Sign-On unique (SSO), le consentement de Resource-Specific (RSC), les autorisations granulaires et les administrateurs informatiques qui peuvent découvrir comment utiliser les API de graphique pour automatiser le cycle de vie et la gestion des applications.|400|Nick Kramer|
 ||||||
 
 ### <a name="industry"></a>Entreprises

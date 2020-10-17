@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504961"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -33,18 +33,18 @@ Pour utiliser Microsoft Endpoint Configuration Manager, une stratégie de groupe
 
 Voici les liens vers les fichiers MSI :
 
-|Entité  |32 bits      |64 bits      |
-|---------|---------|---------|
-|Commerciale     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|Gouvernement fédéral : GCC     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|Gouvernement fédéral : GCC Max.    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|Gouvernement fédéral : DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Entité  |32 bits      |64 bits      | ARM64 |
+|---------|---------|---------|-----------|
+|Commerciale     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Gouvernement fédéral : GCC     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Gouvernement fédéral : GCC Max.    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Gouvernement fédéral : DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **Pour garantir un déploiement réussi, tenez compte des points suivants :**
 
 - Installez la version 64 bits d’équipe sur les systèmes d’exploitation 64 bits. Si vous essayez d’installer la version 64 bits d’équipe sur un système d’exploitation 32 bits, l’installation échoue et vous ne recevez pas de message d’erreur.
 
-- Si le locataire du client se trouve sur le GCCH ou DoD Cloud, le client doit définir le point de terminaison initial dans le registre en ajoutant la valeur **CloudType** à la **HKEY_CURRENT_USER clé \software\policies\microsoft\office\16.0\teams** du Registre. Le type pour **CloudType** est **DWORD** et les valeurs sont (0 = unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DoD). Définir le point de terminaison avec la clé de Registre restreint les équipes à se connecter au point de terminaison Cloud approprié pour la connectivité avant connexion avec Teams.
+- Si le locataire du client se trouve sur le GCCH ou DoD Cloud, le client doit définir le point de terminaison initial dans le registre en ajoutant la valeur **CloudType** à la clé **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** du Registre. Le type pour **CloudType** est **DWORD** et les valeurs sont (0 = unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DoD). Définir le point de terminaison avec la clé de Registre restreint les équipes à se connecter au point de terminaison Cloud approprié pour la connectivité avant connexion avec Teams.
 
 - Les équipes peuvent également être incluses dans un déploiement d’applications 365 Microsoft pour entreprises. Pour plus d’informations, reportez-vous à la rubrique [déploiement de Microsoft teams avec les applications microsoft 365 pour les entreprises](https://docs.microsoft.com/deployoffice/teams-install).
 
@@ -124,7 +124,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 Lorsqu’un utilisateur se connecte à Windows, Teams est installé avec le MSI et un raccourci vers démarrer Teams est ajouté au bureau de l’utilisateur. Teams ne démarre pas avant que l'utilisateur ne démarre manuellement Teams. Une fois que l’utilisateur a démarré manuellement Teams, Teams démarre automatiquement chaque fois que l’utilisateur ouvre une session.
 
-Notez que ces exemples utilisent également le paramètre **ALLUSERS = 1** . Lorsque vous définissez ce paramètre, le programme d’installation à l’échelle de l’entreprise teams apparaît dans programmes et fonctionnalités dans le panneau de configuration et dans applications & fonctionnalités dans les paramètres Windows de tous les utilisateurs de l’ordinateur. Tous les utilisateurs peuvent alors désinstaller teams s’ils possèdent des informations d’identification d’administrateur sur l’ordinateur.
+Notez que ces exemples utilisent également le paramètre **ALLUSERS = 1** . Lorsque vous définissez ce paramètre, teams Machine-Wide programme d’installation s’affiche dans programmes et fonctionnalités dans le panneau de configuration et dans applications & fonctionnalités dans les paramètres Windows pour tous les utilisateurs de l’ordinateur. Tous les utilisateurs peuvent alors désinstaller teams s’ils possèdent des informations d’identification d’administrateur sur l’ordinateur.
 
 > [!Note]
 > Si vous exécutez le MSI manuellement, veillez à l’exécuter avec des autorisations élevées. Même si vous l’exécutez en tant qu’administrateur, sans l’exécuter avec des autorisations élevées, le programme d’installation ne peut pas configurer l’option permettant de désactiver le démarrage automatique.

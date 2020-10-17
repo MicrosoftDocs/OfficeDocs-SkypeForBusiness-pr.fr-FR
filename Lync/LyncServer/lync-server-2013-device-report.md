@@ -12,20 +12,22 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e750d66f3c18ee0960237ab5ffdfb37784f157
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97971d339dc57ab8786ff4a05adadd016a87e23a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522451"
 ---
+# <a name="device-report-in-lync-server-2013"></a>Rapport de périphérique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-report-in-lync-server-2013"></a>Rapport de périphérique dans Lync Server 2013
+
 
 </div>
 
@@ -197,7 +199,7 @@ Pour ce qui est des noms de périphériques, le rapport de périphérique est ex
 
 </div>
 
-Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Une méthode pour obtenir des informations de ce type consiste à exporter les données du rapport de périphérique vers Microsoft Excel, puis à enregistrer ces données dans un fichier de valeurs séparées par des\\virgules (par exemple, C : Data\\Devices\_Report. csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
+Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Une méthode pour obtenir des informations de ce type consiste à exporter les données du rapport de périphérique vers Microsoft Excel, puis à enregistrer ces données dans un fichier de valeurs séparées par des virgules (par exemple, C : \\ périphériques de données \\ \_Report.csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -240,7 +242,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
+<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -260,7 +262,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <dd><p>Tous les</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Néant</p>
+<dd><p>Aucune</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>Horodateur incorrect</p>
@@ -290,7 +292,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <dd><p>Tous les</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Néant</p>
+<dd><p>Aucune</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>Horodateur incorrect</p>
@@ -393,7 +395,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Microphone (Microsoft LifeCam VX-1000)</p>
 <p>Ou, vous pouvez entrer uniquement une partie du nom. Par exemple :</p>
 <p>LifeCam</p>
-<p>Notez que le filtre précédent renvoie tout périphérique qui contient la chaîne &quot;LifeCam&quot; n’importe où dans son nom.</p></td>
+<p>Notez que le filtre précédent renvoie tout périphérique qui contient la chaîne &quot; LifeCam &quot; n’importe où dans son nom.</p></td>
 </tr>
 </tbody>
 </table>
@@ -441,7 +443,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de pé
 <tr class="even">
 <td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Pourcentage d’appels classés comme étant &quot;médiocres. &quot; Un appel médiocre est un appel dont au moins l’une des mesures mesurées a dépassé la valeur autorisée (par exemple, un appel ayant subi une gigue excessive).</p></td>
+<td><p>Pourcentage d’appels classés comme étant &quot; médiocres. &quot; Un appel médiocre est un appel dont au moins l’une des mesures mesurées a dépassé la valeur autorisée (par exemple, un appel ayant subi une gigue excessive).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Utilisateurs uniques</strong></p></td>

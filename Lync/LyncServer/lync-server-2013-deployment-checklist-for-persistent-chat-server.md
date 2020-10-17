@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213812"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522741"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Liste de vérification du déploiement pour le serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Liste de vérification du déploiement pour le serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -107,13 +109,13 @@ Le tableau suivant répertorie les étapes de base pour déployer le serveur de 
 <li><p>Cliquez sur la case à cocher définition de pool de serveurs de conversation permanente pour activer la conformité.</p></li>
 <li><p>Publier la topologie</p></li>
 </ul>
-<p>Si vous installez le serveur de conversation permanente sur Standard Edition, le nom de domaine complet (FQDN) du pool de serveurs de conversation permanente doit correspondre au serveur Standard Edition et les bases de données SQL Server sont colocalisées sur l’instance SQL Server Express sur la version standard. Serveur d’édition</p></td>
+<p>Si vous installez le serveur de conversation permanente sur Standard Edition, le nom de domaine complet (FQDN) du pool de serveurs de conversation permanente doit correspondre au serveur Standard Edition et les bases de données SQL Server sont colocalisées sur l’instance SQL Server Express sur le serveur Standard Edition Server.</p></td>
 <td><p>Pour définir une topologie, un compte membre du groupe Utilisateurs local</p>
 <p>Pour publier la topologie, un compte membre du groupe administrateurs du domaine et du groupe RTCUniversalServerAdmins, ainsi que l’utilisateur doivent également disposer d’autorisations de contrôle complètes (lecture/écriture/modification) sur le magasin de fichiers Lync pour les fichiers du serveur de conversation permanente (afin que le générateur de topologie puisse configurer les DACL requises).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajout d’un serveur de conversation permanente à votre déploiement dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Déployer le serveur de conversation permanente</strong></p></td>
+<td><p><strong>Déployer un serveur de conversation permanente</strong></p></td>
 <td><p>Exécutez le programme d’installation de Lync Server sur tous les ordinateurs exécutant le serveur de conversation permanente. Le programme d’installation du serveur de conversation permanente est intégré à l’Assistant Déploiement de Lync Server 2013, qui fournit les instructions suivantes :</p>
 <ul>
 <li><p>Déployer le magasin de gestion local</p></li>

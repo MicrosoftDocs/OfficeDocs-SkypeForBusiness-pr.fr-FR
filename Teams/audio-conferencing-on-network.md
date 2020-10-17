@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Les rubriques suivantes décrivent les fonctionnalités d’aperçu ouvert pour l’audioconférence sur le réseau.
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503471"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Aperçu avant impression de l’audioconférence sur réseau pour les conférences audio
 
@@ -63,7 +63,7 @@ Vous pouvez trouver les numéros de service dans le centre d’administration te
 
 Les appels sortants de réunion teams sont initiés à partir d’une réunion au sein de votre organisation aux numéros RTC, y compris les appels-moi et les appels pour amener de nouveaux participants à une réunion. 
 
-Pour activer le routage de numérotation des réunions teams via le routage direct, vous devez créer et affecter une stratégie de routage de conférence audio nommée « OnlineAudioConferencingRoutingPolicy ». 
+Pour activer le routage de numérotation des réunions teams via le routage direct vers les utilisateurs du réseau, vous devez créer et affecter une stratégie d’acheminement des conférences audio nommée « OnlineAudioConferencingRoutingPolicy ». 
 
 La stratégie OnlineAudioConferencingRoutingPolicy est équivalente au CsOnlineVoiceRoutingPolicy pour les appels RTC 1:1 via le routage direct. La stratégie OnlineAudioConferencingRoutingPolicy peut être gérée à l’aide des applets de commande suivantes :
 
@@ -164,6 +164,6 @@ Vous trouverez ci-dessous une liste des problèmes connus actuellement présents
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 

@@ -1,7 +1,7 @@
 ---
 title: Obstacles liés à l’information dans Microsoft teams
 author: chrfox
-ms.author: anwara
+ms.author: chrfox
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8addc6ff58ad148f5a5146e7397ec479c8dfbbb4
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508351"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 

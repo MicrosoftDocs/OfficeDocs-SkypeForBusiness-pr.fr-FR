@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- M365-voice
 - M365-collaboration
 ms.reviewer: nakulm
 search.appverid: MET150
@@ -16,12 +17,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503461"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -30,7 +31,7 @@ Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et ap
 En relation avec la [Réunion Teams de qui enregistre la documentation de l’utilisateur final](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation des rôles dans les réunions teams et sur la modification des rôles des utilisateurs, voir [rôles d’une réunion teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).

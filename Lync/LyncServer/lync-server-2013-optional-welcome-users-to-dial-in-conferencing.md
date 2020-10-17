@@ -12,20 +12,22 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4698484c240322623760f1fd308398192bfb928f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde04364faf306983f5008539c2ccc6f248955bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522251"
 ---
+# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Module Bienvenue les utilisateurs à la Conférence rendez-vous dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Module Bienvenue les utilisateurs à la Conférence rendez-vous dans Lync Server 2013
+
 
 </div>
 
@@ -64,9 +66,9 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
         [-Pin <new numeric PIN>] [-Force] `
         [-Credential <SMTP server credentials used to send email with the specified From address>]
     
-    **SmtpServer**   par défaut, le script utilise la valeur de la variable d’environnement réservée **$PSEmailServer** pour ce paramètre. Si la variable **$PSEmailServer** n’est pas définie, vous devez spécifier ce paramètre.
+    **SmtpServer**     Par défaut, le script utilise la valeur de la variable d’environnement réservée **$PSEmailServer** pour ce paramètre. Si la variable **$PSEmailServer** n’est pas définie, vous devez spécifier ce paramètre.
     
-    **Credential**   par défaut, le script utilise les informations d’identification de l’utilisateur actuel. Si l’utilisateur actuel n’a pas le droit d’envoyer un message électronique au nom de l’expéditeur spécifié dans le champ De, vous devez entrer ce paramètre. En règle générale, spécifiez ce paramètre si vous n’indiquez pas votre adresse de messagerie dans le champ De.
+    **Informations d’identification**     Par défaut, le script utilise les informations d’identification de l’utilisateur actuel. Si l’utilisateur actuel n’a pas le droit d’envoyer un message électronique au nom de l’expéditeur spécifié dans le champ De, vous devez entrer ce paramètre. En règle générale, spécifiez ce paramètre si vous n’indiquez pas votre adresse de messagerie dans le champ De.
     
     Par exemple :
     

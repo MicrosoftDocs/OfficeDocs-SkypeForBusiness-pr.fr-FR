@@ -12,20 +12,22 @@ ms:contentKeyID: 48183773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27975119b9e54b96ba7472ce1e60d64a51671c5c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a766ae86d4c74d874f1db747c137f54cf568d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523221"
 ---
+# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>Annexe B : gestion d’un Survivable Branch Appliance dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>Annexe B : gestion d’un Survivable Branch Appliance dans Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Cette rubrique décrit les procédures de gestion d’un Survivable Branch appli
     
       - Ouvrez une session sur un serveur membre, en tant que membre du groupe Administrateurs d’entreprise.
     
-      - Cliquez sur **Démarrer**, sur **Outils d'administration**, puis sur **Utilisateurs et ordinateurs Active Directory**.
+      - Cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **Utilisateurs et ordinateurs Active Directory**.
     
       - Cliquez avec le bouton droit sur l’objet Survivable Branch appliance, puis cliquez sur **supprimer**.
 

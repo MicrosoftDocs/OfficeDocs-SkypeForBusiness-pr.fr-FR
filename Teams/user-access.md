@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1.keywords:
-- CSH
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Découvrez comment gérer l’accès des utilisateurs aux équipes en attribuant ou en supprimant une licence d’équipe aux utilisateurs de votre organisation.
+f1.keywords:
+- CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042271"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521381"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
@@ -31,6 +32,7 @@ Vous pouvez gérer l’accès aux équipes au niveau utilisateur en attribuant o
 
 Par défaut, lorsque vous disposez d’un plan de gestion des licences (par exemple, Microsoft 365 entreprise E3 ou Microsoft 365 Business Premium) affecté à un utilisateur, une licence d’équipe est automatiquement affectée et l’utilisateur est activé pour Teams. Vous pouvez désactiver ou activer les équipes pour un utilisateur en le supprimant ou en lui attribuant une licence à tout moment.
 
+Utilisez des stratégies de messagerie gérées par le <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration teams</a>pour contrôler les fonctionnalités de messagerie et de messagerie instantanée disponibles pour les utilisateurs dans Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Pour en savoir plus, consultez [gérer les stratégies de messagerie dans teams](messaging-policies-in-teams.md).
 Vous pouvez gérer les licences d’équipes dans le centre d’administration 365 Microsoft ou en utilisant PowerShell. Vous devez être un administrateur général ou un administrateur de gestion des utilisateurs pour gérer les licences.
 
 > [!NOTE]
@@ -38,6 +40,10 @@ Vous pouvez gérer les licences d’équipes dans le centre d’administration 3
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Utilisation du centre d’administration Microsoft 365
 
+Les licences de niveau utilisateur d’équipes sont gérées directement via les interfaces de gestion des utilisateurs du centre d’administration Microsoft 365. Un administrateur peut affecter des licences à de nouveaux utilisateurs lors de la création de nouveaux comptes d’utilisateurs ou à des utilisateurs possédant des comptes existants. 
+
+> [!IMPORTANT]
+> L’administrateur doit disposer de privilèges d’administrateur général ou de gestion des utilisateurs pour gérer les licences Microsoft Teams.
 Le centre d’administration Microsoft 365 permet de gérer les licences d’équipes pour des utilisateurs individuels ou des petits groupes d’utilisateurs à la fois. Vous pouvez gérer les licences teams dans la page **licences** (pour 20 utilisateurs au maximum) ou la page **utilisateurs actifs** . La méthode que vous choisissez dépend de la façon dont vous souhaitez gérer les licences de produits pour des utilisateurs spécifiques ou gérer des licences utilisateur pour des produits spécifiques.
 
 Si vous avez besoin de gérer les licences d’équipes pour un grand nombre d’utilisateurs, par exemple des centaines voire des milliers d’utilisateurs, utilisez la gestion des licences [PowerShell](#using-powershell) ou par [groupe dans Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). 
@@ -85,7 +91,7 @@ Exécutez la commande suivante pour afficher l’ensemble des plans de licence d
 
       Get-MsolAccountSku
 
-Exécutez les commandes suivantes, où \<CompanyName : License> est le nom de votre organisation et l’identificateur du plan de gestion des licences que vous avez récupéré lors de l’étape précédente. Par exemple, ContosoSchool : ENTERPRISEPACK_STUDENT.
+Exécutez les commandes suivantes, où \<CompanyName:License> est le nom de votre organisation et l’identificateur correspondant au plan de gestion des licences que vous avez récupéré lors de l’étape précédente. Par exemple, ContosoSchool : ENTERPRISEPACK_STUDENT.
 
       $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
@@ -98,7 +104,7 @@ Exécutez la commande suivante pour désactiver teams pour tous les utilisateurs
 
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Licences de compléments teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Attribution de licences de complément d’équipes](teams-add-on-licensing/assign-teams-add-on-licenses.md)

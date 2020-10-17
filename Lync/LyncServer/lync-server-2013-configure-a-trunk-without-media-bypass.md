@@ -12,20 +12,22 @@ ms:contentKeyID: 48183825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7216b6c3003ab30a31a9181e11d725c4827f0584
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8fce45563538b41773f76a8733b1c226454e6f76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205230"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523121"
 ---
+# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013
+
 
 </div>
 
@@ -139,7 +141,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
     
 
     > [!IMPORTANT]  
-    > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue de serveur de médiation associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle RTC ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de jonction ne soit pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tout autre système en aval connecté via Lync. Serveurs.
+    > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue de serveur de médiation associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle RTC ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de jonction ne soit pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tout autre système en aval connecté via Lync Server.
 
     
     </div>
