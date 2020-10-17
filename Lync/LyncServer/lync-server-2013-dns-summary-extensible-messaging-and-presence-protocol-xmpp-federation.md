@@ -1,5 +1,6 @@
 ---
 title: Résumé des enregistrements DNS-Fédération XMPP (extensible Messaging and Presence Protocol)
+description: Résumé des enregistrements DNS-Fédération XMPP (extensible Messaging and Presence Protocol).
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49105655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ac2e44382aa75b61ae4e2966b5ef87fd977e798
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b8088e30c93faa52c575fefa97e572ed20b6ad9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532131"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544800"
 ---
-# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="a04ff-102">Résumé des enregistrements DNS-Fédération XMPP (extensible Messaging and Presence Protocol) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a04ff-102">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="aa5be-103">Résumé des enregistrements DNS-Fédération XMPP (extensible Messaging and Presence Protocol) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa5be-103">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48532131"
 
 <span> </span>
 
-<span data-ttu-id="a04ff-103">_**Dernière modification de la rubrique :** 2014-04-08_</span><span class="sxs-lookup"><span data-stu-id="a04ff-103">_**Topic Last Modified:** 2014-04-08_</span></span>
+<span data-ttu-id="aa5be-104">_**Dernière modification de la rubrique :** 2014-04-08_</span><span class="sxs-lookup"><span data-stu-id="aa5be-104">_**Topic Last Modified:** 2014-04-08_</span></span>
 
-<span data-ttu-id="a04ff-104">Pour configurer le protocole XMPP (extensible Messaging and Presence Protocol) pour votre déploiement, vous devez créer deux enregistrements DNS (Domain Name System) dans un serveur DNS externe qui résoudra les enregistrements vers le service Edge d’accès de votre serveur Edge ou pool de serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="a04ff-104">To configure extensible messaging and presence protocol (XMPP) for your deployment, you create two Domain Name System (DNS) records in an external DNS server that will resolve the records to the Access Edge service of your Edge Server or Edge pool.</span></span>
+<span data-ttu-id="aa5be-105">Pour configurer le protocole XMPP (extensible Messaging and Presence Protocol) pour votre déploiement, vous devez créer deux enregistrements DNS (Domain Name System) dans un serveur DNS externe qui résoudra les enregistrements vers le service Edge d’accès de votre serveur Edge ou pool de serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="aa5be-105">To configure extensible messaging and presence protocol (XMPP) for your deployment, you create two Domain Name System (DNS) records in an external DNS server that will resolve the records to the Access Edge service of your Edge Server or Edge pool.</span></span>
 
 <div>
 
-## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="a04ff-105">Résumé DNS pour le protocole XMPP</span><span class="sxs-lookup"><span data-stu-id="a04ff-105">DNS Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="aa5be-106">Résumé DNS pour le protocole XMPP</span><span class="sxs-lookup"><span data-stu-id="aa5be-106">DNS Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -55,24 +56,24 @@ ms.locfileid: "48532131"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a04ff-106">Emplacement/TYPE/port</span><span class="sxs-lookup"><span data-stu-id="a04ff-106">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="a04ff-107">FQDN</span><span class="sxs-lookup"><span data-stu-id="a04ff-107">FQDN</span></span></th>
-<th><span data-ttu-id="a04ff-108">Adresse IP/Enregistrement d’hôte FQDN</span><span class="sxs-lookup"><span data-stu-id="a04ff-108">IP address/FQDN host record</span></span></th>
-<th><span data-ttu-id="a04ff-109">Mappage à/Commentaires</span><span class="sxs-lookup"><span data-stu-id="a04ff-109">Maps to/Comments</span></span></th>
+<th><span data-ttu-id="aa5be-107">Emplacement/TYPE/port</span><span class="sxs-lookup"><span data-stu-id="aa5be-107">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="aa5be-108">FQDN</span><span class="sxs-lookup"><span data-stu-id="aa5be-108">FQDN</span></span></th>
+<th><span data-ttu-id="aa5be-109">Adresse IP/Enregistrement d’hôte FQDN</span><span class="sxs-lookup"><span data-stu-id="aa5be-109">IP address/FQDN host record</span></span></th>
+<th><span data-ttu-id="aa5be-110">Mappage à/Commentaires</span><span class="sxs-lookup"><span data-stu-id="aa5be-110">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a04ff-110">DNS externe/SRV/5269</span><span class="sxs-lookup"><span data-stu-id="a04ff-110">External DNS/SRV/5269</span></span></p></td>
-<td><p><span data-ttu-id="a04ff-111">_xmpp-server._tcp. contoso. com</span><span class="sxs-lookup"><span data-stu-id="a04ff-111">_xmpp-server._tcp.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="a04ff-112">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="a04ff-112">xmpp.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="a04ff-113">Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération autant que nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés dans la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée à l’utilisateur à extension Lync.</span><span class="sxs-lookup"><span data-stu-id="a04ff-113">XMPP proxy external interface on the Access Edge service or Edge pool.Repeat as necessary for all internal SIP domains with Lync enabled users where contact with XMPP contacts is allowed through the configuration of the External Access Policy through a global policy, site policy where the user is located, or user policy applied to the Lync-enabled user.</span></span> <span data-ttu-id="a04ff-114">Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP.</span><span class="sxs-lookup"><span data-stu-id="a04ff-114">An allowed XMPP domain must also be configured in the XMPP Federated Partners policy.</span></span> <span data-ttu-id="a04ff-115">Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</span><span class="sxs-lookup"><span data-stu-id="a04ff-115">See topics in <strong>See Also</strong> for additional details</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-111">DNS externe/SRV/5269</span><span class="sxs-lookup"><span data-stu-id="aa5be-111">External DNS/SRV/5269</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-112">_xmpp-server._tcp. contoso. com</span><span class="sxs-lookup"><span data-stu-id="aa5be-112">_xmpp-server._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-113">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="aa5be-113">xmpp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-114">Interface externe du proxy XMPP sur le service Edge d’accès ou le pool de serveurs Edge. Répétez cette opération autant que nécessaire pour tous les domaines SIP internes avec des utilisateurs activés de Lync où les contacts XMPP sont autorisés dans la configuration de la stratégie d’accès externe par le biais d’une stratégie globale, de la stratégie de site où se trouve l’utilisateur ou de la stratégie de l’utilisateur appliquée à l’utilisateur à extension Lync.</span><span class="sxs-lookup"><span data-stu-id="aa5be-114">XMPP proxy external interface on the Access Edge service or Edge pool.Repeat as necessary for all internal SIP domains with Lync enabled users where contact with XMPP contacts is allowed through the configuration of the External Access Policy through a global policy, site policy where the user is located, or user policy applied to the Lync-enabled user.</span></span> <span data-ttu-id="aa5be-115">Un domaine XMPP autorisé doit également être configuré dans la stratégie des partenaires fédérés XMPP.</span><span class="sxs-lookup"><span data-stu-id="aa5be-115">An allowed XMPP domain must also be configured in the XMPP Federated Partners policy.</span></span> <span data-ttu-id="aa5be-116">Voir les rubriques de la <strong>section Voir aussi</strong> pour plus de détails</span><span class="sxs-lookup"><span data-stu-id="aa5be-116">See topics in <strong>See Also</strong> for additional details</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a04ff-116">DNS externe/A</span><span class="sxs-lookup"><span data-stu-id="a04ff-116">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="a04ff-117">xmpp.contoso.com (par exemple)</span><span class="sxs-lookup"><span data-stu-id="a04ff-117">xmpp.contoso.com (for example)</span></span></p></td>
-<td><p><span data-ttu-id="a04ff-118">Adresse IP du service Edge d’accès sur votre serveur Edge ou le pool de serveurs Edge qui héberge le proxy XMPP</span><span class="sxs-lookup"><span data-stu-id="a04ff-118">IP address of Access Edge service on your Edge Server or Edge pool hosting XMPP proxy</span></span></p></td>
-<td><p><span data-ttu-id="a04ff-119">Pointe vers le service Edge d’accès ou le pool de serveurs Edge qui héberge le service proxy XMPP.</span><span class="sxs-lookup"><span data-stu-id="a04ff-119">Points to the Access Edge service or Edge pool that hosts the XMPP proxy service.</span></span> <span data-ttu-id="a04ff-120">En général, l’enregistrement SRV que vous créez pointe vers cet enregistrement (A ou AAAA) d’hôte.</span><span class="sxs-lookup"><span data-stu-id="a04ff-120">Typically, the SRV record that you create will point to this host (A or AAAA) record</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-117">DNS externe/A</span><span class="sxs-lookup"><span data-stu-id="aa5be-117">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-118">xmpp.contoso.com (par exemple)</span><span class="sxs-lookup"><span data-stu-id="aa5be-118">xmpp.contoso.com (for example)</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-119">Adresse IP du service Edge d’accès sur votre serveur Edge ou le pool de serveurs Edge qui héberge le proxy XMPP</span><span class="sxs-lookup"><span data-stu-id="aa5be-119">IP address of Access Edge service on your Edge Server or Edge pool hosting XMPP proxy</span></span></p></td>
+<td><p><span data-ttu-id="aa5be-120">Pointe vers le service Edge d’accès ou le pool de serveurs Edge qui héberge le service proxy XMPP.</span><span class="sxs-lookup"><span data-stu-id="aa5be-120">Points to the Access Edge service or Edge pool that hosts the XMPP proxy service.</span></span> <span data-ttu-id="aa5be-121">En général, l’enregistrement SRV que vous créez pointe vers cet enregistrement (A ou AAAA) d’hôte.</span><span class="sxs-lookup"><span data-stu-id="aa5be-121">Typically, the SRV record that you create will point to this host (A or AAAA) record</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -82,13 +83,13 @@ ms.locfileid: "48532131"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a04ff-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a04ff-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa5be-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="aa5be-122">See Also</span></span>
 
 
-[<span data-ttu-id="a04ff-122">Configuration de la Fédération XMPP dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a04ff-122">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
+[<span data-ttu-id="aa5be-123">Configuration de la Fédération XMPP dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa5be-123">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
 
 
-[<span data-ttu-id="a04ff-123">Déterminer les exigences DNS pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a04ff-123">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
+[<span data-ttu-id="aa5be-124">Déterminer les exigences DNS pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa5be-124">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
   
 
 </div>

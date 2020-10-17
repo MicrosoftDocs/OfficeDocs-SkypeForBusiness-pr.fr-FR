@@ -1,5 +1,6 @@
 ---
 title: Administration des serveurs après la migration
+description: Administration des serveurs après la migration.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,14 +14,14 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dfc5162e2a624f1937e4d1b2751398f57ba8e21
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 24ea310f02a7622fbf3b73160714520d3c47ac3b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499851"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545000"
 ---
-# <a name="administering-servers-after-migration"></a><span data-ttu-id="04530-102">Administration des serveurs après la migration</span><span class="sxs-lookup"><span data-stu-id="04530-102">Administering servers after migration</span></span>
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="63e82-103">Administration des serveurs après la migration</span><span class="sxs-lookup"><span data-stu-id="63e82-103">Administering servers after migration</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,15 +39,15 @@ ms.locfileid: "48499851"
 
 <span> </span>
 
-<span data-ttu-id="04530-103">_**Dernière modification de la rubrique :** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="04530-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="63e82-104">_**Dernière modification de la rubrique :** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="63e82-104">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="04530-104">En règle générale, vous devez utiliser les outils d’administration qui correspondent à la version du serveur à gérer.</span><span class="sxs-lookup"><span data-stu-id="04530-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="04530-105">Vous ne pouvez pas installer les outils d’administration Lync Server 2010 et Lync Server 2013 sur le même ordinateur.</span><span class="sxs-lookup"><span data-stu-id="04530-105">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="04530-106">De plus, le panneau de configuration Lync Server 2013 n’est pas installé automatiquement sur chaque serveur.</span><span class="sxs-lookup"><span data-stu-id="04530-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="04530-107">Pour installer le panneau de configuration Lync Server 2013, suivez la procédure décrite dans la rubrique [install Lync server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="04530-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="63e82-105">En règle générale, vous devez utiliser les outils d’administration qui correspondent à la version du serveur à gérer.</span><span class="sxs-lookup"><span data-stu-id="63e82-105">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="63e82-106">Vous ne pouvez pas installer les outils d’administration Lync Server 2010 et Lync Server 2013 sur le même ordinateur.</span><span class="sxs-lookup"><span data-stu-id="63e82-106">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="63e82-107">De plus, le panneau de configuration Lync Server 2013 n’est pas installé automatiquement sur chaque serveur.</span><span class="sxs-lookup"><span data-stu-id="63e82-107">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="63e82-108">Pour installer le panneau de configuration Lync Server 2013, suivez la procédure décrite dans la rubrique [install Lync server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="63e82-108">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="04530-108">Après le déploiement d’un pool pilote Lync Server 2013, vous ne pouvez pas utiliser le générateur de topologies Lync Server 2010 ou le panneau de configuration Lync Server 2010 pour gérer les ressources Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="04530-108">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="04530-109">Vous devez utiliser les outils Lync Server 2013 pour gérer les ressources Lync Server 2013 et Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="04530-109">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
+> <span data-ttu-id="63e82-109">Après le déploiement d’un pool pilote Lync Server 2013, vous ne pouvez pas utiliser le générateur de topologies Lync Server 2010 ou le panneau de configuration Lync Server 2010 pour gérer les ressources Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="63e82-109">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="63e82-110">Vous devez utiliser les outils Lync Server 2013 pour gérer les ressources Lync Server 2013 et Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="63e82-110">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
 
 
 
