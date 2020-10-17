@@ -12,20 +12,22 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca674be0059a235439df637f07cb4ca834806d4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec153b237df086f3622acc70c104bddc64fef28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209430"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502611"
 ---
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Composants et topologies pour l’archivage dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Composants et topologies pour l’archivage dans Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ La fonctionnalité Archivage inclut les composants suivants :
 
   - **Stockage des données d’archivage**. Le stockage de données pour Lync Server 2013 peut être l’un des suivants :
     
-      - Stockage Exchange 2013. Si vous activez l’option d’intégration de Microsoft Exchange, les boîtes aux lettres utilisateur hébergées sur le serveur Exchange 2013 utilisent le stockage Exchange 2013 pour les données archivées, mais uniquement si elles ont été placées en conservation inaltérable.
+      - Stockage Exchange 2013. Si vous activez l’option intégration de Microsoft Exchange, les boîtes aux lettres utilisateur hébergées sur le serveur Exchange 2013 utilisent le stockage Exchange 2013 pour les données archivées, mais uniquement si les boîtes aux lettres ont été placées en conservation In-Place.
     
       - Stockage SQL Server. Si certains de vos utilisateurs sont hébergés sur Lync Server 2013, vous pouvez configurer des bases de données d’archivage qui exécutent une version prise en charge de SQL Server afin d’activer l’archivage pour ces utilisateurs.
 
@@ -69,7 +71,7 @@ Vous déployez l’archivage dans chaque pool où des utilisateurs ont besoin d�
 
   - Déploiement à l’aide de bases de données SQL Server distinctes
 
-Si votre déploiement Exchange 2013 n’inclut pas tous les utilisateurs dans votre déploiement Lync Server, vous devez utiliser l’intégration de Microsoft Exchange pour les utilisateurs dont les boîtes aux lettres sont hébergées sur des serveurs Exchange 2013 et vous devez déployer des bases de données SQL Server distinctes pour tous les autres Utilisateurs de Lync à utiliser pour l’archivage.
+Si votre déploiement Exchange 2013 n’inclut pas tous les utilisateurs dans votre déploiement Lync Server, vous devez utiliser l’intégration de Microsoft Exchange pour les utilisateurs dont les boîtes aux lettres sont hébergées sur des serveurs Exchange 2013 et vous devez déployer des bases de données SQL Server distinctes pour tous les autres utilisateurs Lync à utiliser pour l’archivage.
 
 </div>
 
@@ -77,7 +79,7 @@ Si votre déploiement Exchange 2013 n’inclut pas tous les utilisateurs dans vo
 
 ## <a name="supported-collocation"></a>Colocalisation prise en charge
 
-Lync Server 2013 prend en charge un grand nombre de scénarios de colocalisation, ce qui vous permet d’économiser des coûts matériels en exécutant plusieurs composants sur un seul serveur (si vous avez une petite organisation) ou pour exécuter des composants individuels sur des serveurs différents (si vous disposez d’un plus grand organisation qui a besoin d’une évolutivité et de performances). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants.
+Lync Server 2013 prend en charge un grand nombre de scénarios de colocalisation, ce qui vous permet d’économiser des coûts matériels en exécutant plusieurs composants sur un seul serveur (si vous avez une petite organisation) ou pour exécuter des composants individuels sur des serveurs différents (si votre organisation est de grande taille qui a besoin d’une évolutivité et de performances). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants.
 
 L’archivage est déployé sur les serveurs frontaux d’un pool ou de serveurs Standard Edition. Pour plus d’informations sur les composants qui peuvent être colocalisés, voir [prise en charge de la colocalisation des serveurs dans Lync server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de prise en charge.
 

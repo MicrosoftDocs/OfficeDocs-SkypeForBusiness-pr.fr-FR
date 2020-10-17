@@ -12,20 +12,22 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2da0884915f44246e316f80cb9fd35fb7aecaad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 331b2afbfa4b6c4147ffab3765af4e9e5031c190
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502871"
 ---
+# <a name="audiostream-table-in-lync-server-2013"></a>Table AudioStream dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostream-table-in-lync-server-2013"></a>Table AudioStream dans Lync Server 2013
+
 
 </div>
 
@@ -249,7 +251,7 @@ Chaque enregistrement représente un flux audio. Une ligne multimédia audio con
 <td><p>Taux moyen d’échantillons compressés générés par la réparation du contenu audio par rapport aux échantillons standard.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Entrant</strong></p></td>
+<td><p><strong>Entrants</strong></p></td>
 <td><p>légèrement</p></td>
 <td><p> </p></td>
 <td><p>Les données de flux du côté récepteur sont reçues.</p></td>
@@ -269,63 +271,63 @@ Chaque enregistrement représente un flux audio. Une ligne multimédia audio con
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalSD</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Écart-type pour les heures d’arrivée de gigue.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConcealRatioMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Ratio maximal de paquets masqués par la réparation.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConcealRatioSD</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Écart-type pour le rapport des paquets masqués par le réparer.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HealerPacketDropRatio</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Ratio de paquets supprimés par la réparation par rapport au nombre total de paquets reçus.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HealerFECPacketUsedRatio</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Rapport entre les paquets de correction d’erreur de transfert utilisés et le nombre total de paquets reçus.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MaxCompressedSamples</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Nombre maximal de paquets audio qui ont été compressés par le réparer.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Indique le pourcentage de temps pendant lequel l’appel se trouve dans un état de congestion de perte.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Indique le pourcentage de l’appel pendant lequel la congestion a été causée par le retard de l’arrivée des paquets réseau.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Indique le pourcentage de temps pendant lequel l’appel a eu accès aux ressources réseau.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -360,21 +362,21 @@ Chaque enregistrement représente un flux audio. Une ligne multimédia audio con
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -388,14 +390,14 @@ Chaque enregistrement représente un flux audio. Une ligne multimédia audio con
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
@@ -409,49 +411,49 @@ Chaque enregistrement représente un flux audio. Une ligne multimédia audio con
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Densité totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Durée totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DecodeStereoPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel décodé en stéréo.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AecRenderStereoPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel rendu stéréo par le suppresseur d’écho acoustique.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioPostFECPLR</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Taux de perte de paquets après la correction des erreurs de transfert a été appliquée.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EncodeStereoPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel codé en stéréo.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AecCaptureStereoPercent</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Pourcentage de l’appel capturé en tant que stéréo par le suppresseur d’écho acoustique.</p>
 <p>Cette chronique a été introduite dans Microsoft Lync Server 2013.</p></td>

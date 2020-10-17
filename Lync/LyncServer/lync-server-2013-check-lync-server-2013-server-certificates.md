@@ -12,20 +12,22 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c5e545bc00de48fa5590dc8c4b119a46ffe9e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f5e8465ce7f0343bea96ee6f0613b8725d0e540
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190367"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502701"
 ---
+# <a name="check-lync-server-2013-server-certificates"></a>Vérifier les certificats de serveur Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a>Vérifier les certificats de serveur Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les mois</p></td>
+<td><p>Mensuelle</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Get-CsCertificate. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Get-CsCertificate. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 
 ## <a name="description"></a>Description
 
-La cmdlet Get-CsCertificate vous permet d’extraire des informations sur chacun de vos certificats Lync Server. Cela est particulièrement important, car les certificats ont une date d’expiration intégrée. Par exemple, les certificats émis en privé expirent généralement après 12 mois. Si l’un de vos certificats Lync Server arrive à expiration, vous perdrez les fonctionnalités associées jusqu’à ce que ce certificat soit renouvelé ou remplacé.
+L’applet de commande Get-CsCertificate vous permet de récupérer des informations sur chacun de vos certificats Lync Server. Cela est particulièrement important, car les certificats ont une date d’expiration intégrée. Par exemple, les certificats émis en privé expirent généralement après 12 mois. Si l’un de vos certificats Lync Server arrive à expiration, vous perdrez les fonctionnalités associées jusqu’à ce que ce certificat soit renouvelé ou remplacé.
 
 </div>
 
@@ -134,7 +136,7 @@ WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-Si vous avez des problèmes de certificat, vous pouvez consulter la AlternativeNames configurée pour un certificat. À première vue, il semblerait qu’il s’agit d’un problème. Par défaut, en fonction de la taille de votre fenêtre de console, Get-CsCertificate peut ne pas être en mesure d’afficher tous les noms :
+Si vous avez des problèmes de certificat, vous pouvez consulter la AlternativeNames configurée pour un certificat. À première vue, il semblerait qu’il s’agit d’un problème. Par défaut, en fonction de la taille de la fenêtre de votre console, Get-CsCertificate risque de ne pas pouvoir afficher tous les noms :
 
 AlternativeNames : {sip.fabrikam.com, LYNC.fabrikam.com,
 

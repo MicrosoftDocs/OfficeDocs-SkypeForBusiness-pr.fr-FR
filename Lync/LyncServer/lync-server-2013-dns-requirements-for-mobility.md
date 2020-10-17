@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501431"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Configuration DNS requise pour la mobilité avec Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Configuration DNS requise pour la mobilité avec Lync Server 2013
+
 
 </div>
 
@@ -70,12 +72,12 @@ Vous devez créer l’un des enregistrements DNS internes suivants :
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 <td><p>Nom de domaine complet (FQDN) des services Web internes pour votre pool Directeur, si vous en avez un, ou pour votre pool frontal si vous ne disposez pas d’un directeur</p></td>
 </tr>
 <tr class="even">
 <td><p>A (hôte)</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 <td><p>Adresse IP interne des services Web (adresse IP virtuelle (VIP) si vous utilisez un programme d’équilibrage de la charge) de votre pool Directeur, si vous en avez un, ou de votre pool frontal si vous ne disposez pas d’un directeur</p></td>
 </tr>
 </tbody>
@@ -113,7 +115,7 @@ Vous devez créer l’un des enregistrements DNS externes suivants :
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls. _tcp. &lt;sipdomain&gt;</p>
+<td><p>_sipfederationtls _sipfederationtls._tcp. &lt;sipdomain&gt;</p>
 <p>Résout l’enregistrement d’hôte (A ou AAAA) pour le service Edge d’accès</p></td>
 <td><p>Pour prendre en charge le service de notifications et le service de notifications d’Apple, vous devez créer un enregistrement SRV pour chaque domaine SIP doté de clients Microsoft Lync mobile.</p>
 <div>

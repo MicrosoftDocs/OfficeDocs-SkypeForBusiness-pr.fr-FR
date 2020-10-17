@@ -12,20 +12,22 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8c2f5ed78bb228c4e650da983a1c82456c47b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3df30b2aa45fe9519d724f904e8b375bed794042
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180497"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502954"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Déployer le pool pilote Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Déployer le pool pilote Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-11-22_
 
 L’une des premières étapes requises pour la migration vers Lync Server 2013 consiste à déployer un pool pilote. Le pool pilote est l’endroit où vous testez la coexistence de Lync Server 2013 avec votre déploiement Office Communications Server 2007 R2. La coexistence est un état temporaire qui dure jusqu’à ce que vous ayez déplacé tous les utilisateurs et pools vers Lync Server 2013.
 
-Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un nouveau pool frontal. Vous devez déployer les mêmes fonctionnalités et charges de travail dans votre pool de pilotes Lync Server 2013 que vous avez dans votre pool Office Communications Server 2007 R2. Si vous avez déployé le serveur d’archivage, le serveur de surveillance ou System Center Operations Manager pour l’archivage ou la surveillance de votre environnement Office Communications Server 2007 R2, et que vous souhaitez continuer l’archivage ou la surveillance pendant la migration, vous devez Déployez également ces fonctionnalités dans votre environnement pilote. La version que vous avez déployée pour archiver ou surveiller votre environnement Office Communications Server 2007 R2 ne capture pas les données dans votre environnement Lync Server 2013.
+Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un nouveau pool frontal. Vous devez déployer les mêmes fonctionnalités et charges de travail dans votre pool de pilotes Lync Server 2013 que vous avez dans votre pool Office Communications Server 2007 R2. Si vous avez déployé le serveur d’archivage, le serveur de surveillance ou System Center Operations Manager pour l’archivage ou la surveillance de votre environnement Office Communications Server 2007 R2, et que vous souhaitez continuer l’archivage ou la surveillance tout au long de la migration, vous devez également déployer ces fonctionnalités dans votre environnement pilote. La version que vous avez déployée pour archiver ou surveiller votre environnement Office Communications Server 2007 R2 ne capture pas les données dans votre environnement Lync Server 2013.
 
 <div>
 
@@ -84,7 +86,7 @@ Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un n
     
     ![Page Sélectionner les fonctionnalités du pool frontal](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Page Sélectionner les fonctionnalités du pool frontal")
 
-8.  Sur la page **Sélectionner des rôles serveur colocalisés** , nous vous recommandons de colocaliser le serveur de médiation dans Lync Server 2013. Lors de la fusion d’une topologie héritée avec Lync Server 2013, nous vous recommandons de commencer par colocaliser le serveur de médiation Office Communications Server 2007 R2. Après avoir fusionné les topologies et configuré le serveur de médiation Lync Server 2013, vous pouvez décider s’il faut conserver le serveur de médiation colocalisé ou le remplacer par un serveur autonome lorsque vous déplacez le rôle de serveur de médiation vers Lync Server 2013 plus tard dans le déploiement. traitement.
+8.  Sur la page **Sélectionner des rôles serveur colocalisés** , nous vous recommandons de colocaliser le serveur de médiation dans Lync Server 2013. Lors de la fusion d’une topologie héritée avec Lync Server 2013, nous vous recommandons de commencer par colocaliser le serveur de médiation Office Communications Server 2007 R2. Après avoir fusionné les topologies et configuré le serveur de médiation Lync Server 2013, vous pouvez décider s’il faut conserver le serveur de médiation colocalisé, ou le remplacer par un serveur autonome lorsque vous déplacez le rôle de serveur de médiation vers Lync Server 2013 plus loin dans le processus de déploiement.
     
     ![Page pool frontal-sélection de rôles serveur colocalisés](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Page pool frontal-sélection de rôles serveur colocalisés")
 
@@ -100,7 +102,7 @@ Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un n
     
     ![Page définir le magasin SQL Server d’archivage](images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "Page définir le magasin SQL Server d’archivage")
 
-12. Sur la page **définir le magasin SQL Server de surveillance** , sélectionnez l’instance SQL Server créée précédemment pour Lync Server 2013. Cliquez sur**Terminer**.
+12. Sur la page **définir le magasin SQL Server de surveillance** , sélectionnez l’instance SQL Server créée précédemment pour Lync Server 2013. Cliquez sur **Terminer**.
 
 13. À partir du nœud supérieur du générateur de topologie, cliquez avec le bouton droit sur **Lync Server** et cliquez sur **modifier les propriétés.** Cliquez sur **URL simples**.
 

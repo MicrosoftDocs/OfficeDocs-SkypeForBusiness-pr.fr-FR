@@ -12,20 +12,22 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3319b7c99def298d617fdc4711b9f346f40212a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a94b7183be9927267796d3e2adaed12b3b71eaf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199497"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501631"
 ---
+# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>Créer des paramètres de configuration de qualité de l’expérience dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>Créer des paramètres de configuration de qualité de l’expérience dans Lync Server 2013
+
 
 </div>
 
@@ -86,7 +88,7 @@ Les paramètres de configuration QoE peuvent être créés à l’aide du pannea
 
 
 > [!NOTE]  
-> La cmdlet New-CsQoEConfiguration inclut des options supplémentaires qui ne sont pas disponibles dans le panneau de configuration Lync Server. Pour plus d’informations, consultez la rubrique d’aide <A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A> .
+> L’applet de commande New-CsQoEConfiguration inclut des options supplémentaires qui ne sont pas disponibles dans le panneau de configuration Lync Server. Pour plus d’informations, consultez la rubrique d’aide <A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A> .
 
 
 
@@ -122,7 +124,7 @@ Les paramètres de configuration QoE peuvent être créés à l’aide du pannea
 
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de paramètres de configuration QoE à l’aide d’applets de commande Windows PowerShell
 
-Vous pouvez créer des paramètres de configuration QoE à l’aide de Windows PowerShell et de la cmdlet New-CsQoEConfiguration. Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez créer des paramètres de configuration QoE à l’aide de Windows PowerShell et de l’applet de commande New-CsQoEConfiguration. Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

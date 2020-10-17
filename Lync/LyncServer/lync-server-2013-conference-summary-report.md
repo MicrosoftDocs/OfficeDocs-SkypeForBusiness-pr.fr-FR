@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213070"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502351"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Rapport de synthèse de conférence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Rapport de synthèse de conférence dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2014-09-03_
 
 Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence Microsoft Lync Server 2013. Par comparaison, une session d’égal à égal n’implique en général que 2 utilisateurs et ne nécessite pas l’utilisation des services de conférence Lync Server. Les activités d’égal à égal sont signalées dans le [rapport de synthèse des activités P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).
 
-Le rapport de synthèse de conférence non seulement vous indique le nombre de conférences organisées pendant une période donnée (toutes les heures, tous les jours, toutes les semaines, tous les mois), mais vous indique également le nombre total de personnes ayant participé à ces conférences, ainsi que le nombre total de conférences uniques. Organisateur.
+Le rapport de synthèse de conférence non seulement vous indique le nombre de conférences organisées pendant une période donnée (toutes les heures, tous les jours, toutes les semaines, tous les mois), mais vous indique également le nombre total de personnes ayant participé à ces conférences, ainsi que le nombre total de organisateurs de conférence uniques.
 
 Un organisateur « unique » est une personne qui planifie au moins une conférence. Par exemple, si Pilar Ackerman planifie une conférence, elle compte comme un organisateur unique. Si Ken Myer planifie 148 conférences, il compte aussi comme un organisateur unique. Le tableau ci-dessous répertorie 8 conférences planifiées, mais avec seulement trois organisateurs uniques (Ken Myer, Pilar Ackerman et David Ahs).
 
@@ -248,9 +250,9 @@ Le tableau suivant contient les informations fournies par le rapport de synthès
 <tbody>
 <tr class="odd">
 <td><p><strong>Toutes les heures</strong></p>
-<p><strong>Tous les jours</strong></p>
-<p><strong>Toutes les semaines</strong></p>
-<p><strong>Tous les mois</strong></p></td>
+<p><strong>Journalière</strong></p>
+<p><strong>Hebdomadaire</strong></p>
+<p><strong>Mensuelle</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Indique l’intervalle de temps sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 7/7/2012, vous disposez de l’affichage heure par heure de l’activité d’inscription de l’utilisateur à cette date.</p></td>
 </tr>

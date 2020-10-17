@@ -13,20 +13,22 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a940209c09f78b75e2a0f75f364841cdb018e2cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a2893d05230edbd261f7115a9be92bcd3275723
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503171"
 ---
+# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>Configuration de la passerelle XMPP sur Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>Configuration de la passerelle XMPP sur Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 4.  Dans la page **Demande différée ou immédiate**, cochez la case **Préparer la demande maintenant, mais l’envoyer plus tard**.
 
-5.  Dans la **page fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple,\\c\_:\_CERT exernal Edge. cer).
+5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, c : \\ CERT \_ exernal \_ Edge. cer).
 
 6.  Dans la page **Spécifier un autre modèle de certificat**, pour utiliser un autre modèle que le modèle WebServer par défaut, cochez la case **Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée**.
 
@@ -79,7 +81,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 10. Dans la page **Nom du sujet/Autres noms du sujet**, le système affiche les informations automatiquement renseignées par l’Assistant. Si d’autres noms du sujet doivent être ajoutés, spécifiez-les dans les deux étapes suivantes.
 
-11. Sur la page **paramètre du domaine SIP sur les autres noms du sujet** , activez la case à cocher domaine pour ajouter un SIP. \<entrée\> sipdomain à la liste des autres noms du sujet.
+11. Sur la page **paramètre du domaine SIP sur les autres noms du sujet** , activez la case à cocher domaine pour ajouter un SIP.\<sipdomain\> entrée de la liste des autres noms du sujet.
 
 12. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
     
@@ -124,13 +126,13 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 4.  Définissez les paramètres suivants :
 
-5.  **Domaine principal (**     obligatoire). Le domaine principal correspond au domaine de base du partenaire XMPP. Par exemple, vous pouvez entrer **fabrikam.com** comme nom de domaine du partenaire XMPP. Cette entrée est obligatoire.
+5.  **Domaine principal**     (Obligatoire). Le domaine principal correspond au domaine de base du partenaire XMPP. Par exemple, vous pouvez entrer **fabrikam.com** comme nom de domaine du partenaire XMPP. Cette entrée est obligatoire.
 
-6.  **Description**   la description est destinée aux notes ou à d’autres informations d’identification pour cette configuration particulière. Cette entrée est facultative.
+6.  **Description**     La description est destinée aux notes ou à d’autres informations d’identification pour cette configuration particulière. Cette entrée est facultative.
 
-7.  **Domaines**   supplémentaires les domaines supplémentaires sont des domaines qui font partie du domaine de votre partenaire XMPP qui doivent être inclus dans le cadre de la communication XMPP autorisée. Par exemple, si le domaine principal est **fabrikam.com**, vous devez répertorier tous les autres domaines sous fabrikam.com que vous communiquez avec par le biais de XMPP.
+7.  **Domaines supplémentaires**     Les domaines supplémentaires sont des domaines qui font partie du domaine de votre partenaire XMPP qui doivent être inclus dans le cadre de la communication XMPP autorisée. Par exemple, si le domaine principal est **fabrikam.com**, vous devez répertorier tous les autres domaines sous fabrikam.com que vous communiquez avec par le biais de XMPP.
 
-8.  **Type de partenaire**   le **type de partenaire** est obligatoire. Vous devez choisir l’une des options suivantes pour décrire et appliquer les contacts pouvant être ajoutés. Vous pouvez sélectionner l’une des options suivantes :
+8.  **Type**     de partenaire Le **type de partenaire** est un paramètre obligatoire. Vous devez choisir l’une des options suivantes pour décrire et appliquer les contacts pouvant être ajoutés. Vous pouvez sélectionner l’une des options suivantes :
     
       - **Fédéré** Un type de partenaire **fédéré** représente un niveau élevé de confiance entre le déploiement Lync Server et le partenaire XMPP.Ce type de partenaire est recommandé pour la fédération avec des serveurs XMPP dans la même entreprise ou si une relation entre entreprises est établie.Les contacts XMPP au sein des partenaires fédérés peuvent :
         
@@ -140,35 +142,35 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
         
         3.  afficher les notes de statut de l’utilisateur de Lync.
     
-      - **Vérifié public un** partenaire de la personne ayant **vérifié** le public est un fournisseur XMPP public approuvé pour vérifier l’identité de ses utilisateurs.Les contacts XMPP dans les réseaux Public vérifié peuvent ajouter des contacts Lync, afficher la présence de ces derniers et leur envoyer des messages instantanés sans autorisation explicite des utilisateurs de Lync.Les contacts XMPP dans les réseaux Public vérifié ne peuvent jamais afficher les notes de statut des utilisateurs de Lync.Ce paramètre n’est pas recommandé.
+      - **Public vérifié**   Un partenaire de service **public vérifié** est un fournisseur XMPP public approuvé pour vérifier l’identité de ses utilisateurs.Les contacts XMPP dans les réseaux Public vérifié peuvent ajouter des contacts Lync, afficher la présence de ces derniers et leur envoyer des messages instantanés sans autorisation explicite des utilisateurs de Lync.Les contacts XMPP dans les réseaux Public vérifié ne peuvent jamais afficher les notes de statut des utilisateurs de Lync.Ce paramètre n’est pas recommandé.
     
       - **Public non vérifié** Un partenaire **Public non vérifié** est un fournisseur XMPP public qui n’est pas autorisé à vérifier l’identité de ses utilisateurs. Les utilisateurs XMPP sur les réseaux de type Public non vérifié ne peuvent pas communiquer avec les utilisateurs Lync sauf lorsque ces derniers les ont expressément autorisés à les ajouter à leur liste de contacts. Les utilisateurs XMPP sur les réseaux de type public non vérifié ne peuvent jamais consulter les remarques sur le statut des utilisateurs. Ce paramètre est recommandé pour toutes les fédérations avec des fournisseurs XMPP publics comme Google Talk.
 
 9.  **Type de connexion :** définit les différentes règles et autres paramètres de rappel (dialback).
     
-      - **La négociation**   TLS définit les règles de négociation TLS. Un service XMPP peut nécessiter TLS, peut rendre TLS facultatif ou vous pouvez décider de ne pas prendre en charge TLS. Si vous choisissez Facultatif, le service XMPP est responsable de la décision sur la négociation obligatoire. Pour afficher tous les paramètres et détails possibles pour la négociation SASL, TLS et rappel, y compris les configurations d’erreur connues et non valides-voir [paramètres de négociation pour les partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
+      - **Négociation TLS**     Définit les règles de négociation TLS. Un service XMPP peut nécessiter TLS, peut rendre TLS facultatif ou vous pouvez décider de ne pas prendre en charge TLS. Si vous choisissez Facultatif, le service XMPP est responsable de la décision sur la négociation obligatoire. Pour afficher tous les paramètres et détails possibles pour la négociation SASL, TLS et rappel, y compris les configurations d’erreur connues et non valides-voir [paramètres de négociation pour les partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
         
-           - **Obligatoire**   le service XMPP nécessite la négociation TLS.
+           - **Obligatoire**     Le service XMPP nécessite la négociation TLS.
         
-           - **Facultatif**   le service XMPP indique que TLS est obligatoire pour la négociation.
+           - **Facultatif**     Le service XMPP indique que TLS est obligatoire pour la négociation.
         
-           - **Non pris en charge**   le service XMPP ne prend pas en charge TLS.
+           - **Non pris en charge**     Le service XMPP ne prend pas en charge TLS.
     
-      - **La négociation**   SASL définit les règles de négociation SASL. Un service XMPP peut nécessiter SASL, peut rendre SASL facultatif ou vous pouvez décider de ne pas prendre en charge SASL. Si vous choisissez Facultatif, le service XMPP est responsable de la décision sur la négociation obligatoire.
+      - **Négociation SASL**     Définit les règles de négociation SASL. Un service XMPP peut nécessiter SASL, peut rendre SASL facultatif ou vous pouvez décider de ne pas prendre en charge SASL. Si vous choisissez Facultatif, le service XMPP est responsable de la décision sur la négociation obligatoire.
         
-           - **Obligatoire**   le service XMPP nécessite une négociation SASL.
+           - **Obligatoire**     Le service XMPP requiert une négociation SASL.
         
-           - **Facultatif**   le service XMPP indique que SASL est obligatoire pour la négociation.
+           - **Facultatif**     Le service XMPP indique que SASL est obligatoire pour la négociation.
         
-           - **Non pris en charge**   le service XMPP ne prend pas en charge SASL.
+           - **Non pris en charge**     Le service XMPP ne prend pas en charge SASL.
     
       - **Prendre en charge la négociation rappel de serveur** Le processus de négociation rappel de serveur de prise en charge utilise le système DNS (Domain Name System) et un serveur faisant autorité pour vérifier que la demande provenait d’un partenaire XMPP valide. Pour ce faire, le serveur d’origine crée un message d’un type spécifique avec une clé rappel générée et recherche le serveur de réception dans le système DNS. Le serveur d’origine envoie la clé dans un flux XML à la recherche DNS résultante, vraisemblablement le serveur de réception. Lors de la réception de la clé sur le flux XML, le serveur de réception ne répond pas au serveur d’origine, mais envoie la clé à un serveur faisant autorité connu. Le serveur faisant autorité vérifie que la clé est valide ou non valide. S’il n’est pas valide, le serveur de réception ne répond pas au serveur d’origine. Si la clé est valide, le serveur de réception informe le serveur d’origine que l’identité et la clé sont valides et que la conversation peut commencer.
         
         Il existe deux états valides pour la **négociation de rappel** :
         
-           - **True**   le serveur XMPP est configuré pour utiliser la négociation rappel si une demande doit être reçue d’un serveur d’origine.
+           - **True**     Le serveur XMPP est configuré pour utiliser la négociation rappel si une demande doit être reçue d’un serveur d’origine.
         
-           - **False**   le serveur XMPP n’est pas configuré pour utiliser la négociation rappel et si une demande doit être reçue d’un serveur d’origine, elle sera ignorée.
+           - **Valeur false**     Le serveur XMPP n’est pas configuré pour utiliser la négociation rappel et si une demande doit être reçue d’un serveur d’origine, elle sera ignorée.
 
 10. Cliquez sur **Valider** pour enregistrer vos modifications du site ou de la stratégie de l’utilisateur.
 
@@ -178,7 +180,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 ## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Mettre à jour des enregistrements DNS pour la passerelle XMPP de Lync Server 2013
 
-1.  Pour configurer DNS pour la Fédération XMPP, vous devez ajouter l’enregistrement SRV suivant à votre DNS\_externe : XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet du serveur Edge d’accès du serveur Edge, avec une valeur de port de 5269.
+1.  Pour configurer DNS pour la Fédération XMPP, vous devez ajouter l’enregistrement SRV suivant à votre DNS externe : \_ XMPP-Server. \_ TCP.\<domain name\> L’enregistrement SRV est résolu en un nom de domaine complet du serveur Edge d’accès, avec une valeur de port de 5269.
 
 </div>
 

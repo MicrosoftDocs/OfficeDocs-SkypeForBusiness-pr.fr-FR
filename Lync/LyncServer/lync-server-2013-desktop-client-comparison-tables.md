@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501501"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tableaux de comparaison des clients de bureau pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tableaux de comparaison des clients de bureau pour Lync Server 2013
+
 
 </div>
 
@@ -123,7 +125,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Afficher l’État</p></td>
+<td><p>Afficher l’état</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1702,7 +1704,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 
 1 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, le service de surveillance de Lync 2010 n’est pas pris en charge.
 
-2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut conservation inaltérable de la boîte aux lettres Exchange de l’utilisateur.
+2 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut In-Place conservation de la boîte aux lettres Exchange de l’utilisateur.
 
 3 pour les utilisateurs de Skype entreprise Online, Microsoft 365 ou Office 365, l’archivage des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4c843bbe5c34aaf0ad98ca73e8ebd33820b87d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfdb6ae250e3ccb97f044892daa8ac11e7c1b99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502581"
 ---
+# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Composants et topologies pour les conférences dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Composants et topologies pour les conférences dans Lync Server 2013
+
 
 </div>
 
@@ -49,15 +51,15 @@ Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer l
 
 Outre la configuration requise pour la conférence Web et la conférence A/V, la Conférence rendez-vous utilise les composants Lync Server 2013 suivants :
 
-  - **Application service**   application service fournit une plateforme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. La Conférence rendez-vous utilise deux applications de communications unifiées qui nécessitent le service d’application : annonce du surveillant de conférence et de la Conférence. Le service d’application est installé et activé par défaut sur chaque serveur frontal dans un pool frontal et sur chaque serveur Standard Edition Server lorsque vous déployez une charge de travail Conférence et sélectionnez l’option de conférence rendez-vous.
+  - **Service**     d’application Application service fournit une plateforme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées (UC). La Conférence rendez-vous utilise deux applications de communications unifiées qui nécessitent le service d’application : annonce du surveillant de conférence et de la Conférence. Le service d’application est installé et activé par défaut sur chaque serveur frontal dans un pool frontal et sur chaque serveur Standard Edition Server lorsque vous déployez une charge de travail Conférence et sélectionnez l’option de conférence rendez-vous.
 
-  - ****   L’application de surveillance de conférence d’application du service de conférence est une application de communications unifiées qui accepte les appels PSTN (réseau téléphonique commuté), lance des invites et joint les appels à une conférence a/V. L’application de surveillance de conférence est installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
+  - Application de surveillance de **Conférence**     L’application de surveillance de conférence est une application de communications unifiées qui accepte les appels de réseau téléphonique commuté (PSTN), joue des invites et joint les appels à une conférence A/V. L’application de surveillance de conférence est installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
 
-  - **Annonce de conférence**   l’application d’annonce de conférence d’applications est une application de communications unifiées qui diffuse des tonalités et des invites aux participants PSTN sur certaines actions, comme lorsque les participants rejoignent ou quittent une conférence, les participants sont activés ou désactivés, une personne entre dans la salle d’attente ou la Conférence est verrouillée ou déverrouillée. L’application d’annonce de conférence prend également en charge les commandes de numérotation en fréquences vocales (DTMF) à partir du clavier du téléphone. L’application d’annonce de conférence est automatiquement installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
+  - Application d’annonce de **Conférence**     L’application d’annonce de conférence est une application de communications unifiées qui lit des tonalités et des invites aux participants PSTN sur certaines actions, comme lorsque les participants rejoignent ou quittent une conférence, les participants sont activés ou désactivés, une personne entre dans la salle d’attente ou la Conférence est verrouillée ou déverrouillée. L’application d’annonce de conférence prend également en charge les commandes de numérotation en fréquences vocales (DTMF) à partir du clavier du téléphone. L’application d’annonce de conférence est automatiquement installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
 
-  - **Page Paramètres de conférence**   rendez-vous la page Paramètres de conférence rendez-vous affiche les numéros de conférence rendez-vous avec leurs langues disponibles, les informations de conférence affectées (c’est-à-dire pour les réunions qui n’ont pas besoin d’être planifiées) et les contrôles DTMF de conférence, et prend en charge la gestion des informations sur les conférences et les numéros de conférence associés. La page Paramètres de conférence rendez-vous est automatiquement installée dans le cadre des services Web.
+  - Page Paramètres de conférence rendez **-**     vous La page Paramètres de conférence rendez-vous affiche les numéros de téléphone de conférence avec leurs langues disponibles, les informations de conférence affectées (c’est-à-dire, pour les réunions qui n’ont pas besoin d’être planifiées) et les contrôles DTMF de conférence, et prend en charge la gestion des informations sur les conférences et les numéros de conférence. La page Paramètres de conférence rendez-vous est automatiquement installée dans le cadre des services Web.
 
-  - **Lync Server 2013, serveur de médiation et**   Conférence rendez-vous de passerelle PSTN nécessite un serveur de médiation pour traduire la signalisation (et les médias, dans certaines configurations) entre Lync Server 2013 et la passerelle PSTN, ainsi qu’une passerelle PSTN pour traduire la signalisation et les médias entre le serveur de médiation et la passerelle PSTN. Pour la Conférence rendez-vous, vous devez déployer au moins un serveur de médiation et au moins l’un des éléments suivants :
+  - **Lync server 2013, serveur de médiation et passerelle PSTN**     La Conférence rendez-vous nécessite un serveur de médiation pour traduire la signalisation (et les médias, dans certaines configurations) entre Lync Server 2013 et la passerelle PSTN, ainsi qu’une passerelle PSTN pour traduire la signalisation et les médias entre le serveur de médiation et la passerelle PSTN. Pour la Conférence rendez-vous, vous devez déployer au moins un serveur de médiation et au moins l’un des éléments suivants :
     
       - Passerelle PSTN
     
@@ -74,13 +76,13 @@ Outre la configuration requise pour la conférence Web et la conférence A/V, la
     
     </div>
 
-  - ****   Le magasin de fichiers du magasin de fichiers est utilisé pour les fichiers audio de nom enregistrés. Le magasin de fichiers est un composant standard dans chaque déploiement Enterprise Edition ou Standard Edition.
+  - **Magasin**     de fichiers Le magasin de fichiers est utilisé pour les fichiers audio de nom enregistrés. Le magasin de fichiers est un composant standard dans chaque déploiement Enterprise Edition ou Standard Edition.
 
-  - ****   Le magasin d’utilisateurs du magasin d’utilisateurs est utilisé pour stocker les codes confidentiels de l’utilisateur Lync Server 2013. Les codes confidentiels sont hachés. Le magasin d’utilisateurs est un composant standard dans chaque déploiement Enterprise Edition ou Standard Edition.
+  - **Magasin**     d’utilisateurs Le magasin d’utilisateurs est utilisé pour stocker les codes confidentiels de l’utilisateur Lync Server 2013. Les codes confidentiels sont hachés. Le magasin d’utilisateurs est un composant standard dans chaque déploiement Enterprise Edition ou Standard Edition.
 
-  - **Panneau de configuration Lync Server**   certains paramètres de rendez-vous peuvent être configurés à l’aide du panneau de configuration Lync Server.
+  - **Panneau de configuration**     Lync Server Certains paramètres d’accès à distance peuvent être configurés à l’aide du panneau de configuration Lync Server.
 
-  - **Lync Server Management Shell**   tous les paramètres de rendez-vous peuvent être configurés à l’aide des applets de commande Lync Server Management Shell. Les applets de commande Lync Server Management Shell sont disponibles pour le déploiement, la configuration, l’exécution, la surveillance et le dépannage de l’application de surveillance de conférence et de l’application de conférence. Pour plus d’informations sur les cmdlets spécifiques, reportez-vous à la documentation Lync Server Management Shell.
+  - **Lync Server Management Shell**     Tous les paramètres d’accès à distance peuvent être configurés à l’aide des applets de commande Lync Server Management Shell. Les applets de commande Lync Server Management Shell sont disponibles pour le déploiement, la configuration, l’exécution, la surveillance et le dépannage de l’application de surveillance de conférence et de l’application de conférence. Pour plus d’informations sur les cmdlets spécifiques, reportez-vous à la documentation Lync Server Management Shell.
 
 </div>
 

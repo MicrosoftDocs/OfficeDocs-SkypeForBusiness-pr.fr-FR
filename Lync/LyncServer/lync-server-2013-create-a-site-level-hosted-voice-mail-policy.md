@@ -12,20 +12,22 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9518b605ed6c79418e58fd0d3f9aab0e4d493957
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e23f14b1db7c846d5dbaa0aa6861274a7b6a2611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195927"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501881"
 ---
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Créer une stratégie de messagerie vocale hébergée au niveau du site dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Créer une stratégie de messagerie vocale hébergée au niveau du site dans Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Pour plus d’informations sur la configuration des stratégies de site, voir la
     
     Cet exemple crée une stratégie de messagerie vocale hébergée avec l’étendue site et définit les paramètres suivants :
     
-      - **Identity** spécifie un identificateur unique pour la stratégie qui englobe l’étendue. Pour une stratégie avec étendue de site, la valeur du paramètre Identity doit être spécifiée `site:`dans le * \<nom\>* de format `site:Redmond`, par exemple.
+      - **Identity** spécifie un identificateur unique pour la stratégie qui englobe l’étendue. Pour une stratégie avec étendue de site, la valeur du paramètre Identity doit être spécifiée dans le format `site:` *\<name\>* , par exemple `site:Redmond` .
     
       - **Destination** spécifie le nom de domaine complet du service de messagerie unifiée Exchange hébergé. Ce paramètre est facultatif, mais si vous tentez d’activer un utilisateur pour la messagerie vocale hébergée alors que la stratégie affectée à l’utilisateur n’a pas de valeur Destination, l’activation échoue.
     

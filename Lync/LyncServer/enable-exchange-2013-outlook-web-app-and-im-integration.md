@@ -12,20 +12,22 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b2f06999b3f7dad3a6dfd92e5e2246b95105fbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da6866565df12ff4484124836f9164d2bf8c35c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502881"
 ---
+# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Activer Exchange 2013 Outlook Web App et l’intégration de la messagerie instantanée
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Activer Exchange 2013 Outlook Web App et l’intégration de la messagerie instantanée
+
 
 </div>
 
@@ -51,7 +53,7 @@ Pour activer l’intégration d’Exchange 2013 Outlook Web Access (OWA) et de l
     
     Celle-ci renvoie la valeur siteID correspondant à la valeur siteName dans laquelle vous créez le pool. Pour plus d’informations, reportez-vous à [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) dans la documentation de Lync Server 2013 Management Shell.
 
-3.  Exécutez la cmdlet suivante :
+3.  Exécutez la l’applet commande suivant :
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     

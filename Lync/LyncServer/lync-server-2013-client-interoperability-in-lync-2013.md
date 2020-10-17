@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502671"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Interopérabilité des clients dans Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Interopérabilité des clients dans Lync 2013
+
 
 </div>
 
@@ -436,7 +438,7 @@ Dans les réunions Lync Server 2013, certaines fonctionnalités de conférence s
 
 2 Lync Server 2013 utilise un mécanisme mis à jour pour télécharger des fichiers PowerPoint. Les utilisateurs de Lync Web App qui rejoignent une réunion initialement planifiée sur Lync Server 2010 peuvent afficher et naviguer dans les présentations PowerPoint, mais ne peuvent pas télécharger de fichiers PowerPoint.
 
-3 Si la réunion a été planifiée sur Lync Server 2013 et que les diapositives PowerPoint ont été téléchargées par un client Lync 2013, les utilisateurs de Lync 2010 disposent d’un accès en lecture seule aux diapositives. À l’inverse, si les diapositives PowerPoint ont été téléchargées par un utilisateur de Lync 2010, les utilisateurs de Lync Server 2013 peuvent visualiser et diapositives et, si Office Web Apps Server est configuré, accéder à de nouvelles fonctionnalités telles que l’affichage à haute résolution, les animations, les transitions de diapositives et vidéo incorporée. Pour plus d’informations, reportez-vous à la rubrique [configuration de l’intégration à Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+3 Si la réunion a été planifiée sur Lync Server 2013 et que les diapositives PowerPoint ont été téléchargées par un client Lync 2013, les utilisateurs de Lync 2010 disposent d’un accès en lecture seule aux diapositives. À l’inverse, si les diapositives PowerPoint ont été téléchargées par un utilisateur de Lync 2010, les utilisateurs de Lync Server 2013 peuvent afficher et diapositives et, si Office Web Apps Server est configuré, accéder à de nouvelles fonctionnalités telles que l’affichage de plus haute résolution, les animations, les transitions de diapositives et la vidéo incorporée. Pour plus d’informations, reportez-vous à la rubrique [configuration de l’intégration à Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
 les fonctionnalités de présence et de messagerie instantanée 4The dans Office Communicator 2007 R2 sont compatibles avec Lync Server 2013, mais pas les fonctionnalités de conférence. Lors de la migration à partir d’Office Communications Server 2007 R2, Office Communicator 2007 R2 convient à l’interopérabilité de la présence et de la messagerie instantanée, mais les utilisateurs doivent utiliser Lync Web App 2013 pour rejoindre des réunions Lync Server 2013.
 
@@ -450,11 +452,11 @@ les fonctionnalités de présence et de messagerie instantanée 4The dans Office
 
 La prise en charge par le serveur des différents compléments de planification reflète la compatibilité de la version du serveur et du client. En règle générale, les compléments de planification suivants sont pris en charge sur Lync Server 2013. Toutefois, les versions précédentes des compléments ne fournissent pas de nouvelles fonctionnalités de complément Lync 2013, telles que l’option de désactivation de l’audio et de la vidéo de tous les participants lors de l’entrée de la réunion.
 
-  - **Le complément de réunion en ligne pour Lync 2013**   fournit les mêmes fonctionnalités que le complément de réunion en ligne pour Lync 2010, avec l’ajout de contrôles muet des participants, qui permettent aux organisateurs de la réunion de planifier les conférences qui ont désactivé l’audio et la vidéo des participants par défaut. Les administrateurs peuvent également personnaliser les invitations aux réunions de l’organisation en ajoutant un logo personnalisé, une URL de support, une URL de clause d’exclusion de responsabilité ou un texte de pied de page personnalisé.
+  - **Complément de réunion en ligne pour Lync 2013**     Fournit les mêmes fonctionnalités que le complément de réunion en ligne pour Lync 2010, avec l’ajout de contrôles muet des participants, qui permettent aux organisateurs de la réunion de planifier des conférences avec audio et vidéo en sourdine par défaut. Les administrateurs peuvent également personnaliser les invitations aux réunions de l’organisation en ajoutant un logo personnalisé, une URL de support, une URL de clause d’exclusion de responsabilité ou un texte de pied de page personnalisé.
 
-  - **Le complément de réunion en ligne pour Lync 2010**   fournit une planification pour les réunions Lync et supprime la possibilité de planifier des conférences Office Live Meeting.
+  - **Complément de réunion en ligne pour Lync 2010**     Fournit la planification des réunions Lync et supprime la possibilité de planifier des conférences Office Live Meeting.
 
-  - **Office Communicator 2007 R2 Conferencing Add-in**   fournit la planification des conférences Office Live Meeting et Office Communicator 2007 R2. 
+  - Complément Office Communicator **2007 R2 Conferencing**     Fournit la planification des conférences Office Live Meeting et des conférences Office Communicator 2007 R2. 
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191507"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502501"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Composants et topologies pour le serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Composants et topologies pour le serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ L’installation de la dernière version du serveur de conversation permanente n
     
 
     > [!IMPORTANT]  
-    > Dans Lync Server 2013, les services Web de conversation permanente pour le chargement/téléchargement de fichiers sont colocalisés&nbsp;avec le serveur frontal Lync Server 2013.<BR>Les services Web de conversation permanente pour la gestion des salles de conversation sont également colocalisés avec le serveur frontal Lync Server 2013&nbsp;.
+    > Dans Lync Server 2013, les services Web de conversation permanente pour le chargement/téléchargement de fichiers sont colocalisés avec le serveur frontal Lync Server 2013 &nbsp; .<BR>Les services Web de conversation permanente pour la gestion des salles de conversation sont également colocalisés avec le serveur frontal Lync Server 2013 &nbsp; .
 
     
     </div>
@@ -83,7 +85,7 @@ Pour plus d’informations sur la configuration matérielle et logicielle requis
 
 ## <a name="supported-collocation"></a>Colocalisation prise en charge
 
-Lync Server 2013 prend en charge un grand nombre de scénarios de colocalisation, ce qui vous permet d’économiser les coûts matériels en exécutant plusieurs composants sur un serveur (si vous avez une petite organisation) ou pour exécuter des composants individuels sur des serveurs différents (si vous avez un grande organisation qui a besoin d’une évolutivité et de performances). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants.
+Lync Server 2013 prend en charge un grand nombre de scénarios de colocalisation, ce qui vous permet d’économiser les coûts matériels en exécutant plusieurs composants sur un seul serveur (si vous avez une petite organisation) ou pour exécuter des composants individuels sur des serveurs différents (si votre organisation est de grande taille qui a besoin d’une évolutivité et de performances). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants.
 
 Le service de conformité de conversation permanente, si la conformité est activée, est colocalisé avec le serveur frontal Lync Server 2013.
 
@@ -139,7 +141,7 @@ Vous pouvez ajouter un serveur de conversation permanente à votre déploiement 
 
 ## <a name="single-server-topology"></a>Topologie à serveur unique
 
-La configuration minimale et le déploiement le plus simple pour le serveur de conversation permanente est une seule topologie de serveur frontal de serveur de conversation permanente. Ce déploiement nécessite un serveur unique qui exécute le serveur de conversation permanente (qui exécute éventuellement le service de conformité, si la conformité est activée), un serveur qui héberge la base de données SQL Server et, si la conformité est requise, la base de données SQL Server pour stocker le données de conformité.
+La configuration minimale et le déploiement le plus simple pour le serveur de conversation permanente est une seule topologie de serveur frontal de serveur de conversation permanente. Ce déploiement nécessite un serveur unique qui exécute le serveur de conversation permanente (qui exécute éventuellement le service de conformité, si la conformité est activée), un serveur qui héberge la base de données SQL Server et, si la conformité est requise, la base de données SQL Server pour stocker les données de conformité.
 
 <div>
 

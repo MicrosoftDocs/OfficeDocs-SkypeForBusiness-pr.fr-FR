@@ -12,20 +12,22 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d09ad9555e9ef694baece8bf089eeaa06814f51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3b0617094c9dcab6b6eee0cf634440fea63cf16
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502161"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configuration de la découverte automatique dans Lync Server 2013 pour la mobilité avec des déploiements hybrides
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configuration de la découverte automatique dans Lync Server 2013 pour la mobilité avec des déploiements hybrides
+
 
 </div>
 
@@ -61,7 +63,7 @@ Pour permettre aux clients mobiles de découvrir le déploiement dans lequel le 
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    Où \[Identity\] est remplacé par le nom de domaine de l’espace d’adressage SIP partagé.
+    Où \[ Identity \] est remplacé par le nom de domaine de l’espace d’adressage SIP partagé.
 
 </div>
 

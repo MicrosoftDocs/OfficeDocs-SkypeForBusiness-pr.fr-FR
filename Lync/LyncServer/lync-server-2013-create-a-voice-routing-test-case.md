@@ -12,20 +12,22 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9fac6f65d1bb1c04b8d8597454df775f8545d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da110d7e3bfb7188384163cb572591d0bf7f8ff3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501771"
 ---
+# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Créer un cas de test de routage des communications vocales dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Créer un cas de test de routage des communications vocales dans Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Dernière modification de la rubrique :** 2014-02-07_
 
 5.  Dans **Nom**, tapez un nom unique pour le cas de test.
     
-    Le nom doit être unique parmi tous les cas de test de routage des communications vocales dans votre déploiement Voix Entreprise. Il peut comporter jusqu’à 32 caractères et peut contenir des caractères alphanumériques, outre la barre oblique inverse (\\), le point (.) ou le trait de soulignement (\_).
+    Le nom doit être unique parmi tous les cas de test de routage des communications vocales dans votre déploiement Voix Entreprise. Il peut comporter jusqu’à 32 caractères et peut contenir des caractères alphanumériques, outre la barre oblique inverse ( \\ ), le point (.) ou le trait de soulignement ( \_ ).
 
 6.  Dans **Numéro composé à tester**, tapez le numéro composé que vous souhaitez utiliser pour tester la configuration du routage que vous spécifiez pour ce cas de test. À partir du plan de numérotation, de l’itinéraire et de la stratégie de voix, ce numéro sera normalisé et affiché en sortie.
 
@@ -80,7 +82,7 @@ _**Dernière modification de la rubrique :** 2014-02-07_
     
     </div>
     
-    Si le plan de numérotation employé dans le test normalise les numéros de téléphone commençant par un signe plus (par exemple, + 12065551219), cette planification peut entraîner l’échec du test de routage des communications vocales. (Le plan de numérotation et l’itinéraire des communications vocales fonctionneront ; en fait, test-CsDialPlan réussira. Toutefois, le test de routage des communications vocales peut échouer.) Il s’agit d’une information à garder à l’esprit lors du test des itinéraires des communications vocales.
+    Si le plan de numérotation employé dans le test normalise les numéros de téléphone commençant par un signe plus (par exemple, + 12065551219), cette planification peut entraîner l’échec du test de routage des communications vocales. (Le plan de numérotation et l’itinéraire des communications vocales fonctionneront ; en fait, Test-CsDialPlan aboutira. Toutefois, le test de routage des communications vocales peut échouer.) Il s’agit d’une information à garder à l’esprit lors du test des itinéraires des communications vocales.
 
 </div>
 

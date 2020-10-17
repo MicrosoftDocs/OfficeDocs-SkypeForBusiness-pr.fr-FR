@@ -13,20 +13,22 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b89457c35bc9c9c0150b84ab34f4103776206ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20980f0f0b6697eada6c237aa8d2297b0fd227d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180777"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503301"
 ---
+# <a name="configure-the-client-experience-with-skype-for-business"></a>Configuration de l’expérience client avec Skype entreprise
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-client-experience-with-skype-for-business"></a>Configuration de l’expérience client avec Skype entreprise
+
 
 </div>
 
@@ -96,7 +98,7 @@ La commande suivante affecte la stratégie, SalesClientUI, à tous les membres d
 
 ## <a name="first-launch-client-behaviors"></a>Comportements de client de premier lancement
 
-Par défaut, lorsque les utilisateurs lancent Skype entreprise pour la première fois, ils voient toujours l’interface utilisateur de Skype entreprise, même si vous avez sélectionné l’expérience client Lync en définissant la valeur du paramètre EnableSkypeUI sur $False comme décrit précédemment. . Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
+Par défaut, lorsque les utilisateurs lancent Skype entreprise pour la première fois, ils voient toujours l’interface utilisateur de Skype entreprise, même si vous avez sélectionné l’expérience client Lync en définissant la valeur du paramètre EnableSkypeUI sur $False comme décrit précédemment. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
 
 Si vous souhaitez afficher l’interface utilisateur Lync lorsque les utilisateurs lancent le client Skype entreprise pour la première fois, suivez ces étapes avant le démarrage du client pour la première fois après sa mise à jour :
 
@@ -104,7 +106,7 @@ Si vous souhaitez afficher l’interface utilisateur Lync lorsque les utilisateu
 
 2.  Mettez à jour le registre système sur l’ordinateur de l’utilisateur. Vous devez effectuer cette opération avant la première exécution du client Skype entreprise, et vous ne devez effectuer cette opération qu’une seule fois. Pour plus d’informations sur la création d’un objet de stratégie de groupe pour mettre à jour le registre sur un ordinateur joint à un domaine, voir la section plus loin dans cette rubrique.
     
-    Dans la ** \[clé\_HKEY\_Current\\user\\Software\\Microsoft\\Office\] Lync** , créez une valeur **binaire** .
+    Dans la clé ** \[ HKEY \_ Current \_ User \\ Software \\ Microsoft \\ Office \\ \] Lync** , créez une valeur **binaire** .
     
     Le **nom** de la valeur doit être **EnableSkypeUI**et les **données de valeur** doivent être définies sur **00 00 00 00**.
     
@@ -124,7 +126,7 @@ L’interface utilisateur de Lync apparaît maintenant lorsque les utilisateurs 
 
 Lorsque les utilisateurs ouvrent le client Skype entreprise, le comportement par défaut consiste à afficher un écran d’accueil qui inclut *7 conseils rapides que la plupart des personnes demandent*. Vous pouvez désactiver l’affichage de l’écran d’accueil tout en autorisant les utilisateurs à accéder au didacticiel en ajoutant la valeur de Registre suivante sur l’ordinateur client :
 
-Dans la ** \[\_clé Microsoft\_\\Office\\\\15,0\\\\Lync\] Software User Software** , créez une nouvelle **valeur DWORD (32 bits)**. Le **nom** de la valeur doit être **IsBasicTutorialSeenByUser**et les **données de valeur** doivent être définies sur **1**.
+Dans la clé ** \[ \_ \_ \\ \\ Microsoft \\ Office \\ 15,0 \\ Lync \] Software User Software** , créez une nouvelle **valeur DWORD (32 bits)**. Le **nom** de la valeur doit être **IsBasicTutorialSeenByUser**et les **données de valeur** doivent être définies sur **1**.
 
 La clé doit ressembler à ce qui suit :
 
@@ -138,7 +140,7 @@ La clé doit ressembler à ce qui suit :
 
 Si vous ne souhaitez pas que vos utilisateurs puissent accéder au didacticiel, vous pouvez désactiver le didacticiel client avec la valeur de Registre suivante :
 
-Dans la ** \[\_clé Microsoft\_\\Office\\\\15,0\\\\Lync\] Software User Software** , créez une nouvelle **valeur DWORD (32 bits)**. Le **nom** de la valeur doit être **TutorialFeatureEnabled**et les **données de valeur** doivent être définies sur **0**.
+Dans la clé ** \[ \_ \_ \\ \\ Microsoft \\ Office \\ 15,0 \\ Lync \] Software User Software** , créez une nouvelle **valeur DWORD (32 bits)**. Le **nom** de la valeur doit être **TutorialFeatureEnabled**et les **données de valeur** doivent être définies sur **0**.
 
     "TutorialFeatureEnabled"=dword:00000000
 
@@ -358,7 +360,7 @@ Ensuite, vous devez lier l’objet de stratégie de groupe que vous avez créé 
     
     Vous devriez voir « objets de stratégie de groupe affectés » avec le nom de l’objet de stratégie de groupe que vous avez créé ci-dessous.
 
-Vous pouvez également vérifier que l’objet de stratégie de groupe a correctement mis à jour le registre sur l’ordinateur d’un utilisateur en examinant le registre. Ouvrez l’éditeur du Registre et accédez ** \[à\_la clé HKEY\\Current\\\_user\\Software\] Microsoft Office\\Lync** . Si l’objet GPO a correctement mis à jour le registre, vous verrez une valeur nommée EnableSkypeUI avec une valeur de 0.
+Vous pouvez également vérifier que l’objet de stratégie de groupe a correctement mis à jour le registre sur l’ordinateur d’un utilisateur en examinant le registre. Ouvrez l’éditeur du Registre et accédez à la clé ** \[ HKEY \_ Current \_ User \\ Software \\ Microsoft \\ Office \\ Lync \] ** . Si l’objet GPO a correctement mis à jour le registre, vous verrez une valeur nommée EnableSkypeUI avec une valeur de 0.
 
 </div>
 

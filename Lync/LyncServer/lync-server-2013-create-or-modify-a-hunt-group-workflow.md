@@ -12,20 +12,22 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e8fd10947bab25e522f35e9cd121a04abbb4a45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501681"
 ---
+# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Création ou modification d’un flux de travail de groupe de recherche dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Création ou modification d’un flux de travail de groupe de recherche dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
 
 
 > [!NOTE]  
-> Vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration Response Group pour créer et modifier les flux de travail de groupe de recherche. Vous pouvez accéder à l’outil de configuration Response Group à partir du panneau de configuration de Lync Server ou en ouvrant la page Web directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG>&lt;webpoolfqdn représente&gt;<STRONG>/RgsConfig</STRONG>.
+> Vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration Response Group pour créer et modifier les flux de travail de groupe de recherche. Vous pouvez accéder à l’outil de configuration Response Group à partir du panneau de configuration de Lync Server ou en ouvrant la page Web directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG> &lt; webpoolfqdn représente &gt; <STRONG>/RgsConfig</STRONG>.
 
 
 
@@ -67,7 +69,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     
 
     > [!NOTE]  
-    > L’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration Response Group directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG>&lt;webpoolfqdn représente&gt;<STRONG>/RgsConfig</STRONG>.
+    > L’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration Response Group directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG> &lt; webpoolfqdn représente &gt; <STRONG>/RgsConfig</STRONG>.
 
     
     </div>
@@ -137,7 +139,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     
 
     > [!NOTE]  
-    > N’incluez pas les&lt;caractères « »&gt;ou « » dans le nom d’affichage. N’utilisez pas les noms d’affichage suivants, car ils sont réservés : <STRONG>RGS Presence Watcher</STRONG> ou <STRONG>Service d’annonce</STRONG>.
+    > N’incluez pas les &lt; caractères « » ou « » &gt; dans le nom d’affichage. N’utilisez pas les noms d’affichage suivants, car ils sont réservés : <STRONG>RGS Presence Watcher</STRONG> ou <STRONG>Service d’annonce</STRONG>.
 
     
     </div>
@@ -173,7 +175,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
         
 
         > [!NOTE]  
-        > N’incluez pas de balises HTML dans le texte que vous entrez. Sinon, vous recevrez un message d’erreur.
+        > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
 
         
         </div>
@@ -265,11 +267,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     
       - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale \<est\>@\<NomUtilisateur\> nom_domaine (par exemple, Bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est \<username\> @ \<domainName\> (par exemple, Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l' \<utilisateur\>@\<est\>username nom_domaine.
+      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est \<username\> @ \<domainName\> .
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est \<le\>@\<numéro\> NomDomaine (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour rediriger l’appelant vers la destination appropriée.
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est \<number\> @ \<domainName\> (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
 24. Sous **Étape 5 Spécifier vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours où le groupe Response Group est fermé.
     
@@ -310,11 +312,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     
       - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale \<est\>@\<NomUtilisateur\> nom_domaine (par exemple, Bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est \<username\> @ \<domainName\> (par exemple, Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l' \<utilisateur\>@\<est\>username nom_domaine.
+      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est \<username\> @ \<domainName\> .
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est \<le\>@\<numéro\> NomDomaine (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est \<number\> @ \<domainName\> (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
 27. Sous **Étape 6 Configurer une file d’attente**, dans **Sélectionnez la file d’attente qui reçoit les appels**, sélectionnez la file d’attente sur laquelle mettre les appelants en attente de la disponibilité d’un agent.
 
@@ -397,7 +399,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     
         $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
     
-    Par exemple :
+    Par exemple :
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
