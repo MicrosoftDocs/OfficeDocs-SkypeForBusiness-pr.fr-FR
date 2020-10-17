@@ -12,20 +12,22 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ceb5061b467d8af4a33893eaa3408ddf89d5a54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f38e4c8782ca6d7c1aa152618fa4e4de1536e626
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500851"
 ---
+# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a><span data-ttu-id="735f5-102">Finalisation et implémentation de la conception de la topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="735f5-102">Finalizing and implementing the topology design in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a><span data-ttu-id="24a61-102">Finalisation et implémentation de la conception de la topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24a61-102">Finalizing and implementing the topology design in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42206180"
 
 <span> </span>
 
-<span data-ttu-id="24a61-103">_**Dernière modification de la rubrique :** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="24a61-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="735f5-103">_**Dernière modification de la rubrique :** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="735f5-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="24a61-104">Une fois que vous avez terminé la préparation de votre environnement, vous devez être prêt à finaliser et mettre en œuvre votre conception de topologie.</span><span class="sxs-lookup"><span data-stu-id="24a61-104">After you complete the preparation of your environment, you should be ready to finalize and implement your topology design.</span></span> <span data-ttu-id="24a61-105">Cela inclut l’utilisation du générateur de topologie pour publier votre topologie, ce qui est nécessaire pour installer les rôles serveur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="24a61-105">This includes using Topology Builder to publish your topology, which is required in order to install Lync Server 2013 server roles.</span></span>
+<span data-ttu-id="735f5-104">Une fois que vous avez terminé la préparation de votre environnement, vous devez être prêt à finaliser et mettre en œuvre votre conception de topologie.</span><span class="sxs-lookup"><span data-stu-id="735f5-104">After you complete the preparation of your environment, you should be ready to finalize and implement your topology design.</span></span> <span data-ttu-id="735f5-105">Cela inclut l’utilisation du générateur de topologie pour publier votre topologie, ce qui est nécessaire pour installer les rôles serveur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="735f5-105">This includes using Topology Builder to publish your topology, which is required in order to install Lync Server 2013 server roles.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="24a61-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="24a61-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="735f5-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="735f5-106">In This Section</span></span>
 
-  - [<span data-ttu-id="24a61-107">Installer la base de données de serveur Standard Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24a61-107">Install Standard Edition server database for Lync Server 2013</span></span>](lync-server-2013-install-standard-edition-server-database.md)
+  - [<span data-ttu-id="735f5-107">Installer la base de données de serveur Standard Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="735f5-107">Install Standard Edition server database for Lync Server 2013</span></span>](lync-server-2013-install-standard-edition-server-database.md)
 
-  - [<span data-ttu-id="24a61-108">Vérifier la conception de la topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24a61-108">Verify the topology design in Lync Server 2013</span></span>](lync-server-2013-verify-the-topology-design.md)
+  - [<span data-ttu-id="735f5-108">Vérifier la conception de la topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="735f5-108">Verify the topology design in Lync Server 2013</span></span>](lync-server-2013-verify-the-topology-design.md)
 
-  - [<span data-ttu-id="24a61-109">Publier la topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24a61-109">Publish the topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-topology.md)
+  - [<span data-ttu-id="735f5-109">Publier la topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="735f5-109">Publish the topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-topology.md)
 
 </div>
 

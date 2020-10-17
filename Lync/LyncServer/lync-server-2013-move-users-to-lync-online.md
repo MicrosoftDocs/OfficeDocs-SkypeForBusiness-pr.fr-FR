@@ -12,20 +12,22 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500571"
 ---
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a><span data-ttu-id="67a20-102">Déplacer des utilisateurs vers Lync Online dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="67a20-102">Move users to Lync Online in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a><span data-ttu-id="cc32e-102">Déplacer des utilisateurs vers Lync Online dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc32e-102">Move users to Lync Online in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "44221204"
 
 <span> </span>
 
-<span data-ttu-id="cc32e-103">_**Dernière modification de la rubrique :** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="cc32e-103">_**Topic Last Modified:** 2014-05-29_</span></span>
+<span data-ttu-id="67a20-103">_**Dernière modification de la rubrique :** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="67a20-103">_**Topic Last Modified:** 2014-05-29_</span></span>
 
-<span data-ttu-id="cc32e-104">Avant de commencer la migration des utilisateurs vers Lync Online, vous devez sauvegarder les données utilisateur associées aux comptes à déplacer.</span><span class="sxs-lookup"><span data-stu-id="cc32e-104">Before you start migrating users to Lync Online, you should backup the user data associated with the accounts to be moved.</span></span> <span data-ttu-id="cc32e-105">Toutes les données utilisateur ne sont pas déplacées avec le compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="cc32e-105">Not all user data is moved with the user account.</span></span> <span data-ttu-id="cc32e-106">Pour plus d’informations, consultez la rubrique [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : Data](lync-server-2013-backup-and-restoration-requirements-data.md).</span><span class="sxs-lookup"><span data-stu-id="cc32e-106">For information, see [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
+<span data-ttu-id="67a20-104">Avant de commencer la migration des utilisateurs vers Lync Online, vous devez sauvegarder les données utilisateur associées aux comptes à déplacer.</span><span class="sxs-lookup"><span data-stu-id="67a20-104">Before you start migrating users to Lync Online, you should backup the user data associated with the accounts to be moved.</span></span> <span data-ttu-id="67a20-105">Toutes les données utilisateur ne sont pas déplacées avec le compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="67a20-105">Not all user data is moved with the user account.</span></span> <span data-ttu-id="67a20-106">Pour plus d’informations, consultez la rubrique [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : Data](lync-server-2013-backup-and-restoration-requirements-data.md).</span><span class="sxs-lookup"><span data-stu-id="67a20-106">For information, see [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
 
 <div>
 
-## <a name="migrate-user-settings-to-lync-online"></a><span data-ttu-id="cc32e-107">Migrer les paramètres utilisateur vers Lync Online</span><span class="sxs-lookup"><span data-stu-id="cc32e-107">Migrate User Settings to Lync Online</span></span>
+## <a name="migrate-user-settings-to-lync-online"></a><span data-ttu-id="67a20-107">Migrer les paramètres utilisateur vers Lync Online</span><span class="sxs-lookup"><span data-stu-id="67a20-107">Migrate User Settings to Lync Online</span></span>
 
-<span data-ttu-id="cc32e-108">Les paramètres utilisateur sont déplacés avec le compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="cc32e-108">User settings are moved with the user account.</span></span> <span data-ttu-id="cc32e-109">Certains paramètres locaux ne sont pas déplacés avec le compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="cc32e-109">Some on-premises settings are not moved with the user account.</span></span>
+<span data-ttu-id="67a20-108">Les paramètres utilisateur sont déplacés avec le compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="67a20-108">User settings are moved with the user account.</span></span> <span data-ttu-id="67a20-109">Certains paramètres locaux ne sont pas déplacés avec le compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="67a20-109">Some on-premises settings are not moved with the user account.</span></span>
 
 </div>
 
 <div>
 
-## <a name="moving-pilot-users-to-lync-online"></a><span data-ttu-id="cc32e-110">Migration des utilisateurs pilotes vers Lync Online</span><span class="sxs-lookup"><span data-stu-id="cc32e-110">Moving Pilot Users to Lync Online</span></span>
+## <a name="moving-pilot-users-to-lync-online"></a><span data-ttu-id="67a20-110">Migration des utilisateurs pilotes vers Lync Online</span><span class="sxs-lookup"><span data-stu-id="67a20-110">Moving Pilot Users to Lync Online</span></span>
 
-<span data-ttu-id="cc32e-111">Avant de commencer à déplacer des utilisateurs vers Lync Online, vous souhaiterez peut-être déplacer quelques utilisateurs pilotes afin de vérifier que votre environnement est correctement configuré.</span><span class="sxs-lookup"><span data-stu-id="cc32e-111">Before you begin to move users to Lync Online, you may want to move a few pilot users to confirm that your environment is correctly configured.</span></span> <span data-ttu-id="cc32e-112">Vous pouvez ensuite vérifier que les fonctionnalités et services de Lync fonctionnent comme prévu avant de tenter de déplacer des utilisateurs supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="cc32e-112">You can then verify that Lync features and services function as expected before attempting to move additional users.</span></span>
+<span data-ttu-id="67a20-111">Avant de commencer à déplacer des utilisateurs vers Lync Online, vous souhaiterez peut-être déplacer quelques utilisateurs pilotes afin de vérifier que votre environnement est correctement configuré.</span><span class="sxs-lookup"><span data-stu-id="67a20-111">Before you begin to move users to Lync Online, you may want to move a few pilot users to confirm that your environment is correctly configured.</span></span> <span data-ttu-id="67a20-112">Vous pouvez ensuite vérifier que les fonctionnalités et services de Lync fonctionnent comme prévu avant de tenter de déplacer des utilisateurs supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="67a20-112">You can then verify that Lync features and services function as expected before attempting to move additional users.</span></span>
 
-<span data-ttu-id="cc32e-113">Pour déplacer un utilisateur local vers votre client Lync Online, exécutez les applets de commande suivantes dans Lync Server Management Shell à l’aide des informations d’identification d’administrateur de votre organisation Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="cc32e-113">To move an on-premises user to your Lync Online tenant, run the following cmdlets in the Lync Server Management Shell, using the administrator credentials for your Microsoft 365 or Office 365 organization.</span></span> <span data-ttu-id="cc32e-114">Remplacez « username@contoso.com » par les informations de l’utilisateur que vous souhaitez déplacer.</span><span class="sxs-lookup"><span data-stu-id="cc32e-114">Replace "username@contoso.com" with the information for the user that you want to move.</span></span>
+<span data-ttu-id="67a20-113">Pour déplacer un utilisateur local vers votre client Lync Online, exécutez les applets de commande suivantes dans Lync Server Management Shell à l’aide des informations d’identification d’administrateur de votre organisation Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="67a20-113">To move an on-premises user to your Lync Online tenant, run the following cmdlets in the Lync Server Management Shell, using the administrator credentials for your Microsoft 365 or Office 365 organization.</span></span> <span data-ttu-id="67a20-114">Remplacez « username@contoso.com » par les informations de l’utilisateur que vous souhaitez déplacer.</span><span class="sxs-lookup"><span data-stu-id="67a20-114">Replace "username@contoso.com" with the information for the user that you want to move.</span></span>
 
    ```PowerShell
     $creds=Get-Credential
@@ -63,27 +65,27 @@ ms.locfileid: "44221204"
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-<span data-ttu-id="cc32e-115">Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant : https://de \< nom de domaine complet du pool \> /HostedMigration/hostedmigrationService.svc.</span><span class="sxs-lookup"><span data-stu-id="cc32e-115">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span>
+<span data-ttu-id="67a20-115">Le format de l’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit être l’URL du pool où le service de migration hébergée est en cours d’exécution, au format suivant : https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc.</span><span class="sxs-lookup"><span data-stu-id="67a20-115">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span>
 
-<span data-ttu-id="cc32e-116">Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online pour votre compte d’organisation Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="cc32e-116">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.</span></span>
+<span data-ttu-id="67a20-116">Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du panneau de configuration Lync Online pour votre compte d’organisation Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="67a20-116">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.</span></span>
 
-<span data-ttu-id="cc32e-117">**Pour déterminer l’URL du service de migration hébergée pour votre organisation**</span><span class="sxs-lookup"><span data-stu-id="cc32e-117">**To determine the Hosted Migration Service URL for your organization**</span></span>
+<span data-ttu-id="67a20-117">**Pour déterminer l’URL du service de migration hébergée pour votre organisation**</span><span class="sxs-lookup"><span data-stu-id="67a20-117">**To determine the Hosted Migration Service URL for your organization**</span></span>
 
-1.  <span data-ttu-id="cc32e-118">Connectez-vous à votre organisation Microsoft 365 ou Office 365 en tant qu’administrateur.</span><span class="sxs-lookup"><span data-stu-id="cc32e-118">Login to your Microsoft 365 or Office 365 organization as an administrator.</span></span>
+1.  <span data-ttu-id="67a20-118">Connectez-vous à votre organisation Microsoft 365 ou Office 365 en tant qu’administrateur.</span><span class="sxs-lookup"><span data-stu-id="67a20-118">Login to your Microsoft 365 or Office 365 organization as an administrator.</span></span>
 
-2.  <span data-ttu-id="cc32e-119">Ouvrez le **Centre d’administration Lync**.</span><span class="sxs-lookup"><span data-stu-id="cc32e-119">Open the **Lync admin center**.</span></span>
+2.  <span data-ttu-id="67a20-119">Ouvrez le **Centre d’administration Lync**.</span><span class="sxs-lookup"><span data-stu-id="67a20-119">Open the **Lync admin center**.</span></span>
 
-3.  <span data-ttu-id="cc32e-120">Avec le **Centre d’administration Lync** affiché, sélectionnez et copiez l’URL dans la barre d’adresse jusqu’à **Lync.com**.</span><span class="sxs-lookup"><span data-stu-id="cc32e-120">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="cc32e-121">Un exemple d’URL doit ressembler à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="cc32e-121">An example URL looks similar to the following:</span></span>
+3.  <span data-ttu-id="67a20-120">Avec le **Centre d’administration Lync** affiché, sélectionnez et copiez l’URL dans la barre d’adresse jusqu’à **Lync.com**.</span><span class="sxs-lookup"><span data-stu-id="67a20-120">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="67a20-121">Un exemple d’URL doit ressembler à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="67a20-121">An example URL looks similar to the following:</span></span>
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  <span data-ttu-id="cc32e-122">Remplacez **webdir** dans l’URL par **administrateur**, de la façon suivante :</span><span class="sxs-lookup"><span data-stu-id="cc32e-122">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
+4.  <span data-ttu-id="67a20-122">Remplacez **webdir** dans l’URL par **administrateur**, de la façon suivante :</span><span class="sxs-lookup"><span data-stu-id="67a20-122">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
     
     `https://admin0a.online.lync.com`
 
-5.  <span data-ttu-id="cc32e-123">Ajoutez la chaîne suivante à l’URL : **/HostedMigration/hostedmigrationservice.svc**.</span><span class="sxs-lookup"><span data-stu-id="cc32e-123">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
+5.  <span data-ttu-id="67a20-123">Ajoutez la chaîne suivante à l’URL : **/HostedMigration/hostedmigrationservice.svc**.</span><span class="sxs-lookup"><span data-stu-id="67a20-123">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
     
-    <span data-ttu-id="cc32e-124">L’URL résultante, qui est la valeur de **HostedMigrationOverrideUrl**, doit ressembler à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="cc32e-124">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
+    <span data-ttu-id="67a20-124">L’URL résultante, qui est la valeur de **HostedMigrationOverrideUrl**, doit ressembler à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="67a20-124">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
@@ -91,13 +93,13 @@ ms.locfileid: "44221204"
 
 <div>
 
-## <a name="moving-users-to-lync-online"></a><span data-ttu-id="cc32e-125">Migration des utilisateurs vers Lync Online</span><span class="sxs-lookup"><span data-stu-id="cc32e-125">Moving Users to Lync Online</span></span>
+## <a name="moving-users-to-lync-online"></a><span data-ttu-id="67a20-125">Migration des utilisateurs vers Lync Online</span><span class="sxs-lookup"><span data-stu-id="67a20-125">Moving Users to Lync Online</span></span>
 
-<span data-ttu-id="cc32e-126">Vous pouvez déplacer plusieurs utilisateurs à l’aide de la cmdlet [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) avec le paramètre – Filter pour sélectionner les utilisateurs avec une propriété spécifique affectée aux comptes d’utilisateur, comme RegistrarPool.</span><span class="sxs-lookup"><span data-stu-id="cc32e-126">You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet with the –Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool.</span></span> <span data-ttu-id="cc32e-127">Vous pouvez ensuite rediriger les utilisateurs renvoyés vers l’applet de commande [Move-Csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) , comme indiqué dans l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="cc32e-127">You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet, as shown in the following example.</span></span>
+<span data-ttu-id="67a20-126">Vous pouvez déplacer plusieurs utilisateurs à l’aide de la cmdlet [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) avec le paramètre – Filter pour sélectionner les utilisateurs avec une propriété spécifique affectée aux comptes d’utilisateur, comme RegistrarPool.</span><span class="sxs-lookup"><span data-stu-id="67a20-126">You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet with the –Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool.</span></span> <span data-ttu-id="67a20-127">Vous pouvez ensuite rediriger les utilisateurs renvoyés vers l’applet de commande [Move-Csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) , comme indiqué dans l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="67a20-127">You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet, as shown in the following example.</span></span>
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
-<span data-ttu-id="cc32e-128">Vous pouvez également utiliser le paramètre – OU pour récupérer tous les utilisateurs dans l’unité d’organisation spécifiée, comme illustré dans l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="cc32e-128">You can also use the –OU parameter to retrieve all users in the specified OU, as shown in the following example.</span></span>
+<span data-ttu-id="67a20-128">Vous pouvez également utiliser le paramètre – OU pour récupérer tous les utilisateurs dans l’unité d’organisation spécifiée, comme illustré dans l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="67a20-128">You can also use the –OU parameter to retrieve all users in the specified OU, as shown in the following example.</span></span>
 
     Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds -HostedMigrationOverrideUrl <URL>
 
@@ -105,13 +107,13 @@ ms.locfileid: "44221204"
 
 <div>
 
-## <a name="verify-lync-online-user-settings-and-features"></a><span data-ttu-id="cc32e-129">Vérifier les paramètres et les fonctionnalités de l’utilisateur Lync Online</span><span class="sxs-lookup"><span data-stu-id="cc32e-129">Verify Lync Online User Settings and Features</span></span>
+## <a name="verify-lync-online-user-settings-and-features"></a><span data-ttu-id="67a20-129">Vérifier les paramètres et les fonctionnalités de l’utilisateur Lync Online</span><span class="sxs-lookup"><span data-stu-id="67a20-129">Verify Lync Online User Settings and Features</span></span>
 
-<span data-ttu-id="cc32e-130">Pour vérifier que l’utilisateur a été déplacé correctement, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="cc32e-130">You can verify that the user was moved successfully in the following ways:</span></span>
+<span data-ttu-id="67a20-130">Pour vérifier que l’utilisateur a été déplacé correctement, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="67a20-130">You can verify that the user was moved successfully in the following ways:</span></span>
 
-  - <span data-ttu-id="cc32e-131">Affichez l’état de l’utilisateur dans le panneau de configuration Lync Online.</span><span class="sxs-lookup"><span data-stu-id="cc32e-131">View the status of the user in the Lync Online Control Panel.</span></span> <span data-ttu-id="cc32e-132">L’indicateur visuel pour les utilisateurs locaux et les utilisateurs en ligne est différent.</span><span class="sxs-lookup"><span data-stu-id="cc32e-132">The visual indicator for on-premises users and online users is different.</span></span>
+  - <span data-ttu-id="67a20-131">Affichez l’état de l’utilisateur dans le panneau de configuration Lync Online.</span><span class="sxs-lookup"><span data-stu-id="67a20-131">View the status of the user in the Lync Online Control Panel.</span></span> <span data-ttu-id="67a20-132">L’indicateur visuel pour les utilisateurs locaux et les utilisateurs en ligne est différent.</span><span class="sxs-lookup"><span data-stu-id="67a20-132">The visual indicator for on-premises users and online users is different.</span></span>
 
-  - <span data-ttu-id="cc32e-133">Exécutez la cmdlet suivante :</span><span class="sxs-lookup"><span data-stu-id="cc32e-133">Run the following cmdlet:</span></span>
+  - <span data-ttu-id="67a20-133">Exécutez la l’applet commande suivant :</span><span class="sxs-lookup"><span data-stu-id="67a20-133">Run the following cmdlet:</span></span>
     
         Get-CsUser -Identity
 

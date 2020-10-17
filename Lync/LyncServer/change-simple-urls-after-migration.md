@@ -13,20 +13,22 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 029fe44d33d41b410d23068551203b1532893354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755324"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499691"
 ---
+# <a name="change-simple-urls-after-migration"></a><span data-ttu-id="ede9c-102">Modification des URL simples après la migration</span><span class="sxs-lookup"><span data-stu-id="ede9c-102">Change simple URLs after migration</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a><span data-ttu-id="15b49-102">Modification des URL simples après la migration</span><span class="sxs-lookup"><span data-stu-id="15b49-102">Change simple URLs after migration</span></span>
+
 
 </div>
 
@@ -36,41 +38,41 @@ ms.locfileid: "44755324"
 
 <span> </span>
 
-<span data-ttu-id="15b49-103">_**Dernière modification de la rubrique :** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="15b49-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="ede9c-103">_**Dernière modification de la rubrique :** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="ede9c-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="15b49-104">Lync Server prend en charge trois URL simples :</span><span class="sxs-lookup"><span data-stu-id="15b49-104">Lync Server supports three simple URLs:</span></span>
+<span data-ttu-id="ede9c-104">Lync Server prend en charge trois URL simples :</span><span class="sxs-lookup"><span data-stu-id="ede9c-104">Lync Server supports three simple URLs:</span></span>
 
-  - <span data-ttu-id="15b49-p101">**Meet** qui est l’URL de réunion de base pour toutes les conférences dans le site ou l’organisation. Avec l’URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre, à communiquer et à distribuer.</span><span class="sxs-lookup"><span data-stu-id="15b49-p101">**Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span>
+  - <span data-ttu-id="ede9c-p101">**Meet** qui est l’URL de réunion de base pour toutes les conférences dans le site ou l’organisation. Avec l’URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre, à communiquer et à distribuer.</span><span class="sxs-lookup"><span data-stu-id="ede9c-p101">**Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span>
 
-  - <span data-ttu-id="15b49-p102">**Dial-in** qui permet d’accéder à la page web Paramètres de conférence rendez-vous. L’URL simple Dial-in est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires.</span><span class="sxs-lookup"><span data-stu-id="15b49-p102">**Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span>
+  - <span data-ttu-id="ede9c-p102">**Dial-in** qui permet d’accéder à la page web Paramètres de conférence rendez-vous. L’URL simple Dial-in est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires.</span><span class="sxs-lookup"><span data-stu-id="ede9c-p102">**Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span>
 
-  - <span data-ttu-id="15b49-109">L' **administrateur** permet un accès rapide au panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="15b49-109">**Admin** enables quick access to the Lync Server Control Panel.</span></span> <span data-ttu-id="15b49-110">L’URL simple d’administration est interne à votre organisation.</span><span class="sxs-lookup"><span data-stu-id="15b49-110">The Admin simple URL is internal to your organization.</span></span>
+  - <span data-ttu-id="ede9c-109">L' **administrateur** permet un accès rapide au panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ede9c-109">**Admin** enables quick access to the Lync Server Control Panel.</span></span> <span data-ttu-id="ede9c-110">L’URL simple d’administration est interne à votre organisation.</span><span class="sxs-lookup"><span data-stu-id="ede9c-110">The Admin simple URL is internal to your organization.</span></span>
 
-<span data-ttu-id="15b49-111">Après avoir effectué la migration vers Lync Server 2013, vous devez savoir comment la modification influe sur vos enregistrements DNS et les certificats pour les URL simples.</span><span class="sxs-lookup"><span data-stu-id="15b49-111">After migrating to Lync Server 2013, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="15b49-112">Si le directeur Lync Server 2010 hérité reste utilisé dans la topologie, aucune modification de vos URL simples n’est requise.</span><span class="sxs-lookup"><span data-stu-id="15b49-112">If the legacy Lync Server 2010 Director remains in use in the topology, no changes to your simple URLs are required.</span></span> <span data-ttu-id="15b49-113">Si le directeur Lync Server 2010 est supprimé de la topologie après la migration, les enregistrements DNS d’URL simples doivent être mis à jour pour pointer vers l’un des pools Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="15b49-113">If the Lync Server 2010 Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Lync Server 2013 pools.</span></span> <span data-ttu-id="15b49-114">Cependant, lorsque vous modifiez le nom d’une URL simple, vous devez exécuter Enable-CsComputer sur chaque directeur et serveur frontal pour enregistrer la modification.</span><span class="sxs-lookup"><span data-stu-id="15b49-114">Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.</span></span>
+<span data-ttu-id="ede9c-111">Après avoir effectué la migration vers Lync Server 2013, vous devez savoir comment la modification influe sur vos enregistrements DNS et les certificats pour les URL simples.</span><span class="sxs-lookup"><span data-stu-id="ede9c-111">After migrating to Lync Server 2013, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="ede9c-112">Si le directeur Lync Server 2010 hérité reste utilisé dans la topologie, aucune modification de vos URL simples n’est requise.</span><span class="sxs-lookup"><span data-stu-id="ede9c-112">If the legacy Lync Server 2010 Director remains in use in the topology, no changes to your simple URLs are required.</span></span> <span data-ttu-id="ede9c-113">Si le directeur Lync Server 2010 est supprimé de la topologie après la migration, les enregistrements DNS d’URL simples doivent être mis à jour pour pointer vers l’un des pools Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ede9c-113">If the Lync Server 2010 Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Lync Server 2013 pools.</span></span> <span data-ttu-id="ede9c-114">Cependant, lorsque vous modifiez le nom d’une URL simple, vous devez exécuter Enable-CsComputer sur chaque directeur et serveur frontal pour enregistrer la modification.</span><span class="sxs-lookup"><span data-stu-id="ede9c-114">Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.</span></span>
 
 <div>
 
-## <a name="changing-simple-urls-after-migration"></a><span data-ttu-id="15b49-115">Modification des URL simples après la migration</span><span class="sxs-lookup"><span data-stu-id="15b49-115">Changing Simple URLs after Migration</span></span>
+## <a name="changing-simple-urls-after-migration"></a><span data-ttu-id="ede9c-115">Modification des URL simples après la migration</span><span class="sxs-lookup"><span data-stu-id="ede9c-115">Changing Simple URLs after Migration</span></span>
 
-<span data-ttu-id="15b49-116">**Pour mettre à jour l’URL simple Meet**</span><span class="sxs-lookup"><span data-stu-id="15b49-116">**To update the Meet simple URL**</span></span>
+<span data-ttu-id="ede9c-116">**Pour mettre à jour l’URL simple Meet**</span><span class="sxs-lookup"><span data-stu-id="ede9c-116">**To update the Meet simple URL**</span></span>
 
-1.  <span data-ttu-id="15b49-117">Dans le générateur de topologies, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="15b49-117">In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.</span></span>
+1.  <span data-ttu-id="ede9c-117">Dans le générateur de topologies, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="ede9c-117">In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.</span></span>
 
-2.  <span data-ttu-id="15b49-118">Sélectionnez **URL simples** dans le volet de gauche, puis sous URL de la **réunion :** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.</span><span class="sxs-lookup"><span data-stu-id="15b49-118">Select **Simple URLs** in the left pane, then below **Meeting URLs:** select the Meet URL and then click **Edit URL**.</span></span>
+2.  <span data-ttu-id="ede9c-118">Sélectionnez **URL simples** dans le volet de gauche, puis sous URL de la **réunion :** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.</span><span class="sxs-lookup"><span data-stu-id="ede9c-118">Select **Simple URLs** in the left pane, then below **Meeting URLs:** select the Meet URL and then click **Edit URL**.</span></span>
 
-3.  <span data-ttu-id="15b49-119">Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer.</span><span class="sxs-lookup"><span data-stu-id="15b49-119">Update the URL to the value you want, and then click **OK** to save the edited URL.</span></span>
+3.  <span data-ttu-id="ede9c-119">Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ede9c-119">Update the URL to the value you want, and then click **OK** to save the edited URL.</span></span>
 
-<span data-ttu-id="15b49-120">**Pour mettre à jour l’URL simple Admin**</span><span class="sxs-lookup"><span data-stu-id="15b49-120">**To update the Admin simple URL**</span></span>
+<span data-ttu-id="ede9c-120">**Pour mettre à jour l’URL simple Admin**</span><span class="sxs-lookup"><span data-stu-id="ede9c-120">**To update the Admin simple URL**</span></span>
 
-1.  <span data-ttu-id="15b49-121">Dans le générateur de topologies, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="15b49-121">In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.</span></span>
+1.  <span data-ttu-id="ede9c-121">Dans le générateur de topologies, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="ede9c-121">In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.</span></span>
 
-2.  <span data-ttu-id="15b49-122">Sélectionnez **URL simples** dans le volet gauche, en dessous de zone **URL d’accès administratif** , entrez l’URL simple souhaitée pour l’accès administratif au panneau de configuration Lync Server 2013, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="15b49-122">Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.</span></span>
+2.  <span data-ttu-id="ede9c-122">Sélectionnez **URL simples** dans le volet gauche, en dessous de zone **URL d’accès administratif** , entrez l’URL simple souhaitée pour l’accès administratif au panneau de configuration Lync Server 2013, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="ede9c-122">Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="15b49-123">Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin.</span><span class="sxs-lookup"><span data-stu-id="15b49-123">We recommend using the simplest possible URL for the Admin URL.</span></span> <span data-ttu-id="15b49-124">L’option la plus simple est <STRONG> https://admin .</STRONG> &lt; domaine &gt; .</span><span class="sxs-lookup"><span data-stu-id="15b49-124">The simplest option is <STRONG>https://admin.</STRONG>&lt;domain&gt;.</span></span>
+    > <span data-ttu-id="ede9c-123">Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin.</span><span class="sxs-lookup"><span data-stu-id="ede9c-123">We recommend using the simplest possible URL for the Admin URL.</span></span> <span data-ttu-id="ede9c-124">L’option la plus simple est <STRONG> https://admin .</STRONG> &lt; domaine &gt; .</span><span class="sxs-lookup"><span data-stu-id="ede9c-124">The simplest option is <STRONG>https://admin.</STRONG>&lt;domain&gt;.</span></span>
 
     
     </div>
@@ -79,10 +81,10 @@ ms.locfileid: "44755324"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="15b49-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="15b49-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ede9c-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ede9c-125">See Also</span></span>
 
 
-[<span data-ttu-id="15b49-126">Planification des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15b49-126">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
+[<span data-ttu-id="ede9c-126">Planification des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ede9c-126">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>
