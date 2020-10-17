@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : activation ou désactivation du contrôle de version du client'
+description: 'Lync Server 2013 : activation ou désactivation du contrôle de version du client.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73d2affed023c930a5fe9814d820148b4e850b68
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0bbd190e827e028efc37365c3cd8ecab16b35dac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532111"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546620"
 ---
 # <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Activer ou désactiver le contrôle de version du client dans Lync Server 2013
 

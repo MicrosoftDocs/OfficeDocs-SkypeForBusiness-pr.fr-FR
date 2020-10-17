@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : déplacer un périphérique de conférence vers un nouveau pool de serveurs d’inscriptions'
+description: 'Lync Server 2013 : déplacer un périphérique de conférence vers un nouveau pool de serveurs d’inscriptions.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef15dec14266d4813ecc11624caa4c11906e7329
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 852e6c53ce86129a25e5831d54b1afb2c87828d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500510"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548040"
 ---
 # <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>Déplacer un périphérique de conférence vers un nouveau pool de serveurs d’inscriptions dans Lync Server 2013
 

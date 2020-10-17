@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : activation ou désactivation de l’accès des utilisateurs distants'
+description: 'Lync Server 2013 : activer ou désactiver l’accès des utilisateurs distants.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f02281bdb47fc043d372f5b6e3842a70fe39316
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dea2d58c1978ac2d52365a4a453c40b38dd89c44
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547890"
 ---
 # <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Activer ou désactiver l’accès des utilisateurs distants dans Lync Server 2013
 

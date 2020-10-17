@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : nouvelles fonctionnalités de surveillance'
+description: 'Lync Server 2013 : nouvelles fonctionnalités de surveillance.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3043a18bd13e025485ec5338e26128b9f0c19ea
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6e117291ca72f296d59d53b63188824d045923a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534191"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546350"
 ---
 # <a name="new-monitoring-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de surveillance dans Lync Server 2013
 

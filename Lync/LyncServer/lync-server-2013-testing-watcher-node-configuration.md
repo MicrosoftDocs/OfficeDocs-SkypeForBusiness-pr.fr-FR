@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : test de la configuration du nœud observateur'
+description: 'Lync Server 2013 : test de la configuration du nœud observateur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f1eeb141eee011d7e06f5dd49e483e026484d733
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503811"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546840"
 ---
 # <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Test de la configuration du nœud observateur dans Lync Server 2013
 

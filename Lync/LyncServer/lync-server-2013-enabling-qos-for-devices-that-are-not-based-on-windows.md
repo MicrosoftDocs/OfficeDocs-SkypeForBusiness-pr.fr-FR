@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : activation de la qualité de service pour les appareils qui ne sont pas basés sur Windows'
+description: 'Lync Server 2013 : activation de la qualité de service pour les appareils qui ne sont pas basés sur Windows.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9fe6364e92fc6416a78ec49001e94193ae9731e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a09aaea599a28dae9bd2c227439da86e8761b10d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500931"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546450"
 ---
 # <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>Activation de la qualité de service dans Lync Server 2013 pour les appareils qui ne sont pas basés sur Windows
 

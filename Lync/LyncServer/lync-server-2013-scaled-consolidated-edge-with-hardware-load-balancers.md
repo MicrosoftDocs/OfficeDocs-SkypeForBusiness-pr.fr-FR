@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : serveur Edge consolidé ajusté avec des programmes d’équilibrage de la charge matérielle'
+description: 'Lync Server 2013 : serveur Edge consolidé ajusté avec des programmes d’équilibrage de la charge matérielle.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 125f9a598d2d768a7417489f1e2004a1cbb17cf8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 808c03e0d6f2836719599c6cad9ec83e1c96b207
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547650"
 ---
 # <a name="scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Serveur Edge consolidé ajusté avec des programmes d’équilibrage de la charge matérielle dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : test de l’appel téléphonique RTC'
+description: 'Lync Server 2013 : test de l’appel téléphonique RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abc46703118d27533ac2afd2b4b448ad9516bdd6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b42ea6dd46145961a34386d704f8f44e9b7909ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503971"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547400"
 ---
 # <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Test de l’appel téléphonique RTC dans Lync Server 2013
 

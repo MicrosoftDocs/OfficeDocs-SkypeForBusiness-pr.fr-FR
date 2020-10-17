@@ -1,5 +1,6 @@
 ---
 title: Serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques
+description: Serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b6f34a3af58e7c52d9728b7678be745d911cbc1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4d382fe7d25b4fae8c91073451d7d8b4f3f113b5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510992"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547670"
 ---
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013
 
