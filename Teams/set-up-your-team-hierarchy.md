@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944017"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526391"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -90,9 +90,9 @@ Lorsque vous ajoutez une colonne de compartiment, notez ce qui suit :
 
 Voici un exemple de fichier CSV de schéma qui sera créé pour prendre en charge la hiérarchie affichée dans l’image ci-dessus. Ce schéma contient les éléments suivants :
 
-- Trois colonnes obligatoires nommées `TargetName` , `ParentName` et`TeamId`
-- Trois colonnes d’attribut nommées `Store layout` , `Departments:Clothing` et`Departments:Foods`
-- Trois colonnes de compartiment nommées `Fresh Foods` , `Frozen Foods` et`Womenswear`
+- Trois colonnes obligatoires nommées `TargetName` , `ParentName` et `TeamId`
+- Trois colonnes d’attribut nommées `Store layout` , `Departments:Clothing` et `Departments:Foods`
+- Trois colonnes de compartiment nommées `Fresh Foods` , `Frozen Foods` et `Womenswear`
 
 L' `Store layout` attribut comporte des valeurs incluant `Compact` , `Standard` et `Large` . Les `Departments` colonnes d’attribut peuvent être définies sur une valeur égale à `0` (zéro) ou `1` . La `Store` disposition et les `Departments` attributs n’apparaissent pas dans l’image ci-dessus. Ils sont ajoutés ici pour vous permettre de montrer comment les attributs peuvent être ajoutés aux entrées de nœud. Le même vrai pour les trois colonnes de compartiment.
 
@@ -139,11 +139,28 @@ Remove-TeamTargetingHierarchy
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-### <a name="you-receive-an-error-message-when-you-upload-your-schema-file"></a>Vous recevez un message d’erreur lors du chargement de votre fichier de schéma
+### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>Vous recevez un message d’erreur lors du chargement de votre fichier CSV de schéma
 
 Prenez note du message d’erreur, car il devrait inclure des informations de dépannage pour indiquer la raison pour laquelle le schéma n’a pas pu être chargé. Examinez et modifiez votre fichier CSV de schéma en fonction des informations contenues dans le message d’erreur, puis réessayez.
 
-## <a name="related-topics"></a>Sujets associés
+### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>Le message d’erreur « erreur : InvalidTeamId » s’affiche lorsque vous téléchargez votre fichier CSV de schéma
+
+Lorsque vous essayez de télécharger votre fichier CSV de schéma, vous recevez le message d’erreur suivant :
+
+```console
+Error: InvalidTeamId
+Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
+```
+
+Vérifiez que vous utilisez le TeamId approprié pour l’équipe dans votre fichier CSV de schéma. Le TeamId doit être identique à l’ID du groupe Microsoft 365 qui sauvegardait l’équipe. Vous pouvez trouver l’ID du groupe de l’équipe dans le centre d’administration Microsoft Teams. 
+
+1. Dans le volet de navigation de gauche du [Centre d’administration de Microsoft teams](https://admin.teams.microsoft.com/), accédez à **teams**  >  **Manage teams**.
+2. Si la colonne **ID du groupe** ne s’affiche pas dans le tableau, sélectionnez Modifier les **colonnes** dans le coin supérieur droit de la table, puis activez l’option ID du **groupe**.
+3. Recherchez l’équipe dans la liste, puis recherchez l’ID du groupe.
+
+Assurez-vous que le TeamId de votre fichier CSV de schéma correspond à l’ID du groupe qui s’affiche dans le centre d’administration Microsoft Teams. 
+
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer l’application tâches pour votre organisation dans teams](manage-tasks-app.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

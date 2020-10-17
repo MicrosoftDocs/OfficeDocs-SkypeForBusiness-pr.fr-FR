@@ -12,20 +12,22 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e0bd9d635cc745c10836c58a331d2e36380e446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38126f54e02738b1f48b42022a9061055e271d18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525721"
 ---
+# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Supprimer un objet contact de téléphone de partie commune dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Supprimer un objet contact de téléphone de partie commune dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-02-20_
 
 Vous pouvez supprimer l’objet contact associé à un téléphone de partie commune. Par exemple, si vous supprimez le téléphone d’une salle d’employés, il n’est pas nécessaire qu’un objet contact soit associé à ce téléphone. L’applet de commande **Remove-CsCommonAreaPhone** vous permet de supprimer des comptes de téléphonie de partie commune. Lorsque vous exécutez cette applet de commande, le téléphone est supprimé de la liste des téléphones de partie commune renvoyée par **Get-CsCommonAreaPhone**. En outre, l’objet contact associé à ce téléphone est supprimé des services de domaine Active Directory.
 
-Utilisez **Remove-CsCommonAreaPhone** pour supprimer un téléphone de partie commune ou tous les téléphones de partie commune qui ont un élément commun, comme un nom d’affichage, un pays et un indicatif régional. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Utilisez **Remove-CsCommonAreaPhone** pour supprimer un téléphone de partie commune ou tous les téléphones de partie commune qui ont un élément commun, comme un nom d’affichage, un pays et un indicatif régional. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

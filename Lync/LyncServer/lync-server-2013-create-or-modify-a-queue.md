@@ -12,20 +12,22 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b805553349e6958671bc024cb862b296b74fc697
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4c85dd6da5ba15a6ce946c4e331e09c8617974
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186997"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525821"
 ---
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Création ou modification d’une file d’attente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Création ou modification d’une file d’attente dans Lync Server 2013
+
 
 </div>
 
@@ -95,11 +97,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> NomUtilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : \<username\> @ \<domainname\> (par exemple, SIP :Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au\<format\>@\<SIP\> : numéro nomdomaine (par exemple, SIP :+14255550121@contoso.com).
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au format SIP : \<number\> @ \<domainname\> (par exemple, SIP :+14255550121@contoso.com).
     
-      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<NomUtilisateur\>nom_domaine.
+      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP : \<username\> @ \<domainname\> .
     
       - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
 
@@ -115,11 +117,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> NomUtilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : \<username\> @ \<domainname\> (par exemple, SIP :Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au\<format\>@\<SIP\> : numéro nomdomaine (par exemple, SIP :+14255550121@contoso.com).
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au format SIP : \<number\> @ \<domainname\> (par exemple, SIP :+14255550121@contoso.com).
     
-      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<NomUtilisateur\>nom_domaine.
+      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP : \<username\> @ \<domainname\> .
     
       - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
 
@@ -148,7 +150,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    Par exemple :
+    Par exemple :
     
         "All agents are currently busy. Please call back later."
     
@@ -174,7 +176,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     </div>
     
-    Par exemple :
+    Par exemple :
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
@@ -182,7 +184,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    Par exemple :
+    Par exemple :
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     

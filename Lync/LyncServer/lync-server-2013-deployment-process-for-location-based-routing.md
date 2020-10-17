@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : processus de déploiement du routage géodépendant'
+title: 'Lync Server 2013 : processus de déploiement pour le routage des Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08def9741ad6ba4f91759e88a38fccdea0d44333
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f9d2dfa15dce07fa66678932d8d765ec7308ba75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526921"
 ---
+# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Processus de déploiement pour le routage des Location-Based dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Processus de déploiement pour le routage géodépendant dans Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42198307"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Cette rubrique fournit une vue d’ensemble du processus de configuration du routage géodépendant. Vous devez déployer Lync Server Enterprise Edition ou Standard Edition avec voix entreprise avant de configurer le routage géodépendant. Les composants requis par le routage géodépendant sont déjà installés et activés lorsque vous déployez voix entreprise.
+Cette rubrique fournit une vue d’ensemble du processus de configuration du routage des Location-Based. Vous devez déployer Lync Server Enterprise Edition ou Standard Edition avec voix entreprise avant de configurer le routage des Location-Based. Les composants requis par le routage des Location-Based sont déjà installés et activés lorsque vous déployez voix entreprise.
 
-### <a name="location-based-routing-deployment-process"></a>Processus de déploiement de routage géodépendant
+### <a name="location-based-routing-deployment-process"></a>Processus de déploiement de Location-Based routage
 
 <table>
 <colgroup>
@@ -58,7 +60,7 @@ Cette rubrique fournit une vue d’ensemble du processus de configuration du rou
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Déployer voix entreprise</p></td>
+<td><p>Déploiement de Voix Entreprise</p></td>
 <td><ul>
 <li><p>Configuration des jonctions</p></li>
 <li><p>Créer des stratégies de voix</p></li>
@@ -93,12 +95,12 @@ Créer ou modifier un site réseau<br />
 Associer un sous-réseau à un site réseau</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurer le routage géodépendant</p></td>
+<td><p>Configurer le routage des Location-Based</p></td>
 <td><ul>
 <li><p>Créer des stratégies de routage des communications vocales</p></li>
 <li><p>Définir une configuration de jonction distincte par jonction</p></li>
 <li><p>Modifier des stratégies de voix</p></li>
-<li><p>Activer la configuration du routage basé sur l’emplacement</p></li>
+<li><p>Activation de la configuration du routage des Location-Based</p></li>
 </ul></td>
 <td><p>CSVoiceAdmins<br />
 CsAdministrator<br />
@@ -113,7 +115,7 @@ CsServerAdministrator</p></td>
 
 ## <a name="sample-deployment"></a>Exemple de déploiement
 
-Le déploiement suivant est utilisé pour illustrer les mécanismes activés par le routage géodépendant.
+Le déploiement suivant est utilisé pour illustrer les mécanismes activés par Location-Based routage.
 
 ![e1bd2230-44DA-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44DA-4784-b359-24572b6ce02d")
 
@@ -121,7 +123,7 @@ Le déploiement suivant est utilisé pour illustrer les mécanismes activés par
 
 ## <a name="incoming-pstn-calls"></a>Appels RTC entrants
 
-Un administrateur peut activer la jonction définie pour acheminer les appels vers « site 1 Gateway » pour le routage géodépendant et associer la passerelle « site 1 » au site 1. Une fois activés, les appels routés via la passerelle « site 1 » seront acheminés uniquement vers les utilisateurs situés dans le site 1. Tous les appels acheminés via la jonction « passerelle de site 1 » destiné aux utilisateurs dans un autre site, tel que le site 2, sont bloqués pour empêcher le contournement de numéro de téléphone PSTN.
+Un administrateur peut activer la jonction définie pour acheminer les appels vers « site 1 Gateway » pour le routage des Location-Based et associer la passerelle « site 1 » au site 1. Une fois activés, les appels routés via la passerelle « site 1 » seront acheminés uniquement vers les utilisateurs situés dans le site 1. Tous les appels acheminés via la jonction « passerelle de site 1 » destiné aux utilisateurs dans un autre site, tel que le site 2, sont bloqués pour empêcher le contournement de numéro de téléphone PSTN.
 
 Tous les appels PSTN entrants via la passerelle « site 1 » seront uniquement autorisés à acheminer vers les points de terminaison situés dans le site 1. Par exemple, lorsque « Lync User 1 » se déplace vers le site 2, tous les appels RTC entrants via « passerelle de site 1 » ne sont pas routés vers les points de terminaison « Lync User 1 » situés dans le site 2. La règle de routage s’applique si « Lync User 1 » se déplace vers un site réseau inconnu où l’emplacement de l’utilisateur ne peut pas être déterminé.
 
@@ -162,7 +164,7 @@ Le tableau suivant décrit l’expérience utilisateur de « Lync User 1 » da
 
 Les itinéraires des communications vocales sont référencés dans les stratégies vocales attribuées directement aux utilisateurs, et les stratégies de routage des communications vocales affectées aux sites réseau. Les deux stratégies contiennent des références à des itinéraires, qui peuvent être utilisées pour acheminer un appel différemment. Par exemple, un administrateur peut définir une stratégie de routage des communications vocales pour tous les utilisateurs se trouvant dans le site réseau 1 pour acheminer tous les appels sortants via la passerelle « site 1 » tandis que la stratégie de voix de certains utilisateurs définit un itinéraire pour tous les appels sortants via la passerelle « site 2 ». Bien que ces utilisateurs se trouvent dans le site réseau 1, leurs appels sortants sont acheminés via la passerelle « site 1 ».
 
-Lorsqu’un utilisateur se trouve dans un site réseau configuré pour le routage géodépendant, l’itinéraire des stratégies de routage des communications vocales du site réseau remplace le chemin de la stratégie de voix de l’utilisateur. Cette règle est particulièrement utile pour les utilisateurs qui se déplacent temporairement sur un autre site. Dans ce cas particulier, un utilisateur utilisera toujours une passerelle locale pour son emplacement ; Si « Lync User 3 » se trouve sur « site 2 », tous ses appels sortants sont acheminés via « site 2 Gateway », mais s’il transite sur le site 1, tous les appels sortants passés alors qu’il se trouve sur le site 1 sont acheminés via « passerelle de site 1 ».
+Lorsqu’un utilisateur se trouve dans un site réseau configuré pour le routage de Location-Based, l’itinéraire des stratégies de routage des communications vocales du site réseau remplace l’itinéraire de stratégie de voix de l’utilisateur. Cette règle est particulièrement utile pour les utilisateurs qui se déplacent temporairement sur un autre site. Dans ce cas particulier, un utilisateur utilisera toujours une passerelle locale pour son emplacement ; Si « Lync User 3 » se trouve sur « site 2 », tous ses appels sortants sont acheminés via « site 2 Gateway », mais s’il transite sur le site 1, tous les appels sortants passés alors qu’il se trouve sur le site 1 sont acheminés via « passerelle de site 1 ».
 
 Le tableau suivant illustre l’expérience utilisateur de Lync User 1 à effectuer un appel sortant à partir des sites réseau suivants.
 
@@ -179,7 +181,7 @@ Le tableau suivant illustre l’expérience utilisateur de Lync User 1 à effect
 <th></th>
 <th>Site réseau 1</th>
 <th>Site réseau 2</th>
-<th>Site réseau inconnu ou non activé pour le routage géodépendant</th>
+<th>Site réseau inconnu ou non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -193,7 +195,7 @@ Le tableau suivant illustre l’expérience utilisateur de Lync User 1 à effect
 <td><p>Routage des appels sortants</p></td>
 <td><p>Stratégie de routage des communications vocales du site 1</p></td>
 <td><p>Stratégie de routage des communications vocales du site 2</p></td>
-<td><p>Stratégie de voix de l’utilisateur et uniquement aux systèmes non activés pour le routage géodépendant</p></td>
+<td><p>Stratégie de voix de l’utilisateur et uniquement aux systèmes qui ne sont pas activés pour le routage des Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -205,7 +207,7 @@ Le tableau suivant illustre l’expérience utilisateur de Lync User 1 à effect
 
 ## <a name="call-transfers-and-forwards"></a>Transferts et transferts d’appels
 
-Lorsque les appels sont transférés ou transférés, le routage des appels est affecté par le routage géodépendant.
+Lorsque les appels sont transférés ou transférés, le routage des appels est affecté par Location-Based routage.
 
 Le tableau suivant représente l’utilisateur Lync 1 qui transfère ou transfère un appel RTC à un autre utilisateur Lync.
 
@@ -222,7 +224,7 @@ Le tableau suivant représente l’utilisateur Lync 1 qui transfère ou transfè
 <th>Envoi ou transfert d’appel par un utilisateur</th>
 <th>Lync utilisateur 2</th>
 <th>Lync User 4</th>
-<th>Utilisateur Lync dans le site réseau non activé pour le routage géodépendant</th>
+<th>Utilisateur Lync dans le site réseau non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -236,7 +238,7 @@ Le tableau suivant représente l’utilisateur Lync 1 qui transfère ou transfè
 </table>
 
   
-Le tableau suivant illustre l’impact du routage géodépendant sur la façon dont l’appel est acheminé en fonction de l’emplacement de transfert de l’utilisateur Lync (Lync user 2, Lync User 4, etc.) vers un point de terminaison PSTN.
+Le tableau suivant illustre la manière dont le routage des Location-Based impacte le routage de l’appel en fonction de l’emplacement de transfert de l’utilisateur Lync (Lync user 2, Lync User 4, etc.) vers un point de terminaison PSTN.
 
 
 <table>
@@ -251,7 +253,7 @@ Le tableau suivant illustre l’impact du routage géodépendant sur la façon d
 <th>Point de terminaison où l’appel est transféré ou transféré vers</th>
 <th>Lync utilisateur 2</th>
 <th>Lync User 4</th>
-<th>Utilisateur Lync dans le site réseau non activé pour le routage géodépendant</th>
+<th>Utilisateur Lync dans le site réseau non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -273,7 +275,7 @@ Le tableau suivant illustre l’impact du routage géodépendant sur la façon d
 
 Une fois le routage géodépendant configuré dans l’exemple de topologie, les interactions suivantes sont appliquées.
 
-Le tableau suivant indique si le routage géodépendant autorise la sonnerie simultanée pour différents utilisateurs Lync (par exemple, Lync user 2, Lync User 4, etc.).
+Le tableau suivant indique si le routage des Location-Based autorise la sonnerie simultanée pour différents utilisateurs Lync (par exemple, Lync user 2, Lync User 4, etc.).
 
 
 <table>
@@ -288,7 +290,7 @@ Le tableau suivant indique si le routage géodépendant autorise la sonnerie sim
 <th>Cible d’appel RTC entrant</th>
 <th>Lync utilisateur 2</th>
 <th>Lync User 4</th>
-<th>Utilisateur Lync dans le site réseau non activé pour le routage géodépendant</th>
+<th>Utilisateur Lync dans le site réseau non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -302,7 +304,7 @@ Le tableau suivant indique si le routage géodépendant autorise la sonnerie sim
 </table>
 
   
-Le tableau suivant indique si le routage géodépendant autorise la sonnerie simultanée à un point de terminaison PSTN à partir de différents utilisateurs Lync (par exemple, Lync user 2, Lync User 4, etc.).
+Le tableau suivant indique si le routage des Location-Based autorise une sonnerie simultanée à un point de terminaison PSTN à partir de différents utilisateurs Lync (par exemple, Lync user 2, Lync User 4, etc.).
 
 
 <table>
@@ -317,7 +319,7 @@ Le tableau suivant indique si le routage géodépendant autorise la sonnerie sim
 <th>Cible annulaire simultanée</th>
 <th>Lync utilisateur 2</th>
 <th>Lync User 4</th>
-<th>Utilisateur Lync dans le site réseau non activé pour le routage géodépendant</th>
+<th>Utilisateur Lync dans le site réseau non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -325,7 +327,7 @@ Le tableau suivant indique si le routage géodépendant autorise la sonnerie sim
 <td><p>Téléphone mobile Lync User 1 (point de terminaison PSTN)</p></td>
 <td><p>Appel acheminé via la stratégie de routage des communications vocales du site réseau 1 et sortie via la passerelle site 1</p></td>
 <td><p>Appel acheminé via la stratégie de routage des communications vocales du site Network 2 et sortie via la passerelle site 2</p></td>
-<td><p>Appel acheminé via la stratégie de voix de l’appelant et sortie via une passerelle PSTN non activée pour le routage géodépendant</p></td>
+<td><p>Appel acheminé via la stratégie de voix de l’appelant et sortie via une passerelle PSTN non activée pour le routage des Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -340,7 +342,7 @@ Le tableau suivant indique si le routage géodépendant autorise la sonnerie sim
 ## <a name="see-also"></a>Voir aussi
 
 
-[Planification du routage géodépendant dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planification du routage des Location-Based dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

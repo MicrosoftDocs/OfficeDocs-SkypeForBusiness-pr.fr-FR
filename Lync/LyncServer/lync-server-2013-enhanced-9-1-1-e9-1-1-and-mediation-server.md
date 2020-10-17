@@ -12,20 +12,22 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a84b9eb5579a1f0931f3363e2e4071ea7c8ac5e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1620d9a4d1625335a52c474d608377bd2529425d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526801"
 ---
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Enhanced 9-1-1 (E9-1-1) et serveur de médiation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Enhanced 9-1-1 (E9-1-1) et serveur de médiation dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213440"
 
 _**Dernière modification de la rubrique :** 2012-09-29_
 
-Le serveur de médiation dispose de fonctionnalités étendues afin qu’il puisse interagir correctement avec les fournisseurs de services Enhanced 9-1-1 (E9-1-1). Aucune configuration spéciale n’est requise sur le serveur de médiation ; les extensions SIP requises pour l’interaction E9-1-1 sont, par défaut, incluses dans le protocole SIP du serveur de médiation pour ses interactions avec un homologue de passerelle (passerelle RTC, système IP-PBX ou contrôleur SBC d’un fournisseur de services de téléphonie Internet, y compris le service E9-1-1 Vide
+Le serveur de médiation dispose de fonctionnalités étendues afin qu’il puisse interagir correctement avec les fournisseurs de services Enhanced 9-1-1 (E9-1-1). Aucune configuration spéciale n’est requise sur le serveur de médiation ; les extensions SIP requises pour l’interaction E9-1-1 sont, par défaut, incluses dans le protocole SIP du serveur de médiation pour ses interactions avec un homologue de passerelle (passerelle RTC, système IP-PBX ou contrôleur SBC d’un fournisseur de services de téléphonie Internet, y compris des fournisseurs de services E9-1-1)
 
 La capacité du contrôleur de frontière de session E9-1-1 à interagir avec un pool de serveurs de médiation déterminera si la jonction SIP à un fournisseur de services E9-1-1 peut être raccordée à un pool de serveurs de médiation existant ou nécessitera des serveurs de médiation autonomes. Pour plus d’informations, voir [jonction M :N dans Lync Server 2013](lync-server-2013-m-n-trunk.md).
 

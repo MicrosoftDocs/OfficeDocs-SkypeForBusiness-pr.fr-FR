@@ -12,20 +12,22 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef5d0e51486ed6dca7c9ac17a991b0154c2f1135
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 50f9bd0929fff858a6e76cc41eccaf2930f0d0c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525671"
 ---
+# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>Suppression d’un numéro d’accès à une conférence rendez-vous dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>Suppression d’un numéro d’accès à une conférence rendez-vous dans Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Procédez comme suit pour supprimer un numéro d’accès de conférence rendez-
 
 ## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Suppression des numéros d’accès aux conférences rendez-vous à l’aide des applets de commande Windows PowerShell
 
-Les numéros d’accès aux conférences rendez-vous peuvent être supprimés à l’aide de Windows PowerShell et de l’applet de commande **Remove-applet csdialinconferencingaccessnumber** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les numéros d’accès aux conférences rendez-vous peuvent être supprimés à l’aide de Windows PowerShell et de l’applet de commande **Remove-applet csdialinconferencingaccessnumber** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

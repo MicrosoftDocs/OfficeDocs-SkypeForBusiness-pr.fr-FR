@@ -12,20 +12,22 @@ ms:contentKeyID: 48183276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8225d5be1582add6a7dfd1a025b53da7c9b403b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e8057dec3bb12fd2e51ecc85b177c83d08bb182
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186977"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525781"
 ---
+# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a>Création ou modification manuelle d’une règle de traduction dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a>Création ou modification manuelle d’une règle de traduction dans Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Effectuez cette procédure si vous voulez définir une règle de traduction en �
     
       - Dans **Règle de traduction**, spécifiez un modèle pour le format des numéros traduits.
     
-    Par exemple, si vous entrez ** ^ \\+ (\\d{9}\\d +) $** dans la **correspondance de ce modèle** et **011 $1** dans la **règle de traduction**, la règle convertit + 441235551010 en 011441235551010.
+    Par exemple, si vous entrez ** ^ \\ + ( \\ d {9} \\ d +) $** dans la **correspondance de ce modèle** et **011 $1** dans la **règle de traduction**, la règle convertit + 441235551010 en 011441235551010.
 
 8.  Cliquez sur **OK** pour enregistrer la règle de traduction.
 

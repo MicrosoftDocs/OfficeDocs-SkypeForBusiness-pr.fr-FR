@@ -12,20 +12,22 @@ ms:contentKeyID: 48184325
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 415cdcd247e815e83d31bd2339363929a5ded04c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8de7d29638a7d4a4ef8e480f85c0a310272f2863
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526691"
 ---
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Importer des cas de test de routage des communications vocales dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Importer des cas de test de routage des communications vocales dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196697"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Les scénarios de test vous permettent de tester les itinéraires des communications vocales au sein de votre organisation : vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la stratégie de voix à utiliser, et Lync Server 2013 peut ensuite vérifier que, étant donné ces conditions, le numéro fourni peut succes sfully être acheminé vers le réseau RTC.
+Les scénarios de test vous permettent de tester les itinéraires des communications vocales au sein de votre organisation : vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la stratégie de voix à utiliser, et Lync Server 2013 peut ensuite vérifier que, étant donné ces conditions, le numéro fourni peut être acheminé vers le réseau RTC.
 
 Les cas de test, qui peuvent être créés à l’aide du panneau de configuration Lync Server, sont généralement enregistrés uniquement sur le serveur où le cas a été initialement créé et exécuté. Cependant, il est possible d’exporter ces cas de test sous forme de fichiers XML (avec l’extension .vtest) et de les importer sur d’autres serveurs. Vous pouvez ainsi exécuter les mêmes tests sur différents ordinateurs situés à différents endroits de votre topologie.
 

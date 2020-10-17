@@ -12,20 +12,22 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2afd309f59a66a7117d43b930500a7807d493d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 151ebb138a1518e184c3b008605c259be533c788
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526121"
 ---
+# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Concepts communs de conférence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Concepts communs de conférence dans Lync Server 2013
+
 
 </div>
 
@@ -69,11 +71,11 @@ La fonctionnalité de serveur de surveillance peut capturer des enregistrements 
 
 Vous pouvez grandement augmenter les avantages de votre investissement dans la Conférence Lync Server 2013 en permettant aux utilisateurs externes de participer également à des conférences lorsqu’ils sont invités. Les utilisateurs externes peuvent inclure les catégories suivantes :
 
-  - **Utilisateurs distants**   les utilisateurs de votre organisation, lorsqu’ils travaillent à l’extérieur de vos pare-feu et qu’ils utilisent leur ordinateur portable ou d’autres appareils Lync Server 2013.
+  - Utilisateurs distants **Remote Users**     Les utilisateurs de votre organisation, lorsqu’ils travaillent à l’extérieur de vos pare-feu et qu’ils utilisent leur ordinateur portable ou d’autres appareils Lync Server 2013.
 
-  - **Utilisateurs fédérés**   les utilisateurs de sociétés avec qui exécutent également Lync Server 2013. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises.
+  - **Utilisateurs fédérés**     Les utilisateurs de sociétés avec qui exécutent également Lync Server 2013. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises.
 
-  - **Utilisateurs anonymes**   tous les autres utilisateurs externes qui sont invités spécifiquement par vos utilisateurs à participer à des conférences spécifiques. Un organisateur de réunion qui appartient à votre entreprise peut envoyer à un utilisateur externe, par courrier électronique, une invitation à participer à une conférence. Le courrier électronique inclut un lien sur lequel l’utilisateur externe peut cliquer pour prendre part à la conférence.
+  - **Utilisateurs**     anonymes Tout autre utilisateur externe qui est invité spécifiquement vos utilisateurs à participer à des conférences spécifiques. Un organisateur de réunion qui appartient à votre entreprise peut envoyer à un utilisateur externe, par courrier électronique, une invitation à participer à une conférence. Le courrier électronique inclut un lien sur lequel l’utilisateur externe peut cliquer pour prendre part à la conférence.
 
 Pour activer un ou l’ensemble de ces scénarios, vous devez déployer un serveur Edge pour permettre la sécurisation des communications entre votre déploiement Lync Server 2013 et les utilisateurs externes. La solution Lync Server 2013 utilisant des serveurs Edge offre un média de meilleure qualité que d’autres solutions, telles qu’un réseau privé virtuel (VPN). Pour plus d’informations, consultez la rubrique [planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 

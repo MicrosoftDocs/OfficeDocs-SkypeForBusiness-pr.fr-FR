@@ -12,20 +12,22 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf9d53d8702fbd9e63ec05af2c4942538f7298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 881e161a01b589db2db172cb5115858b522d262b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526231"
 ---
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Vérifier la configuration de la jonction par rapport à un numéro de téléphone dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Vérifier la configuration de la jonction par rapport à un numéro de téléphone dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les mois</p></td>
+<td><p>Mensuelle</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-applet cstrunkconfiguration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsTrunkConfiguration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTrunkConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ Les jonctions SIP connectent le réseau voix entreprise interne de Lync Server �
 
   - Un contrôleur de frontière de session (SBC).
 
-L’applet de commande test-applet cstrunkconfiguration vérifie qu’un numéro de téléphone (tel qu’il est composé par un utilisateur) peut être converti en réseau E. 164 et acheminé via une jonction SIP spécifiée.
+L’applet de commande Test-CsTrunkConfiguration vérifie qu’un numéro de téléphone (tel qu’il est composé par un utilisateur) peut être converti en réseau E. 164 et acheminé via une jonction SIP spécifiée.
 
 </div>
 
@@ -82,11 +84,11 @@ L’applet de commande test-applet cstrunkconfiguration vérifie qu’un numéro
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Pour exécuter la cmdlet Test-applet cstrunkconfiguration, vous devez d’abord utiliser la cmdlet Get-applet cstrunkconfiguration pour récupérer une instance de vos paramètres de configuration de jonction SIP ; cette instance est ensuite redirigée vers test-applet cstrunkconfiguration :
+Pour exécuter l’applet de commande Test-CsTrunkConfiguration, vous devez d’abord utiliser la cmdlet Get-CsTrunkConfiguration pour récupérer une instance de vos paramètres de configuration de jonction SIP ; cette instance est ensuite redirigée vers test-applet cstrunkconfiguration :
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-L’exécution de test-applet cstrunkconfiguration sans exécuter d’abord Get-applet cstrunkconfiguration ne fonctionne pas. Par exemple, cette commande échoue sans renvoyer de données :
+L’exécution d' Test-CsTrunkConfiguration sans exécuter d’abord Get-CsTrunkConfiguration ne fonctionne pas. Par exemple, cette commande échoue sans renvoyer de données :
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
@@ -94,7 +96,7 @@ Si vous avez plusieurs collections de paramètres de configuration de jonction S
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande test-applet cstrunkconfiguration.
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande Test-CsTrunkConfiguration.
 
 </div>
 
@@ -102,7 +104,7 @@ Pour plus d’informations, reportez-vous à la documentation de l’aide relati
 
 ## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si test-applet cstrunkconfiguration peut émettre un appel au numéro composé, le numéro de téléphone traduit (au format E. 164) et la règle utilisée pour convertir ce numéro de téléphone seront tous les deux affichés à l’écran :
+Si Test-CsTrunkConfiguration pouvez passer un appel au numéro composé, le numéro de téléphone traduit (au format E. 164) et la règle utilisée pour convertir ce numéro de téléphone seront tous les deux affichés à l’écran :
 
 TranslatedNumber MatchingRule
 
@@ -110,7 +112,7 @@ TranslatedNumber MatchingRule
 
 \+12065551219 global/Redmond
 
-Si le test échoue, test-applet cstrunkconfiguration renverra des valeurs de propriété vides :
+Si le test échoue, Test-CsTrunkConfiguration renvoie des valeurs de propriété vides :
 
 TranslatedNumber MatchingRule
 
@@ -122,7 +124,7 @@ TranslatedNumber MatchingRule
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Si test-applet cstrunkconfiguration ne renvoie pas une correspondance qui signifie généralement que les paramètres de configuration de jonction en cours de test n’ont pas de règle de conversion de numéros d’appels sortants capable de convertir le numéro composé au format E. 164. Pour récupérer les règles de traduction affectées à une collection de paramètres de configuration de jonction, vous pouvez utiliser une syntaxe similaire à celle-ci :
+Si Test-CsTrunkConfiguration ne renvoie pas une correspondance qui signifie généralement que les paramètres de configuration de jonction en cours de test n’ont pas de règle de conversion de numéros d’appels sortants capable de convertir le numéro composé au format E. 164. Pour récupérer les règles de traduction affectées à une collection de paramètres de configuration de jonction, vous pouvez utiliser une syntaxe similaire à celle-ci :
 
 `Get-CsTrunkConfiguration -Identity "global" | Select-Object -ExpandProperty OutboundTranslationRulesList`
 
@@ -130,7 +132,7 @@ Qui renvoie des informations similaires à celles-ci pour chaque règle de tradu
 
 Description : numéros de téléphone sans code de pays ou indicatif régional.
 
-Modèle : ^\\+ (\\d\*) $
+Modèle : ^ \\ + ( \\ d \* ) $
 
 `Translation : $1`
 

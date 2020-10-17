@@ -1,6 +1,6 @@
 ---
 title: Classification des flux dans le tableau de bord de qualité des appels (bord)
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526351"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels (bord)
 
@@ -50,7 +50,7 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificateur vidéo en raison de gel
 
-Le flux vidéo est marqué comme _bon_ ou _médiocre_ en fonction de la valeur du score de classifieur généré pour évaluer la vidéo de l’utilisateur final. Ce classificateur est disponible uniquement pour le produit Microsoft Teams.
+Le flux vidéo est marqué comme  _bon_ ou _médiocre_ en fonction de la valeur du score de classifieur généré pour évaluer la vidéo de l’utilisateur final. Ce classificateur est disponible uniquement pour le produit Microsoft Teams.
 
 |N° d’étape|Mesure|Scénario|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

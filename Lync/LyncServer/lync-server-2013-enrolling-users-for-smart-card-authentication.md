@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213370"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526771"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscrire des utilisateurs pour l’authentification par carte à puce dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscrire des utilisateurs pour l’authentification par carte à puce dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-07-03_
 
 Il existe généralement deux méthodes pour inscrire des utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire en sorte que les utilisateurs s’inscrivent directement pour l’authentification par carte à puce à l’aide de l’inscription Web, tandis que la méthode plus complexe implique l’utilisation d’un agent d’inscription. Cette rubrique se concentre sur l’auto-évaluation des certificats de carte à puce.
 
-Pour plus d’informations sur l’inscription pour le compte des utilisateurs en tant qu’agent d’inscription, voir inscrire des certificats pour le compte d’autres [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367)utilisateurs chez.
+Pour plus d’informations sur l’inscription pour le compte des utilisateurs en tant qu’agent d’inscription, voir inscrire des certificats pour le compte d’autres utilisateurs chez [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367) .
 
 <div>
 
@@ -49,7 +51,7 @@ Pour plus d’informations sur l’inscription pour le compte des utilisateurs e
 
 2.  Lancez Internet Explorer.
 
-3.  Accédez à la page d' **inscriptions Web** de l’autorité de certification ( https://MyCA.contoso.com/certsrv)par exemple,.
+3.  Accédez à la page d' **inscriptions Web** de l’autorité de certification (par exemple, https://MyCA.contoso.com/certsrv) .
     
     <div>
     

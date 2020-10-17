@@ -12,20 +12,22 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8574681353a6082ce46efb514923871a01c1427d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edbd977eb8023d5001a5b8e4a6a1c706eea84fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526191"
 ---
+# <a name="checking-event-logs-in-lync-server-2013"></a>Vérification des journaux des événements dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-event-logs-in-lync-server-2013"></a>Vérification des journaux des événements dans Lync Server 2013
+
 
 </div>
 
@@ -53,13 +55,13 @@ Utilisez l’observateur d’événements pour :
 
 Un serveur qui exécute Lync Server sur un système d’exploitation Windows Server enregistre les événements dans quatre types de journaux :
 
-  - **Journaux**   des applications le journal des applications contient des événements enregistrés par des applications ou des programmes. Les développeurs déterminent les événements à enregistrer. Par exemple, un programme de base de données peut enregistrer une erreur de fichier dans le journal des applications. La plupart des événements relatifs à Lync Server 2013 apparaissent dans le journal des applications.
+  - **Journaux**     des applications Le journal des applications contient les événements enregistrés par les applications ou les programmes. Les développeurs déterminent les événements à enregistrer. Par exemple, un programme de base de données peut enregistrer une erreur de fichier dans le journal des applications. La plupart des événements relatifs à Lync Server 2013 apparaissent dans le journal des applications.
 
-  - **Journaux de sécurité**   : le journal de sécurité enregistre des événements tels que les tentatives de connexion valides et non valides en plus des événements liés à l’utilisation des ressources, tels que la création, l’ouverture ou la suppression de fichiers ou d’autres objets. Par exemple, si l'audit d'ouverture de session est activé, les tentatives d'ouverture de session sur le système sont enregistrées dans le journal de sécurité.
+  - **Journaux**     de sécurité Le journal de sécurité enregistre des événements tels que les tentatives de connexion valides et non valides en plus des événements liés à l’utilisation des ressources, tels que la création, l’ouverture ou la suppression de fichiers ou d’autres objets. Par exemple, si l'audit d'ouverture de session est activé, les tentatives d'ouverture de session sur le système sont enregistrées dans le journal de sécurité.
 
-  - **Journaux système le**   journal système contient des événements enregistrés par les composants système de Windows. Par exemple, l'échec du chargement d'un pilote ou d'un autre composant système lors du démarrage est enregistré dans le journal système. Les types d'événements consignés par les composant système sont prédéterminés par le serveur.
+  - **Journaux système**     Le journal système contient les événements enregistrés par les composants système Windows. Par exemple, l'échec du chargement d'un pilote ou d'un autre composant système lors du démarrage est enregistré dans le journal système. Les types d'événements consignés par les composant système sont prédéterminés par le serveur.
 
-  - **Lync Server 2013**   l’outil de journalisation enregistre des événements significatifs liés à l’authentification, aux connexions et aux actions de l’utilisateur. Après l’activation de la journalisation des diagnostics, vous pouvez afficher les entrées du journal dans l’observateur d’événements.
+  - **Lync Server 2013**     L’outil de journalisation enregistre des événements significatifs liés à l’authentification, aux connexions et aux actions de l’utilisateur. Après l’activation de la journalisation des diagnostics, vous pouvez afficher les entrées du journal dans l’observateur d’événements.
 
 <div>
 
@@ -93,9 +95,9 @@ Le pack d’administration offre les fonctionnalités suivantes :
 
 Pour plus d’informations sur le pack d’administration Lync Server 2013, consultez la rubrique [Monitoring Lync server 2013 avec System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
-**Peigne**   d’événements l’outil peigne d’événements collecte des événements spécifiques dans les journaux des événements de plusieurs ordinateurs à un emplacement central. Il vous permet de signaler uniquement les ID d’événement ou les sources d’événements qu’il spécifie. Pour plus d’informations sur le peigne d’événements, voir le site Web sur les [outils de verrouillage et de gestion](https://go.microsoft.com/fwlink/?linkid=35607) .
+**Peigne**     d’événements L’outil de peigne d’événements collecte des événements spécifiques dans les journaux des événements de plusieurs ordinateurs à un emplacement central. Il vous permet de signaler uniquement les ID d’événement ou les sources d’événements qu’il spécifie. Pour plus d’informations sur le peigne d’événements, voir le site Web sur les [outils de verrouillage et de gestion](https://go.microsoft.com/fwlink/?linkid=35607) .
 
-**Déclencheurs d’événements**   dans Windows Server 2012 vous pouvez « joindre une tâche à cet événement » dans l’observateur d’événements Windows, où un administrateur peut exécuter un programme, envoyer un message électronique ou afficher un message à l’écran. Pour plus d’informations sur cette fonctionnalité, voir la rubrique Windows Server 2008 R2 [exécuter une tâche en réponse à un événement donné](https://technet.microsoft.com/library/cc748900.aspx). Vous pouvez également utiliser des outils de ligne de commande tels que « EventTrigger. exe » pour créer et interroger des journaux d’événements et associer des programmes à des événements journalisés particuliers. À l’aide de Eventtriggers. exe, vous pouvez créer des déclencheurs d’événements qui exécutent des programmes lorsque des événements spécifiques se produisent.
+**Déclencheurs**     d’événements Dans Windows Server 2012, vous pouvez « joindre une tâche à cet événement » dans l’observateur d’événements Windows, où un administrateur peut exécuter un programme, envoyer un message électronique ou afficher un message à l’écran. Pour plus d’informations sur cette fonctionnalité, voir la rubrique Windows Server 2008 R2 [exécuter une tâche en réponse à un événement donné](https://technet.microsoft.com/library/cc748900.aspx). Vous pouvez également utiliser des outils de ligne de commande tels que « Eventtrigger.exe » pour créer et interroger des journaux d’événements et associer des programmes à des événements journalisés particuliers. À l’aide de Eventtriggers.exe, vous pouvez créer des déclencheurs d’événements qui exécutent des programmes lorsque des événements spécifiques se produisent.
 
 <div>
 

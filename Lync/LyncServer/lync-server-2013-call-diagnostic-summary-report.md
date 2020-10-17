@@ -12,20 +12,22 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c055a48684716ce64428615759b023242b9e4ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f70c4fc0987b75cc8c5a8831eb8ad76493fea9b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526321"
 ---
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Rapport de synthèse de diagnostic des appels dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Rapport de synthèse de diagnostic des appels dans Lync Server 2013
+
 
 </div>
 
@@ -55,9 +57,9 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
 
 Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport de synthèse de diagnostic des appels, vous pouvez accéder au [rapport de diagnostic des activités P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure taux d’échec sous la section Résumé de la session P2P du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
 
-  - Taux d’échec global des sessions
+  - Taux d’échec de session global
 
-  - Taux d’échec Focus
+  - Taux d’échec de focus
 
   - Taux d’échec MCU
 

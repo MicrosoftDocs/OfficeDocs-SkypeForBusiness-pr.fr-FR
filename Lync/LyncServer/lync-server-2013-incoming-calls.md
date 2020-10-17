@@ -12,20 +12,22 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5a6cd54732bb6c33e358eeb1a5dbb72a1a4e789
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526611"
 ---
+# <a name="incoming-calls-in-lync-server-2013"></a>Appels entrants dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a>Appels entrants dans Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42204744"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Le routage des appels entrants vers des utilisateurs activés pour le routage géodépendant dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté de la manière suivante. Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage basé sur l’emplacement et que le point de terminaison se trouve dans le même site réseau que la passerelle RTC, l’appel sera acheminé. Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage basé sur l’emplacement et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a pas de point de terminaison situé dans le même site réseau que la passerelle RTC, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à la personne appelée.
+Le routage des appels entrants vers les utilisateurs pour lesquels le routage des Location-Baseds est activé dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté de la manière suivante. Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage Location-Based et que le point de terminaison se trouve dans le même site réseau que la passerelle RTC, l’appel sera acheminé. Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage Location-Based et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a pas de point de terminaison situé dans le même site réseau que la passerelle RTC, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à la personne appelée.
 
-Les paramètres de transfert d’appel d’un utilisateur activé pour le routage géodépendant continueront à être appliqués, cependant, les appels transférés seront soumis aux restrictions de routage géodépendant de l’utilisateur.
+Les paramètres de transfert d’appel d’un utilisateur activé pour le routage de Location-Based continueront à être appliqués, cependant, les appels transférés seront soumis à des restrictions de routage Location-Based de l’utilisateur.
 
-Le tableau suivant montre comment le routage géodépendant affecte le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelé. Le site réseau de la passerelle PSTN est activé pour le routage géodépendant et le routage géodépendant uniquement autorise le routage des appels PSTN vers les points de terminaison au sein du même site réseau.
+Le tableau suivant montre comment Location-Based routage affecte le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelé. Le site réseau de la passerelle PSTN est activé pour le routage des Location-Based et le routage des Location-Based uniquement autorise le routage des appels PSTN vers les points de terminaison au sein du même site réseau.
 
 ### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Appelé recevant un appel entrant du RTC
 
@@ -57,7 +59,7 @@ Le tableau suivant montre comment le routage géodépendant affecte le routage d
 <th></th>
 <th>Point de terminaison de l’appelé situé dans le même site réseau que la passerelle PSTN</th>
 <th>Point de terminaison de l’appelé non situé dans le même site réseau que la passerelle PSTN</th>
-<th>Point de terminaison de l’appelé situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
+<th>Point de terminaison de l’appelé situé dans un site réseau inconnu ou non activé pour le routage des Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +79,7 @@ Le tableau suivant montre comment le routage géodépendant affecte le routage d
 ## <a name="see-also"></a>Voir aussi
 
 
-[Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Scénarios de routage des Location-Based dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

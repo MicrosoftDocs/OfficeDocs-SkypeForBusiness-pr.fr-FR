@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526241"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Exigences de certificat pour les serveurs internes dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Exigences de certificat pour les serveurs internes dans Lync Server 2013
+
 
 </div>
 
@@ -49,11 +51,11 @@ Les serveurs internes qui exécutent Lync Server et qui nécessitent des certifi
 
 </div>
 
-Bien qu’il soit recommandé d’utiliser une autorité de certification d’entreprise interne pour les serveurs internes, vous pouvez également utiliser une autorité de certification publique. Pour obtenir la liste des autorités de certification publiques qui fournissent des certificats conformes aux exigences spécifiques pour les certificats de communications unifiées et qui ont conclu un partenariat avec Microsoft afin de s’assurer qu’ils fonctionnent avec l’Assistant Certificat Lync Server, consultez la base de connaissances Microsoft 929395, « partenaires de certificat de communications unifiées pour Exchange Server et Communications Server », à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
+Bien qu’il soit recommandé d’utiliser une autorité de certification d’entreprise interne pour les serveurs internes, vous pouvez également utiliser une autorité de certification publique. Pour obtenir la liste des autorités de certification publiques qui fournissent des certificats conformes aux exigences spécifiques pour les certificats de communications unifiées et qui ont conclu un partenariat avec Microsoft afin de s’assurer qu’ils fonctionnent avec l’Assistant Certificat Lync Server, consultez la base de connaissances Microsoft 929395, « partenaires de certificat de communications unifiées pour Exchange Server et Communications Server », à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 La communication avec d’autres applications et serveurs, comme Exchange 2013, nécessite un certificat pris en charge par les autres applications et produits. Pour la version 2013, Lync Server 2013 et d’autres produits serveur Microsoft, y compris Exchange 2013 et SharePoint Server, prennent en charge le protocole d’autorisation d’ouverture (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Pour plus d’informations, reportez-vous à la rubrique [Managing Server-to-Server Authentication (OAuth) and Partner applications in Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) dans la documentation de déploiement ou la documentation des opérations.
 
-Pour les connexions à partir de clients exécutant le système d’exploitation Windows 7, le système d’exploitation Windows Server 2008, le système d’exploitation Windows Server 2008 R2, le système d’exploitation Windows Vista et Microsoft Lync Phone Edition, Lync Server 2013 inclut la prise en charge de (mais pas exiger) les certificats signés à l’aide de la fonction de hachage cryptographique SHA-256. Pour permettre la prise en charge de l’accès externe via SHA-256, le certificat externe est émis par une autorité de certification publique utilisant SHA-256.
+Pour les connexions à partir de clients exécutant le système d’exploitation Windows 7, le système d’exploitation Windows Server 2008, le système d’exploitation Windows Server 2008 R2, le système d’exploitation Windows Vista et Microsoft Lync Phone Edition, Lync Server 2013 inclut la prise en charge des certificats signés à l’aide de la fonction de hachage cryptographique SHA-256. Pour permettre la prise en charge de l’accès externe via SHA-256, le certificat externe est émis par une autorité de certification publique utilisant SHA-256.
 
 Les tableaux suivants indiquent les certificats requis par rôle serveur pour les pools frontaux et les serveurs Standard Edition Server. Tous ces certificats sont des certificats de serveur web standard à clé privée non exportables
 
@@ -95,7 +97,7 @@ Notez que l’utilisation avancée de la clé pour l’authentification des serv
 <th>Nom du sujet/nom commun</th>
 <th>Autre nom du sujet</th>
 <th>Exemple</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -165,7 +167,7 @@ Notez que l’utilisation avancée de la clé pour l’authentification des serv
 <th>Nom du sujet/nom commun</th>
 <th>Autre nom du sujet</th>
 <th>Exemple</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -331,7 +333,7 @@ Si vous disposez d’un pool de serveurs de médiation autonomes, chaque serveur
 <tr class="odd">
 <td><p>Par défaut</p></td>
 <td><p>Nom de domaine complet de l’appliance</p></td>
-<td><p>SIP. &lt;sipdomain&gt; (nécessite une entrée par domaine SIP)</p></td>
+<td><p>SIP. &lt; sipdomain &gt; (nécessite une entrée par domaine SIP)</p></td>
 <td><p>SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com</p></td>
 </tr>
 </tbody>

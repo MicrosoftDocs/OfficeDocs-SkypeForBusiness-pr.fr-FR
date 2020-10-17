@@ -12,20 +12,22 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea588abf4018ab06a415d4aa5ef7decf5f93996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89bc70635ac941398a71515e77dd1a792973fc35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527301"
 ---
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Migration de Lync Server 2010 vers Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Migration de Lync Server 2010 vers Lync Server 2013
+
 
 </div>
 
@@ -79,7 +81,7 @@ Ce document définit les termes spécifiés dans la liste suivante.
 
   - [Phase 1 : planification de la migration à partir de Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [Phase 2 : préparer la migration](phase-2-prepare-for-migration.md)
+  - [Étape 2 : Préparer la migration](phase-2-prepare-for-migration.md)
 
   - [Phase 3 : déployer le pool pilote Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -87,11 +89,11 @@ Ce document définit les termes spécifiés dans la liste suivante.
 
   - [Phase 5 : ajouter le serveur Edge Lync Server 2013 au pool pilote](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Phase 6 : passer d’un déploiement pilote en production](phase-6-move-from-pilot-deployment-into-production.md)
+  - [Phase 6 : Transition d’un déploiement pilote vers un environnement de production](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [Phase 7 : effectuer les tâches postérieures à la migration](phase-7-complete-post-migration-tasks.md)
+  - [Étape 7 : Exécuter les tâches post-migration](phase-7-complete-post-migration-tasks.md)
 
-  - [Phase 8 : désactiver les pools hérités](phase-8-decommission-legacy-pools.md)
+  - [Étape 8 : Mettre des pools hérités hors service](phase-8-decommission-legacy-pools.md)
 
 </div>
 

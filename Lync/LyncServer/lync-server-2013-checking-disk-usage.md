@@ -12,20 +12,22 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6379d110fc25ba31062d211d3893567ad92fda1f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206729"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526201"
 ---
+# <a name="checking-disk-usage-in-lync-server-2013"></a>Vérification de l’utilisation du disque dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>Vérification de l’utilisation du disque dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2014-04-30_
 
 Les disques durs sont un composant important du déploiement de Lync Server 2013. Sans volume de disque libre suffisant, ni le système d’exploitation ni les bases de données Lync Server 2013 ne fonctionnent correctement. Vous devez surveiller quotidiennement les statistiques de la base de données principale Lync Server 2013 afin de vous assurer que les serveurs ne manquent pas d’espace disque et de se préparer à ajouter des ressources de stockage selon les besoins.
 
-Outre l’espace sur les disques hébergeant le système d’exploitation, les fichiers de programme, les bases de données et les journaux de transaction (Lync Server 2013 back end), vous devez également surveiller l’utilisation du système de fichiers qui inclut l’espace disque pour les partages de fichiers qui contiennent les éléments suivants. Datacenter
+Outre l’espace sur les disques hébergeant le système d’exploitation, les fichiers de programme, les bases de données et les journaux de transaction (Lync Server 2013 back end), vous devez également surveiller l’utilisation du système de fichiers qui inclut l’espace disque pour les partages de fichiers qui contiennent les données importantes suivantes :
 
   - Contenu de la réunion
 
@@ -67,11 +69,11 @@ Pour tenir compte des situations de dépannage et de récupération d’urgence,
 
 Vous pouvez vérifier l'espace disque disponible en utilisant les méthodes suivantes :
 
-1.  **System Center Operations Manager**   System Center Operations Manager peut être utilisé pour avertir les administrateurs lorsque l’espace de volume est limité.
+1.  **System Center Operations Manager**     System Center Operations Manager peut être utilisé pour avertir les administrateurs lorsque l’espace de volume est limité.
 
-2.  **Exécution d’un**   script de l’espace disque en exécutant un script qui vous envoie un message si l’espace disponible sur le disque tombe en dessous de 20%. Vous trouverez un exemple de script sur le centre de scripts Microsoft sur TechNet :[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **Exécution d’un script**     Surveillez l’espace disque en exécutant un script qui vous envoie un message si l’espace disponible sur le disque tombe en dessous de 20%. Vous trouverez un exemple de script sur le centre de scripts Microsoft sur TechNet : [https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **L’Explorateur**   Windows utilise l’Explorateur Windows pour vérifier l’espace disque sur les volumes qui stockent les journaux et les bases de données Lync Server 2013.
+3.  **Explorateur Windows**     Utilisez l’Explorateur Windows pour vérifier l’espace disque sur les volumes qui stockent les journaux et les bases de données Lync Server 2013.
 
 </div>
 
