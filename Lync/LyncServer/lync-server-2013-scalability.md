@@ -1,5 +1,6 @@
 ---
 title: Évolutivité de Lync Server 2013
+description: Évolutivité de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2b26f8f7b7b254a8576a08e9b24fdeb2da633b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 28cd5820755ffd1eb863ed6f2369b5756a7ae3f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543790"
 ---
-# <a name="scalability-with-lync-server-2013"></a><span data-ttu-id="c9daa-102">Évolutivité avec Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9daa-102">Scalability with Lync Server 2013</span></span>
+# <a name="scalability-with-lync-server-2013"></a><span data-ttu-id="53bbf-103">Évolutivité avec Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53bbf-103">Scalability with Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48510957"
 
 <span> </span>
 
-<span data-ttu-id="c9daa-103">_**Dernière modification de la rubrique :** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="c9daa-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="53bbf-104">_**Dernière modification de la rubrique :** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="53bbf-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="c9daa-104">Lync Server est proposé en deux éditions, Enterprise Edition et Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="c9daa-104">Lync Server is offered in two editions, Enterprise Edition and Standard Edition.</span></span> <span data-ttu-id="c9daa-105">Elles sont chacune destinées à des organisations de différente taille.</span><span class="sxs-lookup"><span data-stu-id="c9daa-105">The different editions are intended primarily for different sizes of organizations.</span></span> <span data-ttu-id="c9daa-106">Comme indiqué dans le tableau suivant, les deux éditions prennent en charge toutes les fonctionnalités pour toutes les charges de travail, à l’exception de la haute disponibilité et de la récupération d’urgence.</span><span class="sxs-lookup"><span data-stu-id="c9daa-106">As shown in the following table, both editions support all functionality in all workloads, except for high availability and disaster recovery.</span></span>
+<span data-ttu-id="53bbf-105">Lync Server est proposé en deux éditions, Enterprise Edition et Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="53bbf-105">Lync Server is offered in two editions, Enterprise Edition and Standard Edition.</span></span> <span data-ttu-id="53bbf-106">Elles sont chacune destinées à des organisations de différente taille.</span><span class="sxs-lookup"><span data-stu-id="53bbf-106">The different editions are intended primarily for different sizes of organizations.</span></span> <span data-ttu-id="53bbf-107">Comme indiqué dans le tableau suivant, les deux éditions prennent en charge toutes les fonctionnalités pour toutes les charges de travail, à l’exception de la haute disponibilité et de la récupération d’urgence.</span><span class="sxs-lookup"><span data-stu-id="53bbf-107">As shown in the following table, both editions support all functionality in all workloads, except for high availability and disaster recovery.</span></span>
 
 
 <table>
@@ -50,46 +51,46 @@ ms.locfileid: "48510957"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c9daa-107">Fonctionnalité</span><span class="sxs-lookup"><span data-stu-id="c9daa-107">Feature</span></span></th>
-<th><span data-ttu-id="c9daa-108">Prise en charge dans Enterprise Edition ?</span><span class="sxs-lookup"><span data-stu-id="c9daa-108">Supported in Enterprise Edition?</span></span></th>
-<th><span data-ttu-id="c9daa-109">Prise en charge dans Standard Edition ?</span><span class="sxs-lookup"><span data-stu-id="c9daa-109">Supported in Standard Edition?</span></span></th>
+<th><span data-ttu-id="53bbf-108">Fonctionnalité</span><span class="sxs-lookup"><span data-stu-id="53bbf-108">Feature</span></span></th>
+<th><span data-ttu-id="53bbf-109">Prise en charge dans Enterprise Edition ?</span><span class="sxs-lookup"><span data-stu-id="53bbf-109">Supported in Enterprise Edition?</span></span></th>
+<th><span data-ttu-id="53bbf-110">Prise en charge dans Standard Edition ?</span><span class="sxs-lookup"><span data-stu-id="53bbf-110">Supported in Standard Edition?</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c9daa-110">Messagerie instantanée et présence</span><span class="sxs-lookup"><span data-stu-id="c9daa-110">Instant messaging (IM) and presence</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-111">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-111">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-112">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-112">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-111">Messagerie instantanée et présence</span><span class="sxs-lookup"><span data-stu-id="53bbf-111">Instant messaging (IM) and presence</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-112">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-112">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-113">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-113">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9daa-113">Conférence</span><span class="sxs-lookup"><span data-stu-id="c9daa-113">Conferencing</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-114">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-114">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-115">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-115">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-114">Conférence</span><span class="sxs-lookup"><span data-stu-id="53bbf-114">Conferencing</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-115">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-115">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-116">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-116">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9daa-116">Conférence A/V</span><span class="sxs-lookup"><span data-stu-id="c9daa-116">A/V conferencing</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-117">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-117">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-118">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-118">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-117">Conférence A/V</span><span class="sxs-lookup"><span data-stu-id="53bbf-117">A/V conferencing</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-118">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-118">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-119">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-119">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9daa-119">Conférence rendez-vous</span><span class="sxs-lookup"><span data-stu-id="c9daa-119">Dial-in conferencing</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-120">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-120">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-121">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-121">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-120">Conférence rendez-vous</span><span class="sxs-lookup"><span data-stu-id="53bbf-120">Dial-in conferencing</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-121">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-121">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-122">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-122">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9daa-122">Voix Entreprise</span><span class="sxs-lookup"><span data-stu-id="c9daa-122">Enterprise Voice</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-123">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-123">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-124">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-124">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-123">Voix Entreprise</span><span class="sxs-lookup"><span data-stu-id="53bbf-123">Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-124">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-124">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-125">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-125">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9daa-125">Virtualisation</span><span class="sxs-lookup"><span data-stu-id="c9daa-125">Virtualization</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-126">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-126">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-127">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-127">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-126">Virtualisation</span><span class="sxs-lookup"><span data-stu-id="53bbf-126">Virtualization</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-127">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-127">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-128">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-128">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9daa-128">Haute disponibilité, basculement et récupération d’urgence</span><span class="sxs-lookup"><span data-stu-id="c9daa-128">High availability, failover, and disaster recovery</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-129">Oui</span><span class="sxs-lookup"><span data-stu-id="c9daa-129">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9daa-130">Non</span><span class="sxs-lookup"><span data-stu-id="c9daa-130">No</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-129">Haute disponibilité, basculement et récupération d’urgence</span><span class="sxs-lookup"><span data-stu-id="53bbf-129">High availability, failover, and disaster recovery</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-130">Oui</span><span class="sxs-lookup"><span data-stu-id="53bbf-130">Yes</span></span></p></td>
+<td><p><span data-ttu-id="53bbf-131">Non</span><span class="sxs-lookup"><span data-stu-id="53bbf-131">No</span></span></p></td>
 </tr>
 </tbody>
 </table>

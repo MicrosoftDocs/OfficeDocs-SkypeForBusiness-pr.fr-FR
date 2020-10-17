@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : applets de commande de Fédération et d’accès externe'
+description: 'Lync Server 2013 : cmdlets de Fédération et d’accès externe.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 930de66a54d3f8db07394baf2d8470affe5090e9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507291"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543390"
 ---
-# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a><span data-ttu-id="e5b0c-102">Cmdlets de Fédération et d’accès externe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5b0c-102">Federation and external access cmdlets in Lync Server 2013</span></span>
+# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a><span data-ttu-id="36104-103">Cmdlets de Fédération et d’accès externe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36104-103">Federation and external access cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,142 +38,142 @@ ms.locfileid: "48507291"
 
 <span> </span>
 
-<span data-ttu-id="e5b0c-103">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="e5b0c-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="36104-104">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="36104-104">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="e5b0c-104">La Fédération et l’accès externe offrent deux fonctionnalités importantes : la Fédération permet aux utilisateurs de communiquer avec des personnes extérieures à votre organisation, tandis que l’accès externe permet aux utilisateurs de se connecter à Microsoft Lync Server 2013 depuis l’extérieur du réseau interne.</span><span class="sxs-lookup"><span data-stu-id="e5b0c-104">Federation and external access provide two important capabilities: federation enables users to communicate with people outside your organization, while external access enables users to connect to Microsoft Lync Server 2013 from outside the internal network.</span></span> <span data-ttu-id="e5b0c-105">Les applets de commande disponibles pour la gestion de la Fédération et de l’accès externe dans Lync Server 2013 vous permettent de déterminer les personnes que vos utilisateurs peuvent (et ne peuvent pas) communiquer avec, et de déterminer si ces utilisateurs peuvent se connecter à Lync Server sans avoir à se connecter au réseau interne.</span><span class="sxs-lookup"><span data-stu-id="e5b0c-105">The cmdlets available for managing federation and external access in Lync Server 2013 let you determine who your users can (and cannot) communicate with, and determine whether or not those users can connect to Lync Server without having to log on to the internal network.</span></span>
+<span data-ttu-id="36104-105">La Fédération et l’accès externe offrent deux fonctionnalités importantes : la Fédération permet aux utilisateurs de communiquer avec des personnes extérieures à votre organisation, tandis que l’accès externe permet aux utilisateurs de se connecter à Microsoft Lync Server 2013 depuis l’extérieur du réseau interne.</span><span class="sxs-lookup"><span data-stu-id="36104-105">Federation and external access provide two important capabilities: federation enables users to communicate with people outside your organization, while external access enables users to connect to Microsoft Lync Server 2013 from outside the internal network.</span></span> <span data-ttu-id="36104-106">Les applets de commande disponibles pour la gestion de la Fédération et de l’accès externe dans Lync Server 2013 vous permettent de déterminer les personnes que vos utilisateurs peuvent (et ne peuvent pas) communiquer avec, et de déterminer si ces utilisateurs peuvent se connecter à Lync Server sans avoir à se connecter au réseau interne.</span><span class="sxs-lookup"><span data-stu-id="36104-106">The cmdlets available for managing federation and external access in Lync Server 2013 let you determine who your users can (and cannot) communicate with, and determine whether or not those users can connect to Lync Server without having to log on to the internal network.</span></span>
 
 <div>
 
-## <a name="federation-and-external-access-cmdlets"></a><span data-ttu-id="e5b0c-106">Applets de commande de fédération et d’accès externe</span><span class="sxs-lookup"><span data-stu-id="e5b0c-106">Federation and External Access Cmdlets</span></span>
+## <a name="federation-and-external-access-cmdlets"></a><span data-ttu-id="36104-107">Applets de commande de fédération et d’accès externe</span><span class="sxs-lookup"><span data-stu-id="36104-107">Federation and External Access Cmdlets</span></span>
 
-<span data-ttu-id="e5b0c-107">La plupart des tâches de gestion qui s’appliquent à la Fédération et l’accès externe peuvent être effectuées à partir du panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e5b0c-107">Most management tasks that apply to federation and external access can be performed from the Lync Server Control Panel.</span></span> <span data-ttu-id="e5b0c-108">Ces mêmes tâches peuvent être exécutées à l’aide d’applets de commande de Lync Server Management Shell ou à partir d’un script ; l’utilisation d’un script vous permet d’automatiser certaines tâches.</span><span class="sxs-lookup"><span data-stu-id="e5b0c-108">These same tasks can be performed using cmdlets from the Lync Server Management Shell or from within a script; using a script enables you to automate certain tasks.</span></span> <span data-ttu-id="e5b0c-109">Vous trouverez ci-dessous une liste des applets de commande qui sont directement liées à la gestion de la fédération et de l’accès externe :</span><span class="sxs-lookup"><span data-stu-id="e5b0c-109">The following is a list of cmdlets that relate directly to managing federation and external access:</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-110">[Get-CsAllowedDomain](https://technet.microsoft.com/library/Gg398164(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-110">[Get-CsAllowedDomain](https://technet.microsoft.com/library/Gg398164(v=OCS.15))</span></span>
+<span data-ttu-id="36104-108">La plupart des tâches de gestion qui s’appliquent à la Fédération et l’accès externe peuvent être effectuées à partir du panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="36104-108">Most management tasks that apply to federation and external access can be performed from the Lync Server Control Panel.</span></span> <span data-ttu-id="36104-109">Ces mêmes tâches peuvent être exécutées à l’aide d’applets de commande de Lync Server Management Shell ou à partir d’un script ; l’utilisation d’un script vous permet d’automatiser certaines tâches.</span><span class="sxs-lookup"><span data-stu-id="36104-109">These same tasks can be performed using cmdlets from the Lync Server Management Shell or from within a script; using a script enables you to automate certain tasks.</span></span> <span data-ttu-id="36104-110">Vous trouverez ci-dessous une liste des applets de commande qui sont directement liées à la gestion de la fédération et de l’accès externe :</span><span class="sxs-lookup"><span data-stu-id="36104-110">The following is a list of cmdlets that relate directly to managing federation and external access:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-111">[New-CsAllowedDomain](https://technet.microsoft.com/library/Gg398628(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-111">[New-CsAllowedDomain](https://technet.microsoft.com/library/Gg398628(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-111">[Get-CsAllowedDomain](https://technet.microsoft.com/library/Gg398164(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-111">[Get-CsAllowedDomain](https://technet.microsoft.com/library/Gg398164(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-112">[Remove-CsAllowedDomain](https://technet.microsoft.com/library/Gg398913(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-112">[Remove-CsAllowedDomain](https://technet.microsoft.com/library/Gg398913(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-112">[New-CsAllowedDomain](https://technet.microsoft.com/library/Gg398628(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-112">[New-CsAllowedDomain](https://technet.microsoft.com/library/Gg398628(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-113">[Set-CsAllowedDomain](https://technet.microsoft.com/library/Gg398931(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-113">[Set-CsAllowedDomain](https://technet.microsoft.com/library/Gg398931(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-113">[Remove-CsAllowedDomain](https://technet.microsoft.com/library/Gg398913(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-113">[Remove-CsAllowedDomain](https://technet.microsoft.com/library/Gg398913(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="36104-114">[Set-CsAllowedDomain](https://technet.microsoft.com/library/Gg398931(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-114">[Set-CsAllowedDomain](https://technet.microsoft.com/library/Gg398931(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-114">[Get-applet csblockeddomain](https://technet.microsoft.com/library/Gg398424(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-114">[Get-CsBlockedDomain](https://technet.microsoft.com/library/Gg398424(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-115">[Get-applet csblockeddomain](https://technet.microsoft.com/library/Gg398424(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-115">[Get-CsBlockedDomain](https://technet.microsoft.com/library/Gg398424(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-115">[New-applet csblockeddomain](https://technet.microsoft.com/library/Gg398822(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-115">[New-CsBlockedDomain](https://technet.microsoft.com/library/Gg398822(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-116">[New-applet csblockeddomain](https://technet.microsoft.com/library/Gg398822(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-116">[New-CsBlockedDomain](https://technet.microsoft.com/library/Gg398822(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-116">[Remove-applet csblockeddomain](https://technet.microsoft.com/library/Gg425832(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-116">[Remove-CsBlockedDomain](https://technet.microsoft.com/library/Gg425832(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-117">[Remove-applet csblockeddomain](https://technet.microsoft.com/library/Gg425832(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-117">[Remove-CsBlockedDomain](https://technet.microsoft.com/library/Gg425832(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-117">[Set-applet csblockeddomain](https://technet.microsoft.com/library/Gg398090(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-117">[Set-CsBlockedDomain](https://technet.microsoft.com/library/Gg398090(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-118">[Set-applet csblockeddomain](https://technet.microsoft.com/library/Gg398090(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-118">[Set-CsBlockedDomain](https://technet.microsoft.com/library/Gg398090(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-119">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-119">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-120">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-120">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-120">[New-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398441(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-120">[New-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398441(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-121">[New-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398441(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-121">[New-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398441(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-121">[Remove-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg399057(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-121">[Remove-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg399057(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-122">[Remove-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg399057(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-122">[Remove-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg399057(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-122">[Set-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398916(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-122">[Set-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398916(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-123">[Set-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398916(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-123">[Set-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398916(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="e5b0c-123">[Get-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ204904(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-123">[Get-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ204904(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-124">[Get-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ204904(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-124">[Get-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ204904(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e5b0c-124">[New-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ205114(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-124">[New-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205114(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-125">[New-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ205114(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-125">[New-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205114(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e5b0c-125">[Remove-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ205201(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-125">[Remove-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205201(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-126">[Remove-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ205201(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-126">[Remove-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205201(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e5b0c-126">[Set-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ205084(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-126">[Set-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205084(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-127">[Disable-CsHostingProvider](https://technet.microsoft.com/library/Gg398481(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-127">[Disable-CsHostingProvider](https://technet.microsoft.com/library/Gg398481(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-128">[Enable-CsHostingProvider](https://technet.microsoft.com/library/Gg398166(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-128">[Enable-CsHostingProvider](https://technet.microsoft.com/library/Gg398166(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-129">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-129">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-130">[New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-130">[New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-131">[Remove-CsHostingProvider](https://technet.microsoft.com/library/Gg425809(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-131">[Remove-CsHostingProvider](https://technet.microsoft.com/library/Gg425809(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e5b0c-132">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-132">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-127">[Set-applet csfipsconfiguration](https://technet.microsoft.com/library/JJ205084(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-127">[Set-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205084(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-133">[Disable-applet cspublicprovider](https://technet.microsoft.com/library/Gg398984(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-133">[Disable-CsPublicProvider](https://technet.microsoft.com/library/Gg398984(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-128">[Disable-CsHostingProvider](https://technet.microsoft.com/library/Gg398481(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-128">[Disable-CsHostingProvider](https://technet.microsoft.com/library/Gg398481(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-134">[Enable-applet cspublicprovider](https://technet.microsoft.com/library/Gg398780(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-134">[Enable-CsPublicProvider](https://technet.microsoft.com/library/Gg398780(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-129">[Enable-CsHostingProvider](https://technet.microsoft.com/library/Gg398166(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-129">[Enable-CsHostingProvider](https://technet.microsoft.com/library/Gg398166(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-135">[Get-applet cspublicprovider](https://technet.microsoft.com/library/Gg412945(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-135">[Get-CsPublicProvider](https://technet.microsoft.com/library/Gg412945(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-130">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-130">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-136">[New-applet cspublicprovider](https://technet.microsoft.com/library/Gg398161(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-136">[New-CsPublicProvider](https://technet.microsoft.com/library/Gg398161(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-131">[New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-131">[New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-137">[Remove-applet cspublicprovider](https://technet.microsoft.com/library/Gg412906(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-137">[Remove-CsPublicProvider](https://technet.microsoft.com/library/Gg412906(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-132">[Remove-CsHostingProvider](https://technet.microsoft.com/library/Gg425809(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-132">[Remove-CsHostingProvider](https://technet.microsoft.com/library/Gg425809(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-138">[Set-applet cspublicprovider](https://technet.microsoft.com/library/Gg413087(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-138">[Set-CsPublicProvider](https://technet.microsoft.com/library/Gg413087(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-133">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-133">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e5b0c-139">[Test-CsFederatedPartner](https://technet.microsoft.com/library/Gg398281(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-139">[Test-CsFederatedPartner](https://technet.microsoft.com/library/Gg398281(v=OCS.15))</span></span>
+    <span data-ttu-id="36104-134">[Disable-applet cspublicprovider](https://technet.microsoft.com/library/Gg398984(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-134">[Disable-CsPublicProvider](https://technet.microsoft.com/library/Gg398984(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="36104-135">[Enable-applet cspublicprovider](https://technet.microsoft.com/library/Gg398780(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-135">[Enable-CsPublicProvider](https://technet.microsoft.com/library/Gg398780(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="36104-136">[Get-applet cspublicprovider](https://technet.microsoft.com/library/Gg412945(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-136">[Get-CsPublicProvider](https://technet.microsoft.com/library/Gg412945(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="36104-137">[New-applet cspublicprovider](https://technet.microsoft.com/library/Gg398161(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-137">[New-CsPublicProvider](https://technet.microsoft.com/library/Gg398161(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="36104-138">[Remove-applet cspublicprovider](https://technet.microsoft.com/library/Gg412906(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-138">[Remove-CsPublicProvider](https://technet.microsoft.com/library/Gg412906(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="36104-139">[Set-applet cspublicprovider](https://technet.microsoft.com/library/Gg413087(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-139">[Set-CsPublicProvider](https://technet.microsoft.com/library/Gg413087(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="e5b0c-140">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-140">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span></span>
-
-  - <span data-ttu-id="e5b0c-141">[New-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204631(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-141">[New-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204631(v=OCS.15))</span></span>
-
-  - <span data-ttu-id="e5b0c-142">[Remove-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ205055(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-142">[Remove-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ205055(v=OCS.15))</span></span>
-
-  - <span data-ttu-id="e5b0c-143">[Set-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204686(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-143">[Set-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204686(v=OCS.15))</span></span>
+  - <span></span>  
+    <span data-ttu-id="36104-140">[Test-CsFederatedPartner](https://technet.microsoft.com/library/Gg398281(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-140">[Test-CsFederatedPartner](https://technet.microsoft.com/library/Gg398281(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="e5b0c-144">[Get-applet csxmppgatewayconfiguration ne](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-144">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-141">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-141">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="e5b0c-145">[Set-applet csxmppgatewayconfiguration ne](https://technet.microsoft.com/library/JJ204769(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-145">[Set-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204769(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-142">[New-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204631(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-142">[New-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204631(v=OCS.15))</span></span>
+
+  - <span data-ttu-id="36104-143">[Remove-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ205055(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-143">[Remove-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ205055(v=OCS.15))</span></span>
+
+  - <span data-ttu-id="36104-144">[Set-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204686(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-144">[Set-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204686(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="e5b0c-146">[Test-CsXmppIM](https://technet.microsoft.com/library/JJ205423(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e5b0c-146">[Test-CsXmppIM](https://technet.microsoft.com/library/JJ205423(v=OCS.15))</span></span>
+  - <span data-ttu-id="36104-145">[Get-applet csxmppgatewayconfiguration ne](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-145">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span></span>
+
+  - <span data-ttu-id="36104-146">[Set-applet csxmppgatewayconfiguration ne](https://technet.microsoft.com/library/JJ204769(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-146">[Set-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204769(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="36104-147">[Test-CsXmppIM](https://technet.microsoft.com/library/JJ205423(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="36104-147">[Test-CsXmppIM](https://technet.microsoft.com/library/JJ205423(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e5b0c-147">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e5b0c-147">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="36104-148">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="36104-148">See Also</span></span>
 
 
-[<span data-ttu-id="e5b0c-148">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="e5b0c-148">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="36104-149">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="36104-149">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
