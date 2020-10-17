@@ -12,20 +12,22 @@ ms:contentKeyID: 51541468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12581b3e4bab1eeb86ce4a3be57224c5e5fe4c48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fde1f704fe42a0f0514be6b5763b0f2b874cba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208481"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511311"
 ---
+# <a name="reviewing-the-dns-report-in-lync-server-2013"></a><span data-ttu-id="b730f-102">Examen du rapport DNS dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b730f-102">Reviewing the DNS Report in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-dns-report-in-lync-server-2013"></a><span data-ttu-id="9e741-102">Examen du rapport DNS dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e741-102">Reviewing the DNS Report in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,20 +37,20 @@ ms.locfileid: "42208481"
 
 <span> </span>
 
-<span data-ttu-id="9e741-103">_**Dernière modification de la rubrique :** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="9e741-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="b730f-103">_**Dernière modification de la rubrique :** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="b730f-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="9e741-104">Le rapport DNS, qui fait partie du rapport de l’administrateur, détaille toutes les entrées recommandées et connues pour le système DNS (Domain Name System) dans les réseaux internes, de périmètre et externes.</span><span class="sxs-lookup"><span data-stu-id="9e741-104">The DNS Report, which is part of the Administrator Report, details all of the recommended and known entries for the Domain Name System (DNS) in the internal, perimeter, and external networks.</span></span> <span data-ttu-id="9e741-105">Si le concepteur a terminé les modifications apportées au réseau de tâches, et que toutes les adresses IP et les noms de domaine complets (FQDN) sont définis sur leurs valeurs de production, le rapport DNS fournit une excellente ressource de configuration.</span><span class="sxs-lookup"><span data-stu-id="9e741-105">If the designer has completed the edits to the network diagram, and all IP addresses and fully qualified domain names (FQDNs) are defined to their production values, the DNS Report provides an excellent configuration resource.</span></span> <span data-ttu-id="9e741-106">Ce rapport peut également servir de document de dépannage opérationnel.</span><span class="sxs-lookup"><span data-stu-id="9e741-106">This report can also serve as an operational troubleshooting document.</span></span>
+<span data-ttu-id="b730f-104">Le rapport DNS, qui fait partie du rapport de l’administrateur, détaille toutes les entrées recommandées et connues pour le système DNS (Domain Name System) dans les réseaux internes, de périmètre et externes.</span><span class="sxs-lookup"><span data-stu-id="b730f-104">The DNS Report, which is part of the Administrator Report, details all of the recommended and known entries for the Domain Name System (DNS) in the internal, perimeter, and external networks.</span></span> <span data-ttu-id="b730f-105">Si le concepteur a terminé les modifications apportées au réseau de tâches, et que toutes les adresses IP et les noms de domaine complets (FQDN) sont définis sur leurs valeurs de production, le rapport DNS fournit une excellente ressource de configuration.</span><span class="sxs-lookup"><span data-stu-id="b730f-105">If the designer has completed the edits to the network diagram, and all IP addresses and fully qualified domain names (FQDNs) are defined to their production values, the DNS Report provides an excellent configuration resource.</span></span> <span data-ttu-id="b730f-106">Ce rapport peut également servir de document de dépannage opérationnel.</span><span class="sxs-lookup"><span data-stu-id="b730f-106">This report can also serve as an operational troubleshooting document.</span></span>
 
-<span data-ttu-id="9e741-107">![Rapport d’administration DNS](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "Rapport d’administration DNS")</span><span class="sxs-lookup"><span data-stu-id="9e741-107">![DNS Admin Report](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "DNS Admin Report")</span></span>
+<span data-ttu-id="b730f-107">![Rapport d’administration DNS](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "Rapport d’administration DNS")</span><span class="sxs-lookup"><span data-stu-id="b730f-107">![DNS Admin Report](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "DNS Admin Report")</span></span>
 
-<span data-ttu-id="9e741-108">Vous devez faire en sorte que votre équipe de gestion DNS examine soigneusement le rapport DNS pour vous assurer qu’il n’y a pas d’erreurs susceptibles de créer des difficultés pendant le déploiement ou qui peut compliquer une session de dépannage.</span><span class="sxs-lookup"><span data-stu-id="9e741-108">You should have your DNS management team review the DNS Report thoroughly to make sure that there are no errors that may cause difficulty during deployment or that may complicate a troubleshooting session.</span></span>
+<span data-ttu-id="b730f-108">Vous devez faire en sorte que votre équipe de gestion DNS examine soigneusement le rapport DNS pour vous assurer qu’il n’y a pas d’erreurs susceptibles de créer des difficultés pendant le déploiement ou qui peut compliquer une session de dépannage.</span><span class="sxs-lookup"><span data-stu-id="b730f-108">You should have your DNS management team review the DNS Report thoroughly to make sure that there are no errors that may cause difficulty during deployment or that may complicate a troubleshooting session.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9e741-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9e741-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b730f-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b730f-109">See Also</span></span>
 
 
-[<span data-ttu-id="9e741-110">Examen des rapports de l’administrateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e741-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+[<span data-ttu-id="b730f-110">Examen des rapports de l’administrateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b730f-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>
