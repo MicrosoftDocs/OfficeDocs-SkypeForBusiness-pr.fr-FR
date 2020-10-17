@@ -1,5 +1,6 @@
 ---
 title: Expérience utilisateur Lync Server 2013 en cas de défaillance du pool
+description: Expérience utilisateur Lync Server 2013 en cas de défaillance du pool.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd2d6733f2db3a988f604554df55a25f866f5099
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a0483a01b643d8195e7f8f6259c11ab6fc3561f2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530191"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569790"
 ---
 # <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Expérience utilisateur en cas de défaillance du pool dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Configurer une entrée d’application approuvée pour le contrôle d’appel distant
+description: Configurez une entrée d’application approuvée pour le contrôle d’appel distant.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f8175a351d13675c048efce7a2f831af7ab2c31
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fa5341dc220853670cf000f5b0d5dc379c02fa51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523061"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570070"
 ---
 # <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013
 

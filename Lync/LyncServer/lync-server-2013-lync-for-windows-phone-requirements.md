@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration requise pour Lync pour Windows Phone'
+description: 'Lync Server 2013 : configuration requise pour les téléphones Lync pour Windows Phone.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17cdd1e8f8dc0766c79b680c994ed2b7affd85c6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a09d9b20207ab647eaa80f0078a68abe91e1e073
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506001"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570420"
 ---
 # <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Configuration requise pour Lync pour Windows Phone dans Lync Server 2013
 

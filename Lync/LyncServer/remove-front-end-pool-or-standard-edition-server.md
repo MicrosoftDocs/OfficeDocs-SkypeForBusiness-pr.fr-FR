@@ -1,5 +1,6 @@
 ---
 title: Supprimer un pool frontal ou un serveur Standard Edition
+description: Supprimez le pool frontal ou le serveur Standard Edition Server.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69a1c36de9aa3cbd4a46dc0bba4c862734b382ef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c878d56b073558f4f4b50f31b6742fd581c80241
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500051"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570240"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Supprimer un pool frontal ou un serveur Standard Edition
 

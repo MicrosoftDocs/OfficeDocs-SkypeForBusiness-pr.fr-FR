@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : applets de commande de contrôle d’admission des appels'
+description: 'Lync Server 2013 : applets de commande de contrôle d’admission des appels.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e73869b70a571ca49026954f84d1111d57ddfbf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2d841273ef57c53b5bfa70ca5f2e54e679f70b7a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537251"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569200"
 ---
 # <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Applets de commande de contrôle d’admission des appels dans Lync Server 2013
 
