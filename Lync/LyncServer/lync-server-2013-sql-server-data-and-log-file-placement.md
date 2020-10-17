@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : emplacement des fichiers journaux et de données SQL Server'
+description: 'Lync Server 2013 : emplacement du fichier journal et des données SQL Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f536f2d67010856259abf6b98936cd9e096fc93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a127254fec41a734136df9b63fc6cc8929745df7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509621"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558280"
 ---
 # <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Emplacement des fichiers journaux et de données SQL Server pour Lync Server 2013
 

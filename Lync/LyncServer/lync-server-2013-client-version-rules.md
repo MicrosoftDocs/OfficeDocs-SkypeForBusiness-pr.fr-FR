@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : règles de version du client'
+description: 'Lync Server 2013 : règles de version du client.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59c7d0eea1992109841228871660281b8e7c33b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61ff42942a790f7fbdf4fb7fc9fc3352ee6f6e1e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499271"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558190"
 ---
 # <a name="client-version-rules-in-lync-server-2013"></a>Règles de version du client dans Lync Server 2013
 

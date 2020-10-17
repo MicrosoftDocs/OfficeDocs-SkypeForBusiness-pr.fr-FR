@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : ajout de commandes aux menus de Lync'
+description: 'Lync Server 2013 : ajout de commandes aux menus de Lync.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ed4d62d085eaf115d107244ae50a7cc69e0aacd5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521351"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558230"
 ---
 # <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Ajout de commandes aux menus Lync dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : test de la capacité des utilisateurs mobiles à échanger des messages instantanés'
+description: 'Lync Server 2013 : test de la capacité des utilisateurs mobiles à échanger des messages instantanés.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 675bbeff93fed374d950b2efbdf15b4ea246f861
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519221"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558290"
 ---
 # <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Tester la capacité des utilisateurs mobiles à échanger des messages instantanés dans Lync Server 2013
 

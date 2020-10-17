@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration des versions du client prises en charge'
+description: 'Lync Server 2013 : configuration des versions du client prises en charge.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cecc551eef4cb7574674c9f7de39f27b4efc8710
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74396314cae864fae134531b71375c750be8d3da
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556880"
 ---
 # <a name="configuring-supported-client-versions-in-lync-server-2013"></a>Configuration des versions de client prises en charge dans Lync Server 2013
 

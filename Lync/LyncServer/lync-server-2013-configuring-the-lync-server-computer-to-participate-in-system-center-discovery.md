@@ -1,5 +1,6 @@
 ---
 title: Configuration de l’ordinateur Lync Server pour la participation à la découverte de System Center
+description: Configuration de l’ordinateur Lync Server pour la participation à la découverte de System Center.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9783b8054c74b071c927cc42f32d05700877daad
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d25ba3de673084b2e64e17790a2776cbe57f07
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556850"
 ---
 # <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>Configuration de l’ordinateur Lync Server 2013 pour la participation à la découverte de System Center
 

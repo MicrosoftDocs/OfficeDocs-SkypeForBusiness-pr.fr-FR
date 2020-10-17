@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion des partenaires fédérés XMPP pour votre organisation'
+description: 'Lync Server 2013 : gérer les partenaires fédérés XMPP pour votre organisation.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3b426d3629a78c13fd4a0bd19570eb940cae69b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 37d6fb4104c35ffc7db9649656f7786568a48b61
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498351"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556694"
 ---
 # <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Gérer les partenaires fédérés XMPP dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : test des paramètres de configuration de jonction SIP'
+description: 'Lync Server 2013 : test des paramètres de configuration de jonction SIP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97257add21595770716b3310aed6c59a018ad1b6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2d44fe2ef5123bec31fafaff2d811a501e5cca4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519181"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558270"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a>Tester les paramètres de configuration de jonction SIP dans Lync Server 2013
 

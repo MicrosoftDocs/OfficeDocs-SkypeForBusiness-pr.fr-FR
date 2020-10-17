@@ -1,5 +1,6 @@
 ---
 title: Prise en charge des logiciels de base de données Lync Server 2013
+description: Prise en charge des logiciels de base de données Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1c5d7b44e5febc4123dbcdf7072b98fcfd004609
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516501"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558150"
 ---
 # <a name="database-software-support-in-lync-server-2013"></a>Prise en charge du logiciel de base de données dans Lync Server 2013
 

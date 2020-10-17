@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : ajout de rôles serveur'
+description: 'Lync Server 2013 : ajout de rôles serveur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56b37e7bfac81d80cb1e953e0e4284568d2e7dd9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59d1b7a2d8ca7feba2a192e2f868a8661311ba8f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505101"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558210"
 ---
 # <a name="adding-server-roles-in-lync-server-2013"></a>Ajout de rôles serveur dans Lync Server 2013
 
