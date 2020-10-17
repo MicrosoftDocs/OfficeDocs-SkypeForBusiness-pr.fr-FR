@@ -12,20 +12,22 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76477d748b1a79c616562c20480194f3c4960879
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21eed897d0f85e7d7041f5e86db2fe41e7c30bdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522971"
 ---
+# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="b15e5-102">Configurer des annonces dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b15e5-102">Configure announcements in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="9c9c6-102">Configurer des annonces dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c9c6-102">Configure announcements in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42205098"
 
 <span> </span>
 
-<span data-ttu-id="9c9c6-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="9c9c6-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="b15e5-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="b15e5-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="9c9c6-p101">Lorsque vous configurez des annonces, vous configurez vraiment la manière dont vous voulez que les appels à des numéros non attribués soient traités. Vous pouvez lire une invite, qui peut être un fichier audio ou un fichier de synthèse vocale (TTS), ou bien vous contenter de transférer l’appel vers une destination spécifiée sans lire d’invite.</span><span class="sxs-lookup"><span data-stu-id="9c9c6-p101">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="b15e5-p101">Lorsque vous configurez des annonces, vous configurez vraiment la manière dont vous voulez que les appels à des numéros non attribués soient traités. Vous pouvez lire une invite, qui peut être un fichier audio ou un fichier de synthèse vocale (TTS), ou bien vous contenter de transférer l’appel vers une destination spécifiée sans lire d’invite.</span><span class="sxs-lookup"><span data-stu-id="b15e5-p101">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="9c9c6-p102">Vous devez créer des annonces avant de définir le tableau des numéros non attribués. Vous devez effectuer cette étape pour toutes les annonces utilisant une invite sous forme de fichier audio, de fichier de synthèse vocale (TTS), ou n’utilisant aucune invite.</span><span class="sxs-lookup"><span data-stu-id="9c9c6-p102">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="b15e5-p102">Vous devez créer des annonces avant de définir le tableau des numéros non attribués. Vous devez effectuer cette étape pour toutes les annonces utilisant une invite sous forme de fichier audio, de fichier de synthèse vocale (TTS), ou n’utilisant aucune invite.</span><span class="sxs-lookup"><span data-stu-id="b15e5-p102">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9c9c6-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="9c9c6-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b15e5-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="b15e5-108">In This Section</span></span>
 
-  - [<span data-ttu-id="9c9c6-109">Créer une annonce dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c9c6-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="b15e5-109">Créer une annonce dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b15e5-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="9c9c6-110">Supprimer une annonce dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c9c6-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
+  - [<span data-ttu-id="b15e5-110">Supprimer une annonce dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b15e5-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
 
 </div>
 
