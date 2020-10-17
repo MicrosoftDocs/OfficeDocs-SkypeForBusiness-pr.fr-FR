@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : suppression d’une règle de stratégie de version de client existante'
+description: 'Lync Server 2013 : suppression d’une règle de stratégie de version de client existante.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fce0da6ece0d34c7cf41eac43d472e85c117817
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48cb2dc6458406c988bdc2626fc000c7a9bf5d16
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501571"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553650"
 ---
-# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="6dd35-102">Supprimer une règle de stratégie de version de client existante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6dd35-102">Delete an existing client version policy rule in Lync Server 2013</span></span>
+# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="ef8e7-103">Supprimer une règle de stratégie de version de client existante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e7-103">Delete an existing client version policy rule in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48501571"
 
 <span> </span>
 
-<span data-ttu-id="6dd35-103">_**Dernière modification de la rubrique :** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="6dd35-103">_**Topic Last Modified:** 2013-01-21_</span></span>
+<span data-ttu-id="ef8e7-104">_**Dernière modification de la rubrique :** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="ef8e7-104">_**Topic Last Modified:** 2013-01-21_</span></span>
 
-<span data-ttu-id="6dd35-104">Une stratégie de version de client est composée d’un ensemble de règles de stratégie de version de client.</span><span class="sxs-lookup"><span data-stu-id="6dd35-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="6dd35-105">Ces règles définissent les actions à effectuer lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.</span><span class="sxs-lookup"><span data-stu-id="6dd35-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="6dd35-106">Vous pouvez supprimer des règles individuelles d’une stratégie de version de client à partir du panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6dd35-106">You can delete individual rules from a client version policy from Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="ef8e7-105">Une stratégie de version de client est composée d’un ensemble de règles de stratégie de version de client.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-105">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="ef8e7-106">Ces règles définissent les actions à effectuer lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-106">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="ef8e7-107">Vous pouvez supprimer des règles individuelles d’une stratégie de version de client à partir du panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-107">You can delete individual rules from a client version policy from Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="6dd35-107">Pour supprimer des règles de stratégie de version des clients à l’aide du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="6dd35-107">To delete client version policy rules with Lync Server Control Panel</span></span>
+## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="ef8e7-108">Pour supprimer des règles de stratégie de version des clients à l’aide du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="ef8e7-108">To delete client version policy rules with Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="6dd35-108">Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="6dd35-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="ef8e7-109">Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="6dd35-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6dd35-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6dd35-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="6dd35-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="ef8e7-110">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ef8e7-111">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="ef8e7-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="6dd35-111">Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **stratégie de version du client** .</span><span class="sxs-lookup"><span data-stu-id="6dd35-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="ef8e7-112">Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **stratégie de version du client** .</span><span class="sxs-lookup"><span data-stu-id="ef8e7-112">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="6dd35-112">Sur la page **stratégie de version du client** , double-cliquez sur la stratégie de version du client pour la règle que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="6dd35-112">On the **Client Version Policy** page, double-click the client version policy for the rule you want to delete.</span></span>
+4.  <span data-ttu-id="ef8e7-113">Sur la page **stratégie de version du client** , double-cliquez sur la stratégie de version du client pour la règle que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-113">On the **Client Version Policy** page, double-click the client version policy for the rule you want to delete.</span></span>
 
-5.  <span data-ttu-id="6dd35-113">Les règles s’affichent dans la page **modifier la stratégie de version du client** .</span><span class="sxs-lookup"><span data-stu-id="6dd35-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="6dd35-114">Pour supprimer une règle, sélectionnez-la, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="6dd35-114">To delete a rule, select the rule, and then click **Remove**.</span></span>
+5.  <span data-ttu-id="ef8e7-114">Les règles s’affichent dans la page **modifier la stratégie de version du client** .</span><span class="sxs-lookup"><span data-stu-id="ef8e7-114">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="ef8e7-115">Pour supprimer une règle, sélectionnez-la, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="ef8e7-115">To delete a rule, select the rule, and then click **Remove**.</span></span>
 
 </div>
 
