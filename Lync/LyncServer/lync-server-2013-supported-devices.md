@@ -12,20 +12,22 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f19c7eac607ffcba65435cea2faf53c91e75609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7fc614b2c571df14eac5382e9a022554fc32a260
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524121"
 ---
+# <a name="supported-devices-in-lync-server-2013"></a>Appareils pris en charge dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-devices-in-lync-server-2013"></a>Appareils pris en charge dans Lync Server 2013
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server prend en charge tous les téléphones figurant dans le tableau suiva
 
 
 > [!NOTE]  
-> Trois types de téléphones sont pris en charge : téléphones de bureau (IP de combiné ou périphériques USB conçus pour être utilisés par les employés au sein de leur bureau), les appareils de conférence (téléphones IP ou USB mains conçus pour être utilisés dans les salles de réunion) et les téléphones de zone commune (téléphones IP qui sont conçus pour être utilisés dans des zones partagées, telles que des halls, des cuisines, des étages et des espaces de travail partagés, et peuvent être personnalisés pour fournir différents ensembles de fonctionnalités Lync Phone Edition.
+> Trois types de téléphones sont pris en charge : téléphones de bureau (IP de combiné ou périphériques USB conçus pour être utilisés par les employés au sein de leur bureau), les appareils de conférence (téléphones IP ou USB mains conçus pour être utilisés dans les salles de réunion) et les téléphones de zone commune (téléphones IP conçus pour être utilisés dans les zones partagées, telles que les Halles et les espaces de travail partagés, et peuvent être personnalisés pour fournir différents ensembles de fonctionnalités Lync Phone Edition.
 
 
 
 </div>
 
-Pour obtenir des tableaux de comparaison détaillés de tous les périphériques optimisés pour fonctionner avec Lync, voir « téléphones et appareils qualifiés pour <https://go.microsoft.com/fwlink/p/?linkid=208938>Microsoft Lync » à l’adresse. Les tableaux de comparaison téléphonique de ce site Web incluent des informations sur les tarifs et des spécifications techniques.
+Pour obtenir des tableaux de comparaison détaillés de tous les périphériques optimisés pour fonctionner avec Lync, voir « téléphones et appareils qualifiés pour Microsoft Lync » à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=208938> . Les tableaux de comparaison téléphonique de ce site Web incluent des informations sur les tarifs et des spécifications techniques.
 
 
 <table>

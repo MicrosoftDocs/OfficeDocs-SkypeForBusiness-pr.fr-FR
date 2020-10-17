@@ -12,20 +12,22 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 960f5d895f821e8d9bbc6fa71f451ee455d88388
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1878b011ce62ff732f9b31fb905c012872fe743
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525311"
 ---
+# <a name="deploying-external-user-access-in-lync-server-2013"></a>Déploiement de l’accès des utilisateurs externes dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-external-user-access-in-lync-server-2013"></a>Déploiement de l’accès des utilisateurs externes dans Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42198327"
 
 _**Dernière modification de la rubrique :** 2013-09-23_
 
-Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre organisation, y compris les utilisateurs distants authentifiés et anonymes, les partenaires fédérés (y compris les partenaires XMPP), les clients mobiles et les utilisateurs de services de messagerie instantanée (IM) publics, pour communiquer avec les autres utilisateurs de votre organisation à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas sensiblement différents de Lync Server 2010. Les outils d’installation et d’administration sont quasiment identiques à ceux de Lync Server 2010.
+Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre organisation, y compris les utilisateurs distants authentifiés et anonymes, les partenaires fédérés (y compris les partenaires XMPP), les clients mobiles et les utilisateurs de services de messagerie instantanée publics, de communiquer avec d’autres utilisateurs de votre organisation à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas sensiblement différents de Lync Server 2010. Les outils d’installation et d’administration sont quasiment identiques à ceux de Lync Server 2010.
 
 <div>
 
 
 > [!IMPORTANT]  
-> L’installation et la&nbsp;configuration du serveur Edge Microsoft Lync Server 2013 peuvent être un processus complexe qui requiert une quantité potentiellement importante de planification et de coordination avec vos équipes internes, y compris les considérations de sécurité, de mise en réseau, de pare-feu, de système DNS (Domain Name System), d’équilibrage de charge et d’infrastructure à clé publique (PKI). Il est vivement recommandé de consulter et d’utiliser le processus de planification et la documentation fournis avant de déployer vos composants d’accès externe. Cela permet de limiter le nombre et la fréquence des modifications et des problèmes indésirables à mesure que vous suivez le processus de déploiement. Pour plus d’informations sur la planification de l’accès des utilisateurs externes, voir <A href="lync-server-2013-planning-for-external-user-access.md">Planning for External User Access in Lync Server 2013</A>.
+> &nbsp;L’installation et la configuration du serveur Edge Microsoft Lync Server 2013 peuvent être un processus complexe qui requiert une quantité potentiellement importante de planification et de coordination avec vos équipes internes, y compris les considérations de sécurité, de mise en réseau, de pare-feu, de système DNS (Domain Name System), d’équilibrage de charge et d’infrastructure à clé publique (PKI). Il est vivement recommandé de consulter et d’utiliser le processus de planification et la documentation fournis avant de déployer vos composants d’accès externe. Cela permet de limiter le nombre et la fréquence des modifications et des problèmes indésirables à mesure que vous suivez le processus de déploiement. Pour plus d’informations sur la planification de l’accès des utilisateurs externes, voir <A href="lync-server-2013-planning-for-external-user-access.md">Planning for External User Access in Lync Server 2013</A>.
 
 
 

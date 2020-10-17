@@ -12,20 +12,22 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2a2ee39440ec339fc7bf0757d1882f0be199659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 212a640577d55e80225a597c9263b7a2573d257f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524531"
 ---
+# <a name="operations-guide-for-lync-server-2013"></a>Guide des opérations pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Guide des opérations pour Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216610"
 
 _**Dernière modification de la rubrique :** 2014-08-18_
 
-Ce document décrit les processus, les tâches et les outils opérationnels nécessaires pour gérer un environnement logiciel de communications Microsoft Lync Server 2013. Elle explique comment gérer Lync Server 2013 conformément au modèle MOF (Microsoft Operations Framework) et il vous aidera à concevoir un environnement de gestion des opérations efficace, qui inclut la mise en œuvre de planifications, de processus et de procédures pour maintenir une environnement de travail efficace.
+Ce document décrit les processus, les tâches et les outils opérationnels nécessaires pour gérer un environnement logiciel de communications Microsoft Lync Server 2013. Elle explique comment gérer Lync Server 2013 conformément au modèle MOF (Microsoft Operations Framework) et il vous permettra de concevoir un environnement de gestion des opérations efficace, qui inclut la mise en œuvre de planifications, de processus et de procédures pour maintenir un environnement de travail efficace.
 
 <div>
 

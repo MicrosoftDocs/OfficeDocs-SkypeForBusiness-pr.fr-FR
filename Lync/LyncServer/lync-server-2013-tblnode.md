@@ -12,20 +12,22 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 459b5393f255ade4e510f17c11beccf2f38f7cfc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e6070f6a575466d9ce7063c588e5d470e047d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523811"
 ---
+# <a name="tblnode-in-lync-server-2013"></a>tblNode dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblnode-in-lync-server-2013"></a>tblNode dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-09-12_
 
 tblNode contient l’arborescence d’objets (avec les nœuds de catégorie ou de salle de conversation) telle qu’elle est gérée dans le panneau de configuration et les cmdlets administratives Lync Server 2013.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Colonnes
 
 <table>
 <colgroup>
@@ -127,7 +129,7 @@ tblNode contient l’arborescence d’objets (avec les nœuds de catégorie ou d
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>activation</p></td>
+<td><p>désactivé</p></td>
 <td><p>bit, non null</p></td>
 <td><p>True si la salle de conversation est désactivée. S’applique uniquement aux salles de conversation. (False pour les catégories.)</p></td>
 </tr>

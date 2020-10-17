@@ -12,20 +12,22 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2878f47fcace98bbd9e156f24c2b87e85faf728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186867"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525231"
 ---
+# <a name="introduction-to-lync-server-2013"></a>Présentation de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction-to-lync-server-2013"></a>Présentation de Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Ce tableau et les sections suivantes illustrent les principaux ensembles de fonc
 <p>La présence établit et affiche la disponibilité et la volonté personnelles d’un utilisateur pour communiquer en utilisant des États communs, tels que <strong>disponible</strong> ou <strong>occupé</strong>, ainsi que des États plus détaillés, tels que les États de <strong>retour</strong> et de <strong>non-dérangation</strong>. Ces informations de présence enrichie permettent aux autres utilisateurs d’effectuer immédiatement des choix de communication efficaces.</p></td>
 </tr>
 <tr class="even">
-<td><p>Vidéoconférence</p></td>
+<td><p>Conférence</p></td>
 <td><p>Lync Server inclut la prise en charge de la Conférence par messagerie instantanée, de l’audioconférence, de la conférence Web, de la vidéoconférence et du partage d’application pour les réunions planifiées et impromptues. Tous ces types de réunion sont pris en charge avec un seul client. Lync Server prend également en charge la Conférence rendez-vous afin que les utilisateurs de téléphones de réseau téléphonique commuté (PSTN) puissent participer à la partie audio des conférences.</p>
 <p>Les conférences peuvent être modifiées et croître en temps réel de façon transparente. Par exemple, une seule conférence peut commencer comme un simple message instantané entre quelques utilisateurs et faire remonter une conférence audio avec le partage du bureau et une audience plus importante instantanément, facilement et sans interrompre le flux de conversation.</p></td>
 </tr>
@@ -90,7 +92,7 @@ Ce tableau et les sections suivantes illustrent les principaux ensembles de fonc
 </tr>
 <tr class="odd">
 <td><p>Prise en charge des clients mobiles</p></td>
-<td><p>De plus, grâce aux services de mobilité Lync Server, vos utilisateurs peuvent accéder à la fonctionnalité Lync lors de l’utilisation d’appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge et de l’envoi et de la réception de messages instantanés, de l’affichage de contacts et affichage de la présence. En outre, les appareils mobiles prennent en charge certaines fonctionnalités Voix Entreprise, telles que le clic pour participer à une conférence, l’appel via le bureau, le numéro unique, la messagerie vocale et les appels manqués. Les notifications de type transmission sont également prises en charge pour les appareils mobiles qui ne prennent pas en charge les applications exécutées en arrière-plan.</p></td>
+<td><p>De plus, avec les services Lync Server Mobility, vos utilisateurs peuvent accéder à la fonctionnalité Lync lors de l’utilisation d’appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge et d’effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence. En outre, les appareils mobiles prennent en charge certaines fonctionnalités Voix Entreprise, telles que le clic pour participer à une conférence, l’appel via le bureau, le numéro unique, la messagerie vocale et les appels manqués. Les notifications de type transmission sont également prises en charge pour les appareils mobiles qui ne prennent pas en charge les applications exécutées en arrière-plan.</p></td>
 </tr>
 <tr class="even">
 <td><p>Intégration à d’autres produits</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19359dd785b846fa765e72adb810ccd255c2bd2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192337"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523921"
 ---
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>Prise en charge des grandes réunions à l’aide de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>Prise en charge des grandes réunions à l’aide de Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ La prise en charge de réunions de grande taille incluant jusqu’à 1 000 util
 
 Pour disposer de ressources d’UC et de mémoire suffisantes pour les réunions allant jusqu’à 1000 utilisateurs, les serveurs frontaux d’hébergement ne doivent pas héberger de messagerie instantanée et de présence ou de charges de travail voix entreprise. Ils ne doivent pas non plus héberger d’autres réunions, quelles que soient leurs tailles. Cela signifie que l’hébergement de réunions allant jusqu’à 1000 utilisateurs nécessite la mise en place d’un pool Lync Server distinct dédié à l’hébergement de grandes réunions allant jusqu’à 1000 utilisateurs.
 
-Un pool Lync Server dédié à l’hébergement de grandes réunions ne doit héberger qu’une seule réunion d’un maximum de 1000 utilisateurs en même temps, de sorte que les heures de réunion doivent être réservées à l’avance via un processus de planification hors bande pour garantir un support dédié à partir du service frontal Soft. Pour prendre en charge plusieurs grandes réunions en même temps, nous vous recommandons de configurer plusieurs pools de réunions de grande taille dédiés.
+Un pool Lync Server dédié à l’hébergement de grandes réunions ne doit héberger qu’une seule réunion d’un maximum de 1000 utilisateurs en même temps, de sorte que les heures de réunion doivent être réservées à l’avance via un processus de planification hors bande pour garantir un support dédié à partir des serveurs frontaux. Pour prendre en charge plusieurs grandes réunions en même temps, nous vous recommandons de configurer plusieurs pools de réunions de grande taille dédiés.
 
 Nous vous recommandons de dédier une personne à la conduite et au contrôle de la partie en ligne d’une réunion de grande taille. Cette personne peut être l’organisateur, un assistant de l’organisateur ou du présentateur, ou bien un membre de l’équipe de support technique dédiée aux réunions de grande taille, en fonction des préférences de l’organisation.
 

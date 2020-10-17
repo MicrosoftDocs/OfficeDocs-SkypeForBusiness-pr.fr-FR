@@ -12,20 +12,22 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f0ac6b7614da844a35f97070b61f1b074a4367
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd6e20c510c1a26b3fc367c853d08469798ff765
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524321"
 ---
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>L’héritage des autorisations est désactivé sur les conteneurs ordinateurs, utilisateurs ou InetOrgPerson dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>L’héritage des autorisations est désactivé sur les conteneurs ordinateurs, utilisateurs ou InetOrgPerson dans Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42215560"
 
 _**Dernière modification de la rubrique :** 2014-12-19_
 
-Dans les services de domaine Active Directory verrouillés, les utilisateurs et les objets ordinateur sont souvent placés dans des unités d’organisation (UO) spécifiques dont l’héritage des autorisations est désactivé pour aider à sécuriser la délégation d’administration et pour permettre l’utilisation des objets de stratégie de groupe (GPO). pour appliquer des stratégies de sécurité.
+Dans les services de domaine Active Directory verrouillés, les utilisateurs et les objets ordinateur sont souvent placés dans des unités d’organisation (UO) spécifiques dont l’héritage des autorisations est désactivé pour aider à sécuriser la délégation administrative et pour permettre l’utilisation des objets de stratégie de groupe (GPO) pour appliquer des stratégies de sécurité.
 
 Préparation de domaine et activation de serveur définissez les entrées de contrôle d’accès (ACE) requises par Lync Server 2013. Lorsque l’héritage des autorisations est désactivé, les groupes de sécurité Lync Server ne peuvent pas hériter de ces ACE. Lorsque ces autorisations ne sont pas héritées, les groupes de sécurité Lync Server ne peuvent pas accéder aux paramètres et les deux problèmes suivants se produisent :
 
-  - Pour administrer les utilisateurs, les InetOrgPersons et les contacts, et pour exploiter les serveurs, les groupes de sécurité Lync Server nécessitent des ACE définies par la procédure de préparation du domaine sur les jeux de propriétés de chaque utilisateur, les communications en temps réel (RTC), la recherche d’utilisateur RTC et les informations publiques. . Quand l’héritage des autorisations est désactivé, les groupes de sécurité n’héritent pas ces entrées de contrôle d’accès et ne peuvent pas gérer les serveurs ou les utilisateurs.
+  - Pour administrer les utilisateurs, les InetOrgPersons et les contacts, et pour exploiter les serveurs, les groupes de sécurité Lync Server nécessitent des ACE définies par la procédure de préparation du domaine sur les jeux de propriétés de chaque utilisateur, les communications en temps réel (RTC), la recherche de l’utilisateur RTC et les informations publiques. Quand l’héritage des autorisations est désactivé, les groupes de sécurité n’héritent pas ces entrées de contrôle d’accès et ne peuvent pas gérer les serveurs ou les utilisateurs.
 
   - Pour détecter les serveurs et les pools, les serveurs exécutant Lync Server s’appuient sur les ACE définies par l’activation sur les objets liés à l’ordinateur, y compris le conteneur Microsoft et l’objet serveur. Quand l’héritage des autorisations est désactivé, les groupes de sécurité, les serveurs et les pools n’héritent pas de ces entrées de contrôle d’accès et ne peuvent pas les exploiter.
 
@@ -74,7 +76,7 @@ Pour exécuter cette applet de commande, vous devez bénéficier de droits d’u
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  Dans le fichier journal, recherchez résultats ** \<de\> ** l’exécution réussie à la fin de chaque tâche pour vérifier que les autorisations ont été définies, puis fermez la fenêtre du journal. Vous pouvez également exécuter la commande suivante pour déterminer si les autorisations ont été définies :
+4.  Dans le fichier journal, recherchez résultat de l' **\<Success\>** exécution à la fin de chaque tâche pour vérifier que les autorisations ont été définies, puis fermez la fenêtre du journal. Vous pouvez également exécuter la commande suivante pour déterminer si les autorisations ont été définies :
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
@@ -114,7 +116,7 @@ Pour exécuter cette applet de commande, vous devez bénéficier de droits d’u
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  Dans l’exemple de fichier journal C\\:\\enregistre OUPermissions. xml, vous devez rechercher les résultats de l’exécution ** \<réussie\> ** à la fin de chaque tâche et vérifier qu’il n’y a pas d’erreurs, puis fermer le journal. Vous pouvez exécuter l’applet de commande suivante pour tester les autorisations :
+4.  Dans l’exemple de fichier journal C : \\ Logs \\OUPermissions.xml, recherchez **\<Success\>** le résultat de l’exécution à la fin de chaque tâche et vérifiez qu’il n’y a pas d’erreurs, puis fermez le journal. Vous pouvez exécuter l’applet de commande suivante pour tester les autorisations :
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
@@ -127,7 +129,7 @@ Pour exécuter cette applet de commande, vous devez bénéficier de droits d’u
     
 
     > [!NOTE]  
-    > Si vous exécutez une préparation de domaine sur le domaine racine de la forêt dans un environnement Active Directory verrouillé, sachez que Lync Server doit avoir accès aux conteneurs de schéma et de configuration Active Directory.<BR>Si l’autorisation utilisateur authentifié par défaut est supprimée du schéma ou des conteneurs de configuration dans&nbsp;AD DS, seuls les membres du groupe administrateurs du schéma (pour le conteneur de schéma) ou du groupe administrateurs de l’entreprise (pour le conteneur de configuration) sont autorisés à accéder au conteneur donné. Étant donné que Setup. exe, les cmdlets de Lync Server Management Shell et le panneau de configuration Lync Server nécessitent un accès à ces conteneurs, la configuration et l’installation des outils d’administration échouent, sauf si l’utilisateur qui exécute l’installation dispose de droits d’utilisateur équivalents au schéma. Appartenance au groupe administrateurs et administrateurs de l’entreprise.<BR>Pour remédier à cette situation, vous devez octroyer au groupe RTCUniversalGlobalWriteGroup un accès en lecture et en écriture aux conteneurs Schéma et Configuration.
+    > Si vous exécutez une préparation de domaine sur le domaine racine de la forêt dans un environnement Active Directory verrouillé, sachez que Lync Server doit avoir accès aux conteneurs de schéma et de configuration Active Directory.<BR>Si l’autorisation utilisateur authentifié par défaut est supprimée du schéma ou des conteneurs de configuration dans AD &nbsp; DS, seuls les membres du groupe administrateurs du schéma (pour le conteneur de schéma) ou du groupe administrateurs de l’entreprise (pour le conteneur de configuration) sont autorisés à accéder au conteneur donné. Étant donné que les Setup.exe, les cmdlets Lync Server Management Shell et le panneau de configuration Lync Server nécessitent un accès à ces conteneurs, la configuration et l’installation des outils d’administration échouent, sauf si l’utilisateur qui exécute l’installation dispose de droits d’utilisateur équivalents à ceux des administrateurs du schéma et des groupes Administrateurs de l’entreprise.<BR>Pour remédier à cette situation, vous devez octroyer au groupe RTCUniversalGlobalWriteGroup un accès en lecture et en écriture aux conteneurs Schéma et Configuration.
 
     
     </div>

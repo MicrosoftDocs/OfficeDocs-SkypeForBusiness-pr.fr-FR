@@ -12,20 +12,22 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10915a298fe2e50abdef09dc5acf92927a43cc65
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4afa8f26e28fbb4261b0d8524c02efeb8d2a3132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185297"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524631"
 ---
+# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Déviation du trafic multimédia et contrôle d’admission des appels dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Déviation du trafic multimédia et contrôle d’admission des appels dans Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ La déviation du trafic multimédia et le contrôle d’admission des appels (CA
     
     Même si le contrôle d’admission des appel est désactivé globalement, la stratégie de bande passante doit être définie pour chaque site et lien si vous voulez utiliser la configuration de site et de région pour contrôler la décision de contournement. La valeur réelle de la contrainte de bande passante ou sa modalité n’a pas d’importance. Le but ultime est de faire en sorte que le système calcule automatiquement différents ID de contournement à associer à différents paramètres régionaux qui ne sont pas bien connectés. La définition d’une contrainte de bande passante par définition signifie qu’un lien n’est pas bien connecté.
 
-  - Le contrôle d’admission des médias est activé et la déviation du trafic multimédia n’est pas activée. Cela ne s’applique que si toutes les passerelles et tous les PBX IP ne sont pas bien connectés ou ne répondent pas à d’autres exigences pour la déviation du trafic multimédia. Pour plus d’informations sur les conditions requises pour la déviation du trafic multimédia, voir [Technical Requirements for Media Bypass in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
+  - Le contrôle d’admission des médias est activé et la déviation du trafic multimédia n’est pas activée. Cela ne s’applique que si toutes les passerelles et IP-PBXs ne sont pas bien connectés ou ne répondent pas à d’autres exigences en matière de déviation du trafic multimédia. Pour plus d’informations sur les conditions requises pour la déviation du trafic multimédia, voir [Technical Requirements for Media Bypass in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
 
 <div>
 

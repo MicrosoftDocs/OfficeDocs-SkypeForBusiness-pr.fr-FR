@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214441"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523741"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-09-12_
 
 tblPrincipalAffiliations contient les affiliations principales qui décrivent les appartenances aux emplacements, y compris les groupes de sécurité des services de domaine Active Directory, dans les conteneurs Active Directory, dans les domaines.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Colonnes
 
 <table>
 <colgroup>
@@ -68,7 +70,7 @@ tblPrincipalAffiliations contient les affiliations principales qui décrivent le
 <tr class="odd">
 <td><p>Index</p></td>
 <td><p>int, non null</p></td>
-<td><p>Évaluer. La valeur des auto-affiliations est-1, et pour les autres affiliations, elle augmente de manière séquentielle de 1 &lt;au sein de&gt; chaque principalID, affiliationId Bucket.</p></td>
+<td><p>Évaluer. La valeur des auto-affiliations est-1, et pour les autres affiliations, elle augmente de manière séquentielle de 1 au sein de chaque &lt; principalID, affiliationId &gt; Bucket.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
@@ -88,7 +90,7 @@ tblPrincipalAffiliations contient les affiliations principales qui décrivent le
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columns</th>
+<th>Colonnes</th>
 <th>Description</th>
 </tr>
 </thead>

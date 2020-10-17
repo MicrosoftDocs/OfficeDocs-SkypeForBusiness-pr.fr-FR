@@ -12,20 +12,22 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0377460340e1b639a7fca5862dcd85aed399b94a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19051eb183dc12f091de0d90ebb707bc6cee8fc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525151"
 ---
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Outil de diagnostic de préappel Lync dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Outil de diagnostic de préappel Lync dans Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ PCD est très utile dans les situations où le dernier tronçon d’un réseau e
 
   - Améliorations de la stabilité
 
-Nous apprécions tout commentaire. Veuillez envoyer toutes les questions d’assistance ou tous les problèmes à l' <pcdfb@microsoft.com>alias de [Commentaire PCD](mailto:pcdfb@microsoft.com) à l’adresse.
+Nous apprécions tout commentaire. Veuillez envoyer toutes les questions d’assistance ou tous les problèmes à l’alias de [Commentaire PCD](mailto:pcdfb@microsoft.com) à l’adresse <pcdfb@microsoft.com> .
 
 Cette rubrique comprend les sections suivantes :
 
@@ -75,7 +77,7 @@ Cette rubrique comprend les sections suivantes :
 
 Cette rubrique décrit les versions suivantes de l’outil, disponibles en téléchargement gratuit :
 
-  - Application de bureau Windows[https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914)()
+  - Application de bureau Windows ( [https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914) )
 
 </div>
 
@@ -101,7 +103,7 @@ Cette rubrique décrit les versions suivantes de l’outil, disponibles en tél�
 
   - N’importe quelle édition du système d’exploitation Windows 7 ou Windows 8
 
-  - Microsoft .NET Framework 4,5 disponible sur[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4,5 disponible sur [https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

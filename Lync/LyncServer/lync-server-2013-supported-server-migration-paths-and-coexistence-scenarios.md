@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523971"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Chemins de migration de serveurs et scénarios de coexistence pris en charge dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Chemins de migration de serveurs et scénarios de coexistence pris en charge dans Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Dernière modification de la rubrique :** 2012-10-16_
 
 Lync Server 2013 prend en charge la migration à partir de l’un des éléments suivants :
 
-  - Microsoft Lync Server 2010
+  - Microsoft Lync Server 2010
 
-  - Microsoft Office Communications Server 2007 R2
+  - Microsoft Office Communications Server 2007 R2
 
 La migration à partir d’un environnement exécutant ces deux versions précédentes n’est pas prise en charge. La migration à partir de versions antérieures, telles que Microsoft Office Communications Server 2007 ou Live Communications Server 2005, n’est pas prise en charge. Si votre déploiement précédent comprenait la conversation de groupe, vous devez la migrer séparément.
 
@@ -80,7 +82,7 @@ Lors d’une migration progressive dans laquelle un déploiement Lync Server 201
 
 Vous devez utiliser des ordinateurs distincts et distincts exécutant Microsoft SQL Server 2008 R2 ou Microsoft SQL Server 2012 pour vos instances de base de données Lync Server 2013. Vous ne pouvez pas utiliser la même instance de SQL Server pour un pool frontal Lync Server 2013 que vous utilisez pour un pool frontal Lync Server 2010 ou Office Communications Server 2007 R2. Si vous définissez et configurez Lync Server 2013 dans le générateur de topologie pour un déploiement sur lequel Lync Server 2010 ou Office Communications Server 2007 R2 est déjà déployé, le générateur de topologies ne vous permet pas de définir une instance d’un Lync Server 2013 déjà utilisé dans la topologie.
 
-Le générateur de topologie affiche le message suivant pour vous informer de ce problème : « le nom de \[domaine complet SQL Server\] du serveur contient déjà une instance SQL qui héberge le rôle «magasin d’utilisateurs ».»
+Le générateur de topologie affiche le message suivant pour vous informer de ce problème : « le \[ nom de domaine complet SQL Server du serveur \] contient déjà une instance SQL qui héberge le rôle «magasin d’utilisateurs ».»
 
 <div>
 

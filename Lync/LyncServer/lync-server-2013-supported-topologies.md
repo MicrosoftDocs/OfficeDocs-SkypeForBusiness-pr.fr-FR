@@ -12,20 +12,22 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 732b9a70ee61ce4ecdf19b3f668ba09a3416cca9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4754881d2ed3205c4f06d5468001c6e45880278c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208120"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523961"
 ---
+# <a name="supported-topologies-in-lync-server-2013"></a>Topologies prises en charge dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-topologies-in-lync-server-2013"></a>Topologies prises en charge dans Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ Bien qu’une topologie de site central doive obligatoirement inclure un pool de
 
   - Office Web Apps Server, qui est utilisé avec les applications Office Web dans Lync Server 2013 pour gérer le partage et le rendu des présentations Microsoft PowerPoint.
 
-  - Serveur Edge ou pool de serveurs Edge dans votre réseau de périmètre, si vous souhaitez que votre déploiement prenne en charge les partenaires fédérés, la connectivité PIC, une passerelle XMPP (extensible Messaging and Presence Protocol), l’accès des utilisateurs distants, la participation des utilisateurs anonymes aux réunions ; ou la messagerie unifiée Exchange. Vous ne pouvez pas colocaliser d’autres rôles serveur avec le serveur Edge. Nous recommandons l’équilibrage de la charge DNS, lorsqu’il est approprié, mais l’équilibrage de la charge matérielle est également pris en charge. Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur l’une des interfaces Edge et l’équilibrage de la charge matérielle sur l’autre. Pour plus d’informations sur les exigences et la prise en charge de l’équilibrage de charge, voir [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) dans la documentation de planification et [Deploying External User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement.
+  - Serveur Edge ou pool de serveurs Edge dans votre réseau de périmètre, si vous souhaitez que votre déploiement prenne en charge les partenaires fédérés, la connectivité PIC, une passerelle XMPP, l’accès des utilisateurs distants, la participation des utilisateurs anonymes à des réunions ou la messagerie unifiée Exchange. Vous ne pouvez pas colocaliser d’autres rôles serveur avec le serveur Edge. Nous recommandons l’équilibrage de la charge DNS, lorsqu’il est approprié, mais l’équilibrage de la charge matérielle est également pris en charge. Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur l’une des interfaces Edge et l’équilibrage de la charge matérielle sur l’autre. Pour plus d’informations sur les exigences et la prise en charge de l’équilibrage de charge, voir [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) dans la documentation de planification et [Deploying External User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement.
 
   - Serveur de médiation ou pool, si vous souhaitez prendre en charge voix entreprise ou conférence rendez-vous dans un pool frontal sur le site central. En fonction de la façon dont vous déployez la prise en charge voix entreprise, vous pouvez colocaliser le serveur de médiation dans un pool frontal (valeur par défaut) ou déployer un serveur de médiation ou un pool autonome. Vous pouvez utiliser DNS, le matériel ou l’équilibrage de charge d’application (le cas échéant) pour distribuer le trafic à partir de l’homologue de passerelle d’un pool de serveurs de médiation, y compris une passerelle RTC, un système IP-PBX ou un contrôle de frontière de session de jonction SIP. Pour plus d’informations sur la planification de la topologie de serveur de médiation appropriée, voir [Deployment Guidelines for Mediation Server in Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) dans la documentation de planification.
 
@@ -96,7 +98,7 @@ Bien qu’une topologie de site central doive obligatoirement inclure un pool de
 
   - Directeur ou pool Directeur, si vous souhaitez faciliter la résistance et la redirection des demandes utilisateur Lync Server 2013 vers le pool d’accueil de l’utilisateur, qui peut être un pool frontal Enterprise Edition ou un serveur Standard Edition. Nous vous recommandons de déployer un directeur ou un pool directeur dans chaque site central prenant en charge l’accès des utilisateurs externes et dans chaque site central dans lequel vous déployez un ou plusieurs pools de serveurs frontaux. Chaque pool directeur peut contenir jusqu’à dix directeurs. Un directeur ne peut pas être colocalisé avec un autre rôle serveur. Pour plus d’informations sur la planification de la topologie de directeur appropriée, reportez-vous à la rubrique [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) dans la documentation de planification.
 
-  - Proxy inverse, qui n’est pas un composant Lync Server 2013, mais qui est nécessaire si vous souhaitez prendre en charge le partage de contenu Web pour les utilisateurs fédérés ou pour prendre en charge le trafic de mobilité. Vous ne pouvez pas colocaliser un serveur proxy inverse avec un rôle serveur Lync Server 2013, mais vous pouvez implémenter la prise en charge du proxy inverse pour un déploiement Lync Server 2013 en configurant la prise en charge sur un serveur proxy inverse existant de votre organisation qui est utilisé pour d’autres programmes. Pour plus d’informations sur les serveurs proxy inverses, voir [Setting up Reverse Proxy Servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) dans la documentation de déploiement.
+  - Proxy inverse, qui n’est pas un composant Lync Server 2013, mais qui est nécessaire si vous souhaitez prendre en charge le partage de contenu Web pour les utilisateurs fédérés ou pour prendre en charge le trafic de mobilité. Vous ne pouvez pas colocaliser un serveur proxy inverse avec un rôle serveur Lync Server 2013, mais vous pouvez implémenter la prise en charge du proxy inverse pour un déploiement Lync Server 2013 en configurant la prise en charge sur un serveur proxy inverse existant de votre organisation qui est utilisé pour d’autres applications. Pour plus d’informations sur les serveurs proxy inverses, voir [Setting up Reverse Proxy Servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) dans la documentation de déploiement.
 
 <div>
 

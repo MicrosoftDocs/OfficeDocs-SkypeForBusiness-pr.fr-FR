@@ -12,20 +12,22 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc7c6de27a4ccc9cd05777476ac4abc7d6fc9f58
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53e47232a6345749f78f6136929209722a83621e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524391"
 ---
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Rapport de diagnostic des activités d’égal à égal dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Rapport de diagnostic des activités d’égal à égal dans Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Notez que le compte des succès et des échecs attendus et inattendus ne corresp
 <tr class="odd">
 <td><p>2024</p></td>
 <td><p>469</p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>2521</p></td>
 </tr>
 </tbody>
@@ -204,7 +206,7 @@ Le tableau suivant dresse la liste des informations fournies dans le rapport de 
 <tr class="odd">
 <td><p><strong>Volume d’échec attendu</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Nombre total de sessions où une &quot;défaillance&quot; attendue s’est produite.</p>
+<td><p>Nombre total de sessions où une &quot; défaillance attendue &quot; s’est produite.</p>
 <p>Un échec attendu est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent.</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ Le tableau suivant dresse la liste des informations fournies dans le rapport de 
 <tr class="odd">
 <td><p><strong>Volume d’échec inattendu</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Nombre total de sessions où une &quot;défaillance&quot; inattendue s’est produite.</p>
+<td><p>Nombre total de sessions où une &quot; défaillance inattendue &quot; s’est produite.</p>
 <p>Un échec inattendu se produit dans un système sain. Par exemple, un appel ne doit pas se terminer si l’appelant l’a mis en attente. Le cas échéant, cela serait marqué comme un échec inattendu.</p></td>
 </tr>
 <tr class="even">

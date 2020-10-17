@@ -12,20 +12,22 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5007ec14ad197afb2cfb8d2c73baa41ed144a4e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524431"
 ---
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Module Activer et désactiver les annonces de participation et de sortie de conférence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Module Activer et désactiver les annonces de participation et de sortie de conférence dans Lync Server 2013
+
 
 </div>
 
@@ -60,11 +62,11 @@ Lorsque des utilisateurs d’appels entrants rejoignent ou quittent une confére
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   détermine si les participants anonymes sont invités à enregistrer leur nom avant d’entrer dans la Conférence. La valeur par défaut est « $true », ce qui signifie que les participants anonymes sont invités à donner leur nom avant de participer à une conférence. (Les participants authentifiés ne sont pas tenus d’indiquer leur nom, car leur nom complet est utilisé.)
+    **EnableNameRecording**     Détermine si les participants anonymes sont invités à enregistrer leur nom avant d’entrer dans la Conférence. La valeur par défaut est « $true », ce qui signifie que les participants anonymes sont invités à donner leur nom avant de participer à une conférence. (Les participants authentifiés ne sont pas tenus d’indiquer leur nom, car leur nom complet est utilisé.)
     
-    **EntryExitAnnouncementsEnabledByDefault**   indique si les annonces sont activées ou désactivées par défaut. La valeur par défaut est « $false », ce qui signifie qu’aucune annonce n’est effectuée lorsque les participants rejoignent ou quittent une conférence. Lorsqu’il planifie une réunion, l’organisateur peut ignorer ce paramètre.
+    **EntryExitAnnouncementsEnabledByDefault**     Indique si les annonces sont activées ou désactivées par défaut. La valeur par défaut est « $false », ce qui signifie qu’aucune annonce n’est effectuée lorsque les participants rejoignent ou quittent une conférence. Lorsqu’il planifie une réunion, l’organisateur peut ignorer ce paramètre.
     
-    **EntryExitAnnouncementsType**   indique l’action effectuée chaque fois qu’un participant rejoint ou quitte une conférence pour laquelle les annonces sont activées. La valeur par défaut est « UseNames », ce qui signifie qu’une annonce similaire à la suivante est effectuée : « Ken Myer a rejoint la conférence » lorsque les annonces sont activées.
+    **EntryExitAnnouncementsType**     Indique l’action effectuée chaque fois qu’un participant rejoint ou quitte une conférence pour laquelle les annonces sont activées. La valeur par défaut est « UseNames », ce qui signifie qu’une annonce similaire à la suivante est effectuée : « Ken Myer a rejoint la conférence » lorsque les annonces sont activées.
     
     Vous pouvez configurer ces paramètres globalement ou au niveau d’un site. (Les paramètres configurés au niveau du site sont prioritaires sur les paramètres configurés au niveau global.)
     

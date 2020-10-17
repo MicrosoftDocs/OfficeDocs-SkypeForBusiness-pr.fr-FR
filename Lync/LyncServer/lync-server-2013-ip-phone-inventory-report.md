@@ -12,20 +12,22 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb24be3ba069bcf900c86c4e4b45ef31420a3ff9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0be055238c2e8db45337b9e66d936bb73c73e61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525201"
 ---
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Rapport d’inventaire de téléphonie IP dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Rapport d’inventaire de téléphonie IP dans Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Le Rapport d’inventaire de téléphonie IP est accessible à partir de la page
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Utilisation optimale du Rapport d’inventaire de téléphonie IP
 
-Si vous êtes intéressé uniquement par les informations d’utilisation d’un type de téléphone particulier (par exemple, « quelle est la fréquence d’utilisation d’un téléphone Polycom CX600 ? »), vous pouvez obtenir ces informations directement à partir du rapport d’inventaire de téléphonie IP en filtrant ce type particulier de téléphone. En revanche, si vous souhaitez obtenir des données de synthèse pour tous vos téléphones (combien de personnes utilisent un Polycom CX600, combien utilisent un LG-Nortel IP8540, et ainsi de suite.), vous devrez exporter les données et utiliser une autre application (telle que Windows PowerShell) pour effectuer ce type d’analyse. Par exemple, supposons que vous exportez les données vers un fichier de valeurs séparées\\par\\des\_virgules\_(C : Data IP\_report report. csv). Dans ce cas, vous pourriez utiliser les deux commandes suivantes pour obtenir des données de synthèse pour tous vos téléphones :
+Si vous êtes intéressé uniquement par les informations d’utilisation d’un type de téléphone particulier (par exemple, « quelle est la fréquence d’utilisation d’un téléphone Polycom CX600 ? »), vous pouvez obtenir ces informations directement à partir du rapport d’inventaire de téléphonie IP en filtrant ce type particulier de téléphone. En revanche, si vous souhaitez obtenir des données de synthèse pour tous vos téléphones (combien de personnes utilisent un Polycom CX600, combien utilisent un LG-Nortel IP8540, et ainsi de suite.), vous devrez exporter les données et utiliser une autre application (telle que Windows PowerShell) pour effectuer ce type d’analyse. Par exemple, supposons que vous exportez les données vers un fichier de valeurs séparées par des virgules (C : \\ Data \\ IP \_ Phone \_ Inventory \_Report.csv). Dans ce cas, vous pourriez utiliser les deux commandes suivantes pour obtenir des données de synthèse pour tous vos téléphones :
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
@@ -174,7 +176,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p>Sélectionnez l’une des valeurs suivantes :</p>
 <ul>
 <li><p>Tous les</p></li>
-<li><p>10 </p></li>
+<li><p>10 </p></li>
 <li><p>vingtaine</p></li>
 <li><p>0,30</p></li>
 </ul></td>
@@ -184,7 +186,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p>Sélectionnez l’une des valeurs suivantes :</p>
 <ul>
 <li><p>Tous les</p></li>
-<li><p>10 </p></li>
+<li><p>10 </p></li>
 <li><p>vingtaine</p></li>
 <li><p>0,30</p></li>
 </ul></td>

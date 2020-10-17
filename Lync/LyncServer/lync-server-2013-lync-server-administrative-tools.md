@@ -12,20 +12,22 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a7567fa467f8e152f4b6a61b06600a127607d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23ac976f2c05268b5cf864511b19db1fd251edbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525111"
 ---
+# <a name="lync-server-2013-administrative-tools"></a>Outils d’administration Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Outils d’administration Lync Server 2013
+
 
 </div>
 
@@ -45,17 +47,17 @@ Avant d’installer ou d’utiliser les outils d’administration Lync Server, v
 
 Les outils d’administration se composent des éléments suivants :
 
-  - **L’Assistant**   déploiement Lync Server permet de déployer Lync Server et d’installer tous les outils d’administration.
+  - Assistant Déploiement de **Lync Server**     Utilisez pour déployer Lync Server et pour installer tous les outils d’administration.
 
-  - **Le générateur**   de topologies Lync Server permet de définir les composants de votre déploiement.
+  - Générateur de topologies **Lync Server**     Utilisez pour définir les composants de votre déploiement.
 
-  - **Le panneau de configuration**   Lync Server permet de gérer en continu votre déploiement à l’aide d’une interface Web.
+  - **Panneau de configuration**     Lync Server À utiliser pour la gestion continue de votre déploiement à l’aide d’une interface Web.
 
-  - **Lync Server Management Shell**   utilisez pour la gestion continue de votre déploiement à l’aide de la ligne de commande.
+  - **Lync Server Management Shell**     À utiliser pour la gestion continue de votre déploiement à l’aide de la ligne de commande.
 
-  - **Outil de journalisation Lync Server**   utilisé pour résoudre les problèmes de votre déploiement.
+  - Outil de journalisation **Lync Server**     Utilisez pour résoudre les problèmes de votre déploiement.
 
-  - **Le service**   de journalisation centralisée collecte les fichiers journaux et de suivi à partir d’un ordinateur, d’un pool, d’un site ou d’un global. Sélectionnez et définissez des scénarios qui contiennent des fournisseurs, des indicateurs et des niveaux de suivi. La journalisation est collectée, agrégée et affichée avec des outils tels que n’importe quel outil basé sur du texte ou Snooper. exe.
+  - Service de journalisation **centralisée**     Collecte des journaux et des fichiers de suivi à partir d’un ordinateur, d’un pool, d’un site ou d’un global. Sélectionnez et définissez des scénarios qui contiennent des fournisseurs, des indicateurs et des niveaux de suivi. La journalisation est collectée, agrégée et affichée avec des outils tels que n’importe quel outil de texte ou Snooper.exe.
 
 Vous pouvez gérer votre déploiement en utilisant principalement le générateur de topologie et le panneau de configuration Lync Server.
 
@@ -63,7 +65,7 @@ Vous pouvez gérer votre déploiement en utilisant principalement le générateu
 
 ## <a name="deployment-wizard"></a>Assistant Déploiement
 
-Vous devez utiliser l’Assistant Déploiement Lync Server inclus sur le support d’installation pour installer tous les outils d’administration sur un ordinateur sur lequel vous n’avez pas encore installé Lync Server. Pendant le processus d’installation des outils d’administration, l’Assistant Déploiement de Lync Server est installé localement avec les autres outils de sorte que vous puissiez l’utiliser ultérieurement pour installer des fichiers pour des composants supplémentaires ou supprimer des fichiers pour les composants dont vous ne voulez pas sur le ci.
+Vous devez utiliser l’Assistant Déploiement Lync Server inclus sur le support d’installation pour installer tous les outils d’administration sur un ordinateur sur lequel vous n’avez pas encore installé Lync Server. Pendant le processus d’installation des outils d’administration, l’Assistant Déploiement de Lync Server est installé localement avec les autres outils afin que vous puissiez l’utiliser ultérieurement pour installer des fichiers pour des composants supplémentaires ou supprimer des fichiers pour les composants dont vous ne voulez pas sur l’ordinateur.
 
 Pour plus d’informations sur l’exécution de l’Assistant Déploiement de Lync Server pour la première fois à partir du support d’installation de Lync Server, voir [install Lync server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
@@ -113,7 +115,7 @@ Dans Lync Server, Lync Server Management Shell fournit une nouvelle méthode d�
 
 ## <a name="logging-tool"></a>Outil de journalisation
 
-L’outil de journalisation Lync Server facilite la résolution des problèmes en capturant les informations de journalisation et de suivi du produit pendant que le produit est en cours d’exécution. Vous pouvez utiliser l’outil pour exécuter des sessions de débogage sur n’importe quel rôle de serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
+L’outil de journalisation Lync Server facilite la résolution des problèmes en capturant les informations de journalisation et de suivi du produit pendant que le produit est en cours d’exécution. Vous pouvez utiliser l’outil pour exécuter des sessions de débogage sur n’importe quel rôle de serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation Lync Server 2010 dans la bibliothèque TechNet à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) .
 
 <div>
 
