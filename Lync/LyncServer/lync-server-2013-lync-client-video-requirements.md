@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration vidéo requise pour les clients Lync'
+description: 'Lync Server 2013 : configuration vidéo requise pour les clients Lync.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ea1d4a993650ec8102d8b66ea5aa936ad1613f20
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506061"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570480"
 ---
 # <a name="lync-client-video-requirements-for-lync-server-2013"></a>Configuration requise pour la vidéo client Lync pour Lync Server 2013
 

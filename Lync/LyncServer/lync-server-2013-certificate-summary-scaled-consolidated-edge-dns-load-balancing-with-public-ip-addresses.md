@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : Résumé des certificats-serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques'
+description: 'Lync Server 2013 : Résumé des certificats-serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9e3acc8efdffd3d04eca2d009791c7cc5d41a3b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e404b65ea0fff9950d3cb2496ff7e97d8762695a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499281"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572270"
 ---
 # <a name="certificate-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Résumé des certificats-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013
 

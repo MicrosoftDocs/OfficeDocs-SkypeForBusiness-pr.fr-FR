@@ -1,5 +1,6 @@
 ---
 title: 'Phase 10 : mettre hors service le site hérité'
+description: 'Phase 10 : mettre hors service le site hérité.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a8a2871659747b68e7a0dec6a945c6f987219a8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9692301a1da38cfd69780ce2524f00dd428454e5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533761"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571200"
 ---
 # <a name="phase-10-decommission-legacy-site"></a>Phase 10 : mettre hors service le site hérité
 
@@ -67,7 +68,7 @@ Les rubriques suivantes fournissent des conseils dans la mise hors service des p
 
   - [Déplacer les annuaires des conférences](move-conference-directories.md)
 
-  - [Mettre à jour les enregistrements SRV DNS](update-dns-srv-records_1.md)
+  - [Mettre à jour les enregistrements SRV DNS](update-dns-srv-records.md)
 
   - [Mise hors service des serveurs et des pools](decommissioning-servers-and-pools.md)
 

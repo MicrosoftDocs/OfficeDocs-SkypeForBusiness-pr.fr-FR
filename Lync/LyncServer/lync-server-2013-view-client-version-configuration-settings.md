@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : afficher les paramètres de configuration de la version du client'
+description: 'Lync Server 2013 : afficher les paramètres de configuration de la version du client.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ec472bff967bc2a8ffb75d09e3515654487be41
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 04fc25a1ab4904cbc6ca7871e1568ac8bc488bdf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506601"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572500"
 ---
 # <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Afficher les paramètres de configuration de la version du client dans Lync Server 2013
 
