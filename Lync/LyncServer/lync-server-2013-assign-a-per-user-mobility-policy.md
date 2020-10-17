@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : affecter une stratégie de mobilité par utilisateur'
+description: 'Lync Server 2013 : affectez une stratégie de mobilité par utilisateur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9b17c58cf3477002a7fa43035b72c77963663316
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134420"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559830"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Attribuer une stratégie de mobilité par utilisateur dans Lync Server 2013
 
@@ -69,10 +70,10 @@ La stratégie de mobilité est l’un des paramètres individuels d’un compte 
     
 
     > [!NOTE]  
-    > Étant donné qu’il existe plusieurs stratégies que vous pouvez configurer dans <STRONG>affecter des stratégies</STRONG>, <STRONG> &lt;garder en&gt; tant que est</STRONG> sélectionnée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
+    > Étant donné qu’il existe plusieurs stratégies que vous pouvez configurer dans <STRONG>affecter des stratégies</STRONG>, <STRONG> &lt; garder en tant que est &gt; </STRONG> sélectionnée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
 
     
-      - Sélectionnez ** \<automatique\> ** pour permettre à Lync Server 2013 de choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
+      - Sélectionnez cette option **\<Automatic\>** pour autoriser Lync Server 2013 à choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
     
       - Cliquez sur le nom d’une stratégie de mobilité par utilisateur que vous avez précédemment définie sur la page **Stratégie de mobilité**.
         
@@ -84,9 +85,9 @@ La stratégie de mobilité est l’un des paramètres individuels d’un compte 
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.
 
-## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie de mobilité par utilisateur à l’aide des applets de commande Windows PowerShell
+## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie de mobilité Per-User à l’aide d’applets de commande Windows PowerShell
 
-Vous pouvez affecter des stratégies de mobilité par utilisateur à l’aide de Windows PowerShell et de la cmdlet **Grant-CsMobilityPolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez affecter des stratégies de mobilité par utilisateur à l’aide de Windows PowerShell et de la cmdlet **Grant-CsMobilityPolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>Pour attribuer une stratégie de mobilité par utilisateur à un seul utilisateur
 

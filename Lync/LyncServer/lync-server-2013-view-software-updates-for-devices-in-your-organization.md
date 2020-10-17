@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : affichage des mises à jour logicielles pour les appareils de votre organisation'
+description: 'Lync Server 2013 : affichage des mises à jour logicielles pour les périphériques de votre organisation.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3141f08e7973b123b8c8ee0fe9b9c3c93c8e752
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 833ab25315847b760271c63bbfca3ba8357e41c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518401"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558830"
 ---
 # <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Affichage des mises à jour logicielles pour les périphériques dans Lync Server 2013
 

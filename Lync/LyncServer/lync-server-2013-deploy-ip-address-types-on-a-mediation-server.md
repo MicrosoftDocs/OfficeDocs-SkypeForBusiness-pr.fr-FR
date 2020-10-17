@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : déploiement des types d’adresses IP sur un serveur de médiation'
+description: 'Lync Server 2013 : déploiement des types d’adresses IP sur un serveur de médiation.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c76dcde03d2a85eb45f7b2c28d6b7c7d99b41b20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: daa3be8d1ef12629dc185f98b95d2db0e565cf18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531481"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559780"
 ---
 # <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>Déployer des types d’adresses IP sur un serveur de médiation pour Lync Server 2013
 

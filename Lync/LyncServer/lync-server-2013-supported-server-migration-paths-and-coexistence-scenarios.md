@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : chemins de migration de serveurs et scénarios de coexistence pris en charge'
+description: 'Lync Server 2013 : chemins de migration de serveurs et scénarios de coexistence pris en charge.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523971"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560230"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Chemins de migration de serveurs et scénarios de coexistence pris en charge dans Lync Server 2013
 
@@ -82,7 +83,7 @@ Lors d’une migration progressive dans laquelle un déploiement Lync Server 201
 
 Vous devez utiliser des ordinateurs distincts et distincts exécutant Microsoft SQL Server 2008 R2 ou Microsoft SQL Server 2012 pour vos instances de base de données Lync Server 2013. Vous ne pouvez pas utiliser la même instance de SQL Server pour un pool frontal Lync Server 2013 que vous utilisez pour un pool frontal Lync Server 2010 ou Office Communications Server 2007 R2. Si vous définissez et configurez Lync Server 2013 dans le générateur de topologie pour un déploiement sur lequel Lync Server 2010 ou Office Communications Server 2007 R2 est déjà déployé, le générateur de topologies ne vous permet pas de définir une instance d’un Lync Server 2013 déjà utilisé dans la topologie.
 
-Le générateur de topologie affiche le message suivant pour vous informer de ce problème : « le \[ nom de domaine complet SQL Server du serveur \] contient déjà une instance SQL qui héberge le rôle «magasin d’utilisateurs ».»
+Le générateur de topologie affiche le message suivant pour vous informer de ce problème : « le \[ nom de domaine complet SQL Server du serveur \] contient déjà un rôle d’hébergement de l’instance SQL ».
 
 <div>
 

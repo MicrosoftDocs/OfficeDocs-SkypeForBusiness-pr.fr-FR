@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion des URL simples'
+description: 'Lync Server 2013 : gestion des URL simples.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd2f63380ba7db1ffc5d218e5ece615a91370af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ebcd11e5360e923b9320e58f15e4add8474ebc81
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507131"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560390"
 ---
 # <a name="managing-simple-urls-in-lync-server-2013"></a>Gestion des URL simples dans Lync Server 2013
 

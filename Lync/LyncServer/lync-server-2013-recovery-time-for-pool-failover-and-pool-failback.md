@@ -1,5 +1,6 @@
 ---
 title: Temps de récupération de Lync Server 2013 pour le basculement de pool et la restauration de pool
+description: Temps de récupération de Lync Server 2013 pour le basculement de pool et la restauration de pool.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1221d145951b4f780638cc2681f6d6cff822a4e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1bb09c32ac4d062358a511464dc21aa7346ee034
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512021"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559170"
 ---
 # <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a>Temps de récupération pour le basculement de pool et la restauration automatique dans Lync Server 2013
 

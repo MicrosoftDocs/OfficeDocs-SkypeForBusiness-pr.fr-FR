@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : affecter une stratégie d’emplacement par utilisateur'
+description: 'Lync Server 2013 : affectez une stratégie d’emplacement par utilisateur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 81631740e0a6c908c392ccacb6b37d7033d9224c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134430"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559880"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Affecter une stratégie d’emplacement par utilisateur dans Lync Server 2013
 
@@ -77,7 +78,7 @@ Pour plus d’informations sur la création de stratégies d’emplacement, voir
     
 
     > [!NOTE]  
-    > Étant donné qu’il existe plusieurs stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <STRONG>affecter les stratégies</STRONG> , <STRONG> &lt;l’option conserver en tant que est&gt; </STRONG> sélectionnée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
+    > Étant donné qu’il existe plusieurs stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <STRONG>affecter les stratégies</STRONG> , l’option <STRONG> &lt; conserver en tant que est &gt; </STRONG> sélectionnée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
 
     
       - Autoriser Lync Server 2013 à choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du sous-réseau.
@@ -92,9 +93,9 @@ Pour plus d’informations sur la création de stratégies d’emplacement, voir
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.
 
-## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Affectation d’une stratégie d’emplacement par utilisateur à l’aide des applets de commande Lync Server Management Shell
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Affectation d’une stratégie d’emplacement de Per-User à l’aide des applets de commande Lync Server Management Shell
 
-Vous pouvez affecter des stratégies d’emplacement par utilisateur à l’aide de la cmdlet Grant-CsLocationPolicy. Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez affecter des stratégies d’emplacement par utilisateur à l’aide de l’applet de commande Grant-CsLocationPolicy. Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>Pour affecter une stratégie d’emplacement utilisateur à un utilisateur unique
 
