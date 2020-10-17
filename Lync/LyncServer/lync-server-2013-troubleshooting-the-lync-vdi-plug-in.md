@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : résolution des problèmes du plug-in Lync VDI'
+description: 'Lync Server 2013 : résolution des problèmes du plug-in Lync VDI.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe652a2a378759584b8d855cdcdc7790b622ad02
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3cd2c0e3c8a47225f00ce280706dea2287e4dc8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518961"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548940"
 ---
 # <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Résolution des problèmes liés au plug-in Lync VDI dans Lync Server 2013
 

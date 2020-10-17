@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration de l’autorité de certification d’entreprise pour l’authentification par carte à puce'
+description: 'Lync Server 2013 : configuration de l’autorité de certification d’entreprise pour l’authentification par carte à puce.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abfbbb7a7f7787ab5490db1542c4435368a84ca0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 98044c96dd04d02fd87609918f309cf65227b133
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532561"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548440"
 ---
 # <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Configuration de l’autorité de certification d’entreprise pour l’authentification par carte à puce dans Lync Server 2013
 

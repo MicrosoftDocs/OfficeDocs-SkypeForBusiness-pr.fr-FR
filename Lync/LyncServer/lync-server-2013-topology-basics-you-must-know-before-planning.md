@@ -1,5 +1,6 @@
 ---
 title: Notions de base sur la topologie Lync Server 2013 que vous devez maîtriser avant la planification
+description: Notions de base sur la topologie Lync Server 2013 que vous devez maîtriser avant de planifier.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 284306b2f7ba1cc9124a3924146d3e5bd715c353
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4bbff40e840339605b2825b267c50ff5e0c234bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535981"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549120"
 ---
 # <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Concepts de base de la topologie que vous devez prendre en compte avant de planifier Lync Server 2013
 

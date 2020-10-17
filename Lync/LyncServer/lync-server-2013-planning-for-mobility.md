@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : planification de la mobilité'
+description: 'Lync Server 2013 : planification de la mobilité.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7897ff7f34ecd1881cc18bc5e305d42dd18c7bb8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0fe5517291726b691739aab69f6c4516a386a80e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521981"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549420"
 ---
 # <a name="planning-for-mobility-in-lync-server-2013"></a>Planification de la mobilité dans Lync Server 2013
 

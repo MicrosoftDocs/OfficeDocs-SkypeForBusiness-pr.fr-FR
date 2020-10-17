@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : composants et topologies pour la jonction SIP'
+description: 'Lync Server 2013 : composants et topologies pour la jonction SIP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08961982f382e5b5c670f6a1640884a4540a4c20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f9d9c826539084a539d3efe7f143c335ec6d8f62
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502491"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549520"
 ---
 # <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Composants et topologies pour la jonction SIP dans Lync Server 2013
 

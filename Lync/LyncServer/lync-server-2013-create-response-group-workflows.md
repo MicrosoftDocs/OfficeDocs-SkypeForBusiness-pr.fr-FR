@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : création de flux de travail Response Group'
+description: 'Lync Server 2013 : créer des flux de travail Response Group.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe0ca786aea0f3c6fab0da95700bd6fa9bb5f21e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7082295eeca45c4dac76d68ef54b5c32fafb25d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504721"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548650"
 ---
 # <a name="create-response-group-workflows-in-lync-server-2013"></a>Créer des flux de travail Response Group dans Lync Server 2013
 

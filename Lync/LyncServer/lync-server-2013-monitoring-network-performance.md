@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : surveillance des performances du réseau'
+description: 'Lync Server 2013 : surveillance des performances du réseau.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efeba476609ad293cd94e67f8dfdbe674b42f3f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0ead7e3f9001b06c783c9b22327581e795a20322
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500641"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549450"
 ---
 # <a name="monitoring-network-performance-in-lync-server-2013"></a>Surveillance des performances réseau dans Lync Server 2013
 

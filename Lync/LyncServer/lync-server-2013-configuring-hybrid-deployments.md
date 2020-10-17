@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration des déploiements hybrides'
+description: 'Lync Server 2013 : configuration des déploiements hybrides.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9818061059080ea3445f797a8079390540f176c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 019223d9d29221249806209576c6c2305a9001ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548340"
 ---
 # <a name="configuring-lync-server-2013-hybrid-deployments"></a>Configuration des déploiements hybrides Lync Server 2013
 

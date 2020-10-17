@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : applets de commande de topologie'
+description: 'Lync Server 2013 : applets de commande de topologie.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 559bcaca41abb9b28be89baac2adee32ad10ddb0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7f77febaa3beb4acc25bc5bc54dd0d5585fe18fc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549110"
 ---
 # <a name="topology-cmdlets-jn-lync-server-2013"></a>Applets de commande de topologie Jn Lync Server 2013
 
