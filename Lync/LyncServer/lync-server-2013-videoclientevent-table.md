@@ -12,20 +12,22 @@ ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a687e503b9dfd02c296e1e96d88b93c716d7c54b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9282af929757a4703f40537cb94d50761b1ac422
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211630"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527581"
 ---
+# <a name="videoclientevent-table-in-lync-server-2013"></a><span data-ttu-id="5d3af-102">Table table videoclientevent dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5d3af-102">VideoClientEvent table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videoclientevent-table-in-lync-server-2013"></a><span data-ttu-id="115b9-102">Table table videoclientevent dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="115b9-102">VideoClientEvent table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42211630"
 
 <span> </span>
 
-<span data-ttu-id="115b9-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="115b9-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="5d3af-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5d3af-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="115b9-104">Chaque enregistrement contient un événement client pour un point de terminaison dans un appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="115b9-104">Each record contains client event for one endpoint in a video call.</span></span> <span data-ttu-id="115b9-105">En règle générale, un appel dispose de deux enregistrements, un pour l’appelant et un pour l’appelé.</span><span class="sxs-lookup"><span data-stu-id="115b9-105">Usually, one call has two records, one for caller and one for callee.</span></span>
+<span data-ttu-id="5d3af-104">Chaque enregistrement contient un événement client pour un point de terminaison dans un appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="5d3af-104">Each record contains client event for one endpoint in a video call.</span></span> <span data-ttu-id="5d3af-105">En règle générale, un appel dispose de deux enregistrements, un pour l’appelant et un pour l’appelé.</span><span class="sxs-lookup"><span data-stu-id="5d3af-105">Usually, one call has two records, one for caller and one for callee.</span></span>
 
 
 <table>
@@ -49,50 +51,50 @@ ms.locfileid: "42211630"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="115b9-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="115b9-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="115b9-108"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="115b9-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="5d3af-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="5d3af-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="5d3af-108"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="5d3af-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="115b9-110"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-110"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="115b9-111">DateHeure</span><span class="sxs-lookup"><span data-stu-id="115b9-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="115b9-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="115b9-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="115b9-113">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="115b9-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-110"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-110"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d3af-111">DateHeure</span><span class="sxs-lookup"><span data-stu-id="5d3af-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="5d3af-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-113">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="5d3af-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="115b9-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-114"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="115b9-115">int</span><span class="sxs-lookup"><span data-stu-id="115b9-115">int</span></span></p></td>
-<td><p><span data-ttu-id="115b9-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="115b9-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="115b9-117">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="115b9-117">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d3af-115">int</span><span class="sxs-lookup"><span data-stu-id="5d3af-115">int</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="5d3af-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-117">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="5d3af-117">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="115b9-118"><strong>MediaLineLabel</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-118"><strong>MediaLineLabel</strong></span></span></p></td>
-<td><p><span data-ttu-id="115b9-119">entier très petit</span><span class="sxs-lookup"><span data-stu-id="115b9-119">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="115b9-120">Primaire</span><span class="sxs-lookup"><span data-stu-id="115b9-120">Primary</span></span></p></td>
-<td><p><span data-ttu-id="115b9-121">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="115b9-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-118"><strong>MediaLineLabel</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-118"><strong>MediaLineLabel</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d3af-119">entier très petit</span><span class="sxs-lookup"><span data-stu-id="5d3af-119">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-120">Primaire</span><span class="sxs-lookup"><span data-stu-id="5d3af-120">Primary</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-121">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="5d3af-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="115b9-122"><strong>FromCaller</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-122"><strong>FromCaller</strong></span></span></p></td>
-<td><p><span data-ttu-id="115b9-123">légèrement</span><span class="sxs-lookup"><span data-stu-id="115b9-123">bit</span></span></p></td>
-<td><p><span data-ttu-id="115b9-124">Primaire</span><span class="sxs-lookup"><span data-stu-id="115b9-124">Primary</span></span></p></td>
-<td><p><span data-ttu-id="115b9-125">0 : données de l’appelé</span><span class="sxs-lookup"><span data-stu-id="115b9-125">0: Callee’s data</span></span></p>
-<p><span data-ttu-id="115b9-126">1 : données de l’appelant</span><span class="sxs-lookup"><span data-stu-id="115b9-126">1: Caller’s data</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-122"><strong>FromCaller</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-122"><strong>FromCaller</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d3af-123">légèrement</span><span class="sxs-lookup"><span data-stu-id="5d3af-123">bit</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-124">Primaire</span><span class="sxs-lookup"><span data-stu-id="5d3af-124">Primary</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-125">0 : données de l’appelé</span><span class="sxs-lookup"><span data-stu-id="5d3af-125">0: Callee’s data</span></span></p>
+<p><span data-ttu-id="5d3af-126">1 : données de l’appelant</span><span class="sxs-lookup"><span data-stu-id="5d3af-126">1: Caller’s data</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="115b9-127"><strong>NetworkBandwidthLowEventRatio</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-127"><strong>NetworkBandwidthLowEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d3af-127"><strong>NetworkBandwidthLowEventRatio</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-127"><strong>NetworkBandwidthLowEventRatio</strong></span></span></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="115b9-128">Pourcentage de la session l’événement LowBandwidth a été déclenché pour l’état « incorrect ».</span><span class="sxs-lookup"><span data-stu-id="115b9-128">Percentage of session the LowBandwidth event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="115b9-129">La bande passante disponible est insuffisante pour une expérience vocale acceptable.</span><span class="sxs-lookup"><span data-stu-id="115b9-129">The available bandwidth is insufficient for an acceptable voice experience.</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-128">Pourcentage de la session l’événement LowBandwidth a été déclenché pour l’état « incorrect ».</span><span class="sxs-lookup"><span data-stu-id="5d3af-128">Percentage of session the LowBandwidth event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="5d3af-129">La bande passante disponible est insuffisante pour une expérience vocale acceptable.</span><span class="sxs-lookup"><span data-stu-id="5d3af-129">The available bandwidth is insufficient for an acceptable voice experience.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="115b9-130"><strong>NetworkReceiveQualityEventRatio</strong></span><span class="sxs-lookup"><span data-stu-id="115b9-130"><strong>NetworkReceiveQualityEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d3af-130"><strong>NetworkReceiveQualityEventRatio</strong></span><span class="sxs-lookup"><span data-stu-id="5d3af-130"><strong>NetworkReceiveQualityEventRatio</strong></span></span></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="115b9-131">Pourcentage de la session l’événement ReceiveSendQuality a été déclenché pour l’état « incorrect ».</span><span class="sxs-lookup"><span data-stu-id="115b9-131">Percentage of session the ReceiveSendQuality event was fired for ‘Bad’ state.</span></span></p>
-<p><span data-ttu-id="115b9-132">La qualité du réseau en termes de gigue ou de perte de paquets est importante et influe sur la qualité de l’audio reçu.</span><span class="sxs-lookup"><span data-stu-id="115b9-132">Network quality in terms of jitter or packet loss is severe and impacts the quality of audio being received.</span></span></p></td>
+<td><p><span data-ttu-id="5d3af-131">Pourcentage de la session l’événement ReceiveSendQuality a été déclenché pour l’état « incorrect ».</span><span class="sxs-lookup"><span data-stu-id="5d3af-131">Percentage of session the ReceiveSendQuality event was fired for ‘Bad’ state.</span></span></p>
+<p><span data-ttu-id="5d3af-132">La qualité du réseau en termes de gigue ou de perte de paquets est importante et influe sur la qualité de l’audio reçu.</span><span class="sxs-lookup"><span data-stu-id="5d3af-132">Network quality in terms of jitter or packet loss is severe and impacts the quality of audio being received.</span></span></p></td>
 </tr>
 </tbody>
 </table>
