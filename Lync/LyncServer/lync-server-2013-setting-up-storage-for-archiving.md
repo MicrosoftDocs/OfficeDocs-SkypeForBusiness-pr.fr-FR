@@ -12,20 +12,22 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f299b01b95cddd461893b35518e3c2fe40c694
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab7e22d4ff0e34d903fa0306d971705c5455b2f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200480"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521781"
 ---
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configuration du stockage pour l’archivage dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configuration du stockage pour l’archivage dans Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Dernière modification de la rubrique :** 2013-12-17_
 
 Le stockage d’archivage pour Lync Server 2013 inclut les éléments suivants :
 
-  - **Stockage des données le**   stockage des données est nécessaire pour stocker le contenu de messagerie instantanée.
+  - **Stockage**     des données Le stockage des données est nécessaire pour stocker le contenu de la messagerie instantanée.
 
-  - ****   Le stockage des fichiers de stockage de fichiers est requis pour stocker le stockage des données de contenu de conférence (réunion) et le stockage de fichiers.
+  - **Stockage**     de fichiers Le stockage de fichiers est requis pour stocker le stockage des données de contenu de conférence (réunion) et le stockage de fichiers.
 
 <div>
 
@@ -57,7 +59,7 @@ La configuration requise pour la configuration du stockage des données pour l�
 
 ## <a name="setting-up-exchange-storage-for-archiving-data"></a>Configuration du stockage Exchange pour les données d’archivage
 
-La configuration d’Exchange pour le stockage des données d’archivage nécessite que votre déploiement Exchange exécute Exchange 2013. De plus, les boîtes aux lettres utilisateur doivent être hébergées sur le serveur Exchange 2013 et leurs boîtes aux lettres doivent être placées en conservation inaltérable. Pour plus d’informations sur la configuration d’Exchange 2013, voir la documentation du produit Exchange.
+La configuration d’Exchange pour le stockage des données d’archivage nécessite que votre déploiement Exchange exécute Exchange 2013. De plus, les boîtes aux lettres utilisateur doivent être hébergées sur le serveur Exchange 2013 et leurs boîtes aux lettres doivent être placées en conservation In-Place. Pour plus d’informations sur la configuration d’Exchange 2013, voir la documentation du produit Exchange.
 
 </div>
 
@@ -71,13 +73,13 @@ Pour les bases de données d’archivage SQL Server, vous devez installer SQL Se
 
 Chaque serveur de base de données doit exécuter une version prise en charge de SQL Server. Pour plus d’informations sur les versions prises en charge, voir [Technical Requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) dans la documentation de planification.
 
-Vous devez configurer les plateformes SQL Server avant de déployer et d’activer l’archivage. Si le compte à utiliser pour la publication de la topologie est doté des droits et autorisations d’administrateur appropriées, vous pouvez créer la base de données d’archivage (LcsLog) lorsque vous publiez votre topologie. Vous pouvez également créer la base de données plus tard, y compris dans le cadre de la procédure d’installation. Pour plus d’informations sur SQL Server, voir SQL Server TechCenter [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)à l’adresse.
+Vous devez configurer les plateformes SQL Server avant de déployer et d’activer l’archivage. Si le compte à utiliser pour la publication de la topologie est doté des droits et autorisations d’administrateur appropriées, vous pouvez créer la base de données d’archivage (LcsLog) lorsque vous publiez votre topologie. Vous pouvez également créer la base de données plus tard, y compris dans le cadre de la procédure d’installation. Pour plus d’informations sur SQL Server, voir SQL Server TechCenter à l’adresse [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) .
 
 <div>
 
 
 > [!NOTE]  
-> Assurez-vous que le type de démarrage du service de l’agent SQL Server est automatique et que le service SQL Server Agent est en cours d’exécution pour l’instance SQL qui contient la base de données d’archivage, afin que le travail de maintenance SQL Server d’archivage par défaut puisse s’exécuter à sa base planifiée sous le contrôle du service SQL Server Agent.
+> Assurez-vous que le type de démarrage du service SQL Server Agent est automatique et que le service SQL Server Agent est en cours d’exécution pour l’instance SQL qui contient la base de données d’archivage, afin que le travail de maintenance SQL Server d’archivage par défaut puisse s’exécuter à intervalles réguliers sous le contrôle du service SQL Server Agent.
 
 
 

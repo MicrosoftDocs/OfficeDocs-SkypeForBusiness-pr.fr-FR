@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521001"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Vue d’ensemble des types d’adresses IP pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Vue d’ensemble des types d’adresses IP pour Lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Dernière modification de la rubrique :** 2013-01-29_
 
 Vous disposez de trois options lors de la configuration des adresses IP dans Lync Server 2013. Vous pouvez configurer Lync Server 2013 pour prendre en charge uniquement IP version 4 (IPv4), uniquement IP version 6 (IPv6), ou une combinaison des deux (appelée *double pile*). Il existe plusieurs problèmes à prendre en compte pour chaque type de configuration :
 
-  - **IPv4 uniquement**   IPv6 a été créé car le monde a des adresses IPv4 insuffisantes. Au final, IPv6 sera entièrement pris en charge dans le monde entier, mais pour l’instant, de nombreuses sociétés et appareils dont votre entreprise peut avoir besoin de communiquer ne prennent pas encore en charge IPv6, et peuvent ne pas prendre du temps. Une configuration IPv4 uniquement permet de s’assurer que votre implémentation Lync Server peut communiquer avec la plupart des périphériques existants.
+  - **IPv4 uniquement**     IPv6 a été créé car le monde a des adresses IPv4 insuffisantes. Au final, IPv6 sera entièrement pris en charge dans le monde entier, mais pour l’instant, de nombreuses sociétés et appareils dont votre entreprise peut avoir besoin de communiquer ne prennent pas encore en charge IPv6, et peuvent ne pas prendre du temps. Une configuration IPv4 uniquement permet de s’assurer que votre implémentation Lync Server peut communiquer avec la plupart des périphériques existants.
 
-  - **IPv6 uniquement**   inversement, une implémentation complète d’IPv6, à ce stade, exclut la communication avec de nombreux appareils existants.
+  - **IPv6 uniquement**     Inversement, une implémentation complète de IPv6, pour le moment, exclut la communication avec de nombreux appareils existants.
 
-  - **La double**   pile double pile est un réseau où les adresses IPv4 et IPv6 sont activées. Cette configuration est prise en charge dans Lync Server 2013 car, dans la plupart des cas, la transition de Full-IPv4 à Full-IPv6 prend plusieurs années.
+  - **Double pile**     Une double pile est un réseau où les adresses IPv4 et IPv6 sont activées. Cette configuration est prise en charge dans Lync Server 2013 car, dans la plupart des cas, la transition de Full-IPv4 à Full-IPv6 prend plusieurs années.
 
 Les sections suivantes décrivent la compatibilité entre ces trois configurations pour différentes fonctionnalités Lync Server.
 
@@ -155,7 +157,7 @@ Les communications d’égal à égal incluent l’audio, l’audio/vidéo, le p
 
 <div>
 
-## <a name="conferencing"></a>Vidéoconférence
+## <a name="conferencing"></a>Conférence
 
 La Conférence comprend l’audio/vidéo, le partage d’application et la collaboration de données (tableau blanc et partage de fichiers).
 
@@ -246,7 +248,7 @@ Lync Server 2013 ne prend pas en charge la déviation du trafic multimédia pour
 </table>
 
 
-\*L’interface principale est l’interface qui communique avec les composants Lync Server.
+\* L’interface principale est l’interface qui communique avec les composants Lync Server.
 
 </div>
 
@@ -339,7 +341,7 @@ Le tableau suivant montre la matrice de prise en charge entre le pool de serveur
 </table>
 
 
-\*Utilisez cette combinaison uniquement dans un environnement de laboratoire.
+\* Utilisez cette combinaison uniquement dans un environnement de laboratoire.
 
 Le tableau suivant est une matrice des combinaisons d’interfaces Edge internes et externes prises en charge.
 
@@ -381,7 +383,7 @@ Le tableau suivant est une matrice des combinaisons d’interfaces Edge internes
 </table>
 
 
-\*Utilisez cette combinaison uniquement dans un environnement de laboratoire.
+\* Utilisez cette combinaison uniquement dans un environnement de laboratoire.
 
 </div>
 

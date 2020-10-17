@@ -12,20 +12,22 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff6e72d13ddfb80369a0a522abc14a1de459536
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520051"
 ---
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Configuration de DNS pour la découverte automatique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Configuration de DNS pour la découverte automatique dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Pour prendre en charge la découverte automatique pour les clients Lync, vous de
 
 Vous devez créer un enregistrement DNS interne et un enregistrement DNS externe pour chaque domaine SIP.
 
-Les enregistrements DNS peuvent être des enregistrements A (hôte) ou CNAMe, en fonction de votre capacité à créer des certificats avec l’autre nom de l’objet (SAN). Si vous n’êtes pas en mesure de demander et de déployer un nouveau certificat externe (public) avec le lyncdiscover. \<nom\> de domaine San, utilisez la procédure d’utilisation du port http/TCP 80. Les procédures suivantes décrivent comment créer des enregistrements DNS internes et externes.
+Les enregistrements DNS peuvent être des enregistrements A (hôte) ou CNAMe, en fonction de votre capacité à créer des certificats avec l’autre nom de l’objet (SAN). Si vous n’êtes pas en mesure de demander et de déployer un nouveau certificat externe (public) avec le lyncdiscover.\<domain name\> SAN, utilisez la procédure d’utilisation du port HTTP/TCP 80. Les procédures suivantes décrivent comment créer des enregistrements DNS internes et externes.
 
 <div>
 
@@ -67,7 +69,7 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou CNAMe, en
         
 
         > [!NOTE]  
-        > Ce domaine est le domaine Active Directory dans lequel votre pool directeur&nbsp;et votre pool frontal Lync Server 2013 sont installés.
+        > Ce domaine est le domaine Active Directory dans lequel votre pool directeur et votre pool frontal Lync Server 2013 &nbsp; sont installés.
 
         
         </div>
@@ -151,7 +153,7 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou CNAMe, en
         
 
         > [!NOTE]  
-        > Ce domaine est le domaine Active Directory dans lequel votre pool directeur&nbsp;et votre pool frontal Lync Server 2013 sont installés.
+        > Ce domaine est le domaine Active Directory dans lequel votre pool directeur et votre pool frontal Lync Server 2013 &nbsp; sont installés.
 
         
         </div>

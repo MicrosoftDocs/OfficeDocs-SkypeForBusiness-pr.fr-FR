@@ -12,20 +12,22 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72d08d786f41dc606b419f9452970d683b8da37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a5f7a6a30e510bdcdb57d9f8a2f5a15fe8a7f37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188657"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521191"
 ---
+# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administration du service de carnet d’adresses dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administration du service de carnet d’adresses dans Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Les règles de normalisation utilisées dans les versions précédentes risquent
 
 ## <a name="user-replicator-and-address-book-server"></a>Réplicateur d’utilisateurs et serveur de carnet d’adresses
 
-Le serveur de carnet d’adresses utilise les données fournies par le réplicateur d’utilisateurs pour mettre à jour les informations obtenues initialement de la liste d’adresses globale. Le réplicateur d’utilisateurs écrit les attributs des services de domaine Active Directory pour chaque utilisateur, contact et groupe dans la table AbUserEntry de la base de données et le serveur de carnet d’adresses synchronise les données utilisateur de la base de données avec les fichiers du magasin de fichiers du serveur de carnet d’adresses et dans la base de données du carnet d’adresses RTCab. Le schéma pour la table AbUserEntry utilise deux colonnes : **Guid utilisateur** et **Données utilisateur**. **UserGuid** est la colonne d’index et contient le GUID de 16 octets de l’objet Active Directory. **UserData** est une colonne d’image qui contient tous les attributs des services de domaine Active Directory mentionnés précédemment pour ce contact.
+Le serveur de carnet d’adresses utilise les données fournies par le réplicateur d’utilisateurs pour mettre à jour les informations obtenues initialement de la liste d’adresses globale. Le réplicateur d’utilisateurs écrit les attributs des services de domaine Active Directory pour chaque utilisateur, contact et groupe dans la table AbUserEntry de la base de données et le serveur de carnet d’adresses synchronise les données utilisateur de la base de données avec les fichiers du magasin de fichiers du serveur de carnet d’adresses et dans la base de données de carnet d’adresses RTCab. Le schéma pour la table AbUserEntry utilise deux colonnes : **Guid utilisateur** et **Données utilisateur**. **UserGuid** est la colonne d’index et contient le GUID de 16 octets de l’objet Active Directory. **UserData** est une colonne d’image qui contient tous les attributs des services de domaine Active Directory mentionnés précédemment pour ce contact.
 
 Le réplicateur d’utilisateurs détermine les attributs Active Directory à écrire en lisant une table de configuration située dans la même instance SQL Server que la table AbUserEntry. La table AbAttribute contient trois colonnes : **ID**, **Nom**, **Indicateurs**et **Activer**. La table est créée pendant la configuration de la base de données. Si la table AbAttribute est vide, le réplicateur d’utilisateurs ignore la logique de traitement de sa table AbUserEntry. Les attributs du serveur de carnet d’adresses sont dynamiques et récupérés à partir de la table AbAttribute, qui est créée initialement par le serveur de carnet d’adresses à l’activation de ce dernier.
 
@@ -100,52 +102,52 @@ L’activation du serveur de carnet d’adresses remplit la table AbAttribute av
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Titre</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
 <tr class="even">
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>Company</p></td>
 <td><p>0x06000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>physicalDeliveryOfficeName</p></td>
 <td><p>0x07000000</p></td>
 </tr>
 <tr class="even">
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>msRTCSIP-PrimaryUserAddress</p></td>
 <td><p>0x08520C00</p></td>
 </tr>
 <tr class="odd">
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>telephoneNumber</p></td>
 <td><p>0x09022800</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10 </p></td>
 <td><p>homePhone</p></td>
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11 </p></td>
-<td><p>Mobile</p></td>
+<td><p>a4</p></td>
+<td><p>Mobiles</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
 <tr class="odd">
-<td><p>kg</p></td>
+<td><p>13 </p></td>
 <td><p>ipPhone</p></td>
 <td><p>0x0D302000</p></td>
 </tr>
@@ -155,13 +157,13 @@ L’activation du serveur de carnet d’adresses remplit la table AbAttribute av
 <td><p>0x0E500000</p></td>
 </tr>
 <tr class="odd">
-<td><p>15 </p></td>
+<td><p>15 </p></td>
 <td><p>groupType</p></td>
 <td><p>0x0F010800</p></td>
 </tr>
 <tr class="even">
-<td><p>16 </p></td>
-<td><p>Service</p></td>
+<td><p>16 </p></td>
+<td><p>Département</p></td>
 <td><p>0x10000000</p></td>
 </tr>
 <tr class="odd">
@@ -171,7 +173,7 @@ L’activation du serveur de carnet d’adresses remplit la table AbAttribute av
 </tr>
 <tr class="even">
 <td><p>18 </p></td>
-<td><p>Responsable</p></td>
+<td><p>Manager</p></td>
 <td><p>0x12040001</p></td>
 </tr>
 <tr class="odd">
@@ -218,7 +220,7 @@ Les numéros dans la colonne **ID** doivent être uniques et ne jamais être ré
 </tr>
 <tr class="odd">
 <td><p>0x2</p></td>
-<td><p>Un attribut de chaîne, mais est inclus uniquement si la valeur d’attribut &quot;commence par&quot;tel :. Ceci est principalement destiné aux attributs de chaînes à valeurs multiples, notamment <strong>proxyAddresses</strong>. Dans ce cas, le serveur de carnet d’adresses est <strong></strong> uniquement intéressé par les entrées &quot;proxyAddresses qui&quot;commencent par Tél :. Par conséquent, dans l’intérêt d’économiser de l’espace, le réplicateur d’utilisateurs stocke &quot;uniquement les&quot;entrées qui commencent par Tél :.</p></td>
+<td><p>Un attribut de chaîne, mais est inclus uniquement si la valeur d’attribut commence par &quot; tel : &quot; . Ceci est principalement destiné aux attributs de chaînes à valeurs multiples, notamment <strong>proxyAddresses</strong>. Dans ce cas, le serveur de carnet d’adresses est uniquement intéressé par les entrées <strong>proxyAddresses</strong> qui commencent par &quot; Tél : &quot; . Par conséquent, dans l’intérêt d’économiser de l’espace, le réplicateur d’utilisateurs stocke uniquement les entrées qui commencent par &quot; Tél : &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p>0x3</p></td>
@@ -226,11 +228,11 @@ Les numéros dans la colonne **ID** doivent être uniques et ne jamais être ré
 </tr>
 <tr class="odd">
 <td><p>0x4</p></td>
-<td><p>Un attribut de chaîne, mais est inclus uniquement si la valeur d’attribut &quot;commence par&quot; SMTP : et &quot; @ &quot; inclut le symbole.</p></td>
+<td><p>Un attribut de chaîne, mais est inclus uniquement si la valeur d’attribut commence par &quot; SMTP : &quot; et inclut le &quot; @ &quot; symbole.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x5</p></td>
-<td><p>Un attribut de chaîne, mais est inclus uniquement si la valeur d’attribut commence &quot;par Tél&quot; : &quot;ou SMTP&quot; : et inclut &quot; @ &quot; le symbole.</p></td>
+<td><p>Un attribut de chaîne, mais est inclus uniquement si la valeur d’attribut commence par &quot; Tél : &quot; ou &quot; SMTP : &quot; et inclut le &quot; @ &quot; symbole.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x100</p></td>
@@ -278,7 +280,7 @@ Dans les versions précédentes de Lync Server, lors de l’application d’une 
 
 
 > [!NOTE]  
-> Par défaut, Lync Server User Replicator s’exécute automatiquement toutes les 5 minutes. Vous pouvez configurer cet intervalle à l’aide de Set-CSUserReplicatorConfiguration &lt; &gt;-ReplicationCycleInterval.
+> Par défaut, Lync Server User Replicator s’exécute automatiquement toutes les 5 minutes. Vous pouvez configurer cet intervalle à l’aide de Set-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt; .
 
 
 
@@ -347,7 +349,7 @@ Il existe actuellement trois filtres différents. Le tableau suivant les répert
 
 Même si vous pouvez filtrer le carnet d’adresses afin de n’inclure que certains utilisateurs, la limitation des entrées n’empêche pas les autres utilisateurs de contacter les utilisateurs filtrés ou d’afficher leur statut de présence. Les utilisateurs peuvent toujours rechercher, envoyer des messages instantanés ou initier manuellement des appels pour les utilisateurs absents du carnet d’adresses en entrant le nom de connexion complet d’un utilisateur. Les informations de contact d’un utilisateur peuvent également être trouvées dans Outlook.
 
-Bien qu’il soit possible d’utiliser des enregistrements de contacts complets dans les fichiers de carnet d’adresses, vous pouvez utiliser Lync Server pour lancer des appels vocaux de messagerie, téléphoniques ou d’entreprise (c’est-à-dire, si voix entreprise est activé sur le serveur) avec des utilisateurs qui ne sont pas configurés pour l’initiation de session. Protocol (SIP), certaines organisations préfèrent inclure uniquement les utilisateurs à extension SIP dans leurs entrées de serveur de carnet d’adresses. Vous pouvez filtrer le carnet d’adresses de manière à inclure uniquement les utilisateurs activés pour SIP en effaçant le bit 0x800 dans la colonne **Indicateurs** des attributs obligatoires suivants : **mailNickname**, **telephoneNumber**, **homePhone** et **mobile**. Vous pouvez également filtrer le carnet d’adresses de manière à inclure uniquement les utilisateurs activés pour SIP en définissant le bit 0x8000 (attribut à inclure) dans la colonne **Indicateurs** de l’attribut **msRTCSIP-PrimaryUserAddress**. Cela permet également d’exclure les comptes de service des fichiers du carnet d’adresses.
+Bien que le fait d’avoir des enregistrements de contacts complets dans les fichiers de carnet d’adresses vous permette d’utiliser Lync Server pour lancer des appels vocaux ou des messages électroniques, téléphoniques ou voix entreprise (si voix entreprise est activé sur le serveur) avec des utilisateurs qui ne sont pas configurés pour le protocole SIP (Session Initiation Protocol), certaines organisations préfèrent inclure uniquement les utilisateurs à extension SIP Vous pouvez filtrer le carnet d’adresses de manière à inclure uniquement les utilisateurs activés pour SIP en effaçant le bit 0x800 dans la colonne **Indicateurs** des attributs obligatoires suivants : **mailNickname**, **telephoneNumber**, **homePhone** et **mobile**. Vous pouvez également filtrer le carnet d’adresses de manière à inclure uniquement les utilisateurs activés pour SIP en définissant le bit 0x8000 (attribut à inclure) dans la colonne **Indicateurs** de l’attribut **msRTCSIP-PrimaryUserAddress**. Cela permet également d’exclure les comptes de service des fichiers du carnet d’adresses.
 
 Après avoir modifié la table AbAttribute, vous pouvez actualiser les données de la table AbUserEntry en exécutant la commande de l’applet de commande **Update-CsUserDatabase**. Une fois que la réplication du réplicateur d’utilisateurs est terminée, vous pouvez mettre à jour le fichier dans le magasin de fichiers du serveur de carnet d’adresses en exécutant manuellement la commande de l’applet de commande **UpdateCsAddressBook**.
 

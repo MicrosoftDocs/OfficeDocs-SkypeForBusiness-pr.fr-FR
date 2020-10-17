@@ -12,20 +12,22 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21f7d374d3c4263f2341386d2c4471f50e4b719d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5f789f390e1cf104a0dc1b3a10a4116ba38c03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198337"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521661"
 ---
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Définition de la configuration requise pour l’archivage dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Définition de la configuration requise pour l’archivage dans Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Pour implémenter l’archivage, vous devez d’abord décider comment répondre
     
     Vous pouvez configurer cette option au niveau global, au niveau du site et au niveau du pool. Par défaut, le mode Critical n’est pas activé.
 
-  - **Utiliser l’intégration de Microsoft Exchange**. Cette option intègre le stockage d’archivage avec votre stockage Exchange 2013, afin que vos données archivées Lync Server et les données archivées Exchange 2013 soient stockées ensemble dans Exchange. Vous pouvez utiliser l’intégration Microsoft Exchange pour le stockage des données d’archivage pour les utilisateurs hébergés sur Exchange 2013, si leur boîte aux lettres a été mise en archive inaltérable. Si vous ne disposez pas d’un déploiement d’Exchange 2013 ou si vous préférez ne pas l’intégrer ou si vous avez des utilisateurs Lync qui ne sont pas hébergés sur Exchange 2013, vous pouvez déployer des bases de données d’archivage distinctes à l’aide de SQL Server pour stocker les données archivées à partir de Lync communications. Vous pouvez configurer l’option intégration de Microsoft Exchange au niveau global, au niveau du site et au niveau du pool. Par défaut, l’intégration de Microsoft Exchange n’est pas activée.
+  - **Utiliser l’intégration de Microsoft Exchange**. Cette option intègre le stockage d’archivage avec votre stockage Exchange 2013, afin que vos données archivées Lync Server et les données archivées Exchange 2013 soient stockées ensemble dans Exchange. Vous pouvez utiliser l’intégration Microsoft Exchange pour le stockage des données d’archivage pour les utilisateurs hébergés sur Exchange 2013, si leur boîte aux lettres a été mise en attente In-Place. Si vous ne disposez pas d’un déploiement d’Exchange 2013 ou si vous préférez ne pas l’intégrer ou si vous avez des utilisateurs Lync qui ne sont pas hébergés sur Exchange 2013, vous pouvez déployer des bases de données d’archivage distinctes à l’aide de SQL Server pour stocker les données archivées à partir de Lync communications. Vous pouvez configurer l’option intégration de Microsoft Exchange au niveau global, au niveau du site et au niveau du pool. Par défaut, l’intégration de Microsoft Exchange n’est pas activée.
 
   - **La manière dont les données archivées doivent être gérées**. La base de données d’archivage n’est pas destinée à la rétention à long terme et Lync Server 2013 ne fournit pas de solution e-Discovery (recherche) pour les données archivées, de sorte que les données doivent être déplacées vers un autre stockage. Lync Server fournit un outil d’exportation de session que vous pouvez utiliser pour exporter des données archivées et qui crée des transcriptions pouvant faire l’objet d’une recherche des données archivées. Pour la stratégie globale, et pour chaque stratégie de site et utilisateur que vous créez, vous pouvez activer la purge des données et spécifier l’une des options suivantes :
     
@@ -87,7 +89,7 @@ Vous contrôlez l’archivage à l’aide des méthodes suivantes :
     
     </div>
 
-  - **Configurations d’archivage**. Vous pouvez utiliser une ou plusieurs configurations d’archivage pour spécifier la plupart des options d’archivage décrites précédemment dans cette rubrique, à l’exception de l’activation de l’archivage des communications internes et externes (configurées à l’aide de stratégies d’archivage, comme décrit dans le puce précédente). Les configurations d’archivage incluent la configuration globale par défaut et les configurations facultatives de site et de pool. Vous ne pouvez pas supprimer la configuration globale. Les configurations au niveau du pool remplacent les configurations au niveau du site. Les configurations au niveau du site remplacent la configuration globale.
+  - **Configurations d’archivage**. Vous pouvez utiliser une ou plusieurs configurations d’archivage pour spécifier la plupart des options d’archivage décrites précédemment dans cette rubrique, à l’exception de l’activation de l’archivage des communications internes et externes (configurées à l’aide de stratégies d’archivage, comme décrit dans la puce précédente). Les configurations d’archivage incluent la configuration globale par défaut et les configurations facultatives de site et de pool. Vous ne pouvez pas supprimer la configuration globale. Les configurations au niveau du pool remplacent les configurations au niveau du site. Les configurations au niveau du site remplacent la configuration globale.
 
 Dans le cadre de l’analyse de vos besoins, vous devez déterminer la configuration de la stratégie d’archivage globale et de la stratégie d’archivage globale. Vous devez également déterminer vos besoins pour toutes les configurations d’archivage au niveau du site, les configurations d’archivage au niveau du pool, les stratégies d’archivage au niveau du site et les stratégies d’archivage au niveau de l’utilisateur.
 
@@ -97,7 +99,7 @@ Si vous déployez l’archivage pour un pool frontal ou un serveur Standard Edit
 
 
 > [!NOTE]  
-> Pour activer la délégation des tâches administratives tout en conservant les normes de sécurité de votre&nbsp;organisation, Lync Server 2013 utilise le contrôle d’accès basé sur un rôle (RBAC). Avec RBAC, les privilèges d’administrateur sont accordés en affectant des utilisateurs à des rôles d’administration prédéfinis. Pour configurer les stratégies d’archivage et les configurations d’archivage de Lync, l’utilisateur doit être affecté au rôle CsArchivingAdministrator (sauf si la configuration est réalisée directement sur le serveur sur lequel l’archivage est déployé, et non à distance à partir d’un autre ordinateur). Pour plus d’informations sur RBAC, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</A> dans la documentation de planification. Pour obtenir la liste des droits, autorisations et rôles utilisateur requis pour le déploiement de l’archivage, voir <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checklist for Archiving in Lync Server 2013</A>, qui est disponible à la fois dans la documentation de planification et dans la documentation de déploiement.<BR>Si vous utilisez l’intégration de Microsoft Exchange, la configuration des stratégies Exchange requiert des droits et des autorisations d’administrateur appropriés. Pour plus d’informations, reportez-vous à la documentation Exchange 2013.
+> Pour activer la délégation des tâches administratives tout en conservant les normes de sécurité de votre organisation, Lync Server 2013 &nbsp; utilise le contrôle d’accès basé sur un rôle (RBAC). Avec RBAC, les privilèges d’administrateur sont accordés en affectant des utilisateurs à des rôles d’administration prédéfinis. Pour configurer les stratégies d’archivage et les configurations d’archivage de Lync, l’utilisateur doit être affecté au rôle CsArchivingAdministrator (sauf si la configuration est réalisée directement sur le serveur sur lequel l’archivage est déployé, et non à distance à partir d’un autre ordinateur). Pour plus d’informations sur RBAC, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</A> dans la documentation de planification. Pour obtenir la liste des droits, autorisations et rôles utilisateur requis pour le déploiement de l’archivage, voir <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checklist for Archiving in Lync Server 2013</A>, qui est disponible à la fois dans la documentation de planification et dans la documentation de déploiement.<BR>Si vous utilisez l’intégration de Microsoft Exchange, la configuration des stratégies Exchange requiert des droits et des autorisations d’administrateur appropriés. Pour plus d’informations, reportez-vous à la documentation Exchange 2013.
 
 
 

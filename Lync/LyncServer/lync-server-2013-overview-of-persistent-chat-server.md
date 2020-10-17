@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520861"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Vue d’ensemble du serveur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Vue d’ensemble du serveur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013, serveur de conversation permanente permet aux utilisateurs de 
 
   - Augmenter la dispersion des connaissances et informations importantes. Il est possible d’inclure des documents et des liens dans des conversations afin que toute l’équipe puisse y accéder. En publiant des questions à l’attention d’une équipe plus vaste, les utilisateurs peuvent bénéficier de réponses fournies par des experts du domaine concerné. L’intégration à d’autres systèmes d’informations permet de communiquer facilement les données d’entreprise importantes aux grands groupes.
 
-Pour activer les salles de conversation dans Lync Server 2013, déployez Lync Server 2013 persistent chat. Pour plus d’informations sur l’activation des salles de conversation, consultez <https://go.microsoft.com/fwlink/p/?linkid=270945>l’aide de conversation permanente à l’adresse. Si les utilisateurs sont activés pour Lync Server et que la prise en charge de Lync Server est déployée, les utilisateurs peuvent installer et utiliser Lync 2013 persistent chat pour fournir la prise en charge de la salle de conversation.
+Pour activer les salles de conversation dans Lync Server 2013, déployez Lync Server 2013 persistent chat. Pour plus d’informations sur l’activation des salles de conversation, consultez l’aide de conversation permanente à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=270945> . Si les utilisateurs sont activés pour Lync Server et que la prise en charge de Lync Server est déployée, les utilisateurs peuvent installer et utiliser Lync 2013 persistent chat pour fournir la prise en charge de la salle de conversation.
 
 Si votre organisation est tenue de suivre les réglementations de conformité, vous pouvez déployer le service de conformité de conversation permanente.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d1f47cbd38604e90354dc6f3590894071cc4c3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e232d6ffee5e49d52eef68c9668d7d8b6325f13d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520801"
 ---
+# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Rapport de synthèse des activités P2P dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Rapport de synthèse des activités P2P dans Lync Server 2013
+
 
 </div>
 
@@ -102,7 +104,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :</p>
-<p>17/07/2012 13:00</p>
+<p>7/17/12012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/17/12012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
@@ -160,9 +162,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tbody>
 <tr class="odd">
 <td><p><strong>Toutes les heures</strong></p>
-<p><strong>Tous les jours</strong></p>
-<p><strong>Toutes les semaines</strong></p>
-<p><strong>Tous les mois</strong></p></td>
+<p><strong>Journalière</strong></p>
+<p><strong>Hebdomadaire</strong></p>
+<p><strong>Mensuelle</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 7/17/2012, la répartition horaire des activités d’enregistrement de l’utilisateur s’affiche pour cette date.</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee9b82c14704c83f6d95d02635ce4f414ff1a156
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2caffd50fb904ebb93a789278ece9f13665ca4b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521431"
 ---
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Ajout d’un administrateur de conversation permanente dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Ajout d’un administrateur de conversation permanente dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-10-06_
 
 Dans Lync Server 2013, les utilisateurs qui effectuent des tâches spécifiques doivent être affectés en tant que membres d’un ou de plusieurs groupes spécifiques. Le contrôle d’accès basé sur un rôle (RBAC) peut également être utilisé pour accorder des privilèges en affectant des utilisateurs à des rôles d’administration prédéfinis de Lync Server 2013.
 
-Avant de configurer et d’administrer le serveur de conversation permanente, assurez-vous que les droits d’utilisateur et les autorisations appropriés sont en place, et que tous les utilisateurs à classer en tant qu’administrateurs de conversation permanente sont ajoutés à la sécurité CsPersistentChatAdministrator Communauté.
+Avant de configurer et d’administrer le serveur de conversation permanente, assurez-vous que les droits d’utilisateur et les autorisations appropriés sont en place, et que tous les utilisateurs à classer en tant qu’administrateurs de conversation permanente sont ajoutés au groupe de sécurité CsPersistentChatAdministrator.
 
 </div>
 

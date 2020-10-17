@@ -12,20 +12,22 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de3d5132d7307f48de905f5bb6d28e53cbec14a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5d9687069e82cde803f7a01873db482ea2afa2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521991"
 ---
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Planification de la déviation du trafic multimédia dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Planification de la déviation du trafic multimédia dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Le contournement de média fait référence à la suppression du serveur de méd
 
 Le contournement de média peut améliorer la qualité de la voix en diminuant la latence, les traductions inutiles, la perte de paquets possible et le nombre de points de défaillance éventuels. L’extensibilité peut être améliorée du fait que l’élimination du traitement multimédia pour les appels contournés réduit la charge sur le serveur de médiation. Cette réduction du chargement complète la capacité du serveur de médiation à contrôler plusieurs passerelles.
 
-Lorsqu’un site de succursale sans serveur de médiation est connecté à un site central par une ou plusieurs liaisons de réseau étendu avec une bande passante limitée, la déviation du trafic multimédia diminue l’exigence de bande passante en autorisant les médias d’un client sur un site de succursale à circuler directement vers sa passerelle locale sans Il faut d’abord circuler sur la liaison de réseau étendu vers un serveur de médiation sur le site central et inversement.
+Lorsqu’un site de succursale sans serveur de médiation est connecté à un site central par une ou plusieurs liaisons de réseau étendu avec une bande passante limitée, la déviation du trafic multimédia diminue l’exigence de bande passante en permettant aux médias d’un client sur un site de succursale de circuler directement vers la passerelle locale sans avoir préalablement transiter de la liaison de réseau étendu à un serveur de médiation
 
 En soulageant le serveur de médiation du traitement multimédia, la déviation du trafic multimédia peut également réduire le nombre de serveurs de médiation requis par une infrastructure voix entreprise.
 

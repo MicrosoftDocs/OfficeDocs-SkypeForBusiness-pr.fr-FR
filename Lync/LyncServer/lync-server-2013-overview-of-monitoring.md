@@ -12,20 +12,22 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66dd239acbb274c7223363f1522f2d0c76590c37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c44ef02ef0685b4f930d7a264915d5338600ef71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520841"
 ---
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Vue d’ensemble de la surveillance dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-monitoring-in-lync-server-2013"></a>Vue d’ensemble de la surveillance dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-09-05_
 
 Dans Microsoft Lync Server 2013, la surveillance est utilisée pour collecter des informations sur l’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication auxquelles vos utilisateurs sont impliqués. Une session est un terme générique qui couvre la connexion d’un utilisateur à un :
 
-  - Salle
+  - Conférence
 
   - Modalité de conférence (comme l’audio/vidéo ou le partage d’application)
 
@@ -69,7 +71,7 @@ Outre ces informations d’appel de base, le serveur de surveillance fournit ég
 
   - **Métriques multimédias ayant un impact sur la qualité**. Ces mesures traitent de la transmission effective de l’appel lui-même ; autrement dit, ils fournissent une sorte de journal de voyage lorsque l’appel passe sur le réseau. Ces mesures (qui incluent notamment des pertes de paquets, des instabilités et des durées d’aller-retour) fournissent des informations sur ce qui est arrivé à l’appel entre le moment où il a quitté votre point de terminaison et le moment où il est arrivé au point de terminaison de l’autre personne.
 
-  - **Problèmes signalés à l’utilisateur final**. Ces métriques incluent des notifications de qualité médiocre que Lync 2013 présente aux utilisateurs finaux lorsqu’ils sont trop éloignés d’un microphone, parlant trop peu, ont une mauvaise connexion réseau ou présentent une qualité médiocre, car un autre programme sur l’ordinateur est consommation des ressources disponibles.
+  - **Problèmes signalés à l’utilisateur final**. Ces mesures incluent les notifications de qualité médiocre que Lync 2013 présente aux utilisateurs finals lorsqu’ils sont trop éloignés d’un microphone, parlant trop peu, ont une mauvaise connexion réseau ou présentent une qualité médiocre, car un autre programme sur l’ordinateur utilise les ressources disponibles.
 
   - **Informations sur l’environnement**. Ces critères de qualité des appels de mesure, tels que le type de microphone et les haut-parleurs utilisés, le fait que l’utilisateur est connecté via une connexion VPN et que l’utilisateur se trouve sur une connexion sans fil.
 

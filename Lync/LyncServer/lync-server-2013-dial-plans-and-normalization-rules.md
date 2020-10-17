@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213420"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520017"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Plans de numérotation et règles de normalisation dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Plans de numérotation et règles de normalisation dans Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Pour planifier un plan de numérotation, procédez comme suit :
     
     Si votre organisation gère un plan de numérotation unique sur plusieurs emplacements, il se peut que vous deviez créer un plan de numérotation distinct pour les utilisateurs de voix entreprise qui migrent à partir d’un PBX (Private Branch Exchange) et qui doivent conserver leurs extensions existantes.
 
-  - Déterminez si des plans de numérotation par utilisateur sont requis. Par exemple, si des utilisateurs d’un site de succursale sont inscrits auprès du site central ou si vous avez des utilisateurs inscrits sur un Survivable Branch appliance, vous pouvez envisager des scénarios de numérotation spéciaux pour ces utilisateurs qui utilisent des plans de numérotation par utilisateur et des règles de normalisation . Pour plus d’informations, consultez la rubrique [Configuration requise pour la résistance des sites de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
+  - Déterminez si des plans de numérotation par utilisateur sont requis. Par exemple, si vous avez des utilisateurs sur un site de succursale inscrits auprès du site central ou si vous avez des utilisateurs inscrits sur un Survivable Branch appliance, vous pouvez envisager des scénarios de numérotation spéciaux pour ces utilisateurs qui utilisent des plans de numérotation par utilisateur et des règles de normalisation. Pour plus d’informations, consultez la rubrique [Configuration requise pour la résistance des sites de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
 
   - Déterminez l’étendue du plan de numérotation (tel que décrit précédemment dans cette rubrique).
 
@@ -129,7 +131,7 @@ Si vous déployez la Conférence rendez-vous, vous devez spécifier une région 
 
 ## <a name="external-access-prefix"></a>Préfixe d’accès externe
 
-Vous pouvez spécifier un préfixe d’accès externe de quatre caractères maximum\#( \*,, et 0-9) si les utilisateurs doivent composer un ou plusieurs chiffres supplémentaires (par exemple, 9) pour obtenir une ligne externe.
+Vous pouvez spécifier un préfixe d’accès externe de quatre caractères maximum ( \# , \* , et 0-9) si les utilisateurs doivent composer un ou plusieurs chiffres supplémentaires (par exemple, 9) pour obtenir une ligne externe.
 
 <div>
 
@@ -173,9 +175,9 @@ Les champs numériques suivants figurent parmi ceux que vos règles de normalisa
 
 ## <a name="creating-normalization-rules"></a>Création de règles de normalisation
 
-Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numérique que le serveur utilise pour convertir des chaînes de numérotation au format E. 164 dans le but d’effectuer une recherche inversée des numéros. Vous pouvez créer des règles de normalisation dans le panneau de configuration Lync Server en saisissant les expressions manuellement ou en saisissant les chiffres de départ et la longueur des chaînes de numérotation à mettre en correspondance et en laissant le panneau de configuration Lync Server générer le expression régulière pour vous. Dans les deux cas, lorsque vous avez terminé, vous pouvez entrer un numéro de test pour vérifier que la règle de normalisation fonctionne comme prévu.
+Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numérique que le serveur utilise pour convertir des chaînes de numérotation au format E. 164 dans le but d’effectuer une recherche inversée des numéros. Vous pouvez créer des règles de normalisation dans le panneau de configuration Lync Server en saisissant les expressions manuellement ou en saisissant les chiffres de départ et la longueur des chaînes de numérotation à mettre en correspondance et en laissant le panneau de configuration Lync Server générer l’expression régulière correspondante. Dans les deux cas, lorsque vous avez terminé, vous pouvez entrer un numéro de test pour vérifier que la règle de normalisation fonctionne comme prévu.
 
-Pour plus d’informations sur l’utilisation des expressions régulières .NET Framework, voir « .NET [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)Framework regular expressions » à l’adresse.
+Pour plus d’informations sur l’utilisation des expressions régulières .NET Framework, voir « .NET Framework regular expressions » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 </div>
 
@@ -210,42 +212,42 @@ Le tableau suivant présente des exemples de règles de normalisation écrites s
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>Traduit les extensions à 4 chiffres</p></td>
-<td><p>^ (\d{4}) $</p></td>
+<td><p>^(\d{4})$</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>0100 est converti en + 14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>Traduit les extensions à 5 chiffres</p></td>
-<td><p>^ 5 (\d{4}) $</p></td>
+<td><p>^ 5 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>50100 est converti en + 14255550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>Traduit les numéros à 7 chiffres en numéros locaux Redmond</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^(\d{7})$</p></td>
 <td><p>+ 1425 $1</p></td>
 <td><p>5550100 est converti en + 14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>Traduit les numéros à 7 chiffres en numéros locaux Dallas</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^(\d{7})$</p></td>
 <td><p>+ 1972 $1</p></td>
 <td><p>5550100 est converti en + 19725550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>Traduit les numéros à 10 chiffres aux États-Unis</p></td>
-<td><p>^ (\d{10}) $</p></td>
-<td><p>+ 1 $1</p></td>
+<td><p>^(\d{10})$</p></td>
+<td><p>+1$1</p></td>
 <td><p>2065550100 est converti en + 12065550100</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>Traduit les numéros avec des préfixes longue distance aux États-Unis</p></td>
-<td><p>^ 1 (\d{10}) $</p></td>
+<td><p>^ 1 (\d {10} ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>12145550100 est converti en + 2145550100</p></td>
 </tr>
@@ -266,21 +268,21 @@ Le tableau suivant présente des exemples de règles de normalisation écrites s
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>Traduit les numéros avec un préfixe réseau (6) et le code de site de Redmond (222)</p></td>
-<td><p>^ 6222 (\d{4}) $</p></td>
+<td><p>^ 6222 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>62220100 est converti en + 14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>Traduit les numéros avec un préfixe réseau (6) et le code de site NY (333)</p></td>
-<td><p>^ 6333 (\d{4}) $</p></td>
+<td><p>^ 6333 (\d {4} ) $</p></td>
 <td><p>+ 1202555 $1</p></td>
 <td><p>63330100 est converti en + 12025550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>Traduit les numéros avec un préfixe sur le réseau (6) et le code de site Dallas (444)</p></td>
-<td><p>^ 6444 (\d{4}) $</p></td>
+<td><p>^ 6444 (\d {4} ) $</p></td>
 <td><p>+ 1972555 $1</p></td>
 <td><p>64440100 est converti en + 19725550100</p></td>
 </tr>

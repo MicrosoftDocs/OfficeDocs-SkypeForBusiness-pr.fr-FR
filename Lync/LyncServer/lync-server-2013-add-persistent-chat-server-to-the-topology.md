@@ -12,20 +12,22 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ae7ca7e475fd106608dea09fedf250ef541a5c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4656c21d9d28d84259bfaa108c399f36bd2c3d72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521441"
 ---
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Ajouter un serveur de conversation permanente à la topologie dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Ajouter un serveur de conversation permanente à la topologie dans Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
     
 
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs local, mais pour publier une topologie, qui est nécessaire pour installer un serveur Lync Server 2013, vous devez utiliser un compte membre du groupe <STRONG>administrateurs du domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations contrôle total (c’est-à-dire, lecture, écriture et modification) sur le magasin de fichiers que vous allez utiliser pour le magasin de fichiers du serveur de conversation permanente (c’est-à-dire que le générateur de topologies peut configurer les DACL requises) ou un compte disposant de droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs local, mais pour publier une topologie, qui est nécessaire pour installer un serveur Lync Server 2013, vous devez utiliser un compte membre du groupe <STRONG>administrateurs du domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations contrôle total (c’est-à-dire, lecture, écriture et modification) sur le magasin de fichiers que vous allez utiliser pour le magasin de fichiers du serveur de conversation permanente (c’est-à-dire que le générateur de topologies peut configurer les DACL requises) ou un compte avec des droits équivalents.
 
     
     </div>
@@ -68,7 +70,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
     
 
     > [!IMPORTANT]  
-    > Si le rôle serveur de conversation permanente est installé sur un serveur Lync Server&nbsp;2013 Standard Edition, le nom de domaine complet doit correspondre au nom de domaine complet du serveur Standard Edition.
+    > Si le rôle serveur de conversation permanente est installé sur un serveur Lync Server 2013 &nbsp; Standard Edition, le nom de domaine complet doit correspondre au nom de domaine complet du serveur Standard Edition.
 
     
     </div>
@@ -79,7 +81,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
 
 6.  Si votre organisation nécessite la prise en charge de la conformité, cochez la case **Activer la conformité**. Si vous choisissez, le service de conformité du serveur de conversation permanente est installé sur le même ordinateur que le serveur frontal du serveur de conversation permanente. Vous êtes invité à sélectionner un serveur principal SQL Server pour la conformité du serveur de conversation permanente par la suite.
 
-7.  Affectez l’affinité de site pour le pool de serveurs de conversation permanente. Activez la case à cocher **utiliser ce pool \<comme\> valeur par défaut pour le site SiteName** ou **Utilisez ce pool par défaut pour tous les sites** pour désigner ce pool de serveurs de conversation permanente comme pool par défaut pour le site actuel ou tous les sites. Lorsque le client Lync 2013 est utilisé pour créer et gérer des salles, le pool par défaut associé au site de l’utilisateur est utilisé par l’expérience de création et de gestion de salle afin de pouvoir acheminer les opérations de création et de gestion de salle vers ce pool. Ceci s’applique uniquement lorsque vous avez déployé plusieurs pools de serveurs de conversation permanente et que vous souhaitez utiliser les fonctionnalités de création et de gestion de salle du serveur de conversation permanente.
+7.  Affectez l’affinité de site pour le pool de serveurs de conversation permanente. Activez la case à cocher **utiliser ce pool \<SiteName\> comme site par défaut pour le site** ou **Utilisez ce pool comme valeur par défaut pour tous les sites** pour désigner ce pool de serveurs de conversation permanente comme pool par défaut pour le site actuel ou tous les sites. Lorsque le client Lync 2013 est utilisé pour créer et gérer des salles, le pool par défaut associé au site de l’utilisateur est utilisé par l’expérience de création et de gestion de salle afin de pouvoir acheminer les opérations de création et de gestion de salle vers ce pool. Ceci s’applique uniquement lorsque vous avez déployé plusieurs pools de serveurs de conversation permanente et que vous souhaitez utiliser les fonctionnalités de création et de gestion de salle du serveur de conversation permanente.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c519e6b89051dd2034c528a817a34afb9044f1e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48d56ec357892fd84e04ccbc9c4996cc6547370e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204331"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520011"
 ---
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Conception de la topologie pour Lync Server 2013 à l’aide de l’outil de planification
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Conception de la topologie pour Lync Server 2013 à l’aide de l’outil de planification
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204331"
 
 _**Dernière modification de la rubrique :** 2013-03-04_
 
-L’outil de planification Microsoft Lync Server 2013 est un assistant basé sur un interview qui pose des questions sur la topologie Lync Server 2013 que vous concevez. L’outil de planification utilise les informations fournies, associées aux pratiques recommandées pour la conception et la capacité de la topologie, afin de présenter une topologie recommandée en fonction des réponses fournies. Vous pouvez télécharger l’outil de planification à partir du centre de[https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)téléchargement Microsoft ().
+L’outil de planification Microsoft Lync Server 2013 est un assistant basé sur un interview qui pose des questions sur la topologie Lync Server 2013 que vous concevez. L’outil de planification utilise les informations fournies, associées aux pratiques recommandées pour la conception et la capacité de la topologie, afin de présenter une topologie recommandée en fonction des réponses fournies. Vous pouvez télécharger l’outil de planification à partir du centre de téléchargement Microsoft ( [https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725) ).
 
 En fin de compte, l’objectif de l’outil de planification est de faciliter la conception d’une topologie Lync Server 2013 complète. L’outil fournit aussi des références contextuelles à la documentation de planification et de déploiement (à la condition de disposer d’une connexion Internet pour accéder au site Web Microsoft TechNet).
 

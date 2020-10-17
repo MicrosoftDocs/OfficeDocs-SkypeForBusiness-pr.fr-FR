@@ -12,20 +12,22 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fe22d70f442eed0cda1bbf56e79fb0e0e21f8a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520371"
 ---
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurer la téléphonie pour un utilisateur dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurer la téléphonie pour un utilisateur dans Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ Les paramètres de téléphonie sont certains des paramètres individuels d’un
 
 Les options de téléphonie d’utilisateur Lync Server incluent les éléments suivants :
 
-  - **Audio/vidéo désactivé**   l’utilisateur ne peut pas passer des appels audio et vidéo.
+  - **Audio/vidéo désactivé**     L’utilisateur ne peut pas passer des appels audio et vidéo.
 
-  - **PC à PC seul**   l’utilisateur peut uniquement effectuer des appels audio ou vidéo de PC à PC.
+  - **PC à PC uniquement**     L’utilisateur peut effectuer uniquement des appels audio ou vidéo de PC à PC.
 
-  - **Voix entreprise l'**   utilisateur peut utiliser l’infrastructure Lync Server 2013 pour acheminer tous les appels entrants et sortants. L’utilisateur peut aussi effectuer des appels de PC à PC.
+  - **Voix entreprise**     L’utilisateur peut se servir de l’infrastructure Lync Server 2013 pour acheminer tous les appels entrants et sortants. L’utilisateur peut aussi effectuer des appels de PC à PC.
 
-  - **Contrôle d’appel distant**   l’utilisateur peut utiliser Lync Server 2013 pour contrôler le téléphone de bureau et peut également effectuer des appels de PC à PC.
+  - Contrôle d’appel **distant**     L’utilisateur peut utiliser Lync Server 2013 pour contrôler le téléphone de bureau et peut également effectuer des appels de PC à PC.
 
 Pour plus d’informations sur la configuration de la téléphonie pour une organisation, voir [configure Telephony for a User in Lync server 2013](lync-server-2013-configure-telephony-for-a-user.md) et [Deploying Enterprise Voice in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) dans la documentation de déploiement.
 

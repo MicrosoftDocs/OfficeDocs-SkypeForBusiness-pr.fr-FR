@@ -12,20 +12,22 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3556c9147ddf2769e6a403de9e31edf31129d796
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82d23410257db89ff0c7498aba879444a5be9707
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521061"
 ---
+# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Configurer des certificats pour les serveurs dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Configurer des certificats pour les serveurs dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Pour effectuer cette procédure, vous devez avoir ouvert une session en tant qu�
 
 
 > [!NOTE]  
-> Lync Server 2013 inclut la prise en charge de la suite SHA-2 (SHA-2 utilise les longueurs de chiffrement de 224, 256, 384 ou 512 bits) des algorithmes de hachage et de signature Digest pour les connexions à partir de clients exécutant Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Systèmes d’exploitation Windows XP, en plus de Lync Phone Edition. Pour prendre en charge l’accès externe à l’aide de la suite SHA-2, le certificat externe est émis par une autorité de certification publique qui peut également émettre un certificat avec le même chiffrement de longueur en bits.
+> Lync Server 2013 inclut la prise en charge de la suite SHA-2 (SHA-2 utilise les longueurs des Digest 224, 256, 384 ou 512 bits) des algorithmes de hachage et de signature Digest pour les connexions à partir de clients exécutant les systèmes d’exploitation Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, en plus de Lync Phone Edition. Pour prendre en charge l’accès externe à l’aide de la suite SHA-2, le certificat externe est émis par une autorité de certification publique qui peut également émettre un certificat avec le même chiffrement de longueur en bits.
 
 
 
@@ -53,7 +55,7 @@ Pour effectuer cette procédure, vous devez avoir ouvert une session en tant qu�
 
 
 > [!WARNING]  
-> La sélection de l’algorithme de hachage et du Digest de hachage dépend des clients et des serveurs qui utiliseront le certificat, ainsi que d’autres ordinateurs et appareils avec lesquels les clients et les serveurs communiqueront, qui doivent également savoir comment utiliser les algorithmes utilisés dans le titre. Pour plus d’informations sur les longueurs de résumé prises en charge dans le système d’exploitation<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>et certaines applications clientes, reportez-vous à la rubrique.
+> La sélection de l’algorithme de hachage et du Digest de hachage dépend des clients et des serveurs qui utiliseront le certificat, ainsi que d’autres ordinateurs et appareils avec lesquels les clients et les serveurs communiqueront, qui doivent également savoir comment utiliser les algorithmes utilisés dans le certificat. Pour plus d’informations sur les longueurs de résumé prises en charge dans le système d’exploitation et certaines applications clientes, reportez-vous à la rubrique <A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A> .
 
 
 

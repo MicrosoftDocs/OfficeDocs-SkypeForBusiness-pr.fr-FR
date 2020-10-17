@@ -12,20 +12,22 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 515be9190f9c5012dfd75cdda6621b7f4acfd88f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521041"
 ---
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurer des certificats sur le serveur exécutant la messagerie unifiée Microsoft Exchange Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurer des certificats sur le serveur exécutant la messagerie unifiée Microsoft Exchange Server
+
 
 </div>
 
@@ -65,7 +67,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 
 ## <a name="to-download-the-ca-certificate"></a>Pour télécharger le certificat de l’autorité de certification
 
-1.  Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, tapez **http://\<nom de\>votre autorité de certification serveur/certsrv**, puis cliquez sur **OK**.
+1.  Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, tapez **http:// \<name of your Issuing CA Server\> /certsrv**, puis cliquez sur **OK**.
 
 2.  Sous **Sélectionnez une tâche**, cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation de certificats**.
 
@@ -130,7 +132,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Pour configurer la messagerie unifiée Exchange Server 2013 avec Lync Server
 
-1.  Pour plus d’informations, voir « intégration de la messagerie unifiée Exchange 2013 avec Lync Server » [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)dans la documentation d’Exchange Server à l’adresse.
+1.  Pour plus d’informations, voir « intégration de la messagerie unifiée Exchange 2013 avec Lync Server » dans la documentation d’Exchange Server à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 </div>
 
@@ -138,7 +140,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 
 ## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a>Pour créer une demande de certificat et installer le certificat sur Exchange Server 2007 (SP1)
 
-1.  Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, tapez **\<http://** nom de votre autorité de certification serveur**\>/certsrv**, puis cliquez sur **OK**.
+1.  Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, tapez **http:// \<**name of your Issuing CA Server**\> /certsrv**, puis cliquez sur **OK**.
 
 2.  Sous **Sélectionner une tâche**, cliquez sur **Demander un certificat**.
 
@@ -177,13 +179,13 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Pour créer un certificat sur Exchange Server 2010
 
-1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec les droits d’utilisateur appropriés. Pour plus d’informations, voir « autorisations d’accès [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)au client » à l’adresse.
+1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec les droits d’utilisateur appropriés. Pour plus d’informations, voir « autorisations d’accès au client » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
 2.  Suivez les procédures ci-après pour créer le certificat :
     
-    1.  « Créer un nouveau certificat Exchange » à l’adresse[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  « Créer un nouveau certificat Exchange » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  « Importer un certificat Exchange » à l’adresse[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  « Importer un certificat Exchange » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +238,9 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Pour attribuer le certificat au serveur Exchange Server 2010
 
-1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec les droits d’utilisateur appropriés. Pour plus d’informations, voir « autorisations d’accès [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)au client » à l’adresse.
+1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec les droits d’utilisateur appropriés. Pour plus d’informations, voir « autorisations d’accès au client » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
-2.  Pour obtenir la procédure d’attribution du certificat, consultez la rubrique « attribuer des services à [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)un certificat » à l’adresse.
+2.  Pour obtenir la procédure d’attribution du certificat, consultez la rubrique « attribuer des services à un certificat » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497) .
 
 </div>
 

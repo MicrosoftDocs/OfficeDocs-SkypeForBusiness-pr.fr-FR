@@ -12,20 +12,22 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c6c1ae2b19792c89da7462d8a620f501fe19e2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fce0fca685464251c42219aeb5d8418ec1d1b7ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522001"
 ---
+# <a name="planning-for-mobile-clients-in-lync-server-2013"></a>Planification des clients mobiles dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-mobile-clients-in-lync-server-2013"></a>Planification des clients mobiles dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Les clients mobiles Lync 2013 fournissent une présence améliorée, la messager
 
 
 > [!NOTE]  
-> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, voir « Planification des clients mobiles » dans la bibliothèque TechNet Lync Server 2010 <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>à l’adresse.
+> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, voir « Planification des clients mobiles » dans la bibliothèque TechNet Lync Server 2010 à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A> .
 
 
 

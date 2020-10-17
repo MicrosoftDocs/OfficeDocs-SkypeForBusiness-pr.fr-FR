@@ -12,20 +12,22 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf6a1d777e16827f41d9a795fde54fca49750e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d159fd8fa4ade4cb2dee44da7fd7bbd2376b2a80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520101"
 ---
+# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configurer des règles de publication Web pour un pool interne unique dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configurer des règles de publication Web pour un pool interne unique dans Lync Server 2013
+
 
 </div>
 
@@ -82,7 +84,7 @@ Suivez les procédures ci-dessous pour créer des règles de publication web.
     
     </div>
 
-8.  Sur la page **Détails de publication interne** , dans la zone **chemin d’accès (facultatif)** , tapez ** / ** comme chemin d’accès du dossier à publier.
+8.  Sur la page **Détails de publication interne** , dans la zone **chemin d’accès (facultatif)** , tapez **/\*** comme chemin d’accès du dossier à publier.
     
     <div>
     
@@ -168,7 +170,7 @@ Suivez les procédures ci-dessous pour créer des règles de publication web.
     
     Dans la boîte de dialogue **créer une batterie** de serveurs, dans nom de la **batterie de serveurs**, tapez le nom (il peut s’agir d’un nom convivial pour l’identification) pour la première URL. Cliquez sur **Suivant**.
 
-6.  Dans la boîte de dialogue **Ajouter un serveur** dans **adresse du serveur**, tapez le nom de domaine complet (FQDN) des services Web externes sur votre serveur frontal. Les noms qui seront utilisés ici à titre d’exemple sont les mêmes que ceux utilisés dans la section de planification pour le proxy inverse, [Certificate Summary-Reverse Proxy in Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). En vous référant à la planification du proxy inverse, nous `webext.contoso.com`allons taper le nom de domaine complet. Vérifiez que la case à cocher en regard de **en ligne** est activée. Cliquez sur **Ajouter** pour ajouter le serveur au pool de serveurs Web pour cette configuration.
+6.  Dans la boîte de dialogue **Ajouter un serveur** dans **adresse du serveur**, tapez le nom de domaine complet (FQDN) des services Web externes sur votre serveur frontal. Les noms qui seront utilisés ici à titre d’exemple sont les mêmes que ceux utilisés dans la section de planification pour le proxy inverse, [Certificate Summary-Reverse Proxy in Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). En vous référant à la planification du proxy inverse, nous allons taper le nom de domaine complet `webext.contoso.com` . Vérifiez que la case à cocher en regard de **en ligne** est activée. Cliquez sur **Ajouter** pour ajouter le serveur au pool de serveurs Web pour cette configuration.
     
     <div>
     
@@ -234,13 +236,13 @@ Suivez les procédures ci-dessous pour créer des règles de publication web.
 
 13. Sur le côté gauche de la console, cliquez sur le nom du serveur IIS. Au milieu de la console, recherchez **URL Rewrite** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL. Vous devez voir les règles pour chaque batterie de serveurs que vous avez créée lors des étapes précédentes. Si vous ne le faites pas, vérifiez que vous avez cliqué sur le nom du **serveur IIS** juste en dessous du nœud de la **page de démarrage** dans la console du gestionnaire Internet Information Server.
 
-14. Dans la boîte de dialogue de **réécriture d’URL** , à l’aide de webext.contoso.com comme exemple, le nom complet de la règle tel qu’il est affiché est **\_arr webext.contoso.com\_LoadBalance\_SSL**.
+14. Dans la boîte de dialogue de **réécriture d’URL** , à l’aide de webext.contoso.com comme exemple, le nom complet de la règle tel qu’il est affiché est **arr \_ webext.contoso.com \_ LoadBalance \_ SSL**.
     
       - Double-cliquez sur la règle pour ouvrir la boîte de dialogue **modifier la règle de trafic entrant** .
     
       - Cliquez sur **Ajouter...** dans la boîte de dialogue **conditions** .
     
-      - Dans la **condition Add** de l' **entrée de condition :** type **{\_http Host}**. (En fur et à mesure que vous tapez, une boîte de dialogue s’affiche pour vous permettre de sélectionner la condition). sous **Vérifier la chaîne d’entrée :** sélectionnez **correspond au modèle**. Dans le type **\*** **d’entrée pattern** . **Ignorer la casse** doit être sélectionné. Cliquez sur **OK**.
+      - Dans la **condition Add** de l' **entrée de condition :** type **{http \_ Host}**. (En fur et à mesure que vous tapez, une boîte de dialogue s’affiche pour vous permettre de sélectionner la condition). sous **Vérifier la chaîne d’entrée :** sélectionnez **correspond au modèle**. Dans le type **d’entrée pattern** **\*** . **Ignorer la casse** doit être sélectionné. Cliquez sur **OK**.
     
       - Faites défiler la boîte de dialogue **modifier la règle de trafic entrant** pour localiser la boîte de dialogue **action** . **Type d’action :** doit être défini sur **acheminer vers la batterie de serveurs**, **modèle :** défini sur **https://**, **batterie de serveurs :** définit sur l’URL à laquelle cette règle s’applique. Pour cet exemple, il doit être défini sur **webext.contoso.com**. **Path :** est défini sur **/{R : 0}**
     
@@ -252,7 +254,7 @@ Suivez les procédures ci-dessous pour créer des règles de publication web.
     
 
     > [!WARNING]  
-    > Par défaut, les règles HTTP sont également créées et sont représentées par des noms similaires aux règles SSL. Pour notre exemple actuel, la règle HTTP est nommée <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. Aucune modification n’est requise pour ces règles et elles peuvent être ignorées en toute sécurité.
+    > Par défaut, les règles HTTP sont également créées et sont représentées par des noms similaires aux règles SSL. Pour notre exemple actuel, la règle HTTP est nommée <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. Aucune modification n’est requise pour ces règles et elles peuvent être ignorées en toute sécurité.
 
     
     </div>

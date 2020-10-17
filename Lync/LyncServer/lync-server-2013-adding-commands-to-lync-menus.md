@@ -12,20 +12,22 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6377824a7d96e6bb7b0ae6c60c79f3ee4c05b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203330"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521351"
 ---
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Ajout de commandes aux menus Lync dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Ajout de commandes aux menus Lync dans Lync Server 2013
+
 
 </div>
 
@@ -69,9 +71,9 @@ La commande personnalisée peut être appelée des manières suivantes :
 
 Utilisez les paramètres de Registre du tableau suivant pour ajouter une commande aux menus. Ces entrées sont placées dans le registre à l’un des emplacements suivants :
 
-  - Pour le système d’exploitation\_32\_bits\\:\\le\\logiciel\\Microsoft\\Office\\15,0\\Lync sessionmanager apps de l’ordinateur local
+  - Pour le système d’exploitation 32 bits : le \_ \_ \\ logiciel \\ Microsoft \\ Office \\ 15,0 \\ Lync \\ sessionmanager \\ apps de l’ordinateur local
 
-  - Pour 64 bits : HKEY\_Software\_\\\\local machine Wow6432Node\\Microsoft\\Office\\15,0\\Lync\\sessionmanager\\apps
+  - Pour 64 bits : HKEY \_ \_ Software local \\ machine \\ Wow6432Node \\ Microsoft \\ Office \\ 15,0 \\ Lync \\ sessionmanager \\ apps
 
 ### <a name="custom-command-registry-entries"></a>Entrées du registre de commandes personnalisées
 
@@ -96,7 +98,7 @@ Utilisez les paramètres de Registre du tableau suivant pour ajouter une command
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
-<td><p>COMPLÉTER</p></td>
+<td><p>DWORD</p></td>
 <td><p>0 = exécutable (par défaut)</p>
 <div>
 
@@ -126,7 +128,7 @@ Utilisez les paramètres de Registre du tableau suivant pour ajouter une command
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
-<td><p>COMPLÉTER</p></td>
+<td><p>DWORD</p></td>
 <td><p>0 = Session locale. L’application démarre sur l’ordinateur local.</p>
 <p>1 = Session à deux personnes (par défaut). Lync 2013 démarre l’application localement, puis envoie une notification de bureau à l’autre utilisateur. Ce dernier clique alors sur la notification pour lancer l’application spécifiée sur son ordinateur.</p>
 <p>2 = Session à plusieurs. Lync 2013 démarre l’application localement, puis envoie des notifications de bureau aux autres utilisateurs. L’autre utilisateur clique sur la notification pour démarrer l’application spécifiée sur son ordinateur.</p></td>
@@ -166,13 +168,13 @@ Par exemple, le fichier suivant de l’Editeur du Registre (.REG) montre les ré
 
 Pour accéder à une commande personnalisée une fois qu’elle a été ajoutée, effectuez l’une des opérations suivantes, en fonction des valeurs ExtensibleMenu que vous définissez :
 
-  - **MainWindowActions**   dans la fenêtre principale Lync, cliquez sur **Outils**, puis sur votre commande personnalisée.
+  - **MainWindowActions**     Dans la fenêtre principale Lync, cliquez sur **Outils**, puis sur votre commande personnalisée.
 
-  - **MainWindowRightClick**   dans la fenêtre principale Lync, cliquez avec le bouton droit sur un contact, puis cliquez sur votre commande personnalisée.
+  - **MainWindowRightClick**     Dans la fenêtre principale Lync, cliquez avec le bouton droit sur un contact, puis cliquez sur votre commande personnalisée.
 
-  - **ConversationWindowActions**   dans la fenêtre de conversation, cliquez sur l’icône **autres options** , puis sur votre commande personnalisée.
+  - **ConversationWindowActions**     Dans la fenêtre de conversation, cliquez sur l’icône **autres options** , puis sur votre commande personnalisée.
 
-  - **ConversationWindowRightClick**   dans la fenêtre de conversation, cliquez avec le bouton droit sur le nom d’un contact, puis cliquez sur votre commande personnalisée.
+  - **ConversationWindowRightClick**     Dans la fenêtre de conversation, cliquez avec le bouton droit sur le nom d’un contact, puis cliquez sur votre commande personnalisée.
 
 </div>
 

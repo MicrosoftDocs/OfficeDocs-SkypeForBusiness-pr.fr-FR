@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205450"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520634"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Association d’un magasin de surveillance à un pool frontal dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Association d’un magasin de surveillance à un pool frontal dans Lync Server 2013
+
 
 </div>
 
@@ -69,9 +71,9 @@ Après avoir publié la topologie, vous pouvez installer la base de données d�
 
     Install-CsDatabase -LocalDatabases
 
-Lorsque vous exécutez la commande précédente, install-applet csdatabase lira la topologie Lync Server actuelle, déterminez les bases de données qui doivent être installées sur l’ordinateur local, puis installez et configurez automatiquement chacune de ces bases de données.
+Lorsque vous exécutez la commande précédente, Install-CsDatabase lira la topologie Lync Server actuelle, déterminez les bases de données qui doivent être installées sur l’ordinateur local, puis installez et configurez automatiquement chacune de ces bases de données.
 
-Pour installer la base de données sur un ordinateur distant (c’est-à-dire, un ordinateur autre que l’ordinateur sur lequel Management Shell est exécuté), vous devez inclure au moins deux paramètres : les paramètres ConfiguredDatabases et SqlServerFqdn. Ces paramètres indiquent à la cmdlet install-applet csdatabase de récupérer la topologie Lync Server, puis d’installer et de configurer les bases de données requises sur l’ordinateur spécifié par le paramètre SqlServerFqdn. Le paramètre SqlServerFqdn doit utiliser une valeur représentant le nom de domaine complet de l’ordinateur sur lequel les bases de données doivent être installées.
+Pour installer la base de données sur un ordinateur distant (c’est-à-dire, un ordinateur autre que l’ordinateur sur lequel Management Shell est exécuté), vous devez inclure au moins deux paramètres : les paramètres ConfiguredDatabases et SqlServerFqdn. Ces paramètres indiquent à l’applet de commande Install-CsDatabase d’extraire la topologie Lync Server, puis d’installer et de configurer les bases de données requises sur l’ordinateur spécifié par le paramètre SqlServerFqdn. Le paramètre SqlServerFqdn doit utiliser une valeur représentant le nom de domaine complet de l’ordinateur sur lequel les bases de données doivent être installées.
 
 Par exemple, cette commande permet d’installer la base de données d’analyse sur l’ordinateur atl-sql-001.litwareinc.com :
 
@@ -87,7 +89,7 @@ Vous pouvez également installer la base de données de surveillance en exécuta
 
 4.  Dans l’Assistant Installation des composants Lync Server, dans la page **Installer les composants Lync Server**, cliquez sur **Suivant**.
 
-5.  Sur la page **spécifier le chemin d’accès à MSI** , tapez le chemin d’accès au fichier OCSCore. msi (fichier inclus avec votre support d’installation Lync Server), puis cliquez sur **suivant**.
+5.  Sur la page **spécifier le chemin d’accès à MSI** , tapez le chemin d’accès au fichier Ocscore.msi (un fichier inclus avec votre support d’installation Lync Server), puis cliquez sur **suivant**.
 
 6.  Dans la page de **Exécution de commandes**, cliquez sur **Terminer**.
 
