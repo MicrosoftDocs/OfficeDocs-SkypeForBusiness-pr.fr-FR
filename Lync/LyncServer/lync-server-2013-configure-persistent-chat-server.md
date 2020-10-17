@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration du serveur de conversation permanente'
+description: 'Lync Server 2013 : configurer le serveur de conversation permanente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a9661c3e9695bde240225b7d0bcd8ca1e54df09
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d45320e1fa6b247f13cfffa9945b45390f2ae6c5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520441"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564980"
 ---
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="a6801-102">Configurer le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6801-102">Configure Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="f4689-103">Configurer le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4689-103">Configure Persistent Chat Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48520441"
 
 <span> </span>
 
-<span data-ttu-id="a6801-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a6801-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f4689-104">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f4689-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="a6801-104">Pour créer une nouvelle configuration de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="a6801-104">To create a new Persistent Chat configuration</span></span>
+<span data-ttu-id="f4689-105">Pour créer une nouvelle configuration de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="f4689-105">To create a new Persistent Chat configuration</span></span>
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="a6801-105">Pour obtenir une configuration de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="a6801-105">To get Persistent Chat configuration</span></span>
+<span data-ttu-id="f4689-106">Pour obtenir une configuration de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="f4689-106">To get Persistent Chat configuration</span></span>
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
-<span data-ttu-id="a6801-106">Pour supprimer la configuration de la conversation permanente</span><span class="sxs-lookup"><span data-stu-id="a6801-106">To remove Persistent Chat configuration</span></span>
+<span data-ttu-id="f4689-107">Pour supprimer la configuration de la conversation permanente</span><span class="sxs-lookup"><span data-stu-id="f4689-107">To remove Persistent Chat configuration</span></span>
 
     Remove-CsPersistentChatConfiguration -Identity <XdsIdentity>
 
-<span data-ttu-id="a6801-107">Pour définir la configuration de la conversation permanente</span><span class="sxs-lookup"><span data-stu-id="a6801-107">To set Persistent Chat configuration</span></span>
+<span data-ttu-id="f4689-108">Pour définir la configuration de la conversation permanente</span><span class="sxs-lookup"><span data-stu-id="f4689-108">To set Persistent Chat configuration</span></span>
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="a6801-108">Pour Lync Server 2013, tout le trafic de service Web est pris en charge sur les serveurs Lync Server 2013, frontaux.</span><span class="sxs-lookup"><span data-stu-id="a6801-108">For Lync Server 2013, all web service traffic is supported on the Lync Server 2013, Front End Servers.</span></span> <span data-ttu-id="a6801-109">Par conséquent, l’adresse gcweb01 sur le serveur de conversation permanente n’est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="a6801-109">Therefore, the gcweb01 address on Persistent Chat Server is not necessary.</span></span> <span data-ttu-id="a6801-110">Nous prenons toujours en charge l’accès au service web interne, car nous fournissons le service web de transfert/téléchargement de fichiers sur le site web *interne* uniquement (pas sur le site web *externe* pour les utilisateurs distants).</span><span class="sxs-lookup"><span data-stu-id="a6801-110">We still support internal web service access because we provide the File Upload/Download Web service to the *internal* website only (not to the *external* website for remote users).</span></span>
+<span data-ttu-id="f4689-109">Pour Lync Server 2013, tout le trafic de service Web est pris en charge sur les serveurs Lync Server 2013, frontaux.</span><span class="sxs-lookup"><span data-stu-id="f4689-109">For Lync Server 2013, all web service traffic is supported on the Lync Server 2013, Front End Servers.</span></span> <span data-ttu-id="f4689-110">Par conséquent, l’adresse gcweb01 sur le serveur de conversation permanente n’est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="f4689-110">Therefore, the gcweb01 address on Persistent Chat Server is not necessary.</span></span> <span data-ttu-id="f4689-111">Nous prenons toujours en charge l’accès au service web interne, car nous fournissons le service web de transfert/téléchargement de fichiers sur le site web *interne* uniquement (pas sur le site web *externe* pour les utilisateurs distants).</span><span class="sxs-lookup"><span data-stu-id="f4689-111">We still support internal web service access because we provide the File Upload/Download Web service to the *internal* website only (not to the *external* website for remote users).</span></span>
 
 </div>
 
