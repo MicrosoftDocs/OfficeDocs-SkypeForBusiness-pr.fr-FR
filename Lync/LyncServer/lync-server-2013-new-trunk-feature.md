@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : nouvelle fonctionnalité de jonction'
+description: 'Lync Server 2013 : nouvelle fonctionnalité de jonction.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0feda45fd6c035209783d173da3a85dec3876e50
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d8f923ceada899608cc350bd1343345c12d0996b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505281"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541940"
 ---
-# <a name="new-trunk-feature-in-lync-server-2013"></a><span data-ttu-id="8327e-102">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8327e-102">New trunk feature in Lync Server 2013</span></span>
+# <a name="new-trunk-feature-in-lync-server-2013"></a><span data-ttu-id="3b52b-103">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b52b-103">New trunk feature in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,16 +38,16 @@ ms.locfileid: "48505281"
 
 <span> </span>
 
-<span data-ttu-id="8327e-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8327e-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="3b52b-104">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="3b52b-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="8327e-104">Dans Microsoft Lync Server 2013, plusieurs jonctions entre un serveur de médiation et une passerelle peuvent être définies.</span><span class="sxs-lookup"><span data-stu-id="8327e-104">In Microsoft Lync Server 2013, multiple trunks between a Mediation Server and a gateway can be defined.</span></span> <span data-ttu-id="8327e-105">Microsoft Lync Server 2010 uniquement autorisé pour une seule jonction entre un serveur de médiation et une passerelle PSTN.</span><span class="sxs-lookup"><span data-stu-id="8327e-105">Microsoft Lync Server 2010 only allowed for a single trunk between a Mediation Server and a PSTN gateway.</span></span> <span data-ttu-id="8327e-106">Cette fonctionnalité permet de définir des jonctions supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="8327e-106">This feature provides the flexibility to define additional trunks.</span></span> <span data-ttu-id="8327e-107">Une jonction est une association logique entre le nom de domaine complet du serveur de médiation et le port d’écoute, ainsi qu’un nom de domaine complet et un port d’écoute de passerelle PSTN.</span><span class="sxs-lookup"><span data-stu-id="8327e-107">A trunk is a logical association between a Mediation Server FQDN and listening port and a PSTN gateway FQDN and listening port.</span></span> <span data-ttu-id="8327e-108">Cette nouvelle fonctionnalité permet une définition de jonction facile pour la résilience (où plusieurs serveurs de médiation peuvent être utilisés pour acheminer les appels vers la même passerelle RTC). pour l’interopérabilité des PBX, lorsque plusieurs jonctions avec différentes stratégies associées peuvent être utilisées entre et un système IP-PBX et un serveur de médiation, et pour les configurations de jonction SIP où les serveurs de médiation sur différents sites ont des jonctions SIP vers l’opérateur référencé par le même nom de domaine complet de l’opérateur.</span><span class="sxs-lookup"><span data-stu-id="8327e-108">This new capability allows for easy trunk definition for resiliency (where multiple Mediation Servers can be used to route calls to the same PSTN Gateway), for PBX interoperability, where multiple trunks with different associated policies can be used between and IP-PBX and a Mediation Server, and for SIP trunk configurations where Mediation Servers at different sites have SIP trunks to the carrier referenced by the same carrier FQDN.</span></span>
+<span data-ttu-id="3b52b-105">Dans Microsoft Lync Server 2013, plusieurs jonctions entre un serveur de médiation et une passerelle peuvent être définies.</span><span class="sxs-lookup"><span data-stu-id="3b52b-105">In Microsoft Lync Server 2013, multiple trunks between a Mediation Server and a gateway can be defined.</span></span> <span data-ttu-id="3b52b-106">Microsoft Lync Server 2010 uniquement autorisé pour une seule jonction entre un serveur de médiation et une passerelle PSTN.</span><span class="sxs-lookup"><span data-stu-id="3b52b-106">Microsoft Lync Server 2010 only allowed for a single trunk between a Mediation Server and a PSTN gateway.</span></span> <span data-ttu-id="3b52b-107">Cette fonctionnalité permet de définir des jonctions supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="3b52b-107">This feature provides the flexibility to define additional trunks.</span></span> <span data-ttu-id="3b52b-108">Une jonction est une association logique entre le nom de domaine complet du serveur de médiation et le port d’écoute, ainsi qu’un nom de domaine complet et un port d’écoute de passerelle PSTN.</span><span class="sxs-lookup"><span data-stu-id="3b52b-108">A trunk is a logical association between a Mediation Server FQDN and listening port and a PSTN gateway FQDN and listening port.</span></span> <span data-ttu-id="3b52b-109">Cette nouvelle fonctionnalité permet une définition de jonction facile pour la résilience (où plusieurs serveurs de médiation peuvent être utilisés pour acheminer les appels vers la même passerelle RTC). pour l’interopérabilité des PBX, lorsque plusieurs jonctions avec différentes stratégies associées peuvent être utilisées entre et un système IP-PBX et un serveur de médiation, et pour les configurations de jonction SIP où les serveurs de médiation sur différents sites ont des jonctions SIP vers l’opérateur référencé par le même nom de domaine complet de l’opérateur.</span><span class="sxs-lookup"><span data-stu-id="3b52b-109">This new capability allows for easy trunk definition for resiliency (where multiple Mediation Servers can be used to route calls to the same PSTN Gateway), for PBX interoperability, where multiple trunks with different associated policies can be used between and IP-PBX and a Mediation Server, and for SIP trunk configurations where Mediation Servers at different sites have SIP trunks to the carrier referenced by the same carrier FQDN.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8327e-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8327e-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3b52b-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3b52b-110">See Also</span></span>
 
 
-[<span data-ttu-id="8327e-110">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8327e-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="3b52b-111">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b52b-111">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

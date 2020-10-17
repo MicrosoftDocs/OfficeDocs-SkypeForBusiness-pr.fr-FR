@@ -12,20 +12,22 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b33c79b7105ef1e8df3cc0802ae68b7b30eaeb2c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d93129e8f549541386932b849213e9aca67a995a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215040"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536531"
 ---
+# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="6191f-102">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</span><span class="sxs-lookup"><span data-stu-id="6191f-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="9c4cb-102">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</span><span class="sxs-lookup"><span data-stu-id="9c4cb-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
+
 
 </div>
 
@@ -35,16 +37,16 @@ ms.locfileid: "42215040"
 
 <span> </span>
 
-<span data-ttu-id="9c4cb-103">_**Dernière modification de la rubrique :** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="9c4cb-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="6191f-103">_**Dernière modification de la rubrique :** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="6191f-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="9c4cb-104">Lorsque vous migrez le contrôle d’appel distant vers un déploiement Lync Server, vous devez supprimer les entrées d’hôte autorisé héritées (connues sous le nom d' *entrées d’applications approuvées* dans Lync Server) pour toutes les passerelles SIP/CSTA dans votre déploiement hérité.</span><span class="sxs-lookup"><span data-stu-id="9c4cb-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="9c4cb-105">Vous devez utiliser les outils d’administration pour supprimer les entrées d’hôtes autorisés de ces déploiements, respectivement.</span><span class="sxs-lookup"><span data-stu-id="9c4cb-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
+<span data-ttu-id="6191f-104">Lorsque vous migrez le contrôle d’appel distant vers un déploiement Lync Server, vous devez supprimer les entrées d’hôte autorisé héritées (connues sous le nom d' *entrées d’applications approuvées* dans Lync Server) pour toutes les passerelles SIP/CSTA dans votre déploiement hérité.</span><span class="sxs-lookup"><span data-stu-id="6191f-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="6191f-105">Vous devez utiliser les outils d’administration pour supprimer les entrées d’hôtes autorisés de ces déploiements, respectivement.</span><span class="sxs-lookup"><span data-stu-id="6191f-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9c4cb-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9c4cb-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6191f-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6191f-106">See Also</span></span>
 
 
-[<span data-ttu-id="9c4cb-107">Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c4cb-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="6191f-107">Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6191f-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

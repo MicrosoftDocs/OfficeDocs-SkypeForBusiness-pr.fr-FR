@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : mise en miroir SQL Server'
+description: 'Lync Server 2013 : mise en miroir SQL Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9ae36e27a9e247ca65b65af6d910f6eec23908b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7ac80ef326ad63e21c1277abc553d1296ba61867
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509611"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541780"
 ---
-# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="da4f5-102">Mise en miroir SQL Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da4f5-102">SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="fc540-103">Mise en miroir SQL Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc540-103">SQL Server mirroring in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48509611"
 
 <span> </span>
 
-<span data-ttu-id="da4f5-103">_**Dernière modification de la rubrique :** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="da4f5-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="fc540-104">_**Dernière modification de la rubrique :** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="fc540-104">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="da4f5-104">Établissez la session de mise en miroir SQL Server entre la base de données de conversation permanente principale et son miroir.</span><span class="sxs-lookup"><span data-stu-id="da4f5-104">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="da4f5-105">Pour plus d’informations sur le déploiement de la mise en miroir SQL Server, voir [Deploying SQL Mirroring for back end Server High Availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span><span class="sxs-lookup"><span data-stu-id="da4f5-105">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
+<span data-ttu-id="fc540-105">Établissez la session de mise en miroir SQL Server entre la base de données de conversation permanente principale et son miroir.</span><span class="sxs-lookup"><span data-stu-id="fc540-105">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="fc540-106">Pour plus d’informations sur le déploiement de la mise en miroir SQL Server, voir [Deploying SQL Mirroring for back end Server High Availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span><span class="sxs-lookup"><span data-stu-id="fc540-106">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
 
 </div>
 
