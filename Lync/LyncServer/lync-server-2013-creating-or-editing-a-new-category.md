@@ -12,20 +12,22 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de5398e7a3f0708532a515f30cabcc026ef23cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 195c5abc08779b6bd29080533a3637bd6fafb348
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531521"
 ---
+# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a><span data-ttu-id="5b6de-102">Création ou modification d’une nouvelle catégorie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b6de-102">Creating or editing a new category in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a><span data-ttu-id="e2aa6-102">Création ou modification d’une nouvelle catégorie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2aa6-102">Creating or editing a new category in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213190"
 
 <span> </span>
 
-<span data-ttu-id="e2aa6-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="e2aa6-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="5b6de-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="5b6de-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="e2aa6-104">Pour créer une catégorie, reportez-vous à la rubrique [configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="e2aa6-104">To create a new category, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="e2aa6-105">Si vous êtes un administrateur de conversation permanente, vous pouvez créer des catégories à l’aide du panneau de configuration Lync Server ou des applets de commande Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e2aa6-105">If you are a Persistent Chat administrator, you can create categories by using the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="5b6de-104">Pour créer une catégorie, reportez-vous à la rubrique [configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="5b6de-104">To create a new category, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="5b6de-105">Si vous êtes un administrateur de conversation permanente, vous pouvez créer des catégories à l’aide du panneau de configuration Lync Server ou des applets de commande Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5b6de-105">If you are a Persistent Chat administrator, you can create categories by using the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
 
 </div>
 
