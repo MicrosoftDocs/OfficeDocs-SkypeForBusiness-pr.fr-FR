@@ -12,20 +12,22 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea97a57deba77e0bc5b7f2a77a973bb1fb8c21b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528241"
 ---
+# <a name="health-configuration-in-lync-server-2013"></a>Configuration de l’intégrité dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="health-configuration-in-lync-server-2013"></a>Configuration de l’intégrité dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Entre différents sites Web, les Articles de la base de connaissances Microsoft 
 
 Évidemment, il n’est pas possible de vous assurer que vous ne rencontrerez jamais de problèmes avec Lync Server 2013 car Lync Server peut être affecté par de nombreux éléments, tels que les pannes de réseau et les défaillances matérielles, que le produit lui-même ne peut pas contrôler. En implémentant la surveillance de l’intégrité, les administrateurs peuvent identifier les problèmes potentiels avant de se transformer en problèmes réels. Par exemple, les administrateurs peuvent utiliser la surveillance de Lync Server pour identifier des tendances et des Tendencies. Par exemple, une augmentation constante du nombre de conférences audio/vidéo peut suggérer de devoir ajouter de la capacité avant que le système ne soit surchargé.
 
-De la même manière, les administrateurs peuvent utiliser System Center Operations Manager pour effectuer des alertes en temps réel lorsque des événements spécifiés se produisent, et pour exécuter des transactions synthétiques qui testent le système de manière proactive. Les transactions synthétiques sont utilisées dans Lync Server pour vérifier que les utilisateurs peuvent effectuer correctement des tâches courantes, telles que la connexion au système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RTC). Par exemple, l’exécution périodique de ces tests peut vous avertir en cas de problème avec les utilisateurs qui se connectent à Lync Server, et vous donner la possibilité de corriger le problème avant que votre équipe de support ne soit saturée d’appels provenant d’utilisateurs incapables d’établir une connexion. À l’aide de System Center Operations Manager pour exécuter ces transactions synthétiques, les administrateurs peuvent surveiller régulièrement leur déploiement de Lync Server en continu pendant 24 heures sur 24, sans avoir à effectuer une grande partie des alertes pouvant être émis.
+De la même manière, les administrateurs peuvent utiliser System Center Operations Manager pour effectuer des alertes en temps réel lorsque des événements spécifiés se produisent, et pour exécuter des transactions synthétiques qui testent le système de manière proactive. Les transactions synthétiques sont utilisées dans Lync Server pour vérifier que les utilisateurs peuvent effectuer correctement des tâches courantes, telles que la connexion au système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RTC). Par exemple, l’exécution périodique de ces tests peut vous avertir en cas de problème avec les utilisateurs qui se connectent à Lync Server, et vous donner la possibilité de corriger le problème avant que votre équipe de support ne soit saturée d’appels provenant d’utilisateurs incapables d’établir une connexion. À l’aide de System Center Operations Manager pour exécuter ces transactions synthétiques, les administrateurs peuvent régulièrement surveiller leur déploiement de Lync Server en continu pendant 24 heures sur 24, sans avoir à effectuer une grande partie des alertes susceptibles d’être émises.
 
 <div>
 
@@ -55,7 +57,7 @@ De la même manière, les administrateurs peuvent utiliser System Center Operati
 
 La configuration de l’intégrité dans Lync Server 2013 est basée sur System Center Operations Manager et sur l’utilisation des packs d’administration Lync Server. Ces packs d’administration incluent un certain nombre de nouvelles fonctionnalités et d’améliorations, notamment :
 
-  - **Disponibilité des scénarios à partir de n’importe quel emplacement.** Le pack d’administration Lync Server 2010 a introduit le concept de surveillance de la disponibilité des scénarios des utilisateurs finaux avec les transactions synthétiques. Dans Lync Server 2013, ces agents ont plus de transactions synthétiques et peuvent être exécutés à partir d’un grand nombre d’emplacements à l’intérieur de l’entreprise, à partir d’emplacements géographiques distants en dehors de l’entreprise, sur des appareils de succursale et sur Lync Server 2010 les déploiements pour ajouter la couverture aux déploiements de serveurs Edge hérités.
+  - **Disponibilité des scénarios à partir de n’importe quel emplacement.** Le pack d’administration Lync Server 2010 a introduit le concept de surveillance de la disponibilité des scénarios des utilisateurs finaux avec les transactions synthétiques. Dans Lync Server 2013, ces agents ont plus de transactions synthétiques et peuvent être exécutés à partir d’un grand nombre d’emplacements au sein de l’entreprise, des emplacements géographiques distants en dehors de l’entreprise, des appareils de succursale et des déploiements Lync Server 2010 pour ajouter une couverture aux déploiements de serveurs Edge hérités.
 
   - **Journaux de transactions synthétiques.** Lorsqu’une transaction synthétique échoue, les administrateurs ont accès aux journaux HTML afin de déterminer ce qui a échoué. Cela inclut la compréhension de l’action qui a échoué, de la latence de chaque action, de la ligne de commande utilisée pour exécuter le test et de l’erreur rencontrée.
 

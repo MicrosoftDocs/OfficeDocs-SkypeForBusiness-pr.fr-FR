@@ -12,20 +12,22 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b274d933fbb1c9f47b219a492403bd1c5f58d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197497"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528951"
 ---
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Test de récupération d’urgence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Test de récupération d’urgence dans Lync Server 2013
+
 
 </div>
 
@@ -58,11 +60,11 @@ Pour sauvegarder les données de production Lync Server 2013 :
 
   - Utilisez une application de sauvegarde tierce pour sauvegarder les données dans un fichier ou sur une bande.
 
-  - La cmdlet Export-applet csuserdata permet de créer une exportation XML de l’ensemble de la base de données RTC.
+  - Utilisez l’applet de commande Export-CsUserData pour créer une exportation XML de l’ensemble de la base de données RTC.
 
   - Utilisez la sauvegarde du système de fichiers ou une tierce partie pour sauvegarder le contenu et les journaux de conformité des réunions.
 
-  - Utilisez l’outil en ligne de commande Export-CsConfiguration pour sauvegarder les paramètres Lync Server 2013.
+  - Utilisez l’outil de ligne de commande Export-CsConfiguration pour sauvegarder les paramètres Lync Server 2013.
 
 La première étape de la procédure de basculement inclut un déplacement forcé des utilisateurs du pool de production vers le pool de récupération d’urgence.
 
@@ -74,7 +76,7 @@ Ces données peuvent être restaurées à l’aide des deux processus suivants 
 
   - La base de données RTC peut être restaurée à partir du périphérique de vidage de sauvegarde d’origine à partir du serveur SQL de production à l’aide du processus de restauration standard de SQL Server ou à l’aide d’un utilitaire de sauvegarde/restauration tiers.
 
-  - Les données de contact utilisateur peuvent être restaurées à l’aide de l’utilitaire DBIMPEXP. exe à l’aide du fichier XML qui a été créé à partir de l’exportation SQL Server de production.
+  - Les données de contact utilisateur peuvent être restaurées avec l’utilitaire DBIMPEXP.exe à l’aide du fichier XML qui a été créé à partir de l’exportation SQL Server de production.
 
 Une fois ces données restaurées, les utilisateurs peuvent se connecter au pool Lync Server 2013 de récupération d’urgence et fonctionner normalement.
 
@@ -82,21 +84,21 @@ Pour permettre aux utilisateurs de se connecter au pool Lync Server 2013 de réc
 
 Le pool de production Lync Server 2013 sera référencé par les clients à l’aide de la configuration automatique et des enregistrements SRV DNS suivants :
 
-  - SRV : \_SIP. \_TLS. \<domaine\> /CNAME : SIP. \<Domain (domaine)\>
+  - SRV : \_ SIP. \_ TLS.\<domain\> /CNAME : SIP.\<domain\>
 
-  - CNAME : SIP. \<domaine\> /CVC-pool-1. \<Domain (domaine)\>
+  - CNAME : SIP.\<domain\> /cvc-pool-1.\<domain\>
 
 Pour faciliter le basculement, cet enregistrement CNAMe doit être mis à jour pour référencer le nom de domaine complet du DROCSPool :
 
-  - CNAME : SIP. \<domaine\> /DROCSPool. \<Domain (domaine)\>
+  - CNAME : SIP.\<domain\> /DROCSPool.\<domain\>
 
-  - SIP. \<Domain (domaine)\>
+  - SIP.\<domain\>
 
-  - AV.\<Domain\>
+  - Protection.\<domain\>
 
-  - webconf. \<Domain (domaine)\>
+  - webconf.\<domain\>
 
-  - OCSServices. \<Domain (domaine)\>
+  - OCSServices.\<domain\>
 
 <div>
 

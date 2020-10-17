@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : prise en charge des clients et des serveurs pour le routage géodépendant'
+title: 'Lync Server 2013 : prise en charge des clients et des serveurs pour le routage des Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: daf0fb3656a5a57a5e4c7a6c25b7a08d29f79e86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d85e2ce1738ee5de9d4d542cedd7a9e544771938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529341"
 ---
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Prise en charge des clients et des serveurs pour le routage des Location-Based dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Prise en charge des clients et des serveurs pour le routage géodépendant dans Lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42197847"
 
 _**Dernière modification de la rubrique :** 2013-06-18_
 
-Le routage géodépendant est appliqué par Lync Server. Lync Server peut identifier les sites réseau sur lesquels les utilisateurs se connectent à partir du réseau d’entreprise. Étant donné que les utilisateurs distants se trouvent à l’extérieur du réseau d’entreprise, leur emplacement est considéré comme inconnu.
+Le routage des Location-Based est appliqué par Lync Server. Lync Server peut identifier les sites réseau sur lesquels les utilisateurs se connectent à partir du réseau d’entreprise. Étant donné que les utilisateurs distants se trouvent à l’extérieur du réseau d’entreprise, leur emplacement est considéré comme inconnu.
 
 <div>
 
 ## <a name="lync-server-support"></a>Prise en charge de Lync Server
 
-Le routage géodépendant nécessite que Lync Server 2013 CU1 soit déployé sur tous les pools frontaux et les serveurs Standard Edition dans une topologie donnée. Si Lync Server 2013 CU1 n’est pas installé sur certains composants Lync dans la topologie, les restrictions de routage géodépendant ne peuvent pas être entièrement appliquées.
+Le routage des Location-Based nécessite que Lync Server 2013 CU1 soit déployé sur tous les pools frontaux et les serveurs Standard Edition dans une topologie donnée. Si Lync Server 2013 CU1 n’est pas installé sur certains composants Lync dans la topologie, les restrictions de routage Location-Based ne peuvent pas être entièrement appliquées.
 
-Le tableau suivant identifie les combinaisons de rôles serveur et de versions prises en charge pour le routage géodépendant.
+Le tableau suivant identifie les combinaisons de rôles serveur et de versions prises en charge pour le routage des Location-Based.
 
 
 <table>
@@ -107,7 +109,7 @@ Le tableau suivant identifie les combinaisons de rôles serveur et de versions p
 
 ## <a name="lync-client-support"></a>Prise en charge des clients Lync
 
-Le tableau suivant identifie les clients pris en charge par le routage géodépendant.
+Le tableau suivant identifie les clients pris en charge par Location-Based routage.
 
 
 <table>
@@ -157,7 +159,7 @@ Le tableau suivant identifie les clients pris en charge par le routage géodépe
 <tr class="odd">
 <td><p>Lync mobile 2013</p></td>
 <td><p>Non</p></td>
-<td><p>La voix sur IP doit être désactivée pour les clients Lync mobile 2013 si elle est utilisée par des utilisateurs dont le routage géodépendant est activé.</p></td>
+<td><p>La voix sur IP doit être désactivée pour les clients Lync mobile 2013 si elle est utilisée par les utilisateurs avec le routage Location-Based activé.</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
@@ -186,7 +188,7 @@ Le tableau suivant identifie les clients pris en charge par le routage géodépe
 ## <a name="see-also"></a>Voir aussi
 
 
-[Planification du routage géodépendant dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planification du routage des Location-Based dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52903a2e7ae1b9a3a994a1199e32d8d7c4bd1e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528371"
 ---
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exportation de votre topologie Lync Server 2013 et copie vers le support externe pour l’installation Edge
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exportation de votre topologie Lync Server 2013 et copie vers le support externe pour l’installation Edge
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202350"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Une fois que vous avez publié votre topologie, l’Assistant Déploiement de Lync Server a besoin d’accéder aux données du magasin central de gestion afin de démarrer le processus de déploiement sur le serveur. Dans le réseau interne, les données sont disponibles directement depuis les serveurs, mais les serveurs Edge ne figurant pas dans le domaine interne ne peuvent pas accéder à ces informations. Pour que les données de configuration de la topologie soient disponibles pour un déploiement de serveur Edge, vous devez exporter les données de topologie vers un fichier et les copier sur un support externe (par exemple, un lecteur USB ou un partage réseau disponible à partir du serveur Edge) avant d’exécuter Lync Server DEP. Assistant loyment sur le serveur Edge. Utilisez la procédure suivante pour rendre vos données de configuration de topologie accessibles au serveur Edge que vous déployez.
+Une fois que vous avez publié votre topologie, l’Assistant Déploiement de Lync Server a besoin d’accéder aux données du magasin central de gestion afin de démarrer le processus de déploiement sur le serveur. Dans le réseau interne, les données sont disponibles directement depuis les serveurs, mais les serveurs Edge ne figurant pas dans le domaine interne ne peuvent pas accéder à ces informations. Pour que les données de configuration de topologie soient disponibles pour un déploiement de serveur Edge, vous devez exporter les données de topologie vers un fichier et les copier sur un support externe (par exemple, un lecteur USB ou un partage réseau disponible à partir du serveur Edge) avant d’exécuter l’Assistant Déploiement de Lync Server sur le serveur Edge. Utilisez la procédure suivante pour rendre vos données de configuration de topologie accessibles au serveur Edge que vous déployez.
 
 <div>
 

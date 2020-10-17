@@ -12,20 +12,22 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1e8203d7ca76ed6bb6e9caab33d633af97c21ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 646f4ae59ce5058af84c0e5ddd3197f7a9f47fe7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197547"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528991"
 ---
+# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Désactiver ou réactiver le compte d’utilisateur pour Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Désactiver ou réactiver le compte d’utilisateur pour Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utili
 
 ## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Utilisation de Windows PowerShell pour désactiver ou réactiver des comptes d’utilisateurs
 
-Les comptes d’utilisateur peuvent être temporairement désactivés, puis réactivés ultérieurement à l’aide de la cmdlet **Set-Csuser** . Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les comptes d’utilisateur peuvent être temporairement désactivés, puis réactivés ultérieurement à l’aide de la cmdlet **Set-Csuser** . Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

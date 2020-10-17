@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527971"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Remplir la base de données d’emplacements dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Remplir la base de données d’emplacements dans Lync Server 2013
+
 
 </div>
 
@@ -58,23 +60,23 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** p
 <tbody>
 <tr class="odd">
 <td><p><strong>Point d’accès sans fil</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;&gt;,...</p>
-<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;ville&gt;,&lt;état&gt;,&lt;CodePostal&gt;,&lt;pays&gt;</p></td>
+<td><p>&lt;BSSID &gt; , &lt; description &gt; , &lt; location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; &gt; ,...</p>
+<p>... &lt; StreetName &gt; , &lt; StreetSuffix &gt; , &lt; PostDirectional &gt; , &lt; ville &gt; , &lt; état &gt; , &lt; CodePostal &gt; , &lt; pays&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sous-réseau</strong></p></td>
-<td><p>&lt;Sous&gt;-&lt;réseau&gt;,&lt;description&gt;,&lt;emplacement&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix,&gt;,...</p>
-<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;ville&gt;,&lt;état&gt;,&lt;CodePostal&gt;,&lt;pays&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;Sous-réseau &gt; , &lt; description &gt; , &lt; emplacement &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; &gt; ,...</p>
+<p>... &lt; StreetName &gt; , &lt; StreetSuffix &gt; , &lt; PostDirectional &gt; , &lt; ville &gt; , &lt; état &gt; , &lt; CodePostal &gt; , &lt; pays&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Predirection&gt;&lt;, StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;ville&gt;,&lt;état&gt;,&lt;CodePostal&gt;, pays&lt;&gt;</p></td>
+<td><p>&lt;ChassisID &gt; , &lt; PortIDSubType &gt; , &lt; PortID &gt; , &lt; description &gt; , &lt; location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; ,...</p>
+<p>... &lt; Predirection &gt; , &lt; StreetName &gt; , &lt; StreetSuffix &gt; , &lt; PostDirectional &gt; , &lt; ville &gt; , &lt; état &gt; , &lt; CodePostal &gt; , &lt; pays&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Commutateur</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;&gt;,...</p>
-<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;ville&gt;,&lt;état&gt;,&lt;CodePostal&gt;,&lt;pays&gt;</p></td>
+<td><p>&lt;ChassisID &gt; , &lt; description &gt; , &lt; location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; &gt; ,...</p>
+<p>... &lt; StreetName &gt; , &lt; StreetSuffix &gt; , &lt; PostDirectional &gt; , &lt; ville &gt; , &lt; état &gt; , &lt; CodePostal &gt; , &lt; pays&gt;</p></td>
 </tr>
 </tbody>
 </table>

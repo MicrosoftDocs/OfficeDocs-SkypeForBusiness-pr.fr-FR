@@ -12,20 +12,22 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58abaf251bf479a9e892d019bd086a10b2300afc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 98b4323374c9801ec07930941a0daa3635b04e43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529541"
 ---
+# <a name="as-needed-tasks-in-lync-server-2013"></a>Tâches nécessaires dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="as-needed-tasks-in-lync-server-2013"></a>Tâches nécessaires dans Lync Server 2013
+
 
 </div>
 
@@ -41,11 +43,11 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent également couv
 
   - **Audit de sécurité complet   ** Vous pouvez effectuer cet audit régulièrement, en réponse à une mise à niveau ou à une nouvelle conception du système de messagerie, ou en réponse à une violation de sécurité. La procédure peut impliquer des analyses de ports sur les serveurs et pare-feu, des audits de correctifs de sécurité et des tests de pénétration tiers.
 
-  - **Remplacer les certificats sur le terme de l’expiration**   de la vérification les certificats Lync Server sont l’une des tâches hebdomadaires normales et, dans le cadre de la procédure, un administrateur doit disposer d’un enregistrement de la date d’expiration de tous les certificats. Cet enregistrement permet à un administrateur de créer une notification lorsqu’un certificat particulier est sur le sujet de la date d’expiration et remplacé si nécessaire.
+  - **Remplacer les certificats sur le pour qu’ils expirent**     La vérification des certificats Lync Server est l’une des tâches hebdomadaires normales et, dans le cadre de la procédure, un administrateur doit disposer d’un enregistrement de la date d’expiration de tous les certificats. Cet enregistrement permet à un administrateur de créer une notification lorsqu’un certificat particulier est sur le sujet de la date d’expiration et remplacé si nécessaire.
 
-  - ****   Mise à jour des lignes de base des performances mettez à jour les lignes de base des performances après une modification ou une modification de la configuration. Votre organisation peut utiliser des lignes de base pour mesurer les changements de performances et détecter les problèmes qui affectent les performances du système.
+  - **Mise à jour des configurations de référence**     des performances Mettre à jour les planifications des performances après une mise à niveau ou un changement de configuration. Votre organisation peut utiliser des lignes de base pour mesurer les changements de performances et détecter les problèmes qui affectent les performances du système.
 
-  - **La gestion**   de la configuration initiale des pools d’entreprise des pools d’entreprise, des serveurs Standard Edition et de tous les autres serveurs de l’environnement de votre organisation a été réalisée lors du déploiement des serveurs individuels. La gestion post-déploiement des serveurs et des pools pour les serveurs Standard Edition et les pools d’entreprise comprend les tâches suivantes :
+  - **Gestion du pool**     d’entreprise La configuration initiale des pools d’entreprise, des serveurs Standard Edition Server et de tous les autres serveurs de l’environnement de votre organisation a été réalisée lors du déploiement des serveurs individuels. La gestion post-déploiement des serveurs et des pools pour les serveurs Standard Edition et les pools d’entreprise comprend les tâches suivantes :
     
       - Gestion de serveurs frontaux
     
@@ -61,7 +63,7 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent également couv
     
       - Suppression des serveurs et des rôles serveur, suppression des pools et mise hors service des serveurs et pools
 
-  - **Gestion de l’utilisation**   vous pouvez configurer Lync Server 2013 pour fournir les fonctionnalités les plus appropriées pour votre organisation. Les voici :
+  - **Gestion de l’utilisation**     Vous pouvez configurer Lync Server 2013 pour fournir les fonctionnalités les plus appropriées pour votre organisation. Les voici :
     
       - Gestion de la prise en charge des réunions de conférence Web sur site
     
@@ -75,7 +77,7 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent également couv
     
       - Configuration de l’archivage, de l’enregistrement des détails des appels et de la conformité aux réunions
 
-  - **Gestion**   de la connectivité de serveur Edge la gestion continue des serveurs et des paramètres requis pour fournir la connectivité externe inclut les éléments suivants :
+  - **Gestion de la connectivité**     du serveur Edge La gestion continue des serveurs et des paramètres requis pour fournir la connectivité externe inclut les éléments suivants :
     
       - Gestion de la connectivité entre les serveurs internes et les serveurs Edge
     
@@ -83,13 +85,13 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent également couv
     
       - Gestion de l’accès des partenaires fédérés
 
-  - **Administrer le carnet d'**   adresses les serveurs de carnets d’adresses incluent les éléments suivants :
+  - **Administration du carnet d’adresses**     L’administration des serveurs de carnet d’adresses comprend les éléments suivants :
     
       - Configuration de la normalisation des téléphones du serveur de carnet d’adresses
     
       - Gestion du serveur de carnet d’adresses à partir de la ligne de commande
 
-  - ****   La gestion des comptes d’utilisateur pour la gestion des comptes d’utilisateurs comprend les éléments suivants :
+  - **Gestion des comptes**     d’utilisateur La gestion des comptes d’utilisateur comprend les éléments suivants :
     
       - Activation des comptes d’utilisateur pour Lync Server
     
@@ -103,7 +105,7 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent également couv
     
       - Suppression d’utilisateurs Lync Server
 
-  - **Analyse des fichiers**   journaux Lync Server 2013 un outil très utile, généralement utilisé pour la résolution des problèmes, est l’outil de journalisation Lync Server 2013 décrit en détail dans [utilisation de l’outil de journalisation Lync Server 2013](https://technet.microsoft.com/library/gg558599.aspx).
+  - **Analyse des fichiers**     journaux Lync Server 2013 Un outil très utile, généralement utilisé pour la résolution des problèmes, est l’outil de journalisation Lync Server 2013 décrit en détail dans [utilisation de l’outil de journalisation Lync server 2013](https://technet.microsoft.com/library/gg558599.aspx).
 
 Étant donné que l’outil de journalisation génère des fichiers journaux (par serveur), ces fichiers journaux peuvent être affichés et analysés à l’aide de l’outil Snooper, si les outils du kit de ressources Microsoft Office Server 12 sont installés sur l’ordinateur. Dans le cas contraire, les journaux peuvent également être analysés à l’aide d’un éditeur de texte, ce qui est bien moins transparent et plus complexe que l’utilisation de l’utilitaire de surveillance.
 
@@ -123,7 +125,7 @@ Dans l’outil de journalisation, lorsque vous avez terminé la session de débo
 
   - Rapports d’erreur de la base de données d’archivage
 
-Pour vous aider à organiser les performances des tâches selon vos besoins, voir liste de vérification des opérations selon vos besoins.
+Pour vous aider à organiser les performances des tâches selon vos besoins, voir As-Needed liste de vérification des opérations.
 
 <div>
 

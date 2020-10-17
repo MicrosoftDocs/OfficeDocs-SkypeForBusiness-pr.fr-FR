@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529631"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Prise en charge des services de domaine Active Directory dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Prise en charge des services de domaine Active Directory dans Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Toutes les forêts dans lesquelles vous déployez Lync Server 2013 doivent être
 
 <div>
 
-## <a name="support-for-read-only-domain-controllers"></a>Prise en charge des contrôleurs de domaine en lecture seule
+## <a name="support-for-read-only-domain-controllers"></a>Prise en charge des contrôleurs de domaine Read-Only
 
 Lync Server 2013 prend en charge les déploiements des services de domaine Active Directory qui incluent des contrôleurs de domaine en lecture seule ou des serveurs de catalogue global en lecture seule, à condition qu’il y ait des contrôleurs de domaine accessibles en écriture.
 
@@ -103,7 +105,7 @@ Lync Server 2013 prend en charge les déploiements des services de domaine Activ
 
 ## <a name="domain-names"></a>Noms de domaine
 
-Lync Server ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt comportant le domaine racine **contoso.local** est prise en charge alors que le domaine racine **local** ne l’est pas. Pour plus d’informations, consultez l’article 300684 de la base de connaissances Microsoft, « informations sur la configuration de Windows pour les domaines avec [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)des noms DNS en une seule partie », à l’adresse.
+Lync Server ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt comportant le domaine racine **contoso.local** est prise en charge alors que le domaine racine **local** ne l’est pas. Pour plus d’informations, consultez l’article 300684 de la base de connaissances Microsoft, « informations sur la configuration de Windows pour les domaines avec des noms DNS en une seule partie », à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) .
 
 <div>
 
@@ -121,7 +123,7 @@ Lync Server ne prend pas en charge les domaines à étiquette unique. Par exempl
 
 ## <a name="locked-down-adds-environments"></a>Environnements AD DS verrouillés
 
-Dans un environnement AD DS verrouillé, les utilisateurs et les objets ordinateur sont souvent placés dans des unités d’organisation (UO) spécifiques dont l’héritage des autorisations est désactivé pour aider à sécuriser la délégation d’administration et pour permettre l’utilisation des objets de stratégie de groupe (GPO) à appliquer. stratégies de sécurité. Lync Server 2013 peut être déployé dans un environnement Active Directory verrouillé. Pour plus d’informations sur les éléments requis pour déployer Lync Server dans un environnement verrouillé, voir [Preparing a Locked Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) dans la documentation de déploiement.
+Dans un environnement AD DS verrouillé, les utilisateurs et les objets ordinateur sont souvent placés dans des unités d’organisation (UO) spécifiques dont l’héritage des autorisations est désactivé pour aider à sécuriser la délégation d’administration et pour permettre l’utilisation des objets de stratégie de groupe (GPO) pour appliquer des stratégies de sécurité. Lync Server 2013 peut être déployé dans un environnement Active Directory verrouillé. Pour plus d’informations sur les éléments requis pour déployer Lync Server dans un environnement verrouillé, voir [Preparing a Locked Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) dans la documentation de déploiement.
 
 </div>
 

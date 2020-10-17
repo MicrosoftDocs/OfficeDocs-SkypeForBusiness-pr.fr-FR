@@ -12,20 +12,22 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e991f6240d9c21815299a3ef169c5824cf5ef3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57d8e3cb0a79c8ce6a6c1c51891fbad265f045de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529201"
 ---
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Table ConferenceSessionDetails dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Table ConferenceSessionDetails dans Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Chaque enregistrement représente une session de conférence. Il peut s’agir d
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primaire, étrangère</p></td>
-<td><p>Numéro d’ID identifiant la session. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une session de conférence de manière unique. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> . *</p></td>
+<td><p>Numéro d’ID pour identifier la session. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une session de conférence de manière unique. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> . *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
@@ -248,7 +250,7 @@ Chaque enregistrement représente une session de conférence. Il peut s’agir d
 </table>
 
 
-\*Pour la plupart des sessions, SessionIdSeq aura la valeur 1. Si plusieurs sessions démarrent exactement en même temps, le SessionIdSeq sera 1 pour l’une, 2 pour un autre, et ainsi de suite.
+\* Pour la plupart des sessions, SessionIdSeq aura la valeur 1. Si plusieurs sessions démarrent exactement en même temps, le SessionIdSeq sera 1 pour l’une, 2 pour un autre, et ainsi de suite.
 
 </div>
 

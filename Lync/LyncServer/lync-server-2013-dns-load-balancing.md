@@ -12,20 +12,22 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47469a8b47273c077a96196b06b827ac13a0e336
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79c2bb8e5bbcb9d00fe687d6f06ac6226a2edf6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528921"
 ---
+# <a name="dns-load-balancing-in-lync-server-2013"></a>Équilibrage de la charge DNS dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-load-balancing-in-lync-server-2013"></a>Équilibrage de la charge DNS dans Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server active l’équilibrage de charge DNS, une solution logicielle qui r
 
 Si vous déployez l’équilibrage de la charge DNS, les frais d’administration de votre organisation pour les programmes d’équilibrage de la charge matérielle seront minimisés. De plus, le travail ardu de dépannage qu’imposent les problèmes découlant d’une mauvaise configuration des programmes d’équilibrage de la charge pour le trafic SIP sera évité. Vous pouvez aussi empêcher les connexions serveur afin de mettre les serveurs hors connexion. L’équilibrage de la charge DNS permet également d’éviter que des problèmes liés aux programmes d’équilibrage de la charge matérielle n’aient une incidence sur des éléments du trafic SIP, notamment le routage de base des appels.
 
-En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des programmes d’équilibrage de charge qui ont passé des tests de compétences d’interopérabilité avec Lync Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibreur de charge, voir « partenaires d' [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)équilibrage de charge Lync Server 2010 » à l’adresse.
+En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des programmes d’équilibrage de charge qui ont passé des tests de compétences d’interopérabilité avec Lync Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibreur de charge, voir « partenaires d’équilibrage de charge Lync Server 2010 » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools de directeurs et les pools de serveurs de médiation autonomes.
 
@@ -57,7 +59,7 @@ Bien que le recours à des programmes d’équilibrage de la charge matérielle 
 
 ## <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Équilibrage de charge DNS et prise en charge d’anciens clients et serveurs
 
-L’équilibrage de charge DNS prend en charge le basculement automatique uniquement pour les serveurs exécutant Lync Server 2013 ou Lync Server 2010, ainsi que pour les clients Lync 2013 et Lync 2010. Les versions antérieures des clients et d’Office Communications Server peuvent toujours se connecter aux pools exécutant l’équilibrage de charge DNS, mais si elles ne peuvent pas établir une connexion avec le premier serveur auquel l’équilibrage de charge DNS les renvoie, ils ne peuvent pas basculer vers un autre serveur du pool. .
+L’équilibrage de charge DNS prend en charge le basculement automatique uniquement pour les serveurs exécutant Lync Server 2013 ou Lync Server 2010, ainsi que pour les clients Lync 2013 et Lync 2010. Les versions antérieures des clients et d’Office Communications Server peuvent toujours se connecter aux pools exécutant l’équilibrage de charge DNS, mais si elles ne peuvent pas établir de connexion avec le premier serveur auquel l’équilibrage de charge DNS fait référence, ils ne peuvent pas basculer vers un autre serveur du pool.
 
 En outre, si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir la prise en charge de l’équilibrage de charge DNS de Lync Server. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs ne disposeront pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
 
@@ -104,7 +106,7 @@ L’utilisation de l’équilibrage de charge DNS sur vos serveurs Edge entraîn
 
   - Fédération avec les organisations qui exécutent des versions d’Office Communications Server antérieures à Lync Server 2010.
 
-  - Échange de messages instantanés avec des utilisateurs de services de messagerie instantanée (IM\!) publics AOLand Yahoo, en plus des fournisseurs et des serveurs basés sur XMPP, tels que Google Talk.
+  - Échange de messages instantanés avec des utilisateurs de services de messagerie instantanée (IM) publics AOLand Yahoo \! , en plus des fournisseurs et des serveurs basés sur XMPP, tels que Google Talk.
     
     <div>
     

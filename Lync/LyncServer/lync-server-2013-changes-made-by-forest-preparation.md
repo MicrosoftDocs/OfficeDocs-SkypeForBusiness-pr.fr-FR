@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191557"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529471"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Modifications apportées par la préparation de la forêt dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Modifications apportées par la préparation de la forêt dans Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Cette section décrit les paramètres globaux, les objets et les groupes de serv
 
 ## <a name="active-directory-global-settings-and-objects"></a>Paramètres globaux et objets Active Directory
 
-Si vous stockez des paramètres globaux dans le conteneur de configuration (comme c’est le cas pour tous les nouveaux déploiements Lync Server 2013), la préparation de la forêt utilise le conteneur services existants\\et ajoute un objet **RTC service** sous l’objet Configuration Services. Sous l’objet RTC Service, la préparation de la forêt ajoute un objet **Paramètres globaux** de type msRTCSIP-GlobalContainer. L’objet de paramètres globaux contient tous les paramètres qui s’appliquent au déploiement Lync Server. Si vous stockez des paramètres globaux dans le conteneur système, la préparation de la forêt utilise un conteneur Microsoft sous le conteneur système du domaine racine et\\un objet de service RTC sous l’objet système Microsoft.
+Si vous stockez des paramètres globaux dans le conteneur de configuration (comme c’est le cas pour tous les nouveaux déploiements Lync Server 2013), la préparation de la forêt utilise le conteneur services existants et ajoute un objet **RTC service** sous l' \\ objet Configuration Services. Sous l’objet RTC Service, la préparation de la forêt ajoute un objet **Paramètres globaux** de type msRTCSIP-GlobalContainer. L’objet de paramètres globaux contient tous les paramètres qui s’appliquent au déploiement Lync Server. Si vous stockez des paramètres globaux dans le conteneur système, la préparation de la forêt utilise un conteneur Microsoft sous le conteneur système du domaine racine et un objet de service RTC sous l' \\ objet système Microsoft.
 
 La préparation de la forêt ajoute également un nouvel objet **msRTCSIP-Domain** pour le domaine racine dans lequel la procédure est exécutée.
 
@@ -57,11 +59,11 @@ La préparation de la forêt crée des groupes universels basés sur le domaine 
 
 Les groupes universels permettent aux administrateurs d’accéder aux services et aux paramètres globaux et de les gérer. La préparation de la forêt ajoute les types de groupes universels suivants :
 
-  - **Groupes d’administration**   ces groupes définissent les rôles d’administrateur d’un réseau Lync Server.
+  - **Groupes**     d’administration Ces groupes définissent les rôles d’administrateur pour un réseau Lync Server.
 
-  - **Groupes d’infrastructure**   ces groupes fournissent l’autorisation d’accéder à des zones spécifiques de l’infrastructure Lync Server. Ils fonctionnent comme composants des groupes d’administration. Vous ne devez pas modifier ces groupes ni leur ajouter directement des utilisateurs.
+  - **Groupes**     d’infrastructure Ces groupes fournissent l’autorisation d’accéder à des zones spécifiques de l’infrastructure Lync Server. Ils fonctionnent comme composants des groupes d’administration. Vous ne devez pas modifier ces groupes ni leur ajouter directement des utilisateurs.
 
-  - **Groupes de services**   ces groupes sont des comptes de service qui sont requis pour accéder à différents services Lync Server.
+  - **Groupes**     de services Ces groupes sont des comptes de service qui sont requis pour accéder à différents services Lync Server.
 
 Le tableau suivant présente les groupes d’administration.
 

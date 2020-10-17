@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198727"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528191"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Gestion des objets contact Exchange hébergés dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Gestion des objets contact Exchange hébergés dans Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2012-09-25_
 
 Vous devez configurer un objet contact pour chaque numéro de standard automatique et numéro d’accès abonné dans votre déploiement intersites.
 
-Pour l’intégration à la messagerie unifiée Exchange hébergée, ocsumutil. exe ne peut pas être utilisé pour gérer les objets contact, car cela dépend des paramètres de messagerie unifiée Exchange Active Directory. Dans un déploiement intersites, Lync Server 2013 et la messagerie unifiée Exchange hébergée sont installés dans des forêts distinctes sans approbation. Pour des raisons de sécurité, les administrateurs Lync Server 2013 n’ont pas d’accès direct aux paramètres Active Directory de la messagerie unifiée Exchange. Par conséquent, Lync Server 2013 fournit un modèle différent pour la gestion des objets contact dans un *espace d’adressage SIP partagé* accessible à la fois à Lync Server 2013 et au service de messagerie unifiée Exchange hébergé.
+Pour l’intégration à la messagerie unifiée Exchange hébergée, ocsumutil.exe ne peut pas être utilisée pour gérer les objets contact, car cela dépend des paramètres de messagerie unifiée Exchange Active Directory. Dans un déploiement intersites, Lync Server 2013 et la messagerie unifiée Exchange hébergée sont installés dans des forêts distinctes sans approbation. Pour des raisons de sécurité, les administrateurs Lync Server 2013 n’ont pas d’accès direct aux paramètres Active Directory de la messagerie unifiée Exchange. Par conséquent, Lync Server 2013 fournit un modèle différent pour la gestion des objets contact dans un *espace d’adressage SIP partagé* accessible à la fois à Lync Server 2013 et au service de messagerie unifiée Exchange hébergé.
 
 <div>
 
@@ -93,7 +95,7 @@ L’exemple suivant crée un objet contact de standard automatique :
 
 Cet exemple crée un nouvel objet contact de messagerie unifiée Exchange à l’aide de l’adresse SIP sip :exumaa1@fabrikam.com. Le nom du pool où le service de serveur d’inscriptions Lync Server 2013 est en cours d’exécution est RedmondPool.litwareinc.com. L’unité d’organisation Active Directory dans laquelle ces informations seront stockées est OU = ExUmContacts, DC = litwareinc, DC = com. Le numéro de téléphone de l’objet contact est 2065554567. Le paramètre facultatif-Autoattendant $True spécifie que cet objet est un objet contact de standard automatique. La définition du paramètre-Autoattendant sur false (valeur par défaut) spécifie un objet contact d’accès abonné.
 
-Pour plus d’informations sur les cmdlets New-CsExUmContact et Set-CsExUmContact, voir la documentation de Lync Server Management Shell.
+Pour plus d’informations sur les applets de commande New-CsExUmContact et Set-CsExUmContact, voir la documentation de Lync Server Management Shell.
 
 </div>
 

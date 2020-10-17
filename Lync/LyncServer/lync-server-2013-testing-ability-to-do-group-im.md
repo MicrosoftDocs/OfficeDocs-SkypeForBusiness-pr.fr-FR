@@ -12,20 +12,22 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eef76c8728a7b5a569efee9305505f4e19f6bceb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f33d34644f76c9773edbfd9ad5d3945c0c1974c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194317"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527821"
 ---
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Test de la fonctionnalité de groupe de messagerie instantanée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Test de la fonctionnalité de groupe de messagerie instantanée dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsGroupIM. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsGroupIM. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de commande test-CsGroupIM vérifie que les utilisateurs de votre organisation peuvent effectuer des sessions de messagerie instantanée de groupe. Lorsque vous exécutez la cmdlet Test-CsGroupIM, l’applet de commande tente de se connecter à une paire d’utilisateurs test à Lync Server. Si l’opération réussit, Test-CsGroupIM crée une nouvelle conférence à l’aide du premier utilisateur test, puis invite le deuxième utilisateur à participer à la conférence. Après un échange de messages, les deux utilisateurs sont déconnectés du système. Notez que tout cela se produit sans aucune interaction de l’utilisateur et sans affecter les utilisateurs réels. Par exemple, supposons que le compte de test sip :kenmyer@litwareinc.com correspond à un utilisateur réel qui possède un compte de serveur Lync réel. Dans ce cas, le test sera effectué sans interrompre les activités de l’utilisateur réel Ken Myer. Par exemple, même si le compte de test Ken Myer se déconnecte du système Ken Myer, l’utilisateur restera connecté. De même, le véritable Ken Myer ne reçoit pas d’invitation à participer à la Conférence. Cette invitation sera envoyée au compte de test et acceptée par ce dernier.
+L’applet de commande Test-CsGroupIM vérifie que les utilisateurs de votre organisation peuvent effectuer des sessions de messagerie instantanée de groupe. Lorsque vous exécutez la cmdlet Test-CsGroupIM, l’applet de commande tente de se connecter à une paire d’utilisateurs test à Lync Server. Si l’opération réussit, Test-CsGroupIM crée une nouvelle conférence à l’aide du premier utilisateur test, puis invite le deuxième utilisateur à participer à la conférence. Après un échange de messages, les deux utilisateurs sont déconnectés du système. Notez que tout cela se produit sans aucune interaction de l’utilisateur et sans affecter les utilisateurs réels. Par exemple, supposons que le compte de test sip :kenmyer@litwareinc.com correspond à un utilisateur réel qui possède un compte de serveur Lync réel. Dans ce cas, le test sera effectué sans interrompre les activités de l’utilisateur réel Ken Myer. Par exemple, même si le compte de test Ken Myer se déconnecte du système Ken Myer, l’utilisateur restera connecté. De même, le véritable Ken Myer ne reçoit pas d’invitation à participer à la Conférence. Cette invitation sera envoyée au compte de test et acceptée par ce dernier.
 
 Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) .
 
@@ -128,11 +130,11 @@ La sortie précédente indique que le test a échoué car au moins l’un des co
 
     "Ken Myer", "David Longmire" | Get-CsUser | Select-Object SipAddress, Enabled
 
-Si test-CsGroupIM échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
+Si Test-CsGroupIM échoue, vous pouvez réexécuter le test, en incluant cette fois le paramètre Verbose :
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsGroupIM renvoie un compte pas à pas de chaque action effectuée lors de la vérification de la capacité des utilisateurs spécifiés à participer à une session de messagerie instantanée de groupe. Par exemple, si votre test échoue et que vous êtes informé qu’un ou plusieurs comptes d’utilisateur ne sont pas valides, vous pouvez réexécuter le test à l’aide du paramètre Verbose et déterminer le compte d’utilisateur qui n’est pas valide :
+Lorsque le paramètre Verbose est inclus, Test-CsGroupIM renvoie un compte pas à pas de chaque action effectuée lorsqu’il a vérifié que les utilisateurs spécifiés peuvent participer à une session de messagerie instantanée de groupe. Par exemple, si votre test échoue et que vous êtes informé qu’un ou plusieurs comptes d’utilisateur ne sont pas valides, vous pouvez réexécuter le test à l’aide du paramètre Verbose et déterminer le compte d’utilisateur qui n’est pas valide :
 
 Envoi d’une demande d’inscription :
 
@@ -154,7 +156,7 @@ Comme vous pouvez le voir, dans cet exemple, l’utilisateur disposant de l’ad
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsGroupIM :
+Voici quelques raisons courantes pour lesquelles Test-CsGroupIM peut échouer :
 
   - Vous avez spécifié un compte d’utilisateur incorrect. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     
@@ -162,7 +164,7 @@ Voici quelques-unes des causes courantes de l’échec de test-CsGroupIM :
 
   - Le compte d’utilisateur est valide, mais le compte n’est actuellement pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur a été activé pour Lync Server, exécutez une commande semblable à la suivante :
     
-    Get-CsUser "sip :kenmyer@litwareinc.com" | Select-Object Enabled
+    Get-CsUser « sip :kenmyer@litwareinc.com » | Select-Object activé
     
     Si la propriété Enabled est définie sur false, cela signifie que l’utilisateur n’est actuellement pas activé pour Lync Server.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c56c987fbda2e67ed0f04c7280e9dfd394f9c25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57b06362ad70bedd8edd0baafc3d512cbbf95714
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528341"
 ---
+# <a name="hardware-setup-for-lync-server-2013"></a>Configuration matérielle de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-setup-for-lync-server-2013"></a>Configuration matérielle de Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Dernière modification de la rubrique :** 2013-02-21_
 
 Pour configurer le matériel et les autres composants requis dans l’infrastructure nécessaire à l’implémentation de votre topologie, vous devez, avant de publier votre topologie dans le générateur de topologie, procédez comme suit :
 
-  - Installez le matériel de chaque composant de la conception de topologie que vous avez créé et enregistré à l’aide du générateur de topologie, y compris tous les ordinateurs requis (serveurs exécutant Lync Server 2013, serveurs de bases de données, serveurs exécutant les services Internet (IIS) et serveurs proxy inverses, le cas échéant), cartes réseau, programmes d’équilibrage de la charge matérielle et périphériques de stockage (tels que les serveurs de fichiers). Confirmez que vous avez suivi les recommandations pour le nombre et la vitesse des cartes réseau. Si vous utilisez des programmes d’équilibrage de la charge matérielle, vérifiez que vous disposez des informations appropriées du fournisseur pour les configurer en vue d’une utilisation avec Lync Server 2013. Si vous utilisez un serveur de fichiers ou un autre serveur pour héberger le partage de fichiers requis par Lync Server, assurez-vous que le serveur est disponible et prêt pour la configuration du partage de fichiers. Pour plus d’informations sur la définition d’une topologie qui spécifie les composants nécessaires à votre déploiement, reportez-vous à [la rubrique Defining and Configuring the Topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Pour plus d’informations sur la configuration matérielle requise pour les serveurs, voir [matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge.
+  - Installez le matériel de chaque composant de la conception de la topologie que vous avez créé et enregistré à l’aide du générateur de topologies, y compris tous les ordinateurs requis (serveurs exécutant Lync Server 2013, serveurs de bases de données, serveurs exécutant les services Internet (IIS) et serveurs proxy inverses, selon le cas), cartes réseau, programmes d’équilibrage de la charge matérielle Confirmez que vous avez suivi les recommandations pour le nombre et la vitesse des cartes réseau. Si vous utilisez des programmes d’équilibrage de la charge matérielle, vérifiez que vous disposez des informations appropriées du fournisseur pour les configurer en vue d’une utilisation avec Lync Server 2013. Si vous utilisez un serveur de fichiers ou un autre serveur pour héberger le partage de fichiers requis par Lync Server, assurez-vous que le serveur est disponible et prêt pour la configuration du partage de fichiers. Pour plus d’informations sur la définition d’une topologie qui spécifie les composants nécessaires à votre déploiement, reportez-vous à [la rubrique Defining and Configuring the Topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Pour plus d’informations sur la configuration matérielle requise pour les serveurs, voir [matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge.
 
   - Assurez-vous que l’infrastructure réseau répond à la configuration requise. Pour plus d’informations, reportez-vous à [Network infrastructure Requirements for Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md) dans la documentation de planification.
 

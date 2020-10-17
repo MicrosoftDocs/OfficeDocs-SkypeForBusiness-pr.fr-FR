@@ -12,20 +12,22 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a7da4487c376ceea4c5c3e41e20a55874b27f06
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7769bd97b29d7a206edf8b1ea5878fa30b489300
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199997"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529581"
 ---
+# <a name="active-directory-support-in-lync-server-2013"></a>Prise en charge d’Active Directory dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-support-in-lync-server-2013"></a>Prise en charge d’Active Directory dans Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Les topologies locales des services de domaine Active Directory prises en charge
 
 
 > [!NOTE]  
-> Lync Server 2013 ne prend pas en charge les domaines en une seule partie. Par exemple, une forêt avec un domaine racine nommé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, consultez l’article 300684 de la base de connaissances Microsoft, « informations sur la configuration de Windows pour les domaines avec <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>des noms DNS en une seule partie », à l’adresse.
+> Lync Server 2013 ne prend pas en charge les domaines en une seule partie. Par exemple, une forêt avec un domaine racine nommé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, consultez l’article 300684 de la base de connaissances Microsoft, « informations sur la configuration de Windows pour les domaines avec des noms DNS en une seule partie », à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A> .
 
 
 

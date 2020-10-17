@@ -12,20 +12,22 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8c1acad5682e5c74c825f32de3fa6a37105234a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e7a2d73f09a3cb48b1d50f06aa530c91d779b28
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204450"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529551"
 ---
+# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Table AppSharingMetricsThreshold dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Table AppSharingMetricsThreshold dans Lync Server 2013
+
 
 </div>
 
@@ -102,45 +104,45 @@ Cette table a été introduite dans Microsoft Lync Server 2013.
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensityOptimal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensityAcceptable</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityOptimal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityAcceptable</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverageOptimal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Valeur optimale du retard unidirectionnel relatif entre les deux systèmes d’extrémité multimédias impliqués dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,0 seconde.</p>
 <p>La colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayAverageAcceptable</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Valeur optimale du retard unidirectionnel relatif entre les deux systèmes d’extrémité multimédias impliqués dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,75 s.</p>
 <p>La colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyAverageOptimal</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Valeur optimale de latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. La latence est l’intervalle de temps entre le moment où le cadre de démarrage est encodé sur le serveur (partagé ou MCU en fonction du scénario) et la même image de démarrage est décodée sur la visionneuse.</p>
 <p>Une moyenne élevée indique un délai d’affichage plus long. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.</p>
@@ -148,7 +150,7 @@ Cette table a été introduite dans Microsoft Lync Server 2013.
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverageAcceptable</strong></p></td>
-<td><p>flottant</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>Valeur acceptable de latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. La latence est l’intervalle de temps entre le moment où le cadre de démarrage est encodé sur le serveur (partagé ou MCU en fonction du scénario) et la même image de démarrage est décodée sur la visionneuse.</p>
 <p>Une moyenne élevée indique un délai d’affichage plus long. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.</p>

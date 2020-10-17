@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528041"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de conférence dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de conférence dans Lync Server 2013
+
 
 </div>
 
@@ -49,13 +51,13 @@ Lync Server 2013 introduit plusieurs nouvelles fonctionnalités qui améliorent 
     
       - Périphériques iOS Apple
     
-      - Windows 8
+      - Windows 8
     
       - Internet Explorer 10
 
   - **Partage de PowerPoint mis à jour**
     
-    Lync Server 2013 utilise désormais Office Web Apps et Office Web Apps Server (anciennement appelé WAC Server) pour gérer les présentations PowerPoint. L’utilisation d’Office Web Apps Server permet des affichages à haute résolution et une meilleure prise en charge des fonctionnalités PowerPoint, ainsi que l’accès à d’autres types d’appareils mobiles (Lync Server 2013 utilise le langage DHTML et JavaScript standard pour diffuser des présentations PowerPoint), et le possibilité pour les utilisateurs disposant des privilèges appropriés de faire défiler une présentation PowerPoint indépendamment de la présentation proprement dite.
+    Lync Server 2013 utilise désormais Office Web Apps et Office Web Apps Server (anciennement appelé WAC Server) pour gérer les présentations PowerPoint. L’utilisation d’Office Web Apps Server permet des affichages de plus haute résolution et une meilleure prise en charge des fonctionnalités PowerPoint, ainsi que l’accès à d’autres types d’appareils mobiles (Lync Server 2013 utilise le langage DHTML et JavaScript standard pour diffuser des présentations PowerPoint) et la possibilité pour les utilisateurs disposant des privilèges appropriés de faire défiler une présentation PowerPoint indépendamment de la présentation.
 
   - **Mode d’affichage Galerie et conférence en vidéo haute définition**
     

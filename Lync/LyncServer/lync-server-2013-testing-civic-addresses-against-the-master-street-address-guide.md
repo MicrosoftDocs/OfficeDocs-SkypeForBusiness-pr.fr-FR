@@ -12,20 +12,22 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe41a6bd898c6f23bc746f5922c98113339a5ee7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d03647df3752860c114a16967a3bea5271a89d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194187"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527811"
 ---
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Test des adresses postales par rapport au Guide d’adresses principales des rues dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Test des adresses postales par rapport au Guide d’adresses principales des rues dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les jours</p></td>
+<td><p>Journalière</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsRegistration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsRegistration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisCivicAddress &quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -100,9 +102,9 @@ Test-CsLisCivicAddress signalera la réussite ou l’échec pour les adresses fo
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques-unes des causes courantes de l’échec de test-CsLisCivicAddress :
+Voici quelques raisons courantes pour lesquelles Test-CsLisCivicAddress peut échouer :
 
-  - Le fournisseur de services LIS n’est peut-être pas disponible. Vous pouvez récupérer l’URL de votre fournisseur de services LIS en exécutant la cmdlet Get-CsLisConfiguration :
+  - Le fournisseur de services LIS n’est peut-être pas disponible. Vous pouvez récupérer l’URL de votre fournisseur de services LIS en exécutant l’applet de commande Get-CsLisConfiguration :
     
         Get-CsLisConfiguration 
     

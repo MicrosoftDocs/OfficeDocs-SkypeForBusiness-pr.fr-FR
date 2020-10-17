@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529111"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Options de déploiement SIP direct dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Options de déploiement SIP direct dans Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Cette rubrique fournit des exemples de topologies pour le déploiement de connex
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Autonome Lync Server
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 Si votre organisation utilise l’un des déploiements décrits dans cette section, vous pouvez utiliser Lync Server 2013 comme solution de téléphonie unique pour tout ou partie d’une organisation. Cette section décrit en détail les déploiements suivants :
 
@@ -71,7 +73,7 @@ La figure suivante illustre la topologie générique pour le déploiement de voi
 
 
 > [!NOTE]  
-> Si vous connectez votre déploiement Lync Server à un partenaire SIP direct certifié, il n’est pas nécessaire d’avoir une passerelle de réseau téléphonique commuté (PSTN) entre le serveur de médiation et le PBX. Pour obtenir la liste des partenaires SIP directs certifiés, consultez le site Web Microsoft Unified Communications Open <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>Interoperability Program à l’adresse.
+> Si vous connectez votre déploiement Lync Server à un partenaire SIP direct certifié, il n’est pas nécessaire d’avoir une passerelle de réseau téléphonique commuté (PSTN) entre le serveur de médiation et le PBX. Pour obtenir la liste des partenaires SIP directs certifiés, consultez le site Web Microsoft Unified Communications Open Interoperability Program à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> .
 
 
 
@@ -141,9 +143,9 @@ Quand Enterprise Voice est déployé devant le PBX, tous les appels arrivent à 
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Déploiement de Lync Server VoIP uniquement
+## <a name="lync-server-voip-only-deployment"></a>Déploiement de Lync Server VoIP-Only
 
-Voix entreprise fournit de nouvelles entreprises, ainsi que de nouveaux sites Office pour les entreprises existantes, avec la possibilité de mettre en œuvre une solution VoIP complète sans avoir à se préoccuper de l’intégration de PBX ou d’un déploiement et d’une maintenance substantiels. coûts d’une infrastructure IP-PBX. Cette solution prend en charge les travailleurs à la fois sur site et distants.
+Voix entreprise fournit de nouvelles entreprises, ainsi que de nouveaux sites Office pour les entreprises existantes, avec la possibilité de mettre en œuvre une solution VoIP complète sans avoir à se préoccuper de l’intégration de PBX ou d’impliquer des coûts substantiels de déploiement et de maintenance d’une infrastructure IP-PBX. Cette solution prend en charge les travailleurs à la fois sur site et distants.
 
 Dans ce déploiement, tous les appels sont routés sur le réseau IP. Les appels vers le RTC sont acheminés vers la passerelle PSTN appropriée. Lync 2013 ou Lync Phone Edition sert de téléphone. Le contrôle d’appel distant n’est pas disponible et n’est pas nécessaire, car il n’existe aucun téléphone PBX que les utilisateurs peuvent contrôler. Les services de messagerie vocale et de standard automatique sont disponibles via le déploiement facultatif de la messagerie unifiée Exchange.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebb2eb7695cfcc3b1ed6166f7768128dc48fb8ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c8d7f99b4a7c72b9eb039fb7447397e711caa36
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527921"
 ---
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Résumé des ports-Fédération XMPP (extensible Messaging and Presence Protocol) dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Résumé des ports-Fédération XMPP (extensible Messaging and Presence Protocol) dans Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208764"
 
 _**Dernière modification de la rubrique :** 2012-10-20_
 
-Les ports et protocoles définis pour le proxy XMPP (extensible Messaging and Presence Protocol) déployé sur le serveur Edge autorisent les communications du partenaire fédéré XMPP au serveur Edge et permettent également la communication entre votre serveur Edge et la fonction XMPP partenaire fédéré. Une règle est également définie sur le pare-feu orienté vers l’intérieur du serveur frontal ou du pool frontal vers le serveur Edge ou le pool de serveurs Edge.
+Les ports et protocoles définis pour le proxy XMPP (extensible Messaging and Presence Protocol) déployé sur le serveur Edge autorisent les communications du partenaire fédéré XMPP au serveur Edge et permettent également la communication entre votre serveur Edge et le partenaire fédéré XMPP. Une règle est également définie sur le pare-feu orienté vers l’intérieur du serveur frontal ou du pool frontal vers le serveur Edge ou le pool de serveurs Edge.
 
 <div>
 
@@ -56,25 +58,25 @@ Les ports et protocoles définis pour le proxy XMPP (extensible Messaging and Pr
 <th>Protocole/TCP ou UDP/Port</th>
 <th>Source (adresse IP)</th>
 <th>Destination (adresse IP)</th>
-<th>Commentaires</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP de l’interface du service Edge d’accès</p></td>
 <td><p>Port de communication de serveur à serveur standard pour XMPP. Autorise la communication vers le proxy XMPP du serveur Edge à partir de partenaires XMPP fédérés</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Adresse IP de l’interface du service Edge d’accès</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Port de communication de serveur à serveur standard pour XMPP. Autorise la communication du proxy XMPP serveur Edge aux partenaires XMPP fédérés</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>N'importe lequel</p></td>
+<td><p>N’importe lequel</p></td>
 <td><p>Adresse IP de l’interface du serveur Edge interne</p></td>
 <td><p>Trafic XMPP interne depuis la passerelle XMPP sur le serveur frontal ou le pool frontal vers le serveur Edge</p></td>
 </tr>

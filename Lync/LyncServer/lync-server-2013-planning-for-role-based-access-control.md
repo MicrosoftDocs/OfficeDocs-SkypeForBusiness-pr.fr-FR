@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528031"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013
+
 
 </div>
 
@@ -159,11 +161,11 @@ Tous les rôles prédéfinis fournis dans Lync Server ont une étendue globale. 
 
 ## <a name="creating-a-scoped-role"></a>Création d’un rôle inclus dans une étendue
 
-Quand vous créez un rôle ayant une étendue limitée (rôle inclus dans une étendue), vous spécifiez l’étendue et le rôle existant sur lequel il est basé, mais aussi le groupe Active Directory auquel le rôle est affecté. Le groupe Active Directory que vous spécifiez doit déjà être créé. L’applet de commande suivante est un exemple de création d’un rôle ayant les privilèges de l’un des rôles d’administrateur prédéfinis, mais dont l’étendue est limitée. Il crée un rôle appelé `Site01 Server Administrators`. Le rôle a les capacités du rôle CsServerAdministrator prédéfini, mais seulement pour les serveurs situés dans le site Site01. Pour que cette applet de commande fonctionne, le site Site01 doit déjà être défini et un groupe de sécurité `Site01 Server Administrators` universel nommé doit déjà exister.
+Quand vous créez un rôle ayant une étendue limitée (rôle inclus dans une étendue), vous spécifiez l’étendue et le rôle existant sur lequel il est basé, mais aussi le groupe Active Directory auquel le rôle est affecté. Le groupe Active Directory que vous spécifiez doit déjà être créé. L’applet de commande suivante est un exemple de création d’un rôle ayant les privilèges de l’un des rôles d’administrateur prédéfinis, mais dont l’étendue est limitée. Il crée un rôle appelé `Site01 Server Administrators` . Le rôle a les capacités du rôle CsServerAdministrator prédéfini, mais seulement pour les serveurs situés dans le site Site01. Pour que cette applet de commande fonctionne, le site Site01 doit déjà être défini et un groupe de sécurité universel nommé `Site01 Server Administrators` doit déjà exister.
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-Une fois cette cmdlet exécutée, tous les utilisateurs membres du `Site01 Server Administrators` groupe disposent des privilèges d’administrateur de serveur pour les serveurs dans Site01. De plus, tous les utilisateurs qui sont ajoutés ultérieurement à ce groupe de sécurité universel obtiendront également les privilèges de ce rôle. Notez que le rôle lui-même et le groupe de sécurité universel auquel il est affecté sont `Site01 Server Administrators`appelés.
+Une fois cette cmdlet exécutée, tous les utilisateurs membres du `Site01 Server Administrators` groupe disposent des privilèges d’administrateur de serveur pour les serveurs dans Site01. De plus, tous les utilisateurs qui sont ajoutés ultérieurement à ce groupe de sécurité universel obtiendront également les privilèges de ce rôle. Notez que le rôle lui-même et le groupe de sécurité universel auquel il est affecté sont appelés `Site01 Server Administrators` .
 
 L’exemple suivant limite l’étendue d’utilisateur au lieu de l’étendue du serveur. Il crée un `Sales Users Administrator` rôle pour administrer les comptes d’utilisateur dans l’unité d’organisation Sales. Le groupe de sécurité universel SalesUsersAdministrator doit déjà être créé pour que cette cmdlet fonctionne.
 
@@ -177,13 +179,13 @@ L’exemple suivant limite l’étendue d’utilisateur au lieu de l’étendue 
 
 Pour créer un rôle ayant accès à un ensemble d’applets de commande non inclus dans l’un des rôles prédéfinis, ou à un ensemble de scripts ou de modules, vous devez encore une fois commencer par utiliser l’un des rôles prédéfinis comme modèle. Notez que les scripts et les modules que les rôles sont tenus d’exécuter doivent être stockés aux emplacements suivants :
 
-  - Le chemin d’accès au module Lync, par défaut C\\: Program\\Files Common\\Files Microsoft Lync Server\\2013\\modules Lync
+  - Le chemin d’accès au module Lync, par défaut C : \\ Program Files \\ Common Files \\ Microsoft Lync Server 2013 \\ modules \\ Lync
 
-  - Le chemin d’accès au script utilisateur, par défaut C\\: Program\\Files Common\\Files Microsoft Lync Server\\2013 Adminscripts
+  - Le chemin d’accès au script utilisateur, par défaut C : \\ Program Files \\ Common Files \\ Microsoft Lync Server 2013 \\ Adminscripts
 
 Pour créer un rôle, vous devez utiliser l’applet de commande **New-CsAdminRole**. Avant d’exécuter **New-CsAdminRole**, vous devez d’abord créer le groupe de sécurité universel sous-jacent qui sera associé à ce rôle.
 
-Les applets de commande suivantes servent d’exemple pour la création d’un rôle. Ils créent un nouveau type de rôle `MyHelpDeskScriptRole`appelé. Ce nouveau rôle offre les mêmes capacités que le rôle prédéfini CsHelpDesk avec en outre la possibilité d’exécuter les fonctions d’un script nommé « testscript ».
+Les applets de commande suivantes servent d’exemple pour la création d’un rôle. Ils créent un nouveau type de rôle appelé `MyHelpDeskScriptRole` . Ce nouveau rôle offre les mêmes capacités que le rôle prédéfini CsHelpDesk avec en outre la possibilité d’exécuter les fonctions d’un script nommé « testscript ».
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 

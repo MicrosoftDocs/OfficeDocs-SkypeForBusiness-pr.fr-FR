@@ -12,20 +12,22 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf04728db30bada37e43f14b33420ede1ce9258
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527851"
 ---
+# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Test des règles, des itinéraires et des stratégies de voix dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Test des règles, des itinéraires et des stratégies de voix dans Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>Planification de la vérification</p></td>
-<td><p>Tous les mois</p></td>
+<td><p>Mensuelle</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
@@ -55,7 +57,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsVoiceUser. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui sont autorisés à exécuter l’applet de commande Test-CsVoiceUser. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceUser&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 
 ## <a name="description"></a>Description
 
-Lorsqu’un utilisateur passe un appel téléphonique, l’itinéraire emprunté par l’appel pour atteindre sa destination dépend à la fois des stratégies et des plans de numérotation attribués à cet utilisateur. À partir de l’adresse SIP d’un utilisateur et d’un numéro de téléphone, l’applet de commande test-CsVoiceUser vérifie si l’utilisateur en question peut effectuer un appel à ce numéro. Si le test réussit, test-CsVoiceUser renvoie les éléments suivants :
+Lorsqu’un utilisateur passe un appel téléphonique, l’itinéraire emprunté par l’appel pour atteindre sa destination dépend à la fois des stratégies et des plans de numérotation attribués à cet utilisateur. À partir de l’adresse SIP d’un utilisateur et d’un numéro de téléphone, l’applet de commande Test-CsVoiceUser vérifie si l’utilisateur en question peut effectuer un appel à ce numéro. Si le test réussit, Test-CsVoiceUser renvoie les éléments suivants :
 
   - Le nombre est traduit au format E. 164 (basé sur le plan de numérotation de l’utilisateur)
 
@@ -84,7 +86,7 @@ Test-CsVoiceUser vous permet de déterminer si un numéro de téléphone spécif
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Lors de l’exécution de la cmdlet Test-CsVoiceUser, vous devez fournir deux informations : le numéro composé (DialedNumber) et l’identité du compte d’utilisateur en cours de test. Par exemple, cette commande teste la capacité de l’utilisateur qui a l’adresse SIP sip :kenmyer@litwareinc.com à appeler le numéro de téléphone + 1206555-1219 :
+Lors de l’exécution de l’applet de commande Test-CsVoiceUser, vous devez fournir deux informations : le numéro composé (DialedNumber) et l’identité du compte d’utilisateur testé. Par exemple, cette commande teste la capacité de l’utilisateur qui a l’adresse SIP sip :kenmyer@litwareinc.com à appeler le numéro de téléphone + 1206555-1219 :
 
 `Test-CsVoiceUser -DialedNumber "12065551219" -SipUri "sip:kenmyer@litwareinc.com"`
 
@@ -98,7 +100,7 @@ Si vous souhaitez exécuter le même test sur chacun de vos comptes d’utilisat
 
 `Get-CsUser | ForEach-Object {$_.DisplayName; Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri $_.SipAddress} | Format-List`
 
-Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande test-CsVoiceUser.
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande Test-CsVoiceUser.
 
 </div>
 
@@ -122,7 +124,7 @@ Cela permet d’afficher la sortie dans un format plus facile à lire :
 
 TranslatedNumber : + 12065551219
 
-MatchingRule : description =; Modèle = ^ (\\d{11}) $; Translation = + $1 ;
+MatchingRule : description =; Modèle = ^ ( \\ d {11} ) $; Translation = + $1 ;
 
 Nom = préfixe tout ; IsInternalExtension = false
 
@@ -130,7 +132,7 @@ FirsMatchingRoute : LocalRoute
 
 MatchingUsage : local
 
-Si le test échoue, test-CsVoiceUser renvoie un ensemble vide de valeurs de propriété :
+Si le test échoue, Test-CsVoiceUser renvoie un ensemble vide de valeurs de propriété :
 
 TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
@@ -142,11 +144,11 @@ TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Il existe un certain nombre de raisons pour lesquelles la cmdlet Test-CsVoiceUser peut échouer : il se peut qu’il n’existe pas de règle de normalisation pouvant traduire le numéro de téléphone fourni. Il peut y avoir des problèmes avec l’itinéraire des communications vocales. Il peut y avoir un problème de configuration avec le plan de numérotation affecté à l’utilisateur en question. Pour cette raison, vous souhaiterez peut-être inclure le paramètre Verbose lorsque vous exécutez la cmdlet Test-CsVoiceUser :
+Il existe un certain nombre de raisons pour lesquelles la cmdlet Test-CsVoiceUser peut échouer : il se peut qu’il n’existe pas de règle de normalisation pouvant traduire le numéro de téléphone fourni. Il peut y avoir des problèmes avec l’itinéraire des communications vocales. Il peut y avoir un problème de configuration avec le plan de numérotation affecté à l’utilisateur en question. Pour cette raison, vous souhaiterez peut-être inclure le paramètre Verbose lorsque vous exécutez l’applet de commande Test-CsVoiceUser :
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose`
 
-Lorsque la cmdlet verbose est incluse, test-CsVoiceUser émettra un compte détaillé de toutes les étapes de la procédure à suivre lors de la réalisation de ses vérifications. Par exemple, vous pouvez voir des étapes similaires à celles-ci : 
+Lorsque la cmdlet verbose est incluse, Test-CsVoiceUser affiche un compte détaillé de toutes les étapes de la procédure de vérification. Par exemple, vous pouvez voir des étapes similaires à celles-ci : 
 
 VERBOSe : localisation de l’utilisateur avec l’identité « sip :kenmyer@litwareinc.com »
 

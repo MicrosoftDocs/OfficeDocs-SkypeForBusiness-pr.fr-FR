@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221194"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527751"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Présentation des paramètres de configuration du service de journalisation centralisée dans Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Présentation des paramètres de configuration du service de journalisation centralisée dans Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Le service de journalisation centralisée est configuré pour définir ce que le
     
 
     > [!TIP]
-    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration qui sont renvoyés par la définition <CODE>-Identity</CODE> et une étendue, telle que « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez rediriger la sortie vers une autre cmdlet Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site "Redmond", tapez :<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration qui sont renvoyés par la définition <CODE>-Identity</CODE> et une étendue, telle que « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez rediriger la sortie vers une autre cmdlet Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site "Redmond", tapez : <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
