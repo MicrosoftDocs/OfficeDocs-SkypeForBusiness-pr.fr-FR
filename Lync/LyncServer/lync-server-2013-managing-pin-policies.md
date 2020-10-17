@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion des stratégies de code confidentiel'
+description: 'Lync Server 2013 : gestion des stratégies de code confidentiel.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 092ac9c50c70167331679055f4325ae867f04425
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5eec2670750a6bad496ac5b4af55072c1c237e5c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497921"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551510"
 ---
-# <a name="managing-pin-policies-in-lync-server-2013"></a><span data-ttu-id="96a14-102">Gestion des stratégies de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-102">Managing PIN policies in Lync Server 2013</span></span>
+# <a name="managing-pin-policies-in-lync-server-2013"></a><span data-ttu-id="90ec9-103">Gestion des stratégies de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-103">Managing PIN policies in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,32 +38,32 @@ ms.locfileid: "48497921"
 
 <span> </span>
 
-<span data-ttu-id="96a14-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="96a14-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="90ec9-104">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="90ec9-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="96a14-104">Vous pouvez gérer les stratégies de code confidentiel Lync Server 2013 à partir du panneau de configuration Lync Server 2013 ou de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="96a14-104">You can manage Lync Server 2013 PIN polices from either Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="96a14-105">Appliquez les procédures suivantes pour configurer des stratégies de code confidentiel pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="96a14-105">Use the following procedures to configure PIN policies for your organization.</span></span>
+<span data-ttu-id="90ec9-105">Vous pouvez gérer les stratégies de code confidentiel Lync Server 2013 à partir du panneau de configuration Lync Server 2013 ou de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="90ec9-105">You can manage Lync Server 2013 PIN polices from either Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="90ec9-106">Appliquez les procédures suivantes pour configurer des stratégies de code confidentiel pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="90ec9-106">Use the following procedures to configure PIN policies for your organization.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="96a14-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="96a14-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="90ec9-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="90ec9-107">In This Section</span></span>
 
-  - [<span data-ttu-id="96a14-107">Afficher les stratégies de code confidentiel des informations dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-107">View PIN policy inforrmation in Lync Server 2013</span></span>](lync-server-2013-view-pin-policy-inforrmation.md)
+  - [<span data-ttu-id="90ec9-108">Afficher les stratégies de code confidentiel des informations dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-108">View PIN policy inforrmation in Lync Server 2013</span></span>](lync-server-2013-view-pin-policy-inforrmation.md)
 
-  - [<span data-ttu-id="96a14-108">Créer une stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-108">Create a new PIN policy in Lync Server 2013</span></span>](lync-server-2013-create-a-new-pin-policy.md)
+  - [<span data-ttu-id="90ec9-109">Créer une stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-109">Create a new PIN policy in Lync Server 2013</span></span>](lync-server-2013-create-a-new-pin-policy.md)
 
-  - [<span data-ttu-id="96a14-109">Modifier une stratégie de code confidentiel existante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-109">Modify an existing PIN policy in Lync Server 2013</span></span>](lync-server-2013-modify-an-existing-pin-policy.md)
+  - [<span data-ttu-id="90ec9-110">Modifier une stratégie de code confidentiel existante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-110">Modify an existing PIN policy in Lync Server 2013</span></span>](lync-server-2013-modify-an-existing-pin-policy.md)
 
-  - [<span data-ttu-id="96a14-110">Supprimer une stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-110">Delete a PIN policy in Lync Server 2013</span></span>](lync-server-2013-delete-a-pin-policy.md)
+  - [<span data-ttu-id="90ec9-111">Supprimer une stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-111">Delete a PIN policy in Lync Server 2013</span></span>](lync-server-2013-delete-a-pin-policy.md)
 
-  - [<span data-ttu-id="96a14-111">Affectation d’une stratégie de code confidentiel par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-111">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [<span data-ttu-id="90ec9-112">Affectation d’une stratégie de code confidentiel par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-112">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="96a14-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="96a14-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="90ec9-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="90ec9-113">See Also</span></span>
 
 
-[<span data-ttu-id="96a14-113">Gestion des codes confidentiels d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a14-113">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)  
+[<span data-ttu-id="90ec9-114">Gestion des codes confidentiels d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90ec9-114">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)  
   
 
 </div>

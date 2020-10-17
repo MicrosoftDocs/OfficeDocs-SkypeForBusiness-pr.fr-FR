@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : tblConfig'
+description: 'Lync Server 2013 : tblConfig.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2efbed57d88e7312bc1da3a9da8f8057fd6696a5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8990e0b2c8724a5e90c36e706b92f9985f288772
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509371"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550430"
 ---
-# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="8c5dd-102">tblConfig dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c5dd-102">tblConfig in Lync Server 2013</span></span>
+# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="dfded-103">tblConfig dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dfded-103">tblConfig in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509371"
 
 <span> </span>
 
-<span data-ttu-id="8c5dd-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="8c5dd-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="dfded-104">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="dfded-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="8c5dd-104">tblConfig contient une configuration non prise en charge par le serveur de conversation permanente, dans une ligne.</span><span class="sxs-lookup"><span data-stu-id="8c5dd-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
+<span data-ttu-id="dfded-105">tblConfig contient une configuration non prise en charge par le serveur de conversation permanente, dans une ligne.</span><span class="sxs-lookup"><span data-stu-id="dfded-105">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="8c5dd-105">Colonnes</span><span class="sxs-lookup"><span data-stu-id="8c5dd-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="dfded-106">Colonnes</span><span class="sxs-lookup"><span data-stu-id="dfded-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,32 +52,32 @@ ms.locfileid: "48509371"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8c5dd-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="8c5dd-106">Column</span></span></th>
-<th><span data-ttu-id="8c5dd-107">Type</span><span class="sxs-lookup"><span data-stu-id="8c5dd-107">Type</span></span></th>
-<th><span data-ttu-id="8c5dd-108">Description</span><span class="sxs-lookup"><span data-stu-id="8c5dd-108">Description</span></span></th>
+<th><span data-ttu-id="dfded-107">Colonne</span><span class="sxs-lookup"><span data-stu-id="dfded-107">Column</span></span></th>
+<th><span data-ttu-id="dfded-108">Type</span><span class="sxs-lookup"><span data-stu-id="dfded-108">Type</span></span></th>
+<th><span data-ttu-id="dfded-109">Description</span><span class="sxs-lookup"><span data-stu-id="dfded-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8c5dd-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="8c5dd-109">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-110">nvarchar (255), non null</span><span class="sxs-lookup"><span data-stu-id="8c5dd-110">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-111">Contient le &quot; pool.&quot;</span><span class="sxs-lookup"><span data-stu-id="8c5dd-111">Contains &quot;pool.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="dfded-110">configLabel</span><span class="sxs-lookup"><span data-stu-id="dfded-110">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="dfded-111">nvarchar (255), non null</span><span class="sxs-lookup"><span data-stu-id="dfded-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="dfded-112">Contient le &quot; pool.&quot;</span><span class="sxs-lookup"><span data-stu-id="dfded-112">Contains &quot;pool.&quot;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8c5dd-112">configContent</span><span class="sxs-lookup"><span data-stu-id="8c5dd-112">configContent</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="8c5dd-113">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-114">Contenu de configuration.</span><span class="sxs-lookup"><span data-stu-id="8c5dd-114">Configuration content.</span></span></p></td>
+<td><p><span data-ttu-id="dfded-113">configContent</span><span class="sxs-lookup"><span data-stu-id="dfded-113">configContent</span></span></p></td>
+<td><p><span data-ttu-id="dfded-114">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="dfded-114">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="dfded-115">Contenu de configuration.</span><span class="sxs-lookup"><span data-stu-id="dfded-115">Configuration content.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8c5dd-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="8c5dd-115">configPoolID</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-116">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="8c5dd-116">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-117">ID unique de l’instance de base de données.</span><span class="sxs-lookup"><span data-stu-id="8c5dd-117">Unique ID of the database instance.</span></span></p></td>
+<td><p><span data-ttu-id="dfded-116">configPoolID</span><span class="sxs-lookup"><span data-stu-id="dfded-116">configPoolID</span></span></p></td>
+<td><p><span data-ttu-id="dfded-117">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="dfded-117">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="dfded-118">ID unique de l’instance de base de données.</span><span class="sxs-lookup"><span data-stu-id="dfded-118">Unique ID of the database instance.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="8c5dd-118">Clé</span><span class="sxs-lookup"><span data-stu-id="8c5dd-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="dfded-119">Clé</span><span class="sxs-lookup"><span data-stu-id="dfded-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -85,14 +86,14 @@ ms.locfileid: "48509371"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8c5dd-119">Colonne</span><span class="sxs-lookup"><span data-stu-id="8c5dd-119">Column</span></span></th>
-<th><span data-ttu-id="8c5dd-120">Description</span><span class="sxs-lookup"><span data-stu-id="8c5dd-120">Description</span></span></th>
+<th><span data-ttu-id="dfded-120">Colonne</span><span class="sxs-lookup"><span data-stu-id="dfded-120">Column</span></span></th>
+<th><span data-ttu-id="dfded-121">Description</span><span class="sxs-lookup"><span data-stu-id="dfded-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8c5dd-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="8c5dd-121">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="8c5dd-122">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="8c5dd-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="dfded-122">configLabel</span><span class="sxs-lookup"><span data-stu-id="dfded-122">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="dfded-123">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="dfded-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

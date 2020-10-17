@@ -1,5 +1,6 @@
 ---
 title: Supprimer un message
+description: Supprimer un message.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2b87884decf686c6965a9aa2a5e87db0a78da60
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 882d0747e73c90c9d41363fbd4efeb689a2d938b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500151"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551270"
 ---
-# <a name="remove-a-message"></a><span data-ttu-id="c272e-102">Supprimer un message</span><span class="sxs-lookup"><span data-stu-id="c272e-102">Remove a message</span></span>
+# <a name="remove-a-message"></a><span data-ttu-id="efde5-103">Supprimer un message</span><span class="sxs-lookup"><span data-stu-id="efde5-103">Remove a message</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48500151"
 
 <span> </span>
 
-<span data-ttu-id="c272e-103">_**Dernière modification de la rubrique :** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="c272e-103">_**Topic Last Modified:** 2012-04-04_</span></span>
+<span data-ttu-id="efde5-104">_**Dernière modification de la rubrique :** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="efde5-104">_**Topic Last Modified:** 2012-04-04_</span></span>
 
-<span data-ttu-id="c272e-104">Pour supprimer un message</span><span class="sxs-lookup"><span data-stu-id="c272e-104">To remove a message</span></span>
+<span data-ttu-id="efde5-105">Pour supprimer un message</span><span class="sxs-lookup"><span data-stu-id="efde5-105">To remove a message</span></span>
 
     Remove-CsPersistentChatMessage -Identity <string> [-UserUri <string>] [-StartDate <DateTime>] [-EndDate <DateTime>] [-Filter <string>] [-MatchClause <AndOr> {And | Or | Exact}] [-CaseSensitive <bool>] [-ReplaceMessage <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 
