@@ -1,5 +1,6 @@
 ---
 title: Utilisation de Best Practices Analyzer pour identifier les problèmes potentiels dans votre déploiement
+description: Utilisation de Best Practices Analyzer pour identifier les problèmes potentiels dans votre déploiement.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ebeeb175a4c79022630a432a075bd2cda18f3a0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b334a6eb3d6596fdc3208c60a8894b0873386c85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535891"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567190"
 ---
 # <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Utilisation de Best Practices Analyzer pour identifier les problèmes potentiels dans votre déploiement Lync Server 2013
 

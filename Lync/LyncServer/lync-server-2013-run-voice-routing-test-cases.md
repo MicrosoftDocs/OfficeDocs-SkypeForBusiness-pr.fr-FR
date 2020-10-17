@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : exécuter des cas de test de routage des communications vocales'
+description: 'Lync Server 2013 : exécuter des cas de test de routage des communications vocales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06c7119d8b011a805ffbc19c3b63f8832f302556
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e521216a12fba6b78913e7f4a79432809bb6e252
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511141"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566790"
 ---
 # <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>Exécuter des cas de test de routage des communications vocales dans Lync Server 2013
 

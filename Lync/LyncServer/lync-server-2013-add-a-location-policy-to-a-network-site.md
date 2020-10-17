@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : ajout d’une stratégie d’emplacement à un site réseau'
+description: 'Lync Server 2013 : ajouter une stratégie d’emplacement à un site réseau.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95ca625746fc38d8cab9c25701a8bf22718e71e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 20f71d3144e2ef730de5dae46be16138b5d36c42
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529571"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567920"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>Ajouter une stratégie d’emplacement à un site réseau dans Lync Server 2013
 

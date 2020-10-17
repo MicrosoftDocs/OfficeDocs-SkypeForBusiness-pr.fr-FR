@@ -1,5 +1,6 @@
 ---
 title: Restauration du pool Edge utilisé pour Lync Server Federation ou XMPP Federation
+description: Restauration des pools de serveurs Edge utilisés pour la Fédération XMPP ou Fédération Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2fc24adb8808eae3d3152b74e29426b2facecfb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 137910d71de1d6177356e0b7bacbd6d17022d71d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530991"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567720"
 ---
 # <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a>Restauration du pool Edge utilisé pour Lync Server Federation ou XMPP Federation dans Lync Server 2013
 

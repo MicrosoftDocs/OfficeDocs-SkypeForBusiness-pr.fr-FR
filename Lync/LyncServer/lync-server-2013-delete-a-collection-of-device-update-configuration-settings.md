@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : suppression d’une collection de paramètres de configuration de mise à jour des périphériques'
+description: 'Lync Server 2013 : suppression d’une collection de paramètres de configuration de mise à jour des périphériques.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803928
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 520247186289f4b02a136b3109ec86fa4fa1a6a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b3a03227869f68a52a30ea94db33bfb954b7e122
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525741"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566650"
 ---
 # <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Supprimer une collection de paramètres de configuration de mise à jour des périphériques dans Lync Server 2013
 

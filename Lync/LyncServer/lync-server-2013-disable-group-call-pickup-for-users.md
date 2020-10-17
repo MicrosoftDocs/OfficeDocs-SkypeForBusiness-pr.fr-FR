@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : désactiver la prise d’appel de groupe pour les utilisateurs'
+description: 'Lync Server 2013 : désactive la prise d’appel de groupe pour les utilisateurs.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d30fc0dd317b9de1a5af76c5a3a10734f0877b1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b3f5b4542cf7bb8ea5be524d2695701979ec2987
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529021"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568190"
 ---
 # <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Désactivation de la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : modifier le filtre de transfert de fichiers par défaut'
+description: 'Lync Server 2013 : modifier le filtre de transfert de fichiers par défaut.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3799b40cda71b446387b708dcdb85d69c1795de6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8091dfebea87b793c56b9a670cfeeeab15ce6c44
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515191"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566930"
 ---
 # <a name="modify-the-default-file-transfer-filter-in-lync-server-2013"></a>Modifier le filtre de transfert de fichiers par défaut dans Lync Server 2013
 
