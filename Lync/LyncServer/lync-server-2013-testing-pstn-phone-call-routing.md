@@ -12,20 +12,22 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abdb6796139ddc4be2b8ea24aa9bfeb19f745373
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe6f0b1da87cfff6033840d37f590922c0a3bd9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193921"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504001"
 ---
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a><span data-ttu-id="ec9b3-102">Test du routage des appels RTC dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec9b3-102">Testing PSTN phone call routing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a><span data-ttu-id="5b30e-102">Test du routage des appels RTC dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b30e-102">Testing PSTN phone call routing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193921"
 
 <span> </span>
 
-<span data-ttu-id="5b30e-103">_**Dernière modification de la rubrique :** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="5b30e-103">_**Topic Last Modified:** 2014-11-01_</span></span>
+<span data-ttu-id="ec9b3-103">_**Dernière modification de la rubrique :** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="ec9b3-103">_**Topic Last Modified:** 2014-11-01_</span></span>
 
 
 <table>
@@ -45,17 +47,17 @@ ms.locfileid: "42193921"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5b30e-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="5b30e-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="5b30e-105">Tous les jours</span><span class="sxs-lookup"><span data-stu-id="5b30e-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="ec9b3-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="ec9b3-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="ec9b3-105">Journalière</span><span class="sxs-lookup"><span data-stu-id="ec9b3-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5b30e-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="5b30e-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="5b30e-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5b30e-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="ec9b3-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="ec9b3-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="ec9b3-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ec9b3-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5b30e-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="5b30e-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="5b30e-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="5b30e-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="5b30e-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-CsInterTrunkRouting</strong> .</span><span class="sxs-lookup"><span data-stu-id="5b30e-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsInterTrunkRouting</strong> cmdlet.</span></span> <span data-ttu-id="5b30e-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="5b30e-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="ec9b3-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="ec9b3-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="ec9b3-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="ec9b3-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-CsInterTrunkRouting</strong> .</span><span class="sxs-lookup"><span data-stu-id="ec9b3-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsInterTrunkRouting</strong> cmdlet.</span></span> <span data-ttu-id="ec9b3-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="ec9b3-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,17 +66,17 @@ ms.locfileid: "42193921"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="5b30e-112">Description</span><span class="sxs-lookup"><span data-stu-id="5b30e-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="ec9b3-112">Description</span><span class="sxs-lookup"><span data-stu-id="ec9b3-112">Description</span></span>
 
-<span data-ttu-id="5b30e-113">L’applet de commande **test-CsInterTrunkRouting** vérifie que les appels peuvent être acheminés d’un SIP à un autre.</span><span class="sxs-lookup"><span data-stu-id="5b30e-113">The **Test-CsInterTrunkRouting** cmdlet verifies that calls can be routed from one SIP to another.</span></span> <span data-ttu-id="5b30e-114">Pour ce faire, l’applet de commande reçoit un numéro de téléphone et une configuration de jonction.</span><span class="sxs-lookup"><span data-stu-id="5b30e-114">To do this, the cmdlet is given a phone number and a trunk configuration.</span></span> <span data-ttu-id="5b30e-115">**Test-CsInterTrunkRouting** indique alors les itinéraires correspondants et les utilisations RTC correspondantes pour le numéro spécifié.</span><span class="sxs-lookup"><span data-stu-id="5b30e-115">**Test-CsInterTrunkRouting** will then report back matching routes and matching PSTN usages for the specified number.</span></span> <span data-ttu-id="5b30e-116">Notez que les appels peuvent être routés entre des segments uniquement si ceux-ci ont un modèle de numéro qui correspond au numéro de téléphone spécifié et uniquement s’ils partagent au moins une utilisation PSTN.</span><span class="sxs-lookup"><span data-stu-id="5b30e-116">Note that calls can be routed between trunks only if the trunks have a number pattern that matches the specified phone number and only if the trunks share at least one PSTN usage.</span></span>
+<span data-ttu-id="ec9b3-113">L’applet de commande **test-CsInterTrunkRouting** vérifie que les appels peuvent être acheminés d’un SIP à un autre.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-113">The **Test-CsInterTrunkRouting** cmdlet verifies that calls can be routed from one SIP to another.</span></span> <span data-ttu-id="ec9b3-114">Pour ce faire, l’applet de commande reçoit un numéro de téléphone et une configuration de jonction.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-114">To do this, the cmdlet is given a phone number and a trunk configuration.</span></span> <span data-ttu-id="ec9b3-115">**Test-CsInterTrunkRouting** indique alors les itinéraires correspondants et les utilisations RTC correspondantes pour le numéro spécifié.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-115">**Test-CsInterTrunkRouting** will then report back matching routes and matching PSTN usages for the specified number.</span></span> <span data-ttu-id="ec9b3-116">Notez que les appels peuvent être routés entre des segments uniquement si ceux-ci ont un modèle de numéro qui correspond au numéro de téléphone spécifié et uniquement s’ils partagent au moins une utilisation PSTN.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-116">Note that calls can be routed between trunks only if the trunks have a number pattern that matches the specified phone number and only if the trunks share at least one PSTN usage.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="5b30e-117">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="5b30e-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="ec9b3-117">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="ec9b3-117">Running the test</span></span>
 
-<span data-ttu-id="5b30e-118">Les commandes indiquées ci-dessous renvoient les itinéraires correspondants et les utilisations téléphoniques correspondantes qui permettent aux utilisateurs d’appeler le numéro de téléphone 1-206-555-1219 à l’aide des paramètres de configuration de jonction pour le site de Redmond.</span><span class="sxs-lookup"><span data-stu-id="5b30e-118">The commands shown below return the matching routes and matching phone usages that enable users to call the phone number 1-206-555-1219 using the trunk configuration settings for the Redmond site.</span></span>
+<span data-ttu-id="ec9b3-118">Les commandes indiquées ci-dessous renvoient les itinéraires correspondants et les utilisations téléphoniques correspondantes qui permettent aux utilisateurs d’appeler le numéro de téléphone 1-206-555-1219 à l’aide des paramètres de configuration de jonction pour le site de Redmond.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-118">The commands shown below return the matching routes and matching phone usages that enable users to call the phone number 1-206-555-1219 using the trunk configuration settings for the Redmond site.</span></span>
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
@@ -84,61 +86,61 @@ ms.locfileid: "42193921"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="5b30e-119">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="5b30e-119">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="ec9b3-119">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="ec9b3-119">Determining success or failure</span></span>
 
-<span data-ttu-id="5b30e-120">Si les appels peuvent être acheminés d’un SIP à un autre, vous recevrez un résultat semblable à celui-ci :</span><span class="sxs-lookup"><span data-stu-id="5b30e-120">If calls can be routed from one SIP to another, you'll receive output similar to this:</span></span>
+<span data-ttu-id="ec9b3-120">Si les appels peuvent être acheminés d’un SIP à un autre, vous recevrez un résultat semblable à celui-ci :</span><span class="sxs-lookup"><span data-stu-id="ec9b3-120">If calls can be routed from one SIP to another, you'll receive output similar to this:</span></span>
 
-<span data-ttu-id="5b30e-121">FirstMatchingRoute MatchingUsage MatchingRoutes</span><span class="sxs-lookup"><span data-stu-id="5b30e-121">FirstMatchingRoute MatchingUsage MatchingRoutes</span></span>
+<span data-ttu-id="ec9b3-121">FirstMatchingRoute MatchingUsage MatchingRoutes</span><span class="sxs-lookup"><span data-stu-id="ec9b3-121">FirstMatchingRoute MatchingUsage MatchingRoutes</span></span>
 
-<span data-ttu-id="5b30e-122">\------------------ ------------- --------------</span><span class="sxs-lookup"><span data-stu-id="5b30e-122">\------------------ ------------- --------------</span></span>
+<span data-ttu-id="ec9b3-122">\------------------ ------------- --------------</span><span class="sxs-lookup"><span data-stu-id="ec9b3-122">\------------------ ------------- --------------</span></span>
 
-<span data-ttu-id="5b30e-123">RedmondRoute LocalUsage {RedmondRoute}</span><span class="sxs-lookup"><span data-stu-id="5b30e-123">RedmondRoute LocalUsage {RedmondRoute}</span></span>
+<span data-ttu-id="ec9b3-123">RedmondRoute LocalUsage {RedmondRoute}</span><span class="sxs-lookup"><span data-stu-id="ec9b3-123">RedmondRoute LocalUsage {RedmondRoute}</span></span>
 
-<span data-ttu-id="5b30e-124">Si le test a échoué, vous recevrez un résultat similaire à celui-ci :</span><span class="sxs-lookup"><span data-stu-id="5b30e-124">If the test did not succeed, you'll receive output similar to this:</span></span>
+<span data-ttu-id="ec9b3-124">Si le test a échoué, vous recevrez un résultat similaire à celui-ci :</span><span class="sxs-lookup"><span data-stu-id="ec9b3-124">If the test did not succeed, you'll receive output similar to this:</span></span>
 
-<span data-ttu-id="5b30e-125">Test-CsInterTrunkRouting : impossible de traiter la transformation d’argument sur le paramètre</span><span class="sxs-lookup"><span data-stu-id="5b30e-125">Test-CsInterTrunkRouting : Cannot process argument transformation on parameter</span></span>
+<span data-ttu-id="ec9b3-125">Test-CsInterTrunkRouting : impossible de traiter la transformation d’argument sur le paramètre</span><span class="sxs-lookup"><span data-stu-id="ec9b3-125">Test-CsInterTrunkRouting : Cannot process argument transformation on parameter</span></span>
 
-<span data-ttu-id="5b30e-126">« TrunkConfiguration ».</span><span class="sxs-lookup"><span data-stu-id="5b30e-126">'TrunkConfiguration'.</span></span> <span data-ttu-id="5b30e-127">TrunkConfigurationsetting non valide (paramètre).</span><span class="sxs-lookup"><span data-stu-id="5b30e-127">Invalid TrunkConfigurationsetting (parameter).</span></span> <span data-ttu-id="5b30e-128">Spécifier une</span><span class="sxs-lookup"><span data-stu-id="5b30e-128">Specify a</span></span>
+<span data-ttu-id="ec9b3-126">« TrunkConfiguration ».</span><span class="sxs-lookup"><span data-stu-id="ec9b3-126">'TrunkConfiguration'.</span></span> <span data-ttu-id="ec9b3-127">TrunkConfigurationsetting non valide (paramètre).</span><span class="sxs-lookup"><span data-stu-id="ec9b3-127">Invalid TrunkConfigurationsetting (parameter).</span></span> <span data-ttu-id="ec9b3-128">Spécifier une</span><span class="sxs-lookup"><span data-stu-id="ec9b3-128">Specify a</span></span>
 
-<span data-ttu-id="5b30e-129">paramètre valide (paramètre), puis réessayez.</span><span class="sxs-lookup"><span data-stu-id="5b30e-129">valid setting (parameter) and then try again.</span></span>
+<span data-ttu-id="ec9b3-129">paramètre valide (paramètre), puis réessayez.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-129">valid setting (parameter) and then try again.</span></span>
 
-<span data-ttu-id="5b30e-130">À la ligne : 1 char : 79</span><span class="sxs-lookup"><span data-stu-id="5b30e-130">At line:1 char:79</span></span>
+<span data-ttu-id="ec9b3-130">À la ligne : 1 char : 79</span><span class="sxs-lookup"><span data-stu-id="ec9b3-130">At line:1 char:79</span></span>
 
-<span data-ttu-id="5b30e-131">\+Test-CsInterTrunkRouting-TargetNumber "Tél : + 12065551219"</span><span class="sxs-lookup"><span data-stu-id="5b30e-131">\+ Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219"</span></span>
+<span data-ttu-id="ec9b3-131">\+ Test-CsInterTrunkRouting-TargetNumber "Tél : + 12065551219"</span><span class="sxs-lookup"><span data-stu-id="ec9b3-131">\+ Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219"</span></span>
 
-<span data-ttu-id="5b30e-132">\-TrunkConfiguration $t...</span><span class="sxs-lookup"><span data-stu-id="5b30e-132">\-TrunkConfiguration $t ...</span></span>
+<span data-ttu-id="ec9b3-132">\-TrunkConfiguration $t...</span><span class="sxs-lookup"><span data-stu-id="ec9b3-132">\-TrunkConfiguration $t ...</span></span>
 
 \+
 
 ~~
 
-<span data-ttu-id="5b30e-133">\+CategoryInfo : InvalidData : ( :) \[Test-CsInterTrunkRouting\], par</span><span class="sxs-lookup"><span data-stu-id="5b30e-133">\+ CategoryInfo : InvalidData: (:) \[Test-CsInterTrunkRouting\], Par</span></span>
+<span data-ttu-id="ec9b3-133">\+ CategoryInfo : InvalidData : ( :) \[ Test-CsInterTrunkRouting \] , par</span><span class="sxs-lookup"><span data-stu-id="ec9b3-133">\+ CategoryInfo : InvalidData: (:) \[Test-CsInterTrunkRouting\], Par</span></span>
 
-<span data-ttu-id="5b30e-134">ameterBindingArgumentTransformationException</span><span class="sxs-lookup"><span data-stu-id="5b30e-134">ameterBindingArgumentTransformationException</span></span>
+<span data-ttu-id="ec9b3-134">ameterBindingArgumentTransformationException</span><span class="sxs-lookup"><span data-stu-id="ec9b3-134">ameterBindingArgumentTransformationException</span></span>
 
-<span data-ttu-id="5b30e-135">\+FullyQualifiedErrorId : ParameterArgumentTransformationError, Microsoft. R</span><span class="sxs-lookup"><span data-stu-id="5b30e-135">\+ FullyQualifiedErrorId : ParameterArgumentTransformationError,Microsoft.R</span></span>
+<span data-ttu-id="ec9b3-135">\+ FullyQualifiedErrorId : ParameterArgumentTransformationError, Microsoft. R</span><span class="sxs-lookup"><span data-stu-id="ec9b3-135">\+ FullyQualifiedErrorId : ParameterArgumentTransformationError,Microsoft.R</span></span>
 
-<span data-ttu-id="5b30e-136">TC. Management. Voice. cmdlets. TestOcsInterTrunkRoutingCmdlet</span><span class="sxs-lookup"><span data-stu-id="5b30e-136">tc.Management.Voice.Cmdlets.TestOcsInterTrunkRoutingCmdlet</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="5b30e-137">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="5b30e-137">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="5b30e-138">Voici quelques-unes des causes courantes de l’échec **de test-CsInterTrunkRouting** :</span><span class="sxs-lookup"><span data-stu-id="5b30e-138">Here are some common reasons why **Test-CsInterTrunkRouting** might fail:</span></span>
-
-  - <span data-ttu-id="5b30e-139">Vous avez spécifié des paramètres non valides.</span><span class="sxs-lookup"><span data-stu-id="5b30e-139">You specified invalid parameters.</span></span> <span data-ttu-id="5b30e-140">La jonction n’est peut-être pas encore correctement configurée et le numéro cible spécifié est peut-être incorrect ou non valide.</span><span class="sxs-lookup"><span data-stu-id="5b30e-140">The trunk might not yet be correctly configured and the specified target number might be incorrect or invalid.</span></span>
+<span data-ttu-id="ec9b3-136">TC. Management. Voice. cmdlets. TestOcsInterTrunkRoutingCmdlet</span><span class="sxs-lookup"><span data-stu-id="ec9b3-136">tc.Management.Voice.Cmdlets.TestOcsInterTrunkRoutingCmdlet</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5b30e-141">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5b30e-141">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="ec9b3-137">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="ec9b3-137">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="ec9b3-138">Voici quelques-unes des causes courantes de l’échec **de test-CsInterTrunkRouting** :</span><span class="sxs-lookup"><span data-stu-id="ec9b3-138">Here are some common reasons why **Test-CsInterTrunkRouting** might fail:</span></span>
+
+  - <span data-ttu-id="ec9b3-139">Vous avez spécifié des paramètres non valides.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-139">You specified invalid parameters.</span></span> <span data-ttu-id="ec9b3-140">La jonction n’est peut-être pas encore correctement configurée et le numéro cible spécifié est peut-être incorrect ou non valide.</span><span class="sxs-lookup"><span data-stu-id="ec9b3-140">The trunk might not yet be correctly configured and the specified target number might be incorrect or invalid.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="ec9b3-141">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ec9b3-141">See Also</span></span>
 
 
-[<span data-ttu-id="5b30e-142">Get-CsTrunk</span><span class="sxs-lookup"><span data-stu-id="5b30e-142">Get-CsTrunk</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
-[<span data-ttu-id="5b30e-143">Get-applet cstrunkconfiguration</span><span class="sxs-lookup"><span data-stu-id="5b30e-143">Get-CsTrunkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
+[<span data-ttu-id="ec9b3-142">Get-CsTrunk</span><span class="sxs-lookup"><span data-stu-id="ec9b3-142">Get-CsTrunk</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
+[<span data-ttu-id="ec9b3-143">Get-applet cstrunkconfiguration</span><span class="sxs-lookup"><span data-stu-id="ec9b3-143">Get-CsTrunkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbc83cc1aa1b772ca310a9710d4f5329b4ca8edb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48c11645cfe624d2dd877023784d105d636d6b04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505371"
 ---
+# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="6300c-102">Nouvelles fonctionnalités d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6300c-102">New call features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="47e1e-102">Nouvelles fonctionnalités d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47e1e-102">New call features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42192527"
 
 <span> </span>
 
-<span data-ttu-id="47e1e-103">_**Dernière modification de la rubrique :** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="47e1e-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="6300c-103">_**Dernière modification de la rubrique :** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="6300c-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="47e1e-104">Lync Server 2013 offre un large éventail d’options de configuration pour le transfert d’appel et la sonnerie simultanée.</span><span class="sxs-lookup"><span data-stu-id="47e1e-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="47e1e-105">Par exemple, si une organisation ne souhaite pas que les appels entrants soient transférés en externe au réseau téléphonique commuté (RTC), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction.</span><span class="sxs-lookup"><span data-stu-id="47e1e-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
+<span data-ttu-id="6300c-104">Lync Server 2013 offre un large éventail d’options de configuration pour le transfert d’appel et la sonnerie simultanée.</span><span class="sxs-lookup"><span data-stu-id="6300c-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="6300c-105">Par exemple, si une organisation ne souhaite pas que les appels entrants soient transférés en externe au réseau téléphonique commuté (RTC), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction.</span><span class="sxs-lookup"><span data-stu-id="6300c-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
 
-<span data-ttu-id="47e1e-106">En outre, les délégués peuvent désormais configurer la sonnerie simultanée sur leurs appareils mobiles pour les appels entrants à leurs responsables.</span><span class="sxs-lookup"><span data-stu-id="47e1e-106">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers.</span></span> <span data-ttu-id="47e1e-107">Cela permet aux délégués de bénéficier d’une plus grande flexibilité, ce qui leur permet de répondre aux appels au nom de leur responsable sans être liés à un téléphone de bureau.</span><span class="sxs-lookup"><span data-stu-id="47e1e-107">This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
+<span data-ttu-id="6300c-106">En outre, les délégués peuvent désormais configurer la sonnerie simultanée sur leurs appareils mobiles pour les appels entrants à leurs responsables.</span><span class="sxs-lookup"><span data-stu-id="6300c-106">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers.</span></span> <span data-ttu-id="6300c-107">Cela permet aux délégués de bénéficier d’une plus grande flexibilité, ce qui leur permet de répondre aux appels au nom de leur responsable sans être liés à un téléphone de bureau.</span><span class="sxs-lookup"><span data-stu-id="6300c-107">This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="47e1e-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="47e1e-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6300c-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6300c-108">See Also</span></span>
 
 
-[<span data-ttu-id="47e1e-109">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47e1e-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="6300c-109">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6300c-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

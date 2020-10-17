@@ -12,20 +12,22 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c18c766fbb1116ecad92e7122892abbb0d983d5c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea00bc092f12a81ca9804b60e31aa88858455657
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192367"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504131"
 ---
+# <a name="new-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="ad084-102">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-102">New Enterprise Voice features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="b2d3f-102">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-102">New Enterprise Voice features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42192367"
 
 <span> </span>
 
-<span data-ttu-id="b2d3f-103">_**Dernière modification de la rubrique :** 2013-05-01_</span><span class="sxs-lookup"><span data-stu-id="b2d3f-103">_**Topic Last Modified:** 2013-05-01_</span></span>
+<span data-ttu-id="ad084-103">_**Dernière modification de la rubrique :** 2013-05-01_</span><span class="sxs-lookup"><span data-stu-id="ad084-103">_**Topic Last Modified:** 2013-05-01_</span></span>
 
-<span data-ttu-id="b2d3f-104">Lync Server 2013 introduit plusieurs nouvelles fonctionnalités de routage et de gestion des appels qui améliorent voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-104">Lync Server 2013 introduces several new routing and call management features that enhance Enterprise Voice.</span></span>
+<span data-ttu-id="ad084-104">Lync Server 2013 introduit plusieurs nouvelles fonctionnalités de routage et de gestion des appels qui améliorent voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="ad084-104">Lync Server 2013 introduces several new routing and call management features that enhance Enterprise Voice.</span></span>
 
-<span data-ttu-id="b2d3f-105">Lync Server 2013 prend en charge plusieurs jonctions entre les serveurs de médiation et les passerelles.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-105">Lync Server 2013 supports multiple trunks between Mediation Servers and gateways.</span></span> <span data-ttu-id="b2d3f-106">Une *jonction* est une association logique entre un numéro de port et un serveur de médiation avec un numéro de port et une passerelle.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-106">A *trunk* is a logical association between a port number and Mediation Server with a port number and gateway.</span></span> <span data-ttu-id="b2d3f-107">Cela signifie qu’un serveur de médiation peut avoir plusieurs jonctions vers différentes passerelles, et une passerelle peut avoir plusieurs tronçons vers différents serveurs de médiation.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-107">This means that a Mediation Server can have multiple trunks to different gateways, and a gateway can have multiple trunks to different Mediation Servers.</span></span> <span data-ttu-id="b2d3f-108">Le routage interjonction permet à Lync Server 2013 d’interconnecter un système IP-PBX à une passerelle RTC (réseau téléphonique commuté) ou d’interconnecter plusieurs systèmes IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-108">Intertrunk routing makes it possible for Lync Server 2013 to interconnect an IP-PBX to a public switched telephone network (PSTN) gateway or to interconnect multiple IP-PBX systems.</span></span> <span data-ttu-id="b2d3f-109">Lync Server 2013 sert de collage (autrement dit, l’interconnexion) entre différents systèmes téléphoniques.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-109">Lync Server 2013 serves as the glue (that is, the interconnection) between different telephony systems.</span></span>
+<span data-ttu-id="ad084-105">Lync Server 2013 prend en charge plusieurs jonctions entre les serveurs de médiation et les passerelles.</span><span class="sxs-lookup"><span data-stu-id="ad084-105">Lync Server 2013 supports multiple trunks between Mediation Servers and gateways.</span></span> <span data-ttu-id="ad084-106">Une *jonction* est une association logique entre un numéro de port et un serveur de médiation avec un numéro de port et une passerelle.</span><span class="sxs-lookup"><span data-stu-id="ad084-106">A *trunk* is a logical association between a port number and Mediation Server with a port number and gateway.</span></span> <span data-ttu-id="ad084-107">Cela signifie qu’un serveur de médiation peut avoir plusieurs jonctions vers différentes passerelles, et une passerelle peut avoir plusieurs tronçons vers différents serveurs de médiation.</span><span class="sxs-lookup"><span data-stu-id="ad084-107">This means that a Mediation Server can have multiple trunks to different gateways, and a gateway can have multiple trunks to different Mediation Servers.</span></span> <span data-ttu-id="ad084-108">Le routage interjonction permet à Lync Server 2013 d’interconnecter un système IP-PBX à une passerelle RTC (réseau téléphonique commuté) ou d’interconnecter plusieurs systèmes IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="ad084-108">Intertrunk routing makes it possible for Lync Server 2013 to interconnect an IP-PBX to a public switched telephone network (PSTN) gateway or to interconnect multiple IP-PBX systems.</span></span> <span data-ttu-id="ad084-109">Lync Server 2013 sert de collage (autrement dit, l’interconnexion) entre différents systèmes téléphoniques.</span><span class="sxs-lookup"><span data-stu-id="ad084-109">Lync Server 2013 serves as the glue (that is, the interconnection) between different telephony systems.</span></span>
 
-<span data-ttu-id="b2d3f-110">Microsoft Lync Server 2013 apporte des améliorations dans les domaines du transfert d’appel, de la sonnerie simultanée, de la gestion de la messagerie vocale et de la présentation de l’ID de l’appelant.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-110">Microsoft Lync Server 2013 makes improvements in the areas of call forwarding, simultaneous ringing, voice mail handling, and caller ID presentation.</span></span> <span data-ttu-id="b2d3f-111">Ces fonctionnalités enrichissent l’expérience d’appel voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="b2d3f-111">These features enrich the Enterprise Voice call experience.</span></span>
+<span data-ttu-id="ad084-110">Microsoft Lync Server 2013 apporte des améliorations dans les domaines du transfert d’appel, de la sonnerie simultanée, de la gestion de la messagerie vocale et de la présentation de l’ID de l’appelant.</span><span class="sxs-lookup"><span data-stu-id="ad084-110">Microsoft Lync Server 2013 makes improvements in the areas of call forwarding, simultaneous ringing, voice mail handling, and caller ID presentation.</span></span> <span data-ttu-id="ad084-111">Ces fonctionnalités enrichissent l’expérience d’appel voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="ad084-111">These features enrich the Enterprise Voice call experience.</span></span>
 
-<span data-ttu-id="b2d3f-112">Lync Server 2013 présente les nouvelles améliorations suivantes à voix entreprise :</span><span class="sxs-lookup"><span data-stu-id="b2d3f-112">Lync Server 2013 introduces the following new enhancements to Enterprise Voice:</span></span>
+<span data-ttu-id="ad084-112">Lync Server 2013 présente les nouvelles améliorations suivantes à voix entreprise :</span><span class="sxs-lookup"><span data-stu-id="ad084-112">Lync Server 2013 introduces the following new enhancements to Enterprise Voice:</span></span>
 
-  - [<span data-ttu-id="b2d3f-113">Nouvelles fonctionnalités d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-113">New call features in Lync Server 2013</span></span>](lync-server-2013-new-call-features.md)
+  - [<span data-ttu-id="ad084-113">Nouvelles fonctionnalités d’appel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-113">New call features in Lync Server 2013</span></span>](lync-server-2013-new-call-features.md)
 
-  - [<span data-ttu-id="b2d3f-114">Nouvelle fonctionnalité ID de l’appelant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-114">New caller ID feature in Lync Server 2013</span></span>](lync-server-2013-new-caller-id-feature.md)
+  - [<span data-ttu-id="ad084-114">Nouvelle fonctionnalité ID de l’appelant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-114">New caller ID feature in Lync Server 2013</span></span>](lync-server-2013-new-caller-id-feature.md)
 
-  - [<span data-ttu-id="b2d3f-115">Nouvelle fonctionnalité de messagerie vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-115">New voice mail feature in Lync Server 2013</span></span>](lync-server-2013-new-voice-mail-feature.md)
+  - [<span data-ttu-id="ad084-115">Nouvelle fonctionnalité de messagerie vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-115">New voice mail feature in Lync Server 2013</span></span>](lync-server-2013-new-voice-mail-feature.md)
 
-  - [<span data-ttu-id="b2d3f-116">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-116">New trunk feature in Lync Server 2013</span></span>](lync-server-2013-new-trunk-feature.md)
+  - [<span data-ttu-id="ad084-116">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-116">New trunk feature in Lync Server 2013</span></span>](lync-server-2013-new-trunk-feature.md)
 
-  - [<span data-ttu-id="b2d3f-117">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-117">New intertrunk feature in Lync Server 2013</span></span>](lync-server-2013-new-intertrunk-feature.md)
+  - [<span data-ttu-id="ad084-117">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-117">New intertrunk feature in Lync Server 2013</span></span>](lync-server-2013-new-intertrunk-feature.md)
 
-  - [<span data-ttu-id="b2d3f-118">Nouvelles fonctionnalités de gestion des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2d3f-118">New call management features in Lync Server 2013</span></span>](lync-server-2013-new-call-management-features.md)
+  - [<span data-ttu-id="ad084-118">Nouvelles fonctionnalités de gestion des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad084-118">New call management features in Lync Server 2013</span></span>](lync-server-2013-new-call-management-features.md)
 
 </div>
 
