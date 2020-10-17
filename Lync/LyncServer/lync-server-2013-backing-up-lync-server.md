@@ -12,20 +12,22 @@ ms:contentKeyID: 51541498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 150abb5cefbd095dc87bb13cea899f367091cbef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5257780bc8fa5bb371a1569d07eb31163a840c16
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514861"
 ---
+# <a name="backing-up-lync-server-2013"></a><span data-ttu-id="5314f-102">Sauvegarde de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5314f-102">Backing up Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-lync-server-2013"></a><span data-ttu-id="c021d-102">Sauvegarde de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c021d-102">Backing up Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42206100"
 
 <span> </span>
 
-<span data-ttu-id="c021d-103">_**Dernière modification de la rubrique :** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="c021d-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="5314f-103">_**Dernière modification de la rubrique :** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="5314f-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="c021d-104">Les procédures décrites dans cette section expliquent comment sauvegarder Lync Server afin de pouvoir récupérer le service en cas de panne ou de panne.</span><span class="sxs-lookup"><span data-stu-id="c021d-104">The procedures in this section describe how to back up Lync Server so that you can recover service in the event of an outage or failure.</span></span>
+<span data-ttu-id="5314f-104">Les procédures décrites dans cette section expliquent comment sauvegarder Lync Server afin de pouvoir récupérer le service en cas de panne ou de panne.</span><span class="sxs-lookup"><span data-stu-id="5314f-104">The procedures in this section describe how to back up Lync Server so that you can recover service in the event of an outage or failure.</span></span>
 
-<span data-ttu-id="c021d-105">Vous devez développer une stratégie de sauvegarde et de récupération et planifier pour votre organisation, comme décrit dans l' [élaboration d’une stratégie de sauvegarde et de restauration et d’un plan pour Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md).</span><span class="sxs-lookup"><span data-stu-id="c021d-105">You should develop a backup and recovery strategy and plan for your organization, as described in [Developing a backup and restoration strategy and plan for Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md).</span></span> <span data-ttu-id="c021d-106">Cette stratégie et ce plan doivent inclure les procédures spécifiques que vous envisagez d’utiliser.</span><span class="sxs-lookup"><span data-stu-id="c021d-106">This strategy and plan should include the specific procedures that you plan to use.</span></span> <span data-ttu-id="c021d-107">Suivez les procédures décrites dans les rubriques de cette section, ainsi que les feuilles de calcul dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), afin de documenter la manière dont vous prévoyez de sauvegarder votre déploiement Lync Server spécifique.</span><span class="sxs-lookup"><span data-stu-id="c021d-107">Use the procedures included in the topics in this section, along with the worksheets in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), to document how you plan to back up your specific Lync Server deployment.</span></span>
+<span data-ttu-id="5314f-105">Vous devez développer une stratégie de sauvegarde et de récupération et planifier pour votre organisation, comme décrit dans l' [élaboration d’une stratégie de sauvegarde et de restauration et d’un plan pour Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md).</span><span class="sxs-lookup"><span data-stu-id="5314f-105">You should develop a backup and recovery strategy and plan for your organization, as described in [Developing a backup and restoration strategy and plan for Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md).</span></span> <span data-ttu-id="5314f-106">Cette stratégie et ce plan doivent inclure les procédures spécifiques que vous envisagez d’utiliser.</span><span class="sxs-lookup"><span data-stu-id="5314f-106">This strategy and plan should include the specific procedures that you plan to use.</span></span> <span data-ttu-id="5314f-107">Suivez les procédures décrites dans les rubriques de cette section, ainsi que les feuilles de calcul dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), afin de documenter la manière dont vous prévoyez de sauvegarder votre déploiement Lync Server spécifique.</span><span class="sxs-lookup"><span data-stu-id="5314f-107">Use the procedures included in the topics in this section, along with the worksheets in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), to document how you plan to back up your specific Lync Server deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c021d-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c021d-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5314f-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5314f-108">In This Section</span></span>
 
-  - [<span data-ttu-id="c021d-109">Vérification des conditions préalables à la sauvegarde dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c021d-109">Verifying backup prerequisites in Lync Server 2013</span></span>](lync-server-2013-verifying-backup-prerequisites.md)
+  - [<span data-ttu-id="5314f-109">Vérification des conditions préalables à la sauvegarde dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5314f-109">Verifying backup prerequisites in Lync Server 2013</span></span>](lync-server-2013-verifying-backup-prerequisites.md)
 
-  - [<span data-ttu-id="c021d-110">Sauvegarde des données et des paramètres dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c021d-110">Backing up data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-data-and-settings.md)
+  - [<span data-ttu-id="5314f-110">Sauvegarde des données et des paramètres dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5314f-110">Backing up data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-data-and-settings.md)
 
 </div>
 
