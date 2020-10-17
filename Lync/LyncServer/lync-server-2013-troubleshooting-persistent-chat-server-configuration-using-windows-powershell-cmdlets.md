@@ -12,20 +12,22 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a25d30b15f611a534907785465e6000a36d157d9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dc6c5ece30c9ff65009b154b193f28f0d24ebe2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193367"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518981"
 ---
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a><span data-ttu-id="3ae44-102">Résolution des problèmes de configuration du serveur de conversation permanente à l’aide des applets de commande Windows PowerShell dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ae44-102">Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a><span data-ttu-id="1ac65-102">Résolution des problèmes de configuration du serveur de conversation permanente à l’aide des applets de commande Windows PowerShell dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ac65-102">Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42193367"
 
 <span> </span>
 
-<span data-ttu-id="1ac65-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="1ac65-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="3ae44-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="3ae44-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="1ac65-104">Utilisez les solutions de contournement suivantes pour résoudre les problèmes de configuration du serveur de conversation permanente avec les applets de commande de l’interface de ligne de commande Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="1ac65-104">Use the following workarounds to resolve Persistent Chat Server configuration issues with Windows PowerShell command-line interface cmdlets.</span></span>
+<span data-ttu-id="3ae44-104">Utilisez les solutions de contournement suivantes pour résoudre les problèmes de configuration du serveur de conversation permanente avec les applets de commande de l’interface de ligne de commande Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="3ae44-104">Use the following workarounds to resolve Persistent Chat Server configuration issues with Windows PowerShell command-line interface cmdlets.</span></span>
 
-  - <span data-ttu-id="1ac65-105">Si vous obtenez un message d’erreur du type « principal non mis en service », le principal que vous avez essayé d’ajouter n’est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="1ac65-105">If the "principal not provisioned" error message appears, the principal that you tried to add is not available.</span></span>
+  - <span data-ttu-id="3ae44-105">Si vous obtenez un message d’erreur du type « principal non mis en service », le principal que vous avez essayé d’ajouter n’est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="3ae44-105">If the "principal not provisioned" error message appears, the principal that you tried to add is not available.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="1ac65-p101">Solution de contournement : aucune. Ce message d’erreur signifie que le principal n’est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="1ac65-p101">Workaround — No workaround. This error message means that the principal is not available.</span></span>
+    > <span data-ttu-id="3ae44-p101">Solution de contournement : aucune. Ce message d’erreur signifie que le principal n’est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="3ae44-p101">Workaround — No workaround. This error message means that the principal is not available.</span></span>
 
     
     </div>
