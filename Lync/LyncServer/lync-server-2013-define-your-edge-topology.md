@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : définition de votre topologie Edge'
+description: 'Lync Server 2013 : définissez votre topologie Edge.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd4aa16ca23d24f0edd92189216030ef926fc841
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504561"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572940"
 ---
 # <a name="define-your-edge-topology-in-lync-server-2013"></a>Définition de votre topologie Edge dans Lync Server 2013
 

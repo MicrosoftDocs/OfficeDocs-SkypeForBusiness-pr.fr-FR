@@ -1,5 +1,6 @@
 ---
 title: Supprimer une collection existante de paramètres de configuration de réunion
+description: Supprimer une collection existante de paramètres de configuration de réunion.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf416af31b219c07691790b88d672d26768104d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9fc0985023a1459130c7d589327535436145a0ac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514661"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572840"
 ---
 # <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration de réunion dans Lync Server 2013
 

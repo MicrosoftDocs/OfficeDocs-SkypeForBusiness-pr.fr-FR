@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : navigation dans l’outil de planification'
+description: 'Lync Server 2013 : navigation dans l’outil de planification.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2619e204bf538963818bf48967459fe434c2db4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 038cdcd0403296dac7c63d293f5969dc63409cd6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505631"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573260"
 ---
 # <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Navigation dans l’outil de planification dans Lync Server 2013
 

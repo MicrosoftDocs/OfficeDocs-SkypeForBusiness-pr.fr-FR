@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : installation des outils d’administration Lync Server'
+description: 'Lync Server 2013 : Installez les outils d’administration Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ded1dbdcd81c846db9f23574fa0b39efa0c33dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ca1ad96299197c3339d06c4f094784edc632e6b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498721"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574170"
 ---
 # <a name="install-lync-server-2013-administrative-tools"></a>Installer les outils d’administration Lync Server 2013
 

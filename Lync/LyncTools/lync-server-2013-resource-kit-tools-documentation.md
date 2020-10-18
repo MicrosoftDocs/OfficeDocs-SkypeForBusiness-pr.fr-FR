@@ -1,5 +1,6 @@
 ---
 title: Documentation sur les outils du kit de ressources Lync Server 2013
+description: Documentation sur les outils du kit de ressources Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60c2260f5729c45455596f0ab2477f7a190ef520
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6866e04615014daa7e93f7e7f1081b10325d087d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509221"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573560"
 ---
 # <a name="lync-server-2013-resource-kit-tools-documentation"></a>Documentation sur les outils du kit de ressources Lync Server 2013
 

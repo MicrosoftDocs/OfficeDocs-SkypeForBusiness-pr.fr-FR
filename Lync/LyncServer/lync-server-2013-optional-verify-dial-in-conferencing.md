@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : (facultatif) vérifier la Conférence rendez-vous'
+description: 'Lync Server 2013 : (facultatif) vérifier la Conférence rendez-vous.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfebd5dceff50d7d4b7647c7709bb88b7c1fa8e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5e8d3734e89555bf4b298ac68e1e3bd67b1d901
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530771"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572534"
 ---
 # <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>Module Vérifier les conférences rendez-vous dans Lync Server 2013
 
