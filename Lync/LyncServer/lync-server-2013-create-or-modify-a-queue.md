@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : création ou modification d’une file d’attente'
+description: 'Lync Server 2013 : création ou modification d’une file d’attente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4c85dd6da5ba15a6ce946c4e331e09c8617974
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cbd8d6d00df8d6a09ef5861d876bd1363db09e3d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525821"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574530"
 ---
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a><span data-ttu-id="6e605-102">Création ou modification d’une file d’attente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e605-102">Create or modify a queue in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a><span data-ttu-id="86052-103">Création ou modification d’une file d’attente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86052-103">Create or modify a queue in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,120 +38,120 @@ ms.locfileid: "48525821"
 
 <span> </span>
 
-<span data-ttu-id="6e605-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="6e605-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="86052-104">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="86052-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="6e605-104">Utilisez l’une des procédures suivantes pour créer ou modifier une file d’attente.</span><span class="sxs-lookup"><span data-stu-id="6e605-104">Use one of the following procedures to create or modify a queue.</span></span>
+<span data-ttu-id="86052-105">Utilisez l’une des procédures suivantes pour créer ou modifier une file d’attente.</span><span class="sxs-lookup"><span data-stu-id="86052-105">Use one of the following procedures to create or modify a queue.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a><span data-ttu-id="6e605-105">Pour créer ou modifier une file d’attente à l’aide du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="6e605-105">To use Lync Server Control Panel to create or modify a queue</span></span>
+## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a><span data-ttu-id="86052-106">Pour créer ou modifier une file d’attente à l’aide du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="86052-106">To use Lync Server Control Panel to create or modify a queue</span></span>
 
-1.  <span data-ttu-id="6e605-106">Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.</span><span class="sxs-lookup"><span data-stu-id="6e605-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="86052-107">Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.</span><span class="sxs-lookup"><span data-stu-id="86052-107">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-107">Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des files d’attente de groupes Response Group et les affecter aux flux de travail que vous gérez.</span><span class="sxs-lookup"><span data-stu-id="6e605-107">If you are one of the delegated Response Group Managers for a managed workflow, you can create or modify response group queues and assign them to the workflows that you manage.</span></span>
+    > <span data-ttu-id="86052-108">Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des files d’attente de groupes Response Group et les affecter aux flux de travail que vous gérez.</span><span class="sxs-lookup"><span data-stu-id="86052-108">If you are one of the delegated Response Group Managers for a managed workflow, you can create or modify response group queues and assign them to the workflows that you manage.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="6e605-108">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6e605-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6e605-109">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="6e605-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="86052-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="86052-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="86052-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="86052-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="6e605-110">Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **File d’attente**.</span><span class="sxs-lookup"><span data-stu-id="6e605-110">In the left navigation bar, click **Response Groups**, and then click **Queue**.</span></span>
+3.  <span data-ttu-id="86052-111">Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **File d’attente**.</span><span class="sxs-lookup"><span data-stu-id="86052-111">In the left navigation bar, click **Response Groups**, and then click **Queue**.</span></span>
 
-4.  <span data-ttu-id="6e605-111">Dans la page **File d’attente**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="6e605-111">On the **Queue** page, do one of the following:</span></span>
+4.  <span data-ttu-id="86052-112">Dans la page **File d’attente**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="86052-112">On the **Queue** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="6e605-112">Pour créer une file d’attente, cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="6e605-112">To create a new queue, click **New**.</span></span> <span data-ttu-id="6e605-113">Dans **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** où vous voulez ajouter la file d’attente dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="6e605-113">In **Select a Service**, type part or all of the name of the **ApplicationServer** service where you want to add the queue in the search field.</span></span> <span data-ttu-id="6e605-114">Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="6e605-114">In the resulting list of services, click the service that you want, and then click **OK**.</span></span>
+      - <span data-ttu-id="86052-113">Pour créer une file d’attente, cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="86052-113">To create a new queue, click **New**.</span></span> <span data-ttu-id="86052-114">Dans **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** où vous voulez ajouter la file d’attente dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="86052-114">In **Select a Service**, type part or all of the name of the **ApplicationServer** service where you want to add the queue in the search field.</span></span> <span data-ttu-id="86052-115">Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="86052-115">In the resulting list of services, click the service that you want, and then click **OK**.</span></span>
     
-      - <span data-ttu-id="6e605-p103">Pour modifier une file d’attente existante, tapez entièrement ou partiellement le nom de la file d’attente dans le champ de recherche. Dans la liste des files d’attente obtenue, cliquez sur la file d’attente souhaitée, sur **Modifier**, puis sur click **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="6e605-p103">To modify an existing queue, type all or part of the queue name in the search field. In the resulting list of queues, click the queue that you want, click **Edit**, and then click **Show details**.</span></span>
+      - <span data-ttu-id="86052-p103">Pour modifier une file d’attente existante, tapez entièrement ou partiellement le nom de la file d’attente dans le champ de recherche. Dans la liste des files d’attente obtenue, cliquez sur la file d’attente souhaitée, sur **Modifier**, puis sur click **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="86052-p103">To modify an existing queue, type all or part of the queue name in the search field. In the resulting list of queues, click the queue that you want, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="6e605-117">Dans **Nom**, tapez un nom d’identification pour la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="6e605-117">In **Name**, type an identifying name for the queue.</span></span>
+5.  <span data-ttu-id="86052-118">Dans **Nom**, tapez un nom d’identification pour la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="86052-118">In **Name**, type an identifying name for the queue.</span></span>
 
-6.  <span data-ttu-id="6e605-118">Dans **Description**, tapez une description pour la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="6e605-118">In **Description**, type a description for the queue.</span></span>
+6.  <span data-ttu-id="86052-119">Dans **Description**, tapez une description pour la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="86052-119">In **Description**, type a description for the queue.</span></span>
 
-7.  <span data-ttu-id="6e605-p104">Dans **Groupes**, spécifiez les groupes que vous voulez affecter à la file d’attente. Effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="6e605-p104">In **Groups**, specify the groups you want to assign to the queue. Do one of the following:</span></span>
+7.  <span data-ttu-id="86052-p104">Dans **Groupes**, spécifiez les groupes que vous voulez affecter à la file d’attente. Effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="86052-p104">In **Groups**, specify the groups you want to assign to the queue. Do one of the following:</span></span>
     
-      - <span data-ttu-id="6e605-p105">Pour ajouter un groupe à la fille d’attente, cliquez sur **Sélectionner**. Dans le champ de recherche **Sélectionner des groupes**, tapez entièrement ou partiellement le nom du groupe d’agents que vous voulez affecter à la file d’attente, cliquez sur le groupe d’agents souhaité, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="6e605-p105">To add a group to the queue, click **Select**. In the **Select Groups** search field, type all or part of the name of the agent group that you want to assign to the queue, click the agent group that you want, and then click **OK**.</span></span>
+      - <span data-ttu-id="86052-p105">Pour ajouter un groupe à la fille d’attente, cliquez sur **Sélectionner**. Dans le champ de recherche **Sélectionner des groupes**, tapez entièrement ou partiellement le nom du groupe d’agents que vous voulez affecter à la file d’attente, cliquez sur le groupe d’agents souhaité, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="86052-p105">To add a group to the queue, click **Select**. In the **Select Groups** search field, type all or part of the name of the agent group that you want to assign to the queue, click the agent group that you want, and then click **OK**.</span></span>
     
-      - <span data-ttu-id="6e605-123">Pour supprimer un groupe de la file d’attente, dans la zone des groupes d’agents, cliquez sur le groupe que vous voulez supprimer, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="6e605-123">To remove a group from the queue, in the list of agent groups, click the group that you want to remove, and then click **Remove**.</span></span>
+      - <span data-ttu-id="86052-124">Pour supprimer un groupe de la file d’attente, dans la zone des groupes d’agents, cliquez sur le groupe que vous voulez supprimer, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="86052-124">To remove a group from the queue, in the list of agent groups, click the group that you want to remove, and then click **Remove**.</span></span>
     
-      - <span data-ttu-id="6e605-124">Pour modifier l’ordre de recherche des agents, cliquez sur un groupe dans la liste des groupes d’agents, puis sur la flèche vers le haut ou vers le bas.</span><span class="sxs-lookup"><span data-stu-id="6e605-124">To change the order in which agents are searched, in the list of agent groups, click a group, and then click the up arrow or down arrow.</span></span>
+      - <span data-ttu-id="86052-125">Pour modifier l’ordre de recherche des agents, cliquez sur un groupe dans la liste des groupes d’agents, puis sur la flèche vers le haut ou vers le bas.</span><span class="sxs-lookup"><span data-stu-id="86052-125">To change the order in which agents are searched, in the list of agent groups, click a group, and then click the up arrow or down arrow.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="6e605-p106">Lorsque le serveur recherche un agent disponible pour la file d’attente, il suit l’ordre des groupes. Autrement dit, la recherche s’effectue d’abord dans le premier groupe de la liste, puis dans le deuxième, et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="6e605-p106">When the server searches for an available agent for the queue, it uses group order. That is, the first group in the list is searched first, followed by the second group in the list, and so on.</span></span>
+        > <span data-ttu-id="86052-p106">Lorsque le serveur recherche un agent disponible pour la file d’attente, il suit l’ordre des groupes. Autrement dit, la recherche s’effectue d’abord dans le premier groupe de la liste, puis dans le deuxième, et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="86052-p106">When the server searches for an available agent for the queue, it uses group order. That is, the first group in the list is searched first, followed by the second group in the list, and so on.</span></span>
 
         
         </div>
 
-8.  <span data-ttu-id="6e605-127">Pour spécifier une durée maximale pendant laquelle un appelant peut être mis en attente avant qu’un agent prenne l’appel, activez la case à cocher **Activer le délai d’expiration de la file d’attente**, puis procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="6e605-127">To specify a maximum period of time for a caller to wait on hold before an agent answers the call, select the **Enable queue time-out** check box, and then do the following:</span></span>
+8.  <span data-ttu-id="86052-128">Pour spécifier une durée maximale pendant laquelle un appelant peut être mis en attente avant qu’un agent prenne l’appel, activez la case à cocher **Activer le délai d’expiration de la file d’attente**, puis procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="86052-128">To specify a maximum period of time for a caller to wait on hold before an agent answers the call, select the **Enable queue time-out** check box, and then do the following:</span></span>
     
-    1.  <span data-ttu-id="6e605-128">Dans **Délai d’expiration (secondes)**, spécifiez la durée maximale en secondes pendant laquelle un appelant peut attendre qu’un agent prenne l’appel.</span><span class="sxs-lookup"><span data-stu-id="6e605-128">In **Time-out period (seconds)**, specify the maximum number of seconds a caller waits for an agent to answer the call.</span></span>
+    1.  <span data-ttu-id="86052-129">Dans **Délai d’expiration (secondes)**, spécifiez la durée maximale en secondes pendant laquelle un appelant peut attendre qu’un agent prenne l’appel.</span><span class="sxs-lookup"><span data-stu-id="86052-129">In **Time-out period (seconds)**, specify the maximum number of seconds a caller waits for an agent to answer the call.</span></span>
     
-    2.  <span data-ttu-id="6e605-129">Dans **Action d’appel**, sélectionnez l’action effectuée lorsqu’un appel arrive à expiration, comme suit :</span><span class="sxs-lookup"><span data-stu-id="6e605-129">In **Call Action**, select the action that occurs when a call times out as follows:</span></span>
-    
-    <!-- end list -->
-    
-      - <span data-ttu-id="6e605-130">Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.</span><span class="sxs-lookup"><span data-stu-id="6e605-130">To disconnect the call after the timeout, click **Disconnect**.</span></span>
-    
-      - <span data-ttu-id="6e605-131">Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : \<username\> @ \<domainname\> (par exemple, SIP :Bob@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6e605-131">To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip:\<username\>@\<domainname\> (for example, sip:bob@contoso.com).</span></span>
-    
-      - <span data-ttu-id="6e605-132">Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au format SIP : \<number\> @ \<domainname\> (par exemple, SIP :+14255550121@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6e605-132">To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip:\<number\>@\<domainname\> (for example, sip:+14255550121@contoso.com).</span></span>
-    
-      - <span data-ttu-id="6e605-133">Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP : \<username\> @ \<domainname\> .</span><span class="sxs-lookup"><span data-stu-id="6e605-133">To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip:\<username\>@\<domainname\>.</span></span>
-    
-      - <span data-ttu-id="6e605-134">Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.</span><span class="sxs-lookup"><span data-stu-id="6e605-134">To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.</span></span>
-
-9.  <span data-ttu-id="6e605-135">Pour spécifier un nombre maximal d’appels pouvant être stockés dans la file d’attente, activez la case à cocher **Activer le débordement de la file d’attente**, puis procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="6e605-135">To specify a maximum number of calls that the queue can hold, select the **Enable queue overflow** check box, and then do the following:</span></span>
-    
-    1.  <span data-ttu-id="6e605-136">Dans **Nombre maximal d’appels** sélectionnez le nombre maximal d’appels que la file d’attente doit contenir.</span><span class="sxs-lookup"><span data-stu-id="6e605-136">In **Maximum number of calls**, select the maximum number of calls that you want the queue to hold.</span></span>
-    
-    2.  <span data-ttu-id="6e605-137">Dans **Transférer l’appel**, sélectionnez l’appel à transférer lorsque la file d’attente est pleine : **Appel le plus récent** ou **Appel le plus ancien**.</span><span class="sxs-lookup"><span data-stu-id="6e605-137">In **Forward the call**, select which call is to be forwarded when the queue is full: **Newest Call** or **Oldest Call**.</span></span>
-    
-    3.  <span data-ttu-id="6e605-138">Dans **Action d’appel**, sélectionnez l’action à effectuer lorsque le seuil de saturation est atteint :</span><span class="sxs-lookup"><span data-stu-id="6e605-138">In **Call action**, select the action that occurs when the overflow threshold is met as follows:</span></span>
+    2.  <span data-ttu-id="86052-130">Dans **Action d’appel**, sélectionnez l’action effectuée lorsqu’un appel arrive à expiration, comme suit :</span><span class="sxs-lookup"><span data-stu-id="86052-130">In **Call Action**, select the action that occurs when a call times out as follows:</span></span>
     
     <!-- end list -->
     
-      - <span data-ttu-id="6e605-139">Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.</span><span class="sxs-lookup"><span data-stu-id="6e605-139">To disconnect the call after the timeout, click **Disconnect**.</span></span>
+      - <span data-ttu-id="86052-131">Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.</span><span class="sxs-lookup"><span data-stu-id="86052-131">To disconnect the call after the timeout, click **Disconnect**.</span></span>
     
-      - <span data-ttu-id="6e605-140">Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : \<username\> @ \<domainname\> (par exemple, SIP :Bob@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6e605-140">To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip:\<username\>@\<domainname\> (for example, sip:bob@contoso.com).</span></span>
+      - <span data-ttu-id="86052-132">Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : \<username\> @ \<domainname\> (par exemple, SIP :Bob@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="86052-132">To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip:\<username\>@\<domainname\> (for example, sip:bob@contoso.com).</span></span>
     
-      - <span data-ttu-id="6e605-141">Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au format SIP : \<number\> @ \<domainname\> (par exemple, SIP :+14255550121@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6e605-141">To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip:\<number\>@\<domainname\> (for example, sip:+14255550121@contoso.com).</span></span>
+      - <span data-ttu-id="86052-133">Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au format SIP : \<number\> @ \<domainname\> (par exemple, SIP :+14255550121@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="86052-133">To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip:\<number\>@\<domainname\> (for example, sip:+14255550121@contoso.com).</span></span>
     
-      - <span data-ttu-id="6e605-142">Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP : \<username\> @ \<domainname\> .</span><span class="sxs-lookup"><span data-stu-id="6e605-142">To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip:\<username\>@\<domainname\>.</span></span>
+      - <span data-ttu-id="86052-134">Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP : \<username\> @ \<domainname\> .</span><span class="sxs-lookup"><span data-stu-id="86052-134">To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip:\<username\>@\<domainname\>.</span></span>
     
-      - <span data-ttu-id="6e605-143">Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.</span><span class="sxs-lookup"><span data-stu-id="6e605-143">To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.</span></span>
+      - <span data-ttu-id="86052-135">Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.</span><span class="sxs-lookup"><span data-stu-id="86052-135">To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.</span></span>
 
-10. <span data-ttu-id="6e605-144">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="6e605-144">Click **Commit**.</span></span>
+9.  <span data-ttu-id="86052-136">Pour spécifier un nombre maximal d’appels pouvant être stockés dans la file d’attente, activez la case à cocher **Activer le débordement de la file d’attente**, puis procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="86052-136">To specify a maximum number of calls that the queue can hold, select the **Enable queue overflow** check box, and then do the following:</span></span>
+    
+    1.  <span data-ttu-id="86052-137">Dans **Nombre maximal d’appels** sélectionnez le nombre maximal d’appels que la file d’attente doit contenir.</span><span class="sxs-lookup"><span data-stu-id="86052-137">In **Maximum number of calls**, select the maximum number of calls that you want the queue to hold.</span></span>
+    
+    2.  <span data-ttu-id="86052-138">Dans **Transférer l’appel**, sélectionnez l’appel à transférer lorsque la file d’attente est pleine : **Appel le plus récent** ou **Appel le plus ancien**.</span><span class="sxs-lookup"><span data-stu-id="86052-138">In **Forward the call**, select which call is to be forwarded when the queue is full: **Newest Call** or **Oldest Call**.</span></span>
+    
+    3.  <span data-ttu-id="86052-139">Dans **Action d’appel**, sélectionnez l’action à effectuer lorsque le seuil de saturation est atteint :</span><span class="sxs-lookup"><span data-stu-id="86052-139">In **Call action**, select the action that occurs when the overflow threshold is met as follows:</span></span>
+    
+    <!-- end list -->
+    
+      - <span data-ttu-id="86052-140">Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.</span><span class="sxs-lookup"><span data-stu-id="86052-140">To disconnect the call after the timeout, click **Disconnect**.</span></span>
+    
+      - <span data-ttu-id="86052-141">Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : \<username\> @ \<domainname\> (par exemple, SIP :Bob@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="86052-141">To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip:\<username\>@\<domainname\> (for example, sip:bob@contoso.com).</span></span>
+    
+      - <span data-ttu-id="86052-142">Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au format SIP : \<number\> @ \<domainname\> (par exemple, SIP :+14255550121@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="86052-142">To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip:\<number\>@\<domainname\> (for example, sip:+14255550121@contoso.com).</span></span>
+    
+      - <span data-ttu-id="86052-143">Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP : \<username\> @ \<domainname\> .</span><span class="sxs-lookup"><span data-stu-id="86052-143">To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip:\<username\>@\<domainname\>.</span></span>
+    
+      - <span data-ttu-id="86052-144">Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.</span><span class="sxs-lookup"><span data-stu-id="86052-144">To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.</span></span>
+
+10. <span data-ttu-id="86052-145">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="86052-145">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a><span data-ttu-id="6e605-145">Pour utiliser Windows PowerShell pour créer ou modifier une file d’attente</span><span class="sxs-lookup"><span data-stu-id="6e605-145">To use Windows PowerShell to create or modify a queue</span></span>
+## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a><span data-ttu-id="86052-146">Pour utiliser Windows PowerShell pour créer ou modifier une file d’attente</span><span class="sxs-lookup"><span data-stu-id="86052-146">To use Windows PowerShell to create or modify a queue</span></span>
 
-1.  <span data-ttu-id="6e605-146">Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.</span><span class="sxs-lookup"><span data-stu-id="6e605-146">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="86052-147">Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.</span><span class="sxs-lookup"><span data-stu-id="86052-147">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-147">Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente.</span><span class="sxs-lookup"><span data-stu-id="6e605-147">If you are one of the delegated Response Group Managers for a managed workflow, you will be able to create agent groups and queues, and assign agent groups to queues.</span></span>
+    > <span data-ttu-id="86052-148">Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente.</span><span class="sxs-lookup"><span data-stu-id="86052-148">If you are one of the delegated Response Group Managers for a managed workflow, you will be able to create agent groups and queues, and assign agent groups to queues.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="6e605-148">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="6e605-148">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="86052-149">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="86052-149">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="6e605-p107">Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-p107">Create the prompt to be played when the queue timeout threshold is met, and save it in a variable. At the command line, run:</span></span>
+3.  <span data-ttu-id="86052-p107">Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-p107">Create the prompt to be played when the queue timeout threshold is met, and save it in a variable. At the command line, run:</span></span>
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    <span data-ttu-id="6e605-151">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="6e605-151">For example:</span></span>
+    <span data-ttu-id="86052-152">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="86052-152">For example:</span></span>
     
         "All agents are currently busy. Please call back later."
     
@@ -158,12 +159,12 @@ ms.locfileid: "48525821"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-152">Pour utiliser un fichier audio pour le message, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6e605-152">To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet.</span></span> <span data-ttu-id="6e605-153">Pour plus d’informations, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span><span class="sxs-lookup"><span data-stu-id="6e605-153">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span></span>
+    > <span data-ttu-id="86052-153">Pour utiliser un fichier audio pour le message, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="86052-153">To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet.</span></span> <span data-ttu-id="86052-154">Pour plus d’informations, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span><span class="sxs-lookup"><span data-stu-id="86052-154">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="6e605-p109">Définissez l’action à exécuter lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-p109">Define the action to be taken when the queue timeout threshold is met, and save it in a variable. At the command line, run:</span></span>
+4.  <span data-ttu-id="86052-p109">Définissez l’action à exécuter lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-p109">Define the action to be taken when the queue timeout threshold is met, and save it in a variable. At the command line, run:</span></span>
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
@@ -171,20 +172,20 @@ ms.locfileid: "48525821"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-156">Pour plus d’informations sur les actions possibles et leur syntaxe, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span><span class="sxs-lookup"><span data-stu-id="6e605-156">For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span></span>
+    > <span data-ttu-id="86052-157">Pour plus d’informations sur les actions possibles et leur syntaxe, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span><span class="sxs-lookup"><span data-stu-id="86052-157">For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="6e605-157">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="6e605-157">For example:</span></span>
+    <span data-ttu-id="86052-158">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="86052-158">For example:</span></span>
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
-5.  <span data-ttu-id="6e605-p110">Créez le message à lire lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-p110">Create the prompt to be played when the queue overflow threshold is met, and save it in a variable. At the command line, run:</span></span>
+5.  <span data-ttu-id="86052-p110">Créez le message à lire lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-p110">Create the prompt to be played when the queue overflow threshold is met, and save it in a variable. At the command line, run:</span></span>
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    <span data-ttu-id="6e605-160">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="6e605-160">For example:</span></span>
+    <span data-ttu-id="86052-161">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="86052-161">For example:</span></span>
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
@@ -192,12 +193,12 @@ ms.locfileid: "48525821"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-161">Pour utiliser un fichier audio pour le message, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6e605-161">To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet.</span></span> <span data-ttu-id="6e605-162">Pour plus d’informations, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span><span class="sxs-lookup"><span data-stu-id="6e605-162">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span></span>
+    > <span data-ttu-id="86052-162">Pour utiliser un fichier audio pour le message, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="86052-162">To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet.</span></span> <span data-ttu-id="86052-163">Pour plus d’informations, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span><span class="sxs-lookup"><span data-stu-id="86052-163">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="6e605-p112">Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-p112">Define the action to be taken when the queue overflow threshold is met, and save it in a variable. At the command line, run:</span></span>
+6.  <span data-ttu-id="86052-p112">Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-p112">Define the action to be taken when the queue overflow threshold is met, and save it in a variable. At the command line, run:</span></span>
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
@@ -205,20 +206,20 @@ ms.locfileid: "48525821"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-165">Pour plus d’informations sur les actions possibles et leur syntaxe, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span><span class="sxs-lookup"><span data-stu-id="6e605-165">For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span></span>
+    > <span data-ttu-id="86052-166">Pour plus d’informations sur les actions possibles et leur syntaxe, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span><span class="sxs-lookup"><span data-stu-id="86052-166">For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="6e605-166">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="6e605-166">For example:</span></span>
+    <span data-ttu-id="86052-167">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="86052-167">For example:</span></span>
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  <span data-ttu-id="6e605-167">Récupérez le nom du service Response Group et affectez-le à une variable.</span><span class="sxs-lookup"><span data-stu-id="6e605-167">Retrieve the service name for the Response Group service and assign it to a variable.</span></span> <span data-ttu-id="6e605-168">À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-168">At the command line, run:</span></span>
+7.  <span data-ttu-id="86052-168">Récupérez le nom du service Response Group et affectez-le à une variable.</span><span class="sxs-lookup"><span data-stu-id="86052-168">Retrieve the service name for the Response Group service and assign it to a variable.</span></span> <span data-ttu-id="86052-169">À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-169">At the command line, run:</span></span>
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
-8.  <span data-ttu-id="6e605-169">Obtenez l’identité du groupe d’agents à affecter à la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="6e605-169">Get the identity of the agent group to be assigned to the queue.</span></span> <span data-ttu-id="6e605-170">À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-170">At the command line, run:</span></span>
+8.  <span data-ttu-id="86052-170">Obtenez l’identité du groupe d’agents à affecter à la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="86052-170">Get the identity of the agent group to be assigned to the queue.</span></span> <span data-ttu-id="86052-171">À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-171">At the command line, run:</span></span>
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
@@ -226,20 +227,20 @@ ms.locfileid: "48525821"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6e605-171">Pour plus d’informations sur la création du groupe d’agents, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A></span><span class="sxs-lookup"><span data-stu-id="6e605-171">For details about creating the agent group, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A></span></span>
+    > <span data-ttu-id="86052-172">Pour plus d’informations sur la création du groupe d’agents, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A></span><span class="sxs-lookup"><span data-stu-id="86052-172">For details about creating the agent group, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A></span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="6e605-p115">Créez la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-p115">Create the queue. At the command line, run:</span></span>
+9.  <span data-ttu-id="86052-p115">Créez la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-p115">Create the queue. At the command line, run:</span></span>
     
         $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
     
-    <span data-ttu-id="6e605-174">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="6e605-174">For example:</span></span>
+    <span data-ttu-id="86052-175">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="86052-175">For example:</span></span>
     
         $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
 
-10. <span data-ttu-id="6e605-p116">Vérifiez que la file d’attente est créée. Exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6e605-p116">Confirm that the queue is created. Run:</span></span>
+10. <span data-ttu-id="86052-p116">Vérifiez que la file d’attente est créée. Exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="86052-p116">Confirm that the queue is created. Run:</span></span>
     
         Get-CsRgsQueue -Name "Help Desk"
 
@@ -247,16 +248,16 @@ ms.locfileid: "48525821"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6e605-177">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6e605-177">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="86052-178">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="86052-178">See Also</span></span>
 
 
-[<span data-ttu-id="6e605-178">New-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="6e605-178">New-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
-[<span data-ttu-id="6e605-179">Set-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="6e605-179">Set-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
-[<span data-ttu-id="6e605-180">New-CsRgsPrompt</span><span class="sxs-lookup"><span data-stu-id="6e605-180">New-CsRgsPrompt</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[<span data-ttu-id="6e605-181">New-CsRgsCallAction</span><span class="sxs-lookup"><span data-stu-id="6e605-181">New-CsRgsCallAction</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
-[<span data-ttu-id="6e605-182">Get-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="6e605-182">Get-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
-[<span data-ttu-id="6e605-183">Import-CsRgsAudioFile</span><span class="sxs-lookup"><span data-stu-id="6e605-183">Import-CsRgsAudioFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
-[<span data-ttu-id="6e605-184">Remove-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="6e605-184">Remove-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
+[<span data-ttu-id="86052-179">New-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="86052-179">New-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
+[<span data-ttu-id="86052-180">Set-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="86052-180">Set-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
+[<span data-ttu-id="86052-181">New-CsRgsPrompt</span><span class="sxs-lookup"><span data-stu-id="86052-181">New-CsRgsPrompt</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
+[<span data-ttu-id="86052-182">New-CsRgsCallAction</span><span class="sxs-lookup"><span data-stu-id="86052-182">New-CsRgsCallAction</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[<span data-ttu-id="86052-183">Get-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="86052-183">Get-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[<span data-ttu-id="86052-184">Import-CsRgsAudioFile</span><span class="sxs-lookup"><span data-stu-id="86052-184">Import-CsRgsAudioFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[<span data-ttu-id="86052-185">Remove-CsRgsQueue</span><span class="sxs-lookup"><span data-stu-id="86052-185">Remove-CsRgsQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
   
 
 </div>
