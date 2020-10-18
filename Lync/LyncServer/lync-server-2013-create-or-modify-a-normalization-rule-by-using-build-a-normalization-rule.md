@@ -1,5 +1,6 @@
 ---
 title: Création ou modification d’une règle de normalisation à l’aide de la création d’une règle de normalisation
+description: Créez ou modifiez une règle de normalisation à l’aide de créer une règle de normalisation.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299d4c6d5b8a8cd53cee9fdae0a38769a535b118
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 824936359c070090ad4225a3ead6e8e46fe14785
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508841"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574600"
 ---
 # <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Création ou modification d’une règle de normalisation à l’aide de la création d’une règle de normalisation dans Lync Server 2013
 

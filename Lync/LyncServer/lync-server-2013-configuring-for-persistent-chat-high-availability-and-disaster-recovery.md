@@ -1,5 +1,6 @@
 ---
 title: Configuration de la haute disponibilité et de la récupération d’urgence pour la conversation permanente
+description: Configuration de la haute disponibilité et de la récupération d’urgence pour la conversation permanente.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c3dc204a128d42c010baa3732d8eebf2081c1ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4075f86c0cb7f27ea23d4e416a38d4ccd05b3e3a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517521"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575940"
 ---
 # <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Configuration de la haute disponibilité et de la récupération d’urgence de conversation permanente dans Lync Server 2013
 

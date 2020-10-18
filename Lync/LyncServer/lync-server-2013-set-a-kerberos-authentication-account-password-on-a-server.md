@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : définition d’un mot de passe de compte d’authentification Kerberos sur un serveur'
+description: 'Lync Server 2013 : définissez un mot de passe de compte d’authentification Kerberos sur un serveur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20229f7bbc600b6a54bf28b13b9d5c14e8cbeb28
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 723392e670ca0b4bc9796cd62dab3b1a61f99dd1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510041"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574840"
 ---
 # <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Définir un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : gestion de voix entreprise pour les utilisateurs'
+description: 'Lync Server 2013 : gestion de voix entreprise pour les utilisateurs.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37ae4d72e3a8d7f17fe42cba207e98750cf91c2f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8805581c34483ef4baf5d74477fd585fbc64e632
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505771"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574940"
 ---
 # <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>Gestion de voix entreprise pour les utilisateurs dans Lync Server 2013
 
