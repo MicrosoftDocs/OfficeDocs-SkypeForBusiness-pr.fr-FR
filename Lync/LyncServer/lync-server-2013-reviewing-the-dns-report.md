@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : révision du rapport DNS'
+description: 'Lync Server 2013 : révision du rapport DNS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fde1f704fe42a0f0514be6b5763b0f2b874cba4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 208a8c2087bbd139416d80835a812494e3335617
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511311"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578450"
 ---
 # <a name="reviewing-the-dns-report-in-lync-server-2013"></a>Examen du rapport DNS dans Lync Server 2013
 

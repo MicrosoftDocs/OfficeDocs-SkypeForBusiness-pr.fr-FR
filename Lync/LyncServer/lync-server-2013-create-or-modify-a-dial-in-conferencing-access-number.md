@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : création ou modification d’un numéro d’accès à une conférence rendez-vous'
+description: 'Lync Server 2013 : création ou modification d’un numéro d’accès à une conférence rendez-vous.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a19766eb4abf5a386155e5494accb1edd17afb14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 187361ab839fe2f80fda7cb68285c8f36398f5a1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516881"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577960"
 ---
 # <a name="create-or-modify-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>Création ou modification d’un numéro d’accès à une conférence rendez-vous dans Lync Server 2013
 

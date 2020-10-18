@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : table FocusJoinsAndLeaves'
+description: 'Lync Server 2013 : table FocusJoinsAndLeaves.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f7691a008dae1fc822b6632a60f5324bb4e80fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5796de16ed204ce4f33935d937cbaa425d63a67f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500831"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577440"
 ---
 # <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Table FocusJoinsAndLeaves dans Lync Server 2013
 

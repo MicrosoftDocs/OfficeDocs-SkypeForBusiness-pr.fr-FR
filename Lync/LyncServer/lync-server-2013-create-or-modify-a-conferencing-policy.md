@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : création ou modification d’une stratégie de conférence'
+description: 'Lync Server 2013 : création ou modification d’une stratégie de conférence.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc01c8bed503f06806c873431ef201e03c31811
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: af8715dcde033c4181069f3e30f65b3c29231f51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516891"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577980"
 ---
 # <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>Création ou modification d’une stratégie de conférence dans Lync Server 2013
 

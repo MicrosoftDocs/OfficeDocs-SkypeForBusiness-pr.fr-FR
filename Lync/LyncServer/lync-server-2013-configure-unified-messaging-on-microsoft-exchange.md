@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : configuration de la messagerie unifiée sur Microsoft Exchange'
+description: 'Lync Server 2013 : configurez la messagerie unifiée sur Microsoft Exchange.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8db43bbe50061a1a044bdd34b637ba86f626ca85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520221"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577520"
 ---
 # <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Configuration de la messagerie unifiée sur Microsoft Exchange pour Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
+description: 'Forum aux questions : approvisionnement de Lync Server pour la connectivité Skype.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1bd9e9089f4b17f8b439bf11be05bfb6ce7c6d9c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500811"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577420"
 ---
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Forum aux questions : approvisionnement de Lync Server 2013 pour la connectivité Skype
 
