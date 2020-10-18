@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : stratégies de version du client'
+description: 'Lync Server 2013 : stratégies de version du client.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 50675351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca6c0341267183fca660535708a6ebea6e243867
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc853e6580bdd2aad4a4c2f493bb8618f7fa3b23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517801"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574670"
 ---
-# <a name="client-version-policies-in-lync-server-2013"></a><span data-ttu-id="874da-102">Stratégies de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="874da-102">Client version policies in Lync Server 2013</span></span>
+# <a name="client-version-policies-in-lync-server-2013"></a><span data-ttu-id="95a19-103">Stratégies de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95a19-103">Client version policies in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48517801"
 
 <span> </span>
 
-<span data-ttu-id="874da-103">_**Dernière modification de la rubrique :** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="874da-103">_**Topic Last Modified:** 2012-12-11_</span></span>
+<span data-ttu-id="95a19-104">_**Dernière modification de la rubrique :** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="95a19-104">_**Topic Last Modified:** 2012-12-11_</span></span>
 
-<span data-ttu-id="874da-104">Les stratégies de version du client sont utilisées pour appliquer un ensemble de règles de contrôle de version du client au niveau global ou à un site, un pool ou un groupe d’utilisateurs particulier.</span><span class="sxs-lookup"><span data-stu-id="874da-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="874da-105">Utilisez les procédures suivantes pour configurer les stratégies de version du client pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="874da-105">Use the following procedures to configure client version policies for Lync Server 2013.</span></span>
+<span data-ttu-id="95a19-105">Les stratégies de version du client sont utilisées pour appliquer un ensemble de règles de contrôle de version du client au niveau global ou à un site, un pool ou un groupe d’utilisateurs particulier.</span><span class="sxs-lookup"><span data-stu-id="95a19-105">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="95a19-106">Utilisez les procédures suivantes pour configurer les stratégies de version du client pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="95a19-106">Use the following procedures to configure client version policies for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="874da-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="874da-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="95a19-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="95a19-107">In This Section</span></span>
 
-  - [<span data-ttu-id="874da-107">Afficher les stratégies de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="874da-107">View client version policies in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policies.md)
+  - [<span data-ttu-id="95a19-108">Afficher les stratégies de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95a19-108">View client version policies in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policies.md)
 
-  - [<span data-ttu-id="874da-108">Création ou modification d’une nouvelle stratégie de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="874da-108">Create or modify a new client version policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy.md)
+  - [<span data-ttu-id="95a19-109">Création ou modification d’une nouvelle stratégie de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95a19-109">Create or modify a new client version policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy.md)
 
-  - [<span data-ttu-id="874da-109">Supprimer une stratégie de version de client existante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="874da-109">Delete an existing client version policy in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy.md)
+  - [<span data-ttu-id="95a19-110">Supprimer une stratégie de version de client existante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95a19-110">Delete an existing client version policy in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy.md)
 
 </div>
 

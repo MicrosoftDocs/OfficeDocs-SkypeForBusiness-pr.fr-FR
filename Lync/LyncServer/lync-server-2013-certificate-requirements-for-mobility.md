@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : exigences en matière de certificats pour la mobilité'
+description: 'Lync Server 2013 : exigences en matière de certificats pour la mobilité.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87657340205722a721485f213029220641885075
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 51af74b3efc1ffcb4fe38d7431e315f9b55af943
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533391"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575200"
 ---
-# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a><span data-ttu-id="ef1a1-102">Exigences relatives aux certificats pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef1a1-102">Certificate requirements for mobility in Lync Server 2013</span></span>
+# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a><span data-ttu-id="7dd02-103">Exigences relatives aux certificats pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dd02-103">Certificate requirements for mobility in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48533391"
 
 <span> </span>
 
-<span data-ttu-id="ef1a1-103">_**Dernière modification de la rubrique :** 2012-06-24_</span><span class="sxs-lookup"><span data-stu-id="ef1a1-103">_**Topic Last Modified:** 2012-06-24_</span></span>
+<span data-ttu-id="7dd02-104">_**Dernière modification de la rubrique :** 2012-06-24_</span><span class="sxs-lookup"><span data-stu-id="7dd02-104">_**Topic Last Modified:** 2012-06-24_</span></span>
 
-<span data-ttu-id="ef1a1-104">Si vous déployez la fonctionnalité de mobilité et prenez en charge la découverte automatique pour les clients mobiles, vous devez inclure certaines entrée d’autres noms de sujet sur les certificats de manière prendre en charge les connexions sécurisées établies à partir de clients mobiles.</span><span class="sxs-lookup"><span data-stu-id="ef1a1-104">If you deploy the mobility feature and support automatic discovery for mobile clients, you need to include certain subject alternative name entries on certificates to support secure connections from the mobile clients.</span></span>
+<span data-ttu-id="7dd02-105">Si vous déployez la fonctionnalité de mobilité et prenez en charge la découverte automatique pour les clients mobiles, vous devez inclure certaines entrée d’autres noms de sujet sur les certificats de manière prendre en charge les connexions sécurisées établies à partir de clients mobiles.</span><span class="sxs-lookup"><span data-stu-id="7dd02-105">If you deploy the mobility feature and support automatic discovery for mobile clients, you need to include certain subject alternative name entries on certificates to support secure connections from the mobile clients.</span></span>
 
-<span data-ttu-id="ef1a1-105">Vous devez inclure des entrées d’autres noms de sujet pour la découverte automatique sur les certificats suivants :</span><span class="sxs-lookup"><span data-stu-id="ef1a1-105">You need to include subject alternative name entries for automatic discovery on the following certificates:</span></span>
+<span data-ttu-id="7dd02-106">Vous devez inclure des entrées d’autres noms de sujet pour la découverte automatique sur les certificats suivants :</span><span class="sxs-lookup"><span data-stu-id="7dd02-106">You need to include subject alternative name entries for automatic discovery on the following certificates:</span></span>
 
-  - <span data-ttu-id="ef1a1-106">pool directeur</span><span class="sxs-lookup"><span data-stu-id="ef1a1-106">Director pool</span></span>
+  - <span data-ttu-id="7dd02-107">pool directeur</span><span class="sxs-lookup"><span data-stu-id="7dd02-107">Director pool</span></span>
 
-  - <span data-ttu-id="ef1a1-107">pool frontal</span><span class="sxs-lookup"><span data-stu-id="ef1a1-107">Front End pool</span></span>
+  - <span data-ttu-id="7dd02-108">pool frontal</span><span class="sxs-lookup"><span data-stu-id="7dd02-108">Front End pool</span></span>
 
-  - <span data-ttu-id="ef1a1-108">Proxy inverse</span><span class="sxs-lookup"><span data-stu-id="ef1a1-108">Reverse proxy</span></span>
+  - <span data-ttu-id="7dd02-109">Proxy inverse</span><span class="sxs-lookup"><span data-stu-id="7dd02-109">Reverse proxy</span></span>
 
-<span data-ttu-id="ef1a1-109">Cette section décrit les entrées d’autres noms de sujet requises sur vos certificats pour la découverte automatique.</span><span class="sxs-lookup"><span data-stu-id="ef1a1-109">This section describes the subject alternative name entries that are required on your certificates for automatic discovery.</span></span>
+<span data-ttu-id="7dd02-110">Cette section décrit les entrées d’autres noms de sujet requises sur vos certificats pour la découverte automatique.</span><span class="sxs-lookup"><span data-stu-id="7dd02-110">This section describes the subject alternative name entries that are required on your certificates for automatic discovery.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ef1a1-110">La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms de sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse.</span><span class="sxs-lookup"><span data-stu-id="ef1a1-110">Reissuing certificates by using an internal certificate authority is typically a simple process, but adding multiple subject alternative name entries to public certificates used by the reverse proxy can be expensive.</span></span> <span data-ttu-id="ef1a1-111">Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms de sujet très coûteux, vous pouvez configurer le proxy inverse de façon à utiliser le protocole HTTP pour la demande initiale du service de découverte automatique, plutôt que le protocole HTTPS (configuration par défaut).</span><span class="sxs-lookup"><span data-stu-id="ef1a1-111">If you have many SIP domains, making the addition of subject alternative names very expensive, you can configure the reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (the default configuration).</span></span> <span data-ttu-id="ef1a1-112">Pour plus d’informations, voir <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical Requirements for Mobility in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="ef1a1-112">For details, see <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical requirements for mobility in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="7dd02-111">La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms de sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse.</span><span class="sxs-lookup"><span data-stu-id="7dd02-111">Reissuing certificates by using an internal certificate authority is typically a simple process, but adding multiple subject alternative name entries to public certificates used by the reverse proxy can be expensive.</span></span> <span data-ttu-id="7dd02-112">Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms de sujet très coûteux, vous pouvez configurer le proxy inverse de façon à utiliser le protocole HTTP pour la demande initiale du service de découverte automatique, plutôt que le protocole HTTPS (configuration par défaut).</span><span class="sxs-lookup"><span data-stu-id="7dd02-112">If you have many SIP domains, making the addition of subject alternative names very expensive, you can configure the reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (the default configuration).</span></span> <span data-ttu-id="7dd02-113">Pour plus d’informations, voir <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical Requirements for Mobility in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="7dd02-113">For details, see <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical requirements for mobility in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-### <a name="director-pool-certificate-requirements"></a><span data-ttu-id="ef1a1-113">Exigences relatives au certificat du pool directeur</span><span class="sxs-lookup"><span data-stu-id="ef1a1-113">Director Pool Certificate Requirements</span></span>
+### <a name="director-pool-certificate-requirements"></a><span data-ttu-id="7dd02-114">Exigences relatives au certificat du pool directeur</span><span class="sxs-lookup"><span data-stu-id="7dd02-114">Director Pool Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -70,18 +71,18 @@ ms.locfileid: "48533391"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ef1a1-114">Description</span><span class="sxs-lookup"><span data-stu-id="ef1a1-114">Description</span></span></th>
-<th><span data-ttu-id="ef1a1-115">Entrée d’autre nom de sujet</span><span class="sxs-lookup"><span data-stu-id="ef1a1-115">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="7dd02-115">Description</span><span class="sxs-lookup"><span data-stu-id="7dd02-115">Description</span></span></th>
+<th><span data-ttu-id="7dd02-116">Entrée d’autre nom de sujet</span><span class="sxs-lookup"><span data-stu-id="7dd02-116">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ef1a1-116">URL du service de découverte automatique interne</span><span class="sxs-lookup"><span data-stu-id="ef1a1-116">Internal Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="ef1a1-117">SAN = lyncdiscoverinternal. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-117">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-117">URL du service de découverte automatique interne</span><span class="sxs-lookup"><span data-stu-id="7dd02-117">Internal Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-118">SAN = lyncdiscoverinternal. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-118">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ef1a1-118">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="ef1a1-118">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="ef1a1-119">SAN = lyncdiscover. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-119">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-119">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="7dd02-119">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-120">SAN = lyncdiscover. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-120">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -91,13 +92,13 @@ ms.locfileid: "48533391"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ef1a1-120">Vous pouvez également utiliser le SAN = \*. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-120">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
+> <span data-ttu-id="7dd02-121">Vous pouvez également utiliser le SAN = \*. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-121">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a><span data-ttu-id="ef1a1-121">Exigences relatives au certificat du pool frontal</span><span class="sxs-lookup"><span data-stu-id="ef1a1-121">Front End Pool Certificate Requirements</span></span>
+### <a name="front-end-pool-certificate-requirements"></a><span data-ttu-id="7dd02-122">Exigences relatives au certificat du pool frontal</span><span class="sxs-lookup"><span data-stu-id="7dd02-122">Front End Pool Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -106,18 +107,18 @@ ms.locfileid: "48533391"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ef1a1-122">Description</span><span class="sxs-lookup"><span data-stu-id="ef1a1-122">Description</span></span></th>
-<th><span data-ttu-id="ef1a1-123">Entrée d’autre nom de sujet</span><span class="sxs-lookup"><span data-stu-id="ef1a1-123">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="7dd02-123">Description</span><span class="sxs-lookup"><span data-stu-id="7dd02-123">Description</span></span></th>
+<th><span data-ttu-id="7dd02-124">Entrée d’autre nom de sujet</span><span class="sxs-lookup"><span data-stu-id="7dd02-124">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ef1a1-124">URL du service de découverte automatique interne</span><span class="sxs-lookup"><span data-stu-id="ef1a1-124">Internal Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="ef1a1-125">SAN = lyncdiscoverinternal. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-125">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-125">URL du service de découverte automatique interne</span><span class="sxs-lookup"><span data-stu-id="7dd02-125">Internal Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-126">SAN = lyncdiscoverinternal. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-126">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ef1a1-126">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="ef1a1-126">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="ef1a1-127">SAN = lyncdiscover. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-127">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-127">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="7dd02-127">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-128">SAN = lyncdiscover. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-128">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -127,13 +128,13 @@ ms.locfileid: "48533391"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ef1a1-128">Vous pouvez également utiliser le SAN = \*. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-128">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
+> <span data-ttu-id="7dd02-129">Vous pouvez également utiliser le SAN = \*. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-129">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
 
 
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a><span data-ttu-id="ef1a1-129">Exigences relatives au certificat de proxy inverse (autorité de certification publique)</span><span class="sxs-lookup"><span data-stu-id="ef1a1-129">Reverse Proxy (Public CA) Certificate Requirements</span></span>
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a><span data-ttu-id="7dd02-130">Exigences relatives au certificat de proxy inverse (autorité de certification publique)</span><span class="sxs-lookup"><span data-stu-id="7dd02-130">Reverse Proxy (Public CA) Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -142,14 +143,14 @@ ms.locfileid: "48533391"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ef1a1-130">Description</span><span class="sxs-lookup"><span data-stu-id="ef1a1-130">Description</span></span></th>
-<th><span data-ttu-id="ef1a1-131">Entrée d’autre nom de sujet</span><span class="sxs-lookup"><span data-stu-id="ef1a1-131">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="7dd02-131">Description</span><span class="sxs-lookup"><span data-stu-id="7dd02-131">Description</span></span></th>
+<th><span data-ttu-id="7dd02-132">Entrée d’autre nom de sujet</span><span class="sxs-lookup"><span data-stu-id="7dd02-132">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ef1a1-132">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="ef1a1-132">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="ef1a1-133">SAN = lyncdiscover. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="ef1a1-133">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-133">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="7dd02-133">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="7dd02-134">SAN = lyncdiscover. &lt; sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="7dd02-134">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +160,7 @@ ms.locfileid: "48533391"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ef1a1-134">Vous affecté cet autre nom d’objet (SAN) au certificat assigné à l’écouteur SSL sur le proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="ef1a1-134">You assign this SAN to the certificate assigned to the SSL Listener on the reverse proxy.</span></span>
+> <span data-ttu-id="7dd02-135">Vous affecté cet autre nom d’objet (SAN) au certificat assigné à l’écouteur SSL sur le proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="7dd02-135">You assign this SAN to the certificate assigned to the SSL Listener on the reverse proxy.</span></span>
 
 
 
@@ -169,7 +170,7 @@ ms.locfileid: "48533391"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ef1a1-135">Votre écouteur de proxy inverse aura des noms d’objet alternatifs pour vos URL de services Web externes (par exemple, SAN = lyncwebextpool01. contoso. com et dirwebexternal.contoso.com si vous avez déployé le directeur facultatif).</span><span class="sxs-lookup"><span data-stu-id="ef1a1-135">Your reverse proxy listener will have subject alternative names for your external Web Services URL(s) (for example, SAN=lyncwebextpool01.contoso.com, and dirwebexternal.contoso.com if you have deployed the optional Director).</span></span>
+> <span data-ttu-id="7dd02-136">Votre écouteur de proxy inverse aura des noms d’objet alternatifs pour vos URL de services Web externes (par exemple, SAN = lyncwebextpool01. contoso. com et dirwebexternal.contoso.com si vous avez déployé le directeur facultatif).</span><span class="sxs-lookup"><span data-stu-id="7dd02-136">Your reverse proxy listener will have subject alternative names for your external Web Services URL(s) (for example, SAN=lyncwebextpool01.contoso.com, and dirwebexternal.contoso.com if you have deployed the optional Director).</span></span>
 
 
 
