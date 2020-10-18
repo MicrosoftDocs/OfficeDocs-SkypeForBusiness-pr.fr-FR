@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : tableau de rôles'
+description: 'Lync Server 2013 : tableau de rôles.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d779e5baf1e96848f7b3957a2aeae1b823d1cf30
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d16f9483fc97145d82faf7e8f1175772f10f9a4b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511271"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576570"
 ---
-# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="1e717-102">Table Roles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e717-102">Roles table in Lync Server 2013</span></span>
+# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="cb9b6-103">Table Roles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cb9b6-103">Roles table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48511271"
 
 <span> </span>
 
-<span data-ttu-id="1e717-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="1e717-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="cb9b6-104">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="cb9b6-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="1e717-104">La table Roles est une table statique qui stocke la liste des rôles possibles pour les conférences, tels que participant et présentateur.</span><span class="sxs-lookup"><span data-stu-id="1e717-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
+<span data-ttu-id="cb9b6-105">La table Roles est une table statique qui stocke la liste des rôles possibles pour les conférences, tels que participant et présentateur.</span><span class="sxs-lookup"><span data-stu-id="cb9b6-105">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
 
 
 <table>
@@ -51,28 +52,28 @@ ms.locfileid: "48511271"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1e717-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="1e717-105">Column</span></span></th>
-<th><span data-ttu-id="1e717-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="1e717-106">Data Type</span></span></th>
-<th><span data-ttu-id="1e717-107">Clé/index</span><span class="sxs-lookup"><span data-stu-id="1e717-107">Key/Index</span></span></th>
-<th><span data-ttu-id="1e717-108">Détails</span><span class="sxs-lookup"><span data-stu-id="1e717-108">Details</span></span></th>
+<th><span data-ttu-id="cb9b6-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="cb9b6-106">Column</span></span></th>
+<th><span data-ttu-id="cb9b6-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="cb9b6-107">Data Type</span></span></th>
+<th><span data-ttu-id="cb9b6-108">Clé/index</span><span class="sxs-lookup"><span data-stu-id="cb9b6-108">Key/Index</span></span></th>
+<th><span data-ttu-id="cb9b6-109">Détails</span><span class="sxs-lookup"><span data-stu-id="cb9b6-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1e717-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="1e717-109"><strong>RoleId</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e717-110">entier très petit</span><span class="sxs-lookup"><span data-stu-id="1e717-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="1e717-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="1e717-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="cb9b6-110"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="cb9b6-110"><strong>RoleId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cb9b6-111">entier très petit</span><span class="sxs-lookup"><span data-stu-id="cb9b6-111">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="cb9b6-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="cb9b6-112">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e717-112"><strong>Role</strong></span><span class="sxs-lookup"><span data-stu-id="1e717-112"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e717-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1e717-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="cb9b6-113"><strong>Role</strong></span><span class="sxs-lookup"><span data-stu-id="cb9b6-113"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="cb9b6-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cb9b6-114">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="1e717-114">Valeurs autorisées :</span><span class="sxs-lookup"><span data-stu-id="1e717-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="cb9b6-115">Valeurs autorisées :</span><span class="sxs-lookup"><span data-stu-id="cb9b6-115">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1e717-115">0 - Inconnu</span><span class="sxs-lookup"><span data-stu-id="1e717-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="1e717-116">1 - Présentateur</span><span class="sxs-lookup"><span data-stu-id="1e717-116">1 - Presenter</span></span></p></li>
-<li><p><span data-ttu-id="1e717-117">2 - Participant</span><span class="sxs-lookup"><span data-stu-id="1e717-117">2 - Attendee</span></span></p></li>
+<li><p><span data-ttu-id="cb9b6-116">0 - Inconnu</span><span class="sxs-lookup"><span data-stu-id="cb9b6-116">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="cb9b6-117">1 - Présentateur</span><span class="sxs-lookup"><span data-stu-id="cb9b6-117">1 - Presenter</span></span></p></li>
+<li><p><span data-ttu-id="cb9b6-118">2 - Participant</span><span class="sxs-lookup"><span data-stu-id="cb9b6-118">2 - Attendee</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

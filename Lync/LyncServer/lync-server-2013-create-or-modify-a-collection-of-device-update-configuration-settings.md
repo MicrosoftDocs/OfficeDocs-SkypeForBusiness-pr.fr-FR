@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une collection de paramètres de configuration de mise à jour des périphériques
+description: Créez ou modifiez une collection de paramètres de configuration de mise à jour des périphériques.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5ec896951f96c1e5059968ea0998742a90957c0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 593a1a0cb0f68254748ee48440cda18c78989780
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525851"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578270"
 ---
-# <a name="create-or-modify-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="ef538-102">Créer ou modifier une collection de paramètres de configuration de mise à jour des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef538-102">Create or modify a collection of Device Update configuration settings in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="930fc-103">Créer ou modifier une collection de paramètres de configuration de mise à jour des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="930fc-103">Create or modify a collection of Device Update configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48525851"
 
 <span> </span>
 
-<span data-ttu-id="ef538-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="ef538-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="930fc-104">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="930fc-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="ef538-104">Les paramètres de configuration de mise à jour des périphériques peuvent être créés (au niveau de l’étendue du site uniquement) à l’aide de Windows PowerShell et de la cmdlet **New-CsDeviceUpdateConfiguration** et modifiés à l’aide de la cmdlet **Set-CsDeviceUpdateConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="ef538-104">Device update configuration settings can be created (at the site scope only) by using Windows PowerShell and the **New-CsDeviceUpdateConfiguration** cmdlet and modified by using the **Set-CsDeviceUpdateConfiguration** cmdlet.</span></span> <span data-ttu-id="ef538-105">Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ef538-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="930fc-105">Les paramètres de configuration de mise à jour des périphériques peuvent être créés (au niveau de l’étendue du site uniquement) à l’aide de Windows PowerShell et de la cmdlet **New-CsDeviceUpdateConfiguration** et modifiés à l’aide de la cmdlet **Set-CsDeviceUpdateConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="930fc-105">Device update configuration settings can be created (at the site scope only) by using Windows PowerShell and the **New-CsDeviceUpdateConfiguration** cmdlet and modified by using the **Set-CsDeviceUpdateConfiguration** cmdlet.</span></span> <span data-ttu-id="930fc-106">Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="930fc-106">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="ef538-106">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="ef538-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="930fc-107">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync Server 2010 Using Remote PowerShell » (en anglais) à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="930fc-107">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -56,21 +57,21 @@ ms.locfileid: "48525851"
 
 <div>
 
-## <a name="to-create-device-update-configuration-settings-that-use-the-default-values"></a><span data-ttu-id="ef538-107">Pour créer des paramètres de configuration de mise à jour de périphérique qui utilisent les valeurs par défaut</span><span class="sxs-lookup"><span data-stu-id="ef538-107">To create device update configuration settings that use the default values</span></span>
+## <a name="to-create-device-update-configuration-settings-that-use-the-default-values"></a><span data-ttu-id="930fc-108">Pour créer des paramètres de configuration de mise à jour de périphérique qui utilisent les valeurs par défaut</span><span class="sxs-lookup"><span data-stu-id="930fc-108">To create device update configuration settings that use the default values</span></span>
 
-  - <span data-ttu-id="ef538-108">Cette commande crée un nouvel ensemble de paramètres de configuration de mise à jour de périphérique pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="ef538-108">This command creates a new set of device update configuration settings for the Redmond site:</span></span>
+  - <span data-ttu-id="930fc-109">Cette commande crée un nouvel ensemble de paramètres de configuration de mise à jour de périphérique pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="930fc-109">This command creates a new set of device update configuration settings for the Redmond site:</span></span>
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond"
     
-    <span data-ttu-id="ef538-109">Étant donné qu’aucun paramètre autre que le paramètre Identity obligatoire n’a été spécifié dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="ef538-109">Because no parameters other than the mandatory Identity parameter were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties.</span></span>
+    <span data-ttu-id="930fc-110">Étant donné qu’aucun paramètre autre que le paramètre Identity obligatoire n’a été spécifié dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="930fc-110">Because no parameters other than the mandatory Identity parameter were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-change-a-single-property-value-when-creating-device-update-configuration-settings"></a><span data-ttu-id="ef538-110">Pour modifier une seule valeur de propriété lors de la création des paramètres de configuration de mise à jour des périphériques</span><span class="sxs-lookup"><span data-stu-id="ef538-110">To change a single property value when creating device update configuration settings</span></span>
+## <a name="to-change-a-single-property-value-when-creating-device-update-configuration-settings"></a><span data-ttu-id="930fc-111">Pour modifier une seule valeur de propriété lors de la création des paramètres de configuration de mise à jour des périphériques</span><span class="sxs-lookup"><span data-stu-id="930fc-111">To change a single property value when creating device update configuration settings</span></span>
 
-  - <span data-ttu-id="ef538-111">Pour créer des paramètres qui utilisent différentes valeurs de propriété, incluez simplement le paramètre et la valeur de paramètre appropriés.</span><span class="sxs-lookup"><span data-stu-id="ef538-111">To create settings that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="ef538-112">Par exemple, pour créer une collection de paramètres de configuration de mise à jour des périphériques qui, par défaut, supprime les anciens fichiers journaux tous les 21 jours, utilisez une commande semblable à celle-ci :</span><span class="sxs-lookup"><span data-stu-id="ef538-112">For example, to create a collection of device update configuration settings that, by default, deletes old log files every 21 days, use a command like this one:</span></span>
+  - <span data-ttu-id="930fc-112">Pour créer des paramètres qui utilisent différentes valeurs de propriété, incluez simplement le paramètre et la valeur de paramètre appropriés.</span><span class="sxs-lookup"><span data-stu-id="930fc-112">To create settings that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="930fc-113">Par exemple, pour créer une collection de paramètres de configuration de mise à jour des périphériques qui, par défaut, supprime les anciens fichiers journaux tous les 21 jours, utilisez une commande semblable à celle-ci :</span><span class="sxs-lookup"><span data-stu-id="930fc-113">For example, to create a collection of device update configuration settings that, by default, deletes old log files every 21 days, use a command like this one:</span></span>
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00"
 
@@ -78,15 +79,15 @@ ms.locfileid: "48525851"
 
 <div>
 
-## <a name="to-change-multiple-property-values-when-creating-device-update-configuration-settings"></a><span data-ttu-id="ef538-113">Pour modifier plusieurs valeurs de propriété lors de la création des paramètres de configuration de mise à jour des périphériques</span><span class="sxs-lookup"><span data-stu-id="ef538-113">To change multiple property values when creating device update configuration settings</span></span>
+## <a name="to-change-multiple-property-values-when-creating-device-update-configuration-settings"></a><span data-ttu-id="930fc-114">Pour modifier plusieurs valeurs de propriété lors de la création des paramètres de configuration de mise à jour des périphériques</span><span class="sxs-lookup"><span data-stu-id="930fc-114">To change multiple property values when creating device update configuration settings</span></span>
 
-  - <span data-ttu-id="ef538-114">Plusieurs valeurs de propriété peuvent être modifiées en incluant plusieurs paramètres.</span><span class="sxs-lookup"><span data-stu-id="ef538-114">Multiple property values can be modified by including multiple parameters.</span></span> <span data-ttu-id="ef538-115">Par exemple, cette commande définit l’intervalle de nettoyage du journal sur 21 jours et l’intervalle de vidage du journal sur 30 minutes :</span><span class="sxs-lookup"><span data-stu-id="ef538-115">For example, this command sets the log cleanup interval to 21 days and the log flush interval to 30 minutes:</span></span>
+  - <span data-ttu-id="930fc-115">Plusieurs valeurs de propriété peuvent être modifiées en incluant plusieurs paramètres.</span><span class="sxs-lookup"><span data-stu-id="930fc-115">Multiple property values can be modified by including multiple parameters.</span></span> <span data-ttu-id="930fc-116">Par exemple, cette commande définit l’intervalle de nettoyage du journal sur 21 jours et l’intervalle de vidage du journal sur 30 minutes :</span><span class="sxs-lookup"><span data-stu-id="930fc-116">For example, this command sets the log cleanup interval to 21 days and the log flush interval to 30 minutes:</span></span>
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
 </div>
 
-<span data-ttu-id="ef538-116">Pour plus d’informations sur la modification des paramètres de configuration d’appareil existants, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="ef538-116">For details about modifying existing device configuration settings, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) cmdlet.</span></span> <span data-ttu-id="ef538-117">Pour plus d’informations sur la création de collections de paramètres de configuration, voir la rubrique d’aide relative à la cmdlet [New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="ef538-117">For details about creating collections of configuration settings, see the Help topic for the [New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="930fc-117">Pour plus d’informations sur la modification des paramètres de configuration d’appareil existants, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="930fc-117">For details about modifying existing device configuration settings, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) cmdlet.</span></span> <span data-ttu-id="930fc-118">Pour plus d’informations sur la création de collections de paramètres de configuration, voir la rubrique d’aide relative à la cmdlet [New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="930fc-118">For details about creating collections of configuration settings, see the Help topic for the [New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 
