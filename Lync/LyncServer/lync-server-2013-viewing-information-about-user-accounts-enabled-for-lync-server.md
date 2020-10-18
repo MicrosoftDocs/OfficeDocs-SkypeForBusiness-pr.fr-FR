@@ -1,5 +1,6 @@
 ---
 title: Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server
+description: Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ba7d088da2e3843a6e1c49b100f05ac7f8431ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ed6e46cf3a4b206940fb9295b7c8a2569f4b5256
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506311"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580010"
 ---
-# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="14a0f-102">Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14a0f-102">Viewing information about user accounts enabled for Lync Server 2013</span></span>
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="65778-103">Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65778-103">Viewing information about user accounts enabled for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48506311"
 
 <span> </span>
 
-<span data-ttu-id="14a0f-103">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="14a0f-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="65778-104">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="65778-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="14a0f-104">Suivez les procédures décrites dans cette section pour afficher les paramètres et les informations de stratégie pour les comptes d’utilisateur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="14a0f-104">Follow the procedures in this section to view settings and policy information for Lync Server 2013 user accounts.</span></span>
+<span data-ttu-id="65778-105">Suivez les procédures décrites dans cette section pour afficher les paramètres et les informations de stratégie pour les comptes d’utilisateur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65778-105">Follow the procedures in this section to view settings and policy information for Lync Server 2013 user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="14a0f-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="14a0f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="65778-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="65778-106">In This Section</span></span>
 
-  - [<span data-ttu-id="14a0f-106">Rechercher des utilisateurs Lync Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14a0f-106">Search for Lync Server users in Lync Server 2013</span></span>](lync-server-2013-search-for-lync-server-users.md)
+  - [<span data-ttu-id="65778-107">Rechercher des utilisateurs Lync Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65778-107">Search for Lync Server users in Lync Server 2013</span></span>](lync-server-2013-search-for-lync-server-users.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="14a0f-107">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="14a0f-107">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="65778-108">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="65778-108">Related Sections</span></span>
 
-[<span data-ttu-id="14a0f-108">Affectation de stratégies par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14a0f-108">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
+[<span data-ttu-id="65778-109">Affectation de stratégies par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65778-109">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

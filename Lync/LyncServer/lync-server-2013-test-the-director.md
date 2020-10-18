@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : test du directeur'
+description: 'Lync Server 2013 : test du directeur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae7f2945cd3a21ea93969e098110fadec710cb98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f4cec23be01add5c02cc960cfe68c9256da07d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519091"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580210"
 ---
-# <a name="test-the-director-in-lync-server-2013"></a><span data-ttu-id="38358-102">Test du directeur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38358-102">Test the Director in Lync Server 2013</span></span>
+# <a name="test-the-director-in-lync-server-2013"></a><span data-ttu-id="ccce9-103">Test du directeur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ccce9-103">Test the Director in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48519091"
 
 <span> </span>
 
-<span data-ttu-id="38358-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="38358-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="ccce9-104">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="ccce9-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="38358-104">À ce stade, vous avez un directeur ou un pool directeur configuré, mais vos entrées SRV DNS (Domain Name System) désignent toujours les clients pour se connecter à l’aide d’un pool ou d’un serveur Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="38358-104">At this stage, you have a Director or Director pool configured, but your Domain Name System (DNS) SRV entries still point clients to log on by using a pool or Standard Edition server.</span></span> <span data-ttu-id="38358-105">Avant de modifier l’enregistrement DNS pour faire en sorte que les clients Lync 2013 se connectent automatiquement à l’aide du directeur, testez un client en le dirigeant manuellement vers le directeur.</span><span class="sxs-lookup"><span data-stu-id="38358-105">Before changing the DNS record to make Lync 2013 clients log on automatically by using the Director, test a client by manually pointing it to the Director.</span></span>
+<span data-ttu-id="ccce9-105">À ce stade, vous avez un directeur ou un pool directeur configuré, mais vos entrées SRV DNS (Domain Name System) désignent toujours les clients pour se connecter à l’aide d’un pool ou d’un serveur Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="ccce9-105">At this stage, you have a Director or Director pool configured, but your Domain Name System (DNS) SRV entries still point clients to log on by using a pool or Standard Edition server.</span></span> <span data-ttu-id="ccce9-106">Avant de modifier l’enregistrement DNS pour faire en sorte que les clients Lync 2013 se connectent automatiquement à l’aide du directeur, testez un client en le dirigeant manuellement vers le directeur.</span><span class="sxs-lookup"><span data-stu-id="ccce9-106">Before changing the DNS record to make Lync 2013 clients log on automatically by using the Director, test a client by manually pointing it to the Director.</span></span>
 
 <div>
 
-## <a name="to-test-the-deployment"></a><span data-ttu-id="38358-106">Pour tester le déploiement</span><span class="sxs-lookup"><span data-stu-id="38358-106">To test the deployment</span></span>
+## <a name="to-test-the-deployment"></a><span data-ttu-id="ccce9-107">Pour tester le déploiement</span><span class="sxs-lookup"><span data-stu-id="ccce9-107">To test the deployment</span></span>
 
-1.  <span data-ttu-id="38358-107">Ouvrez une session sur l’ordinateur sur lequel le panneau de configuration Lync Server est installé avec un compte de domaine qui fait partie du groupe **CSAdministrator** .</span><span class="sxs-lookup"><span data-stu-id="38358-107">Log on to the computer on which you have the Lync Server Control Panel installed with a domain account that is part of the **CSAdministrator** group.</span></span>
+1.  <span data-ttu-id="ccce9-108">Ouvrez une session sur l’ordinateur sur lequel le panneau de configuration Lync Server est installé avec un compte de domaine qui fait partie du groupe **CSAdministrator** .</span><span class="sxs-lookup"><span data-stu-id="ccce9-108">Log on to the computer on which you have the Lync Server Control Panel installed with a domain account that is part of the **CSAdministrator** group.</span></span>
 
-2.  <span data-ttu-id="38358-108">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="38358-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="38358-109">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="38358-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="ccce9-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ccce9-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ccce9-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="ccce9-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="38358-110">Dans le volet de navigation, cliquez sur **topologie**, puis, dans la colonne **État** , vérifiez qu’il y a un serveur vert avec une flèche (c’est-à-dire, une ![icône de serveur avec flèche verte](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Icône de serveur avec flèche verte")) pour votre directeur ou pool directeur.</span><span class="sxs-lookup"><span data-stu-id="38358-110">In the navigation pane, click **Topology**, and in the **Status** column confirm that there is a green server with an arrow (that is, ![Server icon with green arrow](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Server icon with green arrow")) for your Director or Director pool.</span></span>
+3.  <span data-ttu-id="ccce9-111">Dans le volet de navigation, cliquez sur **topologie**, puis, dans la colonne **État** , vérifiez qu’il y a un serveur vert avec une flèche (c’est-à-dire, une ![icône de serveur avec flèche verte](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Icône de serveur avec flèche verte")) pour votre directeur ou pool directeur.</span><span class="sxs-lookup"><span data-stu-id="ccce9-111">In the navigation pane, click **Topology**, and in the **Status** column confirm that there is a green server with an arrow (that is, ![Server icon with green arrow](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Server icon with green arrow")) for your Director or Director pool.</span></span>
 
-4.  <span data-ttu-id="38358-111">Connectez deux ordinateurs clients sur lesquels le client Lync Server 2013 est installé, puis ouvrez une session avec un autre compte d’utilisateur activé pour Lync Server 2013 sur chaque ordinateur.</span><span class="sxs-lookup"><span data-stu-id="38358-111">Connect two client computers that have the Lync Server 2013 client installed and log on with a different user account enabled for Lync Server 2013 to each computer.</span></span>
+4.  <span data-ttu-id="ccce9-112">Connectez deux ordinateurs clients sur lesquels le client Lync Server 2013 est installé, puis ouvrez une session avec un autre compte d’utilisateur activé pour Lync Server 2013 sur chaque ordinateur.</span><span class="sxs-lookup"><span data-stu-id="ccce9-112">Connect two client computers that have the Lync Server 2013 client installed and log on with a different user account enabled for Lync Server 2013 to each computer.</span></span>
 
-5.  <span data-ttu-id="38358-112">Sur l’un des ordinateurs clients, cliquez sur le menu **options** , sélectionnez le groupe paramètres **personnels** , cliquez sur **avancé**, cliquez sur **configuration manuelle**, puis définissez le **nom du serveur interne ou l’adresse IP** sur le nom de domaine complet (FQDN) du nouveau directeur ou pool directeur.</span><span class="sxs-lookup"><span data-stu-id="38358-112">On one of the client computers, click the **Options** menu, select the **Personal** settings group, click **Advanced**, click **Manual Configuration**, and then set the **Internal Server name or IP address** to the fully qualified domain name (FQDN) of the new Director or Director pool.</span></span>
+5.  <span data-ttu-id="ccce9-113">Sur l’un des ordinateurs clients, cliquez sur le menu **options** , sélectionnez le groupe paramètres **personnels** , cliquez sur **avancé**, cliquez sur **configuration manuelle**, puis définissez le **nom du serveur interne ou l’adresse IP** sur le nom de domaine complet (FQDN) du nouveau directeur ou pool directeur.</span><span class="sxs-lookup"><span data-stu-id="ccce9-113">On one of the client computers, click the **Options** menu, select the **Personal** settings group, click **Advanced**, click **Manual Configuration**, and then set the **Internal Server name or IP address** to the fully qualified domain name (FQDN) of the new Director or Director pool.</span></span>
 
-6.  <span data-ttu-id="38358-113">Ouvrez une session sur les deux clients et vérifiez que le client qui ouvre une session à l’aide du directeur est en mesure de se connecter correctement, de voir le statut de présence de l’autre utilisateur et de pouvoir échanger des messages instantanés.</span><span class="sxs-lookup"><span data-stu-id="38358-113">Log on to both clients and verify that the client logging on by using the Director is able to log on successfully, see the presence status of the other user, and that they can exchange instant messages.</span></span>
+6.  <span data-ttu-id="ccce9-114">Ouvrez une session sur les deux clients et vérifiez que le client qui ouvre une session à l’aide du directeur est en mesure de se connecter correctement, de voir le statut de présence de l’autre utilisateur et de pouvoir échanger des messages instantanés.</span><span class="sxs-lookup"><span data-stu-id="ccce9-114">Log on to both clients and verify that the client logging on by using the Director is able to log on successfully, see the presence status of the other user, and that they can exchange instant messages.</span></span>
 
 </div>
 
