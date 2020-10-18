@@ -8,20 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: En savoir plus sur les paramètres d’administration dans l’application compliment dans le centre d’administration Microsoft teams
-ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328203"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580450"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application compliment dans le centre d’administration Microsoft teams
 
-Dans Microsoft Teams, l’application compliments permet aux utilisateurs d’afficher une reconnaissance aux membres de leur organisation ou Classroom. Avec une sélection de jeux de badges à partir desquels vous pouvez créer vos propres badges, compliment est conçu pour vous aider à reconnaître les efforts qui s’appliquent à la vaste gamme de tâches que les utilisateurs d’équipes effectuent, des enseignants aux travailleurs de première ligne.
+> [!NOTE]
+> Les administrateurs doivent disposer d’une licence teams pour accéder à cette fonctionnalité. Si vous essayez d’accéder à cette fonctionnalité sans licence d’équipe, vous recevez un message d’erreur.
+
+Dans Microsoft Teams, l’application compliments permet aux utilisateurs d’afficher une reconnaissance aux membres de leur organisation ou Classroom. Avec une sélection de jeux de badges à partir desquels vous pouvez créer vos propres badges, compliment est conçu pour vous aider à reconnaître les efforts qui s’appliquent à la vaste gamme de tâches que les utilisateurs d’équipes effectuent, des enseignants aux travailleurs terrain.
 
 Les administrateurs peuvent contrôler les badges disponibles pour leur organisation à partir du centre d’administration Teams. Dans le volet de navigation de gauche, sélectionnez **applications teams > gérer les applications**. Ouvrez compliment dans le [catalogue d’applications du client](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)et accédez à **paramètres**.
 
-> [!Note]
+> [!NOTE]
 > Cette fonctionnalité n’est pas disponible pour les nuages de gouvernement des États-Unis.
 
 ## <a name="use-built-in-badge-sets"></a>Utiliser les jeux de badges intégrés

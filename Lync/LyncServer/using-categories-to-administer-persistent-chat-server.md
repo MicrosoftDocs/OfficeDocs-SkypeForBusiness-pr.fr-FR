@@ -1,5 +1,6 @@
 ---
 title: Utilisation de catégories pour administrer le serveur de conversation permanente
+description: Utilisation de catégories pour administrer le serveur de conversation permanente.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d008e77df49dcfb2875923575c5d0c2acb1d1dd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 181ecba944a042e3598b2964ad233590cf63349e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526411"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579540"
 ---
 # <a name="using-categories-to-administer-persistent-chat-server"></a>Utilisation de catégories pour administrer le serveur de conversation permanente
 

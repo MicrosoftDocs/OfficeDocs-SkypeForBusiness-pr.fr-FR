@@ -1,5 +1,6 @@
 ---
 title: Outil de contrainte et de performances de Lync Server 2013
+description: Outil de contrainte et de performances de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c9a5195269b68a9f2e1df49c3af40267b5c4db3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 073aa49b8c9002ff23cfea61904735cdc0144cfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509171"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580440"
 ---
 # <a name="lync-server-2013-stress-and-performance-tool"></a>Outil de contrainte et de performances de Lync Server 2013
 

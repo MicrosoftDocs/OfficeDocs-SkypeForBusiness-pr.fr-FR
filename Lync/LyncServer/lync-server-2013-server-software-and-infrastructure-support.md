@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : prise en charge du logiciel et de l’infrastructure serveur'
+description: 'Lync Server 2013 : prise en charge du logiciel et de l’infrastructure serveur.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7906d381c49fe3514683989fd725d9d29802f81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4a141f40b3ebee84fade10dfbfb8c8b96ef67434
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510241"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580150"
 ---
 # <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Prise en charge du logiciel et de l’infrastructure serveur dans Lync Server 2013
 

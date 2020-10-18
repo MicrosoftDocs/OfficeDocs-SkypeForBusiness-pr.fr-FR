@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013 : demande de certificats pour les composants Edge'
+description: 'Lync Server 2013 : demande des certificats pour les composants Edge.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f31f257254650b930d0f3017366849132f72b7e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 461e40921c88f26ce56141a8782ef2a04ce99667
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511971"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579010"
 ---
 # <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Demander des certificats pour les composants Edge dans Lync Server 2013
 
