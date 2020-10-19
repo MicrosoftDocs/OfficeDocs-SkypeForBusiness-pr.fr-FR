@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508081"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -47,11 +47,11 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000|
 |Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
 
-<sup>1</sup> N’importe quel objet dans Azure Active Directory compte dans cette limite. Les administrateurs généraux sont exempts de cette limite, comme les applications appelant Microsoft Graph en utilisant des[autorisations d’application](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Cette limite inclut les équipes archivées. Pour dépasser la limite maximale, vous devez contacter le support Microsoft.
+<sup>2</sup> This limit includes archived teams. To go beyond the maximum limit, you must contact Microsoft support.
 
-<sup>3</sup> Les canaux supprimés peuvent être restaurés dans un délai de 30 jours. Pendant ces 30 jours, un canal supprimé continue d’être pris en compte dans la limite des 200 canaux par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de façon définitive et le canal n’est plus pris en compte dans la limite des 200 canaux par équipe.
+<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
@@ -59,7 +59,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 ### <a name="chat"></a>Conversation
 
-Les utilisateurs qui participent aux conversations qui font partie de la liste de conversation dans Teams doivent avoir une boîte aux lettres Exchange Online (sur le cloud) pour qu’un administrateur recherche des conversations instantanées. C’est parce que les conversations qui font partie de la liste de conversations sont stockées dans les boîtes aux lettres des participants basées sur le cloud. Si un participant de conversation ne dispose pas de boîte aux lettres Exchange Online, l’administrateur ne pourra pas effectuer de recherche ou suspendre de conversations instantanées. Par exemple, dans un déploiement Exchange hybride, les utilisateurs disposant de boîtes aux lettres locales peuvent peut-être participer aux conversations qui font partie de la liste de conversations dans Teams. Toutefois, dans ce cas, le contenu de ces conversations n’est pas consultable et ne peut pas être mis en attente, car les utilisateurs n’ont pas de boîtes aux lettres sur le cloud. (Pour plus d’informations, voir [comment Exchange et Microsoft Teams interagissent](exchange-teams-interact.md).)
+Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
 Les conversations de Teams fonctionnent sur un serveur principal Microsoft Exchange, donc les limites de messagerie Exchange s’appliquent à la fonction de conversation dans Teams.
 
@@ -70,7 +70,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 |Nombre de pièces jointes<sup>2</sup>  |10     |
 |Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
 
-<sup>1</sup> Si plus de 1 personnes sont présentes dans une conversation, les fonctionnalités de conversation suivantes sont désactivées : réponses automatiques d’Outlook et messages d’état de Teams, indicateur de saisie, appels vidéo et audio, partage, confirmations de lecture. Le bouton « Définir les options de remise » (!) est également supprimé lorsque les conversations de groupe privées contiennent plus de 20 membres.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
 <sup>2</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
 
@@ -78,7 +78,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 
 ### <a name="emailing-a-channel"></a>Envoi d’un message électronique à un canal
 
- Si un utilisateur souhaite envoyer un message électronique à un canal dans Teams, ils utilisent l’adresse de messagerie du canal. Lorsqu’un message électronique fait partie d’un canal, tout le monde peut y répondre et démarrer une conversation. Voici quelques-unes des limites applicables pour l’envoi de courrier à un canal.
+ If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
 
 |Fonctionnalité  | Limite maximale  |
 |---------|---------|
@@ -94,7 +94,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Les limites de taille des messages, de pièces jointes et d’images incorporées sont identiques pour toutes les licences Microsoft 365 et Office 365. L’envoi d’un canal par courrier électronique n’est pas disponible dans Teams pour les organisations GCC/GCCH/DOD.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
 
 
@@ -102,7 +102,7 @@ Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.micr
 
 Les noms des canaux ne peuvent pas contenir les caractères ou les mots suivants.
 
-|||
+|Tapez|Exemple|
 |---------|---------|
 |Caractères     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Caractères dans ces plages    | 0 à 1F<br>80 à 9F        |
