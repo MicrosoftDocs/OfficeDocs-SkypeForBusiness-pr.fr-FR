@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment définir une audioconférence pour les petites et moyennes entreprises pour les personnes qui ont besoin d’utiliser un téléphone pour appeler une réunion. '
-ms.openlocfilehash: 13dd6812d6eaf51d2f88ac6d8831552cb63d5a9d
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
+ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389942"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594645"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurer l’audioconférence pour les petites et moyennes entreprises
 
@@ -86,7 +86,7 @@ Les organisateurs de vos réunions peuvent désormais planifier des réunions da
 
 ## <a name="audio-conferencing-phone-numbers"></a>Numéros de téléphone de l’audioconférence
 
-Il existe deux types de numéros que vous pouvez utiliser pour votre pont de conférence. Vous pouvez utiliser des **numéros partagés** (décrits précédemment dans cet article) ou des **numéros dédiés**. Vous trouverez ci-dessous des informations supplémentaires sur chacune.
+Il existe deux types de numéros que vous pouvez utiliser pour votre pont de conférence. Vous pouvez utiliser des **numéros partagés** (comme dans la section Configuration de l’audioconférence décrite plus haut dans cet article) ou des **numéros** [prédéfinis](#set-up-audio-conferencing) . Vous trouverez ci-dessous des informations supplémentaires sur chacune.
 
 ### <a name="shared-numbers"></a>Numéros partagés
 
@@ -113,7 +113,7 @@ Ensuite, attribuez le numéro à chaque personne qui va animer des réunions. Po
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, sélectionnez **utilisateurs**, cliquez sur le nom d’affichage de l’utilisateur, puis sélectionnez **modifier**.
 2. Sélectionnez **modifier**   en regard de **audioconférence**, puis dans le volet **audioconférence**   , sélectionnez un numéro dans les listes **numéro payant**   ou numéro **gratuit**   , puis sélectionnez **appliquer**.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Audioconférence](audio-conferencing-in-office-365.md)
 - [Configurer l’audioconférence pour les équipes](set-up-audio-conferencing-in-teams.md)

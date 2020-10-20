@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer l’accès aux applications Power Platform dans le centre d’administration Microsoft Teams.
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171454"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599549"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Power Platform dans le centre d’administration Microsoft teams
 
@@ -79,7 +79,14 @@ Par exemple, pour empêcher des utilisateurs spécifiques d’accéder à des ap
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Capture d’écran d’un exemple de stratégie d’autorisation d’application personnalisée avec les applications d’alimentation partagées bloquées":::
 
-## <a name="related-topics"></a>Sujets associés
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Utiliser les journaux d’audit pour examiner l’activité d’installation Power Platform
+
+Vous pouvez utiliser les journaux d’audit pour les équipes pour examiner les événements dans lesquels les utilisateurs ont installé Power Platform applications à partir de la section **bâti par vos collègues** de la page applications dans Microsoft Teams. Pour cela, effectuez une [recherche dans le journal d’audit](https://docs.microsoft.com/microsoftteams/audit-log-events) pour l’événement teams de l' **application installé** (sous l’opération **AppInstalled** ) pour un utilisateur ou un ensemble d’utilisateurs donné. Pour rechercher des applications installées à partir de la section **intégré par vos collègues** , recherchez la valeur **TemplatedInstance** sous la propriété **AppDistributionMode** dans les détails d’un enregistrement donné. 
+
+> [!NOTE]
+> Vous pouvez exporter des enregistrements d’audit au format CSV pour faciliter le filtrage.
+
+## <a name="related-topics"></a>Voir aussi
 
 - [Partager une application de zone de dessin dans les applications Power](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app)
 - [Partager votre bot avec d’autres utilisateurs](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)

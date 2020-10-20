@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Résumé : installez et configurez les nœuds observateur pour les transactions synthétiques de Skype entreprise Server.'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640943"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599697"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installer et configurer des nœuds observateur
  
@@ -27,9 +27,9 @@ ms.locfileid: "46640943"
   
 Les nœuds observateurs sont des ordinateurs qui exécutent régulièrement des transactions synthétiques Skype entreprise Server. Les transactions synthétiques sont des applets de commande Windows PowerShell qui vérifient que les scénarios utilisateur clés, tels que la possibilité de se connecter ou d’échanger des messages instantanés, fonctionnent comme prévu. Pour Skype entreprise Server 2015, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant, qui inclut trois types de transaction synthétique :
   
-- **Par défaut** Transactions synthétiques qu’un nœud observateur exécute par défaut. Lorsque vous créez un nœud observateur, vous pouvez spécifier les transactions synthétiques qui seront exécutées par ce nœud. (Il s’agit de l’objectif du paramètre tests utilisé par la cmdlet New-applet cswatchernodeconfiguration.) Si vous n’utilisez pas le paramètre tests lors de la création du nœud observateur, il exécutera automatiquement toutes les transactions synthétiques par défaut et n’exécutera aucune des transactions synthétiques non par défaut. Cela signifie, par exemple, que le nœud observateur est configuré pour exécuter le test test-CsAddressBookService, mais qu’il ne sera pas configuré pour exécuter le test test-CsExumConnectivity.
+- **Par défaut** Transactions synthétiques qu’un nœud observateur exécute par défaut. Lorsque vous créez un nœud observateur, vous pouvez spécifier les transactions synthétiques qui seront exécutées par ce nœud. (Il s’agit de l’objectif du paramètre tests utilisé par l’applet de commande New-CsWatcherNodeConfiguration.) Si vous n’utilisez pas le paramètre tests lors de la création du nœud observateur, il exécutera automatiquement toutes les transactions synthétiques par défaut et n’exécutera aucune des transactions synthétiques non par défaut. Cela signifie, par exemple, que le nœud observateur est configuré pour exécuter le test Test-CsAddressBookService, mais qu’il ne sera pas configuré pour exécuter le test Test-CsExumConnectivity.
     
-- **Non défini par défaut** Tests que les nœuds observateurs ne s’exécutent pas par défaut. (Pour plus d’informations, consultez la description du type par défaut.) Toutefois, le nœud observateur peut être activé pour exécuter les transactions synthétiques non par défaut. Vous pouvez effectuer cette opération lorsque vous créez le nœud observateur (à l’aide de la cmdlet New-applet cswatchernodeconfiguration) ou à tout moment après la création du nœud observateur. Notez que de nombreuses transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, consultez la rubrique [instructions de configuration spéciales pour les transactions synthétiques](test-users-and-settings.md#special_synthetictrans).
+- **Non défini par défaut** Tests que les nœuds observateurs ne s’exécutent pas par défaut. (Pour plus d’informations, consultez la description du type par défaut.) Toutefois, le nœud observateur peut être activé pour exécuter les transactions synthétiques non par défaut. Vous pouvez effectuer cette opération lorsque vous créez le nœud observateur (à l’aide de l’applet de commande New-CsWatcherNodeConfiguration) ou à tout moment après la création du nœud observateur. Notez que de nombreuses transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, consultez la rubrique [instructions de configuration spéciales pour les transactions synthétiques](test-users-and-settings.md#special_synthetictrans).
     
 - **Étendue** Type spécial de transaction synthétique non définie par défaut. Contrairement à d’autres transactions synthétiques, les tests étendus peuvent être exécutés plusieurs fois à chaque passage. Cela est utile lors de la vérification du comportement, comme les itinéraires de communications vocales RTC (réseau téléphonique commuté) pour un pool. Vous pouvez configurer cette configuration simplement en ajoutant plusieurs instances d’un test étendu à un nœud observateur.
     
@@ -42,8 +42,8 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 |Test-CsAddressBookService (ABS)  <br/> |Confirme que les utilisateurs peuvent rechercher des utilisateurs qui ne figurent pas dans leur liste de contacts.  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirme que les utilisateurs peuvent rechercher des utilisateurs qui ne figurent pas dans leur liste de contacts via HTTP.  <br/> |
 |Test-CsAVConference (AvConference)  <br/> |Confirme que les utilisateurs peuvent créer des conférences audio/vidéo et participer à celles-ci.  <br/> |
-|Test-CsGroupIM (Conférence de messagerie instantanée)  <br/> |Confirme que les utilisateurs peuvent envoyer des messages instantanés dans des conférences et participer à des conversations par messagerie instantanée comptant trois personnes ou plus.  <br/> |
-|Test-CsIM (messagerie instantanée P2P)  <br/> |Confirme que les utilisateurs peuvent envoyer des messages instantanés d’égal à égal.  <br/> |
+|Test-CsGroupIM (Conférence par messagerie instantanée)  <br/> |Confirme que les utilisateurs peuvent envoyer des messages instantanés dans des conférences et participer à des conversations par messagerie instantanée comptant trois personnes ou plus.  <br/> |
+|Test-CsIM (MESSAGERIE INSTANTANÉE P2P)  <br/> |Confirme que les utilisateurs peuvent envoyer des messages instantanés d’égal à égal.  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |Confirme que les utilisateurs peuvent passer des appels audio d’égal à égal (signalisation uniquement).  <br/> |
 |Test-CsPresence (Presence)  <br/> |Confirme que les utilisateurs peuvent afficher la présence d’autres utilisateurs.  <br/> |
 |Test-CsRegistration (Registration)  <br/> |Confirme que les utilisateurs peuvent se connecter à Skype entreprise.  <br/> |
@@ -57,7 +57,7 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 |Test-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |Confirme que les utilisateurs peuvent créer et rejoindre des réunions planifiées (par le biais d’un lien d’adresse Web).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirme que les utilisateurs d’appareil mobile peuvent inscrire et envoyer des messages instantanés.  <br/> |
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirme que le serveur d’interopérabilité vidéo fonctionne et peut gérer les connexions entrantes sur une jonction SIP vidéo.  <br/> **Remarque :** La prise en charge d’MCX pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. |
-|Test-Cspersistentchatmessage ne (PersistentChatMessage)  <br/> |Confirme que les utilisateurs peuvent échanger des messages à l’aide du service de conversation permanente.  <br/> |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirme que les utilisateurs peuvent échanger des messages à l’aide du service de conversation permanente.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Confirme que les utilisateurs peuvent participer à des conférences via le Web.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirme que les contacts d’un utilisateur sont accessibles via le magasin de contacts unifié. Le magasin de contacts unifié permet aux utilisateurs de conserver un seul ensemble de contacts accessible via Skype entreprise Server 2015, Outlook Messaging and collaboration client et/ou Outlook Web Access.  <br/> |
 |Test-CsXmppIM (XmppIM)  <br/> |Confirme qu’un message instantané peut être envoyé par le biais de la passerelle XMPP (extensible Messaging and Presence Protocol).  <br/> Les passerelles XMPP et les proxys sont disponibles dans Skype entreprise Server 2015, mais ne sont plus pris en charge dans Skype entreprise Server 2019.  |
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 Si votre ordinateur nœud observateur se trouve à l’intérieur de votre réseau de périmètre, vous pouvez exécuter la commande suivante pour vérifier l’installation de Skype entreprise Server 2015 :
   
-Get-CsPinPolicyYou recevra des informations similaires à celles-ci, en fonction du nombre de stratégies de code confidentiel configurées pour être utilisées dans votre organisation :
+Get-CsPinPolicyYou recevront des informations similaires à celles-ci, en fonction du nombre de stratégies de code confidentiel configurées pour être utilisées dans votre organisation :
   
 Identity : global
   
@@ -216,7 +216,7 @@ Pour affecter un certificat par défaut :
 > [!NOTE]
 > Si le bouton Exécuter est désactivé, vous devrez peut-être d’abord cliquer sur Exécuter sous Installer le magasin de configurations local. 
   
-Effectuez l’une des opérations suivantes :
+Effectuez l'une des opérations suivantes :
   
 - Si vous disposez déjà d’un certificat qui peut être utilisé comme certificat par défaut, cliquez sur par défaut dans l’Assistant certificat, puis cliquez sur affecter. Suivez les étapes de l’Assistant permettant d’affecter un certificat pour affecter ce certificat.
     
@@ -254,7 +254,7 @@ Le mode TrustedServer ne peut être utilisé qu’avec des ordinateurs se trouva
 
 Si votre ordinateur nœud observateur se trouve en dehors du réseau de périmètre, vous devez suivre une procédure légèrement différente afin de configurer ce nœud observateur afin qu’il exécute des transactions synthétiques : en particulier, vous ne devez pas créer un pool d’applications approuvées ou une application approuvée. Cela signifie que vous devrez effectuer les deux tâches suivantes.
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Mettre à jour l’appartenance au groupe RTC local Read-Only Administrators
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Mettre à jour l’appartenance au groupe RTC local Read-Only administrateurs
 
 Si votre nœud observateur se trouve en dehors du réseau de périmètre, vous devez ajouter le compte de service réseau au groupe RTC local Read-Only Administrators sur l’ordinateur du nœud observateur en effectuant la procédure suivante sur le nœud observateur :
   

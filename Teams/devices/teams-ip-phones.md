@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 922ca79f5f3083dd57dc1bae6941a1d4dff0e2ad
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: b598e55ec130876b0b3ae8d52f1283fa596b2ebc
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48552730"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599539"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -97,9 +97,9 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 | AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | #6 de mise à jour                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | #6 de mise à jour                |
 |Affichage ThinkSmart Lenovo|CD-18781Y. 200922.098 | #6 de mise à jour                |
-| Poly CCX400         | 6.2.21.1198          | #5 de mise à jour                |
-| Poly CCX500/CCX600  | 6.2.21.1198          | #5 de mise à jour                |
-| C60 de poly-trio       | 5.9.5.2686           | #5 de mise à jour                |
+| Poly CCX400         | 6.2.22.0185          | #6 de mise à jour                |
+| Poly CCX500/CCX600  | 6.2.22.0185          | #6 de mise à jour                |
+| C60 de poly-trio       | 5.9.5.2983           | #6 de mise à jour                |
 | Yealink T55/T56/T58 | 58.15.0.116          | #6 de mise à jour                |
 | Yealink MP56        | 122.15.0.23          | #6 de mise à jour                |
 | Yealink VP59        | 91.15.0.48           | #6 de mise à jour                |
