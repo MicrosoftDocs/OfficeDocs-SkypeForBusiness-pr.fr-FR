@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427689"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625100"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -74,10 +74,12 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Tableau mis à jour le 2020 août*
+*Tableau mis à jour 2020 octobre*
 
 | Fabricant        | Sous                                                     | Complète      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |Jabra                |Casque 80 d’évolution                                          |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |Jabra                |Casque 40 d’évolution                                          |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |Jabra                |Faire évoluer le casque de 30 II                                       |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |

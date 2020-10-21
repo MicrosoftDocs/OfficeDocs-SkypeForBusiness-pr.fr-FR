@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer les services vocaux de téléphonie pour vos utilisateurs de Skype entreprise.
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359180"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625110"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Activer la messagerie vocale pour les utilisateurs de la messagerie vocale Enterprise Online et du système téléphonique
  
@@ -41,14 +41,18 @@ Pour activer un utilisateur pour la voix et la messagerie vocale du système té
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Pour activer les utilisateurs pour la voix et la messagerie vocale du système téléphonique
 
-1. Avant de commencer, vérifiez que le connecteur Skype entreprise Online (module Windows PowerShell) est déployé sur vos serveurs frontaux. Si ce n’est pas le cas, vous pouvez le télécharger à partir [du centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=39366). Vous trouverez plus d’informations sur l’utilisation de ce module dans [la rubrique Configuration de votre ordinateur pour la gestion de Skype entreprise Online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+> [!NOTE]
+> Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+> Si vous utilisez la version publique la plus récente [PowerShell teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
+
+1. Avant de commencer, vérifiez que le module PowerShell teams est installé sur vos serveurs frontaux. Si ce n’est pas le cas, procédez à l’installation en utilisant les instructions de l' [installation du module PowerShell teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Démarrez Windows PowerShell en tant qu’administrateur.
     
 3. Tapez la commande ci-dessous, puis appuyez sur entrée :
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. Tapez la commande ci-dessous, puis appuyez sur entrée :
@@ -75,7 +79,7 @@ Pour activer un utilisateur pour la voix et la messagerie vocale du système té
 
     Lors de l’exécution de PowerShell sur un serveur Skype entreprise, les applets de commande locales de Skype entreprise sont déjà chargées lorsque vous ouvrez PowerShell. Vous devez spécifier le paramètre-AllowClobber pour permettre aux cmdlets en ligne de remplacer les applets de commande locales portant le même nom.
     
-8. Utilisez l’applet de commande Set-CsUser pour affecter les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
+8. Utilisez l’applet de commande Set-CsUser pour attribuer les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -172,7 +176,7 @@ Les utilisateurs du système téléphonique doivent disposer d’une stratégie 
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Pour annuler l’affectation d’une stratégie de routage des communications vocales par utilisateur
 
-- Utilisez Grant-CsVoiceRoutingPolicy pour annuler l’affectation d’une stratégie de routage des communications vocales par utilisateur précédemment affectée à Ken Myer. Une fois la stratégie de routage des communications vocales par utilisateur annulée, Ken Myer sera automatiquement géré à l’aide de la stratégie globale de routage des communications vocales.
+- Utilisez le Grant-CsVoiceRoutingPolicy pour annuler l’affectation d’une stratégie de routage des communications vocales par utilisateur précédemment affectée à Ken Myer. Une fois la stratégie de routage des communications vocales par utilisateur annulée, Ken Myer sera automatiquement géré à l’aide de la stratégie globale de routage des communications vocales.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
