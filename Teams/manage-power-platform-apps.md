@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer l’accès aux applications Power Platform dans le centre d’administration Microsoft Teams.
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599549"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650957"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Power Platform dans le centre d’administration Microsoft teams
 
@@ -32,7 +32,7 @@ Cet article vous fournit une vue d’ensemble de la gestion des applications [Po
 
 [Power Apps](https://powerapps.microsoft.com) est un environnement de développement d’applications à faible code/sans code, qui permet aux développeurs de votre organisation de créer des applications personnalisées qui se connectent à vos données métiers. Les [agents d’alimentation virtuelle](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) n’ont pas de code de bâtiment de robot pour créer des robots puissants. Grâce à l’intégration des applications Power Platform dans Teams, les organisations peuvent rationaliser les processus d’entreprise, répondre aux besoins fluctuants de l’entreprise plus rapidement pour renforcer la collaboration et créer et partager des solutions personnalisées pour être plus productif.  
 
-Les applications Power Platform créées par les marqueurs de votre organisation sont automatiquement ajoutées à Teams. Les décideurs peuvent contrôler les personnes autorisées à accéder à leur application à l’aide de la [fonctionnalité de partage dans Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) et de la [fonctionnalité de partage dans les agents d’alimentation virtuelles](https://docs.microsoft.com/power-virtual-agents/admin-share-bots). 
+Les applications Power Platform créées par les marqueurs de votre organisation sont automatiquement ajoutées à Teams. Les décideurs peuvent contrôler les personnes autorisées à accéder à leur application à l’aide de la [fonctionnalité de partage dans Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) et de la [fonctionnalité de partage dans les agents d’alimentation virtuelles](https://docs.microsoft.com/power-virtual-agents/admin-share-bots).
 
 Lors de la création ou du partage d’une application Power Platform, les utilisateurs peuvent l’afficher et l’installer sur la page applications en accédant à la page du nom de votre ** *organisation***  >  **créée par vos collègues**. (Il peut s’écouler quelques minutes après la création ou le partage d’une application pour l’application.)
 
@@ -77,11 +77,13 @@ Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation 
 
 Par exemple, pour empêcher des utilisateurs spécifiques d’accéder à des applications créées dans des applications d’alimentation, créez une stratégie d’autorisations d’application personnalisée pour bloquer les **applications d’alimentation partagées**, puis affectez la stratégie à ces utilisateurs.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Capture d’écran d’un exemple de stratégie d’autorisation d’application personnalisée avec les applications d’alimentation partagées bloquées":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Capture d’écran d’un exemple de stratégie d’autorisation d’application personnalisée avec les applications d’alimentation partagées bloquées":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Utiliser les journaux d’audit pour examiner l’activité d’installation Power Platform
 
-Vous pouvez utiliser les journaux d’audit pour les équipes pour examiner les événements dans lesquels les utilisateurs ont installé Power Platform applications à partir de la section **bâti par vos collègues** de la page applications dans Microsoft Teams. Pour cela, effectuez une [recherche dans le journal d’audit](https://docs.microsoft.com/microsoftteams/audit-log-events) pour l’événement teams de l' **application installé** (sous l’opération **AppInstalled** ) pour un utilisateur ou un ensemble d’utilisateurs donné. Pour rechercher des applications installées à partir de la section **intégré par vos collègues** , recherchez la valeur **TemplatedInstance** sous la propriété **AppDistributionMode** dans les détails d’un enregistrement donné. 
+Vous pouvez utiliser les journaux d’audit pour les équipes pour examiner les événements dans lesquels les utilisateurs ont installé Power Platform applications à partir de la section **bâti par vos collègues** de la page applications dans Microsoft Teams. Pour cela, effectuez une [recherche dans le journal d’audit](https://docs.microsoft.com/microsoftteams/audit-log-events) pour l’événement teams de l' **application installé** (sous l’opération **AppInstalled** ) pour un utilisateur ou un ensemble d’utilisateurs. Pour rechercher des applications installées **par vos collègues**, recherchez la valeur **TemplatedInstance** dans la propriété **AppDistributionMode** dans les détails d’un enregistrement donné. 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Capture d’écran de la valeur TemplatedInstance dans la propriété AppDistributionMode":::
 
 > [!NOTE]
 > Vous pouvez exporter des enregistrements d’audit au format CSV pour faciliter le filtrage.

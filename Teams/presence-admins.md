@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Découvrez les États de présence dans Teams, ainsi qu les paramètres administratifs de la fonctionnalité Présence.
+description: En savoir plus sur les statuts de présence dans les équipes et les paramètres d’administration de la fonctionnalité de présence.
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
@@ -17,18 +17,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369209"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650947"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
-La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et dans Microsoft 365 ou Office 365), qui indique la disponibilité et l’État actuels de l’utilisateur à d’autres utilisateurs. Par défaut, tous les membres qui utilisent Teams dans votre organisation peuvent voir (en temps quasi-réel) si d’autres utilisateurs sont disponibles en ligne.
-
-La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
+La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et dans Microsoft 365 ou Office 365). Presence indique la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs. Par défaut, tous les membres qui utilisent Teams dans votre organisation peuvent voir (en temps quasi-réel) si d’autres utilisateurs sont disponibles en ligne. La présence est mise à jour en temps réel sur le Web et les versions de bureau lorsque vous actualisez la page sur un appareil mobile.
 
  > [!Note]
  > Pour plus d’informations sur les profils utilisateur d’équipes sur différentes plateformes, voir [fonctionnalités d’équipes par plate-forme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -38,23 +36,23 @@ La présence de Teams dans Outlook est prise en charge dans l’application de b
 |L'utilisateur est configuré|L'application est configurée|
 |:--- |:---|
 | ![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|
-|| ![Une coche verte ouverte indique une Absence du bureau](media/Presence_Available_OOF.png) Disponible, Absent du bureau |
+|| ![Une coche verte ouverte indique une Absence du bureau](media/Presence_Available_OOF.png) Disponible, absent (e) du bureau. Remarque : le message d’absence du Bureau est défini automatiquement pour les périodes pendant lesquelles l’utilisateur définit des « réponses automatiques ». Si l’utilisateur utilise l’application pendant ce laps de temps, il est possible qu’il y ait deux Presence, par exemple « absent (e) du bureau, disponible ». |
 |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé  |
 || ![Un cercle rouge plein indique Occupé au téléphone](media/Presence_Busy.png) Au téléphone|
 || ![Un cercle rouge plein indique Occupé en réunion](media/Presence_Busy.png) En réunion |
 || ![Un cercle rouge ouvert indique Occupé](media/Presence_Busy_OOF.png) Au téléphone, absent du bureau|
 |  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
 || ![Un cercle rouge avec une ligne blanche indique En cours de présentation](media/Presence_DND.png) En cours de présentation|
-|| ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Travail individuel en cours|
+|| ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Focalis. Le focus se produit quand l’utilisateur planifie le temps de mise au point dans MyAnalytics/Insights dans ses calendriers.|
 | ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
-|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Apparaître hors connexion | ![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Hors connexion| |
+|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Apparaître hors connexion. Bientôt disponible dans Teams.|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Mise.  Lorsque les utilisateurs ne sont pas connectés sur leur appareil pendant quelques minutes, ils s’affichent hors ligne. | |
 || ![Un cercle gris ouvert indique un statut inconnu](media/Presence_Unknown.png) Statut inconnu|
-|| ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent du bureau|
+|| ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent (e) du bureau. Absent (e) du Bureau est utilisé lorsqu’une réponse automatique est définie. (Disponible uniquement dans Outlook). |
 |||
 
-Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Notez que lorsque vous êtes en mode focus en fonction de votre calendrier, l’état de l’utilisateur dans teams s’affichera comme ne pas déranger dans les autres produits.
+Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Lorsque vous êtes en mode focus en fonction de votre calendrier **, il** s’agit de l’état que voient les destinataires dans Teams. Le mode focus s’affichera comme **ne pas déranger** dans les autres produits.
 
 Votre statut de présence actuel passe à absent (e) lorsque vous verrouillez votre ordinateur ou lorsque votre ordinateur passe en mode inactif ou veille. Sur un appareil mobile, votre statut de présence passe à absent (e) lorsque l’application teams est en arrière-plan.
 
@@ -64,7 +62,12 @@ Les utilisateurs reçoivent des appels quel que soit l'état de présence, à l�
 
 Les utilisateurs peuvent ajouter des utilisateurs à leur liste d’accès prioritaire en accédant à **Paramètres** > **Confidentialité** dans Teams. Les personnes disposant d’un accès prioritaire peuvent contacter l’utilisateur, même lorsque son statut est défini sur ne pas déranger.
 
+### <a name="dual-presence"></a>Double présence
+
+  Le mode de présence fonctionne pour la plupart des utilisateurs, par exemple, dans les événements de calendrier ou de périphérique, tels qu’un appel. L’utilisateur peut modifier ce statut dans l’interface utilisateur en définissant manuellement des États, qui ont un délai d’expiration.
+
 ## <a name="user-configured-states-expiration"></a>Expiration des États configurés par l’utilisateur
+
 Lorsqu’un utilisateur sélectionne un état de présence spécifique, il est prioritaire sur les mises à jour des activités d’applications. Par exemple, si un utilisateur vous le définit comme ne pas déranger, il restera comme ne pas déranger, même si la personne participe à une réunion ou répond à un appel.
 
 Les États configurés par l’utilisateur ont des paramètres d’expiration par défaut dans Teams, afin d’empêcher les utilisateurs d’afficher un statut qui n’est pas pertinent après une période donnée.
@@ -80,7 +83,7 @@ Les États configurés par l’utilisateur ont des paramètres d’expiration pa
 
 Les paramètres d’administration suivants de Skype Entreprise sont différents de ceux dans Teams :
 
-- Le partage de présence est toujours activé dans Teams pour les utilisateurs de l’organisation. La configuration de la confidentialité (dans laquelle vous définissez les personnes pouvant voir la présence) n’est pas disponible dans Teams.
+- Le partage de présence est toujours activé dans Teams pour les utilisateurs de l’organisation. La configuration de la confidentialité (dans laquelle vous définissez qui peut voir présence) n’est pas disponible dans Teams.
 - Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts**.
 - Les fonctionnalités du client Ne sont pas déranger et Autorisé à appeler sont toujours activées pour les utilisateurs Teams.
 - L'intégration du calendrier (comprend les informations d’absence du bureau et d’autres informations de calendrier) est toujours activée pour les utilisateurs lorsque Teams est intégrée à Outlook.
@@ -89,6 +92,12 @@ Les paramètres d’administration suivants de Skype Entreprise sont différents
 > [!NOTE]
 > La possibilité pour un administrateur Teams de personnaliser ces paramètres n’est pas prise en charge pour le moment.
 
+## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Paramètres d’administration dans teams par rapport à Microsoft Outlook
+
+La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
+
+Si la stratégie mode de mise à niveau du compte d’utilisateur est définie sur TeamsOnly, Outlook parle à teams pour obtenir de la présence. Si ce n’est pas le cas, vous pouvez faire en sorte qu’Outlook parle à Skype entreprise.
+
 ## <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
-Pour plus d’informations sur les fonctions de présence Teams lorsque votre organisation utilise également Skype Entreprise, voir [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md).
+Pour plus d’informations sur la façon dont votre organisation utilise également Skype entreprise, voir [coexistence avec Skype entreprise](coexistence-chat-calls-presence.md) .

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db0c7b0d151a12852adffafeda9d84475b82e055
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320789"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650967"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -114,7 +114,7 @@ Les solutions d’enregistrement de la conformité sont intégrées aux équipes
 Le composant principal de la solution d’enregistrement de la conformité est l’enregistreur.
 Les enregistreurs sont basés sur des services basés sur la fonction Azure (robots) qui [<span class="underline">tirent parti de la plateforme de communication de Microsoft</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview) et sont enregistrés en tant qu’applications avec Microsoft Graph. L’enregistreur d’enregistrements fournit une interaction directe avec les API d’appel et de réunion de la [<span class="underline">plateforme de communication</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) et fournit le point de terminaison d’acquisition multimédia.
 
-Un [<span class="underline">exemple d’application d’enregistrement de conformité est disponible</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) , qui montre comment configurer le bot, créer l’instance d’application et affecter les stratégies de conformité. Cet exemple inclut également des exemples d’utilisation d’API pour l’enregistrement d’interactions spécifiques telles que le traitement de l’acheminement des [<span class="underline">appels entrants</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)   , le [<span class="underline">changement d’état d’enregistrement</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)et [<span class="underline">la suppression de l’utilisateur enregistré</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
+Un [<span class="underline">exemple d’application d’enregistrement de conformité est disponible</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) , qui montre comment configurer le bot, créer l’instance d’application et affecter les stratégies de conformité. Cet exemple inclut également des exemples d’utilisation d’API pour l’enregistrement d’interactions spécifiques telles que le traitement de l’acheminement des [<span class="underline">appels entrants</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) , le [<span class="underline">changement d’état d’enregistrement</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)et [<span class="underline">la suppression de l’utilisateur enregistré</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 La documentation Graph sur les API spécifiques est disponible ici pour [<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http) et [<span class="underline">incomingContext</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0).
 
 L’implémentation exacte du service d’enregistreur d’enregistrements varie en fonction du partenaire, mais doit être conçue pour prendre en charge plusieurs enregistreurs afin de garantir une disponibilité élevée et une distribution géographique du déploiement afin de réduire la latence entre teams et l’enregistreur. De plus, il est probable que les enregistreurs eux-mêmes soient conçus en fonction de la résilience et de la redondance à l’esprit.
@@ -206,15 +206,19 @@ La prise en charge des notifications est activée à l’aide de l’expérience
 
 Outre la publication d’API disponibles à des fins publiques permettant aux partenaires de développer et d’intégrer des solutions CCaaSes avec Teams, nous avons mis en garde l’enregistrement de la conformité pour le programme de certification de Microsoft Teams, afin de fournir aux clients l’assurance que les solutions de chaque partenaire participant ont été testées et vérifiées pour fournir la qualité, la compatibilité et la fiabilité de leurs solutions  
 
-Les partenaires suivants sont en train de certifier leur solution pour Microsoft Teams.  
+Les partenaires suivants sont en train de certifier leur solution pour Microsoft Teams.
 
 |Partenaire|Site Web de solution |
 |:--|:--|
 |Technologies ASC |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
+|Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|Technologies Landis |[https://landistechnologies.com/](https://landistechnologies.com/) |
+|Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |BELLE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|Innovation Oak |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Zone rouge |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 

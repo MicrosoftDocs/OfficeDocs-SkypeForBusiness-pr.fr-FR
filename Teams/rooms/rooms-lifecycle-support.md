@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Apprenez-en davantage sur la prise en charge du cycle de vie des salles de Microsoft Teams, y compris la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336982"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650917"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Prise en charge de la version de l’application Microsoft teams
  
@@ -38,7 +38,7 @@ Toutes les versions sont répertoriées dans les [notes de publication de Micros
 
 ## <a name="windows-10-release-support"></a>Prise en charge de Windows 10
 
-Dans les options de maintenance du canal semi-annuel de Microsoft Teams, il est nécessaire de disposer des références SKU Windows 10 IoT entreprise ou Windows 10 entreprise. Ces autres éditions de Windows 10 ne sont pas prises en charge :
+Dans les options de service de canal Semi-Annual de service de canal de Microsoft Teams, vous devez disposer des références SKU Windows 10 IoT entreprise ou Windows 10 entreprise. Ces autres éditions de Windows 10 ne sont pas prises en charge :
 
 - Éditions de Windows 10 entreprise de maintenance à long terme (LTSB)/canal de maintenance à long terme (LTSC)
 - Internet sur Windows 10 d’objets (IoT) Enterprise LTSB/LTSC éditions
@@ -53,7 +53,8 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 
 |Version  |Date de disponibilité   |État du support de Microsoft teams   |Version d’application minimum de Microsoft teams | Build recommandée du système d’exploitation  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |Sous validation, <br/>Déconseillé|&#x2014; |19041,264 |
+| 20H2 |2020-10-20 |Sous validation, <br/>Non prise en charge pour le moment|&#x2014; |19042,572 |
+| 2004 |2020-05-27 |Ignoré <br/> Déconseillé|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Pris en charge <br/>Recommandation |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Pris en charge  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Non pris en charge, <br/>Problèmes de compatibilité connus &#x2780;|&#x2014; |&#x2014; |
@@ -67,7 +68,7 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 
 Lorsque vous utilisez une version prise en charge de Windows 10, vous obtiendrez toujours les dernières mises à jour de l’application pour l’application Microsoft teams salles.  
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

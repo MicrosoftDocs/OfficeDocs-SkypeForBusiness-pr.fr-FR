@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients pour les partenaires Microsoft et/ou les opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814240"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655521"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur le déploiement et la configuration de SBCs pour 
 - **Oracle :** [notes de configuration de routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section « Microsoft ». 
 - **Communications du ruban :**  Pour plus d’informations sur la configuration du ruban de base du ruban, voir le [Guide de configuration de Microsoft teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) (en anglais [)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) sur la configuration de l’interface du ruban de Microsoft Teams, reportez-vous à la rubrique recommandations pour le routage
 - **Te-systèmes (anynode) :**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
-- **Basculer entre :**  Inscrivez-vous sur la page de la communauté sur le [switch](https://sso.metaswitch.com/UI/Login) pour savoir comment activer Perimeta SBC pour plusieurs clients.
+- **Basculer entre :**  Inscrivez-vous sur la page de la communauté sur le [switch](https://manuals.metaswitch.com/MAN39555) pour savoir comment activer Perimeta SBC pour plusieurs clients.
 
 > [!NOTE]
 > Veuillez nous concentrer sur la configuration de l’en-tête « contact ». L’en-tête contact permet de rechercher le locataire du client dans le message d’invitation entrant. 
@@ -87,13 +87,13 @@ Le diagramme suivant récapitule les exigences relatives aux domaines de base, s
 
 ![Diagramme présentant les exigences relatives aux domaines et en-tête de contact](media/direct-routing-1-sbc-requirements.png)
 
-L’SBC nécessite un certificat pour authentifier les connexions. Pour le scénario d’hébergement SBC, l’opérateur doit demander un certificat avec le SAN * \* . base_domain (par exemple, \* . Customers.adatum.biz)*. Ce certificat peut être utilisé pour authentifier les connexions à plusieurs clients desservis à partir d’un SBC unique.
+L’SBC nécessite un certificat pour authentifier les connexions. Pour le scénario d’hébergement SBC, l’opérateur doit demander un certificat avec le SAN * \* .base_domain (par exemple, \* . Customers.adatum.biz)*. Ce certificat peut être utilisé pour authentifier les connexions à plusieurs clients desservis à partir d’un SBC unique.
 
 
 Le tableau suivant illustre une configuration.
 
 
-|Nouveau nom de domaine |Type|Enregistrement  |Certificat SAN pour SBC  |Domaine par défaut du client dans l’exemple  |Nom de domaine complet que SBC doit présenter dans l’en-tête de contact lors de l’envoi d’appels aux utilisateurs|
+|Nouveau nom de domaine |Tapez|Enregistrement  |Certificat SAN pour SBC  |Domaine par défaut du client dans l’exemple  |Nom de domaine complet que SBC doit présenter dans l’en-tête de contact lors de l’envoi d’appels aux utilisateurs|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    Assiette     |     Client du transporteur  |    \*. customers.adatum.biz  |   adatum.biz      |NA, il s’agit d’un client de service, sans utilisateurs. |
 |sbc1.customers.adatum.biz|    Sous-domaine  |    Dans un client client  |    \*. customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -240,7 +240,7 @@ Deux nouvelles entités ont été introduites :
 
 **Migration du modèle précédent vers le Trunk de l’opérateur**
  
-Pour effectuer une migration à partir de l’implémentation actuelle du modèle hébergé sur l’opérateur vers le nouveau modèle, les opérateurs doivent reconfigurer les Trunks pour les clients clients. Supprimez les Trunks des clients de clients à l’aide de Remove-CSOnlinePSTNGateway (en laissant le Trunk dans le client de l’opérateur)-
+Pour effectuer une migration à partir de l’implémentation actuelle du modèle hébergé sur l’opérateur vers le nouveau modèle, les opérateurs doivent reconfigurer les Trunks pour les clients clients. Supprimer les Trunks des locataires de clients à l’aide de Remove-CSOnlinePSTNGateway (en laissant le Trunk dans le client de l’opérateur)-
 
 Nous vous encourageons vivement à procéder à une migration vers la nouvelle solution le plus rapidement possible, car nous améliorerons la surveillance et l’approvisionnement en utilisant le porteur et le modèle de Trunk dérivé.
  

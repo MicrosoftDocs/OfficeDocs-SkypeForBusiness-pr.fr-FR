@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs du routage direct du système Microsoft Phone.
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814543"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655481"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Permettre aux utilisateurs d’utiliser le routage direct, les appels vocaux et la messagerie vocale
 
@@ -91,7 +91,7 @@ Pour ajouter le numéro de téléphone et l’activer pour la boîte vocale, pro
 2. Émettez la commande suivante : 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Beaune Low », entrez ce qui suit : 
@@ -99,9 +99,18 @@ Pour ajouter le numéro de téléphone et l’activer pour la boîte vocale, pro
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    Si les utilisateurs « Beaune Low » et « Stacy Quinn » partagent le même numéro de base avec des extensions uniques, entrez ce qui suit :
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    Le numéro de téléphone utilisé doit être configuré en tant que numéro de téléphone avec l’indicatif du pays. 
-
+    Nous vous conseillons de ne pas avoir besoin de configurer le numéro de téléphone avec l’indicatif du pays. Il est pris en charge pour configurer des numéros de téléphone avec des extensions qui seront utilisées pour rechercher des utilisateurs lorsque la recherche par rapport au numéro de base renvoie plusieurs résultats. Cela permet aux entreprises de configurer des numéros de téléphone avec les mêmes numéros de base et les mêmes extensions uniques. Pour que la recherche réussisse, l’invitation doit inclure le numéro complet avec l’extension comme suit :
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’interpréteur de commandes ou le panneau de configuration Skype entreprise local pour configurer le numéro de téléphone de l’utilisateur. 
 

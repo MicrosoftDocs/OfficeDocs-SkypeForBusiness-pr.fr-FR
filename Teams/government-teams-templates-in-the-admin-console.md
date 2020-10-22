@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424714"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655511"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>Utiliser les modèles du ministère des équipes dans le centre d’administration
 
@@ -44,7 +44,7 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [commencer �
 
 Centralisation des communications et des ressources critiques pour votre équipe de gestion des crises ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure de nombreux types de fichiers différents pour créer un emplacement centralisé pour tous vos documents. Utiliser les réunions en ligne pour améliorer la sensibilisation du flux d’informations et de la situation.
 
-| Type de modèle de base | | Propriétés fournies avec ce modèle de base |
-| ------------------|-- |----------------------------------------------------- |
+| Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
+|-------------------|-------|---------------------------------------------------------------------------|
 |Coordonnées de la réponse d’incident|`com.microsoft.teams.template.CoordinateIncidentResponse` |Canaux <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Restaurer</li><li>Examiné</li></ul> Logiciels <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
 ||||

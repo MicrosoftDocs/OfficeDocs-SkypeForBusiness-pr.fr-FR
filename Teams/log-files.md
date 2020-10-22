@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766758"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650827"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -90,11 +90,11 @@ Les journaux de débogage sont automatiquement téléchargés dans les dossiers 
 <a name="media-logs"></a>Journaux des médias
 ---------------------------
 
-Les journaux multimédias contiennent des données de diagnostic sur l’audio, la vidéo et le partage d’écran dans les réunions Teams. Ils sont requis pour les cas d’assistance uniquement en cas de demande et ne peuvent être vérifiés par Microsoft. 
+Les journaux multimédias contiennent des données de diagnostic sur l’audio, la vidéo et le partage d’écran dans les réunions Teams. Ils sont requis pour les cas de support liés aux problèmes liés aux appels.
 
-La journalisation multimédia est désactivée par défaut. Pour consigner les données de diagnostic pour les réunions d’équipes, les utilisateurs doivent activer l’option dans le client Teams. Accédez à **paramètres**  >  **généraux**, activez la case à cocher **activer la journalisation des diagnostics de réunion (nécessite le redémarrage de l’équipe**), puis redémarrez Teams.
+La journalisation multimédia est désactivée par défaut. Pour consigner les données de diagnostic pour les réunions d’équipes, les utilisateurs doivent activer l’option dans le client Teams. Accédez à **paramètres**  >  **généraux**, activez la case à cocher **activer la journalisation des diagnostics de réunion (nécessite le redémarrage de l’équipe**), puis redémarrez teams et reproduisez le problème. 
 
-Le tableau suivant présente les emplacements du journal.
+Le tableau suivant présente les emplacements du journal multimédia. Lorsque vous envoyez les fichiers journaux au support Microsoft, vérifiez l’horodatage des fichiers journaux pour vous assurer que les journaux dépassent la plage de temps pendant laquelle vous avez reproduire le problème.
 
 |Client |Lieu |
 |---------|---------|
@@ -143,4 +143,3 @@ Mac OsX :
 ## <a name="related-topics"></a>Voir aussi
 
 [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-
