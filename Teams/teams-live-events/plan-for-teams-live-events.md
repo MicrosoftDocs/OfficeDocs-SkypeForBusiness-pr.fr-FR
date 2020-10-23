@@ -18,36 +18,36 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
-ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
+ms.openlocfilehash: 9ac74a75ff159a4ec00a660c4bb01759614c8d10
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408147"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655490"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
 Lorsque vous planifiez des événements en direct Teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez tenir compte de plusieurs facteurs avant de démarrer la configuration.
 
  > [!Note]
-> Pour plus d’informations sur les événements en direct Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Pour en savoir plus sur les exigences en matière de bande passante pour les événements en direct Teams [préparer votre organisation](../prepare-network.md) .
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Qui peut rejoindre, créer et planifier des événements en direct ?
 
-Tout le monde, avec ou sans licence, peut participer à un événement en direct. Lisez [Démarrage rapide : réunions et événements en direct](../quick-start-meetings-live-events.md).
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
 
 Les conditions suivantes sont requises pour un utilisateur pour configurer un événement en direct Teams.
 
 Voici les licences qui doivent être attribuées pour produire ou présenter une équipe en direct événement :  
 
-- Une licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, ou une licence Office 365 Éducation A3 ou A5. L’exception à cette condition est que les utilisateurs invités peuvent se présenter sans licence si les autres critères pour les [utilisateurs invités](plan-for-teams-live-events.md#guest-to-present) sont remplis.
+- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Licence Microsoft Teams : elle fait partie des licences répertoriées dans la première puce.
 - Une licence Microsoft Stream est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
-  Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Azure Media Services (AMS) avec une limite de 30 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
+  Les utilisateurs n’ont pas besoin de licence Microsoft Stream affecté si vous voulez que les utilisateurs enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais stockés dans Azure Media Services (AMS) avec une limite de 180 jours avant sa suppression. À ce stade, un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
 > Pour l’instant, il n’existe aucune offre Microsoft 365 pour les petites entreprises pouvant être utilisée pour créer et organiser des événements Teams en direct.
@@ -82,7 +82,7 @@ Pour qu'un invité soit présent dans un événement en direct, procédez comme 
 2. Demandez à l’utilisateur d’accepter l’invitation invité et de rejoindre l’équipe.
 3. [Planifiez l’événement en direct et ajoutez l’invité à votre groupe d’événements](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Nous vous recommandons de créer un canal pour les fabricants et présentateurs de l’événement en direct, afin qu’ils puissent discuter et partager des informations avant l’événement. Les invités qui n’ont pas d’informations d’identification Microsoft 365 ne pourront pas afficher le calendrier dans Teams. Pour permettre aux utilisateurs de participer aisément à l’événement, les producteurs peuvent publier le lien de l’événement vers le canal. Les présentateurs peuvent ensuite ouvrir Teams, accéder au canal, puis cliquer sur le lien pour participer à l’événement.
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
 
 ## <a name="who-can-watch-live-events"></a>Qui peut regarder les événements en direct
 
@@ -109,8 +109,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 >- Jusqu’à 50 événements simultanés par client Teams
 >- Jusqu’à 16 heures par diffusion
 >
-> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](../teams-add-on-licensing/advanced-communications.md).**
-
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
 
 |**Fonctionnalité**   |**Diffusion de réunion Skype** |**Événements générés dans Teams** |**Événements générés dans une application ou un appareil externe** |
 |---------|---------|---------|---------|
@@ -141,12 +140,12 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Les limites définies peuvent être modifiées. Consultez [Spécifications et limites de Microsoft Teams](../limits-specifications-teams.md).<br/>
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> vous pouvez avoir jusqu’à 250 présentateurs et producteurs dans un événement en direct, mais seules les 10 dernières qui en ont fait mention dans la liste.
 
 ## <a name="regional-availability"></a>Disponibilité régionale
 
-Vous pouvez utiliser les événements en direct Teams dans plusieurs régions dans le monde entier. Les informations suivantes montrent la disponibilité pour les membres de l’équipe et des participants de l’événement.
+You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
 > La région de l’événement est sélectionnée automatiquement en fonction de l’organisateur et de l’emplacement du locataire Microsoft 365.
@@ -182,7 +181,7 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 **Exclusions et points à prendre en compte**
 
 - **Emplacement des données :** les emplacements de données de Teams, en dehors de ceux répertoriés ci-dessus, ne sont pas pris en charge pour le moment.
-- **Chine :** membres de l’équipe et les participants ne pourront pas utiliser les événements en direct Teams parce qu’Azure CDN n’est pas accessible en Chine. Une solution de contournement consiste à utiliser une connexion VPN d’entreprise qui permet au client de se connecter au réseau de distribution de contenu via le réseau d’entreprise du client.
+- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
