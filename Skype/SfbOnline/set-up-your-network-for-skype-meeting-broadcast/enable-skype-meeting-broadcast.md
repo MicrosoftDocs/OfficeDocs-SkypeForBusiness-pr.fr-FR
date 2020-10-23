@@ -19,27 +19,30 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Pour que les membres de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour cela, vous devez savoir comment utiliser Windows PowerShell. Si vous ne savez pas Windows PowerShell, envisagez d’utiliser un partenaire Microsoft pour cette étape.
-ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778119"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739052"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Activer une diffusion de réunion Skype
 
-Pour que les membres de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour cela, vous devez savoir comment utiliser Windows PowerShell. Si vous ne savez pas Windows PowerShell, envisagez d’utiliser un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour cette étape.
+> [!IMPORTANT]
+> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+
+Pour que les membres de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour cela, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Activer la diffusion de réunion Skype au moyen du Centre d'administration de Skype Entreprise
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Connectez-vous à l’aide de votre compte d’administrateur général ou du [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)compte d’administrateur de Skype entreprise.
+1. Connectez-vous à l’aide de votre compte d’administrateur général ou du compte d’administrateur de Skype entreprise [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. Dans le centre d’administration, accédez **à centre d'** > administration**teams**.
+2. Dans le centre d’administration, accédez **à centre d’administration**  >  **teams**.
     
-3. Dans le **Centre d’administration teams**, accédez à**réunions**d' **ancienneté du portail** > **en ligne** > , puis sélectionnez **activer la diffusion de réunion Skype**.
+3. Dans le **Centre d’administration teams**, accédez à réunions d' **ancienneté du portail**  >  **en ligne**  >  **Broadcast meetings**, puis sélectionnez **activer la diffusion de réunion Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Activer la diffusion de réunion Skype avec PowerShell
 
@@ -79,7 +82,7 @@ Pour que les membres de votre organisation puissent utiliser la diffusion de ré
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Vous pouvez vérifier que le paramètre est activé en exécutant `Get-CsBroadcastMeetingConfiguration` de nouveau.
+    Vous pouvez vérifier que le paramètre est activé en exécutant de  `Get-CsBroadcastMeetingConfiguration` nouveau.
     
      ![Applet de commande d'activation de la diffusion de réunion Skype pour votre organisation.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
