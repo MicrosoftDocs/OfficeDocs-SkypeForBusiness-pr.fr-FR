@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610056"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739322"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
 Cet article fournit une vue d’ensemble des exigences relatives à l’évaluation correcte de votre environnement actuel pour l’utilisation des services vocaux Cloud. En évaluant votre environnement, vous identifiez les risques et les exigences qui influenceront votre déploiement global de voix sur le Cloud. En identifiant ces éléments à l’aide de la commande, vous pouvez ajuster la planification du succès.
 
-## <a name="introduction-to-evaluating-your-environment"></a>Introduction à l’évaluation de votre environnement 
+## <a name="introduction-to-evaluating-your-environment"></a>Introduction à l’évaluation de votre environnement
 
 Pour obtenir les résultats de votre clé objective (OKRs), vous avez déjà effectué des décisions relatives aux services clés. L’étape suivante consiste à effectuer une recherche environnementale pour évaluer tous les aspects liés à votre infrastructure et à votre infrastructure de téléphonie et de téléphonie, afin de vérifier que votre organisation est prête à implémenter la solution.
 
@@ -49,13 +49,14 @@ La découverte environnementale peut également vous indiquer si vous avez besoi
 Le fait de savoir que cela aidera votre organisation à ajuster son plan de projet en conséquence et à préparer les informations nécessaires au transfert de numéro. Vous pouvez utiliser la [découverte environnementale pour le lancement de Microsoft teams](environmental-discovery-for-microsoft-teams-rollout.md) pour effectuer une découverte environnementale.
 
 <table>
+<tr><td>Titre</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui sera chargé d’effectuer une évaluation de l’environnement ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documentez les résultats de l’évaluation de l’environnement.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="adoption-and-change-management-assessment-capabilities"></a>Fonctionnalités d’évaluation et d’adoption de la gestion des modifications 
+## <a name="adoption-and-change-management-assessment-capabilities"></a>Fonctionnalités d’évaluation et d’adoption de la gestion des modifications
 
 Le déploiement met une nouvelle technologie à la portée de l’utilisateur, mais les résultats commerciaux ne sont réalisés qu’après que les utilisateurs ont réellement adopté cette solution comme leurs siennes. Pour garantir une adoption soutenue d’une nouvelle solution, vous devez vous concentrer sur les efforts de préparation et de gestion des utilisateurs. Pour des résultats optimaux, procédez à la planification de la préparation des utilisateurs en tant que flux de flux parallèle à vos activités techniques de compatibilité et intégrez les activités suivantes :
 
@@ -66,6 +67,7 @@ Le déploiement met une nouvelle technologie à la portée de l’utilisateur, m
 Utilisez les considérations suivantes pour évaluer la préparation de votre organisation à la gestion des modifications de l’utilisateur.
 
 <table>
+<tr><td>Titre</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi à avoir adopté des logiciels ou des services pour les utilisateurs ?</li><li>Est-il possible d’effectuer le suivi de l’utilisation ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une &mdash; campagne d' &mdash; adoption initiale et en cours (sensibilisation, formation et assistance) ?</li><li>Avez-vous une équipe dédiée de gestion des changements ou d’adoption d’utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir les résultats de votre entreprise ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous répondez &quot; Oui &quot; à tous les éléments ci-dessus, identifiez les principales parties prenantes en matière de gestion du changement d’utilisateur et commencez votre planification de préparation des utilisateurs.</li><li>Si vous répondez &quot; non &quot; à tout ou partie des éléments ci-dessus, envisagez d’utiliser des ressources externes pour faciliter la gestion des modifications et les activités liées à l’adoption pour votre organisation.</li></ol></td></tr>
 </table>
@@ -130,15 +132,15 @@ Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour 
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Comme VPN, les réseaux Wi-Fi ne sont pas nécessairement conçus ou configurés pour prendre en charge les contenus multimédias en temps réel. La planification d’un réseau Wi-Fi pour la prise en charge des équipes est une considération importante pour un déploiement de grande qualité.
+Comme VPN, les réseaux Wi-Fi ne sont pas nécessairement conçus ou configurés pour prendre en charge les contenus multimédias en temps réel. Pour un déploiement de grande qualité, la planification d’un réseau Wi-Fi pour la prise en charge des équipes est une considération importante.
 
-Il existe plusieurs facteurs qui entrent en jeu pour optimiser un réseau Wi-Fi :
+Il existe plusieurs facteurs qui entrent en jeu pour l’optimisation d’une Wi-Fi réseau :
 
 -   Mettre en œuvre la QoS ou le Wi-Fi Multimedia (WMM) pour s'assurer que le trafic média est priorisé en conséquence sur les réseaux Wi-Fi.
 
--   Planification et optimisation des bandes Wi-Fi et du placement des points d’accès. La gamme de 2,4 GHz peut fournir une expérience adéquate en fonction de l'emplacement des points d'accès, mais les points d'accès sont souvent affectés par d'autres appareils grand public qui fonctionnent dans cette gamme. La gamme de 5 GHz est mieux adaptée aux médias en temps réel en raison de leur portée dense, mais nécessite plus de points d'accès pour obtenir une couverture suffisante. Les points de terminaison doivent également prendre en charge cette plage et être configurés pour exploiter ces bandes en conséquence.
+-   La planification et l’optimisation des bandes Wi-Fi et du placement des points d’accès. La gamme de 2,4 GHz peut fournir une expérience adéquate en fonction de l'emplacement des points d'accès, mais les points d'accès sont souvent affectés par d'autres appareils grand public qui fonctionnent dans cette gamme. La gamme de 5 GHz est mieux adaptée aux médias en temps réel en raison de leur portée dense, mais nécessite plus de points d'accès pour obtenir une couverture suffisante. Les points de terminaison doivent également prendre en charge cette plage et être configurés pour exploiter ces bandes en conséquence.
 
--   Si les réseaux Wi-Fi bibande sont déployés, envisagez d’implémenter la direction de bandes. La direction de bandes est une technique mise en œuvre par les fournisseurs de réseaux Wi-Fi pour influencer les clients à double bande et utiliser la plage de 5 GHz.
+-   S’il s’agit de réseaux Wi-Fi double bande, envisagez d’implémenter la direction de bandes. La direction de bandes est une technique implémentée par les fournisseurs de Wi-Fi pour influencer les clients à double bande et utiliser la plage de 5 GHz.
 
 -   Lorsque les points d’accès du même canal sont trop proches, ils peuvent provoquer le chevauchement du signal et la concurrence involontaire, ce qui engendre une mauvaise utilisation de l’utilisateur. Assurez-vous que les points d’accès adjacents s’exécutent sur des canaux qui ne se chevauchent pas.
 
@@ -166,14 +168,14 @@ Une fois que vous avez terminé votre planification et préparation du réseau, 
 
 Vous pouvez télécharger l' [outil d’évaluation du réseau Skype entreprise](https://www.microsoft.com/download/details.aspx?id=53885) pour tester si votre réseau est prêt pour les équipes. L’outil offre une double fonctionnalité : il peut tester si tous les ports corrects ont été ouverts et tester les problèmes de réseau.
 
-Une fois que vous avez téléchargé et installé l’outil, vous pouvez le trouver dans le \\ fichier de programmation \\ Microsoft Skype entreprise Network Assessment outil. Un guide détaillé pour l’utilisation de l’outil, utilisation. docx, est inclus dans ce répertoire.
+Une fois que vous avez téléchargé et installé l’outil, vous pouvez le trouver dans le \\ fichier de programmation \\ Microsoft Skype entreprise Network Assessment outil. Un guide détaillé pour savoir comment utiliser l’outil Usage.docx est inclus dans ce répertoire.
 
 ### <a name="test-for-opened-ports"></a>Tester les ports ouverts
 
-Ouvrez une fenêtre d’invite de commandes et naviguez jusqu’au répertoire de l’outil d’évaluation du réseau en entrant le **CD-C : \\ Program Files \\ Microsoft Skype entreprise Network Assessment Tool**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool. exe/connectivitycheck**
+Ouvrez une fenêtre d’invite de commandes et naviguez jusqu’au répertoire de l’outil d’évaluation du réseau en entrant le **CD-C : \\ Program Files \\ Microsoft Skype entreprise Network Assessment Tool**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool.exe/connectivitycheck**
 
 Après avoir exécuté les tests, l’outil affiche le message « vérification réussie » ou rapport sur les ports qui ont été bloqués.
-Il génère également un fichier nommé Connectivity_results. txt, qui contient la sortie de l’outil et l’enregistre dans le dossier% UserProfile% AppData de l’outil d' \\ \\ évaluation du \\ réseau Skype entreprise local \\ .
+Il génère également un fichier nommé Connectivity_results.txt, qui contient la sortie de l’outil et l’enregistre dans le dossier% UserProfile% \\ AppData Local de l’outil d’évaluation du \\ \\ réseau Skype entreprise \\ .
 
 Nous vous recommandons d’exécuter les vérifications de connectivité régulièrement pour vous assurer que les ports ont été ouverts et qu’ils fonctionnent correctement.
 
@@ -196,7 +198,7 @@ Lorsque vous testez ces déficiences, nous faisons la distinction entre deux seg
 
 -   Le *segment de client* est le segment réseau logique dans lequel résident vos clients.
 
-Testez les deux segments à l’aide de l’outil d’évaluation du réseau. Pour tester le segment, accédez au répertoire et entrez **networkassessmenttool. exe** à l’invite de commandes. Les résultats sont écrits dans un fichier nommé results. TSV et vous pouvez les comparer aux [exigences](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de chaque segment.
+Testez les deux segments à l’aide de l’outil d’évaluation du réseau. Pour tester le segment, accédez au répertoire et entrez **networkassessmenttool.exe** à l’invite de commandes. Les résultats sont écrits dans un fichier nommé results. TSV et vous pouvez les comparer aux [exigences](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de chaque segment.
 
 Notez que les deux segments doivent respecter les exigences requises pour un déploiement de grande qualité. Nous vous recommandons d’exécuter l’outil plusieurs fois pour une heure pour obtenir une bonne indication des performances de votre réseau.
 
@@ -220,6 +222,7 @@ Pour plus d’informations, reportez-vous à la section [qualité de service de 
 
 
 <table>
+<tr><td>Titre</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui est responsable de l’exécution correcte des évaluations réseau sur tous les segments réseau et emplacements de l’Organisation ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une analyse du réseau détaillée pour vous assurer que votre réseau est prêt pour le déploiement de Microsoft Teams.</li><li>Effectuez une correction du réseau en fonction des résultats de l’évaluation de chaque segment réseau.</li></ol></td></tr>
 </table>

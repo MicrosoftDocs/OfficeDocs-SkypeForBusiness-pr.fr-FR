@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportement de coexistence entre les équipes & Skype entreprise, y compris les paramètres de routage, les discussions & le routage des appels, les conversations & les appels existants, les & de présence.
-ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
+ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757235"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48661346"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -52,7 +52,7 @@ Les paramètres qui déterminent la méthode de routage du thread sont les suiva
 - S’il s’agit d’une conversation autonome ou fédérée
 - Si la conversation est possible
     - Une interopérabilité *dans le client* nécessite que le client soit entièrement en ligne ou Skype entreprise hybride. Les clients exclusivement sur site ne peuvent pas avoir d’interopérabilité in-client.
-    - La *Fédération entre clients* nécessite toujours une configuration de la Fédération Skype entreprise appropriée ainsi qu’une configuration de Fédération d’équipe appropriée pour les deux clients. Skype entreprise hybride n’est requis pour aucun client.
+    - La *Fédération entre clients* nécessite toujours une configuration de la Fédération Skype entreprise appropriée ainsi qu’une configuration de Fédération d’équipe appropriée pour les deux clients. Skype entreprise hybride n’est pas requis pour un client.
     - Si le compte Skype entreprise de l’initiateur est hébergé sur site, il ne peut pas utiliser le client teams pour une interopérabilité entre les clients ou pour la Fédération. Ce dernier peut uniquement utiliser le client Skype entreprise à des fins d’interopérabilité et de Fédération.
     - La communication équipes vers teams est toujours possible dans le client.
 
@@ -70,7 +70,7 @@ Les messages envoyés aux utilisateurs de TeamsOnly sont toujours routés vers T
 Les tableaux ci-dessous indiquent le client dans un mode donné qui reçoit un appel de la part de l’expéditeur (trois colonnes la plus à gauche), en fonction du mode de l’expéditeur, du client choisi et de l’endroit où le client Skype entreprise est hébergé (locaux ou en ligne).
 
 Dans les tableaux ci-dessous : 
-- **Marketing \* ** représente l’un des modes suivants : *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **Marketing \* * _ représente l’un des modes suivants : _SfBOnly *, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - Le *texte en italique* met en évidence une conversation d’interopérabilité.
 
@@ -78,27 +78,27 @@ Dans les tableaux ci-dessous :
 
 **Tableau 1a : nouvelle conversation ou routage d’appel vers un destinataire du mode insulaire**
 
-| <br/><br/> Veille | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille | | Destinataire <br/><br/> Île  |
+| <br/><br/> Veille | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille |<br/><br/>Route-->| Destinataire <br/><br/> Île  |
 |--- |--- |--- |--- |--- |
-| Île | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Locaux<br/>Locaux| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
+| Île | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Locaux<br/>Locaux| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
 |Marketing\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Locaux<br/> |&boxv;<br/>&boxv;|Skype Entreprise<br/>Skype Entreprise<br/>|
 |TeamsOnly |Équipes| Online<br/>|&boxv;<br/>|Équipes|
 | | | | | |
 
 **Tableau 1b : nouvelle conversation ou routage d’appel dans un destinataire dans un \* mode marketing**
 
-| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille | |   Destinataire <br/><br/> Marketing\*   |
+| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille |<br/><br/>Route--> |   Destinataire <br/><br/> Marketing\*   |
 |--- |--- |--- |---   |--- |
-| Île |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **Ce n’est pas possible** <br/>Skype Entreprise<br/> |
+| Île |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **Ce n’est pas possible** <br/>Skype Entreprise<br/> |
 |Marketing\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Locaux<br/> |&boxv;<br/>&boxv; |  Skype Entreprise<br/>Skype Entreprise<br/> |
 |TeamsOnly |Équipes| Online<br/>|&boxv;<br/> |  *Skype Entreprise* <br/>| 
 | | | | | |
 
 **Tableau 1C : nouvelle conversation ou routage d’appel en mode TeamsOnly sur un client**
 
-| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille | |   Destinataire <br/><br/> TeamsOnly  |
+| <br/><br/> Veille   | Autorité <br/><br/> Client | <br/><br/> Marketing &nbsp; famille |<br/><br/>Route-->|   Destinataire <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Île   |Équipes<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Équipes <br/>*Teams* <br/>Équipes <br/>*Teams*  |
+| Île   |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Équipes <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |Marketing\*  | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Locaux<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Équipes | Online |  &boxv; |Équipes   |
 |  |  |  | | |
@@ -118,27 +118,27 @@ Les tableaux ci-dessous décrivent le client recevant un appel de la part de l�
 
 **Tableau 2a : nouvelle conversation ou routage d’appel vers un destinataire d’îlots**
 
-| <br/><br/>Veille   | Autorité<br/><br/> Client| <br/><br/>Marketing famille| | Destinataire<br/><br/> Île |
+| <br/><br/>Veille   | Autorité<br/><br/> Client| <br/><br/>Marketing famille|<br/><br/>Route--> | Destinataire<br/><br/> Île |
 |--- |--- |--- |--- |--- |
-| Île |Équipes<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **Ce n’est pas possible**   <br/> Skype Entreprise |
+| Île |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **Ce n’est pas possible**   <br/> Skype Entreprise |
 | Marketing\* |Skype Entreprise <br/>Skype Entreprise |Online<br/> Locaux<br/> | &boxv;<br/>&boxv;|Skype Entreprise <br/>Skype Entreprise |
 | TeamsOnly |Équipes |Online| &boxv;|*Skype Entreprise* |
 |  | | | | 
 
 **Tableau 2b : nouvelle conversation ou routage d’appel vers un destinataire dans un \* mode marketing**
 
-| <br/><br/>Veille   | Autorité<br/><br/> Client| <br/><br/>Marketing famille| |  Destinataire<br/><br/> Marketing\* |  
+| <br/><br/>Veille   | Autorité<br/><br/> Client| <br/><br/>Marketing famille|<br/><br/>Route-->|  Destinataire<br/><br/> Marketing\* |  
 |--- |--- |--- |--- |--- |
-| Île |Équipes<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **Ce n’est pas possible** <br/>Skype Entreprise <br/> |  
+| Île |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **Ce n’est pas possible** <br/>Skype Entreprise <br/> |  
 | Marketing\* |Skype Entreprise <br/>Skype Entreprise  |Online<br/> Locaux<br/>  |&boxv;<br/>&boxv; | Skype Entreprise <br/>Skype Entreprise  |
 | TeamsOnly | Équipes|Online |&boxv; |*Skype Entreprise*  |
 |  | | | | |
 
 **Tableau 2C : nouvelle conversation ou routage d’appel vers un destinataire du mode TeamsOnly**
 
-| <br/><br/>Veille | Autorité<br/><br/> Client| <br/><br/>Marketing famille| |  Destinataire<br/>  <br/> TeamsOnly  |
+| <br/><br/>Veille | Autorité<br/><br/> Client| <br/><br/>Marketing famille|<br/><br/>Route-->|  Destinataire<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Île  |Équipes<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Équipes <br/>*Teams* <br/>**Ce n’est pas possible** <br/>*Teams* |
+| Île  |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Locaux<br/> Locaux<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Équipes <br/>*Teams* <br/>**Ce n’est pas possible** <br/>*Teams* |
 | Marketing\* |Skype Entreprise <br/>Skype Entreprise  | Online<br/> Locaux| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Équipes |Online |&boxv; |Équipes |
 |  | | | | |
@@ -189,10 +189,10 @@ Le tableau décrit la présence de l’éditeur qui sera vue par un observateur,
 
 **Tableau 3 : présence dans le client (nouveau thread)**
 
-|Observateurs <br/><br/>Client| |<br/><br/>Île |Publisher <br/><br/>Marketing\* |<br/>Équipes uniquement|
+|Observateurs <br/><br/>Client|<br/><br/>Route--> |<br/><br/>Île |Publisher <br/><br/>Marketing\* |<br/>Équipes uniquement|
 |--- |--- |--- |--- |---|
 |Skype Entreprise |&boxv;|Skype Entreprise | Skype Entreprise | Teams|
-|Teams |&boxv; |Teams |Skype Entreprise |Teams |
+|Teams |&boxv; |Teams |Skype Entreprise |Teams |
 | | | | |
 
 ### <a name="federated-presence"></a>Présence fédérée
@@ -203,10 +203,10 @@ Le tableau ci-dessous décrit la présence de l’éditeur qui sera visible par 
 
 **Tableau 4 : présence fédérée (nouveau thread)**
 
-|Observateurs <br/><br/> Client | |<br/><br/> Île  |Publisher <br/><br/> Marketing\* |<br/><br/> Équipes uniquement |
+|Observateurs <br/><br/> Client |<br/><br/>Route-->|<br/><br/> Île  |Publisher <br/><br/> Marketing\* |<br/><br/> Équipes uniquement |
 |--- |--- |--- |--- |---|
 |Skype Entreprise |&boxv; |Skype Entreprise  | Skype Entreprise  | Teams  |
-|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Teams|
+|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Teams|
 | | | | ||
 
 ### <a name="presence-in-pre-existing-threads"></a>Présence dans les threads préexistants

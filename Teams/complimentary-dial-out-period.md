@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Apprenez-en davantage sur la période de numérotation complète pour Microsoft 365 ou le plan d’appels Office 365 et l’audioconférence Office 365 dans Microsoft Teams.
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690890"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739252"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -68,7 +68,7 @@ Pour plus d’informations sur les crédits de communication, voir [crédits](wh
 
 **Zones A pays et régions**
 
-|    |
+|Pays    |
 |-----|
 |Australie  <br/> |
 |Autriche  <br/> |
@@ -115,5 +115,5 @@ Pour plus d’informations sur les crédits de communication, voir [crédits](wh
 |Royaume-Uni  <br/> |
 |États-Unis  <br/> |
      
-## <a name="related-topics"></a>Rubriques connexes
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## <a name="related-topics"></a>Voir aussi
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650967"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739332"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -50,7 +50,7 @@ Les cas d’utilisation de l’enregistrement d’interactions peuvent être div
 
 Chacune des catégories implique différentes exigences relatives à la manière dont les enregistrements sont initiés, les enregistrements enregistrés, les enregistrements stockés, les personnes qui contrôlent l’accès et la manière dont la rétention est gérée.
 
-|                        | Avantage        | Fonction         | Org-général      | Réglementé par l’Organisation | Interception licite   |
+| Tapez                   | Avantage        | Fonction         | Org-général      | Réglementé par l’Organisation | Interception licite   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | Initiateur              | Utilisateur               | Application/solution       | Administrateur système     | Administrateur système  | LEA                |
 | Cible                 | Par appel/réunion | Par appel/réunion | Par appel/réunion | Par utilisateur        | Par point de terminaison/DID |

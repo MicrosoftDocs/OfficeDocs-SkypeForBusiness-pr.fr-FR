@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235842"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739392"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
@@ -31,10 +31,9 @@ Deux méthodes s’offrent à vous pour les réunions et événements en direct 
 > [!Note]
 > Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 300* personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone.
+ - Les **Réunions** dans Teams incluent les options audio, vidéo et de partage d’écran et peuvent accueillir jusqu’à 300 personnes. C’est l’une des méthodes clés pour collaborer dans Teams. Vous n’avez de plus pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams. Il vous suffit de jeter un coup d’œil aux instructions de l’invitation pour accéder à la réunion par téléphone.
 
  - Les **événements en direct** Microsoft Teams sont une extension des réunions Teams qui vous permettent de planifier et de créer des événements qui sont diffusés à de larges audiences en ligne, à savoir jusqu’à 10 000 contacts. Si vous prévoyez une réunion de plus de 300 personnes, utilisez un événement en direct.
-<br><br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite de cloud gouvernemental passe de 250 à 300. Consultez [Limites et spécifications](limits-specifications-teams.md) pour connaître les dernières informations sur les limites de réunion Teams.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenir des licences pour des réunions et des événements en direct
 

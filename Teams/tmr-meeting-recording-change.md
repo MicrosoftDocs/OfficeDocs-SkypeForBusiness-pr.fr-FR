@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599559"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739222"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -66,6 +66,9 @@ Regardez « enregistrement de la réunion » pour plus d’informations.
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurer l’option d’enregistrement de la réunion pour OneDrive entreprise et SharePoint
+
+> [!Note]
+> L’option d’enregistrement de la réunion est un paramètre au niveau de la stratégie d’équipe. L’exemple suivant montre comment définir la stratégie globale. Assurez-vous de définir l’option d’enregistrement de la réunion pour la ou les stratégies que vous avez affectées à vos utilisateurs. Les modifications de la stratégie de réunion teams prennent un certain temps. Consultez de nouveau après quelques heures de configuration et déconnectez-vous, puis reconnectez-vous.
 
 1. Installez PowerShell Skype entreprise online. 
 **Remarque**: le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la dernière version publique de teams PowerShell, vous n’avez pas besoin d’installer le connecteur Skype entreprise online. Reportez-vous à la rubrique [gestion de Skype entreprise Online avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).

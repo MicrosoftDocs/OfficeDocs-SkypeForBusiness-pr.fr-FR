@@ -15,12 +15,12 @@ description: Créez une stratégie de gestion des modifications pour Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581785"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739092"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -40,7 +40,7 @@ Meilleures pratiques de gestion des modifications pour Teams :
     a.  Des documents de sensibilisation internes tels que des affiches, une signalétique numérique et des événements
 
     b.  Des informations d'auto-assistance et de formation disponibles à un emplacement unique
-    
+
     c.  Un mécanisme de commentaires défini
 
     d.  Des mesures de réussite prédéfinies (adoption de la solution, vues des principaux supports, participation à des cours)
@@ -58,7 +58,7 @@ Meilleures pratiques de gestion des modifications pour Teams :
 
 La première règle d'une adoption réussie consiste à créer une équipe dynamique composée des intervenants clés et des personnes qui peuvent exercer une influence sur les autres. Une stratégie d'adoption réussie commence avec une équipe composée de personnes engagées qui représentent les différents départements de votre organisation. Les parties prenantes clés incluent les responsables exécutifs, les propriétaires de service, les professionnels des technologies de l’information et les champions.
 
-|  |  |
+|Icône  |Description  |
 |---------|---------|
 |![Icône Responsables exécutifs.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Les **responsables exécutifs** sont les principaux dirigeants de l'organisation et leur participation est essentielle à l'adoption des employés. Ils exercent l'influence la plus marquée sur la culture de l'entreprise et peuvent activement communiquer les valeurs et avantages d'une nouvelle technologie et méthode.         |
 |![Icône Propriétaires de service.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Les **propriétaires de services** sont responsables de l’utilisation du service par le service et de leur obtention de valeurs. Il est important de définir les propriétaires de services au sein de votre organisation pour vous assurer que les objectifs de l’entreprise définis pour Microsoft 365 ou Office 365 sont réalisés.         |
