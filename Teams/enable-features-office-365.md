@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583443"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739242"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -97,6 +97,10 @@ La fonction de recherche d’annuaire étendue de Microsoft Teams utilise la st
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
 
 Basculez ce paramètre sur **Activé** pour activer les recherches d’annuaire étendues.
+
+### <a name="skype-for-business"></a>Skype Entreprise
+
+Utilisez cette page pour gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise au sein de votre organisation. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](skype-for-business-settings.md).
 
 ### <a name="teams-upgrade"></a>Mise à niveau de Teams
 

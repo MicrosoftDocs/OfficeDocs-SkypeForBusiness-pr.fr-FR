@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les paramètres des fonctionnalités Skype entreprise dans le centre d’administration Microsoft Teams.
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739232"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753559"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739232"
 
 En tant qu’administrateur, le centre d’administration Microsoft teams vous permet de gérer les fonctionnalités de Skype entreprise pour les utilisateurs Skype entreprise de votre organisation. Vous pouvez gérer les paramètres [de votre organisation](#manage-skype-for-business-settings-for-your-organization) dans la page **Skype entreprise** et [les paramètres d’utilisateurs individuels](#manage-skype-for-business-settings-for-individual-users) dans l’onglet **Skype entreprise** de la page de détails de l’utilisateur.
 
-Le mode de coexistence uniquement dans le centre d’administration Microsoft Teams ne permet pas d’accéder à la page **Skype entreprise** , car le mode de coexistence de votre organisation n’est pas défini sur **équipes uniquement**. De même, vous ne verrez que l’onglet **Skype entreprise** pour un utilisateur si le mode de coexistence de l’utilisateur n’est pas l' **équipe**. Pour en savoir plus sur les modes de coexistence, voir [comprendre les équipes et la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md) et [définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
+La page **Skype entreprise** s’affiche uniquement si le mode de coexistence pour votre organisation n’est pas défini sur **équipes uniquement**. De même, vous ne verrez que l’onglet **Skype entreprise** pour un utilisateur si le mode de coexistence de l’utilisateur n’est pas l' **équipe**. Pour en savoir plus sur les modes de coexistence, voir [comprendre les équipes et la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md) et [définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
 > Les paramètres de Skype entreprise étaient auparavant dans le **portail hérité** dans le centre d’administration Microsoft Teams. Avec la mise hors service du portail hérité, nous avons migré les paramètres vers ces nouveaux emplacements dans le centre d’administration teams pour la gestion de Skype entreprise.
+
+Pour pouvoir gérer les fonctionnalités de Skype entreprise dans le centre d’administration de Microsoft Teams, vous devez avoir le rôle d’administrateur [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype entreprise.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Gestion des paramètres de Skype entreprise pour votre organisation
 

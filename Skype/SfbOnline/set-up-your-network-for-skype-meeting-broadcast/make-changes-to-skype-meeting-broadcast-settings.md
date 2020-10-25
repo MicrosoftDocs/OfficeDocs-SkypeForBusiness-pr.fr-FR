@@ -20,17 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les politiques de ces réunions.
-ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739062"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753409"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Modifier les paramètres de diffusion de réunion Skype pour votre organisation
 
 > [!IMPORTANT]
-> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour pouvoir gérer les fonctionnalités Skype entreprise dans le centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype entreprise. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les politiques de ces réunions.
   
@@ -44,7 +44,7 @@ Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres e
     
 - **URL du support technique pour les participants** Entrez un lien pour permettre aux participants de la diffusion de réunion de vous permettre de vous connecter ou de participer à une diffusion de réunion.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer votre réseau pour la diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

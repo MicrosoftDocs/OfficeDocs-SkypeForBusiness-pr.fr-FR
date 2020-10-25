@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Découvrez comment configurer Skype entreprise afin de pouvoir voir la disponibilité de vos collègues. '
-ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: f2b149a2b6277d356fe4478ee6de12ec6b078f48
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739192"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753449"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
 > [!IMPORTANT]
-> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour pouvoir gérer les fonctionnalités Skype entreprise dans le centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype entreprise. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Par défaut, toute personne qui peut communiquer avec l’un des membres de votre organisation utilisant Skype entreprise peut également voir si elle est en ligne. Skype entreprise indique si une personne est disponible en ligne, en réunion, en mode hors connexion ou dans un autre indicateur.
 

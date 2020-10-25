@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Pour que les membres de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour cela, vous devez savoir comment utiliser Windows PowerShell. Si vous ne savez pas Windows PowerShell, envisagez d’utiliser un partenaire Microsoft pour cette étape.
-ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 20d3671beb608413c5d0d61f599f65a47b55732d
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739052"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753429"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Activer une diffusion de réunion Skype
 
 > [!IMPORTANT]
-> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour pouvoir gérer les fonctionnalités Skype entreprise dans le centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype entreprise. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Pour que les membres de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour cela, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
 
@@ -99,7 +99,7 @@ Si vous n'avez pas l'habitude de configurer votre pare-feu, envisagez de demande
   
 Pour ignorer cette étape et ajouter une autre entreprise à votre fédération, consultez [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur les standards automatiques et les files d’attente d’appels et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menus pour joindre des personnes ou des services au sein de votre organisation.
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209992"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748896"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Plan pour les standards automatiques d’équipe et les files d’attente d’appels
 
@@ -136,13 +136,13 @@ Standards automatiques routez tous les appels de l’une des façons suivantes 
 > [!NOTE]
 > Un standard automatique unique ne peut prendre en charge qu’une seule méthode de « numérotation ».  Pour permettre aux appelants de composer par nom et par numéro, vous devez créer un standard automatique ayant une option de numérotation par nom et l’autre pour composer par poste.  Chacune de ces options sera routée vers des attenants automatiques configurées pour ces scénarios de « numérotation ». 
 
-Lorsque les appels sont redirigés par un standard automatique, vous pouvez choisir l’une des destinations de routage des appels suivantes :
+Lorsque les appels sont redirigés par un standard automatique ou une file d’attente d’appels, vous pouvez choisir l’une des destinations de routage des appels suivantes :
 
 - **Personne de votre organisation** : une personne de votre organisation qui peut recevoir des appels vocaux. Il peut s’agir d’un utilisateur en ligne ou hébergé sur site utilisant Skype entreprise Server.
 - **Application vocale** -autre standard automatique ou file d’attente d’appels. Choisissez le compte de ressources associé à la destination.
 - **Numéro de téléphone externe** -n’importe quel numéro de téléphone. (Voir les [Détails techniques sur les transferts externes](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - Boîte **vocale** -la boîte aux lettres vocale associée à un groupe Microsoft 365 que vous spécifiez.
-- **Opérateur** -l’opérateur défini pour le standard automatique. La définition d’un opérateur est facultative. Un opérateur peut être l’une des autres destinations de cette liste.
+- **Opérateur** (standard automatique uniquement)-l’opérateur défini pour le standard automatique. La définition d’un opérateur est facultative. Un opérateur peut être l’une des autres destinations de cette liste.
 
 Les standards automatiques proposent des options de routage des appels distinctes pour les appels reçus en dehors des heures de travail et des jours fériés. Le routage des appels après-temps autorise toutes les options répertoriées ci-dessus, tandis que le routage des appels de vacances permet uniquement de rediriger ou déconnecter un appel, mais pas d’options de touches de numérotation.
 

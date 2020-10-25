@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Apprenez à configurer le mode de confidentialité pour vos utilisateurs afin qu’ils puissent mieux contrôler la façon dont les personnes voient leur disponibilité. '
-ms.openlocfilehash: f0f9237f701be219a9cbce9a44704cbb582f48d4
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739182"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753439"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurer le mode de confidentialité de la présence
 
 > [!IMPORTANT]
-> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour pouvoir gérer les fonctionnalités Skype entreprise dans le centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype entreprise. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Le paramètre de présence de Skype entreprise Online donne aux personnes davantage de contrôle sur qui peut voir si elles sont disponibles, en réunion ou absent (e) du bureau. Pour plus d’informations sur les paramètres de présence et de confidentialité de Skype entreprise, reportez-vous à la rubrique [configuration de la présence dans Skype entreprise Online](configure-presence-in-skype-for-business-online.md). 
   
