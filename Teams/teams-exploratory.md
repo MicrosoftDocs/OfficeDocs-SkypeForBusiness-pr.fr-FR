@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ebe9f93321b67806b9fd777aba948f83954c04
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753579"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766967"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
@@ -67,9 +67,8 @@ Les utilisateurs doivent être autorisés à s’inscrire aux applications et au
 
 Les utilisateurs inéligibles sont les utilisateurs qui:
 
-- Disposent d’une licence Teams ou qui disposaient antérieurement d’une licence Teams payante.
-- Utilisent une offre d’essai ou une offre d’essai COVID.
-- Appartiennent à un client possédant au moins une offre spéciale d’essai COVID.
+- Disposent ou ont disposé de Teams grâce à une licence payée, non payée ou d’évaluation ; 
+- Se trouvent dans un client qui utilise ou a reçu au moins une offre spéciale COVID.
 
 Votre organisation n’est pas éligible pour cette offre si vous êtes un client partenaire de syndication ou un client GCC, GCC élevé, DoD ou EDU.
 
