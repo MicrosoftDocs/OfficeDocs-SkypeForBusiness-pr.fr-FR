@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: 9e4ec8179fda091fcd2ecd047d633b5bda6026b6
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 0bec3373781a6facd69bda19876397261f68dc71
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367694"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766877"
 ---
 # <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
@@ -29,7 +29,7 @@ ms.locfileid: "48367694"
 >
 >Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes permettent aux équipes de soins de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+>L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes des équipes de santé permettent de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
 
 Le journal d’audit de l’activité des applications patient permet aux équipes de réponse après incident de passer en revue les modifications apportées aux dossiers médicaux électroniques d’un patient ou aux informations médicales du patient (PHI) et de déterminer si des modifications ou des améliorations apportées à la politique ou la procédure pour l’accès PHI dans les outils de productivité sont nécessaires. Les événements du journal d’audit traitent les actions effectuées par le biais de l’interface utilisateur de l’application patients.
 

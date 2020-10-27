@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Utilisez les modèles de Microsoft teams pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
+description: Utilisez des modèles Microsoft teams avec Microsoft Graph pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294434"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766697"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Premiers pas dans les modèles teams pour les établissements de santé utilisant Microsoft Graph
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Commencer avec les modèles teams pour les établissements de santé
 
 Les modèles Microsoft teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications préinstallées.
 
@@ -35,7 +35,7 @@ Pour l’instant, nous proposons deux modèles de soins de santé que vous pouve
 
 ## <a name="ward-template"></a>Modèle vers le haut
 
-Le modèle à l’envers est destiné à la communication et à la collaboration dans une direction, une pod ou un service. Le modèle peut être utilisé pour faciliter la gestion du patient, ainsi que pour les besoins de fonctionnement de a à l’envers. Par exemple, les annonces à l’envers peuvent être publiées dans le canal *annonces* et les équipes peuvent être gérées en *équipe*. Si vous cherchez à rationaliser vos opérations à l’envers, ce modèle vous appartient.
+Le modèle à l’envers est destiné à la communication et à la collaboration dans une direction, une pod ou un service. Le modèle peut être utilisé pour faciliter la gestion du patient, ainsi que pour les besoins de fonctionnement de a à l’envers. Par exemple, les annonces à l’envers peuvent être publiées dans le canal *annonces* et les équipes peuvent être gérées en *équipe* . Si vous cherchez à rationaliser vos opérations à l’envers, ce modèle vous appartient.
 
 |Type de modèle de base |baseTemplateId |Canaux de modèles de base|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ Le modèle à l’envers est destiné à la communication et à la collaboration
 
 ## <a name="hospital-template"></a>Modèle d’hôpital
 
-Le modèle d’hôpital est destiné à la communication et à la collaboration entre divers services, modules et services d’un hôpital. Il s’agit de nombreux canaux opérationnels, y compris les *annonces*, la *privative*d’emploi et la *pharmacie*, mais nous proposons également un script ci-dessous qui étend le modèle à un large éventail de canaux centrés sur des services ou des spécialisations, que vous pouvez ajouter, supprimer ou modifier selon vos souhaits. Par exemple, si vous avez un service *Endocrinology* , mais que vous n’avez pas besoin d’un canal pour *Ophthalmology*, le script peut être adapté pour inclure un canal *Endocrinology* et supprimer le canal *Ophthalmology* . Nous vous conseillons de ne pas ajouter de favoris automatique pour ces canaux spécialisés ou les canaux à l’envers. En général, les utilisateurs favoris sont les canaux qu’ils recherchent.
+Le modèle d’hôpital est destiné à la communication et à la collaboration entre divers services, modules et services d’un hôpital. Il s’agit de nombreux canaux opérationnels, y compris les *annonces* , la *privative* d’emploi et la *pharmacie* , mais nous proposons également un script ci-dessous qui étend le modèle à un large éventail de canaux centrés sur des services ou des spécialisations, que vous pouvez ajouter, supprimer ou modifier selon vos souhaits. Par exemple, si vous avez un service *Endocrinology* , mais que vous n’avez pas besoin d’un canal pour *Ophthalmology* , le script peut être adapté pour inclure un canal *Endocrinology* et supprimer le canal *Ophthalmology* . Nous vous conseillons de ne pas ajouter de favoris automatique pour ces canaux spécialisés ou les canaux à l’envers. En général, les utilisateurs favoris sont les canaux qu’ils recherchent.
 
 |Type de modèle de base |baseTemplateId |Canaux de modèles de base|
 |:--- |:---|:---|

@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles Microsoft teams dans le centre d’administration pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424734"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766707"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Utiliser les modèles de santé des équipes dans le centre d’administration
 
@@ -53,6 +53,6 @@ Simplifiez la communication et la collaboration entre les différents services, 
 |Hôpital|`healthcareHospital`|Canaux <ul><li>Général<li>Annonces</li><li>Conformité</li><li>Privatives de Troie</li><li>Ressources humaines</li><li>Pharmaceutiques</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 ||||
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Prise en main des modèles Teams](../../get-started-with-teams-templates-in-the-admin-console.md)

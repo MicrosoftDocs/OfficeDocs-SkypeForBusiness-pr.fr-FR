@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469560"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766733"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application listes de votre organisation dans Microsoft teams
 
@@ -44,7 +44,7 @@ Les modèles dans les listes sont adaptés aux scénarios de suivi des informati
 
 - Suivez les problèmes et mettez-les en sortie à l’aide du modèle de suivi des problèmes.
 - Organisez tous les détails de votre événement à l’aide du modèle d’itinéraire des événements.
-- Le modèle patients vous permet d’enregistrer les besoins et le statut des patients pour les équipes de soins de votre organisation pour la santé afin de surveiller et de coordonner votre attention.
+- Le modèle patients vous permet d’enregistrer les besoins et le statut des patients destinés aux équipes sanitaires de votre organisation de santé afin de surveiller et de coordonner les soins.
 - Effectuez le suivi de l’état des candidatures avec le modèle prêts.
 
 ## <a name="example-scenario"></a>Exemple de scénario
@@ -91,8 +91,8 @@ La liste est activée par défaut pour tous les utilisateurs d’équipes de vot
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage** apps.
 2. Effectuez l’une des opérations suivantes :
 
-    - Pour désactiver les listes de votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **bloquer**.
-    - Pour activer les listes pour votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **autoriser**.
+    - Pour désactiver les listes de votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **bloquer** .
+    - Pour activer les listes pour votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **autoriser** .
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Activer ou désactiver des listes pour des utilisateurs spécifiques de votre organisation
 
@@ -112,8 +112,8 @@ Les listes prennent en charge l' [automate Power](https://preview.flow.microsoft
 
 ## <a name="give-feedback-or-report-an-issue"></a>Envoyer des commentaires ou signaler un problème
   
-Pour nous envoyer des commentaires ou signaler un problème, cliquez sur **aide** en bas de la barre de navigation gauche dans équipes, puis sélectionnez **signaler un problème**. Sélectionnez **listes**, puis entrez vos commentaires ou détails sur le problème que vous rencontrez.
+Pour nous envoyer des commentaires ou signaler un problème, cliquez sur **aide** en bas de la barre de navigation gauche dans équipes, puis sélectionnez **signaler un problème** . Sélectionnez **listes** , puis entrez vos commentaires ou détails sur le problème que vous rencontrez.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Affiche la documentation d’aide](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

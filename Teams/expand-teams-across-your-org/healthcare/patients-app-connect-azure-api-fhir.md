@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Découvrez comment connecter l’application patients dans Microsoft teams à l’API Azure pour FHIR (ressources d’interopérabilité Fast Healthcare).
-ms.openlocfilehash: 3bd6cdc694eb197c1e8fd45d7e133576732cdc22
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 1f137f7cbe90304620bb0fc5c919c0861fca9d7e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367614"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766987"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Connecter l’application coordination des soins à l’API Azure pour FHIR
 
@@ -31,7 +31,7 @@ ms.locfileid: "48367614"
 >
 >Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes permettent aux équipes de soins de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+>L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes des équipes de santé permettent de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
 
 Suivez ces étapes pour autoriser l’application patients dans Microsoft teams à accéder à une API Azure pour l’instance FHIR. Cet article part du principe que vous disposez d’une [API Azure pour](https://azure.microsoft.com/services/azure-api-for-fhir/) la configuration de l’instance FHIR et qu’elle est configurée dans votre client.  Si vous n’avez pas encore créé d’API Azure pour FHIR dans votre client, reportez-vous à [démarrage rapide : déployer l’API Azure pour FHIR à l’aide d’Azure Portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
@@ -43,24 +43,30 @@ Suivez ces étapes pour autoriser l’application patients dans Microsoft teams 
     Fermez la fenêtre après l’avoir acceptée. Une page peut ressembler à ce qui suit. Vous pouvez ignorer le message d’erreur sur la page. C’est inoffensif et indique que cette autorisation est accordée. (Nous travaillons actuellement sur une page plus conviviale pour cette URL. Restez informé !)
 
     ![Capture d’écran d’une demande d’autorisation pour l’application patients](../../media/patients-app-permissions-request-granted.png)
+    
 2. Connectez-vous au [portail Azure](https://portal.azure.com) à l’aide de vos informations d’identification d’administrateur.
-3. Dans le volet de navigation de gauche, cliquez sur **Azure Active Directory**, puis sélectionnez **applications d’entreprise**.
-    Recherchez une ligne nommée **patients (dev)**, puis copiez la valeur de la colonne **ID d’objet** dans le presse-papiers.
+
+3. Dans le volet de navigation de gauche, cliquez sur **Azure Active Directory** , puis sélectionnez **applications d’entreprise** .
+
+    Recherchez une ligne nommée **patients (dev)** , puis copiez la valeur de la colonne **ID d’objet** dans le presse-papiers.
+    
     ![Capture d’écran de la ligne patients (dev) dans Azure Portal](../../media/patients-app-azure-portal-object-id.png)
+    
 4. Accédez à l’instance d’API Azure pour FHIR à laquelle vous voulez connecter l’application patients (en effectuant une recherche ou en naviguant dans vos ressources), puis ouvrez les paramètres de cette instance.
 
     ![Capture d’écran de l’API Azure pour les paramètres d’instance FHIR dans Azure Portal](../../media/patients-app-azure-portal-instance-settings.png)
 
-5. Cliquez sur **authentification**, puis collez l’ID d’objet que vous avez copié à l’étape 3 dans la zone **ID d’objet autorisés** . Cela permet à l’application patients d’accéder au serveur FHIR. Après avoir collé l’ID d’objet, Azure Active Directory le valide et une coche verte apparaît à côté de celui-ci.
+5. Cliquez sur **authentification** , puis collez l’ID d’objet que vous avez copié à l’étape 3 dans la zone **ID d’objet autorisés** . Cela permet à l’application patients d’accéder au serveur FHIR. Après avoir collé l’ID d’objet, Azure Active Directory le valide et une coche verte apparaît à côté de celui-ci.
 
     ![Capture d’écran des paramètres d’authentification dans le portail Azure](../../media/patients-app-azure-portal-authentication.png)
 
-6. Cliquez sur **Enregistrer**. Cette opération redéploie l’instance, qui peut prendre quelques minutes.
-7. Cliquez sur **vue d’ensemble**, puis copiez l’URL à partir du **point de terminaison de métadonnées FHIR**. Supprimez la balise Metadata pour obtenir l’URL du serveur FHIR. Par exemple, https://test02-teamshealth.azurehealthcareapis.com/ . 
+6. Cliquez sur **Enregistrer** . Cette opération redéploie l’instance, qui peut prendre quelques minutes.
+
+7. Cliquez sur **vue d’ensemble** , puis copiez l’URL à partir du **point de terminaison de métadonnées FHIR** . Supprimez la balise Metadata pour obtenir l’URL du serveur FHIR. Par exemple, https://test02-teamshealth.azurehealthcareapis.com/ . 
 
     ![Capture d’écran du point de terminaison de métadonnées dans Azure Portal](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
-8. Dans Teams, accédez à l’instance d’application patients qui est chargée dans votre équipe, cliquez sur **paramètres**, puis dans la zone **lien** , entrez l’URL du point de terminaison du serveur FHIR. Cliquez ensuite sur **connexion** pour établir une connexion et Rechercher et ajouter des patients à votre liste.  
+8. Dans Teams, accédez à l’instance d’application patients qui est chargée dans votre équipe, cliquez sur **paramètres** , puis dans la zone **lien** , entrez l’URL du point de terminaison du serveur FHIR. Cliquez ensuite sur **connexion** pour établir une connexion et Rechercher et ajouter des patients à votre liste.  
 
     ![Capture d’écran des paramètres de l’application patients dans teams](../../media/patients-app-teams.png)
     

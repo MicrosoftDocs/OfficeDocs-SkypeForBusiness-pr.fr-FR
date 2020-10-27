@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514941"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766767"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessions d’équipe pour enflammer 2020
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514941"
 | Titre | Extraction            | Niveau| Leur |
 |---|----------|---|---|---|
 |[Déploiement et gouvernance d’équipes pour l’éducation](https://aka.ms/PR103) |Comprenez tout ce que vous devez savoir pour la gouvernance holistique de votre établissement scolaire. Dans cette session, nous allons aborder les stratégies de discussion, les politiques de réunion, les politiques d’application, les affectations via des groupes, la manière de configurer la sécurité des étudiants et les méthodes pour automatiser la création de la classe d’équipe. |300|Jethro Seghers|
-|[Intégrité et collaboration virtuelles avec Microsoft teams pour la santé](https://aka.ms/PR116)|Découvrez comment les organisations de soins de santé peuvent aider les équipes à vous offrir la meilleure assistance possible grâce à Microsoft Teams. Cette session met l’accent sur la collaboration entre les équipes d’hygiène et de santé virtuelles et les activités en profondeur dans des domaines tels que les dernières annonces en matière de santé, de visites virtuelles, de récits clients, etc. Vous découvrirez également comment utiliser Microsoft teams comme plate-forme pour répondre à de nombreux scénarios de santé actuels.|200|Evan Westenberger, Thomas McGuinness, Kristina Behr, Michel preup|
+|[Intégrité et collaboration virtuelles avec Microsoft teams pour la santé](https://aka.ms/PR116)|Découvrez comment les organisations de santé peuvent aider les équipes de santé à offrir la meilleure assistance possible grâce à Microsoft Teams. Cette session met l’accent sur la collaboration en équipe et l’intégrité virtuelle et sur les domaines tels que les plus récentes pour les équipes de santé, les visites virtuelles, les témoignages de clients, etc. Vous découvrirez également comment utiliser Microsoft teams comme plate-forme pour répondre à de nombreux scénarios de santé actuels.|200|Evan Westenberger, Thomas McGuinness, Kristina Behr, Michel preup|
 |[Personnalisation de Microsoft teams pour votre secteur](https://aka.ms/PR117)|Dans cette session, nous allons partager des détails sur la façon d’amorcer vos expériences de collaboration avec des modèles par le biais de notre Galerie d’industries, de personnaliser ces modèles selon les besoins de votre organisation et de les déployer dans différentes parties de votre organisation et de gérer simplement les packages de stratégie.|200|Locaux kuchi, Aaron Glick|
 |[Collaborer et communiquer à l’aide de Microsoft teams dans le secteur public](https://aka.ms/PR118) |Les agences locales et fédérales disposent d’une équipe Microsoft teams pour renforcer leur capacité à collaborer et à améliorer leurs temps de réponse et leurs engagements.  Apprenez à optimiser votre utilisation des fonctionnalités existantes, à venir et à la prochaine vision de Microsoft teams dans le secteur public. |200|Rima Reyes, KARUANA Gatimu, SPROXY Ndebumadu, Sarah Gilbert|
 |[Intégration à la plateforme de l’application Microsoft teams pour l’éducation](https://aka.ms/PR120)|Teams est une plate-forme ouverte pour les établissements d’enseignement d’intégration des applications et de création de flux de travail personnalisés.  Dans cette session, nous allons aborder la façon dont l’application teams Store est utilisée dans le cadre de l’enseignement d’une équipe de classe. Apprenez-en davantage sur la gouvernance d’application tierce, les modèles d’application sources d’ouverture et un exemple d’application de site Web personnalisé rapide pour votre établissement.|300|Dominic Williamson|

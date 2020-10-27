@@ -1,5 +1,5 @@
 ---
-title: Application réservations et visites virtuelles dans Microsoft teams
+title: Visites virtuelles avec Microsoft teams et l’application Réservations
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: Microsoft teams et les visites virtuelles à l’aide de l’application Réservations
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427679"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766957"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Application réservations et visites virtuelles dans Microsoft teams
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles avec Microsoft teams et l’application Réservations
 
 L’application livres de Microsoft teams vous permet de planifier facilement des rendez-vous en personne et des rendez-vous virtuels, tels que les visites de santé, les consultations financières, les entretiens, le support client, les heures consacrées au bureau et bien plus encore.
 
@@ -51,13 +51,13 @@ Il existe plusieurs méthodes pour contrôler les utilisateurs qui ont accès à
 
 ## <a name="recommended-meeting-policy-settings"></a>Paramètres de stratégie de réunion recommandés
 
-Pour garantir une meilleure utilisation des réservations, créez une stratégie de réunion du personnel pour admettre automatiquement tous les membres **de votre organisation**. Cela permettra aux membres du personnel de rejoindre automatiquement le rendez-vous et d’activer la salle d’attente pour les participants externes. Vous pouvez en savoir plus sur l' [admission automatique de personnes à une réunion](meeting-policies-in-teams.md#automatically-admit-people).
+Pour garantir une meilleure utilisation des réservations, créez une stratégie de réunion du personnel pour admettre automatiquement tous les membres **de votre organisation** . Cela permettra aux membres du personnel de rejoindre automatiquement le rendez-vous et d’activer la salle d’attente pour les participants externes. Vous pouvez en savoir plus sur l' [admission automatique de personnes à une réunion](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Paramètre facultatif d’approbation du personnel
 
 En tant que paramètre de confidentialité supplémentaire, vous pouvez choisir d’exiger que le personnel s’abonne pour que les informations de disponibilité du programme soient partagées par le biais de réservations et avant d’être réservées à un rendez-vous.  
 
-Pour activer ce paramètre, accédez à paramètres des paramètres du **Centre d’administration Microsoft 365** \> **Settings** \> **Settings**, puis sélectionnez **réservations**.
+Pour activer ce paramètre, accédez à paramètres des paramètres du **Centre d’administration Microsoft 365** \> **Settings** \> **Settings** , puis sélectionnez **réservations** .
 
 Lorsque ce paramètre est activé, le personnel reçoit un message électronique lui demandant d’approuver l’appartenance à un calendrier de réservation.  
 
@@ -90,6 +90,6 @@ Vos commentaires sont les suivants :
   
 Pour envoyer des commentaires, cliquez sur le bouton **aide** en bas de la barre de navigation gauche de teams, puis cliquez sur **signaler un problème** pour **tous les** problèmes. Veuillez noter au début de votre rapport de commentaires que vous envoyez des commentaires sur « réservations » pour nous permettre d’identifier facilement les problèmes liés aux réservations.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Documentation relative aux réservations pour les utilisateurs finaux](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
