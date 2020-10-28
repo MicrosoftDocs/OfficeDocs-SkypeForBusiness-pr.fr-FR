@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3eb845321a13e7701f7a8d49b975fe077fa2e14
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504961"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778787"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -91,13 +91,16 @@ Si un utilisateur désinstalle teams de son profil utilisateur, le programme d�
 3. Supprimez la `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` valeur du Registre.
 4. Redéployez le package MSI sur cet ordinateur particulier.
 
+> [!TIP]
+> Vous pouvez également utiliser le [script de nettoyage du déploiement d’équipes](scripts/powershell-script-deployment-cleanup.md) pour effectuer les étapes 1 et 2.  
+
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Empêcher Teams de démarrer automatiquement après l’installation
 
 Le comportement par défaut du MSI est d’installer l’application Teams dès qu’un utilisateur se connecte, puis démarre automatiquement Teams. Si vous ne voulez pas que Teams démarrent automatiquement pour les utilisateurs une fois qu’elle est installée, vous pouvez utiliser une stratégie de groupe pour définir un paramètre de stratégie ou désactiver le lancement automatique pour le programme d’installation MSI.
 
 ### <a name="use-group-policy-recommended"></a>Utiliser la stratégie de groupe (recommandé)
 
-Activez le paramètre de stratégie de groupe **Empêcher Microsoft Teams de démarrer automatiquement après l’installation**. Ce paramètre de stratégie est disponible sous Configuration utilisateur\Stratégies\Modèles d’administration\Microsoft Teams. Il s’agit de la méthode recommandée, car vous pouvez activer ou désactiver le paramètre de stratégie en fonction des besoins de votre organisation.
+Activez le paramètre de stratégie de groupe **Empêcher Microsoft Teams de démarrer automatiquement après l’installation** . Ce paramètre de stratégie est disponible sous Configuration utilisateur\Stratégies\Modèles d’administration\Microsoft Teams. Il s’agit de la méthode recommandée, car vous pouvez activer ou désactiver le paramètre de stratégie en fonction des besoins de votre organisation.
 
 Lorsque vous activez ce paramètre de stratégie avant l’installation de Teams, Teams ne démarre pas automatiquement lorsque les utilisateurs se connectent à Windows. Lorsqu’un utilisateur se connecte à Teams pour la première fois, les équipes démarrent automatiquement la prochaine fois que l’utilisateur se connecte.
 

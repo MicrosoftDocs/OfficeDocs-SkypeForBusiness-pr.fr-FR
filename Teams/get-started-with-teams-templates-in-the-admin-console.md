@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424654"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772225"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Commencer à utiliser les modèles teams dans le centre d’administration
 
@@ -68,7 +68,7 @@ Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou re
 > Les modèles de base prédéfinis fournis par Microsoft teams peuvent être dupliqués mais ne peuvent pas être modifiés.
 
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Adopter Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canaux <ul><li>Général</li> <li>Annonces</li> <li>Coin des champions</li> <li>Formulaires d’équipe</li></ul> Logiciels <ul><li>Wiki</li>  <li>Calendrier</li> |
 | Gérer un projet |`com.microsoft.teams.template.ManageAProject`| Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
 | Gérer un événement|`com.microsoft.teams.template.ManageAnEvent` | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Budget</li> <li>Contenu</li><li>Logistique</li> <li>Planification</li> <li> Marketing et PR</li></ul> Logiciels<ul><li>Wiki</li><li>Associates</li> <li>YouTube</li> <li>Planificateur</li> <li>OneNote</li></ul> |
@@ -109,7 +109,7 @@ Les modèles sont limités à un nombre déterminé de canaux, d’onglets et d�
 
 Pour plus d’informations [, voir limites et spécifications de teams](limits-specifications-teams.md) .
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Créer un modèle d’équipe personnalisé](create-a-team-template.md)
 - [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](create-template-from-existing-template.md)

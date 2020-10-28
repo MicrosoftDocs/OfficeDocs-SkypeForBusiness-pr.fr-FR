@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533551"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772215"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Considérations RTC lors de la mise à niveau vers teams &mdash; pour les administrateurs informatiques
 
@@ -45,7 +45,7 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
 
  > [!NOTE]
  > - L’utilisation du système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
- > - Les paramètres de transfert d’appel et de délégation de Skype entreprise ne sont pas migrés et devront être recréés pour Teams.
+ > - Le transfert d’appel, le groupe d’appel d’équipe et les paramètres de délégation de Skype entreprise ne sont pas migrés et devront être recréés pour Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Scénarios d’appel RTC

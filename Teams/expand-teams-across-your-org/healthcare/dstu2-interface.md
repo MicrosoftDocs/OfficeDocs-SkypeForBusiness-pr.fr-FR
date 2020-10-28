@@ -18,23 +18,18 @@ appliesto:
 ms.reviewer: anach
 description: Apprenez-en davantage sur la spécification de l’interface DSTU2 dans Teams, notamment la configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 15bcc5fcaff50d6d41c45ef2d38e34719ebca999
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766977"
+ms.locfileid: "48772205"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
-> [!IMPORTANT]
-> **À compter du 30 octobre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
->
->Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
->
->L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes des équipes de santé permettent de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+> [!NOTE]
+> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale. Consultez le modèle patients dans les listes pour commencer. Pour en savoir plus sur la gestion de l’application listes dans votre organisation, voir [gérer l’application listes](../../manage-lists-app.md) .
 
 La configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients nécessite une compréhension des données auxquelles l’application doit accéder. Le serveur FHIR doit prendre en charge les demandes POST à l’aide de bottes pour les ressources suivantes :
 

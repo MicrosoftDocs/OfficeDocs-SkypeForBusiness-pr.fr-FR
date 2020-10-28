@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: En savoir plus sur les fonctionnalités de soins à la santé incluant la coordination des soins, la messagerie sécurisée, la visite virtuelle, l’intégration DMI et l’intégration du système de travail terrain.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab34d5da83a189c3d135c330bbe2fe015d248349
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766841"
+ms.locfileid: "48772295"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Commencer à utiliser teams pour les entreprises de santé
 
@@ -94,6 +94,9 @@ De plus, votre équipe peut utiliser les applications dans teams pour :
 - Créer, gérer et partager des plannings avec l’application Shifts
 
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Partager des listes et suivre des informations avec l’application listes
+
+> [!NOTE]
+> À compter du 30 octobre 2020, l’application patients sera supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale.
 
 L’application listes dans teams permet aux équipes de suivre les informations et d’organiser le fonctionnement. L’application est préinstallée pour tous les utilisateurs d’teams et est disponible sous forme d’onglet dans chaque équipe ou canal. Les listes peuvent être créées à partir de zéro, de modèles prédéfinis ou d’importation de données dans Excel.
 

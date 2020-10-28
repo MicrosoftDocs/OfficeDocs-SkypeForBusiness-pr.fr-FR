@@ -17,28 +17,25 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Découvrez comment connecter l’application patients dans Microsoft teams à l’API Azure pour FHIR (ressources d’interopérabilité Fast Healthcare).
-ms.openlocfilehash: 1f137f7cbe90304620bb0fc5c919c0861fca9d7e
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: e3ff2f42953d59d1eecbc96179759f2ad9024f82
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766987"
+ms.locfileid: "48772255"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Connecter l’application coordination des soins à l’API Azure pour FHIR
 
-> [!IMPORTANT]
-> **À compter du 30 octobre 2020, l’application patients sera déconseillée et les utilisateurs ne pourront plus l’installer à partir de l’App Store d’Teams. Nous vous encourageons à commencer à utiliser l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans teams dès aujourd’hui.**
->
->Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Lorsque l’application patients est supprimée, toutes les données qui lui sont associées seront conservées dans ce groupe, mais ne seront plus accessibles par le biais de l’interface utilisateur. Les utilisateurs actuels peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
->
->L' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) est préinstallée pour tous les utilisateurs d’teams et est disponible sous la forme d’une tabulation dans chaque équipe ou canal. Les listes des équipes de santé permettent de créer des listes de patients à l’aide du modèle de patients intégré, de zéro à partir de zéro ou d’importer des données dans Excel. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+> [!NOTE]
+> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale. Consultez le modèle patients dans les listes pour commencer. Pour en savoir plus sur la gestion de l’application listes dans votre organisation, voir [gérer l’application listes](../../manage-lists-app.md) .
 
 Suivez ces étapes pour autoriser l’application patients dans Microsoft teams à accéder à une API Azure pour l’instance FHIR. Cet article part du principe que vous disposez d’une [API Azure pour](https://azure.microsoft.com/services/azure-api-for-fhir/) la configuration de l’instance FHIR et qu’elle est configurée dans votre client.  Si vous n’avez pas encore créé d’API Azure pour FHIR dans votre client, reportez-vous à [démarrage rapide : déployer l’API Azure pour FHIR à l’aide d’Azure Portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
 
 1. Cliquez [ici](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) pour accorder l’autorisation d’administrateur pour l’application patients. Lorsque vous y êtes invité, connectez-vous à l’aide de vos informations d’identification d’administrateur client ou d’administrateur général, puis cliquez sur **accepter** pour accorder les autorisations requises.
 
-    ![Capture d’écran d’une demande d’autorisation pour l’application patients](../../media/patients-app-permissions-request.png)
+    ![Capture d’écran de la demande d’autorisation pour l’application patients](../../media/patients-app-permissions-request.png)
 
     Fermez la fenêtre après l’avoir acceptée. Une page peut ressembler à ce qui suit. Vous pouvez ignorer le message d’erreur sur la page. C’est inoffensif et indique que cette autorisation est accordée. (Nous travaillons actuellement sur une page plus conviviale pour cette URL. Restez informé !)
 
