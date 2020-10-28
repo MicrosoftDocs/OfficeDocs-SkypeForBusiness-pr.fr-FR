@@ -678,28 +678,24 @@
 ### [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ### [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Gérer l’application Shifts pour votre organisation dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## Teams pour la santé publique
-### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Application Bookings et visites virtuelles](bookings-app-admin.md)
-### [Packages de stratégie Teams pour la santé publique](policy-packages-healthcare.md)
-### Stratégies de messagerie sécurisée
-#### [Messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Démarrez Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### Visites virtuelles
+#### [Visites virtuelles avec Teams-Intégration dans DMI](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [Visites virtuelles avec Bookings et Teams](bookings-app-admin.md)
+### [Créer des packages de stratégies Teams](policy-packages-healthcare.md)
+### Messagerie sécurisée
+#### [Messagerie sécurisée](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Délégation de messages](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### Modèles Teams pour les organismes de santé
-#### [Utiliser les modèles de santé publique Teams dans le centre d’administration](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Modèles Teams
+#### [Utilisez les modèles médicaux Teams](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Modèles médicaux Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Gérer l’application Listes](manage-lists-app.md)
+### [Gérer l’application Tâches](manage-tasks-app.md)
 ### Plannings pour Teams
 #### [Plannings pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-#### [Gérer l'application Changements de poste](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### Applications pour les patients
-#### [Aperçu de l'application pour les patients](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### Intégrer les dossiers médicaux électroniques dans l'application Patients
-##### [Intégrer les dossiers médicaux électroniques dans l'application « Patients » en utilisant les API FHIR](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [Spécification de l'interface DSTU2 pour l'application Patients](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [Spécification de l'interface STU3 pour l'application Patients](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [Connecter l'application Patients à l'API d'Azure pour FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [Journaux d'audit pour l'application Patients](expand-teams-across-your-org/healthcare/patients-audit.md)
+#### [Gérer l’application Plannings](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams pour l’éducation](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
