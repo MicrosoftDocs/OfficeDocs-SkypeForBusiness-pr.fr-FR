@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Résumé : configurez votre configuration non-serveur requise pour Skype entreprise Server 2015. Vous souhaiterez peut-être configurer un grand nombre d’éléments avant de procéder au déploiement, notamment Active Directory, DNS, certs et Fileshares.'
-ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 00b7828cfc06dd9d0ea1d7097580c9c25317e95a
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220874"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790286"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Configuration environnementale requise pour Skype entreprise Server 2015
  
 **Résumé :** Configurez votre configuration non-serveur requise pour Skype entreprise Server 2015. Vous souhaiterez peut-être configurer un grand nombre d’éléments avant de procéder au déploiement, notamment Active Directory, DNS, certs et Fileshares.
   
-Qu’est-ce que la configuration environnementale requise pour Skype entreprise Server 2015 ? En fait, nous avons mis tous les éléments qui ne sont pas directement liés à ce sujet, donc vous n’avez pas à faire autant de clics. Si vous recherchez les conditions préalables du serveur, vous pouvez consulter la [Configuration requise pour le serveur pour Skype entreprise server 2015](server-requirements.md) . la planification de la[mise en réseau](../../plan-your-deployment/network-requirements/network-requirements.md) est également documentée séparément. Dans le cas contraire, voici ce que nous avons trouvé dans cet article :
+Qu’est-ce que la configuration environnementale requise pour Skype entreprise Server 2015 ? En fait, nous avons mis tous les éléments qui ne sont pas directement liés à ce sujet, donc vous n’avez pas à faire autant de clics. Si vous recherchez les conditions préalables du serveur, vous pouvez consulter la [Configuration requise pour le serveur pour Skype entreprise server 2015](server-requirements.md) . la planification de la [mise en réseau](../../plan-your-deployment/network-requirements/network-requirements.md) est également documentée séparément. Dans le cas contraire, voici ce que nous avons trouvé dans cet article :
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -59,7 +59,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
 
 - Windows Server 2019 (vous devez disposer de la mise à jour cumulative 5 de Skype entreprise Server 2015 ou version ultérieure)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -73,7 +73,7 @@ Quel est le système d’exploitation du contrôleur de domaine qui peut être u
 
 - Windows Server 2019 (vous devez disposer de la mise à jour cumulative 5 de Skype entreprise Server 2015 ou version ultérieure)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -225,7 +225,7 @@ Voici quelques-unes des choses que Skype entreprise Server 2015 utilise les cert
     
 - Connexions MTLS entre serveurs
     
-- Fédération utilisant de la découverte automatique DNS des partenaires
+- Fédération à l’aide de la découverte automatique de partenaires via le DNS
     
 - Accès des utilisateurs distants à la messagerie instantanée
     
@@ -282,11 +282,11 @@ Certificats pour les serveurs Standard Edition :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet (FQDN) du pool et nom de domaine complet du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur les serveurs Standard Edition Server Standard Edition Server, le nom de domaine complet du serveur est le même que le nom de domaine complet du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
+|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet (FQDN) du pool et nom de domaine complet du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur le serveur Standard Edition Server, le nom de domaine complet du serveur est le même que celui du pool.  <br/> L’Assistant détecte tous les domaines SIP que vous avez spécifiés lors de l’installation et les ajoute automatiquement en tant que autres noms du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
 |Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web interne (identique au nom de domaine complet du serveur)  <br/> AND  <br/> • Répondre aux URL simples  <br/> • URL simple d’accès à distance  <br/> • URL simple d’administration  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com ; SAN = admin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN = \* . contoso.com  <br/> |Vous ne pouvez pas remplacer le nom de domaine complet Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant que San.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
 |Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet Web externe  <br/> AND  <br/> • URL simple d’accès à distance  <br/> • Répondre aux URL simples par domaine SIP  <br/> OR  <br/> • Entrée de caractère générique pour les URL simples  <br/> |SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = réunion. contoso. com ; SAN = réunion. fabrikam. com ; SAN = Dialin. contoso. com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN = \* . contoso.com  <br/> |Si vous avez plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
-Certificats pour les serveurs frontaux dans un pool frontal :
+Certificats pour les serveurs frontaux dans un pool frontal Enterprise Edition :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -312,7 +312,7 @@ Certificats pour Survivable Branch Appliance :
   
 |**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP. \< sipdomain \> (vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
+|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP.\<sipdomain\> (vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN = sba01. contoso. net ; SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificats pour votre serveur de conversation permanente
 
@@ -338,7 +338,7 @@ Quels certificats ? Vous aurez besoin de noms SAN pour la découverte automatiq
     
 Nous allons répertorier les détails dans chaque tableau ci-dessous.
   
-À présent, il s’agit là d’un peu de planification possible, mais parfois vous avez déployé Skype entreprise Server 2015 sans avoir à déployer la mobilité, et cela se produit lorsque vous avez déjà des certificats dans votre environnement. Leur réémission via une autorité de certification interne est relativement facile, mais avec des certificats publics provenant d’une autorité de certification publique, qui peuvent être un peu plus pricy.
+À présent, il s’agit là d’un peu de planification possible, mais parfois vous avez déployé Skype entreprise Server 2015 sans avoir à déployer la mobilité, et cela se produit lorsque vous avez déjà des certificats dans votre environnement. Leur réémission via une autorité de certification interne est relativement facile, mais avec des certificats publics provenant d’une autorité de certification publique, qui peuvent être un peu plus onéreux.
   
 Si c’est ce que vous regardez, et si vous avez un grand nombre de domaines SIP (ce qui rend l’ajout de réseaux SAN plus onéreux), vous pouvez configurer votre proxy inverse de sorte qu’il utilise le protocole HTTP pour la demande de service de découverte automatique initiale, au lieu d’utiliser le protocole HTTPs (configuration par défaut). La rubrique Planning for Mobility contient plus d’informations à ce sujet.
   
@@ -346,16 +346,16 @@ Conditions requises pour les certificats de pool directeur et de pool frontal :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
-|URL du service de découverte automatique interne  <br/> |SAN = lyncdiscoverinternal. \< sipdomain\>  <br/> |
-|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
+|URL du service de découverte automatique interne  <br/> |SAN = lyncdiscoverinternal.\<sipdomain\>  <br/> |
+|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover.\<sipdomain\>  <br/> |
    
-Vous pouvez également utiliser SAN = \* . \< sipdomain\>
+Vous pouvez également utiliser SAN = \* .\<sipdomain\>
   
 Conditions requises pour le certificat de proxy inverse (autorité de certification publique) :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
-|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
+|URL du service de découverte automatique externe  <br/> |SAN = lyncdiscover.\<sipdomain\>  <br/> |
    
 Ce SAN doit être affecté au certificat qui est affecté à l’écouteur SSL sur votre proxy inverse.
   

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation multimédia avec le routage direct du système téléphonique, qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469580"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790656"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -42,11 +42,11 @@ Sans dérivation multimédia, quand un client effectue ou reçoit un appel, la s
 
 Par exemple, supposons qu’un utilisateur se trouve dans le même bâtiment ou réseau que l’SBC. Par exemple, supposons qu’un utilisateur participant à un bâtiment à Francfort effectue un appel vers un utilisateur RTC : 
 
-- **Sans dérivation multimédia**, le contenu multimédia sera transmis par l’intermédiaire d’Amsterdam ou de Dublin (sur lequel sont déployés les centres de connaissances Microsoft) et de retour vers l’SBC à Francfort. 
+- **Sans dérivation multimédia** , le contenu multimédia sera transmis par l’intermédiaire d’Amsterdam ou de Dublin (sur lequel sont déployés les centres de connaissances Microsoft) et de retour vers l’SBC à Francfort. 
 
   Le centre de donnees en Europe est sélectionné, car le SBC est en Europe et Microsoft utilise le centre de donne le plus proche de l’SBC. Même si cette approche n’a aucun impact sur la qualité des appels en raison de l’optimisation du flux de trafic au sein de réseaux Microsoft dans la plupart des zones géographiques, le trafic comporte une boucle inutile.     
 
-- Par le biais du **contournement du contenu multimédia**, le média est maintenu directement entre l’utilisateur teams et l’élément SBC, comme illustré dans le schéma suivant :
+- Par le biais du **contournement du contenu multimédia** , le média est maintenu directement entre l’utilisateur teams et l’élément SBC, comme illustré dans le schéma suivant :
 
   > [!div class="mx-imgBorder"]
   > ![Affiche le signalement et le flux multimédia avec une dérivation multimédia](media/direct-routing-media-bypass-2.png)
@@ -193,7 +193,7 @@ Pour pouvoir effectuer les opérations suivantes, vous devez placer ces trois no
 - Fournir un basculement lorsqu’une connexion à partir d’un SBC est établie à un centre de donne qui rencontre un problème temporaire. Pour plus d’informations, consultez la section mécanisme de basculement ci-dessous.
 
 
-Les noms de domaine complets **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Microsoft.com**et **sip3.pstnhub.Microsoft.com** seront résolus vers l’une des adresses IP suivantes :
+Les noms de domaine complets **SIP.pstnhub.Microsoft.com** , **sip2.pstnhub.Microsoft.com** et **sip3.pstnhub.Microsoft.com** seront résolus vers l’une des adresses IP suivantes :
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.16.74
@@ -352,7 +352,7 @@ L’exemple ci-dessous illustre cette logique.
 Utilisateurs dotés d’une ligne de contournement non multimédia | 980 | sbc1.contoso.com:5060 | true
 Utilisateurs avec relais multimédia | CX3-20 | sbc2.contoso.com:5061 | false | 
 
-Les deux Trunks peuvent pointer sur la même SBC avec la même adresse IP publique. Les ports de signalisation TLS de l’SBC doivent être différents, comme indiqué dans le schéma suivant. Remarque vous devrez vous assurer que votre certificat prend en charge les deux Trunks. Dans SAN, vous devez avoir deux noms (**sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
+Les deux Trunks peuvent pointer sur la même SBC avec la même adresse IP publique. Les ports de signalisation TLS de l’SBC doivent être différents, comme indiqué dans le schéma suivant. Remarque vous devrez vous assurer que votre certificat prend en charge les deux Trunks. Dans SAN, vous devez avoir deux noms ( **sbc1.contoso.com** et **sbc2.contoso.com** ) ou avoir un certificat générique.
 
 > [!div class="mx-imgBorder"]
 > ![Affiche les deux liaisons peuvent pointer sur le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
@@ -366,9 +366,9 @@ Pour plus d’informations sur la configuration de deux lignes sur le même SBC,
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Points de terminaison client pris en charge avec l’exclusion de média
 
-La dérivation de média est prise en charge par tous les clients teams et les appareils de bureau Teams. 
+La dérivation de média est prise en charge par tous les clients de bureau Teams, Android et iOS, et les appareils de téléphone Teams. 
 
-Pour tous les autres points de terminaison qui ne prennent pas en charge la dérivation multimédia, nous allons aborder l’appel sans contournement, même s’il a démarré en tant qu’appel de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. Cela inclut les téléphones 3PIP Skype entreprise et les clients Web teams qui prennent en charge l’appel de routage direct (nouveau Microsoft Edge basé sur chrome, Google Chrome et Mozilla Firefox). 
+Pour tous les autres points de terminaison qui ne prennent pas en charge la dérivation multimédia, nous convertissons l’appel en non-contournement même s’il a démarré en tant qu’appel de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. Cela inclut les téléphones 3PIP Skype entreprise et les clients Web teams qui prennent en charge les appels de routage direct (les clients basés sur WebRTC s’exécutant sur Microsoft Edge, Google Chrome, Mozilla Firefox). 
  
 ## <a name="see-also"></a>Voir aussi
 

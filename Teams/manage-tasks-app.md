@@ -7,20 +7,24 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 audience: admin
 description: Découvrez comment gérer l’application tâches pour les utilisateurs de votre organisation.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06c42691874b8defa86e993727bc1fe38ee67b3
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331659"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790446"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application tâches pour votre organisation dans Microsoft teams
 
@@ -29,7 +33,7 @@ ms.locfileid: "47331659"
 L’application tâches offre une interface de gestion des tâches cohésive à Microsoft Teams, intégrant les tâches individuelles mises en œuvre par [Microsoft pour](https://todo.microsoft.com/tasks/) les tâches effectuées par le planificateur au même endroit. Les utilisateurs peuvent accéder aux tâches en tant qu’application sur le côté gauche d’une équipe et en tant qu’onglet dans un canal au sein d’équipes individuelles. **Mes tâches** et **plans partagés** dans les tâches permettent aux utilisateurs d’afficher et de gérer toutes leurs tâches individuelles et d’équipe et de hiérarchiser leur travail. Le complément tâches est disponible dans les applications de bureau, Web et mobiles Teams. 
 
 > [!NOTE]
-> À mesure que nous déployons l’expérience de tâches sur les clients teams de bureau, le nom de l’application s’affichera initialement en tant que **planificateur** aux utilisateurs. Le nom sera alors provisoirement modifié **en tâches par Planner et à faire**, et par la suite, il sera renommé **tâches**. Pour les clients mobiles Teams, le nom de l’application s’affichera toujours en tant que **tâches**. La disponibilité de l’expérience mobile peut prendre un peu de temps après la disponibilité de l’expérience de bureau.
+> À mesure que nous déployons l’expérience de tâches sur les clients teams de bureau, le nom de l’application s’affichera initialement en tant que **planificateur** aux utilisateurs. Le nom sera alors provisoirement modifié **en tâches par Planner et à faire** , et par la suite, il sera renommé **tâches** . Pour les clients mobiles Teams, le nom de l’application s’affichera toujours en tant que **tâches** . La disponibilité de l’expérience mobile peut prendre un peu de temps après la disponibilité de l’expérience de bureau.
 
    ![Capture d’écran de l’affichage liste des tâches dans la liste d’équipes](media/manage-tasks-app-tasks.png)
 
@@ -59,8 +63,8 @@ L’option tâches est activée par défaut pour tous les utilisateurs d’équi
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage** apps.
 2. Dans la liste des applications, effectuez l’une des opérations suivantes :
 
-    - Pour désactiver des tâches pour votre organisation, recherchez l’application tâches, sélectionnez-la, puis cliquez sur **bloquer**.
-    - Pour activer les tâches pour votre organisation, recherchez l’application tâches, sélectionnez-la, puis cliquez sur **autoriser**.
+    - Pour désactiver des tâches pour votre organisation, recherchez l’application tâches, sélectionnez-la, puis cliquez sur **bloquer** .
+    - Pour activer les tâches pour votre organisation, recherchez l’application tâches, sélectionnez-la, puis cliquez sur **autoriser** .
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Activation ou désactivation de tâches pour des utilisateurs spécifiques de votre organisation
 
@@ -74,7 +78,7 @@ Pour épingler l’application tâches à vos utilisateurs, vous pouvez modifier
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Les tâches d’un utilisateur s’affichent si l’utilisateur est titulaire d’une licence pour Exchange Online
 
-Si vous ne voulez pas que l’utilisateur puisse voir **Mes tâches**, vous pouvez le masquer. Pour cela, [supprimez la licence Exchange Online de l’utilisateur](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Il est important de savoir qu’une fois que vous avez supprimé une licence Exchange Online, l’utilisateur n’a plus accès à la boîte aux lettres.  Les données de boîte aux lettres sont conservées pendant 30 jours, après quoi elles sont supprimées et ne peuvent pas être récupérées, sauf si la boîte aux lettres est placée [en conservation inaltérable ou en conservation pour litige](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Si vous ne voulez pas que l’utilisateur puisse voir **Mes tâches** , vous pouvez le masquer. Pour cela, [supprimez la licence Exchange Online de l’utilisateur](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Il est important de savoir qu’une fois que vous avez supprimé une licence Exchange Online, l’utilisateur n’a plus accès à la boîte aux lettres.  Les données de boîte aux lettres sont conservées pendant 30 jours, après quoi elles sont supprimées et ne peuvent pas être récupérées, sauf si la boîte aux lettres est placée [en conservation inaltérable ou en conservation pour litige](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Nous déconseillons de le faire pour les travailleurs de l’information, mais dans certains cas, cela peut être le cas, par exemple pour les travailleurs terrain qui ne dépendent pas de la messagerie électronique.
 

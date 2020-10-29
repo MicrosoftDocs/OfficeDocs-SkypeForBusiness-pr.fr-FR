@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739242"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790526"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -38,26 +38,26 @@ Pour en savoir plus, voir [Paramètres d’administration des applications dans 
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Paramètres Teams à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams
 
-Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams. Pour modifier les paramètres à l’échelle de l’organisation, accédez au centre d’administration de Microsoft Teams, puis sélectionnez **Paramètres à l’échelle de l’organisation**. Vous pouvez configurer les paramètres suivants.
+Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams. Pour modifier les paramètres à l’échelle de l’organisation, accédez au centre d’administration de Microsoft Teams, puis sélectionnez **Paramètres à l’échelle de l’organisation** . Vous pouvez configurer les paramètres suivants.
 
 ### <a name="external-access"></a>Accès externe
 
-L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](let-your-teams-users-communicate-with-other-people.md).
+L’ **accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](let-your-teams-users-communicate-with-other-people.md).
 
 Pour ajouter ou bloquer un domaine :
 
-1. Sélectionnez **Ajouter un domaine**.
+1. Sélectionnez **Ajouter un domaine** .
 2. Dans la zone Ajouter un volet de domaine, entrez le nom de domaine, puis cliquez sur la barre d’espace pour enregistrer le nom.
-3. Sélectionnez **Autorisés** ou **Bloqués**.
+3. Sélectionnez **Autorisés** ou **Bloqués** .
 4. Sélectionnez **OK** pour enregistrer vos modifications. 
 
 ### <a name="guest-access"></a>Accès invité
 
-L’**accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
+L’ **accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
-Dans les **Paramètres de Teams**, vous pouvez configurer des fonctionnalités pour les équipes, notamment les notifications et les flux, l’intégration des e-mails, les options de stockage cloud et les appareils.
+Dans les **Paramètres de Teams** , vous pouvez configurer des fonctionnalités pour les équipes, notamment les notifications et les flux, l’intégration des e-mails, les options de stockage cloud et les appareils.
 
 #### <a name="notifications-and-feeds"></a>Notifications et flux
 
@@ -69,25 +69,25 @@ Les indicateurs permettent aux utilisateurs de communiquer avec un sous-ensemble
 
 #### <a name="email-integration"></a>Intégration de courrier électronique
 
-Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. Pour activer l’intégration de la messagerie, assurez-vous que l’option **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail de canal** est **activée**.
+Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. Pour activer l’intégration de la messagerie, assurez-vous que l’option **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail de canal** est **activée** .
 
 #### <a name="files"></a>Fichiers
 
 Ici, vous pouvez activer ou désactiver les options de partage de fichiers et de stockage de fichiers dans le cloud.
 
-Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent Dropbox, Box, ShareFile, Google Drive et Egnyte (bientôt disponible). Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
+Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent Dropbox, Box, ShareFile, Google Drive et Egnyte. Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
 
 #### <a name="organization"></a>Organisation
 
-Cette option vous permet d’activer l'onglet **Organisation**, qui affiche l'organigramme détaillé de l'organisation de l’utilisateur. Pour plus d’informations, reportez-vous à la rubrique [Utiliser l’onglet Organisation dans Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Cette option vous permet d’activer l'onglet **Organisation** , qui affiche l'organigramme détaillé de l'organisation de l’utilisateur. Pour plus d’informations, reportez-vous à la rubrique [Utiliser l’onglet Organisation dans Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Appareils
 
 Ces paramètres contrôlent le comportement du compte de ressource pour les périphériques Surface Hub qui participent aux réunions Teams. Utilisez ces paramètres pour configurer les exigences d’authentification, demander un code confidentiel de contenu et activer les comptes de ressource Surface Hub pour envoyer des messages.
 
-- **Requiert un seconde mode d’authentification pour accéder au contenu des réunions** : sélectionnez le niveau d’accès dont disposent les utilisateurs lorsqu'ils entrent le code confidentiel de contenu.
-- **Définir le code confidentiel de contenu** : les utilisateurs doivent entrer ce code confidentiel pour empêcher l’accès non autorisé aux documents. Ce paramètre empêche un utilisateur non autorisé de rejoindre les prochaines réunions et d’accéder aux pièces jointes.
-- **Les comptes de ressource peuvent envoyer des messages** : **activez** ce paramètre pour autoriser l’envoi de messages depuis le compte de ressource Surface Hub.
+- **Requiert un seconde mode d’authentification pour accéder au contenu des réunions**  : sélectionnez le niveau d’accès dont disposent les utilisateurs lorsqu'ils entrent le code confidentiel de contenu.
+- **Définir le code confidentiel de contenu**  : les utilisateurs doivent entrer ce code confidentiel pour empêcher l’accès non autorisé aux documents. Ce paramètre empêche un utilisateur non autorisé de rejoindre les prochaines réunions et d’accéder aux pièces jointes.
+- **Les comptes de ressource peuvent envoyer des messages**  : **activez** ce paramètre pour autoriser l’envoi de messages depuis le compte de ressource Surface Hub.
 
 #### <a name="search-by-name"></a>Recherche par nom
 
@@ -110,7 +110,7 @@ Vous pouvez utiliser ces paramètres pour configurer la manière dont vos utilis
 Vous pouvez spécifier un mode de coexistence : 
 
 - **Teams uniquement**
-- **Îles ** (Teams et Skype Entreprise coexisteront)
+- **Îles** (Teams et Skype Entreprise coexisteront)
 - **Skype Entreprise uniquement**
 - **Skype Entreprise avec Teams pour la collaboration** (les utilisateurs participent à des conversations, reçoivent des appels, et planifient des réunions dans Skype Entreprise, mais utilisent Teams pour la collaboration en groupe)
 - **Skype Entreprise avec Teams pour la collaboration et les réunions** (les utilisateurs participent à des conversations, reçoivent des appels dans Skype Entreprise, mais utilisent Teams pour la collaboration en groupe et la planification des réunions)

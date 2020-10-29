@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: En savoir plus sur les fonctionnalités de soins à la santé incluant la coordination des soins, la messagerie sécurisée, la visite virtuelle, l’intégration DMI et l’intégration du système de travail terrain.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772295"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790636"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Commencer à utiliser teams pour les entreprises de santé
 
@@ -35,7 +39,14 @@ Microsoft teams propose de nombreuses fonctionnalités utiles pour les hôpitaux
 - Modèles teams
 - Coordination et collaboration au service
 
-Le contenu de cette section suppose que vous avez déjà déployé des équipes au sein de votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire [la rubrique Comment déployer Microsoft teams](../../How-to-roll-out-teams.md).
+Cette fonctionnalité fait partie de Microsoft Cloud pour la santé. En savoir plus sur l’utilisation de cette solution, qui réunit les fonctionnalités d’Azure, Dynamics 365 et Microsoft 365 dans [Microsoft Cloud pour la santé](https://docs.microsoft.com/industry/healthcare).
+
+Regardez la vidéo suivante pour en savoir plus sur l’utilisation de la collection Healthcare pour améliorer la collaboration dans Microsoft Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> Le contenu de cette section suppose que vous avez déjà déployé des équipes au sein de votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire [la rubrique Comment déployer Microsoft teams](../../How-to-roll-out-teams.md).
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Visites virtuelles et intégration du DMI (Electronic Medical Recording)
 
@@ -65,13 +76,13 @@ La messagerie sécurisée prend en charge la collaboration au sein des équipes 
 
 Ensemble, ces fonctionnalités permettent d’attirer plus rapidement les messages urgents et de veiller à ce que le message ait été reçu et lu. Les nouvelles équipes d’intégrité utilisant ces fonctionnalités peuvent être créées par patient. Ces fonctionnalités sont basées sur des politiques qui peuvent être affectées à des personnes ou à des équipes entières.
 
-Pour plus d’informations, voir [prendre en main des politiques de messagerie sécurisée pour les entreprises de santé](messaging-policies-hc.md) .
+Pour en savoir plus, consultez la rubrique mise [en route des politiques de messagerie sécurisée pour les organisations de santé](messaging-policies-hc.md).
 
 En outre, en ce qui concerne la sécurisation de la messagerie, c’est la possibilité d’avoir d’autres clients fédérés par le biais d’organisations de santé, autorisant une communication plus complète entre les clients. (Voir [gérer les accès externes dans Microsoft teams](../../manage-external-access.md)).
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Modèles teams pour les entreprises de santé
 
-De nouveaux modèles de création d’équipes ont été développés pour s’appliquer à un environnement d’hôpital et de plus en plus sont prévus. Ainsi, il est plus facile de créer des équipes que les travailleurs de la santé utilisent pour coordonner les soins des patients dans divers services ou vers l’extérieur. Voir [commencer par les modèles d’équipes pour les entreprises de santé](healthcare-templates.md). Les équipes peuvent être démarrées pour les services internes tels que Cardiology ou pour les soins de niveau supérieur, et de plus en plus de modèles en développement.
+De nouveaux modèles de création d’équipes ont été développés pour s’appliquer à un environnement d’hôpital et de plus en plus sont prévus. Ainsi, il est plus facile de créer des équipes que les travailleurs de la santé utilisent pour coordonner les soins des patients dans divers services ou vers l’extérieur. Pour en savoir plus, voir [commencer à utiliser les modèles teams pour les établissements de santé](healthcare-templates.md). Les équipes peuvent être démarrées pour les services internes tels que Cardiology ou pour les soins de niveau supérieur, et de plus en plus de modèles en développement.
 
 ## <a name="care-coordination-and-collaboration"></a>Coordination et collaboration au service
 

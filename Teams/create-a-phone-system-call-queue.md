@@ -23,22 +23,22 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer votre système téléphonique pour les files d’attente d’appels à l’aide de Microsoft Teams, qui fournit un message de bienvenue, de la musique, des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 8365761f25ff981cd13770f23a27f4ef8a589b25
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220172"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48793529"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
-Les files d’attente d’appels constituent une méthode de routage des appelants vers des personnes de votre organisation qui peuvent vous aider avec un problème ou une question spécifique. Les appels sont distribués un par un aux personnes de la file d’attente (qui sont appelés *agents*). 
+Les files d’attente d’appels constituent une méthode de routage des appelants vers des personnes de votre organisation qui peuvent vous aider avec un problème ou une question spécifique. Les appels sont distribués un par un aux personnes de la file d’attente (qui sont appelés *agents* ). 
 
 Les files d’attente d’appels fournissent :
 
 - Message d’accueil.
 
-- Musique pendant que les personnes sont en attente.
+- De la musique pendant que les utilisateurs attendent dans une file d’attente.
 
 - Ordre d’acheminement des appels : pour les agents *, première et première sortie* (FIFO).
 
@@ -46,7 +46,7 @@ Les files d’attente d’appels fournissent :
 
 Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
-Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix**, cliquez sur **files d’attente d’appels**, puis cliquez sur **Ajouter**.
+Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix** , cliquez sur **files d’attente d’appels** , puis cliquez sur **Ajouter** .
 
 ## <a name="resource-account-and-language"></a>Compte de ressources et langue
 
@@ -54,18 +54,19 @@ Pour configurer une file d’attente d’appels, dans le centre d’administrati
 
 1. Tapez un nom pour la file d’attente d’appels. Les agents verront ce nom lorsqu’ils recevront un appel entrant de la file d’attente.
 
-2. Cliquez sur **Ajouter**un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter**, puis sur **Ajouter**.
+2. Cliquez sur **Ajouter** un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter** , puis sur **Ajouter** .
 
 3. Choisissez une langue. Ce langage sera utilisé pour les invites vocales générées par le système et la transcription de la boîte vocale (si vous les activez).
 
-## <a name="greetings-and--hold-music"></a>Faire des vœux et garder de la musique
+## <a name="greetings-and-hold-music"></a>Faire des vœux et garder de la musique
 
 Spécifiez si vous souhaitez lire un message d’accueil pour les appelants lorsqu’ils arrivent dans la file d’attente. Vous devez charger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous voulez lire.
 
-Teams fournit une musique par défaut aux appelants alors qu’ils sont en attente. Si vous voulez lire un fichier audio spécifique, sélectionnez **lire un fichier audio** et télécharger un fichier mp3, WAV ou WMA.
+Teams fournit une musique par défaut aux appelants alors qu’ils sont suspendus dans une file d’attente. Si vous voulez lire un fichier audio spécifique, sélectionnez **lire un fichier audio** et télécharger un fichier mp3, WAV ou WMA.
 
 > [!NOTE]
 > L’enregistrement téléchargé ne peut pas dépasser 5 Mo.
+> La musique par défaut fournie dans les files d’attente des appels d’équipes n’est disponible que pour les royalties imputables à votre organisation. 
 
 ## <a name="call-agents"></a>Agent d’appel
 
@@ -80,9 +81,9 @@ Les agents d’appel sélectionnés doivent être l’un des éléments suivants
 
 Vous pouvez ajouter jusqu’à 20 agents de manière individuelle et jusqu’à 200 agents via des groupes.
 
-Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs**, recherchez l’utilisateur, cliquez sur **Ajouter**, puis sur **Ajouter**.
+Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs** , recherchez l’utilisateur, cliquez sur **Ajouter** , puis sur **Ajouter** .
 
-Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes**, recherchez le groupe, cliquez sur **Ajouter**, puis cliquez sur **Ajouter**. Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
+Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes** , recherchez le groupe, cliquez sur **Ajouter** , puis cliquez sur **Ajouter** . Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
 
 > [!NOTE]
 > Les nouveaux utilisateurs ajoutés à un groupe peuvent parfois prendre jusqu’à huit heures de réception.
@@ -114,7 +115,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 ![](media/call-queue-presence-agents-time.png)
 
 
-Le **routage basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**. 
+Le **routage basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible** . 
 
 Vous pouvez activer le routage des appels en fonction de la présence avec n’importe quelle méthode de routage.
 
@@ -151,7 +152,7 @@ Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une de
 
 Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente.
 
-Lorsque vous avez sélectionné les options de temporisation de l’appel, cliquez sur **Enregistrer**.
+Lorsque vous avez sélectionné les options de temporisation de l’appel, cliquez sur **Enregistrer** .
 
 ## <a name="caller-id-for-outbound-calls"></a>ID de l’appelant pour les appels sortants
 

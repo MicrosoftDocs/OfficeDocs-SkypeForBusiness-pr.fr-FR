@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Découvrez comment un utilisateur présentant un statut absent ou ne pas déranger peut définir explicitement un autre utilisateur comme délégué dans son message d’État.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904736"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790466"
 ---
 # <a name="message-delegation"></a>Délégation de messages
 
@@ -45,7 +49,7 @@ Il s’agit d’un processus initialisé par l’utilisateur dans le client et a
 
 Les administrateurs doivent savoir que les comportements de la délégation et des notes d’État dépendent en partie du mode de coexistence d’un utilisateur. Ce tableau présente les possibilités suivantes :
 
-|Mode de coexistence | Comportement attendu|
+|Co-Existence mode | Comportement attendu|
 |---|---|
 |TeamsOnly |Les utilisateurs peuvent définir une note uniquement dans Teams. <br> La note équipes de l’utilisateur est visible dans équipes & marketing. |
 |Île | Remarque définie par l’utilisateur dans équipes uniquement visible dans Teams. <br> Note définie par l’utilisateur dans marketing visible uniquement dans marketing |

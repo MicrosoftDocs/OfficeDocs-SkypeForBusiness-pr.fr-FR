@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a4fc3a6516881d6f865b22cbf92d85af6859cb14
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962845"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787028"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
@@ -33,6 +33,7 @@ Pour proposer une utilisation fiable de Microsoft teams sur des téléphones, no
 Pour gérer les téléphones, vous devez être un administrateur général, un administrateur de service teams ou un administrateur d’appareil Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Fonctionnalités prises en charge par les téléphones teams
+
 Les téléphones certifiés pour les équipes disposent d’une vaste gamme de fonctionnalités qui permettent à vos utilisateurs de faire leur travail et de vous aider à gérer leur utilisation. Vous trouverez ci-dessous un résumé des fonctionnalités disponibles dans les téléphones certifiés par Microsoft teams :
 
 - **Authentification** Le téléphone utilise l’authentification moderne pour simplifier la connexion et améliorer la sécurité. Les utilisateurs peuvent se connecter en entrant leur nom d’utilisateur et leur mot de passe sur le téléphone ou en vous connectant à partir d’un autre appareil, tel que PC/smartphone.
@@ -52,38 +53,27 @@ Outre les fonctionnalités ci-dessus, vous pouvez contrôler les fonctionnalité
 
 ## <a name="required-licenses"></a>Licences requises
 
-Les licences Microsoft teams peuvent être achetées dans le cadre de leurs [abonnements microsoft 365 et Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
+Les licences teams peuvent être achetées dans le cadre de leurs [abonnements Microsoft 365 et Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour l’utilisation d’équipes sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
 Pour plus d’informations sur l'obtention de Teams, consultez [Comment obtenir l’accès à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="deploy-your-phones-via-intune"></a>Déploiement de votre téléphone via Intune
+## <a name="deploy-your-phones-using-intune"></a>Déploiement de votre téléphone à l’aide de Intune
 
-### <a name="conditional-access"></a>Accès conditionnel
-
-L’accès conditionnel est une fonctionnalité d’Azure Active Directory qui vous permet de garantir que les appareils qui accèdent à vos ressources Office 365 sont correctement gérés et sont sécurisés.  Si vous appliquez des stratégies d’accès conditionnel au service Teams, alors les appareils Android (y compris ceux d’équipes) qui accèdent à des équipes doivent être inscrits dans Intune et leurs paramètres doivent être conformes à vos stratégies.  Si l’appareil n’est pas inscrit dans Intune ou s’il est inscrit alors que ses paramètres ne sont pas conformes à vos stratégies, l’accès conditionnel empêche un utilisateur de se connecter à l’application teams sur l’appareil ou à l’aide de celle-ci.
-
-Les stratégies de conformité définies dans Intune sont généralement affectées à des groupes d’utilisateurs.  Cela signifie que si vous attribuez une stratégie de conformité Android à user@contoso.com, celle-ci s’applique également à son smartphone Android et à tout appareil d’équipe Android sur lequel user@contoso.com se connecte.
-
-Si vous utilisez l’accès conditionnel, qui nécessite l’inscription de Intune, au sein de votre organisation, vous devez configurer les éléments suivants pour permettre à l’inscription Intune réussie de :
-
-- **Licence Intune** L’utilisateur qui se connecte au téléphone Microsoft teams doit être titulaire d’une licence pour Intune.  Tant que les téléphones de Microsoft teams sont connectés à un compte d’utilisateur disposant d’une licence Intune valide, le téléphone sera inscrit automatiquement dans Microsoft Intune dans le cadre du processus de connexion.
-- **Configurer Intune** Un client Intune correctement configuré doit être configuré pour l’inscription de l’administrateur de l’appareil Android.
-
-### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Configurer Intune pour inscrire des appareils sur Android teams
-
-Les appareils Android en équipe sont gérés par le biais de Intune via la gestion de l’administrateur de périphériques Android (DA). Pour que les appareils puissent être inscrits dans Intune, vous devez effectuer les opérations de base suivantes.  Si vous gérez déjà des appareils avec Intune dès aujourd’hui, vous avez sans doute déjà réalisé ces éléments.  Si ce n’est pas le cas, procédez comme suit :
-
-1. Définissez le service Intune GPM (gestion des appareils mobiles).  Si vous n’avez jamais utilisé Intune auparavant, vous devez définir l’administration de la gestion des périphériques mobiles avant de pouvoir inscrire des appareils. Pour plus d’informations, reportez-vous à [la rubrique définition de l’autorité de gestion des appareils mobiles](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set).  Il s’agit d’une étape ponctuelle qui doit être exécutée lors de la création d’un client Intune.
-2. Activez l’inscription de l’administrateur de l’appareil Android. Les appareils d’équipe Android sont gérés en tant qu’appareils d’administration d’appareils avec Intune.  Par défaut, l’inscription de l’administrateur de l’appareil est désdésactivée pour les clients nouvellement créés.  Pour plus d’informations, reportez-vous à la rubrique inscription de l' [administrateur de périphériques Android](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator).
-3. Attribution de licences à des utilisateurs. Les utilisateurs des appareils d’équipe qui s’inscrivent à Intune doivent avoir reçu une licence Intune valide. Pour plus d’informations, consultez [attribuer des licences aux utilisateurs afin qu’ils puissent inscrire des appareils dans Intune](https://docs.microsoft.com/intune/fundamentals/licenses-assign).
-4. Attribution de stratégies de conformité de l’administrateur de périphériques.  Créez une stratégie de conformité de l’administrateur de périphériques Android et attribuez-la au groupe Azure Active Directory qui contient les utilisateurs qui se connecteront aux appareils Teams. Pour plus d’informations, reportez-vous [à utiliser des stratégies de conformité pour définir des règles pour les appareils que vous gérez avec Intune](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started).
+Pour en savoir plus sur le déploiement d’équipes à l’aide de Intune, voir [déployer des équipes et les affichages des](phones-displays-deploy.md)équipes.
 
 ## <a name="manage-your-phones"></a>Gérer vos téléphones
 
-Le centre d’administration teams permet à un administrateur client de gérer et de mettre à jour tous les périphériques de ses équipes. Pour plus d’informations, voir [gérer vos appareils dans Microsoft teams](https://docs.microsoft.com/microsoftteams/devices/device-management). 
+Gérez et assurez-vous que vos téléphones teams sont à jour à l’aide du centre d’administration Microsoft Teams. Pour plus d’informations, voir [gérer vos appareils dans teams](device-management.md).
+
+## <a name="upgrade-your-phones-to-teams-displays"></a>Mise à niveau de vos téléphones vers teams
+
+[Microsoft teams](teams-displays.md) est une catégorie de périphériques en équipe dédiée tout-en-un qui disposent d’un écran tactile et d’une expérience mains libres de Cortana. L’affichage équipes permet aux utilisateurs de se servir d’un micro, d’une caméra et de haut-parleurs (ou d’un casque Bluetooth) pour une utilisation fiable des appels et des réunions. Teams s’affiche avec les PC Windows des utilisateurs afin d’offrir une aide complémentaire permettant d’interagir en douceur entre les appareils.
+
+Vous pouvez mettre à niveau des téléphones teams de votre organisation vers teams dans le centre d’administration Microsoft Teams. Cette option n’est disponible que sur les téléphones prenant en charge la mise à niveau vers Teams. Pour plus d’informations, voir [mettre à niveau des téléphones teams vers teams](upgrade-phones-to-displays.md).
 
 ## <a name="see-also"></a>Voir aussi
 
 [Marketplace teams](https://office.com/teamsdevices)
 
-[Téléphones IP certifiés pour Microsoft teams](teams-ip-phones.md)
+[Téléphones IP certifiés pour Microsoft Teams](teams-ip-phones.md)
+
