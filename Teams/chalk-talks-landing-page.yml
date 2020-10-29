@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Discussions de craie de Microsoft teams
-summary: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. Cliquez sur un titre d’atelier pour vous inscrire.
+summary: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.
 brand: teams
 metadata:
   title: Discussions de craie de Microsoft teams
-  description: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. À l’aide d’experts en matière d’expertise, ces ateliers interactifs en ligne vous aideront à utiliser des informations pour améliorer la mise en œuvre de votre équipe et fournir des valeurs supplémentaires aux utilisateurs finaux. Cliquez sur un titre d’atelier ci-dessous pour afficher les dates et heures disponibles, et inscrivez-vous dès aujourd’hui ! Cliquez sur un titre d’atelier pour vous inscrire.
+  description: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. À l’aide d’experts en matière d’expertise, ces ateliers interactifs en ligne vous aideront à utiliser des informations pour améliorer la mise en œuvre de votre équipe et fournir des valeurs supplémentaires aux utilisateurs finaux. Cliquez sur un titre d’atelier ci-dessous pour afficher les dates et heures disponibles, et inscrivez-vous dès aujourd’hui !
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,18 +25,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
+  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583463"
+  ms.lasthandoff: 10/28/2020
+  ms.locfileid: "48790596"
 productDirectory:
+  summary: Cliquez sur un titre d’atelier pour vous inscrire.
   items:
-  - title: Accéder aux équipes--zéro à la production
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: À venir! Accédez à l’implémentation de Microsoft teams pour la collaboration, les discussions et les réunions. Nous allons partager des configurations clés, des considérations, des meilleures pratiques et des ressources pour rendre vos utilisateurs plus rapidement opérationnels.
-    url: http://aka.ms/ChalkTalkGTT
   - title: Ainsi... vous voulez passer des appels avec teams ?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
     summary: Rejoignez-nous pour obtenir une vue d’esprit approfondie de l’ajout de fonctionnalités d’appel RTC à votre déploiement d’équipes. Ensemble, nous allons examiner la terminologie des appels, les principaux concepts et les configurations.
@@ -45,18 +42,14 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: Vous voulez vous assurer que les utilisateurs disposent d’expériences optimales pour les réunions et les fonctions vocales ? Nous allons aborder des outils, des rapports et des pratiques recommandées pour la gestion de la qualité de service (par l’établissement d’une stratégie proactive de résolution des problèmes courants).
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: En faire plus avec les applications dans teams
+  - title: Applications principales dans teams
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
     summary: Cette session de base aborde les fonctionnalités de base, notamment la gestion et la sécurité des applications. Découvrez comment intégrer vos flux de travail, applications de productivité et les services que vous utilisez quotidiennement en une seule et même interface unifiée.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Automatisation des flux de travail informatiques avec teams
+  - title: Flux de travail de clé de surcharge avec applications dans Microsoft teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: À venir! Automatiser vos processus informatiques en utilisant des applications disponibles dans Teams. Nous allons aborder des scénarios courants, tels que le support technique et le partage de connaissances, afin que votre équipe puisse gagner du temps et vous concentrer sur ce qui est important.
-    url: https://aka.ms/ChalkTalkAutoIT
-  - title: Activation d’équipes pour l’engagement de terrain Worker
-    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-    summary: Êtes-vous prêt à commencer à activer des espaces de travail numériques pour votre terrain ? Ensemble, nous allons examiner les meilleures pratiques en matière de démarrage d’un pilote pour améliorer la communication, l’engagement des employés et la productivité opérationnelle.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+    summary: Connectez vos systèmes, augmentez l’automatisation et procurez des expériences améliorées aux utilisateurs en regroupant les applications que votre organisation utilise dans Teams.
+    url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
