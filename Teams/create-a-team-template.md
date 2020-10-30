@@ -16,34 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3a6a19a511d86072f6c1d27c2bda447a937483
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 138f85c77f3dd6046c97e7ed3049b86b9a1a2745
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308377"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800637"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
 
-Un modèle d’équipe personnalisé est une structure d’équipe prédéfinie avec un ensemble de canaux, d’onglets et d’applications que vous pouvez développer pour vous aider à créer rapidement un espace de collaboration adéquat. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
+Un modèle d’équipe personnalisé est une structure d’équipe prédéfinie avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement l’espace de collaboration adéquat. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
 
 Pour commencer, procédez comme suit :
 
 1. Connectez-vous au centre d’administration Teams.
 
-2. Dans le volet de navigation de **Teams**gauche, développez  >  **modèles d’équipe**équipes.
+2. Dans le volet de navigation de **Teams** gauche, développez  >  **modèles d’équipe** équipes.
 
-3. Cliquez sur **Ajouter**.
+3. Cliquez sur **Ajouter** .
 
 ![Image de la boîte de dialogue modèles d’équipe avec l’État ajouter en surbrillance.](media/team-templates-new.png)
 
-4. Dans la section **modèles d’équipe** , sélectionnez **créer un nouveau modèle**.
+4. Dans la section **modèles d’équipe** , sélectionnez **créer un nouveau modèle** .
 
-5. Dans la section **paramètres du modèle** , complétez les champs suivants, puis cliquez sur **suivant**:
+5. Dans la section **paramètres du modèle** , complétez les champs suivants, puis cliquez sur **suivant** :
     - Nom du modèle
     - Descriptions courtes et longues du modèle
     - Visibilité des paramètres régionaux  
@@ -52,7 +50,7 @@ Pour commencer, procédez comme suit :
 
 6. Dans la section **canaux, onglets et applications** , ajoutez les canaux et applications requis par votre équipe.
 
-    1. Dans la section **canaux** , cliquez sur **Ajouter**.
+    1. Dans la section **canaux** , cliquez sur **Ajouter** .
     2. Dans la boîte de dialogue **Ajouter** , nommez le canal.
     3. Ajoutez une description.
     4. Décidez si le canal doit être affiché par défaut.

@@ -22,22 +22,20 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles Microsoft teams dans le centre d’administration pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790426"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800667"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Utiliser les modèles de santé des équipes dans le centre d’administration
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Les modèles Microsoft teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications préinstallées.
 
 Pour les entreprises de santé, les modèles peuvent être particulièrement puissants, car ils permettent aux utilisateurs de se familiariser avec l’utilisation des équipes efficacement. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leurs organisations. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de santé.
 
-Pour l’instant, nous offrons deux modèles de soins de santé que vous pouvez utiliser pour différentes situations. Pour en savoir plus sur les modèles d’équipe en général, voir [utiliser les modèles teams dans le centre d’administration](../../get-started-with-teams-templates-in-the-admin-console.md).
+Pour l’instant, nous proposons deux modèles de soins de santé que vous pouvez utiliser pour différentes situations. Pour en savoir plus sur les modèles d’équipe en général, voir [utiliser les modèles teams dans le centre d’administration](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="collaborate-on-patient-care"></a>Collaborer sur les soins du patient
 

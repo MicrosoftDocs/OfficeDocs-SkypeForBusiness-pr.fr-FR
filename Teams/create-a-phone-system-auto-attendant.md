@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48337578"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803798"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -34,7 +34,7 @@ Les standards automatiques permettent aux personnes d’appeler votre organisati
 
 Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
-Les standards automatiques peuvent diriger les appels, en fonction de l’entrée des appelants, vers l’une des destinations suivantes :
+Les standards automatiques peuvent diriger les appels, en fonction de l’entrée des appelants, vers l’une des destinations suivantes : <a name="call-routing-options" ></a>
 
 - **Personne de votre organisation** : une personne de votre organisation qui peut recevoir des appels vocaux. Il peut s’agir d’un utilisateur en ligne ou hébergé sur site utilisant Skype entreprise Server.
 - **Application vocale** -autre standard automatique ou file d’attente d’appels. (Sélectionnez le compte de ressources associé au standard automatique ou à la file d’attente d’appels lors du choix de cette destination.)
@@ -44,7 +44,7 @@ Les standards automatiques peuvent diriger les appels, en fonction de l’entré
 
 Vous êtes invité à choisir l’une de ces options à différentes étapes Lorsque vous configurez un standard automatique.
 
-Pour configurer un standard automatique, dans le centre d’administration Teams, développez **voix**, cliquez sur **standards automatiques**, puis cliquez sur **Ajouter**.
+Pour configurer un standard automatique, dans le centre d’administration Teams, développez **voix** , cliquez sur **standards automatiques** , puis cliquez sur **Ajouter** .
 
 ## <a name="general-info"></a>Informations générales
 
@@ -60,7 +60,7 @@ Pour configurer un standard automatique, dans le centre d’administration Teams
 
 5. Indiquez si vous voulez activer les entrées vocales. Lorsque cette option est activée, le nom de chaque option de menu devient un mot clé de reconnaissance vocale. Par exemple, les appelants peuvent prononcer « un » pour sélectionner l’option de menu mappée à la clé 1, ou dire « ventes » pour sélectionner l’option de menu « ventes ».
 
-6. Cliquez sur **Suivant**.
+6. Cliquez sur **Suivant** .
 
 ## <a name="call-flow"></a>Flux d’appels
 
@@ -76,11 +76,11 @@ Si vous sélectionnez l’option **taper un message d’accueil** le système li
 
 Choisissez le mode de routage de l’appel.
 
-Si vous sélectionnez **déconnecter**, le standard automatique raccrochera l’appel.
+Si vous sélectionnez **déconnecter** , le standard automatique raccrochera l’appel.
 
-Si vous sélectionnez **rediriger l’appel**, vous pouvez choisir l’une des destinations de routage des appels.
+Si vous sélectionnez **rediriger l’appel** , vous pouvez choisir l’une des destinations de routage des appels.
 
-Si vous sélectionnez les **options de menu lire**, vous pouvez choisir de **lire un fichier audio** ou **de taper un message d’accueil** , puis de choisir entre les options de menu et la recherche dans l’annuaire.
+Si vous sélectionnez les **options de menu lire** , vous pouvez choisir de **lire un fichier audio** ou **de taper un message d’accueil** , puis de choisir entre les options de menu et la recherche dans l’annuaire.
 
 ### <a name="menu-options"></a>Options de menu
 
@@ -102,13 +102,13 @@ Pour chaque option de menu, spécifiez les éléments suivants :
 
 ### <a name="directory-search"></a>Recherche dans l’annuaire
 
-Si vous affectez des clés de numérotation aux destinations, nous vous recommandons de choisir **aucune** pour la recherche dans l' **Annuaire**. Si un appelant tente de composer un nom ou une extension à l’aide de clés affectées à des destinations spécifiques, il est possible qu’il soit routé de manière inattendue vers une destination avant d’avoir fini d’entrer le nom ou l’extension. Nous vous recommandons de créer un standard automatique distinct pour la recherche dans l’annuaire et de définir le lien principal de votre standard automatique à l’aide d’une clé de numérotation.
+Si vous affectez des clés de numérotation aux destinations, nous vous recommandons de choisir **aucune** pour la recherche dans l' **Annuaire** . Si un appelant tente de composer un nom ou une extension à l’aide de clés affectées à des destinations spécifiques, il est possible qu’il soit routé de manière inattendue vers une destination avant d’avoir fini d’entrer le nom ou l’extension. Nous vous recommandons de créer un standard automatique distinct pour la recherche dans l’annuaire et de définir le lien principal de votre standard automatique à l’aide d’une clé de numérotation.
 
-Si vous n’avez pas affecté de touches de numérotation, sélectionnez une option pour la recherche dans l' **Annuaire**.
+Si vous n’avez pas affecté de touches de numérotation, sélectionnez une option pour la recherche dans l' **Annuaire** .
 
 **Composer par nom** : Si vous activez cette option, les appelants peuvent prononcer le nom de l’utilisateur ou le taper sur le clavier du téléphone. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
 
-**Composer par poste** : Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en composant leur numéro de poste. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la **numérotation par poste**. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
+**Composer par poste** : Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en composant leur numéro de poste. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la **numérotation par poste** . (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
 
 Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou Azure Active Directory (voir [Ajouter des utilisateurs individuellement ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) pour plus d’informations).
 
@@ -118,14 +118,14 @@ Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste d
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est * + <phone number> ext = <extension> * ou * + <phone number> x <extension> *.
+Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est *+ <phone number> ext = <extension>* ou *+ <phone number> x <extension>* .
 
 Vous pouvez définir l’extension dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou dans le [Centre d’administration Azure Active Directory](https://aad.portal.azure.com). Il faut parfois jusqu’à 12 heures pour que les modifications soient disponibles aux standards automatiques et aux files d’attente d’appels.
 
 > [!NOTE]
-> Si vous voulez utiliser les fonctions **numérotation par nom** et **numéro de poste par numéro** , vous pouvez affecter une touche de numérotation à votre standard automatique principal pour atteindre un standard automatique activé pour la **numérotation par nom**. Dans ce standard automatique, vous pouvez affecter la touche 1 (qui ne comporte pas de lettres) pour atteindre le standard automatique de **composition par extension** .
+> Si vous voulez utiliser les fonctions **numérotation par nom** et **numéro de poste par numéro** , vous pouvez affecter une touche de numérotation à votre standard automatique principal pour atteindre un standard automatique activé pour la **numérotation par nom** . Dans ce standard automatique, vous pouvez affecter la touche 1 (qui ne comporte pas de lettres) pour atteindre le standard automatique de **composition par extension** .
 
-Lorsque vous avez sélectionné une option de recherche dans l' **Annuaire** , cliquez sur **suivant**.
+Lorsque vous avez sélectionné une option de recherche dans l' **Annuaire** , cliquez sur **suivant** .
 
 ## <a name="call-flow-for-after-hours"></a>Flux d’appels pour après heures
 
@@ -147,7 +147,7 @@ Lorsque vous avez terminé, cliquez sur **suivant** .
 
 Le standard automatique peut avoir un flux d’appels pour chaque [jour férié que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
-1. Dans la page Paramètres des appels de vacances, cliquez sur **Ajouter**.
+1. Dans la page Paramètres des appels de vacances, cliquez sur **Ajouter** .
 
 2. Tapez un nom pour ce paramètre de vacances.
 
@@ -161,13 +161,13 @@ Le standard automatique peut avoir un flux d’appels pour chaque [jour férié 
 
 6. Si vous avez choisi de rediriger l’appel, sélectionnez la destination de routage des appels pour l’appel.
 
-7. Cliquez sur **Enregistrer**.
+7. Cliquez sur **Enregistrer** .
 
 ![](media/auto-attendant-holiday-call-settings.png)
 
 Répétez la procédure selon vos besoins pour chaque jour férié supplémentaire.
 
-Lorsque vous avez ajouté tous vos jours fériés, cliquez sur **suivant**.
+Lorsque vous avez ajouté tous vos jours fériés, cliquez sur **suivant** .
 
 ## <a name="dial-scope"></a>Étendue de numérotation
 
@@ -180,7 +180,7 @@ Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant *
 > [!NOTE]
 > Le nom d’un nouvel utilisateur peut nécessiter un maximum de 36 heures.
 
-Lorsque vous avez terminé de définir l’étendue de numérotation, cliquez sur **suivant**.
+Lorsque vous avez terminé de définir l’étendue de numérotation, cliquez sur **suivant** .
 
 ## <a name="resource-accounts"></a>Comptes de ressources
 
@@ -188,11 +188,11 @@ Tous les standards automatiques doivent disposer d’un compte de ressources ass
 
 ![](media/auto-attendant-add-resource-account.png)
 
-Pour ajouter un compte de ressource, cliquez sur **Ajouter un compte** et recherchez le compte que vous voulez ajouter. Cliquez sur **Ajouter**, puis cliquez sur **Ajouter**.
+Pour ajouter un compte de ressource, cliquez sur **Ajouter un compte** et recherchez le compte que vous voulez ajouter. Cliquez sur **Ajouter** , puis cliquez sur **Ajouter** .
 
 ![](media/auto-attendant-resource-account-assigned.png)
 
-Lorsque vous avez terminé d’ajouter des comptes de service, cliquez sur **valider**. Cela termine la configuration de standard automatique.
+Lorsque vous avez terminé d’ajouter des comptes de service, cliquez sur **valider** . Cela termine la configuration de standard automatique.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Transferts de numéros de téléphone externes-détails techniques
 

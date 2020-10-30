@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: En savoir plus sur les fonctionnalités de soins à la santé incluant la coordination des soins, la messagerie sécurisée, la visite virtuelle, l’intégration DMI et l’intégration du système de travail terrain.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790636"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803532"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Commencer à utiliser teams pour les entreprises de santé
 
@@ -107,7 +107,7 @@ De plus, votre équipe peut utiliser les applications dans teams pour :
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Partager des listes et suivre des informations avec l’application listes
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application patients sera supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale.
+> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale.
 
 L’application listes dans teams permet aux équipes de suivre les informations et d’organiser le fonctionnement. L’application est préinstallée pour tous les utilisateurs d’teams et est disponible sous forme d’onglet dans chaque équipe ou canal. Les listes peuvent être créées à partir de zéro, de modèles prédéfinis ou d’importation de données dans Excel.
 
