@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Découvrez comment mettre à niveau des téléphones teams vers teams apparaît dans le centre d’administration Microsoft Teams.
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787611"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816114"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Mise à niveau des téléphones teams vers teams
 
@@ -70,7 +70,13 @@ L’opération peut prendre jusqu’à une heure. Si le processus ne s’est pas
 
 ## <a name="known-issues"></a>Problèmes connus
 
-La prise en charge de thème foncé sur les écrans d’équipes sera disponible dans une prochaine mise à jour. Les téléphones teams qui utilisent le thème foncé obtiendront le thème par défaut après la mise à niveau.
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Les affichages des équipes contiennent le thème par défaut au lieu du thème foncé
+
+La prise en charge de thème foncé sur les écrans d’équipes sera disponible dans une prochaine mise à jour. Les téléphones teams qui utilisent le thème foncé obtiendront le thème par défaut après la mise à niveau vers Teams.
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>Certaines applications ne figurent pas dans l’écran d’accueil
+
+Si certaines applications ne figurent pas dans l’écran d’accueil après la mise à niveau, déconnectez-vous et reconnectez-vous. Ce correctif sera disponible dans une prochaine mise à jour.
 
 ## <a name="see-also"></a>Voir aussi
 

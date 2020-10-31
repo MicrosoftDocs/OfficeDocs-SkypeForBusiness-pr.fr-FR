@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur le standard automatique et les options de numérotation de la file d’attente et de reconnaissance vocale dans Teams.
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800567"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818804"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Mise en attente des appels et de la reconnaissance vocale
 
@@ -100,7 +100,7 @@ Les appelants peuvent prononcer les noms dans les formats suivants :
 
 Les langues suivantes sont disponibles pour la synthèse vocale utilisée avec les invites de courrier :
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Arabe (EG)  |Anglais (NZ)  |Coréen (KO)  |
 |Chinois (HK)  |Anglais (Royaume-Uni) |Norvégien (NO)  |
@@ -114,7 +114,7 @@ Les langues suivantes sont disponibles pour la synthèse vocale utilisée avec l
 
 L’entrée de reconnaissance vocale pour les standards automatiques est disponible dans les langues suivantes :
   
-|||
+|-|-|
 |:-----|:-----|
 |Chinois (ZH)  |Français (FR)  |
 |Anglais (AU)  |Allemand (DE)  |

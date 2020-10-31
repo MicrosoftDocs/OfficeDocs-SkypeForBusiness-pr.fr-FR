@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur le magasin d’applications personnalisé dans Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456148"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818817"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisé dans Microsoft teams
 
@@ -34,6 +34,12 @@ Vous pouvez désormais personnaliser le magasin des applications teams avec votr
 
 > [!Note]
 > Le changement de personnalisation nécessite 24 heures pour que les modifications soient prises en compte.
+
+Pour accéder à l’option personnalisation du magasin dans le centre d’administration, sélectionnez **applications teams** , puis personnaliser le Windows  >  **Store** .
+
+  ![Fonctionnalité personnaliser le Windows Store mise en évidence dans la console d’administration](media/customize-app-store.png)
+
+Cet article décrit les fonctionnalités du magasin d’applications personnalisées et la façon de les utiliser.
 
 ## <a name="customize-your-organization-logo"></a>Personnaliser le logo de votre organisation
 
@@ -57,7 +63,7 @@ Le logo apparaît dans le coin supérieur droit du catalogue d’applications du
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Le Lovemark ou le petit logo de votre organisation est une image ou un symbole qui représente la marque de votre organisation et ne contient pas le nom de votre entreprise. Le logomark permet aux membres de l’équipe d’identifier la Banque d’applications. Le logo sélectionné s’affiche dans la page client teams de l’application.
+Le logomark ou le petit logo de votre organisation est une image ou un symbole qui représente la marque de votre organisation et ne contient pas le nom de votre entreprise. Le Lovemark permet aux membres de l’équipe d’identifier la Banque d’applications. Le logo sélectionné s’affiche dans la page client teams de l’application.
 
 Lorsque vous sélectionnez l’option **choisir une image** , vous pouvez télécharger le fichier de votre choix. Le logomark doit être de 32 x 32 pixels, ou il sera mis à l’échelle à cette taille. Sa taille ne doit pas être supérieure à 5 Mo. Les formats pris en charge sont les suivants :
 
@@ -73,7 +79,7 @@ Le petit logo s’affiche à côté du titre de la section **intégré pour le c
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-L’arrière-plan doit avoir assez de contraste pour que les utilisateurs puissent lire le texte clairement. L’arrière-plan s’affichera dans le client teams dans les **applications**  >  **développées pour votre** en-tête de locataire.
+Assurez-vous que l’arrière-plan dispose de suffisamment de contraste avec le texte pour que les utilisateurs puissent lire le texte clairement. L’arrière-plan s’affichera dans le client teams dans les **applications**  >  **développées pour votre** en-tête de locataire.
 
 Vous disposez des options suivantes :
 
@@ -82,7 +88,7 @@ Vous disposez des options suivantes :
   - . svg
   - . png
   - . jpg
-- Sélectionner un arrière-plan personnalisé Lorsque vous sélectionnez **choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
+- Sélectionner un arrière-plan personnalisé Lorsque vous sélectionnez **choisir une couleur personnalisée** , un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
 
 L’image ou la couleur d’arrière-plan est utilisée en tant qu’arrière-plan pour la bannière supérieure dans le catalogue d’applications client d’équipes.
 
@@ -92,9 +98,9 @@ L’image ou la couleur d’arrière-plan est utilisée en tant qu’arrière-pl
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Le contraste de la couleur du texte doit être suffisant pour permettre aux utilisateurs de lire clairement le nom de votre organisation. Le texte s’affichera dans le client teams dans les **applications**  >  **développées pour votre** en-tête de locataire.
+Assurez-vous que la couleur du texte dispose de suffisamment de contraste avec l’arrière-plan pour permettre aux utilisateurs de lire clairement le nom de votre organisation. Le texte s’affichera dans le client teams dans les **applications**  >  **développées pour votre** en-tête de locataire.
 
-Lorsque vous sélectionnez **choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
+Lorsque vous sélectionnez **choisir une couleur personnalisée** , un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
 
  ![Image d’un sélecteur de couleurs](media/choose-a-custom-color.png)
 

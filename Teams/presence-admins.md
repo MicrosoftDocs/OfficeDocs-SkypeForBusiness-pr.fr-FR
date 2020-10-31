@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650947"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818834"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -47,7 +47,7 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 | ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
-|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Apparaître hors connexion. Bientôt disponible dans Teams.|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Mise.  Lorsque les utilisateurs ne sont pas connectés sur leur appareil pendant quelques minutes, ils s’affichent hors ligne. | |
+|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Apparaître hors connexion|![Un cercle gris avec un x indique un mode hors connexion](media/Presence_Offline.png) Mise.  Lorsque les utilisateurs ne sont pas connectés sur leur appareil pendant quelques minutes, ils s’affichent hors ligne. | |
 || ![Un cercle gris ouvert indique un statut inconnu](media/Presence_Unknown.png) Statut inconnu|
 || ![Un cercle violet avec une flèche indique absent du bureau](media/Presence_OOF.png) Absent (e) du bureau. Absent (e) du Bureau est utilisé lorsqu’une réponse automatique est définie. (Disponible uniquement dans Outlook). |
 |||
@@ -84,7 +84,7 @@ Les États configurés par l’utilisateur ont des paramètres d’expiration pa
 Les paramètres d’administration suivants de Skype Entreprise sont différents de ceux dans Teams :
 
 - Le partage de présence est toujours activé dans Teams pour les utilisateurs de l’organisation. La configuration de la confidentialité (dans laquelle vous définissez qui peut voir présence) n’est pas disponible dans Teams.
-- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts**.
+- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts** .
 - Les fonctionnalités du client Ne sont pas déranger et Autorisé à appeler sont toujours activées pour les utilisateurs Teams.
 - L'intégration du calendrier (comprend les informations d’absence du bureau et d’autres informations de calendrier) est toujours activée pour les utilisateurs lorsque Teams est intégrée à Outlook.
 - L'indicateur *Vu pour la dernière fois* ou *Absent depuis* est toujours activé pour les utilisateurs Teams si l’organisation utilise également Skype Entreprise.

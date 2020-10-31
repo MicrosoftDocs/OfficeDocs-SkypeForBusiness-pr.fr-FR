@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Australie.
-ms.openlocfilehash: 5bfca9b286a264177437ca36569b943f945b6693
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230642"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818764"
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
@@ -72,7 +72,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 
 À compter du 1er septembre 2019, si votre client se trouve en dehors de l’Australie, vous pouvez acheter des plans d’appel pour les utilisateurs situés en Australie. Il est disponible pour les pays et régions suivants.
 
-|||
+|**Fonctionnalité**|**Details**|
 |---------|---------|
 |Amériques    |États-Unis, régions éloignées des États-Unis      |
 |APAC     |Le Bangladesh, le Bhoutan, le Brunei, le Cambodge, l’Indonésie, le Laos, le Laos, le Laos, la Malaisie, le Myanmar, le Népal, le Laos, Singapour, le Sri Lanka, Thaïlande, Timor-oriental|
