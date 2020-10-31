@@ -40,7 +40,6 @@
 ## [Créer des équipes de gestionnaires de contacts](create-manager-directs-teams.md)
 ## [Gérer les équipes et les stratégies de canal](teams-policies.md)
 ## [Étiquettes de confidentialité pour Teams](sensitivity-labels.md)
-## [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
 ## [Configurer la modération des canaux dans teams](manage-channel-moderation-in-teams.md)
 ## [Partage de fichiers dans Teams](sharing-files-in-teams.md)
 ## [Intégration de Teams et de la messagerie Outlook](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [Mettre à niveau le questionnaire de découverte](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Exporter du contenu avec l’API d’exportation Microsoft Teams](export-teams-content.md)
 ## [Notes de publication pour les fonctionnalités d’administration de Teams](release-notes/release-notes.md)
+## [Préversion publique dans Microsoft Teams](public-preview-doc-updates.md)
