@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171108"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800617"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -78,7 +78,7 @@ Voici les deux opérations à effectuer pour être opérationnel sur Teams :
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Autoriser les utilisateurs à créer des équipes
 
-Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes qui répondent à leurs besoins. **Par défaut, tout utilisateur peut créer des groupes Microsoft 365 et Teams**. Cette fonctionnalité peut être inadéquate, par exemple, certains clients peuvent souhaiter limiter la création Teams par des étudiants de l'enseignement primaire/secondaire. Au besoin, la création de groupe Microsoft 365 et Teams peut être [limitée à certains groupes de sécurité](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) dans votre environnement.
+Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes qui répondent à leurs besoins. **Par défaut, tout utilisateur peut créer des groupes Microsoft 365 et Teams** . Cette fonctionnalité peut être inadéquate, par exemple, certains clients peuvent souhaiter limiter la création Teams par des étudiants de l'enseignement primaire/secondaire. Au besoin, la création de groupe Microsoft 365 et Teams peut être [limitée à certains groupes de sécurité](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) dans votre environnement.
 
 Les établissements d’enseignement supérieur sont avantagés lorsque tout le monde, y compris les étudiants, peut créer des équipes pour des cours, des recherches, des projets de groupe et des groupes d’étude. Les établissements d’enseignement primaire et secondaire peuvent limiter la création Teams par les étudiants pour s’assurer que toutes les communications entre étudiants se déroulent trouvent dans un forum comprenant un adulte. Dans ce cas, la création de groupe Microsoft 365 et Teams peut être limitée à tous les enseignants et membres du personnel.
 
@@ -96,7 +96,7 @@ Pour un parcours guidé sur la création d’équipes, voir : [Créer une équi
 
 **Le personnel de l’enseignement supérieur, les enseignants et les étudiants** bénéficient des fonctionnalités incluses par défaut dans les stratégies (générales). Certains paramètres de stratégie supplémentaires peuvent être activés pour ajouter des fonctionnalités à Teams, notamment [l’activation des fonctionnalités de traduction dans la stratégie de messagerie](messaging-policies-in-teams.md#messaging-policy-settings) et [la transcription automatique des réunions](meeting-policies-in-teams.md#allow-transcription) dans la stratégie de réunion.
 
-Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiants de l’enseignement primaire et secondaire**. Les stratégies définissent des limites relatives à ce que les étudiants peuvent faire. La population étudiante représente souvent le plus grand nombre d’utilisateurs et reçoit, le plus souvent, les paramètres les plus restrictifs. Il est donc recommandé d’apporter des modifications à la stratégie étudiant et de la configurer sur « Général » (à l’échelle de l’organisation par défaut).
+Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiants de l’enseignement primaire et secondaire** . Les stratégies définissent des limites relatives à ce que les étudiants peuvent faire. La population étudiante représente souvent le plus grand nombre d’utilisateurs et reçoit, le plus souvent, les paramètres les plus restrictifs. Il est donc recommandé d’apporter des modifications à la stratégie étudiant et de la configurer sur « Général » (à l’échelle de l’organisation par défaut).
 
 > [!IMPORTANT]
 > Pour les stratégies de réunion attribuées aux utilisateurs, nous vous recommandons de définir le paramètre « Admettre automatiquement les personnes » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
@@ -113,6 +113,7 @@ Microsoft Teams pour l’éducation offre des   [types d’équipe spécifique
 - Notes
 - Bloc-notes OneNote pour la classe  
 - [Dossier matériaux de la classe](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  pour la sécurisation du contenu en lecture seule pour les étudiants
+- [Informations](https://docs.microsoft.com/microsoftteams/class-insights) pour fournir des données en temps réel sur l’engagement, les devoirs et le bien-être de l’étudiant pour chaque classe. 
 - [Accès initial aux enseignants](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) pour configurer la classe avant que les étudiants soient ajoutés 
 - Possibilité de désactiver le son des étudiants et d’autres autorisations spéciales  
 
@@ -156,7 +157,7 @@ Pour commencer, accédez à [School Data Sync (SDS)](https://docs.microsoft.com/
 
 La création d’une équipe dirigée par l’enseignant est une option de déploiement idéale si vous voulez permettre aux enseignants de créer facilement les cours dont ils ont besoin. Nous recommandons également que les établissements comptant plus de 500 000 équipes utilisent cette méthode pour réduire au minimum le nombre d’équipes créées à l’extérieur.  
 
-Cette approche hybride vous permet d’utiliser SDS pour créer des groupes pour chaque classe (recommandé) ou d’utiliser [API Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) pour les créer vous-même. Une fois les groupes de classes préparés, les enseignants peuvent convertir leurs groupes en équipes à l’aide de l’icône **Classes suggérées**.
+Cette approche hybride vous permet d’utiliser SDS pour créer des groupes pour chaque classe (recommandé) ou d’utiliser [API Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) pour les créer vous-même. Une fois les groupes de classes préparés, les enseignants peuvent convertir leurs groupes en équipes à l’aide de l’icône **Classes suggérées** .
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Capture d’écran montrant l’icône de cours suggérés":::
 
