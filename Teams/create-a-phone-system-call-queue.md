@@ -1,5 +1,5 @@
 ---
-title: Créer une file d’attente d’appel
+title: Créer une file d’attente d’appels dans Microsoft teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer votre système téléphonique pour les files d’attente d’appels à l’aide de Microsoft Teams, qui fournit un message de bienvenue, de la musique, des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793529"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820033"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -50,7 +50,7 @@ Pour configurer une file d’attente d’appels, dans le centre d’administrati
 
 ## <a name="resource-account-and-language"></a>Compte de ressources et langue
 
-![](media/call-queue-name-language.png)
+![Capture d’écran du compte de ressources et des paramètres de langue](media/call-queue-name-language.png)
 
 1. Tapez un nom pour la file d’attente d’appels. Les agents verront ce nom lorsqu’ils recevront un appel entrant de la file d’attente.
 
@@ -77,7 +77,7 @@ Les agents d’appel sélectionnés doivent être l’un des éléments suivants
 - Utilisateurs de Skype entreprise sur site
 - Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
 
-![](media/call-queue-users-groups.png)
+![Capture d’écran des paramètres des utilisateurs et des groupes pour les files d’attente d’appels](media/call-queue-users-groups.png)
 
 Vous pouvez ajouter jusqu’à 20 agents de manière individuelle et jusqu’à 200 agents via des groupes.
 
@@ -90,7 +90,7 @@ Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes
 
 ## <a name="call-routing"></a>Routage des appels
 
-![](media/call-queue-conference-mode-routing-method.png)
+![Capture d’écran du mode de conférence et des paramètres de méthode de routage](media/call-queue-conference-mode-routing-method.png)
 
 Le **mode conférence** réduit considérablement la durée nécessaire à la connexion d’un appelant à un agent, une fois que l’agent a accepté l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente d’appels doivent utiliser un des clients suivants :
 
@@ -112,7 +112,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 
 - Temps **inactif** le plus long pour chaque appel de l’agent qui est resté inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est disponible ou s’il est absent depuis moins de 10 minutes. Les agents dont l’état de présence est absent pendant plus de 10 minutes ne sont pas considérés comme inactifs et ne peuvent pas recevoir d’appels tant qu’ils n’ont pas changé leur présence en disponible. 
 
-![](media/call-queue-presence-agents-time.png)
+![Capture d’écran des paramètres de routage, de refus d’utilisation et d’alerte](media/call-queue-presence-agents-time.png)
 
 
 Le **routage basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible** . 
@@ -135,18 +135,18 @@ Pour les files d’attente de volume élevé, nous vous recommandons d’utilise
 
 ## <a name="call-overflow-handling"></a>Gestion du dépassement des appels
 
-![](media/call-queue-overflow-handling.png)
+![Capture d’écran des paramètres de dépassement d’appel](media/call-queue-overflow-handling.png)
 
 Le nombre **maximal d’appels dans la file d’attente** spécifie le nombre maximal d’appels qui peuvent patienter dans la file d’attente à tout moment. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré conformément au paramètre **lorsque le nombre maximal d’appels est atteint** .
 
-Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente.
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des [destinations de routage des appels](create-a-phone-system-auto-attendant.md#call-routing-options) , à l’exception de l’opérateur. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente. (Notez [ces détails](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) si vous effectuez un virement vers un numéro externe.)
 
 > [!NOTE]
 > Si le nombre maximum d’appels est défini sur 0, le message d’accueil n’est pas lu.
 
 ## <a name="call-timeout-handling"></a>Gestion des délais d’appel
 
-![](media/call-queue-timeout-handling.png)
+![Capture d’écran des paramètres de délai d’appel](media/call-queue-timeout-handling.png)
 
 **Délai d’appel : délai d’attente maximum** spécifie la durée maximale pendant laquelle un appel peut être mis en attente dans la file d’attente avant qu’elle ne soit redirigée ou déconnectée. Vous pouvez spécifier une valeur comprise entre 15 secondes et 45 minutes.
 
@@ -181,13 +181,13 @@ Dans la mesure où les agents d’une file d’attente d’appels risquent de co
 
 Vous pouvez également utiliser Windows PowerShell pour créer et configurer des files d’attente d’appels. Voici les applets de passe que vous utilisez pour gérer une file d’attente d’appels.
 
-- [Nouveau-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [Nouveau-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>Sujets associés
 
@@ -197,6 +197,6 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Nouveau-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[Nouveau-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
