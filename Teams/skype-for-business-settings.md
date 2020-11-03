@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les paramètres des fonctionnalités Skype entreprise dans le centre d’administration Microsoft Teams.
-ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 0a74b2586fa706dc8fe9db73c58b7d938eae59ee
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753559"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827758"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams
 
@@ -58,11 +58,11 @@ Utilisez les paramètres suivants pour gérer la [diffusion de réunion Skype](h
 
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Capture d’écran des paramètres de diffusion de réunion Skype dans le centre d’administration":::
 
-- **Diffusions de réunion Skype**: activez cette fonction pour activer la diffusion de réunion Skype pour votre organisation. Après avoir activé cette fonction, vous devez [configurer votre réseau pour la diffusion de réunion Skype](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
-- Pour accéder en avant-première aux nouvelles fonctionnalités, **voir fonctionnalités d’aperçu**: activez cette fonction.
-- Les **organisateurs peuvent planifier des réunions anonymes**: activez cette fonction si vous voulez permettre aux organisateurs de créer des événements de diffusion qui permettent à tout le monde à l’extérieur de votre organisation de participer sans se connecter. 
-- **Enregistrez des réunions de diffusion de réunion Skype**: activez cette fonction pour permettre aux organisateurs et aux présentateurs d’enregistrer les réunions.  
-- **URL du support technique pour les participants**: entrez l’URL d’assistance technique de votre organisation pour permettre aux participants de la réunion d’avoir besoin d’aide pendant une réunion.
+- **Diffusions de réunion Skype** : activez cette fonction pour activer la diffusion de réunion Skype pour votre organisation. Après avoir activé cette fonction, vous devez [configurer votre réseau pour la diffusion de réunion Skype](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
+- Pour accéder en avant-première aux nouvelles fonctionnalités, **voir fonctionnalités d’aperçu** : activez cette fonction.
+- Les **organisateurs peuvent planifier des réunions anonymes** : activez cette fonction si vous voulez permettre aux organisateurs de créer des événements de diffusion qui permettent à tout le monde à l’extérieur de votre organisation de participer sans se connecter. 
+- **Enregistrez des réunions de diffusion de réunion Skype** : activez cette fonction pour permettre aux organisateurs et aux présentateurs d’enregistrer les réunions.  
+- **URL du support technique pour les participants** : entrez l’URL d’assistance technique de votre organisation pour permettre aux participants de la réunion d’avoir besoin d’aide pendant une réunion.
 
 ### <a name="presence-and-mobile-notifications"></a>Notifications de présence et de téléphone mobile
 
@@ -79,12 +79,12 @@ Utilisez les paramètres suivants pour gérer la confidentialité de présence d
 
 Par défaut, les utilisateurs Skype entreprise de votre organisation peuvent voir le statut de présence (disponible, occupé ou absent) d’autres utilisateurs de Skype entreprise. Choisissez l’une des options suivantes pour définir qui peut voir la présence de vos utilisateurs Skype entreprise.
 
-- **Afficher automatiquement les informations de présence**: tout utilisateur de Skype entreprise de votre organisation qui n’a pas été ajouté à la liste **externe** ou **bloquée** de l’utilisateur peut voir la présence de cet utilisateur.
-- **Afficher les informations de présence uniquement aux contacts d’un utilisateur**: tout utilisateur Skype entreprise dans la liste des contacts de l’utilisateur qui n’est pas ajouté à sa liste des contacts **externes** ou **bloqués** peut voir la présence de cet utilisateur. Les utilisateurs peuvent ignorer ce paramètre dans Skype entreprise en accédant aux **Settings**  >  **Tools**  >  **options**outils de configuration.
+- **Afficher automatiquement les informations de présence** : tout utilisateur de Skype entreprise de votre organisation qui n’a pas été ajouté à la liste **externe** ou **bloquée** de l’utilisateur peut voir la présence de cet utilisateur.
+- **Afficher les informations de présence uniquement aux contacts d’un utilisateur** : tout utilisateur Skype entreprise dans la liste des contacts de l’utilisateur qui n’est pas ajouté à sa liste des contacts **externes** ou **bloqués** peut voir la présence de cet utilisateur. Les utilisateurs peuvent ignorer ce paramètre dans Skype entreprise en accédant aux **Settings**  >  **Tools**  >  **options** outils de configuration.
 
 #### <a name="mobile-notifications"></a>Notifications mobiles
 
-Vous pouvez déterminer si vos utilisateurs mobiles Skype entreprise reçoivent des alertes concernant les messages instantanés entrants et manqués, les messages vocaux et les appels en absence via un service de notifications de transmission. En fonction des appareils mobiles utilisés dans votre organisation, vous pouvez utiliser le **service de notification Microsoft émission**, le **service de notifications de transmission d’Apple**ou les deux.
+Vous pouvez déterminer si vos utilisateurs mobiles Skype entreprise reçoivent des alertes concernant les messages instantanés entrants et manqués, les messages vocaux et les appels en absence via un service de notifications de transmission. En fonction des appareils mobiles utilisés dans votre organisation, vous pouvez utiliser le **service de notification Microsoft émission** , le **service de notifications de transmission d’Apple** ou les deux.
 
 Tenez compte des points suivants :
 
@@ -101,7 +101,7 @@ Tenez compte des points suivants :
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Pour gérer les paramètres de Skype entreprise pour les utilisateurs individuels, dans le volet de navigation de gauche du centre d’administration Teams, accédez à **utilisateurs**, cliquez sur le nom complet de l’utilisateur pour ouvrir la page des détails de l’utilisateur, puis sélectionnez l’onglet **paramètres de Skype entreprise** . À partir de cet emplacement, vous pouvez configurer l’accès externe et les paramètres de réunion pour l’utilisateur.
+Pour gérer les paramètres de Skype entreprise pour les utilisateurs individuels, dans le volet de navigation de gauche du centre d’administration Teams, accédez à **utilisateurs** , cliquez sur le nom complet de l’utilisateur pour ouvrir la page des détails de l’utilisateur, puis sélectionnez l’onglet **paramètres de Skype entreprise** . À partir de cet emplacement, vous pouvez configurer l’accès externe et les paramètres de réunion pour l’utilisateur.
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Capture d’écran de l’onglet Skype entreprise sur la page des détails de l’utilisateur":::
 
@@ -109,19 +109,19 @@ Pour gérer les paramètres de Skype entreprise pour les utilisateurs individuel
 
 Vous pouvez autoriser ou bloquer de manière sélective si un utilisateur peut communiquer avec des personnes extérieures à votre organisation.
 
-- **Utilisateurs Skype entreprise externes**: activez cette fonction si vous voulez autoriser l’utilisateur à communiquer avec des utilisateurs de Skype entreprise dans des domaines fédérés.
-- **Utilisateurs Skype externes**: activez cette fonction si vous voulez autoriser l’utilisateur à communiquer avec des utilisateurs de Skype. 
+- **Utilisateurs Skype entreprise externes** : activez cette fonction si vous voulez autoriser l’utilisateur à communiquer avec des utilisateurs de Skype entreprise dans des domaines fédérés.
+- **Utilisateurs Skype externes** : activez cette fonction si vous voulez autoriser l’utilisateur à communiquer avec des utilisateurs de Skype. 
 
 ### <a name="meeting-settings"></a>Paramètres de la réunion
 
 Vous pouvez configurer les paramètres de réunion suivants pour l’utilisateur.
 
-- **Audio & vidéo**: choisissez l’un des paramètres audio et vidéo suivants :
+- **Audio & vidéo** : choisissez l’un des paramètres audio et vidéo suivants :
 
-    - **Aucun**: l’utilisateur ne peut pas utiliser l’audio ou la vidéo.
-    - **Audio uniquement**: l’utilisateur peut utiliser le son, mais pas la vidéo.
-    - **Audio et vidéo**: l’utilisateur peut utiliser les fonctionnalités audio et vidéo.
-    - **Audio et vidéo (HD)**: l’utilisateur peut utiliser le son et la vidéo haute définition.
+    - **Aucun** : l’utilisateur ne peut pas utiliser l’audio ou la vidéo.
+    - **Audio uniquement** : l’utilisateur peut utiliser le son, mais pas la vidéo.
+    - **Audio et vidéo** : l’utilisateur peut utiliser les fonctionnalités audio et vidéo.
+    - **Audio et vidéo (HD)** : l’utilisateur peut utiliser le son et la vidéo haute définition.
     
-- **Enregistrer des conversations & des réunions**: activez cette fonction pour permettre à l’utilisateur d’enregistrer des conversations et des réunions.
-- **Conformité**: activez cette fonction si vous êtes légalement tenu de conserver les informations stockées électroniquement. 
+- **Enregistrer des conversations & des réunions** : activez cette fonction pour permettre à l’utilisateur d’enregistrer des conversations et des réunions.
+- **Conformité** : activez cette fonction si vous êtes légalement tenu de conserver les informations stockées électroniquement. 

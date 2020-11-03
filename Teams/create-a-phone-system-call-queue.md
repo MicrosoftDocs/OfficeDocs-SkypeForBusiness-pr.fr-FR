@@ -46,7 +46,7 @@ Les files d’attente d’appels fournissent :
 
 Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
-Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix** , cliquez sur **files d’attente d’appels** , puis cliquez sur **Ajouter** .
+Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix** , cliquez sur **files d’attente d’appels** , puis cliquez sur **Ajouter**.
 
 ## <a name="resource-account-and-language"></a>Compte de ressources et langue
 
@@ -54,7 +54,7 @@ Pour configurer une file d’attente d’appels, dans le centre d’administrati
 
 1. Tapez un nom pour la file d’attente d’appels. Les agents verront ce nom lorsqu’ils recevront un appel entrant de la file d’attente.
 
-2. Cliquez sur **Ajouter** un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter** , puis sur **Ajouter** .
+2. Cliquez sur **Ajouter** un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter** , puis sur **Ajouter**.
 
 3. Choisissez une langue. Ce langage sera utilisé pour les invites vocales générées par le système et la transcription de la boîte vocale (si vous les activez).
 
@@ -81,9 +81,9 @@ Les agents d’appel sélectionnés doivent être l’un des éléments suivants
 
 Vous pouvez ajouter jusqu’à 20 agents de manière individuelle et jusqu’à 200 agents via des groupes.
 
-Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs** , recherchez l’utilisateur, cliquez sur **Ajouter** , puis sur **Ajouter** .
+Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs** , recherchez l’utilisateur, cliquez sur **Ajouter** , puis sur **Ajouter**.
 
-Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes** , recherchez le groupe, cliquez sur **Ajouter** , puis cliquez sur **Ajouter** . Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
+Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes** , recherchez le groupe, cliquez sur **Ajouter** , puis cliquez sur **Ajouter**. Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
 
 > [!NOTE]
 > Les nouveaux utilisateurs ajoutés à un groupe peuvent parfois prendre jusqu’à huit heures de réception.
@@ -115,7 +115,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 ![Capture d’écran des paramètres de routage, de refus d’utilisation et d’alerte](media/call-queue-presence-agents-time.png)
 
 
-Le **routage basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible** . 
+Le **routage basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les téléopérateurs pour lesquels l’état de disponibilité est défini sur **disponible** figurent dans la liste routage des appels et peuvent recevoir des appels. Les agents dont l’état de disponibilité est défini sur tout autre statut sont exclus de la liste routage des appels et ne reçoivent aucun appel tant que leur état de disponibilité n’a pas été modifié en **disponible**. 
 
 Vous pouvez activer le routage des appels en fonction de la présence avec n’importe quelle méthode de routage.
 
@@ -152,7 +152,7 @@ Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une de
 
 Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente.
 
-Lorsque vous avez sélectionné les options de temporisation de l’appel, cliquez sur **Enregistrer** .
+Lorsque vous avez sélectionné les options de temporisation de l’appel, cliquez sur **Enregistrer**.
 
 ## <a name="caller-id-for-outbound-calls"></a>ID de l’appelant pour les appels sortants
 
@@ -189,7 +189,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 - [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

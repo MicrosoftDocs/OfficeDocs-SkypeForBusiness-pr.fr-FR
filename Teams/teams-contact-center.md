@@ -13,12 +13,12 @@ f1.keywords:
 description: Présentation de la solution Centre de contacts intégré en tant que service (CCaaS) de Microsoft teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424624"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827738"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du centre de contacts pour Microsoft teams
 
@@ -54,6 +54,7 @@ Les partenaires suivants travaillent dans le processus de certification de leur 
 | Technologies Landis | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | NICE contact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 Cette liste sera mise à jour sous la forme d’autres partenaires et répondez aux critères de certification.
@@ -90,19 +91,19 @@ Les organisations peuvent s’assurer que les appels sont dirigés vers l’agen
 
 Comme Voici une liste complète des fonctionnalités de fonctionnalité pour ce modèle d’intégration, les zones principales sont les suivantes :
 
-  - Office 365 Authn pour les agents pour permettre aux agents de se connecter à leur client Microsoft à partir de leur client CCaaS intégré 
+  - Office 365 Authn pour les agents pour permettre aux agents de se connecter à leur client Microsoft à partir de leur client CCaaS intégré 
 
-  - Indication de présence des utilisateurs de teams 
+  - Indication de présence des utilisateurs de teams 
 
-  - Flux d’appels via le routage direct (comme indiqué dans les plans de test) 
+  - Flux d’appels via le routage direct (comme indiqué dans les plans de test) 
 
-  - Prenez en charge les transferts et les appels de groupe avec les utilisateurs teams 
+  - Prenez en charge les transferts et les appels de groupe avec les utilisateurs teams 
 
-  - API du graphique teams et API de communication Cloud pour l’intégration à teams 
+  - API du graphique teams et API de communication Cloud pour l’intégration à teams 
 
-  - Capable de prendre en charge le trunking SIP multipoint pour la prise en charge de plusieurs clients sur les SBC du partenaire.  
+  - Capable de prendre en charge le trunking SIP multipoint pour la prise en charge de plusieurs clients sur les SBC du partenaire.  
 
-  - Partenaires permettant d’implémenter [ <span class="underline">Microsoft Certified session Controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Partenaires permettant d’implémenter [ <span class="underline">Microsoft Certified session Controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>Se connecter et prolonger
 
@@ -116,11 +117,11 @@ Les organisations peuvent concevoir des flux de travail et des configurations de
 
 Comme Voici une liste complète des fonctionnalités de fonctionnalité pour ce modèle d’intégration, il met en évidence les principales zones de foyer :
 
-  - API du graphique teams et API de communication Cloud pour l’intégration à teams 
+  - API du graphique teams et API de communication Cloud pour l’intégration à teams 
 
-  - Expériences d’applications basées sur teams 
+  - Expériences d’applications basées sur teams 
 
-  - Teams comme point de terminaison d’appelant principal pour les agents 
+  - Teams comme point de terminaison d’appelant principal pour les agents 
 
   - Appel client teams pour tous les contrôles d’appel
 
@@ -128,9 +129,9 @@ Comme Voici une liste complète des fonctionnalités de fonctionnalité pour ce 
 
   - Analyse, gestion du flux de travail, expériences basées sur les rôles pour les agents au sein de l’application CCaaS dans teams
 
-  - Expériences de conversation et de collaboration intégrées aux clients teams 
+  - Expériences de conversation et de collaboration intégrées aux clients teams 
 
-  - Préservation des performances et de la qualité des expériences client d’équipes dans toutes les applications  
+  - Préservation des performances et de la qualité des expériences client d’équipes dans toutes les applications  
 
 ### <a name="extend-and-power"></a>Extension et alimentation
 
@@ -144,13 +145,13 @@ Grâce au modèle prolonger et intégration de l’alimentation, les partenaires
 
 Comme Voici une liste complète des fonctionnalités de fonctionnalités pour ce modèle d’intégration, celles-ci sont des zones en surbrillance en plus de celles fournies par le modèle de connexion et d’extension.
 
-  - L’agent formel a activé en natif la communication Omni-canal par le biais du SDK teams 
+  - L’agent formel a activé en natif la communication Omni-canal par le biais du SDK teams 
 
-  - Exploitez les services de collaboration en équipes pour la collaboration et les interactions client  
+  - Exploitez les services de collaboration en équipes pour la collaboration et les interactions client  
 
-  - Attribution rapide de services Cloud, déploiement en tout lieu 
+  - Attribution rapide de services Cloud, déploiement en tout lieu 
 
-  - Contrôle de conversation directe et interaction avec les utilisateurs lors des conversations d’équipes 
+  - Contrôle de conversation directe et interaction avec les utilisateurs lors des conversations d’équipes 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>Comparaison des modèles d’intégration de centre de contacts connectés
 
@@ -160,10 +161,10 @@ Consultez le tableau ci-dessous pour obtenir une vue d’ensemble des modèles d
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>Applications vocales teams</strong></th>
-<th><strong>Connecté</strong></th>
-<th><strong>Connexion + prolonger</strong></th>
-<th><strong>Extension + puissance</strong></th>
+<th>Applications vocales teams</th>
+<th>Connecté</th>
+<th>Étendre</th>
+<th>Pouvoirs</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ Consultez le tableau ci-dessous pour obtenir une vue d’ensemble des modèles d
 <td>Plateforme<br />
 (Plans d’appel + DR)</td>
 <td>Routage direct</td>
-<td>Routage direct</td>
+<td>Plateforme<br />
+(Plans d’appel + DR)</td>
 <td>Plateforme<br />
 (Plans d’appel + DR)</td>
 </tr>
