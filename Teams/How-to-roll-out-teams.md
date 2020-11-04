@@ -1,7 +1,7 @@
 ---
 title: Comment mettre en place Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,14 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637913"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878688"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Comment mettre en place Microsoft Teams
 
@@ -50,7 +51,7 @@ Nous vous recommandons de déployer Teams en plusieurs phases, charge de travail
 
 ## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Si vous venez de Skype Entreprise, déploiements en local ou hybrides
 
-Si vous venez vers Teams de Skype Entreprise (en ligne ou en local) ou si vous avez besoin d’une configuration hybride, vous devriez quand-même suivre le [parcours recommandé](#recommended-path-to-teams) ci-dessus pour déployer Teams, mais tout d’abord vous devez planifier un peu plus. Commencez par passer en revue les instructions présentées dans le tableau ci-dessous qui s’appliquent au profil de votre organisation.
+Si vous venez vers Teams de Skype Entreprise (en ligne ou en local) ou si vous avez besoin d’une configuration hybride, vous devriez quand-même suivre le [parcours recommandé](#recommended-path-to-teams) ci-dessus pour le déploiement Teams, mais tout d’abord vous devez planifier un peu plus. Commencez par passer en revue les instructions présentées dans le tableau ci-dessous qui s’appliquent au profil de votre organisation.
 
 
 

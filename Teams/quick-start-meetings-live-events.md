@@ -1,7 +1,7 @@
 ---
 title: 'Démarrage rapide pour les administrateurs : réunions et évènements en direct dans Microsoft Teams'
 ms.reviewer: ''
-description: Prise en main rapide des réunions et événements en direct dans Microsoft Teams.
+description: Guide de démarrage rapide pour les administrateurs pour obtenir des licences pour, déployer et configurer des réunions en ligne et des événements en direct dans Microsoft Teams.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,14 +17,14 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739392"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878658"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et évènements en direct dans Microsoft Teams
 
 Deux méthodes s’offrent à vous pour les réunions et événements en direct dans Microsoft Teams. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements en direct au sein de votre organisation.
 
@@ -51,7 +51,7 @@ Pour en savoir plus sur les licences, lisez [Description du service Microsoft Te
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 
-Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365 ou Office 365, vous êtes probablement prêt. Dans tous les cas, et en particulier si vous déployez rapidement Teams en tant que première charge de travail Office 365 pour prendre en charge des **travailleurs à distance**, veuillez lire [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md) pour vous assurer d’être prêt.
+Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365 ou Office 365, vous êtes probablement prêt. Dans tous les cas, et en particulier si vous déployez rapidement Teams en tant que première charge de travail Office 365 pour prendre en charge des **travailleurs à distance** , veuillez lire [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md) pour vous assurer d’être prêt.
 
 ## <a name="meetings-and-conferencing"></a>Réunions et conférences
 

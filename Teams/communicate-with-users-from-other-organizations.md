@@ -1,6 +1,6 @@
 ---
-title: Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams
-author: SerdarSoysal
+title: Appel et conversation avec des utilisateurs d’autres organisations
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.topic: article
@@ -13,21 +13,21 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez comment communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
+description: Découvrez comment appeler, discuter, rechercher, et ajouter des utilisateurs en dehors de l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761380"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878668"
 ---
-<a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams
+<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Appeler et discuter avec des utilisateurs d’autres organisations dans Microsoft Teams
 ======================================================
 
-Lorsque vous avez besoin de communiquer et de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux manières de procéder. La première, **accès externe** (fédération), permet de rechercher, d’appeler des utilisateurs et de discuter avec eux dans d’autres domaines (par exemple, contoso.com). La deuxième, **accès invité**, vous permet d’ajouter des utilisateurs à vos équipes, comme invités, à l’aide de leur adresse e-mail. Vous pouvez collaborer avec des invités comme vous le feriez avec d’autres utilisateurs dans votre organisation.
+Lorsque vous avez besoin de communiquer et de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux manières de procéder. La première, **accès externe** (fédération), permet de rechercher, d’appeler des utilisateurs et de discuter avec eux dans d’autres domaines (par exemple, contoso.com). La deuxième, **accès invité** , vous permet d’ajouter des utilisateurs à vos équipes, comme invités, à l’aide de leur adresse e-mail. Vous pouvez collaborer avec des invités comme vous le feriez avec d’autres utilisateurs dans votre organisation.
 
 Si vous le souhaitez, vous pouvez utiliser l’accès externe et l’accès invité ; l’un n’exclut pas l’autre.
 
@@ -35,7 +35,7 @@ Si vous le souhaitez, vous pouvez utiliser l’accès externe et l’accès invi
 
 ## <a name="external-access"></a>Accès externe
 
-Utilisez l’**accès externe** (fédération) lorsque vous avez besoin d’une solution qui permet aux utilisateurs externes dans d’autres domaines de rechercher, appeler, discuter et configurer des réunions avec vous. Les utilisateurs externes n’ont pas accès aux équipes ou ressources d’équipe de votre organisation. Sélectionnez l’accès externe lorsque vous voulez communiquer avec des utilisateurs externes qui utilisent encore Skype Entreprise (en ligne ou en local) ou Skype (à paraître début 2020). 
+Utilisez l’ **accès externe** (fédération) lorsque vous avez besoin d’une solution qui permet aux utilisateurs externes dans d’autres domaines de rechercher, appeler, discuter et configurer des réunions avec vous. Les utilisateurs externes n’ont pas accès aux équipes ou ressources d’équipe de votre organisation. Sélectionnez l’accès externe lorsque vous voulez communiquer avec des utilisateurs externes à votre organisation qui utilisent encore Skype Entreprise (en ligne ou en local) ou Skype (à paraître début 2020). 
 
 L’accès externe est activé par défaut dans Teams. Ainsi, votre organisation peut communiquer avec tous les domaines externes. L’administrateur Teams peut le désactiver ou spécifier les domaines à inclure (ou à exclure). Pour plus d’informations, voir [Gérer l’accès externe](manage-external-access.md). 
 

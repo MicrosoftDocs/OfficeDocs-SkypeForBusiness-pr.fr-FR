@@ -1,5 +1,5 @@
 ---
-title: Chat, équipes, canaux et applications dans Microsoft Teams
+title: Conversation, équipes, canaux et applications dans Microsoft Teams
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Instructions détaillées pour le déploiement de la conversation, des équipes, des canaux et des applications dans Microsoft Teams, conformément au profil de votre organisation et aux besoins de votre entreprise.
+description: Contient des instructions pas à pas pour configurer les paramètres Teams pour les conversations, les équipes, les applications et les canaux dans Microsoft Teams.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,14 +19,15 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820508"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878528"
 ---
-# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
+# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Conversation, équipes, canaux et applications dans Microsoft Teams
 
 Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.
 
@@ -80,7 +81,7 @@ En plus des rôles d’administrateur, Teams vous permet d’attribuer des rôle
 
 ### <a name="messaging-policies"></a>Stratégies de messagerie
 
-Les stratégies de messagerie contrôlent les fonctionnalités de conversation et de canal qui seront mis à disposition des utilisateurs dans Teams. Par exemple, qui peut modifier et supprimer des messages envoyés, qui peuvent utiliser le chat, qui peut utiliser des mèmes dans les conversations et bien plus encore. Par défaut, les stratégie de messagerie générales sont affectées aux utilisateurs et toutes les fonctionnalités sont **activées**. Vous pouvez utiliser la stratégie générale par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour certaines personnes qui hébergent des réunions dans votre organisation. 
+Les stratégies de messagerie contrôlent les fonctionnalités de conversation et de canal qui seront mis à disposition des utilisateurs dans Teams. Par exemple, qui peut modifier et supprimer des messages envoyés, qui peuvent utiliser le chat, qui peut utiliser des mèmes dans les conversations et bien plus encore. Par défaut, les stratégie de messagerie générales sont affectées aux utilisateurs et toutes les fonctionnalités sont **activées**. Vous pouvez utiliser la stratégie générale par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour certaines personnes qui hébergent des réunions dans votre organisation. 
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -91,7 +92,7 @@ Les stratégies de messagerie contrôlent les fonctionnalités de conversation e
 
 ### <a name="external-access"></a>Accès externe
 
-L’accès externe (appelé auparavant « fédération ») permet à vos utilisateurs de Teams et Skype Entreprise de communiquer avec des utilisateurs qui sont à l’extérieur de votre organisation. En l’activant et en ajoutant des domaines à la liste autorisée, vos utilisateurs peuvent communiquer avec des utilisateurs dans d’autres domaines et d’autres organisations.L’accès externe diffère de l’accès invité car c’est un domaine entier qui reçoit les autorisations d’accès, pas seulement une personne. L’accès externe est désactivé par défaut.
+L’accès externe (appelé auparavant « fédération ») permet à vos utilisateurs de Teams et Skype Entreprise de communiquer avec des utilisateurs qui sont à l’extérieur de votre organisation. En l’activant et en ajoutant des domaines à la liste autorisée, vos utilisateurs peuvent communiquer avec des utilisateurs dans d’autres domaines et d’autres organisations. L’accès externe diffère de l’accès invité car c’est un domaine entier qui reçoit les autorisations d’accès, pas seulement une personne. L’accès externe est désactivé par défaut.
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -114,7 +115,7 @@ L’accès invité dans Teams permet à des personnes en dehors de votre organis
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
-Les paramètres de Teams permettent de configurer les fonctionnalités pour vos équipes, comme par exemple l’intégration courrier, les options de stockage dans le nuage, l’onglet organisation, la configuration des salles de conférence et l’étendue des recherches. Lorsque vous apportez des modifications à ces paramètres, ils s’appliquent à toutes les équipes de votre organisation.Pour plus d’informations, voir [Paramètres Teams](enable-features-office-365.md#teams-settings).
+Les paramètres de Teams permettent de configurer les fonctionnalités pour vos équipes, comme par exemple l’intégration courrier, les options de stockage dans le nuage, l’onglet organisation, la configuration des salles de conférence et l’étendue des recherches. Lorsque vous apportez des modifications à ces paramètres, ils s’appliquent à toutes les équipes de votre organisation. Pour plus d’informations, consultez [Paramètres Teams](enable-features-office-365.md#teams-settings).
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -123,7 +124,7 @@ Les paramètres de Teams permettent de configurer les fonctionnalités pour vos 
 
 ### <a name="teams-clients"></a>Clients Teams
 
-Teams prend en charge un nombre de clients, depuis le web ou au bureau ou en mobilité, et la configuration par défaut permet aux utilisateurs de choisir le client qu’ils veulent utiliser.Pour plus d’informations, voir [Obtenir des clients pour Teams](get-clients.md).
+Teams prend en charge un nombre de clients, depuis le web ou au bureau ou en mobilité, et la configuration par défaut permet aux utilisateurs de choisir le client qu’ils veulent utiliser. Pour plus d’informations, consultez [Obtenir des clients pour Teams](get-clients.md).
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -209,7 +210,7 @@ Une application épinglée apparaît dans la réglette latérale dans Teams. En 
 
 ### <a name="archiving-and-compliance"></a>Archivage et conformité 
 
-Votre organisation peut exiger que vous implémentiez des contrôles sur l’archivage des équipes et sur les types de données qui sont conservées dans certains types d’équipes. Voir [Vue d’ensemble sur la sécurité et la conformité dans Teams](security-compliance-overview.md) pour en savoir plus sur les paramètres qui sont activés par défaut.
+Votre organisation peut exiger que vous implémentiez des contrôles sur l’archivage des équipes et sur les types de données qui sont conservées dans certains types d’équipes. Consultez [Vue d’ensemble sur la sécurité et la conformité dans Teams](security-compliance-overview.md) pour en savoir plus sur les paramètres Teams qui sont activés par défaut.
 
 | Posez-vous la question | Action |
 |--------------|--------|

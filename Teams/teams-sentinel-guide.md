@@ -19,16 +19,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 310105abaa5a5c545bdb85963bb14796c630bf66
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 6aa8e733aeb3828bb1815001ba0299a9ee1aaf78
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121624"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852145"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel et Microsoft Teams
 
-Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée, non seulement lorsqu’il s’agit de *le repérage dans les journaux*, mais également dans *la surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
+Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée, non seulement lorsqu’il s’agit de *le repérage dans les journaux* , mais également dans *la surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
 
 > [!NOTE]
 > Vous avez besoin d’un rappel sur Azure Sentinel ? [Cet article](https://docs.microsoft.com/azure/sentinel/overview) est exactement ce qu'il faut.
@@ -55,7 +55,7 @@ Cette section se compose de trois parties :
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Inscrire une application dans Microsoft Azure pour la collecte des journaux
 
 > [!TIP]
-> Avant de commencer, vous devez vous enregistrer votre **ID d’application/ID client**, et votre **ID du locataire** pour une utilisation ultérieure. Veillez à les capturer au fur et à mesure que vous parcourez les étapes d’inscription ci-dessous. Les deux ID s’affichent.
+> Avant de commencer, vous devez vous enregistrer votre **ID d’application/ID client** , et votre **ID du locataire** pour une utilisation ultérieure. Veillez à les capturer au fur et à mesure que vous parcourez les étapes d’inscription ci-dessous. Les deux ID s’affichent.
 >- Une fois que vous avez créé votre application, cliquez sur inscription de l’application dans la barre latérale de lancement rapide > Recherchez le nom complet de votre nouvelle application > Copiez l’ID de l’application (client).
 >- Cliquez sur vue d’ensemble sur la barre de lancement rapide > copier l’ID d’annuaire (locataire).
 
@@ -65,20 +65,20 @@ Authentifiez et autorisez une application Azure Active Directory (Azure AD) pour
 2. Cliquez sur *Inscriptions des applications* dans la barre latérale lancement rapide.
 3. Sélectionnez *Nouvelle inscription*.
 4. Nommez l’application de collecte de journal Teams, puis cliquez sur *Inscrire*.
-5. Cliquez sur le long de ce chemin d’accès : *Autorisations d’API * > *Ajouter une autorisation* > *API de gestion Office 365* > *Autorisations d’application*.
+5. Cliquez sur le long de ce chemin d’accès : *Autorisations d’API* > *Ajouter une autorisation* > *API de gestion Office 365* > *Autorisations d’application*.
 6. Développez flux d’activités et cochez *ActivityFeed.Read*.
 7. Sélectionnez *Consentement de l’administrateur général* ici. Cliquez sur Oui lorsque vous êtes invité à confirmer votre signification.
 8. Cliquez sur *Certificats et secrets* dans la barre latérale > bouton *Nouvelle clé secrète client*.
 9. Dans la fenêtre Nouvelle clé secrète client, entrez une description pour la nouvelle clé secrète client, assurez-vous de choisir « Jamais » pour l’expiration, puis cliquez sur *Ajouter*.
 
 > [!IMPORTANT]
-> Il est **critique** de copier la nouvelle clé secrète client dans une entrée du gestionnaire de mots de passe qui s’affiche sous le nom de l’application nouvellement créée. Vous ne serez pas en mesure de revenir sur ce secret une fois la fermeture du panneau Azure (*Panneau* étant le terme azur pour fenêtre).
+> Il est **critique** de copier la nouvelle clé secrète client dans une entrée du gestionnaire de mots de passe qui s’affiche sous le nom de l’application nouvellement créée. Vous ne serez pas en mesure de revenir sur ce secret une fois la fermeture du panneau Azure ( *Panneau* étant le terme azur pour fenêtre).
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Inscrire l’API avec PowerShell pour collecter les journaux Teams
 
 La dernière étape de l’installation consiste à collecter et enregistrer l’abonnement API de sorte que vous puissiez recueillir vos données de journal. Pour ce faire, vous pouvez effectuer des appels PowerShell REST à l'API d'activité de gestion M365.
 
-Vous êtes prêt à fournir **ID d’application (client)**, la nouvelle **clé secrète client**votre **domaine d’URL pour M365**et **ID d’annuaire (locataire)** les valeurs dans l’applet de commande PowerShell ci-dessous.
+Vous êtes prêt à fournir **ID d’application (client)** , la nouvelle **clé secrète client** votre **domaine d’URL pour M365** et **ID d’annuaire (locataire)** les valeurs dans l’applet de commande PowerShell ci-dessous.
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
@@ -182,7 +182,7 @@ O365API_CL
 ```
  Enregistrez l’analyseur sous la forme d’une fonction KQL, avec un alias de TeamsData. Elle sera utilisée pour les requêtes à suivre. Pour plus d’informations sur la configuration et l’utilisation d’une fonction KQL comme analyseur, consultez cet [Article de la communauté technique](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-## <a name="helfpul-hunting-kql-queries"></a>Requêtes KQL de repérage helfpuls
+## <a name="helpful-hunting-kql-queries"></a>Requêtes KQL de repérage utile
 
 Utilisez ces requêtes pour vous familiariser avec vos données et l’environnement Teams. Il est recommandé de connaître l’apparence et le comportement de l’environnement afin de reconnaître les activités suspectes. À partir de là, vous pouvez vous brancher au repérage de menaces.
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> Pour en savoir plus sur les types d’accès externe et invité dans Teams, consultez[cet article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)ou la section *Types de participants* dans le [Guide de la sécurité Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide).
+> Pour en savoir plus sur les types d’accès externe et invité dans Teams, consultez [cet article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)ou la section *Types de participants* dans le [Guide de la sécurité Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide).
 
 #### <a name="who-recently-joined--whose-role-changed"></a>Les personnes qui ont récemment rejoint/dont le rôle a changé
 
