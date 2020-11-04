@@ -13,16 +13,16 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814363"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852155"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Vue d’ensemble de Microsoft teams PowerShell
 
-Microsoft teams PowerShell est un ensemble d’applets de commande qui vous permet de gérer teams directement à partir de la ligne de commande PowerShell. Écrit en .NET standard, teams PowerShell fonctionne sur PowerShell 5,1 sur Windows, PowerShell 6. x et versions ultérieures sur toutes les plateformes, dont Azure Shell.
+Microsoft teams PowerShell est un ensemble d’applets de commande qui vous permet de gérer teams directement à partir de la ligne de commande PowerShell. Écrit en .NET standard, teams PowerShell fonctionne sur PowerShell 5,1 sur Windows, PowerShell 6. x et versions ultérieures sur toutes les plateformes, dont Azure Cloud Shell.
 
 Pour pouvoir commencer à utiliser PowerShell, vous devez l' [installer](teams-powershell-install.md). 
 
@@ -34,9 +34,9 @@ Pour pouvoir commencer à utiliser PowerShell, vous devez l' [installer](teams-p
 
 PowerShell teams est disponible dans la [Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) en deux types de publication.
 
-- **Disponibilité générale (GA)**: cmdlets prêts à l’emploi, mises à jour mensuelles.
+- **Disponibilité générale (GA)** : cmdlets prêts à l’emploi, mises à jour mensuelles.
 
-- Préversion **publique**: accès en avant-première aux fonctions. Est-il possible de mettre à jour plus fréquemment que la disponibilité.
+- Préversion **publique** : accès en avant-première aux fonctions. Est-il possible de mettre à jour plus fréquemment que la disponibilité.
 
 Pour plus d’informations sur les ajouts et améliorations de fonctionnalités pour les deux versions, consultez les [notes de publication de teams PowerShell](teams-powershell-release-notes.md).
 

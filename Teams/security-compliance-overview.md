@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: Vue d’ensemble des fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment l’audit et la création de rapports, la recherche de contenu de conformité, la découverte électronique, etc.
+description: Vue d’ensemble des fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment la confidentialité et le chiffrement, l’audit et la création de rapports, etc.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,19 +18,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429350"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878488"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
 > [!IMPORTANT]
-> Pour plus d’informations sur la façon de garantir **la sécurité de tous les utilisateurs de chez vous lors de l’épidémie de COVID-19**, lisez les articles suivants :
+> Pour plus d’informations sur la façon de garantir **la sécurité de tous les utilisateurs de chez vous lors de l’épidémie de COVID-19** , lisez les articles suivants :
 >  - [12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [Optimiser la connectivité de Microsoft 365 ou Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Mise à jour du 2 avril 2020 : Guide sur la [sécurité teams](teams-security-guide.md)
@@ -135,7 +136,7 @@ Les clients peuvent utiliser eDiscovery ou [Advanced eDiscovery](https://docs.mi
 
 Au cours d’un litige, il est possible que vous ayez besoin de toutes les données associées à un utilisateur ou à une équipe dont la conservation est inaltérable, afin qu’elle puisse être utilisée comme preuve pour le cas. Pour ce faire, vous devez placer un utilisateur (boîte aux lettres d’utilisateur) ou une équipe en attente de conservation légale. Pour une attente légale d’équipe, la boîte aux lettres de l’équipe peut être placée sur les éléments suivants :
 
-- Blocage sur place (un sous-ensemble de la boîte aux lettres ou de la collection de sites par le biais de requêtes ciblées ou de contenu filtré est mis en attente), ou
+- In-Place conservation (un sous-ensemble de la boîte aux lettres ou de la collection de sites par le biais de requêtes ciblées ou de contenu filtré est mis en attente), ou
 - Conservation pour litige (la boîte aux lettres ou la collection de sites entière est mise en attente).
 
 Dans les deux cas, une fois la conservation définie, elle garantit que, même si les utilisateurs finaux suppriment ou modifient des messages de canal qui se trouvent dans la boîte aux lettres de groupe, les copies immuables de ce contenu sont conservées et disponibles par le biais de la recherche eDiscovery. Les conservations juridiques sont généralement appliquées dans le cadre d’un cas de découverte électronique.
@@ -157,7 +158,11 @@ La recherche dans le journal d’audit se connecte au centre de conformité Micr
 
 ## <a name="privacy"></a>Confidentialité
 
-Chez Microsoft, la protection de vos données est notre priorité la plus élevée. Pour en savoir plus sur notre politique de confidentialité, lisez la [déclaration de confidentialité de Microsoft](https://www.microsoft.com/trust-center/privacy).
+Chez Microsoft, la protection de vos données est notre priorité la plus élevée. Pour en savoir plus sur notre politique de confidentialité, consultez :  
+
+- [Confidentialité chez Microsoft](https://www.microsoft.com/trust-center/privacy)
+- [Notre politique de confidentialité et de sécurité de Microsoft teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [Pour les professionnels de l’informatique : confidentialité et sécurité dans Microsoft teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## <a name="information-protection-architecture"></a>Architecture de protection des informations
 
@@ -183,9 +188,9 @@ Pour plus d’informations sur la façon de déterminer les fonctionnalités de 
 
 ## <a name="location-of-data-in-teams"></a>Emplacement des données dans Teams
 
-Les données en équipe résident dans la zone géographique associée à votre organisation Microsoft 365 ou Office 365. Pour connaître les régions prises en charge pour le moment, veuillez vérifier [l’emplacement des données dans Microsoft teams](location-of-data-in-teams.md).
+Les données dans Teams se situent dans la région géographique associée à votre organisation Microsoft 365 ou Office 365. Pour connaître les régions prises en charge pour le moment, veuillez vérifier [l’emplacement des données dans Microsoft teams](location-of-data-in-teams.md).
 
-Si vous avez besoin de voir la région qui abrite les données pour votre client, accédez au profil d’organisation paramètres du [Centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home)  >  **Settings**  >  **Organization profile**. Défilez jusqu’à la section **Emplacement des données**.
+Si vous avez besoin de voir la région qui abrite les données pour votre client, accédez au profil d’organisation paramètres du [Centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home)  >  **Settings**  >  **Organization profile**. Faites défiler vers le bas jusqu’à **Emplacement des données**.
 
 ![Capture d’écran de la table d’emplacements des données, y compris équipes dans le centre d’administration](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

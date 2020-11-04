@@ -1,7 +1,7 @@
 ---
 title: Formation pour les administrateurs Microsoft Teams
 ms.reviewer: ''
-description: Ces ressources de formation, destinées aux instructeurs, administrateurs et utilisateurs finaux, permettent de tirer le meilleur parti de Microsoft Teams dans une organisation.
+description: Ces ressources de formation et didacticiels vidéo, destinés aux instructeurs, administrateurs et utilisateurs finaux, permettent de tirer le meilleur parti de Microsoft Teams dans une organisation.
 ms.topic: overview
 author: msdmaguire
 ms.author: dmaguire
@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: f1215838081d6cab919999b7ccd91d061ce87321
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336973"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878348"
 ---
 # <a name="microsoft-teams-training"></a>Formation Microsoft Teams
 

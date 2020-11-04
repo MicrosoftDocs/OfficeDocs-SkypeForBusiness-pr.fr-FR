@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840404"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878182"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -213,7 +213,7 @@ Le numéro de téléphone sortant affiché est déterminé comme suit :
 
 Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
-Dans un environnement hybride, pour transférer un appel de standard automatique vers le RTC via l’intégration RTC Skype entreprise, créez un nouvel utilisateur local avec le renvoi d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour voix entreprise et avoir reçu une stratégie vocale. Pour en savoir plus, voir [transfert d’appel standard automatique vers PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+Dans un environnement hybride Skype entreprise, pour transférer un appel de standard automatique vers le RTC, créez un nouvel utilisateur local avec le renvoi d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour voix entreprise et avoir reçu une stratégie vocale. Pour en savoir plus, voir [transfert d’appel standard automatique vers PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Créer un standard automatique avec PowerShell
 

@@ -1,5 +1,5 @@
 ---
-title: Détails sur les solutions téléphoniques Microsoft Telephony
+title: Solutions de téléphonie Microsoft
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Décrit les solutions de téléphonie Microsoft.
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 'Découvrez les solutions de téléphonie de Microsoft : options de système téléphonique (PBX) et de connectivité PSTN (forfaits d’appels et routage direct).'
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359100"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878538"
 ---
-# <a name="microsoft-telephony-solutions"></a>Détails sur les solutions téléphoniques Microsoft Telephony
+# <a name="microsoft-telephony-solutions"></a>Solutions de téléphonie Microsoft
 
-Microsoft prend en charge plusieurs options lorsque vous commencez votre transition vers teams dans le Cloud de Microsoft. Cet article vous aide à décider quelle solution de téléphonie Microsoft (système téléphonique dans le Cloud ou voix entreprise en local) est appropriée pour les utilisateurs de votre organisation, et comment votre organisation peut se connecter au réseau téléphonique commuté (PSTN). 
+Microsoft prend en charge plusieurs options lorsque vous commencez votre transition vers teams dans le Cloud de Microsoft. Cet article vous aide à décider quelle solution de téléphonie Microsoft (système téléphonique dans le Cloud ou voix entreprise en local) est appropriée pour les utilisateurs de votre organisation, et comment votre organisation peut se connecter au réseau téléphonique commuté (PSTN).
 
 Vous devez utiliser cet article avec le diagramme technique associé, qui fournit une aide visuelle pour prendre la bonne décision pour votre organisation :
 
@@ -42,7 +43,7 @@ Vous devez utiliser cet article avec le diagramme technique associé, qui fourni
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>Système téléphonique (Microsoft 365 ou Office 365)
   
-Le système téléphonique est la technologie de Microsoft qui permet d’activer les fonctionnalités de contrôle d’appel et de PBX (Private Branch Exchange) dans le nuage Microsoft 365 ou Office 365 avec Microsoft teams et/ou Skype entreprise online. 
+Le système téléphonique est la technologie de Microsoft qui permet d’activer les fonctionnalités de contrôle d’appel et de PBX (Private Branch Exchange) dans le nuage Microsoft 365 ou Office 365 avec Microsoft teams et/ou Skype entreprise online.
 
 Le système téléphonique fonctionne avec les clients teams ou Skype entreprise Online et les appareils certifiés. Le système téléphonique vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités livré directement par Microsoft 365 ou Office 365 et intégré étroitement à l’expérience de productivité dans le Cloud de l’entreprise. Pour connecter un système téléphonique au réseau téléphonique commuté (RTC), vous pouvez choisir Microsoft Call plan ou votre propre opérateur téléphonique.
 
@@ -50,7 +51,7 @@ Pour plus d’informations, consultez la rubrique [qu’est-ce que le système t
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Voix entreprise (Skype entreprise Server)
 
-Voix entreprise est la technologie de Microsoft qui permet d’activer le contrôle d’appel et les fonctionnalités PBX (Private Branch Exchange) sur le serveur Skype entreprise local. Cette option ne peut être connectée au réseau téléphonique commuté public qu’à l’aide de votre propre opérateur de téléphonie. 
+Voix entreprise est la technologie de Microsoft qui permet d’activer le contrôle d’appel et les fonctionnalités PBX (Private Branch Exchange) sur le serveur Skype entreprise local. Cette option Skype entreprise ne peut être connectée au réseau téléphonique commuté public qu’à l’aide de votre propre opérateur de téléphonie.
 
 Pour plus d’informations, reportez-vous à la rubrique [plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 

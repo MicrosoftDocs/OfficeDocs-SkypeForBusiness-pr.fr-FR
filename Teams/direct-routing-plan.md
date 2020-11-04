@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262531"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852195"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -189,7 +189,7 @@ Le certificat doit être généré par l’une des autorités de certification r
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-Pour le routage direct dans l’environnement DoD DoD d’Office 365, le certificat doit être généré par l’une des autorités de certification racines suivantes :
+Pour le routage direct dans les environnements Office 365 GCCH et DoD, le certificat doit être généré par l’une des autorités de certification racines suivantes :
 - Autorité de certification racine globale DigiCert
 - CA racine EV haute garantie DigiCert
 
@@ -235,7 +235,7 @@ Les noms de domaine complets – sip.pstnhub.microsoft.com, sip2.pstnhub.microso
 Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet **SIP-All.pstnhub.Microsoft.com** est résolu sur toutes les adresses IP suivantes. 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH et l’environnement DoD
 
 Le point de connexion pour le routage direct est le nom de domaine complet suivant :
 
@@ -299,7 +299,7 @@ Le trafic de média est acheminé vers et à partir d’un service distinct dans
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
 - 52.120.0.0/14 (adresses IP de 52.120.0.1 à 52.123.255.254).
 
-### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+### <a name="office-365-dod-environment"></a>Environnement DoD dans Office 365
 
 - 52.127.64.0/21
 

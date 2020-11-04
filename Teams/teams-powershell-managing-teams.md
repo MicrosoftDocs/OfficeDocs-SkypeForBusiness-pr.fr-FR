@@ -13,12 +13,12 @@ ms.collection:
 description: Apprenez à gérer Microsoft teams avec teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c217cea4a9ad800c1f31f8dcfae9c88ee281188c
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 09d11b2c697ba57ea161d0ce961cf5ba73794617
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944099"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852175"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Gérer teams avec Microsoft teams PowerShell
 
@@ -30,10 +30,10 @@ Servez-vous de ces instructions conjointement avec les informations de [référe
 
 Les applets de développement pour la création et la gestion d’équipes se trouvent dans le [module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
-Les équipes sont régularisées par les groupes Office 365, de sorte que lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de construction fourni pour l’utilisation de l’équipe principale et de ses paramètres ( ``new-team`` , ``get-team`` ,, ``set-team`` ), de la gestion des utilisateurs d’équipe ( ``add-teamuser`` , ``remove-teamuser`` ), ainsi que des cmdlets de gestion des canaux de l’équipe ( ``new-teamchannel`` ``remove-teamchannel`` ). Toutes ces applets de action peuvent être exécutées en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes membre ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous pouvez agir sur toutes les équipes de votre organisation.
+Les équipes sont régularisées par les groupes Office 365, de sorte que lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de construction fourni pour l’utilisation de l’équipe principale et de ses paramètres ( ``new-team`` , ``get-team`` ,,  ``set-team`` ), de la gestion des utilisateurs d’équipe ( ``add-teamuser`` , ``remove-teamuser`` ), ainsi que des cmdlets de gestion des canaux de l’équipe ( ``new-teamchannel`` ``remove-teamchannel`` ). Toutes ces applets de action peuvent être exécutées en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes membre ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous pouvez agir sur toutes les équipes de votre organisation.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department
+New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Le **GroupID** utilisé dans les applets de applet de module Microsoft teams PowerShell est le même que la propriété **Identity** renvoyée par ``Get-UnifiedGroup`` dans le module Exchange PowerShell.
@@ -68,7 +68,7 @@ Une stratégie est un ensemble de paramètres qui peuvent être appliqués de fa
 
 Paramètres courants :
 
-- **Identity**: pour ``Get-`` ,, ``Set-`` ``New-`` et ``Remove-`` , le paramètre **Identity** fera toujours référence à une instance de stratégie spécifique. Pour ``Grant`` le paramètre **Identity** , fait référence à un objet utilisateur spécifique auquel la stratégie est appliquée.
+- **Identity** : pour ``Get-`` ,, ``Set-`` ``New-`` et ``Remove-`` , le paramètre **Identity** fera toujours référence à une instance de stratégie spécifique. Pour ``Grant`` le paramètre **Identity** , fait référence à un objet utilisateur spécifique auquel la stratégie est appliquée.
 
 ## <a name="manage-configurations-via-powershell"></a>Gestion des configurations via PowerShell
 
@@ -76,16 +76,16 @@ Recherchez les applets de configuration pour la gestion de votre configuration d
 
 Les configurations sont des compartiments des paramètres conservés dans le service qui ne peuvent pas être spécifiés à un niveau utilisateur. Les paramètres s’appliquent toujours à l’ensemble de l’organisation. Votre configuration globale est la seule configuration efficace au sein de votre organisation. Chaque type de configuration est fourni avec deux cmdlets principales :
 
-- ``Get-Cs<ConfigurationName>``(par exemple, ``Get-CsTeamsClientConfiguration`` ) :
+- ``Get-Cs<ConfigurationName>`` (par exemple, ``Get-CsTeamsClientConfiguration`` ) :
 
 - Définissez les commandes (par exemple, ``Set-CsTeamsClientConfiguration`` ) : définissez les propriétés dans la configuration de ce type. Spécifiez les paramètres que vous voulez modifier.
-   > Vous pouvez faire référence à la configuration que vous modifiez de l’une des deux manières suivantes : en spécifiant-**Identity global**ou en exécutant ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
+   > Vous pouvez faire référence à la configuration que vous modifiez de l’une des deux manières suivantes : en spécifiant- **Identity global** ou en exécutant ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="what-can-each-admin-role-do"></a>Que peut faire chaque rôle d’administrateur ?
 
 Lire [Utilisez les rôles d’administrateur de Microsoft teams pour gérer les équipes](using-admin-roles.md) et comprendre quels rôles d’administrateur peuvent exécuter chaque cmdlet PowerShell.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Installation de PowerShell teams](teams-powershell-install.md)
 

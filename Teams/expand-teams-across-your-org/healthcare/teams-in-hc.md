@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: En savoir plus sur les fonctionnalités de soins à la santé incluant la coordination des soins, la messagerie sécurisée, la visite virtuelle, l’intégration DMI et l’intégration du système de travail terrain.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: Apprenez-en davantage sur les fonctionnalités de soins d’santé telles que Microsoft teams Telehealth, l’intégration DMI, l’intégration du système de travail terrain et l’application patients.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803532"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878708"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Commencer à utiliser teams pour les entreprises de santé
 
-Microsoft teams propose de nombreuses fonctionnalités utiles pour les hôpitaux et autres professionnels de la santé, dont :
+Microsoft teams propose de nombreuses fonctionnalités utiles pour les hôpitaux et les hôpitaux. Les fonctionnalités d’équipes sont en cours de développement, ce qui permet aux hôpitaux de :
 
 - Visites virtuelles et intégration du DMI (Electronic Medical Recording)
 - Packages de stratégie teams

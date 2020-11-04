@@ -16,17 +16,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Considérations relatives à la planification de la mise en œuvre d’une connectivité hybride entre Skype entreprise Server et Skype entreprise Online ou Teams.
-ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Planifiez la mise en œuvre d’une connectivité hybride entre Skype entreprise Server et teams ou Skype entreprise Online en configurant le mode hybride Skype entreprise.
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 856172d5fba3df96b2456f0ceca1c661120e84e4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359060"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878578"
 ---
-# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planification de la connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365
-
-## <a name="overview"></a>Vue d’ensemble
+# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a> Planifier une connectivité hybride entre Skype pour serveur d'entreprise et Microsoft 365 ou Office 365
 
 Consultez cette rubrique pour découvrir comment planifier une connectivité hybride entre Skype entreprise Server et teams ou Skype entreprise online. La configuration de la connectivité hybride constitue la première étape de la migration de votre environnement local vers le Cloud.
 
@@ -49,7 +48,7 @@ Une fois que vous avez lu cette rubrique et que vous êtes prêt à configurer l
 
 Ce type de configuration repose sur la fonctionnalité d’espace d’adressage SIP partagé, et est parfois appelé « domaine fractionné », ce qui signifie que les utilisateurs d’un domaine, comme contoso.com, sont répartis entre Skype entreprise Server sur site et teams ou Skype entreprise Online, comme illustré dans le diagramme suivant :
 
-![Connectivité hybride SfB-domaine fractionné](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Connectivité hybride Skype entreprise-domaine fractionné](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 En cas de configuration de l’espace d’adressage SIP partagé :
 
@@ -61,7 +60,7 @@ En cas de configuration de l’espace d’adressage SIP partagé :
 
 Pour qu’un utilisateur puisse être déplacé en ligne, une licence Skype entreprise Online (plan 2) doit être affectée à l’utilisateur. Si l’utilisateur doit utiliser Teams, vous devez lui attribuer une licence Teams (et la licence Skype entreprise doit rester activée). Si vos utilisateurs souhaitent tirer parti de fonctionnalités en ligne supplémentaires, telles que l’audioconférence ou le système téléphonique, vous devez leur attribuer la licence appropriée dans Microsoft 365 ou Office 365.
 
-## <a name="infrastructure-requirements"></a>Conditions requises en matière d’infrastructure
+## <a name="hybrid-connectivity-infrastructure-requirements"></a>Exigences en matière d’infrastructure de connectivité hybride
 
 <a name="BKMK_Infrastructure"> </a>
 
@@ -75,8 +74,8 @@ Pour mettre en œuvre une connectivité hybride entre votre environnement local 
     
 - Azure Active Directory Connect pour synchroniser votre annuaire sur site avec Microsoft 365 ou Office 365. Pour plus d’informations, reportez-vous à la rubrique [Azure ad Connect : comptes et autorisations](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-- Outils d’administration de Skype entreprise Server.  Ces éléments sont requis pour déplacer les utilisateurs de l’organisation locale vers le Cloud. Ces outils doivent être installés sur un serveur ayant accès à la fois au déploiement local et à Internet.
-- Outils d’administration en ligne.  Vous pouvez utiliser le centre d’administration teams ou Windows PowerShell pour gérer teams et Skype entreprise online. Pour utiliser PowerShell pour gérer teams ou Skype entreprise Online, téléchargez et installez le connecteur Skype entreprise online.
+- Outils d’administration de Skype entreprise Server. Ces éléments sont requis pour déplacer les utilisateurs de l’organisation locale vers le Cloud. Ces outils doivent être installés sur un serveur ayant accès à la fois au déploiement local et à Internet.
+- Outils d’administration en ligne. Vous pouvez utiliser le centre d’administration teams ou Windows PowerShell pour gérer teams et Skype entreprise online. Pour utiliser PowerShell pour gérer teams ou Skype entreprise Online, téléchargez et installez le connecteur Skype entreprise online.
 - L’espace d’adressage SIP partagé doit être activé et votre déploiement local doit être configuré pour utiliser Microsoft 365 ou Office 365 en tant que fournisseur d’hébergement. Pour plus d’informations sur les étapes nécessaires à la configuration de la connectivité hybride, voir [configure Hybrid Connectivity](configure-hybrid-connectivity.md).
 
 Après avoir configuré la connectivité hybride, vous pouvez déplacer des utilisateurs vers teams ou Skype entreprise online. Pour plus d’informations, voir [Move users from on-premises to teams](move-users-from-on-premises-to-teams.md) et [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
@@ -85,7 +84,7 @@ Après avoir configuré la connectivité hybride, vous pouvez déplacer des util
 
 <a name="BKMK_Topology"> </a>
 
-Pour configurer votre déploiement hybride avec **teams ou Skype entreprise Online**, vous devez disposer de l’une des topologies prises en charge suivantes :
+Pour configurer votre déploiement hybride avec **teams ou Skype entreprise Online** , vous devez disposer de l’une des topologies prises en charge suivantes :
 
 - Déploiement de Skype Entreprise Server 2019 avec tous les serveurs exécutant Skype Entreprise Server 2019.
 - Déploiement de Skype Entreprise Server 2015 avec tous les serveurs exécutant Skype Entreprise Server 2015.
@@ -95,9 +94,9 @@ Pour configurer votre déploiement hybride avec **teams ou Skype entreprise Onli
   - Lync Server 2013 et Skype entreprise Server 2019
   - Lync Server 2013 et Skype entreprise Server 2015
 
-*Si la voix hybride est souhaitée dans n’importe quelle topologie*, le serveur Edge désigné comme serveur Edge de Fédération et le pool associé à la Fédération SIP doivent exécuter Skype entreprise 2015 ou une version ultérieure. Les utilisateurs peuvent rester sur un pool Lync 2013 s’il en existe un. Pour plus d’informations, reportez-vous à la rubrique [plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+*Si la voix hybride est souhaitée dans n’importe quelle topologie* , le serveur Edge désigné comme serveur Edge de Fédération et le pool associé à la Fédération SIP doivent exécuter Skype entreprise 2015 ou une version ultérieure. Les utilisateurs peuvent rester sur un pool Lync 2013 s’il en existe un. Pour plus d’informations, reportez-vous à la rubrique [plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-Les topologies suivantes qui incluent **Lync Server 2010 sont prises en charge avec Skype entreprise Online** pour la messagerie instantanée et les réunions.  Les topologies qui incluent **Lync Server 2010 ne sont pas prises en charge pour la voix hybride ou les équipes**.
+Les topologies suivantes qui incluent **Lync Server 2010 sont prises en charge avec Skype entreprise Online** pour la messagerie instantanée et les réunions. Les topologies qui incluent **Lync Server 2010 ne sont pas prises en charge pour la voix hybride ou les équipes**.
 
 - Un déploiement mixte Lync Server 2010 et Skype entreprise Server 2015
 - Un déploiement mixte Lync Server 2010 et Lync Server 2013
@@ -126,7 +125,7 @@ Microsoft prend en charge les types de scénarios hybrides à forêts multiples 
 
 <a name="BKMK_Federation"> </a>
 
-Lors de la configuration d’un environnement hybride, vous devez vous assurer que vos environnements locaux et en ligne peuvent se fédérer les uns avec les autres.  L’environnement en ligne est doté d’une Fédération ouverte par défaut ; dans l’environnement local, la Fédération est souvent fermée par défaut.  
+Lors de la configuration du mode hybride Skype entreprise, vous devez vous assurer que vos environnements locaux et en ligne peuvent se fédérer les uns avec les autres.  L’environnement en ligne est doté d’une Fédération ouverte par défaut ; dans l’environnement local, la Fédération est souvent fermée par défaut.  
 
 Les conditions requises suivantes doivent être remplies pour pouvoir configurer un déploiement hybride :
 
@@ -142,7 +141,7 @@ Les sections suivantes décrivent les points à prendre en compte pour :
 - Paramètres DNS
 - Considérations relatives au pare-feu
 
-### <a name="dns-settings"></a>Paramètres DNS
+### <a name="dns-settings-for-hybrid-deployments"></a>Paramètres DNS pour les déploiements hybrides
 
 <a name="BKMK_DNS"> </a>
 
@@ -152,12 +151,12 @@ En outre, vous devez vous assurer que la résolution DNS décrite dans le tablea
 
 |Enregistrement DNS  <br/> |Résolu par  <br/> |Enregistrement DNS requis  <br/> |
 |:-----|:-----|:-----|
-|Enregistrement DNS SRV pour _sipfederationtls. _tcp.\<sipdomain.com\> pour tous les domaines SIP pris en charge résolus pour accéder à l’adresse IP externe du serveur Edge (s)  <br/> |Serveur (s) Edge  <br/> |Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit indiquer où acheminer le trafic fédéré pour le domaine SIP qui est réparti entre local et en ligne.  <br/> Doit utiliser une correspondance de nom DNS stricte entre le domaine dans le nom d’utilisateur et l’enregistrement SRV.  <br/> |
+|Enregistrement DNS SRV pour _sipfederationtls. _ TCP.\<sipdomain.com\> pour tous les domaines SIP pris en charge résolus pour accéder à l’adresse IP externe du serveur Edge (s)  <br/> |Serveur (s) Edge  <br/> |Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit indiquer où acheminer le trafic fédéré pour le domaine SIP qui est réparti entre local et en ligne.  <br/> Doit utiliser une correspondance de nom DNS stricte entre le domaine dans le nom d’utilisateur et l’enregistrement SRV.  <br/> |
 |Enregistrements DNS A (s) pour le nom de domaine complet du service de conférence Web Edge, par exemple webcon.contoso.com résolution des adresses IP externes Edge de conférence Web  <br/> |Ordinateurs des utilisateurs connectés au réseau d’entreprise interne  <br/> |Permettre aux utilisateurs en ligne de présenter ou d’afficher le contenu des réunions hébergées sur site. Le contenu inclut des fichiers PowerPoint, des tableaux blancs, des sondages et des notes partagées.  <br/> |
 
 En fonction de la configuration de DNS dans votre organisation, il se peut que vous deviez ajouter ces enregistrements à la zone DNS hébergée interne pour les domaines SIP correspondants afin de fournir la résolution DNS interne à ces enregistrements.
 
-### <a name="firewall-considerations"></a>Considérations relatives au pare-feu
+### <a name="firewall-considerations-for-hybrid-deployments"></a>Considérations relatives au pare-feu pour les déploiements hybrides
 
 <a name="BKMK_Firewall"> </a>
 

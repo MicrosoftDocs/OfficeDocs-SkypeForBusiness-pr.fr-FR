@@ -19,12 +19,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426929"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878368"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Mise en route des formations destinées aux administrateurs de Microsoft teams
 
@@ -33,7 +33,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![Icône représentant une mains et une flèche vers le haut](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Commencez rapidement avec quelques équipes et canaux](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Icône illustrant deux utilisateurs](https://docs.microsoft.com/office/media/icons/users-people.png) | [Formation pour vos utilisateurs](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Icône représentant une coche](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbole du presse-papiers tâches](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams dans 30 : une série de formations destinées aux administrateurs informatiques et aux responsables de la gestion des changements de mise en œuvre d’équipes dans 30 jours](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![Icône représentant une coche](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbole du presse-papiers tâches](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Discussions de craie dans teams : Découvrez les meilleures pratiques et des recommandations pratiques en matière de scénarios d’équipes populaires](https://aka.ms/TeamsChalkTalks) |
 
 <h2>Formation technique</h2>
 

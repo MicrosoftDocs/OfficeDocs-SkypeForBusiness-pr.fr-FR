@@ -1,5 +1,5 @@
 ---
-title: Prise en main de votre mise à niveau de Microsoft Teams
+title: Mise à niveau de Skype entreprise vers équipes-Microsoft teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-apr2020
+- seo-marvel-may2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -29,14 +30,14 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c955d0f104dc9aef476c9252a78cc2bfd2bc6f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 384897b7496a1617b2b6617aece31b677535dc81
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497291"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878498"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Prise en main de votre mise à niveau de Microsoft Teams
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Commencer la mise à niveau de Skype entreprise vers Microsoft teams
 
 Nous vous félicitons pour votre imminente mise à niveau de Skype Entreprise vers Microsoft Teams. Que vous débutiez avec Teams, que vous utilisiez déjà Teams en parallèle avec Skype Entreprise, ou que vous soyez prêt à procéder à la mise à niveau, nous voulons nous assurer que vous disposez de tout ce dont vous avez besoin pour migrer efficacement vers Teams.
 
@@ -46,7 +47,7 @@ Que vous procédiez à une mise à niveau vers Teams à partir de Skype Entrepri
 
 Microsoft Teams étend les fonctionnalités de Skype Entreprise, en combinant conversations, réunions, appels, collaboration, intégration d’applications et stockage de fichiers dans une seule interface. Cette nouvelle plateforme centrale pour le travail d’équipe rationalise le travail des utilisateurs, améliore leur satisfaction et accélère les résultats de l’entreprise. Nous développons continuellement les fonctionnalités Teams pour vous offrir de nouveaux moyens de communication et de collaboration, lever les barrières organisationnelles et géographiques, et renforcer l’efficacité des processus et des décisions. Découvrez les avantages de la mise à niveau vers Teams dans le rapport Forrester : [Impact économique total de Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>Quand mon organisation doit-elle effectuer la mise à niveau vers Teams ?
+## <a name="when-should-my-organization-migrate-to-teams"></a>Quand mon organisation doit-elle migrer vers teams ?
 
 Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Bien que le service Skype Entreprise Online soit pleinement opérationnel jusqu’au 31 juillet 2021, Microsoft encourage ses clients à commencer leur mise à niveau aujourd’hui, ce qui leur permet de terminer leur mise à niveau avant la date de déclassement.  Pour en savoir plus, lisez notre [annonce de déclassement](https://aka.ms/sfboannounce).
 
@@ -62,7 +63,7 @@ Oui. Le système téléphonique est disponible pour tous les utilisateurs d’te
 
 Oui. Le routage direct du système téléphonique vous permet d’utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie. Avec le routage direct, vous connectez votre propre contrôleur de bordure de session (SBC) directement au système téléphonique. Pour plus d’informations, voir [routage direct du système téléphonique](direct-routing-landing-page.md).
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>De quelle manière Microsoft aide-t-il les clients à effectuer leur mise à niveau vers Teams ? 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Comment Microsoft aide-t-il la migration vers les équipes ? 
 
 Microsoft s’engage à contribuer à la réussite de votre migration de Skype Entreprise vers Teams. Microsoft fournit de solides conseils basés sur une structure de réussite de mise à niveau éprouvée et conçue de bout en bout pour vous aider à planifier et à effectuer votre mise à niveau vers Teams. Nos conseils sont conçus pour chaque étape du parcours de mise à niveau, que vous débutiez avec la planification, que vous exécutiez déjà Skype Entreprise avec Teams ou que vous soyez prêt à effectuer la mise à niveau vers Teams.
 
