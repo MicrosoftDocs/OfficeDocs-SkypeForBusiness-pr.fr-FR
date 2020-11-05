@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: b231fb1ae564466985195325fb748af5730623a6
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824945"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908483"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Pour effectuer ces modifications, vous devez être un administrateur de service 
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
-3. Sous **Participants**, activez **Les utilisateurs anonymes peuvent participer à une réunion**.
+3. Sous **Participants** , activez **Les utilisateurs anonymes peuvent participer à une réunion**.
 
     ![Capture d'écran des paramètres de participants pour les réunions dans le centre d'administration](media/meeting-settings-participants.png "Capture d'écran des paramètres de participants pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
@@ -69,7 +69,7 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-3. Sous **Invitation par e-mail**, procédez comme suit :
+3. Sous **Invitation par e-mail** , procédez comme suit :
 
     ![Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser](media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions Teams")
 
@@ -93,19 +93,19 @@ Si vous utilisez la qualité de service (QoS) pour définir la priorité du traf
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-3. Sous **Réseau**, procédez comme suit :
+3. Sous **Réseau** , procédez comme suit :
 
     ![Capture d'écran des paramètres de réseau pour les réunions dans le centre d'administration](media/meeting-settings-network.png "Capture d'écran des paramètres de réseau pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
     - Pour autoriser l’utilisation de la fonctionnalité de marquage DSCP pour la qualité de service (QoS), activez **Insérer des marqueurs de Qualité de service (QoS) pour le trafic média en temps réel**. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
         > La balise DSCP est généralement réalisée par le biais de ports sources et le trafic UDP route vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise a besoin d’effectuer des balises sur les ports de destination, veuillez contacter le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
-    - Pour spécifier des plages de ports, près de **Sélectionner une plage de port par type de trafic média en temps réel**, sélectionnez **Spécifiez les plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est nécessaire pour implémenter QoS. 
+    - Pour spécifier des plages de ports, près de **Sélectionner une plage de port par type de trafic média en temps réel** , sélectionnez **Spécifiez les plages de ports** , puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est nécessaire pour implémenter QoS. 
         > [!Note]
         > Si **les marqueurs de qualité de service (QoS) pour le trafic multimédia en temps réel** sont activés, vous devez gérer vos paramètres de port. Elles ne sont pas gérées automatiquement.
         
         > [!IMPORTANT]
-        > Si vous sélectionnez **Utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque la Qualité de service n’est pas mise en œuvre.
+        > Si vous sélectionnez **Utiliser automatiquement les ports disponibles** , les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque la Qualité de service n’est pas mise en œuvre.
         >
         > La sélection d’une plage de ports trop réduite entraîne des appels rejetés et une qualité d’appel médiocre. Les recommandations ci-dessous doivent représenter le strict minimum.
 
@@ -120,6 +120,6 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 |Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |19        |Transfert garanti (AF21)|
 | | | | |
 
-\* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.
+\* Les plages de port que vous attribuez ne se chevauchent pas et doivent être adjacentes les unes aux autres.
 
 Une fois que vous utilisez QoS depuis un certain temps, vous disposez d’informations sur la demande de chacune de ces trois charges de travail, et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [Tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) est utile avec cette fonctionnalité.

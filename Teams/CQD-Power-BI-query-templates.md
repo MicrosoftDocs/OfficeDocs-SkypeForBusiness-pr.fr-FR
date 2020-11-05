@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez Power BI pour analyser les données de bord pour Microsoft Teams.
-ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584043"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908643"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser des données bord pour Microsoft teams
 
@@ -35,6 +35,7 @@ Vérifiez que vous avez le [rôle d’accès bord](https://docs.microsoft.com/mi
 
 |  |  |
 |---------|---------|
+|<strong>(Nouveau !)</strong> Le standard automatique d’équipes de bord & le rapport historique des files d’attente. PBiT     |  Ce modèle fournit les trois rapports suivants :</p><li>Standard automatique : affiche les données d’analyse pour les appels provenant de vos standards automatiques.</li><li>File d’attente des appels : affiche les données d’analyse des appels arrivant dans vos files d’attente d’appels.</li><li>Chronologie de l’agent : affichage de la chronologie des agents actives dans les appels de files d’attente d’appels.</li><br>Pour en savoir plus, voir [utiliser bord dans le rapport Power bi pour afficher le standard automatique & rapport historique de la file d’attente d’appels](CQD-teams-aa-cq-historical-report.md).        |
 |Rapport du support bord. PBiT     |En intégrant les données de bâtiment et de EUII, ce rapport est conçu pour vous permettre d’effectuer un zoom avant d’un utilisateur unique pour rechercher la cause initiale de la mauvaise qualité d’appel pour cet utilisateur (par exemple, l’utilisateur se trouve dans un bâtiment rencontrant des problèmes de réseau).         |
 |Rapport bord emplacement amélioré. PBiT     | Réimaginer les rapports d’emplacement SPD bord. Inclut 9 rapports, offrant une qualité d’appel, des informations de fiabilité et de fréquence d’appel, en créant ou en fonction de l’utilisateur.  Assurez-vous de télécharger les données de bâtiment pour optimiser votre qualité de création de rapports.        |
 |Rapport sur les appareils mobiles bord. PBiT     | Fournit des informations spécifiquement adaptées aux utilisateurs d’appareils mobiles, notamment la qualité des appels, la fiabilité et les tarifs d’appel. Afficher les rapports sur le réseau mobile, le réseau WiFi et le système d’exploitation mobile (Android, iOS).        |
@@ -47,7 +48,7 @@ Vérifiez que vous avez le [rôle d’accès bord](https://docs.microsoft.com/mi
 > Une fois que vous avez configuré vos rapports Power BI pour bord données, ajoutez-les comme onglet à un canal. Après avoir sélectionné **+** dans un canal, sélectionnez **Power bi** , puis recherchez votre rapport. Pour en savoir plus, voir [incorporer un rapport avec l’onglet Power bi pour teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). N’oubliez pas que seules les personnes disposant d’une licence Power BI et les informations d’identification d’administrateur bord peuvent accéder à ces rapports.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

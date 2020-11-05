@@ -189,7 +189,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 - [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

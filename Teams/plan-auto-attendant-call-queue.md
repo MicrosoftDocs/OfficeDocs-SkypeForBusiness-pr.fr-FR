@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur les standards automatiques et les files d’attente d’appels et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menus pour joindre des personnes ou des services au sein de votre organisation.
-ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
-ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
+ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "48765941"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908603"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Plan pour les standards automatiques d’équipe et les files d’attente d’appels
 
@@ -70,11 +70,21 @@ Pour configurer des standards automatiques et des files d’attente d’appels, 
 
 - Un compte de ressources pour chaque standard automatique et chaque file d’attente d’appels
 - Un système téléphonique gratuit-licence d’utilisateur virtuel pour chaque compte de ressources
-- Un numéro de service pour chaque standard automatique ou file d’attente d’appels que vous voulez appeler directement
-- Plan d’appel pour chaque personne recevant des appels de file d’attente d’appels
+- Au moins un [numéro de service Microsoft](getting-service-phone-numbers.md), un numéro de routage direct ou un numéro hybride pour chaque compte de ressources que vous souhaitez rendre directement numérotable
+ - Le numéro de service est le numéro payant ou le numéro gratuit
+
+Les agents qui reçoivent des appels de la file d’attente d’appels doivent être compatibles voix entreprise en ligne ou sur site. 
+
+Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
+
+Lorsque vous transférez des appels vers un numéro de téléphone externe, le compte de ressources qui effectue le transfert (c’est-à-dire, celui associé au standard automatique ou à la file d’attente d’appels) doit avoir un numéro de téléphone et une licence utilisateur virtuel du système téléphonique Microsoft 365. En outre
+
+- Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
+- Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
 
 > [!NOTE]
-> Les numéros de service de routage direct pour le standard automatique et les files d’attente d’appels sont uniquement pris en charge pour les utilisateurs et les appels de Microsoft Teams.
+> Les numéros de service de routage direct pour le standard automatique et les files d’attente d’appels sont uniquement pris en charge pour les utilisateurs et les appels de Microsoft Teams.<br>
+> Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
 ## <a name="business-decisions"></a>Prise de décision commerciale
 
@@ -158,7 +168,7 @@ L’exemple ci-dessous montre un exemple de routage des appels à l’aide de st
 
 Dans l’exemple ci-dessus :
 
-- La clé zéro (0) redirige les appelants vers un opérateur. L’opérateur de ce standard automatique a été configuré en tant que **membre de l’organisation** .
+- La clé zéro (0) redirige les appelants vers un opérateur. L’opérateur de ce standard automatique a été configuré en tant que **membre de l’organisation**.
 - La clé un (1) redirige les appelants vers la file d’attente des appels commerciaux. Cette file d’attente d’appels est connectée à une équipe qui contient l’équipe commerciale affectée à la file d’attente.
 - Les deux clés (2) redirigent les appelants vers la file d’attente des appels de support. Cette file d’attente d’appels est connectée à une équipe qui contient l’équipe de support technique affectée à l’équipe.
 - La file d’attente des appels d’assistance a un numéro de téléphone direct via un standard automatique intermédiaire. Le fait de répondre à un standard automatique permet de répondre aux appels d’assistance.
@@ -180,18 +190,6 @@ Voici quelques recommandations en matière de routage des appels :
 - Décrivez d’abord le service, puis l’option d’appuyer sur (par exemple : pour les ventes Press 1) plutôt que dans l’autre (par exemple, Appuyez sur 1 pour les ventes.
 - Terminologie utilisée par les appelants au lieu de ce que vous pouvez utiliser en interne.
 - Évitez les mises à jour fréquentes du routage des appels. Si vous modifiez les options de menu de votre standard automatique à l’avenir, appelez-le dans les invites vocales pour les 30 premiers jours.
-
-## <a name="resource-accounts-and-phone-numbers"></a>Comptes de ressources et numéros de téléphone
-
-Teams utilise des *[comptes de ressources](manage-resource-accounts.md)* pour connecter des standards automatiques et des files d’attente d’appels entre eux et de leur affecter des numéros de téléphone le cas échéant.
-
-- Chaque file d’attente d’appels et ce standard automatique nécessitent au moins un compte de ressources.
-- Chaque compte de ressources nécessite un système téléphonique gratuit-licence utilisateur virtuelles.
-- Un compte de ressource peut éventuellement être affecté à un ou plusieurs numéros de service. (C’est la façon dont les numéros de téléphone sont affectés aux standards automatiques et aux files d’attente d’appels.)
-
-Vous pouvez affecter un numéro de [service Microsoft](getting-service-phone-numbers.md), un numéro de routage direct ou un numéro hybride à un compte de ressources.
-
-Vous pouvez utiliser des numéros de service gratuits ou payants. Vous ne pouvez pas utiliser les numéros de téléphone des utilisateurs pour les standards automatiques ou les files d’attente d’appels.
 
 ## <a name="getting-started"></a>Prise en main
 

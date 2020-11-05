@@ -18,21 +18,21 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
-ms.openlocfilehash: e74152bc61bdf0bb793338b50ddcd5da62e9b2d0
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 1040d548140d0fbb781e9cc9296be3d374b7b314
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346185"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48918986"
 ---
 # <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 
 Pour répondre aux besoins de votre organisation, vous pouvez gérer les fonctionnalités et capacités d’accès invité des équipes par le biais de quatre niveaux d’autorisation différents. Tous les niveaux d’autorisation s’appliquent à votre organisation Microsoft 365. Chaque niveau d’autorisation contrôle l’expérience utilisateur comme indiqué ci-dessous :
 
-- **Azure Active Directory**: l’accès invité dans teams repose sur la plateforme Azure ad Business-to-Business. Ce niveau d’autorisation contrôle l’expérience des utilisateurs au niveau de l’annuaire, du client et de l’application.
-- **Équipes**: contrôle l’interface invité dans teams uniquement.
-- **Groupes microsoft 365**: contrôle l’interface invité dans les groupes et équipes Microsoft 365.
-- **SharePoint et onedrive**: contrôle l’interface utilisateur dans SharePoint, OneDrive, groupes Microsoft 365 et équipes.
+- **Azure Active Directory** : l’accès invité dans teams repose sur la plateforme Azure ad Business-to-Business. Ce niveau d’autorisation contrôle l’expérience des utilisateurs au niveau de l’annuaire, du client et de l’application.
+- **Équipes** : contrôle l’interface invité dans teams uniquement.
+- **Groupes microsoft 365** : contrôle l’interface invité dans les groupes et équipes Microsoft 365.
+- **SharePoint et onedrive** : contrôle l’interface utilisateur dans SharePoint, OneDrive, groupes Microsoft 365 et équipes.
 
 Ces différents niveaux d’autorisation vous donnent de la flexibilité pour configurer l’accès invité pour votre organisation. Par exemple, si vous ne voulez pas autoriser les utilisateurs invités dans Microsoft Teams, mais que vous souhaitez leur accorder une autorisation globale au sein de votre organisation, il vous suffit de désactiver l’accès invité dans Teams. Voici un autre exemple : vous pouvez activer l’accès invité aux niveaux d’Azure AD, des équipes et des groupes, mais vous pouvez [également désactiver l’ajout d’utilisateurs invités à des équipes sélectionnées qui répondent à un ou plusieurs critères comme la classification des données est confidentiel](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). SharePoint et OneDrive possèdent leurs propres paramètres d’accès invité qui ne dépendent pas de groupes Microsoft 365.
 
@@ -43,11 +43,13 @@ Pour obtenir des instructions de configuration de bout en bout, voir [collaborer
 
 Le diagramme suivant montre comment une dépendance d’autorisation d’accès invité est accordée et intégrée entre Azure Active Directory, teams et Microsoft 365.
 
-![Diagramme des dépendances des autorisations de l’accès invité.](media/teams_dependencies_image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagramme des dépendances des autorisations de l’accès invité.](media/teams_dependencies_image1.png)
 
 Le diagramme suivant montre, à un haut niveau, comment l’expérience utilisateur fonctionne avec le modèle d’autorisation à travers un flux invitation et d’échange d’accès invité standard.
 
-![Diagramme de flux d’invitation et d’échange](media/authorize-guest-image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagramme de flux d’invitation et d’échange](media/authorize-guest-image1.png)
 
 Il est important de noter que les applications, robots et connecteurs peuvent nécessiter leur propre ensemble d’autorisations et/ou de consentement spécifiques au compte d’utilisateur. Il est possible qu’ils doivent être accordés séparément. De même, SharePoint impose peut-être des limites de partage externe supplémentaires pour un utilisateur spécifique, groupes d’utilisateurs, ou même au niveau du site.
 
@@ -63,11 +65,9 @@ Azure AD inclut les paramètres suivants pour configurer des utilisateurs extern
 
 - [Restrictions d’accès des utilisateurs invités](https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-restrict-guest-permissions)
 
-- **Les administrateurs et utilisateurs ayant le rôle d'Inviteur d’invités peuvent inviter** : **Oui** signifie que les administrateurs et utilisateurs dans le rôle « Inviteur d’invités » peuvent ajouter des invités au client. **Non** signifie que les administrateurs et utilisateurs ne peuvent pas ajouter d’invités sur le client.
-- **Les membres peuvent envoyer des invitations** : pour autoriser les membres non administrateurs de votre annuaire à convier des invités, attribuez la valeur **Oui** (recommandé) à cette stratégie. Si vous préférez que seuls les administrateurs puissent ajouter des invités, vous pouvez affecter la valeur **Non**à cette stratégie. Ne pas oublier que le paramètre **Non** limite l’expérience invité aux propriétaires d’équipes non administrateurs ; ils ne pourront ajouter des invités dans Teams que si ceux-ci ont déjà été ajoutés par l'administrateur dans Azure Active Directory.
-- **Les invités peuvent inviter** : **Oui** signifie que les invités de votre annuaire peuvent ajouter des invités pour collaborer sur des ressources sécurisées par votre instance d’Azure AD, par exemple, les sites SharePoint ou les ressources Azure. **Non** signifie que les invités ne peuvent pas inviter d’autres invités pour collaborer avec votre organisation.
-    > [!IMPORTANT]
-    > Actuellement, Teams ne prend pas en charge le rôle d’inviteur invité. Par conséquent, même si vous définissez **Les invités peuvent inviter** sur **Oui**, les invités ne peuvent pas avoir d’autres invités dans Teams.
+- **Les administrateurs et utilisateurs ayant le rôle d'Inviteur d’invités peuvent inviter**  : **Oui** signifie que les administrateurs et utilisateurs dans le rôle « Inviteur d’invités » peuvent ajouter des invités au client. **Non** signifie que les administrateurs et utilisateurs ne peuvent pas ajouter d’invités sur le client.
+- **Les membres peuvent envoyer des invitations**  : pour autoriser les membres non administrateurs de votre annuaire à convier des invités, attribuez la valeur **Oui** (recommandé) à cette stratégie. Si vous préférez que seuls les administrateurs puissent ajouter des invités, vous pouvez affecter la valeur **Non** à cette stratégie. Ne pas oublier que le paramètre **Non** limite l’expérience invité aux propriétaires d’équipes non administrateurs ; ils ne pourront ajouter des invités dans Teams que si ceux-ci ont déjà été ajoutés par l'administrateur dans Azure Active Directory.
+- **Les invités peuvent inviter**  : **Oui** signifie que les invités de votre annuaire peuvent ajouter des invités pour collaborer sur des ressources sécurisées par votre instance d’Azure AD, par exemple, les sites SharePoint ou les ressources Azure. **Non** signifie que les invités ne peuvent pas inviter d’autres invités pour collaborer avec votre organisation. Même si la valeur est définie sur **Yes** , Guest ne peut pas inviter d’autres invités dans Teams.
  
 Pour plus d’informations sur le contrôle des personnes autorisées à inviter des invités, voir [activer la collaboration externe B2B et gérer qui peut inviter des personnes](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 

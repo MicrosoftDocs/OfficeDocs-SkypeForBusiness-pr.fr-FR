@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739332"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908573"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -39,6 +39,8 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 - Prise en charge de la capture d’interactions entre les utilisateurs de teams et les points de terminaison d’appel pris en charge (Teams, équipes mobiles, Skype entreprise, RTC)
 
 - Nouvelles politiques d’administration pour l’enregistrement de la conformité, y compris l’intégration aux équipes existantes d’appels administratifs et aux politiques et aux outils de réunion
+
+L’enregistrement de la conformité peut être activé sur les utilisateurs de Microsoft 365 a3/a5/E3/E5 et des utilisateurs d’Office 365 a3/a5/E3/E5. 
 
 Les fonctionnalités d’intégration de la solution enregistrement de la conformité ont également été examinées lors de l’enflamme 2019 de la [<span class="underline">session enregistrement de la conformité et Microsoft teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -206,6 +208,13 @@ La prise en charge des notifications est activée à l’aide de l’expérience
 
 Outre la publication d’API disponibles à des fins publiques permettant aux partenaires de développer et d’intégrer des solutions CCaaSes avec Teams, nous avons mis en garde l’enregistrement de la conformité pour le programme de certification de Microsoft Teams, afin de fournir aux clients l’assurance que les solutions de chaque partenaire participant ont été testées et vérifiées pour fournir la qualité, la compatibilité et la fiabilité de leurs solutions  
 
+Les partenaires suivants ont certifié leur solution pour Microsoft Teams.
+
+|Partenaire|Site Web de solution |
+|:--|:--|
+|BELLE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 Les partenaires suivants sont en train de certifier leur solution pour Microsoft Teams.
 
 |Partenaire|Site Web de solution |
@@ -216,7 +225,6 @@ Les partenaires suivants sont en train de certifier leur solution pour Microsoft
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Technologies Landis |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|BELLE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Innovation Oak |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Zone rouge |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

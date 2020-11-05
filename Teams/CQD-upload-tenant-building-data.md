@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment télécharger un client et générer des données dans le tableau de bord de qualité des appels (bord).
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897834"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908693"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Télécharger le client et générer des données dans le tableau de bord de qualité des appels (bord)
 
@@ -49,7 +49,7 @@ Dans le tableau de bord des rapports de synthèse de bord, sélectionnez **charg
 
 4. Après avoir sélectionné un fichier de données, spécifiez la **Date de début** et, éventuellement, spécifiez une date de fin.
 
-5. Après avoir sélectionné la **Date de début**, sélectionnez **Télécharger** pour télécharger le fichier sur bord. <br><br>Le fichier est validé avant d’être chargé. En cas d’échec de la validation, un message d’erreur s’affiche et vous demande de corriger le fichier. La figure suivante illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
+5. Après avoir sélectionné la **Date de début** , sélectionnez **Télécharger** pour télécharger le fichier sur bord. <br><br>Le fichier est validé avant d’être chargé. En cas d’échec de la validation, un message d’erreur s’affiche et vous demande de corriger le fichier. La figure suivante illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
 
    ![Exemple de boîte de dialogue affichant une erreur de chargement de données en bâtiment](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -111,7 +111,7 @@ Le premier type de fichier de données client dans bord est le fichier de donné
 
 ### <a name="supernetting"></a>Le Super-réseautage
 
-Vous pouvez utiliser le Super-réseautage, couramment appelé routage entre domaines (CIDR, Classless Inter-Domain Routing) au lieu de définir chaque sous-réseau. Un *super-réseau* est une combinaison de plusieurs sous-réseaux partageant un seul préfixe de routage. Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse superréseau. Le Super-réseautage est pris en charge, mais nous ne recommandons pas son utilisation.
+Vous pouvez utiliser le Super-réseautage, couramment appelé routage de Inter-Domain de classe (CIDR) au lieu de définir chaque sous-réseau. Un *super-réseau* est une combinaison de plusieurs sous-réseaux partageant un seul préfixe de routage. Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse superréseau. Le Super-réseautage est pris en charge, mais nous ne recommandons pas son utilisation.
 
 Par exemple, le bâtiment marketing de contoso se compose des sous-réseaux suivants :
 
@@ -161,7 +161,7 @@ L’autre type de fichier de données client bord est le fichier de données de 
 
 - Le contenu du fichier de données ne comporte pas d’en-têtes de tableau. La première ligne du fichier de données est censée être une véritable donnée, et non une étiquette d’en-tête telle que « EndpointName ».
 
-- Les six colonnes utilisent uniquement le type de données chaîne. La longueur maximale autorisée est de 64 caractères.
+- Les sept colonnes utilisent uniquement le type de données chaîne. La longueur maximale autorisée est de 64 caractères.
 
 - Un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
 
@@ -169,15 +169,15 @@ L’autre type de fichier de données client bord est le fichier de données de 
 
 - EndpointLabel1, EndpointLabel2 et EndpointLabel3 sont des étiquettes personnalisables. Il peut s’agir de chaînes vides ou de valeurs telles que « service informatique de l’ordinateur portable 2018 » ou « indicateur de ressources 5678 ».
 
-- Il doit y avoir six colonnes pour chaque ligne et les colonnes doivent être dans l’ordre suivant :
+- Il doit y avoir sept colonnes pour chaque ligne et les colonnes doivent être dans l’ordre suivant :
 
   **Ordre des champs :**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Ligne d’exemple :**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>Mettre à jour un fichier de construction
@@ -220,10 +220,10 @@ Une fois que vous avez chargé les informations de bâtiment pour les réseaux g
 > Vous devez ajouter votre ID de locataire comme filtre de requête pour le **deuxième ID de client** à ce rapport afin de filtrer le rapport pour afficher uniquement les données client de votre organisation. Dans le cas contraire, le rapport va afficher des sous-réseaux fédérés.
 
 > [!NOTE] 
-> Veillez à ajuster le filtre de rapport mois par année au mois en cours. Sélectionnez **modifier**, puis ajustez le filtre de rapport **mois-année** pour enregistrer le nouveau mois par défaut.
+> Veillez à ajuster le filtre de rapport mois par année au mois en cours. Sélectionnez **modifier** , puis ajustez le filtre de rapport **mois-année** pour enregistrer le nouveau mois par défaut.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Créer une carte de bâtiment pour bord](CQD-building-mapping.md)
 
