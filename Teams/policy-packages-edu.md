@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: f8bda2fc5741b9575fa2eabc786b7e565a86f2ea
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262471"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908613"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
 
@@ -107,7 +107,7 @@ Une fois votre définition de stratégie créée ou mise à jour, vous pouvez l�
 
 ![Panneau Gérer les utilisateurs sur le côté droit, en haut de la page Stratégies de messagerie.](media/edu-manage-users-pane.png)
 
-Vous pouvez également attribuer une stratégie à un utilisateur en accédant à **Utilisateurs**, en sélectionnant l’utilisateur pour lequel vous voulez mettre à jour les stratégies, en sélectionnant **Stratégies**, puis **Modifier**. À partir de là, vous pouvez sélectionner la définition de stratégie à attribuer à l’utilisateur pour chaque domaine de fonctionnalité.
+Vous pouvez également attribuer une stratégie à un utilisateur en accédant à **Utilisateurs** , en sélectionnant l’utilisateur pour lequel vous voulez mettre à jour les stratégies, en sélectionnant **Stratégies** , puis **Modifier**. À partir de là, vous pouvez sélectionner la définition de stratégie à attribuer à l’utilisateur pour chaque domaine de fonctionnalité.
 
 ![Volet Modifier les stratégies utilisateur, à droite au-dessus de la page Stratégies affectées.](media/edu-edit-user-policies-pane.png)
 
@@ -151,5 +151,48 @@ Chaque stratégie individuelle reçoit le nom du package de stratégie afin de v
 > [!NOTE]
 > Si vous décidez que les enseignants et le personnel de support administratif ont besoin de stratégies différentes, vous pouvez réaffecter un package existant : identifiez un package que vous n’utilisez pas actuellement et modifiez les paramètres de sorte qu’ils soient appropriés pour ce groupe. Vous devrez sans doute retenir quel groupe possède tel ou tel package, mais c’est le seul obstacle à la réaffectation d’un package.
 
+## <a name="manage-policy-packages"></a>Gérer vos packages de stratégie
+
+### <a name="view"></a>Afficher
+
+Afficher les paramètres de chaque stratégie dans un package de stratégie avant d’attribuer un package. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez **Packages de stratégie** , sélectionnez le nom du package, puis sélectionnez le nom de la stratégie.
+
+Déterminez si les valeurs prédéfinies conviennent à votre organisation ou si vous devez les personnaliser pour les rendre plus restrictives ou plus strictes en fonction des besoins de votre organisation.
+
+### <a name="customize"></a>Personnaliser
+
+Personnalisez les paramètres des stratégies dans le package de stratégie, le cas échéant, pour répondre aux besoins de votre organisation. Les modifications que vous apportez aux paramètres de stratégie sont automatiquement appliquées aux utilisateurs auxquels le package est attribué. Pour modifier les paramètres d’une stratégie dans un package de stratégie, dans le Centre d’administration Microsoft Teams, sélectionnez le package de stratégie, sélectionnez le nom de la stratégie que vous voulez modifier, puis sélectionnez **Modifier**.
+
+Gardez à l’esprit que vous pouvez également modifier les paramètres des stratégies dans un package une fois que vous avez affecté le package de stratégie. Pour plus d’informations, consultez [Personnaliser des stratégies dans un package de stratégie](manage-policy-packages.md#customize-policies-in-a-policy-package). 
+
+### <a name="assign"></a>Attribuer
+
+Attribuer le package stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>Attribuer un package de stratégie à un ou plusieurs utilisateurs
+
+Pour attribuer un package de stratégie à un ou plusieurs utilisateurs, dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Packages de stratégie** , puis sélectionnez **Gérer les utilisateurs**.  
+
+![Capture d’écran de l’attribution d’un package de stratégie dans le Centre d’administration](media/policy-packages-healthcare-assign.png)
+
+Pour plus d’informations, consultez la section [Attribuer un package de stratégie](manage-policy-packages.md#assign-a-policy-package).
+
+Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+
+#### <a name="assign-a-policy-package-to-a-group"></a>Attribuer le package stratégie à un groupe
+
+**Cette fonctionnalité est en mode privé (préversion)**
+
+Attribution de package de stratégie aux groupes vous permet d’attribuer plusieurs stratégies à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence. Cette méthode est recommandée pour les groupes disposant jusqu’à 50 000 utilisateurs, mais aussi pour les groupes de plus grande taille.
+
+Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un groupe](assign-policies.md#assign-a-policy-package-to-a-group).
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Attribuer un package de stratégie à un grand ensemble (lot) d’utilisateurs
+
+Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
+
+Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Stratégies à attribuer pour la sécurité des étudiants
+
 Pour plus d’informations sur les étapes à suivre pour protéger les étudiants de votre environnement, passez en revue attentivement [Protéger les étudiants lorsqu’ils utilisent Teams pour l’apprentissage à distance](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
