@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878182"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922468"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -118,7 +118,7 @@ Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste d
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est *+ <phone number> ext = <extension>* ou *+ <phone number> x <extension>*.
+Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est *+ \<phone number> ext = \<extension>* ou *+ \<phone number> x \<extension>*.
 
 Vous pouvez définir l’extension dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou dans le [Centre d’administration Azure Active Directory](https://aad.portal.azure.com). Il faut parfois jusqu’à 12 heures pour que les modifications soient disponibles aux standards automatiques et aux files d’attente d’appels.
 
@@ -238,7 +238,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 - [Nouveau-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

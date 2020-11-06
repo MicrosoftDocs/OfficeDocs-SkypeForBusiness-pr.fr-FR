@@ -8,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: En savoir plus sur les paramètres d’administration dans l’application compliment dans le centre d’administration Microsoft teams
-ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: 4e96355a3b05af2c9df484a2451014fbbaf0e926
+ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48580450"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48929525"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application compliment dans le centre d’administration Microsoft teams
 
 > [!NOTE]
 > Les administrateurs doivent disposer d’une licence teams pour accéder à cette fonctionnalité. Si vous essayez d’accéder à cette fonctionnalité sans licence d’équipe, vous recevez un message d’erreur.
 
-Dans Microsoft Teams, l’application compliments permet aux utilisateurs d’afficher une reconnaissance aux membres de leur organisation ou Classroom. Avec une sélection de jeux de badges à partir desquels vous pouvez créer vos propres badges, compliment est conçu pour vous aider à reconnaître les efforts qui s’appliquent à la vaste gamme de tâches que les utilisateurs d’équipes effectuent, des enseignants aux travailleurs terrain.
+Dans Microsoft Teams, l’application compliments permet aux utilisateurs d’afficher une reconnaissance aux membres de leur organisation ou Classroom. Avec une sélection de jeux de badges à partir desquels vous pouvez créer vos propres badges, compliment est conçu pour vous aider à reconnaître les efforts qui s’appliquent à la vaste gamme de tâches que les utilisateurs d’équipes effectuent, des enseignants aux travailleurs terrain. Pour en savoir plus, voir [Envoyer des compliments aux personnes](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Les administrateurs peuvent contrôler les badges disponibles pour leur organisation à partir du centre d’administration Teams. Dans le volet de navigation de gauche, sélectionnez **applications teams > gérer les applications**. Ouvrez compliment dans le [catalogue d’applications du client](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)et accédez à **paramètres**.
+Les administrateurs peuvent contrôler les badges disponibles pour leur organisation à partir du centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à **applications teams > gérer les applications**. Dans la liste des applications, cliquez sur **compliments** , puis sélectionnez **paramètres**.  À partir de là, vous pouvez choisir d’activer les jeux de badges par défaut ou intégrés et de créer des badges personnalisés.
+
+![Capture d’écran de l’onglet Paramètres pour l’application compliments](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > Cette fonctionnalité n’est pas disponible pour les nuages de gouvernement des États-Unis.
@@ -51,7 +53,9 @@ Les enseignants peuvent reconnaître les étudiants individuels pour les réalis
 
 ## <a name="create-your-own-badges"></a>Créer vos propres badges
 
-Activez le bouton bascule **badges personnalisés** et sélectionnez **créer un badge personnalisé**. À partir de là, vous pouvez concevoir un badge personnalisé dans le volet latéral. Vous pouvez créer jusqu’à 25 badges personnalisés. 
+Sélectionnez **créer un badge personnalisé**. À partir de cet emplacement, vous pouvez concevoir un badge personnalisé dans le volet latéral. Vous pouvez créer jusqu’à 25 badges personnalisés. 
+
+![Capture d’écran de la création d’un volet de badge personnalisé](media/manage-praise-app-create-custom-badge.png)
 
 1. Entrez un nom de badge. Il s’agit du nom qui s’affichera sur le badge lorsque les utilisateurs envoient les compliments.
 
@@ -63,9 +67,9 @@ Activez le bouton bascule **badges personnalisés** et sélectionnez **créer un
 3. Télécharger une image de badge. Le type de fichier accepté est. PNG. La taille du fichier image doit être inférieure à 40 Ko et comporter au maximum 216 X 216 pixels.
 ![Badge avec champs d’arrière-plan, de texte et d’image libellés](media/praise-app-badge-fields.png)
 
-4. Localisez votre nom de badge : sous **noms de badges localisés**, sélectionnez **Ajouter**. Sélectionnez le paramètre régional souhaité dans la liste déroulante. Entrez ensuite le nom du badge dans la langue désignée.
+4. Localisez votre nom de badge : sous **noms de badges localisés** , sélectionnez **Ajouter**. Sélectionnez le paramètre régional souhaité dans la liste déroulante. Entrez ensuite le nom du badge dans la langue désignée.
 
-5. Exclure votre badge des paramètres régionaux spécifiques : sous **exclure le badge de ces paramètres régionaux**, sélectionnez **Ajouter**. Dans la liste déroulante, sélectionnez les paramètres régionaux que vous voulez exclure.
+5. Exclure votre badge des paramètres régionaux spécifiques : sous **exclure le badge de ces paramètres régionaux** , sélectionnez **Ajouter**. Dans la liste déroulante, sélectionnez les paramètres régionaux que vous voulez exclure.
 
 6. Sélectionnez **appliquer**. Votre nouveau badge s’affichera désormais dans la table badges personnalisés.
 
