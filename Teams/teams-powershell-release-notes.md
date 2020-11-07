@@ -13,12 +13,12 @@ ms.collection:
 description: En savoir plus sur les dernières modifications dans teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852165"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937743"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notes de publication de Microsoft teams PowerShell
 
@@ -31,7 +31,7 @@ Cette page fournit le journal des modifications PowerShell d’teams pour les ve
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
-| 2020 novembre | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Utilise MSAL pour l’authentification & autorisation</li><li>Cmdlets de package de stratégie refactorisant et ajouter une affectation de package de groupe</li><li>Commandes de chargement de la hiérarchie de ciblage Refactor pour utiliser un modèle asynchrone</li> |
+| 2020 novembre | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Utilise MSAL pour l’authentification & autorisation</li><li>Cmdlets de package de stratégie refactorisant et ajouter une affectation de package de groupe</li><li>Commandes de chargement de la hiérarchie de ciblage Refactor pour utiliser un modèle asynchrone</li> <li>L’utilisateur est invité à deux reprises lors de l’authentification initiale s’il n’utilise pas le paramètre-Credential. Les utilisateurs peuvent transmettre les informations d’identification à l’aide du paramètre-Credential pour éviter une doublon. Ce comportement sera résolu dans la prochaine version.</li> |
 | 2020 septembre | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Intégration de connecteur Skype entreprise Online</li> |
 | 2020 septembre | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Intégration de connecteur Skype entreprise Online</li> |
 | 2020 juillet | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[Cmdlets d’attribution de stratégie de groupe](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) ajoutées</li> |
@@ -91,7 +91,7 @@ Cette page fournit le journal des modifications PowerShell d’teams pour les ve
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Oui | **Non** |
 | [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Oui | **Non** |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 
