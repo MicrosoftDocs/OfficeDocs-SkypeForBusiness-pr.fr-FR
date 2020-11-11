@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Appel sortant et m’appeler en quelques minutes. À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois aux zones de pays.
-ms.openlocfilehash: a7834b279b5e4246d3233405c1ab0a87df21ff8f
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908493"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993460"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Abonnement à la conférence audio « dial-out »/«appelez-moi au
 
@@ -67,10 +67,27 @@ Prenons l’exemple suivant. Un client a acheté des licences de l’abonnement 
 - Tous les appels sortants de plus de 6 900 minutes par mois civil sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination. (Remarque : le client doit configurer le [crédit de communications](what-are-communications-credits.md) et affecter la licence de crédits de communication à l’organisateur de la réunion.)
 - Tous les appels sortants vers des destinations qui ne se trouvent pas dans la liste des [pays et régions](audio-conferencing-zones.md) sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination (à condition que le client ait configuré les crédits de communication et attribué la licence de crédits de communication à l’organisateur de la réunion).
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>Comment puis-je contrôler l’utilisation du pool de minutes ?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment puis-je contrôler les minutes d’utilisation du pool ?
 
-- Vous pouvez surveiller l’utilisation par rapport à votre liste de minutes de numérotation dans le centre d’administration Skype entreprise « hérité ». Dans le centre d’administration de Microsoft Teams, accédez aux rapports de **portail hérités**  >  **Reports**  >  **PSTN Minute Pools**. La zone un pool de minutes de numérotation est libellée dans le rapport en tant qu’appel entrant vers la zone A pays.
-- Des notifications par courrier électronique seront envoyées à tous les administrateurs de clients d’un client donné lorsque le taux d’utilisation du pool de minutes de connexion par le client atteint 80% et 100%.
+- Vous pouvez surveiller l’utilisation par rapport à votre liste des minutes de numérotation dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à **analyse &** rapports d'  >  **utilisation** des rapports, puis sélectionnez **pools de minutes PSTN**. La zone un pool de minutes de numérotation est libellée dans le rapport en tant qu’appel entrant vers la zone A pays.
+- Des notifications par courrier électronique seront envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes de numérotation de votre organisation aura atteint 80% et 100% :
+
+  - Administrateur de facturation
+  - Administrateur Skype entreprise
+  - Administrateur de la société
+  - Administrateur de compte d’utilisateur
+  - Administrateur du support technique
+  - Administrateur du support technique
+  - Administrateurs d’appareils
+  - Administrateur d’applications
+  - Administrateur de licence
+  - Administrateur de périphériques Cloud
+  - Administrateur d’authentification
+  - Administrateur d’authentification privilégiée
+  - Administrateur des communications Teams
+  - Ingénieur du support technique pour les communications Teams
+  - Spécialiste du support des communications teams
+  - Administrateur du service Teams
 
 Pour plus d’informations sur les crédits de communication, voir [crédits](what-are-communications-credits.md)de communication.
 

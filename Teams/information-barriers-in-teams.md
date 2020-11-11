@@ -16,12 +16,12 @@ description: Cet article décrit les barrières en informations dans Microsoft t
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508351"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988321"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -44,7 +44,7 @@ Toutefois, dans la mesure où il existe des obstacles d’information, de nombre
 - Formation : les étudiants au sein d’une école ne peuvent pas chercher les coordonnées des étudiants de votre établissement scolaire.
 - Légal : conservation de la confidentialité des données obtenues par le juriste d’un client par le biais d’un juriste pour la même entreprise représentant un client différent.
 - Secteur public : accès et contrôle des informations limités entre les services et les groupes.
-- Services professionnels : un groupe de personnes dans une société est uniquement en mesure de dialoguer avec un client ou un client spécifique via une Fédération ou un accès invité lors d’un engagement client.
+- Services professionnels : un groupe de personnes dans une société est en mesure de discuter avec un client ou un client spécifique via un accès invité lors d’un engagement client.
 
 Par exemple, Enrico appartient au segment bancaire et Pradeep appartient au segment du conseiller financier. Enrico et Pradeep ne peuvent pas communiquer entre eux, car la stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments. Toutefois, Enrico et Pradeep peuvent communiquer avec Lee dans HR.
 
@@ -169,7 +169,7 @@ Pour le moment, les utilisateurs peuvent se familiariser avec les scénarios sui
 
 Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à Microsoft teams pour l’interface de fichiers. Par défaut, les stratégies de barrage d’information ne sont pas honorées sur ce site SharePoint et les fichiers. Pour activer les stratégies de cloisonnement des informations, l’administrateur a déjà rempli un formulaire, pour demander l’activation de stratégies IB sur SharePoint et OneDrive (voir la section *conditions préalables* dans la rubrique [barrières d’information](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Si la stratégie de protection des informations est activée dans SharePoint et OneDrive, les stratégies IB fonctionneront sur les sites SharePoint approvisionnés lors de la création d’une équipe à l’aide de Microsoft Teams.
 
-**Exemple de stratégies IB sur le site SharePoint d’une équipe**: dans la Banque bancaire de contoso, l’utilisateur « Sesha@contosobank.onmicrosoft.com » appartient au segment de banque d’investissement et l’utilisateur « Nikita@contosobank.onmicrosoft.com » appartient à la fonction d’avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments.
+**Exemple de stratégies IB sur le site SharePoint d’une équipe** : dans la Banque bancaire de contoso, l’utilisateur « Sesha@contosobank.onmicrosoft.com » appartient au segment de banque d’investissement et l’utilisateur « Nikita@contosobank.onmicrosoft.com » appartient à la fonction d’avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments.
 Lorsque l’utilisateur Sesha crée une équipe pour un segment de services d’investissement, l’équipe et le site SharePoint qui la replaceront ne seront accessibles qu’aux utilisateurs de segments bancaires d’investissement. L’utilisateur Nikita ne peut pas accéder à ce site, même s’il possède le lien de site.
 
 Pour plus d’informations, consultez l’article relatif aux [barrières d’information](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
@@ -179,7 +179,9 @@ Pour plus d’informations, consultez l’article relatif aux [barrières d’in
 Pour plus d’informations, y compris les offres et les tarifs, voir conseils relatifs aux [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problèmes connus
-- **Les utilisateurs ne peuvent pas participer**à des réunions : si les stratégies IB sont activées, les utilisateurs ne peuvent pas participer à des réunions si la taille de la liste de la réunion ne correspond pas aux [limites d’assiduité](limits-specifications-teams.md)de la réunion. La cause initiale est que le contrôle IB s’appuie sur le fait que les utilisateurs puissent être ajoutés à une liste de discussions et qu’ils le nécessitent pour permettre aux utilisateurs de participer à des réunions. Lorsque vous participez à une réunion, vous ajoutez ce dernier à la liste, par conséquent pour les réunions périodiques, la liste se remplit rapidement. Lorsqu’il atteint les [limites d’assiduité](limits-specifications-teams.md)de la réunion, aucun utilisateur supplémentaire ne peut être ajouté à la liste de conversations de la réunion. Si IB est activé, les utilisateurs ne sont pas autorisés à participer à la réunion, mais si IB n’est pas activé, les utilisateurs sont autorisés à participer à la réunion, mais ils ne sont pas ajoutés à la liste des discussions de la réunion. Une solution courte consiste à supprimer les membres inactifs de la liste de conversations de la réunion afin de libérer de l’espace pour les nouveaux utilisateurs. En revanche, vous augmenterez la taille des listes de discussions de réunion à une date ultérieure.
+- **Les utilisateurs ne peuvent pas participer à des réunions ad hoc** : si des stratégies IB sont activées, les utilisateurs ne peuvent pas participer à des réunions si la taille de la liste de la réunion est supérieure à la [limite d’assiduité](limits-specifications-teams.md)de la réunion. La cause initiale est que le contrôle IB s’appuie sur le fait que les utilisateurs puissent être ajoutés à une liste de discussions et qu’ils le nécessitent pour permettre aux utilisateurs de participer à des réunions. Lorsque vous participez à une réunion, vous ajoutez ce dernier à la liste, par conséquent pour les réunions périodiques, la liste se remplit rapidement. Lorsqu’il atteint les [limites d’assiduité](limits-specifications-teams.md)de la réunion, aucun utilisateur supplémentaire ne peut être ajouté à la liste de conversations de la réunion. Si IB est activé pour le client et que la liste de discussions est complète pour une réunion, les nouveaux utilisateurs (qui ne figurent pas déjà dans la liste) ne sont pas autorisés à participer à la réunion. Toutefois, si l’option IB n’est pas activée pour le client et si la liste des discussions est complète, les nouveaux utilisateurs (qui ne figurent pas déjà dans la liste) sont autorisés à participer à la réunion, mais ils ne verront pas l’option conversation dans la réunion. Une solution courte consiste à supprimer les membres inactifs de la liste de conversations de la réunion afin de libérer de l’espace pour les nouveaux utilisateurs. En revanche, vous augmenterez la taille des listes de discussions de réunion à une date ultérieure.
+
+- **Les utilisateurs ne peuvent pas participer** à des réunions de canal : si les stratégies IB sont activées, les utilisateurs ne peuvent pas participer à des réunions de canal s’ils ne sont pas membres de l’équipe. La cause initiale est que le contrôle IB s’appuie sur le fait que les utilisateurs puissent être ajoutés à une liste de discussions et qu’ils le nécessitent pour permettre aux utilisateurs de participer à des réunions. Le fil de discussion dans une réunion de canal est disponible uniquement pour les membres de l’équipe/canal, et les non-membres ne peuvent pas voir/accéder au fil de discussion. Si l’option IB est activée pour le client et qu’un membre ne peut pas participer à une réunion de canal, l’utilisateur n’est pas autorisé à rejoindre la réunion. Toutefois, si l’option IB n’est pas activée pour le client et qu’un membre ne peut pas participer à une réunion de canal, l’utilisateur est autorisé à participer à la réunion, mais ne verra pas l’option conversation dans la réunion.
 
 ## <a name="more-information"></a>Plus d’informations
 
