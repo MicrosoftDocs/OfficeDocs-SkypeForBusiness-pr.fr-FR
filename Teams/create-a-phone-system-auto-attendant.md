@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922468"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999217"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -196,13 +196,11 @@ Lorsque vous avez terminé d’ajouter des comptes de service, cliquez sur **val
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Transferts de numéros de téléphone externes-détails techniques
 
-Lorsque vous transférez des appels vers un numéro de téléphone externe, le compte de ressources associé au standard automatique ou à la file d’attente d’appels doit être doté d’un numéro de téléphone et d’un système téléphonique Microsoft 365-licence utilisateur virtuelles. En outre
+Reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) pour permettre aux standards automatiques de transférer les appels dans l’extérieur.  De plus,:
 
-- Dans le cas d’un compte de ressources avec un numéro de plan d’appels, attribuez une licence de [plan d’appel](calling-plans-for-office-365.md) .
-  - Le numéro de téléphone de transfert externe doit être entré au format E. 164 (+ CC + phone_number).
+- Dans le cas d’un compte de ressources avec un numéro de [plan d’appels](calling-plans-for-office-365.md) , le numéro de téléphone de transfert externe doit être saisi au format E. 164 (+ [indicatif du pays] [indicatif] [numéro de téléphone]).
 
-- Dans le cas d’un compte de ressources avec un numéro de routage direct, attribuez une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md).
-  - Le format de numéro de téléphone de transfert externe dépend de vos paramètres de [contrôleur de bordure de session (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) .
+- Dans le cas d’un compte de ressources doté d’un numéro d’acheminement direct, le format des numéros de téléphone de transfert externe dépend des paramètres du [contrôleur de bordure de session (SBC)](direct-routing-connect-the-sbc.md) .
 
 Le numéro de téléphone sortant affiché est déterminé comme suit :
 
@@ -210,8 +208,6 @@ Le numéro de téléphone sortant affiché est déterminé comme suit :
   - Pour les numéros de routage directs, le numéro envoyé est basé sur le paramètre P-assertion-Identity (PAI) sur l’SBC, comme suit :
     - S’il est défini sur Disabled, le numéro de téléphone de l’appelant initial est affiché. Il s’agit du paramètre par défaut et recommandé.
     - Si cette option est activée, le numéro de téléphone de votre compte de ressources est affiché.
-
-Les transferts entre les Trunks de plans d’appel et les Trunks de routage direct ne sont pas pris en charge.
 
 Dans un environnement hybride Skype entreprise, pour transférer un appel de standard automatique vers le RTC, créez un nouvel utilisateur local avec le renvoi d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour voix entreprise et avoir reçu une stratégie vocale. Pour en savoir plus, voir [transfert d’appel standard automatique vers PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
@@ -238,7 +234,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 - [Nouveau-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
