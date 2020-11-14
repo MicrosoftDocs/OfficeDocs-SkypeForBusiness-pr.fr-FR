@@ -12,6 +12,7 @@ description: Contient des instructions pas à pas pour configurer les paramètre
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,23 +21,23 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: cefcb240e27f5934538c88f5316181be25f24a60
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878528"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031230"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Conversation, équipes, canaux et applications dans Microsoft Teams
 
-Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.
+Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) vous pouvez configurer en fonction des besoins de votre organisation.
 
 Pour commencer, regardez notre courte vidéo sur les conversations, équipes et canaux Teams (4:30 minutes) :
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *Nouveautés de novembre 2019*
- - Vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour faciliter le déploiement de Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.
+ - Vous pouvez désormais [Utiliser Advisor pour Teams (préversion) pour faciliter le déploiement de Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.
  - [Les indispensables de Microsoft Teams pour les canaux IT YouTube](https://aka.ms/MicrosoftTeamsforIT), y compris les vidéos courtes (8-10 minutes) qui montrent comment déployer, configurer et gérer Teams.
 
 > [!TIP]
@@ -101,7 +102,7 @@ L’accès externe (appelé auparavant « fédération ») permet à vos utilisa
 
 ### <a name="guest-access"></a>Accès invité
 
-L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est désactivé par défaut. Pour plus d’informations, voir [Accès invité dans Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est désactivé par défaut. Pour plus d’informations, consultez [Accès invité dans Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 > [!NOTE]
 > Pour plus d’informations sur l’accès externe et l’accès hôte, consultez ici [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -115,7 +116,7 @@ L’accès invité dans Teams permet à des personnes en dehors de votre organis
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
-Les paramètres de Teams permettent de configurer les fonctionnalités pour vos équipes, comme par exemple l’intégration courrier, les options de stockage dans le nuage, l’onglet organisation, la configuration des salles de conférence et l’étendue des recherches. Lorsque vous apportez des modifications à ces paramètres, ils s’appliquent à toutes les équipes de votre organisation. Pour plus d’informations, consultez [Paramètres Teams](enable-features-office-365.md#teams-settings).
+Les paramètres de Teams permettent de configurer les fonctionnalités pour vos équipes, comme par exemple l’intégration courrier, les options de stockage dans le nuage, l’onglet organisation, la configuration des salles de conférence et l’étendue des recherches. Lorsque vous apportez des modifications à ces paramètres, ils s’appliquent à toutes les équipes de votre organisation.Pour plus d’informations, consultez [Paramètres Teams](enable-features-office-365.md#teams-settings).
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -180,7 +181,7 @@ Lorsque vous planifiez un déploiement d’entreprise avec Teams, vous devez ten
 
 ### <a name="urls-and-ports"></a>Ports et URL
 
-Les organisations qui maintiennent un contrôle fin sur leur trafic internet devraient consulter l’article [Plages d'adresses URL et IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) pour obtenir la liste détaillée et actualisée des URL, adresses IP, ports et protocoles qui doivent être configurés correctement dans Teams. Microsoft améliore en permanence les services Microsoft 365 et Office 365 et ajoute de nouvelles fonctionnalités, ce que signifie que les ports, URL et adresses IP requis peuvent changer au fil du temps. Nous vous recommandons de vous abonner via RSS pour recevoir des notifications lorsque ces informations sont mises à jour ou modifiées. Au minimum, vérifiez que vous avez ouvert les ports énoncés ci-dessus dans [Conditions préalables pour le déploiement de Chat](#chat-deployment-prerequisites).
+Les organisations qui maintiennent un contrôle fin sur leur trafic internet devraient consulter l’article [Plages d'adresses URL et IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) pour obtenir la liste détaillée et actualisée des URL, adresses IP, ports et protocoles qui doivent être configurés correctement dans Teams. Microsoft améliore en permanence les services Microsoft 365 et Office 365 et ajoute de nouvelles fonctionnalités, ce que signifie que les ports, URL et adresses IP requis peuvent changer au fil du temps. Nous vous recommandons de vous abonner via RSS pour recevoir des notifications lorsque ces informations sont mises à jour ou modifiées. Au minimum, assurez-vous que vous avez ouvert les ports répertoriés ci-dessus dans [Conditions préalables pour le déploiement de la conversation](#chat-deployment-prerequisites).
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -221,7 +222,7 @@ Votre organisation peut exiger que vous implémentiez des contrôles sur l’arc
 
 ### <a name="conditional-access"></a>Accès conditionnel 
 
-Microsoft Teams repose largement sur Entreprise Online, SharePoint Online et Skype Entreprise Online pour les principaux scénarios de productivité, y compris les réunions, les calendriers, les conversations d’interopérabilité et le partage de fichiers. Les stratégies d’accès conditionnel qui sont définies pour ces applications cloud s’appliquent à Teams lorsqu’un utilisateur se connecte directement à Teams, sur n’importe quel client. Les stratégies d’accès conditionnel qui sont définis pour les applications Teams dans le nuage contrôlent certaines fonctionnalités, comme par exemple si les utilisateurs peuvent accéder aux services Teams à partir de certains réseaux.
+Microsoft Teams repose largement sur Entreprise Online, SharePoint Online et Skype Entreprise Online pour les principaux scénarios de productivité, y compris les réunions, les calendriers, les conversations d’interopérabilité et le partage de fichiers. Les stratégies d’accès conditionnel qui sont définis pour les applications Teams dans le nuage contrôlent certaines fonctionnalités, comme par exemple si les utilisateurs peuvent accéder aux services Teams à partir de certains réseaux.
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -251,6 +252,6 @@ Office 365 pour le secteur public : GCC (cloud de communauté pour le secteur p
 
 ## <a name="next-steps"></a>Étapes suivantes
 - [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) de chat, Teams, les canaux et les applications.
-- Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, bots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
+- Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
 - [Mettre en place des réunions et des conférences](deploy-meetings-microsoft-teams-landing-page.md)
 - [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)
