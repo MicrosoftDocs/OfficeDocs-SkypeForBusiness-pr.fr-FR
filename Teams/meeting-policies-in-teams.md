@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Apprenez à gérer les paramètres de stratégie de réunion dans teams et à les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 11f3a0f585a3fad2d2fbb653496a151bfd75160d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486819"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030710"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -61,12 +62,12 @@ Vous pouvez modifier les paramètres de la stratégie globale ou créer et affec
 
 Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vous voulez limiter la quantité de bande passante requise par la réunion. Vous devez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
 
-Sous ** Audio & vidéo** :
+Sous **Audio & vidéo**  :
 
 - Désactivez l’option Autoriser l’enregistrement Cloud.
 - Désactivez Autoriser la vidéo IP.
 
-Sous **Partage de contenu** :
+Sous **Partage de contenu**  :
 
 - Désactiver le mode de partage d’écran.
 - Désactivez  Autoriser le tableau blanc.
@@ -169,7 +170,7 @@ L’application Calendrier de canal s’affiche dans la section **applications M
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée sur un canal d’une équipe.
 
-Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams. Par défaut, ce paramètre est activé.
+Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification** des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams. Par défaut, ce paramètre est activé.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
 
@@ -478,7 +479,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une
 
 |Définition de la valeur |Comportement  |
 |---------|---------|
-|**Désactivé, mais l’utilisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement (**...**) pour l’activer. Il s’agit du paramètre par défaut. |
+|**Désactivé, mais l’utilisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement ( **...** ) pour l’activer. Il s’agit du paramètre par défaut. |
 |**Désactivé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur ne dispose pas de l’option pour l’activer.          |
 
 <a name="bkcontentsharing"> </a>
@@ -499,9 +500,9 @@ Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce 
 
 Pour spécifier la valeur par défaut du paramètre **qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’une des options suivantes :
 
-- **EveryoneUserOverride**: tous les participants à la réunion peuvent être présentateurs. Il s’agit de la valeur par défaut. Ce paramètre correspond au paramètre **tout le monde** dans Teams.
-- **EveryoneInCompanyUserOverride**: les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **personnes du mon organisation** dans Teams.
-- **OrganizerOnlyUserOverride**: seul l’organisateur de la réunion peut être présentateur, et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **moi uniquement** dans Teams.
+- **EveryoneUserOverride** : tous les participants à la réunion peuvent être présentateurs. Il s’agit de la valeur par défaut. Ce paramètre correspond au paramètre **tout le monde** dans Teams.
+- **EveryoneInCompanyUserOverride** : les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **personnes du mon organisation** dans Teams.
+- **OrganizerOnlyUserOverride** : seul l’organisateur de la réunion peut être présentateur, et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **moi uniquement** dans Teams.
 
 Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de la réunion peuvent toujours modifier ce paramètre dans teams et choisir qui peut effectuer une présentation aux réunions planifiées.
 
@@ -528,7 +529,7 @@ Pour spécifier le complément de réunion que vous voulez mettre à la disposit
 - Définissez le paramètre sur **TeamsAndSfB** pour activer le complément réunion teams et le complément Skype entreprise dans Outlook. Il s’agit de la valeur par défaut.
 - Définissez le paramètre sur **équipes** pour activer uniquement le complément réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions futures disposent d’un lien vers une réunion Teams. Elle ne permet pas de migrer des liens vers les équipes. Ce paramètre de stratégie n’a aucun impact sur la présence, les discussions, les appels RTC ou toute autre fonctionnalité de Skype entreprise, ce qui signifie que les utilisateurs continuent à utiliser Skype entreprise pour ces fonctionnalités.
 
-  Si vous définissez le paramètre sur **teams**, puis que vous revenez à **TeamsAndSfB**, les compléments de réunion sont activés. Toutefois, Notez que les liens de participation à une réunion teams existants ne seront pas déplacés vers Skype entreprise. Seules les réunions Skype entreprise programmées après le changement comportent un lien vers une réunion Skype entreprise.
+  Si vous définissez le paramètre sur **teams** , puis que vous revenez à **TeamsAndSfB** , les compléments de réunion sont activés. Toutefois, Notez que les liens de participation à une réunion teams existants ne seront pas déplacés vers Skype entreprise. Seules les réunions Skype entreprise programmées après le changement comportent un lien vers une réunion Skype entreprise.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de la stratégie de réunion-mode de filtres vidéo
 

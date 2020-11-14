@@ -11,18 +11,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852195"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030700"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 

@@ -20,13 +20,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: b231fb1ae564466985195325fb748af5730623a6
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0c2d37adb185f873b0208ff422aa7ee8aac9a81c
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908483"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030660"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 

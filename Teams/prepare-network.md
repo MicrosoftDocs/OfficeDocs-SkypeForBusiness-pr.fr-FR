@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177591"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033013"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -59,9 +60,9 @@ Si vous avez déjà [optimisé votre réseau pour microsoft 365 ou Office 365](h
 Une fois que vous avez vérifié que vous répondez à ces exigences réseau, vous pouvez être prêt à [déployer teams](How-to-roll-out-teams.md). S’il s’agit d’une grande entreprise multinationale, ou si vous savez que vous avez des limitations réseau, poursuivez votre lecture pour découvrir comment évaluer et optimiser votre réseau pour Teams.
 
 > [!IMPORTANT]
-> **Pour les établissements d’enseignement**: Si votre organisation est une institution éducative et que vous utilisez un système d’information sur les étudiants, [déployez School Data Sync](https://docs.microsoft.com/schooldatasync/) avant de déployer Teams.
+> **Pour les établissements d’enseignement** : Si votre organisation est une institution éducative et que vous utilisez un système d’information sur les étudiants, [déployez School Data Sync](https://docs.microsoft.com/schooldatasync/) avant de déployer Teams.
 >  
-> **Exécution de Skype entreprise Server sur site**: Si votre organisation exécute Skype entreprise Server sur site (ou Lync Server), vous devez [configurer Azure ad Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Microsoft 365 ou Office 365.
+> **Exécution de Skype entreprise Server sur site** : Si votre organisation exécute Skype entreprise Server sur site (ou Lync Server), vous devez [configurer Azure ad Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Microsoft 365 ou Office 365.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Meilleure pratique : surveiller votre réseau à l’aide de bord et d’appels d’analyse 
 

@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - NOCSH
 ms.reviewer: crowe
@@ -17,12 +18,12 @@ description: Déterminez le forfait d’appels du système Microsoft Phone qui f
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 71fe92646a3a2976e9a4d393e54ea56a7669b400
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691410"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031850"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Quelle forfait d’appels vous convient le mieux ? 
 

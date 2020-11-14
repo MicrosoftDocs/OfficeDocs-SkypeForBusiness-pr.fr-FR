@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Apprenez à configurer les plans d’appel Microsoft et les appels 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269648"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031010"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -148,7 +149,7 @@ Pour qu’un client obtienne un emplacement, vous devez remplir la LIS avec des 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
 
 1. Dans le volet de navigation de gauche, accédez à **emplacements**  >  **réseaux & emplacements**.
-2. Cliquez sur l’onglet qui représente l’identificateur du réseau que vous voulez ajouter. Par exemple, cliquez sur **sous-réseaux**, points d' **accès Wi-Fi**, **commutateurs**ou **ports**. Puis cliquez sur **Ajouter**.
+2. Cliquez sur l’onglet qui représente l’identificateur du réseau que vous voulez ajouter. Par exemple, cliquez sur **sous-réseaux** , points d' **accès Wi-Fi** , **commutateurs** ou **ports**. Puis cliquez sur **Ajouter**.
 3. Complétez les champs, ajoutez un emplacement d’urgence, puis cliquez sur **appliquer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
@@ -216,7 +217,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - **Le routage direct des clients aux États-Unis** doit coordonné avec leur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Sujets associés
+ ## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

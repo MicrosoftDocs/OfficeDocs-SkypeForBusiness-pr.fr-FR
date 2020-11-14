@@ -13,21 +13,22 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: Microsoft 365 Business Voice est une option peu coûteuse pour les appels vocaux, qui permet aux petites et moyennes entreprises de communiquer plus efficacement.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: d94af2d1e02f7d0443436189466fdb4976f912a2
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878598"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030780"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Qu’est-ce que Microsoft 365 Business Voice ?
 
-La solution Microsoft 365 Business Voice permet aux petites et moyennes entreprises de transformer facilement leur application Microsoft Teams en un système téléphonique souple et performant. Elle remplace avantageusement les fournisseurs de services de téléphonie et les systèmes téléphoniques internes traditionnels dont la gestion est parfois complexe et coûteuse. Vous pouvez configurer des numéros payants et gratuits, des menus d’appel pour aider les utilisateurs à joindre le service approprié, l’audioconférence pour organiser des réunions à plusieurs et plus encore. Vous pouvez même attribuer aux utilisateurs leur propre numéro de téléphone pour qu’ils reçoivent des appels directement.
+Microsoft 365 Business Voice permet aux petites et moyennes entreprises de transformer facilement Microsoft Teams en système téléphonique puissant et flexible. Il remplace les fournisseurs de téléphonie traditionnels et les systèmes téléphoniques internes qui peuvent être difficiles et coûteux à gérer. Vous pouvez configurer les numéros payants et gratuits, les menus d’appels pour aider les utilisateurs à accéder au service approprié, à la conférence audio pour vous permettre d’héberger vos réunions avec tout le monde, et bien plus encore. Vous pouvez même donner leur propre numéro de téléphone à vos interlocuteurs pour qu’ils puissent recevoir des appels directement.
 
 Business Voice vous permet de faire tout cela en regroupant l’ensemble des fonctionnalités de votre Système téléphonique Microsoft 365 dans un bundle facile à gérer. Vous n’avez pas à vous soucier de choisir le plan ou la fonctionnalité qu’il vous faut. Tout est déjà inclus et configuré pour vous. Comme le Système téléphonique fait partie de Teams, vous pouvez transformer votre PC, Mac ou appareil mobile en téléphone et utiliser ce dernier avec votre numéro de téléphone professionnel.
 
@@ -54,7 +55,7 @@ Business Voice est disponible dans plus de 70 pays et régions. Si vous pouvez 
 
 > [!IMPORTANT]
 >
-> Microsoft Teams et Business Voice fonctionnent uniquement lorsque les boîtes aux lettres de vos utilisateurs se trouvent dans Microsoft 365.  Ils ne prennent pas en charge les boîtes aux lettres situées sur un serveur Exchange local.
+> Microsoft Teams et Business Voice fonctionnent uniquement lorsque les boîtes aux lettres de vos utilisateurs se trouvent dans Microsoft 365. Ils ne prennent pas en charge les boîtes aux lettres situées sur un serveur Exchange local.
 
 Lorsque vous achetez Business Voice, vous bénéficiez des fonctionnalités suivantes, parmi beaucoup d’autres :
 
@@ -68,8 +69,7 @@ Lorsque vous achetez Business Voice, vous bénéficiez des fonctionnalités suiv
 <tr>
         <td><b><a href="/microsoftteams/calling-plan-landing-page">Appels nationaux</a></b>
         </td>
-        <td>Les appels internes à votre pays ou région sont gratuits. Les plans internationaux et de numérotation gratuite sont également disponibles.
-        </td>
+        <td>Les appels internes à votre pays ou région sont gratuits. Les plans internationaux et de numérotation gratuite sont également disponibles. </td>
     </tr>
     <tr>
         <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audioconférence</a></b>

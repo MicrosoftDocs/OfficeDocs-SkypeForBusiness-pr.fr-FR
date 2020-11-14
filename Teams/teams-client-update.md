@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ description: Dans cet article, vous allez découvrir le processus de mise à jou
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f8681f3f4cc7c25e9499e25e3978848084086a2a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583271"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031880"
 ---
 # <a name="teams-update-process"></a>Processus de mise à jour des équipes
 
@@ -61,4 +62,4 @@ Les versions de client de bureau âgées de plus de trois mois lors de la premi�
 
 Pour le moment, les clients de bureau teams sur les clouds gouvernementaux ont une exception à ce contrat de service.
 
-Pour plus d’informations sur les nouvelles versions, consultez le [Centre de messages](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) ou accédez à **aide**sur les nouveautés  >  **What’s new** du client.
+Pour plus d’informations sur les nouvelles versions, consultez le [Centre de messages](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) ou accédez à **aide** sur les nouveautés  >  **What’s new** du client.

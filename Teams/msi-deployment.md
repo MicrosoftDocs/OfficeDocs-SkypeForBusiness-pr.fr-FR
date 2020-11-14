@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3eb845321a13e7701f7a8d49b975fe077fa2e14
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778787"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030410"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -100,7 +101,7 @@ Le comportement par défaut du MSI est d’installer l’application Teams dès 
 
 ### <a name="use-group-policy-recommended"></a>Utiliser la stratégie de groupe (recommandé)
 
-Activez le paramètre de stratégie de groupe **Empêcher Microsoft Teams de démarrer automatiquement après l’installation** . Ce paramètre de stratégie est disponible sous Configuration utilisateur\Stratégies\Modèles d’administration\Microsoft Teams. Il s’agit de la méthode recommandée, car vous pouvez activer ou désactiver le paramètre de stratégie en fonction des besoins de votre organisation.
+Activez le paramètre de stratégie de groupe **Empêcher Microsoft Teams de démarrer automatiquement après l’installation**. Ce paramètre de stratégie est disponible sous Configuration utilisateur\Stratégies\Modèles d’administration\Microsoft Teams. Il s’agit de la méthode recommandée, car vous pouvez activer ou désactiver le paramètre de stratégie en fonction des besoins de votre organisation.
 
 Lorsque vous activez ce paramètre de stratégie avant l’installation de Teams, Teams ne démarre pas automatiquement lorsque les utilisateurs se connectent à Windows. Lorsqu’un utilisateur se connecte à Teams pour la première fois, les équipes démarrent automatiquement la prochaine fois que l’utilisateur se connecte.
 

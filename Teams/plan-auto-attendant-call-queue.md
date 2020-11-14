@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur les standards automatiques et les files d’attente d’appels et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menus pour joindre des personnes ou des services au sein de votre organisation.
-ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908603"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031560"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Plan pour les standards automatiques d’équipe et les files d’attente d’appels
 
@@ -216,7 +217,7 @@ Pour plus d’informations sur la création de standards automatiques et de file
 - [Configurer un standard automatique](create-a-phone-system-auto-attendant.md)
 - [Créer une file d’attente d’appel](create-a-phone-system-call-queue.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier le routage direct](direct-routing-plan.md)
 

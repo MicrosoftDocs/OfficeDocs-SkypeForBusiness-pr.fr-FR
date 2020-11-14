@@ -14,17 +14,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203827"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030800"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -40,9 +41,9 @@ Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vo
 Pour en savoir plus sur l’expérience des réunions pour vos utilisateurs, consultez[Réunions et appels](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
 
-*Nouveautés d’avril 2020* : les organisateurs de réunion peuvent mettre fin à une réunion pour tous les participants à la réunion Teams en cliquant sur **Mettre fin à la réunion** dans les contrôles de réunion au sein de la réunion.  
+*Nouveautés d’avril 2020*  : les organisateurs de réunion peuvent mettre fin à une réunion pour tous les participants à la réunion Teams en cliquant sur **Mettre fin à la réunion** dans les contrôles de réunion au sein de la réunion.  
 
-*Nouveautés en novembre 2019*: vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams, y compris les réunions et conférences. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer les réunions et conférences dans Teams.
+*Nouveautés en novembre 2019* : vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams, y compris les réunions et conférences. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer les réunions et conférences dans Teams.
 
  > [!Note]
 > Pour plus d’informations sur les réunions et conférences Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).

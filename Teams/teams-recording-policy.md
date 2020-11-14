@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
+ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908573"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002196"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation des enregistrements basés sur les stratégies d’équipe pour les appels & des réunions
 
@@ -40,7 +40,7 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 
 - Nouvelles politiques d’administration pour l’enregistrement de la conformité, y compris l’intégration aux équipes existantes d’appels administratifs et aux politiques et aux outils de réunion
 
-L’enregistrement de la conformité peut être activé sur les utilisateurs de Microsoft 365 a3/a5/E3/E5 et des utilisateurs d’Office 365 a3/a5/E3/E5. 
+L’enregistrement de la conformité peut être activé sur les utilisateurs de Microsoft 365 a3/a5/E3/E5/Business Premium et des utilisateurs d’Office 365 a3/a5/E3/E5. 
 
 Les fonctionnalités d’intégration de la solution enregistrement de la conformité ont également été examinées lors de l’enflamme 2019 de la [<span class="underline">session enregistrement de la conformité et Microsoft teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 

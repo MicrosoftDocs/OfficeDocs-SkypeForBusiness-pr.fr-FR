@@ -9,17 +9,18 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Apprenez-en davantage sur l’interface de chat d’équipe native pour les utilisateurs de Microsoft Teams (fédéré) disponibles entre les utilisateurs externes lorsque les deux utilisateurs sont en mode de mise à niveau TeamsOnly.
-ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583843"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030600"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Une interface utilisateur native pour les discussions pour les utilisateurs externes de Microsoft teams
 ======================================

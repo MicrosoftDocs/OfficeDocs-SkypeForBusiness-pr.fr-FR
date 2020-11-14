@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Apprenez-en davantage sur les paramètres réseau que vous devez configurer pour le routage en fonction de l’emplacement pour le routage direct et pour les services d’urgence améliorés.
+description: Apprenez-en davantage sur les paramètres réseau que vous devez configurer pour le routage de Location-Based pour le routage direct et l’amélioration des services d’urgence.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139063"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031830"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Paramètres réseau pour les fonctionnalités vocales de Microsoft teams
 
 En savoir plus sur les régions, les sites réseau, les sous-réseaux réseau et les adresses IP de confiance. Les présentes conditions générales et ces concepts sont utilisés dans notre documentation vocale Cloud pour [le routage direct](location-based-routing-plan.md) et les [appels d’urgence dynamiques](configure-dynamic-emergency-calling.md). Si vous déployez ces fonctionnalités de Cloud au sein de votre organisation, vous devez configurer des paramètres réseau pour utiliser ces fonctionnalités dans Microsoft Teams.
 
-Cet article vous donne une vue d’ensemble des paramètres réseau communs au routage par emplacement et aux appels d’urgence dynamiques. En fonction de la fonctionnalité voix sur le Cloud et des fonctionnalités que vous déployez, vous configurez l’ensemble ou une partie de ces paramètres. Pour plus d’informations sur la configuration de ces paramètres, voir [gérer la topologie de votre réseau pour les fonctionnalités du Cloud dans teams](manage-your-network-topology.md).
+Cet article fournit une vue d’ensemble des paramètres réseau communs aux Location-Based routage et aux appels d’urgence dynamiques. En fonction de la fonctionnalité voix sur le Cloud et des fonctionnalités que vous déployez, vous configurez l’ensemble ou une partie de ces paramètres. Pour plus d’informations sur la configuration de ces paramètres, voir [gérer la topologie de votre réseau pour les fonctionnalités du Cloud dans teams](manage-your-network-topology.md).
 
 > [!NOTE]
 > Les exigences en matière de fonctionnalités relatives aux paramètres réseau sont décrites dans les rubriques de configuration de cette fonctionnalité.
@@ -37,7 +38,7 @@ Cet article vous donne une vue d’ensemble des paramètres réseau communs au r
 
 Une région réseau contient une collection de sites réseau. Il relie diverses parties d’un réseau à plusieurs zones géographiques. Par exemple, si votre organisation comporte de nombreux sites situés en Inde, vous pouvez choisir de définir « Inde » en tant que région réseau. Chaque site réseau doit être associé à une région réseau.
 
-Les mêmes régions réseau sont partagées par le routage par emplacement pour le routage direct et les services d’urgence améliorés. Si vous avez déjà créé des régions réseau pour une fonctionnalité, vous n’avez pas besoin de créer de nouvelles régions réseau pour l’autre fonctionnalité.
+Les mêmes régions réseau sont partagées par le routage de Location-Based pour le routage direct et des services d’urgence améliorés. Si vous avez déjà créé des régions réseau pour une fonctionnalité, vous n’avez pas besoin de créer de nouvelles régions réseau pour l’autre fonctionnalité.
 
 ## <a name="network-site"></a>Site réseau
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Découvrez comment gérer les paramètres des événements en direct teams tenus au sein de votre organisation.
 f1.keywords:
 - CSH
@@ -19,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203947"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030890"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 
 Utilisez les paramètres d’événements en direct teams pour configurer les paramètres des événements en direct contenus dans votre organisation. Vous pouvez configurer une URL du support technique et configurer un fournisseur de distribution vidéo tiers. Ces paramètres s’appliquent à tous les événements en direct créés au sein de votre organisation.
 
-Vous pouvez facilement gérer ces paramètres dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à la section **réunions**en  >  **direct des événements**.
+Vous pouvez facilement gérer ces paramètres dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à la section **réunions** en  >  **direct des événements**.
 
 ![Capture d’écran des paramètres des événements en direct teams](../media/teams-live-events-settings.png "Capture d’écran des paramètres d’événements en direct teams que vous pouvez configurer dans le centre d’administration Microsoft teams")
 
@@ -40,8 +41,8 @@ Cette URL est présentée aux participants de l’événement en direct. Ajoutez
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation de gauche, accédez à la section **réunions**en  >  **temps réel des événements**.
-2. Sous **URL du support technique**, entrez l’URL du support technique de votre organisation.
+1. Dans le volet de navigation de gauche, accédez à la section **réunions** en  >  **temps réel des événements**.
+2. Sous **URL du support technique** , entrez l’URL du support technique de votre organisation.
 
     ![Paramètre d’URL d’assistance pour les événements en direct dans le centre d’administration](../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL du support technique pour les événements en direct teams")
 
@@ -59,8 +60,8 @@ Si vous avez acheté et configuré une solution SDN (Software Defined Network) o
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation de gauche, accédez à la section **réunions**en  >  **temps réel des événements**.
-2. Sous **fournisseurs de distribution vidéo tiers**, procédez comme suit : 
+1. Dans le volet de navigation de gauche, accédez à la section **réunions** en  >  **temps réel des événements**.
+2. Sous **fournisseurs de distribution vidéo tiers** , procédez comme suit : 
 
     ![Paramètres du fournisseur de distribution vidéo tiers dans le centre d’administration](../media/teams-live-events-settings-distribution-provider.png "Capture d’écran des paramètres du fournisseur de distribution vidéo tiers pour les événements en direct")
 
@@ -91,9 +92,9 @@ Pour plus d’informations, consultez la rubrique [Set-CsTeamsMeetingBroadcastCo
 > Si vous envisagez de créer des événements dynamiques à l’aide d’une application ou d’un appareil externe, vous devez également [configurer votre fournisseur de services de eCDN avec Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 >[!Note]
-> Les modifications apportées à l’aide de Microsoft Stream to [OneDrive entreprise et de SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) seront une approche progressive. Au moment de l’exécution, vous serez en mesure de vous abonner à cette expérimentation en novembre, si vous voulez continuer à utiliser le flux de travail et que, à un 2021 moment donné, il est nécessaire que tous les clients utilisent OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)

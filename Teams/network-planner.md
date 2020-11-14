@@ -13,6 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccd9b620bbe44c8fb8627504b7c25a03227b96
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581325"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030620"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le planificateur de réseaux pour Microsoft teams
 
@@ -79,9 +80,9 @@ Pour commencer à créer votre plan réseau, procédez comme suit :
 
     1. Ajoutez un nom et une description pour votre site.
 
-    2. Sous **paramètres réseau**, ajoutez le nombre d’utilisateurs du réseau sur ce site (obligatoire).
+    2. Sous **paramètres réseau** , ajoutez le nombre d’utilisateurs du réseau sur ce site (obligatoire).
 
-    3. Ajoutez des informations sur le réseau : accès WAN, capacités WAN, sortie Internet (**locale** ou **distante**), sortie PSTN (aucun, local ou distant).
+    3. Ajoutez des informations sur le réseau : accès WAN, capacités WAN, sortie Internet ( **locale** ou **distante** ), sortie PSTN (aucun, local ou distant).
 
       > [!NOTE]
       > Vous devez ajouter des numéros de capacités WAN et Internet pour afficher des recommandations en matière de bande passante spécifiques lors de la génération d’un rapport.
@@ -106,4 +107,4 @@ Après avoir ajouté tous les sites, vous pouvez créer un rapport, comme suit.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-Pour obtenir un exemple illustrant l’utilisation du planificateur de réseaux pour configurer un plan réseau et générer un rapport à l’aide de ces étapes, téléchargez la [Présentation PowerPoint sur le planificateur de réseaux](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (en anglais uniquement).
+Pour obtenir un exemple de l’utilisation du planificateur de réseaux pour configurer un plan réseau et générer un rapport à l’aide de ces étapes, téléchargez le [Planificateur de réseaux How-To présentation PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (en anglais uniquement).

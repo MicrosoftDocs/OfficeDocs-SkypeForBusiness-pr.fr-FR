@@ -12,18 +12,19 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant de Portage pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 2a70f6b1cec2658cb2348d21895bfc3b30717d75
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227528"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030760"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transfert de numéros de téléphone dans Microsoft teams
 
@@ -41,32 +42,32 @@ Avant de commencer, nous vous conseillons de passer en revue les informations re
 > [!NOTE]
 > Pour **l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le Royaume-Uni, les États-Unis et le Canada**. Pour obtenir des numéros de téléphone pour d’autres pays ou régions, vous pouvez [demander manuellement une demande de](manually-submit-port-order.md)transfert. Pour obtenir le formulaire, vous devez d’abord valider manuellement une demande de transfert, puis sélectionnez votre pays ou région dans la liste déroulante [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**numéros de téléphone** **vocaux** > . Cliquez sur **nombres**, puis cliquez sur **port** pour démarrer l’Assistant de Portage.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice** Teams, accédez à  >  **numéros de téléphone** vocaux. Cliquez sur **nombres** , puis cliquez sur **port** pour démarrer l’Assistant de Portage.
 2. Passez en revue les informations de la page mise en **route** , puis, lorsque vous êtes prêt, cliquez sur **suivant**.
-3. Dans la page **Sélectionner le type d’emplacement et le type de numéro** , spécifiez les informations suivantes, puis cliquez sur **suivant**:
+3. Dans la page **Sélectionner le type d’emplacement et le type de numéro** , spécifiez les informations suivantes, puis cliquez sur **suivant** :
 
-    - **Pays ou région**: pays ou région où vous avez des numéros.
-    - **Type de numéro de téléphone**: type de numéro, tel que géographique ou numéro gratuit.
-    - **Numéros attribués à**: ce pour quoi les numéros sont attribués. Par exemple, des utilisateurs ou des fonctionnalités de conférence ou de voix.
+    - **Pays ou région** : pays ou région où vous avez des numéros.
+    - **Type de numéro de téléphone** : type de numéro, tel que géographique ou numéro gratuit.
+    - **Numéros attribués à** : ce pour quoi les numéros sont attribués. Par exemple, des utilisateurs ou des fonctionnalités de conférence ou de voix.
 
 4. Dans la page **Ajouter des informations** sur le compte, procédez comme suit, puis cliquez sur **suivant**.
 
     > [!IMPORTANT]
     > Les informations affichées sur cette page sont déterminées par le pays ou la région et le type de numéro. Pour chaque pays ou région, il existe des réglementations différentes sur les informations nécessaires aux numéros de port. Ce que vous voyez sur cette page peut être différent de celui décrit dans cet article.
 
-    - **Détails**de la commande : 
-        - **Nom**de la commande : nom de la commande
-        - **Courriers électroniques de notification**: adresses de messagerie pour recevoir des notifications de bon de commande. Si vous entrez plusieurs adresses de messagerie, séparez-les par un point-virgule.
-        - **Date transférée**: date de transfert émise par votre fournisseur de services actuel.
+    - **Détails** de la commande : 
+        - **Nom** de la commande : nom de la commande
+        - **Courriers électroniques de notification** : adresses de messagerie pour recevoir des notifications de bon de commande. Si vous entrez plusieurs adresses de messagerie, séparez-les par un point-virgule.
+        - **Date transférée** : date de transfert émise par votre fournisseur de services actuel.
     - **Détails du numéro de téléphone**
-        - **Type de port**: Si vous utilisez un port complet pour transférer tous vos numéros ou un port partiel pour transférer certains de vos numéros.
+        - **Type de port** : Si vous utilisez un port complet pour transférer tous vos numéros ou un port partiel pour transférer certains de vos numéros.
     - **Personne demandant des informations**  
         - Le nom de votre organisation et les détails de contact de la personne demandant le transfert.
     - **Détails du fournisseur actuel**
-        - **Numéro de téléphone de facturation (BTN)**: votre BTN au format E. 164 (un signe +) doit précéder le numéro. Par exemple, dans le cas d’un numéro d’Amérique du Nord, utilisez + 1XXXYYYZZZZ.
+        - **Numéro de téléphone de facturation (BTN)** : votre BTN au format E. 164 (un signe +) doit précéder le numéro. Par exemple, dans le cas d’un numéro d’Amérique du Nord, utilisez + 1XXXYYYZZZZ.
         - Autres détails, y compris le nom de votre fournisseur de services actuel, le numéro de votre compte et votre adresse de service.
             
-5. Dans la page **Ajouter des numéros** , cliquez sur **Sélectionner un fichier**, recherchez et sélectionnez le fichier csv contenant les numéros de téléphone que vous souhaitez transférer, puis cliquez sur **suivant**.  
+5. Dans la page **Ajouter des numéros** , cliquez sur **Sélectionner un fichier** , recherchez et sélectionnez le fichier csv contenant les numéros de téléphone que vous souhaitez transférer, puis cliquez sur **suivant**.  
 
     > [!NOTE]
     > Le fichier CSV ne doit comporter qu’une seule colonne avec un en-tête intitulé PhoneNumber. Chaque numéro de téléphone doit figurer sur une ligne distincte et ne peut pas contenir de chiffres ou être au format E. 164.
@@ -90,7 +91,7 @@ Avant de commencer, nous vous conseillons de passer en revue les informations re
 
 Lorsque nous aurons reçu votre demande de transfert, vous recevez un courrier électronique qui confirme votre demande. Votre demande est vérifiée et mise à jour quotidiennement et vous recevez une notification d’avancement et de statut par e-mail. Si votre demande de transfert a été refusée par l’opérateur de perte, contactez le [service d’assistance RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à >**ordres de port** **vocal** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md)
+Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice** Teams, accédez à >  >  **ordres de port** vocal, puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md)
 
 ## <a name="related-topics"></a>Voir aussi
 

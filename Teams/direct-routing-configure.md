@@ -11,18 +11,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer le routage direct du système Microsoft Phone pour connecter votre infrastructure de téléphonie locale à Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e1c19bfcd4c220ff6b6c53d8731149eaa8b6b4b1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904826"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031770"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -55,7 +56,7 @@ Pour configurer le système Microsoft Phone et permettre aux utilisateurs d’ut
 Si vous configurez une SBC pour plusieurs clients, vous devez également lire [configurer une SBC pour plusieurs clients](direct-routing-sbc-multiple-tenants.md).
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 

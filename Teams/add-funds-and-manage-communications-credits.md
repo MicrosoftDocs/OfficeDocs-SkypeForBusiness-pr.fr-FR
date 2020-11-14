@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Découvrez comment payer pour les crédits de communication (consommation RTC) pour les services Skype entreprise et consulter les plans permettant à vos utilisateurs d’accéder à un système téléphonique continu. '
-ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788538"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031060"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -57,7 +58,7 @@ En tant qu’administrateur, vous pouvez ajouter des fonds manuellement ou confi
   
 La recharge automatique permet de recharger automatiquement votre solde lorsque celui-ci atteint le seuil minimal de déclenchement défini. Il est recommandé d'utiliser la recharge automatique afin de ne pas avoir à penser à rajouter manuellement des fonds. Lorsque votre solde atteint le montant de déclenchement, des fonds sont automatiquement ajoutés. Si vous choisissez de ne pas renouveler la recharge automatique, vous risquez de voir votre solde devenir inférieur à zéro. À ce stade, vous et vos utilisateurs ne pourrez plus passer d'appels gratuits ou d'appels internationaux.
   
-Vous pouvez mettre à jour vos options de paiement à tout moment. Sur la page **abonnements** , sélectionnez **crédits de communication**et effectuez vos mises à jour.
+Vous pouvez mettre à jour vos options de paiement à tout moment. Sur la page **abonnements** , sélectionnez **crédits de communication** et effectuez vos mises à jour.
   
 Les fonds seront appliqués uniquement aux crédits de communication au tarif publié par Microsoft lorsque les services sont utilisés. Les fonds qui ne sont pas utilisés dans les douze (12) mois de la date d’achat expireront et seront perdus.
   

@@ -6,24 +6,25 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: Rechercher le parcours approprié pour le déploiement de Microsoft Teams dans votre organisation. Découvrez l’infrastructure de Teams et son utilisation avec Microsoft 365 ou Office 365.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582461"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030980"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -82,7 +83,7 @@ Chaque équipe est différente, il n’existe pas une seule et même approche su
 
 Lorsque vous choisissez les applications et services Microsoft 365 ou Office 365 que vous allez utiliser, pensez au travail que fait votre organisation et aux types de conversations que doivent avoir vos équipes. 
 
-- **Teams**, un nœud central pour le travail d’équipe où des personnes qui travaillent en étroite collaboration sur des projets centraux, y compris de l’extérieur de votre organisation, peuvent communiquer et collaborer activement en temps réel. Ayez une conversation directement où le travail se fait, qu’il s’agisse de rédiger en commun un document, d’avoir une réunion ou de travailler ensemble dans d’autres applications et services. Teams est l’endroit où avoir des conversations informelles, retravailler rapidement sur un projet, travailler avec les fichiers d'une équipe et collaborer sur des produits partagés. 
+- **Teams** , un nœud central pour le travail d’équipe où des personnes qui travaillent en étroite collaboration sur des projets centraux, y compris de l’extérieur de votre organisation, peuvent communiquer et collaborer activement en temps réel. Ayez une conversation directement où le travail se fait, qu’il s’agisse de rédiger en commun un document, d’avoir une réunion ou de travailler ensemble dans d’autres applications et services. Teams est l’endroit où avoir des conversations informelles, retravailler rapidement sur un projet, travailler avec les fichiers d'une équipe et collaborer sur des produits partagés. 
 
 - **Outlook** pour collaborer dans l’environnement de messagerie familier et d’une manière plus formelle et structurée ou lorsqu’une communication ciblée et directe est nécessaire.
 

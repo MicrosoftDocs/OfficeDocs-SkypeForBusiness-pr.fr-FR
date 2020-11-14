@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Apprenez-en davantage sur les types de plans d’appel d’appels RTC disponibles avec les équipes et en choisissant une pour votre organisation.  '
-ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
-ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
+ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153576"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031370"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 

@@ -14,16 +14,17 @@ localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Cet article décrit les fonctionnalités de Microsoft teams disponibles aux utilisateurs invités.
-ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346205"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030290"
 ---
 # <a name="guest-experience-in-teams"></a>Convivialité dans teams
 
@@ -106,6 +107,6 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 >
 >Pour plus d’informations, voir [Quelles sont les autorisations par défaut de l’utilisateur dans Azure Active Directory ?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Laisser une organisation en tant qu’utilisateur invité](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

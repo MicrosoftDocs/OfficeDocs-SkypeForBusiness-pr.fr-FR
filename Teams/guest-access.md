@@ -15,15 +15,16 @@ ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416849"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030280"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -57,7 +58,7 @@ L’accès invité dans teams est un paramètre à l’échelle de l’organisat
   Les utilisateurs invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code de passage unique pour valider leur identité ([authentification à code unique](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) requise).
 4. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir et répondre à des messages de canal, [accéder aux fichiers dans les canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer aux conversations, rejoindre des réunions, collaborer sur des documents, etc. 
 
-Dans Teams, les invités sont clairement identifiés. Le nom d'utilisateur d'un invité comprend l'étiquette **(Invité)**, et un canal inclut une icône indiquant qu’il y a des invités dans l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
+Dans Teams, les invités sont clairement identifiés. Le nom d'utilisateur d'un invité comprend l'étiquette **(Invité)** , et un canal inclut une icône indiquant qu’il y a des invités dans l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
   
 Les invités peuvent quitter l’équipe Teams à tout moment. Pour plus d'informations, reportez-vous à l'article [Comment quitter une équipe ?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
@@ -77,7 +78,7 @@ Vous pouvez utiliser Azure AD pour créer une révision d’accès pour les memb
 
 Vous pouvez effectuer une révision par accès invité vous-même, demander aux invités de passer en revue leur appartenance ou demander à un propriétaire d’application ou à un concepteur de décision d’entreprise de procéder à la révision. Utiliser le portail Azure pour effectuer des révisions de l’accès invité. Pour plus d’informations, voir [gérer l’accès invité avec les avis sur Azure ad Access](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Collaborer avec des personnes extérieures à votre organisation](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 

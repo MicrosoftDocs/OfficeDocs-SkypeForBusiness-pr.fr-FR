@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a70986ad8329d9f90485f59aeac1f61d3309fd31
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800651"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031450"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Qu’est-ce que Microsoft teams Live Events
 
@@ -103,7 +104,7 @@ Les administrateurs de clients peuvent afficher les analyses d’utilisation en 
 
 Accédez au [plan pour les événements en direct teams](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Événements en direct sur Microsoft 365 dans Yammer, Microsoft teams et Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Prise en main des événements en direct Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)

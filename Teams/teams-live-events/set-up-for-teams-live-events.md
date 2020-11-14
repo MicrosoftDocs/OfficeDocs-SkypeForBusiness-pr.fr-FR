@@ -13,16 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Configurez des événements en direct dans Teams, y compris la configuration de votre réseau, l’attribution de licences, l’activation de fonctionnalités d’événement en direct et de solutions de distribution vidéo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dacb226d83753a39153e876999c23dd6d6961122
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 0125f3772b9cf2f090df3adee18124b4293f59b1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655461"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030910"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -100,10 +101,10 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 
 - **Ramp OmniCache** assure la distribution de réseau nouvelle génération et permet de distribuer de façon transparente du contenu vidéo sur les WAN globaux, afin d’aider les producteurs d’événements à optimiser la bande passante réseau et à prendre en charge la diffusion d’événements en direct et la diffusion à la demande. L’assistance pour Ramp OmniCache pour les événements en direct créés dans Teams sera disponible prochainement. [En savoir plus](https://rampecdn.com).
 
-- **Riverbedx**, xxxxxxxxx xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX.  Les clients Microsoft 365 peuvent désormais optimiser le trafic 365, y compris les équipes et les flux, en plus d’un grand nombre d’autres services SaaS d’entreprise pour améliorer la productivité du personnel, où qu’ils se trouvent. L’accélération en équipe et en flux peut être activée par le biais d’une configuration simple, qui est assurée par toute l’assurance du support mondial d’Riverbed et de l’investissement actuel.
+- **Riverbedx** , xxxxxxxxx xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX.  Les clients Microsoft 365 peuvent désormais optimiser le trafic 365, y compris les équipes et les flux, en plus d’un grand nombre d’autres services SaaS d’entreprise pour améliorer la productivité du personnel, où qu’ils se trouvent. L’accélération en équipe et en flux peut être activée par le biais d’une configuration simple, qui est assurée par toute l’assurance du support mondial d’Riverbed et de l’investissement actuel.
 
 > [!NOTE]
-> La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers**, lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams.
+> La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers** , lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers** , n’activez pas la solution dans Teams.
 
 Une fois que vous avez configuré la solution SDN ou eCDN, vous pouvez configurer le prestataire pour les événements en direct dans Teams.
 

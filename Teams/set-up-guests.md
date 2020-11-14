@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: rafarhi
 search.appverid: MET150
 ms.custom:
@@ -21,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Découvrez comment activer ou désactiver la fonctionnalité d’accès invité dans Microsoft teams en tant qu’administrateur 365 Office.
-ms.openlocfilehash: 54d7461e9e03cd22900e07aca7ad2d12712faab7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0920e9d8b8184f7f7ca83a71f0bd97d3a4d78470
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508061"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031190"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
 
@@ -47,18 +48,18 @@ Après avoir activé l’accès invité, il est possible que les modifications s
 
     ![Bouton Autoriser l’accès invité sur On ](media/set-up-guests-image1.png)
 
-4. Sous **appel**, **réunion**et **messagerie**, sélectionnez **activé** ou **désactivé** pour chaque fonctionnalité, en fonction de ce que vous voulez autoriser pour les utilisateurs invités.
+4. Sous **appel** , **réunion** et **messagerie** , sélectionnez **activé** ou **désactivé** pour chaque fonctionnalité, en fonction de ce que vous voulez autoriser pour les utilisateurs invités.
 
       - **Passer des appels privés** : mettre ce paramètre sur **On** pour permettre aux invités d’effectuer des appels privés.
-      - **Autoriser IP vidéo** : mettre ce paramètre sur**On** pour permettre aux invités d’utiliser la vidéo dans leurs appels et réunions.
+      - **Autoriser IP vidéo** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser la vidéo dans leurs appels et réunions.
       - **Mode de partage d’écran** : ce paramètre détermine la disponibilité de l’écran de partage pour les utilisateurs invités. 
           - Mettre ce paramètre sur **Désactivé** pour supprimer la possibilité pour les invités de partager leurs écrans dans Teams. 
           - Activez ce paramètre sur **Application unique** pour autoriser le partage d’applications individuelles. 
           - Activez ce paramètre sur **Écran entier** pour autoriser le partage d’écran entier.
       - **Autoriser Conférence maintenant** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser la fonctionnalité Conférence maintenant dans Microsoft Teams.
-      - **Modifier les messages envoyés** : mettre ce paramètre sur**On** pour permettre aux invités de modifier les messages électroniques qu’ils ont envoyés précédemment.
-      - **Invités peuvent supprimer les messages envoyés** : mettre ce paramètre sur**On** pour permettre aux invités de supprimer les messages électroniques qu’ils ont envoyés précédemment.
-      - **Conversation** : mettre ce paramètre sur**On** pour donner aux invités la possibilité d’utiliser la conversation dans Teams.
+      - **Modifier les messages envoyés** : mettre ce paramètre sur **On** pour permettre aux invités de modifier les messages électroniques qu’ils ont envoyés précédemment.
+      - **Invités peuvent supprimer les messages envoyés** : mettre ce paramètre sur **On** pour permettre aux invités de supprimer les messages électroniques qu’ils ont envoyés précédemment.
+      - **Conversation** : mettre ce paramètre sur **On** pour donner aux invités la possibilité d’utiliser la conversation dans Teams.
       - **Utiliser Giphys dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Giphys dans les conversations. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu.
       - **Évaluation du contenu Giphy** : sélectionner une note dans la liste déroulante :
           - **Autoriser tout le contenu** : les invités pourront insérer tous les Giphys dans des conversations, quelle que soit l’évaluation du contenu.

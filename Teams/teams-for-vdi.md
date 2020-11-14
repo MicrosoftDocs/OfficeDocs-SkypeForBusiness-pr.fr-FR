@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
-ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
+ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48925466"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031260"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -422,7 +423,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Ensuite, redémarrez VDA. Pour plus d’informations, reportez-vous à cet article du support Citrix intitulé [résolution des problèmes d’optimisation HDX pour teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

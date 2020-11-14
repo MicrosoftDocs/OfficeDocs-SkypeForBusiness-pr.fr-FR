@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665156"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031600"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -37,7 +38,7 @@ Cet article décrit les concepts que vous devez connaître pour gérer les appel
 
 - **Adresse d’urgence** : adresse postale adresse &mdash; physique ou rue d’un lieu d’entreprise pour votre organisation.
 
-  Par exemple, l’adresse *12345 North rue, Redmond, WA 98052* est utilisée pour diriger les appels d’urgence vers les autorités de répartition compétentes et pour faciliter la localisation de l’appelant d’urgence.
+  Par exemple, l’adresse  *12345 North rue, Redmond, WA 98052* est utilisée pour diriger les appels d’urgence vers les autorités de répartition compétentes et pour faciliter la localisation de l’appelant d’urgence.
 
 - **Emplacement** : il s’agit d’un étage, d’un immeuble, d’une aile ou d’un numéro de bureau. La fonction place est associée à une adresse de secours pour fournir un emplacement plus précis au sein d’un bâtiment. Vous pouvez avoir un nombre illimité de lieux associés à une adresse de secours. Par exemple, si votre organisation possède plusieurs immeubles, il est possible que vous souhaitiez inclure des informations de lieu pour chaque bâtiment et pour chaque étage dans chaque bâtiment.  
 
@@ -117,15 +118,15 @@ Lorsque l’utilisateur d’une équipe appelle un numéro d’urgence, le routa
 
   - Si un appelant n’est pas en mesure de mettre à jour son emplacement d’urgence vers le centre de filtrage, l’appel est transféré vers le PSAPI qui dessert l’adresse d’inscription de l’appelant.
 
-  **Au Canada, en Irlande et au Royaume-Uni, les**appels d’urgence sont d’abord prédéfinis pour déterminer l’emplacement actuel de l’utilisateur avant de connecter l’appel au centre de répartition approprié. 
+  **Au Canada, en Irlande et au Royaume-Uni, les** appels d’urgence sont d’abord prédéfinis pour déterminer l’emplacement actuel de l’utilisateur avant de connecter l’appel au centre de répartition approprié. 
 
-  **En France, en Allemagne et en Espagne**, les appels d’urgence sont dirigés directement vers le PSAPI qui dessert l’adresse d’urgence associée au numéro indépendamment de l’emplacement de l’appelant.
+  **En France, en Allemagne et en Espagne** , les appels d’urgence sont dirigés directement vers le PSAPI qui dessert l’adresse d’urgence associée au numéro indépendamment de l’emplacement de l’appelant.
 
-  Aux **Pays-Bas**, les appels d’urgence sont dirigés directement vers le PSAPI pour l’indicatif local du numéro indépendamment de l’emplacement de l’appelant.
+  Aux **Pays-Bas** , les appels d’urgence sont dirigés directement vers le PSAPI pour l’indicatif local du numéro indépendamment de l’emplacement de l’appelant.
 
-  **En Australie**, les adresses de secours sont configurées et routées par le partenaire de transporteur.
+  **En Australie** , les adresses de secours sont configurées et routées par le partenaire de transporteur.
 
-  **Au Japon**, les appels d’urgence ne sont pas pris en charge.
+  **Au Japon** , les appels d’urgence ne sont pas pris en charge.
 
 
 Pour plus d’informations, consultez :
@@ -211,10 +212,10 @@ Une stratégie d’appel d’urgence peut être accordée à un compte d’utili
 Au cours d’un appel d’urgence, un support technique est retenu dans le cadre de l’appel et l’utilisateur du support technique est contrôlé en fonction de la stratégie d’appel d’urgence Teams. Une discussion de groupe est lancée pour chaque membre du support technique et l’emplacement de l’appelant d’urgence est partagé par le biais d’une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du support technique peut également être appelé dans le cadre de la Conférence.
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
-- [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)
+- [Gérer les stratégies de routage des appels d’urgence ](manage-emergency-call-routing-policies.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Affectation ou modification d’un emplacement d’urgence pour votre utilisateur](assign-change-emergency-location-user.md)
 - [Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)

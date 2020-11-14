@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827748"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021141"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827748"
 
 
 |Date|Événement|
-|---|-----------------|
-|Débuts du 4e CY20|**L’enregistrement de la réunion teams sur OneDrive entreprise et SharePoint disponible pour la possibilité de participer ou d’être désactivé.**<br> Les administrateurs de clients peuvent accepter ou désactiver OneDrive entreprise et définir la stratégie d’équipe dans PowerShell.|
-|Milieu du 4e CY20|**Enregistrement des réunions teams dans OneDrive entreprise et SharePoint par défaut pour les clients qui n’ont pas choisi de désactiver**<br> C’est le chemin d’accès recommandé pour la plupart des clients|
-|Q1 CY21|**L’enregistrement d’équipes de réunion dans un flux classique n’est plus autorisé**<br>Tous les clients enregistrent l’enregistrement des réunions d’équipes dans OneDrive entreprise et SharePoint|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|5 octobre 2020| Vous pouvez activer la stratégie de réunion teams pour que les enregistrements de réunion soient enregistrés dans OneDrive entreprise et SharePoint au lieu de Microsoft Stream (standard).|
+|Déploiement à partir du 11 janvier 2021|Toutes les nouvelles réunions d’équipes seront enregistrées dans OneDrive entreprise et SharePoint, sauf si vous retardez cette modification en modifiant les stratégies de réunion teams de votre organisation et en définissant explicitement celles-ci en **continu**. L’affichage des rapports de stratégie en tant que flux n’est pas suffisant. Vous devez définir explicitement la valeur de la stratégie sur **Stream**.|
+|Déploiement à partir du 1er mars 2021|**Clients entreprise**<br>Aucun enregistrement de nouvelle réunion ne peut être enregistré dans Microsoft Stream (classique); tous les clients disposent automatiquement d’enregistrements de réunion enregistrés dans OneDrive entreprise et SharePoint, même s’ils ont changé leurs politiques de réunion en **flux**. Nous recommandons aux clients de dérouler cette fonction avant cette date pour pouvoir contrôler le minutage de la publication. |
+|Déploiement à partir du 7 juillet 2021|**Clients éducation**<br>Aucun enregistrement de nouvelle réunion ne peut être enregistré dans Microsoft Stream (classique); tous les clients disposent automatiquement d’enregistrements de réunion enregistrés dans OneDrive entreprise et SharePoint, même s’ils ont changé leurs politiques de réunion en **flux**. Nous recommandons aux clients de dérouler cette fonction avant cette date pour pouvoir contrôler le minutage de la publication. Nous avons mis à jour ce planning pour permettre aux clients de l’éducation de compléter les semestres en cours. |
+
+> [!Note]
+> Nous recommandons aux clients entreprise et éducation de mieux contrôler le changement de votre organisation, si vous le souhaitez, si vous êtes à l’aise avec la modification au lieu d’attendre qu’elle ne se produise. 
 
 Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme la première phase d’une transition à partir du flux Microsoft classique vers le [nouveau flux](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive entreprise et SharePoint dans Microsoft 365 et offre de nombreux avantages.
 

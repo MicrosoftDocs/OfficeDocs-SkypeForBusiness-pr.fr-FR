@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 8a01be430e8c3993325c5ef6759e520664a21e55
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: f2d056ffd2c3b40b8e39f6d4727859b45e675ebf
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788768"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031800"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -45,12 +46,12 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
   
 1. Connectez-vous à Microsoft 365 à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le volet de navigation de gauche du **Centre d’administration Microsoft 365**, **accédez à utilisateurs**  >  **actifs**, puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
+2. Dans le volet de navigation de gauche du **Centre d’administration Microsoft 365** , **accédez à utilisateurs**  >  **actifs** , puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
     
     > [!NOTE]
-    > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**.  
+    > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage** , puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier** , deux fois sur **Suivant** , puis sélectionnez la licence et cliquez sur **Envoyer**.  
   
-3. Dans le volet Action sous **Licences de produits**, cliquez sur **Modifier**. 
+3. Dans le volet Action sous **Licences de produits** , cliquez sur **Modifier**. 
     
 4. Sur la page **licences de produits** , activez l' **audioconférence** , puis cliquez sur **Enregistrer**. Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
@@ -78,9 +79,9 @@ Pour des informations complémentaires, consultez la rubrique [Microsoft Teams P
 
 ![Icône montrant le logo équipes ](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs** , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Sous **audioconférence**, cliquez sur **réinitialisation**de l’ID de conférence.  
+2. Sous **audioconférence** , cliquez sur **réinitialisation** de l’ID de conférence.  
 
 3. Dans la fenêtre de **réinitialisation de l’ID de conférence ?** , cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
 
@@ -92,9 +93,9 @@ Un ID de conférence unique est attribué à chaque réunion qu’un utilisateur
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs** , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Sous **audioconférence**, cliquez sur **Réinitialiser le code confidentiel**, puis cliquez sur **Réinitialiser**. 
+2. Sous **audioconférence** , cliquez sur **Réinitialiser le code confidentiel** , puis cliquez sur **Réinitialiser**. 
   
 Les utilisateurs recevront un message électronique contenant leur code confidentiel lorsqu’ils sont activés pour les conférences audio ou lorsque le code confidentiel est réinitialisé. En revanche, si vous avez désactivé l’envoi automatique de courriers électroniques, le message de réinitialisation du code confidentiel ne sera pas envoyé et vous devrez envoyer manuellement le code confidentiel à l’utilisateur. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Après sa réinitialisation, le code confidentiel ne s’affichera plus sur les propriétés de l’utilisateur. au lieu de cela, * * * * * sera affiché. 
   
@@ -104,9 +105,9 @@ Voir [Réinitialiser le code confidentiel de l’audioconférence](reset-the-aud
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs** , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Sous **audioconférence**, cliquez sur **Envoyer les informations sur la Conférence par courrier électronique**. 
+2. Sous **audioconférence** , cliquez sur **Envoyer les informations sur la Conférence par courrier électronique**. 
 
     > [!NOTE]
     > Dans ce cas, le code confidentiel de l’audioconférence n’est pas envoyé à l’utilisateur. 
@@ -117,11 +118,11 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs** , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. A côté de **Conférence Audio**, cliquez sur **Modifier**.
+2. A côté de **Conférence Audio** , cliquez sur **Modifier**.
  
-3. Dans le volet **audioconférence** , vous pouvez définir le **numéro payant** et, s’il est autorisé, le **numéro**gratuit.
+3. Dans le volet **audioconférence** , vous pouvez définir le **numéro payant** et, s’il est autorisé, le **numéro** gratuit.
 
 4. Cliquez sur **Enregistrer**.
     
@@ -142,9 +143,9 @@ Reportez-vous [à la rubrique définition des numéros de téléphone inclus dan
 
     Cette option est activée par défaut. Si vous désactivez cette option, les utilisateurs qui ont déjà rejoint la réunion par défaut ne sont pas avertis lorsqu’une personne entre ou quitte la réunion.
 
-4. Sous **type d’annonce d’entrée/sortie**, sélectionnez **tonalités** ou **noms ou numéros de téléphone**. 
+4. Sous **type d’annonce d’entrée/sortie** , sélectionnez **tonalités** ou **noms ou numéros de téléphone**. 
 
-    Si vous choisissez des **noms ou des numéros de téléphone**, vous pouvez également choisir d’activer ou de désactiver **la demande aux appelants d’enregistrer leur nom avant de participer à la réunion**. 
+    Si vous choisissez des **noms ou des numéros de téléphone** , vous pouvez également choisir d’activer ou de désactiver **la demande aux appelants d’enregistrer leur nom avant de participer à la réunion**. 
     > [!NOTE]
     > Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes).
 
@@ -160,7 +161,7 @@ Reportez-vous à la section [Modifier les paramètres d’un pont d’audioconf�
 
 2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
 
-3. Dans le volet **Bridge settings** (Paramètres du pont), entrez le nombre de chiffres que vous voulez pour le code confidentiel dans la liste **Longueur du code confidentiel**, puis cliquez sur **Enregistrer**.
+3. Dans le volet **Bridge settings** (Paramètres du pont), entrez le nombre de chiffres que vous voulez pour le code confidentiel dans la liste **Longueur du code confidentiel** , puis cliquez sur **Enregistrer**.
 
     Le code confidentiel doit comprendre entre 4 et 12 chiffres. La valeur par défaut est 5.
 

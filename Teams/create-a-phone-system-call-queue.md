@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer votre système téléphonique pour les files d’attente d’appels à l’aide de Microsoft Teams, qui fournit un message de bienvenue, de la musique, des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820033"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032985"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -189,7 +190,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 - [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

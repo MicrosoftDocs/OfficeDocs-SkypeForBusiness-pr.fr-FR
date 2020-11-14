@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +18,12 @@ description: Conseils pratiques pour le déploiement de fonctionnalités vocales
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503461"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031030"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -31,7 +32,7 @@ Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et ap
 En relation avec la [Réunion Teams de qui enregistre la documentation de l’utilisateur final](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation des rôles dans les réunions teams et sur la modification des rôles des utilisateurs, voir [rôles d’une réunion teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -131,7 +132,7 @@ Voici un résumé de ce qui se produit lorsque vous activez l’enregistrement d
 
 Pour les clients nouveaux et existants qui n’ont pas encore activé l’enregistrement de la réunion, les nouveaux enregistrements sont stockés dans le pays une fois Microsoft Stream disponible dans la zone de résidence des données dans le pays. Néanmoins, tout client qui active l’enregistrement de la réunion avant que Microsoft Stream soit disponible dans la région de résidence des données dans le pays continue d’utiliser le stockage de flux Microsoft pour les enregistrements existants et nouveaux, même si Microsoft Stream est disponible dans la région de résidence des données dans le pays.
 
-Pour rechercher la région dans laquelle vos données Microsoft Stream sont stockées, dans Microsoft Stream, cliquez sur **?** dans le coin supérieur droit, cliquez sur **À propos de Microsoft Stream**, puis sur **Vos données sont stockées dans**.  Pour en savoir plus sur les régions dans lesquelles Microsoft Stream stocke les données, consultez la rubrique [FAQ Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Pour rechercher la région dans laquelle vos données Microsoft Stream sont stockées, dans Microsoft Stream, cliquez sur **?** dans le coin supérieur droit, cliquez sur **À propos de Microsoft Stream** , puis sur **Vos données sont stockées dans**.  Pour en savoir plus sur les régions dans lesquelles Microsoft Stream stocke les données, consultez la rubrique [FAQ Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
 Pour en savoir plus sur l’emplacement de stockage des données entre les services dans Microsoft 365 ou Office 365, voir [où se trouvent vos données ?](https://products.office.com/where-is-your-data-located?rtc=1)
 

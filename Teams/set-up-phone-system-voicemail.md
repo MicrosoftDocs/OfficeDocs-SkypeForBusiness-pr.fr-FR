@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691050"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031070"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -68,9 +69,9 @@ Pour configurer la boîte vocale protégée, procédez comme suit :
 1. Accédez à https://admin.microsoft.com , puis connectez-vous en utilisant un compte doté des autorisations d’administrateur général.
 2. Sélectionnez **Afficher tout** , puis accédez à **Centre d’administration**  >  **Exchange**.
 3. Dans le centre d’administration Exchange, sélectionnez règles de **flux de courrier**  >  **Rules**.
-4. Cliquez **+** sur **Ajouter**, puis sélectionnez **appliquer le chiffrement des messages Office 365 et les droits de protection des messages**.
-5. Attribuez un nom à la nouvelle règle de flux de courrier, puis sous **appliquer cette règle si**, sélectionnez **les propriétés du message**  >  **incluent le type de message**  >  **messagerie vocale**. Sélectionnez **OK**.
-6. Sous **effectuer les opérations suivantes**, activez la case à cocher **appliquer le chiffrement et la protection des messages Office 365 au message avec** , puis sélectionnez **Sélectionner**. Sous **modèle RMS**, sélectionnez **ne pas transférer**. Sélectionnez **OK** , puis **Enregistrer**.
+4. Cliquez **+** sur **Ajouter** , puis sélectionnez **appliquer le chiffrement des messages Office 365 et les droits de protection des messages**.
+5. Attribuez un nom à la nouvelle règle de flux de courrier, puis sous **appliquer cette règle si** , sélectionnez **les propriétés du message**  >  **incluent le type de message**  >  **messagerie vocale**. Sélectionnez **OK**.
+6. Sous **effectuer les opérations suivantes** , activez la case à cocher **appliquer le chiffrement et la protection des messages Office 365 au message avec** , puis sélectionnez **Sélectionner**. Sous **modèle RMS** , sélectionnez **ne pas transférer**. Sélectionnez **OK** , puis **Enregistrer**.
     > [!NOTE]
     > Si la liste de **modèles RMS** est vide, vous devez configurer le chiffrement des messages. Pour plus d’informations sur la configuration du chiffrement des messages, voir les articles suivants :
     > - [Configurer de nouvelles fonctionnalités de chiffrement de messages](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
@@ -148,7 +149,7 @@ Nous disposons d’informations et d’Articles de formation pour aider vos util
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)

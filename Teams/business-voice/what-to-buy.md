@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
@@ -24,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096829"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030790"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Que dois-je me procurer pour utiliser Microsoft 365 Business Voice ?
 
@@ -45,10 +46,10 @@ Par exemple, vous pouvez avoir 10 employés d’usine et 5 employés de bureau
 
 Il existe deux types de licences : Business Voice **avec** forfait d’appels et Business Voice **sans** forfait d’appels. Le type de licence Business Voice disponible dépend de l’endroit où se trouve votre client Microsoft 365. Le type de licence détermine si vous pouvez configurer Business Voice vous-même ou si vous avez besoin de l’aide d’un partenaire ou d’un revendeur Microsoft, qui gère vos numéros de téléphone, etc.
 
-- **Business Voice avec forfait d’appels** : vous pouvez acheter Business Voice auprès de Microsoft. Utilisez l’Assistant de mise en route pour configurer Business Voice, puis configurez ou transférez les numéros de téléphone existants vers Microsoft. L’article [Utiliser l’Assistant de mise en route pour configurer Business Voice](use-getting-started-wizard.md) vous montre comment configurer Business Voice pour votre client.
+- **Business Voice avec forfait d’appels**  : vous pouvez acheter Business Voice auprès de Microsoft. Utilisez l’Assistant de mise en route pour configurer Business Voice, puis configurez ou transférez les numéros de téléphone existants vers Microsoft. L’article [Utiliser l’Assistant de mise en route pour configurer Business Voice](use-getting-started-wizard.md) vous montre comment configurer Business Voice pour votre client.
 
   Si vous souhaitez en savoir plus sur l’achat de licences Business Voice avec forfait d’appels, consultez la rubrique [Business Voice avec forfait d’appels](#business-voice-with-calling-plan) qui se trouve plus loin dans cet article.
-- **Business Voice sans forfait d’appels** : vous devez acheter Business Voice auprès d’un partenaire ou d’un revendeur Microsoft qui pourra vous aider pour la configuration. Vos numéros de téléphone existants restent chez votre opérateur téléphonique tiers actuel. L’article [Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft](reseller-partner-support.md) vous donne un aperçu du processus nécessaire à la configuration de Business Voice dans votre client.
+- **Business Voice sans forfait d’appels**  : vous devez acheter Business Voice auprès d’un partenaire ou d’un revendeur Microsoft qui pourra vous aider pour la configuration. Vos numéros de téléphone existants restent chez votre opérateur téléphonique tiers actuel. L’article [Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft](reseller-partner-support.md) vous donne un aperçu du processus nécessaire à la configuration de Business Voice dans votre client.
 
 Pour déterminer si votre pays ou votre région prend en charge le forfait d’appels, consultez l’article [Pays ou régions dans lesquels Business Voice est disponible](country-region-availability.md).
 

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment obtenir de nouveaux numéros de téléphone et porter ou transférer des numéros existants pour les conférences audio, les standards automatiques et les files d’attente d’appels (numéros de service) pour les équipes.
-ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: adca7b31b59a88d16eefcd8f45a4c896a5c3de3f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021986"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030440"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtention de numéros de téléphone de service
 
@@ -50,14 +51,14 @@ Il existe trois façons d’obtenir des numéros de service :
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **Ajouter**.
+1. Dans le volet de navigation de gauche **Voice** , sélectionnez  >  **numéros de téléphone** vocaux, puis cliquez sur **Ajouter**.
 2. Entrez un nom pour la commande et ajoutez une description.
 3. Sur la page emplacement et quantité, procédez comme suit :
-    1. Dans **pays ou région**, sélectionnez un pays ou une région.
-    1. Sous **type de nombre**, sélectionnez le type de service souhaité.
-    1. Sous **emplacement**, sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez sur **Ajouter un emplacement**.
-    1. Sous **indicatif**, sélectionnez l’indicatif de la région. 
-    2. Sous **quantité**, indiquez le nombre de numéros souhaité pour votre organisation, puis cliquez sur **suivant** pour sélectionner vos numéros.
+    1. Dans **pays ou région** , sélectionnez un pays ou une région.
+    1. Sous **type de nombre** , sélectionnez le type de service souhaité.
+    1. Sous **emplacement** , sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez sur **Ajouter un emplacement**.
+    1. Sous **indicatif** , sélectionnez l’indicatif de la région. 
+    2. Sous **quantité** , indiquez le nombre de numéros souhaité pour votre organisation, puis cliquez sur **suivant** pour sélectionner vos numéros.
 4. Sélectionnez les numéros souhaités. Vous avez 10 minutes pour sélectionner vos numéros de téléphone et passer votre commande. Si vous prenez plus de 10 minutes, les numéros de téléphone sont renvoyés dans la liste des numéros.
 5. Lorsque vous êtes prêt à passer votre commande, cliquez sur **passer une commande**.
 
@@ -74,13 +75,13 @@ Si votre pays ou votre région n’est pas répertorié dans l’Assistant de Po
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** 
 
-Dans le volet de navigation de gauche, accédez à**numéros de téléphone** **vocaux** > pour afficher les numéros de votre organisation, y compris l’emplacement, le type de numéro et les informations d’État.
+Dans le volet de navigation de gauche **Voice** , accédez à  >  **numéros de téléphone** vocaux pour afficher les numéros de votre organisation, y compris l’emplacement, le type de numéro et les informations d’État.
 
 ## <a name="assign-service-phone-numbers"></a>Attribution de numéros de téléphone de service
 
 Une fois que vous avez obtenu vos numéros de service, attribuez chaque numéro à un pont de conférence audio. Voir [modifier les numéros payants ou les numéros gratuits de votre pont de conférence audio](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
