@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
@@ -17,39 +18,39 @@ description: Découvrez comment appeler, discuter, rechercher, et ajouter des ut
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 401b63aad667d355516486deb6f056e0995dbe26
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878668"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031810"
 ---
 <a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Appeler et discuter avec des utilisateurs d’autres organisations dans Microsoft Teams
 ======================================================
 
-Lorsque vous avez besoin de communiquer et de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux manières de procéder. La première, **accès externe** (fédération), permet de rechercher, d’appeler des utilisateurs et de discuter avec eux dans d’autres domaines (par exemple, contoso.com). La deuxième, **accès invité** , vous permet d’ajouter des utilisateurs à vos équipes, comme invités, à l’aide de leur adresse e-mail. Vous pouvez collaborer avec des invités comme vous le feriez avec d’autres utilisateurs dans votre organisation.
+Lorsque vous avez besoin de communiquer et de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux solutions. La première est l’**accès externe** (fédération) qui permet de rechercher, d’appeler et de discuter avec des utilisateurs dans d’autres domaines (comme, par exemple, contoso.com). La deuxième, l’**accès invité**, vous permet d’ajouter des utilisateurs à vos équipes en tant qu’invités, à l’aide de leur adresse de messagerie. Vous pouvez collaborer avec des invités comme vous le feriez avec d’autres utilisateurs au sein de votre organisation.
 
-Si vous le souhaitez, vous pouvez utiliser l’accès externe et l’accès invité ; l’un n’exclut pas l’autre.
+Si vous le souhaitez, vous pouvez utiliser l’accès externe et l’accès invité en même temps, l’un n’exclut pas l’autre.
 
 À un niveau élevé, voici comment choisir (pour une comparaison détaillée, voir [Comparer l’accès externe et l’accès invité](#compare-external-and-guest-access)) :
 
 ## <a name="external-access"></a>Accès externe
 
-Utilisez l’ **accès externe** (fédération) lorsque vous avez besoin d’une solution qui permet aux utilisateurs externes dans d’autres domaines de rechercher, appeler, discuter et configurer des réunions avec vous. Les utilisateurs externes n’ont pas accès aux équipes ou ressources d’équipe de votre organisation. Sélectionnez l’accès externe lorsque vous voulez communiquer avec des utilisateurs externes à votre organisation qui utilisent encore Skype Entreprise (en ligne ou en local) ou Skype (à paraître début 2020). 
+Utilisez l’**accès externe** (fédération) lorsque vous avez besoin de permettre aux utilisateurs externes d’autres domaines de rechercher, appeler, discuter et configurer des réunions avec vous. Les utilisateurs externes ne peuvent pas accéder aux équipes ou aux ressources des équipes de votre organisation. Sélectionnez l’accès externe lorsque vous voulez communiquer avec des utilisateurs externes à votre organisation qui utilisent encore Skype Entreprise (en ligne ou en local) ou Skype (disponible début 2020). 
 
-L’accès externe est activé par défaut dans Teams. Ainsi, votre organisation peut communiquer avec tous les domaines externes. L’administrateur Teams peut le désactiver ou spécifier les domaines à inclure (ou à exclure). Pour plus d’informations, voir [Gérer l’accès externe](manage-external-access.md). 
+L’accès externe est activé par défaut dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. L’administrateur Teams peut le désactiver ou spécifier les domaines à inclure (ou à exclure). Pour plus d’informations, consultez [Gérer les accès externes](manage-external-access.md). 
 
-Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, [l’accès invité](#guest-access) sera sans doute préférable. 
+Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, l’[accès invité](#guest-access) sera sans doute préférable. 
 
 
 ## <a name="guest-access"></a>Accès invité
 
-Utiliser **l’accès invité** pour ajouter un utilisateur individuel (quel que soit le domaine) à une équipe, où les participants peuvent discuter, appeler, se rencontrer et collaborer sur des fichiers d’organisation (stockés dans SharePoint ou OneDrive Entreprise) à l’aide d’applications Microsoft 365 et Office 365 telles que Word, Excel ou PowerPoint. Les utilisateurs invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams qu’un membre d’équipe natif. Pour plus d’informations, lisez [Accès invité dans Teams](guest-access.md).
+Utilisez l’**accès invité** pour ajouter un utilisateur individuel (quel que soit son domaine) à une équipe dans laquelle il pourra discuter, appeler, rencontrer et collaborer sur des fichiers de l’organisation (stockés dans SharePoint ou OneDrive Entreprise) à l’aide des applications Microsoft 365 ou Office 365 telles que Word, Excel ou PowerPoint. Les utilisateurs invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams qu’un membre natif de l’équipe. Pour plus d’informations, consultez [Accès invité dans Teams](guest-access.md).
 
 - Les invités sont ajoutés dans l’annuaire Active Directory de votre organisation.
-- Pour communiquer avec un invité, celui-ci doit être connecté à Teams à l’aide de son compte invité. En d’autres termes, un invité peut avoir besoin de se déconnecter de son compte Teams pour se connecter au vôtre, ou changer d’organisation ’il s’agit du même compte.
-- Les utilisateurs invités ont accès à davantage de ressources dans Teams, par exemple, des fichiers, des équipes et des canaux, que des utilisateurs disposant d’un accès externe (fédéré).
-- L’administrateur Teams contrôle tout ce qu’un invité peut (ou ne peut pas) faire dans le centre d’administration Teams. Pour plus d’informations, voir [Gérer l’accès invité](manage-guests.md).
+- Pour communiquer avec un invité, celui-ci doit être connecté à Teams à l’aide de son compte invité. L’invité devra donc peut-être se déconnecter de son compte Teams pour pouvoir se connecter à votre compte Teams, ou changer d’organisation s’il s’agit du même compte.
+- Les utilisateurs invités ont accès à davantage de ressources dans Teams, par exemple, des fichiers, des équipes ou des canaux, que des utilisateurs disposant d’un accès externe (fédéré).
+- L’administrateur Teams contrôle tout ce qu’un invité peut faire (ou ne peut pas faire) dans le centre d’administration Teams. Pour plus d’informations, consultez [Gérer l’accès invité](manage-guests.md).
 
 Si vous êtes prêt à activer l’accès invité au sein de votre organisation, commencez par [Collaborer avec des invités au sein d’une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
@@ -88,7 +89,7 @@ Si vous êtes prêt à activer l’accès invité au sein de votre organisation,
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> La conversation externe (fédérée) est 1:1 uniquement.<br>
 <sup>4</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. <br>
-<sup>5</sup> par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes). Pour plus d’informations, voir [Activer ou désactiver l’entrée et quitter les annonces pour les réunions dans Microsoft teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+<sup>5</sup> Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **Type d’annonce d’entrée et de sortie** (cela permet d’éviter que les numéros soient lus par les Teams). Pour plus d’informations, consultez [Activer ou désactiver les annonces d’entrée et de sortie pour les réunions dans Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## <a name="related-topics"></a>Voir aussi
 
