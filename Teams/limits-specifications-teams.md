@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a552fd88d469c7daaae324614c398c24ac2f9d41
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031360"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085468"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -57,6 +57,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 <sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
 <sup>5</sup> Les équipes du cloud de la communauté du secteur public ne peuvent accueillir que 5 000 membres et celles de GCCH/DoD ne peuvent en accueillir que 2 500.
+
 ## <a name="messaging"></a>Messagerie
 
 ### <a name="chat"></a>Conversation
@@ -67,7 +68,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 
 |Fonctionnalité  | Limite maximale  |
 |---------|---------|
-|Nombre de personnes dans une conversation privée<sup>1</sup>  | 250 |
+|Nombre de personnes dans une conversation privée<sup>1</sup>  | 350 |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Nombre de pièces jointes<sup>2</sup>  |10     |
 |Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
@@ -98,8 +99,6 @@ Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.micr
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
-
-
 ## <a name="channel-names"></a>Noms des canaux
 
 Les noms des canaux ne peuvent pas contenir les caractères ou les mots suivants.
@@ -117,24 +116,23 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris**  :
+> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
 >
 >- Jusqu’à 20 000 participants par événement
 >- Jusqu’à 50 événements simultanés par client Teams
 >- Jusqu’à 16 heures par diffusion
 >
-> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](teams-add-on-licensing/advanced-communications.md).**
-
+> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions) **Après le 1 janvier 2021, les clients qui souhaitent une amélioration des limites devront acheter [les compléments de Communications Avancés](teams-add-on-licensing/advanced-communications.md).**
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300 |
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 350 |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+> Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 ### <a name="meeting-expiration"></a>Expiration de réunion
 
@@ -157,24 +155,24 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Durée de l’événement | 4 heures |
 |Événements en direct simultanés exécutés dans une organisation Microsoft 365 ou Office 365 <sup>1</sup> | 15 |
 
-<sup>1</sup> vous pouvez planifier autant d’événements en direct que vous le souhaitez, mais vous ne pouvez exécuter que 15 à la fois. Dès que le producteur rejoint un événement en direct, celui-ci est considéré comme étant en cours d’exécution. Le producteur qui tente de participer au seizième événement en direct reçoit une erreur.
+<sup>1</sup> Vous pouvez planifier autant d’Evénements en Direct que vous le souhaitez, mais vous ne pouvez exécuter que 15 à la fois. Dès que le producteur rejoint un événement en direct, celui-ci est considéré comme étant en cours d’exécution. Le producteur qui tente de participer au 16e événement en direct reçoit une erreur.
 
-Pour plus d’informations sur les événements en direct et pour voir une comparaison entre les événements en direct Teams et la diffusion de réunion Skype, accédez à [événements en direct Teams et diffusion de réunion Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Consultez également [Planifier un événement en direct Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Pour plus d’informations sur les événements en direct et une comparaison des évènements en direct Teams et Skype Meeting Broadcast, accédez à [Evènements en direct Teams et Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Consultez également [Programmer un évènement en direct Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris**  :
+> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
 >
 > - Jusqu’à 20 000 participants par événement
 > - Jusqu’à 50 événements simultanés par client Teams
 > - Jusqu’à 16 heures par diffusion
 >
-> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). **Après le 1er janvier 2021, les clients qui ont besoin de ces augmentations de limite sont invités à acheter le [module complémentaire des communications avancées](teams-add-on-licensing/advanced-communications.md).**
+> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions) **Après le 1 janvier 2021, les clients qui souhaitent une amélioration des limites devront acheter [les compléments de Communications Avancés](teams-add-on-licensing/advanced-communications.md).**
 
 ## <a name="presence-in-outlook"></a>Présence dans Outlook
 
-La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures. Pour en savoir plus sur la présence dans Teams, voir [Présence de l’utilisateur dans Teams](presence-admins.md).
+La présence Teams dans Outlook est prise en charge sur l’application de bureau de Outlook 2013 et ultérieure. Pour en savoir plus sur la présence dans Teams, consultez [Présence d’utilisateur dans Teams](presence-admins.md).
 
 ## <a name="storage"></a>Stockage
 
@@ -183,11 +181,11 @@ Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online,
 > [!NOTE]
 > Chaque [canal privé](https://docs.microsoft.com/microsoftteams/private-channels) possède sa propre collection de sites SharePoint.
 
-Si SharePoint Online n’est pas activé dans votre client, les utilisateurs Microsoft Teams ne peuvent pas toujours partager des fichiers dans les équipes. De plus, les utilisateurs dans une conversation privée ne peuvent pas partager des fichiers car OneDrive Entreprise (qui est lié à la licence SharePoint) est requis pour ces fonctionnalités.
+Si SharePoint n’est pas activé dans le client, les utilisateurs de Microsoft Teams n’ont pas toujours accès au partage des fichiers dans les équipes. Les utilisateurs de conversations privées n’ont pas également accès au partage des fichiers parce que OneDrive Entreprise (lié à la licence SharePoint) est obligatoire pour cette fonctionnalité.
 
-En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées. (Pour plus d’informations, voir[Comment SharePoint Online et OneDrive Entreprise interagissent avec Microsoft Teams](sharepoint-onedrive-interact.md).)
+En sauvegardant la bibliothèque de documents SharePoint Online, toutes les règles de conformité au niveau client seront respectées. (Pour en savoir plus, consultez [Interaction  SharePoint Online, OneDrive Entreprise et Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Étant donné que Teams s’exécute sur un serveur principal SharePoint Online pour le partage de fichiers, les limitations SharePoint s’appliquent à la section Fichiers dans une équipe. Voici les limites de stockage applicables pour SharePoint Online.
+Etant donné que Teams est exécuté sur le serveur principal de SharePoint Online, les limites SharePoint s’appliquent à la section des fichiers dans une équipe. Voici les limites de stockage de SharePoint Online.
 
 |Fonctionnalité                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -201,7 +199,7 @@ Pour plus d’informations, voir [Limites de SharePoint Online](https://support.
 
 ## <a name="class-teams"></a>Équipes de classe :
 
-Microsoft Teams pour l’éducation fournit des modèles conçus pour des scénarios d’éducation uniques, tels que l’apprentissage en classe. Pour plus d’informations sur les types d’équipe, y compris les équipes de classe, est disponible dans [Choisir un type d’équipe à des fins de collaboration dans Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+Microsoft Teams Education offrent des modèles dédiés à des scénarios d’éducation uniques tels que l’enseignement en salle. Vous pouvez accéder à plus d’informations sur ;les types d’équipes, notamment les équipes de classe, dans [Choisissez un type d’équipe pour collaborer dans Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 Une équipe de classe est un type de modèle avec des applications supplémentaires incluses, et des limites distinctes au nombre de membres de l’équipe.
 
@@ -216,8 +214,7 @@ Les limites pour les équipes de classe sont répertoriées dans le tableau suiv
 |Nombre de membres pour utiliser Affectations dans une équipe de classe    | 200        |
 |Nombre de membres pour utiliser un bloc-notes OneNote pour la classe dans une équipe de classe     |200         |
 
-Une équipe de classe peut prendre en charge plus de 200 membres. Toutefois, si vous envisagez d’utiliser l’application Affectations ou bloc-notes pour la classe au sein de votre équipe, vous devrez conserver le nombre de membres inférieur aux limites maximales ci-dessus.
-
+Un équipe de classe peut prendre en charge 200 membres. Toutefois, si vous décidez d’utiliser l’application d’Assignation ou l’application des Bloc-notes de classe, vous devrez maintenir le nombre de membres en dessous de la limite maximale indiquée ci-dessus.
 
 ## <a name="tags"></a>Balises
 
