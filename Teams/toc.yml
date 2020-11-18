@@ -240,7 +240,7 @@
       items:
         - name: Vue d’ensemble
           href: rooms/index.md
-        - name: Prévision
+        - name: Planification
           items:
             - name: Présentation de la planification des Salles Microsoft Teams
               href: rooms/rooms-plan.md
@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Numérotation et référence vocale
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: Bloquer les appels entrants
           href: block-inbound-calls.md
         - name: Parcage d’appel et récupération
