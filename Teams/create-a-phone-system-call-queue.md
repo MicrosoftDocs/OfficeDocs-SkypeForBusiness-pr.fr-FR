@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer votre système téléphonique pour les files d’attente d’appels à l’aide de Microsoft Teams, qui fournit un message de bienvenue, de la musique, des appels et d’autres fonctionnalités.
-ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032985"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49089323"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
-Les files d’attente d’appels constituent une méthode de routage des appelants vers des personnes de votre organisation qui peuvent vous aider avec un problème ou une question spécifique. Les appels sont distribués un par un aux personnes de la file d’attente (qui sont appelés *agents* ). 
+Les files d’attente d’appels constituent une méthode de routage des appelants vers des personnes de votre organisation qui peuvent vous aider avec un problème ou une question spécifique. Les appels sont distribués un par un aux personnes de la file d’attente (qui sont appelés *agents*). 
 
 Les files d’attente d’appels fournissent :
 
@@ -47,7 +47,7 @@ Les files d’attente d’appels fournissent :
 
 Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
-Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix** , cliquez sur **files d’attente d’appels** , puis cliquez sur **Ajouter**.
+Pour configurer une file d’attente d’appels, dans le centre d’administration Teams, développez **voix**, cliquez sur **files d’attente d’appels**, puis cliquez sur **Ajouter**.
 
 ## <a name="resource-account-and-language"></a>Compte de ressources et langue
 
@@ -55,11 +55,11 @@ Pour configurer une file d’attente d’appels, dans le centre d’administrati
 
 1. Tapez un nom pour la file d’attente d’appels. Les agents verront ce nom lorsqu’ils recevront un appel entrant de la file d’attente.
 
-2. Cliquez sur **Ajouter** un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter** , puis sur **Ajouter**.
+2. Cliquez sur **Ajouter** un compte, recherchez le compte de ressource que vous voulez utiliser avec cette file d’attente d’appels, cliquez sur **Ajouter**, puis sur **Ajouter**.
 
 3. Choisissez une langue. Ce langage sera utilisé pour les invites vocales générées par le système et la transcription de la boîte vocale (si vous les activez).
 
-## <a name="greetings-and-hold-music"></a>Faire des vœux et garder de la musique
+## <a name="greetings-and-music-on-hold-in-queue"></a>Salutation et musique en attente dans la file d’attente
 
 Spécifiez si vous souhaitez lire un message d’accueil pour les appelants lorsqu’ils arrivent dans la file d’attente. Vous devez charger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous voulez lire.
 
@@ -71,20 +71,15 @@ Teams fournit une musique par défaut aux appelants alors qu’ils sont suspendu
 
 ## <a name="call-agents"></a>Agent d’appel
 
-Les agents d’appel sélectionnés doivent être l’un des éléments suivants : 
-
-- Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée
-- Utilisateurs en ligne avec un plan d’appels
-- Utilisateurs de Skype entreprise sur site
-- Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
+Pour pouvoir ajouter des agents à une file d’attente d’appels, reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) .
 
 ![Capture d’écran des paramètres des utilisateurs et des groupes pour les files d’attente d’appels](media/call-queue-users-groups.png)
 
 Vous pouvez ajouter jusqu’à 20 agents de manière individuelle et jusqu’à 200 agents via des groupes.
 
-Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs** , recherchez l’utilisateur, cliquez sur **Ajouter** , puis sur **Ajouter**.
+Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs**, recherchez l’utilisateur, cliquez sur **Ajouter**, puis sur **Ajouter**.
 
-Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes** , recherchez le groupe, cliquez sur **Ajouter** , puis cliquez sur **Ajouter**. Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
+Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes**, recherchez le groupe, cliquez sur **Ajouter**, puis cliquez sur **Ajouter**. Vous pouvez utiliser des listes de distribution, des groupes de sécurité et des groupes Microsoft 365 ou des équipes Microsoft Teams.
 
 > [!NOTE]
 > Les nouveaux utilisateurs ajoutés à un groupe peuvent parfois prendre jusqu’à huit heures de réception.
@@ -140,7 +135,7 @@ Pour les files d’attente de volume élevé, nous vous recommandons d’utilise
 
 Le nombre **maximal d’appels dans la file d’attente** spécifie le nombre maximal d’appels qui peuvent patienter dans la file d’attente à tout moment. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré conformément au paramètre **lorsque le nombre maximal d’appels est atteint** .
 
-Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des [destinations de routage des appels](create-a-phone-system-auto-attendant.md#call-routing-options) , à l’exception de l’opérateur. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente. (Notez [ces détails](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) si vous effectuez un virement vers un numéro externe.)
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers une destination de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux [numéros de téléphone externes-détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des nombres.
 
 > [!NOTE]
 > Si le nombre maximum d’appels est défini sur 0, le message d’accueil n’est pas lu.
@@ -149,9 +144,9 @@ Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une de
 
 ![Capture d’écran des paramètres de délai d’appel](media/call-queue-timeout-handling.png)
 
-**Délai d’appel : délai d’attente maximum** spécifie la durée maximale pendant laquelle un appel peut être mis en attente dans la file d’attente avant qu’elle ne soit redirigée ou déconnectée. Vous pouvez spécifier une valeur comprise entre 15 secondes et 45 minutes.
+**Délai d’appel : délai d’attente maximum** spécifie la durée maximale pendant laquelle un appel peut être mis en attente dans la file d’attente avant qu’elle ne soit redirigée ou déconnectée. Vous pouvez spécifier une valeur comprise entre 0 et 45 minutes.
 
-Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente.
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser une boîte vocale pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux [numéros de téléphone externes-détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des nombres.
 
 Lorsque vous avez sélectionné les options de temporisation de l’appel, cliquez sur **Enregistrer**.
 

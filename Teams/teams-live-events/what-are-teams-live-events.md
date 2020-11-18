@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031450"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085558"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Qu’est-ce que Microsoft teams Live Events
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Grâce aux événements en cours d’équipe, les utilisateurs de votre organisation peuvent diffuser du contenu vidéo et de réunion à des destinataires en ligne importants.
+Avec les événements en direct Teams, les utilisateurs de votre organisation peuvent diffuser du contenu vidéo et de réunion à des audiences en ligne de grande envergure.
 
 Le nouveau niveau de diffusion vidéo en continu de Microsoft 365 est actif. Les événements en direct encouragent la connexion tout au long du cycle de vie de l’engagement avec les participants avant, pendant et après les événements en direct. Vous pouvez créer un événement en temps réel à l’endroit où votre public, équipe ou communauté réside, à l’aide de Microsoft Stream, d’équipes ou de Yammer.  
 
@@ -48,7 +48,7 @@ Les événements en direct dans teams permettent à plusieurs rôles (organisate
 
 ## <a name="key-components"></a>Composants clés
 
-Vous pouvez voir dans l’image ci-dessus qu’il existe quatre principaux composants utilisés avec des événements en direct dans Teams.
+Vous pouvez voir dans l’image ci-dessus qu’il existe cinq composants clés utilisés avec des événements en direct dans Teams.
 
 > [!NOTE]
 > Pour obtenir une vue d’ensemble de la configuration des événements en direct et de l’utilisation des participants, regardez les courtes [vidéos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)suivantes.
@@ -63,11 +63,11 @@ Teams permet aux organisateurs de créer un événement avec les autorisations d
 
 L’entrée vidéo est le fondement de l’événement en direct et peut varier d’une webcam unique à une production vidéo professionnelle multicaméra. Les événements en direct dans Microsoft 365 prennent en charge un vaste éventail de scénarios de production ; incluez un événement produit dans teams à l’aide d’une webcam ou d’un événement généré dans une application ou un appareil externe. Vous pouvez sélectionner ces options en fonction de la configuration requise et du budget de votre projet. Il existe deux façons de produire des événements :
 
-- **Teams** : ce mode de production permet aux utilisateurs de produire leurs événements en direct dans teams à l’aide de leur webcam ou en utilisant une entrée A/V à partir de systèmes de salle Teams. Cette option est l’option la plus rapide et la plus rapide si vous souhaitez utiliser les périphériques audio et vidéo connectés au PC ou inviter des présentateurs distants à participer à l’événement. Cette option permet aux utilisateurs d’utiliser facilement leurs webcams et de partager leurs écrans en tant qu’entrées dans l’événement.
+- **Teams**: ce mode de production permet aux utilisateurs de produire leurs événements en direct dans teams à l’aide de leur webcam ou en utilisant une entrée A/V à partir de systèmes de salle Teams. Cette option est l’option la plus rapide et la plus rapide si vous souhaitez utiliser les périphériques audio et vidéo connectés au PC ou inviter des présentateurs distants à participer à l’événement. Cette option permet aux utilisateurs d’utiliser facilement leurs webcams et de partager leurs écrans en tant qu’entrées dans l’événement.
 
     ![événement actif généré à l’aide de la méthode de démarrage rapide](../media/teams-live-events-quick-start.png "Capture d’écran montrant un événement en direct qui est généré à l’aide du mode de production démarrage rapide")
 
-- **Application ou appareil externe** : les codeurs externes permettent aux utilisateurs de produire leurs événements en direct à partir d’un matériel externe ou d’un codeur logiciel avec [flux](https://stream.microsoft.com). Cette option est idéale si vous disposez déjà d’un équipement de qualité de Studio (par exemple, des mixeurs multimédias) qui prend en charge la diffusion en continu vers un service de protocole de messagerie en temps réel (RTMP). Ce type de production est généralement utilisé dans des événements à grande échelle comme le Directoire de la direction, dans lequel un flux unique d’un mélangeur de média est diffusé aux participants.
+- **Application ou appareil externe**: les codeurs externes permettent aux utilisateurs de produire leurs événements en direct à partir d’un matériel externe ou d’un codeur logiciel avec [flux](https://stream.microsoft.com). Cette option est idéale si vous disposez déjà d’un équipement de qualité de Studio (par exemple, des mixeurs multimédias) qui prend en charge la diffusion en continu vers un service de protocole de messagerie en temps réel (RTMP). Ce type de production est généralement utilisé dans des événements à grande échelle comme le Directoire de la direction, dans lequel un flux unique d’un mélangeur de média est diffusé aux participants.
 
     ![événement actif généré à l’aide d’une application ou d’un appareil externe](../media/teams-live-events-external-encoder.png "Capture d’écran montrant un événement en direct qui est réalisé à l’aide de la méthode de production d’une application ou d’un appareil externe")
 
@@ -78,8 +78,8 @@ L’entrée vidéo est le fondement de l’événement en direct et peut varier 
 
 La plateforme de flux d’événements en direct se compose des éléments suivants :
 
-- **Services Azure Media** :  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous permet d’accéder à des services de diffusion vidéo en continu pour atteindre des audiences plus importantes sur les appareils mobiles les plus populaires du jour. Media Services permet d’améliorer l’accessibilité, la distribution et l’évolutivité, et de faciliter et de rendre plus rentables le contenu de flux vers vos audiences locales ou internationales, tout en protégeant votre contenu.
-- **Réseau de distribution de contenu (CDN) Azure** : une fois que votre flux est actif, il est transmis via le [réseau de distribution de contenu (CDN) Azure](https://docs.microsoft.com/azure/cdn/). Azure Media Services fournit un CDN intégré pour les points de terminaison en flux continu. Cela permet d’afficher les flux partout dans le monde sans mise en mémoire tampon.
+- **Services Azure Media**:  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous permet d’accéder à des services de diffusion vidéo en continu pour atteindre des audiences plus importantes sur les appareils mobiles les plus populaires du jour. Media Services permet d’améliorer l’accessibilité, la distribution et l’évolutivité, et de faciliter et de rendre plus rentables le contenu de flux vers vos audiences locales ou internationales, tout en protégeant votre contenu.
+- **Réseau de distribution de contenu (CDN) Azure**: une fois que votre flux est actif, il est transmis via le [réseau de distribution de contenu (CDN) Azure](https://docs.microsoft.com/azure/cdn/). Azure Media Services fournit un CDN intégré pour les points de terminaison en flux continu. Cela permet d’afficher les flux partout dans le monde sans mise en mémoire tampon.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Réseau de distribution de contenu d’entreprise (eCDN)
 

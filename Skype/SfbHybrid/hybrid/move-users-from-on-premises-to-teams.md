@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et déplacer des utilisateurs vers Teams.'
-ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 49763d7674946eb179188554326863f4860252c3
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221374"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130645"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’environnement local vers Teams
 
@@ -35,7 +35,7 @@ Quand un utilisateur est déplacé de local vers teams uniquement, le domicile S
 - Les nouvelles réunions planifiées par cet utilisateur sont des réunions de teams.
 - L’utilisateur peut toujours participer à des réunions Skype entreprise.
 - Les réunions préexistantes de l’utilisateur planifiées pour le futur seront migrées de l’organisation locale à la version Teams.
-- Les contacts qui se trouvaient sur site sont disponibles dans teams peu de temps après que l’utilisateur se connecte pour la première fois.
+- Les contacts qui existaient sur site sont disponibles dans teams peu après la première ouverture de session de l’utilisateur.
 - Les utilisateurs ne peuvent pas initier des appels ou des conversations à partir de Skype entreprise, ni planifier de nouvelles réunions dans Skype entreprise. S’ils essaient d’ouvrir le client Skype entreprise, ils seront redirigés pour utiliser teams comme indiqué ci-dessous. Si le client teams n’est pas installé, il sera dirigé vers la version Web de teams à l’aide de son navigateur.<br><br>
     ![Message redirection d’un utilisateur vers teams](../media/go-to-teams-page.png)
 
@@ -50,12 +50,12 @@ Il existe deux méthodes pour déplacer un utilisateur de l’organisation local
 
 - Si vous utilisez une version antérieure à Skype entreprise Server 2015 CU8, le déplacement nécessite deux étapes (qui peuvent être regroupées en une seule étape, si vous le souhaitez) :
   - [Déplacez l’utilisateur de Skype entreprise Server (en local) vers Skype entreprise Online](move-users-from-on-premises-to-skype-for-business-online.md).
-  - Une fois que l’utilisateur est hébergé dans Skype entreprise Online, affectez à l’utilisateur TeamsUpgradePolicy le mode = TeamsOnly. Pour accorder le mode TeamsOnly, exécutez l’applet de commande suivante à partir d’une fenêtre PowerShell de Skype entreprise Online :`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+  - Une fois que l’utilisateur est hébergé dans Skype entreprise Online, affectez à l’utilisateur TeamsUpgradePolicy le mode = TeamsOnly. Pour accorder le mode TeamsOnly, exécutez l’applet de commande suivante à partir d’une fenêtre PowerShell de Skype entreprise Online : `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - Si vous avez des outils d’administration de Skype entreprise Server 2015 CU8 ou version ultérieure, vous pouvez utiliser la méthode ci-dessus ou effectuer ce déplacement en une seule étape, comme décrit ci-dessous. En outre, vous pouvez également fournir une notification au sein du client Skype entreprise avant de les transférer vers teams uniquement et, éventuellement, le client teams téléchargé en silence par le client Skype entreprise.
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Déplacer un utilisateur directement de Skype entreprise local vers teams uniquement
 
-Les outils d’administration sur site de Skype entreprise Server 2015 avec CU8, ainsi que dans Skype entreprise Server 2019, vous permettent de déplacer des utilisateurs de l’organisation locale vers le mode teams uniquement en une seule étape à l’aide de l’applet de commande Move-CsUser dans PowerShell ou du panneau de configuration de Skype entreprise Server, comme décrit ci-dessous.
+Les outils d’administration sur site de Skype entreprise Server 2015 avec CU8, ainsi que dans Skype entreprise Server 2019, vous permettent de déplacer les utilisateurs de l’organisation locale vers le mode teams uniquement en une seule étape à l’aide de l’applet de commande Move-CsUser dans PowerShell ou du panneau de configuration de Skype entreprise Server, comme décrit ci-dessous.
 
 ### <a name="move-to-teams-using-move-csuser"></a>Passer à teams à l’aide de Move-CsUser
 

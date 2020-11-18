@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f11a5e01105cde728c0efbda46a38c4643a332bf
-ms.sourcegitcommit: 803a7acf628819e4edd95bd7a67867bb9ebdd344
+ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073155"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085548"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -37,7 +37,7 @@ ms.locfileid: "49073155"
 |Déploiement à partir du 7 juillet 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clients éducation**<br>Aucun enregistrement de nouvelle réunion ne peut être enregistré dans Microsoft Stream (classique); tous les clients disposent automatiquement d’enregistrements de réunion enregistrés dans OneDrive entreprise et SharePoint, même s’ils ont changé leurs politiques de réunion en **flux**. Nous recommandons aux clients de dérouler cette fonction avant cette date pour pouvoir contrôler le minutage de la publication. Nous avons mis à jour ce planning pour permettre aux clients de l’éducation de compléter les semestres en cours. |
 
 > [!Note]
-> Nous recommandons aux clients entreprise et éducation de mieux contrôler le changement de votre organisation, si vous le souhaitez, si vous êtes à l’aise avec la modification au lieu d’attendre qu’elle ne se produise. 
+> Nous recommandons aux clients entreprise et éducation de mieux contrôler le changement de votre organisation, si vous le souhaitez, si vous êtes à l’aise avec la modification au lieu d’attendre qu’elle ne se produise.
 
 Microsoft teams dispose d’une nouvelle méthode pour l’enregistrement des enregistrements de réunion. Comme la première phase d’une transition à partir du flux Microsoft classique vers le [nouveau flux](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive entreprise et SharePoint dans Microsoft 365 et offre de nombreux avantages.
 
@@ -75,7 +75,7 @@ Regardez « enregistrement de la réunion » pour plus d’informations.
 > Les modifications de la stratégie de réunion teams prennent un certain temps. Consultez de nouveau après quelques heures de configuration et déconnectez-vous, puis reconnectez-vous.
 
 1. Installez PowerShell Skype entreprise online.
-**Remarque** : le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la dernière version publique de teams PowerShell, vous n’avez pas besoin d’installer le connecteur Skype entreprise online. Reportez-vous à la rubrique [gestion de Skype entreprise Online avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+**Remarque**: le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la dernière version publique de teams PowerShell, vous n’avez pas besoin d’installer le connecteur Skype entreprise online. Reportez-vous à la rubrique [gestion de Skype entreprise Online avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
     a. Téléchargez [Skype entreprise Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
@@ -101,7 +101,7 @@ Regardez « enregistrement de la réunion » pour plus d’informations.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Désactiver OneDrive entreprise et SharePoint pour continuer à utiliser le flux
 
-Même si une stratégie indique qu’il est défini sur **Stream** , il est possible qu’elle ne soit pas définie. En règle générale, si la stratégie n’est pas définie, le paramètre par défaut est **flux**. Toutefois, si vous souhaitez annuler votre utilisation de SharePoint ou OneDrive entreprise, vous devez réinitialiser la stratégie sur **flux** pour vous assurer qu’elle est la valeur par défaut.
+Même si une stratégie indique qu’il est défini sur **Stream**, il est possible qu’elle ne soit pas définie. En règle générale, si la stratégie n’est pas définie, le paramètre par défaut est **flux**. Toutefois, si vous souhaitez annuler votre utilisation de SharePoint ou OneDrive entreprise, vous devez réinitialiser la stratégie sur **flux** pour vous assurer qu’elle est la valeur par défaut.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -158,7 +158,9 @@ Les sous-titres ne sont pas entièrement pris en charge si l’enregistrement de
 
 **Comment le quota de stockage sera-t-il affecté ?**
 
-Les fichiers d’enregistrements de réunion teams résident dans OneDrive entreprise et SharePoint inclus dans votre quota de ces services. Voir [quota SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) et [quota OneDrive entreprise] ( https://docs.microsoft.com/onedrive/set-default-storage-space) .
+Les fichiers d’enregistrements de réunion teams résident dans OneDrive entreprise et SharePoint inclus dans votre quota de ces services. Voir [quotas SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) et [quota OneDrive entreprise](https://docs.microsoft.com/onedrive/set-default-storage-space).
+
+Vous bénéficiez d’un espace de stockage supplémentaire avec [OneDrive entreprise](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) par rapport au flux et au stockage fungible avec SharePoint.
 
 **Comment lire l’enregistrement d’une réunion teams ?**
 
