@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Apprenez à configurer votre système téléphonique pour les files d’attente d’appels à l’aide de Microsoft Teams, qui fournit un message de bienvenue, de la musique, des appels et d’autres fonctionnalités.
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089323"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135944"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -156,7 +156,7 @@ Dans la mesure où les agents d’une file d’attente d’appels risquent de co
 
 ## <a name="supported-clients"></a>Clients pris en charge
 
-- Les clients suivants sont pris en charge pour les téléopérateurs dans une file d’attente des appels :
+Les clients suivants sont pris en charge pour les téléopérateurs dans une file d’attente des appels :
 
   - Client de bureau Skype entreprise 2016 (versions 32 bits et 64 bits)
   - Client de bureau Lync 2013 (versions 32 bits et 64 bits)

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030700"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130635"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -235,6 +235,8 @@ Les noms de domaine complets – sip.pstnhub.microsoft.com, sip2.pstnhub.microso
 
 Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet **SIP-All.pstnhub.Microsoft.com** est résolu sur toutes les adresses IP suivantes. 
 
+> [!IMPORTANT]
+>  Dans le cadre de l’amélioration de l’extension du routage direct de teams, nous avons déployé de nouvelles instances d’infrastructure de routage directe en Australie. Ce problème se répercute sur deux adresses IP supplémentaires (52.114.16.74 et 52.114.20.29) auxquelles les noms de domaine complets suivants seront résolus pour les clients australiennes (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com et sip3.pstnhub.microsoft.com. Vous devez ajouter ces deux adresses IP (52.114.16.74 et 52.114.20.29) aux listes de contrôle d’accès (ACL) et aux ports ouverts pour toutes ces adresses IP dans votre pare-feu pour autoriser le trafic entrant et sortant vers et à partir des adresses de signalisation.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH et l’environnement DoD
 

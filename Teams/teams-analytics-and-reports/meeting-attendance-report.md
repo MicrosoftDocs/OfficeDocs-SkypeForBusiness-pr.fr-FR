@@ -17,12 +17,12 @@ description: Obtenez un rapport de participation à une réunion à partir d’�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 7a048b3a334f9a70273c7a1b39f888247dbb9596
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583783"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130435"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Rapport de présence de la réunion Microsoft teams
 
@@ -33,8 +33,6 @@ Les organisateurs de la réunion peuvent afficher et télécharger un rapport pr
 Pour les clients éducatifs, ce rapport est utile pour suivre la présence des étudiants dans les cours en ligne. Par exemple, l’enseignant peut télécharger le rapport de présence au début de la classe comme un moyen simple de passer un appel de « Roll ». Pour en savoir plus, consultez [l’État télécharger les rapports de présence dans teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 En tant qu’administrateur, vous pouvez contrôler si les organisateurs de la réunion peuvent télécharger les rapports d’assiduité de la réunion en définissant une stratégie de réunion Teams. Par défaut, la possibilité de télécharger le rapport est désactivée. Pour connaître la procédure à suivre pour activer cette fonctionnalité, voir paramètres de la [stratégie de réunion-rapport sur la présence de la réunion](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
-
-Les administrateurs teams peuvent afficher des données d’assiduité supplémentaires dans le centre d’administration Teams, sous **analyse &** rapports d'  >  **utilisation**des rapports. Pour en savoir plus, voir [Rubriques connexes](#related-topics) .
 
 Si les organisateurs de la réunion ont besoin d’accéder à des données d’assiduité supplémentaires en plus de celles qu’ils obtiennent du rapport disponible au sein de la réunion, vous pouvez attribuer le rôle de *lecteur de rapport* pour leur permettre d’accéder aux rapports d’administration des équipes. Pour en savoir plus, consultez [qui peut accéder aux rapports d’activité sur Microsoft teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 

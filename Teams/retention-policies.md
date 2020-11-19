@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b5ebfc4c626cac14439ef98420e219dd0d93df8
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: 3b7854af353b9619a1e668006c4e143ac8d37e77
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999258"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130655"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -43,8 +43,8 @@ Pour en savoir plus sur les stratégies de rétention pour Microsoft 365 ou Offi
 
 Vous pouvez configurer une stratégie de conservation pour Teams ou pour toute autre charge de travail comme suit :
 
-- **Conserver les données**  : utilisez une stratégie de conservation pour garantir la conservation de vos données pour une période donnée, indépendamment de ce qui se passe dans l'application utilisateur. Les données sont conservées pour des raisons de conformité et sont disponibles pour eDiscovery jusqu’à l’expiration de la période de conservation, au terme de laquelle votre stratégie indique s’il convient de ne rien faire ou de supprimer les données. Par exemple, si vous créez une stratégie de conservation Teams pour conserver les messages de canal pendant 7 ans, les messages sont conservés pour eDiscovery pendant 7 ans, même si les utilisateurs suppriment leurs messages dans Teams.
-- **Supprimer les données**  : utilisez une stratégie de conservation pour supprimer des données afin de vous assurer qu’elles ne constituent pas une responsabilité pour votre organisation. Lorsque vous supprimez des données avec une stratégie de conservation Teams, celles-ci sont supprimées définitivement de tous les emplacements de stockage du service Teams.
+- **Conserver les données** : utilisez une stratégie de conservation pour garantir la conservation de vos données pour une période donnée, indépendamment de ce qui se passe dans l'application utilisateur. Les données sont conservées pour des raisons de conformité et sont disponibles pour eDiscovery jusqu’à l’expiration de la période de conservation, au terme de laquelle votre stratégie indique s’il convient de ne rien faire ou de supprimer les données. Par exemple, si vous créez une stratégie de conservation Teams pour conserver les messages de canal pendant 7 ans, les messages sont conservés pour eDiscovery pendant 7 ans, même si les utilisateurs suppriment leurs messages dans Teams.
+- **Supprimer les données** : utilisez une stratégie de conservation pour supprimer des données afin de vous assurer qu’elles ne constituent pas une responsabilité pour votre organisation. Lorsque vous supprimez des données avec une stratégie de conservation Teams, celles-ci sont supprimées définitivement de tous les emplacements de stockage du service Teams.
 
 Avec les stratégies de conservation pour Teams, vous pouvez :
 
@@ -123,14 +123,14 @@ Pour créer une stratégie de conservation pour les conversations et les message
 
 1. Dans le volet gauche du Centre de sécurité et conformité, cliquez sur **Gouvernance des données**  >  **Conservation**.
 2. Sélectionnez **Créer**.
-3. Sur la page **Nommez votre stratégie** , entrez un nom et une description pour votre stratégie, puis cliquez sur **Suivant**.
-4. Dans la page **Paramètres** , indiquez si vous souhaitez conserver les données, les supprimer, ou les deux, la période de conservation, puis cliquez sur **suivant**.
-5. Dans la page **Choisir les emplacements** , procédez comme suit, puis cliquez sur **Suivant**  :
+3. Sur la page **Nommez votre stratégie**, entrez un nom et une description pour votre stratégie, puis cliquez sur **Suivant**.
+4. Dans la page **Paramètres**, indiquez si vous souhaitez conserver les données, les supprimer, ou les deux, la période de conservation, puis cliquez sur **suivant**.
+5. Dans la page **Choisir les emplacements**, procédez comme suit, puis cliquez sur **Suivant** :
 
-    - Pour appliquer la stratégie à des messages de canal, activez **Messages de canal Teams**.  Si vous souhaitez appliquer la stratégie à des équipes spécifiques au sein de votre organisation, sélectionnez **Choisir les équipes** , puis sélectionnez les équipes de votre choix.
-    - Pour appliquer la stratégie aux conversations, activez **Conversations Teams**. Si vous souhaitez appliquer la stratégie à des utilisateurs spécifiques au sein de votre organisation, sélectionnez **Choisir les utilisateurs** , puis sélectionnez les utilisateurs de votre choix.
+    - Pour appliquer la stratégie à des messages de canal, activez **Messages de canal Teams**.  Si vous souhaitez appliquer la stratégie à des équipes spécifiques au sein de votre organisation, sélectionnez **Choisir les équipes**, puis sélectionnez les équipes de votre choix.
+    - Pour appliquer la stratégie aux conversations, activez **Conversations Teams**. Si vous souhaitez appliquer la stratégie à des utilisateurs spécifiques au sein de votre organisation, sélectionnez **Choisir les utilisateurs**, puis sélectionnez les utilisateurs de votre choix.
       > [!NOTE]
-      > Lorsque vous activez **les messages de canal Teams** et/ou **les conversations Teams** , tous les autres emplacements sont automatiquement désactivés. Une stratégie de conservation Teams peut inclure uniquement les emplacements Teams.
+      > Lorsque vous activez **les messages de canal Teams** et/ou **les conversations Teams**, tous les autres emplacements sont automatiquement désactivés. Une stratégie de conservation Teams peut inclure uniquement les emplacements Teams.
 
         ![Capture d'écran des messages de canal Teams et des options de conversations Teams sur la page Choisir des emplacements](media/retention-policies-create.png)
 
@@ -145,7 +145,7 @@ Pour modifier une stratégie de conservation Teams, procédez comme suit :
 
 1. Dans le volet gauche du Centre de sécurité et conformité, cliquez sur **Gouvernance des données**  >  **Conservation**.
 2. Dans la liste des stratégies de conservation, cochez la case en regard de la stratégie de conservation que vous souhaitez modifier.
-3. Sélectionnez **modifier** en regard de ce que vous voulez modifier, apportez vos modifications, cliquez sur **enregistrer** , puis cliquez sur **Fermer**.
+3. Sélectionnez **modifier** en regard de ce que vous voulez modifier, apportez vos modifications, cliquez sur **enregistrer**, puis cliquez sur **Fermer**.
 
     ![Capture d'écran des messages de canal Teams et des options de conversations Teams sur la page Choisir des emplacements](media/retention-policies-edit.png)
 
@@ -167,7 +167,7 @@ Pour supprimer une stratégie de conservation Teams, procédez comme suit :
 
 ### <a name="end-user-experience"></a>Utilisation de l’utilisateur final
 
-Pour les discussions privées (discussions 1:1) ou les discussions de groupe, les utilisateurs finaux verront que les discussions antérieures à la configuration de la stratégie de rétention sont supprimées et qu’un message de contrôle indiquant « nous avons supprimé plus ancien message en raison de la stratégie de rétention de votre organisation » s’affiche dans la partie supérieure de messages encore non supprimés.
+Pour les discussions privées (discussions 1:1) ou les discussions de groupe, les utilisateurs finaux verront que les discussions antérieures à la configuration de la stratégie de rétention sont supprimées et qu’un message de contrôle indiquant « nous avons supprimé des messages anciens en raison de la stratégie de rétention de votre organisation » s’affiche dans la partie supérieure de messages encore non supprimés.
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Capture d’écran de la rétention des conversations":::
 
 
@@ -200,7 +200,7 @@ Les problèmes suivants sont rencontrés pour les stratégies de conservation da
 
 - Sous **choisir des équipes** dans la ligne d’emplacement des **messages de canal teams** , vous pouvez voir les groupes Microsoft 365 qui ne sont pas également équipes. Ce problème sera corrigé à l'avenir.
 
-- Sous **Sélectionnez les utilisateurs** dans la ligne d’emplacement **Conversations Teams** , vous pouvez voir les invités et les utilisateurs qui n’utilisent pas la boîte aux lettres. Les stratégies de conservation ne sont pas censées être définies pour les invités et nous travaillons afin de les supprimer de la liste.
+- Sous **Sélectionnez les utilisateurs** dans la ligne d’emplacement **Conversations Teams**, vous pouvez voir les invités et les utilisateurs qui n’utilisent pas la boîte aux lettres. Les stratégies de conservation ne sont pas censées être définies pour les invités et nous travaillons afin de les supprimer de la liste.
 
 - Les tâches de traitement de rétention sont exécutées quotidiennement, mais la latence est connue pour s’exécuter jusqu’à 7 jours, dans certains cas. Par conséquent, si vous avez une stratégie de conservation Teams pour supprimer des éléments datant de plus de 60 jours, il est possible que ces éléments soient conservés pendant 67 jours. Il ne s’agit pas d’une situation nouvelle : elle suit le modèle Exchange. Bien sûr, dans la plupart des cas, il n’y a aucun décalage.
 

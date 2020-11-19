@@ -14,16 +14,17 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b793eb5124a9105a718accc5767493aa9c35fbc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 22626e14a9c6c6187949e5e770b2cdd22c20027b
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031630"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130625"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et évènements en direct dans Microsoft Teams
 
@@ -52,7 +53,7 @@ Pour en savoir plus sur les licences, lisez [Description du service Microsoft Te
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 
-Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365 ou Office 365, vous êtes probablement prêt. Dans tous les cas, et en particulier si vous déployez rapidement Teams en tant que première charge de travail Office 365 pour prendre en charge des **travailleurs à distance** , veuillez lire [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md) pour vous assurer d’être prêt.
+Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365 ou Office 365, vous êtes probablement prêt. Dans tous les cas, et en particulier si vous déployez rapidement Teams en tant que première charge de travail Office 365 pour prendre en charge des **travailleurs à distance**, veuillez lire [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md) pour vous assurer d’être prêt.
 
 ## <a name="meetings-and-conferencing"></a>Réunions et conférences
 

@@ -1,31 +1,16 @@
 ---
-title: Que sont les événements en direct Microsoft Teams ?
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: Découvrez comment les événements dynamiques permettent aux utilisateurs de diffuser de la vidéo et du contenu sur des audiences en ligne de grande taille dans Teams, Yammer et en flux.
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085558"
+titre : qu’est-ce que Microsoft teams Live Events ? Auteur : lanachin ms. Author : v-lanac Manager : serdars ms. sujet : conceptuelle ms. service : msteams ms. collection : 
+  - M365-collaboration
+  - m365initiative-réunions
+  - m365solution-les communications
+- m365solution-Scenario ms. Reviewer : public sonua : recherche d’administrateur. appverid : MET150 Description : Découvrez comment les événements dynamiques permettent aux utilisateurs de diffuser de la vidéo et du contenu sur des audiences en ligne volumineuses dans Teams, Yammer et Stream.
+F1. Mots clés : 
+- CSH ms. personnalisé :
+  - ms. teamsadmincenter. dashboard. helparticle. liveevents
+  - ms. teamsadmincenter. liveevents. Policies appliesTo : 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Qu’est-ce que Microsoft teams Live Events
 
 ## <a name="overview"></a>Vue d’ensemble
@@ -72,7 +57,7 @@ L’entrée vidéo est le fondement de l’événement en direct et peut varier 
     ![événement actif généré à l’aide d’une application ou d’un appareil externe](../media/teams-live-events-external-encoder.png "Capture d’écran montrant un événement en direct qui est réalisé à l’aide de la méthode de production d’une application ou d’un appareil externe")
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+> Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 ### <a name="streaming-platform"></a>Plateforme en flux continu
 

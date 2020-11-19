@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Apprenez-en davantage sur l’utilisation du tableau de bord de qualité des appels dans le rapport Power BI pour afficher les données de l’historique des files d’attente et des appels.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085578"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130425"
 ---
 # <a name="what-are-the-requirements"></a>Quelle est la configuration requise ? 
 Vous devez disposer de Power BI Desktop. Vous pouvez l’installer à partir de [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
@@ -43,21 +43,27 @@ Les étapes suivantes partent du principe que vous avez déjà installé Power B
 
 Suivez la procédure ci-dessous :
 - Téléchargez le [standard automatique d’équipes de bord & le modèle de rapport historique de la file d’attente d’appels](https://aka.ms/TAPAACQAnalytics) , puis enregistrez-le dans un répertoire sur votre ordinateur.
+
 - Double-cliquez sur le modèle et Power BI Desktop doit être lancé.
+
 - Vous serez invité à sélectionner la région de pipeline de données bord. Sélectionnez la région où se trouve votre locataire.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
 
  - Vous pouvez voir la région à l’aide de l’applet de requête PS de Skype entreprise Online (Get-CsTenant). Sortie ServiceInstance. 
- La région s’affichera après la mention/like dans cet exemple : microsoftcommunicationsonline/Noam-4a-S7 où la région est Noam.
+ La région s’affichera après la mention/like dans cet exemple : 
+ 
+   microsoftcommunicationsonline/Noam-4a-S7 où la région est Noam.
+   
  - Le rapport s’ouvre avec des exemples de données.
+ 
  - Pour afficher vos données, cliquez sur **Actualiser** dans l’onglet Accueil, sous requêtes dans Power bi Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
 
 - Vous serez alors invité à vous connecter. Sélectionnez **compte d’organisation** , puis sélectionnez **se connecter**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
 
 - Sélectionnez **connexion** et observez l’actualisation des données.
 
@@ -77,11 +83,11 @@ Les étapes suivantes partent du principe que vous avez déjà effectué les ét
 Suivez la procédure ci-dessous :
 - Dans le ruban, sélectionnez l' **onglet Affichage** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
 
 - Sélectionnez le modèle de couleurs dans la liste déroulante.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran du bouton tableau de bord de qualité des appels dans le centre d’administration teams":::
 
 
 ## <a name="cqd-fields-description"></a>Description des champs de bord
@@ -176,4 +182,5 @@ Suivez la procédure ci-dessous :
 
 ## <a name="known-issues"></a>Problèmes connus
 - Pour l’instant, les appels d’attente et de standard automatique affichent l’ID de comptes de ressources à la place des noms de file d’attente/standard automatique.  Pour afficher tout le trafic d’un standard automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources affectés au standard automatique ou à la file d’attente d’appels.
+
 - Pour l’instant, un seul 28 jours d’historique est disponible dans le tableau de bord en tant que données d’identification de l’utilisateur final et sont soumises aux politiques de rétention de confidentialité des données.

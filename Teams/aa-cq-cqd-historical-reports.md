@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Apprenez-en davantage sur l’utilisation du tableau de bord de qualité des appels dans le rapport Power BI pour afficher les données de l’historique des files d’attente et des appels.
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085711"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130405"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Le standard automatique & rapport historique de la file d’attente des appels
 
@@ -54,23 +54,31 @@ Le compte que vous utilisez pour afficher le rapport historique de l’analyse d
 Les étapes suivantes partent du principe que vous avez déjà installé Power BI Desktop sur l’ordinateur et que votre compte dispose des autorisations nécessaires pour accéder au pipeline de données bord.
 
 Suivez la procédure ci-dessous :
+
 - Téléchargez les [modèles de requête Power bi bord](https://www.microsoft.com/download/details.aspx?id=102291) et enregistrez le fichier zip dans un répertoire de votre ordinateur.
+
 - Double-cliquez sur le fichier zip pour l’ouvrir.
+
 - Double-cliquez sur le fichier de modèle "CQ et AA Combined Analytics 20201105. PBiT" et Power BI Desktop doit lancer.
+
 - Vous serez invité à sélectionner la région de pipeline de données bord. Sélectionnez la région où se trouve votre locataire.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région de pipeline de données bord":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région de pipeline de données bord":::
 
- - Vous pouvez voir la région à l’aide de l’applet de requête PS de Skype entreprise Online (Get-CsTenant). Sortie ServiceInstance. 
- La région s’affichera après la mention/like dans cet exemple : microsoftcommunicationsonline/Noam-4a-S7 où la région est Noam.
+ - Vous pouvez voir la région à l’aide de l’applet de requête PowerShell Skype entreprise Online (Get-CsTenant). Sortie ServiceInstance. 
+ La région s’affichera après la mention/like dans cet exemple :
+
+   microsoftcommunicationsonline/Noam-4a-S7 où la région est Noam.
+ 
  - Le rapport s’ouvre avec des exemples de données.
+ 
  - Pour afficher vos données, cliquez sur **Actualiser** dans l’onglet Accueil, sous requêtes dans Power bi Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation":::
 
 - Vous serez alors invité à vous connecter. Sélectionnez **compte d’organisation** , puis sélectionnez **se connecter**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion":::
 
 - Sélectionnez **connexion** et observez l’actualisation des données.
 
@@ -93,9 +101,11 @@ Les étapes suivantes partent du principe que vous avez déjà effectué les ét
 Suivez la procédure ci-dessous :
 - Dans le ruban, sélectionnez l' **onglet Affichage** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet Affichage pour modifier le modèle de couleurs":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet Affichage pour modifier le modèle de couleurs":::
 
 - Sélectionnez le modèle de couleurs dans la liste déroulante.
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran montrant différents modèles de couleurs":::
 
 ## <a name="cqd-fields-description"></a>Description des champs de bord
 
@@ -121,7 +131,7 @@ Suivez la procédure ci-dessous :
 |La file d’attente d’appels est-elle impliquée                  |Boolean                  |Si la file d’attente d’appels est liée à cet appel, il est égal à 1 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>Dimensions du modèle de données PowerBI
+### <a name="power-bi-data-model-dimensions"></a>Dimensions du modèle de données Power BI
 
 |Nom                                    |Type de données                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
@@ -189,5 +199,6 @@ Suivez la procédure ci-dessous :
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- Pour l’instant, les appels d’attente et de standard automatique affichent l’ID de comptes de ressources à la place des noms de file d’attente/standard automatique.  Pour afficher tout le trafic d’un standard automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources affectés au standard automatique ou à la file d’attente d’appels.
+- Pour l’instant, les appels d’attente et de standard automatique affichent l’ID du compte de ressource au lieu des noms des files d’attente/standard automatique.  Pour afficher tout le trafic d’un standard automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources affectés au standard automatique ou à la file d’attente d’appels.
+
 - Pour l’instant, un seul 28 jours d’historique est disponible dans le tableau de bord en tant que données d’identification de l’utilisateur final et sont soumises aux politiques de rétention de confidentialité des données.
