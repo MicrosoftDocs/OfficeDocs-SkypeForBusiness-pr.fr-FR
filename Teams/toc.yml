@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: Configuration de la file d’attente des appels
               href: create-a-phone-system-call-queue.md
-            - name: "Exemple de petite entreprise\_: configurer un standard automatique"
-              href: tutorial-org-aa.yml
-            - name: "Exemple de petite entreprise\_: configurer une file d’attente des appels"
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Gérer les comptes de ressources Teams
               href: manage-resource-accounts.md
             - name: Configurer les jours fériés
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: Transférer vos numéros de téléphone
           href: business-voice/port-phone-numbers.md
-        - name: Configurer vos standards automatiques
-          href: business-voice/set-up-auto-attendants.md
         - name: Configurer vos stratégies d’appel
           href: business-voice/set-up-policies.md
         - name: Gérer vos packages de stratégie
           href: business-voice/policy-packages.md
         - name: Créer des utilisateurs supplémentaires
           href: business-voice/create-users.md
+        - name: Exemple-configurer une file d’attente d’appels
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Configuration de files d’attente d’appels
           href: business-voice/set-up-call-queues.md
+        - name: Exemple-configurer un standard automatique
+          href: tutorial-org-aa.yml
+        - name: Configurer vos standards automatiques
+          href: business-voice/set-up-auto-attendants.md
     - name: Gérer votre configuration
       items:
         - name: Créer un ou plusieurs utilisateurs
