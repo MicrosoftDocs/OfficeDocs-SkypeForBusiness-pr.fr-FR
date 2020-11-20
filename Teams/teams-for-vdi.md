@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 53a4fca44e63f76875205726b4d145b815b9ee9c
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031260"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350636"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -40,17 +40,17 @@ L’utilisation des équipes dans un environnement virtualisé peut être légè
 
 Pour garantir une utilisation optimale des utilisateurs, suivez les recommandations de cet article.
 
- > [!Note]
+> [!Note]
 > Pour plus d’informations sur les équipes VDI sur différentes plateformes, voir [fonctionnalités d’équipe par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="teams-on-vdi-components"></a>Équipes sur les composants VDI
 
 L’utilisation des équipes dans un environnement virtualisé nécessite les composants suivants.
 
-- **Broker de virtualisation** : le gestionnaire de ressources et de connexions au fournisseur de virtualisation, tel qu’Azure
-- **Bureau virtuel** : pile d’ordinateurs virtuels qui exécute Microsoft teams
-- **Client léger** : point de terminaison avec lequel l’utilisateur s’est connecté physiquement
-- **Application de bureau teams** : application de bureau teams
+- **Broker de virtualisation**: le gestionnaire de ressources et de connexions au fournisseur de virtualisation, tel qu’Azure
+- **Bureau virtuel**: pile d’ordinateurs virtuels qui exécute Microsoft teams
+- **Client léger**: point de terminaison avec lequel l’utilisateur s’est connecté physiquement
+- **Application de bureau teams**: application de bureau teams
 
 ## <a name="teams-on-vdi-requirements"></a>Exigences des équipes sur VDI
 
@@ -161,8 +161,11 @@ Pour en savoir plus sur les équipes et les applications 365 Microsoft pour les 
 
 1. Téléchargez le package MSI teams qui correspond à votre système d’exploitation VM VDI en utilisant l’un des liens suivants :
 
-    - [version 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
-    - [version 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
+    - [version 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [version 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > Pour les clouds gouvernementaux, voir [installer Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager](msi-deployment.md) pour les liens de téléchargement des fichiers msi.
 
     La version minimum de l’application de bureau teams requise est la version 1.3.00.4461. (La conservation RTC n’est pas prise en charge dans les versions antérieures.)
 
@@ -263,23 +266,23 @@ Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réuni
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
 3. Procédez comme suit :
-    1.  Sous **stratégie d’appel** , cliquez sur **DisallowCalling**.
-    2.  Sous **stratégie de réunion** , cliquez sur **AllOff**.
+    1.  Sous **stratégie d’appel**, cliquez sur **DisallowCalling**.
+    2.  Sous **stratégie de réunion**, cliquez sur **AllOff**.
 4. Cliquez sur **Appliquer**.
 
 Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs** , puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
 2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres** , apportez les modifications souhaitées, puis cliquez sur **Appliquer**.
+3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.
 
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à la stratégie que vous voulez attribuer. Par exemple :
     - Accédez à **Voice**  >  **stratégies d’appel** vocal, puis cliquez sur **DisallowCalling**.
-    - Accédez à **Meetings**  >  **stratégies de réunion** , puis cliquez sur **AllOff**.
+    - Accédez à **Meetings**  >  **stratégies de réunion**, puis cliquez sur **AllOff**.
 2. Sélectionnez **Gérer les utilisateurs**.
-3. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
@@ -319,15 +322,15 @@ Pour affecter la stratégie d’appel AllowCalling et la stratégie de réunion 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom de celui-ci, puis cliquez sur **Modifier les paramètres**.
 3. Procédez comme suit :
-    1.  Sous **stratégie d’appel** , cliquez sur **AllowCalling**.
-    2.  Sous **stratégie de réunion** , **cliquez sur** inverser.
+    1.  Sous **stratégie d’appel**, cliquez sur **AllowCalling**.
+    2.  Sous **stratégie de réunion**, **cliquez sur** inverser.
 4. Cliquez sur **Appliquer**.
 
 Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs** , puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**, puis recherchez les utilisateurs ou filtrez l’affichage pour afficher les utilisateurs souhaités.
 2. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur l' **&#x2713;** (coche) en haut du tableau.
-3. Cliquez sur **Modifier les paramètres** , apportez les modifications souhaitées, puis cliquez sur **Appliquer**.
+3. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Appliquer**.
 
 Vous pouvez également effectuer les opérations suivantes :
 
@@ -335,7 +338,7 @@ Vous pouvez également effectuer les opérations suivantes :
     - Accédez à **Voice**  >  **stratégies d’appel** vocal, puis cliquez sur **AllowCalling**.
     - Accédez à **Meetings**  >  stratégies de réunion, puis cliquez sur **AllOn****intentn**.
 2. Sélectionnez **Gérer les utilisateurs**.
-3. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
@@ -400,6 +403,7 @@ Vous trouverez ci-après des problèmes connus et des limitations relatives aux 
 - Un seul flux vidéo entrant est pris en charge dans les réunions ou les appels de groupe. Lorsque plusieurs personnes envoient de la vidéo, seule la vidéo dominante de haut-parleur est affichée à tout moment.
 - La résolution du flux vidéo entrant et sortant est limitée à la résolution 720p. Il s’agit d’une limitation WebRTC.
 - Un seul flux vidéo à partir d’un appareil photo ou d’un flux de partage d’écran entrant est pris en charge. Lorsque le partage d’écran est reçu, ce partage d’écran est affiché, au lieu de la vidéo de l’intervenant dominant.
+- Teams ne bascule pas pour utiliser le dernier périphérique audio sélectionné par l’utilisateur, si l’appareil est déconnecté, puis reconnecté.
 - Partage d’écran sortant :
     - Le partage d’applications n’est pas pris en charge.
 - Donnez le contrôle et prenez le contrôle :
@@ -423,7 +427,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Ensuite, redémarrez VDA. Pour plus d’informations, reportez-vous à cet article du support Citrix intitulé [résolution des problèmes d’optimisation HDX pour teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

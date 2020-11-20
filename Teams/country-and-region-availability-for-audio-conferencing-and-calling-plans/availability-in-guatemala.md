@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Guatemala.
-ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 1963d5e2df5f9e75dc1ba520293e6965f6ee5197
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877992"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349140"
 ---
 # <a name="availability-in-guatemala"></a>Disponibilité au Guatemala
 
@@ -44,7 +44,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui. Payez à la minute uniquement.  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Non |
 |Possibilité d'appel sortant à l'aide de la fonctionnalité Appelez-moi  <br/> | Nécessite des crédits de communication <br/> |
-   
+
 ## <a name="phone-system"></a>Système téléphonique
 
 |**Fonctionnalité**|**Details**|
@@ -53,7 +53,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |Les standards automatiques <br/> |Disponible  <br/> |
 |Files d'attente des appels  <br/> |Disponible  <br/> |
 |Messagerie vocale  <br/> |Disponible  <br/> |
-   
+
 ## <a name="calling-plans"></a>Forfaits d’appel
 
 |**Fonctionnalité**|**Details**|
@@ -63,15 +63,15 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
 Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Cuidad de Guatemala<br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Les numéros payants sont accessibles uniquement dans le pays.|
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
-   
+
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Crédits de communication
@@ -79,7 +79,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
-   
+
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Sujets associés
@@ -87,4 +87,3 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

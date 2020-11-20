@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
+ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085548"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49366913"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -70,8 +70,9 @@ Regardez « enregistrement de la réunion » pour plus d’informations.
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurer l’option d’enregistrement de la réunion pour OneDrive entreprise et SharePoint
 
+L’option d’enregistrement de la réunion est un paramètre au niveau de la stratégie d’équipe. L’exemple suivant montre comment définir la stratégie globale. Assurez-vous de définir l’option d’enregistrement de la réunion pour la ou les stratégies que vous avez affectées à vos utilisateurs.
+
 > [!Note]
-> L’option d’enregistrement de la réunion est un paramètre au niveau de la stratégie d’équipe. L’exemple suivant montre comment définir la stratégie globale. Assurez-vous de définir l’option d’enregistrement de la réunion pour la ou les stratégies que vous avez affectées à vos utilisateurs.
 > Les modifications de la stratégie de réunion teams prennent un certain temps. Consultez de nouveau après quelques heures de configuration et déconnectez-vous, puis reconnectez-vous.
 
 1. Installez PowerShell Skype entreprise online.
@@ -108,6 +109,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>Autorisations ou accès en fonction du rôle
+
+> [!Note]
+> Nous vous recommandons d’avoir besoin d’être connecté à un utilisateur connecté lors du partage d’équipes. Pour cela, il suffit de sélectionner l’option **personnes dans (votre organisation)** lors du partage du fichier, comme indiqué dans [partager des fichiers ou des dossiers SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). Le partage externe n’est pas conçu pour la distribution de fichiers volumineux ou d’un grand nombre de fichiers. Afin d’éviter les situations de fraude et d’abus, il est possible que vous rencontriez des problèmes lors du partage d’un grand volume de données à des utilisateurs externes.
 
 |Type de réunion                               | Qui a cliqué sur l’enregistrement ?| Où l’enregistrement s’affiche-t-il ?                               |Qui a accès ? R/W, R ou partage                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
