@@ -1,16 +1,33 @@
 ---
-titre : qu’est-ce que Microsoft teams Live Events ? Auteur : lanachin ms. Author : v-lanac Manager : serdars ms. sujet : conceptuelle ms. service : msteams ms. collection : 
-  - M365-collaboration
-  - m365initiative-réunions
-  - m365solution-les communications
-- m365solution-Scenario ms. Reviewer : public sonua : recherche d’administrateur. appverid : MET150 Description : Découvrez comment les événements dynamiques permettent aux utilisateurs de diffuser de la vidéo et du contenu sur des audiences en ligne volumineuses dans Teams, Yammer et Stream.
-F1. Mots clés : 
-- CSH ms. personnalisé :
-  - ms. teamsadmincenter. dashboard. helparticle. liveevents
-  - ms. teamsadmincenter. liveevents. Policies appliesTo : 
-  - Microsoft Teams
+title: Que sont les événements en direct Microsoft Teams ?
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: Découvrez comment les événements dynamiques permettent aux utilisateurs de diffuser de la vidéo et du contenu sur des audiences en ligne de grande taille dans Teams, Yammer et en flux.
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373470"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Qu’est-ce que Microsoft teams Live Events
 
 ## <a name="overview"></a>Vue d’ensemble
@@ -50,8 +67,6 @@ L’entrée vidéo est le fondement de l’événement en direct et peut varier 
 
 - **Teams**: ce mode de production permet aux utilisateurs de produire leurs événements en direct dans teams à l’aide de leur webcam ou en utilisant une entrée A/V à partir de systèmes de salle Teams. Cette option est l’option la plus rapide et la plus rapide si vous souhaitez utiliser les périphériques audio et vidéo connectés au PC ou inviter des présentateurs distants à participer à l’événement. Cette option permet aux utilisateurs d’utiliser facilement leurs webcams et de partager leurs écrans en tant qu’entrées dans l’événement.
 
-    ![événement actif généré à l’aide de la méthode de démarrage rapide](../media/teams-live-events-quick-start.png "Capture d’écran montrant un événement en direct qui est généré à l’aide du mode de production démarrage rapide")
-
 - **Application ou appareil externe**: les codeurs externes permettent aux utilisateurs de produire leurs événements en direct à partir d’un matériel externe ou d’un codeur logiciel avec [flux](https://stream.microsoft.com). Cette option est idéale si vous disposez déjà d’un équipement de qualité de Studio (par exemple, des mixeurs multimédias) qui prend en charge la diffusion en continu vers un service de protocole de messagerie en temps réel (RTMP). Ce type de production est généralement utilisé dans des événements à grande échelle comme le Directoire de la direction, dans lequel un flux unique d’un mélangeur de média est diffusé aux participants.
 
     ![événement actif généré à l’aide d’une application ou d’un appareil externe](../media/teams-live-events-external-encoder.png "Capture d’écran montrant un événement en direct qui est réalisé à l’aide de la méthode de production d’une application ou d’un appareil externe")
@@ -89,7 +104,7 @@ Les administrateurs de clients peuvent afficher les analyses d’utilisation en 
 
 Accédez au [plan pour les événements en direct teams](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 - [Événements en direct sur Microsoft 365 dans Yammer, Microsoft teams et Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Prise en main des événements en direct Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
