@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085468"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349110"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -68,7 +68,7 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 
 |Fonctionnalité  | Limite maximale  |
 |---------|---------|
-|Nombre de personnes dans une conversation privée<sup>1</sup>  | 350 |
+|Nombre de personnes dans une conversation privée<sup>1</sup>  | 250 |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Nombre de pièces jointes<sup>2</sup>  |10     |
 |Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
@@ -101,9 +101,9 @@ Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.micr
 
 ## <a name="channel-names"></a>Noms des canaux
 
-Les noms des canaux ne peuvent pas contenir les caractères ou les mots suivants.
+Les noms des canaux ne peuvent pas contenir les caractères ou les mots suivants :
 
-|Tapez|Exemple|
+|Type|Exemple|
 |---------|---------|
 |Caractères     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Caractères dans ces plages    | 0 à 1F<br>80 à 9F        |
@@ -191,9 +191,9 @@ Etant donné que Teams est exécuté sur le serveur principal de SharePoint Onl
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Stockage                 |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée   |1 To par organisation, plus 10 Go par licence achetée |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation           |
 |Espace de stockage pour fichiers Teams |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |
-|Limite de chargement de fichiers (par fichier)    |100 Go    |100 Go    |100 Go    |100 Go    |100 Go    |100 Go    |
+|Limite de taille de fichiers :    |2 Go    |2 Go    |2 Go    |2 Go    |2 Go    |2 Go    |
 
-Les canaux sont protégés par des dossiers au sein de la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets des fichiers au sein des canaux partagent les limites de stockage de l’équipe à laquelle ils appartiennent.
+Les canaux sont associés à des dossiers au sein de la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets de fichiers des canaux sont soumis aux limites de stockage de l’équipe à laquelle ils appartiennent.
 
 Pour plus d’informations, voir [Limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 

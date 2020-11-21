@@ -1,5 +1,5 @@
 ---
-title: Se connecter à Teams en utilisant l’authentification moderne
+title: Se connecter à Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944188"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350566"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 ==========================
@@ -102,7 +102,7 @@ Configurez les paramètres de configuration suivants dans le portail Azure Intun
 
 |Plateforme |Clé  |Valeur  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Activé**  : le seul compte autorisé est le compte d’utilisateur géré défini par la clé IntuneMAMUPN.<br> **Désactivé** (ou toute valeur qui n’est pas une correspondance non sensible à la casse à **Activé** ) : tout compte est autorisé.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Activé** : le seul compte autorisé est le compte d’utilisateur géré défini par la clé IntuneMAMUPN.<br> **Désactivé** (ou toute valeur qui n’est pas une correspondance non sensible à la casse à **Activé**) : tout compte est autorisé.        |
 |iOS     |   **IntuneMAMUPN**      |   Nom d’utilisateur principal du compte autorisé à se connecter à Teams.<br> Pour les appareils inscrits sur Intune, le jeton {{userPrincipalName}} peut être utilisé pour représenter le compte d’utilisateur inscrit.       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Seul le ou les comptes autorisés sont les comptes d’utilisateur gérés définis par cette clé.<br> Un ou plusieurs point-virgule ;] - UPN délimités.<br> Pour les appareils inscrits sur Intune, le jeton {{userPrincipalName}} peut être utilisé pour représenter le compte d’utilisateur inscrit.
 
@@ -143,7 +143,7 @@ Nous mettrons à jour ce document au cours des prochains jours, avec des informa
 
 ## <a name="sign-out-on-mobile-devices"></a>Se déconnecter sur les appareils mobiles
 
-Les utilisateurs mobiles peuvent se déconnecter de Teams en accédant au menu, puis en sélectionnant le menu **Plus** , puis en choisissant **Se déconnecter**. Une fois déconnectés, les utilisateurs devront entrer de nouveau leurs informations d’identification lors de la prochaine exécution de l’application.
+Les utilisateurs mobiles peuvent se déconnecter de Teams en accédant au menu, puis en sélectionnant le menu **Plus**, puis en choisissant **Se déconnecter**. Une fois déconnectés, les utilisateurs devront entrer de nouveau leurs informations d’identification lors de la prochaine exécution de l’application.
 
 > [!NOTE]
 > Teams pour Android utilise l’authentification unique (SSO) pour simplifier l’expérience de connexion. Les utilisateurs doivent se déconnecter de **toutes** les applications Microsoft, en plus de Teams, afin de se déconnecter complètement de la plateforme Android.
