@@ -17,17 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350566"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376017"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 ==========================
 
 ## <a name="windows-users"></a>Utilisateurs Windows
+
 Microsoft recommande aux organisations d’utiliser des versions récentes de Windows 10 avec une configuration de jointure Azure AD ou de jointure de domaine hybride. Utiliser des versions récentes permet d’imprimer les comptes des utilisateurs dans le Gestionnaire de Compte Web Windows, ce qui permet d’activer la connexion unique à Teams et d’autres applications M/icrosoft. La connexion unique offre une meilleure expérience d’utilisateur (connexion silencieuse) et une meilleure position en matière de sécurité.
 
 Microsoft Teams utilise l’authentification moderne pour simplifier et sécuriser l’expérience de connexion. Pour voir comment les utilisateurs se connectent à Teams, consultez [Se connecter à Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
@@ -55,9 +56,9 @@ L’authentification moderne est disponible pour toutes les organisations qui ut
     > [!NOTE]
     > Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver.
 
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Déconnexion de Teams après l’exécution de l’authentification moderne
+### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Déconnexion de Teams après l’achèvement de l’authentification moderne
 
-Pour se déconnecter de Teams, les utilisateurs peuvent cliquer sur leur image de profil dans la partie supérieure de l’application, puis sélectionner **se déconnecter**. Ils peuvent également cliquer avec le bouton droit sur l’icône de l’application dans la barre des tâches, puis sélectionner **se déconnecter**. Une fois qu’ils se déconnectent de Teams, ils doivent ré-entrer leurs informations d’identification pour lancer l’application.
+Pour se déconnecter de Teams, les utilisateurs peuvent sélectionner leur image de profil dans la partie supérieure de l’application, puis **Se déconnecter**. Ils peuvent également cliquer avec le bouton droit sur l’icône de l’application dans la barre des tâches, puis sélectionner **Se déconnecter**. Une fois qu’ils se déconnectent de Teams, ils doivent ré-entrer leurs informations d’identification pour lancer l’application.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Se connecter à un autre compte sur un ordinateur connecté à un domaine
 
@@ -92,11 +93,11 @@ Il se peut que l’organisation souhaite limiter la façon dont les applications
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Comment restreindre la connexion sur les appareils mobiles
 
-Teams pour iOS et Android offre aux administrateurs informatiques la possibilité de pousser les configurations des comptes vers les comptes Microsoft 365. Cette fonctionnalité marche avec n'importe quel fournisseur Mobile Device Management (MDM) qui utilise le canal [Configuration d'application gérée](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) pour iOS ou le canal [Android Entreprise](https://developer.android.com/work/managed-configurations) pour Android.
+Teams pour iOS et Android offre aux administrateurs informatiques la possibilité de pousser les configurations des comptes vers les comptes Microsoft 365. Cette fonctionnalité fonctionne avec n'importe quel fournisseur Gestion des appareils mobiles (MDM) qui utilise le canal [Configuration d'application gérée](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) pour iOS ou le canal [Android Entreprise](https://developer.android.com/work/managed-configurations) pour Android.
 
 Pour les utilisateurs inscrits auprès de Microsoft Intune, vous pouvez déployer les paramètres de configuration de compte à l’aide d’Intune dans le portail Azure.
 
-Une fois la configuration du compte effectuée dans le fournisseur de gestion des données de référence, et après que l'utilisateur ait inscrit son appareil, sur le page de connexion, Teams pour iOS et Android affiche uniquement les comptes autorisés sur la page de connexion Teams. L’utilisateur peut appuyer sur l’un des comptes autorisés sur cette page pour se connecter.
+Une fois la configuration du compte effectuée dans le fournisseur de Gestion des appareils mobiles (MDM), et après inscription de son appareil par l'utilisateur, sur la page de connexion, Teams pour iOS et Android affiche uniquement le(s) compte(s) autorisé(s) sur la page de connexion Teams. L’utilisateur peut appuyer sur l’un des comptes autorisés sur cette page pour se connecter.
 
 Configurez les paramètres de configuration suivants dans le portail Azure Intune pour les appareils gérés.
 
@@ -119,9 +120,10 @@ Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuve
 
 > [!NOTE]
 >1. La stratégie restreint uniquement les connexions. Cela ne limite pas la possibilité pour les utilisateurs d’être invités comme invités dans d’autres clients Azure AD ou de basculer vers d’autres clients.
->2. La stratégie requiert Teams pour Windows version 1.3.00.30866 ou ultérieure, et Teams pour MacOS version 1.3.00.30882 (publiée en mi-novembre 2020).
+>2. La stratégie requiert Teams pour Windows version 1.3.00.30866 ou ultérieure, et Teams pour MacOS version 1.3.00.30882 (publiée mi-novembre 2020).
 
-**Stratégies pour Windows** vous pouvez spécifier manuellement les clés dans le registre Windows :
+**Les stratégies pour les fichiers de modèles d’administration Windows** (ADMX/ADML) sont disponibles à partir du [Centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=49030). En outre, vous pouvez spécifier manuellement les clés dans le Registre Windows :
+
 - Nom de la valeur : RestrictTeamsSignInToAccountsFromTenantList
 - Type de valeur : chaîne
 - Données de valeur : ID de client ou liste d’ID client séparés par des virgules
@@ -129,9 +131,7 @@ Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuve
 
  Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
-Exemple : OFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID or SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID client 1, ID client 2, ID client 3
-
-Nous mettrons à jour ce document au cours des prochains jours, avec des informations sur l’utilisation des fichiers de modèles d’administration (ADMX/ADML).
+Exemple : OFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID ou SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID client 1, ID client 2, ID client 3
 
 **Stratégies pour MacOS** pour les appareils gérés par MacOS, utilisez .plist pour déployer les restrictions de connexion. Le profil de configuration est un fichier .plist, composé d’entrées identifiées par une clé (qui indique le nom de la préférence), suivie d’une valeur qui dépend de la nature de la préférence. Les valeurs peuvent être simples (par exemple, une valeur numérique) ou complexes, comme une liste imbriquée de préférences.
 

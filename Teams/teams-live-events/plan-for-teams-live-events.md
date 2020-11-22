@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
+ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130585"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49372248"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -142,8 +142,8 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |&#x274C; |
 |Analyse de l’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup>  Les limites définies peuvent être modifiées. Consultez [Spécifications et limites de Microsoft Teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> vous pouvez avoir jusqu’à 250 présentateurs et producteurs dans un événement en direct, mais seules les 10 dernières qui en ont fait mention dans la liste.
+<sup>1</sup> Les limites définies peuvent être modifiées. Consultez [Spécifications et limites de Microsoft Teams](../limits-specifications-teams.md).<br/>
+<sup>2</sup> vous pouvez avoir jusqu’à 100 présentateurs et producteurs dans un événement en direct, mais seules les 10 dernières qui en ont fait mention dans la liste.
 
 ## <a name="regional-availability"></a>Disponibilité régionale
 
