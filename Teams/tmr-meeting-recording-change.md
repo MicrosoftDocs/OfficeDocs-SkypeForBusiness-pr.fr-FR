@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
-ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
+ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49366913"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385621"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -116,7 +116,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Type de réunion                               | Qui a cliqué sur l’enregistrement ?| Où l’enregistrement s’affiche-t-il ?                               |Qui a accès ? R/W, R ou partage                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |appel 1:1 avec les parties internes             |Appelant                 |Compte OneDrive entreprise de l’appelant                        |L’appelant est propriétaire et dispose de droits complets. <br /><br />L’appelant (s’il se trouve dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br /> Un appelé (si dans un client différent) n’a pas accès. L’appelant doit le partager avec l’appelant.|
-|appel 1:1 avec les parties internes             |Appelé                 |Compte OneDrive entreprise de l’appelant                        |L’appel est propriétaire et dispose de droits complets. <br /><br />Appelant (si le client dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br />L’appelant (si ce n’est pas le même client) n’a pas accès. L’appelant doit le partager avec l’appelant.|
+|appel 1:1 avec les parties internes             |Appelé                 |Compte OneDrive entreprise de l’appelant                        |L’appel est propriétaire et dispose de droits complets. <br /><br />Appelant (si le client dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br />L’appelant (si ce n’est pas le même client) n’a pas accès. Le correspondant doit le partager avec l’appelant.|
 |appel 1:1 avec un appel externe             |Appelant                 |Compte OneDrive entreprise de l’appelant                        |L’appelant est propriétaire et dispose de droits complets.<br /> <br />L’appelant n’est pas en accès. L’appelant doit le partager avec l’appelant.|
 |appel 1:1 avec un appel externe             |Appelé                 |Compte OneDrive entreprise de l’appelant                        |L’appel est propriétaire et dispose de droits complets.<br /><br />L’appelant n’est pas autorisé à accéder. Le correspondant doit le partager avec l’appelant.|
 |Appel de groupe                                 |Tout membre de l’appel |Membre sur lequel vous avez cliqué sur le compte OneDrive entreprise de l’enregistrement  |Le membre qui a cliqué sur l’enregistrement dispose de droits complets. <br /><br /> Les autres membres du même client disposent de droits de lecture. <br /><br /> Les autres membres de chaque client n’y ont aucun droit.|

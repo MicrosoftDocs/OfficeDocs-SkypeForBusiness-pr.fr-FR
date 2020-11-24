@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment télécharger un client et générer des données dans le tableau de bord de qualité des appels (bord).
-ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908693"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385631"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Télécharger le client et générer des données dans le tableau de bord de qualité des appels (bord)
 
@@ -49,7 +49,7 @@ Dans le tableau de bord des rapports de synthèse de bord, sélectionnez **charg
 
 4. Après avoir sélectionné un fichier de données, spécifiez la **Date de début** et, éventuellement, spécifiez une date de fin.
 
-5. Après avoir sélectionné la **Date de début** , sélectionnez **Télécharger** pour télécharger le fichier sur bord. <br><br>Le fichier est validé avant d’être chargé. En cas d’échec de la validation, un message d’erreur s’affiche et vous demande de corriger le fichier. La figure suivante illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
+5. Après avoir sélectionné la **Date de début**, sélectionnez **Télécharger** pour télécharger le fichier sur bord. <br><br>Le fichier est validé avant d’être chargé. En cas d’échec de la validation, un message d’erreur s’affiche et vous demande de corriger le fichier. La figure suivante illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
 
    ![Exemple de boîte de dialogue affichant une erreur de chargement de données en bâtiment](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -71,7 +71,7 @@ Le premier type de fichier de données client dans bord est le fichier de donné
 
 - Si une colonne utilise le type de données chaîne, un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
 
-- Chaque ligne doit comporter 14 colonnes, chaque colonne doit avoir le type de données approprié, et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant (séparateur : virgule ou tabulation) :
+- Il doit y avoir 15 colonnes pour chaque ligne, chaque colonne doit avoir le type de données approprié, et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant (délimité par des virgules ou des tabulations) :
 
   **Créer un format de fichier de données**
   
@@ -220,10 +220,10 @@ Une fois que vous avez chargé les informations de bâtiment pour les réseaux g
 > Vous devez ajouter votre ID de locataire comme filtre de requête pour le **deuxième ID de client** à ce rapport afin de filtrer le rapport pour afficher uniquement les données client de votre organisation. Dans le cas contraire, le rapport va afficher des sous-réseaux fédérés.
 
 > [!NOTE] 
-> Veillez à ajuster le filtre de rapport mois par année au mois en cours. Sélectionnez **modifier** , puis ajustez le filtre de rapport **mois-année** pour enregistrer le nouveau mois par défaut.
+> Veillez à ajuster le filtre de rapport mois par année au mois en cours. Sélectionnez **modifier**, puis ajustez le filtre de rapport **mois-année** pour enregistrer le nouveau mois par défaut.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Créer une carte de bâtiment pour bord](CQD-building-mapping.md)
 

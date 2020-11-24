@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818834"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385641"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -38,7 +38,7 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 | ![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|
 || ![Une coche verte ouverte indique une Absence du bureau](media/Presence_Available_OOF.png) Disponible, absent (e) du bureau. Remarque : le message d’absence du Bureau est défini automatiquement pour les périodes pendant lesquelles l’utilisateur définit des « réponses automatiques ». Si l’utilisateur utilise l’application pendant ce laps de temps, il est possible qu’il y ait deux Presence, par exemple « absent (e) du bureau, disponible ». |
 |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé  |
-|| ![Un cercle rouge plein indique Occupé au téléphone](media/Presence_Busy.png) Au téléphone|
+|| ![Un cercle rouge plein indique Occupé au téléphone](media/Presence_Busy.png) En communication|
 || ![Un cercle rouge plein indique Occupé en réunion](media/Presence_Busy.png) En réunion |
 || ![Un cercle rouge ouvert indique Occupé](media/Presence_Busy_OOF.png) Au téléphone, absent du bureau|
 |  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
@@ -84,7 +84,7 @@ Les États configurés par l’utilisateur ont des paramètres d’expiration pa
 Les paramètres d’administration suivants de Skype Entreprise sont différents de ceux dans Teams :
 
 - Le partage de présence est toujours activé dans Teams pour les utilisateurs de l’organisation. La configuration de la confidentialité (dans laquelle vous définissez qui peut voir présence) n’est pas disponible dans Teams.
-- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts** .
+- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts**.
 - Les fonctionnalités du client Ne sont pas déranger et Autorisé à appeler sont toujours activées pour les utilisateurs Teams.
 - L'intégration du calendrier (comprend les informations d’absence du bureau et d’autres informations de calendrier) est toujours activée pour les utilisateurs lorsque Teams est intégrée à Outlook.
 - L'indicateur *Vu pour la dernière fois* ou *Absent depuis* est toujours activé pour les utilisateurs Teams si l’organisation utilise également Skype Entreprise.
