@@ -348,6 +348,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Gérer le tableau blanc dans teams
       href: manage-whiteboard.md
+    - name: Configurer le complément réunion teams teams pour l’espace de travail Google
+      href: add-gsuite-thru-aad.md
     - name: Audioconférence
       items:
         - name: Planifier votre déploiement
