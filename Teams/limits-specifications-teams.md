@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349110"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420924"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -50,9 +50,9 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Cette limite inclut les équipes archivées.
+<sup>2</sup> Cette limite inclut les équipes archivées. Pour dépasser le nombre maximal d’équipes qu’une organisation Microsoft 365 ou Office 365 peut utiliser, vous devez contacter l’assistance à la clientèle Microsoft.
 
-<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
+<sup>3</sup> Les canaux supprimés peuvent être restaurés sous 30 jours. Pendant ces 30 jours, un canal supprimé continue à être compté vers les 200 canaux ou 30 canaux privés selon la limite par équipe. Après 30 jours, un canal supprimé et son contenu sont définitivement supprimés et le canal ne compte plus dans la limite par équipe.
 
 <sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
