@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030280"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49476993"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -32,12 +32,14 @@ Avec l’accès invité, vous pouvez fournir l’accès aux équipes, documents 
 
 Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans Teams. Cela signifie que toute personne disposant d’un compte professionnel (c’est-à-dire, d’un compte Azure Active Directory) ou d’un compte de messagerie grand public (avec Outlook.com, Gmail.com, etc.) peut participer en tant qu’invité dans Teams, avec l’accès aux équipes et aux expériences de canal.
 
-En tant qu’administrateur Teams, vous [Contrôlez les fonctionnalités que les invités peuvent (et ne peuvent pas utiliser) dans teams](manage-guests.md). Les invités dans teams sont couverts par la même protection de conformité et d’audit que le reste de Microsoft 365 et peuvent être gérés dans Azure AD. L’accès invité est soumis à Azure AD et aux limites de service Microsoft 365 ou Office 365.
+Les invités dans teams sont couverts par la même protection de conformité et d’audit que le reste de Microsoft 365 et peuvent être gérés dans Azure AD. L’accès invité est soumis à Azure AD et aux limites de service Microsoft 365 ou Office 365.
 
 L’expérience des invités comporte des limitations de par sa conception. Pour obtenir la liste complète des fonctionnalités qu’un invité peut et ne peut pas faire dans Microsoft Teams, voir [comparaison des fonctionnalités des membres d’équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
 > Les utilisateurs invités suivent les paramètres de niveau organisation Teams pour le mode de mise à niveau de coexistence. Il n’est pas possible de modifier cela.
+
+Pour configurer l’accès invité, voir [collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
 Pour comparer l’accès externe (fédération) avec l’accès invité (et décider de celui que vous devez utiliser), lisez [Communiquer avec des utilisateurs d’autres organisations dans Teams](communicate-with-users-from-other-organizations.md).
 
@@ -58,7 +60,7 @@ L’accès invité dans teams est un paramètre à l’échelle de l’organisat
   Les utilisateurs invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code de passage unique pour valider leur identité ([authentification à code unique](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) requise).
 4. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir et répondre à des messages de canal, [accéder aux fichiers dans les canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer aux conversations, rejoindre des réunions, collaborer sur des documents, etc. 
 
-Dans Teams, les invités sont clairement identifiés. Le nom d'utilisateur d'un invité comprend l'étiquette **(Invité)** , et un canal inclut une icône indiquant qu’il y a des invités dans l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
+Dans Teams, les invités sont clairement identifiés. Le nom d'utilisateur d'un invité comprend l'étiquette **(Invité)**, et un canal inclut une icône indiquant qu’il y a des invités dans l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
   
 Les invités peuvent quitter l’équipe Teams à tout moment. Pour plus d'informations, reportez-vous à l'article [Comment quitter une équipe ?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 

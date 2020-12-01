@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816104"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477033"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft teams
 
 Ces notes de publication fournissent des informations sur les nouvelles fonctionnalités d’administration de Microsoft Teams.
+
+## <a name="november-25-2020"></a>25 novembre 2020
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le composant additionnel de réunion Microsoft teams pour Google Workspace
+
+L’utilisation du composant additionnel réunion Microsoft teams permet aux utilisateurs du calendrier Google de programmer et de rejoindre une réunion Microsoft teams directement dans Google Workspace. Les utilisateurs pourront accéder aux fonctionnalités de réunion en équipe, notamment les conférences vidéo et audio, le partage d’écran, les discussions de la réunion, les tableaux blancs numériques, etc. Restez connecté et organisé pour une collaboration plus approfondie au sein de votre entreprise, de votre école et de votre vie.
+
+Pour pouvoir accéder à l’application, le composant additionnel de réunion Microsoft teams pour Google Workspace doit être activé par un administrateur d’équipes. [En savoir plus](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
 ## <a name="october-28-2020"></a>28 octobre 2020
 
@@ -55,7 +63,7 @@ Vous pouvez gérer les paramètres de Skype entreprise pour les utilisateurs Sky
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Gestion des paramètres de Skype entreprise pour votre organisation
 
-Vous pouvez gérer les fonctionnalités de Skype entreprise pour les utilisateurs Skype entreprise de votre organisation dans le centre d’administration Microsoft Teams. Accédez à **paramètres** à l’échelle de l’organisation  >  **Skype entreprise** . À partir de cet emplacement, vous pouvez gérer la diffusion de réunion Skype, la présence et les notifications mobiles. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Vous pouvez gérer les fonctionnalités de Skype entreprise pour les utilisateurs Skype entreprise de votre organisation dans le centre d’administration Microsoft Teams. Accédez à **paramètres** à l’échelle de l’organisation  >  **Skype entreprise**. À partir de cet emplacement, vous pouvez gérer la diffusion de réunion Skype, la présence et les notifications mobiles. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16 octobre 2020
 
@@ -67,7 +75,7 @@ En tant qu’administrateur, vous pouvez configurer teams pour afficher un ensem
 
 ### <a name="custom-policy-packages"></a>Packages de stratégie personnalisés
 
-*Cette fonctionnalité est en version préliminaire privée*
+*Cette fonctionnalité est en mode privé (préversion)*
 
 Les packages de stratégie personnalisés vous permettent de regrouper votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires dans votre organisation. Créez vos propres packages de stratégie en ajoutant les types de stratégie et les stratégies dont vous avez besoin. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
@@ -373,7 +381,7 @@ Le client Microsoft teams pour RealWear permet aux utilisateurs terrain d’util
 
 ### <a name="tag-youre-it"></a>Il s’agit d’une balise
 
-Créez des balises et attribuez-leur des personnes pour pouvoir @mention un groupe, un rôle, un service, etc. Les propriétaires d’équipe, le tester. Accédez à une équipe, sélectionnez **autres options**  >  **gérer les indicateurs** . [En savoir plus](../manage-tags.md).
+Créez des balises et attribuez-leur des personnes pour pouvoir @mention un groupe, un rôle, un service, etc. Les propriétaires d’équipe, le tester. Accédez à une équipe, sélectionnez **autres options**  >  **gérer les indicateurs**. [En savoir plus](../manage-tags.md).
 
 ## <a name="march-30-2020"></a>30 mars 2020
 

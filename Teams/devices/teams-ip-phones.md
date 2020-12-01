@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 35985ab9d930c5c689c196697957a672111263ab
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 4bd11a800713dcfa5cbfa2092cd08adb6b86e05e
+ms.sourcegitcommit: 476cbb4c65ccb9d9b7635eff6b2e657e099425f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778877"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49518269"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -69,6 +69,7 @@ Les barres de collaboration suivantes sont certifiées pour Microsoft teams :
 
 | Modèle de barre de collaboration | Version du microprogramme | Date de publication  | Taille de la salle (jusqu’à)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A20  | 133.15.0.19      | 2020 novembre | Salle de focalisation (3m x 3m) </br> Petite salle de réunion (4.5 x 4.5 m) |
 | Poly Studio X30         | 3.1.1.216109     | 2020 juin     | Salle de focalisation (3m x 3m) </br> Petite salle de réunion (4.5 x 4.5 m) |
 | Poly Studio X50         | 3.1.1.216109     | 2020 juin     | Salle de focalisation (3m x 3m) </br> Petite salle de réunion (4.5 x 4.5 m) |
 | Yealink VC210           | 118.15.0.14      | 2020 février | Salle de focalisation (3m x 3m) </br> Petite salle de réunion (4.5 x 4.5 m) |
@@ -118,6 +119,7 @@ Vous trouverez ci-après les versions les plus récentes des applications de bar
 
 | Version du produit| Date de publication | Version de l’application Microsoft teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| #3 de mise à jour  |24 novembre 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446. Product versioncode : 216 |
 | #2 de mise à jour  | 24 août 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. Product versioncode : 212|
 | #1 de mise à jour  | 13 2020 | .040901                     | .4715                  | .210                |
 
@@ -127,9 +129,9 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Année ou version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.32     | 2020, #2 de mise à jour    |
-| Poly Studio X30 | 3.2.0.222012          | 2020, #2 de mise à jour    |
-| Poly Studio X50 | 3.2.0.222012          | 2020, #2 de mise à jour    |
+| Yealink VC210 + CP900 | 118.15.0.42     | 2020, #3 de mise à jour    |
+| Poly Studio X30 | 3.2.3.280012          | 2020, #3 de mise à jour    |
+| Poly Studio X50 | 3.2.3.280012          | 2020, #3 de mise à jour    |
 
 ### <a name="product-release-information-for-teams-display"></a>Informations de publication de produit pour l’affichage d’équipes
 
