@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: Utilisation des modèles Teams
       items:
-        - name: Utiliser les modèles Teams dans le centre d’administration
+        - name: Utiliser les modèles teams dans le centre d’administration
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: Modèles Teams créés dans Graph pour les petites et moyennes entreprises
           href: smb-templates.md
@@ -180,7 +180,7 @@
               href: teams-analytics-and-reports/pstn-blocked-users-report.md
             - name: Rapport du nombre de minutes RTC
               href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: Rapport d'utilisation du réseau téléphonique commuté
+            - name: Rapport d'utilisation RTC
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Rapport d’utilisation des événements en direct Teams
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
@@ -240,7 +240,7 @@
       items:
         - name: Vue d’ensemble
           href: rooms/index.md
-        - name: Planification
+        - name: Prévision
           items:
             - name: Présentation de la planification des Salles Microsoft Teams
               href: rooms/rooms-plan.md
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: "Tester ou acheter l’audioconférence dans Microsoft\_365"
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Minutes d’appels étendus pour les États-Unis et le Canada
+          href: dial-out-minutes-canada-us.md
         - name: Période d’appels sortants complémentaire pour l’audioconférence
           href: complimentary-dial-out-period.md
         - name: "Avantage de l’abonnement conférence audio «\_Appel sortant\_»/«\_Appeler Moi à\_»"
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: Comment acheter un forfait d’appels
           href: calling-plans-for-office-365.md
-        - name: Minutes d’appels étendus pour les États-Unis et le Canada
-          href: dial-out-minutes-canada-us.md
         - name: Configurer les forfaits d’appel pour votre organisation
           href: set-up-calling-plans.md
         - name: "Guide de démarrage rapide\_: configuration des forfaites d’appel"
@@ -879,7 +879,7 @@
       href: teams-adoption-get-started.md
     - name: "Étape 1\_: démarrage"
       items:
-        - name: Démarrer
+        - name: Start
           href: teams-adoption-phase1.md
         - name: Présentation des équipes et des canaux
           href: teams-adoption-understand-teams-and-channels.md
@@ -1079,7 +1079,7 @@
       items:
         - name: Créer un ou plusieurs utilisateurs
           href: business-voice/create-users.md
-        - name: Gestion des appareils
+        - name: gérer les appareils
           href: business-voice/manage-devices.md
         - name: Surveiller la qualité des appels
           href: business-voice/monitor-quality.md
@@ -1102,13 +1102,13 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams pour la santé publique
       items:
-        - name: Démarrez Teams pour les organismes de santé
+        - name: Prise en main de teams pour les organisations de santé
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: Visites virtuelles
           items:
-            - name: Visites virtuelles avec Teams-Intégration dans DMI
+            - name: "Visites virtuelles avec teams\_: intégration dans DMI"
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Visites virtuelles avec Bookings et Teams
+            - name: Visites virtuelles avec bookings and teams
               href: bookings-app-admin.md
         - name: Afficher et affecter des packages de stratégie
           href: policy-packages-healthcare.md
@@ -1118,21 +1118,21 @@
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Délégation de messages
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Modèles Teams
+        - name: Modèles teams
           items:
-            - name: Utilisez les modèles médicaux Teams
+            - name: Utiliser les modèles de santé de teams
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Modèles médicaux Teams
+            - name: Modèles teams pour la santé
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: Gérer l’application Listes
           href: manage-lists-app.md
-        - name: Gérer l’application Tâches
+        - name: Gérer l’application tâches
           href: manage-tasks-app.md
         - name: Plannings pour Teams
           items:
             - name: Plannings pour Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Gérer l’application Plannings
+            - name: Gérer l'application Changements de poste
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams pour l’éducation
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: Déploiement par script pour les employés terrain
           href: flw-scripted-deployment.md
-        - name: Gérez l’accès shift pour les Employés de terrain
+        - name: Gérer l’accès basé sur un changement pour les travailleurs terrain
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: "RealWear pour Microsoft\_Teams"
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: Teams pour les organismes de vente au détail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Démarrage avec les modèles Teams pour la vente au détail dans le centre d’administration
+        - name: Prise en main des modèles teams dans le centre d’administration
           href: retail-teams-templates-in-the-admin-console.md
         - name: Démarrage avec les modèles Teams pour la vente au détail
           href: get-started-with-retail-teams-templates.md
@@ -1287,7 +1287,7 @@
               href: CQD-data-and-reports.md
             - name: Utiliser le TBQA pour gérer la qualité des appels et des réunions
               href: quality-of-experience-review-guide.md
-            - name: Foire aux questions
+            - name: Questions fréquentes (FAQ)
               href: CQD-frequently-asked-questions.md
             - name: Dimensions et mesures disponibles dans le TBQA
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
@@ -1418,7 +1418,7 @@
           items:
             - name: "Configurer une organisation Exchange hybride à utiliser avec Microsoft\_Teams"
               href: exchange-hybrid-organization.md
-            - name: Utiliser des règles de flux de courrier avec Exchange
+            - name: Utiliser des règles de flux de messagerie avec Exchange
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: "Interaction de SharePoint\_Online et OneDrive\_Entreprise avec Microsoft\_Teams"
           href: sharepoint-onedrive-interact.md
@@ -1434,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Téléphones pour Teams
           href: devices/phones-for-teams.md
-        - name: Affichages Teams
+        - name: Teams affiche
           href: devices/teams-displays.md
-        - name: Mettre à niveau les téléphones Teams vers Affichages Teams
+        - name: Mettre à niveau les téléphones teams vers les affichages teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Déployer les téléphones Teams et Affichages Teams à l’aide de Intune
+        - name: Déployer des affichages de téléphones et teams teams à l’aide d’Intune
           href: devices/phones-displays-deploy.md
         - name: Périphériques audio et vidéo USB
           href: devices/usb-devices.md
@@ -1460,7 +1460,7 @@
           href: teams-powershell-managing-teams.md
         - name: Notes de publication de PowerShell Teams
           href: teams-powershell-release-notes.md
-        - name: Passer du connecteur Skype Entreprise Online au module PowerShell Teams
+        - name: Passer du connecteur Skype entreprise Online au module PowerShell de teams
           href: teams-powershell-move-from-sfbo.md
         - name: Référence cmdlet pour Teams
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1720,5 +1720,5 @@
       href: export-teams-content.md
     - name: Notes de publication pour les fonctionnalités d’administration de Teams
       href: release-notes/release-notes.md
-    - name: Préversion publique dans Microsoft Teams
+    - name: Préversion publique dans Microsoft teams
       href: public-preview-doc-updates.md
