@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
+ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032989"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49530582"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
-Les standards automatiques permettent aux personnes d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft teams ou avec PowerShell. 
+Les standards automatiques permettent aux personnes d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft teams ou avec PowerShell.
 
 Vérifiez que vous disposez [d’un plan de lecture pour les standards automatiques d’équipe et les files d’attente d’appels](plan-auto-attendant-call-queue.md) , puis suivez les [étapes de mise](plan-auto-attendant-call-queue.md#getting-started) en route avant de suivre les procédures décrites dans cet article.
 
@@ -45,7 +45,7 @@ Les standards automatiques peuvent diriger les appels, en fonction de l’entré
 
 Vous êtes invité à choisir l’une de ces options à différentes étapes Lorsque vous configurez un standard automatique.
 
-Pour configurer un standard automatique, dans le centre d’administration Teams, développez **voix** , cliquez sur **standards automatiques** , puis cliquez sur **Ajouter**.
+Pour configurer un standard automatique, dans le centre d’administration Teams, développez **voix**, cliquez sur **standards automatiques**, puis cliquez sur **Ajouter**.
 
 ## <a name="general-info"></a>Informations générales
 
@@ -77,11 +77,11 @@ Si vous sélectionnez l’option **taper un message d’accueil** le système li
 
 Choisissez le mode de routage de l’appel.
 
-Si vous sélectionnez **déconnecter** , le standard automatique raccrochera l’appel.
+Si vous sélectionnez **déconnecter**, le standard automatique raccrochera l’appel.
 
-Si vous sélectionnez **rediriger l’appel** , vous pouvez choisir l’une des destinations de routage des appels.
+Si vous sélectionnez **rediriger l’appel**, vous pouvez choisir l’une des destinations de routage des appels.
 
-Si vous sélectionnez les **options de menu lire** , vous pouvez choisir de **lire un fichier audio** ou **de taper un message d’accueil** , puis de choisir entre les options de menu et la recherche dans l’annuaire.
+Si vous sélectionnez les **options de menu lire**, vous pouvez choisir de **lire un fichier audio** ou **de taper un message d’accueil** , puis de choisir entre les options de menu et la recherche dans l’annuaire.
 
 ### <a name="menu-options"></a>Options de menu
 
@@ -91,7 +91,7 @@ Pour les options de numérotation, vous pouvez affecter les touches 0-9 du clavi
 
 Les mappages de clés ne doivent pas nécessairement être continus. Par exemple, il est possible de créer un menu avec les clés 0, 1 et 3 mappées à des options, tandis que la touche 2 n’est pas utilisée.
 
-Nous vous recommandons de mapper la touche 0 à l’opérateur si vous en avez configuré un. Si l’opérateur n’est pas défini sur une touche, la commande vocale « opérateur » est également désactivée. 
+Nous vous recommandons de mapper la touche 0 à l’opérateur si vous en avez configuré un. Si l’opérateur n’est pas défini sur une touche, la commande vocale « opérateur » est également désactivée.
 
 Pour chaque option de menu, spécifiez les éléments suivants :
 
@@ -119,7 +119,8 @@ Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste d
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est *+ \<phone number> ext = \<extension>* ou *+ \<phone number> x \<extension>*.
+Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur est : *+ \<phone number> ext = \<extension>* ou *+ \<phone number> ; x \<extension>*.
+Par exemple : Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678 ; ext = 5678".
 
 Vous pouvez définir l’extension dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou dans le [Centre d’administration Azure Active Directory](https://aad.portal.azure.com). Il faut parfois jusqu’à 12 heures pour que les modifications soient disponibles aux standards automatiques et aux files d’attente d’appels.
 
@@ -189,7 +190,7 @@ Tous les standards automatiques doivent disposer d’un compte de ressources ass
 
 ![Capture d’écran du volet d’ajout de comptes de ressources](media/auto-attendant-add-resource-account.png)
 
-Pour ajouter un compte de ressource, cliquez sur **Ajouter un compte** et recherchez le compte que vous voulez ajouter. Cliquez sur **Ajouter** , puis cliquez sur **Ajouter**.
+Pour ajouter un compte de ressource, cliquez sur **Ajouter un compte** et recherchez le compte que vous voulez ajouter. Cliquez sur **Ajouter**, puis cliquez sur **Ajouter**.
 
 ![Capture d’écran de la liste des comptes de ressources indiquant le compte de ressources avec le numéro de service affecté](media/auto-attendant-resource-account-assigned.png)
 
@@ -234,7 +235,6 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 - [Importation-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [Nouveau-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
 ## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -243,6 +243,6 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Exemple petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa) 
+[Exemple petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa)
 
 [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Conseils et apprentissages en matière de sécurité pour ITAdmins lors de l’installation, de la configuration et de la maintenance de Microsoft Teams.
+description: Conseils et enseignements en matière de sécurité pour les administrateurs informatiques lors de l’installation, de la configuration et de la maintenance de Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486799"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530971"
 ---
 # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
@@ -40,9 +40,9 @@ Teams a été conçu et développé conformément au cycle de développement Mic
 
 ## <a name="trustworthy-by-default"></a>Confiance par défaut
 
-Par défaut, les communications réseau dans les équipes sont chiffrées. Avec l’exigence que tous les serveurs utilisent des certificats et avec l'utilisation d'OAUTH, de TLS, du protocole SRTP (Secure Real-Time Transport Protocol) et d'autres techniques de chiffrement standard, notamment le chiffrement AES (Advanced Encryption Standard) 256 bits, toutes les données de Skype Entreprise Online sont protégées sur le réseau.
+Par défaut, les communications réseau dans Teams sont chiffrées. En exigeant que tous les serveurs utilisent des certificats et en utilisant OAuth, TLS, le protocole SRTP (Secure Real-Time Transport Protocol), toutes les données de Teams sont protégées sur le réseau.
 
-## <a name="how-teams-handles-common-security-threats"></a>Comment les équipes gèrent les menaces de sécurité courantes
+## <a name="how-teams-handles-common-security-threats"></a>Comment Teams gère les menaces de sécurité courantes
 
 Cette section identifie les menaces les plus courantes à la sécurité du service SfBO et la manière dont Microsoft fait face à chaque menace.
 
@@ -134,13 +134,13 @@ Les protocoles TLS et MTLS évitent les attaques par écoute clandestine et les 
 
 Teams utilise TLS et MTLS pour encrypter les messages instantanés. Tout le trafic de serveur à serveur requiert MTLS, que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre réseau interne.
 
-Ce tableau résume les protocoles utilisés par les équipes.
+Ce tableau résume les protocoles utilisés par Teams.
 
-***Chiffrement du trafic***
+***Chiffrement du trafic** _
 
 |||
 |:-----|:-----|
-|**Type de trafic**|**Encrypté par**|
+|_ *Type de trafic**|**Chiffré par**|
 |Serveur à serveur|MTLS|
 |Client-vers-serveur (par exemple. Messagerie instantanée et présence|TLS|
 |Flux multimédias (par exemple. partage de fichiers audio et vidéo|TLS|
@@ -246,7 +246,7 @@ Il est également possible pour un organisateur de configurer les paramètres de
 
 Les participants à la réunion se répartissent en trois groupes, chacun ayant ses propres privilèges et restrictions :
 
-- ** Organisateur **L’utilisateur qui crée une réunion, qu’elle soit impromptue ou programmée. Un organisateur doit être un utilisateur de client authentifié et contrôler tous les aspects d’un utilisateur final d’une réunion.
+- **Organisateur** L’utilisateur qui crée une réunion, qu’elle soit impromptue ou programmée. Un organisateur doit être un utilisateur de client authentifié et contrôler tous les aspects d’un utilisateur final d’une réunion.
 - **Présentateur** Un utilisateur autorisé à présenter des informations lors d’une réunion, quel que soit le média pris en charge. Un organisateur de réunion est par définition également un présentateur et détermine qui d’autre peut être un présentateur. Il peut effectuer cette détermination lorsqu’une réunion est planifiée ou pendant son déroulement.
 - **Participant** Un utilisateur qui a été invité à participer à une réunion, mais qui n’est pas autorisé à agir en tant que présentateur.
 
@@ -264,14 +264,14 @@ Les participants à la réunion sont également classés par localisation et inf
     a. *Les utilisateurs fédérés* les utilisateurs fédérés ont des informations d’identification valides avec les partenaires fédérés et sont donc traités comme authentifiés par Teams, mais restent anonymes pour le client organisateur de la réunion. Les utilisateurs fédérés peuvent participer à des réunions et être promus aux présentateurs une fois qu’ils ont rejoint la réunion, mais ils ne peuvent pas créer de réunions dans les entreprises avec lesquelles ils sont fédérés.
     b. *Les utilisateurs anonymes*-les utilisateurs anonymes n’ont pas d’identité Active Directory et ne sont pas fédérés avec le client.
 
-De nombreuses réunions impliquent des utilisateurs externes. Ces mêmes clients veulent également être rassurés en ce qui concerne l’identité des utilisateurs externes avant de permettre à ces utilisateurs de participer à une réunion. La section suivante décrit comment les équipes limitent l’accès aux types d’utilisateurs qui ont été explicitement autorisés et nécessite que tous les types d’utilisateur présentent les* informations d’identification* lors de la saisie d’une réunion.
+De nombreuses réunions impliquent des utilisateurs externes. Ces mêmes clients veulent également être rassurés en ce qui concerne l’identité des utilisateurs externes avant de permettre à ces utilisateurs de participer à une réunion. La section suivante décrit comment les équipes limitent l’accès aux types d’utilisateurs qui ont été explicitement autorisés et nécessite que tous les types d’utilisateur présentent les *informations d’identification* lors de la saisie d’une réunion.
 
 ### <a name="participant-admittance"></a>Admission des participant
 
 > [!CAUTION]
 > Si vous ne souhaitez pas que les utilisateurs anonymes (usagers que vous n'invitez pas explicitement) participent à une réunion, vous devez vous assurer que **Les utilisateurs anonymes peuvent participer à une réunion** sont définis sur **Désactivée** pour la section réunion des **Participants**.
 
-Dans Teams, les utilisateurs anonymes peuvent être transférés vers une zone d’attente appelée salle d’attente. Les présentateurs peuvent ensuite *admettre *ces utilisateurs à la réunion ou les *rejeter*. Lorsque ces utilisateurs sont transférés vers la salle d’attente, le présentateur et les participants reçoivent une notification et les utilisateurs anonymes doivent patienter jusqu’à ce qu’ils soient acceptés ou rejetés, ou que leur connexion arrive à expiration.
+Dans Teams, les utilisateurs anonymes peuvent être transférés vers une zone d’attente appelée salle d’attente. Les présentateurs peuvent ensuite *admettre* ces utilisateurs à la réunion ou les *rejeter*. Lorsque ces utilisateurs sont transférés vers la salle d’attente, le présentateur et les participants reçoivent une notification et les utilisateurs anonymes doivent patienter jusqu’à ce qu’ils soient acceptés ou rejetés, ou que leur connexion arrive à expiration.
 
 Par défaut, les participants qui accèdent à partir du RTC accèdent directement à la réunion une fois qu’un utilisateur authentifié rejoint la réunion, mais cette option peut être modifiée pour forcer les participants à appeler la salle d’attente.
 
@@ -305,6 +305,6 @@ Il est possible de modifier les options de réunion pendant la réunion. La modi
 
 [Optimiser la connectivité de Microsoft 365 ou Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implémentation du tunneling fractionné VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implémentation de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 [Enregistrements de réunions dans Teams, emplacement de stockage de ces enregistrements et personnes autorisées à y accéder](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

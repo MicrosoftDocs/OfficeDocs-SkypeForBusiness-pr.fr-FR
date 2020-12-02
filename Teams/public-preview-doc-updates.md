@@ -18,12 +18,12 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8e0efa04b67f2818581f710b14850ba9944e3b51
-ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.openlocfilehash: ab48796f877f6af33b8a3c1b2bc5a3cc56e7bd1e
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373460"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530981"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
@@ -34,7 +34,7 @@ La préversion publique de Microsoft Teams vous permet d’accéder en avant-pre
 
 ## <a name="set-the-update-policy"></a>Définir la stratégie de mise à jour
 
- Nous avons activé la préversion publique pour chaque utilisateur, et une stratégie d’administration permet de contrôler l’option d’activation de cette préversion.Les stratégies de mise à jour permettent de gérer les utilisateurs des préversions de Teams et d’Office qui auront accès aux fonctionnalités d’avant-publication ou de préversion dans l’application Teams. Vous pouvez utiliser et personnaliser la stratégie globale (par défaut à l’échelle de l’organisation), ou créer une ou plusieurs stratégies personnalisées pour vos utilisateurs. La stratégie doit être attribuée à des utilisateurs spécifiques, car elle ne remplace pas la stratégie globale.
+ Nous avons activé la préversion publique pour chaque utilisateur, et une stratégie d’administration permet de contrôler l’option d’activation de cette préversion. Les stratégies de mise à jour permettent de gérer les utilisateurs des préversions de Teams et d’Office qui auront accès aux fonctionnalités d’avant-publication ou de préversion dans l’application Teams. Vous pouvez utiliser et personnaliser la stratégie globale (par défaut à l’échelle de l’organisation), ou créer une ou plusieurs stratégies personnalisées pour vos utilisateurs. La stratégie doit être attribuée à des utilisateurs spécifiques car elle ne remplace pas la stratégie globale.
 
 1. Connectez-vous au centre d'administration.
 2. Sélectionnez **Teams**>**Stratégies de mise à jour**.
@@ -43,6 +43,8 @@ La préversion publique de Microsoft Teams vous permet d’accéder en avant-pre
 
 3. Sélectionnez **Ajouter**.
 4. Nommez la stratégie de mise à jour, ajoutez une description, puis activez **Afficher les fonctionnalités en préversion**.
+
+Vous pouvez également définir la stratégie à l’aide de PowerShell en utilisant le `CsTeamsUpdateManagementPolicy` cmdlet.
 
 ## <a name="enable-public-preview"></a>Activer la préversion publique
 

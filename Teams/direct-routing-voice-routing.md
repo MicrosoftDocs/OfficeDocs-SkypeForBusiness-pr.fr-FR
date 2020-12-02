@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer le routage de la voix avec le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359410"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530991"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Configurer le routage de la voix pour le routage direct
 
@@ -70,7 +70,7 @@ Le schéma suivant montre deux exemples de stratégies de routage vocal dans un 
 
 ![Exemples de stratégies de routage vocale](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-Dans les deux exemples, si les priorités de l’itinéraire vocal sont affectées, les éléments SBCs dans les itinéraires sont essayés dans un ordre aléatoire.
+Dans les deux exemples, si les priorités de l’itinéraire vocal sont affectées, les éléments SBCs dans les itinéraires sont essayés dans un ordre aléatoire. Lorsque deux SBC sont configurés dans une seule route, le trafic réseau doit être routable entre les SBC ou les médias ne peut pas être établi sur les transferts, car il est possible que la nouvelle invitation pour le transfert soit envoyée à un autre SBC dans l’itinéraire.
 
   > [!NOTE]
   > À moins que l’utilisateur ne dispose d’une licence de plan d’appel Microsoft, les appels vers n’importe quel numéro, à l’exception des numéros correspondant aux modèles + 1 425 XXX XX XX ou + 1 206 XXX XX XX dans l’exemple de configuration sont supprimés. Si l’utilisateur dispose d’une licence de plan d’appel, l’appel est automatiquement acheminé conformément aux politiques du forfait d’appel Microsoft. Le plan d’appel Microsoft s’applique automatiquement en tant que dernier itinéraire à tous les utilisateurs dotés de la licence de plan d’appel Microsoft et ne nécessite pas de configuration du routage des appels supplémentaire.
@@ -109,14 +109,14 @@ Vous pouvez utiliser le [Centre d’administration Microsoft teams](#admincenter
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Étape 1 : créer l’utilisation RTC des États-Unis et du Canada
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams,  >  **Direct Routing**sélectionnez **gérer les enregistrements d’utilisation RTC**dans le coin supérieur droit.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice** Teams,  >  **Direct Routing** sélectionnez **gérer les enregistrements d’utilisation RTC** dans le coin supérieur droit.
 2. Cliquez sur **Ajouter**, tapez **États-Unis et Canada**, puis cliquez sur **appliquer**.
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Étape 2 : créer trois itinéraires vocaux (Redmond 1, Redmond 2 et autres + 1)
 
 Les étapes suivantes décrivent la création d’un itinéraire vocal. Suivez ces étapes pour créer les trois itinéraires vocaux nommés Redmond 1, Redmond 2 et autres + 1 pour cet exemple en utilisant les paramètres définis dans le tableau précédent.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **routage direct**de la voix, puis sélectionnez l’onglet **itinéraires vocaux** .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice** Teams, accédez à  >  **routage direct** de la voix, puis sélectionnez l’onglet **itinéraires vocaux** .
 2. Cliquez sur **Ajouter**, puis entrez le nom et la description de l’itinéraire.
 3. Définissez la priorité et spécifiez le modèle de numéro numéroté.
 4. Pour inscrire une SBC auprès de l’itinéraire de la voix, sous **SBCS inscrits (facultatif)**, cliquez sur **Ajouter SBCS**, sélectionnez le SBCS que vous voulez inscrire, puis cliquez sur **appliquer**.
@@ -125,7 +125,7 @@ Les étapes suivantes décrivent la création d’un itinéraire vocal. Suivez c
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Étape 3 : créer une stratégie de routage de la voix nommée « États-Unis uniquement » et ajouter l’utilisation RTC « États-Unis et Canada » à la politique
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**stratégies de routage de voix vocales, puis  >  **Voice routing policies**cliquez sur **Ajouter**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à** stratégies de routage de voix vocales, puis  >  **Voice routing policies** cliquez sur **Ajouter**.
 2. Tapez **-nous uniquement** le nom et ajoutez une description.
 3. Sous **rapports d’utilisation RTC**, cliquez sur **Ajouter une utilisation PSTN**, sélectionnez l’enregistrement d’utilisation RTC « États-Unis et Canada », puis cliquez sur **appliquer**.
 4. Cliquez sur **Enregistrer**.
@@ -136,7 +136,7 @@ Pour en savoir plus, voir [gérer les stratégies de routage de messagerie vocal
 
 1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
 2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **politique de routage**de la voix, sélectionnez la stratégie « États-Unis uniquement », puis cliquez sur **Enregistrer**.
+3. Sous **politique de routage** de la voix, sélectionnez la stratégie « États-Unis uniquement », puis cliquez sur **Enregistrer**.
 
 Pour en savoir plus, voir [gérer les stratégies de routage de messagerie vocale](manage-voice-routing-policies.md).
 
@@ -342,12 +342,12 @@ Vous pouvez utiliser le [Centre d’administration Microsoft teams](#admincenter
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Étape 1 : créer une utilisation RTC internationale
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams,  >  **Direct Routing**sélectionnez **gérer les enregistrements d’utilisation RTC**dans le coin supérieur droit.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice** Teams,  >  **Direct Routing** sélectionnez **gérer les enregistrements d’utilisation RTC** dans le coin supérieur droit.
 2. Cliquez sur **Ajouter**, tapez **international**, puis cliquez sur **appliquer**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Étape 2 : créer l’itinéraire vocal « international »
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice**Teams, accédez à  >  **routage direct**de la voix, puis sélectionnez l’onglet **itinéraires vocaux** .
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft **Voice** Teams, accédez à  >  **routage direct** de la voix, puis sélectionnez l’onglet **itinéraires vocaux** .
 2. Cliquez sur **Ajouter**, entrez « international » comme nom, puis ajoutez la description.
 3. Définissez la priorité sur 4, puis définissez le modèle de numérotation numérique sur \d +.
 4. Sous **SBCS inscrits (facultatifs)**, cliquez sur **Ajouter sbcs**, sélectionnez sbc2.contoso.biz et sbc5.contoso.biz, puis cliquez sur **appliquer**.
@@ -358,7 +358,7 @@ Vous pouvez utiliser le [Centre d’administration Microsoft teams](#admincenter
 
 L’utilisation RTC « États-Unis et Canada » est réutilisée dans cette politique de routage vocal pour garantir une gestion spéciale des appels vers le numéro « + 1 425 XXX XX XX » et « + 1 206 XXX XX XX » en tant qu’appels locaux ou locaux.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**stratégies de routage de voix vocales, puis  >  **Voice routing policies**cliquez sur **Ajouter**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à** stratégies de routage de voix vocales, puis  >  **Voice routing policies** cliquez sur **Ajouter**.
 2. Tapez **aucune restriction** pour le nom et ajoutez une description.
 3. Sous **rapports d’utilisation RTC**, cliquez sur **Ajouter une utilisation PSTN**, sélectionnez l’enregistrement d’utilisation RTC « États-Unis et Canada », puis sélectionnez l’enregistrement d’utilisation RTC « international ». Cliquez sur **Appliquer**.
 
@@ -376,7 +376,7 @@ Pour en savoir plus, voir [gérer les stratégies de routage de messagerie vocal
 
 1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
 2. Cliquez sur **stratégies**, puis en regard de **stratégies affectées**, cliquez sur **modifier**.
-3. Sous **politique de routage**de la voix, sélectionnez la stratégie « aucune restriction », puis cliquez sur **Enregistrer**.
+3. Sous **politique de routage** de la voix, sélectionnez la stratégie « aucune restriction », puis cliquez sur **Enregistrer**.
 
 Le résultat est que la stratégie vocale appliquée aux appels de Jean-Martin n’est pas restreinte et qu’elle respecte la logique du routage des appels disponible aux États-Unis, au Canada et au service d’appels internationaux.
 
