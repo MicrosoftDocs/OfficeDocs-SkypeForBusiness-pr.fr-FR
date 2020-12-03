@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385641"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557948"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -78,6 +78,9 @@ Les États configurés par l’utilisateur ont des paramètres d’expiration pa
 | Ne pas déranger|1 jour|
 | Locuteur|7 jours|
 |||
+
+> [!NOTE]
+> Un utilisateur peut également configurer une durée manuellement pour sa présence. Par exemple, un utilisateur peut lui définir comme apparaître hors ligne jusqu’au lendemain matin.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administrateur dans Teams comparé à ceux de Skype Entreprise
 

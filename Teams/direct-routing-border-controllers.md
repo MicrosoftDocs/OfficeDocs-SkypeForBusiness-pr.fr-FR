@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: L’administrateur peut en savoir plus sur les contrôleurs de bordure de session (SBCs) qui ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130445"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561040"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -38,7 +38,7 @@ Microsoft travaille avec chaque fournisseur pour :
 
 
   > [!NOTE]
-  > Microsoft ne prend en charge que le système téléphonique s’il est connecté par le biais du routage direct. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. 
+  > Microsoft ne prend en charge que le système téléphonique s’il est connecté par le biais du routage direct. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. Si Microsoft détermine que le problème de routage direct d’un client est lié à un appareil SBC d’un fournisseur, le client doit engager le fournisseur de SBC pour obtenir de l’aide.
 
 Le tableau suivant reprend les périphériques certifiés pour le routage direct. (Pour plus d’informations sur les fournisseurs de SBC prenant en charge l’optimisation de média locale, voir [configurer l’optimisation des médias locaux pour le routage direct](direct-routing-media-optimization-configure.md).)
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: En savoir plus sur la configuration requise pour la prise en charge des salles de Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655471"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557958"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -103,6 +103,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 
 |Périphériques des Salles Microsoft Teams|Version du micrologiciel certifiée | L'appareil photo prend en charge le contenu de l'utilisation de l'appareil photo|
 |:--- |:--- | :--- |
+|[Caméra VC520 Pro de Average + téléphone à écoute amplifiée](https://www.averusa.com/products/conference-camera/vc520pro) |1004,35|
 |[VB342 + caméra de caméra Average](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar : 0.0.0000.97|
 |[Avereuse 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

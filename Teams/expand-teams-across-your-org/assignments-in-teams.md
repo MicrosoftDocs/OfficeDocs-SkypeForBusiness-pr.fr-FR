@@ -21,18 +21,18 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd2cef56b4b59461ea1eeb5028c6c77a92e20500
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: e3a0bf0dd0141679dc89ed1d5ecc0cfc542854c8
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820628"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561050"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
 Les affectations sont des tâches ou des unités de travail attribuées à un étudiant ou à un membre d’équipe dans une classe dans le cadre de leur étude. Vous pouvez créer des devoirs au sein de votre classe Teams.
 
-[En savoir plus sur les devoirs](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[En savoir plus sur les devoirs](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Pour plus d’informations sur les affectations d’équipe sur différentes plateformes, voir [fonctionnalités d’équipes par plate-forme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -44,9 +44,25 @@ Les paramètres d’administration du centre d’administration Microsoft teams 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Résumé du message électronique du tuteur de chaque semaine
 
-Les messages électroniques de tuteur sont des messages électroniques hebdomadaires envoyés aux parents ou tuteurs des étudiants. Les courriers électroniques contiennent des informations sur les affectations de la semaine précédente et de la semaine à venir, et seront envoyées pendant le week-end. Les messages électroniques doivent être mis à jour par les administrateurs à l’aide de la fonctionnalité School Data Sync.
+Les courriers électroniques contiennent des informations sur les affectations de la semaine précédente et de la semaine à venir, et seront envoyées pendant le week-end. Vous trouverez des informations sur le contenu du courrier électronique ici. Les messages électroniques doivent être configurés et mis à jour par les administrateurs via [School Data Sync](https://docs.microsoft.com/schooldatasync/). Cette fonctionnalité remplit automatiquement des classes pour les équipes avec les listes des étudiants du système d’information sur les étudiants (SIS) de l’établissement scolaire. Pour activer cette fonctionnalité, procédez comme suit :
+
+1. Importez des informations de contact parent via une synchronisation parent et tuteur dans SDS. Pour obtenir des instructions sur l’activation de la synchronisation parent et tuteur, voir activation de la [synchronisation parent et tuteur](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+
+2. Activez le paramètre Guardian dans le centre d’administration de Microsoft Teams, car ce paramètre est désactivé par défaut. Cela permettra aux enseignants d’envoyer un résumé hebdomadaire.
+
+   > [!NOTE]
+   > Les enseignants peuvent annuler le résumé en désélectionnant le paramètre au sein de leur équipe de classe personnelle (**paramètres d’affectation > messages parent/tuteur**).
+
+Pour vérifier que les parents obtiennent le message électronique, les trois éléments suivants doivent être vrais :
+
+ - Adresse de messagerie liée au profil d’étudiant dans SDS et balisée comme _parent_ ou _tuteur_. Pour plus d’informations, consultez [format de fichier de synchronisation parent et Guardian](https://docs.microsoft.com/schooldatasync/parent-contact-sync-file-format).
+
+ - Les étudiants appartiennent à au moins une classe dans laquelle les messages ne sont pas désactivés par l’enseignant dans les [paramètres d’affectation](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
+
+ - Le message électronique contient des informations sur les affectations ayant une date d’échéance au cours de la semaine précédente ou de la semaine prochaine.
 
 Ce paramètre est désactivé par défaut.
+
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
@@ -58,7 +74,7 @@ Ce paramètre est désactivé par défaut. Pour activer les affectations MakeCod
 
 Pour plus d’informations sur le fonctionnement de cette fonctionnalité, consultez cette [démonstration vidéo](https://makecode.com/blog/teams/teams-assignments).
 
-[En savoir plus sur MakeCode](https://aka.ms/makecode)
+[En savoir plus sur MakeCode](https://aka.ms/makecode).
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
@@ -67,22 +83,24 @@ Turnitin est un service de détection Plagiarism. Il s’agit d’un produit ou 
 
 Ce paramètre est désactivé par défaut.
 
-Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà disposer d’un abonnement Turnitin. Vous devrez entrer les informations supplémentaires suivantes qui se trouvent dans votre console d’administration Turnitin :
+Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà disposer d’un abonnement Turnitin. Vous devrez entrer les informations supplémentaires suivantes, qui se trouvent dans votre console d’administration Turnitin :
 
-  * _TurnitinApiKey_: il s’agit d’un GUID de 32 caractères qui se trouve dans la console d’administration sous intégrations.
-  * _TurnitinApiUrl_: il s’agit de l’URL HTTPS de votre console d’administration Turnitin.
+  * **TurnitinApiKey**: il s’agit d’un GUID de 32 caractères qui se trouve dans la console d’administration sous intégrations.
+  * **TurnitinApiUrl**: il s’agit de l’URL HTTPS de votre console d’administration Turnitin.
 
 Voici quelques instructions pour vous aider à obtenir ces informations.
 
-TurnitinApiUrl est l’adresse d’hôte de votre console d’administration.
-Example. `https://your-tenant-name.turnitin.com`
+**TurnitinApiUrl** est l’adresse d’hôte de votre console d’administration.
+Example `https://your-tenant-name.turnitin.com`
 
 La console d’administration est l’endroit où vous pouvez créer une intégration et une clé d’API associée à l’intégration.
 
 Sélectionnez **intégrations** dans le menu latéral, sélectionnez **Ajouter une intégration** et attribuez un nom à l’intégration.
+
 ![Capture d’écran montrant l’ajout d’une nouvelle intégration](./educationImages/Assignments_mopo_turnitin2.png)
 
-Le TurnitinApiKey vous sera fourni une fois que vous aurez suivi les invites. Copiez la clé de l’API et collez-la dans le centre d’administration Microsoft Teams.  C’est la seule fois où vous pouvez afficher la clé.
+Le **TurnitinApiKey** vous sera fourni une fois que vous aurez suivi les invites. Copiez la clé de l’API et collez-la dans le centre d’administration Microsoft Teams.  C’est la seule fois où vous pouvez afficher la clé.
+
 ![Capture d’écran montrant la copie de la clé de l’API](./educationImages/Assignments_mopo_turnitin3.png)
 
 Lorsque vous cliquez sur le bouton **Enregistrer** dans le centre d’administration pour ce paramètre, patientez quelques heures pour que ces paramètres soient pris en compte.
