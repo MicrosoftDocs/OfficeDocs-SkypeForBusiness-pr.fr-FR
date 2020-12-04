@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels sont les téléphones de bureau et de téléconférence certifiés par Microsoft teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 4bd11a800713dcfa5cbfa2092cd08adb6b86e05e
-ms.sourcegitcommit: 476cbb4c65ccb9d9b7635eff6b2e657e099425f6
+ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49518269"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570893"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -57,11 +57,12 @@ Les téléphones suivants sont certifiés pour Microsoft teams :
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 janvier                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 décembre                |
 | Poly-trio 8500/8800 (mode partagé uniquement) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 juin                    |
-| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020 mars                   |
-| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019 juin                    |
-| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | 2019                     |
-| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | 2018 décembre                |
-| Yealink T58 & T56 séries               | 58.15.0.20                                                                                                                                                                                                                                 | 2018 décembre                |
+| Yealink MP54 | 122.15.0.27| 2020 novembre |
+| Yealink MP56 | 122.15.0.6 | 2020 mars    |
+| Yealink VP59 | 91.15.0.16 | 2019 juin     |
+| Yealink T55  | 58.15.0.36 | 2019      |
+| Yealink CP 960| 73.15.0.20 | 2018 décembre|
+| Yealink T58 & T56 séries | 58.15.0.20 | 2018 décembre |
 
 ## <a name="currently-certified-collaboration-bars"></a>Barres de collaboration actuellement certifiées
 

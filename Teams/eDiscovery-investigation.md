@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814110"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570823"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -65,13 +65,15 @@ Le contenu de toutes les équipes n’est pas eDiscoverable. Le tableau suivant 
 
 L’image montre un exemple de métadonnées.
 
-![L’image est du CVR les métadonnées de la réunion.](media/conversationOption3.png)
+> [!div class="mx-imgBorder"]
+> ![L’image est du CVR les métadonnées de la réunion.](media/conversationOption3.png)
 
 Voici un exemple de conversation par messagerie instantanée entre participants lors de la réunion.
 
-![L’image est une conversation entre participants.](media/MeetingIMConversations.png)
+![Conversation entre les participants dans Teams.](media/MeetingIMConversations.png)
 
-![L’image est une conversation entre participants.](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![Conversation entre participants dans les résultats de recherche eDiscovery.](media/MeetingImConversation2.png)
 
 Pour effectuer une enquête eDiscovery avec le contenu Microsoft Teams, passez à l’étape 1 de la rubrique mise [en route de](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)Microsoft teams eDiscovery.
 
@@ -95,7 +97,7 @@ Procédez comme suit pour identifier les fichiers et les messages d’un canal p
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Inclusion de fichiers de canal privé dans une recherche eDiscovery
 
-Avant d’effectuer cette procédure, installez [SharePoint Online Management Shell et connectez-vous à SharePoint](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)online.
+Avant d’effectuer cette procédure, installez [SharePoint Online Management Shell et connectez-vous à SharePoint](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)online.
 
 1. Exécutez la commande suivante pour obtenir la liste de toutes les collections de sites SharePoint associées à des canaux privés au sein de l’équipe.
 
@@ -179,13 +181,14 @@ Un ensemble d’avis normal est semblable à une exportation. Il fournit les `.m
 
 Un ensemble de avis de conversation fournit une vue thématique et intuitive des conversations. il affiche conjointement les messages liés dans le bon ordre.
 
-![Capture d’écran du jeu de vérification de conversation](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![Capture d’écran du jeu de vérification de conversation](media/conversationOptions2.png)
 
 Les fonctionnalités telles que la biffure sont disponibles dans les deux types de révisions. Pour plus d’informations sur les ensembles de révision, voir [revoir des conversations dans Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Options de collection
 
-Lors de l’ajout d’un ensemble d’avis, plusieurs options sont disponibles en tant que cases à cocher dans la section **options de collection** de la fenêtre, y compris les options de **récupération de conversation** et les conversations d' **équipe**. Si vous activez ces options, tous les messages de teams individuels qui font partie de votre jeu de vérification seront également affichés avec des messages supplémentaires les entourant pour le contexte. Par exemple, si votre requête est très spécifique et qu’un seul message est retourné par conséquent, l’activation de ces options renverra également plusieurs messages au début et à la suite du message correspondant à votre requête.
+Lors de l’ajout d’un ensemble d’avis, plusieurs options sont disponibles en tant que cases à cocher dans la section **options de collection** de la fenêtre, y compris les options de **récupération de conversation** et les conversations d' **équipe**. Si vous activez ces options, tous les messages de teams individuels qui font partie de votre jeu de vérification seront également affichés avec des messages supplémentaires les entourant pour le contexte. Par exemple, si votre requête est spécifique et qu’un seul message est retourné par conséquent, l’activation de ces options renverra également plusieurs messages au début et à la suite du message correspondant à votre requête.
 
 De nombreux critères logiques permettent de déterminer si des messages supplémentaires fournissent un contexte aux messages correspondant à votre requête. Par exemple, pour le contenu d’une équipe, l’activation de ces options récupère le message parent et tous les messages enfants en raison de la façon dont les messages sont thématiques.
 
@@ -215,7 +218,8 @@ Cliquez sur l’onglet du **mode annotation** pour accéder aux fonctionnalités
 
 Voici un exemple de fichier biffé pour la conversation thématique entre les utilisateurs.
 
-![Capture d’écran d’un fichier biffé](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Capture d’écran d’un fichier biffé](media/RedactedFileExample.png)
 
 En bas de l’onglet **affichage d’annotation** figure le bouton **balise documents** qui affiche le panneau balisage. Dans ce panneau, vous pouvez appliquer un indicateur à tous les messages de la conversation Teams. Vous pouvez étiqueter une conversation comme réactif ou sans réponse, privilégié ou ne pas être privilégié, si elle contient des « éléments intéressants », si elle doit être incluse dans l’exportation et si elle a besoin d’une analyse approfondie. Vous pouvez également gérer et appliquer d’autres balises personnalisées.
 
@@ -238,7 +242,7 @@ Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur 
 > [!NOTE]
 > L’exportation peut prendre un certain temps. Pour effectuer le suivi de l’état du processus d’exportation, quittez l’onglet **révision** , puis cliquez sur l’onglet **exportations** .
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [eDiscovery dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
