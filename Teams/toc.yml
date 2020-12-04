@@ -240,7 +240,7 @@
       items:
         - name: Vue d’ensemble
           href: rooms/index.md
-        - name: Prévision
+        - name: Planification
           items:
             - name: Présentation de la planification des Salles Microsoft Teams
               href: rooms/rooms-plan.md
@@ -1091,11 +1091,11 @@
   items:
     - name: Vue d’ensemble
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-    - name: Tous les secteurs d’activité
+    - name: Tous les secteurs
       items:
         - name: Prise en main des modèles Teams
           href: get-started-with-teams-templates.md
-        - name: Plannings pour Teams
+        - name: Shifts pour Teams
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items:
             - name: Gérer l’application Shifts pour votre organisation dans Teams
@@ -1124,15 +1124,15 @@
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: Modèles teams pour la santé
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Gérer l’application Listes
+        - name: Gérer l’application de listes
           href: manage-lists-app.md
         - name: Gérer l’application tâches
           href: manage-tasks-app.md
-        - name: Plannings pour Teams
+        - name: Shifts pour Teams
           items:
-            - name: Plannings pour Teams
+            - name: Shifts pour Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Gérer l'application Changements de poste
+            - name: Gérer l’application équipes
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams pour l’éducation
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: Protection contre la perte de données
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
-          items:
-            - name: Mener une recherche eDiscovery de contenu
-              href: ediscovery-investigation.md
-            - name: "Placer un utilisateur ou une équipe Microsoft\_Teams en conservation légale"
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: Conservation légale
+          href: legal-hold.md
         - name: Recherche de contenu
-          items:
-            - name: Utiliser la recherche de contenu
-              href: content-search.md
-            - name: Rechercher des événements dans le journal d’audit
-              href: audit-log-events.md
+          href: content-search.md
+        - name: Audit
+          href: audit-log-events.md
     - name: Confidentialité
       items:
         - name: Confidentialité et Microsoft Teams
@@ -1287,7 +1283,7 @@
               href: CQD-data-and-reports.md
             - name: Utiliser le TBQA pour gérer la qualité des appels et des réunions
               href: quality-of-experience-review-guide.md
-            - name: Questions fréquentes (FAQ)
+            - name: Foire aux questions
               href: CQD-frequently-asked-questions.md
             - name: Dimensions et mesures disponibles dans le TBQA
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
