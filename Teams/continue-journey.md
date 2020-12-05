@@ -1,14 +1,14 @@
 ---
-title: Plan d’adoption des utilisateurs Microsoft teams | Meilleures pratiques
-author: serdarsoysal
-ms.author: serdars
+title: Utiliser Microsoft teams efficacement
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: Découvrez comment utiliser teams pour surveiller l’état du réseau, faire en sorte que les utilisateurs soient en train d’effectuer une nouvelle fonctionnalité et préparer de nouvelles fonctionnalités.
+description: Découvrez comment utiliser Microsoft teams pour surveiller l’état du réseau afin de permettre aux utilisateurs d’être enclenchés et de préparer de nouvelles fonctionnalités.
 localization_priority: Normal
 ms.custom:
 - Teams-upgrade-guidance
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 9ec8523ca154341ea213a6cce6712506dae47cad
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158502"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578047"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
 

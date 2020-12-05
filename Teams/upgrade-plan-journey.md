@@ -1,13 +1,13 @@
 ---
-title: Planifier la mise à niveau de Skype entreprise vers Microsoft teams | Infrastructure d’adoption
-author: lanachin
-ms.author: v-lanac
+title: Planifier la mise à niveau de Skype entreprise vers Microsoft teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Pour plus d’informations sur la planification de votre mise à niveau, vous devez d’abord la planifier, puis la portée du projet.
+description: Apprenez-en davantage sur la façon de planifier votre mise à niveau en effectuant les parties prenantes, puis en étendue du projet.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868451"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578437"
 ---
 # <a name="plan-for-your-upgrade"></a>Planifier la mise à niveau
 

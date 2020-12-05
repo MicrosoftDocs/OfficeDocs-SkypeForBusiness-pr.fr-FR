@@ -1,7 +1,7 @@
 ---
-title: Étendue du projet Skype entreprise à l’adoption de Microsoft teams
-author: lanachin
-ms.author: v-lanac
+title: Définir l’étendue du projet pour la mise à niveau de Skype entreprise vers Microsoft teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 50d6b3a1c88e50875b4b3c752205f6711d275d37
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522537"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578347"
 ---
 # <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
@@ -46,8 +46,8 @@ Le temps de définir la vision, l’objectif et la gouvernance de votre projet v
 
 Votre vision est l’état de « grande image » ou l’état de fin de l’éventualité qui répondra à la question « pourquoi est-ce que nous effectuons ce projet ? » Une vision idéale répond aux axes stratégiques de votre organisation et à la valeur de l’utilisateur, comme illustré dans les exemples suivants :
 
-- **Pilote d’entreprise**de l’Organisation : le standardisation sur Microsoft teams s’aligne sur la transformation de votre espace de travail numérique et nous permet d’améliorer l’efficacité opérationnelle, d’éliminer les solutions redondantes et d’économiser USD5 million de dollars.
-- **Valeur utilisateur : ajoutez**du temps à la création de Microsoft Teams (1) en fournissant un emplacement unique pour les notes de projet, les documents Office, les membres de l’équipe, les conversations et les réunions. (2) simplifie la communication en utilisant une liste de contacts centralisée et un suivi de conversations permanentes pour un accès rapide à vos conversations, et (3) allège la frustration d’essayer de retrouver la pièce jointe perdue en stockant et en accédant à des fichiers au même endroit.
+- **Pilote d’entreprise** de l’Organisation : le standardisation sur Microsoft teams s’aligne sur la transformation de votre espace de travail numérique et nous permet d’améliorer l’efficacité opérationnelle, d’éliminer les solutions redondantes et d’économiser USD5 million de dollars.
+- **Valeur utilisateur : ajoutez** du temps à la création de Microsoft Teams (1) en fournissant un emplacement unique pour les notes de projet, les documents Office, les membres de l’équipe, les conversations et les réunions. (2) simplifie la communication en utilisant une liste de contacts centralisée et un suivi de conversations permanentes pour un accès rapide à vos conversations, et (3) allège la frustration d’essayer de retrouver la pièce jointe perdue en stockant et en accédant à des fichiers au même endroit.
 
 Tenez compte des points de discussion suivants pour affiner votre vision :
 
@@ -118,7 +118,7 @@ Le tableau suivant montre des exemples de OKRs et KSIs pour les phases initiales
 - **Disponibilité du produit pour les exigences relatives à la conformité et aux scénarios d’utilisation**: reportez-vous à la procédure d' [introduction des produits](https://aka.ms/O365Roadmap) pour déterminer à quel moment les équipes seront prêtes pour votre organisation.
 - **Groupes de mise à niveau**: Déterminez si vous voulez autoriser les équipes ou à mettre à niveau les utilisateurs en effectuant des groupes de mise à niveau, qui peut affecter la chronologie de votre déroulement global de la mise à niveau.
 - **Facteurs d’organisation tels que changement d’évolution, fin de l’année fiscale, cycles de vie de déploiement**: Discutez et comptez de tout processus interne susceptible d’influer sur la chronologie de la mise à niveau.
-- **Autres modifications qui se produisent en même temps que d’autres**personnes : envisagez de regrouper ou d’écarter les modifications pour faciliter l’utilisation d’utilisateurs et réduire les répercussions sur la productivité.
+- **Autres modifications qui se produisent en même temps que d’autres** personnes : envisagez de regrouper ou d’écarter les modifications pour faciliter l’utilisation d’utilisateurs et réduire les répercussions sur la productivité.
 - **Réapprovisionnement**: confirmez l’attribution des ressources avec vos parties prenantes pour vous assurer que l’équipe de projet que vous avez réuni dispose de suffisamment de bande passante pour effectuer toutes les tâches nécessaires.
 
 À titre d’exemple, un exemple de chronologie est fourni pour les phases précédant la mise à niveau, la mise à niveau et après la mise à niveau du voyage dans le cadre de la [mise à niveau](https://aka.ms/UpgradePro), que nous vous encourageons à ajuster selon les besoins spécifiques de votre organisation.

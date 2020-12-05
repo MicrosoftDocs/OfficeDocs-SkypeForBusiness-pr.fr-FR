@@ -1,13 +1,13 @@
 ---
-title: Mise à niveau de Microsoft teams | Évaluation de l’environnement, questions de découverte
-author: lanachin
-ms.author: v-lanac
+title: Évaluez votre environnement avant de procéder à la mise à niveau vers teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Suivez ces instructions pour en savoir plus sur la configuration requise pour évaluer votre environnement actuel et procéder à la mise à niveau vers Teams.
+description: En savoir plus sur la configuration requise pour évaluer correctement votre environnement actuel pour la mise à niveau vers Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d348f05c8fece6684d01768934faedcb7603f
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158742"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578237"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Évaluez votre environnement avant de procéder à la mise à niveau vers teams
 

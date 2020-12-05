@@ -1,7 +1,7 @@
 ---
-title: Mise à niveau de Skype entreprise Online vers Microsoft teams | Deploy
-author: lanachin
-ms.author: v-lanac
+title: Mise à niveau de Skype entreprise Online vers Microsoft teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940504"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578257"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Mise à niveau de Skype Entreprise Online vers Teams
 
@@ -58,12 +58,12 @@ Suivez ces étapes pour mettre à niveau tous vos utilisateurs vers teams en mê
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Étape 1 : informer les utilisateurs de la modification (facultatif)
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez **Org-wide settings**  >  **mise à niveau des équipes**des paramètres à l’échelle de l’organisation.
+1. Dans le centre d’administration de Microsoft Teams, sélectionnez **Org-wide settings**  >  **mise à niveau des équipes** des paramètres à l’échelle de l’organisation.
 2. Sous **mode de coexistence**, changez le paramètre **informer les utilisateurs de Skype entreprise qu’une mise à niveau vers teams est disponible** **.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Étape 2 : définir le mode de coexistence sur TeamsOnly pour l’Organisation
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez **paramètres à l’échelle**de l’organisation.
+1. Dans le centre d’administration de Microsoft Teams, sélectionnez **paramètres à l’échelle** de l’organisation.
 2. Sélectionner le mode **équipes uniquement** dans la liste déroulante du **mode coexistence** .
 
 ## <a name="upgrade-users-in-stages"></a>Mettre à niveau les utilisateurs par étapes

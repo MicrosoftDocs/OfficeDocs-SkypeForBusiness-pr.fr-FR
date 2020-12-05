@@ -1,13 +1,13 @@
 ---
 title: Interopérabilité entre Skype entreprise et Microsoft teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Détails des options de coexistence de Skype entreprise et Microsoft Teams, ainsi que de l’interopérabilité entre Skype entreprise et Teams.
+description: Détails des options de coexistence de Skype entreprise et Microsoft Teams, ainsi que l’interopérabilité qui en résulte entre Skype entreprise et Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff315ba578d74939e533912f696da6b6eb7abf34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515891"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578497"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
@@ -144,7 +144,7 @@ Les utilisateurs de Skype entreprise peuvent passer des appels vocaux et vidéo 
 > [!Important]
 > Les expériences d’interopérabilité d’un déploiement local de Skype entreprise requièrent que l’environnement local soit en mode hybride avec Microsoft 365 ou Office 365 Skype entreprise. Pour plus d’informations, consultez les [conseils de migration et d’interopérabilité](https://aka.ms/SkypeToTeams-Interop).
 
-Ces expériences d’interopérabilité sont accessibles aux utilisateurs et aux utilisateurs qui disposent de l’un des modes de coexistence suivants attribués : **Skype entreprise avec collaboration en équipe**, **Skype entreprise avec collaboration et réunions en équipe**, **Skype entreprise uniquement**ou **équipes uniquement**. Il n’existe aucune interopérabilité entre les utilisateurs en mode **îlot** .
+Ces expériences d’interopérabilité sont accessibles aux utilisateurs et aux utilisateurs qui disposent de l’un des modes de coexistence suivants attribués : **Skype entreprise avec collaboration en équipe**, **Skype entreprise avec collaboration et réunions en équipe**, **Skype entreprise uniquement** ou **équipes uniquement**. Il n’existe aucune interopérabilité entre les utilisateurs en mode **îlot** .
 
 ### <a name="native-interop-experience-limitations"></a>Limitations de l’interface d’interopérabilité native
 

@@ -1,13 +1,13 @@
 ---
-title: Mise à niveau de Microsoft teams à partir de Skype entreprise | Modes, coexistence
-author: lanachin
-ms.author: v-lanac
+title: Choisissez le passage de votre mise à niveau de Skype entreprise à Microsoft teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: Des informations sur les modes et modes de coexistence de Skype entreprise et Microsoft Teams, ainsi que la mise à niveau vers des équipes de Skype entreprise avec des exemples de scénario.
+description: Des informations sur les options de coexistence de Skype entreprise et Microsoft Teams, ainsi que des déplacements de mise à niveau vers des équipes, par exemple.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 23a71a075730f1447259d6e3a4a3dd21f650bfd7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940414"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578157"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 

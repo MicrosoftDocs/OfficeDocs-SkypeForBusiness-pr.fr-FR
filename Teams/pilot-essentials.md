@@ -1,13 +1,13 @@
 ---
-title: Piloter Microsoft teams avec Skype entreprise | Déploiement, adoption d’une implémentation
-author: lanachin
-ms.author: v-lanac
+title: Conduire un pilote utilisateur pour évaluer et tester le fonctionnement de Microsoft teams dans votre organisation
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Recommandations pour le démarrage d’un pilote Microsoft teams pour découvrir toutes les équipes qui peuvent être proposées par votre organisation tout en continuant à utiliser Skype entreprise
+description: Recommandations pour le démarrage d’un pilote Microsoft teams pour découvrir toutes les équipes susceptibles de vous permettre d’utiliser Skype entreprise
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f74b3d59c226c3445fb317c22c29c67682d8107
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522687"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578317"
 ---
 # <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
@@ -108,8 +108,8 @@ Si les résultats indiquent :
 
 - **Vos buts pilotes (par exemple, la satisfaction des utilisateurs et la qualité du réseau) ont été atteints**, vous devez être prêt à passer à la phase suivante du déploiement. En fonction des objectifs de votre projet, il peut s’agir de l’un des éléments suivants :
   - Extension du pilote à d’autres participants
-  - [Activation d’équipes en même temps que Skype entreprise (en mode**îlot** ) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [Mise à niveau des utilisateurs de Skype entreprise vers Teams (en mode**teams uniquement** ) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Activation d’équipes en même temps que Skype entreprise (en mode **îlot** ) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Mise à niveau des utilisateurs de Skype entreprise vers Teams (en mode **teams uniquement** ) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
 - **Votre pilote ne répond pas aux attentes souhaitées (par exemple, la satisfaction des utilisateurs et la qualité du réseau)**, prenez le temps de procéder aux ajustements appropriés de votre plan et de revoir votre pilote.
 
 > [!Tip]

@@ -1,7 +1,7 @@
 ---
-title: Formation sur Microsoft teams | Problèmes d’administration du support technique
-author: lanachin
-ms.author: v-lanac
+title: Préparer votre équipe informatique pour Microsoft teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 680106618d610d0adc3f93658e3a522d63850e24
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085900"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578457"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre équipe informatique pour Microsoft teams
 

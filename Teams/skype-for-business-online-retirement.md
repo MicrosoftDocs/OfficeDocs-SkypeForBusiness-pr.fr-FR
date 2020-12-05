@@ -1,13 +1,13 @@
 ---
 title: Déclassement de Skype Entreprise Online
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: En savoir plus sur le plan de retraite de Skype entreprise Online et la façon dont Microsoft est d’aider les clients à migrer vers Teams.
+description: En savoir plus sur le plan de retraite de Skype entreprise Online et la façon dont Microsoft contribue aux clients à migrer vers Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359390"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578487"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 

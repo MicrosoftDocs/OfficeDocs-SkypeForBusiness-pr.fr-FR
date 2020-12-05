@@ -1,13 +1,13 @@
 ---
-title: Skype entreprise vers Microsoft teams | Mettre à niveau la disponibilité du changement d’utilisateur
-author: lanachin
-ms.author: v-lanac
+title: Évaluez la disponibilité du changement d’organisation pour la mise à niveau de Skype entreprise vers teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Découvrez comment déterminer la volonté de votre organisation de migrer correctement vers l’environnement Microsoft Teams.
+description: Découvrez comment évaluer la préparation de votre organisation pour une transition réussie vers Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39690deaf7561aedf6192217c66e67c3cd6c5e99
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: b422fc9542f989cd335bfb3064fbdecb7f59bfe7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523127"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578287"
 ---
 # <a name="assess-organizational-change-readiness"></a>Évaluer la préparation au changement de l’organisation
 

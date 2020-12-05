@@ -1,13 +1,13 @@
 ---
-title: Conditions préalables pour Microsoft teams | Mise à niveau des dépendances
-author: lanachin
-ms.author: v-lanac
+title: Conditions préalables et dépendances environnementales pour la mise à niveau vers teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Utilisez ces instructions pour en savoir plus sur les conditions préalables et les dépendances environnementales du déploiement d’équipes au sein de votre organisation.
+description: Utilisez ces instructions pour en savoir plus sur les conditions préalables et les dépendances environnementales pour le déploiement d’équipes au sein de votre organisation.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: bcd3de45954ea500a6be0d325370ab0660604a65
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158732"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578277"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Prérequis et dépendances environnementales pour les équipes
 

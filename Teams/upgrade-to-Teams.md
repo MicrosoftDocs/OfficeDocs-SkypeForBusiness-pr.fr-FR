@@ -1,7 +1,7 @@
 ---
-title: Effectuer une mise à niveau vers Microsoft teams | Introduction aux équipes Skype entreprise
-author: CarolynRowe
-ms.author: crowe
+title: Vue d’ensemble de l’implémentation de la mise à niveau vers Microsoft teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a0e8ca9356704d471320e4474f48270375aea2d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868491"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578357"
 ---
-# <a name="overview"></a>Vue d’ensemble
+# <a name="overview-of-implementing-your-upgrade"></a>Vue d’ensemble de l’implémentation de votre mise à niveau
 
 ![Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 

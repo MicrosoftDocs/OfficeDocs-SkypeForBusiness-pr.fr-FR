@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477043"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578507"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive entreprise et SharePoint ou un flux pour les enregistrements de réunion
 
@@ -99,7 +99,7 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > Si certains de vos utilisateurs ont affecté une stratégie par organisateur ou par utilisateur, vous devez définir ce paramètre sur cette stratégie si vous souhaitez qu’ils stockent également les enregistrements de la réunion dans OneDrive entreprise et SharePoint. Pour plus d’informations, consultez [gérer les stratégies de réunion dans Microsoft teams](meeting-policies-in-teams.md).
 
@@ -153,7 +153,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Comment gérer les transcriptions ?**
 
-Les clients qui choisissent de bénéficier de cette version d’évaluation ne disposent pas de sous-titres disponibles dans leurs enregistrements de réunion teams migrés vers OneDrive entreprise et SharePoint.Nous travaillons à l’ajout de sous-titres, en commençant par des sous-titres en anglais, et des enregistrements de réunion en octobre 2020.
+Les clients qui choisissent de bénéficier de cette version d’évaluation ne disposent pas de sous-titres disponibles dans leurs enregistrements de réunion teams migrés vers OneDrive entreprise et SharePoint.Nous travaillons pour ajouter des sous-titres, en commençant par des sous-titres en anglais, pour les enregistrements des réunions du 4e CY2020.
 
 Les sous-titres seront disponibles dans les enregistrements de réunion teams pour les clients qui ont choisi d’autoriser les transcriptions comme décrit dans la rubrique [enregistrements Cloud teams](cloud-recording.md) .
 
@@ -180,3 +180,7 @@ Le flux en tant que plateforme ne sera pas déconseillé dans un avenir proche. 
 **Comment puis-je Appliquer une étiquette de conservation ?**
 
 Découvrez [comment appliquer automatiquement une étiquette de rétention](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**Comment attribuer des stratégies aux utilisateurs de Microsoft teams et quelles stratégies sont prioritaires ?**
+
+[Déterminez quelle stratégie est prioritaire ?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
