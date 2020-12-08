@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Gérer les stratégies de routage des communications vocales
               href: manage-voice-routing-policies.md
+            - name: Routage direct Survivable Branch Appliance branchable
+              href: direct-routing-survivable-branch-appliance.md
     - name: Numéros de téléphone
       items:
         - name: Gérer les numéros de téléphone pour votre organisation
@@ -943,7 +945,7 @@
               href: upgrade-prepare-environment.md
             - name: Préparer le service informatique pour Teams
               href: upgrade-prepare-IT-pros.md
-            - name: Conditions préalables
+            - name: Configuration requise
               href: upgrade-plan-journey-prerequisites.md
             - name: Évaluer votre environnement
               href: upgrade-plan-journey-evaluate-environment.md
