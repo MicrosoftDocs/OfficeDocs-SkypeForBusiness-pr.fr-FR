@@ -21,30 +21,31 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a0bf0dd0141679dc89ed1d5ecc0cfc542854c8
-ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
+ms.openlocfilehash: 64be355da30feb3c629569f583897353c21cfa37
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561050"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586617"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
-Les affectations sont des tâches ou des unités de travail attribuées à un étudiant ou à un membre d’équipe dans une classe dans le cadre de leur étude. Vous pouvez créer des devoirs au sein de votre classe Teams.
+Les fonctionnalités de devoirs et de notes dans teams éducation permettent aux enseignants d’affecter des tâches, des travaux ou des questionnaires aux étudiants. Les enseignants peuvent gérer les chronologies de devoirs, les instructions, ajouter des ressources pour les rendre plus adaptées aux rubriques, etc. Ils peuvent également suivre la progression de la classe et des étudiants individuels dans l’onglet notes.
 
-[En savoir plus sur les devoirs](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
+[Pour en savoir plus, voir devoirs et notes dans teams pour l’éducation](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Pour plus d’informations sur les affectations d’équipe sur différentes plateformes, voir [fonctionnalités d’équipes par plate-forme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Devoirs dans le centre d’administration Microsoft teams
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Intégrations des devoirs dans le centre d’administration Microsoft teams
 
-Les paramètres d’administration du centre d’administration Microsoft teams vous permettent d’activer ou de désactiver les fonctionnalités suivantes pour être disponibles pour les étudiants et enseignants au sein de votre organisation. Vous trouverez ci-dessous des paramètres relatifs aux devoirs :
+À l’aide des paramètres d’administration dans le centre d’administration de Microsoft Teams, vous pouvez activer ou désactiver des fonctionnalités pour les enseignants au sein de votre organisation et leurs étudiants. Vous trouverez ci-dessous des paramètres relatifs aux devoirs :
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Résumé du message électronique du tuteur de chaque semaine
 
-Les courriers électroniques contiennent des informations sur les affectations de la semaine précédente et de la semaine à venir, et seront envoyées pendant le week-end. Vous trouverez des informations sur le contenu du courrier électronique ici. Les messages électroniques doivent être configurés et mis à jour par les administrateurs via [School Data Sync](https://docs.microsoft.com/schooldatasync/). Cette fonctionnalité remplit automatiquement des classes pour les équipes avec les listes des étudiants du système d’information sur les étudiants (SIS) de l’établissement scolaire. Pour activer cette fonctionnalité, procédez comme suit :
+
+Les messages électroniques de tuteur sont envoyés chaque semaine à des parents ou tuteurs. Le message contient des informations sur les affectations de la semaine précédente et la semaine à venir. La synchronisation parent et tuteur peut être configurée à l’aide de [School Data Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync).
 
 1. Importez des informations de contact parent via une synchronisation parent et tuteur dans SDS. Pour obtenir des instructions sur l’activation de la synchronisation parent et tuteur, voir activation de la [synchronisation parent et tuteur](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
@@ -61,7 +62,7 @@ Pour vérifier que les parents obtiennent le message électronique, les trois é
 
  - Le message électronique contient des informations sur les affectations ayant une date d’échéance au cours de la semaine précédente ou de la semaine prochaine.
 
-Ce paramètre est désactivé par défaut.
+Le paramètre par défaut de cette fonctionnalité est **désactivé**.
 
 
 <a name="bkmakecode"> </a>
@@ -70,7 +71,9 @@ Microsoft MakeCode est une plate-forme de codage basée sur blocs qui donne vie 
 
 MakeCode est un produit Microsoft soumis aux [conditions d’utilisation](https://go.microsoft.com/fwlink/?LinkID=206977) et aux politiques de [confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839) de Microsoft.
 
-Ce paramètre est désactivé par défaut. Pour activer les affectations MakeCode dans Teams, dans le **Centre d’administration teams**, accédez à la section **affectations** , puis activez l’option bascule **MakeCode.** Cliquez sur **Enregistrer** et autorisez quelques heures pour que les paramètres soient pris en compte.
+Le paramètre par défaut de cette fonctionnalité est **désactivé**.
+
+Pour activer les affectations MakeCode dans Teams, accédez au **Centre d’administration teams**, accédez à la section **affectations** , puis activez l’option bascule **MakeCode.** Cliquez sur **Enregistrer**. Autorisez quelques heures pour que les paramètres soient pris en compte.
 
 Pour plus d’informations sur le fonctionnement de cette fonctionnalité, consultez cette [démonstration vidéo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -79,11 +82,11 @@ Pour plus d’informations sur le fonctionnement de cette fonctionnalité, consu
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin est un service de détection Plagiarism. Il s’agit d’un produit ou service tiers soumis à ses propres modalités et politique de confidentialité. Vous êtes responsable de l’utilisation des produits et services tiers.
+[Turnitin](https://www.turnitin.com/) est un service d’intégrité éducation. Il s’agit d’un produit ou service tiers soumis à ses propres modalités et politique de confidentialité. Vous êtes responsable de l’utilisation des produits et services tiers.
 
-Ce paramètre est désactivé par défaut.
+Le paramètre par défaut de cette fonctionnalité est **désactivé**.
 
-Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà disposer d’un abonnement Turnitin. Vous devrez entrer les informations supplémentaires suivantes, qui se trouvent dans votre console d’administration Turnitin :
+Pour activer Turnitin pour votre organisation, vous aurez besoin d’un abonnement Turnitin. Vous pouvez ensuite entrer les informations suivantes, qui se trouvent dans votre console d’administration Turnitin :
 
   * **TurnitinApiKey**: il s’agit d’un GUID de 32 caractères qui se trouve dans la console d’administration sous intégrations.
   * **TurnitinApiUrl**: il s’agit de l’URL HTTPS de votre console d’administration Turnitin.
@@ -103,6 +106,5 @@ Le **TurnitinApiKey** vous sera fourni une fois que vous aurez suivi les invites
 
 ![Capture d’écran montrant la copie de la clé de l’API](./educationImages/Assignments_mopo_turnitin3.png)
 
-Lorsque vous cliquez sur le bouton **Enregistrer** dans le centre d’administration pour ce paramètre, patientez quelques heures pour que ces paramètres soient pris en compte.
+Lorsque vous cliquez sur le bouton **Enregistrer** dans le centre d’administration pour ce paramètre, autorisez quelques heures pour que les paramètres soient pris en compte.
 
-Vous êtes prêt à commencer à utiliser l’intégration de Turnitin dans Microsoft teams ? Inscrivez-vous au [programme d’accès en avant](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

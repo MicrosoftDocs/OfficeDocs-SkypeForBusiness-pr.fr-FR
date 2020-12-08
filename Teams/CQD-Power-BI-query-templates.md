@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez Power BI pour analyser les données de bord pour Microsoft Teams.
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085568"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588327"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser des données bord pour Microsoft teams
 
@@ -35,7 +35,7 @@ Vérifiez que vous avez le [rôle d’accès bord](turning-on-and-using-call-qua
 
 |  |  |
 |---------|---------|
-|<strong>(Nouveau !)</strong> Le standard automatique d’équipes de bord & le rapport historique des files d’attente. PBiT     |  Ce modèle fournit les trois rapports suivants :</p><li>Standard automatique : affiche les données d’analyse pour les appels provenant de vos standards automatiques.</li><li>File d’attente des appels : affiche les données d’analyse des appels arrivant dans vos files d’attente d’appels.</li><li>Chronologie de l’agent : affichage de la chronologie des agents actives dans les appels de files d’attente d’appels.</li><br>Pour en savoir plus, voir [utiliser bord dans le rapport Power bi pour afficher le standard automatique & rapport historique de la file d’attente d’appels](CQD-teams-aa-cq-historical-report.md).        |
+|<strong>(Nouveau !)</strong> Le standard automatique d’équipes de bord & le rapport historique des files d’attente. PBiT     |  Ce modèle fournit les trois rapports suivants :</p><li>Standard automatique : affiche les données d’analyse pour les appels provenant de vos standards automatiques.</li><li>File d’attente des appels : affiche les données d’analyse des appels arrivant dans vos files d’attente d’appels.</li><li>Chronologie de l’agent : affichage de la chronologie des agents actives dans les appels de files d’attente d’appels.</li><br>Pour en savoir plus, voir [standard automatique & rapport historique de la file d’attente d’appels](aa-cq-cqd-historical-reports.md).        |
 |Rapport du support bord. PBiT     |En intégrant les données de bâtiment et de EUII, ce rapport est conçu pour vous permettre d’effectuer un zoom avant d’un utilisateur unique pour rechercher la cause initiale de la mauvaise qualité d’appel pour cet utilisateur (par exemple, l’utilisateur se trouve dans un bâtiment rencontrant des problèmes de réseau).         |
 |Rapport bord emplacement amélioré. PBiT     | Réimaginer les rapports d’emplacement SPD bord. Inclut 9 rapports, offrant une qualité d’appel, des informations de fiabilité et de fréquence d’appel, en créant ou en fonction de l’utilisateur.  Assurez-vous de télécharger les données de bâtiment pour optimiser votre qualité de création de rapports.        |
 |Rapport sur les appareils mobiles bord. PBiT     | Fournit des informations spécifiquement adaptées aux utilisateurs d’appareils mobiles, notamment la qualité des appels, la fiabilité et les tarifs d’appel. Afficher les rapports sur le réseau mobile, le réseau WiFi et le système d’exploitation mobile (Android, iOS).        |

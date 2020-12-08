@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526391"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588307"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -51,7 +51,7 @@ Vous pouvez également définir des compartiments, qui sont des catégories que 
 
 ### <a name="add-required-columns"></a>Ajouter des colonnes requises
 
-Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivant, en commençant par la première colonne. Un nœud doit être lié à une équipe pour pouvoir recevoir des tâches. Dans le cadre de la version d’évaluation privée, nous prenons en charge les nœuds 500. Au démarrage, nous attendons de prendre en charge au moins 2 000 nœuds par défaut. Nous prévoyons de travailler avec les clients pour élever cette limite pour les grandes organisations.
+Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivant, en commençant par la première colonne. Un nœud doit être lié à une équipe pour pouvoir recevoir des tâches. Dans le cadre de la version d’évaluation privée, nous prenons en charge les nœuds 2 000. Au démarrage, nous attendons de prendre en charge au moins 15 000 nœuds par défaut. Nous prévoyons de travailler avec les clients pour élever cette limite pour les grandes organisations.
 
 | Nom de la colonne   | Obligatoire | Description   |
 ----------------|----------|---------------|
