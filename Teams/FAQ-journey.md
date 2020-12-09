@@ -1,7 +1,7 @@
 ---
 title: FAQ sur la mise à niveau de Skype Entreprise vers Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766587"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578367"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 
@@ -57,7 +57,7 @@ Non, vous devez basculez les utilisateurs sur le mode Teams uniquement pour term
 
 
 **Qui puis-je contacter si j’ai des questions sur le processus de mise à niveau ?**<br>
-Pour les questions concernant votre mise à niveau, contactez vos points de contact actuels, qui peuvent inclure votre équipe du compte Microsoft désignée, partenaire ou [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Vous pouvez également ouvrir un ticket d’aide à partir de votre [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/) en cliquant sur le bouton **Besoin d’aide** .
+Pour les questions concernant votre mise à niveau, contactez vos points de contact actuels, qui peuvent inclure votre équipe du compte Microsoft désignée, partenaire ou [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Vous pouvez également ouvrir un ticket d’aide à partir de votre [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/) en cliquant sur le bouton **Besoin d’aide**.
 
 ![Bouton Besoin d’aide](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Vous avez la possibilité de mettre à niveau les utilisateurs vers Teams au fur
 
 **Que se passe-t-il une fois que mes utilisateurs ont été mis à niveau ?**<br>
 
-Après la mise à niveau de vos utilisateurs vers Teams (mode **Teams uniquement** ) :
+Après la mise à niveau de vos utilisateurs vers Teams (mode **Teams uniquement**) :
 
 - Leur client Skype Entreprise sera désactivé et ne pourra plus être utilisé, et toutes les discussions et tous les appels seront transférés dans Teams. Ce client continuera à être utilisé pour les réunions Skype Entreprise planifiées auparavant. Si ce client de bureau est désinstallé, les utilisateurs seront redirigés pour accéder aux réunions Skype Entreprise planifiées auparavant via l'application web Skype Entreprise.
 
@@ -134,7 +134,7 @@ Sa disponibilité dans Teams n’entraînera aucune modification de la couvertur
 
 
 
-**Les fournisseurs d’audioconférence (ACP) tiers sont-ils pris en charge dans Teams** ?<br>
+**Les fournisseurs d’audioconférence (ACP) tiers sont-ils pris en charge dans Teams**?<br>
 Il n’est pas prévu que les fournisseurs d’audioconférence (ACP) tiers soient pris en charge dans Teams. Nous pensons que l’expérience d’audioconférence optimale pour les clients qui utilisent Teams et Skype Entreprise sera d'utiliser nos services d’audioconférence. Les clients qui ont besoin d’avoir recours à notre prise en charge des ACP dans les réunions Skype Entreprise peuvent continuer à utiliser leur client Skype Entreprise pour rejoindre les réunions Skype Entreprise. Les réunions planifiées dans Teams devront utiliser les services de conférence audio de Microsoft 365.
 
 La prise en charge de l’intégration de fournisseurs d’audioconférence (ACP) tiers dans Skype Entreprise Online a été prolongée jusqu’au 31 juillet 2021, avec une prise en charge limitée des clients actifs restants afin d’autoriser une transition supplémentaire. Il s’agit d’une mise à jour de la chronologie ACP annoncée en avril 2018.
