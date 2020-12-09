@@ -1,7 +1,7 @@
 ---
 title: Gérer le cycle de vie des canaux privés dans Microsoft teams
-author: lanachin
-ms.author: v-lanac
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr, phlouie
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
+ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012290"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49601659"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
