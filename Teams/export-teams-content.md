@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 896e60e8de6e01208a07c40e757a79a12192383a
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650977"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611818"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exporter du contenu à l’aide des API d’exportation de Microsoft teams
 
@@ -37,7 +37,7 @@ Voici quelques exemples de la manière dont vous pouvez utiliser ces API d’exp
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Quels sont les fonctionnalités prises en charge par les API d’exportation d’équipes ?
 
 - **Exportation en bloc du message d’équipes :** Les API d’exportation d’équipes prennent en charge jusqu’à 200 RPS par application par client et 600 RPS pour une application, avec ces limites, vous devriez être en mesure d’exporter en bloc des messages Teams.
-- **Contexte**de l’application : pour appeler Microsoft Graph, votre application doit acquérir un jeton d’accès auprès de la plateforme d’identité Microsoft. Le jeton d’accès contient des informations sur votre application, ainsi que les autorisations qu’elle contient pour les ressources et API disponibles via Microsoft Graph. Pour obtenir un jeton d’accès, votre application doit être inscrite auprès de la plateforme d’identité Microsoft et être habilitée par un utilisateur ou un administrateur à accéder aux ressources Microsoft Graph dont elle a besoin.
+- **Contexte** de l’application : pour appeler Microsoft Graph, votre application doit acquérir un jeton d’accès auprès de la plateforme d’identité Microsoft. Le jeton d’accès contient des informations sur votre application, ainsi que les autorisations qu’elle contient pour les ressources et API disponibles via Microsoft Graph. Pour obtenir un jeton d’accès, votre application doit être inscrite auprès de la plateforme d’identité Microsoft et être habilitée par un utilisateur ou un administrateur à accéder aux ressources Microsoft Graph dont elle a besoin.
 
     Pour obtenir des jetons, voir la section [étapes suivantes](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) pour en savoir plus sur l’intégration d’une application à la plateforme d’identité Microsoft.
 - **Environnement hybride :** Les API d’exportation prennent en charge les messages envoyés par les utilisateurs approvisionnés dans un environnement hybride (Exchange et équipes locale). Les messages envoyés par des utilisateurs qui sont configurés pour un environnement hybride seront accessibles via les API d’exportation.
@@ -93,13 +93,13 @@ Espace de noms : Microsoft. Graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "0de69e5e-2da8-4cf2-821f-5e6585b2c65b",
-                    "displayName": "User Name",
+                    "id": "string (identifier)",
+                    "displayName": "string",
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "19:0de69e5e-2da8-4cf2-821f-5e6585b2c65b_5c64e248-3269-4268-a36e-0f80314e9c39@unq.gbl.spaces"
+"chatId": "string (identifier)"
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557948"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616948"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -97,7 +97,7 @@ Les paramètres d’administration suivants de Skype Entreprise sont différents
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Paramètres d’administration dans teams par rapport à Microsoft Outlook
 
-La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
+La présence d’équipes dans Outlook est prise en charge sur l’application de bureau Outlook 2013 et versions ultérieures pour les contacts au sein de la même organisation.
 
 Si la stratégie mode de mise à niveau du compte d’utilisateur est définie sur TeamsOnly, Outlook parle à teams pour obtenir de la présence. Si ce n’est pas le cas, vous pouvez faire en sorte qu’Outlook parle à Skype entreprise.
 

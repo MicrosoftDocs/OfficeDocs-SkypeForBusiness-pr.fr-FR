@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9351c37c96e4bc11f0e5f93041f7e024158d7564
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030620"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611798"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le planificateur de réseaux pour Microsoft teams
 
-Le planificateur de réseaux est un nouvel outil disponible dans le centre d’administration Teams. Vous pouvez le trouver en accédant **à Planner**  >  **Network Planner**. En quelques étapes seulement, le planificateur de réseaux peut vous aider à déterminer et organiser les exigences réseau pour la connexion des utilisateurs Microsoft teams au sein de votre organisation. Lorsque vous fournissez les informations relatives à votre réseau et à l’utilisation des équipes, le planificateur réseau calcule la configuration requise pour le déploiement d’équipes et de la voix Cloud dans les emplacements physiques de votre organisation.
+Le planificateur de réseaux est un nouvel outil disponible dans le centre d’administration Teams. Ce service est disponible en accédant à **Planning**  >  **Network Planner**. En quelques étapes seulement, le planificateur de réseaux peut vous aider à déterminer et organiser les exigences réseau pour la connexion des utilisateurs Microsoft teams au sein de votre organisation. Lorsque vous fournissez les informations relatives à votre réseau et à l’utilisation des équipes, le planificateur réseau calcule la configuration requise pour le déploiement d’équipes et de la voix Cloud dans les emplacements physiques de votre organisation.
 
 ![Capture d’écran du planificateur de réseaux](media/network-planner.png)
 
@@ -80,9 +80,9 @@ Pour commencer à créer votre plan réseau, procédez comme suit :
 
     1. Ajoutez un nom et une description pour votre site.
 
-    2. Sous **paramètres réseau** , ajoutez le nombre d’utilisateurs du réseau sur ce site (obligatoire).
+    2. Sous **paramètres réseau**, ajoutez le nombre d’utilisateurs du réseau sur ce site (obligatoire).
 
-    3. Ajoutez des informations sur le réseau : accès WAN, capacités WAN, sortie Internet ( **locale** ou **distante** ), sortie PSTN (aucun, local ou distant).
+    3. Ajoutez des informations sur le réseau : accès WAN, capacités WAN, sortie Internet (**locale** ou **distante**), sortie PSTN (aucun, local ou distant).
 
       > [!NOTE]
       > Vous devez ajouter des numéros de capacités WAN et Internet pour afficher des recommandations en matière de bande passante spécifiques lors de la génération d’un rapport.

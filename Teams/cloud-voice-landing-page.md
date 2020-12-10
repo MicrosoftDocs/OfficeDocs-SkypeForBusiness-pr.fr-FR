@@ -23,12 +23,12 @@ search.appverid: MET150
 description: En savoir plus sur les fonctionnalités de voix sur le Cloud de Microsoft teams et les décisions de déploiement que vous allez apporter à votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071765"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611716"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution vocale teams 
 
@@ -36,7 +36,7 @@ Cet article vous aide à déterminer la solution Microsoft Voice adaptée à vot
 
 Vous voudrez peut-être utiliser le système téléphonique de la solution la plus simple &mdash; avec le plan d’appels. Il s’agit de la solution tout-en-Cloud de Microsoft qui fournit les fonctionnalités de PBX et les appels au réseau téléphonique public commuté (RTC), comme indiqué dans le schéma suivant. Avec cette solution, Microsoft est votre opérateur PSTN.
 
-![Le diagramme 1 montre un système téléphonique avec un plan d’appels](media/msft-voice-solutions-1.png)
+![Le diagramme 1 montre un système téléphonique avec un plan d’appels](media/voice-solutions-simple.png)
 
 Si vous répondez oui à ce qui suit, le système téléphonique avec la formule d’appel est la solution adaptée à votre cas :
 
@@ -62,6 +62,9 @@ Toutefois, votre situation peut être plus complexe. Par exemple, il est possibl
 
 **Selon vos besoins.** Certaines des sections de cet article sont pertinentes en fonction de votre déploiement actuel et de vos exigences. Par exemple, le routage Location-Based est requis uniquement pour les clients de routage direct situés dans des emplacements géographiques qui n’autorisent pas le contournement du numéro.
 
+Déterminez les configurations supplémentaires dont vous aurez besoin :
+
+![Le diagramme 2 indique les composants vocaux supplémentaires, tels que les numéros de téléphone de Microsoft, les plans de numérotation et le routage des appels, etc.](media/voice-consider-additional-components.png)
 
 | Selon vos besoins | Description |
 | :------------|:-------|
@@ -91,6 +94,8 @@ Cet article présente les fonctionnalités clés du système téléphonique et s
 - [Standards automatiques et files d’attente d’appels](#auto-attendants-and-call-queues)
 - [Messagerie vocale cloud](#cloud-voicemail)
 - [Identité d’appel](#calling-identity)
+
+![Le diagramme 3 indique que le système téléphonique contient des standards automatiques, des requêtes d’appel, la boîte vocale Cloud et l’identité des appels](media/phone-system-contains.png)
 
 Pour plus d’informations sur l’ensemble des fonctionnalités du système téléphonique et sur la configuration du système téléphonique, voir les articles suivants :
 
@@ -145,7 +150,7 @@ Vous pouvez également choisir une combinaison d’options vous permettant de co
 
 Comme décrit précédemment dans cet article, le système téléphonique avec un plan d’appels est le système de gestion vocale tout-en-le Cloud de Microsoft pour les utilisateurs de teams. Il s’agit de l’option la plus simple qui connecte le système Microsoft Phone au réseau téléphonique public commuté (RTC) pour permettre les appels vers des téléphones fixes et mobiles dans le monde entier. Avec cette option, Microsoft fournit des fonctionnalités PBX (Private Branch Exchange) pour votre organisation et agit comme votre opérateur PSTN, comme illustré dans le schéma suivant :
 
-![Le diagramme 1 montre un système téléphonique avec un plan d’appels](media/msft-voice-solutions-1a.png)
+![Le diagramme 4 illustre le système téléphonique avec les standards automatiques, les files d’attente d’appels, l’identification de l’appelant, etc., et Microsoft comme opérateur PSTN](media/voice-solution-microsoft-complete.png)
 
 Si vous répondez oui à ce qui suit, le système téléphonique avec la formule d’appel est la solution adaptée à votre cas :
 
@@ -175,7 +180,7 @@ Pour plus d’informations sur la planification des appels, voir les articles su
 
 Cette option connecte le système Microsoft Phone à votre réseau téléphonique en utilisant le routage direct, comme indiqué dans le schéma suivant : 
 
-![Diagramme 2 montrant le système téléphonique avec le routage direct](media/msft-voice-solutions-2.png)
+![Diagramme 5 montrant le système téléphonique avec le routage direct](media/voice-solution-with-direct-routing.png)
 
 Si vous répondez oui aux questions suivantes, le système téléphonique avec le routage direct est la solution adaptée à votre cas :
 
@@ -212,7 +217,6 @@ Pour plus d’informations sur le routage direct, voir les articles suivants :
 - [Gérer les stratégies de routage téléphonique pour une utilisation avec le routage direct](manage-voice-routing-policies.md)
 - [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
 - [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Numéros de téléphone de Microsoft
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les stratégies de messagerie et savoir comment les utiliser pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 050f072a2148be909dbaabd4ac8ab53c1e5bb298
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814180"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611658"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -85,7 +85,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 <a name="bkchat"> </a>
 
 - **Discussions**  Activez ce paramètre si vous souhaitez que les utilisateurs de votre organisation puissent utiliser l’application équipes pour discuter avec d’autres personnes.
-- **Utiliser Giphys dans les conversations**  Si vous activez cette fonction, les utilisateurs peuvent inclure des Giphys dans les conversations par messagerie instantanée avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu.
+- **Utiliser Giphys dans les conversations**  Si vous activez cette fonction, les utilisateurs peuvent inclure des Giphys dans les conversations par messagerie instantanée avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. Notez que, en plus de activer ce paramètre, vous devez également activer les [expériences connectées facultatives](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) pour autoriser Giphys dans les conversations.
 - **Évaluation du contenu Giphy**
     - **Aucune restriction** Cela signifie que vos utilisateurs seront en mesure d’insérer des Giphy dans les discussions indépendamment de l’évaluation du contenu.
     - **Modérer**  Cela signifie que vos utilisateurs seront en mesure d’insérer des Giphys dans les discussions, mais qu’ils seront modérément limités à des contenus adultes.
@@ -109,7 +109,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md)
 - [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)

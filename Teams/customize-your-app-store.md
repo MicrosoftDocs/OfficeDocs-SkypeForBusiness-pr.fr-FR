@@ -18,24 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur le magasin d’applications personnalisé dans Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818817"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611829"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisé dans Microsoft teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
-Vous pouvez désormais personnaliser le magasin des applications teams avec votre marque de votre organisation en ajoutant votre logo, des arrière-plans personnalisés et des couleurs de texte personnalisées pour le rendre plus attrayant aux utilisateurs finaux.
+Vous pouvez désormais personnaliser le magasin d’applications de votre organisation en équipe avec la marque de votre entreprise en ajoutant votre logo, des arrière-plans personnalisés et des couleurs de texte personnalisées pour le rendre plus attrayant aux utilisateurs finaux.
 
 > [!Note]
 > Le changement de personnalisation nécessite 24 heures pour que les modifications soient prises en compte.
 
-Pour accéder à l’option personnalisation du magasin dans le centre d’administration, sélectionnez **applications teams** , puis personnaliser le Windows  >  **Store** .
+Pour accéder à l’option personnalisation du magasin dans le centre d’administration, sélectionnez **applications teams**, puis personnaliser le Windows  >  **Store**.
 
   ![Fonctionnalité personnaliser le Windows Store mise en évidence dans la console d’administration](media/customize-app-store.png)
 
@@ -88,7 +85,7 @@ Vous disposez des options suivantes :
   - . svg
   - . png
   - . jpg
-- Sélectionner un arrière-plan personnalisé Lorsque vous sélectionnez **choisir une couleur personnalisée** , un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
+- Sélectionner un arrière-plan personnalisé Lorsque vous sélectionnez **choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
 
 L’image ou la couleur d’arrière-plan est utilisée en tant qu’arrière-plan pour la bannière supérieure dans le catalogue d’applications client d’équipes.
 
@@ -100,7 +97,7 @@ L’image ou la couleur d’arrière-plan est utilisée en tant qu’arrière-pl
 
 Assurez-vous que la couleur du texte dispose de suffisamment de contraste avec l’arrière-plan pour permettre aux utilisateurs de lire clairement le nom de votre organisation. Le texte s’affichera dans le client teams dans les **applications**  >  **développées pour votre** en-tête de locataire.
 
-Lorsque vous sélectionnez **choisir une couleur personnalisée** , un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
+Lorsque vous sélectionnez **choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle de la palette de couleurs.
 
  ![Image d’un sélecteur de couleurs](media/choose-a-custom-color.png)
 
@@ -108,6 +105,8 @@ Lorsque vous sélectionnez **choisir une couleur personnalisée** , un sélecteu
 
 Lorsque vous avez terminé de personnaliser votre magasin d’applications, veillez à sélectionner **Enregistrer** pour enregistrer vos modifications.
 Pour afficher un aperçu de vos modifications, sélectionnez **aperçu des applications Store** pour afficher une représentation de votre magasin d’applications personnalisées.
+
+ ![Aperçu du magasin Apps personnalisé](media/app-store1.jpg)
 
 > [!Note]
 > La représentation peut varier en fonction de la version finale de votre magasin d’applications personnalisées, car certaines couleurs par défaut sont basées sur la version du client teams de vos utilisateurs.

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installation de Power BI Connector pour utiliser les modèles de requête de tableau de bord de qualité d’appel (bord)
-ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c3812032f385a3428feec7f1126663e815af1b52
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584053"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611578"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer le connecteur Power BI pour utiliser des modèles de requête bord
 
@@ -30,15 +30,18 @@ Lire [Utilisez Power bi pour analyser les données de bord pour les équipes](CQ
 
 Vérifiez que vous avez le [rôle d’accès bord](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) approprié pour accéder aux rapports Power bi.
 
+> [!NOTE]
+> Le connecteur Power BI bord prend uniquement en charge les DirectQuery de Power BI. Le mode d’importation n’est pas pris en charge. 
+
 ## <a name="installation"></a>Installation
 
 Pour plus d’informations sur l’installation d’un connecteur personnalisé et sur l’ajustement de la sécurité afin d’activer l’utilisation du connecteur, voir la [documentation relative à Power bi](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). Par souci de simplicité, voici une explication rapide :
 
-1. Vérifiez si votre ordinateur possède déjà un dossier de * \[ \] \\ connecteurs de \\ connecteurs personnalisés pour le bureau Power bi*   . Si ce n’est pas le cas, créez ce dossier. <sup>1</sup>
+1. Vérifiez si votre ordinateur possède déjà un dossier de *\[ \] \\ connecteurs de \\ connecteurs personnalisés pour le bureau Power bi* . Si ce n’est pas le cas, créez ce dossier. <sup>1</sup>
 
-2. Téléchargez le fichier de connecteur (fichier * \* . Mez* ou * \* . pqx* ) et placez-le dans le répertoire de *connecteurs personnalisés* .
+2. Téléchargez le fichier de connecteur (fichier *\* . Mez* ou *\* . pqx* ) et placez-le dans le répertoire de *connecteurs personnalisés* .
 
-3. **Si le fichier de connecteur est un fichier * \* . Mez* ,** vous devrez également régler vos paramètres de sécurité comme décrit dans la [documentation de configuration du connecteur personnalisé](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3. **Si le fichier de connecteur est un fichier *\* . Mez* ,** vous devrez également régler vos paramètres de sécurité comme décrit dans la [documentation de configuration du connecteur personnalisé](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 Si une nouvelle version de ce connecteur Power BI pour Microsoft teams est publiée, remplacez simplement l’ancien fichier de connecteur dans le répertoire de *connecteurs personnalisés* par le nouveau fichier.
 
@@ -62,7 +65,7 @@ Pour créer un rapport et exécuter des requêtes, vous devez d’abord vous con
 
 6. À ce stade, Power BI chargera le modèle de données sur le côté droit de la fenêtre. Le reste de la page est vide et aucune requête n’est chargée par défaut. Passez à la **création de requêtes** ci-dessous afin de générer une requête et de renvoyer les données.
 
-Si l’une des étapes de ce processus de configuration n’a pas été entièrement claire, une explication plus détaillée du processus est disponible [ici](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
+Si l’une des étapes de ce processus de configuration n’était pas totalement claire, une explication plus détaillée du processus se trouve dans l’aide au [démarrage : connexion aux données dans Power bi Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
 
 ## <a name="building-queries"></a>Création de requêtes
 
@@ -152,7 +155,7 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette zone, contact
 
 ## <a name="footnotes"></a>Notes de fin
 
-**<sup>1</sup>** certains processus et applications (par exemple, OneDrive) peuvent entraîner le changement du dossier racine de votre document. Assurez-vous que le répertoire de * \\ connecteurs personnalisés de Power bi* est placé à l’intérieur du dossier documents du dossier racine actuel.
+**<sup>1</sup>** certains processus et applications (par exemple, OneDrive) peuvent entraîner le changement du dossier racine de votre document. Assurez-vous que le répertoire de *\\ connecteurs personnalisés de Power bi* est placé à l’intérieur du dossier documents du dossier racine actuel.
 
 **<sup>2</sup>** les informations d’identification que vous utilisez pour bord *n’ont pas* besoin d’être identiques aux informations d’identification utilisées pour la connexion à l’application de bureau Power bi.
 
@@ -175,7 +178,7 @@ Pour plus d’informations, consultez les articles suivants :
 
 La limite de 10 000 ligne est en fait spécifiée à la fin de l’API, et elle est conçue pour améliorer sensiblement les performances et limiter le risque d’erreurs d’exécution de requête résultant de la faible quantité de mémoire.
 
-Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est préférable de restructurer vos rapports conformément aux meilleures pratiques en matière de connecteurs. Les modèles que nous avons inclus sont conçus pour illustrer ces bonnes pratiques. Dans la mesure du possible, commencez par examiner vos indicateurs de performance clés à l’aide de dimensions plus grandes et de cardinalité, telles que le mois, l’année, la date, la région, le pays, etc. À partir de là, vous pouvez effectuer des recherches dans les dimensions de plus en plus élevées. Les rapports d’assistance technique et de localisation sont des exemples de bon déroulement du flux de travail exploration.
+Au lieu d’essayer d’augmenter le nombre de lignes de résultats, il est préférable de restructurer vos rapports conformément aux meilleures pratiques en matière de connecteurs. Les modèles que nous avons inclus sont conçus pour illustrer ces bonnes pratiques. Dans la mesure du possible, commencez par examiner vos indicateurs de performance clés à l’aide de dimensions plus grandes et de cardinalité, telles que le mois, l’année, la date, la région, le pays, etc. À partir de là, vous pouvez effectuer des recherches dans les dimensions de plus en plus élevées. Le support technique et les rapports d' Location-Enhanced fournissent des exemples de ce flux de travail.
 
 
 

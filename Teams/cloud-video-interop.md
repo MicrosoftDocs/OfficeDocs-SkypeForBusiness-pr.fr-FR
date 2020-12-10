@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523421"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611848"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -59,7 +59,7 @@ Les partenaires suivants disposent de solutions d’interopérabilité vidéo po
 
 |Partenaire|Solution de partenariat|
 |----|---|
-|![Logo représentant Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect Polycom</a> |
+|![Logo représentant poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect</a> |
 |![Logo représentant l’infini de PEXIP](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">PEXIP Infinity pour Microsoft teams</a> | 
 |![Logo représentant la passerelle BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft teams</a> |
 |![Le logo représentant Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Intégration vidéo de Cisco Webex pour Microsoft teams</a>|

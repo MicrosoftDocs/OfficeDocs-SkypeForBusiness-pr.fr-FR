@@ -1,7 +1,7 @@
 ---
 title: Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,14 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment attribuer des stratégies à des ensembles de personnes importants dans votre établissement scolaire en fonction de l’appartenance à un groupe ou directement par le biais d’une affectation par lot dans le cadre de l’établissement scolaire à distance (télé-établissement).
 f1keywords: ''
-ms.openlocfilehash: 0b4fd804b51fef9537d30230aed400bb0cb7e0aa
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: afcaba9df0ff745977b84e34683c1bdfcaca0d01
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534100"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616938"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Pour plus d’histoire sur l’attribution de stratégies dans Microsoft Teams, voir [attribuer des stratégies à vos utilisateurs dans teams](assign-policies.md).
@@ -147,6 +149,7 @@ Exécutez la commande suivante pour vous connecter à teams et démarrer une ses
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Lorsque vous y êtes invité, connectez-vous à l’aide des informations d’identification d’administrateur que vous avez utilisées pour vous connecter à Azure AD.
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Annuler l’affectation d’une stratégie attribuée directement aux utilisateurs
@@ -160,7 +163,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-Dans cet exemple, la stratégie de réunion est supprimée de la liste des utilisateurs dans un fichier texte nommé user_ids.txt. 
+Dans cet exemple, la stratégie de réunion est supprimée de la liste des utilisateurs dans un fichier texte nommé user_ids.txt.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -225,6 +228,7 @@ Exécutez la commande suivante pour vous connecter à teams et démarrer une ses
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Lorsque vous y êtes invité, connectez-vous à l’aide des informations d’identification d’administrateur que vous avez utilisées pour vous connecter à Azure AD.
 
 #### <a name="identify-your-users"></a>Identifier vos utilisateurs

@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 2cb28295b0a9700a0eb7531111022a9498517d93
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030420"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611588"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -89,7 +89,7 @@ Les utilisateurs de Mac peuvent installer Teams à l’aide d’un fichier d’i
 
 #### <a name="install-teams-by-using-the-pkg-file"></a>Installer Teams en utilisant le fichier PKG
 
-1. À partir de la [page de téléchargement Teams](https://teams.microsoft.com/downloads), sous **Mac** , cliquez sur **Télécharger**.
+1. À partir de la [page de téléchargement Teams](https://teams.microsoft.com/downloads), sous **Mac**, cliquez sur **Télécharger**.
 2. Double-cliquez sur le fichier PKG.
 3. Suivez les indications de l'Assistant Installation pour effectuer l'installation.
 4. Teams sera installé dans le dossier /Applications. Il s’agit d’une installation à l’échelle de l’ordinateur.
@@ -126,7 +126,7 @@ La clé de signature permettant d’activer la mise à jour automatique à l’a
 1. Téléchargez le package à partir de https://aka.ms/getteams.
 2. Installez à l’aide de l'une des opérations suivantes :  
     - Ouvrez l’outil de gestion des packages approprié et suivez le processus d’installation de l’application Linux auto-guidée.
-    - Ou, si vous aimez Terminal, tapez : `sudo apt install **teams download file**`
+    - Ou, si vous aimez Terminal, tapez : `sudo dpkg -i **teams download file**`
 
 Vous pouvez lancer Teams via les activités ou via un Terminal en tapant `teams`. 
 
@@ -197,9 +197,9 @@ En Chine, voici comment [obtenir Teams pour Android](get-teams-android-in-china.
 
 Les plateformes mobiles prises en charge pour les applications mobiles Microsoft Teams sont les suivantes :
 
--   **Android**  : la prise en charge est limitée aux quatre dernières versions principales d’Android. Lors de la publication d’une nouvelle version majeure d’Android, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
+-   **Android** : la prise en charge est limitée aux quatre dernières versions principales d’Android. Lors de la publication d’une nouvelle version majeure d’Android, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
 
--   **iOS**  : la prise en charge est limitée aux deux versions principales d’iOS les plus récentes. Lors de la publication d’une nouvelle version majeure d’iOS, la nouvelle version of iOS et les versions précédentes sont officiellement prises en charge.
+-   **iOS** : la prise en charge est limitée aux deux versions principales d’iOS les plus récentes. Lors de la publication d’une nouvelle version majeure d’iOS, la nouvelle version of iOS et les versions précédentes sont officiellement prises en charge.
 
 > [!NOTE]
 > La version mobile doit être disponible au public pour que Teams fonctionne comme prévu.

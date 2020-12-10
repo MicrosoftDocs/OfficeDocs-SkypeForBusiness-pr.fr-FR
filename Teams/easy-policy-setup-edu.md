@@ -1,7 +1,7 @@
 ---
 title: Assistant politique de Microsoft teams pour l’éducation permettant d’appliquer facilement des politiques pour une formation sécurisée
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant politique de Microsoft teams pour l’éducation pour appliquer facilement des stratégies aux étudiants et aux enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564253"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616918"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant politique de Microsoft teams pour l’éducation pour appliquer facilement des stratégies pour un environnement d’apprentissage sûr
 
@@ -68,17 +68,17 @@ Commençons.
 
 <a name="polwiz_run"> </a>
 
-Pour exécuter l’Assistant, procédez comme suit. 
+Pour exécuter l’Assistant, procédez comme suit.
 
 1. S’il s’agit de nouvelles équipes, l’Assistant démarre automatiquement. Dans le cas contraire, vous pouvez démarrer l’Assistant à tout moment à partir du tableau de bord. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au **tableau de bord**, puis dans la fenêtre **configuration de la stratégie simplifiée d’un environnement d’apprentissage sûr** , sélectionnez **Configuration rapide**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Capture d’écran de l’Assistant dans le tableau de bord":::
 
-2. Sélectionnez votre type d’établissement scolaire (**principal ou secondaire** ou **supérieur**), puis cliquez sur **suivant**.
+2. Sélectionnez votre type d’établissement scolaire (**principal ou secondaire** ou **supérieur**), puis sélectionnez **suivant**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de la page de l’Assistant pour sélectionner un type d’établissement":::
 
-3. Recherchez et sélectionnez un groupe qui contient vos enseignants et membres du personnel, puis cliquez sur **suivant**. Si vous n’avez pas encore configuré de groupes pour les enseignants et le personnel, [créez un groupe](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), puis réexécutez l’Assistant. <br/><br/>Pour l’instant, vous ne pouvez sélectionner qu’un seul groupe. Les enseignants et le personnel dans le groupe que vous sélectionnez disposeront [d’un ensemble de stratégies personnalisées](#policies-applied-by-the-wizard) adaptées à leurs besoins. N’oubliez pas que ce jeu de stratégies est différent des politiques appliquées aux étudiants.
+3. Recherchez et sélectionnez un groupe qui contient vos enseignants et membres du personnel, puis sélectionnez **suivant**. Si vous n’avez pas encore configuré de groupes pour les enseignants et le personnel, [créez un groupe](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), puis réexécutez l’Assistant. <br/><br/>Pour l’instant, vous ne pouvez sélectionner qu’un seul groupe. Les enseignants et le personnel dans le groupe que vous sélectionnez disposeront [d’un ensemble de stratégies personnalisées](#policies-applied-by-the-wizard) adaptées à leurs besoins. N’oubliez pas que ce jeu de stratégies est différent des politiques appliquées aux étudiants.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Capture d’écran de la page de l’Assistant pour sélectionner les enseignants et les membres du personnel enseignant":::
 
@@ -130,7 +130,7 @@ Par exemple, vous avez affecté une stratégie de réunion directement aux ensei
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>Étape 2 : recherchez d’autres mesures que vous pouvez appliquer pour la sécurité des étudiants
 
-L’Assistant ajuste et applique automatiquement [ces stratégies](#policies-applied-by-the-wizard). Il existe quelques mesures supplémentaires que vous voudrez peut-être prendre en fonction de vos besoins en matière de sécurité.
+L’Assistant ajuste et applique automatiquement [ces stratégies](#policies-applied-by-the-wizard). Il y a quelques mesures supplémentaires, que vous voudrez peut-être prendre en fonction de vos besoins en matière de sécurité.
 
 Apprenez à [maintenir la sécurité des étudiants lors de l’utilisation d’équipes pour une formation à distance](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) pour des recommandations supplémentaires en matière de sécurité.
 
