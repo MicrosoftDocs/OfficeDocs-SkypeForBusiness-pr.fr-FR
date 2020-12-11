@@ -3,7 +3,7 @@ title: Service de routage direct SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611788"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620725"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Appareil de branchement survivant (SBA) pour le routage direct-Aperçu public
 
@@ -42,7 +42,7 @@ Cet article décrit comment utiliser une application de branchement Survivable (
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Le code de l’erreur SBA est fourni par Microsoft aux fournisseurs de SBC qui incorporent ensuite le code dans le microprogramme de leur SBCs. 
+Le code de la fonction SBA est le code distribuable fourni par Microsoft aux fournisseurs de SBC qui incorporent le code dans son microprogramme ou le répartir séparément de manière à ce que l’utilisateur SBA s’exécute sur un ordinateur virtuel ou un matériel distinct. 
 
 Pour obtenir le dernier microprogramme de contrôleur de bordure de session avec l’appareil de branchement Survivable intégré, contactez votre fournisseur de SBC. Par ailleurs, les informations suivantes sont nécessaires :
 
